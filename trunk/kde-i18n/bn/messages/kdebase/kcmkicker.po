@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkicker\n"
-"POT-Creation-Date: 2004-07-20 01:20+0200\n"
+"POT-Creation-Date: 2005-01-19 01:22+0100\n"
 "PO-Revision-Date: 2004-10-08 12:17-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -135,7 +135,8 @@ msgstr ""
 msgid "Main Panel"
 msgstr "মূল প্যানেল"
 
-#: hidingtab_impl.cpp:205 rc.cpp:136
+#. i18n: file hidingtab.ui line 374
+#: hidingtab_impl.cpp:205 rc.cpp:193
 #, no-c-format
 msgid "Show left panel-hiding bu&tton"
 msgstr ""
@@ -160,11 +161,11 @@ msgstr ""
 "নীচের প্যানেল লুকনোর বা&টন "
 "দেখাও"
 
-#: lookandfeeltab_impl.cpp:74
+#: lookandfeeltab_impl.cpp:75
 msgid "Select Image File"
 msgstr "চিত্র ফাইল বেছে নিন"
 
-#: lookandfeeltab_impl.cpp:140
+#: lookandfeeltab_impl.cpp:150
 msgid ""
 "Error loading theme image file.\n"
 "\n"
@@ -177,11 +178,11 @@ msgstr ""
 "%1\n"
 "%2"
 
-#: lookandfeeltab_kcm.cpp:36 main.cpp:82
+#: lookandfeeltab_kcm.cpp:36 main.cpp:90
 msgid "kcmkicker"
 msgstr "kcmkicker"
 
-#: lookandfeeltab_kcm.cpp:36 main.cpp:82
+#: lookandfeeltab_kcm.cpp:36 main.cpp:90
 msgid "KDE Panel Control Module"
 msgstr ""
 "কে.ডি.ই. প্যানেল নিয়ন্ত্রণ "
@@ -195,7 +196,7 @@ msgstr ""
 "(c) ১৯৯৯ - ২০০১ ম্যাথিয়াস এল্টর\n"
 "(c) ২০০২ এরন জে. সেইগো"
 
-#: lookandfeeltab_kcm.cpp:86 main.cpp:206
+#: lookandfeeltab_kcm.cpp:86 main.cpp:50
 msgid ""
 "<h1>Panel</h1> Here you can configure the KDE panel (also referred to as "
 "'kicker'). This includes options like the position and size of the panel, as "
@@ -227,23 +228,24 @@ msgstr ""
 "অ্যাপলেটগুলিও নিয়ন্ত্রণ  "
 "করা যায়।"
 
-#: main.cpp:55
+#: main.cpp:63
 msgid "Arran&gement"
 msgstr "বিন্যা&স"
 
-#: main.cpp:59
+#: main.cpp:67
 msgid "H&iding"
 msgstr "লু&কনো"
 
-#: main.cpp:63
+#: main.cpp:71
 msgid "&Menus"
 msgstr "মেনু (&ম)"
 
-#: main.cpp:67
-msgid "&Appearance"
+#: main.cpp:75
+#, fuzzy
+msgid "A&ppearance"
 msgstr "চেহারা (&চ)"
 
-#: main.cpp:84
+#: main.cpp:92
 msgid ""
 "(c) 1999 - 2001 Matthias Elter\n"
 "(c) 2002 - 2003 Aaron J. Seigo"
@@ -321,42 +323,26 @@ msgstr "ডানদিকে নীচে"
 msgid "All Screens"
 msgstr "সব স্ক্রীণ"
 
-#: positiontab_impl.cpp:517 rc.cpp:406
+#. i18n: file positiontab.ui line 409
+#: positiontab_impl.cpp:516 rc.cpp:524
 #, no-c-format
 msgid "Custom"
 msgstr "স্বনির্বাচিত"
 
-#: rc.cpp:2
+#. i18n: file advancedOptions.ui line 27
+#: rc.cpp:3
 #, no-c-format
 msgid "Panel Dimensions"
 msgstr "প্যানেল পরিমাপ"
 
-#: rc.cpp:4
-#, no-c-format
-msgid "Allow Drag 'n Drop &resizing of panels"
-msgstr ""
-
+#. i18n: file advancedOptions.ui line 38
 #: rc.cpp:6
-#, fuzzy, no-c-format
-msgid ""
-"With this option enabled you can click and drag the edge of the panel to "
-"freely resize it. The panel's size has to be set to \"Custom\". This option "
-"can also be set in the panel's context menu."
-msgstr ""
-"এই অপশন সক্রিয় আপনি পারে "
-"ক্লিক এবং টি কিনারা -র টি     s "
-"আকার আছে   "
-"সেট,সমষ্টি,মাননির্ধারণকরা   "
-"স্বনির্বাচিত অপশন পারে "
-"সেট,সমষ্টি,মাননির্ধারণকরা -এ "
-"টি s context মেনু."
-
-#: rc.cpp:8
 #, no-c-format
 msgid "&Hide button size:"
 msgstr "লুকনোর বাট&ন-এর আকার:"
 
-#: rc.cpp:10 rc.cpp:14
+#. i18n: file advancedOptions.ui line 44
+#: rc.cpp:9 rc.cpp:15
 #, no-c-format
 msgid ""
 "This setting defines how large the panel hide buttons will be if they are "
@@ -366,22 +352,26 @@ msgstr ""
 "প্যানেল লুকনোর বাটনগুলি "
 "প্রদর্শিত হলে কত বড় হবে।"
 
-#: rc.cpp:12 rc.cpp:394
+#. i18n: file advancedOptions.ui line 52
+#: rc.cpp:12 rc.cpp:530
 #, no-c-format
 msgid " pixels"
 msgstr " পিক্সেল"
 
-#: rc.cpp:16
+#. i18n: file advancedOptions.ui line 88
+#: rc.cpp:18
 #, no-c-format
 msgid "Applet Handles"
 msgstr "অ্যাপলেট হ্যাণ্ডল"
 
-#: rc.cpp:18
+#. i18n: file advancedOptions.ui line 99
+#: rc.cpp:21
 #, no-c-format
 msgid "&Visible"
 msgstr "দেখা যাক (&দ)"
 
-#: rc.cpp:20
+#. i18n: file advancedOptions.ui line 108
+#: rc.cpp:24
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -397,12 +387,14 @@ msgstr ""
 "এবং -এ টি</p>\n"
 "</qt>"
 
-#: rc.cpp:25
+#. i18n: file advancedOptions.ui line 116
+#: rc.cpp:30
 #, no-c-format
 msgid "&Fade out"
 msgstr "ফেড &আউট"
 
-#: rc.cpp:27
+#. i18n: file advancedOptions.ui line 122
+#: rc.cpp:33
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -419,12 +411,14 @@ msgstr ""
 "এবং -এ টি</p>\n"
 "</qt>"
 
-#: rc.cpp:32
+#. i18n: file advancedOptions.ui line 130
+#: rc.cpp:39
 #, no-c-format
 msgid "&Hide"
 msgstr "লু&কনো থাক"
 
-#: rc.cpp:34
+#. i18n: file advancedOptions.ui line 135
+#: rc.cpp:42
 #, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
@@ -440,12 +434,14 @@ msgstr ""
 "অথবা কিছু</p>\n"
 "</qt>"
 
-#: rc.cpp:38
+#. i18n: file advancedOptions.ui line 162
+#: rc.cpp:47
 #, no-c-format
 msgid "Transparency"
 msgstr "স্বচ্ছতা"
 
-#: rc.cpp:41 rc.cpp:59
+#. i18n: file advancedOptions.ui line 184
+#: rc.cpp:51 rc.cpp:78
 #, fuzzy, no-c-format
 msgid "Click on this button to set the color to use when tinting transparent panels."
 msgstr ""
@@ -453,12 +449,14 @@ msgstr ""
 "সেট,সমষ্টি,মাননির্ধারণকরা "
 "টি রং   ব্যবহার যখন."
 
-#: rc.cpp:43
+#. i18n: file advancedOptions.ui line 209
+#: rc.cpp:54
 #, no-c-format
 msgid "Min"
 msgstr "সর্বনিম্ন"
 
-#: rc.cpp:45 rc.cpp:47 rc.cpp:51 rc.cpp:55
+#. i18n: file advancedOptions.ui line 215
+#: rc.cpp:57 rc.cpp:60 rc.cpp:66 rc.cpp:72
 #, fuzzy, no-c-format
 msgid ""
 "Use this slider to set how much transparent panels should be tinted using "
@@ -468,27 +466,32 @@ msgstr ""
 "সেট,সমষ্টি,মাননির্ধারণকরা "
 "কি ভাবে উচিত ব্যবহার টি রং."
 
-#: rc.cpp:49
+#. i18n: file advancedOptions.ui line 251
+#: rc.cpp:63
 #, no-c-format
 msgid "Max"
 msgstr "সর্বোচ্চ"
 
-#: rc.cpp:53
+#. i18n: file advancedOptions.ui line 265
+#: rc.cpp:69
 #, no-c-format
 msgid "Ti&nt amount:"
 msgstr "টিন্ট-&এর মাত্রা:"
 
-#: rc.cpp:57
+#. i18n: file advancedOptions.ui line 279
+#: rc.cpp:75
 #, no-c-format
 msgid "Tint c&olor:"
 msgstr "টিন্ট-এ&র রং"
 
-#: rc.cpp:61
+#. i18n: file applettab.ui line 24
+#: rc.cpp:81
 #, no-c-format
 msgid "Security Level"
 msgstr "নিরাপত্তা লেভেল"
 
-#: rc.cpp:63
+#. i18n: file applettab.ui line 35
+#: rc.cpp:84
 #, no-c-format
 msgid "Load only trusted applets internal"
 msgstr ""
@@ -496,63 +499,74 @@ msgstr ""
 "অ্যাপলেট অভ্যন্তরীণ হিসাবে "
 "লোড করো"
 
-#: rc.cpp:65
+#. i18n: file applettab.ui line 43
+#: rc.cpp:87
 #, no-c-format
 msgid "Load startup config applets internal"
 msgstr ""
 "প্রারম্ভিক অ্যাপলেটগুলি "
 "অভ্যন্তরীণ হিসাবে লোড করো"
 
-#: rc.cpp:67
+#. i18n: file applettab.ui line 51
+#: rc.cpp:90
 #, no-c-format
 msgid "Load all applets internal"
 msgstr ""
 "সব অ্যাপলেট অভ্যন্তরীণ "
 "হিসাবে লোড করো"
 
-#: rc.cpp:69
+#. i18n: file applettab.ui line 67
+#: rc.cpp:93
 #, no-c-format
 msgid "List of Trusted Applets"
 msgstr "বিশ্বস্ত অ্যাপলেটের তালিকা"
 
-#: rc.cpp:71
+#. i18n: file applettab.ui line 84
+#: rc.cpp:96
 #, no-c-format
 msgid "Available Applets"
 msgstr "যে যে অ্যাপলেট আছে"
 
-#: rc.cpp:73
+#. i18n: file applettab.ui line 133
+#: rc.cpp:99
 #, no-c-format
 msgid ">>"
 msgstr ">>"
 
-#: rc.cpp:75
+#. i18n: file applettab.ui line 172
+#: rc.cpp:102
 #, no-c-format
 msgid "<<"
 msgstr "<<"
 
-#: rc.cpp:77
+#. i18n: file applettab.ui line 197
+#: rc.cpp:105
 #, no-c-format
 msgid "Trusted Applets"
 msgstr "বিশ্বস্ত অ্যাপলেট"
 
-#: rc.cpp:80 rc.cpp:319
+#. i18n: file hidingtab.ui line 41
+#: rc.cpp:109 rc.cpp:463
 #, no-c-format
 msgid "S&ettings for:"
 msgstr ""
 
-#: rc.cpp:82
+#. i18n: file hidingtab.ui line 76
+#: rc.cpp:112
 #, no-c-format
 msgid "Hide Mode"
 msgstr "লুকানোর মোড"
 
-#: rc.cpp:84
+#. i18n: file hidingtab.ui line 124
+#: rc.cpp:115
 #, no-c-format
 msgid "Allow other &windows to cover the panel"
 msgstr ""
 "অন্যান্য উইণ্ডো প্যানেলকে "
 "ঢাকা দিতে পারবে"
 
-#: rc.cpp:86
+#. i18n: file hidingtab.ui line 127
+#: rc.cpp:118
 #, fuzzy, no-c-format
 msgid ""
 "If this option is selected, the panel will allow itself to be covered by "
@@ -561,14 +575,16 @@ msgstr ""
 "এই অপশন আছে নির্বাচিত টি   allow     "
 "অন্য."
 
-#: rc.cpp:88
-#, no-c-format
-msgid "&Only hide when a panel-hiding button is clicked"
+#. i18n: file hidingtab.ui line 135
+#: rc.cpp:121
+#, fuzzy, no-c-format
+msgid "On&ly hide when a panel-hiding button is clicked"
 msgstr ""
 "শুধু লুকনোর বাটন ক্লিক করা "
 "হলে লুকো&ও"
 
-#: rc.cpp:90
+#. i18n: file hidingtab.ui line 141
+#: rc.cpp:124
 #, fuzzy, no-c-format
 msgid ""
 "If this option is selected, the only way to hide the panel will be to click "
@@ -579,14 +595,16 @@ msgstr ""
 "টি লুকোও ঐ মনে হয় ওপর হয় শেষ -র  "
 "."
 
-#: rc.cpp:92
+#. i18n: file hidingtab.ui line 152
+#: rc.cpp:127
 #, no-c-format
 msgid "&Show panel when switching desktops"
 msgstr ""
 "ডেস্কট&প বদল করলে প্যানেল "
 "দেখাও"
 
-#: rc.cpp:94
+#. i18n: file hidingtab.ui line 155
+#: rc.cpp:130
 #, fuzzy, no-c-format
 msgid ""
 "If this option is enabled, the panel will automatically show itself for a "
@@ -599,12 +617,14 @@ msgstr ""
 "পারে দেখো কোন ডেস্কটপ আপনি   "
 "ওপর."
 
-#: rc.cpp:96
+#. i18n: file hidingtab.ui line 166
+#: rc.cpp:133
 #, no-c-format
 msgid "Hide a&utomatically"
 msgstr "স্বয়ংক্রিয় লু&কনো"
 
-#: rc.cpp:98
+#. i18n: file hidingtab.ui line 169
+#: rc.cpp:136
 #, fuzzy, no-c-format
 msgid ""
 "If this option is selected, the panel will automatically hide after a period "
@@ -619,17 +639,20 @@ msgstr ""
 "আছে কাজের জন্য ছোটো পর্দা "
 "যেমন   ওপর."
 
-#: rc.cpp:100
+#. i18n: file hidingtab.ui line 194
+#: rc.cpp:139
 #, no-c-format
 msgid " sec"
 msgstr " সেকণ্ড"
 
-#: rc.cpp:102
+#. i18n: file hidingtab.ui line 197
+#: rc.cpp:142
 #, no-c-format
 msgid "Immediately"
 msgstr "অবিলম্বে"
 
-#: rc.cpp:104 rc.cpp:108
+#. i18n: file hidingtab.ui line 200
+#: rc.cpp:145 rc.cpp:151
 #, fuzzy, no-c-format
 msgid ""
 "Here you can change the delay after which the panel will disappear if not "
@@ -638,19 +661,22 @@ msgstr ""
 "আপনি পারে বদল টি পরে কোন টি   "
 "যদি নয় ব্যবহৃত."
 
-#: rc.cpp:106
+#. i18n: file hidingtab.ui line 219
+#: rc.cpp:148
 #, no-c-format
 msgid "after the &cursor leaves the panel"
 msgstr ""
 "কার্স&র প্যানেল থেকে বেরিয়ে "
 "গেলে"
 
-#: rc.cpp:110
+#. i18n: file hidingtab.ui line 263
+#: rc.cpp:154
 #, fuzzy, no-c-format
 msgid "&Raise when the pointer touches the screen's:"
 msgstr "যখন টি টি পর্দা s:"
 
-#: rc.cpp:112
+#. i18n: file hidingtab.ui line 266
+#: rc.cpp:157
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected, moving the pointer to the specified edge of "
@@ -662,47 +688,56 @@ msgstr ""
 "কারণ টি   মনে হয় ওপর উপর -র যে "
 "কোনো ঐ হয়তো  ."
 
-#: rc.cpp:114
+#. i18n: file hidingtab.ui line 272
+#: rc.cpp:160
 #, no-c-format
 msgid "Top Left Corner"
 msgstr "উপরের বাঁদিকের কোন"
 
-#: rc.cpp:116
+#. i18n: file hidingtab.ui line 277
+#: rc.cpp:163
 #, no-c-format
 msgid "Top Edge"
 msgstr "উপরের সীমা"
 
-#: rc.cpp:118
+#. i18n: file hidingtab.ui line 282
+#: rc.cpp:166
 #, no-c-format
 msgid "Top Right Corner"
 msgstr "উপরের ডানদিকের কোন"
 
-#: rc.cpp:120
+#. i18n: file hidingtab.ui line 287
+#: rc.cpp:169
 #, no-c-format
 msgid "Right Edge"
 msgstr "ডানদিকের সীমা"
 
-#: rc.cpp:122
+#. i18n: file hidingtab.ui line 292
+#: rc.cpp:172
 #, no-c-format
 msgid "Bottom Right Corner"
 msgstr "নীচের ডানদিকের কোন"
 
-#: rc.cpp:124
+#. i18n: file hidingtab.ui line 297
+#: rc.cpp:175
 #, no-c-format
 msgid "Bottom Edge"
 msgstr "নীচের সীমা"
 
-#: rc.cpp:126
+#. i18n: file hidingtab.ui line 302
+#: rc.cpp:178
 #, no-c-format
 msgid "Bottom Left Corner"
 msgstr "নীচের বাঁদিকের কোন"
 
-#: rc.cpp:128
+#. i18n: file hidingtab.ui line 307
+#: rc.cpp:181
 #, no-c-format
 msgid "Left Edge"
 msgstr "বাঁদিকের সীমা"
 
-#: rc.cpp:130
+#. i18n: file hidingtab.ui line 317
+#: rc.cpp:184
 #, fuzzy, no-c-format
 msgid ""
 "Here you can set the location on the screen's edge that will bring the panel "
@@ -713,12 +748,14 @@ msgstr ""
 "টি অবস্থান ওপর টি পর্দা s "
 "কিনারা ঐ   টি   টি."
 
-#: rc.cpp:132
+#. i18n: file hidingtab.ui line 360
+#: rc.cpp:187
 #, no-c-format
 msgid "Panel-Hiding Buttons"
 msgstr "প্যানেল লুকনোর বাটন"
 
-#: rc.cpp:134
+#. i18n: file hidingtab.ui line 363
+#: rc.cpp:190
 #, fuzzy, no-c-format
 msgid ""
 "This option controls the panel-hiding buttons, which are buttons with a "
@@ -731,7 +768,8 @@ msgstr ""
 "একটি বাটন -তে হয় শেষ -র টি অথবা "
 "উভয় ওপর এক -র এই   লুকোও টি."
 
-#: rc.cpp:138
+#. i18n: file hidingtab.ui line 380
+#: rc.cpp:196
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected, a panel-hiding button appears on the left end "
@@ -741,14 +779,16 @@ msgstr ""
 "বাটন মনে হয় ওপর টি বাঁদিক শেষ "
 "-র টি."
 
-#: rc.cpp:140
+#. i18n: file hidingtab.ui line 388
+#: rc.cpp:199
 #, no-c-format
 msgid "Show right panel-hiding &button"
 msgstr ""
 "ডা&নদিকের প্যানেল লুকনোর "
 "বাটন দেখাও"
 
-#: rc.cpp:142
+#. i18n: file hidingtab.ui line 394
+#: rc.cpp:202
 #, no-c-format
 msgid ""
 "When this option is selected, a panel-hiding button appears on the right end "
@@ -759,19 +799,22 @@ msgstr ""
 "প্যানেল লুকনোর বাটন দেখা "
 "যাবে।"
 
-#: rc.cpp:144
+#. i18n: file hidingtab.ui line 435
+#: rc.cpp:205
 #, no-c-format
 msgid "Panel Animation"
 msgstr "প্যানেল অ্যানিমেশন"
 
-#: rc.cpp:146
+#. i18n: file hidingtab.ui line 463
+#: rc.cpp:208
 #, no-c-format
 msgid "A&nimate panel hiding"
 msgstr ""
 "প্যানেল লুকানো অ্যানিমে&ট "
 "করো"
 
-#: rc.cpp:148
+#. i18n: file hidingtab.ui line 466
+#: rc.cpp:211
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected the panel will \"slide\" off the screen when "
@@ -782,7 +825,8 @@ msgstr ""
 "বন্ধ টি পর্দা যখন গতি -র টি "
 "আছে   টি সরাসরি তলা."
 
-#: rc.cpp:150
+#. i18n: file hidingtab.ui line 531
+#: rc.cpp:214
 #, no-c-format
 msgid "Determines how quickly the panel hides if hiding animation is enabled."
 msgstr ""
@@ -790,22 +834,26 @@ msgstr ""
 "তাড়াতাড়ি লুকনো হবে নির্ধারণ "
 "করে"
 
-#: rc.cpp:152
+#. i18n: file hidingtab.ui line 567
+#: rc.cpp:217
 #, no-c-format
 msgid "Fast"
 msgstr "জোরে"
 
-#: rc.cpp:154
+#. i18n: file hidingtab.ui line 608
+#: rc.cpp:220
 #, no-c-format
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: rc.cpp:156
+#. i18n: file hidingtab.ui line 632
+#: rc.cpp:223
 #, no-c-format
 msgid "Slow"
 msgstr "আস্তে"
 
-#: rc.cpp:158
+#. i18n: file lookandfeeltab.ui line 16
+#: rc.cpp:226
 #, fuzzy, no-c-format
 msgid ""
 "If this option is selected, informational tooltips will appear when the "
@@ -815,32 +863,37 @@ msgstr ""
 "যখন টি মাউস কার্সার শেষ টি "
 "আইকন এবং -এ টি."
 
-#: rc.cpp:160
+#. i18n: file lookandfeeltab.ui line 27
+#: rc.cpp:229
 #, no-c-format
 msgid "General"
 msgstr "সাধারণ"
 
-#: rc.cpp:162
-#, no-c-format
-msgid "Enable icon &zooming"
+#. i18n: file lookandfeeltab.ui line 38
+#: rc.cpp:232
+#, fuzzy, no-c-format
+msgid "Enable icon &mouseover effects"
 msgstr "&বড় আইকন সক্রিয় করো"
 
-#: rc.cpp:164
+#. i18n: file lookandfeeltab.ui line 41
+#: rc.cpp:235
 #, fuzzy, no-c-format
 msgid ""
-"When this option is selected the button icons are zoomed when the mouse "
-"cursor is moved over them."
+"When this option is selected a mouseover effect appears when the mouse "
+"cursor is moved over panel buttons"
 msgstr ""
 "এই অপশন আছে নির্বাচিত টি "
 "বাটন আইকন   যখন টি মাউস "
 "কার্সার আছে শেষ ওদের."
 
-#: rc.cpp:166
-#, no-c-format
-msgid "Sh&ow tooltips"
+#. i18n: file lookandfeeltab.ui line 49
+#: rc.cpp:238
+#, fuzzy, no-c-format
+msgid "Show too&ltips"
 msgstr "টু&লটিপ দেখাও"
 
-#: rc.cpp:168
+#. i18n: file lookandfeeltab.ui line 52
+#: rc.cpp:241
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected informational tooltips will appear when the "
@@ -850,41 +903,48 @@ msgstr ""
 "যখন টি মাউস কার্সার শেষ টি "
 "আইকন এবং -এ টি."
 
-#: rc.cpp:170
+#. i18n: file lookandfeeltab.ui line 62
+#: rc.cpp:244
 #, no-c-format
 msgid "Button Backgrounds"
 msgstr "বাটন পটভূমি"
 
-#: rc.cpp:172
+#. i18n: file lookandfeeltab.ui line 73
+#: rc.cpp:247
 #, no-c-format
 msgid "&K menu:"
 msgstr "কে (&K) মেনু:"
 
-#: rc.cpp:174 rc.cpp:190
+#. i18n: file lookandfeeltab.ui line 79
+#: rc.cpp:250 rc.cpp:274
 #, no-c-format
 msgid "Choose a tile image for the K menu."
 msgstr ""
 "কে-মেনুর জন্য পটভূমি-চিত্র "
 "বেছে নিন"
 
-#: rc.cpp:176
+#. i18n: file lookandfeeltab.ui line 87
+#: rc.cpp:253
 #, no-c-format
 msgid "&QuickBrowser menus:"
 msgstr "&চটপট-ব্রাউজার মেনু:"
 
-#: rc.cpp:178 rc.cpp:184
+#. i18n: file lookandfeeltab.ui line 93
+#: rc.cpp:256 rc.cpp:265
 #, no-c-format
 msgid "Choose a tile image for Quick Browser buttons."
 msgstr ""
 "চটপট-ব্রাউজার বাটনের জন্য "
 "পটভূমি-চিত্র বেছে নিন"
 
-#: rc.cpp:182 rc.cpp:188 rc.cpp:200 rc.cpp:213 rc.cpp:233
+#. i18n: file lookandfeeltab.ui line 104
+#: rc.cpp:262 rc.cpp:271 rc.cpp:288 rc.cpp:307 rc.cpp:336
 #, no-c-format
 msgid "Custom Color"
 msgstr "স্বনির্বাচিত রং"
 
-#: rc.cpp:193
+#. i18n: file lookandfeeltab.ui line 162
+#: rc.cpp:278
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -894,7 +954,8 @@ msgstr ""
 "নির্বাচিত ব্যবহার এই বাটন   "
 "একটি রং জন্য চটপট ব্রাউজার"
 
-#: rc.cpp:196
+#. i18n: file lookandfeeltab.ui line 173
+#: rc.cpp:282
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -905,14 +966,16 @@ msgstr ""
 "একটি রং জন্য টি মেনু পটভূমি, "
 "প্রেক্ষাপট"
 
-#: rc.cpp:202 rc.cpp:209
+#. i18n: file lookandfeeltab.ui line 202
+#: rc.cpp:291 rc.cpp:301
 #, no-c-format
 msgid "Choose a tile image for window list buttons."
 msgstr ""
 "উইণ্ডো তালিকা বাটনের জন্য "
 "পটভূমি-চিত্র বেছে নিন"
 
-#: rc.cpp:205
+#. i18n: file lookandfeeltab.ui line 213
+#: rc.cpp:295
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -922,19 +985,22 @@ msgstr ""
 "নির্বাচিত ব্যবহার এই বাটন   "
 "একটি রং জন্য উইন্ডো তালিকা"
 
-#: rc.cpp:207
+#. i18n: file lookandfeeltab.ui line 221
+#: rc.cpp:298
 #, no-c-format
 msgid "&Window list:"
 msgstr "&উইণ্ডো তালিকা:"
 
-#: rc.cpp:215 rc.cpp:222
+#. i18n: file lookandfeeltab.ui line 256
+#: rc.cpp:310 rc.cpp:320
 #, no-c-format
 msgid "Choose a tile image for desktop access buttons."
 msgstr ""
 "ডেস্কটপ প্রদর্শন বাটনের "
 "জন্য পটভূমি-চিত্র বেছে নিন"
 
-#: rc.cpp:218
+#. i18n: file lookandfeeltab.ui line 267
+#: rc.cpp:314
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -945,12 +1011,14 @@ msgstr ""
 "একটি রং জন্য টি ডেস্কটপ "
 "পটভূমি, প্রেক্ষাপট"
 
-#: rc.cpp:220
+#. i18n: file lookandfeeltab.ui line 275
+#: rc.cpp:317
 #, no-c-format
 msgid "De&sktop access:"
 msgstr "ডেস্কট&প প্রদর্শন:"
 
-#: rc.cpp:225
+#. i18n: file lookandfeeltab.ui line 292
+#: rc.cpp:324
 #, fuzzy, no-c-format
 msgid ""
 "When the Custom Color option is selected, use this button to pick a color "
@@ -960,12 +1028,14 @@ msgstr ""
 "নির্বাচিত ব্যবহার এই বাটন   "
 "একটি রং জন্য অ্যাপলিকেশন"
 
-#: rc.cpp:227
+#. i18n: file lookandfeeltab.ui line 300
+#: rc.cpp:327
 #, no-c-format
 msgid "Applicatio&ns:"
 msgstr "অ্যাপলিকেশ&ন:"
 
-#: rc.cpp:229 rc.cpp:235
+#. i18n: file lookandfeeltab.ui line 306
+#: rc.cpp:330 rc.cpp:339
 #, no-c-format
 msgid "Choose a tile image for buttons that launch applications."
 msgstr ""
@@ -973,17 +1043,20 @@ msgstr ""
 "বাটনগুলির জন্য পটভূমি-চিত্র "
 "বেছে নিন"
 
-#: rc.cpp:237
+#. i18n: file lookandfeeltab.ui line 362
+#: rc.cpp:342
 #, no-c-format
 msgid "Panel Background"
 msgstr "প্যানেল পটভূমি"
 
-#: rc.cpp:239
+#. i18n: file lookandfeeltab.ui line 393
+#: rc.cpp:345
 #, fuzzy, no-c-format
 msgid "Colorize to &match the desktop color scheme"
 msgstr "  মিল টি ডেস্কটপ রং"
 
-#: rc.cpp:241
+#. i18n: file lookandfeeltab.ui line 399
+#: rc.cpp:348
 #, fuzzy, no-c-format
 msgid ""
 "If this option is selected, the panel background image will be colored to "
@@ -996,14 +1069,16 @@ msgstr ""
 "ডিফল্ট রং যাও   টি নিয়ন্ত্রণ "
 "মডিউল."
 
-#: rc.cpp:243
+#. i18n: file lookandfeeltab.ui line 446
+#: rc.cpp:351
 #, no-c-format
 msgid "This is a preview for the selected background image."
 msgstr ""
 "নির্বাচিত পটভূমি-চিত্রের "
 "প্রাকদর্শন"
 
-#: rc.cpp:245
+#. i18n: file lookandfeeltab.ui line 466
+#: rc.cpp:354
 #, fuzzy, no-c-format
 msgid ""
 "Here you can choose a theme to be displayed by the panel. Press the 'Browse' "
@@ -1017,22 +1092,26 @@ msgstr ""
 "যদি পটভূমি, প্রেক্ষাপট "
 "ছবি,চিত্র আছে নির্বাচিত."
 
-#: rc.cpp:248
+#. i18n: file lookandfeeltab.ui line 474
+#: rc.cpp:358
 #, no-c-format
 msgid "Enable &background image"
 msgstr "&পটভূমি-চিত্র সক্রিয় করো"
 
-#: rc.cpp:250
+#. i18n: file lookandfeeltab.ui line 482
+#: rc.cpp:361
 #, no-c-format
 msgid "Enable &transparency"
 msgstr "স্বচ্ছতা &সক্রিয় করো"
 
-#: rc.cpp:252
-#, no-c-format
-msgid "Advanc&ed Options..."
-msgstr "অগ্র&সর অপশন..."
+#. i18n: file lookandfeeltab.ui line 500
+#: rc.cpp:364
+#, fuzzy, no-c-format
+msgid "Advanc&ed Options"
+msgstr "অগ্রসর অপশন"
 
-#: rc.cpp:254
+#. i18n: file lookandfeeltab.ui line 503
+#: rc.cpp:367
 #, fuzzy, no-c-format
 msgid ""
 "Click here to open the Advanced Options dialog. You can configure the applet "
@@ -1043,17 +1122,20 @@ msgstr ""
 "অ্যাপলেট এবং টি transparency রং এবং "
 "আরো."
 
-#: rc.cpp:256
+#. i18n: file menutab.ui line 24
+#: rc.cpp:370
 #, no-c-format
 msgid "K Menu"
 msgstr "কে মেনু"
 
-#: rc.cpp:258
-#, no-c-format
-msgid "Optional Sub Menus"
+#. i18n: file menutab.ui line 67
+#: rc.cpp:373
+#, fuzzy, no-c-format
+msgid "Optional Menus"
 msgstr "অপশনাল সাবমেনু"
 
-#: rc.cpp:260
+#. i18n: file menutab.ui line 91
+#: rc.cpp:376
 #, fuzzy, no-c-format
 msgid ""
 "This is a list of the dynamic menus that can be displayed in the KDE menu in "
@@ -1065,12 +1147,14 @@ msgstr ""
 "  টি স্বাভাবিক টি   যোগ অথবা "
 "সরাও."
 
-#: rc.cpp:262
+#. i18n: file menutab.ui line 127
+#: rc.cpp:379
 #, no-c-format
 msgid "Menu item format:"
 msgstr "মেনু আইটেম ফর্ম্যাট:"
 
-#: rc.cpp:264
+#. i18n: file menutab.ui line 130
+#: rc.cpp:382
 #, no-c-format
 msgid "Here you can choose how menu entries are shown."
 msgstr ""
@@ -1078,12 +1162,14 @@ msgstr ""
 "কি ভাবে মেনু এন্ট্রি দেখানো "
 "হবে।"
 
-#: rc.cpp:266
+#. i18n: file menutab.ui line 138
+#: rc.cpp:385
 #, no-c-format
 msgid "&Name only"
 msgstr "শুধু নাম (&ন)"
 
-#: rc.cpp:268
+#. i18n: file menutab.ui line 141
+#: rc.cpp:388
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected, items in the K Menu will appear with the "
@@ -1094,12 +1180,14 @@ msgstr ""
 "অ্যাপলিকেশন s নাম পরবর্তী   টি "
 "আইকন."
 
-#: rc.cpp:270
+#. i18n: file menutab.ui line 149
+#: rc.cpp:391
 #, no-c-format
 msgid "Na&me (Description)"
 msgstr "না&ম (বর্ণনা)"
 
-#: rc.cpp:272
+#. i18n: file menutab.ui line 155
+#: rc.cpp:394
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected, items in the K Menu will appear with the "
@@ -1110,12 +1198,14 @@ msgstr ""
 "অ্যাপলিকেশন s নাম এবং একটি "
 "বর্ণনা -এ পরবর্তী   টি আইকন."
 
-#: rc.cpp:274
+#. i18n: file menutab.ui line 183
+#: rc.cpp:397
 #, no-c-format
 msgid "Des&cription (Name)"
 msgstr "&বর্ণনা (নাম)"
 
-#: rc.cpp:276
+#. i18n: file menutab.ui line 186
+#: rc.cpp:400
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected, items in the K Menu will appear with a brief "
@@ -1126,12 +1216,14 @@ msgstr ""
 "বর্ণনা এবং টি অ্যাপলিকেশন s "
 "নাম -এ পরবর্তী   টি আইকন."
 
-#: rc.cpp:278
+#. i18n: file menutab.ui line 196
+#: rc.cpp:403
 #, no-c-format
 msgid "Edit &K Menu"
 msgstr "কে (&K) মেনু সম্পাদনা "
 
-#: rc.cpp:280
+#. i18n: file menutab.ui line 199
+#: rc.cpp:406
 #, no-c-format
 msgid ""
 "Start the editor for the K menu. Here you can add, edit, remove and hide "
@@ -1143,12 +1235,14 @@ msgstr ""
 "অ্যাপলিকেশন যোগ করতে,  বাদ "
 "দিতে, বদলাতে বা লুকোতে পারেন।"
 
-#: rc.cpp:282
+#. i18n: file menutab.ui line 207
+#: rc.cpp:409
 #, no-c-format
 msgid "Show &side image"
 msgstr "পার্শ্ববর্তী &ছবি দেখাও"
 
-#: rc.cpp:284
+#. i18n: file menutab.ui line 215
+#: rc.cpp:412
 #, fuzzy, no-c-format
 msgid ""
 "<qt>When this option is selected an image will appear down the left-hand "
@@ -1168,17 +1262,20 @@ msgstr ""
 "ফাইল এবং একটি ছবি,চিত্র ফাইল "
 "-এ</qt>"
 
-#: rc.cpp:288
+#. i18n: file menutab.ui line 242
+#: rc.cpp:417
 #, no-c-format
 msgid "QuickBrowser Menus"
 msgstr "চটপট-ব্রাউজার মেনু"
 
-#: rc.cpp:290
+#. i18n: file menutab.ui line 261
+#: rc.cpp:420
 #, no-c-format
 msgid "Ma&ximum number of entries:"
 msgstr "&সর্বাধিক এন্ট্রি:"
 
-#: rc.cpp:292 rc.cpp:294
+#. i18n: file menutab.ui line 267
+#: rc.cpp:423 rc.cpp:426
 #, fuzzy, no-c-format
 msgid ""
 "When browsing directories that contain a lot of files, the QuickBrowser can "
@@ -1191,12 +1288,14 @@ msgstr ""
 "নম্বর -র -তে একটি সময় -এ টি আছে "
 "কাজের জন্য পর্দা."
 
-#: rc.cpp:296
-#, no-c-format
-msgid "Sh&ow hidden files"
+#. i18n: file menutab.ui line 294
+#: rc.cpp:429
+#, fuzzy, no-c-format
+msgid "Show hidden fi&les"
 msgstr "লুকনো ফাইল দেখা&ও"
 
-#: rc.cpp:298
+#. i18n: file menutab.ui line 300
+#: rc.cpp:432
 #, fuzzy, no-c-format
 msgid ""
 "If this option is enabled, hidden files (i.e. files beginning with a dot) "
@@ -1205,17 +1304,20 @@ msgstr ""
 "এই অপশন আছে সক্রিয় i e শুরু "
 "সঙ্গে একটি   -এ টি."
 
-#: rc.cpp:300
+#. i18n: file menutab.ui line 327
+#: rc.cpp:435
 #, no-c-format
 msgid "QuickStart Menu Items"
 msgstr "চটপট-শুরু মেনু আইটেম"
 
-#: rc.cpp:302
+#. i18n: file menutab.ui line 346
+#: rc.cpp:438
 #, no-c-format
 msgid "Maxim&um number of entries:"
 msgstr "সর্বাধিক &এন্ট্রি:"
 
-#: rc.cpp:304
+#. i18n: file menutab.ui line 352
+#: rc.cpp:441
 #, fuzzy, no-c-format
 msgid ""
 "This option allows you to define the maximum number of applications that "
@@ -1225,7 +1327,8 @@ msgstr ""
 "নম্বর -র ঐ উচিত প্রদর্শিত -এ "
 "টি মেনু ক্ষেত্র."
 
-#: rc.cpp:306
+#. i18n: file menutab.ui line 369
+#: rc.cpp:444
 #, fuzzy, no-c-format
 msgid ""
 "This option allows you to define how many applications should be displayed "
@@ -1235,14 +1338,16 @@ msgstr ""
 "উচিত প্রদর্শিত -তে -এ টি মেনু "
 "ক্ষেত্র."
 
-#: rc.cpp:308
+#. i18n: file menutab.ui line 379
+#: rc.cpp:447
 #, no-c-format
 msgid "Sho&w the applications most recently used"
 msgstr ""
 "সম্প্রতি ব্যবহৃ&ত "
 "অ্যাপলিকেশনগুলি দেখাও"
 
-#: rc.cpp:310
+#. i18n: file menutab.ui line 385
+#: rc.cpp:450
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected the QuickStart menu area will be filled with "
@@ -1252,14 +1357,16 @@ msgstr ""
 "মেনু ক্ষেত্র   ভর্তি সঙ্গে টি "
 "আপনি ব্যবহৃত."
 
-#: rc.cpp:312
+#. i18n: file menutab.ui line 393
+#: rc.cpp:453
 #, no-c-format
 msgid "Show &the applications most frequently used"
 msgstr ""
 "&সর্বাধিক ব্যবহৃত "
 "অ্যাপলিকেশনগুলি দেখাও"
 
-#: rc.cpp:314
+#. i18n: file menutab.ui line 396
+#: rc.cpp:456
 #, fuzzy, no-c-format
 msgid ""
 "When this option is selected the QuickStart menu area will be filled with "
@@ -1269,7 +1376,8 @@ msgstr ""
 "মেনু ক্ষেত্র   ভর্তি সঙ্গে টি "
 "আপনি ব্যবহার."
 
-#: rc.cpp:316
+#. i18n: file positiontab.ui line 17
+#: rc.cpp:459
 #, fuzzy, no-c-format
 msgid ""
 "This is a list of all the panels currently active on your desktop. Select "
@@ -1278,12 +1386,14 @@ msgstr ""
 "আছে একটি তালিকা -র সব টি আপাতত "
 "সক্রিয় ওপর আপনার ডেস্কটপ এক  ."
 
-#: rc.cpp:321
+#. i18n: file positiontab.ui line 80
+#: rc.cpp:466
 #, no-c-format
 msgid "Screen"
 msgstr "স্ক্রীণ"
 
-#: rc.cpp:323
+#. i18n: file positiontab.ui line 136
+#: rc.cpp:469
 #, fuzzy, no-c-format
 msgid ""
 "This preview image shows how the panel will appear on your screen with the "
@@ -1298,22 +1408,26 @@ msgstr ""
 "টি অবস্থান -র টি যতক্ষণ টি এবং "
 "আলাদা   বদল টি -র টি."
 
-#: rc.cpp:325
+#. i18n: file positiontab.ui line 188
+#: rc.cpp:472
 #, no-c-format
 msgid "Identify"
 msgstr "পরিচয়"
 
-#: rc.cpp:327
+#. i18n: file positiontab.ui line 191
+#: rc.cpp:475
 #, fuzzy, no-c-format
 msgid "This button displays each monitor's identifying number"
 msgstr "বাটন প্রতি s নম্বর"
 
-#: rc.cpp:329
-#, no-c-format
-msgid "Xinerama screen:"
+#. i18n: file positiontab.ui line 209
+#: rc.cpp:478
+#, fuzzy, no-c-format
+msgid "&Xinerama screen:"
 msgstr "জিনেরামা (Xinerama) স্ক্রীণ:"
 
-#: rc.cpp:331
+#. i18n: file positiontab.ui line 220
+#: rc.cpp:481
 #, fuzzy, no-c-format
 msgid ""
 "This menu selects which screen the Panel will be displayed on in a "
@@ -1323,12 +1437,126 @@ msgstr ""
 "প্রদর্শিত ওপর -এ একটি একাধিক "
 "সিস্টেম"
 
-#: rc.cpp:333
+#. i18n: file positiontab.ui line 257
+#: rc.cpp:484
+#, no-c-format
+msgid "Len&gth"
+msgstr "দৈর্ঘ্য (&দ)"
+
+#. i18n: file positiontab.ui line 261
+#: rc.cpp:487
+#, fuzzy, no-c-format
+msgid ""
+"This group of settings determines how the panel is aligned, including\n"
+"how it is positioned on the screen and how much of the screen it should use."
+msgstr ""
+"গ্রুপ -র মানসমূহ কি ভাবে টি "
+"আছে   আছে ওপর টি পর্দা এবং কি "
+"ভাবে -র টি পর্দা   উচিত "
+"ব্যবহার."
+
+#. i18n: file positiontab.ui line 309
+#: rc.cpp:491
+#, fuzzy, no-c-format
+msgid ""
+"This slider defines how much of the screen's edge will be occupied by the "
+"panel."
+msgstr ""
+"কি ভাবে -র টি পর্দা s কিনারা     "
+"টি."
+
+#. i18n: file positiontab.ui line 326
+#: rc.cpp:494
+#, no-c-format
+msgid "%"
+msgstr "%"
+
+#. i18n: file positiontab.ui line 329
+#: rc.cpp:497
+#, fuzzy, no-c-format
+msgid ""
+"This spinbox defines how much of the screen's edge will be occupied by the "
+"panel."
+msgstr ""
+"কি ভাবে -র টি পর্দা s কিনারা     "
+"টি."
+
+#. i18n: file positiontab.ui line 339
+#: rc.cpp:500
+#, fuzzy, no-c-format
+msgid "&Expand as required to fit contents"
+msgstr "প্রয়ো&জন মত বড়"
+
+#. i18n: file positiontab.ui line 342
+#: rc.cpp:503
+#, fuzzy, no-c-format
+msgid ""
+"When this option is selected, the panel will grow as necessary to "
+"accommodate the buttons and applets on it."
+msgstr ""
+"এই অপশন আছে নির্বাচিত টি       "
+"টি এবং ওপর  ."
+
+#. i18n: file positiontab.ui line 377
+#: rc.cpp:506
+#, no-c-format
+msgid "Si&ze"
+msgstr "মা&প"
+
+#. i18n: file positiontab.ui line 380
+#: rc.cpp:509
+#, no-c-format
+msgid "This sets the size of the panel."
+msgstr ""
+
+#. i18n: file positiontab.ui line 389
+#: rc.cpp:512
+#, no-c-format
+msgid "Tiny"
+msgstr "ক্ষুদ্র"
+
+#. i18n: file positiontab.ui line 394
+#: rc.cpp:515
+#, no-c-format
+msgid "Small"
+msgstr "ছোটো"
+
+#. i18n: file positiontab.ui line 399
+#: rc.cpp:518
+#, no-c-format
+msgid "Normal"
+msgstr "স্বাভাবিক"
+
+#. i18n: file positiontab.ui line 404
+#: rc.cpp:521
+#, no-c-format
+msgid "Large"
+msgstr "বড়"
+
+#. i18n: file positiontab.ui line 481
+#: rc.cpp:527
+#, fuzzy, no-c-format
+msgid "This slider defines the panel size when the Custom option is selected."
+msgstr ""
+"টি আকার যখন টি স্বনির্বাচিত "
+"অপশন আছে নির্বাচিত."
+
+#. i18n: file positiontab.ui line 504
+#: rc.cpp:533
+#, fuzzy, no-c-format
+msgid "This spinbox defines the panel size when the Custom option is selected."
+msgstr ""
+"টি আকার যখন টি স্বনির্বাচিত "
+"অপশন আছে নির্বাচিত."
+
+#. i18n: file positiontab.ui line 516
+#: rc.cpp:536
 #, no-c-format
 msgid "Position"
 msgstr "অবস্থান"
 
-#: rc.cpp:335
+#. i18n: file positiontab.ui line 522
+#: rc.cpp:539
 #, fuzzy, no-c-format
 msgid ""
 "Here you can set the position of the panel highlighted on the left side. You "
@@ -1345,233 +1573,157 @@ msgstr ""
 "পর্দা আপনি পারে   ভেতরে টি "
 "মধ্য অথবা ভেতরে হয় -র টি পর্দা."
 
-#: rc.cpp:338
+#. i18n: file positiontab.ui line 606
+#: rc.cpp:543
 #, no-c-format
 msgid "Alt+1"
 msgstr "Alt+1"
 
-#: rc.cpp:341
+#. i18n: file positiontab.ui line 640
+#: rc.cpp:547
 #, no-c-format
 msgid "Alt+2"
 msgstr "Alt+2"
 
-#: rc.cpp:344
+#. i18n: file positiontab.ui line 674
+#: rc.cpp:551
 #, no-c-format
 msgid "Alt+3"
 msgstr "Alt+3"
 
-#: rc.cpp:347
+#. i18n: file positiontab.ui line 718
+#: rc.cpp:555
 #, no-c-format
 msgid "Alt+="
 msgstr "Alt+="
 
-#: rc.cpp:350
+#. i18n: file positiontab.ui line 752
+#: rc.cpp:559
 #, no-c-format
 msgid "Alt+-"
 msgstr "Alt+-"
 
-#: rc.cpp:353
+#. i18n: file positiontab.ui line 786
+#: rc.cpp:563
 #, no-c-format
 msgid "Alt+0"
 msgstr "Alt+0"
 
-#: rc.cpp:356
+#. i18n: file positiontab.ui line 830
+#: rc.cpp:567
 #, no-c-format
 msgid "Alt+9"
 msgstr "Alt+9"
 
-#: rc.cpp:359
+#. i18n: file positiontab.ui line 864
+#: rc.cpp:571
 #, no-c-format
 msgid "Alt+8"
 msgstr "Alt+8"
 
-#: rc.cpp:362
+#. i18n: file positiontab.ui line 898
+#: rc.cpp:575
 #, no-c-format
 msgid "Alt+7"
 msgstr "Alt+7"
 
-#: rc.cpp:365
+#. i18n: file positiontab.ui line 942
+#: rc.cpp:579
 #, no-c-format
 msgid "Alt+4"
 msgstr "Alt+4"
 
-#: rc.cpp:368
+#. i18n: file positiontab.ui line 976
+#: rc.cpp:583
 #, no-c-format
 msgid "Alt+5"
 msgstr "Alt+5"
 
-#: rc.cpp:371
+#. i18n: file positiontab.ui line 1010
+#: rc.cpp:587
 #, no-c-format
 msgid "Alt+6"
 msgstr "Alt+6"
 
-#: rc.cpp:373
-#, no-c-format
-msgid "Len&gth"
-msgstr "দৈর্ঘ্য (&দ)"
-
-#: rc.cpp:375
-#, fuzzy, no-c-format
-msgid ""
-"This group of settings determines how the panel is aligned, including\n"
-"how it is positioned on the screen and how much of the screen it should use."
-msgstr ""
-"গ্রুপ -র মানসমূহ কি ভাবে টি "
-"আছে   আছে ওপর টি পর্দা এবং কি "
-"ভাবে -র টি পর্দা   উচিত "
-"ব্যবহার."
-
-#: rc.cpp:378
-#, fuzzy, no-c-format
-msgid ""
-"This slider defines how much of the screen's edge will be occupied by the "
-"panel."
-msgstr ""
-"কি ভাবে -র টি পর্দা s কিনারা     "
-"টি."
-
-#: rc.cpp:380
-#, no-c-format
-msgid "%"
-msgstr "%"
-
-#: rc.cpp:382
-#, fuzzy, no-c-format
-msgid ""
-"This spinbox defines how much of the screen's edge will be occupied by the "
-"panel."
-msgstr ""
-"কি ভাবে -র টি পর্দা s কিনারা     "
-"টি."
-
-#: rc.cpp:384
-#, no-c-format
-msgid "E&xpand as required to fit contents"
-msgstr "প্রয়ো&জন মত বড়"
-
-#: rc.cpp:386
-#, fuzzy, no-c-format
-msgid ""
-"When this option is selected, the panel will grow as necessary to "
-"accommodate the buttons and applets on it."
-msgstr ""
-"এই অপশন আছে নির্বাচিত টি       "
-"টি এবং ওপর  ."
-
-#: rc.cpp:388
-#, no-c-format
-msgid "Si&ze"
-msgstr "মা&প"
-
-#: rc.cpp:390
-#, fuzzy, no-c-format
-msgid ""
-"This sets the size of the panel. You can also access this option via the "
-"panel context menu by right-clicking on some free space on the panel."
-msgstr ""
-"টি আকার -র টি পারে access এই অপশন "
-"হয়ে টি context মেনু   ডানদিক ওপর "
-"কিছু মুক্ত/স্বাধীন স্থান ওপর "
-"টি."
-
-#: rc.cpp:392
-#, fuzzy, no-c-format
-msgid "This slider defines the panel size when the Custom option is selected."
-msgstr ""
-"টি আকার যখন টি স্বনির্বাচিত "
-"অপশন আছে নির্বাচিত."
-
-#: rc.cpp:396
-#, fuzzy, no-c-format
-msgid "This spinbox defines the panel size when the Custom option is selected."
-msgstr ""
-"টি আকার যখন টি স্বনির্বাচিত "
-"অপশন আছে নির্বাচিত."
-
-#: rc.cpp:398
-#, no-c-format
-msgid "Tiny"
-msgstr "ক্ষুদ্র"
-
-#: rc.cpp:400
-#, no-c-format
-msgid "Small"
-msgstr "ছোটো"
-
-#: rc.cpp:402
-#, no-c-format
-msgid "Normal"
-msgstr "স্বাভাবিক"
-
-#: rc.cpp:404
-#, no-c-format
-msgid "Large"
-msgstr "বড়"
-
-#: rc.cpp:407
+#: rc.cpp:588
 msgid "KDE Button"
 msgstr "কে.ডি.ই. বাটন"
 
-#: rc.cpp:408
+#: rc.cpp:589
 msgid "Blue Wood"
 msgstr ""
 
-#: rc.cpp:409
+#: rc.cpp:590
 msgid "Green Wood"
 msgstr ""
 
-#: rc.cpp:410
+#: rc.cpp:591
 msgid "Light Gray"
 msgstr ""
 
-#: rc.cpp:411
+#: rc.cpp:592
 msgid "Light Green"
 msgstr "ট"
 
-#: rc.cpp:412
+#: rc.cpp:593
 msgid "Light Pastel"
 msgstr ""
 
-#: rc.cpp:413
+#: rc.cpp:594
 msgid "Light Purple"
 msgstr ""
 
-#: rc.cpp:414
+#: rc.cpp:595
 msgid "Nuts And Bolts"
 msgstr ""
 
-#: rc.cpp:415
+#: rc.cpp:596
 msgid "Red Wood"
 msgstr ""
 
-#: rc.cpp:416
+#: rc.cpp:597
 msgid "Solid Blue"
 msgstr ""
 
-#: rc.cpp:417
+#: rc.cpp:598
 msgid "Solid Gray"
 msgstr ""
 
-#: rc.cpp:418
+#: rc.cpp:599
 msgid "Solid Green"
 msgstr ""
 
-#: rc.cpp:419
+#: rc.cpp:600
 msgid "Solid Orange"
 msgstr ""
 
-#: rc.cpp:420
+#: rc.cpp:601
 msgid "Solid Pastel"
 msgstr ""
 
-#: rc.cpp:421
+#: rc.cpp:602
 msgid "Solid Purple"
 msgstr ""
 
-#: rc.cpp:422
+#: rc.cpp:603
 msgid "Solid Red"
 msgstr ""
 
-#: rc.cpp:423
+#: rc.cpp:604
 msgid "Solid Tigereye"
 msgstr ""
+
+#, fuzzy
+#~ msgid "With this option enabled you can click and drag the edge of the panel to freely resize it. The panel's size has to be set to \"Custom\". This option can also be set in the panel's context menu."
+#~ msgstr "এই অপশন সক্রিয় আপনি পারে ক্লিক এবং টি কিনারা -র টি     s আকার আছে   সেট,সমষ্টি,মাননির্ধারণকরা   স্বনির্বাচিত অপশন পারে সেট,সমষ্টি,মাননির্ধারণকরা -এ টি s context মেনু."
+
+#, fuzzy
+#~ msgid "This sets the size of the panel. You can also access this option via the panel context menu by right-clicking on some free space on the panel."
+#~ msgstr "টি আকার -র টি পারে access এই অপশন হয়ে টি context মেনু   ডানদিক ওপর কিছু মুক্ত/স্বাধীন স্থান ওপর টি."
+
+#, fuzzy
+#~ msgid "When this option is selected, the panel can be resized by clicking on an edge with the mouse and dragging it."
+#~ msgstr "এই অপশন আছে নির্বাচিত টি       টি এবং ওপর  ."
+
+#~ msgid "Advanc&ed Options..."
+#~ msgstr "অগ্র&সর অপশন..."
