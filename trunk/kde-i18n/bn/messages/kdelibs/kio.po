@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
-"POT-Creation-Date: 2004-01-12 01:55+0100\n"
+"POT-Creation-Date: 2004-01-16 01:39+0100\n"
 "PO-Revision-Date: 2004-01-12 09:07+0000\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -18,15 +18,16 @@ msgstr ""
 msgid "File '%1' is not readable"
 msgstr "ফাইল '%1' পড়া যাচ্ছে না"
 
-#: kio/global.cpp:693 kio/job.cpp:1477 kio/job.cpp:2639 kio/paste.cpp:58
+#: kio/global.cpp:693 kio/job.cpp:1477 kio/job.cpp:2658 kio/job.cpp:3077
+#: kio/paste.cpp:58
 msgid "File Already Exists"
 msgstr "ফাইল আগে থেকেই আছে"
 
-#: kio/global.cpp:703 kio/job.cpp:2387
+#: kio/global.cpp:703 kio/job.cpp:2394
 msgid "Folder Already Exists"
 msgstr "ফোল্ডার আগে থেকেই আছে"
 
-#: kio/job.cpp:2639
+#: kio/job.cpp:2658 kio/job.cpp:3077
 msgid "Already Exists as Folder"
 msgstr "ফোল্ডার হিসেবে আগে থেকেই আছে"
 
@@ -80,19 +81,19 @@ msgstr ""
 msgid "C&ontinue"
 msgstr "চালিয়ে যা&ও"
 
-#: kio/renamedlg.cpp:227
+#: kio/renamedlg.cpp:227 kio/renamedlg.cpp:306
 msgid "An older item named '%1' already exists."
 msgstr ""
 "'%1' নামের একটি পুরনো বস্তু আগে "
 "থেকেই আছে।"
 
-#: kio/renamedlg.cpp:229
+#: kio/renamedlg.cpp:229 kio/renamedlg.cpp:308
 msgid "A similar file named '%1' already exists."
 msgstr ""
 "'%1' নামের একই রকম একটি ফাইল আগে "
 "থেকেই আছে।"
 
-#: kio/renamedlg.cpp:231
+#: kio/renamedlg.cpp:231 kio/renamedlg.cpp:310
 msgid "A newer item named '%1' already exists."
 msgstr ""
 "'%1' নামের আরো নতুন একটি বস্তু "
@@ -117,32 +118,8 @@ msgstr "%1-এ পরিবর্তিত"
 msgid "The source file is '%1'"
 msgstr "সোর্স (source) ফাইলের নাম '%1'"
 
-#: kio/renamedlg.cpp:307
-msgid "An older item than '%1' already exists.\n"
-msgstr ""
-"'%1'-এর চেয়ে পুরনো একটি বস্তু "
-"আগে থেকেই আছে। \n"
-
-#: kio/renamedlg.cpp:309
-msgid "A similar file named '%1' already exists.\n"
-msgstr ""
-"'%1' নামের একই রকম একটি ফাইল আগে "
-"থেকেই আছে।\n"
-
-#: kio/renamedlg.cpp:311
-msgid "A newer item than '%1' already exists.\n"
-msgstr ""
-"'%1'-এর চেয়ে নতুন একটি বস্তু আগে "
-"থেকেই আছে। \n"
-
-#: kio/renamedlg.cpp:313
-msgid "Do you want to use another file name?"
-msgstr ""
-"আপনি কী আরেকটি ফাইলের নাম "
-"ব্যবহার করতে চান?"
-
-#: kio/kdirlister.cpp:1924 kio/krun.cpp:712 kio/paste.cpp:95
-#: kio/renamedlg.cpp:423
+#: kio/kdirlister.cpp:1927 kio/krun.cpp:721 kio/paste.cpp:95
+#: kio/renamedlg.cpp:420
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -260,7 +237,7 @@ msgstr ""
 "ধরনের ডেস্কটপ এন্ট্রিটি "
 "অজানা।"
 
-#: kio/kmimetype.cpp:781 kio/kmimetype.cpp:880 kio/kmimetype.cpp:1026
+#: kio/kmimetype.cpp:781 kio/kmimetype.cpp:881 kio/kmimetype.cpp:1027
 msgid ""
 "The desktop entry file\n"
 "%1\n"
@@ -283,19 +260,19 @@ msgstr ""
 "-এর ধরন লিঙ্ক (Link) কিন্তু তাতে "
 "কোনো URL=... এন্ট্রি নেই।"
 
-#: kio/kmimetype.cpp:890
+#: kio/kmimetype.cpp:891
 msgid "Mount"
 msgstr "মাউন্ট"
 
-#: kio/kmimetype.cpp:901
+#: kio/kmimetype.cpp:902
 msgid "Eject"
 msgstr "ইজেক্ট"
 
-#: kio/kmimetype.cpp:903
+#: kio/kmimetype.cpp:904
 msgid "Unmount"
 msgstr "আনমাউন্ট"
 
-#: kio/kmimetype.cpp:984
+#: kio/kmimetype.cpp:985
 msgid ""
 "The desktop entry file\n"
 "%1\n"
@@ -361,8 +338,10 @@ msgid ""
 "The IP address of the host %1 does not match the one the certificate was "
 "issued to."
 msgstr ""
-"সার্টিফিকেটটি যে আই-পি অ্যাড্রেসকে দেওয়া হয়েছিল, "
-"%1 হোস্টটির অ্যাড্রেস তার সাথে মিলছে না।"
+"সার্টিফিকেটটি যে আই-পি "
+"অ্যাড্রেসকে দেওয়া হয়েছিল, %1 "
+"হোস্টটির অ্যাড্রেস তার সাথে "
+"মিলছে না।"
 
 #: kio/tcpslavebase.cpp:862 kio/tcpslavebase.cpp:870 kio/tcpslavebase.cpp:904
 #: kio/tcpslavebase.cpp:978 kio/tcpslavebase.cpp:990 kio/tcpslavebase.cpp:999
@@ -592,13 +571,13 @@ msgstr "আবার শুরু করা যাচ্ছে না"
 msgid "%1/s (done)"
 msgstr "প্রতি সেকেণ্ডে %1 (হয়ে গেছে)"
 
-#: kio/kservice.cpp:813
+#: kio/kservice.cpp:823
 msgid "Updating System Configuration"
 msgstr ""
 "সিস্টেম কনফিগারেশন আপডেট "
 "করা হচ্ছে"
 
-#: kio/kservice.cpp:814
+#: kio/kservice.cpp:824
 msgid "Updating system configuration."
 msgstr ""
 "সিস্টেম কনফিগারেশন আপডেট "
@@ -2762,7 +2741,7 @@ msgstr "পাসওয়ার্ড রেখে দাও (&দ)"
 msgid "Authorization Dialog"
 msgstr ""
 
-#: kio/krun.cpp:88
+#: kio/krun.cpp:94
 #, fuzzy
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
@@ -2771,7 +2750,7 @@ msgstr ""
 "<qt>   ঢুকুন<b></b> নয় access   এই "
 "অবস্থান</qt>"
 
-#: kio/krun.cpp:128
+#: kio/krun.cpp:134
 #, fuzzy
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
@@ -2780,32 +2759,32 @@ msgstr ""
 "<qt> ফাইল<b></b>"
 " আছে একটি প্রোগ্রাম     নয়</qt>"
 
-#: kio/krun.cpp:135
+#: kio/krun.cpp:141
 #, fuzzy
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr "<qt> আপনি নয় অনুমতি   চালাও<b></b></qt>"
 
-#: kio/krun.cpp:167 kio/krun.cpp:490
+#: kio/krun.cpp:173 kio/krun.cpp:496
 #, fuzzy
 msgid "You are not authorized to execute this file."
 msgstr "আপনি   নয়   এই ফাইল."
 
-#: kfile/kopenwith.cpp:803 kio/krun.cpp:171
+#: kfile/kopenwith.cpp:803 kio/krun.cpp:177
 #, fuzzy
 msgid "Open with:"
 msgstr "খোলো সঙ্গে:"
 
-#: kio/krun.cpp:524
+#: kio/krun.cpp:530
 #, fuzzy, c-format
 msgid "Launching %1"
 msgstr "১"
 
-#: kio/krun.cpp:598
+#: kio/krun.cpp:607
 #, fuzzy
 msgid "You are not authorized to execute this service."
 msgstr "আপনি   নয়   এই সার্ভিস."
 
-#: kio/krun.cpp:743
+#: kio/krun.cpp:752
 #, fuzzy
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
@@ -2814,47 +2793,47 @@ msgstr ""
 "<qt>   চালাও টি আদেশ নির্বাচিত "
 "ফাইল অথবা<b></b> করে নয় আছে</qt>"
 
-#: kio/krun.cpp:1177
+#: kio/krun.cpp:1186
 #, fuzzy
 msgid "Couldn't find the program '%1'"
 msgstr "খোঁজ টি প্রোগ্রাম"
 
-#: kio/kfileitem.cpp:566
+#: kio/kfileitem.cpp:567
 #, fuzzy
 msgid "Symbolic Link"
 msgstr "লিঙ্ক"
 
-#: kio/kfileitem.cpp:568
+#: kio/kfileitem.cpp:569
 #, fuzzy
 msgid "%1 (Link)"
 msgstr "লিঙ্ক"
 
-#: kfile/kpropertiesdialog.cpp:837 kio/kfileitem.cpp:609
+#: kfile/kpropertiesdialog.cpp:837 kio/kfileitem.cpp:610
 #, fuzzy
 msgid "Type:"
 msgstr "ধরন:"
 
-#: kio/kfileitem.cpp:613
+#: kio/kfileitem.cpp:614
 #, fuzzy, c-format
 msgid "Link to %1"
 msgstr "লিঙ্ক   ১"
 
-#: kfile/kpropertiesdialog.cpp:877 kio/kfileitem.cpp:618
+#: kfile/kpropertiesdialog.cpp:877 kio/kfileitem.cpp:619
 #, fuzzy
 msgid "Size:"
 msgstr "মাপ:"
 
-#: kfile/kpropertiesdialog.cpp:970 kio/kfileitem.cpp:621
+#: kfile/kpropertiesdialog.cpp:970 kio/kfileitem.cpp:622
 #, fuzzy
 msgid "Modified:"
 msgstr "পরিবর্তিত:"
 
-#: kio/kfileitem.cpp:623
+#: kio/kfileitem.cpp:624
 #, fuzzy
 msgid "Owner:"
 msgstr "মালিক:"
 
-#: kio/kfileitem.cpp:624
+#: kio/kfileitem.cpp:625
 #, fuzzy
 msgid "Permissions:"
 msgstr "ব্যবহারের অনুমতি:"
@@ -2881,7 +2860,8 @@ msgstr "  তৈরি ১"
 
 #: kio/slave.cpp:382
 #, fuzzy
-msgid "Unknown protocol '%1'.\n"
+msgid ""
+"Unknown protocol '%1'.\n"
 msgstr "অজ্ঞাত প্রোটোকল"
 
 #: kio/slave.cpp:390
@@ -3815,7 +3795,8 @@ msgstr ""
 
 #: kioexec/main.cpp:72
 #, fuzzy
-msgid "'command' expected.\n"
+msgid ""
+"'command' expected.\n"
 msgstr "আদেশ প্রত্যাশিত"
 
 #: kioexec/main.cpp:97
@@ -4686,7 +4667,7 @@ msgstr "প্রদর্শন (_দ)"
 msgid "Parent Folder"
 msgstr "ডাইরেক্টরি"
 
-#: bookmarks/kbookmarkmenu.cc:816 kfile/kdiroperator.cpp:1181
+#: bookmarks/kbookmarkmenu.cc:817 kfile/kdiroperator.cpp:1181
 #, fuzzy
 msgid "New Folder..."
 msgstr "নতুন."
@@ -6218,7 +6199,7 @@ msgstr ""
 msgid "Delete Bookmark"
 msgstr "যোগ বুকমার্ক"
 
-#: bookmarks/kbookmarkmanager.cc:463 bookmarks/kbookmarkmenu.cc:344
+#: bookmarks/kbookmarkmanager.cc:504 bookmarks/kbookmarkmenu.cc:344
 msgid "Can't add bookmark with empty URL"
 msgstr ""
 
@@ -6269,17 +6250,17 @@ msgstr ""
 msgid "Quick Actions"
 msgstr "কাজ"
 
-#: bookmarks/kbookmarkmenu.cc:814
+#: bookmarks/kbookmarkmenu.cc:815
 #, fuzzy
 msgid "Update"
 msgstr "তারিখ"
 
-#: bookmarks/kbookmarkmenu.cc:927
+#: bookmarks/kbookmarkmenu.cc:928
 #, fuzzy
 msgid "Bookmark"
 msgstr "বুকমার্ক"
 
-#: bookmarks/kbookmarkmenu.cc:1094
+#: bookmarks/kbookmarkmenu.cc:1095
 #, fuzzy
 msgid "Netscape Bookmarks"
 msgstr "বুকমার্ক"
@@ -6301,7 +6282,7 @@ msgstr ""
 msgid "--- separator ---"
 msgstr ""
 
-#: bookmarks/kbookmarkmanager.cc:322
+#: bookmarks/kbookmarkmanager.cc:363
 msgid ""
 "Unable to save bookmarks in %1. Reported error was: %2. This error message "
 "will only be shown once. The cause of the error needs to be fixed as quickly "
@@ -6740,7 +6721,9 @@ msgstr "%1 (পোর্ট %2)"
 
 #: ../kioslave/http/http.cc:2470
 msgid "%1 contacted. Waiting for reply..."
-msgstr "%1-এর সঙ্গে যোগাযোগ করা হয়েছে। উত্তরের অপেক্ষায়..."
+msgstr ""
+"%1-এর সঙ্গে যোগাযোগ করা হয়েছে। "
+"উত্তরের অপেক্ষায়..."
 
 #: ../kioslave/http/http.cc:2818
 msgid "Server processing request, please wait..."
@@ -6780,9 +6763,10 @@ msgid ""
 "You need to supply a username and a password for the proxy server listed "
 "below before you are allowed to access any sites."
 msgstr ""
-"কোনো সাইট দেখার আগে আপনাকে নিম্নোল্লিখিত "
-"প্রক্সি সার্ভারটির জন্য একটি বৈধ username এবং "
-"পাসওয়ার্ড দিতে হবে।"
+"কোনো সাইট দেখার আগে আপনাকে "
+"নিম্নোল্লিখিত প্রক্সি "
+"সার্ভারটির জন্য একটি বৈধ username "
+"এবং পাসওয়ার্ড দিতে হবে।"
 
 #: ../kioslave/http/http.cc:4868
 msgid "Proxy:"
@@ -6800,5 +6784,18 @@ msgstr ""
 #: ../kioslave/metainfo/metainfo.cpp:99
 #, c-format
 msgid "No metainfo for %1"
-msgstr "%1-এর জন্য কোনো মেটা-তথ্য জানা নেই"
+msgstr ""
+"%1-এর জন্য কোনো মেটা-তথ্য জানা "
+"নেই"
 
+#~ msgid "An older item than '%1' already exists.\n"
+#~ msgstr "'%1'-এর চেয়ে পুরনো একটি বস্তু আগে থেকেই আছে। \n"
+
+#~ msgid "A similar file named '%1' already exists.\n"
+#~ msgstr "'%1' নামের একই রকম একটি ফাইল আগে থেকেই আছে।\n"
+
+#~ msgid "A newer item than '%1' already exists.\n"
+#~ msgstr "'%1'-এর চেয়ে নতুন একটি বস্তু আগে থেকেই আছে। \n"
+
+#~ msgid "Do you want to use another file name?"
+#~ msgstr "আপনি কী আরেকটি ফাইলের নাম ব্যবহার করতে চান?"
