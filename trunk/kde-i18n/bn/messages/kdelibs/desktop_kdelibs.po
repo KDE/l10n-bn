@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdelibs\n"
-"POT-Creation-Date: 2004-03-19 10:21+0100\n"
-"PO-Revision-Date: 2004-06-22 09:37-0500\n"
+"POT-Creation-Date: 2004-07-11 01:43+0200\n"
+"PO-Revision-Date: 2004-07-25 13:52-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr "Name=KMCOP"
 
 #: kdelibs/arts/kde/mcop-dcop/kmcop.desktop:2
 msgid "Comment=KDE MCOP-DCOP Bridge"
-msgstr "Comment=কে.ডি.ই MCOP-DCOP Bridge"
+msgstr "Comment=কে.ডি.ই MCOP-DCOP ব্রিজ"
 
 #: kdelibs/arts/knotify/knotify.desktop:1
 msgid "Name=KNotify"
@@ -31,6 +31,24 @@ msgid "Comment=KDE Notification Daemon"
 msgstr ""
 "Comment=কে.ডি.ই নোটিশ সরবরাহকারী "
 "ডিমন"
+
+#: kdelibs/interfaces/kimproxy/interface/dcopinstantmessenger.desktop:2
+msgid "Comment=Instant Messenger with a DCOP interface"
+msgstr "Comment=ডিকপ (DCOP) ইন্টারফেস সহ ইনস্ট্যান্ট মেসেঞ্জার"
+
+#: kdelibs/interfaces/kimproxy/interface/kcm_instantmessenger.desktop:1
+msgid "Name=Instant Messenger"
+msgstr "Name=ইনস্ট্যান্ট মেসেঞ্জার"
+
+#: kdelibs/interfaces/kimproxy/interface/kcm_instantmessenger.desktop:2
+msgid ""
+"Comment=The instant messenger allows two-way chat between individuals and "
+"groups."
+msgstr ""
+"Comment=ইনস্ট্যান্ট মেসেঞ্জার "
+"একাধিক ব্যক্তি বা গোষ্ঠীকে "
+"দ্বিমুখী বার্তালাপ বা আড্ডার "
+"সুযোগ দেয়। "
 
 #: kdelibs/interfaces/kscript/sample/shellscript.desktop:1
 msgid "Name=Bash Shell Script Runner"
@@ -44,10 +62,11 @@ msgstr ""
 "চালায়।"
 
 #: kdelibs/interfaces/kscript/scriptinterface.desktop:2
+#, fuzzy
 msgid ""
 "Comment=This is a generic test script engine for testing the script "
 "interface."
-msgstr ""
+msgstr "Comment=এই আছে a সাধারণ পরীক্ষা লিপি ইঞ্জিন জন্য পরীক্ষাকরণ টি লিপি ইন্টারফেস."
 
 #: kdelibs/interfaces/ktexteditor/kcm_ktexteditor.desktop:1
 msgid "Name=Embedded Text Editor"
@@ -62,20 +81,23 @@ msgstr ""
 "Comment=টেক্সট সম্পাদক সার্ভিসটি "
 "বিভিন্ন অ্যাপলিকেশন-কে একটি "
 "টেক্সট প্রদর্শক এবং সম্পাদক "
-"ব্যবহার করার সুযোগ দেয়। "
-"কোন কে.ডি.ই. অ্যাপলিকেশন "
-"টেক্সট সম্পাদনা করার সুবিধা "
-"দিতে চাইলে তার এই "
-"সার্ভিসটি ব্যবহার "
-"করা উচিত্‍।"
+"ব্যবহার করার সুযোগ দেয়। কোন "
+"কে.ডি.ই. অ্যাপলিকেশন টেক্সট "
+"সম্পাদনা করার সুবিধা দিতে "
+"চাইলে তার এই সার্ভিসটি "
+"ব্যবহার করা উচিত্‍।"
 
 #: kdelibs/interfaces/ktexteditor/ktexteditor.desktop:2
 msgid "Comment=Embeddable Text Editor Component (with Doc/View Separation)"
 msgstr ""
+"Comment=অভ্যন্তরীণ টেক্সট সম্পাদক কম্পোনেন্ট "
+"(পৃথক ডক/ভিউ সহ)"
 
 #: kdelibs/interfaces/ktexteditor/ktexteditoreditor.desktop:2
 msgid "Comment=Embeddable Text Editor Component (without Doc/View Separation)"
 msgstr ""
+"Comment=অভ্যন্তরীণ টেক্সট সম্পাদক কম্পোনেন্ট "
+"(পৃথক ডক/ভিউ ছাড়া)"
 
 #: kdelibs/interfaces/ktexteditor/ktexteditorplugin.desktop:2
 msgid "Comment=KTextEditor Plugin"
@@ -125,28 +147,39 @@ msgstr ""
 "Name=অভ্যন্তরীন উন্নত টেক্সট "
 "সম্পাদক"
 
+#: kdelibs/kate/plugins/autobookmarker/ktexteditor_autobookmarker.desktop:1
+msgid "Name=KTextEditor Autobookmarker"
+msgstr "Name=কে-টেক্সট-এডিটর অটো-মুকমার্কার"
+
+#: kdelibs/kate/plugins/autobookmarker/ktexteditor_autobookmarker.desktop:2
+msgid "Comment=Set bookmarks on lines matching a pattern when documents are loaded"
+msgstr "Comment=ডকুমেন্ট লোড করাকালীন প্রদত্ত নকশার সাথে মেলে এমন সমস্ত লাইন বুকমার্ক করে"
+
 #: kdelibs/kate/plugins/insertfile/ktexteditor_insertfile.desktop:1
 msgid "Name=KTextEditor Insert File Plugin"
-msgstr ""
-"Name=কে-টেক্সট-এডিটর ইনসার্ট "
-"ফাইল প্লাগ-ইন"
+msgstr "Name=কে-টেক্সট-এডিটর ফাইল অন্তর্ভুক্তি প্লাগ-ইন"
 
-#: kdelibs/kate/plugins/insertfile/ktexteditor_insertfile.desktop:6
-msgid "Description=Insert any readable file at cursor position"
+#: kdelibs/kate/plugins/insertfile/ktexteditor_insertfile.desktop:2
+msgid "Comment=Insert any readable file at cursor position"
 msgstr ""
-"Description=কার্সার অবস্থানে যে "
-"কোনো (পাঠযোগ্য) ফাইল ঢোকাতে "
-"পারে"
+"Comment=কার্সার অবস্থানে যে "
+"কোনো (পাঠযোগ্য) ফাইল অন্তর্ভুক্ত "
+"করতে পারে"
 
 #: kdelibs/kate/plugins/isearch/ktexteditor_isearch.desktop:1
+#, fuzzy
 msgid "Name=KTextEditor Incremental Search Plugin"
 msgstr ""
 "Name=কে-টেক্সট-এডিটর ধারাবাহিক "
-"খোঁজ প্লাগ-ইন"
+"সন্ধান প্লাগ-ইন"
+
+#: kdelibs/kate/plugins/isearch/ktexteditor_isearch.desktop:2
+msgid "Comment=Also known as \"As you type search\""
+msgstr "Comment=\"টাইপ করাকালীন সন্ধান\" হিসাবেও পরিচিত"
 
 #: kdelibs/kate/plugins/kdatatool/ktexteditor_kdatatool.desktop:1
 msgid "Name=KTextEditor KDataTool Plugin"
-msgstr "Name=KTextEditor KDataTool Plugin"
+msgstr "Name=কে-টেক্সট-এডিটর কে-ডেটা-টুল প্লাগ-ইন"
 
 #: kdelibs/kate/plugins/kdatatool/ktexteditor_kdatatool.desktop:2
 msgid "Comment=Enable data tools like thesaurus and spell check (if installed)"
@@ -155,13 +188,21 @@ msgstr ""
 "ইত্যাদি সক্রিয় করে (যদি "
 "পাওয়া যায়)"
 
+#: kdelibs/kate/plugins/wordcompletion/ktexteditor_docwordcompletion.desktop:1
+msgid "Name=KTextEditor Word Completion Plugin"
+msgstr "Name=কে-টেক্সট-এডিটর শব্দ পরিপূরণ প্লাগ-ইন"
+
+#: kdelibs/kate/plugins/wordcompletion/ktexteditor_docwordcompletion.desktop:2
+msgid "Comment=Directional or popup-based completion from words in the document"
+msgstr "Comment=ডকুমেন্ট-এর অন্যান্য শব্দের উপর ভিত্তি করে পরিপূরণ"
+
 #: kdelibs/kcert/kcertpart.desktop:1
 msgid "Name=KCertPart"
-msgstr "Name=KCertPart"
+msgstr "Name=কে-সার্ট-পার্ট"
 
 #: kdelibs/kcert/kcertpart.desktop:2
 msgid "Comment=Embeddable Personal Certificate Manager"
-msgstr ""
+msgstr "Comment=অভ্যন্তরীণ ব্যক্তিগত সার্টিফিকেট ম্যানেজার"
 
 #: kdelibs/kdecore/all_languages.desktop:1
 msgid "Name=Afar"
@@ -900,22 +941,18 @@ msgid "Comment=KDE System Notifications"
 msgstr "Comment=কে.ডি.ই সিস্টেম বার্তাবলী"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=The end of the list of matches has been reached."
-msgstr ""
-"Comment=মিলের তালিকার শেষে "
-"উপস্থিত।"
+msgid "Comment=The end of the list of matches has been reached"
+msgstr "Comment=মিলের তালিকার শেষে উপস্থিত"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=No matching completion was found."
-msgstr ""
-"Comment=কোনো যুতসই পরিপূরক পাওয়া "
-"যায় নি।"
+msgid "Comment=No matching completion was found"
+msgstr "Comment=কোনো যুতসই পরিপূরক পাওয়া যায় নি"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=There is more than one possible match."
+msgid "Comment=There is more than one possible match"
 msgstr ""
 "Comment=একাধিক সম্ভাব্য পরিপূরক "
-"বর্তমান।"
+"বর্তমান"
 
 #: kdelibs/kdecore/eventsrc:2
 msgid "Comment=The selected file cannot be opened for reading or writing"
@@ -924,22 +961,22 @@ msgstr ""
 "লেখার জন্য খোলা যাচ্ছে না"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=There was a serious error causing the program to exit."
+msgid "Comment=There was a serious error causing the program to exit"
 msgstr ""
 "Comment=একটি গুরুতর ত্রুটির দরুণ "
 "প্রোগ্রামটি থেমে গেছে"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=Something Special Happened in the Program"
+msgid "Comment=Something special happened in the program"
 msgstr ""
 "Comment=প্রোগ্রামে বিশেষ কিছু "
 "একটা ঘটেছে"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=There was an error in the program which may cause problems."
+msgid "Comment=There was an error in the program which may cause problems"
 msgstr ""
 "Comment=প্রোগ্রামে একটি ত্রুটি "
-"ছিল যার ফলে সমস্যা হতে পারে."
+"ছিল যার ফলে সমস্যা হতে পারে"
 
 #: kdelibs/kdecore/eventsrc:2
 msgid "Comment=A very serious error occurred, at least causing the program to exit"
@@ -948,12 +985,12 @@ msgstr ""
 "প্রোগ্রামটি থেমে গেছে"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=KDE is Starting Up"
-msgstr "Comment=কে.ডি.ই শুরু হচ্ছে"
+msgid "Comment=KDE is starting up"
+msgstr "Comment=কে.ডি.ই. চালু হচ্ছে"
 
 #: kdelibs/kdecore/eventsrc:2
-msgid "Comment=KDE is Exiting"
-msgstr "Comment=কে.ডি.ই বন্ধ হচ্ছে"
+msgid "Comment=KDE is exiting"
+msgstr "Comment=কে.ডি.ই. বন্ধ করা হচ্ছে"
 
 #: kdelibs/kdecore/eventsrc:2
 msgid "Comment=A print error has occurred"
@@ -1019,7 +1056,9 @@ msgstr "Name=imagetops"
 
 #: kdelibs/kdeprint/filters/imagetops.desktop:2
 msgid "Comment=Generic Image to PS Filter"
-msgstr "Comment=জেনেরিক চিত্র থেকে পোস্টস্ক্রিপ্ট ফিল্টার"
+msgstr ""
+"Comment=জেনেরিক চিত্র থেকে "
+"পোস্টস্ক্রিপ্ট ফিল্টার"
 
 #: kdelibs/kdeprint/filters/pdfwrite.desktop:1
 msgid "Name=pdfwrite"
@@ -1084,7 +1123,10 @@ msgstr "Name=psbook"
 
 #: kdelibs/kdeprint/filters/psbook.desktop:2
 msgid "Comment=Pamphlet Printing (use with small side duplex printing)"
-msgstr "Comment=প্যামফ্লেট মুদ্রণ (ছোট মাপের ডুপ্লেক্স প্রিন্টিং সহযোগে ব্যবহার করুন)"
+msgstr ""
+"Comment=প্যামফ্লেট মুদ্রণ (ছোট "
+"মাপের ডুপ্লেক্স প্রিন্টিং "
+"সহযোগে ব্যবহার করুন)"
 
 #: kdelibs/kdeprint/filters/psbook1.desktop:1
 msgid "Name=psbook1"
@@ -1092,7 +1134,9 @@ msgstr "Name=psbook1"
 
 #: kdelibs/kdeprint/filters/psbook1.desktop:2
 msgid "Comment=Pamphlet Printing - Even Pages (step 1)"
-msgstr "Comment=প্যামফ্লেট মুদ্রণ - জোড় সংখ্যক পাতা (প্রথম ধাপ)"
+msgstr ""
+"Comment=প্যামফ্লেট মুদ্রণ - জোড় "
+"সংখ্যক পাতা (প্রথম ধাপ)"
 
 #: kdelibs/kdeprint/filters/psbook2.desktop:1
 msgid "Name=psbook2"
@@ -1100,28 +1144,25 @@ msgstr "Name=psbook2"
 
 #: kdelibs/kdeprint/filters/psbook2.desktop:2
 msgid "Comment=Pamphlet Printing - Odd Pages (step 2)"
-msgstr "Comment=প্যামফ্লেট মুদ্রণ - বিজোড় সংখ্যক পাতা (দ্বিতীয় ধাপ)"
+msgstr ""
+"Comment=প্যামফ্লেট মুদ্রণ - বিজোড় "
+"সংখ্যক পাতা (দ্বিতীয় ধাপ)"
 
 #: kdelibs/kdeprint/filters/psnup.desktop:1
 msgid "Name=psnup"
 msgstr "Name=psnup"
 
 #: kdelibs/kdeprint/filters/psnup.desktop:2
-#, fuzzy
 msgid "Comment=Multiple Pages per Sheet Filter"
-msgstr "Comment="
+msgstr "Comment=একেকটি কাগজে একাধিক পৃষ্ঠা ছাপানোর জন্য ফিল্টার"
 
 #: kdelibs/kdeprint/filters/psresize.desktop:1
 msgid "Name=psresize"
 msgstr "Name=psresize"
 
 #: kdelibs/kdeprint/filters/psresize.desktop:2
-#, fuzzy
 msgid "Comment=Scale Print Content to Fit on Another Paper Size"
-msgstr ""
-"Comment= আয়তন ঠিক করা হোক ছাপানো "
-"হোক (Print) আঁটানো অব্স্থায় "
-"দেখানো হোক কাগজ মাপ"
+msgstr "Comment=অন্য মাপের কাগজে ছাপানোর জন্য প্রয়োজনমত ছোটবড় করতে পারে"
 
 #: kdelibs/kdeprint/filters/psselect.desktop:1
 msgid "Name=psselect"
@@ -1129,20 +1170,21 @@ msgstr "Name=psselect"
 
 #: kdelibs/kdeprint/filters/psselect.desktop:2
 msgid "Comment=Page Selection/Ordering Filter"
-msgstr "Comment=পৃষ্ঠা নির্বাচন/ক্রম ফিল্টার"
+msgstr ""
+"Comment=পৃষ্ঠা নির্বাচন/ক্রম "
+"ফিল্টার"
 
 #: kdelibs/kdeprint/foomatic/foomatic.print:2
-#, fuzzy
 msgid "Comment=Foomatic (CUPS, LPRng, PDQ)"
-msgstr "Comment="
+msgstr "Comment=ফুম্যাটিক (CUPS, LPRng, PDQ)"
 
 #: kdelibs/kdeprint/kdeprintd.desktop:1
 msgid "Name=KDE Print Daemon"
 msgstr "Name=কে.ডি.ই মুদ্রণ ডিমন"
 
 #: kdelibs/kdeprint/kdeprintd.desktop:2
-msgid "Comment=A Print Daemon for KDE"
-msgstr "Comment=কে.ডি.ই মুদ্রণ ডিমন"
+msgid "Comment=Print daemon for KDE"
+msgstr "Comment=কে.ডি.ই-র মুদ্রণ ডিমন"
 
 #: kdelibs/kdeprint/lpd/lpd.print:2
 msgid "Comment=LPR (Standard BSD print system)"
@@ -1181,7 +1223,7 @@ msgid "Name=Send to Fax"
 msgstr "Name=ফ্যাক্সে পাঠাও"
 
 #: kdelibs/kdeprint/specials.desktop:1
-msgid "Name=Mail PDF file"
+msgid "Name=Mail PDF File"
 msgstr "Name=পি-ডি-এফ ফাইল মেইল করো"
 
 #: kdelibs/kdeprint/specials.desktop:1
@@ -1200,7 +1242,9 @@ msgstr "Comment=বহিঃস্থ"
 
 #: kdelibs/kdeprint/specials.desktop:2
 msgid "Comment=Attachment for KMail Composer"
-msgstr "Comment=কে-মেইল কম্পোসার-এর জন্য অ্যাটাচমেন্ট"
+msgstr ""
+"Comment=কে-মেইল কম্পোসার-এর জন্য "
+"অ্যাটাচমেন্ট"
 
 #: kdelibs/kdeprint/specials.desktop:2
 msgid "Comment=KSendFax"
@@ -1238,6 +1282,14 @@ msgstr ""
 msgid "Name=EPSON InkJet"
 msgstr "Name=এপসন ইঙ্কজেট"
 
+#: kdelibs/kdeui/kdetrayproxy/kdetrayproxy.desktop:1
+msgid "Name=KDE Tray Proxy Module"
+msgstr "Name=কে.ডি.ই. ট্রে প্রক্সি মডিউল"
+
+#: kdelibs/kdeui/kdetrayproxy/kdetrayproxy.desktop:2
+msgid "Comment=Proxy enabling KDE systray applications to work without KWin"
+msgstr "Comment=কে.ডি.ই. সিস-ট্রে অ্যাপলিকেশন কে-উইন ছাড়াই কাজ করাবার জন্য প্রক্সি"
+
 #: kdelibs/khtml/java/kjavaappletviewer.desktop:1
 msgid "Name=Embedded Java Applet Viewer"
 msgstr ""
@@ -1250,7 +1302,9 @@ msgstr "Name=KHTML"
 
 #: kdelibs/khtml/khtml.desktop:2
 msgid "Comment=Embeddable HTML viewing component"
-msgstr "Comment=অভ্যন্তরীণ এইচ-টি-এম-এল প্রদর্শক উপাদান"
+msgstr ""
+"Comment=অভ্যন্তরীণ এইচ-টি-এম-এল "
+"প্রদর্শক উপাদান"
 
 #: kdelibs/khtml/khtmlimage.desktop:1
 msgid "Name=Embeddable Image Viewer"
@@ -1258,15 +1312,23 @@ msgstr "Name=অভ্যন্তরীণ চিত্র প্রদর্�
 
 #: kdelibs/khtml/khtmlimage.desktop:2
 msgid "Comment=Embeddable Image Viewing Component"
-msgstr "Comment=অভ্যন্তরীণ চিত্র প্রদর্শক উপাদান"
+msgstr ""
+"Comment=অভ্যন্তরীণ চিত্র "
+"প্রদর্শক উপাদান"
 
 #: kdelibs/khtml/kmultipart/kmultipart.desktop:1
-msgid "Name=Embeddable component for multipart/mixed"
-msgstr "Name=multipart/mixed-এর জন্য অভ্যন্তরীণ উপাদান"
+msgid "Name=Embeddable Component for multipart/mixed"
+msgstr ""
+"Name=multipart/mixed-এর জন্য অভ্যন্তরীণ "
+"উপাদান"
 
 #: kdelibs/kimgio/bmp.kimgio:1
 msgid "Name=BMP Image"
 msgstr "Name=বি-এম-পি চিত্র"
+
+#: kdelibs/kimgio/dds.kimgio:1
+msgid "Name=Direct Draw Surface"
+msgstr "Name=ডাইরেক্ট ড্র সারফেস"
 
 #: kdelibs/kimgio/eps.kimgio:1
 msgid "Name=Encapsulated PostScript Image"
@@ -1274,10 +1336,13 @@ msgstr ""
 "Name=এনক্যাপসুলেটেড "
 "পোস্টস্ক্রিপ্ট চিত্র"
 
+#: kdelibs/kimgio/exr.kimgio:1
+msgid "Name=ILM EXR Image Kimgio"
+msgstr ""
+
 #: kdelibs/kimgio/g3.kimgio:1
-#, fuzzy
 msgid "Name=CCITT G3 Fax"
-msgstr "Name="
+msgstr "Name=CCITT G3 ফ্যাক্স"
 
 #: kdelibs/kimgio/gif.kimgio:1
 msgid "Name=GIF Image"
@@ -1314,6 +1379,10 @@ msgstr "Name=পি-এন-জি চিত্র"
 #: kdelibs/kimgio/ppm.kimgio:1
 msgid "Name=Portable Pixmap Image"
 msgstr "Name=পোর্টেবল পিক্সম্যাপ চিত্র"
+
+#: kdelibs/kimgio/rgb.kimgio:1
+msgid "Name=SGI Image (RGB)"
+msgstr "Name=এস-জি-আই চিত্র (RGB)"
 
 #: kdelibs/kimgio/tga.kimgio:1
 msgid "Name=Truevision Targa Image"
@@ -1352,9 +1421,8 @@ msgid "Comment=KDE Data Tool"
 msgstr "Comment=কে.ডি.ই তথ্য টুল"
 
 #: kdelibs/kio/kfile/kpropsdlgplugin.desktop:2
-#, fuzzy
 msgid "Comment=Plugin for the Properties Dialog"
-msgstr "Comment= বৈশিষ্ট্যাবলী"
+msgstr "Comment=বৈশিষ্ট্যাবলী ডায়ালগ-এর জন্য প্লাগ-ইন"
 
 #: kdelibs/kio/kfileplugin.desktop:1
 msgid "Name=KFile Meta Data Plugin"
@@ -1365,13 +1433,12 @@ msgid "Name=KDED Password Module"
 msgstr "Name=KDED পাসওয়ার্ড মডিউল"
 
 #: kdelibs/kio/kpasswdserver.desktop:2
-#, fuzzy
-msgid "Comment=Password Caching support"
-msgstr "Comment= চালু রাখতে সাহায্য করা"
+msgid "Comment=Password caching support"
+msgstr "Comment=পাসওয়ার্ড ক্যাশ-এ রাখা সমর্থন করে"
 
 #: kdelibs/kio/kscan.desktop:1
 msgid "Name=KScan"
-msgstr "Name=KScan"
+msgstr "Name=কে-স্ক্যান"
 
 #: kdelibs/kio/kurifilterplugin.desktop:1
 msgid "Name=Enhanced Browsing Plugin"
@@ -1382,9 +1449,8 @@ msgid "Name=kio_uiserver"
 msgstr "Name=kio_uiserver"
 
 #: kdelibs/kio/misc/kio_uiserver.desktop:2
-#, fuzzy
 msgid "Comment=KDE's Progress Info UI server"
-msgstr "Comment= কে.ডি.ই তথ্য সার্ভার"
+msgstr "Comment=কে.ডি.ই. অগ্রগতি তথ্য UI সার্ভার"
 
 #: kdelibs/kio/misc/kpac/eventsrc:1
 msgid "Name=Invalid proxy script"
@@ -1427,24 +1493,25 @@ msgstr ""
 msgid "Name=Proxy Scout"
 msgstr "Name=প্রক্সি স্কাউট"
 
+#: kdelibs/kio/misc/kpac/proxyscout.desktop:2
+msgid "Comment=Automatic proxy configuration"
+msgstr "Comment=স্বয়ংক্রিয় প্রক্সি কনফিগারেশন"
+
 #: kdelibs/kio/misc/kssld/kssld.desktop:1
-#, fuzzy
 msgid "Name=KSSL Daemon Module"
-msgstr "Name="
+msgstr "Name=KSSL ডিমন মডিউল"
 
 #: kdelibs/kio/misc/kssld/kssld.desktop:2
-#, fuzzy
-msgid "Comment=KSSL Daemon Module for KDED"
-msgstr "Comment="
+msgid "Comment=KSSL daemon module for KDED"
+msgstr "Comment=KDED-র জন্য KSSL ডিমন মডিউল "
 
 #: kdelibs/kio/misc/kwalletd/kwalletd.desktop:1
 msgid "Name=KWallet Daemon Module"
 msgstr "Name=কে-ওয়ালেট ডিমন মডিউল"
 
 #: kdelibs/kio/misc/kwalletd/kwalletd.desktop:2
-#, fuzzy
-msgid "Comment=KWallet Daemon Module for KDED"
-msgstr "Comment="
+msgid "Comment=KWallet daemon module for KDED"
+msgstr "Comment=KDED-র জন্য কে-ওয়ালেট ডিমন মডিউল "
 
 #: kdelibs/kio/renamedlgplugin.desktop:2
 msgid "Comment=Plugin for the Rename Dialog"
@@ -1463,23 +1530,22 @@ msgid "Name=GZip Filter"
 msgstr "Name=জি-জিপ (Gzip) ফিল্টার"
 
 #: kdelibs/kioslave/http/http_cache_cleaner.desktop:1
-#, fuzzy
 msgid "Name=HTTP Cache Cleaner"
-msgstr "Name="
+msgstr "Name=এইচ-টি-টি-পি ক্যাশ ক্লীনার"
 
 #: kdelibs/kioslave/http/http_cache_cleaner.desktop:2
 msgid "Comment=Cleans up old entries from the HTTP cache"
-msgstr "Comment=HTTP ক্যাশ থেকে পুরনো তথ্য মুছে ফেলে"
+msgstr ""
+"Comment=HTTP ক্যাশ থেকে পুরনো তথ্য "
+"মুছে ফেলে"
 
 #: kdelibs/kioslave/http/kcookiejar/kcookiejar.desktop:1
 msgid "Name=KDED Cookie Jar Module"
 msgstr "Name=KDED কুকি জার মডিউল"
 
 #: kdelibs/kioslave/http/kcookiejar/kcookiejar.desktop:2
-msgid "Comment=Keeps track of all Cookies in the system"
-msgstr ""
-"Comment=সিস্টেমে সমস্ত কুকি-র "
-"খোঁজখবর রাখে"
+msgid "Comment=Keeps track of all cookies in the system"
+msgstr "Comment=সিস্টেমে সমস্ত কুকি-র খোঁজখবর রাখে"
 
 #: kdelibs/kparts/browserview.desktop:1
 msgid "Name=Browser View"
@@ -1497,59 +1563,73 @@ msgstr "Name=নোটপ্যাড (উদাহরণ)"
 msgid "Name=KDE Resources Configuration"
 msgstr "Name=কে.ডি.ই রিসোর্স কনফিগারেশন"
 
+#: kdelibs/kresources/kresources.desktop:2
+msgid "Comment=Configure KDE Resources"
+msgstr "Comment=কে.ডি.ই. রিসোর্সসমূহ কনফিগার করো"
+
+#: kdelibs/kresources/kresources.desktop:4
+msgid ""
+"Keywords=resources,konnector resource,contact resource,calendar "
+"resource,notes resource,imap"
+msgstr ""
+"Keywords=resources,konnector resource,contact resource,calendar "
+"resource,notes resource,imap"
+
 #: kdelibs/kresources/kresources_plugin.desktop:2
-#, fuzzy
 msgid "Comment=KResource Framework Plugin"
-msgstr "Comment="
+msgstr "Comment=কে-রিসোর্স ফ্রেম-ওয়ার্ক প্লাগ-ইন"
 
 #: kdelibs/ksmartcard/kardimpl/kcardgemsafe.desktop:1
-#, fuzzy
-msgid "Name=GemSafe Card implementation"
-msgstr "Name="
+msgid "Name=GemSafe Card Implementation"
+msgstr "Name=জেম-সেফ কার্ড ইমপ্লিমেন্টেশন"
 
 #: kdelibs/ksmartcard/kardimpl/kcardgsm.desktop:1
-#, fuzzy
-msgid "Name=GSM Card implementation"
-msgstr "Name="
+msgid "Name=GSM Card Implementation"
+msgstr "Name=জি-এস-এম কার্ড ইমপ্লিমেন্টেশন"
 
 #: kdelibs/ksmartcard/kardsvc/kardsvc.desktop:1
 msgid "Name=KDE Smartcard Service"
-msgstr "Name=কে.ডি.ই. স্মার্টকার্ড সেবা"
+msgstr "Name=কে.ডি.ই. স্মার্টকার্ড সার্ভিস"
 
 #: kdelibs/ksmartcard/kardsvc/kardsvc.desktop:2
-#, fuzzy
 msgid "Comment=Smartcard Services for KDE and KDE Applications"
-msgstr ""
-"Comment= কে.ডি.ই কে.ডি.ই "
-"অ্যাপ্‌লিকেশন সমূহ"
+msgstr "Comment=কে.ডি.ই. এবং কে.ডি.ই. অ্যাপলিকেশন সমূহের জন্য স্মার্টকার্ড সার্ভিস"
+
+#: kdelibs/kspell2/kspellclient.desktop:2
+msgid "Comment=KSpell Client"
+msgstr "Comment=কে-স্পেল ক্লায়েন্ট"
+
+#: kdelibs/kspell2/plugins/aspell/kspell_aspell.desktop:1
+msgid "Name=ASpell"
+msgstr "Name=এ-স্পেল"
+
+#: kdelibs/kspell2/plugins/ispell/kspell_ispell.desktop:1
+msgid "Name=ISpell"
+msgstr "Name=আই-স্পেল"
 
 #: kdelibs/kstyles/riscos/riscos.themerc:1
 msgid "Name=RISC OS"
 msgstr "Name=রিস্ক ও-এস"
 
 #: kdelibs/kstyles/riscos/riscos.themerc:2
-#, fuzzy
 msgid "Comment=RISC OS-like theme"
-msgstr "Comment= মত,অনুরূপ থিম"
+msgstr "Comment=রিস্ক ও.এস.-এর মতন থিম"
 
 #: kdelibs/kstyles/themes/b3.themerc:1
 msgid "Name=B3/KDE"
 msgstr "Name=বি-৩/কে.ডি.ই."
 
 #: kdelibs/kstyles/themes/b3.themerc:2
-#, fuzzy
 msgid "Comment=B3/Modification of B2"
-msgstr "Comment= বি-৩ এর বি-২"
+msgstr ""
 
 #: kdelibs/kstyles/themes/beos.themerc:1
-#, fuzzy
 msgid "Name=BeOS"
-msgstr "Name="
+msgstr "Name=BeOS"
 
 #: kdelibs/kstyles/themes/beos.themerc:2
-#, fuzzy
 msgid "Comment=Unthemed BeOS-like style"
-msgstr "Comment= মত,অনুরূপ ধরন,স্টাইল"
+msgstr ""
 
 #: kdelibs/kstyles/themes/default.themerc:1
 msgid "Name=KDE Classic"
@@ -1587,7 +1667,9 @@ msgstr ""
 
 #: kdelibs/kstyles/themes/light-v2.themerc:1
 msgid "Name=Light Style, 2nd revision"
-msgstr "Name=লাইট স্টাইল, দ্বিতীয় সংস্করণ"
+msgstr ""
+"Name=লাইট স্টাইল, দ্বিতীয় "
+"সংস্করণ"
 
 #: kdelibs/kstyles/themes/light-v2.themerc:2
 msgid "Comment=Second revision of the simple and elegant 'Light' widget style."
@@ -1606,9 +1688,8 @@ msgid "Name=Marble"
 msgstr "Name=মার্বল"
 
 #: kdelibs/kstyles/themes/marble.themerc:2
-#, fuzzy
 msgid "Comment=Light marble themed style"
-msgstr "Comment= সাদা ধরন,স্টাইল"
+msgstr ""
 
 #: kdelibs/kstyles/themes/mega.themerc:1
 msgid "Name=MegaGradient highcolor style"
@@ -1700,11 +1781,11 @@ msgstr "Comment=সব ফাইল"
 
 #: kdelibs/mimetypes/application/illustrator.desktop:2
 msgid "Comment=Adobe Illustrator Document"
-msgstr ""
+msgstr "Comment=অ্যাডোব ইলাস্ট্রেটর নথী"
 
 #: kdelibs/mimetypes/application/mathml+xml.desktop:2
 msgid "Comment=MathML Document"
-msgstr ""
+msgstr "Comment=ম্যাথ-এম.এল. নথী"
 
 #: kdelibs/mimetypes/application/msexcel.desktop:2
 msgid "Comment=Microsoft Excel Spreadsheet"
@@ -1734,71 +1815,55 @@ msgstr "Comment=পি-ডি-এফ নথী"
 
 #: kdelibs/mimetypes/application/pgp-encrypted.desktop:2
 msgid "Comment=PGP/MIME Encrypted Message Header"
-msgstr "Comment=পি.জি.পি/মাইম দ্বারা এনক্রিপ্ট করা বার্তা হেডার"
+msgstr ""
+"Comment=পি.জি.পি/মাইম দ্বারা "
+"এনক্রিপ্ট করা বার্তা হেডার"
 
 #: kdelibs/mimetypes/application/pgp-keys.desktop:2
-#, fuzzy
 msgid "Comment=OpenPGP Key Bundle"
-msgstr "Comment= কী (key)"
+msgstr "Comment=ওপেন-পি.জি.পি কী (Key) সংকলন"
 
 #: kdelibs/mimetypes/application/pgp-signature.desktop:2
-#, fuzzy
 msgid "Comment=Detached OpenPGP Signature"
-msgstr "Comment="
+msgstr "Comment=আলাদা করা ওপেন-পি.জি.পি স্বাক্ষর"
 
 #: kdelibs/mimetypes/application/pgp.desktop:2
 msgid "Comment=PGP Encrypted or Signed Message"
-msgstr "Comment=পি.জি.পি দ্বারা এনক্রিপ্ট বা স্বাক্ষর করা বার্তা"
+msgstr ""
+"Comment=পি.জি.পি দ্বারা এনক্রিপ্ট "
+"বা স্বাক্ষর করা বার্তা"
 
 #: kdelibs/mimetypes/application/pkcs10.desktop:2
-#, fuzzy
 msgid "Comment=S/MIME Certification Request"
-msgstr "Comment= দক্ষিণ"
+msgstr "Comment=S/MIME সার্টিফিকেশন অনুরোধ"
 
 #: kdelibs/mimetypes/application/pkcs7-mime.desktop:2
-#, fuzzy
 msgid "Comment=PKCS#7 (S/MIME) Formatted Data"
-msgstr "Comment= দক্ষিণ"
+msgstr "Comment=PKCS#7 (S/MIME) ফর্ম্যাট করা তথ্য"
 
 #: kdelibs/mimetypes/application/pkcs7-signature.desktop:2
-#, fuzzy
 msgid "Comment=Detached S/MIME Signature"
-msgstr "Comment= দক্ষিণ"
+msgstr "Comment=আলাদা করা S/MIME স্বাক্ষর "
 
 #: kdelibs/mimetypes/application/postscript.desktop:2
 msgid "Comment=PostScript Document"
 msgstr "Comment=পোস্টসক্রিপ্ট নথী"
 
 #: kdelibs/mimetypes/application/sieve.desktop:2
-#, fuzzy
 msgid "Comment=SIEVE Mail Filter Script"
-msgstr "Comment= চিঠি"
+msgstr "Comment=SIEVE মেইল ফিল্টার স্ক্রিপ্ট"
 
 #: kdelibs/mimetypes/application/smil.desktop:2
-#, fuzzy
 msgid "Comment=Synchronized Multimedia Integration Language"
-msgstr "Comment= মাল্টিমিডিয়া ভাষা"
-
-#: kdelibs/mimetypes/application/starcalc.desktop:2
-msgid "Comment=StarOffice Calc Spreadsheet"
-msgstr "Comment=স্টার-অফিস ক্যাল্ক নথী"
-
-#: kdelibs/mimetypes/application/starimpress.desktop:2
-msgid "Comment=StarOffice Impress Presentation"
-msgstr "Comment=স্টার-অফিস ইমপ্রেস নথী"
-
-#: kdelibs/mimetypes/application/starwriter.desktop:2
-msgid "Comment=StarOffice Writer Document"
-msgstr "Comment=স্টার-অফিস রাইটার নথী"
+msgstr "Comment=Synchronized Multimedia Integration Language"
 
 #: kdelibs/mimetypes/application/vnd.mozilla.xul+xml.desktop:2
-msgid "Comment=Mozilla XUL file"
+msgid "Comment=Mozilla XUL File"
 msgstr "Comment=মোজিলা এক্স-ইউ-এল ফাইল"
 
 #: kdelibs/mimetypes/application/vnd.ms-asf.desktop:2
-#, fuzzy
 msgid "Comment=ASF Media"
-msgstr "Comment="
+msgstr "Comment=এ-এস-এফ মিডিয়া"
 
 #: kdelibs/mimetypes/application/vnd.palm.desktop:2
 msgid "Comment=Palm Document"
@@ -1808,13 +1873,49 @@ msgstr "Comment=পাম (Palm) নথী"
 msgid "Comment=RealMedia File"
 msgstr "Comment=রিয়েল-মিডিয়া ফাইল"
 
+#: kdelibs/mimetypes/application/vnd.stardivision.calc.desktop:2
+msgid "Comment=StarOffice Calc Spreadsheet"
+msgstr "Comment=স্টার-অফিস ক্যাল্ক নথী"
+
+#: kdelibs/mimetypes/application/vnd.stardivision.chart.desktop:2
+msgid "Comment=StarOffice Chart"
+msgstr "Comment=স্টার-অফিস চার্ট"
+
+#: kdelibs/mimetypes/application/vnd.stardivision.draw.desktop:2
+msgid "Comment=StarOffice Drawing"
+msgstr "Comment=স্টার-অফিস ড্রয়িং"
+
+#: kdelibs/mimetypes/application/vnd.stardivision.impress.desktop:2
+msgid "Comment=StarOffice Impress Presentation"
+msgstr "Comment=স্টার-অফিস ইমপ্রেস নথী"
+
+#: kdelibs/mimetypes/application/vnd.stardivision.math.desktop:2
+msgid "Comment=StarOffice Math Document"
+msgstr "Comment=স্টার-অফিস ম্যাথ নথী"
+
+#: kdelibs/mimetypes/application/vnd.stardivision.writer-global.desktop:2
+msgid "Comment=StarOffice Writer Master Document"
+msgstr "Comment=স্টার-অফিস রাইটার মাস্টার নথী"
+
+#: kdelibs/mimetypes/application/vnd.stardivision.writer.desktop:2
+msgid "Comment=StarOffice Writer Document"
+msgstr "Comment=স্টার-অফিস রাইটার নথী"
+
 #: kdelibs/mimetypes/application/vnd.sun.xml.calc.desktop:2
 msgid "Comment=OpenOffice.org Spreadsheet"
 msgstr "Comment=ওপেন-অফিস.অর্গ স্প্রেডশিট"
 
+#: kdelibs/mimetypes/application/vnd.sun.xml.calc.template.desktop:2
+msgid "Comment=OpenOffice.org Spreadsheet Template"
+msgstr "Comment=ওপেন-অফিস.অর্গ স্প্রেডশিট টেম্‌প্লেট"
+
 #: kdelibs/mimetypes/application/vnd.sun.xml.draw.desktop:2
 msgid "Comment=OpenOffice.org Drawing"
 msgstr "Comment=ওপেন-অফিস.অর্গ ড্রয়িং"
+
+#: kdelibs/mimetypes/application/vnd.sun.xml.draw.template.desktop:2
+msgid "Comment=OpenOffice.org Drawing Template"
+msgstr "Comment=ওপেন-অফিস.অর্গ ড্রয়িং টেম্‌প্লেট"
 
 #: kdelibs/mimetypes/application/vnd.sun.xml.impress.desktop:2
 msgid "Comment=OpenOffice.org Presentation"
@@ -1822,9 +1923,23 @@ msgstr ""
 "Comment=ওপেন-অফিস.অর্গ "
 "প্রেসেন্টেশন"
 
+#: kdelibs/mimetypes/application/vnd.sun.xml.impress.template.desktop:2
+msgid "Comment=OpenOffice.org Presentation Template"
+msgstr ""
+"Comment=ওপেন-অফিস.অর্গ "
+"প্রেসেন্টেশন টেম্‌প্লেট"
+
 #: kdelibs/mimetypes/application/vnd.sun.xml.writer.desktop:2
 msgid "Comment=OpenOffice.org Text Document"
 msgstr "Comment=ওপেন-অফিস.অর্গ টেক্সট নথী"
+
+#: kdelibs/mimetypes/application/vnd.sun.xml.writer.master.desktop:2
+msgid "Comment=OpenOffice.org Master Text Document"
+msgstr "Comment=ওপেন-অফিস.অর্গ মাস্টার টেক্সট নথী"
+
+#: kdelibs/mimetypes/application/vnd.sun.xml.writer.template.desktop:2
+msgid "Comment=OpenOffice.org Text Document Template"
+msgstr "Comment=ওপেন-অফিস.অর্গ টেক্সট নথী টেম্‌প্লেট"
 
 #: kdelibs/mimetypes/application/wordperfect.desktop:2
 msgid "Comment=WordPerfect Document"
@@ -1835,44 +1950,48 @@ msgid "Comment=AbiWord Document"
 msgstr "Comment=এবি-ওয়ার্ড নথী"
 
 #: kdelibs/mimetypes/application/x-ace.desktop:2
-#, fuzzy
 msgid "Comment=ACE Archive"
-msgstr "Comment="
+msgstr "Comment=ACE আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-afm.desktop:2
 msgid "Comment=PostScript Font Metrics"
-msgstr "Comment=পোস্টস্ক্রিপ্ট ফন্ট মেট্রিক"
+msgstr ""
+"Comment=পোস্টস্ক্রিপ্ট ফন্ট "
+"মেট্রিক"
 
 #: kdelibs/mimetypes/application/x-amipro.desktop:2
 msgid "Comment=Lotus AmiPro Document"
-msgstr ""
+msgstr "Comment=লোটাস AmiPro নথী"
 
 #: kdelibs/mimetypes/application/x-applixgraphics.desktop:2
 msgid "Comment=Applix Graphics Document"
-msgstr "Comment=অ্যাপলিক্স গ্রাফিক্স ডকুমেন্ট"
+msgstr ""
+"Comment=অ্যাপলিক্স গ্রাফিক্স "
+"ডকুমেন্ট"
 
 #: kdelibs/mimetypes/application/x-applixspread.desktop:2
 msgid "Comment=Applix Spreadsheets Document"
-msgstr "Comment=অ্যাপলিক্স স্প্রেডশিট ডকুমেন্ট"
+msgstr ""
+"Comment=অ্যাপলিক্স স্প্রেডশিট "
+"ডকুমেন্ট"
 
 #: kdelibs/mimetypes/application/x-applixword.desktop:2
 msgid "Comment=Applix Words Document"
-msgstr "Comment=Comment=অ্যাপলিক্স ওয়ার্ড ডকুমেন্ট"
+msgstr ""
+"Comment=Comment=অ্যাপলিক্স ওয়ার্ড "
+"ডকুমেন্ট"
 
 #: kdelibs/mimetypes/application/x-arc.desktop:2
-#, fuzzy
 msgid "Comment=ARC Archive"
-msgstr "Comment="
+msgstr "Comment=ARC আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-archive.desktop:2
-#, fuzzy
 msgid "Comment=Ar Archive"
-msgstr "Comment="
+msgstr "Comment=Ar আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-arj.desktop:2
-#, fuzzy
 msgid "Comment=ARJ Archive"
-msgstr "Comment="
+msgstr "Comment=ARJ আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-awk.desktop:2
 msgid "Comment=AWK Script"
@@ -1883,9 +2002,8 @@ msgid "Comment=BitTorrent Download"
 msgstr "Comment=বিট-টরেন্ট ডাউনলোড"
 
 #: kdelibs/mimetypes/application/x-bz2dvi.desktop:2
-#, fuzzy
-msgid "Comment=Bzip2 compressed DVI File"
-msgstr "Comment= ফাইল (_ফ)"
+msgid "Comment=Bzip2 Compressed DVI File"
+msgstr "Comment=বি-জিপ-২ (Bzip2) কম্প্রেসকৃত ডি-ভি-আই ফাইল"
 
 #: kdelibs/mimetypes/application/x-bzip.desktop:2
 msgid "Comment=Bzip File"
@@ -1908,19 +2026,16 @@ msgid "Comment=Program Crash Data"
 msgstr "Comment=প্রোগ্রাম ক্র্যাশ ডেটা"
 
 #: kdelibs/mimetypes/application/x-cpio.desktop:2
-#, fuzzy
 msgid "Comment=CPIO Archive"
-msgstr "Comment="
+msgstr "Comment=CPIO আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-cue.desktop:2
-#, fuzzy
-msgid "Comment=CDRWIN cue-sheet"
-msgstr "Comment="
+msgid "Comment=CDRWIN Cue-Sheet"
+msgstr "Comment=CDRWIN কিউ-শিট"
 
 #: kdelibs/mimetypes/application/x-dbase.desktop:2
-#, fuzzy
 msgid "Comment=dBASE Document"
-msgstr "Comment="
+msgstr "Comment=ডি-বেস (dBASE) ডকুমেন্ট"
 
 #: kdelibs/mimetypes/application/x-deb.desktop:2
 msgid "Comment=Debian Package"
@@ -1941,9 +2056,12 @@ msgstr ""
 "ইন্ডিপেন্ডেন্ট (DVI) ফাইল "
 
 #: kdelibs/mimetypes/application/x-egon.desktop:2
-#, fuzzy
 msgid "Comment=Egon Animator"
-msgstr "Comment="
+msgstr "Comment=ইগন অ্যানিমেটর"
+
+#: kdelibs/mimetypes/application/x-executable-script.desktop:2
+msgid "Comment=Script (possibly executable)"
+msgstr "Comment=স্ক্রিপ্ট (সম্ভবত এক্সিকিউটেবল)"
 
 #: kdelibs/mimetypes/application/x-executable.desktop:2
 msgid "Comment=Executable File"
@@ -1966,9 +2084,8 @@ msgid "Comment=PCF Bitmap Font"
 msgstr "Comment=পি-সি-এফ (PCF) বিটম্যাপ ফন্ট"
 
 #: kdelibs/mimetypes/application/x-font-snf.desktop:2
-#, fuzzy
 msgid "Comment=SNF Bitmap Font"
-msgstr "Comment= ফন্ট"
+msgstr "Comment=SNF বিটম্যাপ ফন্ট"
 
 #: kdelibs/mimetypes/application/x-font-speedo.desktop:2
 msgid "Comment=Speedo Font"
@@ -1989,22 +2106,19 @@ msgstr ""
 "ফন্ট"
 
 #: kdelibs/mimetypes/application/x-gettext.desktop:2
-#, fuzzy
 msgid "Comment=GNU Gettext Message Catalog"
-msgstr "Comment= বার্তা"
+msgstr "Comment=গনিউ গেট-টেক্সট বার্তা ক্যাটালগ"
 
 #: kdelibs/mimetypes/application/x-gnumeric.desktop:2
-#, fuzzy
 msgid "Comment=GNUmeric Spreadsheet"
-msgstr "Comment="
+msgstr "Comment=গনিউমেরিক স্প্রেডশীট"
 
 #: kdelibs/mimetypes/application/x-graphite.desktop:2
-#, fuzzy
 msgid "Comment=Graphite Scientific Graph"
-msgstr "Comment="
+msgstr "Comment=গ্রাফাইট সায়েন্টিফিক গ্রাফ"
 
 #: kdelibs/mimetypes/application/x-gzdvi.desktop:2
-msgid "Comment=Gzip compressed DVI File"
+msgid "Comment=Gzip Compressed DVI File"
 msgstr "Comment=জি-জিপকৃত (gzipped) ডি-ভি-আই ফাইল"
 
 #: kdelibs/mimetypes/application/x-gzip.desktop:2
@@ -2021,10 +2135,13 @@ msgstr ""
 msgid "Comment=HancomWord Document"
 msgstr "Comment=হ্যানকম-ওয়ার্ড নথী"
 
+#: kdelibs/mimetypes/application/x-ica.desktop:2
+msgid "Comment=Citrix ICA Client Configuration"
+msgstr "Comment=সাইট্রিক্স ICA ক্লায়েন্ট কনফিগারেশন"
+
 #: kdelibs/mimetypes/application/x-iso.desktop:2
-#, fuzzy
-msgid "Comment=ISO9660 image file"
-msgstr "Comment="
+msgid "Comment=ISO9660 Image File"
+msgstr "Comment=ISO9660 ইমেজ ফাইল"
 
 #: kdelibs/mimetypes/application/x-jar.desktop:2
 msgid "Comment=Java Archive"
@@ -2038,10 +2155,13 @@ msgstr "Comment=জাভা অ্যাপলেট"
 msgid "Comment=Java Class"
 msgstr "Comment=জাভা ক্লাস"
 
+#: kdelibs/mimetypes/application/x-javascript.desktop:2
+msgid "Comment=JavaScript File"
+msgstr "Comment=জাভাস্ক্রিপ্ট ফাইল"
+
 #: kdelibs/mimetypes/application/x-karbon.desktop:2
-#, fuzzy
 msgid "Comment=Karbon14 Document"
-msgstr "Comment="
+msgstr "Comment=কার্বন-১৪ নথী"
 
 #: kdelibs/mimetypes/application/x-kchart.desktop:2
 msgid "Comment=KChart Document"
@@ -2060,14 +2180,12 @@ msgid "Comment=KFormula Document"
 msgstr "Comment=কে-ফর্মুলা"
 
 #: kdelibs/mimetypes/application/x-kivio.desktop:2
-#, fuzzy
 msgid "Comment=Kivio Document"
-msgstr "Comment="
+msgstr "Comment=কিভিও নথী"
 
 #: kdelibs/mimetypes/application/x-kontour.desktop:2
-#, fuzzy
 msgid "Comment=Kontour Document"
-msgstr "Comment="
+msgstr "Comment=কনটুর নথী"
 
 #: kdelibs/mimetypes/application/x-kpovmodeler.desktop:2
 msgid "Comment=KPovModeler File"
@@ -2078,9 +2196,8 @@ msgid "Comment=KPresenter Document"
 msgstr "Comment=কে-প্রেসেন্টার নথী"
 
 #: kdelibs/mimetypes/application/x-krita.desktop:2
-#, fuzzy
 msgid "Comment=Krita Document"
-msgstr "Comment="
+msgstr "Comment=ক্রিটা নথী"
 
 #: kdelibs/mimetypes/application/x-kspread.desktop:2
 msgid "Comment=KSpread Document"
@@ -2099,23 +2216,20 @@ msgid "Comment=KWord Document"
 msgstr "Comment=কে-ওয়ার্ড নথী"
 
 #: kdelibs/mimetypes/application/x-lha.desktop:2
-#, fuzzy
 msgid "Comment=Lha Archive"
-msgstr "Comment="
+msgstr "Comment=Lha আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-linguist.desktop:2
-#, fuzzy
 msgid "Comment=Qt Translation Source File"
-msgstr "Comment= কিউটি অনুবাদ ফাইল (_ফ)"
+msgstr "Comment=কিউ-টি অনুবাদ সোর্স ফাইল"
 
 #: kdelibs/mimetypes/application/x-lyx.desktop:2
 msgid "Comment=LyX Document"
 msgstr "Comment=লাইক্স (LyX) নথী"
 
 #: kdelibs/mimetypes/application/x-lzop.desktop:2
-#, fuzzy
 msgid "Comment=Lzopped File"
-msgstr "Comment= ফাইল (_ফ)"
+msgstr "Comment=Lzopp করা ফাইল"
 
 #: kdelibs/mimetypes/application/x-magicpoint.desktop:2
 msgid "Comment=MagicPoint Presentation"
@@ -2133,13 +2247,21 @@ msgstr ""
 msgid "Comment=Windows Executable"
 msgstr "Comment=উইন্ডোস এক্সিকিউটেবল"
 
+#: kdelibs/mimetypes/application/x-msmetafile.desktop:2
+msgid "Comment=Microsoft Metafile"
+msgstr "Comment=মাইক্রোসফ্‌ট মেটা-ফাইল"
+
 #: kdelibs/mimetypes/application/x-mswrite.desktop:2
 msgid "Comment=Microsoft Write Document"
-msgstr "Comment=মাইক্রোসফট রাইট (Write) নথী"
+msgstr "Comment=মাইক্রোসফ্‌ট রাইট (Write) নথী"
 
 #: kdelibs/mimetypes/application/x-object.desktop:2
 msgid "Comment=Object Code"
 msgstr "Comment=অবজেক্ট কোড"
+
+#: kdelibs/mimetypes/application/x-pak.desktop:2
+msgid "Comment=PAK File Archive"
+msgstr "Comment=PAK ফাইল আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-perl-module.desktop:2
 msgid "Comment=PERL Module"
@@ -2154,14 +2276,12 @@ msgid "Comment=PHP Script"
 msgstr "Comment=পি-এইচ-পি স্ক্রিপ্ট"
 
 #: kdelibs/mimetypes/application/x-pkcs12.desktop:2
-#, fuzzy
 msgid "Comment=PKCS#12 Certificate Bundle"
-msgstr "Comment="
+msgstr "Comment=PKCS#12 সার্টিফিকেট সংকলন"
 
 #: kdelibs/mimetypes/application/x-pw.desktop:2
-#, fuzzy
 msgid "Comment=Pathetic Writer Document"
-msgstr "Comment="
+msgstr "Comment=প্যাথেটিক রাইটার নথী"
 
 #: kdelibs/mimetypes/application/x-python-bytecode.desktop:2
 msgid "Comment=Python Bytecode"
@@ -2172,14 +2292,12 @@ msgid "Comment=Python Program"
 msgstr "Comment=পাইথন প্রোগ্রাম"
 
 #: kdelibs/mimetypes/application/x-quattropro.desktop:2
-#, fuzzy
 msgid "Comment=Quattro Pro Document"
-msgstr "Comment="
+msgstr "Comment=কুয়াট্রো প্রো নথী"
 
 #: kdelibs/mimetypes/application/x-rar.desktop:2
-#, fuzzy
 msgid "Comment=Rar Archive"
-msgstr "Comment="
+msgstr "Comment=Rar আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-rpm.desktop:2
 msgid "Comment=RPM Package File"
@@ -2202,9 +2320,8 @@ msgid "Comment=Shockwave Flash Media"
 msgstr "Comment=শকওয়েভ ফ্ল্যাশ মিডিয়া"
 
 #: kdelibs/mimetypes/application/x-siag.desktop:2
-#, fuzzy
 msgid "Comment=Siag Spreadsheet"
-msgstr "Comment="
+msgstr "Comment=সিয়াগ স্প্রেডশীট"
 
 #: kdelibs/mimetypes/application/x-tar.desktop:2
 msgid "Comment=Tar Archive"
@@ -2219,14 +2336,12 @@ msgid "Comment=Bzipped Tar Archive"
 msgstr "Comment=বি-জিপকৃত (bzipped) টার আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-tex-gf.desktop:2
-#, fuzzy
 msgid "Comment=Generic Font"
-msgstr "Comment= সাধারণ ফন্ট"
+msgstr "Comment=জেনারিক ফন্ট"
 
 #: kdelibs/mimetypes/application/x-tex-pk.desktop:2
-#, fuzzy
 msgid "Comment=Packed Font"
-msgstr "Comment= ফন্ট"
+msgstr "Comment=প্যাককৃত ফন্ট"
 
 #: kdelibs/mimetypes/application/x-tgif.desktop:2
 msgid "Comment=TGIF Document"
@@ -2251,22 +2366,24 @@ msgid "Comment=Troff Document"
 msgstr "Comment=টি-রফ নথী"
 
 #: kdelibs/mimetypes/application/x-tzo.desktop:2
-#, fuzzy
 msgid "Comment=Lzopped Tar Archive"
-msgstr "Comment="
+msgstr "Comment=Lzop করা টার আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-vnd.kde.kexi.desktop:2
 msgid "Comment=Kexi Project File"
 msgstr "Comment=কেক্সি (Kexi) প্রোজেক্ট ফাইল"
+
+#: kdelibs/mimetypes/application/x-vnd.kde.kplato.desktop:2
+msgid "Comment=KPlato Project Management Document"
+msgstr "Comment=কে-প্লেটো প্রোজেক্ট ম্যানেজমেন্ট নথী"
 
 #: kdelibs/mimetypes/application/x-vnd.kde.kugar.mixed.desktop:2
 msgid "Comment=Kugar Archive File"
 msgstr "Comment=কুগার আর্কাইভ ফাইল"
 
 #: kdelibs/mimetypes/application/x-x509-ca-cert.desktop:2
-#, fuzzy
 msgid "Comment=DER, PEM, or Netscape Encoded X.509 Certificate"
-msgstr "Comment= এক্স অক্ষ"
+msgstr "Comment=DER, PEM, অথবা নেটস্কেপ দ্বারা এনকোড করা  X.509 সার্টিফিকেট"
 
 #: kdelibs/mimetypes/application/x-zerosize.desktop:2
 msgid "Comment=Empty Document"
@@ -2277,14 +2394,12 @@ msgid "Comment=Zip Archive"
 msgstr "Comment=জিপ (zip) আর্কাইভ"
 
 #: kdelibs/mimetypes/application/x-zoo.desktop:2
-#, fuzzy
 msgid "Comment=Zoo Archive"
-msgstr "Comment="
+msgstr "Comment=Zoo আর্কাইভ"
 
 #: kdelibs/mimetypes/application/xhtml+xml.desktop:2
-#, fuzzy
 msgid "Comment=XHTML Family Document"
-msgstr "Comment="
+msgstr "Comment=XHTML পরিবার নথী"
 
 #: kdelibs/mimetypes/audio/aac.desktop:2
 msgid "Comment=AAC Sound"
@@ -2295,13 +2410,24 @@ msgid "Comment=Dolby AC3 Sound"
 msgstr "Comment=ডলবি এ-সি-৩ অডিও"
 
 #: kdelibs/mimetypes/audio/basic.desktop:2
-#, fuzzy
 msgid "Comment=ULAW (Sun) Audio"
-msgstr "Comment= শব্দ"
+msgstr "Comment=ULAW (সান) অডিও"
 
 #: kdelibs/mimetypes/audio/mp4.desktop:2
 msgid "Comment=MPEG-4 Audio"
 msgstr "Comment=এমপেগ-৪ অডিও"
+
+#: kdelibs/mimetypes/audio/mpeg.desktop:2
+msgid "Comment=MPEG Audio"
+msgstr "Comment=এমপেগ অডিও"
+
+#: kdelibs/mimetypes/audio/mpegurl.desktop:2
+msgid "Comment=Streaming MPEG Layer 3 Audio"
+msgstr "Comment=স্ট্রিমিং এমপেগ লেয়ার-৩ অডিও"
+
+#: kdelibs/mimetypes/audio/prs.sid.desktop:2
+msgid "Comment=C64 SID Music"
+msgstr "Comment=C64 SID মিউসিক"
 
 #: kdelibs/mimetypes/audio/vnd.rn-realaudio.desktop:2
 msgid "Comment=RealAudio File"
@@ -2337,14 +2463,21 @@ msgstr ""
 "Comment=অ্যামিগা "
 "সাউণ্ডট্র্যাকার অডিও"
 
+#: kdelibs/mimetypes/audio/x-mp2.desktop:2
+msgid "Comment=MPEG Layer 2 Audio"
+msgstr "Comment=এমপেগ লেয়ার ২ অডিও"
+
 #: kdelibs/mimetypes/audio/x-mp3.desktop:2
 msgid "Comment=MPEG Layer 3 Audio"
 msgstr "Comment=এমপেগ লেয়ার ৩ অডিও"
 
-#: kdelibs/mimetypes/audio/x-mpegurl.desktop:2
-#, fuzzy
-msgid "Comment=Streaming MPEG Layer 3 Audio"
-msgstr "Comment= এমপেগ শব্দ"
+#: kdelibs/mimetypes/audio/x-ms-wma.desktop:2
+msgid "Comment=Windows Media Audio"
+msgstr "Comment=উইন্ডোস মিডিয়া অডিও"
+
+#: kdelibs/mimetypes/audio/x-musepack.desktop:2
+msgid "Comment=Musepack Audio"
+msgstr "Comment=মিউস-প্যাক অডিও"
 
 #: kdelibs/mimetypes/audio/x-oggflac.desktop:2
 msgid "Comment=Ogg FLAC Audio"
@@ -2371,9 +2504,8 @@ msgstr ""
 "মেটাফাইল"
 
 #: kdelibs/mimetypes/image/fax-g3.desktop:2
-#, fuzzy
 msgid "Comment=CCITT G3 Fax"
-msgstr "Comment="
+msgstr "Comment=CCITT G3 ফ্যাক্স"
 
 #: kdelibs/mimetypes/image/gif.desktop:2
 msgid "Comment=GIF Image"
@@ -2405,11 +2537,19 @@ msgstr "Comment=টিফ চিত্র"
 msgid "Comment=BMP Image"
 msgstr "Comment=বি-এম-পি চিত্র"
 
+#: kdelibs/mimetypes/image/x-dds.desktop:2
+msgid "Comment=DirectDraw Surface"
+msgstr "Comment=ডায়রেক্ট-ড্র সারফেস"
+
 #: kdelibs/mimetypes/image/x-eps.desktop:2
 msgid "Comment=Encapsulated PostScript Image"
 msgstr ""
 "Comment=এনক্যাপসুলেটেড "
 "পোস্টস্ক্রিপ্ট চিত্র"
+
+#: kdelibs/mimetypes/image/x-exr.desktop:2
+msgid "Comment=ILM EXR Image"
+msgstr "Comment=ILM EXR ইমেজ"
 
 #: kdelibs/mimetypes/image/x-ico.desktop:2
 msgid "Comment=Windows Icon"
@@ -2445,6 +2585,10 @@ msgstr ""
 "Comment=পোর্টেবল পিক্সম্যাপ "
 "চিত্র"
 
+#: kdelibs/mimetypes/image/x-rgb.desktop:2
+msgid "Comment=SGI Image (RGB)"
+msgstr "Comment=এস-জি-আই চিত্র (RGB)"
+
 #: kdelibs/mimetypes/image/x-targa.desktop:2
 msgid "Comment=Truevision Targa Image"
 msgstr "Comment=ট্রুভিশন টার্গা চিত্র"
@@ -2454,9 +2598,8 @@ msgid "Comment=Adobe Photoshop Image"
 msgstr "Comment=অ্যাডোব ফোটোশপ চিত্র"
 
 #: kdelibs/mimetypes/image/x-vnd.trolltech.qpicture.desktop:2
-#, fuzzy
 msgid "Comment=QPicture Metafile"
-msgstr "Comment="
+msgstr "Comment=কিউ-পিকচার মেটা-ফাইল"
 
 #: kdelibs/mimetypes/image/x-wmf.desktop:2
 msgid "Comment=Windows MetaFile"
@@ -2525,9 +2668,8 @@ msgid "Comment=Compound Document"
 msgstr "Comment=মিশ্র নথী"
 
 #: kdelibs/mimetypes/multipart/x-mixed-replace.desktop:2
-#, fuzzy
 msgid "Comment=Stream of Data (Server Push)"
-msgstr "Comment= এর সার্ভার"
+msgstr ""
 
 #: kdelibs/mimetypes/text/calendar.desktop:2
 msgid "Comment=iCalendar File"
@@ -2542,9 +2684,8 @@ msgid "Comment=DocBook Document"
 msgstr "Comment=ডকবুক নথী"
 
 #: kdelibs/mimetypes/text/enriched.desktop:2
-#, fuzzy
 msgid "Comment=Lightly Enriched Text Document"
-msgstr "Comment= মামুলি (প্লেইন) টেক্সট"
+msgstr ""
 
 #: kdelibs/mimetypes/text/html.desktop:2
 msgid "Comment=HTML Document"
@@ -2555,14 +2696,12 @@ msgid "Comment=Plain Text Document"
 msgstr "Comment=প্লেইন টেক্সট নথী"
 
 #: kdelibs/mimetypes/text/rdf.desktop:2
-#, fuzzy
 msgid "Comment=Resource Description Framework File"
-msgstr "Comment= ফাইল (_ফ)"
+msgstr "Comment=রিসোর্স ডেস্‌ক্রিপশন ফ্রেমওয়ার্ক ফাইল"
 
 #: kdelibs/mimetypes/text/rss.desktop:2
-#, fuzzy
 msgid "Comment=RDF Site Summary"
-msgstr "Comment= সারাংশ"
+msgstr "Comment=RDF সাইট সারসংক্ষেপ"
 
 #: kdelibs/mimetypes/text/rtf.desktop:2
 msgid "Comment=RTF Document"
@@ -2611,6 +2750,10 @@ msgid "Comment=Differences Between Files"
 msgstr ""
 "Comment=একাধিক ফাইলের মধ্যে "
 "পার্থক্য"
+
+#: kdelibs/mimetypes/text/x-hex.desktop:2
+msgid "Comment=Intel® Hexadecimal Object File Format"
+msgstr "Comment=ইনটেল® হেক্সাডেসিমাল অবজেক্ট ফাইল ফর্ম্যাট"
 
 #: kdelibs/mimetypes/text/x-java.desktop:2
 msgid "Comment=Java Source File"
@@ -2735,7 +2878,7 @@ msgid "Name=Crystal SVG beta1"
 msgstr "Name=Crystal SVG beta1"
 
 #: kdelibs/pics/crystalsvg/index.theme:2
-msgid "Comment=Icon Theme by Everaldo (www.everaldo.com)"
+msgid "Comment=Icon Theme by Everaldo.com Design Studio"
 msgstr ""
 "Comment=এভারাল্ডোর (www.everaldo.com) তৈরি "
 "আইকন থিম"
