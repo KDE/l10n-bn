@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker\n"
-"POT-Creation-Date: 2004-05-04 09:31+0200\n"
+"POT-Creation-Date: 2004-06-28 01:56+0200\n"
 "PO-Revision-Date: 2004-06-26 14:08-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -58,7 +58,8 @@ msgid "K Menu"
 msgstr "কে মেনু"
 
 #: buttons/nonkdeappbutton.cpp:125 buttons/nonkdeappbutton.cpp:145
-msgid "Cannot execute non-KDE application!"
+#, fuzzy
+msgid "Cannot execute non-KDE application."
 msgstr ""
 "নন-কে.ডি.ই. অ্যাপলিকেশন "
 "চালাতে ব্যর্থ!"
@@ -72,7 +73,8 @@ msgid "Applications"
 msgstr "অ্যাপলিকেশন"
 
 #: buttons/urlbutton.cpp:217
-msgid "The file %1 doesn't exist"
+#, fuzzy
+msgid "The file %1 does not exist"
 msgstr "%1 ফাইলটির অস্তিত্ব নেই"
 
 #: buttons/windowlistbutton.cpp:39
@@ -102,15 +104,15 @@ msgstr ""
 msgid "Applet Loading Error"
 msgstr "অ্যাপলেট লোড করতে সমস্যা"
 
-#: core/container_panel.cpp:451 core/container_panel.cpp:452
+#: core/container_panel.cpp:448 core/container_panel.cpp:449
 msgid "Show panel"
 msgstr "প্যানেল দেখাও"
 
-#: core/container_panel.cpp:454 core/container_panel.cpp:455
+#: core/container_panel.cpp:451 core/container_panel.cpp:452
 msgid "Hide panel"
 msgstr "প্যানেল লুকোও"
 
-#: core/kicker.cpp:265 core/kickerbindings.cpp:16 ui/addcontainer_mnu.cpp:47
+#: core/kicker.cpp:279 core/kickerbindings.cpp:16 ui/addcontainer_mnu.cpp:47
 #: ui/removecontainer_mnu.cpp:48
 msgid "Panel"
 msgstr "প্যানেল"
@@ -123,19 +125,21 @@ msgstr "মূল মেনু"
 msgid "Toggle Showing Desktop"
 msgstr "ডেস্কটপ দেখানো হবে কি না"
 
-#: core/main.cpp:109
+#: core/main.cpp:45
+#, fuzzy
+msgid "The KDE panel"
+msgstr "কে.ডি.ই. ডেস্কটপ প্যানেল।"
+
+#: core/main.cpp:115
 msgid "KDE Panel"
 msgstr "কে.ডি.ই. প্যানেল"
 
-#: core/main.cpp:111
-msgid "The KDE desktop panel."
-msgstr "কে.ডি.ই. ডেস্কটপ প্যানেল।"
-
-#: core/main.cpp:113
-msgid "(c) 1999-2002, The KDE Team"
+#: core/main.cpp:117
+#, fuzzy
+msgid "(c) 1999-2004, The KDE Team"
 msgstr "(c) ১৯৯৯-২০০২ কে.ডি.ই. টীম"
 
-#: core/main.cpp:122
+#: core/main.cpp:126
 msgid "Kiosk mode"
 msgstr "কিয়স্ক মোড"
 
@@ -259,8 +263,9 @@ msgstr "ফাইল ম্যানেজারে খোলো"
 msgid "Open in Terminal"
 msgstr "টার্মিনালে খোলো"
 
-#: ui/browser_mnu.cpp:299
-msgid "More..."
+#: ui/browser_mnu.cpp:300
+#, fuzzy
+msgid "More"
 msgstr "আরো..."
 
 #: ui/customSize_dlg.cpp:33 ui/customSize_dlg.cpp:41
@@ -323,11 +328,11 @@ msgstr "টার্মিনালে চালাও"
 msgid "Select &File..."
 msgstr "ফাই&ল বেছে নিন..."
 
-#: ui/exe_dlg.cpp:157 ui/exe_dlg.cpp:169
+#: ui/exe_dlg.cpp:153 ui/exe_dlg.cpp:165
 msgid "Select Executable"
 msgstr "এক্সিকিউটেবল বেছে নিন"
 
-#: ui/exe_dlg.cpp:164
+#: ui/exe_dlg.cpp:160
 msgid ""
 "The selected file is not executable.\n"
 "Do you want to select another file?"
@@ -350,7 +355,8 @@ msgid "Run Command..."
 msgstr "কমাণ্ড চালাও..."
 
 #: ui/k_mnu.cpp:302
-msgid "Start New Session"
+#, fuzzy
+msgid "Start New Session..."
 msgstr "নতুন সেশন শুরু করো"
 
 #: ui/k_mnu.cpp:312
@@ -358,14 +364,25 @@ msgid "Save Session"
 msgstr "সেশন সংরক্ষণ করো"
 
 #: ui/k_mnu.cpp:315
-msgid "Lock Screen"
+#, fuzzy
+msgid "Lock Session"
 msgstr "স্ক্রীণ লক করো"
 
 #: ui/k_mnu.cpp:318
 msgid "Logout..."
 msgstr "লগ আউট..."
 
-#: ui/k_mnu.cpp:365
+#: ui/k_mnu.cpp:364
+#, fuzzy
+msgid "Warning - New Session"
+msgstr "নতুন সেশন শুরু করো"
+
+#: ui/k_mnu.cpp:369
+#, fuzzy
+msgid "&Start New Session"
+msgstr "নতুন সেশন শুরু করো"
+
+#: ui/k_mnu.cpp:372
 msgid ""
 "<p>You have chosen to open another desktop session."
 "<br>The current session will be hidden and a new login screen will be "
@@ -375,6 +392,11 @@ msgid ""
 "sessions by pressing CTRL, ALT and the appropriate F-key at the same "
 "time.</p>"
 msgstr ""
+
+#: ui/k_mnu.cpp:384
+#, fuzzy
+msgid "&Lock current session"
+msgstr "স্ক্রীণ লক করো"
 
 #: ui/panelop_mnu.cpp:111
 msgid "Tiny"
@@ -473,4 +495,3 @@ msgstr "কোনো এন্ট্রী নেই"
 #: ui/service_mnu.cpp:259
 msgid "Add This Menu"
 msgstr "এই মেনুটি যোগ করো"
-

@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libkdegames\n"
-"POT-Creation-Date: 2004-04-15 09:31+0200\n"
+"POT-Creation-Date: 2004-06-27 01:18+0200\n"
 "PO-Revision-Date: 2004-06-27 15:30-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -374,7 +374,8 @@ msgid "Change Admin"
 msgstr "অ্যাডমিন পরিবর্তন করো"
 
 #: kgame/dialogs/kgamedialogconfig.cpp:487
-msgid "Remove Client With All Players"
+#, fuzzy
+msgid "Remove Client with All Players"
 msgstr ""
 "সকল খেলোয়াড়সহ ক্লায়েন্টকে "
 "অপসারণ করো"
@@ -684,19 +685,28 @@ msgstr ""
 msgid "High Scores"
 msgstr "সেরা স্কোর"
 
-#: highscore/kscoredialog.cpp:83
+#: highscore/kexthighscore_internal.h:69 highscore/kscoredialog.cpp:83
+msgid "Date"
+msgstr "তারিখ"
+
+#: highscore/kscoredialog.cpp:86
 msgid "Level"
 msgstr "স্তর"
 
-#: highscore/kexthighscore.cpp:196 highscore/kscoredialog.cpp:86
+#: highscore/kexthighscore.cpp:211 highscore/kscoredialog.cpp:89
 msgid "Score"
 msgstr "স্কোর"
 
-#: highscore/kexthighscore_internal.h:49 highscore/kscoredialog.cpp:138
+#: highscore/kexthighscore_internal.h:49 highscore/kscoredialog.cpp:141
 msgid "Rank"
 msgstr "অবস্থান"
 
-#: highscore/kscoredialog.cpp:348
+#: highscore/kscoredialog.cpp:167
+#, c-format
+msgid "#%1"
+msgstr ""
+
+#: highscore/kscoredialog.cpp:351
 msgid ""
 "Excellent!\n"
 "You have a new high score!"
@@ -705,7 +715,7 @@ msgstr ""
 "আপনার সেরা স্কোর আরো একধাপ "
 "এগিয়েছে!"
 
-#: highscore/kscoredialog.cpp:350
+#: highscore/kscoredialog.cpp:353
 msgid ""
 "Well done!\n"
 "You made it to the high score list!"
@@ -846,15 +856,15 @@ msgstr "আপনার ডাকনাম লিখুন:"
 msgid "Do not ask again."
 msgstr "আর জিজ্ঞাসা করবে না।"
 
-#: highscore/kexthighscore.cpp:199
+#: highscore/kexthighscore.cpp:214
 msgid "Mean Score"
 msgstr "মধ্যম স্কোর"
 
-#: highscore/kexthighscore.cpp:204
+#: highscore/kexthighscore.cpp:219
 msgid "Best Score"
 msgstr "সেরা স্কোর"
 
-#: highscore/kexthighscore.cpp:208
+#: highscore/kexthighscore.cpp:223
 msgid "Elapsed Time"
 msgstr "অতিক্রান্ত সময়"
 
@@ -870,111 +880,107 @@ msgstr "খেলার সংখ্যা"
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: highscore/kexthighscore_internal.cpp:566
+#: highscore/kexthighscore_internal.cpp:577
 msgid "Undefined error."
 msgstr "অজ্ঞাত সমস্যা।"
 
-#: highscore/kexthighscore_internal.cpp:567
+#: highscore/kexthighscore_internal.cpp:578
 msgid "Missing argument(s)."
 msgstr "আর্গুমেন্ট বাদ পড়েছে।"
 
-#: highscore/kexthighscore_internal.cpp:568
+#: highscore/kexthighscore_internal.cpp:579
 msgid "Invalid argument(s)."
 msgstr "ভুল আর্গুমেন্ট।"
 
-#: highscore/kexthighscore_internal.cpp:570
+#: highscore/kexthighscore_internal.cpp:581
 msgid "Unable to connect to MySQL server."
 msgstr ""
 "মাই-এসকিউএল সার্ভারের সাথে "
 "সংযোগ স্থাপন করা যায় নি।"
 
-#: highscore/kexthighscore_internal.cpp:571
+#: highscore/kexthighscore_internal.cpp:582
 msgid "Unable to select database."
 msgstr "ডেটাবেস নির্বাচন করা যায় নি।"
 
-#: highscore/kexthighscore_internal.cpp:572
+#: highscore/kexthighscore_internal.cpp:583
 msgid "Error on database query."
 msgstr ""
 "ডেটাবেসে Query চালাতে গিয়ে "
 "সমস্যা হয়েছে।"
 
-#: highscore/kexthighscore_internal.cpp:573
+#: highscore/kexthighscore_internal.cpp:584
 msgid "Error on database insert."
 msgstr ""
 "ডেটাবেসে Insert করতে গিয়ে সমস্যা "
 "হয়েছে।"
 
-#: highscore/kexthighscore_internal.cpp:575
+#: highscore/kexthighscore_internal.cpp:586
 msgid "Nickname already registered."
 msgstr ""
 "এই ডাকনামটি ইতিমধ্যেই "
 "নিবন্ধিত হয়ে গিয়েছে।"
 
-#: highscore/kexthighscore_internal.cpp:576
+#: highscore/kexthighscore_internal.cpp:587
 msgid "Nickname not registered."
 msgstr "ডাকনামটি নিবন্ধিত নয়।"
 
-#: highscore/kexthighscore_internal.cpp:577
+#: highscore/kexthighscore_internal.cpp:588
 msgid "Invalid key."
 msgstr "ভুল মূল-শব্দ।"
 
-#: highscore/kexthighscore_internal.cpp:578
+#: highscore/kexthighscore_internal.cpp:589
 msgid "Invalid submit key."
 msgstr "ভুল দাখিলকারী মূল-শব্দ।"
 
-#: highscore/kexthighscore_internal.cpp:580
+#: highscore/kexthighscore_internal.cpp:591
 msgid "Invalid level."
 msgstr "ভুল স্তর।"
 
-#: highscore/kexthighscore_internal.cpp:581
+#: highscore/kexthighscore_internal.cpp:592
 msgid "Invalid score."
 msgstr "ভুল স্কোর।"
 
-#: highscore/kexthighscore_internal.cpp:585
+#: highscore/kexthighscore_internal.cpp:596
 msgid "Unable to contact world-wide highscore server"
 msgstr ""
 "বিশ্ব-ব্যাপী সেরা স্কোর "
 "রক্ষণকারী সার্ভারের সাথে "
 "সংযোগ স্থাপন করা যায় নি"
 
-#: highscore/kexthighscore_internal.cpp:594
+#: highscore/kexthighscore_internal.cpp:605
 #, c-format
 msgid "Server URL: %1"
 msgstr "সার্ভারের ইউ.আর.এল.: %1"
 
-#: highscore/kexthighscore_internal.cpp:602
+#: highscore/kexthighscore_internal.cpp:613
 msgid "Unable to open temporary file."
 msgstr "অস্থায়ী ফাইল খোলা যায় নি।"
 
-#: highscore/kexthighscore_internal.cpp:624
+#: highscore/kexthighscore_internal.cpp:635
 msgid "Message from world-wide highscores server"
 msgstr ""
 "বিশ্ব-ব্যাপী সেরা স্কোর "
 "রক্ষণকারী সার্ভারের "
 "প্রেরিত বার্তা"
 
-#: highscore/kexthighscore_internal.cpp:631
+#: highscore/kexthighscore_internal.cpp:642
 msgid "Invalid answer from world-wide highscores server."
 msgstr ""
 "বিশ্ব-ব্যাপী সেরা স্কোর "
 "রক্ষণকারী সার্ভার ভুল জবাব "
 "প্রেরণ করেছে।"
 
-#: highscore/kexthighscore_internal.cpp:632
+#: highscore/kexthighscore_internal.cpp:643
 #, c-format
 msgid "Raw message: %1"
 msgstr "Raw বার্তা: %1"
 
-#: highscore/kexthighscore_internal.cpp:644
+#: highscore/kexthighscore_internal.cpp:655
 msgid "Invalid answer from world-wide highscores server (missing item: %1)."
 msgstr ""
 "বিশ্ব-ব্যাপী সেরা স্কোর "
 "রক্ষণকারী সার্ভার ভুল জবাব "
 "প্রেরণ করেছে (হারানো জিনিষ: %1)"
-
-#: highscore/kexthighscore_internal.h:69
-msgid "Date"
-msgstr "তারিখ"
 
 #: highscore/kexthighscore_internal.h:78
 msgid "Success"
@@ -985,7 +991,8 @@ msgid "Multiplayers Scores"
 msgstr "বহু-খেলোয়াড়ের স্কোর"
 
 #: highscore/kexthighscore_item.cpp:280
-msgid "No game played!"
+#, fuzzy
+msgid "No game played."
 msgstr "কোন খেলা হয় নি !"
 
 #: highscore/kexthighscore_item.cpp:282
@@ -1016,39 +1023,43 @@ msgstr "জয়:"
 msgid "Lost:"
 msgstr "পরাজয়:"
 
-#: highscore/kexthighscore_tab.cpp:115
+#: highscore/kexthighscore_tab.cpp:113
+msgid "Draw:"
+msgstr ""
+
+#: highscore/kexthighscore_tab.cpp:116
 msgid "Current:"
 msgstr "বর্তমান:"
 
-#: highscore/kexthighscore_tab.cpp:115
+#: highscore/kexthighscore_tab.cpp:116
 msgid "Max won:"
 msgstr "সর্বোচ্চ জয়:"
 
-#: highscore/kexthighscore_tab.cpp:115
+#: highscore/kexthighscore_tab.cpp:116
 msgid "Max lost:"
 msgstr "সর্বোচ্চ পরাজয়:"
 
-#: highscore/kexthighscore_tab.cpp:126
+#: highscore/kexthighscore_tab.cpp:127
 msgid "Game Counts"
 msgstr "খেলার সংখ্যা"
 
-#: highscore/kexthighscore_tab.cpp:136
+#: highscore/kexthighscore_tab.cpp:138
 msgid "Trends"
 msgstr "প্রবণতা"
 
-#: highscore/kexthighscore_tab.cpp:218
+#: highscore/kexthighscore_tab.cpp:223
 msgid "From"
 msgstr "প্রেরক"
 
-#: highscore/kexthighscore_tab.cpp:219
+#: highscore/kexthighscore_tab.cpp:224
 msgid "To"
 msgstr "প্রাপক"
 
-#: highscore/kexthighscore_tab.cpp:220
+#: highscore/kexthighscore_tab.cpp:225
 msgid "Count"
 msgstr "সংখ্যা"
 
-#: highscore/kexthighscore_tab.cpp:221
+#: highscore/kexthighscore_tab.cpp:226
 msgid "Percent"
 msgstr "শতাংশ"
 
@@ -1181,4 +1192,3 @@ msgstr "%1 %2"
 #, c-format
 msgid "--- %1"
 msgstr "--- %1"
-
