@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: filetypes\n"
-"POT-Creation-Date: 2003-10-11 01:27+0200\n"
+"POT-Creation-Date: 2003-11-19 01:25+0100\n"
 "PO-Revision-Date: 2003-10-22 00:00-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -32,11 +32,15 @@ msgstr ""
 
 #: filegroupdetails.cpp:38 filetypedetails.cpp:103
 msgid "Show file in embedded viewer"
-msgstr "অভ্যন্তরীন প্রদর্শক ব্যবহার করা হোক"
+msgstr ""
+"অভ্যন্তরীন প্রদর্শক "
+"ব্যবহার করা হোক"
 
 #: filegroupdetails.cpp:39 filetypedetails.cpp:104
 msgid "Show file in separate viewer"
-msgstr "পৃথক প্রদর্শক ব্যবহার করা হোক"
+msgstr ""
+"পৃথক প্রদর্শক ব্যবহার করা "
+"হোক"
 
 #: filegroupdetails.cpp:42
 msgid ""
@@ -65,7 +69,7 @@ msgid ""
 "text files."
 msgstr ""
 
-#: filetypedetails.cpp:57 filetypesview.cpp:73 kservicelistwidget.cpp:92
+#: filetypedetails.cpp:57 filetypesview.cpp:73 kservicelistwidget.cpp:127
 msgid "Add..."
 msgstr ""
 
@@ -156,16 +160,20 @@ msgid ""
 "<h1>File Associations</h1> This module allows you to choose which "
 "applications are associated with a given type of file. File types are also "
 "referred to MIME types (MIME is an acronym which stands for \"Multipurpose "
-"Internet Mail Extensions\".)<p> A file association consists of the "
-"following: <ul><li>Rules for determining the MIME-type of a file. For "
-"example, the filename pattern *.kwd, which means 'all files with names that "
-"end in .kwd', is associated with the MIME type \"x-kword\".</li> <li>A short "
-"description of the MIME-type. For example, the description of the MIME type "
-"\"x-kword\" is simply 'KWord document'.)</li> <li>An icon to be used for "
-"displaying files of the given MIME-type, so that you can easily identify the "
-"type of file, say in a Konqueror view (at least for the types you use often!)"
-"</li> <li>A list of the applications which can be used to open files of the "
-"given MIME-type. If more than one application can be used, then the list is "
+"Internet Mail Extensions\".)"
+"<p> A file association consists of the following: "
+"<ul>"
+"<li>"
+"Rules for determining the MIME-type of a file. For example, the filename "
+"pattern *.kwd, which means 'all files with names that end in .kwd', is "
+"associated with the MIME type \"x-kword\".</li> "
+"<li>A short description of the MIME-type. For example, the description of "
+"the MIME type \"x-kword\" is simply 'KWord document'.)</li> "
+"<li>An icon to be used for displaying files of the given MIME-type, so that "
+"you can easily identify the type of file, say in a Konqueror view (at least "
+"for the types you use often!)</li> "
+"<li>A list of the applications which can be used to open files of the given "
+"MIME-type. If more than one application can be used, then the list is "
 "ordered by priority.</li></ul> You may be surprised to find that some MIME "
 "types have no associated filename patterns! In these cases, Konqueror is "
 "able to determine the MIME-type by directly examining the contents of the "
@@ -181,8 +189,7 @@ msgid "KEditFileType"
 msgstr ""
 
 #: keditfiletype.cpp:95
-msgid ""
-"KDE file type editor - simplified version for editing a single file type"
+msgid "KDE file type editor - simplified version for editing a single file type"
 msgstr ""
 
 #: keditfiletype.cpp:97
@@ -194,19 +201,19 @@ msgstr ""
 msgid "Edit File Type %1"
 msgstr ""
 
-#: kservicelistwidget.cpp:26
+#: kservicelistwidget.cpp:50
 msgid "%1 (%2)"
 msgstr ""
 
-#: kservicelistwidget.cpp:30
+#: kservicelistwidget.cpp:65
 msgid "Application Preference Order"
 msgstr ""
 
-#: kservicelistwidget.cpp:31
+#: kservicelistwidget.cpp:66
 msgid "Services Preference Order"
 msgstr ""
 
-#: kservicelistwidget.cpp:52
+#: kservicelistwidget.cpp:87
 msgid ""
 "This is a list of applications associated with files of the selected file "
 "type. This list is shown in Konqueror's context menus when you select \"Open "
@@ -215,7 +222,7 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:57
+#: kservicelistwidget.cpp:92
 msgid ""
 "This is a list of services associated with files of the selected file type. "
 "This list is shown in Konqueror's context menus when you select a \"Preview "
@@ -224,11 +231,11 @@ msgid ""
 "precedence over the others."
 msgstr ""
 
-#: kservicelistwidget.cpp:66
+#: kservicelistwidget.cpp:101
 msgid "Move &Up"
 msgstr "ও&পরে তোলো"
 
-#: kservicelistwidget.cpp:72
+#: kservicelistwidget.cpp:107
 msgid ""
 "Assigns a higher priority to the selected\n"
 "application, moving it up in the list. Note:  This\n"
@@ -236,17 +243,17 @@ msgid ""
 "associated with more than one application."
 msgstr ""
 
-#: kservicelistwidget.cpp:76
+#: kservicelistwidget.cpp:111
 msgid ""
 "Assigns a higher priority to the selected\n"
 "service, moving it up in the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:79
+#: kservicelistwidget.cpp:114
 msgid "Move &Down"
 msgstr "নীচে নামা&ও"
 
-#: kservicelistwidget.cpp:85
+#: kservicelistwidget.cpp:120
 msgid ""
 "Assigns a lower priority to the selected\n"
 "application, moving it down in the list. Note: This \n"
@@ -254,30 +261,57 @@ msgid ""
 "associated with more than one application."
 msgstr ""
 
-#: kservicelistwidget.cpp:89
+#: kservicelistwidget.cpp:124
 msgid ""
 "Assigns a lower priority to the selected\n"
 "service, moving it down in the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:97
+#: kservicelistwidget.cpp:132
 msgid "Add a new application for this file type."
 msgstr ""
 
-#: kservicelistwidget.cpp:100
+#: kservicelistwidget.cpp:135
 msgid "Edit..."
 msgstr ""
 
-#: kservicelistwidget.cpp:105
+#: kservicelistwidget.cpp:140
 msgid "Edit command line of the selected application."
 msgstr ""
 
-#: kservicelistwidget.cpp:113
+#: kservicelistwidget.cpp:148
 msgid "Remove the selected application from the list."
 msgstr ""
 
-#: kservicelistwidget.cpp:140 kservicelistwidget.cpp:229
+#: kservicelistwidget.cpp:175 kservicelistwidget.cpp:264
 msgid "None"
+msgstr ""
+
+#: kservicelistwidget.cpp:350
+msgid "The service <b>%1</b> can not be removed."
+msgstr ""
+
+#: kservicelistwidget.cpp:351
+msgid ""
+"The service is listed here because it has been associated with the <b>%1</b>"
+" (%2) file type and files of type <b>%3</b> (%4) are per definition also of "
+"type <b>%5</b>."
+msgstr ""
+
+#: kservicelistwidget.cpp:355
+msgid ""
+"Either select the <b>%1</b> file type to remove the service from there or "
+"move the service down to deprecate it."
+msgstr ""
+
+#: kservicelistwidget.cpp:358
+msgid ""
+"Do you want to remove the service from the <b>%1</b> file type or from the "
+"<b>%2</b> file type?"
+msgstr ""
+
+#: kservicelistwidget.cpp:369
+msgid "You are not authorized to remove this service."
 msgstr ""
 
 #: kserviceselectdlg.cpp:30
