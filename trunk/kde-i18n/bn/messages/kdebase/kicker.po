@@ -1,18 +1,18 @@
 # translation of kicker.po to Bengali
-# Copyright (C) 2003 Free Software Foundation, Inc.
-# Deepayan Sarkar <deepayan@bengalinux.org>, 2003.
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
+# Deepayan Sarkar <deepayan@bengalinux.org>, 2003, 2004.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker\n"
-"POT-Creation-Date: 2004-01-07 01:28+0100\n"
-"PO-Revision-Date: 2003-12-23 11:27-0600\n"
+"POT-Creation-Date: 2004-05-04 09:31+0200\n"
+"PO-Revision-Date: 2004-06-26 14:08-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"X-Generator: KBabel 1.3.1\n"
 
 #: share/panner.cpp:83
 msgid "Scroll left"
@@ -39,8 +39,9 @@ msgstr "ব্রাউজ: %1 "
 msgid "Show desktop"
 msgstr "ডেস্কটপ দেখাও"
 
-#: buttons/desktopbutton.cpp:44
-msgid "Show Desktop"
+#: buttons/desktopbutton.cpp:44 ui/addspecialbutton_mnu.cpp:54
+#: ui/removespecialbutton_mnu.cpp:77
+msgid "Desktop Access"
 msgstr "ডেস্কটপ দেখাও"
 
 #: buttons/kbutton.cpp:50
@@ -51,9 +52,10 @@ msgstr ""
 "দেখতে এবং চালাতে এখানে ক্লিক "
 "করুন"
 
-#: buttons/kbutton.cpp:51
-msgid "Start Applications"
-msgstr "অ্যাপলিকেশন চালান"
+#: buttons/kbutton.cpp:51 ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:73
+#: ui/removespecialbutton_mnu.cpp:62
+msgid "K Menu"
+msgstr "কে মেনু"
 
 #: buttons/nonkdeappbutton.cpp:125 buttons/nonkdeappbutton.cpp:145
 msgid "Cannot execute non-KDE application!"
@@ -69,17 +71,17 @@ msgstr "কিকারে সমস্যা"
 msgid "Applications"
 msgstr "অ্যাপলিকেশন"
 
-#: buttons/urlbutton.cpp:194
+#: buttons/urlbutton.cpp:217
 msgid "The file %1 doesn't exist"
 msgstr "%1 ফাইলটির অস্তিত্ব নেই"
 
 #: buttons/windowlistbutton.cpp:39
 msgid "Window list"
-msgstr "উইনডো তালিকা"
+msgstr "উইণ্ডো তালিকা"
 
-#: buttons/windowlistbutton.cpp:41
+#: buttons/windowlistbutton.cpp:41 ui/addspecialbutton_mnu.cpp:49
 msgid "Window List"
-msgstr "উইনডো তালিকা"
+msgstr "উইণ্ডো তালিকা"
 
 #: core/applethandle.cpp:108
 msgid "%1 applet handle"
@@ -89,26 +91,26 @@ msgstr "%1 অ্যাপলেট হ্যাণ্ডল"
 msgid "%1 menu"
 msgstr "%1 মেনু"
 
-#: core/container_applet.cpp:251
+#: core/container_applet.cpp:252
 msgid "The %1 applet could not be loaded. Please check your installation."
 msgstr ""
 "অ্যাপলেট %1 লোড করা যায়নি। "
 "অনুগ্রহ করে আপনার ইনস্টলেশন "
 "পরীক্ষা করুন।"
 
-#: core/container_applet.cpp:252
+#: core/container_applet.cpp:253
 msgid "Applet Loading Error"
 msgstr "অ্যাপলেট লোড করতে সমস্যা"
 
-#: core/container_panel.cpp:434 core/container_panel.cpp:435
+#: core/container_panel.cpp:451 core/container_panel.cpp:452
 msgid "Show panel"
 msgstr "প্যানেল দেখাও"
 
-#: core/container_panel.cpp:437 core/container_panel.cpp:438
+#: core/container_panel.cpp:454 core/container_panel.cpp:455
 msgid "Hide panel"
 msgstr "প্যানেল লুকোও"
 
-#: core/kicker.cpp:237 core/kickerbindings.cpp:16 ui/addcontainer_mnu.cpp:47
+#: core/kicker.cpp:265 core/kickerbindings.cpp:16 ui/addcontainer_mnu.cpp:47
 #: ui/removecontainer_mnu.cpp:48
 msgid "Panel"
 msgstr "প্যানেল"
@@ -149,20 +151,7 @@ msgstr "অ্যাপলিকেশন বাটন"
 msgid "Special Button"
 msgstr "বিশেষ বাটন"
 
-#: ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:73
-#: ui/removespecialbutton_mnu.cpp:62
-msgid "K Menu"
-msgstr "কে মেনু"
-
-#: ui/addspecialbutton_mnu.cpp:49 ui/removespecialbutton_mnu.cpp:67
-msgid "Windowlist"
-msgstr "উইনডো তালিকা"
-
-#: ui/addspecialbutton_mnu.cpp:54 ui/removespecialbutton_mnu.cpp:77
-msgid "Desktop Access"
-msgstr "ডেস্কটপ দেখাও"
-
-#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:235
+#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:238
 #: ui/removespecialbutton_mnu.cpp:82
 msgid "Quick Browser"
 msgstr "চটপট ঘোরাঘুরি"
@@ -173,29 +162,29 @@ msgstr "নন-কে.ডি.ই. অ্যাপলিকেশন"
 
 #: ui/appletop_mnu.cpp:60
 msgid "&Move %1 Menu"
-msgstr "মেনু %1 &সরাও "
+msgstr "'%1' মেনু &সরাও "
 
 #: ui/appletop_mnu.cpp:61
 msgid "&Move %1 Button"
-msgstr "বাটন %1 &সরাও"
+msgstr "'%1' বাটন &সরাও"
 
 #: ui/appletop_mnu.cpp:62
 #, c-format
 msgid "&Move %1"
-msgstr "%1 &সরাও"
+msgstr "'%1' &সরাও"
 
 #: ui/appletop_mnu.cpp:64
 msgid "&Remove %1 Menu"
-msgstr "মেনু %1 মুছে ফেলো (&ম)"
+msgstr "'%1' মেনু মুছে ফেলো (&ম)"
 
 #: ui/appletop_mnu.cpp:65
 msgid "&Remove %1 Button"
-msgstr "বাটন %1 মুছে ফেলো (&ম)"
+msgstr "'%1' বাটন মুছে ফেলো (&ম)"
 
 #: ui/appletop_mnu.cpp:66
 #, c-format
 msgid "&Remove %1"
-msgstr "%1 মুছে ফেলো (&ম)"
+msgstr "'%1' মুছে ফেলো (&ম)"
 
 #: ui/appletop_mnu.cpp:76 ui/extensionop_mnu.cpp:44
 msgid "Report &Bug..."
@@ -212,7 +201,7 @@ msgstr "বৈশিষ্ট্যা&বলী"
 
 #: ui/appletop_mnu.cpp:113 ui/extensionop_mnu.cpp:63
 msgid "&Configure %1..."
-msgstr "%1 &কনফিগার করুন..."
+msgstr "%1 &কনফিগার করো..."
 
 #: ui/appletop_mnu.cpp:124
 msgid "&Menu Editor"
@@ -294,7 +283,7 @@ msgstr ""
 
 #: ui/customSize_dlg.cpp:56
 msgid " pixels"
-msgstr "পিক্সেল"
+msgstr " পিক্সেল"
 
 #: ui/customSize_dlg.cpp:63
 msgid "&Size:"
@@ -308,7 +297,7 @@ msgstr ""
 
 #: ui/dirdrop_mnu.cpp:34
 msgid "Add as Quick&Browser"
-msgstr ""
+msgstr "&চটপট-ব্রাউজার হিসাবে যোগ করো"
 
 #: ui/exe_dlg.cpp:49
 msgid "Non-KDE Application Configuration"
@@ -328,17 +317,17 @@ msgstr ""
 
 #: ui/exe_dlg.cpp:63
 msgid "Run in terminal"
-msgstr "টারমিনালে চালাও"
+msgstr "টার্মিনালে চালাও"
 
 #: ui/exe_dlg.cpp:69
 msgid "Select &File..."
 msgstr "ফাই&ল বেছে নিন..."
 
-#: ui/exe_dlg.cpp:153 ui/exe_dlg.cpp:165
+#: ui/exe_dlg.cpp:157 ui/exe_dlg.cpp:169
 msgid "Select Executable"
 msgstr "এক্সিকিউটেবল বেছে নিন"
 
-#: ui/exe_dlg.cpp:160
+#: ui/exe_dlg.cpp:164
 msgid ""
 "The selected file is not executable.\n"
 "Do you want to select another file?"
@@ -348,35 +337,35 @@ msgstr ""
 "আপনি কি আরেকটি ফাইল বাছতে "
 "চান?"
 
-#: ui/k_mnu.cpp:204
+#: ui/k_mnu.cpp:207
 msgid "All Applications"
 msgstr "সমস্ত অ্যাপলিকেশন"
 
-#: ui/k_mnu.cpp:206
+#: ui/k_mnu.cpp:209
 msgid "Actions"
 msgstr "ক্রিয়া"
 
-#: ui/k_mnu.cpp:282
+#: ui/k_mnu.cpp:285
 msgid "Run Command..."
 msgstr "কমাণ্ড চালাও..."
 
-#: ui/k_mnu.cpp:299
+#: ui/k_mnu.cpp:302
 msgid "Start New Session"
 msgstr "নতুন সেশন শুরু করো"
 
-#: ui/k_mnu.cpp:309
+#: ui/k_mnu.cpp:312
 msgid "Save Session"
 msgstr "সেশন সংরক্ষণ করো"
 
-#: ui/k_mnu.cpp:312
-msgid "Lock Screen"
-msgstr "পর্দা লক করো"
-
 #: ui/k_mnu.cpp:315
+msgid "Lock Screen"
+msgstr "স্ক্রীণ লক করো"
+
+#: ui/k_mnu.cpp:318
 msgid "Logout..."
 msgstr "লগ আউট..."
 
-#: ui/k_mnu.cpp:362
+#: ui/k_mnu.cpp:365
 msgid ""
 "<p>You have chosen to open another desktop session."
 "<br>The current session will be hidden and a new login screen will be "
@@ -409,7 +398,7 @@ msgstr "স্বনির্বাচিত..."
 
 #: ui/panelop_mnu.cpp:117
 msgid "Resizeable"
-msgstr ""
+msgstr "মাপবদলযোগ্য"
 
 #: ui/panelop_mnu.cpp:120
 msgid "&Add"
@@ -421,11 +410,11 @@ msgstr "মা&প"
 
 #: ui/panelop_mnu.cpp:127
 msgid "&Configure Panel..."
-msgstr "প্যানেল &কনফিগার করুন..."
+msgstr "প্যানেল &কনফিগার করো..."
 
 #: ui/quickbrowser_mnu.cpp:48
 msgid "&Home Folder"
-msgstr "প্রথ&ম (Home) ফোল্ডার"
+msgstr "ব্যক্তিগ&ত ফোল্ডার"
 
 #: ui/quickbrowser_mnu.cpp:53
 msgid "&Root Folder"
@@ -459,11 +448,11 @@ msgstr "মেনু: %1"
 
 #: ui/removeextension_mnu.cpp:59
 msgid "%1 (Top)"
-msgstr "%1 (উপর)"
+msgstr "%1 (উপরে)"
 
 #: ui/removeextension_mnu.cpp:62
 msgid "%1 (Right)"
-msgstr "%1 (ডানদিক)"
+msgstr "%1 (ডানদিকে)"
 
 #: ui/removeextension_mnu.cpp:65
 msgid "%1 (Bottom)"
@@ -473,25 +462,15 @@ msgstr "%1 (নীচে)"
 msgid "%1 (Left)"
 msgstr "%1 (বাঁদিকে)"
 
-#: ui/service_mnu.cpp:248
+#: ui/removespecialbutton_mnu.cpp:67
+msgid "Windowlist"
+msgstr "উইণ্ডো তালিকা"
+
+#: ui/service_mnu.cpp:252
 msgid "No Entries"
 msgstr "কোনো এন্ট্রী নেই"
 
-#: ui/service_mnu.cpp:255
+#: ui/service_mnu.cpp:259
 msgid "Add This Menu"
 msgstr "এই মেনুটি যোগ করো"
 
-#~ msgid "Bookmarks"
-#~ msgstr "বুকমার্ক"
-
-#~ msgid "Extension"
-#~ msgstr "অতিরিক্ত"
-
-#~ msgid "Filename: "
-#~ msgstr "ফাইলের নাম:"
-
-#~ msgid "&Home Directory"
-#~ msgstr "হো&ম ফোল্ডার (Home)"
-
-#~ msgid "&Root Directory"
-#~ msgstr "রু&ট ডিরেক্টরি"
