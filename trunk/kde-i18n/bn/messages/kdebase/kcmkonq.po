@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonq\n"
-"POT-Creation-Date: 2004-03-29 09:48+0200\n"
+"POT-Creation-Date: 2004-08-02 01:40+0200\n"
 "PO-Revision-Date: 2004-03-20 23:40-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -119,11 +119,21 @@ msgstr ""
 "বাটন আছে আছে সাধারণত আপনার "
 "বাড়ি ফোল্ডার দ্বারা একটি."
 
-#: behaviour.cpp:134
+#: behaviour.cpp:133
+msgid "Show 'Delete' me&nu entries which bypass the trashcan"
+msgstr ""
+
+#: behaviour.cpp:137
+msgid ""
+"Uncheck this if you do not want 'Delete' menu commands to be displayed on "
+"the desktop and in the file manager's menus and context menus."
+msgstr ""
+
+#: behaviour.cpp:140
 msgid "Ask Confirmation For"
 msgstr "অনুমোদন চাও"
 
-#: behaviour.cpp:136
+#: behaviour.cpp:142
 #, fuzzy
 msgid ""
 "This option tells Konqueror whether to ask for a confirmation when you "
@@ -144,15 +154,15 @@ msgstr ""
 "উদ্ধারকৃত খুব সহজে</li>"
 "<li><em> মোছো</em> টি ফাইল</li></li></ul>"
 
-#: behaviour.cpp:145
+#: behaviour.cpp:151
 msgid "&Move to trash"
 msgstr "&আবর্জনার বাক্সে পাঠাও"
 
-#: behaviour.cpp:147
+#: behaviour.cpp:153
 msgid "D&elete"
 msgstr "মুছে ফেলো (&ম)"
 
-#: behaviour.cpp:270
+#: behaviour.cpp:283
 #, fuzzy
 msgid ""
 "<h1>Konqueror Behavior</h1> You can configure how Konqueror behaves as a "
@@ -211,7 +221,7 @@ msgstr ""
 
 #: desktop.cpp:112
 #, fuzzy
-msgid "Mouse wheel over desktop switches desktop"
+msgid "Mouse wheel over desktop background switches desktop"
 msgstr "শেষ ডেস্কটপ ডেস্কটপ"
 
 #: desktop.cpp:222 desktop.cpp:245
@@ -453,34 +463,31 @@ msgstr ""
 "আছে টি রং ব্যবহৃত টি লেখা "
 "জন্য টি আইকন ওপর টি ডেস্কটপ."
 
-#: fontopts.cpp:142
+#: fontopts.cpp:143
+msgid " lines"
+msgstr ""
+
+#: fontopts.cpp:144
+msgid "1 line"
+msgstr ""
+
+#: fontopts.cpp:145
 #, fuzzy
-msgid "&Word-wrap icon text"
+msgid "H&eight for icon text:"
 msgstr "ঘুরিয়ে আইকন লেখা"
 
-#: fontopts.cpp:146
-#, fuzzy
+#: fontopts.cpp:151
 msgid ""
-"Checking this option will wrap long filenames to multiple lines, rather than "
-"showing only the part of the filename that fits on a single line."
-"<p> Hint: if you uncheck this option, you can still see the word-wrapped "
-"filename by pausing the mouse pointer over the icon."
+"This is the maximum number of lines that can be used to draw icon text. Long "
+"file names are truncated at the end of the last line."
 msgstr ""
-"এই অপশন   ঘুরিয়ে লম্বা "
-"ফাইল-নাম প্রতি একাধিক বরং "
-"থেকে প্রদর্শন করা শুধু টি "
-"অংশ -র টি ঐ ওপর একটি একা লাইন"
-"<p> ইঙ্গিত যদি আপনি এই অপশন "
-"আপনি পারে এখনও দেখো টি শব্দ "
-"মোড়ানো দ্বারা টি মাউস শেষ টি "
-"আইকন."
 
-#: fontopts.cpp:155
+#: fontopts.cpp:160
 #, fuzzy
 msgid "&Underline filenames"
 msgstr "ফাইল-নাম"
 
-#: fontopts.cpp:159
+#: fontopts.cpp:164
 #, fuzzy
 msgid ""
 "Checking this option will result in filenames being underlined, so that they "
@@ -494,11 +501,11 @@ msgstr ""
 "ঐ একা ক্লিক আছে সক্রিয় ইঞ্চি "
 "টি মাউস নিয়ন্ত্রণ মডিউল."
 
-#: fontopts.cpp:168
+#: fontopts.cpp:173
 msgid "Display file sizes in b&ytes"
 msgstr "ফাইলের আকার বা&ইট-এ দেখাও"
 
-#: fontopts.cpp:172
+#: fontopts.cpp:177
 #, fuzzy
 msgid ""
 "Checking this option will result in file sizes being displayed in bytes. "
@@ -510,7 +517,7 @@ msgstr ""
 "বাইট ফাইল আকার হয়ে প্রদর্শিত "
 "ইঞ্চি অথবা যদি উপযুক্ত."
 
-#: fontopts.cpp:362
+#: fontopts.cpp:374
 #, fuzzy
 msgid ""
 "<h1>Appearance</h1> You can configure how Konqueror looks as a file manager "
@@ -635,16 +642,18 @@ msgstr ""
 "না প্রাকমুদ্রণ   জন্য আরো বড় "
 "থেকে এম-বি জন্য গতি কারণ."
 
-#: rc.cpp:1
+#: rc.cpp:2
+#, no-c-format
 msgid "General"
 msgstr "সাধারণ"
 
-#: rc.cpp:2
+#: rc.cpp:4
+#, no-c-format
 msgid "&Show icons on desktop"
 msgstr "ডেস্কটপের &উপর আইকন দেখাও "
 
-#: rc.cpp:3
-#, fuzzy
+#: rc.cpp:6
+#, fuzzy, no-c-format
 msgid ""
 "Uncheck this option if you do not want to have icons on the desktop. Without "
 "icons the desktop will be somewhat faster but you will no longer be able to "
@@ -656,15 +665,15 @@ msgstr ""
 "আপনি   না দীর্ঘতর সক্ষম প্রতি "
 "টানা প্রতি টি ডেস্কটপ."
 
-#: rc.cpp:4
-#, fuzzy
+#: rc.cpp:8
+#, fuzzy, no-c-format
 msgid "Allow pro&grams in desktop window"
 msgstr ""
 "প্রোগ্রাম ইঞ্চি ডেস্কটপ "
 "উইণ্ডো"
 
-#: rc.cpp:5
-#, fuzzy
+#: rc.cpp:10
+#, fuzzy, no-c-format
 msgid ""
 "Check this option if you want to run X11 programs that draw into the desktop "
 "such as xsnow, xpenguin or xmountain. If you have problems with applications "
@@ -679,33 +688,36 @@ msgstr ""
 "চলন্ত উদাহরণ নিষ্ক্রিয় এই "
 "অপশন."
 
-#: rc.cpp:6
+#: rc.cpp:12
+#, no-c-format
 msgid "Show &tooltips"
 msgstr "টু&লটিপস দেখাও"
 
-#: rc.cpp:7
+#: rc.cpp:14
+#, no-c-format
 msgid "Menu Bar at Top of Screen"
 msgstr "স্ক্রীণের উপরদিকে মেনুবার"
 
-#: rc.cpp:8
-#, fuzzy
+#: rc.cpp:16
+#, fuzzy, no-c-format
 msgid "&None"
 msgstr "কিছু না (&ন)"
 
-#: rc.cpp:9
-#, fuzzy
+#: rc.cpp:18
+#, fuzzy, no-c-format
 msgid "If this option is selected, there is no menu bar at the top of the screen."
 msgstr ""
 "এই অপশন আছে নির্বাচিত আছে না "
 "মেনু বাধা -তে টি উপর -র টি "
 "পর্দা."
 
-#: rc.cpp:10
+#: rc.cpp:20
+#, no-c-format
 msgid "&Desktop menu bar"
 msgstr "ডেস্ক&টপ মেনুবার"
 
-#: rc.cpp:11
-#, fuzzy
+#: rc.cpp:22
+#, fuzzy, no-c-format
 msgid ""
 "If this option is selected, there is one menu bar at the top of the screen "
 "which shows the desktop menus."
@@ -715,20 +727,20 @@ msgstr ""
 "পর্দা কোন প্রদর্শন করে টি "
 "ডেস্কটপ."
 
-#: rc.cpp:12
-#, fuzzy
+#: rc.cpp:24
+#, fuzzy, no-c-format
 msgid "&Current application's menu bar (Mac OS-style)"
 msgstr ""
 "অ্যাপলিকেশন s মেনু বাধা "
 "ধরন,স্টাইল"
 
-#: rc.cpp:13
-#, fuzzy
+#: rc.cpp:26
+#, fuzzy, no-c-format
 msgid ""
-"If this option is selected, applications won't have their menu bar attached "
-"to their own window anymore. Instead, there is one menu bar at the top of "
-"the screen which shows the menus of the currently active application. You "
-"might recognize this behavior from Mac OS."
+"If this option is selected, applications will not have their menu bar "
+"attached to their own window anymore. Instead, there is one menu bar at the "
+"top of the screen which shows the menus of the currently active application. "
+"You might recognize this behavior from Mac OS."
 msgstr ""
 "এই অপশন আছে নির্বাচিত তাদের "
 "মেনু বাধা প্রতি তাদের উইণ্ডো "
@@ -738,38 +750,43 @@ msgstr ""
 "অ্যাপলিকেশন চেনা এই আচরণ "
 "থেকে."
 
-#: rc.cpp:14
-#, fuzzy
+#: rc.cpp:28
+#, fuzzy, no-c-format
 msgid "Mouse Button Actions"
 msgstr "ক্রিয়া"
 
-#: rc.cpp:15
+#: rc.cpp:30
+#, no-c-format
 msgid "Middle button:"
 msgstr "মাঝখানের বাটন:"
 
-#: rc.cpp:16
+#: rc.cpp:32
+#, no-c-format
 msgid "Left button:"
 msgstr "বাঁদিকের বাটন:"
 
-#: rc.cpp:17
+#: rc.cpp:34
+#, no-c-format
 msgid "Right button:"
 msgstr "ডানদিকের বাটন:"
 
-#: rc.cpp:18 rc.cpp:19 rc.cpp:20
+#: rc.cpp:36 rc.cpp:38 rc.cpp:40
+#, no-c-format
 msgid "Edit..."
 msgstr "সম্পাদনা..."
 
-#: rc.cpp:21
+#: rc.cpp:42
+#, no-c-format
 msgid "File Icons"
 msgstr "ফাইল আইকন"
 
-#: rc.cpp:22
-#, fuzzy
+#: rc.cpp:44
+#, fuzzy, no-c-format
 msgid "Automatically &line up icons"
 msgstr "লাইন উপর আইকন"
 
-#: rc.cpp:23
-#, fuzzy
+#: rc.cpp:46
+#, fuzzy, no-c-format
 msgid ""
 "Check this option if you want to see your icons automatically aligned to the "
 "grid when you move them."
@@ -779,12 +796,13 @@ msgstr ""
 "স্বয়ংক্রীয়ভাবে প্রতি টি যখন "
 "আপনি স্থানান্তর ওদের."
 
-#: rc.cpp:24
+#: rc.cpp:48
+#, no-c-format
 msgid "Show &hidden files"
 msgstr "লুকনো ফাই&ল দেখাও"
 
-#: rc.cpp:25
-#, fuzzy
+#: rc.cpp:50
+#, fuzzy, no-c-format
 msgid ""
 "<p>If you check this option, any files in your desktop directory that begin "
 "with a period (.) will be shown. Usually, such files contain configuration "
@@ -793,7 +811,7 @@ msgid ""
 "which contain information for Konqueror, such as the icon to use in "
 "displaying a directory, the order in which files should be sorted, etc. You "
 "should not change or delete these files unless you know what you are "
-"doing!</p>"
+"doing.</p>"
 msgstr ""
 "<p> আপনি পরীক্ষা এই অপশন যে "
 "কোনো ইঞ্চি আপনার ডেস্কটপ "
@@ -811,36 +829,37 @@ msgstr ""
 "পরিবর্তন অথবা মোছো এই যদি না "
 "আপনি জানা কী আপনি</p>"
 
-#: rc.cpp:26
-#, fuzzy
+#: rc.cpp:53
+#, fuzzy, no-c-format
 msgid "Show Icon Previews For"
 msgstr "দেখাও আইকন"
 
-#: rc.cpp:27
-#, fuzzy
+#: rc.cpp:55
+#, fuzzy, no-c-format
 msgid "Select for which types of files you want to enable preview images."
 msgstr ""
 "জন্য কোন ধরন -র আপনি চাই প্রতি "
 "সক্রিয় প্রাকমুদ্রণ."
 
-#: rc.cpp:28
+#: rc.cpp:57
+#, no-c-format
 msgid "Device Icons"
 msgstr "ডিভাইস আইকন"
 
-#: rc.cpp:29
-#, fuzzy
+#: rc.cpp:59
+#, fuzzy, no-c-format
 msgid "&Show device icons:"
 msgstr ""
 "দেখাও ডিভাইস,যন্ত্র/পদ্ধতি "
 "আইকন:"
 
-#: rc.cpp:30
-#, fuzzy
+#: rc.cpp:61
+#, fuzzy, no-c-format
 msgid "Device Types to Display"
 msgstr "ডিভাইস প্রতি দেখাও"
 
-#: rc.cpp:31
-#, fuzzy
+#: rc.cpp:63
+#, fuzzy, no-c-format
 msgid "Deselect the device types which you do not want to see on the desktop."
 msgstr ""
 "টি ডিভাইস,যন্ত্র/পদ্ধতি ধরন "
@@ -932,21 +951,22 @@ msgstr "অটোস্টার্ট"
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
-#: rootopts.cpp:310
+#: rootopts.cpp:324
 #, fuzzy
 msgid ""
-"The path for '%1' has been changed.\n"
-"Do you want me to move the files from '%2' to '%3'?"
+"The path for '%1' has been changed;\n"
+"do you want the files to be moved from '%2' to '%3'?"
 msgstr ""
 "পাথ জন্য আছে পরিবর্তিত আপনি "
 "চাই আমি প্রতি স্থানান্তর টি "
 "থেকে প্রতি?"
 
-#: rootopts.cpp:311
-msgid "Confirmation required"
+#: rootopts.cpp:325
+#, fuzzy
+msgid "Confirmation Required"
 msgstr "অনুমোদন প্রয়োজন"
 
-#: rootopts.cpp:388
+#: rootopts.cpp:402
 #, fuzzy
 msgid ""
 "<h1>Paths</h1>\n"
@@ -960,3 +980,14 @@ msgstr ""
 "ডেস্কটপ উচিত সঞ্চিত টি Shift "
 "প্রতি পাওয়া সাহায্য,সহায়ক "
 "তথ্য ওপর সুনির্দিষ্ট."
+
+#, fuzzy
+#~ msgid ""
+#~ "Checking this option will wrap long filenames to multiple lines, rather "
+#~ "than showing only the part of the filename that fits on a single line.<p> "
+#~ "Hint: if you uncheck this option, you can still see the word-wrapped "
+#~ "filename by pausing the mouse pointer over the icon."
+#~ msgstr ""
+#~ "এই অপশন   ঘুরিয়ে লম্বা ফাইল-নাম প্রতি একাধিক বরং থেকে প্রদর্শন করা শুধু টি অংশ -"
+#~ "র টি ঐ ওপর একটি একা লাইন<p> ইঙ্গিত যদি আপনি এই অপশন আপনি পারে এখনও দেখো টি "
+#~ "শব্দ মোড়ানো দ্বারা টি মাউস শেষ টি আইকন."
