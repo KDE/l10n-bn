@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ktexteditor_docwordcompletion\n"
-"POT-Creation-Date: 2004-07-16 01:16+0200\n"
+"POT-Creation-Date: 2005-01-31 01:30+0100\n"
 "PO-Revision-Date: 2004-07-25 11:03-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -23,12 +23,14 @@ msgstr ""
 "কনফিগার করো"
 
 #: docwordcompletion.cpp:147
-msgid "Reuse Word Behind"
-msgstr "আগের শব্দ আবার ব্যবহার করো"
+#, fuzzy
+msgid "Reuse Word Above"
+msgstr "পরের শব্দ আবার ব্যবহার করো"
 
 #: docwordcompletion.cpp:149
-msgid "Reuse Word Ahead"
-msgstr "পরের শব্দ আবার ব্যবহার করো"
+#, fuzzy
+msgid "Reuse Word Below"
+msgstr "আগের শব্দ আবার ব্যবহার করো"
 
 #: docwordcompletion.cpp:151
 msgid "Pop Up Completion List"
@@ -40,21 +42,32 @@ msgstr ""
 msgid "Automatic Completion Popup"
 msgstr "স্বয়ংক্রিয় পরিপূরণ পপ-আপ"
 
-#: docwordcompletion.cpp:409
-msgid "Automatically show completion list"
+#: docwordcompletion.cpp:418
+#, fuzzy
+msgid "Automatically &show completion list"
 msgstr ""
 "নিজে থেকে পরিপূরণ তালিকা "
 "দেখাও"
 
-#: docwordcompletion.cpp:415
-msgid "when the word is"
-msgstr "যখন শব্দটি"
+#: docwordcompletion.cpp:431
+msgid ""
+"_: Translators: This is the first part of two strings wich will comprise the "
+"sentence 'Show completions when a word is at least N characters'. The first "
+"part is on the right side of the N, which is represented by a spinbox "
+"widget, followed by the second part: 'characters long'. Characters is a "
+"ingeger number between and including 1 and 30. Feel free to leave the second "
+"part of the sentence blank if it suits your language better. \n"
+"Show completions &when a word is at least"
+msgstr ""
 
-#: docwordcompletion.cpp:417
-msgid "characters long."
-msgstr "অক্ষর দীর্ঘ।"
+#: docwordcompletion.cpp:437
+msgid ""
+"_: This is the second part of two strings that will comprise teh sentence "
+"'Show completions when a word is at least N characters'\n"
+"characters long."
+msgstr ""
 
-#: docwordcompletion.cpp:420
+#: docwordcompletion.cpp:440
 msgid ""
 "Enable the automatic completion list popup as default. The popup can be "
 "disabled on a view basis from the 'Tools' menu."
@@ -65,14 +78,21 @@ msgstr ""
 "'আনুষঙ্গিক' মেনু থেকে এটি "
 "নিষ্ক্রিয় করা যেতে পারে।"
 
-#: docwordcompletion.cpp:423
+#: docwordcompletion.cpp:443
 msgid "Define the length a word should have before the completion list is displayed."
 msgstr ""
 "শব্দটি অন্তত এতখানি লম্বা "
 "হলে পরিপূরণ তালিকা "
 "প্রদর্শিত হবে।"
 
-#: rc.cpp:4
+#. i18n: file docwordcompletionui.rc line 6
+#: rc.cpp:6
 #, no-c-format
 msgid "Word Completion"
 msgstr "শব্দ পরিপূরণ"
+
+#~ msgid "when the word is"
+#~ msgstr "যখন শব্দটি"
+
+#~ msgid "characters long."
+#~ msgstr "অক্ষর দীর্ঘ।"
