@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kate\n"
-"POT-Creation-Date: 2004-05-30 10:36+0200\n"
+"POT-Creation-Date: 2004-07-25 01:16+0200\n"
 "PO-Revision-Date: 2004-06-26 21:33-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -12,9 +12,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: app/kateviewspace.cpp:305
-msgid " Line: 1 Col: 0 "
-msgstr " লাইন: 1 কলাম: 0 "
+#: app/kateexternaltools.cpp:268
+msgid "Edit External Tool"
+msgstr ""
+
+#: app/kateexternaltools.cpp:282
+#, fuzzy
+msgid "&Name:"
+msgstr "নাম"
+
+#: app/kateexternaltools.cpp:287
+msgid "The name will be displayed in the 'Tools->External' menu"
+msgstr ""
+
+#: app/kateexternaltools.cpp:291
+#, fuzzy
+msgid "Co&mmand:"
+msgstr "মন্তব্য"
+
+#: app/kateexternaltools.cpp:296
+msgid ""
+"<p>The command to execute to invoke the tool. The following macros will be "
+"expanded:</p>"
+"<ul>"
+"<li><code>%URL</code> - the URL of the current "
+"document."
+"<li><code>%URLs</code> - a list of the URLs of all open "
+"documents."
+"<li><code>%directory</code> - the URL of the directory containing the "
+"current document."
+"<li><code>filename</code> - the filename of the current "
+"document."
+"<li><code>%line</code> - the current line of the text cursor in the current "
+"view."
+"<li><code>%column</code> - the column of the text cursor in the current "
+"view."
+"<li><code>%selection</code> - the selected text in the current "
+"view.<li><code>%text</code> - the text of the current document.</ul>"
+msgstr ""
+
+#: app/kateexternaltools.cpp:319
+msgid "&Executable:"
+msgstr ""
+
+#: app/kateexternaltools.cpp:324
+msgid ""
+"The executable used by the command. This is used to check if a tool should "
+"be displayed; if not set, the first word of <em>command</em> will be used."
+msgstr ""
+
+#: app/kateexternaltools.cpp:330
+msgid "&Mime types:"
+msgstr ""
+
+#: app/kateexternaltools.cpp:335
+msgid ""
+"A semicolon-separated list of mime types for which this tool should be "
+"available; if this is left empty, the tool is always available.To choose "
+"from known mimetypes, press the button on the right."
+msgstr ""
+
+#: app/kateexternaltools.cpp:345
+msgid "You must specify at least a name and a command"
+msgstr ""
+
+#: app/kateexternaltools.cpp:363
+#, fuzzy
+msgid "&New..."
+msgstr "&নতুন প্রোজেক্ট..."
+
+#: app/kateexternaltools.cpp:371
+#, fuzzy
+msgid "&Edit..."
+msgstr "মেই&ল করো..."
+
+#: app/kateexternaltools.cpp:375
+msgid "Insert &Separator"
+msgstr ""
+
+#: app/kateexternaltools.cpp:395
+msgid "This list shows all the configured tools, represented by their menu text."
+msgstr ""
 
 #: app/kateviewspace.cpp:315 app/kateviewspace.cpp:354
 msgid " INS "
@@ -40,43 +118,43 @@ msgstr " OVR "
 msgid " BLK "
 msgstr " BLK "
 
-#: app/katemainwindow.cpp:196
+#: app/katemainwindow.cpp:206
 msgid "Projects"
 msgstr "প্রোজেক্ট"
 
-#: app/katemainwindow.cpp:205
+#: app/katemainwindow.cpp:215
 msgid "Selector"
 msgstr "নির্বাচক"
 
-#: app/kategrepdialog.cpp:73 app/katemainwindow.cpp:208
+#: app/kategrepdialog.cpp:73 app/katemainwindow.cpp:218
 msgid "Find in Files"
 msgstr "ফাইলের মধ্যে খোঁজ"
 
-#: app/katemainwindow.cpp:213
+#: app/katemainwindow.cpp:223
 msgid "Terminal"
 msgstr "টার্মিনাল"
 
-#: app/katemainwindow.cpp:224
+#: app/katemainwindow.cpp:234
 msgid "KDE Scri&pts"
 msgstr "কে.ডি.&ই. স্ক্রিপ্ট"
 
-#: app/katemainwindow.cpp:225
+#: app/katemainwindow.cpp:235
 msgid "This shows all available scripts and allows them to be executed."
 msgstr ""
 "সব স্ক্রিপ্ট দেখা এবং চালানো "
 "যায়"
 
-#: app/katemainwindow.cpp:229
+#: app/katemainwindow.cpp:239
 msgid "Create a new document"
 msgstr "নতুন নথী তৈরি করো"
 
-#: app/katemainwindow.cpp:230
+#: app/katemainwindow.cpp:240
 msgid "Open an existing document for editing"
 msgstr ""
 "সম্পাদনা করতে একটি পুরনো নথী "
 "খোলো"
 
-#: app/katemainwindow.cpp:233 app/kwritemain.cpp:150
+#: app/katemainwindow.cpp:243 app/kwritemain.cpp:150
 msgid ""
 "This lists files which you have opened recently, and allows you to easily "
 "open them again."
@@ -86,100 +164,109 @@ msgstr ""
 "এবং প্রয়োজন হলে সেগুলি সহজেই "
 "আবার খোলা যায়"
 
-#: app/katemainwindow.cpp:235
+#: app/katemainwindow.cpp:245
 msgid "Save A&ll"
 msgstr "সব সং&রক্ষণ করো"
 
-#: app/katemainwindow.cpp:236
+#: app/katemainwindow.cpp:246
 msgid "Save all open, modified documents to disc."
 msgstr ""
 "সবকটি খোলা, পরিবর্তিত নথী "
 "ডিস্ক-এ সংরক্ষণ করো।"
 
-#: app/katemainwindow.cpp:238
+#: app/katemainwindow.cpp:248
 msgid "Close the current document."
 msgstr "বর্তমান নথীটি বন্ধ করো"
 
-#: app/katemainwindow.cpp:240
+#: app/katemainwindow.cpp:250
 msgid "Clos&e All"
 msgstr "স&ব বন্ধ করো"
 
-#: app/katemainwindow.cpp:241
+#: app/katemainwindow.cpp:251
 msgid "Close all open documents."
 msgstr "সব খোলা নথী বন্ধ করো।"
 
-#: app/katemainwindow.cpp:243
+#: app/katemainwindow.cpp:253
 msgid "Send one or more of the open documents as email attachments."
 msgstr ""
 "খোলা নথীগুলির এক বা একাধিক "
 "ই-মেইল করে পাঠাও।"
 
-#: app/katemainwindow.cpp:245
+#: app/katemainwindow.cpp:255
 msgid "Close this window"
 msgstr "এই উইণ্ডোটি বন্ধ করো"
 
-#: app/katemainwindow.cpp:248
+#: app/katemainwindow.cpp:258
 msgid "Create a new Kate view (a new window with the same document list)."
 msgstr ""
 "নতুন একটি কেট ভিউ তৈরি করো "
 "(একই ডকুমেন্ট লিস্ট নিয়ে "
 "নতুন উইণ্ডো)"
 
-#: app/katemainwindow.cpp:250
+#: app/katemainwindow.cpp:260
 msgid "Split &Vertical"
 msgstr "পাশাপাশি ভা&গ"
 
-#: app/katemainwindow.cpp:251
+#: app/katemainwindow.cpp:261
 msgid "Split the currently active view vertically into two views."
 msgstr ""
 "সক্রিয় ভিউটি পাশাপাশি "
 "দু'ভাগে বিভক্ত করা হবে"
 
-#: app/katemainwindow.cpp:253
+#: app/katemainwindow.cpp:263
 msgid "Split &Horizontal"
 msgstr "&উপর-নীচে ভাগ"
 
-#: app/katemainwindow.cpp:254
+#: app/katemainwindow.cpp:264
 msgid "Split the currently active view horizontally into two views."
 msgstr ""
 "সক্রিয় ভিউটি উপর-নীচে "
 "দু'ভাগে বিভক্ত করা হবে"
 
-#: app/katemainwindow.cpp:256
+#: app/katemainwindow.cpp:266
 msgid "Close &Current View"
 msgstr "সক্রিয় ভিউ বন্ধ &করো"
 
-#: app/katemainwindow.cpp:257
+#: app/katemainwindow.cpp:267
 msgid "Close the currently active splitted view"
 msgstr ""
 "সক্রিয় ভিউটি একটি বিভক্ত ভিউ "
 "হলে সেটি বন্ধ করে দেওয়া হবে"
 
-#: app/katemainwindow.cpp:262
+#: app/kateconfigdialog.cpp:278 app/kateconfigdialog.cpp:279
+#: app/katemainwindow.cpp:269 app/katemainwindow.cpp:547
+msgid "External Tools"
+msgstr ""
+
+#: app/katemainwindow.cpp:270
+msgid "Launch external helper applications"
+msgstr ""
+
+#: app/katemainwindow.cpp:275
 msgid "Next View"
 msgstr "পরবর্তী ভিউ"
 
-#: app/katemainwindow.cpp:263
+#: app/katemainwindow.cpp:276
 msgid "Make the next split view the active one."
 msgstr ""
 "পরবর্তী বিভক্ত ভিউটি সক্রিয় "
 "করা হবে"
 
-#: app/katemainwindow.cpp:265
+#: app/katemainwindow.cpp:278
 msgid "Previous View"
 msgstr "পূর্ববর্তী ভিউ"
 
-#: app/katemainwindow.cpp:266
+#: app/katemainwindow.cpp:279
 msgid "Make the previous split view the active one."
 msgstr ""
 "পূর্ববর্তী বিভক্ত ভিউটি "
 "সক্রিয় করা হবে"
 
-#: app/katemainwindow.cpp:271
+#: app/katemainwindow.cpp:284
 msgid "Open W&ith"
 msgstr "খু&লতে ব্যবহার করো"
 
-#: app/katemainwindow.cpp:272
+#: app/katemainwindow.cpp:285
 msgid ""
 "Open the current document using another application registered for its file "
 "type, or an application of your choice."
@@ -193,60 +280,67 @@ msgstr ""
 "পছন্দমত কিছু ব্যবহার করতে "
 "পারেন।"
 
-#: app/katemainwindow.cpp:277 app/kwritemain.cpp:172
+#: app/katemainwindow.cpp:290 app/kwritemain.cpp:173
 msgid "Configure the application's keyboard shortcut assignments."
 msgstr ""
 "এই অ্যাপলিকেশনের কীবোর্ড "
 "শর্টকাট কনফিগার করা হবে"
 
-#: app/katemainwindow.cpp:280 app/kwritemain.cpp:175
+#: app/katemainwindow.cpp:293 app/kwritemain.cpp:176
 msgid "Configure which items should appear in the toolbar(s)."
 msgstr ""
 "টুলবার-এ কী কী দেখা যাবে তা "
 "কনফিগার করা হবে"
 
-#: app/katemainwindow.cpp:284
+#: app/katemainwindow.cpp:297
 msgid "&New Project..."
 msgstr "&নতুন প্রোজেক্ট..."
 
-#: app/katemainwindow.cpp:285
+#: app/katemainwindow.cpp:298
 msgid "&Open Project..."
 msgstr "প্রোজেক্ট খোলো (&খ)..."
 
-#: app/katemainwindow.cpp:286
+#: app/katemainwindow.cpp:299
 msgid "&Save Project"
 msgstr "প্রোজেক্ট সং&রক্ষণ করো"
 
-#: app/katemainwindow.cpp:287
+#: app/katemainwindow.cpp:300
 msgid "&Close Project"
 msgstr "প্রোজেক্ট &বন্ধ করো"
 
-#: app/katemainwindow.cpp:292
+#: app/katemainwindow.cpp:305
 msgid "Configure various aspects of this application and the editing component."
-msgstr "এই অ্যাপলিকেশন এবং 'সম্পাদক' কম্পোনেন্ট-টির বিভিন্ন বৈশিষ্ট্য কনফিগার করুন"
+msgstr ""
+"এই অ্যাপলিকেশন এবং 'সম্পাদক' "
+"কম্পোনেন্ট-টির বিভিন্ন "
+"বৈশিষ্ট্য কনফিগার করুন"
 
-#: app/katemainwindow.cpp:295
+#: app/katemainwindow.cpp:309
+msgid "&Pipe to Console"
+msgstr ""
+
+#: app/katemainwindow.cpp:312
 msgid "This shows useful tips on the use of this application."
 msgstr ""
 "এই অ্যাপলিকেশনটি ব্যবহার "
 "করা সম্বন্ধে কিছু কাজের টিপস "
 "দেখায়"
 
-#: app/katemainwindow.cpp:299
+#: app/katemainwindow.cpp:316
 msgid "Contents &Plugins"
 msgstr "প্লাগ-&ইন সূচী"
 
-#: app/katemainwindow.cpp:300
+#: app/katemainwindow.cpp:317
 msgid "This shows help files for various available plugins."
 msgstr ""
 "বিভিন্ন প্লাগ-ইন সম্বন্ধে "
 "সাহায্য দেখায়"
 
-#: app/katemainwindow.cpp:602 app/katemainwindow.cpp:610
+#: app/katemainwindow.cpp:640 app/katemainwindow.cpp:648
 msgid "&Other..."
 msgstr "&অন্যান্য..."
 
-#: app/katemainwindow.cpp:666
+#: app/katemainwindow.cpp:704
 msgid ""
 "<p>The current document has not been saved, and cannot be attached to an "
 "email message.<p>Do you want to save it and proceed?"
@@ -258,40 +352,45 @@ msgstr ""
 "<p> আপনি কি প্রথমে নথীটি "
 "সংরক্ষণ করে নিতে চান?"
 
-#: app/katemainwindow.cpp:669
+#: app/katemainwindow.cpp:707
 msgid "Cannot Send Unsaved File"
 msgstr ""
 "অসংরক্ষিত ফাইল পাঠানো যাবে "
 "না"
 
-#: app/katemainwindow.cpp:677 app/katemainwindow.cpp:698
+#: app/katemainwindow.cpp:715 app/katemainwindow.cpp:736
 msgid "The file could not be saved. Please check if you have write permission."
 msgstr ""
 "ফাইলটি সংরক্ষণ করা যায়নি। "
 "অনুগ্রহ করে পরীক্ষা করুন "
 "আপনার লেখার অনুমতি আছে কিনা।"
 
-#: app/katemainwindow.cpp:688
+#: app/katemainwindow.cpp:726
 msgid ""
 "<p>The current file:"
 "<br><strong>%1</strong>"
 "<br>has been modified. Modifications will not be available in the "
 "attachment.<p>Do you want to save it before sending it?"
 msgstr ""
-"<p>বর্তমান ফাইল:"
+"<p>বর্তমান "
+"ফাইল:"
 "<br><strong>%1</strong>"
-"<br>পরিবর্তন করা হয়েছে।  পরিবর্তনগুলি অ্যাটাচমেন্ট-এ থাকবে না। "
-"<p>আপনি কি পাঠানোর আগে পরিবর্তনগুলি সংরক্ষণ করতে চান?"
+"<br>পরিবর্তন করা হয়েছে।  "
+"পরিবর্তনগুলি "
+"অ্যাটাচমেন্ট-এ থাকবে না। "
+"<p>আপনি কি পাঠানোর আগে "
+"পরিবর্তনগুলি সংরক্ষণ করতে "
+"চান?"
 
-#: app/katemainwindow.cpp:691
+#: app/katemainwindow.cpp:729
 msgid "Save Before Sending?"
 msgstr "পাঠাবার আগে সংরক্ষণ করব?"
 
-#: app/katemainwindow.cpp:792 app/kateprojectmanager.cpp:314
+#: app/katemainwindow.cpp:861 app/kateprojectmanager.cpp:314
 msgid "Kate Project Files"
 msgstr "কেট প্রোজেক্ট ফাইল"
 
-#: app/katemainwindow.cpp:792
+#: app/katemainwindow.cpp:861
 msgid "Open Kate Project"
 msgstr "কেট প্রোজেক্ট খোলো"
 
@@ -313,9 +412,12 @@ msgid ""
 "<p>To select more documents to send, press <strong>Show All "
 "Documents&nbsp;&gt;&gt;</strong>."
 msgstr ""
-"<p>বর্তমান ডকুমেন্ট-টি ই-মেইল করতে <strong>মেইল করো...</strong> চাপুন।"
-"<p>পাঠানোর জন্য আরো ডকুমেন্ট বেছে নিতে "
-"<strong>সব নথী দেখাও&nbsp;&gt;&gt;</strong> চাপুন।"
+"<p>বর্তমান ডকুমেন্ট-টি ই-মেইল "
+"করতে <strong>মেইল করো...</strong> "
+"চাপুন।"
+"<p>পাঠানোর জন্য আরো ডকুমেন্ট "
+"বেছে নিতে <strong>সব নথী "
+"দেখাও&nbsp;&gt;&gt;</strong> চাপুন।"
 
 #: app/kateconfigplugindialogpage.cpp:82 app/katemailfilesdialog.cpp:61
 msgid "Name"
@@ -331,115 +433,124 @@ msgstr "নথী&র তালিকা লুকোও <<"
 
 #: app/katemailfilesdialog.cpp:105
 msgid "Press <strong>Mail...</strong> to send selected documents"
-msgstr "নির্বাচিত ডকুমেন্টগুলি পাঠাতে <strong>মেইল করো...</strong> চাপুন"
+msgstr ""
+"নির্বাচিত ডকুমেন্টগুলি "
+"পাঠাতে <strong>মেইল করো...</strong> চাপুন"
 
-#: app/kateconfigdialog.cpp:92 app/kateconfigdialog.cpp:98
-#: app/kateconfigdialog.cpp:234 app/kateconfigdialog.cpp:243
-#: app/kateconfigdialog.cpp:290
+#: app/kateconfigdialog.cpp:93 app/kateconfigdialog.cpp:99
+#: app/kateconfigdialog.cpp:261 app/kateconfigdialog.cpp:270
+#: app/kateconfigdialog.cpp:278 app/kateconfigdialog.cpp:325
 msgid "Application"
 msgstr "অ্যাপলিকেশন"
 
-#: app/kateconfigdialog.cpp:98
+#: app/kateconfigdialog.cpp:99
 msgid "General"
 msgstr "সাধারণ"
 
-#: app/kateconfigdialog.cpp:99
+#: app/kateconfigdialog.cpp:100
 msgid "General Options"
 msgstr "সাধারণ অপশন"
 
-#: app/kateconfigdialog.cpp:106
+#: app/kateconfigdialog.cpp:107
 msgid "Startup"
 msgstr "আরম্ভ"
 
-#: app/kateconfigdialog.cpp:111
+#: app/kateconfigdialog.cpp:112
 msgid "Reopen &projects at startup"
-msgstr "শুরু করাকালীন &সব প্রোজেক্ট আবার খোলো"
+msgstr ""
+"শুরু করাকালীন &সব প্রোজেক্ট "
+"আবার খোলো"
 
-#: app/kateconfigdialog.cpp:119
+#: app/kateconfigdialog.cpp:120
 msgid "Reopen &files at startup"
-msgstr "শুরু করাকালীন &সব ফাইল আবার খোলো"
+msgstr ""
+"শুরু করাকালীন &সব ফাইল আবার "
+"খোলো"
 
-#: app/kateconfigdialog.cpp:123
+#: app/kateconfigdialog.cpp:124
 msgid ""
 "If this is enabled Kate will attempt to reopen files that were open when you "
 "closed last time. Cursor position will be recovered if possible. "
 "Non-existent files will not be opened."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:131
+#: app/kateconfigdialog.cpp:132
 msgid "Restore &window configuration"
-msgstr "&উইণ্ডো কনফিগারেশন পূর্বাবস্থায় ফেরাও"
+msgstr ""
+"&উইণ্ডো কনফিগারেশন "
+"পূর্বাবস্থায় ফেরাও"
 
-#: app/kateconfigdialog.cpp:134
+#: app/kateconfigdialog.cpp:135
 msgid ""
 "Check this if you want all your views and frames restored each time you open "
 "Kate"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:142
+#: app/kateconfigdialog.cpp:143
 msgid "Default GUI mode for new windows:"
 msgstr ""
 "নতুন উইণ্ডোর জন্য ডিফল্ট গুই "
 "মোড:"
 
-#: app/kateconfigdialog.cpp:146
+#: app/kateconfigdialog.cpp:147
 msgid "Toplevel Mode"
 msgstr "টপলেভেল মোড"
 
-#: app/kateconfigdialog.cpp:146
+#: app/kateconfigdialog.cpp:147
 msgid "Childframe Mode"
 msgstr "চাইল্ডফ্রেম মোড"
 
-#: app/kateconfigdialog.cpp:146 app/kateconfigdialog.cpp:149
+#: app/kateconfigdialog.cpp:147 app/kateconfigdialog.cpp:150
 msgid "Tab Page Mode"
 msgstr "ট্যাব পেজ মোড"
 
-#: app/kateconfigdialog.cpp:146 app/kateconfigdialog.cpp:149
+#: app/kateconfigdialog.cpp:147 app/kateconfigdialog.cpp:150
 msgid "IDEAL Mode"
 msgstr "IDEAL মোড"
 
-#: app/kateconfigdialog.cpp:166
+#: app/kateconfigdialog.cpp:167
 msgid "Show full &path in title"
 msgstr "শিরোনামে সম্পূর্ণ পা&থ দেখাও"
 
-#: app/kateconfigdialog.cpp:168
+#: app/kateconfigdialog.cpp:169
 msgid ""
 "If this option is checked, the full document path will be shown in the "
 "window caption."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:173
-msgid "Sort &files alphabetically in the file list."
+#: app/kateconfigdialog.cpp:174
+#, fuzzy
+msgid "Sort &files alphabetically in the file list"
 msgstr ""
 "ফাইল তালিকা &বর্ণানুক্রমে "
 "সাজাও"
 
-#: app/kateconfigdialog.cpp:176
+#: app/kateconfigdialog.cpp:177
 msgid "If this is checked, the files in the file list will be sorted alphabetically."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:180
+#: app/kateconfigdialog.cpp:181
 msgid "Behavior"
 msgstr "আচরণ"
 
-#: app/kateconfigdialog.cpp:185
+#: app/kateconfigdialog.cpp:186
 msgid "&Number of recent files:"
 msgstr "সাম্প্রতি&ক ফাইলের সংখ্যা:"
 
-#: app/kateconfigdialog.cpp:190
+#: app/kateconfigdialog.cpp:191
 msgid ""
 "<qt>Sets the number of recent files remembered by Kate."
 "<p><strong>NOTE: </strong>If you set this lower than the current value, the "
 "list will be truncated and some items forgotten.</qt>"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:199
+#: app/kateconfigdialog.cpp:200
 msgid "Allow Kate to use more than one UN&IX process"
 msgstr ""
 "কেট-কে একাধিক ইউনিক্স প্রসেস "
 "ব্যবহা&র করতে দাও"
 
-#: app/kateconfigdialog.cpp:203
+#: app/kateconfigdialog.cpp:204
 msgid ""
 "If this is unchecked, Kate will only use one UNIX process. If you try "
 "running it again, the current process will get the focus, and open any files "
@@ -447,44 +558,71 @@ msgid ""
 "new UNIX process will be started."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:210
+#: app/kateconfigdialog.cpp:211
 msgid "Sync &terminal emulator with active document"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:213
+#: app/kateconfigdialog.cpp:214
 msgid ""
 "If this is checked, the built in Konsole will <code>cd</code> to the "
 "directory of the active document when started and whenever the active "
 "document changes, if the document is a local file."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:220
+#: app/kateconfigdialog.cpp:221
 msgid "Wa&rn about files modified by foreign processes"
 msgstr ""
 
-#: app/kateconfigdialog.cpp:223
+#: app/kateconfigdialog.cpp:224
 msgid ""
 "If enabled, a passive popup message will be displayed whenever a local file "
 "is modified, created or deleted by another process."
 msgstr ""
 
-#: app/kateconfigdialog.cpp:234
+#: app/kateconfigdialog.cpp:230
+msgid "Meta-Information"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:235
+msgid "Keep &meta-information past sessions"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:238
+msgid ""
+"Check this if you want document configuration like for example bookmarks to "
+"be saved past editor sessions. The configuration will be restored if the "
+"document has not changed when reopened."
+msgstr ""
+
+#: app/kateconfigdialog.cpp:246
+msgid "&Delete unused meta-information after:"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:248
+msgid "(never)"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:249
+msgid " day(s)"
+msgstr ""
+
+#: app/kateconfigdialog.cpp:261
 msgid "File Selector"
 msgstr "ফাইল নির্বাচক"
 
-#: app/kateconfigdialog.cpp:236
+#: app/kateconfigdialog.cpp:263
 msgid "File Selector Settings"
 msgstr "ফাইল নির্বাচক সেটিংস"
 
-#: app/kateconfigdialog.cpp:243 app/kateconfigdialog.cpp:290
+#: app/kateconfigdialog.cpp:270 app/kateconfigdialog.cpp:325
 msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
-#: app/kateconfigdialog.cpp:244
+#: app/kateconfigdialog.cpp:271
 msgid "Plugin Manager"
 msgstr "প্লাগ-ইন ম্যানেজার"
 
-#: app/kateconfigdialog.cpp:251 app/kateconfigdialog.cpp:257
+#: app/kateconfigdialog.cpp:286 app/kateconfigdialog.cpp:292
 msgid "Editor"
 msgstr "সম্পাদক"
 
@@ -492,37 +630,47 @@ msgstr "সম্পাদক"
 msgid "Pattern:"
 msgstr "প্যাটার্ন:"
 
-#: app/kategrepdialog.cpp:106
+#: app/kategrepdialog.cpp:108
+msgid "Case sensitive"
+msgstr ""
+
+#: app/kategrepdialog.cpp:113
+msgid "Regular expression"
+msgstr ""
+
+#: app/kategrepdialog.cpp:119
 msgid "Template:"
 msgstr "টেমপ্লেট:"
 
-#: app/kategrepdialog.cpp:125
+#: app/kategrepdialog.cpp:138
 msgid "Files:"
 msgstr "ফাইল:"
 
-#: app/kategrepdialog.cpp:138
+#: app/kategrepdialog.cpp:151
 msgid "Directory:"
 msgstr "ডিরেক্টরি:"
 
-#: app/kategrepdialog.cpp:152
+#: app/kategrepdialog.cpp:167
 msgid "Recursive"
 msgstr "রিকার্সিভ"
 
-#: app/kategrepdialog.cpp:161 app/kategrepdialog.cpp:396
-msgid "Search"
-msgstr "সন্ধান"
+#: app/kategrepdialog.cpp:175 app/kategrepdialog.cpp:430
+#, fuzzy
+msgid "Find"
+msgstr "&সন্ধান:"
 
-#: app/kategrepdialog.cpp:176
+#: app/kategrepdialog.cpp:190
 msgid ""
-"Enter the regular expression you want to search for here."
-"<br>Possible meta characters are:"
+"<p>Enter the expression you want to search for here."
+"<p>If 'regular expression' is unchecked, any non-space letters in your "
+"expression will be escaped with a backslash character."
+"<p>Possible meta characters are:"
 "<br><b>.</b> - Matches any character"
 "<br><b>^</b> - Matches the beginning of a line"
 "<br><b>$</b> - Matches the end of a line"
-"<br><b>\\\\\\&lt;</b> - Matches the beginning of a word"
-"<br><b>\\\\\\&gt;</b> - Matches the end of a word"
-"<br>"
-"<br>The following repetition operators exist:"
+"<br><b>\\&lt;</b> - Matches the beginning of a word"
+"<br><b>\\&gt;</b> - Matches the end of a word"
+"<p>The following repetition operators exist:"
 "<br><b>?</b> - The preceding item is matched at most once"
 "<br><b>*</b> - The preceding item is matched zero or more times"
 "<br><b>+</b> - The preceding item is matched one or more "
@@ -534,20 +682,20 @@ msgid ""
 "<br><b>{,<i>n</i>}</b> - The preceding item is matched at most <i>n</i> "
 "times"
 "<br><b>{<i>n</i>,<i>m</i>}</b> - The preceding item is matched at least "
-"<i>n</i>,"
-"<br>   but at most <i>m</i> times."
-"<br>"
-"<br>Furthermore, backreferences to bracketed subexpressions are"
-"<br>available via the notation \\\\<i>n</i>."
+"<i>n</i>, but at most <i>m</i> times."
+"<p>"
+"Furthermore, backreferences to bracketed subexpressions are available via "
+"the notation <code>\\#</code>."
+"<p>See the grep(1) documentation for the full documentation."
 msgstr ""
 
-#: app/kategrepdialog.cpp:198
+#: app/kategrepdialog.cpp:213
 msgid ""
 "Enter the file name pattern of the files to search here.\n"
-"You may give several patterns separated by commas"
+"You may give several patterns separated by commas."
 msgstr ""
 
-#: app/kategrepdialog.cpp:201
+#: app/kategrepdialog.cpp:216
 #, c-format
 msgid ""
 "You can choose a template for the pattern from the combo box\n"
@@ -556,30 +704,42 @@ msgid ""
 "to search for."
 msgstr ""
 
-#: app/kategrepdialog.cpp:206
+#: app/kategrepdialog.cpp:221
 msgid "Enter the directory which contains the files you want to search in."
 msgstr ""
 
-#: app/kategrepdialog.cpp:208
+#: app/kategrepdialog.cpp:223
 msgid "Check this box to search in all subdirectories."
 msgstr ""
 "সমস্ত সাব-ডিরেক্টরিতে "
 "সন্ধান করতে এই বক্সটি "
 "নির্বাচন করুন"
 
-#: app/kategrepdialog.cpp:210
+#: app/kategrepdialog.cpp:225
+msgid "If this option is enabled (the default), the search will be case sensitive."
+msgstr ""
+
+#: app/kategrepdialog.cpp:227
+msgid ""
+"<p>If this is enabled, your pattern will be passed unmodified to "
+"<em>grep(1)</em>. Otherwise, all characters that are not letters will be "
+"escaped using a backslash character to prevent grep from interpreting them "
+"as part of the expression."
+msgstr ""
+
+#: app/kategrepdialog.cpp:232
 msgid ""
 "The results of the grep run are listed here. Select a\n"
 "filename/line number combination and press Enter or doubleclick\n"
 "on the item to show the respective line in the editor."
 msgstr ""
 
-#: app/kategrepdialog.cpp:400
+#: app/kategrepdialog.cpp:434
 msgid "<strong>Error:</strong><p>"
 msgstr "<strong>সমস্যা:</strong><p>"
 
-#: app/kategrepdialog.cpp:400
-msgid "Grep tool error"
+#: app/kategrepdialog.cpp:434
+msgid "Grep Tool Error"
 msgstr ""
 
 #: app/katemain.cpp:32
@@ -618,142 +778,137 @@ msgstr "কেট"
 msgid "Kate - Advanced Text Editor"
 msgstr "কেট - উন্নত টেক্সট সম্পাদক"
 
-#: app/katemain.cpp:47 app/kwritemain.cpp:544
-msgid "(c) 2000-2003 The Kate Authors"
+#: app/katemain.cpp:47 app/kwritemain.cpp:545
+#, fuzzy
+msgid "(c) 2000-2004 The Kate Authors"
 msgstr "(c) ২০০০-২০০৩ কেট লেখকবৃন্দ"
 
-#: app/katemain.cpp:49 app/kwritemain.cpp:546
+#: app/katemain.cpp:49 app/kwritemain.cpp:547
 msgid "Maintainer"
 msgstr "রক্ষণাবেক্ষণকারী"
 
 #: app/katemain.cpp:50 app/katemain.cpp:51 app/katemain.cpp:52
-#: app/katemain.cpp:57 app/kwritemain.cpp:547 app/kwritemain.cpp:548
-#: app/kwritemain.cpp:549 app/kwritemain.cpp:554
+#: app/katemain.cpp:57 app/kwritemain.cpp:548 app/kwritemain.cpp:549
+#: app/kwritemain.cpp:550 app/kwritemain.cpp:555
 msgid "Core Developer"
 msgstr ""
 
-#: app/katemain.cpp:53 app/kwritemain.cpp:550
+#: app/katemain.cpp:53 app/kwritemain.cpp:551
 msgid "The cool buffersystem"
 msgstr ""
 
-#: app/katemain.cpp:54 app/kwritemain.cpp:551
+#: app/katemain.cpp:54 app/kwritemain.cpp:552
 msgid "The Editing Commands"
 msgstr ""
 
-#: app/katemain.cpp:55 app/kwritemain.cpp:552
+#: app/katemain.cpp:55 app/kwritemain.cpp:553
 msgid "Testing, ..."
 msgstr ""
 
-#: app/katemain.cpp:56 app/kwritemain.cpp:553
+#: app/katemain.cpp:56 app/kwritemain.cpp:554
 msgid "Former Core Developer"
 msgstr ""
 
-#: app/katemain.cpp:58 app/kwritemain.cpp:555
+#: app/katemain.cpp:58 app/kwritemain.cpp:556
 msgid "KWrite Author"
 msgstr ""
 
-#: app/katemain.cpp:59 app/kwritemain.cpp:556
+#: app/katemain.cpp:59 app/kwritemain.cpp:557
 msgid "KWrite port to KParts"
 msgstr ""
 
-#: app/katemain.cpp:62 app/kwritemain.cpp:559
+#: app/katemain.cpp:62 app/kwritemain.cpp:560
 msgid "KWrite Undo History, Kspell integration"
 msgstr ""
 
-#: app/katemain.cpp:63 app/kwritemain.cpp:560
+#: app/katemain.cpp:63 app/kwritemain.cpp:561
 msgid "KWrite XML Syntax highlighting support"
 msgstr ""
 
-#: app/katemain.cpp:64 app/kwritemain.cpp:561
+#: app/katemain.cpp:64 app/kwritemain.cpp:562
 msgid "Patches and more"
 msgstr ""
 
-#: app/katemain.cpp:66 app/kwritemain.cpp:563
-msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
+#: app/katemain.cpp:65
+msgid "Developer & Highlight wizard"
 msgstr ""
 
 #: app/katemain.cpp:67 app/kwritemain.cpp:564
-msgid "Highlighting for VHDL"
+msgid "Highlighting for RPM Spec-Files, Perl, Diff and more"
 msgstr ""
 
 #: app/katemain.cpp:68 app/kwritemain.cpp:565
-msgid "Highlighting for SQL"
+msgid "Highlighting for VHDL"
 msgstr ""
 
 #: app/katemain.cpp:69 app/kwritemain.cpp:566
-msgid "Highlighting for Ferite"
+msgid "Highlighting for SQL"
 msgstr ""
 
 #: app/katemain.cpp:70 app/kwritemain.cpp:567
-msgid "Highlighting for ILERPG"
+msgid "Highlighting for Ferite"
 msgstr ""
 
 #: app/katemain.cpp:71 app/kwritemain.cpp:568
-msgid "Highlighting for LaTeX"
+msgid "Highlighting for ILERPG"
 msgstr ""
 
 #: app/katemain.cpp:72 app/kwritemain.cpp:569
-msgid "Highlighting for Makefiles, Python"
+msgid "Highlighting for LaTeX"
 msgstr ""
 
 #: app/katemain.cpp:73 app/kwritemain.cpp:570
+msgid "Highlighting for Makefiles, Python"
+msgstr ""
+
+#: app/katemain.cpp:74 app/kwritemain.cpp:571
 msgid "Highlighting for Python"
 msgstr ""
 
-#: app/katemain.cpp:75 app/kwritemain.cpp:572
+#: app/katemain.cpp:76 app/kwritemain.cpp:573
 msgid "Highlighting for Scheme"
 msgstr ""
 
-#: app/katemain.cpp:76 app/kwritemain.cpp:573
+#: app/katemain.cpp:77 app/kwritemain.cpp:574
 msgid "PHP Keyword/Datatype list"
 msgstr ""
 
-#: app/katemain.cpp:77 app/katemain.cpp:78 app/kwritemain.cpp:574
-#: app/kwritemain.cpp:575
-msgid "Betatest"
-msgstr ""
-
-#: app/katemain.cpp:79 app/kwritemain.cpp:576
+#: app/katemain.cpp:78 app/kwritemain.cpp:575
 msgid "Very nice help"
 msgstr ""
 
-#: app/katemain.cpp:80 app/kwritemain.cpp:577
+#: app/katemain.cpp:79 app/kwritemain.cpp:576
 msgid "All people who have contributed and I have forgotten to mention"
 msgstr ""
 
-#: app/katemain.cpp:82 app/kwritemain.cpp:579
+#: app/katemain.cpp:81 app/kwritemain.cpp:578
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
 msgstr "দীপায়ন সরকার"
 
-#: app/katemain.cpp:82 app/kwritemain.cpp:579
+#: app/katemain.cpp:81 app/kwritemain.cpp:578
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#: app/kactionselector.cpp:69
-msgid "&Available:"
-msgstr "পা&ওয়া যাচ্ছে:"
-
-#: app/kactionselector.cpp:84
-msgid "&Selected:"
-msgstr "নির্বাচি&ত:"
-
-#: app/katedocmanager.cpp:275
+#: app/katedocmanager.cpp:311
+#, fuzzy
 msgid ""
 "<p>The document '%1' has been modified, but not saved."
-"<p>Do you want to keep it?"
+"<p>Do you want to save your changes or discard them?"
 msgstr ""
-"<p>'%1' নথীটি পরিবর্তিত হয়েছে কিন্তু সংরক্ষিত হয়নি।"
+"<p>'%1' নথীটি পরিবর্তিত হয়েছে "
+"কিন্তু সংরক্ষিত হয়নি।"
 "<p>আপনি কি এটি রাখতে চান?"
 
-#: app/katedocmanager.cpp:277
-msgid "Unsaved Document"
+#: app/katedocmanager.cpp:313
+#, fuzzy
+msgid "Close Document"
 msgstr "অসংরক্ষিত নথী"
 
-#: app/katedocmanager.cpp:341
+#: app/katedocmanager.cpp:377
 msgid "Reopening files from the last session..."
 msgstr ""
 "পূর্ববর্তী সেশনের ফাইলগুলি "
@@ -765,37 +920,63 @@ msgstr ""
 "প্রোজেক্ট-এ ডিরেক্টরি/ফাইল "
 "যোগ করো"
 
-#: app/katefilelist.cpp:161
+#: app/katefilelist.cpp:173
 msgid "The document<br><code>%1</code><br>was changed on disk by another process."
-msgstr "<br><code>%1</code><br>নথীটি অন্য একটি প্রসেস দ্বারা ডিস্ক-এ পরিবর্তিত হয়েছে।"
+msgstr ""
+"<br><code>%1</code>"
+"<br>নথীটি অন্য একটি প্রসেস "
+"দ্বারা ডিস্ক-এ পরিবর্তিত "
+"হয়েছে।"
 
-#: app/katefilelist.cpp:163
+#: app/katefilelist.cpp:175
 msgid "The document<br><code>%1</code><br>was created on disk by another process."
-msgstr "<br><code>%1</code><br>নথীটি অন্য একটি প্রসেস দ্বারা ডিস্ক-এ তৈরি হয়েছে।"
+msgstr ""
+"<br><code>%1</code>"
+"<br>নথীটি অন্য একটি প্রসেস "
+"দ্বারা ডিস্ক-এ তৈরি হয়েছে।"
 
-#: app/katefilelist.cpp:165
+#: app/katefilelist.cpp:177
 msgid "The document<br><code>%1</code><br>was deleted from disk by another process"
-msgstr "<br><code>%1</code><br>নথীটি অন্য একটি প্রসেস দ্বারা ডিস্ক-এ মুছে ফেলা হয়েছে।"
+msgstr ""
+"<br><code>%1</code>"
+"<br>নথীটি অন্য একটি প্রসেস "
+"দ্বারা ডিস্ক-এ মুছে ফেলা "
+"হয়েছে।"
 
-#: app/katefilelist.cpp:249
-msgid "<b>This file was changed (modified) on disc by another program!</b><br />"
-msgstr "<b>এই ফাইলটি অন্য একটি প্রসেস দ্বারা ডিস্ক-এ বদলানো (পরিবর্তিত) হয়েছে!</b><br />"
+#: app/katefilelist.cpp:261
+#, fuzzy
+msgid "<b>This file was changed (modified) on disc by another program.</b><br />"
+msgstr ""
+"<b>এই ফাইলটি অন্য একটি প্রসেস "
+"দ্বারা ডিস্ক-এ বদলানো "
+"(পরিবর্তিত) হয়েছে!</b><br />"
 
-#: app/katefilelist.cpp:251
-msgid "<b>This file was changed (created) on disc by another program!</b><br />"
-msgstr "<b>এই ফাইলটি অন্য একটি প্রসেস দ্বারা ডিস্ক-এ বদলানো (তৈরি) হয়েছে!</b><br />"
+#: app/katefilelist.cpp:263
+#, fuzzy
+msgid "<b>This file was changed (created) on disc by another program.</b><br />"
+msgstr ""
+"<b>এই ফাইলটি অন্য একটি প্রসেস "
+"দ্বারা ডিস্ক-এ বদলানো (তৈরি) "
+"হয়েছে!</b><br />"
 
-#: app/katefilelist.cpp:253
-msgid "<b>This file was changed (deleted) on disc by another program!</b><br />"
-msgstr "<b>এই ফাইলটি অন্য একটি প্রসেস দ্বারা ডিস্ক-এ বদলানো (মুছে ফেলা) হয়েছে!</b><br />"
+#: app/katefilelist.cpp:265
+#, fuzzy
+msgid "<b>This file was changed (deleted) on disc by another program.</b><br />"
+msgstr ""
+"<b>এই ফাইলটি অন্য একটি প্রসেস "
+"দ্বারা ডিস্ক-এ বদলানো (মুছে "
+"ফেলা) হয়েছে!</b><br />"
 
 #: app/kwritemain.cpp:82
+#, fuzzy
 msgid ""
-"A KDE text editor component could not be found!\n"
-"Please check your KDE installation."
+"A KDE text-editor component could not be found;\n"
+"please check your KDE installation."
 msgstr ""
-"কে.ডি.ই. টেক্সট সম্পাদক কম্পোনেন্ট পাওয়া যায়নি!\n"
-"অনুগ্রহ করে আপনার কে.ডি.ই. ইনস্টলেশন পরীক্ষা করুন।"
+"কে.ডি.ই. টেক্সট সম্পাদক "
+"কম্পোনেন্ট পাওয়া যায়নি!\n"
+"অনুগ্রহ করে আপনার কে.ডি.ই. "
+"ইনস্টলেশন পরীক্ষা করুন।"
 
 #: app/kwritemain.cpp:141
 msgid "Use this to close the current document"
@@ -846,42 +1027,52 @@ msgid "Sho&w Path"
 msgstr "পা&থ দেখাও"
 
 #: app/kwritemain.cpp:170
+msgid "Hide Path"
+msgstr ""
+
+#: app/kwritemain.cpp:171
 msgid "Show the complete document path in the window caption"
 msgstr ""
 "উইণ্ডো শিরোনামে সম্পূর্ণ "
 "ডকুমেন্ট পাথ দেখাও"
 
-#: app/kateviewmanager.cpp:449 app/kwritemain.cpp:231
+#: app/kateviewmanager.cpp:449 app/kwritemain.cpp:232
 msgid "Open File"
 msgstr "ফাইল খোলো"
 
-#: app/kwritemain.cpp:255
+#: app/kwritemain.cpp:256
 msgid ""
 "The given file could not be read, check if it exists or if it is readable "
 "for the current user."
 msgstr ""
 
-#: app/kwritemain.cpp:531
-msgid "Read the contents of stdin."
+#: app/kwritemain.cpp:532
+#, fuzzy
+msgid "Read the contents of stdin"
 msgstr "stdin থেকে পড়ো"
 
-#: app/kwritemain.cpp:532
-msgid "Document to open."
+#: app/kwritemain.cpp:533
+#, fuzzy
+msgid "Document to open"
 msgstr "যে নথী খোলা হবে"
 
-#: app/kwritemain.cpp:542
+#: app/kwritemain.cpp:543
 msgid "KWrite"
 msgstr "কে-রাইট"
 
-#: app/kwritemain.cpp:543
+#: app/kwritemain.cpp:544
 msgid "KWrite - Text Editor"
 msgstr "কে-রাইট - টেক্সট সম্পাদক"
 
-#: app/kateapp.cpp:261 app/kwritemain.cpp:642
-msgid "The file '%1' could not be opened, it is not a normal file, it is a folder!"
-msgstr "'%1' ফাইলটি খোলা যায়নি, এটি একটি সাধারণ ফাইল নয়, এটি একটি ফোল্ডার!"
+#: app/kateapp.cpp:268 app/kwritemain.cpp:641
+#, fuzzy
+msgid "The file '%1' could not be opened: it is not a normal file, it is a folder."
+msgstr ""
+"'%1' ফাইলটি খোলা যায়নি, এটি একটি "
+"সাধারণ ফাইল নয়, এটি একটি "
+"ফোল্ডার!"
 
-#: app/kwritemain.cpp:656
+#: app/kwritemain.cpp:655
 msgid "Choose Editor Component"
 msgstr "সম্পাদক কম্পোনেন্ট বেছে নিন"
 
@@ -941,11 +1132,11 @@ msgid ""
 "loaded, and will be loaded again the next time Kate is started."
 msgstr ""
 
-#: app/katefileselector.cpp:178
+#: app/katefileselector.cpp:179
 msgid "Current Document Folder"
 msgstr "সক্রিয় ডকুমেন্ট ফোল্ডার"
 
-#: app/katefileselector.cpp:206
+#: app/katefileselector.cpp:207
 msgid ""
 "<p>Here you can enter a path for a folder to display."
 "<p>To go to a folder previously entered, press the arrow on the right and "
@@ -954,82 +1145,86 @@ msgid ""
 "should behave."
 msgstr ""
 
-#: app/katefileselector.cpp:211
+#: app/katefileselector.cpp:212
 msgid ""
 "<p>Here you can enter a name filter to limit which files are displayed."
 "<p>To clear the filter, toggle off the filter button to the left."
 "<p>To reapply the last filter used, toggle on the filter button."
 msgstr ""
 
-#: app/katefileselector.cpp:215
+#: app/katefileselector.cpp:216
 msgid ""
 "<p>This button clears the name filter when toggled off, or reapplies the "
 "last filter used when toggled on."
 msgstr ""
 
-#: app/katefileselector.cpp:328
+#: app/katefileselector.cpp:330
 msgid "Apply last filter (\"%1\")"
 msgstr "শেষ ফিল্টার (\"%1\") প্রয়োগ করো"
 
-#: app/katefileselector.cpp:333
+#: app/katefileselector.cpp:335
 msgid "Clear filter"
 msgstr "ফিল্টার ফাঁকা করো"
 
-#: app/katefileselector.cpp:534
+#: app/katefileselector.cpp:536
 msgid "Toolbar"
 msgstr "টুলবার"
 
-#: app/katefileselector.cpp:536
+#: app/katefileselector.cpp:538
 msgid "A&vailable actions:"
 msgstr "&সম্ভাব্য ক্রিয়া:"
 
-#: app/katefileselector.cpp:537
+#: app/katefileselector.cpp:539
 msgid "S&elected actions:"
 msgstr "নির্বাচি&ত ক্রিয়া:"
 
-#: app/katefileselector.cpp:545
+#: app/katefileselector.cpp:547
 msgid "Auto Synchronization"
 msgstr "স্বয়ংক্রিয় সামঞ্জস্য"
 
-#: app/katefileselector.cpp:546
+#: app/katefileselector.cpp:548
 msgid "When a docu&ment becomes active"
 msgstr "যখন নথী &সক্রিয় হবে"
 
-#: app/katefileselector.cpp:547
+#: app/katefileselector.cpp:549
 msgid "When the file selector becomes visible"
-msgstr "যখন ফাইল নির্বাচক দৃষ্টিগোচর হবে"
+msgstr ""
+"যখন ফাইল নির্বাচক "
+"দৃষ্টিগোচর হবে"
 
-#: app/katefileselector.cpp:554
+#: app/katefileselector.cpp:556
 msgid "Remember &locations:"
 msgstr "অবস্থা&ন মনে রাখো:"
 
-#: app/katefileselector.cpp:561
+#: app/katefileselector.cpp:563
 msgid "Remember &filters:"
 msgstr "ফিল্টা&র মনে রাখো:"
 
-#: app/katefileselector.cpp:568
+#: app/katefileselector.cpp:570
 msgid "Session"
 msgstr "সেশন"
 
-#: app/katefileselector.cpp:569
+#: app/katefileselector.cpp:571
 msgid "Restore loca&tion"
 msgstr "&অবস্থান পূর্বাবস্থায় ফেরাও"
 
-#: app/katefileselector.cpp:570
+#: app/katefileselector.cpp:572
 msgid "Restore last f&ilter"
-msgstr "শে&ষ ফিল্টার পূর্বাবস্থায় ফেরাও"
+msgstr ""
+"শে&ষ ফিল্টার পূর্বাবস্থায় "
+"ফেরাও"
 
-#: app/katefileselector.cpp:590
+#: app/katefileselector.cpp:592
 msgid ""
 "<p>Decides how many locations to keep in the history of the location combo "
-"box"
+"box."
 msgstr ""
 
-#: app/katefileselector.cpp:595
-msgid "<p>Decides how many filters to keep in the history of the filter combo box"
+#: app/katefileselector.cpp:597
+msgid "<p>Decides how many filters to keep in the history of the filter combo box."
 msgstr ""
 
-#: app/katefileselector.cpp:600
+#: app/katefileselector.cpp:602
 msgid ""
 "<p>These options allow you to have the File Selector automatically change "
 "location to the folder of the active document on certain events."
@@ -1039,7 +1234,7 @@ msgid ""
 "location by pressing the sync button in the toolbar."
 msgstr ""
 
-#: app/katefileselector.cpp:609
+#: app/katefileselector.cpp:611
 msgid ""
 "<p>If this option is enabled (default), the location will be restored when "
 "you start Kate."
@@ -1047,7 +1242,7 @@ msgid ""
 "manager, the location is always restored."
 msgstr ""
 
-#: app/katefileselector.cpp:613
+#: app/katefileselector.cpp:615
 msgid ""
 "<p>If this option is enabled (default), the current filter will be restored "
 "when you start Kate."
@@ -1057,11 +1252,13 @@ msgid ""
 " that some of the autosync settings may override the restored location if on."
 msgstr ""
 
-#: rc.cpp:3
+#: rc.cpp:6
+#, no-c-format
 msgid "&Project"
 msgstr "প্রোজেক্ট (&প)"
 
-#: rc.cpp:4
+#: rc.cpp:8
+#, no-c-format
 msgid "&Document"
 msgstr "&নথী"
 
@@ -1209,3 +1406,14 @@ msgid ""
 "next/previous frame.</p>\n"
 msgstr ""
 
+#~ msgid " Line: 1 Col: 0 "
+#~ msgstr " লাইন: 1 কলাম: 0 "
+
+#~ msgid "Search"
+#~ msgstr "সন্ধান"
+
+#~ msgid "&Available:"
+#~ msgstr "পা&ওয়া যাচ্ছে:"
+
+#~ msgid "&Selected:"
+#~ msgstr "নির্বাচি&ত:"
