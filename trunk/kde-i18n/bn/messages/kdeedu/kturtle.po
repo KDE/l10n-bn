@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kturtle\n"
-"POT-Creation-Date: 2004-09-04 10:20+0200\n"
+"POT-Creation-Date: 2005-02-03 01:24+0100\n"
 "PO-Revision-Date: 2004-09-28 09:23-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -29,119 +29,225 @@ msgid ""
 "Your emails"
 msgstr "progga@BengaLinux.Org"
 
-#: canvas.cpp:324
-msgid ""
-"The turtle picture is not found;\n"
-"please check your installation."
+#: canvas.cpp:609
+#, fuzzy
+msgid "The turtle picture could not be found. Please check your installation."
 msgstr ""
 "কচ্ছপের ছবি পাওয়া যায় নি;\n"
 "অনুগ্রহপূর্বক সঠিকভাবে "
 "কে-টার্টল ইনস্টল করা আছে "
 "কিনা তা পরীক্ষা করুন।"
 
-#: colorpicker.cpp:26
+#: dialogs.cpp:29
+#, fuzzy
+msgid "Help on &Error"
+msgstr "এই বিষয়ে সহায়িকা:"
+
+#: dialogs.cpp:32
+msgid "Error Dialog"
+msgstr ""
+
+#: dialogs.cpp:33
+msgid "Closes this Error Dialog"
+msgstr ""
+
+#: dialogs.cpp:34
+msgid "Click here to read more on this Error Dialog in KTurtle's Handbook."
+msgstr ""
+
+#: dialogs.cpp:35
+msgid "Click here for help using this Error Dialog"
+msgstr ""
+
+#: dialogs.cpp:36
+msgid ""
+"Click here for help regarding the error you selected in the list. This "
+"button will not work when no error is selected."
+msgstr ""
+
+#: dialogs.cpp:37
+msgid "Click here for help regarding the error you selected."
+msgstr ""
+
+#: dialogs.cpp:44
+msgid ""
+"In this list you find the error(s) that resulted from running your Logo "
+"code. \n"
+"Good luck!"
+msgstr ""
+
+#: dialogs.cpp:59
+#, fuzzy
+msgid "number"
+msgstr "<number>"
+
+#: dialogs.cpp:62
+msgid "line"
+msgstr ""
+
+#: dialogs.cpp:65
+msgid "description"
+msgstr ""
+
+#: dialogs.cpp:134
 msgid "Color Picker"
 msgstr "রং নির্বাচক"
 
-#: colorpicker.cpp:37
+#: dialogs.cpp:144
 msgid "Insert Color Code at Cursor"
 msgstr ""
 "কার্সারের অবস্থানে রঙের কোড "
 "ঢোকাও"
 
-#: colorpicker.cpp:80
+#: dialogs.cpp:187
 msgid "Color code:"
 msgstr "রঙের কোড:"
 
-#: executer.cpp:144
-msgid "Found unsupported node named '%1' in the tree."
+#: dialogs.cpp:283
+msgid "&Restart"
 msgstr ""
-"ট্রি-তে (Tree) অসমর্থিত নোড (Node) '%1' "
-"পাওয়া গিয়েছে।"
 
-#: executer.cpp:166
+#: dialogs.cpp:283
+msgid "&Back"
+msgstr ""
+
+#: dialogs.cpp:285
+#, fuzzy
+msgid "Finished Execution"
+msgstr "কমান্ড চালানো থামা&ও"
+
+#: dialogs.cpp:286
+msgid "Click here to restart the current logo program."
+msgstr ""
+
+#: dialogs.cpp:287
+msgid "Click here to switch back to the edit mode."
+msgstr ""
+
+#: dialogs.cpp:293
+msgid ""
+"Execution was finished without errors.\n"
+"What do you want to do next?"
+msgstr ""
+
+#: executer.cpp:222
 #, c-format
 msgid "Call to undefined function: %1."
 msgstr ""
 "এই অজ্ঞাত ফাংশনকে কল (Call) করা "
 "হয়েছে: %1 ।"
 
-#: executer.cpp:177
+#: executer.cpp:233
 msgid "Call to function '%1' with wrong number of parameters."
 msgstr ""
 "ফাংশন '%1'-কে ভুল সংখ্যক "
 "পরামিতিসহ কল করা হয়েছে।"
 
-#: executer.cpp:217
+#: executer.cpp:276
 msgid "Function %1 did not return a value."
 msgstr "ফাংশন %1 কোন মান ফিরিয়ে দেয় নি।"
 
-#: executer.cpp:420
-msgid "Cannot multiply strings."
+#: executer.cpp:527
+#, fuzzy
+msgid "Can only multiply numbers."
 msgstr "পঙ্‌ক্তিকে গুণ করতে পারে না।"
 
-#: executer.cpp:432
-msgid "Cannot divide strings."
+#: executer.cpp:538
+#, fuzzy
+msgid "Cannot divide by zero."
 msgstr "পঙ্‌ক্তিকে ভাগ করতে পারে না।"
 
-#: executer.cpp:443
-msgid "Cannot substract strings."
+#: executer.cpp:541
+#, fuzzy
+msgid "Can only divide numbers."
+msgstr "পঙ্‌ক্তিকে ভাগ করতে পারে না।"
+
+#: executer.cpp:553
+#, fuzzy
+msgid "Can only subtract numbers."
 msgstr ""
 "পঙ্‌ক্তিকে বিয়োগ করতে পারে "
 "না।"
 
-#: executer.cpp:565 executer.cpp:674 executer.cpp:699 executer.cpp:708
-#: executer.cpp:781 executer.cpp:790 executer.cpp:799 executer.cpp:959
-#: executer.cpp:968 executer.cpp:977
-msgid "The function %1 accepts no parameters."
+#: executer.cpp:814
+msgid "The penwidth cannot be set to something smaller than 1, or bigger than 10000."
 msgstr ""
-"ফাংশন %1 কোন পরামিতি গ্রহণ করে "
-"না।"
 
-#: executer.cpp:574 executer.cpp:589 executer.cpp:601 executer.cpp:614
-#: executer.cpp:626 executer.cpp:638 executer.cpp:650 executer.cpp:662
-#: executer.cpp:683 executer.cpp:717 executer.cpp:739 executer.cpp:762
-#: executer.cpp:808 executer.cpp:822 executer.cpp:832 executer.cpp:857
-#: executer.cpp:876 executer.cpp:908 executer.cpp:929
-msgid "The function %1 was called with wrong number of parameters."
-msgstr ""
-"ফাংশন %1-কে ভুল সংখ্যক "
-"পরামিতিসহ কল করা হয়েছিল।"
-
-#: executer.cpp:690
-msgid "The parameter of %1 must be smaller than 1."
-msgstr ""
-"%1-এর পরামিতির মান ১ অপেক্ষা "
-"কম হতে হবে।"
-
-#: executer.cpp:730 executer.cpp:752
-msgid "The parameters of function %1 must be within range: 0 to 255."
-msgstr ""
-"ফাংশন %1-এর পরামিতির মান এই "
-"সীমার মধ্যে হতে হবে: ০ থেকে "
-"২৫৫।"
-
-#: executer.cpp:772
-msgid "The parameters of function %1 must be within range: 1 to 10000."
-msgstr ""
-"ফাংশন %1-এর পরামিতির মান এই "
-"সীমার মধ্যে হতে হবে: ১ থেকে "
-"১০০০০।"
-
-#: executer.cpp:862
-msgid "The function %1 only accepts strings as parameters."
-msgstr ""
-"ফাংশন %1 তার পরামিতি হিসেবে "
-"শুধু পঙ্‌ক্তি গ্রহণ করে।"
-
-#: executer.cpp:883
+#: executer.cpp:841
 msgid "The parameters of function %1 must be within range: 0 to 350."
 msgstr ""
 "ফাংশন %1-এর পরামিতির মান এই "
 "সীমার মধ্যে হতে হবে: ১ থেকে "
 "১০০০০।"
 
-#: kturtle.cpp:70
+#: executer.cpp:879
+#, fuzzy
+msgid "The parameters of the %1 command must be numbers in the range: 1 to 10000."
+msgstr ""
+"ফাংশন %1-এর পরামিতির মান এই "
+"সীমার মধ্যে হতে হবে: ১ থেকে "
+"১০০০০।"
+
+#: executer.cpp:919 executer.cpp:940
+#, fuzzy
+msgid "The parameters of the %1 command must be numbers in the range: 0 to 255."
+msgstr ""
+"ফাংশন %1-এর পরামিতির মান এই "
+"সীমার মধ্যে হতে হবে: ০ থেকে "
+"২৫৫।"
+
+#: executer.cpp:978
+msgid "The print command needs input"
+msgstr ""
+
+#: executer.cpp:1058
+#, fuzzy
+msgid "The %1 command accepts no parameters."
+msgstr ""
+"ফাংশন %1 কোন পরামিতি গ্রহণ করে "
+"না।"
+
+#: executer.cpp:1070
+msgid ""
+"_n: The %1 command was called with %2 but needs 1 parameter.\n"
+"The %1 command was called with %2 but needs %n parameters."
+msgstr ""
+
+#: executer.cpp:1074
+msgid ""
+"_n: The %1 command was called with %2 but only accepts 1 parameter.\n"
+"The %1 command was called with %2 but only accepts %n parameters."
+msgstr ""
+
+#: executer.cpp:1095
+#, fuzzy
+msgid "The %1 command only accepts a string as its parameter."
+msgstr ""
+"ফাংশন %1 তার পরামিতি হিসেবে "
+"শুধু পঙ্‌ক্তি গ্রহণ করে।"
+
+#: executer.cpp:1097
+#, fuzzy
+msgid "The %1 command only accepts strings as its parameters."
+msgstr ""
+"ফাংশন %1 তার পরামিতি হিসেবে "
+"শুধু পঙ্‌ক্তি গ্রহণ করে।"
+
+#: executer.cpp:1102
+#, fuzzy
+msgid "The %1 command only accepts a number as its parameter."
+msgstr ""
+"ফাংশন %1 তার পরামিতি হিসেবে "
+"শুধু পঙ্‌ক্তি গ্রহণ করে।"
+
+#: executer.cpp:1104
+#, fuzzy
+msgid "The %1 command only accepts numbers as its parameters."
+msgstr ""
+"ফাংশন %1 তার পরামিতি হিসেবে "
+"শুধু পঙ্‌ক্তি গ্রহণ করে।"
+
+#: kturtle.cpp:86
 msgid ""
 "A KDE text-editor component could not be found;\n"
 "please check your KDE installation."
@@ -152,90 +258,122 @@ msgstr ""
 "সঠিকভাবে ইনস্টল করা আছে কিনা "
 "তা পরীক্ষা করুন।"
 
-#: kturtle.cpp:118
-msgid "Open Examples..."
+#: kturtle.cpp:126
+#, fuzzy
+msgid "Open Exa&mples..."
 msgstr "উদাহরণ খোলো..."
 
-#: kturtle.cpp:123
+#: kturtle.cpp:131
 msgid "Save &Canvas..."
 msgstr "ক্যানভা&স সংরক্ষণ করো..."
 
-#: kturtle.cpp:124
+#: kturtle.cpp:132
 msgid "&Execute Commands"
 msgstr "&কমান্ড চালাও"
 
-#: kturtle.cpp:125
+#: kturtle.cpp:133
+#, fuzzy
+msgid "Pause E&xecution"
+msgstr "কমান্ড চালানো থামা&ও"
+
+#: kturtle.cpp:136
 msgid "Stop E&xecution"
 msgstr "কমান্ড চালানো থামা&ও"
 
-#: kturtle.cpp:137
+#: kturtle.cpp:138
+#, fuzzy
+msgid "Execution Speed"
+msgstr ""
+"কমান্ড চালানো পরিত্যক্ত "
+"হয়েছে।"
+
+#: kturtle.cpp:139
+msgid "Full Speed"
+msgstr ""
+
+#: kturtle.cpp:139
+msgid "Slow"
+msgstr ""
+
+#: kturtle.cpp:139
+msgid "Slower"
+msgstr ""
+
+#: kturtle.cpp:139
+msgid "Slowest"
+msgstr ""
+
+#: kturtle.cpp:153
 msgid "Toggle Insert"
 msgstr "ঢোকানোর মোড পাল্টাও"
 
-#: kturtle.cpp:143
+#: kturtle.cpp:160
 msgid "Show &Line Numbers"
 msgstr "লাই&ন সংখ্যা দেখাও"
 
-#: kturtle.cpp:148
+#: kturtle.cpp:165
 msgid "&Color Picker"
 msgstr "রং নির্বা&চক"
 
-#: kturtle.cpp:149
+#: kturtle.cpp:166
 msgid "&Indent"
 msgstr "&অবচ্ছেদ"
 
-#: kturtle.cpp:150
+#: kturtle.cpp:167
 msgid "&Unindent"
 msgstr "অ&বচ্ছেদ বাতিল করো"
 
-#: kturtle.cpp:151
+#: kturtle.cpp:168
 msgid "Cl&ean Indentation"
 msgstr "অবচ্ছেদ&ন মোছো"
 
-#: kturtle.cpp:152
+#: kturtle.cpp:169
 msgid "Co&mment"
 msgstr "&মন্তব্য"
 
-#: kturtle.cpp:153
+#: kturtle.cpp:170
 msgid "Unc&omment"
 msgstr "মন্তব্য &অপসারণ করো"
 
-#: kturtle.cpp:156
+#: kturtle.cpp:174
 msgid "&Configure Editor..."
 msgstr "&এডিটর কনফিগার করো..."
 
-#: kturtle.cpp:173
+#: kturtle.cpp:193
 msgid ""
-"This is the code editor, you can type your commands here or you can get some "
-"code by opening a .logo file."
+"This is the code editor, here you type the Logo commands to instruct the "
+"turtle. You can also open an existing Logo program with File->Open "
+"Examples... or File->Open."
 msgstr ""
-"এটি একটি কোড এডিটর; এখানে "
-"আপনি কমান্ড লিখতে পারবেন এবং "
-"যে কোন .logo ফাইল খুলে কিছু "
-"কমান্ডও দেখতে পারবেন।"
 
-#: kturtle.cpp:199
+#: kturtle.cpp:221
 msgid "Welcome to KTurtle..."
 msgstr "কে-টার্টল এ স্বাগতম..."
 
-#: kturtle.cpp:200 kturtle.cpp:234
-msgid " Line: %1 Column: %2 "
+#: kturtle.cpp:222
+#, fuzzy
+msgid "Line: %1 Column: %2"
 msgstr " লাইন: %1 কলাম: %2 "
 
-#: kturtle.cpp:201
+#: kturtle.cpp:223
 msgid "INS"
 msgstr ""
 
-#: kturtle.cpp:210
+#: kturtle.cpp:235
 msgid "This is the canvas, here the turtle draws a picture."
 msgstr ""
 "এই ক্যানভাসেই কচ্ছপটি ছবি "
 "আঁকে।"
 
-#: kturtle.cpp:250
+#: kturtle.cpp:257
+msgid " Line: %1 Column: %2 "
+msgstr " লাইন: %1 কলাম: %2 "
+
+#: kturtle.cpp:273 kturtle.cpp:316
+#, fuzzy
 msgid ""
-"The changes you have made to the file you are currently working are not "
-"saved. By continuing you will lose all the changes you have made."
+"The program you are currently working on is not saved. By continuing you may "
+"lose the changes you have made."
 msgstr ""
 "বর্তমান ফাইলে যে সব পরিবর্তন "
 "করেছেন, তাদের এখনো সংরক্ষণ "
@@ -243,165 +381,187 @@ msgstr ""
 "এগিয়ে যান, তবে সব পরিবর্তনই "
 "হারিয়ে যাবে।"
 
-#: kturtle.cpp:253 kturtle.cpp:281 kturtle.cpp:449
+#: kturtle.cpp:275 kturtle.cpp:318 kturtle.cpp:476
 msgid "Unsaved File"
 msgstr "অসংরক্ষিত ফাইল"
 
-#: kturtle.cpp:253 kturtle.cpp:281
-msgid "Discard Changes"
+#: kturtle.cpp:275 kturtle.cpp:318
+#, fuzzy
+msgid "&Discard Changes"
 msgstr "পরিবর্তন বাতিল করো"
 
-#: kturtle.cpp:263
+#: kturtle.cpp:283
 msgid "New file... Happy coding!"
 msgstr "নতুন ফাইল... মজা করে কোড লিখুন!"
 
-#: kturtle.cpp:277
-msgid ""
-"The changes you have made to the file you are currently working on (%1) are "
-"not saved. By continuing you will lose all the changes you have made."
-msgstr ""
-"বর্তমান ফাইলে (%1) যে সব "
-"পরিবর্তন করেছেন, তাদের এখনো "
-"সংরক্ষণ করা হয় নি।  এ অবস্থায় "
-"যদি এগিয়ে যান, তবে সব "
-"পরিবর্তনই হারিয়ে যাবে।"
+#: kturtle.cpp:293 kturtle.cpp:358
+msgid "Logo Files"
+msgstr "লোগো'র ফাইল"
 
-#: kturtle.cpp:292
-#, c-format
-msgid "Opened file: %1"
-msgstr "এই ফাইলটি খোলা হয়েছে: %1"
+#: kturtle.cpp:293
+msgid "Open Logo File"
+msgstr "লোগো'র ফাইল খোলো"
 
-#: kturtle.cpp:296
+#: kturtle.cpp:302
+msgid "Logo Examples Files"
+msgstr "লোগো'র উদাহরণের ফাইল"
+
+#: kturtle.cpp:302
+msgid "Open Logo Example File"
+msgstr "লোগো'র উদাহরণের ফাইল খোলো"
+
+#: kturtle.cpp:321
 msgid "Opening aborted, nothing opened."
 msgstr ""
 "খোলার চেষ্টা বাতিল করা "
 "হয়েছে, ফলে কিছুই খোলা হয় নি।"
 
-#: kturtle.cpp:303 kturtle.cpp:359
-msgid "Logo Files"
-msgstr "লোগো'র ফাইল"
-
-#: kturtle.cpp:303
-msgid "Open Logo File"
-msgstr "লোগো'র ফাইল খোলো"
-
-#: kturtle.cpp:322
-msgid "Logo Examples Files"
-msgstr "লোগো'র উদাহরণের ফাইল"
-
-#: kturtle.cpp:323
-msgid "Open Logo Example File"
-msgstr "লোগো'র উদাহরণের ফাইল খোলো"
-
-#: kturtle.cpp:347
+#: kturtle.cpp:331
 #, c-format
-msgid "Saved file to: %1"
-msgstr "এই নামে ফাইল সংরক্ষণ করো: %1"
+msgid "Opened file: %1"
+msgstr "এই ফাইলটি খোলা হয়েছে: %1"
 
-#: kturtle.cpp:359
-msgid "Save Logo File"
-msgstr "লোগো'র ফাইল সংরক্ষণ করো"
-
-#: kturtle.cpp:365
+#: kturtle.cpp:339
+#, fuzzy, c-format
 msgid ""
-"A file named \"%1\" already exists;\n"
-"are you sure you want to overwrite it?"
+"KTurtle was unable to open: \n"
+"%1."
 msgstr ""
-"\"%1\" নামে একটি ফাইল ইতিমধ্যেই "
-"বিদ্যমান;\n"
-"আপনি কি পুরনো ফাইলটির ওপর "
-"দিয়েই লিখতে চান?"
+"কে-টার্টল, %1 নামের ফাইলে ছবি "
+"সংরক্ষণ করতে পারে নি।"
+
+#: kturtle.cpp:340
+#, fuzzy
+msgid "Open Error"
+msgstr "অভ্যন্তরীণ সমস্যা"
+
+#: kturtle.cpp:341
+#, fuzzy
+msgid "Opening aborted because of error."
+msgstr ""
+"খোলার চেষ্টা বাতিল করা "
+"হয়েছে, ফলে কিছুই খোলা হয় নি।"
+
+#: kturtle.cpp:345
+#, fuzzy
+msgid "Opening aborted."
+msgstr ""
+"মুদ্রণ প্রক্রিয়া পরিত্যক্ত "
+"হয়েছে।"
+
+#: kturtle.cpp:361
+#, fuzzy
+msgid "Saving aborted."
+msgstr ""
+"মুদ্রণ প্রক্রিয়া পরিত্যক্ত "
+"হয়েছে।"
 
 #: kturtle.cpp:367
-msgid "Overwrite Existing File?"
-msgstr ""
-"বিদ্যমান ফাইলের ওপর দিয়েই কি "
-"লিখতে চান?"
-
-#: kturtle.cpp:367 kturtle.cpp:389
-msgid "Overwrite"
-msgstr "ওপর দিয়ে লেখো"
-
-#: kturtle.cpp:381
-msgid "Pictures"
-msgstr "ছবি"
-
-#: kturtle.cpp:381
-msgid "Save Canvas as Picture"
-msgstr ""
-"ক্যানভাসকে ছবি হিসেবে "
-"সংরক্ষণ করো"
-
-#: kturtle.cpp:387
+#, fuzzy
 msgid ""
-"A picture named \"%1\" already exists;\n"
-"are you sure you want to overwrite it?"
+"A program named \"%1\" already exists in this folder. Do you want to "
+"overwrite it?"
 msgstr ""
 "\"%1\" নামে একটি ছবি ইতিমধ্যেই "
 "বিদ্যমান;\n"
 "আপনি কি পুরনো ছবির ওপর দিয়েই "
 "লিখতে চান?"
 
-#: kturtle.cpp:389
-msgid "Overwrite Existing Picture?"
+#: kturtle.cpp:369 kturtle.cpp:409
+#, fuzzy
+msgid "Overwrite?"
+msgstr "ওপর দিয়ে লেখো"
+
+#: kturtle.cpp:369 kturtle.cpp:409
+#, fuzzy
+msgid "&Overwrite"
+msgstr "ওপর দিয়ে লেখো"
+
+#: kturtle.cpp:387
+#, fuzzy, c-format
+msgid "Saved to: %1"
+msgstr "এই নামে ফাইল সংরক্ষণ করো: %1"
+
+#: kturtle.cpp:402
+msgid "Pictures"
+msgstr "ছবি"
+
+#: kturtle.cpp:402
+msgid "Save Canvas as Picture"
 msgstr ""
-"বিদ্যমান ছবির ওপর দিয়েই কি "
+"ক্যানভাসকে ছবি হিসেবে "
+"সংরক্ষণ করো"
+
+#: kturtle.cpp:407
+#, fuzzy
+msgid "A picture named \"%1\" already in this folder. Do you want to overwrite it?"
+msgstr ""
+"\"%1\" নামে একটি ছবি ইতিমধ্যেই "
+"বিদ্যমান;\n"
+"আপনি কি পুরনো ছবির ওপর দিয়েই "
 "লিখতে চান?"
 
-#: kturtle.cpp:413
-msgid "Unable to Save Image"
-msgstr "ছবি সংরক্ষণ করা যাচ্ছে না"
-
-#: kturtle.cpp:414
-#, c-format
+#: kturtle.cpp:431
+#, fuzzy, c-format
 msgid ""
-"KTurtle was unable to save the image to\n"
+"KTurtle was unable to save the image to: \n"
 "%1."
 msgstr ""
 "কে-টার্টল, %1 নামের ফাইলে ছবি "
 "সংরক্ষণ করতে পারে নি।"
 
-#: kturtle.cpp:418
+#: kturtle.cpp:432
+msgid "Unable to Save Image"
+msgstr "ছবি সংরক্ষণ করা যাচ্ছে না"
+
+#: kturtle.cpp:433
+msgid "Could not save image."
+msgstr ""
+
+#: kturtle.cpp:436
 #, c-format
 msgid "Saved canvas to: %1"
 msgstr ""
 "এই ফাইলে ক্যানভাস সংরক্ষণ "
 "করা হয়েছে: %1"
 
-#: kturtle.cpp:423
+#: kturtle.cpp:444
 msgid "Do you want to print the Logo code or the canvas?"
 msgstr ""
 "আপনি কি লোগো'র কোড বা "
 "ক্যানভাস ছাপাতে চান?"
 
-#: kturtle.cpp:424
-msgid "Print Code or Canvas?"
-msgstr "কোড বা ক্যানভাস ছাপাতে চান?"
+#: kturtle.cpp:445
+msgid "What to Print?"
+msgstr ""
 
-#: kturtle.cpp:424
-msgid "Print Logo Code"
+#: kturtle.cpp:445
+#, fuzzy
+msgid "Print &Logo Code"
 msgstr "লোগো'র কোড ছাপাও"
 
-#: kturtle.cpp:424
-msgid "Print Canvas"
+#: kturtle.cpp:445
+#, fuzzy
+msgid "Print &Canvas"
 msgstr "ক্যানভাস ছাপাও"
 
-#: kturtle.cpp:438
+#: kturtle.cpp:462
 msgid "Printing aborted."
 msgstr ""
 "মুদ্রণ প্রক্রিয়া পরিত্যক্ত "
 "হয়েছে।"
 
-#: kturtle.cpp:443
+#: kturtle.cpp:471
 msgid "Quitting KTurtle..."
 msgstr ""
 "কে-টার্টল থেকে প্রস্থান করা "
 "হচ্ছে..."
 
-#: kturtle.cpp:446
+#: kturtle.cpp:474
+#, fuzzy
 msgid ""
-"The changes you have made are not saved. By quitting KTurtle you will lose "
-"all the changes you have made."
+"The program you are currently working on is not saved. By quitting KTurtle "
+"you may lose the changes you have made."
 msgstr ""
 "আপনি যে সব পরিবর্তন করেছেন, "
 "সেগুলো এখনো সংরক্ষণ করা হয় "
@@ -409,165 +569,194 @@ msgstr ""
 "প্রস্থান করলে আপনি এই "
 "পরিবর্তনগুলো হারাবেন।"
 
-#: kturtle.cpp:449
-msgid "Discard Changes && Quit"
+#: kturtle.cpp:476
+#, fuzzy
+msgid "Discard Changes && &Quit"
 msgstr ""
 "পরিবর্তন বাতিল করে প্রস্থান "
 "করো"
 
-#: kturtle.cpp:451
+#: kturtle.cpp:479 kturtle.cpp:488
 msgid "Quitting aborted."
 msgstr ""
 "প্রস্থান করার উদ্যোগ "
 "পরিত্যক্ত হয়েছে।"
 
-#: kturtle.cpp:496
+#: kturtle.cpp:521
 msgid "Parsing commands..."
 msgstr "কমান্ড পার্স (Parse) করা হচ্ছে..."
 
-#: kturtle.cpp:511
+#: kturtle.cpp:539 kturtle.cpp:601
 msgid "Executing commands..."
 msgstr "কমান্ড চালানো হচ্ছে..."
 
-#: kturtle.cpp:549
+#: kturtle.cpp:582
 msgid "Done."
 msgstr "সম্পন্ন।"
 
-#: kturtle.cpp:552
+#: kturtle.cpp:583
 msgid "Execution aborted."
 msgstr ""
 "কমান্ড চালানো পরিত্যক্ত "
 "হয়েছে।"
 
-#: kturtle.cpp:557
-msgid "Parsing failed."
+#: kturtle.cpp:596
+#, fuzzy
+msgid "Execution paused."
 msgstr ""
-"পার্স (Parse) করার চেষ্টা ব্যর্থ "
+"কমান্ড চালানো পরিত্যক্ত "
 "হয়েছে।"
 
-#: kturtle.cpp:590
-#, c-format
-msgid " on line %1."
-msgstr " %1-তম লাইনে।"
-
-#: kturtle.cpp:598
-msgid "Parse Error"
-msgstr "পার্স (Parse) করতে সমস্যা"
-
-#: kturtle.cpp:600
-msgid "Internal Error"
-msgstr "অভ্যন্তরীণ সমস্যা"
-
-#: kturtle.cpp:602
-msgid "Execution Error"
-msgstr "কমান্ড চালাতে সমস্যা"
-
-#: kturtle.cpp:606
-#, c-format
-msgid "Error code: %1"
-msgstr "সমস্যা নির্দেশক কোড: %1"
-
-#: kturtle.cpp:607
-msgid "Exact location: %1, %2"
-msgstr "পুঙ্খানুপুঙ্খ অবস্থান: %1, %2"
-
-#: kturtle.cpp:613
+#: kturtle.cpp:640
 msgid "Input"
 msgstr "ইনপুট"
 
-#: kturtle.cpp:617
+#: kturtle.cpp:645
 msgid "Message"
 msgstr "বার্তা"
 
-#: kturtle.cpp:712
+#: kturtle.cpp:744
 msgid " OVR "
 msgstr ""
 
-#: kturtle.cpp:712
+#: kturtle.cpp:744
 msgid " INS "
 msgstr ""
 
-#: kturtle.cpp:804
+#: kturtle.cpp:874
 msgid "Initial Canvas Size"
 msgstr "ক্যানভাসের প্রাথমিক আকার"
 
-#: kturtle.cpp:827
-msgid "Canvas width:"
+#: kturtle.cpp:897
+#, fuzzy
+msgid "Canvas &width:"
 msgstr "ক্যানভাসের প্রস্থ:"
 
-#: kturtle.cpp:829
-msgid "Canvas height:"
+#: kturtle.cpp:899
+#, fuzzy
+msgid "Ca&nvas height:"
 msgstr "ক্যানভাসের উচ্চতা:"
 
-#: kturtle.cpp:835
+#: kturtle.cpp:905
 msgid "You need to restart before these settings have effect"
 msgstr ""
 "এই বৈশিষ্ট্যগুলো কার্যকর "
 "করতে হলে কে-টার্টল -কে পুনরায় "
 "চালাতে হবে"
 
-#: kturtle.cpp:840
+#: kturtle.cpp:910
 msgid "General"
 msgstr "সাধারণ"
 
-#: kturtle.cpp:840
+#: kturtle.cpp:910
 msgid "General Settings"
 msgstr "সাধারণ বৈশিষ্ট্য"
 
-#: kturtle.cpp:862
-msgid "Select the language for the Logo commands:"
+#: kturtle.cpp:933
+#, fuzzy
+msgid "&Select the language for the Logo commands:"
 msgstr "লোগো কমান্ডের ভাষা বেছে নিন:"
 
-#: kturtle.cpp:872
+#: kturtle.cpp:942
 msgid "Language"
 msgstr "ভাষা"
 
-#: kturtle.cpp:872
+#: kturtle.cpp:942
 msgid "Language Settings"
 msgstr "ভাষা সংক্রান্ত বৈশিষ্ট্য"
 
-#: kturtle.cpp:889 kturtle.cpp:897
-msgid "Command language: "
+#: kturtle.cpp:966 kturtle.cpp:978
+#, fuzzy, c-format
+msgid "Command language: %1"
 msgstr "কমান্ডের ভাষা: "
 
-#: kturtle.cpp:931
+#: kturtle.cpp:1007 kturtle.cpp:1057 kturtle.cpp:1098 kturtle.cpp:1123
 msgid "<no keyword>"
 msgstr "<no keyword>"
 
-#: kturtle.cpp:933
+#: kturtle.cpp:1009
+msgid "There is currently no text under the cursor to get help on."
+msgstr ""
+
+#: kturtle.cpp:1009
+msgid "Nothing Under Cursor"
+msgstr ""
+
+#: kturtle.cpp:1012 kturtle.cpp:1103
 msgid "<number>"
 msgstr "<number>"
 
-#: kturtle.cpp:938
+#: kturtle.cpp:1013 kturtle.cpp:1075
 msgid "<string>"
 msgstr "<string>"
 
-#: kturtle.cpp:945
-msgid "Help on:"
+#: kturtle.cpp:1014 kturtle.cpp:1107
+msgid "<assignment>"
+msgstr ""
+
+#: kturtle.cpp:1015 kturtle.cpp:1109
+#, fuzzy
+msgid "<question>"
+msgstr "<string>"
+
+#: kturtle.cpp:1016 kturtle.cpp:1114
+#, fuzzy
+msgid "<name>"
+msgstr "<number>"
+
+#: kturtle.cpp:1017 kturtle.cpp:1051
+#, fuzzy
+msgid "<comment>"
+msgstr "মন্তব্য &অপসারণ করো"
+
+#: kturtle.cpp:1038
+msgid "\"%1\""
+msgstr ""
+
+#: kturtle.cpp:1039
+#, c-format
+msgid "Displaying help on %1"
+msgstr ""
+
+#: kturtle.cpp:1052 kturtle.cpp:1058 kturtle.cpp:1076 kturtle.cpp:1116
+#: kturtle.cpp:1124
+#, fuzzy, c-format
+msgid "Help on: %1"
 msgstr "এই বিষয়ে সহায়িকা:"
 
-#: main.cpp:25
-msgid "Educational programming environment using the Logo programming language"
+#: kturtle.cpp:1105
+msgid "<math>"
+msgstr ""
+
+#: main.cpp:27
+#, fuzzy
+msgid "Educational Programming Environment using the Logo programming language"
 msgstr ""
 "লোগো প্রোগ্রামিং ভাষা "
 "ব্যবহার করে কম্পিউটার "
 "প্রোগ্রামিং শেখা"
 
-#: main.cpp:29
+#: main.cpp:31
 msgid "(C) 2003 The KTurtle Authors"
 msgstr "(C) ২০০৩ কে-টার্টল এর লেখকবৃন্দ"
 
-#: main.cpp:42
+#: main.cpp:48
 msgid "KTurtle"
 msgstr "কে-টার্টল"
 
-#: main.cpp:45
+#: main.cpp:50
 msgid "Main developer and initiator"
 msgstr ""
 "প্রধান ডেভেলপার ও প্রকল্প "
 "সূচনাকারী"
 
-#: main.cpp:48
+#: main.cpp:53
+msgid "Big contributor, supporter and fan"
+msgstr ""
+"বিরাট সাহায্যকারী, সমর্থক ও "
+"অনুরাগী"
+
+#: main.cpp:56
 msgid ""
 "Author of \"wsbasic\" (wsbasic.sf.net) the base for the interpreter of "
 "KTurtle"
@@ -575,96 +764,239 @@ msgstr ""
 "কে-টার্টল এর ইন্টারপ্রেটার "
 "\"wsbasic\" (wsbasic.sf.net) এর লেখক"
 
-#: main.cpp:51
-msgid "Big contributor, supporter and fan"
-msgstr ""
-"বিরাট সাহায্যকারী, সমর্থক ও "
-"অনুরাগী"
-
-#: main.cpp:54
+#: main.cpp:59 main.cpp:62
 msgid "German Data Files"
 msgstr "জার্মান তথ্যের ফাইল"
 
-#: main.cpp:57
+#: main.cpp:65
 msgid "Swedish Data Files"
 msgstr "সুইডিশ তথ্যের ফাইল"
 
-#: parser.cpp:168
-msgid "Syntax error, expected a command"
-msgstr ""
-"সিনট্যাক্স (Syntax) সংক্রান্ত "
-"সমস্যা, এক্ষেত্রে একটি "
-"কমান্ড থাকার কথা"
+#: main.cpp:68
+#, fuzzy
+msgid "Slovenian Data Files"
+msgstr "জার্মান তথ্যের ফাইল"
 
-#: parser.cpp:170
-msgid "Syntax error %2, expected %1"
+#: main.cpp:71
+msgid "Serbian (Latin and Cyrillic) Data Files"
 msgstr ""
-"সিনট্যাক্স (Syntax) সংক্রান্ত "
-"সমস্যা %2, এক্ষেত্রে %1 থাকার "
-"কথা"
 
-#: parser.cpp:256
+#: main.cpp:74
+#, fuzzy
+msgid "Italian Data Files"
+msgstr "জার্মান তথ্যের ফাইল"
+
+#: main.cpp:77
+#, fuzzy
+msgid "British English Data Files"
+msgstr "সুইডিশ তথ্যের ফাইল"
+
+#: main.cpp:80
+#, fuzzy
+msgid "Spanish Data Files"
+msgstr "সুইডিশ তথ্যের ফাইল"
+
+#: main.cpp:83
+#, fuzzy
+msgid "Brazilian Portuguese Data Files"
+msgstr "জার্মান তথ্যের ফাইল"
+
+#: main.cpp:86
+msgid "Parser Cyrillic support"
+msgstr ""
+
+#: parser.cpp:97
+msgid ""
+"Unexpected intruction after the '%1' command, please use only one instuction "
+"per line"
+msgstr ""
+
+#: parser.cpp:101
+#, fuzzy
+msgid "Expected '['"
+msgstr "'*' বা '/' থাকার কথা"
+
+#: parser.cpp:105
+msgid "Expected 'to' after the '%1' command"
+msgstr ""
+
+#: parser.cpp:109
+msgid "Expected '=' after the '%1' command"
+msgstr ""
+
+#: parser.cpp:113
+msgid "Expected ']' after the '%1' command"
+msgstr ""
+
+#: parser.cpp:117
+#, fuzzy
+msgid "Expected a name after the '%1' command"
+msgstr "লোগো কমান্ডের ভাষা বেছে নিন:"
+
+#: parser.cpp:121
+msgid "UNDEFINED ERROR NR %1: please sent this Logo script to the KTurtle developers"
+msgstr ""
+
+#: parser.cpp:161 parser.cpp:167
 msgid "Expected an expression"
 msgstr "একটি রাশি থাকার কথা"
 
-#: parser.cpp:258
-msgid "Cannot understand '%1' in expression"
+#: parser.cpp:211
+msgid "String text not properly delimited with a ' \" ' (double quote)"
+msgstr ""
+
+#: parser.cpp:244
+msgid "INTERNAL ERROR NR %1: please sent this Logo script to KTurtle developers"
+msgstr ""
+
+#: parser.cpp:249
+#, fuzzy
+msgid "Cannot understand '%1', expected an expression after the '%2' command"
 msgstr "রাশির অংশ '%1'-কে বোঝা যাচ্ছে না"
 
-#: parser.cpp:410
+#: parser.cpp:346 parser.cpp:445
 msgid "Expected '*' or '/'"
 msgstr "'*' বা '/' থাকার কথা"
 
-#: parser.cpp:510
-msgid "Expected additive operation"
-msgstr "যোগ করার কথা"
+#: parser.cpp:527
+#, fuzzy
+msgid "Cannot understand ']'"
+msgstr "রাশির অংশ '%1'-কে বোঝা যাচ্ছে না"
 
-#: parser.cpp:741
-msgid "Begin without matching end"
+#: parser.cpp:532
+#, fuzzy
+msgid "Cannot understand '['"
+msgstr "রাশির অংশ '%1'-কে বোঝা যাচ্ছে না"
+
+#: parser.cpp:541
+#, fuzzy
+msgid "Cannot understand '%1'"
+msgstr "রাশির অংশ '%1'-কে বোঝা যাচ্ছে না"
+
+#: parser.cpp:1066
+msgid "'%1' is neither a Logo command nor a learned command."
 msgstr ""
-"আরম্ভের সাথে সংশ্লিষ্ট "
-"সমাপ্তি পাওয়া যায় নি"
 
-#: parser.cpp:750
-msgid "[ is expected"
-msgstr "[ থাকার কথা"
-
-#: parser.cpp:752
-msgid "%1 is no Logo command"
-msgstr "%1 লোগো'র কোন কমান্ড নয়"
-
-#: rc.cpp:12
+#. i18n: file kturtleui.rc line 58
+#: rc.cpp:18
 #, no-c-format
 msgid "&Advanced Settings"
 msgstr "&অগ্রসর বৈশিষ্ট্য"
 
-#: rc.cpp:16
+#. i18n: file kturtle.kcfg line 10
+#: rc.cpp:24
 #, no-c-format
 msgid "The width of the canvas in pixels"
 msgstr ""
 "পিক্সেল হিসেবে ক্যানভাসের "
 "প্রস্থ"
 
-#: rc.cpp:18
+#. i18n: file kturtle.kcfg line 14
+#: rc.cpp:27
 #, no-c-format
 msgid "The height of the canvas in pixels"
 msgstr ""
 "পিক্সেল হিসেবে ক্যানভাসের "
 "উচ্চতা"
 
-#: rc.cpp:20
+#. i18n: file kturtle.kcfg line 22
+#: rc.cpp:30
 #, no-c-format
 msgid "The list of the available languages for the Logo commands"
 msgstr ""
 "যে সব ভাষায় লোগো'কে কমান্ড "
 "দেওয়া যায়"
 
-#: rc.cpp:22
+#. i18n: file kturtle.kcfg line 47
+#: rc.cpp:33
 #, no-c-format
 msgid "The language of the Logo commands"
 msgstr "লোগো কমান্ডের ভাষা"
 
-#: rc.cpp:24
+#. i18n: file kturtle.kcfg line 83
+#: rc.cpp:36
 #, no-c-format
 msgid "The value of the ComboBox"
 msgstr "কম্বোবক্সের মান"
+
+#: translate.cpp:41
+msgid "'%1' (%2)"
+msgstr ""
+
+#: value.cpp:49 value.cpp:84 value.cpp:127
+msgid "false"
+msgstr ""
+
+#: value.cpp:79 value.cpp:126
+msgid "true"
+msgstr ""
+
+#~ msgid "Found unsupported node named '%1' in the tree."
+#~ msgstr "ট্রি-তে (Tree) অসমর্থিত নোড (Node) '%1' পাওয়া গিয়েছে।"
+
+#~ msgid "The function %1 was called with wrong number of parameters."
+#~ msgstr "ফাংশন %1-কে ভুল সংখ্যক পরামিতিসহ কল করা হয়েছিল।"
+
+#~ msgid "The parameter of %1 must be smaller than 1."
+#~ msgstr "%1-এর পরামিতির মান ১ অপেক্ষা কম হতে হবে।"
+
+#~ msgid "This is the code editor, you can type your commands here or you can get some code by opening a .logo file."
+#~ msgstr "এটি একটি কোড এডিটর; এখানে আপনি কমান্ড লিখতে পারবেন এবং যে কোন .logo ফাইল খুলে কিছু কমান্ডও দেখতে পারবেন।"
+
+#~ msgid "The changes you have made to the file you are currently working on (%1) are not saved. By continuing you will lose all the changes you have made."
+#~ msgstr "বর্তমান ফাইলে (%1) যে সব পরিবর্তন করেছেন, তাদের এখনো সংরক্ষণ করা হয় নি।  এ অবস্থায় যদি এগিয়ে যান, তবে সব পরিবর্তনই হারিয়ে যাবে।"
+
+#~ msgid "Save Logo File"
+#~ msgstr "লোগো'র ফাইল সংরক্ষণ করো"
+
+#~ msgid ""
+#~ "A file named \"%1\" already exists;\n"
+#~ "are you sure you want to overwrite it?"
+#~ msgstr ""
+#~ "\"%1\" নামে একটি ফাইল ইতিমধ্যেই বিদ্যমান;\n"
+#~ "আপনি কি পুরনো ফাইলটির ওপর দিয়েই লিখতে চান?"
+
+#~ msgid "Overwrite Existing File?"
+#~ msgstr "বিদ্যমান ফাইলের ওপর দিয়েই কি লিখতে চান?"
+
+#~ msgid "Overwrite Existing Picture?"
+#~ msgstr "বিদ্যমান ছবির ওপর দিয়েই কি লিখতে চান?"
+
+#~ msgid "Print Code or Canvas?"
+#~ msgstr "কোড বা ক্যানভাস ছাপাতে চান?"
+
+#~ msgid "Parsing failed."
+#~ msgstr "পার্স (Parse) করার চেষ্টা ব্যর্থ হয়েছে।"
+
+#~ msgid " on line %1."
+#~ msgstr " %1-তম লাইনে।"
+
+#~ msgid "Parse Error"
+#~ msgstr "পার্স (Parse) করতে সমস্যা"
+
+#~ msgid "Execution Error"
+#~ msgstr "কমান্ড চালাতে সমস্যা"
+
+#~ msgid "Error code: %1"
+#~ msgstr "সমস্যা নির্দেশক কোড: %1"
+
+#~ msgid "Exact location: %1, %2"
+#~ msgstr "পুঙ্খানুপুঙ্খ অবস্থান: %1, %2"
+
+#~ msgid "Syntax error, expected a command"
+#~ msgstr "সিনট্যাক্স (Syntax) সংক্রান্ত সমস্যা, এক্ষেত্রে একটি কমান্ড থাকার কথা"
+
+#~ msgid "Syntax error %2, expected %1"
+#~ msgstr "সিনট্যাক্স (Syntax) সংক্রান্ত সমস্যা %2, এক্ষেত্রে %1 থাকার কথা"
+
+#~ msgid "Expected additive operation"
+#~ msgstr "যোগ করার কথা"
+
+#~ msgid "Begin without matching end"
+#~ msgstr "আরম্ভের সাথে সংশ্লিষ্ট সমাপ্তি পাওয়া যায় নি"
+
+#~ msgid "[ is expected"
+#~ msgstr "[ থাকার কথা"
+
+#~ msgid "%1 is no Logo command"
+#~ msgstr "%1 লোগো'র কোন কমান্ড নয়"

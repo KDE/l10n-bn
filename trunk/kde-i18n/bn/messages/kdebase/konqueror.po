@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
-"POT-Creation-Date: 2005-01-13 01:22+0100\n"
+"POT-Creation-Date: 2005-02-03 01:19+0100\n"
 "PO-Revision-Date: 2005-01-15 18:38-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -193,7 +193,7 @@ msgstr ""
 "ইউ-আর-এল"
 
 #. i18n: file sidebar/trees/history_module/history_dlg.ui line 151
-#: about/konq_aboutpage.cc:182 rc.cpp:324
+#: about/konq_aboutpage.cc:265 rc.cpp:324
 #, no-c-format
 msgid "Details"
 msgstr "বিস্তারিত বিবরণ"
@@ -244,7 +244,8 @@ msgstr ""
 "ডায়াগনস্টিক হচ্ছে:\n"
 "%2"
 
-#: konq_factory.cc:211
+#: about/konq_aboutpage.cc:109 about/konq_aboutpage.cc:170
+#: about/konq_aboutpage.cc:221 about/konq_aboutpage.cc:314 konq_factory.cc:211
 msgid "Konqueror"
 msgstr "কনকরার"
 
@@ -274,7 +275,7 @@ msgstr ""
 msgid "developer (framework, parts)"
 msgstr "ডেভেলপার (framework, parts)"
 
-#: konq_factory.cc:220 konq_factory.cc:243
+#: konq_factory.cc:220 konq_factory.cc:247
 msgid "developer (framework)"
 msgstr "ডেভেলপার (framework)"
 
@@ -292,6 +293,8 @@ msgstr "ডেভেলপার (List views, I/O lib)"
 
 #: konq_factory.cc:224 konq_factory.cc:225 konq_factory.cc:226
 #: konq_factory.cc:228 konq_factory.cc:229 konq_factory.cc:231
+#: konq_factory.cc:232 konq_factory.cc:233 konq_factory.cc:234
+#: konq_factory.cc:235
 msgid "developer (HTML rendering engine)"
 msgstr "ডেভেলপার (HTML rendering engine)"
 
@@ -305,27 +308,27 @@ msgstr ""
 "ডেভেলপার (HTML rendering engine, I/O lib, regression test "
 "framework)"
 
-#: konq_factory.cc:232
+#: konq_factory.cc:236
 msgid "developer (HTML rendering engine, JavaScript)"
 msgstr "ডেভেলপার (HTML rendering engine, JavaScript)"
 
-#: konq_factory.cc:233
+#: konq_factory.cc:237
 msgid "developer (JavaScript)"
 msgstr "ডেভেলপার (JavaScript)"
 
-#: konq_factory.cc:234
+#: konq_factory.cc:238
 msgid "developer (Java applets and other embedded objects)"
 msgstr "ডেভেলপার (Java applets and other embedded objects)"
 
-#: konq_factory.cc:235 konq_factory.cc:236
+#: konq_factory.cc:239 konq_factory.cc:240
 msgid "developer (I/O lib)"
 msgstr "ডেভেলপার (I/O lib)"
 
-#: konq_factory.cc:237 konq_factory.cc:238
+#: konq_factory.cc:241 konq_factory.cc:242
 msgid "developer (Java applet support)"
 msgstr "ডেভেলপার (Java applet support)"
 
-#: konq_factory.cc:239
+#: konq_factory.cc:243
 msgid ""
 "developer (Java 2 security manager support,\n"
 " and other major improvements to applet support)"
@@ -333,27 +336,27 @@ msgstr ""
 "ডেভেলপার (Java 2 security manager support,\n"
 " and other major improvements to applet support)"
 
-#: konq_factory.cc:240
+#: konq_factory.cc:244
 msgid "developer (Netscape plugin support)"
 msgstr "ডেভেলপার (Netscape plugin support)"
 
-#: konq_factory.cc:241
+#: konq_factory.cc:245
 msgid "developer (SSL, Netscape plugins)"
 msgstr "ডেভেলপার (SSL, Netscape plugins)"
 
-#: konq_factory.cc:242
+#: konq_factory.cc:246
 msgid "developer (I/O lib, Authentication support)"
 msgstr "ডেভেলপার (I/O lib, Authentication support)"
 
-#: konq_factory.cc:244
+#: konq_factory.cc:248
 msgid "graphics/icons"
 msgstr "গ্রাফিক্স/আইকন"
 
-#: konq_factory.cc:245
+#: konq_factory.cc:249
 msgid "kfm author"
 msgstr "kfm লেখক"
 
-#: konq_factory.cc:246
+#: konq_factory.cc:250
 msgid "developer (navigation panel framework)"
 msgstr "ডেভেলপার (navigation panel framework)"
 
@@ -407,6 +410,11 @@ msgstr ""
 msgid "Show %1"
 msgstr "%1 দেখাও"
 
+#: konq_guiclients.cc:193
+#, fuzzy, c-format
+msgid "Hide %1"
+msgstr "লুকোও"
+
 #: konq_main.cc:40
 msgid "Start without a default window"
 msgstr "ডিফল্ট উইণ্ডো ছাড়া শুরু করো"
@@ -439,19 +447,17 @@ msgid ""
 "For URLs that point to files, opens the directory and selects the file, "
 "instead of opening the actual file"
 msgstr ""
-"যে সব ইউ-আর-এল "
-"একটি ফাইল নির্দেশ করে, "
-"সেগুলির জন্য ফাইলটি "
-"খোলার পরিবর্তে "
-"ফোল্ডারটি খোলে "
-"এবং ফাইলটি "
+"যে সব ইউ-আর-এল একটি ফাইল "
+"নির্দেশ করে, সেগুলির জন্য "
+"ফাইলটি খোলার পরিবর্তে "
+"ফোল্ডারটি খোলে এবং ফাইলটি "
 "নির্বাচন করে"
 
 #: konq_main.cc:46
 msgid "Location to open"
 msgstr "যে অবস্থান খোলা হবে"
 
-#: konq_mainwindow.cc:500
+#: konq_mainwindow.cc:496
 #, c-format
 msgid ""
 "Malformed URL\n"
@@ -460,7 +466,7 @@ msgstr ""
 "ত্রুটিপূর্ণ ইউ-আর-এল\n"
 "%1"
 
-#: konq_mainwindow.cc:505
+#: konq_mainwindow.cc:501
 #, c-format
 msgid ""
 "Protocol not supported\n"
@@ -469,7 +475,7 @@ msgstr ""
 "প্রোটোকল সাপোর্টেড নয় \n"
 "%1"
 
-#: konq_mainwindow.cc:579 konq_run.cc:117
+#: konq_mainwindow.cc:575 konq_run.cc:117
 msgid ""
 "There appears to be a configuration error. You have associated Konqueror "
 "with %1, but it cannot handle this file type."
@@ -480,21 +486,21 @@ msgstr ""
 "কিন্তু কনকরার এই ধরনের ফাইল "
 "নিয়ে কী করতে হয় জানে না।"
 
-#: konq_mainwindow.cc:1410
+#: konq_mainwindow.cc:1406
 msgid "Open Location"
 msgstr "এই অবস্থান খোলো"
 
-#: konq_mainwindow.cc:1440
+#: konq_mainwindow.cc:1436
 msgid "Cannot create the find part, check your installation."
 msgstr ""
 "find part তৈরী করা যায়নি, আপনার "
 "ইনস্টলেশন পরীক্ষা করুন।"
 
-#: konq_mainwindow.cc:1721
+#: konq_mainwindow.cc:1717
 msgid "Canceled."
 msgstr "বাতিল।"
 
-#: konq_mainwindow.cc:1759
+#: konq_mainwindow.cc:1755
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the page will discard these changes."
@@ -504,23 +510,23 @@ msgstr ""
 "পাতাটি বন্ধ করলে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:1760 konq_mainwindow.cc:2524 konq_mainwindow.cc:2542
-#: konq_mainwindow.cc:2649 konq_mainwindow.cc:2664 konq_mainwindow.cc:2681
-#: konq_mainwindow.cc:2718 konq_mainwindow.cc:2751 konq_mainwindow.cc:5020
-#: konq_mainwindow.cc:5037 konq_viewmgr.cc:1120 konq_viewmgr.cc:1138
+#: konq_mainwindow.cc:1756 konq_mainwindow.cc:2551 konq_mainwindow.cc:2569
+#: konq_mainwindow.cc:2677 konq_mainwindow.cc:2693 konq_mainwindow.cc:2710
+#: konq_mainwindow.cc:2747 konq_mainwindow.cc:2780 konq_mainwindow.cc:5130
+#: konq_mainwindow.cc:5148 konq_viewmgr.cc:1165 konq_viewmgr.cc:1183
 msgid "Discard Changes?"
 msgstr ""
 "পরিবর্তনগুলি পরিত্যাগ করা "
 "হবে?"
 
-#: konq_mainwindow.cc:1760 konq_mainwindow.cc:2524 konq_mainwindow.cc:2542
-#: konq_mainwindow.cc:2649 konq_mainwindow.cc:2664 konq_mainwindow.cc:2681
-#: konq_mainwindow.cc:2718 konq_mainwindow.cc:2751 konq_mainwindow.cc:5020
-#: konq_mainwindow.cc:5037 konq_viewmgr.cc:1120 konq_viewmgr.cc:1138
+#: konq_mainwindow.cc:1756 konq_mainwindow.cc:2551 konq_mainwindow.cc:2569
+#: konq_mainwindow.cc:2677 konq_mainwindow.cc:2693 konq_mainwindow.cc:2710
+#: konq_mainwindow.cc:2747 konq_mainwindow.cc:2780 konq_mainwindow.cc:5130
+#: konq_mainwindow.cc:5148 konq_viewmgr.cc:1165 konq_viewmgr.cc:1183
 msgid "&Discard Changes"
 msgstr "&পরিবর্তন পরিত্যাগ করো"
 
-#: konq_mainwindow.cc:2523 konq_mainwindow.cc:2541
+#: konq_mainwindow.cc:2550 konq_mainwindow.cc:2568
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Detaching the tab will discard these changes."
@@ -530,7 +536,7 @@ msgstr ""
 "ট্যাব-টি আলাদা করলে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:2648
+#: konq_mainwindow.cc:2676
 msgid ""
 "This view contains changes that have not been submitted.\n"
 "Closing the view will discard these changes."
@@ -540,7 +546,7 @@ msgstr ""
 "ভিউ-টি বন্ধ করলে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:2663 konq_mainwindow.cc:2680
+#: konq_mainwindow.cc:2692 konq_mainwindow.cc:2709
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the tab will discard these changes."
@@ -550,23 +556,23 @@ msgstr ""
 "ট্যাব-টি বন্ধ করলে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:2702
+#: konq_mainwindow.cc:2731
 msgid "Do you really want to close all other tabs?"
 msgstr ""
 "আপনি কি সত্যিই অন্য সবকটি "
 "ট্যাব বন্ধ করতে চান?"
 
-#: konq_mainwindow.cc:2703
+#: konq_mainwindow.cc:2732
 msgid "Close Other Tabs Confirmation"
 msgstr ""
 "অন্যান্য ট্যাব বন্ধ করার "
 "অনুমোদন"
 
-#: konq_mainwindow.cc:2703 konq_mainwindow.cc:3657 konq_tabs.cc:421
+#: konq_mainwindow.cc:2732 konq_mainwindow.cc:3771 konq_tabs.cc:424
 msgid "Close &Other Tabs"
 msgstr "অন্যান্য ট্যাব &বন্ধ করো"
 
-#: konq_mainwindow.cc:2717
+#: konq_mainwindow.cc:2746
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing other tabs will discard these changes."
@@ -576,7 +582,7 @@ msgstr ""
 "অন্য কোন ট্যাব বন্ধ করলে এই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:2750
+#: konq_mainwindow.cc:2779
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Reloading all tabs will discard these changes."
@@ -586,250 +592,251 @@ msgstr ""
 "সব ট্যাব নতুন করে পড়লে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:2824
+#: konq_mainwindow.cc:2853
 #, c-format
 msgid "No permissions to write to %1"
 msgstr "%1-তে লেখার অনুমতি নেই"
 
-#: konq_mainwindow.cc:2834
+#: konq_mainwindow.cc:2863
 msgid "Enter Target"
 msgstr "গন্তব্য লিখুন"
 
-#: konq_mainwindow.cc:2843
+#: konq_mainwindow.cc:2872
 msgid "<qt><b>%1</b> is not valid</qt>"
 msgstr "<qt><b>%1</b> বৈধ নয়<qt>"
 
-#: konq_mainwindow.cc:2859
+#: konq_mainwindow.cc:2888
 msgid "Copy selected files from %1 to:"
 msgstr ""
-"%1 থেকে নির্বাচিত ফাইল "
-"এখানে কপি করো:"
+"%1 থেকে নির্বাচিত ফাইল এখানে "
+"কপি করো:"
 
-#: konq_mainwindow.cc:2869
+#: konq_mainwindow.cc:2898
 msgid "Move selected files from %1 to:"
 msgstr ""
-"%1 থেকে নির্বাচিত ফাইল "
-"এখানে সরাও:"
+"%1 থেকে নির্বাচিত ফাইল এখানে "
+"সরাও:"
 
-#: konq_mainwindow.cc:3569
+#: konq_mainwindow.cc:3675
 msgid "&Edit File Type..."
 msgstr "ফাইলের ধরন &সম্পাদন করো..."
 
-#: konq_mainwindow.cc:3571 sidebar/trees/history_module/history_module.cpp:78
+#: konq_mainwindow.cc:3677 sidebar/trees/history_module/history_module.cpp:78
 msgid "New &Window"
 msgstr "নতুন &উইণ্ডো"
 
-#: konq_mainwindow.cc:3572
+#: konq_mainwindow.cc:3678
 msgid "&Duplicate Window"
 msgstr ""
 "&এই উইণ্ডোর অবিকল সংস্করণ "
 "তৈরি করো"
 
-#: konq_mainwindow.cc:3573
+#: konq_mainwindow.cc:3679
 msgid "Send &Link Address..."
 msgstr "লিঙ্ক ঠিকানা পাঠা&ও..."
 
-#: konq_mainwindow.cc:3574
+#: konq_mainwindow.cc:3680
 msgid "S&end File..."
 msgstr "ফা&ইল মেইল করে পাঠাও..."
 
-#: konq_mainwindow.cc:3575
+#: konq_mainwindow.cc:3681
 msgid "&Run Command..."
 msgstr "&কমাণ্ড চালাও..."
 
-#: konq_mainwindow.cc:3578
+#: konq_mainwindow.cc:3684
 msgid "Open &Terminal"
 msgstr "টার্মিনাল খোলো (&ট)"
 
-#: konq_mainwindow.cc:3580
+#: konq_mainwindow.cc:3686
 msgid "&Open Location..."
 msgstr "এই &অবস্থান খোলো..."
 
-#: konq_mainwindow.cc:3582
+#: konq_mainwindow.cc:3688
 msgid "&Find File..."
 msgstr "ফাই&ল খোঁজো..."
 
-#: konq_mainwindow.cc:3587
+#: konq_mainwindow.cc:3693
 msgid "&Use index.html"
 msgstr "index.html ব্য&বহার করো"
 
-#: konq_mainwindow.cc:3588
+#: konq_mainwindow.cc:3694
 msgid "Lock to Current Location"
 msgstr "বর্তমান অবস্থানে আটকে রাখো"
 
-#: konq_mainwindow.cc:3589
+#: konq_mainwindow.cc:3695
 msgid "Lin&k View"
 msgstr "ভিউ লিঙ্ক &করো"
 
-#: konq_mainwindow.cc:3592
+#: konq_mainwindow.cc:3698
 msgid "&Up"
 msgstr "&উপর"
 
-#: konq_mainwindow.cc:3605
+#: konq_mainwindow.cc:3717
 msgid "History"
 msgstr "ইতিহাস"
 
-#: konq_mainwindow.cc:3609
-msgid "Home URL"
+#: konq_mainwindow.cc:3721
+#, fuzzy
+msgid "Home"
 msgstr "হোম ইউ-আর-এল"
 
-#: konq_mainwindow.cc:3611
+#: konq_mainwindow.cc:3725
 msgid "App&lications"
 msgstr "অ্যা&পলিকেশন"
 
-#: konq_mainwindow.cc:3612
+#: konq_mainwindow.cc:3726
 msgid "&Storage Media"
 msgstr "স্টোরে&জ মিডিয়া"
 
-#: konq_mainwindow.cc:3613
+#: konq_mainwindow.cc:3727
 msgid "Sett&ings"
 msgstr "প&ছন্দ"
 
-#: konq_mainwindow.cc:3615
+#: about/konq_aboutpage.cc:132 konq_mainwindow.cc:3729
 msgid "Trash"
 msgstr "আবর্জনা"
 
-#: konq_mainwindow.cc:3616
+#: konq_mainwindow.cc:3730
 msgid "Templates"
 msgstr "টেমপ্লেট"
 
-#: konq_mainwindow.cc:3617
+#: konq_mainwindow.cc:3731
 msgid "Autostart"
 msgstr "অটোস্টার্ট"
 
-#: konq_mainwindow.cc:3618
+#: konq_mainwindow.cc:3732
 msgid "Most Often Visited"
 msgstr "সবচেয়ে বেশি দেখা"
 
-#: konq_mainwindow.cc:3624 konq_mainwindow.cc:4139
+#: konq_mainwindow.cc:3738 konq_mainwindow.cc:4278
 msgid "&Save View Profile..."
 msgstr ""
 "প্রদর্শন প্রোফাই&ল সংরক্ষণ "
 "করো..."
 
-#: konq_mainwindow.cc:3625
+#: konq_mainwindow.cc:3739
 msgid "View Properties Saved in &Folder"
 msgstr ""
 
-#: konq_mainwindow.cc:3627
+#: konq_mainwindow.cc:3741
 msgid "Remove Folder Properties"
 msgstr ""
 "ফোল্ডার বৈশিষ্ট্যাবলী মুছে "
 "ফেলো"
 
-#: konq_mainwindow.cc:3646
+#: konq_mainwindow.cc:3760
 msgid "Configure Extensions..."
 msgstr "এক্সটেনশন-সমূহ কনফিগার করো..."
 
-#: konq_mainwindow.cc:3647
+#: konq_mainwindow.cc:3761
 msgid "Configure Spell Checking..."
 msgstr "বানান পরীক্ষক কনফিগার করো..."
 
-#: konq_mainwindow.cc:3650
+#: konq_mainwindow.cc:3764
 msgid "Split View &Left/Right"
 msgstr "ভিউ পাশাপাশি ভা&গ করো"
 
-#: konq_mainwindow.cc:3651
+#: konq_mainwindow.cc:3765
 msgid "Split View &Top/Bottom"
 msgstr "ভিউ &উপর-নীচে ভাগ করো"
 
-#: konq_mainwindow.cc:3652 konq_tabs.cc:80
+#: konq_mainwindow.cc:3766 konq_tabs.cc:83
 msgid "&New Tab"
 msgstr "&নতুন ট্যাব"
 
-#: konq_mainwindow.cc:3653
+#: konq_mainwindow.cc:3767
 msgid "&Duplicate Current Tab"
 msgstr ""
 "এই ট্যাবের অবিকল সংস্ক&রণ "
 "তৈরি করো"
 
-#: konq_mainwindow.cc:3654
+#: konq_mainwindow.cc:3768
 msgid "Detach Current Tab"
 msgstr "এই ট্যাবটি আলাদা করে নাও"
 
-#: konq_mainwindow.cc:3655
+#: konq_mainwindow.cc:3769
 msgid "&Close Active View"
 msgstr "সক্রিয় ভিউ &বন্ধ করো"
 
-#: konq_mainwindow.cc:3656
+#: konq_mainwindow.cc:3770
 msgid "Close Current Tab"
 msgstr "এই ট্যাবটি বন্ধ করো"
 
-#: konq_mainwindow.cc:3659
+#: konq_mainwindow.cc:3773
 msgid "Activate Next Tab"
 msgstr "পরবর্তী ট্যাব সক্রিয় করো"
 
-#: konq_mainwindow.cc:3660
+#: konq_mainwindow.cc:3774
 msgid "Activate Previous Tab"
 msgstr "পূর্ববর্তী ট্যাব সক্রিয় করো"
 
-#: konq_mainwindow.cc:3665
+#: konq_mainwindow.cc:3779
 #, c-format
 msgid "Activate Tab %1"
 msgstr "ট্যাব %1 সক্রিয় করো"
 
-#: konq_mainwindow.cc:3668
+#: konq_mainwindow.cc:3782
 msgid "Move Tab Left"
 msgstr "ট্যাব বাঁদিকে সরাও"
 
-#: konq_mainwindow.cc:3669
+#: konq_mainwindow.cc:3783
 msgid "Move Tab Right"
 msgstr "ট্যাব ডানদিকে সরাও "
 
-#: konq_mainwindow.cc:3672
+#: konq_mainwindow.cc:3786
 msgid "Dump Debug Info"
 msgstr "ডিবাগ তথ্য ডাম্প করো"
 
-#: konq_mainwindow.cc:3675
+#: konq_mainwindow.cc:3789
 msgid "C&onfigure View Profiles..."
 msgstr ""
 "প্রদর্শ&ন প্রোফাইল কনফিগার "
 "করুন..."
 
-#: konq_mainwindow.cc:3676
+#: konq_mainwindow.cc:3790
 msgid "Load &View Profile"
 msgstr "প্রদর্শন প্রোফা&ইল লোড করো"
 
-#: konq_mainwindow.cc:3689 konq_tabs.cc:399
+#: konq_mainwindow.cc:3803 konq_tabs.cc:402
 msgid "&Reload All Tabs"
 msgstr "সব ট্যাব &নতুন করে পড়ো"
 
-#: konq_mainwindow.cc:3700
+#: konq_mainwindow.cc:3818
 msgid "&Stop"
 msgstr "থামো (&থ)"
 
-#: konq_mainwindow.cc:3702
+#: konq_mainwindow.cc:3820
 msgid "&Rename"
 msgstr "না&ম পাল্টাও"
 
-#: konq_mainwindow.cc:3703
+#: konq_mainwindow.cc:3821
 msgid "&Move to Trash"
 msgstr "&আবর্জনার বাক্সে পাঠাও"
 
-#: konq_mainwindow.cc:3712
+#: konq_mainwindow.cc:3827
 msgid "Animated Logo"
 msgstr "অ্যানিমেটেড প্রতীক"
 
-#: konq_mainwindow.cc:3715 konq_mainwindow.cc:3716
+#: konq_mainwindow.cc:3830 konq_mainwindow.cc:3831
 msgid "L&ocation: "
 msgstr "অ&বস্থান:"
 
-#: konq_mainwindow.cc:3719
+#: konq_mainwindow.cc:3834
 msgid "Location Bar"
 msgstr "অবস্থান বার"
 
-#: konq_mainwindow.cc:3724
+#: konq_mainwindow.cc:3839
 msgid "Location Bar<p>Enter a web address or search term."
 msgstr ""
 "অবস্থান বার"
 "<p>একটি ওয়েব ঠিকানা অথবা "
 "সন্ধানযোগ্য পংক্তি লিখুন।"
 
-#: konq_mainwindow.cc:3727
+#: konq_mainwindow.cc:3842
 msgid "Clear Location Bar"
 msgstr "অবস্থান বার ফাঁকা করো"
 
-#: konq_mainwindow.cc:3730
+#: konq_mainwindow.cc:3845
 msgid "Clear Location bar<p>Clears the content of the location bar."
 msgstr ""
 "অবস্থান বার ফাঁকা "
@@ -837,28 +844,28 @@ msgstr ""
 "<p>অবস্থান বারের লেখা মুছে "
 "দেয়।"
 
-#: konq_mainwindow.cc:3753
+#: konq_mainwindow.cc:3868
 msgid "Bookmark This Location"
 msgstr ""
 "এই অবস্থানটি বুকমার্ক "
 "তালিকায় যোগ করো"
 
-#: konq_mainwindow.cc:3757
+#: konq_mainwindow.cc:3872
 msgid "Kon&queror Introduction"
 msgstr "কন&করার পরিচিতি"
 
-#: konq_mainwindow.cc:3759
+#: konq_mainwindow.cc:3874
 msgid "Go"
 msgstr "যাও"
 
-#: konq_mainwindow.cc:3760
+#: konq_mainwindow.cc:3875
 msgid "Go<p>Goes to the page that has been entered into the location bar."
 msgstr ""
 "যাও"
 "<p>অবস্থান বার-এ লেখা ঠিকানায় "
 "যায়।"
 
-#: konq_mainwindow.cc:3766
+#: konq_mainwindow.cc:3881
 msgid ""
 "Enter the parent folder"
 "<p>For instance, if the current location is file:/home/%1 clicking this "
@@ -871,37 +878,38 @@ msgstr ""
 "ক্লিক করলে আপনি চলে যাবেন "
 "file:/home"
 
-#: konq_mainwindow.cc:3769
+#: konq_mainwindow.cc:3884
 msgid "Enter the parent folder"
 msgstr "উর্ধ্বস্থ ফোল্ডারে যাও"
 
-#: konq_mainwindow.cc:3771
+#: konq_mainwindow.cc:3886
 msgid "Move backwards one step in the browsing history<p>"
 msgstr ""
 "পূর্বদৃষ্ট অবস্থানগুলির "
 "তালিকায় এক ধাপ পিছিয়ে যায়<p>"
 
-#: konq_mainwindow.cc:3772
+#: konq_mainwindow.cc:3887
 msgid "Move backwards one step in the browsing history"
 msgstr ""
 "পূর্বদৃষ্ট অবস্থানগুলির "
 "তালিকায় এক ধাপ পিছিয়ে যায়"
 
-#: konq_mainwindow.cc:3774
+#: konq_mainwindow.cc:3889
 msgid "Move forward one step in the browsing history<p>"
 msgstr ""
 "পূর্বদৃষ্ট অবস্থানগুলির "
 "তালিকায় এক ধাপ এগিয়ে যায়<p>"
 
-#: konq_mainwindow.cc:3775
+#: konq_mainwindow.cc:3890
 msgid "Move forward one step in the browsing history"
 msgstr ""
 "পূর্বদৃষ্ট অবস্থানগুলির "
 "তালিকায় এক ধাপ এগিয়ে যায়"
 
-#: konq_mainwindow.cc:3777
+#: konq_mainwindow.cc:3892
+#, fuzzy
 msgid ""
-"Navigate to your 'Home URL'"
+"Navigate to your 'Home Location'"
 "<p>You can configure the location this button takes you to in the <b>KDE "
 "Control Center</b>, under <b>File Manager</b>/<b>Behavior</b>."
 msgstr ""
@@ -912,11 +920,12 @@ msgstr ""
 "নিয়ন্ত্রণ কেন্দ্রে</b>, <b>ফাইল "
 "ম্যানেজার</b>/<b>আচরণ</b>-এর অধীনে।"
 
-#: konq_mainwindow.cc:3780
-msgid "Navigate to your 'Home URL'"
+#: konq_mainwindow.cc:3895
+#, fuzzy
+msgid "Navigate to your 'Home Location'"
 msgstr "'হোম ইউ-আর-এল'-এ যাও"
 
-#: konq_mainwindow.cc:3782
+#: konq_mainwindow.cc:3897
 msgid ""
 "Reload the currently displayed document"
 "<p>This may, for example, be needed to refresh webpages that have been "
@@ -930,13 +939,13 @@ msgstr ""
 "থাকে; না হলে তফাতগুলি দেখা "
 "যাবে না।"
 
-#: konq_mainwindow.cc:3785
+#: konq_mainwindow.cc:3900
 msgid "Reload the currently displayed document"
 msgstr ""
 "প্রদর্শিত পাতাটি নতুন করে "
 "পড়ো"
 
-#: konq_mainwindow.cc:3787
+#: konq_mainwindow.cc:3902
 msgid ""
 "Reload all currently displayed documents in tabs"
 "<p>This may, for example, be needed to refresh webpages that have been "
@@ -950,13 +959,13 @@ msgstr ""
 "থাকে; না হলে তফাতগুলি দেখা "
 "যাবে না।"
 
-#: konq_mainwindow.cc:3790
+#: konq_mainwindow.cc:3905
 msgid "Reload all currently displayed document in tabs"
 msgstr ""
 "বিভিন্ন ট্যাব-এ প্রদর্শিত "
 "সবকটি পাতা নতুন করে পড়ো"
 
-#: konq_mainwindow.cc:3792
+#: konq_mainwindow.cc:3907
 msgid ""
 "Stop loading the document"
 "<p>All network transfers will be stopped and Konqueror will display the "
@@ -969,11 +978,11 @@ msgstr ""
 "পাওয়া অংশটুকু প্রদর্শন "
 "করবে।"
 
-#: konq_mainwindow.cc:3795
+#: konq_mainwindow.cc:3910
 msgid "Stop loading the document"
 msgstr "লোড করা থামাও"
 
-#: konq_mainwindow.cc:3797
+#: konq_mainwindow.cc:3912
 msgid ""
 "Cut the currently selected text or item(s) and move it to the system "
 "clipboard"
@@ -989,14 +998,14 @@ msgstr ""
 "অ্যাপলিকেশনে <b>সাঁটা বা "
 "পেস্ট</b> করা যাবে।"
 
-#: konq_mainwindow.cc:3801
+#: konq_mainwindow.cc:3916
 msgid "Move the selected text or item(s) to the clipboard"
 msgstr ""
 "নির্বাচিত লেখা অথবা "
 "বস্তু(গুলি) সরিয়ে "
 "ক্লিপবোর্ডে নিয়ে যাও"
 
-#: konq_mainwindow.cc:3803
+#: konq_mainwindow.cc:3918
 msgid ""
 "Copy the currently selected text or item(s) to the system clipboard"
 "<p>This makes it available to the <b>Paste</b> command in Konqueror and "
@@ -1010,14 +1019,14 @@ msgstr ""
 "অ্যাপলিকেশনে <b>সাঁটা বা "
 "পেস্ট</b> করা যাবে।"
 
-#: konq_mainwindow.cc:3807
+#: konq_mainwindow.cc:3922
 msgid "Copy the selected text or item(s) to the clipboard"
 msgstr ""
 "নির্বাচিত লেখা অথবা "
 "বস্তু(গুলি) ক্লিপবোর্ডে টুকে "
 "নাও"
 
-#: konq_mainwindow.cc:3809
+#: konq_mainwindow.cc:3924
 msgid ""
 "Paste the previously cut or copied clipboard contents"
 "<p>This also works for text copied or cut from other KDE applications."
@@ -1029,13 +1038,13 @@ msgstr ""
 "অ্যাপ্লিকেশন থেকে কপি করা "
 "লেখাও একই ভাবে কাজ করবে।"
 
-#: konq_mainwindow.cc:3812
+#: konq_mainwindow.cc:3927
 msgid "Paste the clipboard contents"
 msgstr ""
 "ক্লিপবোর্ডে রাখা লেখা বা "
 "বস্তু সাঁটো"
 
-#: konq_mainwindow.cc:3814
+#: konq_mainwindow.cc:3929
 msgid ""
 "Print the currently displayed document"
 "<p>You will be presented with a dialog where you can set various options, "
@@ -1057,18 +1066,18 @@ msgstr ""
 "পাবেন, যেমন সরাসরি পি-ডি-এফ "
 "ফাইল তৈরি করা।"
 
-#: konq_mainwindow.cc:3820
+#: konq_mainwindow.cc:3935
 msgid "Print the current document"
 msgstr "প্রদর্শিত নথীটি ছাপাও"
 
-#: konq_mainwindow.cc:3826
+#: konq_mainwindow.cc:3941
 msgid "If present, open index.html when entering a folder."
 msgstr ""
 "যে কোনো ফোল্ডারে ঢোকার সময় "
 "যদি তাতে index.html নামে একটি ফাইল "
 "থাকে, তাহলে সেটি খোলা হবে।"
 
-#: konq_mainwindow.cc:3827
+#: konq_mainwindow.cc:3942
 msgid ""
 "A locked view cannot change folders. Use in combination with 'link view' to "
 "explore many files from one folder"
@@ -1079,7 +1088,7 @@ msgstr ""
 "ফোল্ডার থেকে অনেকগুলি ফাইল "
 "পরীক্ষা করতে পারবেন"
 
-#: konq_mainwindow.cc:3828
+#: konq_mainwindow.cc:3943
 msgid ""
 "Sets the view as 'linked'. A linked view follows folder changes made in "
 "other linked views."
@@ -1090,91 +1099,91 @@ msgstr ""
 "সমস্ত লিঙ্ক করা ভিউ-এও একই "
 "পরিবর্তন ঘটে।"
 
-#: konq_mainwindow.cc:3843
+#: konq_mainwindow.cc:3958
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:70
 msgid "Open Folder in Tabs"
 msgstr "ট্যাবে ফোল্ডার খোলে"
 
-#: konq_mainwindow.cc:3848
+#: konq_mainwindow.cc:3963
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:66
 #: sidebar/trees/konq_sidebartree.cpp:919
 msgid "Open in New Window"
 msgstr "নতুন উইণ্ডোয় খোলো"
 
-#: konq_mainwindow.cc:3849
+#: konq_mainwindow.cc:3964
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:68
 #: sidebar/trees/konq_sidebartree.cpp:921
 msgid "Open in New Tab"
 msgstr "নতুন ট্যাবে খোলো"
 
-#: konq_mainwindow.cc:3996
+#: konq_mainwindow.cc:4135
 msgid "Copy &Files..."
 msgstr "ফাইল &কপি করো..."
 
-#: konq_mainwindow.cc:3997
+#: konq_mainwindow.cc:4136
 msgid "M&ove Files..."
 msgstr "ফাইল &সরাও..."
 
-#: konq_mainwindow.cc:4001
+#: konq_mainwindow.cc:4140
 msgid "Create Folder..."
 msgstr "ফোল্ডার তৈরি করো..."
 
-#: konq_mainwindow.cc:4138
+#: konq_mainwindow.cc:4277
 msgid "&Save View Profile \"%1\"..."
 msgstr ""
 "প্রদর্শন প্রোফাইল \"%1\" "
 "সং&রক্ষণ করো..."
 
-#: konq_mainwindow.cc:4479
+#: konq_mainwindow.cc:4617
 msgid "Open in T&his Window"
 msgstr "&এই উইণ্ডোয় খোলো"
 
-#: konq_mainwindow.cc:4480
+#: konq_mainwindow.cc:4618
 msgid "Open the document in current window"
 msgstr "নথী বর্তমান উইণ্ডোয় খোলো"
 
-#: konq_mainwindow.cc:4482 sidebar/web_module/web_module.h:55
+#: konq_mainwindow.cc:4620 sidebar/web_module/web_module.h:55
 #: sidebar/web_module/web_module.h:58
 msgid "Open in New &Window"
 msgstr "নতুন &উইণ্ডোয় খোলো"
 
-#: konq_mainwindow.cc:4483
+#: konq_mainwindow.cc:4621
 msgid "Open the document in a new window"
 msgstr "নথী নতুন একটি উইণ্ডোয় খোলো"
 
-#: konq_mainwindow.cc:4484
+#: konq_mainwindow.cc:4622
 msgid "Open in &New Tab"
 msgstr "&নতুন ট্যাবে খোলো"
 
-#: konq_mainwindow.cc:4485
+#: konq_mainwindow.cc:4623
 msgid "Open the document in a new tab"
 msgstr "নথী নতুন একটি ট্যাবে খোলো"
 
-#: konq_mainwindow.cc:4718
+#: konq_mainwindow.cc:4828
 #, c-format
 msgid "Open with %1"
 msgstr "%1 দিয়ে খোলো"
 
-#: konq_mainwindow.cc:4775
+#: konq_mainwindow.cc:4885
 msgid "&View Mode"
 msgstr "প্রদর্শ&ন মোড"
 
-#: konq_mainwindow.cc:4983
+#: konq_mainwindow.cc:5093
 msgid "You have multiple tabs open in this window, are you sure you want to quit?"
 msgstr ""
 "এই উইণ্ডোয় একাধিক ট্যাব খোলা "
 "রয়েছে। আপনি কি উইণ্ডোটি বন্ধ "
 "করার ব্যাপারে নিশ্চিত?"
 
-#: konq_mainwindow.cc:4985 konq_viewmgr.cc:1102
+#: konq_mainwindow.cc:5095 konq_viewmgr.cc:1147
 msgid "Confirmation"
 msgstr "অনুমোদন"
 
-#: konq_mainwindow.cc:4987
+#: konq_mainwindow.cc:5097
 msgid "C&lose Current Tab"
 msgstr "&এই ট্যাবটি বন্ধ করো"
 
-#: konq_mainwindow.cc:5019
+#: konq_mainwindow.cc:5129
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1184,7 +1193,7 @@ msgstr ""
 "উইণ্ডোটি বন্ধ করলে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:5036
+#: konq_mainwindow.cc:5147
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Closing the window will discard these changes."
@@ -1194,18 +1203,18 @@ msgstr ""
 "উইণ্ডোটি বন্ধ করলে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_mainwindow.cc:5125
+#: konq_mainwindow.cc:5236
 msgid "Your sidebar is not functional or unavailable. A new entry cannot be added."
 msgstr ""
 "আপনার সাইডবার নেই, অথবা "
 "থাকলেও কার্যকরী নয়। নতুন "
 "অন্তর্ভুক্তি যোগ করা যায়নি।"
 
-#: konq_mainwindow.cc:5125 konq_mainwindow.cc:5132
+#: konq_mainwindow.cc:5236 konq_mainwindow.cc:5243
 msgid "Web Sidebar"
 msgstr "ওয়েব সাইডবার"
 
-#: konq_mainwindow.cc:5130
+#: konq_mainwindow.cc:5241
 msgid "Add new web extension \"%1\" to your sidebar?"
 msgstr ""
 "আপনার সাইডবার-এ নতুন ওয়েব "
@@ -1239,7 +1248,7 @@ msgstr "প্রোফাই&ল মুছে ফেলো"
 msgid "&Rename Profile"
 msgstr "প্রোফাইলের নাম পাল্টা&ও"
 
-#: konq_tabs.cc:61
+#: konq_tabs.cc:64
 msgid ""
 "This bar contains list of currently open tabs. Click on a tab to make it "
 "active. The option to show a close button instead of website icon in the "
@@ -1249,37 +1258,37 @@ msgid ""
 "case it was truncated to fit the tab size."
 msgstr ""
 
-#: konq_tabs.cc:85
+#: konq_tabs.cc:88
 msgid "&Duplicate Tab"
 msgstr ""
 "ট্যাবের &আরেকটি অবিকল "
 "সংস্করণ তৈরি করো"
 
-#: konq_tabs.cc:91
+#: konq_tabs.cc:94
 msgid "&Reload Tab"
 msgstr "ট্যাব &নতুন করে পড়ো"
 
-#: konq_tabs.cc:97
+#: konq_tabs.cc:100
 msgid "Other Tabs"
 msgstr "অন্যান্য ট্যাব"
 
-#: konq_tabs.cc:102
+#: konq_tabs.cc:105
 msgid "D&etach Tab"
 msgstr "ট্যাব আলাদা &করো"
 
-#: konq_tabs.cc:109
+#: konq_tabs.cc:112
 msgid "&Close Tab"
 msgstr "ট্যাব &বন্ধ করো"
 
-#: konq_tabs.cc:144
+#: konq_tabs.cc:147
 msgid "Open a new tab"
 msgstr "নতুন ট্যাব খোলো"
 
-#: konq_tabs.cc:153
+#: konq_tabs.cc:156
 msgid "Close the current tab"
 msgstr "সক্রিয় ট্যাবটি বন্ধ করো"
 
-#: konq_view.cc:1304
+#: konq_view.cc:1320
 msgid ""
 "The page you are trying to view is the result of posted form data. If you "
 "resend the data, any action the form carried out (such as search or online "
@@ -1295,11 +1304,11 @@ msgstr ""
 "কেনাকাটা) সেগুলি আবার করা "
 "হবে।"
 
-#: konq_view.cc:1306
+#: konq_view.cc:1322
 msgid "Resend"
 msgstr "আবার পাঠাও"
 
-#: konq_viewmgr.cc:1100
+#: konq_viewmgr.cc:1145
 msgid ""
 "You have multiple tabs open in this window.\n"
 "Loading a view profile will close them."
@@ -1309,11 +1318,11 @@ msgstr ""
 "একটি প্রদর্শন প্রোফাইল লোড "
 "করলে সেগুলি বন্ধ হয়ে যাবে।"
 
-#: konq_viewmgr.cc:1103
+#: konq_viewmgr.cc:1148
 msgid "Load View Profile"
 msgstr "প্রদর্শন প্রোফাইল লোড করো"
 
-#: konq_viewmgr.cc:1119
+#: konq_viewmgr.cc:1164
 msgid ""
 "This tab contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
@@ -1323,7 +1332,7 @@ msgstr ""
 "একটি প্রোফাইল লোড করলে সেই "
 "পরিবর্তনগুলি পরিত্যক্ত হবে।"
 
-#: konq_viewmgr.cc:1137
+#: konq_viewmgr.cc:1182
 msgid ""
 "This page contains changes that have not been submitted.\n"
 "Loading a profile will discard these changes."
@@ -1450,7 +1459,7 @@ msgstr ""
 "বাছাই করা ফাইলের নির্বাচন "
 "বাতিল করুন:"
 
-#: iconview/konq_iconview.cc:731 listview/konq_listviewwidget.cc:913
+#: iconview/konq_iconview.cc:731 listview/konq_listviewwidget.cc:914
 msgid "You must take the file out of the trash before being able to use it."
 msgstr ""
 "ফাইলটি ব্যবহার করার আগে "
@@ -1462,13 +1471,10 @@ msgid ""
 "You cannot drop any items in a directory in which you do not have write "
 "permission"
 msgstr ""
-"যে সব ফোল্ডার-এ "
-"আপনার লেখার "
-"অনুমতি নেই সেখানে "
-"আপনি কোনো "
-"কিছু ফেলতে "
-"(ড্রপ করতে) "
-"পারেন না"
+"যে সব ফোল্ডার-এ আপনার লেখার "
+"অনুমতি নেই সেখানে আপনি কোনো "
+"কিছু ফেলতে (ড্রপ করতে) পারেন "
+"না"
 
 #: listview/konq_infolistviewwidget.cc:40
 msgid "View &as"
@@ -1611,7 +1617,7 @@ msgstr "ইউ-আর-এল দেখাও"
 msgid "Case Insensitive Sort"
 msgstr "Case Insensitive ক্রমবিন্যাস"
 
-#: listview/konq_listviewwidget.cc:360 listview/konq_textviewwidget.cc:79
+#: listview/konq_listviewwidget.cc:357 listview/konq_textviewwidget.cc:79
 msgid "Name"
 msgstr "নাম"
 
@@ -1651,13 +1657,15 @@ msgstr "ফ্যাভ-আইকন আপডেট করো"
 msgid "Recursive Sort"
 msgstr "রিকার্সিভ ক্রমবিন্যাস"
 
-#: keditbookmarks/actionsimpl.cpp:140 sidebar/trees/konq_sidebartree.cpp:909
-msgid "&Create New Folder..."
-msgstr "&নতুন ফোল্ডার"
+#: keditbookmarks/actionsimpl.cpp:140
+#, fuzzy
+msgid "&New Folder..."
+msgstr "নতুন ফোল্ডার"
 
 #: keditbookmarks/actionsimpl.cpp:143
-msgid "Create &New Bookmark"
-msgstr "নতুন বু&কমার্ক"
+#, fuzzy
+msgid "&New Bookmark"
+msgstr "বু&কমার্ক"
 
 #: keditbookmarks/actionsimpl.cpp:146
 msgid "&Insert Separator"
@@ -1953,6 +1961,28 @@ msgstr ""
 msgid "*.xml|KDE Bookmark Files (*.xml)"
 msgstr "*.xml|কে.ডি.ই বুকমার্ক ফাইল (*.xml)"
 
+#: keditbookmarks/kbookmarkmerger.cpp:42
+msgid "Directory to scan for extra bookmarks"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:62
+#, fuzzy
+msgid "KBookmarkMerger"
+msgstr "বুকমার্ক"
+
+#: keditbookmarks/kbookmarkmerger.cpp:63
+msgid "Merges bookmarks installed by 3rd parties into the user's bookmarks"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:65
+msgid "Copyright © 2005 Frerich Raabe"
+msgstr ""
+
+#: keditbookmarks/kbookmarkmerger.cpp:66
+#, fuzzy
+msgid "Original author"
+msgstr "প্রারম্ভিক লেখক"
+
 #: keditbookmarks/listview.cpp:335
 msgid "Drop Items"
 msgstr "বস্তুগুলি ফেলো (ড্রপ করো)"
@@ -2139,10 +2169,11 @@ msgid ""
 "<b>Reset Quick Search</b>"
 "<br>Resets the quick search so that all bookmarks are shown again."
 msgstr ""
-"<b>চটপট সন্ধান রিসেট করো</b>"
-"<br>চটপট সন্ধান রিসেট করে, "
-"যাতে সব বুকমার্ক আবার "
-"প্রদর্শিত হয়।"
+"<b>চটপট সন্ধান রিসেট "
+"করো</b>"
+"<br>চটপট সন্ধান রিসেট করে, যাতে "
+"সব বুকমার্ক আবার প্রদর্শিত "
+"হয়।"
 
 #: keditbookmarks/toplevel.cpp:193 sidebar/trees/konqsidebar_tree.cpp:33
 msgid "Se&arch:"
@@ -2152,64 +2183,115 @@ msgstr "সন্ধা&ন:"
 msgid "Read Only"
 msgstr "শুধু পড়া যায়"
 
-#: about/konq_aboutpage.cc:96 about/konq_aboutpage.cc:140
-#: about/konq_aboutpage.cc:226
+#: about/konq_aboutpage.cc:108 about/konq_aboutpage.cc:110
+#: about/konq_aboutpage.cc:169 about/konq_aboutpage.cc:171
+#: about/konq_aboutpage.cc:220 about/konq_aboutpage.cc:222
+#: about/konq_aboutpage.cc:313 about/konq_aboutpage.cc:315
 msgid "Conquer your Desktop!"
 msgstr "আপনার ডেস্কটপ জয় করুন!"
 
-#: about/konq_aboutpage.cc:97 about/konq_aboutpage.cc:141
-#: about/konq_aboutpage.cc:227
-msgid "Please enter a term or an address to be searched on the Internet."
+#: about/konq_aboutpage.cc:111 about/konq_aboutpage.cc:172
+#: about/konq_aboutpage.cc:223 about/konq_aboutpage.cc:316
+msgid "Konqueror is your file manager, web browser and universal document viewer."
 msgstr ""
-"ইন্টারনেটে খোঁজার জন্য কিছু "
-"কথা বা ঠিকানা লিখুন।"
 
-#: about/konq_aboutpage.cc:98 about/konq_aboutpage.cc:101
-#: about/konq_aboutpage.cc:142 about/konq_aboutpage.cc:228
+#: about/konq_aboutpage.cc:112 about/konq_aboutpage.cc:173
+#: about/konq_aboutpage.cc:317
+#, fuzzy
+msgid "Starting Points"
+msgstr "প&ছন্দ"
+
+#: about/konq_aboutpage.cc:113 about/konq_aboutpage.cc:174
+#: about/konq_aboutpage.cc:225 about/konq_aboutpage.cc:318
 msgid "Introduction"
 msgstr "পরিচয়"
 
-#: about/konq_aboutpage.cc:99 about/konq_aboutpage.cc:143
-#: about/konq_aboutpage.cc:229 about/konq_aboutpage.cc:231
+#: about/konq_aboutpage.cc:114 about/konq_aboutpage.cc:175
+#: about/konq_aboutpage.cc:226 about/konq_aboutpage.cc:319
 msgid "Tips"
 msgstr "টিপস"
 
-#: about/konq_aboutpage.cc:100 about/konq_aboutpage.cc:144
-#: about/konq_aboutpage.cc:145 about/konq_aboutpage.cc:230
+#: about/konq_aboutpage.cc:115 about/konq_aboutpage.cc:176
+#: about/konq_aboutpage.cc:227 about/konq_aboutpage.cc:228
+#: about/konq_aboutpage.cc:320
 msgid "Specifications"
 msgstr "বিবরণী"
 
-#: about/konq_aboutpage.cc:102
-#, c-format
-msgid "Welcome to Konqueror %1."
-msgstr "কনকরার %1-এ স্বাগতম"
+#: about/konq_aboutpage.cc:120
+#, fuzzy
+msgid "Home Folder"
+msgstr "নতুন ফোল্ডার"
 
-#: about/konq_aboutpage.cc:103
-msgid ""
-"With Konqueror you have your filesystem at your command, browsing local or "
-"networked drives with equal ease. Thanks to the component technology used "
-"throughout KDE, Konqueror is also a full featured, easy to use and "
-"comfortable Web Browser, which you can use to explore the Internet."
+#: about/konq_aboutpage.cc:121
+msgid "Your personal files"
 msgstr ""
-"কনকরার ব্যবহার করে আপনি "
-"সহজেই আপনার ফাইল-সিস্টেমের "
-"ওপর পূর্ণ নিয়ন্ত্রণ পাবেন, "
-"সে স্থানীয় ড্রাইভ-এই হোক বা "
-"দূরবর্তী নেটওয়ার্কেই হোক। "
-"কে.ডি.ই.র সর্বত্র ব্যবহৃত "
-"কম্পোনেন্ট টেকনলজির সুবাদে "
-"কনকরার একই সঙ্গে একটি "
-"পূর্ণাঙ্গ ওয়েব ব্রাউজারও "
-"বটে, যার সাহায্যে আপনি সহজেই "
-"ইন্টারনেটে ভ্রমণ করতে "
-"পারবেন।"
 
-#: about/konq_aboutpage.cc:108
+#: about/konq_aboutpage.cc:124
+#, fuzzy
+msgid "Storage Media"
+msgstr "স্টোরে&জ মিডিয়া"
+
+#: about/konq_aboutpage.cc:125
+msgid "Disks and removable media"
+msgstr ""
+
+#: about/konq_aboutpage.cc:128
+#, fuzzy
+msgid "Network Folders"
+msgstr "নতুন ফোল্ডার"
+
+#: about/konq_aboutpage.cc:129
+msgid "Shared files and folders"
+msgstr ""
+
+#: about/konq_aboutpage.cc:133
+msgid "Browse and restore the trash"
+msgstr ""
+
+#: about/konq_aboutpage.cc:136
+#, fuzzy
+msgid "Applications"
+msgstr "অ্যা&পলিকেশন"
+
+#: about/konq_aboutpage.cc:137
+#, fuzzy
+msgid "Installed programs"
+msgstr "ইনস্টল করা প্লাগ-ইন"
+
+#: about/konq_aboutpage.cc:140
+#, fuzzy
+msgid "Settings"
+msgstr "প&ছন্দ"
+
+#: about/konq_aboutpage.cc:141
+#, fuzzy
+msgid "Desktop configuration"
+msgstr "কনফিগারেশন বাটন দেখাও"
+
+#: about/konq_aboutpage.cc:144
+#, fuzzy
+msgid "Next: An Introduction to Konqueror"
+msgstr "পরিচয়"
+
+#: about/konq_aboutpage.cc:146
+msgid "Search the Web"
+msgstr ""
+
+#: about/konq_aboutpage.cc:177
 msgid ""
-"Simply enter the Internet address (e.g. <A "
-"HREF=\"http://www.kde.org\">http://www.kde.org</A>"
-") of the web page you want and press Enter, or choose one of the entries in "
-"your Bookmarks menu."
+"Konqueror makes working with and managing your files easy. You can browse "
+"both local and networked folders while enjoying advanced features such as "
+"the powerful sidebar and file previews."
+msgstr ""
+
+#: about/konq_aboutpage.cc:181
+#, fuzzy
+msgid ""
+"Konqueror is also a full featured and easy to use web browser which you can  "
+"use to explore the Internet. Enter the address (e.g. <a "
+"href=\"http://www.kde.org\">http://www.kde.org</A>) of a web page you would "
+"like to visit in the location bar and press Enter, or choose an entry from "
+"the Bookmarks menu."
 msgstr ""
 "যে ইন্টারনেটে অ্যাড্রেস বা "
 "ঠিকানায় যেতে চান (যেমন ধরুন <A "
@@ -2218,37 +2300,40 @@ msgstr ""
 "আপনার বুকমার্ক মেনু থেকে "
 "একটি গন্তব্য বেছে নিন।"
 
-#: about/konq_aboutpage.cc:111
+#: about/konq_aboutpage.cc:186
+#, fuzzy
 msgid ""
-"If you want to go back to the previous web page, press the button <IMG "
-"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp;(\"Back\") in the toolbar."
+"To return to the previous location, press the back button  <img width='16' "
+"height='16' src=\"%1\"> in the toolbar. "
 msgstr ""
 "যদি পূর্ববর্তী পাতায় ফিরে "
 "যেতে চান, টুলবারে <IMG WIDTH=16 HEIGHT=16 "
 "SRC=\"%1\"> &nbsp;(\"Back\") বাটন-টি চাপুন।"
 
-#: about/konq_aboutpage.cc:114
+#: about/konq_aboutpage.cc:189
+#, fuzzy
 msgid ""
-"To go back to the home directory of your local filesystem press <IMG "
-"WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Home\"). "
+"To quickly go to your Home folder press the  home button <img width='16' "
+"height='16' src=\"%1\">."
 msgstr ""
-"আপনার স্থানীয় "
-"ফাইল-সিস্টেমের ব্যক্তিগত "
-"ফোল্ডারে ফিরে যেতে হলে <IMG WIDTH=16 "
-"HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Home\") চাপুন।"
+"যদি পূর্ববর্তী পাতায় ফিরে "
+"যেতে চান, টুলবারে <IMG WIDTH=16 HEIGHT=16 "
+"SRC=\"%1\"> &nbsp;(\"Back\") বাটন-টি চাপুন।"
 
-#: about/konq_aboutpage.cc:116
-msgid "For more detailed documentation on Konqueror click <A HREF=\"%1\">here</A>."
+#: about/konq_aboutpage.cc:191
+#, fuzzy
+msgid "For more detailed documentation on Konqueror click <a href=\"%1\">here</a>."
 msgstr ""
 "কনকরার সম্বন্ধে আরো "
 "বিস্তারিত জানতে <A HREF=\"%1\"> "
 "এখানে</A> ক্লিক করুন।"
 
-#: about/konq_aboutpage.cc:118
+#: about/konq_aboutpage.cc:193
+#, fuzzy
 msgid ""
-"<I>Tuning Tip:</I> If you want the Konqueror web browser to start faster, "
-"you can turn off this information screen by clicking <A "
-"HREF=\"%1\">here</A>. You can re-enable it by choosing the Help ->"
+"<em>Tuning Tip:</em> If you want the Konqueror web browser to start faster, "
+"you can turn off this information screen by clicking <a "
+"href=\"%1\">here</a>. You can re-enable it by choosing the Help ->"
 " Konqueror Introduction menu option, and then pressing Settings ->"
 " Save View Profile \"Web Browsing\"."
 msgstr ""
@@ -2264,7 +2349,20 @@ msgstr ""
 "'পছন্দ -> প্রদর্শন প্রোফাইল "
 "\"ওয়েব ব্রাউজিং\" সংরক্ষণ করো'।"
 
-#: about/konq_aboutpage.cc:146
+#: about/konq_aboutpage.cc:197 about/konq_aboutpage.cc:275
+#: about/konq_aboutpage.cc:356
+msgid "<img width='16' height='16' src=\"%1\">"
+msgstr ""
+
+#: about/konq_aboutpage.cc:198
+msgid "Next: Tips &amp; Tricks"
+msgstr ""
+
+#: about/konq_aboutpage.cc:224
+msgid "Launch"
+msgstr ""
+
+#: about/konq_aboutpage.cc:229
 msgid ""
 "Konqueror is designed to embrace and support Internet standards. The aim is "
 "to fully implement the officially sanctioned standards from organizations "
@@ -2290,19 +2388,19 @@ msgstr ""
 "বুকমার্ক</A> ইত্যাদির জন্য "
 "কনকরার-এ রয়েছে:"
 
-#: about/konq_aboutpage.cc:153
-msgid "W E B B R O W S I N G"
-msgstr "ও য়ে ব ব্রা উ জিং"
+#: about/konq_aboutpage.cc:236
+msgid "Web Browsing"
+msgstr ""
 
-#: about/konq_aboutpage.cc:154
+#: about/konq_aboutpage.cc:237
 msgid "Supported standards"
 msgstr "সমর্থিত স্ট্যাণ্ডার্ডসমূহ"
 
-#: about/konq_aboutpage.cc:155
+#: about/konq_aboutpage.cc:238
 msgid "Additional requirements*"
 msgstr "এর জন্য অতিরিক্ত প্রয়োজন*"
 
-#: about/konq_aboutpage.cc:156
+#: about/konq_aboutpage.cc:239
 msgid ""
 "<A HREF=\"%1\">DOM</A> (Level 1, partially Level 2) based <A "
 "HREF=\"%2\">HTML 4.01</A>"
@@ -2311,33 +2409,33 @@ msgstr ""
 " (লেভেল ১, আংশিক লেভেল ২) "
 "ভিত্তিক <A HREF=\"%2\">HTML 4.01</A>"
 
-#: about/konq_aboutpage.cc:158 about/konq_aboutpage.cc:160
-#: about/konq_aboutpage.cc:172 about/konq_aboutpage.cc:177
-#: about/konq_aboutpage.cc:179
+#: about/konq_aboutpage.cc:241 about/konq_aboutpage.cc:243
+#: about/konq_aboutpage.cc:255 about/konq_aboutpage.cc:260
+#: about/konq_aboutpage.cc:262
 msgid "built-in"
 msgstr "অন্তর্ভুক্ত"
 
-#: about/konq_aboutpage.cc:159
+#: about/konq_aboutpage.cc:242
 msgid "<A HREF=\"%1\">Cascading Style Sheets</A> (CSS 1, partially CSS 2)"
 msgstr ""
 "<A HREF=\"%1\">ক্যাসকেডিং স্টাইল "
 "শিটস</A> (CSS ১, আংশিক CSS ২)"
 
-#: about/konq_aboutpage.cc:161
+#: about/konq_aboutpage.cc:244
 msgid "<A HREF=\"%1\">ECMA-262</A> Edition 3 (roughly equals JavaScript 1.5)"
 msgstr ""
 "<A HREF=\"%1\">ECMA-262</A> তৃতীয় সংস্করণ "
 "(জাভাস্ক্রিপ্ট ১.৫-এর "
 "সমতুল্য)"
 
-#: about/konq_aboutpage.cc:162
+#: about/konq_aboutpage.cc:245
 msgid "JavaScript disabled (globally). Enable JavaScript <A HREF=\"%1\">here</A>."
 msgstr ""
 "জাভাস্ক্রিপ্ট (সর্বত্র) "
 "নিষ্ক্রিয়। <A HREF=\"%1\">এখানে</A> "
 "জাভাস্ক্রিপ্ট সক্রিয় করুন।"
 
-#: about/konq_aboutpage.cc:163
+#: about/konq_aboutpage.cc:246
 msgid ""
 "JavaScript enabled (globally). Configure JavaScript <A "
 "HREF=\\\"%1\\\">here</A>."
@@ -2346,13 +2444,13 @@ msgstr ""
 "সক্রিয়। <A HREF=\"%1\">এখানে</A> "
 "জাভাস্ক্রিপ্ট কনফিগার করো।"
 
-#: about/konq_aboutpage.cc:164
+#: about/konq_aboutpage.cc:247
 msgid "Secure <A HREF=\"%1\">Java</A><SUP>&reg;</SUP> support"
 msgstr ""
 "নিরাপদ <A HREF=\"%1\">জাভা</A><SUP>&reg;</SUP> "
 "সাপোর্ট"
 
-#: about/konq_aboutpage.cc:165
+#: about/konq_aboutpage.cc:248
 msgid ""
 "JDK 1.2.0 (Java 2) compatible VM (<A HREF=\"%1\">Blackdown</A>, <A "
 "HREF=\"%2\">IBM</A> or <A HREF=\"%3\">Sun</A>)"
@@ -2362,13 +2460,13 @@ msgstr ""
 "HREF=\"%2\">আই-বি-এম</A> অথবা <A "
 "HREF=\"%3\">সান</A>)"
 
-#: about/konq_aboutpage.cc:167
+#: about/konq_aboutpage.cc:250
 msgid "Enable Java (globally) <A HREF=\"%1\">here</A>."
 msgstr ""
 "<A HREF=\"%1\">এখানে</A> জাভা (সর্বত্র) "
 "সক্রিয় করুন।"
 
-#: about/konq_aboutpage.cc:168
+#: about/konq_aboutpage.cc:251
 msgid ""
 "Netscape Communicator<SUP>&reg;</SUP> <A HREF=\"%4\">plugins</A> (for "
 "viewing <A HREF=\"%1\">Flash<SUP>&reg;</SUP></A>, <A "
@@ -2382,85 +2480,88 @@ msgstr ""
 "HREF=\"%3\">রিয়েল<SUP>&reg;</SUP></A>ভিডিও, "
 "ইত্যাদির জন্য)"
 
-#: about/konq_aboutpage.cc:173
+#: about/konq_aboutpage.cc:256
 msgid "Secure Sockets Layer"
 msgstr "সিকিওর সকেটস লেয়ার"
 
-#: about/konq_aboutpage.cc:174
+#: about/konq_aboutpage.cc:257
 msgid "(TLS/SSL v2/3) for secure communications up to 168bit"
 msgstr ""
 "(TLS/SSL v2/3) ১৬৮ বিট পর্যন্ত নিরাপদ "
 "যোগাযোগ ব্যবস্থার জন্য "
 
-#: about/konq_aboutpage.cc:175
+#: about/konq_aboutpage.cc:258
 msgid "OpenSSL"
 msgstr "ওপেন-এস.এস.এল."
 
-#: about/konq_aboutpage.cc:176
+#: about/konq_aboutpage.cc:259
 msgid "Bidirectional 16bit unicode support"
 msgstr "Bidirectional ১৬বিট ইউনিকোড"
 
-#: about/konq_aboutpage.cc:178
+#: about/konq_aboutpage.cc:261
 msgid "AutoCompletion for forms"
 msgstr "ফর্মের স্বয়ংক্রিয় পরিপূরণ"
 
-#: about/konq_aboutpage.cc:180
+#: about/konq_aboutpage.cc:263
 msgid "G E N E R A L"
 msgstr "সা ধা র ণ"
 
-#: about/konq_aboutpage.cc:181
+#: about/konq_aboutpage.cc:264
 msgid "Feature"
 msgstr "বৈশিষ্ট্য"
 
-#: about/konq_aboutpage.cc:183
+#: about/konq_aboutpage.cc:266
 msgid "Image formats"
 msgstr "চিত্র ফর্ম্যাট"
 
-#: about/konq_aboutpage.cc:184
+#: about/konq_aboutpage.cc:267
 msgid "Transfer protocols"
 msgstr "ট্রান্সফার প্রোটোকল"
 
-#: about/konq_aboutpage.cc:185
+#: about/konq_aboutpage.cc:268
 msgid "HTTP 1.1 (including gzip/bzip2 compression)"
 msgstr "HTTP 1.1 (gzip/bzip2 কমপ্রেশন সমেত)"
 
-#: about/konq_aboutpage.cc:186
+#: about/konq_aboutpage.cc:269
 msgid "FTP"
 msgstr "এফ-টি-পি"
 
-#: about/konq_aboutpage.cc:187
+#: about/konq_aboutpage.cc:270
 msgid "and <A HREF=\"%1\">many more...</A>"
 msgstr "এবং <A HREF=\"%1\">আরো অনেক কিছু...</A>"
 
-#: about/konq_aboutpage.cc:188
+#: about/konq_aboutpage.cc:271
 msgid "URL-Completion"
 msgstr "ইউ-আর-এল পরিপূরণ"
 
-#: about/konq_aboutpage.cc:189
+#: about/konq_aboutpage.cc:272
 msgid "Manual"
 msgstr "নিজে হাতে"
 
-#: about/konq_aboutpage.cc:190
+#: about/konq_aboutpage.cc:273
 msgid "Popup"
 msgstr "পপ্-আপ"
 
-#: about/konq_aboutpage.cc:191
+#: about/konq_aboutpage.cc:274
 msgid "(Short-) Automatic"
 msgstr "(সংক্ষিপ্ত-) স্বয়ংক্রিয়"
 
-#: about/konq_aboutpage.cc:192
-msgid "<A HREF=\"%1\">Back</A> to the Introduction"
+#: about/konq_aboutpage.cc:276
+msgid "<a href=\"%1\">Return to Starting Points</a>"
 msgstr ""
-"<A HREF=\"%1\">পরিচয়</A> পৃষ্ঠায় ফিরে "
-"যান"
 
-#: about/konq_aboutpage.cc:232
+#: about/konq_aboutpage.cc:321
+msgid "Tips &amp; Tricks"
+msgstr ""
+
+#: about/konq_aboutpage.cc:322
+#, fuzzy
 msgid ""
-"Use Internet-Keywords and Web-Shortcuts! By typing \"gg: KDE\" one can "
+"Use Internet-Keywords and Web-Shortcuts: by typing \"gg: KDE\" one can "
 "search the Internet, using Google, for the search phrase \"KDE\". There are "
 "a lot of Web-Shortcuts predefined to make searching for software or looking "
-"up certain words in an encyclopedia a breeze. You can even <A "
-"HREF=\"%1\">create your own</A> Web-Shortcuts!"
+"up certain words in an encyclopedia a breeze. You can even <a "
+"href=\"%1\">create your own</a> Web-Shortcuts."
 msgstr ""
 "ইন্টারনেট-কীওয়ার্ড এবং ওয়েব "
 "শর্টকাট ব্যবহার করুন। যেমন, "
@@ -2472,27 +2573,29 @@ msgstr ""
 "ইচ্ছা করলে আরো শর্টকাট আপনি <A "
 "HREF=\"%1\">নিজে তৈরি করতে পারেন</A>!"
 
-#: about/konq_aboutpage.cc:237
+#: about/konq_aboutpage.cc:327
+#, fuzzy
 msgid ""
-"Use the magnifier button <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the "
+"Use the magnifier button <img width='16' height='16' src=\"%1\"> in the "
 "toolbar to increase the font size on your web page."
 msgstr ""
 "টুলবারে ম্যাগনিফায়ার বাটন <IMG "
 "WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; ব্যবহার করে "
 "ফন্টের মাপ রদবদল করুন।"
 
-#: about/konq_aboutpage.cc:239
+#: about/konq_aboutpage.cc:329
+#, fuzzy
 msgid ""
 "When you want to paste a new address into the Location toolbar you might "
 "want to clear the current entry by pressing the black arrow with the white "
-"cross &nbsp;<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; in the toolbar."
+"cross <img width='16' height='16' src=\"%1\"> in the toolbar."
 msgstr ""
 "অবস্থান টুলবারে কোন নতুন "
 "ঠিকানা লেখার আগে &nbsp;<IMG WIDTH=16 HEIGHT=16 "
 "SRC=\"%1\">&nbsp; বাটনটি চেপে বর্তমান "
 "লেখাটি মুছে ফেলতে পারেন।"
 
-#: about/konq_aboutpage.cc:243
+#: about/konq_aboutpage.cc:333
 msgid ""
 "To create a link on your desktop pointing to the current page, simply drag "
 "the \"Location\" label that is to the left of the Location toolbar, drop it "
@@ -2502,29 +2605,31 @@ msgstr ""
 "পাতাটির জন্য একটি লিঙ্ক তৈরি "
 "করতে হলে, অবস্থান টুলবার-এর "
 "বাঁদিক থেকে \"অবস্থান\" "
-"লেবেল-টি টেনে (ড্র্যাগ করে) এনে "
-"আপনার ডেস্কটপে ফেলুন "
-"(ড্রপ করুন), তারপর "
-"\"লিঙ্ক\" বেছে নিন।"
+"লেবেল-টি টেনে (ড্র্যাগ করে) "
+"এনে আপনার ডেস্কটপে ফেলুন "
+"(ড্রপ করুন), তারপর \"লিঙ্ক\" "
+"বেছে নিন।"
 
-#: about/konq_aboutpage.cc:246
+#: about/konq_aboutpage.cc:336
+#, fuzzy
 msgid ""
-"You can also find <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; \"Full-Screen "
-"Mode\" in the Window menu. This feature is very useful for \"Talk\" sessions."
+"You can also find <img width='16' height='16' src=\"%1\"> \"Full-Screen "
+"Mode\" in the Settings menu. This feature is very useful for \"Talk\" "
+"sessions."
 msgstr ""
 "সেটিংস মেনুতে পাবেন <IMG WIDTH=16 "
 "HEIGHT=16 SRC=\"%1\">&nbsp; \"ফুল স্ক্রীণ মোড\", "
 "যা বিশেষ কাজে লাগে \"Talk\" "
 "সেশন-এর জন্য।"
 
-#: about/konq_aboutpage.cc:249
+#: about/konq_aboutpage.cc:339
 #, fuzzy
 msgid ""
 "Divide et impera (lat. \"Divide and conquer\") - by splitting a window into "
-"two parts (e.g. Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Split "
-"View Left/Right) you can make Konqueror appear the way you like. You can "
-"even load some example view-profiles (e.g. Midnight Commander), or create "
-"your own ones."
+"two parts (e.g. Window -> <img width='16' height='16' src=\"%1\">"
+" Split View Left/Right) you can make Konqueror appear the way you like. You "
+"can even load some example view-profiles (e.g. Midnight Commander), or "
+"create your own ones."
 msgstr ""
 "এবং   একটি উইণ্ডো মধ্যে দুই e "
 "উইন্ডো<IMG WIDTH=16 HEIGHT=16 SRC=\"%1\">&nbsp; "
@@ -2535,25 +2640,26 @@ msgstr ""
 "দেখা, দর্শন e অথবা তৈরি করা "
 "আপনার."
 
-#: about/konq_aboutpage.cc:254
+#: about/konq_aboutpage.cc:344
+#, fuzzy
 msgid ""
-"Use the <A HREF=\"%1\">user-agent</A> feature if the website you are "
+"Use the <a href=\"%1\">user-agent</a> feature if the website you are "
 "visiting asks you to use a different browser (and do not forget to send a "
 "complaint to the webmaster!)"
 msgstr ""
 "যদি কোন ওয়েবসাইট আপনাকে অন্য "
 "কোন ব্রাউজার ব্যবহার করতে "
-"বলে, তাহলে "
-"<A HREF=\"%1\">user-agent</A> "
+"বলে, তাহলে <A HREF=\"%1\">user-agent</A> "
 "ফিচার-টি ব্যবহার করে দেখতে "
 "পারেন (তবে সেই সাইটের "
 "ওয়েবমাস্টার-এর কাছে অভিযোগ "
 "করতে ভুলবেন না যেন!)"
 
-#: about/konq_aboutpage.cc:257
+#: about/konq_aboutpage.cc:347
+#, fuzzy
 msgid ""
-"The <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; History in your SideBar "
-"ensures that you can keep track of the pages you have visited recently."
+"The <img width='16' height='16' src=\"%1\"> History in your SideBar ensures "
+"that you can keep track of the pages you have visited recently."
 msgstr ""
 "আপনার সাইডবারের <IMG WIDTH=16 HEIGHT=16 "
 "SRC=\"%1\">&nbsp; ইতিহাস তালিকার "
@@ -2561,30 +2667,32 @@ msgstr ""
 "করা অবস্থানগুলি খেয়াল রাখতে "
 "পারবেন।"
 
-#: about/konq_aboutpage.cc:259
-msgid "Use a caching <A HREF=\"%1\">proxy</A> to speed up your Internet connection."
+#: about/konq_aboutpage.cc:349
+#, fuzzy
+msgid "Use a caching <a href=\"%1\">proxy</a> to speed up your Internet connection."
 msgstr ""
 "আপনার ইন্টারনেট কানেকশনের "
 "গতিবর্ধন করতে একটি ক্যাশে <A "
 "HREF=\"%1\">প্রক্সি</A> ব্যবহার করুন।  "
 
-#: about/konq_aboutpage.cc:261
+#: about/konq_aboutpage.cc:351
+#, fuzzy
 msgid ""
 "Advanced users will appreciate the Konsole which you can embed into "
-"Konqueror (Window -> <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; Show "
-"Terminal Emulator)."
+"Konqueror (Window -> <img width='16' height='16' SRC=\"%1\"> Show Terminal "
+"Emulator)."
 msgstr ""
 "অগ্রসর ব্যবহারকারীদের জন্য "
 "রয়েছে কনকরার-এর মধ্যে "
 "কনসোল-কে অন্তর্ভুক্ত করার "
-"ক্ষমতা (উইন্ডো -> <IMG "
-"WIDTH=16 HEIGHT=16 "
-"SRC=\"%1\">&nbsp; "
-"টার্মিনাল এমুলেটর দেখাও)."
+"ক্ষমতা (উইন্ডো -> <IMG WIDTH=16 HEIGHT=16 "
+"SRC=\"%1\">&nbsp; টার্মিনাল এমুলেটর "
+"দেখাও)."
 
-#: about/konq_aboutpage.cc:264
+#: about/konq_aboutpage.cc:354
+#, fuzzy
 msgid ""
-"Thanks to <A HREF=\"%1\">DCOP</A> you can have full control over Konqueror "
+"Thanks to <a href=\"%1\">DCOP</a> you can have full control over Konqueror "
 "using a script."
 msgstr ""
 "<A HREF=\"%1\">DCOP</A>-এর সাহায্যে আপনি "
@@ -2592,21 +2700,26 @@ msgstr ""
 "করে কনকরার-এর উপর পূর্ণ "
 "নিয়ন্ত্রণ পেতে পারেন। "
 
-#: about/konq_aboutpage.cc:282
+#: about/konq_aboutpage.cc:357
+#, fuzzy
+msgid "Next: Specifications"
+msgstr "বিবরণী"
+
+#: about/konq_aboutpage.cc:373
 msgid "Installed Plugins"
 msgstr "ইনস্টল করা প্লাগ-ইন"
 
-#: about/konq_aboutpage.cc:283
+#: about/konq_aboutpage.cc:374
 msgid "<td>Plugin</td><td>Description</td><td>File</td><td>Types</td>"
 msgstr ""
 "<td>প্লাগ-ইন</td>"
 "<td>বর্ণনা</td><td>ফাইল</td><td>ধরন</td>"
 
-#: about/konq_aboutpage.cc:284
+#: about/konq_aboutpage.cc:375
 msgid "Installed"
 msgstr "ইনস্টল করা"
 
-#: about/konq_aboutpage.cc:285
+#: about/konq_aboutpage.cc:376
 msgid "<td>Mime Type</td><td>Description</td><td>Suffixes</td><td>Plugin</td>"
 msgstr ""
 "<td>মাইম "
@@ -2614,14 +2727,14 @@ msgstr ""
 "<td>বর্ণনা</td>"
 "<td>সাফিক্স</td><td>প্লাগ-ইন</td>"
 
-#: about/konq_aboutpage.cc:385
+#: about/konq_aboutpage.cc:482
 msgid "Do you want to disable showing the introduction in the webbrowsing profile?"
 msgstr ""
 "আপনি কি ওয়েব ব্রাউজিং "
 "প্রোফাইলে পরিচয় পৃষ্ঠাটি "
 "দেখানো বন্ধ করে দিতে চান?"
 
-#: about/konq_aboutpage.cc:387
+#: about/konq_aboutpage.cc:484
 msgid "Faster Startup?"
 msgstr "দ্রুততর শুরু?"
 
@@ -2799,6 +2912,10 @@ msgstr "বুকমার্ক মোছা"
 msgid "Bookmark Properties"
 msgstr "বুকমার্ক বৈশিষ্ট্যাবলী"
 
+#: sidebar/trees/konq_sidebartree.cpp:909
+msgid "&Create New Folder..."
+msgstr "&নতুন ফোল্ডার"
+
 #: sidebar/trees/konq_sidebartree.cpp:915
 msgid "Delete Link"
 msgstr "লিঙ্ক মুছে ফেলো"
@@ -2935,7 +3052,7 @@ msgstr " মিনিট"
 msgid " seconds"
 msgstr " সেকণ্ড"
 
-#: sidebar/konqsidebar.cpp:116
+#: sidebar/konqsidebar.cpp:118
 msgid "Extended Sidebar"
 msgstr "বিস্তৃত সাইডবার"
 
@@ -2965,3 +3082,28 @@ msgid ""
 "Your emails"
 msgstr "deepayan@bengalinux.org"
 
+#~ msgid "Welcome to Konqueror %1."
+#~ msgstr "কনকরার %1-এ স্বাগতম"
+
+#, fuzzy
+#~ msgid "Remote Folders"
+#~ msgstr "ফোল্ডার মুছে ফেলো"
+
+#~ msgid "With Konqueror you have your filesystem at your command, browsing local or networked drives with equal ease. Thanks to the component technology used throughout KDE, Konqueror is also a full featured, easy to use and comfortable Web Browser, which you can use to explore the Internet."
+#~ msgstr "কনকরার ব্যবহার করে আপনি সহজেই আপনার ফাইল-সিস্টেমের ওপর পূর্ণ নিয়ন্ত্রণ পাবেন, সে স্থানীয় ড্রাইভ-এই হোক বা দূরবর্তী নেটওয়ার্কেই হোক। কে.ডি.ই.র সর্বত্র ব্যবহৃত কম্পোনেন্ট টেকনলজির সুবাদে কনকরার একই সঙ্গে একটি পূর্ণাঙ্গ ওয়েব ব্রাউজারও বটে, যার সাহায্যে আপনি সহজেই ইন্টারনেটে ভ্রমণ করতে পারবেন।"
+
+#, fuzzy
+#~ msgid "To go back to the home directory of your local filesystem press <img width='16' height='16' src=\"%1\"> &nbsp; (\"Home\"). "
+#~ msgstr "আপনার স্থানীয় ফাইল-সিস্টেমের ব্যক্তিগত ফোল্ডারে ফিরে যেতে হলে <IMG WIDTH=16 HEIGHT=16 SRC=\"%1\"> &nbsp; (\"Home\") চাপুন।"
+
+#~ msgid "<A HREF=\"%1\">Back</A> to the Introduction"
+#~ msgstr "<A HREF=\"%1\">পরিচয়</A> পৃষ্ঠায় ফিরে যান"
+
+#~ msgid "Please enter a term or an address to be searched on the Internet."
+#~ msgstr "ইন্টারনেটে খোঁজার জন্য কিছু কথা বা ঠিকানা লিখুন।"
+
+#~ msgid "W E B B R O W S I N G"
+#~ msgstr "ও য়ে ব ব্রা উ জিং"
+
+#~ msgid "Create &New Bookmark"
+#~ msgstr "নতুন বু&কমার্ক"
