@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcontrol\n"
-"POT-Creation-Date: 2004-03-18 09:44+0100\n"
+"POT-Creation-Date: 2004-07-20 01:20+0200\n"
 "PO-Revision-Date: 2004-06-26 14:14-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -88,6 +88,7 @@ msgid "User:"
 msgstr "ব্যবহারকারী:"
 
 #: aboutwidget.cpp:64
+#, fuzzy
 msgid "Hostname:"
 msgstr "হোস্টের নাম:"
 
@@ -107,7 +108,7 @@ msgstr "যন্ত্র:"
 msgid "<big><b>Loading...</b></big>"
 msgstr "<big><b>লোড করছি...</b></big>"
 
-#: dockcontainer.cpp:208 toplevel.cpp:325
+#: dockcontainer.cpp:208 toplevel.cpp:341
 msgid ""
 "There are unsaved changes in the active module.\n"
 "Do you want to apply the changes before running the new module or discard "
@@ -120,7 +121,7 @@ msgstr ""
 "করতে চান, না বর্তমান অবস্থাই "
 "রেখে দিতে চান? "
 
-#: dockcontainer.cpp:211 toplevel.cpp:328
+#: dockcontainer.cpp:211 toplevel.cpp:344
 msgid ""
 "There are unsaved changes in the active module.\n"
 "Do you want to apply the changes before exiting the Control Center or "
@@ -134,7 +135,7 @@ msgstr ""
 "চান, না বর্তমান অবস্থাই রেখে "
 "দিতে চান?"
 
-#: dockcontainer.cpp:214 toplevel.cpp:331
+#: dockcontainer.cpp:214 toplevel.cpp:347
 msgid "Unsaved Changes"
 msgstr "পরিবর্তন অসংরক্ষিত "
 
@@ -185,53 +186,35 @@ msgstr ""
 "href = \"kcontrol/index.html\"> এখানে</a> ক্লিক "
 "করুন। "
 
-#: kcminit.cpp:35
-msgid "List modules that are run at startup."
-msgstr "শুরু করাকালীন চালানো মডিউলগুলির তালিকা দেখাও"
-
-#: kcminit.cpp:36
-msgid "Configuration module to run."
-msgstr ""
-"যে কনফিগারেশন মডিউল চালানো "
-"হবে।"
-
-#: kcminit.cpp:63
-msgid "KCMInit"
-msgstr "KCMInit"
-
-#: kcminit.cpp:65
-msgid "KCMInit - runs startups initialization for Control Modules."
-msgstr "KCMInit - নিয়ন্ত্রণ মডিউলগুলির প্রারম্ভিক ব্যবস্থাপনা দেখাশোনা করে।"
-
-#: kcminit.cpp:109
-msgid "Module %1 not found!"
-msgstr "%1 মডিউলটি পাওয়া যায়নি!"
-
 #: kcmshell.cpp:55
 msgid "List all possible modules"
 msgstr "সবকটি মডিউলের তালিকা দেখাও"
 
 #: kcmshell.cpp:56
-msgid "Configuration module to open."
+#, fuzzy
+msgid "Configuration module to open"
 msgstr ""
 "যে কনফিগারেশন মডিউল খোলা "
 "হবে।"
 
 #: kcmshell.cpp:57
-msgid "Specify a particular language."
+#, fuzzy
+msgid "Specify a particular language"
 msgstr "একটি ভাষা বেছে নিন।"
 
 #: kcmshell.cpp:58
-msgid "Window ID to embed into."
+#, fuzzy
+msgid "Window ID to embed into"
 msgstr ""
 "যে উইনডোতে এমবেড করা হবে তার "
 "আই.ডি.।"
 
 #: kcmshell.cpp:59
-msgid "Do not display main window."
+#, fuzzy
+msgid "Do not display main window"
 msgstr "মূল উইনডো দেখিও না।"
 
-#: kcmshell.cpp:146 kcmshell.cpp:233
+#: kcmshell.cpp:146 kcmshell.cpp:236
 msgid "KDE Control Module"
 msgstr "কে.ডি.ই নিয়ন্ত্রণ মডিউল"
 
@@ -245,15 +228,15 @@ msgstr ""
 msgid "Current Maintainer"
 msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
 
-#: kcmshell.cpp:170
+#: kcmshell.cpp:173
 msgid "The following modules are available:"
 msgstr "এই মডিউলগুলি পাওয়া গেছে:"
 
-#: kcmshell.cpp:191
+#: kcmshell.cpp:194
 msgid "No description available"
 msgstr "কোনো বর্ণনা পাওয়া যাচ্ছে না"
 
-#: kcmshell.cpp:239 kcmshell.cpp:311
+#: kcmshell.cpp:242 kcmshell.cpp:317
 #, c-format
 msgid "Configure - %1"
 msgstr "%1 - কনফিগার করো"
@@ -273,7 +256,8 @@ msgid "The KDE Control Center"
 msgstr "কে.ডি.ই নিয়ন্ত্রণ কেন্দ্র"
 
 #: main.cpp:93 main.cpp:97
-msgid "(c) 1998-2002, The KDE Control Center Developers"
+#, fuzzy
+msgid "(c) 1998-2004, The KDE Control Center Developers"
 msgstr ""
 "(c) ১৯৯৮-২০০২, কে.ডি.ই নিয়ন্ত্রণ "
 "কেন্দ্র ডেভেলপারবৃন্দ"
@@ -321,11 +305,12 @@ msgstr ""
 "বাটনটি ক্লিক করুন। "
 
 #: proxywidget.cpp:92
+#, fuzzy
 msgid ""
 "This module requires special permissions, probably for system-wide "
-"modifications. Therefore it is required that you provide the root password "
-"to be able to change the modules properties. As long as you don't provide "
-"the password, the module will be disabled."
+"modifications; therefore, it is required that you provide the root password "
+"to be able to change the module's properties.  If you do not provide the "
+"password, the module will be disabled."
 msgstr ""
 "এই মডিউলটি চালাতে বিশেষ "
 "অনুমতির প্রয়োজন, সম্ভবত এই "
@@ -345,11 +330,13 @@ msgstr "পূর্বাবস্থা&য় ফেরাও"
 msgid "&Administrator Mode"
 msgstr "অ্যা&ডমিনস্ট্রেটর মোড"
 
-#: rc.cpp:2 rc.cpp:5
+#: rc.cpp:4 rc.cpp:10
+#, no-c-format
 msgid "&Mode"
 msgstr "মো&ড"
 
-#: rc.cpp:3 rc.cpp:6
+#: rc.cpp:6 rc.cpp:12
+#, no-c-format
 msgid "Icon &Size"
 msgstr "আইক&ন মাপ"
 
@@ -365,62 +352,80 @@ msgstr "প্রধা&ন শব্দ:"
 msgid "&Results:"
 msgstr "&ফলাফল:"
 
-#: toplevel.cpp:83
+#: toplevel.cpp:84
 msgid "Choose between Index, Search and Quick Help"
 msgstr ""
 "সূচি, সন্ধান এবং সাহায্যের "
 "মধ্যে বেছে নিন"
 
-#: toplevel.cpp:89
+#: toplevel.cpp:90
 msgid "&Index"
 msgstr "সূচি (&চ)"
 
-#: toplevel.cpp:100
+#: toplevel.cpp:101
 msgid "Sear&ch"
 msgstr "সন্ধান (&স)"
 
-#: toplevel.cpp:104
+#: toplevel.cpp:105
 msgid "Hel&p"
 msgstr "সাহায্য (&হ)"
 
-#: toplevel.cpp:201
+#: toplevel.cpp:206
 msgid "&Icon View"
 msgstr "আইক&ন হিসেবে দেখাও"
 
-#: toplevel.cpp:206
+#: toplevel.cpp:211
 msgid "&Tree View"
 msgstr "শাখা-প্রশাখার &মত দেখাও"
 
-#: toplevel.cpp:211
+#: toplevel.cpp:216
 msgid "&Small"
 msgstr "ছোটো (&ছ)"
 
-#: toplevel.cpp:216
+#: toplevel.cpp:221
 msgid "&Medium"
 msgstr "মাঝারি (&ম)"
 
-#: toplevel.cpp:221
+#: toplevel.cpp:226
 msgid "&Large"
 msgstr "বড় (&ব)"
 
-#: toplevel.cpp:225 toplevel.cpp:341 toplevel.cpp:395
+#: toplevel.cpp:231
+msgid "&Huge"
+msgstr ""
+
+#: toplevel.cpp:235 toplevel.cpp:357 toplevel.cpp:411
 msgid "About Current Module"
 msgstr "সক্রিয় মডিউল সম্বন্ধে"
 
-#: toplevel.cpp:236 toplevel.cpp:306
+#: toplevel.cpp:246 toplevel.cpp:322
 msgid "&Report Bug..."
 msgstr "বা&গ রিপোর্ট..."
 
-#: toplevel.cpp:308
+#: toplevel.cpp:324
 msgid "Report Bug on Module %1..."
 msgstr ""
 "%1 মডিউল সম্বন্ধে বাগ "
 "রিপোর্ট..."
 
-#: toplevel.cpp:388
+#: toplevel.cpp:404
 #, c-format
 msgid ""
 "_: Help menu->about <modulename>\n"
 "About %1"
 msgstr "%1 সম্বন্ধে"
 
+#~ msgid "List modules that are run at startup."
+#~ msgstr "শুরু করাকালীন চালানো মডিউলগুলির তালিকা দেখাও"
+
+#~ msgid "Configuration module to run."
+#~ msgstr "যে কনফিগারেশন মডিউল চালানো হবে।"
+
+#~ msgid "KCMInit"
+#~ msgstr "KCMInit"
+
+#~ msgid "KCMInit - runs startups initialization for Control Modules."
+#~ msgstr "KCMInit - নিয়ন্ত্রণ মডিউলগুলির প্রারম্ভিক ব্যবস্থাপনা দেখাশোনা করে।"
+
+#~ msgid "Module %1 not found!"
+#~ msgstr "%1 মডিউলটি পাওয়া যায়নি!"

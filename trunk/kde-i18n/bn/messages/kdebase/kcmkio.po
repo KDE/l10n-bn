@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
-"POT-Creation-Date: 2004-05-07 09:53+0200\n"
+"POT-Creation-Date: 2004-07-20 01:20+0200\n"
 "PO-Revision-Date: 2004-06-26 19:56-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -269,14 +269,14 @@ msgstr ""
 msgid "Variable Proxy Configuration"
 msgstr "ভেরিয়েবল প্রক্সি কনফিগারেশন"
 
-#: kenvvarproxydlg.cpp:135 kenvvarproxydlg.cpp:315
+#: kenvvarproxydlg.cpp:135 kenvvarproxydlg.cpp:306
 msgid "You must specify at least one valid proxy environment variable."
 msgstr ""
 "আপনাকে অন্তত একটি  বৈধ "
 "প্রক্সি এনভায়রনমেন্ট  "
 "ভেরিয়েবল উল্লেখ করতে হবে"
 
-#: kenvvarproxydlg.cpp:138 kenvvarproxydlg.cpp:318
+#: kenvvarproxydlg.cpp:138 kenvvarproxydlg.cpp:309
 msgid ""
 "<qt>Make sure you entered the actual environment variable name rather than "
 "its value. For example, if the environment variable is "
@@ -293,8 +293,7 @@ msgstr ""
 "<br> তাহলে এখানে আপনাকে  লিখতে "
 "হবে <b>HTTP_PROXY</b>,  http://localhost:3128 নয়।</qt>"
 
-#: kenvvarproxydlg.cpp:146 kenvvarproxydlg.cpp:326 kmanualproxydlg.cpp:328
-#: kproxydlg.cpp:227 kproxydlg.cpp:258 kproxydlg.cpp:277
+#: kenvvarproxydlg.cpp:146 kenvvarproxydlg.cpp:317 kproxydlg.cpp:380
 msgid "Invalid Proxy Setup"
 msgstr "অবৈধ প্রক্সি ব্যবস্থা"
 
@@ -347,55 +346,87 @@ msgstr ""
 "নিজে হাতে প্রক্সি "
 "কনফিগারেশন"
 
-#: kmanualproxydlg.cpp:321
-msgid "You must specify at least one valid proxy address."
-msgstr ""
-"আপনাকে অন্তত একটি  বৈধ "
-"প্রক্সি অ্যাড্রেস  উল্লেখ "
-"করতে হবে"
+#: kmanualproxydlg.cpp:271
+#, fuzzy
+msgid "Invalid Proxy Setting"
+msgstr "অবৈধ প্রক্সি ব্যবস্থা"
 
-#: kmanualproxydlg.cpp:323
+#: kmanualproxydlg.cpp:272
 msgid ""
-"<qt>Make sure that you have specified at least one valid proxy address, eg. "
-"<b>http://192.168.1.20</b>.</qt>"
+"One or more of the specified proxy settings are invalid. The incorrect "
+"entries are highlighted."
 msgstr ""
-"<qt>"
-" নিশ্চিত করুন যে  আপনি অন্তত "
-"একটি বৈধ প্রক্সি অ্যাড্রেস "
-"উল্লেখ করেছেন, উদাহরণস্বরূপ  "
-" <b>http://192.168.1.20</b></qt>"
 
-#: kmanualproxydlg.cpp:397
-msgid "<qt><center><b>%1</b><br/>already exists!"
+#: kmanualproxydlg.cpp:343
+msgid "You entered a duplicate address. Please try again."
+msgstr ""
+
+#: kmanualproxydlg.cpp:345
+#, fuzzy
+msgid "<qt><center><b>%1</b></center> is already in the list.</qt>"
 msgstr "<qt><center><b>%1</b><br/>আগে থেকেই আছে!"
 
-#: kmanualproxydlg.cpp:399
-msgid "Duplicate Exception"
-msgstr "ডুপ্লিকেট এক্সেপশন"
+#: kmanualproxydlg.cpp:347
+#, fuzzy
+msgid "Duplicate Entry"
+msgstr "ডুপলিকেট পলিসি"
 
-#: kmanualproxydlg.cpp:414 kmanualproxydlg.cpp:452
-msgid "Enter the address or URL for which the above proxy server should be used:"
+#: kmanualproxydlg.cpp:359
+msgid "New Exception"
+msgstr "নতুন এক্সেপশন"
+
+#: kmanualproxydlg.cpp:366
+msgid "Change Exception"
+msgstr "এক্সেপশন বদলাও"
+
+#: kmanualproxydlg.cpp:442
+#, fuzzy
+msgid "Invalid Entry"
+msgstr "অবৈধ প্রক্সি ব্যবস্থা"
+
+#: kmanualproxydlg.cpp:445
+msgid "The address you have entered is not valid."
 msgstr ""
-"যে ঠিকানা বা ইউ-আর-এল জন্য "
-"উপরোক্ত প্রক্সি সার্ভার-টি "
-"ব্যবহৃত হবে:"
 
-#: kmanualproxydlg.cpp:417 kmanualproxydlg.cpp:455
+#: kmanualproxydlg.cpp:447
 msgid ""
-"Enter the address or URL that should be excluded from using the above proxy "
-"server:"
+"<qt>"
+"Make sure none of the addresses or URLs you specified contain invalid or "
+"wildcard characters such as spaces, asteriks(*) or question "
+"marks(?)."
+"<p><u>Examples of VALID entries:</u>"
+"<br/><code>http://mycompany.com, 192.168.10.1, mycompany,com, localhost, "
+"http://localhost</code>"
+"<p><u>Examples of INVALID entries:</u>"
+"<br/><code>http://my company.com, http:/mycompany,com file:/localhost</code>"
+msgstr ""
+
+#: kmanualproxydlg.cpp:468
+#, fuzzy
+msgid "Enter the URL or address that should use the above proxy settings:"
 msgstr ""
 "যে ঠিকানা বা ইউ-আর-এল জন্য "
 "উপরোক্ত প্রক্সি সার্ভার-টি "
 "ব্যবহার করা হবে না:"
 
-#: kmanualproxydlg.cpp:420
-msgid "New Exception"
-msgstr "নতুন এক্সেপশন"
+#: kmanualproxydlg.cpp:471
+#, fuzzy
+msgid ""
+"Enter the address or URL that should be excluded from using the above proxy "
+"settings:"
+msgstr ""
+"যে ঠিকানা বা ইউ-আর-এল জন্য "
+"উপরোক্ত প্রক্সি সার্ভার-টি "
+"ব্যবহার করা হবে না:"
 
-#: kmanualproxydlg.cpp:459
-msgid "Change Exception"
-msgstr "এক্সেপশন বদলাও"
+#: kmanualproxydlg.cpp:474
+msgid ""
+"<qt>Enter a valid address or url."
+"<p><b><u>NOTE:</u></b> Wildcard matching such as <code>*.kde.org</code> is "
+"not supported. If you want to match any host in the <code>.kde.org</code> "
+"domain, e.g. <code>printing.kde.org</code>, then simply enter "
+"<code>.kde.org</code></qt>"
+msgstr ""
 
 #: kproxydlg.cpp:53
 msgid "&Proxy"
@@ -406,10 +437,11 @@ msgid "&SOCKS"
 msgstr "&সক্স (SOCKS)"
 
 #: kproxydlg.cpp:222
+#, fuzzy
 msgid ""
-"<qt>The address of the automatic proxy configuration script is invalid! "
-"Please correct this problem before proceeding. Otherwise the changes you "
-"made will be ignored!</qt>"
+"The address of the automatic proxy configuration script is invalid. Please "
+"correct this problem before proceeding. Otherwise, your changes you will be "
+"ignored."
 msgstr ""
 "<qt> স্বয়ংক্রীয় প্রক্সি "
 "কনফিগারেশন স্ক্রিপ্ট-এর  "
@@ -418,11 +450,26 @@ msgstr ""
 "করুন। না হলে আপনার করা কোন "
 "পরিবর্তন  কার্যকরী হবে না।</qt>"
 
-#: kproxydlg.cpp:252 kproxydlg.cpp:271
+#: kproxydlg.cpp:356
 msgid ""
-"<qt>Proxy information was not setup properly! Please click on the "
-"<em>Setup...</em> button to correct this problem before proceeding. "
-"Otherwise the changes you made will be ignored!</qt>"
+"<h1>Proxy</h1>"
+"<p>A proxy server is an intermediate program that sits between your machine "
+"and the Internet and provides services such as web page caching and/or "
+"filtering."
+"<p>Caching proxy servers give you faster access to sites you have already "
+"visited by locally storing or caching the content of those pages. Filtering "
+"proxy servers on the other hand provide the abiltiy to block out requests "
+"for ads, spam or anything else you want block."
+"<p><u>Note:</u>Some proxy servers provide both services."
+msgstr ""
+
+#: kproxydlg.cpp:375
+#, fuzzy
+msgid ""
+"<qt>The proxy settings you specified are invalid."
+"<p>Please click on the <b>Setup...</b>"
+" button and correct the problem before proceeding; otherwise your changes "
+"will be ignored.</qt>"
 msgstr ""
 "<qt>প্রক্সি ব্যবস্থাপনা "
 "সঠিকভাবে চালু করা হয়নি!  "
@@ -431,27 +478,6 @@ msgstr ""
 "সমাধান করুন।  না হলে আপনার "
 "করা কোন পরিবর্তন কার্যকরী "
 "হবে না!</qt>"
-
-#: kproxydlg.cpp:320
-msgid ""
-"<h1>Proxy</h1>"
-"<p>This module lets you configure your proxy settings.</p>"
-"<p>"
-"A proxy is a program on another computer that receives requests from your "
-"machine to access a certain web page (or other Internet resources), "
-"retrieves the page and sends it back to you.</p>"
-msgstr ""
-"<h1>প্রক্সি</h1>"
-"<p>এই মডিউলটি আপনার প্রক্সি "
-"সেটিংস কনফিগার করতে সাহায্য "
-"করে</p>"
-"<p>প্রক্সি হচ্ছে এমন একটি "
-"প্রোগ্রাম, যা অন্য একটি "
-"কমপিউটারে চলে, এবং আপনার "
-"কমপিউটারের চাহিদা অনুযায়ী "
-"ইন্টারনেট থেকে ওয়েব-পেজ "
-"ইত্যাদি নামিয়ে আপনার  "
-"কমপিউটারকে ফেরত পাঠায়।</p>"
 
 #: ksaveioconfig.cpp:239 ksaveioconfig.cpp:253
 msgid "Update Failed"
@@ -577,6 +603,7 @@ msgid "&Login:"
 msgstr "&লগ-ইন:"
 
 #: ksmboptdlg.cpp:154
+#, fuzzy
 msgid "Enter your username on the SMB server here."
 msgstr ""
 "এখানে SMB সার্ভারে আপনার username "
@@ -592,7 +619,8 @@ msgstr ""
 "এখানে SMB সার্ভারে আপনার "
 "পাসওয়ার্ড লিখুন"
 
-#: ksmboptdlg.cpp:171 rc.cpp:149
+#: ksmboptdlg.cpp:171 rc.cpp:374
+#, no-c-format
 msgid "&Add"
 msgstr "যো&গ করো"
 
@@ -647,7 +675,8 @@ msgstr ""
 "এই  অপশনটি বেছে  নিন।"
 
 #: ksmboptdlg.cpp:210
-msgid "Don't s&tore new bindings"
+#, fuzzy
+msgid "Do not s&tore new bindings"
 msgstr "নতুন বা&ইণ্ডিং মনে রেখো না"
 
 #: ksmboptdlg.cpp:213
@@ -730,13 +759,9 @@ msgstr "&উইণ্ডোস শেয়ার"
 msgid "&LISa Daemon"
 msgstr "&LISa ডিমন"
 
-#: main.cpp:98
-msgid "R&esLISa Daemon"
-msgstr "R&esLISa ডিমন"
-
 #: main.cpp:105
-msgid "lan:/ && &rlan:/"
-msgstr "lan:/ && &rlan:/"
+msgid "lan:/ Iosla&ve"
+msgstr ""
 
 #: main.cpp:145
 #, fuzzy
@@ -878,24 +903,28 @@ msgstr ""
 "মানগুলি পরিবর্তন  করলে আপনার "
 "সুবিধা হতে পারে। "
 
-#: rc.cpp:1
+#: rc.cpp:2
+#, no-c-format
 msgid "Disk cache &size:"
 msgstr "ডিস্ক ক্যাশ-এর মা&প:"
 
-#: rc.cpp:2
+#: rc.cpp:4
+#, no-c-format
 msgid " KB"
 msgstr " কিলোবাইট"
 
-#: rc.cpp:3
+#: rc.cpp:6
+#, no-c-format
 msgid "C&lear Cache"
 msgstr "ক্যা&শ ফাঁকা করো"
 
-#: rc.cpp:4
+#: rc.cpp:8
+#, no-c-format
 msgid "&Use cache"
 msgstr "ক্যাশ ব্য&বহার করো"
 
-#: rc.cpp:5
-#, fuzzy
+#: rc.cpp:10
+#, fuzzy, no-c-format
 msgid ""
 "Check this box if you want the web pages you visit to be stored on your hard "
 "disk for quicker access. The stored pages will only be updated as needed "
@@ -909,51 +938,63 @@ msgstr ""
 "আছে কাজের যদি আপনি একটি "
 "যোগাযোগ   টি."
 
-#: rc.cpp:6 rc.cpp:64
+#: rc.cpp:12 rc.cpp:172
+#, no-c-format
 msgid "Policy"
 msgstr "পলিসি"
 
-#: rc.cpp:7
+#: rc.cpp:14
+#, no-c-format
 msgid "&Keep cache in sync"
 msgstr "ক্যা&শ সামঞ্জস্যে রাখো"
 
-#: rc.cpp:8
+#: rc.cpp:16
+#, no-c-format
 msgid ""
 "Verify whether the cached web page is valid before attempting to fetch the "
 "web page again."
-msgstr "ওয়েবপেজ পুনরায় আনার আগে পরীক্ষা করে দেখা হবে ক্যাশ করা পেজ-টি বৈধ কি না।"
+msgstr ""
+"ওয়েবপেজ পুনরায় আনার আগে "
+"পরীক্ষা করে দেখা হবে ক্যাশ "
+"করা পেজ-টি বৈধ কি না।"
 
-#: rc.cpp:9
+#: rc.cpp:18
+#, no-c-format
 msgid "Use cache whenever &possible"
 msgstr "&সম্ভব হলেই ক্যাশ ব্যবহার করো"
 
-#: rc.cpp:10
+#: rc.cpp:20
+#, no-c-format
 msgid ""
 "Always use documents from the cache when available. You can still use the "
 "reload button to synchronize the cache with the remote host."
 msgstr ""
 "কোন নথী ক্যাশ-এ থাকলে সেই "
-"সংস্করণটি ব্যবহার করা হবে। আপনি সে "
-"ক্ষেত্রেও রিলোড বাটনটি "
-"ব্যবহার করে ক্যাশ এবং "
+"সংস্করণটি ব্যবহার করা হবে। "
+"আপনি সে ক্ষেত্রেও রিলোড "
+"বাটনটি ব্যবহার করে ক্যাশ এবং "
 "দূরবর্তী হোস্ট-এর সংস্করণ "
 "সামঞ্জস্যে আনতে পারেন।"
 
-#: rc.cpp:11
+#: rc.cpp:22
+#, no-c-format
 msgid "O&ffline browsing mode"
 msgstr "অ&ফলাইন ব্রাউজিং মোড"
 
-#: rc.cpp:12
+#: rc.cpp:24
+#, no-c-format
 msgid ""
 "Do not fetch web pages that are not already stored in the cache. Offline "
 "mode prevents you from viewing pages that you have not previously visited."
 msgstr ""
-"কোন ওয়েবপেজ ক্যাশ-এ না থাকলে সেটি "
-"আনার চেষ্টা করা হবে না। অফ-লাইন মোড "
-"আপনাকে কেবলমাত্র পূর্বদৃষ্ট নথীতে সীমাবদ্ধ রাখে।"
+"কোন ওয়েবপেজ ক্যাশ-এ না থাকলে "
+"সেটি আনার চেষ্টা করা হবে না। "
+"অফ-লাইন মোড আপনাকে কেবলমাত্র "
+"পূর্বদৃষ্ট নথীতে সীমাবদ্ধ "
+"রাখে।"
 
-#: rc.cpp:13 rc.cpp:16
-#, fuzzy
+#: rc.cpp:26 rc.cpp:38
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Enter the name of the environment variable, e.g. <b>FTP_PROXY</b>, used to "
@@ -970,8 +1011,8 @@ msgstr ""
 "স্বয়ংক্রীয় -র এই\n"
 "</qt>"
 
-#: rc.cpp:14 rc.cpp:25
-#, fuzzy
+#: rc.cpp:31 rc.cpp:62
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Enter the name of the environment variable, e.g. <b>HTTP_PROXY</b>, used to "
@@ -988,16 +1029,18 @@ msgstr ""
 "এই\n"
 "</qt>"
 
-#: rc.cpp:15 rc.cpp:98
+#: rc.cpp:36 rc.cpp:257
+#, no-c-format
 msgid "&FTP:"
 msgstr "&FTP:"
 
-#: rc.cpp:17 rc.cpp:99
+#: rc.cpp:43 rc.cpp:259
+#, no-c-format
 msgid "HTTP&S:"
 msgstr "HTTP&S:"
 
-#: rc.cpp:18 rc.cpp:26
-#, fuzzy
+#: rc.cpp:45 rc.cpp:67
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Enter the name of the environment variable, e.g. <b>HTTPS_PROXY</b>"
@@ -1014,16 +1057,21 @@ msgstr ""
 "স্বয়ংক্রীয় -র এই\n"
 "</qt>"
 
-#: rc.cpp:19
+#: rc.cpp:50
+#, no-c-format
 msgid "Show the &value of the environment variables"
-msgstr "এনভায়রনমেন্ট ভেরিয়েবল-গুলির মা&ন প্রদর্শন করো"
+msgstr ""
+"এনভায়রনমেন্ট "
+"ভেরিয়েবল-গুলির মা&ন প্রদর্শন "
+"করো"
 
-#: rc.cpp:20
+#: rc.cpp:52
+#, no-c-format
 msgid "&Verify"
 msgstr "যাচা&ই করো"
 
-#: rc.cpp:21
-#, fuzzy
+#: rc.cpp:54
+#, fuzzy, no-c-format
 msgid ""
 "<qt>Verify whether or not the environment variable names you supplied are "
 "valid. If an environment variable is not found, the associated labels will "
@@ -1033,12 +1081,13 @@ msgstr ""
 "আছে নয় পাওয়া গেছে টি  <b></b>   ঐ "
 "ওরা   অবৈধ</qt>"
 
-#: rc.cpp:22
+#: rc.cpp:56
+#, no-c-format
 msgid "Auto &Detect"
 msgstr "স্বয়ংক্রীয় &উদ্ঘাটন"
 
-#: rc.cpp:23
-#, fuzzy
+#: rc.cpp:58
+#, fuzzy, no-c-format
 msgid ""
 "<qt>Attempt automatic discovery of the environment variables used for "
 "setting system wide proxy information."
@@ -1051,12 +1100,13 @@ msgstr ""
 "প্রক্সি তথ্য"
 "<p>   জন্য ব্যবহৃত যেমন   এবং</qt>"
 
-#: rc.cpp:24 rc.cpp:100
+#: rc.cpp:60 rc.cpp:261
+#, no-c-format
 msgid "H&TTP:"
 msgstr "H&TTP:"
 
-#: rc.cpp:27 rc.cpp:29
-#, fuzzy
+#: rc.cpp:72 rc.cpp:79
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Enter the environment variable, e.g. <b>NO_PROXY</b>, used to store the "
@@ -1073,68 +1123,83 @@ msgstr ""
 "স্বয়ংক্রীয় -র এই\n"
 "</qt>"
 
-#: rc.cpp:28
+#: rc.cpp:77
+#, no-c-format
 msgid "NO &PROXY:"
 msgstr "NO &PROXY:"
 
-#: rc.cpp:30
+#: rc.cpp:84
+#, no-c-format
 msgid "Domain [Group]"
 msgstr "ডোমেইন [গ্রুপ]"
 
-#: rc.cpp:31
+#: rc.cpp:86
+#, no-c-format
 msgid "Host [Set By]"
 msgstr "হোস্ট [সেট করেছে]"
 
-#: rc.cpp:32 rc.cpp:61 rc.cpp:191
+#: rc.cpp:88 rc.cpp:166 rc.cpp:482
+#, no-c-format
 msgid "D&elete"
 msgstr "মুছে ফেলো (&ম)"
 
-#: rc.cpp:33 rc.cpp:62 rc.cpp:193
+#: rc.cpp:90 rc.cpp:168 rc.cpp:486
+#, no-c-format
 msgid "Delete A&ll"
 msgstr "সব মুছে ফেলো (&ল)"
 
-#: rc.cpp:34
+#: rc.cpp:92
+#, no-c-format
 msgid "Change &Policy..."
 msgstr "পলিসি &বদলাও..."
 
-#: rc.cpp:35
+#: rc.cpp:94
+#, no-c-format
 msgid "&Reload List"
 msgstr "তালিকা &আবার পড়ো"
 
-#: rc.cpp:36
+#: rc.cpp:96
+#, no-c-format
 msgid "Details"
 msgstr "বিস্তারিত বিবরণ"
 
-#: rc.cpp:37
+#: rc.cpp:98
+#, no-c-format
 msgid "Name:"
 msgstr "নাম:"
 
-#: rc.cpp:38
+#: rc.cpp:100
+#, no-c-format
 msgid "Value:"
 msgstr "মান:"
 
-#: rc.cpp:39
+#: rc.cpp:102
+#, no-c-format
 msgid "Domain:"
 msgstr "ডোমেইন:"
 
-#: rc.cpp:40
+#: rc.cpp:104
+#, no-c-format
 msgid "Path:"
 msgstr "পাথ:"
 
-#: rc.cpp:41
+#: rc.cpp:106
+#, no-c-format
 msgid "Expires:"
 msgstr "অবসান:"
 
-#: rc.cpp:42
+#: rc.cpp:108
+#, no-c-format
 msgid "Secure:"
 msgstr "নিরাপদ:"
 
-#: rc.cpp:43
+#: rc.cpp:110
+#, no-c-format
 msgid "Enable coo&kies"
 msgstr "কুকি &সক্রিয় করো"
 
-#: rc.cpp:44
-#, fuzzy
+#: rc.cpp:112
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Enable cookie support. Normally you will want to have cookie support enabled "
@@ -1148,14 +1213,15 @@ msgstr ""
 "আপনার<p> ঐ support make বহু ওয়েব\n"
 "</qt>"
 
-#: rc.cpp:46
+#: rc.cpp:118
+#, no-c-format
 msgid "Only acce&pt cookies from originating server"
 msgstr ""
 "শুধুমাত্র একই সার্ভার থেকে "
 "উত্পন্ন কুকি স্বীকা&র করো"
 
-#: rc.cpp:47
-#, fuzzy
+#: rc.cpp:120
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Reject the so called third-party cookies. These are cookies that originate "
@@ -1175,12 +1241,13 @@ msgstr ""
 "সম্বন্ধে আপনার\n"
 "</qt>"
 
-#: rc.cpp:48
+#: rc.cpp:124
+#, no-c-format
 msgid "Automaticall&y accept session cookies"
 msgstr "সব সেশন কুকি স্বীকার &করো"
 
-#: rc.cpp:49
-#, fuzzy
+#: rc.cpp:126
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Automatically accept temporary cookies meant to expire at the end of the "
@@ -1205,14 +1272,15 @@ msgstr ""
 "cookies   যখন টি বর্তমান সেশন\n"
 "</qt>"
 
-#: rc.cpp:50
+#: rc.cpp:131
+#, no-c-format
 msgid "Treat &all cookies as session cookies"
 msgstr ""
 "সব কুকি-কে সে&শন কুকি হিসাবে "
 "দেখ"
 
-#: rc.cpp:51
-#, fuzzy
+#: rc.cpp:133
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Treat all cookies as session cookies. Session cookies are small pieces of "
@@ -1238,12 +1306,13 @@ msgstr ""
 "বর্তমান সেশন\n"
 "</qt>"
 
-#: rc.cpp:52
+#: rc.cpp:138
+#, no-c-format
 msgid "Default Policy"
 msgstr "ডিফল্ট পলিসি"
 
-#: rc.cpp:53
-#, fuzzy
+#: rc.cpp:140
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Determines how cookies received from a remote machine will be handled: \n"
@@ -1276,24 +1345,28 @@ msgstr ""
 "তলা নাও শেষ টি ডিফল্ট\n"
 "</qt>"
 
-#: rc.cpp:54
+#: rc.cpp:150
+#, no-c-format
 msgid "A&sk for confirmation"
 msgstr "জিজ্ঞাসা &করো"
 
-#: rc.cpp:55
+#: rc.cpp:152
+#, no-c-format
 msgid "Accep&t all cookies"
 msgstr "স&ব কুকি স্বীকার করো"
 
-#: rc.cpp:56
+#: rc.cpp:154
+#, no-c-format
 msgid "Re&ject all cookies"
 msgstr "সব কুকি প্রত্যাখ্যা&ন করো"
 
-#: rc.cpp:57
+#: rc.cpp:156
+#, no-c-format
 msgid "Site Policy"
 msgstr "সাইট পলিসি"
 
-#: rc.cpp:58
-#, fuzzy
+#: rc.cpp:158
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "To add a new policy, simply click on the <b>Add...</b>"
@@ -1315,19 +1388,23 @@ msgstr ""
 "জন্য ঐ<b></b>   সরাও সব টি\n"
 "</qt>"
 
-#: rc.cpp:59 rc.cpp:118 rc.cpp:187
+#: rc.cpp:162 rc.cpp:294 rc.cpp:474
+#, no-c-format
 msgid "&New..."
 msgstr "&নতুন..."
 
-#: rc.cpp:60 rc.cpp:189
+#: rc.cpp:164 rc.cpp:478
+#, no-c-format
 msgid "Chan&ge..."
 msgstr "পরি&বর্তন..."
 
-#: rc.cpp:63
+#: rc.cpp:170
+#, no-c-format
 msgid "Domain"
 msgstr "ডোমেইন"
 
-#: rc.cpp:65
+#: rc.cpp:174
+#, no-c-format
 msgid ""
 "<qt>\n"
 "List of sites for which you have set a specific cookie policy. Specific "
@@ -1343,22 +1420,22 @@ msgstr ""
 "কার্যকর হবে।\n"
 "</qt>"
 
-#: rc.cpp:66
-#, fuzzy
+#: rc.cpp:178
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Setup proxy configuration.\n"
 "<p>\n"
-"A proxy server is an intermediate machine that sits between your internal "
-"network and the Internet and caches the pages you visit. This gives you "
-"faster access to sites you have already visited as they are stored locally "
-"on your proxy server.\n"
+"A proxy server is an intermediate machine that sits between your computer "
+"and the Internet and provides services such as web page caching and "
+"filtering. Caching proxy servers give you faster access to web sites you "
+"have already visited by locally storing or caching those pages. Filtering "
+"proxy servers usually provide the abiltiy to block out requests for ads, "
+"spam or anything else you want block.\n"
 "<p>\n"
 "If you are uncertain whether or not you need to use a proxy server to "
 "connect to the Internet, consult your Internet service provider's setup "
 "guide or your system administrator.\n"
-"<p>\n"
-"Note that the use of proxy servers is optional.\n"
 "</qt>"
 msgstr ""
 "<qt> প্রক্সি কনফিগারেশন\n"
@@ -1377,65 +1454,77 @@ msgstr ""
 "আবশ্যক নয়\n"
 "</qt>"
 
-#: rc.cpp:68
-msgid "Connect to the Internet &directly"
+#: rc.cpp:187
+#, fuzzy, no-c-format
+msgid "Connect to the &Internet directly"
 msgstr "ইন্টারনেট-এ &সরাসরি যোগাযোগ"
 
-#: rc.cpp:69
-msgid "Connect to the Internet directly without using a proxy server."
-msgstr ""
-"প্রক্সি সার্ভার ব্যবহার না "
-"করে সরাসরি ইন্টারনেট-এ "
-"যোগাযোগ"
+#: rc.cpp:189
+#, fuzzy, no-c-format
+msgid "Connect to the Internet directly."
+msgstr "ইন্টারনেট-এ &সরাসরি যোগাযোগ"
 
-#: rc.cpp:70
+#: rc.cpp:191
+#, no-c-format
 msgid "A&utomatically detect proxy configuration"
 msgstr ""
 "স্বয়ংক্রিয় প্রক্সি "
 "কনফিগারেশন &উদ্ঘাটন"
 
-#: rc.cpp:71
-#, fuzzy
+#: rc.cpp:193
+#, no-c-format
 msgid ""
 "<qt>\n"
-"Automatically detect and configure the proxy server settings.<p>\n"
-"The configuration file is automatically downloaded using the <b>Web Proxy "
-"Auto-Discovery Protocol (WPAD)</b> specification.\n"
+"Automatically detect and configure the proxy settings.<p>\n"
+"Automatic detection is performed using the <b>Web Proxy Auto-Discovery "
+"Protocol (WPAD)</b>.<p>\n"
+"<b>NOTE:</b>This option might not work properly or not work at all in some "
+"Unix/Linux distributions. If you encounter a problem when using this option, "
+"please check the FAQ section at http://konqueror.kde.org.\n"
 "</qt>"
 msgstr ""
-"<qt> এবং টি প্রক্সি সার্ভার "
-"মানসমূহ"
-"<p> কনফিগারেশন ফাইল আছে "
-"স্বয়ংক্রীয় ব্যবহার টি<b></b>\n"
-"</qt>"
 
-#: rc.cpp:72
+#: rc.cpp:199
+#, no-c-format
 msgid "U&se the following proxy configuration URL"
-msgstr "নিম্নোক্ত প্রক্সি কনফিগারেশন ইউ-আর-এল ব্যবহা&র করো"
+msgstr ""
+"নিম্নোক্ত প্রক্সি "
+"কনফিগারেশন ইউ-আর-এল ব্যবহা&র "
+"করো"
 
-#: rc.cpp:73
-msgid "Use the specified configuration script to setup the proxy server settings."
-msgstr "প্রক্সি সার্ভার ব্যবস্থাপনার জন্য নিম্নোল্লিখিত কনফিগারেশন স্ক্রিপ্ট ব্যবহার করো।"
+#: rc.cpp:201
+#, fuzzy, no-c-format
+msgid "Use the specified proxy script URL to configure the proxy settings."
+msgstr ""
+"প্রক্সি সার্ভার "
+"ব্যবস্থাপনার জন্য "
+"নিম্নোল্লিখিত কনফিগারেশন "
+"স্ক্রিপ্ট ব্যবহার করো।"
 
-#: rc.cpp:74
+#: rc.cpp:203
+#, no-c-format
 msgid "Enter the address for the proxy configuration script."
 msgstr ""
 "প্রক্সি কনফিগারেশন "
 "স্ক্রিপ্ট-এর ঠিকানা লিখুন।"
 
-#: rc.cpp:75
+#: rc.cpp:205
+#, no-c-format
 msgid "Use preset proxy environment &variables"
-msgstr "পূর্বনির্দিষ্ট প্রক্সি এনভায়রনমেন্ট ভেরিয়েব&ল ব্যবহার করো"
+msgstr ""
+"পূর্বনির্দিষ্ট প্রক্সি "
+"এনভায়রনমেন্ট ভেরিয়েব&ল "
+"ব্যবহার করো"
 
-#: rc.cpp:76
-#, fuzzy
+#: rc.cpp:207
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
-"Use environment variables to setup the proxy server settings.<p>\n"
-"Environment variables such as <b>HTTP_PROXY</b> and <b>NO_PROXY</b> based "
-"configuration are usually used in multi-user UNIX installations, where both "
-"graphical and non-graphical applications need to share the same proxy "
-"configuration information.\n"
+"Use environment variables to configure the proxy settings.<p>\n"
+"Environment variables such as <b>HTTP_PROXY</b> and <b>NO_PROXY</b> are "
+"usually used in multi-user UNIX installations, where both graphical and "
+"non-graphical applications need to share the same proxy configuration "
+"information.\n"
 "</qt>"
 msgstr ""
 "<qt>   ব্যাবস্থাপনা টি প্রক্সি "
@@ -1447,89 +1536,105 @@ msgstr ""
 "কনফিগারেশন তথ্য\n"
 "</qt>"
 
-#: rc.cpp:77 rc.cpp:81
+#: rc.cpp:212 rc.cpp:220
+#, no-c-format
 msgid "Setup..."
 msgstr "ব্যবস্থাপনা..."
 
-#: rc.cpp:78
+#: rc.cpp:214
+#, no-c-format
 msgid "Show the proxy environment variable configuration dialog."
-msgstr "প্রক্সি এনভায়রনমেন্ট ভেরিয়েবল কনফিগারেশন ডায়ালগ দেখাও।"
+msgstr ""
+"প্রক্সি এনভায়রনমেন্ট "
+"ভেরিয়েবল কনফিগারেশন ডায়ালগ "
+"দেখাও।"
 
-#: rc.cpp:79
+#: rc.cpp:216
+#, no-c-format
 msgid "&Manually specify the proxy settings"
 msgstr "নিজে হাতে প্রক্সি সেটিং&স"
 
-#: rc.cpp:80
-msgid ""
-"<qt>\n"
-"Manually enter proxy server configuration information.\n"
-"</qt>"
+#: rc.cpp:218
+#, fuzzy, no-c-format
+msgid "Manually enter proxy server configuration information."
 msgstr ""
 "<qt>\n"
 "নিজে হাতে প্রক্সি সার্ভার "
 "কনফিগারেশন তথ্য লিখুন।\n"
 "</qt>"
 
-#: rc.cpp:82
+#: rc.cpp:222
+#, no-c-format
 msgid "Show the manual proxy configuration dialog."
 msgstr ""
 "নিজে হাতে প্রক্সি "
 "কনফিগারেশন করার ডায়ালগ "
 "দেখাও।"
 
-#: rc.cpp:83
+#: rc.cpp:224
+#, no-c-format
 msgid "Authori&zation"
 msgstr "&সত্যতা যাচাই"
 
-#: rc.cpp:84
+#: rc.cpp:226
+#, no-c-format
 msgid "Prompt as &needed"
 msgstr "প্রয়োজ&নমত জিজ্ঞাসা করো"
 
-#: rc.cpp:85
+#: rc.cpp:228
+#, no-c-format
 msgid "Prompt for login information whenever it is required."
 msgstr ""
 "প্রয়োজন হলে লগ-ইন তথ্য "
 "জিজ্ঞাসা করা হবে।"
 
-#: rc.cpp:86
+#: rc.cpp:230
+#, no-c-format
 msgid "Use the following lo&gin information."
 msgstr "এই ল&গ-ইন তথ্য ব্যবহার করো"
 
-#: rc.cpp:87
+#: rc.cpp:232
+#, no-c-format
 msgid "Use the information below to login into proxy servers as needed."
 msgstr ""
 "প্রয়োজন মত প্রক্সি "
 "সার্ভারের লগ-ইন করতে নীচের "
 "মানগুলি ব্যবহার করা হবে।"
 
-#: rc.cpp:88 rc.cpp:91
+#: rc.cpp:234 rc.cpp:240
+#, no-c-format
 msgid "Login password."
 msgstr "লগ-ইন পাসওয়ার্ড"
 
-#: rc.cpp:89 rc.cpp:93
+#: rc.cpp:236 rc.cpp:244
+#, no-c-format
 msgid "Login name."
 msgstr "লগ-ইন নাম"
 
-#: rc.cpp:90
+#: rc.cpp:238
+#, no-c-format
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
-#: rc.cpp:92
+#: rc.cpp:242
+#, fuzzy, no-c-format
 msgid "Username:"
 msgstr "ইউসারনেম:"
 
-#: rc.cpp:94
+#: rc.cpp:246
+#, no-c-format
 msgid "O&ptions"
 msgstr "অপ&শন"
 
-#: rc.cpp:95
+#: rc.cpp:248
+#, no-c-format
 msgid "Use persistent connections to proxy"
 msgstr ""
 "প্রক্সির জন্য পারসিস্টেন্ট "
 "(persistent) কানেকশন ব্যবহার করো"
 
-#: rc.cpp:96
-#, fuzzy
+#: rc.cpp:250
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Use persistent proxy connection.<p>\n"
@@ -1548,29 +1653,34 @@ msgstr ""
 " এবং\n"
 "</qt>"
 
-#: rc.cpp:97
+#: rc.cpp:255
+#, no-c-format
 msgid "Ser&vers"
 msgstr "সার্ভা&রসমূহ"
 
-#: rc.cpp:101
+#: rc.cpp:263
+#, no-c-format
 msgid "Enter the address of the HTTP proxy server."
 msgstr ""
 "HTTP প্রক্সি সার্ভারের ঠিকানা "
 "লিখুন।"
 
-#: rc.cpp:102
+#: rc.cpp:265
+#, no-c-format
 msgid "Enter the address of the HTTPS proxy server."
 msgstr ""
 "HTTPS প্রক্সি সার্ভারের ঠিকানা "
 "লিখুন।"
 
-#: rc.cpp:103
+#: rc.cpp:267
+#, no-c-format
 msgid "Enter the address of the FTP proxy server."
 msgstr ""
 "FTP প্রক্সি সার্ভারের ঠিকানা "
 "লিখুন।"
 
-#: rc.cpp:104
+#: rc.cpp:269
+#, no-c-format
 msgid ""
 "Enter the port number of the FTP proxy server. Default 8080. Another common "
 "value is 3128."
@@ -1580,7 +1690,8 @@ msgstr ""
 "আরেকটি প্রায়শই ব্যবহৃত মান "
 "3128।"
 
-#: rc.cpp:105 rc.cpp:106
+#: rc.cpp:271 rc.cpp:273
+#, no-c-format
 msgid ""
 "Enter the port number of the HTTP proxy server. Default is 8080. Another "
 "common value is 3128."
@@ -1590,25 +1701,28 @@ msgstr ""
 "আরেকটি প্রায়শই ব্যবহৃত মান "
 "3128।"
 
-#: rc.cpp:107
+#: rc.cpp:275
+#, no-c-format
 msgid "&Use the same proxy server for all protocols"
 msgstr ""
 "&একই প্রক্সি সার্ভার সব "
 "প্রোটোকলের জন্য ব্যবহার করো"
 
-#: rc.cpp:109
+#: rc.cpp:278
+#, no-c-format
 msgid "E&xceptions"
 msgstr "এক্সেপ&শন"
 
-#: rc.cpp:110
+#: rc.cpp:280
+#, no-c-format
 msgid "Use proxy only for entries in this list"
 msgstr ""
 "শুধু এই তালিকাভুক্ত "
 "এন্ট্রিগুলির জন্য প্রক্সি "
 "ব্যবহার করো"
 
-#: rc.cpp:111
-#, fuzzy
+#: rc.cpp:282
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Reverse the use of the exception list. Checking this box will result in the "
@@ -1632,68 +1746,58 @@ msgstr ""
 "একটি কনফিগারেশন লিপি\n"
 "</qt>"
 
-#: rc.cpp:112
-msgid "De&lete"
-msgstr "মুছে ফেলো (&ম)"
-
-#: rc.cpp:113
-msgid "Remove the selected proxy exception address from the list."
-msgstr ""
-"নির্বাচিত প্রক্সি এক্সেপশন অ্যাড্রেস-টি "
-"তালিকা থেকে মুছে ফেলো।"
-
-#: rc.cpp:114
+#: rc.cpp:286
+#, no-c-format
 msgid "D&elete All"
 msgstr "&সব মুছে ফেলো"
 
-#: rc.cpp:115
+#: rc.cpp:288
+#, no-c-format
 msgid "Remove all proxy exception addresses from the list."
 msgstr ""
-"সবকটি প্রক্সি এক্সেপশন অ্যাড্রেস"
-"তালিকা থেকে মুছে ফেলো।"
+"সবকটি প্রক্সি এক্সেপশন "
+"অ্যাড্রেসতালিকা থেকে মুছে "
+"ফেলো।"
 
-#: rc.cpp:116
+#: rc.cpp:290
+#, no-c-format
+msgid "De&lete"
+msgstr "মুছে ফেলো (&ম)"
+
+#: rc.cpp:292
+#, no-c-format
+msgid "Remove the selected proxy exception address from the list."
+msgstr ""
+"নির্বাচিত প্রক্সি এক্সেপশন "
+"অ্যাড্রেস-টি তালিকা থেকে "
+"মুছে ফেলো।"
+
+#: rc.cpp:296
+#, no-c-format
+msgid "Add new proxy exception address to the list."
+msgstr ""
+"তালিকায় নতুন প্রক্সি "
+"এক্সেপশন অ্যাড্রেস যোগ করো।"
+
+#: rc.cpp:298
+#, no-c-format
 msgid "C&hange..."
 msgstr "ব&দলাও..."
 
-#: rc.cpp:117
+#: rc.cpp:300
+#, no-c-format
 msgid "Change the selected proxy exception address."
-msgstr "নির্বাচিত প্রক্সি এক্সেপশন অ্যাড্রেস-টি পাল্টাও।"
-
-#: rc.cpp:119
-msgid "Add new proxy exception address to the list."
-msgstr "তালিকায় নতুন প্রক্সি এক্সেপশন অ্যাড্রেস যোগ করো।"
-
-#: rc.cpp:120
-msgid "Address"
-msgstr "অ্যাড্রেস"
-
-#: rc.cpp:121
-#, fuzzy
-msgid ""
-"<qt>\n"
-"List of addresses that are either exempt or allowed, based on the \"Use "
-"proxy only...\" option, from using the proxy server."
-"<p>"
-"If the \"Use proxy only...\" option is checked, only addresses that match "
-"the ones in this list will be sent through the proxy server.\n"
-"</qt>"
 msgstr ""
-"<qt> -র ঐ   হয় অথবা allowed ভিত্তি করে "
-"ওপর টি প্রক্সি শুধু অপশন "
-"থেকে ব্যবহার টি প্রক্সি "
-"সার্ভার"
-"<p> টি প্রক্সি শুধু অপশন আছে "
-"শুধু ঐ মিল টি -এ এই তালিকা   টি "
-"প্রক্সি সার্ভার\n"
-"</qt>"
+"নির্বাচিত প্রক্সি এক্সেপশন "
+"অ্যাড্রেস-টি পাল্টাও।"
 
-#: rc.cpp:122
+#: rc.cpp:302
+#, no-c-format
 msgid "&Domain name:"
 msgstr "ডোমে&ইন নাম:"
 
-#: rc.cpp:123 rc.cpp:124
-#, fuzzy
+#: rc.cpp:304 rc.cpp:308
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Enter the host or domain to which this policy applies, e.g. "
@@ -1704,12 +1808,13 @@ msgstr ""
 "org</b> অথবা<b> কে-ডি-ই org</b>\n"
 "</qt>"
 
-#: rc.cpp:125
+#: rc.cpp:312
+#, no-c-format
 msgid "&Policy:"
 msgstr "&পলিসি:"
 
-#: rc.cpp:126 rc.cpp:130
-#, fuzzy
+#: rc.cpp:314 rc.cpp:329
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Select the desired policy:\n"
@@ -1730,48 +1835,54 @@ msgstr ""
 "</ul>\n"
 "</qt>"
 
-#: rc.cpp:127
+#: rc.cpp:323
+#, no-c-format
 msgid "Accept"
 msgstr "স্বীকার করো"
 
-#: rc.cpp:128
+#: rc.cpp:325
+#, no-c-format
 msgid "Reject"
 msgstr "প্রত্যাখ্যান করো"
 
-#: rc.cpp:129
+#: rc.cpp:327
+#, no-c-format
 msgid "Ask"
 msgstr "জিজ্ঞাসা করো"
 
-#: rc.cpp:131
+#: rc.cpp:338
+#, no-c-format
 msgid "SOCKS"
 msgstr "সকস (SOCKS)"
 
-#: rc.cpp:132
+#: rc.cpp:340
+#, no-c-format
 msgid "&Enable SOCKS support"
 msgstr "সকস (SOCKS) সাপোর্ট সক্রিয় করো"
 
-#: rc.cpp:133
+#: rc.cpp:342
+#, no-c-format
 msgid ""
 "Check this to enable SOCKS4 and SOCKS5 support in KDE applications and I/O "
 "subsystems."
 msgstr ""
-"কে.ডি.ই. অ্যাপলিকেশন "
-"এবং আই/ও সাব-সিস্টেম-এ "
-"সকস-৪ (SOCKS4) এবং "
-"সকস-৫ (SOCKS5) "
-"সমর্থন সক্রিয় করতে "
+"কে.ডি.ই. অ্যাপলিকেশন এবং আই/ও "
+"সাব-সিস্টেম-এ সকস-৪ (SOCKS4) এবং "
+"সকস-৫ (SOCKS5) সমর্থন সক্রিয় করতে "
 "এটি নির্বাচন করুন।"
 
-#: rc.cpp:134
+#: rc.cpp:344
+#, no-c-format
 msgid "SOCKS Implementation"
 msgstr "সকস (SOCKS) ব্যবস্থা"
 
-#: rc.cpp:135
+#: rc.cpp:346
+#, no-c-format
 msgid "A&uto detect"
 msgstr "স্বয়ংক্রী&য় উদ্ঘাটন"
 
-#: rc.cpp:136
-#, fuzzy
+#: rc.cpp:348
+#, fuzzy, no-c-format
 msgid ""
 "If you select Autodetect, then KDE will automatically search for an "
 "implementation of SOCKS on your computer."
@@ -1782,20 +1893,25 @@ msgstr ""
 "একটি -র ওপর আপনার কমপিউটার, "
 "কম্প্যুটার."
 
-#: rc.cpp:137
+#: rc.cpp:350
+#, no-c-format
 msgid "&NEC SOCKS"
 msgstr "&NEC SOCKS"
 
-#: rc.cpp:138
+#: rc.cpp:352
+#, no-c-format
 msgid "This will force KDE to use NEC SOCKS if it can be found."
-msgstr "NEC SOCKS পাওয়া গেলে তা ব্যবহার করা হবে।"
+msgstr ""
+"NEC SOCKS পাওয়া গেলে তা ব্যবহার "
+"করা হবে।"
 
-#: rc.cpp:139
+#: rc.cpp:354
+#, no-c-format
 msgid "Use &custom library"
 msgstr "স্বনির্বাচি&ত লাইব্রেরি"
 
-#: rc.cpp:140
-#, fuzzy
+#: rc.cpp:356
+#, fuzzy, no-c-format
 msgid ""
 "Select custom if you wish to use an unlisted SOCKS library. Please note that "
 "this may not always work as it depends on the API of the library which you "
@@ -1806,64 +1922,82 @@ msgstr ""
 "    ওপর টি -র টি কোন আপনি উল্লেখ "
 "করা তলা."
 
-#: rc.cpp:141
+#: rc.cpp:358
+#, no-c-format
 msgid "&Path:"
 msgstr "পা&থ:"
 
-#: rc.cpp:142
-#, fuzzy
+#: rc.cpp:360
+#, fuzzy, no-c-format
 msgid "Enter the path to an unsupported SOCKS library."
 msgstr "টি পাথ   একটি."
 
-#: rc.cpp:143
+#: rc.cpp:362
+#, no-c-format
 msgid "&Dante"
 msgstr "দান্তে (&দ)"
 
-#: rc.cpp:144
+#: rc.cpp:364
+#, no-c-format
 msgid "This will force KDE to use Dante if it can be found."
-msgstr "দান্তে পাওয়া গেলে তা ব্যবহার করা হবে।"
+msgstr ""
+"দান্তে পাওয়া গেলে তা ব্যবহার "
+"করা হবে।"
 
-#: rc.cpp:145
+#: rc.cpp:366
+#, no-c-format
 msgid "Additional Library Search Paths"
 msgstr ""
 "অতিরিক্ত লাইব্রেরি সার্চ "
 "পাথ"
 
-#: rc.cpp:146
+#: rc.cpp:368
+#, no-c-format
 msgid ""
 "Here you can specify additional directories to search for the SOCKS "
 "libraries. /usr/lib, /usr/local/lib, /usr/local/socks5/lib and "
 "/opt/socks5/lib are already searched by default."
 msgstr ""
-"এখানে আপনি অতিরিক্ত কয়েকটি ডিরেক্টরি উল্লেখ করতে "
-"পারেন যেখানে সকস লাইব্রেরি খোঁজা হবে। /usr/lib, "
-"/usr/local/lib, /usr/local/socks5/lib এবং"
-"/opt/socks5/lib ডিরেক্টরিগুলি সবসময়ই খোঁজা হয়।"
+"এখানে আপনি অতিরিক্ত কয়েকটি "
+"ডিরেক্টরি উল্লেখ করতে পারেন "
+"যেখানে সকস লাইব্রেরি খোঁজা "
+"হবে। /usr/lib, /usr/local/lib, /usr/local/socks5/lib "
+"এবং/opt/socks5/lib ডিরেক্টরিগুলি "
+"সবসময়ই খোঁজা হয়।"
 
-#: rc.cpp:147
+#: rc.cpp:370
+#, no-c-format
 msgid "Path"
 msgstr "পাথ"
 
-#: rc.cpp:148
+#: rc.cpp:372
+#, no-c-format
 msgid "This is the list of additional paths that will be searched."
-msgstr "যে অতিরিক্ত ডিরেক্টরিগুলি খোঁজা হবে তার তালিকা।"
+msgstr ""
+"যে অতিরিক্ত ডিরেক্টরিগুলি "
+"খোঁজা হবে তার তালিকা।"
 
-#: rc.cpp:151
+#: rc.cpp:378
+#, no-c-format
 msgid "&Test"
 msgstr "&পরীক্ষা করো"
 
-#: rc.cpp:152
+#: rc.cpp:380
+#, no-c-format
 msgid "Click here to test SOCKS support."
 msgstr ""
 "সকস (SOCKS) সাপোর্ট পরীক্ষা করতে "
 "এখানে ক্লিক করুন।"
 
-#: rc.cpp:153
+#: rc.cpp:382
+#, no-c-format
 msgid "&When browsing the following site:"
-msgstr "নিম্নোক্ত &অবস্থান ব্রাউজ করাকালীন:"
+msgstr ""
+"নিম্নোক্ত &অবস্থান ব্রাউজ "
+"করাকালীন:"
 
-#: rc.cpp:154 rc.cpp:155
-#, fuzzy
+#: rc.cpp:384 rc.cpp:389
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Enter the site or domain name where a fake browser identification should be "
@@ -1886,12 +2020,13 @@ msgstr ""
 "কে.ডি.ই. ঐ সঙ্গে<code> কে-ডি-ই org</code>\n"
 "</qt>"
 
-#: rc.cpp:156
+#: rc.cpp:394
+#, no-c-format
 msgid "&Use the following identification:"
 msgstr "এ&ই পারিচায়কটি ব্যবহার করো:"
 
-#: rc.cpp:157 rc.cpp:158
-#, fuzzy
+#: rc.cpp:396 rc.cpp:400
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Select the browser identification to use whenever contacting the site you "
@@ -1902,12 +2037,13 @@ msgstr ""
 "আপনি নির্বাচিত উপরে\n"
 "</qt>"
 
-#: rc.cpp:159
+#: rc.cpp:404
+#, no-c-format
 msgid "Real identification:"
 msgstr "বাস্তবিক পরিচয়:"
 
-#: rc.cpp:160 rc.cpp:161
-#, fuzzy
+#: rc.cpp:406 rc.cpp:410
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "The actual browser identification text that will be sent to the remote "
@@ -1918,12 +2054,13 @@ msgstr ""
 "রিমোট\n"
 "</qt>"
 
-#: rc.cpp:162
+#: rc.cpp:414
+#, no-c-format
 msgid "Update &List"
 msgstr "আ&পডেট তালিকা"
 
-#: rc.cpp:163
-#, fuzzy
+#: rc.cpp:416
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Refresh the browser identification list.<p>\n"
@@ -1939,8 +2076,8 @@ msgstr ""
 "প্রদর্শিত\n"
 "</qt>"
 
-#: rc.cpp:166
-#, fuzzy
+#: rc.cpp:425
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Here you can modify the default browser-identification text or set a site "
@@ -1967,12 +2104,13 @@ msgstr ""
 "  ব্যবহৃত জন্য ঐ অথবা\n"
 "</qt>"
 
-#: rc.cpp:167
+#: rc.cpp:430
+#, no-c-format
 msgid "&Send identification"
 msgstr "&পরিচয় পাঠাও"
 
-#: rc.cpp:168
-#, fuzzy
+#: rc.cpp:432
+#, fuzzy, no-c-format
 msgid ""
 "<qt>\n"
 "Send the browser identification to web sites.<p>\n"
@@ -1992,11 +2130,13 @@ msgstr ""
 "লেখা ঐ   আছে তলা\n"
 "</qt>"
 
-#: rc.cpp:169
+#: rc.cpp:438
+#, no-c-format
 msgid "Default Identification"
 msgstr "ডিফল্ট পরিচায়ক"
 
-#: rc.cpp:170
+#: rc.cpp:440
+#, no-c-format
 msgid ""
 "The browser identification text sent to the sites you visit. Use the "
 "provided options to customize it."
@@ -2007,35 +2147,43 @@ msgstr ""
 "অপশনগুলির সাহায্যে নিজের "
 "পছন্দ মত বেছে নিন।"
 
-#: rc.cpp:171
+#: rc.cpp:442
+#, no-c-format
 msgid ""
 "The browser identification text sent to the sites you visit. You can "
 "customize it using the options provided below."
 msgstr ""
-"যে শব্দসমষ্টি ব্রাউজার পরিচায়ক হিসাবে প্রদর্শিত সাইট-কে "
-"পাঠানো হবে। নিম্নোক্ত অপশনগুলি ব্যবহার করে আপনি এটি "
-"নিজের পছন্দমত বদলে নিতে পারেন।"
+"যে শব্দসমষ্টি ব্রাউজার "
+"পরিচায়ক হিসাবে প্রদর্শিত "
+"সাইট-কে পাঠানো হবে। "
+"নিম্নোক্ত অপশনগুলি ব্যবহার "
+"করে আপনি এটি নিজের পছন্দমত "
+"বদলে নিতে পারেন।"
 
-#: rc.cpp:172
+#: rc.cpp:444
+#, no-c-format
 msgid "Add operating s&ystem name"
 msgstr ""
 "অপারেটিং সিস্টেমের নাম যোগ "
 "&করো"
 
-#: rc.cpp:173
+#: rc.cpp:446
+#, no-c-format
 msgid "Includes your operating system's name in the browser identification text."
 msgstr ""
 "ব্রাউজার পরিচায়ক পংক্তিতে "
 "আপনার অপারেটিং সিস্টেমের "
 "নাম অন্তর্ভুক্ত হবে।"
 
-#: rc.cpp:174
+#: rc.cpp:448
+#, no-c-format
 msgid "Add operating system &version"
 msgstr ""
 "&অপারেটিং সিস্টেমের সংস্করণ "
 "যোগ করো"
 
-#: rc.cpp:175
+#: rc.cpp:450
+#, no-c-format
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
@@ -2044,80 +2192,130 @@ msgstr ""
 "আপনার অপারেটিং সিস্টেমের "
 "সংস্করণ অন্তর্ভুক্ত হবে।"
 
-#: rc.cpp:176
+#: rc.cpp:452
+#, no-c-format
 msgid "Add &platform name"
 msgstr "প্ল্যাট&ফর্মের  নাম যোগ করো"
 
-#: rc.cpp:177
+#: rc.cpp:454
+#, no-c-format
 msgid "Includes your platform type in the browser identification text"
 msgstr ""
 "ব্রাউজার পরিচায়ক পংক্তিতে "
 "আপনার প্ল্যাটফর্ম টাইপ "
 "অন্তর্ভুক্ত হবে।"
 
-#: rc.cpp:178
+#: rc.cpp:456
+#, no-c-format
 msgid "Add &machine (processor) type"
 msgstr "মেশি&ন (প্রসেসর) টাইপ যোগ করো"
 
-#: rc.cpp:179
+#: rc.cpp:458
+#, no-c-format
 msgid "Includes your machine's CPU type in the browser identification text."
 msgstr ""
 "ব্রাউজার পরিচায়ক পংক্তিতে "
 "আপনার সি-পি-ইউ (CPU) টাইপ "
 "অন্তর্ভুক্ত হবে।"
 
-#: rc.cpp:180
+#: rc.cpp:460
+#, no-c-format
 msgid "Add lang&uage information"
 msgstr "ভাষা সংক্রান্ত &তথ্য যোগ করো"
 
-#: rc.cpp:181
+#: rc.cpp:462
+#, no-c-format
 msgid "Includes your language settings in the browser identification text."
 msgstr ""
 "ব্রাউজার পরিচায়ক পংক্তিতে "
 "আপনার ভাষা সংক্রান্ত সেটিংস "
 "অন্তর্ভুক্ত হবে।"
 
-#: rc.cpp:182
+#: rc.cpp:464
+#, no-c-format
 msgid "Site Specific Identification"
 msgstr "অবস্থান নির্ভর পরিচায়ক"
 
-#: rc.cpp:183
+#: rc.cpp:466
+#, no-c-format
 msgid "Site Name"
 msgstr "সাইটের নাম"
 
-#: rc.cpp:184
+#: rc.cpp:468
+#, no-c-format
 msgid "Identification"
 msgstr "পরিচায়ক"
 
-#: rc.cpp:185
+#: rc.cpp:470
+#, no-c-format
 msgid "User Agent"
 msgstr "ইউসার এজেন্ট"
 
-#: rc.cpp:186
+#: rc.cpp:472
+#, no-c-format
 msgid ""
 "List of sites for which the specified identification text will be used "
 "instead of the default one."
-msgstr "যে অবস্থানগুলির জন্য উল্লিখিত পরিচায়কটি ব্যবহার করা হবে তার তালিকা।"
+msgstr ""
+"যে অবস্থানগুলির জন্য "
+"উল্লিখিত পরিচায়কটি ব্যবহার "
+"করা হবে তার তালিকা।"
 
-#: rc.cpp:188
+#: rc.cpp:476
+#, no-c-format
 msgid "Add new identification text for a site."
-msgstr "একটি অবস্থানের জন্য নতুন পরিচায়ক যোগ করো"
+msgstr ""
+"একটি অবস্থানের জন্য নতুন "
+"পরিচায়ক যোগ করো"
 
-#: rc.cpp:190
+#: rc.cpp:480
+#, no-c-format
 msgid "Change the selected identifier text."
 msgstr "নির্বাচিত পরিচায়কটি পাল্টাও"
 
-#: rc.cpp:192
+#: rc.cpp:484
+#, no-c-format
 msgid "Delete the selected identifier text."
-msgstr "নির্বাচিত পরিচায়কটি মুছে ফেলো"
+msgstr ""
+"নির্বাচিত পরিচায়কটি মুছে "
+"ফেলো"
 
-#: rc.cpp:194
+#: rc.cpp:488
+#, no-c-format
 msgid "Delete all identifiers."
 msgstr "সবকটি পরিচায়ক মুছে ফেলো।"
 
+#: rc.cpp:490
+#, no-c-format
+msgid "Disable Passive FTP"
+msgstr ""
+
+#: rc.cpp:492
+#, no-c-format
+msgid ""
+"When FTP connections are passive the client connect to the server, instead "
+"of the other way round, so firewalls do not block the connection; old FTP "
+"servers may not support Passive FTP though."
+msgstr ""
+
+#: rc.cpp:494
+#, fuzzy, no-c-format
+msgid "Mark partially uploaded files"
+msgstr "অসম্পূর্ণ ফাইল চিহ্নি&ত করো"
+
+#: rc.cpp:496
+#, no-c-format
+msgid ""
+"While a file is being uploaded its extension is \"*.part\". When fully "
+"uploaded it is renamed to its real name."
+msgstr ""
+
 #: smbrodlg.cpp:43
 msgid "This is the configuration for the samba client only, not the server."
-msgstr "এটি শুধু সাম্বা ক্লায়েন্ট-এর জন্য কনফিগারেশন, সার্ভার-এর জন্য নয়।"
+msgstr ""
+"এটি শুধু সাম্বা ক্লায়েন্ট-এর "
+"জন্য কনফিগারেশন, সার্ভার-এর "
+"জন্য নয়।"
 
 #: smbrodlg.cpp:47
 msgid "Default user name:"
@@ -2186,7 +2384,19 @@ msgstr ""
 "চাই   ঐ   সঙ্গে পাসওয়ার্ড     "
 "যেমন<p>"
 
-#: socks.cpp:82
+#: socks.cpp:42
+msgid "kcmsocks"
+msgstr "kcmsocks"
+
+#: socks.cpp:42
+msgid "KDE SOCKS Control Module"
+msgstr "কে.ডি.ই. সকস নিয়ন্ত্রণ মডিউল"
+
+#: socks.cpp:44
+msgid "(c) 2001 George Staikos"
+msgstr "(c) ২০০১ জর্জ স্টাইকস"
+
+#: socks.cpp:92
 msgid "These changes will only apply to newly started applications."
 msgstr ""
 "এই পরিবর্তনগুলি কেবলমাত্র "
@@ -2194,19 +2404,22 @@ msgstr ""
 "অ্যাপলিকেশনের ক্ষেত্রে "
 "প্রযোজ্য হবে।"
 
-#: socks.cpp:84 socks.cpp:117 socks.cpp:122
+#: socks.cpp:94 socks.cpp:127 socks.cpp:132
 msgid "SOCKS Support"
 msgstr "সকস (SOCKS) সাপোর্ট"
 
-#: socks.cpp:116
-msgid "Success! SOCKS was found and initialized."
-msgstr "সফল! সকস (SOCKS) পাওয়া গেছে এবং চালু করা হয়েছে।"
+#: socks.cpp:126
+#, fuzzy
+msgid "Success: SOCKS was found and initialized."
+msgstr ""
+"সফল! সকস (SOCKS) পাওয়া গেছে এবং "
+"চালু করা হয়েছে।"
 
-#: socks.cpp:121
+#: socks.cpp:131
 msgid "SOCKS could not be loaded."
 msgstr "সকস (SOCKS) লোড করা যায়নি।"
 
-#: socks.cpp:260
+#: socks.cpp:270
 #, fuzzy
 msgid ""
 "<h1>SOCKS</h1>"
@@ -2214,9 +2427,8 @@ msgid ""
 "proxy.</p>"
 "<p>SOCKS is a protocol to traverse firewalls as described in <a "
 "href=\"http://rfc.net/rfc1928.html\">RFC 1928</a>. "
-"<p>"
-"If you have no idea what this is and if your system administrator doesn't "
-"tell you to use it, leave it disabled.</p>"
+"<p>If you have no idea what this is and if your system administrator does "
+"not tell you to use it, leave it disabled.</p>"
 msgstr ""
 "<h1></h1>"
 "<p> মডিউল allows আপনি   কে.ডি.ই. support "
@@ -2228,18 +2440,6 @@ msgstr ""
 "আপনার সিস্টেম "
 "অ্যাডমিনস্ট্রেটর আপনি   "
 "ব্যবহার   বাদ   নিষ্ক্রিয়</p>"
-
-#: socks.cpp:271
-msgid "kcmsocks"
-msgstr "kcmsocks"
-
-#: socks.cpp:271
-msgid "KDE SOCKS Control Module"
-msgstr "কে.ডি.ই. সকস নিয়ন্ত্রণ মডিউল"
-
-#: socks.cpp:273
-msgid "(c) 2001 George Staikos"
-msgstr "(c) ২০০১ জর্জ স্টাইকস"
 
 #: useragentdlg.cpp:225
 #, fuzzy
@@ -2301,3 +2501,68 @@ msgstr ""
 "পর ক্লিক ওপর টি জন্য কোন আপনি  "
 " সাহায্য,সহায়কতথ্য."
 
+#~ msgid "You must specify at least one valid proxy address."
+#~ msgstr "আপনাকে অন্তত একটি  বৈধ প্রক্সি অ্যাড্রেস  উল্লেখ করতে হবে"
+
+#~ msgid ""
+#~ "<qt>Make sure that you have specified at least one valid proxy address, "
+#~ "eg. <b>http://192.168.1.20</b>.</qt>"
+#~ msgstr ""
+#~ "<qt> নিশ্চিত করুন যে  আপনি অন্তত একটি বৈধ প্রক্সি অ্যাড্রেস উল্লেখ করেছেন, "
+#~ "উদাহরণস্বরূপ   <b>http://192.168.1.20</b></qt>"
+
+#~ msgid "Duplicate Exception"
+#~ msgstr "ডুপ্লিকেট এক্সেপশন"
+
+#~ msgid ""
+#~ "Enter the address or URL for which the above proxy server should be used:"
+#~ msgstr "যে ঠিকানা বা ইউ-আর-এল জন্য উপরোক্ত প্রক্সি সার্ভার-টি ব্যবহৃত হবে:"
+
+#~ msgid ""
+#~ "<h1>Proxy</h1><p>This module lets you configure your proxy settings.</"
+#~ "p><p>A proxy is a program on another computer that receives requests from "
+#~ "your machine to access a certain web page (or other Internet resources), "
+#~ "retrieves the page and sends it back to you.</p>"
+#~ msgstr ""
+#~ "<h1>প্রক্সি</h1><p>এই মডিউলটি আপনার প্রক্সি সেটিংস কনফিগার করতে সাহায্য করে</"
+#~ "p><p>প্রক্সি হচ্ছে এমন একটি প্রোগ্রাম, যা অন্য একটি কমপিউটারে চলে, এবং আপনার "
+#~ "কমপিউটারের চাহিদা অনুযায়ী ইন্টারনেট থেকে ওয়েব-পেজ ইত্যাদি নামিয়ে আপনার  "
+#~ "কমপিউটারকে ফেরত পাঠায়।</p>"
+
+#~ msgid "R&esLISa Daemon"
+#~ msgstr "R&esLISa ডিমন"
+
+#~ msgid "lan:/ && &rlan:/"
+#~ msgstr "lan:/ && &rlan:/"
+
+#~ msgid "Connect to the Internet directly without using a proxy server."
+#~ msgstr "প্রক্সি সার্ভার ব্যবহার না করে সরাসরি ইন্টারনেট-এ যোগাযোগ"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>\n"
+#~ "Automatically detect and configure the proxy server settings.<p>\n"
+#~ "The configuration file is automatically downloaded using the <b>Web Proxy "
+#~ "Auto-Discovery Protocol (WPAD)</b> specification.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt> এবং টি প্রক্সি সার্ভার মানসমূহ<p> কনফিগারেশন ফাইল আছে স্বয়ংক্রীয় ব্যবহার "
+#~ "টি<b></b>\n"
+#~ "</qt>"
+
+#~ msgid "Address"
+#~ msgstr "অ্যাড্রেস"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>\n"
+#~ "List of addresses that are either exempt or allowed, based on the \"Use "
+#~ "proxy only...\" option, from using the proxy server.<p>If the \"Use proxy "
+#~ "only...\" option is checked, only addresses that match the ones in this "
+#~ "list will be sent through the proxy server.\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt> -র ঐ   হয় অথবা allowed ভিত্তি করে ওপর টি প্রক্সি শুধু অপশন থেকে ব্যবহার টি "
+#~ "প্রক্সি সার্ভার<p> টি প্রক্সি শুধু অপশন আছে শুধু ঐ মিল টি -এ এই তালিকা   টি প্রক্সি "
+#~ "সার্ভার\n"
+#~ "</qt>"
