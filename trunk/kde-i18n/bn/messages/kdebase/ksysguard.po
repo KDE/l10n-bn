@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
-"POT-Creation-Date: 2004-08-24 02:10+0200\n"
+"POT-Creation-Date: 2005-01-17 01:36+0100\n"
 "PO-Revision-Date: 2004-09-22 11:56-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -107,8 +107,9 @@ msgstr ""
 msgid "Update interval:"
 msgstr "আপডেট বিরতি:"
 
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 68
 #: KSGAppletSettings.cc:67 WorkSheetSettings.cc:91 ksgrd/TimerSettings.cc:51
-#: rc.cpp:14
+#: rc.cpp:21
 #, no-c-format
 msgid " sec"
 msgstr " সেকণ্ড"
@@ -236,13 +237,15 @@ msgstr "প্রথম পুরোভূমির রং:"
 msgid "Second foreground color:"
 msgstr "দ্বিতীয় পুরোভূমির রং:"
 
-#: ksgrd/StyleSettings.cc:61 rc.cpp:84
+#. i18n: file ./SensorDisplayLib/SensorLoggerSettingsWidget.ui line 107
+#: ksgrd/StyleSettings.cc:61 rc.cpp:132
 #, no-c-format
 msgid "Alarm color:"
 msgstr "অ্যালার্ম-এর রং:"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 241
 #: SensorDisplayLib/DancingBarsSettings.cc:143 SensorDisplayLib/LogFile.cc:90
-#: ksgrd/StyleSettings.cc:68 rc.cpp:62 rc.cpp:74 rc.cpp:82
+#: ksgrd/StyleSettings.cc:68 rc.cpp:96 rc.cpp:114 rc.cpp:129 rc.cpp:153
 #, no-c-format
 msgid "Background color:"
 msgstr "পটভূমির রং:"
@@ -256,7 +259,7 @@ msgstr "ফন্টের মাপ:"
 msgid "Sensor Colors"
 msgstr "সেনসর-এর রং"
 
-#: ksgrd/ColorPicker.cc:50 ksgrd/StyleSettings.cc:91
+#: ksgrd/StyleSettings.cc:91
 msgid "Change Color..."
 msgstr "রং বদলাও..."
 
@@ -273,7 +276,7 @@ msgstr "সি-পি-ইউ চাপ"
 msgid "Idle Load"
 msgstr "বিশ্রামকালীন চাপ"
 
-#: Workspace.cc:96 Workspace.cc:105 ksgrd/SensorManager.cc:52 ksysguard.cc:153
+#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:155
 msgid "System Load"
 msgstr "সিস্টেম চাপ"
 
@@ -321,7 +324,7 @@ msgstr "ফাঁকা মেমরি"
 msgid "Process Count"
 msgstr "প্রসেস গণনা"
 
-#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:143
+#: ksgrd/SensorManager.cc:64 ksgrd/SensorManager.cc:144
 msgid "Process Controller"
 msgstr "প্রসেস নিয়ন্ত্রক"
 
@@ -431,7 +434,7 @@ msgstr "সকেট"
 msgid "Total Number"
 msgstr "মোট সংখ্যা"
 
-#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:144
+#: ksgrd/SensorManager.cc:91 ksgrd/SensorManager.cc:145
 msgid "Table"
 msgstr "টেবিল"
 
@@ -452,109 +455,114 @@ msgid "Battery Charge"
 msgstr "ব্যাটারির চার্জ"
 
 #: ksgrd/SensorManager.cc:96
+#, fuzzy
+msgid "Battery Usage"
+msgstr "ব্যাটারির চার্জ"
+
+#: ksgrd/SensorManager.cc:97
 msgid "Remaining Time"
 msgstr "বাকি সময়"
 
-#: ksgrd/SensorManager.cc:97
+#: ksgrd/SensorManager.cc:98
 msgid "Interrupts"
 msgstr ""
 
-#: ksgrd/SensorManager.cc:98
+#: ksgrd/SensorManager.cc:99
 msgid "Load Average (1 min)"
 msgstr "গড়পড়তা চাপ (১ মিনিট)"
 
-#: ksgrd/SensorManager.cc:99
+#: ksgrd/SensorManager.cc:100
 msgid "Load Average (5 min)"
 msgstr "গড়পড়তা চাপ (৫ মিনিট)"
 
-#: ksgrd/SensorManager.cc:100
+#: ksgrd/SensorManager.cc:101
 msgid "Load Average (15 min)"
 msgstr "গড়পড়তা চাপ (১৫ মিনিট)"
 
-#: ksgrd/SensorManager.cc:101
+#: ksgrd/SensorManager.cc:102
 msgid "Clock Frequency"
 msgstr "ক্লক ফ্রিকোয়েন্সি"
 
-#: ksgrd/SensorManager.cc:102
+#: ksgrd/SensorManager.cc:103
 msgid "Hardware Sensors"
 msgstr "হার্ডওয়্যার সেনসর"
 
-#: ksgrd/SensorManager.cc:103
+#: ksgrd/SensorManager.cc:104
 msgid "Partition Usage"
 msgstr "পার্টিশন ব্যবহার"
 
-#: ksgrd/SensorManager.cc:104
+#: ksgrd/SensorManager.cc:105
 msgid "Used Space"
 msgstr "ব্যবহৃত"
 
-#: ksgrd/SensorManager.cc:105
+#: ksgrd/SensorManager.cc:106
 msgid "Free Space"
 msgstr "ফাঁকা জায়গা"
 
-#: ksgrd/SensorManager.cc:106
+#: ksgrd/SensorManager.cc:107
 msgid "Fill Level"
 msgstr "ভর্তির পরিমান"
 
-#: ksgrd/SensorManager.cc:110
+#: ksgrd/SensorManager.cc:111
 #, c-format
 msgid "CPU%1"
 msgstr "সি-পি-ইউ%1"
 
-#: ksgrd/SensorManager.cc:112
+#: ksgrd/SensorManager.cc:113
 #, c-format
 msgid "Disk%1"
 msgstr "ডিস্ক%1"
 
-#: ksgrd/SensorManager.cc:117
+#: ksgrd/SensorManager.cc:118
 #, c-format
 msgid "Fan%1"
 msgstr "পাখা%1"
 
-#: ksgrd/SensorManager.cc:119
+#: ksgrd/SensorManager.cc:120
 #, c-format
 msgid "Temperature%1"
 msgstr "তাপমান%1"
 
-#: ksgrd/SensorManager.cc:122
+#: ksgrd/SensorManager.cc:123
 msgid "Total"
 msgstr "মোট"
 
-#: ksgrd/SensorManager.cc:128
+#: ksgrd/SensorManager.cc:129
 #, c-format
 msgid "Int%1"
 msgstr ""
 
-#: ksgrd/SensorManager.cc:135
+#: ksgrd/SensorManager.cc:136
 msgid ""
 "_: the unit 1 per second\n"
 "1/s"
 msgstr "1/সেকণ্ড"
 
-#: ksgrd/SensorManager.cc:136
+#: ksgrd/SensorManager.cc:137
 msgid "kBytes"
 msgstr "কিলোবাইট"
 
-#: ksgrd/SensorManager.cc:137
+#: ksgrd/SensorManager.cc:138
 msgid ""
 "_: the unit minutes\n"
 "min"
 msgstr "মিনিট"
 
-#: ksgrd/SensorManager.cc:138
+#: ksgrd/SensorManager.cc:139
 msgid ""
 "_: the frequency unit\n"
 "MHz"
 msgstr "মেগাহার্জ"
 
-#: ksgrd/SensorManager.cc:141
+#: ksgrd/SensorManager.cc:142
 msgid "Integer Value"
 msgstr "পূর্ণসংখ্যা মান"
 
-#: ksgrd/SensorManager.cc:142
+#: ksgrd/SensorManager.cc:143
 msgid "Floating Point Value"
 msgstr ""
 
-#: ksgrd/SensorManager.cc:279
+#: ksgrd/SensorManager.cc:280
 msgid "Connection to %1 has been lost."
 msgstr ""
 "%1-এর সঙ্গে যোগাযোগ বিচ্ছিন্ন "
@@ -587,22 +595,22 @@ msgid ""
 "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#: Workspace.cc:49
+#: Workspace.cc:52
 msgid ""
 "This is your work space. It holds your worksheets. You need to create a new "
 "worksheet (Menu File->New) before you can drag sensors here."
 msgstr ""
 
-#: Workspace.cc:101 ksysguard.cc:158
+#: Workspace.cc:104 ksysguard.cc:160
 msgid "Process Table"
 msgstr "প্রসেস তালিকা"
 
-#: Workspace.cc:131
+#: Workspace.cc:134
 #, c-format
 msgid "Sheet %1"
 msgstr "শীট %1"
 
-#: Workspace.cc:159 Workspace.cc:299
+#: Workspace.cc:162 Workspace.cc:302
 msgid ""
 "The worksheet '%1' contains unsaved data.\n"
 "Do you want to save the worksheet?"
@@ -612,35 +620,35 @@ msgstr ""
 "আপনি কি ওয়ার্কশিট-টি সংরক্ষণ "
 "করতে চান?"
 
-#: Workspace.cc:175 Workspace.cc:229
+#: Workspace.cc:178 Workspace.cc:232
 msgid "*.sgrd|Sensor Files"
 msgstr "*.sgrd|সেনসর ফাইল"
 
-#: Workspace.cc:178
+#: Workspace.cc:181
 msgid "Select Worksheet to Load"
 msgstr ""
 "লোড করার জন্য ওয়ার্কশিট বেছে "
 "নিন"
 
-#: Workspace.cc:223 Workspace.cc:263
+#: Workspace.cc:226 Workspace.cc:266
 msgid "You do not have a worksheet that could be saved."
 msgstr ""
 "সংরক্ষণ করার উপযোগী কোন "
 "ওয়ার্কশিট পাওয়া যায়নি"
 
-#: Workspace.cc:233
+#: Workspace.cc:236
 msgid "Save Current Worksheet As"
 msgstr ""
 "ওয়ার্কশিট অন্য নামে সংরক্ষণ "
 "করো"
 
-#: Workspace.cc:314
+#: Workspace.cc:317
 msgid "There are no worksheets that could be deleted."
 msgstr ""
 "মুছে ফেলার উপযোগী কোন "
 "ওয়ার্কশিট পাওয়া যায়নি"
 
-#: Workspace.cc:438
+#: Workspace.cc:441
 msgid "Cannot find file ProcessTable.sgrd."
 msgstr "ফাইল ProcessTable.sgrd পাওয়া যায়নি"
 
@@ -852,14 +860,16 @@ msgstr "বারগ্রাফ সেটিংস সম্পাদনা"
 msgid "Range"
 msgstr "সীমা"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 25
 #: SensorDisplayLib/DancingBarsSettings.cc:50 WorkSheetSettings.cc:48
-#: rc.cpp:32 rc.cpp:66 rc.cpp:76 rc.cpp:90
+#: rc.cpp:48 rc.cpp:102 rc.cpp:120 rc.cpp:144
 #, no-c-format
 msgid "Title"
 msgstr "শিরোনাম"
 
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 36
 #: SensorDisplayLib/DancingBarsSettings.cc:54
-#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:34
+#: SensorDisplayLib/FancyPlotterSettings.cc:63 rc.cpp:51
 #, no-c-format
 msgid "Enter the title of the display here."
 msgstr ""
@@ -904,12 +914,14 @@ msgstr ""
 "সীমা সনাক্তকরণ সক্রিয় করা "
 "হবে।"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:40
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 61
+#: SensorDisplayLib/DancingBarsSettings.cc:84 rc.cpp:60
 #, no-c-format
 msgid "Alarms"
 msgstr "বিপদসংকেত"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:16 rc.cpp:50
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 78
+#: SensorDisplayLib/DancingBarsSettings.cc:87 rc.cpp:24 rc.cpp:75
 #, no-c-format
 msgid "Alarm for Minimum Value"
 msgstr ""
@@ -921,33 +933,38 @@ msgstr ""
 msgid "Enable alarm"
 msgstr "বিপদসংকেত সক্রিয় করো"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:20 rc.cpp:54
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 92
+#: SensorDisplayLib/DancingBarsSettings.cc:92 rc.cpp:30 rc.cpp:81
 #, no-c-format
 msgid "Enable the minimum value alarm."
 msgstr ""
 "সর্বনিম্ন মান বিপদসংকেত "
 "সক্রিয় করো"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:22 rc.cpp:56
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 120
+#: SensorDisplayLib/DancingBarsSettings.cc:95 rc.cpp:33 rc.cpp:84
 #, no-c-format
 msgid "Lower limit:"
 msgstr "নিম্নসীমা:"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:24 rc.cpp:42
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 144
+#: SensorDisplayLib/DancingBarsSettings.cc:105 rc.cpp:36 rc.cpp:63
 #, no-c-format
 msgid "Alarm for Maximum Value"
 msgstr ""
 "সর্বোচ্চ মানের জন্য "
 "বিপদসংকেত"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:28 rc.cpp:46
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 158
+#: SensorDisplayLib/DancingBarsSettings.cc:110 rc.cpp:42 rc.cpp:69
 #, no-c-format
 msgid "Enable the maximum value alarm."
 msgstr ""
 "সর্বাধিক মান বিপদসংকেত "
 "সক্রিয় করো"
 
-#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:30 rc.cpp:48
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 186
+#: SensorDisplayLib/DancingBarsSettings.cc:113 rc.cpp:45 rc.cpp:72
 #, no-c-format
 msgid "Upper limit:"
 msgstr "উর্দ্ধসীমা:"
@@ -1134,7 +1151,8 @@ msgstr "সংখ্যা:"
 msgid "Enter the number of horizontal lines here."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:88
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 35
+#: SensorDisplayLib/FancyPlotterSettings.cc:167 rc.cpp:141
 #, no-c-format
 msgid "Text"
 msgstr ""
@@ -1159,8 +1177,9 @@ msgid ""
 "applet displays. The bar is only visible if the display is large enough."
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:58 rc.cpp:68 rc.cpp:78
-#: rc.cpp:92
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 206
+#: SensorDisplayLib/FancyPlotterSettings.cc:192 rc.cpp:87 rc.cpp:105
+#: rc.cpp:123 rc.cpp:147
 #, no-c-format
 msgid "Colors"
 msgstr "রং"
@@ -1200,15 +1219,15 @@ msgstr "উপরে ওঠাও"
 msgid "Move Down"
 msgstr "নীচে নামাও"
 
-#: SensorDisplayLib/SensorLogger.cc:153 SensorDisplayLib/SensorLoggerDlg.cc:28
+#: SensorDisplayLib/SensorLogger.cc:152 SensorDisplayLib/SensorLoggerDlg.cc:28
 msgid "Sensor Logger"
 msgstr "সেনসর লগার"
 
-#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:382
+#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:381
 msgid "&Properties"
 msgstr "বৈশিষ্ট্যা&বলী"
 
-#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:383
+#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:382
 msgid "&Remove Display"
 msgstr "ডি&সপ্লে সরিয়ে ফেলো"
 
@@ -1246,44 +1265,47 @@ msgstr ""
 "প্রতি মোছো টি দেখাও থেকে "
 "টি</p></qt>"
 
-#: SensorDisplayLib/SensorLogger.cc:138
+#: SensorDisplayLib/SensorLogger.cc:137
 msgid "Logging"
 msgstr "লগিং"
 
-#: SensorDisplayLib/SensorLogger.cc:139 rc.cpp:12
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 48
+#: SensorDisplayLib/SensorLogger.cc:138 rc.cpp:18
 #, no-c-format
 msgid "Timer Interval"
 msgstr "টাইমার বিরতি"
 
-#: SensorDisplayLib/SensorLogger.cc:140
+#: SensorDisplayLib/SensorLogger.cc:139
 msgid "Sensor Name"
 msgstr "সেনসর-এর নাম"
 
-#: SensorDisplayLib/SensorLogger.cc:141
+#: SensorDisplayLib/SensorLogger.cc:140
 msgid "Host Name"
 msgstr "হোস্ট-এর নাম"
 
-#: SensorDisplayLib/SensorLogger.cc:142
+#: SensorDisplayLib/SensorLogger.cc:141
 msgid "Log File"
 msgstr "লগ ফাইল"
 
-#: SensorDisplayLib/SensorLogger.cc:385
+#: SensorDisplayLib/SensorLogger.cc:384
 msgid "&Remove Sensor"
 msgstr "সেনসর &সরিয়ে ফেলো"
 
-#: SensorDisplayLib/SensorLogger.cc:386
+#: SensorDisplayLib/SensorLogger.cc:385
 msgid "&Edit Sensor..."
 msgstr "সেনসর সম্পাদনা করো..."
 
-#: SensorDisplayLib/SensorLogger.cc:398
+#: SensorDisplayLib/SensorLogger.cc:397
 msgid "St&op Logging"
 msgstr "লগিং থামা&ও"
 
-#: SensorDisplayLib/SensorLogger.cc:400
+#: SensorDisplayLib/SensorLogger.cc:399
 msgid "S&tart Logging"
 msgstr "&লগিং শুরু করো"
 
-#: SensorDisplayLib/LogFile.cc:88
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 94
+#: SensorDisplayLib/LogFile.cc:88 rc.cpp:150
+#, no-c-format
 msgid "Foreground color:"
 msgstr "পুরোভূমির রং:"
 
@@ -1479,69 +1501,82 @@ msgstr ""
 msgid "Invalid argument."
 msgstr "অবৈধ আর্গুমেন্ট।"
 
-#: rc.cpp:18 rc.cpp:52
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 89
+#: rc.cpp:27 rc.cpp:78
 #, no-c-format
 msgid "&Enable alarm"
 msgstr "অ্যালার্ম &সক্রিয় করো"
 
-#: rc.cpp:26 rc.cpp:44
+#. i18n: file ./SensorDisplayLib/SensorLoggerDlgWidget.ui line 155
+#: rc.cpp:39 rc.cpp:66
 #, no-c-format
 msgid "E&nable alarm"
 msgstr "অ্যালার্ম সক্রি&য় করো"
 
-#: rc.cpp:36
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 44
+#: rc.cpp:54
 #, no-c-format
 msgid "&Show unit"
 msgstr "&একক দেখাও"
 
-#: rc.cpp:38
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 47
+#: rc.cpp:57
 #, fuzzy, no-c-format
 msgid "Enable this to append the unit to the title of the display."
 msgstr ""
 "সক্রিয় করো এই প্রতি টি একক "
 "প্রতি টি শিরোনাম -র টি দেখাও."
 
-#: rc.cpp:60
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 225
+#: rc.cpp:90
 #, no-c-format
 msgid "Normal digit color:"
 msgstr "স্বাভাবিক সংখ্যার রং:"
 
-#: rc.cpp:64
+#. i18n: file ./SensorDisplayLib/MultiMeterSettingsWidget.ui line 233
+#: rc.cpp:93
 #, no-c-format
 msgid "Alarm digit color:"
 msgstr "অ্যালার্ম সংখ্যার রং:"
 
-#: rc.cpp:70 rc.cpp:80
+#. i18n: file ./SensorDisplayLib/ListViewSettingsWidget.ui line 82
+#: rc.cpp:108 rc.cpp:126
 #, no-c-format
 msgid "Text color:"
 msgstr "লেখার রং:"
 
-#: rc.cpp:72
+#. i18n: file ./SensorDisplayLib/ListViewSettingsWidget.ui line 90
+#: rc.cpp:111
 #, fuzzy, no-c-format
 msgid "Grid color:"
 msgstr "রং:"
 
-#: rc.cpp:86
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 17
+#: rc.cpp:138
 #, no-c-format
 msgid "Log File Settings"
 msgstr "লগ ফাইল সেটিংস"
 
-#: rc.cpp:96
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 187
+#: rc.cpp:161
 #, no-c-format
 msgid "Select Font..."
 msgstr "ফন্ট নির্বাচন..."
 
-#: rc.cpp:98
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 199
+#: rc.cpp:164
 #, no-c-format
 msgid "Filter"
 msgstr "ফিল্টার"
 
-#: rc.cpp:100
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 238
+#: rc.cpp:167
 #, no-c-format
 msgid "&Add"
 msgstr "যো&গ করো"
 
-#: rc.cpp:104
+#. i18n: file ./SensorDisplayLib/LogFileSettings.ui line 254
+#: rc.cpp:173
 #, no-c-format
 msgid "&Change"
 msgstr "&বদলাও"
@@ -1611,11 +1646,11 @@ msgstr "সেনসর ব্রাউজার"
 msgid "Sensor Type"
 msgstr "সেনসর ধরন"
 
-#: SensorBrowser.cc:79
+#: SensorBrowser.cc:81
 msgid "Drag sensors to empty cells of a worksheet or the panel applet."
 msgstr ""
 
-#: SensorBrowser.cc:88
+#: SensorBrowser.cc:90
 #, fuzzy
 msgid ""
 "The sensor browser lists the connected hosts and the sensors that they "
@@ -1633,7 +1668,7 @@ msgstr ""
 "-র একাধিক টানা অন্য ওপর প্রতি "
 "টি দেখাও প্রতি যোগ আরো."
 
-#: SensorBrowser.cc:149
+#: SensorBrowser.cc:151
 msgid "Drag sensors to empty fields in a worksheet."
 msgstr ""
 
@@ -1641,7 +1676,7 @@ msgstr ""
 msgid "KDE system guard"
 msgstr "কে.ডি.ই. সিস্টেম প্রহরী"
 
-#: ksysguard.cc:71 ksysguard.cc:527
+#: ksysguard.cc:71 ksysguard.cc:531
 msgid "KDE System Guard"
 msgstr "কে.ডি.ই. সিস্টেম প্রহরী"
 
@@ -1673,22 +1708,26 @@ msgstr ""
 msgid "&Worksheet Properties"
 msgstr "&ওয়ার্কশিট বৈশিষ্ট্যাবলী"
 
-#: ksysguard.cc:124
+#: ksysguard.cc:122
+msgid "Load Standard Sheets"
+msgstr ""
+
+#: ksysguard.cc:126
 msgid "Configure &Style..."
 msgstr "স্টা&ইল কনফিগার করো..."
 
-#: ksysguard.cc:139
+#: ksysguard.cc:141
 msgid "Do you really want to restore the default worksheets?"
 msgstr ""
 "আপনি কি সত্যিই ডিফল্ট "
 "ওয়ার্কশিট-গুলি পুনঃস্থাপিত "
 "করতে চান?"
 
-#: ksysguard.cc:140
+#: ksysguard.cc:142
 msgid "Reset All Worksheets"
 msgstr "সব ওয়ার্কশিট রিসেট করো"
 
-#: ksysguard.cc:422
+#: ksysguard.cc:411
 #, c-format
 msgid ""
 "_n: 1 Process\n"
@@ -1697,34 +1736,46 @@ msgstr ""
 "একটি প্রসেস\n"
 "%n-টি প্রসেস"
 
-#: ksysguard.cc:432
+#: ksysguard.cc:421
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr "মেমরি: %1 %2 ব্যবহৃত, %3 %4 ফাঁকা"
 
-#: ksysguard.cc:440
+#: ksysguard.cc:479
+msgid "No swap space available"
+msgstr ""
+
+#: ksysguard.cc:481
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr "সোয়্যাপ: %1 %2 ব্যবহৃত, %3 %4 ফাঁকা"
 
-#: ksysguard.cc:486
+#: ksysguard.cc:490
 msgid "Show only process list of local host"
 msgstr ""
 "শুধুমাত্র স্থানীয় হোস্ট-এর "
 "প্রসেস তালিকা দেখাও "
 
-#: ksysguard.cc:487
+#: ksysguard.cc:491
 #, fuzzy
 msgid "Optional worksheet files to load"
 msgstr "অপশনাল প্রতি লোড"
 
-#: ksysguard.cc:529
+#: ksysguard.cc:533
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr ""
 "(C) ১৯৯৬-২০০২ কে-সিস-গার্ড "
 "ডেভেলপারবৃন্দ"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
 msgstr ""
+
+#, fuzzy
+#~ msgid "Foreground Color:"
+#~ msgstr "পুরোভূমির রং:"
+
+#, fuzzy
+#~ msgid "Background Color:"
+#~ msgstr "পটভূমির রং:"
