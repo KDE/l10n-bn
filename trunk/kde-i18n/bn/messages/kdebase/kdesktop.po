@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdesktop\n"
-"POT-Creation-Date: 2004-05-12 09:20+0200\n"
+"POT-Creation-Date: 2004-07-16 01:18+0200\n"
 "PO-Revision-Date: 2004-07-11 10:08-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -12,41 +12,48 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: lock/lockdlg.cc:75
-msgid "<nobr><b>The screen is locked</b><br>"
+#: lock/lockdlg.cc:76
+#, fuzzy
+msgid "<nobr><b>The session is locked</b><br>"
 msgstr ""
 "<nobr><b>স্ক্রীন বন্ধ (লক) করা "
 "আছে</b><br>"
 
-#: lock/lockdlg.cc:76
-msgid "<nobr><b>The screen is locked by %1</b><br>"
+#: lock/lockdlg.cc:77
+#, fuzzy
+msgid "<nobr><b>The session is locked by %1</b><br>"
 msgstr ""
 "<nobr><b>%1 স্ক্রীন বন্ধ (লক) করে "
 "রেখেছে</b><br>"
 
-#: lock/lockdlg.cc:86
-msgid "&Start New Session"
+#: lock/lockdlg.cc:87
+#, fuzzy
+msgid "&Start New Session..."
 msgstr "নতুন সে&শন শুরু করো"
 
-#: lock/lockdlg.cc:187
+#: lock/lockdlg.cc:88
+msgid "Unl&ock"
+msgstr ""
+
+#: lock/lockdlg.cc:188
 msgid "<b>Unlocking failed</b>"
 msgstr "<b>আনলক করার চেষ্টা ব্যর্থ</b>"
 
-#: lock/lockdlg.cc:193
+#: lock/lockdlg.cc:194
 msgid "<b>Warning: Caps Lock on</b>"
 msgstr "<b>সাবধান: ক্যাপস লক চালু</b>"
 
-#: lock/lockdlg.cc:419
+#: lock/lockdlg.cc:420
 #, fuzzy
 msgid ""
-"Cannot unlock the screen, as the authentication system fails to work.\n"
+"Cannot unlock the session because the authentication system failed to work.\n"
 "You must kill kdesktop_lock (pid %1) manually."
 msgstr ""
 "টি পর্দা   টি পরিচয় প্রমাণ "
 "প্রক্রিয়া সিস্টেম প্রতি কাজ "
 "অবশ্যই লক নিজ হাতে."
 
-#: lock/lockdlg.cc:517
+#: lock/lockdlg.cc:518
 #, fuzzy
 msgid ""
 "You have chosen to open another desktop session instead of resuming the "
@@ -73,30 +80,37 @@ msgstr ""
 "এবং টি উপযুক্ত কী (Key) -তে টি একই "
 "সময়."
 
-#: lock/lockprocess.cc:658
-msgid "Will not lock the screen, as unlocking would be impossible:\n"
+#: krootwm.cc:748 lock/lockdlg.cc:529
+msgid "&Start New Session"
+msgstr "নতুন সে&শন শুরু করো"
+
+#: lock/lockprocess.cc:659
+#, fuzzy
+msgid ""
+"Will not lock the session, as unlocking would be impossible:\n"
 msgstr ""
 "স্ক্রীণ লক করা হবে না, কারণ "
 "করলে আর আনলম করা যাবে না:\n"
 
-#: lock/lockprocess.cc:662
+#: lock/lockprocess.cc:663
 msgid "Cannot start <i>kcheckpass</i>."
 msgstr "<i>kcheckpass</i> শুরু করা যায়নি"
 
-#: lock/lockprocess.cc:663
+#: lock/lockprocess.cc:664
 msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not SetUID root."
 msgstr ""
 "<i>kcheckpass</i> কাজ করতে পারছে না। "
 "সম্ভবত SetUID root নয়।"
 
-#: lock/lockprocess.cc:707
+#: lock/lockprocess.cc:708
 msgid "No appropriate greeter plugin configured."
 msgstr ""
 "কোন উপযুক্ত অভ্যর্থনা "
 "প্লাগ-ইন কনফিগার করা নেই"
 
 #: lock/main.cc:51
-msgid "Force screen locking"
+#, fuzzy
+msgid "Force session locking"
 msgstr "জোর করে স্ক্রীণ লক করো"
 
 #: lock/main.cc:52
@@ -114,42 +128,43 @@ msgid "KDesktop Locker"
 msgstr "কে-ডেস্কটপ লকার"
 
 #: lock/main.cc:63
-msgid "Screen Locker for KDesktop"
+#, fuzzy
+msgid "Session Locker for KDesktop"
 msgstr ""
 "কে-ডেস্কটপের জন্য স্ক্রীণ লক "
 "করার প্রোগ্রাম"
 
-#: desktop.cc:661
+#: desktop.cc:666
 msgid "Set as Primary Background Color"
 msgstr ""
 "পটভূমির প্রধান রং হিসেবে "
 "বাছো"
 
-#: desktop.cc:662
+#: desktop.cc:667
 msgid "Set as Secondary Background Color"
 msgstr ""
 "পটভূমির বিকল্প রং হিসেবে "
 "বাছো"
 
-#: desktop.cc:678
+#: desktop.cc:683
 msgid "&Save to Desktop..."
 msgstr "ডেস্ক&টপে সংরক্ষণ করো..."
 
-#: desktop.cc:680
+#: desktop.cc:685
 msgid "Set as &Wallpaper"
 msgstr "&ওয়ালপেপার হিসেবে বেছে নাও "
 
-#: desktop.cc:688
+#: desktop.cc:693
 msgid "Enter a name for the image below:"
 msgstr ""
 "নীচের ছবির জন্য একটি নাম "
 "লিখুন:"
 
-#: desktop.cc:697
+#: desktop.cc:702
 msgid "image.png"
 msgstr "image.png"
 
-#: desktop.cc:745
+#: desktop.cc:754
 msgid ""
 "Could not logout properly.\n"
 "The session manager cannot be contacted. You can try to force a shutdown by "
@@ -165,17 +180,13 @@ msgstr ""
 "ক্ষেত্রে আপনার বর্তমান সেশন "
 "সংরক্ষিত হবে না। "
 
-#: kdiconview.cc:390
+#: kdiconview.cc:395
 msgid "&Rename"
 msgstr "না&ম বদলাও"
 
-#: kdiconview.cc:391
+#: kdiconview.cc:396
 msgid "&Move to Trash"
 msgstr "&আবর্জনার বাক্সে পাঠাও"
-
-#: kdiconview.cc:394
-msgid "&Shred"
-msgstr ""
 
 #: krootwm.cc:129
 msgid "Run Command..."
@@ -185,7 +196,7 @@ msgstr "কমাণ্ড চালাও..."
 msgid "Configure Desktop..."
 msgstr "ডেস্কটপ কনফিগার করো..."
 
-#: krootwm.cc:135 krootwm.cc:332
+#: krootwm.cc:135 krootwm.cc:350
 msgid "Disable Desktop Menu"
 msgstr "ডেস্কটপ মেনু নিষ্ক্রিয় করো "
 
@@ -198,78 +209,94 @@ msgid "Cascade Windows"
 msgstr "উইণ্ডো সাজাও"
 
 #: krootwm.cc:147
-msgid "By Name"
-msgstr "নাম অনুসারে"
+msgid "By Name (Case Sensitive)"
+msgstr ""
 
 #: krootwm.cc:149
+msgid "By Name (Case Insensitive)"
+msgstr ""
+
+#: krootwm.cc:151
 msgid "By Size"
 msgstr "আয়তন অনুসারে"
 
-#: krootwm.cc:151
+#: krootwm.cc:153
 msgid "By Type"
 msgstr "ধরন অনুসারে"
 
-#: krootwm.cc:154
+#: krootwm.cc:155
+#, fuzzy
+msgid "By Date"
+msgstr "নাম অনুসারে"
+
+#: krootwm.cc:158
 msgid "Directories First"
 msgstr "আগে ফোল্ডার"
 
-#: krootwm.cc:157
+#: krootwm.cc:161
 msgid "Line Up Horizontally"
 msgstr "অনুভূমিকভাবে সারিবদ্ধ করো"
 
-#: krootwm.cc:160
+#: krootwm.cc:164
 msgid "Line Up Vertically"
 msgstr "লম্বালম্বি সারিবদ্ধ করো"
 
-#: krootwm.cc:163
+#: krootwm.cc:167
 msgid "Align to Grid"
 msgstr "শ্রেণীবদ্ধ করে সাজাও"
 
-#: krootwm.cc:169
+#: krootwm.cc:174
 msgid "Refresh Desktop"
 msgstr "ডেস্কটপ নতুন করে পড়ো"
 
-#: kdesktopbindings.cpp:30 krootwm.cc:175
-msgid "Lock Screen"
+#: kdesktopbindings.cpp:30 krootwm.cc:180
+#, fuzzy
+msgid "Lock Session"
 msgstr "স্ক্রীণ লক করো"
 
-#: krootwm.cc:180
+#: krootwm.cc:185
 msgid "Logout \"%1\"..."
 msgstr "\"%1\"-কে লগ-আউট করো..."
 
-#: krootwm.cc:191
-msgid "Start New Session"
+#: krootwm.cc:196
+#, fuzzy
+msgid "Start New Session..."
 msgstr "নতুন সেশন শুরু করো"
 
-#: krootwm.cc:310 krootwm.cc:388
+#: krootwm.cc:328 krootwm.cc:406
 msgid "Sort Icons"
 msgstr "আইকন সাজাও"
 
-#: krootwm.cc:312
+#: krootwm.cc:330
 msgid "Line Up Icons"
 msgstr "আইকন সারিবদ্ধ করো"
 
-#: krootwm.cc:339
+#: krootwm.cc:357
 msgid "Enable Desktop Menu"
 msgstr "ডেস্কটপ মেনু সক্রিয় করো "
 
-#: krootwm.cc:395
+#: krootwm.cc:413
 msgid "Icons"
 msgstr "আইকন"
 
-#: krootwm.cc:401 krootwm.cc:455
+#: krootwm.cc:419 krootwm.cc:473
 msgid "Windows"
 msgstr "উইণ্ডো"
 
-#: krootwm.cc:448
+#: krootwm.cc:466
 msgid "New"
 msgstr "নতুন"
 
-#: kdesktopbindings.cpp:14 krootwm.cc:454 krootwm.cc:632
+#: kdesktopbindings.cpp:14 krootwm.cc:472 krootwm.cc:679
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
-#: krootwm.cc:696
+#: krootwm.cc:743
+#, fuzzy
+msgid "Warning - New Session"
+msgstr "নতুন সেশন শুরু করো"
+
+#: krootwm.cc:751
 #, fuzzy
 msgid ""
 "<p>You have chosen to open another desktop session."
@@ -277,7 +304,7 @@ msgid ""
 "displayed."
 "<br>An F-key is assigned to each session; F%1 is usually assigned to the "
 "first session, F%2 to the second session and so on. You can switch between "
-"sessions by pressing CTRL, ALT and the appropriate F-key at the same "
+"sessions by pressing Ctrl, Alt and the appropriate F-key at the same "
 "time.</p>"
 msgstr ""
 "<p> নির্বাচিত প্রতি খোলা,পড়া, "
@@ -295,29 +322,37 @@ msgstr ""
 "এবং টি উপযুক্ত কী (Key) -তে টি একই "
 "সময়</p>"
 
-#: main.cc:42
-msgid "The KDE Desktop."
+#: krootwm.cc:763
+#, fuzzy
+msgid "&Lock current session"
+msgstr "স্ক্রীণ লক করো"
+
+#: main.cc:43
+#, fuzzy
+msgid "The KDE desktop"
 msgstr "কে.ডি.ই. ডেস্কটপ"
 
-#: main.cc:48
+#: main.cc:49
 msgid "Use this if the desktop window appears as a real window"
 msgstr ""
 "ডেস্কটপ উইণ্ডো প্রকৃত "
 "উইণ্ডোর মত দেখতে হলে এটি "
 "ব্যবহার করুন"
 
-#: main.cc:49
+#: main.cc:50
 msgid "Use this to disable the Autostart folder"
 msgstr ""
 "অটোস্টার্ট ফোল্ডারটি "
 "নিষ্ক্রিয় করতে এটি ব্যবহার "
 "করুন"
 
-#: main.cc:50
+#: main.cc:51
 msgid "Wait for kded to finish building database"
-msgstr "kded ডেটাবেস তৈরি শেষ করা অবধি অপেক্ষা করুন"
+msgstr ""
+"kded ডেটাবেস তৈরি শেষ করা অবধি "
+"অপেক্ষা করুন"
 
-#: main.cc:142
+#: main.cc:143
 msgid "KDesktop"
 msgstr "কে-ডেস্কটপ"
 
@@ -361,7 +396,7 @@ msgstr "জিজ্ঞাসা না করে শাটডাউন"
 msgid "Reboot without Confirmation"
 msgstr "জিজ্ঞাসা না করে রিবুট"
 
-#: minicli.cpp:90 minicli.cpp:625
+#: minicli.cpp:90 minicli.cpp:624
 msgid "&Options >>"
 msgstr "&অপশন >>"
 
@@ -369,54 +404,61 @@ msgstr "&অপশন >>"
 msgid "&Run"
 msgstr "চালা&ও"
 
-#: minicli.cpp:393
+#: minicli.cpp:394
 msgid "<qt>The user <b>%1</b> does not exist on this system.</qt>"
 msgstr ""
 "<qt>এই সিস্টেমে <b>%1</b> নামক কোন "
 "ব্যবহারকারী নেই</qt>"
 
-#: minicli.cpp:403
-msgid "You don't exist!\n"
-msgstr "আপনার কোন অস্তিত্ব নেই!\n"
+#: minicli.cpp:404
+#, fuzzy
+msgid ""
+"You do not exist.\n"
+msgstr ""
+"আপনার কোন অস্তিত্ব নেই!\n"
 
-#: minicli.cpp:428
-msgid "Incorrect password! Please try again."
+#: minicli.cpp:429
+#, fuzzy
+msgid "Incorrect password; please try again."
 msgstr ""
 "ভুল পাসওয়ার্ড! আবার চেষ্টা "
 "করুন।"
 
-#: minicli.cpp:539
+#: minicli.cpp:537
+#, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
-"You do not have permission to execute this command!"
+"You do not have permission to execute this command."
 msgstr ""
 "<center><b>%1</b></center>\n"
 "আপনার এই কমান্ডটি চালাবার "
 "অনুমতি নেই!"
 
-#: minicli.cpp:564
+#: minicli.cpp:563
+#, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
-"Could not run the specified command!"
+"Could not run the specified command."
 msgstr ""
 "<center><b>%1</b></center>\n"
 "নির্বাচিত কমান্ডটি চালানো "
 "যায়নি!"
 
-#: minicli.cpp:576
+#: minicli.cpp:575
+#, fuzzy
 msgid ""
 "<center><b>%1</b></center>\n"
-"The specified command does not exist!"
+"The specified command does not exist."
 msgstr ""
 "<center><b>%1</b></center>\n"
 "নির্বাচিত কমান্ডটির কোন "
 "অস্তিত্ব নেই!"
 
-#: minicli.cpp:613
+#: minicli.cpp:612
 msgid "&Options <<"
 msgstr "&অপশন <<"
 
-#: minicli.cpp:821
+#: minicli.cpp:817
 #, fuzzy
 msgid ""
 "Running a realtime application can be very dangerous. If the application "
@@ -428,16 +470,22 @@ msgstr ""
 "নিশ্চিত আপনি চাই প্রতি চলিয়ে "
 "যাও?"
 
-#: minicli.cpp:824
+#: minicli.cpp:820
 msgid "Warning - Run Command"
 msgstr "সতর্কবার্তা - কমান্ড চালাও"
 
-#: rc.cpp:4
+#: minicli.cpp:820
+#, fuzzy
+msgid "&Run Realtime"
+msgstr "না&ম বদলাও"
+
+#: rc.cpp:5
+#, no-c-format
 msgid "Run with realtime &scheduling"
 msgstr "realtime &scheduling সমেত চালাও"
 
-#: rc.cpp:5
-#, fuzzy
+#: rc.cpp:7
+#, fuzzy, no-c-format
 msgid ""
 "<qt>Select whether realtime scheduling should be enabled for the "
 "application. The scheduler governs which process will run and which will "
@@ -472,33 +520,38 @@ msgstr ""
 "</ul>\n"
 "</qt>"
 
-#: rc.cpp:6
+#: rc.cpp:14
+#, fuzzy, no-c-format
 msgid "User&name:"
 msgstr "ব্যবহা&রকারী:"
 
-#: rc.cpp:7 rc.cpp:17
+#: rc.cpp:16 rc.cpp:36
+#, no-c-format
 msgid "Enter the user you want to run the application as here."
 msgstr ""
 "যে ব্যবহারকারী হিসেবে এই "
 "অ্যাপলিকেশনটি চালাতে চান "
 "এখানে তার নাম লিখুন।"
 
-#: rc.cpp:8 rc.cpp:10
+#: rc.cpp:18 rc.cpp:22
+#, no-c-format
 msgid "Enter the password here for the user you specified above."
 msgstr ""
 "এখানে উপরোক্ত ব্যবহারকারীর "
 "পাসওয়ার্ড লিখুন।"
 
-#: rc.cpp:9
+#: rc.cpp:20
+#, no-c-format
 msgid "Pass&word:"
 msgstr "পা&সওয়ার্ড:"
 
-#: rc.cpp:11
+#: rc.cpp:24
+#, no-c-format
 msgid "Run in &terminal window"
 msgstr "টার্মিনাল &উইণ্ডোয় চালাও"
 
-#: rc.cpp:12
-#, fuzzy
+#: rc.cpp:26
+#, fuzzy, no-c-format
 msgid ""
 "Check this option if the application you want to run is a text mode "
 "application. The application will then be run in a terminal emulator window."
@@ -510,12 +563,13 @@ msgstr ""
 "ইঞ্চি একটি টার্মিনাল "
 "এমুলেটর উইণ্ডো."
 
-#: rc.cpp:13
+#: rc.cpp:28
+#, no-c-format
 msgid "&Priority:"
 msgstr "&অগ্রগণ্যতা:"
 
-#: rc.cpp:14 rc.cpp:19 rc.cpp:21 rc.cpp:22
-#, fuzzy
+#: rc.cpp:30 rc.cpp:40 rc.cpp:44 rc.cpp:46
+#, fuzzy, no-c-format
 msgid ""
 "The priority that the command will be run with can be set here. From left to "
 "right, it goes from low to high. The center position is the default value. "
@@ -534,12 +588,13 @@ msgstr ""
 "আপনি   প্রয়োজন প্রতি সরবরাহ "
 "টি মূল পাসওয়ার্ড."
 
-#: rc.cpp:15
+#: rc.cpp:32
+#, no-c-format
 msgid "Run with a &different priority"
 msgstr "&অন্য অগ্রগণ্যতা সমেত চালাও"
 
-#: rc.cpp:16
-#, fuzzy
+#: rc.cpp:34
+#, fuzzy, no-c-format
 msgid ""
 "Check this option if you want to run the application with a different "
 "priority. A higher priority tells the operating system to give more "
@@ -553,22 +608,25 @@ msgstr ""
 "প্রসেস করা সময় প্রতি আপনার "
 "অ্যাপলিকেশন."
 
-#: rc.cpp:18
+#: rc.cpp:38
+#, no-c-format
 msgid "Low"
 msgstr "কম"
 
-#: rc.cpp:20
+#: rc.cpp:42
+#, no-c-format
 msgid "High"
 msgstr "বেশী"
 
-#: rc.cpp:23
+#: rc.cpp:48
+#, no-c-format
 msgid "Run as a different &user"
 msgstr ""
 "অন্য ব্য&বহারকারী হিসেবে "
 "চালাও"
 
-#: rc.cpp:24
-#, fuzzy
+#: rc.cpp:50
+#, fuzzy, no-c-format
 msgid ""
 "Check this option if you want to run the application with a different user "
 "id. Every process has a user id associated with it. This id code determines "
@@ -588,12 +646,13 @@ msgstr ""
 "ব্যবহারকারী আছে প্রয়োজনীয় "
 "প্রতি এই."
 
-#: rc.cpp:25
+#: rc.cpp:52
+#, no-c-format
 msgid "Com&mand:"
 msgstr "কমান্ড (&ম):"
 
-#: rc.cpp:26 rc.cpp:28
-#, fuzzy
+#: rc.cpp:54 rc.cpp:57
+#, fuzzy, no-c-format
 msgid ""
 "Enter the command you wish to execute or the address of the resource you "
 "want to open. This can be a remote URL like \"www.kde.org\" or a local one "
@@ -606,11 +665,10 @@ msgstr ""
 "ইউ-আর-এল মতন www কে-ডি-ই org অথবা "
 "একটি স্থানীয় এক মতন."
 
-#: rc.cpp:29
-#, fuzzy
+#: rc.cpp:59
+#, fuzzy, no-c-format
 msgid "Enter the name of the application you want to run or the URL you want to view"
 msgstr ""
 "টি নাম -র টি অ্যাপলিকেশন আপনি "
 "চাই প্রতি চালাও অথবা টি "
 "ইউ-আর-এল আপনি চাই প্রতি দেখাও"
-

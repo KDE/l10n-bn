@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kreversi\n"
-"POT-Creation-Date: 2004-05-30 10:37+0200\n"
+"POT-Creation-Date: 2004-07-16 01:20+0200\n"
 "PO-Revision-Date: 2004-05-13 21:13-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -24,31 +24,78 @@ msgid ""
 "Your emails"
 msgstr "progga@BengaLinux.Org"
 
-#: kreversi.cpp:125
+#: board.cpp:170
+msgid "Illegal move"
+msgstr ""
+
+#: board.cpp:357
+msgid "Click"
+msgstr ""
+
+#: highscores.cpp:29
+#, fuzzy
+msgid "1 (Beginner)"
+msgstr "নবীন"
+
+#: highscores.cpp:30
+msgid "2"
+msgstr ""
+
+#: highscores.cpp:31
+msgid "3"
+msgstr ""
+
+#: highscores.cpp:32
+#, fuzzy
+msgid "4 (Average)"
+msgstr "গড়পড়তা"
+
+#: highscores.cpp:33
+msgid "5"
+msgstr ""
+
+#: highscores.cpp:34
+msgid "6"
+msgstr ""
+
+#: highscores.cpp:35
+#, fuzzy
+msgid "7 (Expert)"
+msgstr "অভিজ্ঞ"
+
+#: highscores.cpp:72
+msgid "anonymous"
+msgstr ""
+
+#: kreversi.cpp:128
 msgid "&Stop Thinking"
 msgstr "চিন্তাভাবনা শে&ষ করুন"
 
-#: kreversi.cpp:127
+#: kreversi.cpp:130
 msgid "&Continue Thinking"
 msgstr "ভা&বতে থাকুন"
 
-#: kreversi.cpp:129
+#: kreversi.cpp:132
 msgid "S&witch Sides"
 msgstr "গুটির দিক পাল্টা&ও"
 
-#: kreversi.cpp:136
-msgid "&Play Sounds"
-msgstr "&শব্দ বাজাও"
+#: kreversi.cpp:140
+msgid "You"
+msgstr ""
 
-#: kreversi.cpp:173
+#: kreversi.cpp:165
 msgid "Game saved."
 msgstr "খেলা সংরক্ষণ করা হয়েছে।"
 
-#: kreversi.cpp:223
+#: kreversi.cpp:176
 msgid "End of game"
 msgstr "খেল খতম"
 
-#: kreversi.cpp:233
+#: kreversi.cpp:186
+msgid "Draw!"
+msgstr ""
+
+#: kreversi.cpp:187
 msgid ""
 "Game is drawn!\n"
 "\n"
@@ -61,17 +108,22 @@ msgstr ""
 "আপনি     : %1\n"
 "কম্পিউটার: %2"
 
-#: kreversi.cpp:234 kreversi.cpp:245 kreversi.cpp:261
+#: kreversi.cpp:188 kreversi.cpp:194 kreversi.cpp:200
 msgid "Game Ended"
 msgstr "খেলা শেষ হয়েছে"
 
-#: kreversi.cpp:243
+#: kreversi.cpp:191
+#, fuzzy
+msgid "Game won!"
+msgstr "খেলা শেষ হয়েছে"
+
+#: kreversi.cpp:192
+#, fuzzy
 msgid ""
 "Congratulations, you have won!\n"
 "\n"
 "You     : %1\n"
-"Computer: %2\n"
-"Your rating %3%"
+"Computer: %2"
 msgstr ""
 "অভিনন্দন, আপনি জয়ী হয়েছেন!\n"
 "\n"
@@ -79,15 +131,11 @@ msgstr ""
 "কম্পিউটার: %2\n"
 "আপনার অবস্থান %3%"
 
-#: kreversi.cpp:249 kreversi.cpp:307
-msgid "Rating"
-msgstr "অবস্থান"
+#: kreversi.cpp:197
+msgid "Game lost!"
+msgstr ""
 
-#: kreversi.cpp:250 kreversi.cpp:308
-msgid "Score"
-msgstr "স্কোর"
-
-#: kreversi.cpp:259
+#: kreversi.cpp:198
 msgid ""
 "You have lost the game!\n"
 "\n"
@@ -99,138 +147,178 @@ msgstr ""
 "আপনি     : %1\n"
 "কম্পিউটার: %2"
 
-#: kreversi.cpp:271
+#: kreversi.cpp:213
 msgid "Your turn"
 msgstr "আপনার পালা"
 
-#: kreversi.cpp:273
+#: kreversi.cpp:215
 msgid "Computer's turn"
 msgstr "কম্পিউটারের পালা"
 
-#: kreversi.cpp:321
+#: kreversi.cpp:252
 msgid "General"
 msgstr "সাধারণ"
 
-#: main.cpp:47
+#: kreversi.cpp:277
+msgid "If you switch side, your score will not be added to the highscores."
+msgstr ""
+
+#: main.cpp:49
 msgid "KDE Board Game"
 msgstr "কেডিই'র বোর্ডভিত্তিক খেলা"
 
-#: main.cpp:51
+#: main.cpp:55
 msgid "KReversi"
 msgstr "কে-রিভার্সি"
 
-#: main.cpp:56
+#: main.cpp:60
 msgid "Game engine, ported from his JAVA applet."
 msgstr ""
 "তাঁর জাভা অ্যাপলেট থেকে গেম "
 "ইঞ্জিন পোর্ট করা হয়েছে।"
 
-#: main.cpp:57
+#: main.cpp:61
 msgid "Comments and bugfixes."
 msgstr "মন্তব্য ও বাগ-সংশোধনী।"
 
-#: main.cpp:58
+#: main.cpp:62
 msgid "Raytraced chips."
 msgstr "রে-ট্রেস্‌ড (Raytraced) চিপ।"
 
-#: rc.cpp:2
+#: rc.cpp:4
+#, no-c-format
 msgid "&Move"
 msgstr "চা&ল"
 
-#: rc.cpp:5
+#: rc.cpp:8
+#, no-c-format
 msgid "Settings"
 msgstr "সেটিংস"
 
-#: rc.cpp:6
+#: rc.cpp:10
+#, no-c-format
 msgid "Background"
 msgstr "পটভূমি"
 
-#: rc.cpp:7
+#: rc.cpp:12
+#, no-c-format
 msgid "Color:"
 msgstr "রং:"
 
-#: rc.cpp:8
+#: rc.cpp:14
+#, no-c-format
 msgid "Image:"
 msgstr "ছবি:"
 
-#: rc.cpp:10
+#: rc.cpp:17
+#, no-c-format
 msgid "Grayscale chips"
 msgstr "গ্রে-স্কেল চিপ"
 
-#: rc.cpp:11
+#: rc.cpp:19
+#, no-c-format
 msgid "Animation"
 msgstr "অ্যানিমেশন"
 
-#: rc.cpp:12
+#: rc.cpp:21
+#, no-c-format
 msgid "Animation Speed"
 msgstr "অ্যানিমেশনের গতি"
 
-#: rc.cpp:13
+#: rc.cpp:23
+#, no-c-format
 msgid "Slow"
 msgstr "ধীর"
 
-#: rc.cpp:14
+#: rc.cpp:25
+#, no-c-format
 msgid "Fast"
 msgstr "দ্রুত"
 
-#: rc.cpp:15
+#: rc.cpp:27
+#, no-c-format
 msgid "Computer Skill"
 msgstr "কম্পিউটারের দক্ষতা"
 
-#: rc.cpp:16
+#: rc.cpp:29
+#, no-c-format
 msgid "Beginner"
 msgstr "নবীন"
 
-#: rc.cpp:17
+#: rc.cpp:31
+#, no-c-format
 msgid "Expert"
 msgstr "অভিজ্ঞ"
 
-#: rc.cpp:18
+#: rc.cpp:33
+#, no-c-format
 msgid "Average"
 msgstr "গড়পড়তা"
 
-#: rc.cpp:19
+#: rc.cpp:35
+#, no-c-format
 msgid "Whether to use a grayscale board instead of colored."
 msgstr ""
 "রঙিন বোর্ডের পরিবর্তে "
 "সাদা-কালো বোর্ড ব্যবহার করা "
 "হবে কিনা।"
 
-#: rc.cpp:20
+#: rc.cpp:37
+#, no-c-format
 msgid "Whether to use animations."
 msgstr ""
 "অ্যানিমেশন ব্যবহার করা হবে "
 "কিনা।"
 
-#: rc.cpp:21
+#: rc.cpp:39
+#, no-c-format
 msgid "The speed of the animations."
 msgstr "অ্যানিমেশনের গতি।"
 
-#: rc.cpp:22
+#: rc.cpp:41
+#, no-c-format
 msgid "The zoom factor of the board."
 msgstr "বোর্ডের জুম (Zoom) মাত্রা।"
 
-#: rc.cpp:23
+#: rc.cpp:43
+#, no-c-format
 msgid "The strength of the computer player."
 msgstr "কম্পিউটার খেলোয়াড়ের দক্ষতা।"
 
-#: rc.cpp:24
+#: rc.cpp:45
+#, no-c-format
 msgid "Whether to use a background image."
 msgstr ""
 "পটভূমিতে কোন ছবি ব্যবহার করা "
 "হবে কিনা।"
 
-#: rc.cpp:25
+#: rc.cpp:47
+#, no-c-format
 msgid "The background color to use."
 msgstr ""
 "পটভূমিতে যে রং ব্যবহার করা "
 "হবে।"
 
-#: rc.cpp:26
+#: rc.cpp:49
+#, no-c-format
 msgid "Image to use as background."
 msgstr ""
 "পটভূমিতে যে ছবি ব্যবহার করা "
 "হবে।"
+
+#: rc.cpp:51
+#, no-c-format
+msgid "Whether the menubar is visible."
+msgstr ""
+
+#~ msgid "&Play Sounds"
+#~ msgstr "&শব্দ বাজাও"
+
+#~ msgid "Rating"
+#~ msgstr "অবস্থান"
+
+#~ msgid "Score"
+#~ msgstr "স্কোর"
 
 #~ msgid "XXXXX's turn"
 #~ msgstr "XXXXX-এর পালা"

@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
-"POT-Creation-Date: 2004-04-15 09:31+0200\n"
+"POT-Creation-Date: 2004-07-16 01:20+0200\n"
 "PO-Revision-Date: 2004-05-14 08:11-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -76,7 +76,7 @@ msgstr ""
 "*.layout|বোর্ড বিন্যাস (*.layout)\n"
 "*|সকল ফাইল"
 
-#: Editor.cpp:278 Preview.cpp:282
+#: Editor.cpp:278 Preview.cpp:189
 msgid "Open Board Layout"
 msgstr "বোর্ড বিন্যাস খোলো"
 
@@ -84,13 +84,13 @@ msgstr "বোর্ড বিন্যাস খোলো"
 msgid "Save Board Layout"
 msgstr "বোর্ড বিন্যাস সংরক্ষণ করো"
 
-#: Editor.cpp:318 Preview.cpp:534 kmahjongg.cpp:538
+#: Editor.cpp:318 Preview.cpp:436 kmahjongg.cpp:528
 msgid "Only saving to local files currently supported."
 msgstr ""
 "বর্তমানে শুধুমাত্র স্থানীয় "
 "ফাইলেই সংরক্ষণ করা যায়।"
 
-#: Editor.cpp:329 Preview.cpp:545
+#: Editor.cpp:329 Preview.cpp:447
 msgid "A file with that name already exists. Do you wish to overwrite it?"
 msgstr ""
 "এই নামে একটি ফাইল ইতিমধ্যেই "
@@ -151,72 +151,77 @@ msgstr ""
 "তারপরও রিসেট করতে চান?"
 
 #: HighScore.cpp:502
-msgid "Reset high scores"
+#, fuzzy
+msgid "Reset High Scores"
 msgstr "সেরা স্কোর রিসেট করো"
 
-#: Preview.cpp:67
+#: Preview.cpp:35
 msgid "Load"
 msgstr "লোড"
 
-#: Preview.cpp:168
+#: Preview.cpp:88
 msgid "Change Background Image"
 msgstr "পটভূমির চিত্র পরিবর্তন করো"
 
-#: Preview.cpp:170
+#: Preview.cpp:90
+#, fuzzy
 msgid ""
 "*.bgnd|Background Image\n"
-"*.bmp|Windows bitmap file (*.bmp)\n"
+"*.bmp|Windows Bitmap File (*.bmp)\n"
 msgstr ""
 "*.bgnd|পটভূমির চিত্র\n"
 "*.bmp|উইন্ডোস বিটম্যাপ ফাইল (*.bmp)\n"
 
-#: Preview.cpp:174
+#: Preview.cpp:95
 msgid "Change Tile Set"
 msgstr "গুটির সেট পরিবর্তন করো"
 
-#: Preview.cpp:175
+#: Preview.cpp:96
+#, fuzzy
 msgid ""
-"*.tileset|Tile set file\n"
+"*.tileset|Tile Set File\n"
 msgstr ""
 "*.tileset|গুটির সেটের ফাইল\n"
 
-#: Preview.cpp:179
+#: Preview.cpp:101
+#, fuzzy
 msgid ""
-"*.layout|Board layout file\n"
+"*.layout|Board Layout File\n"
 msgstr ""
 "*.layout|বোর্ড বিন্যাসের ফাইল\n"
 
-#: Preview.cpp:180
+#: Preview.cpp:102
 msgid "Change Board Layout"
 msgstr ""
 "বোর্ডের বিন্যাস পরিবর্তন "
 "করো"
 
-#: Preview.cpp:185
+#: Preview.cpp:107
+#, fuzzy
 msgid ""
-"*.theme|KMahjongg theme\n"
+"*.theme|KMahjongg Theme\n"
 msgstr ""
 ".theme|কে-মাহজং এর থিম (Theme)\n"
 
-#: Preview.cpp:186
+#: Preview.cpp:108
 msgid "Choose Theme"
 msgstr "থিম (Theme) বেছে নিন"
 
-#: Preview.cpp:196
+#: Preview.cpp:119
 msgid ""
 "*|All Files\n"
 msgstr ""
 "*|সকল ফাইল\n"
 
-#: Preview.cpp:338
+#: Preview.cpp:244
 msgid "That is not a valid theme file."
 msgstr "ঐটি কোন বৈধ থিম (Theme) ফাইল নয়।"
 
-#: Preview.cpp:528
+#: Preview.cpp:430
 msgid "Save Theme"
 msgstr "থিম (Theme) সংরক্ষণ করো"
 
-#: Preview.cpp:554 kmahjongg.cpp:545
+#: Preview.cpp:456 kmahjongg.cpp:535
 msgid "Could not write to file. Aborting."
 msgstr ""
 "ফাইলে লেখা যায় নি।  লেখার "
@@ -245,17 +250,19 @@ msgstr ""
 "যাবে।"
 
 #: boardwidget.cpp:58
+#, fuzzy, c-format
 msgid ""
 "An error occurred when loading the background image\n"
+"%1"
 msgstr ""
 "পটভূমির ছবি লোড করার সময় "
 "একটি সমস্যা হয়েছে\n"
 
-#: boardwidget.cpp:60
+#: boardwidget.cpp:59
 msgid "KMahjongg will now terminate."
 msgstr "কে-মাহজং এখন বন্ধ হয়ে যাবে।"
 
-#: boardwidget.cpp:68
+#: boardwidget.cpp:67
 msgid ""
 "An error occurred when loading the board layout %1\n"
 "KMahjongg will now terminate."
@@ -265,7 +272,7 @@ msgstr ""
 "তাই কে-মাহজং এখন বন্ধ হয়ে "
 "যাবে।"
 
-#: boardwidget.cpp:124
+#: boardwidget.cpp:123
 msgid ""
 "KMahjongg could not locate the file: %1\n"
 "or the default file of type: %2\n"
@@ -277,70 +284,70 @@ msgstr ""
 "তাই কে-মাহজং এখন বন্ধ হয়ে "
 "যাবে।"
 
-#: boardwidget.cpp:515
+#: boardwidget.cpp:514
 msgid "Undo operation done successfully."
 msgstr "বাতিল করার কাজ সফল হয়েছে।"
 
-#: boardwidget.cpp:519
+#: boardwidget.cpp:518
 msgid "What do you want to undo? You have done nothing!"
 msgstr ""
 "আপনি কি করতে চান?  আপনি তো "
 "কিছুই করেন নি!"
 
-#: boardwidget.cpp:538
+#: boardwidget.cpp:537
 msgid "Sorry, you have lost the game."
 msgstr ""
 "দুঃখিত, আপনি খেলায় হেরে "
 "গিয়েছেন।"
 
-#: boardwidget.cpp:580
+#: boardwidget.cpp:579
 msgid "Demo mode. Click mousebutton to stop."
 msgstr ""
 "প্রদর্শনী মোড।  প্রদর্শনী "
 "বন্ধ করার জন্য মাউসের বাটন "
 "চাপুন।"
 
-#: boardwidget.cpp:589
+#: boardwidget.cpp:588
 msgid "Now it's you again."
 msgstr "আবারো আপনি।"
 
-#: boardwidget.cpp:612
+#: boardwidget.cpp:611
 msgid "Your computer has lost the game."
 msgstr ""
 "আপনার কম্পিউটার খেলায় হেরে "
 "গিয়েছে।"
 
-#: boardwidget.cpp:707
+#: boardwidget.cpp:706
 msgid "Congratulations. You have won!"
 msgstr "অভিনন্দন।  আপনি জয়ী হয়েছেন!"
 
-#: boardwidget.cpp:738
+#: boardwidget.cpp:737
 msgid "Calculating new game..."
 msgstr "নতুন খেলা গণনা করা হচ্ছে..."
 
-#: boardwidget.cpp:743
+#: boardwidget.cpp:742
 msgid "Error converting board information!"
 msgstr ""
 "বোর্ডের তথ্য রূপান্তরে "
 "সমস্যা হয়েছে!"
 
-#: boardwidget.cpp:770
+#: boardwidget.cpp:769
 msgid "Ready. Now it is your turn."
 msgstr "প্রস্তুত।  এবার আপনার পালা।"
 
-#: boardwidget.cpp:777
+#: boardwidget.cpp:776
 msgid "Error generating new game!"
 msgstr ""
 "নতুন খেলা তৈরিতে সমস্যা "
 "হয়েছে!"
 
-#: boardwidget.cpp:1670
+#: boardwidget.cpp:1669
 msgid "Game over: You have no moves left."
 msgstr ""
 "খেল খতম: আপনার আর কোন চাল "
 "অবশিষ্ট নেই।"
 
-#: boardwidget.cpp:1791
+#: boardwidget.cpp:1790
 #, c-format
 msgid ""
 "Failed to load image:\n"
@@ -350,86 +357,94 @@ msgstr ""
 "হয়েছে:\n"
 "%1"
 
-#: kmahjongg.cpp:140
+#: kmahjongg.cpp:137
 msgid "New Numbered Game..."
 msgstr "নতুন নম্বরযুক্ত খেলা..."
 
-#: kmahjongg.cpp:141
+#: kmahjongg.cpp:138
 msgid "Open Th&eme..."
 msgstr "থিম (Theme) খোলো... (&থ)"
 
-#: kmahjongg.cpp:142
+#: kmahjongg.cpp:139
 msgid "Open &Tileset..."
 msgstr "গুটির-সেট খোলো... (&গ)"
 
-#: kmahjongg.cpp:143
+#: kmahjongg.cpp:140
 msgid "Open &Background..."
 msgstr "&পটভূমি খোলো..."
 
-#: kmahjongg.cpp:144
+#: kmahjongg.cpp:141
 msgid "Open La&yout..."
 msgstr "বোর্ড বিন্যাস খোলো... (&ব)"
 
-#: kmahjongg.cpp:145
+#: kmahjongg.cpp:142
 msgid "Sa&ve Theme..."
 msgstr "থিম (Theme) &সংরক্ষণ করো..."
 
-#: kmahjongg.cpp:148
+#: kmahjongg.cpp:145
 msgid "Shu&ffle"
 msgstr "সংমিশ্রণ (&শ)"
 
-#: kmahjongg.cpp:150
+#: kmahjongg.cpp:147
 msgid "Show &Matching Tiles"
 msgstr "&একইরকম গুটি দেখাও"
 
-#: kmahjongg.cpp:163
+#: kmahjongg.cpp:148
+#, fuzzy
+msgid "Hide &Matching Tiles"
+msgstr "&একইরকম গুটি দেখাও"
+
+#: kmahjongg.cpp:161
 msgid "&Board Editor..."
 msgstr "বোর্ড সম্পাদক... (&ব)"
 
-#: kmahjongg.cpp:217
+#: kmahjongg.cpp:212
 msgid "Enter game number:"
 msgstr "খেলার নম্বর লিখুন:"
 
-#: kmahjongg.cpp:244 rc.cpp:6
+#: kmahjongg.cpp:239 rc.cpp:12
+#, no-c-format
 msgid "General"
 msgstr "সাধারণ"
 
-#: kmahjongg.cpp:377
-msgid "Game over: You have won!"
+#: kmahjongg.cpp:367
+#, fuzzy
+msgid "You have won!"
 msgstr "খেল খতম:  আপনি জিতেছেন!"
 
-#: kmahjongg.cpp:408
+#: kmahjongg.cpp:398
 #, c-format
 msgid "Game number: %1"
 msgstr "খেলার নম্বর: %1"
 
-#: kmahjongg.cpp:418
+#: kmahjongg.cpp:408
 msgid "Removed: %1/%2  Pairs left: %3"
 msgstr "অপসারিত: %1%2  অবশিষ্ট জোড়া: %3"
 
-#: kmahjongg.cpp:472
+#: kmahjongg.cpp:462
 msgid "Load Game"
 msgstr "খেলা লোড করো"
 
-#: kmahjongg.cpp:483
+#: kmahjongg.cpp:473
 msgid "Could not read from file. Aborting."
 msgstr ""
 "ফাইল থেকে পড়া যায় নি।  কাজটি "
 "পরিত্যাগ করা হচ্ছে।"
 
-#: kmahjongg.cpp:491
+#: kmahjongg.cpp:481
 msgid "File format not recognized."
 msgstr ""
 "ফাইলের ফরম্যাট সনাক্ত করা "
 "যায় নি।"
 
-#: kmahjongg.cpp:531
+#: kmahjongg.cpp:521
 msgid "Save Game"
 msgstr "খেলা সংরক্ষণ করা যায় নি"
 
 #: main.cpp:8
-msgid "KDE Game"
-msgstr "কেডিই-র খেলার"
+#, fuzzy
+msgid "Mahjongg for KDE"
+msgstr "কে-মাহজং"
 
 #: main.cpp:12
 msgid "KMahjongg"
@@ -463,90 +478,116 @@ msgstr ""
 msgid "Code cleanup"
 msgstr "কোড সুবিন্যস্তকরণ"
 
-#: rc.cpp:3
+#: main.cpp:20
+msgid "Implemented some bugfixes and wishes"
+msgstr ""
+
+#: rc.cpp:6
+#, no-c-format
 msgid "&Move"
 msgstr "চাল (&চ)"
 
-#: rc.cpp:7
+#: rc.cpp:14
+#, no-c-format
 msgid "Show removed tiles"
 msgstr "অপসারিত গুটিগুলো দেখাও"
 
-#: rc.cpp:8
+#: rc.cpp:16
+#, no-c-format
 msgid "Generate solvable games"
 msgstr "সমাধানযোগ্য খেলা তৈরি করো"
 
-#: rc.cpp:9
+#: rc.cpp:18
+#, no-c-format
 msgid "Play winning animation"
 msgstr "জয়সূচক অ্যানিমেশন চালাও"
 
-#: rc.cpp:10
+#: rc.cpp:20
+#, no-c-format
 msgid "Background"
 msgstr "পটভূমি"
 
-#: rc.cpp:11
+#: rc.cpp:22
+#, no-c-format
 msgid "Scale"
 msgstr ""
 
-#: rc.cpp:12
+#: rc.cpp:24
+#, no-c-format
 msgid "Tiled"
 msgstr ""
 
-#: rc.cpp:13
+#: rc.cpp:26
+#, no-c-format
 msgid "Tiles"
 msgstr ""
 
-#: rc.cpp:14
+#: rc.cpp:28
+#, no-c-format
 msgid "Draw shadows"
 msgstr "ছায়া আঁকো"
 
-#: rc.cpp:15
+#: rc.cpp:30
+#, no-c-format
 msgid "Use mini-tiles"
 msgstr ""
 "ক্ষুদ্রাকারের গুটি ব্যবহার "
 "করো"
 
-#: rc.cpp:16
+#: rc.cpp:32
+#, no-c-format
 msgid "The tile-set to use."
 msgstr "যে গুটির-সেট ব্যবহার করা হবে।"
 
-#: rc.cpp:17
+#: rc.cpp:34
+#, no-c-format
 msgid "The background to use."
 msgstr "যে পটভূমি ব্যবহার করা হবে।"
 
-#: rc.cpp:18
+#: rc.cpp:36
+#, no-c-format
 msgid "The layout of the tiles."
 msgstr "গুটির বিন্যাস"
 
-#: rc.cpp:19
+#: rc.cpp:38
+#, no-c-format
 msgid "Whether to show removed tiles."
 msgstr ""
 "অপসারিত গুটি প্রদর্শন করা "
 "হবে কিনা।"
 
-#: rc.cpp:20
+#: rc.cpp:40
+#, no-c-format
 msgid "Whether to use miniature tiles."
 msgstr ""
 "ক্ষুদ্রাকৃতি গুটি ব্যবহার "
 "করা হবে কিনা।"
 
-#: rc.cpp:21
+#: rc.cpp:42
+#, no-c-format
 msgid "Whether the tiles have shadows."
 msgstr "গুটির কোন ছায়া থাকবে কিনা।"
 
-#: rc.cpp:22
+#: rc.cpp:44
+#, no-c-format
 msgid "Whether all games should be solvable."
 msgstr ""
 "সকল খেলাই সমাধানযোগ্য হবে "
 "কিনা।"
 
-#: rc.cpp:23
+#: rc.cpp:46
+#, no-c-format
 msgid "Whether the background should be tiled instead of scaled."
 msgstr ""
 "পটভূমি Scaled-এর পরিবর্তে  Tiled হবে "
 "কিনা।"
 
-#: rc.cpp:24
+#: rc.cpp:48
+#, no-c-format
 msgid "Whether an animation should be played on victory."
 msgstr ""
 "কোন খেলোয়াড়ের জয় হলে "
 "অ্যানিমেশন চালানো হবে কিনা।"
+
+#~ msgid "KDE Game"
+#~ msgstr "কেডিই-র খেলার"

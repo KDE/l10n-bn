@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
-"POT-Creation-Date: 2004-02-12 22:29+0100\n"
+"POT-Creation-Date: 2004-07-16 01:17+0200\n"
 "PO-Revision-Date: 2004-05-22 22:42-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: kcmsmserver.cpp:132
+#: kcmsmserver.cpp:139
 msgid ""
 "<h1>Session Manager</h1> You can configure the session manager here. This "
 "includes options such as whether or not the session exit (logout) should be "
@@ -32,19 +32,23 @@ msgstr ""
 "বন্ধ করার চেষ্টা করা হবে "
 "কিনা।"
 
-#: rc.cpp:1
+#: rc.cpp:2
+#, no-c-format
 msgid "Session Manager"
 msgstr "সেশন ম্যানেজার"
 
-#: rc.cpp:2
+#: rc.cpp:4
+#, no-c-format
 msgid "General"
 msgstr "সাধারণ"
 
-#: rc.cpp:3
+#: rc.cpp:6
+#, no-c-format
 msgid "Conf&irm logout"
 msgstr "ল&গ-আউট অনুমোদন"
 
-#: rc.cpp:4
+#: rc.cpp:8
+#, no-c-format
 msgid ""
 "Check this option if you want the session manager to display a logout "
 "confirmation dialog box."
@@ -55,11 +59,18 @@ msgstr ""
 "বক্স দেখাক, তাহলে এই অপশনটি "
 "সক্রিয় করুন।"
 
-#: rc.cpp:5
+#: rc.cpp:10
+#, no-c-format
+msgid "O&ffer shutdown options"
+msgstr ""
+
+#: rc.cpp:12
+#, no-c-format
 msgid "On Login"
 msgstr "লগ-ইন করাকালীন"
 
-#: rc.cpp:6
+#: rc.cpp:14
+#, fuzzy, no-c-format
 msgid ""
 "<ul>\n"
 "<li><b>Restore previous session:</b> Will save all applications running on "
@@ -67,7 +78,7 @@ msgid ""
 "<li><b>Restore manually saved session: </b> Allows the session to be saved "
 "at any time via \"Save Session\" in the K-Menu. This means the currently "
 "started applications will reappear when they next start up.</li>\n"
-"<li><b>Start with an empty session:</b> Don't save anything. Will come up "
+"<li><b>Start with an empty session:</b> Do not save anything. Will come up "
 "with an empty desktop on next start.</li>\n"
 "</ul>"
 msgstr ""
@@ -95,27 +106,32 @@ msgstr ""
 "না।</li>\n"
 "</ul>"
 
-#: rc.cpp:7
+#: rc.cpp:20
+#, no-c-format
 msgid "Restore &previous session"
 msgstr ""
 "পূর্ব&বর্তী সেশন "
 "পুনঃস্থাপিত করো"
 
-#: rc.cpp:8
+#: rc.cpp:22
+#, no-c-format
 msgid "Restore &manually saved session"
 msgstr ""
 "নিজে হাতে সংরক্ষি&ত সেশন "
 "পুনঃস্থাপিত করো"
 
-#: rc.cpp:9
-msgid "Start with an &empty session"
+#: rc.cpp:24
+#, fuzzy, no-c-format
+msgid "Start with an empty &session"
 msgstr "কো&ন কিছু ছাড়া শুরু করো"
 
-#: rc.cpp:10
-msgid "Default Action After Logout"
-msgstr "লগ-আউট করার পর ডিফল্ট ক্রিয়া"
+#: rc.cpp:26
+#, no-c-format
+msgid "Default Shutdown Option"
+msgstr ""
 
-#: rc.cpp:11
+#: rc.cpp:28
+#, no-c-format
 msgid ""
 "Here you can choose what should happen by default when you log out. This "
 "only has meaning, if you logged in through KDM."
@@ -127,39 +143,48 @@ msgstr ""
 "করে লগ-ইন করা হলেই এই "
 "নির্বাচনগুলি প্রযোজ্য হবে। "
 
-#: rc.cpp:12
-msgid "&Login as different user"
+#: rc.cpp:30
+#, no-c-format
+msgid "&End current session"
 msgstr ""
-"অন্য ব্যবহারকারী হিসাবে "
-"&লগ-ইন করো"
 
-#: rc.cpp:13
+#: rc.cpp:32
+#, no-c-format
 msgid "&Turn off computer"
 msgstr "কমপি&উটার বন্ধ করো"
 
-#: rc.cpp:14
+#: rc.cpp:34
+#, no-c-format
 msgid "&Restart computer"
 msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
 
-#: rc.cpp:15
+#: rc.cpp:36
+#, no-c-format
 msgid "Advanced"
 msgstr "অগ্রসর"
 
-#: rc.cpp:16
-msgid "Applications to be excluded from sessions:"
+#: rc.cpp:38
+#, fuzzy, no-c-format
+msgid "Applications to be e&xcluded from sessions:"
 msgstr ""
 "সেশন থেকে যে সব অ্যাপলিকেশন "
 "বহির্ভূত হবে:"
 
-#: rc.cpp:17
-#, fuzzy
+#: rc.cpp:40
+#, fuzzy, no-c-format
 msgid ""
 "Here you can enter a colon-separated list of applications that should not be "
-"saved in sessions, and therefore won't be started when restoring a session. "
-"For example 'xterm:xconsole'.\n"
+"saved in sessions, and therefore will not be started when restoring a "
+"session. For example 'xterm:xconsole'.\n"
 msgstr ""
 "এখানে আপনি পারে ঢুকুন একটি "
 "কোলন বিচ্ছিন্ন তালিকা -র ঐ "
 "উচিত নয় সংরক্ষিত -এ সেশন এবং "
 "আরম্ভকৃত যখন একটি সেশন জন্য "
 "উদাহরণ"
+
+#~ msgid "Default Action After Logout"
+#~ msgstr "লগ-আউট করার পর ডিফল্ট ক্রিয়া"
+
+#~ msgid "&Login as different user"
+#~ msgstr "অন্য ব্যবহারকারী হিসাবে &লগ-ইন করো"
