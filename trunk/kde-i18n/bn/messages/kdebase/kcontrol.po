@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcontrol\n"
-"POT-Creation-Date: 2004-09-21 10:36+0200\n"
+"POT-Creation-Date: 2005-01-24 01:33+0100\n"
 "PO-Revision-Date: 2004-06-26 14:14-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -53,6 +53,10 @@ msgstr ""
 #: aboutwidget.cpp:48 main.cpp:95
 msgid "KDE Info Center"
 msgstr "কে.ডি.ই তথ্য কেন্দ্র"
+
+#: aboutwidget.cpp:50
+msgid "Get system and desktop environment information"
+msgstr ""
 
 #: aboutwidget.cpp:52
 msgid ""
@@ -186,61 +190,6 @@ msgstr ""
 "href = \"kcontrol/index.html\"> এখানে</a> ক্লিক "
 "করুন। "
 
-#: kcmshell.cpp:56
-msgid "List all possible modules"
-msgstr "সবকটি মডিউলের তালিকা দেখাও"
-
-#: kcmshell.cpp:57
-#, fuzzy
-msgid "Configuration module to open"
-msgstr ""
-"যে কনফিগারেশন মডিউল খোলা "
-"হবে।"
-
-#: kcmshell.cpp:58
-#, fuzzy
-msgid "Specify a particular language"
-msgstr "একটি ভাষা বেছে নিন।"
-
-#: kcmshell.cpp:59
-#, fuzzy
-msgid "Window ID to embed into"
-msgstr ""
-"যে উইনডোতে এমবেড করা হবে তার "
-"আই.ডি.।"
-
-#: kcmshell.cpp:60
-#, fuzzy
-msgid "Do not display main window"
-msgstr "মূল উইনডো দেখিও না।"
-
-#: kcmshell.cpp:158 kcmshell.cpp:248
-msgid "KDE Control Module"
-msgstr "কে.ডি.ই নিয়ন্ত্রণ মডিউল"
-
-#: kcmshell.cpp:160
-msgid "A tool to start single KDE control modules"
-msgstr ""
-"একেকটি কে.ডি.ই নিয়ন্ত্রণ "
-"মডিউল আলাদা করে চালাবার উপায়"
-
-#: kcmshell.cpp:164 main.cpp:115 main.cpp:117
-msgid "Current Maintainer"
-msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
-
-#: kcmshell.cpp:185
-msgid "The following modules are available:"
-msgstr "এই মডিউলগুলি পাওয়া গেছে:"
-
-#: kcmshell.cpp:206
-msgid "No description available"
-msgstr "কোনো বর্ণনা পাওয়া যাচ্ছে না"
-
-#: kcmshell.cpp:254 kcmshell.cpp:341
-#, c-format
-msgid "Configure - %1"
-msgstr "%1 - কনফিগার করো"
-
 #: kcrootonly.cpp:30
 msgid ""
 "<big>You need super user privileges to run this control "
@@ -266,7 +215,11 @@ msgstr ""
 msgid "The KDE Info Center"
 msgstr "কে.ডি.ই তথ্য কেন্দ্র"
 
-#: modules.cpp:153
+#: main.cpp:115 main.cpp:117
+msgid "Current Maintainer"
+msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
+
+#: modules.cpp:154
 msgid "<big>Loading...</big>"
 msgstr "<big>লোড করছি...</big>"
 
@@ -330,12 +283,14 @@ msgstr "পূর্বাবস্থা&য় ফেরাও"
 msgid "&Administrator Mode"
 msgstr "অ্যা&ডমিনস্ট্রেটর মোড"
 
-#: rc.cpp:4 rc.cpp:10
+#. i18n: file kcontrolui.rc line 5
+#: rc.cpp:6 rc.cpp:15
 #, no-c-format
 msgid "&Mode"
 msgstr "মো&ড"
 
-#: rc.cpp:6 rc.cpp:12
+#. i18n: file kcontrolui.rc line 9
+#: rc.cpp:9 rc.cpp:18
 #, no-c-format
 msgid "Icon &Size"
 msgstr "আইক&ন মাপ"
@@ -414,6 +369,40 @@ msgid ""
 "_: Help menu->about <modulename>\n"
 "About %1"
 msgstr "%1 সম্বন্ধে"
+
+#~ msgid "List all possible modules"
+#~ msgstr "সবকটি মডিউলের তালিকা দেখাও"
+
+#, fuzzy
+#~ msgid "Configuration module to open"
+#~ msgstr "যে কনফিগারেশন মডিউল খোলা হবে।"
+
+#, fuzzy
+#~ msgid "Specify a particular language"
+#~ msgstr "একটি ভাষা বেছে নিন।"
+
+#, fuzzy
+#~ msgid "Window ID to embed into"
+#~ msgstr "যে উইনডোতে এমবেড করা হবে তার আই.ডি.।"
+
+#, fuzzy
+#~ msgid "Do not display main window"
+#~ msgstr "মূল উইনডো দেখিও না।"
+
+#~ msgid "KDE Control Module"
+#~ msgstr "কে.ডি.ই নিয়ন্ত্রণ মডিউল"
+
+#~ msgid "A tool to start single KDE control modules"
+#~ msgstr "একেকটি কে.ডি.ই নিয়ন্ত্রণ মডিউল আলাদা করে চালাবার উপায়"
+
+#~ msgid "The following modules are available:"
+#~ msgstr "এই মডিউলগুলি পাওয়া গেছে:"
+
+#~ msgid "No description available"
+#~ msgstr "কোনো বর্ণনা পাওয়া যাচ্ছে না"
+
+#~ msgid "Configure - %1"
+#~ msgstr "%1 - কনফিগার করো"
 
 #~ msgid "List modules that are run at startup."
 #~ msgstr "শুরু করাকালীন চালানো মডিউলগুলির তালিকা দেখাও"
