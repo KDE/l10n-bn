@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kicker\n"
-"POT-Creation-Date: 2003-10-29 01:25+0100\n"
+"POT-Creation-Date: 2004-01-07 01:28+0100\n"
 "PO-Revision-Date: 2003-12-23 11:27-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -30,11 +30,6 @@ msgstr "স্ক্রোল করে উপরে যাও"
 msgid "Scroll down"
 msgstr "স্ক্রোল করে নীচে যাও"
 
-#: buttons/bookmarksbutton.cpp:51 buttons/bookmarksbutton.cpp:52
-#: ui/addspecialbutton_mnu.cpp:52 ui/removespecialbutton_mnu.cpp:72
-msgid "Bookmarks"
-msgstr "বুকমার্ক"
-
 #: buttons/browserbutton.cpp:71
 #, c-format
 msgid "Browse: %1"
@@ -50,7 +45,11 @@ msgstr "ডেস্কটপ দেখাও"
 
 #: buttons/kbutton.cpp:50
 msgid "Click here to browse and start applications"
-msgstr "আপনার কমপিউটারে কী কী অ্যাপলিকেশন আছে ঘুরে ফিরে দেখতে এবং চালাতে এখানে ক্লিক করুন"
+msgstr ""
+"আপনার কমপিউটারে কী কী "
+"অ্যাপলিকেশন আছে ঘুরে ফিরে "
+"দেখতে এবং চালাতে এখানে ক্লিক "
+"করুন"
 
 #: buttons/kbutton.cpp:51
 msgid "Start Applications"
@@ -58,7 +57,9 @@ msgstr "অ্যাপলিকেশন চালান"
 
 #: buttons/nonkdeappbutton.cpp:125 buttons/nonkdeappbutton.cpp:145
 msgid "Cannot execute non-KDE application!"
-msgstr "নন-কে.ডি.ই. অ্যাপলিকেশন চালাতে ব্যর্থ!"
+msgstr ""
+"নন-কে.ডি.ই. অ্যাপলিকেশন "
+"চালাতে ব্যর্থ!"
 
 #: buttons/nonkdeappbutton.cpp:126 buttons/nonkdeappbutton.cpp:146
 msgid "Kicker Error"
@@ -88,23 +89,27 @@ msgstr "%1 অ্যাপলেট হ্যাণ্ডল"
 msgid "%1 menu"
 msgstr "%1 মেনু"
 
-#: core/container_applet.cpp:250
-msgid "The %1 applet could not be loaded. Please check your installation."
-msgstr "অ্যাপলেট %1 লোড করা যায়নি। অনুগ্রহ করে আপনার ইনস্টলেশন পরীক্ষা করুন।"
-
 #: core/container_applet.cpp:251
+msgid "The %1 applet could not be loaded. Please check your installation."
+msgstr ""
+"অ্যাপলেট %1 লোড করা যায়নি। "
+"অনুগ্রহ করে আপনার ইনস্টলেশন "
+"পরীক্ষা করুন।"
+
+#: core/container_applet.cpp:252
 msgid "Applet Loading Error"
 msgstr "অ্যাপলেট লোড করতে সমস্যা"
 
-#: core/container_panel.cpp:433 core/container_panel.cpp:434
+#: core/container_panel.cpp:434 core/container_panel.cpp:435
 msgid "Show panel"
 msgstr "প্যানেল দেখাও"
 
-#: core/container_panel.cpp:436 core/container_panel.cpp:437
+#: core/container_panel.cpp:437 core/container_panel.cpp:438
 msgid "Hide panel"
 msgstr "প্যানেল লুকোও"
 
-#: core/kicker.cpp:237 core/kickerbindings.cpp:16
+#: core/kicker.cpp:237 core/kickerbindings.cpp:16 ui/addcontainer_mnu.cpp:47
+#: ui/removecontainer_mnu.cpp:48
 msgid "Panel"
 msgstr "প্যানেল"
 
@@ -112,7 +117,6 @@ msgstr "প্যানেল"
 msgid "Popup Launch Menu"
 msgstr "মূল মেনু"
 
-# FIXME: check if OK
 #: core/kickerbindings.cpp:21
 msgid "Toggle Showing Desktop"
 msgstr "ডেস্কটপ দেখানো হবে কি না"
@@ -141,13 +145,9 @@ msgstr "অ্যাপলেট"
 msgid "Application Button"
 msgstr "অ্যাপলিকেশন বাটন"
 
-#: ui/addcontainer_mnu.cpp:45 ui/removecontainer_mnu.cpp:47
+#: ui/addcontainer_mnu.cpp:52 ui/removecontainer_mnu.cpp:52
 msgid "Special Button"
 msgstr "বিশেষ বাটন"
-
-#: ui/addcontainer_mnu.cpp:49 ui/removecontainer_mnu.cpp:50
-msgid "Extension"
-msgstr "অতিরিক্ত"
 
 #: ui/addspecialbutton_mnu.cpp:48 ui/k_mnu.cpp:73
 #: ui/removespecialbutton_mnu.cpp:62
@@ -159,11 +159,10 @@ msgid "Windowlist"
 msgstr "উইনডো তালিকা"
 
 #: ui/addspecialbutton_mnu.cpp:54 ui/removespecialbutton_mnu.cpp:77
-# FIXME
 msgid "Desktop Access"
 msgstr "ডেস্কটপ দেখাও"
 
-#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:239
+#: ui/addspecialbutton_mnu.cpp:55 ui/k_mnu.cpp:235
 #: ui/removespecialbutton_mnu.cpp:82
 msgid "Quick Browser"
 msgstr "চটপট ঘোরাঘুরি"
@@ -231,7 +230,6 @@ msgstr "%1 মেনু"
 msgid "Panel Menu"
 msgstr "প্যানেল মেনু"
 
-# FIXME: ?
 #: ui/browser_dlg.cpp:39
 msgid "Quick Browser Configuration"
 msgstr "চটপট ব্রাউজার কনফিগারেশন"
@@ -285,11 +283,14 @@ msgstr "স্বনির্বাচিত প্যানেল মাপ"
 msgid ""
 "<qt>Set the size (in pixels) that you would like the panel to be below."
 "<br> \n"
-"<p><b>Tip:</b> You can click and drag the edge of the panel to freely resize "
-"it later.</qt>"
+"<p><b>Tip:</b>"
+" You can click and drag the edge of the panel to freely resize it later.</qt>"
 msgstr ""
-"<qt> টি আকার ইনঃ পিক্‌সেল ঐ আপনি মত,অনুরূপ টি পাত   নিচে<br>\n"
-"<p><b></b> আপনি পারে ক্লিক এবং টি কিনারা এর টি পাত    </qt>"
+"<qt>"
+" টি আকার ইনঃ পিক্‌সেল ঐ আপনি "
+"মত,অনুরূপ টি পাত   নিচে<br>\n"
+"<p><b></b> আপনি পারে ক্লিক এবং টি "
+"কিনারা এর টি পাত    </qt>"
 
 #: ui/customSize_dlg.cpp:56
 msgid " pixels"
@@ -301,7 +302,9 @@ msgstr "মা&প:"
 
 #: ui/dirdrop_mnu.cpp:32
 msgid "Add as &File Manager URL"
-msgstr "ফাইল ম্যানেজার ইউ-আর-এল হিসেবে যোগ &করো"
+msgstr ""
+"ফাইল ম্যানেজার ইউ-আর-এল "
+"হিসেবে যোগ &করো"
 
 #: ui/dirdrop_mnu.cpp:34
 msgid "Add as Quick&Browser"
@@ -309,7 +312,9 @@ msgstr ""
 
 #: ui/exe_dlg.cpp:49
 msgid "Non-KDE Application Configuration"
-msgstr "কে-ডি-ই ব্যতীত অন্যান্য অ্যাপলিকেশন কনফিগারেশন"
+msgstr ""
+"কে-ডি-ই ব্যতীত অন্যান্য "
+"অ্যাপলিকেশন কনফিগারেশন"
 
 #: ui/exe_dlg.cpp:52
 msgid "Executable: "
@@ -317,7 +322,9 @@ msgstr "এক্সিকিউটেবল:"
 
 #: ui/exe_dlg.cpp:60
 msgid "Optional command line arguments:"
-msgstr "অপশনাল কমাণ্ডলাইন আর্গুমেন্ট:"
+msgstr ""
+"অপশনাল কমাণ্ডলাইন "
+"আর্গুমেন্ট:"
 
 #: ui/exe_dlg.cpp:63
 msgid "Run in terminal"
@@ -327,54 +334,57 @@ msgstr "টারমিনালে চালাও"
 msgid "Select &File..."
 msgstr "ফাই&ল বেছে নিন..."
 
-#: ui/exe_dlg.cpp:152 ui/exe_dlg.cpp:164
+#: ui/exe_dlg.cpp:153 ui/exe_dlg.cpp:165
 msgid "Select Executable"
 msgstr "এক্সিকিউটেবল বেছে নিন"
 
-#: ui/exe_dlg.cpp:159
+#: ui/exe_dlg.cpp:160
 msgid ""
 "The selected file is not executable.\n"
 "Do you want to select another file?"
 msgstr ""
-"বাছাই করা ফাইলটি এক্সিকিউটেবল নয়।\n"
-"আপনি কি আরেকটি ফাইল বাছতে চান?"
+"বাছাই করা ফাইলটি "
+"এক্সিকিউটেবল নয়।\n"
+"আপনি কি আরেকটি ফাইল বাছতে "
+"চান?"
 
-#: ui/k_mnu.cpp:201
+#: ui/k_mnu.cpp:204
 msgid "All Applications"
 msgstr "সমস্ত অ্যাপলিকেশন"
 
-#: ui/k_mnu.cpp:203
+#: ui/k_mnu.cpp:206
 msgid "Actions"
 msgstr "ক্রিয়া"
 
-#: ui/k_mnu.cpp:286
+#: ui/k_mnu.cpp:282
 msgid "Run Command..."
 msgstr "কমাণ্ড চালাও..."
 
-#: ui/k_mnu.cpp:302
+#: ui/k_mnu.cpp:299
 msgid "Start New Session"
 msgstr "নতুন সেশন শুরু করো"
 
-#: ui/k_mnu.cpp:311
+#: ui/k_mnu.cpp:309
 msgid "Save Session"
 msgstr "সেশন সংরক্ষণ করো"
 
-# FIXME: screen ?
-#: ui/k_mnu.cpp:314
+#: ui/k_mnu.cpp:312
 msgid "Lock Screen"
 msgstr "পর্দা লক করো"
 
-#: ui/k_mnu.cpp:317
+#: ui/k_mnu.cpp:315
 msgid "Logout..."
 msgstr "লগ আউট..."
 
-#: ui/k_mnu.cpp:365
+#: ui/k_mnu.cpp:362
 msgid ""
-"<p>You have chosen to open another desktop session.<br>The current session "
-"will be hidden and a new login screen will be displayed.<br>An F-key is "
-"assigned to each session; F%1 is usually assigned to the first session, F%2 "
-"to the second session and so on. You can switch between sessions by pressing "
-"CTRL, ALT and the appropriate F-key at the same time.</p>"
+"<p>You have chosen to open another desktop session."
+"<br>The current session will be hidden and a new login screen will be "
+"displayed."
+"<br>An F-key is assigned to each session; F%1 is usually assigned to the "
+"first session, F%2 to the second session and so on. You can switch between "
+"sessions by pressing CTRL, ALT and the appropriate F-key at the same "
+"time.</p>"
 msgstr ""
 
 #: ui/panelop_mnu.cpp:111
@@ -427,11 +437,15 @@ msgstr "সিস্টেম &কনফিগারেশন"
 
 #: ui/recentapps.cpp:162
 msgid "Recently Used Applications"
-msgstr "গত কয়েকদিনের মধ্যে ব্যবহৃত অ্যাপলিকেশন"
+msgstr ""
+"গত কয়েকদিনের মধ্যে ব্যবহৃত "
+"অ্যাপলিকেশন"
 
 #: ui/recentapps.cpp:162
 msgid "Most Used Applications"
-msgstr "সর্বাধিক ব্যবহৃত অ্যাপলিকেশন"
+msgstr ""
+"সর্বাধিক ব্যবহৃত "
+"অ্যাপলিকেশন"
 
 #: ui/removeapplet_mnu.cpp:71 ui/removebutton_mnu.cpp:91
 #: ui/removeextension_mnu.cpp:84 ui/removespecialbutton_mnu.cpp:108
@@ -443,7 +457,6 @@ msgstr "সব"
 msgid "Menu: %1"
 msgstr "মেনু: %1"
 
-# FIXME: context ?
 #: ui/removeextension_mnu.cpp:59
 msgid "%1 (Top)"
 msgstr "%1 (উপর)"
@@ -460,13 +473,19 @@ msgstr "%1 (নীচে)"
 msgid "%1 (Left)"
 msgstr "%1 (বাঁদিকে)"
 
-#: ui/service_mnu.cpp:232
+#: ui/service_mnu.cpp:248
 msgid "No Entries"
 msgstr "কোনো এন্ট্রী নেই"
 
-#: ui/service_mnu.cpp:239
+#: ui/service_mnu.cpp:255
 msgid "Add This Menu"
 msgstr "এই মেনুটি যোগ করো"
+
+#~ msgid "Bookmarks"
+#~ msgstr "বুকমার্ক"
+
+#~ msgid "Extension"
+#~ msgstr "অতিরিক্ত"
 
 #~ msgid "Filename: "
 #~ msgstr "ফাইলের নাম:"
@@ -476,4 +495,3 @@ msgstr "এই মেনুটি যোগ করো"
 
 #~ msgid "&Root Directory"
 #~ msgstr "রু&ট ডিরেক্টরি"
-
