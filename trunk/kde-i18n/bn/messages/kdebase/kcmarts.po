@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmarts\n"
-"POT-Creation-Date: 2004-03-20 09:09+0100\n"
+"POT-Creation-Date: 2004-07-19 01:39+0200\n"
 "PO-Revision-Date: 2004-05-27 13:03-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -24,7 +24,7 @@ msgid ""
 "Your emails"
 msgstr "qcd_saugata@hotmail.com"
 
-#: arts.cpp:92
+#: arts.cpp:90
 msgid ""
 "Unable to start the sound server to retrieve possible sound I/O methods.\n"
 "Only automatic detection will be available."
@@ -36,15 +36,15 @@ msgstr ""
 "সনাক্তকরণের সুবিধা পাওয়া "
 "যাবে।"
 
-#: arts.cpp:143
+#: arts.cpp:141
 msgid "&General"
 msgstr "সাধার&ণ"
 
-#: arts.cpp:144
+#: arts.cpp:142
 msgid "&Hardware"
 msgstr "হার্ডওয়্যা&র"
 
-#: arts.cpp:158
+#: arts.cpp:156
 msgid ""
 "Normally, the sound server defaults to using the device called "
 "<b>/dev/dsp</b> for sound output. That should work in most cases. On some "
@@ -69,7 +69,7 @@ msgstr ""
 "এর বিকল্প ডিভাইসটি <b>/dev/dsp0</b> "
 "কিংবা <b>/dev/dsp1</b> হতে পারে।"
 
-#: arts.cpp:160
+#: arts.cpp:158
 msgid ""
 "Normally, the sound server defaults to using a sampling rate of 44100 Hz (CD "
 "quality), which is supported on almost any hardware. If you are using "
@@ -97,7 +97,7 @@ msgstr ""
 "ইকুইপমেন্টের জন্য) অন্যান্য "
 "মানও উপযুক্ত হতে পারে।"
 
-#: arts.cpp:162
+#: arts.cpp:160
 msgid ""
 "This configuration module is intended to cover almost every aspect of the "
 "aRts sound server that you can configure. However, there are some things "
@@ -121,11 +121,31 @@ msgstr ""
 "আছেদেখার জন্যে একটি কনসোল "
 "উইণ্ডো খুলে <b>artsd -h</b> টাইপ করুন।"
 
-#: arts.cpp:171
+#: arts.cpp:169
 msgid "Autodetect"
 msgstr "অটোডিটেক্ট"
 
-#: arts.cpp:381
+#: arts.cpp:220
+msgid "kcmarts"
+msgstr "kcmarts"
+
+#: arts.cpp:221
+msgid "The Sound Server Control Module"
+msgstr ""
+"সাউন্ড সার্ভার কন্ট্রোল "
+"মডিউল"
+
+#: arts.cpp:223
+msgid "(c) 1999 - 2001, Stefan Westerfeld"
+msgstr ""
+"(c) 1999 - 2001, স্টেফান "
+"ওয়েস্টারফিল্ড"
+
+#: arts.cpp:224
+msgid "aRts Author"
+msgstr "আর্টস লেখক"
+
+#: arts.cpp:388
 msgid ""
 "The settings have changed since the last time you restarted the sound "
 "server.\n"
@@ -137,13 +157,13 @@ msgstr ""
 "নতুন বৈশিষ্ট্যাবলীকে "
 "সংরক্ষণ করতে চান?"
 
-#: arts.cpp:384
+#: arts.cpp:391
 msgid "Save Sound Server Settings?"
 msgstr ""
 "সাউন্ড সার্ভার "
 "বৈশিষ্ট্যাবলী সংরক্ষণ করব?"
 
-#: arts.cpp:444
+#: arts.cpp:451
 msgid ""
 "<h1>Sound System</h1> Here you can configure aRts, KDE's sound server. This "
 "program not only allows you to hear your system sounds while simultaneously "
@@ -166,37 +186,17 @@ msgstr ""
 "পদ্ধতিতে সাউন্ড সাপোর্ট লাভ "
 "করাতে পারে।"
 
-#: arts.cpp:454
-msgid "kcmarts"
-msgstr "kcmarts"
-
-#: arts.cpp:455
-msgid "The Sound Server Control Module"
-msgstr ""
-"সাউন্ড সার্ভার কন্ট্রোল "
-"মডিউল"
-
-#: arts.cpp:457
-msgid "(c) 1999 - 2001, Stefan Westerfeld"
-msgstr ""
-"(c) 1999 - 2001, স্টেফান "
-"ওয়েস্টারফিল্ড"
-
-#: arts.cpp:459
-msgid "aRts Author"
-msgstr "আর্টস লেখক"
-
-#: arts.cpp:488
+#: arts.cpp:482
 msgid "%1 milliseconds (%2 fragments with %3 bytes)"
 msgstr ""
 "%1 মিলিসেকেন্ড (%3 বাইট সমেত %2 "
 "ফ্র্যাগমেন্ট)"
 
-#: arts.cpp:495
+#: arts.cpp:489
 msgid "as large as possible"
 msgstr "যথাসম্ভব বড়"
 
-#: arts.cpp:504
+#: arts.cpp:498
 msgid ""
 "Impossible to start aRts with realtime priority because artswrapper is "
 "missing or disabled"
@@ -206,57 +206,63 @@ msgstr ""
 "artswrapper নিখোঁজঅথবা নিষ্ক্রিয় "
 "করা আছে।"
 
-#: arts.cpp:672
+#: arts.cpp:680
 msgid "No Audio Input/Output"
 msgstr "কোন অডিও ইনপুট/আউটপুট নেই"
 
-#: arts.cpp:673
+#: arts.cpp:681
 msgid "Advanced Linux Sound Architecture"
 msgstr ""
 "উন্নত লিনাক্স সাউন্ড "
 "আর্কিটেকচার"
 
-#: arts.cpp:674
+#: arts.cpp:682
 msgid "Open Sound System"
 msgstr "ওপেন সাউন্ড সিস্টেম"
 
-#: arts.cpp:675
+#: arts.cpp:683
 msgid "Threaded Open Sound System"
 msgstr "থ্রেডেড ওপেন সাউন্ড সিস্টেম"
 
-#: arts.cpp:676
+#: arts.cpp:684
 msgid "Network Audio System"
 msgstr "নেটওয়ার্ক অডিও সিস্টেম"
 
-#: arts.cpp:677
+#: arts.cpp:685
 msgid "Personal Audio Device"
 msgstr "ব্যক্তিগত অডিও ডিভাইস"
 
-#: arts.cpp:678
+#: arts.cpp:686
 msgid "SGI dmedia Audio I/O"
 msgstr "এস.জি.আই ডিমিডিয়া অডিও I/O"
 
-#: arts.cpp:679
+#: arts.cpp:687
 msgid "Sun Audio Input/Output"
 msgstr "সান অডিও ইনপুট/আউটপুট"
 
-#: arts.cpp:680
+#: arts.cpp:688
 msgid "Portable Audio Library"
 msgstr "পোর্টেবেল অডিও লাইব্রারি"
 
-#: arts.cpp:681
+#: arts.cpp:689
 msgid "Enlightened Sound Daemon"
 msgstr "কৃষ্টিসম্পন্ন সাউন্ড ডিমন"
 
-#: arts.cpp:682
+#: arts.cpp:690
 msgid "MAS Audio Input/Output"
 msgstr "এম.এ.এস অডিও ইনপুট/আউটপুট"
 
-#: rc.cpp:1
+#: arts.cpp:691
+msgid "Jack Audio Connection Kit"
+msgstr ""
+
+#: rc.cpp:2
+#, no-c-format
 msgid "&Enable the sound system"
 msgstr "সাউন্ড সিস্টেমটি &সক্রিয় করো"
 
-#: rc.cpp:2
+#: rc.cpp:4
+#, no-c-format
 msgid ""
 "If this option is enabled, the sound system will be loaded on KDE startup.\n"
 "Recommended if you want sound."
@@ -268,11 +274,13 @@ msgstr ""
 "সাউন্ড চাইলে এটিকে সক্রিয় "
 "রাখাই সুপারিশযোগ্য।"
 
-#: rc.cpp:3
+#: rc.cpp:7
+#, no-c-format
 msgid "Networked Sound"
 msgstr "নেটওয়ার্ক সাউন্ড"
 
-#: rc.cpp:4
+#: rc.cpp:9
+#, no-c-format
 msgid ""
 "<i>Enable this option if you want to play sound on a remote computer or you "
 "want to be able to control sound on this system from another computer.</i>"
@@ -285,11 +293,13 @@ msgstr ""
 "নিয়ন্ত্রণ করতে চান, তবে এই "
 "অপশনটি সক্রিয় করুন।</i>"
 
-#: rc.cpp:5
+#: rc.cpp:11
+#, no-c-format
 msgid "Enable &networked sound"
 msgstr "নে&টওয়ার্ক সাউন্ড সক্রিয় করো"
 
-#: rc.cpp:6
+#: rc.cpp:13
+#, no-c-format
 msgid ""
 "This option allows sound requests coming in from over the network to be "
 "accepted, instead of just limiting the server to the local computer."
@@ -302,11 +312,13 @@ msgstr ""
 "কম্পিউটারে সীমাবদ্ধ থাকবে "
 "না।"
 
-#: rc.cpp:7
+#: rc.cpp:15
+#, no-c-format
 msgid "Skip Prevention"
 msgstr "নিধারণ এড়াও"
 
-#: rc.cpp:8
+#: rc.cpp:17
+#, no-c-format
 msgid ""
 "<i>If your sound is skipping during playback, enable running with highest "
 "possible priority. Increasing your sound buffer might also help.</i>"
@@ -318,13 +330,15 @@ msgstr ""
 "বাফারবাড়িয়েও অনেকটা "
 "উন্নতি হতে পারে।</i>"
 
-#: rc.cpp:9
+#: rc.cpp:19
+#, no-c-format
 msgid "&Run with the highest possible priority (realtime priority)"
 msgstr ""
 "সর্বোচ্চ প্রায়রিটি নিয়ে "
 "চালা&ও (রিয়ালটাইম প্রায়রিটি)"
 
-#: rc.cpp:10
+#: rc.cpp:21
+#, no-c-format
 msgid ""
 "On systems which support realtime scheduling, if you have sufficient "
 "permissions, this option will enable a very high priority for processing "
@@ -337,11 +351,13 @@ msgstr ""
 "প্রক্রিয়া করার প্রায়রিটি "
 "অনেক বাড়িয়ে দেবে।"
 
-#: rc.cpp:11
+#: rc.cpp:23
+#, no-c-format
 msgid "Sound &buffer:"
 msgstr "সা&উন্ড বাফার:"
 
-#: rc.cpp:12
+#: rc.cpp:25
+#, no-c-format
 msgid ""
 "<p align=\"right\"><b>Huge</b> buffer, for <b>low-end</b> machines, <b>less "
 "skipping</b></p>"
@@ -350,11 +366,13 @@ msgstr ""
 "<b>কমজোরি</b> মেশিনের জন্যে, <b>কম "
 "স্কিপ করবে।</b></p>"
 
-#: rc.cpp:13
+#: rc.cpp:27
+#, no-c-format
 msgid "Auto-Suspend"
 msgstr "আপনা আপনি সাসপেন্ড।"
 
-#: rc.cpp:14
+#: rc.cpp:29
+#, no-c-format
 msgid ""
 "<i>The KDE sound system takes exclusive control over your audio hardware, "
 "blocking programs that may wish to use it directly. If the KDE sound system "
@@ -371,46 +389,55 @@ msgstr ""
 "থাকেতাহলে নিয়ন্ত্রণ ছেড়ে "
 "দিতে পারে।"
 
-#: rc.cpp:15
+#: rc.cpp:31
+#, no-c-format
 msgid "&Auto-suspend if idle after:"
 msgstr ""
 "&আপনা আপনি সাসপেন্ড করো যদি "
 "এতক্ষণ নিষ্কর্ম থাকে:"
 
-#: rc.cpp:16
+#: rc.cpp:33
+#, no-c-format
 msgid "The sound server will suspend itself if idle for this period of time."
 msgstr ""
 "যদি সাউন্ড সারভার এতক্ষণ "
 "নিষ্কর্ম থাকে তবে আপনা আপনি "
 "নিজেকে সাসপেন্ড করে দেবে।"
 
-#: rc.cpp:17
+#: rc.cpp:35
+#, no-c-format
 msgid " seconds"
 msgstr " সেকেন্ড"
 
-#: rc.cpp:18
+#: rc.cpp:37
+#, no-c-format
 msgid "Test &Sound"
 msgstr "সাউন্ড &পরীক্ষা করো"
 
-#: rc.cpp:19
+#: rc.cpp:39
+#, no-c-format
 msgid "Test &MIDI"
 msgstr "মিডি(&ম) পরীক্ষা করো"
 
-#: rc.cpp:20
+#: rc.cpp:41
+#, no-c-format
 msgid "Select && Configure your Audio Device"
 msgstr ""
 "আপনার অডিও ডিভাইসকে "
 "নির্বাচন করুন ও কনফিগার করুন"
 
-#: rc.cpp:21
+#: rc.cpp:43
+#, no-c-format
 msgid "&Select the audio device:"
 msgstr "অডিও ডিভাইসটি নির্বাচ&ন করুন:"
 
-#: rc.cpp:22
+#: rc.cpp:45
+#, no-c-format
 msgid "&Full duplex"
 msgstr "ফু&ল ডুপ্লেক্স"
 
-#: rc.cpp:23
+#: rc.cpp:47
+#, no-c-format
 msgid ""
 "This enables the soundserver to record and play sound at the same time. If "
 "you use applications like Internet telephony, voice recognition or similar, "
@@ -425,54 +452,65 @@ msgstr ""
 "অ্যাপ্লিকেশন ব্যাবহার করেন, "
 "তাহলে এউ অপশনটি হয়ত চাইবেন।"
 
-#: rc.cpp:24
+#: rc.cpp:49
+#, no-c-format
 msgid "Use &custom sampling rate:"
 msgstr ""
 "স্বনির্বাচি&ত স্যাম্পলিং "
 "হার ব্যবহার করো:"
 
-#: rc.cpp:25
+#: rc.cpp:51
+#, no-c-format
 msgid " Hz "
 msgstr " Hz "
 
-#: rc.cpp:26
+#: rc.cpp:53
+#, no-c-format
 msgid "&Quality:"
 msgstr "মা&ন:"
 
-#: rc.cpp:28
+#: rc.cpp:57
+#, no-c-format
 msgid "16 Bits (high)"
 msgstr "১৬ বিট (উচ্চ)"
 
-#: rc.cpp:29
+#: rc.cpp:59
+#, no-c-format
 msgid "8 Bits (low)"
 msgstr "৮ বিট (নিম্ন)"
 
-#: rc.cpp:30
+#: rc.cpp:61
+#, no-c-format
 msgid "Use other custom &options:"
 msgstr ""
 "অন্য স্বনির্বাচিত &অপশন "
 "ব্যবহার করো:"
 
-#: rc.cpp:31
+#: rc.cpp:63
+#, no-c-format
 msgid "Override &device location:"
 msgstr ""
 "ডিভাইসের অবস্থান ওভাররাই&ড "
 "করো:"
 
-#: rc.cpp:32
+#: rc.cpp:65
+#, no-c-format
 msgid "/dev/dsp"
 msgstr "/dev/dsp"
 
-#: rc.cpp:33
+#: rc.cpp:67
+#, no-c-format
 msgid "Select your MIDI Device"
 msgstr ""
 "আপনার মিডি ডিভাইস নির্বাচন "
 "করুন"
 
-#: rc.cpp:34
+#: rc.cpp:69
+#, no-c-format
 msgid "Use MIDI ma&pper:"
 msgstr "মিডি ম্যাপা&র ব্যবহার করো:"
 
-#: rc.cpp:35
+#: rc.cpp:71
+#, no-c-format
 msgid "Select the &MIDI device:"
 msgstr "মিডি ডিভাই&সটি নির্বাচন করুন:"
