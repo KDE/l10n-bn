@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_imap4\n"
-"POT-Creation-Date: 2004-03-20 09:09+0100\n"
+"POT-Creation-Date: 2004-07-14 01:19+0200\n"
 "PO-Revision-Date: 2004-05-23 19:40-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -12,54 +12,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: imap4.cc:827
+#: imap4.cc:832
 msgid "What do you want to store in this folder?"
 msgstr ""
 "আপনি এই ফোল্ডারে কী রাখতে "
 "চান?"
 
-#: imap4.cc:827
+#: imap4.cc:832
 msgid "Create Folder"
 msgstr "ফোল্ডার তৈরি করো"
 
-#: imap4.cc:828
+#: imap4.cc:833
 msgid "&Messages"
 msgstr "বার্তা&বলী"
 
-#: imap4.cc:828
+#: imap4.cc:833
 msgid "&Subfolders"
 msgstr "সাব-ফোল্ডা&র"
 
-#: imap4.cc:1106
-msgid "Unsubscribe of folder %1 failed."
+#: imap4.cc:1124
+#, fuzzy
+msgid "Unsubscribe of folder %1 failed. The server returned: %2"
 msgstr ""
 "ফোল্ডার %1 আন-সাবস্ক্রাইব "
 "করতে ব্যর্থ।"
 
-#: imap4.cc:1123
-msgid "Subscribe of folder %1 failed."
+#: imap4.cc:1144
+#, fuzzy
+msgid "Subscribe of folder %1 failed. The server returned: %2"
 msgstr ""
 "ফোল্ডার %1 সাবস্ক্রাইব করতে "
 "ব্যর্থ।"
 
-#: imap4.cc:1145 imap4.cc:1156
+#: imap4.cc:1176 imap4.cc:1187
 msgid "Changing the flags of message %1 failed."
 msgstr ""
 "বার্তা %1-এর ফ্ল্যাগ পরিবর্তন "
 "করতে ব্যর্থ।"
 
-#: imap4.cc:1245
+#: imap4.cc:1220
+msgid ""
+"Setting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr ""
+
+#: imap4.cc:1238
+msgid ""
+"Deleting the Access Control List on folder %1 for user %2 failed. The server "
+"returned: %3"
+msgstr ""
+
+#: imap4.cc:1254 imap4.cc:1279
+#, fuzzy
+msgid ""
+"Retrieving the Access Control List on folder %1 failed. The server returned: "
+"%2"
+msgstr ""
+"ফোল্ডার %1 খোলা যায়নি। "
+"সার্ভার জানিয়েছে: %2"
+
+#: imap4.cc:1377
 msgid "Unable to close mailbox."
 msgstr "মেইল-বক্স বন্ধ করতে ব্যর্থ।"
 
-#: imap4.cc:1268
+#: imap4.cc:1400
 msgid "Unable to get information about folder %1. The server replied: %2"
 msgstr ""
 "%1 ফোল্ডার সম্বন্ধে তথ্য "
 "পাওয়া যায়নি। সার্ভার "
 "জানিয়েছে: %2"
 
-#: imap4.cc:1431
+#: imap4.cc:1563
 msgid ""
 "The server %1 supports neither IMAP4 nor IMAP4rev1.\n"
 "It identified itself with: %2"
@@ -68,7 +91,7 @@ msgstr ""
 "সমর্থন করে না।\n"
 "সে নিজের সম্পর্কে জানিয়েছে: %2"
 
-#: imap4.cc:1442
+#: imap4.cc:1574
 msgid ""
 "The server does not support TLS.\n"
 "Disable this security feature to connect unencrypted."
@@ -78,38 +101,39 @@ msgstr ""
 "স্থাপন করতে এই নিরাপত্তা "
 "ফিচার-টি নিষ্ক্রিয় করুন।"
 
-#: imap4.cc:1467
+#: imap4.cc:1599
 msgid "Starting TLS failed."
 msgstr "TLS চালু করা যায়নি।"
 
-#: imap4.cc:1477
+#: imap4.cc:1609
 msgid "The authentication method %1 is not supported by the server."
 msgstr ""
 "%1 অথেন্টিকেশন প্রক্রিয়াটি "
 "সার্ভার দ্বারা সমর্থিত নয়।"
 
-#: imap4.cc:1488
+#: imap4.cc:1620
+#, fuzzy
 msgid "Username and password for your IMAP account:"
 msgstr ""
 "আপনার আই-ম্যাপ অ্যাকাউন্টের "
 "জন্য ব্যবহারকারীর নাম এবং "
 "পাসওয়ার্ড:"
 
-#: imap4.cc:1502
+#: imap4.cc:1634
 msgid ""
 "In IMAP clear text login, only US-ASCII characters are possible. Please use "
 "a different authentication method that your server supports or try to get a "
 "different username."
 msgstr ""
 
-#: imap4.cc:1507
+#: imap4.cc:1639
 msgid ""
 "In IMAP clear text login, only US-ASCII characters are possible. Please use "
 "a different authentication method that your server supports or change your "
 "password."
 msgstr ""
 
-#: imap4.cc:1512
+#: imap4.cc:1644
 #, c-format
 msgid ""
 "Unable to login. Probably the password is wrong.\n"
@@ -121,7 +145,7 @@ msgstr ""
 "সার্ভার জানিয়েছে:\n"
 "%1"
 
-#: imap4.cc:1518
+#: imap4.cc:1650
 msgid ""
 "Unable to authenticate via %1.\n"
 "The server replied:\n"
@@ -132,7 +156,7 @@ msgstr ""
 "সার্ভার জানিয়েছে:\n"
 "%2"
 
-#: imap4.cc:1929
+#: imap4.cc:2086
 msgid "Unable to open folder %1. The server replied: %2"
 msgstr ""
 "ফোল্ডার %1 খোলা যায়নি। "
