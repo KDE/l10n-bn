@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
-"POT-Creation-Date: 2004-08-03 01:18+0200\n"
+"POT-Creation-Date: 2004-11-27 01:20+0100\n"
 "PO-Revision-Date: 2004-03-23 01:16-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -28,71 +28,102 @@ msgstr ""
 "\n"
 "*** Cannot open console log source ***"
 
-#: kgdialog.cpp:64
+#: kgdialog.cpp:59
+msgid "Sw&itch User"
+msgstr ""
+
+#: kgdialog.cpp:68
 msgid "R&estart X Server"
 msgstr ""
 "&এক্স সার্ভার বন্ধ করে আবার "
 "চালাও"
 
-#: kgdialog.cpp:64
+#: kgdialog.cpp:68
 msgid "Clos&e Connection"
 msgstr "যোগাযো&গ বন্ধ করো"
 
-#: kgdialog.cpp:75
+#: kgdialog.cpp:79
 msgid "Co&nsole Login"
 msgstr "ক&নসোল লগ-ইন"
 
-#: kgdialog.cpp:78
+#: kgdialog.cpp:82
 msgid "&Shutdown..."
 msgstr "শা&টডাউন..."
 
-#: kchooser.cpp:54
+#: kgdialog.cpp:186
+msgid ""
+"_: session (location)\n"
+"%1 (%2)"
+msgstr ""
+
+#: kgdialog.cpp:187
+msgid "Unused"
+msgstr ""
+
+#: kdmshutdown.cpp:609 kgdialog.cpp:188
+#, fuzzy
+msgid "Remote Login"
+msgstr "দূ&রবর্তী লগ-ইন"
+
+#: kdmshutdown.cpp:607 kgdialog.cpp:189
+msgid ""
+"_: user: session type\n"
+"%1: %2"
+msgstr ""
+
+#: kdmshutdown.cpp:612 kgdialog.cpp:192
+msgid ""
+"_: display, virtual terminal\n"
+"%1, vt%2"
+msgstr ""
+
+#: kchooser.cpp:55
 msgid "&Local Login"
 msgstr "স্থানীয় &লগ-ইন"
 
-#: kchooser.cpp:63
+#: kchooser.cpp:59
 msgid "XDMCP Host Menu"
 msgstr "XDMCP হোস্ট মেনু"
 
-#: kchooser.cpp:68
+#: kchooser.cpp:64
 #, fuzzy
 msgid "Hostname"
 msgstr "হোস্টনেম"
 
-#: kchooser.cpp:70
+#: kchooser.cpp:66
 msgid "Status"
 msgstr "স্ট্যাটাস"
 
-#: kchooser.cpp:77
+#: kchooser.cpp:73
 msgid "Hos&t:"
 msgstr "হোস্ট (&হ):"
 
-#: kchooser.cpp:78
+#: kchooser.cpp:74
 msgid "A&dd"
 msgstr "যো&গ করো"
 
-#: kchooser.cpp:86
+#: kchooser.cpp:82
 msgid "&Accept"
 msgstr "স্বীকা&র করো"
 
-#: kchooser.cpp:88
+#: kchooser.cpp:84
 msgid "&Refresh"
 msgstr "আবার &পড়ো"
 
-#: kchooser.cpp:96 kgreeter.cpp:192
+#: kchooser.cpp:92 kgreeter.cpp:653
 msgid "&Menu"
 msgstr "মেনু (&ম)"
 
-#: kchooser.cpp:173
+#: kchooser.cpp:174
 msgid "<unknown>"
 msgstr "<অজানা>"
 
-#: kchooser.cpp:211
+#: kchooser.cpp:212
 #, c-format
 msgid "Unknown host %1"
 msgstr "অপরিচিত হোস্ট %1"
 
-#: kgverify.cpp:133
+#: kgverify.cpp:153
 msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr ""
 "কোনো গ্রিটার উইজেট প্লাগ-ইন "
@@ -199,7 +230,7 @@ msgstr ""
 "আপনার পাসওয়ার্ড আজ "
 "এক্সপায়ার করছে।"
 
-#: kgverify.cpp:450 kgverify.cpp:736
+#: kgverify.cpp:450 kgverify.cpp:866
 msgid "Authentication failed"
 msgstr "সত্যতা যাচাই করা যায়নি"
 
@@ -208,98 +239,179 @@ msgid ""
 "Authenticated user (%1) does not match requested user (%2).\n"
 msgstr ""
 
-#: kgverify.cpp:730
+#: kgverify.cpp:860
 msgid "Warning: Caps Lock on"
 msgstr "সাবধান: ক্যাপস লক চালু রয়েছে"
 
-#: kgverify.cpp:734
+#: kgverify.cpp:864
 msgid "Change failed"
 msgstr "পরিবর্তন সম্ভব হয়নি"
 
-#: kgverify.cpp:736
+#: kgverify.cpp:866
 msgid "Login failed"
 msgstr "লগ-ইন ব্যর্থ"
 
-#: kgverify.cpp:840
+#: kgverify.cpp:898
+msgid "Theme not usable with authentication method '%1'."
+msgstr ""
+
+#: kgverify.cpp:952
 msgid "Changing authentication token"
 msgstr ""
 "অথেন্টিকেশন টোকেন বদলানো "
 "হচ্ছে"
 
-#: kdmshutdown.cpp:61
+#: kdmshutdown.cpp:89
+msgid "Root authorization required."
+msgstr ""
+
+#: kdmshutdown.cpp:120 kdmshutdown.cpp:508
+msgid "&Schedule..."
+msgstr ""
+
+#: kdmshutdown.cpp:291
 msgid "Shutdown Type"
 msgstr "শাটডাউন টাইপ"
 
-#: kdmshutdown.cpp:65
+#: kdmshutdown.cpp:295
 msgid "&Turn off computer"
 msgstr "কমপি&উটার বন্ধ করো"
 
-#: kdmshutdown.cpp:70
+#: kdmshutdown.cpp:299
 msgid "&Restart computer"
 msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
 
-#: kdmshutdown.cpp:114
-msgid "Shutdown Mode"
-msgstr "শাটডাউন মোড"
-
-#: kdmshutdown.cpp:117
-msgid ""
-"_: verb!\n"
-"&Schedule"
+#: kdmshutdown.cpp:321
+msgid "Scheduling"
 msgstr ""
 
-#: kdmshutdown.cpp:121
-msgid "&Force now"
+#: kdmshutdown.cpp:325
+#, fuzzy
+msgid "&Start:"
+msgstr "স্ট্যাটাস"
+
+#: kdmshutdown.cpp:328
+msgid "T&imeout:"
 msgstr ""
 
-#: kdmshutdown.cpp:126
-msgid "Try &now"
+#: kdmshutdown.cpp:330
+msgid "&Force after timeout"
 msgstr ""
 
-#: kgreeter.cpp:135
-msgid "Warning: this is an unsecured session"
+#: kdmshutdown.cpp:379
+msgid "Entered start date is invalid."
 msgstr ""
 
-#: kgreeter.cpp:137
-msgid ""
-"This display requires no X authorization.\n"
-"This means that anybody can connect to it,\n"
-"open windows on it or intercept your input."
+#: kdmshutdown.cpp:388
+msgid "Entered timeout date is invalid."
 msgstr ""
 
-#: kgreeter.cpp:187
-msgid "L&ogin"
-msgstr "লগ-&ইন"
+#: kdmshutdown.cpp:482
+#, fuzzy
+msgid "&Turn Off Computer"
+msgstr "কমপি&উটার বন্ধ করো"
 
-#: kgreeter.cpp:190
-msgid "&Clear"
-msgstr "ফাঁকা &করো"
+#: kdmshutdown.cpp:489
+#, fuzzy
+msgid "&Restart Computer"
+msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
 
-#: kgreeter.cpp:229
-msgid "Session &Type"
+#: kdmshutdown.cpp:496
+msgid "Next &boot:"
+msgstr ""
+
+#: kdmshutdown.cpp:591
+msgid "Abort active sessions:"
+msgstr ""
+
+#: kdmshutdown.cpp:592
+msgid "No permission to abort active sessions:"
+msgstr ""
+
+#: kdmshutdown.cpp:598
+#, fuzzy
+msgid "Session"
 msgstr "সেশন টাই&প"
 
-#: kgreeter.cpp:235
-msgid "&Authentication Method"
-msgstr "সত্যতা যাচাইয়ের &উপায়"
+#: kdmshutdown.cpp:599
+#, fuzzy
+msgid "Location"
+msgstr "স্থানীয় &লগ-ইন"
 
-#: kgreeter.cpp:240
-msgid "&Remote Login"
-msgstr "দূ&রবর্তী লগ-ইন"
+#: kdmshutdown.cpp:642
+msgid "Abort pending shutdown:"
+msgstr ""
 
-#: kgreeter.cpp:460
+#: kdmshutdown.cpp:643
+msgid "No permission to abort pending shutdown:"
+msgstr ""
+
+#: kdmshutdown.cpp:648
+msgid "now"
+msgstr ""
+
+#: kdmshutdown.cpp:654
+msgid "infinite"
+msgstr ""
+
+#: kdmshutdown.cpp:660
+msgid ""
+"Owner: %1\n"
+"Type: %2\n"
+"Start: %3\n"
+"Timeout: %4"
+msgstr ""
+
+#: kdmshutdown.cpp:665
+msgid "console user"
+msgstr ""
+
+#: kdmshutdown.cpp:667
+msgid "control socket"
+msgstr ""
+
+#: kdmshutdown.cpp:670
+#, fuzzy
+msgid "turn off computer"
+msgstr "কমপি&উটার বন্ধ করো"
+
+#: kdmshutdown.cpp:671
+#, fuzzy
+msgid "restart computer"
+msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
+
+#: kdmshutdown.cpp:674
+#, c-format
+msgid ""
+"\n"
+"After timeout: %1"
+msgstr ""
+
+#: kdmshutdown.cpp:676
+msgid "abort all sessions"
+msgstr ""
+
+#: kdmshutdown.cpp:678
+msgid "abort own sessions"
+msgstr ""
+
+#: kdmshutdown.cpp:679
+msgid "cancel shutdown"
+msgstr ""
+
+#: kgreeter.cpp:346
 msgid "Custom"
 msgstr "স্বনির্বাচিত"
 
-#: kgreeter.cpp:461
+#: kgreeter.cpp:347
 msgid "Failsafe"
 msgstr "নিরাপদ"
 
-#: kgreeter.cpp:556
+#: kgreeter.cpp:442
 msgid " (previous)"
 msgstr " (পূর্ববর্তী)"
 
-#: kgreeter.cpp:615
+#: kgreeter.cpp:501
 msgid ""
 "Your saved session type '%1' is not valid any more.\n"
 "Please select a new one, otherwise 'default' will be used."
@@ -309,6 +421,48 @@ msgstr ""
 "অনুগ্রহ করে নতুন কিছু বেছে "
 "নিন, না হলে 'ডিফল্ট' ব্যবহার "
 "করা হবে।"
+
+#: kgreeter.cpp:602
+msgid "Warning: this is an unsecured session"
+msgstr ""
+
+#: kgreeter.cpp:604
+msgid ""
+"This display requires no X authorization.\n"
+"This means that anybody can connect to it,\n"
+"open windows on it or intercept your input."
+msgstr ""
+
+#: kgreeter.cpp:650
+msgid "L&ogin"
+msgstr "লগ-&ইন"
+
+#: kgreeter.cpp:682 kgreeter.cpp:817
+msgid "Session &Type"
+msgstr "সেশন টাই&প"
+
+#: kgreeter.cpp:688 kgreeter.cpp:824
+msgid "&Authentication Method"
+msgstr "সত্যতা যাচাইয়ের &উপায়"
+
+#: kgreeter.cpp:693 kgreeter.cpp:829
+msgid "&Remote Login"
+msgstr "দূ&রবর্তী লগ-ইন"
+
+#: kgreeter.cpp:763
+#, fuzzy
+msgid "Login Failed."
+msgstr "লগ-ইন ব্যর্থ"
+
+#, fuzzy
+#~ msgid "Sess&ions"
+#~ msgstr "সেশন টাই&প"
+
+#~ msgid "&Clear"
+#~ msgstr "ফাঁকা &করো"
+
+#~ msgid "Shutdown Mode"
+#~ msgstr "শাটডাউন মোড"
 
 #~ msgid "Your account has expired."
 #~ msgstr "আপনার অ্যাকাউন্ট এক্সপায়ার করে গেছে"
