@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
-"POT-Creation-Date: 2005-02-16 01:31+0100\n"
+"POT-Creation-Date: 2005-04-20 15:09+0200\n"
 "PO-Revision-Date: 2004-09-12 15:22-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -12,52 +12,100 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: kmplotio.cpp:227 kparametereditor.cpp:143
+#: kmplotio.cpp:229 kparametereditor.cpp:143
 #, fuzzy
 msgid "The file does not exist."
 msgstr "ফাইলটি লোড করা যায় নি"
 
-#: kmplotio.cpp:233 kmplotio.cpp:243 kparametereditor.cpp:154
+#: kmplotio.cpp:235 kmplotio.cpp:245 kparametereditor.cpp:154
 #: kparametereditor.cpp:195
 msgid "An error appeared when opening this file"
 msgstr ""
 "এই ফাইলটি খোলার সময় একটি "
 "সমস্যা হয়েছে"
 
-#: kmplotio.cpp:248
+#: kmplotio.cpp:250
 msgid "The file could not be loaded"
 msgstr "ফাইলটি লোড করা যায় নি"
 
-#: kmplotio.cpp:287
+#: kmplotio.cpp:289
 msgid "The file had an unknown version number"
 msgstr ""
 "ফাইলটিতে একটি অজ্ঞাত "
 "সংস্করণ সংখ্যা দেওয়া ছিল"
 
 #. i18n: file settingspagescaling.ui line 192
-#: View.cpp:1133 kmplotio.cpp:324 rc.cpp:1352 rc.cpp:1433 rc.cpp:2998
-#: rc.cpp:3079
+#: View.cpp:1132 kmplotio.cpp:326 rc.cpp:1379 rc.cpp:1460 rc.cpp:3052
+#: rc.cpp:3133
 #, no-c-format
 msgid "automatic"
 msgstr "স্বয়ংক্রিয়"
 
-#: kmplotio.cpp:523
+#: kmplotio.cpp:541
 #, fuzzy
 msgid "The function %1 could not be loaded"
 msgstr "ফাইলটি লোড করা যায় নি"
 
-#: editfunction.cpp:197 keditparametric.cpp:134 keditpolar.cpp:118
-#: kminmax.cpp:243
+#: coordsconfigdialog.cpp:57 coordsconfigdialog.cpp:72 editfunction.cpp:220
+#: keditparametric.cpp:154 keditpolar.cpp:138 kminmax.cpp:243
 msgid "The minimum range value must be lower than the maximum range value"
 msgstr ""
 "নিম্নসীমার মান উর্ধ্বসীমা "
 "অপেক্ষা কম হতে হবে"
 
-#: editfunction.cpp:300 keditparametric.cpp:162 keditpolar.cpp:144
+#: editfunction.cpp:311 keditparametric.cpp:177 keditpolar.cpp:160
 #: kminmax.cpp:293
 #, fuzzy
 msgid "Function could not be found"
 msgstr "জিনিষটি পাওয়া যায় নি।"
+
+#: ksliderwindow.cpp:48
+#, c-format
+msgid "Slider %1"
+msgstr "স্লাইডার %1"
+
+#: editfunction.cpp:70 ksliderwindow.cpp:49
+#, c-format
+msgid "Slider no. %1"
+msgstr "স্লাইডার নং %1"
+
+#: ksliderwindow.cpp:50
+msgid ""
+"Move slider to change the parameter of the function plot connected to this "
+"slider."
+msgstr ""
+"এই স্লাইডারের সাথে ফাংশন "
+"প্লটের যে পরামিতি যুক্ত, তা "
+"পরিবর্তনের জন্য স্লাইডার "
+"সরান।"
+
+#: ksliderwindow.cpp:64
+#, fuzzy
+msgid "&Change minimum value"
+msgstr "মান &পরিবর্তন করো..."
+
+#: ksliderwindow.cpp:66
+#, fuzzy
+msgid "&Change maximum value"
+msgstr "মান &পরিবর্তন করো..."
+
+#: ksliderwindow.cpp:102
+#, fuzzy
+msgid "Change minimum value"
+msgstr "মান &পরিবর্তন করো..."
+
+#: ksliderwindow.cpp:102
+msgid "Type a new minimum value for the slider:"
+msgstr ""
+
+#: ksliderwindow.cpp:113
+#, fuzzy
+msgid "Change maximum value"
+msgstr "মান &পরিবর্তন করো..."
+
+#: ksliderwindow.cpp:113
+msgid "Type a new maximum value for the slider:"
+msgstr ""
 
 #: kprinterdlg.cpp:39
 msgid "KmPlot Options"
@@ -71,11 +119,11 @@ msgstr "হেডার সারণী ছাপাও"
 msgid "Transparent background"
 msgstr "স্বচ্ছ পটভূমি"
 
-#: parser.cpp:506
+#: parser.cpp:509
 msgid "This function is depending on an other function"
 msgstr ""
 
-#: parser.cpp:933
+#: parser.cpp:936
 msgid ""
 "Parser error at position %1:\n"
 "Syntax error"
@@ -83,7 +131,7 @@ msgstr ""
 "%1 অবস্থানে পার্সার ত্রুটি:\n"
 "সিনটেক্স ত্রুটি"
 
-#: parser.cpp:936
+#: parser.cpp:939
 msgid ""
 "Parser error at position %1:\n"
 "Missing parenthesis"
@@ -91,7 +139,7 @@ msgstr ""
 "%1 অবস্থানে পার্সার ত্রুটি:\n"
 "বন্ধনী (Parenthesis) পাওয়া যাচ্ছে না"
 
-#: parser.cpp:939
+#: parser.cpp:942
 msgid ""
 "Parser error at position %1:\n"
 "Function name unknown"
@@ -99,7 +147,7 @@ msgstr ""
 "%1 অবস্থানে পার্সার ত্রুটি:\n"
 "অজ্ঞাত ফাংশন"
 
-#: parser.cpp:942
+#: parser.cpp:945
 msgid ""
 "Parser error at position %1:\n"
 "Void function variable"
@@ -107,7 +155,7 @@ msgstr ""
 "%1 অবস্থানে পার্সার ত্রুটি:\n"
 "ফাঁকা ফাংশন চলক"
 
-#: parser.cpp:945
+#: parser.cpp:948
 msgid ""
 "Parser error at position %1:\n"
 "Too many functions"
@@ -115,7 +163,7 @@ msgstr ""
 "%1 অবস্থানে পার্সার ত্রুটি:\n"
 "অত্যধিক সংখ্যক ফাংশন"
 
-#: parser.cpp:948
+#: parser.cpp:951
 msgid ""
 "Parser error at position %1:\n"
 "Token-memory overflow"
@@ -124,7 +172,7 @@ msgstr ""
 "টোকেন-মেমরিতে স্থান সংকুলান "
 "হচ্ছে না (Overflow)"
 
-#: parser.cpp:951
+#: parser.cpp:954
 msgid ""
 "Parser error at position %1:\n"
 "Stack overflow"
@@ -133,7 +181,7 @@ msgstr ""
 "স্ট্যাক-এ স্থান সংকুলান "
 "হচ্ছে না (Overflow)"
 
-#: parser.cpp:954
+#: parser.cpp:957
 #, fuzzy
 msgid ""
 "Parser error at position %1:\n"
@@ -143,7 +191,7 @@ msgstr ""
 "ফাংশনের নাম ইতিমধ্যেই "
 "ব্যবহৃত হচ্ছে"
 
-#: parser.cpp:957
+#: parser.cpp:960
 #, fuzzy
 msgid ""
 "Parser error at position %1:\n"
@@ -153,30 +201,30 @@ msgstr ""
 "Recursive ফাংশনের ব্যবহার "
 "অনুমোদিত নয়"
 
-#: parser.cpp:960
+#: parser.cpp:963
 #, fuzzy, c-format
 msgid "Could not find a defined constant at position %1."
 msgstr ""
 "%1 অবস্থানে নির্দিষ্টকৃত (Defined) "
 "ধ্রুবক পাওয়া যায় নি"
 
-#: parser.cpp:963
+#: parser.cpp:966
 msgid "Empty function"
 msgstr "ফাঁকা ফাংশন"
 
-#: parser.cpp:965
+#: parser.cpp:968
 #, fuzzy
 msgid "The function name is not allowed to contain capital letters."
 msgstr ""
 "ফাংশনের নামে বড় হাতের অক্ষর "
 "থাকতে পারবে না"
 
-#: parser.cpp:967
+#: parser.cpp:970
 #, fuzzy
 msgid "Function could not be found."
 msgstr "জিনিষটি পাওয়া যায় নি।"
 
-#: parser.cpp:969
+#: parser.cpp:972
 #, fuzzy
 msgid "The expression must not contain user-defined constants."
 msgstr ""
@@ -243,7 +291,7 @@ msgstr "svg আইকন"
 msgid "command line options, MIME type"
 msgstr "কমান্ড লাইন অপশন, মাইম-এর ধরন"
 
-#: keditparametric.cpp:96
+#: keditparametric.cpp:108
 msgid "Recursive function not allowed"
 msgstr ""
 "Recursive ফাংশনের ব্যবহার "
@@ -315,7 +363,7 @@ msgstr ""
 "সমস্যা হয়েছে"
 
 #. i18n: file qminmax.ui line 52
-#: kminmax.cpp:71 rc.cpp:724 rc.cpp:2370
+#: kminmax.cpp:71 rc.cpp:751 rc.cpp:2424
 #, no-c-format
 msgid "Search between the x-value:"
 msgstr ""
@@ -323,27 +371,27 @@ msgstr ""
 "মধ্যে খোঁজো:"
 
 #. i18n: file qminmax.ui line 63
-#: kminmax.cpp:72 kminmax.cpp:125 rc.cpp:727 rc.cpp:2373
+#: kminmax.cpp:72 kminmax.cpp:125 rc.cpp:754 rc.cpp:2427
 #, no-c-format
 msgid "and:"
 msgstr "এবং:"
 
 #. i18n: file qminmax.ui line 27
-#: kminmax.cpp:73 rc.cpp:721 rc.cpp:2367
+#: kminmax.cpp:73 rc.cpp:748 rc.cpp:2421
 #, no-c-format
 msgid "&Find"
 msgstr "&অনুসন্ধান"
 
-#. i18n: file editfunctionpage.ui line 245
-#: kminmax.cpp:74 kminmax.cpp:100 kminmax.cpp:118 rc.cpp:277 rc.cpp:556
-#: rc.cpp:660 rc.cpp:1923 rc.cpp:2202 rc.cpp:2306
+#. i18n: file editfunctionpage.ui line 238
+#: kminmax.cpp:74 kminmax.cpp:100 kminmax.cpp:118 rc.cpp:297 rc.cpp:626
+#: rc.cpp:715 rc.cpp:1970 rc.cpp:2299 rc.cpp:2388
 #, no-c-format
 msgid "lower boundary of the plot range"
 msgstr "প্লটের নিম্নসীমা"
 
-#. i18n: file editfunctionpage.ui line 248
-#: kminmax.cpp:75 kminmax.cpp:101 kminmax.cpp:119 rc.cpp:280 rc.cpp:559
-#: rc.cpp:663 rc.cpp:1926 rc.cpp:2205 rc.cpp:2309
+#. i18n: file editfunctionpage.ui line 241
+#: kminmax.cpp:75 kminmax.cpp:101 kminmax.cpp:119 rc.cpp:300 rc.cpp:629
+#: rc.cpp:718 rc.cpp:1973 rc.cpp:2302 rc.cpp:2391
 #, no-c-format
 msgid ""
 "Enter the lower boundary of the plot range. Expressions like 2*pi are "
@@ -353,16 +401,16 @@ msgstr ""
 "ধরনের মান লিখলেও কোন সমস্যা "
 "নেই।"
 
-#. i18n: file editfunctionpage.ui line 259
-#: kminmax.cpp:76 kminmax.cpp:120 rc.cpp:283 rc.cpp:562 rc.cpp:666 rc.cpp:1929
-#: rc.cpp:2208 rc.cpp:2312
+#. i18n: file editfunctionpage.ui line 266
+#: kminmax.cpp:76 kminmax.cpp:120 rc.cpp:312 rc.cpp:620 rc.cpp:721 rc.cpp:1985
+#: rc.cpp:2293 rc.cpp:2394
 #, no-c-format
 msgid "upper boundary of the plot range"
 msgstr "প্লটের উর্ধ্বসীমা"
 
-#. i18n: file editfunctionpage.ui line 262
-#: kminmax.cpp:77 kminmax.cpp:121 rc.cpp:286 rc.cpp:565 rc.cpp:669 rc.cpp:1932
-#: rc.cpp:2211 rc.cpp:2315
+#. i18n: file editfunctionpage.ui line 269
+#: kminmax.cpp:77 kminmax.cpp:121 rc.cpp:315 rc.cpp:623 rc.cpp:724 rc.cpp:1988
+#: rc.cpp:2296 rc.cpp:2397
 #, no-c-format
 msgid ""
 "Enter the upper boundary of the plot range. Expressions like 2*pi are "
@@ -395,7 +443,7 @@ msgstr ""
 "করো।"
 
 #. i18n: file qminmax.ui line 16
-#: kminmax.cpp:87 rc.cpp:718 rc.cpp:2364
+#: kminmax.cpp:87 rc.cpp:745 rc.cpp:2418
 #, no-c-format
 msgid "Find Minimum Point"
 msgstr "সর্বনিম্ন বিন্দু খোঁজো"
@@ -505,7 +553,7 @@ msgstr ""
 "অনুগ্রহপূর্বক একটি ফাংশনের "
 "নাম বেছে নিন"
 
-#: editfunction.cpp:206 kminmax.cpp:251
+#: editfunction.cpp:229 kminmax.cpp:251
 msgid "Please insert a minimum and maximum range between %1 and %2"
 msgstr ""
 "অনুগ্রহপূর্বক %1 ও %2-এর "
@@ -580,7 +628,7 @@ msgstr ""
 msgid "Could not find KmPlot's part."
 msgstr ""
 
-#: kmplot.cpp:221
+#: kmplot.cpp:227
 #, fuzzy
 msgid ""
 "*.fkt|KmPlot Files (*.fkt)\n"
@@ -589,21 +637,21 @@ msgstr ""
 "*.fkt|কে-এমপ্লট ফাইল (*.fkt)\n"
 "*|সকল ফাইল"
 
-#: FktDlg.cpp:151 MainDlg.cpp:465
+#: FktDlg.cpp:188 MainDlg.cpp:465
 msgid "New Function Plot"
 msgstr "নতুন ফাংশন প্লট"
 
 #. i18n: file editfunctionpage.ui line 19
-#: FktDlg.cpp:152 View.cpp:1883 rc.cpp:212 rc.cpp:1858
+#: FktDlg.cpp:189 View.cpp:1898 rc.cpp:212 rc.cpp:1885
 #, no-c-format
 msgid "Edit Function Plot"
 msgstr "ফাংশন প্লট সম্পাদন করো"
 
-#: FktDlg.cpp:167 MainDlg.cpp:478 View.cpp:1871
+#: FktDlg.cpp:213 MainDlg.cpp:478 View.cpp:1886
 msgid "New Parametric Plot"
 msgstr "নতুন পরামিতিজনিত প্লট"
 
-#: FktDlg.cpp:182 MainDlg.cpp:491
+#: FktDlg.cpp:239 MainDlg.cpp:491
 msgid "New Polar Plot"
 msgstr "নতুন পোলার প্লট"
 
@@ -620,13 +668,13 @@ msgid "Show S&liders"
 msgstr "স্লাইডার প্রদর্শন করো (&ল)"
 
 #. i18n: file FktDlgData.ui line 22
-#: rc.cpp:54 rc.cpp:1700
+#: rc.cpp:54 rc.cpp:1727
 #, no-c-format
 msgid "Edit Plots"
 msgstr "পোলার প্লট সম্পাদন করো"
 
 #. i18n: file FktDlgData.ui line 75
-#: rc.cpp:63 rc.cpp:1709
+#: rc.cpp:63 rc.cpp:1736
 #, no-c-format
 msgid "apply the changes and close the dialog"
 msgstr ""
@@ -634,7 +682,7 @@ msgstr ""
 "বন্ধ করো"
 
 #. i18n: file FktDlgData.ui line 78
-#: rc.cpp:66 rc.cpp:1712
+#: rc.cpp:66 rc.cpp:1739
 #, no-c-format
 msgid "Click here to apply your changes and close this dialog."
 msgstr ""
@@ -643,13 +691,13 @@ msgstr ""
 "করুন।"
 
 #. i18n: file FktDlgData.ui line 89
-#: rc.cpp:72 rc.cpp:1718
+#: rc.cpp:72 rc.cpp:1745
 #, no-c-format
 msgid "cancel without any changes"
 msgstr "কোন পরিবর্তন ছাড়াই বাতিল করো"
 
 #. i18n: file FktDlgData.ui line 92
-#: rc.cpp:75 rc.cpp:1721
+#: rc.cpp:75 rc.cpp:1748
 #, no-c-format
 msgid "Click here to close the dialog without any changes."
 msgstr ""
@@ -658,7 +706,7 @@ msgstr ""
 "করুন।"
 
 #. i18n: file FktDlgData.ui line 130
-#: rc.cpp:78 rc.cpp:1724
+#: rc.cpp:78 rc.cpp:1751
 #, no-c-format
 msgid "list of functions to be plotted"
 msgstr ""
@@ -666,7 +714,7 @@ msgstr ""
 "তাদের তালিকা"
 
 #. i18n: file FktDlgData.ui line 133
-#: rc.cpp:81 rc.cpp:1727
+#: rc.cpp:81 rc.cpp:1754
 #, no-c-format
 msgid "Here you see the list of all functions to be plotted."
 msgstr ""
@@ -675,13 +723,13 @@ msgstr ""
 "দেখতে পাচ্ছেন।"
 
 #. i18n: file FktDlgData.ui line 155
-#: rc.cpp:87 rc.cpp:1733
+#: rc.cpp:87 rc.cpp:1760
 #, no-c-format
 msgid "delete the selected function"
 msgstr "নির্বাচিত ফাংশন মুছে ফেলুন"
 
 #. i18n: file FktDlgData.ui line 158
-#: rc.cpp:90 rc.cpp:1736
+#: rc.cpp:90 rc.cpp:1763
 #, no-c-format
 msgid "Click here to delete the selected function from the list."
 msgstr ""
@@ -690,13 +738,13 @@ msgstr ""
 "করুন।"
 
 #. i18n: file FktDlgData.ui line 177
-#: rc.cpp:93 rc.cpp:1739
+#: rc.cpp:93 rc.cpp:1766
 #, no-c-format
 msgid "&Edit..."
 msgstr "&সম্পাদন..."
 
 #. i18n: file FktDlgData.ui line 180
-#: rc.cpp:96 rc.cpp:1742
+#: rc.cpp:96 rc.cpp:1769
 #, no-c-format
 msgid "edit the selected function"
 msgstr ""
@@ -704,7 +752,7 @@ msgstr ""
 "করুন"
 
 #. i18n: file FktDlgData.ui line 183
-#: rc.cpp:99 rc.cpp:1745
+#: rc.cpp:99 rc.cpp:1772
 #, no-c-format
 msgid "Click here to edit the selected function."
 msgstr ""
@@ -712,21 +760,21 @@ msgstr ""
 "করার জন্য এখানে ক্লিক করুন।"
 
 #. i18n: file FktDlgData.ui line 199
-#: rc.cpp:102 rc.cpp:1748
+#: rc.cpp:102 rc.cpp:1775
 #, no-c-format
 msgid "New &Function Plot..."
 msgstr "নতুন ফাংশন প্লট... (&ফ)"
 
 #. i18n: file FktDlgData.ui line 205
-#: rc.cpp:105 rc.cpp:114 rc.cpp:123 rc.cpp:132 rc.cpp:141 rc.cpp:1751
-#: rc.cpp:1760 rc.cpp:1769 rc.cpp:1778 rc.cpp:1787
+#: rc.cpp:105 rc.cpp:114 rc.cpp:123 rc.cpp:132 rc.cpp:141 rc.cpp:1778
+#: rc.cpp:1787 rc.cpp:1796 rc.cpp:1805 rc.cpp:1814
 #, no-c-format
 msgid "define a new function"
 msgstr "একটি নতুন ফাংশন উল্লেখ করুন"
 
 #. i18n: file FktDlgData.ui line 208
-#: rc.cpp:108 rc.cpp:117 rc.cpp:126 rc.cpp:135 rc.cpp:144 rc.cpp:1754
-#: rc.cpp:1763 rc.cpp:1772 rc.cpp:1781 rc.cpp:1790
+#: rc.cpp:108 rc.cpp:117 rc.cpp:126 rc.cpp:135 rc.cpp:144 rc.cpp:1781
+#: rc.cpp:1790 rc.cpp:1799 rc.cpp:1808 rc.cpp:1817
 #, no-c-format
 msgid ""
 "Click here to define a new function. There are 3 types of function, explicit "
@@ -743,31 +791,31 @@ msgstr ""
 "ফাংশনের সঠিক ধরনটি বেছে নিন।"
 
 #. i18n: file FktDlgData.ui line 224
-#: rc.cpp:111 rc.cpp:1757
+#: rc.cpp:111 rc.cpp:1784
 #, no-c-format
 msgid "New &Parametric Plot..."
 msgstr "নতুন &পরামিতিজনিত প্লট..."
 
 #. i18n: file FktDlgData.ui line 246
-#: rc.cpp:120 rc.cpp:1766
+#: rc.cpp:120 rc.cpp:1793
 #, no-c-format
 msgid "&New Polar Plot..."
 msgstr "&নতুন পোলার প্লট..."
 
 #. i18n: file FktDlgData.ui line 288
-#: rc.cpp:129 rc.cpp:1775
+#: rc.cpp:129 rc.cpp:1802
 #, fuzzy, no-c-format
 msgid "&Copy Function..."
 msgstr "ফাঁকা ফাংশন"
 
 #. i18n: file FktDlgData.ui line 313
-#: rc.cpp:138 rc.cpp:1784
+#: rc.cpp:138 rc.cpp:1811
 #, fuzzy, no-c-format
 msgid "&Move Function..."
 msgstr "&নতুন ফাংশন প্লট..."
 
 #. i18n: file editderivativespage.ui line 16
-#: rc.cpp:147 rc.cpp:1793
+#: rc.cpp:147 rc.cpp:1820
 #, no-c-format
 msgid "Edit Derivatives"
 msgstr ""
@@ -775,15 +823,15 @@ msgstr ""
 "সম্পাদন করো"
 
 #. i18n: file editderivativespage.ui line 47
-#: rc.cpp:151 rc.cpp:185 rc.cpp:244 rc.cpp:380 rc.cpp:572 rc.cpp:676
-#: rc.cpp:1797 rc.cpp:1831 rc.cpp:1890 rc.cpp:2026 rc.cpp:2218 rc.cpp:2322
+#: rc.cpp:151 rc.cpp:185 rc.cpp:325 rc.cpp:389 rc.cpp:554 rc.cpp:667
+#: rc.cpp:1824 rc.cpp:1858 rc.cpp:1998 rc.cpp:2062 rc.cpp:2227 rc.cpp:2340
 #, no-c-format
 msgid "color of the plot line"
 msgstr "প্লট রেখার রং"
 
 #. i18n: file editderivativespage.ui line 50
-#: rc.cpp:154 rc.cpp:188 rc.cpp:247 rc.cpp:383 rc.cpp:575 rc.cpp:679
-#: rc.cpp:1800 rc.cpp:1834 rc.cpp:1893 rc.cpp:2029 rc.cpp:2221 rc.cpp:2325
+#: rc.cpp:154 rc.cpp:188 rc.cpp:328 rc.cpp:392 rc.cpp:557 rc.cpp:670
+#: rc.cpp:1827 rc.cpp:1861 rc.cpp:2001 rc.cpp:2065 rc.cpp:2230 rc.cpp:2343
 #, no-c-format
 msgid "Click this button to choose a color for the plot line."
 msgstr ""
@@ -791,28 +839,28 @@ msgstr ""
 "জন্য এই বাটনে ক্লিক করুন।"
 
 #. i18n: file editderivativespage.ui line 58
-#: rc.cpp:157 rc.cpp:200 rc.cpp:259 rc.cpp:395 rc.cpp:587 rc.cpp:691
-#: rc.cpp:1803 rc.cpp:1846 rc.cpp:1905 rc.cpp:2041 rc.cpp:2233 rc.cpp:2337
+#: rc.cpp:157 rc.cpp:200 rc.cpp:340 rc.cpp:404 rc.cpp:569 rc.cpp:682
+#: rc.cpp:1830 rc.cpp:1873 rc.cpp:2013 rc.cpp:2077 rc.cpp:2242 rc.cpp:2355
 #, no-c-format
 msgid "0.1mm"
 msgstr "০.১ মিলিমিটার"
 
 #. i18n: file editderivativespage.ui line 66
-#: rc.cpp:160 rc.cpp:1806
+#: rc.cpp:160 rc.cpp:1833
 #, no-c-format
 msgid "&Color:"
 msgstr "র&ঙ:"
 
 #. i18n: file editderivativespage.ui line 83
-#: rc.cpp:163 rc.cpp:194 rc.cpp:253 rc.cpp:389 rc.cpp:581 rc.cpp:685
-#: rc.cpp:1809 rc.cpp:1840 rc.cpp:1899 rc.cpp:2035 rc.cpp:2227 rc.cpp:2331
+#: rc.cpp:163 rc.cpp:194 rc.cpp:334 rc.cpp:398 rc.cpp:563 rc.cpp:676
+#: rc.cpp:1836 rc.cpp:1867 rc.cpp:2007 rc.cpp:2071 rc.cpp:2236 rc.cpp:2349
 #, no-c-format
 msgid "width of the plot line"
 msgstr "প্লট রেখার প্রস্থ"
 
 #. i18n: file editderivativespage.ui line 86
-#: rc.cpp:166 rc.cpp:197 rc.cpp:256 rc.cpp:392 rc.cpp:584 rc.cpp:688
-#: rc.cpp:1812 rc.cpp:1843 rc.cpp:1902 rc.cpp:2038 rc.cpp:2230 rc.cpp:2334
+#: rc.cpp:166 rc.cpp:197 rc.cpp:337 rc.cpp:401 rc.cpp:566 rc.cpp:679
+#: rc.cpp:1839 rc.cpp:1870 rc.cpp:2010 rc.cpp:2074 rc.cpp:2239 rc.cpp:2352
 #, no-c-format
 msgid "Change the width of the plot line in steps of 0.1mm."
 msgstr ""
@@ -821,19 +869,19 @@ msgstr ""
 "করুন।"
 
 #. i18n: file editderivativespage.ui line 94
-#: rc.cpp:169 rc.cpp:1815
+#: rc.cpp:169 rc.cpp:1842
 #, no-c-format
 msgid "Show &1st derivative"
 msgstr "১ম বৃদ্ধিহার (Derivative) দেখাও (&প)"
 
 #. i18n: file editderivativespage.ui line 97
-#: rc.cpp:172 rc.cpp:1818
+#: rc.cpp:172 rc.cpp:1845
 #, no-c-format
 msgid "Show first derivative"
 msgstr "১ম বৃদ্ধিহার (Derivative) দেখাও"
 
 #. i18n: file editderivativespage.ui line 100
-#: rc.cpp:175 rc.cpp:209 rc.cpp:1821 rc.cpp:1855
+#: rc.cpp:175 rc.cpp:209 rc.cpp:1848 rc.cpp:1882
 #, no-c-format
 msgid "If this box is checked, the first derivative will be plotted, too."
 msgstr ""
@@ -842,56 +890,56 @@ msgstr ""
 "আঁকা হবে।"
 
 #. i18n: file editderivativespage.ui line 108
-#: rc.cpp:178 rc.cpp:1824
+#: rc.cpp:178 rc.cpp:1851
 #, no-c-format
 msgid "&Line width:"
 msgstr "রেখা&র প্রস্থ:"
 
 #. i18n: file editderivativespage.ui line 135
-#: rc.cpp:181 rc.cpp:568 rc.cpp:672 rc.cpp:1827 rc.cpp:2214 rc.cpp:2318
+#: rc.cpp:181 rc.cpp:550 rc.cpp:663 rc.cpp:1854 rc.cpp:2223 rc.cpp:2336
 #, no-c-format
 msgid "Colo&r:"
 msgstr "র&ঙ:"
 
 #. i18n: file editderivativespage.ui line 163
-#: rc.cpp:191 rc.cpp:250 rc.cpp:578 rc.cpp:682 rc.cpp:1168 rc.cpp:1837
-#: rc.cpp:1896 rc.cpp:2224 rc.cpp:2328 rc.cpp:2814
+#: rc.cpp:191 rc.cpp:331 rc.cpp:560 rc.cpp:673 rc.cpp:1195 rc.cpp:1864
+#: rc.cpp:2004 rc.cpp:2233 rc.cpp:2346 rc.cpp:2868
 #, no-c-format
 msgid "Line &width:"
 msgstr "রেখার প্রস্থ (&প):"
 
 #. i18n: file editderivativespage.ui line 199
-#: rc.cpp:203 rc.cpp:1849
+#: rc.cpp:203 rc.cpp:1876
 #, no-c-format
 msgid "Show &2nd derivative"
 msgstr "২য় বৃদ্ধিহার (Derivative) দেখাও (&দ)"
 
 #. i18n: file editderivativespage.ui line 202
-#: rc.cpp:206 rc.cpp:1852
+#: rc.cpp:206 rc.cpp:1879
 #, no-c-format
 msgid "Show second derivative"
 msgstr "২য় বৃদ্ধিহার (Derivative) দেখাও"
 
-#. i18n: file editfunctionpage.ui line 30
-#: rc.cpp:215 rc.cpp:479 rc.cpp:617 rc.cpp:1861 rc.cpp:2125 rc.cpp:2263
+#. i18n: file editfunctionpage.ui line 36
+#: rc.cpp:215 rc.cpp:488 rc.cpp:635 rc.cpp:1888 rc.cpp:2161 rc.cpp:2308
 #, no-c-format
 msgid "Definition"
 msgstr "সংজ্ঞা"
 
-#. i18n: file editfunctionpage.ui line 41
-#: rc.cpp:218 rc.cpp:1864
+#. i18n: file editfunctionpage.ui line 47
+#: rc.cpp:218 rc.cpp:1891
 #, no-c-format
 msgid "&Equation:"
 msgstr "সমীকর&ণ:"
 
-#. i18n: file editfunctionpage.ui line 60
-#: rc.cpp:221 rc.cpp:1867
+#. i18n: file editfunctionpage.ui line 66
+#: rc.cpp:221 rc.cpp:1894
 #, no-c-format
 msgid "enter an equation, for instance f(x)=x^2"
 msgstr "একটি সমীকরণ লিখুন, যেমন, f(x)=x^2"
 
-#. i18n: file editfunctionpage.ui line 64
-#: rc.cpp:224 rc.cpp:1870
+#. i18n: file editfunctionpage.ui line 70
+#: rc.cpp:224 rc.cpp:1897
 #, no-c-format
 msgid ""
 "Enter an equation for the function.\n"
@@ -901,96 +949,56 @@ msgstr ""
 "লিখুন।\n"
 "উদাহরণ: f(x)=x^2"
 
-#. i18n: file editfunctionpage.ui line 74
-#: rc.cpp:228 rc.cpp:529 rc.cpp:633 rc.cpp:1874 rc.cpp:2175 rc.cpp:2279
+#. i18n: file editfunctionpage.ui line 80
+#: rc.cpp:228 rc.cpp:538 rc.cpp:651 rc.cpp:1901 rc.cpp:2211 rc.cpp:2324
 #, no-c-format
 msgid "Extensions"
 msgstr "বর্ধিতাংশ"
 
-#. i18n: file editfunctionpage.ui line 85
-#: MainDlg.cpp:192 rc.cpp:231 rc.cpp:1877
+#. i18n: file editfunctionpage.ui line 91
+#: MainDlg.cpp:192 rc.cpp:231 rc.cpp:1904
 #, no-c-format
 msgid "&Hide"
 msgstr "লুকা&ও"
 
-#. i18n: file editfunctionpage.ui line 88
-#: rc.cpp:234 rc.cpp:340 rc.cpp:535 rc.cpp:639 rc.cpp:1880 rc.cpp:1986
-#: rc.cpp:2181 rc.cpp:2285
+#. i18n: file editfunctionpage.ui line 94
+#: rc.cpp:234 rc.cpp:349 rc.cpp:544 rc.cpp:657 rc.cpp:1907 rc.cpp:2022
+#: rc.cpp:2217 rc.cpp:2330
 #, no-c-format
 msgid "hide the plot"
 msgstr "প্লট লুকাও"
 
-#. i18n: file editfunctionpage.ui line 91
-#: rc.cpp:237 rc.cpp:343 rc.cpp:538 rc.cpp:642 rc.cpp:1883 rc.cpp:1989
-#: rc.cpp:2184 rc.cpp:2288
+#. i18n: file editfunctionpage.ui line 97
+#: rc.cpp:237 rc.cpp:352 rc.cpp:547 rc.cpp:660 rc.cpp:1910 rc.cpp:2025
+#: rc.cpp:2220 rc.cpp:2333
 #, no-c-format
 msgid "Check this box if you want to hide the plot of the function."
 msgstr ""
 "ফাংশনের প্লট লুকাতে চাইলে এই "
 "বাক্সে টিক দিন।"
 
-#. i18n: file editfunctionpage.ui line 132
-#: rc.cpp:240 rc.cpp:1886
-#, no-c-format
-msgid "Co&lor:"
-msgstr "র&ঙ:"
-
-#. i18n: file editfunctionpage.ui line 206
-#: rc.cpp:262 rc.cpp:1908
-#, no-c-format
-msgid "Ma&x:"
-msgstr "সর্বোচ্চ (&চ):"
-
-#. i18n: file editfunctionpage.ui line 217
-#: rc.cpp:265 rc.cpp:1911
-#, no-c-format
-msgid "&Min:"
-msgstr "সর্বনিম্ন (&ম):"
-
-#. i18n: file editfunctionpage.ui line 228
-#: rc.cpp:268 rc.cpp:1914
-#, no-c-format
-msgid "Custom plot &range:"
-msgstr "স্বনির্বাচি&ত প্লট সীমা:"
-
-#. i18n: file editfunctionpage.ui line 231
-#: rc.cpp:271 rc.cpp:550 rc.cpp:654 rc.cpp:1917 rc.cpp:2196 rc.cpp:2300
-#, no-c-format
-msgid "customize the plot range"
-msgstr ""
-"প্লটের সীমা স্বনির্বাচন "
-"করুন"
-
-#. i18n: file editfunctionpage.ui line 234
-#: rc.cpp:274 rc.cpp:553 rc.cpp:657 rc.cpp:1920 rc.cpp:2199 rc.cpp:2303
-#, no-c-format
-msgid "Check this button and enter the plot range boundarys below."
-msgstr ""
-"এই বাটনে ক্লিক করুন এবং নিচে "
-"প্লটের সীমা লিখুন।"
-
-#. i18n: file editfunctionpage.ui line 272
-#: rc.cpp:289 rc.cpp:1935
+#. i18n: file editfunctionpage.ui line 107
+#: rc.cpp:240 rc.cpp:1913
 #, no-c-format
 msgid "Parameter Values"
 msgstr "পরামিতির মান"
 
-#. i18n: file editfunctionpage.ui line 283
-#: rc.cpp:292 rc.cpp:1938
+#. i18n: file editfunctionpage.ui line 118
+#: rc.cpp:243 rc.cpp:1916
 #, no-c-format
 msgid "Use"
 msgstr "ব্যবহার"
 
-#. i18n: file editfunctionpage.ui line 286
-#: rc.cpp:295 rc.cpp:1941
+#. i18n: file editfunctionpage.ui line 121
+#: rc.cpp:246 rc.cpp:1919
 #, no-c-format
 msgid "change parameter value by moving a slider"
 msgstr ""
 "স্লাইডার সরিয়ে পরামিতির মান "
 "পরিবর্তন করুন"
 
-#. i18n: file editfunctionpage.ui line 289
-#: rc.cpp:298 rc.cpp:1944
+#. i18n: file editfunctionpage.ui line 124
+#: rc.cpp:249 rc.cpp:1922
 #, no-c-format
 msgid ""
 "Check this to change the parameter value by moving a slider. Select the "
@@ -1004,14 +1012,14 @@ msgstr ""
 "বেছে নিন।  এর মান ০ (বাম) থেকে "
 "১০০'র (ডান) মধ্যে ওঠানামা করে।"
 
-#. i18n: file editfunctionpage.ui line 300
-#: rc.cpp:301 rc.cpp:1947
+#. i18n: file editfunctionpage.ui line 135
+#: rc.cpp:252 rc.cpp:1925
 #, no-c-format
 msgid "Select a slider"
 msgstr "স্লাইডার বেছে নিন"
 
-#. i18n: file editfunctionpage.ui line 303
-#: rc.cpp:304 rc.cpp:1950
+#. i18n: file editfunctionpage.ui line 138
+#: rc.cpp:255 rc.cpp:1928
 #, no-c-format
 msgid ""
 "Select one of the sliders to change the parameter value dynamically. The "
@@ -1023,20 +1031,20 @@ msgstr ""
 "(বাম) থেকে ১০০'র (ডান) মধ্যে "
 "ওঠানামা করে।"
 
-#. i18n: file editfunctionpage.ui line 311
-#: rc.cpp:307 rc.cpp:1953
+#. i18n: file editfunctionpage.ui line 146
+#: rc.cpp:258 rc.cpp:1931
 #, no-c-format
 msgid "Values from a list"
 msgstr "তালিকাভুক্ত মান"
 
-#. i18n: file editfunctionpage.ui line 314
-#: rc.cpp:310 rc.cpp:1956
+#. i18n: file editfunctionpage.ui line 149
+#: rc.cpp:261 rc.cpp:1934
 #, no-c-format
 msgid "read parameter values from a list"
 msgstr "পরামিতির মান তালিকা থেকে পড়"
 
-#. i18n: file editfunctionpage.ui line 317
-#: rc.cpp:313 rc.cpp:1959
+#. i18n: file editfunctionpage.ui line 152
+#: rc.cpp:264 rc.cpp:1937
 #, no-c-format
 msgid ""
 "Check this to let KmPlot use parameter values given in a list. Edit this "
@@ -1049,20 +1057,20 @@ msgstr ""
 "করার জন্যন ডানদিকের বাটনের "
 "ক্লিক করুন।"
 
-#. i18n: file editfunctionpage.ui line 328
-#: rc.cpp:316 rc.cpp:1962
+#. i18n: file editfunctionpage.ui line 163
+#: rc.cpp:267 rc.cpp:1940
 #, no-c-format
 msgid "Edit List..."
 msgstr "তালিকা সম্পাদন করো..."
 
-#. i18n: file editfunctionpage.ui line 331
-#: rc.cpp:319 rc.cpp:1965
+#. i18n: file editfunctionpage.ui line 166
+#: rc.cpp:270 rc.cpp:1943
 #, no-c-format
 msgid "Edit the list of parameters"
 msgstr "পরামিতির তালিকা সম্পাদন করো"
 
-#. i18n: file editfunctionpage.ui line 334
-#: rc.cpp:322 rc.cpp:1968
+#. i18n: file editfunctionpage.ui line 169
+#: rc.cpp:273 rc.cpp:1946
 #, no-c-format
 msgid ""
 "Click here to open a list of parameter values. Here you can add, remove, and "
@@ -1073,22 +1081,22 @@ msgstr ""
 " এখানে আপনি মান যোগ, অপসারণ, "
 "এবং পরিবর্তন করতে পারবেন।"
 
-#. i18n: file editfunctionpage.ui line 342
-#: rc.cpp:325 rc.cpp:1971
+#. i18n: file editfunctionpage.ui line 177
+#: rc.cpp:276 rc.cpp:1949
 #, no-c-format
 msgid "Disable parameter values"
 msgstr "পরামিতির মান নিষ্ক্রিয় করো"
 
-#. i18n: file editfunctionpage.ui line 348
-#: rc.cpp:328 rc.cpp:1974
+#. i18n: file editfunctionpage.ui line 183
+#: rc.cpp:279 rc.cpp:1952
 #, no-c-format
 msgid "Do not use any parameter values"
 msgstr ""
 "পরামিতির কোন মান ব্যবহার "
 "করবে না"
 
-#. i18n: file editfunctionpage.ui line 351
-#: rc.cpp:331 rc.cpp:1977
+#. i18n: file editfunctionpage.ui line 186
+#: rc.cpp:282 rc.cpp:1955
 #, no-c-format
 msgid "By having this option selected parameter values are disabled in the function."
 msgstr ""
@@ -1096,38 +1104,92 @@ msgstr ""
 "পরামিতির মান নিষ্ক্রিয় হয়ে "
 "যাবে।"
 
+#. i18n: file editfunctionpage.ui line 210
+#: rc.cpp:285 rc.cpp:1958
+#, fuzzy, no-c-format
+msgid "Custom plot m&inimum-range:"
+msgstr "স্বনির্বাচি&ত প্লট সীমা:"
+
+#. i18n: file editfunctionpage.ui line 213
+#: rc.cpp:288 rc.cpp:614 rc.cpp:1961 rc.cpp:2287
+#, fuzzy, no-c-format
+msgid "Customize the minimum plot range"
+msgstr ""
+"প্লটের সীমা স্বনির্বাচন "
+"করুন"
+
+#. i18n: file editfunctionpage.ui line 216
+#: rc.cpp:291 rc.cpp:309 rc.cpp:1964 rc.cpp:1982
+#, no-c-format
+msgid "Check this button and enter the plot range boundarys below."
+msgstr ""
+"এই বাটনে ক্লিক করুন এবং নিচে "
+"প্লটের সীমা লিখুন।"
+
+#. i18n: file editfunctionpage.ui line 224
+#: rc.cpp:294 rc.cpp:596 rc.cpp:1967 rc.cpp:2269
+#, no-c-format
+msgid "&Min:"
+msgstr "সর্বনিম্ন (&ম):"
+
+#. i18n: file editfunctionpage.ui line 249
+#: rc.cpp:303 rc.cpp:1976
+#, fuzzy, no-c-format
+msgid "Custom plot m&aximum-range:"
+msgstr "স্বনির্বাচি&ত প্লট সীমা:"
+
+#. i18n: file editfunctionpage.ui line 252
+#: rc.cpp:306 rc.cpp:605 rc.cpp:739 rc.cpp:1979 rc.cpp:2278 rc.cpp:2412
+#, fuzzy, no-c-format
+msgid "Customize the maximum plot range"
+msgstr ""
+"প্লটের সীমা স্বনির্বাচন "
+"করুন"
+
+#. i18n: file editfunctionpage.ui line 277
+#: rc.cpp:318 rc.cpp:1991
+#, no-c-format
+msgid "Ma&x:"
+msgstr "সর্বোচ্চ (&চ):"
+
+#. i18n: file editfunctionpage.ui line 304
+#: rc.cpp:321 rc.cpp:1994
+#, no-c-format
+msgid "Co&lor:"
+msgstr "র&ঙ:"
+
 #. i18n: file editintegralpage.ui line 16
-#: editfunction.cpp:66 rc.cpp:334 rc.cpp:1980
+#: editfunction.cpp:66 rc.cpp:343 rc.cpp:2016
 #, no-c-format
 msgid "Integral"
 msgstr "যোজিত ফল (Integral)"
 
 #. i18n: file editintegralpage.ui line 27
-#: rc.cpp:337 rc.cpp:1983
+#: rc.cpp:346 rc.cpp:2019
 #, no-c-format
 msgid "Show integral"
 msgstr "যোজিত ফল (Integral) দেখাও"
 
 #. i18n: file editintegralpage.ui line 44
-#: rc.cpp:346 rc.cpp:1992
+#: rc.cpp:355 rc.cpp:2028
 #, no-c-format
 msgid "Initial Point"
 msgstr "প্রাথমিক বিন্দু"
 
 #. i18n: file editintegralpage.ui line 55
-#: rc.cpp:349 rc.cpp:1995
+#: rc.cpp:358 rc.cpp:2031
 #, no-c-format
 msgid "&x-value:"
 msgstr "&এক্স-অক্ষীয় মান:"
 
 #. i18n: file editintegralpage.ui line 66
-#: rc.cpp:352 rc.cpp:1998
+#: rc.cpp:361 rc.cpp:2034
 #, no-c-format
 msgid "&y-value:"
 msgstr "&ওয়াই-অক্ষীয় মান:"
 
 #. i18n: file editintegralpage.ui line 77
-#: rc.cpp:355 rc.cpp:2001
+#: rc.cpp:364 rc.cpp:2037
 #, no-c-format
 msgid "Enter the initial x-point,for instance 2 or pi"
 msgstr ""
@@ -1135,7 +1197,7 @@ msgstr ""
 "লিখুন, যেমন 2 বা পাই"
 
 #. i18n: file editintegralpage.ui line 80
-#: rc.cpp:358 rc.cpp:2004
+#: rc.cpp:367 rc.cpp:2040
 #, no-c-format
 msgid ""
 "Enter the initial x-value or expression for the integral, for example 2 or "
@@ -1146,7 +1208,7 @@ msgstr ""
 "যেমন 2 বা pi/2"
 
 #. i18n: file editintegralpage.ui line 88
-#: rc.cpp:361 rc.cpp:2007
+#: rc.cpp:370 rc.cpp:2043
 #, no-c-format
 msgid "enter the initial y-point, eg 2 or pi"
 msgstr ""
@@ -1154,7 +1216,7 @@ msgstr ""
 "লিখুন, যেমন 2 বা পাই"
 
 #. i18n: file editintegralpage.ui line 91
-#: rc.cpp:364 rc.cpp:2010
+#: rc.cpp:373 rc.cpp:2046
 #, no-c-format
 msgid ""
 "Enter the initial y-value or expression for the integral, for example 2 or "
@@ -1165,49 +1227,49 @@ msgstr ""
 "যেমন 2 বা pi/2"
 
 #. i18n: file editintegralpage.ui line 118
-#: rc.cpp:367 rc.cpp:2013
+#: rc.cpp:376 rc.cpp:2049
 #, no-c-format
 msgid "P&recision:"
 msgstr "সূক্ষ্মতা (&ত):"
 
 #. i18n: file editintegralpage.ui line 140
-#: rc.cpp:370 rc.cpp:2016
+#: rc.cpp:379 rc.cpp:2052
 #, no-c-format
 msgid "Custom &precision"
 msgstr "স্বনির্বাচিত সূক্ষ্মতা (&ন)"
 
 #. i18n: file editintegralpage.ui line 143
-#: rc.cpp:373 rc.cpp:2019
-#, no-c-format
-msgid "customize the precision"
+#: rc.cpp:382 rc.cpp:2055
+#, fuzzy, no-c-format
+msgid "Customize the precision"
 msgstr "সূক্ষ্মতা নির্ধারণ করুন"
 
 #. i18n: file editintegralpage.ui line 170
-#: rc.cpp:376 rc.cpp:2022
+#: rc.cpp:385 rc.cpp:2058
 #, no-c-format
 msgid "Color:"
 msgstr "রঙ:"
 
 #. i18n: file editintegralpage.ui line 192
-#: rc.cpp:386 rc.cpp:2032
+#: rc.cpp:395 rc.cpp:2068
 #, no-c-format
 msgid "Line width:"
 msgstr "রেখার প্রস্থ:"
 
 #. i18n: file qconstanteditor.ui line 16
-#: rc.cpp:398 rc.cpp:2044
+#: rc.cpp:407 rc.cpp:2080
 #, no-c-format
 msgid "Constant Editor"
 msgstr "ধ্রুবক সম্পাদক"
 
 #. i18n: file qconstanteditor.ui line 33
-#: rc.cpp:404 rc.cpp:796 rc.cpp:2050 rc.cpp:2442
+#: rc.cpp:413 rc.cpp:823 rc.cpp:2086 rc.cpp:2496
 #, no-c-format
 msgid "delete selected constant"
 msgstr "নির্বাচিত ধ্রুবক মুছে ফেলো"
 
 #. i18n: file qconstanteditor.ui line 36
-#: rc.cpp:407 rc.cpp:799 rc.cpp:2053 rc.cpp:2445
+#: rc.cpp:416 rc.cpp:826 rc.cpp:2089 rc.cpp:2499
 #, no-c-format
 msgid ""
 "Click here to delete the selected constant; it can only be removed if it is "
@@ -1220,13 +1282,13 @@ msgstr ""
 "ব্যবহৃত হবে না।"
 
 #. i18n: file qconstanteditor.ui line 47
-#: rc.cpp:410 rc.cpp:760 rc.cpp:2056 rc.cpp:2406
+#: rc.cpp:419 rc.cpp:787 rc.cpp:2092 rc.cpp:2460
 #, no-c-format
 msgid "&Change Value..."
 msgstr "মান &পরিবর্তন করো..."
 
 #. i18n: file qconstanteditor.ui line 50
-#: rc.cpp:413 rc.cpp:763 rc.cpp:2059 rc.cpp:2409
+#: rc.cpp:422 rc.cpp:790 rc.cpp:2095 rc.cpp:2463
 #, no-c-format
 msgid "Change the value of a user-defined constant"
 msgstr ""
@@ -1234,7 +1296,7 @@ msgstr ""
 "ধ্রুবকের মান পরিবর্তন করো"
 
 #. i18n: file qconstanteditor.ui line 53
-#: rc.cpp:416 rc.cpp:766 rc.cpp:2062 rc.cpp:2412
+#: rc.cpp:425 rc.cpp:793 rc.cpp:2098 rc.cpp:2466
 #, no-c-format
 msgid ""
 "Click here to edit the value of the selected constant. Its name cannot be "
@@ -1246,13 +1308,13 @@ msgstr ""
 "পরিবর্তন করা যাবে না।"
 
 #. i18n: file qconstanteditor.ui line 64
-#: rc.cpp:419 rc.cpp:2065
+#: rc.cpp:428 rc.cpp:2101
 #, no-c-format
 msgid "D&uplicate"
 msgstr "&অনুরূপ"
 
 #. i18n: file qconstanteditor.ui line 67
-#: rc.cpp:422 rc.cpp:2068
+#: rc.cpp:431 rc.cpp:2104
 #, no-c-format
 msgid "Duplicate the selected constant"
 msgstr ""
@@ -1260,7 +1322,7 @@ msgstr ""
 "ধ্রুবক তৈরি করো"
 
 #. i18n: file qconstanteditor.ui line 70
-#: rc.cpp:425 rc.cpp:2071
+#: rc.cpp:434 rc.cpp:2107
 #, no-c-format
 msgid ""
 "Click here to Copy the selected constant to another constant. You can choose "
@@ -1273,19 +1335,19 @@ msgstr ""
 "নিতে পারবেন।"
 
 #. i18n: file qconstanteditor.ui line 78
-#: rc.cpp:428 rc.cpp:775 rc.cpp:2074 rc.cpp:2421
+#: rc.cpp:437 rc.cpp:802 rc.cpp:2110 rc.cpp:2475
 #, no-c-format
 msgid "&New..."
 msgstr "&নতুন..."
 
 #. i18n: file qconstanteditor.ui line 81
-#: rc.cpp:431 rc.cpp:778 rc.cpp:2077 rc.cpp:2424
+#: rc.cpp:440 rc.cpp:805 rc.cpp:2113 rc.cpp:2478
 #, no-c-format
 msgid "Add a new constant"
 msgstr "নতুন ধ্রুবক যোগ করো"
 
 #. i18n: file qconstanteditor.ui line 84
-#: rc.cpp:434 rc.cpp:781 rc.cpp:2080 rc.cpp:2427
+#: rc.cpp:443 rc.cpp:808 rc.cpp:2116 rc.cpp:2481
 #, no-c-format
 msgid "Click this button to add a new constant."
 msgstr ""
@@ -1293,19 +1355,19 @@ msgstr ""
 "জন্য এই বাটনে ক্লিক করুন।"
 
 #. i18n: file qconstanteditor.ui line 90
-#: rc.cpp:437 rc.cpp:2083
+#: rc.cpp:446 rc.cpp:2119
 #, no-c-format
 msgid "Variable"
 msgstr "চলক"
 
 #. i18n: file qconstanteditor.ui line 101
-#: rc.cpp:440 rc.cpp:2086
+#: rc.cpp:449 rc.cpp:2122
 #, no-c-format
 msgid "Value"
 msgstr "মান"
 
 #. i18n: file qconstanteditor.ui line 120
-#: rc.cpp:443 rc.cpp:2089
+#: rc.cpp:452 rc.cpp:2125
 #, no-c-format
 msgid "List of user-defined constants"
 msgstr ""
@@ -1313,7 +1375,7 @@ msgstr ""
 "ধ্রুবকের তালিকা"
 
 #. i18n: file qconstanteditor.ui line 123
-#: rc.cpp:446 rc.cpp:2092
+#: rc.cpp:455 rc.cpp:2128
 #, no-c-format
 msgid "Select a constant to change its value, remove it or duplicate it."
 msgstr ""
@@ -1323,25 +1385,25 @@ msgstr ""
 "নিন।"
 
 #. i18n: file qeditconstant.ui line 16
-#: rc.cpp:449 rc.cpp:2095
+#: rc.cpp:458 rc.cpp:2131
 #, no-c-format
 msgid "Edit Constant"
 msgstr "ধ্রুবক সম্পাদন করো"
 
 #. i18n: file qeditconstant.ui line 30
-#: rc.cpp:452 rc.cpp:2098
+#: rc.cpp:461 rc.cpp:2134
 #, no-c-format
 msgid "Variable:"
 msgstr "চলক:"
 
 #. i18n: file qeditconstant.ui line 38
-#: rc.cpp:455 rc.cpp:2101
+#: rc.cpp:464 rc.cpp:2137
 #, no-c-format
 msgid "Value:"
 msgstr "মান"
 
 #. i18n: file qeditconstant.ui line 95
-#: rc.cpp:464 rc.cpp:2110
+#: rc.cpp:473 rc.cpp:2146
 #, no-c-format
 msgid "Name of the constant (only 1 character but \"E\")"
 msgstr ""
@@ -1349,7 +1411,7 @@ msgstr ""
 "যে কোন একটি অক্ষর)"
 
 #. i18n: file qeditconstant.ui line 98
-#: rc.cpp:467 rc.cpp:2113
+#: rc.cpp:476 rc.cpp:2149
 #, no-c-format
 msgid ""
 "Enter the name of the constant here. User-defined constant names only have 1 "
@@ -1362,13 +1424,13 @@ msgstr ""
 "\"E\" (ইউলারের ধ্রুবক) সংরক্ষিত।"
 
 #. i18n: file qeditconstant.ui line 106
-#: rc.cpp:470 rc.cpp:2116
+#: rc.cpp:479 rc.cpp:2152
 #, no-c-format
 msgid "Enter the constant's value here."
 msgstr "এখানে ধ্রুবকের মান লিখুন।"
 
 #. i18n: file qeditconstant.ui line 109
-#: rc.cpp:473 rc.cpp:2119
+#: rc.cpp:482 rc.cpp:2155
 #, no-c-format
 msgid "The value of a constant can be an expression, for instance PI/2 or sqrt(2)."
 msgstr ""
@@ -1376,7 +1438,7 @@ msgstr ""
 "পারে, যেমন PI/2 বা sqrt(2) ।"
 
 #. i18n: file qeditparametric.ui line 24
-#: rc.cpp:476 rc.cpp:2122
+#: rc.cpp:485 rc.cpp:2158
 #, no-c-format
 msgid "Edit Parametric Plot"
 msgstr ""
@@ -1384,19 +1446,19 @@ msgstr ""
 "করুন"
 
 #. i18n: file qeditparametric.ui line 49
-#: rc.cpp:482 rc.cpp:2128
+#: rc.cpp:491 rc.cpp:2164
 #, no-c-format
 msgid "Name:"
 msgstr "নাম:"
 
 #. i18n: file qeditparametric.ui line 71
-#: rc.cpp:485 rc.cpp:512 rc.cpp:2131 rc.cpp:2158
+#: rc.cpp:494 rc.cpp:521 rc.cpp:2167 rc.cpp:2194
 #, no-c-format
 msgid "enter an expression"
 msgstr "একটি মান লিখুন"
 
 #. i18n: file qeditparametric.ui line 76
-#: rc.cpp:488 rc.cpp:2134
+#: rc.cpp:497 rc.cpp:2170
 #, no-c-format
 msgid ""
 "Enter an expression for the function.\n"
@@ -1409,19 +1471,19 @@ msgstr ""
 "উদাহরণ: cos(t)"
 
 #. i18n: file qeditparametric.ui line 84
-#: rc.cpp:493 rc.cpp:506 rc.cpp:523 rc.cpp:2139 rc.cpp:2152 rc.cpp:2169
+#: rc.cpp:502 rc.cpp:515 rc.cpp:532 rc.cpp:2175 rc.cpp:2188 rc.cpp:2205
 #, no-c-format
 msgid "f"
 msgstr "f"
 
 #. i18n: file qeditparametric.ui line 87
-#: rc.cpp:496 rc.cpp:2142
+#: rc.cpp:505 rc.cpp:2178
 #, no-c-format
 msgid "name of the function"
 msgstr "ফাংশনের নাম"
 
 #. i18n: file qeditparametric.ui line 91
-#: rc.cpp:499 rc.cpp:2145
+#: rc.cpp:508 rc.cpp:2181
 #, no-c-format
 msgid ""
 "Enter the name of the function.\n"
@@ -1438,19 +1500,19 @@ msgstr ""
 "পারবেন।"
 
 #. i18n: file qeditparametric.ui line 110
-#: rc.cpp:503 rc.cpp:2149
+#: rc.cpp:512 rc.cpp:2185
 #, no-c-format
 msgid "y"
 msgstr "y"
 
 #. i18n: file qeditparametric.ui line 131
-#: rc.cpp:509 rc.cpp:526 rc.cpp:2155 rc.cpp:2172
+#: rc.cpp:518 rc.cpp:535 rc.cpp:2191 rc.cpp:2208
 #, no-c-format
 msgid "(t) ="
 msgstr "(t) ="
 
 #. i18n: file qeditparametric.ui line 154
-#: rc.cpp:515 rc.cpp:2161
+#: rc.cpp:524 rc.cpp:2197
 #, no-c-format
 msgid ""
 "Enter an expression for the function.\n"
@@ -1463,53 +1525,33 @@ msgstr ""
 "উদাহরণ: sin(t)"
 
 #. i18n: file qeditparametric.ui line 176
-#: rc.cpp:520 rc.cpp:2166
+#: rc.cpp:529 rc.cpp:2202
 #, no-c-format
 msgid "x"
 msgstr "x"
 
 #. i18n: file qeditparametric.ui line 220
-#: rc.cpp:532 rc.cpp:636 rc.cpp:2178 rc.cpp:2282
+#: rc.cpp:541 rc.cpp:654 rc.cpp:2214 rc.cpp:2327
 #, no-c-format
 msgid "Hide"
 msgstr "আড়াল করো"
 
-#. i18n: file qeditparametric.ui line 250
-#: rc.cpp:541 rc.cpp:2187
-#, no-c-format
-msgid "max:"
-msgstr "সর্বোচ্চ:"
-
-#. i18n: file qeditparametric.ui line 261
-#: rc.cpp:544 rc.cpp:2190
-#, no-c-format
-msgid "min:"
-msgstr "মিনিট:"
-
-#. i18n: file qeditparametric.ui line 272
-#: rc.cpp:547 rc.cpp:2193
-#, fuzzy, no-c-format
-msgid "Custom plot t-range:"
-msgstr ""
-"প্লটের স্বনির্বাচিত "
-"এক্স-অক্ষীয়-সীমা:"
-
-#. i18n: file qeditparametric.ui line 407
-#: rc.cpp:593 rc.cpp:697 rc.cpp:2239 rc.cpp:2343
+#. i18n: file qeditparametric.ui line 327
+#: rc.cpp:575 rc.cpp:688 rc.cpp:2248 rc.cpp:2361
 #, no-c-format
 msgid "F1"
 msgstr "F1"
 
-#. i18n: file qeditparametric.ui line 444
-#: rc.cpp:599 rc.cpp:703 rc.cpp:2245 rc.cpp:2349
+#. i18n: file qeditparametric.ui line 364
+#: rc.cpp:581 rc.cpp:694 rc.cpp:2254 rc.cpp:2367
 #, no-c-format
 msgid "apply changes to the list"
 msgstr ""
 "তালিকায় কৃত পরিবর্তন "
 "কার্যকর করো"
 
-#. i18n: file qeditparametric.ui line 447
-#: rc.cpp:602 rc.cpp:706 rc.cpp:2248 rc.cpp:2352
+#. i18n: file qeditparametric.ui line 367
+#: rc.cpp:584 rc.cpp:697 rc.cpp:2257 rc.cpp:2370
 #, no-c-format
 msgid "Click this button to apply the changes to the list of functions."
 msgstr ""
@@ -1517,16 +1559,16 @@ msgstr ""
 "কার্যকর করার জন্য এই বাটনে "
 "ক্লিক করুন।"
 
-#. i18n: file qeditparametric.ui line 461
-#: rc.cpp:608 rc.cpp:712 rc.cpp:2254 rc.cpp:2358
+#. i18n: file qeditparametric.ui line 381
+#: rc.cpp:590 rc.cpp:703 rc.cpp:2263 rc.cpp:2376
 #, no-c-format
 msgid "abort without changing anything"
 msgstr ""
 "কোন পরিবর্তন ছাড়াই পরিত্যাগ "
 "করো"
 
-#. i18n: file qeditparametric.ui line 464
-#: rc.cpp:611 rc.cpp:715 rc.cpp:2257 rc.cpp:2361
+#. i18n: file qeditparametric.ui line 384
+#: rc.cpp:593 rc.cpp:706 rc.cpp:2266 rc.cpp:2379
 #, no-c-format
 msgid "Click here to close the dialog without changing anything."
 msgstr ""
@@ -1534,14 +1576,52 @@ msgstr ""
 "বন্ধ করার জন্য এখানে ক্লিক "
 "করুন।"
 
+#. i18n: file qeditparametric.ui line 419
+#: rc.cpp:599 rc.cpp:2272
+#, fuzzy, no-c-format
+msgid "&Max:"
+msgstr "সর্বোচ্চ:"
+
+#. i18n: file qeditparametric.ui line 430
+#: rc.cpp:602 rc.cpp:2275
+#, fuzzy, no-c-format
+msgid "Custom plot maximum t-range:"
+msgstr ""
+"প্লটের স্বনির্বাচিত "
+"এক্স-অক্ষীয়-সীমা:"
+
+#. i18n: file qeditparametric.ui line 436
+#: rc.cpp:608 rc.cpp:742 rc.cpp:2281 rc.cpp:2415
+#, fuzzy, no-c-format
+msgid "Check this button and enter the plot maximum range boundary below."
+msgstr ""
+"এই বাটনে ক্লিক করুন এবং নিচে "
+"প্লটের সীমা লিখুন।"
+
+#. i18n: file qeditparametric.ui line 444
+#: rc.cpp:611 rc.cpp:2284
+#, fuzzy, no-c-format
+msgid "Custom plot minimum t-range:"
+msgstr ""
+"প্লটের স্বনির্বাচিত "
+"এক্স-অক্ষীয়-সীমা:"
+
+#. i18n: file qeditparametric.ui line 450
+#: rc.cpp:617 rc.cpp:733 rc.cpp:2290 rc.cpp:2406
+#, fuzzy, no-c-format
+msgid "Check this button and enter the plot minimum range boundary below."
+msgstr ""
+"এই বাটনে ক্লিক করুন এবং নিচে "
+"প্লটের সীমা লিখুন।"
+
 #. i18n: file qeditpolar.ui line 24
-#: rc.cpp:614 rc.cpp:2260
+#: rc.cpp:632 rc.cpp:2305
 #, no-c-format
 msgid "Edit Polar Plot"
 msgstr "পোলার প্লট সম্পাদন করুন"
 
 #. i18n: file qeditpolar.ui line 57
-#: rc.cpp:620 rc.cpp:2266
+#: rc.cpp:638 rc.cpp:2311
 #, no-c-format
 msgid "enter an equation, for instance loop(angle)=ln(angle)"
 msgstr ""
@@ -1549,7 +1629,7 @@ msgstr ""
 "উদাহরণস্বরূপ loop(angle)=ln(angle)"
 
 #. i18n: file qeditpolar.ui line 61
-#: rc.cpp:623 rc.cpp:2269
+#: rc.cpp:641 rc.cpp:2314
 #, no-c-format
 msgid ""
 "Enter an expression for the function. The prefix \"r\" will be added "
@@ -1563,51 +1643,67 @@ msgstr ""
 "উদাহরণ: loop(angle)=ln(angle)"
 
 #. i18n: file qeditpolar.ui line 69
-#: rc.cpp:627 rc.cpp:2273
-#, no-c-format
-msgid "r="
+#: rc.cpp:645 rc.cpp:2318
+#, fuzzy, no-c-format
+msgid "r"
 msgstr "r="
 
 #. i18n: file qeditpolar.ui line 77
-#: rc.cpp:630 rc.cpp:2276
+#: rc.cpp:648 rc.cpp:2321
 #, no-c-format
 msgid "Equation:"
 msgstr "সমীকরণ:"
 
-#. i18n: file qeditpolar.ui line 128
-#: rc.cpp:645 rc.cpp:991 rc.cpp:1051 rc.cpp:2291 rc.cpp:2637 rc.cpp:2697
+#. i18n: file qeditpolar.ui line 286
+#: rc.cpp:709 rc.cpp:1018 rc.cpp:1078 rc.cpp:2382 rc.cpp:2691 rc.cpp:2751
 #, no-c-format
 msgid "Max:"
 msgstr "সর্বোচ্চ:"
 
-#. i18n: file qeditpolar.ui line 139
-#: rc.cpp:648 rc.cpp:994 rc.cpp:1054 rc.cpp:2294 rc.cpp:2640 rc.cpp:2700
+#. i18n: file qeditpolar.ui line 297
+#: rc.cpp:712 rc.cpp:1021 rc.cpp:1081 rc.cpp:2385 rc.cpp:2694 rc.cpp:2754
 #, no-c-format
 msgid "Min:"
 msgstr "সর্বনিম্ন:"
 
-#. i18n: file qeditpolar.ui line 150
-#: rc.cpp:651 rc.cpp:2297
+#. i18n: file qeditpolar.ui line 336
+#: rc.cpp:727 rc.cpp:2400
 #, fuzzy, no-c-format
-msgid "Custom plot r-range:"
+msgid "Custom plot minimum r-range:"
+msgstr ""
+"প্লটের স্বনির্বাচিত "
+"এক্স-অক্ষীয়-সীমা:"
+
+#. i18n: file qeditpolar.ui line 339
+#: rc.cpp:730 rc.cpp:2403
+#, fuzzy, no-c-format
+msgid "Customize the plot range"
+msgstr ""
+"প্লটের সীমা স্বনির্বাচন "
+"করুন"
+
+#. i18n: file qeditpolar.ui line 350
+#: rc.cpp:736 rc.cpp:2409
+#, fuzzy, no-c-format
+msgid "Custom plot maximum r-range:"
 msgstr ""
 "প্লটের স্বনির্বাচিত "
 "এক্স-অক্ষীয়-সীমা:"
 
 #. i18n: file qminmax.ui line 92
-#: rc.cpp:730 rc.cpp:2376
+#: rc.cpp:757 rc.cpp:2430
 #, no-c-format
 msgid "Graph"
 msgstr "লেখচিত্র"
 
 #. i18n: file qminmax.ui line 103
-#: rc.cpp:733 rc.cpp:2379
+#: rc.cpp:760 rc.cpp:2433
 #, no-c-format
 msgid "The available functions you can search in"
 msgstr "অনুসন্ধানযোগ্য ফাংশন"
 
 #. i18n: file qminmax.ui line 106
-#: rc.cpp:736 rc.cpp:2382
+#: rc.cpp:763 rc.cpp:2436
 #, no-c-format
 msgid "Here you can see all available functions you can use. Select one of them."
 msgstr ""
@@ -1616,13 +1712,13 @@ msgstr ""
 "কোন একটিকে বেছে নিন।"
 
 #. i18n: file qminmax.ui line 119
-#: rc.cpp:742 rc.cpp:2388
+#: rc.cpp:769 rc.cpp:2442
 #, no-c-format
 msgid "close the dialog"
 msgstr "ডায়ালগ বন্ধ করো"
 
 #. i18n: file qminmax.ui line 122
-#: rc.cpp:745 rc.cpp:2391
+#: rc.cpp:772 rc.cpp:2445
 #, no-c-format
 msgid "Close the dialog and return to the main window."
 msgstr ""
@@ -1630,13 +1726,13 @@ msgstr ""
 "ফিরে যাও।"
 
 #. i18n: file qminmax.ui line 130
-#: rc.cpp:748 rc.cpp:2394
+#: rc.cpp:775 rc.cpp:2448
 #, no-c-format
 msgid "Choose Parameter Value..."
 msgstr "পরামিতির মান বেছে নিন..."
 
 #. i18n: file qminmax.ui line 133
-#: rc.cpp:751 rc.cpp:2397
+#: rc.cpp:778 rc.cpp:2451
 #, no-c-format
 msgid "select the parameter value you want to use"
 msgstr ""
@@ -1644,7 +1740,7 @@ msgstr ""
 "করতে চান, তা বেছে নিন"
 
 #. i18n: file qminmax.ui line 136
-#: rc.cpp:754 rc.cpp:2400
+#: rc.cpp:781 rc.cpp:2454
 #, no-c-format
 msgid "If the function has any parameter values you must select it here."
 msgstr ""
@@ -1653,19 +1749,19 @@ msgstr ""
 "বাছাই করতে হবে।"
 
 #. i18n: file qparametereditor.ui line 16
-#: rc.cpp:757 rc.cpp:2403
+#: rc.cpp:784 rc.cpp:2457
 #, no-c-format
 msgid "Parameter Editor"
 msgstr "পরামিতি সম্পাদক"
 
 #. i18n: file qparametereditor.ui line 61
-#: rc.cpp:769 rc.cpp:2415
+#: rc.cpp:796 rc.cpp:2469
 #, no-c-format
 msgid "list of parameter values"
 msgstr "পরামিতির মানসমূহের তালিকা"
 
 #. i18n: file qparametereditor.ui line 64
-#: rc.cpp:772 rc.cpp:2418
+#: rc.cpp:799 rc.cpp:2472
 #, no-c-format
 msgid "Here you see the list of all parameter values for the function."
 msgstr ""
@@ -1673,13 +1769,13 @@ msgstr ""
 "পরামিতির মান দেখতে পারেন।"
 
 #. i18n: file qparametereditor.ui line 89
-#: rc.cpp:787 rc.cpp:2433
+#: rc.cpp:814 rc.cpp:2487
 #, no-c-format
 msgid "Close the dialog"
 msgstr "ডায়ালগ বন্ধ করো"
 
 #. i18n: file qparametereditor.ui line 92
-#: rc.cpp:790 rc.cpp:2436
+#: rc.cpp:817 rc.cpp:2490
 #, no-c-format
 msgid "Close the window and return to the function dialog."
 msgstr ""
@@ -1687,13 +1783,13 @@ msgstr ""
 "ডায়ালগের ফিরে যাও।"
 
 #. i18n: file qparametereditor.ui line 137
-#: rc.cpp:802 rc.cpp:2448
+#: rc.cpp:829 rc.cpp:2502
 #, fuzzy, no-c-format
 msgid "&Export..."
 msgstr "&রপ্তানী..."
 
 #. i18n: file qparametereditor.ui line 140
-#: rc.cpp:805 rc.cpp:2451
+#: rc.cpp:832 rc.cpp:2505
 #, fuzzy, no-c-format
 msgid "Export values to a textfile"
 msgstr ""
@@ -1701,7 +1797,7 @@ msgstr ""
 "করো"
 
 #. i18n: file qparametereditor.ui line 143
-#: rc.cpp:808 rc.cpp:2454
+#: rc.cpp:835 rc.cpp:2508
 #, fuzzy, no-c-format
 msgid ""
 "Export values to a textfile. Every value in the parameter list will be "
@@ -1713,13 +1809,13 @@ msgstr ""
 "পার্স করা হয়।"
 
 #. i18n: file qparametereditor.ui line 171
-#: rc.cpp:811 rc.cpp:2457
+#: rc.cpp:838 rc.cpp:2511
 #, no-c-format
 msgid "&Import..."
 msgstr "&আমদানী..."
 
 #. i18n: file qparametereditor.ui line 174
-#: rc.cpp:814 rc.cpp:2460
+#: rc.cpp:841 rc.cpp:2514
 #, no-c-format
 msgid "Import values from a textfile"
 msgstr ""
@@ -1727,7 +1823,7 @@ msgstr ""
 "করো"
 
 #. i18n: file qparametereditor.ui line 177
-#: rc.cpp:817 rc.cpp:2463
+#: rc.cpp:844 rc.cpp:2517
 #, no-c-format
 msgid ""
 "Import values from a textfile. Every line in the file is parsed as a value "
@@ -1739,25 +1835,25 @@ msgstr ""
 "পার্স করা হয়।"
 
 #. i18n: file settingspagecolor.ui line 28
-#: rc.cpp:820 rc.cpp:2466
+#: rc.cpp:847 rc.cpp:2520
 #, no-c-format
 msgid "&Coords"
 msgstr "স্থানাঙ্ক (&স)"
 
 #. i18n: file settingspagecolor.ui line 47
-#: rc.cpp:823 rc.cpp:2469
+#: rc.cpp:850 rc.cpp:2523
 #, no-c-format
 msgid "&Axes:"
 msgstr "&অক্ষ:"
 
 #. i18n: file settingspagecolor.ui line 61
-#: rc.cpp:827 rc.cpp:2473
+#: rc.cpp:854 rc.cpp:2527
 #, no-c-format
 msgid "select color for the axes"
 msgstr "অক্ষরেখার রং বেছে নিন"
 
 #. i18n: file settingspagecolor.ui line 64
-#: rc.cpp:830 rc.cpp:2476
+#: rc.cpp:857 rc.cpp:2530
 #, no-c-format
 msgid ""
 "Specify the color of the axes. The change will appear as soon as you press "
@@ -1768,13 +1864,13 @@ msgstr ""
 "পরিবর্তন কার্যকর হবে।"
 
 #. i18n: file settingspagecolor.ui line 75
-#: rc.cpp:834 rc.cpp:2480
+#: rc.cpp:861 rc.cpp:2534
 #, no-c-format
 msgid "select color for the grid"
 msgstr "গ্রীড রেখার জন্য রং বেছে নিন"
 
 #. i18n: file settingspagecolor.ui line 78
-#: rc.cpp:837 rc.cpp:2483
+#: rc.cpp:864 rc.cpp:2537
 #, no-c-format
 msgid ""
 "Specify the color of the grid. The change will appear as soon as you press "
@@ -1785,25 +1881,25 @@ msgstr ""
 "এই পরিবর্তন কার্যকর হবে।"
 
 #. i18n: file settingspagecolor.ui line 86
-#: rc.cpp:840 rc.cpp:2486
+#: rc.cpp:867 rc.cpp:2540
 #, no-c-format
 msgid "&Grid:"
 msgstr "গ্রী&ড:"
 
 #. i18n: file settingspagecolor.ui line 118
-#: rc.cpp:843 rc.cpp:2489
+#: rc.cpp:870 rc.cpp:2543
 #, fuzzy, no-c-format
 msgid "&Default Function Colors"
 msgstr "নতুন ফাংশন প্লট"
 
 #. i18n: file settingspagecolor.ui line 148
-#: rc.cpp:847 rc.cpp:2493
+#: rc.cpp:874 rc.cpp:2547
 #, no-c-format
 msgid "the default color for function number 2"
 msgstr "২য় ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 151
-#: rc.cpp:850 rc.cpp:2496
+#: rc.cpp:877 rc.cpp:2550
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 2. Please note that this color setting "
@@ -1824,13 +1920,13 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 162
-#: rc.cpp:854 rc.cpp:2500
+#: rc.cpp:881 rc.cpp:2554
 #, no-c-format
 msgid "the default color for function number 5"
 msgstr "৫ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 165
-#: rc.cpp:857 rc.cpp:2503
+#: rc.cpp:884 rc.cpp:2557
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 5. Please note that this color setting "
@@ -1851,13 +1947,13 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 176
-#: rc.cpp:861 rc.cpp:2507
+#: rc.cpp:888 rc.cpp:2561
 #, no-c-format
 msgid "the default color for function number 1"
 msgstr "১ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 179
-#: rc.cpp:864 rc.cpp:2510
+#: rc.cpp:891 rc.cpp:2564
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 1. Please note that this color setting "
@@ -1878,19 +1974,19 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 187
-#: rc.cpp:867 rc.cpp:2513
+#: rc.cpp:894 rc.cpp:2567
 #, no-c-format
 msgid "Function &1:"
 msgstr "ফাংশন &১:"
 
 #. i18n: file settingspagecolor.ui line 201
-#: rc.cpp:871 rc.cpp:2517
+#: rc.cpp:898 rc.cpp:2571
 #, no-c-format
 msgid "the default color for function number 3"
 msgstr "৩য় ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 204
-#: rc.cpp:874 rc.cpp:2520
+#: rc.cpp:901 rc.cpp:2574
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 3. Please note that this color setting "
@@ -1911,31 +2007,31 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 212
-#: rc.cpp:877 rc.cpp:2523
+#: rc.cpp:904 rc.cpp:2577
 #, no-c-format
 msgid "Function &3:"
 msgstr "ফাংশন &৩:"
 
 #. i18n: file settingspagecolor.ui line 223
-#: rc.cpp:880 rc.cpp:2526
+#: rc.cpp:907 rc.cpp:2580
 #, no-c-format
 msgid "Function &2:"
 msgstr "ফাংশন &২:"
 
 #. i18n: file settingspagecolor.ui line 234
-#: rc.cpp:883 rc.cpp:2529
+#: rc.cpp:910 rc.cpp:2583
 #, no-c-format
 msgid "Function &4:"
 msgstr "ফাংশন &৪:"
 
 #. i18n: file settingspagecolor.ui line 248
-#: rc.cpp:887 rc.cpp:2533
+#: rc.cpp:914 rc.cpp:2587
 #, no-c-format
 msgid "the default color for function number 4"
 msgstr "৪র্থ ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 251
-#: rc.cpp:890 rc.cpp:2536
+#: rc.cpp:917 rc.cpp:2590
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 4. Please note that this color setting "
@@ -1956,31 +2052,31 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 259
-#: rc.cpp:893 rc.cpp:2539
+#: rc.cpp:920 rc.cpp:2593
 #, no-c-format
 msgid "Function &5:"
 msgstr "ফাংশন &৫:"
 
 #. i18n: file settingspagecolor.ui line 297
-#: rc.cpp:896 rc.cpp:2542
+#: rc.cpp:923 rc.cpp:2596
 #, no-c-format
 msgid "Function &7:"
 msgstr "ফাংশন &৭:"
 
 #. i18n: file settingspagecolor.ui line 308
-#: rc.cpp:899 rc.cpp:2545
+#: rc.cpp:926 rc.cpp:2599
 #, no-c-format
 msgid "Function &8:"
 msgstr "ফাংশন &৮:"
 
 #. i18n: file settingspagecolor.ui line 322
-#: rc.cpp:903 rc.cpp:2549
+#: rc.cpp:930 rc.cpp:2603
 #, no-c-format
 msgid "the default color for function number 9"
 msgstr "৯ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 325
-#: rc.cpp:906 rc.cpp:2552
+#: rc.cpp:933 rc.cpp:2606
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 9. Please note that this color setting "
@@ -2001,19 +2097,19 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 333
-#: rc.cpp:909 rc.cpp:2555
+#: rc.cpp:936 rc.cpp:2609
 #, no-c-format
 msgid "Function &6:"
 msgstr "ফাংশন &৬:"
 
 #. i18n: file settingspagecolor.ui line 347
-#: rc.cpp:913 rc.cpp:2559
+#: rc.cpp:940 rc.cpp:2613
 #, no-c-format
 msgid "the default color for function number 7"
 msgstr "৭ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 350
-#: rc.cpp:916 rc.cpp:2562
+#: rc.cpp:943 rc.cpp:2616
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 7. Please note that this color setting "
@@ -2034,13 +2130,13 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 361
-#: rc.cpp:920 rc.cpp:2566
+#: rc.cpp:947 rc.cpp:2620
 #, no-c-format
 msgid "the default color for function number 8"
 msgstr "৮ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 364
-#: rc.cpp:923 rc.cpp:2569
+#: rc.cpp:950 rc.cpp:2623
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 8. Please note that this color setting "
@@ -2061,13 +2157,13 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 375
-#: rc.cpp:927 rc.cpp:2573
+#: rc.cpp:954 rc.cpp:2627
 #, no-c-format
 msgid "the default color for function number 6"
 msgstr "৬ষ্ঠ ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 378
-#: rc.cpp:930 rc.cpp:2576
+#: rc.cpp:957 rc.cpp:2630
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 6. Please note that this color setting "
@@ -2088,19 +2184,19 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 386
-#: rc.cpp:933 rc.cpp:2579
+#: rc.cpp:960 rc.cpp:2633
 #, no-c-format
 msgid "Function &9:"
 msgstr "ফাংশন &৯:"
 
 #. i18n: file settingspagecolor.ui line 400
-#: rc.cpp:937 rc.cpp:2583
+#: rc.cpp:964 rc.cpp:2637
 #, no-c-format
 msgid "the default color for function number 10"
 msgstr "১০ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: file settingspagecolor.ui line 403
-#: rc.cpp:940 rc.cpp:2586
+#: rc.cpp:967 rc.cpp:2640
 #, fuzzy, no-c-format
 msgid ""
 "The default color for function number 10. Please note that this color "
@@ -2121,41 +2217,41 @@ msgstr ""
 "প্রদর্শন করা হবে।"
 
 #. i18n: file settingspagecolor.ui line 411
-#: rc.cpp:943 rc.cpp:2589
+#: rc.cpp:970 rc.cpp:2643
 #, no-c-format
 msgid "Function 1&0:"
 msgstr "ফাংশন ১&০:"
 
 #. i18n: file settingspagecoords.ui line 28
-#: rc.cpp:946 rc.cpp:2592
+#: rc.cpp:973 rc.cpp:2646
 #, no-c-format
 msgid "&Axes"
 msgstr "&অক্ষ"
 
 #. i18n: file settingspagecoords.ui line 47
-#: rc.cpp:949 rc.cpp:2595
+#: rc.cpp:976 rc.cpp:2649
 #, no-c-format
 msgid "&X Axis"
 msgstr "&এক্স অক্ষ"
 
 #. i18n: file settingspagecoords.ui line 58
-#: rc.cpp:952 rc.cpp:1012 rc.cpp:2598 rc.cpp:2658
+#: rc.cpp:979 rc.cpp:1039 rc.cpp:2652 rc.cpp:2712
 #, no-c-format
 msgid "[-8 | +8]"
 msgstr "[-৮ | +৮]"
 
 #. i18n: file settingspagecoords.ui line 64
-#: rc.cpp:955 rc.cpp:964 rc.cpp:973 rc.cpp:982 rc.cpp:1015 rc.cpp:1024
-#: rc.cpp:1033 rc.cpp:1042 rc.cpp:2601 rc.cpp:2610 rc.cpp:2619 rc.cpp:2628
-#: rc.cpp:2661 rc.cpp:2670 rc.cpp:2679 rc.cpp:2688
+#: rc.cpp:982 rc.cpp:991 rc.cpp:1000 rc.cpp:1009 rc.cpp:1042 rc.cpp:1051
+#: rc.cpp:1060 rc.cpp:1069 rc.cpp:2655 rc.cpp:2664 rc.cpp:2673 rc.cpp:2682
+#: rc.cpp:2715 rc.cpp:2724 rc.cpp:2733 rc.cpp:2742
 #, no-c-format
 msgid "Predefined plot ranges"
 msgstr "পূর্বনির্ধারিত প্লট সীমা"
 
 #. i18n: file settingspagecoords.ui line 67
-#: rc.cpp:958 rc.cpp:967 rc.cpp:976 rc.cpp:985 rc.cpp:1018 rc.cpp:1027
-#: rc.cpp:1036 rc.cpp:1045 rc.cpp:2604 rc.cpp:2613 rc.cpp:2622 rc.cpp:2631
-#: rc.cpp:2664 rc.cpp:2673 rc.cpp:2682 rc.cpp:2691
+#: rc.cpp:985 rc.cpp:994 rc.cpp:1003 rc.cpp:1012 rc.cpp:1045 rc.cpp:1054
+#: rc.cpp:1063 rc.cpp:1072 rc.cpp:2658 rc.cpp:2667 rc.cpp:2676 rc.cpp:2685
+#: rc.cpp:2718 rc.cpp:2727 rc.cpp:2736 rc.cpp:2745
 #, no-c-format
 msgid "Select one of the predefined plot ranges."
 msgstr ""
@@ -2163,39 +2259,39 @@ msgstr ""
 "প্লট সীমা বেছে নিন।"
 
 #. i18n: file settingspagecoords.ui line 75
-#: rc.cpp:961 rc.cpp:1021 rc.cpp:2607 rc.cpp:2667
+#: rc.cpp:988 rc.cpp:1048 rc.cpp:2661 rc.cpp:2721
 #, no-c-format
 msgid "[-5 | +5]"
 msgstr "[-৫ | +৫]"
 
 #. i18n: file settingspagecoords.ui line 92
-#: rc.cpp:970 rc.cpp:1030 rc.cpp:2616 rc.cpp:2676
+#: rc.cpp:997 rc.cpp:1057 rc.cpp:2670 rc.cpp:2730
 #, no-c-format
 msgid "[0 | +16]"
 msgstr "[০ | +১৬]"
 
 #. i18n: file settingspagecoords.ui line 109
-#: rc.cpp:979 rc.cpp:1039 rc.cpp:2625 rc.cpp:2685
+#: rc.cpp:1006 rc.cpp:1066 rc.cpp:2679 rc.cpp:2739
 #, no-c-format
 msgid "[0 | +10]"
 msgstr "[০ | +১০]"
 
 #. i18n: file settingspagecoords.ui line 126
-#: rc.cpp:988 rc.cpp:1048 rc.cpp:2634 rc.cpp:2694
+#: rc.cpp:1015 rc.cpp:1075 rc.cpp:2688 rc.cpp:2748
 #, no-c-format
 msgid "Custom:"
 msgstr "স্বনির্বাচিত:"
 
 #. i18n: file settingspagecoords.ui line 164
-#: rc.cpp:997 rc.cpp:1003 rc.cpp:1057 rc.cpp:1063 rc.cpp:2643 rc.cpp:2649
-#: rc.cpp:2703 rc.cpp:2709
+#: rc.cpp:1024 rc.cpp:1030 rc.cpp:1084 rc.cpp:1090 rc.cpp:2697 rc.cpp:2703
+#: rc.cpp:2757 rc.cpp:2763
 #, no-c-format
 msgid "Custom boundary of the plot range"
 msgstr "স্বনির্বাচিত প্লট সীমা"
 
 #. i18n: file settingspagecoords.ui line 167
-#: rc.cpp:1000 rc.cpp:1006 rc.cpp:1060 rc.cpp:1066 rc.cpp:2646 rc.cpp:2652
-#: rc.cpp:2706 rc.cpp:2712
+#: rc.cpp:1027 rc.cpp:1033 rc.cpp:1087 rc.cpp:1093 rc.cpp:2700 rc.cpp:2706
+#: rc.cpp:2760 rc.cpp:2766
 #, no-c-format
 msgid "Enter a valid expression, for instance 2*pi or e/2."
 msgstr ""
@@ -2203,62 +2299,62 @@ msgstr ""
 "e/2 ।"
 
 #. i18n: file settingspagecoords.ui line 193
-#: rc.cpp:1009 rc.cpp:2655
+#: rc.cpp:1036 rc.cpp:2709
 #, no-c-format
 msgid "&Y Axis"
 msgstr "&ওয়াই অক্ষ"
 
 #. i18n: file settingspagecoords.ui line 349
-#: rc.cpp:1069 rc.cpp:2715
+#: rc.cpp:1096 rc.cpp:2769
 #, no-c-format
 msgid "Axis-line width:"
 msgstr "অক্ষীয়-রেখার প্রস্থ:"
 
 #. i18n: file settingspagecoords.ui line 363
-#: rc.cpp:1072 rc.cpp:1081 rc.cpp:2718 rc.cpp:2727
+#: rc.cpp:1099 rc.cpp:1108 rc.cpp:2772 rc.cpp:2781
 #, no-c-format
 msgid "Line width"
 msgstr "রেখার প্রস্থ"
 
 #. i18n: file settingspagecoords.ui line 371
-#: rc.cpp:1075 rc.cpp:1084 rc.cpp:1096 rc.cpp:1177 rc.cpp:2721 rc.cpp:2730
-#: rc.cpp:2742 rc.cpp:2823
+#: rc.cpp:1102 rc.cpp:1111 rc.cpp:1123 rc.cpp:1204 rc.cpp:2775 rc.cpp:2784
+#: rc.cpp:2796 rc.cpp:2877
 #, no-c-format
 msgid "0.1 mm"
 msgstr "০.১ মিলিমিটার"
 
 #. i18n: file settingspagecoords.ui line 389
-#: rc.cpp:1078 rc.cpp:2724
+#: rc.cpp:1105 rc.cpp:2778
 #, no-c-format
 msgid "Tic width:"
 msgstr "টিক-এর প্রস্থ:"
 
 #. i18n: file settingspagecoords.ui line 429
-#: rc.cpp:1087 rc.cpp:2733
+#: rc.cpp:1114 rc.cpp:2787
 #, no-c-format
 msgid "Tic length:"
 msgstr "টিক-এর দৈর্ঘ্য:"
 
 #. i18n: file settingspagecoords.ui line 443
-#: rc.cpp:1090 rc.cpp:2736
+#: rc.cpp:1117 rc.cpp:2790
 #, no-c-format
 msgid "Length of the tic line"
 msgstr "টিক রেখার দৈর্ঘ্য"
 
 #. i18n: file settingspagecoords.ui line 446
-#: rc.cpp:1093 rc.cpp:2739
+#: rc.cpp:1120 rc.cpp:2793
 #, no-c-format
 msgid "Enter the length of a tic line."
 msgstr "টিক রেখার দৈর্ঘ্য লিখুন।"
 
 #. i18n: file settingspagecoords.ui line 472
-#: rc.cpp:1099 rc.cpp:2745
+#: rc.cpp:1126 rc.cpp:2799
 #, no-c-format
 msgid "Show arrows"
 msgstr "তীরচিহ্ন প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 478
-#: rc.cpp:1102 rc.cpp:2748
+#: rc.cpp:1129 rc.cpp:2802
 #, no-c-format
 msgid "visible arrows at the end of the axes"
 msgstr ""
@@ -2266,7 +2362,7 @@ msgstr ""
 "তীরচিহ্ন প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 481
-#: rc.cpp:1105 rc.cpp:2751
+#: rc.cpp:1132 rc.cpp:2805
 #, no-c-format
 msgid "Check this if the axes should have arrows at their ends."
 msgstr ""
@@ -2275,19 +2371,19 @@ msgstr ""
 "এটিতে টিক দিন।"
 
 #. i18n: file settingspagecoords.ui line 489
-#: rc.cpp:1108 rc.cpp:2754
+#: rc.cpp:1135 rc.cpp:2808
 #, no-c-format
 msgid "Show labels"
 msgstr "লেবেল প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 495
-#: rc.cpp:1111 rc.cpp:2757
+#: rc.cpp:1138 rc.cpp:2811
 #, no-c-format
 msgid "visible tic labels"
 msgstr "টিক লেবেল প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 498
-#: rc.cpp:1114 rc.cpp:2760
+#: rc.cpp:1141 rc.cpp:2814
 #, no-c-format
 msgid "Check this if the axes' tics should be labeled."
 msgstr ""
@@ -2296,19 +2392,19 @@ msgstr ""
 "দিন।"
 
 #. i18n: file settingspagecoords.ui line 506
-#: rc.cpp:1117 rc.cpp:2763
+#: rc.cpp:1144 rc.cpp:2817
 #, no-c-format
 msgid "Show extra frame"
 msgstr "অতিরিক্ত ফ্রেম প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 512
-#: rc.cpp:1120 rc.cpp:2766
+#: rc.cpp:1147 rc.cpp:2820
 #, no-c-format
 msgid "visible extra frame"
 msgstr "অতিরিক্ত ফ্রেম প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 515
-#: rc.cpp:1123 rc.cpp:2769
+#: rc.cpp:1150 rc.cpp:2823
 #, no-c-format
 msgid "Check this if the plot area should be framed by an extra line."
 msgstr ""
@@ -2317,19 +2413,19 @@ msgstr ""
 "করতে হলে এটিতে টিক দিন।"
 
 #. i18n: file settingspagecoords.ui line 523
-#: rc.cpp:1126 rc.cpp:2772
+#: rc.cpp:1153 rc.cpp:2826
 #, no-c-format
 msgid "Show axes"
 msgstr "অক্ষরেখা প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 529
-#: rc.cpp:1129 rc.cpp:2775
+#: rc.cpp:1156 rc.cpp:2829
 #, no-c-format
 msgid "visible axes"
 msgstr "অক্ষরেখা প্রদর্শন করো"
 
 #. i18n: file settingspagecoords.ui line 532
-#: rc.cpp:1132 rc.cpp:2778
+#: rc.cpp:1159 rc.cpp:2832
 #, no-c-format
 msgid "Check this if the axes should be visible."
 msgstr ""
@@ -2337,43 +2433,43 @@ msgstr ""
 "এখানে টিক দিন।"
 
 #. i18n: file settingspagecoords.ui line 561
-#: rc.cpp:1135 rc.cpp:2781
+#: rc.cpp:1162 rc.cpp:2835
 #, no-c-format
 msgid "&Grid"
 msgstr "গ্রী&ড"
 
 #. i18n: file settingspagecoords.ui line 572
-#: rc.cpp:1138 rc.cpp:2784
+#: rc.cpp:1165 rc.cpp:2838
 #, no-c-format
 msgid "Grid &Style"
 msgstr "গ্রীডের &ধরন"
 
 #. i18n: file settingspagecoords.ui line 575
-#: rc.cpp:1141 rc.cpp:2787
+#: rc.cpp:1168 rc.cpp:2841
 #, no-c-format
 msgid "Available grid styles"
 msgstr "ব্যবহারযোগ্য গ্রীডের ধরন"
 
 #. i18n: file settingspagecoords.ui line 586
-#: rc.cpp:1144 rc.cpp:2790
+#: rc.cpp:1171 rc.cpp:2844
 #, no-c-format
 msgid "None"
 msgstr "একটিও নয়"
 
 #. i18n: file settingspagecoords.ui line 589
-#: rc.cpp:1147 rc.cpp:2793
+#: rc.cpp:1174 rc.cpp:2847
 #, no-c-format
 msgid "No Grid will be plotted."
 msgstr "কোন গ্রীড আঁকা হবে না।"
 
 #. i18n: file settingspagecoords.ui line 597
-#: rc.cpp:1150 rc.cpp:2796
+#: rc.cpp:1177 rc.cpp:2850
 #, no-c-format
 msgid "Lines"
 msgstr "রেখা"
 
 #. i18n: file settingspagecoords.ui line 600
-#: rc.cpp:1153 rc.cpp:2799
+#: rc.cpp:1180 rc.cpp:2853
 #, no-c-format
 msgid "A line for every tic."
 msgstr ""
@@ -2381,13 +2477,13 @@ msgstr ""
 "রেখা।"
 
 #. i18n: file settingspagecoords.ui line 608
-#: rc.cpp:1156 rc.cpp:2802
+#: rc.cpp:1183 rc.cpp:2856
 #, no-c-format
 msgid "Crosses"
 msgstr "অতিক্রম করে"
 
 #. i18n: file settingspagecoords.ui line 611
-#: rc.cpp:1159 rc.cpp:2805
+#: rc.cpp:1186 rc.cpp:2859
 #, no-c-format
 msgid "Only little crosses in the plot area."
 msgstr ""
@@ -2395,55 +2491,55 @@ msgstr ""
 "ক্ষুদ্র ক্রশচিহ্ন।"
 
 #. i18n: file settingspagecoords.ui line 619
-#: rc.cpp:1162 rc.cpp:2808
+#: rc.cpp:1189 rc.cpp:2862
 #, no-c-format
 msgid "Polar"
 msgstr "পোলার"
 
 #. i18n: file settingspagecoords.ui line 622
-#: rc.cpp:1165 rc.cpp:2811
+#: rc.cpp:1192 rc.cpp:2865
 #, no-c-format
 msgid "Circles around the Origin."
 msgstr "মূলবিন্দুর চারপাশে বৃত্ত।"
 
 #. i18n: file settingspagecoords.ui line 654
-#: rc.cpp:1171 rc.cpp:2817
+#: rc.cpp:1198 rc.cpp:2871
 #, no-c-format
 msgid "Width for the grid lines"
 msgstr "গ্রীড রেখার প্রস্থ"
 
 #. i18n: file settingspagecoords.ui line 657
-#: rc.cpp:1174 rc.cpp:1475 rc.cpp:2820
+#: rc.cpp:1201 rc.cpp:1502 rc.cpp:2874
 #, no-c-format
 msgid "Enter the width of the grid lines."
 msgstr "গ্রীড রেখার প্রস্থ লিখুন।"
 
 #. i18n: file settingspagefonts.ui line 41
-#: rc.cpp:1180 rc.cpp:2826
+#: rc.cpp:1207 rc.cpp:2880
 #, no-c-format
 msgid "&Header table:"
 msgstr "হেডা&র সারণী:"
 
 #. i18n: file settingspagefonts.ui line 60
-#: rc.cpp:1183 rc.cpp:2829
+#: rc.cpp:1210 rc.cpp:2883
 #, no-c-format
 msgid "Axis &font:"
 msgstr ""
 
 #. i18n: file settingspagefonts.ui line 79
-#: rc.cpp:1186 rc.cpp:2832
+#: rc.cpp:1213 rc.cpp:2886
 #, no-c-format
 msgid "Axis font &size:"
 msgstr ""
 
 #. i18n: file settingspagefonts.ui line 90
-#: rc.cpp:1189 rc.cpp:2835
+#: rc.cpp:1216 rc.cpp:2889
 #, no-c-format
 msgid "the font for the axis"
 msgstr "অক্ষরেখার ফন্ট"
 
 #. i18n: file settingspagefonts.ui line 93
-#: rc.cpp:1192 rc.cpp:2838
+#: rc.cpp:1219 rc.cpp:2892
 #, no-c-format
 msgid ""
 "Select the font you want to use for the axis labels. If you cannot see the "
@@ -2460,25 +2556,25 @@ msgstr ""
 "পরীক্ষা করুন।"
 
 #. i18n: file settingspagefonts.ui line 101
-#: rc.cpp:1195 rc.cpp:2841
+#: rc.cpp:1222 rc.cpp:2895
 #, fuzzy, no-c-format
 msgid "The font size for the axis"
 msgstr "অক্ষরেখার ফন্ট"
 
 #. i18n: file settingspagefonts.ui line 104
-#: rc.cpp:1198 rc.cpp:2844
+#: rc.cpp:1225 rc.cpp:2898
 #, fuzzy, no-c-format
 msgid "Here you set the font size for the axis"
 msgstr "অক্ষরেখার ফন্ট"
 
 #. i18n: file settingspagefonts.ui line 112
-#: rc.cpp:1201 rc.cpp:2847
+#: rc.cpp:1228 rc.cpp:2901
 #, no-c-format
 msgid "the font for the header table"
 msgstr "হেডার সারণীর ফন্ট"
 
 #. i18n: file settingspagefonts.ui line 115
-#: rc.cpp:1204 rc.cpp:2850
+#: rc.cpp:1231 rc.cpp:2904
 #, no-c-format
 msgid ""
 "Select the font you want to use in the header table. The header table can be "
@@ -2491,13 +2587,13 @@ msgstr ""
 "অন্তর্ভুক্ত করা যাবে।"
 
 #. i18n: file settingspageprecision.ui line 52
-#: rc.cpp:1210 rc.cpp:2856
+#: rc.cpp:1237 rc.cpp:2910
 #, no-c-format
 msgid "Zoom in by:"
 msgstr "বিবর্ধন মাত্রা:"
 
 #. i18n: file settingspageprecision.ui line 63
-#: rc.cpp:1213 rc.cpp:2859
+#: rc.cpp:1240 rc.cpp:2913
 #, no-c-format
 msgid "Zoom out by:"
 msgstr ""
@@ -2505,13 +2601,13 @@ msgstr ""
 "মাত্রা:"
 
 #. i18n: file settingspageprecision.ui line 86
-#: rc.cpp:1216 rc.cpp:1222 rc.cpp:2862 rc.cpp:2868
+#: rc.cpp:1243 rc.cpp:1249 rc.cpp:2916 rc.cpp:2922
 #, no-c-format
 msgid "%"
 msgstr "%"
 
 #. i18n: file settingspageprecision.ui line 89
-#: rc.cpp:1219 rc.cpp:2865
+#: rc.cpp:1246 rc.cpp:2919
 #, no-c-format
 msgid "The value the zoom-in tool should use."
 msgstr ""
@@ -2519,7 +2615,7 @@ msgstr ""
 "ব্যবহার করা হবে।"
 
 #. i18n: file settingspageprecision.ui line 112
-#: rc.cpp:1225 rc.cpp:2871
+#: rc.cpp:1252 rc.cpp:2925
 #, no-c-format
 msgid "The value the zoom-out tool should use."
 msgstr ""
@@ -2528,13 +2624,13 @@ msgstr ""
 "হবে।"
 
 #. i18n: file settingspageprecision.ui line 122
-#: rc.cpp:1228 rc.cpp:2874
+#: rc.cpp:1255 rc.cpp:2928
 #, no-c-format
 msgid "Background Color"
 msgstr "পটভূমির রং"
 
 #. i18n: file settingspageprecision.ui line 136
-#: rc.cpp:1232 rc.cpp:2878
+#: rc.cpp:1259 rc.cpp:2932
 #, no-c-format
 msgid "Color for the plot area behind the grid."
 msgstr ""
@@ -2542,7 +2638,7 @@ msgstr ""
 "ক্ষেত্রের রং"
 
 #. i18n: file settingspageprecision.ui line 139
-#: rc.cpp:1235 rc.cpp:2881
+#: rc.cpp:1262 rc.cpp:2935
 #, no-c-format
 msgid ""
 "Click on the button the choose the color of the background. This option has "
@@ -2554,19 +2650,19 @@ msgstr ""
 "কোন প্রভাব নেই।"
 
 #. i18n: file settingspageprecision.ui line 166
-#: rc.cpp:1238 rc.cpp:2884
+#: rc.cpp:1265 rc.cpp:2938
 #, no-c-format
 msgid "Angle Mode"
 msgstr "কোণ মোড"
 
 #. i18n: file settingspageprecision.ui line 177
-#: rc.cpp:1241 rc.cpp:2887
+#: rc.cpp:1268 rc.cpp:2941
 #, no-c-format
 msgid "&Radian"
 msgstr "রেডিয়া&ন"
 
 #. i18n: file settingspageprecision.ui line 180
-#: rc.cpp:1244 rc.cpp:2890
+#: rc.cpp:1271 rc.cpp:2944
 #, no-c-format
 msgid "Trigonometric functions use radian mode for angles."
 msgstr ""
@@ -2575,7 +2671,7 @@ msgstr ""
 "করে।"
 
 #. i18n: file settingspageprecision.ui line 183
-#: rc.cpp:1247 rc.cpp:2893
+#: rc.cpp:1274 rc.cpp:2947
 #, no-c-format
 msgid ""
 "Check this button to use radian mode to measure angles. This is important "
@@ -2588,13 +2684,13 @@ msgstr ""
 "ক্ষেত্রেই এটি গুরুত্বপূর্ণ।"
 
 #. i18n: file settingspageprecision.ui line 191
-#: rc.cpp:1250 rc.cpp:2896
+#: rc.cpp:1277 rc.cpp:2950
 #, no-c-format
 msgid "&Degree"
 msgstr "ডিগ্রি (&ড)"
 
 #. i18n: file settingspageprecision.ui line 194
-#: rc.cpp:1253 rc.cpp:2899
+#: rc.cpp:1280 rc.cpp:2953
 #, no-c-format
 msgid "Trigonometric functions use degree mode for angles."
 msgstr ""
@@ -2603,7 +2699,7 @@ msgstr ""
 "ব্যবহার করে।"
 
 #. i18n: file settingspageprecision.ui line 197
-#: rc.cpp:1256 rc.cpp:2902
+#: rc.cpp:1283 rc.cpp:2956
 #, no-c-format
 msgid ""
 "Check this button to use degree mode to measure angles. This is important "
@@ -2616,13 +2712,13 @@ msgstr ""
 "ক্ষেত্রেই এটি গুরুত্বপূর্ণ।"
 
 #. i18n: file settingspageprecision.ui line 207
-#: rc.cpp:1259 rc.cpp:2905
+#: rc.cpp:1286 rc.cpp:2959
 #, no-c-format
 msgid "Precision"
 msgstr "নিখুঁত হওয়ার মাত্রা"
 
 #. i18n: file settingspageprecision.ui line 226
-#: rc.cpp:1262 rc.cpp:2908
+#: rc.cpp:1289 rc.cpp:2962
 #, fuzzy, no-c-format
 msgid "Points per pixel:"
 msgstr ""
@@ -2630,7 +2726,7 @@ msgstr ""
 "(&প):"
 
 #. i18n: file settingspageprecision.ui line 243
-#: rc.cpp:1265 rc.cpp:2911
+#: rc.cpp:1292 rc.cpp:2965
 #, no-c-format
 msgid "How many points per pixel shall be calculated."
 msgstr ""
@@ -2638,7 +2734,7 @@ msgstr ""
 "গণনা করা হবে।"
 
 #. i18n: file settingspageprecision.ui line 246
-#: rc.cpp:1268 rc.cpp:2914
+#: rc.cpp:1295 rc.cpp:2968
 #, no-c-format
 msgid ""
 "Enter the amount of points per pixel which shall be calculated. For slow "
@@ -2652,19 +2748,19 @@ msgstr ""
 "ব্যবহার করুন।"
 
 #. i18n: file settingspageprecision.ui line 256
-#: rc.cpp:1271 rc.cpp:2917
+#: rc.cpp:1298 rc.cpp:2971
 #, no-c-format
 msgid "&Use relative step width"
 msgstr ""
 
 #. i18n: file settingspageprecision.ui line 259
-#: rc.cpp:1274 rc.cpp:2920
+#: rc.cpp:1301 rc.cpp:2974
 #, no-c-format
 msgid "Use the same precision independent of the window's size"
 msgstr ""
 
 #. i18n: file settingspageprecision.ui line 262
-#: rc.cpp:1277 rc.cpp:1673 rc.cpp:2923
+#: rc.cpp:1304 rc.cpp:1700 rc.cpp:2977
 #, no-c-format
 msgid ""
 "If relative step width is set to true, the step width will be adapted to the "
@@ -2672,88 +2768,88 @@ msgid ""
 msgstr ""
 
 #. i18n: file settingspagescaling.ui line 32
-#: rc.cpp:1280 rc.cpp:2926
+#: rc.cpp:1307 rc.cpp:2980
 #, no-c-format
 msgid "X-Axis"
 msgstr "এক্স-অক্ষ"
 
 #. i18n: file settingspagescaling.ui line 43
-#: rc.cpp:1283 rc.cpp:1364 rc.cpp:2929 rc.cpp:3010
+#: rc.cpp:1310 rc.cpp:1391 rc.cpp:2983 rc.cpp:3064
 #, no-c-format
 msgid "Scaling:"
 msgstr "আকার পরিবর্তনের মাত্রা:"
 
 #. i18n: file settingspagescaling.ui line 65
-#: rc.cpp:1286 rc.cpp:1367 rc.cpp:2932 rc.cpp:3013
+#: rc.cpp:1313 rc.cpp:1394 rc.cpp:2986 rc.cpp:3067
 #, no-c-format
 msgid "Printing:"
 msgstr "ছাপানো হচ্ছে:"
 
 #. i18n: file settingspagescaling.ui line 73
-#: rc.cpp:1289 rc.cpp:1292 rc.cpp:1370 rc.cpp:1373 rc.cpp:2935 rc.cpp:2938
-#: rc.cpp:3016 rc.cpp:3019
+#: rc.cpp:1316 rc.cpp:1319 rc.cpp:1397 rc.cpp:1400 rc.cpp:2989 rc.cpp:2992
+#: rc.cpp:3070 rc.cpp:3073
 #, no-c-format
 msgid "1 tic ="
 msgstr "১ টিক ="
 
 #. i18n: file settingspagescaling.ui line 93
-#: rc.cpp:1295 rc.cpp:1328 rc.cpp:1376 rc.cpp:1409 rc.cpp:2941 rc.cpp:2974
-#: rc.cpp:3022 rc.cpp:3055
+#: rc.cpp:1322 rc.cpp:1355 rc.cpp:1403 rc.cpp:1436 rc.cpp:2995 rc.cpp:3028
+#: rc.cpp:3076 rc.cpp:3109
 #, no-c-format
 msgid "10"
 msgstr "১০"
 
 #. i18n: file settingspagescaling.ui line 98
-#: rc.cpp:1298 rc.cpp:1331 rc.cpp:1379 rc.cpp:1412 rc.cpp:2944 rc.cpp:2977
-#: rc.cpp:3025 rc.cpp:3058
+#: rc.cpp:1325 rc.cpp:1358 rc.cpp:1406 rc.cpp:1439 rc.cpp:2998 rc.cpp:3031
+#: rc.cpp:3079 rc.cpp:3112
 #, no-c-format
 msgid "5"
 msgstr "৫"
 
 #. i18n: file settingspagescaling.ui line 103
-#: rc.cpp:1301 rc.cpp:1334 rc.cpp:1382 rc.cpp:1415 rc.cpp:2947 rc.cpp:2980
-#: rc.cpp:3028 rc.cpp:3061
+#: rc.cpp:1328 rc.cpp:1361 rc.cpp:1409 rc.cpp:1442 rc.cpp:3001 rc.cpp:3034
+#: rc.cpp:3082 rc.cpp:3115
 #, no-c-format
 msgid "2"
 msgstr "২"
 
 #. i18n: file settingspagescaling.ui line 108
-#: rc.cpp:1304 rc.cpp:1337 rc.cpp:1385 rc.cpp:1418 rc.cpp:2950 rc.cpp:2983
-#: rc.cpp:3031 rc.cpp:3064
+#: rc.cpp:1331 rc.cpp:1364 rc.cpp:1412 rc.cpp:1445 rc.cpp:3004 rc.cpp:3037
+#: rc.cpp:3085 rc.cpp:3118
 #, no-c-format
 msgid "1"
 msgstr "১"
 
 #. i18n: file settingspagescaling.ui line 113
-#: rc.cpp:1307 rc.cpp:1340 rc.cpp:1388 rc.cpp:1421 rc.cpp:2953 rc.cpp:2986
-#: rc.cpp:3034 rc.cpp:3067
+#: rc.cpp:1334 rc.cpp:1367 rc.cpp:1415 rc.cpp:1448 rc.cpp:3007 rc.cpp:3040
+#: rc.cpp:3088 rc.cpp:3121
 #, no-c-format
 msgid "0.5"
 msgstr "০.৫"
 
 #. i18n: file settingspagescaling.ui line 118
-#: rc.cpp:1310 rc.cpp:1343 rc.cpp:1391 rc.cpp:1424 rc.cpp:2956 rc.cpp:2989
-#: rc.cpp:3037 rc.cpp:3070
+#: rc.cpp:1337 rc.cpp:1370 rc.cpp:1418 rc.cpp:1451 rc.cpp:3010 rc.cpp:3043
+#: rc.cpp:3091 rc.cpp:3124
 #, no-c-format
 msgid "pi/2"
 msgstr "pi/2"
 
 #. i18n: file settingspagescaling.ui line 123
-#: rc.cpp:1313 rc.cpp:1346 rc.cpp:1394 rc.cpp:1427 rc.cpp:2959 rc.cpp:2992
-#: rc.cpp:3040 rc.cpp:3073
+#: rc.cpp:1340 rc.cpp:1373 rc.cpp:1421 rc.cpp:1454 rc.cpp:3013 rc.cpp:3046
+#: rc.cpp:3094 rc.cpp:3127
 #, no-c-format
 msgid "pi/3"
 msgstr "pi/3"
 
 #. i18n: file settingspagescaling.ui line 128
-#: rc.cpp:1316 rc.cpp:1349 rc.cpp:1397 rc.cpp:1430 rc.cpp:2962 rc.cpp:2995
-#: rc.cpp:3043 rc.cpp:3076
+#: rc.cpp:1343 rc.cpp:1376 rc.cpp:1424 rc.cpp:1457 rc.cpp:3016 rc.cpp:3049
+#: rc.cpp:3097 rc.cpp:3130
 #, no-c-format
 msgid "pi/4"
 msgstr "pi/4"
 
 #. i18n: file settingspagescaling.ui line 135
-#: rc.cpp:1319 rc.cpp:2965
+#: rc.cpp:1346 rc.cpp:3019
 #, no-c-format
 msgid "set the x-axis' printing scaling"
 msgstr ""
@@ -2761,7 +2857,7 @@ msgstr ""
 "নির্ধারণ করুন"
 
 #. i18n: file settingspagescaling.ui line 138
-#: rc.cpp:1322 rc.cpp:2968
+#: rc.cpp:1349 rc.cpp:3022
 #, no-c-format
 msgid ""
 "This is similar to the setting above, but this sets the distance between two "
@@ -2775,13 +2871,13 @@ msgstr ""
 "নির্ধারণ করে।"
 
 #. i18n: file settingspagescaling.ui line 146
-#: rc.cpp:1325 rc.cpp:1406 rc.cpp:2971 rc.cpp:3052
+#: rc.cpp:1352 rc.cpp:1433 rc.cpp:3025 rc.cpp:3106
 #, no-c-format
 msgid "cm"
 msgstr "সেন্টিমিটার"
 
 #. i18n: file settingspagescaling.ui line 199
-#: rc.cpp:1355 rc.cpp:3001
+#: rc.cpp:1382 rc.cpp:3055
 #, no-c-format
 msgid "set the x-axis' scaling"
 msgstr ""
@@ -2789,7 +2885,7 @@ msgstr ""
 "করুন"
 
 #. i18n: file settingspagescaling.ui line 202
-#: rc.cpp:1358 rc.cpp:3004
+#: rc.cpp:1385 rc.cpp:3058
 #, no-c-format
 msgid ""
 "Choose how many units apart the x-axis tics will be, and therefore, how far "
@@ -2802,13 +2898,13 @@ msgstr ""
 "রেখাগুলো আঁকা হবে।"
 
 #. i18n: file settingspagescaling.ui line 212
-#: rc.cpp:1361 rc.cpp:3007
+#: rc.cpp:1388 rc.cpp:3061
 #, no-c-format
 msgid "Y-Axis"
 msgstr "ওয়াই-অক্ষ"
 
 #. i18n: file settingspagescaling.ui line 315
-#: rc.cpp:1400 rc.cpp:1436 rc.cpp:3046 rc.cpp:3082
+#: rc.cpp:1427 rc.cpp:1463 rc.cpp:3100 rc.cpp:3136
 #, no-c-format
 msgid "set the y-axis' scaling"
 msgstr ""
@@ -2816,7 +2912,7 @@ msgstr ""
 "নির্ধারণ করুন"
 
 #. i18n: file settingspagescaling.ui line 318
-#: rc.cpp:1403 rc.cpp:3049
+#: rc.cpp:1430 rc.cpp:3103
 #, no-c-format
 msgid ""
 "This is similar to the setting above, but this sets the distance between two "
@@ -2830,7 +2926,7 @@ msgstr ""
 "নির্ধারণ করে।"
 
 #. i18n: file settingspagescaling.ui line 382
-#: rc.cpp:1439 rc.cpp:3085
+#: rc.cpp:1466 rc.cpp:3139
 #, no-c-format
 msgid ""
 "Choose how many units apart the y-axis tics will be, and therefore, how far "
@@ -2843,31 +2939,31 @@ msgstr ""
 "রেখাগুলো আঁকা হবে।"
 
 #. i18n: file sliderwindow.ui line 16
-#: rc.cpp:1442 rc.cpp:3088
+#: rc.cpp:1469 rc.cpp:3142
 #, no-c-format
 msgid "Slider"
 msgstr "স্লাইডার"
 
-#. i18n: file sliderwindow.ui line 67
-#: rc.cpp:1445 rc.cpp:3091
+#. i18n: file sliderwindow.ui line 70
+#: rc.cpp:1472 rc.cpp:3145
 #, no-c-format
 msgid "0"
 msgstr "০"
 
 #. i18n: file kmplot.kcfg line 11
-#: rc.cpp:1448
+#: rc.cpp:1475
 #, no-c-format
 msgid "Axis-line width"
 msgstr "অক্ষীয় রেখার প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 12
-#: rc.cpp:1451
+#: rc.cpp:1478
 #, no-c-format
 msgid "Enter the width of the axis lines."
 msgstr "অক্ষীয় রেখার প্রস্থ লিখুন।"
 
 #. i18n: file kmplot.kcfg line 16
-#: rc.cpp:1454
+#: rc.cpp:1481
 #, no-c-format
 msgid "Checked if labels are visible"
 msgstr ""
@@ -2875,7 +2971,7 @@ msgstr ""
 "দেওয়া থাকবে"
 
 #. i18n: file kmplot.kcfg line 17
-#: rc.cpp:1457
+#: rc.cpp:1484
 #, no-c-format
 msgid "Check this box if the labels at the tics should be shown."
 msgstr ""
@@ -2883,7 +2979,7 @@ msgstr ""
 "হলে এই বাক্সে টিক দিন।"
 
 #. i18n: file kmplot.kcfg line 21
-#: rc.cpp:1460
+#: rc.cpp:1487
 #, no-c-format
 msgid "Checked if axes are visible"
 msgstr ""
@@ -2891,7 +2987,7 @@ msgstr ""
 "টিক দেওয়া থাকবে"
 
 #. i18n: file kmplot.kcfg line 22
-#: rc.cpp:1463
+#: rc.cpp:1490
 #, no-c-format
 msgid "Check this box if axes should be shown."
 msgstr ""
@@ -2899,7 +2995,7 @@ msgstr ""
 "এই বাক্সে টিক দিন।"
 
 #. i18n: file kmplot.kcfg line 26
-#: rc.cpp:1466
+#: rc.cpp:1493
 #, no-c-format
 msgid "Checked if arrows are visible"
 msgstr ""
@@ -2907,7 +3003,7 @@ msgstr ""
 "টিক দেওয়া থাকবে"
 
 #. i18n: file kmplot.kcfg line 27
-#: rc.cpp:1469
+#: rc.cpp:1496
 #, no-c-format
 msgid "Check this box if axes should have arrows."
 msgstr ""
@@ -2915,19 +3011,19 @@ msgstr ""
 "এই বাক্সে টিক দিন।"
 
 #. i18n: file kmplot.kcfg line 31
-#: rc.cpp:1472
+#: rc.cpp:1499
 #, no-c-format
 msgid "Grid Line Width"
 msgstr "গ্রীড রেখার প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 36
-#: rc.cpp:1478
+#: rc.cpp:1505
 #, no-c-format
 msgid "Grid Style"
 msgstr "গ্রীড-এর ধরন"
 
 #. i18n: file kmplot.kcfg line 37
-#: rc.cpp:1481
+#: rc.cpp:1508
 #, no-c-format
 msgid "Choose a suitable grid style."
 msgstr ""
@@ -2935,7 +3031,7 @@ msgstr ""
 "বেছে নিন।"
 
 #. i18n: file kmplot.kcfg line 41
-#: rc.cpp:1484
+#: rc.cpp:1511
 #, no-c-format
 msgid "Checked if a frame is visible"
 msgstr ""
@@ -2943,7 +3039,7 @@ msgstr ""
 "দেওয়া থাকবে"
 
 #. i18n: file kmplot.kcfg line 42
-#: rc.cpp:1487
+#: rc.cpp:1514
 #, no-c-format
 msgid "Check this box if a frame should be drawn around the plot area."
 msgstr ""
@@ -2952,7 +3048,7 @@ msgstr ""
 "বাক্সে টিক দিন।"
 
 #. i18n: file kmplot.kcfg line 46
-#: rc.cpp:1490
+#: rc.cpp:1517
 #, no-c-format
 msgid "Checked if an extra frame is visible"
 msgstr ""
@@ -2961,7 +3057,7 @@ msgstr ""
 "থাকবে"
 
 #. i18n: file kmplot.kcfg line 47
-#: rc.cpp:1493
+#: rc.cpp:1520
 #, no-c-format
 msgid "Check this box if an extra frame should be drawn around the plot area."
 msgstr ""
@@ -2971,43 +3067,43 @@ msgstr ""
 "টিক দিন।"
 
 #. i18n: file kmplot.kcfg line 51
-#: rc.cpp:1496
+#: rc.cpp:1523
 #, no-c-format
 msgid "Tic length"
 msgstr "টিক-এর দৈর্ঘ্য"
 
 #. i18n: file kmplot.kcfg line 52
-#: rc.cpp:1499
+#: rc.cpp:1526
 #, no-c-format
 msgid "Enter the length of the tic lines"
 msgstr "টিক রেখার দৈর্ঘ্য লিখুন"
 
 #. i18n: file kmplot.kcfg line 56
-#: rc.cpp:1502
+#: rc.cpp:1529
 #, no-c-format
 msgid "Tic width"
 msgstr "টিক-এর প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 57
-#: rc.cpp:1505
+#: rc.cpp:1532
 #, no-c-format
 msgid "Enter the width of the tic lines."
 msgstr "টিক রেখার প্রস্থ লিখুন।"
 
 #. i18n: file kmplot.kcfg line 61
-#: rc.cpp:1508
+#: rc.cpp:1535
 #, no-c-format
 msgid "Plot-line width"
 msgstr "প্লট-রেখার প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 62
-#: rc.cpp:1511
+#: rc.cpp:1538
 #, no-c-format
 msgid "Enter the width of the plot line."
 msgstr "প্লট-রেখার প্রস্থ লিখুন।"
 
 #. i18n: file kmplot.kcfg line 66
-#: rc.cpp:1514
+#: rc.cpp:1541
 #, no-c-format
 msgid "Predefined x-axis range"
 msgstr ""
@@ -3015,7 +3111,7 @@ msgstr ""
 "সীমা"
 
 #. i18n: file kmplot.kcfg line 67
-#: rc.cpp:1517
+#: rc.cpp:1544
 #, no-c-format
 msgid "Predefined plot area widths."
 msgstr ""
@@ -3023,7 +3119,7 @@ msgstr ""
 "পূর্বনির্ধারিত প্রস্থ।"
 
 #. i18n: file kmplot.kcfg line 71
-#: rc.cpp:1520
+#: rc.cpp:1547
 #, no-c-format
 msgid "Predefined y-axis range"
 msgstr ""
@@ -3031,7 +3127,7 @@ msgstr ""
 "সীমা"
 
 #. i18n: file kmplot.kcfg line 72
-#: rc.cpp:1523
+#: rc.cpp:1550
 #, no-c-format
 msgid "Predefined plot area heights."
 msgstr ""
@@ -3039,13 +3135,13 @@ msgstr ""
 "পূর্বনির্ধারিত উচ্চতা।"
 
 #. i18n: file kmplot.kcfg line 76
-#: rc.cpp:1526
+#: rc.cpp:1553
 #, no-c-format
 msgid "Left boundary"
 msgstr "বামপ্রান্তীয় সীমানা"
 
 #. i18n: file kmplot.kcfg line 77
-#: rc.cpp:1529
+#: rc.cpp:1556
 #, no-c-format
 msgid "Enter the left boundary of the plotting area."
 msgstr ""
@@ -3053,13 +3149,13 @@ msgstr ""
 "বামপ্রান্তীয় সীমানা লিখুন।"
 
 #. i18n: file kmplot.kcfg line 81
-#: rc.cpp:1532
+#: rc.cpp:1559
 #, no-c-format
 msgid "Right boundary"
 msgstr "ডানপ্রান্তীয় সীমানা"
 
 #. i18n: file kmplot.kcfg line 82
-#: rc.cpp:1535
+#: rc.cpp:1562
 #, no-c-format
 msgid "Enter the right boundary of the plotting area."
 msgstr ""
@@ -3067,13 +3163,13 @@ msgstr ""
 "ডানপ্রান্তীয় সীমানা লিখুন।"
 
 #. i18n: file kmplot.kcfg line 86
-#: rc.cpp:1538
+#: rc.cpp:1565
 #, no-c-format
 msgid "Lower boundary"
 msgstr "নিম্ন সীমানা"
 
 #. i18n: file kmplot.kcfg line 87
-#: rc.cpp:1541
+#: rc.cpp:1568
 #, no-c-format
 msgid "Enter the lower boundary of the plotting area."
 msgstr ""
@@ -3081,13 +3177,13 @@ msgstr ""
 "লিখুন।"
 
 #. i18n: file kmplot.kcfg line 91
-#: rc.cpp:1544
+#: rc.cpp:1571
 #, no-c-format
 msgid "Upper boundary"
 msgstr "উর্ধ্ব সীমানা"
 
 #. i18n: file kmplot.kcfg line 92
-#: rc.cpp:1547
+#: rc.cpp:1574
 #, no-c-format
 msgid "Enter the upper boundary of the plotting area."
 msgstr ""
@@ -3095,7 +3191,7 @@ msgstr ""
 "সীমানা লিখুন।"
 
 #. i18n: file kmplot.kcfg line 99
-#: rc.cpp:1550
+#: rc.cpp:1577
 #, no-c-format
 msgid "Width of a unit from tic to tic"
 msgstr ""
@@ -3103,7 +3199,7 @@ msgstr ""
 "এককের প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 100
-#: rc.cpp:1553
+#: rc.cpp:1580
 #, no-c-format
 msgid "Enter the width of a unit from tic to tic."
 msgstr ""
@@ -3111,7 +3207,7 @@ msgstr ""
 "এককের প্রস্থ লিখুন।"
 
 #. i18n: file kmplot.kcfg line 104
-#: rc.cpp:1556
+#: rc.cpp:1583
 #, no-c-format
 msgid "Height of a unit from tic to tic"
 msgstr ""
@@ -3119,7 +3215,7 @@ msgstr ""
 "এককের উচ্চতা"
 
 #. i18n: file kmplot.kcfg line 105
-#: rc.cpp:1559
+#: rc.cpp:1586
 #, no-c-format
 msgid "Enter the height of a unit from tic to tic."
 msgstr ""
@@ -3127,13 +3223,13 @@ msgstr ""
 "এককের উচ্চতা লিখুন।"
 
 #. i18n: file kmplot.kcfg line 109
-#: rc.cpp:1562
+#: rc.cpp:1589
 #, no-c-format
 msgid "Printed width of 1 unit"
 msgstr "প্রতি এককের মুদ্রিত প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 110
-#: rc.cpp:1565
+#: rc.cpp:1592
 #, no-c-format
 msgid "Enter the width of a unit in cm."
 msgstr ""
@@ -3141,13 +3237,13 @@ msgstr ""
 "এককের প্রস্থ লিখুন।"
 
 #. i18n: file kmplot.kcfg line 114
-#: rc.cpp:1568
+#: rc.cpp:1595
 #, no-c-format
 msgid "Printed height of 1 unit"
 msgstr "প্রতি এককের মুদ্রিত প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 115
-#: rc.cpp:1571
+#: rc.cpp:1598
 #, no-c-format
 msgid "Enter the height of a unit in cm."
 msgstr ""
@@ -3155,7 +3251,7 @@ msgstr ""
 "এককের উচ্চতা লিখুন।"
 
 #. i18n: file kmplot.kcfg line 122
-#: rc.cpp:1574
+#: rc.cpp:1601
 #, no-c-format
 msgid "Font name of the axis labels"
 msgstr ""
@@ -3163,7 +3259,7 @@ msgstr ""
 "ফন্টের নাম"
 
 #. i18n: file kmplot.kcfg line 123
-#: rc.cpp:1577
+#: rc.cpp:1604
 #, no-c-format
 msgid "Choose a font name for the axis labels."
 msgstr ""
@@ -3171,7 +3267,7 @@ msgstr ""
 "জন্য একটি ফন্ট বেছে নিন।"
 
 #. i18n: file kmplot.kcfg line 127
-#: rc.cpp:1580
+#: rc.cpp:1607
 #, fuzzy, no-c-format
 msgid "Font size of the axis labels"
 msgstr ""
@@ -3179,7 +3275,7 @@ msgstr ""
 "ফন্টের নাম"
 
 #. i18n: file kmplot.kcfg line 128
-#: rc.cpp:1583
+#: rc.cpp:1610
 #, fuzzy, no-c-format
 msgid "Choose a font size for the axis labels."
 msgstr ""
@@ -3187,7 +3283,7 @@ msgstr ""
 "জন্য একটি ফন্ট বেছে নিন।"
 
 #. i18n: file kmplot.kcfg line 132
-#: rc.cpp:1586
+#: rc.cpp:1613
 #, no-c-format
 msgid "Font name of the printed header table"
 msgstr ""
@@ -3195,7 +3291,7 @@ msgstr ""
 "ব্যবহৃত ফন্টের নাম"
 
 #. i18n: file kmplot.kcfg line 133
-#: rc.cpp:1589
+#: rc.cpp:1616
 #, no-c-format
 msgid "Choose a font name for the table printed at the top of the page."
 msgstr ""
@@ -3204,25 +3300,25 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 140
-#: rc.cpp:1592
+#: rc.cpp:1619
 #, no-c-format
 msgid "Axis-line color"
 msgstr "অক্ষীয়-রেখার রং"
 
 #. i18n: file kmplot.kcfg line 141
-#: rc.cpp:1595
+#: rc.cpp:1622
 #, no-c-format
 msgid "Enter the color of the axis lines."
 msgstr "অক্ষীয় রেখার রং লিখুন।"
 
 #. i18n: file kmplot.kcfg line 144
-#: rc.cpp:1598
+#: rc.cpp:1625
 #, no-c-format
 msgid "Grid Color"
 msgstr "গ্রীডের রং"
 
 #. i18n: file kmplot.kcfg line 145
-#: rc.cpp:1601
+#: rc.cpp:1628
 #, no-c-format
 msgid "Choose a color for the grid lines."
 msgstr ""
@@ -3230,13 +3326,13 @@ msgstr ""
 "বেছে নিন।"
 
 #. i18n: file kmplot.kcfg line 149
-#: rc.cpp:1604
+#: rc.cpp:1631
 #, no-c-format
 msgid "Color of function 1"
 msgstr "১ম ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 150
-#: rc.cpp:1607
+#: rc.cpp:1634
 #, no-c-format
 msgid "Choose a color for function 1."
 msgstr ""
@@ -3244,13 +3340,13 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 154
-#: rc.cpp:1610
+#: rc.cpp:1637
 #, no-c-format
 msgid "Color of function 2"
 msgstr "২য় ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 155
-#: rc.cpp:1613
+#: rc.cpp:1640
 #, no-c-format
 msgid "Choose a color for function 2."
 msgstr ""
@@ -3258,13 +3354,13 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 159
-#: rc.cpp:1616
+#: rc.cpp:1643
 #, no-c-format
 msgid "Color of function 3"
 msgstr "৩য় ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 160
-#: rc.cpp:1619
+#: rc.cpp:1646
 #, no-c-format
 msgid "Choose a color for function 3."
 msgstr ""
@@ -3272,13 +3368,13 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 164
-#: rc.cpp:1622
+#: rc.cpp:1649
 #, no-c-format
 msgid "Color of function 4"
 msgstr "৪র্থ ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 165
-#: rc.cpp:1625
+#: rc.cpp:1652
 #, no-c-format
 msgid "Choose a color for function 4."
 msgstr ""
@@ -3286,13 +3382,13 @@ msgstr ""
 "বেছে নিন।"
 
 #. i18n: file kmplot.kcfg line 169
-#: rc.cpp:1628
+#: rc.cpp:1655
 #, no-c-format
 msgid "Color of function 5"
 msgstr "৫ম ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 170
-#: rc.cpp:1631
+#: rc.cpp:1658
 #, no-c-format
 msgid "Choose a color for function 5."
 msgstr ""
@@ -3300,13 +3396,13 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 174
-#: rc.cpp:1634
+#: rc.cpp:1661
 #, no-c-format
 msgid "Color of function 6"
 msgstr "৬ষ্ঠ ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 175
-#: rc.cpp:1637
+#: rc.cpp:1664
 #, no-c-format
 msgid "Choose a color for function 6."
 msgstr ""
@@ -3314,13 +3410,13 @@ msgstr ""
 "বেছে নিন।"
 
 #. i18n: file kmplot.kcfg line 179
-#: rc.cpp:1640
+#: rc.cpp:1667
 #, no-c-format
 msgid "Color of function 7"
 msgstr "৭ম ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 180
-#: rc.cpp:1643
+#: rc.cpp:1670
 #, no-c-format
 msgid "Choose a color for function 7."
 msgstr ""
@@ -3328,13 +3424,13 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 184
-#: rc.cpp:1646
+#: rc.cpp:1673
 #, no-c-format
 msgid "Color of function 8"
 msgstr "৮ম ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 185
-#: rc.cpp:1649
+#: rc.cpp:1676
 #, no-c-format
 msgid "Choose a color for function 8."
 msgstr ""
@@ -3342,13 +3438,13 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 189
-#: rc.cpp:1652
+#: rc.cpp:1679
 #, no-c-format
 msgid "Color of function 9"
 msgstr "৯ম ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 190
-#: rc.cpp:1655
+#: rc.cpp:1682
 #, no-c-format
 msgid "Choose a color for function 9."
 msgstr ""
@@ -3356,13 +3452,13 @@ msgstr ""
 "নিন।"
 
 #. i18n: file kmplot.kcfg line 194
-#: rc.cpp:1658
+#: rc.cpp:1685
 #, no-c-format
 msgid "Color of function 10"
 msgstr "১০ ফাংশনের রং"
 
 #. i18n: file kmplot.kcfg line 195
-#: rc.cpp:1661
+#: rc.cpp:1688
 #, no-c-format
 msgid "Choose a color for function 10."
 msgstr ""
@@ -3370,7 +3466,7 @@ msgstr ""
 "বেছে নিন।"
 
 #. i18n: file kmplot.kcfg line 202
-#: rc.cpp:1664
+#: rc.cpp:1691
 #, no-c-format
 msgid "Step width in pixel"
 msgstr ""
@@ -3378,7 +3474,7 @@ msgstr ""
 "প্রস্থ"
 
 #. i18n: file kmplot.kcfg line 203
-#: rc.cpp:1667
+#: rc.cpp:1694
 #, no-c-format
 msgid "The greater the step width the faster but the less precise the plot is done."
 msgstr ""
@@ -3388,19 +3484,19 @@ msgstr ""
 "হওয়ার মাত্রাও হ্রাস পাবে।"
 
 #. i18n: file kmplot.kcfg line 207
-#: rc.cpp:1670
+#: rc.cpp:1697
 #, no-c-format
 msgid "Use relative step width"
 msgstr ""
 
 #. i18n: file kmplot.kcfg line 212
-#: rc.cpp:1676
+#: rc.cpp:1703
 #, no-c-format
 msgid "Radians instead of degrees"
 msgstr "ডিগ্রির পরিবর্তে রেডিয়ান"
 
 #. i18n: file kmplot.kcfg line 213
-#: rc.cpp:1679
+#: rc.cpp:1706
 #, no-c-format
 msgid "Check the box if you want to use radians"
 msgstr ""
@@ -3408,25 +3504,25 @@ msgstr ""
 "এই বাক্সে টিক দিন"
 
 #. i18n: file kmplot.kcfg line 217
-#: rc.cpp:1682
+#: rc.cpp:1709
 #, no-c-format
 msgid "Background color"
 msgstr "পটভূমির রং"
 
 #. i18n: file kmplot.kcfg line 218
-#: rc.cpp:1685
+#: rc.cpp:1712
 #, no-c-format
 msgid "The background color for the graph"
 msgstr "লেখচিত্রের পটভূমির রং"
 
 #. i18n: file kmplot.kcfg line 222
-#: rc.cpp:1688
+#: rc.cpp:1715
 #, no-c-format
 msgid "Zoom-in step"
 msgstr "বিবর্ধন বৃদ্ধির মাত্রা"
 
 #. i18n: file kmplot.kcfg line 223
-#: rc.cpp:1691
+#: rc.cpp:1718
 #, no-c-format
 msgid "The value the zoom-in tool should use"
 msgstr ""
@@ -3434,13 +3530,13 @@ msgstr ""
 "ব্যবহার করা হবে"
 
 #. i18n: file kmplot.kcfg line 227
-#: rc.cpp:1694
+#: rc.cpp:1721
 #, no-c-format
 msgid "Zoom-out step"
 msgstr "আকার হ্রাসের মাত্রা"
 
 #. i18n: file kmplot.kcfg line 228
-#: rc.cpp:1697
+#: rc.cpp:1724
 #, no-c-format
 msgid "The value the zoom-out tool should use"
 msgstr ""
@@ -3448,65 +3544,45 @@ msgstr ""
 "ক্ষেত্রে যে মান ব্যবহার করা "
 "হবে"
 
-#: View.cpp:73
-#, c-format
-msgid "Slider %1"
-msgstr "স্লাইডার %1"
-
-#: View.cpp:75
-msgid ""
-"Move slider to change the parameter of the function plot connected to this "
-"slider."
-msgstr ""
-"এই স্লাইডারের সাথে ফাংশন "
-"প্লটের যে পরামিতি যুক্ত, তা "
-"পরিবর্তনের জন্য স্লাইডার "
-"সরান।"
-
-#: View.cpp:76 editfunction.cpp:70
-#, c-format
-msgid "Slider no. %1"
-msgstr "স্লাইডার নং %1"
-
-#: View.cpp:415 View.cpp:1750
+#: View.cpp:410 View.cpp:1749
 msgid "The drawing was cancelled by the user."
 msgstr ""
 "ব্যবহারকারী চিত্রটি বাতিল "
 "করেছেন।"
 
-#: View.cpp:453
+#: View.cpp:448
 msgid "Parameters:"
 msgstr "পরামিতি:"
 
-#: View.cpp:454
+#: View.cpp:449
 msgid "Plotting Area"
 msgstr "প্লট ক্ষেত্র"
 
-#: View.cpp:455
+#: View.cpp:450
 msgid "Axes Division"
 msgstr "অক্ষীয় বিভাজন"
 
-#: View.cpp:456
+#: View.cpp:451
 msgid "Printing Format"
 msgstr "মুদ্রণ ফরম্যাট"
 
-#: View.cpp:457
+#: View.cpp:452
 msgid "x-Axis:"
 msgstr "এক্স-অক্ষ:"
 
-#: View.cpp:458
+#: View.cpp:453
 msgid "y-Axis:"
 msgstr "ওয়াই-অক্ষ"
 
-#: View.cpp:466
+#: View.cpp:461
 msgid "Functions:"
 msgstr "ফাংশন:"
 
-#: View.cpp:656
+#: View.cpp:651
 msgid "root"
 msgstr "মূল"
 
-#: View.cpp:1842
+#: View.cpp:1857
 msgid "Are you sure you want to remove this function?"
 msgstr ""
 "আপনি কি এই ফাংশনটি অপসারণের "
@@ -3516,22 +3592,22 @@ msgstr ""
 msgid "Error in extension."
 msgstr "বর্ধিতাংশে সমস্যা।"
 
-#: xparser.cpp:736
+#: xparser.cpp:760
 msgid "There are no other Kmplot instances running"
 msgstr ""
 
-#: xparser.cpp:748
+#: xparser.cpp:772
 #, fuzzy
 msgid "kmplot"
 msgstr "কে-এমপ্লট"
 
-#: xparser.cpp:748
+#: xparser.cpp:772
 msgid ""
 "Choose which KmPlot instance\n"
 "you want to copy the function to:"
 msgstr ""
 
-#: xparser.cpp:767 xparser.cpp:776
+#: xparser.cpp:798 xparser.cpp:807
 #, fuzzy
 msgid "An error appeared during the transfer"
 msgstr ""
@@ -3810,7 +3886,7 @@ msgstr ""
 "Recursive ফাংশনের ব্যবহার "
 "অনুমোদিত নয়"
 
-#: MainDlg.cpp:785
+#: MainDlg.cpp:796
 #, fuzzy
 msgid "KmPlotPart"
 msgstr "কে-এমপ্লট"
@@ -3833,31 +3909,45 @@ msgstr "ফাংশন"
 msgid "Derivatives"
 msgstr "বৃদ্ধিহার (Derivative)"
 
-#: editfunction.cpp:169
+#: editfunction.cpp:180
 msgid "You can only define plot functions in this dialog"
 msgstr ""
 "এই ডায়ালগ থেকে শুধুমাত্র "
 "প্লট ফাংশন নির্ধারণ করতে "
 "পারবেন"
 
-#: editfunction.cpp:232
+#: editfunction.cpp:247
 msgid "Please insert a valid x-value"
 msgstr ""
 "অনুগ্রহপূর্বক একটি বৈধ "
 "এক্স-অক্ষীয় মান লিখুন"
 
-#: editfunction.cpp:244
+#: editfunction.cpp:259
 msgid "Please insert a valid y-value"
 msgstr ""
 "অনুগ্রহপূর্বক একটি বৈধ "
 "ওয়াই-অক্ষীয় মান লিখুন"
 
-#: editfunction.cpp:290
+#: editfunction.cpp:301
 msgid "Recursive function is only allowed when drawing integral graphs"
 msgstr ""
 "শুধুমাত্র যোজিত ফলের "
 "লেখচিত্র আঁকার সময়ই Recursive "
 "ফাংশন ব্যবহার করা যায়"
+
+#, fuzzy
+#~ msgid "customize the plot maximum range"
+#~ msgstr "প্লটের সীমা স্বনির্বাচন করুন"
+
+#, fuzzy
+#~ msgid "Check this button and enter the plot mininum range boundary below."
+#~ msgstr "এই বাটনে ক্লিক করুন এবং নিচে প্লটের সীমা লিখুন।"
+
+#~ msgid "max:"
+#~ msgstr "সর্বোচ্চ:"
+
+#~ msgid "min:"
+#~ msgstr "মিনিট:"
 
 #~ msgid "&Functions"
 #~ msgstr "ফাং&শন"
