@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: khangman\n"
-"POT-Creation-Date: 2005-04-20 15:09+0200\n"
+"POT-Creation-Date: 2005-05-08 01:28+0200\n"
 "PO-Revision-Date: 2004-07-11 19:05-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -24,41 +24,41 @@ msgid ""
 msgstr ""
 
 #. i18n: file mainw.ui line 716
-#: khangmanview.cpp:63 rc.cpp:121
+#: khangmanview.cpp:53 rc.cpp:121
 #, no-c-format
 msgid "G&uess"
 msgstr ""
 
-#: khangmanview.cpp:158
+#: khangmanview.cpp:159
 msgid "Hint"
 msgstr "ইঙ্গিত"
 
-#: khangmanview.cpp:329 khangmanview.cpp:354
+#: khangmanview.cpp:298
 #, fuzzy
 msgid "Misses"
 msgstr "লক্ষ্যভ্রষ্ট:"
 
-#: khangmanview.cpp:458
+#: khangmanview.cpp:429
 msgid "Congratulations! You won! Do you want to play again?"
 msgstr ""
 "অভিনন্দন! আপনি বিজয়ী হয়েছেন! "
 "আপনি কি আবারো খেলতে আগ্রহী?"
 
-#: khangmanview.cpp:496
+#: khangmanview.cpp:455
 #, fuzzy
 msgid "You lost. Do you want to play again?"
 msgstr ""
 "মরে গিয়েছেন।  আপনি কি আবারো "
 "খেলতে আগ্রহী?"
 
-#: khangmanview.cpp:511 khangmanview.cpp:537
+#: khangmanview.cpp:470 khangmanview.cpp:496
 #, fuzzy
 msgid "This letter has already been guessed."
 msgstr ""
 "এই অক্ষরটি ইতিমধ্যেই অনুমান "
 "করা হয়েছে।"
 
-#: khangmanview.cpp:624
+#: khangmanview.cpp:572
 msgid ""
 "File $KDEDIR/share/apps/khangman/data/%1/%2 not found!\n"
 "Check your installation, please!"
@@ -68,7 +68,7 @@ msgstr ""
 "অনুগ্রহপূর্বক ইনস্টলকৃত "
 "ফাইলগুলো পরীক্ষা করুন!"
 
-#: khangmanview.cpp:718
+#: khangmanview.cpp:665
 msgid "Hint available"
 msgstr ""
 
@@ -618,88 +618,103 @@ msgstr "পটভূমিবিহীন"
 msgid "Main"
 msgstr "প্রধান"
 
-#: khangman.cpp:69
+#: khangman.cpp:79
 msgid "&New"
 msgstr "&নতুন"
 
-#: khangman.cpp:70
+#: khangman.cpp:80
 msgid "Play with a new word"
 msgstr ""
 
-#: khangman.cpp:71
+#: khangman.cpp:81
 #, fuzzy
 msgid "&Get Words in New Language..."
 msgstr ""
 "একটি &নতুন ভাষার জন্য তথ্য "
 "নাও..."
 
-#: khangman.cpp:74
+#: khangman.cpp:84
 #, fuzzy
 msgid "Le&vel"
 msgstr "স্তর"
 
-#: khangman.cpp:75
+#: khangman.cpp:85
 msgid "Choose the level"
 msgstr "স্তর বেছে নিন"
 
-#: khangman.cpp:76
+#: khangman.cpp:86
 msgid "Choose the level of difficulty"
 msgstr "দক্ষতা স্তর বেছে নিন"
 
-#: khangman.cpp:78
+#: khangman.cpp:88
 #, fuzzy
 msgid "&Language"
 msgstr "ভাষা (&ভ)"
 
-#: khangman.cpp:86
+#: khangman.cpp:96
 msgid "L&ook"
 msgstr ""
 
-#: khangman.cpp:87
+#: khangman.cpp:97
 #, fuzzy
 msgid "&Sea Theme"
 msgstr "নীল থিম"
 
-#: khangman.cpp:88
+#: khangman.cpp:98
 #, fuzzy
 msgid "&Desert Theme"
 msgstr "নীল থিম"
 
-#: khangman.cpp:91
+#: khangman.cpp:101
 msgid "Choose the look and feel"
 msgstr "পছন্দের চেহারা বেছে নিন"
 
-#: khangman.cpp:92
+#: khangman.cpp:102
 msgid "Check the look and feel"
 msgstr "চেহারা পরীক্ষা করুন"
 
-#: khangman.cpp:114
+#: khangman.cpp:124
 msgid "Animals"
 msgstr "প্রাণী"
 
-#: khangman.cpp:115
+#: khangman.cpp:125
 msgid "Easy"
 msgstr "সহজ"
 
-#: khangman.cpp:116
+#: khangman.cpp:126
 msgid "Hard"
 msgstr "কঠিন"
 
-#: khangman.cpp:117
+#: khangman.cpp:127
 msgid "Medium"
 msgstr "মধ্যম"
 
-#: khangman.cpp:202
+#: khangman.cpp:212
 msgid "Cyrillic"
 msgstr "সিরিলিক"
 
-#: khangman.cpp:205
+#: khangman.cpp:215
 msgid "Latin"
 msgstr "ল্যাটিন"
 
-#: khangman.cpp:296
+#: khangman.cpp:312
 msgid "Advanced Settings"
 msgstr "অগ্রসর সেটিংস"
+
+#: khangman.cpp:351
+msgid ""
+"File $KDEDIR/share/apps/khangman/%1.txt not found;\n"
+"check your installation."
+msgstr ""
+"$KDEDIR/share/apps/khangman/%1.txt নামক ফাইলটি "
+"পাওয়া যায় নি!\n"
+"অনুগ্রহপূর্বক ইনস্টলকৃত "
+"ফাইলগুলো পরীক্ষা করুন!"
+
+#: khangman.cpp:367
+#, c-format
+msgid "Inserts the character %1"
+msgstr ""
 
 #~ msgid "KHangMan %1"
 #~ msgstr "কে-হ্যাংম্যান %1"
@@ -737,13 +752,6 @@ msgstr "অগ্রসর সেটিংস"
 
 #~ msgid "Full-Screen Mode"
 #~ msgstr "পর্দা জুড়ে প্রদর্শন"
-
-#~ msgid ""
-#~ "File $KDEDIR/share/apps/khangman/%1.txt not found;\n"
-#~ "check your installation."
-#~ msgstr ""
-#~ "$KDEDIR/share/apps/khangman/%1.txt নামক ফাইলটি পাওয়া যায় নি!\n"
-#~ "অনুগ্রহপূর্বক ইনস্টলকৃত ফাইলগুলো পরীক্ষা করুন!"
 
 #~ msgid "Hint on right-click"
 #~ msgstr "মাউসের ডান বাটনে ক্লিক করলে ইঙ্গিত সক্রিয় হবে"
