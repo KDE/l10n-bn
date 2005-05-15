@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kfontinst\n"
-"POT-Creation-Date: 2005-05-14 01:17+0200\n"
+"POT-Creation-Date: 2005-05-15 01:23+0200\n"
 "PO-Revision-Date: 2004-10-03 00:04-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: kcmfontinst/KCmFontInst.cpp:77
+#: kcmfontinst/KCmFontInst.cpp:87
 msgid "KDE Font Installer"
 msgstr "কে.ডি.ই. ফন্ট ইনস্টলার"
 
-#: kcmfontinst/KCmFontInst.cpp:80
+#: kcmfontinst/KCmFontInst.cpp:90
 msgid ""
 "GUI front end to the fonts:/ ioslave.\n"
 "(c) Craig Drummond, 2000 - 2004"
@@ -24,28 +24,36 @@ msgstr ""
 "fonts:/ ioslave-এর জন্য গুই\n"
 "(C) ক্রেইগ ড্রামন্ড, ২০০০-২০০৪"
 
-#: kcmfontinst/KCmFontInst.cpp:82
+#: kcmfontinst/KCmFontInst.cpp:92
 msgid "Developer and maintainer"
 msgstr ""
 "ডেভেলপার এবং "
 "রক্ষণাবেক্ষণকারী"
 
-#: kcmfontinst/KCmFontInst.cpp:158 kcmfontinst/KCmFontInst.cpp:217
+#: kcmfontinst/KCmFontInst.cpp:157 kcmfontinst/KCmFontInst.cpp:220
 msgid "Add Fonts..."
 msgstr "ফন্ট যোগ করো..."
 
-#: kcmfontinst/KCmFontInst.cpp:173
+#: kcmfontinst/KCmFontInst.cpp:172
 msgid ""
 "<b>The fonts shown are your personal fonts.</b>"
 "<br>To see (and install) system-wide fonts, click on the \"Administrator "
 "Mode\" button below."
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:231
+#: kcmfontinst/KCmFontInst.cpp:213
+msgid "Show Bitmap Fonts"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:234
 msgid "Configure..."
 msgstr ""
 
-#: kcmfontinst/KCmFontInst.cpp:289
+#: kcmfontinst/KCmFontInst.cpp:238
+msgid "Print..."
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:317
 #, fuzzy
 msgid ""
 "<h1>Font Installer</h1>"
@@ -71,7 +79,7 @@ msgstr ""
 "ফন্ট ফাইলটি যথাযথ ফোল্ডারে "
 "কপি করে দিন। </p>"
 
-#: kcmfontinst/KCmFontInst.cpp:296
+#: kcmfontinst/KCmFontInst.cpp:324
 #, fuzzy
 msgid ""
 "<h1>Font Installer</h1>"
@@ -102,21 +110,21 @@ msgstr ""
 "ফন্ট ফাইলটি যথাযথ ফোল্ডারে "
 "কপি করে দিন। </p>"
 
-#: kcmfontinst/KCmFontInst.cpp:393
+#: kcmfontinst/KCmFontInst.cpp:421
 msgid "Add Fonts"
 msgstr "ফন্ট যোগ করো"
 
-#: kcmfontinst/KCmFontInst.cpp:402
+#: kcmfontinst/KCmFontInst.cpp:430
 msgid "You did not select anything to delete."
 msgstr ""
 "আপনি মোছার জন্য কিছু "
 "নির্বাচন করেননি"
 
-#: kcmfontinst/KCmFontInst.cpp:402
+#: kcmfontinst/KCmFontInst.cpp:430
 msgid "Nothing to Delete"
 msgstr "মোছার মত কিছু নেই"
 
-#: kcmfontinst/KCmFontInst.cpp:423
+#: kcmfontinst/KCmFontInst.cpp:451
 msgid ""
 "<qt>Do you really want to delete\n"
 " <b>'%1'</b>?</qt>"
@@ -124,12 +132,12 @@ msgstr ""
 "<qt>আপনি কি সত্যিই \n"
 " <b>'%1'</b> মুছে ফেলতে চান?</qt>"
 
-#: kcmfontinst/KCmFontInst.cpp:424
+#: kcmfontinst/KCmFontInst.cpp:452
 #, fuzzy
 msgid "Delete Font"
 msgstr "এই বস্তুটি মুছে ফেলো"
 
-#: kcmfontinst/KCmFontInst.cpp:428
+#: kcmfontinst/KCmFontInst.cpp:456
 #, fuzzy, c-format
 msgid ""
 "_n: Do you really want to delete this font?\n"
@@ -139,12 +147,22 @@ msgstr ""
 "আপনি কি সত্যিই এই %n-টি জিনিস "
 "মুছে ফেলতে চান?"
 
-#: kcmfontinst/KCmFontInst.cpp:430
+#: kcmfontinst/KCmFontInst.cpp:458
 #, fuzzy
 msgid "Delete Fonts"
 msgstr "এই বস্তুগুলি মুছে ফেলো"
 
-#: kcmfontinst/KCmFontInst.cpp:469
+#: kcmfontinst/KCmFontInst.cpp:532
+msgid ""
+"There are no printable fonts!\n"
+"You can only print non-bitmap fonts."
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:533
+msgid "Can't Print"
+msgstr ""
+
+#: kcmfontinst/KCmFontInst.cpp:558
 #, c-format
 msgid ""
 "_n: One Font\n"
@@ -153,11 +171,11 @@ msgstr ""
 "একটি ফন্ট\n"
 "%n-টি ফন্ট"
 
-#: kcmfontinst/KCmFontInst.cpp:489
+#: kcmfontinst/KCmFontInst.cpp:578
 msgid "(%1 Total)"
 msgstr "(মোট %1)"
 
-#: kcmfontinst/KCmFontInst.cpp:492
+#: kcmfontinst/KCmFontInst.cpp:581
 #, fuzzy, c-format
 msgid ""
 "_n: One Family\n"
@@ -166,7 +184,23 @@ msgstr ""
 "একটি ফোল্ডার\n"
 "%n-টি ফোল্ডার"
 
-#: kcmfontinst/KCmFontInst.cpp:504
+#: kcmfontinst/KCmFontInst.cpp:595
+#, fuzzy
+msgid ""
+"<p>"
+"Please note that any open applications will need to be restarted in order "
+"for any changes to be noticed."
+"<p>"
+"<p>"
+"(You will also have to restart this application in order to use its print "
+"function on any newly installed fonts.)</p>"
+msgstr ""
+"মনে রাখবেন যে পরিবর্তনগুলি "
+"কেবলমাত্র নতুন করে চালানো "
+"অ্যাপলিকেশন-এর ক্ষেত্রেই "
+"কার্যকরী কবে।"
+
+#: kcmfontinst/KCmFontInst.cpp:599
 msgid ""
 "Please note that any open applications will need to be restarted in order "
 "for any changes to be noticed."
@@ -176,21 +210,74 @@ msgstr ""
 "অ্যাপলিকেশন-এর ক্ষেত্রেই "
 "কার্যকরী কবে।"
 
-#: kcmfontinst/KCmFontInst.cpp:506 viewpart/FontViewPart.cpp:231
+#: kcmfontinst/KCmFontInst.cpp:602 viewpart/FontViewPart.cpp:240
 msgid "Success"
 msgstr "সফল"
 
-#: kcmfontinst/KFileFontView.cpp:72
+#: kcmfontinst/KFileFontView.cpp:73
 msgid "Detailed View"
 msgstr "বিস্তারিত ভিউ"
 
-#: kcmfontinst/KFileFontView.cpp:74
+#: kcmfontinst/KFileFontView.cpp:75
 msgid "Name"
 msgstr "নাম"
 
-#: kcmfontinst/KFileFontView.cpp:75
+#: kcmfontinst/KFileFontView.cpp:76
 msgid "Size"
 msgstr "মাপ"
+
+#: kcmfontinst/KFileFontView.cpp:77
+msgid "Type"
+msgstr ""
+
+#: kcmfontinst/PrintDialog.cpp:39
+msgid "Print Font Samples"
+msgstr ""
+
+#: kcmfontinst/PrintDialog.cpp:44
+msgid "Output:"
+msgstr ""
+
+#: kcmfontinst/PrintDialog.cpp:46
+#, fuzzy
+msgid "All fonts"
+msgstr "ফন্ট যোগ করো"
+
+#: kcmfontinst/PrintDialog.cpp:47
+#, fuzzy
+msgid "Selected fonts"
+msgstr "এই বস্তুগুলি মুছে ফেলো"
+
+#: kcmfontinst/PrintDialog.cpp:49
+#, fuzzy
+msgid "Font size:"
+msgstr "ফন্ট প্রদর্শক"
+
+#: kcmfontinst/PrintDialog.cpp:51
+msgid "Waterfall"
+msgstr "ঝর্ণা"
+
+#: kcmfontinst/PrintDialog.cpp:52
+#, fuzzy
+msgid "12pt"
+msgstr "%1pt "
+
+#: kcmfontinst/PrintDialog.cpp:53
+#, fuzzy
+msgid "18pt"
+msgstr "%1pt "
+
+#: kcmfontinst/PrintDialog.cpp:54
+msgid "24pt"
+msgstr ""
+
+#: kcmfontinst/PrintDialog.cpp:55
+msgid "36pt"
+msgstr ""
+
+#: kcmfontinst/PrintDialog.cpp:56
+msgid "48pt"
+msgstr ""
 
 #: kcmfontinst/SettingsDialog.cpp:46
 msgid "Settings"
@@ -355,7 +442,7 @@ msgstr ""
 msgid "Sorry, you cannot rename, move, copy, or delete either \"%1\" or \"%2\"."
 msgstr ""
 
-#: lib/FcEngine.cpp:460
+#: lib/FcEngine.cpp:522
 msgid "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789"
 msgstr ""
 "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz0123456789অআইঈউ"
@@ -363,35 +450,17 @@ msgstr ""
 "নপফবভমযরলশষসহয়ড়ঢ়০১২৩৪৫৬৭৮"
 "৯"
 
-#: lib/FcEngine.cpp:514
-msgid ""
-"_: All of the letters of the alphabet, lowercase\n"
-"abcdefghijklmnopqrstuvwxyz"
-msgstr ""
-
-#: lib/FcEngine.cpp:516
-msgid ""
-"_: All of the letters of the alphabet, uppercase\n"
-"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-msgstr ""
-
-#: lib/FcEngine.cpp:518
-msgid ""
-"_: Numbers and characters\n"
-"0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
-msgstr ""
-
-#: lib/FcEngine.cpp:520
+#: lib/FcEngine.cpp:576
 msgid "ERROR: Could not determine font's name."
 msgstr ""
 
-#: lib/FcEngine.cpp:524
+#: lib/FcEngine.cpp:580
 msgid ""
 "_n: %1 [1 pixel]\n"
 "%1 [%n pixels]"
 msgstr ""
 
-#: lib/FcEngine.cpp:643
+#: lib/FcEngine.cpp:697
 msgid ""
 "_: A sentence that uses all of the letters of the alphabet\n"
 "The quick brown fox jumps over the lazy dog"
@@ -399,23 +468,41 @@ msgstr ""
 "চটপট খয়েরী শিয়ালটি লাফ দেয় "
 "অলস কুকুরের উপর"
 
+#: lib/FcEngine.cpp:711
+msgid ""
+"_: All of the letters of the alphabet, uppercase\n"
+"ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr ""
+
+#: lib/FcEngine.cpp:716
+msgid ""
+"_: All of the letters of the alphabet, lowercase\n"
+"abcdefghijklmnopqrstuvwxyz"
+msgstr ""
+
+#: lib/FcEngine.cpp:721
+msgid ""
+"_: Numbers and characters\n"
+"0123456789.:,;(*!?'/\\\")£$€%^&-+@~#<>{}[]"
+msgstr ""
+
 #: viewpart/FontPreview.cpp:90
 msgid " No preview available"
 msgstr " প্রাকদর্শন পাওয়া যাচ্ছে না "
 
-#: viewpart/FontViewPart.cpp:90
+#: viewpart/FontViewPart.cpp:96
 msgid "Face:"
 msgstr "ফেস:"
 
-#: viewpart/FontViewPart.cpp:92
+#: viewpart/FontViewPart.cpp:98
 msgid "Install..."
 msgstr "ইনস্টল করো..."
 
-#: viewpart/FontViewPart.cpp:108
+#: viewpart/FontViewPart.cpp:114
 msgid "Change Text..."
 msgstr "লেখা পাল্টাও..."
 
-#: viewpart/FontViewPart.cpp:195
+#: viewpart/FontViewPart.cpp:204
 msgid ""
 "Where do you wish to install \"%1\" (%2)?\n"
 "\"%3\" - only accessible to you, or\n"
@@ -429,23 +516,23 @@ msgstr ""
 "(অ্যাডমিনস্ট্রেটর "
 "পাসওয়ার্ড প্রয়োজন)"
 
-#: viewpart/FontViewPart.cpp:203
+#: viewpart/FontViewPart.cpp:212
 msgid "Install"
 msgstr "ইনস্টল করো"
 
-#: viewpart/FontViewPart.cpp:230
+#: viewpart/FontViewPart.cpp:239
 msgid "%1:%2 successfully installed."
 msgstr "%1:%2 ইনস্টল সফল"
 
-#: viewpart/FontViewPart.cpp:237
+#: viewpart/FontViewPart.cpp:246
 msgid "Could not install %1:%2"
 msgstr "%1:%2 ইনস্টল করা যায়নি"
 
-#: viewpart/FontViewPart.cpp:247
+#: viewpart/FontViewPart.cpp:256
 msgid "Preview String"
 msgstr "প্রাক্‌দর্শন পংক্তি"
 
-#: viewpart/FontViewPart.cpp:247
+#: viewpart/FontViewPart.cpp:256
 msgid "Please enter new string:"
 msgstr "নতুন পংক্তি লিখুন:"
 
@@ -702,12 +789,6 @@ msgstr "deepayan@bengalinux.org"
 
 #~ msgid "%3,  %1pt / %2pt"
 #~ msgstr "%3,  %1pt / %2pt"
-
-#~ msgid "%1pt "
-#~ msgstr "%1pt "
-
-#~ msgid "Waterfall"
-#~ msgstr "ঝর্ণা"
 
 #~ msgid "%1:%2 already installed."
 #~ msgstr "%1:%2 আগে থেকেই ইনস্টল করা রয়েছে"

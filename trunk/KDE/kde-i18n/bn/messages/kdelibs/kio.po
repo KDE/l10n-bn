@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
-"POT-Creation-Date: 2005-05-11 11:27+0200\n"
+"POT-Creation-Date: 2005-05-15 01:22+0200\n"
 "PO-Revision-Date: 2004-09-02 11:14-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -182,8 +182,7 @@ msgstr ""
 msgid "The peer SSL certificate appears to be corrupt."
 msgstr "মনে হয়  ."
 
-#: kio/observer.cpp:338 kio/tcpslavebase.cpp:723 kio/tcpslavebase.cpp:740
-#: misc/uiserver.cpp:1218
+#: kio/observer.cpp:338 kio/tcpslavebase.cpp:705 misc/uiserver.cpp:1218
 msgid "SSL"
 msgstr "এস-এস-এল"
 
@@ -346,7 +345,7 @@ msgstr ""
 "পক্ষে ঐ ট্রান্সমিশন পড়া "
 "সম্ভব হতে পারে।"
 
-#: kio/tcpslavebase.cpp:325 kio/tcpslavebase.cpp:1120
+#: kio/tcpslavebase.cpp:325 kio/tcpslavebase.cpp:1085
 msgid "Security Information"
 msgstr "নিরাপত্তা তথ্য"
 
@@ -354,26 +353,27 @@ msgstr "নিরাপত্তা তথ্য"
 msgid "C&ontinue Loading"
 msgstr "লো&ড করা চালিয়ে যাও"
 
-#: kio/tcpslavebase.cpp:680
+#: kio/tcpslavebase.cpp:676
 msgid "Enter the certificate password:"
 msgstr ""
 "সার্টিফিকেটের পাসওয়ার্ড "
 "লিখুন:"
 
-#: kio/tcpslavebase.cpp:681
+#: kio/tcpslavebase.cpp:677
 msgid "SSL Certificate Password"
 msgstr ""
 "এস-এস-এল সার্টিফিকেটের "
 "পাসওয়ার্ড"
 
-#: kio/tcpslavebase.cpp:720
-msgid "Unable to open the certificate. Try a new password?"
+#: kio/tcpslavebase.cpp:690
+#, fuzzy
+msgid "Unable to open the certificate. Please try a new password:"
 msgstr ""
 "সার্টিফিকেট খোলা যায়নি। "
 "নতুন পাসওয়ার্ড চেষ্টা করতে "
 "চান?"
 
-#: kio/tcpslavebase.cpp:738
+#: kio/tcpslavebase.cpp:703
 #, fuzzy
 msgid "The procedure to set the client certificate for the session failed."
 msgstr ""
@@ -381,7 +381,7 @@ msgstr ""
 "টি জন্য টি সেশন,অধিবেশন "
 "অক্ষম."
 
-#: kio/tcpslavebase.cpp:908
+#: kio/tcpslavebase.cpp:873
 msgid ""
 "The IP address of the host %1 does not match the one the certificate was "
 "issued to."
@@ -391,44 +391,44 @@ msgstr ""
 "হোস্টটির অ্যাড্রেস তার সাথে "
 "মিলছে না।"
 
-#: kio/tcpslavebase.cpp:913 kio/tcpslavebase.cpp:921 kio/tcpslavebase.cpp:956
-#: kio/tcpslavebase.cpp:1030 kio/tcpslavebase.cpp:1042
-#: kio/tcpslavebase.cpp:1051 kio/tcpslavebase.cpp:1082
+#: kio/tcpslavebase.cpp:878 kio/tcpslavebase.cpp:886 kio/tcpslavebase.cpp:921
+#: kio/tcpslavebase.cpp:995 kio/tcpslavebase.cpp:1007
+#: kio/tcpslavebase.cpp:1016 kio/tcpslavebase.cpp:1047
 msgid "Server Authentication"
 msgstr ""
 "সার্ভারের সত্যতা প্রমাণ "
 "(Authentication)"
 
-#: kio/tcpslavebase.cpp:914 kio/tcpslavebase.cpp:922 kio/tcpslavebase.cpp:1052
+#: kio/tcpslavebase.cpp:879 kio/tcpslavebase.cpp:887 kio/tcpslavebase.cpp:1017
 msgid "&Details"
 msgstr "বিস্তারি&ত"
 
-#: kio/tcpslavebase.cpp:915 kio/tcpslavebase.cpp:923
+#: kio/tcpslavebase.cpp:880 kio/tcpslavebase.cpp:888
 msgid "Co&ntinue"
 msgstr "চালিয়ে যা&ও"
 
-#: kio/tcpslavebase.cpp:917 kio/tcpslavebase.cpp:1047
+#: kio/tcpslavebase.cpp:882 kio/tcpslavebase.cpp:1012
 msgid "The server certificate failed the authenticity test (%1)."
 msgstr ""
 "সার্ভার সার্টিফিকেট সত্যতা "
 "পরীক্ষায় বিফল (%1)।"
 
-#: kio/tcpslavebase.cpp:953 kio/tcpslavebase.cpp:1079
+#: kio/tcpslavebase.cpp:918 kio/tcpslavebase.cpp:1044
 msgid "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "আপনি কি আর কোনো প্রশ্ন ছাড়াই "
 "এই সার্টিফিকেটটি চিরকালের "
 "জন্য স্বীকার করে নিতে চান?"
 
-#: kio/tcpslavebase.cpp:957 kio/tcpslavebase.cpp:1083
+#: kio/tcpslavebase.cpp:922 kio/tcpslavebase.cpp:1048
 msgid "&Forever"
 msgstr "চিরকালে&র জন্য"
 
-#: kio/tcpslavebase.cpp:958 kio/tcpslavebase.cpp:1084
+#: kio/tcpslavebase.cpp:923 kio/tcpslavebase.cpp:1049
 msgid "&Current Sessions Only"
 msgstr "শুধু &এই সেশনের জন্য"
 
-#: kio/tcpslavebase.cpp:1029
+#: kio/tcpslavebase.cpp:994
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
@@ -441,7 +441,7 @@ msgstr ""
 "সত্বেও সার্টিফিকেটটি লোড "
 "করতে চান?"
 
-#: kio/tcpslavebase.cpp:1041
+#: kio/tcpslavebase.cpp:1006
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
@@ -452,11 +452,11 @@ msgstr ""
 "নিয়ন্ত্রণ কেন্দ্রে আপনি একে "
 "নিষ্ক্রিয় করতে পারেন।"
 
-#: kio/tcpslavebase.cpp:1053
+#: kio/tcpslavebase.cpp:1018
 msgid "Co&nnect"
 msgstr "যোগাযোগ স্থা&পন করো"
 
-#: kio/tcpslavebase.cpp:1109
+#: kio/tcpslavebase.cpp:1074
 #, fuzzy
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted "
@@ -468,11 +468,11 @@ msgstr ""
 "মোড সব   মানে ঐ না   সক্ষম   "
 "আপনার তথ্য -এ."
 
-#: kio/tcpslavebase.cpp:1121
+#: kio/tcpslavebase.cpp:1086
 msgid "Display SSL &Information"
 msgstr "এস-এস-এল &তথ্য দেখাও"
 
-#: kio/tcpslavebase.cpp:1123
+#: kio/tcpslavebase.cpp:1088
 msgid "C&onnect"
 msgstr "যোগাযোগ স্থাপ&ন করো"
 
