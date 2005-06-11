@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
-"POT-Creation-Date: 2005-06-10 01:30+0200\n"
+"POT-Creation-Date: 2005-06-11 01:30+0200\n"
 "PO-Revision-Date: 2004-09-28 22:58-0500\n"
 "Last-Translator: progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -39,19 +39,19 @@ msgid "ID Number"
 msgstr ""
 
 #. i18n: file tools/argsetradec.ui line 75
-#: addcatdialog.cpp:49 addcatdialog.cpp:157 rc.cpp:2183
+#: addcatdialog.cpp:49 addcatdialog.cpp:157 rc.cpp:2236
 #, fuzzy, no-c-format
 msgid "Right Ascension"
 msgstr "বিষুবাংশ"
 
 #. i18n: file tools/argsetradec.ui line 43
-#: addcatdialog.cpp:50 addcatdialog.cpp:159 rc.cpp:2172
+#: addcatdialog.cpp:50 addcatdialog.cpp:159 rc.cpp:2225
 #, fuzzy, no-c-format
 msgid "Declination"
 msgstr "বিবরণ:"
 
 #. i18n: file details_data.ui line 121
-#: addcatdialog.cpp:51 addcatdialog.cpp:161 rc.cpp:106
+#: addcatdialog.cpp:51 addcatdialog.cpp:161 rc.cpp:159
 #, fuzzy, no-c-format
 msgid "Object Type"
 msgstr "বস্তুর ধরন:"
@@ -179,14 +179,31 @@ msgstr ""
 "ইউ.আর.এল.-টি বৈধ নয়।  আপনি কি গুগল অনুসন্ধান ইঞ্জিন ব্যবহারের জন্য একটি "
 "ব্রাউজার উইন্ডো খুলতে চান?"
 
-#: addlinkdialog.cpp:54 fitsviewer.cpp:702 streamwg.cpp:265
-#: tools/scriptbuilder.cpp:779 tools/scriptbuilder.cpp:851
+#: addlinkdialog.cpp:54 ccdpreviewwg.cpp:274 fitsviewer.cpp:702
+#: streamwg.cpp:265 tools/scriptbuilder.cpp:779 tools/scriptbuilder.cpp:851
 msgid "Invalid URL"
 msgstr "অবৈধ ইউ.আর.এল."
 
 #: addlinkdialog.cpp:65 addlinkdialog.cpp:68
 msgid "Show webpage about "
 msgstr "এই বিষয়ের ওপর ওয়েবপেজ প্রদর্শন করো - "
+
+#: ccdpreviewwg.cpp:266 kstarsactions.cpp:484 kstarsdcop.cpp:422
+#: streamwg.cpp:257 tools/scriptbuilder.cpp:842
+#, c-format
+msgid "Could not upload image to remote location: %1"
+msgstr "দূরবর্তী অবস্থানে ছবি আপলোড করা যায় নি: %1"
+
+#: ccdpreviewwg.cpp:267 kstarsactions.cpp:485 kstarsdcop.cpp:423
+#: streamwg.cpp:258 tools/scriptbuilder.cpp:843
+msgid "Could not upload file"
+msgstr "ফাইল আপলোড করা যায় নি"
+
+#: ccdpreviewwg.cpp:273 fitsviewer.cpp:701 streamwg.cpp:264
+#: tools/scriptbuilder.cpp:778 tools/scriptbuilder.cpp:850
+#, c-format
+msgid "Invalid URL: %1"
+msgstr "অবৈধ ইউ.আর.এল.: %1"
 
 #: colorscheme.cpp:39
 msgid "Sky"
@@ -251,7 +268,7 @@ msgid "Equator"
 msgstr "বিষুবরেখা"
 
 #. i18n: file opsguidesui.ui line 208
-#: colorscheme.cpp:75 rc.cpp:1483 skymapdraw.cpp:715
+#: colorscheme.cpp:75 rc.cpp:1536 skymapdraw.cpp:715
 #, no-c-format
 msgid "Ecliptic"
 msgstr "সূর্যপথ"
@@ -313,16 +330,17 @@ msgstr ""
 "স্থানীয় রং বিন্যাসের ফাইল খোলা যায় নি।\n"
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
-#: colorscheme.cpp:258 colorscheme.cpp:276 indidriver.cpp:784
-#: kstarsactions.cpp:505 locationdialog.cpp:371 opscolors.cpp:188
-#: skymap.cpp:1317 tools/modcalcangdist.cpp:102 tools/modcalcapcoord.cpp:182
-#: tools/modcalcazel.cpp:329 tools/modcalceclipticcoords.cpp:227
-#: tools/modcalcequinox.cpp:142 tools/modcalcgalcoord.cpp:229
-#: tools/modcalcgeodcoord.cpp:240 tools/modcalcplanets.cpp:313
-#: tools/modcalcprec.cpp:180 tools/modcalcsidtime.cpp:196
-#: tools/modcalcvlsr.cpp:374 tools/observinglist.cpp:494
-#: tools/observinglist.cpp:564 tools/scriptbuilder.cpp:768
-#: tools/scriptbuilder.cpp:828 tools/scriptbuilder.cpp:896
+#: colorscheme.cpp:258 colorscheme.cpp:276 indidriver.cpp:453
+#: indidriver.cpp:881 kstarsactions.cpp:512 locationdialog.cpp:371
+#: opscolors.cpp:188 skymap.cpp:1317 tools/modcalcangdist.cpp:102
+#: tools/modcalcapcoord.cpp:182 tools/modcalcazel.cpp:329
+#: tools/modcalceclipticcoords.cpp:227 tools/modcalcequinox.cpp:142
+#: tools/modcalcgalcoord.cpp:229 tools/modcalcgeodcoord.cpp:240
+#: tools/modcalcplanets.cpp:313 tools/modcalcprec.cpp:180
+#: tools/modcalcsidtime.cpp:196 tools/modcalcvlsr.cpp:374
+#: tools/observinglist.cpp:494 tools/observinglist.cpp:564
+#: tools/scriptbuilder.cpp:768 tools/scriptbuilder.cpp:828
+#: tools/scriptbuilder.cpp:896
 msgid "Could Not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
@@ -351,19 +369,19 @@ msgid "Brightness/Contrast"
 msgstr "উজ্জ্বলতা/রঙের-পার্থক্য"
 
 #. i18n: file tools/wutdialogui.ui line 501
-#: detaildialog.cpp:77 rc.cpp:4010 skymap.cpp:725
+#: detaildialog.cpp:77 rc.cpp:4063 skymap.cpp:725
 #, no-c-format
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
 #. i18n: file indiconf.ui line 30
-#: detaildialog.cpp:102 rc.cpp:633
+#: detaildialog.cpp:102 rc.cpp:686
 #, no-c-format
 msgid "General"
 msgstr "সাধারণ"
 
 #: detaildialog.cpp:137 kspopupmenu.cpp:55 kspopupmenu.cpp:222
-#: kstarsdata.cpp:128 kstarsinit.cpp:572 kstarsinit.cpp:588
+#: kstarsdata.cpp:128 kstarsinit.cpp:573 kstarsinit.cpp:589
 #: skymapdraw.cpp:1221 starobject.cpp:243 tools/observinglist.cpp:153
 #: tools/observinglist.cpp:195 tools/observinglist.cpp:234
 msgid "star"
@@ -466,7 +484,7 @@ msgstr "অপ্রযোজ্য"
 msgid "Links"
 msgstr "লিঙ্ক"
 
-#: detaildialog.cpp:457 kstarsactions.cpp:346
+#: detaildialog.cpp:457 kstarsactions.cpp:353
 msgid "Advanced"
 msgstr "অগ্রসর"
 
@@ -494,7 +512,7 @@ msgstr "ইউ.আর.এল.:"
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "আপনি কি %1 লিঙ্কটি অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: detaildialog.cpp:661 indidriver.cpp:759
+#: detaildialog.cpp:661 indidriver.cpp:856
 msgid "Delete Confirmation"
 msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
 
@@ -575,12 +593,12 @@ msgid "Any"
 msgstr "যে কোন"
 
 #. i18n: file opscatalogui.ui line 33
-#: finddialog.cpp:57 rc.cpp:1187 tools/wutdialog.cpp:112
+#: finddialog.cpp:57 rc.cpp:1240 tools/wutdialog.cpp:112
 #, no-c-format
 msgid "Stars"
 msgstr "তারা"
 
-#: finddialog.cpp:59 kspopupmenu.cpp:91 kstarsactions.cpp:343
+#: finddialog.cpp:59 kspopupmenu.cpp:91 kstarsactions.cpp:350
 #: tools/astrocalc.cpp:91 tools/astrocalc.cpp:136
 msgid "Solar System"
 msgstr "সৌরজগত্‍"
@@ -606,13 +624,13 @@ msgid "Galaxies"
 msgstr "ছায়াপথ"
 
 #. i18n: file opssolarsystemui.ui line 291
-#: finddialog.cpp:66 rc.cpp:1645 tools/wutdialog.cpp:110
+#: finddialog.cpp:66 rc.cpp:1698 tools/wutdialog.cpp:110
 #, no-c-format
 msgid "Comets"
 msgstr "ধূমকেতু"
 
 #. i18n: file opssolarsystemui.ui line 354
-#: finddialog.cpp:67 rc.cpp:1666 tools/wutdialog.cpp:111
+#: finddialog.cpp:67 rc.cpp:1719 tools/wutdialog.cpp:111
 #, no-c-format
 msgid "Asteroids"
 msgstr "গ্রহাণু"
@@ -688,7 +706,7 @@ msgstr "ছবি ক্ষুদ্রকরণ প্রক্রিয়া..."
 
 #. i18n: file imagereductionui.ui line 16
 #: fitsprocess.cpp:348 fitsviewer.cpp:134 fitsviewer.cpp:138
-#: fitsviewer.cpp:998 rc.cpp:461
+#: fitsviewer.cpp:998 rc.cpp:514
 #, no-c-format
 msgid "Image Reduction"
 msgstr "ছবি ক্ষুদ্রকরণ"
@@ -699,7 +717,7 @@ msgid "Welcome to KStars FITS Viewer"
 msgstr "কে-স্টার্স-এর FITS সম্পাদকের পক্ষ থেকে স্বাগতম।"
 
 #. i18n: file histdialog.ui line 36
-#: fitsviewer.cpp:150 fitsviewer.cpp:154 rc.cpp:425
+#: fitsviewer.cpp:150 fitsviewer.cpp:154 rc.cpp:478
 #, no-c-format
 msgid "Histogram"
 msgstr "আয়তলেখ"
@@ -709,13 +727,13 @@ msgid "&Default Zoom"
 msgstr "ডি&ফল্ট জুমমাত্রা"
 
 #. i18n: file statform.ui line 16
-#: fitsviewer.cpp:165 rc.cpp:1741
+#: fitsviewer.cpp:165 rc.cpp:1794
 #, no-c-format
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
 
 #. i18n: file fitsheaderdialog.ui line 16
-#: fitsviewer.cpp:166 rc.cpp:338
+#: fitsviewer.cpp:166 rc.cpp:391
 #, no-c-format
 msgid "FITS Header"
 msgstr "FITS হেডার"
@@ -738,18 +756,18 @@ msgid ""
 msgstr ""
 "ফাইল থেকে FITS তথ্য পড়া যায় নি।  %1।\n"
 
-#: fitsviewer.cpp:563 imageviewer.cpp:212 kstarsactions.cpp:427
+#: fitsviewer.cpp:563 imageviewer.cpp:212 kstarsactions.cpp:434
 #: tools/scriptbuilder.cpp:812
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr ""
 "\"%1\" নামে একটি ফাইল ইতিমধ্যেই বিদ্যমান।  সেটির ওপর দিয়েই কি লেখা হবে?"
 
-#: fitsviewer.cpp:565 imageviewer.cpp:214 kstarsactions.cpp:429
+#: fitsviewer.cpp:565 imageviewer.cpp:214 kstarsactions.cpp:436
 #: tools/scriptbuilder.cpp:814
 msgid "Overwrite File?"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
 
-#: fitsviewer.cpp:566 imageviewer.cpp:215 kstarsactions.cpp:430
+#: fitsviewer.cpp:566 imageviewer.cpp:215 kstarsactions.cpp:437
 #: tools/scriptbuilder.cpp:815
 msgid "&Overwrite"
 msgstr "&ওপর দিয়ে লেখো"
@@ -765,12 +783,6 @@ msgstr "FITS ফাইল খোলার সময় সমস্যা হয়ে
 #: fitsviewer.cpp:691
 msgid "File saved."
 msgstr "ফাইল সংরক্ষণ করা হয়েছে।"
-
-#: fitsviewer.cpp:701 streamwg.cpp:264 tools/scriptbuilder.cpp:778
-#: tools/scriptbuilder.cpp:850
-#, c-format
-msgid "Invalid URL: %1"
-msgstr "অবৈধ ইউ.আর.এল.: %1"
 
 #: fitsviewer.cpp:880
 msgid " [modified]"
@@ -829,13 +841,13 @@ msgid "FOV list is empty"
 msgstr "FOV তালিকা ফাঁকা"
 
 #. i18n: file newfovui.ui line 16
-#: fovdialog.cpp:196 rc.cpp:826
+#: fovdialog.cpp:196 rc.cpp:879
 #, no-c-format
 msgid "New FOV Indicator"
 msgstr "নতুন FOV নির্দেশক"
 
 #. i18n: file imagereductionui.ui line 43
-#: imagereductiondlg.cpp:55 rc.cpp:464
+#: imagereductiondlg.cpp:55 rc.cpp:517
 #, no-c-format
 msgid "Dark Frames"
 msgstr "অন্ধকার ফ্রেম"
@@ -910,26 +922,24 @@ msgstr "%1 ছবিটি লোড করার প্রচেষ্টা �
 msgid "Saving of the image %1 failed."
 msgstr "%1 ছবিটি সংরক্ষণ করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#. i18n: file devmanager.ui line 195
-#: indidriver.cpp:73 rc.cpp:296
-#, no-c-format
+#: indidriver.cpp:73
 msgid "Run Service"
 msgstr "সার্ভিস চালু করো"
 
 #. i18n: file devmanager.ui line 206
-#: indidriver.cpp:74 rc.cpp:299
+#: indidriver.cpp:74 rc.cpp:352
 #, no-c-format
 msgid "Stop Service"
 msgstr "সার্ভিস বন্ধ করো"
 
 #. i18n: file devmanager.ui line 343
-#: indidriver.cpp:83 rc.cpp:329
+#: indidriver.cpp:83 rc.cpp:382
 #, no-c-format
 msgid "Connect"
 msgstr "সংযোগ স্থাপন করো"
 
 #. i18n: file devmanager.ui line 354
-#: indidriver.cpp:84 rc.cpp:332
+#: indidriver.cpp:84 rc.cpp:385
 #, no-c-format
 msgid "Disconnect"
 msgstr "সংযোগ বিচ্ছিন্ন করো"
@@ -938,7 +948,16 @@ msgstr "সংযোগ বিচ্ছিন্ন করো"
 msgid "Cannot start INDI server: port error."
 msgstr "INDI সার্ভার চালু করা যাচ্ছে না : পোর্ট ত্রুটি।"
 
-#: indidriver.cpp:487
+#: indidriver.cpp:452
+#, fuzzy
+msgid ""
+"unable to write to file 'drivers.xml'\n"
+"Any changes to INDI device drivers will not be saved."
+msgstr ""
+"'indihosts.xml' ফাইলে লেখা যাচ্ছে না\n"
+"INDI হোস্টের কনফিগারেশনে কোন পরিবর্তন করলে তা সংরক্ষিত হবে না।"
+
+#: indidriver.cpp:573
 msgid ""
 "Unable to find device driver file 'drivers.xml'. Please locate the file and "
 "place it in one of the following locations:\n"
@@ -952,31 +971,31 @@ msgstr ""
 " \t$(KDEDIR)/share/apps/kstars/%1 \n"
 "\t~/.kde/share/apps/kstars/%1"
 
-#: indidriver.cpp:662
+#: indidriver.cpp:759
 msgid "Add Host"
 msgstr "হোস্ট যোগ করো"
 
-#: indidriver.cpp:678
+#: indidriver.cpp:775
 msgid "Error: the port number is invalid."
 msgstr "সমস্যা: অবৈধ পোর্ট নম্বর।"
 
-#: indidriver.cpp:687
+#: indidriver.cpp:784
 msgid "Host: %1 Port: %2 already exists."
 msgstr "হোস্ট: %1 পোর্ট: %2 ইতিমধ্যেই বিদ্যমান।"
 
-#: indidriver.cpp:709
+#: indidriver.cpp:806
 msgid "Modify Host"
 msgstr "হোস্ট পরিবর্তন করো"
 
-#: indidriver.cpp:755
+#: indidriver.cpp:852
 msgid "You need to disconnect the client before removing it."
 msgstr "ক্লায়েন্টকে অপসারণের পূর্বে তার সংযোগ বিচ্ছিন্ন করতে হবে।"
 
-#: indidriver.cpp:759
+#: indidriver.cpp:856
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "আপনি কি %1 ক্লায়েন্টকে অপসারণের ব্যাপারে নিশ্চিত?"
 
-#: indidriver.cpp:783
+#: indidriver.cpp:880
 msgid ""
 "unable to write to file 'indihosts.xml'\n"
 "Any changes to INDI hosts configurations will not be saved."
@@ -1019,33 +1038,33 @@ msgstr "FITS ফাইল লোড করার জন্য পর্যাপ
 msgid "Upload"
 msgstr ""
 
-#: indistd.cpp:76
+#: indistd.cpp:79
 msgid "INDI"
 msgstr "INDI"
 
-#: indistd.cpp:76
+#: indistd.cpp:79
 msgid "Downloading Data..."
 msgstr "তথ্য ডাউনলোড করা হচ্ছে..."
 
-#: indistd.cpp:174
+#: indistd.cpp:185
 #, c-format
 msgid "Data file saved to %1"
 msgstr "তথ্যের ফাইল %1-এ সংরক্ষণ করা হয়েছে"
 
-#: indistd.cpp:179
+#: indistd.cpp:190
 #, c-format
 msgid "FITS file saved to %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: indistd.cpp:242
+#: indistd.cpp:256
 msgid "Start"
 msgstr "আরম্ভ"
 
-#: indistd.cpp:527
+#: indistd.cpp:580
 msgid "%1 is online."
 msgstr "%1 অনলাইনে আছে।"
 
-#: indistd.cpp:541
+#: indistd.cpp:594
 msgid "%1 is online and ready."
 msgstr "%1 অনলাইনে আছে এবং প্রস্তুত রয়েছে।"
 
@@ -1138,7 +1157,7 @@ msgid ""
 msgstr "ক্যালিস্টো"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 129
-#: ksmoon.cpp:30 rc.cpp:3128 rc.cpp:3239 tools/modcalcplanets.cpp:384
+#: ksmoon.cpp:30 rc.cpp:3181 rc.cpp:3292 tools/modcalcplanets.cpp:384
 #, no-c-format
 msgid "Moon"
 msgstr "চাঁদ"
@@ -1203,13 +1222,13 @@ msgstr "Steinicke-এর এন.জি.সি./আই.সি. ক্যাটা
 msgid "Installing comet and asteroid ephemerides..."
 msgstr "ধূমকেতু ও গ্রহাণুর এফিমেরিস ইনস্টল করা হচ্ছে..."
 
-#: ksplanetbase.cpp:140
+#: ksplanetbase.cpp:139
 msgid "KSPlanetBase::setRearth():  Error: Need an Earth pointer.  ("
 msgstr ""
 "KSPlanetBase::setRearth():  সমস্যা: একটি পৃথিবী নির্দেশক (Pointer) প্রয়োজন।  ("
 
 #. i18n: file opssolarsystemui.ui line 102
-#: kspluto.cpp:40 rc.cpp:1552 rc.cpp:3125 rc.cpp:3236
+#: kspluto.cpp:33 rc.cpp:1605 rc.cpp:3178 rc.cpp:3289
 #: tools/modcalcplanets.cpp:382
 #, no-c-format
 msgid "Pluto"
@@ -1238,7 +1257,7 @@ msgid "Spectral type: %1"
 msgstr "বর্ণালীর ধরন: %1"
 
 #. i18n: file details_links.ui line 137
-#: kspopupmenu.cpp:132 rc.cpp:166
+#: kspopupmenu.cpp:132 rc.cpp:219
 #, no-c-format
 msgid "Add Link..."
 msgstr "লিঙ্ক যোগ করো..."
@@ -1334,7 +1353,7 @@ msgid "Transit time: %1"
 msgstr "অতিক্রম কাল: %1"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 134
-#: kssun.cpp:26 rc.cpp:3131 rc.cpp:3242 tools/modcalcplanets.cpp:383
+#: kssun.cpp:26 rc.cpp:3184 rc.cpp:3295 tools/modcalcplanets.cpp:383
 #, no-c-format
 msgid "Sun"
 msgstr "সূর্য"
@@ -21535,30 +21554,30 @@ msgid ""
 "Other"
 msgstr "অন্যান্য"
 
-#: kstarsactions.cpp:342
+#: kstarsactions.cpp:349
 msgid "Catalogs"
 msgstr "তালিকা"
 
-#: kstarsactions.cpp:344
+#: kstarsactions.cpp:351
 msgid "Guides"
 msgstr "নির্দেশিকা"
 
-#: kstarsactions.cpp:345
+#: kstarsactions.cpp:352
 msgid "Colors"
 msgstr "রং"
 
-#: kstarsactions.cpp:382
+#: kstarsactions.cpp:389
 msgid "KStars::slotFind() - Not enough memory for dialog"
 msgstr "KStars::slotFind() - ডায়ালগ প্রদর্শনের জন্য পর্যাপ্ত মেমরি নেই"
 
-#: kstarsactions.cpp:446
+#: kstarsactions.cpp:453
 msgid ""
 "Warning:  You are about to execute a remote shell script on your machine. "
 msgstr ""
 "সতর্কবাণী:  আপনি আপনার কম্পিউটারে একটি দূরবর্তী (Remote) শেল স্ক্রিপ্ট চালাতে "
 "যাচ্ছেন। "
 
-#: kstarsactions.cpp:447
+#: kstarsactions.cpp:454
 msgid ""
 "If you absolutely trust the source of this script, press Continue to execute "
 "the script; "
@@ -21566,61 +21585,50 @@ msgstr ""
 "যদি স্ক্রিপ্টের সোর্সকে আপনি বিশ্বাস করেন, তবে স্ক্রিপ্ট চালানোর জন্য 'অগ্রসর' "
 "বাটন চাপুন; "
 
-#: kstarsactions.cpp:448
+#: kstarsactions.cpp:455
 msgid "to save the file without executing it, press Save; "
 msgstr "ফাইলটি না চালিয়ে শুধু সংরক্ষণ করতে চাইলে 'সংরক্ষণ' চাপুন; "
 
-#: kstarsactions.cpp:449
+#: kstarsactions.cpp:456
 msgid "to cancel the download, press Cancel. "
 msgstr "ডাউনলোড প্রক্রিয়া বাতিল করার জন্য 'বাতিল' চাপুন। "
 
-#: kstarsactions.cpp:451
+#: kstarsactions.cpp:458
 msgid "Really Execute Remote Script?"
 msgstr "আপনি কি দূরবর্তী (Remote) স্ক্রিপ্ট চালানোর ব্যাপারে নিশ্চিত?"
 
-#: kstarsactions.cpp:461
+#: kstarsactions.cpp:468
 msgid "Save location is invalid. Try another location?"
 msgstr ""
 "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ।  অপর কোনো অবস্থানে সংরক্ষণ করতে "
 "চান কি?"
 
-#: kstarsactions.cpp:462
+#: kstarsactions.cpp:469
 msgid "Invalid Save Location"
 msgstr "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ"
 
-#: kstarsactions.cpp:477 kstarsdcop.cpp:422 streamwg.cpp:257
-#: tools/scriptbuilder.cpp:842
-#, c-format
-msgid "Could not upload image to remote location: %1"
-msgstr "দূরবর্তী অবস্থানে ছবি আপলোড করা যায় নি: %1"
-
-#: kstarsactions.cpp:478 kstarsdcop.cpp:423 streamwg.cpp:258
-#: tools/scriptbuilder.cpp:843
-msgid "Could not upload file"
-msgstr "ফাইল আপলোড করা যায় নি"
-
-#: kstarsactions.cpp:482
+#: kstarsactions.cpp:489
 msgid "Could not download the file."
 msgstr "ফাইল ডাউনলোড করা যায় নি।"
 
-#: kstarsactions.cpp:482 tools/scriptbuilder.cpp:762
+#: kstarsactions.cpp:489 tools/scriptbuilder.cpp:762
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:504 kstarsdata.cpp:2318 tools/observinglist.cpp:493
+#: kstarsactions.cpp:511 kstarsdata.cpp:2318 tools/observinglist.cpp:493
 #, c-format
 msgid "Could not open file %1"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি"
 
-#: kstarsactions.cpp:528
+#: kstarsactions.cpp:535
 msgid "The selected file appears to be an invalid KStars script."
 msgstr "নির্বাচিত ফাইলটি সম্ভবত একটি অবৈধ কেস্টার্স স্ক্রিপ্ট।"
 
-#: kstarsactions.cpp:529
+#: kstarsactions.cpp:536
 msgid "Script Validation Failed"
 msgstr "স্ক্রিপ্টের বৈধতা প্রমাণ করা যায় নি"
 
-#: kstarsactions.cpp:546
+#: kstarsactions.cpp:553
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which uses a "
 "white background. Would you like to temporarily switch to the Star Chart color "
@@ -21630,38 +21638,38 @@ msgstr ""
 "ব্যবহার করতে পারেন যা সাদা পটভূমি ব্যবহার করে।  আপনি কি মুদ্রণের জন্য "
 "সাময়িকভাবে তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান?"
 
-#: kstarsactions.cpp:551
+#: kstarsactions.cpp:558
 msgid "Switch to Star Chart Colors?"
 msgstr "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান কি?"
 
-#: kstarsactions.cpp:608 kstarsinit.cpp:96
+#: kstarsactions.cpp:615 kstarsinit.cpp:96
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:624 kstarsinit.cpp:99 skymap.cpp:517
+#: kstarsactions.cpp:631 kstarsinit.cpp:99 skymap.cpp:517
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
-#: kstarsactions.cpp:730
+#: kstarsactions.cpp:737
 msgid ""
 "_: The user should enter an angle for the field-of-view of the display\n"
 "Enter Desired Field-of-View Angle"
 msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণের মান লিখুন"
 
-#: kstarsactions.cpp:730
+#: kstarsactions.cpp:737
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
-#: kstarsactions.cpp:805
+#: kstarsactions.cpp:812
 msgid "Could not open fov.dat for writing."
 msgstr "লেখার জন্য fov.dat ফাইলটি খোলা যায় নি।"
 
-#: kstarsactions.cpp:835 kstarsinit.cpp:389
+#: kstarsactions.cpp:842 kstarsinit.cpp:390
 #, c-format
 msgid "Could not open file: %1"
 msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
-#: kstarsactions.cpp:839 kstarsinit.cpp:393
+#: kstarsactions.cpp:846 kstarsinit.cpp:394
 msgid "Edit FOV Symbols..."
 msgstr "FOV প্রতীক সম্পাদন..."
 
@@ -22299,108 +22307,113 @@ msgid "Telescope Wizard..."
 msgstr "দূরবীক্ষণ উইজার্ড..."
 
 #: kstarsinit.cpp:273
+#, fuzzy
+msgid "Telescope Properties..."
+msgstr "টেলিস্কোপ পোর্ট:"
+
+#: kstarsinit.cpp:274
 msgid "Device Manager..."
 msgstr "ডিভাইস ব্যবস্থাপক..."
 
-#: kstarsinit.cpp:275
+#: kstarsinit.cpp:276
 msgid "Capture Image Sequence..."
 msgstr "ধারাবাহিক ছবি ধারণ করো..."
 
-#: kstarsinit.cpp:278
+#: kstarsinit.cpp:279
 msgid "INDI Control Panel..."
 msgstr "INDI নিয়ন্ত্রণ প্যানেল..."
 
-#: kstarsinit.cpp:281
+#: kstarsinit.cpp:282
 msgid "Configure INDI..."
 msgstr "INDI কনফিগার করো..."
 
-#: kstarsinit.cpp:286
+#: kstarsinit.cpp:287
 msgid "Tip of the Day"
 msgstr "আজকের পরামর্শ"
 
-#: kstarsinit.cpp:290
+#: kstarsinit.cpp:291
 msgid "&Handbook"
 msgstr "নির্দেশিকা (&ন)"
 
-#: kstarsinit.cpp:298
+#: kstarsinit.cpp:299
 msgid "Toggle Stars"
 msgstr "তারা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:303
+#: kstarsinit.cpp:304
 msgid "Toggle Deep Sky Objects"
 msgstr "দূর আকাশের বস্তু দেখানোর মোড পাল্টাও"
 
-#: kstarsinit.cpp:308
+#: kstarsinit.cpp:309
 msgid "Toggle Solar System"
 msgstr "সৌরজগত্‍ প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:313
+#: kstarsinit.cpp:314
 msgid "Toggle Constellation Lines"
 msgstr "তারামণ্ডলের রেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:318
+#: kstarsinit.cpp:319
 msgid "Toggle Constellation Names"
 msgstr "তারামণ্ডলের নাম প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:323
+#: kstarsinit.cpp:324
 msgid "Toggle Constellation Boundaries"
 msgstr "তারামণ্ডলের সীমারেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:328
+#: kstarsinit.cpp:329
 msgid "Toggle Milky Way"
 msgstr "আকাশ গঙ্গা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:333
+#: kstarsinit.cpp:334
 msgid "Toggle Coordinate Grid"
 msgstr "স্থানাংক রেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:338
+#: kstarsinit.cpp:339
 msgid "Toggle Ground"
 msgstr "ভূমি প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:360
+#: kstarsinit.cpp:361
 msgid "Could not open fov.dat."
 msgstr "fov.dat খোলা যায় নি।"
 
-#: kstarsinit.cpp:363
+#: kstarsinit.cpp:364
 msgid ""
 "_: Do not use a field-of-view indicator\n"
 "No FOV"
 msgstr "কোন FOV নেই"
 
-#: kstarsinit.cpp:364
+#: kstarsinit.cpp:365
 msgid ""
 "_: use field-of-view for binoculars\n"
 "7x35 Binoculars"
 msgstr "৭x৩৫ দূরবীন"
 
-#: kstarsinit.cpp:365
+#: kstarsinit.cpp:366
 msgid ""
 "_: use 1-degree field-of-view indicator\n"
 "One Degree"
 msgstr "এক ডিগ্রি"
 
-#: kstarsinit.cpp:366
+#: kstarsinit.cpp:367
 msgid ""
 "_: use HST field-of-view indicator\n"
 "HST WFPC2"
 msgstr "HST ভিল্ড-অব-ভিশন নির্দেশক ব্যবহার করো"
 
-#: kstarsinit.cpp:367
+#: kstarsinit.cpp:368
 msgid ""
 "_: use Radiotelescope HPBW\n"
 "30m at 1.3cm"
 msgstr ""
 
-#: kstarsinit.cpp:397
+#: kstarsinit.cpp:398
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:458
+#: kstarsinit.cpp:459
 msgid "Initial Position is Below Horizon"
 msgstr " প্রাথমিক অবস্থান দিগন্তের নিচে অবস্থিত"
 
-#: kstarsinit.cpp:459
+#: kstarsinit.cpp:460
 msgid ""
 "The initial position is below the horizon.\n"
 "Would you like to reset to the default position?"
@@ -22408,7 +22421,7 @@ msgstr ""
 "প্রাথমিক অবস্থান দিগন্তের নিচে অবস্থিত।\n"
 "আপনি কি ডিফল্ট অবস্থানে ফিরে যেতে চান?"
 
-#: kstarsinit.cpp:573 kstarsinit.cpp:589 skymap.cpp:174 skymap.cpp:479
+#: kstarsinit.cpp:574 kstarsinit.cpp:590 skymap.cpp:174 skymap.cpp:479
 #: skymapevents.cpp:396 skymapevents.cpp:508
 msgid "nothing"
 msgstr "কিছু না"
@@ -22448,7 +22461,7 @@ msgid "Country filter:"
 msgstr "দেশ ফিল্টার:"
 
 #. i18n: file kswizardui.ui line 278
-#: locationdialog.cpp:90 rc.cpp:752 rc.cpp:2120
+#: locationdialog.cpp:90 rc.cpp:805 rc.cpp:2173
 #, no-c-format
 msgid "City:"
 msgstr "শহর:"
@@ -22458,23 +22471,23 @@ msgid "State/Province:"
 msgstr "রাজ্য/প্রদেশ:"
 
 #. i18n: file kswizardui.ui line 262
-#: locationdialog.cpp:92 rc.cpp:746 rc.cpp:2123
+#: locationdialog.cpp:92 rc.cpp:799 rc.cpp:2176
 #, no-c-format
 msgid "Country:"
 msgstr "দেশ:"
 
 #. i18n: file kswizardui.ui line 351
-#: locationdialog.cpp:93 rc.cpp:767 rc.cpp:2502 rc.cpp:2571 rc.cpp:2613
-#: rc.cpp:2873 rc.cpp:2984 rc.cpp:2999 rc.cpp:3140 rc.cpp:3203 rc.cpp:3389
-#: rc.cpp:3488 rc.cpp:3563
+#: locationdialog.cpp:93 rc.cpp:820 rc.cpp:2555 rc.cpp:2624 rc.cpp:2666
+#: rc.cpp:2926 rc.cpp:3037 rc.cpp:3052 rc.cpp:3193 rc.cpp:3256 rc.cpp:3442
+#: rc.cpp:3541 rc.cpp:3616
 #, no-c-format
 msgid "Longitude:"
 msgstr "দ্রাঘিমাংশ:"
 
 #. i18n: file kswizardui.ui line 359
-#: locationdialog.cpp:94 rc.cpp:770 rc.cpp:2505 rc.cpp:2568 rc.cpp:2610
-#: rc.cpp:2870 rc.cpp:2981 rc.cpp:3002 rc.cpp:3143 rc.cpp:3200 rc.cpp:3485
-#: rc.cpp:3566
+#: locationdialog.cpp:94 rc.cpp:823 rc.cpp:2558 rc.cpp:2621 rc.cpp:2663
+#: rc.cpp:2923 rc.cpp:3034 rc.cpp:3055 rc.cpp:3196 rc.cpp:3253 rc.cpp:3538
+#: rc.cpp:3619
 #, no-c-format
 msgid "Latitude:"
 msgstr "অক্ষাংশ:"
@@ -22492,7 +22505,7 @@ msgid ""
 msgstr "ডে-লাইট-সেভিং-টাইম এর নিয়ম:"
 
 #. i18n: file tools/altvstimeui.ui line 238
-#: locationdialog.cpp:119 rc.cpp:1928
+#: locationdialog.cpp:119 rc.cpp:1981
 #, no-c-format
 msgid "Clear Fields"
 msgstr "ঘর ফাঁকা করো"
@@ -22852,56 +22865,56 @@ msgid "Scheme Not Found"
 msgstr "বিন্যাস পাওয়া যায় নি"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 94
-#: planetcatalog.cpp:49 rc.cpp:3107 rc.cpp:3218 tools/modcalcplanets.cpp:100
+#: planetcatalog.cpp:49 rc.cpp:3160 rc.cpp:3271 tools/modcalcplanets.cpp:100
 #: tools/modcalcplanets.cpp:376 tools/modcalcplanets.cpp:513
 #, no-c-format
 msgid "Earth"
 msgstr "পৃথিবী"
 
 #. i18n: file opssolarsystemui.ui line 200
-#: planetcatalog.cpp:63 rc.cpp:1615 rc.cpp:3101 rc.cpp:3212
+#: planetcatalog.cpp:61 rc.cpp:1668 rc.cpp:3154 rc.cpp:3265
 #: tools/modcalcplanets.cpp:105 tools/modcalcplanets.cpp:374
 #, no-c-format
 msgid "Mercury"
 msgstr "বুধগ্রহ (মার্কারি)"
 
 #. i18n: file opssolarsystemui.ui line 144
-#: planetcatalog.cpp:68 rc.cpp:1579 rc.cpp:3104 rc.cpp:3215
+#: planetcatalog.cpp:66 rc.cpp:1632 rc.cpp:3157 rc.cpp:3268
 #: tools/modcalcplanets.cpp:111 tools/modcalcplanets.cpp:375
 #, no-c-format
 msgid "Venus"
 msgstr "শুক্রগ্রহ (ভিনাস)"
 
 #. i18n: file opssolarsystemui.ui line 74
-#: planetcatalog.cpp:73 rc.cpp:1534 rc.cpp:3110 rc.cpp:3221
+#: planetcatalog.cpp:71 rc.cpp:1587 rc.cpp:3163 rc.cpp:3274
 #: tools/modcalcplanets.cpp:120 tools/modcalcplanets.cpp:377
 #, no-c-format
 msgid "Mars"
 msgstr "মঙ্গলগ্রহ (মার্স)"
 
 #. i18n: file opssolarsystemui.ui line 172
-#: planetcatalog.cpp:78 rc.cpp:1597 rc.cpp:3113 rc.cpp:3224
+#: planetcatalog.cpp:76 rc.cpp:1650 rc.cpp:3166 rc.cpp:3277
 #: tools/modcalcplanets.cpp:126 tools/modcalcplanets.cpp:378
 #, no-c-format
 msgid "Jupiter"
 msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
 
 #. i18n: file opssolarsystemui.ui line 46
-#: planetcatalog.cpp:83 rc.cpp:1516 rc.cpp:3116 rc.cpp:3227
+#: planetcatalog.cpp:81 rc.cpp:1569 rc.cpp:3169 rc.cpp:3280
 #: tools/modcalcplanets.cpp:132 tools/modcalcplanets.cpp:379
 #, no-c-format
 msgid "Saturn"
 msgstr "শনিগ্রহ (স্যাটার্ন)"
 
 #. i18n: file opssolarsystemui.ui line 245
-#: planetcatalog.cpp:88 rc.cpp:1633 rc.cpp:3119 rc.cpp:3230
+#: planetcatalog.cpp:86 rc.cpp:1686 rc.cpp:3172 rc.cpp:3283
 #: tools/modcalcplanets.cpp:138 tools/modcalcplanets.cpp:380
 #, no-c-format
 msgid "Uranus"
 msgstr "ইউরেনাস"
 
 #. i18n: file opssolarsystemui.ui line 214
-#: planetcatalog.cpp:93 rc.cpp:1624 rc.cpp:3122 rc.cpp:3233
+#: planetcatalog.cpp:91 rc.cpp:1677 rc.cpp:3175 rc.cpp:3286
 #: tools/modcalcplanets.cpp:144 tools/modcalcplanets.cpp:381
 #, no-c-format
 msgid "Neptune"
@@ -23077,56 +23090,128 @@ msgstr "বিবরণ:"
 msgid "Check URL"
 msgstr "ইউ.আর.এল. পরীক্ষা করো"
 
-#. i18n: file contrastbrightnessgui.ui line 16
+#. i18n: file ccdpreviewui.ui line 16
 #: rc.cpp:91
-#, no-c-format
-msgid "Contrast/Brightness"
-msgstr "রঙের-পার্থক্য/উজ্জ্বলতা"
+#, fuzzy, no-c-format
+msgid "CCD Preview"
+msgstr "ক্যাটালগভুক্ত তারা"
 
-#. i18n: file contrastbrightnessgui.ui line 44
-#: rc.cpp:94
+#. i18n: file ccdpreviewui.ui line 50
+#: rc.cpp:95 rc.cpp:1828
 #, no-c-format
-msgid "Contrast:"
-msgstr "রঙের-পার্থক্য:"
+msgid "Play/Pause"
+msgstr "চালাও/বিরতি"
 
-#. i18n: file contrastbrightnessgui.ui line 74
-#: rc.cpp:97
+#. i18n: file ccdpreviewui.ui line 76
+#: rc.cpp:100 rc.cpp:1833
+#, no-c-format
+msgid "Capture Image"
+msgstr "ছবি ধারণ করো"
+
+#. i18n: file ccdpreviewui.ui line 87
+#: rc.cpp:104 rc.cpp:1837
+#, no-c-format
+msgid "Image Format"
+msgstr "ছবির বিন্যাস (Format)"
+
+#. i18n: file ccdpreviewui.ui line 163
+#: rc.cpp:107 rc.cpp:150
 #, no-c-format
 msgid "Brightness:"
 msgstr "উজ্জ্বলতা:"
 
+#. i18n: file ccdpreviewui.ui line 179
+#: rc.cpp:110 rc.cpp:147
+#, no-c-format
+msgid "Contrast:"
+msgstr "রঙের-পার্থক্য:"
+
+#. i18n: file ccdpreviewui.ui line 195
+#: rc.cpp:113
+#, fuzzy, no-c-format
+msgid "Gamma:"
+msgstr "গামা"
+
+#. i18n: file ccdpreviewui.ui line 211
+#: rc.cpp:116
+#, fuzzy, no-c-format
+msgid "Focal length:"
+msgstr "আইপিসের ফোকাস দূরত্ব:"
+
+#. i18n: file ccdpreviewui.ui line 230
+#: rc.cpp:120
+#, no-c-format
+msgid "FWHM:"
+msgstr ""
+
+#. i18n: file ccdpreviewui.ui line 233
+#: rc.cpp:123 rc.cpp:132 rc.cpp:138
+#, no-c-format
+msgid "Full Width at Half Maximum"
+msgstr ""
+
+#. i18n: file ccdpreviewui.ui line 339
+#: rc.cpp:126
+#, fuzzy, no-c-format
+msgid "Enter the telescope focal length in mm"
+msgstr "মিলিমিটার এককে দূরবীক্ষণের ফোকাস দূরত্ব"
+
+#. i18n: file ccdpreviewui.ui line 364
+#: rc.cpp:129
+#, no-c-format
+msgid "--"
+msgstr ""
+
+#. i18n: file ccdpreviewui.ui line 396
+#: rc.cpp:135
+#, no-c-format
+msgid "mm"
+msgstr ""
+
+#. i18n: file ccdpreviewui.ui line 415
+#: rc.cpp:141
+#, no-c-format
+msgid "arcsecs"
+msgstr ""
+
+#. i18n: file contrastbrightnessgui.ui line 16
+#: rc.cpp:144
+#, no-c-format
+msgid "Contrast/Brightness"
+msgstr "রঙের-পার্থক্য/উজ্জ্বলতা"
+
 #. i18n: file details_data.ui line 16
-#: rc.cpp:100
+#: rc.cpp:153
 #, no-c-format
 msgid "Details - General Data"
 msgstr ""
 
 #. i18n: file details_data.ui line 46
-#: rc.cpp:103
+#: rc.cpp:156
 #, no-c-format
 msgid "<p align=\"center\">Primary Name, Other Names</p>"
 msgstr ""
 
 #. i18n: file details_data.ui line 142
-#: rc.cpp:109
+#: rc.cpp:162
 #, fuzzy, no-c-format
 msgid "in"
 msgstr "পূর্ণসংখ্যা"
 
 #. i18n: file details_data.ui line 168
-#: rc.cpp:112
+#: rc.cpp:165
 #, fuzzy, no-c-format
 msgid "Constellation"
 msgstr "তারামণ্ডল"
 
 #. i18n: file details_data.ui line 222
-#: rc.cpp:115
+#: rc.cpp:168
 #, no-c-format
 msgid "Click to change image"
 msgstr ""
 
 #. i18n: file details_data.ui line 225
-#: rc.cpp:118
+#: rc.cpp:171
 #, no-c-format
 msgid ""
 "A small thumbnail image of the object is shown here.  You can modify the image "
@@ -23134,429 +23219,429 @@ msgid ""
 msgstr ""
 
 #. i18n: file details_data.ui line 293
-#: rc.cpp:121
+#: rc.cpp:174
 #, no-c-format
 msgid "0.00 arcmin"
 msgstr ""
 
 #. i18n: file details_data.ui line 317
-#: rc.cpp:124
+#: rc.cpp:177
 #, no-c-format
 msgid "0.00 mag"
 msgstr ""
 
 #. i18n: file details_data.ui line 346
-#: rc.cpp:127
+#: rc.cpp:180
 #, no-c-format
 msgid "Magnitude:"
 msgstr "উজ্জ্বলতা:"
 
 #. i18n: file details_data.ui line 378
-#: rc.cpp:130 rc.cpp:2349
+#: rc.cpp:183 rc.cpp:2402
 #, no-c-format
 msgid "Distance:"
 msgstr "দূরত্ব:"
 
 #. i18n: file details_data.ui line 405
-#: rc.cpp:133
+#: rc.cpp:186
 #, fuzzy, no-c-format
 msgid "0.00 pc"
 msgstr "২০০০.০"
 
 #. i18n: file details_data.ui line 434
-#: rc.cpp:136
+#: rc.cpp:189
 #, fuzzy, no-c-format
 msgid "Size:"
 msgstr "সূর্যোদয়: %1"
 
 #. i18n: file details_data.ui line 504
-#: rc.cpp:139
+#: rc.cpp:192
 #, fuzzy, no-c-format
 msgid "Add to Observing List"
 msgstr "তালিকাভুক্ত করো"
 
 #. i18n: file details_data.ui line 512
-#: rc.cpp:142
+#: rc.cpp:195
 #, fuzzy, no-c-format
 msgid "Center in Map"
 msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
 
 #. i18n: file details_data.ui line 520
-#: rc.cpp:145
+#: rc.cpp:198
 #, fuzzy, no-c-format
 msgid "Center in Telescope"
 msgstr "দূরবীক্ষণকে প্রস্তুত করো"
 
 #. i18n: file details_database.ui line 16
-#: rc.cpp:148
+#: rc.cpp:201
 #, no-c-format
 msgid "Details - Online Databases"
 msgstr ""
 
 #. i18n: file details_database.ui line 25
-#: rc.cpp:151
+#: rc.cpp:204
 #, fuzzy, no-c-format
 msgid "Choose an Online Database"
 msgstr "তথ্য ডাউনলোড করা হচ্ছে..."
 
 #. i18n: file details_links.ui line 16
-#: rc.cpp:154
+#: rc.cpp:207
 #, no-c-format
 msgid "Details - Resource Links"
 msgstr ""
 
 #. i18n: file details_links.ui line 43
-#: rc.cpp:157
+#: rc.cpp:210
 #, no-c-format
 msgid "<p align=\"center\">Information Links</p>"
 msgstr ""
 
 #. i18n: file details_links.ui line 97
-#: rc.cpp:160
+#: rc.cpp:213
 #, no-c-format
 msgid "<p align=\"center\">Image Links</p>"
 msgstr ""
 
 #. i18n: file details_links.ui line 129
-#: rc.cpp:163
+#: rc.cpp:216
 #, fuzzy, no-c-format
 msgid "View Resource"
 msgstr "সম্পদের ধরন"
 
 #. i18n: file details_links.ui line 145
-#: rc.cpp:169
+#: rc.cpp:222
 #, no-c-format
 msgid "Edit Link..."
 msgstr "লিঙ্ক সম্পাদন করো..."
 
 #. i18n: file details_links.ui line 153
-#: rc.cpp:172
+#: rc.cpp:225
 #, no-c-format
 msgid "Remove Link"
 msgstr "লিঙ্ক অপসারণ করো"
 
 #. i18n: file details_log.ui line 16
-#: rc.cpp:175
+#: rc.cpp:228
 #, no-c-format
 msgid "Details - User Log"
 msgstr ""
 
 #. i18n: file details_log.ui line 35
-#: rc.cpp:178
+#: rc.cpp:231
 #, no-c-format
 msgid "<p align=\"center\">User Log</p>"
 msgstr ""
 
 #. i18n: file details_position.ui line 16
-#: rc.cpp:181
+#: rc.cpp:234
 #, no-c-format
 msgid "Details - Position Data"
 msgstr ""
 
 #. i18n: file details_position.ui line 43
-#: rc.cpp:184
+#: rc.cpp:237
 #, fuzzy, no-c-format
 msgid "<p align=\"center\">Coordinates</p>"
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file details_position.ui line 109
-#: rc.cpp:187 rc.cpp:190 rc.cpp:199 rc.cpp:202 rc.cpp:214 rc.cpp:244
-#: rc.cpp:253 rc.cpp:256
+#: rc.cpp:240 rc.cpp:243 rc.cpp:252 rc.cpp:255 rc.cpp:267 rc.cpp:297
+#: rc.cpp:306 rc.cpp:309
 #, no-c-format
 msgid "00:00:00"
 msgstr ""
 
 #. i18n: file details_position.ui line 155
-#: rc.cpp:193
+#: rc.cpp:246
 #, fuzzy, no-c-format
 msgid "Dec (2000.0):"
 msgstr "বিষুবলম্ব (%1):"
 
 #. i18n: file details_position.ui line 179
-#: rc.cpp:196
+#: rc.cpp:249
 #, fuzzy, no-c-format
 msgid "RA (2000.0):"
 msgstr "২০০০.০"
 
 #. i18n: file details_position.ui line 280
-#: rc.cpp:205 rc.cpp:2541 rc.cpp:2574 rc.cpp:3161
+#: rc.cpp:258 rc.cpp:2594 rc.cpp:2627 rc.cpp:3214
 #, no-c-format
 msgid "Altitude:"
 msgstr "উন্নতি:"
 
 #. i18n: file details_position.ui line 304
-#: rc.cpp:208 rc.cpp:2538 rc.cpp:2565 rc.cpp:3158
+#: rc.cpp:261 rc.cpp:2591 rc.cpp:2618 rc.cpp:3211
 #, no-c-format
 msgid "Azimuth:"
 msgstr "দিগংশ:"
 
 #. i18n: file details_position.ui line 365
-#: rc.cpp:211
+#: rc.cpp:264
 #, fuzzy, no-c-format
 msgid "Hour Angle:"
 msgstr "ঘন্টা কোণ:"
 
 #. i18n: file details_position.ui line 441
-#: rc.cpp:217
+#: rc.cpp:270
 #, no-c-format
 msgid "Airmass:"
 msgstr "বায়বীয় ভর:"
 
 #. i18n: file details_position.ui line 469
-#: rc.cpp:220
+#: rc.cpp:273
 #, no-c-format
 msgid "1.00"
 msgstr ""
 
 #. i18n: file details_position.ui line 518
-#: rc.cpp:223
+#: rc.cpp:276
 #, no-c-format
 msgid "<p align=\"center\">Rise/Set/Transit</p>"
 msgstr ""
 
 #. i18n: file details_position.ui line 584
-#: rc.cpp:226 rc.cpp:229 rc.cpp:241
+#: rc.cpp:279 rc.cpp:282 rc.cpp:294
 #, fuzzy, no-c-format
 msgid "00:00"
 msgstr "২০০০.০"
 
 #. i18n: file details_position.ui line 630
-#: rc.cpp:232
+#: rc.cpp:285
 #, fuzzy, no-c-format
 msgid "Set Time:"
 msgstr "সময় নির্ধারণ..."
 
 #. i18n: file details_position.ui line 654
-#: rc.cpp:235
+#: rc.cpp:288
 #, fuzzy, no-c-format
 msgid "Transit Time:"
 msgstr "অতিক্রম কাল:"
 
 #. i18n: file details_position.ui line 678
-#: rc.cpp:238
+#: rc.cpp:291
 #, fuzzy, no-c-format
 msgid "Rise Time:"
 msgstr "উদয়ের সময়:"
 
 #. i18n: file details_position.ui line 779
-#: rc.cpp:247
+#: rc.cpp:300
 #, fuzzy, no-c-format
 msgid "Azimuth at Set:"
 msgstr "দিগংশ:"
 
 #. i18n: file details_position.ui line 803
-#: rc.cpp:250
+#: rc.cpp:303
 #, fuzzy, no-c-format
 msgid "Altitude at Transit:"
 msgstr "উন্নতি:"
 
 #. i18n: file details_position.ui line 877
-#: rc.cpp:259
+#: rc.cpp:312
 #, fuzzy, no-c-format
 msgid "Azimuth at Rise:"
 msgstr "দিগংশ:"
 
 #. i18n: file devmanager.ui line 16
-#: rc.cpp:262
+#: rc.cpp:315
 #, no-c-format
 msgid "Device Manager"
 msgstr "ডিভাইস ব্যবস্থাপক"
 
 #. i18n: file devmanager.ui line 34
-#: rc.cpp:265
+#: rc.cpp:318
 #, no-c-format
 msgid "Local/Server"
 msgstr "স্থানীয়/সার্ভার"
 
 #. i18n: file devmanager.ui line 43
-#: rc.cpp:268
+#: rc.cpp:321
 #, no-c-format
 msgid "Device"
 msgstr "ডিভাইস"
 
 #. i18n: file devmanager.ui line 54
-#: rc.cpp:271 rc.cpp:305
+#: rc.cpp:324 rc.cpp:358
 #, no-c-format
 msgid "Status"
 msgstr "অবস্থা"
 
 #. i18n: file devmanager.ui line 65
-#: rc.cpp:274 rc.cpp:287 rc.cpp:2263
+#: rc.cpp:327 rc.cpp:340 rc.cpp:2316
 #, no-c-format
 msgid "Mode"
 msgstr "মোড"
 
 #. i18n: file devmanager.ui line 76
-#: rc.cpp:277
+#: rc.cpp:330
 #, no-c-format
 msgid "Version"
 msgstr "সংস্করণ"
 
 #. i18n: file devmanager.ui line 87
-#: rc.cpp:280
+#: rc.cpp:333 rc.cpp:364
 #, no-c-format
-msgid "Listening Port"
-msgstr "Listen-রত পোর্ট"
+msgid "Port"
+msgstr "পোর্ট"
 
 #. i18n: file devmanager.ui line 119
-#: rc.cpp:283
+#: rc.cpp:336
 #, no-c-format
 msgid "Server Log"
 msgstr "সার্ভার লগ"
 
 #. i18n: file devmanager.ui line 163
-#: rc.cpp:290 rc.cpp:2266
+#: rc.cpp:343 rc.cpp:2319
 #, no-c-format
 msgid "Local"
 msgstr "স্থানীয়"
 
 #. i18n: file devmanager.ui line 174
-#: rc.cpp:293 rc.cpp:2269
+#: rc.cpp:346 rc.cpp:2322
 #, no-c-format
 msgid "Server"
 msgstr "সার্ভার"
 
+#. i18n: file devmanager.ui line 195
+#: rc.cpp:349
+#, fuzzy, no-c-format
+msgid "R&un Service"
+msgstr "সার্ভিস চালু করো"
+
 #. i18n: file devmanager.ui line 235
-#: rc.cpp:302
+#: rc.cpp:355
 #, no-c-format
 msgid "Client"
 msgstr "ক্লায়েন্ট"
 
 #. i18n: file devmanager.ui line 255
-#: rc.cpp:308 rc.cpp:3697
+#: rc.cpp:361 rc.cpp:3750
 #, no-c-format
 msgid "Name"
 msgstr "নাম"
 
-#. i18n: file devmanager.ui line 266
-#: rc.cpp:311
-#, no-c-format
-msgid "Port"
-msgstr "পোর্ট"
-
 #. i18n: file devmanager.ui line 292
-#: rc.cpp:314
+#: rc.cpp:367
 #, no-c-format
 msgid "Hosts"
 msgstr "হোস্ট"
 
 #. i18n: file devmanager.ui line 303
-#: rc.cpp:317 rc.cpp:470 rc.cpp:494 rc.cpp:518
+#: rc.cpp:370 rc.cpp:523 rc.cpp:547 rc.cpp:571
 #, no-c-format
 msgid "Add..."
 msgstr "যোগ করো..."
 
 #. i18n: file devmanager.ui line 329
-#: rc.cpp:326 rc.cpp:2275
+#: rc.cpp:379 rc.cpp:2328
 #, no-c-format
 msgid "Connection"
 msgstr "সংযোগ"
 
 #. i18n: file fitsheaderdialog.ui line 28
-#: rc.cpp:341
+#: rc.cpp:394
 #, no-c-format
 msgid "Card"
 msgstr "কার্ড"
 
 #. i18n: file fitsheaderdialog.ui line 39
-#: rc.cpp:344
+#: rc.cpp:397
 #, no-c-format
 msgid "Value"
 msgstr "মান"
 
 #. i18n: file fitsheaderdialog.ui line 50
-#: rc.cpp:347
+#: rc.cpp:400
 #, no-c-format
 msgid "Comment"
 msgstr "মন্তব্য"
 
 #. i18n: file focusdialogdlg.ui line 28
-#: rc.cpp:353
+#: rc.cpp:406
 #, no-c-format
 msgid "RA/Dec"
 msgstr "বিষুবাংশ/বিষুবলম্ব"
 
 #. i18n: file focusdialogdlg.ui line 39
-#: rc.cpp:356
+#: rc.cpp:409
 #, no-c-format
 msgid "New RA:"
 msgstr "নতুন বিষুবাংশ:"
 
 #. i18n: file focusdialogdlg.ui line 50
-#: rc.cpp:359
+#: rc.cpp:412
 #, no-c-format
 msgid "Enter new Right Ascension"
 msgstr "নতুন বিষুবাংশ লিখুন"
 
 #. i18n: file focusdialogdlg.ui line 61
-#: rc.cpp:362
+#: rc.cpp:415
 #, no-c-format
 msgid "Enter new Declination"
 msgstr "নতুন বিষুবলম্ব লিখুন"
 
 #. i18n: file focusdialogdlg.ui line 69
-#: rc.cpp:365
+#: rc.cpp:418
 #, no-c-format
 msgid "New dec:"
 msgstr "নতুন বিষুবলম্ব:"
 
 #. i18n: file focusdialogdlg.ui line 77
-#: rc.cpp:368 rc.cpp:1900 rc.cpp:2421 rc.cpp:2454 rc.cpp:2532 rc.cpp:2562
-#: rc.cpp:2679 rc.cpp:2713 rc.cpp:2860 rc.cpp:2897 rc.cpp:3503 rc.cpp:3551
+#: rc.cpp:421 rc.cpp:1953 rc.cpp:2474 rc.cpp:2507 rc.cpp:2585 rc.cpp:2615
+#: rc.cpp:2732 rc.cpp:2766 rc.cpp:2913 rc.cpp:2950 rc.cpp:3556 rc.cpp:3604
 #, no-c-format
 msgid "Epoch:"
 msgstr "যুগ (Epoch):"
 
 #. i18n: file focusdialogdlg.ui line 85
-#: rc.cpp:371
+#: rc.cpp:424
 #, no-c-format
 msgid "2000.0"
 msgstr "২০০০.০"
 
 #. i18n: file focusdialogdlg.ui line 88
-#: rc.cpp:374
+#: rc.cpp:427
 #, no-c-format
 msgid "Epoch for the RA/Dec coordinates"
 msgstr "বিষুবাংশ/বিষুবলম্ব স্থানাংকের যুগ (Epoch)"
 
 #. i18n: file focusdialogdlg.ui line 98
-#: rc.cpp:377
+#: rc.cpp:430
 #, no-c-format
 msgid "Az/Alt"
 msgstr "দিগংশ/উন্নতি"
 
 #. i18n: file focusdialogdlg.ui line 109
-#: rc.cpp:380
+#: rc.cpp:433
 #, no-c-format
 msgid "New azimuth:"
 msgstr "নতুন দিগংশ:"
 
 #. i18n: file focusdialogdlg.ui line 117
-#: rc.cpp:383
+#: rc.cpp:436
 #, no-c-format
 msgid "New altitude:"
 msgstr "নতুন উন্নতি:"
 
 #. i18n: file focusdialogdlg.ui line 128
-#: rc.cpp:386
+#: rc.cpp:439
 #, no-c-format
 msgid "Enter new Azimuth"
 msgstr "নতুন দিগংশ লিখুন"
 
 #. i18n: file focusdialogdlg.ui line 173
-#: rc.cpp:389
+#: rc.cpp:442
 #, no-c-format
 msgid "Enter new Altitude"
 msgstr "নতুন উন্নতি লিখুন"
 
 #. i18n: file fovdialogui.ui line 16
-#: rc.cpp:392
+#: rc.cpp:445
 #, no-c-format
 msgid "Edit FOV Symbols"
 msgstr "FOV প্রতীক সম্পাদন করো"
 
 #. i18n: file fovdialogui.ui line 36
-#: rc.cpp:395
+#: rc.cpp:448
 #, no-c-format
 msgid ""
 "The list of defined field-of-view (FOV) symbols.  You can add a symbol to the "
@@ -23570,19 +23655,19 @@ msgstr ""
 "ডানদিকে প্রদর্শন করা হয়।"
 
 #. i18n: file fovdialogui.ui line 52
-#: rc.cpp:398
+#: rc.cpp:451
 #, no-c-format
 msgid "New..."
 msgstr "নতুন..."
 
 #. i18n: file fovdialogui.ui line 55
-#: rc.cpp:401
+#: rc.cpp:454
 #, no-c-format
 msgid "Add a new FOV symbol"
 msgstr "একটি নতুন FOV প্রতীক যোগ করো"
 
 #. i18n: file fovdialogui.ui line 58
-#: rc.cpp:404
+#: rc.cpp:457
 #, no-c-format
 msgid ""
 "Add a new field-of-view (FOV) symbol to the list.  You can define the size, "
@@ -23592,19 +23677,19 @@ msgstr ""
 "আকার, আকৃতি, ও রং নির্ধারণ করতে পারবেন।"
 
 #. i18n: file fovdialogui.ui line 83
-#: rc.cpp:407
+#: rc.cpp:460
 #, no-c-format
 msgid "Edit..."
 msgstr "সম্পাদন..."
 
 #. i18n: file fovdialogui.ui line 86
-#: rc.cpp:410
+#: rc.cpp:463
 #, no-c-format
 msgid "Modify the highlighted FOV symbol"
 msgstr "চিহ্নিত FOV প্রতীককে পরিবর্তন করে"
 
 #. i18n: file fovdialogui.ui line 89
-#: rc.cpp:413
+#: rc.cpp:466
 #, no-c-format
 msgid ""
 "Press this button to modify the highlighted FOV symbol.  You can change its "
@@ -23614,184 +23699,184 @@ msgstr ""
 "ও রং পরিবর্তন করতে পারবেন।"
 
 #. i18n: file fovdialogui.ui line 100
-#: rc.cpp:419
+#: rc.cpp:472
 #, no-c-format
 msgid "Remove highlighted FOV symbol"
 msgstr "চিহ্নিত FOV প্রতীক অপসারণ করো"
 
 #. i18n: file fovdialogui.ui line 103
-#: rc.cpp:422
+#: rc.cpp:475
 #, no-c-format
 msgid "Press this button to remove the highlighted FOV symbol from the list."
 msgstr "চিহ্নিত FOV প্রতীককে তালিকা থেকে অপসারণের জন্য এই বাটন চাপুন।"
 
 #. i18n: file histdialog.ui line 115
-#: rc.cpp:428
+#: rc.cpp:481
 #, no-c-format
 msgid "Max."
 msgstr "সর্বোচ্চ"
 
 #. i18n: file histdialog.ui line 172
-#: rc.cpp:431
+#: rc.cpp:484
 #, no-c-format
 msgid "Intensity:"
 msgstr "তীব্রতা:"
 
 #. i18n: file histdialog.ui line 196
-#: rc.cpp:434
+#: rc.cpp:487
 #, no-c-format
 msgid "Frequency:"
 msgstr "কম্পাঙ্ক:"
 
 #. i18n: file histdialog.ui line 204
-#: rc.cpp:437
+#: rc.cpp:490
 #, no-c-format
 msgid "Min."
 msgstr "সর্বনিম্ন"
 
 #. i18n: file histdialog.ui line 282
-#: rc.cpp:446
+#: rc.cpp:499
 #, no-c-format
 msgid "FITS Scale"
 msgstr "FITS মাত্রা (Scale)"
 
 #. i18n: file histdialog.ui line 293
-#: rc.cpp:449
+#: rc.cpp:502
 #, no-c-format
 msgid "Auto"
 msgstr "স্বয়ংক্রিয়"
 
 #. i18n: file histdialog.ui line 304
-#: rc.cpp:452
+#: rc.cpp:505
 #, no-c-format
 msgid "Linear"
 msgstr "রৈখিক (Linear)"
 
 #. i18n: file histdialog.ui line 312
-#: rc.cpp:455
+#: rc.cpp:508
 #, no-c-format
 msgid "Logarithmic"
 msgstr "লগারিদম সংক্রান্ত"
 
 #. i18n: file histdialog.ui line 320
-#: rc.cpp:458
+#: rc.cpp:511
 #, no-c-format
 msgid "Square root"
 msgstr "ঘনফুট"
 
 #. i18n: file imagereductionui.ui line 52
-#: rc.cpp:467 rc.cpp:491 rc.cpp:515
+#: rc.cpp:520 rc.cpp:544 rc.cpp:568
 #, no-c-format
 msgid "File Name"
 msgstr "ফাইলের নাম"
 
 #. i18n: file imagereductionui.ui line 132
-#: rc.cpp:476 rc.cpp:500 rc.cpp:524
+#: rc.cpp:529 rc.cpp:553 rc.cpp:577
 #, no-c-format
 msgid "Details..."
 msgstr "বিস্তারিত..."
 
 #. i18n: file imagereductionui.ui line 144
-#: rc.cpp:479 rc.cpp:503 rc.cpp:527
+#: rc.cpp:532 rc.cpp:556 rc.cpp:580
 #, no-c-format
 msgid "Combination"
 msgstr "সমন্বয়"
 
 #. i18n: file imagereductionui.ui line 155
-#: rc.cpp:482 rc.cpp:506 rc.cpp:530
+#: rc.cpp:535 rc.cpp:559 rc.cpp:583
 #, no-c-format
 msgid "Average"
 msgstr "গড়"
 
 #. i18n: file imagereductionui.ui line 166
-#: rc.cpp:485 rc.cpp:509 rc.cpp:533
+#: rc.cpp:538 rc.cpp:562 rc.cpp:586
 #, no-c-format
 msgid "Median"
 msgstr "মধ্যমা"
 
 #. i18n: file imagereductionui.ui line 221
-#: rc.cpp:488
+#: rc.cpp:541
 #, no-c-format
 msgid "Flat Field Frames"
 msgstr "সমতল Field ফ্রেম"
 
 #. i18n: file imagereductionui.ui line 389
-#: rc.cpp:512
+#: rc.cpp:565
 #, no-c-format
 msgid "Flat Field Dark Frames"
 msgstr "সমতল Field অন্ধকার ফ্রেম"
 
 #. i18n: file imgsequencedlgui.ui line 16
-#: rc.cpp:544
+#: rc.cpp:597
 #, no-c-format
 msgid "Capture Image Sequence"
 msgstr "ধারাবাহিক ছবি ধারণ করো"
 
 #. i18n: file imgsequencedlgui.ui line 33
-#: rc.cpp:547
+#: rc.cpp:600
 #, no-c-format
 msgid "Progress"
 msgstr "অগ্রগতি"
 
 #. i18n: file imgsequencedlgui.ui line 60
-#: rc.cpp:550
+#: rc.cpp:603
 #, no-c-format
 msgid "Progress:"
 msgstr "অগ্রগতি:"
 
 #. i18n: file imgsequencedlgui.ui line 85
-#: rc.cpp:554
+#: rc.cpp:607
 #, no-c-format
 msgid "of"
 msgstr "এর"
 
 #. i18n: file imgsequencedlgui.ui line 110
-#: rc.cpp:558
+#: rc.cpp:611
 #, no-c-format
 msgid "completed"
 msgstr "সম্পন্ন"
 
 #. i18n: file imgsequencedlgui.ui line 200
-#: rc.cpp:564
+#: rc.cpp:617
 #, no-c-format
 msgid "S&top"
 msgstr "স্থগি&ত"
 
 #. i18n: file imgsequencedlgui.ui line 235
-#: rc.cpp:570
+#: rc.cpp:623
 #, fuzzy, no-c-format
 msgid "Camera/CCD"
 msgstr "ক্যামেরা"
 
 #. i18n: file imgsequencedlgui.ui line 262
-#: rc.cpp:573 rc.cpp:618 rc.cpp:2043 rc.cpp:2071 rc.cpp:2087 rc.cpp:2093
-#: rc.cpp:2099 rc.cpp:2105 rc.cpp:2147 rc.cpp:2166 rc.cpp:2194 rc.cpp:2200
-#: rc.cpp:2213 rc.cpp:2239 rc.cpp:2245 rc.cpp:2248 rc.cpp:2254 rc.cpp:2260
-#: rc.cpp:2272
+#: rc.cpp:626 rc.cpp:671 rc.cpp:2096 rc.cpp:2124 rc.cpp:2140 rc.cpp:2146
+#: rc.cpp:2152 rc.cpp:2158 rc.cpp:2200 rc.cpp:2219 rc.cpp:2247 rc.cpp:2253
+#: rc.cpp:2266 rc.cpp:2292 rc.cpp:2298 rc.cpp:2301 rc.cpp:2307 rc.cpp:2313
+#: rc.cpp:2325
 #, no-c-format
 msgid "Device:"
 msgstr "ডিভাইস:"
 
 #. i18n: file imgsequencedlgui.ui line 276
-#: rc.cpp:578
+#: rc.cpp:631
 #, no-c-format
 msgid "Prefix:"
 msgstr "উপসর্গ:"
 
 #. i18n: file imgsequencedlgui.ui line 279
-#: rc.cpp:581
+#: rc.cpp:634
 #, no-c-format
 msgid "Prefix to append to the beginning of file names"
 msgstr "ফাইলের নামের প্রথমে যে উপসর্গ যোগ করা হবে"
 
 #. i18n: file imgsequencedlgui.ui line 290
-#: rc.cpp:585
+#: rc.cpp:638
 #, no-c-format
 msgid "Exposure:"
 msgstr "এক্সপোজার:"
 
 #. i18n: file imgsequencedlgui.ui line 293
-#: rc.cpp:588
+#: rc.cpp:641
 #, no-c-format
 msgid "Set the exposure time in seconds for individual images, if applicable"
 msgstr ""
@@ -23799,223 +23884,223 @@ msgstr ""
 "(সেকেন্ড হিসেবে) নির্ধারণ করুন (যদি প্রযোজ্য হয়)"
 
 #. i18n: file imgsequencedlgui.ui line 304
-#: rc.cpp:592
+#: rc.cpp:645
 #, no-c-format
 msgid "Count:"
 msgstr "গণনা:"
 
 #. i18n: file imgsequencedlgui.ui line 307
-#: rc.cpp:595 rc.cpp:626
+#: rc.cpp:648 rc.cpp:679
 #, no-c-format
 msgid "Number of images to capture"
 msgstr "যে সংখ্যক ছবি তোলা হবে"
 
 #. i18n: file imgsequencedlgui.ui line 318
-#: rc.cpp:599
+#: rc.cpp:652
 #, no-c-format
 msgid "Delay:"
 msgstr "বিরতি:"
 
 #. i18n: file imgsequencedlgui.ui line 321
-#: rc.cpp:602
+#: rc.cpp:655
 #, no-c-format
 msgid "Delay in seconds between consecutive images"
 msgstr "পরপর দুটি ছবির তোলার মাঝে যে বিরতি দেওয়া হবে"
 
 #. i18n: file imgsequencedlgui.ui line 347
-#: rc.cpp:606
+#: rc.cpp:659
 #, no-c-format
 msgid "image"
 msgstr "ছবি"
 
 #. i18n: file imgsequencedlgui.ui line 383
-#: rc.cpp:609
+#: rc.cpp:662
 #, no-c-format
 msgid "Add ISO 8601 time stamp"
 msgstr "আই.এস.ও. ৮৬০১ টাইম স্ট্যাম্প যোগ করো"
 
 #. i18n: file imgsequencedlgui.ui line 389
-#: rc.cpp:612
+#: rc.cpp:665
 #, no-c-format
 msgid "Add time stamp to the file name"
 msgstr "ফাইলের নামের সাথে টাইম স্ট্যাম্প যোগ করো"
 
 #. i18n: file imgsequencedlgui.ui line 399
-#: rc.cpp:615
+#: rc.cpp:668
 #, fuzzy, no-c-format
 msgid "Filter"
 msgstr "ছবির ফিল্টার"
 
 #. i18n: file imgsequencedlgui.ui line 432
-#: rc.cpp:623 rc.cpp:2090
+#: rc.cpp:676 rc.cpp:2143
 #, fuzzy, no-c-format
 msgid "Filter:"
 msgstr "শহর ফিল্টার:"
 
 #. i18n: file indiconf.ui line 16
-#: rc.cpp:630
+#: rc.cpp:683
 #, no-c-format
 msgid "Configure INDI"
 msgstr "INDI কনফিগার করো"
 
 #. i18n: file indiconf.ui line 41
-#: rc.cpp:636
+#: rc.cpp:689
 #, no-c-format
 msgid "Default FITS directory:"
 msgstr "ডিফল্ট FITS ডিরেক্টরি:"
 
 #. i18n: file indiconf.ui line 92
-#: rc.cpp:640
+#: rc.cpp:693
 #, no-c-format
 msgid "&Automatic display of FITS upon capture"
 msgstr ""
 
 #. i18n: file indiconf.ui line 103
-#: rc.cpp:643
+#: rc.cpp:696
 #, fuzzy, no-c-format
 msgid "Telescope port:"
 msgstr "টেলিস্কোপ পোর্ট:"
 
 #. i18n: file indiconf.ui line 106
-#: rc.cpp:646
+#: rc.cpp:699
 #, fuzzy, no-c-format
 msgid "Default INDI telescope port"
 msgstr "টেলিস্কোপ পোর্ট:"
 
 #. i18n: file indiconf.ui line 119
-#: rc.cpp:649
+#: rc.cpp:702
 #, no-c-format
 msgid "Video port:"
 msgstr "ভিডিও পোর্ট:"
 
 #. i18n: file indiconf.ui line 122
-#: rc.cpp:652
+#: rc.cpp:705
 #, fuzzy, no-c-format
 msgid "Default INDI video port"
 msgstr "ডিফল্ট FITS ডিরেক্টরি:"
 
 #. i18n: file indiconf.ui line 168
-#: rc.cpp:655
+#: rc.cpp:708
 #, no-c-format
 msgid "O&K"
 msgstr ""
 
 #. i18n: file indiconf.ui line 195
-#: rc.cpp:661
+#: rc.cpp:714
 #, no-c-format
 msgid "Display"
 msgstr "ডিসপ্লে"
 
 #. i18n: file indiconf.ui line 206
-#: rc.cpp:664
+#: rc.cpp:717
 #, no-c-format
 msgid "&Device target crosshair"
 msgstr ""
 
 #. i18n: file indiconf.ui line 212
-#: rc.cpp:667
+#: rc.cpp:720
 #, no-c-format
 msgid "Display the telescope position on the sky map"
 msgstr ""
 
 #. i18n: file indiconf.ui line 220
-#: rc.cpp:670
+#: rc.cpp:723
 #, fuzzy, no-c-format
 msgid "INDI messages in status &bar"
 msgstr "স্ট্যাটাসবারে INDI'র বার্তা দেখাও"
 
 #. i18n: file indiconf.ui line 226
-#: rc.cpp:673
+#: rc.cpp:726
 #, fuzzy, no-c-format
 msgid "Display INDI status messages in the status bar"
 msgstr "স্ট্যাটাসবারে INDI'র বার্তা দেখাও"
 
 #. i18n: file indiconf.ui line 253
-#: rc.cpp:676
+#: rc.cpp:729
 #, no-c-format
 msgid "Automatic Device Updates"
 msgstr "স্বয়ংক্রিয় ডিভাইস আপডেট"
 
 #. i18n: file indiconf.ui line 264
-#: rc.cpp:679 rc.cpp:2160
+#: rc.cpp:732 rc.cpp:2213
 #, no-c-format
 msgid "Time"
 msgstr "সময়"
 
 #. i18n: file indiconf.ui line 270
-#: rc.cpp:682
+#: rc.cpp:735
 #, no-c-format
 msgid "Update telescope clock upon connection"
 msgstr ""
 
 #. i18n: file indiconf.ui line 278
-#: rc.cpp:685
+#: rc.cpp:738
 #, fuzzy, no-c-format
 msgid "&Geographic location"
 msgstr "ভৌগলিক অবস্থান"
 
 #. i18n: file indiconf.ui line 284
-#: rc.cpp:688
+#: rc.cpp:741
 #, no-c-format
 msgid "Update telescope geographical location upon connection"
 msgstr ""
 
 #. i18n: file indiconf.ui line 294
-#: rc.cpp:691
+#: rc.cpp:744
 #, no-c-format
 msgid "Filter Wheel"
 msgstr ""
 
 #. i18n: file indiconf.ui line 297
-#: rc.cpp:694
+#: rc.cpp:747
 #, no-c-format
 msgid "Assign color values for your filter wheel slots"
 msgstr ""
 
 #. i18n: file indiconf.ui line 316
-#: rc.cpp:697
+#: rc.cpp:750
 #, fuzzy, no-c-format
 msgid "Slot:"
 msgstr "উন্নতি:"
 
 #. i18n: file indiconf.ui line 324
-#: rc.cpp:700
+#: rc.cpp:753
 #, fuzzy, no-c-format
 msgid "Alias:"
 msgstr "বায়বীয় ভর:"
 
 #. i18n: file indihostconf.ui line 43
-#: rc.cpp:703 rc.cpp:1919
+#: rc.cpp:756 rc.cpp:1972
 #, no-c-format
 msgid "Name:"
 msgstr "নাম:"
 
 #. i18n: file indihostconf.ui line 51
-#: rc.cpp:706
+#: rc.cpp:759
 #, no-c-format
 msgid "Host:"
 msgstr "হোস্ট:"
 
 #. i18n: file indihostconf.ui line 59
-#: rc.cpp:709 rc.cpp:2169
+#: rc.cpp:762 rc.cpp:2222
 #, no-c-format
 msgid "Port:"
 msgstr "পোর্ট:"
 
 #. i18n: file kswizardui.ui line 20
-#: rc.cpp:718
+#: rc.cpp:771
 #, no-c-format
 msgid "Welcome to KStars."
 msgstr "কে-স্টার্স-এর পক্ষ থেকে স্বাগতম।"
 
 #. i18n: file kswizardui.ui line 61
-#: rc.cpp:722
+#: rc.cpp:775
 #, no-c-format
 msgid "<h3>Welcome to the KStars Setup Wizard.</h3>"
 msgstr "<h3>কে-স্টার্স-এর প্রস্তুতি উইজার্ড এ স্বাগতম।</h3>"
 
 #. i18n: file kswizardui.ui line 96
-#: rc.cpp:725
+#: rc.cpp:778
 #, no-c-format
 msgid ""
 "<p>This Wizard will help you set up some basic options to help you get the most "
@@ -24033,19 +24118,19 @@ msgstr ""
 "<p>এবার <b>পরবর্তী</b> বাটন চেপে আরম্ভ করুন।</p>"
 
 #. i18n: file kswizardui.ui line 130
-#: rc.cpp:730
+#: rc.cpp:783
 #, no-c-format
 msgid "Geographic Location"
 msgstr "ভৌগলিক অবস্থান"
 
 #. i18n: file kswizardui.ui line 171
-#: rc.cpp:734
+#: rc.cpp:787
 #, no-c-format
 msgid "<h3>Choose Your Home Location</h3>"
 msgstr "<h3>আপনার বাসার অবস্থান বেছে নিন</h3>"
 
 #. i18n: file kswizardui.ui line 226
-#: rc.cpp:737
+#: rc.cpp:790
 #, no-c-format
 msgid ""
 "<p>Select a City near your \n"
@@ -24062,61 +24147,61 @@ msgstr ""
 "<p>শহর বেছে নেওয়া হলে, <b>পরবর্তী</b> চাপুন।</p>"
 
 #. i18n: file kswizardui.ui line 270
-#: rc.cpp:749
+#: rc.cpp:802
 #, no-c-format
 msgid "Filter the list by city name"
 msgstr "শহরের নাম ব্যবহার করে তালিকাকে ফিল্টার করো"
 
 #. i18n: file kswizardui.ui line 286
-#: rc.cpp:755 rc.cpp:2111
+#: rc.cpp:808 rc.cpp:2164
 #, no-c-format
 msgid "Province:"
 msgstr "প্রদেশ:"
 
 #. i18n: file kswizardui.ui line 294
-#: rc.cpp:758
+#: rc.cpp:811
 #, no-c-format
 msgid "Filter the list by country name"
 msgstr "দেশের নাম ব্যবহার করে তালিকাকে ফিল্টার করো"
 
 #. i18n: file kswizardui.ui line 302
-#: rc.cpp:761
+#: rc.cpp:814
 #, no-c-format
 msgid "Filter the list by province name"
 msgstr "প্রদেশের নাম ব্যবহার করে তালিকাকে ফিল্টার করো"
 
 #. i18n: file kswizardui.ui line 343
-#: rc.cpp:764
+#: rc.cpp:817
 #, no-c-format
 msgid "Displays the latitude of the selected city"
 msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
 #. i18n: file kswizardui.ui line 376
-#: rc.cpp:773
+#: rc.cpp:826
 #, no-c-format
 msgid "Displays the longitude of the selected city"
 msgstr "বাছাইকৃত শহরের দ্রাঘিমাংশ দেখাও"
 
 #. i18n: file kswizardui.ui line 399
-#: rc.cpp:776
+#: rc.cpp:829
 #, no-c-format
 msgid "The list of cities which match the present search filters."
 msgstr "বর্তমান অনুসন্ধান ফিল্টারের সাথে মিল প্রাপ্ত শহরের তালিকা।"
 
 #. i18n: file kswizardui.ui line 413
-#: rc.cpp:779
+#: rc.cpp:832
 #, no-c-format
 msgid "Setup Telescopes"
 msgstr "দূরবীক্ষণকে প্রস্তুত করো"
 
 #. i18n: file kswizardui.ui line 454
-#: rc.cpp:783
+#: rc.cpp:836
 #, no-c-format
 msgid "<h3>Setup Telescopes and Devices</h3>"
 msgstr "<h3>দূরবীক্ষণ ও ডিভাইসকে প্রস্তুত করো</h3>"
 
 #. i18n: file kswizardui.ui line 497
-#: rc.cpp:786
+#: rc.cpp:839
 #, no-c-format
 msgid ""
 "KStars can control most popular computerized telescope \n"
@@ -24130,7 +24215,7 @@ msgstr ""
 "দূরনিয়ন্ত্রিত দূরবীক্ষণকেও নিয়ন্ত্রণের ক্ষমতা রাখে।"
 
 #. i18n: file kswizardui.ui line 525
-#: rc.cpp:791
+#: rc.cpp:844
 #, no-c-format
 msgid ""
 "To set up your devices, press the <b>Telescope Setup \n"
@@ -24145,19 +24230,19 @@ msgstr ""
 "করতে পারবেন।"
 
 #. i18n: file kswizardui.ui line 575
-#: rc.cpp:797
+#: rc.cpp:850
 #, no-c-format
 msgid "Telescope Setup Wizard..."
 msgstr "দূরবীক্ষণ প্রস্তুতকারী উইজার্ড..."
 
 #. i18n: file kswizardui.ui line 578
-#: rc.cpp:800
+#: rc.cpp:853
 #, no-c-format
 msgid "Launch the Telescope Setup Wizard"
 msgstr "দূরবীক্ষণ প্রস্তুতকারী উইজার্ড চালু করো"
 
 #. i18n: file kswizardui.ui line 582
-#: rc.cpp:803
+#: rc.cpp:856
 #, no-c-format
 msgid ""
 "The Telescope Setup Wizard will help you configure telescopes\n"
@@ -24168,19 +24253,19 @@ msgstr ""
 "ইত্যাদি জ্যোতির্বিজ্ঞান বিষয়ক যন্ত্রপাতি কনফিগার করতে সাহায্য করবে।"
 
 #. i18n: file kswizardui.ui line 634
-#: rc.cpp:807
+#: rc.cpp:860
 #, no-c-format
 msgid "Download Extras"
 msgstr "অতিরিক্ত ফাইল ডাউনলোড করো"
 
 #. i18n: file kswizardui.ui line 675
-#: rc.cpp:811
+#: rc.cpp:864
 #, no-c-format
 msgid "<h3>Download Extra Data Files</h3>"
 msgstr "<h3>অতিরিক্ত তথ্যের ফাইল ডাউনলোড করো</h3>"
 
 #. i18n: file kswizardui.ui line 722
-#: rc.cpp:814
+#: rc.cpp:867
 #, no-c-format
 msgid ""
 "<p>You may now download optional data files to enhance \n"
@@ -24201,25 +24286,25 @@ msgstr ""
 "<b>তথ্য ডাউনলোড করো</b> চেপে করতে পারবেন।</p>"
 
 #. i18n: file kswizardui.ui line 775
-#: rc.cpp:823
+#: rc.cpp:876
 #, no-c-format
 msgid "Download Extra Data"
 msgstr "অতিরিক্ত তথ্য ডাউনলোড করো"
 
 #. i18n: file newfovui.ui line 41
-#: rc.cpp:829
+#: rc.cpp:882
 #, no-c-format
 msgid "<b>Name:</b>"
 msgstr "<b>নাম:</b>"
 
 #. i18n: file newfovui.ui line 49
-#: rc.cpp:832
+#: rc.cpp:885
 #, no-c-format
 msgid "Name for FOV symbol"
 msgstr "FOV প্রতীকের নাম"
 
 #. i18n: file newfovui.ui line 52
-#: rc.cpp:835
+#: rc.cpp:888
 #, no-c-format
 msgid ""
 "The name of the field-of-view (FOV) symbol.  This name appears in the FOV menu "
@@ -24229,37 +24314,37 @@ msgstr ""
 "করো\"-তেও দেখা যাবে।"
 
 #. i18n: file newfovui.ui line 69
-#: rc.cpp:838
+#: rc.cpp:891
 #, no-c-format
 msgid "Eyepiece"
 msgstr "আইপিস"
 
 #. i18n: file newfovui.ui line 96
-#: rc.cpp:841 rc.cpp:908
+#: rc.cpp:894 rc.cpp:961
 #, no-c-format
 msgid "Telescope focal length:"
 msgstr "দূরবীক্ষণের ফোকাস দূরত্ব:"
 
 #. i18n: file newfovui.ui line 104
-#: rc.cpp:844
+#: rc.cpp:897
 #, no-c-format
 msgid "Eyepiece focal length:"
 msgstr "আইপিসের ফোকাস দূরত্ব:"
 
 #. i18n: file newfovui.ui line 112
-#: rc.cpp:847
+#: rc.cpp:900
 #, no-c-format
 msgid "Eyepiece FOV:"
 msgstr "আইপিস FOV:"
 
 #. i18n: file newfovui.ui line 138
-#: rc.cpp:850 rc.cpp:914 rc.cpp:945
+#: rc.cpp:903 rc.cpp:967 rc.cpp:998
 #, no-c-format
 msgid "Telescope focal length, in millimeters"
 msgstr "মিলিমিটার এককে দূরবীক্ষণের ফোকাস দূরত্ব"
 
 #. i18n: file newfovui.ui line 143
-#: rc.cpp:853
+#: rc.cpp:906
 #, no-c-format
 msgid ""
 "Enter the telescope focal length, in millimeters.\n"
@@ -24273,19 +24358,19 @@ msgstr ""
 "প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
 #. i18n: file newfovui.ui line 151
-#: rc.cpp:858 rc.cpp:869 rc.cpp:922 rc.cpp:933
+#: rc.cpp:911 rc.cpp:922 rc.cpp:975 rc.cpp:986
 #, no-c-format
 msgid "<i>mm</i>"
 msgstr "<i>মিলিমিটার</i>"
 
 #. i18n: file newfovui.ui line 169
-#: rc.cpp:861
+#: rc.cpp:914
 #, no-c-format
 msgid "Eyepiece focal length, in millimeters"
 msgstr "মিলিমিটার এককে আইপিসের ফোকাস দূরত্ব"
 
 #. i18n: file newfovui.ui line 174
-#: rc.cpp:864
+#: rc.cpp:917
 #, no-c-format
 msgid ""
 "Enter the eyepiece focal length, in millimeters.\n"
@@ -24299,13 +24384,13 @@ msgstr ""
 "প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
 #. i18n: file newfovui.ui line 200
-#: rc.cpp:872
+#: rc.cpp:925
 #, no-c-format
 msgid "field-of-view of the eyepiece, in arcminutes"
 msgstr "আর্কমিনিট এককে আইপিসের ফোকাস দূরত্ব"
 
 #. i18n: file newfovui.ui line 205
-#: rc.cpp:875
+#: rc.cpp:928
 #, no-c-format
 msgid ""
 "Enter the eyepiece field-of-view angle, in arcminutes.\n"
@@ -24319,25 +24404,25 @@ msgstr ""
 "প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
 #. i18n: file newfovui.ui line 213
-#: rc.cpp:880
+#: rc.cpp:933
 #, no-c-format
 msgid "<i>arcmin</i>"
 msgstr "<i>আর্কমিনিট</i>"
 
 #. i18n: file newfovui.ui line 269
-#: rc.cpp:883 rc.cpp:897
+#: rc.cpp:936 rc.cpp:950
 #, no-c-format
 msgid "Compute FOV"
 msgstr "FOV গণনা করো"
 
 #. i18n: file newfovui.ui line 272
-#: rc.cpp:886 rc.cpp:900
+#: rc.cpp:939 rc.cpp:953
 #, no-c-format
 msgid "Compute field-of-view from above data fields"
 msgstr "উপরোক্ত তথ্যের ঘরগুলোতে প্রদত্ত তথ্যের ভিত্তিতে ফিল্ড-অব-ভিউ গণনা করো"
 
 #. i18n: file newfovui.ui line 277
-#: rc.cpp:889
+#: rc.cpp:942
 #, no-c-format
 msgid ""
 "This button will compute the field-of-view (FOV) angle for a specific "
@@ -24356,13 +24441,13 @@ msgstr ""
 "হবে।"
 
 #. i18n: file newfovui.ui line 289
-#: rc.cpp:894
+#: rc.cpp:947
 #, no-c-format
 msgid "Camera"
 msgstr "ক্যামেরা"
 
 #. i18n: file newfovui.ui line 308
-#: rc.cpp:903
+#: rc.cpp:956
 #, no-c-format
 msgid ""
 "This button will compute the field-of-view (FOV) angle for a specific "
@@ -24380,13 +24465,13 @@ msgstr ""
 "হবে।"
 
 #. i18n: file newfovui.ui line 391
-#: rc.cpp:911
+#: rc.cpp:964
 #, no-c-format
 msgid "Chip/Film size:"
 msgstr "চিপ/ফিল্মের আকার:"
 
 #. i18n: file newfovui.ui line 422
-#: rc.cpp:917 rc.cpp:948
+#: rc.cpp:970 rc.cpp:1001
 #, no-c-format
 msgid ""
 "Enter the telescope focal length, in millimeters.\n"
@@ -24400,13 +24485,13 @@ msgstr ""
 "ফিল্ড-অব-ভিউ (FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
 #. i18n: file newfovui.ui line 454
-#: rc.cpp:925 rc.cpp:956
+#: rc.cpp:978 rc.cpp:1009
 #, no-c-format
 msgid "Size of chip or film, in millimeters"
 msgstr "মিলিমিটার এককে চিপ বা ফিল্মের আকার"
 
 #. i18n: file newfovui.ui line 459
-#: rc.cpp:928 rc.cpp:959
+#: rc.cpp:981 rc.cpp:1012
 #, no-c-format
 msgid ""
 "Enter the physical size of the CCD chip or film negative.\n"
@@ -24420,49 +24505,49 @@ msgstr ""
 "ফিল্ড-অব-ভিউ (FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
 #. i18n: file newfovui.ui line 483
-#: rc.cpp:936
+#: rc.cpp:989
 #, fuzzy, no-c-format
 msgid "Radiotelescope"
 msgstr "দূরবীক্ষণকে প্রস্তুত করো"
 
 #. i18n: file newfovui.ui line 510
-#: rc.cpp:939
+#: rc.cpp:992
 #, fuzzy, no-c-format
 msgid "Radiotelescope diameter:"
 msgstr "দূরবীক্ষণ উইজার্ড"
 
 #. i18n: file newfovui.ui line 518
-#: rc.cpp:942
+#: rc.cpp:995
 #, no-c-format
 msgid "Wavelength:"
 msgstr ""
 
 #. i18n: file newfovui.ui line 563
-#: rc.cpp:953
+#: rc.cpp:1006
 #, fuzzy, no-c-format
 msgid "<i>m</i>"
 msgstr "<i>মিলিমিটার</i>"
 
 #. i18n: file newfovui.ui line 594
-#: rc.cpp:964
+#: rc.cpp:1017
 #, fuzzy, no-c-format
 msgid "<i>cm</i>"
 msgstr "<i>মিলিমিটার</i>"
 
 #. i18n: file newfovui.ui line 650
-#: rc.cpp:967
+#: rc.cpp:1020
 #, fuzzy, no-c-format
 msgid "Compute HPBW"
 msgstr "FOV গণনা করো"
 
 #. i18n: file newfovui.ui line 656
-#: rc.cpp:970
+#: rc.cpp:1023
 #, fuzzy, no-c-format
 msgid "Compute radiotelescope HPBW from above data fields"
 msgstr "উপরোক্ত তথ্যের ঘরগুলোতে প্রদত্ত তথ্যের ভিত্তিতে ফিল্ড-অব-ভিউ গণনা করো"
 
 #. i18n: file newfovui.ui line 661
-#: rc.cpp:973
+#: rc.cpp:1026
 #, fuzzy, no-c-format
 msgid ""
 "This button will compute the Half Power Beam Width (HPBW) angle for a specific "
@@ -24481,19 +24566,19 @@ msgstr ""
 "হবে।"
 
 #. i18n: file newfovui.ui line 682
-#: rc.cpp:978
+#: rc.cpp:1031
 #, no-c-format
 msgid "Field of view (arcmin):"
 msgstr "ফিল্ড অব ভিউ (আর্কমিনিট):"
 
 #. i18n: file newfovui.ui line 690
-#: rc.cpp:981
+#: rc.cpp:1034
 #, no-c-format
 msgid "Desired field-of-view size, in arcminutes"
 msgstr "আর্কমিনিট এককে আকাঙ্খিত ফিল্ড-অব-ভিউ এর আকার"
 
 #. i18n: file newfovui.ui line 695
-#: rc.cpp:984
+#: rc.cpp:1037
 #, no-c-format
 msgid ""
 "Enter the desired angular size for the field-of-view (FOV) symbol.\n"
@@ -24507,61 +24592,61 @@ msgstr ""
 "করে নির্দিষ্ট আইপিস বা ক্যামেরার কৌণিক আকার গণনা করতে পারেন।"
 
 #. i18n: file newfovui.ui line 756
-#: rc.cpp:990
+#: rc.cpp:1043
 #, no-c-format
 msgid "Select color for the field-of-view symbol"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের রং বেছে নিন"
 
 #. i18n: file newfovui.ui line 759
-#: rc.cpp:993
+#: rc.cpp:1046
 #, no-c-format
 msgid "Select a color for the field-of-view (FOV) symbol."
 msgstr "ফিল্ড-অব-ভিউ (FOV) প্রতীকের রং বেছে নিন।"
 
 #. i18n: file newfovui.ui line 767
-#: rc.cpp:996
+#: rc.cpp:1049
 #, no-c-format
 msgid "Color:"
 msgstr "রং:"
 
 #. i18n: file newfovui.ui line 773
-#: rc.cpp:999
+#: rc.cpp:1052
 #, no-c-format
 msgid "Square"
 msgstr "বর্গক্ষেত্র"
 
 #. i18n: file newfovui.ui line 778
-#: rc.cpp:1002
+#: rc.cpp:1055
 #, no-c-format
 msgid "Circle"
 msgstr "বৃত্ত"
 
 #. i18n: file newfovui.ui line 783
-#: rc.cpp:1005
+#: rc.cpp:1058
 #, no-c-format
 msgid "Crosshairs"
 msgstr ""
 
 #. i18n: file newfovui.ui line 788
-#: rc.cpp:1008
+#: rc.cpp:1061
 #, no-c-format
 msgid "Bullseye"
 msgstr "লক্ষ্যবিন্দু"
 
 #. i18n: file newfovui.ui line 793
-#: rc.cpp:1011
+#: rc.cpp:1064
 #, fuzzy, no-c-format
 msgid "Semitransparent circle"
 msgstr "স্বচ্ছ"
 
 #. i18n: file newfovui.ui line 800
-#: rc.cpp:1014
+#: rc.cpp:1067
 #, no-c-format
 msgid "Select a shape for the field-of-view symbol"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃতি বেছে নিন"
 
 #. i18n: file newfovui.ui line 805
-#: rc.cpp:1017
+#: rc.cpp:1070
 #, no-c-format
 msgid ""
 "Select a shape for the field-of-view (FOV) symbol.  The possible shapes are:\n"
@@ -24573,31 +24658,31 @@ msgstr ""
 "বৃত্ত, বর্গক্ষেত্র, Crosshair, লক্ষ্যবিন্দু"
 
 #. i18n: file newfovui.ui line 813
-#: rc.cpp:1022
+#: rc.cpp:1075
 #, no-c-format
 msgid "Shape:"
 msgstr "আকৃতি:"
 
 #. i18n: file opsadvancedui.ui line 16
-#: rc.cpp:1025
+#: rc.cpp:1078
 #, no-c-format
 msgid "OpsAdvanced"
 msgstr ""
 
 #. i18n: file opsadvancedui.ui line 27
-#: rc.cpp:1028
+#: rc.cpp:1081
 #, no-c-format
 msgid "Correct for atmospheric refraction"
 msgstr "বায়ুমণ্ডলীয় প্রতিসরণ সংশোধন করো"
 
 #. i18n: file opsadvancedui.ui line 30
-#: rc.cpp:1031
+#: rc.cpp:1084
 #, no-c-format
 msgid "Correct coordinates of objects for the effects of the atmosphere"
 msgstr "বায়ুমণ্ডলের প্রভাবজনিত বিচ্যুতি থেকে বস্তুর স্থানাংক সংশোধন করো"
 
 #. i18n: file opsadvancedui.ui line 33
-#: rc.cpp:1034
+#: rc.cpp:1087
 #, no-c-format
 msgid ""
 "The atmosphere bends light passing through it, like a lens.  If this item is "
@@ -24611,19 +24696,19 @@ msgstr ""
 "প্রযোজ্য।"
 
 #. i18n: file opsadvancedui.ui line 41
-#: rc.cpp:1037
+#: rc.cpp:1090
 #, no-c-format
 msgid "Use animated slewing"
 msgstr "অ্যানিমেশনের সাহায্যে সরে যাওয়া দেখাও"
 
 #. i18n: file opsadvancedui.ui line 44
-#: rc.cpp:1040
+#: rc.cpp:1093
 #, no-c-format
 msgid "Show slewing motion when focus changes?"
 msgstr "ফোকাস পরিবর্তন কি ধীর গতিতে দেখানো হবে?"
 
 #. i18n: file opsadvancedui.ui line 47
-#: rc.cpp:1043
+#: rc.cpp:1096
 #, no-c-format
 msgid ""
 "If checked, changing the focus position will result in a visible animated "
@@ -24635,19 +24720,19 @@ msgstr ""
 "তাত্‍ক্ষণিকভাবে নতুন অবস্থানকে ডিসপ্লের কেন্দ্রে দেখা হবে।"
 
 #. i18n: file opsadvancedui.ui line 55
-#: rc.cpp:1046
+#: rc.cpp:1099
 #, no-c-format
 msgid "Attach label to centered object"
 msgstr "কেন্দ্রের বস্তুতে লেবেল যুক্ত করো"
 
 #. i18n: file opsadvancedui.ui line 58
-#: rc.cpp:1049 rc.cpp:1058
+#: rc.cpp:1102 rc.cpp:1111
 #, no-c-format
 msgid "Show name label of centered object?"
 msgstr "কেন্দ্রের বস্তুর নাম নির্দেশক লেবেল দেখানো হবে কি?"
 
 #. i18n: file opsadvancedui.ui line 61
-#: rc.cpp:1052 rc.cpp:1061
+#: rc.cpp:1105 rc.cpp:1114
 #, no-c-format
 msgid ""
 "If checked, a name label will be temporarily attached to an object while it is "
@@ -24659,43 +24744,43 @@ msgstr ""
 "সেখান থেকে আপনি বস্তুটিতে অধিকতর স্থায়ী লেবেল যোগ করতে পারবেন।"
 
 #. i18n: file opsadvancedui.ui line 69
-#: rc.cpp:1055
+#: rc.cpp:1108
 #, no-c-format
 msgid "Attach temporary label when hovering mouse"
 msgstr "মাউস নাড়ানোর সময় অস্থায়ী লেবেল যোগ করো"
 
 #. i18n: file opsadvancedui.ui line 83
-#: rc.cpp:1064
+#: rc.cpp:1117
 #, fuzzy, no-c-format
 msgid "Observing List Labels"
 msgstr "তালিকাভুক্ত করো"
 
 #. i18n: file opsadvancedui.ui line 94
-#: rc.cpp:1067
+#: rc.cpp:1120
 #, fuzzy, no-c-format
 msgid "Symbol"
 msgstr "FOV প্রতী&ক"
 
 #. i18n: file opsadvancedui.ui line 105
-#: rc.cpp:1070
+#: rc.cpp:1123
 #, fuzzy, no-c-format
 msgid "Text"
 msgstr "পশ্চিম (&শ)"
 
 #. i18n: file opsadvancedui.ui line 132
-#: rc.cpp:1073
+#: rc.cpp:1126
 #, no-c-format
 msgid "Hide objects while moving"
 msgstr "সরে যাওয়ার সময় বস্তুকে আড়াল করো"
 
 #. i18n: file opsadvancedui.ui line 135
-#: rc.cpp:1076
+#: rc.cpp:1129
 #, no-c-format
 msgid "Do not draw all objects while the map is moving?"
 msgstr "যখন মানচিত্র সরে যেতে থাকবে, তখন কি সব বস্তু দেখাবো না?"
 
 #. i18n: file opsadvancedui.ui line 138
-#: rc.cpp:1079
+#: rc.cpp:1132
 #, no-c-format
 msgid ""
 "When the map is in motion, smooth animation is compromised if the program has "
@@ -24707,37 +24792,37 @@ msgstr ""
 "সাময়িকভাবে অপ্রদর্শন করতে চান, তবে এটিতে টিক দিন।"
 
 #. i18n: file opsadvancedui.ui line 154
-#: rc.cpp:1082
+#: rc.cpp:1135
 #, no-c-format
 msgid "Also hide if time step larger than:"
 msgstr "এছাড়া সময় ধাপ (Time Step), এর থেকে বড় হলেও আড়াল করো:"
 
 #. i18n: file opsadvancedui.ui line 165
-#: rc.cpp:1085
+#: rc.cpp:1138
 #, no-c-format
 msgid "smallest timestep for which objects are always hidden"
 msgstr "সর্বনিম্ন যে সময়-ধাপের (Time Step) জন্য বস্তুকে আড়াল করা হয়"
 
 #. i18n: file opsadvancedui.ui line 195
-#: rc.cpp:1088
+#: rc.cpp:1141
 #, no-c-format
 msgid "Configure Hidden Objects"
 msgstr "আড়ালকৃত বস্তু কনফিগার করো"
 
 #. i18n: file opsadvancedui.ui line 214
-#: rc.cpp:1091
+#: rc.cpp:1144
 #, no-c-format
 msgid "Stars fainter than"
 msgstr "এ থেকে অনুজ্জ্বল তারা"
 
 #. i18n: file opsadvancedui.ui line 217
-#: rc.cpp:1094
+#: rc.cpp:1147
 #, no-c-format
 msgid "Hide faint stars while moving?"
 msgstr "সরে যাওয়ার সময় কি অনুজ্জ্বল তারাদের আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 220
-#: rc.cpp:1097
+#: rc.cpp:1150
 #, no-c-format
 msgid ""
 "If checked, then fainter stars will be hidden when the map is in motion."
@@ -24745,32 +24830,32 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় অনুজ্জ্বল তারাদের আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 237
-#: rc.cpp:1100 rc.cpp:1103
+#: rc.cpp:1153 rc.cpp:1156
 #, no-c-format
 msgid "Stars fainter than this will not be drawn while the map is moving."
 msgstr "মানচিত্র সরে যাওয়ার সময় এটি অপেক্ষা অনুজ্জ্বল তারাদের আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 248
-#: rc.cpp:1106 rc.cpp:1207 rc.cpp:1213 rc.cpp:1236 rc.cpp:1304 rc.cpp:1310
-#: rc.cpp:1657 rc.cpp:1663
+#: rc.cpp:1159 rc.cpp:1260 rc.cpp:1266 rc.cpp:1289 rc.cpp:1357 rc.cpp:1363
+#: rc.cpp:1710 rc.cpp:1716
 #, no-c-format
 msgid "mag"
 msgstr "উজ্জ্বলতা"
 
 #. i18n: file opsadvancedui.ui line 283
-#: rc.cpp:1109
+#: rc.cpp:1162
 #, no-c-format
 msgid "IC objects"
 msgstr "আই.সি. বস্তু"
 
 #. i18n: file opsadvancedui.ui line 286
-#: rc.cpp:1112
+#: rc.cpp:1165
 #, no-c-format
 msgid "Hide IC objects while moving?"
 msgstr "সরে যাওয়ার সময় কি আই.সি. বস্তুদের আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 289
-#: rc.cpp:1115
+#: rc.cpp:1168
 #, no-c-format
 msgid ""
 "If checked, then objects in the IC catalog will be hidden when the map is in "
@@ -24780,19 +24865,19 @@ msgstr ""
 "আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 297
-#: rc.cpp:1118
+#: rc.cpp:1171
 #, no-c-format
 msgid "Milky Way"
 msgstr "আকাশ গঙ্গা"
 
 #. i18n: file opsadvancedui.ui line 300
-#: rc.cpp:1121
+#: rc.cpp:1174
 #, no-c-format
 msgid "Hide the Milky Way contour while moving?"
 msgstr "সরে যাওয়ার সময় আকাশ গঙ্গার আবয়ব আড়াল করা হবে কি?"
 
 #. i18n: file opsadvancedui.ui line 303
-#: rc.cpp:1124
+#: rc.cpp:1177
 #, no-c-format
 msgid ""
 "If checked, then the Milky Way contour will be hidden when the map is in "
@@ -24801,19 +24886,19 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় আকাশ গঙ্গার আবয়ব আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 311
-#: rc.cpp:1127
+#: rc.cpp:1180
 #, no-c-format
 msgid "Solar system"
 msgstr "সৌরজগত্‍"
 
 #. i18n: file opsadvancedui.ui line 314
-#: rc.cpp:1130
+#: rc.cpp:1183
 #, no-c-format
 msgid "Hide solar system bodies while moving?"
 msgstr "সরে যাওয়ার সময় কি সৌরজগতের সদস্যদের আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 317
-#: rc.cpp:1133
+#: rc.cpp:1186
 #, no-c-format
 msgid ""
 "If checked, then all solar system bodies will be hidden when the map is in "
@@ -24822,25 +24907,25 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় সৌরজগতের সদস্যদের আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 325
-#: rc.cpp:1136
+#: rc.cpp:1189
 #, no-c-format
 msgid "Constellation boundaries"
 msgstr "তারামণ্ডলের সীমারেখা"
 
 #. i18n: file opsadvancedui.ui line 333
-#: rc.cpp:1139
+#: rc.cpp:1192
 #, no-c-format
 msgid "Messier objects"
 msgstr "মেসিয়ের বস্তু"
 
 #. i18n: file opsadvancedui.ui line 336
-#: rc.cpp:1142
+#: rc.cpp:1195
 #, no-c-format
 msgid "Hide Messier objects when moving?"
 msgstr "সরে যাওয়ার সময় কি মেসিয়ের বস্তুদের আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 339
-#: rc.cpp:1145
+#: rc.cpp:1198
 #, no-c-format
 msgid ""
 "If checked, then objects in the Messier catalog will be hidden when the map is "
@@ -24850,19 +24935,19 @@ msgstr ""
 "আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 347
-#: rc.cpp:1148
+#: rc.cpp:1201
 #, no-c-format
 msgid "Coordinate grid"
 msgstr "স্থানাংক রেখা"
 
 #. i18n: file opsadvancedui.ui line 350
-#: rc.cpp:1151
+#: rc.cpp:1204
 #, no-c-format
 msgid "Hide coordinate grid while moving?"
 msgstr "সরে যাওয়ার সময় কি স্থানাংক রেখা আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 353
-#: rc.cpp:1154
+#: rc.cpp:1207
 #, no-c-format
 msgid ""
 "If checked, then the coordinate grid will be hidden when the map is in motion."
@@ -24870,19 +24955,19 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় স্থানাংক রেখা আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 361
-#: rc.cpp:1157
+#: rc.cpp:1210
 #, no-c-format
 msgid "NGC objects"
 msgstr "এন.জি.সি. বস্তু"
 
 #. i18n: file opsadvancedui.ui line 364
-#: rc.cpp:1160
+#: rc.cpp:1213
 #, no-c-format
 msgid "Hide NGC objects while moving?"
 msgstr "সরে যাওয়ার সময় কি এন.জি.সি. বস্তু আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 367
-#: rc.cpp:1163
+#: rc.cpp:1216
 #, no-c-format
 msgid ""
 "If checked, then objects in the NGC catalog will be hidden when the map is in "
@@ -24891,19 +24976,19 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় এন.জি.সি. বস্তু আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 375
-#: rc.cpp:1166
+#: rc.cpp:1219
 #, no-c-format
 msgid "Constellation lines"
 msgstr "তারামণ্ডলের রেখা"
 
 #. i18n: file opsadvancedui.ui line 378
-#: rc.cpp:1169
+#: rc.cpp:1222
 #, no-c-format
 msgid "Hide constellation lines while moving?"
 msgstr "সরে যাওয়ার সময় কি তারামণ্ডলের রেখা আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 381
-#: rc.cpp:1172
+#: rc.cpp:1225
 #, no-c-format
 msgid ""
 "If checked, then constellation lines will be hidden when the map is in motion."
@@ -24911,19 +24996,19 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় তারামণ্ডলের রেখা আড়াল করা হবে।"
 
 #. i18n: file opsadvancedui.ui line 389
-#: rc.cpp:1175
+#: rc.cpp:1228
 #, no-c-format
 msgid "Constellation names"
 msgstr "তারামণ্ডলের নাম"
 
 #. i18n: file opsadvancedui.ui line 392
-#: rc.cpp:1178
+#: rc.cpp:1231
 #, no-c-format
 msgid "Hide constellation names while moving?"
 msgstr "সরে যাওয়ার সময় কি তারামণ্ডলের নাম আড়াল করা হবে?"
 
 #. i18n: file opsadvancedui.ui line 395
-#: rc.cpp:1181
+#: rc.cpp:1234
 #, no-c-format
 msgid ""
 "If checked, then constellation names will be hidden when the map is in motion."
@@ -24931,25 +25016,25 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় তারামণ্ডলের নাম আড়াল করা হবে।"
 
 #. i18n: file opscatalogui.ui line 16
-#: rc.cpp:1184
+#: rc.cpp:1237
 #, no-c-format
 msgid "OpsCatalog"
 msgstr ""
 
 #. i18n: file opscatalogui.ui line 44
-#: rc.cpp:1190
+#: rc.cpp:1243
 #, no-c-format
 msgid "Hipparcos star catalog"
 msgstr "Hipparcos তারা ক্যাটালগ"
 
 #. i18n: file opscatalogui.ui line 47
-#: rc.cpp:1193
+#: rc.cpp:1246
 #, no-c-format
 msgid "Draw stars?"
 msgstr "তারা আঁকবো কি?"
 
 #. i18n: file opscatalogui.ui line 50
-#: rc.cpp:1196
+#: rc.cpp:1249
 #, no-c-format
 msgid ""
 "When selected, stars are drawn in the skymap.  Use the other options in this "
@@ -24959,13 +25044,13 @@ msgstr ""
 "হবে তা নিয়ন্ত্রণ করার জন্য এই বাক্সের অন্যান্য অপশনগুলো ব্যবহার করুন।"
 
 #. i18n: file opscatalogui.ui line 69
-#: rc.cpp:1199 rc.cpp:1296
+#: rc.cpp:1252 rc.cpp:1349
 #, no-c-format
 msgid "The faint limit when zoomed in"
 msgstr "বিবর্ধনের ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা"
 
 #. i18n: file opscatalogui.ui line 74
-#: rc.cpp:1202 rc.cpp:1299
+#: rc.cpp:1255 rc.cpp:1352
 #, no-c-format
 msgid ""
 "Set the faintest magnitude that will be drawn at the maximum zoom level.  The "
@@ -24984,19 +25069,19 @@ msgstr ""
 "পারে।"
 
 #. i18n: file opscatalogui.ui line 90
-#: rc.cpp:1210 rc.cpp:1307
+#: rc.cpp:1263 rc.cpp:1360
 #, no-c-format
 msgid "Faint limit zoomed out:"
 msgstr "ছোট করে দেখার ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা:"
 
 #. i18n: file opscatalogui.ui line 109
-#: rc.cpp:1216 rc.cpp:1313
+#: rc.cpp:1269 rc.cpp:1366
 #, no-c-format
 msgid "The faint limit when zoomed out"
 msgstr "ছোট করে দেখার ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা"
 
 #. i18n: file opscatalogui.ui line 114
-#: rc.cpp:1219 rc.cpp:1316
+#: rc.cpp:1272 rc.cpp:1369
 #, no-c-format
 msgid ""
 "Set the faintest magnitude that will be drawn at the minimum zoom level.  The "
@@ -25015,25 +25100,25 @@ msgstr ""
 "পারে।"
 
 #. i18n: file opscatalogui.ui line 122
-#: rc.cpp:1224 rc.cpp:1321
+#: rc.cpp:1277 rc.cpp:1374
 #, no-c-format
 msgid "Faint limit zoomed in:"
 msgstr "বিবর্ধনের ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা:"
 
 #. i18n: file opscatalogui.ui line 191
-#: rc.cpp:1227
+#: rc.cpp:1280
 #, no-c-format
 msgid "For stars brighter than"
 msgstr "এ থেকে বেশি উজ্জ্বল তারার জন্য"
 
 #. i18n: file opscatalogui.ui line 202
-#: rc.cpp:1230
+#: rc.cpp:1283
 #, no-c-format
 msgid "Faint limit for name labels"
 msgstr "উজ্জ্বলতার যে নিম্নসীমা পর্যন্ত নামের লেবেল ব্যবহৃত হবে"
 
 #. i18n: file opscatalogui.ui line 205
-#: rc.cpp:1233
+#: rc.cpp:1286
 #, no-c-format
 msgid ""
 "Sets the faintest <b>magnitude</b> for which name and magnitude labels may be "
@@ -25047,61 +25132,61 @@ msgstr ""
 "মানুষ তা দেখতে পারে।"
 
 #. i18n: file opscatalogui.ui line 265
-#: rc.cpp:1239
+#: rc.cpp:1292
 #, fuzzy, no-c-format
 msgid "Show &name"
 msgstr "নাম দেখাও"
 
 #. i18n: file opscatalogui.ui line 268
-#: rc.cpp:1242
+#: rc.cpp:1295
 #, no-c-format
 msgid "Attach name labels to bright stars?"
 msgstr "উজ্জ্বল তারার সাথে কি নামের লেবেল যুক্ত করা হবে?"
 
 #. i18n: file opscatalogui.ui line 271
-#: rc.cpp:1245
+#: rc.cpp:1298
 #, no-c-format
 msgid "When checked, name labels are attached to the brighter stars."
 msgstr "টিক দেওয়া থাকলে, উজ্জ্বল তারার সাথে নামের লেবেল যুক্ত করা হবে।"
 
 #. i18n: file opscatalogui.ui line 306
-#: rc.cpp:1248
+#: rc.cpp:1301
 #, fuzzy, no-c-format
 msgid "Show ma&gnitude"
 msgstr "উজ্জ্বলতা দেখাও"
 
 #. i18n: file opscatalogui.ui line 309
-#: rc.cpp:1251
+#: rc.cpp:1304
 #, no-c-format
 msgid "Attach magnitude labels to bright stars?"
 msgstr "উজ্জ্বল তারার সাথে কি উজ্জ্বলতাসূচক লেবেল যুক্ত করা হবে?"
 
 #. i18n: file opscatalogui.ui line 312
-#: rc.cpp:1254
+#: rc.cpp:1307
 #, no-c-format
 msgid "When checked, magnitude labels are attached to the brighter stars."
 msgstr "টিক দেওয়া থাকলে, উজ্জ্বল তারার সাথে উজ্জ্বলতাসূচক লেবেল যুক্ত করা হবে।"
 
 #. i18n: file opscatalogui.ui line 324
-#: rc.cpp:1257
+#: rc.cpp:1310
 #, no-c-format
 msgid "Deep-Sky Objects"
 msgstr "দূর-আকাশের বস্তু"
 
 #. i18n: file opscatalogui.ui line 341
-#: rc.cpp:1260
+#: rc.cpp:1313
 #, no-c-format
 msgid "Show Catalog"
 msgstr "ক্যাটালগ দেখাও"
 
 #. i18n: file opscatalogui.ui line 357
-#: rc.cpp:1263
+#: rc.cpp:1316
 #, no-c-format
 msgid "List of other catalogs"
 msgstr "অন্যান্য ক্যাটালগের তালিকা"
 
 #. i18n: file opscatalogui.ui line 360
-#: rc.cpp:1266
+#: rc.cpp:1319
 #, no-c-format
 msgid ""
 "The list of catalogs available, other than the star catalog.  By default, the "
@@ -25113,19 +25198,19 @@ msgstr ""
 "নিজস্ব ক্যাটালগও যোগ করতে পারেন।"
 
 #. i18n: file opscatalogui.ui line 376
-#: rc.cpp:1269
+#: rc.cpp:1322
 #, fuzzy, no-c-format
 msgid "Load Catalog..."
 msgstr "ক্যাটালগ যোগ করো..."
 
 #. i18n: file opscatalogui.ui line 379
-#: rc.cpp:1272
+#: rc.cpp:1325
 #, fuzzy, no-c-format
 msgid "Load an existing user catalog"
 msgstr "খ-বস্তুর বহিঃস্থ ক্যাটালগ যোগ করো"
 
 #. i18n: file opscatalogui.ui line 382
-#: rc.cpp:1275
+#: rc.cpp:1328
 #, no-c-format
 msgid ""
 "Load an existing custom catalog.  Only use this button if you have a catalog "
@@ -25133,19 +25218,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file opscatalogui.ui line 390
-#: rc.cpp:1278
+#: rc.cpp:1331
 #, fuzzy, no-c-format
 msgid "Import Catalog..."
 msgstr "ক্যাটালগ যোগ করো..."
 
 #. i18n: file opscatalogui.ui line 393
-#: rc.cpp:1281
+#: rc.cpp:1334
 #, fuzzy, no-c-format
 msgid "Create a custom object catalog"
 msgstr "স্বনির্বাচিত ক্যাটালগ অপসারণ করো"
 
 #. i18n: file opscatalogui.ui line 396
-#: rc.cpp:1284
+#: rc.cpp:1337
 #, no-c-format
 msgid ""
 "Press this button to create a custom object catalog.  Use this button instead "
@@ -25154,19 +25239,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file opscatalogui.ui line 407
-#: rc.cpp:1287
+#: rc.cpp:1340
 #, no-c-format
 msgid "Remove Catalog"
 msgstr "ক্যাটালগ অপসারণ করো"
 
 #. i18n: file opscatalogui.ui line 410
-#: rc.cpp:1290
+#: rc.cpp:1343
 #, no-c-format
 msgid "Remove a custom catalog"
 msgstr "স্বনির্বাচিত ক্যাটালগ অপসারণ করো"
 
 #. i18n: file opscatalogui.ui line 413
-#: rc.cpp:1293
+#: rc.cpp:1346
 #, no-c-format
 msgid ""
 "Press this button to remove a custom object catalog that you had added "
@@ -25177,25 +25262,25 @@ msgstr ""
 "দিন।  তবে এই বাটন চেপে মেসিয়ের, এন.জি.সি. বা আই.সি. ক্যাটালগ অপসারণ করা যায় না।"
 
 #. i18n: file opscolorsui.ui line 16
-#: rc.cpp:1324
+#: rc.cpp:1377
 #, no-c-format
 msgid "OpsColors"
 msgstr ""
 
 #. i18n: file opscolorsui.ui line 27
-#: rc.cpp:1327
+#: rc.cpp:1380
 #, no-c-format
 msgid "Current Colors"
 msgstr "বর্তমান রং"
 
 #. i18n: file opscolorsui.ui line 38
-#: rc.cpp:1330
+#: rc.cpp:1383
 #, no-c-format
 msgid "Current color settings"
 msgstr "বর্তমান রঙের বৈশিষ্ট্য"
 
 #. i18n: file opscolorsui.ui line 41
-#: rc.cpp:1333
+#: rc.cpp:1386
 #, no-c-format
 msgid ""
 "The list of all customizable colors in the program.  Next to each item is a "
@@ -25207,43 +25292,43 @@ msgstr ""
 "পরিবর্তন করতে হলে তাতে ক্লিক করুন।"
 
 #. i18n: file opscolorsui.ui line 57
-#: rc.cpp:1336
+#: rc.cpp:1389
 #, no-c-format
 msgid "InfoBox BG Mode:"
 msgstr "তথ্যমূলক-বাক্সের পটভূমি মোড:"
 
 #. i18n: file opscolorsui.ui line 63
-#: rc.cpp:1339
+#: rc.cpp:1392
 #, no-c-format
 msgid "No Fill"
 msgstr "পূরণ করবে না"
 
 #. i18n: file opscolorsui.ui line 68
-#: rc.cpp:1342
+#: rc.cpp:1395
 #, no-c-format
 msgid "Transparent"
 msgstr "স্বচ্ছ"
 
 #. i18n: file opscolorsui.ui line 73
-#: rc.cpp:1345
+#: rc.cpp:1398
 #, no-c-format
 msgid "Opaque"
 msgstr "অস্বচ্ছ"
 
 #. i18n: file opscolorsui.ui line 95
-#: rc.cpp:1348
+#: rc.cpp:1401
 #, fuzzy, no-c-format
 msgid "Star color mode:"
 msgstr "তারা রং করার মোড (&ম):"
 
 #. i18n: file opscolorsui.ui line 106
-#: rc.cpp:1351
+#: rc.cpp:1404
 #, no-c-format
 msgid "Set the star color mode"
 msgstr "তারা রং করার মোড নির্ধারণ করুন"
 
 #. i18n: file opscolorsui.ui line 109
-#: rc.cpp:1354
+#: rc.cpp:1407
 #, no-c-format
 msgid ""
 "There are four ways to draw stars on the map.  By default, stars are circles "
@@ -25257,19 +25342,19 @@ msgstr ""
 "পূর্ণ বৃত্তও তারা আঁকার জন্য ব্যবহার করতে পারেন।"
 
 #. i18n: file opscolorsui.ui line 127
-#: rc.cpp:1357
+#: rc.cpp:1410
 #, no-c-format
 msgid "Star color intensity:"
 msgstr "তারার রঙের তীব্রতা:"
 
 #. i18n: file opscolorsui.ui line 138
-#: rc.cpp:1360
+#: rc.cpp:1413
 #, no-c-format
 msgid "Set the intensity of star colors"
 msgstr "তারার রঙের তীব্রতা নির্ধারণ করুন"
 
 #. i18n: file opscolorsui.ui line 141
-#: rc.cpp:1363
+#: rc.cpp:1416
 #, no-c-format
 msgid ""
 "When using the realistic-color star mode, this option will set the saturation "
@@ -25280,19 +25365,19 @@ msgstr ""
 "বৃদ্ধি পাবে।"
 
 #. i18n: file opscolorsui.ui line 153
-#: rc.cpp:1366
+#: rc.cpp:1419
 #, no-c-format
 msgid "Preset Color Schemes"
 msgstr "পূর্বনির্ধারিত রং বিন্যাস"
 
 #. i18n: file opscolorsui.ui line 164
-#: rc.cpp:1369
+#: rc.cpp:1422
 #, no-c-format
 msgid "List of preset color schemes"
 msgstr "পূর্বনির্ধারিত রং বিন্যাসের তালিকা"
 
 #. i18n: file opscolorsui.ui line 167
-#: rc.cpp:1372
+#: rc.cpp:1425
 #, no-c-format
 msgid ""
 "List of all known color schemes.  Several are provided by default, and you may "
@@ -25302,19 +25387,19 @@ msgstr ""
 "আপনি নিজেও কিছু তৈরি করে নিতে পারেন।"
 
 #. i18n: file opscolorsui.ui line 200
-#: rc.cpp:1375
+#: rc.cpp:1428
 #, no-c-format
 msgid "Remove Color Scheme"
 msgstr "রং বিন্যাস অপসারণ করো"
 
 #. i18n: file opscolorsui.ui line 203
-#: rc.cpp:1378
+#: rc.cpp:1431
 #, no-c-format
 msgid "Remove a preset color scheme"
 msgstr "একটি পূর্বনির্ধারিত রং বিন্যাস অপসারণ করো"
 
 #. i18n: file opscolorsui.ui line 206
-#: rc.cpp:1381
+#: rc.cpp:1434
 #, no-c-format
 msgid ""
 "Press this button to remove the highlighted color scheme.  This will only work "
@@ -25324,20 +25409,20 @@ msgstr ""
 "রং বিন্যাসের ওপরই কাজ করবে।"
 
 #. i18n: file opscolorsui.ui line 265
-#: rc.cpp:1384
+#: rc.cpp:1437
 #, no-c-format
 msgid "Save Current Colors..."
 msgstr "বর্তমান রং সংরক্ষণ করো..."
 
 #. i18n: file opscolorsui.ui line 268
-#: rc.cpp:1387
+#: rc.cpp:1440
 #, no-c-format
 msgid "Create a new preset color scheme using current settings"
 msgstr ""
 "বর্তমান বৈশিষ্ট্য ব্যবহার করে একটি নতুন পূর্বনির্ধারিত রং বিন্যাস তৈরি করো"
 
 #. i18n: file opscolorsui.ui line 271
-#: rc.cpp:1390
+#: rc.cpp:1443
 #, no-c-format
 msgid ""
 "After changing the colors to a scheme that you like, press this button to "
@@ -25351,110 +25436,110 @@ msgstr ""
 "মেনুতেও দেখা যাবে।"
 
 #. i18n: file opsguidesui.ui line 16
-#: rc.cpp:1393
+#: rc.cpp:1446
 #, fuzzy, no-c-format
 msgid "OpsGuides"
 msgstr "নির্দেশিকা"
 
 #. i18n: file opsguidesui.ui line 27
-#: rc.cpp:1396
+#: rc.cpp:1449
 #, fuzzy, no-c-format
 msgid "&Constellation lines"
 msgstr "তারামণ্ডলের রেখা"
 
 #. i18n: file opsguidesui.ui line 30
-#: rc.cpp:1399
+#: rc.cpp:1452
 #, no-c-format
 msgid "Show constellation lines?"
 msgstr "তারামণ্ডলের রেখা দেখানো হবে কি?"
 
 #. i18n: file opsguidesui.ui line 33
-#: rc.cpp:1402
+#: rc.cpp:1455
 #, no-c-format
 msgid "If checked, constellation lines will be drawn on the sky map."
 msgstr "টিক দেওয়া থাকলে, খ-মানচিত্রে তারামণ্ডলের রেখা আঁকা হবে।"
 
 #. i18n: file opsguidesui.ui line 41
-#: rc.cpp:1405
+#: rc.cpp:1458
 #, fuzzy, no-c-format
 msgid "Constellation &boundaries"
 msgstr "তারামণ্ডলের সীমারেখা"
 
 #. i18n: file opsguidesui.ui line 49
-#: rc.cpp:1408
+#: rc.cpp:1461
 #, fuzzy, no-c-format
 msgid "Constellation &names"
 msgstr "তারামণ্ডলের নাম"
 
 #. i18n: file opsguidesui.ui line 52
-#: rc.cpp:1411
+#: rc.cpp:1464
 #, no-c-format
 msgid "Draw constellation names?"
 msgstr "তারামণ্ডলের নাম দেখানো হবে কি?"
 
 #. i18n: file opsguidesui.ui line 55
-#: rc.cpp:1414
+#: rc.cpp:1467
 #, no-c-format
 msgid "If checked, constellation names will be drawn on the sky map."
 msgstr "টিক দেওয়া থাকলে, খ-মানচিত্রে তারামণ্ডলের নাম দেখানো হবে।"
 
 #. i18n: file opsguidesui.ui line 63
-#: rc.cpp:1417
+#: rc.cpp:1470
 #, no-c-format
 msgid "Constellation Name Options"
 msgstr "তারামণ্ডলের নাম সংক্রান্ত অপশন"
 
 #. i18n: file opsguidesui.ui line 74
-#: rc.cpp:1420
+#: rc.cpp:1473
 #, fuzzy, no-c-format
 msgid "L&atin"
 msgstr "ল্যাটিন"
 
 #. i18n: file opsguidesui.ui line 77
-#: rc.cpp:1423
+#: rc.cpp:1476
 #, no-c-format
 msgid "Use Latin constellation names"
 msgstr "তারামণ্ডলের ল্যাটিন নাম ব্যবহার করো"
 
 #. i18n: file opsguidesui.ui line 80
-#: rc.cpp:1426
+#: rc.cpp:1479
 #, no-c-format
 msgid "Select this to use Latin constellation names on the sky map"
 msgstr "তারামণ্ডলের ল্যাটিন নাম ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: file opsguidesui.ui line 88
-#: rc.cpp:1429
+#: rc.cpp:1482
 #, no-c-format
 msgid "Localized"
 msgstr "স্থানীয়"
 
 #. i18n: file opsguidesui.ui line 91
-#: rc.cpp:1432
+#: rc.cpp:1485
 #, no-c-format
 msgid "Use Localized constellation names"
 msgstr "তারামণ্ডলের স্থানীয় নাম ব্যবহার করো"
 
 #. i18n: file opsguidesui.ui line 94
-#: rc.cpp:1435
+#: rc.cpp:1488
 #, no-c-format
 msgid ""
 "Select this to use constellation names from your locality (if available)"
 msgstr "তারামণ্ডলের স্থানীয় নাম (যদি থাকে) ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: file opsguidesui.ui line 102
-#: rc.cpp:1438
+#: rc.cpp:1491
 #, fuzzy, no-c-format
 msgid "Abbre&viated"
 msgstr "সংক্ষিপ্ত"
 
 #. i18n: file opsguidesui.ui line 105
-#: rc.cpp:1441
+#: rc.cpp:1494
 #, no-c-format
 msgid "Use IAU abbreviations"
 msgstr "আই.এ.ইউ. নির্ধারিত সংক্ষিপ্ত নাম ব্যবহার করো"
 
 #. i18n: file opsguidesui.ui line 108
-#: rc.cpp:1444
+#: rc.cpp:1497
 #, no-c-format
 msgid ""
 "Select this to use abbreviations from the International Astronomical Union as "
@@ -25464,38 +25549,38 @@ msgstr ""
 "লেবেল হিসেবে ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: file opsguidesui.ui line 135
-#: rc.cpp:1447
+#: rc.cpp:1500
 #, fuzzy, no-c-format
 msgid "Mil&ky Way"
 msgstr "আকাশ গঙ্গা"
 
 #. i18n: file opsguidesui.ui line 138
-#: rc.cpp:1450
+#: rc.cpp:1503
 #, no-c-format
 msgid "Draw the Milky Way contour?"
 msgstr "আকাশ গঙ্গার আবয়ব আঁকা হবে কি?"
 
 #. i18n: file opsguidesui.ui line 141
-#: rc.cpp:1453
+#: rc.cpp:1506
 #, no-c-format
 msgid ""
 "If checked, a contour representing the Milky Way will be drawn on the sky map"
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে আকাশ গঙ্গা নির্দেশক আবয়ব আঁকা হবে"
 
 #. i18n: file opsguidesui.ui line 149
-#: rc.cpp:1456
+#: rc.cpp:1509
 #, fuzzy, no-c-format
 msgid "Fill Milk&y Way"
 msgstr "আকাশ গঙ্গার আবয়ব ভরাট করো"
 
 #. i18n: file opsguidesui.ui line 152
-#: rc.cpp:1459
+#: rc.cpp:1512
 #, no-c-format
 msgid "Use filled Milky Way contour?"
 msgstr "আকাশ গঙ্গার আবয়ব ভরাট করা থাকবে কি?"
 
 #. i18n: file opsguidesui.ui line 155
-#: rc.cpp:1462
+#: rc.cpp:1515
 #, no-c-format
 msgid ""
 "If checked, the Milky Way contour will be shown filled.  Otherwise, only the "
@@ -25505,19 +25590,19 @@ msgstr ""
 "শুধুমাত্র বহিঃরেখা আঁকা হবে।"
 
 #. i18n: file opsguidesui.ui line 180
-#: rc.cpp:1465
+#: rc.cpp:1518
 #, fuzzy, no-c-format
 msgid "Coor&dinate grid"
 msgstr "স্থানাংক রেখা"
 
 #. i18n: file opsguidesui.ui line 183
-#: rc.cpp:1468
+#: rc.cpp:1521
 #, no-c-format
 msgid "Draw coordinate grid?"
 msgstr "স্থানাংক রেখা আঁকা হবে কি?"
 
 #. i18n: file opsguidesui.ui line 186
-#: rc.cpp:1471
+#: rc.cpp:1524
 #, no-c-format
 msgid ""
 "If checked, a grid of lines will be drawn every 2 hours in Right Ascension and "
@@ -25527,31 +25612,31 @@ msgstr ""
 "একটি স্থানাংক রেখা আঁকা হবে।"
 
 #. i18n: file opsguidesui.ui line 194
-#: rc.cpp:1474
+#: rc.cpp:1527
 #, fuzzy, no-c-format
 msgid "Celestial e&quator"
 msgstr "খ-বিষুব"
 
 #. i18n: file opsguidesui.ui line 197
-#: rc.cpp:1477
+#: rc.cpp:1530
 #, no-c-format
 msgid "Draw Celestial equator?"
 msgstr "খ-বিষুব আঁকা হবে কি?"
 
 #. i18n: file opsguidesui.ui line 200
-#: rc.cpp:1480
+#: rc.cpp:1533
 #, no-c-format
 msgid "If checked, the celestial equator will be drawn in the sky map."
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে খ-বিষুব আঁকা হবে।"
 
 #. i18n: file opsguidesui.ui line 211
-#: rc.cpp:1486
+#: rc.cpp:1539
 #, no-c-format
 msgid "Draw Ecliptic?"
 msgstr "সূর্যপথ আঁকা হবে কি?"
 
 #. i18n: file opsguidesui.ui line 214
-#: rc.cpp:1489
+#: rc.cpp:1542
 #, no-c-format
 msgid ""
 "If checked, the ecliptic will be drawn on the sky map.  The ecliptic is a great "
@@ -25563,19 +25648,19 @@ msgstr ""
 "সৌরজগতের অন্যান্য সদস্যরাও মোটামুটিভাবে এই পথই অনুসরণ করে।"
 
 #. i18n: file opsguidesui.ui line 222
-#: rc.cpp:1492
+#: rc.cpp:1545
 #, fuzzy, no-c-format
 msgid "Hori&zon (line)"
 msgstr "দিগন্ত (রেখা)"
 
 #. i18n: file opsguidesui.ui line 225
-#: rc.cpp:1495
+#: rc.cpp:1548
 #, no-c-format
 msgid "Draw horizon?"
 msgstr "দিগন্ত আঁকা হবে কি?"
 
 #. i18n: file opsguidesui.ui line 228
-#: rc.cpp:1498
+#: rc.cpp:1551
 #, no-c-format
 msgid ""
 "If checked, a line representing the local horizon will be drawn on the map."
@@ -25584,19 +25669,19 @@ msgstr ""
 "করবে।"
 
 #. i18n: file opsguidesui.ui line 236
-#: rc.cpp:1501
+#: rc.cpp:1554
 #, fuzzy, no-c-format
 msgid "Opaque &ground"
 msgstr "অস্বচ্ছ ভূমি"
 
 #. i18n: file opsguidesui.ui line 239
-#: rc.cpp:1504
+#: rc.cpp:1557
 #, no-c-format
 msgid "Draw opaque ground?"
 msgstr "অস্বচ্ছ ভূমি আঁকা হবে কি?"
 
 #. i18n: file opsguidesui.ui line 242
-#: rc.cpp:1507
+#: rc.cpp:1560
 #, no-c-format
 msgid ""
 "If checked, the area below the horizon will be filled in, to simulate the "
@@ -25607,43 +25692,43 @@ msgstr ""
 "লক্ষ্যণীয় যে, নিরক্ষীয় স্থানাংক ব্যবস্থায় কখনোই ভূমি আঁকা হয় না।"
 
 #. i18n: file opssolarsystemui.ui line 16
-#: rc.cpp:1510
+#: rc.cpp:1563
 #, fuzzy, no-c-format
 msgid "OpsSolarSystem"
 msgstr "সৌরজগত্‍"
 
 #. i18n: file opssolarsystemui.ui line 27
-#: rc.cpp:1513
+#: rc.cpp:1566
 #, no-c-format
 msgid "Sun, Moon && Planets"
 msgstr "সূর্য, চাঁদ ও গ্রহ"
 
 #. i18n: file opssolarsystemui.ui line 49
-#: rc.cpp:1519
+#: rc.cpp:1572
 #, no-c-format
 msgid "Draw Saturn?"
 msgstr "শনিগ্রহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 52
-#: rc.cpp:1522
+#: rc.cpp:1575
 #, no-c-format
 msgid "If checked, Saturn will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শনিগ্রহ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 60
-#: rc.cpp:1525
+#: rc.cpp:1578
 #, no-c-format
 msgid "Use images"
 msgstr "ছবি ব্যবহার করো"
 
 #. i18n: file opssolarsystemui.ui line 63
-#: rc.cpp:1528
+#: rc.cpp:1581
 #, no-c-format
 msgid "Draw major bodies as images?"
 msgstr "প্রধান প্রধান খ-বস্তুকে চিত্র হিসাবে আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 66
-#: rc.cpp:1531
+#: rc.cpp:1584
 #, no-c-format
 msgid ""
 "If checked, then the planets, the Sun and the Moon will be shown as bitmap "
@@ -25653,31 +25738,31 @@ msgstr ""
 "হবে"
 
 #. i18n: file opssolarsystemui.ui line 77
-#: rc.cpp:1537
+#: rc.cpp:1590
 #, no-c-format
 msgid "Draw Mars?"
 msgstr "মঙ্গলগ্রহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 80
-#: rc.cpp:1540
+#: rc.cpp:1593
 #, no-c-format
 msgid "If checked, Mars will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে মঙ্গলগ্রহ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 88
-#: rc.cpp:1543
+#: rc.cpp:1596
 #, no-c-format
 msgid "Use name labels"
 msgstr "নামের লেবেল ব্যবহার করো"
 
 #. i18n: file opssolarsystemui.ui line 91
-#: rc.cpp:1546
+#: rc.cpp:1599
 #, no-c-format
 msgid "Attach Name labels to the major solar system bodies?"
 msgstr "সৌরজগতের প্রধান প্রধান সদস্যদের সাথে কি নামের লেবেল যুক্ত করা হবে?"
 
 #. i18n: file opssolarsystemui.ui line 94
-#: rc.cpp:1549
+#: rc.cpp:1602
 #, no-c-format
 msgid ""
 "If checked, name labels will be attached to the planets, the Sun and the Moon"
@@ -25685,44 +25770,44 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে গ্রহ, সূর্য ও চাঁদের সাথে নামের লেবেল যুক্ত করা হবে"
 
 #. i18n: file opssolarsystemui.ui line 105
-#: rc.cpp:1555
+#: rc.cpp:1608
 #, no-c-format
 msgid "Draw Pluto?"
 msgstr "প্লুটো আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 108
-#: rc.cpp:1558
+#: rc.cpp:1611
 #, no-c-format
 msgid "If checked, Pluto will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে প্লুটো আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 119
-#: rc.cpp:1564
+#: rc.cpp:1617
 #, no-c-format
 msgid "Select all major bodies"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
 #. i18n: file opssolarsystemui.ui line 122
-#: rc.cpp:1567
+#: rc.cpp:1620
 #, no-c-format
 msgid ""
 "Press this to select all planets, the Sun and the Moon to be drawn in the map"
 msgstr "মানচিত্রে প্রতিটি গ্রহ, সূর্য ও চাঁদ আঁকার জন্য এটিতে চাপ দিন"
 
 #. i18n: file opssolarsystemui.ui line 130
-#: rc.cpp:1570
+#: rc.cpp:1623
 #, no-c-format
 msgid "Select None"
 msgstr "কিছুই বাছাই করবে না"
 
 #. i18n: file opssolarsystemui.ui line 133
-#: rc.cpp:1573
+#: rc.cpp:1626
 #, no-c-format
 msgid "Unselect all major bodies"
 msgstr "সকল প্রধান প্রধান খ-বস্তু অবাছাই করো"
 
 #. i18n: file opssolarsystemui.ui line 136
-#: rc.cpp:1576
+#: rc.cpp:1629
 #, no-c-format
 msgid ""
 "Press this button to unselect all planets, the Sun and the Moon so that they "
@@ -25732,169 +25817,169 @@ msgstr ""
 "আঁকা হবে না"
 
 #. i18n: file opssolarsystemui.ui line 147
-#: rc.cpp:1582
+#: rc.cpp:1635
 #, no-c-format
 msgid "Draw Venus?"
 msgstr "শুক্রগ্রহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 150
-#: rc.cpp:1585
+#: rc.cpp:1638
 #, no-c-format
 msgid "If checked, Venus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শুক্রগ্রহ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 158
-#: rc.cpp:1588
+#: rc.cpp:1641
 #, no-c-format
 msgid "The sun"
 msgstr "সূর্য"
 
 #. i18n: file opssolarsystemui.ui line 161
-#: rc.cpp:1591
+#: rc.cpp:1644
 #, no-c-format
 msgid "Draw the Sun?"
 msgstr "সূর্য আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 164
-#: rc.cpp:1594
+#: rc.cpp:1647
 #, no-c-format
 msgid "If checked, the Sun will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে সূর্য আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 175
-#: rc.cpp:1600
+#: rc.cpp:1653
 #, no-c-format
 msgid "Draw Jupiter?"
 msgstr "বৃহস্পতিগ্রহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 178
-#: rc.cpp:1603
+#: rc.cpp:1656
 #, no-c-format
 msgid "If checked, Jupiter will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বৃহস্পতিগ্রহ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 186
-#: rc.cpp:1606
+#: rc.cpp:1659
 #, no-c-format
 msgid "The moon"
 msgstr "চাঁদ"
 
 #. i18n: file opssolarsystemui.ui line 189
-#: rc.cpp:1609
+#: rc.cpp:1662
 #, no-c-format
 msgid "Draw the Moon?"
 msgstr "চাঁদ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 192
-#: rc.cpp:1612
+#: rc.cpp:1665
 #, no-c-format
 msgid "If checked, the Moon will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে চাঁদ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 203
-#: rc.cpp:1618
+#: rc.cpp:1671
 #, no-c-format
 msgid "Draw Mercury?"
 msgstr "বুধগ্রহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 206
-#: rc.cpp:1621
+#: rc.cpp:1674
 #, no-c-format
 msgid "If checked, Mercury will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বুধগ্রহ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 217
-#: rc.cpp:1627
+#: rc.cpp:1680
 #, no-c-format
 msgid "Draw Neptune?"
 msgstr "নেপচুন গ্রহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 220
-#: rc.cpp:1630
+#: rc.cpp:1683
 #, no-c-format
 msgid "If checked, Neptune will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে নেপচুন গ্রহ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 248
-#: rc.cpp:1636
+#: rc.cpp:1689
 #, no-c-format
 msgid "Draw Uranus?"
 msgstr "ইউরেনাস গ্রহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 251
-#: rc.cpp:1639
+#: rc.cpp:1692
 #, no-c-format
 msgid "If checked, Uranus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে ইউরেনাস গ্রহ আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 280
-#: rc.cpp:1642
+#: rc.cpp:1695
 #, no-c-format
 msgid "Minor Planets"
 msgstr "অপ্রধান গ্রহসমূহ আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 294
-#: rc.cpp:1648
+#: rc.cpp:1701
 #, no-c-format
 msgid "Draw comets?"
 msgstr "ধূমকেতু আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 297
-#: rc.cpp:1651
+#: rc.cpp:1704
 #, no-c-format
 msgid "If checked, comets will be drawn on the map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে ধূমকেতু আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 322
-#: rc.cpp:1654
+#: rc.cpp:1707
 #, no-c-format
 msgid "Show asteroids brighter than"
 msgstr "এটি অপেক্ষা অধিক উজ্জ্বল গ্রহাণু দেখাও"
 
 #. i18n: file opssolarsystemui.ui line 338
-#: rc.cpp:1660
+#: rc.cpp:1713
 #, no-c-format
 msgid "AU"
 msgstr "অ্যাস্ট্রোনমিক্যাল-একক"
 
 #. i18n: file opssolarsystemui.ui line 357
-#: rc.cpp:1669
+#: rc.cpp:1722
 #, no-c-format
 msgid "Draw asteroids?"
 msgstr "গ্রহাণু আঁকা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 360
-#: rc.cpp:1672
+#: rc.cpp:1725
 #, no-c-format
 msgid "If checked, asteroids will be drawn on the map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে গ্রহাণু আঁকা হবে।"
 
 #. i18n: file opssolarsystemui.ui line 368
-#: rc.cpp:1675
+#: rc.cpp:1728
 #, no-c-format
 msgid "Show names of asteroids brighter than"
 msgstr "এটি অপেক্ষা অধিক উজ্জ্বল গ্রহাণুদের নাম দেখাও"
 
 #. i18n: file opssolarsystemui.ui line 371
-#: rc.cpp:1678
+#: rc.cpp:1731
 #, no-c-format
 msgid "Attach names to bright asteroids?"
 msgstr "উজ্জ্বল গ্রহাণুদের সাথে তাদের নাম যুক্ত করা হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 374
-#: rc.cpp:1681
+#: rc.cpp:1734
 #, no-c-format
 msgid "If checked, then name labels will be attached to bright asteroids"
 msgstr "এটিতে টিক দেওয়া থাকলে, উজ্জ্বল গ্রহাণুদের সাথে তাদের নাম যুক্ত করা হবে"
 
 #. i18n: file opssolarsystemui.ui line 388
-#: rc.cpp:1684
+#: rc.cpp:1737
 #, no-c-format
 msgid "Maximum distance for comet names"
 msgstr "সর্বোচ্চ যে দূরত্বের ক্ষেত্রে ধূমকেতুর নাম দেখানো হবে"
 
 #. i18n: file opssolarsystemui.ui line 391
-#: rc.cpp:1687
+#: rc.cpp:1740
 #, no-c-format
 msgid ""
 "Set the maximum distance from the Sun for a comet to have a name label, in "
@@ -25907,19 +25992,19 @@ msgstr ""
 "মিলিয়ন কিলোমিটার"
 
 #. i18n: file opssolarsystemui.ui line 399
-#: rc.cpp:1690
+#: rc.cpp:1743
 #, no-c-format
 msgid "Show names of comets within"
 msgstr "এই দূরত্বের মধ্যে অবস্থিত ধূমকেতুর নাম দেখাও"
 
 #. i18n: file opssolarsystemui.ui line 402
-#: rc.cpp:1693
+#: rc.cpp:1746
 #, no-c-format
 msgid "Show names of comets near the Sun"
 msgstr "সূর্যের নিকটবর্তী ধূমকেতুর নাম দেখাও"
 
 #. i18n: file opssolarsystemui.ui line 405
-#: rc.cpp:1696
+#: rc.cpp:1749
 #, no-c-format
 msgid ""
 "If checked, the comets near the Sun will have name labels attached.  Comets "
@@ -25931,50 +26016,50 @@ msgstr ""
 "উজ্জ্বলতার নিম্নসীমা এক্ষেত্রে কার্যকর নয়।"
 
 #. i18n: file opssolarsystemui.ui line 416
-#: rc.cpp:1699
+#: rc.cpp:1752
 #, no-c-format
 msgid "faint limit for asteroids"
 msgstr "গ্রহাণুর উজ্জ্বলতার নিম্নসীমা"
 
 #. i18n: file opssolarsystemui.ui line 419
-#: rc.cpp:1702
+#: rc.cpp:1755
 #, no-c-format
 msgid "Set the faintest magnitude for drawing asteroids"
 msgstr "গ্রহাণু আঁকার ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা নির্ধারণ করুন"
 
 #. i18n: file opssolarsystemui.ui line 430
-#: rc.cpp:1705
+#: rc.cpp:1758
 #, no-c-format
 msgid "Faint limit for asteroid name labels"
 msgstr "গ্রহাণুর নামের লেবেল দেখানোর ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা"
 
 #. i18n: file opssolarsystemui.ui line 433
-#: rc.cpp:1708
+#: rc.cpp:1761
 #, no-c-format
 msgid "Set the faint limit for drawing asteroid name labels"
 msgstr ""
 "গ্রহাণুর নামের লেবেল দেখানোর ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা নির্ধারণ করুন"
 
 #. i18n: file opssolarsystemui.ui line 443
-#: rc.cpp:1711
+#: rc.cpp:1764
 #, no-c-format
 msgid "Orbital Trails"
 msgstr "কক্ষপথ"
 
 #. i18n: file opssolarsystemui.ui line 454
-#: rc.cpp:1714
+#: rc.cpp:1767
 #, no-c-format
 msgid "Always show trail when tracking a solar system body"
 msgstr "সৌরজগতের কোন সদস্যকে অনুসরণের ক্ষেত্রে সর্বদা তার গতিপথ দেখাবে"
 
 #. i18n: file opssolarsystemui.ui line 457
-#: rc.cpp:1717
+#: rc.cpp:1770
 #, no-c-format
 msgid "Auto-trail tracked bodies"
 msgstr "স্বয়ংক্রিয়ভাবে অনুসরণকৃত খ-বস্তুর গতিপথ দেখাও"
 
 #. i18n: file opssolarsystemui.ui line 460
-#: rc.cpp:1720
+#: rc.cpp:1773
 #, no-c-format
 msgid ""
 "If checked then any solar system body will have a temporary trail attached "
@@ -25984,19 +26069,19 @@ msgstr ""
 "একটি অস্থায়ী গতিপথ দেখানো হবে।"
 
 #. i18n: file opssolarsystemui.ui line 476
-#: rc.cpp:1723
+#: rc.cpp:1776
 #, no-c-format
 msgid "Fade trails to background color"
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দাও"
 
 #. i18n: file opssolarsystemui.ui line 479
-#: rc.cpp:1726
+#: rc.cpp:1779
 #, no-c-format
 msgid "Fade trail color into the background?"
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দেওয়া হবে কি?"
 
 #. i18n: file opssolarsystemui.ui line 482
-#: rc.cpp:1729
+#: rc.cpp:1782
 #, no-c-format
 msgid ""
 "If checked, the color of the planet trail will be blended into the background "
@@ -26005,19 +26090,19 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে, গ্রহের গতিপথ পটভূমির আকাশের রঙের সাথে মিলে যাবে।"
 
 #. i18n: file opssolarsystemui.ui line 507
-#: rc.cpp:1732
+#: rc.cpp:1785
 #, no-c-format
 msgid "Remove All Trails"
 msgstr "সকল গতিপথ অপসারণ করো"
 
 #. i18n: file opssolarsystemui.ui line 510
-#: rc.cpp:1735
+#: rc.cpp:1788
 #, no-c-format
 msgid "Clear all orbit trails"
 msgstr "প্রতিটি কক্ষপথ মুছে ফেলো"
 
 #. i18n: file opssolarsystemui.ui line 513
-#: rc.cpp:1738
+#: rc.cpp:1791
 #, no-c-format
 msgid ""
 "Press this to clear all orbit trails that you may have attached to solar system "
@@ -26027,97 +26112,79 @@ msgstr ""
 "যে কক্ষপথ যুক্ত করেছেন, তা মুছে ফেলতে হলে এটিতে চাপ দিন।"
 
 #. i18n: file statform.ui line 27
-#: rc.cpp:1744
+#: rc.cpp:1797
 #, no-c-format
 msgid "Std. dev:"
 msgstr "আদর্শ বিচ্যুতি:"
 
 #. i18n: file statform.ui line 43
-#: rc.cpp:1747
+#: rc.cpp:1800
 #, no-c-format
 msgid "Max:"
 msgstr "সর্বোচ্চ:"
 
 #. i18n: file statform.ui line 59
-#: rc.cpp:1750 rc.cpp:1762
+#: rc.cpp:1803 rc.cpp:1815
 #, no-c-format
 msgid "@"
 msgstr "@"
 
 #. i18n: file statform.ui line 67
-#: rc.cpp:1753
+#: rc.cpp:1806
 #, no-c-format
 msgid "Bitpix:"
 msgstr "বিটপিক্স:"
 
 #. i18n: file statform.ui line 83
-#: rc.cpp:1756 rc.cpp:3491 rc.cpp:3569
+#: rc.cpp:1809 rc.cpp:3544 rc.cpp:3622
 #, no-c-format
 msgid "Height:"
 msgstr "উচ্চতা:"
 
 #. i18n: file statform.ui line 99
-#: rc.cpp:1759
+#: rc.cpp:1812
 #, no-c-format
 msgid "Mean:"
 msgstr "গড়:"
 
 #. i18n: file statform.ui line 123
-#: rc.cpp:1765
+#: rc.cpp:1818
 #, no-c-format
 msgid "Width:"
 msgstr "প্রস্থ:"
 
 #. i18n: file statform.ui line 155
-#: rc.cpp:1768
+#: rc.cpp:1821
 #, no-c-format
 msgid "Min:"
 msgstr "সর্বনিম্ন:"
 
 #. i18n: file streamformui.ui line 16
-#: rc.cpp:1771
+#: rc.cpp:1824
 #, no-c-format
 msgid "Video Stream"
 msgstr "ভিডিও স্ট্রিম"
 
-#. i18n: file streamformui.ui line 50
-#: rc.cpp:1775
-#, no-c-format
-msgid "Play/Pause"
-msgstr "চালাও/বিরতি"
-
-#. i18n: file streamformui.ui line 76
-#: rc.cpp:1780
-#, no-c-format
-msgid "Capture Image"
-msgstr "ছবি ধারণ করো"
-
-#. i18n: file streamformui.ui line 87
-#: rc.cpp:1784
-#, no-c-format
-msgid "Image Format"
-msgstr "ছবির বিন্যাস (Format)"
-
 #. i18n: file telescopewizard.ui line 36
-#: rc.cpp:1787
+#: rc.cpp:1840
 #, no-c-format
 msgid "Telescope Wizard"
 msgstr "দূরবীক্ষণ উইজার্ড"
 
 #. i18n: file telescopewizard.ui line 89
-#: rc.cpp:1793
+#: rc.cpp:1846
 #, no-c-format
 msgid "&Back"
 msgstr "পূর্ব&বর্তী"
 
 #. i18n: file telescopewizard.ui line 97
-#: rc.cpp:1796
+#: rc.cpp:1849
 #, fuzzy, no-c-format
 msgid "&Next"
 msgstr "পশ্চিম (&শ)"
 
 #. i18n: file telescopewizard.ui line 142
-#: rc.cpp:1799
+#: rc.cpp:1852
 #, no-c-format
 msgid ""
 "Welcome to the <b>KStars Telescope Setup Wizard!</b> \n"
@@ -26141,7 +26208,7 @@ msgstr ""
 "অনুগ্রহপূর্বক এগিয়ে যাওয়ার জন্য 'পরবর্তী' বাটন চাপুন।"
 
 #. i18n: file telescopewizard.ui line 168
-#: rc.cpp:1808
+#: rc.cpp:1861
 #, no-c-format
 msgid ""
 "<h3>1. Telescope model</h3>\n"
@@ -26155,7 +26222,7 @@ msgstr ""
 "পর 'পরবর্তী' বাটন চাপুন।"
 
 #. i18n: file telescopewizard.ui line 246
-#: rc.cpp:1813
+#: rc.cpp:1866
 #, no-c-format
 msgid ""
 "<b>Tip</b>\n"
@@ -26167,7 +26234,7 @@ msgstr ""
 "ডিভাইস নিয়ন্ত্রণের জন্য <tt>LX200 জাতীয়</tt> বেছে নিন।"
 
 #. i18n: file telescopewizard.ui line 280
-#: rc.cpp:1817
+#: rc.cpp:1870
 #, no-c-format
 msgid ""
 "<h3>2. Align your telescope</h3>\n"
@@ -26190,7 +26257,7 @@ msgstr ""
 "<br><br><br>এরপর এগিয়ে যাওয়ার জন্য 'পরবর্তী' চাপুন।"
 
 #. i18n: file telescopewizard.ui line 307
-#: rc.cpp:1825
+#: rc.cpp:1878
 #, no-c-format
 msgid ""
 "<h3>3. Verify local settings</h3>\n"
@@ -26206,37 +26273,37 @@ msgstr ""
 "নামক বাটন চেপে আপনি তা সংশোধন করতে পারবেন।\n"
 
 #. i18n: file telescopewizard.ui line 367
-#: rc.cpp:1831
+#: rc.cpp:1884
 #, no-c-format
 msgid "<b>Time</b>"
 msgstr "<b>সময়</b>"
 
 #. i18n: file telescopewizard.ui line 398
-#: rc.cpp:1835
+#: rc.cpp:1888
 #, no-c-format
 msgid "<b>Date</b>"
 msgstr "<b>তারিখ</b>"
 
 #. i18n: file telescopewizard.ui line 431
-#: rc.cpp:1839
+#: rc.cpp:1892
 #, no-c-format
 msgid "<b>Location</b>"
 msgstr "<b>অবস্থান</b>"
 
 #. i18n: file telescopewizard.ui line 464
-#: rc.cpp:1843
+#: rc.cpp:1896
 #, no-c-format
 msgid "Set Time..."
 msgstr "সময় নির্ধারণ..."
 
 #. i18n: file telescopewizard.ui line 472
-#: rc.cpp:1846
+#: rc.cpp:1899
 #, no-c-format
 msgid "Set Location..."
 msgstr "অবস্থান নির্ধারণ..."
 
 #. i18n: file telescopewizard.ui line 525
-#: rc.cpp:1849
+#: rc.cpp:1902
 #, no-c-format
 msgid ""
 "<h3>4. Determine connection port</h3>\n"
@@ -26257,115 +26324,115 @@ msgstr ""
 "স্ক্যান করতে কয়েক মিনিট পর্যন্ত সময় ব্যায় হতে পারে।"
 
 #. i18n: file telescopewizard.ui line 561
-#: rc.cpp:1855
+#: rc.cpp:1908
 #, no-c-format
 msgid "<b>Port:</b>"
 msgstr "<b>পোর্ট:</b>"
 
 #. i18n: file thumbnaileditorui.ui line 16
-#: rc.cpp:1858
+#: rc.cpp:1911
 #, no-c-format
 msgid "Thumbnail Editor"
 msgstr ""
 
 #. i18n: file thumbnaileditorui.ui line 50
-#: rc.cpp:1861
+#: rc.cpp:1914
 #, no-c-format
 msgid "L"
 msgstr ""
 
 #. i18n: file thumbnaileditorui.ui line 70
-#: rc.cpp:1864
+#: rc.cpp:1917
 #, fuzzy, no-c-format
 msgid "R"
 msgstr "নতুন বিষুবাংশ:"
 
 #. i18n: file thumbnaileditorui.ui line 78
-#: rc.cpp:1867
+#: rc.cpp:1920
 #, no-c-format
 msgid "Crop"
 msgstr ""
 
 #. i18n: file thumbnaileditorui.ui line 124
-#: rc.cpp:1870
+#: rc.cpp:1923
 #, no-c-format
 msgid "Crop region: [0,0  200 x 200]"
 msgstr ""
 
 #. i18n: file thumbnaileditorui.ui line 141
-#: rc.cpp:1873
+#: rc.cpp:1926
 #, no-c-format
 msgid "(crop region will be scaled to 200x200)"
 msgstr ""
 
 #. i18n: file thumbnailpickerui.ui line 16
-#: rc.cpp:1876
+#: rc.cpp:1929
 #, no-c-format
 msgid "Thumbnail Picker"
 msgstr ""
 
 #. i18n: file thumbnailpickerui.ui line 46
-#: rc.cpp:1879 thumbnailpicker.cpp:157
+#: rc.cpp:1932 thumbnailpicker.cpp:157
 #, no-c-format
 msgid "Search results:"
 msgstr ""
 
 #. i18n: file thumbnailpickerui.ui line 95
-#: rc.cpp:1882
+#: rc.cpp:1935
 #, no-c-format
 msgid "Specify Image location:"
 msgstr ""
 
 #. i18n: file thumbnailpickerui.ui line 151
-#: rc.cpp:1885
+#: rc.cpp:1938
 #, no-c-format
 msgid "Current thumbnail:"
 msgstr ""
 
 #. i18n: file thumbnailpickerui.ui line 244
-#: rc.cpp:1888
+#: rc.cpp:1941
 #, fuzzy, no-c-format
 msgid "Edit Image"
 msgstr "ছবি"
 
 #. i18n: file thumbnailpickerui.ui line 252
-#: rc.cpp:1891
+#: rc.cpp:1944
 #, fuzzy, no-c-format
 msgid "Unset Image"
 msgstr "ছবি ব্যবহার করো"
 
 #. i18n: file tools/altvstimeui.ui line 16
-#: rc.cpp:1894 tools/altvstime.cpp:45
+#: rc.cpp:1947 tools/altvstime.cpp:45
 #, no-c-format
 msgid "Altitude vs. Time"
 msgstr "উন্নতি বনাম সময়"
 
 #. i18n: file tools/altvstimeui.ui line 39
-#: rc.cpp:1897
+#: rc.cpp:1950
 #, fuzzy, no-c-format
 msgid "Sources"
 msgstr "বর্গক্ষেত্র"
 
 #. i18n: file tools/altvstimeui.ui line 93
-#: rc.cpp:1903 rc.cpp:2191 rc.cpp:2206
+#: rc.cpp:1956 rc.cpp:2244 rc.cpp:2259
 #, fuzzy, no-c-format
 msgid "Dec:"
 msgstr "ডিভাইস:"
 
 #. i18n: file tools/altvstimeui.ui line 109
-#: rc.cpp:1906 rc.cpp:2180 rc.cpp:2203
+#: rc.cpp:1959 rc.cpp:2233 rc.cpp:2256
 #, fuzzy, no-c-format
 msgid "RA:"
 msgstr "নতুন বিষুবাংশ:"
 
 #. i18n: file tools/altvstimeui.ui line 123
-#: rc.cpp:1909
+#: rc.cpp:1962
 #, fuzzy, no-c-format
 msgid "Name of plotted object"
 msgstr "নামহীন বস্তু"
 
 #. i18n: file tools/altvstimeui.ui line 130
-#: rc.cpp:1912
+#: rc.cpp:1965
 #, no-c-format
 msgid ""
 "There are two ways to use this field:  \n"
@@ -26380,69 +26447,69 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/altvstimeui.ui line 200
-#: rc.cpp:1922
+#: rc.cpp:1975
 #, fuzzy, no-c-format
 msgid "Find Object..."
 msgstr "&বস্তু খোঁজো..."
 
 #. i18n: file tools/altvstimeui.ui line 216
-#: rc.cpp:1925
+#: rc.cpp:1978
 #, fuzzy, no-c-format
 msgid "Plot"
 msgstr "পোর্ট"
 
 #. i18n: file tools/altvstimeui.ui line 254
-#: rc.cpp:1931
+#: rc.cpp:1984
 #, fuzzy, no-c-format
 msgid "Clear List"
 msgstr "ঘর ফাঁকা করো"
 
 #. i18n: file tools/altvstimeui.ui line 280
-#: rc.cpp:1934 rc.cpp:3383
+#: rc.cpp:1987 rc.cpp:3436
 #, fuzzy, no-c-format
 msgid "Date && Location"
 msgstr "&অবস্থানসূচক বাক্স আড়াল করো"
 
 #. i18n: file tools/altvstimeui.ui line 299
-#: rc.cpp:1937 rc.cpp:2406 rc.cpp:2448 rc.cpp:2499 rc.cpp:2553 rc.cpp:2616
-#: rc.cpp:3083 rc.cpp:3137 rc.cpp:3197 rc.cpp:3386 rc.cpp:3434 rc.cpp:3476
-#: rc.cpp:3554
+#: rc.cpp:1990 rc.cpp:2459 rc.cpp:2501 rc.cpp:2552 rc.cpp:2606 rc.cpp:2669
+#: rc.cpp:3136 rc.cpp:3190 rc.cpp:3250 rc.cpp:3439 rc.cpp:3487 rc.cpp:3529
+#: rc.cpp:3607
 #, fuzzy, no-c-format
 msgid "Date:"
 msgstr "তথ্য"
 
 #. i18n: file tools/altvstimeui.ui line 345
-#: rc.cpp:1940
+#: rc.cpp:1993
 #, fuzzy, no-c-format
 msgid "Choose City..."
 msgstr "শহর বেছে নিন"
 
 #. i18n: file tools/altvstimeui.ui line 361
-#: rc.cpp:1943
+#: rc.cpp:1996
 #, fuzzy, no-c-format
 msgid "Long.:"
 msgstr "লগ"
 
 #. i18n: file tools/altvstimeui.ui line 393
-#: rc.cpp:1946
+#: rc.cpp:1999
 #, fuzzy, no-c-format
 msgid "Lat.:"
 msgstr "ল্যাটিন"
 
 #. i18n: file tools/altvstimeui.ui line 461
-#: rc.cpp:1949
+#: rc.cpp:2002
 #, fuzzy, no-c-format
 msgid "Update"
 msgstr "আপডেট তালিকা"
 
 #. i18n: file tools/argchangeviewoption.ui line 32
-#: rc.cpp:1952
+#: rc.cpp:2005
 #, no-c-format
 msgid "List of adjustable options"
 msgstr ""
 
 #. i18n: file tools/argchangeviewoption.ui line 35
-#: rc.cpp:1955
+#: rc.cpp:2008
 #, no-c-format
 msgid ""
 "Select an option from this list to set its value.  You may also select the "
@@ -26450,25 +26517,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argchangeviewoption.ui line 60
-#: rc.cpp:1958
+#: rc.cpp:2011
 #, fuzzy, no-c-format
 msgid "Value:"
 msgstr "মান"
 
 #. i18n: file tools/argchangeviewoption.ui line 68
-#: rc.cpp:1961
+#: rc.cpp:2014
 #, no-c-format
 msgid "Browse Tree"
 msgstr ""
 
 #. i18n: file tools/argchangeviewoption.ui line 71
-#: rc.cpp:1964
+#: rc.cpp:2017
 #, no-c-format
 msgid "Show Tree View of options"
 msgstr ""
 
 #. i18n: file tools/argchangeviewoption.ui line 74
-#: rc.cpp:1967
+#: rc.cpp:2020
 #, no-c-format
 msgid ""
 "Press this button to select a View Option from a Tree list, in which they are "
@@ -26477,13 +26544,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argchangeviewoption.ui line 82
-#: rc.cpp:1970
+#: rc.cpp:2023
 #, no-c-format
 msgid "value for selected option"
 msgstr ""
 
 #. i18n: file tools/argchangeviewoption.ui line 85
-#: rc.cpp:1973
+#: rc.cpp:2026
 #, no-c-format
 msgid ""
 "Set the value for the selected view option here.  Make sure the value you enter "
@@ -26494,97 +26561,97 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argchangeviewoption.ui line 110
-#: rc.cpp:1976
+#: rc.cpp:2029
 #, no-c-format
 msgid "Option:"
 msgstr ""
 
 #. i18n: file tools/argexportimage.ui line 32
-#: rc.cpp:1979
+#: rc.cpp:2032
 #, fuzzy, no-c-format
 msgid "File name:"
 msgstr "ফাইলের নাম"
 
 #. i18n: file tools/argexportimage.ui line 114
-#: rc.cpp:1982
+#: rc.cpp:2035
 #, fuzzy, no-c-format
 msgid "Image width:"
 msgstr "ছবির ফিল্টার"
 
 #. i18n: file tools/argexportimage.ui line 122
-#: rc.cpp:1985
+#: rc.cpp:2038
 #, fuzzy, no-c-format
 msgid "Image height:"
 msgstr "ছবির ফিল্টার"
 
 #. i18n: file tools/arglooktoward.ui line 32
-#: rc.cpp:1988 rc.cpp:2257
+#: rc.cpp:2041 rc.cpp:2310
 #, no-c-format
 msgid "Dir:"
 msgstr ""
 
 #. i18n: file tools/arglooktoward.ui line 43
-#: rc.cpp:1992
+#: rc.cpp:2045
 #, fuzzy, no-c-format
 msgid "north"
 msgstr "&উত্তর"
 
 #. i18n: file tools/arglooktoward.ui line 48
-#: rc.cpp:1995
+#: rc.cpp:2048
 #, fuzzy, no-c-format
 msgid "northeast"
 msgstr "উত্তর-পূর্ব"
 
 #. i18n: file tools/arglooktoward.ui line 53
-#: rc.cpp:1998
+#: rc.cpp:2051
 #, fuzzy, no-c-format
 msgid "east"
 msgstr "পশ্চিম (&শ)"
 
 #. i18n: file tools/arglooktoward.ui line 58
-#: rc.cpp:2001
+#: rc.cpp:2054
 #, fuzzy, no-c-format
 msgid "southeast"
 msgstr "দক্ষিণ-পূর্ব"
 
 #. i18n: file tools/arglooktoward.ui line 63
-#: rc.cpp:2004
+#: rc.cpp:2057
 #, fuzzy, no-c-format
 msgid "south"
 msgstr "&দক্ষিণ"
 
 #. i18n: file tools/arglooktoward.ui line 68
-#: rc.cpp:2007
+#: rc.cpp:2060
 #, fuzzy, no-c-format
 msgid "southwest"
 msgstr "দক্ষিণ-পশ্চিম"
 
 #. i18n: file tools/arglooktoward.ui line 73
-#: rc.cpp:2010
+#: rc.cpp:2063
 #, fuzzy, no-c-format
 msgid "west"
 msgstr "পশ্চিম (&শ)"
 
 #. i18n: file tools/arglooktoward.ui line 78
-#: rc.cpp:2013
+#: rc.cpp:2066
 #, fuzzy, no-c-format
 msgid "northwest"
 msgstr "উত্তর-পশ্চিম"
 
 #. i18n: file tools/arglooktoward.ui line 83
-#: rc.cpp:2016
+#: rc.cpp:2069
 #, fuzzy, no-c-format
 msgid "zenith"
 msgstr "সুবিন্দু (&স)"
 
 #. i18n: file tools/arglooktoward.ui line 93
-#: rc.cpp:2019
+#: rc.cpp:2072
 #, no-c-format
 msgid "Target object or direction"
 msgstr ""
 
 #. i18n: file tools/arglooktoward.ui line 96
-#: rc.cpp:2022
+#: rc.cpp:2075
 #, no-c-format
 msgid ""
 "Select a direction or object to center on.  The combo box provides a list of "
@@ -26594,19 +26661,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/arglooktoward.ui line 109
-#: rc.cpp:2025 rc.cpp:2219
+#: rc.cpp:2078 rc.cpp:2272
 #, fuzzy, no-c-format
 msgid "Object"
 msgstr "বস্তু অনুসন্ধান করো"
 
 #. i18n: file tools/arglooktoward.ui line 112
-#: rc.cpp:2028 rc.cpp:2222
+#: rc.cpp:2081 rc.cpp:2275
 #, no-c-format
 msgid "Select object from a list"
 msgstr ""
 
 #. i18n: file tools/arglooktoward.ui line 115
-#: rc.cpp:2031 rc.cpp:2225
+#: rc.cpp:2084 rc.cpp:2278
 #, no-c-format
 msgid ""
 "Opens the Find Object dialog, which allows you to select an object from the "
@@ -26615,37 +26682,37 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argprintimage.ui line 24
-#: rc.cpp:2034
+#: rc.cpp:2087
 #, fuzzy, no-c-format
 msgid "Show print dialog"
 msgstr "ক্যাটালগ দেখাও"
 
 #. i18n: file tools/argprintimage.ui line 32
-#: rc.cpp:2037
+#: rc.cpp:2090
 #, fuzzy, no-c-format
 msgid "Use star chart colors"
 msgstr "তারা মানচিত্র"
 
 #. i18n: file tools/argsetactionindi.ui line 16
-#: rc.cpp:2040
+#: rc.cpp:2093
 #, no-c-format
 msgid "argSetActionINDI"
 msgstr ""
 
 #. i18n: file tools/argsetactionindi.ui line 51
-#: rc.cpp:2046 rc.cpp:2197
+#: rc.cpp:2099 rc.cpp:2250
 #, fuzzy, no-c-format
 msgid "Action:"
 msgstr "বিবরণ:"
 
 #. i18n: file tools/argsetaltaz.ui line 43
-#: rc.cpp:2049
+#: rc.cpp:2102
 #, fuzzy, no-c-format
 msgid "Altitude angle"
 msgstr "উন্নতি:"
 
 #. i18n: file tools/argsetaltaz.ui line 48
-#: rc.cpp:2052
+#: rc.cpp:2105
 #, no-c-format
 msgid ""
 "Set the Altitude coordinate to be focused on in the sky map, in degrees.  You "
@@ -26660,19 +26727,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetaltaz.ui line 56
-#: rc.cpp:2057
+#: rc.cpp:2110
 #, no-c-format
 msgid "Az:"
 msgstr ""
 
 #. i18n: file tools/argsetaltaz.ui line 75
-#: rc.cpp:2060
+#: rc.cpp:2113
 #, fuzzy, no-c-format
 msgid "Azimuth angle"
 msgstr "দিগংশ:"
 
 #. i18n: file tools/argsetaltaz.ui line 80
-#: rc.cpp:2063
+#: rc.cpp:2116
 #, no-c-format
 msgid ""
 "Set the Azimuth coordinate to be focused on in the skymap, in degrees.  You can "
@@ -26687,61 +26754,61 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetaltaz.ui line 88
-#: rc.cpp:2068
+#: rc.cpp:2121
 #, fuzzy, no-c-format
 msgid "Alt:"
 msgstr "উন্নতি:"
 
 #. i18n: file tools/argsetccdtempindi.ui line 48
-#: rc.cpp:2074
+#: rc.cpp:2127
 #, no-c-format
 msgid "Temp:"
 msgstr ""
 
 #. i18n: file tools/argsetcolor.ui line 32
-#: rc.cpp:2077
+#: rc.cpp:2130
 #, fuzzy, no-c-format
 msgid "Color name:"
 msgstr "অথবা নাম:"
 
 #. i18n: file tools/argsetcolor.ui line 40
-#: rc.cpp:2080
+#: rc.cpp:2133
 #, fuzzy, no-c-format
 msgid "Color value:"
 msgstr "রং:"
 
 #. i18n: file tools/argsetfilternumindi.ui line 16
-#: rc.cpp:2084
+#: rc.cpp:2137
 #, no-c-format
 msgid "ArgSetCCDTempINDI"
 msgstr ""
 
 #. i18n: file tools/argsetfocusspeedindi.ui line 48
-#: rc.cpp:2096
+#: rc.cpp:2149
 #, fuzzy, no-c-format
 msgid "Speed:"
 msgstr "আকৃতি:"
 
 #. i18n: file tools/argsetfocustimeoutindi.ui line 48
-#: rc.cpp:2102
+#: rc.cpp:2155
 #, fuzzy, no-c-format
 msgid "Timeout:"
 msgstr "সময়"
 
 #. i18n: file tools/argsetframetypeindi.ui line 48
-#: rc.cpp:2108
+#: rc.cpp:2161
 #, no-c-format
 msgid "Type:"
 msgstr ""
 
 #. i18n: file tools/argsetgeolocation.ui line 56
-#: rc.cpp:2114
+#: rc.cpp:2167
 #, fuzzy, no-c-format
 msgid "Country name"
 msgstr "দেশ:"
 
 #. i18n: file tools/argsetgeolocation.ui line 59
-#: rc.cpp:2117
+#: rc.cpp:2170
 #, no-c-format
 msgid ""
 "Enter the Country name for the desired location.  It might be easier to use the "
@@ -26750,13 +26817,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetgeolocation.ui line 83
-#: rc.cpp:2126
+#: rc.cpp:2179
 #, no-c-format
 msgid "City name"
 msgstr ""
 
 #. i18n: file tools/argsetgeolocation.ui line 86
-#: rc.cpp:2129
+#: rc.cpp:2182
 #, no-c-format
 msgid ""
 "Enter the City name for the desired location.  It might be easier to use the "
@@ -26765,13 +26832,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetgeolocation.ui line 94
-#: rc.cpp:2132
+#: rc.cpp:2185
 #, fuzzy, no-c-format
 msgid "Province name"
 msgstr "প্রদেশ:"
 
 #. i18n: file tools/argsetgeolocation.ui line 97
-#: rc.cpp:2135
+#: rc.cpp:2188
 #, no-c-format
 msgid ""
 "Enter the Province name for the desired location.  It might be easier to use "
@@ -26780,19 +26847,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetgeolocation.ui line 132
-#: rc.cpp:2138
+#: rc.cpp:2191
 #, fuzzy, no-c-format
 msgid "Find City"
 msgstr "বস্তু খোঁজো"
 
 #. i18n: file tools/argsetgeolocation.ui line 135
-#: rc.cpp:2141
+#: rc.cpp:2194
 #, no-c-format
 msgid "Open the Set Location tool"
 msgstr ""
 
 #. i18n: file tools/argsetgeolocation.ui line 138
-#: rc.cpp:2144
+#: rc.cpp:2197
 #, no-c-format
 msgid ""
 "Press this button to open the Set Location dialog, which will allow you to "
@@ -26802,25 +26869,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetgeolocationindi.ui line 48
-#: rc.cpp:2150
+#: rc.cpp:2203
 #, fuzzy, no-c-format
 msgid "Long:"
 msgstr "লগ"
 
 #. i18n: file tools/argsetgeolocationindi.ui line 56
-#: rc.cpp:2153
+#: rc.cpp:2206
 #, fuzzy, no-c-format
 msgid "Lat:"
 msgstr "ল্যাটিন"
 
 #. i18n: file tools/argsetlocaltime.ui line 57
-#: rc.cpp:2163
+#: rc.cpp:2216
 #, fuzzy, no-c-format
 msgid "Set the Time"
 msgstr "সময় নির্ধারণ..."
 
 #. i18n: file tools/argsetradec.ui line 48
-#: rc.cpp:2175
+#: rc.cpp:2228
 #, no-c-format
 msgid ""
 "Enter the Declination coordinate to be focused on in the skymap, in degrees.  "
@@ -26836,7 +26903,7 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetradec.ui line 80
-#: rc.cpp:2186
+#: rc.cpp:2239
 #, no-c-format
 msgid ""
 "Enter the Right Ascension coordinate to be focused on in the skymap, in hours.  "
@@ -26853,25 +26920,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsettargetnameindi.ui line 48
-#: rc.cpp:2216
+#: rc.cpp:2269
 #, fuzzy, no-c-format
 msgid "Object:"
 msgstr "বস্তু অনুসন্ধান করো"
 
 #. i18n: file tools/argsettrack.ui line 32
-#: rc.cpp:2228
+#: rc.cpp:2281
 #, fuzzy, no-c-format
 msgid "Track"
 msgstr "পূর্ব&বর্তী"
 
 #. i18n: file tools/argsettrack.ui line 35
-#: rc.cpp:2231
+#: rc.cpp:2284
 #, fuzzy, no-c-format
 msgid "Toggle Tracking on/off"
 msgstr "&অনুসরণ আরম্ভ করো"
 
 #. i18n: file tools/argsettrack.ui line 40
-#: rc.cpp:2234
+#: rc.cpp:2287
 #, no-c-format
 msgid ""
 "If checked, the sky will remain focused on its current position or object as "
@@ -26885,31 +26952,31 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argsetutcindi.ui line 48
-#: rc.cpp:2242
+#: rc.cpp:2295
 #, fuzzy, no-c-format
 msgid "Date/Time:"
 msgstr "তারিখ ও সময়"
 
 #. i18n: file tools/argstartexposureindi.ui line 48
-#: rc.cpp:2251
+#: rc.cpp:2304
 #, fuzzy, no-c-format
 msgid "Duration:"
 msgstr "দিনের দৈর্ঘ্য"
 
 #. i18n: file tools/argwaitfor.ui line 32
-#: rc.cpp:2284
+#: rc.cpp:2337
 #, no-c-format
 msgid "<font color=\"#00007f\">Sec:</font>"
 msgstr ""
 
 #. i18n: file tools/argwaitfor.ui line 40
-#: rc.cpp:2287
+#: rc.cpp:2340
 #, no-c-format
 msgid "Pause delay in seconds"
 msgstr ""
 
 #. i18n: file tools/argwaitfor.ui line 43
-#: rc.cpp:2290
+#: rc.cpp:2343
 #, no-c-format
 msgid ""
 "Enter the number of seconds that the script should pause before executing the "
@@ -26917,19 +26984,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argwaitforkey.ui line 32
-#: rc.cpp:2293
+#: rc.cpp:2346
 #, fuzzy, no-c-format
 msgid "Key:"
 msgstr "বিরতি:"
 
 #. i18n: file tools/argwaitforkey.ui line 40
-#: rc.cpp:2296
+#: rc.cpp:2349
 #, no-c-format
 msgid "Wait for this key to be pressed"
 msgstr ""
 
 #. i18n: file tools/argwaitforkey.ui line 45
-#: rc.cpp:2299
+#: rc.cpp:2352
 #, no-c-format
 msgid ""
 "The script execution will pause until the user presses the key specified here.  "
@@ -26941,19 +27008,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/argzoom.ui line 32
-#: rc.cpp:2304
+#: rc.cpp:2357
 #, no-c-format
 msgid "Zoom level:"
 msgstr ""
 
 #. i18n: file tools/argzoom.ui line 40
-#: rc.cpp:2307
+#: rc.cpp:2360
 #, fuzzy, no-c-format
 msgid "New Zoom level"
 msgstr "নতুন রং বিন্যাস"
 
 #. i18n: file tools/argzoom.ui line 46
-#: rc.cpp:2310
+#: rc.cpp:2363
 #, no-c-format
 msgid ""
 "Set the Zoom level for the display.  You can incrementally change this value "
@@ -26964,332 +27031,332 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 16
-#: rc.cpp:2316 rc.cpp:2346 tools/astrocalc.cpp:84 tools/astrocalc.cpp:140
+#: rc.cpp:2369 rc.cpp:2399 tools/astrocalc.cpp:84 tools/astrocalc.cpp:140
 #, no-c-format
 msgid "Angular Distance"
 msgstr "কৌণিক দূরত্ব"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 31
-#: rc.cpp:2319 rc.cpp:2400 rc.cpp:2490 rc.cpp:2652 rc.cpp:2761 rc.cpp:2836
-#: rc.cpp:2945 rc.cpp:3092 rc.cpp:3290 rc.cpp:3371 rc.cpp:3470
+#: rc.cpp:2372 rc.cpp:2453 rc.cpp:2543 rc.cpp:2705 rc.cpp:2814 rc.cpp:2889
+#: rc.cpp:2998 rc.cpp:3145 rc.cpp:3343 rc.cpp:3424 rc.cpp:3523
 #, no-c-format
 msgid "Interactive Mode"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 50
-#: rc.cpp:2322
+#: rc.cpp:2375
 #, fuzzy, no-c-format
 msgid "Initial Coordinates"
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 89
-#: rc.cpp:2325 rc.cpp:2334 rc.cpp:2415 rc.cpp:2436 rc.cpp:2451 rc.cpp:2529
-#: rc.cpp:2559 rc.cpp:2676 rc.cpp:2704 rc.cpp:2863 rc.cpp:2891 rc.cpp:3152
-#: rc.cpp:3302 rc.cpp:3320 rc.cpp:3329 rc.cpp:3500 rc.cpp:3548
+#: rc.cpp:2378 rc.cpp:2387 rc.cpp:2468 rc.cpp:2489 rc.cpp:2504 rc.cpp:2582
+#: rc.cpp:2612 rc.cpp:2729 rc.cpp:2757 rc.cpp:2916 rc.cpp:2944 rc.cpp:3205
+#: rc.cpp:3355 rc.cpp:3373 rc.cpp:3382 rc.cpp:3553 rc.cpp:3601
 #, fuzzy, no-c-format
 msgid "Declination:"
 msgstr "বিবরণ:"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 97
-#: rc.cpp:2328 rc.cpp:2337 rc.cpp:2418 rc.cpp:2433 rc.cpp:2526 rc.cpp:2673
-#: rc.cpp:2857 rc.cpp:3299 rc.cpp:3317 rc.cpp:3497
+#: rc.cpp:2381 rc.cpp:2390 rc.cpp:2471 rc.cpp:2486 rc.cpp:2579 rc.cpp:2726
+#: rc.cpp:2910 rc.cpp:3352 rc.cpp:3370 rc.cpp:3550
 #, fuzzy, no-c-format
 msgid "Right ascension:"
 msgstr "বিষুবাংশ"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 107
-#: rc.cpp:2331
+#: rc.cpp:2384
 #, fuzzy, no-c-format
 msgid "Final Coordinates"
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 191
-#: rc.cpp:2340 rc.cpp:2424 rc.cpp:2619 rc.cpp:2782 rc.cpp:3185 rc.cpp:3308
+#: rc.cpp:2393 rc.cpp:2477 rc.cpp:2672 rc.cpp:2835 rc.cpp:3238 rc.cpp:3361
 #, fuzzy, no-c-format
 msgid "Compute"
 msgstr "FOV গণনা করো"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 331
-#: rc.cpp:2352 rc.cpp:2439 rc.cpp:2544 rc.cpp:2692 rc.cpp:2797 rc.cpp:2876
-#: rc.cpp:2993 rc.cpp:3191 rc.cpp:3323 rc.cpp:3410 rc.cpp:3542
+#: rc.cpp:2405 rc.cpp:2492 rc.cpp:2597 rc.cpp:2745 rc.cpp:2850 rc.cpp:2929
+#: rc.cpp:3046 rc.cpp:3244 rc.cpp:3376 rc.cpp:3463 rc.cpp:3595
 #, no-c-format
 msgid "Batch Mode"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 353
-#: rc.cpp:2355 rc.cpp:2442 rc.cpp:2547 rc.cpp:2695 rc.cpp:2800 rc.cpp:2879
-#: rc.cpp:2996 rc.cpp:3194 rc.cpp:3326 rc.cpp:3413 rc.cpp:3545
+#: rc.cpp:2408 rc.cpp:2495 rc.cpp:2600 rc.cpp:2748 rc.cpp:2853 rc.cpp:2932
+#: rc.cpp:3049 rc.cpp:3247 rc.cpp:3379 rc.cpp:3466 rc.cpp:3598
 #, no-c-format
 msgid "Select Fields in Input File"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 408
-#: rc.cpp:2358
+#: rc.cpp:2411
 #, fuzzy, no-c-format
 msgid "Final right ascention:"
 msgstr "বিষুবাংশ"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 419
-#: rc.cpp:2361
+#: rc.cpp:2414
 #, fuzzy, no-c-format
 msgid "Final declination:"
 msgstr "আলোকিতকরণ:"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 430
-#: rc.cpp:2364
+#: rc.cpp:2417
 #, fuzzy, no-c-format
 msgid "Initial declination:"
 msgstr "আলোকিতকরণ:"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 441
-#: rc.cpp:2367
+#: rc.cpp:2420
 #, fuzzy, no-c-format
 msgid "Initial right ascention:"
 msgstr "নতুন বিষুবাংশ লিখুন"
 
 #. i18n: file tools/modcalcangdistdlg.ui line 454
-#: rc.cpp:2370 rc.cpp:2460 rc.cpp:2577 rc.cpp:2731 rc.cpp:2806 rc.cpp:2915
-#: rc.cpp:3017 rc.cpp:3260 rc.cpp:3341 rc.cpp:3440 rc.cpp:3584
+#: rc.cpp:2423 rc.cpp:2513 rc.cpp:2630 rc.cpp:2784 rc.cpp:2859 rc.cpp:2968
+#: rc.cpp:3070 rc.cpp:3313 rc.cpp:3394 rc.cpp:3493 rc.cpp:3637
 #, no-c-format
 msgid "Fields in Output File Plus Result"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 465
-#: rc.cpp:2373 rc.cpp:2463 rc.cpp:2580 rc.cpp:2734 rc.cpp:2809 rc.cpp:2918
-#: rc.cpp:3020 rc.cpp:3263 rc.cpp:3344 rc.cpp:3443 rc.cpp:3587
+#: rc.cpp:2426 rc.cpp:2516 rc.cpp:2633 rc.cpp:2787 rc.cpp:2862 rc.cpp:2971
+#: rc.cpp:3073 rc.cpp:3316 rc.cpp:3397 rc.cpp:3496 rc.cpp:3640
 #, no-c-format
 msgid "All parameters"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 473
-#: rc.cpp:2376 rc.cpp:2466 rc.cpp:2583 rc.cpp:2737 rc.cpp:2812 rc.cpp:2921
-#: rc.cpp:3023 rc.cpp:3266 rc.cpp:3347 rc.cpp:3446 rc.cpp:3590
+#: rc.cpp:2429 rc.cpp:2519 rc.cpp:2636 rc.cpp:2790 rc.cpp:2865 rc.cpp:2974
+#: rc.cpp:3076 rc.cpp:3319 rc.cpp:3400 rc.cpp:3499 rc.cpp:3643
 #, no-c-format
 msgid "Only parameters in input file"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 497
-#: rc.cpp:2382 rc.cpp:2472 rc.cpp:2589 rc.cpp:2743 rc.cpp:2818 rc.cpp:2927
-#: rc.cpp:3029 rc.cpp:3272 rc.cpp:3353 rc.cpp:3452 rc.cpp:3596
+#: rc.cpp:2435 rc.cpp:2525 rc.cpp:2642 rc.cpp:2796 rc.cpp:2871 rc.cpp:2980
+#: rc.cpp:3082 rc.cpp:3325 rc.cpp:3406 rc.cpp:3505 rc.cpp:3649
 #, fuzzy, no-c-format
 msgid "Input File..."
 msgstr "স্ক্রিপ্ট প্রস্তুতকারক..."
 
 #. i18n: file tools/modcalcangdistdlg.ui line 500
-#: rc.cpp:2385 rc.cpp:2475 rc.cpp:2592 rc.cpp:2746 rc.cpp:2821 rc.cpp:2930
-#: rc.cpp:3032 rc.cpp:3275 rc.cpp:3356 rc.cpp:3455 rc.cpp:3599
+#: rc.cpp:2438 rc.cpp:2528 rc.cpp:2645 rc.cpp:2799 rc.cpp:2874 rc.cpp:2983
+#: rc.cpp:3085 rc.cpp:3328 rc.cpp:3409 rc.cpp:3508 rc.cpp:3652
 #, no-c-format
 msgid "File with the input data"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 518
-#: rc.cpp:2388 rc.cpp:2478 rc.cpp:2595 rc.cpp:2749 rc.cpp:2824 rc.cpp:2933
-#: rc.cpp:3035 rc.cpp:3278 rc.cpp:3359 rc.cpp:3458 rc.cpp:3602
+#: rc.cpp:2441 rc.cpp:2531 rc.cpp:2648 rc.cpp:2802 rc.cpp:2877 rc.cpp:2986
+#: rc.cpp:3088 rc.cpp:3331 rc.cpp:3412 rc.cpp:3511 rc.cpp:3655
 #, no-c-format
 msgid "Output File..."
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 521
-#: rc.cpp:2391 rc.cpp:2481 rc.cpp:2598 rc.cpp:2752 rc.cpp:2827 rc.cpp:2936
-#: rc.cpp:3038 rc.cpp:3281 rc.cpp:3362 rc.cpp:3461 rc.cpp:3605
+#: rc.cpp:2444 rc.cpp:2534 rc.cpp:2651 rc.cpp:2805 rc.cpp:2880 rc.cpp:2989
+#: rc.cpp:3091 rc.cpp:3334 rc.cpp:3415 rc.cpp:3514 rc.cpp:3658
 #, no-c-format
 msgid "File for the output data"
 msgstr ""
 
 #. i18n: file tools/modcalcangdistdlg.ui line 564
-#: rc.cpp:2394 rc.cpp:2484 rc.cpp:2601 rc.cpp:2755 rc.cpp:2830 rc.cpp:2939
-#: rc.cpp:3041 rc.cpp:3284 rc.cpp:3365 rc.cpp:3464 rc.cpp:3608
+#: rc.cpp:2447 rc.cpp:2537 rc.cpp:2654 rc.cpp:2808 rc.cpp:2883 rc.cpp:2992
+#: rc.cpp:3094 rc.cpp:3337 rc.cpp:3418 rc.cpp:3517 rc.cpp:3661
 #, fuzzy, no-c-format
 msgid "Run"
 msgstr "সূর্য"
 
 #. i18n: file tools/modcalcapcoorddlg.ui line 16
-#: rc.cpp:2397 rc.cpp:2430 tools/astrocalc.cpp:81 tools/astrocalc.cpp:122
+#: rc.cpp:2450 rc.cpp:2483 tools/astrocalc.cpp:81 tools/astrocalc.cpp:122
 #, no-c-format
 msgid "Apparent Coordinates"
 msgstr "আপাত স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcapcoorddlg.ui line 53
-#: rc.cpp:2403
+#: rc.cpp:2456
 #, no-c-format
 msgid "Target Time && Date"
 msgstr ""
 
 #. i18n: file tools/modcalcapcoorddlg.ui line 72
-#: rc.cpp:2409 rc.cpp:2445 rc.cpp:2550 rc.cpp:3080 rc.cpp:3206 rc.cpp:3401
-#: rc.cpp:3557
+#: rc.cpp:2462 rc.cpp:2498 rc.cpp:2603 rc.cpp:3133 rc.cpp:3259 rc.cpp:3454
+#: rc.cpp:3610
 #, no-c-format
 msgid "UT:"
 msgstr ""
 
 #. i18n: file tools/modcalcapcoorddlg.ui line 115
-#: rc.cpp:2412
+#: rc.cpp:2465
 #, fuzzy, no-c-format
 msgid "Catalog Coordinates"
 msgstr "ভূ-স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcapcoorddlg.ui line 538
-#: rc.cpp:2457 rc.cpp:2556 rc.cpp:2698 rc.cpp:2885 rc.cpp:3149 rc.cpp:3338
-#: rc.cpp:3560
+#: rc.cpp:2510 rc.cpp:2609 rc.cpp:2751 rc.cpp:2938 rc.cpp:3202 rc.cpp:3391
+#: rc.cpp:3613
 #, fuzzy, no-c-format
 msgid "Right ascention:"
 msgstr "বিষুবাংশ"
 
 #. i18n: file tools/modcalcazeldlg.ui line 19
-#: rc.cpp:2487 rc.cpp:2535 tools/astrocalc.cpp:82 tools/astrocalc.cpp:124
+#: rc.cpp:2540 rc.cpp:2588 tools/astrocalc.cpp:82 tools/astrocalc.cpp:124
 #, no-c-format
 msgid "Horizontal Coordinates"
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcazeldlg.ui line 45
-#: rc.cpp:2493 rc.cpp:3473
+#: rc.cpp:2546 rc.cpp:3526
 #, fuzzy, no-c-format
 msgid "Time && Location"
 msgstr "&অবস্থানসূচক বাক্স আড়াল করো"
 
 #. i18n: file tools/modcalcazeldlg.ui line 82
-#: rc.cpp:2496 rc.cpp:3134 rc.cpp:3479
+#: rc.cpp:2549 rc.cpp:3187 rc.cpp:3532
 #, fuzzy, no-c-format
 msgid "Universal time:"
 msgstr "বিশ্বজনীন সময়:"
 
 #. i18n: file tools/modcalcazeldlg.ui line 173
-#: rc.cpp:2508 rc.cpp:2764
+#: rc.cpp:2561 rc.cpp:2817
 #, fuzzy, no-c-format
 msgid "Select Input"
 msgstr "কিছুই বাছাই করবে না"
 
 #. i18n: file tools/modcalcazeldlg.ui line 184
-#: rc.cpp:2511
+#: rc.cpp:2564
 #, fuzzy, no-c-format
 msgid "Apparent coordinates"
 msgstr "আপাত স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcazeldlg.ui line 195
-#: rc.cpp:2514
+#: rc.cpp:2567
 #, fuzzy, no-c-format
 msgid "Horizontal coordinates"
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcazeldlg.ui line 231
-#: rc.cpp:2517 rc.cpp:2664 rc.cpp:2848 rc.cpp:2960 rc.cpp:3059 rc.cpp:3392
-#: rc.cpp:3536
+#: rc.cpp:2570 rc.cpp:2717 rc.cpp:2901 rc.cpp:3013 rc.cpp:3112 rc.cpp:3445
+#: rc.cpp:3589
 #, fuzzy, no-c-format
 msgid "Convert"
 msgstr "সংযোগ স্থাপন করো"
 
 #. i18n: file tools/modcalcazeldlg.ui line 269
-#: rc.cpp:2523 rc.cpp:2670 rc.cpp:2854 rc.cpp:3146 rc.cpp:3494
+#: rc.cpp:2576 rc.cpp:2723 rc.cpp:2907 rc.cpp:3199 rc.cpp:3547
 #, fuzzy, no-c-format
 msgid "Equatorial Coordinates"
 msgstr "নি&রক্ষীয় স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 16
-#: rc.cpp:2604
+#: rc.cpp:2657
 #, no-c-format
 msgid "Day Length"
 msgstr ""
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 33
-#: rc.cpp:2607
+#: rc.cpp:2660
 #, fuzzy, no-c-format
 msgid "Location && Date"
 msgstr "নগর সংক্রান্ত তথ্য লোড করা হচ্ছে"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 238
-#: rc.cpp:2625
+#: rc.cpp:2678
 #, fuzzy, no-c-format
 msgid "Sunrise, Noon && Sunset Data"
 msgstr "সূর্য, চাঁদ ও গ্রহ"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 279
-#: rc.cpp:2628
+#: rc.cpp:2681
 #, fuzzy, no-c-format
 msgid "Sunrise:"
 msgstr "সূর্যোদয়: %1"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 309
-#: rc.cpp:2631
+#: rc.cpp:2684
 #, fuzzy, no-c-format
 msgid "Noon:"
 msgstr "চাঁদ"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 317
-#: rc.cpp:2634
+#: rc.cpp:2687
 #, no-c-format
 msgid "Day length:"
 msgstr ""
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 369
-#: rc.cpp:2637
+#: rc.cpp:2690
 #, fuzzy, no-c-format
 msgid "Sunset:"
 msgstr "সূর্যাস্ত: %1"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 404
-#: rc.cpp:2640
+#: rc.cpp:2693
 #, fuzzy, no-c-format
 msgid "Sunrise azimuth:"
 msgstr "নতুন দিগংশ:"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 412
-#: rc.cpp:2643
+#: rc.cpp:2696
 #, fuzzy, no-c-format
 msgid "Sunset azimuth:"
 msgstr "নতুন দিগংশ:"
 
 #. i18n: file tools/modcalcdaylengthdlg.ui line 442
-#: rc.cpp:2646
+#: rc.cpp:2699
 #, fuzzy, no-c-format
 msgid "Altitude at noon:"
 msgstr "উন্নতি:"
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 16
-#: rc.cpp:2649
+#: rc.cpp:2702
 #, fuzzy, no-c-format
 msgid "Geocentric Ecliptic Coordinates"
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 45
-#: rc.cpp:2655 rc.cpp:2839 rc.cpp:2948
+#: rc.cpp:2708 rc.cpp:2892 rc.cpp:3001
 #, fuzzy, no-c-format
 msgid "Choose Input Coordinates"
 msgstr "স্থানাংক বাছাই/পরিবর্তন করুন'"
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 73
-#: rc.cpp:2658
+#: rc.cpp:2711
 #, fuzzy, no-c-format
 msgid "Geocentric equatorial"
 msgstr "খ-বিষুব"
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 101
-#: rc.cpp:2661
+#: rc.cpp:2714
 #, no-c-format
 msgid "Geocentric ecliptic"
 msgstr ""
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 330
-#: rc.cpp:2683 rc.cpp:3164 tools/astrocalc.cpp:83 tools/astrocalc.cpp:126
+#: rc.cpp:2736 rc.cpp:3217 tools/astrocalc.cpp:83 tools/astrocalc.cpp:126
 #, no-c-format
 msgid "Ecliptic Coordinates"
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 349
-#: rc.cpp:2686
+#: rc.cpp:2739
 #, fuzzy, no-c-format
 msgid "Ecl. Latitude:"
 msgstr "অক্ষাংশ:"
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 357
-#: rc.cpp:2689
+#: rc.cpp:2742
 #, fuzzy, no-c-format
 msgid "Ecl. Longitude:"
 msgstr "দ্রাঘিমাংশ:"
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 524
-#: rc.cpp:2701 rc.cpp:2707 rc.cpp:2716 rc.cpp:2722 rc.cpp:2728 rc.cpp:2888
-#: rc.cpp:2894 rc.cpp:2900 rc.cpp:2906 rc.cpp:2912 rc.cpp:3419 rc.cpp:3425
-#: rc.cpp:3431 rc.cpp:3437
+#: rc.cpp:2754 rc.cpp:2760 rc.cpp:2769 rc.cpp:2775 rc.cpp:2781 rc.cpp:2941
+#: rc.cpp:2947 rc.cpp:2953 rc.cpp:2959 rc.cpp:2965 rc.cpp:3472 rc.cpp:3478
+#: rc.cpp:3484 rc.cpp:3490
 #, no-c-format
 msgid ""
 "If checked, value will be read from input file. If not, value will be read from "
@@ -27297,505 +27364,505 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 591
-#: rc.cpp:2710 rc.cpp:2882
+#: rc.cpp:2763 rc.cpp:2935
 #, no-c-format
 msgid "1950.0"
 msgstr ""
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 619
-#: rc.cpp:2719
+#: rc.cpp:2772
 #, no-c-format
 msgid "Ecl. Long.:"
 msgstr ""
 
 #. i18n: file tools/modcalceclipticcoordsdlg.ui line 636
-#: rc.cpp:2725
+#: rc.cpp:2778
 #, no-c-format
 msgid "Ecl. Lat.:"
 msgstr ""
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 16
-#: rc.cpp:2758
+#: rc.cpp:2811
 #, fuzzy, no-c-format
 msgid "Equinoxes, Solstices & Seasons"
 msgstr "বিষুবন ও অয়ন"
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 74
-#: rc.cpp:2767
+#: rc.cpp:2820
 #, no-c-format
 msgid "Spring Equinox"
 msgstr ""
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 79
-#: rc.cpp:2770
+#: rc.cpp:2823
 #, fuzzy, no-c-format
 msgid "Summer Solstice"
 msgstr "বিষুবন ও অয়ন"
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 84
-#: rc.cpp:2773
+#: rc.cpp:2826
 #, no-c-format
 msgid "Autumn Equinox"
 msgstr ""
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 89
-#: rc.cpp:2776
+#: rc.cpp:2829
 #, fuzzy, no-c-format
 msgid "Winter Solstice"
 msgstr "বিষুবন ও অয়ন"
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 118
-#: rc.cpp:2779 rc.cpp:2803
+#: rc.cpp:2832 rc.cpp:2856
 #, fuzzy, no-c-format
 msgid "Year:"
 msgstr "বছর"
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 227
-#: rc.cpp:2788
+#: rc.cpp:2841
 #, fuzzy, no-c-format
 msgid "Season Information"
 msgstr "তথ্যের ইউ.আর.এল. লোড করা হচ্ছে"
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 243
-#: rc.cpp:2791
+#: rc.cpp:2844
 #, no-c-format
 msgid "Duration of the season:"
 msgstr ""
 
 #. i18n: file tools/modcalcequinoxdlg.ui line 251
-#: rc.cpp:2794
+#: rc.cpp:2847
 #, fuzzy, no-c-format
 msgid "Start date & time:"
 msgstr "আরম্ভের তারিখ:"
 
 #. i18n: file tools/modcalcgalcoorddlg.ui line 16
-#: rc.cpp:2833 rc.cpp:2867
+#: rc.cpp:2886 rc.cpp:2920
 #, fuzzy, no-c-format
 msgid "Galactic Coordinates"
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcgalcoorddlg.ui line 73
-#: rc.cpp:2842
+#: rc.cpp:2895
 #, fuzzy, no-c-format
 msgid "Equatorial"
 msgstr "বিষুবরেখা"
 
 #. i18n: file tools/modcalcgalcoorddlg.ui line 101
-#: rc.cpp:2845
+#: rc.cpp:2898
 #, fuzzy, no-c-format
 msgid "Galactic"
 msgstr "ছায়াপথ"
 
 #. i18n: file tools/modcalcgalcoorddlg.ui line 568
-#: rc.cpp:2903
+#: rc.cpp:2956
 #, no-c-format
 msgid "Gal. long.:"
 msgstr ""
 
 #. i18n: file tools/modcalcgalcoorddlg.ui line 585
-#: rc.cpp:2909
+#: rc.cpp:2962
 #, no-c-format
 msgid "Gal. lat.:"
 msgstr ""
 
 #. i18n: file tools/modcalcgeoddlg.ui line 16
-#: rc.cpp:2942 tools/astrocalc.cpp:89 tools/astrocalc.cpp:130
+#: rc.cpp:2995 tools/astrocalc.cpp:89 tools/astrocalc.cpp:130
 #, no-c-format
 msgid "Geodetic Coordinates"
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcgeoddlg.ui line 72
-#: rc.cpp:2951
+#: rc.cpp:3004
 #, no-c-format
 msgid "Cartesian"
 msgstr ""
 
 #. i18n: file tools/modcalcgeoddlg.ui line 80
-#: rc.cpp:2954
+#: rc.cpp:3007
 #, fuzzy, no-c-format
 msgid "Geographic"
 msgstr "ভৌগলিক অবস্থান"
 
 #. i18n: file tools/modcalcgeoddlg.ui line 95
-#: rc.cpp:2957
+#: rc.cpp:3010
 #, no-c-format
 msgid "Ellipsoid Model"
 msgstr ""
 
 #. i18n: file tools/modcalcgeoddlg.ui line 200
-#: rc.cpp:2966
+#: rc.cpp:3019
 #, fuzzy, no-c-format
 msgid "Cartesian Coordinates"
 msgstr "ভূ-স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcgeoddlg.ui line 211
-#: rc.cpp:2969 rc.cpp:3011
+#: rc.cpp:3022 rc.cpp:3064
 #, no-c-format
 msgid "Y (km):"
 msgstr ""
 
 #. i18n: file tools/modcalcgeoddlg.ui line 219
-#: rc.cpp:2972 rc.cpp:3014
+#: rc.cpp:3025 rc.cpp:3067
 #, no-c-format
 msgid "Z (km):"
 msgstr ""
 
 #. i18n: file tools/modcalcgeoddlg.ui line 227
-#: rc.cpp:2975 rc.cpp:3008
+#: rc.cpp:3028 rc.cpp:3061
 #, no-c-format
 msgid "X (km):"
 msgstr ""
 
 #. i18n: file tools/modcalcgeoddlg.ui line 252
-#: rc.cpp:2978
+#: rc.cpp:3031
 #, fuzzy, no-c-format
 msgid "Geographic Coordinates"
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcgeoddlg.ui line 307
-#: rc.cpp:2987
+#: rc.cpp:3040
 #, no-c-format
 msgid "Elevation (meters):"
 msgstr ""
 
 #. i18n: file tools/modcalcgeoddlg.ui line 315
-#: rc.cpp:2990 rc.cpp:3482
+#: rc.cpp:3043 rc.cpp:3535
 #, fuzzy, no-c-format
 msgid "0.0"
 msgstr "২০০০.০"
 
 #. i18n: file tools/modcalcgeoddlg.ui line 455
-#: rc.cpp:3005
+#: rc.cpp:3058
 #, no-c-format
 msgid "Elev. (m):"
 msgstr ""
 
 #. i18n: file tools/modcalcjddlg.ui line 16
-#: rc.cpp:3044 rc.cpp:3065 tools/astrocalc.cpp:70 tools/astrocalc.cpp:116
+#: rc.cpp:3097 rc.cpp:3118 tools/astrocalc.cpp:70 tools/astrocalc.cpp:116
 #, no-c-format
 msgid "Julian Day"
 msgstr "জুলিয়ান দিবস"
 
 #. i18n: file tools/modcalcjddlg.ui line 35
-#: rc.cpp:3047
+#: rc.cpp:3100
 #, no-c-format
 msgid "Choose Input Field"
 msgstr ""
 
 #. i18n: file tools/modcalcjddlg.ui line 62
-#: rc.cpp:3050
+#: rc.cpp:3103
 #, fuzzy, no-c-format
 msgid "Julian day"
 msgstr "জুলিয়ান দিবস"
 
 #. i18n: file tools/modcalcjddlg.ui line 78
-#: rc.cpp:3053
+#: rc.cpp:3106
 #, fuzzy, no-c-format
 msgid "Modified Julian day"
 msgstr "জুলিয়ান দিবস"
 
 #. i18n: file tools/modcalcjddlg.ui line 94
-#: rc.cpp:3056
+#: rc.cpp:3109
 #, fuzzy, no-c-format
 msgid "Date"
 msgstr "তথ্য"
 
 #. i18n: file tools/modcalcjddlg.ui line 242
-#: rc.cpp:3068
+#: rc.cpp:3121
 #, no-c-format
 msgid "JD:"
 msgstr ""
 
 #. i18n: file tools/modcalcjddlg.ui line 263
-#: rc.cpp:3071
+#: rc.cpp:3124
 #, fuzzy, no-c-format
 msgid "Modified Julian Day"
 msgstr "জুলিয়ান দিবস"
 
 #. i18n: file tools/modcalcjddlg.ui line 274
-#: rc.cpp:3074
+#: rc.cpp:3127
 #, no-c-format
 msgid "MJD:"
 msgstr ""
 
 #. i18n: file tools/modcalcjddlg.ui line 297
-#: rc.cpp:3077
+#: rc.cpp:3130
 #, fuzzy, no-c-format
 msgid "Date && Time"
 msgstr "তারিখ ও সময়"
 
 #. i18n: file tools/modcalcjddlg.ui line 448
-#: rc.cpp:3086 timedialog.cpp:76
+#: rc.cpp:3139 timedialog.cpp:76
 #, no-c-format
 msgid "Now"
 msgstr "এই মুহূর্ত"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 16
-#: rc.cpp:3089
+#: rc.cpp:3142
 #, fuzzy, no-c-format
 msgid "Solar System Bodies Coordinates"
 msgstr "স্থানাংক বাছাই/পরিবর্তন করুন'"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 42
-#: rc.cpp:3095 rc.cpp:3374
+#: rc.cpp:3148 rc.cpp:3427
 #, fuzzy, no-c-format
 msgid "Input Selection"
 msgstr "তথ্য নির্বাচন"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 78
-#: rc.cpp:3098 rc.cpp:3209
+#: rc.cpp:3151 rc.cpp:3262
 #, fuzzy, no-c-format
 msgid "Solar system body:"
 msgstr "সৌরজগত্‍"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 407
-#: rc.cpp:3155
+#: rc.cpp:3208
 #, fuzzy, no-c-format
 msgid "Topocentric Coordinates"
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 525
-#: rc.cpp:3167
+#: rc.cpp:3220
 #, no-c-format
 msgid "Dist. to Sun (AU):"
 msgstr ""
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 544
-#: rc.cpp:3170
+#: rc.cpp:3223
 #, no-c-format
 msgid "Heliocentric long.:"
 msgstr ""
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 563
-#: rc.cpp:3173
+#: rc.cpp:3226
 #, no-c-format
 msgid "Heliocentric lat.:"
 msgstr ""
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 598
-#: rc.cpp:3176
+#: rc.cpp:3229
 #, no-c-format
 msgid "Dist. to Earth (AU):"
 msgstr ""
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 625
-#: rc.cpp:3179
+#: rc.cpp:3232
 #, no-c-format
 msgid "Geocentric long.:"
 msgstr ""
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 655
-#: rc.cpp:3182
+#: rc.cpp:3235
 #, no-c-format
 msgid "Geocentric lat.:"
 msgstr ""
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 1003
-#: rc.cpp:3245
+#: rc.cpp:3298
 #, no-c-format
 msgid "Select Fields in Output File"
 msgstr ""
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 1017
-#: rc.cpp:3248
+#: rc.cpp:3301
 #, fuzzy, no-c-format
 msgid "Heliocentric ecliptic coordinates"
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 1028
-#: rc.cpp:3251
+#: rc.cpp:3304
 #, fuzzy, no-c-format
 msgid "Equatorial geocentric coordinates"
 msgstr "নি&রক্ষীয় স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 1039
-#: rc.cpp:3254
+#: rc.cpp:3307
 #, fuzzy, no-c-format
 msgid "Topocentric coordinates"
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcplanetsdlg.ui line 1050
-#: rc.cpp:3257
+#: rc.cpp:3310
 #, fuzzy, no-c-format
 msgid "Geocentric ecliptic coordinates"
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcprecdlg.ui line 16
-#: rc.cpp:3287 tools/astrocalc.cpp:80 tools/astrocalc.cpp:120
+#: rc.cpp:3340 tools/astrocalc.cpp:80 tools/astrocalc.cpp:120
 #, no-c-format
 msgid "Precession"
 msgstr "অয়নচলন"
 
 #. i18n: file tools/modcalcprecdlg.ui line 42
-#: rc.cpp:3293
+#: rc.cpp:3346
 #, fuzzy, no-c-format
 msgid "Input Coordinates"
 msgstr "স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcprecdlg.ui line 78
-#: rc.cpp:3296 rc.cpp:3332
+#: rc.cpp:3349 rc.cpp:3385
 #, no-c-format
 msgid "Input epoch:"
 msgstr ""
 
 #. i18n: file tools/modcalcprecdlg.ui line 128
-#: rc.cpp:3305 rc.cpp:3335
+#: rc.cpp:3358 rc.cpp:3388
 #, no-c-format
 msgid "Target epoch:"
 msgstr ""
 
 #. i18n: file tools/modcalcprecdlg.ui line 251
-#: rc.cpp:3314
+#: rc.cpp:3367
 #, fuzzy, no-c-format
 msgid "Precessed Coordinates"
 msgstr "গ্রহ স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 16
-#: rc.cpp:3368 rc.cpp:3404 tools/astrocalc.cpp:73 tools/astrocalc.cpp:112
+#: rc.cpp:3421 rc.cpp:3457 tools/astrocalc.cpp:73 tools/astrocalc.cpp:112
 #, no-c-format
 msgid "Sidereal Time"
 msgstr "নাক্ষত্র কাল"
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 61
-#: rc.cpp:3377
+#: rc.cpp:3430
 #, fuzzy, no-c-format
 msgid "Universal time"
 msgstr "বিশ্বজনীন সময়:"
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 72
-#: rc.cpp:3380
+#: rc.cpp:3433
 #, fuzzy, no-c-format
 msgid "Sidereal time"
 msgstr "নাক্ষত্র কাল"
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 223
-#: rc.cpp:3398
+#: rc.cpp:3451
 #, fuzzy, no-c-format
 msgid "Universal Time"
 msgstr "বিশ্বজনীন সময়:"
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 311
-#: rc.cpp:3407
+#: rc.cpp:3460
 #, no-c-format
 msgid "ST:"
 msgstr ""
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 411
-#: rc.cpp:3416
+#: rc.cpp:3469
 #, fuzzy, no-c-format
 msgid "Longitude"
 msgstr "দ্রাঘিমাংশ:"
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 425
-#: rc.cpp:3422
+#: rc.cpp:3475
 #, no-c-format
 msgid "Univ. Time"
 msgstr ""
 
 #. i18n: file tools/modcalcsidtimedlg.ui line 515
-#: rc.cpp:3428
+#: rc.cpp:3481
 #, fuzzy, no-c-format
 msgid "Sid. Time"
 msgstr "নাক্ষত্র কাল"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 16
-#: rc.cpp:3467 tools/astrocalc.cpp:85 tools/astrocalc.cpp:142
+#: rc.cpp:3520 tools/astrocalc.cpp:85 tools/astrocalc.cpp:142
 #, no-c-format
 msgid "LSR Velocity"
 msgstr ""
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 365
-#: rc.cpp:3506
+#: rc.cpp:3559
 #, no-c-format
 msgid "Radial Velocities"
 msgstr ""
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 381
-#: rc.cpp:3509
+#: rc.cpp:3562
 #, no-c-format
 msgid "VLSR:"
 msgstr ""
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 394
-#: rc.cpp:3512
+#: rc.cpp:3565
 #, fuzzy, no-c-format
 msgid "Heliocentric Velocity:"
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 407
-#: rc.cpp:3515
+#: rc.cpp:3568
 #, fuzzy, no-c-format
 msgid "Geocentric Velocity:"
 msgstr "খ-বিষুব"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 415
-#: rc.cpp:3518
+#: rc.cpp:3571
 #, fuzzy, no-c-format
 msgid "Topocentric Velocity:"
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 447
-#: rc.cpp:3521
+#: rc.cpp:3574
 #, fuzzy, no-c-format
 msgid "Input Velocity"
 msgstr "তথ্য নির্বাচন"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 458
-#: rc.cpp:3524
+#: rc.cpp:3577
 #, no-c-format
 msgid "LSR"
 msgstr ""
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 469
-#: rc.cpp:3527
+#: rc.cpp:3580
 #, fuzzy, no-c-format
 msgid "Heliocentric"
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 477
-#: rc.cpp:3530
+#: rc.cpp:3583
 #, fuzzy, no-c-format
 msgid "Geocentric"
 msgstr "খ-বিষুব"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 485
-#: rc.cpp:3533
+#: rc.cpp:3586
 #, fuzzy, no-c-format
 msgid "Topocentric"
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 801
-#: rc.cpp:3572
+#: rc.cpp:3625
 #, no-c-format
 msgid "LSR Velocity:"
 msgstr ""
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 812
-#: rc.cpp:3575
+#: rc.cpp:3628
 #, fuzzy, no-c-format
 msgid "Heliocentric V."
 msgstr "সূর্যপথ (Ecliptic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 820
-#: rc.cpp:3578
+#: rc.cpp:3631
 #, fuzzy, no-c-format
 msgid "Geocentric V."
 msgstr "খ-বিষুব"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 828
-#: rc.cpp:3581
+#: rc.cpp:3634
 #, fuzzy, no-c-format
 msgid "Topocentric V."
 msgstr "ভূমিতিক (Geodetic) স্থানাঙ্ক"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 1019
-#: rc.cpp:3611
+#: rc.cpp:3664
 #, fuzzy, no-c-format
 msgid "Overview"
 msgstr "&ওপর দিয়ে লেখো"
 
 #. i18n: file tools/modcalcvlsrdlg.ui line 1041
-#: rc.cpp:3614
+#: rc.cpp:3667
 #, no-c-format
 msgid ""
 "<p> The Local Standard of Rest (LSR) is the location in which the mean value of "
@@ -27831,152 +27898,152 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 16
-#: rc.cpp:3628 tools/observinglist.cpp:54
+#: rc.cpp:3681 tools/observinglist.cpp:54
 #, no-c-format
 msgid "Observing List"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 50
-#: rc.cpp:3632
+#: rc.cpp:3685
 #, fuzzy, no-c-format
 msgid "Open observing list"
 msgstr "তালিকাভুক্ত করো"
 
 #. i18n: file tools/observinglistui.ui line 53
-#: rc.cpp:3635
+#: rc.cpp:3688
 #, no-c-format
 msgid "Load an observing list from disk"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 76
-#: rc.cpp:3639
+#: rc.cpp:3692
 #, fuzzy, no-c-format
 msgid "Save observing list"
 msgstr "তালিকাভুক্ত করো"
 
 #. i18n: file tools/observinglistui.ui line 79
-#: rc.cpp:3642
+#: rc.cpp:3695
 #, no-c-format
 msgid "Save the current observing list to disk"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 102
-#: rc.cpp:3646
+#: rc.cpp:3699
 #, fuzzy, no-c-format
 msgid "Save observing list as..."
 msgstr "স্ক্রিপ্ট চালা&ও..."
 
 #. i18n: file tools/observinglistui.ui line 105
-#: rc.cpp:3649
+#: rc.cpp:3702
 #, no-c-format
 msgid "Save the current observing list to disk, specifying the filename"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 143
-#: rc.cpp:3655
+#: rc.cpp:3708
 #, no-c-format
 msgid "Center sky map on highlighted object"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 146
-#: rc.cpp:3658
+#: rc.cpp:3711
 #, no-c-format
 msgid "Center the sky map on the highlighted object in the list"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 154
-#: rc.cpp:3661
+#: rc.cpp:3714
 #, fuzzy, no-c-format
 msgid "Scope"
 msgstr "স্থগি&ত"
 
 #. i18n: file tools/observinglistui.ui line 157
-#: rc.cpp:3664
+#: rc.cpp:3717
 #, no-c-format
 msgid "Point telescope at highlighted object"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 160
-#: rc.cpp:3667
+#: rc.cpp:3720
 #, no-c-format
 msgid "Point the telescope at the highlighted object in the list"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 168
-#: rc.cpp:3670
+#: rc.cpp:3723
 #, fuzzy, no-c-format
 msgid "Details"
 msgstr "বিস্তারিত..."
 
 #. i18n: file tools/observinglistui.ui line 171
-#: rc.cpp:3673
+#: rc.cpp:3726
 #, fuzzy, no-c-format
 msgid "Show details for highlighted object"
 msgstr "কেন্দ্রের বস্তুর নাম নির্দেশক লেবেল দেখানো হবে কি?"
 
 #. i18n: file tools/observinglistui.ui line 174
-#: rc.cpp:3676
+#: rc.cpp:3729
 #, no-c-format
 msgid "Open the Details window for the highlighted object"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 182
-#: rc.cpp:3679
+#: rc.cpp:3732
 #, fuzzy, no-c-format
 msgid "Alt vs Time"
 msgstr "উন্নতি বনাম সময়"
 
 #. i18n: file tools/observinglistui.ui line 185
-#: rc.cpp:3682
+#: rc.cpp:3735
 #, fuzzy, no-c-format
 msgid "Show altitude plot"
 msgstr "উজ্জ্বলতা দেখাও"
 
 #. i18n: file tools/observinglistui.ui line 188
-#: rc.cpp:3685
+#: rc.cpp:3738
 #, no-c-format
 msgid ""
 "Open the Altitude vs. Time tool, with curves for the highlighted objects shown"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 199
-#: rc.cpp:3691
+#: rc.cpp:3744
 #, fuzzy, no-c-format
 msgid "Remove from list"
 msgstr "লিঙ্ক অপসারণ করো"
 
 #. i18n: file tools/observinglistui.ui line 202
-#: rc.cpp:3694
+#: rc.cpp:3747
 #, no-c-format
 msgid "Remove the highlighted object(s) from the observing list"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 238
-#: rc.cpp:3700
+#: rc.cpp:3753
 #, fuzzy, no-c-format
 msgid "RA"
 msgstr "নতুন বিষুবাংশ:"
 
 #. i18n: file tools/observinglistui.ui line 249
-#: rc.cpp:3703
+#: rc.cpp:3756
 #, fuzzy, no-c-format
 msgid "Dec"
 msgstr "ডিভাইস:"
 
 #. i18n: file tools/observinglistui.ui line 260
-#: rc.cpp:3706
+#: rc.cpp:3759
 #, fuzzy, no-c-format
 msgid "Mag"
 msgstr "উজ্জ্বলতা"
 
 #. i18n: file tools/observinglistui.ui line 271
-#: rc.cpp:3709 rc.cpp:3730
+#: rc.cpp:3762 rc.cpp:3783
 #, no-c-format
 msgid "Type"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 296
-#: rc.cpp:3712
+#: rc.cpp:3765
 #, no-c-format
 msgid ""
 "Table showing the current observing list.  The list can be sorted by any of the "
@@ -27984,55 +28051,55 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 304
-#: rc.cpp:3715
+#: rc.cpp:3768
 #, no-c-format
 msgid "<i>observing notes for object:</i>"
 msgstr ""
 
 #. i18n: file tools/observinglistui.ui line 321
-#: rc.cpp:3718
+#: rc.cpp:3771
 #, no-c-format
 msgid "Your observing notes for the highlighted object"
 msgstr ""
 
 #. i18n: file tools/optionstreeview.ui line 16
-#: rc.cpp:3721
+#: rc.cpp:3774
 #, fuzzy, no-c-format
 msgid "View Options"
 msgstr "খ-মানচিত্র সংক্রান্ত অপশন"
 
 #. i18n: file tools/optionstreeview.ui line 28
-#: rc.cpp:3724
+#: rc.cpp:3777
 #, fuzzy, no-c-format
 msgid "Option Name"
 msgstr "তারামণ্ডলের নাম"
 
 #. i18n: file tools/optionstreeview.ui line 39
-#: rc.cpp:3727
+#: rc.cpp:3780
 #, fuzzy, no-c-format
 msgid "Description"
 msgstr "বিবরণ:"
 
 #. i18n: file tools/planetviewerui.ui line 16
-#: rc.cpp:3739
+#: rc.cpp:3792
 #, fuzzy, no-c-format
 msgid "Planet Viewer"
 msgstr "গ্রহের নাম"
 
 #. i18n: file tools/scriptbuilderui.ui line 16
-#: rc.cpp:3743 tools/scriptbuilder.cpp:104
+#: rc.cpp:3796 tools/scriptbuilder.cpp:104
 #, no-c-format
 msgid "Script Builder"
 msgstr "স্ক্রিপ্ট বিল্ডার"
 
 #. i18n: file tools/scriptbuilderui.ui line 58
-#: rc.cpp:3747
+#: rc.cpp:3800
 #, no-c-format
 msgid "New Script"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 61
-#: rc.cpp:3750
+#: rc.cpp:3803
 #, no-c-format
 msgid ""
 "Discards current script and starts a new one.  Will prompt to save any unsaved "
@@ -28040,13 +28107,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 92
-#: rc.cpp:3754
+#: rc.cpp:3807
 #, fuzzy, no-c-format
 msgid "Open Script"
 msgstr "স্ক্রিপ্ট চালা&ও..."
 
 #. i18n: file tools/scriptbuilderui.ui line 95
-#: rc.cpp:3757
+#: rc.cpp:3810
 #, no-c-format
 msgid ""
 "Opens an existing script.  Will prompt to save any unsaved changes in the "
@@ -28054,13 +28121,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 126
-#: rc.cpp:3761
+#: rc.cpp:3814
 #, fuzzy, no-c-format
 msgid "Save Script"
 msgstr "স্ক্রিপ্ট-এ কৃত পরিবর্তন সংরক্ষণ করা হবে কি?"
 
 #. i18n: file tools/scriptbuilderui.ui line 129
-#: rc.cpp:3764
+#: rc.cpp:3817
 #, no-c-format
 msgid ""
 "Save the current script.  If the script has not been saved before, this is "
@@ -28068,13 +28135,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 160
-#: rc.cpp:3768
+#: rc.cpp:3821
 #, fuzzy, no-c-format
 msgid "Save Script As..."
 msgstr "স্ক্রিপ্ট চালা&ও..."
 
 #. i18n: file tools/scriptbuilderui.ui line 163
-#: rc.cpp:3771
+#: rc.cpp:3824
 #, no-c-format
 msgid ""
 "Saves the script to a file, allowing you to first specify the filename and a "
@@ -28082,13 +28149,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 186
-#: rc.cpp:3775
+#: rc.cpp:3828
 #, no-c-format
 msgid "Test Script"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 189
-#: rc.cpp:3778
+#: rc.cpp:3831
 #, no-c-format
 msgid ""
 "Executes the script in the KStars main window.  You may want to reposition the "
@@ -28096,13 +28163,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 235
-#: rc.cpp:3781
+#: rc.cpp:3834
 #, fuzzy, no-c-format
 msgid "Current Script"
 msgstr "স্ক্রিপ্ট চালা&ও..."
 
 #. i18n: file tools/scriptbuilderui.ui line 265
-#: rc.cpp:3784
+#: rc.cpp:3837
 #, no-c-format
 msgid ""
 "This shows the list of commands present in the current working script.  "
@@ -28112,13 +28179,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 296
-#: rc.cpp:3788
+#: rc.cpp:3841
 #, no-c-format
 msgid "Add Function"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 300
-#: rc.cpp:3791
+#: rc.cpp:3844
 #, no-c-format
 msgid ""
 "If a function is highlighted in the \"Function Browser\" box, this button will "
@@ -28127,13 +28194,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 323
-#: rc.cpp:3796
+#: rc.cpp:3849
 #, fuzzy, no-c-format
 msgid "Remove Function"
 msgstr "লিঙ্ক অপসারণ করো"
 
 #. i18n: file tools/scriptbuilderui.ui line 326
-#: rc.cpp:3799
+#: rc.cpp:3852
 #, no-c-format
 msgid ""
 "If a function is highlighted in the \"Current Script\" box, this button will "
@@ -28141,13 +28208,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 349
-#: rc.cpp:3803
+#: rc.cpp:3856
 #, fuzzy, no-c-format
 msgid "Copy Function"
 msgstr "সংযোগ"
 
 #. i18n: file tools/scriptbuilderui.ui line 352
-#: rc.cpp:3806
+#: rc.cpp:3859
 #, no-c-format
 msgid ""
 "If a function is highlighted in the \"Current Script\" box, this button will "
@@ -28155,13 +28222,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 375
-#: rc.cpp:3810
+#: rc.cpp:3863
 #, no-c-format
 msgid "Move Up"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 378
-#: rc.cpp:3813
+#: rc.cpp:3866
 #, no-c-format
 msgid ""
 "If a function is highlighted in the \"Current Script\" box, this button will "
@@ -28169,13 +28236,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 401
-#: rc.cpp:3817
+#: rc.cpp:3870
 #, fuzzy, no-c-format
 msgid "Move Down"
 msgstr "চাঁদ"
 
 #. i18n: file tools/scriptbuilderui.ui line 404
-#: rc.cpp:3820
+#: rc.cpp:3873
 #, no-c-format
 msgid ""
 "If a function is highlighted in the \"Current Script\" box, this button will "
@@ -28183,25 +28250,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 447
-#: rc.cpp:3823
+#: rc.cpp:3876
 #, no-c-format
 msgid "Function Arguments"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 497
-#: rc.cpp:3826
+#: rc.cpp:3879
 #, no-c-format
 msgid "Function Browser"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 545
-#: rc.cpp:3830
+#: rc.cpp:3883
 #, no-c-format
 msgid "Function Help"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 548
-#: rc.cpp:3833
+#: rc.cpp:3886
 #, no-c-format
 msgid ""
 "If a function is highlighted in the Function Browser, this area will show some "
@@ -28209,31 +28276,31 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 576
-#: rc.cpp:3836
+#: rc.cpp:3889
 #, no-c-format
 msgid "Append WaitForINDIAction after any INDI action"
 msgstr ""
 
 #. i18n: file tools/scriptbuilderui.ui line 587
-#: rc.cpp:3839
+#: rc.cpp:3892
 #, no-c-format
 msgid "Reuse INDI device name"
 msgstr ""
 
 #. i18n: file tools/scriptnamedialog.ui line 16
-#: rc.cpp:3842
+#: rc.cpp:3895
 #, fuzzy, no-c-format
 msgid "Enter Name for Script"
 msgstr "এই ক্যাটালগের জন্য একটি নাম লিখুন:"
 
 #. i18n: file tools/scriptnamedialog.ui line 38
-#: rc.cpp:3845
+#: rc.cpp:3898
 #, fuzzy, no-c-format
 msgid "Enter name for the script"
 msgstr "এই ক্যাটালগের জন্য একটি নাম লিখুন:"
 
 #. i18n: file tools/scriptnamedialog.ui line 41
-#: rc.cpp:3848
+#: rc.cpp:3901
 #, no-c-format
 msgid ""
 "Enter a name for the script.  This is not the file name, just a short "
@@ -28241,25 +28308,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/scriptnamedialog.ui line 55
-#: rc.cpp:3851
+#: rc.cpp:3904
 #, fuzzy, no-c-format
 msgid "Script name:"
 msgstr "অথবা নাম:"
 
 #. i18n: file tools/scriptnamedialog.ui line 63
-#: rc.cpp:3854
+#: rc.cpp:3907
 #, fuzzy, no-c-format
 msgid "Author:"
 msgstr "স্বয়ংক্রিয়"
 
 #. i18n: file tools/scriptnamedialog.ui line 71
-#: rc.cpp:3857
+#: rc.cpp:3910
 #, no-c-format
 msgid "Enter author's name"
 msgstr ""
 
 #. i18n: file tools/scriptnamedialog.ui line 129
-#: rc.cpp:3866
+#: rc.cpp:3919
 #, no-c-format
 msgid ""
 "Press Ok to accept the script name and author name, and open the Save File "
@@ -28267,43 +28334,43 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 16
-#: rc.cpp:3869
+#: rc.cpp:3922
 #, fuzzy, no-c-format
 msgid "What's Up Tonight?"
 msgstr "আজ রাতে কি দেখা যাবে?"
 
 #. i18n: file tools/wutdialogui.ui line 68
-#: rc.cpp:3872
+#: rc.cpp:3925
 #, no-c-format
 msgid "at LOCATION"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 121
-#: rc.cpp:3875
+#: rc.cpp:3928
 #, fuzzy, no-c-format
 msgid "The night of DATE"
 msgstr "%1-এর রাত"
 
 #. i18n: file tools/wutdialogui.ui line 156
-#: rc.cpp:3878
+#: rc.cpp:3931
 #, no-c-format
 msgid "Show objects which are up:"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 176
-#: rc.cpp:3881
+#: rc.cpp:3934
 #, fuzzy, no-c-format
 msgid "Change Date..."
 msgstr "তথ্য ডাউনলোড করা হচ্ছে..."
 
 #. i18n: file tools/wutdialogui.ui line 179
-#: rc.cpp:3884
+#: rc.cpp:3937
 #, no-c-format
 msgid "Choose a new date"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 182
-#: rc.cpp:3887
+#: rc.cpp:3940
 #, no-c-format
 msgid ""
 "Press this button to select a new date for the \"What's Up Tonight\" tool.  "
@@ -28311,19 +28378,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 190
-#: rc.cpp:3890
+#: rc.cpp:3943
 #, fuzzy, no-c-format
 msgid "Change Location..."
 msgstr "অবস্থান নির্ধারণ..."
 
 #. i18n: file tools/wutdialogui.ui line 193
-#: rc.cpp:3893
+#: rc.cpp:3946
 #, fuzzy, no-c-format
 msgid "Choose a new geographic location"
 msgstr "ভৌগলিক অবস্থান"
 
 #. i18n: file tools/wutdialogui.ui line 196
-#: rc.cpp:3896
+#: rc.cpp:3949
 #, no-c-format
 msgid ""
 "Press this button to select a new geographic location for the \"What's Up "
@@ -28331,31 +28398,31 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 202
-#: rc.cpp:3899
+#: rc.cpp:3952
 #, no-c-format
 msgid "In the Evening"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 207
-#: rc.cpp:3902
+#: rc.cpp:3955
 #, no-c-format
 msgid "In the Morning"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 212
-#: rc.cpp:3905
+#: rc.cpp:3958
 #, no-c-format
 msgid "Any Time Tonight"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 219
-#: rc.cpp:3908
+#: rc.cpp:3961
 #, no-c-format
 msgid "Choose time interval"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 222
-#: rc.cpp:3911
+#: rc.cpp:3964
 #, no-c-format
 msgid ""
 "By default, the \"What's Up Tonight\" tool displays all objects which are above "
@@ -28366,133 +28433,133 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 234
-#: rc.cpp:3914
+#: rc.cpp:3967
 #, no-c-format
 msgid "Almanac"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 251
-#: rc.cpp:3917
+#: rc.cpp:3970
 #, fuzzy, no-c-format
 msgid "Sunrise:  07:15"
 msgstr "সূর্যোদয়: %1"
 
 #. i18n: file tools/wutdialogui.ui line 254
-#: rc.cpp:3920
+#: rc.cpp:3973
 #, no-c-format
 msgid "Time of sunrise"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 257
-#: rc.cpp:3923
+#: rc.cpp:3976
 #, fuzzy, no-c-format
 msgid "Displays the time of sunrise for the selected date."
 msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
 #. i18n: file tools/wutdialogui.ui line 271
-#: rc.cpp:3926
+#: rc.cpp:3979
 #, fuzzy, no-c-format
 msgid "Moon rise:  13:19"
 msgstr "চাঁদ উদিত হওয়ার সময়: %1"
 
 #. i18n: file tools/wutdialogui.ui line 274
-#: rc.cpp:3929
+#: rc.cpp:3982
 #, no-c-format
 msgid "Time of moon rise"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 277
-#: rc.cpp:3932
+#: rc.cpp:3985
 #, fuzzy, no-c-format
 msgid "Displays the time at which the moon rises on the selected date."
 msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
 #. i18n: file tools/wutdialogui.ui line 291
-#: rc.cpp:3935
+#: rc.cpp:3988
 #, fuzzy, no-c-format
 msgid "Moon set: 04:27 "
 msgstr "চাঁদ অস্ত যাওয়ার সময়: %1"
 
 #. i18n: file tools/wutdialogui.ui line 294
-#: rc.cpp:3938
+#: rc.cpp:3991
 #, no-c-format
 msgid "Time of moon set"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 297
-#: rc.cpp:3941
+#: rc.cpp:3994
 #, fuzzy, no-c-format
 msgid "Displays the time at which the moon sets on the selected date."
 msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
 #. i18n: file tools/wutdialogui.ui line 311
-#: rc.cpp:3944
+#: rc.cpp:3997
 #, fuzzy, no-c-format
 msgid "Sunset:  19:15"
 msgstr "সূর্যাস্ত: %1"
 
 #. i18n: file tools/wutdialogui.ui line 314
-#: rc.cpp:3947
+#: rc.cpp:4000
 #, no-c-format
 msgid "Time of sunset"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 317
-#: rc.cpp:3950
+#: rc.cpp:4003
 #, fuzzy, no-c-format
 msgid "Displays the time of sunset for the selected date."
 msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
 #. i18n: file tools/wutdialogui.ui line 331
-#: rc.cpp:3953
+#: rc.cpp:4006
 #, fuzzy, no-c-format
 msgid "Night duration: 11:00 hours"
 msgstr "রাতের দৈর্ঘ্য: %1 ঘন্টা"
 
 #. i18n: file tools/wutdialogui.ui line 334
-#: rc.cpp:3956
+#: rc.cpp:4009
 #, no-c-format
 msgid "Duration of night for selected date"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 337
-#: rc.cpp:3959
+#: rc.cpp:4012
 #, fuzzy, no-c-format
 msgid "Displays the duration between sunset and sunrise for the selected date."
 msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
 #. i18n: file tools/wutdialogui.ui line 351
-#: rc.cpp:3962
+#: rc.cpp:4015
 #, no-c-format
 msgid "Moon illum: 42%"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 354
-#: rc.cpp:3965
+#: rc.cpp:4018
 #, no-c-format
 msgid "Moon's illumination fraction"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 357
-#: rc.cpp:3968
+#: rc.cpp:4021
 #, fuzzy, no-c-format
 msgid "Displays the illumination fraction of the Moon for the selected date."
 msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
 #. i18n: file tools/wutdialogui.ui line 392
-#: rc.cpp:3971
+#: rc.cpp:4024
 #, no-c-format
 msgid "<font size=\"-1\"><b>Choose a category:</b></font>"
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 406
-#: rc.cpp:3974
+#: rc.cpp:4027
 #, fuzzy, no-c-format
 msgid "List of objects above horizon tonight"
 msgstr "উদয়কালীন দিগংশ:"
 
 #. i18n: file tools/wutdialogui.ui line 409
-#: rc.cpp:3977
+#: rc.cpp:4030
 #, no-c-format
 msgid ""
 "Objects listed here are above the horizon on the selected date, and have the "
@@ -28500,19 +28567,19 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 417
-#: rc.cpp:3980
+#: rc.cpp:4033
 #, fuzzy, no-c-format
 msgid "Object Name"
 msgstr "বস্তুর ধরন:"
 
 #. i18n: file tools/wutdialogui.ui line 428
-#: rc.cpp:3983
+#: rc.cpp:4036
 #, fuzzy, no-c-format
 msgid "Rises at:  22:12"
 msgstr "উদয়: %1"
 
 #. i18n: file tools/wutdialogui.ui line 434
-#: rc.cpp:3986
+#: rc.cpp:4039
 #, fuzzy, no-c-format
 msgid ""
 "Displays the time at which the highlighted object rises above the horizon on "
@@ -28520,13 +28587,13 @@ msgid ""
 msgstr "অস্তের সময়:"
 
 #. i18n: file tools/wutdialogui.ui line 442
-#: rc.cpp:3989
+#: rc.cpp:4042
 #, fuzzy, no-c-format
 msgid "Transits at:  03:45"
 msgstr "অতিক্রম কাল: %1"
 
 #. i18n: file tools/wutdialogui.ui line 448
-#: rc.cpp:3992
+#: rc.cpp:4045
 #, no-c-format
 msgid ""
 "Displays the time at which the highlighted object transits across the local "
@@ -28534,13 +28601,13 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 456
-#: rc.cpp:3995
+#: rc.cpp:4048
 #, fuzzy, no-c-format
 msgid "Sets at:  08:22"
 msgstr "অস্ত: %1"
 
 #. i18n: file tools/wutdialogui.ui line 462
-#: rc.cpp:3998
+#: rc.cpp:4051
 #, fuzzy, no-c-format
 msgid ""
 "Displays the time at which the highlighted object sets below the horizon on the "
@@ -28548,19 +28615,19 @@ msgid ""
 msgstr "অস্তের সময়:"
 
 #. i18n: file tools/wutdialogui.ui line 487
-#: rc.cpp:4001
+#: rc.cpp:4054
 #, fuzzy, no-c-format
 msgid "Center Object"
 msgstr "মেসিয়ের বস্তু"
 
 #. i18n: file tools/wutdialogui.ui line 490
-#: rc.cpp:4004
+#: rc.cpp:4057
 #, fuzzy, no-c-format
 msgid "Center this object in the sky display"
 msgstr "সরে যাওয়ার সময় খ-বস্তুকে আড়াল করার মোড পাল্টাও"
 
 #. i18n: file tools/wutdialogui.ui line 493
-#: rc.cpp:4007
+#: rc.cpp:4060
 #, no-c-format
 msgid ""
 "Center the sky display on this object, and begin tracking it.  Equivalent to "
@@ -28568,25 +28635,25 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 504
-#: rc.cpp:4013
+#: rc.cpp:4066
 #, fuzzy, no-c-format
 msgid "Open the Object Details window"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
 #. i18n: file tools/wutdialogui.ui line 507
-#: rc.cpp:4016
+#: rc.cpp:4069
 #, no-c-format
 msgid "Open the Details window for the highlighted object."
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 523
-#: rc.cpp:4019
+#: rc.cpp:4072
 #, fuzzy, no-c-format
 msgid "List of object categories"
 msgstr "অন্যান্য ক্যাটালগের তালিকা"
 
 #. i18n: file tools/wutdialogui.ui line 526
-#: rc.cpp:4022
+#: rc.cpp:4075
 #, no-c-format
 msgid ""
 "Select an item in the Categories list to display objects in that category which "
@@ -28594,55 +28661,55 @@ msgid ""
 msgstr ""
 
 #. i18n: file tools/wutdialogui.ui line 534
-#: rc.cpp:4025
+#: rc.cpp:4078
 #, no-c-format
 msgid "<font size=\"-1\"><b>Matching objects:</b></font>"
 msgstr ""
 
 #. i18n: file fitsviewer.rc line 36
-#: rc.cpp:4040
+#: rc.cpp:4093
 #, no-c-format
 msgid "Process ToolBar"
 msgstr "প্রসেস টুলবার"
 
 #. i18n: file kstarsui.rc line 20
-#: rc.cpp:4046
+#: rc.cpp:4099
 #, fuzzy, no-c-format
 msgid "T&ime"
 msgstr "সময়"
 
 #. i18n: file kstarsui.rc line 27
-#: rc.cpp:4049
+#: rc.cpp:4102
 #, no-c-format
 msgid "&Pointing"
 msgstr "নির্দে&শক"
 
 #. i18n: file kstarsui.rc line 51
-#: rc.cpp:4055
+#: rc.cpp:4108
 #, no-c-format
 msgid "&Devices"
 msgstr "ডিভা&ইস"
 
-#. i18n: file kstarsui.rc line 75
-#: rc.cpp:4064
+#. i18n: file kstarsui.rc line 76
+#: rc.cpp:4117
 #, no-c-format
 msgid "&Info Boxes"
 msgstr "&তথ্যমূলক বাক্স"
 
-#. i18n: file kstarsui.rc line 82
-#: rc.cpp:4067
+#. i18n: file kstarsui.rc line 83
+#: rc.cpp:4120
 #, no-c-format
 msgid "&Toolbars"
 msgstr "টু&লবার"
 
-#. i18n: file kstarsui.rc line 86
-#: rc.cpp:4070
+#. i18n: file kstarsui.rc line 87
+#: rc.cpp:4123
 #, no-c-format
 msgid "&Statusbar"
 msgstr "স্ট্যাটা&সবার"
 
-#. i18n: file kstarsui.rc line 127
-#: rc.cpp:4079
+#. i18n: file kstarsui.rc line 128
+#: rc.cpp:4132
 #, no-c-format
 msgid "View Toolbar"
 msgstr "টুলবার প্রদর্শন করো"
@@ -31153,6 +31220,9 @@ msgstr "অতিক্রম কাল: %1"
 #, c-format
 msgid "Sets at: %1"
 msgstr "অস্ত: %1"
+
+#~ msgid "Listening Port"
+#~ msgstr "Listen-রত পোর্ট"
 
 #~ msgid "Add Catalog"
 #~ msgstr "ক্যাটালগ যোগ করো"
