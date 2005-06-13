@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: katepart\n"
-"POT-Creation-Date: 2005-06-04 01:23+0200\n"
+"POT-Creation-Date: 2005-06-13 01:26+0200\n"
 "PO-Revision-Date: 2005-01-04 11:33-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -255,6 +255,11 @@ msgstr "পূর্ববর্তী বুকমার্ক"
 msgid "Go to the previous bookmark."
 msgstr "পূর্ববর্তী বুকমার্ক-এ যাও"
 
+#: part/katebookmarks.cpp:101
+#, fuzzy
+msgid "&Bookmarks"
+msgstr "বুকমার্ক"
+
 #: part/katebookmarks.cpp:203
 msgid "&Next: %1 - \"%2\""
 msgstr "&পরবর্তী: %1 - \"%2\""
@@ -421,6 +426,11 @@ msgid ""
 msgstr ""
 "%n-টি স্থানে বদল করা হয়েছে।\n"
 "%n-টি স্থানে বদল করা হয়েছে।"
+
+#: part/katesearch.cpp:340 part/katesearch.cpp:358 part/katesearch.cpp:484
+#, fuzzy
+msgid "Replace"
+msgstr "&বদলাও"
 
 #: part/katesearch.cpp:465
 msgid "End of document reached."
@@ -590,6 +600,11 @@ msgstr ""
 msgid "(Unknown)"
 msgstr ""
 
+#: part/katedocument.cpp:425 part/katedocument.cpp:466
+#, fuzzy
+msgid "Appearance"
+msgstr "আপারকেস"
+
 #: part/katedocument.cpp:428
 msgid "Fonts & Colors"
 msgstr "ফন্ট এবং রং"
@@ -664,6 +679,11 @@ msgstr "শর্টকাট কনফিগারেশন"
 #: part/katedocument.cpp:493
 msgid "Plugin Manager"
 msgstr "প্লাগ-ইন ম্যানেজার"
+
+#: part/katedocument.cpp:1906
+#, fuzzy
+msgid "Configure"
+msgstr "&সম্পাদক কনফিগার করো..."
 
 #: part/katedocument.cpp:2391
 msgid ""
@@ -748,6 +768,11 @@ msgstr ""
 msgid "Do you really want to continue to close this file? Data loss may occur."
 msgstr "আপনি সত্যি চাই প্রতি চলিয়ে যাও প্রতি বন্ধ এই ফাইল ক্ষতি হয়তো ঘটা."
 
+#: part/katedocument.cpp:4158
+#, fuzzy
+msgid "Untitled"
+msgstr "অসীম"
+
 #: part/katedocument.cpp:4189 part/katedocument.cpp:4852 part/kateview.cpp:867
 msgid "Save File"
 msgstr "ফাইল সংরক্ষণ করো "
@@ -816,6 +841,18 @@ msgstr "ফাই&ল টাইপ:"
 #: part/katefiletype.cpp:279
 msgid "&New"
 msgstr "&নতুন"
+
+#: part/katefiletype.cpp:282 part/kateschema.cpp:841
+#: plugins/autobookmarker/autobookmarker.cpp:411
+#, fuzzy
+msgid "&Delete"
+msgstr "নির্বাচিত"
+
+#: part/katedialogs.cpp:1283 part/katefiletype.cpp:285
+#: part/katefiletype.cpp:485
+#, fuzzy
+msgid "Properties"
+msgstr "বাক্সর বৈশিষ্ট্যাবলী"
 
 #: part/katefiletype.cpp:289
 msgid "N&ame:"
@@ -1017,6 +1054,15 @@ msgstr ""
 msgid "Execution"
 msgstr "নির্বাচন"
 
+#: part/kateschema.cpp:309
+msgid "Warning"
+msgstr ""
+
+#: part/katehighlight.cpp:3155 part/kateschema.cpp:310
+#, fuzzy
+msgid "Error"
+msgstr "সমস্যা:"
+
 #: part/kateschema.cpp:317
 msgid "Additional Elements"
 msgstr ""
@@ -1166,6 +1212,10 @@ msgstr "&নতুন..."
 #: part/kateschema.cpp:851
 msgid "Colors"
 msgstr "রং"
+
+#: part/kateschema.cpp:854
+msgid "Font"
+msgstr ""
 
 #: part/kateschema.cpp:857
 #, fuzzy
@@ -1723,6 +1773,11 @@ msgstr "শব্দ ঘুরিয়ে"
 msgid "Dynamic word wrap indicators (if applicable):"
 msgstr "শব্দ ঘুরিয়ে নির্দেশক যদি প্রযোজ্য:"
 
+#: part/katedialogs.cpp:647
+#, fuzzy
+msgid "Off"
+msgstr "&বন্ধ"
+
 #: part/katedialogs.cpp:648
 msgid "Follow Line Numbers"
 msgstr "লাইন নম্বর অনুসরণ করো"
@@ -2061,6 +2116,11 @@ msgstr "মন্তব্য"
 #, fuzzy, c-format
 msgid "Configure %1"
 msgstr "&সম্পাদক কনফিগার করো..."
+
+#: part/katedialogs.cpp:1269
+#, fuzzy
+msgid "Information"
+msgstr "মোড:"
 
 #: part/katedialogs.cpp:1274
 #, fuzzy
@@ -3161,10 +3221,46 @@ msgstr ""
 "%n-টি স্থানে বদল করা হয়েছে।\n"
 "%n-টি স্থানে বদল করা হয়েছে।"
 
+#. i18n: file ./data/katepartreadonlyui.rc line 4
+#: rc.cpp:3 rc.cpp:24
+#, fuzzy, no-c-format
+msgid "&File"
+msgstr "ফাই&ল টাইপ:"
+
+#. i18n: file ./data/katepartreadonlyui.rc line 11
+#: rc.cpp:6 rc.cpp:27
+#, fuzzy, no-c-format
+msgid "&Edit"
+msgstr "&সম্পাদনা..."
+
+#. i18n: file ./data/katepartreadonlyui.rc line 25
+#: rc.cpp:9 rc.cpp:30
+#, fuzzy, no-c-format
+msgid "&View"
+msgstr "&নতুন"
+
 #. i18n: file ./data/katepartreadonlyui.rc line 39
 #: rc.cpp:12 rc.cpp:33
 #, no-c-format
 msgid "&Code Folding"
+msgstr ""
+
+#. i18n: file ./data/katepartreadonlyui.rc line 49
+#: rc.cpp:15 rc.cpp:36
+#, fuzzy, no-c-format
+msgid "&Tools"
+msgstr "যন্ত্রপাতি (_য)"
+
+#. i18n: file ./data/katepartreadonlyui.rc line 75
+#: rc.cpp:18 rc.cpp:39
+#, fuzzy, no-c-format
+msgid "&Settings"
+msgstr "টেক্স&ট সেটিংস"
+
+#. i18n: file ./data/katepartreadonlyui.rc line 92
+#: rc.cpp:21 rc.cpp:42
+#, no-c-format
+msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: file data/abc.xml line 5
@@ -4188,6 +4284,11 @@ msgstr "ফাইল মধ্যে ঢোকাও..."
 msgid "Choose File to Insert"
 msgstr "ফাইল (_ফ) প্রতি মধ্যে ঢোকাও"
 
+#: plugins/insertfile/insertfileplugin.cpp:89
+#, fuzzy
+msgid "&Insert"
+msgstr "&ইনস্টল"
+
 #: plugins/insertfile/insertfileplugin.cpp:116
 msgid ""
 "Failed to load file:\n"
@@ -4533,10 +4634,6 @@ msgstr ""
 
 #~ msgid "Decrease Font Sizes"
 #~ msgstr "লেখা ছোট কর"
-
-#, fuzzy
-#~ msgid "deleted"
-#~ msgstr "নির্বাচিত"
 
 #~ msgid "A&ctivated"
 #~ msgstr "&সক্রিয়"
