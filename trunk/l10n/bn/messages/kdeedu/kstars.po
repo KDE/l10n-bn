@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
-"POT-Creation-Date: 2005-07-04 01:40+0200\n"
+"POT-Creation-Date: 2005-07-06 01:38+0200\n"
 "PO-Revision-Date: 2004-09-28 22:58-0500\n"
 "Last-Translator: progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -137,7 +137,7 @@ msgstr ""
 msgid "Help on custom catalog file format"
 msgstr "স্বনির্বাচিত ক্যাটালগ ফাইলের বিন্যাস সংক্রান্ত সাহায্য"
 
-#: addcatdialog.cpp:143 customcatalog.cpp:22 kstarsdata.cpp:1485
+#: addcatdialog.cpp:143 customcatalog.cpp:22 kstarsdata.cpp:1488
 #, fuzzy
 msgid "Custom"
 msgstr "স্বয়ংক্রিয়"
@@ -188,13 +188,13 @@ msgstr "অবৈধ ইউ.আর.এল."
 msgid "Show webpage about "
 msgstr "এই বিষয়ের ওপর ওয়েবপেজ প্রদর্শন করো - "
 
-#: ccdpreviewwg.cpp:266 kstarsactions.cpp:485 kstarsdcop.cpp:446
+#: ccdpreviewwg.cpp:266 kstarsactions.cpp:496 kstarsdcop.cpp:455
 #: streamwg.cpp:257 tools/scriptbuilder.cpp:842
 #, c-format
 msgid "Could not upload image to remote location: %1"
 msgstr "দূরবর্তী অবস্থানে ছবি আপলোড করা যায় নি: %1"
 
-#: ccdpreviewwg.cpp:267 kstarsactions.cpp:486 kstarsdcop.cpp:447
+#: ccdpreviewwg.cpp:267 kstarsactions.cpp:497 kstarsdcop.cpp:456
 #: streamwg.cpp:258 tools/scriptbuilder.cpp:843
 msgid "Could not upload file"
 msgstr "ফাইল আপলোড করা যায় নি"
@@ -331,7 +331,7 @@ msgstr ""
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
 #: colorscheme.cpp:258 colorscheme.cpp:276 indidriver.cpp:453
-#: indidriver.cpp:881 kstarsactions.cpp:513 locationdialog.cpp:371
+#: indidriver.cpp:881 kstarsactions.cpp:524 locationdialog.cpp:371
 #: opscolors.cpp:188 skymap.cpp:1317 tools/modcalcangdist.cpp:102
 #: tools/modcalcapcoord.cpp:182 tools/modcalcazel.cpp:329
 #: tools/modcalceclipticcoords.cpp:227 tools/modcalcequinox.cpp:142
@@ -381,7 +381,7 @@ msgid "General"
 msgstr "সাধারণ"
 
 #: detaildialog.cpp:137 kspopupmenu.cpp:55 kspopupmenu.cpp:222
-#: kstarsdata.cpp:127 kstarsinit.cpp:516 kstarsinit.cpp:532
+#: kstarsdata.cpp:127 kstarsinit.cpp:518 kstarsinit.cpp:534
 #: skymapdraw.cpp:1221 starobject.cpp:243 tools/observinglist.cpp:174
 #: tools/observinglist.cpp:220 tools/observinglist.cpp:259
 msgid "star"
@@ -484,7 +484,7 @@ msgstr "অপ্রযোজ্য"
 msgid "Links"
 msgstr "লিঙ্ক"
 
-#: detaildialog.cpp:457 kstarsactions.cpp:353
+#: detaildialog.cpp:457 kstarsactions.cpp:364
 msgid "Advanced"
 msgstr "অগ্রসর"
 
@@ -600,7 +600,7 @@ msgstr "যে কোন"
 msgid "Stars"
 msgstr "তারা"
 
-#: finddialog.cpp:59 kspopupmenu.cpp:91 kstarsactions.cpp:350
+#: finddialog.cpp:59 kspopupmenu.cpp:91 kstarsactions.cpp:361
 #: tools/astrocalc.cpp:91 tools/astrocalc.cpp:136
 msgid "Solar System"
 msgstr "সৌরজগত্‍"
@@ -770,18 +770,18 @@ msgid ""
 msgstr ""
 "ফাইল থেকে FITS তথ্য পড়া যায় নি।  %1।\n"
 
-#: fitsviewer.cpp:563 imageviewer.cpp:212 kstarsactions.cpp:435
+#: fitsviewer.cpp:563 imageviewer.cpp:212 kstarsactions.cpp:446
 #: tools/scriptbuilder.cpp:812
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr ""
 "\"%1\" নামে একটি ফাইল ইতিমধ্যেই বিদ্যমান।  সেটির ওপর দিয়েই কি লেখা হবে?"
 
-#: fitsviewer.cpp:565 imageviewer.cpp:214 kstarsactions.cpp:437
+#: fitsviewer.cpp:565 imageviewer.cpp:214 kstarsactions.cpp:448
 #: tools/scriptbuilder.cpp:814
 msgid "Overwrite File?"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
 
-#: fitsviewer.cpp:566 imageviewer.cpp:215 kstarsactions.cpp:438
+#: fitsviewer.cpp:566 imageviewer.cpp:215 kstarsactions.cpp:449
 #: tools/scriptbuilder.cpp:815
 msgid "&Overwrite"
 msgstr "&ওপর দিয়ে লেখো"
@@ -1372,7 +1372,7 @@ msgstr "অতিক্রম কাল: %1"
 msgid "Sun"
 msgstr "সূর্য"
 
-#: kstars.cpp:175 kstarsactions.cpp:635 skymap.cpp:517
+#: kstars.cpp:175 kstarsactions.cpp:646 skymap.cpp:517
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
@@ -21558,30 +21558,34 @@ msgid ""
 "Other"
 msgstr "অন্যান্য"
 
-#: kstarsactions.cpp:349
+#: kstarsactions.cpp:197
+msgid "Knowledge"
+msgstr ""
+
+#: kstarsactions.cpp:360
 msgid "Catalogs"
 msgstr "তালিকা"
 
-#: kstarsactions.cpp:351
+#: kstarsactions.cpp:362
 msgid "Guides"
 msgstr "নির্দেশিকা"
 
-#: kstarsactions.cpp:352
+#: kstarsactions.cpp:363
 msgid "Colors"
 msgstr "রং"
 
-#: kstarsactions.cpp:390
+#: kstarsactions.cpp:401
 msgid "KStars::slotFind() - Not enough memory for dialog"
 msgstr "KStars::slotFind() - ডায়ালগ প্রদর্শনের জন্য পর্যাপ্ত মেমরি নেই"
 
-#: kstarsactions.cpp:454
+#: kstarsactions.cpp:465
 msgid ""
 "Warning:  You are about to execute a remote shell script on your machine. "
 msgstr ""
 "সতর্কবাণী:  আপনি আপনার কম্পিউটারে একটি দূরবর্তী (Remote) শেল স্ক্রিপ্ট চালাতে "
 "যাচ্ছেন। "
 
-#: kstarsactions.cpp:455
+#: kstarsactions.cpp:466
 msgid ""
 "If you absolutely trust the source of this script, press Continue to execute "
 "the script; "
@@ -21589,53 +21593,53 @@ msgstr ""
 "যদি স্ক্রিপ্টের সোর্সকে আপনি বিশ্বাস করেন, তবে স্ক্রিপ্ট চালানোর জন্য 'অগ্রসর' "
 "বাটন চাপুন; "
 
-#: kstarsactions.cpp:456
+#: kstarsactions.cpp:467
 msgid "to save the file without executing it, press Save; "
 msgstr "ফাইলটি না চালিয়ে শুধু সংরক্ষণ করতে চাইলে 'সংরক্ষণ' চাপুন; "
 
-#: kstarsactions.cpp:457
+#: kstarsactions.cpp:468
 msgid "to cancel the download, press Cancel. "
 msgstr "ডাউনলোড প্রক্রিয়া বাতিল করার জন্য 'বাতিল' চাপুন। "
 
-#: kstarsactions.cpp:459
+#: kstarsactions.cpp:470
 msgid "Really Execute Remote Script?"
 msgstr "আপনি কি দূরবর্তী (Remote) স্ক্রিপ্ট চালানোর ব্যাপারে নিশ্চিত?"
 
-#: kstarsactions.cpp:469
+#: kstarsactions.cpp:480
 msgid "Save location is invalid. Try another location?"
 msgstr ""
 "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ।  অপর কোনো অবস্থানে সংরক্ষণ করতে "
 "চান কি?"
 
-#: kstarsactions.cpp:470
+#: kstarsactions.cpp:481
 msgid "Invalid Save Location"
 msgstr "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ"
 
-#: kstarsactions.cpp:490
+#: kstarsactions.cpp:501
 msgid "Could not download the file."
 msgstr "ফাইল ডাউনলোড করা যায় নি।"
 
-#: kstarsactions.cpp:490 tools/scriptbuilder.cpp:762
+#: kstarsactions.cpp:501 tools/scriptbuilder.cpp:762
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:512 kstarsdata.cpp:2317 tools/observinglist.cpp:518
+#: kstarsactions.cpp:523 kstarsdata.cpp:2320 tools/observinglist.cpp:518
 #, c-format
 msgid "Could not open file %1"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি"
 
-#: kstarsactions.cpp:537
+#: kstarsactions.cpp:548
 msgid ""
 "The selected script contains unrecognized elements,indicating that it was not "
 "created using the KStars script builder. This script may not function properly, "
 "and it may even contain malicious code. Would you like to execute it anyway?"
 msgstr ""
 
-#: kstarsactions.cpp:541
+#: kstarsactions.cpp:552
 msgid "Script Validation Failed"
 msgstr "স্ক্রিপ্টের বৈধতা প্রমাণ করা যায় নি"
 
-#: kstarsactions.cpp:557
+#: kstarsactions.cpp:568
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which uses a "
 "white background. Would you like to temporarily switch to the Star Chart color "
@@ -21645,34 +21649,34 @@ msgstr ""
 "ব্যবহার করতে পারেন যা সাদা পটভূমি ব্যবহার করে।  আপনি কি মুদ্রণের জন্য "
 "সাময়িকভাবে তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান?"
 
-#: kstarsactions.cpp:562
+#: kstarsactions.cpp:573
 msgid "Switch to Star Chart Colors?"
 msgstr "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান কি?"
 
-#: kstarsactions.cpp:619 kstarsinit.cpp:96
+#: kstarsactions.cpp:630 kstarsinit.cpp:96
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:741
+#: kstarsactions.cpp:752
 msgid ""
 "_: The user should enter an angle for the field-of-view of the display\n"
 "Enter Desired Field-of-View Angle"
 msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণের মান লিখুন"
 
-#: kstarsactions.cpp:741
+#: kstarsactions.cpp:752
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
-#: kstarsactions.cpp:816
+#: kstarsactions.cpp:827
 msgid "Could not open fov.dat for writing."
 msgstr "লেখার জন্য fov.dat ফাইলটি খোলা যায় নি।"
 
-#: kstarsactions.cpp:846 kstarsinit.cpp:335
+#: kstarsactions.cpp:857 kstarsinit.cpp:337
 #, c-format
 msgid "Could not open file: %1"
 msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
-#: kstarsactions.cpp:850 kstarsinit.cpp:339
+#: kstarsactions.cpp:861 kstarsinit.cpp:341
 msgid "Edit FOV Symbols..."
 msgstr "FOV প্রতীক সম্পাদন..."
 
@@ -21720,37 +21724,37 @@ msgstr "গ্রহাণু"
 msgid "constellation"
 msgstr "তারামণ্ডল"
 
-#: kstarsdata.cpp:432
+#: kstarsdata.cpp:435
 msgid "No star named %1 found."
 msgstr "%1 নামে কোন তারা পাওয়া যায় নি।"
 
-#: kstarsdata.cpp:515 kstarsdata.cpp:531
+#: kstarsdata.cpp:518 kstarsdata.cpp:534
 msgid "Unable to parse boundary segment."
 msgstr "সীমানা অংশ (Segment) পার্স করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#: kstarsdata.cpp:541
+#: kstarsdata.cpp:544
 msgid "Bad Constellation Boundary data."
 msgstr "তারামণ্ডলের সীমানা বিষয়ক তথ্য ভুল।"
 
-#: kstarsdata.cpp:583 kstarsdata.cpp:1829
+#: kstarsdata.cpp:586 kstarsdata.cpp:1832
 msgid "Loading Star Data (%1%)"
 msgstr "তারা সংক্তান্ত তথ্য লোড করা হচ্ছে (%1 শতাংশ) "
 
-#: kstarsdata.cpp:787 kstarsdata.cpp:1840
+#: kstarsdata.cpp:790 kstarsdata.cpp:1843
 msgid "Loading NGC/IC Data (%1%)"
 msgstr "এন.জি.সি./আই.সি. তথ্য লোড করা হচ্ছে (%1 শতাংশ)"
 
-#: kstarsdata.cpp:880
+#: kstarsdata.cpp:883
 msgid "Unnamed Object"
 msgstr "নামহীন বস্তু"
 
-#: kstarsdata.cpp:1004
+#: kstarsdata.cpp:1007
 msgid "No localized URL file; using default English file."
 msgstr ""
 "কোন স্থানীয়কৃত (Localized) ইউ.আর.এল. ফাইল নেই; ডিফল্ট হিসেবে ইংরেজি ফাইল "
 "ব্যবহার করা হচ্ছে।"
 
-#: kstarsdata.cpp:1019
+#: kstarsdata.cpp:1022
 msgid ""
 "Failed to copy default URL file to locale folder, modifying default object "
 "links is not possible"
@@ -21758,16 +21762,16 @@ msgstr ""
 "ডিফল্ট ইউ.আর.এল. ফাইলকে লোকাল (Locale) ফোল্ডারে কপি করা যায় নি, ফলে বস্তুর "
 "ডিফল্ট লিঙ্ক সম্পাদন করা সম্ভব নয়"
 
-#: kstarsdata.cpp:1132
+#: kstarsdata.cpp:1135
 #, c-format
 msgid "Error adding catalog: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1210
+#: kstarsdata.cpp:1213
 msgid "Line %1 does not contain %2 fields.  Skipping it."
 msgstr ""
 
-#: kstarsdata.cpp:1217
+#: kstarsdata.cpp:1220
 #, fuzzy
 msgid ""
 "Some lines in the custom catalog could not be parsed; see error messages below."
@@ -21775,150 +21779,150 @@ msgstr ""
 "উল্লেখকৃত ফাইলের কিছু লাইন পার্স করা যায় নি, সমস্যাসূচক বার্তার জন্য নিচে "
 "দেখুন।"
 
-#: kstarsdata.cpp:1218
+#: kstarsdata.cpp:1221
 msgid "To reject the file, press Cancel. "
 msgstr "ফাইলটি প্রত্যাখ্যান করার জন্য 'বাতিল' চাপুন। "
 
-#: kstarsdata.cpp:1219
+#: kstarsdata.cpp:1222
 msgid "To accept the file (ignoring unparsed lines), press Accept."
 msgstr ""
 "ফাইলটি (পার্স না করতে পারা লাইনগুলো অগ্রাহ্য করে) অনুমোদন করার জন্য 'অনুমোদন' "
 "চাপুন।"
 
-#: kstarsdata.cpp:1221
+#: kstarsdata.cpp:1224
 msgid "Some Lines in File Were Invalid"
 msgstr "ফাইলের কিছু সংখ্যক লাইনে সমস্যা রয়েছে"
 
-#: kstarsdata.cpp:1221
+#: kstarsdata.cpp:1224
 msgid "Accept"
 msgstr "অনুমোদন"
 
-#: kstarsdata.cpp:1227
+#: kstarsdata.cpp:1230
 msgid ""
 "No lines could be parsed from the specified file, see error messages below."
 msgstr ""
 "উল্লেখকৃত ফাইল থেকে কোন লাইনই পার্স করা যায় নি, সমস্যাসূচক বার্তার জন্য নিচে "
 "দেখুন।"
 
-#: kstarsdata.cpp:1229
+#: kstarsdata.cpp:1232
 msgid "No Valid Data Found in File"
 msgstr "ফাইলে কোন বৈধ তথ্য পাওয়া যায় নি"
 
-#: kstarsdata.cpp:1236 kstarsdata.cpp:1239
+#: kstarsdata.cpp:1239 kstarsdata.cpp:1242
 #, fuzzy, c-format
 msgid "Could not open custom data file: %1"
 msgstr "স্বনির্বাচিত তথ্যের এই ফাইলটি খোলা যায় নি: "
 
-#: kstarsdata.cpp:1237
+#: kstarsdata.cpp:1240
 #, fuzzy
 msgid "Error opening file"
 msgstr "ফাইল মোছায় সমস্যা"
 
-#: kstarsdata.cpp:1269
+#: kstarsdata.cpp:1272
 msgid "Line %1, field %2: Unable to parse RA value: %3"
 msgstr ""
 
-#: kstarsdata.cpp:1278
+#: kstarsdata.cpp:1281
 msgid "Line %1, field %2: Unable to parse Dec value: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1290
+#: kstarsdata.cpp:1293
 msgid "Line %1, field %2: Invalid object type: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1292
+#: kstarsdata.cpp:1295
 msgid "Must be one of 0, 1, 3, 4, 5, 6, 7, 8."
 msgstr ""
 
-#: kstarsdata.cpp:1297
+#: kstarsdata.cpp:1300
 msgid "Line %1, field %2: Unable to parse Object type: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1308
+#: kstarsdata.cpp:1311
 msgid "Line %1, field %2: Unable to parse Magnitude: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1319
+#: kstarsdata.cpp:1322
 msgid "Line %1, field %2: Unable to parse Major Axis: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1330
+#: kstarsdata.cpp:1333
 msgid "Line %1, field %2: Unable to parse Minor Axis: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1341
+#: kstarsdata.cpp:1344
 msgid "Line %1, field %2: Unable to parse Position Angle: %1"
 msgstr ""
 
-#: kstarsdata.cpp:1389 kstarsdata.cpp:1398 kstarsdata.cpp:1407
-#: kstarsdata.cpp:1417 kstarsdata.cpp:1423 kstarsdata.cpp:1455
-#: kstarsdata.cpp:1460 kstarsdata.cpp:1471 kstarsdata.cpp:1477
-#: kstarsdata.cpp:1483 kstarsdata.cpp:1488 kstarsdata.cpp:1493
-#: kstarsdata.cpp:1498
+#: kstarsdata.cpp:1392 kstarsdata.cpp:1401 kstarsdata.cpp:1410
+#: kstarsdata.cpp:1420 kstarsdata.cpp:1426 kstarsdata.cpp:1458
+#: kstarsdata.cpp:1463 kstarsdata.cpp:1474 kstarsdata.cpp:1480
+#: kstarsdata.cpp:1486 kstarsdata.cpp:1491 kstarsdata.cpp:1496
+#: kstarsdata.cpp:1501
 msgid "Parsing header: "
 msgstr ""
 
-#: kstarsdata.cpp:1390
+#: kstarsdata.cpp:1393
 msgid "Extra Name field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1399
+#: kstarsdata.cpp:1402
 msgid "Extra Prefix field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1408
+#: kstarsdata.cpp:1411
 msgid "Extra Color field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1418
+#: kstarsdata.cpp:1421
 msgid "Could not convert Epoch to float: %1.  Using 2000. instead"
 msgstr ""
 
-#: kstarsdata.cpp:1424
+#: kstarsdata.cpp:1427
 msgid "Extra Epoch field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1456
+#: kstarsdata.cpp:1459
 msgid "Duplicate data field descriptor \"%1\" will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1461
+#: kstarsdata.cpp:1464
 msgid "Invalid data field descriptor \"%1\" will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1472
+#: kstarsdata.cpp:1475
 msgid "No valid column descriptors found.  Exiting"
 msgstr ""
 
-#: kstarsdata.cpp:1478
+#: kstarsdata.cpp:1481
 msgid "No data lines found after header.  Exiting."
 msgstr ""
 
-#: kstarsdata.cpp:1484
+#: kstarsdata.cpp:1487
 msgid "No Catalog Name specified; setting to \"Custom\""
 msgstr ""
 
-#: kstarsdata.cpp:1489
+#: kstarsdata.cpp:1492
 msgid "No Catalog Prefix specified; setting to \"CC\""
 msgstr ""
 
-#: kstarsdata.cpp:1494
+#: kstarsdata.cpp:1497
 msgid "No Catalog Color specified; setting to Red"
 msgstr ""
 
-#: kstarsdata.cpp:1499
+#: kstarsdata.cpp:1502
 #, fuzzy
 msgid "No Catalog Epoch specified; assuming 2000."
 msgstr ""
 "যুগ (Epoch) নির্দেশক পঙ্‌ক্তি পার্স (Parse) করা যায় নি; ধরে নেওয়া হচ্ছে যে এটি "
 "J2000"
 
-#: kstarsdata.cpp:1530
+#: kstarsdata.cpp:1533
 msgid "Cities.dat: Ran out of fields.  Line was:"
 msgstr "Cities.dat: আর কোন ঘর ফাঁকা নেই।  লাইন সংখ্যা হল:"
 
-#: kstarsdata.cpp:1548 kstarsdata.cpp:1554 kstarsdata.cpp:1560
-#: kstarsdata.cpp:1573 kstarsdata.cpp:1579 kstarsdata.cpp:1585
+#: kstarsdata.cpp:1551 kstarsdata.cpp:1557 kstarsdata.cpp:1563
+#: kstarsdata.cpp:1576 kstarsdata.cpp:1582 kstarsdata.cpp:1588
 msgid ""
 "\n"
 "Cities.dat: Bad integer.  Line was:\n"
@@ -21926,7 +21930,7 @@ msgstr ""
 "\n"
 "Cities.dat: ত্রুটিপূর্ণ পূর্ণসংখ্যা।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1567
+#: kstarsdata.cpp:1570
 msgid ""
 "\n"
 "Cities.dat: Invalid latitude sign.  Line was:\n"
@@ -21934,7 +21938,7 @@ msgstr ""
 "\n"
 "Cities.dat: অক্ষাংশের গাণিতিক চিহ্ন (Sign) অবৈধ।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1592
+#: kstarsdata.cpp:1595
 msgid ""
 "\n"
 "Cities.dat: Invalid longitude sign.  Line was:\n"
@@ -21942,7 +21946,7 @@ msgstr ""
 "\n"
 "Cities.dat: দ্রাঘিমাংশের গাণিতিক চিহ্ন (Sign) অবৈধ।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1610
+#: kstarsdata.cpp:1613
 msgid ""
 "\n"
 "Cities.dat: Bad time zone.  Line was:\n"
@@ -21950,7 +21954,7 @@ msgstr ""
 "\n"
 "Cities.dat: ত্রুটিপূর্ণ সময় অঞ্চল।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1761
+#: kstarsdata.cpp:1764
 msgid ""
 "The file %1 could not be found. KStars cannot run properly without this file. "
 "To continue loading, place the file in one of the following locations, then "
@@ -21961,16 +21965,16 @@ msgstr ""
 "চলা অসম্ভব নয়।  লোড করার কাজ এগিয়ে নেওয়ার জন্য ফাইলটি নিম্নের কোন একটি অবস্থানে "
 "রাখুন ও তারপর 'পুনঃপ্রচেষ্টা' চাপুন:\n"
 
-#: kstarsdata.cpp:1767
+#: kstarsdata.cpp:1770
 msgid "Otherwise, press Cancel to shutdown."
 msgstr "অন্যথায়, প্রস্থান করার জন্য 'বাতিল' চাপুন।"
 
-#: kstarsdata.cpp:1768
+#: kstarsdata.cpp:1771
 #, c-format
 msgid "Critical File Not Found: %1"
 msgstr "গুরুত্বপূর্ণ এই ফাইলটি পাওয়া যায় নি: %1"
 
-#: kstarsdata.cpp:1770
+#: kstarsdata.cpp:1773
 msgid ""
 "The file %1 could not be found. KStars can still run without this file. "
 "However, to avoid seeing this message in the future, you can place the file in "
@@ -21982,73 +21986,73 @@ msgstr ""
 "অবস্থানে রাখুন ও তারপর 'পুনঃপ্রচেষ্টা' চাপুন:\n"
 "\n"
 
-#: kstarsdata.cpp:1776
+#: kstarsdata.cpp:1779
 msgid "Otherwise, press Cancel to continue loading without this file."
 msgstr "অন্যথায়, এই ফাইলটি ছাড়াই লোড করার কাজ এগিয়ে নেওয়ার জন্য 'বাতিল' চাপুন।"
 
-#: kstarsdata.cpp:1777
+#: kstarsdata.cpp:1780
 #, c-format
 msgid "Non-Critical File Not Found: %1"
 msgstr "অগুরুত্বপূর্ণ এই ফাইলটি পাওয়া যায় নি: %1"
 
-#: kstarsdata.cpp:1780
+#: kstarsdata.cpp:1783
 msgid "Retry"
 msgstr "পুনঃপ্রচেষ্টা"
 
-#: kstarsdata.cpp:1803
+#: kstarsdata.cpp:1806
 msgid "Reading Time Zone Rules"
 msgstr "সময় অঞ্চল সংক্রান্ত নিয়মাবলী পড়া হচ্ছে"
 
-#: kstarsdata.cpp:1819
+#: kstarsdata.cpp:1822
 msgid "Loading City Data"
 msgstr "নগর সংক্রান্ত তথ্য লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1844
+#: kstarsdata.cpp:1847
 #, fuzzy
 msgid "Loading Custom catalogs"
 msgstr "স্বনির্বাচিত ক্যাটালগ যোগ করো"
 
-#: kstarsdata.cpp:1852
+#: kstarsdata.cpp:1855
 msgid "Loading Constellations"
 msgstr "তারামণ্ডল লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1859
+#: kstarsdata.cpp:1862
 msgid "Loading Constellation Names"
 msgstr "তারামণ্ডলের নাম লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1866
+#: kstarsdata.cpp:1869
 msgid "Loading Constellation Boundaries"
 msgstr "তারামণ্ডলের সীমারেখা লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1873
+#: kstarsdata.cpp:1876
 msgid "Loading Milky Way"
 msgstr "আকাশ গঙ্গা লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1880
+#: kstarsdata.cpp:1883
 msgid "Creating Planets"
 msgstr "গ্রহ তৈরি করা হচ্ছে"
 
-#: kstarsdata.cpp:1889
+#: kstarsdata.cpp:1892
 msgid "Creating Asteroids and Comets"
 msgstr "গ্রহাণু ও ধূমকেতু তৈরি করা হচ্ছে"
 
-#: kstarsdata.cpp:1899
+#: kstarsdata.cpp:1902
 msgid "Creating Moon"
 msgstr "চাঁদ তৈরি করা হচ্ছে"
 
-#: kstarsdata.cpp:1907
+#: kstarsdata.cpp:1910
 msgid "Loading Image URLs"
 msgstr "ছবির ইউ.আর.এল. লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1921
+#: kstarsdata.cpp:1924
 msgid "Loading Information URLs"
 msgstr "তথ্যের ইউ.আর.এল. লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:2411
+#: kstarsdata.cpp:2414
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
 msgstr "সময় নির্ধারণ করা যায় নি: %1 / %2 / %3 ; %4:%5:%6"
 
-#: kstarsdata.cpp:2526
+#: kstarsdata.cpp:2529
 msgid "Could not set location named %1, %2, %3"
 msgstr " %1, %2 ও %3 নামের অবস্থান নির্দিষ্ট করা যায় নি"
 
@@ -22064,44 +22068,44 @@ msgstr "সমস্যা [DCOP setGeoLocation]: নগর "
 msgid " not found in database."
 msgstr "ডেটাবেসে পাওয়া যায় নি।"
 
-#: kstarsdcop.cpp:340 opscolors.cpp:47 tools/scriptbuilder.cpp:704
+#: kstarsdcop.cpp:349 opscolors.cpp:47 tools/scriptbuilder.cpp:704
 msgid ""
 "_: use default color scheme\n"
 "Default Colors"
 msgstr "ডিফল্ট রং"
 
-#: kstarsdcop.cpp:341 opscolors.cpp:48 tools/scriptbuilder.cpp:705
+#: kstarsdcop.cpp:350 opscolors.cpp:48 tools/scriptbuilder.cpp:705
 msgid ""
 "_: use 'star chart' color scheme\n"
 "Star Chart"
 msgstr "তারা মানচিত্র"
 
-#: kstarsdcop.cpp:342 opscolors.cpp:49 tools/scriptbuilder.cpp:706
+#: kstarsdcop.cpp:351 opscolors.cpp:49 tools/scriptbuilder.cpp:706
 msgid ""
 "_: use 'night vision' color scheme\n"
 "Night Vision"
 msgstr "নৈশ দৃষ্টি"
 
-#: kstarsdcop.cpp:359
+#: kstarsdcop.cpp:368
 msgid "Unable to load color scheme named %1. Also tried %2."
 msgstr "%1 নামক রং বিন্যাস লোড করা যায় নি।  %2-কেও লোড করার চেষ্টা করা হয়েছে।"
 
-#: kstarsdcop.cpp:412 main.cpp:82
+#: kstarsdcop.cpp:421 main.cpp:82
 msgid "Could not parse image format of %1; assuming PNG."
 msgstr ""
 "%1-এর ছবির বিন্যাস (Format) পার্স (Parse) করা যায় নি; ধরে নেওয়া হচ্ছে যে, এটি "
 "একটি পি.এন.জি. ছবি।"
 
-#: kstarsdcop.cpp:441
+#: kstarsdcop.cpp:450
 msgid "Error: Unable to save image: %1 "
 msgstr "সমস্যা: এই ছবিটি সংরক্ষণ করা যায় নি: %1"
 
-#: kstarsdcop.cpp:442
+#: kstarsdcop.cpp:451
 #, c-format
 msgid "Image saved to file: %1"
 msgstr "ছবিটি এই ফাইলে সংরক্ষণ করা হয়েছে: %1"
 
-#: kstarsdcop.cpp:461
+#: kstarsdcop.cpp:470
 msgid "Print Sky"
 msgstr "আকাশের ছবি ছাপাও"
 
@@ -22294,129 +22298,133 @@ msgid "What's up Tonight..."
 msgstr "আজ রাতে কি দেখা যাবে..."
 
 #: kstarsinit.cpp:218
+msgid "Glossary..."
+msgstr ""
+
+#: kstarsinit.cpp:220
 msgid "Script Builder..."
 msgstr "স্ক্রিপ্ট প্রস্তুতকারক..."
 
-#: kstarsinit.cpp:220
+#: kstarsinit.cpp:222
 msgid "Solar System..."
 msgstr "সৌরজগত্‍..."
 
-#: kstarsinit.cpp:222
+#: kstarsinit.cpp:224
 msgid "Jupiter's Moons..."
 msgstr "বৃহস্পতির উপগ্রহ..."
 
-#: kstarsinit.cpp:226
+#: kstarsinit.cpp:228
 msgid "Telescope Wizard..."
 msgstr "দূরবীক্ষণ উইজার্ড..."
 
-#: kstarsinit.cpp:227
+#: kstarsinit.cpp:229
 #, fuzzy
 msgid "Telescope Properties..."
 msgstr "টেলিস্কোপ পোর্ট:"
 
-#: kstarsinit.cpp:228
+#: kstarsinit.cpp:230
 msgid "Device Manager..."
 msgstr "ডিভাইস ব্যবস্থাপক..."
 
-#: kstarsinit.cpp:230
+#: kstarsinit.cpp:232
 msgid "Capture Image Sequence..."
 msgstr "ধারাবাহিক ছবি ধারণ করো..."
 
-#: kstarsinit.cpp:233
+#: kstarsinit.cpp:235
 msgid "INDI Control Panel..."
 msgstr "INDI নিয়ন্ত্রণ প্যানেল..."
 
-#: kstarsinit.cpp:236
+#: kstarsinit.cpp:238
 msgid "Configure INDI..."
 msgstr "INDI কনফিগার করো..."
 
-#: kstarsinit.cpp:241
+#: kstarsinit.cpp:243
 msgid "Tip of the Day"
 msgstr "আজকের পরামর্শ"
 
-#: kstarsinit.cpp:245
+#: kstarsinit.cpp:247
 msgid "&Handbook"
 msgstr "নির্দেশিকা (&ন)"
 
-#: kstarsinit.cpp:253
+#: kstarsinit.cpp:255
 msgid "Toggle Stars"
 msgstr "তারা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:257
+#: kstarsinit.cpp:259
 msgid "Toggle Deep Sky Objects"
 msgstr "দূর আকাশের বস্তু দেখানোর মোড পাল্টাও"
 
-#: kstarsinit.cpp:261
+#: kstarsinit.cpp:263
 msgid "Toggle Solar System"
 msgstr "সৌরজগত্‍ প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:265
+#: kstarsinit.cpp:267
 msgid "Toggle Constellation Lines"
 msgstr "তারামণ্ডলের রেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:269
+#: kstarsinit.cpp:271
 msgid "Toggle Constellation Names"
 msgstr "তারামণ্ডলের নাম প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:273
+#: kstarsinit.cpp:275
 msgid "Toggle Constellation Boundaries"
 msgstr "তারামণ্ডলের সীমারেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:277
+#: kstarsinit.cpp:279
 msgid "Toggle Milky Way"
 msgstr "আকাশ গঙ্গা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:281
+#: kstarsinit.cpp:283
 msgid "Toggle Coordinate Grid"
 msgstr "স্থানাংক রেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:285
+#: kstarsinit.cpp:287
 msgid "Toggle Ground"
 msgstr "ভূমি প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:306
+#: kstarsinit.cpp:308
 msgid "Could not open fov.dat."
 msgstr "fov.dat খোলা যায় নি।"
 
-#: kstarsinit.cpp:309
+#: kstarsinit.cpp:311
 msgid ""
 "_: Do not use a field-of-view indicator\n"
 "No FOV"
 msgstr "কোন FOV নেই"
 
-#: kstarsinit.cpp:310
+#: kstarsinit.cpp:312
 msgid ""
 "_: use field-of-view for binoculars\n"
 "7x35 Binoculars"
 msgstr "৭x৩৫ দূরবীন"
 
-#: kstarsinit.cpp:311
+#: kstarsinit.cpp:313
 msgid ""
 "_: use 1-degree field-of-view indicator\n"
 "One Degree"
 msgstr "এক ডিগ্রি"
 
-#: kstarsinit.cpp:312
+#: kstarsinit.cpp:314
 msgid ""
 "_: use HST field-of-view indicator\n"
 "HST WFPC2"
 msgstr "HST ভিল্ড-অব-ভিশন নির্দেশক ব্যবহার করো"
 
-#: kstarsinit.cpp:313
+#: kstarsinit.cpp:315
 msgid ""
 "_: use Radiotelescope HPBW\n"
 "30m at 1.3cm"
 msgstr ""
 
-#: kstarsinit.cpp:343
+#: kstarsinit.cpp:345
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:404
+#: kstarsinit.cpp:406
 msgid "Initial Position is Below Horizon"
 msgstr " প্রাথমিক অবস্থান দিগন্তের নিচে অবস্থিত"
 
-#: kstarsinit.cpp:405
+#: kstarsinit.cpp:407
 msgid ""
 "The initial position is below the horizon.\n"
 "Would you like to reset to the default position?"
@@ -22424,7 +22432,7 @@ msgstr ""
 "প্রাথমিক অবস্থান দিগন্তের নিচে অবস্থিত।\n"
 "আপনি কি ডিফল্ট অবস্থানে ফিরে যেতে চান?"
 
-#: kstarsinit.cpp:517 kstarsinit.cpp:533 skymap.cpp:174 skymap.cpp:479
+#: kstarsinit.cpp:519 kstarsinit.cpp:535 skymap.cpp:174 skymap.cpp:479
 #: skymapevents.cpp:396 skymapevents.cpp:508
 msgid "nothing"
 msgstr "কিছু না"
@@ -29018,25 +29026,25 @@ msgstr "নির্দে&শক"
 msgid "&Devices"
 msgstr "ডিভা&ইস"
 
-#. i18n: file kstarsui.rc line 76
+#. i18n: file kstarsui.rc line 77
 #: rc.cpp:4331
 #, no-c-format
 msgid "&Info Boxes"
 msgstr "&তথ্যমূলক বাক্স"
 
-#. i18n: file kstarsui.rc line 83
+#. i18n: file kstarsui.rc line 84
 #: rc.cpp:4334
 #, no-c-format
 msgid "&Toolbars"
 msgstr "টু&লবার"
 
-#. i18n: file kstarsui.rc line 87
+#. i18n: file kstarsui.rc line 88
 #: rc.cpp:4337
 #, no-c-format
 msgid "&Statusbar"
 msgstr "স্ট্যাটা&সবার"
 
-#. i18n: file kstarsui.rc line 128
+#. i18n: file kstarsui.rc line 129
 #: rc.cpp:4346
 #, no-c-format
 msgid "View Toolbar"

@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: knode\n"
-"POT-Creation-Date: 2005-07-05 01:39+0200\n"
+"POT-Creation-Date: 2005-07-06 01:36+0200\n"
 "PO-Revision-Date: 2004-10-02 13:32-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -32,7 +32,7 @@ msgstr "রক্ষণাবেক্ষণকারী"
 msgid "Former maintainer"
 msgstr "প্রাক্তন রক্ষণাবেক্ষণকারী"
 
-#: aboutdata.cpp:45
+#: aboutdata.cpp:45 knjobdata.cpp:99
 msgid "KNode"
 msgstr "কে-নোড"
 
@@ -2729,6 +2729,16 @@ msgstr ""
 "আপনি প্রতি একটি জানা ঐ আপনার নয় মনে হয় -এ যে কোনো সমষ্টি,দল,গ্রুপ এটি আছে "
 "দ্বারা টি -র টি সমষ্টি,দল,গ্রুপ."
 
+#: knjobdata.cpp:101
+#, fuzzy
+msgid "Sending message"
+msgstr " মেইল পাঠানো হচ্ছে..."
+
+#: knjobdata.cpp:108
+#, fuzzy
+msgid "Waiting..."
+msgstr " সাজানো হচ্ছে..."
+
 #: knmainwidget.cpp:96
 #, fuzzy
 msgid "Article Viewer"
@@ -3221,7 +3231,7 @@ msgstr "বার্তা-আ&ই.ডি.:"
 msgid "&Fetch"
 msgstr "নিয়ে &এসো"
 
-#: knnetaccess.cpp:47 knnetaccess.cpp:52
+#: knnetaccess.cpp:44 knnetaccess.cpp:49
 msgid ""
 "Internal error:\n"
 "Failed to open pipes for internal communication."
@@ -3229,24 +3239,16 @@ msgstr ""
 "অভ্যন্তরীন সমস্যা:\n"
 "অভ্যন্তরীন যোগাযোগের জন্য পাইপ (pipe) খোলা যায়নি।"
 
-#: knnetaccess.cpp:99
+#: knnetaccess.cpp:91
 msgid "Internal Error: No account set for this job."
 msgstr "অভ্যন্তরীন সমস্যা: এই কাজের জন্য কোন অ্যাকাউন্ট নির্ধারণ করা হয়নি।"
 
-#: knnetaccess.cpp:214
-msgid "KNode NNTP"
-msgstr "কে-নোড এন-এন-টি-পি"
-
-#: knnetaccess.cpp:241
-msgid "KNode SMTP"
-msgstr "কে-নোড এস-এম-টি-পি"
-
-#: knnetaccess.cpp:241
+#: knnetaccess.cpp:104
 #, fuzzy
-msgid "Sending message..."
-msgstr " মেইল পাঠানো হচ্ছে..."
+msgid "Waiting for KWallet..."
+msgstr "লোড করা হচ্ছে ফোল্ডার."
 
-#: knnetaccess.cpp:305
+#: knnetaccess.cpp:318
 msgid ""
 "You need to supply a username and a\n"
 "password to access this server"
@@ -3254,52 +3256,52 @@ msgstr ""
 "এই সার্ভার-এ অধিকার পেতে আপনাকে একটি\n"
 "ইউসারনেম এবং পাসওয়ার্ড সরবরাহ করতে হবে"
 
-#: knnetaccess.cpp:306
+#: knnetaccess.cpp:319
 #, fuzzy
 msgid "Authentication Failed"
 msgstr "অথরাইজেশন ডায়ালগ"
 
-#: knnetaccess.cpp:306
+#: knnetaccess.cpp:319
 msgid "Server:"
 msgstr "সার্ভার:"
 
-#: knnetaccess.cpp:396
+#: knnetaccess.cpp:404
 msgid " Connecting to server..."
 msgstr " সার্ভার-এর সঙ্গে যোগাযোগ স্থাপন করা হচ্ছে..."
 
-#: knnetaccess.cpp:401
+#: knnetaccess.cpp:409
 msgid " Loading group list from disk..."
 msgstr " গ্রুপ তালিকা ডিস্ক থেকে লোড করা হচ্ছে..."
 
-#: knnetaccess.cpp:406
+#: knnetaccess.cpp:414
 msgid " Writing group list to disk..."
 msgstr " গ্রুপ তালিকা ডিস্ক-এ লেখা হচ্ছে..."
 
-#: knnetaccess.cpp:411
+#: knnetaccess.cpp:419
 msgid " Downloading group list..."
 msgstr " গ্রুপ তালিকা ডাউনলোড করা হচ্ছে..."
 
-#: knnetaccess.cpp:416
+#: knnetaccess.cpp:424
 msgid " Looking for new groups..."
 msgstr " নতুন গ্রুপ খোঁজা হচ্ছে..."
 
-#: knnetaccess.cpp:421
+#: knnetaccess.cpp:429
 msgid " Downloading group descriptions..."
 msgstr " নতুন গ্রুপ-এর বর্ণনা ডাউনলোড করা হচ্ছে..."
 
-#: knnetaccess.cpp:426
+#: knnetaccess.cpp:434
 msgid " Downloading new headers..."
 msgstr " নতুন হেডার ডাউনলোড করা হচ্ছে..."
 
-#: knnetaccess.cpp:431
+#: knnetaccess.cpp:439
 msgid " Sorting..."
 msgstr " সাজানো হচ্ছে..."
 
-#: knnetaccess.cpp:436
+#: knnetaccess.cpp:444
 msgid " Downloading article..."
 msgstr " বার্তা ডাউনলোড করা হচ্ছে..."
 
-#: knnetaccess.cpp:441
+#: knnetaccess.cpp:449
 msgid " Sending article..."
 msgstr " বার্তা পাঠানো হচ্ছে..."
 
@@ -3625,6 +3627,12 @@ msgstr "অস্থায়ী ফাইল তৈরি করা যায়ন�
 #: knode_options.h:25
 msgid "A 'news://server/group' URL"
 msgstr "একটি 'news://server/group' ইউ-আর-এল"
+
+#~ msgid "KNode NNTP"
+#~ msgstr "কে-নোড এন-এন-টি-পি"
+
+#~ msgid "KNode SMTP"
+#~ msgstr "কে-নোড এস-এম-টি-পি"
 
 #~ msgid "<b><font size=+1 color=red>An error occurred.</font></b><hr><br>"
 #~ msgstr "<b><font size=+1 color=red>সমস্যা দেখা দিয়েছে</font></b><hr><br>"
