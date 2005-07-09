@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2005-07-08 01:30+0200\n"
+"POT-Creation-Date: 2005-07-09 01:30+0200\n"
 "PO-Revision-Date: 2005-02-21 23:23-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -847,7 +847,7 @@ msgstr "প্রস্থান করো"
 msgid "&Quit"
 msgstr "প্রস্থা&ন করো"
 
-#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84
+#: common_texts.cpp:88 kdecore/kstdaccel.cpp:84 kded/kbuildsycoca.cpp:781
 msgid "Reload"
 msgstr "নতুন করে পড়ো"
 
@@ -984,8 +984,10 @@ msgstr "স্থানীয়ভাবে সংযুক্ত"
 msgid "Browse..."
 msgstr "ব্রাউজ..."
 
-#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127
-#: kdeui/kstdguiitem.cpp:257 khtml/ecma/kjs_debugwin.cpp:458
+#: common_texts.cpp:137 kdecore/kkeyserver_x11.cpp:127 kdeui/keditcl2.cpp:107
+#: kdeui/keditcl2.cpp:120 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:390
+#: kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469 kdeui/kstdguiitem.cpp:257
+#: khtml/ecma/kjs_debugwin.cpp:458 kutils/kreplace.cpp:319
 msgid "Stop"
 msgstr "থামাও"
 
@@ -1105,8 +1107,9 @@ msgstr "&পরবর্তী"
 msgid "&Previous"
 msgstr "পূর্ব&বর্তী"
 
-#: common_texts.cpp:170 kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:469 kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45
+#: common_texts.cpp:170 kcert/kcertpart.cc:730 kcert/kcertpart.cc:746
+#: kdecore/kstdaccel.cpp:69 kdeui/keditcl2.cpp:456 kdeui/keditcl2.cpp:469
+#: kdeui/keditcl2.cpp:830 kutils/kreplace.cpp:45 kutils/kreplace.cpp:49
 msgid "Replace"
 msgstr "বদলে বসাও"
 
@@ -2458,6 +2461,11 @@ msgstr "কে.ডি.ই. কনফিগারেশন ম্যানেজ�
 #: kded/kbuildsycoca.cpp:781
 msgid "Do you want to reload KDE configuration?"
 msgstr "আপনি কি কনফিগারেশন ফাইল নতুন করে পড়তে চান?"
+
+#: kded/kbuildsycoca.cpp:781
+#, fuzzy
+msgid "Do Not Reload"
+msgstr "সংরক্ষ&ণ কোর না"
 
 #: kded/kbuildsycoca.cpp:964
 msgid "Configuration information reloaded successfully."
@@ -4407,8 +4415,17 @@ msgstr "অনুগ্রহ করে একটি নাম লিখুন:"
 msgid "Old upload information found, fill out fields?"
 msgstr "পুরনো আপলোড তথ্য পাওয়া গেছে, তা দিয়ে ভরাট করব?"
 
+#: knewstuff/uploaddialog.cpp:173
+msgid "Fill Out"
+msgstr ""
+
+#: knewstuff/uploaddialog.cpp:173
+msgid "Do Not Fill Out"
+msgstr ""
+
 #: knewstuff/knewstuffgeneric.cpp:133
-msgid "The file '%1' already exists. Do you want to override it?"
+#, fuzzy
+msgid "The file '%1' already exists. Do you want to overwrite it?"
 msgstr ""
 "'%1' নামক একটি ফাইল আগে থেকেই আছে। আপনি কি সেটি মুছে ফেলার ব্যাপারে নিশ্চিত?"
 
@@ -4872,6 +4889,11 @@ msgid ""
 msgstr ""
 "'%1' কী কম্বিনেশনটি ইতিপূর্বেই \"%2\" ক্রিয়াটির সঙ্গে সংযুক্ত।\n"
 "আপনি কি সেটি বদলাতে চান?"
+
+#: kdeui/kkeydialog.cpp:975
+#, fuzzy
+msgid "Reassign"
+msgstr "রুশ"
 
 #: kdeui/kkeydialog.cpp:1089 kdeui/kkeydialog.cpp:1101
 msgid "Configure Shortcuts"
@@ -6147,7 +6169,7 @@ msgstr ""
 "বাগ রিপোর্টে যা জানাতে চান এখানে লিখুন, সম্ভব হলে ইংরিজিতে। \n"
 "\"পাঠাও\" বাটনটি চাপলে প্রোগ্রামটির লেখককেএকটি ই-মেইল পাঠানো হবে।\n"
 
-#: kdeui/kbugreport.cpp:253
+#: kdeui/kbugreport.cpp:252
 #, fuzzy
 msgid ""
 "To submit a bug report, click on the button below.\n"
@@ -6160,23 +6182,23 @@ msgstr ""
 "করার জন্য একটি ফর্ম পাবেন। \n"
 "উপরে প্রদর্শিত তথ্য সেখানে পাঠিয়ে দেওয়া হবে।"
 
-#: kdeui/kbugreport.cpp:261
+#: kdeui/kbugreport.cpp:260
 msgid "&Launch Bug Report Wizard"
 msgstr ""
 
-#: kdeui/kbugreport.cpp:299
+#: kdeui/kbugreport.cpp:298
 msgid ""
 "_: unknown program name\n"
 "unknown"
 msgstr "অজানা"
 
-#: kdeui/kbugreport.cpp:377
+#: kdeui/kbugreport.cpp:376
 msgid ""
 "You must specify both a subject and a description before the report can be "
 "sent."
 msgstr "রিপোর্ট সঠিকভাবে জমা দিতে বিষয় এবং বর্ণনা দুই লিখতে হবে।"
 
-#: kdeui/kbugreport.cpp:387
+#: kdeui/kbugreport.cpp:386
 #, fuzzy
 msgid ""
 "<p>You chose the severity <b>Critical</b>. Please note that this severity is "
@@ -6199,7 +6221,7 @@ msgstr ""
 "<p> করে টি ত্রুটি আপনি কারণ যে কোনো -র টি উপরে যদি এটি করে নয় অনুগ্রহ করে "
 "নির্বাচন a নীচের তীব্রতা ধন্যবাদ আপনি</p>"
 
-#: kdeui/kbugreport.cpp:398
+#: kdeui/kbugreport.cpp:397
 #, fuzzy
 msgid ""
 "<p>You chose the severity <b>Grave</b>. Please note that this severity is "
@@ -6222,7 +6244,7 @@ msgstr ""
 "<p> করে টি ত্রুটি আপনি কারণ যে কোনো -র টি উপরে যদি এটি করে নয় অনুগ্রহ করে "
 "নির্বাচন a নীচের তীব্রতা ধন্যবাদ আপনি</p>"
 
-#: kdeui/kbugreport.cpp:410
+#: kdeui/kbugreport.cpp:409
 msgid ""
 "Unable to send the bug report.\n"
 "Please submit a bug report manually...\n"
@@ -6232,11 +6254,11 @@ msgstr ""
 "অনুগ্রহ করে নিজে হাতে বাগ রিপোর্ট জমা দিন...\n"
 "কীভাবে করবেন জানতে দেখুন http://bugs.kde.org/"
 
-#: kdeui/kbugreport.cpp:419
+#: kdeui/kbugreport.cpp:417
 msgid "Bug report sent, thank you for your input."
 msgstr "বাগ রিপোর্ট পাঠানো হয়েছে। আপনার সহযোগিতার জন্য ধন্যবাদ।"
 
-#: kdeui/kbugreport.cpp:428
+#: kdeui/kbugreport.cpp:426
 msgid ""
 "Close and discard\n"
 "edited message?"
@@ -6244,7 +6266,7 @@ msgstr ""
 "সম্পাদিত বার্তা বন্ধ করে\n"
 "ফেলে দেওয়া হবে?"
 
-#: kdeui/kbugreport.cpp:429
+#: kdeui/kbugreport.cpp:427
 msgid "Close Message"
 msgstr "বার্তা বন্ধ করো"
 
@@ -7182,7 +7204,7 @@ msgstr ""
 "<qt>ফর্মটি জমা দেওয়া হবে <BR>আপনার স্থানীয় ফাইলসিস্টেম-এর<BR><B>%1</B> -এ।<BR>"
 "আপনি কি ফর্মটি জমা দিতে চান?"
 
-#: khtml/html/html_formimpl.cpp:1470 khtml/khtml_part.cpp:4777
+#: khtml/html/html_formimpl.cpp:1469 khtml/khtml_part.cpp:4777
 #: khtml/khtmlview.cpp:2408 khtml/khtmlview.cpp:2450
 #: khtml/rendering/render_form.cpp:296
 msgid "Submit"
@@ -7418,6 +7440,16 @@ msgstr ""
 "<p>%1</p>খুলতে চাইছে। "
 "<br/>আপনি কি তাই চান?</qt>"
 
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Allow"
+msgstr "সব"
+
+#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1330
+#, fuzzy
+msgid "Do Not Allow"
+msgstr "সব না"
+
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Close window?"
 msgstr "উইণ্ডো বন্ধ করব?"
@@ -7425,6 +7457,11 @@ msgstr "উইণ্ডো বন্ধ করব?"
 #: khtml/ecma/kjs_window.cpp:1563
 msgid "Confirmation Required"
 msgstr "অনুমোদন প্রয়োজন"
+
+#: khtml/ecma/kjs_window.cpp:1563
+#, fuzzy
+msgid "Do Not Close"
+msgstr "সংরক্ষ&ণ কোর না"
 
 #: khtml/ecma/kjs_window.cpp:2326
 msgid ""
@@ -7532,8 +7569,18 @@ msgstr "লগ-ইন তথ্য সংরক্ষণ করো"
 
 #: khtml/html/html_formimpl.cpp:610
 #, fuzzy
+msgid "Store"
+msgstr "রাস্তা"
+
+#: khtml/html/html_formimpl.cpp:610
+#, fuzzy
 msgid "Ne&ver for This Site"
 msgstr "এই সাইটের জন্য কদাপি নয়"
+
+#: khtml/html/html_formimpl.cpp:610
+#, fuzzy
+msgid "Do Not Store"
+msgstr "সংরক্ষ&ণ কোর না"
 
 #: khtml/html/html_formimpl.cpp:614
 msgid ""
@@ -7704,6 +7751,16 @@ msgstr ""
 #: khtml/rendering/render_frames.cpp:824
 msgid "Missing Plugin"
 msgstr "প্লাগ-ইন পাওয়া যায়নি"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Download"
+msgstr "ডাউনলোড"
+
+#: khtml/rendering/render_frames.cpp:824
+#, fuzzy
+msgid "Do Not Download"
+msgstr "সর্বাধিক ডাউনলোড"
 
 #: kinit/kinit.cpp:440
 msgid ""
@@ -8266,6 +8323,11 @@ msgstr "আপনি কি আবার শেষ থেকে সন্ধা�
 msgid "Do you want to restart search at the beginning?"
 msgstr "আপনি কি আবার গোড়া থেকে সন্ধান শুরু করতে চান?"
 
+#: kutils/kreplace.cpp:319
+#, fuzzy
+msgid "Restart"
+msgstr "আগের অবস্থায় ফেরাও"
+
 #: kutils/kpluginselector.cpp:111
 msgid ""
 "<qt>"
@@ -8697,6 +8759,11 @@ msgstr "\"%1\" ফাইলটি পাওয়া যাচ্ছে না। �
 msgid "No Such File"
 msgstr "এরকম কোনো ফাইল নেই"
 
+#: kab/addressbook.cc:625
+#, fuzzy
+msgid "Create"
+msgstr "মাঝখান"
+
 #: kab/addressbook.cc:629
 msgid "New file."
 msgstr "নতুন ফাইল"
@@ -9026,6 +9093,10 @@ msgstr "সার্টিফিকেটের জন্য পাসওয়া�
 #: kcert/kcertpart.cc:496
 msgid "The certificate file could not be loaded. Try a different password?"
 msgstr "সার্টিফিকেট লোড করা যায়নি। অন্য পাসওয়ার্ড চেষ্টা করতে চান?"
+
+#: kcert/kcertpart.cc:496
+msgid "Try Different"
+msgstr ""
 
 #: kcert/kcertpart.cc:532 kcert/kcertpart.cc:566
 msgid "This file cannot be opened."

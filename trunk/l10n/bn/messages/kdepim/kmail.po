@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2005-07-08 01:36+0200\n"
+"POT-Creation-Date: 2005-07-09 01:37+0200\n"
 "PO-Revision-Date: 2004-10-02 12:15-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -541,8 +541,8 @@ msgstr "ফিল্টারিং (&ফ)"
 msgid "<none>"
 msgstr "<কিছু না>"
 
-#: accountdialog.cpp:1374 accountdialog.cpp:1381 kmfoldercachedimap.cpp:183
-#: kmfoldercachedimap.cpp:1709 kmfolderimap.cpp:179 kmfolderimap.cpp:868
+#: accountdialog.cpp:1374 accountdialog.cpp:1381 kmfoldercachedimap.cpp:186
+#: kmfoldercachedimap.cpp:1750 kmfolderimap.cpp:179 kmfolderimap.cpp:868
 #: kmkernel.cpp:1216 subscriptiondialog.cpp:166
 msgid "inbox"
 msgstr "ইনবক্স"
@@ -1309,7 +1309,7 @@ msgid "Incoming accounts (add at least one):"
 msgstr "অন্তর্মুখী অ্যাকাউন্ট (অন্তত একটি যোগ করুন):"
 
 #: configuredialog.cpp:1052 kmfldsearch.cpp:187 kmfolderseldlg.cpp:53
-#: kmfoldertree.cpp:316
+#: kmfoldertree.cpp:324
 msgid "Folder"
 msgstr "ফোল্ডার"
 
@@ -2894,7 +2894,7 @@ msgid "Connecting to server %1, please wait..."
 msgstr ""
 "সার্ভার %1-এর সঙ্গে যোগাযোগ স্থাপন করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
-#: folderdiaacltab.cpp:470 kmfoldercachedimap.cpp:648
+#: folderdiaacltab.cpp:470 kmfoldercachedimap.cpp:651
 #, c-format
 msgid "Error connecting to server %1"
 msgstr "সার্ভার %1-এর সঙ্গে যোগাযোগ স্থাপনে সমস্যা হয়েছে"
@@ -2934,7 +2934,7 @@ msgid "Select Folder"
 msgstr "ফোল্ডার মুছে ফেলো"
 
 #: folderrequester.cpp:96 kmcommands.cpp:1561 kmfoldermgr.cpp:39
-#: kmfoldertree.cpp:518
+#: kmfoldertree.cpp:526
 msgid "Local Folders"
 msgstr "স্থানীয় ফোল্ডার"
 
@@ -4207,46 +4207,69 @@ msgstr ""
 msgid "&Maildir mailbox"
 msgstr "মেই&ল-ডির ডাকবাক্স"
 
-#: kmailicalifaceimpl.cpp:1463
+#: kmailicalifaceimpl.cpp:83 kmfolderdia.cpp:422 newfolderdialog.cpp:124
+#, fuzzy
+msgid "Mail"
+msgstr "মেইল"
+
+#: kmailicalifaceimpl.cpp:84 kmfolderdia.cpp:423 newfolderdialog.cpp:125
+#, fuzzy
+msgid "Calendar"
+msgstr "দিনপঞ্জি/বর্ষপঞ্জি"
+
+#: kmailicalifaceimpl.cpp:85 kmfolderdia.cpp:424 newfolderdialog.cpp:126
+#, fuzzy
+msgid "Contacts"
+msgstr "মধ্যে এটি রয়েছে"
+
+#: kmailicalifaceimpl.cpp:86 kmfolderdia.cpp:425 newfolderdialog.cpp:127
+#, fuzzy
+msgid "Notes"
+msgstr "কিছু না (&ন)"
+
+#: kmailicalifaceimpl.cpp:87 kmfolderdia.cpp:426 newfolderdialog.cpp:128
+#, fuzzy
+msgid "Tasks"
+msgstr "কাজ"
+
+#: kmailicalifaceimpl.cpp:88 kmfolderdia.cpp:427 newfolderdialog.cpp:129
+msgid "Journal"
+msgstr ""
+
+#: kmailicalifaceimpl.cpp:1487
 #, fuzzy
 msgid ""
-"KMail will now create the required folders for the IMAP resource as subfolders "
-"of %1; if you do not want this, press \"No\", and the IMAP resource will be "
+"KMail will now create the required groupware folders as subfolders of %1; if "
+"you do not want this, press \"No\", and the IMAP resource will be disabled"
+msgstr ""
+"এখন তৈরি টি প্রয়োজনীয় জন্য টি রিসোর্স   -র যদি আপনি নয় চাই এই চাপুন না এবং টি "
+"রিসোর্স নিষ্ক্রিয়"
+
+#: kmailicalifaceimpl.cpp:1497
+msgid "%1: no folder found, will create it"
+msgstr ""
+
+#: kmailicalifaceimpl.cpp:1499
+msgid "%1: found folder %2, will set it as main groupware folder"
+msgstr ""
+
+#: kmailicalifaceimpl.cpp:1505
+#, fuzzy
+msgid ""
+"<qt>KMail found the following groupware folders in %1 and needs to perform the "
+"following operations: %2"
+"<br>If you do not want this, press \"No\", and the IMAP resource will be "
 "disabled"
 msgstr ""
 "এখন তৈরি টি প্রয়োজনীয় জন্য টি রিসোর্স   -র যদি আপনি নয় চাই এই চাপুন না এবং টি "
 "রিসোর্স নিষ্ক্রিয়"
 
-#: kmailicalifaceimpl.cpp:1466
+#: kmailicalifaceimpl.cpp:1512
 #, fuzzy
-msgid "IMAP Resource Folders"
-msgstr "রিসোর্স"
+msgid "Standard Groupware Folders"
+msgstr "গ্রুপওয়্যার ফোল্ডার লুকো&ও"
 
-#: kmailicalifaceimpl.cpp:1508 kmfolderdia.cpp:423 newfolderdialog.cpp:125
-#, fuzzy
-msgid "Calendar"
-msgstr "দিনপঞ্জি/বর্ষপঞ্জি"
-
-#: kmailicalifaceimpl.cpp:1509 kmfolderdia.cpp:426 newfolderdialog.cpp:128
-#, fuzzy
-msgid "Tasks"
-msgstr "কাজ"
-
-#: kmailicalifaceimpl.cpp:1510 kmfolderdia.cpp:427 newfolderdialog.cpp:129
-msgid "Journal"
-msgstr ""
-
-#: kmailicalifaceimpl.cpp:1511 kmfolderdia.cpp:424 newfolderdialog.cpp:126
-#, fuzzy
-msgid "Contacts"
-msgstr "মধ্যে এটি রয়েছে"
-
-#: kmailicalifaceimpl.cpp:1512 kmfolderdia.cpp:425 newfolderdialog.cpp:127
-#, fuzzy
-msgid "Notes"
-msgstr "কিছু না (&ন)"
-
-#: kmailicalifaceimpl.cpp:1620
+#: kmailicalifaceimpl.cpp:1639
 #, fuzzy
 msgid "You do not have read/write permission to your %1 folder."
 msgstr "আপনি নয় পড়া/পড়ো লেখো অনুমতি প্রতি আপনার ফোল্ডার."
@@ -4403,11 +4426,11 @@ msgstr "আছে একটি ফরওয়ার্ড টি -র টি ব�
 msgid "Not enough free disk space?"
 msgstr "ডিস্ক-এ যথেষ্ট ফাঁকা জায়গার অভাব?"
 
-#: kmcommands.cpp:1611 kmfoldertree.cpp:1794
+#: kmcommands.cpp:1611 kmfoldertree.cpp:1803
 msgid "Move to This Folder"
 msgstr "এই ফোল্ডার-এ সরাও"
 
-#: kmcommands.cpp:1613 kmfoldertree.cpp:1796
+#: kmcommands.cpp:1613 kmfoldertree.cpp:1805
 msgid "Copy to This Folder"
 msgstr "এই ফোল্ডার-এ কপি করো"
 
@@ -5090,7 +5113,7 @@ msgid "Save Attachment As"
 msgstr "অ্যাটাচমেন্ট নতুন নামে সংরক্ষণ করো"
 
 #: kmcomposewin.cpp:3479 kmfilterdlg.cpp:660 kmfolderdia.cpp:258
-#: kmfolderdia.cpp:582 kmfoldertree.cpp:1480 managesievescriptsdialog.cpp:277
+#: kmfolderdia.cpp:584 kmfoldertree.cpp:1489 managesievescriptsdialog.cpp:277
 msgid "unnamed"
 msgstr "নামহীন"
 
@@ -5999,12 +6022,12 @@ msgstr "<qt> সমস্যা যতক্ষণ তৈরি করছি ফ
 msgid "Failed to create folder"
 msgstr "ফোল্ডার তৈরি করতে ব্যর্থ"
 
-#: kmfoldercachedimap.cpp:93
+#: kmfoldercachedimap.cpp:96
 #, fuzzy
 msgid "Troubleshooting IMAP Cache"
 msgstr "ক্যাশ"
 
-#: kmfoldercachedimap.cpp:99
+#: kmfoldercachedimap.cpp:102
 #, fuzzy
 msgid ""
 "<p><b>Troubleshooting the IMAP cache.</b></p>"
@@ -6021,21 +6044,21 @@ msgstr ""
 "<p> যদি ঐ আছে নয় যথেষ্ট আপনি পারে চেষ্টা করো টি ক্যাশ যদি আপনি এই আপনি সমস্ত "
 "আপনার স্থানীয় জন্য এই ফোল্ডার এবং সমস্ত এটি s</p>"
 
-#: kmfoldercachedimap.cpp:110
+#: kmfoldercachedimap.cpp:113
 #, fuzzy
 msgid "Refresh &Cache"
 msgstr "নতুন করে ক্যাশ"
 
-#: kmfoldercachedimap.cpp:111
+#: kmfoldercachedimap.cpp:114
 msgid "Rebuild &Index"
 msgstr "সূচী &নতুন করে তৈরি করো"
 
-#: kmfoldercachedimap.cpp:408
+#: kmfoldercachedimap.cpp:411
 #, fuzzy
 msgid "You must synchronize with the server before renaming IMAP folders."
 msgstr "আপনি অবশ্যই সঙ্গে টি সার্ভার আগে নামান্তর করা হচ্ছে."
 
-#: kmfoldercachedimap.cpp:506
+#: kmfoldercachedimap.cpp:509
 #, fuzzy
 msgid ""
 "No account setup for this folder.\n"
@@ -6043,7 +6066,7 @@ msgid ""
 msgstr ""
 "না অ্যাকাউন্ট ব্যবস্থাপনা জন্য এই ফোল্ডার চেষ্টা করো চলন্ত একটি আগে এই."
 
-#: kmfoldercachedimap.cpp:510
+#: kmfoldercachedimap.cpp:513
 #, fuzzy
 msgid ""
 "Are you sure you want to refresh the IMAP cache of the folder %1 and all its "
@@ -6053,20 +6076,20 @@ msgstr ""
 "আপনি নিশ্চিত আপনি চাই প্রতি নতুন করে টি ক্যাশ -র টি ফোল্ডার এবং সমস্ত এটি s "
 "সরাও সমস্ত আপনি হয়ে গেছে স্থানীয়ভাবে প্রতি আপনার"
 
-#: kmfoldercachedimap.cpp:514 kmmainwidget.cpp:1132
+#: kmfoldercachedimap.cpp:517 kmmainwidget.cpp:1132
 #, fuzzy
 msgid "Refresh IMAP Cache"
 msgstr "নতুন করে ক্যাশ"
 
-#: kmfoldercachedimap.cpp:515 kmmainwidget.cpp:1132
+#: kmfoldercachedimap.cpp:518 kmmainwidget.cpp:1132
 msgid "&Refresh"
 msgstr "আবার &পড়ো"
 
-#: kmfoldercachedimap.cpp:522
+#: kmfoldercachedimap.cpp:525
 msgid "The index of this folder has been recreated."
 msgstr "এই ফোল্ডারের সূচী নতুন করে তৈরি করা হয়েছে।"
 
-#: kmfoldercachedimap.cpp:530
+#: kmfoldercachedimap.cpp:533
 #, fuzzy
 msgid ""
 "Folder %1 is not in initial sync state (state was %2). Do you want to reset it "
@@ -6075,132 +6098,148 @@ msgstr ""
 "ফোল্ডার আছে নয় -এ অবস্থা অবস্থা ছিল আপনি চাই প্রতি পূর্বাবস্থায় ফেরাও/রিসেট এটি "
 "প্রতি অবস্থা এবং?"
 
-#: kmfoldercachedimap.cpp:547
+#: kmfoldercachedimap.cpp:550
 msgid "Synchronization skipped"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:636
+#: kmfoldercachedimap.cpp:639
 msgid "Synchronizing"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:655
+#: kmfoldercachedimap.cpp:658
 #, fuzzy, c-format
 msgid "Connecting to %1"
 msgstr "সংযোগ স্থাপিত হচ্ছে প্রতি 1"
 
-#: kmfoldercachedimap.cpp:676
+#: kmfoldercachedimap.cpp:679
 #, fuzzy
 msgid "Checking permissions"
 msgstr "পরীক্ষা করা হচ্ছে অনুমতি"
 
-#: kmfoldercachedimap.cpp:690
+#: kmfoldercachedimap.cpp:693
 #, fuzzy
 msgid "Renaming folder"
 msgstr "নামান্তর করা হচ্ছে ফোল্ডার"
 
-#: kmfoldercachedimap.cpp:747
+#: kmfoldercachedimap.cpp:750
 msgid "Retrieving folderlist"
 msgstr "ফোল্ডার তালিকা আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:751
+#: kmfoldercachedimap.cpp:754
 #, fuzzy
 msgid "Error while retrieving the folderlist"
 msgstr "সমস্যা যতক্ষণ আনছি টি"
 
-#: kmfoldercachedimap.cpp:758
+#: kmfoldercachedimap.cpp:761
 msgid "Retrieving subfolders"
 msgstr "সাব-ফোল্ডার আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:765
+#: kmfoldercachedimap.cpp:768
 msgid "Deleting folders from server"
 msgstr "সার্ভার থেকে ফোল্ডার মুছে ফেলা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:780
+#: kmfoldercachedimap.cpp:783
 #, fuzzy
 msgid "Retrieving message list"
 msgstr "আনছি বার্তা তালিকা"
 
-#: kmfoldercachedimap.cpp:793
+#: kmfoldercachedimap.cpp:796
 msgid "No messages to delete..."
 msgstr "মোছার মত কোন বার্তা নেই..."
 
-#: kmfoldercachedimap.cpp:804
+#: kmfoldercachedimap.cpp:807
 #, fuzzy
 msgid "Expunging deleted messages"
 msgstr "মুছে ফেলা বার্তা"
 
-#: kmfoldercachedimap.cpp:818
+#: kmfoldercachedimap.cpp:821
 msgid "Retrieving new messages"
 msgstr "নতুন বার্তা আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:830
+#: kmfoldercachedimap.cpp:833
 msgid "No new messages from server"
 msgstr "সার্ভার-এ কোন নতুন বার্তা নেই"
 
-#: kmfoldercachedimap.cpp:858
+#: kmfoldercachedimap.cpp:861
 msgid "Checking annotation support"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:905
+#: kmfoldercachedimap.cpp:908
 #, fuzzy
 msgid "Retrieving annotations"
 msgstr "আনছি অনুমতি"
 
-#: kmfoldercachedimap.cpp:927
+#: kmfoldercachedimap.cpp:930
 #, fuzzy
 msgid "Setting annotations"
 msgstr "মানসমূহ/বৈশিষ্ট্য অনুমতি"
 
-#: kmfoldercachedimap.cpp:968
+#: kmfoldercachedimap.cpp:971
 #, fuzzy
 msgid "Setting permissions"
 msgstr "মানসমূহ/বৈশিষ্ট্য অনুমতি"
 
-#: kmfoldercachedimap.cpp:988
+#: kmfoldercachedimap.cpp:991
 #, fuzzy
 msgid "Retrieving permissions"
 msgstr "আনছি অনুমতি"
 
-#: kmfoldercachedimap.cpp:998
+#: kmfoldercachedimap.cpp:1001
 msgid "Updating cache file"
 msgstr "ক্যাশ ফাইল আপডেট করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1024
+#: kmfoldercachedimap.cpp:1027
 #, fuzzy
 msgid "Synchronization done"
 msgstr "হয়ে গেছে"
 
-#: kmfoldercachedimap.cpp:1106
+#: kmfoldercachedimap.cpp:1109
 msgid "Uploading messages to server"
 msgstr "সার্ভার-এ বার্তা আপলোড করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1113 kmfoldercachedimap.cpp:1170
+#: kmfoldercachedimap.cpp:1117
+msgid ""
+"<p>There are new messages in this folder, which have not been uploaded to the "
+"server yet, but you do not seem to have sufficient access rights on the folder "
+"now to upload them. Please contact your administrator to allow upload of new "
+"messages to you, or move them out of this folder.</p> "
+"<p>Do you want to move those messages to another folder now?</p>"
+msgstr ""
+
+#: kmfoldercachedimap.cpp:1125
+#, fuzzy
+msgid ""
+"_: Move Message to Folder\n"
+"Move Messages to Folder"
+msgstr "অপসারিত পুরনো বার্তা থেকে ফোল্ডার পুরনো বার্তা থেকে ফোল্ডার."
+
+#: kmfoldercachedimap.cpp:1146 kmfoldercachedimap.cpp:1201
 msgid "No messages to upload to server"
 msgstr "সার্ভার-এ আপলোড করার মত কোন বার্তা নেই"
 
-#: kmfoldercachedimap.cpp:1134
+#: kmfoldercachedimap.cpp:1165
 #, fuzzy
 msgid "Uploading status of messages to server"
 msgstr "আপলোড করআ হচ্ছে অবস্থা -র বার্তা প্রতি সার্ভার"
 
-#: kmfoldercachedimap.cpp:1207
+#: kmfoldercachedimap.cpp:1238
 msgid "Creating subfolders on server"
 msgstr "সার্ভার-এ সাব-ফোল্ডার তৈরি করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1263
+#: kmfoldercachedimap.cpp:1296
 msgid "Deleting removed messages from server"
 msgstr "মুছে ফেলা বার্তা সার্ভার থেকে অপসারিত হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1294
+#: kmfoldercachedimap.cpp:1327
 msgid "Checking folder validity"
 msgstr "ফোল্ডারের বৈধতা পরীক্ষা করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1523
+#: kmfoldercachedimap.cpp:1564
 #, fuzzy, c-format
 msgid "Retrieving folders for namespace %1"
 msgstr "ফোল্ডার তালিকা আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1749
+#: kmfoldercachedimap.cpp:1790
 #, fuzzy
 msgid ""
 "<qt>"
@@ -6211,18 +6250,18 @@ msgstr ""
 "<p> এটি মনে হয় ঐ টি ফোল্ডার<b></b> ছিল মুছে ফেলা আপনি চাই প্রতি মুছে ফেলা এটি "
 "থেকে টি সার্ভার</p></qt>"
 
-#: kmfoldercachedimap.cpp:1970
+#: kmfoldercachedimap.cpp:2011
 #, fuzzy
 msgid "Aborted"
 msgstr " থামিয়ে দেওয়া হয়েছে"
 
-#: kmfoldercachedimap.cpp:2150
+#: kmfoldercachedimap.cpp:2191
 msgid ""
 "The IMAP server %1 does not have support for IMAP annotations. The XML storage "
 "cannot be used on this server; please re-configure KMail differently."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2208
+#: kmfoldercachedimap.cpp:2249
 #, fuzzy
 msgid "Error while setting annotation: "
 msgstr "সমস্যা যতক্ষণ ফোল্ডার তথ্য."
@@ -6337,11 +6376,6 @@ msgstr ""
 msgid "&Folder contents:"
 msgstr "ফোল্ডার সূচি:"
 
-#: kmfolderdia.cpp:422 newfolderdialog.cpp:124
-#, fuzzy
-msgid "Mail"
-msgstr "মেইল"
-
 #: kmfolderdia.cpp:443
 msgid "Generate free/&busy and activate alarms for:"
 msgstr ""
@@ -6377,7 +6411,7 @@ msgstr "এই ফোল্ডার-এ কপি করো"
 msgid "All Readers of This Folder"
 msgstr "এই ফোল্ডার-এ সরাও"
 
-#: kmfolderdia.cpp:537
+#: kmfolderdia.cpp:539
 #, fuzzy
 msgid ""
 "You have configured this folder to contain groupware information and the "
@@ -6624,7 +6658,7 @@ msgstr ""
 "%2-তে `%1' ফাইল তৈরি করা যায়নি।\n"
 "এই ফাইল ছাড়া কে-মেইল চালু করা যাবে না।"
 
-#: kmfolderseldlg.cpp:219 kmfoldertree.cpp:972 kmfoldertree.cpp:993
+#: kmfolderseldlg.cpp:219 kmfoldertree.cpp:980 kmfoldertree.cpp:1001
 msgid "&New Subfolder..."
 msgstr "&নতুন সাব-ফোল্ডার..."
 
@@ -6637,95 +6671,95 @@ msgstr "&নতুন সাব-ফোল্ডার..."
 msgid "Create a new subfolder under the currently selected folder"
 msgstr ""
 
-#: kmfoldertree.cpp:326 kmheaders.cpp:119
+#: kmfoldertree.cpp:334 kmheaders.cpp:119
 msgid "View Columns"
 msgstr "কলাম দেখাও"
 
-#: kmfoldertree.cpp:328
+#: kmfoldertree.cpp:336
 msgid "Unread Column"
 msgstr "অপঠিত কলাম"
 
-#: kmfoldertree.cpp:329
+#: kmfoldertree.cpp:337
 msgid "Total Column"
 msgstr "মোট কলাম"
 
-#: kmfoldertree.cpp:533 kmfoldertree.cpp:975
+#: kmfoldertree.cpp:541 kmfoldertree.cpp:983
 msgid "Searches"
 msgstr "সন্ধান"
 
-#: kmfoldertree.cpp:816
+#: kmfoldertree.cpp:824
 msgid "<qt>Go to the next unread message in folder <b>%1</b>?</qt>"
 msgstr "<qt>ফোল্ডার <b>%1</b>-র পরবর্তী অপঠিত বার্তায় যাব?</qt>"
 
-#: kmfoldertree.cpp:818
+#: kmfoldertree.cpp:826
 msgid "Go to the Next Unread Message"
 msgstr "পরবর্তী অপঠিত বার্তায় যাও"
 
-#: kmfoldertree.cpp:973 kmmainwidget.cpp:2363
+#: kmfoldertree.cpp:981 kmmainwidget.cpp:2363
 msgid "&New Folder..."
 msgstr "&নতুন ফোল্ডার..."
 
-#: kmfoldertree.cpp:984 kmmainwidget.cpp:2267
+#: kmfoldertree.cpp:992 kmmainwidget.cpp:2267
 msgid "Check &Mail"
 msgstr "মেইল &পরীক্ষা করো"
 
-#: kmfoldertree.cpp:1001
+#: kmfoldertree.cpp:1009
 #, fuzzy
 msgid "&Move Folder To"
 msgstr "এই ফোল্ডার-এ সরাও"
 
-#: kmfoldertree.cpp:1028
+#: kmfoldertree.cpp:1036
 msgid "Subscription..."
 msgstr ""
 
-#: kmfoldertree.cpp:1035
+#: kmfoldertree.cpp:1043
 #, fuzzy
 msgid "Refresh Folder List"
 msgstr "নতুন করে ফোল্ডার তালিকা"
 
-#: kmfoldertree.cpp:1042 kmmainwidget.cpp:3418
+#: kmfoldertree.cpp:1050 kmmainwidget.cpp:3417
 #, fuzzy
 msgid "&Troubleshoot IMAP Cache..."
 msgstr "ক্যাশ."
 
-#: kmfoldertree.cpp:1055 kmmainwidget.cpp:2373
+#: kmfoldertree.cpp:1063 kmmainwidget.cpp:2373
 msgid "&Assign Shortcut..."
 msgstr ""
 
-#: kmfoldertree.cpp:1060
+#: kmfoldertree.cpp:1068
 #, fuzzy
 msgid "Expire..."
 msgstr "কী (Key) রপ্তানি করা হচ্ছে..."
 
-#: kmfoldertree.cpp:1138
+#: kmfoldertree.cpp:1146
 msgid ""
 "<qt>Cannot create folder <b>%1</b> because of insufficient permissions on the "
 "server. If you think you should be able to create subfolders here, ask your "
 "administrator to grant you rights to do so.</qt> "
 msgstr ""
 
-#: kmfoldertree.cpp:1380
+#: kmfoldertree.cpp:1389
 msgid "&Move Here"
 msgstr "এখানে &সরাও"
 
-#: kmfoldertree.cpp:1381
+#: kmfoldertree.cpp:1390
 msgid "&Copy Here"
 msgstr "&এখানে কপি করো"
 
-#: kmfoldertree.cpp:1383
+#: kmfoldertree.cpp:1392
 msgid "C&ancel"
 msgstr "বাতি&ল"
 
-#: kmfoldertree.cpp:1591 kmmainwidget.cpp:359 kmmainwidget.cpp:363
+#: kmfoldertree.cpp:1600 kmmainwidget.cpp:359 kmmainwidget.cpp:363
 #: kmsearchpattern.h:220
 msgid "Unread"
 msgstr "অপঠিত"
 
-#: kmfoldertree.cpp:1604 kmmainwidget.cpp:361
+#: kmfoldertree.cpp:1613 kmmainwidget.cpp:361
 msgid "Total"
 msgstr "মোট"
 
-#: kmfoldertree.cpp:1832
+#: kmfoldertree.cpp:1841
 #, fuzzy
 msgid "<qt>Cannot move folder <b>%1</b> into a subfolder below itself.</qt>"
 msgstr "<qt> যাবে না চাল/দান ফোল্ডার<b></b> ভেতরে একটি নীচে এটি নিজেই</qt>"
@@ -13272,6 +13306,10 @@ msgstr "প্রাপক: "
 #, fuzzy
 msgid "Has Attachment"
 msgstr "একটি অ্যাটাচমেন্ট আছে"
+
+#, fuzzy
+#~ msgid "IMAP Resource Folders"
+#~ msgstr "রিসোর্স"
 
 #, fuzzy
 #~ msgid "Delete messages over a certain age"
