@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2005-07-13 01:36+0200\n"
+"POT-Creation-Date: 2005-07-16 01:37+0200\n"
 "PO-Revision-Date: 2004-10-02 12:15-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -97,7 +97,7 @@ msgstr "'ট্রান্সমিশন সম্পূর্ণ' স্ট�
 msgid "multiple encryption keys per address"
 msgstr "প্রতি ঠিকানায় একাধিক এনক্রিপশন কী"
 
-#: aboutdata.cpp:211 kmreaderwin.cpp:1279 kmstartup.cpp:144
+#: aboutdata.cpp:211 kmreaderwin.cpp:1284 kmstartup.cpp:144
 #: mailinglistpropertiesdialog.cpp:97
 msgid "KMail"
 msgstr "কে-মেইল"
@@ -1085,15 +1085,25 @@ msgstr "স্বাক্ষর/এনক্রিপ্ট"
 
 #: certificatehandlingdialogimpl.cpp:56 certificatehandlingdialogimpl.cpp:125
 #: certificatehandlingdialogimpl.cpp:132 certificatehandlingdialogimpl.cpp:157
-#: certificatehandlingdialogimpl.cpp:165 kmcomposewin.cpp:322
+#: certificatehandlingdialogimpl.cpp:165 kmcomposewin.cpp:326
 msgid "Sign"
 msgstr "স্বাক্ষর"
 
 #: certificatehandlingdialogimpl.cpp:59 certificatehandlingdialogimpl.cpp:126
 #: certificatehandlingdialogimpl.cpp:135 certificatehandlingdialogimpl.cpp:156
-#: certificatehandlingdialogimpl.cpp:162 kmcomposewin.cpp:320
+#: certificatehandlingdialogimpl.cpp:162 kmcomposewin.cpp:324
 msgid "Encrypt"
 msgstr "এনক্রিপ্ট"
+
+#: chiasmuskeyselector.cpp:19
+#, fuzzy
+msgid "Please select the Chiasmus key file to use:"
+msgstr ""
+"অনুগ্রহ করে কে-মেইল-এর ভিতর কি কি ভাইরাসফিল্টার তৈরি করা হবে নির্বাচন করুন। "
+
+#: chiasmuskeyselector.cpp:29
+msgid "Additional arguments for chiasmus:"
+msgstr ""
 
 #: compactionjob.cpp:99
 #, c-format
@@ -1179,12 +1189,12 @@ msgid "Outgoing accounts (add at least one):"
 msgstr "বহির্মুখী অ্যাকাউন্ট (অন্তত একটি যোগ করুন):"
 
 #: configuredialog.cpp:600 configuredialog.cpp:1050 configuredialog.cpp:3119
-#: distributionlistdialog.cpp:108 kmcomposewin.cpp:309
+#: distributionlistdialog.cpp:108 kmcomposewin.cpp:313
 #: recipientspicker.cpp:290
 msgid "Name"
 msgstr "নাম"
 
-#: configuredialog.cpp:601 configuredialog.cpp:1051 kmcomposewin.cpp:312
+#: configuredialog.cpp:601 configuredialog.cpp:1051 kmcomposewin.cpp:316
 #: kmfilterdlg.cpp:193 kmmimeparttree.cpp:61
 msgid "Type"
 msgstr "ধরন"
@@ -1207,7 +1217,7 @@ msgstr "ডিফল্ট হিসেবে নির্দিষ্ট কর
 msgid "Common Options"
 msgstr "সাধারণ অপশন"
 
-#. i18n: file kmail.kcfg line 262
+#. i18n: file kmail.kcfg line 268
 #: configuredialog.cpp:654 rc.cpp:1310
 #, no-c-format
 msgid "Confirm &before send"
@@ -1436,7 +1446,7 @@ msgstr "উদ্ধৃত লেখা - তৃতীয় স্তর"
 msgid "Fixed Width Font"
 msgstr "ধ্রুবক প্রস্থের ফন্ট"
 
-#: configuredialog.cpp:1498 kmcomposewin.cpp:299
+#: configuredialog.cpp:1498 kmcomposewin.cpp:303
 msgid "Composer"
 msgstr "রচনাক্ষেত্র"
 
@@ -1712,7 +1722,7 @@ msgstr "এইচ-টি-এম-এল স্ট্যাটা&স বার �
 msgid "Show s&pam status in fancy headers"
 msgstr "বার্তার সব হেডার দেখাও"
 
-#. i18n: file kmail.kcfg line 394
+#. i18n: file kmail.kcfg line 400
 #: configuredialog.cpp:2148 rc.cpp:1365
 #, no-c-format
 msgid "Replace smileys by emoticons"
@@ -1722,7 +1732,7 @@ msgstr ""
 msgid "Use smaller font for quoted text"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 399
+#. i18n: file kmail.kcfg line 405
 #: configuredialog.cpp:2156 rc.cpp:1371
 #, no-c-format
 msgid "Show expand/collapse quote marks"
@@ -1733,7 +1743,7 @@ msgstr ""
 msgid "Fallback ch&aracter encoding:"
 msgstr "পরিবর্তন এনকোডিং"
 
-#: configuredialog.cpp:2241 configuredialog.cpp:2288 kmreaderwin.cpp:629
+#: configuredialog.cpp:2241 configuredialog.cpp:2288 kmreaderwin.cpp:634
 msgid "Auto"
 msgstr "স্বয়ংক্রীয়"
 
@@ -1963,13 +1973,13 @@ msgstr "নিম্নলিখিত শব্দগুলিকে ফাই�
 msgid "Enter new key word:"
 msgstr "নতুন শব্দ লিখুন:"
 
-#: configuredialog.cpp:3353 configuredialog.cpp:3354 kmcomposewin.cpp:2009
-#: kmcomposewin.cpp:2010
+#: configuredialog.cpp:3353 configuredialog.cpp:3354 kmcomposewin.cpp:2025
+#: kmcomposewin.cpp:2026
 msgid "attachment"
 msgstr "attachment"
 
-#: configuredialog.cpp:3355 configuredialog.cpp:3356 kmcomposewin.cpp:2011
-#: kmcomposewin.cpp:2012
+#: configuredialog.cpp:3355 configuredialog.cpp:3356 kmcomposewin.cpp:2027
+#: kmcomposewin.cpp:2028
 msgid "attached"
 msgstr "attached"
 
@@ -2788,7 +2798,7 @@ msgid ""
 "\"%2\" is the detailed error description."
 msgstr ""
 
-#: filterlogdlg.cpp:262 kmcommands.cpp:2398 kmcommands.cpp:2418
+#: filterlogdlg.cpp:262 kmcommands.cpp:2408 kmcommands.cpp:2428
 #: kmmainwidget.cpp:1530 kmmainwidget.cpp:1547 urlhandlermanager.cpp:430
 msgid "KMail Error"
 msgstr "কে-মেইল সমস্যা"
@@ -2933,7 +2943,7 @@ msgstr ""
 msgid "Select Folder"
 msgstr "ফোল্ডার মুছে ফেলো"
 
-#: folderrequester.cpp:96 kmcommands.cpp:1561 kmfoldermgr.cpp:39
+#: folderrequester.cpp:96 kmcommands.cpp:1571 kmfoldermgr.cpp:39
 #: kmfoldertree.cpp:526
 msgid "Local Folders"
 msgstr "স্থানীয় ফোল্ডার"
@@ -3378,7 +3388,7 @@ msgstr "স্বাক্ষ&র"
 msgid "&Picture"
 msgstr "স্বাক্ষ&র"
 
-#: identitydialog.cpp:448 identitydialog.cpp:460 kmcomposewin.cpp:3627
+#: identitydialog.cpp:448 identitydialog.cpp:460 kmcomposewin.cpp:3643
 msgid "Invalid Email Address"
 msgstr "অবৈধ ই-মেইল ঠিকানা"
 
@@ -3447,7 +3457,7 @@ msgstr ""
 "টি স্বনির্বাচিত প্রেরিত মেইল ফোল্ডার জন্য করে নয় আছে আর টি ডিফল্ট প্রেরিত মেইল "
 "ফোল্ডার ব্যবহৃত."
 
-#: identitydialog.cpp:579 kmcomposewin.cpp:3786
+#: identitydialog.cpp:579 kmcomposewin.cpp:3802
 #, fuzzy
 msgid ""
 "The custom drafts folder for identity \"%1\" does not exist (anymore); "
@@ -3954,8 +3964,8 @@ msgstr ""
 msgid "Missing Key Warning"
 msgstr "পাওয়া যাচ্ছে না কী (Key) সতর্কবার্তা"
 
-#: keyresolver.cpp:1203 keyresolver.cpp:1241 messagecomposer.cpp:734
-#: messagecomposer.cpp:759 messagecomposer.cpp:806
+#: keyresolver.cpp:1203 keyresolver.cpp:1241 messagecomposer.cpp:848
+#: messagecomposer.cpp:873 messagecomposer.cpp:920
 msgid "&Encrypt"
 msgstr "&এনক্রিপ্ট করো"
 
@@ -3977,7 +3987,7 @@ msgstr ""
 "আপনি করেছিল নয় নির্বাচন করো একটি কী (Key) জন্য যে কোনো -র টি -র এই বার্তা টি "
 "বার্তা নয় এনক্রিপ্ট করা."
 
-#: keyresolver.cpp:1227 messagecomposer.cpp:782
+#: keyresolver.cpp:1227 messagecomposer.cpp:896
 #, fuzzy
 msgid "Send &Unencrypted"
 msgstr "পাঠাও এনক্রিপশনবিহীন"
@@ -4344,11 +4354,11 @@ msgstr ""
 msgid "Transmission for account %1 complete. No new messages."
 msgstr "%1 অ্যাকাউন্ট-এর জন্য ট্রান্সমিশন সম্পূর্ণ। কোন নতুন বার্তা নেই।"
 
-#: kmcommands.cpp:259
+#: kmcommands.cpp:269
 msgid "Please wait"
 msgstr "অনুগ্রহ করে অপেক্ষা করুন"
 
-#: kmcommands.cpp:261 kmcommands.cpp:362
+#: kmcommands.cpp:271 kmcommands.cpp:372
 #, c-format
 msgid ""
 "_n: Please wait while the message is transferred\n"
@@ -4357,34 +4367,34 @@ msgstr ""
 "বার্তাটি আনা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন\n"
 "%n-টি বার্তা আনা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন"
 
-#: kmcommands.cpp:548
+#: kmcommands.cpp:558
 msgid "Address copied to clipboard."
 msgstr "ঠিকানাটি ক্লীপবোর্ড-এ কপি করা হয়েছে।"
 
-#: kmcommands.cpp:555
+#: kmcommands.cpp:565
 msgid "URL copied to clipboard."
 msgstr "ইউ-আর-এল-টি ক্লীপবোর্ড-এ কপি করা হয়েছে।"
 
-#: kmcommands.cpp:592
+#: kmcommands.cpp:602
 msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
 msgstr ""
 "<qt><b>%1</b> নামক ফাইল আগে থেকেই আছে।"
 "<br>আপনি কি সেটি বদলাতে চান?</qt>"
 
-#: kmcommands.cpp:593 kmcommands.cpp:854 kmkernel.cpp:1764
+#: kmcommands.cpp:603 kmcommands.cpp:864 kmkernel.cpp:1764
 msgid "Save to File"
 msgstr "ফাইলে সংরক্ষণ করো"
 
-#: kmcommands.cpp:593 kmcommands.cpp:854 kmkernel.cpp:1764
+#: kmcommands.cpp:603 kmcommands.cpp:864 kmkernel.cpp:1764
 msgid "&Replace"
 msgstr "&বদলাও"
 
-#: kmcommands.cpp:662
+#: kmcommands.cpp:672
 #, fuzzy
 msgid "Message as Plain Text"
 msgstr "বার্তা   সাধারন লেখা/টেক্সট"
 
-#: kmcommands.cpp:853 kmkernel.cpp:1763
+#: kmcommands.cpp:863 kmkernel.cpp:1763
 msgid ""
 "File %1 exists.\n"
 "Do you want to replace it?"
@@ -4392,27 +4402,27 @@ msgstr ""
 "%1 ফাইলটি আগে থেকেই আছে।\n"
 "আপনি কি সেটি মুছে লিখতে চান?"
 
-#: kmcommands.cpp:897
+#: kmcommands.cpp:907
 #, fuzzy
 msgid "Open Message"
 msgstr "খোলো বার্তা"
 
-#: kmcommands.cpp:935 kmcommands.cpp:963
+#: kmcommands.cpp:945 kmcommands.cpp:973
 #, fuzzy
 msgid "The file does not contain a message."
 msgstr "টি ফাইল ধারণ করে একটি বার্তা."
 
-#: kmcommands.cpp:981
+#: kmcommands.cpp:991
 #, fuzzy
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr "টি ফাইল ধারণ করে একাধিক বার্তা শুধু টি প্রথম বার্তা আছে প্রদর্শিত."
 
-#: kmcommands.cpp:1115
+#: kmcommands.cpp:1125
 #, fuzzy
 msgid "Forward selected messages as a MIME digest?"
 msgstr "ফরওয়ার্ড নির্বাচিত বার্তা   একটি?"
 
-#: kmcommands.cpp:1130
+#: kmcommands.cpp:1140
 #, fuzzy
 msgid ""
 "\n"
@@ -4422,91 +4432,91 @@ msgid ""
 "\n"
 msgstr "আছে একটি ফরওয়ার্ড টি -র টি বার্তা আছে ধারণ করত -এ টি সংযুক্ত s"
 
-#: kmcommands.cpp:1448
+#: kmcommands.cpp:1458
 msgid "Not enough free disk space?"
 msgstr "ডিস্ক-এ যথেষ্ট ফাঁকা জায়গার অভাব?"
 
-#: kmcommands.cpp:1611 kmfoldertree.cpp:1803
+#: kmcommands.cpp:1621 kmfoldertree.cpp:1803
 msgid "Move to This Folder"
 msgstr "এই ফোল্ডার-এ সরাও"
 
-#: kmcommands.cpp:1613 kmfoldertree.cpp:1805
+#: kmcommands.cpp:1623 kmfoldertree.cpp:1805
 msgid "Copy to This Folder"
 msgstr "এই ফোল্ডার-এ কপি করো"
 
-#: kmcommands.cpp:1837
+#: kmcommands.cpp:1847
 #, fuzzy
 msgid "Moving messages"
 msgstr "চলন্ত বার্তা"
 
-#: kmcommands.cpp:1837
+#: kmcommands.cpp:1847
 #, fuzzy
 msgid "Deleting messages"
 msgstr "মুছে ফেলছি বার্তা"
 
-#: kmcommands.cpp:2096
+#: kmcommands.cpp:2106
 msgid "Opening URL..."
 msgstr "ইউ-আর-এল খোলা হচ্ছে..."
 
-#: kmcommands.cpp:2103
+#: kmcommands.cpp:2113
 msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgstr "<qt>আপনি কি সত্যিই <b>%1</b> চালাতে চান?</qt>"
 
-#: kmcommands.cpp:2185
+#: kmcommands.cpp:2195
 msgid "Found no attachments to save."
 msgstr "সংরক্ষণ করার মত কোন অ্যাটাচমেন্ট পাওয়া যায়নি।"
 
-#: kmcommands.cpp:2198
+#: kmcommands.cpp:2208
 #, fuzzy
 msgid "Save Attachments To"
 msgstr "সংরক্ষণ করো প্রতি"
 
-#: kmcommands.cpp:2218
+#: kmcommands.cpp:2228
 #, fuzzy
 msgid ""
 "_: filename for an unnamed attachment\n"
 "attachment.1"
 msgstr "ফাইল-নাম জন্য একটি নামহীন সংযুক্ত 1"
 
-#: kmcommands.cpp:2246
+#: kmcommands.cpp:2256
 #, fuzzy
 msgid ""
 "_: filename for the %1-th unnamed attachment\n"
 "attachment.%1"
 msgstr "ফাইল-নাম জন্য টি নামহীন সংযুক্ত 1"
 
-#: kmcommands.cpp:2285
+#: kmcommands.cpp:2295
 msgid "A file named %1 already exists. Do you want to overwrite it?"
 msgstr "%1 নামক একটি ফাইল আগে থেকেই আছে। আপনি কি সেটি মুছে লিখতে চান?"
 
-#: kmcommands.cpp:2287
+#: kmcommands.cpp:2297
 #, fuzzy
 msgid "File Already Exists"
 msgstr "ফাইল আগে থেকেই আছে"
 
-#: kmcommands.cpp:2287
+#: kmcommands.cpp:2297 kmcommands.cpp:2948
 msgid "&Overwrite"
 msgstr ""
 
-#: kmcommands.cpp:2309
+#: kmcommands.cpp:2319
 #, fuzzy
 msgid ""
 "The part %1 of the message is encrypted. Do you want to keep the encryption "
 "when saving?"
 msgstr "টি অংশ -র টি বার্তা আছে এনক্রিপ্ট করা আপনি চাই প্রতি টি যখন?"
 
-#: kmcommands.cpp:2311 kmcommands.cpp:2320
+#: kmcommands.cpp:2321 kmcommands.cpp:2330
 msgid "KMail Question"
 msgstr "কে-মেইল প্রশ্ন"
 
-#: kmcommands.cpp:2318
+#: kmcommands.cpp:2328
 #, fuzzy
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr "টি অংশ -র টি বার্তা আছে স্বাক্ষর করা আপনি চাই প্রতি টি স্বাক্ষর যখন?"
 
-#: kmcommands.cpp:2395
+#: kmcommands.cpp:2405
 #, fuzzy
 msgid ""
 "_: %2 is detailed error description\n"
@@ -4514,12 +4524,12 @@ msgid ""
 "%2"
 msgstr "আছে বিস্তারিত সমস্যা বর্ণনা/বিবরণ নয় লেখো টি ফাইল 2"
 
-#: kmcommands.cpp:2416
+#: kmcommands.cpp:2426
 #, fuzzy, c-format
 msgid "Could not write the file %1."
 msgstr "পারে নয় লেখো টি ফাইল."
 
-#: kmcommands.cpp:2634
+#: kmcommands.cpp:2644
 #, fuzzy
 msgid ""
 "There is no Address Book entry for this email address. Add them to the Address "
@@ -4530,7 +4540,7 @@ msgstr ""
 "ওদের প্রতি টি ঠিকানা বই এবং তারপর যোগ করো ঠিকানা ব্যবহার করে আপনার পছন্দের "
 "ক্লায়েন্ট."
 
-#: kmcommands.cpp:2637
+#: kmcommands.cpp:2647
 #, fuzzy
 msgid ""
 "More than one Address Book entry uses this email address:\n"
@@ -4542,111 +4552,175 @@ msgstr ""
 "\n"
 " এটি আছে নয় সম্ভব/সম্ভাব্য প্রতি নির্ধারণ কে প্রতি আড্ডা সঙ্গে."
 
-#: kmcomposewin.cpp:214
+#: kmcommands.cpp:2870 kmcomposewin.cpp:4565 objecttreeparser.cpp:1618
+msgid ""
+"Chiasmus backend does not offer the \"x-obtain-keys\" function. Please report "
+"this bug."
+msgstr ""
+
+#: kmcommands.cpp:2872 kmcommands.cpp:2877 kmcommands.cpp:2886
+#: kmcommands.cpp:2895 kmcommands.cpp:2913 kmcommands.cpp:2924
+#: kmcommands.cpp:2979 kmcomposewin.cpp:4567 kmcomposewin.cpp:4572
+#: kmcomposewin.cpp:4581 messagecomposer.cpp:521 messagecomposer.cpp:529
+#: messagecomposer.cpp:543 objecttreeparser.cpp:1624
+msgid "Chiasmus Backend Error"
+msgstr ""
+
+#: kmcommands.cpp:2883 kmcomposewin.cpp:4578 objecttreeparser.cpp:1630
+msgid ""
+"Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" function "
+"did not return a string list. Please report this bug."
+msgstr ""
+
+#: kmcommands.cpp:2892 kmcomposewin.cpp:4587 objecttreeparser.cpp:1638
+msgid ""
+"No keys have been found. Please check that a valid key path has been set in the "
+"Chiasmus configuration."
+msgstr ""
+
+#: kmcommands.cpp:2899 objecttreeparser.cpp:1645
+#, fuzzy
+msgid "Chiasmus Decryption Key Selection"
+msgstr "কী (Key) নির্বাচন"
+
+#: kmcommands.cpp:2911 objecttreeparser.cpp:1657
+msgid ""
+"Chiasmus backend does not offer the \"x-decrypt\" function. Please report this "
+"bug."
+msgstr ""
+
+#: kmcommands.cpp:2922 objecttreeparser.cpp:1665
+msgid ""
+"The \"x-decrypt\" function does not accept the expected parameters. Please "
+"report this bug."
+msgstr ""
+
+#: kmcommands.cpp:2929 kmcommands.cpp:2971 objecttreeparser.cpp:1671
+msgid "Chiasmus Decryption Error"
+msgstr ""
+
+#: kmcommands.cpp:2945
+#, fuzzy
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr "%1 নামক একটি ফাইল আগে থেকেই আছে। আপনি কি সেটি মুছে লিখতে চান?"
+
+#: kmcommands.cpp:2947
+#, fuzzy
+msgid "Overwrite File?"
+msgstr "ফাইল অন্তর্ভুক্ত করো"
+
+#: kmcommands.cpp:2976 objecttreeparser.cpp:1677
+msgid ""
+"Unexpected return value from Chiasmus backend: The \"x-decrypt\" function did "
+"not return a byte array. Please report this bug."
+msgstr ""
+
+#: kmcomposewin.cpp:218
 msgid "Select email address(es)"
 msgstr "ই-মেইল ঠিকানা নির্বাচন করুন"
 
-#: kmcomposewin.cpp:263
+#: kmcomposewin.cpp:267
 #, fuzzy
 msgid "Sticky"
 msgstr "স্টিকি"
 
-#: kmcomposewin.cpp:310 kmheaders.cpp:129 kmheaders.cpp:177
+#: kmcomposewin.cpp:314 kmheaders.cpp:129 kmheaders.cpp:177
 #: kmmimeparttree.cpp:63 kmpopfiltercnfrmdlg.cpp:42
 msgid "Size"
 msgstr "মাপ"
 
-#: kmcomposewin.cpp:311 kmmimeparttree.cpp:62
+#: kmcomposewin.cpp:315 kmmimeparttree.cpp:62
 msgid "Encoding"
 msgstr "এনকোডিং"
 
-#: kmcomposewin.cpp:318
+#: kmcomposewin.cpp:322
 #, fuzzy
 msgid "Compress"
 msgstr "রচনাক্ষেত্র"
 
-#: kmcomposewin.cpp:485 kmcomposewin.cpp:3289
+#: kmcomposewin.cpp:489 kmcomposewin.cpp:3305
 #, fuzzy
 msgid "Name of the attachment:"
 msgstr "কোন অ্যাটাচমেন্ট নেই"
 
-#: kmcomposewin.cpp:498
+#: kmcomposewin.cpp:502
 msgid "Unknown error trying to save image."
 msgstr ""
 
-#: kmcomposewin.cpp:498
+#: kmcomposewin.cpp:502
 #, fuzzy
 msgid "Attaching Image Failed"
 msgstr "বার্তা স্থানান্তর করা ব্যর্থ।"
 
-#: kmcomposewin.cpp:717
+#: kmcomposewin.cpp:721
 #, fuzzy
 msgid ""
 "Autosaving the message as %1 failed.\n"
 "Reason: %2"
 msgstr "বার্তা স্থানান্তর করা ব্যর্থ।"
 
-#: kmcomposewin.cpp:721
+#: kmcomposewin.cpp:725
 #, fuzzy
 msgid "Autosaving Failed"
 msgstr "বার্তা স্থানান্তর করা ব্যর্থ।"
 
-#: kmcomposewin.cpp:864
+#: kmcomposewin.cpp:868
 msgid "&Identity:"
 msgstr "&পরিচিতি:"
 
-#: kmcomposewin.cpp:868
+#: kmcomposewin.cpp:872
 msgid "&Dictionary:"
 msgstr "&অভিধান:"
 
-#: kmcomposewin.cpp:872
+#: kmcomposewin.cpp:876
 #, fuzzy
 msgid "&Sent-Mail folder:"
 msgstr "প্রেরি&ত-মেইল ফোল্ডার:"
 
-#: kmcomposewin.cpp:876
+#: kmcomposewin.cpp:880
 #, fuzzy
 msgid "&Mail transport:"
 msgstr "মেই&ল পরিবাহক:"
 
-#: kmcomposewin.cpp:880
+#: kmcomposewin.cpp:884
 msgid ""
 "_: sender address field\n"
 "&From:"
 msgstr ""
 
-#: kmcomposewin.cpp:886
+#: kmcomposewin.cpp:890
 msgid "&Reply to:"
 msgstr "&উত্তর প্রাপক:"
 
-#: kmcomposewin.cpp:894
+#: kmcomposewin.cpp:898
 msgid ""
 "_: recipient address field\n"
 "&To:"
 msgstr ""
 
-#: kmcomposewin.cpp:896
+#: kmcomposewin.cpp:900
 #, fuzzy
 msgid "Primary Recipients"
 msgstr "প্রাথমিক"
 
-#: kmcomposewin.cpp:897
+#: kmcomposewin.cpp:901
 #, fuzzy
 msgid ""
 "<qt>The email addresses you put in this field receive a copy of the email.</qt>"
 msgstr "<qt> টি ই-মেইল ঠিকানা আপনি রাখা -এ এই একটি কপি -র টি ই-মেইল</qt>"
 
-#: kmcomposewin.cpp:904
+#: kmcomposewin.cpp:908
 #, fuzzy
 msgid "&Copy to (CC):"
 msgstr "কপি প্রতি:"
 
-#: kmcomposewin.cpp:906
+#: kmcomposewin.cpp:910
 #, fuzzy
 msgid "Additional Recipients"
 msgstr "অতিরিক্ত"
 
-#: kmcomposewin.cpp:907
+#: kmcomposewin.cpp:911
 #, fuzzy
 msgid ""
 "<qt>The email addresses you put in this field receive a copy of the email. "
@@ -4658,17 +4732,17 @@ msgstr ""
 "সমস্ত টি ঠিকানা -এ টি<b> প্রতি</b> কিন্তু -এ ঐ এটি সাধারণত টি -র টি কপি আছে "
 "একটি নয় টি প্রধান প্রাপক</qt>"
 
-#: kmcomposewin.cpp:919
+#: kmcomposewin.cpp:923
 #, fuzzy
 msgid "&Blind copy to (BCC):"
 msgstr "কপি প্রতি:"
 
-#: kmcomposewin.cpp:921
+#: kmcomposewin.cpp:925
 #, fuzzy
 msgid "Hidden Recipients"
 msgstr "লকনো"
 
-#: kmcomposewin.cpp:922
+#: kmcomposewin.cpp:926
 #, fuzzy
 msgid ""
 "<qt>Essentially the same thing as the <b>Copy To:</b> "
@@ -4678,325 +4752,330 @@ msgstr ""
 "<qt> টি একই   টি<b> কপি প্রতি</b> কিন্তু -এ ঐ সমস্ত অন্যান্য নয় দেখো কে একটি "
 "কপি</qt>"
 
-#: kmcomposewin.cpp:954
+#: kmcomposewin.cpp:958
 msgid "S&ubject:"
 msgstr "বি&ষয়:"
 
-#: kmcomposewin.cpp:1090 kmcomposewin.cpp:1112
+#: kmcomposewin.cpp:1094 kmcomposewin.cpp:1116
 #, fuzzy
 msgid "&Send Mail"
 msgstr "সেন্ড-মেই&ল"
 
-#: kmcomposewin.cpp:1094 kmcomposewin.cpp:1116
+#: kmcomposewin.cpp:1098 kmcomposewin.cpp:1120
 #, fuzzy
 msgid "&Send Mail Via"
 msgstr "সেন্ড-মেই&ল"
 
-#: kmcomposewin.cpp:1097 kmcomposewin.cpp:1106 kmcomposewin.cpp:3896
+#: kmcomposewin.cpp:1101 kmcomposewin.cpp:1110 kmcomposewin.cpp:3912
 #: redirectdialog.cpp:83
 msgid "Send &Later"
 msgstr "&পরে পাঠাও"
 
-#: kmcomposewin.cpp:1099 kmcomposewin.cpp:1109
+#: kmcomposewin.cpp:1103 kmcomposewin.cpp:1113
 #, fuzzy
 msgid "Send &Later Via"
 msgstr "&পরে পাঠাও"
 
-#: kmcomposewin.cpp:1147
+#: kmcomposewin.cpp:1151
 msgid "Save in &Drafts Folder"
 msgstr "&খসড়া ফোল্ডার-এ সংরক্ষণ করো"
 
-#: kmcomposewin.cpp:1150
+#: kmcomposewin.cpp:1154
 msgid "&Insert File..."
 msgstr "ফাই&ল ঢোকাও..."
 
-#: kmcomposewin.cpp:1153
+#: kmcomposewin.cpp:1157
 #, fuzzy
 msgid "&Insert File Recent"
 msgstr "ফাইল অন্তর্ভুক্ত করো"
 
-#: kmcomposewin.cpp:1160
+#: kmcomposewin.cpp:1164
 msgid "&Address Book"
 msgstr "ঠিকানা তালিকা (&ত)"
 
-#: kmcomposewin.cpp:1163
+#: kmcomposewin.cpp:1167
 msgid "&New Composer"
 msgstr "&নতুন রচনাক্ষেত্র"
 
-#: kmcomposewin.cpp:1167
+#: kmcomposewin.cpp:1171
 msgid "New Main &Window"
 msgstr "নতুন প্রধান &উইণ্ডো"
 
-#: kmcomposewin.cpp:1172
+#: kmcomposewin.cpp:1176
 #, fuzzy
 msgid "Select &Recipients..."
 msgstr "লকনো"
 
-#: kmcomposewin.cpp:1174
+#: kmcomposewin.cpp:1178
 #, fuzzy
 msgid "Save &Distribution List..."
 msgstr "প্রতি তালিকা"
 
-#: kmcomposewin.cpp:1196
+#: kmcomposewin.cpp:1200
 msgid "Pa&ste as Quotation"
 msgstr "উদ্ধৃতি হিসাবে সাঁটো (&স)"
 
-#: kmcomposewin.cpp:1199
+#: kmcomposewin.cpp:1203
 #, fuzzy
 msgid "Paste as Attac&hment"
 msgstr "একটি অ্যাটাচমেন্ট আছে"
 
-#: kmcomposewin.cpp:1202
+#: kmcomposewin.cpp:1206
 msgid "Add &Quote Characters"
 msgstr "উদ্ধৃতিচিহ্ন যো&গ করো"
 
-#: kmcomposewin.cpp:1205
+#: kmcomposewin.cpp:1209
 msgid "Re&move Quote Characters"
 msgstr "উদ্ধৃতিচিহ্ন &সরিয়ে ফেলো"
 
-#: kmcomposewin.cpp:1209
+#: kmcomposewin.cpp:1213
 #, fuzzy
 msgid "Cl&ean Spaces"
 msgstr "পরিষ্কার"
 
 #. i18n: file kmail.kcfg line 227
-#: kmcomposewin.cpp:1212 kmreaderwin.cpp:662 rc.cpp:1300
+#: kmcomposewin.cpp:1216 kmreaderwin.cpp:667 rc.cpp:1300
 #, no-c-format
 msgid "Use Fi&xed Font"
 msgstr "ফিক্সড &ফন্ট ব্যবহার করো"
 
-#: kmcomposewin.cpp:1217
+#: kmcomposewin.cpp:1221
 msgid "&Urgent"
 msgstr "&জরুরি"
 
-#: kmcomposewin.cpp:1220
+#: kmcomposewin.cpp:1224
 #, fuzzy
 msgid "&Request Disposition Notification"
 msgstr "অনুরোধ/আবেদন বিজ্ঞপ্তি"
 
-#: kmcomposewin.cpp:1225
+#: kmcomposewin.cpp:1229
 msgid "Se&t Encoding"
 msgstr "&এনকোডিং নির্ধারণ করো"
 
-#: kmcomposewin.cpp:1228
+#: kmcomposewin.cpp:1232
 msgid "&Wordwrap"
 msgstr ""
 
-#: kmcomposewin.cpp:1234
+#: kmcomposewin.cpp:1238
 msgid "&Automatic Spellchecking"
 msgstr "স্বয়ংক্রিয় বানান &পরীক্ষা"
 
-#: kmcomposewin.cpp:1244
+#: kmcomposewin.cpp:1248
 msgid "Auto-Detect"
 msgstr "স্বয়ংক্রীয় সনাক্তকরণ"
 
-#: kmcomposewin.cpp:1249
+#: kmcomposewin.cpp:1253
 #, fuzzy
 msgid "Formatting (HTML)"
 msgstr "ফরম্যাট করছে এইচ-টি-এম-এল"
 
-#: kmcomposewin.cpp:1253
+#: kmcomposewin.cpp:1257
 #, fuzzy
 msgid "&All Fields"
 msgstr "সমস্ত"
 
-#: kmcomposewin.cpp:1256
+#: kmcomposewin.cpp:1260
 msgid "&Identity"
 msgstr "&পরিচিতি"
 
-#: kmcomposewin.cpp:1259
+#: kmcomposewin.cpp:1263
 msgid "&Dictionary"
 msgstr "&অভিধান"
 
-#: kmcomposewin.cpp:1262
+#: kmcomposewin.cpp:1266
 #, fuzzy
 msgid "&Sent-Mail Folder"
 msgstr "প্রেরিত-মেই&ল ফোল্ডার"
 
-#: kmcomposewin.cpp:1265
+#: kmcomposewin.cpp:1269
 msgid "&Mail Transport"
 msgstr "মেইল &পরিবাহক"
 
-#: kmcomposewin.cpp:1268
+#: kmcomposewin.cpp:1272
 msgid "&From"
 msgstr "প্রে&রক:"
 
-#: kmcomposewin.cpp:1271
+#: kmcomposewin.cpp:1275
 msgid "&Reply To"
 msgstr "&উত্তর প্রাপক"
 
-#: kmcomposewin.cpp:1275
+#: kmcomposewin.cpp:1279
 msgid "&To"
 msgstr "প্রা&পক"
 
-#: kmcomposewin.cpp:1278
+#: kmcomposewin.cpp:1282
 msgid "&CC"
 msgstr "&CC"
 
-#: kmcomposewin.cpp:1281
+#: kmcomposewin.cpp:1285
 msgid "&BCC"
 msgstr "&BCC"
 
-#: kmcomposewin.cpp:1285
+#: kmcomposewin.cpp:1289
 #, fuzzy
 msgid "S&ubject"
 msgstr "বি&ষয়:"
 
-#: kmcomposewin.cpp:1290
+#: kmcomposewin.cpp:1294
 msgid "Append S&ignature"
 msgstr "শেষে স্বাক্ষর যো&গ করো"
 
-#: kmcomposewin.cpp:1293
+#: kmcomposewin.cpp:1297
 msgid "Attach &Public Key..."
 msgstr "পা&বলিক কী (Key) যুক্ত করো..."
 
-#: kmcomposewin.cpp:1296
+#: kmcomposewin.cpp:1300
 msgid "Attach &My Public Key"
 msgstr "আমা&র পাবলিক কী (Key) যুক্ত করো"
 
-#: kmcomposewin.cpp:1299 kmcomposewin.cpp:2049
+#: kmcomposewin.cpp:1303 kmcomposewin.cpp:2065
 msgid "&Attach File..."
 msgstr "ফাই&ল সংযুক্ত করো..."
 
-#: kmcomposewin.cpp:1302
+#: kmcomposewin.cpp:1306
 msgid "&Remove Attachment"
 msgstr "অ্যাটাচমেন্ট &সরাও"
 
-#: kmcomposewin.cpp:1305
+#: kmcomposewin.cpp:1309
 msgid "&Save Attachment As..."
 msgstr "অ্যাটাচমেন্ট নতুন নামে সং&রক্ষণ করো..."
 
-#: kmcomposewin.cpp:1308
+#: kmcomposewin.cpp:1312
 #, fuzzy
 msgid "Attachment Pr&operties"
 msgstr "সংযুক্ত বৈশিষ্ট্য"
 
-#: kmcomposewin.cpp:1318
+#: kmcomposewin.cpp:1322
 msgid "&Spellchecker..."
 msgstr "বানান &পরীক্ষক..."
 
-#: kmcomposewin.cpp:1321
+#: kmcomposewin.cpp:1326 kmcomposewin.cpp:1329
+#, fuzzy
+msgid "Encrypt Message with Chiasmus..."
+msgstr "নির্বাচন করো ফোল্ডার সঙ্গে ফোকাস করা"
+
+#: kmcomposewin.cpp:1337
 msgid "&Encrypt Message"
 msgstr "বার্তা &এনক্রিপ্ট করো"
 
-#: kmcomposewin.cpp:1324
+#: kmcomposewin.cpp:1340
 msgid "&Sign Message"
 msgstr "বার্তা স্বাক্ষ&র করো"
 
-#: kmcomposewin.cpp:1371
+#: kmcomposewin.cpp:1387
 #, fuzzy
 msgid "&Cryptographic Message Format"
 msgstr "বার্তা ফর্ম্যাট"
 
-#: kmcomposewin.cpp:1379 kmcomposewin.cpp:4393
+#: kmcomposewin.cpp:1395 kmcomposewin.cpp:4409
 #, fuzzy
 msgid "Standard"
 msgstr "আদর্শ/স্ট্যাণ্ডার্ড"
 
-#: kmcomposewin.cpp:1380 kmcomposewin.cpp:4395
+#: kmcomposewin.cpp:1396 kmcomposewin.cpp:4411
 #, fuzzy
 msgid "Bulleted List (Disc)"
 msgstr "তালিকা ডিস্ক"
 
-#: kmcomposewin.cpp:1381 kmcomposewin.cpp:4397
+#: kmcomposewin.cpp:1397 kmcomposewin.cpp:4413
 #, fuzzy
 msgid "Bulleted List (Circle)"
 msgstr "তালিকা"
 
-#: kmcomposewin.cpp:1382 kmcomposewin.cpp:4399
+#: kmcomposewin.cpp:1398 kmcomposewin.cpp:4415
 #, fuzzy
 msgid "Bulleted List (Square)"
 msgstr "তালিকা চৌকো"
 
-#: kmcomposewin.cpp:1383 kmcomposewin.cpp:4401
+#: kmcomposewin.cpp:1399 kmcomposewin.cpp:4417
 #, fuzzy
 msgid "Ordered List (Decimal)"
 msgstr "ক্রমানুসারে তালিকা দশমিক"
 
-#: kmcomposewin.cpp:1384 kmcomposewin.cpp:4403
+#: kmcomposewin.cpp:1400 kmcomposewin.cpp:4419
 #, fuzzy
 msgid "Ordered List (Alpha lower)"
 msgstr "ক্রমানুসারে তালিকা নীচে নামাও"
 
-#: kmcomposewin.cpp:1385 kmcomposewin.cpp:4405
+#: kmcomposewin.cpp:1401 kmcomposewin.cpp:4421
 #, fuzzy
 msgid "Ordered List (Alpha upper)"
 msgstr "ক্রমানুসারে তালিকা উর্ধ্বস্থ"
 
-#: kmcomposewin.cpp:1387
+#: kmcomposewin.cpp:1403
 #, fuzzy
 msgid "Select Style"
 msgstr "নির্বাচন করো স্টাইল"
 
-#: kmcomposewin.cpp:1401
+#: kmcomposewin.cpp:1417
 #, fuzzy
 msgid "Align Left"
 msgstr "অ্যালাইনমেন্ট, সামঞ্জস্য বাম,বামপার্শ্ব"
 
-#: kmcomposewin.cpp:1405
+#: kmcomposewin.cpp:1421
 #, fuzzy
 msgid "Align Right"
 msgstr "অ্যালাইনমেন্ট, সামঞ্জস্য ডানদিক/অধিকার"
 
-#: kmcomposewin.cpp:1408
+#: kmcomposewin.cpp:1424
 #, fuzzy
 msgid "Align Center"
 msgstr "অ্যালাইনমেন্ট, সামঞ্জস্য কেন্দ্র"
 
-#: kmcomposewin.cpp:1411
+#: kmcomposewin.cpp:1427
 #, fuzzy
 msgid "&Bold"
 msgstr "জোরালো"
 
-#: kmcomposewin.cpp:1414
+#: kmcomposewin.cpp:1430
 #, fuzzy
 msgid "&Italic"
 msgstr "ইটালিক"
 
-#: kmcomposewin.cpp:1417
+#: kmcomposewin.cpp:1433
 #, fuzzy
 msgid "&Underline"
 msgstr "প্রেরক"
 
-#: kmcomposewin.cpp:1420
+#: kmcomposewin.cpp:1436
 #, fuzzy
 msgid "Reset Font Settings"
 msgstr "পূর্বাবস্থায় ফেরাও/রিসেট ফন্ট বৈশিষ্ট্যাবলী"
 
-#: kmcomposewin.cpp:1423
+#: kmcomposewin.cpp:1439
 #, fuzzy
 msgid "Text Color..."
 msgstr "লেখা/টেক্সট রং."
 
-#: kmcomposewin.cpp:1437 kmcomposewin.cpp:1451
+#: kmcomposewin.cpp:1453 kmcomposewin.cpp:1467
 msgid " Column: %1 "
 msgstr " কলাম: %1"
 
-#: kmcomposewin.cpp:1438 kmcomposewin.cpp:1449
+#: kmcomposewin.cpp:1454 kmcomposewin.cpp:1465
 msgid " Line: %1 "
 msgstr " লাইন: %1"
 
-#: kmcomposewin.cpp:1976
+#: kmcomposewin.cpp:1992
 #, fuzzy
 msgid "Do you want to save the message for later or discard it?"
 msgstr "আপনি চাই প্রতি সংরক্ষণ করো টি বার্তা জন্য পরে অথবা বাতিল এটি?"
 
-#: kmcomposewin.cpp:1977
+#: kmcomposewin.cpp:1993
 #, fuzzy
 msgid "Close Composer"
 msgstr "বন্ধ করো রচয়িতা"
 
-#: kmcomposewin.cpp:1978
+#: kmcomposewin.cpp:1994
 msgid "&Save as Draft"
 msgstr "&খসড়া হিসাবে সংরক্ষণ করো"
 
-#: kmcomposewin.cpp:1979
+#: kmcomposewin.cpp:1995
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: kmcomposewin.cpp:2045
+#: kmcomposewin.cpp:2061
 msgid ""
 "The message you have composed seems to refer to an attached file but you have "
 "not attached anything.\n"
@@ -5006,16 +5085,16 @@ msgstr ""
 "কোন কিছু সংযুক্ত করা হয়নি।\n"
 "আপনি কি এই বার্তাটির সঙ্গে কোন ফাইল সংযুক্ত করতে চান?"
 
-#: kmcomposewin.cpp:2048
+#: kmcomposewin.cpp:2064
 msgid "File Attachment Reminder"
 msgstr "ফাইল অ্যাটাচমেন্ট স্মারক"
 
-#: kmcomposewin.cpp:2050
+#: kmcomposewin.cpp:2066
 #, fuzzy
 msgid "&Send as Is"
 msgstr "পাঠাও   আছে"
 
-#: kmcomposewin.cpp:2131
+#: kmcomposewin.cpp:2147
 #, fuzzy
 msgid ""
 "<qt>"
@@ -5027,21 +5106,21 @@ msgstr ""
 "<p> আপনি প্রতি উল্লেখ করুন টি পূর্ণ পাথ যদি আপনি ইচ্ছা প্রতি যুক্ত করা একটি "
 "ফাইল</p></qt>"
 
-#: kmcomposewin.cpp:2467
+#: kmcomposewin.cpp:2483
 msgid "Attach File"
 msgstr "ফাইল সংযুক্ত করো"
 
 #. i18n: file kmcomposerui.rc line 62
-#: kmcomposewin.cpp:2468 rc.cpp:51
+#: kmcomposewin.cpp:2484 rc.cpp:51
 #, no-c-format
 msgid "&Attach"
 msgstr "সংযুক্ত &করো"
 
-#: kmcomposewin.cpp:2615
+#: kmcomposewin.cpp:2631
 msgid "Insert File"
 msgstr "ফাইল অন্তর্ভুক্ত করো"
 
-#: kmcomposewin.cpp:2785
+#: kmcomposewin.cpp:2801
 #, fuzzy
 msgid ""
 "<qt>"
@@ -5053,71 +5132,71 @@ msgstr ""
 "ব্যাক-এন্ড</p>"
 "<p><b></b></p></qt>"
 
-#: kmcomposewin.cpp:2789
+#: kmcomposewin.cpp:2805
 msgid "Key Export Failed"
 msgstr "কী (Key) রপ্তানি ব্যর্থ"
 
-#: kmcomposewin.cpp:2816
+#: kmcomposewin.cpp:2832
 msgid "Exporting key..."
 msgstr "কী (Key) রপ্তানি করা হচ্ছে..."
 
-#: kmcomposewin.cpp:2827
+#: kmcomposewin.cpp:2843
 #, c-format
 msgid "OpenPGP key 0x%1"
 msgstr "ওপেন-পি.জি.পি. কী (key) 0x%1"
 
-#: kmcomposewin.cpp:2842
+#: kmcomposewin.cpp:2858
 msgid "Attach Public OpenPGP Key"
 msgstr "ওপেন-পি-জি-পি পাবলিক কী (Key) সংযুক্ত করো"
 
-#: kmcomposewin.cpp:2843
+#: kmcomposewin.cpp:2859
 msgid "Select the public key which should be attached."
 msgstr "যে পাবলিক কী(Key)-টি সংযুক্ত করা হবে সেটি বেছে নিন।"
 
-#: kmcomposewin.cpp:2865 kmreaderwin.cpp:1860
+#: kmcomposewin.cpp:2881 kmreaderwin.cpp:1865
 #, fuzzy
 msgid ""
 "_: to open\n"
 "Open"
 msgstr "দেখাও"
 
-#: kmcomposewin.cpp:2867
+#: kmcomposewin.cpp:2883
 msgid ""
 "_: to view\n"
 "View"
 msgstr "দেখাও"
 
-#: kmcomposewin.cpp:2875
+#: kmcomposewin.cpp:2891
 msgid "Add Attachment..."
 msgstr "অ্যাটাচমেন্ট যোগ করো..."
 
-#: kmcomposewin.cpp:2961 kmcomposewin.cpp:2969
+#: kmcomposewin.cpp:2977 kmcomposewin.cpp:2985
 #, fuzzy
 msgid "KMail could not compress the file."
 msgstr "পারে নয় লেখো টি ফাইল."
 
-#: kmcomposewin.cpp:2975
+#: kmcomposewin.cpp:2991
 #, fuzzy
 msgid ""
 "The compressed file is larger than the original. Do you want to keep the "
 "original one?"
 msgstr "টি অংশ -র টি বার্তা আছে স্বাক্ষর করা আপনি চাই প্রতি টি স্বাক্ষর যখন?"
 
-#: kmcomposewin.cpp:3042 kmcomposewin.cpp:3050
+#: kmcomposewin.cpp:3058 kmcomposewin.cpp:3066
 #, fuzzy
 msgid "KMail could not uncompress the file."
 msgstr "পারে নয় লেখো টি ফাইল."
 
-#: kmcomposewin.cpp:3196
+#: kmcomposewin.cpp:3212
 msgid "Save Attachment As"
 msgstr "অ্যাটাচমেন্ট নতুন নামে সংরক্ষণ করো"
 
-#: kmcomposewin.cpp:3479 kmfilterdlg.cpp:660 kmfolderdia.cpp:258
+#: kmcomposewin.cpp:3495 kmfilterdlg.cpp:660 kmfolderdia.cpp:258
 #: kmfolderdia.cpp:584 kmfoldertree.cpp:1489 managesievescriptsdialog.cpp:277
 msgid "unnamed"
 msgstr "নামহীন"
 
-#: kmcomposewin.cpp:3503
+#: kmcomposewin.cpp:3519
 #, fuzzy
 msgid ""
 "<qt>"
@@ -5132,11 +5211,11 @@ msgstr ""
 "<p> অনুগ্রহ করে নির্বাচন করো টি কী (Key) s প্রতি ব্যবহার -এ টি কনফিগারেশন</p>"
 "</qt>"
 
-#: kmcomposewin.cpp:3510
+#: kmcomposewin.cpp:3526
 msgid "Undefined Encryption Key"
 msgstr "অনির্দিষ্ট এনক্রিপশন কী (Key)"
 
-#: kmcomposewin.cpp:3553
+#: kmcomposewin.cpp:3569
 #, fuzzy
 msgid ""
 "<qt>"
@@ -5149,11 +5228,11 @@ msgstr ""
 "কী (Key) প্রতি ব্যবহার</p>"
 "<p> অনুগ্রহ করে নির্বাচন করো টি কী (Key) প্রতি ব্যবহার -এ টি কনফিগারেশন</p></qt>"
 
-#: kmcomposewin.cpp:3560
+#: kmcomposewin.cpp:3576
 msgid "Undefined Signing Key"
 msgstr "অনির্দিষ্ট স্বাক্ষর কী (Key)"
 
-#: kmcomposewin.cpp:3648
+#: kmcomposewin.cpp:3664
 #, fuzzy
 msgid ""
 "You must enter your email address in the From: field. You should also set your "
@@ -5164,60 +5243,60 @@ msgstr ""
 "সেট/সমষ্টি/নির্ধারণ আপনার ই-মেইল ঠিকানা জন্য সমস্ত তাই ঐ আপনি নয় প্রতি প্রবেশ "
 "করুন এটি জন্য প্রত্যেক বার্তা."
 
-#: kmcomposewin.cpp:3658
+#: kmcomposewin.cpp:3674
 #, fuzzy
 msgid ""
 "You must specify at least one receiver,either in the To: field or as CC or as "
 "BCC."
 msgstr "আপনি অবশ্যই উল্লেখ করুন -তে অন্তত এক হয় -এ টি প্রতি অথবা   অথবা  ."
 
-#: kmcomposewin.cpp:3681
+#: kmcomposewin.cpp:3697
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "আপনি বার্তার কোন বিষয় উল্লেখ করেননি। তা সত্ত্বেও বার্তাটি পাঠাব?"
 
-#: kmcomposewin.cpp:3683
+#: kmcomposewin.cpp:3699
 msgid "No Subject Specified"
 msgstr "বিষয় উল্লিখিত হয়নি"
 
-#: kmcomposewin.cpp:3684
+#: kmcomposewin.cpp:3700
 msgid "S&end as Is"
 msgstr "যে&মন আছে পাঠাও"
 
-#: kmcomposewin.cpp:3685
+#: kmcomposewin.cpp:3701
 msgid "&Specify the Subject"
 msgstr "বিষয় &উল্লেখ করব"
 
-#: kmcomposewin.cpp:3723
+#: kmcomposewin.cpp:3739
 #, fuzzy
 msgid "&Keep markup, do not sign/encrypt"
 msgstr "মার্কআপ নয় এনক্রিপ্ট"
 
-#: kmcomposewin.cpp:3724
+#: kmcomposewin.cpp:3740
 #, fuzzy
 msgid "&Keep markup, do not encrypt"
 msgstr "মার্কআপ নয় এনক্রিপ্ট"
 
-#: kmcomposewin.cpp:3725
+#: kmcomposewin.cpp:3741
 #, fuzzy
 msgid "&Keep markup, do not sign"
 msgstr "মার্কআপ নয়"
 
-#: kmcomposewin.cpp:3727
+#: kmcomposewin.cpp:3743
 #, fuzzy
 msgid "Sign/Encrypt (delete markup)"
 msgstr "এনক্রিপ্ট মুছে ফেলা মার্কআপ"
 
-#: kmcomposewin.cpp:3728
+#: kmcomposewin.cpp:3744
 #, fuzzy
 msgid "Encrypt (delete markup)"
 msgstr "এনক্রিপ্ট মুছে ফেলা মার্কআপ"
 
-#: kmcomposewin.cpp:3729
+#: kmcomposewin.cpp:3745
 #, fuzzy
 msgid "Sign (delete markup)"
 msgstr "মুছে ফেলা মার্কআপ"
 
-#: kmcomposewin.cpp:3731
+#: kmcomposewin.cpp:3747
 #, fuzzy
 msgid ""
 "<qt>"
@@ -5228,39 +5307,66 @@ msgstr ""
 "<p> এনক্রিপ্ট করছে -র এইচ-টি-এম-এল বার্তা আছে নয় সম্ভব/সম্ভাব্য</p>"
 "<p> আপনি চাই প্রতি মুছে ফেলা আপনার মার্কআপ</p></qt>"
 
-#: kmcomposewin.cpp:3733
+#: kmcomposewin.cpp:3749
 #, fuzzy
 msgid "Sign/Encrypt Message?"
 msgstr "এনক্রিপ্ট বার্তা?"
 
-#: kmcomposewin.cpp:3893
+#: kmcomposewin.cpp:3909
 msgid "About to send email..."
 msgstr "ই-মেইল পাঠাতে চলেছি..."
 
-#: kmcomposewin.cpp:3894
+#: kmcomposewin.cpp:3910
 #, fuzzy
 msgid "Send Confirmation"
 msgstr "পাঠানোর অনুমোদন"
 
-#: kmcomposewin.cpp:3895 redirectdialog.cpp:82
+#: kmcomposewin.cpp:3911 redirectdialog.cpp:82
 msgid "&Send Now"
 msgstr "&এখন পাঠাও"
 
-#: kmcomposewin.cpp:4041
+#: kmcomposewin.cpp:4057
 msgid " Spell check canceled."
 msgstr " বানান পরীক্ষা বাতিল"
 
-#: kmcomposewin.cpp:4044
+#: kmcomposewin.cpp:4060
 msgid " Spell check stopped."
 msgstr " বানান পরীক্ষা স্থগিত"
 
-#: kmcomposewin.cpp:4047
+#: kmcomposewin.cpp:4063
 msgid " Spell check complete."
 msgstr " বানান পরীক্ষা সম্পূর্ণ"
 
-#: kmcomposewin.cpp:4230 kmcomposewin.cpp:4237
+#: kmcomposewin.cpp:4246 kmcomposewin.cpp:4253
 msgid "Spellchecker"
 msgstr "বানান পরীক্ষক"
+
+#: kmcomposewin.cpp:4552
+msgid ""
+"Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
+"You can do this in the Crypto Backends tab of the configure dialog's Security "
+"page."
+msgstr ""
+
+#: kmcomposewin.cpp:4556
+msgid ""
+"It looks as though libkleopatra was compiled without Chiasmus support. You "
+"might want to recompile libkleopatra with --enable-chiasmus."
+msgstr ""
+
+#: kmcomposewin.cpp:4559
+msgid "No Chiasmus Backend Configured"
+msgstr ""
+
+#: kmcomposewin.cpp:4590
+#, fuzzy
+msgid "No Chiasmus Keys Found"
+msgstr "কোন স্বাক্ষর পাওয়া যায়নি"
+
+#: kmcomposewin.cpp:4594
+#, fuzzy
+msgid "Chiasmus Encryption Key Selection"
+msgstr "কী (Key) নির্বাচন"
 
 #: kmedit.cpp:171
 msgid "Add as Text"
@@ -6105,13 +6211,13 @@ msgstr ""
 msgid "Aborted"
 msgstr " থামিয়ে দেওয়া হয়েছে"
 
-#: kmfoldercachedimap.cpp:2191
+#: kmfoldercachedimap.cpp:2192
 msgid ""
 "The IMAP server %1 does not have support for IMAP annotations. The XML storage "
 "cannot be used on this server; please re-configure KMail differently."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2249
+#: kmfoldercachedimap.cpp:2250
 #, fuzzy
 msgid "Error while setting annotation: "
 msgstr "সমস্যা যতক্ষণ ফোল্ডার তথ্য."
@@ -8202,182 +8308,182 @@ msgstr "অজানা"
 msgid "Save Attachments..."
 msgstr "অ্যাটাচমেন্ট সংরক্ষণ করো..."
 
-#: kmreaderwin.cpp:548
+#: kmreaderwin.cpp:553
 msgid ""
 "_: View->\n"
 "&Headers"
 msgstr "হেডা&র"
 
-#: kmreaderwin.cpp:549
+#: kmreaderwin.cpp:554
 msgid "Choose display style of message headers"
 msgstr "বার্তার হেডারগুলি কি ভাবে প্রদর্শিত হবে বেছে নিন"
 
-#: kmreaderwin.cpp:554
+#: kmreaderwin.cpp:559
 msgid ""
 "_: View->headers->\n"
 "&Fancy Headers"
 msgstr "কেতাদু&রস্ত হেডার"
 
-#: kmreaderwin.cpp:557
+#: kmreaderwin.cpp:562
 msgid "Show the list of headers in a fancy format"
 msgstr "হেডারগুলি একটি কেতাদুরস্ত বিন্যাস ব্যবহার করে দেখাও"
 
-#: kmreaderwin.cpp:561
+#: kmreaderwin.cpp:566
 msgid ""
 "_: View->headers->\n"
 "&Brief Headers"
 msgstr "সংক্ষিপ্ত হেডার (&হ)"
 
-#: kmreaderwin.cpp:564
+#: kmreaderwin.cpp:569
 msgid "Show brief list of message headers"
 msgstr "অল্প কয়েকটি হেডার দেখাও"
 
-#: kmreaderwin.cpp:568
+#: kmreaderwin.cpp:573
 msgid ""
 "_: View->headers->\n"
 "&Standard Headers"
 msgstr "স্ট্যাণ্ডার্ড হেডার (&ড)"
 
-#: kmreaderwin.cpp:571
+#: kmreaderwin.cpp:576
 msgid "Show standard list of message headers"
 msgstr "সাধারণত প্রদর্শিত হেডারগুলি দেখাও"
 
-#: kmreaderwin.cpp:575
+#: kmreaderwin.cpp:580
 msgid ""
 "_: View->headers->\n"
 "&Long Headers"
 msgstr "&লম্বা হেডার"
 
-#: kmreaderwin.cpp:578
+#: kmreaderwin.cpp:583
 msgid "Show long list of message headers"
 msgstr "অনেকগুলি হেডার দেখাও"
 
-#: kmreaderwin.cpp:582
+#: kmreaderwin.cpp:587
 msgid ""
 "_: View->headers->\n"
 "&All Headers"
 msgstr "&সব হেডার"
 
-#: kmreaderwin.cpp:585
+#: kmreaderwin.cpp:590
 msgid "Show all message headers"
 msgstr "বার্তার সব হেডার দেখাও"
 
-#: kmreaderwin.cpp:591
+#: kmreaderwin.cpp:596
 msgid ""
 "_: View->\n"
 "&Attachments"
 msgstr "অ্যাটা&চমেন্ট"
 
-#: kmreaderwin.cpp:592
+#: kmreaderwin.cpp:597
 msgid "Choose display style of attachments"
 msgstr "অ্যাটাচমেন্ট কি ভাবে দেখানো হবে বেছে নিন"
 
-#: kmreaderwin.cpp:596
+#: kmreaderwin.cpp:601
 msgid ""
 "_: View->attachments->\n"
 "&As Icons"
 msgstr "আ&ইকন হিসাবে"
 
-#: kmreaderwin.cpp:599
+#: kmreaderwin.cpp:604
 #, fuzzy
 msgid "Show all attachments as icons. Click to see them."
 msgstr "দেখাও/প্রদর্শন করো সমস্ত   আইকন ক্লিক প্রতি দেখো ওদের."
 
-#: kmreaderwin.cpp:603
+#: kmreaderwin.cpp:608
 msgid ""
 "_: View->attachments->\n"
 "&Smart"
 msgstr "বুদ্ধি খাটিয়ে (&খ)"
 
-#: kmreaderwin.cpp:606
+#: kmreaderwin.cpp:611
 #, fuzzy
 msgid "Show attachments as suggested by sender."
 msgstr "দেখাও/প্রদর্শন করো   প্রস্তাবিত দ্বারা."
 
-#: kmreaderwin.cpp:610
+#: kmreaderwin.cpp:615
 #, fuzzy
 msgid ""
 "_: View->attachments->\n"
 "&Inline"
 msgstr "দেখা/প্রদর্শন/ভিউ"
 
-#: kmreaderwin.cpp:613
+#: kmreaderwin.cpp:618
 #, fuzzy
 msgid "Show all attachments inline (if possible)"
 msgstr "দেখাও/প্রদর্শন করো সমস্ত যদি সম্ভব/সম্ভাব্য"
 
-#: kmreaderwin.cpp:617
+#: kmreaderwin.cpp:622
 msgid ""
 "_: View->attachments->\n"
 "&Hide"
 msgstr "লুকো&ও"
 
-#: kmreaderwin.cpp:620
+#: kmreaderwin.cpp:625
 #, fuzzy
 msgid "Do not show attachments in the message viewer"
 msgstr "নয় দেখাও/প্রদর্শন করো -এ টি বার্তা প্রদর্শক"
 
-#: kmreaderwin.cpp:625
+#: kmreaderwin.cpp:630
 msgid "&Set Encoding"
 msgstr "এনকোডিং নির্ধার&ণ করো"
 
-#: kmreaderwin.cpp:633
+#: kmreaderwin.cpp:638
 msgid "New Message To..."
 msgstr "একে নতুন বার্তা..."
 
-#: kmreaderwin.cpp:636
+#: kmreaderwin.cpp:641
 msgid "Reply To..."
 msgstr "একে উত্তর দাও..."
 
-#: kmreaderwin.cpp:639
+#: kmreaderwin.cpp:644
 msgid "Forward To..."
 msgstr "একে ফরোয়ার্ড করো..."
 
-#: kmreaderwin.cpp:642
+#: kmreaderwin.cpp:647
 msgid "Add to Address Book"
 msgstr "ঠিকানা তালিকায় যোগ করো"
 
-#: kmreaderwin.cpp:645
+#: kmreaderwin.cpp:650
 msgid "Open in Address Book"
 msgstr "ঠিকানা তালিকায় খোলো"
 
-#: kmreaderwin.cpp:651
+#: kmreaderwin.cpp:656
 #, fuzzy
 msgid "Copy Link Address"
 msgstr "কপি সংযোগ, লিঙ্ক ঠিকানা"
 
-#: kmreaderwin.cpp:653
+#: kmreaderwin.cpp:658
 msgid "Open URL"
 msgstr "ইউ-আর-এল খোলো"
 
-#: kmreaderwin.cpp:655
+#: kmreaderwin.cpp:660
 msgid "Bookmark This Link"
 msgstr "এই লিঙ্কটি বুকমার্ক করো"
 
-#: kmreaderwin.cpp:659
+#: kmreaderwin.cpp:664
 msgid "Save Link As..."
 msgstr "লিঙ্ক নতুন নামে সংরক্ষণ করো..."
 
-#: kmreaderwin.cpp:666
+#: kmreaderwin.cpp:671
 #, fuzzy
 msgid "Chat &With..."
 msgstr "আড্ডা সঙ্গে."
 
-#: kmreaderwin.cpp:1243
+#: kmreaderwin.cpp:1248
 msgid "Full Namespace support for IMAP"
 msgstr ""
 
-#: kmreaderwin.cpp:1281
+#: kmreaderwin.cpp:1286
 msgid "The email client for the K Desktop Environment."
 msgstr ""
 
-#: kmreaderwin.cpp:1289
+#: kmreaderwin.cpp:1294
 msgid ""
 "<h2 style='margin-top: 0px;'>Retrieving Folder Contents</h2>"
 "<p>Please wait . . .</p>&nbsp;"
 msgstr ""
 
-#: kmreaderwin.cpp:1304
+#: kmreaderwin.cpp:1309
 #, fuzzy
 msgid ""
 "_: %1: KMail version; %2: help:// URL; %3: homepage URL; %4: prior KMail "
@@ -8422,13 +8528,13 @@ msgstr ""
 "<p> ধন্যবাদ আপনি</p>\n"
 "<p>&nbsp;&nbsp; টি দল</p>"
 
-#: kmreaderwin.cpp:1327 kmreaderwin.cpp:1349
+#: kmreaderwin.cpp:1332 kmreaderwin.cpp:1354
 msgid ""
 "<li>%1</li>\n"
 msgstr ""
 "<li>%1</li>\n"
 
-#: kmreaderwin.cpp:1332
+#: kmreaderwin.cpp:1337
 #, fuzzy
 msgid ""
 "<p>Please take a moment to fill in the KMail configuration panel at "
@@ -8440,38 +8546,42 @@ msgstr ""
 "বৈশিষ্ট্যাবলী&gt; প্রয়োজন প্রতি তৈরি -তে অন্তত একটি ডিফল্ট এবং একটি অন্তর্মুখী  "
 " ভাল   মেইল অ্যাকাউন্ট</p>"
 
-#: kmreaderwin.cpp:1344
+#: kmreaderwin.cpp:1349
 msgid ""
 "<p><span style='font-size:125%; font-weight:bold;'>Important changes</span> "
 "(compared to KMail %1):</p>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1478
+#: kmreaderwin.cpp:1483
 msgid "( body part )"
 msgstr "( দেহের প্রধান অংশ )"
 
-#: kmreaderwin.cpp:1754
+#: kmreaderwin.cpp:1759
 #, fuzzy
 msgid "Could not send MDN."
 msgstr "পারে নয় পাঠাও."
 
-#: kmreaderwin.cpp:1861
+#: kmreaderwin.cpp:1866
 msgid "Open With..."
 msgstr "...দিয়ে খোলো"
 
-#: kmreaderwin.cpp:1862
+#: kmreaderwin.cpp:1867
 #, fuzzy
 msgid ""
 "_: to view something\n"
 "View"
 msgstr "প্রতি দেখা/প্রদর্শন/ভিউ কিছু জিনিষ"
 
-#: kmreaderwin.cpp:2005 kmreaderwin.cpp:2041 kmreaderwin.cpp:2058
+#: kmreaderwin.cpp:1871
+msgid "Decrypt With Chiasmus..."
+msgstr ""
+
+#: kmreaderwin.cpp:2013 kmreaderwin.cpp:2049 kmreaderwin.cpp:2066
 #, c-format
 msgid "View Attachment: %1"
 msgstr "অ্যাটাচমেন্ট দেখাও: %1"
 
-#: kmreaderwin.cpp:2052
+#: kmreaderwin.cpp:2060
 #, fuzzy, c-format
 msgid ""
 "_n: [KMail: Attachment contains binary data. Trying to show first character.]\n"
@@ -8480,23 +8590,23 @@ msgstr ""
 "সংযুক্ত ধারণ করে তথ্য চেষ্টা করছি প্রতি দেখাও/প্রদর্শন করো প্রথম বর্ণ, অক্ষর "
 "সংযুক্ত ধারণ করে তথ্য চেষ্টা করছি প্রতি দেখাও/প্রদর্শন করো প্রথম অক্ষর"
 
-#: kmreaderwin.cpp:2143
+#: kmreaderwin.cpp:2151
 msgid "&Open with '%1'"
 msgstr "'%1' দিয়ে খোলো (&খ)"
 
-#: kmreaderwin.cpp:2145
+#: kmreaderwin.cpp:2153
 #, fuzzy
 msgid "&Open With..."
 msgstr "খোলো সঙ্গে."
 
-#: kmreaderwin.cpp:2147
+#: kmreaderwin.cpp:2155
 #, fuzzy
 msgid ""
 "Open attachment '%1'?\n"
 "Note that opening an attachment may compromise your system's security."
 msgstr "খোলো সংযুক্ত ঐ খুলছি একটি সংযুক্ত হয়তো আপনার সিস্টেম s নিরাপত্তা."
 
-#: kmreaderwin.cpp:2152
+#: kmreaderwin.cpp:2160
 msgid "Open Attachment?"
 msgstr "অ্যাটাচমেন্ট খুলব?"
 
@@ -9151,7 +9261,7 @@ msgstr ""
 msgid "Sieve Script Upload"
 msgstr ""
 
-#: messagecomposer.cpp:220
+#: messagecomposer.cpp:221
 #, fuzzy
 msgid ""
 "<qt>"
@@ -9163,7 +9273,7 @@ msgstr ""
 "<p> তথ্য ফেরত দ্বারা টি ক্রিপ্টো -এ পারে নয় সঠিকভাবে টি -এ হয়ত</p>"
 "<p> অনুগ্রহ করে পরিচয় আপনার সিস্টেম অ্যাডমিনস্ট্রেটর</p></qt>"
 
-#: messagecomposer.cpp:224
+#: messagecomposer.cpp:225
 #, fuzzy
 msgid ""
 "<p>No active Crypto Plug-In was found and the built-in OpenPGP code did not run "
@@ -9183,7 +9293,7 @@ msgstr ""
 "<li><em> অথবা</em> উল্লেখ করুন প্রথাগত বৈশিষ্ট্যাবলী ওপর টি একই ডায়ালগ s অগ্রসর "
 "ট্যাব</li></ul>"
 
-#: messagecomposer.cpp:391
+#: messagecomposer.cpp:409
 msgid ""
 "No suitable encoding could be found for your message.\n"
 "Please set an encoding using the 'Options' menu."
@@ -9191,7 +9301,29 @@ msgstr ""
 "আপনার বার্তার জন্য কোন মানানসই এনকোডিং পাওয়া যায়নি।\n"
 "অনুগ্রহ করে 'অপশন' মেনু ব্যবহার করে একটি এনকোডিং নির্ধারণ করুন।"
 
-#: messagecomposer.cpp:487
+#: messagecomposer.cpp:519
+msgid ""
+"Chiasmus backend does not offer the \"x-encrypt\" function. Please report this "
+"bug."
+msgstr ""
+
+#: messagecomposer.cpp:527
+msgid ""
+"The \"x-encrypt\" function does not accept the expected parameters. Please "
+"report this bug."
+msgstr ""
+
+#: messagecomposer.cpp:535
+msgid "Chiasmus Encryption Error"
+msgstr ""
+
+#: messagecomposer.cpp:540
+msgid ""
+"Unexpected return value from Chiasmus backend: The \"x-encrypt\" function did "
+"not return a byte array. Please report this bug."
+msgstr ""
+
+#: messagecomposer.cpp:601
 #, fuzzy
 msgid ""
 "The inline OpenPGP crypto message format does not support encryption or signing "
@@ -9200,17 +9332,17 @@ msgid ""
 msgstr ""
 "টি ক্রিপ্টো বার্তা ফর্ম্যাট করে নয় সহায়তা/সমর্থন অথবা -র ব্যবহার বর্জনীয়?"
 
-#: messagecomposer.cpp:491
+#: messagecomposer.cpp:605
 #, fuzzy
 msgid "Insecure Message Format"
 msgstr "বার্তা ফর্ম্যাট"
 
-#: messagecomposer.cpp:493
+#: messagecomposer.cpp:607
 #, fuzzy
 msgid "&No, Use OpenPGP/MIME"
 msgstr "না ব্যবহার"
 
-#: messagecomposer.cpp:609
+#: messagecomposer.cpp:723
 #, fuzzy
 msgid ""
 "Examination of the recipient's signing preferences yielded that you be asked "
@@ -9219,31 +9351,31 @@ msgid ""
 msgstr ""
 "-র টি প্রাপক s ঐ আপনি জিজ্ঞাসা কি না অথবা নয় প্রতি এই বার্তা এই বার্তা?"
 
-#: messagecomposer.cpp:614 messagecomposer.cpp:637
+#: messagecomposer.cpp:728 messagecomposer.cpp:751
 #, fuzzy
 msgid "Sign Message?"
 msgstr "বার্তা?"
 
-#: messagecomposer.cpp:615 messagecomposer.cpp:638
+#: messagecomposer.cpp:729 messagecomposer.cpp:752
 #, fuzzy
 msgid ""
 "_: to sign\n"
 "&Sign"
 msgstr "প্রতি"
 
-#: messagecomposer.cpp:616 messagecomposer.cpp:639
+#: messagecomposer.cpp:730 messagecomposer.cpp:753
 #, fuzzy
 msgid "Do &Not Sign"
 msgstr "নয়"
 
-#: messagecomposer.cpp:633
+#: messagecomposer.cpp:747
 #, fuzzy
 msgid ""
 "There are conflicting signing preferences for these recipients.\n"
 "Sign this message?"
 msgstr "জন্য এই এই বার্তা?"
 
-#: messagecomposer.cpp:655
+#: messagecomposer.cpp:769
 #, fuzzy
 msgid ""
 "You have requested to sign this message, but no valid signing keys have been "
@@ -9252,17 +9384,17 @@ msgstr ""
 "আপনি আবেদন করা প্রতি এই বার্তা কিন্তু না বৈধ কনফিগার করা জন্য এই আপনি বেছে নিন "
 "প্রতি চলিয়ে যাও না."
 
-#: messagecomposer.cpp:659
+#: messagecomposer.cpp:773
 #, fuzzy
 msgid "Send Unsigned?"
 msgstr "পাঠাও"
 
-#: messagecomposer.cpp:660
+#: messagecomposer.cpp:774
 #, fuzzy
 msgid "Send &Unsigned"
 msgstr "পাঠাও"
 
-#: messagecomposer.cpp:675
+#: messagecomposer.cpp:789
 #, fuzzy
 msgid ""
 "Some parts of this message will not be signed.\n"
@@ -9272,7 +9404,7 @@ msgstr ""
 "কিছু -র এই বার্তা নয় স্বাক্ষর করা শুধু স্বাক্ষর করা বার্তা হয়ত পলিসি সমস্ত "
 "পরিবর্তে?"
 
-#: messagecomposer.cpp:678
+#: messagecomposer.cpp:792
 #, fuzzy
 msgid ""
 "This message will not be signed.\n"
@@ -9280,33 +9412,33 @@ msgid ""
 "Sign message instead?"
 msgstr "এই বার্তা নয় স্বাক্ষর করা বার্তা হয়ত পলিসি বার্তা পরিবর্তে?"
 
-#: messagecomposer.cpp:682
+#: messagecomposer.cpp:796
 msgid "&Sign All Parts"
 msgstr "&সব অংশ স্বাক্ষর করো"
 
-#: messagecomposer.cpp:682
+#: messagecomposer.cpp:796
 #, fuzzy
 msgid "&Sign"
 msgstr "স্বাক্ষর"
 
-#: messagecomposer.cpp:684
+#: messagecomposer.cpp:798
 #, fuzzy
 msgid "Unsigned-Message Warning"
 msgstr "বার্তা সতর্কবার্তা"
 
-#: messagecomposer.cpp:686
+#: messagecomposer.cpp:800
 #, fuzzy
 msgid "Send &As Is"
 msgstr "পাঠাও   আছে"
 
-#: messagecomposer.cpp:724
+#: messagecomposer.cpp:838
 #, fuzzy
 msgid ""
 "Valid trusted encryption keys were found for all recipients.\n"
 "Encrypt this message?"
 msgstr "বৈধ ছিল পাওয়া গেছে জন্য সমস্ত এই বার্তা?"
 
-#: messagecomposer.cpp:726
+#: messagecomposer.cpp:840
 #, fuzzy
 msgid ""
 "Examination of the recipient's encryption preferences yielded that you be asked "
@@ -9316,36 +9448,36 @@ msgstr ""
 "-র টি প্রাপক s ঐ আপনি জিজ্ঞাসা কি না অথবা নয় প্রতি এনক্রিপ্ট এই বার্তা এই "
 "বার্তা?"
 
-#: messagecomposer.cpp:731 messagecomposer.cpp:758
+#: messagecomposer.cpp:845 messagecomposer.cpp:872
 msgid "Encrypt Message?"
 msgstr "বার্তা এনক্রিপ্ট করা হবে?"
 
-#: messagecomposer.cpp:733
+#: messagecomposer.cpp:847
 msgid "Sign && &Encrypt"
 msgstr "স্বাক্ষর এবং &এনক্রিপ্ট করো"
 
-#: messagecomposer.cpp:736 messagecomposer.cpp:811
+#: messagecomposer.cpp:850 messagecomposer.cpp:925
 msgid "&Sign Only"
 msgstr "শুধু স্বাক্ষ&র করো"
 
-#: messagecomposer.cpp:737 messagecomposer.cpp:812
+#: messagecomposer.cpp:851 messagecomposer.cpp:926
 #, fuzzy
 msgid "&Send As-Is"
 msgstr "পাঠাও   আছে"
 
-#: messagecomposer.cpp:754
+#: messagecomposer.cpp:868
 #, fuzzy
 msgid ""
 "There are conflicting encryption preferences for these recipients.\n"
 "Encrypt this message?"
 msgstr "জন্য এই এই বার্তা?"
 
-#: messagecomposer.cpp:760
+#: messagecomposer.cpp:874
 #, fuzzy
 msgid "Do &Not Encrypt"
 msgstr "নয় এনক্রিপ্ট"
 
-#: messagecomposer.cpp:776
+#: messagecomposer.cpp:890
 #, fuzzy
 msgid ""
 "You have requested to encrypt this message, and to encrypt a copy to yourself, "
@@ -9354,12 +9486,12 @@ msgstr ""
 "আপনি আবেদন করা প্রতি এনক্রিপ্ট এই বার্তা এবং প্রতি এনক্রিপ্ট একটি কপি প্রতি "
 "কিন্তু না বৈধ কনফিগার করা জন্য এই."
 
-#: messagecomposer.cpp:781
+#: messagecomposer.cpp:895
 #, fuzzy
 msgid "Send Unencrypted?"
 msgstr "পাঠাও এনক্রিপশনবিহীন"
 
-#: messagecomposer.cpp:797
+#: messagecomposer.cpp:911
 #, fuzzy
 msgid ""
 "Some parts of this message will not be encrypted.\n"
@@ -9370,7 +9502,7 @@ msgstr ""
 "কিছু -র এই বার্তা নয় এনক্রিপ্ট করা শুধু এনক্রিপ্ট করা বার্তা হয়ত পলিসি এবং অথবা "
 "গোপনীয় তথ্য সমস্ত পরিবর্তে?"
 
-#: messagecomposer.cpp:801
+#: messagecomposer.cpp:915
 #, fuzzy
 msgid ""
 "This message will not be encrypted.\n"
@@ -9381,16 +9513,16 @@ msgstr ""
 "এই বার্তা নয় এনক্রিপ্ট করা এনক্রিপশনবিহীন বার্তা হয়ত পলিসি এবং অথবা গোপনীয় তথ্য "
 "বার্তা পরিবর্তে?"
 
-#: messagecomposer.cpp:806
+#: messagecomposer.cpp:920
 msgid "&Encrypt All Parts"
 msgstr "সবকটি অংশ &এনক্রিপ্ট করো"
 
-#: messagecomposer.cpp:808
+#: messagecomposer.cpp:922
 #, fuzzy
 msgid "Unencrypted Message Warning"
 msgstr "এনক্রিপশনবিহীন বার্তা সতর্কবার্তা"
 
-#: messagecomposer.cpp:1824
+#: messagecomposer.cpp:2019
 #, fuzzy
 msgid ""
 "<qt>"
@@ -9403,7 +9535,7 @@ msgstr ""
 "<p> অনুগ্রহ করে রিপোর্ট/বিবরণ/প্রতিবেদন এই ত্রুটি"
 "<br></p></qt>"
 
-#: messagecomposer.cpp:1896
+#: messagecomposer.cpp:2091
 #, fuzzy
 msgid ""
 "<qt>Not all characters fit into the chosen encoding."
@@ -9414,21 +9546,21 @@ msgstr ""
 "<br>"
 "<br> পাঠাও টি বার্তা</qt>"
 
-#: messagecomposer.cpp:1898
+#: messagecomposer.cpp:2093
 msgid "Some characters will be lost"
 msgstr "কিছু অক্ষর হারিয়ে যাবে"
 
-#: messagecomposer.cpp:1899
+#: messagecomposer.cpp:2094
 #, fuzzy
 msgid "Lose Characters"
 msgstr "অক্ষর"
 
-#: messagecomposer.cpp:1899
+#: messagecomposer.cpp:2094
 #, fuzzy
 msgid "Change Encoding"
 msgstr "পরিবর্তন এনকোডিং"
 
-#: messagecomposer.cpp:1931
+#: messagecomposer.cpp:2126
 #, fuzzy
 msgid ""
 "This message could not be signed, since the chosen backend does not seem to "
@@ -9438,12 +9570,12 @@ msgstr ""
 "প্রতি সহায়তা/সমর্থন এই উচিত কখনো না ঘটা অনুগ্রহ করে রিপোর্ট/বিবরণ/প্রতিবেদন এই "
 "ত্রুটি."
 
-#: messagecomposer.cpp:1956
+#: messagecomposer.cpp:2151
 #, fuzzy
 msgid "The signing operation failed for an unknown reason."
 msgstr "টি অপারেশন/পরিচালনা ব্যর্থ জন্য একটি অজানা কারণ."
 
-#: messagecomposer.cpp:1977
+#: messagecomposer.cpp:2172
 #, fuzzy
 msgid ""
 "This message could not be encrypted, since the chosen backend does not seem to "
@@ -9453,7 +9585,7 @@ msgstr ""
 "প্রতি সহায়তা/সমর্থন এই উচিত কখনো না ঘটা অনুগ্রহ করে রিপোর্ট/বিবরণ/প্রতিবেদন এই "
 "ত্রুটি."
 
-#: messagecomposer.cpp:2018
+#: messagecomposer.cpp:2213
 #, fuzzy
 msgid ""
 "This message could not be signed and encrypted, since the chosen backend does "
@@ -9550,45 +9682,45 @@ msgstr "<qt> ব্যর্থ প্রতি তৈরি ফোল্ডা�
 msgid "<qt>Failed to create folder <b>%1</b>.</qt> "
 msgstr "<qt>ফোল্ডার <b>%1</b>-এ প্রবেশ করা যাচ্ছে না।</qt>"
 
-#: objecttreeparser.cpp:438
+#: objecttreeparser.cpp:443
 #, fuzzy
 msgid "Wrong Crypto Plug-In."
 msgstr "ভুল ক্রিপ্টো -এ."
 
-#: objecttreeparser.cpp:547
+#: objecttreeparser.cpp:552
 #, fuzzy
 msgid "The crypto engine returned no cleartext data."
 msgstr "টি ক্রিপ্টো ইঞ্জিন ফেরত না তথ্য."
 
-#: objecttreeparser.cpp:550 objecttreeparser.cpp:2096
-#: objecttreeparser.cpp:2138
+#: objecttreeparser.cpp:555 objecttreeparser.cpp:2213
+#: objecttreeparser.cpp:2255
 msgid "Status: "
 msgstr "স্ট্যাটাস:"
 
-#: objecttreeparser.cpp:557
+#: objecttreeparser.cpp:562
 msgid "(unknown)"
 msgstr "(অজানা)"
 
-#: objecttreeparser.cpp:568 objecttreeparser.cpp:722
+#: objecttreeparser.cpp:573 objecttreeparser.cpp:727
 msgid "Crypto plug-in \"%1\" is not initialized."
 msgstr "ক্রিপ্টো প্লাগ-ইন \"%1\" চালু করা হয়নি।"
 
-#: objecttreeparser.cpp:572
+#: objecttreeparser.cpp:577
 #, fuzzy
 msgid "Crypto plug-in \"%1\" cannot verify signatures."
 msgstr "ক্রিপ্টো -এ যাবে না বৈধতা যাচাই."
 
-#: objecttreeparser.cpp:577 objecttreeparser.cpp:730
+#: objecttreeparser.cpp:582 objecttreeparser.cpp:735
 msgid "No appropriate crypto plug-in was found."
 msgstr "কোন উপযুক্ত ক্রিপ্টো প্লাগ-ইন পাওয়া যায়নি।"
 
-#: objecttreeparser.cpp:580
+#: objecttreeparser.cpp:585
 msgid ""
 "_: %1 is either 'OpenPGP' or 'S/MIME'\n"
 "No %1 plug-in was found."
 msgstr "%1 প্লাগ-ইন পাওয়া যায়নি।"
 
-#: objecttreeparser.cpp:584
+#: objecttreeparser.cpp:589
 #, fuzzy, c-format
 msgid ""
 "The message is signed, but the validity of the signature cannot be verified.<br "
@@ -9596,26 +9728,26 @@ msgid ""
 msgstr ""
 "টি বার্তা আছে স্বাক্ষর করা কিন্তু টি -র টি স্বাক্ষর যাবে না<br /> কারণ 1"
 
-#: objecttreeparser.cpp:703 objecttreeparser.cpp:718 objecttreeparser.cpp:748
+#: objecttreeparser.cpp:708 objecttreeparser.cpp:723 objecttreeparser.cpp:753
 #, fuzzy
 msgid "Encrypted data not shown."
 msgstr "এনক্রিপ্ট করা তথ্য নয় প্রদর্শিত."
 
-#: objecttreeparser.cpp:706
+#: objecttreeparser.cpp:711
 msgid "Crypto plug-in \"%1\" could not decrypt the data."
 msgstr "\"%1\" ক্রিপ্টো প্লাগ-ইন তথ্য পাঠোদ্ধার করতে পারেনি।"
 
-#: objecttreeparser.cpp:709
+#: objecttreeparser.cpp:714
 #, c-format
 msgid "Error: %1"
 msgstr "সমস্যা: %1"
 
-#: objecttreeparser.cpp:726
+#: objecttreeparser.cpp:731
 #, fuzzy
 msgid "Crypto plug-in \"%1\" cannot decrypt messages."
 msgstr "ক্রিপ্টো -এ যাবে না বার্তা."
 
-#: objecttreeparser.cpp:828
+#: objecttreeparser.cpp:833
 #, fuzzy
 msgid ""
 "<b>Note:</b> This HTML message may contain external references to images etc. "
@@ -9628,7 +9760,7 @@ msgstr ""
 "তাহলে <a href=\"kmail:showHTML\">এইখানে ক্লিক করে</a> "
 "আপনি এই  বার্তাটির জন্য এইচ-টি-এম-এল ফর্ম্যাটিং সক্রিয় করতে পারেন। "
 
-#: objecttreeparser.cpp:838
+#: objecttreeparser.cpp:843
 msgid ""
 "<b>Note:</b> This is an HTML message. For security reasons, only the raw HTML "
 "code is shown. If you trust the sender of this message then you can activate "
@@ -9640,197 +9772,197 @@ msgstr ""
 "তাহলে <a href=\"kmail:showHTML\">এইখানে ক্লিক করে</a> "
 "আপনি এই  বার্তাটির জন্য এইচ-টি-এম-এল ফর্ম্যাটিং সক্রিয় করতে পারেন। "
 
-#: objecttreeparser.cpp:1439
+#: objecttreeparser.cpp:1444
 #, fuzzy, c-format
 msgid "Sorry, certificate could not be imported.<br>Reason: %1"
 msgstr "দুঃখিত পারে নয় আমদানী করা<br> কারণ 1"
 
-#: objecttreeparser.cpp:1449
+#: objecttreeparser.cpp:1454
 #, fuzzy
 msgid "Sorry, no certificates were found in this message."
 msgstr "দুঃখিত না সার্টিফিকেট ছিল পাওয়া গেছে -এ এই বার্তা."
 
-#: objecttreeparser.cpp:1452
+#: objecttreeparser.cpp:1457
 #, fuzzy
 msgid "Certificate import status:"
 msgstr "আমদানি অবস্থা:"
 
-#: objecttreeparser.cpp:1455
+#: objecttreeparser.cpp:1460
 #, fuzzy, c-format
 msgid ""
 "_n: 1 new certificate was imported.\n"
 "%n new certificates were imported."
 msgstr "নতুন ছিল আমদানী করা নতুন সার্টিফিকেট ছিল আমদানী করা."
 
-#: objecttreeparser.cpp:1458
+#: objecttreeparser.cpp:1463
 #, fuzzy, c-format
 msgid ""
 "_n: 1 certificate was unchanged.\n"
 "%n certificates were unchanged."
 msgstr "ছিল সার্টিফিকেট ছিল."
 
-#: objecttreeparser.cpp:1461
+#: objecttreeparser.cpp:1466
 #, fuzzy, c-format
 msgid ""
 "_n: 1 new secret key was imported.\n"
 "%n new secret keys were imported."
 msgstr "নতুন গোপন কী (Key) ছিল আমদানী করা নতুন গোপন ছিল আমদানী করা."
 
-#: objecttreeparser.cpp:1464
+#: objecttreeparser.cpp:1469
 #, fuzzy, c-format
 msgid ""
 "_n: 1 secret key was unchanged.\n"
 "%n secret keys were unchanged."
 msgstr "গোপন কী (Key) ছিল গোপন ছিল."
 
-#: objecttreeparser.cpp:1473
+#: objecttreeparser.cpp:1478
 #, fuzzy
 msgid "Sorry, no details on certificate import available."
 msgstr "দুঃখিত না বিস্তারিত ওপর আমদানি পাওয়া যাচ্ছে."
 
-#: objecttreeparser.cpp:1476
+#: objecttreeparser.cpp:1481
 #, fuzzy
 msgid "Certificate import details:"
 msgstr "আমদানি বিস্তারিত:"
 
-#: objecttreeparser.cpp:1479
+#: objecttreeparser.cpp:1484
 #, fuzzy
 msgid "Failed: %1 (%2)"
 msgstr "ব্যর্থ"
 
-#: objecttreeparser.cpp:1483
+#: objecttreeparser.cpp:1488
 #, fuzzy
 msgid "New or changed: %1 (secret key available)"
 msgstr "নতুন অথবা পরিবর্তিত গোপন কী (Key) পাওয়া যাচ্ছে"
 
-#: objecttreeparser.cpp:1485
+#: objecttreeparser.cpp:1490
 #, fuzzy, c-format
 msgid "New or changed: %1"
 msgstr "নতুন অথবা পরিবর্তিত 1"
 
-#: objecttreeparser.cpp:1687
+#: objecttreeparser.cpp:1804
 msgid "Error: Signature not verified"
 msgstr "সমস্যা: স্বাক্ষর যাচাই করা হয়নি"
 
-#: objecttreeparser.cpp:1690
+#: objecttreeparser.cpp:1807
 msgid "Good signature"
 msgstr "ত্রুটিমুক্ত স্বাক্ষর"
 
-#: objecttreeparser.cpp:1693
+#: objecttreeparser.cpp:1810
 msgid "<b>Bad</b> signature"
 msgstr "<b>ত্রুটিপূর্ণ</b> স্বাক্ষর"
 
-#: objecttreeparser.cpp:1696
+#: objecttreeparser.cpp:1813
 #, fuzzy
 msgid "No public key to verify the signature"
 msgstr "না পাবলিক কী (Key) প্রতি বৈধতা যাচাই টি স্বাক্ষর"
 
-#: objecttreeparser.cpp:1699
+#: objecttreeparser.cpp:1816
 msgid "No signature found"
 msgstr "কোন স্বাক্ষর পাওয়া যায়নি"
 
-#: objecttreeparser.cpp:1702
+#: objecttreeparser.cpp:1819
 msgid "Error verifying the signature"
 msgstr "স্বাক্ষর যাচাই করাকালীন সমস্যা"
 
-#: objecttreeparser.cpp:1705
+#: objecttreeparser.cpp:1822
 msgid "Different results for signatures"
 msgstr "স্বাক্ষরের জন্য আলাদা ফলাফল"
 
-#: objecttreeparser.cpp:1725
+#: objecttreeparser.cpp:1842
 msgid "No status information available."
 msgstr "কোন স্ট্যাটাস তথ্য পাওয়া যাচ্ছে না।"
 
-#: objecttreeparser.cpp:1732 objecttreeparser.cpp:1825
+#: objecttreeparser.cpp:1849 objecttreeparser.cpp:1942
 msgid "Good signature."
 msgstr "ত্রুটিমুক্ত স্বাক্ষর।"
 
-#: objecttreeparser.cpp:1753
+#: objecttreeparser.cpp:1870
 #, fuzzy
 msgid "One key has expired."
 msgstr "এক কী (Key) আছে."
 
-#: objecttreeparser.cpp:1757
+#: objecttreeparser.cpp:1874
 #, fuzzy
 msgid "The signature has expired."
 msgstr "টি স্বাক্ষর আছে."
 
-#: objecttreeparser.cpp:1762
+#: objecttreeparser.cpp:1879
 msgid "Unable to verify: key missing."
 msgstr "যাচাই করতে অক্ষম: কী (Key) পাওয়া যায়নি।"
 
-#: objecttreeparser.cpp:1769
+#: objecttreeparser.cpp:1886
 #, fuzzy
 msgid "CRL not available."
 msgstr "নয় পাওয়া যাচ্ছে."
 
-#: objecttreeparser.cpp:1773
+#: objecttreeparser.cpp:1890
 #, fuzzy
 msgid "Available CRL is too old."
 msgstr "পাওয়া যাচ্ছে আছে পুরনো."
 
-#: objecttreeparser.cpp:1777
+#: objecttreeparser.cpp:1894
 #, fuzzy
 msgid "A policy was not met."
 msgstr "একটি পলিসি ছিল নয়."
 
-#: objecttreeparser.cpp:1781
+#: objecttreeparser.cpp:1898
 msgid "A system error occurred."
 msgstr "একটি সিস্টেম সমস্যা ঘটেছে।"
 
-#: objecttreeparser.cpp:1789
+#: objecttreeparser.cpp:1906
 msgid "Internal system error #%1 occurred."
 msgstr "অভ্যন্তরীন সিস্টেম সমস্যা #%1 ঘটেছে।"
 
-#: objecttreeparser.cpp:1801
+#: objecttreeparser.cpp:1918
 #, fuzzy
 msgid "One key has been revoked."
 msgstr "এক কী (Key) আছে."
 
-#: objecttreeparser.cpp:1827
+#: objecttreeparser.cpp:1944
 msgid "<b>Bad</b> signature."
 msgstr "<b>ত্রুটিপূর্ণ</b> স্বাক্ষর।"
 
-#: objecttreeparser.cpp:1867 objecttreeparser.cpp:1869
+#: objecttreeparser.cpp:1984 objecttreeparser.cpp:1986
 #, fuzzy
 msgid "Encapsulated message"
 msgstr "বার্তা"
 
-#: objecttreeparser.cpp:1878
+#: objecttreeparser.cpp:1995
 msgid "Encrypted message"
 msgstr "এনক্রিপ্ট করা বার্তা"
 
-#: objecttreeparser.cpp:1880
+#: objecttreeparser.cpp:1997
 msgid "Encrypted message (decryption not possible)"
 msgstr "এনক্রিপ্ট করা বার্তা (পাঠোদ্ধার সম্ভব নয়)"
 
-#: objecttreeparser.cpp:1882
+#: objecttreeparser.cpp:1999
 #, c-format
 msgid "Reason: %1"
 msgstr "কারণ: %1"
 
-#: objecttreeparser.cpp:1936
+#: objecttreeparser.cpp:2053
 msgid "[Details]"
 msgstr "[বিস্তারিত বিবরণ]"
 
-#: objecttreeparser.cpp:1986 objecttreeparser.cpp:2011
+#: objecttreeparser.cpp:2103 objecttreeparser.cpp:2128
 msgid "Warning:"
 msgstr "সাবধানবাণী:"
 
-#: objecttreeparser.cpp:1988
+#: objecttreeparser.cpp:2105
 #, fuzzy
 msgid "Sender's mail address is not stored in the %1 used for signing."
 msgstr "s মেইল ঠিকানা আছে নয় সঞ্চিত -এ টি ব্যবহৃত জন্য."
 
-#: objecttreeparser.cpp:1991
+#: objecttreeparser.cpp:2108
 msgid "sender: "
 msgstr "প্রেরক:"
 
-#: objecttreeparser.cpp:1994
+#: objecttreeparser.cpp:2111
 msgid "stored: "
 msgstr "সঞ্চিত :"
 
-#: objecttreeparser.cpp:2013
+#: objecttreeparser.cpp:2130
 #, fuzzy
 msgid ""
 "No mail address is stored in the %1 used for signing, so we cannot compare it "
@@ -9839,93 +9971,93 @@ msgstr ""
 "না মেইল ঠিকানা আছে সঞ্চিত -এ টি ব্যবহৃত জন্য তাই আমরা যাবে না তুলনা এটি প্রতি "
 "টি s ঠিকানা."
 
-#: objecttreeparser.cpp:2034
+#: objecttreeparser.cpp:2151
 #, c-format
 msgid "Not enough information to check signature. %1"
 msgstr "স্বাক্ষর %1 যাচাই করার জন্য যথেষ্ট তথ্য নেই।"
 
-#: objecttreeparser.cpp:2051 objecttreeparser.cpp:2132
+#: objecttreeparser.cpp:2168 objecttreeparser.cpp:2249
 msgid "Message was signed with unknown key."
 msgstr "বার্তা অজানা কী (key) ব্যবহার করে স্বাক্ষর করা হয়েছে। "
 
-#: objecttreeparser.cpp:2053 objecttreeparser.cpp:2165
-#: objecttreeparser.cpp:2204
+#: objecttreeparser.cpp:2170 objecttreeparser.cpp:2282
+#: objecttreeparser.cpp:2321
 #, c-format
 msgid "Message was signed by %1."
 msgstr "বার্তা স্বাক্ষর করেছেন %1।"
 
-#: objecttreeparser.cpp:2064 objecttreeparser.cpp:2073
-#: objecttreeparser.cpp:2084
+#: objecttreeparser.cpp:2181 objecttreeparser.cpp:2190
+#: objecttreeparser.cpp:2201
 #, c-format
 msgid "Message was signed with key %1."
 msgstr "বার্তা কী (Key) %1 ব্যবহার করে স্বাক্ষর করা হয়েছে।"
 
-#: objecttreeparser.cpp:2067
+#: objecttreeparser.cpp:2184
 #, fuzzy
 msgid "Message was signed on %1 with key %2."
 msgstr "বার্তা ছিল স্বাক্ষর করা ওপর সঙ্গে কী (Key)."
 
-#: objecttreeparser.cpp:2076
+#: objecttreeparser.cpp:2193
 #, fuzzy
 msgid "Message was signed by %3 on %1 with key %2"
 msgstr "বার্তা ছিল স্বাক্ষর করা দ্বারা ওপর সঙ্গে কী (Key) 2"
 
-#: objecttreeparser.cpp:2087
+#: objecttreeparser.cpp:2204
 msgid "Message was signed by %2 with key %1."
 msgstr "বার্তা স্বাক্ষর করেছেন %2, কী (Key) %1 ব্যবহার করে।"
 
-#: objecttreeparser.cpp:2124
+#: objecttreeparser.cpp:2241
 #, fuzzy
 msgid "Message was signed on %1 with unknown key %2."
 msgstr "বার্তা ছিল স্বাক্ষর করা ওপর সঙ্গে অজানা কী (Key)."
 
-#: objecttreeparser.cpp:2128
+#: objecttreeparser.cpp:2245
 #, c-format
 msgid "Message was signed with unknown key %1."
 msgstr "বার্তাটি অজানা কী %1 দ্বারা স্বাক্ষরিত।"
 
-#: objecttreeparser.cpp:2134
+#: objecttreeparser.cpp:2251
 msgid "The validity of the signature cannot be verified."
 msgstr "স্বাক্ষরটির বৈধতা যাচাই করা যায়নি।"
 
-#: objecttreeparser.cpp:2161 objecttreeparser.cpp:2200
+#: objecttreeparser.cpp:2278 objecttreeparser.cpp:2317
 msgid "Message was signed by %2 (Key ID: %1)."
 msgstr "বার্তাটি %2 দ্বারা স্বাক্ষরিত (কী আই.ডি.: %1)।"
 
-#: objecttreeparser.cpp:2171
+#: objecttreeparser.cpp:2288
 msgid "The signature is valid, but the key's validity is unknown."
 msgstr "স্বাক্ষরটি বৈধ, কিন্তু কী(Key)-টির বৈধতা সম্বন্ধে কিছু জানা নেই।"
 
-#: objecttreeparser.cpp:2175
+#: objecttreeparser.cpp:2292
 msgid "The signature is valid and the key is marginally trusted."
 msgstr "স্বাক্ষরটি বৈধ, এবং কী(Key)-টি সম্ভবত বিশ্বস্ত।"
 
-#: objecttreeparser.cpp:2179
+#: objecttreeparser.cpp:2296
 msgid "The signature is valid and the key is fully trusted."
 msgstr "স্বাক্ষরটি বৈধ, এবং কী(Key)-টি পুরোপুরি বিশ্বস্ত।"
 
-#: objecttreeparser.cpp:2183
+#: objecttreeparser.cpp:2300
 #, fuzzy
 msgid "The signature is valid and the key is ultimately trusted."
 msgstr "টি স্বাক্ষর আছে বৈধ এবং টি কী (Key) আছে."
 
-#: objecttreeparser.cpp:2187
+#: objecttreeparser.cpp:2304
 msgid "The signature is valid, but the key is untrusted."
 msgstr "স্বাক্ষরটি বৈধ, কিন্তু কী (Key) বিশ্বস্ত নয়।"
 
-#: objecttreeparser.cpp:2206
+#: objecttreeparser.cpp:2323
 msgid "Warning: The signature is bad."
 msgstr "সাবধান: স্বাক্ষর ত্রুটিপূর্ণ।"
 
-#: objecttreeparser.cpp:2226
+#: objecttreeparser.cpp:2343
 msgid "End of signed message"
 msgstr "স্বাক্ষর করা বার্তার শেষ"
 
-#: objecttreeparser.cpp:2232
+#: objecttreeparser.cpp:2349
 msgid "End of encrypted message"
 msgstr "এনক্রিপ্ট করা বার্তার শেষ"
 
-#: objecttreeparser.cpp:2239
+#: objecttreeparser.cpp:2356
 msgid "End of encapsulated message"
 msgstr "অভ্যন্তরীন বার্তার শেষ"
 
@@ -12131,13 +12263,13 @@ msgid ""
 "containing non-English characters"
 msgstr "বাঁক এই অপশন ওপর প্রতি make সংযুক্ত নাম ধারণ করে ইংরেজি অক্ষর"
 
-#. i18n: file kmail.kcfg line 266
+#. i18n: file kmail.kcfg line 272
 #: rc.cpp:1313
 #, fuzzy, no-c-format
 msgid "Automatically request &message disposition notifications"
 msgstr "স্বয়ংক্রীয়ভাবে অনুরোধ/আবেদন বার্তা বিজ্ঞপ্তি"
 
-#. i18n: file kmail.kcfg line 267
+#. i18n: file kmail.kcfg line 273
 #: rc.cpp:1316
 #, no-c-format
 msgid ""
@@ -12149,13 +12281,13 @@ msgid ""
 "<em>Request Disposition Notification</em>.</p></qt>"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 271
+#. i18n: file kmail.kcfg line 277
 #: rc.cpp:1319
 #, no-c-format
 msgid "Use recent addresses for autocompletion"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 272
+#. i18n: file kmail.kcfg line 278
 #: rc.cpp:1322
 #, no-c-format
 msgid ""
@@ -12163,13 +12295,13 @@ msgid ""
 "autocompletion list in the composer's address fields."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 293
+#. i18n: file kmail.kcfg line 299
 #: rc.cpp:1325
 #, no-c-format
 msgid "Autosave interval:"
 msgstr "স্বয়ংক্রিয় সংরক্ষণ বিরতি:"
 
-#. i18n: file kmail.kcfg line 294
+#. i18n: file kmail.kcfg line 300
 #: rc.cpp:1328
 #, no-c-format
 msgid ""
@@ -12178,31 +12310,31 @@ msgid ""
 "setting it to the value 0."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 301
+#. i18n: file kmail.kcfg line 307
 #: rc.cpp:1331
 #, fuzzy, no-c-format
 msgid "Replace recognized prefi&x with \"Re:\""
 msgstr "বদল পরিচিত উপপদ সঙ্গে"
 
-#. i18n: file kmail.kcfg line 308
+#. i18n: file kmail.kcfg line 314
 #: rc.cpp:1334
 #, no-c-format
 msgid "Replace recognized prefix with \"&Fwd:\""
 msgstr "পরিচিত উপপদ বদলে \"&Fwd:\" বসাও"
 
-#. i18n: file kmail.kcfg line 312
+#. i18n: file kmail.kcfg line 318
 #: rc.cpp:1337
 #, no-c-format
 msgid "Use smart &quoting"
 msgstr "বুদ্ধি খাটিয়ে &উদ্ধৃতিচিহ্ন লাগাও"
 
-#. i18n: file kmail.kcfg line 317
+#. i18n: file kmail.kcfg line 323
 #: rc.cpp:1340
 #, no-c-format
 msgid "Type of addressee selector"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 319
+#. i18n: file kmail.kcfg line 325
 #: rc.cpp:1343
 #, no-c-format
 msgid ""
@@ -12210,13 +12342,13 @@ msgid ""
 "        CC and BCC."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 327
+#. i18n: file kmail.kcfg line 333
 #: rc.cpp:1347
 #, no-c-format
 msgid "Type of recipients editor"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 329
+#. i18n: file kmail.kcfg line 335
 #: rc.cpp:1350
 #, no-c-format
 msgid ""
@@ -12224,13 +12356,13 @@ msgid ""
 "        CC and BCC."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 344
+#. i18n: file kmail.kcfg line 350
 #: rc.cpp:1354
 #, fuzzy, no-c-format
 msgid "Maximum number of recipient editor lines."
 msgstr "সংখ্যা/নম্বর -র সংযোগ প্রতি হোস্ট"
 
-#. i18n: file kmail.kcfg line 383
+#. i18n: file kmail.kcfg line 389
 #: rc.cpp:1358
 #, no-c-format
 msgid ""
@@ -12241,7 +12373,7 @@ msgid ""
 "As a default the encoding configured for the whole system is used."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 389
+#. i18n: file kmail.kcfg line 395
 #: rc.cpp:1362
 #, no-c-format
 msgid ""
@@ -12249,7 +12381,7 @@ msgid ""
 "encoding for all emails, regardless of what they specify themselves."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 395
+#. i18n: file kmail.kcfg line 401
 #: rc.cpp:1368
 #, no-c-format
 msgid ""
@@ -12257,7 +12389,7 @@ msgid ""
 "replaced by emoticons (small pictures)."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 400
+#. i18n: file kmail.kcfg line 406
 #: rc.cpp:1374
 #, no-c-format
 msgid ""
@@ -12265,19 +12397,19 @@ msgid ""
 "levels of quoted text."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 403
+#. i18n: file kmail.kcfg line 409
 #: rc.cpp:1377
 #, no-c-format
 msgid "Automatic collapse level:"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 411
+#. i18n: file kmail.kcfg line 417
 #: rc.cpp:1380
 #, no-c-format
 msgid "Reduce font size for quoted text"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 412
+#. i18n: file kmail.kcfg line 418
 #: rc.cpp:1383
 #, no-c-format
 msgid "Enable this option to show quoted text with a smaller font."
