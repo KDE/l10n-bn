@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kig\n"
-"POT-Creation-Date: 2005-06-21 01:36+0200\n"
+"POT-Creation-Date: 2005-07-24 01:40+0200\n"
 "PO-Revision-Date: 2004-07-11 19:26-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -942,11 +942,18 @@ msgstr "&এক্সফিগ (XFig) ফাইলে রূপান্তর �
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "\"%1\" ফাইলটি ইতিমধ্যেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?"
 
-#: filters/exporter.cc:530 filters/exporttolatexdialog.cc:68
-#: filters/exporttosvgdialog.cc:67 kig/kig_part.cpp:619
-#: modes/typesdialog.cpp:175
+#: filters/exporter.cc:530 filters/exporttoimagedialog.cc:80
+#: filters/exporttolatexdialog.cc:68 filters/exporttosvgdialog.cc:67
+#: kig/kig_part.cpp:619 modes/typesdialog.cpp:175
 #, fuzzy
 msgid "Overwrite File?"
+msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
+
+#: filters/exporter.cc:530 filters/exporttoimagedialog.cc:80
+#: filters/exporttolatexdialog.cc:68 filters/exporttosvgdialog.cc:67
+#: kig/kig_part.cpp:619 modes/typesdialog.cpp:175
+#, fuzzy
+msgid "Overwrite"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
 
 #: filters/exporter.cc:536 filters/exporttoimagedialog.cc:87
@@ -962,10 +969,6 @@ msgstr ""
 #: filters/exporttosvgdialog.cc:59
 msgid "Please enter a file name."
 msgstr "ফাইলের নাম লিখুন।"
-
-#: filters/exporttoimagedialog.cc:80
-msgid "Overwrite file?"
-msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
 
 #: filters/exporttoimagedialog.cc:96
 msgid "Sorry, this file format is not supported."
@@ -4704,6 +4707,10 @@ msgid ""
 msgstr ""
 "কিগ তার নিজস্ব ফরম্যাট ব্যতীত অপর কোন ফরম্যাটে ফাইল সংরক্ষণ করতে পারে না।"
 
+#: kig/kig_part.cpp:434
+msgid "Save Kig Format"
+msgstr ""
+
 #: kig/kig_part.cpp:607
 msgid ""
 "*.kig|Kig Documents (*.kig)\n"
@@ -4896,6 +4903,9 @@ msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
 msgstr "progga@BengaLinux.Org"
+
+#~ msgid "Overwrite file?"
+#~ msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
 
 #, fuzzy
 #~ msgid "Here you should insert the coordinate of the top-left corner of the rectangle you want to be shown in the window."
