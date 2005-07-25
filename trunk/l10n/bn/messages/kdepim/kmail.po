@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2005-07-24 01:38+0200\n"
+"POT-Creation-Date: 2005-07-25 01:38+0200\n"
 "PO-Revision-Date: 2004-10-02 12:15-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -97,7 +97,7 @@ msgstr "'ট্রান্সমিশন সম্পূর্ণ' স্ট�
 msgid "multiple encryption keys per address"
 msgstr "প্রতি ঠিকানায় একাধিক এনক্রিপশন কী"
 
-#: aboutdata.cpp:211 kmreaderwin.cpp:1285 kmstartup.cpp:144
+#: aboutdata.cpp:211 kmreaderwin.cpp:1287 kmstartup.cpp:144
 #: mailinglistpropertiesdialog.cpp:97
 msgid "KMail"
 msgstr "কে-মেইল"
@@ -543,7 +543,7 @@ msgstr "<কিছু না>"
 
 #: accountdialog.cpp:1374 accountdialog.cpp:1381 kmfoldercachedimap.cpp:187
 #: kmfoldercachedimap.cpp:1751 kmfolderimap.cpp:179 kmfolderimap.cpp:868
-#: kmkernel.cpp:1217 subscriptiondialog.cpp:166
+#: kmkernel.cpp:1246 subscriptiondialog.cpp:166
 msgid "inbox"
 msgstr "ইনবক্স"
 
@@ -1230,7 +1230,7 @@ msgstr "ডিফল্ট হিসেবে নির্দিষ্ট কর
 msgid "Common Options"
 msgstr "সাধারণ অপশন"
 
-#. i18n: file kmail.kcfg line 268
+#. i18n: file kmail.kcfg line 275
 #: configuredialog.cpp:654 rc.cpp:1328
 #, no-c-format
 msgid "Confirm &before send"
@@ -1735,7 +1735,7 @@ msgstr "এইচ-টি-এম-এল স্ট্যাটা&স বার �
 msgid "Show s&pam status in fancy headers"
 msgstr "বার্তার সব হেডার দেখাও"
 
-#. i18n: file kmail.kcfg line 400
+#. i18n: file kmail.kcfg line 407
 #: configuredialog.cpp:2148 rc.cpp:1383
 #, no-c-format
 msgid "Replace smileys by emoticons"
@@ -1745,7 +1745,7 @@ msgstr ""
 msgid "Use smaller font for quoted text"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 405
+#. i18n: file kmail.kcfg line 412
 #: configuredialog.cpp:2156 rc.cpp:1389
 #, no-c-format
 msgid "Show expand/collapse quote marks"
@@ -1765,7 +1765,7 @@ msgstr "স্বয়ংক্রীয়"
 msgid "&Override character encoding:"
 msgstr "পরিবর্তন এনকোডিং"
 
-#. i18n: file kmail.kcfg line 73
+#. i18n: file kmail.kcfg line 80
 #: configuredialog.cpp:2361 rc.cpp:1226
 #, no-c-format
 msgid "Enable system tray icon"
@@ -1961,7 +1961,7 @@ msgstr "না&ম:"
 msgid "&Value:"
 msgstr "মা&ন:"
 
-#. i18n: file kmail.kcfg line 245
+#. i18n: file kmail.kcfg line 252
 #: configuredialog.cpp:3297 rc.cpp:1322
 #, fuzzy, no-c-format
 msgid "Outlook-compatible attachment naming"
@@ -2487,7 +2487,7 @@ msgid ""
 "invitations"
 msgstr "বাঁক এই অপশন ওপর -এ ধারা,ক্রম প্রতি make আপনার প্রতি"
 
-#. i18n: file kmail.kcfg line 130
+#. i18n: file kmail.kcfg line 137
 #: configuredialog.cpp:4596 rc.cpp:1260
 #, fuzzy, no-c-format
 msgid "Automatic invitation sending"
@@ -2812,7 +2812,7 @@ msgid ""
 msgstr ""
 
 #: filterlogdlg.cpp:262 kmcommands.cpp:2429 kmcommands.cpp:2449
-#: kmmainwidget.cpp:1530 kmmainwidget.cpp:1547 urlhandlermanager.cpp:430
+#: kmmainwidget.cpp:1560 kmmainwidget.cpp:1577 urlhandlermanager.cpp:430
 msgid "KMail Error"
 msgstr "কে-মেইল সমস্যা"
 
@@ -3470,7 +3470,7 @@ msgstr ""
 "টি স্বনির্বাচিত প্রেরিত মেইল ফোল্ডার জন্য করে নয় আছে আর টি ডিফল্ট প্রেরিত মেইল "
 "ফোল্ডার ব্যবহৃত."
 
-#: identitydialog.cpp:579 kmcomposewin.cpp:3802
+#: identitydialog.cpp:579 kmcomposewin.cpp:3810
 #, fuzzy
 msgid ""
 "The custom drafts folder for identity \"%1\" does not exist (anymore); "
@@ -4225,7 +4225,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "KMail will now create the required groupware folders as subfolders of %1; if "
-"you do not want this, press \"No\", and the IMAP resource will be disabled"
+"you do not want this, cancel and the IMAP resource will be disabled"
 msgstr ""
 "এখন তৈরি টি প্রয়োজনীয় জন্য টি রিসোর্স   -র যদি আপনি নয় চাই এই চাপুন না এবং টি "
 "রিসোর্স নিষ্ক্রিয়"
@@ -4243,8 +4243,7 @@ msgstr ""
 msgid ""
 "<qt>KMail found the following groupware folders in %1 and needs to perform the "
 "following operations: %2"
-"<br>If you do not want this, press \"No\", and the IMAP resource will be "
-"disabled"
+"<br>If you do not want this, cancel and the IMAP resource will be disabled"
 msgstr ""
 "এখন তৈরি টি প্রয়োজনীয় জন্য টি রিসোর্স   -র যদি আপনি নয় চাই এই চাপুন না এবং টি "
 "রিসোর্স নিষ্ক্রিয়"
@@ -4356,11 +4355,11 @@ msgstr ""
 "<qt><b>%1</b> নামক ফাইল আগে থেকেই আছে।"
 "<br>আপনি কি সেটি বদলাতে চান?</qt>"
 
-#: kmcommands.cpp:623 kmcommands.cpp:884 kmkernel.cpp:1765
+#: kmcommands.cpp:623 kmcommands.cpp:884 kmkernel.cpp:1794
 msgid "Save to File"
 msgstr "ফাইলে সংরক্ষণ করো"
 
-#: kmcommands.cpp:623 kmcommands.cpp:884 kmkernel.cpp:1765
+#: kmcommands.cpp:623 kmcommands.cpp:884 kmkernel.cpp:1794
 msgid "&Replace"
 msgstr "&বদলাও"
 
@@ -4369,7 +4368,7 @@ msgstr "&বদলাও"
 msgid "Message as Plain Text"
 msgstr "বার্তা   সাধারন লেখা/টেক্সট"
 
-#: kmcommands.cpp:883 kmkernel.cpp:1764
+#: kmcommands.cpp:883 kmkernel.cpp:1793
 msgid ""
 "File %1 exists.\n"
 "Do you want to replace it?"
@@ -4396,6 +4395,16 @@ msgstr "টি ফাইল ধারণ করে একাধিক বার�
 #, fuzzy
 msgid "Forward selected messages as a MIME digest?"
 msgstr "ফরওয়ার্ড নির্বাচিত বার্তা   একটি?"
+
+#: kmcommands.cpp:1146
+#, fuzzy
+msgid "Send Digest"
+msgstr "পাঠাও"
+
+#: kmcommands.cpp:1146
+#, fuzzy
+msgid "Send"
+msgstr "প্রের&ণ"
 
 #: kmcommands.cpp:1160
 #, fuzzy
@@ -4436,6 +4445,11 @@ msgstr "ইউ-আর-এল খোলা হচ্ছে..."
 #: kmcommands.cpp:2134
 msgid "<qt>Do you really want to execute <b>%1</b>?</qt>"
 msgstr "<qt>আপনি কি সত্যিই <b>%1</b> চালাতে চান?</qt>"
+
+#: kmcommands.cpp:2135
+#, fuzzy
+msgid "Execute"
+msgstr "কমান্ড"
 
 #: kmcommands.cpp:2216
 msgid "Found no attachments to save."
@@ -4484,12 +4498,27 @@ msgstr "টি অংশ -র টি বার্তা আছে এনক্�
 msgid "KMail Question"
 msgstr "কে-মেইল প্রশ্ন"
 
+#: kmcommands.cpp:2342
+#, fuzzy
+msgid "Keep Encryption"
+msgstr "এনক্রিপশন"
+
+#: kmcommands.cpp:2342 kmcommands.cpp:2351
+#, fuzzy
+msgid "Do Not Keep"
+msgstr "নয় এনক্রিপ্ট"
+
 #: kmcommands.cpp:2349
 #, fuzzy
 msgid ""
 "The part %1 of the message is signed. Do you want to keep the signature when "
 "saving?"
 msgstr "টি অংশ -র টি বার্তা আছে স্বাক্ষর করা আপনি চাই প্রতি টি স্বাক্ষর যখন?"
+
+#: kmcommands.cpp:2351
+#, fuzzy
+msgid "Keep Signature"
+msgstr "স্বাক্ষর"
 
 #: kmcommands.cpp:2426
 #, fuzzy
@@ -4527,7 +4556,7 @@ msgstr ""
 "\n"
 " এটি আছে নয় সম্ভব/সম্ভাব্য প্রতি নির্ধারণ কে প্রতি আড্ডা সঙ্গে."
 
-#: kmcommands.cpp:2892 kmcomposewin.cpp:4570 objecttreeparser.cpp:1619
+#: kmcommands.cpp:2892 kmcomposewin.cpp:4578 objecttreeparser.cpp:1619
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please report "
 "this bug."
@@ -4535,19 +4564,19 @@ msgstr ""
 
 #: kmcommands.cpp:2894 kmcommands.cpp:2899 kmcommands.cpp:2908
 #: kmcommands.cpp:2917 kmcommands.cpp:2935 kmcommands.cpp:2946
-#: kmcommands.cpp:3003 kmcomposewin.cpp:4572 kmcomposewin.cpp:4577
-#: kmcomposewin.cpp:4586 messagecomposer.cpp:521 messagecomposer.cpp:529
+#: kmcommands.cpp:3003 kmcomposewin.cpp:4580 kmcomposewin.cpp:4585
+#: kmcomposewin.cpp:4594 messagecomposer.cpp:521 messagecomposer.cpp:529
 #: messagecomposer.cpp:543 objecttreeparser.cpp:1625
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcommands.cpp:2905 kmcomposewin.cpp:4583 objecttreeparser.cpp:1631
+#: kmcommands.cpp:2905 kmcomposewin.cpp:4591 objecttreeparser.cpp:1631
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" function "
 "did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcommands.cpp:2914 kmcomposewin.cpp:4592 objecttreeparser.cpp:1639
+#: kmcommands.cpp:2914 kmcomposewin.cpp:4600 objecttreeparser.cpp:1639
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in the "
 "Chiasmus configuration."
@@ -4609,7 +4638,7 @@ msgstr "মাপ"
 msgid "Encoding"
 msgstr "এনকোডিং"
 
-#: kmcomposewin.cpp:322
+#: kmcomposewin.cpp:322 kmcomposewin.cpp:2992
 #, fuzzy
 msgid "Compress"
 msgstr "রচনাক্ষেত্র"
@@ -4741,7 +4770,7 @@ msgstr "সেন্ড-মেই&ল"
 msgid "&Send Mail Via"
 msgstr "সেন্ড-মেই&ল"
 
-#: kmcomposewin.cpp:1101 kmcomposewin.cpp:1110 kmcomposewin.cpp:3913
+#: kmcomposewin.cpp:1101 kmcomposewin.cpp:1110 kmcomposewin.cpp:3921
 #: redirectdialog.cpp:83
 msgid "Send &Later"
 msgstr "&পরে পাঠাও"
@@ -4808,7 +4837,7 @@ msgstr "উদ্ধৃতিচিহ্ন &সরিয়ে ফেলো"
 msgid "Cl&ean Spaces"
 msgstr "পরিষ্কার"
 
-#. i18n: file kmail.kcfg line 227
+#. i18n: file kmail.kcfg line 234
 #: kmcomposewin.cpp:1216 kmreaderwin.cpp:668 rc.cpp:1318
 #, no-c-format
 msgid "Use Fi&xed Font"
@@ -4942,37 +4971,37 @@ msgstr "বার্তা স্বাক্ষ&র করো"
 msgid "&Cryptographic Message Format"
 msgstr "বার্তা ফর্ম্যাট"
 
-#: kmcomposewin.cpp:1395 kmcomposewin.cpp:4414
+#: kmcomposewin.cpp:1395 kmcomposewin.cpp:4422
 #, fuzzy
 msgid "Standard"
 msgstr "আদর্শ/স্ট্যাণ্ডার্ড"
 
-#: kmcomposewin.cpp:1396 kmcomposewin.cpp:4416
+#: kmcomposewin.cpp:1396 kmcomposewin.cpp:4424
 #, fuzzy
 msgid "Bulleted List (Disc)"
 msgstr "তালিকা ডিস্ক"
 
-#: kmcomposewin.cpp:1397 kmcomposewin.cpp:4418
+#: kmcomposewin.cpp:1397 kmcomposewin.cpp:4426
 #, fuzzy
 msgid "Bulleted List (Circle)"
 msgstr "তালিকা"
 
-#: kmcomposewin.cpp:1398 kmcomposewin.cpp:4420
+#: kmcomposewin.cpp:1398 kmcomposewin.cpp:4428
 #, fuzzy
 msgid "Bulleted List (Square)"
 msgstr "তালিকা চৌকো"
 
-#: kmcomposewin.cpp:1399 kmcomposewin.cpp:4422
+#: kmcomposewin.cpp:1399 kmcomposewin.cpp:4430
 #, fuzzy
 msgid "Ordered List (Decimal)"
 msgstr "ক্রমানুসারে তালিকা দশমিক"
 
-#: kmcomposewin.cpp:1400 kmcomposewin.cpp:4424
+#: kmcomposewin.cpp:1400 kmcomposewin.cpp:4432
 #, fuzzy
 msgid "Ordered List (Alpha lower)"
 msgstr "ক্রমানুসারে তালিকা নীচে নামাও"
 
-#: kmcomposewin.cpp:1401 kmcomposewin.cpp:4426
+#: kmcomposewin.cpp:1401 kmcomposewin.cpp:4434
 #, fuzzy
 msgid "Ordered List (Alpha upper)"
 msgstr "ক্রমানুসারে তালিকা উর্ধ্বস্থ"
@@ -5128,7 +5157,7 @@ msgstr "ওপেন-পি-জি-পি পাবলিক কী (Key) সং
 msgid "Select the public key which should be attached."
 msgstr "যে পাবলিক কী(Key)-টি সংযুক্ত করা হবে সেটি বেছে নিন।"
 
-#: kmcomposewin.cpp:2881 kmreaderwin.cpp:1866
+#: kmcomposewin.cpp:2881 kmreaderwin.cpp:1868
 #, fuzzy
 msgid ""
 "_: to open\n"
@@ -5156,6 +5185,11 @@ msgid ""
 "The compressed file is larger than the original. Do you want to keep the "
 "original one?"
 msgstr "টি অংশ -র টি বার্তা আছে স্বাক্ষর করা আপনি চাই প্রতি টি স্বাক্ষর যখন?"
+
+#: kmcomposewin.cpp:2992
+#, fuzzy
+msgid "Keep"
+msgstr "বী&প"
 
 #: kmcomposewin.cpp:3058 kmcomposewin.cpp:3066
 #, fuzzy
@@ -5207,7 +5241,17 @@ msgstr ""
 msgid "Undefined Signing Key"
 msgstr "অনির্দিষ্ট স্বাক্ষর কী (Key)"
 
-#: kmcomposewin.cpp:3664
+#: kmcomposewin.cpp:3654
+msgid ""
+"KMail is currently in offline mode,your messages will be kept in the outbox "
+"until you go online."
+msgstr ""
+
+#: kmcomposewin.cpp:3656 kmmainwidget.cpp:784 kmmainwidget.cpp:806
+msgid "Online/Offline"
+msgstr ""
+
+#: kmcomposewin.cpp:3672
 #, fuzzy
 msgid ""
 "You must enter your email address in the From: field. You should also set your "
@@ -5218,60 +5262,60 @@ msgstr ""
 "সেট/সমষ্টি/নির্ধারণ আপনার ই-মেইল ঠিকানা জন্য সমস্ত তাই ঐ আপনি নয় প্রতি প্রবেশ "
 "করুন এটি জন্য প্রত্যেক বার্তা."
 
-#: kmcomposewin.cpp:3674
+#: kmcomposewin.cpp:3682
 #, fuzzy
 msgid ""
 "You must specify at least one receiver,either in the To: field or as CC or as "
 "BCC."
 msgstr "আপনি অবশ্যই উল্লেখ করুন -তে অন্তত এক হয় -এ টি প্রতি অথবা   অথবা  ."
 
-#: kmcomposewin.cpp:3697
+#: kmcomposewin.cpp:3705
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "আপনি বার্তার কোন বিষয় উল্লেখ করেননি। তা সত্ত্বেও বার্তাটি পাঠাব?"
 
-#: kmcomposewin.cpp:3699
+#: kmcomposewin.cpp:3707
 msgid "No Subject Specified"
 msgstr "বিষয় উল্লিখিত হয়নি"
 
-#: kmcomposewin.cpp:3700
+#: kmcomposewin.cpp:3708
 msgid "S&end as Is"
 msgstr "যে&মন আছে পাঠাও"
 
-#: kmcomposewin.cpp:3701
+#: kmcomposewin.cpp:3709
 msgid "&Specify the Subject"
 msgstr "বিষয় &উল্লেখ করব"
 
-#: kmcomposewin.cpp:3739
+#: kmcomposewin.cpp:3747
 #, fuzzy
 msgid "&Keep markup, do not sign/encrypt"
 msgstr "মার্কআপ নয় এনক্রিপ্ট"
 
-#: kmcomposewin.cpp:3740
+#: kmcomposewin.cpp:3748
 #, fuzzy
 msgid "&Keep markup, do not encrypt"
 msgstr "মার্কআপ নয় এনক্রিপ্ট"
 
-#: kmcomposewin.cpp:3741
+#: kmcomposewin.cpp:3749
 #, fuzzy
 msgid "&Keep markup, do not sign"
 msgstr "মার্কআপ নয়"
 
-#: kmcomposewin.cpp:3743
+#: kmcomposewin.cpp:3751
 #, fuzzy
 msgid "Sign/Encrypt (delete markup)"
 msgstr "এনক্রিপ্ট মুছে ফেলা মার্কআপ"
 
-#: kmcomposewin.cpp:3744
+#: kmcomposewin.cpp:3752
 #, fuzzy
 msgid "Encrypt (delete markup)"
 msgstr "এনক্রিপ্ট মুছে ফেলা মার্কআপ"
 
-#: kmcomposewin.cpp:3745
+#: kmcomposewin.cpp:3753
 #, fuzzy
 msgid "Sign (delete markup)"
 msgstr "মুছে ফেলা মার্কআপ"
 
-#: kmcomposewin.cpp:3747
+#: kmcomposewin.cpp:3755
 #, fuzzy
 msgid ""
 "<qt>"
@@ -5282,63 +5326,63 @@ msgstr ""
 "<p> এনক্রিপ্ট করছে -র এইচ-টি-এম-এল বার্তা আছে নয় সম্ভব/সম্ভাব্য</p>"
 "<p> আপনি চাই প্রতি মুছে ফেলা আপনার মার্কআপ</p></qt>"
 
-#: kmcomposewin.cpp:3749
+#: kmcomposewin.cpp:3757
 #, fuzzy
 msgid "Sign/Encrypt Message?"
 msgstr "এনক্রিপ্ট বার্তা?"
 
-#: kmcomposewin.cpp:3910
+#: kmcomposewin.cpp:3918
 msgid "About to send email..."
 msgstr "ই-মেইল পাঠাতে চলেছি..."
 
-#: kmcomposewin.cpp:3911
+#: kmcomposewin.cpp:3919
 #, fuzzy
 msgid "Send Confirmation"
 msgstr "পাঠানোর অনুমোদন"
 
-#: kmcomposewin.cpp:3912 redirectdialog.cpp:82
+#: kmcomposewin.cpp:3920 redirectdialog.cpp:82
 msgid "&Send Now"
 msgstr "&এখন পাঠাও"
 
-#: kmcomposewin.cpp:4062
+#: kmcomposewin.cpp:4070
 msgid " Spell check canceled."
 msgstr " বানান পরীক্ষা বাতিল"
 
-#: kmcomposewin.cpp:4065
+#: kmcomposewin.cpp:4073
 msgid " Spell check stopped."
 msgstr " বানান পরীক্ষা স্থগিত"
 
-#: kmcomposewin.cpp:4068
+#: kmcomposewin.cpp:4076
 msgid " Spell check complete."
 msgstr " বানান পরীক্ষা সম্পূর্ণ"
 
-#: kmcomposewin.cpp:4251 kmcomposewin.cpp:4258
+#: kmcomposewin.cpp:4259 kmcomposewin.cpp:4266
 msgid "Spellchecker"
 msgstr "বানান পরীক্ষক"
 
-#: kmcomposewin.cpp:4557
+#: kmcomposewin.cpp:4565
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's Security "
 "page."
 msgstr ""
 
-#: kmcomposewin.cpp:4561
+#: kmcomposewin.cpp:4569
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:4564
+#: kmcomposewin.cpp:4572
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:4595
+#: kmcomposewin.cpp:4603
 #, fuzzy
 msgid "No Chiasmus Keys Found"
 msgstr "কোন স্বাক্ষর পাওয়া যায়নি"
 
-#: kmcomposewin.cpp:4599
+#: kmcomposewin.cpp:4607
 #, fuzzy
 msgid "Chiasmus Encryption Key Selection"
 msgstr "কী (Key) নির্বাচন"
@@ -6010,12 +6054,12 @@ msgstr ""
 "আপনি নিশ্চিত আপনি চাই প্রতি নতুন করে টি ক্যাশ -র টি ফোল্ডার এবং সমস্ত এটি s "
 "সরাও সমস্ত আপনি হয়ে গেছে স্থানীয়ভাবে প্রতি আপনার"
 
-#: kmfoldercachedimap.cpp:518 kmmainwidget.cpp:1133
+#: kmfoldercachedimap.cpp:518 kmmainwidget.cpp:1163
 #, fuzzy
 msgid "Refresh IMAP Cache"
 msgstr "নতুন করে ক্যাশ"
 
-#: kmfoldercachedimap.cpp:519 kmmainwidget.cpp:1133
+#: kmfoldercachedimap.cpp:519 kmmainwidget.cpp:1163
 msgid "&Refresh"
 msgstr "আবার &পড়ো"
 
@@ -6031,6 +6075,10 @@ msgid ""
 msgstr ""
 "ফোল্ডার আছে নয় -এ অবস্থা অবস্থা ছিল আপনি চাই প্রতি পূর্বাবস্থায় ফেরাও/রিসেট এটি "
 "প্রতি অবস্থা এবং?"
+
+#: kmfoldercachedimap.cpp:534
+msgid "Reset && Sync"
+msgstr ""
 
 #: kmfoldercachedimap.cpp:551
 msgid "Synchronization skipped"
@@ -6139,6 +6187,11 @@ msgid ""
 "messages to you, or move them out of this folder.</p> "
 "<p>Do you want to move those messages to another folder now?</p>"
 msgstr ""
+
+#: kmfoldercachedimap.cpp:1124 kmkernel.cpp:1656
+#, fuzzy
+msgid "Do Not Move"
+msgstr "নয়"
 
 #: kmfoldercachedimap.cpp:1126
 #, fuzzy
@@ -6433,6 +6486,15 @@ msgstr ""
 "ফোল্ডার কিন্তু কিছু তথ্য সহ অবস্থা হয়তো হারানো আপনি ইচ্ছা প্রতি আপনার সূচী "
 "ফাইল?"
 
+#: kmfolderindex.cpp:337
+#, fuzzy
+msgid "Downgrade"
+msgstr "নীচে"
+
+#: kmfolderindex.cpp:337
+msgid "Do Not Downgrade"
+msgstr ""
+
 #: kmfoldermaildir.cpp:86
 #, fuzzy
 msgid "Error opening %1; this folder is missing."
@@ -6549,12 +6611,12 @@ msgstr "ফোল্ডারে বার্তা যোগ করা যা�
 msgid "Are you sure you want to expire old messages?"
 msgstr "আপনি নিশ্চিত আপনি চাই প্রতি পুরনো বার্তা?"
 
-#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1147
+#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1177
 #, fuzzy
 msgid "Expire Old Messages?"
 msgstr "পুরনো বার্তা?"
 
-#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1147
+#: kmfoldermgr.cpp:63 kmmainwidget.cpp:1177
 msgid "Expire"
 msgstr ""
 
@@ -6566,7 +6628,7 @@ msgstr ""
 "'%1' একটি ফোল্ডার বলে মনে হচ্ছে না।\n"
 "অনুগ্রহ করে ফাইলটি অন্য কোথাও সরিয়ে নিন।"
 
-#: kmfoldermgr.cpp:147 kmkernel.cpp:1167
+#: kmfoldermgr.cpp:147 kmkernel.cpp:1196
 #, fuzzy
 msgid ""
 "The permissions of the folder '%1' are incorrect;\n"
@@ -6575,7 +6637,7 @@ msgstr ""
 "টি অনুমতি -র টি ফোল্ডার বেঠিক make নিশ্চিত ঐ আপনি পারে দেখা/প্রদর্শন/ভিউ এবং "
 "পরিবর্তন টি -র এই ফোল্ডার."
 
-#: kmfoldermgr.cpp:157 kmkernel.cpp:1159
+#: kmfoldermgr.cpp:157 kmkernel.cpp:1188
 #, fuzzy
 msgid ""
 "KMail could not create folder '%1';\n"
@@ -6584,7 +6646,7 @@ msgstr ""
 "পারে নয় তৈরি ফোল্ডার make নিশ্চিত ঐ আপনি পারে দেখা/প্রদর্শন/ভিউ এবং পরিবর্তন টি "
 "-র টি ফোল্ডার."
 
-#: kmfoldermgr.cpp:302 kmkernel.cpp:1438
+#: kmfoldermgr.cpp:302 kmkernel.cpp:1467
 msgid ""
 "Cannot create file `%1' in %2.\n"
 "KMail cannot start without it."
@@ -6626,14 +6688,24 @@ msgid "<qt>Go to the next unread message in folder <b>%1</b>?</qt>"
 msgstr "<qt>ফোল্ডার <b>%1</b>-র পরবর্তী অপঠিত বার্তায় যাব?</qt>"
 
 #: kmfoldertree.cpp:827
-msgid "Go to the Next Unread Message"
+#, fuzzy
+msgid "Go to Next Unread Message"
 msgstr "পরবর্তী অপঠিত বার্তায় যাও"
 
-#: kmfoldertree.cpp:982 kmmainwidget.cpp:2368
+#: kmfoldertree.cpp:828
+#, fuzzy
+msgid "Go To"
+msgstr "কপি পাঠা&ও"
+
+#: kmfoldertree.cpp:828
+msgid "Do Not Go To"
+msgstr ""
+
+#: kmfoldertree.cpp:982 kmmainwidget.cpp:2411
 msgid "&New Folder..."
 msgstr "&নতুন ফোল্ডার..."
 
-#: kmfoldertree.cpp:993 kmmainwidget.cpp:2272
+#: kmfoldertree.cpp:993 kmmainwidget.cpp:2312
 msgid "Check &Mail"
 msgstr "মেইল &পরীক্ষা করো"
 
@@ -6651,12 +6723,12 @@ msgstr ""
 msgid "Refresh Folder List"
 msgstr "নতুন করে ফোল্ডার তালিকা"
 
-#: kmfoldertree.cpp:1051 kmmainwidget.cpp:3397
+#: kmfoldertree.cpp:1051 kmmainwidget.cpp:3444
 #, fuzzy
 msgid "&Troubleshoot IMAP Cache..."
 msgstr "ক্যাশ."
 
-#: kmfoldertree.cpp:1064 kmmainwidget.cpp:2378
+#: kmfoldertree.cpp:1064 kmmainwidget.cpp:2421
 msgid "&Assign Shortcut..."
 msgstr ""
 
@@ -6847,12 +6919,12 @@ msgstr "চলন্ত বার্তা বাতিল করা."
 msgid "Moving messages canceled."
 msgstr "চলন্ত বার্তা বাতিল করা."
 
-#: kmheaders.cpp:2276 kmmainwidget.cpp:2649 kmreadermainwin.cpp:364
+#: kmheaders.cpp:2276 kmmainwidget.cpp:2692 kmreadermainwin.cpp:364
 #: searchwindow.cpp:738
 msgid "&Copy To"
 msgstr "কপি পাঠা&ও"
 
-#: kmheaders.cpp:2279 kmheaders.cpp:2285 kmmainwidget.cpp:2646
+#: kmheaders.cpp:2279 kmheaders.cpp:2285 kmmainwidget.cpp:2689
 #: searchwindow.cpp:739
 msgid "&Move To"
 msgstr "&সরিয়ে নিয়ে যাও"
@@ -6875,53 +6947,53 @@ msgstr "স্বাক্ষর অনুরোধ/আবেদন"
 msgid "Please create a certificate from attachment and return to sender."
 msgstr "অনুগ্রহ করে তৈরি একটি থেকে সংযুক্ত এবং ফেরত প্রতি."
 
-#: kmkernel.cpp:1222
+#: kmkernel.cpp:1251
 #, fuzzy
 msgid "You do not have read/write permission to your inbox folder."
 msgstr "আপনি নয় পড়া/পড়ো লেখো অনুমতি প্রতি আপনার ফোল্ডার."
 
-#: kmkernel.cpp:1230
+#: kmkernel.cpp:1259
 msgid "outbox"
 msgstr "আউটবক্স"
 
-#: kmkernel.cpp:1232
+#: kmkernel.cpp:1261
 #, fuzzy
 msgid "You do not have read/write permission to your outbox folder."
 msgstr "আপনি নয় পড়া/পড়ো লেখো অনুমতি প্রতি আপনার ফোল্ডার."
 
-#: kmkernel.cpp:1249
+#: kmkernel.cpp:1278
 msgid "sent-mail"
 msgstr "প্রেরিত-মেইল"
 
-#: kmkernel.cpp:1251
+#: kmkernel.cpp:1280
 #, fuzzy
 msgid "You do not have read/write permission to your sent-mail folder."
 msgstr "আপনি নয় পড়া/পড়ো লেখো অনুমতি প্রতি আপনার প্রেরিত মেইল ফোল্ডার."
 
-#: kmkernel.cpp:1258
+#: kmkernel.cpp:1287
 msgid "trash"
 msgstr "আবর্জনা"
 
-#: kmkernel.cpp:1260
+#: kmkernel.cpp:1289
 #, fuzzy
 msgid "You do not have read/write permission to your trash folder."
 msgstr "আপনি নয় পড়া/পড়ো লেখো অনুমতি প্রতি আপনার আবর্জনা ফোল্ডার."
 
-#: kmkernel.cpp:1267
+#: kmkernel.cpp:1296
 msgid "drafts"
 msgstr "খসড়া"
 
-#: kmkernel.cpp:1269
+#: kmkernel.cpp:1298
 #, fuzzy
 msgid "You do not have read/write permission to your drafts folder."
 msgstr "আপনি নয় পড়া/পড়ো লেখো অনুমতি প্রতি আপনার ফোল্ডার."
 
-#: kmkernel.cpp:1309 searchwindow.cpp:206 searchwindow.cpp:419
+#: kmkernel.cpp:1338 searchwindow.cpp:206 searchwindow.cpp:419
 #: searchwindow.cpp:563
 msgid "Last Search"
 msgstr "শেষ সন্ধান"
 
-#: kmkernel.cpp:1602
+#: kmkernel.cpp:1631
 msgid ""
 "_: %1-%3 is the application name, %4-%7 are folder path\n"
 "<qt>The <i>%4</i> folder exists. %1 now uses the <i>%5</i> "
@@ -6931,7 +7003,7 @@ msgid ""
 "<p><strong>Would you like %3 to move the mail files now?</strong></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1615
+#: kmkernel.cpp:1644
 msgid ""
 "_: %1-%3 is the application name, %4-%6 are folder path\n"
 "<qt>The <i>%4</i> folder exists. %1 now uses the <i>%5</i> "
@@ -6940,16 +7012,16 @@ msgid ""
 "<p><strong>Would you like %3 to move the mail files now?</strong></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1624
+#: kmkernel.cpp:1653
 msgid "Migrate Mail Files?"
 msgstr ""
 
-#: kmkernel.cpp:1839
+#: kmkernel.cpp:1868
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr ""
 "কে-মেইল একটি মারাত্মক সমস্যার সম্মুখীন হয়েছে এবং এবার বিনা বাক্যব্যয়ে থেমে যাবে"
 
-#: kmkernel.cpp:1842
+#: kmkernel.cpp:1871
 #, c-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -6961,11 +7033,11 @@ msgstr ""
 "যে সমস্যাটি ঘটেছে সেটি হল:\n"
 "%1"
 
-#: kmkernel.cpp:1955 kmmainwidget.cpp:971
+#: kmkernel.cpp:1984 kmmainwidget.cpp:1001
 msgid "Empty Trash"
 msgstr "আবর্জনা ফাঁকা করো"
 
-#: kmkernel.cpp:1956
+#: kmkernel.cpp:1985
 #, fuzzy
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr "আপনি নিশ্চিত আপনি চাই প্রতি ফাঁকা টি আবর্জনা -র সমস্ত অ্যাকাউন্ট?"
@@ -6989,12 +7061,12 @@ msgstr "সাম্প্রতিক ঠিকানা সম্পাদন�
 msgid "S&earch:"
 msgstr "সন্ধান,খোঁজ:"
 
-#: kmmainwidget.cpp:567 kmmainwidget.cpp:1459
+#: kmmainwidget.cpp:567 kmmainwidget.cpp:1489
 #, fuzzy
 msgid "Move Message to Folder"
 msgstr "চাল/দান বার্তা প্রতি ফোল্ডার"
 
-#: kmmainwidget.cpp:570 kmmainwidget.cpp:1553
+#: kmmainwidget.cpp:570 kmmainwidget.cpp:1583
 #, fuzzy
 msgid "Copy Message to Folder"
 msgstr "কপি বার্তা প্রতি ফোল্ডার"
@@ -7037,14 +7109,26 @@ msgstr "পূর্ববর্তী ফোল্ডারে ফোকাস 
 msgid "Select Message with Focus"
 msgstr "নির্বাচন করো ফোল্ডার সঙ্গে ফোকাস করা"
 
-#: kmmainwidget.cpp:822
+#: kmmainwidget.cpp:782 kmmainwidget.cpp:804
+msgid "KMail is currently in offline mode. How do you want to proceed?"
+msgstr ""
+
+#: kmmainwidget.cpp:785 kmmainwidget.cpp:807
+msgid "Work online"
+msgstr ""
+
+#: kmmainwidget.cpp:786 kmmainwidget.cpp:808
+msgid "Work offline"
+msgstr ""
+
+#: kmmainwidget.cpp:852
 #, fuzzy
 msgid ""
 "_n: 1 new message in %1\n"
 "%n new messages in %1"
 msgstr "নতুন বার্তা -এ নতুন বার্তা -এ 1"
 
-#: kmmainwidget.cpp:834
+#: kmmainwidget.cpp:864
 #, fuzzy
 msgid ""
 "_: %1 is a list of the number of new messages per folder\n"
@@ -7055,43 +7139,43 @@ msgstr ""
 "<b> নতুন মেইল</b>"
 "<br> 1"
 
-#: kmmainwidget.cpp:838
+#: kmmainwidget.cpp:868
 msgid "New mail arrived"
 msgstr "নতুন মেইল এসেছে"
 
-#: kmmainwidget.cpp:923
+#: kmmainwidget.cpp:953
 #, c-format
 msgid "Properties of Folder %1"
 msgstr "ফোল্ডার %1-র বৈশিষ্ট্যাবলী"
 
-#: kmmainwidget.cpp:944
+#: kmmainwidget.cpp:974
 #, fuzzy
 msgid "This folder does not have any expiry options set"
 msgstr "এই ফোল্ডার করে নয় যে কোনো সেট/সমষ্টি/নির্ধারণ"
 
-#: kmmainwidget.cpp:952
+#: kmmainwidget.cpp:982
 #, fuzzy
 msgid "<qt>Are you sure you want to expire the folder <b>%1</b>?</qt>"
 msgstr "<qt> আপনি নিশ্চিত আপনি চাই প্রতি টি ফোল্ডার<b></b></qt>"
 
-#: kmmainwidget.cpp:953
+#: kmmainwidget.cpp:983
 #, fuzzy
 msgid "Expire Folder"
 msgstr "ফোল্ডার"
 
-#: kmmainwidget.cpp:954
+#: kmmainwidget.cpp:984
 msgid "&Expire"
 msgstr ""
 
-#: kmmainwidget.cpp:971
+#: kmmainwidget.cpp:1001
 msgid "Move to Trash"
 msgstr "আবর্জনা ফোল্ডারে সরাও"
 
-#: kmmainwidget.cpp:973
+#: kmmainwidget.cpp:1003
 msgid "Are you sure you want to empty the trash folder?"
 msgstr "আপনি কি আবর্জনা ফোল্ডার ফাঁকা করার ব্যাপারে নিশ্চিত?"
 
-#: kmmainwidget.cpp:974
+#: kmmainwidget.cpp:1004
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to move all messages from folder <b>%1</b> "
@@ -7100,16 +7184,16 @@ msgstr ""
 "<qt> আপনি নিশ্চিত আপনি চাই প্রতি চাল/দান সমস্ত বার্তা থেকে ফোল্ডার<b></b> "
 "প্রতি টি আবর্জনা</qt>"
 
-#: kmmainwidget.cpp:993
+#: kmmainwidget.cpp:1023
 msgid "Moved all messages to the trash"
 msgstr "সব বার্তা আবর্জনা ফোল্ডারে স্থানান্তরিত হয়েছে"
 
-#: kmmainwidget.cpp:1011
+#: kmmainwidget.cpp:1041
 #, fuzzy
 msgid "Delete Search"
 msgstr "লকনো"
 
-#: kmmainwidget.cpp:1012
+#: kmmainwidget.cpp:1042
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the search <b>%1</b>?"
@@ -7119,17 +7203,17 @@ msgstr ""
 "টি বার্তা প্রদর্শিত -এ এটি নয় মুছে ফেলা যদি আপনি তাই   তারা সঞ্চিত -এ একটি "
 "আলাদা ফোল্ডার</qt>"
 
-#: kmmainwidget.cpp:1016
+#: kmmainwidget.cpp:1046
 msgid "Delete Folder"
 msgstr "ফোল্ডার মুছে ফেলো"
 
-#: kmmainwidget.cpp:1019
+#: kmmainwidget.cpp:1049
 #, fuzzy
 msgid "<qt>Are you sure you want to delete the empty folder <b>%1</b>?</qt>"
 msgstr ""
 "<qt> আপনি নিশ্চিত আপনি চাই প্রতি মুছে ফেলা টি ফাঁকা ফোল্ডার<b></b></qt>"
 
-#: kmmainwidget.cpp:1024
+#: kmmainwidget.cpp:1054
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the empty folder <b>%1</b> "
@@ -7139,7 +7223,7 @@ msgstr ""
 "<qt> আপনি নিশ্চিত আপনি চাই প্রতি মুছে ফেলা টি ফাঁকা ফোল্ডার<b></b> "
 "এবং সমস্ত তার ঐ হয়ত নয় ফাঁকা এবং তাদের সূচি বাতিল করা   ভাল</qt>"
 
-#: kmmainwidget.cpp:1032
+#: kmmainwidget.cpp:1062
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the folder <b>%1</b>"
@@ -7147,7 +7231,7 @@ msgid ""
 msgstr ""
 "<qt> আপনি নিশ্চিত আপনি চাই প্রতি মুছে ফেলা টি ফোল্ডার<b></b> তার সূচি</qt>"
 
-#: kmmainwidget.cpp:1037
+#: kmmainwidget.cpp:1067
 #, fuzzy
 msgid ""
 "<qt>Are you sure you want to delete the folder <b>%1</b> "
@@ -7156,14 +7240,14 @@ msgstr ""
 "<qt> আপনি নিশ্চিত আপনি চাই প্রতি মুছে ফেলা টি ফোল্ডার<b></b> "
 "এবং সমস্ত তার তাদের সূচি</qt>"
 
-#: kmmainwidget.cpp:1055
+#: kmmainwidget.cpp:1085
 msgid ""
 "<qt>The folder you deleted was assoicated with the account <b>%1</b> "
 "which delivered mail into it. The folder the account delivers new mail into was "
 "reset to the main Inbox folder.</qt>"
 msgstr ""
 
-#: kmmainwidget.cpp:1130
+#: kmmainwidget.cpp:1160
 #, fuzzy
 msgid ""
 "Are you sure you want to refresh the IMAP cache?\n"
@@ -7172,12 +7256,12 @@ msgstr ""
 "আপনি নিশ্চিত আপনি চাই প্রতি নতুন করে টি ক্যাশ সরাও সমস্ত ঐ আপনি হয়ে গেছে "
 "স্থানীয়ভাবে প্রতি আপনার."
 
-#: kmmainwidget.cpp:1146
+#: kmmainwidget.cpp:1176
 #, fuzzy
 msgid "Are you sure you want to expire all old messages?"
 msgstr "আপনি নিশ্চিত আপনি চাই প্রতি সমস্ত পুরনো বার্তা?"
 
-#: kmmainwidget.cpp:1170
+#: kmmainwidget.cpp:1200
 #, fuzzy
 msgid ""
 "Use of HTML in mail will make you more vulnerable to \"spam\" and may increase "
@@ -7187,16 +7271,16 @@ msgstr ""
 "ব্যবহার -র এইচ-টি-এম-এল -এ মেইল make আপনি আরো/বেশী প্রতি এবং হয়তো বৃদ্ধি টি ঐ "
 "আপনার সিস্টেম দ্বারা অন্যান্য উপস্থিত এবং নিরাপত্তা."
 
-#: kmmainwidget.cpp:1173 kmmainwidget.cpp:1197 kmsender.cpp:462
+#: kmmainwidget.cpp:1203 kmmainwidget.cpp:1227 kmsender.cpp:462
 msgid "Security Warning"
 msgstr "নিরাপত্তা সতর্কীকরণ"
 
-#: kmmainwidget.cpp:1174
+#: kmmainwidget.cpp:1204
 #, fuzzy
 msgid "Use HTML"
 msgstr "ব্যবহার এইচ-টি-এম-এল"
 
-#: kmmainwidget.cpp:1194
+#: kmmainwidget.cpp:1224
 #, fuzzy
 msgid ""
 "Loading external references in html mail will make you more vulnerable to "
@@ -7206,21 +7290,21 @@ msgstr ""
 "ব্যবহার -র এইচ-টি-এম-এল -এ মেইল make আপনি আরো/বেশী প্রতি এবং হয়তো বৃদ্ধি টি ঐ "
 "আপনার সিস্টেম দ্বারা অন্যান্য উপস্থিত এবং নিরাপত্তা."
 
-#: kmmainwidget.cpp:1198
+#: kmmainwidget.cpp:1228
 msgid "Load External References"
 msgstr ""
 
-#: kmmainwidget.cpp:1427
+#: kmmainwidget.cpp:1457
 #, fuzzy
 msgid "Filter on Mailing-List..."
 msgstr "ফিল্টার ওপর তালিকা."
 
-#: kmmainwidget.cpp:1432
+#: kmmainwidget.cpp:1462
 #, fuzzy
 msgid "Filter on Mailing-List %1..."
 msgstr "ফিল্টার ওপর তালিকা."
 
-#: kmmainwidget.cpp:1496
+#: kmmainwidget.cpp:1526
 #, fuzzy
 msgid ""
 "KMail's Out of Office Reply functionality relies on server-side filtering. You "
@@ -7230,621 +7314,625 @@ msgstr ""
 "s -র অফিস কার্যকারীতা ওপর সার্ভার পাশ ফিল্টারিং আপনি নয় এখনো কনফিগার করা একটি "
 "সার্ভার জন্য এই পারে এই ওপর টি ফিল্টারিং ট্যাব -র টি অ্যাকাউন্ট কনফিগারেশন."
 
-#: kmmainwidget.cpp:1501
+#: kmmainwidget.cpp:1531
 #, fuzzy
 msgid "No Server-Side Filtering Configured"
 msgstr "না সার্ভার পাশ ফিল্টারিং কনফিগার করা"
 
-#: kmmainwidget.cpp:1528
+#: kmmainwidget.cpp:1558
 #, fuzzy
 msgid "Could not start certificate manager; please check your installation."
 msgstr ""
 "পারে নয় আরম্ভ/শুরু ম্যানেজার, ব্যবস্থাপক অনুগ্রহ করে পরীক্ষা আপনার ইনস্টলেশন."
 
-#: kmmainwidget.cpp:1545
+#: kmmainwidget.cpp:1575
 #, fuzzy
 msgid ""
 "Could not start GnuPG LogViewer (kwatchgnupg); please check your installation."
 msgstr "পারে নয় আরম্ভ/শুরু অনুগ্রহ করে পরীক্ষা আপনার ইনস্টলেশন."
 
-#: kmmainwidget.cpp:2249 kmmimeparttree.cpp:130 kmreadermainwin.cpp:370
+#: kmmainwidget.cpp:2289 kmmimeparttree.cpp:130 kmreadermainwin.cpp:370
 msgid "Save &As..."
 msgstr "&নতুন নামে সংরক্ষণ করো..."
 
-#: kmmainwidget.cpp:2256
+#: kmmainwidget.cpp:2296
 #, fuzzy
 msgid "&Compact All Folders"
 msgstr "সমস্ত"
 
-#: kmmainwidget.cpp:2260
+#: kmmainwidget.cpp:2300
 #, fuzzy
 msgid "&Expire All Folders"
 msgstr "সমস্ত"
 
-#: kmmainwidget.cpp:2264
+#: kmmainwidget.cpp:2304
 #, fuzzy
 msgid "&Refresh Local IMAP Cache"
 msgstr "নতুন করে স্থানীয় ক্যাশ"
 
-#: kmmainwidget.cpp:2268
+#: kmmainwidget.cpp:2308
 #, fuzzy
 msgid "Empty All &Trash Folders"
 msgstr "ফাঁকা সমস্ত আবর্জনা"
 
-#: kmmainwidget.cpp:2277
+#: kmmainwidget.cpp:2317
 msgid "Check Mail &In"
 msgstr "এখানে মে&ইল পরীক্ষা করো"
 
-#: kmmainwidget.cpp:2287
+#: kmmainwidget.cpp:2327
 msgid "&Send Queued Messages"
 msgstr "না পাঠানো বার্তা পাঠা&ও"
 
-#: kmmainwidget.cpp:2291
+#: kmmainwidget.cpp:2330
+msgid "Onlinestatus (unknown)"
+msgstr ""
+
+#: kmmainwidget.cpp:2334
 #, fuzzy
 msgid "Send Queued Messages via"
 msgstr "না পাঠানো বার্তা পাঠা&ও"
 
-#: kmmainwidget.cpp:2302
+#: kmmainwidget.cpp:2345
 msgid "&Address Book..."
 msgstr "ঠিকানা তালিকা (&ঠ)..."
 
-#: kmmainwidget.cpp:2307
+#: kmmainwidget.cpp:2350
 #, fuzzy
 msgid "Certificate Manager..."
 msgstr "ম্যানেজার, ব্যবস্থাপক."
 
-#: kmmainwidget.cpp:2312
+#: kmmainwidget.cpp:2355
 #, fuzzy
 msgid "GnuPG Log Viewer..."
 msgstr "লগ,কার্যবিবরণী প্রদর্শক."
 
-#: kmmainwidget.cpp:2317
+#: kmmainwidget.cpp:2360
 msgid "&Import Messages..."
 msgstr "বার্তা আ&মদানি করো..."
 
-#: kmmainwidget.cpp:2322
+#: kmmainwidget.cpp:2365
 msgid "&Debug Sieve..."
 msgstr ""
 
-#: kmmainwidget.cpp:2328
+#: kmmainwidget.cpp:2371
 #, fuzzy
 msgid "Edit \"Out of Office\" Replies..."
 msgstr "সম্পাদন -র অফিস উত্তর."
 
-#: kmmainwidget.cpp:2332
+#: kmmainwidget.cpp:2375
 #, fuzzy
 msgid "Filter &Log Viewer..."
 msgstr "ফিল্টার লগ,কার্যবিবরণী প্রদর্শক."
 
-#: kmmainwidget.cpp:2335
+#: kmmainwidget.cpp:2378
 msgid "&Anti-Spam Wizard..."
 msgstr ""
 
-#: kmmainwidget.cpp:2337
+#: kmmainwidget.cpp:2380
 msgid "&Anti-Virus Wizard..."
 msgstr ""
 
-#: kmmainwidget.cpp:2341
+#: kmmainwidget.cpp:2384
 msgid "&Move to Trash"
 msgstr "&আবর্জনা ফোল্ডারে পাঠাও"
 
-#: kmmainwidget.cpp:2342
+#: kmmainwidget.cpp:2385
 msgid "Move message to trashcan"
 msgstr "বার্তা সরিয়ে আবর্জনা ফোল্ডারে নিয়ে যাও"
 
-#: kmmainwidget.cpp:2349
+#: kmmainwidget.cpp:2392
 #, fuzzy
 msgid "M&ove Thread to Trash"
 msgstr "আবর্জনা ফোল্ডারে সরাও"
 
-#: kmmainwidget.cpp:2350
+#: kmmainwidget.cpp:2393
 #, fuzzy
 msgid "Move thread to trashcan"
 msgstr "বার্তা সরিয়ে আবর্জনা ফোল্ডারে নিয়ে যাও"
 
-#: kmmainwidget.cpp:2354
+#: kmmainwidget.cpp:2397
 #, fuzzy
 msgid "Delete T&hread"
 msgstr "বার্তা মুছে ফেলো"
 
-#: kmmainwidget.cpp:2358
+#: kmmainwidget.cpp:2401
 msgid "&Find Messages..."
 msgstr "বার্তা &সন্ধান করো"
 
-#: kmmainwidget.cpp:2361
+#: kmmainwidget.cpp:2404
 msgid "&Find in Message..."
 msgstr "বার্তা&য় সন্ধান করো..."
 
-#: kmmainwidget.cpp:2364
+#: kmmainwidget.cpp:2407
 msgid "Select &All Messages"
 msgstr "&সব বার্তা নির্বাচন করো"
 
-#: kmmainwidget.cpp:2371
+#: kmmainwidget.cpp:2414
 msgid "&Properties"
 msgstr "বৈশিষ্ট্যা&বলী"
 
-#: kmmainwidget.cpp:2374
+#: kmmainwidget.cpp:2417
 #, fuzzy
 msgid "&Mailing List Management"
 msgstr "তালিকা"
 
-#: kmmainwidget.cpp:2383
+#: kmmainwidget.cpp:2426
 msgid "Mark All Messages as &Read"
 msgstr "সব বার্তা &পঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2386
+#: kmmainwidget.cpp:2429
 #, fuzzy
 msgid "&Expiration Settings"
 msgstr "বর্তমান &পরিচিতি:"
 
-#: kmmainwidget.cpp:2389
+#: kmmainwidget.cpp:2432
 #, fuzzy
 msgid "&Compact Folder"
 msgstr "সমস্ত"
 
-#: kmmainwidget.cpp:2392
+#: kmmainwidget.cpp:2435
 #, fuzzy
 msgid "Check Mail &in This Folder"
 msgstr "পরীক্ষা মেইল -এ এই ফোল্ডার"
 
-#: kmmainwidget.cpp:2404
+#: kmmainwidget.cpp:2447
 msgid "Prefer &HTML to Plain Text"
 msgstr "সাধারন লেখার চেয়ে এই&চ-টি-এম-এল বেশী পছন্দ করো"
 
-#: kmmainwidget.cpp:2407
+#: kmmainwidget.cpp:2450
 msgid "Load E&xternal References"
 msgstr ""
 
-#: kmmainwidget.cpp:2410
+#: kmmainwidget.cpp:2453
 #, fuzzy
 msgid "&Thread Messages"
 msgstr "বার্তা"
 
-#: kmmainwidget.cpp:2413
+#: kmmainwidget.cpp:2456
 #, fuzzy
 msgid "Thread Messages also by &Subject"
 msgstr "বার্তা এছাড়া দ্বারা বিষয়"
 
-#: kmmainwidget.cpp:2418
+#: kmmainwidget.cpp:2461
 msgid "&New Message..."
 msgstr "&নতুন বার্তা..."
 
-#: kmmainwidget.cpp:2421
+#: kmmainwidget.cpp:2464
 msgid "New Message t&o Mailing-List..."
 msgstr "মেইলিং লিস্ট-&এ নতুন বার্তা পাঠাও..."
 
-#: kmmainwidget.cpp:2425 kmreadermainwin.cpp:239 searchwindow.cpp:268
+#: kmmainwidget.cpp:2468 kmreadermainwin.cpp:239 searchwindow.cpp:268
 msgid ""
 "_: Message->\n"
 "&Forward"
 msgstr "&ফরোয়ার্ড করো"
 
-#: kmmainwidget.cpp:2431 kmreadermainwin.cpp:250 searchwindow.cpp:277
+#: kmmainwidget.cpp:2474 kmreadermainwin.cpp:250 searchwindow.cpp:277
 msgid ""
 "_: Message->Forward->\n"
 "As &Attachment..."
 msgstr "সংযুক্ত করে (&স)..."
 
-#: kmmainwidget.cpp:2436 kmreadermainwin.cpp:245 searchwindow.cpp:273
+#: kmmainwidget.cpp:2479 kmreadermainwin.cpp:245 searchwindow.cpp:273
 msgid "&Inline..."
 msgstr "বার্তার মূ&ল অংশে..."
 
-#: kmmainwidget.cpp:2442
+#: kmmainwidget.cpp:2485
 msgid "Send A&gain..."
 msgstr "&আবার পাঠাও..."
 
-#: kmmainwidget.cpp:2445 kmreadermainwin.cpp:261
+#: kmmainwidget.cpp:2488 kmreadermainwin.cpp:261
 msgid ""
 "_: Message->\n"
 "&Reply"
 msgstr "&উত্তর পাঠাও"
 
-#: kmmainwidget.cpp:2451 kmreadermainwin.cpp:267 searchwindow.cpp:259
+#: kmmainwidget.cpp:2494 kmreadermainwin.cpp:267 searchwindow.cpp:259
 msgid "&Reply..."
 msgstr "উত্ত&র দাও..."
 
-#: kmmainwidget.cpp:2455 kmreadermainwin.cpp:271
+#: kmmainwidget.cpp:2498 kmreadermainwin.cpp:271
 msgid "Reply to A&uthor..."
 msgstr "লে&খককে উত্তর পাঠাও..."
 
-#: kmmainwidget.cpp:2461 kmreadermainwin.cpp:277 searchwindow.cpp:261
+#: kmmainwidget.cpp:2504 kmreadermainwin.cpp:277 searchwindow.cpp:261
 msgid "Reply to &All..."
 msgstr "&সবাইকে উত্তর দাও..."
 
-#: kmmainwidget.cpp:2466 kmreadermainwin.cpp:282 searchwindow.cpp:264
+#: kmmainwidget.cpp:2509 kmreadermainwin.cpp:282 searchwindow.cpp:264
 msgid "Reply to Mailing-&List..."
 msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
 
-#: kmmainwidget.cpp:2472 kmreadermainwin.cpp:256
+#: kmmainwidget.cpp:2515 kmreadermainwin.cpp:256
 msgid ""
 "_: Message->Forward->\n"
 "&Redirect..."
 msgstr "&অন্য ঠিকানায় পাঠাও..."
 
-#: kmmainwidget.cpp:2478
+#: kmmainwidget.cpp:2521
 msgid "Reply Without &Quote..."
 msgstr "উদ্ধৃতি ছাড়া উত্তর দা&ও..."
 
-#: kmmainwidget.cpp:2482
+#: kmmainwidget.cpp:2525
 msgid "&Create Filter"
 msgstr "ফিল্টা&র তৈরি করো"
 
-#: kmmainwidget.cpp:2485
+#: kmmainwidget.cpp:2528
 msgid "Filter on &Subject..."
 msgstr "বিষ&য় দিয়ে ফিল্টার করো"
 
-#: kmmainwidget.cpp:2490
+#: kmmainwidget.cpp:2533
 msgid "Filter on &From..."
 msgstr "প্রের&ক দিয়ে ফিল্টার করো"
 
-#: kmmainwidget.cpp:2495
+#: kmmainwidget.cpp:2538
 msgid "Filter on &To..."
 msgstr "প্রা&পক দিয়ে ফিল্টার করো"
 
-#: kmmainwidget.cpp:2500
+#: kmmainwidget.cpp:2543
 msgid "Filter on Mailing-&List..."
 msgstr "মে&ইলিং-লিস্ট দিয়ে ফিল্টার করো..."
 
-#: kmmainwidget.cpp:2507
+#: kmmainwidget.cpp:2550
 msgid "&Edit Message"
 msgstr "বার্তা সম্পা&দন করো"
 
-#: kmmainwidget.cpp:2511
+#: kmmainwidget.cpp:2554
 msgid "Mar&k Message"
 msgstr "বার্তা চিহ্নি&ত করো"
 
-#: kmmainwidget.cpp:2514
+#: kmmainwidget.cpp:2557
 msgid "Mark Message as &Read"
 msgstr "বার্তা &পঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2515
+#: kmmainwidget.cpp:2558
 msgid "Mark selected messages as read"
 msgstr "নির্বাচিত বার্তাগুলি পঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2519
+#: kmmainwidget.cpp:2562
 msgid "Mark Message as &New"
 msgstr "বার্তা &নতুন হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2520
+#: kmmainwidget.cpp:2563
 msgid "Mark selected messages as new"
 msgstr "নির্বাচিত বার্তাগুলি নতুন হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2524
+#: kmmainwidget.cpp:2567
 msgid "Mark Message as &Unread"
 msgstr "বার্তা &অপঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2525
+#: kmmainwidget.cpp:2568
 msgid "Mark selected messages as unread"
 msgstr "নির্বাচিত বার্তাগুলি অপঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2532
+#: kmmainwidget.cpp:2575
 msgid "Mark Message as &Important"
 msgstr "বার্তা গুরুত্বপূর্ণ হিসাবে চিহ্নিত করো (&গ)"
 
-#: kmmainwidget.cpp:2535
+#: kmmainwidget.cpp:2578
 #, fuzzy
 msgid "Remove &Important Message Mark"
 msgstr "সরাও বার্তা চিহ্ন"
 
-#: kmmainwidget.cpp:2538
+#: kmmainwidget.cpp:2581
 #, fuzzy
 msgid "Mark Message as &To-do"
 msgstr "বার্তা &পঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2541
+#: kmmainwidget.cpp:2584
 #, fuzzy
 msgid "Mark Message as Not &To-do"
 msgstr "চিহ্ন বার্তা   নয় সারিবদ্ধ"
 
-#: kmmainwidget.cpp:2545
+#: kmmainwidget.cpp:2588
 msgid "Mark Message as Re&plied"
 msgstr "বার্তা &উত্তর দেওয়া হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2548
+#: kmmainwidget.cpp:2591
 #, fuzzy
 msgid "Mark Message as Not Re&plied"
 msgstr "চিহ্ন বার্তা   নয়"
 
-#: kmmainwidget.cpp:2551
+#: kmmainwidget.cpp:2594
 msgid "Mark Message as &Forwarded"
 msgstr "বার্তা &ফরোয়ার্ড করা হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2554
+#: kmmainwidget.cpp:2597
 #, fuzzy
 msgid "Mark Message as Not &Forwarded"
 msgstr "চিহ্ন বার্তা   নয়"
 
-#: kmmainwidget.cpp:2557
+#: kmmainwidget.cpp:2600
 #, fuzzy
 msgid "Mark Message as &Queued"
 msgstr "চিহ্ন বার্তা   সারিবদ্ধ"
 
-#: kmmainwidget.cpp:2560
+#: kmmainwidget.cpp:2603
 #, fuzzy
 msgid "Mark Message as Not &Queued"
 msgstr "চিহ্ন বার্তা   নয় সারিবদ্ধ"
 
-#: kmmainwidget.cpp:2563
+#: kmmainwidget.cpp:2606
 msgid "Mark Message as &Sent"
 msgstr "বার্তা প্রেরি&ত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2566
+#: kmmainwidget.cpp:2609
 #, fuzzy
 msgid "Mark Message as Not &Sent"
 msgstr "চিহ্ন বার্তা   নয় প্রেরিত"
 
-#: kmmainwidget.cpp:2571
+#: kmmainwidget.cpp:2614
 #, fuzzy
 msgid "Mark &Thread"
 msgstr "চিহ্ন"
 
-#: kmmainwidget.cpp:2574
+#: kmmainwidget.cpp:2617
 #, fuzzy
 msgid "Mark Thread as &Read"
 msgstr "চিহ্ন   পড়া/পড়ো"
 
-#: kmmainwidget.cpp:2575
+#: kmmainwidget.cpp:2618
 #, fuzzy
 msgid "Mark all messages in the selected thread as read"
 msgstr "চিহ্ন সমস্ত বার্তা -এ টি নির্বাচিত   পড়া/পড়ো"
 
-#: kmmainwidget.cpp:2580
+#: kmmainwidget.cpp:2623
 #, fuzzy
 msgid "Mark Thread as &New"
 msgstr "চিহ্ন   নতুন"
 
-#: kmmainwidget.cpp:2581
+#: kmmainwidget.cpp:2624
 #, fuzzy
 msgid "Mark all messages in the selected thread as new"
 msgstr "চিহ্ন সমস্ত বার্তা -এ টি নির্বাচিত   নতুন"
 
-#: kmmainwidget.cpp:2586
+#: kmmainwidget.cpp:2629
 #, fuzzy
 msgid "Mark Thread as &Unread"
 msgstr "চিহ্ন  "
 
-#: kmmainwidget.cpp:2587
+#: kmmainwidget.cpp:2630
 #, fuzzy
 msgid "Mark all messages in the selected thread as unread"
 msgstr "চিহ্ন সমস্ত বার্তা -এ টি নির্বাচিত  "
 
-#: kmmainwidget.cpp:2595
+#: kmmainwidget.cpp:2638
 #, fuzzy
 msgid "Mark Thread as &Important"
 msgstr "চিহ্ন  "
 
-#: kmmainwidget.cpp:2598
+#: kmmainwidget.cpp:2641
 #, fuzzy
 msgid "Remove &Important Thread Mark"
 msgstr "সরাও চিহ্ন"
 
-#: kmmainwidget.cpp:2601
+#: kmmainwidget.cpp:2644
 #, fuzzy
 msgid "Mark Thread as &To-do"
 msgstr "চিহ্ন   প্রেরিত"
 
-#: kmmainwidget.cpp:2604
+#: kmmainwidget.cpp:2647
 #, fuzzy
 msgid "Mark Thread as Not &To-do"
 msgstr "চিহ্ন   নয় সারিবদ্ধ"
 
-#: kmmainwidget.cpp:2607
+#: kmmainwidget.cpp:2650
 #, fuzzy
 msgid "Mark Thread as R&eplied"
 msgstr "চিহ্ন  "
 
-#: kmmainwidget.cpp:2610
+#: kmmainwidget.cpp:2653
 #, fuzzy
 msgid "Mark Thread as Not R&eplied"
 msgstr "চিহ্ন   নয়"
 
-#: kmmainwidget.cpp:2613
+#: kmmainwidget.cpp:2656
 #, fuzzy
 msgid "Mark Thread as &Forwarded"
 msgstr "চিহ্ন  "
 
-#: kmmainwidget.cpp:2616
+#: kmmainwidget.cpp:2659
 #, fuzzy
 msgid "Mark Thread as Not &Forwarded"
 msgstr "চিহ্ন   নয়"
 
-#: kmmainwidget.cpp:2619
+#: kmmainwidget.cpp:2662
 #, fuzzy
 msgid "Mark Thread as &Queued"
 msgstr "চিহ্ন   সারিবদ্ধ"
 
-#: kmmainwidget.cpp:2622
+#: kmmainwidget.cpp:2665
 #, fuzzy
 msgid "Mark Thread as Not &Queued"
 msgstr "চিহ্ন   নয় সারিবদ্ধ"
 
-#: kmmainwidget.cpp:2625
+#: kmmainwidget.cpp:2668
 #, fuzzy
 msgid "Mark Thread as &Sent"
 msgstr "চিহ্ন   প্রেরিত"
 
-#: kmmainwidget.cpp:2628
+#: kmmainwidget.cpp:2671
 #, fuzzy
 msgid "Mark Thread as Not &Sent"
 msgstr "চিহ্ন   নয় প্রেরিত"
 
-#: kmmainwidget.cpp:2634
+#: kmmainwidget.cpp:2677
 #, fuzzy
 msgid "&Watch Thread"
 msgstr "লক্ষ্য"
 
-#: kmmainwidget.cpp:2638
+#: kmmainwidget.cpp:2681
 #, fuzzy
 msgid "&Ignore Thread"
 msgstr "অগ্রাহ্য করো"
 
-#: kmmainwidget.cpp:2642
+#: kmmainwidget.cpp:2685
 msgid "Save A&ttachments..."
 msgstr "অ্যাটা&চমেন্ট সংরক্ষণ করো..."
 
-#: kmmainwidget.cpp:2652
+#: kmmainwidget.cpp:2695
 #, fuzzy
 msgid "Appl&y All Filters"
 msgstr "ফিল্টার প্রয়ো&গ করো"
 
-#. i18n: file kmail_part.rc line 135
-#: kmmainwidget.cpp:2657 rc.cpp:33 rc.cpp:102
+#. i18n: file kmail_part.rc line 136
+#: kmmainwidget.cpp:2700 rc.cpp:33 rc.cpp:102
 #, fuzzy, no-c-format
 msgid "A&pply Filter"
 msgstr "প্রয়োগ ফিল্টার"
 
-#: kmmainwidget.cpp:2664
+#: kmmainwidget.cpp:2707
 msgid ""
 "_: View->\n"
 "&Unread Count"
 msgstr "অপঠি&ত সংখ্যা"
 
-#: kmmainwidget.cpp:2666
+#: kmmainwidget.cpp:2709
 msgid "Choose how to display the count of unread messages"
 msgstr "অপঠিত বার্তার সংখ্যা কি ভাবে দেখানো হবে বেছে নিন"
 
-#: kmmainwidget.cpp:2668
+#: kmmainwidget.cpp:2711
 msgid ""
 "_: View->Unread Count\n"
 "View in &Separate Column"
 msgstr "&আলাদা কলামে দেখাও"
 
-#: kmmainwidget.cpp:2674
+#: kmmainwidget.cpp:2717
 msgid ""
 "_: View->Unread Count\n"
 "View After &Folder Name"
 msgstr "ফোল্ডার নামের &পরে দেখাও"
 
-#: kmmainwidget.cpp:2681
+#: kmmainwidget.cpp:2724
 msgid ""
 "_: View->\n"
 "&Total Column"
 msgstr "'মো&ট' কলাম"
 
-#: kmmainwidget.cpp:2684
+#: kmmainwidget.cpp:2727
 #, fuzzy
 msgid ""
 "Toggle display of column showing the total number of messages in folders."
 msgstr ""
 "টগল/অদলবদল দেখাও -র কলাম প্রদর্শন করা হচ্ছে টি মোট সংখ্যা/নম্বর -র বার্তা -এ."
 
-#: kmmainwidget.cpp:2687
+#: kmmainwidget.cpp:2730
 #, fuzzy
 msgid ""
 "_: View->\n"
 "&Expand Thread"
 msgstr "দেখা/প্রদর্শন/ভিউ"
 
-#: kmmainwidget.cpp:2688
+#: kmmainwidget.cpp:2731
 #, fuzzy
 msgid "Expand the current thread"
 msgstr "সম্প্রসারণ টি বর্তমান"
 
-#: kmmainwidget.cpp:2693
+#: kmmainwidget.cpp:2736
 #, fuzzy
 msgid ""
 "_: View->\n"
 "&Collapse Thread"
 msgstr "দেখা/প্রদর্শন/ভিউ"
 
-#: kmmainwidget.cpp:2694
+#: kmmainwidget.cpp:2737
 #, fuzzy
 msgid "Collapse the current thread"
 msgstr "ভেঙ্গে পড়া টি বর্তমান"
 
-#: kmmainwidget.cpp:2699
+#: kmmainwidget.cpp:2742
 #, fuzzy
 msgid ""
 "_: View->\n"
 "Ex&pand All Threads"
 msgstr "দেখা/প্রদর্শন/ভিউ সমস্ত"
 
-#: kmmainwidget.cpp:2700
+#: kmmainwidget.cpp:2743
 #, fuzzy
 msgid "Expand all threads in the current folder"
 msgstr "সম্প্রসারণ সমস্ত -এ টি বর্তমান ফোল্ডার"
 
-#: kmmainwidget.cpp:2705
+#: kmmainwidget.cpp:2748
 #, fuzzy
 msgid ""
 "_: View->\n"
 "C&ollapse All Threads"
 msgstr "দেখা/প্রদর্শন/ভিউ সমস্ত"
 
-#: kmmainwidget.cpp:2706
+#: kmmainwidget.cpp:2749
 #, fuzzy
 msgid "Collapse all threads in the current folder"
 msgstr "ভেঙ্গে পড়া সমস্ত -এ টি বর্তমান ফোল্ডার"
 
-#: kmmainwidget.cpp:2711 kmreadermainwin.cpp:234
+#: kmmainwidget.cpp:2754 kmreadermainwin.cpp:234
 msgid "&View Source"
 msgstr "&উত্‍স দেখাও"
 
-#: kmmainwidget.cpp:2715
+#: kmmainwidget.cpp:2758
 #, fuzzy
 msgid "&Display Message"
 msgstr "বার্তার মা&প দেখাও"
 
-#: kmmainwidget.cpp:2720
+#: kmmainwidget.cpp:2763
 msgid "&Next Message"
 msgstr "পরবর্তী বার্তা (&ন)"
 
-#: kmmainwidget.cpp:2721
+#: kmmainwidget.cpp:2764
 msgid "Go to the next message"
 msgstr "পরবর্তী বার্তায় যাও"
 
-#: kmmainwidget.cpp:2725
+#: kmmainwidget.cpp:2768
 msgid "Next &Unread Message"
 msgstr "পর&বর্তী অপঠিত বার্তা"
 
-#: kmmainwidget.cpp:2727
+#: kmmainwidget.cpp:2770
 msgid "Go to the next unread message"
 msgstr "পরবর্তী অপঠিত বার্তায় যাও"
 
 #. i18n("Go to the next important message") ),
-#: kmmainwidget.cpp:2738
+#: kmmainwidget.cpp:2781
 msgid "&Previous Message"
 msgstr "পূর্ববর্তী বার্তা (&আ)"
 
-#: kmmainwidget.cpp:2739
+#: kmmainwidget.cpp:2782
 msgid "Go to the previous message"
 msgstr "পূর্ববর্তী বার্তায় যাও"
 
-#: kmmainwidget.cpp:2743
+#: kmmainwidget.cpp:2786
 msgid "Previous Unread &Message"
 msgstr "পূর্ববর্তী &অপঠিত বার্তা"
 
-#: kmmainwidget.cpp:2745
+#: kmmainwidget.cpp:2788
 msgid "Go to the previous unread message"
 msgstr "পূর্ববর্তী অপঠিত বার্তায় যাও"
 
-#: kmmainwidget.cpp:2757
+#: kmmainwidget.cpp:2800
 msgid "Next Unread &Folder"
 msgstr "&পরবর্তী অপঠিত ফোল্ডার"
 
-#: kmmainwidget.cpp:2758
+#: kmmainwidget.cpp:2801
 msgid "Go to the next folder with unread messages"
 msgstr "পরবর্তী অপঠিত বার্তা সমেত ফোল্ডার-এ যাও"
 
-#: kmmainwidget.cpp:2766
+#: kmmainwidget.cpp:2809
 msgid "Previous Unread F&older"
 msgstr "পূর্ববর্তী অপঠিত ফোল্ডা&র"
 
-#: kmmainwidget.cpp:2767
+#: kmmainwidget.cpp:2810
 msgid "Go to the previous folder with unread messages"
 msgstr "পূর্ববর্তী অপঠিত বার্তা সমেত ফোল্ডার-এ যাও"
 
-#: kmmainwidget.cpp:2774
+#: kmmainwidget.cpp:2817
 msgid ""
 "_: Go->\n"
 "Next Unread &Text"
 msgstr "পরবর্তী অপঠি&ত লেখা"
 
-#: kmmainwidget.cpp:2775
+#: kmmainwidget.cpp:2818
 msgid "Go to the next unread text"
 msgstr "পরবর্তী অপঠিত লেখায় যাও"
 
-#: kmmainwidget.cpp:2776
+#: kmmainwidget.cpp:2819
 #, fuzzy
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
@@ -7853,75 +7941,75 @@ msgstr ""
 "স্ক্রোল নীচে বর্তমান বার্তা যদি -তে শেষ -র বর্তমান বার্তা যাও প্রতি পরবর্তী "
 "বার্তা."
 
-#: kmmainwidget.cpp:2783
+#: kmmainwidget.cpp:2826
 #, fuzzy
 msgid "Show Quick Search"
 msgstr "দেখাও/প্রদর্শন করো চটপট সন্ধান,খোঁজ"
 
-#: kmmainwidget.cpp:2790
+#: kmmainwidget.cpp:2833
 msgid "Configure &Filters..."
 msgstr "ফিল্টা&র কনফিগার করো..."
 
-#: kmmainwidget.cpp:2792
+#: kmmainwidget.cpp:2835
 msgid "Configure &POP Filters..."
 msgstr "&পপ ফিল্টার কনফিগার করো..."
 
-#: kmmainwidget.cpp:2794
+#: kmmainwidget.cpp:2837
 #, fuzzy
 msgid "Manage &Sieve Scripts..."
 msgstr "যে যে ফিল্টার আপাতত আছে"
 
-#: kmmainwidget.cpp:2797
+#: kmmainwidget.cpp:2840
 msgid "KMail &Introduction"
 msgstr "কে-মে&ইল পরিচিতি"
 
-#: kmmainwidget.cpp:2798
+#: kmmainwidget.cpp:2841
 msgid "Display KMail's Welcome Page"
 msgstr "কে-মেইলের পরিচিতি পৃষ্ঠা দেখাও"
 
-#: kmmainwidget.cpp:2804
+#: kmmainwidget.cpp:2847
 msgid "Configure &Notifications..."
 msgstr "বার্তা&বলী কনফিগার করো..."
 
-#: kmmainwidget.cpp:2809
+#: kmmainwidget.cpp:2852
 msgid "&Configure KMail..."
 msgstr "কে-মেইল ক&নফিগার করো..."
 
-#: kmmainwidget.cpp:3094
+#: kmmainwidget.cpp:3141
 msgid "E&mpty Trash"
 msgstr "&আবর্জনা ফোল্ডার ফাঁকা করো"
 
-#: kmmainwidget.cpp:3094
+#: kmmainwidget.cpp:3141
 msgid "&Move All Messages to Trash"
 msgstr "&সব বার্তা আবর্জনা ফোল্ডারে পাঠাও"
 
-#: kmmainwidget.cpp:3098
+#: kmmainwidget.cpp:3145
 #, fuzzy
 msgid "&Delete Search"
 msgstr "ফোল্ডা&র মুছে ফেলো"
 
-#: kmmainwidget.cpp:3098
+#: kmmainwidget.cpp:3145
 msgid "&Delete Folder"
 msgstr "ফোল্ডা&র মুছে ফেলো"
 
-#: kmmainwidget.cpp:3276
+#: kmmainwidget.cpp:3323
 #, fuzzy, c-format
 msgid ""
 "_n: Removed %n duplicate message.\n"
 "Removed %n duplicate messages."
 msgstr "অপসারিত বার্তা বার্তা."
 
-#: kmmainwidget.cpp:3278
+#: kmmainwidget.cpp:3325
 #, fuzzy
 msgid "No duplicate messages found."
 msgstr "না বার্তা পাওয়া গেছে."
 
-#: kmmainwidget.cpp:3348
+#: kmmainwidget.cpp:3395
 #, fuzzy, c-format
 msgid "Filter %1"
 msgstr "ফিল্টার 1"
 
-#: kmmainwidget.cpp:3461
+#: kmmainwidget.cpp:3508
 msgid "Subscription"
 msgstr ""
 
@@ -8435,20 +8523,28 @@ msgid "Chat &With..."
 msgstr "আড্ডা সঙ্গে."
 
 #: kmreaderwin.cpp:1249
-msgid "Full Namespace support for IMAP"
+msgid "Full namespace support for IMAP"
 msgstr ""
 
-#: kmreaderwin.cpp:1287
+#: kmreaderwin.cpp:1250
+msgid "Offline mode"
+msgstr ""
+
+#: kmreaderwin.cpp:1251
+msgid "Sieve script management and editing"
+msgstr ""
+
+#: kmreaderwin.cpp:1289
 msgid "The email client for the K Desktop Environment."
 msgstr ""
 
-#: kmreaderwin.cpp:1295
+#: kmreaderwin.cpp:1297
 msgid ""
 "<h2 style='margin-top: 0px;'>Retrieving Folder Contents</h2>"
 "<p>Please wait . . .</p>&nbsp;"
 msgstr ""
 
-#: kmreaderwin.cpp:1310
+#: kmreaderwin.cpp:1312
 #, fuzzy
 msgid ""
 "_: %1: KMail version; %2: help:// URL; %3: homepage URL; %4: prior KMail "
@@ -8493,13 +8589,13 @@ msgstr ""
 "<p> ধন্যবাদ আপনি</p>\n"
 "<p>&nbsp;&nbsp; টি দল</p>"
 
-#: kmreaderwin.cpp:1333 kmreaderwin.cpp:1355
+#: kmreaderwin.cpp:1335 kmreaderwin.cpp:1357
 msgid ""
 "<li>%1</li>\n"
 msgstr ""
 "<li>%1</li>\n"
 
-#: kmreaderwin.cpp:1338
+#: kmreaderwin.cpp:1340
 #, fuzzy
 msgid ""
 "<p>Please take a moment to fill in the KMail configuration panel at "
@@ -8511,42 +8607,42 @@ msgstr ""
 "বৈশিষ্ট্যাবলী&gt; প্রয়োজন প্রতি তৈরি -তে অন্তত একটি ডিফল্ট এবং একটি অন্তর্মুখী  "
 " ভাল   মেইল অ্যাকাউন্ট</p>"
 
-#: kmreaderwin.cpp:1350
+#: kmreaderwin.cpp:1352
 msgid ""
 "<p><span style='font-size:125%; font-weight:bold;'>Important changes</span> "
 "(compared to KMail %1):</p>\n"
 msgstr ""
 
-#: kmreaderwin.cpp:1484
+#: kmreaderwin.cpp:1486
 msgid "( body part )"
 msgstr "( দেহের প্রধান অংশ )"
 
-#: kmreaderwin.cpp:1760
+#: kmreaderwin.cpp:1762
 #, fuzzy
 msgid "Could not send MDN."
 msgstr "পারে নয় পাঠাও."
 
-#: kmreaderwin.cpp:1867
+#: kmreaderwin.cpp:1869
 msgid "Open With..."
 msgstr "...দিয়ে খোলো"
 
-#: kmreaderwin.cpp:1868
+#: kmreaderwin.cpp:1870
 #, fuzzy
 msgid ""
 "_: to view something\n"
 "View"
 msgstr "প্রতি দেখা/প্রদর্শন/ভিউ কিছু জিনিষ"
 
-#: kmreaderwin.cpp:1872
+#: kmreaderwin.cpp:1874
 msgid "Decrypt With Chiasmus..."
 msgstr ""
 
-#: kmreaderwin.cpp:2014 kmreaderwin.cpp:2050 kmreaderwin.cpp:2067
+#: kmreaderwin.cpp:2016 kmreaderwin.cpp:2052 kmreaderwin.cpp:2069
 #, c-format
 msgid "View Attachment: %1"
 msgstr "অ্যাটাচমেন্ট দেখাও: %1"
 
-#: kmreaderwin.cpp:2061
+#: kmreaderwin.cpp:2063
 #, fuzzy, c-format
 msgid ""
 "_n: [KMail: Attachment contains binary data. Trying to show first character.]\n"
@@ -8555,23 +8651,23 @@ msgstr ""
 "সংযুক্ত ধারণ করে তথ্য চেষ্টা করছি প্রতি দেখাও/প্রদর্শন করো প্রথম বর্ণ, অক্ষর "
 "সংযুক্ত ধারণ করে তথ্য চেষ্টা করছি প্রতি দেখাও/প্রদর্শন করো প্রথম অক্ষর"
 
-#: kmreaderwin.cpp:2152
+#: kmreaderwin.cpp:2154
 msgid "&Open with '%1'"
 msgstr "'%1' দিয়ে খোলো (&খ)"
 
-#: kmreaderwin.cpp:2154
+#: kmreaderwin.cpp:2156
 #, fuzzy
 msgid "&Open With..."
 msgstr "খোলো সঙ্গে."
 
-#: kmreaderwin.cpp:2156
+#: kmreaderwin.cpp:2158
 #, fuzzy
 msgid ""
 "Open attachment '%1'?\n"
 "Note that opening an attachment may compromise your system's security."
 msgstr "খোলো সংযুক্ত ঐ খুলছি একটি সংযুক্ত হয়তো আপনার সিস্টেম s নিরাপত্তা."
 
-#: kmreaderwin.cpp:2161
+#: kmreaderwin.cpp:2163
 msgid "Open Attachment?"
 msgstr "অ্যাটাচমেন্ট খুলব?"
 
@@ -9302,9 +9398,13 @@ msgstr ""
 msgid "Insecure Message Format"
 msgstr "বার্তা ফর্ম্যাট"
 
+#: messagecomposer.cpp:606
+msgid "Use Inline OpenPGP"
+msgstr ""
+
 #: messagecomposer.cpp:607
 #, fuzzy
-msgid "&No, Use OpenPGP/MIME"
+msgid "Use OpenPGP/MIME"
 msgstr "না ব্যবহার"
 
 #: messagecomposer.cpp:723
@@ -9512,7 +9612,8 @@ msgstr ""
 "<br> পাঠাও টি বার্তা</qt>"
 
 #: messagecomposer.cpp:2093
-msgid "Some characters will be lost"
+#, fuzzy
+msgid "Some Characters Will Be Lost"
 msgstr "কিছু অক্ষর হারিয়ে যাবে"
 
 #: messagecomposer.cpp:2094
@@ -10108,37 +10209,37 @@ msgstr ""
 "আপনার সার্ভার করে নয় সহায়তা/সমর্থন টি কমান্ড এটি আছে নয় সম্ভব/সম্ভাব্য প্রতি টি "
 "হেডার -র বড় ই-মেইল প্রথম আগে ওদের."
 
-#. i18n: file kmail_part.rc line 66
+#. i18n: file kmail_part.rc line 67
 #: rc.cpp:15 rc.cpp:84
 #, no-c-format
 msgid "&Go"
 msgstr "যা&ও"
 
-#. i18n: file kmail_part.rc line 78
+#. i18n: file kmail_part.rc line 79
 #: rc.cpp:18 rc.cpp:87
 #, no-c-format
 msgid "F&older"
 msgstr "ফোল্ডা&র"
 
-#. i18n: file kmail_part.rc line 102
+#. i18n: file kmail_part.rc line 103
 #: rc.cpp:21 rc.cpp:48 rc.cpp:90 rc.cpp:123
 #, no-c-format
 msgid "&Message"
 msgstr "&রচনা"
 
-#. i18n: file kmail_part.rc line 108
+#. i18n: file kmail_part.rc line 109
 #: rc.cpp:24 rc.cpp:93
 #, no-c-format
 msgid "Reply Special"
 msgstr ""
 
-#. i18n: file kmail_part.rc line 114
+#. i18n: file kmail_part.rc line 115
 #: rc.cpp:27 rc.cpp:96 rc.cpp:126
 #, no-c-format
 msgid "&Forward"
 msgstr "&ফরোয়ার্ড"
 
-#. i18n: file kmail_part.rc line 126
+#. i18n: file kmail_part.rc line 127
 #: rc.cpp:30 rc.cpp:99
 #, fuzzy, no-c-format
 msgid "Mark Thread as"
@@ -11960,13 +12061,13 @@ msgstr "জন্য শেষ ব্যবহারকারী সার্ট
 msgid "Re-enable All \"Don't Ask Again\" Warnings"
 msgstr "সক্রিয় সমস্ত জিজ্ঞাসা আবার"
 
-#. i18n: file kmail.kcfg line 52
+#. i18n: file kmail.kcfg line 59
 #: rc.cpp:1217
 #, fuzzy, no-c-format
 msgid "Send queued mail on mail check"
 msgstr "পাঠাও সারিবদ্ধ মেইল ওপর মেইল পরীক্ষা"
 
-#. i18n: file kmail.kcfg line 53
+#. i18n: file kmail.kcfg line 60
 #: rc.cpp:1220
 #, fuzzy, no-c-format
 msgid ""
@@ -11980,25 +12081,25 @@ msgstr ""
 "সমস্ত মেইল অথবা কি না আপনি নয় চাই বার্তা প্রতি প্রেরিত স্বয়ংক্রীয়ভাবে -তে "
 "সমস্ত</p></qt>"
 
-#. i18n: file kmail.kcfg line 66
+#. i18n: file kmail.kcfg line 73
 #: rc.cpp:1223
 #, fuzzy, no-c-format
 msgid "The most recently selected folder in the folder selection dialog."
 msgstr "টি অধিকাংশ সম্প্রতি নির্বাচিত ফোল্ডার -এ টি ফোল্ডার নির্বাচন ডায়ালগ."
 
-#. i18n: file kmail.kcfg line 77
+#. i18n: file kmail.kcfg line 84
 #: rc.cpp:1229
 #, fuzzy, no-c-format
 msgid "Policy for showing the system tray icon"
 msgstr "পলিসি জন্য প্রদর্শন করা হচ্ছে টি সিস্টেম ট্রে আইকন"
 
-#. i18n: file kmail.kcfg line 85
+#. i18n: file kmail.kcfg line 92
 #: rc.cpp:1232
 #, fuzzy, no-c-format
 msgid "Verbose new mail notification"
 msgstr "নতুন মেইল বিজ্ঞপ্তি"
 
-#. i18n: file kmail.kcfg line 86
+#. i18n: file kmail.kcfg line 93
 #: rc.cpp:1235
 #, fuzzy, no-c-format
 msgid ""
@@ -12010,31 +12111,31 @@ msgstr ""
 "আছে প্রদর্শিত -এ টি নতুন মেইল বিজ্ঞপ্তি অন্যথা আপনি শুধু পাওয়া একটি সরল নতুন "
 "মেইল বার্তা."
 
-#. i18n: file kmail.kcfg line 90
+#. i18n: file kmail.kcfg line 97
 #: rc.cpp:1238
 #, no-c-format
 msgid "Specify e&ditor:"
 msgstr "সম্পা&দক বেছে নিন:"
 
-#. i18n: file kmail.kcfg line 94
+#. i18n: file kmail.kcfg line 101
 #: rc.cpp:1241
 #, no-c-format
 msgid "Use e&xternal editor instead of composer"
 msgstr "&রচনাক্ষেত্রের পরিবর্তে বহিঃস্থ সম্পাদক ব্যবহার করো"
 
-#. i18n: file kmail.kcfg line 112
+#. i18n: file kmail.kcfg line 119
 #: rc.cpp:1244
 #, fuzzy, no-c-format
 msgid "Enable groupware functionality"
 msgstr "সক্রিয় কার্যকারীতা"
 
-#. i18n: file kmail.kcfg line 118
+#. i18n: file kmail.kcfg line 125
 #: rc.cpp:1248
 #, fuzzy, no-c-format
 msgid "Mangle From:/To: headers in replies to replies"
 msgstr "থেকে প্রতি হেডার -এ উত্তর প্রতি উত্তর"
 
-#. i18n: file kmail.kcfg line 119
+#. i18n: file kmail.kcfg line 126
 #: rc.cpp:1251
 #, fuzzy, no-c-format
 msgid ""
@@ -12046,13 +12147,13 @@ msgstr ""
 "করে চারপাশ এক -র ওদের যদি আপনি সমস্যা সঙ্গে নয় হয়ে সক্ষম প্রতি পাওয়া আপনার "
 "উত্তর চেষ্টা করো মানসমূহ/বৈশিষ্ট্য এই অপশন."
 
-#. i18n: file kmail.kcfg line 124
+#. i18n: file kmail.kcfg line 131
 #: rc.cpp:1254
 #, fuzzy, no-c-format
 msgid "Send groupware invitations in the mail body"
 msgstr "পাঠাও -এ টি মেইল দেহ, প্রধান অংশ"
 
-#. i18n: file kmail.kcfg line 125
+#. i18n: file kmail.kcfg line 132
 #: rc.cpp:1257
 #, fuzzy, no-c-format
 msgid ""
@@ -12065,7 +12166,7 @@ msgstr ""
 "করে চারপাশ এক -র ওদের যদি আপনি সমস্যা সঙ্গে নয় হয়ে সক্ষম প্রতি পাওয়া আপনার "
 "চেষ্টা করো মানসমূহ/বৈশিষ্ট্য এই অপশন."
 
-#. i18n: file kmail.kcfg line 131
+#. i18n: file kmail.kcfg line 138
 #: rc.cpp:1263
 #, no-c-format
 msgid ""
@@ -12076,7 +12177,7 @@ msgid ""
 "hand."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 138
+#. i18n: file kmail.kcfg line 145
 #: rc.cpp:1266
 #, fuzzy, no-c-format
 msgid ""
@@ -12091,7 +12192,7 @@ msgstr ""
 "সেট/সমষ্টি/নির্ধারণ টি প্রতি ব্যবহার টি রিসোর্স এই আছে হয়ে গেছে -এ টি কে.ডি.ই. "
 "নিয়ন্ত্রণ কেন্দ্র</p>"
 
-#. i18n: file kmail.kcfg line 143
+#. i18n: file kmail.kcfg line 150
 #: rc.cpp:1269
 #, fuzzy, no-c-format
 msgid ""
@@ -12101,7 +12202,7 @@ msgstr ""
 "<p> সাধারণত আপনি নয় যে কোনো কারণ প্রতি দেখো টি ঐ ধরো টি রিসোর্স কিন্তু যদি আপনি "
 "প্রয়োজন প্রতি দেখো ওদের আপনি পারে সেট/সমষ্টি/নির্ধারণ ঐ এখানে</p>"
 
-#. i18n: file kmail.kcfg line 148
+#. i18n: file kmail.kcfg line 155
 #: rc.cpp:1272
 #, no-c-format
 msgid ""
@@ -12115,7 +12216,7 @@ msgid ""
 "Kolab server or a compatible solution.</li></ul></p>"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 157
+#. i18n: file kmail.kcfg line 164
 #: rc.cpp:1275
 #, no-c-format
 msgid ""
@@ -12123,13 +12224,13 @@ msgid ""
 "<p>By default, the Kolab server sets the IMAP inbox to be the parent.</p>"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 162
+#. i18n: file kmail.kcfg line 169
 #: rc.cpp:1278
 #, no-c-format
 msgid "<p>This is the ID of the account holding the IMAP resource folders.</p>"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 167
+#. i18n: file kmail.kcfg line 174
 #: rc.cpp:1281
 #, fuzzy, no-c-format
 msgid ""
@@ -12147,7 +12248,7 @@ msgstr ""
 "পরিবর্তন করা হচ্ছে ভাষা</p>"
 "<p> তাই নয় সেট/সমষ্টি/নির্ধারণ এই যদি না আপনি প্রতি</p>"
 
-#. i18n: file kmail.kcfg line 177
+#. i18n: file kmail.kcfg line 184
 #: rc.cpp:1284
 #, fuzzy, no-c-format
 msgid ""
@@ -12155,13 +12256,13 @@ msgid ""
 "displayed."
 msgstr "এই মান আছে ব্যবহৃত প্রতি নির্ধারণ করা কি না টি ভূমিকা উচিত প্রদর্শিত."
 
-#. i18n: file kmail.kcfg line 184
+#. i18n: file kmail.kcfg line 191
 #: rc.cpp:1287
 #, fuzzy, no-c-format
 msgid "Maximal number of connections per host"
 msgstr "সংখ্যা/নম্বর -র সংযোগ প্রতি হোস্ট"
 
-#. i18n: file kmail.kcfg line 185
+#. i18n: file kmail.kcfg line 192
 #: rc.cpp:1290
 #, fuzzy, no-c-format
 msgid ""
@@ -12171,13 +12272,13 @@ msgstr ""
 "এই পারে ব্যবহৃত প্রতি টি সংখ্যা/নম্বর -র সংযোগ প্রতি হোস্ট যতক্ষণ পরীক্ষা করা "
 "হচ্ছে জন্য নতুন মেইল দ্বারা ডিফল্ট টি সংখ্যা/নম্বর -র সংযোগ আছে অসীম."
 
-#. i18n: file kmail.kcfg line 193
+#. i18n: file kmail.kcfg line 200
 #: rc.cpp:1293
 #, no-c-format
 msgid "Show quick search line edit"
 msgstr "চটপট সন্ধান লাইন সম্পাদন প্রদর্শন করো"
 
-#. i18n: file kmail.kcfg line 194
+#. i18n: file kmail.kcfg line 201
 #: rc.cpp:1296
 #, fuzzy, no-c-format
 msgid ""
@@ -12187,19 +12288,19 @@ msgstr ""
 "এই অপশন সক্রিয় অথবা টি সন্ধান,খোঁজ লাইন সম্পাদন উপরে টি বার্তা তালিকা কোন পারে "
 "ব্যবহৃত প্রতি দ্রুত সন্ধান,খোঁজ টি তথ্য প্রদর্শিত -এ টি বার্তা তালিকা."
 
-#. i18n: file kmail.kcfg line 202
+#. i18n: file kmail.kcfg line 209
 #: rc.cpp:1299
 #, fuzzy, no-c-format
 msgid "Keep original charset when replying or forwarding if possible"
 msgstr "প্রকৃত বর্ণমালা যখন অথবা যদি সম্ভব/সম্ভাব্য"
 
-#. i18n: file kmail.kcfg line 206
+#. i18n: file kmail.kcfg line 213
 #: rc.cpp:1302
 #, no-c-format
 msgid "A&utomatically append signature"
 msgstr "নিজে থেকে স্বাক্ষর যো&গ করো"
 
-#. i18n: file kmail.kcfg line 211
+#. i18n: file kmail.kcfg line 218
 #: rc.cpp:1305
 #, fuzzy, no-c-format
 msgid ""
@@ -12208,7 +12309,7 @@ msgid ""
 "        "
 msgstr "মনে রাখো এই তাই ঐ এটি ব্যবহৃত -এ ভবিষ্যত্‍‌ রচয়িতা   ভাল."
 
-#. i18n: file kmail.kcfg line 215
+#. i18n: file kmail.kcfg line 222
 #: rc.cpp:1309
 #, fuzzy, no-c-format
 msgid ""
@@ -12218,7 +12319,7 @@ msgstr ""
 "মনে রাখো এই ফোল্ডার জন্য প্রেরিত বস্তু তাই ঐ এটি ব্যবহৃত -এ ভবিষ্যত্‍‌ রচয়িতা   "
 "ভাল."
 
-#. i18n: file kmail.kcfg line 219
+#. i18n: file kmail.kcfg line 226
 #: rc.cpp:1312
 #, fuzzy, no-c-format
 msgid ""
@@ -12226,13 +12327,13 @@ msgid ""
 "windows as well."
 msgstr "মনে রাখো এই মেইল তাই ঐ এটি ব্যবহৃত -এ ভবিষ্যত্‍‌ রচয়িতা   ভাল."
 
-#. i18n: file kmail.kcfg line 223
+#. i18n: file kmail.kcfg line 230
 #: rc.cpp:1315
 #, no-c-format
 msgid "Word &wrap at column:"
 msgstr "এই কলাম-এর পর &নতুন লাইনে যাও:"
 
-#. i18n: file kmail.kcfg line 246
+#. i18n: file kmail.kcfg line 253
 #: rc.cpp:1325
 #, fuzzy, no-c-format
 msgid ""
@@ -12240,13 +12341,13 @@ msgid ""
 "containing non-English characters"
 msgstr "বাঁক এই অপশন ওপর প্রতি make সংযুক্ত নাম ধারণ করে ইংরেজি অক্ষর"
 
-#. i18n: file kmail.kcfg line 272
+#. i18n: file kmail.kcfg line 279
 #: rc.cpp:1331
 #, fuzzy, no-c-format
 msgid "Automatically request &message disposition notifications"
 msgstr "স্বয়ংক্রীয়ভাবে অনুরোধ/আবেদন বার্তা বিজ্ঞপ্তি"
 
-#. i18n: file kmail.kcfg line 273
+#. i18n: file kmail.kcfg line 280
 #: rc.cpp:1334
 #, no-c-format
 msgid ""
@@ -12258,13 +12359,13 @@ msgid ""
 "<em>Request Disposition Notification</em>.</p></qt>"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 277
+#. i18n: file kmail.kcfg line 284
 #: rc.cpp:1337
 #, no-c-format
 msgid "Use recent addresses for autocompletion"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 278
+#. i18n: file kmail.kcfg line 285
 #: rc.cpp:1340
 #, no-c-format
 msgid ""
@@ -12272,13 +12373,13 @@ msgid ""
 "autocompletion list in the composer's address fields."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 299
+#. i18n: file kmail.kcfg line 306
 #: rc.cpp:1343
 #, no-c-format
 msgid "Autosave interval:"
 msgstr "স্বয়ংক্রিয় সংরক্ষণ বিরতি:"
 
-#. i18n: file kmail.kcfg line 300
+#. i18n: file kmail.kcfg line 307
 #: rc.cpp:1346
 #, no-c-format
 msgid ""
@@ -12287,31 +12388,31 @@ msgid ""
 "setting it to the value 0."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 307
+#. i18n: file kmail.kcfg line 314
 #: rc.cpp:1349
 #, fuzzy, no-c-format
 msgid "Replace recognized prefi&x with \"Re:\""
 msgstr "বদল পরিচিত উপপদ সঙ্গে"
 
-#. i18n: file kmail.kcfg line 314
+#. i18n: file kmail.kcfg line 321
 #: rc.cpp:1352
 #, no-c-format
 msgid "Replace recognized prefix with \"&Fwd:\""
 msgstr "পরিচিত উপপদ বদলে \"&Fwd:\" বসাও"
 
-#. i18n: file kmail.kcfg line 318
+#. i18n: file kmail.kcfg line 325
 #: rc.cpp:1355
 #, no-c-format
 msgid "Use smart &quoting"
 msgstr "বুদ্ধি খাটিয়ে &উদ্ধৃতিচিহ্ন লাগাও"
 
-#. i18n: file kmail.kcfg line 323
+#. i18n: file kmail.kcfg line 330
 #: rc.cpp:1358
 #, no-c-format
 msgid "Type of addressee selector"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 325
+#. i18n: file kmail.kcfg line 332
 #: rc.cpp:1361
 #, no-c-format
 msgid ""
@@ -12319,13 +12420,13 @@ msgid ""
 "        CC and BCC."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 333
+#. i18n: file kmail.kcfg line 340
 #: rc.cpp:1365
 #, no-c-format
 msgid "Type of recipients editor"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 335
+#. i18n: file kmail.kcfg line 342
 #: rc.cpp:1368
 #, no-c-format
 msgid ""
@@ -12333,13 +12434,13 @@ msgid ""
 "        CC and BCC."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 350
+#. i18n: file kmail.kcfg line 357
 #: rc.cpp:1372
 #, fuzzy, no-c-format
 msgid "Maximum number of recipient editor lines."
 msgstr "সংখ্যা/নম্বর -র সংযোগ প্রতি হোস্ট"
 
-#. i18n: file kmail.kcfg line 389
+#. i18n: file kmail.kcfg line 396
 #: rc.cpp:1376
 #, no-c-format
 msgid ""
@@ -12350,7 +12451,7 @@ msgid ""
 "As a default the encoding configured for the whole system is used."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 395
+#. i18n: file kmail.kcfg line 402
 #: rc.cpp:1380
 #, no-c-format
 msgid ""
@@ -12358,7 +12459,7 @@ msgid ""
 "encoding for all emails, regardless of what they specify themselves."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 401
+#. i18n: file kmail.kcfg line 408
 #: rc.cpp:1386
 #, no-c-format
 msgid ""
@@ -12366,7 +12467,7 @@ msgid ""
 "replaced by emoticons (small pictures)."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 406
+#. i18n: file kmail.kcfg line 413
 #: rc.cpp:1392
 #, no-c-format
 msgid ""
@@ -12374,19 +12475,19 @@ msgid ""
 "levels of quoted text."
 msgstr ""
 
-#. i18n: file kmail.kcfg line 409
+#. i18n: file kmail.kcfg line 416
 #: rc.cpp:1395
 #, no-c-format
 msgid "Automatic collapse level:"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 417
+#. i18n: file kmail.kcfg line 424
 #: rc.cpp:1398
 #, no-c-format
 msgid "Reduce font size for quoted text"
 msgstr ""
 
-#. i18n: file kmail.kcfg line 418
+#. i18n: file kmail.kcfg line 425
 #: rc.cpp:1401
 #, no-c-format
 msgid "Enable this option to show quoted text with a smaller font."
@@ -12997,8 +13098,17 @@ msgstr ""
 
 #: subscriptiondialog.cpp:380
 #, fuzzy
-msgid "Enable subscriptions?"
+msgid "Enable Subscriptions?"
 msgstr "বর্ণনা"
+
+#: subscriptiondialog.cpp:380
+msgid "Enable"
+msgstr ""
+
+#: subscriptiondialog.cpp:380
+#, fuzzy
+msgid "Do Not Enable"
+msgstr "নয় এনক্রিপ্ট"
 
 #: tips.cpp:3
 #, fuzzy
