@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
-"POT-Creation-Date: 2005-07-09 01:31+0200\n"
+"POT-Creation-Date: 2005-07-28 01:30+0200\n"
 "PO-Revision-Date: 2004-09-22 11:56-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -246,7 +246,7 @@ msgstr "সি-পি-ইউ চাপ"
 msgid "Idle Load"
 msgstr "বিশ্রামকালীন চাপ"
 
-#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:157
+#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:162
 msgid "System Load"
 msgstr "সিস্টেম চাপ"
 
@@ -565,7 +565,12 @@ msgstr "হোস্ট %1 পাওয়া যায়নি"
 
 #: ksgrd/SensorSocketAgent.cc:112
 #, c-format
-msgid "Read error at host %1"
+msgid "Timeout at host %1"
+msgstr ""
+
+#: ksgrd/SensorSocketAgent.cc:116
+#, c-format
+msgid "Network failure host %1"
 msgstr ""
 
 #: _translatorinfo.cpp:1
@@ -586,7 +591,7 @@ msgid ""
 "worksheet (Menu File->New) before you can drag sensors here."
 msgstr ""
 
-#: Workspace.cc:104 ksysguard.cc:162
+#: Workspace.cc:104 ksysguard.cc:167
 msgid "Process Table"
 msgstr "প্রসেস তালিকা"
 
@@ -1573,59 +1578,59 @@ msgstr ""
 msgid "Drag sensors to empty fields in a worksheet."
 msgstr ""
 
-#: ksysguard.cc:61
+#: ksysguard.cc:62
 msgid "KDE system guard"
 msgstr "কে.ডি.ই. সিস্টেম প্রহরী"
 
-#: ksysguard.cc:71 ksysguard.cc:535
+#: ksysguard.cc:72 ksysguard.cc:546
 msgid "KDE System Guard"
 msgstr "কে.ডি.ই. সিস্টেম প্রহরী"
 
-#: ksysguard.cc:93
+#: ksysguard.cc:98
 msgid "88888 Processes"
 msgstr ""
 
-#: ksysguard.cc:94
+#: ksysguard.cc:99
 msgid "Memory: 88888888888 kB used, 88888888888 kB free"
 msgstr ""
 
-#: ksysguard.cc:96
+#: ksysguard.cc:101
 msgid "Swap: 888888888 kB used, 888888888 kB free"
 msgstr ""
 
-#: ksysguard.cc:111
+#: ksysguard.cc:116
 msgid "C&onnect Host..."
 msgstr "হোস্ট-এর সঙ্গে সংযোগ স্থাপ&ন করো..."
 
-#: ksysguard.cc:113
+#: ksysguard.cc:118
 msgid "D&isconnect Host"
 msgstr "হোস্ট-এর &সঙ্গে সংযোগ বিচ্ছিন্ন করো..."
 
-#: ksysguard.cc:119
+#: ksysguard.cc:124
 msgid "&Worksheet Properties"
 msgstr "&ওয়ার্কশিট বৈশিষ্ট্যাবলী"
 
-#: ksysguard.cc:122
+#: ksysguard.cc:127
 msgid "Load Standard Sheets"
 msgstr ""
 
-#: ksysguard.cc:126
+#: ksysguard.cc:131
 msgid "Configure &Style..."
 msgstr "স্টা&ইল কনফিগার করো..."
 
-#: ksysguard.cc:143
+#: ksysguard.cc:148
 msgid "Do you really want to restore the default worksheets?"
 msgstr "আপনি কি সত্যিই ডিফল্ট ওয়ার্কশিট-গুলি পুনঃস্থাপিত করতে চান?"
 
-#: ksysguard.cc:144
+#: ksysguard.cc:149
 msgid "Reset All Worksheets"
 msgstr "সব ওয়ার্কশিট রিসেট করো"
 
-#: ksysguard.cc:145
+#: ksysguard.cc:150
 msgid "Reset"
 msgstr ""
 
-#: ksysguard.cc:415
+#: ksysguard.cc:426
 #, c-format
 msgid ""
 "_n: 1 Process\n"
@@ -1634,32 +1639,32 @@ msgstr ""
 "একটি প্রসেস\n"
 "%n-টি প্রসেস"
 
-#: ksysguard.cc:425
+#: ksysguard.cc:436
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr "মেমরি: %1 %2 ব্যবহৃত, %3 %4 ফাঁকা"
 
-#: ksysguard.cc:483
+#: ksysguard.cc:494
 msgid "No swap space available"
 msgstr ""
 
-#: ksysguard.cc:485
+#: ksysguard.cc:496
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr "সোয়্যাপ: %1 %2 ব্যবহৃত, %3 %4 ফাঁকা"
 
-#: ksysguard.cc:494
+#: ksysguard.cc:505
 msgid "Show only process list of local host"
 msgstr "শুধুমাত্র স্থানীয় হোস্ট-এর প্রসেস তালিকা দেখাও "
 
-#: ksysguard.cc:495
+#: ksysguard.cc:506
 #, fuzzy
 msgid "Optional worksheet files to load"
 msgstr "অপশনাল প্রতি লোড"
 
-#: ksysguard.cc:537
+#: ksysguard.cc:548
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(C) ১৯৯৬-২০০২ কে-সিস-গার্ড ডেভেলপারবৃন্দ"
 
-#: ksysguard.cc:545
+#: ksysguard.cc:556
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"

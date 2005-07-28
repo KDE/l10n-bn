@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
-"POT-Creation-Date: 2005-07-24 01:41+0200\n"
+"POT-Creation-Date: 2005-07-28 01:37+0200\n"
 "PO-Revision-Date: 2004-09-28 22:58-0500\n"
 "Last-Translator: progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -272,17 +272,17 @@ msgid ""
 "Milky Way"
 msgstr "আকাশ গঙ্গা"
 
-#: colorscheme.cpp:72 skymapdraw.cpp:557
+#: colorscheme.cpp:72 skymapdraw.cpp:562
 msgid "Equator"
 msgstr "বিষুবরেখা"
 
 #. i18n: file opsguidesui.ui line 208
-#: colorscheme.cpp:75 rc.cpp:1533 skymapdraw.cpp:715
+#: colorscheme.cpp:75 rc.cpp:1533 skymapdraw.cpp:720
 #, no-c-format
 msgid "Ecliptic"
 msgstr "সূর্যপথ"
 
-#: colorscheme.cpp:78 skymapdraw.cpp:1092
+#: colorscheme.cpp:78 skymapdraw.cpp:1097
 msgid "Horizon"
 msgstr "দিগন্ত"
 
@@ -389,9 +389,9 @@ msgstr "বস্তুর বিস্তারিত বিবরণ"
 msgid "General"
 msgstr "সাধারণ"
 
-#: detaildialog.cpp:137 kspopupmenu.cpp:55 kspopupmenu.cpp:222
+#: detaildialog.cpp:137 kspopupmenu.cpp:55 kspopupmenu.cpp:236
 #: kstarsdata.cpp:127 kstarsinit.cpp:518 kstarsinit.cpp:534
-#: skymapdraw.cpp:1221 starobject.cpp:243 tools/observinglist.cpp:172
+#: skymapdraw.cpp:1226 starobject.cpp:243 tools/observinglist.cpp:172
 #: tools/observinglist.cpp:218 tools/observinglist.cpp:257
 msgid "star"
 msgstr "তারা"
@@ -1040,57 +1040,67 @@ msgstr ""
 "বর্তমানে কোন INDI ডিভাইস চলছে না।  এ ধরনের কোন ডিভাইস চালানোর জন্য "
 "অনুগ্রহপূর্বক ডিভাইস মেনুর ডিভাইস ব্যবস্থাপক থেকে ডিভাইস বেছে নিন।"
 
-#: indiproperty.cpp:178
+#: indiproperty.cpp:181
 #, fuzzy
 msgid "Invalid range for element %1. Valid range is from %2 to %3"
 msgstr "অবৈধ সীমা।  বৈধ মান %1 থেকে %2-এর মধ্যে অবস্থিত"
 
-#: indiproperty.cpp:330
+#: indiproperty.cpp:220 kspopupmenu.cpp:213
+#, fuzzy
+msgid "Center Telescope"
+msgstr "দূরবীক্ষণকে প্রস্তুত করো"
+
+#: indiproperty.cpp:343
 #, fuzzy
 msgid "Cannot open file %1 for reading"
 msgstr "পড়ার জন্য ফাইল খোলা যাচ্ছে না"
 
-#: indiproperty.cpp:340
+#: indiproperty.cpp:353
 #, fuzzy, c-format
 msgid "Not enough memory to load %1"
 msgstr "FITS ফাইল লোড করার জন্য পর্যাপ্ত মেমরি নেই।"
 
-#: indiproperty.cpp:352
+#: indiproperty.cpp:365
 #, fuzzy
 msgid "Not enough memory to convert file %1 to base64"
 msgstr "FITS ফাইল লোড করার জন্য পর্যাপ্ত মেমরি নেই।"
 
-#: indiproperty.cpp:885
+#: indiproperty.cpp:898
 msgid "Upload"
 msgstr ""
 
-#: indistd.cpp:79
+#: indistd.cpp:75
+#, fuzzy
+msgid "Telescope"
+msgstr "টেলিস্কোপ পোর্ট:"
+
+#: indistd.cpp:80
 msgid "INDI"
 msgstr "INDI"
 
-#: indistd.cpp:79
+#: indistd.cpp:80
 msgid "Downloading Data..."
 msgstr "তথ্য ডাউনলোড করা হচ্ছে..."
 
-#: indistd.cpp:194
+#: indistd.cpp:193
 #, c-format
 msgid "Data file saved to %1"
 msgstr "তথ্যের ফাইল %1-এ সংরক্ষণ করা হয়েছে"
 
-#: indistd.cpp:199
+#: indistd.cpp:198
 #, c-format
 msgid "FITS file saved to %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: indistd.cpp:266
+#: indistd.cpp:265
 msgid "Start"
 msgstr "আরম্ভ"
 
-#: indistd.cpp:590
+#: indistd.cpp:609
 msgid "%1 is online."
 msgstr "%1 অনলাইনে আছে।"
 
-#: indistd.cpp:604
+#: indistd.cpp:623
 msgid "%1 is online and ready."
 msgstr "%1 অনলাইনে আছে এবং প্রস্তুত রয়েছে।"
 
@@ -1260,7 +1270,7 @@ msgstr ""
 msgid "Pluto"
 msgstr "প্লুটো"
 
-#: kspopupmenu.cpp:46 kspopupmenu.cpp:219 kspopupmenu.cpp:222
+#: kspopupmenu.cpp:46 kspopupmenu.cpp:233 kspopupmenu.cpp:236
 #: skymapevents.cpp:685
 msgid "Empty sky"
 msgstr "শূন্য আকাশ"
@@ -1288,92 +1298,92 @@ msgstr "বর্ণালীর ধরন: %1"
 msgid "Add Link..."
 msgstr "লিঙ্ক যোগ করো..."
 
-#: kspopupmenu.cpp:254
+#: kspopupmenu.cpp:268
 msgid "Rise time: 00:00"
 msgstr "উদয়ের সময়: ০০:০০"
 
-#: kspopupmenu.cpp:260
+#: kspopupmenu.cpp:274
 msgid ""
 "_: the time at which an object falls below the horizon\n"
 "Set time:"
 msgstr "অস্তের সময়:"
 
-#: kspopupmenu.cpp:264
+#: kspopupmenu.cpp:278
 msgid "Transit time: 00:00"
 msgstr "অতিক্রম কাল: ০০:০০"
 
-#: kspopupmenu.cpp:279
+#: kspopupmenu.cpp:293
 msgid "Center && Track"
 msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
 
-#: kspopupmenu.cpp:285
+#: kspopupmenu.cpp:299
 msgid "Angular Distance To...            ["
 msgstr "এটি থেকে কৌণিক দূরত্ব...            ["
 
-#: kspopupmenu.cpp:287
+#: kspopupmenu.cpp:301
 msgid "Compute Angular Distance          ]"
 msgstr "কৌণিক দূরত্ব গণনা করো          ]"
 
-#: kspopupmenu.cpp:295
+#: kspopupmenu.cpp:309
 msgid ""
 "_: Show Detailed Information Dialog\n"
 "Details"
 msgstr "বিস্তারিত"
 
-#: kspopupmenu.cpp:301
+#: kspopupmenu.cpp:315
 msgid "Remove Label"
 msgstr "লেবেল অপসারণ করো"
 
-#: kspopupmenu.cpp:303
+#: kspopupmenu.cpp:317
 msgid "Attach Label"
 msgstr "লেবেল সংযুক্ত করো"
 
-#: kspopupmenu.cpp:309
+#: kspopupmenu.cpp:323
 #, fuzzy
 msgid "Remove From List"
 msgstr "লিঙ্ক অপসারণ করো"
 
-#: kspopupmenu.cpp:311 locationdialog.cpp:122
+#: kspopupmenu.cpp:325 locationdialog.cpp:122
 msgid "Add to List"
 msgstr "তালিকাভুক্ত করো"
 
-#: kspopupmenu.cpp:316
+#: kspopupmenu.cpp:330
 msgid "Add Trail"
 msgstr "গতিপথ যুক্ত করো"
 
-#: kspopupmenu.cpp:318
+#: kspopupmenu.cpp:332
 msgid "Remove Trail"
 msgstr "গতিপথ অপসারণ করো"
 
-#: kspopupmenu.cpp:337
+#: kspopupmenu.cpp:351
 #, c-format
 msgid "Rise time: %1"
 msgstr "উদয়: %1"
 
-#: kspopupmenu.cpp:340
+#: kspopupmenu.cpp:354
 msgid "No rise time: Circumpolar"
 msgstr "উদয়ের কোন সময় নেই: মেরু পরিবৃত্ত"
 
-#: kspopupmenu.cpp:342
+#: kspopupmenu.cpp:356
 msgid "No rise time: Never rises"
 msgstr "উদয়ের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kspopupmenu.cpp:353
+#: kspopupmenu.cpp:367
 #, c-format
 msgid ""
 "_: the time at which an object falls below the horizon\n"
 "Set time: %1"
 msgstr "অস্ত: %1"
 
-#: kspopupmenu.cpp:356
+#: kspopupmenu.cpp:370
 msgid "No set time: Circumpolar"
 msgstr "অস্তের কোন সময় নেই: মেরু পরিবৃত্ত"
 
-#: kspopupmenu.cpp:358
+#: kspopupmenu.cpp:372
 msgid "No set time: Never rises"
 msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kspopupmenu.cpp:367
+#: kspopupmenu.cpp:381
 #, c-format
 msgid "Transit time: %1"
 msgstr "অতিক্রম কাল: %1"
@@ -30164,49 +30174,49 @@ msgstr ""
 msgid "Could not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
-#: skymapdraw.cpp:927
+#: skymapdraw.cpp:932
 msgid ""
 "_: North\n"
 "N"
 msgstr "উত্তর"
 
-#: skymapdraw.cpp:937
+#: skymapdraw.cpp:942
 msgid ""
 "_: Northeast\n"
 "NE"
 msgstr "উত্তর-পূর্ব"
 
-#: skymapdraw.cpp:947
+#: skymapdraw.cpp:952
 msgid ""
 "_: East\n"
 "E"
 msgstr "পূর্ব"
 
-#: skymapdraw.cpp:957
+#: skymapdraw.cpp:962
 msgid ""
 "_: Southeast\n"
 "SE"
 msgstr "দক্ষিণ-পূর্ব"
 
-#: skymapdraw.cpp:967
+#: skymapdraw.cpp:972
 msgid ""
 "_: South\n"
 "S"
 msgstr "দক্ষিণ"
 
-#: skymapdraw.cpp:977
+#: skymapdraw.cpp:982
 msgid ""
 "_: Southwest\n"
 "SW"
 msgstr "দক্ষিণ-পশ্চিম"
 
-#: skymapdraw.cpp:987
+#: skymapdraw.cpp:992
 msgid ""
 "_: West\n"
 "W"
 msgstr "পশ্চিম"
 
-#: skymapdraw.cpp:997
+#: skymapdraw.cpp:1002
 msgid ""
 "_: Northwest\n"
 "NW"
