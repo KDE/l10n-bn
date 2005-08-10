@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
-"POT-Creation-Date: 2005-07-24 01:40+0200\n"
+"POT-Creation-Date: 2005-08-10 10:20+0200\n"
 "PO-Revision-Date: 2004-09-12 15:22-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -58,7 +58,7 @@ msgstr "জিনিষটি পাওয়া যায় নি।"
 msgid "Slider %1"
 msgstr "স্লাইডার %1"
 
-#: editfunction.cpp:70 ksliderwindow.cpp:49
+#: ksliderwindow.cpp:49
 #, c-format
 msgid "Slider no. %1"
 msgstr "স্লাইডার নং %1"
@@ -73,17 +73,17 @@ msgstr ""
 
 #: ksliderwindow.cpp:64
 #, fuzzy
-msgid "&Change minimum value"
+msgid "&Change Minimum Value"
 msgstr "মান &পরিবর্তন করো..."
 
 #: ksliderwindow.cpp:66
 #, fuzzy
-msgid "&Change maximum value"
+msgid "&Change Maximum Value"
 msgstr "মান &পরিবর্তন করো..."
 
 #: ksliderwindow.cpp:102
 #, fuzzy
-msgid "Change minimum value"
+msgid "Change Minimum Value"
 msgstr "মান &পরিবর্তন করো..."
 
 #: ksliderwindow.cpp:102
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ksliderwindow.cpp:113
 #, fuzzy
-msgid "Change maximum value"
+msgid "Change Maximum Value"
 msgstr "মান &পরিবর্তন করো..."
 
 #: ksliderwindow.cpp:113
@@ -351,11 +351,9 @@ msgstr "এবং:"
 msgid "&Find"
 msgstr "&অনুসন্ধান"
 
-#. i18n: file editfunctionpage.ui line 238
-#: kminmax.cpp:74 kminmax.cpp:100 kminmax.cpp:118 rc.cpp:297 rc.cpp:626
-#: rc.cpp:715 rc.cpp:1970 rc.cpp:2299 rc.cpp:2388
-#, no-c-format
-msgid "lower boundary of the plot range"
+#: kminmax.cpp:74 kminmax.cpp:100 kminmax.cpp:118
+#, fuzzy
+msgid "Lower boundary of the plot range"
 msgstr "প্লটের নিম্নসীমা"
 
 #. i18n: file editfunctionpage.ui line 241
@@ -367,11 +365,9 @@ msgid ""
 "too."
 msgstr "প্লটের নিম্নসীমা লিখুন।  2*pi ধরনের মান লিখলেও কোন সমস্যা নেই।"
 
-#. i18n: file editfunctionpage.ui line 266
-#: kminmax.cpp:76 kminmax.cpp:120 rc.cpp:312 rc.cpp:620 rc.cpp:721 rc.cpp:1985
-#: rc.cpp:2293 rc.cpp:2394
-#, no-c-format
-msgid "upper boundary of the plot range"
+#: kminmax.cpp:76 kminmax.cpp:120
+#, fuzzy
+msgid "Upper boundary of the plot range"
 msgstr "প্লটের উর্ধ্বসীমা"
 
 #. i18n: file editfunctionpage.ui line 269
@@ -992,6 +988,12 @@ msgstr "এই বাটনে ক্লিক করুন এবং নিচ�
 msgid "&Min:"
 msgstr "সর্বনিম্ন (&ম):"
 
+#. i18n: file editfunctionpage.ui line 238
+#: rc.cpp:297 rc.cpp:626 rc.cpp:715 rc.cpp:1970 rc.cpp:2299 rc.cpp:2388
+#, no-c-format
+msgid "lower boundary of the plot range"
+msgstr "প্লটের নিম্নসীমা"
+
 #. i18n: file editfunctionpage.ui line 249
 #: rc.cpp:303 rc.cpp:1976
 #, fuzzy, no-c-format
@@ -1003,6 +1005,12 @@ msgstr "স্বনির্বাচি&ত প্লট সীমা:"
 #, fuzzy, no-c-format
 msgid "Customize the maximum plot range"
 msgstr "প্লটের সীমা স্বনির্বাচন করুন"
+
+#. i18n: file editfunctionpage.ui line 266
+#: rc.cpp:312 rc.cpp:620 rc.cpp:721 rc.cpp:1985 rc.cpp:2293 rc.cpp:2394
+#, no-c-format
+msgid "upper boundary of the plot range"
+msgstr "প্লটের উর্ধ্বসীমা"
 
 #. i18n: file editfunctionpage.ui line 277
 #: rc.cpp:318 rc.cpp:1991
@@ -3389,6 +3397,11 @@ msgstr "ফাংশন"
 #: editfunction.cpp:64
 msgid "Derivatives"
 msgstr "বৃদ্ধিহার (Derivative)"
+
+#: editfunction.cpp:70
+#, fuzzy, c-format
+msgid "Slider No. %1"
+msgstr "স্লাইডার নং %1"
 
 #: editfunction.cpp:180
 msgid "You can only define plot functions in this dialog"
