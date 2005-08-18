@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
-"POT-Creation-Date: 2005-07-31 01:40+0200\n"
+"POT-Creation-Date: 2005-08-18 04:25+0200\n"
 "PO-Revision-Date: 2004-09-22 11:56-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.3.1\n"
 
-#: KSysGuardApplet.cc:313 WorkSheet.cc:93
+#: KSysGuardApplet.cc:314 WorkSheet.cc:93
 #, c-format
 msgid "Cannot open the file %1."
 msgstr "%1 ফাইলটি খোলা যাচ্ছে না"
 
-#: KSysGuardApplet.cc:322 WorkSheet.cc:101
+#: KSysGuardApplet.cc:323 WorkSheet.cc:101
 msgid "The file %1 does not contain valid XML."
 msgstr "%1 ফাইলটি বৈধ এক্স-এম-এল নয়"
 
@@ -33,7 +33,7 @@ msgstr ""
 msgid "The file %1 has an invalid worksheet size."
 msgstr "%1 ফাইলে ওয়ার্কশিট-এর আয়তন অবৈধ "
 
-#: KSysGuardApplet.cc:460 WorkSheet.cc:221
+#: WorkSheet.cc:221
 #, c-format
 msgid "Cannot save file %1"
 msgstr "%1 ফাইলটি সংরক্ষণ করা যাচ্ছে না"
@@ -42,19 +42,19 @@ msgstr "%1 ফাইলটি সংরক্ষণ করা যাচ্ছে
 msgid "The clipboard does not contain a valid display description."
 msgstr "ক্লীপবোর্ড-এ বৈধ ডিসপ্লে বর্ণনা নেই"
 
-#: SensorDisplayLib/SensorDisplay.cc:97 WorkSheet.cc:306
+#: SensorDisplayLib/SensorDisplay.cc:102 WorkSheet.cc:306
 msgid "It is impossible to connect to '%1'."
 msgstr "'%1'-এর সঙ্গে সংযোগ স্থাপন অসম্ভব"
 
-#: KSysGuardApplet.cc:200 WorkSheet.cc:322
+#: KSysGuardApplet.cc:201 WorkSheet.cc:322
 msgid "Select Display Type"
 msgstr "ডিসপ্লে টাইপ নির্বাচন করুন"
 
-#: KSysGuardApplet.cc:201 WorkSheet.cc:323
+#: KSysGuardApplet.cc:202 WorkSheet.cc:323
 msgid "&Signal Plotter"
 msgstr "সি&গনাল প্লটার"
 
-#: KSysGuardApplet.cc:202 WorkSheet.cc:324
+#: KSysGuardApplet.cc:203 WorkSheet.cc:324
 msgid "&Multimeter"
 msgstr "মাল্টিমিটা&র"
 
@@ -66,11 +66,11 @@ msgstr "বারগ্রা&ফ"
 msgid "S&ensorLogger"
 msgstr "সেনসর&লগার"
 
-#: KSysGuardApplet.cc:252 WorkSheet.cc:457
+#: KSysGuardApplet.cc:253 WorkSheet.cc:457
 msgid "Do you really want to delete the display?"
 msgstr "আপনি কি সত্যিই ডিসপ্লেটি মুছে ফেলতে চান?"
 
-#: KSysGuardApplet.cc:252 WorkSheet.cc:458
+#: KSysGuardApplet.cc:253 WorkSheet.cc:458
 msgid "Delete Display"
 msgstr "ডিসপ্লে মুছে ফেলো"
 
@@ -246,7 +246,7 @@ msgstr "সি-পি-ইউ চাপ"
 msgid "Idle Load"
 msgstr "বিশ্রামকালীন চাপ"
 
-#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:164
+#: Workspace.cc:99 Workspace.cc:108 ksgrd/SensorManager.cc:52 ksysguard.cc:171
 msgid "System Load"
 msgstr "সিস্টেম চাপ"
 
@@ -591,7 +591,7 @@ msgid ""
 "worksheet (Menu File->New) before you can drag sensors here."
 msgstr ""
 
-#: Workspace.cc:104 ksysguard.cc:169
+#: Workspace.cc:104 ksysguard.cc:176
 msgid "Process Table"
 msgstr "প্রসেস তালিকা"
 
@@ -1171,27 +1171,27 @@ msgstr "নীচে নামাও"
 msgid "Sensor Logger"
 msgstr "সেনসর লগার"
 
-#: SensorDisplayLib/SensorDisplay.cc:154 SensorDisplayLib/SensorLogger.cc:381
+#: SensorDisplayLib/SensorDisplay.cc:160 SensorDisplayLib/SensorLogger.cc:381
 msgid "&Properties"
 msgstr "বৈশিষ্ট্যা&বলী"
 
-#: SensorDisplayLib/SensorDisplay.cc:155 SensorDisplayLib/SensorLogger.cc:382
+#: SensorDisplayLib/SensorDisplay.cc:161 SensorDisplayLib/SensorLogger.cc:382
 msgid "&Remove Display"
 msgstr "ডি&সপ্লে সরিয়ে ফেলো"
 
-#: SensorDisplayLib/SensorDisplay.cc:157
+#: SensorDisplayLib/SensorDisplay.cc:163
 msgid "&Setup Update Interval..."
 msgstr "আপডেট বিরতি সেট-&আপ..."
 
-#: SensorDisplayLib/SensorDisplay.cc:159
+#: SensorDisplayLib/SensorDisplay.cc:165
 msgid "&Continue Update"
 msgstr "আ&পডেট চালিয়ে যাও"
 
-#: SensorDisplayLib/SensorDisplay.cc:161
+#: SensorDisplayLib/SensorDisplay.cc:167
 msgid "P&ause Update"
 msgstr "আপডেট স্থগি&ত রাখো"
 
-#: SensorDisplayLib/SensorDisplay.cc:225
+#: SensorDisplayLib/SensorDisplay.cc:231
 #, fuzzy
 msgid ""
 "<qt>"
@@ -1340,92 +1340,92 @@ msgstr "লগ-ইন"
 msgid "Command"
 msgstr "কমান্ড"
 
-#: SensorDisplayLib/ProcessController.cc:81
-msgid "&Tree"
-msgstr "ট্রি (&ট)"
-
-#: SensorDisplayLib/ProcessController.cc:92
+#: SensorDisplayLib/ProcessController.cc:86
 msgid "All Processes"
 msgstr "সব প্রসেস"
 
-#: SensorDisplayLib/ProcessController.cc:93
+#: SensorDisplayLib/ProcessController.cc:87
 msgid "System Processes"
 msgstr "সিস্টেম প্রসেস"
 
-#: SensorDisplayLib/ProcessController.cc:94
+#: SensorDisplayLib/ProcessController.cc:88
 msgid "User Processes"
 msgstr "ব্যবহারকারীদের প্রসেস"
 
-#: SensorDisplayLib/ProcessController.cc:95
+#: SensorDisplayLib/ProcessController.cc:89
 msgid "Own Processes"
 msgstr "নিজস্ব প্রসেস"
 
-#: SensorDisplayLib/ProcessController.cc:104
+#: SensorDisplayLib/ProcessController.cc:92
+msgid "&Tree"
+msgstr "ট্রি (&ট)"
+
+#: SensorDisplayLib/ProcessController.cc:105
 msgid "&Refresh"
 msgstr "আবার &পড়ো"
 
-#: SensorDisplayLib/ProcessController.cc:111
+#: SensorDisplayLib/ProcessController.cc:112
 msgid "&Kill"
 msgstr ""
 
-#: SensorDisplayLib/ProcessController.cc:173
+#: SensorDisplayLib/ProcessController.cc:180
 msgid "%1: Running Processes"
 msgstr "%1: চলন্ত প্রসেস"
 
-#: SensorDisplayLib/ProcessController.cc:206
+#: SensorDisplayLib/ProcessController.cc:213
 msgid "You need to select a process first."
 msgstr "প্রথমে একটি প্রসেস নির্বাচন করতে হবে"
 
-#: SensorDisplayLib/ProcessController.cc:212
+#: SensorDisplayLib/ProcessController.cc:219
 #, c-format
 msgid ""
 "_n: Do you want to kill the selected process?\n"
 "Do you want to kill the %n selected processes?"
 msgstr ""
 
-#: SensorDisplayLib/ProcessController.cc:215
+#: SensorDisplayLib/ProcessController.cc:222
 msgid "Kill Process"
 msgstr ""
 
-#: SensorDisplayLib/ProcessController.cc:219
+#: SensorDisplayLib/ProcessController.cc:226
 msgid "Kill"
 msgstr ""
 
-#: SensorDisplayLib/ProcessController.cc:225
+#: SensorDisplayLib/ProcessController.cc:232
 msgid "Do not ask again"
 msgstr ""
 
-#: SensorDisplayLib/ProcessController.cc:310
+#: SensorDisplayLib/ProcessController.cc:317
 #, fuzzy, c-format
 msgid "Error while attempting to kill process %1."
 msgstr "সমস্যা যতক্ষণ চেষ্টা করছি প্রতি ক্রিয়া (প্রসেস), কার্যপ্রণালী, প্রসেস!"
 
-#: SensorDisplayLib/ProcessController.cc:315
+#: SensorDisplayLib/ProcessController.cc:322
 #, fuzzy, c-format
 msgid "Insufficient permissions to kill process %1."
 msgstr "অনুমতি প্রতি ক্রিয়া (প্রসেস), কার্যপ্রণালী, প্রসেস!"
 
-#: SensorDisplayLib/ProcessController.cc:320
-#: SensorDisplayLib/ProcessController.cc:355
+#: SensorDisplayLib/ProcessController.cc:327
+#: SensorDisplayLib/ProcessController.cc:362
 #, fuzzy
 msgid "Process %1 has already disappeared."
 msgstr "আছে এখনই!"
 
-#: SensorDisplayLib/ProcessController.cc:324
+#: SensorDisplayLib/ProcessController.cc:331
 msgid "Invalid Signal."
 msgstr "অবৈধ সিগনাল।"
 
-#: SensorDisplayLib/ProcessController.cc:345
+#: SensorDisplayLib/ProcessController.cc:352
 #, fuzzy, c-format
 msgid "Error while attempting to renice process %1."
 msgstr "সমস্যা যতক্ষণ চেষ্টা করছি প্রতি ক্রিয়া (প্রসেস), কার্যপ্রণালী, প্রসেস!"
 
-#: SensorDisplayLib/ProcessController.cc:350
+#: SensorDisplayLib/ProcessController.cc:357
 #, fuzzy, c-format
 msgid "Insufficient permissions to renice process %1."
 msgstr "অনুমতি প্রতি ক্রিয়া (প্রসেস), কার্যপ্রণালী, প্রসেস!"
 
-#: SensorDisplayLib/ProcessController.cc:359
+#: SensorDisplayLib/ProcessController.cc:366
 msgid "Invalid argument."
 msgstr "অবৈধ আর্গুমেন্ট।"
 
@@ -1533,25 +1533,25 @@ msgstr "টি নম্বর -র টি টুকরা উচিত."
 msgid "Enter the title of the worksheet here."
 msgstr "এখানে ওয়ার্কশিট-এর শিরোনাম লিখুন"
 
-#: KSysGuardApplet.cc:203
+#: KSysGuardApplet.cc:204
 msgid "&Dancing Bars"
 msgstr ""
 
-#: KSysGuardApplet.cc:233 KSysGuardApplet.cc:386
+#: KSysGuardApplet.cc:234 KSysGuardApplet.cc:387
 #, fuzzy
 msgid ""
 "The KSysGuard applet does not support displaying of this type of sensor. Please "
 "choose another sensor."
 msgstr "অ্যাপলেট করে নয় সমর্থন প্রদর্শনরত -র এই ধরন -র বেছে নিন আরেকটি."
 
-#: KSysGuardApplet.cc:329
+#: KSysGuardApplet.cc:330
 #, fuzzy
 msgid ""
 "The file %1 does not contain a valid applet definition, which must have a "
 "document type 'KSysGuardApplet'."
 msgstr "ফাইল করে নয় ধারণ করে একটি বৈধ অ্যাপলেট সংজ্ঞা কোন অবশ্যই একটি নথী ধরন."
 
-#: KSysGuardApplet.cc:477
+#: KSysGuardApplet.cc:473
 #, fuzzy
 msgid "Drag sensors from the KDE System Guard into this cell."
 msgstr "থেকে টি কে.ডি.ই. ভেতরে এই."
@@ -1589,7 +1589,7 @@ msgstr ""
 msgid "KDE system guard"
 msgstr "কে.ডি.ই. সিস্টেম প্রহরী"
 
-#: ksysguard.cc:74 ksysguard.cc:549
+#: ksysguard.cc:74 ksysguard.cc:556
 msgid "KDE System Guard"
 msgstr "কে.ডি.ই. সিস্টেম প্রহরী"
 
@@ -1605,39 +1605,62 @@ msgstr ""
 msgid "Swap: 888888888 kB used, 888888888 kB free"
 msgstr ""
 
-#: ksysguard.cc:118
+#: ksysguard.cc:108
+#, fuzzy
+msgid "&New Worksheet"
+msgstr "সব ওয়ার্কশিট রিসেট করো"
+
+#: ksysguard.cc:111
+msgid "&Import Recent Worksheet..."
+msgstr ""
+
+#: ksysguard.cc:114
+#, fuzzy
+msgid "Import Worksheet"
+msgstr "সব ওয়ার্কশিট রিসেট করো"
+
+#: ksysguard.cc:117
+#, fuzzy
+msgid "&Remove Worksheet"
+msgstr "সব ওয়ার্কশিট রিসেট করো"
+
+#: ksysguard.cc:120
+msgid "&Export Worksheet"
+msgstr ""
+
+#: ksysguard.cc:125
 msgid "C&onnect Host..."
 msgstr "হোস্ট-এর সঙ্গে সংযোগ স্থাপ&ন করো..."
 
-#: ksysguard.cc:120
+#: ksysguard.cc:127
 msgid "D&isconnect Host"
 msgstr "হোস্ট-এর &সঙ্গে সংযোগ বিচ্ছিন্ন করো..."
 
-#: ksysguard.cc:126
+#: ksysguard.cc:133
 msgid "&Worksheet Properties"
 msgstr "&ওয়ার্কশিট বৈশিষ্ট্যাবলী"
 
-#: ksysguard.cc:129
+#: ksysguard.cc:136
 msgid "Load Standard Sheets"
 msgstr ""
 
-#: ksysguard.cc:133
+#: ksysguard.cc:140
 msgid "Configure &Style..."
 msgstr "স্টা&ইল কনফিগার করো..."
 
-#: ksysguard.cc:150
+#: ksysguard.cc:157
 msgid "Do you really want to restore the default worksheets?"
 msgstr "আপনি কি সত্যিই ডিফল্ট ওয়ার্কশিট-গুলি পুনঃস্থাপিত করতে চান?"
 
-#: ksysguard.cc:151
+#: ksysguard.cc:158
 msgid "Reset All Worksheets"
 msgstr "সব ওয়ার্কশিট রিসেট করো"
 
-#: ksysguard.cc:152
+#: ksysguard.cc:159
 msgid "Reset"
 msgstr ""
 
-#: ksysguard.cc:429
+#: ksysguard.cc:436
 #, c-format
 msgid ""
 "_n: 1 Process\n"
@@ -1646,32 +1669,32 @@ msgstr ""
 "একটি প্রসেস\n"
 "%n-টি প্রসেস"
 
-#: ksysguard.cc:439
+#: ksysguard.cc:446
 msgid "Memory: %1 %2 used, %3 %4 free"
 msgstr "মেমরি: %1 %2 ব্যবহৃত, %3 %4 ফাঁকা"
 
-#: ksysguard.cc:497
+#: ksysguard.cc:504
 msgid "No swap space available"
 msgstr ""
 
-#: ksysguard.cc:499
+#: ksysguard.cc:506
 msgid "Swap: %1 %2 used, %3 %4 free"
 msgstr "সোয়্যাপ: %1 %2 ব্যবহৃত, %3 %4 ফাঁকা"
 
-#: ksysguard.cc:508
+#: ksysguard.cc:515
 msgid "Show only process list of local host"
 msgstr "শুধুমাত্র স্থানীয় হোস্ট-এর প্রসেস তালিকা দেখাও "
 
-#: ksysguard.cc:509
+#: ksysguard.cc:516
 #, fuzzy
 msgid "Optional worksheet files to load"
 msgstr "অপশনাল প্রতি লোড"
 
-#: ksysguard.cc:551
+#: ksysguard.cc:558
 msgid "(c) 1996-2002 The KSysGuard Developers"
 msgstr "(C) ১৯৯৬-২০০২ কে-সিস-গার্ড ডেভেলপারবৃন্দ"
 
-#: ksysguard.cc:559
+#: ksysguard.cc:566
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
