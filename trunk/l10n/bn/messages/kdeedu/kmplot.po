@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
-"POT-Creation-Date: 2005-08-10 10:20+0200\n"
+"POT-Creation-Date: 2005-08-28 02:51+0200\n"
 "PO-Revision-Date: 2004-09-12 15:22-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -437,7 +437,7 @@ msgstr ""
 "উপরের টেক্সট বাক্সের এক্স-অক্ষীয়-মান থেকে যে ওয়াই-অক্ষীয় মান পেয়েছিলেন, এখানে "
 "তা দেখতে পাবেন।  ওয়াই-অক্ষীয় মান গণনার জন্য 'গণনা' বাটনে চাপ দিন।"
 
-#: kminmax.cpp:105
+#: kminmax.cpp:105 kminmax.cpp:126
 #, fuzzy
 msgid "&Calculate"
 msgstr "&অনুরূপ"
@@ -454,28 +454,25 @@ msgstr ""
 "মানটি ওয়াই-অক্ষের ঘরে দেখাও"
 
 #: kminmax.cpp:123
-msgid "Area Under Graph"
-msgstr "লেখচিত্রের অধীন ক্ষেত্র"
+#, fuzzy
+msgid "Calculate integral"
+msgstr "&অনুরূপ"
 
 #: kminmax.cpp:124
-msgid "Draw the area between the x-values:"
+#, fuzzy
+msgid "Calculate the integral between the x-values:"
 msgstr "এই এক্স-অক্ষীয় মানদ্বয়ের মধ্যবর্তী ক্ষেত্র আঁকো:"
 
-#: kminmax.cpp:126
-msgid "&Draw"
-msgstr ""
-
 #: kminmax.cpp:127
-msgid "Draw the area between the function and the y-axis"
-msgstr "ওয়াই-অক্ষ ও ফাংশনটির মধ্যবর্তী ক্ষেত্র আঁকো"
+#, fuzzy
+msgid "Calculate the integral between the x-values"
+msgstr "এই এক্স-অক্ষীয় মানদ্বয়ের মধ্যবর্তী ক্ষেত্র আঁকো:"
 
 #: kminmax.cpp:128
 msgid ""
-"Draw the area between the function and the y-axis and show the area in a "
-"message box."
+"Calculate the numeric integral between the x-values and draw the result as an "
+"area."
 msgstr ""
-"ওয়াই-অক্ষ ও ফাংশনটির মধ্যবর্তী ক্ষেত্র আঁকো ও ক্ষেত্রটিকে বার্তাসূচক বাক্সে "
-"দেখাও।"
 
 #: kminmax.cpp:221
 msgid "Please choose a function"
@@ -524,9 +521,9 @@ msgstr ""
 
 #: kminmax.cpp:339
 msgid ""
-"The area between %1 and %2\n"
-"is: %3"
-msgstr "%1 ও %2-এর মধ্যবর্তী ক্ষেত্রের ক্ষেত্রফল হল: %3"
+"The integral in the interval [%1, %2] is:\n"
+"%3"
+msgstr ""
 
 #: kminmax.cpp:344
 msgid "The operation was cancelled by the user."
@@ -622,8 +619,11 @@ msgstr "যে সকল ফাংশনের প্লট আঁকা হব�
 #. i18n: file FktDlgData.ui line 133
 #: rc.cpp:81 rc.cpp:1754
 #, no-c-format
-msgid "Here you see the list of all functions to be plotted."
-msgstr "এখানে আপনি যে সকল ফাংশনের প্লট আঁকা হবে তাদের তালিকা দেখতে পাচ্ছেন।"
+msgid ""
+"Here you see the list of all functions to be plotted. The checked functions are "
+"visible, the others are hidden. Click on a checkbox to show or hide the "
+"function."
+msgstr ""
 
 #. i18n: file FktDlgData.ui line 155
 #: rc.cpp:87 rc.cpp:1760
@@ -657,9 +657,9 @@ msgstr "নির্বাচিত ফাংশন সম্পাদন কর
 
 #. i18n: file FktDlgData.ui line 199
 #: rc.cpp:102 rc.cpp:1775
-#, no-c-format
-msgid "New &Function Plot..."
-msgstr "নতুন ফাংশন প্লট... (&ফ)"
+#, fuzzy, no-c-format
+msgid "Ne&w Function Plot..."
+msgstr "&নতুন ফাংশন প্লট..."
 
 #. i18n: file FktDlgData.ui line 205
 #: rc.cpp:105 rc.cpp:114 rc.cpp:123 rc.cpp:132 rc.cpp:141 rc.cpp:1778
@@ -696,7 +696,7 @@ msgstr "&নতুন পোলার প্লট..."
 #. i18n: file FktDlgData.ui line 288
 #: rc.cpp:129 rc.cpp:1802
 #, fuzzy, no-c-format
-msgid "&Copy Function..."
+msgid "Cop&y Function..."
 msgstr "ফাঁকা ফাংশন"
 
 #. i18n: file FktDlgData.ui line 313
@@ -3110,22 +3110,22 @@ msgstr "আপনি কি এই ফাংশনটি অপসারণে�
 msgid "Error in extension."
 msgstr "বর্ধিতাংশে সমস্যা।"
 
-#: xparser.cpp:760
+#: xparser.cpp:769
 msgid "There are no other Kmplot instances running"
 msgstr ""
 
-#: xparser.cpp:772
+#: xparser.cpp:781
 #, fuzzy
 msgid "kmplot"
 msgstr "কে-এমপ্লট"
 
-#: xparser.cpp:772
+#: xparser.cpp:781
 msgid ""
 "Choose which KmPlot instance\n"
 "you want to copy the function to:"
 msgstr ""
 
-#: xparser.cpp:798 xparser.cpp:807
+#: xparser.cpp:807 xparser.cpp:816
 #, fuzzy
 msgid "An error appeared during the transfer"
 msgstr "এই ফাইলটি খোলার সময় একটি সমস্যা হয়েছে"
@@ -3255,8 +3255,9 @@ msgid "&Search for Maximum Value..."
 msgstr "&সর্বোচ্চ মান খোঁজো..."
 
 #: MainDlg.cpp:179
-msgid "&Area Under Graph..."
-msgstr "লেখচিত্রের &অধীন ক্ষেত্র..."
+#, fuzzy
+msgid "&Calculate integral"
+msgstr "&অনুরূপ"
 
 #: MainDlg.cpp:182
 msgid "Quick Edit"
@@ -3419,6 +3420,29 @@ msgstr "অনুগ্রহপূর্বক একটি বৈধ ওয়া
 msgid "Recursive function is only allowed when drawing integral graphs"
 msgstr ""
 "শুধুমাত্র যোজিত ফলের লেখচিত্র আঁকার সময়ই Recursive ফাংশন ব্যবহার করা যায়"
+
+#~ msgid "Area Under Graph"
+#~ msgstr "লেখচিত্রের অধীন ক্ষেত্র"
+
+#~ msgid "Draw the area between the function and the y-axis"
+#~ msgstr "ওয়াই-অক্ষ ও ফাংশনটির মধ্যবর্তী ক্ষেত্র আঁকো"
+
+#~ msgid "Draw the area between the function and the y-axis and show the area in a message box."
+#~ msgstr "ওয়াই-অক্ষ ও ফাংশনটির মধ্যবর্তী ক্ষেত্র আঁকো ও ক্ষেত্রটিকে বার্তাসূচক বাক্সে দেখাও।"
+
+#~ msgid ""
+#~ "The area between %1 and %2\n"
+#~ "is: %3"
+#~ msgstr "%1 ও %2-এর মধ্যবর্তী ক্ষেত্রের ক্ষেত্রফল হল: %3"
+
+#~ msgid "Here you see the list of all functions to be plotted."
+#~ msgstr "এখানে আপনি যে সকল ফাংশনের প্লট আঁকা হবে তাদের তালিকা দেখতে পাচ্ছেন।"
+
+#~ msgid "New &Function Plot..."
+#~ msgstr "নতুন ফাংশন প্লট... (&ফ)"
+
+#~ msgid "&Area Under Graph..."
+#~ msgstr "লেখচিত্রের &অধীন ক্ষেত্র..."
 
 #, fuzzy
 #~ msgid "customize the plot maximum range"
