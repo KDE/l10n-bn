@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
-"POT-Creation-Date: 2005-08-31 02:41+0200\n"
+"POT-Creation-Date: 2005-09-02 02:34+0200\n"
 "PO-Revision-Date: 2004-09-02 11:14-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -2411,7 +2411,7 @@ msgid "You need to supply a username and a password"
 msgstr "আপনি চাই   একটি এবং একটি পাসওয়ার্ড"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 134
-#: kfile/kpropertiesdialog.cpp:3564 kio/passdlg.cpp:108 rc.cpp:108
+#: kfile/kpropertiesdialog.cpp:3638 kio/passdlg.cpp:108 rc.cpp:108
 #, fuzzy, no-c-format
 msgid "&Username:"
 msgstr "না&ম পরিবর্তন"
@@ -2482,43 +2482,43 @@ msgstr "<qt>   চালাও টি আদেশ নির্বাচিত �
 msgid "Could not find the program '%1'"
 msgstr "'%1' প্রোগ্রামটি পাওয়া যায়নি"
 
-#: kio/kfileitem.cpp:689
+#: kio/kfileitem.cpp:722
 #, fuzzy
 msgid "Symbolic Link"
 msgstr "লিঙ্ক"
 
-#: kio/kfileitem.cpp:691
+#: kio/kfileitem.cpp:724
 msgid "%1 (Link)"
 msgstr "%1 (লিঙ্ক)"
 
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:270
-#: bookmarks/kbookmarkmenu.cc:791 kfile/kpropertiesdialog.cpp:3795
-#: kio/kfileitem.cpp:732
+#: bookmarks/kbookmarkmenu.cc:791 kfile/kpropertiesdialog.cpp:3869
+#: kio/kfileitem.cpp:765
 msgid "Name:"
 msgstr "নাম:"
 
-#: kfile/kpropertiesdialog.cpp:905 kio/kfileitem.cpp:733
+#: kfile/kpropertiesdialog.cpp:913 kio/kfileitem.cpp:766
 msgid "Type:"
 msgstr "ধরন:"
 
-#: kio/kfileitem.cpp:737
+#: kio/kfileitem.cpp:770
 #, fuzzy
 msgid "Link to %1 (%2)"
 msgstr "%1-এ লিঙ্ক"
 
-#: kfile/kpropertiesdialog.cpp:955 kio/kfileitem.cpp:745
+#: kfile/kpropertiesdialog.cpp:963 kio/kfileitem.cpp:778
 msgid "Size:"
 msgstr "মাপ:"
 
-#: kfile/kpropertiesdialog.cpp:1023 kio/kfileitem.cpp:750
+#: kfile/kpropertiesdialog.cpp:1031 kio/kfileitem.cpp:783
 msgid "Modified:"
 msgstr "পরিবর্তিত:"
 
-#: kio/kfileitem.cpp:756
+#: kio/kfileitem.cpp:789
 msgid "Owner:"
 msgstr "মালিক:"
 
-#: kio/kfileitem.cpp:757
+#: kio/kfileitem.cpp:790
 msgid "Permissions:"
 msgstr "ব্যবহারের অনুমতি:"
 
@@ -2564,11 +2564,11 @@ msgid ""
 "klauncher said: %1"
 msgstr "  তৈরি ১"
 
-#: kfile/kpropertiesdialog.cpp:2552 kio/kmimetypechooser.cpp:75
+#: kfile/kpropertiesdialog.cpp:2626 kio/kmimetypechooser.cpp:75
 msgid "Mime Type"
 msgstr "মাইম টাইপ"
 
-#: kfile/kpropertiesdialog.cpp:2563 kio/kmimetypechooser.cpp:80
+#: kfile/kpropertiesdialog.cpp:2637 kio/kmimetypechooser.cpp:80
 msgid "Comment"
 msgstr "মন্তব্য"
 
@@ -2829,7 +2829,7 @@ msgstr "ব্যবহারকারী:"
 msgid "IP address:"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2431 kssl/ksslinfodlg.cc:226
+#: kfile/kpropertiesdialog.cpp:2505 kssl/ksslinfodlg.cc:226
 msgid "URL:"
 msgstr "ইউ-আর-এল:"
 
@@ -3661,7 +3661,7 @@ msgid "O&ther icons:"
 msgstr "&অন্যান্য আইকন:"
 
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 213
-#: kfile/kicondialog.cpp:283 kfile/kpropertiesdialog.cpp:3480 rc.cpp:298
+#: kfile/kicondialog.cpp:283 kfile/kpropertiesdialog.cpp:3554 rc.cpp:298
 #, no-c-format
 msgid "&Browse..."
 msgstr "ব্রাউ&জ..."
@@ -3712,6 +3712,108 @@ msgstr "প্রাকদর্শন"
 msgid "No preview available."
 msgstr "কোন প্রাকদর্শন নেই।"
 
+#: kfile/kacleditwidget.cpp:59 kfile/kacleditwidget.cpp:381
+#: kfile/kfiledetailview.cpp:70
+msgid "Owner"
+msgstr "মালিক"
+
+#: kfile/kacleditwidget.cpp:60 kfile/kacleditwidget.cpp:383
+msgid "Owning Group"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:385
+#: kfile/kpropertiesdialog.cpp:1928
+msgid "Others"
+msgstr "অন্যান্য"
+
+#: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:387
+msgid "Mask"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:389
+msgid "Named User"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:391
+#, fuzzy
+msgid "Named Group"
+msgstr "গ্রুপ"
+
+#: kfile/kacleditwidget.cpp:77
+#, fuzzy
+msgid "Add Entry"
+msgstr "এন্ট্রি যো&গ করো..."
+
+#: kfile/kacleditwidget.cpp:79
+#, fuzzy
+msgid "Edit Entry"
+msgstr "এন্ট্রি &সম্পাদন করো..."
+
+#: kfile/kacleditwidget.cpp:81
+#, fuzzy
+msgid "Delete Entry"
+msgstr "মুছে ফেলা হচ্ছে"
+
+#: kfile/kacleditwidget.cpp:262
+#, fuzzy
+msgid " (Default)"
+msgstr "(মুছে ফেলা হচ্ছে)"
+
+#: kfile/kacleditwidget.cpp:357
+#, fuzzy
+msgid "Edit ACL entry"
+msgstr "এন্ট্রি &সম্পাদন করো..."
+
+#: kfile/kacleditwidget.cpp:367
+msgid "Entry type"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:370
+msgid "Default for new files in this directory"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:406
+#, fuzzy
+msgid "User "
+msgstr "ব্যবহারকারী"
+
+#: kfile/kacleditwidget.cpp:410
+#, fuzzy
+msgid "Group "
+msgstr "গ্রুপ"
+
+#: kfile/kacleditwidget.cpp:523
+#, fuzzy
+msgid "Type"
+msgstr "ধরন:"
+
+#: kfile/kacleditwidget.cpp:524 kfile/kfiledetailview.cpp:66
+msgid "Name"
+msgstr "নাম"
+
+#: kfile/kacleditwidget.cpp:525
+#, fuzzy
+msgid ""
+"_: read permission\n"
+"r"
+msgstr "অগ্রসর অনুমতি"
+
+#: kfile/kacleditwidget.cpp:526
+msgid ""
+"_: write permission\n"
+"w"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:527
+msgid ""
+"_: execute permission\n"
+"x"
+msgstr ""
+
+#: kfile/kacleditwidget.cpp:528
+msgid "Effective"
+msgstr ""
+
 #: kfile/kdirselectdialog.cpp:89
 msgid "Select Folder"
 msgstr "ফোল্ডার নির্বাচন করো"
@@ -3754,7 +3856,7 @@ msgstr "%1 নামে একটি ফাইল বা ফোল্ডার �
 msgid "You do not have permission to create that folder."
 msgstr "আপনার ঐ ফোল্ডারটি তৈরি করার অনুমতি নেই।"
 
-#: bookmarks/kbookmarkmenu.cc:797 kfile/kpropertiesdialog.cpp:946
+#: bookmarks/kbookmarkmenu.cc:797 kfile/kpropertiesdialog.cpp:954
 #: kfile/kurlrequesterdlg.cpp:47
 msgid "Location:"
 msgstr "অবস্থান:"
@@ -4335,10 +4437,6 @@ msgstr "প্রাকদর্শন দেখাও"
 msgid "Hide Preview"
 msgstr "প্রাকদর্শন"
 
-#: kfile/kfiledetailview.cpp:66
-msgid "Name"
-msgstr "নাম"
-
 #: kfile/kfiledetailview.cpp:68
 msgid "Date"
 msgstr "তারিখ"
@@ -4347,11 +4445,7 @@ msgstr "তারিখ"
 msgid "Permissions"
 msgstr "অনুমতি"
 
-#: kfile/kfiledetailview.cpp:70
-msgid "Owner"
-msgstr "মালিক"
-
-#: kfile/kfiledetailview.cpp:71 kfile/kpropertiesdialog.cpp:1901
+#: kfile/kfiledetailview.cpp:71 kfile/kpropertiesdialog.cpp:1924
 msgid "Group"
 msgstr "গ্রুপ"
 
@@ -4359,84 +4453,84 @@ msgstr "গ্রুপ"
 msgid "&Meta Info"
 msgstr "মেটা &তথ্য"
 
-#: kfile/kpropertiesdialog.cpp:156 kfile/kpropertiesdialog.cpp:172
-#: kfile/kpropertiesdialog.cpp:188 kfile/kpropertiesdialog.cpp:211
-#: kfile/kpropertiesdialog.cpp:231 kfile/kpropertiesdialog.cpp:251
+#: kfile/kpropertiesdialog.cpp:164 kfile/kpropertiesdialog.cpp:180
+#: kfile/kpropertiesdialog.cpp:196 kfile/kpropertiesdialog.cpp:219
+#: kfile/kpropertiesdialog.cpp:239 kfile/kpropertiesdialog.cpp:259
 #, fuzzy, c-format
 msgid "Properties for %1"
 msgstr "বৈশিষ্ট্যাবলী জন্য ১"
 
-#: kfile/kpropertiesdialog.cpp:187
+#: kfile/kpropertiesdialog.cpp:195
 #, c-format
 msgid ""
 "_n: <never used>\n"
 "Properties for %n Selected Items"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:713
+#: kfile/kpropertiesdialog.cpp:721
 msgid "&General"
 msgstr "সাধা&রণ"
 
-#: kfile/kpropertiesdialog.cpp:922
+#: kfile/kpropertiesdialog.cpp:930
 #, fuzzy
 msgid "Create new file type"
 msgstr ""
 "%1-এ \n"
 "নতুন ফোল্ডার তৈরি করো"
 
-#: kfile/kpropertiesdialog.cpp:924
+#: kfile/kpropertiesdialog.cpp:932
 msgid "Edit file type"
 msgstr "ফাইল টাইপ সম্পাদন করুন"
 
-#: kfile/kpropertiesdialog.cpp:937
+#: kfile/kpropertiesdialog.cpp:945
 msgid "Contents:"
 msgstr "বিষয়বস্তু:"
 
-#: kfile/kpropertiesdialog.cpp:979
+#: kfile/kpropertiesdialog.cpp:987
 msgid "Calculate"
 msgstr "গণনা করো"
 
-#: kfile/kpropertiesdialog.cpp:990 kfile/kpropertiesdialog.cpp:1217
+#: kfile/kpropertiesdialog.cpp:998 kfile/kpropertiesdialog.cpp:1225
 msgid "Refresh"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:998
+#: kfile/kpropertiesdialog.cpp:1006
 #, fuzzy
 msgid "Points to:"
 msgstr "বিন্দু  :"
 
-#: kfile/kpropertiesdialog.cpp:1012
+#: kfile/kpropertiesdialog.cpp:1020
 msgid "Created:"
 msgstr "তৈরি:"
 
-#: kfile/kpropertiesdialog.cpp:1034
+#: kfile/kpropertiesdialog.cpp:1042
 msgid "Accessed:"
 msgstr "ব্যবহৃত:"
 
-#: kfile/kpropertiesdialog.cpp:1053
+#: kfile/kpropertiesdialog.cpp:1061
 msgid "Mounted on:"
 msgstr "মাউন্ট করা:"
 
-#: kfile/kpropertiesdialog.cpp:1060 kfile/kpropertiesdialog.cpp:2754
+#: kfile/kpropertiesdialog.cpp:1068 kfile/kpropertiesdialog.cpp:2828
 msgid "Free disk space:"
 msgstr "ডিস্কে ফাঁকা জায়গা:"
 
-#: kfile/kpropertiesdialog.cpp:1167 kfile/kpropertiesdialog.cpp:1182
-#: kfile/kpropertiesdialog.cpp:2897
+#: kfile/kpropertiesdialog.cpp:1175 kfile/kpropertiesdialog.cpp:1190
+#: kfile/kpropertiesdialog.cpp:2971
 #, no-c-format
 msgid ""
 "_: Available space out of total partition size (percent used)\n"
 "%1 out of %2 (%3% used)"
 msgstr "%2 -এর মধ্যে %1 (%3% ব্যবহৃত)"
 
-#: kfile/kpropertiesdialog.cpp:1193
+#: kfile/kpropertiesdialog.cpp:1201
 #, fuzzy
 msgid ""
 "Calculating... %1 (%2)\n"
 "%3, %4"
 msgstr "গণনা চলছে... %1 (%2)"
 
-#: kfile/kpropertiesdialog.cpp:1196 kfile/kpropertiesdialog.cpp:1212
+#: kfile/kpropertiesdialog.cpp:1204 kfile/kpropertiesdialog.cpp:1220
 #, fuzzy, c-format
 msgid ""
 "_n: 1 file\n"
@@ -4445,7 +4539,7 @@ msgstr ""
 "%n-টি ফাইল\n"
 "%n-টি ফাইল"
 
-#: kfile/kpropertiesdialog.cpp:1197 kfile/kpropertiesdialog.cpp:1213
+#: kfile/kpropertiesdialog.cpp:1205 kfile/kpropertiesdialog.cpp:1221
 #, fuzzy, c-format
 msgid ""
 "_n: 1 sub-folder\n"
@@ -4454,119 +4548,119 @@ msgstr ""
 "%n-টি ফোল্ডার\n"
 "%n-টি ফোল্ডার"
 
-#: kfile/kpropertiesdialog.cpp:1226
+#: kfile/kpropertiesdialog.cpp:1234
 msgid "Calculating..."
 msgstr "গণনা চলছে..."
 
-#: kfile/kpropertiesdialog.cpp:1244
+#: kfile/kpropertiesdialog.cpp:1252
 msgid "Stopped"
 msgstr "বন্ধ"
 
-#: kfile/kpropertiesdialog.cpp:1284
+#: kfile/kpropertiesdialog.cpp:1292
 #, fuzzy
 msgid "The new file name is empty."
 msgstr "নতুন ফাইল নাম ফাঁকা!"
 
-#: kfile/kpropertiesdialog.cpp:1418 kfile/kpropertiesdialog.cpp:2487
-#: kfile/kpropertiesdialog.cpp:2644 kfile/kpropertiesdialog.cpp:2925
-#: kfile/kpropertiesdialog.cpp:3205 kfile/kpropertiesdialog.cpp:3701
-#: kfile/kpropertiesdialog.cpp:3945
+#: kfile/kpropertiesdialog.cpp:1426 kfile/kpropertiesdialog.cpp:2561
+#: kfile/kpropertiesdialog.cpp:2718 kfile/kpropertiesdialog.cpp:2999
+#: kfile/kpropertiesdialog.cpp:3279 kfile/kpropertiesdialog.cpp:3775
+#: kfile/kpropertiesdialog.cpp:4019
 #, fuzzy
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to <b>"
 "%1</b>.</qt>"
 msgstr "<qt> নয় সংরক্ষণ করা বৈশিষ্ট্যাবলী আপনি নয় access   লেখো  <b></b></qt>"
 
-#: kfile/kpropertiesdialog.cpp:1488 kfile/kpropertiesdialog.cpp:1492
-#: kfile/kpropertiesdialog.cpp:1497
+#: kfile/kpropertiesdialog.cpp:1499 kfile/kpropertiesdialog.cpp:1503
+#: kfile/kpropertiesdialog.cpp:1508
 msgid "Forbidden"
 msgstr "নিষিদ্ধ"
 
-#: kfile/kpropertiesdialog.cpp:1489
+#: kfile/kpropertiesdialog.cpp:1500
 msgid "Can Read"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1490
+#: kfile/kpropertiesdialog.cpp:1501
 msgid "Can Read & Write"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1493
+#: kfile/kpropertiesdialog.cpp:1504
 #, fuzzy
 msgid "Can View Content"
 msgstr "প্রদর্শন (_দ)"
 
-#: kfile/kpropertiesdialog.cpp:1494
+#: kfile/kpropertiesdialog.cpp:1505
 #, fuzzy
 msgid "Can View & Modify Content"
 msgstr "প্রদর্শন (_দ) পাল্টান"
 
-#: kfile/kpropertiesdialog.cpp:1498
+#: kfile/kpropertiesdialog.cpp:1509
 #, fuzzy
 msgid "Can View Content & Read"
 msgstr "প্রদর্শন (_দ)"
 
-#: kfile/kpropertiesdialog.cpp:1499
+#: kfile/kpropertiesdialog.cpp:1510
 #, fuzzy
 msgid "Can View/Read & Modify/Write"
 msgstr "প্রদর্শন (_দ) পাল্টান"
 
-#: kfile/kpropertiesdialog.cpp:1588
+#: kfile/kpropertiesdialog.cpp:1603
 msgid "&Permissions"
 msgstr "&অনুমতি"
 
-#: kfile/kpropertiesdialog.cpp:1599 kfile/kpropertiesdialog.cpp:1835
+#: kfile/kpropertiesdialog.cpp:1614 kfile/kpropertiesdialog.cpp:1852
 msgid "Access Permissions"
 msgstr "ব্যবহারের অনুমতি"
 
-#: kfile/kpropertiesdialog.cpp:1610
+#: kfile/kpropertiesdialog.cpp:1625
 msgid ""
 "_n: This file is a link and does not have permissions.\n"
 "All files are links and do not have permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1613
+#: kfile/kpropertiesdialog.cpp:1628
 msgid "Only the owner can change permissions."
 msgstr "কেবল মালিক অনুমতি বদলাতে পারেন।"
 
-#: kfile/kpropertiesdialog.cpp:1616
+#: kfile/kpropertiesdialog.cpp:1631
 msgid "O&wner:"
 msgstr "মালি&ক:"
 
-#: kfile/kpropertiesdialog.cpp:1622
+#: kfile/kpropertiesdialog.cpp:1637
 #, fuzzy
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr "টি ঐ টি মালিক আছে allowed  ."
 
-#: kfile/kpropertiesdialog.cpp:1624
+#: kfile/kpropertiesdialog.cpp:1639
 msgid "Gro&up:"
 msgstr "গ্রু&প:"
 
-#: kfile/kpropertiesdialog.cpp:1630
+#: kfile/kpropertiesdialog.cpp:1645
 #, fuzzy
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr "টি ঐ টি -র টি গ্রুপ   allowed  ."
 
-#: kfile/kpropertiesdialog.cpp:1632
+#: kfile/kpropertiesdialog.cpp:1647
 msgid "O&thers:"
 msgstr "&অন্যান্য:"
 
-#: kfile/kpropertiesdialog.cpp:1638
+#: kfile/kpropertiesdialog.cpp:1653
 #, fuzzy
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the group, "
 "are allowed to do."
 msgstr "টি ঐ সব কে   মালিক -এ টি গ্রুপ   allowed  ."
 
-#: kfile/kpropertiesdialog.cpp:1643
+#: kfile/kpropertiesdialog.cpp:1658
 #, fuzzy
 msgid "Only own&er can rename and delete folder content"
 msgstr "মালিক পারে নামবদল এবং মোছো"
 
-#: kfile/kpropertiesdialog.cpp:1644
+#: kfile/kpropertiesdialog.cpp:1659
 msgid "Is &executable"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1648
+#: kfile/kpropertiesdialog.cpp:1663
 #, fuzzy
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
@@ -4576,75 +4670,75 @@ msgstr ""
 "এই অপশন   allow শুধু টি s মালিক   মোছো অথবা নামবদল টি এবং অন্যান্য পারে শুধু "
 "যোগ নতুন কোন টি পাল্টান অনুমতি."
 
-#: kfile/kpropertiesdialog.cpp:1652
+#: kfile/kpropertiesdialog.cpp:1667
 #, fuzzy
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
 msgstr "এই অপশন   টি ফাইল   শুধু জন্য এবং আছে প্রয়োজনীয় যখন আপনি চাই   ওদের."
 
-#: kfile/kpropertiesdialog.cpp:1659
+#: kfile/kpropertiesdialog.cpp:1674
 #, fuzzy
 msgid "A&dvanced Permissions"
 msgstr "অগ্রসর অনুমতি"
 
-#: kfile/kpropertiesdialog.cpp:1668
+#: kfile/kpropertiesdialog.cpp:1683
 msgid "Ownership"
 msgstr "মালিকানা"
 
-#: kfile/kpropertiesdialog.cpp:1677
+#: kfile/kpropertiesdialog.cpp:1692
 msgid "User:"
 msgstr "ব্যবহারকারী:"
 
-#: kfile/kpropertiesdialog.cpp:1763
+#: kfile/kpropertiesdialog.cpp:1778
 msgid "Group:"
 msgstr "গ্রুপ:"
 
-#: kfile/kpropertiesdialog.cpp:1805
+#: kfile/kpropertiesdialog.cpp:1820
 #, fuzzy
 msgid "Apply changes to all subfolders and their contents"
 msgstr "প্রয়োগ   সব এবং contents"
 
-#: kfile/kpropertiesdialog.cpp:1827
+#: kfile/kpropertiesdialog.cpp:1842
 msgid "Advanced Permissions"
 msgstr "অগ্রসর অনুমতি"
 
-#: kfile/kpropertiesdialog.cpp:1843
+#: kfile/kpropertiesdialog.cpp:1861
 msgid "Class"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1847
+#: kfile/kpropertiesdialog.cpp:1866
 #, fuzzy
 msgid ""
 "Show\n"
 "Entries"
 msgstr "দেখানো হোক"
 
-#: kfile/kpropertiesdialog.cpp:1849
+#: kfile/kpropertiesdialog.cpp:1868
 msgid "Read"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1853
+#: kfile/kpropertiesdialog.cpp:1873
 #, fuzzy
 msgid "This flag allows viewing the content of the folder."
 msgstr "ফ্ল্যাগ allows টি -র টি."
 
-#: kfile/kpropertiesdialog.cpp:1855
+#: kfile/kpropertiesdialog.cpp:1875
 #, fuzzy
 msgid "The Read flag allows viewing the content of the file."
 msgstr "ফ্ল্যাগ allows টি -র টি ফাইল."
 
-#: kfile/kpropertiesdialog.cpp:1859
+#: kfile/kpropertiesdialog.cpp:1879
 msgid ""
 "Write\n"
 "Entries"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1861
+#: kfile/kpropertiesdialog.cpp:1881
 msgid "Write"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1865
+#: kfile/kpropertiesdialog.cpp:1886
 #, fuzzy
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting and "
@@ -4652,36 +4746,36 @@ msgid ""
 msgstr ""
 "ফ্ল্যাগ allows এবং মুছে ফেলছি -র ঐ মুছে ফেলছি এবং পারে ব্যবহার টি ফ্ল্যাগ."
 
-#: kfile/kpropertiesdialog.cpp:1868
+#: kfile/kpropertiesdialog.cpp:1889
 #, fuzzy
 msgid "The Write flag allows modifying the content of the file."
 msgstr "ফ্ল্যাগ allows টি -র টি ফাইল."
 
-#: kfile/kpropertiesdialog.cpp:1873
+#: kfile/kpropertiesdialog.cpp:1894
 msgid ""
 "_: Enter folder\n"
 "Enter"
 msgstr "ঢোকো"
 
-#: kfile/kpropertiesdialog.cpp:1874
+#: kfile/kpropertiesdialog.cpp:1895
 #, fuzzy
 msgid "Enable this flag to allow entering the folder."
 msgstr "এই ফ্ল্যাগ   allow টি."
 
-#: kfile/kpropertiesdialog.cpp:1877
+#: kfile/kpropertiesdialog.cpp:1898
 msgid "Exec"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1878
+#: kfile/kpropertiesdialog.cpp:1899
 #, fuzzy
 msgid "Enable this flag to allow executing the file as a program."
 msgstr "এই ফ্ল্যাগ   allow টি ফাইল   একটি প্রোগ্রাম."
 
-#: kfile/kpropertiesdialog.cpp:1887
+#: kfile/kpropertiesdialog.cpp:1909
 msgid "Special"
 msgstr "বিশেষ"
 
-#: kfile/kpropertiesdialog.cpp:1891
+#: kfile/kpropertiesdialog.cpp:1913
 #, fuzzy
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can be "
@@ -4689,7 +4783,7 @@ msgid ""
 msgstr ""
 "বিশিষ্ট ফ্ল্যাগ জন্য টি গোটা টি -র টি ফ্ল্যাগ পারে -এ টি ডানদিক হাত column."
 
-#: kfile/kpropertiesdialog.cpp:1894
+#: kfile/kpropertiesdialog.cpp:1916
 #, fuzzy
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
@@ -4697,20 +4791,16 @@ msgid ""
 msgstr "বিশিষ্ট ফ্ল্যাগ -র টি ফ্ল্যাগ পারে -এ টি ডানদিক হাত column."
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 95
-#: kfile/kpropertiesdialog.cpp:1898 rc.cpp:99
+#: kfile/kpropertiesdialog.cpp:1920 rc.cpp:99
 #, no-c-format
 msgid "User"
 msgstr "ব্যবহারকারী"
 
-#: kfile/kpropertiesdialog.cpp:1904
-msgid "Others"
-msgstr "অন্যান্য"
-
-#: kfile/kpropertiesdialog.cpp:1907
+#: kfile/kpropertiesdialog.cpp:1932
 msgid "Set UID"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1911
+#: kfile/kpropertiesdialog.cpp:1936
 #, fuzzy
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
@@ -4718,7 +4808,7 @@ msgid ""
 msgstr ""
 "এই ফ্ল্যাগ আছে সেট,সমষ্টি,মাননির্ধারণকরা টি মালিক -র এই   টি মালিক -র সব নতুন."
 
-#: kfile/kpropertiesdialog.cpp:1914
+#: kfile/kpropertiesdialog.cpp:1939
 #, fuzzy
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with the "
@@ -4727,11 +4817,11 @@ msgstr ""
 "এই ফাইল আছে একটি এবং টি ফ্ল্যাগ আছে সেট,সমষ্টি,মাননির্ধারণকরা     সঙ্গে টি "
 "অনুমতি -র টি মালিক."
 
-#: kfile/kpropertiesdialog.cpp:1918
+#: kfile/kpropertiesdialog.cpp:1943
 msgid "Set GID"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1922
+#: kfile/kpropertiesdialog.cpp:1947
 #, fuzzy
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
@@ -4739,7 +4829,7 @@ msgstr ""
 "এই ফ্ল্যাগ আছে সেট,সমষ্টি,মাননির্ধারণকরা টি গ্রুপ -র এই   "
 "সেট,সমষ্টি,মাননির্ধারণকরা জন্য সব নতুন."
 
-#: kfile/kpropertiesdialog.cpp:1925
+#: kfile/kpropertiesdialog.cpp:1950
 #, fuzzy
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with the "
@@ -4748,13 +4838,13 @@ msgstr ""
 "এই ফাইল আছে একটি এবং টি ফ্ল্যাগ আছে সেট,সমষ্টি,মাননির্ধারণকরা     সঙ্গে টি "
 "অনুমতি -র টি গ্রুপ."
 
-#: kfile/kpropertiesdialog.cpp:1929
+#: kfile/kpropertiesdialog.cpp:1954
 msgid ""
 "_: File permission\n"
 "Sticky"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1933
+#: kfile/kpropertiesdialog.cpp:1958
 #, fuzzy
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
@@ -4763,102 +4853,102 @@ msgstr ""
 "টি ফ্ল্যাগ আছে সেট,সমষ্টি,মাননির্ধারণকরা ওপর একটি শুধু টি মালিক এবং মূল,রুট "
 "পারে মোছো অথবা নামবদল সকলে সঙ্গে লেখো অনুমতি পারে এই."
 
-#: kfile/kpropertiesdialog.cpp:1937
+#: kfile/kpropertiesdialog.cpp:1962
 #, fuzzy
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some systems"
 msgstr "ফ্ল্যাগ ওপর একটি ফাইল আছে ওপর কিন্তু হয়তো ব্যবহৃত ওপর কিছু"
 
-#: kfile/kpropertiesdialog.cpp:2078
+#: kfile/kpropertiesdialog.cpp:2133
 msgid "Link"
 msgstr "লিঙ্ক"
 
-#: kfile/kpropertiesdialog.cpp:2094
+#: kfile/kpropertiesdialog.cpp:2149
 #, fuzzy
 msgid "Varying (No Change)"
 msgstr "না পরিবর্তন "
 
-#: kfile/kpropertiesdialog.cpp:2193
+#: kfile/kpropertiesdialog.cpp:2248
 msgid ""
 "_n: This file uses advanced permissions\n"
 "These files use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2209
+#: kfile/kpropertiesdialog.cpp:2269
 msgid ""
 "_n: This folder uses advanced permissions.\n"
 "These folders use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2224
+#: kfile/kpropertiesdialog.cpp:2284
 msgid "These files use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2426
+#: kfile/kpropertiesdialog.cpp:2500
 msgid "U&RL"
 msgstr "ইউ-আ&র-এল"
 
-#: kfile/kpropertiesdialog.cpp:2531
+#: kfile/kpropertiesdialog.cpp:2605
 msgid "A&ssociation"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2540
+#: kfile/kpropertiesdialog.cpp:2614
 #, fuzzy
 msgid "Pattern ( example: *.html;*.htm )"
 msgstr "নকশা"
 
-#: kfile/kpropertiesdialog.cpp:2573
+#: kfile/kpropertiesdialog.cpp:2647
 #, fuzzy
 msgid "Left click previews"
 msgstr "বামদিকে ক্লিক"
 
-#: kfile/kpropertiesdialog.cpp:2692
+#: kfile/kpropertiesdialog.cpp:2766
 msgid "De&vice"
 msgstr "ডিভাই&স"
 
-#: kfile/kpropertiesdialog.cpp:2722
+#: kfile/kpropertiesdialog.cpp:2796
 msgid "Device (/dev/fd0):"
 msgstr "ডিভাইস (/dev/fd0):"
 
-#: kfile/kpropertiesdialog.cpp:2723
+#: kfile/kpropertiesdialog.cpp:2797
 msgid "Device:"
 msgstr "ডিভাইস:"
 
-#: kfile/kpropertiesdialog.cpp:2733
+#: kfile/kpropertiesdialog.cpp:2807
 msgid "Read only"
 msgstr "শুধু পড়া যায়"
 
-#: kfile/kpropertiesdialog.cpp:2737
+#: kfile/kpropertiesdialog.cpp:2811
 #, fuzzy
 msgid "File system:"
 msgstr "ফাইল-সিস্টেম"
 
-#: kfile/kpropertiesdialog.cpp:2745
+#: kfile/kpropertiesdialog.cpp:2819
 msgid "Mount point (/mnt/floppy):"
 msgstr "মাউন্ট পয়েন্ট (/mnt/floppy):"
 
-#: kfile/kpropertiesdialog.cpp:2746
+#: kfile/kpropertiesdialog.cpp:2820
 msgid "Mount point:"
 msgstr "মাউন্ট পয়েন্ট:"
 
-#: kfile/kpropertiesdialog.cpp:2777
+#: kfile/kpropertiesdialog.cpp:2851
 msgid "Unmounted Icon"
 msgstr "আনমাউন্টেড আইকন"
 
-#: kfile/kpropertiesdialog.cpp:2957 kfile/kpropertiesdialog.cpp:3761
+#: kfile/kpropertiesdialog.cpp:3031 kfile/kpropertiesdialog.cpp:3835
 msgid "&Application"
 msgstr "অ্যা&পলিকেশন"
 
-#: kfile/kpropertiesdialog.cpp:3081
+#: kfile/kpropertiesdialog.cpp:3155
 #, c-format
 msgid "Add File Type for %1"
 msgstr "%1-র জন্য ফাইল টাইপ যোগ করো"
 
-#: bookmarks/kbookmarkmenu.cc:829 kfile/kpropertiesdialog.cpp:3084
+#: bookmarks/kbookmarkmenu.cc:829 kfile/kpropertiesdialog.cpp:3158
 msgid "&Add"
 msgstr "যো&গ"
 
-#: kfile/kpropertiesdialog.cpp:3085 kfile/kpropertiesdialog.cpp:3086
+#: kfile/kpropertiesdialog.cpp:3159 kfile/kpropertiesdialog.cpp:3160
 msgid ""
 "Add the selected file types to\n"
 "the list of supported file types."
@@ -4866,24 +4956,24 @@ msgstr ""
 "নির্বাচিত ফাইল টাইপ গুলি সমর্থিত\n"
 "ফাইল টাইপের তালিকায় যোগ করো।"
 
-#: kfile/kpropertiesdialog.cpp:3277 kfile/kpropertiesdialog.cpp:3733
+#: kfile/kpropertiesdialog.cpp:3351 kfile/kpropertiesdialog.cpp:3807
 msgid "Only executables on local file systems are supported."
 msgstr "শুধুমাত্র স্থানীয় এক্সিকিউটেবল ফাইল সমর্থিত।"
 
-#: kfile/kpropertiesdialog.cpp:3289
+#: kfile/kpropertiesdialog.cpp:3363
 #, c-format
 msgid "Advanced Options for %1"
 msgstr "%1-এর জন্য অগ্রসর অপশন"
 
-#: kfile/kpropertiesdialog.cpp:3448
+#: kfile/kpropertiesdialog.cpp:3522
 msgid "E&xecute"
 msgstr "চালা&ও"
 
-#: kfile/kpropertiesdialog.cpp:3455
+#: kfile/kpropertiesdialog.cpp:3529
 msgid "Comman&d:"
 msgstr "&কমাণ্ড:"
 
-#: kfile/kpropertiesdialog.cpp:3464
+#: kfile/kpropertiesdialog.cpp:3538
 #, fuzzy
 msgid ""
 "Following the command, you can have several place holders which will be "
@@ -4904,51 +4994,51 @@ msgstr ""
 "-তে একবার u একটি একা ইউ-আর-এল একটি তালিকা -র ইউ-আর-এল টি -র টি ফাইল   খোলা,পড়া, "
 "খোলা হোক একটি তালিকা -র i টি আইকন মিটার টি আইকন c টি"
 
-#: kfile/kpropertiesdialog.cpp:3485
+#: kfile/kpropertiesdialog.cpp:3559
 msgid "Panel Embedding"
 msgstr "প্যানেল এমবেডিং"
 
-#: kfile/kpropertiesdialog.cpp:3494
+#: kfile/kpropertiesdialog.cpp:3568
 msgid "&Execute on click:"
 msgstr "ওপর ক ক&রলে চালাও্লিক:"
 
-#: kfile/kpropertiesdialog.cpp:3502
+#: kfile/kpropertiesdialog.cpp:3576
 msgid "&Window title:"
 msgstr "&উইণ্ডো শিরোনাম:"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 55
-#: kfile/kpropertiesdialog.cpp:3522 rc.cpp:84
+#: kfile/kpropertiesdialog.cpp:3596 rc.cpp:84
 #, no-c-format
 msgid "&Run in terminal"
 msgstr "টা&রমিনালে চালাও "
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 77
-#: kfile/kpropertiesdialog.cpp:3537 rc.cpp:93
+#: kfile/kpropertiesdialog.cpp:3611 rc.cpp:93
 #, fuzzy, no-c-format
 msgid "Do not &close when command exits"
 msgstr "নয় বন্ধ যখন আদেশ"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 66
-#: kfile/kpropertiesdialog.cpp:3541 rc.cpp:90
+#: kfile/kpropertiesdialog.cpp:3615 rc.cpp:90
 #, no-c-format
 msgid "&Terminal options:"
 msgstr "টার্মিনা&ল অপশন:"
 
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 106
-#: kfile/kpropertiesdialog.cpp:3561 rc.cpp:102
+#: kfile/kpropertiesdialog.cpp:3635 rc.cpp:102
 #, fuzzy, no-c-format
 msgid "Ru&n as a different user"
 msgstr "চালাও   একটি আলাদা ব্যবহারকারী"
 
-#: kfile/kpropertiesdialog.cpp:3802
+#: kfile/kpropertiesdialog.cpp:3876
 msgid "Description:"
 msgstr "বর্ণনা:"
 
-#: kfile/kpropertiesdialog.cpp:3808
+#: kfile/kpropertiesdialog.cpp:3882
 msgid "Comment:"
 msgstr "মন্তব্য:"
 
-#: kfile/kpropertiesdialog.cpp:3814
+#: kfile/kpropertiesdialog.cpp:3888
 msgid "File types:"
 msgstr "ফাইল টাইপ:"
 
@@ -5994,7 +6084,7 @@ msgstr "লগ-ইন সফল"
 msgid "Could not login to %1."
 msgstr "%1-এ লগ-ইন করা যায়নি।"
 
-#: ../kioslave/file/file.cc:479 ../kioslave/file/file.cc:664
+#: ../kioslave/file/file.cc:551 ../kioslave/file/file.cc:762
 #, c-format
 msgid ""
 "Could not change permissions for\n"
@@ -6003,34 +6093,34 @@ msgstr ""
 "%1-র\n"
 "জন্য অনুমতি বদলানো যায়নি"
 
-#: ../kioslave/file/file.cc:609
+#: ../kioslave/file/file.cc:694
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: ../kioslave/file/file.cc:1039
+#: ../kioslave/file/file.cc:1167
 #, fuzzy, c-format
 msgid "No media in device for %1"
 msgstr "%1-এর জন্য কোনো মেটা-তথ্য জানা নেই"
 
-#: ../kioslave/file/file.cc:1203
+#: ../kioslave/file/file.cc:1333
 msgid "No Media inserted or Media not recognized."
 msgstr ""
 
-#: ../kioslave/file/file.cc:1213 ../kioslave/file/file.cc:1419
+#: ../kioslave/file/file.cc:1343 ../kioslave/file/file.cc:1549
 msgid "\"vold\" is not running."
 msgstr ""
 
-#: ../kioslave/file/file.cc:1247
+#: ../kioslave/file/file.cc:1377
 #, fuzzy
 msgid "Could not find program \"mount\""
 msgstr "'%1' প্রোগ্রামটি পাওয়া যায়নি"
 
-#: ../kioslave/file/file.cc:1432
+#: ../kioslave/file/file.cc:1562
 #, fuzzy
 msgid "Could not find program \"umount\""
 msgstr "'%1' প্রোগ্রামটি পাওয়া যায়নি"
 
-#: ../kioslave/file/file.cc:1536
+#: ../kioslave/file/file.cc:1666
 #, c-format
 msgid "Could not read %1"
 msgstr "%1 পড়া যায়নি"
@@ -6474,10 +6564,6 @@ msgstr "%1-এর জন্য কোনো মেটা-তথ্য জান�
 #, fuzzy
 #~ msgid "Bookmarks"
 #~ msgstr "বুকমার্ক"
-
-#, fuzzy
-#~ msgid "Delete"
-#~ msgstr "মুছে ফেলা হচ্ছে"
 
 #, fuzzy
 #~ msgid "&View"
