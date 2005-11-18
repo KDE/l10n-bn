@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
-"POT-Creation-Date: 2005-02-23 01:22+0100\n"
+"POT-Creation-Date: 2005-09-06 02:36+0200\n"
 "PO-Revision-Date: 2004-09-02 11:17-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -198,6 +198,70 @@ msgstr "স্বীকার করো"
 #: domainlistview.cpp:203 policydlg.cpp:48
 msgid "Reject"
 msgstr "প্রত্যাখ্যান করো"
+
+#: filteropts.cpp:52
+#, fuzzy
+msgid "Enable filters"
+msgstr "ডিবাগা&র সক্রিয় করো"
+
+#: filteropts.cpp:55
+msgid "Hide filtered images"
+msgstr ""
+
+#: filteropts.cpp:58
+msgid "URL Expressions to Filter"
+msgstr ""
+
+#: filteropts.cpp:63
+msgid "Expression (e.g. http://www.site.com/ad/*):"
+msgstr ""
+
+#: filteropts.cpp:71
+msgid "Update"
+msgstr ""
+
+#: filteropts.cpp:76
+#, fuzzy
+msgid "Import..."
+msgstr "&আমদানি..."
+
+#: filteropts.cpp:78
+#, fuzzy
+msgid "Export..."
+msgstr "&রপ্তানি..."
+
+#: filteropts.cpp:88
+msgid ""
+"Enable or disable AdBlocK filters. When enabled a set of expressions to be "
+"blocked should be defined in the filter list for blocking to take effect."
+msgstr ""
+
+#: filteropts.cpp:91
+msgid ""
+"When enabled blocked images will be removed from the page completely "
+"otherwise a placeholder 'blocked' image will be used."
+msgstr ""
+
+#: filteropts.cpp:93
+msgid ""
+"This is the list of URL filters that will be applied to all linked images "
+"and frames. The filters are processed in order so place more generic filters "
+"towards the top of the list."
+msgstr ""
+
+#: filteropts.cpp:96
+msgid ""
+"Enter an expression to filter. Expressions can be defined as either a "
+"filename style wildcard e.g. http://www.site.com/ads* or as a full regular "
+"expression by surrounding the string with '/' e.g.  //(ad|banner)\\./"
+msgstr ""
+
+#: filteropts.cpp:317
+msgid ""
+"<h1>Konqueror AdBlocK</h1> Konqueror AdBlocK allows you to create a list of "
+"filters that are checked against linked images and frames. URL's that match "
+"are either discarded or replaced with a placeholder image. "
+msgstr ""
 
 #: htmlopts.cpp:41
 msgid ""
@@ -466,39 +530,35 @@ msgstr "জাভা &সর্বত্র সক্রিয় করো"
 msgid "Java Runtime Settings"
 msgstr "জাভা রানটাইম সেটিংস"
 
-#: javaopts.cpp:84
-msgid "Sho&w Java console"
-msgstr "জাভা কনসোল দেখা&ও"
-
-#: javaopts.cpp:88
+#: javaopts.cpp:85
 msgid "&Use security manager"
 msgstr "নিরাপত্তা ম্যানেজার ব্য&বহার করো"
 
-#: javaopts.cpp:92
+#: javaopts.cpp:89
 msgid "Use &KIO"
 msgstr "KIO ব্যবহা&র করো"
 
-#: javaopts.cpp:96
+#: javaopts.cpp:93
 msgid "Shu&tdown applet server when inactive"
 msgstr "নিষ্ক্রিয় &অবস্থায় অ্যাপলেট সার্ভার বন্ধ করে রাখো"
 
-#: javaopts.cpp:104
+#: javaopts.cpp:101
 msgid "App&let server timeout:"
 msgstr "অ্যাপলে&ট সার্ভার টাইম-আউট:"
 
-#: javaopts.cpp:105
+#: javaopts.cpp:102
 msgid " sec"
 msgstr " সেকণ্ড"
 
-#: javaopts.cpp:110
+#: javaopts.cpp:107
 msgid "&Path to Java executable, or 'java':"
 msgstr "জাভা এক্সিকিউটেবল অথবা 'java'-র পা&থ (path):"
 
-#: javaopts.cpp:118
+#: javaopts.cpp:115
 msgid "Additional Java a&rguments:"
 msgstr "অতিরিক্ত জাভা &আর্গুমেন্ট:"
 
-#: javaopts.cpp:126
+#: javaopts.cpp:123
 msgid ""
 "Enables the execution of scripts written in Java that can be contained in "
 "HTML pages. Note that, as with any browser, enabling active contents can be "
@@ -508,7 +568,7 @@ msgstr ""
 "কোন ব্রাউজারের মত, এই ধরনের বিষয়বস্তু সক্রিয় করলে তার থেকে নিরাপত্তাজনিত সমস্যা "
 "দেখা দিতে পারে।"
 
-#: javaopts.cpp:129
+#: javaopts.cpp:126
 #, fuzzy
 msgid ""
 "This box contains the domains and hosts you have set a specific Java policy "
@@ -521,7 +581,7 @@ msgstr ""
 "ওপর পাতা প্রেরিত দ্বারা এই অথবা<p> নির্বাচন করো একটি পলিসি এবং ব্যবহার টি "
 "নিয়ন্ত্রণ করে ওপর টি ডানদিক/অধিকার প্রতি পরিবর্তন এটি."
 
-#: javaopts.cpp:136
+#: javaopts.cpp:133
 msgid ""
 "Click this button to choose the file that contains the Java policies. These "
 "policies will be merged with the existing ones. Duplicate entries are "
@@ -530,7 +590,7 @@ msgstr ""
 "জাভা পলিসি সম্বলিত ফাইল বেছে নিতে এই বাটনটি ক্লিক করুন। এই পলিসিগুলি বর্তমান "
 "পলিসিগুলির সঙ্গে যোগ করা হবে। পরস্পরবিরোধী এন্ট্রি অগ্রাহ্য করা হবে।"
 
-#: javaopts.cpp:139
+#: javaopts.cpp:136
 msgid ""
 "Click this button to save the Java policy to a zipped file. The file, named "
 "<b>java_policy.tgz</b>, will be saved to a location of your choice."
@@ -538,7 +598,7 @@ msgstr ""
 "জাভা পলিসি একটি জিপ করা ফাইল-এ সংরক্ষণ করতে এই বাটন-টি ক্লিক করুন। ফাইলটির নাম "
 "হবে <b>java_policy.tgz</b>, এবং তা আপনার পছন্দমত অবস্থানে সংরক্ষণ করা হবে।"
 
-#: javaopts.cpp:143
+#: javaopts.cpp:140
 #, fuzzy
 msgid ""
 "Here you can set specific Java policies for any particular host or domain. "
@@ -556,19 +616,7 @@ msgstr ""
 "ডায়ালগ বাক্স ওপর টি<i> মুছে ফেলা</i> বাটন সরাও টি নির্বাচিত পলিসি ঘটাচ্ছে টি "
 "ডিফল্ট পলিসি মানসমূহ/বৈশিষ্ট্য প্রতি ব্যবহৃত জন্য ঐ ডোমেইন."
 
-#: javaopts.cpp:156
-msgid ""
-"If this box is checked, Konqueror will open a console window that Java "
-"programs can use for character-based input/output. Well-written Java applets "
-"do not need this, but the console can help to find problems with Java "
-"applets."
-msgstr ""
-"এই বক্স-টি নির্বাচন করা থাকলে কনকরার একটি কনসোল উইণ্ডো খুলবে যা বিভিন্ন জাভা "
-"প্রোগ্রাম ক্যারেক্টার-ভিত্তিক ইনপুট/আউটপুট-এর জন্য ব্যবহার করতে পারে। সঠিকভাবে লিখিত "
-"জাভা অ্যাপলেট-এর ক্ষেত্রে এর প্রয়োজন হওয়া উচিত্‍ নয়, কিন্তু কনসোলটি কোন জাভা অ্যাপলেট-"
-"এ সম্ভাব্য সমস্যা শনাক্ত করতে সাহায্য করতে পারে।"
-
-#: javaopts.cpp:160
+#: javaopts.cpp:153
 #, fuzzy
 msgid ""
 "Enabling the security manager will cause the jvm to run with a Security "
@@ -585,11 +633,11 @@ msgstr ""
 "ফাইল সঙ্গে টি জাভা ইউটিলিটি প্রতি দেওয়া কোড ডাউনলোড করা থেকে নিশ্চিত আরো/বেশী "
 "অনুমতি."
 
-#: javaopts.cpp:168
+#: javaopts.cpp:161
 msgid "Enabling this will cause the jvm to use KIO for network transport "
 msgstr "ার্ক "
 
-#: javaopts.cpp:170
+#: javaopts.cpp:163
 #, fuzzy
 msgid ""
 "Enter the path to the java executable. If you want to use the jre in your "
@@ -602,13 +650,13 @@ msgstr ""
 "পাথ প্রতি টি জাভা এক্সিকিউটেবল usr bin জাভা অথবা টি পাথ প্রতি টি ডিরেক্টরি ঐ "
 "ধারণ করে bin জাভা."
 
-#: javaopts.cpp:175
+#: javaopts.cpp:168
 msgid ""
 "If you want special arguments to be passed to the virtual machine, enter "
 "them here."
 msgstr "যদি আপনি ভার্চুয়াল মেশিন-কে কিছু বিশেষ আর্গুমেন্ট পাঠাতে চান, তা এখানে লিখুন।"
 
-#: javaopts.cpp:177
+#: javaopts.cpp:170
 #, fuzzy
 msgid ""
 "When all the applets have been destroyed, the applet server should shut "
@@ -624,23 +672,23 @@ msgstr ""
 "জাভা ক্রিয়া/কার্যপ্রণালী/প্রসেস চলন্ত জন্য টি গোটা সময় ঐ টি কনকরার ক্রিয়া/"
 "কার্যপ্রণালী/প্রসেস আছে বাদ টি অ্যাপলেট সার্ভার চেকবক্স."
 
-#: javaopts.cpp:297 pluginopts.cpp:636
+#: javaopts.cpp:285 pluginopts.cpp:642
 msgid "Doma&in-Specific"
 msgstr "ডোমে&ইন-প্রতি"
 
-#: javaopts.cpp:330
+#: javaopts.cpp:318
 msgid "New Java Policy"
 msgstr "নতুন জাভা পলিসি"
 
-#: javaopts.cpp:333
+#: javaopts.cpp:321
 msgid "Change Java Policy"
 msgstr "জাভা পলিসি পরিবর্তন করো"
 
-#: javaopts.cpp:337
+#: javaopts.cpp:325
 msgid "&Java policy:"
 msgstr "জাভা &পলিসি:"
 
-#: javaopts.cpp:338
+#: javaopts.cpp:326
 msgid "Select a Java policy for the above host or domain."
 msgstr "উপরোক্ত হোস্ট অথবা ডোমেইন-এর জন্য জাভা পলিসি বেছে নিন।"
 
@@ -961,34 +1009,34 @@ msgstr "এই ভাষাগুলি স্বীকার করো:"
 msgid "Accept character sets:"
 msgstr "এই বর্ণমালাগুলি স্বীকার করো:"
 
-#: main.cpp:77
+#: main.cpp:82
 msgid "kcmkonqhtml"
 msgstr "kcmkonqhtml"
 
-#: main.cpp:77
+#: main.cpp:82
 msgid "Konqueror Browsing Control Module"
 msgstr "কনকরার ব্রাউজিং নিয়ন্ত্রণ মডিউল"
 
-#: main.cpp:79
+#: main.cpp:84
 msgid "(c) 1999 - 2001 The Konqueror Developers"
 msgstr "(C) ১৯৯৯-২০০১ কনকরার ডেভেলপারবৃন্দ"
 
-#: main.cpp:89
+#: main.cpp:94
 #, fuzzy
 msgid ""
 "JavaScript access controls\n"
 "Per-domain policies extensions"
 msgstr "অধিকার নিয়ন্ত্রণ করে ডোমেইন বর্ধিতাংশ"
 
-#: main.cpp:101
+#: main.cpp:106
 msgid "&Java"
 msgstr "জাভা (&জ)"
 
-#: main.cpp:105
+#: main.cpp:110
 msgid "Java&Script"
 msgstr "জাভাস্ক্রিপ্ট (&স)"
 
-#: main.cpp:154
+#: main.cpp:159
 #, fuzzy
 msgid ""
 "<h2>JavaScript</h2>On this page, you can configure whether JavaScript "
@@ -1014,21 +1062,25 @@ msgstr "প্লাগ-&ইন সর্বত্র অনুমোদন ক�
 msgid "Only allow &HTTP and HTTPS URLs for plugins"
 msgstr "শুধু অনুমতি দাও এবং জন্য প্লাগ-ইন"
 
-#: pluginopts.cpp:62 pluginopts.cpp:167
+#: pluginopts.cpp:62
+msgid "&Load plugins on demand only"
+msgstr ""
+
+#: pluginopts.cpp:63 pluginopts.cpp:169
 #, c-format
 msgid "CPU priority for plugins: %1"
 msgstr ""
 
-#: pluginopts.cpp:77
+#: pluginopts.cpp:79
 #, fuzzy
 msgid "Domain-Specific Settin&gs"
 msgstr "ডোমেইন-অনুযায়ী &পছন্দ..."
 
-#: pluginopts.cpp:83 pluginopts.cpp:603
+#: pluginopts.cpp:85 pluginopts.cpp:609
 msgid "Domain-Specific Policies"
 msgstr "ডোমেইন-অনুযায়ী পলিসি"
 
-#: pluginopts.cpp:95
+#: pluginopts.cpp:97
 #, fuzzy
 msgid ""
 "Enables the execution of plugins that can be contained in HTML pages, e.g. "
@@ -1039,7 +1091,7 @@ msgstr ""
 "ফ্ল্যাশ নোট ঐ   সঙ্গে যে কোনো ব্রাউজার সক্রিয়করণ সক্রিয় সূচি পারে একটি নিরাপত্তা "
 "সমস্যা."
 
-#: pluginopts.cpp:99
+#: pluginopts.cpp:101
 #, fuzzy
 msgid ""
 "This box contains the domains and hosts you have set a specific plugin "
@@ -1052,7 +1104,7 @@ msgstr ""
 "প্লাগ-ইন ওপর পাতা প্রেরিত দ্বারা এই অথবা<p> নির্বাচন করো একটি পলিসি এবং ব্যবহার "
 "টি নিয়ন্ত্রণ করে ওপর টি ডানদিক/অধিকার প্রতি পরিবর্তন এটি."
 
-#: pluginopts.cpp:105
+#: pluginopts.cpp:107
 #, fuzzy
 msgid ""
 "Click this button to choose the file that contains the plugin policies. "
@@ -1062,7 +1114,7 @@ msgstr ""
 "ক্লিক এই বাটন প্রতি বেছে নিন টি ফাইল ঐ ধারণ করে টি প্লাগ-ইন এই সঙ্গে টি বিদ্যমান "
 "এক এন্ট্রি অগ্রাহ্য করা."
 
-#: pluginopts.cpp:108
+#: pluginopts.cpp:110
 #, fuzzy
 msgid ""
 "Click this button to save the plugin policy to a zipped file. The file, "
@@ -1071,7 +1123,7 @@ msgstr ""
 "ক্লিক এই বাটন প্রতি সংরক্ষণ করো টি প্লাগ-ইন পলিসি প্রতি একটি ফাইল টি ফাইল<b> প্লাগ-"
 "ইন পলিসি</b> সংরক্ষিত প্রতি একটি অবস্থান -র আপনার পছন্দ."
 
-#: pluginopts.cpp:111
+#: pluginopts.cpp:113
 #, fuzzy
 msgid ""
 "Here you can set specific plugin policies for any particular host or domain. "
@@ -1089,42 +1141,42 @@ msgstr ""
 "পলিসি ডায়ালগ বাক্স ওপর টি<i> মুছে ফেলা</i> বাটন সরাও টি নির্বাচিত পলিসি ঘটাচ্ছে "
 "টি ডিফল্ট পলিসি মানসমূহ/বৈশিষ্ট্য প্রতি ব্যবহৃত জন্য ঐ ডোমেইন."
 
-#: pluginopts.cpp:126 pluginopts.cpp:533
+#: pluginopts.cpp:128 pluginopts.cpp:539
 #, fuzzy
 msgid "Netscape Plugins"
 msgstr "নেটস্কেপ প্লাগ-ইন"
 
-#: pluginopts.cpp:156
+#: pluginopts.cpp:158
 msgid ""
 "_: lowest priority\n"
 "lowest"
 msgstr ""
 
-#: pluginopts.cpp:158
+#: pluginopts.cpp:160
 msgid ""
 "_: low priority\n"
 "low"
 msgstr ""
 
-#: pluginopts.cpp:160
+#: pluginopts.cpp:162
 msgid ""
 "_: medium priority\n"
 "medium"
 msgstr ""
 
-#: pluginopts.cpp:162
+#: pluginopts.cpp:164
 msgid ""
 "_: high priority\n"
 "high"
 msgstr ""
 
-#: pluginopts.cpp:164
+#: pluginopts.cpp:166
 msgid ""
 "_: highest priority\n"
 "highest"
 msgstr ""
 
-#: pluginopts.cpp:264
+#: pluginopts.cpp:269
 #, fuzzy
 msgid ""
 "<h1>Konqueror Plugins</h1> The Konqueror web browser can use Netscape "
@@ -1138,58 +1190,58 @@ msgstr ""
 "ইনস্টল নেটস্কেপ প্লাগ-ইন হয়তো ওপর আপনার বিতরণ একটি স্থান প্রতি ইনস্টল ওদের আছে জন্য "
 "উদাহরণ নেটস্কেপ প্লাগ-ইন."
 
-#: pluginopts.cpp:290
+#: pluginopts.cpp:295
 #, fuzzy
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes "
 "will be lost."
 msgstr "আপনি চাই প্রতি প্রয়োগ আপনার আগে টি স্ক্যান অন্যথা টি হারানো."
 
-#: pluginopts.cpp:308
+#: pluginopts.cpp:313
 #, fuzzy
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
 msgstr "টি এক্সিকিউটেবল যাবে না পাওয়া গেছে নেটস্কেপ প্লাগ-ইন নয়."
 
-#: pluginopts.cpp:315
+#: pluginopts.cpp:320
 #, fuzzy
 msgid "Scanning for plugins"
 msgstr "স্ক্যান করা হচ্ছে জন্য প্লাগ-ইন"
 
-#: pluginopts.cpp:360
+#: pluginopts.cpp:365
 msgid "Select Plugin Scan Folder"
 msgstr "প্লাগ-ইন স্ক্যান ফোল্ডার নির্বাচন করুন"
 
-#: pluginopts.cpp:556
+#: pluginopts.cpp:562
 msgid "Plugin"
 msgstr "প্লাগ-ইন"
 
-#: pluginopts.cpp:573
+#: pluginopts.cpp:579
 msgid "MIME type"
 msgstr "মাইম টাইপ"
 
-#: pluginopts.cpp:578
+#: pluginopts.cpp:584
 msgid "Description"
 msgstr "বর্ণনা"
 
-#: pluginopts.cpp:583
+#: pluginopts.cpp:589
 msgid "Suffixes"
 msgstr ""
 
-#: pluginopts.cpp:648
+#: pluginopts.cpp:654
 msgid "New Plugin Policy"
 msgstr "নতুন প্লাগ-ইন পলিসি"
 
-#: pluginopts.cpp:651
+#: pluginopts.cpp:657
 msgid "Change Plugin Policy"
 msgstr "প্লাগ-ইন পলিসি বদলাও"
 
-#: pluginopts.cpp:655
+#: pluginopts.cpp:661
 msgid "&Plugin policy:"
 msgstr "প্লাগ-ইন &পলিসি:"
 
-#: pluginopts.cpp:656
+#: pluginopts.cpp:662
 #, fuzzy
 msgid "Select a plugin policy for the above host or domain."
 msgstr "নির্বাচন করো একটি প্লাগ-ইন পলিসি জন্য টি উপরে হোস্ট অথবা ডোমেইন."
@@ -1420,20 +1472,22 @@ msgstr ""
 msgid "Use a&rtsdsp to pipe plugin sound through aRts"
 msgstr "ব্যবহার প্রতি পাইপ প্লাগ-ইন শব্দ মধ্য দিয়ে"
 
-msgid "Advanced Options..."
-msgstr "অগ্রসর অপশন..."
+#~ msgid "Sho&w Java console"
+#~ msgstr "জাভা কনসোল দেখা&ও"
 
-#, fuzzy
-#~ msgid "Enable filters"
-#~ msgstr "ডিবাগা&র সক্রিয় করো"
+#~ msgid ""
+#~ "If this box is checked, Konqueror will open a console window that Java "
+#~ "programs can use for character-based input/output. Well-written Java "
+#~ "applets do not need this, but the console can help to find problems with "
+#~ "Java applets."
+#~ msgstr ""
+#~ "এই বক্স-টি নির্বাচন করা থাকলে কনকরার একটি কনসোল উইণ্ডো খুলবে যা বিভিন্ন জাভা "
+#~ "প্রোগ্রাম ক্যারেক্টার-ভিত্তিক ইনপুট/আউটপুট-এর জন্য ব্যবহার করতে পারে। সঠিকভাবে "
+#~ "লিখিত জাভা অ্যাপলেট-এর ক্ষেত্রে এর প্রয়োজন হওয়া উচিত্‍ নয়, কিন্তু কনসোলটি কোন "
+#~ "জাভা অ্যাপলেট-এ সম্ভাব্য সমস্যা শনাক্ত করতে সাহায্য করতে পারে।"
 
-#, fuzzy
-#~ msgid "Import..."
-#~ msgstr "&আমদানি..."
-
-#, fuzzy
-#~ msgid "Export..."
-#~ msgstr "&রপ্তানি..."
+#~ msgid "Advanced Options..."
+#~ msgstr "অগ্রসর অপশন..."
 
 #, fuzzy
 #~ msgid "Import.."
