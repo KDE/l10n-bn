@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship\n"
-"POT-Creation-Date: 2005-07-24 01:33+0200\n"
+"POT-Creation-Date: 2005-01-14 01:22+0100\n"
 "PO-Revision-Date: 2005-01-04 11:54-0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -85,14 +85,6 @@ msgstr "আপনি খেলায় জয়ী হয়েছেন :)"
 msgid "Do you want to restart the game?"
 msgstr "আপনি কি খেলাটি পুনরায় আরম্ভ করতে চান?"
 
-#: kbattleship.cpp:317 kbattleship.cpp:738 kbattleship.cpp:1308
-msgid "Restart"
-msgstr ""
-
-#: kbattleship.cpp:317 kbattleship.cpp:738 kbattleship.cpp:1308
-msgid "Do Not Restart"
-msgstr ""
-
 #: kbattleship.cpp:401
 msgid "Waiting for enemy to shoot.."
 msgstr "শত্রুপক্ষের গোলা নিক্ষেপের জন্য অপেক্ষা করা হচ্ছে.."
@@ -115,8 +107,7 @@ msgstr "&একটিমাত্র খেলা"
 
 #: kbattleship.cpp:557
 msgid "Waiting for computer player to start the match..."
-msgstr ""
-"কম্পিউটার নিয়ন্ত্রিত খেলোয়াড় কর্তৃক খেলা আরম্ভ করার জন্য অপেক্ষা করা হচ্ছে..."
+msgstr "কম্পিউটার নিয়ন্ত্রিত খেলোয়াড় কর্তৃক খেলা আরম্ভ করার জন্য অপেক্ষা করা হচ্ছে..."
 
 #: kbattleship.cpp:567 konnectionhandling.cpp:112 konnectionhandling.cpp:136
 msgid "Waiting for other player to place their ships..."
@@ -126,20 +117,20 @@ msgstr "অপর খেলোয়াড়ের জাহাজ সাজানো
 msgid "Waiting for other player to start the match..."
 msgstr "অপর খেলোয়াড় কর্তৃক খেলা আরম্ভ করার জন্য অপেক্ষা করা হচ্ছে..."
 
-#. i18n: file dialogs/statDlg.ui line 172
-#: kbattleship.cpp:639 kbattleship.cpp:670 rc.cpp:106
+#. i18n: file dialogs/highscoreDlg.ui line 171
+#: kbattleship.cpp:639 kbattleship.cpp:670 rc.cpp:58 rc.cpp:310
 #, no-c-format
 msgid "Shots"
 msgstr "নিক্ষিপ্ত গোলা"
 
-#. i18n: file dialogs/statDlg.ui line 263
-#: kbattleship.cpp:640 kbattleship.cpp:671 rc.cpp:112
+#. i18n: file dialogs/highscoreDlg.ui line 198
+#: kbattleship.cpp:640 kbattleship.cpp:671 rc.cpp:61 rc.cpp:316
 #, no-c-format
 msgid "Hits"
 msgstr "সফল আঘাত"
 
-#. i18n: file dialogs/statDlg.ui line 351
-#: kbattleship.cpp:641 kbattleship.cpp:672 rc.cpp:118
+#. i18n: file dialogs/highscoreDlg.ui line 225
+#: kbattleship.cpp:641 kbattleship.cpp:672 rc.cpp:64 rc.cpp:322
 #, no-c-format
 msgid "Water"
 msgstr "পানিতে পতন"
@@ -152,33 +143,17 @@ msgstr "Connect-Server ডায়ালগ লোড করা হচ্ছে...
 msgid "The client is asking to restart the game. Do you accept?"
 msgstr "ক্লায়েন্ট খেলা পুনরায় আরম্ভ করতে চাচ্ছে।  আপনার কি এতে কোন আপত্তি আছে?"
 
-#: kbattleship.cpp:718
-msgid "Accept Restart"
-msgstr ""
-
-#: kbattleship.cpp:718
-msgid "Deny Restart"
-msgstr ""
-
 #: kbattleship.cpp:724 kbattleship.cpp:744 kbattleship.cpp:1268
 #: konnectionhandling.cpp:118 konnectionhandling.cpp:171
 msgid ""
 "Please place your ships. Use the \"Shift\" key to place the ships vertically."
 msgstr ""
-"অনুগ্রহপূর্বক আপনার জাহাজগুলো সাজান।  লম্বালম্বিভাবে জাহাজ রাখার জন্য \"Shift\" "
-"কী (Key) ব্যবহার করুন।"
+"অনুগ্রহপূর্বক আপনার জাহাজগুলো সাজান।  লম্বালম্বিভাবে জাহাজ রাখার জন্য \"Shift\" কী "
+"(Key) ব্যবহার করুন।"
 
 #: kbattleship.cpp:764
 msgid "Do you want to ask the server restarting the game?"
 msgstr "আপনি কি সার্ভারকে খেলাটি পুনরায় আরম্ভ করতে বলতে চান?"
-
-#: kbattleship.cpp:764
-msgid "Ask to Restart"
-msgstr ""
-
-#: kbattleship.cpp:764
-msgid "Do Not Ask"
-msgstr ""
 
 #: kbattleship.cpp:770
 msgid "Waiting for an answer..."
@@ -273,11 +248,11 @@ msgstr "ক্লায়েন্টের সাথে সংযোগ বিচ
 
 #: konnectionhandling.cpp:97
 msgid ""
-"Connection dropped by enemy. The client's protocol implementation (%1) is not "
-"compatible with our (%2) version."
+"Connection dropped by enemy. The client's protocol implementation (%1) is "
+"not compatible with our (%2) version."
 msgstr ""
-"শত্রুপক্ষ সংযোগ বিচ্ছিন্ন করে দিয়েছেন।  ক্লায়েন্টের প্রোটোকল (%1) সংস্করণ এবং "
-"আমাদের প্রোটোকল (%2) সংস্করণ সঙ্গতিপূর্ণ নয়।"
+"শত্রুপক্ষ সংযোগ বিচ্ছিন্ন করে দিয়েছেন।  ক্লায়েন্টের প্রোটোকল (%1) সংস্করণ এবং আমাদের "
+"প্রোটোকল (%2) সংস্করণ সঙ্গতিপূর্ণ নয়।"
 
 #: konnectionhandling.cpp:142 konnectionhandling.cpp:203
 msgid "You lost the game :("
@@ -285,11 +260,11 @@ msgstr "আপনি হেরে গিয়েছেন :("
 
 #: konnectionhandling.cpp:162
 msgid ""
-"Connection to client dropped. The client's protocol implementation (%1) is not "
-"compatible with our (%2) version."
+"Connection to client dropped. The client's protocol implementation (%1) is "
+"not compatible with our (%2) version."
 msgstr ""
-"ক্লায়েন্টের সাথে সংযোগ বিচ্ছিন্ন করে দেওয়া হয়েছে।  ক্লায়েন্টের প্রোটোকল (%1) "
-"সংস্করণ এবং আমাদের প্রোটোকল (%2) সংস্করণ সঙ্গতিপূর্ণ নয়।"
+"ক্লায়েন্টের সাথে সংযোগ বিচ্ছিন্ন করে দেওয়া হয়েছে।  ক্লায়েন্টের প্রোটোকল (%1) সংস্করণ "
+"এবং আমাদের প্রোটোকল (%2) সংস্করণ সঙ্গতিপূর্ণ নয়।"
 
 #: konnectionhandling.cpp:170
 msgid "We have a player. Let's start..."
@@ -321,7 +296,7 @@ msgid "Connection to server lost. Aborting the game."
 msgstr "সার্ভারের সাথে সংযোগ বিচ্ছিন্ন হয়ে গিয়েছে।  খেলা বাতিল করা হচ্ছে।"
 
 #. i18n: file dialogs/serverDlg.ui line 16
-#: kserverdialog.cpp:25 rc.cpp:76
+#: kserverdialog.cpp:25 rc.cpp:280
 #, no-c-format
 msgid "Start Server"
 msgstr "সার্ভার চালু করো"
@@ -332,7 +307,8 @@ msgstr "আপনি এখানে জাহাজ রাখতে পার�
 
 #: main.cpp:28
 msgid ""
-"URL of server to attach to.  In the form kbattleship://host:port/ or host:port"
+"URL of server to attach to.  In the form kbattleship://host:port/ or host:"
+"port"
 msgstr ""
 
 #: main.cpp:36
@@ -383,47 +359,46 @@ msgstr ""
 msgid ""
 "You don't have KBattleship pictures installed. The game cannot run without "
 "them!"
-msgstr ""
-"কে-ব্যাটলশিপের ছবিগুলো ইনস্টল করা নেই।  এগুলো ছাড়া খেলা চালানো সম্ভব নয়!"
+msgstr "কে-ব্যাটলশিপের ছবিগুলো ইনস্টল করা নেই।  এগুলো ছাড়া খেলা চালানো সম্ভব নয়!"
 
-#. i18n: file dialogs/chatDlg.ui line 16
+#. i18n: file dialogs/chatDlg.ui line 11
 #: rc.cpp:9
 #, no-c-format
 msgid "Chat Widget"
 msgstr "আড্ডা দেওয়ার উইজেট"
 
-#. i18n: file dialogs/chatDlg.ui line 47
+#. i18n: file dialogs/chatDlg.ui line 45
 #: rc.cpp:12
 #, no-c-format
 msgid "Enter a message here"
 msgstr "এখানে একটি বার্তা লিখুন"
 
-#. i18n: file dialogs/chatDlg.ui line 55
+#. i18n: file dialogs/chatDlg.ui line 56
 #: rc.cpp:15
 #, fuzzy, no-c-format
 msgid "&Send"
 msgstr "প্রেরণ"
 
-#. i18n: file dialogs/chatDlg.ui line 61
+#. i18n: file dialogs/chatDlg.ui line 64
 #: rc.cpp:18
 #, no-c-format
 msgid "Press here to send the message"
 msgstr "বার্তাটি প্রেরণের জন্য এখানে চাপুন"
 
-#. i18n: file dialogs/chatDlg.ui line 83
+#. i18n: file dialogs/chatDlg.ui line 94
 #: rc.cpp:22
 #, no-c-format
 msgid "Chat dialog:"
 msgstr "আড্ডা দেওয়ার ডায়ালগ:"
 
 #. i18n: file dialogs/connectDlg.ui line 39
-#: rc.cpp:28 rc.cpp:88
+#: rc.cpp:28 rc.cpp:292
 #, fuzzy, no-c-format
 msgid "&Nick name:"
 msgstr "ডাকনাম:"
 
 #. i18n: file dialogs/connectDlg.ui line 58
-#: rc.cpp:31 rc.cpp:91 rc.cpp:94
+#: rc.cpp:31 rc.cpp:295 rc.cpp:298
 #, no-c-format
 msgid "Enter a name that identifies you in the game"
 msgstr "খেলা চলাকালে আপনাকে যে নামে ডাকা হবে তা লিখুন"
@@ -441,7 +416,7 @@ msgid "LAN games:"
 msgstr "নাম"
 
 #. i18n: file dialogs/connectDlg.ui line 136
-#: rc.cpp:40 rc.cpp:85
+#: rc.cpp:40 rc.cpp:289
 #, fuzzy, no-c-format
 msgid "&Port:"
 msgstr "পোর্ট:"
@@ -452,137 +427,186 @@ msgstr "পোর্ট:"
 msgid "Choose a port to connect to"
 msgstr "সংযুক্ত হওয়ার জন্য একটি পোর্ট বেছে নিন"
 
+#. i18n: file dialogs/highscoreDlg.ui line 90
+#: rc.cpp:49
+#, no-c-format
+msgid "Rank"
+msgstr "অবস্থান"
+
+#. i18n: file dialogs/highscoreDlg.ui line 117
+#: rc.cpp:52
+#, no-c-format
+msgid "Name"
+msgstr "নাম"
+
+#. i18n: file dialogs/highscoreDlg.ui line 144
+#: rc.cpp:55
+#, no-c-format
+msgid "Score"
+msgstr "স্কোর"
+
+#. i18n: file dialogs/highscoreDlg.ui line 309
+#: rc.cpp:67 rc.cpp:70 rc.cpp:73 rc.cpp:76 rc.cpp:79 rc.cpp:88 rc.cpp:91
+#: rc.cpp:94 rc.cpp:97 rc.cpp:100 rc.cpp:103 rc.cpp:109 rc.cpp:112 rc.cpp:115
+#: rc.cpp:118 rc.cpp:121 rc.cpp:124 rc.cpp:133 rc.cpp:136 rc.cpp:142
+#: rc.cpp:145 rc.cpp:148 rc.cpp:154 rc.cpp:163 rc.cpp:166 rc.cpp:172
+#: rc.cpp:175 rc.cpp:187 rc.cpp:190 rc.cpp:193 rc.cpp:196 rc.cpp:211
+#: rc.cpp:214 rc.cpp:217 rc.cpp:229 rc.cpp:232 rc.cpp:235 rc.cpp:238
+#: rc.cpp:241 rc.cpp:244 rc.cpp:313
+#, no-c-format
+msgid "Shows all shots"
+msgstr "নিক্ষিপ্ত সকল গোলা প্রদর্শন করে"
+
+#. i18n: file dialogs/highscoreDlg.ui line 428
+#: rc.cpp:82
+#, no-c-format
+msgid "#8"
+msgstr "#৮"
+
+#. i18n: file dialogs/highscoreDlg.ui line 439
+#: rc.cpp:85
+#, no-c-format
+msgid "#2"
+msgstr "#২"
+
+#. i18n: file dialogs/highscoreDlg.ui line 612
+#: rc.cpp:106
+#, no-c-format
+msgid "#6"
+msgstr "#৬"
+
+#. i18n: file dialogs/highscoreDlg.ui line 785
+#: rc.cpp:127
+#, no-c-format
+msgid "#10"
+msgstr "#১০"
+
+#. i18n: file dialogs/highscoreDlg.ui line 796
+#: rc.cpp:130
+#, no-c-format
+msgid "#7"
+msgstr "#৭"
+
+#. i18n: file dialogs/highscoreDlg.ui line 861
+#: rc.cpp:139
+#, no-c-format
+msgid "#4"
+msgstr "#৪"
+
+#. i18n: file dialogs/highscoreDlg.ui line 953
+#: rc.cpp:151 rc.cpp:157 rc.cpp:169 rc.cpp:178 rc.cpp:199 rc.cpp:205
+#: rc.cpp:208 rc.cpp:220 rc.cpp:223 rc.cpp:226
+#, no-c-format
+msgid "-"
+msgstr "-"
+
+#. i18n: file dialogs/highscoreDlg.ui line 1016
+#: rc.cpp:160
+#, no-c-format
+msgid "#5"
+msgstr "#৫"
+
+#. i18n: file dialogs/highscoreDlg.ui line 1171
+#: rc.cpp:181
+#, no-c-format
+msgid "#9"
+msgstr "#৯"
+
+#. i18n: file dialogs/highscoreDlg.ui line 1182
+#: rc.cpp:184
+#, no-c-format
+msgid "#3"
+msgstr "#৩"
+
+#. i18n: file dialogs/highscoreDlg.ui line 1319
+#: rc.cpp:202
+#, no-c-format
+msgid "#1"
+msgstr "#১"
+
 #. i18n: file dialogs/infoDlg.ui line 16
-#: rc.cpp:46
+#: rc.cpp:250
 #, no-c-format
 msgid "Enemy Client Information"
 msgstr "শত্রুপক্ষের ক্লায়েন্ট সংক্রান্ত তথ্য"
 
 #. i18n: file dialogs/infoDlg.ui line 72
-#: rc.cpp:49
+#: rc.cpp:253
 #, no-c-format
 msgid "Client identifier:"
 msgstr "ক্লায়েন্ট সনাক্তকারী:"
 
 #. i18n: file dialogs/infoDlg.ui line 91
-#: rc.cpp:52
+#: rc.cpp:256
 #, no-c-format
 msgid "Client information:"
 msgstr "ক্লায়েন্ট সংক্রান্ত তথ্য:"
 
 #. i18n: file dialogs/infoDlg.ui line 107
-#: rc.cpp:55
+#: rc.cpp:259
 #, no-c-format
 msgid "CV"
 msgstr "সিভি"
 
 #. i18n: file dialogs/infoDlg.ui line 120
-#: rc.cpp:58
+#: rc.cpp:262
 #, no-c-format
 msgid "Client version:"
 msgstr "ক্লায়েন্ট সংস্করণ:"
 
 #. i18n: file dialogs/infoDlg.ui line 133
-#: rc.cpp:61
+#: rc.cpp:265
 #, no-c-format
 msgid "Protocol version:"
 msgstr "প্রোটোকল সংস্করণ:"
 
 #. i18n: file dialogs/infoDlg.ui line 149
-#: rc.cpp:64
+#: rc.cpp:268
 #, no-c-format
 msgid "PV"
 msgstr "পিভি"
 
 #. i18n: file dialogs/infoDlg.ui line 165
-#: rc.cpp:67 rc.cpp:70
+#: rc.cpp:271 rc.cpp:274
 #, no-c-format
 msgid "CI"
 msgstr "সিআই"
 
 #. i18n: file dialogs/serverDlg.ui line 31
-#: rc.cpp:79
+#: rc.cpp:283
 #, fuzzy, no-c-format
 msgid "&Game name:"
 msgstr "ডাকনাম:"
 
 #. i18n: file dialogs/serverDlg.ui line 48
-#: rc.cpp:82
+#: rc.cpp:286
 #, no-c-format
 msgid "Choose a port where the server listens on"
 msgstr "সার্ভার যে পোর্টে Listen করবে তা বেছে নিন"
 
-#. i18n: file dialogs/statDlg.ui line 84
-#: rc.cpp:97 rc.cpp:103
+#. i18n: file dialogs/statDlg.ui line 76
+#: rc.cpp:301 rc.cpp:307
 #, no-c-format
 msgid "0"
 msgstr "০"
 
-#. i18n: file dialogs/statDlg.ui line 98
-#: rc.cpp:100
+#. i18n: file dialogs/statDlg.ui line 94
+#: rc.cpp:304
 #, no-c-format
 msgid ":"
 msgstr ":"
 
-#. i18n: file dialogs/statDlg.ui line 251
-#: rc.cpp:109
-#, no-c-format
-msgid "Shows all shots"
-msgstr "নিক্ষিপ্ত সকল গোলা প্রদর্শন করে"
-
-#. i18n: file dialogs/statDlg.ui line 339
-#: rc.cpp:115
+#. i18n: file dialogs/statDlg.ui line 358
+#: rc.cpp:319
 #, no-c-format
 msgid "Shows all hit ships"
 msgstr "আঘাতপ্রাপ্ত সকল জাহাজ প্রদর্শন করে"
 
-#. i18n: file dialogs/statDlg.ui line 427
-#: rc.cpp:121
+#. i18n: file dialogs/statDlg.ui line 455
+#: rc.cpp:325
 #, no-c-format
 msgid "Shows all water shots"
 msgstr "পানিতে পতিত সকল গোলা প্রদর্শন করে"
-
-#~ msgid "Rank"
-#~ msgstr "অবস্থান"
-
-#~ msgid "Name"
-#~ msgstr "নাম"
-
-#~ msgid "Score"
-#~ msgstr "স্কোর"
-
-#~ msgid "#8"
-#~ msgstr "#৮"
-
-#~ msgid "#2"
-#~ msgstr "#২"
-
-#~ msgid "#6"
-#~ msgstr "#৬"
-
-#~ msgid "#10"
-#~ msgstr "#১০"
-
-#~ msgid "#7"
-#~ msgstr "#৭"
-
-#~ msgid "#4"
-#~ msgstr "#৪"
-
-#~ msgid "-"
-#~ msgstr "-"
-
-#~ msgid "#5"
-#~ msgstr "#৫"
-
-#~ msgid "#9"
-#~ msgstr "#৯"
-
-#~ msgid "#3"
-#~ msgstr "#৩"
-
-#~ msgid "#1"
-#~ msgstr "#১"
 
 #~ msgid "KBattleship %1"
 #~ msgstr "কে-ব্যাটলশিপ %1"
