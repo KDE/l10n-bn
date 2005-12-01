@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kwordquiz\n"
-"POT-Creation-Date: 2005-10-03 08:53+0200\n"
+"POT-Creation-Date: 2005-09-21 03:04+0200\n"
 "PO-Revision-Date: 2004-09-30 13:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -158,13 +158,35 @@ msgstr ""
 msgid "File to open"
 msgstr "যে ফাইলটি খোলা হবে"
 
-#: main.cpp:38
+#: main.cpp:39
 msgid "KWordQuiz"
 msgstr "কে-ওয়ার্ডকুইজ"
 
-#: main.cpp:40
+#: main.cpp:49
 msgid "KDE Edutainment Maintainer"
 msgstr "কে.ডি.ই. শিক্ষা-বিনোদন রক্ষণাবেক্ষণকারী"
+
+#: kwqnewstuff.cpp:81
+#, fuzzy
+msgid "The file '%1' already exists. Do you want to overwrite it?"
+msgstr ""
+"<qt>"
+"<br><b>%1</b>"
+"<br> নামের ফাইলটি ইতিমধ্যেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?</qt>"
+
+#: kwordquiz.cpp:612 kwqnewstuff.cpp:84
+msgid "Overwrite"
+msgstr ""
+
+#: kwqnewstuff.cpp:84
+msgid "Do Not Overwrite"
+msgstr ""
+
+#: kwqnewstuff.cpp:89
+msgid ""
+"<qt>The selected file will now be downloaded and saved as\n"
+"<b>'%1'</b>.</qt>"
+msgstr ""
 
 #: dlgsort.cpp:24
 msgid "Sort"
@@ -440,8 +462,7 @@ msgstr "সঠিক উত্তর"
 #: rc.cpp:210 rc.cpp:219
 #, no-c-format
 msgid ""
-"The number of cards counted as correct (I know). May be shown as a "
-"percentage."
+"The number of cards counted as correct (I know). May be shown as a percentage."
 msgstr ""
 "সঠিক উত্তর হিসাবে গণনাকৃত কার্ড সংখ্যা (জানি)।  শতাংশ হিসাবে দেখানো যেতে পারে।"
 
@@ -471,7 +492,8 @@ msgstr "যে সব প্রশ্নের উত্তর দেওয়া �
 #: rc.cpp:240 rc.cpp:246
 #, no-c-format
 msgid "The number of cards already seen. May be shown as a percentage."
-msgstr "এখন পর্যন্ত যে সংখ্যক কার্ড দেখানো হয়েছে।  শতাংশ হিসাবে দেখানো যেতে পারে।"
+msgstr ""
+"এখন পর্যন্ত যে সংখ্যক কার্ড দেখানো হয়েছে।  শতাংশ হিসাবে দেখানো যেতে পারে।"
 
 #. i18n: file multipleviewbase.ui line 71
 #: rc.cpp:261 rc.cpp:270 rc.cpp:273 rc.cpp:276 rc.cpp:961 rc.cpp:967
@@ -515,14 +537,16 @@ msgstr "এই সেশনে প্রশ্নের সংখ্যা"
 #, no-c-format
 msgid ""
 "The number of questions answered correctly. May be shown as a percentage."
-msgstr "যে সংখ্যক প্রশ্নের সঠিক উত্তর দেওয়া হয়েছে।  শতাংশ হিসাবে দেখানো যেতে পারে।"
+msgstr ""
+"যে সংখ্যক প্রশ্নের সঠিক উত্তর দেওয়া হয়েছে।  শতাংশ হিসাবে দেখানো যেতে পারে।"
 
 #. i18n: file multipleviewbase.ui line 409
 #: rc.cpp:327 rc.cpp:357 rc.cpp:811 rc.cpp:820
 #, no-c-format
 msgid ""
 "The number of questions answered incorrectly. May be shown as a percentage."
-msgstr "যে সংখ্যক প্রশ্নের ভুল উত্তর দেওয়া হয়েছে।  শতাংশ হিসাবে দেখানো যেতে পারে।"
+msgstr ""
+"যে সংখ্যক প্রশ্নের ভুল উত্তর দেওয়া হয়েছে।  শতাংশ হিসাবে দেখানো যেতে পারে।"
 
 #. i18n: file multipleviewbase.ui line 477
 #: rc.cpp:342 rc.cpp:348 rc.cpp:826 rc.cpp:859
@@ -737,8 +761,8 @@ msgid ""
 "Note: Select Settings -> Configure Shortcuts... to change the shortcut "
 "associated with each action."
 msgstr ""
-"বিশেষ দ্রষ্টব্য: প্রতিটি কাজের সাথে সংশ্লিষ্ট শর্টকাট কী (Key) পরিবর্তনের জন্য মেনু "
-"থেকে'বৈশিষ্ট্য -> শর্টকাট কনফিগার করো' বেছে নিন।"
+"বিশেষ দ্রষ্টব্য: প্রতিটি কাজের সাথে সংশ্লিষ্ট শর্টকাট কী (Key) পরিবর্তনের জন্য "
+"মেনু থেকে'বৈশিষ্ট্য -> শর্টকাট কনফিগার করো' বেছে নিন।"
 
 #. i18n: file prefcharacterbase.ui line 62
 #: rc.cpp:552
@@ -759,7 +783,7 @@ msgid "Character"
 msgstr "অক্ষর"
 
 #. i18n: file prefcharacterbase.ui line 95
-#: kwordquiz.cpp:275 rc.cpp:561
+#: kwordquiz.cpp:280 rc.cpp:561
 #, no-c-format
 msgid "Special Character 1"
 msgstr "১ম বিশেষ অক্ষর"
@@ -777,7 +801,7 @@ msgid "A"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 115
-#: kwordquiz.cpp:276 rc.cpp:570
+#: kwordquiz.cpp:281 rc.cpp:570
 #, no-c-format
 msgid "Special Character 2"
 msgstr "২য় বিশেষ অক্ষর"
@@ -795,7 +819,7 @@ msgid "B"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 135
-#: kwordquiz.cpp:277 rc.cpp:579
+#: kwordquiz.cpp:282 rc.cpp:579
 #, no-c-format
 msgid "Special Character 3"
 msgstr "৩য় বিশেষ অক্ষর"
@@ -813,7 +837,7 @@ msgid "C"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 155
-#: kwordquiz.cpp:278 rc.cpp:588
+#: kwordquiz.cpp:283 rc.cpp:588
 #, no-c-format
 msgid "Special Character 4"
 msgstr "৪র্থ বিশেষ অক্ষর"
@@ -831,7 +855,7 @@ msgid "D"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 175
-#: kwordquiz.cpp:279 rc.cpp:597
+#: kwordquiz.cpp:284 rc.cpp:597
 #, no-c-format
 msgid "Special Character 5"
 msgstr "৫ম বিশেষ অক্ষর"
@@ -849,7 +873,7 @@ msgid "E"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 195
-#: kwordquiz.cpp:280 rc.cpp:606
+#: kwordquiz.cpp:285 rc.cpp:606
 #, no-c-format
 msgid "Special Character 6"
 msgstr "৬ষ্ঠ বিশেষ অক্ষর"
@@ -867,7 +891,7 @@ msgid "F"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 215
-#: kwordquiz.cpp:281 rc.cpp:615
+#: kwordquiz.cpp:286 rc.cpp:615
 #, no-c-format
 msgid "Special Character 7"
 msgstr "৭ম বিশেষ অক্ষর"
@@ -885,7 +909,7 @@ msgid "G"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 235
-#: kwordquiz.cpp:282 rc.cpp:624
+#: kwordquiz.cpp:287 rc.cpp:624
 #, no-c-format
 msgid "Special Character 8"
 msgstr "৮ম বিশেষ অক্ষর"
@@ -903,7 +927,7 @@ msgid "H"
 msgstr ""
 
 #. i18n: file prefcharacterbase.ui line 255
-#: kwordquiz.cpp:283 rc.cpp:633
+#: kwordquiz.cpp:288 rc.cpp:633
 #, no-c-format
 msgid "Special Character 9"
 msgstr "৯ম বিশেষ অক্ষর"
@@ -1006,8 +1030,8 @@ msgstr "ডা&ন"
 msgid ""
 "Select if the next cell to the right should become active when pressing Enter"
 msgstr ""
-"এন্টার কী (Key) চাপার সময় ডানদিকের পরবর্তী ঘরটি সক্রিয় হয়ে উঠবে কিনা তা নির্বাচন "
-"করুন।"
+"এন্টার কী (Key) চাপার সময় ডানদিকের পরবর্তী ঘরটি সক্রিয় হয়ে উঠবে কিনা তা "
+"নির্বাচন করুন।"
 
 #. i18n: file prefeditorbase.ui line 81
 #: rc.cpp:696
@@ -1098,14 +1122,14 @@ msgstr "ইঙ্গিতকে সমস্যারূপে গণনা ক
 #: rc.cpp:744
 #, no-c-format
 msgid ""
-"Select if questions where the hint function has been used should be counted "
-"as errors"
+"Select if questions where the hint function has been used should be counted as "
+"errors"
 msgstr ""
 "যে সব প্রশ্নের সাথে ইঙ্গিত দেওয়া হবে, তাদেরকে সমস্যা হিসাবে গণনা করতে হলে এটিতে "
 "টিক দিন"
 
 #. i18n: file prefquizbase.ui line 96
-#: kwordquizview.cpp:218 rc.cpp:747
+#: kwordquizview.cpp:234 rc.cpp:747
 #, no-c-format
 msgid "Score"
 msgstr "স্কোর"
@@ -1156,7 +1180,8 @@ msgstr ""
 #: rc.cpp:771
 #, no-c-format
 msgid "Specify the amount of time between card flips"
-msgstr "প্রতিটি কার্ড উল্টানোর পূর্বে যে পরিমাণ বিরতি দেওয়া হবে, তা উল্লেখ করুন"
+msgstr ""
+"প্রতিটি কার্ড উল্টানোর পূর্বে যে পরিমাণ বিরতি দেওয়া হবে, তা উল্লেখ করুন"
 
 #. i18n: file prefquizbase.ui line 196
 #: rc.cpp:774
@@ -1202,11 +1227,11 @@ msgstr "স&মস্যা হিসাবে গণনা করো"
 #: rc.cpp:796
 #, no-c-format
 msgid ""
-"Select if the previous card should be counted as incorrect when moving to "
-"the next card"
+"Select if the previous card should be counted as incorrect when moving to the "
+"next card"
 msgstr ""
-"পরবর্তী কার্ডে যাওয়ার সময় পূর্ববর্তী কার্ডকে ভুল হিসাবে গণনা করা হবে কিনা, তা বেছে "
-"নিন"
+"পরবর্তী কার্ডে যাওয়ার সময় পূর্ববর্তী কার্ডকে ভুল হিসাবে গণনা করা হবে কিনা, তা "
+"বেছে নিন"
 
 #. i18n: file prefquizbase.ui line 257
 #: rc.cpp:799
@@ -1224,11 +1249,11 @@ msgstr "স্বয়ংক্রিয়ভাবে কার্ড উল্ট�
 #: rc.cpp:805
 #, no-c-format
 msgid ""
-"Select if you want a card to turn over automatically after the given amount "
-"of time"
+"Select if you want a card to turn over automatically after the given amount of "
+"time"
 msgstr ""
-"আপনি যদি চান যে, একটি নির্দিষ্ট সময় পর স্বয়ংক্রিয়ভাবেই কার্ড উল্টিয়ে যাবে, তবে এটি "
-"বেছে নিন"
+"আপনি যদি চান যে, একটি নির্দিষ্ট সময় পর স্বয়ংক্রিয়ভাবেই কার্ড উল্টিয়ে যাবে, তবে "
+"এটি বেছে নিন"
 
 #. i18n: file qaviewbase.ui line 619
 #: rc.cpp:931
@@ -1386,269 +1411,304 @@ msgstr ""
 msgid "Color used for frame on back of flashcard"
 msgstr ""
 
-#: kwordquiz.cpp:77 kwordquiz.cpp:634 kwordquizview.cpp:383
+#. i18n: file kwordquiz.kcfg line 106
+#: rc.cpp:1045
+#, no-c-format
+msgid "The Providers path for KWordQuiz"
+msgstr ""
+
+#. i18n: file kwordquiz.kcfg line 110
+#: rc.cpp:1048
+#, no-c-format
+msgid "The command used to start a downloaded vocabulary"
+msgstr ""
+
+#. i18n: file kwordquiz.kcfg line 114
+#: rc.cpp:1051
+#, no-c-format
+msgid ""
+"The folder where downloaded vocabularies are saved by default (relative to "
+"$HOME)"
+msgstr ""
+
+#: kwordquiz.cpp:78 kwordquiz.cpp:646 kwordquizview.cpp:399
 msgid "Cannot &Undo"
 msgstr "বাতি&ল করা যাচ্ছে না"
 
-#: kwordquiz.cpp:107
+#: kwordquiz.cpp:108
 msgid "Creates a new blank vocabulary document"
 msgstr "একটি নতুন ফাঁকা শব্দভাণ্ডারের ফাইল তৈরি করে"
 
-#: kwordquiz.cpp:111
+#: kwordquiz.cpp:112
 msgid "Opens an existing vocabulary document"
 msgstr "একটি বিদ্যমান শব্দভাণ্ডারের ফাইল খোলে"
 
 #: kwordquiz.cpp:117
+#, fuzzy
+msgid "&Get New Vocabularies..."
+msgstr "শব্দভাণ্ডার সাজানো হচ্ছে..."
+
+#: kwordquiz.cpp:118
+#, fuzzy
+msgid "Downloads new vocabularies"
+msgstr "শব্দভাণ্ডার সাজানো হচ্ছে..."
+
+#: kwordquiz.cpp:122
 msgid "Saves the active vocabulary document"
 msgstr "শব্দভাণ্ডারের যে ডকুমেন্টটি এমুহূর্তে সক্রিয় রয়েছে, তা সংরক্ষণ করে"
 
-#: kwordquiz.cpp:121
+#: kwordquiz.cpp:126
 msgid "Saves the active vocabulary document with a different name"
-msgstr "শব্দভাণ্ডারের যে ডকুমেন্টটি এমুহূর্তে সক্রিয় রয়েছে, তা ভিন্ন নামে সংরক্ষণ করে"
+msgstr ""
+"শব্দভাণ্ডারের যে ডকুমেন্টটি এমুহূর্তে সক্রিয় রয়েছে, তা ভিন্ন নামে সংরক্ষণ করে"
 
-#: kwordquiz.cpp:125
+#: kwordquiz.cpp:130
 msgid "Closes the active vocabulary document"
 msgstr "শব্দভাণ্ডারের যে ডকুমেন্টটি এমুহূর্তে সক্রিয় রয়েছে, তা বন্ধ করে"
 
-#: kwordquiz.cpp:129
+#: kwordquiz.cpp:134
 msgid "Prints the active vocabulary document"
 msgstr "শব্দভাণ্ডারের যে ডকুমেন্টটি এমুহূর্তে সক্রিয় রয়েছে, তা মুদ্রিত করে"
 
-#: kwordquiz.cpp:133
+#: kwordquiz.cpp:138
 msgid "Quits KWordQuiz"
 msgstr "কে-ওয়ার্ডকুইজ থেকে প্রস্থান করে"
 
-#: kwordquiz.cpp:137
+#: kwordquiz.cpp:142
 msgid "Undoes the last command"
 msgstr "শেষ কমান্ড বাতিল করে"
 
-#: kwordquiz.cpp:141
+#: kwordquiz.cpp:146
 msgid "Cuts the text from the selected cells and places it on the clipboard"
 msgstr "নির্বাচিত ঘর থেকে টেক্সট কেটে ক্লিপবোর্ডে রাখে"
 
-#: kwordquiz.cpp:145
+#: kwordquiz.cpp:150
 msgid "Copies the text from the selected cells and places it on the clipboard"
 msgstr "নির্বাচিত ঘর থেকে টেক্সট কপি করে ক্লিপবোর্ডে রাখে"
 
-#: kwordquiz.cpp:149
+#: kwordquiz.cpp:154
 msgid ""
-"Pastes previously cut or copied text from the clipboard into the selected "
-"cells"
-msgstr "পূর্বে কেটে নেওয়া বা কপি করা টেক্সটকে ক্লিপবোর্ড থেকে নির্বাচিত ঘরে রাখে"
+"Pastes previously cut or copied text from the clipboard into the selected cells"
+msgstr ""
+"পূর্বে কেটে নেওয়া বা কপি করা টেক্সটকে ক্লিপবোর্ড থেকে নির্বাচিত ঘরে রাখে"
 
-#: kwordquiz.cpp:153
+#: kwordquiz.cpp:158
 msgid "Clears the content of the selected cells"
 msgstr "নির্বাচিত ঘরের লেখা মুছে ফেলে"
 
-#: kwordquiz.cpp:156
+#: kwordquiz.cpp:161
 msgid "&Insert Row"
 msgstr "সারি ঢোকা&ও"
 
-#: kwordquiz.cpp:157
+#: kwordquiz.cpp:162
 msgid "Inserts a new row above the current row"
 msgstr "বর্তমান সারির ওপর একটি নতুন সারি ঢোকাও"
 
-#: kwordquiz.cpp:160
+#: kwordquiz.cpp:165
 msgid "&Delete Row"
 msgstr "সারি মুছে ফেলো (&ম)"
 
-#: kwordquiz.cpp:161
+#: kwordquiz.cpp:166
 msgid "Deletes the selected row(s)"
 msgstr "নির্বাচিত সারি(সমূহ) মুছে ফেলে"
 
-#: kwordquiz.cpp:164
+#: kwordquiz.cpp:169
 msgid "&Mark as Blank"
 msgstr "ফাঁকা হিসাবে চিহ্নি&ত করুন"
 
-#: kwordquiz.cpp:165
+#: kwordquiz.cpp:170
 msgid "Marks the current or selected word as a blank for Fill-in-the-blank"
 msgstr ""
-"শূন্যস্থান-পূরণের সময় যে শব্দকে ফাঁকা রাখা হয়, বর্তমান বা নির্বাচিত শব্দকে সেই শব্দ "
-"হিসাবে চিহ্নিত করে"
+"শূন্যস্থান-পূরণের সময় যে শব্দকে ফাঁকা রাখা হয়, বর্তমান বা নির্বাচিত শব্দকে সেই "
+"শব্দ হিসাবে চিহ্নিত করে"
 
-#: kwordquiz.cpp:168
+#: kwordquiz.cpp:173
 msgid "&Unmark Blanks"
 msgstr "ফাঁকা স্থান &অচিহ্নিত করো"
 
-#: kwordquiz.cpp:169
+#: kwordquiz.cpp:174
 msgid "Removes blanks from the current or selected word"
 msgstr "বর্তমান বা নির্বাচিত শব্দ থেকে ফাঁকা স্থান অপসারণ করে"
 
-#: kwordquiz.cpp:174
+#: kwordquiz.cpp:179
 msgid "&Column Titles..."
 msgstr "&কলাম শিরোনাম..."
 
-#: kwordquiz.cpp:175
+#: kwordquiz.cpp:180
 msgid "Defines the column titles for the active vocabulary"
 msgstr "সক্রিয় শব্দভাণ্ডারের কলাম শিরোনাম নির্দিষ্ট করে"
 
-#: kwordquiz.cpp:178
+#: kwordquiz.cpp:183
 msgid "&Font..."
 msgstr "&ফন্ট..."
 
-#: kwordquiz.cpp:179
+#: kwordquiz.cpp:184
 msgid "Defines the font used by the editor"
 msgstr "এডিটর যে ফন্ট ব্যবহার করবে, তা নির্দিষ্ট করে"
 
-#: kwordquiz.cpp:184
+#: kwordquiz.cpp:189
 msgid "&Rows/Columns..."
 msgstr "সারি/কলা&ম..."
 
-#: kwordquiz.cpp:185
+#: kwordquiz.cpp:190
 msgid ""
 "Defines the number of rows, row heights, and column widths for the active "
 "vocabulary"
-msgstr "সক্রিয় শব্দভাণ্ডারের সারির সংখ্যা, সারির উচ্চতা, এবং কলাম প্রস্থ নির্দিষ্ট করে"
+msgstr ""
+"সক্রিয় শব্দভাণ্ডারের সারির সংখ্যা, সারির উচ্চতা, এবং কলাম প্রস্থ নির্দিষ্ট করে"
 
-#: kwordquiz.cpp:188
+#: kwordquiz.cpp:193
 msgid "&Sort..."
 msgstr "সাজাও... (&স)"
 
-#: kwordquiz.cpp:189
+#: kwordquiz.cpp:194
 msgid ""
 "Sorts the vocabulary in ascending or descending order based on the left or "
 "right column"
 msgstr ""
-"বাম বা ডান কলামের ওপর ভিত্তি করে শব্দভাণ্ডারকে উর্ধ্ব বা নিম্ন ক্রমানুসারে সাজায়"
+"বাম বা ডান কলামের ওপর ভিত্তি করে শব্দভাণ্ডারকে উর্ধ্ব বা নিম্ন ক্রমানুসারে "
+"সাজায়"
 
-#: kwordquiz.cpp:192
+#: kwordquiz.cpp:197
 msgid "Sh&uffle"
 msgstr "&এলোমেলো করো"
 
-#: kwordquiz.cpp:193
+#: kwordquiz.cpp:198
 msgid "Shuffles the entries of the active vocabulary"
 msgstr "সক্রিয় শব্দভাণ্ডারের এন্ট্রিগুলোকে এলোমেলো করে"
 
-#: kwordquiz.cpp:196
+#: kwordquiz.cpp:201
 msgid "Change Mode"
 msgstr "মোড পাল্টাও"
 
-#: kwordquiz.cpp:197
+#: kwordquiz.cpp:202
 msgid "Changes the mode used in quiz sessions"
 msgstr "কুইজ সেশনের মোড পাল্টায়"
 
-#: kwordquiz.cpp:213 kwordquiz.cpp:214 kwordquiz.cpp:215 kwordquiz.cpp:216
-#: kwordquiz.cpp:217
+#: kwordquiz.cpp:218 kwordquiz.cpp:219 kwordquiz.cpp:220 kwordquiz.cpp:221
+#: kwordquiz.cpp:222
 msgid "Selects this mode"
 msgstr "এই মোড বেছে নাও"
 
-#: kwordquiz.cpp:224
+#: kwordquiz.cpp:229
 msgid "&Editor"
 msgstr "&এডিটর"
 
-#: kwordquiz.cpp:225
+#: kwordquiz.cpp:230
 msgid "Activates the vocabulary editor"
 msgstr "শব্দভাণ্ডারের এডিটরকে সক্রিয় করে"
 
-#: kwordquiz.cpp:228
+#: kwordquiz.cpp:233
 msgid "&Flashcard"
 msgstr "ফ্ল্যা&শকার্ড"
 
-#: kwordquiz.cpp:229
+#: kwordquiz.cpp:234
 msgid "Starts a flashcard session using the active vocabulary"
-msgstr "বর্তমানে সক্রিয় শব্দভাণ্ডার ব্যবহার করে একটি ফ্ল্যাশকার্ড সেশন আরম্ভ করে"
+msgstr ""
+"বর্তমানে সক্রিয় শব্দভাণ্ডার ব্যবহার করে একটি ফ্ল্যাশকার্ড সেশন আরম্ভ করে"
 
-#: kwordquiz.cpp:232
+#: kwordquiz.cpp:237
 msgid "&Multiple Choice"
 msgstr "নৈব্যক্তি&ক"
 
-#: kwordquiz.cpp:233
+#: kwordquiz.cpp:238
 msgid "Starts a multiple choice session using the active vocabulary"
 msgstr "বর্তমানে সক্রিয় শব্দভাণ্ডার ব্যবহার করে একটি নৈব্যক্তিক সেশন আরম্ভ করে"
 
-#: kwordquiz.cpp:236
+#: kwordquiz.cpp:241
 msgid "&Question && Answer"
 msgstr "প্রশ্নোত্ত&র"
 
-#: kwordquiz.cpp:237
+#: kwordquiz.cpp:242
 msgid "Starts a question and answer session using the active vocabulary"
-msgstr "বর্তমানে সক্রিয় শব্দভাণ্ডার ব্যবহার করে একটি প্রশ্নোত্তর পর্ব আরম্ভ করে"
+msgstr ""
+"বর্তমানে সক্রিয় শব্দভাণ্ডার ব্যবহার করে একটি প্রশ্নোত্তর পর্ব আরম্ভ করে"
 
-#: kwordquiz.cpp:240
+#: kwordquiz.cpp:245
 msgid "&Check"
 msgstr "&পরীক্ষা করো"
 
-#: kwordquiz.cpp:241
+#: kwordquiz.cpp:246
 msgid "Checks your answer to this question"
 msgstr "আপনার এই প্রশ্নের উত্তর পরীক্ষা করে"
 
-#: kwordquiz.cpp:244
+#: kwordquiz.cpp:249
 msgid "I &Know"
 msgstr "জানি (&জ)"
 
-#: kwordquiz.cpp:245
+#: kwordquiz.cpp:250
 msgid "Counts this card as correct and shows the next card"
 msgstr "এই কার্ডকে সঠিক হিসাবে গণনা করে ও পরবর্তী কার্ড দেখায়"
 
-#: kwordquiz.cpp:248
+#: kwordquiz.cpp:253
 msgid "I &Do Not Know"
 msgstr "জানি না (&ন)"
 
-#: kwordquiz.cpp:249
+#: kwordquiz.cpp:254
 msgid "Counts this card as incorrect and shows the next card"
 msgstr "এই কার্ডকে বেঠিক হিসাবে গণনা করে ও পরবর্তী কার্ড দেখায়"
 
-#: kwordquiz.cpp:252
+#: kwordquiz.cpp:257
 msgid "&Hint"
 msgstr "&ইঙ্গিত"
 
-#: kwordquiz.cpp:253
+#: kwordquiz.cpp:258
 msgid "Gets the next correct letter of the answer"
 msgstr "উত্তরের পরবর্তী সঠিক অক্ষরকে আনে"
 
-#: kwordquiz.cpp:256
+#: kwordquiz.cpp:261
 msgid "&Restart"
 msgstr "পুনরায় &আরম্ভ"
 
-#: kwordquiz.cpp:257
+#: kwordquiz.cpp:262
 msgid "Restarts the quiz session from the beginning"
 msgstr "প্রথম থেকে কুইজ সেশন আরম্ভ করে"
 
-#: kwordquiz.cpp:260
+#: kwordquiz.cpp:265
 msgid "Repeat &Errors"
 msgstr "&সমস্যার পুনরাবৃত্তি ঘটাও"
 
-#: kwordquiz.cpp:261
+#: kwordquiz.cpp:266
 msgid "Repeats all incorrectly answered questions"
 msgstr "সকল ভুল উত্তর দেওয়া প্রশ্নের পুনরাবৃত্তি ঘটায়"
 
-#: kwordquiz.cpp:265
+#: kwordquiz.cpp:270
 msgid "Configures sound and other notifications for certain events"
 msgstr "নির্দিষ্ট কিছু ইভেন্টের জন্য শব্দ ও অন্যান্য বিজ্ঞপ্তি কনফিগার করে"
 
-#: kwordquiz.cpp:269
+#: kwordquiz.cpp:274
 msgid "Specifies preferences for the vocabulary editor and quiz sessions"
 msgstr "শব্দভাণ্ডার ও কুইজ পর্ব সংক্রান্ত পছন্দ উল্লেখ করে"
 
-#: kwordquiz.cpp:306
+#: kwordquiz.cpp:311
 msgid "Toggles display of the toolbars"
 msgstr "টুলবার প্রদর্শনের মোড পাল্টায়"
 
-#: kwordquiz.cpp:374 kwordquiz.cpp:488 kwordquiz.cpp:542
+#: kwordquiz.cpp:379 kwordquiz.cpp:493 kwordquiz.cpp:547
 msgid "Opening file..."
 msgstr "ফাইল খোলা হচ্ছে..."
 
-#: kwordquiz.cpp:382 kwordquiz.cpp:483 kwordquiz.cpp:537 kwordquiz.cpp:545
-#: kwordquiz.cpp:559 kwordquiz.cpp:566 kwordquiz.cpp:639 kwordquiz.cpp:654
-#: kwordquiz.cpp:686 kwordquiz.cpp:693 kwordquiz.cpp:700 kwordquiz.cpp:707
-#: kwordquiz.cpp:714 kwordquiz.cpp:721 kwordquiz.cpp:728 kwordquiz.cpp:735
-#: kwordquiz.cpp:742 kwordquiz.cpp:749 kwordquiz.cpp:766 kwordquiz.cpp:781
-#: kwordquiz.cpp:788 kwordquiz.cpp:795 kwordquiz.cpp:802 kwordquiz.cpp:809
-#: kwordquiz.cpp:816 kwordquiz.cpp:829 kwordquiz.cpp:836 kwordquiz.cpp:843
-#: kwordquiz.cpp:850 kwordquiz.cpp:857 kwordquiz.cpp:864 kwordquiz.cpp:871
-#: kwordquiz.cpp:878 kwordquiz.cpp:885 kwordquiz.cpp:892 kwordquiz.cpp:1192
+#: kwordquiz.cpp:387 kwordquiz.cpp:488 kwordquiz.cpp:542 kwordquiz.cpp:550
+#: kwordquiz.cpp:564 kwordquiz.cpp:578 kwordquiz.cpp:651 kwordquiz.cpp:666
+#: kwordquiz.cpp:698 kwordquiz.cpp:705 kwordquiz.cpp:712 kwordquiz.cpp:719
+#: kwordquiz.cpp:726 kwordquiz.cpp:733 kwordquiz.cpp:740 kwordquiz.cpp:747
+#: kwordquiz.cpp:754 kwordquiz.cpp:761 kwordquiz.cpp:778 kwordquiz.cpp:793
+#: kwordquiz.cpp:800 kwordquiz.cpp:807 kwordquiz.cpp:814 kwordquiz.cpp:821
+#: kwordquiz.cpp:828 kwordquiz.cpp:841 kwordquiz.cpp:848 kwordquiz.cpp:855
+#: kwordquiz.cpp:862 kwordquiz.cpp:869 kwordquiz.cpp:876 kwordquiz.cpp:883
+#: kwordquiz.cpp:890 kwordquiz.cpp:897 kwordquiz.cpp:904 kwordquiz.cpp:1204
 msgid "Ready"
 msgstr "প্রস্তুত"
 
-#: kwordquiz.cpp:474
+#: kwordquiz.cpp:479
 msgid "Opening a new document window..."
 msgstr "একটি নতুন ডকুমেন্ট উইন্ডো খোলা হচ্ছে..."
 
-#: kwordquiz.cpp:490
+#: kwordquiz.cpp:495
 msgid "&Join selected files into one list"
 msgstr "নির্বাচি&ত ফাইলগুলোকে একই তালিকাভুক্ত করে"
 
-#: kwordquiz.cpp:493
+#: kwordquiz.cpp:498
 msgid ""
 "*.kvtml *.wql *.xml.gz *.csv|All Supported Documents\n"
 "*.kvtml|KDE Vocabulary Document\n"
@@ -1662,19 +1722,19 @@ msgstr ""
 "*.xml.gz|Pauker-এর পাঠ \n"
 "*.csv|কমা-দ্বারা-পৃথকীকৃত মান"
 
-#: kwordquiz.cpp:497
+#: kwordquiz.cpp:502
 msgid "Open Vocabulary Document"
 msgstr "শব্দভাণ্ডারের ডকুমেন্ট খোলো"
 
-#: kwordquiz.cpp:550
+#: kwordquiz.cpp:555
 msgid "Saving file..."
 msgstr "ফাইল সংরক্ষণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:564
+#: kwordquiz.cpp:576
 msgid "Saving file with a new filename..."
 msgstr "একটি নতুন ফাইল-নাম ব্যবহার করে সংরক্ষণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:574
+#: kwordquiz.cpp:586
 msgid ""
 "*.kvtml|KDE Vocabulary Document\n"
 "*.wql|KWordQuiz Document\n"
@@ -1686,222 +1746,224 @@ msgstr ""
 "*.csv|কমা-দ্বারা-পৃথকীকৃত মান\n"
 "*.html|হাইপার টেক্সট মার্ক-আপ ল্যাঙ্গুয়েজ"
 
-#: kwordquiz.cpp:577
+#: kwordquiz.cpp:589
 msgid "Save Vocabulary Document As"
 msgstr "শব্দভাণ্ডারের ডকুমেন্টকে যে নামে সংরক্ষণ করা হচ্ছে"
 
-#: kwordquiz.cpp:599
+#: kwordquiz.cpp:611
 msgid ""
-"<qt>The file<br><b>%1</b><br>already exists. Do you want to overwrite it?</"
-"qt>"
+"<qt>The file"
+"<br><b>%1</b>"
+"<br>already exists. Do you want to overwrite it?</qt>"
 msgstr ""
-"<qt><br><b>%1</b><br> নামের ফাইলটি ইতিমধ্যেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই "
-"লিখতে চান?</qt>"
+"<qt>"
+"<br><b>%1</b>"
+"<br> নামের ফাইলটি ইতিমধ্যেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?</qt>"
 
-#: kwordquiz.cpp:622
+#: kwordquiz.cpp:634
 msgid "Closing file..."
 msgstr "ফাইল বন্ধ করা হচ্ছে..."
 
-#: kwordquiz.cpp:644
+#: kwordquiz.cpp:656
 msgid "Printing..."
 msgstr "মুদ্রিত হচ্ছে..."
 
-#: kwordquiz.cpp:659
+#: kwordquiz.cpp:671
 msgid "Exiting..."
 msgstr "প্রস্থান করছে..."
 
-#: kwordquiz.cpp:684
+#: kwordquiz.cpp:696
 msgid "Undoing previous command..."
 msgstr "শেষ কমান্ড বাতিল করা হচ্ছে..."
 
-#: kwordquiz.cpp:691
+#: kwordquiz.cpp:703
 msgid "Cutting selection..."
 msgstr "বাছাইকৃত অংশ কাটা হচ্ছে..."
 
-#: kwordquiz.cpp:698
+#: kwordquiz.cpp:710
 msgid "Copying selection to clipboard..."
 msgstr "বাছাইকৃত অংশ ক্লিপবোর্ডে কপি করা হচ্ছে..."
 
-#: kwordquiz.cpp:705
+#: kwordquiz.cpp:717
 msgid "Inserting clipboard contents..."
 msgstr "ক্লিপবোর্ড থেকে ঢোকানো হচ্ছে..."
 
-#: kwordquiz.cpp:712
+#: kwordquiz.cpp:724
 msgid "Clearing the selected cells..."
 msgstr "নির্বাচিত ঘরকে ফাঁকা করা হচ্ছে..."
 
-#: kwordquiz.cpp:719
+#: kwordquiz.cpp:731
 msgid "Inserting rows..."
 msgstr "সারি ঢোকানো হচ্ছে..."
 
-#: kwordquiz.cpp:726
+#: kwordquiz.cpp:738
 msgid "Deleting selected rows..."
 msgstr "নির্বাচিত সারি মোছা হচ্ছে..."
 
-#: kwordquiz.cpp:733
+#: kwordquiz.cpp:745
 msgid "Marking selected text as a blank..."
 msgstr "বাছাইকৃত টেক্সটকে ফাঁকা স্থান হিসাবে চিহ্নিত করা হচ্ছে..."
 
-#: kwordquiz.cpp:740
+#: kwordquiz.cpp:752
 msgid "Removing blank markings..."
 msgstr "চিহ্নিত ফাঁকা স্থান অপসারণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:747
+#: kwordquiz.cpp:759
 msgid "Searching for indicated text..."
 msgstr "নির্দেশিত টেক্সট খোঁজা হচ্ছে..."
 
-#: kwordquiz.cpp:748 kwordquiz.cpp:787
+#: kwordquiz.cpp:760 kwordquiz.cpp:799
 msgid "Not implemented yet"
 msgstr "এখনো বাস্তবায়িত হয় নি"
 
-#: kwordquiz.cpp:754
+#: kwordquiz.cpp:766
 msgid "Setting the column titles of the vocabulary..."
 msgstr "শব্দভাণ্ডারের কলাম শিরোনাম নির্ধারণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:771
+#: kwordquiz.cpp:783
 msgid "Setting the font of the vocabulary..."
 msgstr "শব্দভাণ্ডারের ফন্ট নির্ধারণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:786
+#: kwordquiz.cpp:798
 msgid "Changing the keyboard layout..."
 msgstr "কীবোর্ডের লে-আউট পরিবর্তন করা হচ্ছে..."
 
-#: kwordquiz.cpp:793
+#: kwordquiz.cpp:805
 msgid "Inserting special character..."
 msgstr "বিশেষ অক্ষর ঢোকানো হচ্ছে..."
 
-#: kwordquiz.cpp:800
+#: kwordquiz.cpp:812
 msgid "Changing row and column properties..."
 msgstr "সারি ও কলামের বৈশিষ্ট্য পরিবর্তন করা হচ্ছে..."
 
-#: kwordquiz.cpp:807
+#: kwordquiz.cpp:819
 msgid "Sorting the vocabulary..."
 msgstr "শব্দভাণ্ডার সাজানো হচ্ছে..."
 
-#: kwordquiz.cpp:814
+#: kwordquiz.cpp:826
 msgid "Randomizing the vocabulary..."
 msgstr "শব্দভাণ্ডার এলোমেলো করা হচ্ছে..."
 
-#: kwordquiz.cpp:821 kwordquiz.cpp:834 kwordquiz.cpp:841 kwordquiz.cpp:848
-#: kwordquiz.cpp:855 kwordquiz.cpp:862
+#: kwordquiz.cpp:833 kwordquiz.cpp:846 kwordquiz.cpp:853 kwordquiz.cpp:860
+#: kwordquiz.cpp:867 kwordquiz.cpp:874
 msgid "Updating mode..."
 msgstr "মোড আপডেট করা হচ্ছে..."
 
-#: kwordquiz.cpp:869
+#: kwordquiz.cpp:881
 msgid "Starting editor session..."
 msgstr "এডিটর সেশন আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:876
+#: kwordquiz.cpp:888
 msgid "Starting flashcard session..."
 msgstr "ফ্ল্যাশকার্ড সেশন আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:883
+#: kwordquiz.cpp:895
 msgid "Starting multiple choice session..."
 msgstr "নৈব্যক্তিক সেশন আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:890
+#: kwordquiz.cpp:902
 msgid "Starting question & answer session..."
 msgstr "প্রশ্নোত্তর পর্ব আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1059
+#: kwordquiz.cpp:1071
 #, c-format
 msgid "Inserts the character %1"
 msgstr "%1 অক্ষরটি ঢোকানো হচ্ছে"
 
-#: kwordquiz.cpp:1116
+#: kwordquiz.cpp:1128
 msgid "This will restart your quiz. Do you wish to continue?"
 msgstr "এটি কুইজ আরম্ভ করবে।  আপনি কি এগিয়ে যেতে চান?"
 
-#: kwordquiz.cpp:1130 kwordquiz.cpp:1149
+#: kwordquiz.cpp:1142 kwordquiz.cpp:1161
 msgid "&1 %1 -> %2 In Order"
 msgstr "&১ %1 -> %2 সাজানো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1131 kwordquiz.cpp:1150
+#: kwordquiz.cpp:1143 kwordquiz.cpp:1162
 msgid "&2 %1 -> %2 In Order"
 msgstr "&২ %1 -> %2 সাজানো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1132 kwordquiz.cpp:1151
+#: kwordquiz.cpp:1144 kwordquiz.cpp:1163
 msgid "&3 %1 -> %2 Randomly"
 msgstr "&৩ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1133 kwordquiz.cpp:1152
+#: kwordquiz.cpp:1145 kwordquiz.cpp:1164
 msgid "&4 %1 -> %2 Randomly"
 msgstr "&৪ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1134 kwordquiz.cpp:1153
+#: kwordquiz.cpp:1146 kwordquiz.cpp:1165
 msgid "&5 %1 <-> %2 Randomly"
 msgstr "&৫ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1160 kwordquiz.cpp:1163
+#: kwordquiz.cpp:1172 kwordquiz.cpp:1175
 msgid "%1 -> %2 In Order"
 msgstr "%1 -> %2 সাজানো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1166 kwordquiz.cpp:1169
+#: kwordquiz.cpp:1178 kwordquiz.cpp:1181
 msgid "%1 -> %2 Randomly"
 msgstr "%1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1172
+#: kwordquiz.cpp:1184
 msgid "%1 <-> %2 Randomly"
 msgstr "%1 <-> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquizview.cpp:52
+#: kwordquizview.cpp:68
 msgid "Column 1"
 msgstr "১ম কলাম"
 
-#: kwordquizview.cpp:53
+#: kwordquizview.cpp:69
 msgid "Column 2"
 msgstr "২য় কলাম"
 
-#: kwordquizview.cpp:198 kwordquizview.cpp:203
+#: kwordquizview.cpp:214 kwordquizview.cpp:219
 #, c-format
 msgid "KWordQuiz - %1"
 msgstr "কে-ওয়ার্ডকুইজ - %1"
 
-#: kwordquizview.cpp:207
+#: kwordquizview.cpp:223
 msgid "Name:_____________________________ Date:__________"
 msgstr "নাম:_____________________________ তারিখ:__________"
 
-#: kwordquizview.cpp:288
+#: kwordquizview.cpp:304
 msgid "&Undo Entry"
 msgstr "এন্ট্রিকে পূর্বা&বস্থায় ফিরিয়ে নাও"
 
-#: kwordquizview.cpp:299
+#: kwordquizview.cpp:315
 msgid "There is an error with the Fill-in-the-blank brackets"
 msgstr "শূন্যস্থান-পূরনের বন্ধনী (Bracket) নিয়ে একটি সমস্যা হয়েছে"
 
-#: kwordquizview.cpp:395
+#: kwordquizview.cpp:411
 msgid "&Undo Cut"
 msgstr "কাটা বাতি&ল করো"
 
-#: kwordquizview.cpp:435
+#: kwordquizview.cpp:451
 msgid "&Undo Paste"
 msgstr "সাঁটা বাতি&ল করো"
 
-#: kwordquizview.cpp:523
+#: kwordquizview.cpp:539
 msgid "&Undo Clear"
 msgstr "মোছা বাতি&ল করো"
 
-#: kwordquizview.cpp:534
+#: kwordquizview.cpp:550
 msgid "&Undo Insert"
 msgstr "ঢোকানো বাতি&ল করো"
 
-#: kwordquizview.cpp:548
+#: kwordquizview.cpp:564
 msgid "&Undo Delete"
 msgstr "মোছা বাতি&ল করো"
 
-#: kwordquizview.cpp:617
+#: kwordquizview.cpp:633
 msgid "&Undo Mark Blank"
 msgstr "ফাঁকা স্থান চিহ্নিতকরণ বাতি&ল করো"
 
-#: kwordquizview.cpp:663
+#: kwordquizview.cpp:679
 msgid "&Undo Unmark Blank"
 msgstr "ফাঁকা স্থান অচিহ্নিতকরণ বাতি&ল করো"
 
-#: kwordquizview.cpp:762
+#: kwordquizview.cpp:778
 msgid "&Undo Sort"
 msgstr "সাজানো বাতি&ল করো"
 
-#: kwordquizview.cpp:777
+#: kwordquizview.cpp:793
 msgid "&Undo Shuffle"
 msgstr "এলোমেলো করা বাতি&ল করো"
 
@@ -1937,8 +1999,8 @@ msgstr ""
 #: wqprintdialogpage.cpp:52
 msgid "Select to print the vocabulary as a vocabulary exam"
 msgstr ""
-"শব্দভাণ্ডারের পরীক্ষায় শব্দভাণ্ডারকে যে ভাবে দেখানো হয়, সে ভাবেই যেন মুদ্রিত করা হয় "
-"তা বেছে নিন"
+"শব্দভাণ্ডারের পরীক্ষায় শব্দভাণ্ডারকে যে ভাবে দেখানো হয়, সে ভাবেই যেন মুদ্রিত "
+"করা হয় তা বেছে নিন"
 
 #: wqprintdialogpage.cpp:53
 msgid "Select to print flashcards"
@@ -1972,22 +2034,8 @@ msgstr "বাছা&ই করো"
 msgid "Select this character"
 msgstr "এই অক্ষরটি বেছে নাও"
 
-#, fuzzy
-#~ msgid "The file '%1' already exists. Do you want to overwrite it?"
-#~ msgstr ""
-#~ "<qt><br><b>%1</b><br> নামের ফাইলটি ইতিমধ্যেই বিদ্যমান।  আপনি কি এটির ওপর "
-#~ "দিয়েই লিখতে চান?</qt>"
-
-#, fuzzy
-#~ msgid "&Get New Vocabularies..."
-#~ msgstr "শব্দভাণ্ডার সাজানো হচ্ছে..."
-
-#~ msgid ""
-#~ "This will set the default options in all pages of the preferences dialog; "
-#~ "continue?"
-#~ msgstr ""
-#~ "এটি পছন্দ নির্ধারণী ডায়ালগের প্রতি পৃষ্ঠার ডিফল্ট অপশনগুলো বেছে নিবে; এগিয়ে যাব "
-#~ "কি?"
+#~ msgid "This will set the default options in all pages of the preferences dialog; continue?"
+#~ msgstr "এটি পছন্দ নির্ধারণী ডায়ালগের প্রতি পৃষ্ঠার ডিফল্ট অপশনগুলো বেছে নিবে; এগিয়ে যাব কি?"
 
 #~ msgid "Set Default Options?"
 #~ msgstr "ডিফল্ট অপশন বেছে নেওয়া হবে কি?"
