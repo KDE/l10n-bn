@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
-"POT-Creation-Date: 2006-02-11 10:42+0100\n"
+"POT-Creation-Date: 2006-02-15 10:44+0100\n"
 "PO-Revision-Date: 2006-02-14 00:16-0600\n"
 "Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -42,11 +42,12 @@ msgstr "চ্যানেল"
 msgid "Begin"
 msgstr "শুরু"
 
-#: input/dvb/kevents.cpp:80 input/dvb/krecord.cpp:48
+#: input/disc/disc.cpp:155 input/dvb/kevents.cpp:80 input/dvb/krecord.cpp:48
 msgid "Duration"
 msgstr "সময়কাল"
 
-#: input/audiobrowser/playlist.cpp:341 input/dvb/kevents.cpp:81
+#: input/audiobrowser/playlist.cpp:339 input/disc/disc.cpp:154
+#: input/dvb/kevents.cpp:81
 msgid "Title"
 msgstr "শিরোনাম"
 
@@ -191,7 +192,7 @@ msgstr "নাম"
 msgid "Audio Channels"
 msgstr "অডিও চ্যানেল"
 
-#: input/dvb/dvbpanel.cpp:169 input/dvb/dvbpanel.cpp:272
+#: input/dvb/dvbpanel.cpp:169 input/dvb/dvbpanel.cpp:297
 msgid "Instant Record"
 msgstr "তাত্ক্ষণিক রেকর্ড"
 
@@ -212,95 +213,103 @@ msgstr "রেকর্ডিং"
 msgid "Broadcasting"
 msgstr "সম্প্রচার"
 
-#: input/dvb/dvbpanel.cpp:267
+#: input/dvb/dvbpanel.cpp:245 kaffeine.cpp:179
+msgid "Digital TV"
+msgstr "ডিজিট্যাল টিভি"
+
+#: input/dvb/dvbpanel.cpp:256
+msgid "Live digital TV only works with the xine engine."
+msgstr ""
+
+#: input/dvb/dvbpanel.cpp:292
 msgid "OSD Next Channel"
 msgstr "ওএসডি পরবর্তী চ্যানেল"
 
-#: input/dvb/dvbpanel.cpp:268
+#: input/dvb/dvbpanel.cpp:293
 msgid "OSD Previous Channel"
 msgstr "ওএসডি পূর্ববর্তী চ্যানেল"
 
-#: input/dvb/dvbpanel.cpp:269
+#: input/dvb/dvbpanel.cpp:294
 msgid "OSD Zap"
 msgstr "ওএসডি জ্যাপ"
 
-#: input/dvb/dvbpanel.cpp:270
+#: input/dvb/dvbpanel.cpp:295
 msgid "OSD Next Event"
 msgstr "ওএসডি পরবর্তী ঘটনা"
 
-#: input/dvb/dvbpanel.cpp:271
+#: input/dvb/dvbpanel.cpp:296
 msgid "OSD Previous Event"
 msgstr "ওএসডি পূর্ববর্তী ঘটনা"
 
-#: input/dvb/dvbpanel.cpp:273
+#: input/dvb/dvbpanel.cpp:298
 msgid "Show OSD"
 msgstr "ওএসডি প্রদর্শন করো"
 
-#: input/dvb/dvbpanel.cpp:274
+#: input/dvb/dvbpanel.cpp:299
 msgid "EPG..."
 msgstr "ইপিজি..."
 
-#: input/dvb/dvbpanel.cpp:275
+#: input/dvb/dvbpanel.cpp:300
 msgid "Timers..."
 msgstr "টাইমার..."
 
-#: input/dvb/dvbpanel.cpp:276
+#: input/dvb/dvbpanel.cpp:301
 msgid "Broadcasting..."
 msgstr "সম্প্রচার করা হচ্ছে..."
 
-#: input/dvb/dvbpanel.cpp:277
+#: input/dvb/dvbpanel.cpp:302
 msgid "Channels..."
 msgstr "চ্যানেল..."
 
-#: input/dvb/dvbpanel.cpp:278
+#: input/dvb/dvbpanel.cpp:303
 msgid "Configure DVB..."
 msgstr "ডিভিবি কনফিগার করো..."
 
-#: input/dvb/dvbconfig.cpp:315 input/dvb/dvbpanel.cpp:335
-#: input/dvb/dvbpanel.cpp:360 input/dvb/dvbpanel.cpp:408
-#: input/dvb/dvbpanel.cpp:791
+#: input/dvb/dvbconfig.cpp:315 input/dvb/dvbpanel.cpp:360
+#: input/dvb/dvbpanel.cpp:385 input/dvb/dvbpanel.cpp:433
+#: input/dvb/dvbpanel.cpp:816
 msgid "All"
 msgstr "সমস্ত"
 
 #. i18n: file ./input/dvb/scandialogui.ui line 272
-#: input/dvb/dvbconfig.cpp:317 input/dvb/dvbpanel.cpp:337
-#: input/dvb/dvbpanel.cpp:360 input/dvb/dvbpanel.cpp:796 rc.cpp:180
+#: input/dvb/dvbconfig.cpp:317 input/dvb/dvbpanel.cpp:362
+#: input/dvb/dvbpanel.cpp:385 input/dvb/dvbpanel.cpp:821 rc.cpp:180
 #, no-c-format
 msgid "TV"
 msgstr "টিভি"
 
 #. i18n: file ./input/dvb/scandialogui.ui line 256
-#: input/dvb/dvbconfig.cpp:319 input/dvb/dvbpanel.cpp:339
-#: input/dvb/dvbpanel.cpp:360 input/dvb/dvbpanel.cpp:794 rc.cpp:177
+#: input/dvb/dvbconfig.cpp:319 input/dvb/dvbpanel.cpp:364
+#: input/dvb/dvbpanel.cpp:385 input/dvb/dvbpanel.cpp:819 rc.cpp:177
 #, no-c-format
 msgid "Radio"
 msgstr "রেডিও"
 
-#: input/dvb/dvbpanel.cpp:356
+#: input/dvb/dvbpanel.cpp:381
 msgid "New Category..."
 msgstr "নতুন শ্রেণীবিভাগ..."
 
-#: input/dvb/dvbpanel.cpp:359
+#: input/dvb/dvbpanel.cpp:384
 msgid "Change Icon..."
 msgstr "আইকন পরিবর্তন..."
 
-#: input/dvb/dvbpanel.cpp:361
+#: input/dvb/dvbpanel.cpp:386
 msgid "Delete Category..."
 msgstr "শ্রেণীবিভাগ মুছে ফেলো..."
 
-#: input/dvb/dvbpanel.cpp:366
+#: input/dvb/dvbpanel.cpp:391
 msgid "New Category"
 msgstr "নতুন শ্রেণীবিভাগ"
 
-#: input/dvb/dvbpanel.cpp:366
+#: input/dvb/dvbpanel.cpp:391
 msgid "Enter a name for this category:"
 msgstr "এই শ্রেণীবিভাগটির জন্য একটি নাম ঢোকান:"
 
-#: input/dvb/dvbpanel.cpp:385
+#: input/dvb/dvbpanel.cpp:410
 msgid "Do you really want to delete this category?"
 msgstr "আপনি কি এই শ্রেণীবিভাগটি সত্যিই মুছে ফেলতে চান?"
 
-#: input/dvb/dvbpanel.cpp:845 input/dvb/dvbpanel.cpp:1367
+#: input/dvb/dvbpanel.cpp:870 input/dvb/dvbpanel.cpp:1392
 msgid ""
 "<qt>Can't get DVB data from http://hftom.free.fr/kaxtv/dvbdata.tar.gz!"
 "<br>\t\t\tCheck your internet connection, and say Yes to try again."
@@ -319,48 +328,48 @@ msgstr ""
 "<br>"
 "<br>আমি কি পুনরায় চেষ্টা করব?</qt>"
 
-#: input/dvb/dvbpanel.cpp:1028
+#: input/dvb/dvbpanel.cpp:1053
 msgid "Broadcasting failed."
 msgstr "সম্প্রচার ব্যর্থ হল।"
 
-#: input/dvb/dvbpanel.cpp:1032
+#: input/dvb/dvbpanel.cpp:1057
 msgid "Can't start broadcasting."
 msgstr "সম্প্রচার চালু করা যায়নি।"
 
-#: input/dvb/dvbpanel.cpp:1176
+#: input/dvb/dvbpanel.cpp:1201
 msgid "Timer successfully created and started."
 msgstr "টাইমার সফলভাবে তৈরি করা এবং চালু করা হয়েছে।"
 
-#: input/dvb/dvbpanel.cpp:1308
+#: input/dvb/dvbpanel.cpp:1333
 msgid "You may want to define some channel first!"
 msgstr "আপনি হয়ত কিছু চ্যানেল প্রথমে সংজ্ঞায়িত করতে চাইবেন!"
 
-#: input/dvb/dvbpanel.cpp:1356
+#: input/dvb/dvbpanel.cpp:1381
 msgid "Timer successfully created."
 msgstr "টাইমার সফলভাবে তৈরি করা হয়েছে।"
 
-#: input/dvb/dvbpanel.cpp:1683
+#: input/dvb/dvbpanel.cpp:1708
 msgid "Still recording."
 msgstr "রেকর্ডিং এখনও চলছে।"
 
-#: input/dvb/dvbpanel.cpp:1686
+#: input/dvb/dvbpanel.cpp:1711
 msgid "Still broadcasting."
 msgstr "সম্প্রচার এখনও চলছে।"
 
 # FIXME
-#: input/dvb/dvbpanel.cpp:1689
+#: input/dvb/dvbpanel.cpp:1714
 msgid "Can't tune dvb!"
 msgstr "ডিভিবি টিউন করা যায়নি!"
 
-#: input/dvb/dvbpanel.cpp:1692
+#: input/dvb/dvbpanel.cpp:1717
 msgid "Can't set pid(s)"
 msgstr "পি-আই-ডি নিযুক্ত করা যায়নি"
 
-#: input/dvb/dvbpanel.cpp:2255
+#: input/dvb/dvbpanel.cpp:2280
 msgid "Kaffeine is still recording. Do you really want to quit?"
 msgstr "ক্যাফিন এখনও রেকর্ড করছে। আপনি কি সত্যিই প্রস্থান করতে চান?"
 
-#: input/dvb/dvbpanel.cpp:2260
+#: input/dvb/dvbpanel.cpp:2285
 msgid "Kaffeine has queued timers. Do you really want to quit?"
 msgstr "ক্যাফিন টাইমার সারিবদ্ধ করেছে। আপনি কি সত্যিই প্রস্থান করতে চান?"
 
@@ -476,6 +485,7 @@ msgstr "ডিভিবি-টি"
 msgid "DVB-S"
 msgstr "ডিভিবি-এস"
 
+#: input/disc/cddb.cpp:332 input/disc/disc.cpp:456 input/disc/disc.cpp:457
 #: input/dvb/dvbconfig.cpp:490
 msgid "Unknown"
 msgstr "অজানা"
@@ -670,15 +680,133 @@ msgstr "ডিভিবি সম্প্রচার সকেট খোলা
 msgid "Can't init DVB broadcast socket."
 msgstr "ডিভিবি সম্প্রচার সকেট চালু করা যায়নি।"
 
-#: input/dvbclient/cdlisten.cpp:69
-msgid "Can't open info socket."
-msgstr "তথ্য সকেট খোলা যায়নি।"
+#: input/disc/paranoia.cpp:259
+msgid "MB"
+msgstr ""
+
+#: input/disc/paranoia.cpp:260
+msgid "KB"
+msgstr ""
+
+#: input/disc/paranoia.cpp:261
+msgid "Bytes"
+msgstr ""
+
+#: input/disc/disc.cpp:87 input/disc/disc.cpp:325 kaffeine.cpp:173
+msgid "AudioCD - DVD - VCD"
+msgstr ""
+
+#: input/disc/disc.cpp:102 input/disc/disc.cpp:106 input/disc/disc.cpp:398
+#, fuzzy
+msgid "Audio CD"
+msgstr "অডিও পি-আই-ডি"
+
+#: input/disc/disc.cpp:108 input/disc/disc.cpp:112 input/disc/disc.cpp:500
+#, fuzzy
+msgid "DVD"
+msgstr "ডিভিডি (&ড)"
+
+#: input/disc/disc.cpp:114 input/disc/disc.cpp:118 input/disc/disc.cpp:520
+msgid "VCD"
+msgstr ""
+
+#: input/disc/disc.cpp:134
+#, fuzzy
+msgid "Artist:"
+msgstr "শিল্পী"
+
+#: input/disc/disc.cpp:142
+#, fuzzy
+msgid "Album:"
+msgstr "অ্যালবাম"
+
+#: input/audiobrowser/playlist.cpp:342 input/audiobrowser/urllistview.cpp:68
+#: input/audiobrowser/urllistview.cpp:193 input/disc/disc.cpp:153
+#: input/disc/disc.cpp:459 input/disc/disc.cpp:462
+#: player-parts/gstreamer-part/gstreamer_part.cpp:442
+#: player-parts/gstreamer-part/gstreamer_part.cpp:673
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1125
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1505
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1580
+msgid "Track"
+msgstr "ট্র্যাক"
+
+#: input/disc/disc.cpp:171
+#, fuzzy
+msgid "Encode..."
+msgstr "সম্পাদনা করো..."
+
+#: input/disc/disc.cpp:206
+#, fuzzy
+msgid "Play Audio CD"
+msgstr "অডিও সিডি খোলো"
+
+#: input/disc/disc.cpp:209
+#, fuzzy
+msgid "Play DVD"
+msgstr "চালাও"
+
+#: input/disc/disc.cpp:212
+#, fuzzy
+msgid "Play VCD"
+msgstr "চালাও"
+
+#: input/disc/disc.cpp:312
+msgid "Open &DVD"
+msgstr "ডিভিডি খোলো (&ড)"
+
+#: input/disc/disc.cpp:313
+msgid "Open &VCD"
+msgstr "ভিসিডি খোলো (&ভ)"
+
+#: input/disc/disc.cpp:314
+msgid "Open &Audio-CD"
+msgstr "&অডিও সিডি খোলো"
+
+#: input/disc/disc.cpp:345
+msgid "You must select the tracks to rip."
+msgstr ""
+
+#: input/disc/disc.cpp:482
+msgid "No audio CD found."
+msgstr ""
+
+#: input/disc/cddb.cpp:328
+#, fuzzy
+msgid "No Title"
+msgstr "শিরোনাম"
+
+#: input/disc/cddb.cpp:340
+#, fuzzy, c-format
+msgid "Track %1"
+msgstr "ট্র্যাক"
+
+#: input/disc/cddb.cpp:425
+msgid "Searching local cddb entry ..."
+msgstr ""
+
+#: input/disc/cddb.cpp:450
+msgid "Searching remote cddb entry ..."
+msgstr ""
+
+#: input/disc/cddb.cpp:474
+msgid "Found exact match cddb entry ..."
+msgstr ""
+
+#: input/disc/cddb.cpp:535
+msgid "Found close cddb entry ..."
+msgstr ""
 
 #: input/dvbclient/cddump.cpp:191 input/dvbclient/cddump.cpp:202
 #: input/dvbclient/cddump.cpp:209 input/dvbclient/cdlisten.cpp:69
-#: input/dvbclient/cdlisten.cpp:80 pref.cpp:107
+#: input/dvbclient/cdlisten.cpp:80 input/dvbclient/cdwidget.cpp:87
+#: pref.cpp:107
 msgid "DVB Client"
 msgstr "ডিভিবি ক্লায়েন্ট"
+
+#: input/dvbclient/cdlisten.cpp:69
+msgid "Can't open info socket."
+msgstr "তথ্য সকেট খোলা যায়নি।"
 
 #: input/dvbclient/cdlisten.cpp:80
 msgid "Can't bind info socket!!!"
@@ -748,7 +876,7 @@ msgstr "নতুন অনুসন্ধান শর্তাবলী ঢো
 
 #: input/audiobrowser/urllistview.cpp:44
 #: player-parts/dummy-part/dummy_part.cpp:121
-#: player-parts/gstreamer-part/gstreamer_part.cpp:792
+#: player-parts/gstreamer-part/gstreamer_part.cpp:820
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1239
 msgid "Play"
 msgstr "চালাও"
@@ -777,47 +905,37 @@ msgstr "শিরোনাম সম্পা&দনা করো"
 msgid "&Info"
 msgstr "&তথ্য"
 
-#: input/audiobrowser/playlist.cpp:345 input/audiobrowser/urllistview.cpp:61
+#: input/audiobrowser/playlist.cpp:343 input/audiobrowser/urllistview.cpp:61
 #: input/audiobrowser/urllistview.cpp:196
-#: player-parts/gstreamer-part/gstreamer_part.cpp:655
+#: player-parts/gstreamer-part/gstreamer_part.cpp:683
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1131
 msgid "Length"
 msgstr "দৈর্ঘ্য"
-
-#: input/audiobrowser/playlist.cpp:344 input/audiobrowser/urllistview.cpp:68
-#: input/audiobrowser/urllistview.cpp:193
-#: player-parts/gstreamer-part/gstreamer_part.cpp:414
-#: player-parts/gstreamer-part/gstreamer_part.cpp:645
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1125
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1505
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1580
-msgid "Track"
-msgstr "ট্র্যাক"
 
 #: input/audiobrowser/urllistview.cpp:190
 msgid "URL"
 msgstr "ইউ.আর.এল"
 
-#: input/audiobrowser/playlist.cpp:342 input/audiobrowser/urllistview.cpp:191
-#: player-parts/gstreamer-part/gstreamer_part.cpp:641
+#: input/audiobrowser/playlist.cpp:340 input/audiobrowser/urllistview.cpp:191
+#: player-parts/gstreamer-part/gstreamer_part.cpp:669
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1121
 msgid "Artist"
 msgstr "শিল্পী"
 
-#: input/audiobrowser/playlist.cpp:343 input/audiobrowser/urllistview.cpp:192
-#: player-parts/gstreamer-part/gstreamer_part.cpp:643
+#: input/audiobrowser/playlist.cpp:341 input/audiobrowser/urllistview.cpp:192
+#: player-parts/gstreamer-part/gstreamer_part.cpp:671
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1123
 msgid "Album"
 msgstr "অ্যালবাম"
 
 #: input/audiobrowser/urllistview.cpp:194
-#: player-parts/gstreamer-part/gstreamer_part.cpp:647
+#: player-parts/gstreamer-part/gstreamer_part.cpp:675
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1127
 msgid "Year"
 msgstr "সন"
 
 #: input/audiobrowser/urllistview.cpp:195
-#: player-parts/gstreamer-part/gstreamer_part.cpp:649
+#: player-parts/gstreamer-part/gstreamer_part.cpp:677
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1129
 msgid "Genre"
 msgstr "Genre"
@@ -830,7 +948,7 @@ msgstr "সাবটাইটেল"
 msgid "in use"
 msgstr "ব্যবহার হচ্ছে"
 
-#: input/audiobrowser/playlist.cpp:1208 input/audiobrowser/urllistview.cpp:231
+#: input/audiobrowser/playlist.cpp:1178 input/audiobrowser/urllistview.cpp:231
 msgid ""
 "*.smi *.srt *.sub *.txt *.ssa *.asc|Subtitle Files\n"
 "*.*|All Files"
@@ -838,28 +956,28 @@ msgstr ""
 "*.smi *.srt *.sub *.txt *.ssa *.asc|সাবটাইটেল ফাইল\n"
 "*.*|সমস্ত ফাইল"
 
-#: input/audiobrowser/playlist.cpp:1208 input/audiobrowser/urllistview.cpp:232
+#: input/audiobrowser/playlist.cpp:1178 input/audiobrowser/urllistview.cpp:232
 msgid "Select Subtitle File"
 msgstr "সাবটাইটেল ফাইল নির্বাচন করো"
 
-#: input/audiobrowser/playlist.cpp:264
+#: input/audiobrowser/playlist.cpp:262
 msgid "Choose a Cover..."
 msgstr "একটি কভার বেছে নাও..."
 
-#: input/audiobrowser/playlist.cpp:265
+#: input/audiobrowser/playlist.cpp:263
 msgid "Gallery..."
 msgstr "গ্যালারি..."
 
-#: input/audiobrowser/playlist.cpp:377 input/audiobrowser/playlist.cpp:1984
+#: input/audiobrowser/playlist.cpp:375 input/audiobrowser/playlist.cpp:1941
 msgid "Filter"
 msgstr "ফিল্টার"
 
-#: input/audiobrowser/playlist.cpp:385 input/audiobrowser/playlist.cpp:572
-#: input/audiobrowser/playlist.cpp:1689 inputmanager.cpp:137 kaffeine.cpp:167
+#: input/audiobrowser/playlist.cpp:383 input/audiobrowser/playlist.cpp:593
+#: input/audiobrowser/playlist.cpp:1659 inputmanager.cpp:187 kaffeine.cpp:168
 msgid "Playlist"
 msgstr "সঙ্গীত-তালিকা"
 
-#: input/audiobrowser/playlist.cpp:393
+#: input/audiobrowser/playlist.cpp:391
 msgid ""
 "Select the active playlist. To change playlist name edit it and confirm with "
 "'Return'."
@@ -867,121 +985,125 @@ msgstr ""
 "সক্রিয় সঙ্গীত-তালিকা নির্বাচন করুন। সঙ্গীত-তালিকার নাম পরিবর্তন করতে এটি "
 "সম্পাদনা করুন এবং 'রিটার্ন' টিপে নিশ্চিত করুন।"
 
-#: input/audiobrowser/playlist.cpp:467
+#: input/audiobrowser/playlist.cpp:439
+msgid "Play Playlist"
+msgstr "সঙ্গীত-তালিকা চালাও"
+
+#: input/audiobrowser/playlist.cpp:488
 msgid "&Repeat"
 msgstr "পু&নরাবৃত্তি করো"
 
-#: input/audiobrowser/playlist.cpp:468
+#: input/audiobrowser/playlist.cpp:489
 msgid "Loop playlist"
 msgstr "সঙ্গীত-তালিকা চক্রাকারে চালানো হয়"
 
-#: input/audiobrowser/playlist.cpp:469
+#: input/audiobrowser/playlist.cpp:490
 msgid "Sh&uffle"
 msgstr "&এলোমেলোভাবে মেশাও"
 
-#: input/audiobrowser/playlist.cpp:470
+#: input/audiobrowser/playlist.cpp:491
 msgid "Play items in random order"
 msgstr "এলোমেলো ধারাতে আইটেম চালানো হয়"
 
-#: input/audiobrowser/playlist.cpp:471
+#: input/audiobrowser/playlist.cpp:492
 msgid "Ne&w Playlist"
 msgstr "নতুন &সঙ্গীত-তালিকা"
 
-#: input/audiobrowser/playlist.cpp:472
+#: input/audiobrowser/playlist.cpp:493
 msgid "&Import Playlist..."
 msgstr "সঙ্গীত-তালিকা আ&মদানি করো..."
 
-#: input/audiobrowser/playlist.cpp:473
+#: input/audiobrowser/playlist.cpp:494
 msgid "&Save Current Playlist As..."
 msgstr "...নামে বর্তমান সঙ্গীত-তালিকা সং&রক্ষণ করো"
 
-#: input/audiobrowser/playlist.cpp:474
+#: input/audiobrowser/playlist.cpp:495
 msgid "Re&move Current Playlist"
 msgstr "বর্তমান সঙ্গীত-তালিকা বাদ দা&ও"
 
-#: input/audiobrowser/playlist.cpp:495 input/audiobrowser/playlist.cpp:507
-#: kaffeine.cpp:197
+#: input/audiobrowser/playlist.cpp:516 input/audiobrowser/playlist.cpp:528
+#: kaffeine.cpp:199
 msgid "Kaffeine Playlists"
 msgstr "ক্যাফিন সঙ্গীত-তালিকা"
 
-#: input/audiobrowser/playlist.cpp:495 input/audiobrowser/playlist.cpp:510
-#: kaffeine.cpp:198
+#: input/audiobrowser/playlist.cpp:516 input/audiobrowser/playlist.cpp:531
+#: kaffeine.cpp:200
 msgid "All Files"
 msgstr "সমস্ত ফাইল"
 
-#: input/audiobrowser/playlist.cpp:495
+#: input/audiobrowser/playlist.cpp:516
 msgid "Open Playlist"
 msgstr "সঙ্গীত-তালিকা খোলো"
 
-#: input/audiobrowser/playlist.cpp:508 kaffeine.cpp:195
+#: input/audiobrowser/playlist.cpp:529 kaffeine.cpp:197
 msgid "M3U Playlists"
 msgstr "এমথ্রিইউ সঙ্গীত-তালিকা"
 
-#: input/audiobrowser/playlist.cpp:509 kaffeine.cpp:196
+#: input/audiobrowser/playlist.cpp:530 kaffeine.cpp:198
 msgid "PLS Playlists"
 msgstr "পিএলএস সঙ্গীত-তালিকা"
 
-#: input/audiobrowser/playlist.cpp:510
+#: input/audiobrowser/playlist.cpp:531
 msgid "Save Playlist"
 msgstr "সঙ্গীত-তালিকা সংরক্ষণ করো"
 
-#: input/audiobrowser/playlist.cpp:575 input/audiobrowser/playlist.cpp:611
-#: kaffeine.cpp:1503
+#: input/audiobrowser/playlist.cpp:596 input/audiobrowser/playlist.cpp:629
+#: kaffeine.cpp:1482
 msgid "NEW"
 msgstr "নতুন"
 
-#: input/audiobrowser/playlist.cpp:925
+#: input/audiobrowser/playlist.cpp:950
 msgid "Importing media resources..."
 msgstr "মিডিয়া সম্পদ আমদানি করা হচ্ছে ..."
 
-#: input/audiobrowser/playlist.cpp:1196 input/audiobrowser/playlist.cpp:1204
-#: input/audiobrowser/playlist.cpp:1223
+#: input/audiobrowser/playlist.cpp:1166 input/audiobrowser/playlist.cpp:1174
+#: input/audiobrowser/playlist.cpp:1193
 msgid "(no subtitles)"
 msgstr "(কোনও সাবটাইটেল নয়)"
 
-#: input/audiobrowser/playlist.cpp:1197 input/audiobrowser/playlist.cpp:1204
-#: input/audiobrowser/playlist.cpp:1206 input/audiobrowser/playlist.cpp:1224
+#: input/audiobrowser/playlist.cpp:1167 input/audiobrowser/playlist.cpp:1174
+#: input/audiobrowser/playlist.cpp:1176 input/audiobrowser/playlist.cpp:1194
 msgid "Other subtitle..."
 msgstr "অন্যান্য সাবটাইটেল..."
 
-#: input/audiobrowser/playlist.cpp:1512
+#: input/audiobrowser/playlist.cpp:1482
 msgid "Gallery"
 msgstr "গ্যালারি"
 
-#: input/audiobrowser/playlist.cpp:1673
+#: input/audiobrowser/playlist.cpp:1643
 msgid "Queue: %1 Entries, Playtime: %2"
 msgstr "সারি: %1-টি এন্ট্রি, চালানোর সময়: %2"
 
-#: input/audiobrowser/playlist.cpp:1680 kaffeine.cpp:140
+#: input/audiobrowser/playlist.cpp:1650 kaffeine.cpp:137
 msgid "Entries: %1, Playtime: %2"
 msgstr "এন্ট্রি: %1, চালানোর সময়: %2"
 
-#: input/audiobrowser/playlist.cpp:1792
+#: input/audiobrowser/playlist.cpp:1749
 msgid "Remove '%1' from list and from disk?"
 msgstr "তালিকা এবং ডিস্ক থেকে '%1' মুছে ফেলো?"
 
-#: input/audiobrowser/playlist.cpp:1817
+#: input/audiobrowser/playlist.cpp:1774
 msgid "Playlist Name Already Exists"
 msgstr "সঙ্গীত-তালিকার নাম ইতিমধ্যেই রয়েছে"
 
-#: input/audiobrowser/playlist.cpp:1818
+#: input/audiobrowser/playlist.cpp:1775
 msgid "Enter different playlist name:"
 msgstr "সঙ্গীত-তালিকার আলাদা নাম ঢোকান:"
 
-#: input/audiobrowser/playlist.cpp:2223
+#: input/audiobrowser/playlist.cpp:2180
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1284
 msgid "Select Subtitle"
 msgstr "সাবটাইটেল নির্বাচন"
 
-#: input/audiobrowser/playlist.cpp:2227
+#: input/audiobrowser/playlist.cpp:2184
 msgid "Media file:"
 msgstr "মিডিয়া ফাইল:"
 
-#: input/audiobrowser/playlist.cpp:2244
+#: input/audiobrowser/playlist.cpp:2201
 msgid "Select Movie"
 msgstr "চলচ্চিত্র নির্বাচন"
 
-#: input/audiobrowser/playlist.cpp:2248
+#: input/audiobrowser/playlist.cpp:2205
 msgid "Subtitle file:"
 msgstr "সাবটাইটেল ফাইল:"
 
@@ -989,52 +1111,20 @@ msgstr "সাবটাইটেল ফাইল:"
 msgid "Play / Pause"
 msgstr "চালাও / থামাও"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:795
+#: player-parts/gstreamer-part/gstreamer_part.cpp:823
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1241 systemtray.cpp:56
 msgid "&Next"
 msgstr "&পরবর্তী"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:808
+#: player-parts/gstreamer-part/gstreamer_part.cpp:836
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1261 systemtray.cpp:59
 msgid "&Mute"
 msgstr "নী&রব করো"
 
-#: kaffeine.cpp:225 main.cpp:73
+#: kaffeine.cpp:227 main.cpp:73
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1177 systemtray.cpp:74
 msgid "Kaffeine Player"
 msgstr "ক্যাফিন প্লেয়ার"
-
-#: startwindow.cpp:61
-msgid "Play Playlist"
-msgstr "সঙ্গীত-তালিকা চালাও"
-
-#: startwindow.cpp:63
-msgid "Open Files"
-msgstr "ফাইল খোলো"
-
-#: kaffeine.cpp:1418 startwindow.cpp:65
-msgid "Open URL"
-msgstr "ইউআরএল খোলো"
-
-#: startwindow.cpp:67
-msgid "Open Directory"
-msgstr "ডিরেক্টরী খোলো"
-
-#: startwindow.cpp:69
-msgid "Open DVD"
-msgstr "ডিভিডি খোলো"
-
-#: startwindow.cpp:71
-msgid "Open VCD"
-msgstr "ভিসিডি খোলো"
-
-#: startwindow.cpp:73
-msgid "Open Audio-CD"
-msgstr "অডিও সিডি খোলো"
-
-#: startwindow.cpp:76
-msgid "DVB"
-msgstr "ডিভিবি"
 
 #: _translatorinfo.cpp:1
 msgid ""
@@ -1300,7 +1390,7 @@ msgid "Done"
 msgstr "সম্পন্ন"
 
 #. i18n: file ./input/dvb/kaffeinedvb.rc line 4
-#: player-parts/gstreamer-part/gstreamer_part.cpp:812
+#: player-parts/gstreamer-part/gstreamer_part.cpp:840
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1270 rc.cpp:201
 #, no-c-format
 msgid "&DVB"
@@ -1426,93 +1516,99 @@ msgstr "মডিউলেশন:"
 msgid "Inversion:"
 msgstr "ওলটান অবস্থা:"
 
-#. i18n: file ./input/audiobrowser/kaffeineplaylist.rc line 4
+#. i18n: file ./input/disc/kaffeinedisc.rc line 12
 #: rc.cpp:285
+#, fuzzy, no-c-format
+msgid "CD Toolbar"
+msgstr "নিয়ন্ত্রণ টুলবার"
+
+#. i18n: file ./input/audiobrowser/kaffeineplaylist.rc line 4
+#: rc.cpp:288
 #, no-c-format
 msgid "Play&list"
 msgstr "&সঙ্গীত-তালিকা"
 
-#. i18n: file ./kaffeineui.rc line 15
-#: rc.cpp:291
+#. i18n: file ./kaffeineui.rc line 12
+#: rc.cpp:294
 #, no-c-format
 msgid "Quit Options"
 msgstr "প্রস্থান করার অপশনস"
 
-#. i18n: file ./kaffeineui.rc line 22
-#: rc.cpp:294 rc.cpp:312 rc.cpp:357 rc.cpp:375
+#. i18n: file ./kaffeineui.rc line 19
+#: rc.cpp:297 rc.cpp:315 rc.cpp:360 rc.cpp:378
 #, no-c-format
 msgid "&Player"
 msgstr "প্লেয়া&র"
 
-#. i18n: file ./kaffeineui.rc line 30
-#: rc.cpp:300
+#. i18n: file ./kaffeineui.rc line 27
+#: rc.cpp:303
 #, no-c-format
 msgid "Enable Auto &Resize"
 msgstr "স্বয়ংক্রী&য় আকার পরিবর্তন সক্রিয় করো"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 5
-#: rc.cpp:309
+#: rc.cpp:312
 #, no-c-format
 msgid "&Network Broadcasting"
 msgstr "নে&টওয়ার্ক সম্প্রচার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 24
-#: rc.cpp:315 rc.cpp:348
+#: rc.cpp:318 rc.cpp:351
 #, no-c-format
 msgid "&Navigation"
 msgstr "দি&কনির্নয়"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 33
-#: rc.cpp:318 rc.cpp:351
+#: rc.cpp:321 rc.cpp:354
 #, no-c-format
 msgid "&DVD"
 msgstr "ডিভিডি (&ড)"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 34
-#: rc.cpp:321 rc.cpp:354
+#: rc.cpp:324 rc.cpp:357
 #, no-c-format
 msgid "&DVD Menus"
 msgstr "ডিভিডি মেনু (&ড)"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 49
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:324
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:327
 #, no-c-format
 msgid "&Audio"
 msgstr "&অডিও"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 57
-#: rc.cpp:327
+#: rc.cpp:330
 #, no-c-format
 msgid "&Video"
 msgstr "ভিডি&ও"
 
 # FIXME
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 59
-#: rc.cpp:330 rc.cpp:360 rc.cpp:372
+#: rc.cpp:333 rc.cpp:363 rc.cpp:375
 #, no-c-format
 msgid "&Aspect Ratio"
 msgstr "দৃষ্টি&ভঙ্গি অনুপাত"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 89
-#: rc.cpp:336
+#: rc.cpp:339
 #, no-c-format
 msgid "Screenshot Toolbar"
 msgstr "স্ক্রীনশট টুলবার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 92
-#: rc.cpp:339 rc.cpp:363
+#: rc.cpp:342 rc.cpp:366
 #, no-c-format
 msgid "Controls Toolbar"
 msgstr "নিয়ন্ত্রণ টুলবার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 101
-#: rc.cpp:342 rc.cpp:366
+#: rc.cpp:345 rc.cpp:369
 #, no-c-format
 msgid "Volume Toolbar"
 msgstr "ভলিউম টুলবার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 105
-#: rc.cpp:345 rc.cpp:369
+#: rc.cpp:348 rc.cpp:372
 #, no-c-format
 msgid "Position Toolbar"
 msgstr "অবস্থান টুলবার"
@@ -1582,155 +1678,144 @@ msgstr ""
 msgid "Clear recent files list"
 msgstr "সাম্প্রতিক ফাইল তালিকা মুছে ফেলো"
 
-#: kaffeine.cpp:141
+#: kaffeine.cpp:138
 msgid "No player"
 msgstr "কোনও প্লেয়ার নয়"
 
-#: kaffeine.cpp:163
+#: kaffeine.cpp:161
+#, fuzzy
+msgid "Start"
+msgstr "স্ক্যান শুরু করো"
+
+#: kaffeine.cpp:164
 msgid "Player Window"
 msgstr "প্লেয়ার উইন্ডো"
 
-#: kaffeine.cpp:177
-msgid "Digital TV"
-msgstr "ডিজিট্যাল টিভি"
-
-#: kaffeine.cpp:184
+#: kaffeine.cpp:186
 msgid "Supported Media Formats"
 msgstr "সমর্থিত মিডিয়া ফরম্যাট"
 
-#: kaffeine.cpp:185
+#: kaffeine.cpp:187
 msgid "MPEG Audio Files"
 msgstr "এমপেগ অডিও ফাইল"
 
-#: kaffeine.cpp:186
+#: kaffeine.cpp:188
 msgid "MPEG Video Files"
 msgstr "এমপেগ ভিডিও ফাইল"
 
-#: kaffeine.cpp:187
+#: kaffeine.cpp:189
 msgid "Ogg Vorbis Files"
 msgstr "ওজিজি ভরবিস ফাইল"
 
-#: kaffeine.cpp:188
+#: kaffeine.cpp:190
 msgid "AVI Files"
 msgstr "এভিআই ফাইল"
 
-#: kaffeine.cpp:189
+#: kaffeine.cpp:191
 msgid "Quicktime Files"
 msgstr "কুইকটাইম ফাইল"
 
-#: kaffeine.cpp:190
+#: kaffeine.cpp:192
 msgid "Real Media Files"
 msgstr "রেয়াল মিডিয়া ফাইল"
 
-#: kaffeine.cpp:191
+#: kaffeine.cpp:193
 msgid "Matroska Files"
 msgstr "ম্যাট্রোস্কা ফাইল"
 
-#: kaffeine.cpp:192
+#: kaffeine.cpp:194
 msgid "FLAC Files"
 msgstr "এফএলএসি ফাইল"
 
-#: kaffeine.cpp:193
+#: kaffeine.cpp:195
 msgid "Windows Media Files"
 msgstr "উইন্ডোজ মিডিয়া ফাইল"
 
-#: kaffeine.cpp:194
+#: kaffeine.cpp:196
 msgid "WAV Files"
 msgstr "ডব্লিউএভি ফাইল"
 
-#: kaffeine.cpp:292
+#: kaffeine.cpp:280
 msgid "No layer"
 msgstr "কোনও স্তর নয়"
 
-#: kaffeine.cpp:306 kaffeine.cpp:329 kaffeine.cpp:405 kaffeine.cpp:450
+#: kaffeine.cpp:294 kaffeine.cpp:317 kaffeine.cpp:384 kaffeine.cpp:427
 msgid "Loading of player part '%1' failed."
 msgstr "প্লেয়ার পার্ট '%1' লোড করা ব্যর্থ হয়েছে।"
 
-#: kaffeine.cpp:306
+#: kaffeine.cpp:294
 msgid "%1 not found in search path."
 msgstr "অনুসন্ধান পাথ-এ %1 পাওয়া যায়নি।"
 
-#: kaffeine.cpp:657
+#: kaffeine.cpp:634
 msgid "Open &URL..."
 msgstr "&ইউআরএল খোলো..."
 
-#: kaffeine.cpp:658
+#: kaffeine.cpp:635
 msgid "Open D&irectory..."
 msgstr "ডিরেক্টরী খোলো... (&র)"
 
-#: kaffeine.cpp:660
-msgid "Open &DVD"
-msgstr "ডিভিডি খোলো (&ড)"
-
-#: kaffeine.cpp:661
-msgid "Open &VCD"
-msgstr "ভিসিডি খোলো (&ভ)"
-
-#: kaffeine.cpp:662
-msgid "Open &Audio-CD"
-msgstr "&অডিও সিডি খোলো"
-
-#: kaffeine.cpp:663
+#: kaffeine.cpp:637
 msgid "Quit && Shutoff Monitor After This Track"
 msgstr "এই ট্র্যাকটির পর প্রস্থান করো এবং মনিটর বন্ধ করো"
 
-#: kaffeine.cpp:664
+#: kaffeine.cpp:638
 msgid "Quit After This Track"
 msgstr "এই ট্র্যাকটির পর প্রস্থান করাে"
 
-#: kaffeine.cpp:665
+#: kaffeine.cpp:639
 msgid "Quit After Playlist"
 msgstr "সঙ্গীত-তালিকা শেষ হওয়ার পর প্রস্থান করাে"
 
-#: kaffeine.cpp:670
+#: kaffeine.cpp:644
 msgid "&Minimal Mode"
 msgstr "ন্যুনত&ম মোড"
 
-#: kaffeine.cpp:671
+#: kaffeine.cpp:645
 msgid "Toggle &Playlist/Player"
 msgstr "সঙ্গীত-তালিকা/প্লেয়ার টোগল করো (&P)"
 
-#: kaffeine.cpp:672
+#: kaffeine.cpp:646
 msgid "Preserve &Original Aspect"
 msgstr "মূল দৃষ্টিভঙ্গি বজায় রাখো (&O)"
 
-#: kaffeine.cpp:673
+#: kaffeine.cpp:647
 msgid "Alternate Layout"
 msgstr "বিকল্প বিন্যাস"
 
-#: kaffeine.cpp:675
+#: kaffeine.cpp:649
 msgid "Original Size"
 msgstr "মূল আকার"
 
-#: kaffeine.cpp:676
+#: kaffeine.cpp:650
 msgid "Double Size"
 msgstr "দ্বিগুণ আকার"
 
-#: kaffeine.cpp:677
+#: kaffeine.cpp:651
 msgid "Triple Size"
 msgstr "তিনগুন আকার"
 
-#: kaffeine.cpp:679
+#: kaffeine.cpp:653
 msgid "&Player Engine"
 msgstr "প্লেয়ার ইঞ্জিন (&P)"
 
-#: kaffeine.cpp:818 kaffeine.cpp:939
+#: kaffeine.cpp:792 kaffeine.cpp:911
 msgid "DVB client"
 msgstr "ডিভিবি ক্লায়েন্ট"
 
-#: kaffeine.cpp:970 kaffeine.cpp:972
+#: kaffeine.cpp:942 kaffeine.cpp:944
 msgid "Player"
 msgstr "প্লেয়ার"
 
-#: kaffeine.cpp:973
+#: kaffeine.cpp:945
 msgid "Main Window"
 msgstr "প্রধান উইন্ডো"
 
-#: kaffeine.cpp:1035
+#: kaffeine.cpp:1007
 msgid "DPMS Xserver extension was not found."
 msgstr "ডিপিএমএস এক্স-সার্ভার বর্ধিতাংশ খুঁজে পাওয়া যায়নি।"
 
-#: kaffeine.cpp:1042
+#: kaffeine.cpp:1014
 msgid ""
 "This will quit Kaffeine and shut off the monitor's power after the "
 "file/playlist has finished. Option \"dpms\" must be in  your X config file for "
@@ -1740,39 +1825,31 @@ msgstr ""
 "বন্ধকরবে। মনিটরের বিদ্যুত বন্ধ করার জন্য \"ডিপিএমএস\" অপশন আপনার এক্স "
 "কনফিগফাইলে অবশ্যই থাকতে হবে।"
 
-#: kaffeine.cpp:1117
+#: kaffeine.cpp:1089
 msgid "Open File(s)"
 msgstr "ফাইল খোলো"
 
-#: kaffeine.cpp:1418
+#: kaffeine.cpp:1390
+msgid "Open URL"
+msgstr "ইউআরএল খোলো"
+
+#: kaffeine.cpp:1390
 msgid "Enter a URL:"
 msgstr "একটি ইউআরএল ঢোকান:"
 
-#: kaffeine.cpp:1436
+#: kaffeine.cpp:1408
 msgid "Open Folder"
 msgstr "ফোল্ডার খোলো"
 
-#: kaffeine.cpp:1459
+#: kaffeine.cpp:1431
 msgid "No %1 in drive, or wrong path to device."
 msgstr "ড্রাইভ-এ কোনও %1 নেয়, অথবা ডিভাইসের পাথ ভূল।"
 
-#: kaffeine.cpp:1460
+#: kaffeine.cpp:1432
 msgid "Please select correct drive:"
 msgstr "অনুগ্রহ করে সঠিক ড্রাইভ নির্বাচন করুন:"
 
-#: kaffeine.cpp:1530
-msgid "This player doesn't support DVD playback."
-msgstr "এই প্লেয়ারটি ডিভিডি চালানো সমর্থন করে না।"
-
-#: kaffeine.cpp:1571
-msgid "This player doesn't support VCD playback."
-msgstr "এই প্লেয়ারটি ভিসিডি চালানো সমর্থন করে না।"
-
-#: kaffeine.cpp:1613
-msgid "This player doesn't support Audio CD playback."
-msgstr "এই প্লেয়ারটি অডিও সিডি চালানো সমর্থন করে না।"
-
-#: kaffeine.cpp:1655
+#: kaffeine.cpp:1509
 msgid ""
 "Closing the main window will keep Kaffeine running in the system tray. Use Quit "
 "from the File menu to quit the application."
@@ -1993,7 +2070,7 @@ msgstr "টিভিটাইম ডি-ইন্টারলেস প্লা
 msgid "Effect Plugins"
 msgstr "প্রভাব প্লাগিন"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:659
+#: player-parts/gstreamer-part/gstreamer_part.cpp:687
 #: player-parts/gstreamer-part/gstreamerconfig.cpp:47
 #: player-parts/kaffeine-part/filterdialog.cpp:44
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1136
@@ -2018,7 +2095,7 @@ msgstr "ফিল্টার যোগ করো"
 msgid "Remove All Filters"
 msgstr "সমস্ত ফিল্টার বাদ দাও"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:663
+#: player-parts/gstreamer-part/gstreamer_part.cpp:691
 #: player-parts/gstreamer-part/gstreamerconfig.cpp:60
 #: player-parts/kaffeine-part/filterdialog.cpp:77
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1139
@@ -2134,7 +2211,7 @@ msgstr "জাইন বার্তা"
 msgid "Ready"
 msgstr "তৈরি"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:541
+#: player-parts/gstreamer-part/gstreamer_part.cpp:569
 #: player-parts/kaffeine-part/kaffeine_part.cpp:999
 #: player-parts/kaffeine-part/kxinewidget.cpp:1444
 #: player-parts/kaffeine-part/kxinewidget.cpp:2024
@@ -2207,8 +2284,8 @@ msgstr ""
 "নিষ্ক্রিয় করা হয়েছিল (উদাঃ রেয়াল মিডিয়া) সম্ভাব্য আইনি সমস্যা প্রতিরোধ করতে।"
 
 #: player-parts/dummy-part/dummy_part.cpp:122
-#: player-parts/gstreamer-part/gstreamer_part.cpp:528
-#: player-parts/gstreamer-part/gstreamer_part.cpp:793
+#: player-parts/gstreamer-part/gstreamer_part.cpp:556
+#: player-parts/gstreamer-part/gstreamer_part.cpp:821
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1240
 #: player-parts/kaffeine-part/kxinewidget.cpp:2858
 msgid "Pause"
@@ -2259,7 +2336,7 @@ msgid "Select audio channel"
 msgstr "অডিও চ্যানেল নির্বাচন"
 
 # FIXME
-#: player-parts/gstreamer-part/gstreamer_part.cpp:802
+#: player-parts/gstreamer-part/gstreamer_part.cpp:830
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1259
 msgid "Audio &Visualization"
 msgstr "অডিও দৃশ্যায়ন (&V)"
@@ -2280,22 +2357,22 @@ msgstr "ডি-&ইন্টারলেস"
 msgid "Activate this for interlaced streams, some DVD's for example."
 msgstr "ইন্টারলেসকৃত স্ট্রীমের জন্য এইটি সক্রিয় করে, উদাঃ কিছু ডিভিডি।"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:809
+#: player-parts/gstreamer-part/gstreamer_part.cpp:837
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1267
 msgid "&Auto"
 msgstr "স্বয়ংক্রী&য়"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:810
+#: player-parts/gstreamer-part/gstreamer_part.cpp:838
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1268
 msgid "&4:3"
 msgstr "&৪:৩"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:811
+#: player-parts/gstreamer-part/gstreamer_part.cpp:839
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1269
 msgid "A&namorphic"
 msgstr "অ্যানামরফি&ক"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:813
+#: player-parts/gstreamer-part/gstreamer_part.cpp:841
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1271
 msgid "&Square"
 msgstr "চৌকো (&চ)"
@@ -2320,7 +2397,7 @@ msgstr "উলম্ব ছোট করে দেখাও"
 msgid "Deinterlace &Quality"
 msgstr "ডি-ইন্টারলেস মা&ন"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:814
+#: player-parts/gstreamer-part/gstreamer_part.cpp:842
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1280
 msgid "&Video Settings"
 msgstr "ভিডিও মানসমূ&হ"
@@ -2365,7 +2442,7 @@ msgstr "পরিচ্ছেদ"
 msgid "Angles"
 msgstr "কোণ"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:815
+#: player-parts/gstreamer-part/gstreamer_part.cpp:843
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1302
 msgid "Track &Info"
 msgstr "ট্র্যাক &তথ্য"
@@ -2378,16 +2455,16 @@ msgstr "প্রভা&ব প্লাগিন..."
 msgid "&xine Engine Parameters"
 msgstr "&জাইন ইঞ্জিন মানসমূহ"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:478
-#: player-parts/gstreamer-part/gstreamer_part.cpp:818
-#: player-parts/gstreamer-part/gstreamer_part.cpp:825
+#: player-parts/gstreamer-part/gstreamer_part.cpp:506
+#: player-parts/gstreamer-part/gstreamer_part.cpp:846
+#: player-parts/gstreamer-part/gstreamer_part.cpp:853
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1310
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1317
 #: player-parts/kaffeine-part/kxinewidget.cpp:2533
 msgid "Volume"
 msgstr "ভলিউম"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:799
+#: player-parts/gstreamer-part/gstreamer_part.cpp:827
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1321
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1330
 #: player-parts/kaffeine-part/kxinewidget.cpp:3070
@@ -2403,7 +2480,7 @@ msgstr ""
 "ছোট ক্লিক: টাইমার সামনে/পিছনে টোগল করে\n"
 "লম্বা ক্লিক: টাইমার ওএসডি টোগল করে"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:800
+#: player-parts/gstreamer-part/gstreamer_part.cpp:828
 #: player-parts/kaffeine-part/kaffeine_part.cpp:1339
 msgid "Playtime"
 msgstr "চালানোর সময়"
@@ -2417,28 +2494,28 @@ msgstr "সিডি-ডিবি এন্ট্রি খোঁজা হচ�
 msgid "Video Settings"
 msgstr "ভিডিও মানসমূহ"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:497
+#: player-parts/gstreamer-part/gstreamer_part.cpp:525
 #: player-parts/gstreamer-part/videosettings.cpp:41
 #: player-parts/kaffeine-part/kxinewidget.cpp:3358
 #: player-parts/kaffeine-part/videosettings.cpp:49
 msgid "Hue"
 msgstr "রঙের সূক্ষ তারতম্য"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:491
+#: player-parts/gstreamer-part/gstreamer_part.cpp:519
 #: player-parts/gstreamer-part/videosettings.cpp:51
 #: player-parts/kaffeine-part/kxinewidget.cpp:3364
 #: player-parts/kaffeine-part/videosettings.cpp:59
 msgid "Saturation"
 msgstr "সম্পৃক্তি"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:503
+#: player-parts/gstreamer-part/gstreamer_part.cpp:531
 #: player-parts/gstreamer-part/videosettings.cpp:61
 #: player-parts/kaffeine-part/kxinewidget.cpp:3370
 #: player-parts/kaffeine-part/videosettings.cpp:69
 msgid "Contrast"
 msgstr "বৈসাদৃশ্য"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:509
+#: player-parts/gstreamer-part/gstreamer_part.cpp:537
 #: player-parts/gstreamer-part/videosettings.cpp:71
 #: player-parts/kaffeine-part/kxinewidget.cpp:3376
 #: player-parts/kaffeine-part/videosettings.cpp:79
@@ -2563,7 +2640,7 @@ msgstr "ত্রুটি: নতুন ভিডিও ড্রাইভা�
 msgid "Using Video Driver: "
 msgstr "ভিডিও ড্রাইভার ব্যবহার করা হচ্ছে: "
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:837
+#: player-parts/gstreamer-part/gstreamer_part.cpp:865
 #: player-parts/kaffeine-part/kxinewidget.cpp:945
 msgid "Error: Can't init new Audio Driver %1 - using %2!"
 msgstr "ত্রুটি: নতুন অডিও ড্রাইভার %1 চালু করা যায়নি - %2 ব্যবহার করা হচ্ছে!"
@@ -2632,7 +2709,7 @@ msgstr "একটি নতুন জাইন স্ট্রীম তৈর�
 msgid "DVB: opening..."
 msgstr "ডিভিবি: খোলা হচ্ছে..."
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:262
+#: player-parts/gstreamer-part/gstreamer_part.cpp:290
 #: player-parts/kaffeine-part/kxinewidget.cpp:1827
 msgid "Opening..."
 msgstr "খোলা হচ্ছে..."
@@ -2665,8 +2742,8 @@ msgstr "মাধ্যমটি খোলা যায়নি"
 msgid "Generic error"
 msgstr "জেনেরিক ত্রুটি"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:517
-#: player-parts/gstreamer-part/gstreamer_part.cpp:519
+#: player-parts/gstreamer-part/gstreamer_part.cpp:545
+#: player-parts/gstreamer-part/gstreamer_part.cpp:547
 #: player-parts/kaffeine-part/kxinewidget.cpp:2569
 #: player-parts/kaffeine-part/kxinewidget.cpp:2574
 msgid "Mute"
@@ -2769,20 +2846,20 @@ msgstr "জিস্ট্রীমার চালু করা ব্যর্
 msgid "GStreamerPart"
 msgstr "জিস্ট্রীমার-পার্ট"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:651
+#: player-parts/gstreamer-part/gstreamer_part.cpp:679
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:826
+#: player-parts/gstreamer-part/gstreamer_part.cpp:854
 msgid "&GStreamer Engine Parameters"
 msgstr "জিস্ট্রীমার ইঞ্জিন মানসমূহ (&G)"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:854
-#: player-parts/gstreamer-part/gstreamer_part.cpp:893
+#: player-parts/gstreamer-part/gstreamer_part.cpp:882
+#: player-parts/gstreamer-part/gstreamer_part.cpp:921
 msgid "GStreamer could not be initialized!"
 msgstr "জিস্ট্রীমার চালু করা যায়নি!"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:862
+#: player-parts/gstreamer-part/gstreamer_part.cpp:890
 msgid ""
 "Missing GStreamer-registry! Did you forget to run <b>gst-register</b> "
 "(as root) after installation?"
@@ -2790,19 +2867,19 @@ msgstr ""
 "জিস্ট্রীমার রেজিস্ট্রী নিখোঁজ! ইনষ্টলেশন-এর পরে আপনি কি <b>gst-register</b> "
 "(রুট হিসেবে) চালাতে ভুলে গেছেন?"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:902
+#: player-parts/gstreamer-part/gstreamer_part.cpp:930
 msgid "Can't init Audio Driver '%1' - trying another one..."
 msgstr "অডিও ড্রাইভার '%1' চালু করা যায়নি - আরেকটি চেষ্টা করছে..."
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:913
+#: player-parts/gstreamer-part/gstreamer_part.cpp:941
 msgid "No useable audio-driver found!"
 msgstr "কোনও ব্যবহারযোগ্য অডিও ড্রাইভার পাওয়া যায়নি!"
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:925
+#: player-parts/gstreamer-part/gstreamer_part.cpp:953
 msgid "Can't init Video Driver '%1' - trying another one..."
 msgstr "ভিডিও ড্রাইভার '%1' চালু করা যায়নি - আরও একটি চেষ্টা করছে..."
 
-#: player-parts/gstreamer-part/gstreamer_part.cpp:933
+#: player-parts/gstreamer-part/gstreamer_part.cpp:961
 msgid "No useable video-driver found!"
 msgstr "কোনও ব্যবহারযোগ্য ভিডিও ড্রাইভার পাওয়া যায়নি!"
 
@@ -2845,6 +2922,30 @@ msgstr "সিডি, ভিসিডি, ডিভিডি ড্রাইভ"
 #: player-parts/dummy-part/dummy_part.cpp:75
 msgid "DummyPart"
 msgstr "ডামি-পার্ট"
+
+#~ msgid "Open Files"
+#~ msgstr "ফাইল খোলো"
+
+#~ msgid "Open Directory"
+#~ msgstr "ডিরেক্টরী খোলো"
+
+#~ msgid "Open DVD"
+#~ msgstr "ডিভিডি খোলো"
+
+#~ msgid "Open VCD"
+#~ msgstr "ভিসিডি খোলো"
+
+#~ msgid "DVB"
+#~ msgstr "ডিভিবি"
+
+#~ msgid "This player doesn't support DVD playback."
+#~ msgstr "এই প্লেয়ারটি ডিভিডি চালানো সমর্থন করে না।"
+
+#~ msgid "This player doesn't support VCD playback."
+#~ msgstr "এই প্লেয়ারটি ভিসিডি চালানো সমর্থন করে না।"
+
+#~ msgid "This player doesn't support Audio CD playback."
+#~ msgstr "এই প্লেয়ারটি অডিও সিডি চালানো সমর্থন করে না।"
 
 #~ msgid "Create Go!-Tab"
 #~ msgstr "Go!-Tab তৈরি করো"
