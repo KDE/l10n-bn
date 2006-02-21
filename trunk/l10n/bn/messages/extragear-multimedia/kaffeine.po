@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
-"POT-Creation-Date: 2006-02-20 11:15+0100\n"
+"POT-Creation-Date: 2006-02-21 11:05+0100\n"
 "PO-Revision-Date: 2006-02-14 00:16-0600\n"
 "Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -693,15 +693,15 @@ msgstr "প্লেয়ার পার্ট '%1' লোড করা ব্য
 msgid "Unable to create folder: "
 msgstr ""
 
-#: input/disc/paranoia.cpp:534
+#: input/disc/paranoia.cpp:540
 msgid "MB"
 msgstr ""
 
-#: input/disc/paranoia.cpp:535
+#: input/disc/paranoia.cpp:541
 msgid "KB"
 msgstr ""
 
-#: input/disc/paranoia.cpp:536
+#: input/disc/paranoia.cpp:542
 msgid "Bytes"
 msgstr ""
 
@@ -814,27 +814,25 @@ msgstr ""
 msgid "Found close cddb entry ..."
 msgstr ""
 
-#: input/disc/plugins/oggvorbis/koggenc.cpp:67
+#: input/disc/plugins/mp3lame/klameenc.cpp:92
+#, fuzzy
+msgid "KaffeineMp3Lame"
+msgstr "ক্যাফিন-পার্ট"
+
+#: input/disc/plugins/mp3lame/klameenc.cpp:93
+#, fuzzy
+msgid "A Lame mp3 encoder plugin for Kaffeine."
+msgstr "ক্যাফিনের জন্য একটি জাইন ভিত্তিক প্লেয়ার পার্ট।"
+
+#: input/disc/plugins/oggvorbis/koggenc.cpp:72
 #, fuzzy
 msgid "KaffeineOggVorbis"
 msgstr "ক্যাফিন-পার্ট"
 
-#: input/disc/plugins/oggvorbis/koggenc.cpp:68
+#: input/disc/plugins/oggvorbis/koggenc.cpp:73
 #, fuzzy
 msgid "A Ogg Vorbis encoder plugin for Kaffeine."
 msgstr "ক্যাফিনের জন্য একটি জাইন ভিত্তিক প্লেয়ার পার্ট।"
-
-#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 16
-#: input/disc/plugins/oggvorbis/oggconfig.cpp:109 rc.cpp:324
-#, fuzzy, no-c-format
-msgid "Ogg Vorbis Options"
-msgstr "ওজিজি ভরবিস ফাইল"
-
-#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 86
-#: input/disc/plugins/oggvorbis/oggconfig.cpp:111 rc.cpp:328
-#, no-c-format
-msgid "Quality :"
-msgstr ""
 
 #: input/dvbclient/cddump.cpp:191 input/dvbclient/cddump.cpp:202
 #: input/dvbclient/cddump.cpp:209 input/dvbclient/cdlisten.cpp:69
@@ -1615,93 +1613,129 @@ msgstr ""
 msgid "CD Toolbar"
 msgstr "নিয়ন্ত্রণ টুলবার"
 
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 16
+#: rc.cpp:324
+#, no-c-format
+msgid "Lame mp3 options"
+msgstr ""
+
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 49
+#: rc.cpp:328
+#, fuzzy, no-c-format
+msgid "VBR"
+msgstr "ডিভিবি"
+
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 73
+#: rc.cpp:331
+#, no-c-format
+msgid "Bitrate:"
+msgstr ""
+
+#. i18n: file ./input/disc/plugins/mp3lame/lameconfig.ui line 94
+#: rc.cpp:334
+#, no-c-format
+msgid "Kb/s"
+msgstr ""
+
+#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 16
+#: rc.cpp:345
+#, fuzzy, no-c-format
+msgid "Ogg Vorbis Options"
+msgstr "ওজিজি ভরবিস ফাইল"
+
+#. i18n: file ./input/disc/plugins/oggvorbis/oggconfig.ui line 86
+#: rc.cpp:349
+#, no-c-format
+msgid "Quality :"
+msgstr ""
+
 #. i18n: file ./input/audiobrowser/kaffeineplaylist.rc line 4
-#: rc.cpp:339
+#: rc.cpp:360
 #, no-c-format
 msgid "Play&list"
 msgstr "&সঙ্গীত-তালিকা"
 
 #. i18n: file ./kaffeineui.rc line 12
-#: rc.cpp:345
+#: rc.cpp:366
 #, no-c-format
 msgid "Quit Options"
 msgstr "প্রস্থান করার অপশনস"
 
 #. i18n: file ./kaffeineui.rc line 19
-#: rc.cpp:348 rc.cpp:366 rc.cpp:411 rc.cpp:429
+#: rc.cpp:369 rc.cpp:387 rc.cpp:432 rc.cpp:450
 #, no-c-format
 msgid "&Player"
 msgstr "প্লেয়া&র"
 
 #. i18n: file ./kaffeineui.rc line 27
-#: rc.cpp:354
+#: rc.cpp:375
 #, no-c-format
 msgid "Enable Auto &Resize"
 msgstr "স্বয়ংক্রী&য় আকার পরিবর্তন সক্রিয় করো"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 5
-#: rc.cpp:363
+#: rc.cpp:384
 #, no-c-format
 msgid "&Network Broadcasting"
 msgstr "নে&টওয়ার্ক সম্প্রচার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 24
-#: rc.cpp:369 rc.cpp:402
+#: rc.cpp:390 rc.cpp:423
 #, no-c-format
 msgid "&Navigation"
 msgstr "দি&কনির্নয়"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 33
-#: rc.cpp:372 rc.cpp:405
+#: rc.cpp:393 rc.cpp:426
 #, no-c-format
 msgid "&DVD"
 msgstr "ডিভিডি (&ড)"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 34
-#: rc.cpp:375 rc.cpp:408
+#: rc.cpp:396 rc.cpp:429
 #, no-c-format
 msgid "&DVD Menus"
 msgstr "ডিভিডি মেনু (&ড)"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 49
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:378
+#: player-parts/kaffeine-part/kaffeine_part.cpp:1291 rc.cpp:399
 #, no-c-format
 msgid "&Audio"
 msgstr "&অডিও"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 57
-#: rc.cpp:381
+#: rc.cpp:402
 #, no-c-format
 msgid "&Video"
 msgstr "ভিডি&ও"
 
 # FIXME
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 59
-#: rc.cpp:384 rc.cpp:414 rc.cpp:426
+#: rc.cpp:405 rc.cpp:435 rc.cpp:447
 #, no-c-format
 msgid "&Aspect Ratio"
 msgstr "দৃষ্টি&ভঙ্গি অনুপাত"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 89
-#: rc.cpp:390
+#: rc.cpp:411
 #, no-c-format
 msgid "Screenshot Toolbar"
 msgstr "স্ক্রীনশট টুলবার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 92
-#: rc.cpp:393 rc.cpp:417
+#: rc.cpp:414 rc.cpp:438
 #, no-c-format
 msgid "Controls Toolbar"
 msgstr "নিয়ন্ত্রণ টুলবার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 101
-#: rc.cpp:396 rc.cpp:420
+#: rc.cpp:417 rc.cpp:441
 #, no-c-format
 msgid "Volume Toolbar"
 msgstr "ভলিউম টুলবার"
 
 #. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 105
-#: rc.cpp:399 rc.cpp:423
+#: rc.cpp:420 rc.cpp:444
 #, no-c-format
 msgid "Position Toolbar"
 msgstr "অবস্থান টুলবার"
@@ -3027,9 +3061,6 @@ msgstr "ডামি-পার্ট"
 
 #~ msgid "Open VCD"
 #~ msgstr "ভিসিডি খোলো"
-
-#~ msgid "DVB"
-#~ msgstr "ডিভিবি"
 
 #~ msgid "This player doesn't support DVD playback."
 #~ msgstr "এই প্লেয়ারটি ডিভিডি চালানো সমর্থন করে না।"
