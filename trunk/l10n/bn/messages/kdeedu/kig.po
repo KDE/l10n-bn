@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kig\n"
-"POT-Creation-Date: 2005-12-22 03:15+0100\n"
+"POT-Creation-Date: 2006-02-24 03:55+0100\n"
 "PO-Revision-Date: 2004-07-11 19:26-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -872,7 +872,11 @@ msgstr "চিত্র হিসেবে রপ্তানি করো"
 msgid "Image Options"
 msgstr ""
 
-#: filters/exporter.cc:149 filters/exporter.cc:594
+#: filters/exporter.cc:148
+msgid "Sorry, this file format is not supported."
+msgstr "দুঃখিত, এ ধরনের ফাইল এখনো সমর্থিত নয়।"
+
+#: filters/exporter.cc:158 filters/exporter.cc:594
 #: filters/latexexporter.cc:466 filters/svgexporter.cc:82
 msgid ""
 "The file \"%1\" could not be opened. Please check if the file permissions are "
@@ -880,10 +884,6 @@ msgid ""
 msgstr ""
 "\"%1\" ফাইলটি খোলা যায় নি।  অনুগ্রহপূর্বক ফাইলে উপযুক্ত অনুমতি দেওয়া আছে কিনা "
 "তা পরীক্ষা করুন।"
-
-#: filters/exporter.cc:157
-msgid "Sorry, this file format is not supported."
-msgstr "দুঃখিত, এ ধরনের ফাইল এখনো সমর্থিত নয়।"
 
 #: filters/exporter.cc:172
 msgid "Sorry, something went wrong while saving to image \"%1\""
@@ -1558,7 +1558,7 @@ msgstr ""
 msgid "Test whether two vectors are equal"
 msgstr ""
 
-#: misc/builtin_stuff.cc:584 modes/popup.cc:1030
+#: misc/builtin_stuff.cc:584 modes/popup.cc:1042
 msgid "Python Script"
 msgstr ""
 
@@ -2105,7 +2105,7 @@ msgstr ""
 msgid "The name of the macro can not be empty."
 msgstr ""
 
-#: modes/label.cc:163 modes/popup.cc:542 modes/popup.cc:574
+#: modes/label.cc:163 modes/popup.cc:554 modes/popup.cc:586
 #, fuzzy
 msgid "<unnamed object>"
 msgstr "শেষ বস্তু"
@@ -2162,99 +2162,100 @@ msgstr "%1 বস্তুকে স্থানান্তর করো"
 msgid "Redefine Point"
 msgstr "বিন্দুকে পুনঃনির্ধারণ করো"
 
-#: modes/popup.cc:195
+#: modes/popup.cc:196
 msgid "Kig Document"
 msgstr "কিগ ডকুমেন্ট"
 
-#: modes/popup.cc:204
+#: modes/popup.cc:205
 msgid "%1 Objects"
 msgstr "%1 বস্তু"
 
-#: modes/popup.cc:263
+#: modes/popup.cc:275
 msgid "&Transform"
 msgstr "রূপান্তর (&র)"
 
-#: modes/popup.cc:264
+#: modes/popup.cc:276
 msgid "T&est"
 msgstr "&পরীক্ষা"
 
-#: modes/popup.cc:265
+#: modes/popup.cc:277
 msgid "Const&ruct"
 msgstr "তৈরি করো (&ত)"
 
-#: modes/popup.cc:267
+#: modes/popup.cc:279
 msgid "Add Te&xt Label"
 msgstr "টেক্সট লেবেল যোগ করো"
 
-#: modes/popup.cc:268
+#: modes/popup.cc:280
 msgid "Set Co&lor"
 msgstr "&রং নির্ধারণ করো"
 
-#: modes/popup.cc:269 objects/angle_type.cc:103
-msgid "Set Si&ze"
-msgstr "&আকার নির্ধারণ করো"
+#: modes/popup.cc:281
+#, fuzzy
+msgid "Set &Pen Width"
+msgstr "দৈর্ঘ্য নির্ধারণ করো... (&d)"
 
-#: modes/popup.cc:270
+#: modes/popup.cc:282
 msgid "Set St&yle"
 msgstr "&ধরন নির্ধারণ করো"
 
-#: modes/popup.cc:272
+#: modes/popup.cc:284
 msgid "Set Coordinate S&ystem"
 msgstr "স্থানাংক পদ্ধতি নির্ধারণ করো (&স)"
 
-#: modes/popup.cc:380
+#: modes/popup.cc:392
 msgid "&Hide"
 msgstr "আড়াল করো (&ড়)"
 
-#: modes/popup.cc:384
+#: modes/popup.cc:396
 msgid "&Show"
 msgstr ""
 
-#: modes/popup.cc:388
+#: modes/popup.cc:400
 msgid "&Move"
 msgstr "স্থানান্তর করো (&থ)"
 
-#: modes/popup.cc:400
+#: modes/popup.cc:412
 msgid "&Custom Color"
 msgstr "স্বনির্বাচিত রং (&ন)"
 
-#: modes/popup.cc:489
+#: modes/popup.cc:501
 #, fuzzy
 msgid "Set &Name..."
 msgstr "&পরামিতি নির্ধারণ করো..."
 
-#: modes/popup.cc:493
+#: modes/popup.cc:505
 #, fuzzy
 msgid "&Name"
 msgstr "নাম"
 
-#: modes/popup.cc:528 modes/popup.cc:550
+#: modes/popup.cc:540 modes/popup.cc:562
 #, fuzzy
 msgid "Set Object Name"
 msgstr "মূল বস্তুর ধরন"
 
-#: modes/popup.cc:529
+#: modes/popup.cc:541
 #, fuzzy
 msgid "Set Name of this Object:"
 msgstr "বস্তুটির আকার পরিবর্তন করো"
 
-#: modes/popup.cc:648
+#: modes/popup.cc:660
 msgid "Change Object Color"
 msgstr "বস্তুর রং পরিবর্তন করো"
 
-#: modes/popup.cc:664
+#: modes/popup.cc:676
 msgid "Change Object Width"
 msgstr "বস্তুর প্রস্থ পরিবর্তন করো"
 
-#: modes/popup.cc:692
+#: modes/popup.cc:704
 msgid "Change Point Style"
 msgstr "বিন্দুর ধরন পরিবর্তন করো"
 
-#: modes/popup.cc:705
+#: modes/popup.cc:717
 msgid "Change Object Style"
 msgstr "বস্তুর ধরন পরিবর্তন করো"
 
-#: kig/kig_part.cpp:245 modes/popup.cc:967
+#: kig/kig_part.cpp:245 modes/popup.cc:979
 #, fuzzy
 msgid "U&nhide All"
 msgstr "&সব কিছু প্রদর্শন করো"
@@ -2280,6 +2281,10 @@ msgstr ""
 msgid ""
 "Select a point that the second half-line of the angle should go through..."
 msgstr ""
+
+#: objects/angle_type.cc:103
+msgid "Set Si&ze"
+msgstr "&আকার নির্ধারণ করো"
 
 #: objects/angle_type.cc:147
 msgid "Resize Angle"
@@ -2340,78 +2345,78 @@ msgstr "পরীক্ষামূলক ফলাফল"
 msgid "Select a point on the curve..."
 msgstr "নতুন ম্যাক্রোর জন্য শেষ বস্তুটি বেছে নিন।"
 
-#: objects/circle_imp.cc:138 objects/polygon_imp.cc:227
+#: objects/circle_imp.cc:145 objects/polygon_imp.cc:227
 msgid "Surface"
 msgstr "পৃষ্ঠতল"
 
-#: objects/circle_imp.cc:139
+#: objects/circle_imp.cc:146
 msgid "Circumference"
 msgstr "পরিধি"
 
-#: objects/circle_imp.cc:140 objects/other_imp.cc:368
+#: objects/circle_imp.cc:147 objects/other_imp.cc:368
 msgid "Radius"
 msgstr "ব্যাসার্ধ"
 
-#: objects/circle_imp.cc:142
+#: objects/circle_imp.cc:149
 #, fuzzy
 msgid "Expanded Cartesian Equation"
 msgstr "কার্টেসিয় সমীকরণ"
 
-#: objects/circle_imp.cc:143 objects/conic_imp.cc:84 objects/cubic_imp.cc:290
+#: objects/circle_imp.cc:150 objects/conic_imp.cc:84 objects/cubic_imp.cc:290
 msgid "Cartesian Equation"
 msgstr "কার্টেসিয় সমীকরণ"
 
-#: objects/circle_imp.cc:144 objects/conic_imp.cc:85
+#: objects/circle_imp.cc:151 objects/conic_imp.cc:85
 msgid "Polar Equation"
 msgstr "পোলার সমীকরণ"
 
-#: objects/circle_imp.cc:229
+#: objects/circle_imp.cc:236
 msgid "rho = %1   [centered at %2]"
 msgstr "rho = %1   [%2 কেন্দ্রিক]"
 
-#: objects/circle_imp.cc:238
+#: objects/circle_imp.cc:245
 #, fuzzy
 msgid "x² + y² + %1 x + %2 y + %3 = 0"
 msgstr "x^2 + y^2 + %1 x + %2 y + %3 = 0"
 
-#: objects/circle_imp.cc:248
+#: objects/circle_imp.cc:255
 msgid "( x - %1 )² + ( y - %2 )² = %3"
 msgstr ""
 
-#: objects/circle_imp.cc:319
+#: objects/circle_imp.cc:326
 msgid "circle"
 msgstr "বৃত্ত"
 
-#: objects/circle_imp.cc:320
+#: objects/circle_imp.cc:327
 msgid "Select this circle"
 msgstr "এই বৃত্তটি বেছে নাও"
 
-#: objects/circle_imp.cc:321
+#: objects/circle_imp.cc:328
 #, fuzzy, c-format
 msgid "Select circle %1"
 msgstr "এই বৃত্তটি বেছে নাও"
 
-#: objects/circle_imp.cc:322
+#: objects/circle_imp.cc:329
 msgid "Remove a Circle"
 msgstr "একটি বৃত্ত অপসারণ করো"
 
-#: objects/circle_imp.cc:323
+#: objects/circle_imp.cc:330
 msgid "Add a Circle"
 msgstr "একটি বৃত্ত যোগ করো"
 
-#: objects/circle_imp.cc:324
+#: objects/circle_imp.cc:331
 msgid "Move a Circle"
 msgstr "একটি বৃত্ত স্থানান্তর করো"
 
-#: objects/circle_imp.cc:325
+#: objects/circle_imp.cc:332
 msgid "Attach to this circle"
 msgstr "এই বৃত্তের সাথে সংযুক্ত করো"
 
-#: objects/circle_imp.cc:326
+#: objects/circle_imp.cc:333
 msgid "Show a Circle"
 msgstr "একটি বৃত্ত দেখাও"
 
-#: objects/circle_imp.cc:327
+#: objects/circle_imp.cc:334
 msgid "Hide a Circle"
 msgstr "একটি বৃত্ত আড়াল করো"
 
