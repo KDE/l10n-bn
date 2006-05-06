@@ -10,18 +10,17 @@
 # Deepayan Sarkar <deepayan@bengalinux.org>, 2006.#.
 # Golam Mortuza Hossain <gmhossain@gmail.com>, 2006.
 # Deepayan Sarkar <deepayan@bengalinux.org>, 2006.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: amarok-newer\n"
+"Project-Id-Version: amarok\n"
 "POT-Creation-Date: 2006-03-27 04:03+0200\n"
-"PO-Revision-Date: 2006-04-30 14:39-0500\n"
+"PO-Revision-Date: 2006-05-05 22:18-0500\n"
 "Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
+"X-Generator: KBabel 1.11.2\n"
 
 #: collectionbrowser.cpp:503 collectionbrowser.cpp:518
 #: collectionbrowser.cpp:565 collectionbrowser.cpp:573
@@ -72,11 +71,11 @@ msgstr "নামান্তর করো"
 
 #: playlistbrowser.cpp:106
 msgid "Detailed View"
-msgstr ""
+msgstr "বিস্তারিত দৃশ্য"
 
 #: playlistbrowser.cpp:107
 msgid "List View"
-msgstr ""
+msgstr "তালিকা দৃশ্য"
 
 #: playlistbrowser.cpp:109
 msgid "Unsorted"
@@ -96,7 +95,7 @@ msgstr "রেডিও স্ট্রীম"
 
 #: playlistbrowser.cpp:408 playlistbrowseritem.cpp:209
 msgid "Cool-Streams"
-msgstr ""
+msgstr "কুল-স্ট্রীম"
 
 #: playlistbrowser.cpp:518 playlistbrowser.cpp:524 playlistbrowser.cpp:528
 msgid "Smart Playlists"
@@ -200,12 +199,15 @@ msgstr "পর্যায়কাল স্ক্যান করো (ঘণ্�
 #: playlistbrowser.cpp:1001
 #, c-format
 msgid ""
-"_n: "
-"<p>You have selected 1 podcast to be <b>irreversibly</b> "
-"deleted. All downloaded episodes will also be deleted.\n"
-"<p>You have selected %n podcasts to be <b>irreversibly</b> "
-"deleted. All downloaded episodes will also be deleted."
+"_n: <p>You have selected 1 podcast to be <b>irreversibly</b> deleted. All "
+"downloaded episodes will also be deleted.\n"
+"<p>You have selected %n podcasts to be <b>irreversibly</b> deleted. All "
+"downloaded episodes will also be deleted."
 msgstr ""
+" <p>আপনি ১টি পডকাস্ট <b>চিরতরে</b> মুছে ফেলার জন্য নির্বাচন করেছেন। সমস্ত ডাউনলোড "
+"করা পর্ব মুছে ফেলা হবে।\n"
+" <p>আপনি %n-টি পডকাস্ট <b>চিরতরে</b> মুছে ফেলার জন্য নির্বাচন করেছেন। সমস্ত "
+"ডাউনলোড করা পর্ব মুছে ফেলা হবে।"
 
 #: playlistbrowser.cpp:1106 playlistbrowser.cpp:1112 playlistbrowser.cpp:1116
 #: playlistbrowser.cpp:2446 playlistwindow.cpp:349
@@ -227,8 +229,7 @@ msgstr "সঙ্গীত-তালিকা যোগ করো"
 #: playlistbrowser.cpp:1317
 #, c-format
 msgid ""
-"_n: "
-"<p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
+"_n: <p>You have selected 1 playlist to be <b>irreversibly</b> deleted.\n"
 "<p>You have selected %n playlists to be <b>irreversibly</b> deleted."
 msgstr ""
 "<p>আপনি ১টি সঙ্গীত-তালিকা নির্বাচন করেছেন <b>চিরতরে</b> মুছে ফেলতে।\n"
@@ -316,7 +317,7 @@ msgstr "সঙ্গীত-তালিকা যোগ করো..."
 
 #: playlistbrowser.cpp:2300
 msgid "Add Smart-Playlist..."
-msgstr ""
+msgstr "কেতাদুরস্ত সঙ্গীত-তালিকা যোগ করো..."
 
 #: playlistbrowser.cpp:2303
 msgid "Add Radio Stream..."
@@ -414,7 +415,7 @@ msgstr "ওপর দিয়ে লেখো"
 
 #: coverfetcher.cpp:161 refreshimages.cpp:60 refreshimages.cpp:97
 msgid "There was an error communicating with Amazon."
-msgstr ""
+msgstr "আমাজনের সঙ্গে যোগাযোগ করার সময় একটি ত্রুটি ঘটেছে।"
 
 #: enginecontroller.cpp:115
 msgid "Sorry, the '%1' could not be loaded, instead we have loaded the '%2'."
@@ -422,27 +423,23 @@ msgstr "দুঃখিত, '%1' লোড করা যায়নি, পরি�
 
 #: enginecontroller.cpp:186
 msgid ""
-"<p>amaroK could not find any sound-engine plugins. amaroK is now updating the "
-"KDE configuration database. Please wait a couple of minutes, then restart "
-"amaroK.</p>"
-"<p>If this does not help, it is likely that amaroK is installed under the wrong "
-"prefix, please fix your installation using:"
-"<pre>$ cd /path/to/amarok/source-code/"
-"<br>$ su -c \"make uninstall\""
-"<br>$ ./configure --prefix=`kde-config --prefix` && su -c \"make install\""
-"<br>$ kbuildsycoca"
-"<br>$ amarok</pre>More information can be found in the README file. For further "
-"assistance join us at #amarok on irc.freenode.net.</p>"
+"<p>amaroK could not find any sound-engine plugins. amaroK is now updating "
+"the KDE configuration database. Please wait a couple of minutes, then "
+"restart amaroK.</p><p>If this does not help, it is likely that amaroK is "
+"installed under the wrong prefix, please fix your installation using:<pre>$ "
+"cd /path/to/amarok/source-code/<br>$ su -c \"make uninstall\"<br>$ ./"
+"configure --prefix=`kde-config --prefix` && su -c \"make install\"<br>$ "
+"kbuildsycoca<br>$ amarok</pre>More information can be found in the README "
+"file. For further assistance join us at #amarok on irc.freenode.net.</p>"
 msgstr ""
 
 #: enginecontroller.cpp:241
 msgid ""
-"<p>The %1 claims it <b>cannot</b> play MP3 files."
-"<p>You may want to choose a different engine from the <i>Configure Dialog</i>"
-", or examine the installation of the multimedia-framework that the current "
-"engine uses. "
-"<p>You may find useful information in the <i>FAQ</i> section of the <i>"
-"amaroK HandBook</i>."
+"<p>The %1 claims it <b>cannot</b> play MP3 files.<p>You may want to choose a "
+"different engine from the <i>Configure Dialog</i>, or examine the "
+"installation of the multimedia-framework that the current engine uses. "
+"<p>You may find useful information in the <i>FAQ</i> section of the "
+"<i>amaroK HandBook</i>."
 msgstr ""
 
 #: enginecontroller.cpp:325
@@ -459,11 +456,11 @@ msgstr "লিপি ম্যানেজার"
 
 #: scriptmanager.cpp:318
 msgid ""
-"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, "
-"*.amarokscript.tar.gz)"
+"Script Packages (*.amarokscript.tar, *.amarokscript.tar.bz2, *.amarokscript."
+"tar.gz)"
 msgstr ""
-"লিপি প্যাকেজ (*.amarokscript.tar, *.amarokscript.tar.bz2, "
-"*.amarokscript.tar.gz)"
+"লিপি প্যাকেজ (*.amarokscript.tar, *.amarokscript.tar.bz2, *.amarokscript.tar."
+"gz)"
 
 #: scriptmanager.cpp:320
 msgid "Select Script Package"
@@ -477,8 +474,8 @@ msgstr "এই প্যাকেজটি পড়তে পারেনি।"
 msgid ""
 "A script with the name '%1' is already installed. Please uninstall it first."
 msgstr ""
-"'%1' নামের একটি লিপি আগে থেকেই ইনস্টল করা রয়েছে। অনুগ্রহ করে এটি প্রথমে "
-"আন-ইনস্টল করুন।"
+"'%1' নামের একটি লিপি আগে থেকেই ইনস্টল করা রয়েছে। অনুগ্রহ করে এটি প্রথমে আন-ইনস্টল "
+"করুন।"
 
 #: scriptmanager.cpp:346
 msgid "Script successfully installed."
@@ -486,13 +483,11 @@ msgstr "লিপি সফলভাবে ইনস্টলকৃত।"
 
 #: scriptmanager.cpp:350
 msgid ""
-"<p>Script installation failed.</p>"
-"<p>The package did not contain an executable file. Please inform the package "
-"maintainer about this error.</p>"
+"<p>Script installation failed.</p><p>The package did not contain an "
+"executable file. Please inform the package maintainer about this error.</p>"
 msgstr ""
-"<p>লিপি ইনস্টলেশন ব্যর্থ হল।</p>"
-"<p>প্যাকেজটি একটি রান করার যোগ্য ফাইল ধারন করে না। অনুগ্রহ করে এই ত্রুটিটির "
-"সম্বন্ধে প্যাকেজ রক্ষণাবেক্ষণকারীকে জানান।</p>"
+"<p>লিপি ইনস্টলেশন ব্যর্থ হল।</p><p>প্যাকেজটি একটি রান করার যোগ্য ফাইল ধারন করে "
+"না। অনুগ্রহ করে এই ত্রুটিটির সম্বন্ধে প্যাকেজ রক্ষণাবেক্ষণকারীকে জানান।</p>"
 
 #: scriptmanager.cpp:418
 msgid "Are you sure you want to uninstall the script '%1'?"
@@ -508,21 +503,19 @@ msgstr "আন-ইনস্টল"
 
 #: scriptmanager.cpp:429
 msgid ""
-"<p>Could not uninstall this script.</p>"
-"<p>The ScriptManager can only uninstall scripts which have been installed as "
-"packages.</p>"
+"<p>Could not uninstall this script.</p><p>The ScriptManager can only "
+"uninstall scripts which have been installed as packages.</p>"
 msgstr ""
-"<p>এই লিপিটি আন-ইনস্টল করতে পারেনি।</p>"
-"<p>লিপি ম্যানেজার আন-ইনস্টল করতে পারে কেবল মাত্র সেসকল লিপি যেগুলো প্যাকেজ "
-"হিসেবে ইনস্টল করা হয়েছে।</p>"
+"<p>এই লিপিটি আন-ইনস্টল করতে পারেনি।</p><p>লিপি ম্যানেজার আন-ইনস্টল করতে পারে "
+"কেবল মাত্র সেসকল লিপি যেগুলো প্যাকেজ হিসেবে ইনস্টল করা হয়েছে।</p>"
 
 #: scriptmanager.cpp:478
 msgid ""
-"<p>Could not start the script <i>%1</i>.</p>"
-"<p>Please make sure that the file has execute (+x) permissions.</p>"
+"<p>Could not start the script <i>%1</i>.</p><p>Please make sure that the "
+"file has execute (+x) permissions.</p>"
 msgstr ""
-"<p><i>%1</i> লিপি শুরু করতে পারেনি।</p>"
-"<p>অনুগ্রহ করে নিশ্চিত করুন যে ফাইলটির রান করার অনুমতি (+x) রয়েছে।</p>"
+"<p><i>%1</i> লিপি শুরু করতে পারেনি।</p><p>অনুগ্রহ করে নিশ্চিত করুন যে ফাইলটির রান "
+"করার অনুমতি (+x) রয়েছে।</p>"
 
 #: scriptmanager.cpp:545
 msgid "There is no information available for this script."
@@ -576,11 +569,11 @@ msgstr "এই মিডিয়াগুলো সঙ্গীত-তালিক
 
 #: playlistloader.cpp:391
 msgid ""
-"The XML in the playlist was invalid. Please report this as a bug to the amaroK "
-"developers. Thank you."
+"The XML in the playlist was invalid. Please report this as a bug to the "
+"amaroK developers. Thank you."
 msgstr ""
-"সঙ্গীত-তালিকায় এক্সএমএল অবৈধ ছিল। অনুগ্রহ করে আমারক ডেভেলপারগণদের একটি "
-"প্রোগ্রাম ত্রুটি হিসেবে এটি প্রতিবেদন করুন। আপনাকে ধন্যবাদ।"
+"সঙ্গীত-তালিকায় এক্সএমএল অবৈধ ছিল। অনুগ্রহ করে আমারক ডেভেলপারগণদের একটি প্রোগ্রাম "
+"ত্রুটি হিসেবে এটি প্রতিবেদন করুন। আপনাকে ধন্যবাদ।"
 
 #: playlistloader.cpp:425
 msgid "amaroK could not open the file."
@@ -604,36 +597,39 @@ msgstr "সঙ্গীত-তালিকা পুনরুদ্ধার ক
 
 #: directorylist.cpp:37
 msgid "These folders will be scanned for media to make up your collection."
-msgstr ""
-"আপনার সংঙ্গীত-সংগ্রহ তৈরি করতে মিডিয়ার জন্য এই ফোল্ডারগুলো স্ক্যান করা হবে।"
+msgstr "আপনার সংঙ্গীত-সংগ্রহ তৈরি করতে মিডিয়ার জন্য এই ফোল্ডারগুলো স্ক্যান করা হবে।"
 
 #: directorylist.cpp:41
 msgid "&Scan folders recursively"
-msgstr ""
+msgstr "ফোল্ডার পুনরাবৃত্তভাবে স্ক্যা&ন করো"
 
 #: directorylist.cpp:42
 msgid "&Watch folders for changes"
-msgstr ""
+msgstr "পরিবর্তনের জন্য ফোল্ডার &পর্যবেক্ষণ করো"
 
 #: directorylist.cpp:43
 msgid "&Import playlists"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা আ&মদানি করো"
 
 #: directorylist.cpp:45
 msgid "If selected, amaroK will read all subfolders."
-msgstr ""
+msgstr "যদি নির্বাচন করা হয়, আমারক সমস্ত সাব-ফোল্ডার পড়বে।"
 
 #: directorylist.cpp:46
 msgid ""
 "If selected, folders will automatically get rescanned when the content is "
 "modified, e.g. when a new file was added."
 msgstr ""
+"যদি নির্বাচন করা হয়, অভ্যন্তরস্থ বস্তুর কোনও পরিবর্তন হলে ফোল্ডারগুলি সয়ংক্রিয়ভাবে "
+"পুনরায় স্ক্যান করা হয়, উদাঃ যখন একটি নতুন ফাইল যোগ করা হয়।"
 
 #: directorylist.cpp:47
 msgid ""
 "If selected, playlist files (.m3u) will automatically be added to the "
 "Playlist-Browser."
 msgstr ""
+"যদি নির্বাচন করা হয়, সঙ্গীত-তালিকা ফাইল (.m3u) সংঙ্গীত-তালিকা ব্রাউজারে "
+"সয়ংক্রিয়ভাবে যোগ করা হবে।"
 
 #: party.cpp:57 playlist.cpp:3045
 msgid "Repopulate"
@@ -649,20 +645,18 @@ msgstr "অপশনস দেখাও"
 
 #: party.cpp:234
 msgid ""
-"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method to "
-"manipulate your playlist. amaroK can automatically remove played items and "
-"insert new ones to suit your taste!"
-"<br>"
-"<br>If you select <i>Playlist Shuffle</i>, make sure you choose some playlists "
-"or smart playlists by right-clicking on the items in the playlist browser"
+"<p align=\"center\"><b>Dynamic Mode</b></p>Dynamic mode is a powerful method "
+"to manipulate your playlist. amaroK can automatically remove played items "
+"and insert new ones to suit your taste!<br><br>If you select <i>Playlist "
+"Shuffle</i>, make sure you choose some playlists or smart playlists by right-"
+"clicking on the items in the playlist browser"
 msgstr ""
 "<p align=\"center\"><b>ডাইনামিক মোড</b></p>ডাইনামিক মোড আপনার সঙ্গীত-তালিকা "
 "নিপুণভাবে ব্যবহার করার একটি ক্ষমতাশালী পন্থা। আমারক সয়ংক্রিয়ভাবে চালানো গান বাদ "
-"দিতে এবং আপনার পছন্দসই নতুন গান ভিতরে ঢোকাতে পারে!"
-"<br>"
-"<br>যদি আপনি <i>এলোমেলো সঙ্গীত-তালিকা</i> নির্বাচন করেন, তাহলে আপনি নিশ্চিতভাবে "
-"কিছু সঙ্গীত-তালিকা বেছে নিন অথবা সঙ্গীত-তালিকা ব্রাউজারে আইটেমের ওপর ডানদিকের "
-"বাটন ক্লিক করে কেতাদুরস্ত সঙ্গীত-তালিকা বেছে নিন "
+"দিতে এবং আপনার পছন্দসই নতুন গান ভিতরে ঢোকাতে পারে!<br><br>যদি আপনি <i>এলোমেলো "
+"সঙ্গীত-তালিকা</i> নির্বাচন করেন, তাহলে আপনি নিশ্চিতভাবে কিছু সঙ্গীত-তালিকা বেছে "
+"নিন অথবা সঙ্গীত-তালিকা ব্রাউজারে আইটেমের ওপর ডানদিকের বাটন ক্লিক করে কেতাদুরস্ত "
+"সঙ্গীত-তালিকা বেছে নিন "
 
 #: party.cpp:241
 msgid "Dynamic Mode Introduction"
@@ -674,7 +668,7 @@ msgstr "কভার ম্যানেজার"
 
 #: covermanager.cpp:84
 msgid "Albums By"
-msgstr ""
+msgstr "এর দ্বারা অ্যালবাম"
 
 #: covermanager.cpp:88 covermanager.cpp:130
 msgid "All Albums"
@@ -767,7 +761,7 @@ msgstr " - "
 
 #: covermanager.cpp:370
 msgid "Loading Thumbnails..."
-msgstr ""
+msgstr "থাম্বনেইল লোড করা হচ্ছে..."
 
 #: covermanager.cpp:371 covermanager.cpp:803 covermanager.cpp:995
 #: covermanager.cpp:1002 playlistbrowseritem.cpp:619
@@ -836,10 +830,12 @@ msgid ""
 "_n:  Cover not found\n"
 " <b>%n</b> covers not found"
 msgstr ""
+"কভার পাওয়া যায়নি\n"
+"<b>%n</b>-টি কভার পাওয়া যায়নি"
 
 #: covermanager.cpp:801
 msgid "Fetching cover for "
-msgstr ""
+msgstr "এর জন্য কভার আনা হচ্ছে"
 
 #: covermanager.cpp:807
 #, c-format
@@ -847,6 +843,8 @@ msgid ""
 "_n: Fetching 1 cover: \n"
 "Fetching <b>%n</b> covers... : "
 msgstr ""
+" ১টি কভার আনা হচ্ছে: \n"
+"<b>%n</b>-টি কভার আনা হচ্ছে...:"
 
 #: covermanager.cpp:809
 #, c-format
@@ -854,6 +852,8 @@ msgid ""
 "_n: 1 fetched\n"
 "%n fetched"
 msgstr ""
+" ১ টি আনা হল\n"
+"%n-টি আনা হল"
 
 #: covermanager.cpp:812
 #, c-format
@@ -861,6 +861,8 @@ msgid ""
 "_n: 1 not found\n"
 "%n not found"
 msgstr ""
+" ১টি পাওয়া যায়নি\n"
+"%n-টি পাওয়া যায়নি"
 
 #: covermanager.cpp:815
 msgid "Connecting..."
@@ -871,6 +873,8 @@ msgid ""
 "_n: 1 result for \"%1\"\n"
 "%n results for \"%1\""
 msgstr ""
+" \"%1\"-এর জন্য ১টি ফলাফল\n"
+"\"%1\"-এর জন্য %n-টি ফলাফল"
 
 #: covermanager.cpp:837
 #, c-format
@@ -883,7 +887,7 @@ msgstr ""
 
 #: covermanager.cpp:839
 msgid " by "
-msgstr ""
+msgstr " এর দ্বারা "
 
 #: covermanager.cpp:843
 msgid " - ( <b>%1</b> without cover )"
@@ -899,7 +903,7 @@ msgstr "এই কভারটির ওপর দিয়ে লিখতে আ�
 
 #: covermanager.cpp:1025
 msgid "Overwrite Confirmation"
-msgstr ""
+msgstr "ওপর দিয়ে লেখা নিশ্চিতকরণ"
 
 # is that really meaningful?
 #: covermanager.cpp:1026
@@ -941,19 +945,14 @@ msgstr "পূর্ণপর্দা"
 
 #: socketserver.cpp:288
 msgid ""
-"<div align=center>"
-"<h3>No Visualizations Found</h3>Possible reasons:"
-"<ul>"
-"<li>libvisual is not installed</li>"
-"<li>No libvisual plugins are installed</li></ul>Please check these "
-"possibilities and restart amaroK.</div>"
+"<div align=center><h3>No Visualizations Found</h3>Possible reasons:"
+"<ul><li>libvisual is not installed</li><li>No libvisual plugins are "
+"installed</li></ul>Please check these possibilities and restart amaroK.</div>"
 msgstr ""
-"<div align=center>"
-"<h3>কোনও দৃশ্যায়ণ খুঁজে পায়নি</h3>সম্ভাব্য কারণ:"
-"<ul>"
-"<li>libvisual ইনস্টল করা হয়নি</li>"
-"<li>কোনও libvisual প্লাগিন ইনস্টল করা হয়নি </li></ul>"
-"এই সম্ভাবনাগুলো অনুগ্রহ করে পরীক্ষা করুন এবং আমারক পুনরায় শুরু করুন।</div>"
+"<div align=center><h3>কোনও দৃশ্যায়ণ খুঁজে পায়নি</h3>সম্ভাব্য কারণ:"
+"<ul><li>libvisual ইনস্টল করা হয়নি</li><li>কোনও libvisual প্লাগিন ইনস্টল করা "
+"হয়নি </li></ul>এই সম্ভাবনাগুলো অনুগ্রহ করে পরীক্ষা করুন এবং আমারক পুনরায় শুরু করুন।</"
+"div>"
 
 #: collectionbrowser.cpp:80 mediabrowser.cpp:78
 msgid "Enter space-separated terms to filter collection"
@@ -969,15 +968,15 @@ msgstr "ফোল্ডার কনফিগার করো"
 
 #: collectionbrowser.cpp:91
 msgid "Tree View"
-msgstr ""
+msgstr "ট্রি দৃশ্য"
 
 #: collectionbrowser.cpp:92
 msgid "Flat View"
-msgstr ""
+msgstr "চ্যাপ্টা দৃশ্য"
 
 #: collectionbrowser.cpp:101
 msgid "Group By"
-msgstr ""
+msgstr "এর দ্বারা গ্রুপ করো"
 
 #. i18n: file ./trackpickerdialogbase.ui line 103
 #: collectionbrowser.cpp:119 collectionbrowser.cpp:121
@@ -1068,6 +1067,8 @@ msgid ""
 "_n: 1 Artist\n"
 "%n Artists"
 msgstr ""
+" ১ জন শিল্পী\n"
+"%n জন শিল্পী"
 
 #: collectionbrowser.cpp:212
 #, c-format
@@ -1135,11 +1136,11 @@ msgstr ""
 
 #: collectionbrowser.cpp:1224
 msgid "&Mark as Compilation"
-msgstr ""
+msgstr "সঙ্কলন হিসেবে চিহ্নি&ত করো"
 
 #: collectionbrowser.cpp:1225
 msgid "&Unmark as Compilation"
-msgstr ""
+msgstr "সঙ্কল&ন চিহ্ন মুছে ফেলো"
 
 #: collectionbrowser.cpp:1294 collectionbrowser.cpp:1382 playlist.cpp:232
 #: playlistbrowseritem.cpp:1404 playlistbrowseritem.cpp:1830
@@ -1154,10 +1155,11 @@ msgstr "গোত্র"
 
 #: collectionbrowser.cpp:1969
 msgid ""
-"<div align=center>"
-"<h3>Flat-View Mode</h3>To enable the Flat-View mode, please enter search terms "
-"in the filter line above.</div>"
+"<div align=center><h3>Flat-View Mode</h3>To enable the Flat-View mode, "
+"please enter search terms in the filter line above.</div>"
 msgstr ""
+"<div align=center><h3>চ্যাপ্টা দৃশ্য মোড</h3>চ্যাপ্টা দৃশ্য মোড সক্রিয় করতে, অনুগ্রহ "
+"করে ওপরের ফিল্টার লাইনে অনুসন্ধান শর্তাবলী ঢোকান।</div>"
 
 #: actionclasses.cpp:53
 msgid "amaroK Menu"
@@ -1256,15 +1258,11 @@ msgstr "সারির পর"
 
 #: pluginmanager.cpp:96
 msgid ""
-"<p>KLibLoader could not load the plugin:"
-"<br/><i>%1</i></p>"
-"<p>Error message:"
+"<p>KLibLoader could not load the plugin:<br/><i>%1</i></p><p>Error message:"
 "<br/><i>%2</i></p>"
 msgstr ""
-"<p>কে-লিব-লোডার প্লাগিন লোড করতে পারেনি:"
-"<br/><i>%1</i></p>"
-"<p>ত্রুটি বার্তা:"
-"<br/><i>%2</i></p>"
+"<p>কে-লিব-লোডার প্লাগিন লোড করতে পারেনি:<br/><i>%1</i></p><p>ত্রুটি বার্তা:<br/"
+"><i>%2</i></p>"
 
 #: pluginmanager.cpp:175 queuemanager.cpp:67
 msgid "Name"
@@ -1367,14 +1365,13 @@ msgstr "gmhossain@gmail.com"
 
 #: mediabrowser.cpp:302
 msgid ""
-"<div align=center>"
-"<h3>MediaDevice Browser</h3>Click the Connect button to access your mounted "
-"iPod. Drag and drop files to enqueue them for transfer.</div>"
+"<div align=center><h3>MediaDevice Browser</h3>Click the Connect button to "
+"access your mounted iPod. Drag and drop files to enqueue them for transfer.</"
+"div>"
 msgstr ""
-"<div align=center>"
-"<h3>মিডিয়া ডিভাইস ব্রাউজার</h3>আপনার মাউন্টকৃত আই-পড উপলব্ধি করতে সংযোগ বাটন "
-"ক্লিক করুন। স্থানান্তরের জন্য তাদেরকে সারিবদ্ধ করতে ফাইল টেনে নিয়ে যান এবং ফেলে "
-"দিন।</div>"
+"<div align=center><h3>মিডিয়া ডিভাইস ব্রাউজার</h3>আপনার মাউন্টকৃত আই-পড উপলব্ধি "
+"করতে সংযোগ বাটন ক্লিক করুন। স্থানান্তরের জন্য তাদেরকে সারিবদ্ধ করতে ফাইল টেনে নিয়ে "
+"যান এবং ফেলে দিন।</div>"
 
 #: mediabrowser.cpp:357
 msgid "Delete File"
@@ -1438,8 +1435,7 @@ msgstr "&মাউন্ট কম্যান্ড:"
 msgid ""
 "Set the command to mount your device here, empty commands are not executed."
 msgstr ""
-"আপনার ডিভাইস মাউন্ট করতে কম্যান্ড এখানে নিযুক্ত করুন, ফাঁকা কম্যান্ড রান করা হয় "
-"না।"
+"আপনার ডিভাইস মাউন্ট করতে কম্যান্ড এখানে নিযুক্ত করুন, ফাঁকা কম্যান্ড রান করা হয় না।"
 
 #: mediabrowser.cpp:674
 msgid "&Unmount command:"
@@ -1449,8 +1445,7 @@ msgstr "আ&নমাউন্ট কম্যান্ড:"
 msgid ""
 "Set the command to unmount your device here, empty commands are not executed."
 msgstr ""
-"আপনার ডিভাইস আনমাউন্ট করতে কম্যান্ড এখানে নিযুক্ত করুন, ফাঁকা কম্যান্ড রান করা "
-"হয় না।"
+"আপনার ডিভাইস আনমাউন্ট করতে কম্যান্ড এখানে নিযুক্ত করুন, ফাঁকা কম্যান্ড রান করা হয় না।"
 
 #: mediabrowser.cpp:728
 #, c-format
@@ -1460,8 +1455,7 @@ msgstr "%1 রান করতে পারেনি"
 #: mediabrowser.cpp:818
 #, c-format
 msgid ""
-"_n: "
-"<p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
+"_n: <p>You have selected 1 file to be <b>irreversibly</b> deleted.\n"
 "<p>You have selected %n files to be <b>irreversibly</b> deleted."
 msgstr ""
 "<p>আপনি ১টি ফাইল নির্বাচন করেছেন <b>চিরতরে</b> মুছে ফেলতে।\n"
@@ -1469,8 +1463,7 @@ msgstr ""
 
 #: mediabrowser.cpp:942
 msgid "Could not find device, please mount it and try again."
-msgstr ""
-"ডিভাইস খুঁজে পায়নি, অনুগ্রহ করে এটি মাউন্ট করুন এবং পুনরায় চেষ্টা করুন।"
+msgstr "ডিভাইস খুঁজে পায়নি, অনুগ্রহ করে এটি মাউন্ট করুন এবং পুনরায় চেষ্টা করুন।"
 
 #: mediabrowser.cpp:943 mediabrowser.cpp:953 mediabrowser.cpp:973
 msgid "Media Device Browser"
@@ -1481,8 +1474,8 @@ msgid ""
 "There are tracks queued for transfer. Would you like to transfer them before "
 "disconnecting?"
 msgstr ""
-"স্থানান্তরের জন্য ট্র্যাক সারিবদ্ধ করা রয়েছে। সংযোগ বিচ্ছিন্ন করার পূর্বে আপনি "
-"কি তাদেরকে স্থানান্তর করতে চাইবেন?"
+"স্থানান্তরের জন্য ট্র্যাক সারিবদ্ধ করা রয়েছে। সংযোগ বিচ্ছিন্ন করার পূর্বে আপনি কি "
+"তাদেরকে স্থানান্তর করতে চাইবেন?"
 
 #: mediabrowser.cpp:954
 msgid "&Transfer"
@@ -1491,8 +1484,7 @@ msgstr "স্থানান্ত&র করো"
 #: mediabrowser.cpp:962
 msgid "Your device is now in sync, please unmount it and disconnect now."
 msgstr ""
-"আপনার ডিভাইস এখন সমলয়কৃত, অনুগ্রহ করে আনমাউন্ট করুন এবং এখন সংযোগ বিচ্ছিন্ন "
-"করুন।"
+"আপনার ডিভাইস এখন সমলয়কৃত, অনুগ্রহ করে আনমাউন্ট করুন এবং এখন সংযোগ বিচ্ছিন্ন করুন।"
 
 #: mediabrowser.cpp:967
 msgid "Your device is now in sync, you can disconnect now."
@@ -1526,23 +1518,18 @@ msgstr "নতুন প্রিসেট নাম ঢোকান:"
 msgid ""
 "All presets will be deleted and defaults will be restored. Are you sure?"
 msgstr ""
-"সমস্ত প্রিসেট মুছে ফেলা হবে এবং ডিফল্ট অবস্থা পুনরুদ্ধার করা হবে। আপনাকে কি "
-"নিশ্চিত?"
+"সমস্ত প্রিসেট মুছে ফেলা হবে এবং ডিফল্ট অবস্থা পুনরুদ্ধার করা হবে। আপনাকে কি নিশ্চিত?"
 
 #: queuemanager.cpp:87
 msgid ""
-"<div align=center>"
-"<h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
-"tracks from the playlist, and <b>drop</b> them here."
-"<br>"
-"<br>Drag and drop tracks within the manager to resort queue orders.</div>"
+"<div align=center><h3>The Queue Manager</h3>To create a queue, <b>drag</b> "
+"tracks from the playlist, and <b>drop</b> them here.<br><br>Drag and drop "
+"tracks within the manager to resort queue orders.</div>"
 msgstr ""
-"<div align=center>"
-"<h3>সারি ম্যানেজার</h3>একটি সারি তৈরি করতে, সঙ্গীত-তালিকা থেকে ট্র্যাক <b>"
-"টেনে নিয়ে যান</b> এবং তাদেরকে এখানে <b>ফেলে দিন</b>।"
-"<br>"
-"<br>সারির ধারাপরিবর্তন করতে ম্যানেজারের মধ্যে ট্র্যাক টেনে নিয়ে যান এবং ফেলে "
-"দিন।</div>"
+"<div align=center><h3>সারি ম্যানেজার</h3>একটি সারি তৈরি করতে, সঙ্গীত-তালিকা "
+"থেকে ট্র্যাক <b>টেনে নিয়ে যান</b> এবং তাদেরকে এখানে <b>ফেলে দিন</"
+"b>।<br><br>সারির ধারাপরিবর্তন করতে ম্যানেজারের মধ্যে ট্র্যাক টেনে নিয়ে যান এবং "
+"ফেলে দিন।</div>"
 
 #: playlistwindow.cpp:127 queuemanager.cpp:259
 msgid "Queue Manager"
@@ -1704,6 +1691,7 @@ msgstr "সংঙ্গীত-সংগ্রহ আপডেট করা হ�
 #: collectionreader.cpp:119
 msgid "Report this file if amaroK crashes when building the Collection."
 msgstr ""
+"এই ফাইলটি প্রতিবেদন করে পাঠান যদি সংঙ্গীত-সংগ্রহ তৈরি করার সময় আমারক ভেঙ্গে পড়ে।"
 
 #: collectionreader.cpp:138
 msgid "Reading directory structure"
@@ -1715,38 +1703,48 @@ msgstr "মেটা ডেটা পড়ছে"
 
 #: engine/gst/gstengine.cpp:252
 msgid ""
-"<h3>GStreamer could not be initialized.</h3> "
-"<p>Please make sure that you have installed all necessary GStreamer plugins "
-"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
-"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
-"irc.freenode.net.</p>"
+"<h3>GStreamer could not be initialized.</h3> <p>Please make sure that you "
+"have installed all necessary GStreamer plugins (e.g. OGG and MP3), and run "
+"<i>'gst-register'</i> afterwards.</p><p>For further assistance consult the "
+"GStreamer manual, and join #gstreamer on irc.freenode.net.</p>"
 msgstr ""
+"<h3>জিস্ট্রীমার চালু করা যায়নি।</h3> <p>অনুগ্রহ করে নিশ্চিত করুন যে আপনি সমস্ত "
+"প্রয়োজনীয় জিস্ট্রীমার প্লাগিন ইনস্টল করেছেন (উদাঃ ওজিজি এবং এমপিথ্রি), এবং তারপর "
+"<i>'gst-register'</i> রান করেছেন।</p><p>আরও সহায়তার জন্য জিস্ট্রীমার সহায়িকার "
+"পরামর্শ নিন এবং irc.freenode.net এর #gstreamer-এ যোগাদান করুন।</p>"
 
 #: engine/gst/gstengine.cpp:264
 msgid ""
-"<h3>GStreamer is missing a registry.</h3> "
-"<p>Please make sure that you have installed all necessary GStreamer plugins "
-"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
-"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
-"irc.freenode.net.</p>"
+"<h3>GStreamer is missing a registry.</h3> <p>Please make sure that you have "
+"installed all necessary GStreamer plugins (e.g. OGG and MP3), and run "
+"<i>'gst-register'</i> afterwards.</p><p>For further assistance consult the "
+"GStreamer manual, and join #gstreamer on irc.freenode.net.</p>"
 msgstr ""
+"<h3>জিস্ট্রীমার একটি রেজিস্ট্রি খুঁজে পাচ্ছেনা।</h3> <p>অনুগ্রহ করে নিশ্চিত করুন যে "
+"আপনি সমস্ত প্রয়োজনীয় জিস্ট্রীমার প্লাগিন ইনস্টল করেছেন (উদাঃ ওজিজি এবং এমপিথ্রি), "
+"এবং তারপর <i>'gst-register'</i> রান করেছেন।</p><p>আরও সহায়তার জন্য জিস্ট্রীমার "
+"সহায়িকার পরামর্শ নিন এবং irc.freenode.net এর #gstreamer-এ যোগাদান করুন।</p>"
 
 #: engine/gst/gstengine.cpp:747
 msgid ""
 "<p>Please select a GStreamer <u>output plugin</u> in the engine settings "
 "dialog.</p>"
 msgstr ""
-"<p>অনুগ্রহ করে ইঞ্জিন মানসমূহ ডায়ালগে একটি জিস্ট্রীমার <u>আউটপুট প্লাগিন</u> "
-"নির্বাচন করুন।</p>"
+"<p>অনুগ্রহ করে ইঞ্জিন মানসমূহ ডায়ালগে একটি জিস্ট্রীমার <u>আউটপুট প্লাগিন</u> নির্বাচন "
+"করুন।</p>"
 
 #: engine/gst/gstengine.cpp:768
 msgid ""
-"<h3>GStreamer could not create the element: <i>%1</i></h3> "
-"<p>Please make sure that you have installed all necessary GStreamer plugins "
-"(e.g. OGG and MP3), and run <i>'gst-register'</i> afterwards.</p>"
-"<p>For further assistance consult the GStreamer manual, and join #gstreamer on "
-"irc.freenode.net.</p>"
+"<h3>GStreamer could not create the element: <i>%1</i></h3> <p>Please make "
+"sure that you have installed all necessary GStreamer plugins (e.g. OGG and "
+"MP3), and run <i>'gst-register'</i> afterwards.</p><p>For further assistance "
+"consult the GStreamer manual, and join #gstreamer on irc.freenode.net.</p>"
 msgstr ""
+"<h3>জিস্ট্রীমার <i>%1</i> উপাদানটি তৈরি করতে পারেনি।</h3> <p>অনুগ্রহ করে নিশ্চিত "
+"করুন যে আপনি সমস্ত প্রয়োজনীয় জিস্ট্রীমার প্লাগিন ইনস্টল করেছেন (উদাঃ ওজিজি এবং "
+"এমপিথ্রি), এবং তারপর <i>'gst-register'</i> রান করেছেন।</p><p>আরও সহায়তার জন্য "
+"জিস্ট্রীমার সহায়িকার পরামর্শ নিন এবং irc.freenode.net এর #gstreamer-এ যোগাদান "
+"করুন।</p>"
 
 #: engine/gst/gstengine.cpp:913
 msgid "Buffering.. %1%"
@@ -1754,23 +1752,21 @@ msgstr "বাফার করা হচ্ছে.. %1%"
 
 #: engine/mas/masengine.cpp:92
 msgid ""
-"<h3>amaroK could not initialise MAS.</h3>"
-"<p>Check for a running mas daemon.</p>"
+"<h3>amaroK could not initialise MAS.</h3><p>Check for a running mas daemon.</"
+"p>"
 msgstr ""
-"<h3>আমারক এম-এ-এস চালু করতে পারেনি।</h3>"
-"<p>একটি চলন্ত এম-এ-এস ডিমনের জন্য পরীক্ষা করুন।</p>"
+"<h3>আমারক এম-এ-এস চালু করতে পারেনি।</h3><p>একটি চলন্ত এম-এ-এস ডিমনের জন্য "
+"পরীক্ষা করুন।</p>"
 
 #: engine/arts/artsengine.cpp:133
 msgid ""
-"<p>artsd is not running with <b>realtime priority</b> "
-"which may cause audio playback to \"skip\" and stutter."
-"<p>"
-"<p>To use realtime priority, open the KDE Control Center and enable \"Run with "
-"highest possible priority\", under <i>Sound System</i> in the <i>"
-"Sound & Multimedia</i> branch. Some people may also have to check that "
-"\"$KDEDIR/bin/artswrapper\" is <b>set suid</b> (chmod +s).</p>"
-"<p>You may find, however, that playback is fine without increasing the priority "
-"of artsd.</p>"
+"<p>artsd is not running with <b>realtime priority</b> which may cause audio "
+"playback to \"skip\" and stutter.<p><p>To use realtime priority, open the "
+"KDE Control Center and enable \"Run with highest possible priority\", under "
+"<i>Sound System</i> in the <i>Sound & Multimedia</i> branch. Some people may "
+"also have to check that \"$KDEDIR/bin/artswrapper\" is <b>set suid</b> "
+"(chmod +s).</p><p>You may find, however, that playback is fine without "
+"increasing the priority of artsd.</p>"
 msgstr ""
 
 #: engine/arts/artsengine.cpp:137
@@ -1787,10 +1783,10 @@ msgstr "মারাত্মক ত্রুটি"
 
 #: engine/arts/artsengine.cpp:214
 msgid ""
-"<p>There was an error loading libamarokarts. First try:"
-"<pre>killall -9 artsd && amarok</pre>If that does not work then amaroK was "
-"probably installed with the wrong prefix; please re-configure amaroK using:"
-"<pre>./configure --prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
+"<p>There was an error loading libamarokarts. First try:<pre>killall -9 artsd "
+"&& amarok</pre>If that does not work then amaroK was probably installed with "
+"the wrong prefix; please re-configure amaroK using:<pre>./configure --"
+"prefix=`kde-config --prefix` && su -c \"make install\"</pre>"
 msgstr ""
 
 #: engine/arts/artsengine.cpp:219
@@ -1839,7 +1835,7 @@ msgstr "অভ্যন্তরীন ত্রুটি; আপনার ই�
 
 #: engine/xine/xine-engine.cpp:593
 msgid "Redirecting to: "
-msgstr ""
+msgstr "এখানে ফেরত পাঠানো হচ্ছে:"
 
 #: engine/xine/xine-engine.cpp:714
 msgid "The host is unknown for the URL: <i>%1</i>"
@@ -1903,8 +1899,8 @@ msgstr "বাফার করা হচ্ছে %1 %"
 
 #: engine/helix/helix-engine.cpp:141
 msgid ""
-"The helix library you have configured does not support ALSA, the helix-engine "
-"has fallen back to OSS"
+"The helix library you have configured does not support ALSA, the helix-"
+"engine has fallen back to OSS"
 msgstr ""
 "যে হেলিক্স লাইব্রেরী আপনি কনফিগার করেছেন সেটি আলসা সমর্থন করেনা, হেলিক্স ইঞ্জিন "
 "ওএসএস-এ ফিরে এসেছে"
@@ -1914,8 +1910,8 @@ msgid ""
 "amaroK could not initialize the helix-engine. Please check the paths in "
 "\"amaroK Settings\" -> \"Engine\""
 msgstr ""
-"আমারক হেলিক্স ইঞ্জিন চালু করতে পারেনি। অনুগ্রহ করে \"আমারক মানসমূহ\" -> "
-"\"ইঞ্জিন\"-এ পাথ পরীক্ষা করুন"
+"আমারক হেলিক্স ইঞ্জিন চালু করতে পারেনি। অনুগ্রহ করে \"আমারক মানসমূহ\" -> \"ইঞ্জিন\"-"
+"এ পাথ পরীক্ষা করুন"
 
 #: engine/helix/helix-engine.cpp:262
 msgid "No plugin found for the %1 format"
@@ -1937,13 +1933,13 @@ msgstr "প্রধান"
 #: engine/helix/helix-configdialog.cpp:273 rc.cpp:474
 #, no-c-format
 msgid "Helix/Realplay core directory"
-msgstr ""
+msgstr "হেলিক্স/রেয়ালপ্লে কোর ডিরেক্টরী"
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 13
 #: engine/helix/helix-configdialog.cpp:275 rc.cpp:477
 #, no-c-format
 msgid "This is the directory where clntcore.so is located"
-msgstr ""
+msgstr "এটি সেই ডিরেক্টরী যেখানে clntcore.so অবস্থান করে"
 
 #. i18n: file ./engine/helix/config/helixconfig.kcfg line 17
 #: engine/helix/helix-configdialog.cpp:280 rc.cpp:480
@@ -1983,11 +1979,11 @@ msgstr "কে-থ্রি-বি এর সঙ্গে একটি ডিক
 
 #: k3bexporter.cpp:198
 msgid ""
-"Create an audio mode CD suitable for CD players, or a data mode CD suitable for "
-"computers and other digital music players?"
+"Create an audio mode CD suitable for CD players, or a data mode CD suitable "
+"for computers and other digital music players?"
 msgstr ""
-"সিডি প্লেয়ারের জন্য উপযুক্তএকটি অডিও মোড সিডি অথবা কম্পিউটার এবং অন্যান্য "
-"ডিজিট্যাল সঙ্গীত প্লেয়ারের জন্য উপযুক্তএকটি ডেটা মোড সিডি তৈরি করো?"
+"সিডি প্লেয়ারের জন্য উপযুক্তএকটি অডিও মোড সিডি অথবা কম্পিউটার এবং অন্যান্য ডিজিট্যাল "
+"সঙ্গীত প্লেয়ারের জন্য উপযুক্তএকটি ডেটা মোড সিডি তৈরি করো?"
 
 #: k3bexporter.cpp:201
 msgid "Create K3b Project"
@@ -2219,13 +2215,13 @@ msgstr "চালানো ট্র্যাক বা&দ দাও"
 #: rc.cpp:27 rc.cpp:30
 #, no-c-format
 msgid "Automatically remove played tracks to the playlist"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা থেকে চালানো ট্র্যাক সয়ংক্রিয়ভাবে বাদ দাও"
 
 #. i18n: file ./partydialogbase.ui line 131
 #: rc.cpp:33
 #, no-c-format
 msgid "Mar&k history"
-msgstr ""
+msgstr "ইতিহাস চিহ্নি&ত করো"
 
 #. i18n: file ./partydialogbase.ui line 134
 #: rc.cpp:36 rc.cpp:39
@@ -2249,25 +2245,25 @@ msgstr "অপসারণ করার পূর্বে কতগুলো �
 #: rc.cpp:57
 #, no-c-format
 msgid "Upcoming tracks:"
-msgstr ""
+msgstr "আগমনরত ট্র্যাক:"
 
 #. i18n: file ./partydialogbase.ui line 233
 #: rc.cpp:60 rc.cpp:63 rc.cpp:66 rc.cpp:69
 #, no-c-format
 msgid "Minimum number of upcoming tracks to keep in the playlist"
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় রাখার জন্য আগমনরত ট্র্যাকের ন্যুনতম সংখ্যা"
 
 #. i18n: file ./partydialogbase.ui line 291
 #: rc.cpp:72
 #, no-c-format
 msgid "Tracks to append:"
-msgstr ""
+msgstr "সংযোজন করার জন্য ট্র্যাক:"
 
 #. i18n: file ./partydialogbase.ui line 294
 #: rc.cpp:75 rc.cpp:78 rc.cpp:81 rc.cpp:84
 #, no-c-format
 msgid "How many tracks to add to the playlist after each song"
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় প্রত্যেক গানের পরে কতগুলি ট্র্যাক যোগ করতে হবে"
 
 #. i18n: file ./trackpickerdialogbase.ui line 16
 #: rc.cpp:87
@@ -2360,6 +2356,8 @@ msgid ""
 "If enabled, amaroK will automatically restart scripts that were running when "
 "you exited the application."
 msgstr ""
+"যদি সক্রিয় করা হয়, আমারক স্ক্রীপ্টগুলি সয়ংক্রিয়ভাবে পুনরায় শুরু করবে যেগুলি চলছিল যখন "
+"আপনি অ্যাপলিকেশন বন্ধ করেছিলেন।"
 
 #. i18n: file ./scripts/graphequalizer/eqdialog.ui line 52
 #: rc.cpp:154
@@ -2368,6 +2366,9 @@ msgid ""
 "<p align=\"center\">The blue drag points can be dragged to adjust the "
 "equalizer. Double-click on the line to add a new drag point.</p>"
 msgstr ""
+"<p align=\"center\">নীলরংএর টানার-জন্য-বিন্দুগুলি ইকুয়ালাইজার সমন্বয়সাধন করতে "
+"ব্যবহার করা যাবে। একটি নতুন টানার-জন্য-বিন্দু যোগ করতে লাইনের ওপর ডবল ক্লিক করুন।</"
+"p>"
 
 #. i18n: file ./scripts/graphequalizer/eqdialog.ui line 142
 #: rc.cpp:157
@@ -2391,13 +2392,13 @@ msgstr "পডকাস্ট কনফিগারেশন"
 #: rc.cpp:166
 #, no-c-format
 msgid "Enable &auto-fetching"
-msgstr ""
+msgstr "স্বয়ংক্রি&য়ভাবে আনা সক্রিয় করো"
 
 #. i18n: file ./podcastsettingsbase.ui line 47
 #: rc.cpp:169 rc.cpp:172
 #, no-c-format
 msgid "When checked, amaroK will automatically scan the podcast for updates"
-msgstr ""
+msgstr "যখন চেক করা হয়, আমারক আপডেটের জন্য পডকাস্ট সয়ংক্রিয়ভাবে স্ক্যান করবে"
 
 #. i18n: file ./podcastsettingsbase.ui line 76
 #: rc.cpp:175
@@ -2421,17 +2422,16 @@ msgstr "মিডিয়া ডাউনলোড"
 #: rc.cpp:187
 #, no-c-format
 msgid "Stream or download on re&quest"
-msgstr ""
+msgstr "অনুরোধে স্ট্রীম অথবা ডাউনলো&ড করো"
 
 #. i18n: file ./podcastsettingsbase.ui line 125
 #: rc.cpp:190 rc.cpp:193
 #, no-c-format
 msgid ""
-"Media must be downloaded, otherwise the podcast will be played from the remote "
-"server."
+"Media must be downloaded, otherwise the podcast will be played from the "
+"remote server."
 msgstr ""
-"মিডিয়া অবশ্যই ডাউনলোড করতে হবে, অন্যথায় পডকাস্ট প্রত্যন্ত সার্ভার থেকে চালানো "
-"হবে।"
+"মিডিয়া অবশ্যই ডাউনলোড করতে হবে, অন্যথায় পডকাস্ট প্রত্যন্ত সার্ভার থেকে চালানো হবে।"
 
 #. i18n: file ./podcastsettingsbase.ui line 136
 #: rc.cpp:196
@@ -2455,31 +2455,31 @@ msgstr "অবস্থান সংরক্ষণ করো:"
 #: rc.cpp:208
 #, no-c-format
 msgid "Limit &number of items"
-msgstr ""
+msgstr "আইটেমের সংখ্যা সীমি&ত করো "
 
 #. i18n: file ./podcastsettingsbase.ui line 186
 #: rc.cpp:211 rc.cpp:214
 #, no-c-format
 msgid "If checked, amaroK will throw away old podcasts"
-msgstr ""
+msgstr "যদি চেক করা হয়, আমারক পুরনো পডকাস্ট ফেলে দেবে"
 
 #. i18n: file ./podcastsettingsbase.ui line 214
 #: rc.cpp:217
 #, no-c-format
 msgid "Keep maximum of:"
-msgstr ""
+msgstr "সর্বোচ্চ রাখো:"
 
 #. i18n: file ./podcastsettingsbase.ui line 222
 #: rc.cpp:220
 #, no-c-format
 msgid " Items"
-msgstr ""
+msgstr " আইটেম"
 
 #. i18n: file ./podcastsettingsbase.ui line 228
 #: rc.cpp:223 rc.cpp:226
 #, no-c-format
 msgid "The maximum number of podcast items to store"
-msgstr ""
+msgstr "সংরক্ষণ করার জন্য পডকাস্ট আইটেমের সর্বোচ্চ সংখ্যা"
 
 #. i18n: file ./firstrunwizard.ui line 16
 #: app.cpp:957 rc.cpp:229
@@ -2499,15 +2499,15 @@ msgid ""
 "interface that makes playlist handling really easy.</p>\n"
 "<p align=\"right\"><i>\"amaroK is seriously super!\"</i> - Uncle Rodney</p>\n"
 "<h2>First-run Wizard</h2>\n"
-"<p>This wizard will help you setup amaroK in three easy steps. Click <i>Next</i> "
-"to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
+"<p>This wizard will help you setup amaroK in three easy steps. Click "
+"<i>Next</i> to begin, or if you do not like wizards, click <i>Skip</i>.</p>"
 msgstr ""
 
 #. i18n: file ./firstrunwizard.ui line 84
 #: rc.cpp:240
 #, no-c-format
 msgid "Interface (1 of 3)"
-msgstr ""
+msgstr "ইন্টারফেস (৩ এর ১)"
 
 #. i18n: file ./firstrunwizard.ui line 132
 #: rc.cpp:244
@@ -2516,6 +2516,8 @@ msgid ""
 "Single window with player and playlist functionality\n"
 "combined (like JuK)"
 msgstr ""
+"প্লেয়ার এবং সঙ্গীত-তালিকা ক্রিয়া সম্বলিত একটি উইন্ডো\n"
+" (জুক-এর মত)"
 
 #. i18n: file ./firstrunwizard.ui line 149
 #: rc.cpp:248
@@ -2524,40 +2526,51 @@ msgid ""
 "Separate player and playlist-windows\n"
 "(like XMMS or Winamp)"
 msgstr ""
+"আলাদা প্লেয়ার এবং সঙ্গীত-তালিকা উইন্ডো\n"
+"(এক্সএমএমএস অথবা উইনঅ্যাম্পের মত)"
 
 #. i18n: file ./firstrunwizard.ui line 182
 #: rc.cpp:252
 #, no-c-format
 msgid ""
-"<p>With amaroK you can use the window layout that you find most comfortable.</p>"
-"\n"
+"<p>With amaroK you can use the window layout that you find most comfortable."
+"</p>\n"
 "<p>You can change these settings at a later time using the configuration "
 "dialog.</p>"
 msgstr ""
+"<p>আমারকের সঙ্গে আপনি আপনার পছন্দমত উইন্ডো বিন্যাস ব্যবহার করতে পারেন।</p>\n"
+"<p>আপনি পরবর্তীকালে কনফিগারেশন ডায়ালগ ব্যবহার করে এই মানসমূহ পরিবর্তন করতে "
+"পারেন।</p>"
 
 #. i18n: file ./firstrunwizard.ui line 273
 #: rc.cpp:257
 #, no-c-format
 msgid "Collection (2 of 3)"
-msgstr ""
+msgstr "সংঙ্গীত-সংগ্রহ (৩ এর ২)"
 
 #. i18n: file ./firstrunwizard.ui line 289
 #: rc.cpp:260
 #, no-c-format
 msgid ""
-"<p>Please select the folders on the right where your music files are stored.</p>"
-"\n"
-"<p>Doing so is highly recommended, and will enhance the features available to "
-"you.</p>\n"
-"<p>If you wish, amaroK is able to monitor these folders for new files and can "
-"automatically add them to the collection.</p>"
+"<p>Please select the folders on the right where your music files are stored."
+"</p>\n"
+"<p>Doing so is highly recommended, and will enhance the features available "
+"to you.</p>\n"
+"<p>If you wish, amaroK is able to monitor these folders for new files and "
+"can automatically add them to the collection.</p>"
 msgstr ""
+"<p>অনুগ্রহ করে ডানদিকে ফোল্ডার নির্বাচন করুন যেখানে আপনার সঙ্গীত ফাইল সংরক্ষণ করা "
+"আছে।</p>\n"
+"<p> এটি উচ্চভাবে সুপারিশকৃত এবং এটি আপনার ব্যবহারযোগ্য বৈশিষ্ট্যাবলীর পরিবর্ধন "
+"করবে।</p>\n"
+"<p>যদি আপনি চান, আমারক নতুন ফাইলের জন্য এই ফোল্ডারগলি পর্যবেক্ষণ করতে পারে এবং "
+"সংঙ্গীত-সংগ্রহে তাদেরকে সয়ংক্রিয়ভাবে যোগ করতে পারে।</p>"
 
 #. i18n: file ./firstrunwizard.ui line 299
 #: rc.cpp:265
 #, no-c-format
 msgid "Database (3 of 3)"
-msgstr ""
+msgstr "ডেটাবেস (৩ এর ৩)"
 
 #. i18n: file ./firstrunwizard.ui line 349
 #: rc.cpp:268
@@ -2565,13 +2578,13 @@ msgstr ""
 msgid ""
 "amaroK uses a database to store information about your music. If you are not "
 "sure which to use, press Next.\n"
-"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>"
-", but require additional setup.</p>\n"
+"<p><b>MySQL</b> or <b>Postgresql</b> are faster than <b>sqlite</b>, but "
+"require additional setup.</p>\n"
 "<ul>\n"
-"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo\">"
-"Instructions for configuring MySQL</a>.</li>\n"
-"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo\">"
-"Instructions for configuring Postgresql</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/MySQL_HowTo"
+"\">Instructions for configuring MySQL</a>.</li>\n"
+"<li><a href=\"http://amarok.kde.org/amarokwiki/index.php/Postgresql_HowTo"
+"\">Instructions for configuring Postgresql</a>.</li>\n"
 "</ul>"
 msgstr ""
 
@@ -2580,13 +2593,13 @@ msgstr ""
 #, no-c-format
 msgid ""
 "<h1>Congratulations!</h1>\n"
-"<p>amaroK is ready for use! When you click finish amaroK will appear and begin "
-"scanning the folders in your collection.</p>\n"
-"<p>amaroK's playlist-window will show your <b>Collection</b> "
-"on the left and the <b>Playlist</b> on the right. Drag and drop music from the "
-"Collection to the Playlist and press <b>Play</b>.</p>\n"
-"<p>If you want more help or a tutorial, please check out the <a "
-"href=\"help:/amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
+"<p>amaroK is ready for use! When you click finish amaroK will appear and "
+"begin scanning the folders in your collection.</p>\n"
+"<p>amaroK's playlist-window will show your <b>Collection</b> on the left and "
+"the <b>Playlist</b> on the right. Drag and drop music from the Collection to "
+"the Playlist and press <b>Play</b>.</p>\n"
+"<p>If you want more help or a tutorial, please check out the <a href=\"help:/"
+"amarok\">amaroK handbook</a>. We hope you enjoy using amaroK.</p>\n"
 "<p align=\"right\">The amaroK developers</p>"
 msgstr ""
 
@@ -2648,7 +2661,7 @@ msgstr "নাম:"
 #: rc.cpp:314 rc.cpp:317
 #, no-c-format
 msgid "Which port mysql should connect to."
-msgstr ""
+msgstr "কোন পোর্ট-এ মাই-এস-কিউ-এল এর সংযোগ করা উচিত।"
 
 #. i18n: file ./dbsetup.ui line 178
 #: rc.cpp:320
@@ -2660,7 +2673,7 @@ msgstr "পোর্ট:"
 #: rc.cpp:323 rc.cpp:326
 #, no-c-format
 msgid "Hostname where database lives."
-msgstr ""
+msgstr "হোস্টনাম যেখানে ডেটাবেস রয়েছে।"
 
 #. i18n: file ./dbsetup.ui line 197
 #: rc.cpp:329 rc.cpp:332
@@ -2696,7 +2709,7 @@ msgstr "যে পাসওয়ার্ড দিয়ে সংযোগ কর�
 #: rc.cpp:353 rc.cpp:416
 #, no-c-format
 msgid "Sound output method to use"
-msgstr ""
+msgstr "ব্যবহার করার জন্য সাউন্ড আউটপুট পন্থা"
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 12
 #: rc.cpp:356
@@ -2705,18 +2718,21 @@ msgid ""
 "Select the sound output plugin (\"sink\"). Their availability depends on the "
 "system configuration."
 msgstr ""
+"সাউন্ড আউটপুট প্লাগিন (\"সিঙ্ক\") নির্বাচন করুন। তাদের ব্যবহারযোগ্যতা সিস্টেম "
+"কনফিগারেশনের ওপর নির্ভর করে।"
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 16
 #: rc.cpp:359
 #, no-c-format
 msgid "Do not use the autodetected audiosink sound device"
-msgstr ""
+msgstr "স্বয়ংক্রিয়ভাবে সনাক্তকৃত অডিও সিঙ্ক সাউন্ড  ডিভাইস ব্যবহার করো না"
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 17
 #: rc.cpp:362
 #, no-c-format
 msgid "When enabled, uses user-specified sound device for audiosink."
 msgstr ""
+"যখন সক্রিয় করা হয়, অডিও সিঙ্কের জন্য ব্যবহারকারী উল্লেখিত সাউন্ড ডিভাইস ব্যবহার করে।"
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 21
 #: rc.cpp:365
@@ -2729,25 +2745,25 @@ msgstr "যে সাউন্ড আউটপুট ডিভাইস ব্�
 #, no-c-format
 msgid ""
 "Select the sound output device; this is useful for gstreamer engine sinks."
-msgstr ""
+msgstr "সাউন্ড আউটপুট ডিভাইস নির্বাচন করুন; এটি জিস্ট্রীমার ইঞ্জিন সিঙ্কের জন্য কার্যকর।"
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 25
 #: rc.cpp:371
 #, no-c-format
 msgid "Use custom parameters for output sink."
-msgstr ""
+msgstr "আউটপুট সিঙ্কের জন্য স্বনির্বাচিত মানসমূহ ব্যবহার করো।"
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 29
 #: rc.cpp:374
 #, no-c-format
 msgid "The custom sink parameters."
-msgstr ""
+msgstr "স্বনির্বাচিত সিঙ্ক মানসমূহ।"
 
 #. i18n: file ./engine/gst/config/gstconfig.kcfg line 32
 #: rc.cpp:377
 #, no-c-format
 msgid "Duration of Fade-out at trackend"
-msgstr ""
+msgstr "ট্র্যাকের শেষে ধীরে ধীরে মিলিয়ে যাওয়ার সময়কাল"
 
 #. i18n: file ./engine/gst/gstconfigdialogbase.ui line 16
 #: rc.cpp:380
@@ -2783,7 +2799,7 @@ msgstr "স্বনির্বাচিত সাউন্ড ডিভাই�
 #: rc.cpp:397
 #, no-c-format
 msgid "&Fade-out:"
-msgstr ""
+msgstr "ধীরে ধীরে মিলিয়ে যা&ওয়া:"
 
 #. i18n: file ./engine/gst/gstconfigdialogbase.ui line 173
 #: rc.cpp:400 rc.cpp:432
@@ -2795,25 +2811,25 @@ msgstr "আ&উটপুট প্লাগিন:"
 #: rc.cpp:404
 #, no-c-format
 msgid "GStreamer sink"
-msgstr ""
+msgstr "জিস্ট্রীমার সিঙ্ক"
 
 #. i18n: file ./engine/gst/gstconfigdialogbase.ui line 206
 #: rc.cpp:407
 #, no-c-format
 msgid "Custom parameters. Example: sync=true host=95.25.2.1"
-msgstr ""
+msgstr "স্বনির্বাচিত মানসমূহ। উদাহরণ: sync=true host=95.25.2.1"
 
 #. i18n: file ./engine/gst/gstconfigdialogbase.ui line 222
 #: rc.cpp:410
 #, no-c-format
 msgid "&Parameters:"
-msgstr ""
+msgstr "মানসমূ&হ:"
 
 #. i18n: file ./engine/gst/gstconfigdialogbase.ui line 225
 #: rc.cpp:413
 #, no-c-format
 msgid "Use custom sink parameters"
-msgstr ""
+msgstr "স্বনির্বাচিত সিঙ্ক মানসমূহ ব্যবহার করো"
 
 #. i18n: file ./engine/xine/xinecfg.kcfg line 12
 #: rc.cpp:419
@@ -2834,8 +2850,8 @@ msgid ""
 "If selected, enables the setting of a custom audio device. Otherwise the "
 "default is used."
 msgstr ""
-"যদি নির্বাচিত করা হয়, একটি স্বনির্বাচিত অডিও ডিভাইসের মানসমূহ সক্রিয় করে। "
-"অন্যথায় ডিফল্ট ব্যবহার করা হয়।"
+"যদি নির্বাচিত করা হয়, একটি স্বনির্বাচিত অডিও ডিভাইসের মানসমূহ সক্রিয় করে। অন্যথায় "
+"ডিফল্ট ব্যবহার করা হয়।"
 
 #. i18n: file ./engine/xine/xineconfigbase.ui line 24
 #: rc.cpp:428
@@ -2847,11 +2863,11 @@ msgstr "জাইন কনফিগার"
 #: rc.cpp:435
 #, no-c-format
 msgid ""
-"Sound device may be modified after the output plugin has been changed to ALSA "
-"or OSS."
+"Sound device may be modified after the output plugin has been changed to "
+"ALSA or OSS."
 msgstr ""
-"আউটপুট প্লাগিন আলসা অথবা ওএসএস-এ পরিবর্তন করার পর সাউন্ড ডিভাইস হয়ত পরিবর্তন "
-"করা হবে।"
+"আউটপুট প্লাগিন আলসা অথবা ওএসএস-এ পরিবর্তন করার পর সাউন্ড ডিভাইস হয়ত পরিবর্তন করা "
+"হবে।"
 
 #. i18n: file ./engine/xine/xineconfigbase.ui line 114
 #: rc.cpp:438
@@ -2893,7 +2909,7 @@ msgstr "ওএসএস ডিভাইস কনফিগারেশন"
 #: rc.cpp:459
 #, no-c-format
 msgid "Speaker &arrangement:"
-msgstr ""
+msgstr "স্পিকার ব্যবস্থা&পনা:"
 
 #. i18n: file ./engine/xine/xineconfigbase.ui line 246
 #: rc.cpp:462
@@ -3043,7 +3059,7 @@ msgstr "প্লে-কাউন্ট:"
 #: rc.cpp:566
 #, no-c-format
 msgid "Fill-In Tags &Using MusicBrainz"
-msgstr ""
+msgstr "মিউজিক-ব্রেইন্জ ব্য&বহার করে ট্যাগ ভর্তি করো"
 
 #. i18n: file ./tagdialogbase.ui line 521
 #: rc.cpp:569
@@ -3151,16 +3167,17 @@ msgstr "সঙ্গীত-তালিকা উইন্ডো অপশনস
 #: rc.cpp:641
 #, no-c-format
 msgid "&Remember current playlist on exit"
-msgstr ""
+msgstr "প্রস্থানের সময় বর্তমান সঙ্গীত-তালিকা &মনে রাখো"
 
 #. i18n: file ./Options1.ui line 218
 #: rc.cpp:644
 #, no-c-format
 msgid ""
 "If checked, amaroK saves the current playlist on quit and restores it when "
-"restarted."
-"<br>"
+"restarted.<br>"
 msgstr ""
+"যদি চেক করা হয়, আমারক প্রস্থান করার সময় বর্তমান সঙ্গীত-তালিকা সংরক্ষণ করে এবং "
+"পুনরায় শুরু করার সময় এটি পুনরুদ্ধার করে।<br>"
 
 #. i18n: file ./Options1.ui line 221
 #: rc.cpp:647
@@ -3169,12 +3186,14 @@ msgid ""
 "If checked, amaroK saves the current playlist\\non quit and restores it when "
 "restarted."
 msgstr ""
+"যদি চেক করা হয়, আমারক প্রস্থান করার সময় বর্তমান সঙ্গীত-তালিকা\\n সংরক্ষণ করে এবং "
+"পুনরায় শুরু করার সময় এটি পুনরুদ্ধার করে।"
 
 #. i18n: file ./Options1.ui line 229
 #: rc.cpp:650
 #, no-c-format
 msgid "&Manually saved playlists use relative path"
-msgstr ""
+msgstr "নি&জহাতে সংরক্ষিত সঙ্গীত-তালিকা আপেক্ষিক পাথ ব্যবহার করে"
 
 #. i18n: file ./Options1.ui line 232
 #: rc.cpp:653 rc.cpp:656
@@ -3183,85 +3202,90 @@ msgid ""
 "If checked, amaroK uses a relative path for the tracks of manually saved "
 "playlists"
 msgstr ""
+"যদি চেক করা হয়, আমারক নিজহাতে সংরক্ষিত সঙ্গীত-তালিকার ট্র্যাকের জন্য একটি আপেক্ষিক "
+"পাথ ব্যবহার করে"
 
 #. i18n: file ./Options1.ui line 243
 #: rc.cpp:659
 #, no-c-format
 msgid "&Keep the active song visible on track change"
-msgstr ""
+msgstr "ট্র্যাক পরিবর্তনের সময় &সক্রিয় গান দৃশ্যমান রাখো"
 
 #. i18n: file ./Options1.ui line 246
 #: rc.cpp:662
 #, no-c-format
 msgid ""
-"If checked, the playlist scrolls on song change to make the currently playing "
-"item visible in the playlist. Measures are taken not to scroll if "
-"inappropriate."
-"<br>"
+"If checked, the playlist scrolls on song change to make the currently "
+"playing item visible in the playlist. Measures are taken not to scroll if "
+"inappropriate.<br>"
 msgstr ""
+"যদি চেক করা হয়, সঙ্গীত-তালিকা বর্তমানে চালানো গান সঙ্গীত-তালিকায় দৃশ্যমান রাখতে "
+"তালিকা গুটিয়ে ফেলে। না গোটানোর জন্য ব্যবস্থা নেওয়া হয় যদি বেমানান হয়।<br>"
 
 #. i18n: file ./Options1.ui line 249
 #: rc.cpp:665
 #, no-c-format
 msgid ""
-"If checked, the playlist scrolls on song change to make the currently playing "
-"item visible in the playlist. Measures are taken not to scroll if "
+"If checked, the playlist scrolls on song change to make the currently "
+"playing item visible in the playlist. Measures are taken not to scroll if "
 "inappropriate."
 msgstr ""
+"যদি চেক করা হয়, সঙ্গীত-তালিকা বর্তমানে চালানো গান সঙ্গীত-তালিকায় দৃশ্যমান রাখতে "
+"তালিকা গুটিয়ে ফেলে। না গোটানোর জন্য ব্যবস্থা নেওয়া হয় যদি বেমানান হয়।"
 
 #. i18n: file ./Options1.ui line 257
 #: rc.cpp:668
 #, no-c-format
 msgid "Switch to Context Browser on track ch&ange"
-msgstr ""
+msgstr "ট্র্যাক পরি&বর্তন হলে প্রসঙ্গ ব্রাউজার সক্রিয় করো"
 
 #. i18n: file ./Options1.ui line 260
 #: rc.cpp:671
 #, no-c-format
 msgid "Switch to the context browser, when playing a track.<br>"
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজার সক্রিয় করো, যখন একটি ট্র্যাক চালানো হচ্ছে।<br>"
 
 #. i18n: file ./Options1.ui line 263
 #: rc.cpp:674
 #, no-c-format
 msgid "Switch to the context browser, when playing a track."
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারে সক্রিয় করো, যখন একটি ট্র্যাক চালানো হচ্ছে।"
 
 #. i18n: file ./Options1.ui line 271
 #: rc.cpp:677
 #, no-c-format
 msgid "Show s&tatusbar"
-msgstr ""
+msgstr "স্ট্যাটা&সবার দেখাও"
 
 #. i18n: file ./Options1.ui line 274
 #: rc.cpp:680
 #, no-c-format
 msgid "Check to enable the statusbar on the playlist window.<br>"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে স্ট্যাটাস বার সক্রিয় করতে চেক করুন।<br>"
 
 #. i18n: file ./Options1.ui line 277
 #: rc.cpp:683
 #, no-c-format
 msgid "Check to enable the statusbar on the playlist window."
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে স্ট্যাটাস বার সক্রিয় করতে চেক করুন।"
 
 #. i18n: file ./Options1.ui line 285
 #: rc.cpp:686
 #, no-c-format
 msgid "Show statistics by a&lbums"
-msgstr ""
+msgstr "অ্যা&লবাম ভিত্তিক পরিসংখ্যান দেখাও"
 
 #. i18n: file ./Options1.ui line 288
 #: rc.cpp:689
 #, no-c-format
 msgid "Show statistics by albums in the context browser.<br>"
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারে অ্যালবাম ভিত্তিক পরিসংখ্যান দেখাও।<br>"
 
 #. i18n: file ./Options1.ui line 291
 #: rc.cpp:692
 #, no-c-format
 msgid "Show statistics by albums in the context browser."
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারে অ্যালবাম ভিত্তিক পরিসংখ্যান দেখাও।"
 
 #. i18n: file ./Options1.ui line 301
 #: rc.cpp:695
@@ -3273,13 +3297,13 @@ msgstr "এনকোডিং"
 #: rc.cpp:698
 #, no-c-format
 msgid "Do not decode the following as latin1:"
-msgstr ""
+msgstr "ল্যাটিন১ হিসেবে নিম্নলিখিত ডিকোডিং কোর না:"
 
 #. i18n: file ./Options1.ui line 353
 #: rc.cpp:701
 #, no-c-format
 msgid "ID&3v1 tags"
-msgstr ""
+msgstr "আইডি&৩ভি১ ট্যাগ"
 
 #. i18n: file ./Options1.ui line 356
 #: rc.cpp:704
@@ -3294,6 +3318,8 @@ msgid ""
 "Decode ID3v1 tags (used by some MP3 files) using the character set specified "
 "below."
 msgstr ""
+"নিচে উল্লেখিত অক্ষরমালা সেট ব্যবহার করে আইডি৩ভি১ ট্যাগ (কিছু এমপিথ্রি ফাইলে ব্যবহৃত) "
+"ডিকোডিং করো।"
 
 #. i18n: file ./Options1.ui line 370
 #: rc.cpp:711
@@ -3308,12 +3334,14 @@ msgid ""
 "Decode the title and artist information of Shoutcast music streams using the "
 "character set specified below."
 msgstr ""
+"নিচে উল্লেখিত অক্ষরমালা সেট ব্যবহার করে সাউটকাস্ট সঙ্গীত স্ট্রীমের শিরোনাম এবং "
+"শিল্পী তথ্য ডিকোডিং করো।"
 
 #. i18n: file ./Options1.ui line 393
 #: rc.cpp:717
 #, no-c-format
 msgid "Instead &decode using this character set:"
-msgstr ""
+msgstr "পরিবর্তে এই অক্ষরমালা সে&ট ব্যবহার করে ডিকোডিং করো:"
 
 #. i18n: file ./Options1.ui line 421
 #: rc.cpp:721
@@ -3322,72 +3350,76 @@ msgid ""
 "If ID3v1 or Shoutcast metadata is checked, it will decode them using this "
 "character encoding."
 msgstr ""
+"যদি আইডি৩ভি১ অথবা সাউটকাস্ট মেটা ডেটা চেক করা হয়, এটি তাদেরকে এই অক্ষরমালা "
+"এনকোডিং ব্যবহার করে ডিকোডিং করবে।"
 
 #. i18n: file ./Options2.ui line 49
 #: rc.cpp:727
 #, no-c-format
 msgid "&Use custom fonts"
-msgstr ""
+msgstr "স্বনির্বাচিত ফন্ট ব্যবহা&র করো"
 
 #. i18n: file ./Options2.ui line 55
 #: rc.cpp:730 rc.cpp:733
 #, no-c-format
 msgid "Check to enable custom fonts."
-msgstr ""
+msgstr "স্বনির্বাচিত ফন্ট সক্রিয় করতে চেক করুন।"
 
 #. i18n: file ./Options2.ui line 103
 #: rc.cpp:737
 #, no-c-format
 msgid "Player-window font:"
-msgstr ""
+msgstr "প্লেয়ার উইন্ডো ফন্ট:"
 
 #. i18n: file ./Options2.ui line 109
 #: rc.cpp:740 rc.cpp:743 rc.cpp:747 rc.cpp:750 rc.cpp:1434
 #, no-c-format
 msgid "The font to use in the player window."
-msgstr ""
+msgstr "প্লেয়ার উইন্ডোতে ব্যবহার করার জন্য ফন্ট।"
 
 #. i18n: file ./Options2.ui line 148
 #: rc.cpp:753
 #, no-c-format
 msgid "Playlist-window font:"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডো ফন্ট:"
 
 #. i18n: file ./Options2.ui line 151
 #: rc.cpp:756 rc.cpp:759 rc.cpp:763 rc.cpp:766 rc.cpp:1428
 #, no-c-format
 msgid "The font to use in the playlist window."
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে ব্যবহার করার জন্য ফন্ট।"
 
 #. i18n: file ./Options2.ui line 190
 #: rc.cpp:769
 #, no-c-format
 msgid "Context-browser font:"
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজার ফন্ট:"
 
 #. i18n: file ./Options2.ui line 193
 #: rc.cpp:772 rc.cpp:775 rc.cpp:779 rc.cpp:782 rc.cpp:1440
 #, no-c-format
 msgid "The font to use in the context browser."
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারে ব্যবহার করার জন্য ফন্ট।"
 
 #. i18n: file ./Options2.ui line 230
 #: rc.cpp:785
 #, no-c-format
 msgid "Color Scheme"
-msgstr ""
+msgstr "রং স্কীম"
 
 #. i18n: file ./Options2.ui line 269
 #: rc.cpp:789
 #, no-c-format
 msgid "&Custom color scheme"
-msgstr ""
+msgstr "স্বনির্বাচিত রং স্কীম (&C)"
 
 #. i18n: file ./Options2.ui line 275
 #: rc.cpp:792 rc.cpp:795
 #, no-c-format
 msgid "If selected, amaroK uses the user-defined colors in the playlist."
 msgstr ""
+"যদি নির্বাচন করা হয়, আমারক সঙ্গীত-তালিকায় ব্যবহারকারী দ্বারা উল্লেখিত রং ব্যবহার "
+"করে।"
 
 #. i18n: file ./Options2.ui line 329
 #: rc.cpp:799
@@ -3411,8 +3443,7 @@ msgstr "সঙ্গীত-তালিকা উইন্ডোতে পুর
 #: rc.cpp:809
 #, no-c-format
 msgid "Selects the color to use as foreground (text) color in the playlist."
-msgstr ""
-"সঙ্গীত-তালিকাতে পুরোভূমির (টেক্সট) রং হিসেবে ব্যবহার করতে রং নির্বাচন করে।"
+msgstr "সঙ্গীত-তালিকাতে পুরোভূমির (টেক্সট) রং হিসেবে ব্যবহার করতে রং নির্বাচন করে।"
 
 #. i18n: file ./Options2.ui line 389
 #: rc.cpp:812
@@ -3436,88 +3467,89 @@ msgstr "সঙ্গীত-তালিকা উইন্ডোতে পটভ
 #: rc.cpp:825
 #, no-c-format
 msgid "The current &KDE color-scheme"
-msgstr ""
+msgstr "বর্তমান কে-ডি-&ই রং স্কীম"
 
 #. i18n: file ./Options2.ui line 460
 #: rc.cpp:828 rc.cpp:831
 #, no-c-format
 msgid "If selected, amaroK uses the KDE standard colors in the playlist."
-msgstr ""
+msgstr "যদি নির্বাচন করা হয়, আমারক সঙ্গীত-তালিকায় কে-ডি-ই প্রমাণ রং ব্যবহার করে।"
 
 #. i18n: file ./Options2.ui line 471
 #: rc.cpp:834
 #, no-c-format
 msgid "The classic &amaroK, \"funky-monkey\", theme"
-msgstr ""
+msgstr "ক্লাসিক আমা&রক, \"funky-monkey\", থিম"
 
 #. i18n: file ./Options2.ui line 477
 #: rc.cpp:837 rc.cpp:840
 #, no-c-format
 msgid "If selected, amaroK uses the amaroK standard colors in the playlist."
-msgstr ""
+msgstr "যদি নির্বাচন করা হয়, আমারক সঙ্গীত-তালিকায় আমারক প্রমাণ রং ব্যবহার করে।"
 
 #. i18n: file ./Options2.ui line 492
 #: rc.cpp:843
 #, no-c-format
 msgid "Context Browser Style"
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজার ষ্টাইল"
 
 #. i18n: file ./Options2.ui line 519
 #: rc.cpp:846
 #, no-c-format
 msgid "Select a style:"
-msgstr ""
+msgstr "একটি ষ্টাইল নির্বাচন করুন:"
 
 #. i18n: file ./Options2.ui line 530
 #: rc.cpp:850 rc.cpp:853
 #, no-c-format
 msgid "Select the style of the Context Browser."
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারের জন্য ষ্টাইল নির্বাচন করুন।"
 
 #. i18n: file ./Options2.ui line 551
 #: rc.cpp:856
 #, no-c-format
 msgid "Install New Style..."
-msgstr ""
+msgstr "নতুন ষ্টাইল ইনস্টল করুন..."
 
 #. i18n: file ./Options2.ui line 554
 #: rc.cpp:859
 #, no-c-format
 msgid ""
-"Click to install a new Context Browser style."
-"<br>Tip: More styles can be found on <a href='http://kde-look.org'>"
-"http://kde-look.org</a>"
+"Click to install a new Context Browser style.<br>Tip: More styles can be "
+"found on <a href='http://kde-look.org'>http://kde-look.org</a>"
 msgstr ""
+"একটি নতুন প্রসঙ্গ ব্রাউজার ষ্টাইল ইনস্টল করতে ক্লিক করুন।<br>ইঙ্গিত: আরও বেশি ষ্টাইল "
+"পাওয়া যাবে <a href='http://kde-look.org'>http://kde-look.org</a>-এ"
 
 #. i18n: file ./Options2.ui line 557
 #: rc.cpp:862
 #, no-c-format
 msgid "Select and install a new Context Browser style."
-msgstr ""
+msgstr "একটি নতুন প্রসঙ্গ ব্রাউজার ষ্টাইল নির্বাচন এবং ইনস্টল করুন।"
 
 #. i18n: file ./Options2.ui line 565
 #: rc.cpp:865
 #, no-c-format
 msgid "Download Styles..."
-msgstr ""
+msgstr "ষ্টাইল ডাউনলোড করুন..."
 
 #. i18n: file ./Options2.ui line 568
 #: rc.cpp:868
 #, no-c-format
 msgid "Click to download new Context Browser styles."
-msgstr ""
+msgstr "নতুন প্রসঙ্গ ব্রাউজার ষ্টাইল ডাউনলোড করতে ক্লিক করুন।"
 
 #. i18n: file ./Options2.ui line 571
 #: rc.cpp:871
 #, no-c-format
 msgid "Select and download new Context Browser styles."
-msgstr ""
+msgstr "নতুন প্রসঙ্গ ব্রাউজার ষ্টাইল নির্বাচন এবং ডাউনলোড করুন।"
 
 #. i18n: file ./Options4.ui line 44
 #: rc.cpp:874
 #, no-c-format
 msgid "Transition &Behavior"
-msgstr ""
+msgstr "পরিবর্তন আ&চরণ"
 
 #. i18n: file ./Options4.ui line 48
 #: rc.cpp:877
@@ -3525,103 +3557,117 @@ msgstr ""
 msgid ""
 "<b>Transition Behavior</b>\n"
 "<p>During playback, when amaroK transitions between tracks, it can either "
-"proceed to the next track instantly (with configurable gap), or crossfade (with "
-"configurable fade period).</p>"
+"proceed to the next track instantly (with configurable gap), or crossfade "
+"(with configurable fade period).</p>"
 msgstr ""
+"<b>পরিবর্তন আচরণ</b>\n"
+"<p>চালানোর সময়, ট্র্যাক পরিবর্তন করতে আমারক একটি থেকে অন্য ট্র্যাকে তাত্ক্ষনিকভাবে "
+"যেতে পারে (কনফিগারযোগ্য ফাঁক সহ), অথবা একটি থেকে অন্যটিতে ধীরে ধীরে মিলিয়ে যেতে "
+"পারে (কনফিগারযোগ্য মিলিয়ে যাওয়া পর্যায়কাল সহ)।</p>"
 
 #. i18n: file ./Options4.ui line 70
 #: rc.cpp:881
 #, no-c-format
 msgid "&No crossfading"
-msgstr ""
+msgstr "কোনও ধীরে ধীরে মিলিয়ে যাওয়া ন&য়"
 
 #. i18n: file ./Options4.ui line 76
 #: rc.cpp:884
 #, no-c-format
 msgid ""
-"Enable normal track transition. You may insert a gap of silence between tracks."
+"Enable normal track transition. You may insert a gap of silence between "
+"tracks."
 msgstr ""
+"স্বাভাবিক ট্র্যাক পরিবর্তন সক্রিয় করো। আপনি দুটি ট্র্যাকের মধ্যে একটি নীরব সময় ঢোকাতে "
+"পারেন।"
 
 #. i18n: file ./Options4.ui line 106
 #: rc.cpp:887
 #, no-c-format
 msgid "Insert &gap:"
-msgstr ""
+msgstr "&ফাঁক ঢোকান:"
 
 #. i18n: file ./Options4.ui line 134
 #: rc.cpp:890 rc.cpp:905 rc.cpp:992
 #, no-c-format
 msgid " ms"
-msgstr ""
+msgstr " মিলিসেকেন্ড"
 
 #. i18n: file ./Options4.ui line 146
 #: rc.cpp:893
 #, no-c-format
 msgid "Silence between tracks, in milliseconds."
-msgstr ""
+msgstr "দুটি ট্র্যাকের মধ্যে নীরব সময়, মিলি সেকেন্ডে।"
 
 #. i18n: file ./Options4.ui line 169
 #: rc.cpp:896
 #, no-c-format
 msgid "&Crossfading"
-msgstr ""
+msgstr "ধীরে ধীরে মিলিয়ে যা&ওয়া"
 
 #. i18n: file ./Options4.ui line 175
 #: rc.cpp:899
 #, no-c-format
 msgid ""
-"Enable crossfading between tracks. This setting also enables fading to or from "
-"silence e.g when pressing stop."
+"Enable crossfading between tracks. This setting also enables fading to or "
+"from silence e.g when pressing stop."
 msgstr ""
+"একটি থেকে অন্য ট্র্যাকে ধীরে ধীরে মিলিয়ে যাওয়া সক্রিয় করে। এই মানটি ধীরে ধীরে "
+"একেবারে মিলিয়ে যাওয়াও সক্রিয় করে উদাঃ যখন থামানো হয়।"
 
 #. i18n: file ./Options4.ui line 208
 #: rc.cpp:902
 #, no-c-format
 msgid "Crossover &period:"
-msgstr ""
+msgstr "ধীরে ধীরে মিলিয়ে যাওয়া &পর্যায়কাল:"
 
 #. i18n: file ./Options4.ui line 254
 #: rc.cpp:908
 #, no-c-format
 msgid "The length of the crossfade between tracks, in milliseconds."
-msgstr ""
+msgstr "একটি থেকে অন্য ট্র্যাকে ধীরে ধীরে মিলিয়ে যাওয়ার সময়, মিলি সেকেন্ডে।"
 
 #. i18n: file ./Options4.ui line 276
 #: rc.cpp:911
 #, no-c-format
 msgid "&Resume playback on start"
-msgstr ""
+msgstr "শুরুতে চালানো পুনরা&য় শুরু করো"
 
 #. i18n: file ./Options4.ui line 279
 #: rc.cpp:914
 #, no-c-format
 msgid ""
-"If checked, amaroK will"
-"<br>resume playback from where you left it the previous session -- just like a "
-"tape-player."
+"If checked, amaroK will<br>resume playback from where you left it the "
+"previous session -- just like a tape-player."
 msgstr ""
+"যদি চেক করা হয়, আমারক<br>চালানো পুনরায় শুরু করবে যেখানে আপনি পূর্ববর্তী অধিবেশনে "
+"শেষ করেছিলেন -- প্রায় একটি টেপ-প্লেয়ারের মত।"
 
 #. i18n: file ./Options5.ui line 27
 #: rc.cpp:917
 #, no-c-format
 msgid "&Use On-Screen-Display"
-msgstr ""
+msgstr "পর্দার ওপর প্রদর্শন(OSD) ব্য&বহার করো"
 
 #. i18n: file ./Options5.ui line 33
 #: rc.cpp:920
 #, no-c-format
 msgid ""
-"Check to enable the On-Screen-Display. "
-"<br>The OSD briefly displays track data when a new track is played."
+"Check to enable the On-Screen-Display. <br>The OSD briefly displays track "
+"data when a new track is played."
 msgstr ""
+"পর্দার ওপর প্রদর্শন(OSD) সক্রিয় করতে চেক করুন। <br>ওএসডি সংক্ষিপ্তভাবে ট্র্যাক তথ্য "
+"প্রদর্শন করে যখন একটি নতুন ট্র্যাক চালানো হয়।"
 
 #. i18n: file ./Options5.ui line 36
 #: rc.cpp:923
 #, no-c-format
 msgid ""
-"Check to enable the On-Screen-Display. The OSD briefly displays track data when "
-"a new track is played."
+"Check to enable the On-Screen-Display. The OSD briefly displays track data "
+"when a new track is played."
 msgstr ""
+"পর্দার ওপর প্রদর্শন(OSD) সক্রিয় করতে চেক করুন। ওএসডি সংক্ষিপ্তভাবে ট্র্যাক তথ্য প্রদর্শন "
+"করে যখন একটি নতুন ট্র্যাক চালানো হয়।"
 
 #. i18n: file ./Options5.ui line 95
 #: rc.cpp:927
@@ -3657,8 +3703,7 @@ msgstr "স্বনির্বাচি&ত রং ব্যবহার ক�
 #: rc.cpp:946 rc.cpp:949
 #, no-c-format
 msgid "Check to enable custom colors for the On-Screen-Display."
-msgstr ""
-"পর্দার ওপর প্রদর্শন(ওএসডি) এর জন্য স্বনির্বাচিত রং সক্রিয় করতে চেক করুন।"
+msgstr "পর্দার ওপর প্রদর্শন(ওএসডি) এর জন্য স্বনির্বাচিত রং সক্রিয় করতে চেক করুন।"
 
 #. i18n: file ./Options5.ui line 232
 #: rc.cpp:953
@@ -3700,19 +3745,19 @@ msgstr "টেক্সটের রং:"
 #: rc.cpp:979
 #, no-c-format
 msgid "Make the &background translucent"
-msgstr ""
+msgstr "প&টভূমি অস্বচ্ছ করো"
 
 #. i18n: file ./Options5.ui line 339
 #: rc.cpp:982
 #, no-c-format
 msgid "Display &Text"
-msgstr ""
+msgstr "টেক্স&ট প্রদর্শন করো"
 
 #. i18n: file ./Options5.ui line 353
 #: rc.cpp:985
 #, no-c-format
 msgid "Display the same information as the columns in the playlist"
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় কলাম হিসেবে একই তথ্য প্রদর্শন করে"
 
 #. i18n: file ./Options5.ui line 396
 #: rc.cpp:989
@@ -3730,15 +3775,17 @@ msgstr "চিরকাল"
 #: rc.cpp:998 rc.cpp:1001
 #, no-c-format
 msgid ""
-"The time in milliseconds to show the OSD. The value must be between 500 ms and "
-"10000 ms."
+"The time in milliseconds to show the OSD. The value must be between 500 ms "
+"and 10000 ms."
 msgstr ""
+"ওএসডি প্রদর্শন করার সময়, মিলি সেকেন্ডে। মান অবশ্যই ৫০০ মিলিসেকেন্ড এবং ১০০০০ "
+"মিলিসেকেন্ডের মধ্যে হতে হবে।"
 
 #. i18n: file ./Options5.ui line 455
 #: rc.cpp:1004 rc.cpp:1007
 #, no-c-format
 msgid "The screen that should display the OSD."
-msgstr ""
+msgstr "পর্দা যেটি ওএসডি প্রদর্শন করবে।"
 
 #. i18n: file ./Options5.ui line 466
 #: rc.cpp:1010
@@ -3770,23 +3817,29 @@ msgstr "সংঙ্গীত-সংগ্রহ ডেটাবেস"
 msgid ""
 "amaroK can send the name of every song you play to last.fm. The system "
 "automatically matches you to people with similar musical tastes, and creates "
-"personalized recommendations. To learn more about last.fm, <A "
-"href='http://www.last.fm'>visit the homepage</A>."
+"personalized recommendations. To learn more about last.fm, <A href='http://"
+"www.last.fm'>visit the homepage</A>."
 msgstr ""
+"আমারক আপনার চালানো প্রতিটি গানের নাম last.fm-এ পাঠাতে পারে। সিস্টেমটি আপনাকে "
+"সয়ংক্রিয়ভাবে অনুরুপ সঙ্গীত পছন্দকারী অন্যান্য লোকের সঙ্গে মেলায় এবং ব্যক্তিভিত্তিক "
+"সুপারিশ তৈরি করে। last.fm এর সম্বন্ধে আরও জানতে <A href='http://www.last."
+"fm'>হোমপেজ পরিদর্শন করুন</A>।"
 
 #. i18n: file ./Options8.ui line 90
 #: rc.cpp:1026
 #, no-c-format
 msgid "last.fm Profile"
-msgstr ""
+msgstr "last.fm প্রোফাইল"
 
 #. i18n: file ./Options8.ui line 109
 #: rc.cpp:1029
 #, no-c-format
 msgid ""
-"<P>To use last.fm with amaroK, you need a <A "
-"href='http://www.last.fm:80/signup.php'>last.fm profile</A>."
+"<P>To use last.fm with amaroK, you need a <A href='http://www.last.fm:80/"
+"signup.php'>last.fm profile</A>."
 msgstr ""
+"<P>আমারকের সঙ্গে last.fm ব্যবহার করার জন্য, আপনার একটি <A href='http://www.last."
+"fm:80/signup.php'>last.fm প্রোফাইল</A> প্রয়োজন।"
 
 #. i18n: file ./Options8.ui line 165
 #: rc.cpp:1035
@@ -3798,36 +3851,43 @@ msgstr "ব্য&বহারকারীর নাম:"
 #: rc.cpp:1038
 #, no-c-format
 msgid "last.fm Services"
-msgstr ""
+msgstr "last.fm সার্ভিস"
 
 #. i18n: file ./Options8.ui line 207
 #: rc.cpp:1041
 #, no-c-format
 msgid ""
 "Once registered, amaroK can tell the last.fm service about your listening "
-"habits; your profile can then provide statistics and recommendations. A profile "
-"is not required to retrieve similar-artists for display in the Context Browser."
+"habits; your profile can then provide statistics and recommendations. A "
+"profile is not required to retrieve similar-artists for display in the "
+"Context Browser."
 msgstr ""
+"একবার রেজিষ্ট্রী করলে, আমারক আপনার সঙ্গীত পছন্দ last.fm সার্ভিসকে জানাতে পারে; "
+"আপনার প্রোফাইল তারপর পরিসংখ্যান এবং সুপারিশ সরাবরাহ করে। প্রসঙ্গ ব্রাউজারে প্রদর্শন "
+"করার জন্য অনুরূপ শিল্পী আহরন করতে কোনও প্রোফাইল থাকার প্রয়োজন নেই।"
 
 #. i18n: file ./Options8.ui line 229
 #: rc.cpp:1044
 #, no-c-format
 msgid "Improve m&y profile by submitting the tracks I play"
-msgstr ""
+msgstr "আমা&র চালানো ট্র্যাক দাখিল করে আমার প্রোফাইল পরিবর্ধন করো"
 
 #. i18n: file ./Options8.ui line 237
 #: rc.cpp:1047
 #, no-c-format
 msgid "&Retrieve similar artists"
-msgstr ""
+msgstr "অনুরুপ শিল্পী আ&হরন করো"
 
 #. i18n: file ./Options8.ui line 255
 #: rc.cpp:1050
 #, no-c-format
 msgid ""
-"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>"
-"amaroK last.fm group</A> and share your musical tastes with other amaroK users?"
+"Why not join the <A href='http://www.last.fm:80/group/amaroK+users'>amaroK "
+"last.fm group</A> and share your musical tastes with other amaroK users?"
 msgstr ""
+"<A href='http://www.last.fm:80/group/amaroK+users'>আমারক last.fm গ্রুপ</A>-এ "
+"যোগদান এবং অন্যান্য আমারক ব্যবহারকারীর সঙ্গে আপনার সঙ্গীত পছন্দ ভাগাভাগি করুন না "
+"কেন?"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 13
 #: rc.cpp:1053
@@ -3839,7 +3899,7 @@ msgstr "আমারক সংস্করণ"
 #: rc.cpp:1056
 #, no-c-format
 msgid "Amarok version string, used to restart aRts in new installations."
-msgstr ""
+msgstr "আমারক সংস্করণ পংক্তি, নতুন ইনস্টলেশনে আর্টস পুনরায় শুরু করতে ব্যবহার করা হয়।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 18
 #: rc.cpp:1059
@@ -3890,14 +3950,15 @@ msgid ""
 "If set, amaroK saves the current playlist on quit and restores it when "
 "restarted."
 msgstr ""
-"যদি নিযুক্ত করা হয়, আমারক প্রস্থান করার সময় বর্তমান সঙ্গীত-তালিকা সংরক্ষণ করে "
-"এবং এটি পুনরুদ্ধার করে যখন পুনরায় চালু করা হয়।"
+"যদি নিযুক্ত করা হয়, আমারক প্রস্থান করার সময় বর্তমান সঙ্গীত-তালিকা সংরক্ষণ করে এবং "
+"এটি পুনরুদ্ধার করে যখন পুনরায় চালু করা হয়।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 35
 #: rc.cpp:1083
 #, no-c-format
 msgid "Whether to follow symlinks while adding items to playlist recursively"
 msgstr ""
+"সঙ্গীত-তালিকায় পুনরাবৃত্তভাবে আইটেম যোগ করার সময় প্রতীকী লিঙ্ক অনুসরণ করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 36
 #: rc.cpp:1086
@@ -3906,6 +3967,8 @@ msgid ""
 "If set, amarok follows symlinks when adding files or directories to the "
 "playlist."
 msgstr ""
+"যদি সেট করা হয়, আমারক সঙ্গীত-তালিকায় ফাইল অথবা ডিরেক্টরী যোগ করার সময় প্রতীকী "
+"লিঙ্ক অনুসরণ করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 40
 #: rc.cpp:1089
@@ -3920,8 +3983,8 @@ msgid ""
 "Set this to display remaining track time instead of past track time in the "
 "player window."
 msgstr ""
-"প্লেয়ার উইন্ডোতে ট্র্যাকের চলার সময়ের পরিবর্তে অবশিষ্ট ট্র্যাক সময় প্রদর্শন "
-"করতে এইটি নিযুক্ত করুন।"
+"প্লেয়ার উইন্ডোতে ট্র্যাকের চলার সময়ের পরিবর্তে অবশিষ্ট ট্র্যাক সময় প্রদর্শন করতে এইটি "
+"নিযুক্ত করুন।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 45
 #: rc.cpp:1095
@@ -3933,8 +3996,7 @@ msgstr "ট্র্যাক বারংবার চালাতে হবে
 #: rc.cpp:1098
 #, no-c-format
 msgid "If set, amaroK repeats the current track indefinitely."
-msgstr ""
-"যদি নিযুক্ত করা হয়, আমারক বর্তমান ট্র্যাক অনির্দিষ্টভাবে পুনরাবৃত্তি করে।"
+msgstr "যদি নিযুক্ত করা হয়, আমারক বর্তমান ট্র্যাক অনির্দিষ্টভাবে পুনরাবৃত্তি করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 50
 #: rc.cpp:1101
@@ -3946,155 +4008,157 @@ msgstr "গোটা সঙ্গীত-তালিকা বারংবার
 #: rc.cpp:1104
 #, no-c-format
 msgid "If set, amaroK repeats the playlist indefinitely."
-msgstr ""
-"যদি নিযুক্ত করা হয়, আমারক সঙ্গীত-তালিকা অনির্দিষ্টভাবে পুনরাবৃত্তি করে।"
+msgstr "যদি নিযুক্ত করা হয়, আমারক সঙ্গীত-তালিকা অনির্দিষ্টভাবে পুনরাবৃত্তি করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 55
 #: rc.cpp:1107
 #, no-c-format
 msgid "Whether to play tracks in random order"
-msgstr ""
+msgstr "এলোমেলো ধারায় ট্র্যাক চালানো হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 56
 #: rc.cpp:1110
 #, no-c-format
 msgid "If set, amaroK plays the tracks in the playlist in random order."
-msgstr ""
+msgstr "যদি সেট করা হয়, আমারক এলোমেলো ধারায় সঙ্গীত-তালিকার ট্র্যাক চালায়।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 60
 #: rc.cpp:1113
 #, no-c-format
 msgid "Plays a dynamic playlist"
-msgstr ""
+msgstr "একটি ডাইনামিক সঙ্গীত-তালিকা চালায়"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 61
 #: rc.cpp:1116
 #, no-c-format
 msgid ""
-"Dynamic playlist which removes the played track from the playlist and appends "
-"another song."
+"Dynamic playlist which removes the played track from the playlist and "
+"appends another song."
 msgstr ""
+"ডাইনামিক সঙ্গীত-তালিকা যেটি সঙ্গীত-তালিকা থেকে চালানো ট্র্যাক বাদ দেয় এবং অন্য "
+"একটি গান সংযোজন করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 65
 #: rc.cpp:1119
 #, no-c-format
 msgid "Shows help"
-msgstr ""
+msgstr "সহায়িক দেখায়"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 66
 #: rc.cpp:1122
 #, no-c-format
 msgid "Whether to show or hide the dynamic information dialog"
-msgstr ""
+msgstr "ডাইনামিক তথ্য ডায়ালগ দেখাতে অথবা লুকোতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 70
 #: rc.cpp:1125
 #, no-c-format
 msgid "Adds this type of song"
-msgstr ""
+msgstr "এই ধরনের গান যোগ করে"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 71
 #: rc.cpp:1128
 #, no-c-format
 msgid "Dynamic mode will append this type of song to the end of the playlist."
-msgstr ""
+msgstr "ডাইনামিক মোড সঙ্গীত-তালিকার শেষে এই ধরনের গান সংযোজন করবে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 75
 #: rc.cpp:1131 rc.cpp:1134
 #, no-c-format
 msgid "List of smart playlists to be appended for dynamic mode."
-msgstr ""
+msgstr "ডাইনামিক মোডে সংযোজন করার জন্য কেতাদুরস্ত সঙ্গীত-তালিকার একটি তালিকা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 80
 #: rc.cpp:1137
 #, no-c-format
 msgid "Number of upcoming songs to show"
-msgstr ""
+msgstr "প্রদর্শন করার জন্য আগমনরত গানের সংখ্যা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 81
 #: rc.cpp:1140
 #, no-c-format
 msgid "Number of upcoming songs to show in the Playlist for dynamic mode."
-msgstr ""
+msgstr "ডাইনামিক মোডের জন্য সঙ্গীত-তালিকায় প্রদর্শন করতে আগমনরত গানের সংখ্যা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 85
 #: rc.cpp:1143
 #, no-c-format
 msgid "History of songs count"
-msgstr ""
+msgstr "গানের ইতিহাস কাউন্ট"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 86
 #: rc.cpp:1146
 #, no-c-format
 msgid ""
 "Number of previously played songs to show in the Playlist for dynamic mode."
-msgstr ""
+msgstr "ডাইনামিক মোডের জন্য সঙ্গীত-তালিকায় প্রদর্শন করতে আগে চালানো গানের সংখ্যা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 90
 #: rc.cpp:1149
 #, no-c-format
 msgid "Number of tracks to append"
-msgstr ""
+msgstr "সংযোজন করার জন্য ট্র্যাকের সংখ্যা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 91
 #: rc.cpp:1152
 #, no-c-format
 msgid "Number of tracks to append to the Playlist for dynamic mode."
-msgstr ""
+msgstr "ডাইনামিক মোডে সঙ্গীত-তালিকায় সংযোজন করার জন্য ট্র্যাকের সংখ্যা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 95
 #: rc.cpp:1155
 #, no-c-format
 msgid "Cycle Tracks"
-msgstr ""
+msgstr "ট্র্যাক চক্রাকারে ঘোরাও"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 96
 #: rc.cpp:1158
 #, no-c-format
 msgid "Whether to remove first item in playlist."
-msgstr ""
+msgstr "সঙ্গীত-তালিকা থেকে প্রথম আইটেম বাদ দিতে হবে কিনা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 100
 #: rc.cpp:1161
 #, no-c-format
 msgid "Mark History"
-msgstr ""
+msgstr "ইতিহাস চিহ্নিত করো"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 101
 #: rc.cpp:1164
 #, no-c-format
 msgid "Whether to mark items in the playlist as history once played."
 msgstr ""
+"একবার চালানো হলে সঙ্গীত-তালিকার আইটেম ইতিহাস হিসেবে চিহ্নিত করা হবে কিনা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 105
 #: rc.cpp:1167
 #, no-c-format
 msgid "Whether to show icon in system tray"
-msgstr ""
+msgstr "সিস্টেম ট্রেতে আইকন প্রদর্শন করতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 106
 #: rc.cpp:1170
 #, no-c-format
 msgid "Enable/Disable tray icon for amaroK."
-msgstr ""
+msgstr "আমারকের জন্য ট্রে আইকন সক্রিয়/নিষ্ক্রিয় করো।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 110
 #: rc.cpp:1173
 #, no-c-format
 msgid "Whether to animate the systray icon"
-msgstr ""
+msgstr "সিস-ট্রে আইকন অ্যানিমেট করতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 111
 #: rc.cpp:1176
 #, no-c-format
 msgid "Enable/Disable tray icon animation."
-msgstr ""
+msgstr "ট্রে আইকন অ্যানিমেশন সক্রিয়/নিষ্ক্রিয় করো।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 115
 #: rc.cpp:1179
 #, no-c-format
 msgid "Whether to show player window"
-msgstr ""
+msgstr "প্লেয়ার উইন্ডো প্রদর্শন করতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 116
 #: rc.cpp:1182
@@ -4103,60 +4167,62 @@ msgid ""
 "Makes amaroK more like XMMS and other Winamp clones with separate player and "
 "playlist windows."
 msgstr ""
+"আলাদা প্লেয়ার এবং সঙ্গীত-তালিকা উইন্ডো সহ আমারক দেখতে হয় এক্সএমএমএস এবং অন্যান্য "
+"উইনঅ্যাম্প ক্লোনের মত।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 120
 #: rc.cpp:1185
 #, no-c-format
 msgid "Whether to show the toolbar in the playlist window."
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে টুলবার প্রদর্শন করতে হবে কিনা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 125
 #: rc.cpp:1188 rc.cpp:1191
 #, no-c-format
 msgid "Size of the cover previews in Contextbrowser and Covermanager"
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজার এবং কভার ম্যানেজার-এ কভার প্রাকদর্শনের আকার"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 130
 #: rc.cpp:1194
 #, no-c-format
 msgid "Whether to show the Playlist Statusbar"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা স্ট্যাটাস বার প্রদর্শন করতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 131
 #: rc.cpp:1197
 #, no-c-format
 msgid "View some status information on the playlist."
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় কিছু স্ট্যাটাস তথ্য দেখাও।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 135
 #: rc.cpp:1200
 #, no-c-format
 msgid "Whether to add directories to playlist recursively"
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় পুনরাবৃত্তভাবে ডিরেক্টরী যোগ করতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 136
 #: rc.cpp:1203
 #, no-c-format
 msgid "Enable/Disable recursive directory adding to the playlist."
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় পুনরাবৃত্তভাবে ডিরেক্টরী যোগ করা সক্রিয়/নিষ্ক্রিয় করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 140
 #: rc.cpp:1206
 #, no-c-format
 msgid "Delay between tracks, in milliseconds"
-msgstr ""
+msgstr "দুটি ট্র্যাকের মধ্যে বিলম্ব, মিলি সেকেন্ডে"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 141
 #: rc.cpp:1209
 #, no-c-format
 msgid "Delay between tracks, in milliseconds."
-msgstr ""
+msgstr "দুটি ট্র্যাকের মধ্যে বিলম্ব, মিলি সেকেন্ডে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 145
 #: rc.cpp:1212
 #, no-c-format
 msgid "Whether the playlist window is visible"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডো দৃশ্যমান কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 146
 #: rc.cpp:1215
@@ -4165,135 +4231,139 @@ msgid ""
 "Enable/Disable the playlist window. Equal to clicking the PL button in the "
 "player window."
 msgstr ""
+"সঙ্গীত-তালিকা উইন্ডো সক্রিয়/নিষ্ক্রিয় করে। প্লেয়ার উইন্ডোতে পিএল(PL) বাটন ক্লিক করার "
+"সমতূল্য।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 150
 #: rc.cpp:1218
 #, no-c-format
 msgid "Number of undo levels in playlist"
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় বাতিল করার স্তর সংখ্যা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 151
 #: rc.cpp:1221
 #, no-c-format
 msgid "The number of undo levels in the playlist."
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় বাতিল করার স্তর সংখ্যা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 155
 #: rc.cpp:1224
 #, no-c-format
 msgid "Index of current visual analyzer"
-msgstr ""
+msgstr "বর্তমান দৃশ্য বিশ্লেষকের সূচিপত্র"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 156
 #: rc.cpp:1227
 #, no-c-format
 msgid "The ID of the visual analyzer to display."
-msgstr ""
+msgstr "প্রদর্শন করার জন্য দৃশ্য বিশ্লেষকের আই.ডি.।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 160
 #: rc.cpp:1230
 #, no-c-format
 msgid "Index of analyzer displayed in playlist window"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে প্রদর্শিত বিশ্লেষকের সূচিপত্র"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 161
 #: rc.cpp:1233
 #, no-c-format
 msgid "The ID of the visual analyzer to display in playlist window."
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে প্রদর্শন করার জন্য দৃশ্য বিশ্লেষকের আই.ডি.।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 165
 #: rc.cpp:1236
 #, no-c-format
 msgid "Playlist window splitter positions"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডো বিভাজক অবস্থান"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 166
 #: rc.cpp:1239
 #, no-c-format
 msgid "Currently unused"
-msgstr ""
+msgstr "বর্তমানে অব্যবহৃত"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 170
 #: rc.cpp:1242
 #, no-c-format
 msgid "Whether the playlist should scroll with the active playlist item"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা সক্রিয় সঙ্গীত আইটেমের সঙ্গে গোটানো উচিত হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 171
 #: rc.cpp:1245
 #, no-c-format
 msgid ""
-"If set, the playlist scrolls on song change to make the currently playing item "
-"visible. Measures are taken not to scroll if inappropriate."
+"If set, the playlist scrolls on song change to make the currently playing "
+"item visible. Measures are taken not to scroll if inappropriate."
 msgstr ""
+"যদি চেক করা হয়, সঙ্গীত-তালিকা বর্তমানে চালানো আইটেম দৃশ্যমান রাখতে তালিকা গুটিয়ে "
+"ফেলে। না গোটানোর জন্য ব্যবস্থা নেওয়া হয় যদি বেমানান হয়।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 175
 #: rc.cpp:1248
 #, no-c-format
 msgid "Whether a splash-screen should be displayed on startup"
-msgstr ""
+msgstr "শুরুতে একটি স্প্ল্যাশ পর্দা প্রদর্শন করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 176
 #: rc.cpp:1251
 #, no-c-format
 msgid "Enable/Disable splashscreen during amaroK startup."
-msgstr ""
+msgstr "আমারক শুরুর সময় স্প্ল্যাশ পর্দা সক্রিয়/নিষ্ক্রিয় করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 180
 #: rc.cpp:1254
 #, no-c-format
 msgid "Whether ContextBrowser should be activated when starting playback"
-msgstr ""
+msgstr "চালানো শুরু করার সময় প্রসঙ্গ ব্রাউজার সক্রিয় করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 181
 #: rc.cpp:1257
 #, no-c-format
 msgid "Automatically switches to ContextBrowser when playback is started."
-msgstr ""
+msgstr "চালানো শুরু করার সময় সয়ংক্রিয়ভাবে প্রসঙ্গ ব্রাউজার সক্রিয় করে ।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 185
 #: rc.cpp:1260
 #, no-c-format
 msgid ""
 "Whether ContextBrowser should show statistics by albums when it is possible."
-msgstr ""
+msgstr "যখন সম্ভব প্রসঙ্গ ব্রাউজার অ্যালবাম ভিত্তিক পরিসংখ্যান প্রদর্শন করবে কিনা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 186
 #: rc.cpp:1263
 #, no-c-format
 msgid "Show statistics by albums in ContextBrowser."
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারে অ্যালবাম ভিত্তিক পরিসংখ্যান দেখাও।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 190
 #: rc.cpp:1266
 #, no-c-format
 msgid "Set CSS stylesheet used to customize ContextBrowser's rendering"
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারের প্রদর্শন স্বনির্বাচন করতে ব্যবহৃত সিএসএস স্টাইলশীট নিযুক্ত করুন "
 
 #. i18n: file ./amarokcore/amarok.kcfg line 191
 #: rc.cpp:1269
 #, no-c-format
 msgid "Set this to the style dir you want to use."
-msgstr ""
+msgstr "ষ্টাইল ডিরেক্টরী নিযুক্ত করুন যেটি আপনি ব্যবহার করতে চান।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 195
 #: rc.cpp:1272
 #, no-c-format
 msgid "Whether Menubar is shown"
-msgstr ""
+msgstr "মেনুবার প্রদর্শন করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 196
 #: rc.cpp:1275
 #, no-c-format
 msgid "If set, amaroK displays a menubar on top of the application."
-msgstr ""
+msgstr "যদি সেট করা হয়, আমারক অ্যাপলিকেশনের ওপর একটি মেনুবার প্রদর্শন করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 200
 #: rc.cpp:1278
 #, no-c-format
 msgid "Whether playlists store relative path"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা আপেক্ষিক পাথ সংরক্ষণ করবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 201
 #: rc.cpp:1281
@@ -4302,42 +4372,45 @@ msgid ""
 "If set, amaroK manually saved playlists will contain a relative path to the "
 "tracks, not absolute."
 msgstr ""
+"যদি সেট করা হয়, নিজহাতে সংরক্ষিত আমারকের সঙ্গীত-তালিকায় ট্র্যাকের সম্পূর্ণ পাথের "
+"পরিবর্তে একটি আপেক্ষিক পাথ ধারন করবে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 208
 #: rc.cpp:1284
 #, no-c-format
 msgid "Master volume"
-msgstr ""
+msgstr "মাষ্টার ভলিউম"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 209
 #: rc.cpp:1287
 #, no-c-format
 msgid "The amaroK master volume, a value between 0 (muted) and 100."
-msgstr ""
+msgstr "আমারক মাষ্টার ভলিউম, ০ (নীরবকৃত) এবং ১০০ এর মধ্যবর্তী একটি মান।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 215
 #: rc.cpp:1290
 #, no-c-format
 msgid "Whether to crossfade between tracks"
-msgstr ""
+msgstr "একটি থেকে অন্য ট্র্যাকে ধীরে ধীরে মিলিয়ে যেতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 216
 #: rc.cpp:1293
 #, no-c-format
 msgid "Enable/Disable crossfading between track changes."
 msgstr ""
+"ট্র্যাক পরিবর্তনের সময় একে থেকে অন্যে ধীরে ধীরে মিলিয়ে যাওয়া সক্রিয়/নিষ্ক্রিয় করো।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 220
 #: rc.cpp:1296
 #, no-c-format
 msgid "Length of crossfade, in milliseconds"
-msgstr ""
+msgstr "ধীরে ধীরে মিলিয়ে যাওয়ার সময়কাল, মিলি সেকেন্ডে "
 
 #. i18n: file ./amarokcore/amarok.kcfg line 221
 #: rc.cpp:1299
 #, no-c-format
 msgid "The length of the crossfade between tracks in milliseconds."
-msgstr ""
+msgstr "মিলি সেকেন্ডে একটি থেকে অন্য ট্র্যাকে ধীরে ধীরে মিলিয়ে যাওয়ার সময়কাল।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 226
 #: rc.cpp:1302
@@ -4353,147 +4426,155 @@ msgid ""
 "GStreamer, xine, and NMM; however, their availability depends on the "
 "configuration used at compile time."
 msgstr ""
+"মিডিয়া চালানোর জন্য সাউন্ড সিস্টেম নির্বাচন করুন। আমারক বর্তমানে আর্টস, জিস্ট্রীমার, "
+"জাইন, এবং এনএমএম সমর্থন করে; যদিও, তাদের ব্যবহারযোগ্যতা কমপাইল করার সময় ব্যবহৃত "
+"কনফিগারেশনের ওপর নির্ভর করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 230
 #: rc.cpp:1308
 #, no-c-format
 msgid "Enables the equalizer plugin"
-msgstr ""
+msgstr "ইকুয়ালাইজার প্লাগিন সক্রিয় করো"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 231
 #: rc.cpp:1311
 #, no-c-format
 msgid "When enabled, an equalizer plugin filters the audio stream."
-msgstr ""
+msgstr "যখন সক্রিয় করা হয়, একটি ইকুয়ালাইজার প্লাগিন অডিও স্ট্রীম ফিল্টার করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 235
 #: rc.cpp:1314
 #, no-c-format
 msgid "Equalizer pre-amplification value, range -100..100, 0 is normal."
-msgstr ""
+msgstr "ইকুয়ালাইজার প্রি-অ্যামপ্লিফিকেশন মান, সীমা - ১০০..১০০, ০ হল স্বাভাবিক।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 241
 #: rc.cpp:1317
 #, no-c-format
 msgid "Band gains for equalizer, 10 values, range -100..100, 0 is normal."
-msgstr ""
+msgstr "ইকুয়ালাইজারের জন্য ব্যান্ড গেইন, ১০টি মান, সীমা - ১০০..১০০, ০ হল স্বাভাবিক।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 245
 #: rc.cpp:1320
 #, no-c-format
 msgid "Equalizer preset name."
-msgstr ""
+msgstr "ইকুয়ালাইজার প্রিসেট নাম।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 251
 #: rc.cpp:1323
 #, no-c-format
 msgid "Amazon locale for cover retrieval"
-msgstr ""
+msgstr "কভার আনার জন্য আমাজন লোকেল"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 252
 #: rc.cpp:1326
 #, no-c-format
 msgid "Determines which Amazon server cover images should be retrieved from."
-msgstr ""
+msgstr "নির্ধারণ করে কোন আমাজন সার্ভার থেকে কভার চিত্র আনা হবে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 258
 #: rc.cpp:1329
 #, no-c-format
 msgid "Wikipedia locale for information retrieval"
-msgstr ""
+msgstr "তথ্য আহরনের জন্য উইকিপিডিয়া লোকেল"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 259
 #: rc.cpp:1332
 #, no-c-format
 msgid ""
 "Determines in which language the information is retrieved from Wikipedia."
-msgstr ""
+msgstr "নির্ধারণ করে কোন ভাষায উইকিপিডিয়া থেকে তথ্য আহরন করা হবে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 266
 #: rc.cpp:1335
 #, no-c-format
 msgid "Use On-Screen Display"
-msgstr ""
+msgstr "পর্দার ওপর প্রদর্শন(OSD) ব্যবহার করো"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 267
 #: rc.cpp:1338
 #, no-c-format
 msgid "Enable/Disable the On-Screen Display."
-msgstr ""
+msgstr "পর্দার ওপর প্রদর্শন(OSD) সক্রিয়/নিষ্ক্রিয় করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 271
 #: rc.cpp:1341
 #, no-c-format
 msgid "Display the same information in the OSD as in the playlist columns."
-msgstr ""
+msgstr "সঙ্গীত-তালিকা কলামের মতই ওএসডিতে একই তথ্য প্রদর্শন করো।"
 
+# no-c-format
 #. i18n: file ./amarokcore/amarok.kcfg line 272
 #: rc.cpp:1344
 #, no-c-format
 msgid ""
-"If enabled, the OSD will display the same information and in the same order as "
-"the columns in the playlist."
+"If enabled, the OSD will display the same information and in the same order "
+"as the columns in the playlist."
 msgstr ""
+"যদি সক্রিয় করা হয়, সঙ্গীত-তালিকা কলামের মতই ওএসডি একই তথ্য প্রদর্শন করবে এবং একই "
+"ধারাতে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 276
 #: rc.cpp:1347
 #, no-c-format
 msgid "The OSD text to show"
-msgstr ""
+msgstr "প্রদর্শন করার জন্য ওএসডি টেক্সট"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 277
 #: rc.cpp:1350
 #, no-c-format
 msgid "Customize the OSD display text."
-msgstr ""
+msgstr "ওএসডি ডিসপ্লে টেক্সট স্বনির্বাচন করো।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 281
 #: rc.cpp:1353
 #, no-c-format
 msgid "Font for On-Screen Display"
-msgstr ""
+msgstr "পর্দার ওপর প্রদর্শন(OSD) করার জন্য ফন্ট"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 286
 #: rc.cpp:1359
 #, no-c-format
 msgid "Draw a shadow around the text."
-msgstr ""
+msgstr "টেক্সটের চারধারে একটি ছায়া আঁকো।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 287
 #: rc.cpp:1362
 #, no-c-format
 msgid "Draws a shadow around the OSD-text."
-msgstr ""
+msgstr "ওএসডি টেক্সটের চারধারে একটি ছায়া আঁকে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 291
 #: rc.cpp:1365
 #, no-c-format
 msgid "Fake-translucency Toggle"
-msgstr ""
+msgstr "নকল অস্বচ্ছতা টোগল"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 292
 #: rc.cpp:1368
 #, no-c-format
 msgid "Make the background of the OSD use fake-translucency."
-msgstr ""
+msgstr "ওএসডির পটভূমির জন্য নকল অস্বচ্ছতা ব্যবহার করো।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 296
 #: rc.cpp:1371
 #, no-c-format
 msgid "Whether to use custom colors for the OSD"
-msgstr ""
+msgstr "ওএসডির জন্য স্বনির্বাচিত রং ব্যবহার করতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 297
 #: rc.cpp:1374
 #, no-c-format
 msgid "You can use custom colors for the OSD if you set this true."
 msgstr ""
+"আপনি যদি এটি নিযুক্ত করেন তাহলে আপনি ওএসডির জন্য স্বনির্বাচিত রং ব্যবহার করতে "
+"পারেন।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 301
 #: rc.cpp:1377
 #, no-c-format
 msgid "Font Color for On-Screen Display"
-msgstr ""
+msgstr "পর্দার ওপর প্রদর্শন(OSD) করার জন্য ফন্টের রং"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 302
 #: rc.cpp:1380
@@ -4502,26 +4583,30 @@ msgid ""
 "The color of the OSD text. The color is specified in RGB, a comma-separated "
 "list containing three integers between 0 and 255."
 msgstr ""
+"ওএসডি টেক্সটের রং। রং আর-জি-বিতে উল্লেখ করা হয়, কমা দিয়ে আলাদাকৃত ০ এবং ২৫৫ এর "
+"মধ্যবর্তী তিনটি পূর্ণসংখ্যার একটি তালিকা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 306
 #: rc.cpp:1383
 #, no-c-format
 msgid "Background Color for On-Screen Display"
-msgstr ""
+msgstr "পর্দার ওপর প্রদর্শন(OSD) করার জন্য পটভূমির রং"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 307
 #: rc.cpp:1386
 #, no-c-format
 msgid ""
-"The color of the OSD background. The color is specified in RGB, a "
-"comma-separated list containing three integers between 0 and 255."
+"The color of the OSD background. The color is specified in RGB, a comma-"
+"separated list containing three integers between 0 and 255."
 msgstr ""
+"ওএসডি পটভূমির রং। রং আর-জি-বিতে উল্লেখ করা হয়, কমা দিয়ে আলাদাকৃত ০ এবং ২৫৫ এর "
+"মধ্যবর্তী তিনটি পূর্ণসংখ্যার একটি তালিকা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 311
 #: rc.cpp:1389
 #, no-c-format
 msgid "How many milliseconds the text should be displayed"
-msgstr ""
+msgstr "কত মিলি সেকেন্ড ধরে টেক্সট প্রদর্শন করা হবে"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 312
 #: rc.cpp:1392
@@ -4530,28 +4615,31 @@ msgid ""
 "The time in milliseconds to show the OSD. A value of 0 means never hide. The "
 "default value is 5000 ms."
 msgstr ""
+"ওএসডি প্রদর্শন করার সময়, মিলি সেকেন্ডে। এটির মান ০ হলে এটি কখনো গোপন করা হবে "
+"না। ডিফল্ট মান ৫০০০ মিলিসেকেন্ড।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 317
 #: rc.cpp:1395
 #, no-c-format
 msgid "Y position offset"
-msgstr ""
+msgstr "Y অবস্থান অফসেট"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 318
 #: rc.cpp:1398
 #, no-c-format
 msgid ""
-"The Y position of the OSD relative to the chosen screen and  OSD alignment. If "
-"Top alignment is chosen the Y offset is the space between the upper part of the "
-"OSD and the top  of the screen. If Bottom alignment is chosen the Y offset is "
-"the space between the bottom part of the OSD and the bottom of the screen."
+"The Y position of the OSD relative to the chosen screen and  OSD alignment. "
+"If Top alignment is chosen the Y offset is the space between the upper part "
+"of the OSD and the top  of the screen. If Bottom alignment is chosen the Y "
+"offset is the space between the bottom part of the OSD and the bottom of the "
+"screen."
 msgstr ""
 
 #. i18n: file ./amarokcore/amarok.kcfg line 324
 #: rc.cpp:1401
 #, no-c-format
 msgid "OSD screen"
-msgstr ""
+msgstr "ওএসডি পর্দা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 325
 #: rc.cpp:1404
@@ -4559,135 +4647,137 @@ msgstr ""
 msgid ""
 "The screen that should display the OSD. For single-headed environments this "
 "setting should be 0."
-msgstr ""
+msgstr "পর্দা যেটি ওএসডি প্রদর্শন করবে। একক-শিরোনাম পরিবেশে এটির মান ০ হওয়া উচিত।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 329
 #: rc.cpp:1407
 #, no-c-format
 msgid "Whether the album cover should be shown"
-msgstr ""
+msgstr "অ্যালবাম কভার প্রদর্শন করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 330
 #: rc.cpp:1410
 #, no-c-format
 msgid "If enabled, shows the album cover in the OSD."
-msgstr ""
+msgstr "যদি সক্রিয় করা হয়, ওএসডিতে অ্যালবাম কভার প্রদর্শন করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 334
 #: rc.cpp:1413
 #, no-c-format
 msgid "Align OSD to"
-msgstr ""
+msgstr "ওএসডি এর সোজা করো"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 335
 #: rc.cpp:1416
 #, no-c-format
 msgid ""
-"The relative position of the OSD. Possible choices are Left, Middle, Right and "
-"Center."
+"The relative position of the OSD. Possible choices are Left, Middle, Right "
+"and Center."
 msgstr ""
+"ওএসডির আপেক্ষিক অবস্থান। সম্ভাব্য পছন্দসমূহ হল বামদিকে, মাঝে, ডানদিকে এবং কেন্দ্রে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 349
 #: rc.cpp:1419
 #, no-c-format
 msgid "Whether to use user-defined fonts"
-msgstr ""
+msgstr "ব্যবহারকারী দ্বারা উল্লেখিত ফন্ট ব্যবহার করতে হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 350
 #: rc.cpp:1422
 #, no-c-format
 msgid "Enabled/Disables custom fonts."
-msgstr ""
+msgstr "স্বনির্বাচিত ফন্ট সক্রিয়/নিষ্ক্রিয় করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 354
 #: rc.cpp:1425
 #, no-c-format
 msgid "Font in playlist window"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোর ফন্ট"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 358
 #: rc.cpp:1431
 #, no-c-format
 msgid "Font in player window"
-msgstr ""
+msgstr "প্লেয়ার উইন্ডোর ফন্ট"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 362
 #: rc.cpp:1437
 #, no-c-format
 msgid "Font in context browser"
-msgstr ""
+msgstr "প্রসঙ্গ ব্রাউজারের ফন্ট"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 366
 #: rc.cpp:1443
 #, no-c-format
 msgid "Recode ID3v1 tags"
-msgstr ""
+msgstr "আইডি৩ভি১ ট্যাগ রি-কোড করো"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 367
 #: rc.cpp:1446
 #, no-c-format
 msgid "If set, ID3v1 tags will be recoded with the chosen encoding."
-msgstr ""
+msgstr "যদি সেট করা হয়, আইডি৩ভি১ ট্যাগ নির্বাচিত এনকোডিংএর সঙ্গে রি-কোড করা হবে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 371
 #: rc.cpp:1449
 #, no-c-format
 msgid "Recode Shoutcast Metadata"
-msgstr ""
+msgstr "সাউটকাস্ট মেটা ডেটা রি-কোড করো"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 372
 #: rc.cpp:1452
 #, no-c-format
 msgid "If set, Shoutcast metadata will be recoded."
-msgstr ""
+msgstr "যদি সেট করা হয়, সাউটকাস্ট মেটা ডেটা রি-কোড করা হবে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 376
 #: rc.cpp:1455
 #, no-c-format
 msgid "Recode encoding"
-msgstr ""
+msgstr "রি-কোড এনকোডিং"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 377
 #: rc.cpp:1458
 #, no-c-format
 msgid "The charset with which to decode the above string data."
-msgstr ""
+msgstr "যে অক্ষরমালা দিয়ে ওপরের পংক্তি ডেটা ডিকোডিং করতে হবে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 384
 #: rc.cpp:1461
 #, no-c-format
 msgid "Whether to use amaroK standard colors in the playlist window"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে আমারক প্রমাণ রং ব্যবহার করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 385
 #: rc.cpp:1464
 #, no-c-format
 msgid "If set, amaroK uses the amaroK standard colors in the playlist."
-msgstr ""
+msgstr "যদি সেট করা হয়, আমারক সঙ্গীত-তালিকায় আমারক প্রমাণ রং ব্যবহার করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 389
 #: rc.cpp:1467
 #, no-c-format
 msgid "Whether to use global KDE colors in the playlist window"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে সার্বজনীন কে-ডি-ই রং ব্যবহার করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 390
 #: rc.cpp:1470
 #, no-c-format
 msgid "If set, amaroK uses the KDE standard colors in the playlist."
-msgstr ""
+msgstr "যদি সেট করা হয়, আমারক সঙ্গীত-তালিকায় কে-ডি-ই প্রমাণ রং ব্যবহার করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 394
 #: rc.cpp:1473
 #, no-c-format
 msgid "Whether to use user-defined colors in the playlist window"
-msgstr ""
+msgstr "সঙ্গীত-তালিকা উইন্ডোতে ব্যবহারকারী দ্বারা উল্লেখিত রং ব্যবহার করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 395
 #: rc.cpp:1476
 #, no-c-format
 msgid "If set, amaroK uses the user-defined colors in the playlist."
 msgstr ""
+"যদি সেট করা হয়, আমারক সঙ্গীত-তালিকায় ব্যবহারকারী দ্বারা উল্লেখিত রং ব্যবহার করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 399
 #: rc.cpp:1479
@@ -4699,9 +4789,11 @@ msgstr "সঙ্গীত-তালিকা উইন্ডোর পুরো
 #: rc.cpp:1482
 #, no-c-format
 msgid ""
-"The color to use as foreground color in the playlist. The color is specified in "
-"RGB, a comma-separated list containing three integers between 0 and 255."
+"The color to use as foreground color in the playlist. The color is specified "
+"in RGB, a comma-separated list containing three integers between 0 and 255."
 msgstr ""
+"সঙ্গীত-তালিকার পুরোভূমির রং। রং আর-জি-বিতে উল্লেখ করা হয়,  কমা দিয়ে আলাদাকৃত ০ "
+"এবং ২৫৫ এর মধ্যবর্তী তিনটি পূর্ণসংখ্যার একটি তালিকা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 404
 #: rc.cpp:1485
@@ -4713,45 +4805,47 @@ msgstr "সঙ্গীত-তালিকা উইন্ডোর পটভূ
 #: rc.cpp:1488
 #, no-c-format
 msgid ""
-"The color to use as background color in the playlist. The color is specified in "
-"RGB, a comma-separated list containing three integers between 0 and 255."
+"The color to use as background color in the playlist. The color is specified "
+"in RGB, a comma-separated list containing three integers between 0 and 255."
 msgstr ""
+"সঙ্গীত-তালিকার পটভূমির রং। রং আর-জি-বিতে উল্লেখ করা হয়, কমা দিয়ে আলাদাকৃত ০ এবং "
+"২৫৫ এর মধ্যবর্তী তিনটি পূর্ণসংখ্যার একটি তালিকা।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 412
 #: rc.cpp:1491
 #, no-c-format
 msgid "Resume playback of last played track on startup"
-msgstr ""
+msgstr "শুরুতে শেষবার চালানো ট্র্যাক পুনরায় চালানো শুরু করো"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 413
 #: rc.cpp:1494
 #, no-c-format
 msgid "If set, amaroK resumes playback of the last played track on startup."
-msgstr ""
+msgstr "যদি সেট করা হয়, আমারক শুরুতে শেষবার চালানো ট্র্যাক পুনরায় চালানো শুরু করে।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 417
 #: rc.cpp:1497
 #, no-c-format
 msgid "Track URL to resume upon startup"
-msgstr ""
+msgstr "শুরুতে পুনরায় চালানোর জন্য ট্র্যাকের ইউআরএল"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 418
 #: rc.cpp:1500
 #, no-c-format
 msgid "Internal: URL of the track to resume on startup."
-msgstr ""
+msgstr "অভ্যন্তরীন: শুরুতে পুনরায় চালানোর জন্য ট্র্যাকের ইউআরএল।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 421
 #: rc.cpp:1503
 #, no-c-format
 msgid "Time to resume at, in milliseconds"
-msgstr ""
+msgstr "পুনরায় চালানো শুরু করার সময়, মিলি সেকেন্ডে"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 422
 #: rc.cpp:1506
 #, no-c-format
 msgid "Internal: Playback position in the track to resume on startup."
-msgstr ""
+msgstr "অভ্যন্তরীন: শুরুতে পুনরায় চালানোর জন্য ট্র্যাকের প্লেব্যাক অবস্থান।"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 428
 #: rc.cpp:1509
@@ -4769,7 +4863,7 @@ msgstr "সংঙ্গীত-সংগ্রহ সংরক্ষণ করত
 #: rc.cpp:1515
 #, no-c-format
 msgid "Whether Collections folders are scanned recursively"
-msgstr ""
+msgstr "সংঙ্গীত-সংগ্রহ ফোল্ডার পুনরাবৃত্তভাবে স্ক্যান করা হবে কিনা"
 
 # no-c-format
 #. i18n: file ./amarokcore/amarok.kcfg line 437
@@ -4812,7 +4906,7 @@ msgstr "পোর্ট"
 #: rc.cpp:1536
 #, no-c-format
 msgid "The port MySql server is listening"
-msgstr ""
+msgstr "যে পোর্ট-এ মাই-এস-কিউ-এল সার্ভার শুনছে"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 461
 #: rc.cpp:1539
@@ -4872,7 +4966,7 @@ msgstr ""
 #: rc.cpp:1566
 #, no-c-format
 msgid "Whether played songs are submitted to Audioscrobbler"
-msgstr ""
+msgstr "চালানো গানসমূহ অডিও স্ক্রবলারে দাখিল করা হবে কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 490
 #: rc.cpp:1569
@@ -4884,13 +4978,13 @@ msgstr "ব্যবহারকারীর নাম"
 #: rc.cpp:1572
 #, no-c-format
 msgid "The username to use for connecting to Audioscrobbler"
-msgstr ""
+msgstr "অডিও স্ক্রবলারে সংযোগ করার জন্য ব্যবহারকারীর নাম"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 496
 #: rc.cpp:1578
 #, no-c-format
 msgid "The password to use for connecting to Audioscrobbler"
-msgstr ""
+msgstr "অডিও স্ক্রবলারে সংযোগ করার জন্য পাসওয়ার্ড"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 500
 #: rc.cpp:1581
@@ -4902,7 +4996,7 @@ msgstr ""
 #: rc.cpp:1584
 #, no-c-format
 msgid "Whether similar songs are retrieved from Audioscrobbler"
-msgstr ""
+msgstr "অনুরুপ গান অডিও স্ক্রবলার থেকে আনা হল কিনা"
 
 #. i18n: file ./amarokcore/amarok.kcfg line 508
 #: rc.cpp:1587
@@ -4954,7 +5048,7 @@ msgstr "মন্তব্য"
 
 #: smartplaylisteditor.cpp:108
 msgid "Play Counter"
-msgstr ""
+msgstr "প্লে কাউন্টার"
 
 #: contextbrowser.cpp:956 contextbrowser.cpp:1205 contextbrowser.cpp:1627
 #: contextbrowser.cpp:1782 contextbrowser.cpp:1832 playlist.cpp:242
@@ -4964,11 +5058,11 @@ msgstr "স্কোর"
 
 #: smartplaylisteditor.cpp:108
 msgid "First Play"
-msgstr ""
+msgstr "প্রথমবার চালানো"
 
 #: smartplaylisteditor.cpp:108
 msgid "Last Play"
-msgstr ""
+msgstr "শেষবার চালানো"
 
 #: smartplaylisteditor.cpp:109
 msgid "Modified Date"
@@ -5000,7 +5094,7 @@ msgstr "নিম্নলিখিত শর্ডাবলীর"
 
 #: smartplaylisteditor.cpp:146
 msgid "Order by"
-msgstr ""
+msgstr "এর দ্বারা সাজাও"
 
 #: smartplaylisteditor.cpp:152
 msgid "Random"
@@ -5008,7 +5102,7 @@ msgstr "এলোমেলো"
 
 #: smartplaylisteditor.cpp:160
 msgid "Limit to"
-msgstr ""
+msgstr "এর মধ্যে সীমাবদ্ধ করো"
 
 #: smartplaylisteditor.cpp:167
 msgid "tracks"
@@ -5016,7 +5110,7 @@ msgstr "ট্র্যাক"
 
 #: smartplaylisteditor.cpp:172
 msgid "Expand by"
-msgstr ""
+msgstr "এর দ্বারা সম্প্রসারণ করো"
 
 #: smartplaylisteditor.cpp:231
 msgid "Completely Random"
@@ -5024,7 +5118,7 @@ msgstr "সম্পূর্ণভাবে এলোমেলো"
 
 #: smartplaylisteditor.cpp:232
 msgid "Score Weighted"
-msgstr ""
+msgstr "ভারযুক্ত স্কোর"
 
 #: smartplaylisteditor.cpp:236
 msgid "Ascending"
@@ -5178,11 +5272,11 @@ msgstr "গানের কথা"
 
 #: contextbrowser.cpp:348
 msgid ""
-"<p>There is no product information available for this image."
-"<p>Right-click on image for menu."
+"<p>There is no product information available for this image.<p>Right-click "
+"on image for menu."
 msgstr ""
-"<p>এই চিত্রটির সম্বন্ধীয় কোনও তথ্য পাওয়া যাচ্ছে না।"
-"<p>মেনুর জন্য চিত্রের ওপর ডানদিকের বাটন ক্লিক করুন।"
+"<p>এই চিত্রটির সম্বন্ধীয় কোনও তথ্য পাওয়া যাচ্ছে না।<p>মেনুর জন্য চিত্রের ওপর "
+"ডানদিকের বাটন ক্লিক করুন।"
 
 #: contextbrowser.cpp:609
 msgid "Set &Custom Cover"
@@ -5269,8 +5363,7 @@ msgstr "অজানা অ্যালবাম"
 #: contextbrowser.cpp:898 contextbrowser.cpp:927 contextbrowser.cpp:1933
 #: contextbrowser.cpp:2060
 msgid "Click for information from amazon.com, right-click for menu."
-msgstr ""
-"amazon.com থেকে তথ্যের জন্য ক্লিক করুন, মেনুর জন্য ডানদিকের বাটন ক্লিক করুন।"
+msgstr "amazon.com থেকে তথ্যের জন্য ক্লিক করুন, মেনুর জন্য ডানদিকের বাটন ক্লিক করুন।"
 
 #: contextbrowser.cpp:905
 msgid "Unknown artist"
@@ -5296,8 +5389,8 @@ msgstr "সাম্প্রতিক কালে চালানো ট্র
 
 #: contextbrowser.cpp:1124
 msgid ""
-"A list of your recently played tracks will appear here, once you have played a "
-"few of your songs."
+"A list of your recently played tracks will appear here, once you have played "
+"a few of your songs."
 msgstr ""
 "আপনার সাম্প্রতিক কালে চালানো ট্র্যাকের একটি তালিকা এখানে আবির্ভূত হবে, আপনি যখন "
 "আপনার কিছু গান চালিয়েছেন।"
@@ -5312,8 +5405,8 @@ msgstr "আপনার প্রিয় ট্র্যাক"
 
 #: contextbrowser.cpp:1177
 msgid ""
-"A list of your favorite tracks will appear here, once you have played a few of "
-"your songs."
+"A list of your favorite tracks will appear here, once you have played a few "
+"of your songs."
 msgstr ""
 "আপনার প্রিয় ট্র্যাকের একটি তালিকা এখানে আবির্ভূত হবে, আপনি যখন আপনার কিছু গান "
 "চালিয়েছেন।"
@@ -5332,8 +5425,8 @@ msgstr "প্রিয় অ্যালবাম"
 
 #: contextbrowser.cpp:1338
 msgid ""
-"A list of your favorite albums will appear here, once you have played a few of "
-"your songs."
+"A list of your favorite albums will appear here, once you have played a few "
+"of your songs."
 msgstr ""
 "আপনার প্রিয় অ্যালবামের একটি তালিকা এখানে আবির্ভূত হবে, আপনি যখন আপনার কিছু গান "
 "চালিয়েছেন।"
@@ -5348,7 +5441,8 @@ msgstr "কম চালানো অ্যালবাম"
 
 #: contextbrowser.cpp:1380
 msgid ""
-"A list of albums, which you have not played for a long time, will appear here."
+"A list of albums, which you have not played for a long time, will appear "
+"here."
 msgstr ""
 "অ্যালবামের একটি তালিকা, যেটি আপনি একটি দীর্ঘ সময়ের জন্য চালাননি, এখানে আবির্ভূত "
 "হবে।"
@@ -5363,13 +5457,11 @@ msgstr "মেটা ডেটা ইতিহাস"
 
 #: contextbrowser.cpp:1552
 msgid "Click to fetch cover from amazon.%1, right-click for menu."
-msgstr ""
-"amazon.%1 থেকে কভার আনতে ক্লিক করুন, মেনুর জন্য ডানদিকের বাটন ক্লিক করুন।"
+msgstr "amazon.%1 থেকে কভার আনতে ক্লিক করুন, মেনুর জন্য ডানদিকের বাটন ক্লিক করুন।"
 
 #: contextbrowser.cpp:1554
 msgid "Click for information from amazon.%1, right-click for menu."
-msgstr ""
-"amazon.%1 থেকে তথ্যের জন্য ক্লিক করুন, মেনুর জন্য ডানদিকের বাটন ক্লিক করুন।"
+msgstr "amazon.%1 থেকে তথ্যের জন্য ক্লিক করুন, মেনুর জন্য ডানদিকের বাটন ক্লিক করুন।"
 
 #: contextbrowser.cpp:1592
 msgid "Look up this track at musicbrainz.org"
@@ -5402,8 +5494,8 @@ msgid ""
 "If you would like to see contextual information about this track, you should "
 "add it to your Collection."
 msgstr ""
-"যদি আপনি এই ট্র্যাকটির সম্বন্ধে প্রাসঙ্গিক তথ্য দেখতে পছন্দ করেন, তাহলে "
-"আপনারসঙ্গীত-সংগ্রহে এটি যোগ করা উচিত।"
+"যদি আপনি এই ট্র্যাকটির সম্বন্ধে প্রাসঙ্গিক তথ্য দেখতে পছন্দ করেন, তাহলে আপনারসঙ্গীত-"
+"সংগ্রহে এটি যোগ করা উচিত।"
 
 #: contextbrowser.cpp:1677
 msgid "Change Collection Setup..."
@@ -5443,8 +5535,8 @@ msgid ""
 "build a Collection."
 msgstr ""
 "এটি প্রসঙ্গ ব্রাউজার: এটি বর্তমানে চালানো হচ্ছে এমন ট্র্যাকের সম্বন্ধে আপনাকে "
-"প্রাসঙ্গিক তথ্য প্রদর্শন করে। আমারকের এই বৈশিষ্ট্যটি ব্যবহার করতে, আপনার একটি "
-"সঙ্গীত-সংগ্রহ তৈরি করার প্রয়োজন।"
+"প্রাসঙ্গিক তথ্য প্রদর্শন করে। আমারকের এই বৈশিষ্ট্যটি ব্যবহার করতে, আপনার একটি সঙ্গীত-"
+"সংগ্রহ তৈরি করার প্রয়োজন।"
 
 #: contextbrowser.cpp:2323 konquisidebar/universalamarok.cpp:279
 msgid "Build Collection..."
@@ -5456,11 +5548,11 @@ msgstr "সঙ্গীত-সংগ্রহ ডেটাবেস তৈরি
 
 #: contextbrowser.cpp:2359
 msgid ""
-"Please be patient while amaroK scans your music collection. You can watch the "
-"progress of this activity in the statusbar."
+"Please be patient while amaroK scans your music collection. You can watch "
+"the progress of this activity in the statusbar."
 msgstr ""
-"আমারক আপনার সঙ্গীত-সংগ্রহ স্ক্যান করার সময় অনুগ্রহ করে ধৈর্য্য ধরুন। আপনি "
-"স্ট্যাটাস বারে এই ক্রিয়াকর্মটির অগ্রগতি পর্যবেক্ষণ করতে পারেন।"
+"আমারক আপনার সঙ্গীত-সংগ্রহ স্ক্যান করার সময় অনুগ্রহ করে ধৈর্য্য ধরুন। আপনি স্ট্যাটাস "
+"বারে এই ক্রিয়াকর্মটির অগ্রগতি পর্যবেক্ষণ করতে পারেন।"
 
 #: contextbrowser.cpp:2402
 msgid "live"
@@ -5524,7 +5616,8 @@ msgstr "উইকিপিডিয়া তথ্য আনা হচ্ছে "
 
 #: contextbrowser.cpp:2848
 msgid ""
-"Artist information could not be retrieved because the server was not reachable."
+"Artist information could not be retrieved because the server was not "
+"reachable."
 msgstr "শিল্পী তথ্য পুনরুদ্ধার করা যায়নি কারণ সার্ভার নাগালের মধ্যে ছিল না।"
 
 #: contextbrowser.cpp:2939
@@ -5541,19 +5634,23 @@ msgstr "মাই-এস-কিউ-এল নিম্নলিখিত ত্�
 
 #: collectiondb.cpp:2327
 msgid ""
-"<p>You can configure MySQL in the Collection section under Settings->"
-"Configure amaroK</p>"
+"<p>You can configure MySQL in the Collection section under Settings-"
+">Configure amaroK</p>"
 msgstr ""
+"<p>আপনি সংঙ্গীত-সংগ্রহ বিভাগে মানসমূহ->আমারক-কনফিগার-করো এর অধীনে মাই-এস-কিউ-এল "
+"কনফিগার করতে পারেন</p>"
 
 #: collectiondb.cpp:2484
 msgid "Postgresql reported the following error:<br>"
-msgstr ""
+msgstr "পোস্ট-জিআরই-এস-কিউ-এল নিম্নলিখিত ত্রুটি প্রতিবেদন করল:<br>"
 
 #: collectiondb.cpp:2485
 msgid ""
-"<p>You can configure Postgresql in the Collection section under Settings->"
-"Configure amaroK</p>"
+"<p>You can configure Postgresql in the Collection section under Settings-"
+">Configure amaroK</p>"
 msgstr ""
+"<p>আপনি সংঙ্গীত-সংগ্রহ বিভাগে মানসমূহ->আমারক-কনফিগার-করো এর অধীনে পোস্ট-জিআরই-এস-"
+"কিউ-এল কনফিগার করতে পারেন</p>"
 
 #: analyzers/blockanalyzer.cpp:430
 msgid "Framerate"
@@ -5569,47 +5666,22 @@ msgstr "বিশ্লেষকের জন্য ক্লিক করুন
 
 #: Options5.ui.h:52
 msgid ""
-"<h3>Tags Displayed in OSD</h3>You can use the following tokens:"
-"<ul>"
-"<li>Title - %1"
-"<li>Album - %2"
-"<li>Artist - %3"
-"<li>Genre - %4"
-"<li>Bitrate - %5"
-"<li>Year - %6"
-"<li>Track Length - %7"
-"<li>Track Number - %8"
-"<li>Filename - %9"
-"<li>Directory - %10"
-"<li>Type - %11"
-"<li>Comment - %12"
-"<li>Score - %13"
-"<li>Playcount - %14</ul>If you surround sections of text that contain a token "
-"with curly-braces, that section will be hidden if the token is empty, for "
-"example:"
-"<pre>%11</pre>Will not show <b>Score: <i>%score</i></b> "
-"if the track has no score."
+"<h3>Tags Displayed in OSD</h3>You can use the following tokens:<ul><li>Title "
+"- %1<li>Album - %2<li>Artist - %3<li>Genre - %4<li>Bitrate - %5<li>Year - %"
+"6<li>Track Length - %7<li>Track Number - %8<li>Filename - %9<li>Directory - %"
+"10<li>Type - %11<li>Comment - %12<li>Score - %13<li>Playcount - %14</ul>If "
+"you surround sections of text that contain a token with curly-braces, that "
+"section will be hidden if the token is empty, for example:<pre>%11</pre>Will "
+"not show <b>Score: <i>%score</i></b> if the track has no score."
 msgstr ""
 "<h3>ওএসডিতে প্রদর্শিত ট্যাগ</h3>আপনি নিম্নলিখিত প্রতীক ব্যবহার করতে পারেন:"
-"<ul>"
-"<li>শিরোনাম - %1"
-"<li>অ্যালবাম - %2"
-"<li>শিল্পী - %3"
-"<li>গোত্র - %4"
-"<li>বিটরেট - %5"
-"<li>সন - %6"
-"<li>ট্র্যাক দৈর্ঘ্য - %7"
-"<li>ট্র্যাক সংখ্যা - %8"
-"<li>ফাইলের নাম - %9"
-"<li>ডিরেক্টরী - %10"
-"<li>ধরন - %11"
-"<li>মন্তব্য - %12"
-"<li>স্কোর - %13"
-"<li>চালানোর সংখ্যা - %14</ul>যদি আপনি টেক্সটের কিছু অংশ বক্র বন্ধনী দিয়ে "
-"পরিবেষ্টন করেন যেটি একটি প্রতীক ধারন করে তাহলে প্রতীকটি ফাঁকা থাকলে ওই অংশটি "
-"গোপন করা হবে, উদাহরণের জন্য: "
-"<pre>%11</pre> <b>স্কোর: <i>%score</i></b> প্রদর্শন করবে না যদি ট্র্যাকে কোনও "
-"স্কোর না থাকে।"
+"<ul><li>শিরোনাম - %1<li>অ্যালবাম - %2<li>শিল্পী - %3<li>গোত্র - %4<li>বিটরেট - %"
+"5<li>সন - %6<li>ট্র্যাক দৈর্ঘ্য - %7<li>ট্র্যাক সংখ্যা - %8<li>ফাইলের নাম - %"
+"9<li>ডিরেক্টরী - %10<li>ধরন - %11<li>মন্তব্য - %12<li>স্কোর - %13<li>চালানোর "
+"সংখ্যা - %14</ul>যদি আপনি টেক্সটের কিছু অংশ বক্র বন্ধনী দিয়ে পরিবেষ্টন করেন যেটি "
+"একটি প্রতীক ধারন করে তাহলে প্রতীকটি ফাঁকা থাকলে ওই অংশটি গোপন করা হবে, উদাহরণের "
+"জন্য: <pre>%11</pre> <b>স্কোর: <i>%score</i></b> প্রদর্শন করবে না যদি ট্র্যাকে "
+"কোনও স্কোর না থাকে।"
 
 #: playlist.cpp:239
 msgid "Directory"
@@ -5637,7 +5709,7 @@ msgstr "&বর্তমান ট্র্যাকে যাও"
 
 #: playlist.cpp:296
 msgid "&Remove Duplicate && Dead Entries"
-msgstr ""
+msgstr "নকল এবং অসাড় এন্ট্রি বা&দ দাও"
 
 #: playlist.cpp:297 playlist.cpp:3091 playlist.cpp:3116
 msgid "&Queue Selected Tracks"
@@ -5645,7 +5717,7 @@ msgstr "নির্বাচিত ট্র্যাক সারি&বদ্
 
 #: playlist.cpp:436
 msgid "Attempted to insert nothing into playlist."
-msgstr ""
+msgstr "সঙ্গীত-তালিকায় কোনও কিছু না ঢোকানোর চেষ্টা করা হয়েছে।"
 
 #: playlist.cpp:498
 msgid "No tracks were returned to be inserted."
@@ -5658,18 +5730,22 @@ msgstr "এই ডাইনামিক সঙ্গীত-তালিকার
 #: playlist.cpp:560
 msgid ""
 "<div align=\"center\"><b>Warning</b></div>The playlist titled <i>%1</i> "
-"contains no tracks."
-"<br>"
-"<br>Please modify your playlist or choose a different source."
+"contains no tracks.<br><br>Please modify your playlist or choose a different "
+"source."
 msgstr ""
+"<div align=\"center\"><b>সাবধানবাণী</b></div> <i>%1</i> শিরোনামযুক্ত সঙ্গীত-"
+"তালিকা কোনও ট্র্যাক ধারন করে না।<br><br>অনুগ্রহ করে আপনার সঙ্গীত-তালিকার পরিবর্তন "
+"করুন অথবা একটি আলাদা উত্‍স বেছে নিন।"
 
 #: playlist.cpp:627
 msgid ""
-"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</i> "
-"contains no tracks."
-"<br>"
-"<br>Please modify your smart-playlist or choose a different source."
+"<div align=\"center\"><b>Warning</b></div>The smart-playlist titled <i>%1</"
+"i> contains no tracks.<br><br>Please modify your smart-playlist or choose a "
+"different source."
 msgstr ""
+"<div align=\"center\"><b>সাবধানবাণী</b></div> <i>%1</i> শিরোনামযুক্ত কেতাদুরস্ত "
+"সঙ্গীত-তালিকা কোনও ট্র্যাক ধারন করে না।<br><br>অনুগ্রহ করে আপনার কেতাদুরস্ত সঙ্গীত-"
+"তালিকার পরিবর্তন করুন অথবা একটি আলাদা উত্‍স বেছে নিন।"
 
 #: playlist.cpp:1179
 msgid "Playlist finished"
@@ -5677,25 +5753,25 @@ msgstr "সঙ্গীত-তালিকা শেষ হয়েছে"
 
 #: playlist.cpp:1878
 msgid ""
-"<div align=center>"
-"<h3>The Playlist</h3>This is the playlist. To create a listing, <b>drag</b> "
-"tracks from the browser-panels on the left, <b>drop</b> them here and then <b>"
-"double-click</b> them to start playback.</div>"
+"<div align=center><h3>The Playlist</h3>This is the playlist. To create a "
+"listing, <b>drag</b> tracks from the browser-panels on the left, <b>drop</b> "
+"them here and then <b>double-click</b> them to start playback.</div>"
 msgstr ""
+"<div align=center><h3>সঙ্গীত-তালিকা</h3>এটি সঙ্গীত-তালিকা। একটি তালিকা তৈরি "
+"করতে বামদিকের ব্রাউজার প্যানেল থেকে ট্র্যাক <b>টেনে নিয়ে</b> তাদেরকে এখানে "
+"<b>ফেলে দিন</b> এবং তারপর চালানো শুরু করতে তাদের <b>ডবল ক্লিক</b> করুন।</div>"
 
 #: playlist.cpp:1886
 msgid ""
-"<div align=center>"
-"<h3>The Browsers</h3>The browsers are the source of all your music. The "
-"collection-browser holds your collection. The playlist-browser holds your "
-"pre-set playlistings. The file-browser shows a file-selector which you can use "
-"to access any music on your computer. </div>"
+"<div align=center><h3>The Browsers</h3>The browsers are the source of all "
+"your music. The collection-browser holds your collection. The playlist-"
+"browser holds your pre-set playlistings. The file-browser shows a file-"
+"selector which you can use to access any music on your computer. </div>"
 msgstr ""
-"<div align=center>"
-"<h3>ব্রাউজার</h3>ব্রাউজার আপনার সমস্ত সঙ্গীতের উত্‍স। সংঙ্গীত-সংগ্রহ ব্রাউজার "
-"আপনার সংঙ্গীতসমূহ ধারন করে। সংঙ্গীত-তালিকা ব্রাউজার আপনার প্রিসেট "
-"সংঙ্গীত-তালিকা ধারন করে। ফাইল ব্রাউজার প্রদর্শন করে একটি ফাইল নির্বাচক যেটি "
-"আপনি আপনার কম্পিউটারে যেকোন সঙ্গীত উপলব্ধি করতে ব্যবহার করতে পারেন।</div>"
+"<div align=center><h3>ব্রাউজার</h3>ব্রাউজার আপনার সমস্ত সঙ্গীতের উত্‍স। সংঙ্গীত-"
+"সংগ্রহ ব্রাউজার আপনার সংঙ্গীতসমূহ ধারন করে। সংঙ্গীত-তালিকা ব্রাউজার আপনার প্রিসেট "
+"সংঙ্গীত-তালিকা ধারন করে। ফাইল ব্রাউজার প্রদর্শন করে একটি ফাইল নির্বাচক যেটি আপনি "
+"আপনার কম্পিউটারে যেকোন সঙ্গীত উপলব্ধি করতে ব্যবহার করতে পারেন।</div>"
 
 #: playlist.cpp:2050
 msgid "&Hide This Column"
@@ -5713,8 +5789,7 @@ msgstr "<p>আপনি ফাইল <i>'%1'</i> নির্বাচন কর
 #: playlist.cpp:2613
 #, c-format
 msgid ""
-"_n: "
-"<p>You have selected one file to be <b>irreversibly</b> deleted.\n"
+"_n: <p>You have selected one file to be <b>irreversibly</b> deleted.\n"
 "<p>You have selected %n files to be <b>irreversibly</b> deleted."
 msgstr ""
 "<p>আপনি একটি ফাইল নির্বাচন করেছেন <b>চিরতরে</b> মুছে ফেলতে।\n"
@@ -5747,6 +5822,8 @@ msgid ""
 "_n: Toggle &Queue Status (1 track)\n"
 "Toggle &Queue Status (%n tracks)"
 msgstr ""
+" সারির স্ট্যাটাস টো&গল করো  (১টি ট্র্যাক)\n"
+"সারির স্ট্যাটাস টো&গল করো  (%nটি ট্র্যাক)"
 
 #: playlist.cpp:3118
 msgid "&Dequeue Selected Tracks"
@@ -5766,7 +5843,7 @@ msgstr "নির্বাচিত ট্র্যাকের জন্য '%1
 
 #: playlist.cpp:3139
 msgid "&Iteratively Assign Track Numbers"
-msgstr ""
+msgstr "ট্র্যাক সংখ্যা পু&নরাবৃত্তভাবে বরাদ্দ করে"
 
 #: playlist.cpp:3140
 msgid "Write '%1' for Selected Tracks"
@@ -5825,19 +5902,19 @@ msgstr "এই ফাইলটির অস্তিত্ব নেই:"
 #: playlist.cpp:3783
 #, c-format
 msgid ""
-"<p>You can create a custom column that runs a shell command against each item "
-"in the playlist. The shell command is run as the user <b>nobody</b>"
-", this is for security reasons.\n"
+"<p>You can create a custom column that runs a shell command against each "
+"item in the playlist. The shell command is run as the user <b>nobody</b>, "
+"this is for security reasons.\n"
 "<p>You can only run the command against local files for the time being. The "
 "fullpath is inserted at the position <b>%f</b> in the string. If you do not "
 "specify <b>%f</b> it is appended."
 msgstr ""
-"<p>আপনি একটি স্বনির্বাচিত কলাম তৈরি করতে পারেন যেটি সঙ্গীত-তালিকার প্রত্যেক "
-"বস্তুর জন্য একটি শেল কম্যান্ড চালায়। নিরাপত্তার কারণে শেল কম্যান্ড <b>nobody</b> "
+"<p>আপনি একটি স্বনির্বাচিত কলাম তৈরি করতে পারেন যেটি সঙ্গীত-তালিকার প্রত্যেক বস্তুর "
+"জন্য একটি শেল কম্যান্ড চালায়। নিরাপত্তার কারণে শেল কম্যান্ড <b>nobody</b> "
 "ব্যবহারকারী হিসেবে চালান হয়।\n"
-"<p>আপনি সাময়িকভাবে কেবলমাত্র স্থানীয় ফাইলের জন্য কম্যান্ড চালাতে পারেন। পূর্ণ "
-"পাথ পংক্তির <b>%f</b> অবস্থানে ঢোকান হয়। যদি আপনি <b>%f</b> "
-"উল্লেখ না করেন তাহলে এটি শেষে সংযোজন করা হয়।"
+"<p>আপনি সাময়িকভাবে কেবলমাত্র স্থানীয় ফাইলের জন্য কম্যান্ড চালাতে পারেন। পূর্ণ পাথ "
+"পংক্তির <b>%f</b> অবস্থানে ঢোকান হয়। যদি আপনি <b>%f</b> উল্লেখ না করেন তাহলে "
+"এটি শেষে সংযোজন করা হয়।"
 
 #: playlist.cpp:3788
 msgid "Column &name:"
@@ -5962,20 +6039,19 @@ msgstr "ভলিউম নীরব করো"
 
 #: app.cpp:434
 msgid ""
-"<p>You are using a processor with the <i>HyperThreading</i> "
-"feature enabled. Please note that amaroK may be unstable with this "
-"configuration.</p>"
-"<p>If you are experiencing problems, use the Linux kernel option 'NOHT', or "
-"disable <i>HyperThreading</i> in your BIOS setup.</p>"
-"<p>More information can be found in the README file. For further assistance "
-"join us at #amarok on irc.freenode.net.</p>"
+"<p>You are using a processor with the <i>HyperThreading</i> feature enabled. "
+"Please note that amaroK may be unstable with this configuration.</p><p>If "
+"you are experiencing problems, use the Linux kernel option 'NOHT', or "
+"disable <i>HyperThreading</i> in your BIOS setup.</p><p>More information can "
+"be found in the README file. For further assistance join us at #amarok on "
+"irc.freenode.net.</p>"
 msgstr ""
-"<p>আপনি <i>হাইপারথ্রেডিং</i>বৈশিষ্ট্য সক্রিয়কৃত একটি প্রসেসর ব্যবহার করছেন। "
-"অনুগ্রহ করে নোট করুন যে আমারক এই কনফিগারেশনটির সঙ্গে অস্থায়ী হতে পারে।</p>"
-"<p>যদি আপনি সমস্যা অনুভব করেন, তাহলে লিনাক্স কার্নেল অপশন 'NOHT' ব্যবহার করুন, "
-"অথবা আপনার বায়োস ব্যবস্থাপনাতে <i>হাইপারথ্রেডিং</i> নিষ্ক্রিয় করুন।</p>"
-"<p>আরও বেশি তথ্য README ফাইলে খুঁজে পাওয়া যাবে। আরও সহায়তার জন্য "
-"irc.freenode.net এর #amarok-এ আমাদের সঙ্গে যোগাদান করুন।</p>"
+"<p>আপনি <i>হাইপারথ্রেডিং</i>বৈশিষ্ট্য সক্রিয়কৃত একটি প্রসেসর ব্যবহার করছেন। অনুগ্রহ "
+"করে নোট করুন যে আমারক এই কনফিগারেশনটির সঙ্গে অস্থায়ী হতে পারে।</p><p>যদি আপনি "
+"সমস্যা অনুভব করেন, তাহলে লিনাক্স কার্নেল অপশন 'NOHT' ব্যবহার করুন, অথবা আপনার "
+"বায়োস ব্যবস্থাপনাতে <i>হাইপারথ্রেডিং</i> নিষ্ক্রিয় করুন।</p><p>আরও বেশি তথ্য README "
+"ফাইলে খুঁজে পাওয়া যাবে। আরও সহায়তার জন্য irc.freenode.net এর #amarok-এ আমাদের "
+"সঙ্গে যোগাদান করুন।</p>"
 
 #: app.cpp:507 app.cpp:840 app.cpp:858
 msgid "Playlist"
@@ -5987,11 +6063,12 @@ msgstr "সংযোজন করো এবং চালা&ও"
 
 #: app.cpp:817
 msgid ""
-"<qt>Closing the main-window will keep amaroK running in the System Tray. Use <B>"
-"Quit</B> from the menu, or the amaroK tray-icon to exit the application.</qt>"
+"<qt>Closing the main-window will keep amaroK running in the System Tray. Use "
+"<B>Quit</B> from the menu, or the amaroK tray-icon to exit the application.</"
+"qt>"
 msgstr ""
-"<qt>প্রধান উইন্ডো বন্ধ করলে সিস্টেম ট্রেতে আমারক চালু থাকবে। অ্যাপলিকেশন বন্ধ "
-"করতে মেনু থেকে <B>প্রস্থান</B>, অথবা আমারক ট্রে-আইকন ব্যবহার করুন।</qt>"
+"<qt>প্রধান উইন্ডো বন্ধ করলে সিস্টেম ট্রেতে আমারক চালু থাকবে। অ্যাপলিকেশন বন্ধ করতে "
+"মেনু থেকে <B>প্রস্থান</B>, অথবা আমারক ট্রে-আইকন ব্যবহার করুন।</qt>"
 
 #: app.cpp:819
 msgid "Docking in System Tray"
@@ -6043,19 +6120,16 @@ msgstr "আমারক থেমে আছে"
 
 #: statusbar/statusbar.cpp:155
 msgid ""
-"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name behind "
-"the audio-player you are currently using. Thanks for choosing amaroK!</p>"
-"<p align=right>Mark Kretschmann"
-"<br>Max Howell"
-"<br>Chris Muehlhaeuser"
-"<br>The many other people who have helped make amaroK what it is</p>"
+"<p>One of Mike Oldfield's best pieces of work, Amarok, inspired the name "
+"behind the audio-player you are currently using. Thanks for choosing amaroK!"
+"</p><p align=right>Mark Kretschmann<br>Max Howell<br>Chris "
+"Muehlhaeuser<br>The many other people who have helped make amaroK what it "
+"is</p>"
 msgstr ""
 "<p>আপনি বর্তমানে যে এই অডিও প্লেয়ারটি ব্যবহার করছেন তার নাম, মাইক ওল্ডফিল্ডের "
-"সর্বোত্তম একটি কাজ, আমারক দ্বাীারা অনুপ্রাণিত। আমারক বেছে নেওয়ার জন্য "
-"ধন্যবাদ!</p><p align=right>Mark Kretschmann"
-"<br>Max Howell"
-"<br>Chris Muehlhaeuser"
-"<br>আরোও অনেকে আমারক-কে তার বর্তমান চেহারায় আনতে সাহায্য করেছে</p>"
+"সর্বোত্তম একটি কাজ, আমারক দ্বাীারা অনুপ্রাণিত। আমারক বেছে নেওয়ার জন্য ধন্যবাদ!</"
+"p><p align=right>Mark Kretschmann<br>Max Howell<br>Chris "
+"Muehlhaeuser<br>আরোও অনেকে আমারক-কে তার বর্তমান চেহারায় আনতে সাহায্য করেছে</p>"
 
 #: statusbar/statusbar.cpp:163
 msgid ""
@@ -6201,7 +6275,7 @@ msgstr "ডিস্ক"
 
 #: coverfetcher.cpp:41
 msgid "remaster"
-msgstr ""
+msgstr "রিমাষ্টার"
 
 #: coverfetcher.cpp:41
 msgid "cd"
@@ -6237,13 +6311,15 @@ msgstr "কভার ডেটা একটি অবৈধ চিত্র ত�
 
 #: coverfetcher.cpp:295
 msgid ""
-"You have seen all the covers Amazon returned using the query below. Perhaps you "
-"can refine it:"
+"You have seen all the covers Amazon returned using the query below. Perhaps "
+"you can refine it:"
 msgstr ""
+"নিচের অনুসন্ধান ব্যবহার করে আমাজন থেকে পাঠানো সমস্ত কভার আপনি দেখেছেন। সম্ভবত "
+"আপনি এটির পরিশোধন করতে পারেন:"
 
 #: coverfetcher.cpp:310
 msgid "Amazon Query Editor"
-msgstr ""
+msgstr "আমাজন অনুসন্ধান সম্পাদক"
 
 #: coverfetcher.cpp:316
 msgid "&Search"
@@ -6251,7 +6327,7 @@ msgstr "&অনুসন্ধান"
 
 #: coverfetcher.cpp:343
 msgid "Ask Amazon for covers using this query:"
-msgstr ""
+msgstr "এই অনুসন্ধান ব্যবহার করে আমাজনকে কভারের জন্য জিজ্ঞাসা করো:"
 
 #: coverfetcher.cpp:358 coverfetcher.cpp:427
 msgid "Aborted."
@@ -6293,6 +6369,11 @@ msgid ""
 "Feedback:\n"
 "amarok-devel@lists.sourceforge.net"
 msgstr ""
+"আই-আর-সি:\n"
+"সার্ভার: irc.freenode.net / চ্যানেল: #amarok #amarok.de\n"
+"\n"
+"মন্তব্য:\n"
+"amarok-devel@lists.sourceforge.net"
 
 #: amarokcore/main.cpp:31
 msgid "http://amarok.kde.org"
@@ -6300,7 +6381,7 @@ msgstr "http://amarok.kde.org"
 
 #: amarokcore/main.cpp:36
 msgid "Babe-Magnet"
-msgstr ""
+msgstr "বেব-ম্যাগনেট"
 
 #: amarokcore/main.cpp:37
 msgid "Stud (muesli)"
@@ -6308,11 +6389,11 @@ msgstr ""
 
 #: amarokcore/main.cpp:39
 msgid "733t code, OSD improvement, patches (Larson)"
-msgstr ""
+msgstr "733t কোড, ওএসডি উন্নতি, প্যাচ (লারসন)"
 
 #: amarokcore/main.cpp:40
 msgid "It's good, but it's not irssi"
-msgstr ""
+msgstr "এই ভাল, কিন্তু এটি আইআরএসএসআই নয়"
 
 #: amarokcore/main.cpp:41
 msgid "Project founder (markey)"
@@ -6320,15 +6401,15 @@ msgstr "প্রকল্প প্রতিষ্ঠাতা (markey)"
 
 #: amarokcore/main.cpp:42
 msgid "Turtle-Power'"
-msgstr ""
+msgstr "টারটল্-পাওয়ার"
 
 #: amarokcore/main.cpp:43
 msgid "Cowboy mxcl"
-msgstr ""
+msgstr "কাউবয় এমএক্সসিএল"
 
 #: amarokcore/main.cpp:44
 msgid "Purple is not girly!"
-msgstr ""
+msgstr "রক্তবেগনী মেয়েলি নয়!"
 
 #: amarokcore/main.cpp:45
 msgid "DCOP, improvements, Preci-i-o-u-u-s handbook maintainer (madpenguin8)"
@@ -6336,7 +6417,7 @@ msgstr ""
 
 #: amarokcore/main.cpp:46
 msgid "Spaghetti Coder"
-msgstr ""
+msgstr "স্প্যাগেটি কোডার"
 
 #: amarokcore/main.cpp:47
 msgid "Playlist-browser, cover-manager (teax)"
@@ -6344,7 +6425,7 @@ msgstr "সংঙ্গীত-তালিকা ব্রাউজার, ক�
 
 #: amarokcore/main.cpp:48
 msgid "And God said, let there be Mac"
-msgstr ""
+msgstr "এবং ইশ্বর বলল, সেখানে হউক ম্যাক"
 
 #: amarokcore/main.cpp:49
 msgid "amaroK logo, splash screen, icons"
@@ -6376,7 +6457,7 @@ msgstr "প্যাচ"
 
 #: amarokcore/main.cpp:58
 msgid "Improvements, Bugfixes"
-msgstr ""
+msgstr "উন্নতি, প্রোগ্রাম ত্রুটিমুক্তকরণ"
 
 #: amarokcore/main.cpp:59
 msgid "MySQL support"
@@ -6392,11 +6473,11 @@ msgstr "প্রথমবার চালানোর উইজার্ড, �
 
 #: amarokcore/main.cpp:62
 msgid "Analyzers, Context Browser and systray eye-candy"
-msgstr ""
+msgstr "বিশ্লেষক, প্রসঙ্গ ব্রাউজার এবং চোখ ধাঁধানো সিস-ট্রে"
 
 #: amarokcore/main.cpp:63
 msgid "amaroK application icon 'Blue Wolf'"
-msgstr ""
+msgstr "আমারক অ্যাপলিকেশন আইকন 'ব্লু উলফ"
 
 #: amarokcore/main.cpp:64
 msgid "icons and image work"
@@ -6409,7 +6490,7 @@ msgstr ""
 #: amarokcore/main.cpp:66
 msgid ""
 "handbook enhancements, translations, bug fixes, screenshots (apachelogger)"
-msgstr ""
+msgstr "গাইডবই উন্নতি, অনুবাদ, প্রোগ্রাম ত্রুটি মেরামত করা, স্ক্রীনশট (অ্যাপাচে-লগার)"
 
 #: amarokcore/main.cpp:67
 msgid "Patches, Ruby script template (eean)"
@@ -6433,7 +6514,7 @@ msgstr "কনকরার সাইডবার, কিছু ডিকপ প�
 
 #: amarokcore/main.cpp:72
 msgid "FHT routine, bugfixes"
-msgstr ""
+msgstr "এফএইচটি রুটিন, প্রোগ্রাম ত্রুটিমুক্তকরণ"
 
 #: amarokcore/main.cpp:73
 msgid "K3B export code"
@@ -6453,7 +6534,7 @@ msgstr "হেলিক্স প্লেয়ার ইঞ্জিন"
 
 #: amarokcore/main.cpp:77
 msgid "Wikipedia support, patches"
-msgstr ""
+msgstr "উইকিপিডিয়া সমর্থন, প্যাচ"
 
 #: amarokcore/main.cpp:78
 msgid "MAS engine"
@@ -6465,7 +6546,7 @@ msgstr "অডিও স্ক্রবলার সমর্থন"
 
 #: amarokcore/main.cpp:80
 msgid "TagLib & ktrm code"
-msgstr ""
+msgstr "ট্যাগ-লিব এবং কেটিআরএম কোড"
 
 #: amarokcore/main.cpp:81
 msgid "Loadsa stuff"
@@ -6473,7 +6554,7 @@ msgstr ""
 
 #: amarokcore/main.cpp:82
 msgid "Patches, Bugfixes"
-msgstr ""
+msgstr "প্যাচ, প্রোগ্রাম ত্রুটিমুক্তকরণ"
 
 #: amarokcore/main.cpp:83
 msgid "Tester, patches"
@@ -6483,9 +6564,9 @@ msgstr ""
 msgid ""
 "amaroK has crashed! We're terribly sorry about this :(\n"
 "\n"
-"But, all is not lost! You could potentially help us fix the crash. amaroK has "
-"attached a backtrace that describes the crash, so just click send, or if you "
-"have time, write a brief description of how the crash happened first.\n"
+"But, all is not lost! You could potentially help us fix the crash. amaroK "
+"has attached a backtrace that describes the crash, so just click send, or if "
+"you have time, write a brief description of how the crash happened first.\n"
 "\n"
 "Many thanks.\n"
 "\n"
@@ -6499,8 +6580,8 @@ msgid ""
 "\n"
 "\n"
 "\n"
-"The information below is to help the developers identify the problem, please do "
-"not modify it.\n"
+"The information below is to help the developers identify the problem, please "
+"do not modify it.\n"
 "\n"
 "\n"
 "\n"
@@ -6555,7 +6636,7 @@ msgstr "পডকাস্ট আনা হচ্ছে..."
 
 #: playlistbrowseritem.cpp:1155 playlistbrowseritem.cpp:1374
 msgid "Moving Podcasts"
-msgstr ""
+msgstr "চলন্ত পডকাস্ট"
 
 #: playlistbrowseritem.cpp:1223
 msgid "Fetching Podcast"
@@ -6627,11 +6708,11 @@ msgstr "সমস্ত ফাইল নির্বা&চন করো"
 
 #: filebrowser.cpp:433
 msgid ""
-"<div align=center>Enter a search term above; you can use wildcards like * and "
-"?</div>"
+"<div align=center>Enter a search term above; you can use wildcards like * "
+"and ?</div>"
 msgstr ""
-"<div align=center>ওপরে একটি অনুসন্ধান শর্ত ঢোকান; আপনি * এবং ? এর মত "
-"ওয়াইল্ডকার্ড ব্যবহার করতে পারেন</div>"
+"<div align=center>ওপরে একটি অনুসন্ধান শর্ত ঢোকান; আপনি * এবং ? এর মত ওয়াইল্ডকার্ড "
+"ব্যবহার করতে পারেন</div>"
 
 #: filebrowser.cpp:476
 msgid "Search here..."
