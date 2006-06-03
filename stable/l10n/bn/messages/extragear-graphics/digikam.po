@@ -16,16 +16,6 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"#-#-#-#-#  digikam-sub.po (digikam)  #-#-#-#-#\n"
-"Project-Id-Version: digikam\n"
-"POT-Creation-Date: 2006-05-18 04:10+0200\n"
-"PO-Revision-Date: 2006-05-19 16:51+0530\n"
-"Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
-"Language-Team: Bengali <kde-translation@bengalinux.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"#-#-#-#-#  digikam.po (digikam)  #-#-#-#-#\n"
 "Project-Id-Version: digikam\n"
 "POT-Creation-Date: 2006-05-29 04:06+0200\n"
 "PO-Revision-Date: 2006-06-02 14:39-0500\n"
@@ -34,7 +24,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"#-#-#-#-#  digikam-sub.po (digikam)  #-#-#-#-#\n"
+"#-#-#-#-#  digikam.po (digikam)  #-#-#-#-#\n"
 "X-Generator: KBabel 1.11.2\n"
+
+#: libs/dcraw/dcrawbinary.cpp:78
+msgid ""
+"<qt>"
+"<p>Unable to find the dcraw executable:"
+"<br> This program is required by %1 to support raw file formats. You can run %1 "
+"without this, but you will not be able to view or edit any images in raw file "
+"formats. Please install dcraw as a package from your distributor or <a "
+"href=\"%2\">download the source</a>.</p>"
+"<p>Do you want to continue starting %1?</p></qt>"
+msgstr ""
 
 #: digikam/albumfiletip.cpp:298 digikam/imagepropertiesgeneral.cpp:67
 #: libs/thumbbar/thumbbar.cpp:575 showfoto/imagepropertiesgeneral.cpp:63
@@ -65,11 +68,46 @@ msgstr "মাপ:"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
+#: libs/widgets/curveswidget.cpp:206 libs/widgets/histogramwidget.cpp:317
+msgid ""
+"Histogram\n"
+"calculation\n"
+"in progress..."
+msgstr ""
+
+#: libs/widgets/curveswidget.cpp:220 libs/widgets/histogramwidget.cpp:331
+msgid ""
+"Histogram\n"
+"calculation\n"
+"failed."
+msgstr ""
+
+#: libs/widgets/curveswidget.cpp:439 libs/widgets/histogramwidget.cpp:752
+#, c-format
+msgid "x:%1"
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:193
+#: libs/widgets/histogramwidget.cpp:778
+#: showfoto/imagepropertieshistogram.cpp:193
+msgid "Mean:"
+msgstr ""
+
 #: digikam/imagepropertieshistogram.cpp:198
 #: libs/widgets/histogramwidget.cpp:782
 #: showfoto/imagepropertieshistogram.cpp:198
 msgid "Pixels:"
 msgstr "পিক্সেল:"
+
+#: libs/widgets/histogramwidget.cpp:786
+msgid "Std dev.:"
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:208
+#: libs/widgets/histogramwidget.cpp:790
+#: showfoto/imagepropertieshistogram.cpp:208
+msgid "Count:"
+msgstr ""
 
 #: digikam/imagepropertieshistogram.cpp:213
 #: libs/widgets/histogramwidget.cpp:794
@@ -80,6 +118,80 @@ msgstr "মধ্যমা:"
 #: libs/widgets/histogramwidget.cpp:798
 msgid "Percent:"
 msgstr "শতাংশ:"
+
+#: libs/widgets/imagepannelwidget.cpp:66
+msgid ""
+"<p>Here you can see the original clip image which will be used for the preview "
+"computation."
+"<p>Click and drag the mouse cursor in the image to change the clip focus."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:83
+msgid ""
+"<p>Here you can see the original image panel which can help you to select the "
+"clip preview."
+"<p>Click and drag the mouse cursor in the red rectangle to change the clip "
+"focus."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:90
+msgid "<p>This is the current percentage of the task completed."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:108
+msgid ""
+"<p>If you enable this option, you will separate the preview area horizontally, "
+"displaying the original and target image at the same time. The target is "
+"duplicated from the original below the red dashed line."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:119
+msgid ""
+"<p>If you enable this option, you will separate the preview area vertically, "
+"displaying the original and target image at the same time. The target is "
+"duplicated from the original to the right of the red dashed line."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:134
+msgid ""
+"<p>If you enable this option, you will separate the preview area horizontally, "
+"displaying the original and target image at the same time. The original is "
+"above the red dashed line, the target below it."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:145
+msgid ""
+"<p>If you enable this option, you will separate the preview area vertically, "
+"displaying the original and target image at the same time. The original is to "
+"the left of the red dashed line, the target to the right of it."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:157
+msgid "<p>If you enable this option, the preview area will not be separated."
+msgstr ""
+
+#: libs/widgets/imagepannelwidget.cpp:311
+msgid "<nobr>Top left: (%1,%2)</nobr><br><nobr>Bottom right: (%3,%4)</nobr>"
+msgstr ""
+
+#: libs/widgets/imageguidewidget.cpp:267
+msgid "(%1,%2)<br>RGB:%3,%4,%5"
+msgstr ""
+
+#: libs/widgets/imageregionwidget.cpp:218
+#: libs/widgets/imageregionwidget.cpp:254
+msgid "Target"
+msgstr ""
+
+#: libs/widgets/imageregionwidget.cpp:228
+#: libs/widgets/imageregionwidget.cpp:264
+msgid "Original"
+msgstr ""
+
+#: digikam/imagepropertiesgeneral.cpp:79
+#: showfoto/imagepropertiesgeneral.cpp:75
+msgid "Dimensions:"
+msgstr ""
 
 #: digikam/imagepropertiesgeneral.cpp:93
 #: showfoto/imagepropertiesgeneral.cpp:89
@@ -128,9 +240,26 @@ msgstr "%1 - %2"
 msgid "Thumbnail unavailable"
 msgstr "থাম্বনেইল পাওয়া যাচ্ছে না"
 
+#: digikam/cameralist.cpp:195
+msgid ""
+"Failed to auto-detect camera; please make sure it is connected properly and is "
+"turned on. Would you like to try again?"
+msgstr ""
+
 #: digikam/dio.cpp:153 utilities/cameragui/cameracontroller.cpp:830
 msgid "Rename File"
 msgstr "ফাইল নামান্তর করো"
+
+#: digikam/dio.cpp:187
+#, c-format
+msgid ""
+"Failed to rename file\n"
+"%1"
+msgstr ""
+
+#: digikam/dio.cpp:188
+msgid "Rename Failed"
+msgstr ""
 
 #: digikam/kdateedit.cpp:335
 msgid "tomorrow"
@@ -144,6 +273,30 @@ msgstr "আজ"
 msgid "yesterday"
 msgstr "গতকাল"
 
+#: digikam/scanlib.cpp:54
+msgid ""
+"This shows the progress of the scan. During the scan, all files on disk are put "
+"in a database. This is required for sorting on exif-date and speeds up the "
+"overall performance of digiKam."
+msgstr ""
+
+#: digikam/scanlib.cpp:129
+#, c-format
+msgid ""
+"_n: There is an album in the database which does not appear to be on disk. This "
+"album should be removed from the database, however you may lose information "
+"because all images associated with this album will be removed from the database "
+"as well. digiKam cannot continue without removing the items from the database "
+"because all views depend on the information in the database. Do you want them "
+"to be removed from the database?\n"
+"There are %n albums in the database which do not appear to be on disk. These "
+"albums should be removed from the database, however you may lose information "
+"because all images associated with these albums will be removed from the "
+"database as well. digiKam cannot continue without removing the items from the "
+"database because all views depend on the information in the database. Do you "
+"want them to be removed from the database?"
+msgstr ""
+
 #: digikam/scanlib.cpp:139
 msgid "Albums are Missing"
 msgstr "অ্যালবাম নিখোঁজ রয়েছে"
@@ -155,6 +308,29 @@ msgstr "আইটেম স্ক্যান করছে..."
 #: digikam/scanlib.cpp:207
 msgid "Updating items..."
 msgstr "আইটেম আপডেট করছে..."
+
+#: digikam/scanlib.cpp:437
+#, c-format
+msgid ""
+"_n: There is an item in the database which does not appear to be on disk or is "
+"located in the root album of the path. This file should be removed from the "
+"database, however you may lose information. digiKam cannot continue without "
+"removing the item from the database because all views depend on the information "
+"in the database. Do you want it to be removed from the database?\n"
+"There are %n items in the database which do not appear to be on disk or are "
+"located in the root album of the path. These files should be removed from the "
+"database, however you may lose information. digiKam cannot continue without "
+"removing these items from the database because all views depend on the "
+"information in the database. Do you want them to be removed from the database?"
+msgstr ""
+
+#: digikam/scanlib.cpp:447
+msgid "Files are Missing"
+msgstr ""
+
+#: digikam/imagedescedit.cpp:96
+msgid "Image Comments/Tags"
+msgstr ""
 
 #: digikam/imagedescedit.cpp:124
 msgid "Date && Time"
@@ -199,6 +375,12 @@ msgstr "ট্যাগ বৈশিষ্ট্যাবলী সম্পা�
 msgid "Delete Tag"
 msgstr "ট্যাগ মুছে ফেলো"
 
+#: digikam/imagedescedit.cpp:584
+msgid ""
+"You are currently viewing items in the tag '%1' that you are about to delete? "
+"You will need to close this dialog first if you want to delete the tag"
+msgstr ""
+
 #: digikam/imagedescedit.cpp:593 digikam/tagfilterview.cpp:599
 #: digikam/tagfolderview.cpp:498
 msgid "Delete '%1' tag?"
@@ -217,6 +399,12 @@ msgstr "ট্যাগ খুঁজে পেয়েছে"
 msgid "Channel:"
 msgstr "চ্যানেল:"
 
+#: digikam/imagepropertieshistogram.cpp:72
+#: showfoto/imagepropertieshistogram.cpp:72 showfoto/showfoto.cpp:371
+#: utilities/imageeditor/imagewindow.cpp:316
+msgid "Luminosity"
+msgstr ""
+
 #: digikam/imagepropertieshistogram.cpp:73
 #: digikam/imagepropertieshistogram.cpp:116
 #: imageplugins/imageeffect_rgb.cpp:81
@@ -225,6 +413,15 @@ msgstr "চ্যানেল:"
 #: utilities/imageeditor/imagewindow.cpp:317
 msgid "Red"
 msgstr "লাল"
+
+#: digikam/imagepropertieshistogram.cpp:74
+#: digikam/imagepropertieshistogram.cpp:117
+#: imageplugins/imageeffect_rgb.cpp:98
+#: showfoto/imagepropertieshistogram.cpp:74
+#: showfoto/imagepropertieshistogram.cpp:117 showfoto/showfoto.cpp:373
+#: utilities/imageeditor/imagewindow.cpp:318
+msgid "Green"
+msgstr ""
 
 #: digikam/imagepropertieshistogram.cpp:75
 #: digikam/imagepropertieshistogram.cpp:118
@@ -246,15 +443,61 @@ msgstr "আলফা"
 msgid "Colors"
 msgstr "রং"
 
+#: digikam/imagepropertieshistogram.cpp:78
+#: showfoto/imagepropertieshistogram.cpp:78
+msgid ""
+"<p>Select here the histogram channel to display:"
+"<p><b>Luminosity</b>: drawing the image luminosity values."
+"<p><b>Red</b>: drawing the red image channel values."
+"<p><b>Green</b>: drawing the green image channel values."
+"<p><b>Blue</b>: drawing the blue image channel values."
+"<p><b>Alpha</b>: drawing the alpha image channel values. This channel "
+"corresponding to the transparency value and is supported by some image formats "
+"such as PNG or GIF."
+"<p><b>Colors</b>: drawing all color channels values at the same time."
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:92
+#: showfoto/imagepropertieshistogram.cpp:92
+msgid ""
+"<p>Select here the histogram scale."
+"<p>If the image's maximal counts are small, you can use the linear scale."
+"<p>Logarithmic scale can be used when the maximal counts are big; if it is "
+"used, all values (small and large) will be visible on the graph."
+msgstr ""
+
 #: digikam/imagepropertieshistogram.cpp:98
 #: showfoto/imagepropertieshistogram.cpp:98
 msgid "<p>Linear"
 msgstr "<p>সরলরৈখিক"
 
+#: digikam/imagepropertieshistogram.cpp:106
+#: showfoto/imagepropertieshistogram.cpp:106
+msgid "<p>Logarithmic"
+msgstr ""
+
 #: digikam/imagepropertieshistogram.cpp:113
 #: showfoto/imagepropertieshistogram.cpp:113
 msgid "Colors:"
 msgstr "রং:"
+
+#: digikam/imagepropertieshistogram.cpp:120
+#: showfoto/imagepropertieshistogram.cpp:120
+msgid ""
+"<p>Select here the main color displayed with Colors Channel mode:"
+"<p><b>Red</b>: drawing the red image channel on the foreground."
+"<p><b>Green</b>: drawing the green image channel on the foreground."
+"<p><b>Blue</b>: drawing the blue image channel on the foreground."
+"<p>"
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:130
+#: showfoto/imagepropertieshistogram.cpp:130
+msgid ""
+"<p>Select here the histogram region computation:"
+"<p><b>Full Image</b>: drawing histogram using the full image."
+"<p><b>Selection</b>: drawing histogram using the current image selection."
+msgstr ""
 
 #: digikam/imagepropertieshistogram.cpp:135
 #: showfoto/imagepropertieshistogram.cpp:135
@@ -266,10 +509,47 @@ msgstr "<p>পূর্ণ ছবি"
 msgid "<p>Selection"
 msgstr "<p>নির্বাচন"
 
+#: digikam/imagepropertieshistogram.cpp:160
+#: showfoto/imagepropertieshistogram.cpp:160
+msgid "<p>This is the histogram drawing of the selected image channel"
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:172
+#: showfoto/imagepropertieshistogram.cpp:172
+msgid "Intensity range:"
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:176
+#: showfoto/imagepropertieshistogram.cpp:176
+msgid "<p>Select here the minimal intensity value of the histogram selection."
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:180
+#: showfoto/imagepropertieshistogram.cpp:180
+msgid "<p>Select here the maximal intensity value of the histogram selection."
+msgstr ""
+
 #: digikam/imagepropertieshistogram.cpp:188
 #: showfoto/imagepropertieshistogram.cpp:188
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
+
+#: digikam/imagepropertieshistogram.cpp:189
+#: showfoto/imagepropertieshistogram.cpp:189
+msgid ""
+"<p>Here you can see the statistic results calculated with the selected "
+"histogram part. These values are available for all channels."
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:203
+#: showfoto/imagepropertieshistogram.cpp:203
+msgid "Standard deviation:"
+msgstr ""
+
+#: digikam/imagepropertieshistogram.cpp:218
+#: showfoto/imagepropertieshistogram.cpp:218
+msgid "Percentile:"
+msgstr ""
 
 #: digikam/digikamfirstrun.cpp:73
 msgid "Album Library Path"
@@ -279,21 +559,22 @@ msgstr "অ্যালবাম লাইব্রেরী পাথ"
 msgid ""
 "You must select a folder for Digikam to use as the Album Library folder."
 msgstr ""
-"আপনি ডিজিক্যামের অ্যালবাম লাইব্রেরী ফোল্ডার হিসেবে ব্যবহার করার জন্য একটি ফোল্ডার "
-"অবশ্যই নির্বাচন করবেন।"
+"আপনি ডিজিক্যামের অ্যালবাম লাইব্রেরী ফোল্ডার হিসেবে ব্যবহার করার জন্য একটি "
+"ফোল্ডার অবশ্যই নির্বাচন করবেন।"
 
 #: digikam/digikamfirstrun.cpp:109
 msgid "Digikam cannot use your home folder as the Album Library folder."
 msgstr ""
-"ডিজিক্যাম অ্যালবাম লাইব্রেরী ফোল্ডার হিসেবে আপনার হোম ফোল্ডার ব্যবহার করতে পারে না।"
+"ডিজিক্যাম অ্যালবাম লাইব্রেরী ফোল্ডার হিসেবে আপনার হোম ফোল্ডার ব্যবহার করতে পারে "
+"না।"
 
 #: digikam/digikamfirstrun.cpp:117
 msgid ""
-"<qt>The folder you selected does not exist: <p><b>%1</b></p>Would you like "
-"Digikam to make it for you now?</qt>"
+"<qt>The folder you selected does not exist: "
+"<p><b>%1</b></p>Would you like Digikam to make it for you now?</qt>"
 msgstr ""
-"<qt>আপনার নির্বাচিত ফোল্ডারের অস্তিত্ব নেই: <p><b>%1</b></p>আপনি কি চান যে "
-"ডিজিক্যাম আপনার হয়ে এটি এখন তৈরি করুক?</qt>"
+"<qt>আপনার নির্বাচিত ফোল্ডারের অস্তিত্ব নেই: "
+"<p><b>%1</b></p>আপনি কি চান যে ডিজিক্যাম আপনার হয়ে এটি এখন তৈরি করুক?</qt>"
 
 #: digikam/digikamfirstrun.cpp:122
 msgid "Create Folder?"
@@ -301,15 +582,23 @@ msgstr "ফোল্ডার তৈরি করো?"
 
 #: digikam/digikamfirstrun.cpp:132
 msgid ""
-"<qt>Digikam could not create the folder shown below. Please select a "
-"different location.<p><b>%1</b></p></qt>"
+"<qt>Digikam could not create the folder shown below. Please select a different "
+"location."
+"<p><b>%1</b></p></qt>"
 msgstr ""
 "<qt>ডিজিক্যাম নিচে প্রদর্শিত ফোল্ডার তৈরি করতে পারেনি। অনুগ্রহ করে একটি আলাদা "
-"অবস্থান নির্বাচন করুন।<p><b>%1</b></p></qt>"
+"অবস্থান নির্বাচন করুন।"
+"<p><b>%1</b></p></qt>"
 
 #: digikam/digikamfirstrun.cpp:135
 msgid "Create Folder Failed"
 msgstr "ফোল্ডার তৈরি করা ব্যর্থ হল"
+
+#: digikam/digikamfirstrun.cpp:142 utilities/setup/setupgeneral.cpp:193
+msgid ""
+"No write access for this path.\n"
+"Warning: the comments and tag features will not work."
+msgstr ""
 
 #: digikam/digikamfirstrun.cpp:161
 msgid ""
@@ -336,14 +625,59 @@ msgstr "নতুন অ্যালবাম..."
 msgid "Edit Album Properties..."
 msgstr "অ্যালবাম বৈশিষ্ট্যাবলী সম্পাদনা করো..."
 
+#: digikam/albumfolderview.cpp:506 digikam/digikamapp.cpp:1394
+msgid "Move Album to Trash"
+msgstr ""
+
 #: digikam/albumfolderview.cpp:511 digikam/albumfolderview.cpp:682
 #: digikam/digikamapp.cpp:324 digikam/digikamapp.cpp:1401
 msgid "Delete Album"
 msgstr "অ্যালবাম মুছে ফেলো"
 
+#: digikam/albumfolderview.cpp:564 digikam/albumfolderview.cpp:1107
+msgid ""
+"The Albums Library has not been set correctly.\n"
+"Select \"Configure Digikam\" from the Settings menu and choose a folder to use "
+"for the Albums Library."
+msgstr ""
+
+#: digikam/albumfolderview.cpp:655
+msgid ""
+"_n: Album '%1' has one subalbum. Moving this to trash will also move the "
+"subalbum to trash. Are you sure you want to continue?\n"
+"Album '%1' has %n subalbums. Moving this to trash will also move the subalbums "
+"to trash. Are you sure you want to continue?"
+msgstr ""
+
+#: digikam/albumfolderview.cpp:669
+msgid ""
+"_n: Album '%1' has one subalbum. Deleting this will also delete the subalbum. "
+"Are you sure you want to continue?\n"
+"Album '%1' has %n subalbums. Deleting this will also delete the subalbums. Are "
+"you sure you want to continue?"
+msgstr ""
+
+#: digikam/albumfolderview.cpp:680
+msgid "Move album '%1' to trash?"
+msgstr ""
+
 #: digikam/albumfolderview.cpp:681
 msgid "Delete album '%1' from disk?"
 msgstr "ডিস্ক থেকে অ্যালবাম '%1' মুছে ফেলো?"
+
+#: digikam/albumfolderview.cpp:682
+msgid "Trash Album"
+msgstr ""
+
+#: digikam/albumfolderview.cpp:683 digikam/albumiconview.cpp:849
+msgid "Trash"
+msgstr ""
+
+#: digikam/albumfolderview.cpp:868 digikam/albumfolderview.cpp:996
+#: digikam/albumfolderview.cpp:1069 digikam/albumiconview.cpp:1088
+#: digikam/tagfolderview.cpp:576
+msgid "&Move Here"
+msgstr ""
 
 #: digikam/albumfolderview.cpp:870 digikam/albumfolderview.cpp:965
 #: digikam/albumfolderview.cpp:999 digikam/albumfolderview.cpp:1072
@@ -357,6 +691,15 @@ msgstr "বাতি&ল করো"
 #: digikam/albumfolderview.cpp:963 digikam/albumiconview.cpp:493
 msgid "Set as Album Thumbnail"
 msgstr "অ্যালবাম থাম্বনেইল হিসেবে নিযুক্ত করো"
+
+#: digikam/albumfolderview.cpp:997 digikam/albumfolderview.cpp:1070
+#: digikam/albumiconview.cpp:1089
+msgid "&Copy Here"
+msgstr ""
+
+#: digikam/albumfolderview.cpp:1208
+msgid "Uncategorized Albums"
+msgstr ""
 
 #: digikam/albumpropsedit.cpp:66 digikam/albumpropsedit.cpp:175
 msgid "New Album"
@@ -374,6 +717,53 @@ msgstr "<qt>%1<b>-এ নতুন অ্যালবাম তৈরি কর�
 msgid "<qt><b><i>%1</i> Album Properties</b></qt>"
 msgstr "<qt><b><i>%1</i> অ্যালবাম বৈশিষ্ট্যাবলী</b></qt>"
 
+#: digikam/albumpropsedit.cpp:100 digikam/tagcreatedlg.cpp:60
+#: digikam/tagcreatedlg.cpp:180
+msgid "&Title:"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:108
+msgid "Co&llection:"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:117
+msgid "Co&mments:"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:126
+msgid "Album &date:"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:136
+msgid ""
+"_: Button to select the date of the oldest image\n"
+"&Oldest"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:140
+msgid ""
+"_: This is a button which calculates the average date\n"
+"&Average"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:144
+msgid ""
+"_: Button to select the date of the newest image\n"
+"Newest"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:224
+msgid "Uncategorized Album"
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:327
+msgid "Could not calculate an average."
+msgstr ""
+
+#: digikam/albumpropsedit.cpp:328
+msgid "Could Not Calculate Average"
+msgstr ""
+
 #: digikam/albumsettings.cpp:104
 msgid "Family"
 msgstr "পরিবার"
@@ -381,6 +771,10 @@ msgstr "পরিবার"
 #: digikam/albumsettings.cpp:105
 msgid "Travel"
 msgstr "ভ্রমণ"
+
+#: digikam/albumsettings.cpp:106
+msgid "Holidays"
+msgstr ""
 
 #: digikam/albumsettings.cpp:107
 msgid "Friends"
@@ -390,14 +784,64 @@ msgstr "বন্ধুবান্ধব"
 msgid "Nature"
 msgstr "প্রকৃতি"
 
+#: digikam/albumsettings.cpp:109
+msgid "Party"
+msgstr ""
+
+#: digikam/albumsettings.cpp:110
+msgid "Todo"
+msgstr ""
+
 #: digikam/searchadvanceddialog.cpp:137 digikam/searchfolderview.cpp:67
 #: digikam/searchquickdialog.cpp:64 digikam/searchquickdialog.cpp:158
 msgid "Last Search"
 msgstr "শেষ অনুসন্ধান"
 
+#: digikam/searchfolderview.cpp:84
+msgid "My Searches"
+msgstr ""
+
+#: digikam/searchfolderview.cpp:177
+msgid ""
+"Another search with same name exists.\n"
+"Please enter a new name:"
+msgstr ""
+
+#: digikam/searchfolderview.cpp:181 digikam/searchfolderview.cpp:184
+msgid "Name exists"
+msgstr ""
+
+#: digikam/searchfolderview.cpp:329
+msgid "New Simple Search..."
+msgstr ""
+
+#: digikam/searchfolderview.cpp:330
+msgid "New Advanced Search..."
+msgstr ""
+
+#: digikam/searchfolderview.cpp:353
+msgid "Edit Search..."
+msgstr ""
+
+#: digikam/searchfolderview.cpp:357
+msgid "Edit as Advanced Search..."
+msgstr ""
+
+#: digikam/searchfolderview.cpp:359
+msgid "Delete Search"
+msgstr ""
+
 #: digikam/tagcreatedlg.cpp:37
 msgid "Create New Tag"
 msgstr "নতুন ট্যাগ তৈরি করো"
+
+#: digikam/tagcreatedlg.cpp:44
+msgid "<qt><b>Create New Tag in <i>%1</i></b></qt>"
+msgstr ""
+
+#: digikam/tagcreatedlg.cpp:70 digikam/tagcreatedlg.cpp:191
+msgid "&Icon:"
+msgstr ""
 
 #: digikam/tagcreatedlg.cpp:157
 msgid "Edit Tag"
@@ -420,13 +864,59 @@ msgstr "ঠিকানা-তালিকা থেকে ট্যাগ ত�
 msgid "No AddressBook Entries Found"
 msgstr "কোনও ঠিকানা-তালিকা এন্ট্রি খুঁজে পায়নি"
 
+#: digikam/tagfilterview.cpp:582 digikam/tagfolderview.cpp:481
+msgid ""
+"Tag '%1' has %2 subtag(s). Deleting this will also delete the subtag(s). Are "
+"you sure you want to continue?"
+msgstr ""
+
 #: digikam/albumiconview.cpp:495 digikam/tagfolderview.cpp:656
 msgid "Set as Tag Thumbnail"
 msgstr "ট্যাগ থাম্বনেইল হিসেবে নিযুক্ত করো"
 
+#: digikam/tagfilterview.cpp:294 digikam/tagfolderview.cpp:685
+msgid "Assign Tag '%1' to Dropped Items"
+msgstr ""
+
+#: digikam/kdatepickerpopup.cpp:61
+msgid "&Today"
+msgstr ""
+
+#: digikam/kdatepickerpopup.cpp:62
+msgid "To&morrow"
+msgstr ""
+
+#: digikam/kdatepickerpopup.cpp:63
+msgid "&Friday"
+msgstr ""
+
+#: digikam/kdatepickerpopup.cpp:64
+msgid "&Sunday"
+msgstr ""
+
+#: digikam/kdatepickerpopup.cpp:65
+msgid "Next &Week"
+msgstr ""
+
+#: digikam/kdatepickerpopup.cpp:66
+msgid "Next M&onth"
+msgstr ""
+
 #: digikam/kdatepickerpopup.cpp:73
 msgid "No Date"
 msgstr "কোনও তারিখ নেই"
+
+#: digikam/main.cpp:60
+msgid "Automatically detect and open camera"
+msgstr ""
+
+#: digikam/main.cpp:61
+msgid "Open camera dialog at <path>"
+msgstr ""
+
+#: digikam/main.cpp:67
+msgid "A Photo-Management Application for KDE"
+msgstr ""
 
 #: digikam/main.cpp:69
 #, c-format
@@ -440,6 +930,14 @@ msgstr "ডিজিক্যাম"
 #: digikam/main.cpp:77
 msgid "(c) 2002-2006, digiKam developers team"
 msgstr "(c) ২০০২-২০০৬, ডিজিক্যাম ডেভেলপার দল"
+
+#: digikam/main.cpp:82
+msgid "Main coordinator and developer"
+msgstr ""
+
+#: digikam/main.cpp:87
+msgid "Developer, co-coordinator, French translations"
+msgstr ""
 
 #: digikam/main.cpp:92 digikam/main.cpp:97 digikam/main.cpp:102
 #: digikam/main.cpp:107 digikam/main.cpp:112 showfoto/main.cpp:61
@@ -504,6 +1002,10 @@ msgstr "মন্তব্য এবং প্যাচ। গাইডবই �
 msgid "digiKam website banner and application icons"
 msgstr "ডিজিক্যাম ওয়েবসাইট ব্যানার এবং অ্যাপলিকেশন আইকনস্"
 
+#: digikam/main.cpp:187
+msgid "Various usability fixes and general application polishing"
+msgstr ""
+
 #: digikam/main.cpp:192
 msgid "digiKam website, Feedback"
 msgstr "ডিজিক্যাম ওয়েবসাইট, মন্তব্য"
@@ -512,9 +1014,22 @@ msgstr "ডিজিক্যাম ওয়েবসাইট, মন্তব্
 msgid "Bug reports and Feedback"
 msgstr "প্রোগ্রাম ত্রুটি প্রতিবেদন এবং মন্তব্য"
 
+#: digikam/albummanager.cpp:246
+msgid ""
+"Your locale has changed from the previous time this album was opened.\n"
+"Old Locale : %1, New Locale : %2\n"
+"This can cause unexpected problems. If you are sure that you want to continue, "
+"click on 'Yes' to work with this album. Otherwise, click on 'No' and correct "
+"your locale setting before restarting digiKam"
+msgstr ""
+
 #: digikam/albummanager.cpp:266
 msgid "Failed to update old Database to new Database format"
 msgstr "নতুন ডেটাবেস ফরম্যাটে পুরনো ডেটাবেস আপডেট করতে ব্যর্থ হল"
+
+#: digikam/albummanager.cpp:749
+msgid "No parent found for album."
+msgstr ""
 
 #: digikam/albummanager.cpp:756
 msgid "Album name cannot be empty."
@@ -532,6 +1047,10 @@ msgstr "একই নামের অন্য একটি অ্যালব�
 msgid "Another file or folder with same name exists"
 msgstr "একই নামের অন্য একটি ফাইল অথবা ফোল্ডার রয়েছে"
 
+#: digikam/albummanager.cpp:789
+msgid "Access denied to path"
+msgstr ""
+
 #: digikam/albummanager.cpp:791
 msgid "Disk full"
 msgstr "ডিস্ক পূর্ণ"
@@ -543,6 +1062,16 @@ msgstr "অজানা ত্রুটি"
 #: digikam/albummanager.cpp:806
 msgid "Failed to add album to database"
 msgstr "ডেটাবেসে অ্যালবাম যোগ করতে ব্যর্থ"
+
+#: digikam/albummanager.cpp:829 digikam/albummanager.cpp:910
+#: digikam/albummanager.cpp:982 digikam/albummanager.cpp:1015
+#: digikam/albummanager.cpp:1055
+msgid "No such album"
+msgstr ""
+
+#: digikam/albummanager.cpp:835
+msgid "Cannot rename root album"
+msgstr ""
 
 #: digikam/albummanager.cpp:841
 msgid "Album name cannot contain '/'"
@@ -560,6 +1089,14 @@ msgstr ""
 msgid "Failed to rename Album"
 msgstr "অ্যালবাম নামান্তর করতে ব্যর্থ"
 
+#: digikam/albummanager.cpp:916
+msgid "Cannot edit root album"
+msgstr ""
+
+#: digikam/albummanager.cpp:933
+msgid "No parent found for tag"
+msgstr ""
+
 #: digikam/albummanager.cpp:940
 msgid "Tag name cannot be empty"
 msgstr "ট্যাগের নাম ফাঁকা হতে পারে না"
@@ -576,6 +1113,14 @@ msgstr "একই নামের অন্য একটি ট্যাগ র�
 msgid "Failed to add tag to database"
 msgstr "ডেটাবেসে ট্যাগ যোগ করতে ব্যর্থ"
 
+#: digikam/albummanager.cpp:988
+msgid "Cannot delete Root Tag"
+msgstr ""
+
+#: digikam/albummanager.cpp:1021 digikam/albummanager.cpp:1085
+msgid "Cannot edit root tag"
+msgstr ""
+
 #: digikam/albummanager.cpp:1037
 msgid ""
 "Another tag with same name exists\n"
@@ -583,6 +1128,14 @@ msgid ""
 msgstr ""
 "একই নামের অন্য একটি ট্যাগ রয়েছে\n"
 "অনুগ্রহ করে অন্য একটি নাম বেছে নিন"
+
+#: digikam/albummanager.cpp:1061
+msgid "Cannot move root tag"
+msgstr ""
+
+#: digikam/albummanager.cpp:1079
+msgid "No such tag"
+msgstr ""
 
 #: digikam/albumfiletip.cpp:296
 msgid "File Properties"
@@ -599,6 +1152,18 @@ msgstr "ডিজিক্যাম বৈশিষ্ট্যাবলী"
 #: digikam/albumfiletip.cpp:372
 msgid "Meta Information"
 msgstr "মেটা তথ্য"
+
+#: digikam/albumiconview.cpp:481 digikam/digikamapp.cpp:384
+msgid "View/Edit..."
+msgstr ""
+
+#: digikam/albumiconview.cpp:482
+msgid "Open With"
+msgstr ""
+
+#: digikam/albumiconview.cpp:486 utilities/imageeditor/imagewindow.cpp:251
+msgid "Edit Comments && Tags..."
+msgstr ""
 
 #: digikam/albumiconview.cpp:533 utilities/imageeditor/imagewindow.cpp:749
 msgid "Assign Tag"
@@ -621,1348 +1186,6 @@ msgstr "রেটিং বরাদ্দ করো"
 #: digikam/albumiconview.cpp:602 digikam/digikamapp.cpp:404
 msgid "Rename..."
 msgstr "নামান্তর করো..."
-
-#: digikam/albumiconview.cpp:848
-msgid "Delete Image"
-msgstr "ছবি মুছে ফেলো"
-
-#: digikam/albumiconview.cpp:1125
-msgid "&Assign Tag '%1' to Selected Images"
-msgstr "নির্বাচিত ছবিতে ট্যাগ '%1' &বরাদ্দ করো"
-
-#: digikam/albumiconview.cpp:1167
-msgid "&Assign Tags to Selected Images"
-msgstr "নির্বাচিত ছবিতে ট্যাগ &বরাদ্দ করো"
-
-#: digikam/albumiconview.cpp:1333
-#, c-format
-msgid "Failed to correct Exif orientation for file %1."
-msgstr "ফাইল %1-এর এক্সিফ দিশা সঠিক করতে ব্যর্থ।"
-
-#: digikam/tagfilterview.cpp:82
-msgid "Not Tagged"
-msgstr "ট্যাগযুক্ত নয়"
-
-#: digikam/digikamview.cpp:101 digikam/tagfilterview.cpp:162
-msgid "Tag Filters"
-msgstr "ট্যাগ ফিল্টার"
-
-#: digikam/imageproperties.cpp:178 showfoto/imageproperties.cpp:105
-msgid "Properties for '%1'"
-msgstr " '%1'-এর বৈশিষ্ট্যাবলী"
-
-#: digikam/kipiinterface.cpp:268 digikam/kipiinterface.cpp:284
-#, c-format
-msgid "Tag: %1"
-msgstr "ট্যাগ: %1"
-
-#: digikam/datefolderview.cpp:110
-msgid "My Dates"
-msgstr "আমার তারিখ"
-
-#: digikam/searchadvanceddialog.cpp:44
-msgid "Advanced Search"
-msgstr "উন্নত অনুসন্ধান"
-
-#: digikam/searchadvanceddialog.cpp:66
-msgid "Search Rules"
-msgstr "অনুসন্ধান নিয়মাবলী"
-
-#: digikam/searchadvanceddialog.cpp:89 digikam/searchwidgets.cpp:123
-#: digikam/searchwidgets.cpp:235 digikam/searchwidgets.cpp:429
-#: digikam/searchwidgets.cpp:542
-msgid "Or"
-msgstr "অথবা"
-
-#: digikam/digikamview.cpp:548 digikam/searchadvanceddialog.cpp:91
-msgid "&Add"
-msgstr "যো&গ করো"
-
-#: digikam/digikamapp.cpp:282
-msgid "Forward"
-msgstr "ফরওয়ার্ড"
-
-#: digikam/digikamapp.cpp:299
-msgid "&New Album..."
-msgstr "&নতুন অ্যালবাম..."
-
-#: digikam/digikamapp.cpp:306
-msgid "This option creates a new empty Album in the database."
-msgstr "এই অপশনটি ডেটাবেসে একটি নতুন ফাঁকা অ্যালবাম তৈরি করে।"
-
-#: digikam/digikamapp.cpp:332
-msgid "Add Images..."
-msgstr "ছবি যোগ করো..."
-
-#: digikam/digikamapp.cpp:339
-msgid "This option adds new images to the current Album."
-msgstr "এই অপশনটি বর্তমান অ্যালবামে নতুন ছবি যোগ করে।"
-
-#: digikam/digikamapp.cpp:341
-msgid "Import Folders..."
-msgstr "ফোল্ডার আমদানি করো..."
-
-#: digikam/digikamapp.cpp:360
-msgid "Open in Konqueror"
-msgstr "কনকরার-এ খোলা"
-
-#: digikam/digikamapp.cpp:456
-msgid "Correct Exif Orientation Tag"
-msgstr "সঠিক এক্সিফ দিশা ট্যাগ"
-
-#: digikam/digikamapp.cpp:462
-msgid "Normal"
-msgstr "স্বাভাবিক"
-
-#: digikam/digikamapp.cpp:559 utilities/imageeditor/imagewindow.cpp:302
-msgid "Toggle Full Screen"
-msgstr "টোগল পূর্ণ পর্দা"
-
-#: digikam/digikamapp.cpp:566
-msgid "This option allows you to toggle the main windows in full screen mode."
-msgstr "এই অপশনটি পূর্ণ পর্দা মোডে প্রধান উইন্ডোগুলো টোগল করতে আপনাকে অনুমোদন করে।"
-
-#: digikam/digikamapp.cpp:573
-msgid "Kipi Plugins Handbook"
-msgstr "কিপি প্লাগিন গাইডবই"
-
-#: digikam/digikamapp.cpp:619
-msgid "Quick Search..."
-msgstr "চটপট অনুসন্ধান..."
-
-#: digikam/digikamapp.cpp:623
-msgid "Advanced Search..."
-msgstr "উন্নত অনুসন্ধান..."
-
-#: digikam/digikamapp.cpp:626
-msgid "Scan for New Images"
-msgstr "নতুন ছবির জন্য স্ক্যান করো"
-
-#: digikam/digikamapp.cpp:638
-msgid "Loading cameras"
-msgstr "ক্যামেরা লোড করছে"
-
-#: digikam/digikamapp.cpp:983
-#, c-format
-msgid "Images found in %1"
-msgstr "%1-এ ছবি খুঁজে পেয়েছে"
-
-#: digikam/digikamapp.cpp:1042
-msgid "No Media Devices Found"
-msgstr "কোনও মিডিয়া ডিভাইস খুঁজে পায়নি"
-
-#: digikam/digikamapp.cpp:1177 showfoto/setup.cpp:45
-#: showfoto/showfoto.cpp:1256 utilities/imageeditor/imagewindow.cpp:1394
-msgid "General"
-msgstr "সাধারণ"
-
-#: digikam/digikamapp.cpp:1302 utilities/imageeditor/imagepluginloader.cpp:105
-#: utilities/imageeditor/imagepluginloader.cpp:156
-#, c-format
-msgid "Loading: %1"
-msgstr "লোড করছে: %1"
-
-#: digikam/digikamapp.cpp:1365
-msgid "Add Camera..."
-msgstr "ক্যামেরা যোগ করো..."
-
-#: digikam/imagepropertiesexif.cpp:61 digikam/imagepropertiesexif.cpp:117
-#: showfoto/imagepropertiesexif.cpp:69 showfoto/imagepropertiesexif.cpp:124
-msgid "Simple"
-msgstr "সহজ"
-
-#: digikam/imagepropertiesexif.cpp:62 showfoto/imagepropertiesexif.cpp:70
-msgid "Full"
-msgstr "পূর্ণ"
-
-#: digikam/digikamview.cpp:96 utilities/cameragui/albumselectdialog.cpp:69
-#: utilities/setup/setup.cpp:52
-msgid "Albums"
-msgstr "অ্যালবাম"
-
-#: digikam/digikamview.cpp:97
-msgid "Dates"
-msgstr "তারিখ"
-
-#: digikam/digikamview.cpp:99
-msgid "Searches"
-msgstr "অনুসন্ধান"
-
-#: digikam/digikamview.cpp:546
-msgid "Add Images"
-msgstr "ছবি যোগ করো"
-
-#: showfoto/setupplugins.cpp:56 utilities/setup/setupeditor.cpp:120
-msgid "Name"
-msgstr "নাম"
-
-#: showfoto/setupplugins.cpp:58 utilities/setup/setupeditor.cpp:122
-msgid "Description"
-msgstr "বর্ণনা"
-
-#: showfoto/setupslideshow.cpp:58
-msgid "Fullscreen mode"
-msgstr "পূর্ণপর্দা মোড"
-
-#: showfoto/main.cpp:49
-msgid "KDE Photo Viewer and Editor"
-msgstr "কেডিই ছবি প্রদর্শক এবং সম্পাদক"
-
-#: showfoto/main.cpp:52
-msgid "showFoto"
-msgstr "ছবি প্রদর্শক"
-
-#: showfoto/main.cpp:56
-msgid "(c) 2004-2006, digiKam developers team"
-msgstr "(c) ২০০৪-২০০৬, ডিজিক্যাম ডেভেলপার দল"
-
-#: showfoto/setupeditor.cpp:92 utilities/setup/setupeditor.cpp:93
-msgid "Interface Options"
-msgstr "ইন্টারফেস অপশনস"
-
-#: showfoto/setup.cpp:45
-msgid "General Settings"
-msgstr "সাধারণ মানসমূহ"
-
-#: showfoto/setup.cpp:49
-msgid "Image Plugins"
-msgstr "ছবি প্লাগিন"
-
-#: showfoto/setup.cpp:49 utilities/setup/setupeditor.cpp:114
-msgid "Image Plugins List"
-msgstr "ছবি প্লাগিন তালিকা"
-
-#: showfoto/showfoto.cpp:298 utilities/imageeditor/imagewindow.cpp:231
-msgid "Print Image..."
-msgstr "ছবি প্রিন্ট করো..."
-
-#: showfoto/showfoto.cpp:308 showfoto/showfoto.cpp:499
-#: utilities/imageeditor/imagewindow.cpp:246
-#: utilities/imageeditor/imagewindow.cpp:473
-msgid "Delete File"
-msgstr "ফাইল মুছে ফেলো"
-
-#: showfoto/showfoto.cpp:354
-msgid "Fullscreen"
-msgstr "পূর্ণপর্দা"
-
-#: showfoto/showfoto.cpp:389 utilities/imageeditor/imagewindow.cpp:344
-msgid "90 Degrees"
-msgstr "৯০ ডিগ্রি"
-
-#: showfoto/showfoto.cpp:393 utilities/imageeditor/imagewindow.cpp:348
-msgid "180 Degrees"
-msgstr "১৮০ ডিগ্রি"
-
-#: showfoto/showfoto.cpp:397 utilities/imageeditor/imagewindow.cpp:352
-msgid "270 Degrees"
-msgstr "২৭০ ডিগ্রি"
-
-#: showfoto/showfoto.cpp:413 utilities/imageeditor/imagewindow.cpp:368
-msgid "Horizontally"
-msgstr "অনুভূমিকভাবে"
-
-#: showfoto/showfoto.cpp:418 utilities/imageeditor/imagewindow.cpp:373
-msgid "Vertically"
-msgstr "উলম্বভাবে"
-
-#: showfoto/showfoto.cpp:439 utilities/imageeditor/imagewindow.cpp:382
-msgid "Image Plugins Handbooks"
-msgstr "ছবি প্লাগিন গাইডবই"
-
-#: showfoto/showfoto.cpp:459 showfoto/showfoto.cpp:467
-msgid "Next Image"
-msgstr "পরবর্তী ছবি"
-
-#: showfoto/showfoto.cpp:463 showfoto/showfoto.cpp:471
-msgid "Previous Image"
-msgstr "পূর্ববর্তী ছবি"
-
-#: showfoto/showfoto.cpp:720 utilities/imageeditor/imagewindow.cpp:1035
-msgid "New Image File Name"
-msgstr "নতুন ছবির ফাইল নাম"
-
-#: showfoto/showfoto.cpp:803 showfoto/showfoto.cpp:913
-msgid "Failed to save file '%1'"
-msgstr "ফাইল '%1' সংরক্ষণ করতে ব্যর্থ"
-
-#: showfoto/showfoto.cpp:1304 utilities/imageeditor/imagewindow.cpp:951
-#, c-format
-msgid "Print %1"
-msgstr "%1 প্রিন্ট করো"
-
-#: showfoto/showfoto.cpp:1312 utilities/imageeditor/imagewindow.cpp:959
-msgid "Failed to print file: '%1'"
-msgstr "ফাইল প্রিন্ট করতে ব্যর্থ: '%1'"
-
-#: showfoto/showfoto.cpp:1504 utilities/imageeditor/imagewindow.cpp:557
-msgid " (%2 of %3)"
-msgstr "(%3 এর %2)"
-
-#: showfoto/showfoto.cpp:1630
-msgid "Open Images From Directory"
-msgstr "ডিরেক্টরী থেকে ছবি খোলো"
-
-#: _translatorinfo.cpp:1
-msgid ""
-"_: NAME OF TRANSLATORS\n"
-"Your names"
-msgstr "গোলাম মোর্তুজা হোসেন"
-
-#: _translatorinfo.cpp:3
-msgid ""
-"_: EMAIL OF TRANSLATORS\n"
-"Your emails"
-msgstr "gmhossain@gmail.com"
-
-#. i18n: file ./digikam/firstrunUI.ui line 27
-#: rc.cpp:3
-#, no-c-format
-msgid "<b>Albums Library Folder</b>"
-msgstr "<b>অ্যালবাম লাইব্রেরী ফোল্ডার</b>"
-
-#: imageplugins/imageplugin_core.cpp:80
-msgid "Color Balance..."
-msgstr "রংয়ের ভারসাম্য..."
-
-#: imageplugins/imageeffect_autocorrection.cpp:50
-msgid "Auto Color Correction"
-msgstr "স্বয়ংক্রিয় রং সংশোধন"
-
-#: imageplugins/imageeffect_autocorrection.cpp:65
-msgid "<p>This is the auto-color correction tool preview"
-msgstr "<p>এইটি স্বয়ংক্রিয় রঙ সংশোধন সরঞ্জাম প্রাকদর্শন"
-
-#: imageplugins/imageeffect_autocorrection.cpp:74
-#: imageplugins/imageeffect_autocorrection.cpp:78
-#: imageplugins/imageeffect_autocorrection.cpp:177
-msgid "Auto Levels"
-msgstr "স্বয়ংক্রিয় স্তর"
-
-#: imageplugins/imageeffect_autocorrection.cpp:75
-#: imageplugins/imageeffect_autocorrection.cpp:181
-msgid "Normalize"
-msgstr "সমন্বয়সাধন করো"
-
-#: imageplugins/imageeffect_autocorrection.cpp:76
-#: imageplugins/imageeffect_autocorrection.cpp:185
-msgid "Equalize"
-msgstr "সমকক্ষ করো"
-
-#: imageplugins/imageeffect_autocorrection.cpp:77
-#: imageplugins/imageeffect_autocorrection.cpp:189
-msgid "Stretch Contrast"
-msgstr "বৈসাদৃশ্য প্রসারিত করো"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:89
-msgid "Aspect ratio:"
-msgstr "দৃষ্টিভঙ্গি অনুপাত:"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:91
-msgid "Custom"
-msgstr "স্বনির্বাচিত"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:105
-msgid "Orientation:"
-msgstr "দিশা:"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:118
-msgid "Custom ratio:"
-msgstr "স্বনির্বাচিত অনুপাত:"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:139
-#: utilities/cameragui/gpiteminfodlg.cpp:87
-#: utilities/imageeditor/imageresizedlg.cpp:56
-msgid "Width:"
-msgstr "প্রস্থ:"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:159
-#: utilities/cameragui/gpiteminfodlg.cpp:91
-#: utilities/imageeditor/imageresizedlg.cpp:62
-msgid "Height:"
-msgstr "উচ্চতা:"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:181
-msgid "Composition guide:"
-msgstr "গ্রন্থন সহায়িকা:"
-
-#: imageplugins/imageeffect_ratiocrop.cpp:209
-msgid "Color and width:"
-msgstr "রং এবং প্রস্থ:"
-
-#: imageplugins/imageeffect_rgb.cpp:52 imageplugins/imageeffect_rgb.cpp:214
-msgid "Color Balance"
-msgstr "রংয়ের ভারসাম্য"
-
-#: utilities/setup/setupplugins.cpp:59
-#, c-format
-msgid "Kipi version: %1"
-msgstr "কিপি সংস্করণ: %1"
-
-#: utilities/setup/setupplugins.cpp:67
-msgid "<p>A list of available Kipi plugins appears below."
-msgstr "<p>ব্যবহারযোগ্য কিপি প্লাগিনের একটি তালিকা নিচে রয়েছে।"
-
-#: utilities/setup/setupplugins.cpp:80
-#, c-format
-msgid ""
-"_n: 1 Kipi plugin found\n"
-"%n Kipi plugins found"
-msgstr ""
-"একটি কিপি প্লাগিন খুঁজে পেয়েছে\n"
-"%n-টি কিপি প্লাগিন খুঁজে পেয়েছে"
-
-#: utilities/setup/setupmime.cpp:49
-msgid "Image Files"
-msgstr "ছবি ফাইল"
-
-#: utilities/setup/setupmime.cpp:64
-msgid "Movie Files"
-msgstr "চলচ্চিত্র ফাইল"
-
-#: utilities/setup/setupmime.cpp:79
-msgid "Audio Files"
-msgstr "অডিও ফাইল"
-
-#: utilities/setup/setupmime.cpp:96
-msgid "Raw Files"
-msgstr "কাঁচা ফাইল"
-
-#: utilities/setup/setupcamera.cpp:55
-msgid "Title"
-msgstr "শিরোনাম"
-
-#: utilities/setup/setupcamera.cpp:56
-msgid "Model"
-msgstr "মডেল"
-
-#: utilities/setup/setupcamera.cpp:57
-msgid "Port"
-msgstr "পোর্ট"
-
-#: utilities/setup/setupcamera.cpp:58
-msgid "Path"
-msgstr "পাথ"
-
-#: utilities/setup/setupcamera.cpp:200
-msgid "Camera '%1' (%2) is already in list."
-msgstr "ক্যামেরা '%1' (%2) তালিকায় ইতিমধ্যে রয়েছে।"
-
-#: utilities/setup/setupcamera.cpp:203
-msgid "Found camera '%1' (%2) and added it to the list."
-msgstr "ক্যামেরা '%1' (%2) খুঁজে পেয়েছে এবং তালিকায় এটি যোগ করেছে।"
-
-#: utilities/setup/setup.cpp:56
-msgid "Embedded Info"
-msgstr "সন্নিবেশিত তথ্য"
-
-#: utilities/setup/setup.cpp:56
-msgid "Embedded Image Information"
-msgstr "সন্নিবেশিত ছবি তথ্য"
-
-#: utilities/setup/setup.cpp:64
-msgid "Mime Types"
-msgstr "মাইম ধরন"
-
-#: utilities/setup/setup.cpp:64
-msgid "File (MIME) Types"
-msgstr "ফাইল (মাইম) ধরন"
-
-#: utilities/setup/setup.cpp:68
-msgid "Image Editor"
-msgstr "ছবি সম্পাদক"
-
-#: utilities/setup/setup.cpp:72
-msgid "Kipi Plugins"
-msgstr "কিপি প্লাগিন"
-
-#: utilities/setup/cameraselection.cpp:61 utilities/setup/setup.cpp:76
-msgid "Cameras"
-msgstr "ক্যামেরা"
-
-#: utilities/setup/setupgeneral.cpp:83
-msgid "Tooltips Settings"
-msgstr "টুলটিপ মানসমূহ"
-
-#: utilities/setup/setupgeneral.cpp:118
-msgid "Show file rating"
-msgstr "ফাইল রেটিং দেখাও"
-
-#: utilities/setup/setupgeneral.cpp:187
-msgid "Sorry; cannot use home directory as albums library."
-msgstr "দুঃখিত; অ্যালবাম লাইব্রেরী হিসেবে হোম ডিরেক্টরী ব্যবহার করতে পারে না।"
-
-#: utilities/setup/cameraselection.cpp:39
-msgid "Camera Selection"
-msgstr "ক্যামেরা নির্বাচন"
-
-#: utilities/setup/cameraselection.cpp:44
-msgid "Mounted Camera"
-msgstr "মাউন্টকৃত ক্যামেরা"
-
-#: utilities/setup/cameraselection.cpp:53
-msgid "Camera Configuration"
-msgstr "ক্যামেরা কনফিগারেশন"
-
-#: utilities/setup/cameraselection.cpp:67
-msgid "Camera Title"
-msgstr "ক্যামেরা শিরোনাম"
-
-#: utilities/setup/cameraselection.cpp:79
-msgid "Camera Port Type"
-msgstr "ক্যামেরা পোর্ট ধরন"
-
-#: utilities/setup/cameraselection.cpp:85
-msgid "USB"
-msgstr "ইউএসবি"
-
-#: utilities/setup/cameraselection.cpp:88
-msgid "Serial"
-msgstr "সিরিয়াল"
-
-#: utilities/setup/cameraselection.cpp:93
-msgid "Camera Port Path"
-msgstr "ক্যামেরা পোর্ট পাথ"
-
-#: utilities/setup/cameraselection.cpp:124
-msgid "Camera Mount Path"
-msgstr "ক্যামেরা মাউন্ট পাথ"
-
-#: utilities/cameragui/gpiteminfodlg.cpp:53
-#: utilities/cameragui/gpiteminfodlg.cpp:63
-#: utilities/cameragui/gpiteminfodlg.cpp:88
-#: utilities/cameragui/gpiteminfodlg.cpp:92
-#: utilities/cameragui/gpiteminfodlg.cpp:96
-#: utilities/imageeditor/undoaction.h:118
-msgid "Unknown"
-msgstr "অজানা"
-
-#: utilities/imageeditor/imagewindow.cpp:425
-msgid "digiKam Image Editor - Album \"%1\""
-msgstr "ডিজিক্যাম ছবি সম্পাদক - অ্যালবাম \"%1\""
-
-#: utilities/imageeditor/imagewindow.cpp:928
-msgid "No Image in Current Album"
-msgstr "বর্তমান অ্যালবামে কোনও ছবি নেই"
-
-#: utilities/imageeditor/imagewindow.cpp:1114
-msgid ""
-"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
-msgstr ""
-"\"%1\" নামের একটি ফাইল ইতিমধ্যে রয়েছে। আপনি কি নিশ্চিত আপনি এটির ওপর দিয়ে "
-"লিখতে চান?"
-
-#: utilities/imageeditor/imagewindow.cpp:1118
-msgid "Overwrite File?"
-msgstr "ফাইলের ওপর দিয়ে লেখো?"
-
-#: utilities/imageeditor/imagewindow.cpp:1119
-msgid "Overwrite"
-msgstr "ওপর দিয়ে লেখো"
-
-#: utilities/imageeditor/imagewindow.cpp:1175
-msgid "Failed to save to new file"
-msgstr "নতুন ফাইলে সংরক্ষণ করতে ব্যর্থ"
-
-#: utilities/imageeditor/imagewindow.cpp:1334
-msgid ""
-"The image \"%1\" has been modified.\n"
-"Do you want to save it?"
-msgstr ""
-"ছবি \"%1\"-এর পরিবর্তন করা হয়েছে।\n"
-"আপনি কি এটি সংরক্ষণ করতে চান?"
-
-#: utilities/imageeditor/undoaction.cpp:31
-msgid "unknown"
-msgstr "অজানা"
-
-#: utilities/imageeditor/undoaction.cpp:50
-msgid "Rotate 90 Degrees"
-msgstr "৯০ ডিগ্রি আবর্তন করো"
-
-#: utilities/imageeditor/undoaction.cpp:53
-msgid "Rotate 180 Degrees"
-msgstr "১৮০ ডিগ্রি আবর্তন করো"
-
-#: utilities/imageeditor/undoaction.cpp:56
-msgid "Rotate 270 Degrees"
-msgstr "২৭০ ডিগ্রি আবর্তন করো"
-
-#: utilities/imageeditor/imageprint.cpp:74
-msgid "Image Settings"
-msgstr "ছবি মানসমূহ"
-
-#: utilities/imageeditor/imageprint.cpp:119
-#: utilities/imageeditor/imageprint.cpp:271
-msgid "Centimeters"
-msgstr "সেন্টিমিটার"
-
-#: utilities/imageeditor/imageprint.cpp:120
-msgid "Inches"
-msgstr "ইঞ্চি"
-
-#: utilities/imageeditor/imageresizedlg.cpp:68
-msgid "Width (%):"
-msgstr "প্রস্থ (%):"
-
-#: utilities/imageeditor/imageresizedlg.cpp:74
-msgid "Height (%):"
-msgstr "উচ্চতা (%):"
-
-#: utilities/imageeditor/imageresizedlg.cpp:80
-msgid "Maintain aspect ratio"
-msgstr "দৃষ্টিভঙ্গি অনুপাত বজায় রাখো"
-
-#: utilities/imageeditor/canvas.cpp:250
-msgid "Calculating..."
-msgstr "গণনা করছে..."
-
-#: utilities/imageeditor/imagepluginloader.cpp:165
-#, c-format
-msgid ""
-"_n: 1 Image Plugin Loaded\n"
-"%n Image Plugins Loaded"
-msgstr ""
-" একটি ছবি প্লাগিন লোড করা হল\n"
-"%n-টি ছবি প্লাগিন লোড করা হল"
-
-#: utilities/cameragui/camerainfodialog.cpp:34
-msgid "Camera Information"
-msgstr "ক্যামেরা তথ্য"
-
-#: utilities/cameragui/camerainfodialog.cpp:41
-msgid "Summary"
-msgstr "সারসংক্ষেপ"
-
-#: utilities/cameragui/gpiteminfodlg.cpp:34
-msgid "Camera File Properties"
-msgstr "ক্যামেরা ফাইল বৈশিষ্ট্যাবলী"
-
-#: utilities/cameragui/gpiteminfodlg.cpp:49
-msgid "Folder:"
-msgstr "ফোল্ডার:"
-
-#: utilities/cameragui/gpiteminfodlg.cpp:59
-msgid "Read Permissions:"
-msgstr "পড়ার অনুমতি:"
-
-#: utilities/cameragui/gpiteminfodlg.cpp:69
-msgid "Write Permissions:"
-msgstr "লেখার অনুমতি:"
-
-#: utilities/cameragui/gpiteminfodlg.cpp:84
-msgid "Mime:"
-msgstr "মাইম:"
-
-#: utilities/cameragui/gpiteminfodlg.cpp:102
-msgid "Already Downloaded:"
-msgstr "ইতিমধ্যে ডাউনলোডকৃত:"
-
-#: utilities/cameragui/renamecustomizer.cpp:87
-msgid "Prefix:"
-msgstr "উপপদ:"
-
-#: utilities/cameragui/renamecustomizer.cpp:97
-msgid "Add sequence number"
-msgstr "ধারাবাহিক সংখ্যা যোগ করো"
-
-#: utilities/cameragui/renamecustomizer.cpp:217
-msgid "photo"
-msgstr "ছবি"
-
-#: utilities/cameragui/albumselectdialog.cpp:46
-msgid "Select Album"
-msgstr "অ্যালবাম নির্বাচন করো"
-
-#: utilities/cameragui/albumselectdialog.cpp:206
-msgid "Create New Album"
-msgstr "নতুন অ্যালবাম তৈরি করো"
-
-#: utilities/cameragui/albumselectdialog.cpp:228
-msgid "New Album Name"
-msgstr "নতুন অ্যালবাম নাম"
-
-#: utilities/cameragui/cameracontroller.cpp:177
-msgid "Connecting to camera..."
-msgstr "ক্যামেরায় সংযোগ করছে..."
-
-#: utilities/cameragui/cameracontroller.cpp:186
-msgid "Connection established"
-msgstr "সংযোগ স্থাপন করা হয়েছে"
-
-#: utilities/cameragui/cameracontroller.cpp:188
-msgid "Connection failed"
-msgstr "সংযোগ ব্যর্থ হল"
-
-#: utilities/cameragui/cameracontroller.cpp:194
-msgid "Listing folders..."
-msgstr "ফোল্ডার তালিকাভুক্ত করছে..."
-
-#: utilities/cameragui/cameracontroller.cpp:208
-msgid "Finished listing folders..."
-msgstr "ফোল্ডার তালিকাভুক্ত করা শেষ হল..."
-
-#: utilities/cameragui/cameracontroller.cpp:216
-msgid "Listing files in %1..."
-msgstr "%1-এ ফাইল তালিকাভুক্ত করছে..."
-
-#: utilities/cameragui/cameracontroller.cpp:222
-#, c-format
-msgid "Failed to list files in %1"
-msgstr "%1-এ ফাইল তালিকাভুক্ত করতে ব্যর্থ হল"
-
-#: utilities/cameragui/cameracontroller.cpp:239
-#, c-format
-msgid "Finished listing files in %1"
-msgstr "%1-এ ফাইল তালিকাভুক্ত করা শেষ হল"
-
-#: utilities/cameragui/cameracontroller.cpp:285
-#: utilities/cameragui/cameracontroller.cpp:680
-#, c-format
-msgid "Failed to retrieve EXIF information for %1"
-msgstr "%1-এর এক্সিফ তথ্য আহরন করতে ব্যর্থ"
-
-#: utilities/cameragui/cameracontroller.cpp:311
-msgid "Downloading file %1..."
-msgstr "ফাইল %1 ডাউনলোড করছে..."
-
-#: utilities/cameragui/cameracontroller.cpp:366
-msgid "Retrieving file %1 from camera..."
-msgstr "ক্যামেরা থেকে ফাইল %1 আহরন করা হচ্ছে..."
-
-#: utilities/cameragui/cameracontroller.cpp:381
-msgid "Failed to retrieve file %1 from camera"
-msgstr "ক্যামেরা থেকে ফাইল %1 আহরন করতে ব্যর্থ"
-
-#: utilities/cameragui/cameracontroller.cpp:392
-msgid "Uploading file %1..."
-msgstr "ফাইল %1 আপলোড করছে..."
-
-#: utilities/cameragui/cameracontroller.cpp:420
-msgid "Deleting file %1..."
-msgstr "ফাইল %1 মুছে ফেলছে..."
-
-#: utilities/cameragui/cameracontroller.cpp:700
-#, c-format
-msgid "Failed to download file %1."
-msgstr "ফাইল %1 ডাউনলোড করতে ব্যর্থ।"
-
-#: utilities/cameragui/cameracontroller.cpp:709
-#: utilities/cameragui/cameracontroller.cpp:742
-msgid " Do you want to continue?"
-msgstr " আপনি কি চালিয়ে যেতে চান?"
-
-#: utilities/cameragui/cameracontroller.cpp:733
-#, c-format
-msgid "Failed to delete file %1."
-msgstr "ফাইল %1 মুছে ফেলতে ব্যর্থ।"
-
-#: utilities/cameragui/cameraui.cpp:164
-msgid "Digikam Handbook"
-msgstr "ডিজিক্যাম গাইডবই"
-
-#: utilities/cameragui/cameraui.cpp:185
-msgid "Download Selected"
-msgstr "নির্বাচিত ডাউনলোড করো"
-
-#: utilities/cameragui/cameraui.cpp:188
-msgid "Download All"
-msgstr "সমস্ত ডাউনলোড করো"
-
-#: utilities/cameragui/cameraui.cpp:197
-msgid "Delete Selected"
-msgstr "নির্বাচিত মুছে ফেলো"
-
-#: utilities/cameragui/cameraui.cpp:317
-msgid "Ready"
-msgstr "তৈরি"
-
-#: utilities/cameragui/cameraui.cpp:343
-msgid "Connection Failed"
-msgstr "সংযোগ ব্যর্থ হল"
-
-#: utilities/cameragui/cameraui.cpp:420
-msgid "Select Destination Album for Importing Camera Images"
-msgstr "ক্যামেরা ছবি আমদানি করার জন্য গন্তব্য অ্যালবাম নির্বাচন করো"
-
-#: utilities/cameragui/cameraui.cpp:690
-msgid "A file with same name (%1) exists in folder %2"
-msgstr "একই নামের একটি ফাইল (%1) ফোল্ডার %2-এ রয়েছে"
-
-#: utilities/cameragui/cameraiconview.cpp:248
-msgid "EXIF Information"
-msgstr "এক্সিফ তথ্য"
-
-#: utilities/cameragui/cameraiconview.cpp:250
-msgid "Download"
-msgstr "ডাউনলোড করো"
-
-#: libs/dcraw/dcrawbinary.cpp:78
-msgid ""
-"<qt><p>Unable to find the dcraw executable:<br> This program is required by %"
-"1 to support raw file formats. You can run %1 without this, but you will not "
-"be able to view or edit any images in raw file formats. Please install dcraw "
-"as a package from your distributor or <a href=\"%2\">download the source</a>."
-"</p><p>Do you want to continue starting %1?</p></qt>"
-msgstr ""
-
-#: libs/widgets/curveswidget.cpp:206 libs/widgets/histogramwidget.cpp:317
-msgid ""
-"Histogram\n"
-"calculation\n"
-"in progress..."
-msgstr ""
-
-#: libs/widgets/curveswidget.cpp:220 libs/widgets/histogramwidget.cpp:331
-msgid ""
-"Histogram\n"
-"calculation\n"
-"failed."
-msgstr ""
-
-#: libs/widgets/curveswidget.cpp:439 libs/widgets/histogramwidget.cpp:752
-#, c-format
-msgid "x:%1"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:193
-#: libs/widgets/histogramwidget.cpp:778
-#: showfoto/imagepropertieshistogram.cpp:193
-msgid "Mean:"
-msgstr ""
-
-#: libs/widgets/histogramwidget.cpp:786
-msgid "Std dev.:"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:208
-#: libs/widgets/histogramwidget.cpp:790
-#: showfoto/imagepropertieshistogram.cpp:208
-msgid "Count:"
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:66
-msgid ""
-"<p>Here you can see the original clip image which will be used for the "
-"preview computation.<p>Click and drag the mouse cursor in the image to "
-"change the clip focus."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:83
-msgid ""
-"<p>Here you can see the original image panel which can help you to select "
-"the clip preview.<p>Click and drag the mouse cursor in the red rectangle to "
-"change the clip focus."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:90
-msgid "<p>This is the current percentage of the task completed."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:108
-msgid ""
-"<p>If you enable this option, you will separate the preview area "
-"horizontally, displaying the original and target image at the same time. The "
-"target is duplicated from the original below the red dashed line."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:119
-msgid ""
-"<p>If you enable this option, you will separate the preview area vertically, "
-"displaying the original and target image at the same time. The target is "
-"duplicated from the original to the right of the red dashed line."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:134
-msgid ""
-"<p>If you enable this option, you will separate the preview area "
-"horizontally, displaying the original and target image at the same time. The "
-"original is above the red dashed line, the target below it."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:145
-msgid ""
-"<p>If you enable this option, you will separate the preview area vertically, "
-"displaying the original and target image at the same time. The original is "
-"to the left of the red dashed line, the target to the right of it."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:157
-msgid "<p>If you enable this option, the preview area will not be separated."
-msgstr ""
-
-#: libs/widgets/imagepannelwidget.cpp:311
-msgid "<nobr>Top left: (%1,%2)</nobr><br><nobr>Bottom right: (%3,%4)</nobr>"
-msgstr ""
-
-#: libs/widgets/imageguidewidget.cpp:267
-msgid "(%1,%2)<br>RGB:%3,%4,%5"
-msgstr ""
-
-#: libs/widgets/imageregionwidget.cpp:218
-#: libs/widgets/imageregionwidget.cpp:254
-msgid "Target"
-msgstr ""
-
-#: libs/widgets/imageregionwidget.cpp:228
-#: libs/widgets/imageregionwidget.cpp:264
-msgid "Original"
-msgstr ""
-
-#: digikam/imagepropertiesgeneral.cpp:79
-#: showfoto/imagepropertiesgeneral.cpp:75
-msgid "Dimensions:"
-msgstr ""
-
-#: digikam/cameralist.cpp:195
-msgid ""
-"Failed to auto-detect camera; please make sure it is connected properly and "
-"is turned on. Would you like to try again?"
-msgstr ""
-
-#: digikam/dio.cpp:187
-#, c-format
-msgid ""
-"Failed to rename file\n"
-"%1"
-msgstr ""
-
-#: digikam/dio.cpp:188
-msgid "Rename Failed"
-msgstr ""
-
-#: digikam/scanlib.cpp:54
-msgid ""
-"This shows the progress of the scan. During the scan, all files on disk are "
-"put in a database. This is required for sorting on exif-date and speeds up "
-"the overall performance of digiKam."
-msgstr ""
-
-#: digikam/scanlib.cpp:129
-#, c-format
-msgid ""
-"_n: There is an album in the database which does not appear to be on disk. "
-"This album should be removed from the database, however you may lose "
-"information because all images associated with this album will be removed "
-"from the database as well. digiKam cannot continue without removing the "
-"items from the database because all views depend on the information in the "
-"database. Do you want them to be removed from the database?\n"
-"There are %n albums in the database which do not appear to be on disk. These "
-"albums should be removed from the database, however you may lose information "
-"because all images associated with these albums will be removed from the "
-"database as well. digiKam cannot continue without removing the items from "
-"the database because all views depend on the information in the database. Do "
-"you want them to be removed from the database?"
-msgstr ""
-
-#: digikam/scanlib.cpp:437
-#, c-format
-msgid ""
-"_n: There is an item in the database which does not appear to be on disk or "
-"is located in the root album of the path. This file should be removed from "
-"the database, however you may lose information. digiKam cannot continue "
-"without removing the item from the database because all views depend on the "
-"information in the database. Do you want it to be removed from the "
-"database?\n"
-"There are %n items in the database which do not appear to be on disk or are "
-"located in the root album of the path. These files should be removed from "
-"the database, however you may lose information. digiKam cannot continue "
-"without removing these items from the database because all views depend on "
-"the information in the database. Do you want them to be removed from the "
-"database?"
-msgstr ""
-
-#: digikam/scanlib.cpp:447
-msgid "Files are Missing"
-msgstr ""
-
-#: digikam/imagedescedit.cpp:96
-msgid "Image Comments/Tags"
-msgstr ""
-
-#: digikam/imagedescedit.cpp:584
-msgid ""
-"You are currently viewing items in the tag '%1' that you are about to "
-"delete? You will need to close this dialog first if you want to delete the "
-"tag"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:72
-#: showfoto/imagepropertieshistogram.cpp:72 showfoto/showfoto.cpp:371
-#: utilities/imageeditor/imagewindow.cpp:316
-msgid "Luminosity"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:74
-#: digikam/imagepropertieshistogram.cpp:117
-#: imageplugins/imageeffect_rgb.cpp:98
-#: showfoto/imagepropertieshistogram.cpp:74
-#: showfoto/imagepropertieshistogram.cpp:117 showfoto/showfoto.cpp:373
-#: utilities/imageeditor/imagewindow.cpp:318
-msgid "Green"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:78
-#: showfoto/imagepropertieshistogram.cpp:78
-msgid ""
-"<p>Select here the histogram channel to display:<p><b>Luminosity</b>: "
-"drawing the image luminosity values.<p><b>Red</b>: drawing the red image "
-"channel values.<p><b>Green</b>: drawing the green image channel values."
-"<p><b>Blue</b>: drawing the blue image channel values.<p><b>Alpha</b>: "
-"drawing the alpha image channel values. This channel corresponding to the "
-"transparency value and is supported by some image formats such as PNG or GIF."
-"<p><b>Colors</b>: drawing all color channels values at the same time."
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:92
-#: showfoto/imagepropertieshistogram.cpp:92
-msgid ""
-"<p>Select here the histogram scale.<p>If the image's maximal counts are "
-"small, you can use the linear scale.<p>Logarithmic scale can be used when "
-"the maximal counts are big; if it is used, all values (small and large) will "
-"be visible on the graph."
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:106
-#: showfoto/imagepropertieshistogram.cpp:106
-msgid "<p>Logarithmic"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:120
-#: showfoto/imagepropertieshistogram.cpp:120
-msgid ""
-"<p>Select here the main color displayed with Colors Channel mode:<p><b>Red</"
-"b>: drawing the red image channel on the foreground.<p><b>Green</b>: drawing "
-"the green image channel on the foreground.<p><b>Blue</b>: drawing the blue "
-"image channel on the foreground.<p>"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:130
-#: showfoto/imagepropertieshistogram.cpp:130
-msgid ""
-"<p>Select here the histogram region computation:<p><b>Full Image</b>: "
-"drawing histogram using the full image.<p><b>Selection</b>: drawing "
-"histogram using the current image selection."
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:160
-#: showfoto/imagepropertieshistogram.cpp:160
-msgid "<p>This is the histogram drawing of the selected image channel"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:172
-#: showfoto/imagepropertieshistogram.cpp:172
-msgid "Intensity range:"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:176
-#: showfoto/imagepropertieshistogram.cpp:176
-msgid "<p>Select here the minimal intensity value of the histogram selection."
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:180
-#: showfoto/imagepropertieshistogram.cpp:180
-msgid "<p>Select here the maximal intensity value of the histogram selection."
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:189
-#: showfoto/imagepropertieshistogram.cpp:189
-msgid ""
-"<p>Here you can see the statistic results calculated with the selected "
-"histogram part. These values are available for all channels."
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:203
-#: showfoto/imagepropertieshistogram.cpp:203
-msgid "Standard deviation:"
-msgstr ""
-
-#: digikam/imagepropertieshistogram.cpp:218
-#: showfoto/imagepropertieshistogram.cpp:218
-msgid "Percentile:"
-msgstr ""
-
-#: digikam/digikamfirstrun.cpp:142 utilities/setup/setupgeneral.cpp:193
-msgid ""
-"No write access for this path.\n"
-"Warning: the comments and tag features will not work."
-msgstr ""
-
-#: digikam/albumfolderview.cpp:506 digikam/digikamapp.cpp:1394
-msgid "Move Album to Trash"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:564 digikam/albumfolderview.cpp:1107
-msgid ""
-"The Albums Library has not been set correctly.\n"
-"Select \"Configure Digikam\" from the Settings menu and choose a folder to "
-"use for the Albums Library."
-msgstr ""
-
-#: digikam/albumfolderview.cpp:655
-msgid ""
-"_n: Album '%1' has one subalbum. Moving this to trash will also move the "
-"subalbum to trash. Are you sure you want to continue?\n"
-"Album '%1' has %n subalbums. Moving this to trash will also move the "
-"subalbums to trash. Are you sure you want to continue?"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:669
-msgid ""
-"_n: Album '%1' has one subalbum. Deleting this will also delete the "
-"subalbum. Are you sure you want to continue?\n"
-"Album '%1' has %n subalbums. Deleting this will also delete the subalbums. "
-"Are you sure you want to continue?"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:680
-msgid "Move album '%1' to trash?"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:682
-msgid "Trash Album"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:683 digikam/albumiconview.cpp:849
-msgid "Trash"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:868 digikam/albumfolderview.cpp:996
-#: digikam/albumfolderview.cpp:1069 digikam/albumiconview.cpp:1088
-#: digikam/tagfolderview.cpp:576
-msgid "&Move Here"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:997 digikam/albumfolderview.cpp:1070
-#: digikam/albumiconview.cpp:1089
-msgid "&Copy Here"
-msgstr ""
-
-#: digikam/albumfolderview.cpp:1208
-msgid "Uncategorized Albums"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:100 digikam/tagcreatedlg.cpp:60
-#: digikam/tagcreatedlg.cpp:180
-msgid "&Title:"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:108
-msgid "Co&llection:"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:117
-msgid "Co&mments:"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:126
-msgid "Album &date:"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:136
-msgid ""
-"_: Button to select the date of the oldest image\n"
-"&Oldest"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:140
-msgid ""
-"_: This is a button which calculates the average date\n"
-"&Average"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:144
-msgid ""
-"_: Button to select the date of the newest image\n"
-"Newest"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:224
-msgid "Uncategorized Album"
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:327
-msgid "Could not calculate an average."
-msgstr ""
-
-#: digikam/albumpropsedit.cpp:328
-msgid "Could Not Calculate Average"
-msgstr ""
-
-#: digikam/albumsettings.cpp:106
-msgid "Holidays"
-msgstr ""
-
-#: digikam/albumsettings.cpp:109
-msgid "Party"
-msgstr ""
-
-#: digikam/albumsettings.cpp:110
-msgid "Todo"
-msgstr ""
-
-#: digikam/searchfolderview.cpp:84
-msgid "My Searches"
-msgstr ""
-
-#: digikam/searchfolderview.cpp:177
-msgid ""
-"Another search with same name exists.\n"
-"Please enter a new name:"
-msgstr ""
-
-#: digikam/searchfolderview.cpp:181 digikam/searchfolderview.cpp:184
-msgid "Name exists"
-msgstr ""
-
-#: digikam/searchfolderview.cpp:329
-msgid "New Simple Search..."
-msgstr ""
-
-#: digikam/searchfolderview.cpp:330
-msgid "New Advanced Search..."
-msgstr ""
-
-#: digikam/searchfolderview.cpp:353
-msgid "Edit Search..."
-msgstr ""
-
-#: digikam/searchfolderview.cpp:357
-msgid "Edit as Advanced Search..."
-msgstr ""
-
-#: digikam/searchfolderview.cpp:359
-msgid "Delete Search"
-msgstr ""
-
-#: digikam/tagcreatedlg.cpp:44
-msgid "<qt><b>Create New Tag in <i>%1</i></b></qt>"
-msgstr ""
-
-#: digikam/tagcreatedlg.cpp:70 digikam/tagcreatedlg.cpp:191
-msgid "&Icon:"
-msgstr ""
-
-#: digikam/tagfilterview.cpp:582 digikam/tagfolderview.cpp:481
-msgid ""
-"Tag '%1' has %2 subtag(s). Deleting this will also delete the subtag(s). Are "
-"you sure you want to continue?"
-msgstr ""
-
-#: digikam/tagfilterview.cpp:294 digikam/tagfolderview.cpp:685
-msgid "Assign Tag '%1' to Dropped Items"
-msgstr ""
-
-#: digikam/kdatepickerpopup.cpp:61
-msgid "&Today"
-msgstr ""
-
-#: digikam/kdatepickerpopup.cpp:62
-msgid "To&morrow"
-msgstr ""
-
-#: digikam/kdatepickerpopup.cpp:63
-msgid "&Friday"
-msgstr ""
-
-#: digikam/kdatepickerpopup.cpp:64
-msgid "&Sunday"
-msgstr ""
-
-#: digikam/kdatepickerpopup.cpp:65
-msgid "Next &Week"
-msgstr ""
-
-#: digikam/kdatepickerpopup.cpp:66
-msgid "Next M&onth"
-msgstr ""
-
-#: digikam/main.cpp:60
-msgid "Automatically detect and open camera"
-msgstr ""
-
-#: digikam/main.cpp:61
-msgid "Open camera dialog at <path>"
-msgstr ""
-
-#: digikam/main.cpp:67
-msgid "A Photo-Management Application for KDE"
-msgstr ""
-
-#: digikam/main.cpp:82
-msgid "Main coordinator and developer"
-msgstr ""
-
-#: digikam/main.cpp:87
-msgid "Developer, co-coordinator, French translations"
-msgstr ""
-
-#: digikam/main.cpp:187
-msgid "Various usability fixes and general application polishing"
-msgstr ""
-
-#: digikam/albummanager.cpp:246
-msgid ""
-"Your locale has changed from the previous time this album was opened.\n"
-"Old Locale : %1, New Locale : %2\n"
-"This can cause unexpected problems. If you are sure that you want to "
-"continue, click on 'Yes' to work with this album. Otherwise, click on 'No' "
-"and correct your locale setting before restarting digiKam"
-msgstr ""
-
-#: digikam/albummanager.cpp:749
-msgid "No parent found for album."
-msgstr ""
-
-#: digikam/albummanager.cpp:789
-msgid "Access denied to path"
-msgstr ""
-
-#: digikam/albummanager.cpp:829 digikam/albummanager.cpp:910
-#: digikam/albummanager.cpp:982 digikam/albummanager.cpp:1015
-#: digikam/albummanager.cpp:1055
-msgid "No such album"
-msgstr ""
-
-#: digikam/albummanager.cpp:835
-msgid "Cannot rename root album"
-msgstr ""
-
-#: digikam/albummanager.cpp:916
-msgid "Cannot edit root album"
-msgstr ""
-
-#: digikam/albummanager.cpp:933
-msgid "No parent found for tag"
-msgstr ""
-
-#: digikam/albummanager.cpp:988
-msgid "Cannot delete Root Tag"
-msgstr ""
-
-#: digikam/albummanager.cpp:1021 digikam/albummanager.cpp:1085
-msgid "Cannot edit root tag"
-msgstr ""
-
-#: digikam/albummanager.cpp:1061
-msgid "Cannot move root tag"
-msgstr ""
-
-#: digikam/albummanager.cpp:1079
-msgid "No such tag"
-msgstr ""
-
-#: digikam/albumiconview.cpp:481 digikam/digikamapp.cpp:384
-msgid "View/Edit..."
-msgstr ""
-
-#: digikam/albumiconview.cpp:482
-msgid "Open With"
-msgstr ""
-
-#: digikam/albumiconview.cpp:486 utilities/imageeditor/imagewindow.cpp:251
-msgid "Edit Comments && Tags..."
-msgstr ""
 
 #: digikam/albumiconview.cpp:606 digikam/digikamapp.cpp:1396
 #: showfoto/showfoto.cpp:494 utilities/imageeditor/imagewindow.cpp:468
@@ -1995,6 +1218,31 @@ msgstr ""
 msgid "Trash Image"
 msgstr ""
 
+#: digikam/albumiconview.cpp:848
+msgid "Delete Image"
+msgstr "ছবি মুছে ফেলো"
+
+#: digikam/albumiconview.cpp:1125
+msgid "&Assign Tag '%1' to Selected Images"
+msgstr "নির্বাচিত ছবিতে ট্যাগ '%1' &বরাদ্দ করো"
+
+#: digikam/albumiconview.cpp:1167
+msgid "&Assign Tags to Selected Images"
+msgstr "নির্বাচিত ছবিতে ট্যাগ &বরাদ্দ করো"
+
+#: digikam/albumiconview.cpp:1333
+#, c-format
+msgid "Failed to correct Exif orientation for file %1."
+msgstr "ফাইল %1-এর এক্সিফ দিশা সঠিক করতে ব্যর্থ।"
+
+#: digikam/tagfilterview.cpp:82
+msgid "Not Tagged"
+msgstr "ট্যাগযুক্ত নয়"
+
+#: digikam/digikamview.cpp:101 digikam/tagfilterview.cpp:162
+msgid "Tag Filters"
+msgstr "ট্যাগ ফিল্টার"
+
 #: digikam/imageproperties.cpp:97 showfoto/imageproperties.cpp:69
 msgid "&General"
 msgstr ""
@@ -2008,6 +1256,15 @@ msgstr ""
 msgid "&Histogram"
 msgstr ""
 
+#: digikam/imageproperties.cpp:178 showfoto/imageproperties.cpp:105
+msgid "Properties for '%1'"
+msgstr " '%1'-এর বৈশিষ্ট্যাবলী"
+
+#: digikam/kipiinterface.cpp:268 digikam/kipiinterface.cpp:284
+#, c-format
+msgid "Tag: %1"
+msgstr "ট্যাগ: %1"
+
 #: digikam/kipiinterface.cpp:639
 msgid "Target URL %1 is not valid."
 msgstr ""
@@ -2016,11 +1273,23 @@ msgstr ""
 msgid "Target album is not in the albums library."
 msgstr ""
 
+#: digikam/datefolderview.cpp:110
+msgid "My Dates"
+msgstr "আমার তারিখ"
+
+#: digikam/searchadvanceddialog.cpp:44
+msgid "Advanced Search"
+msgstr "উন্নত অনুসন্ধান"
+
 #: digikam/searchadvanceddialog.cpp:61
 msgid ""
-"<p>Here you can see the items found in album library using the current "
-"search settings."
+"<p>Here you can see the items found in album library using the current search "
+"settings."
 msgstr ""
+
+#: digikam/searchadvanceddialog.cpp:66
+msgid "Search Rules"
+msgstr "অনুসন্ধান নিয়মাবলী"
 
 #: digikam/searchadvanceddialog.cpp:67
 msgid ""
@@ -2034,13 +1303,23 @@ msgstr ""
 
 #: digikam/searchadvanceddialog.cpp:82
 msgid ""
-"<p>You can control here the search rules list contents, to adding/removing "
-"an option."
+"<p>You can control here the search rules list contents, to adding/removing an "
+"option."
 msgstr ""
 
 #: digikam/searchadvanceddialog.cpp:88 digikam/searchwidgets.cpp:240
 msgid "As Well As"
 msgstr ""
+
+#: digikam/searchadvanceddialog.cpp:89 digikam/searchwidgets.cpp:123
+#: digikam/searchwidgets.cpp:235 digikam/searchwidgets.cpp:429
+#: digikam/searchwidgets.cpp:542
+msgid "Or"
+msgstr "অথবা"
+
+#: digikam/digikamview.cpp:548 digikam/searchadvanceddialog.cpp:91
+msgid "&Add"
+msgstr "যো&গ করো"
 
 #: digikam/searchadvanceddialog.cpp:92
 msgid "&Del"
@@ -2052,8 +1331,8 @@ msgstr ""
 
 #: digikam/searchadvanceddialog.cpp:105
 msgid ""
-"<p>You can group together or ungroup any search options from the Search "
-"Rules list."
+"<p>You can group together or ungroup any search options from the Search Rules "
+"list."
 msgstr ""
 
 #: digikam/searchadvanceddialog.cpp:109
@@ -2070,8 +1349,7 @@ msgstr ""
 
 #: digikam/searchadvanceddialog.cpp:124 digikam/searchquickdialog.cpp:65
 msgid ""
-"<p>Enter here the name used to save the current search in \"My Searches\" "
-"view"
+"<p>Enter here the name used to save the current search in \"My Searches\" view"
 msgstr ""
 
 #: digikam/digikamapp.cpp:208
@@ -2094,6 +1372,18 @@ msgstr ""
 msgid "&Back"
 msgstr ""
 
+#: digikam/digikamapp.cpp:282
+msgid "Forward"
+msgstr "ফরওয়ার্ড"
+
+#: digikam/digikamapp.cpp:299
+msgid "&New Album..."
+msgstr "&নতুন অ্যালবাম..."
+
+#: digikam/digikamapp.cpp:306
+msgid "This option creates a new empty Album in the database."
+msgstr "এই অপশনটি ডেটাবেসে একটি নতুন ফাঁকা অ্যালবাম তৈরি করে।"
+
 #: digikam/digikamapp.cpp:308
 msgid "&Sort Albums"
 msgstr ""
@@ -2110,11 +1400,27 @@ msgstr ""
 msgid "By Date"
 msgstr ""
 
+#: digikam/digikamapp.cpp:332
+msgid "Add Images..."
+msgstr "ছবি যোগ করো..."
+
+#: digikam/digikamapp.cpp:339
+msgid "This option adds new images to the current Album."
+msgstr "এই অপশনটি বর্তমান অ্যালবামে নতুন ছবি যোগ করে।"
+
+#: digikam/digikamapp.cpp:341
+msgid "Import Folders..."
+msgstr "ফোল্ডার আমদানি করো..."
+
 #: digikam/digikamapp.cpp:357
 msgid ""
 "This option allows you to set the Album Properties information about the "
 "Collection."
 msgstr ""
+
+#: digikam/digikamapp.cpp:360
+msgid "Open in Konqueror"
+msgstr "কনকরার-এ খোলা"
 
 #: digikam/digikamapp.cpp:370
 msgid "New &Tag..."
@@ -2132,14 +1438,13 @@ msgstr ""
 
 #: digikam/digikamapp.cpp:401
 msgid ""
-"This option allows you to edit the comments and tags of the currently "
-"selected image."
+"This option allows you to edit the comments and tags of the currently selected "
+"image."
 msgstr ""
 
 #: digikam/digikamapp.cpp:411
 msgid ""
-"This option allows you to rename the filename of the currently selected "
-"image."
+"This option allows you to rename the filename of the currently selected image."
 msgstr ""
 
 #: digikam/digikamapp.cpp:429
@@ -2167,6 +1472,14 @@ msgstr ""
 #: digikam/digikamapp.cpp:447
 msgid "By Rating"
 msgstr ""
+
+#: digikam/digikamapp.cpp:456
+msgid "Correct Exif Orientation Tag"
+msgstr "সঠিক এক্সিফ দিশা ট্যাগ"
+
+#: digikam/digikamapp.cpp:462
+msgid "Normal"
+msgstr "স্বাভাবিক"
 
 #: digikam/digikamapp.cpp:464
 msgid "Flipped Horizontally"
@@ -2220,6 +1533,19 @@ msgstr ""
 msgid "This option allows you to decrease the Album thumbnails size."
 msgstr ""
 
+#: digikam/digikamapp.cpp:559 utilities/imageeditor/imagewindow.cpp:302
+msgid "Toggle Full Screen"
+msgstr "টোগল পূর্ণ পর্দা"
+
+#: digikam/digikamapp.cpp:566
+msgid "This option allows you to toggle the main windows in full screen mode."
+msgstr ""
+"এই অপশনটি পূর্ণ পর্দা মোডে প্রধান উইন্ডোগুলো টোগল করতে আপনাকে অনুমোদন করে।"
+
+#: digikam/digikamapp.cpp:573
+msgid "Kipi Plugins Handbook"
+msgstr "কিপি প্লাগিন গাইডবই"
+
 #: digikam/digikamapp.cpp:586
 msgid "Gamma Adjustment..."
 msgstr ""
@@ -2248,6 +1574,22 @@ msgstr ""
 msgid "Five Star"
 msgstr ""
 
+#: digikam/digikamapp.cpp:619
+msgid "Quick Search..."
+msgstr "চটপট অনুসন্ধান..."
+
+#: digikam/digikamapp.cpp:623
+msgid "Advanced Search..."
+msgstr "উন্নত অনুসন্ধান..."
+
+#: digikam/digikamapp.cpp:626
+msgid "Scan for New Images"
+msgstr "নতুন ছবির জন্য স্ক্যান করো"
+
+#: digikam/digikamapp.cpp:638
+msgid "Loading cameras"
+msgstr "ক্যামেরা লোড করছে"
+
 #: digikam/digikamapp.cpp:895
 msgid ""
 "Cannot start \"KGamma\" extension from KDE control center;\n"
@@ -2259,12 +1601,36 @@ msgstr ""
 msgid "Browse %1"
 msgstr ""
 
+#: digikam/digikamapp.cpp:983
+#, c-format
+msgid "Images found in %1"
+msgstr "%1-এ ছবি খুঁজে পেয়েছে"
+
+#: digikam/digikamapp.cpp:1042
+msgid "No Media Devices Found"
+msgstr "কোনও মিডিয়া ডিভাইস খুঁজে পায়নি"
+
+#: digikam/digikamapp.cpp:1177 showfoto/setup.cpp:45
+#: showfoto/showfoto.cpp:1256 utilities/imageeditor/imagewindow.cpp:1394
+msgid "General"
+msgstr "সাধারণ"
+
+#: digikam/digikamapp.cpp:1302 utilities/imageeditor/imagepluginloader.cpp:105
+#: utilities/imageeditor/imagepluginloader.cpp:156
+#, c-format
+msgid "Loading: %1"
+msgstr "লোড করছে: %1"
+
 #: digikam/digikamapp.cpp:1343
 #, c-format
 msgid ""
 "_n: 1 Kipi Plugin Loaded\n"
 "%n Kipi Plugins Loaded"
 msgstr ""
+
+#: digikam/digikamapp.cpp:1365
+msgid "Add Camera..."
+msgstr "ক্যামেরা যোগ করো..."
 
 #: digikam/albumicongroupitem.cpp:96
 msgid ""
@@ -2358,10 +1724,19 @@ msgstr ""
 
 #: digikam/imagepropertiesexif.cpp:53 showfoto/imagepropertiesexif.cpp:61
 msgid ""
-"<p>Select here the Exif information level to display<p><b>Simple</b>: "
-"display general information about the photograph  (default).<p><b>Full</b>: "
-"display all EXIF sections."
+"<p>Select here the Exif information level to display"
+"<p><b>Simple</b>: display general information about the photograph  (default)."
+"<p><b>Full</b>: display all EXIF sections."
 msgstr ""
+
+#: digikam/imagepropertiesexif.cpp:61 digikam/imagepropertiesexif.cpp:117
+#: showfoto/imagepropertiesexif.cpp:69 showfoto/imagepropertiesexif.cpp:124
+msgid "Simple"
+msgstr "সহজ"
+
+#: digikam/imagepropertiesexif.cpp:62 showfoto/imagepropertiesexif.cpp:70
+msgid "Full"
+msgstr "পূর্ণ"
 
 #: digikam/searchquickdialog.cpp:41
 msgid "Quick Search"
@@ -2373,23 +1748,48 @@ msgstr ""
 
 #: digikam/searchquickdialog.cpp:57
 msgid ""
-"<p>Here you can see the items found in albums library using the current "
-"search arguments"
+"<p>Here you can see the items found in albums library using the current search "
+"arguments"
 msgstr ""
 
 #: digikam/searchquickdialog.cpp:62
 msgid "Save search as:"
 msgstr ""
 
+#: digikam/digikamview.cpp:96 utilities/cameragui/albumselectdialog.cpp:69
+#: utilities/setup/setup.cpp:52
+msgid "Albums"
+msgstr "অ্যালবাম"
+
+#: digikam/digikamview.cpp:97
+msgid "Dates"
+msgstr "তারিখ"
+
+#: digikam/digikamview.cpp:99
+msgid "Searches"
+msgstr "অনুসন্ধান"
+
+#: digikam/digikamview.cpp:546
+msgid "Add Images"
+msgstr "ছবি যোগ করো"
+
 #: digikam/tagspopupmenu.cpp:143 digikam/tagspopupmenu.cpp:231
 msgid "Add New Tag..."
 msgstr ""
 
+#: showfoto/setupplugins.cpp:56 utilities/setup/setupeditor.cpp:120
+msgid "Name"
+msgstr "নাম"
+
+#: showfoto/setupplugins.cpp:58 utilities/setup/setupeditor.cpp:122
+msgid "Description"
+msgstr "বর্ণনা"
+
 #: showfoto/setupplugins.cpp:61 utilities/setup/setupeditor.cpp:125
 msgid ""
-"<p>You can set here the list of plugins which must be enabled/disabled for "
-"the future digiKam image editor instances.<p>Note: the core image plugin "
-"cannot be disabled."
+"<p>You can set here the list of plugins which must be enabled/disabled for the "
+"future digiKam image editor instances."
+"<p>Note: the core image plugin cannot be disabled."
 msgstr ""
 
 #: showfoto/setupplugins.cpp:97 utilities/setup/setupeditor.cpp:160
@@ -2423,6 +1823,10 @@ msgstr ""
 msgid "<p>Slideshow running in loop with all current images."
 msgstr ""
 
+#: showfoto/setupslideshow.cpp:58
+msgid "Fullscreen mode"
+msgstr "পূর্ণপর্দা মোড"
+
 #: showfoto/setupslideshow.cpp:59
 msgid "<p>Toggle in fullScreen mode during Slideshow."
 msgstr ""
@@ -2430,6 +1834,18 @@ msgstr ""
 #: showfoto/main.cpp:43
 msgid "File(s) to open"
 msgstr ""
+
+#: showfoto/main.cpp:49
+msgid "KDE Photo Viewer and Editor"
+msgstr "কেডিই ছবি প্রদর্শক এবং সম্পাদক"
+
+#: showfoto/main.cpp:52
+msgid "showFoto"
+msgstr "ছবি প্রদর্শক"
+
+#: showfoto/main.cpp:56
+msgid "(c) 2004-2006, digiKam developers team"
+msgstr "(c) ২০০৪-২০০৬, ডিজিক্যাম ডেভেলপার দল"
 
 #: showfoto/setupeditor.cpp:54 utilities/setup/setupeditor.cpp:54
 msgid "Saving Images Options"
@@ -2441,10 +1857,12 @@ msgstr ""
 
 #: showfoto/setupeditor.cpp:60 utilities/setup/setupeditor.cpp:61
 msgid ""
-"<p>The quality value for JPEG images:<p><b>1</b>: low quality (high "
-"compression and small file size)<p><b>50</b>: medium quality<p><b>75</b>: "
-"good quality (default)<p><b>100</b>: high quality (no compression and large "
-"file size)<p><b>Note: JPEG is not a lossless image compression format.</b>"
+"<p>The quality value for JPEG images:"
+"<p><b>1</b>: low quality (high compression and small file size)"
+"<p><b>50</b>: medium quality"
+"<p><b>75</b>: good quality (default)"
+"<p><b>100</b>: high quality (no compression and large file size)"
+"<p><b>Note: JPEG is not a lossless image compression format.</b>"
 msgstr ""
 
 #: showfoto/setupeditor.cpp:69 utilities/setup/setupeditor.cpp:70
@@ -2453,11 +1871,12 @@ msgstr ""
 
 #: showfoto/setupeditor.cpp:71 utilities/setup/setupeditor.cpp:72
 msgid ""
-"<p>The compression value for PNG images:<p><b>1</b>: low compression (large "
-"file size but short compression duration - default)<p><b>5</b>: medium "
-"compression<p><b>9</b>: high compression (small file size but long "
-"compression duration)<p><b>Note: PNG is always a lossless image compression "
-"format.</b>"
+"<p>The compression value for PNG images:"
+"<p><b>1</b>: low compression (large file size but short compression duration - "
+"default)"
+"<p><b>5</b>: medium compression"
+"<p><b>9</b>: high compression (small file size but long compression duration)"
+"<p><b>Note: PNG is always a lossless image compression format.</b>"
 msgstr ""
 
 #: showfoto/setupeditor.cpp:79 utilities/setup/setupeditor.cpp:80
@@ -2466,10 +1885,16 @@ msgstr ""
 
 #: showfoto/setupeditor.cpp:82 utilities/setup/setupeditor.cpp:83
 msgid ""
-"<p>Toggle compression for TIFF images.<p>If you enable this option, you can "
-"reduce the final file size of the TIFF image.</p><p>A lossless compression "
-"format (Adobe Deflate) is used to save the file.<p>"
+"<p>Toggle compression for TIFF images."
+"<p>If you enable this option, you can reduce the final file size of the TIFF "
+"image.</p>"
+"<p>A lossless compression format (Adobe Deflate) is used to save the file."
+"<p>"
 msgstr ""
+
+#: showfoto/setupeditor.cpp:92 utilities/setup/setupeditor.cpp:93
+msgid "Interface Options"
+msgstr "ইন্টারফেস অপশনস"
 
 #: showfoto/setupeditor.cpp:96 utilities/setup/setupeditor.cpp:98
 msgid "&Background color:"
@@ -2494,6 +1919,18 @@ msgstr ""
 #: showfoto/setupeditor.cpp:107 utilities/setup/setupmisc.cpp:44
 msgid "&Show splash screen at startup"
 msgstr ""
+
+#: showfoto/setup.cpp:45
+msgid "General Settings"
+msgstr "সাধারণ মানসমূহ"
+
+#: showfoto/setup.cpp:49
+msgid "Image Plugins"
+msgstr "ছবি প্লাগিন"
+
+#: showfoto/setup.cpp:49 utilities/setup/setupeditor.cpp:114
+msgid "Image Plugins List"
+msgstr "ছবি প্লাগিন তালিকা"
 
 #: showfoto/setup.cpp:53 showfoto/showfoto.cpp:378
 msgid "Slide Show"
@@ -2543,9 +1980,23 @@ msgstr ""
 msgid "&Last"
 msgstr ""
 
+#: showfoto/showfoto.cpp:298 utilities/imageeditor/imagewindow.cpp:231
+msgid "Print Image..."
+msgstr "ছবি প্রিন্ট করো..."
+
+#: showfoto/showfoto.cpp:308 showfoto/showfoto.cpp:499
+#: utilities/imageeditor/imagewindow.cpp:246
+#: utilities/imageeditor/imagewindow.cpp:473
+msgid "Delete File"
+msgstr "ফাইল মুছে ফেলো"
+
 #: showfoto/showfoto.cpp:345 utilities/imageeditor/imagewindow.cpp:297
 msgid "Zoom &AutoFit"
 msgstr ""
+
+#: showfoto/showfoto.cpp:354
+msgid "Fullscreen"
+msgstr "পূর্ণপর্দা"
 
 #: showfoto/showfoto.cpp:360
 msgid "Hide Thumbnails"
@@ -2559,9 +2010,29 @@ msgstr ""
 msgid "&Rotate"
 msgstr ""
 
+#: showfoto/showfoto.cpp:389 utilities/imageeditor/imagewindow.cpp:344
+msgid "90 Degrees"
+msgstr "৯০ ডিগ্রি"
+
+#: showfoto/showfoto.cpp:393 utilities/imageeditor/imagewindow.cpp:348
+msgid "180 Degrees"
+msgstr "১৮০ ডিগ্রি"
+
+#: showfoto/showfoto.cpp:397 utilities/imageeditor/imagewindow.cpp:352
+msgid "270 Degrees"
+msgstr "২৭০ ডিগ্রি"
+
 #: showfoto/showfoto.cpp:407 utilities/imageeditor/imagewindow.cpp:362
 msgid "Flip"
 msgstr ""
+
+#: showfoto/showfoto.cpp:413 utilities/imageeditor/imagewindow.cpp:368
+msgid "Horizontally"
+msgstr "অনুভূমিকভাবে"
+
+#: showfoto/showfoto.cpp:418 utilities/imageeditor/imagewindow.cpp:373
+msgid "Vertically"
+msgstr "উলম্বভাবে"
 
 #: showfoto/showfoto.cpp:427 utilities/imageeditor/imagewindow.cpp:325
 msgid "&Resize..."
@@ -2571,6 +2042,10 @@ msgstr ""
 msgid "Crop"
 msgstr ""
 
+#: showfoto/showfoto.cpp:439 utilities/imageeditor/imagewindow.cpp:382
+msgid "Image Plugins Handbooks"
+msgstr "ছবি প্লাগিন গাইডবই"
+
 #: showfoto/showfoto.cpp:455 utilities/imageeditor/imagewindow.cpp:144
 msgid "Exit Fullscreen"
 msgstr ""
@@ -2579,9 +2054,17 @@ msgstr ""
 msgid "Exit out of the fullscreen mode"
 msgstr ""
 
+#: showfoto/showfoto.cpp:459 showfoto/showfoto.cpp:467
+msgid "Next Image"
+msgstr "পরবর্তী ছবি"
+
 #: showfoto/showfoto.cpp:460 showfoto/showfoto.cpp:468
 msgid "Load Next Image"
 msgstr ""
+
+#: showfoto/showfoto.cpp:463 showfoto/showfoto.cpp:471
+msgid "Previous Image"
+msgstr "পূর্ববর্তী ছবি"
 
 #: showfoto/showfoto.cpp:464 showfoto/showfoto.cpp:472
 msgid "Load Previous Image"
@@ -2607,6 +2090,10 @@ msgstr ""
 msgid "Open Images"
 msgstr ""
 
+#: showfoto/showfoto.cpp:720 utilities/imageeditor/imagewindow.cpp:1035
+msgid "New Image File Name"
+msgstr "নতুন ছবির ফাইল নাম"
+
 #: showfoto/showfoto.cpp:760
 msgid "Target image file format \"%1\" unsupported."
 msgstr ""
@@ -2618,6 +2105,10 @@ msgstr ""
 #: showfoto/showfoto.cpp:787
 msgid "About to overwrite file %1. Are you sure you want to continue?"
 msgstr ""
+
+#: showfoto/showfoto.cpp:803 showfoto/showfoto.cpp:913
+msgid "Failed to save file '%1'"
+msgstr "ফাইল '%1' সংরক্ষণ করতে ব্যর্থ"
 
 #: showfoto/showfoto.cpp:836 showfoto/showfoto.cpp:939
 #: utilities/imageeditor/imagewindow.cpp:1003
@@ -2634,6 +2125,15 @@ msgstr ""
 msgid "No support for saving non-local files"
 msgstr ""
 
+#: showfoto/showfoto.cpp:1304 utilities/imageeditor/imagewindow.cpp:951
+#, c-format
+msgid "Print %1"
+msgstr "%1 প্রিন্ট করো"
+
+#: showfoto/showfoto.cpp:1312 utilities/imageeditor/imagewindow.cpp:959
+msgid "Failed to print file: '%1'"
+msgstr "ফাইল প্রিন্ট করতে ব্যর্থ: '%1'"
+
 #: showfoto/showfoto.cpp:1343 utilities/imageeditor/imagewindow.cpp:777
 msgid "Zoom: "
 msgstr ""
@@ -2643,6 +2143,26 @@ msgid ""
 "About to Delete File \"%1\"\n"
 "Are you sure?"
 msgstr ""
+
+#: showfoto/showfoto.cpp:1504 utilities/imageeditor/imagewindow.cpp:557
+msgid " (%2 of %3)"
+msgstr "(%3 এর %2)"
+
+#: showfoto/showfoto.cpp:1630
+msgid "Open Images From Directory"
+msgstr "ডিরেক্টরী থেকে ছবি খোলো"
+
+#: _translatorinfo.cpp:1
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "গোলাম মোর্তুজা হোসেন"
+
+#: _translatorinfo.cpp:3
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "gmhossain@gmail.com"
 
 #: kioslave/digikamthumbnail.cpp:116
 msgid "No or invalid size specified"
@@ -2683,17 +2203,23 @@ msgstr ""
 
 #: kioslave/digikamalbums.cpp:820
 msgid ""
-"This file/folder is on a different filesystem through symlinks. Moving/"
-"Renaming files between them is currently unsupported "
+"This file/folder is on a different filesystem through symlinks. Moving/Renaming "
+"files between them is currently unsupported "
 msgstr ""
+
+#. i18n: file ./digikam/firstrunUI.ui line 27
+#: rc.cpp:3
+#, no-c-format
+msgid "<b>Albums Library Folder</b>"
+msgstr "<b>অ্যালবাম লাইব্রেরী ফোল্ডার</b>"
 
 #. i18n: file ./digikam/firstrunUI.ui line 76
 #: rc.cpp:7
 #, no-c-format
 msgid ""
 "Digikam will store the photo albums you create in an Albums Library folder. "
-"Please select which folder you would like Digikam to use as the Albums "
-"Library folder below."
+"Please select which folder you would like Digikam to use as the Albums Library "
+"folder below."
 msgstr ""
 
 #. i18n: file ./digikam/digikamui.rc line 7
@@ -2788,6 +2314,10 @@ msgstr ""
 msgid "Hue/Saturation/Lightness..."
 msgstr ""
 
+#: imageplugins/imageplugin_core.cpp:80
+msgid "Color Balance..."
+msgstr "রংয়ের ভারসাম্য..."
+
 #: imageplugins/imageplugin_core.cpp:84
 msgid "Auto-Correction..."
 msgstr ""
@@ -2804,25 +2334,55 @@ msgstr ""
 msgid "Aspect Ratio Crop..."
 msgstr ""
 
+#: imageplugins/imageeffect_autocorrection.cpp:50
+msgid "Auto Color Correction"
+msgstr "স্বয়ংক্রিয় রং সংশোধন"
+
+#: imageplugins/imageeffect_autocorrection.cpp:65
+msgid "<p>This is the auto-color correction tool preview"
+msgstr "<p>এইটি স্বয়ংক্রিয় রঙ সংশোধন সরঞ্জাম প্রাকদর্শন"
+
+#: imageplugins/imageeffect_autocorrection.cpp:74
+#: imageplugins/imageeffect_autocorrection.cpp:78
+#: imageplugins/imageeffect_autocorrection.cpp:177
+msgid "Auto Levels"
+msgstr "স্বয়ংক্রিয় স্তর"
+
+#: imageplugins/imageeffect_autocorrection.cpp:75
+#: imageplugins/imageeffect_autocorrection.cpp:181
+msgid "Normalize"
+msgstr "সমন্বয়সাধন করো"
+
+#: imageplugins/imageeffect_autocorrection.cpp:76
+#: imageplugins/imageeffect_autocorrection.cpp:185
+msgid "Equalize"
+msgstr "সমকক্ষ করো"
+
+#: imageplugins/imageeffect_autocorrection.cpp:77
+#: imageplugins/imageeffect_autocorrection.cpp:189
+msgid "Stretch Contrast"
+msgstr "বৈসাদৃশ্য প্রসারিত করো"
+
 #: imageplugins/imageeffect_autocorrection.cpp:79
 msgid ""
-"<p>Select here the auto-color correction tool to use:<p><b>Auto Levels</b>: "
-"This option maximizes the tonal range in the Red, Green, and Blue channels. "
-"It search the image shadow and highlight limit values and adjust the Red, "
-"Green, and Blue channels to a full histogram range.<p><b>Normalize</b>: this "
-"option scales brightness values across the active image so that the darkest "
-"point becomes black, and the brightest point becomes as bright as possible "
-"without altering its hue. This is often a \"magic fix\" for images that are "
-"dim or washed out.<p><b>Equalize</b>: this option adjusts the brightness of "
-"colors across the active image so that the histogram for the Value channel "
-"is as nearly as possible flat, that is, so that each possible brightness "
-"value appears at about the same number of pixels as each other value. "
-"Sometimes Equalize works wonderfully at enhancing the contrasts in an image. "
-"Other times it gives garbage. It is a very powerful operation, which can "
-"either work miracles on an image or destroy it.<p><b>Stretch Contrast</b>: "
-"this option enhances the contrast and brightness of the RGB values of an "
-"image by stretching the lowest and highest values to their fullest range, "
-"adjusting everything in between."
+"<p>Select here the auto-color correction tool to use:"
+"<p><b>Auto Levels</b>: This option maximizes the tonal range in the Red, Green, "
+"and Blue channels. It search the image shadow and highlight limit values and "
+"adjust the Red, Green, and Blue channels to a full histogram range."
+"<p><b>Normalize</b>: this option scales brightness values across the active "
+"image so that the darkest point becomes black, and the brightest point becomes "
+"as bright as possible without altering its hue. This is often a \"magic fix\" "
+"for images that are dim or washed out."
+"<p><b>Equalize</b>: this option adjusts the brightness of colors across the "
+"active image so that the histogram for the Value channel is as nearly as "
+"possible flat, that is, so that each possible brightness value appears at about "
+"the same number of pixels as each other value. Sometimes Equalize works "
+"wonderfully at enhancing the contrasts in an image. Other times it gives "
+"garbage. It is a very powerful operation, which can either work miracles on an "
+"image or destroy it."
+"<p><b>Stretch Contrast</b>: this option enhances the contrast and brightness of "
+"the RGB values of an image by stretching the lowest and highest values to their "
+"fullest range, adjusting everything in between."
 msgstr ""
 
 #: imageplugins/imageeffect_blur.cpp:50
@@ -2949,9 +2509,17 @@ msgstr ""
 
 #: imageplugins/imageeffect_ratiocrop.cpp:75
 msgid ""
-"<p>Here you can see the aspect ratio selection preview used for cropping. "
-"You can use the mouse for moving and resizing the crop area."
+"<p>Here you can see the aspect ratio selection preview used for cropping. You "
+"can use the mouse for moving and resizing the crop area."
 msgstr ""
+
+#: imageplugins/imageeffect_ratiocrop.cpp:89
+msgid "Aspect ratio:"
+msgstr "দৃষ্টিভঙ্গি অনুপাত:"
+
+#: imageplugins/imageeffect_ratiocrop.cpp:91
+msgid "Custom"
+msgstr "স্বনির্বাচিত"
 
 #: imageplugins/imageeffect_ratiocrop.cpp:98
 msgid "Golden Ratio"
@@ -2963,9 +2531,17 @@ msgid ""
 "1:1.618. A composition following this rule is considered visually harmonious"
 msgstr ""
 
+#: imageplugins/imageeffect_ratiocrop.cpp:105
+msgid "Orientation:"
+msgstr "দিশা:"
+
 #: imageplugins/imageeffect_ratiocrop.cpp:109
 msgid "<p>Select here constrained aspect ratio orientation."
 msgstr ""
+
+#: imageplugins/imageeffect_ratiocrop.cpp:118
+msgid "Custom ratio:"
+msgstr "স্বনির্বাচিত অনুপাত:"
 
 #: imageplugins/imageeffect_ratiocrop.cpp:121
 msgid "<p>Set here the desired custom aspect numerator value."
@@ -2984,6 +2560,12 @@ msgstr ""
 msgid "X:"
 msgstr ""
 
+#: imageplugins/imageeffect_ratiocrop.cpp:139
+#: utilities/cameragui/gpiteminfodlg.cpp:87
+#: utilities/imageeditor/imageresizedlg.cpp:56
+msgid "Width:"
+msgstr "প্রস্থ:"
+
 #: imageplugins/imageeffect_ratiocrop.cpp:140
 msgid "<p>Set here the width selection for cropping."
 msgstr ""
@@ -2996,6 +2578,12 @@ msgstr ""
 msgid "Y:"
 msgstr ""
 
+#: imageplugins/imageeffect_ratiocrop.cpp:159
+#: utilities/cameragui/gpiteminfodlg.cpp:91
+#: utilities/imageeditor/imageresizedlg.cpp:62
+msgid "Height:"
+msgstr "উচ্চতা:"
+
 #: imageplugins/imageeffect_ratiocrop.cpp:160
 msgid "<p>Set here the height selection for cropping."
 msgstr ""
@@ -3003,6 +2591,10 @@ msgstr ""
 #: imageplugins/imageeffect_ratiocrop.cpp:166
 msgid "<p>Set height position to center."
 msgstr ""
+
+#: imageplugins/imageeffect_ratiocrop.cpp:181
+msgid "Composition guide:"
+msgstr "গ্রন্থন সহায়িকা:"
 
 #: imageplugins/imageeffect_ratiocrop.cpp:183
 msgid "Rules of Thirds"
@@ -3018,8 +2610,8 @@ msgstr ""
 
 #: imageplugins/imageeffect_ratiocrop.cpp:188
 msgid ""
-"<p>With this option, you can display guide lines which help you to compose "
-"your photograph."
+"<p>With this option, you can display guide lines which help you to compose your "
+"photograph."
 msgstr ""
 
 #: imageplugins/imageeffect_ratiocrop.cpp:191
@@ -3069,6 +2661,10 @@ msgstr ""
 #: imageplugins/imageeffect_ratiocrop.cpp:207
 msgid "<p>Enable this option to flip vertically guidelines."
 msgstr ""
+
+#: imageplugins/imageeffect_ratiocrop.cpp:209
+msgid "Color and width:"
+msgstr "রং এবং প্রস্থ:"
 
 #: imageplugins/imageeffect_ratiocrop.cpp:212
 msgid "<p>Set here the color used to draw composition guides."
@@ -3133,25 +2729,29 @@ msgstr ""
 
 #: imageplugins/imageeffect_bwsepia.cpp:86
 msgid ""
-"<p>Select here the black and white conversion type:<p><b>Neutral</b>: "
-"simulate black and white neutral film exposure.<p><b>Green Filter</b>: "
-"simulate black and white film exposure using green filter. This provides an "
-"universal asset for all scenics, especially suited for portraits "
-"photographed against sky.<p><b>Orange Filter</b>: simulate black and white "
-"film exposure using orange filter. This will enhances landscapes, marine "
-"scenes and aerial photography.<p><b>Red Filter</b>: simulate black and white "
-"film exposure using red filter. Using this one creates dramatic sky effects "
-"and simulates moonlight scenes in daytime.<p><b>Yellow Filter</b>: simulate "
-"black and white film exposure using yellow filter. Most natural tonal "
-"correction and improves contrast. Ideal for landscapes.<p><b>Sepia Tone</b>: "
-"gives a warm highlight and mid-tone while adding a bit of coolness to the "
-"shadows-very similar to the process of bleaching a print and re-developing "
-"in a sepia toner.<p><b>Brown Tone</b>: more neutral than Sepia Tone filter."
-"<p><b>Cold Tone</b>: start subtle and replicate printing on a cold tone "
-"black and white paper such as a bromide enlarging paper.<p><b>Selenium Tone</"
-"b>: effect that replicate traditional selenium chemical toning done in the "
-"darkroom.<p><b>Platinum Tone</b>: effect that replicate traditional platinum "
-"chemical toning done in the darkroom."
+"<p>Select here the black and white conversion type:"
+"<p><b>Neutral</b>: simulate black and white neutral film exposure."
+"<p><b>Green Filter</b>: simulate black and white film exposure using green "
+"filter. This provides an universal asset for all scenics, especially suited for "
+"portraits photographed against sky."
+"<p><b>Orange Filter</b>: simulate black and white film exposure using orange "
+"filter. This will enhances landscapes, marine scenes and aerial photography."
+"<p><b>Red Filter</b>: simulate black and white film exposure using red filter. "
+"Using this one creates dramatic sky effects and simulates moonlight scenes in "
+"daytime."
+"<p><b>Yellow Filter</b>: simulate black and white film exposure using yellow "
+"filter. Most natural tonal correction and improves contrast. Ideal for "
+"landscapes."
+"<p><b>Sepia Tone</b>: gives a warm highlight and mid-tone while adding a bit of "
+"coolness to the shadows-very similar to the process of bleaching a print and "
+"re-developing in a sepia toner."
+"<p><b>Brown Tone</b>: more neutral than Sepia Tone filter."
+"<p><b>Cold Tone</b>: start subtle and replicate printing on a cold tone black "
+"and white paper such as a bromide enlarging paper."
+"<p><b>Selenium Tone</b>: effect that replicate traditional selenium chemical "
+"toning done in the darkroom."
+"<p><b>Platinum Tone</b>: effect that replicate traditional platinum chemical "
+"toning done in the darkroom."
 msgstr ""
 
 #: imageplugins/imageeffect_bwsepia.cpp:181
@@ -3211,6 +2811,10 @@ msgstr ""
 #: imageplugins/imageeffect_sharpen.cpp:277
 msgid "Sharpen"
 msgstr ""
+
+#: imageplugins/imageeffect_rgb.cpp:52 imageplugins/imageeffect_rgb.cpp:214
+msgid "Color Balance"
+msgstr "রংয়ের ভারসাম্য"
 
 #: imageplugins/imageeffect_rgb.cpp:63
 msgid "<p>Here you can see the image color-balance adjustments preview."
@@ -3343,8 +2947,8 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that albums in digiKam are Folders in your Album Library? So you can "
-"easily import your Photos by simply copying them to your Album Library.\n"
+"... that albums in digiKam are Folders in your Album Library? So you can easily "
+"import your Photos by simply copying them to your Album Library.\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3360,8 +2964,8 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that you can customize your digikam toolbars using Settings -> Configure "
-"Toolbars...?\n"
+"... that you can customize your digikam toolbars using Settings -> "
+"Configure Toolbars...?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3377,9 +2981,9 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that there is a digiKam hotplugging howto available at <a href=\"http://"
-"digikam.free.fr/hotplug/howto.html\">http://digikam.free.fr/hotplug/howto."
-"html</a> ?\n"
+"... that there is a digiKam hotplugging howto available at <a "
+"href=\"http://digikam.free.fr/hotplug/howto.html\">http://digikam.free.fr/hotplu"
+"g/howto.html</a> ?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3396,9 +3000,9 @@ msgid ""
 "</td>\n"
 "<td>\n"
 "... that you can reach other users using the digikam-users mailing list? "
-"Subscribe yourself to the list at <a href=\"https://mail.kde.org/mailman/"
-"listinfo/digikam-users\">https://mail.kde.org/mailman/listinfo/digikam-"
-"users</a>.\n"
+"Subscribe yourself to the list at <a "
+"href=\"https://mail.kde.org/mailman/listinfo/digikam-users\">"
+"https://mail.kde.org/mailman/listinfo/digikam-users</a>.\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3414,11 +3018,11 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that digiKam has multiple plugins with extra features like <b>HTML "
-"export</b>, <b>Archive to CD</b>, <b>Slideshow</b>,... and that you are "
-"welcome to write your own plugins? You can find more information about this "
-"at <a href=\"http://extragear.kde.org/apps/kipi\">http://extragear.kde.org/"
-"apps/kipi</a>.\n"
+"... that digiKam has multiple plugins with extra features like <b>"
+"HTML export</b>, <b>Archive to CD</b>, <b>Slideshow</b>"
+",... and that you are welcome to write your own plugins? You can find more "
+"information about this at <a href=\"http://extragear.kde.org/apps/kipi\">"
+"http://extragear.kde.org/apps/kipi</a>.\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3432,8 +3036,8 @@ msgid ""
 "<tr>\n"
 "<td><img src=\"crystalsvg/32x32/apps/digikam.png\"></td>\n"
 "<td>\n"
-"... that you have direct access to the KDE Gamma Configuration using Tools -"
-"> Gamma Adjustment?\n"
+"... that you have direct access to the KDE Gamma Configuration using Tools -> "
+"Gamma Adjustment?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3465,8 +3069,8 @@ msgid ""
 "<td><img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that you can use the <b>PNG</b> file format instead of <b>TIFF</b> for "
-"good compression without losing image quality?\n"
+"... that you can use the <b>PNG</b> file format instead of <b>TIFF</b> "
+"for good compression without losing image quality?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3498,8 +3102,8 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that because the PNG file format uses a lossless compression algorithm, "
-"you can use the max compression level with this file format?\n"
+"... that because the PNG file format uses a lossless compression algorithm, you "
+"can use the max compression level with this file format?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3515,8 +3119,7 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that you can print the current image opened in the digiKam image "
-"editor?\n"
+"... that you can print the current image opened in the digiKam image editor?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3532,8 +3135,8 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that you can edit the comments of the current image opened in the "
-"digiKam image editor?\n"
+"... that you can edit the comments of the current image opened in the digiKam "
+"image editor?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
@@ -3549,13 +3152,35 @@ msgid ""
 "<img src=\"crystalsvg/32x32/apps/digikam.png\">\n"
 "</td>\n"
 "<td>\n"
-"... that you could use &lt;Page Down&gt; and &lt;Page Up&gt; on your "
-"keyboard to switch between the photos in the image editor?\n"
+"... that you could use &lt;Page Down&gt; and &lt;Page Up&gt; on your keyboard "
+"to switch between the photos in the image editor?\n"
 "</td>\n"
 "</tr>\n"
 "</table>\n"
 "</p>\n"
 msgstr ""
+
+#: utilities/setup/setupplugins.cpp:59
+#, c-format
+msgid "Kipi version: %1"
+msgstr "কিপি সংস্করণ: %1"
+
+#: utilities/setup/setupplugins.cpp:67
+msgid "<p>A list of available Kipi plugins appears below."
+msgstr "<p>ব্যবহারযোগ্য কিপি প্লাগিনের একটি তালিকা নিচে রয়েছে।"
+
+#: utilities/setup/setupplugins.cpp:80
+#, c-format
+msgid ""
+"_n: 1 Kipi plugin found\n"
+"%n Kipi plugins found"
+msgstr ""
+"একটি কিপি প্লাগিন খুঁজে পেয়েছে\n"
+"%n-টি কিপি প্লাগিন খুঁজে পেয়েছে"
+
+#: utilities/setup/setupmime.cpp:49
+msgid "Image Files"
+msgstr "ছবি ফাইল"
 
 #: utilities/setup/setupmime.cpp:52
 msgid "Show only &image files with extensions:"
@@ -3568,6 +3193,10 @@ msgid ""
 "opened with the digiKam Image Editor."
 msgstr ""
 
+#: utilities/setup/setupmime.cpp:64
+msgid "Movie Files"
+msgstr "চলচ্চিত্র ফাইল"
+
 #: utilities/setup/setupmime.cpp:67
 msgid "Show only &movie files with extensions:"
 msgstr ""
@@ -3578,6 +3207,10 @@ msgid ""
 "(such as MPEG or AVI); when these files are double-clicked on they will be "
 "opened with the default KDE movie player."
 msgstr ""
+
+#: utilities/setup/setupmime.cpp:79
+msgid "Audio Files"
+msgstr "অডিও ফাইল"
 
 #: utilities/setup/setupmime.cpp:82
 msgid "Show only &audio files with extensions:"
@@ -3590,14 +3223,18 @@ msgid ""
 "opened with the default KDE audio player."
 msgstr ""
 
+#: utilities/setup/setupmime.cpp:96
+msgid "Raw Files"
+msgstr "কাঁচা ফাইল"
+
 #: utilities/setup/setupmime.cpp:99
 msgid "Show only &raw files with extensions:"
 msgstr ""
 
 #: utilities/setup/setupmime.cpp:102
 msgid ""
-"<p>Here you can set the extensions of RAW image files to be displayed in "
-"Albums (such as CRW, for Canon cameras, or NEF, for Nikon cameras)."
+"<p>Here you can set the extensions of RAW image files to be displayed in Albums "
+"(such as CRW, for Canon cameras, or NEF, for Nikon cameras)."
 msgstr ""
 
 #: utilities/setup/setupmisc.cpp:49
@@ -3606,8 +3243,8 @@ msgstr ""
 
 #: utilities/setup/setupcollections.cpp:72
 msgid ""
-"<p>You can add or remove Album collection types here to improve how your "
-"Albums are sorted in digiKam."
+"<p>You can add or remove Album collection types here to improve how your Albums "
+"are sorted in digiKam."
 msgstr ""
 
 #: utilities/setup/setupcamera.cpp:76 utilities/setup/setupcollections.cpp:81
@@ -3623,6 +3260,22 @@ msgstr ""
 #: utilities/setup/setupcollections.cpp:160
 msgid "Enter new collection name:"
 msgstr ""
+
+#: utilities/setup/setupcamera.cpp:55
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: utilities/setup/setupcamera.cpp:56
+msgid "Model"
+msgstr "মডেল"
+
+#: utilities/setup/setupcamera.cpp:57
+msgid "Port"
+msgstr "পোর্ট"
+
+#: utilities/setup/setupcamera.cpp:58
+msgid "Path"
+msgstr "পাথ"
 
 #: utilities/setup/setupcamera.cpp:61
 msgid ""
@@ -3641,15 +3294,21 @@ msgstr ""
 #: utilities/setup/setupcamera.cpp:189
 msgid ""
 "Failed to auto-detect camera.\n"
-"Please check if your camera is turned on and retry or try setting it "
-"manually."
+"Please check if your camera is turned on and retry or try setting it manually."
 msgstr ""
+
+#: utilities/setup/setupcamera.cpp:200
+msgid "Camera '%1' (%2) is already in list."
+msgstr "ক্যামেরা '%1' (%2) তালিকায় ইতিমধ্যে রয়েছে।"
+
+#: utilities/setup/setupcamera.cpp:203
+msgid "Found camera '%1' (%2) and added it to the list."
+msgstr "ক্যামেরা '%1' (%2) খুঁজে পেয়েছে এবং তালিকায় এটি যোগ করেছে।"
 
 #: utilities/setup/setupexif.cpp:61
 msgid ""
-"EXIF is a standard used by most digital cameras today to store information "
-"such as comments in image files. You can learn more about EXIF at www.exif."
-"org."
+"EXIF is a standard used by most digital cameras today to store information such "
+"as comments in image files. You can learn more about EXIF at www.exif.org."
 msgstr ""
 
 #: utilities/setup/setupexif.cpp:65
@@ -3664,6 +3323,14 @@ msgstr ""
 msgid "Set &EXIF orientation tag to normal after rotate/flip"
 msgstr ""
 
+#: utilities/setup/setup.cpp:56
+msgid "Embedded Info"
+msgstr "সন্নিবেশিত তথ্য"
+
+#: utilities/setup/setup.cpp:56
+msgid "Embedded Image Information"
+msgstr "সন্নিবেশিত ছবি তথ্য"
+
 #: utilities/setup/setup.cpp:60
 msgid "Collections"
 msgstr ""
@@ -3671,6 +3338,26 @@ msgstr ""
 #: utilities/setup/setup.cpp:60
 msgid "Album Collections"
 msgstr ""
+
+#: utilities/setup/setup.cpp:64
+msgid "Mime Types"
+msgstr "মাইম ধরন"
+
+#: utilities/setup/setup.cpp:64
+msgid "File (MIME) Types"
+msgstr "ফাইল (মাইম) ধরন"
+
+#: utilities/setup/setup.cpp:68
+msgid "Image Editor"
+msgstr "ছবি সম্পাদক"
+
+#: utilities/setup/setup.cpp:72
+msgid "Kipi Plugins"
+msgstr "কিপি প্লাগিন"
+
+#: utilities/setup/cameraselection.cpp:61 utilities/setup/setup.cpp:76
+msgid "Cameras"
+msgstr "ক্যামেরা"
 
 #: utilities/setup/setupgeneral.cpp:64
 msgid "Album &Library Path"
@@ -3686,6 +3373,10 @@ msgstr ""
 #: utilities/setup/setupgeneral.cpp:71
 msgid "&Change..."
 msgstr ""
+
+#: utilities/setup/setupgeneral.cpp:83
+msgid "Tooltips Settings"
+msgstr "টুলটিপ মানসমূহ"
 
 #: utilities/setup/setupgeneral.cpp:86
 msgid "Show toolti&ps for items"
@@ -3715,9 +3406,49 @@ msgstr ""
 msgid "Show &digiKam comments"
 msgstr ""
 
+#: utilities/setup/setupgeneral.cpp:118
+msgid "Show file rating"
+msgstr "ফাইল রেটিং দেখাও"
+
 #: utilities/setup/setupgeneral.cpp:122
 msgid "Show ima&ge dimensions (warning: slow)"
 msgstr ""
+
+#: utilities/setup/setupgeneral.cpp:187
+msgid "Sorry; cannot use home directory as albums library."
+msgstr "দুঃখিত; অ্যালবাম লাইব্রেরী হিসেবে হোম ডিরেক্টরী ব্যবহার করতে পারে না।"
+
+#: utilities/setup/cameraselection.cpp:39
+msgid "Camera Selection"
+msgstr "ক্যামেরা নির্বাচন"
+
+#: utilities/setup/cameraselection.cpp:44
+msgid "Mounted Camera"
+msgstr "মাউন্টকৃত ক্যামেরা"
+
+#: utilities/setup/cameraselection.cpp:53
+msgid "Camera Configuration"
+msgstr "ক্যামেরা কনফিগারেশন"
+
+#: utilities/setup/cameraselection.cpp:67
+msgid "Camera Title"
+msgstr "ক্যামেরা শিরোনাম"
+
+#: utilities/setup/cameraselection.cpp:79
+msgid "Camera Port Type"
+msgstr "ক্যামেরা পোর্ট ধরন"
+
+#: utilities/setup/cameraselection.cpp:85
+msgid "USB"
+msgstr "ইউএসবি"
+
+#: utilities/setup/cameraselection.cpp:88
+msgid "Serial"
+msgstr "সিরিয়াল"
+
+#: utilities/setup/cameraselection.cpp:93
+msgid "Camera Port Path"
+msgstr "ক্যামেরা পোর্ট পাথ"
 
 #: utilities/setup/cameraselection.cpp:101
 msgid ""
@@ -3731,15 +3462,28 @@ msgid ""
 "cameras"
 msgstr ""
 
+#: utilities/setup/cameraselection.cpp:124
+msgid "Camera Mount Path"
+msgstr "ক্যামেরা মাউন্ট পাথ"
+
+#: utilities/cameragui/gpiteminfodlg.cpp:53
+#: utilities/cameragui/gpiteminfodlg.cpp:63
+#: utilities/cameragui/gpiteminfodlg.cpp:88
+#: utilities/cameragui/gpiteminfodlg.cpp:92
+#: utilities/cameragui/gpiteminfodlg.cpp:96
+#: utilities/imageeditor/undoaction.h:118
+msgid "Unknown"
+msgstr "অজানা"
+
 #: utilities/imageeditor/imagewindow.cpp:207
 msgid "&Next"
 msgstr ""
 
 #: utilities/imageeditor/imagewindow.cpp:241
 msgid ""
-"This option display the current image properties, meta-data, and histogram. "
-"If you have selected a region, you can choose an histogram rendering for the "
-"full image or the current image selection."
+"This option display the current image properties, meta-data, and histogram. If "
+"you have selected a region, you can choose an histogram rendering for the full "
+"image or the current image selection."
 msgstr ""
 
 #: utilities/imageeditor/imagewindow.cpp:287
@@ -3760,11 +3504,19 @@ msgid ""
 "this action."
 msgstr ""
 
+#: utilities/imageeditor/imagewindow.cpp:425
+msgid "digiKam Image Editor - Album \"%1\""
+msgstr "ডিজিক্যাম ছবি সম্পাদক - অ্যালবাম \"%1\""
+
 #: utilities/imageeditor/imagewindow.cpp:926
 msgid ""
 "There is no image to show in the current album.\n"
 "The image editor will be closed."
 msgstr ""
+
+#: utilities/imageeditor/imagewindow.cpp:928
+msgid "No Image in Current Album"
+msgstr "বর্তমান অ্যালবামে কোনও ছবি নেই"
 
 #: utilities/imageeditor/imagewindow.cpp:977
 #: utilities/imageeditor/imagewindow.cpp:1141
@@ -3790,6 +3542,49 @@ msgid ""
 "\"%2\"."
 msgstr ""
 
+#: utilities/imageeditor/imagewindow.cpp:1114
+msgid ""
+"A file named \"%1\" already exists. Are you sure you want to overwrite it?"
+msgstr ""
+"\"%1\" নামের একটি ফাইল ইতিমধ্যে রয়েছে। আপনি কি নিশ্চিত আপনি এটির ওপর দিয়ে লিখতে "
+"চান?"
+
+#: utilities/imageeditor/imagewindow.cpp:1118
+msgid "Overwrite File?"
+msgstr "ফাইলের ওপর দিয়ে লেখো?"
+
+#: utilities/imageeditor/imagewindow.cpp:1119
+msgid "Overwrite"
+msgstr "ওপর দিয়ে লেখো"
+
+#: utilities/imageeditor/imagewindow.cpp:1175
+msgid "Failed to save to new file"
+msgstr "নতুন ফাইলে সংরক্ষণ করতে ব্যর্থ"
+
+#: utilities/imageeditor/imagewindow.cpp:1334
+msgid ""
+"The image \"%1\" has been modified.\n"
+"Do you want to save it?"
+msgstr ""
+"ছবি \"%1\"-এর পরিবর্তন করা হয়েছে।\n"
+"আপনি কি এটি সংরক্ষণ করতে চান?"
+
+#: utilities/imageeditor/undoaction.cpp:31
+msgid "unknown"
+msgstr "অজানা"
+
+#: utilities/imageeditor/undoaction.cpp:50
+msgid "Rotate 90 Degrees"
+msgstr "৯০ ডিগ্রি আবর্তন করো"
+
+#: utilities/imageeditor/undoaction.cpp:53
+msgid "Rotate 180 Degrees"
+msgstr "১৮০ ডিগ্রি আবর্তন করো"
+
+#: utilities/imageeditor/undoaction.cpp:56
+msgid "Rotate 270 Degrees"
+msgstr "২৭০ ডিগ্রি আবর্তন করো"
+
 #: utilities/imageeditor/undoaction.cpp:106
 msgid "Flip Horizontal"
 msgstr ""
@@ -3801,6 +3596,10 @@ msgstr ""
 #: utilities/imageeditor/undoaction.cpp:144
 msgid "Brightness,Contrast,Gamma"
 msgstr ""
+
+#: utilities/imageeditor/imageprint.cpp:74
+msgid "Image Settings"
+msgstr "ছবি মানসমূহ"
 
 #: utilities/imageeditor/imageprint.cpp:80
 msgid "Print fi&lename below image"
@@ -3826,13 +3625,79 @@ msgstr ""
 msgid "Print e&xact size: "
 msgstr ""
 
+#: utilities/imageeditor/imageprint.cpp:119
+#: utilities/imageeditor/imageprint.cpp:271
+msgid "Centimeters"
+msgstr "সেন্টিমিটার"
+
+#: utilities/imageeditor/imageprint.cpp:120
+msgid "Inches"
+msgstr "ইঞ্চি"
+
 #: utilities/imageeditor/imageresizedlg.cpp:38
 msgid "Resize Image"
 msgstr ""
 
+#: utilities/imageeditor/imageresizedlg.cpp:68
+msgid "Width (%):"
+msgstr "প্রস্থ (%):"
+
+#: utilities/imageeditor/imageresizedlg.cpp:74
+msgid "Height (%):"
+msgstr "উচ্চতা (%):"
+
+#: utilities/imageeditor/imageresizedlg.cpp:80
+msgid "Maintain aspect ratio"
+msgstr "দৃষ্টিভঙ্গি অনুপাত বজায় রাখো"
+
+#: utilities/imageeditor/canvas.cpp:250
+msgid "Calculating..."
+msgstr "গণনা করছে..."
+
+#: utilities/imageeditor/imagepluginloader.cpp:165
+#, c-format
+msgid ""
+"_n: 1 Image Plugin Loaded\n"
+"%n Image Plugins Loaded"
+msgstr ""
+" একটি ছবি প্লাগিন লোড করা হল\n"
+"%n-টি ছবি প্লাগিন লোড করা হল"
+
+#: utilities/cameragui/camerainfodialog.cpp:34
+msgid "Camera Information"
+msgstr "ক্যামেরা তথ্য"
+
+#: utilities/cameragui/camerainfodialog.cpp:41
+msgid "Summary"
+msgstr "সারসংক্ষেপ"
+
 #: utilities/cameragui/camerainfodialog.cpp:52
 msgid "Manual"
 msgstr ""
+
+#: utilities/cameragui/gpiteminfodlg.cpp:34
+msgid "Camera File Properties"
+msgstr "ক্যামেরা ফাইল বৈশিষ্ট্যাবলী"
+
+#: utilities/cameragui/gpiteminfodlg.cpp:49
+msgid "Folder:"
+msgstr "ফোল্ডার:"
+
+#: utilities/cameragui/gpiteminfodlg.cpp:59
+msgid "Read Permissions:"
+msgstr "পড়ার অনুমতি:"
+
+#: utilities/cameragui/gpiteminfodlg.cpp:69
+msgid "Write Permissions:"
+msgstr "লেখার অনুমতি:"
+
+#: utilities/cameragui/gpiteminfodlg.cpp:84
+msgid "Mime:"
+msgstr "মাইম:"
+
+#: utilities/cameragui/gpiteminfodlg.cpp:102
+msgid "Already Downloaded:"
+msgstr "ইতিমধ্যে ডাউনলোডকৃত:"
 
 #: utilities/cameragui/renamecustomizer.cpp:41
 msgid "Renaming Options"
@@ -3862,19 +3727,77 @@ msgstr ""
 msgid "Customize names"
 msgstr ""
 
+#: utilities/cameragui/renamecustomizer.cpp:87
+msgid "Prefix:"
+msgstr "উপপদ:"
+
 #: utilities/cameragui/renamecustomizer.cpp:93
 msgid "Add camera provided date and time"
 msgstr ""
 
+#: utilities/cameragui/renamecustomizer.cpp:97
+msgid "Add sequence number"
+msgstr "ধারাবাহিক সংখ্যা যোগ করো"
+
+#: utilities/cameragui/renamecustomizer.cpp:217
+msgid "photo"
+msgstr "ছবি"
+
+#: utilities/cameragui/albumselectdialog.cpp:46
+msgid "Select Album"
+msgstr "অ্যালবাম নির্বাচন করো"
+
 #: utilities/cameragui/albumselectdialog.cpp:49
 msgid "&New Album"
 msgstr ""
+
+#: utilities/cameragui/albumselectdialog.cpp:206
+msgid "Create New Album"
+msgstr "নতুন অ্যালবাম তৈরি করো"
+
+#: utilities/cameragui/albumselectdialog.cpp:228
+msgid "New Album Name"
+msgstr "নতুন অ্যালবাম নাম"
 
 #: utilities/cameragui/albumselectdialog.cpp:229
 msgid ""
 "Creating new album in '%1'\n"
 "Enter album name:"
 msgstr ""
+
+#: utilities/cameragui/cameracontroller.cpp:177
+msgid "Connecting to camera..."
+msgstr "ক্যামেরায় সংযোগ করছে..."
+
+#: utilities/cameragui/cameracontroller.cpp:186
+msgid "Connection established"
+msgstr "সংযোগ স্থাপন করা হয়েছে"
+
+#: utilities/cameragui/cameracontroller.cpp:188
+msgid "Connection failed"
+msgstr "সংযোগ ব্যর্থ হল"
+
+#: utilities/cameragui/cameracontroller.cpp:194
+msgid "Listing folders..."
+msgstr "ফোল্ডার তালিকাভুক্ত করছে..."
+
+#: utilities/cameragui/cameracontroller.cpp:208
+msgid "Finished listing folders..."
+msgstr "ফোল্ডার তালিকাভুক্ত করা শেষ হল..."
+
+#: utilities/cameragui/cameracontroller.cpp:216
+msgid "Listing files in %1..."
+msgstr "%1-এ ফাইল তালিকাভুক্ত করছে..."
+
+#: utilities/cameragui/cameracontroller.cpp:222
+#, c-format
+msgid "Failed to list files in %1"
+msgstr "%1-এ ফাইল তালিকাভুক্ত করতে ব্যর্থ হল"
+
+#: utilities/cameragui/cameracontroller.cpp:239
+#, c-format
+msgid "Finished listing files in %1"
+msgstr "%1-এ ফাইল তালিকাভুক্ত করা শেষ হল"
 
 #: utilities/cameragui/cameracontroller.cpp:249
 msgid "Getting thumbnail for %1/%2..."
@@ -3884,9 +3807,50 @@ msgstr ""
 msgid "Getting EXIF information for %1/%2..."
 msgstr ""
 
+#: utilities/cameragui/cameracontroller.cpp:285
+#: utilities/cameragui/cameracontroller.cpp:680
+#, c-format
+msgid "Failed to retrieve EXIF information for %1"
+msgstr "%1-এর এক্সিফ তথ্য আহরন করতে ব্যর্থ"
+
+#: utilities/cameragui/cameracontroller.cpp:311
+msgid "Downloading file %1..."
+msgstr "ফাইল %1 ডাউনলোড করছে..."
+
 #: utilities/cameragui/cameracontroller.cpp:325
 msgid "EXIF rotating file %1..."
 msgstr ""
+
+#: utilities/cameragui/cameracontroller.cpp:366
+msgid "Retrieving file %1 from camera..."
+msgstr "ক্যামেরা থেকে ফাইল %1 আহরন করা হচ্ছে..."
+
+#: utilities/cameragui/cameracontroller.cpp:381
+msgid "Failed to retrieve file %1 from camera"
+msgstr "ক্যামেরা থেকে ফাইল %1 আহরন করতে ব্যর্থ"
+
+#: utilities/cameragui/cameracontroller.cpp:392
+msgid "Uploading file %1..."
+msgstr "ফাইল %1 আপলোড করছে..."
+
+#: utilities/cameragui/cameracontroller.cpp:420
+msgid "Deleting file %1..."
+msgstr "ফাইল %1 মুছে ফেলছে..."
+
+#: utilities/cameragui/cameracontroller.cpp:700
+#, c-format
+msgid "Failed to download file %1."
+msgstr "ফাইল %1 ডাউনলোড করতে ব্যর্থ।"
+
+#: utilities/cameragui/cameracontroller.cpp:709
+#: utilities/cameragui/cameracontroller.cpp:742
+msgid " Do you want to continue?"
+msgstr " আপনি কি চালিয়ে যেতে চান?"
+
+#: utilities/cameragui/cameracontroller.cpp:733
+#, c-format
+msgid "Failed to delete file %1."
+msgstr "ফাইল %1 মুছে ফেলতে ব্যর্থ।"
 
 #: utilities/cameragui/cameracontroller.cpp:889
 #, c-format
@@ -3920,9 +3884,13 @@ msgstr ""
 
 #: utilities/cameragui/cameraui.cpp:151
 msgid ""
-"Download photos into automatically created date-based sub-albums of "
-"destination album"
+"Download photos into automatically created date-based sub-albums of destination "
+"album"
 msgstr ""
+
+#: utilities/cameragui/cameraui.cpp:164
+msgid "Digikam Handbook"
+msgstr "ডিজিক্যাম গাইডবই"
 
 #: utilities/cameragui/cameraui.cpp:171
 msgid "Select &All"
@@ -3940,11 +3908,31 @@ msgstr ""
 msgid "Select &New Items"
 msgstr ""
 
+#: utilities/cameragui/cameraui.cpp:185
+msgid "Download Selected"
+msgstr "নির্বাচিত ডাউনলোড করো"
+
+#: utilities/cameragui/cameraui.cpp:188
+msgid "Download All"
+msgstr "সমস্ত ডাউনলোড করো"
+
+#: utilities/cameragui/cameraui.cpp:197
+msgid "Delete Selected"
+msgstr "নির্বাচিত মুছে ফেলো"
+
+#: utilities/cameragui/cameraui.cpp:317
+msgid "Ready"
+msgstr "তৈরি"
+
 #: utilities/cameragui/cameraui.cpp:339
 msgid ""
-"Failed to connect to camera. Please make sure its connected properly and "
-"turned on. Would you like to try again?"
+"Failed to connect to camera. Please make sure its connected properly and turned "
+"on. Would you like to try again?"
 msgstr ""
+
+#: utilities/cameragui/cameraui.cpp:343
+msgid "Connection Failed"
+msgstr "সংযোগ ব্যর্থ হল"
 
 #: utilities/cameragui/cameraui.cpp:344
 msgid "Retry"
@@ -3959,15 +3947,29 @@ msgstr ""
 msgid "&Simple %1"
 msgstr ""
 
+#: utilities/cameragui/cameraui.cpp:420
+msgid "Select Destination Album for Importing Camera Images"
+msgstr "ক্যামেরা ছবি আমদানি করার জন্য গন্তব্য অ্যালবাম নির্বাচন করো"
+
 #: utilities/cameragui/cameraui.cpp:538 utilities/cameragui/cameraui.cpp:580
 #, c-format
 msgid ""
-"_n: About to delete this image. Deleted files are unrecoverable. Are you "
-"sure?\n"
-"About to delete these %n images. Deleted files are unrecoverable. Are you "
-"sure?"
+"_n: About to delete this image. Deleted files are unrecoverable. Are you sure?\n"
+"About to delete these %n images. Deleted files are unrecoverable. Are you sure?"
 msgstr ""
+
+#: utilities/cameragui/cameraui.cpp:690
+msgid "A file with same name (%1) exists in folder %2"
+msgstr "একই নামের একটি ফাইল (%1) ফোল্ডার %2-এ রয়েছে"
 
 #: utilities/cameragui/cameraui.cpp:703
 msgid "Failed to find Album for path '%1'"
 msgstr ""
+
+#: utilities/cameragui/cameraiconview.cpp:248
+msgid "EXIF Information"
+msgstr "এক্সিফ তথ্য"
+
+#: utilities/cameragui/cameraiconview.cpp:250
+msgid "Download"
+msgstr "ডাউনলোড করো"
