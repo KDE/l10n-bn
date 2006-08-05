@@ -13,7 +13,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kaffeine\n"
-"POT-Creation-Date: 2006-08-03 11:41+0200\n"
+"POT-Creation-Date: 2006-08-05 11:34+0200\n"
 "PO-Revision-Date: 2006-05-13 16:57-0500\n"
 "Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -209,7 +209,7 @@ msgid "Time shifting"
 msgstr "সময় পরিবর্তন"
 
 #: input/dvb/dvbconfig.cpp:614 input/dvb/dvbpanel.cpp:198
-#: player-parts/kaffeine-part/kxinewidget.cpp:2021
+#: player-parts/xine-part/kxinewidget.cpp:2021
 msgid "Recording"
 msgstr "রেকর্ডিং"
 
@@ -771,7 +771,7 @@ msgstr "অ্যালবাম:"
 #: input/disc/disc.cpp:553 input/disc/disc.cpp:556
 #: player-parts/gstreamer-part/gstreamer_part.cpp:442
 #: player-parts/gstreamer-part/gstreamer_part.cpp:673
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1157
+#: player-parts/xine-part/xine_part.cpp:1157
 msgid "Track"
 msgstr "ট্র্যাক"
 
@@ -960,7 +960,7 @@ msgstr "নতুন অনুসন্ধান শর্তাবলী ঢো
 #: input/audiobrowser/urllistview.cpp:44
 #: player-parts/dummy-part/dummy_part.cpp:121
 #: player-parts/gstreamer-part/gstreamer_part.cpp:820
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1264
+#: player-parts/xine-part/xine_part.cpp:1264
 msgid "Play"
 msgstr "চালাও"
 
@@ -991,7 +991,7 @@ msgstr "&তথ্য"
 #: input/audiobrowser/playlist.cpp:359 input/audiobrowser/urllistview.cpp:61
 #: input/audiobrowser/urllistview.cpp:196
 #: player-parts/gstreamer-part/gstreamer_part.cpp:683
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1163
+#: player-parts/xine-part/xine_part.cpp:1163
 msgid "Length"
 msgstr "দৈর্ঘ্য"
 
@@ -1001,25 +1001,25 @@ msgstr "ইউ.আর.এল"
 
 #: input/audiobrowser/playlist.cpp:356 input/audiobrowser/urllistview.cpp:191
 #: player-parts/gstreamer-part/gstreamer_part.cpp:669
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1153
+#: player-parts/xine-part/xine_part.cpp:1153
 msgid "Artist"
 msgstr "শিল্পী"
 
 #: input/audiobrowser/playlist.cpp:357 input/audiobrowser/urllistview.cpp:192
 #: player-parts/gstreamer-part/gstreamer_part.cpp:671
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1155
+#: player-parts/xine-part/xine_part.cpp:1155
 msgid "Album"
 msgstr "অ্যালবাম"
 
 #: input/audiobrowser/urllistview.cpp:194
 #: player-parts/gstreamer-part/gstreamer_part.cpp:675
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1159
+#: player-parts/xine-part/xine_part.cpp:1159
 msgid "Year"
 msgstr "সন"
 
 #: input/audiobrowser/urllistview.cpp:195
 #: player-parts/gstreamer-part/gstreamer_part.cpp:677
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1161
+#: player-parts/xine-part/xine_part.cpp:1161
 msgid "Genre"
 msgstr "Genre"
 
@@ -1178,7 +1178,7 @@ msgid "Enter different playlist name:"
 msgstr "সঙ্গীত-তালিকার আলাদা নাম ঢোকান:"
 
 #: input/audiobrowser/playlist.cpp:2292
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1315
+#: player-parts/xine-part/xine_part.cpp:1315
 msgid "Select Subtitle"
 msgstr "সাবটাইটেল নির্বাচন"
 
@@ -1199,17 +1199,17 @@ msgid "Play / Pause"
 msgstr "চালাও / থামাও"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:823
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1266 systemtray.cpp:56
+#: player-parts/xine-part/xine_part.cpp:1266 systemtray.cpp:56
 msgid "&Next"
 msgstr "&পরবর্তী"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:836
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1292 systemtray.cpp:59
+#: player-parts/xine-part/xine_part.cpp:1292 systemtray.cpp:59
 msgid "&Mute"
 msgstr "নী&রব করো"
 
-#: kaffeine.cpp:261 main.cpp:72
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1202 systemtray.cpp:74
+#: kaffeine.cpp:261 main.cpp:72 player-parts/xine-part/xine_part.cpp:1202
+#: systemtray.cpp:74
 msgid "Kaffeine Player"
 msgstr "ক্যাফিন প্লেয়ার"
 
@@ -1496,7 +1496,7 @@ msgstr "সম্পন্ন"
 
 #. i18n: file ./input/dvb/kaffeinedvb.rc line 4
 #: player-parts/gstreamer-part/gstreamer_part.cpp:840
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1301 rc.cpp:216
+#: player-parts/xine-part/xine_part.cpp:1301 rc.cpp:216
 #, no-c-format
 msgid "&DVB"
 msgstr "ডিভিবি (&ড)"
@@ -1741,68 +1741,68 @@ msgstr "প্লেয়া&র"
 msgid "Enable Auto &Resize"
 msgstr "স্বয়ংক্রী&য় আকার পরিবর্তন সক্রিয় করো"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 5
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 5
 #: rc.cpp:399
 #, no-c-format
 msgid "&Network Broadcasting"
 msgstr "নে&টওয়ার্ক সম্প্রচার"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 24
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 24
 #: rc.cpp:405 rc.cpp:411 rc.cpp:441
 #, no-c-format
 msgid "&Navigation"
 msgstr "দি&কনির্নয়"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 33
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 33
 #: rc.cpp:408 rc.cpp:444
 #, no-c-format
 msgid "&DVD"
 msgstr "ডিভিডি (&ড)"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 41
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 41
 #: rc.cpp:414 rc.cpp:447
 #, no-c-format
 msgid "&DVD Menus"
 msgstr "ডিভিডি মেনু (&ড)"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 56
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1322 rc.cpp:417
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 56
+#: player-parts/xine-part/xine_part.cpp:1322 rc.cpp:417
 #, no-c-format
 msgid "&Audio"
 msgstr "&অডিও"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 64
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 64
 #: rc.cpp:420
 #, no-c-format
 msgid "&Video"
 msgstr "ভিডি&ও"
 
 # FIXME
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 66
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 66
 #: rc.cpp:423 rc.cpp:453 rc.cpp:465
 #, no-c-format
 msgid "&Aspect Ratio"
 msgstr "দৃষ্টি&ভঙ্গি অনুপাত"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 96
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 96
 #: rc.cpp:429
 #, no-c-format
 msgid "Screenshot Toolbar"
 msgstr "স্ক্রীনশট টুলবার"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 99
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 99
 #: rc.cpp:432 rc.cpp:456
 #, no-c-format
 msgid "Controls Toolbar"
 msgstr "নিয়ন্ত্রণ টুলবার"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 108
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 108
 #: rc.cpp:435 rc.cpp:459
 #, no-c-format
 msgid "Volume Toolbar"
 msgstr "ভলিউম টুলবার"
 
-#. i18n: file ./player-parts/kaffeine-part/kaffeine_part.rc line 112
+#. i18n: file ./player-parts/xine-part/xine_part.rc line 112
 #: rc.cpp:438 rc.cpp:462
 #, no-c-format
 msgid "Position Toolbar"
@@ -1828,8 +1828,8 @@ msgstr "সিস্টেম ট্রেতে সন্নিবেশ কর
 msgid " sec"
 msgstr "সেকেন্ড"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:689
-#: player-parts/kaffeine-part/kxinewidget.cpp:407 pref.cpp:78
+#: player-parts/xine-part/kxinewidget.cpp:407
+#: player-parts/xine-part/xine_part.cpp:689 pref.cpp:78
 msgid "off"
 msgstr "বন্ধ"
 
@@ -2197,11 +2197,11 @@ msgstr "ডেস্কটপে একটি ক্যাফিন আইকন
 msgid "Installation Options"
 msgstr "ইনষ্টলেশন অপশনস"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:37
+#: player-parts/xine-part/deinterlacequality.cpp:37
 msgid "Deinterlace Quality"
 msgstr "ডি-ইন্টারলেস মান"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:58
+#: player-parts/xine-part/deinterlacequality.cpp:58
 msgid ""
 "<b>Very low cpu usage, worst quality.</b>"
 "<br>Half of vertical resolution is lost. For some systems (with PCI video "
@@ -2213,7 +2213,7 @@ msgstr ""
 "কার্ডের সঙ্গে) এটি সিপিইউ ব্যবহার সাধারন ভিডিও চালানোর তুলনায় কমাবে "
 "(ডি-ইন্টারলেসিং ছাড়া)।"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:61
+#: player-parts/xine-part/deinterlacequality.cpp:61
 msgid ""
 "<b>Low cpu usage, poor quality.</b>"
 "<br>Image is blurred vertically so interlacing effects are removed."
@@ -2221,7 +2221,7 @@ msgstr ""
 "<b>অল্প সিপিইউ ব্যবহার, খারাপ মান।</b>"
 "<br>চিত্র উলম্বভাবে ঝাপসা করা হয়যাতে ইন্টারলেসিং-এর প্রভাব বাদ দেওয়া যায়।"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:64
+#: player-parts/xine-part/deinterlacequality.cpp:64
 msgid ""
 "<b>Medium cpu usage, medium quality.</b>"
 "<br>Image is analysed and areas showing interlacing artifacts are fixed "
@@ -2231,7 +2231,7 @@ msgstr ""
 "<br>চিত্র বিশ্লেষণ করা হয়এবং যে অংশে ইন্টারলেসিং প্রভাব দেখা যায় তা ঠিক করা হয় "
 "(ইন্টারপোলেট করে)।"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:67
+#: player-parts/xine-part/deinterlacequality.cpp:67
 msgid ""
 "<b>High cpu usage, good quality.</b>"
 "<br>Conversion of dvd image format improves quality and fixes chroma upsampling "
@@ -2241,7 +2241,7 @@ msgstr ""
 "<br>ডিভিডি চিত্র ফরম্যাটের রূপান্তর মানের উন্নতি করে এবং ক্রোমা আপস্যামপ্লিং "
 "ত্রুটি মেরামত করে।"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:70
+#: player-parts/xine-part/deinterlacequality.cpp:70
 msgid ""
 "<b>Very high cpu usage, great quality.</b>"
 "<br>Besides using smart deinterlacing algorithms it will also double the frame "
@@ -2253,7 +2253,7 @@ msgstr ""
 "দ্বিগুন করবে (৩০->৬০ এফ-পি-এস) টিভির ফিল্ড-রেট-এর সঙ্গে মেলাতে। ৩-২ পুলডাউন "
 "সনাক্ত করে এবং পূর্বাবস্থায় প্রত্যাবর্তন করে। *"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:73
+#: player-parts/xine-part/deinterlacequality.cpp:73
 msgid ""
 "<b>Very very high cpu usage, great quality with (experimental) improvements.</b>"
 "<br>Enables judder correction (play films at their original 24 fps speed) and "
@@ -2264,123 +2264,125 @@ msgstr ""
 "মসৃণকরণ (কিছু ডিভিডিতে দেখতে পাওয়া ছোট রঙীন ডোরাকাটা দাগ মেরামত করে)সক্রিয় করে। "
 "*"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:76
+#: player-parts/xine-part/deinterlacequality.cpp:76
 msgid "User defined"
 msgstr "ব্যবহারকারী দ্বারা সংজ্ঞায়িত"
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:80
+#: player-parts/xine-part/deinterlacequality.cpp:80
 msgid "Configure tvtime Deinterlace Plugin..."
 msgstr "টিভিটাইম ডি-ইন্টারলেস প্লাগিন কনফিগার করো..."
 
-#: player-parts/kaffeine-part/deinterlacequality.cpp:85
+#: player-parts/xine-part/deinterlacequality.cpp:85
 msgid ""
 "* <i>May require a patched 2.4 kernel (like RedHat one) or 2.6 kernel.</i>"
 msgstr ""
 "*<i>হয়ত একটি প্যাচ-কৃত ২.৪ কার্নেল-এর প্রয়োজন (রেডহ্যাট-এর মত) অথবা ২.৬ "
 "কার্নেল।</i>"
 
-#: player-parts/kaffeine-part/deinterlacequality.h:41
+#: player-parts/xine-part/deinterlacequality.h:41
 msgid "Configure tvtime Deinterlace Plugin"
 msgstr "টিভিটাইম ডি-ইন্টারলেস প্লাগিন কনফিগার করো"
 
-#: player-parts/kaffeine-part/filterdialog.cpp:38
+#: player-parts/xine-part/filterdialog.cpp:38
 msgid "Effect Plugins"
 msgstr "প্রভাব প্লাগিন"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:687
 #: player-parts/gstreamer-part/gstreamerconfig.cpp:47
-#: player-parts/kaffeine-part/filterdialog.cpp:44
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1168
+#: player-parts/xine-part/filterdialog.cpp:44
+#: player-parts/xine-part/xine_part.cpp:1168
 msgid "Audio"
 msgstr "অডিও"
 
-#: player-parts/kaffeine-part/filterdialog.cpp:44
+#: player-parts/xine-part/filterdialog.cpp:44
 msgid "Audio Filters"
 msgstr "অডিও ফিল্টার"
 
-#: player-parts/kaffeine-part/filterdialog.cpp:50
+#: player-parts/xine-part/filterdialog.cpp:50
 msgid "Enable audio filters"
 msgstr "অডিও ফিল্টার সক্রিয় করো"
 
-#: player-parts/kaffeine-part/filterdialog.cpp:59
-#: player-parts/kaffeine-part/filterdialog.cpp:92
+#: player-parts/xine-part/filterdialog.cpp:59
+#: player-parts/xine-part/filterdialog.cpp:92
 msgid "Add Filter"
 msgstr "ফিল্টার যোগ করো"
 
-#: player-parts/kaffeine-part/filterdialog.cpp:61
-#: player-parts/kaffeine-part/filterdialog.cpp:94
+#: player-parts/xine-part/filterdialog.cpp:61
+#: player-parts/xine-part/filterdialog.cpp:94
 msgid "Remove All Filters"
 msgstr "সমস্ত ফিল্টার বাদ দাও"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:691
 #: player-parts/gstreamer-part/gstreamerconfig.cpp:60
-#: player-parts/kaffeine-part/filterdialog.cpp:77
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1171
+#: player-parts/xine-part/filterdialog.cpp:77
+#: player-parts/xine-part/xine_part.cpp:1171
 msgid "Video"
 msgstr "ভিডিও"
 
-#: player-parts/kaffeine-part/filterdialog.cpp:77
+#: player-parts/xine-part/filterdialog.cpp:77
 msgid "Video Filters"
 msgstr "ভিডিও ফিল্টার"
 
-#: player-parts/kaffeine-part/filterdialog.cpp:83
+#: player-parts/xine-part/filterdialog.cpp:83
 msgid "Enable video filters"
 msgstr "ভিডিও ফিল্টার সক্রিয় করো"
 
-#: player-parts/kaffeine-part/xineconfig.cpp:233
+#: player-parts/xine-part/xineconfig.cpp:233
 msgid "xine Engine Parameters"
 msgstr "জাইন ইঞ্জিন মানসমূহ"
 
-#: player-parts/kaffeine-part/xineconfig.cpp:274
+#: player-parts/xine-part/xineconfig.cpp:274
 msgid "%1 Options"
 msgstr "%1 অপশনস"
 
-#: player-parts/kaffeine-part/xineconfig.cpp:281
+#: player-parts/xine-part/xineconfig.cpp:281
 msgid "Beginner Options"
 msgstr "শিক্ষানবিশ অপশনস"
 
-#: player-parts/kaffeine-part/xineconfig.cpp:285
+#: player-parts/xine-part/xineconfig.cpp:285
 msgid "Expert Options"
 msgstr "বিশেষজ্ঞ অপশনস"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:180
-msgid "KaffeinePart"
+#: player-parts/xine-part/xine_part.cpp:180
+#, fuzzy
+msgid "XinePart"
 msgstr "ক্যাফিন-পার্ট"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:181
+#: player-parts/xine-part/xine_part.cpp:181
 msgid "A xine based player part for Kaffeine."
 msgstr "ক্যাফিনের জন্য একটি জাইন ভিত্তিক প্লেয়ার পার্ট।"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:249
+#: player-parts/xine-part/xine_part.cpp:249
+#, fuzzy
 msgid ""
 "SMIL (Synchronized Multimedia Integration Language) support is rudimentary!\n"
-"KaffeinePart can now try to playback contained video sources without any "
-"layout. Proceed?"
+"XinePart can now try to playback contained video sources without any layout. "
+"Proceed?"
 msgstr ""
 "এসএমআইএল (Synchronized Multimedia Integration Language) সমর্থন এখন প্রাথমিক!\n"
 "ক্যাফিন-পার্ট কোনও বিন্যাস ছাড়া ধারনকৃত ভিডিও উত্‍স চালাতে এখন চেষ্টা করতে "
 "পারে। চেষ্টা করব?"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:595
+#: player-parts/xine-part/xine_part.cpp:595
 msgid "Save Stream As"
 msgstr "নতুন নামে স্ট্রীম সংরক্ষণ করো"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:621
-#: player-parts/kaffeine-part/kaffeine_part.cpp:622
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1314
+#: player-parts/xine-part/xine_part.cpp:621
+#: player-parts/xine-part/xine_part.cpp:622
+#: player-parts/xine-part/xine_part.cpp:1314
 msgid "Subtitle"
 msgstr "সাবটাইটেল"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:628
-#: player-parts/kaffeine-part/kaffeine_part.cpp:629
+#: player-parts/xine-part/xine_part.cpp:628
+#: player-parts/xine-part/xine_part.cpp:629
 msgid "Audiochannel"
 msgstr "অডিও চ্যানেল"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:769
+#: player-parts/xine-part/xine_part.cpp:769
 msgid "%1 of %2"
 msgstr "%2-এর %1"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:779
+#: player-parts/xine-part/xine_part.cpp:779
 msgid ""
 "*.png|PNG-File\n"
 "*.bmp|BMP-File\n"
@@ -2390,89 +2392,89 @@ msgstr ""
 "*.bmp| বিএমপি-ফাইল\n"
 "*.xbm|এক্সবিএম-ফাইল"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:782
+#: player-parts/xine-part/xine_part.cpp:782
 msgid "Save Screenshot As"
 msgstr "নতুন নামে স্ক্রীনশট সংরক্ষণ করো"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:866
+#: player-parts/xine-part/xine_part.cpp:866
 msgid "Broadcasting port:"
 msgstr "সম্প্রচার পোর্ট:"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:888
+#: player-parts/xine-part/xine_part.cpp:888
 msgid "Configure Receive Broadcast Stream"
 msgstr "সম্প্রচার স্ট্রীম গ্রহন কনফিগার করো"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:890
+#: player-parts/xine-part/xine_part.cpp:890
 msgid "Sender address:"
 msgstr "প্রেরকের ঠিকানা:"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:892
+#: player-parts/xine-part/xine_part.cpp:892
 msgid "Port:"
 msgstr "পোর্ট:"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:915
+#: player-parts/xine-part/xine_part.cpp:915
 msgid "Jump to position:"
 msgstr "অবস্থানে লাফাও:"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:982
+#: player-parts/xine-part/xine_part.cpp:982
 msgid "xine Error"
 msgstr "জাইন ত্রুটি"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:995
+#: player-parts/xine-part/xine_part.cpp:995
 msgid "xine Message"
 msgstr "জাইন বার্তা"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:88
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1001
-#: player-parts/kaffeine-part/kxinewidget.cpp:1312
+#: player-parts/xine-part/kxinewidget.cpp:1312
+#: player-parts/xine-part/xine_part.cpp:1001
 msgid "Ready"
 msgstr "তৈরি"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:569
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1001
-#: player-parts/kaffeine-part/kxinewidget.cpp:1443
-#: player-parts/kaffeine-part/kxinewidget.cpp:2023
-#: player-parts/kaffeine-part/kxinewidget.cpp:2868
+#: player-parts/xine-part/kxinewidget.cpp:1443
+#: player-parts/xine-part/kxinewidget.cpp:2023
+#: player-parts/xine-part/kxinewidget.cpp:2868
+#: player-parts/xine-part/xine_part.cpp:1001
 msgid "Playing"
 msgstr "চালানো হচ্ছে"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1166
+#: player-parts/xine-part/xine_part.cpp:1166
 msgid "Mime"
 msgstr "মাইম"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1176
+#: player-parts/xine-part/xine_part.cpp:1176
 msgid "Subtitle File"
 msgstr "সাবটাইটেল ফাইল"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1178
+#: player-parts/xine-part/xine_part.cpp:1178
 msgid "Save Stream as"
 msgstr "নতুন নামে স্ট্রীম সংরক্ষণ করো"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1213
+#: player-parts/xine-part/xine_part.cpp:1213
 msgid "Copy URL to Clipboard"
 msgstr "ক্লীপবোর্ডে ইউআরএল কপি করো"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1215
+#: player-parts/xine-part/xine_part.cpp:1215
 msgid "Play in Kaffeine Externally"
 msgstr "ক্যাফিন-এ বাহ্যিকভাবে চালাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1256
+#: player-parts/xine-part/xine_part.cpp:1256
 msgid "&Send Broadcast Stream..."
 msgstr "সম্প্রচার স্ট্রীম পাঠা&ও..."
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1257
+#: player-parts/xine-part/xine_part.cpp:1257
 msgid "&Receive Broadcast Stream..."
 msgstr "সম্প্রচার স্ট্রীম গ্র&হন করো..."
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1258
+#: player-parts/xine-part/xine_part.cpp:1258
 msgid "&Save Screenshot..."
 msgstr "স্ক্রীনশট &সংরক্ষণ করো..."
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1259
+#: player-parts/xine-part/xine_part.cpp:1259
 msgid "Save Stream..."
 msgstr "স্ট্রীম সংরক্ষণ করো..."
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1260
+#: player-parts/xine-part/xine_part.cpp:1260
 msgid ""
 "Saves current stream to harddisc. This feature was disabled for some formats "
 "(e.g. Real Media) to prevent potential legal problems."
@@ -2483,213 +2485,213 @@ msgstr ""
 #: player-parts/dummy-part/dummy_part.cpp:122
 #: player-parts/gstreamer-part/gstreamer_part.cpp:556
 #: player-parts/gstreamer-part/gstreamer_part.cpp:821
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1265
-#: player-parts/kaffeine-part/kxinewidget.cpp:2858
+#: player-parts/xine-part/kxinewidget.cpp:2858
+#: player-parts/xine-part/xine_part.cpp:1265
 msgid "Pause"
 msgstr "থামাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1270
+#: player-parts/xine-part/xine_part.cpp:1270
 msgid "&Fast Forward"
 msgstr "দ্রুত সামনে &এগোও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1271
+#: player-parts/xine-part/xine_part.cpp:1271
 msgid "Slow &Motion"
 msgstr "ধীর &গতি"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1273
+#: player-parts/xine-part/xine_part.cpp:1273
 msgid "Skip Forward (20s)"
 msgstr "এগিয়ে যাও (২০সেকেন্ড)"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1274
+#: player-parts/xine-part/xine_part.cpp:1274
 msgid "Skip Backward (20s)"
 msgstr "পিছিয়ে যাও (২০সেকেন্ড)"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1275
+#: player-parts/xine-part/xine_part.cpp:1275
 msgid "Skip Forward (1m)"
 msgstr "(১ মি) এগিয়ে যাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1276
+#: player-parts/xine-part/xine_part.cpp:1276
 msgid "Skip Backward (1m)"
 msgstr "(১ মি) পিছিয়ে যাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1277
+#: player-parts/xine-part/xine_part.cpp:1277
 msgid "Skip Forward (10m)"
 msgstr "(১০ মি) এগিয়ে যাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1278
+#: player-parts/xine-part/xine_part.cpp:1278
 msgid "Skip Backward (10m)"
 msgstr "(১ মি) পিছিয়ে যাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1279
+#: player-parts/xine-part/xine_part.cpp:1279
 msgid "Jump to Position..."
 msgstr "অবস্থানে লাফাও..."
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1281
+#: player-parts/xine-part/xine_part.cpp:1281
 msgid "DVD Menu Left"
 msgstr "ডিভিডি মেনু বামদিক"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1282
+#: player-parts/xine-part/xine_part.cpp:1282
 msgid "DVD Menu Right"
 msgstr "ডিভিডি মেনু ডানদিক"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1283
+#: player-parts/xine-part/xine_part.cpp:1283
 msgid "DVD Menu Up"
 msgstr "ডিভিডি মেনু ওপরে"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1284
+#: player-parts/xine-part/xine_part.cpp:1284
 msgid "DVD Menu Down"
 msgstr "ডিভিডি মেনু নিচে"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1285
+#: player-parts/xine-part/xine_part.cpp:1285
 msgid "DVD Menu Select"
 msgstr "ডিভিডি মেনু নির্বাচন"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1287
+#: player-parts/xine-part/xine_part.cpp:1287
 msgid "Audio Channel"
 msgstr "অডিও চ্যানেল"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1288
+#: player-parts/xine-part/xine_part.cpp:1288
 msgid "Select audio channel"
 msgstr "অডিও চ্যানেল নির্বাচন"
 
 # FIXME
 #: player-parts/gstreamer-part/gstreamer_part.cpp:830
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1290
+#: player-parts/xine-part/xine_part.cpp:1290
 msgid "Audio &Visualization"
 msgstr "অডিও দৃশ্যায়ন (&V)"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1293
+#: player-parts/xine-part/xine_part.cpp:1293
 msgid "Volume Up"
 msgstr "ভলিউম বাড়াও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1294
+#: player-parts/xine-part/xine_part.cpp:1294
 msgid "Volume Down"
 msgstr "ভলিউম কমাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1296
+#: player-parts/xine-part/xine_part.cpp:1296
 msgid "&Deinterlace"
 msgstr "ডি-&ইন্টারলেস"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1297
+#: player-parts/xine-part/xine_part.cpp:1297
 msgid "Activate this for interlaced streams, some DVD's for example."
 msgstr "ইন্টারলেসকৃত স্ট্রীমের জন্য এইটি সক্রিয় করে, উদাঃ কিছু ডিভিডি।"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:837
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1298
+#: player-parts/xine-part/xine_part.cpp:1298
 msgid "&Auto"
 msgstr "স্বয়ংক্রী&য়"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:838
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1299
+#: player-parts/xine-part/xine_part.cpp:1299
 msgid "&4:3"
 msgstr "&৪:৩"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:839
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1300
+#: player-parts/xine-part/xine_part.cpp:1300
 msgid "A&namorphic"
 msgstr "অ্যানামরফি&ক"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:841
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1302
+#: player-parts/xine-part/xine_part.cpp:1302
 msgid "&Square"
 msgstr "চৌকো (&চ)"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1306
+#: player-parts/xine-part/xine_part.cpp:1306
 msgid "Zoom In Horizontal"
 msgstr "অনুভূমিক বড় করে দেখাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1307
+#: player-parts/xine-part/xine_part.cpp:1307
 msgid "Zoom Out Horizontal"
 msgstr "অনুভূমিক ছোট করে দেখাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1308
+#: player-parts/xine-part/xine_part.cpp:1308
 msgid "Zoom In Vertical"
 msgstr "উলম্ব বড় করে দেখাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1309
+#: player-parts/xine-part/xine_part.cpp:1309
 msgid "Zoom Out Vertical"
 msgstr "উলম্ব ছোট করে দেখাও"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1310
+#: player-parts/xine-part/xine_part.cpp:1310
 msgid "Deinterlace &Quality"
 msgstr "ডি-ইন্টারলেস মা&ন"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:842
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1311
+#: player-parts/xine-part/xine_part.cpp:1311
 msgid "&Video Settings"
 msgstr "ভিডিও মানসমূ&হ"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1312
+#: player-parts/xine-part/xine_part.cpp:1312
 msgid "&Equalizer"
 msgstr "ইকুয়ালাইজা&র"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1318
+#: player-parts/xine-part/xine_part.cpp:1318
 msgid "&Menu Toggle"
 msgstr "মেনু টো&গল"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1319
+#: player-parts/xine-part/xine_part.cpp:1319
 msgid "&Title"
 msgstr "শিরোনা&ম"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1320
+#: player-parts/xine-part/xine_part.cpp:1320
 msgid "&Root"
 msgstr "মূ&ল"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1321
+#: player-parts/xine-part/xine_part.cpp:1321
 msgid "&Subpicture"
 msgstr "&উপচিত্র"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1323
+#: player-parts/xine-part/xine_part.cpp:1323
 msgid "An&gle"
 msgstr "কো&ণ"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1324
+#: player-parts/xine-part/xine_part.cpp:1324
 msgid "&Part"
 msgstr "&পার্ট"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1326
+#: player-parts/xine-part/xine_part.cpp:1326
 msgid "Titles"
 msgstr "শিরোনাম"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1328
+#: player-parts/xine-part/xine_part.cpp:1328
 msgid "Chapters"
 msgstr "পরিচ্ছেদ"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1330
+#: player-parts/xine-part/xine_part.cpp:1330
 msgid "Angles"
 msgstr "কোণ"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:843
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1333
+#: player-parts/xine-part/xine_part.cpp:1333
 msgid "Track &Info"
 msgstr "ট্র্যাক &তথ্য"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1334
+#: player-parts/xine-part/xine_part.cpp:1334
 msgid "Effect &Plugins..."
 msgstr "প্রভা&ব প্লাগিন..."
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1337
+#: player-parts/xine-part/xine_part.cpp:1337
 msgid "&xine Engine Parameters"
 msgstr "&জাইন ইঞ্জিন মানসমূহ"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:506
 #: player-parts/gstreamer-part/gstreamer_part.cpp:846
 #: player-parts/gstreamer-part/gstreamer_part.cpp:853
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1341
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1348
-#: player-parts/kaffeine-part/kxinewidget.cpp:2532
+#: player-parts/xine-part/kxinewidget.cpp:2532
+#: player-parts/xine-part/xine_part.cpp:1341
+#: player-parts/xine-part/xine_part.cpp:1348
 msgid "Volume"
 msgstr "ভলিউম"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:827
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1352
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1361
-#: player-parts/kaffeine-part/kxinewidget.cpp:3070
-#: player-parts/kaffeine-part/kxinewidget.cpp:3094
+#: player-parts/xine-part/kxinewidget.cpp:3070
+#: player-parts/xine-part/kxinewidget.cpp:3094
+#: player-parts/xine-part/xine_part.cpp:1352
+#: player-parts/xine-part/xine_part.cpp:1361
 msgid "Position"
 msgstr "অবস্থান"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1365
+#: player-parts/xine-part/xine_part.cpp:1365
 msgid ""
 "Short click: Toggle Timer Forward/Backward\n"
 "Long click: Toggle Timer OSD"
@@ -2698,94 +2700,94 @@ msgstr ""
 "লম্বা ক্লিক: টাইমার ওএসডি টোগল করে"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:828
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1370
+#: player-parts/xine-part/xine_part.cpp:1370
 msgid "Playtime"
 msgstr "চালানোর সময়"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1528
+#: player-parts/xine-part/xine_part.cpp:1528
 msgid "Looking for CDDB entries..."
 msgstr "সিডি-ডিবি এন্ট্রি খোঁজা হচ্ছে..."
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1536
+#: player-parts/xine-part/xine_part.cpp:1536
 #, c-format
 msgid "AudioCD Track %1"
 msgstr "অডিও সিডি ট্র্যাক %1"
 
-#: player-parts/kaffeine-part/kaffeine_part.cpp:1611
+#: player-parts/xine-part/xine_part.cpp:1611
 #, c-format
 msgid "VCD Track %1"
 msgstr "ভিসিডি ট্র্যাক %1"
 
 #: player-parts/gstreamer-part/videosettings.cpp:33
-#: player-parts/kaffeine-part/videosettings.cpp:34
+#: player-parts/xine-part/videosettings.cpp:34
 msgid "Video Settings"
 msgstr "ভিডিও মানসমূহ"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:525
 #: player-parts/gstreamer-part/videosettings.cpp:41
-#: player-parts/kaffeine-part/kxinewidget.cpp:3358
-#: player-parts/kaffeine-part/videosettings.cpp:49
+#: player-parts/xine-part/kxinewidget.cpp:3358
+#: player-parts/xine-part/videosettings.cpp:49
 msgid "Hue"
 msgstr "রঙের সূক্ষ তারতম্য"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:519
 #: player-parts/gstreamer-part/videosettings.cpp:51
-#: player-parts/kaffeine-part/kxinewidget.cpp:3364
-#: player-parts/kaffeine-part/videosettings.cpp:59
+#: player-parts/xine-part/kxinewidget.cpp:3364
+#: player-parts/xine-part/videosettings.cpp:59
 msgid "Saturation"
 msgstr "সম্পৃক্তি"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:531
 #: player-parts/gstreamer-part/videosettings.cpp:61
-#: player-parts/kaffeine-part/kxinewidget.cpp:3370
-#: player-parts/kaffeine-part/videosettings.cpp:69
+#: player-parts/xine-part/kxinewidget.cpp:3370
+#: player-parts/xine-part/videosettings.cpp:69
 msgid "Contrast"
 msgstr "বৈসাদৃশ্য"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:537
 #: player-parts/gstreamer-part/videosettings.cpp:71
-#: player-parts/kaffeine-part/kxinewidget.cpp:3376
-#: player-parts/kaffeine-part/videosettings.cpp:79
+#: player-parts/xine-part/kxinewidget.cpp:3376
+#: player-parts/xine-part/videosettings.cpp:79
 msgid "Brightness"
 msgstr "ঔজ্জ্বল্ল"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3382
-#: player-parts/kaffeine-part/videosettings.cpp:89
+#: player-parts/xine-part/kxinewidget.cpp:3382
+#: player-parts/xine-part/videosettings.cpp:89
 msgid "Audio/Video Offset"
 msgstr "অডিও/ভিডিও অফসেট"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3388
-#: player-parts/kaffeine-part/videosettings.cpp:99
+#: player-parts/xine-part/kxinewidget.cpp:3388
+#: player-parts/xine-part/videosettings.cpp:99
 msgid "Subtitle Offset"
 msgstr "সাবটাইটেল অফসেট"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:405
+#: player-parts/xine-part/kxinewidget.cpp:405
 msgid "auto"
 msgstr "স্বয়ংক্রীয়"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:416
-#: player-parts/kaffeine-part/kxinewidget.cpp:427
+#: player-parts/xine-part/kxinewidget.cpp:416
+#: player-parts/xine-part/kxinewidget.cpp:427
 #, c-format
 msgid "Ch %1"
 msgstr "Ch %1"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:570
+#: player-parts/xine-part/kxinewidget.cpp:570
 msgid ""
 "General Warning: \n"
 msgstr ""
 "সাধারণ সাবধানবাণী:\n"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:575
+#: player-parts/xine-part/kxinewidget.cpp:575
 msgid "No Informations available."
 msgstr "কোনও তথ্য পাওয়া যাচ্ছে না।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:581
+#: player-parts/xine-part/kxinewidget.cpp:581
 msgid ""
 "Security Warning: \n"
 msgstr ""
 "নিরাপত্তা সাবধানবাণী:\n"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:590
+#: player-parts/xine-part/kxinewidget.cpp:590
 msgid ""
 "The host you're trying to connect is unknown.\n"
 "Check the validity of the specified hostname. "
@@ -2793,11 +2795,11 @@ msgstr ""
 "যে হোস্টটিতে আপনি সংযোগ করতে চেষ্টা করছেন সেটি অজানা।\n"
 "উল্লেখিত হোস্টনামের বৈধতা পরীক্ষা করুন।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:597
+#: player-parts/xine-part/kxinewidget.cpp:597
 msgid "The device name you specified seems invalid. "
 msgstr "আপনার উল্লেখিত ডিভাইসের নামটি অবৈধ মনে হয়।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:604
+#: player-parts/xine-part/kxinewidget.cpp:604
 msgid ""
 "The network looks unreachable.\n"
 "Check your network setup and the server name. "
@@ -2805,11 +2807,11 @@ msgstr ""
 "নেটওয়ার্ক অগম্য মনে হচ্ছে।\n"
 "আপনার নেটওয়ার্ক ব্যবস্থাপনা এবং সার্ভারের নাম পরীক্ষা করুন।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:611
+#: player-parts/xine-part/kxinewidget.cpp:611
 msgid "Audio output unavailable. Device is busy. "
 msgstr "অডিও আউটপুট পাওয়া যাচ্ছে না। ডিভাইস ব্যস্ত।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:618
+#: player-parts/xine-part/kxinewidget.cpp:618
 msgid ""
 "The connection was refused.\n"
 "Check the host name. "
@@ -2817,16 +2819,16 @@ msgstr ""
 "সংযোগ অস্বীকার করা হয়েছিল।\n"
 "হোস্ট নাম পরীক্ষা করুন।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:625
+#: player-parts/xine-part/kxinewidget.cpp:625
 msgid "The specified file or url was not found. Please check it. "
 msgstr ""
 "উল্লেখিত ফাইল অথবা ইউআরএল খুঁজে পাওয়া যায়নি। অনুগ্রহ করে এটি পরীক্ষা করুন।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:632
+#: player-parts/xine-part/kxinewidget.cpp:632
 msgid "Permission to this source was denied. "
 msgstr "এই উত্‍সটিতে অনুমতি অস্বীকার করা হয়েছিল।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:639
+#: player-parts/xine-part/kxinewidget.cpp:639
 msgid ""
 "The source can't be read.\n"
 "Maybe you don't have enough rights for this, or source doesn't contain data "
@@ -2836,15 +2838,15 @@ msgstr ""
 "হয়ত আপনার এর জন্য যথেষ্ট অধিকার নেই অথবা উত্‍স কোনও তথ্য ধারন করে না(উদাঃ: "
 "ড্রাইভ-এ কোনও ডিস্ক নেই)।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:646
+#: player-parts/xine-part/kxinewidget.cpp:646
 msgid "A problem occur while loading a library or a decoder: "
 msgstr "একটি লাইব্রেরী অথবা একটি ডিকোডার লোড করার সময় একটি সমস্যা ঘটেছে:"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:653
+#: player-parts/xine-part/kxinewidget.cpp:653
 msgid "The source seems encrypted, and can't be read. "
 msgstr "উত্‍সটি মনে হয় এনক্রিপ্টকৃত এবং পড়া যাবে না।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:655
+#: player-parts/xine-part/kxinewidget.cpp:655
 msgid ""
 "\n"
 "Your DVD is probably crypted. According to your country laws, you can or can't "
@@ -2854,213 +2856,213 @@ msgstr ""
 "আপনার ডিভিডি-টি সম্ভবত এনক্রিপ্টকৃত। আপনার দেশের আইন অনুযায়ী, আপনি এই "
 "ডিস্কটিপড়তে libdvdcss ব্যবহার করতে পারেন কিংবা নাও পারেন।"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:662
+#: player-parts/xine-part/kxinewidget.cpp:662
 msgid ""
 "Unknown error: \n"
 msgstr ""
 "অজানা ত্রুটি: \n"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:858
+#: player-parts/xine-part/kxinewidget.cpp:858
 msgid "Error: Can't init new Video Driver %1 - using %2!"
 msgstr "ত্রুটি: নতুন ভিডিও ড্রাইভার %1 চালু করা যায়নি -  %2 ব্যবহার করা হচ্ছে!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:868
+#: player-parts/xine-part/kxinewidget.cpp:868
 #, c-format
 msgid "Using Video Driver: %1"
 msgstr "ভিডিও ড্রাইভার ব্যবহার করছে: %1"
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:865
-#: player-parts/kaffeine-part/kxinewidget.cpp:944
+#: player-parts/xine-part/kxinewidget.cpp:944
 msgid "Error: Can't init new Audio Driver %1 - using %2!"
 msgstr "ত্রুটি: নতুন অডিও ড্রাইভার %1 চালু করা যায়নি - %2 ব্যবহার করা হচ্ছে!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:952
+#: player-parts/xine-part/kxinewidget.cpp:952
 #, c-format
 msgid "Using Audio Driver: %1"
 msgstr "অডিও ড্রাইভার ব্যবহার করছে: %1"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1076
+#: player-parts/xine-part/kxinewidget.cpp:1076
 msgid "Init xine..."
 msgstr "জাইন চালু ..."
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1087
+#: player-parts/xine-part/kxinewidget.cpp:1087
 msgid "Failed to connect to X-Server!"
 msgstr "এক্স-সার্ভারে সংযোগ করতে ব্যর্থ হল!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1131
+#: player-parts/xine-part/kxinewidget.cpp:1131
 msgid "Can't init xine Engine!"
 msgstr "জাইন ইঞ্জিন চালু করা যায়নি!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1167
+#: player-parts/xine-part/kxinewidget.cpp:1167
 msgid "Audiodriver to use (default: auto)"
 msgstr "যে অডিও ড্রাইভার ব্যবহার করতে হবে (ডিফল্ট: স্বয়ংক্রীয়)"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1193
+#: player-parts/xine-part/kxinewidget.cpp:1193
 msgid "Videodriver to use (default: auto)"
 msgstr "যে ভিডিও ড্রাইভার ব্যবহার করতে হবে (ডিফল্ট: স্বয়ংক্রীয়)"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1204
+#: player-parts/xine-part/kxinewidget.cpp:1204
 msgid "Use software audio mixer"
 msgstr "সফটওয়্যার অডিও মিক্সার ব্যবহার করো"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1208
+#: player-parts/xine-part/kxinewidget.cpp:1208
 msgid "Show OSD Messages"
 msgstr "ওএসডি বার্তা প্রদর্শন করো"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1221
+#: player-parts/xine-part/kxinewidget.cpp:1221
 msgid "Size of OSD text"
 msgstr "ওএসডি টেক্সটের আকার"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1225
+#: player-parts/xine-part/kxinewidget.cpp:1225
 msgid "Font for OSD Messages"
 msgstr "ওএসডি বার্তার জন্য ফন্ট"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1245
+#: player-parts/xine-part/kxinewidget.cpp:1245
 msgid "Can't init Video Driver '%1' - trying 'auto'..."
 msgstr "ভিডিও ড্রাইভার '%1' চালু করা যায়নি - চেষ্টা করছে 'স্বয়ংক্রীয়'..."
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1254
+#: player-parts/xine-part/kxinewidget.cpp:1254
 msgid "All Video Drivers failed to initialize!"
 msgstr "সমস্ত ভিডিও ড্রাইভার চালু করতে ব্যর্থ হল!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1265
+#: player-parts/xine-part/kxinewidget.cpp:1265
 msgid "Can't init Audio Driver '%1' - trying 'auto'..."
 msgstr "অডিও ড্রাইভার '%1' চালু করা যায়নি - চেষ্টা করছে 'স্বয়ংক্রীয়'..."
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1272
+#: player-parts/xine-part/kxinewidget.cpp:1272
 msgid "All Audio Drivers failed to initialize!"
 msgstr "সমস্ত অডিও ড্রাইভার চালু করতে ব্যর্থ হল!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1281
+#: player-parts/xine-part/kxinewidget.cpp:1281
 msgid "Can't create a new xine Stream!"
 msgstr "একটি নতুন জাইন স্ট্রীম তৈরি করা যায়নি!"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:1772
+#: player-parts/xine-part/kxinewidget.cpp:1772
 msgid "DVB: opening..."
 msgstr "ডিভিবি: খোলা হচ্ছে..."
 
 #: player-parts/gstreamer-part/gstreamer_part.cpp:290
-#: player-parts/kaffeine-part/kxinewidget.cpp:1826
+#: player-parts/xine-part/kxinewidget.cpp:1826
 msgid "Opening..."
 msgstr "খোলা হচ্ছে..."
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2062
+#: player-parts/xine-part/kxinewidget.cpp:2062
 msgid "Audio Codec"
 msgstr "অডিও কোডেক"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2064
+#: player-parts/xine-part/kxinewidget.cpp:2064
 msgid "Video Codec"
 msgstr "ভিডিও কোডেক"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2074
+#: player-parts/xine-part/kxinewidget.cpp:2074
 msgid "No plugin found to handle this resource"
 msgstr "এই মাধ্যমটি পরিচালনা করতে কোনও প্লাগিন খুঁজে পায় নি"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2079
+#: player-parts/xine-part/kxinewidget.cpp:2079
 msgid "Resource seems to be broken"
 msgstr "মাধ্যমটি মনে হয় ত্রুটিপূর্ণ"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2084
+#: player-parts/xine-part/kxinewidget.cpp:2084
 msgid "Requested resource does not exist"
 msgstr "অনুরোধকৃত মাধ্যমটির অস্তিত্ব নেই"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2089
+#: player-parts/xine-part/kxinewidget.cpp:2089
 msgid "Resource can not be opened"
 msgstr "মাধ্যমটি খোলা যায়নি"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2094
+#: player-parts/xine-part/kxinewidget.cpp:2094
 msgid "Generic error"
 msgstr "জেনেরিক ত্রুটি"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2568
+#: player-parts/xine-part/kxinewidget.cpp:2568
 msgid "Mute Off"
 msgstr "সরব করো"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2573
+#: player-parts/xine-part/kxinewidget.cpp:2573
 msgid "Mute On"
 msgstr "নীরব করো"
 
 # FIXME
-#: player-parts/kaffeine-part/kxinewidget.cpp:2879
-#: player-parts/kaffeine-part/kxinewidget.cpp:2903
-#: player-parts/kaffeine-part/kxinewidget.cpp:2934
+#: player-parts/xine-part/kxinewidget.cpp:2879
+#: player-parts/xine-part/kxinewidget.cpp:2903
+#: player-parts/xine-part/kxinewidget.cpp:2934
 #, c-format
 msgid "Fast Forward %1"
 msgstr "দ্রুত সামনে এগোও %1"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:2896
-#: player-parts/kaffeine-part/kxinewidget.cpp:2917
-#: player-parts/kaffeine-part/kxinewidget.cpp:2941
+#: player-parts/xine-part/kxinewidget.cpp:2896
+#: player-parts/xine-part/kxinewidget.cpp:2917
+#: player-parts/xine-part/kxinewidget.cpp:2941
 #, c-format
 msgid "Slow Motion %1"
 msgstr "ধীর গতি %1"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3169
+#: player-parts/xine-part/kxinewidget.cpp:3169
 msgid "Deinterlace: on"
 msgstr "ডিইন্টারলেস: চালু"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3170
+#: player-parts/xine-part/kxinewidget.cpp:3170
 msgid "Deinterlace: off"
 msgstr "ডিইন্টারলেস: বন্ধ"
 
 # FIXME
-#: player-parts/kaffeine-part/kxinewidget.cpp:3193
-#: player-parts/kaffeine-part/kxinewidget.cpp:3199
-#: player-parts/kaffeine-part/kxinewidget.cpp:3205
-#: player-parts/kaffeine-part/kxinewidget.cpp:3211
-#: player-parts/kaffeine-part/kxinewidget.cpp:3217
+#: player-parts/xine-part/kxinewidget.cpp:3193
+#: player-parts/xine-part/kxinewidget.cpp:3199
+#: player-parts/xine-part/kxinewidget.cpp:3205
+#: player-parts/xine-part/kxinewidget.cpp:3211
+#: player-parts/xine-part/kxinewidget.cpp:3217
 msgid "Aspect Ratio"
 msgstr "দৃষ্টিভঙ্গি অনুপাত"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3193
+#: player-parts/xine-part/kxinewidget.cpp:3193
 msgid "Auto"
 msgstr "স্বয়ংক্রীয়"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3199
+#: player-parts/xine-part/kxinewidget.cpp:3199
 msgid "4:3"
 msgstr "৪:৩"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3205
+#: player-parts/xine-part/kxinewidget.cpp:3205
 msgid "16:9"
 msgstr "১৬:৯"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3211
+#: player-parts/xine-part/kxinewidget.cpp:3211
 msgid "1:1"
 msgstr "১:১"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3217
+#: player-parts/xine-part/kxinewidget.cpp:3217
 msgid "2.11:1"
 msgstr "২.১১:১"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3226
-#: player-parts/kaffeine-part/kxinewidget.cpp:3236
+#: player-parts/xine-part/kxinewidget.cpp:3226
+#: player-parts/xine-part/kxinewidget.cpp:3236
 msgid "Zoom X"
 msgstr "X বড় করে দেখাও"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3246
-#: player-parts/kaffeine-part/kxinewidget.cpp:3256
+#: player-parts/xine-part/kxinewidget.cpp:3246
+#: player-parts/xine-part/kxinewidget.cpp:3256
 msgid "Zoom Y"
 msgstr "Y বড় করে দেখাও"
 
-#: player-parts/kaffeine-part/kxinewidget.cpp:3382
-#: player-parts/kaffeine-part/kxinewidget.cpp:3388
+#: player-parts/xine-part/kxinewidget.cpp:3382
+#: player-parts/xine-part/kxinewidget.cpp:3388
 msgid "msec"
 msgstr "মিলি সেকেন্ড"
 
-#: player-parts/kaffeine-part/equalizer.cpp:31
+#: player-parts/xine-part/equalizer.cpp:31
 msgid "Equalizer Settings"
 msgstr "ইকুয়ালাইজার মানসমূহ"
 
-#: player-parts/kaffeine-part/equalizer.cpp:43
+#: player-parts/xine-part/equalizer.cpp:43
 msgid "Volume gain"
 msgstr "ভলিউম বৃদ্ধি"
 
-#: player-parts/kaffeine-part/equalizer.cpp:44
+#: player-parts/xine-part/equalizer.cpp:44
 msgid "Volume Gain for Equalizer - If the sound becomes noisy disable this"
 msgstr ""
 "ইকুয়ালাইজার-এর ভলিউম বৃদ্ধি - যদি শব্দ কোলাহলপূর্ণ হয় তবে এটি নিষ্ক্রিয় করুন"
 
-#: player-parts/kaffeine-part/postfilter.cpp:158
+#: player-parts/xine-part/postfilter.cpp:158
 msgid "Delete Filter"
 msgstr "ফিল্টার মুছে ফেলো"
 
