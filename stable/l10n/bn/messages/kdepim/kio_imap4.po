@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kio_imap4\n"
-"POT-Creation-Date: 2006-09-21 02:41+0200\n"
+"POT-Creation-Date: 2007-02-09 02:43+0100\n"
 "PO-Revision-Date: 2004-05-23 19:40-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -38,59 +38,66 @@ msgstr "বার্তা&বলী"
 msgid "&Subfolders"
 msgstr "সাব-ফোল্ডা&র"
 
-#: imap4.cc:1285
+#: imap4.cc:1286
 #, fuzzy
 msgid "Unsubscribe of folder %1 failed. The server returned: %2"
 msgstr "ফোল্ডার %1 আন-সাবস্ক্রাইব করতে ব্যর্থ।"
 
-#: imap4.cc:1306
+#: imap4.cc:1307
 #, fuzzy
 msgid "Subscribe of folder %1 failed. The server returned: %2"
 msgstr "ফোল্ডার %1 সাবস্ক্রাইব করতে ব্যর্থ।"
 
-#: imap4.cc:1356 imap4.cc:1368
+#: imap4.cc:1369 imap4.cc:1381
 msgid "Changing the flags of message %1 failed."
 msgstr "বার্তা %1-এর ফ্ল্যাগ পরিবর্তন করতে ব্যর্থ।"
 
-#: imap4.cc:1408
+#: imap4.cc:1421
 msgid ""
 "Setting the Access Control List on folder %1 for user %2 failed. The server "
 "returned: %3"
 msgstr ""
 
-#: imap4.cc:1427
+#: imap4.cc:1440
 msgid ""
 "Deleting the Access Control List on folder %1 for user %2 failed. The server "
 "returned: %3"
 msgstr ""
 
-#: imap4.cc:1444 imap4.cc:1471
+#: imap4.cc:1457 imap4.cc:1484
 #, fuzzy
 msgid ""
 "Retrieving the Access Control List on folder %1 failed. The server returned: %2"
 msgstr "ফোল্ডার %1 খোলা যায়নি। সার্ভার জানিয়েছে: %2"
 
-#: imap4.cc:1505
+#: imap4.cc:1518
 #, fuzzy
 msgid "Searching of folder %1 failed. The server returned: %2"
 msgstr "ফোল্ডার %1 সাবস্ক্রাইব করতে ব্যর্থ।"
 
-#: imap4.cc:1543
+#: imap4.cc:1556
 #, fuzzy
 msgid "Setting the annotation %1 on folder %2  failed. The server returned: %3"
 msgstr "ফোল্ডার %1 খোলা যায়নি। সার্ভার জানিয়েছে: %2"
 
-#: imap4.cc:1567
+#: imap4.cc:1580
 #, fuzzy
 msgid ""
 "Retrieving the annotation %1 on folder %2 failed. The server returned: %3"
 msgstr "ফোল্ডার %1 খোলা যায়নি। সার্ভার জানিয়েছে: %2"
 
-#: imap4.cc:1616
+#: imap4.cc:1617
+#, fuzzy
+msgid ""
+"Retrieving the quota root inormation on folder %1 failed. The server returned: "
+"%2"
+msgstr "ফোল্ডার %1 খোলা যায়নি। সার্ভার জানিয়েছে: %2"
+
+#: imap4.cc:1673
 msgid "Unable to close mailbox."
 msgstr "মেইল-বক্স বন্ধ করতে ব্যর্থ।"
 
-#: imap4.cc:1884
+#: imap4.cc:1941
 msgid ""
 "The server %1 supports neither IMAP4 nor IMAP4rev1.\n"
 "It identified itself with: %2"
@@ -98,7 +105,7 @@ msgstr ""
 "%1 সার্ভারটি IMAP4 বা IMAP4rev1 কোনটাই সমর্থন করে না।\n"
 "সে নিজের সম্পর্কে জানিয়েছে: %2"
 
-#: imap4.cc:1895
+#: imap4.cc:1952
 msgid ""
 "The server does not support TLS.\n"
 "Disable this security feature to connect unencrypted."
@@ -106,24 +113,24 @@ msgstr ""
 "সার্ভারটি TLS সমর্থন করে না।\n"
 "এনক্রিপশনবিহীন সংযোগ স্থাপন করতে এই নিরাপত্তা ফিচার-টি নিষ্ক্রিয় করুন।"
 
-#: imap4.cc:1920
+#: imap4.cc:1977
 msgid "Starting TLS failed."
 msgstr "TLS চালু করা যায়নি।"
 
-#: imap4.cc:1929
+#: imap4.cc:1986
 msgid "LOGIN is disabled by the server."
 msgstr ""
 
-#: imap4.cc:1936
+#: imap4.cc:1993
 msgid "The authentication method %1 is not supported by the server."
 msgstr "%1 অথেন্টিকেশন প্রক্রিয়াটি সার্ভার দ্বারা সমর্থিত নয়।"
 
-#: imap4.cc:1952
+#: imap4.cc:2009
 #, fuzzy
 msgid "Username and password for your IMAP account:"
 msgstr "আপনার আই-ম্যাপ অ্যাকাউন্টের জন্য ব্যবহারকারীর নাম এবং পাসওয়ার্ড:"
 
-#: imap4.cc:1966
+#: imap4.cc:2023
 #, fuzzy
 msgid ""
 "Unable to login. Probably the password is wrong.\n"
@@ -134,7 +141,7 @@ msgstr ""
 "সার্ভার জানিয়েছে:\n"
 "%1"
 
-#: imap4.cc:1973
+#: imap4.cc:2030
 #, fuzzy
 msgid ""
 "Unable to authenticate via %1.\n"
@@ -145,11 +152,11 @@ msgstr ""
 "সার্ভার জানিয়েছে:\n"
 "%2"
 
-#: imap4.cc:1980
+#: imap4.cc:2037
 msgid "SASL authentication is not compiled into kio_imap4."
 msgstr ""
 
-#: imap4.cc:2524
+#: imap4.cc:2581
 msgid "Unable to open folder %1. The server replied: %2"
 msgstr "ফোল্ডার %1 খোলা যায়নি। সার্ভার জানিয়েছে: %2"
 
