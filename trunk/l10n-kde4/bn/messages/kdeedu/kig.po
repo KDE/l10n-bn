@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-03-31 05:36+0200\n"
+"POT-Creation-Date: 2007-03-31 21:46+0200\n"
 "PO-Revision-Date: 2006-03-29 19:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -18,6 +18,39 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #: tips.cpp:3
+msgid ""
+"<p>You can control a kig construction by means of a \"pykig\" \n"
+"python script, that can be executed with the command \n"
+"<code>pykig.py</code>.  Here is a nice example \n"
+"(<code>hexagons.kpy</code>) you can try:\n"
+"<code><pre>\n"
+"kigdocument.hideobjects()\n"
+"def hexagons (c, v, n):\n"
+"  hexagon = PolygonBCV (c, v, 6)\n"
+"  if n &lt;= 0:\n"
+"    hexagon.show()\n"
+"    for i in range(6): \n"
+"      PolygonSide (hexagon, i, True)\n"
+"    return\n"
+"  cnew = MidPoints (c, v)\n"
+"  hexagons (cnew, v, n-1)\n"
+"  for k in [2,4]:\n"
+"    v1 = PolygonVertex (hexagon, k)\n"
+"    cnew = MidPoints (c, v1)\n"
+"    hexagons (cnew, v1, n-1)\n"
+"hexagons (Point(0,0), Point(1,0), 5)\n"
+"</pre></code>\n"
+msgstr ""
+
+#: tips.cpp:28
+msgid ""
+"<p>You can repeat the latest construction simply by pressing the key\n"
+"'Z'; this cames very handy if you need to construct a sequence\n"
+"of objects with the same construction, especially if there is\n"
+"no shortcut for that construction.</p>\n"
+msgstr ""
+
+#: tips.cpp:36
 msgid ""
 "<p>One of the most powerful tools in Kig are the menus that you can\n"
 "enter by right-clicking on an object, or on some empty space in the\n"
@@ -30,7 +63,7 @@ msgstr ""
 "ধরন পরিবর্তন, এবং এ ধরনের আরো\n"
 "অনেক কৌতূহলোদ্দীপক কাজ করতে পারেন।</p>\n"
 
-#: tips.cpp:11
+#: tips.cpp:44
 msgid ""
 "<p>You can construct new points without using the menu or the toolbar, "
 "simply\n"
@@ -40,7 +73,7 @@ msgstr ""
 "<p>নতুন একটি বিন্দু তৈরির জন্য মেনু বা টুলবার ব্যবহার না করে কিগ ডকুমেন্টের ওপর\n"
 "<em>মাউসের মধ্যম বাটন</em> ব্যবহার করে ক্লিক করারই যথেষ্ট।</p>\n"
 
-#: tips.cpp:18
+#: tips.cpp:51
 msgid ""
 "<p>Kig can open several file formats: its files (<code>.kig</code> files),\n"
 "<em>KGeo</em> files, <em>KSeg</em> files, and, partially, <em>Dr. Geo</em>\n"
@@ -51,7 +84,7 @@ msgstr ""
 "<em>কে-জিও</em> ফাইল, <em>কে-সেগ</em> ফাইল, এবং, আংশিকভাবে, <em>ড. জিও</em>\n"
 "ও <em>ক্যাবরি&#8482;</em> ফাইল।</p>\n"
 
-#: tips.cpp:25
+#: tips.cpp:58
 #, fuzzy
 msgid ""
 "<p>Kig has more than 20 objects and 10 transformations with more than 80 \n"
@@ -61,7 +94,7 @@ msgstr ""
 "<p>কিগ ব্যবহার করে আপনি আপনার ডকুমেন্টে ৪০ এর অধিক বস্তু ও ১০ প্রকার রূপান্তর আনতে\n"
 "পারেন: এদের সবগুলোকে দেখার জন্য <em>বস্তু</em> নামের মেনু খুলুন।</p>\n"
 
-#: tips.cpp:32
+#: tips.cpp:65
 msgid ""
 "<p>You can use the selected objects to start the construction of an object\n"
 "which requires the selected objects as arguments. For example, if you have "
@@ -77,7 +110,7 @@ msgstr ""
 "দিয়ে বৃত্ত তৈরির জন্য পপ-আপ মেনু থেকে <em>আরম্ভ->তিন বিন্দু দিয়ে বৃত্ত</em> বেছে "
 "নিন।<p>\n"
 
-#: tips.cpp:40
+#: tips.cpp:73
 msgid ""
 "<p>Kig can extends its object set using external macros. You can find some\n"
 "interesting macro on Kig website:\n"
@@ -87,7 +120,7 @@ msgstr ""
 "ওয়েবসাইটে আপনি কিছু আগ্রহোদ্দীপক ম্যাক্রো পাবেন:\n"
 "<a href=\"http://edu.kde.org/kig\">http://edu.kde.org/kig</a>.</p>\n"
 
-#: tips.cpp:47
+#: tips.cpp:80
 msgid ""
 "<p>If you have more than one object under the mouse, and you want to select "
 "any\n"
@@ -436,18 +469,14 @@ msgstr "এখানে আপনি এই ম্যাক্রোর ধর�
 
 #. i18n: tag string
 #. i18n: file modes/edittypewidget.ui line 79
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 138
-#: rc.cpp:218 rc.cpp:278
+#: rc.cpp:218
 #, no-c-format
 msgid "Name:"
 msgstr "নাম:"
 
 #. i18n: tag string
 #. i18n: file modes/edittypewidget.ui line 99
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 170
-#: rc.cpp:222 rc.cpp:282
+#: rc.cpp:222
 #, no-c-format
 msgid "Description:"
 msgstr "বিবরণ:"
@@ -495,71 +524,22 @@ msgid "Last step"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 24
-#: rc.cpp:250
-#, no-c-format
-msgid "Define New Macro"
-msgstr "নতুন ম্যাক্রো নির্ধারণ করো"
-
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 31
-#: rc.cpp:254
-#, no-c-format
-msgid "Given Objects"
-msgstr "প্রদত্ত বস্তু"
-
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 56
-#: rc.cpp:258
-#, no-c-format
-msgid "Select the \"given\" objects for your new macro and press \"Next\"."
-msgstr "আপনার নতুন ম্যাক্রোর জন্য \"প্রদত্ত\" বস্তুসমূহ বেছে নিয়ে \"পরবর্তী\" চাপুন।"
-
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 72
-#: rc.cpp:262
-#, no-c-format
-msgid "Final Object"
-msgstr "শেষ বস্তু"
-
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 89
-#: rc.cpp:266
-#, no-c-format
-msgid "Select the final object(s) for your new macro."
-msgstr "নতুন ম্যাক্রোর জন্য চূড়ান্ত বস্তু(গুলো) বেছে নিন।"
-
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 99
-#: rc.cpp:270 modes/label.cc:169 modes/typesdialog.cpp:278
-#, no-c-format
-msgid "Name"
-msgstr "নাম"
-
-#. i18n: tag string
-#. i18n: file modes/macrowizardbase.ui line 116
-#: rc.cpp:274
-#, no-c-format
-msgid "Enter a name and description for your new type."
-msgstr "নতুন ধরনের জন্য একটি নাম ও বিবরণ লিখুন।"
-
-#. i18n: tag string
 #. i18n: file modes/textlabelwizardbase.ui line 16
-#: rc.cpp:286
+#: rc.cpp:250
 #, no-c-format
 msgid "Construct Label"
 msgstr "লেবেল তৈরি করো"
 
 #. i18n: tag string
 #. i18n: file modes/textlabelwizardbase.ui line 23
-#: rc.cpp:290
+#: rc.cpp:254
 #, no-c-format
 msgid "Enter Label Text"
 msgstr "লেবেল-এ যে টেক্সট প্রদর্শন করা হবে তা লিখুন"
 
 #. i18n: tag string
 #. i18n: file modes/textlabelwizardbase.ui line 35
-#: rc.cpp:294
+#: rc.cpp:258
 #, no-c-format
 msgid ""
 "Enter the text for your label here and press \"Next\".\n"
@@ -572,21 +552,21 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file modes/textlabelwizardbase.ui line 54
-#: rc.cpp:299
+#: rc.cpp:263
 #, no-c-format
 msgid "Show text in a frame"
 msgstr "ফ্রেম-এ টেক্সট প্রদর্শন করো"
 
 #. i18n: tag string
 #. i18n: file modes/textlabelwizardbase.ui line 64
-#: rc.cpp:303 scripting/newscriptwizard.cc:66
+#: rc.cpp:267 scripting/newscriptwizard.cc:67
 #, no-c-format
 msgid "Select Arguments"
 msgstr "আর্গুমেন্ট (argument) বেছে নিন"
 
 #. i18n: tag string
 #. i18n: file modes/textlabelwizardbase.ui line 75
-#: rc.cpp:307
+#: rc.cpp:271
 #, no-c-format
 msgid ""
 "Now select the argument(s) you need.  For every argument, click on it, "
@@ -599,14 +579,14 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 33
-#: rc.cpp:311
+#: rc.cpp:275
 #, no-c-format
 msgid "Select types here..."
 msgstr "এখান থেকে ধরন বেছে নিন..."
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 36
-#: rc.cpp:315
+#: rc.cpp:279
 #, no-c-format
 msgid ""
 "This is a list of the current macro types... You can select, edit, delete, "
@@ -617,210 +597,210 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 68
-#: rc.cpp:319
+#: rc.cpp:283
 #, no-c-format
 msgid "Edit the selected type."
 msgstr "নির্বাচিত ধরন সম্পাদন করো।"
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 71
-#: rc.cpp:323 modes/typesdialog.cpp:328
+#: rc.cpp:287 modes/typesdialog.cpp:328
 #, no-c-format
 msgid "&Edit..."
 msgstr "&সম্পাদন..."
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 78
-#: rc.cpp:327
+#: rc.cpp:291
 #, no-c-format
 msgid "Delete all the selected types in the list."
 msgstr "সকল নির্বাচিত ধরন মোছো।"
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 81
-#: rc.cpp:331 modes/popup.cc:374 modes/typesdialog.cpp:329
+#: rc.cpp:295 modes/popup.cc:374 modes/typesdialog.cpp:329
 #, fuzzy, no-c-format
 msgid "&Delete"
 msgstr "বস্তু মোছো (&ম)"
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 111
-#: rc.cpp:335
+#: rc.cpp:299
 #, no-c-format
 msgid "Export all the selected types to a file."
 msgstr "সকল নির্বাচিত ধরনকে একটি ফাইলে রপ্তানি করো।"
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 114
-#: rc.cpp:339 modes/typesdialog.cpp:331
+#: rc.cpp:303 modes/typesdialog.cpp:331
 #, no-c-format
 msgid "E&xport..."
 msgstr "&রপ্তানি..."
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 121
-#: rc.cpp:343
+#: rc.cpp:307
 #, no-c-format
 msgid "Import macros that are contained in one or more files."
 msgstr "এক বা একাধিক ফাইলে রক্ষিত ম্যাক্রোগুলোকে আমদানি করো।"
 
 #. i18n: tag string
 #. i18n: file modes/typeswidget.ui line 124
-#: rc.cpp:347
+#: rc.cpp:311
 #, fuzzy, no-c-format
 msgid "&Import..."
 msgstr "আমদানি..."
 
-#: rc.cpp:348
+#: rc.cpp:312
 msgid "Circle by Center && Line"
 msgstr "কেন্দ্রবিন্দু ও অপর কোন নির্দিষ্ট রেখার সাহায্যে অঙ্কিত বৃত্ত"
 
-#: rc.cpp:349
+#: rc.cpp:313
 msgid "A circle constructed by its center and tangent to a given line"
 msgstr "কেন্দ্রবিন্দু ও অপর কোন রেখার ঢালের সাহায্যে অঙ্কিত বৃত্ত"
 
-#: rc.cpp:350
+#: rc.cpp:314
 msgid "Construct a circle tangent to this line"
 msgstr "এই রেখাকে স্পর্শক ধরে একটি বৃত্ত আঁকো"
 
-#: rc.cpp:351 rc.cpp:356 objects/circle_type.cc:32
+#: rc.cpp:315 rc.cpp:320 objects/circle_type.cc:32
 msgid "Construct a circle with this center"
 msgstr "এই কেন্দ্রবিন্দু ব্যবহার করে একটি বৃত্ত আঁকো"
 
-#: rc.cpp:352
+#: rc.cpp:316
 msgid "Select the line that the new circle should be tangent to..."
 msgstr "যে রেখাটি নতুন বৃত্তের স্পর্শক হবে তাকে বেছে নিন..."
 
-#: rc.cpp:353 rc.cpp:358 objects/circle_type.cc:37 objects/circle_type.cc:192
+#: rc.cpp:317 rc.cpp:322 objects/circle_type.cc:37 objects/circle_type.cc:192
 msgid "Select the center of the new circle..."
 msgstr "নতুন বৃত্তের কেন্দ্র নির্বাচন করুন..."
 
 # FIXME
-#: rc.cpp:354
+#: rc.cpp:318
 msgid "Circle by Point && Segment (as the Diameter)"
 msgstr "বিন্দু ও রেখাংশের (ব্যাস হিসাবে) সাহায্যে বৃত্ত"
 
-#: rc.cpp:355
+#: rc.cpp:319
 msgid ""
 "A circle defined by its center and the length of a segment as the diameter"
 msgstr "রেখাংশের দৈর্ঘ্য দ্বারা নির্ধারিত ব্যাস এবং কেন্দ্রবিন্দুর সাহায্যে নির্দেশিত বৃত্ত"
 
-#: rc.cpp:357
+#: rc.cpp:321
 msgid ""
 "Construct a circle with the diameter given by the length of this segment"
 msgstr "এই রেখাংশের দৈর্ঘ্যের সমান ব্যাসবিশিষ্ট একটি বৃত্ত আঁকো"
 
-#: rc.cpp:359
+#: rc.cpp:323
 msgid "Select the segment whose length gives the diameter of the new circle..."
 msgstr "যে রেখাংশটি নতুন বৃত্তের ব্যাসের দৈর্ঘ্য প্রদান করে তা নির্বাচন করুন..."
 
-#: rc.cpp:360
+#: rc.cpp:324
 msgid "Equilateral Triangle"
 msgstr "সমবাহু ত্রিভুজ"
 
-#: rc.cpp:361
+#: rc.cpp:325
 msgid "Equilateral triangle with given two vertices"
 msgstr "দুটি প্রদত্ত বিন্দুর সাহায্যে অঙ্কিত সমবাহু ত্রিভুজ"
 
-#: rc.cpp:362
+#: rc.cpp:326
 msgid "Evolute"
 msgstr "ইভলিউট"
 
-#: rc.cpp:363
+#: rc.cpp:327
 msgid "Evolute of a curve"
 msgstr "বক্ররেখার ইভলিউট"
 
-#: rc.cpp:364
+#: rc.cpp:328
 msgid "Evolute of this curve"
 msgstr "এই বক্ররেখার ইভলিউট"
 
-#: rc.cpp:365 rc.cpp:370 objects/centerofcurvature_type.cc:35
+#: rc.cpp:329 rc.cpp:334 objects/centerofcurvature_type.cc:35
 #: objects/tangent_type.cc:36
 msgid "Select the curve..."
 msgstr "বক্ররেখাটি বাছাই করো..."
 
 # FIXME: Osculating = আপতিত ?
-#: rc.cpp:366
+#: rc.cpp:330
 msgid "Osculating Circle"
 msgstr "আপতিত বৃত্ত"
 
 # FIXME
-#: rc.cpp:367
+#: rc.cpp:331
 msgid "Osculating circle of a curve at a point"
 msgstr "যেকোন বিন্দুতে একটি বক্ররেখার উপর আপতিত বৃত্ত"
 
 # FIXME
-#: rc.cpp:368
+#: rc.cpp:332
 msgid "Osculating circle of this curve"
 msgstr "এই বক্ররেখার ওপর আপতিত বৃত্ত"
 
 # FIXME
-#: rc.cpp:369
+#: rc.cpp:333
 msgid "Osculating circle at this point"
 msgstr "এই বিন্দুতে আপতিত বৃত্ত"
 
-#: rc.cpp:371
+#: rc.cpp:335
 msgid "Select the point..."
 msgstr "বিন্দুটি বেছে নিন..."
 
 # FIXME
-#: rc.cpp:372
+#: rc.cpp:336
 msgid "Segment Axis"
 msgstr "রেখাংশের অক্ষ"
 
-#: rc.cpp:373
+#: rc.cpp:337
 msgid "The perpendicular line through a given segment's mid point."
 msgstr "প্রদত্ত রেখাংশের মধ্যবিন্দু দিয়ে অঙ্কিত লম্বরেখা।"
 
-#: rc.cpp:374
+#: rc.cpp:338
 msgid "Construct the axis of this segment"
 msgstr "এই রেখাংশের অক্ষ আঁকো"
 
-#: rc.cpp:375
+#: rc.cpp:339
 msgid "Select the segment of which you want to draw the axis..."
 msgstr "যে রেখাংশের অক্ষ আঁকতে চান তা নির্বাচন করুন..."
 
-#: rc.cpp:376
+#: rc.cpp:340
 msgid "Square"
 msgstr "বর্গক্ষেত্রে"
 
-#: rc.cpp:377
+#: rc.cpp:341
 msgid "Square with two given adjacent vertices"
 msgstr "প্রদত্ত দুটি সন্নিহিত বিন্দু দিয়ে অঙ্কিত বর্গক্ষেত্র"
 
-#: rc.cpp:378
+#: rc.cpp:342
 msgid "Vector Difference"
 msgstr "ভেক্টর পার্থক্য"
 
-#: rc.cpp:379
+#: rc.cpp:343
 msgid "Construct the vector difference of two vectors."
 msgstr "দুইটি ভেক্টরের ভেক্টর পার্থক্য আঁকো।"
 
-#: rc.cpp:380
+#: rc.cpp:344
 msgid "Construct the vector difference of this vector and another one."
 msgstr "এই ভেক্টর ও অপর একটি ভেক্টরের পার্থক্যসূচক ভেক্টর আঁকো।"
 
-#: rc.cpp:381
+#: rc.cpp:345
 msgid "Construct the vector difference of the other vector and this one."
 msgstr "অপর ভেক্টর ও এই ভেক্টরের পার্থক্যসূচক ভেক্টর আঁকো।"
 
-#: rc.cpp:382
+#: rc.cpp:346
 msgid "Construct the vector difference starting at this point."
 msgstr "এই বিন্দু থেকে যে পার্থক্যসূচক ভেক্টর আরম্ভ হয় তা আঁকো।"
 
-#: rc.cpp:383
+#: rc.cpp:347
 msgid ""
 "Select the first of the two vectors of which you want to construct the "
 "difference..."
 msgstr "যে ভেক্টরদ্বয়ের পার্থক্য আঁকতে চান তাদের প্রথমটি বেছে নিন..."
 
-#: rc.cpp:384
+#: rc.cpp:348
 msgid ""
 "Select the other of the two vectors of which you want to construct the "
 "difference..."
 msgstr "যে ভেক্টরদ্বয়ের পার্থক্য আঁকতে চান তাদের অপরটি বেছে নিন..."
 
-#: rc.cpp:385
+#: rc.cpp:349
 msgid "Select the point to construct the difference vector in..."
 msgstr "যে বিন্দু থেকে পার্থক্যসূচক ভেক্টর আরম্ভ হবে তা বেছে নিন..."
 
@@ -2288,6 +2268,10 @@ msgstr ""
 msgid "Start of the construction"
 msgstr "অঙ্কন প্রক্রিয়া বাতিল করো"
 
+#: modes/label.cc:169 modes/macrowizard.cc:129 modes/typesdialog.cpp:278
+msgid "Name"
+msgstr "নাম"
+
 #: modes/label.cc:199 modes/popup.cc:522 modes/popup.cc:554
 msgid "<unnamed object>"
 msgstr "<unnamed object>"
@@ -2330,7 +2314,7 @@ msgstr "লেবেল-এ যে টেক্সট প্রদর্শন �
 msgid "Select the position for the new numeric value..."
 msgstr "নতুন বৃত্তচাপের সমাপ্তি বিন্দু বেছে নিন..."
 
-#: modes/macro.cc:106
+#: modes/macro.cc:91
 msgid ""
 "One of the result objects you selected cannot be calculated from the given "
 "objects. Kig cannot calculate this macro because of this. Please press Back, "
@@ -2340,7 +2324,7 @@ msgstr ""
 "এই ম্যাক্রো গণনা করতে পারছে না।  অনুগ্রহপূর্বক 'পূর্বাবস্থান' চাপুন ও তারপর বস্তুগুলোকে "
 "সঠিক ধারায় তৈরি করুন..."
 
-#: modes/macro.cc:116
+#: modes/macro.cc:101
 msgid ""
 "One of the given objects is not used in the calculation of the resultant "
 "objects.  This probably means you are expecting Kig to do something "
@@ -2349,6 +2333,42 @@ msgstr ""
 "ফলাফল হিসেবে প্রাপ্ত বস্তুর গণনায় প্রদত্ত বস্তুগুলোর যে কোন একটি ব্যবহৃত হচ্ছে না।  এর "
 "অর্থ সম্ভবত এই যে, আপনি কিগ-এর নিকট থেকে অসম্ভব কিছু প্রত্যাশা করছেন।  অনুগ্রহপূর্বক "
 "ম্যাক্রোটি পরীক্ষা করুন ও তারপর পুনরায় চেষ্টা করুন।"
+
+#: modes/macrowizard.cc:49
+msgid "Given Objects"
+msgstr "প্রদত্ত বস্তু"
+
+#: modes/macrowizard.cc:56
+msgid "Select the \"given\" objects for your new macro and press \"Next\"."
+msgstr "আপনার নতুন ম্যাক্রোর জন্য \"প্রদত্ত\" বস্তুসমূহ বেছে নিয়ে \"পরবর্তী\" চাপুন।"
+
+#: modes/macrowizard.cc:89
+msgid "Final Object"
+msgstr "শেষ বস্তু"
+
+#: modes/macrowizard.cc:96
+msgid "Select the final object(s) for your new macro."
+msgstr "নতুন ম্যাক্রোর জন্য চূড়ান্ত বস্তু(গুলো) বেছে নিন।"
+
+#: modes/macrowizard.cc:130
+msgid "Enter a name and description for your new type."
+msgstr "নতুন ধরনের জন্য একটি নাম ও বিবরণ লিখুন।"
+
+#: modes/macrowizard.cc:138
+#, fuzzy
+#| msgid "Name:"
+msgid "&Name:"
+msgstr "নাম:"
+
+#: modes/macrowizard.cc:145
+#, fuzzy
+#| msgid "Description:"
+msgid "&Description:"
+msgstr "বিবরণ:"
+
+#: modes/macrowizard.cc:161
+msgid "Define New Macro"
+msgstr "নতুন ম্যাক্রো নির্ধারণ করো"
 
 #: modes/moving.cc:157
 #, qt-format
@@ -4795,7 +4815,7 @@ msgstr "যে বিন্দুতে ভেক্টর সমষ্টি �
 msgid "New Script"
 msgstr "নতুন স্ক্রিপ্ট"
 
-#: scripting/newscriptwizard.cc:72
+#: scripting/newscriptwizard.cc:73
 msgid ""
 "Select the argument objects ( if any )\n"
 "in the Kig window and press \"Next\"."
@@ -4803,7 +4823,7 @@ msgstr ""
 "কিগ উইন্ডো থেকে আর্গুমেন্ট বস্তু ( যদি থাকে )\n"
 "বেছে নিন ও তারপর \"পরবর্তী\" চাপুন।"
 
-#: scripting/newscriptwizard.cc:78
+#: scripting/newscriptwizard.cc:79
 msgid "Enter Code"
 msgstr "কোড লিখুন"
 
