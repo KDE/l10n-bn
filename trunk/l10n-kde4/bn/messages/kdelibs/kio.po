@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-04-02 05:37+0200\n"
+"POT-Creation-Date: 2007-04-03 05:44+0200\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -2218,12 +2218,12 @@ msgstr "&সম্পাদন করো..."
 msgid "Click this button to display the familiar KDE mime type editor."
 msgstr ""
 
-#: kio/kdirmodel.cpp:552 kfile/k3filedetailview.cpp:65
-#: kfile/kacleditwidget.cpp:598
+#: kio/kdirmodel.cpp:552 kfile/kacleditwidget.cpp:598
+#: ../kfile/k3filedetailview.cpp:65
 msgid "Name"
 msgstr "নাম"
 
-#: kio/kdirmodel.cpp:554 kfile/k3filedetailview.cpp:66
+#: kio/kdirmodel.cpp:554 ../kfile/k3filedetailview.cpp:66
 msgid "Size"
 msgstr "মাপ"
 
@@ -2232,17 +2232,17 @@ msgstr "মাপ"
 msgid "Modified"
 msgstr "পরিবর্তিত:"
 
-#: kio/kdirmodel.cpp:558 kfile/k3filedetailview.cpp:68
+#: kio/kdirmodel.cpp:558 ../kfile/k3filedetailview.cpp:68
 msgid "Permissions"
 msgstr "অনুমতি"
 
-#: kio/kdirmodel.cpp:560 kfile/k3filedetailview.cpp:69
-#: kfile/kacleditwidget.cpp:64 kfile/kacleditwidget.cpp:428
+#: kio/kdirmodel.cpp:560 kfile/kacleditwidget.cpp:64
+#: kfile/kacleditwidget.cpp:428 ../kfile/k3filedetailview.cpp:69
 msgid "Owner"
 msgstr "মালিক"
 
-#: kio/kdirmodel.cpp:562 kfile/k3filedetailview.cpp:70
-#: kfile/kpropertiesdialog.cpp:1947
+#: kio/kdirmodel.cpp:562 kfile/kpropertiesdialog.cpp:1947
+#: ../kfile/k3filedetailview.cpp:70
 msgid "Group"
 msgstr "গ্রুপ"
 
@@ -2587,102 +2587,42 @@ msgstr ""
 msgid "Could not find a usable proxy configuration script"
 msgstr ""
 
-#: misc/kfile/fileprops.cpp:137
-msgid "Do not print the mimetype of the given file(s)"
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:141
-msgid "List all supported metadata keys."
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:145
-msgid "List all metadata keys which have a value in the given file(s)."
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:150
-msgid ""
-"Do not print a warning when more than one file was given and they do not all "
-"have the same mimetype."
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:155
-msgid "Prints all metadata values, available in the given file(s)."
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:159
-msgid ""
-"Opens a KDE properties dialog to allow viewing and modifying of metadata of "
-"the given file(s)"
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:163
-msgid ""
-"Prints the value for 'key' of the given file(s). 'key' may also be a comma-"
-"separated list of keys"
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:167
-msgid ""
-"Attempts to set the value 'value' for the metadata key 'key' for the given "
-"file(s)"
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:171
-msgid "The file (or a number of files) to operate on."
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:276
-msgid "kfile"
-msgstr "kfile"
-
-#: misc/kfile/fileprops.cpp:277
-msgid "A commandline tool to read and modify metadata of files."
-msgstr ""
-
-#: misc/kfile/fileprops.cpp:301
-msgid "No files specified"
-msgstr "কোন ফাইল উল্লেখ করা হয়নি"
-
-#: misc/kfile/fileprops.cpp:324
-msgid "Cannot determine metadata"
-msgstr ""
-
-#: misc/kwalletd/kwalletd.cpp:379
+#: misc/kwalletd/kwalletd.cpp:385
 #, qt-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
 "password for this wallet below."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:381
+#: misc/kwalletd/kwalletd.cpp:387
 #, qt-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
 "b>'. Please enter the password for this wallet below."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:385 misc/kwalletd/kwalletd.cpp:421
-#: misc/kwalletd/kwalletd.cpp:589 misc/kwalletd/kwalletd.cpp:605
-#: misc/kwalletd/kwalletd.cpp:614 misc/kwalletd/kwalletd.cpp:619
-#: misc/kwalletd/kwalletd.cpp:1114
+#: misc/kwalletd/kwalletd.cpp:391 misc/kwalletd/kwalletd.cpp:427
+#: misc/kwalletd/kwalletd.cpp:595 misc/kwalletd/kwalletd.cpp:611
+#: misc/kwalletd/kwalletd.cpp:620 misc/kwalletd/kwalletd.cpp:625
+#: misc/kwalletd/kwalletd.cpp:1120
 msgid "KDE Wallet Service"
 msgstr "কে.ডি.ই. ওয়ালেট সার্ভিস"
 
-#: misc/kwalletd/kwalletd.cpp:392 misc/kwalletd/kwalletd.cpp:429
+#: misc/kwalletd/kwalletd.cpp:398 misc/kwalletd/kwalletd.cpp:435
 #, qt-format
 msgid ""
 "<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br>(Error code %"
 "2: %3)"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:409
+#: misc/kwalletd/kwalletd.cpp:415
 msgid ""
 "KDE has requested to open the wallet. This is used to store sensitive data "
 "in a secure fashion. Please enter a password to use with this wallet or "
 "click cancel to deny the application's request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:411
+#: misc/kwalletd/kwalletd.cpp:417
 #, qt-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
@@ -2690,7 +2630,7 @@ msgid ""
 "to use with this wallet or click cancel to deny the application's request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:415
+#: misc/kwalletd/kwalletd.cpp:421
 #, qt-format
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
@@ -2698,7 +2638,7 @@ msgid ""
 "request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:417
+#: misc/kwalletd/kwalletd.cpp:423
 #, qt-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
@@ -2706,42 +2646,42 @@ msgid ""
 "application's request."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:422
+#: misc/kwalletd/kwalletd.cpp:428
 msgid "C&reate"
 msgstr "তৈরি &করো"
 
-#: misc/kwalletd/kwalletd.cpp:500
+#: misc/kwalletd/kwalletd.cpp:506
 #, qt-format
 msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:502
+#: misc/kwalletd/kwalletd.cpp:508
 #, qt-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%"
 "2</b>'."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:589
+#: misc/kwalletd/kwalletd.cpp:595
 msgid ""
 "Unable to open wallet. The wallet must be opened in order to change the "
 "password."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:604
+#: misc/kwalletd/kwalletd.cpp:610
 #, qt-format
 msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'."
 msgstr "<qt>অনুগ্রহ করে '<b>%1</b>' ওয়ালেটটির জন্য একটি নতুন পাসওয়ার্ড পছন্দ করুন।"
 
-#: misc/kwalletd/kwalletd.cpp:614
+#: misc/kwalletd/kwalletd.cpp:620
 msgid "Error re-encrypting the wallet. Password was not changed."
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:619
+#: misc/kwalletd/kwalletd.cpp:625
 msgid "Error reopening the wallet. Data may be lost."
 msgstr "ওয়ালেট পুনরায় খুলতে সমস্যা হয়েছে। কিছু তথ্য হারিয়ে গিয়ে থাকতে পারে।"
 
-#: misc/kwalletd/kwalletd.cpp:1114
+#: misc/kwalletd/kwalletd.cpp:1120
 msgid ""
 "There have been repeated failed attempts to gain access to a wallet. An "
 "application may be misbehaving."
@@ -2821,22 +2761,6 @@ msgstr "KMailService"
 msgid "Mail service"
 msgstr "মেইল সার্ভিস"
 
-#: kfile/k3fileiconview.cpp:68
-msgid "Small Icons"
-msgstr "ছোট আইকন"
-
-#: kfile/k3fileiconview.cpp:72
-msgid "Large Icons"
-msgstr "বড় আইকন"
-
-#: kfile/k3fileiconview.cpp:81
-msgid "Thumbnail Previews"
-msgstr "থাম্বনেইল প্রাকদর্শন"
-
-#: kfile/k3fileiconview.cpp:117
-msgid "Icon View"
-msgstr "আইকন ভিউ"
-
 #: kfile/kimagefilepreview.cpp:54
 msgid "&Automatic preview"
 msgstr "স্বয়ংক্রীয় প্রাকদর্শ&ন"
@@ -2845,21 +2769,17 @@ msgstr "স্বয়ংক্রীয় প্রাকদর্শ&ন"
 msgid "&Preview"
 msgstr "প্রাক&দর্শন"
 
-#: kfile/kfileview.cpp:80
-msgid "Unknown View"
-msgstr "অজানা ভিউ"
-
 #: kfile/kurlrequesterdialog.cpp:47 kfile/kpropertiesdialog.cpp:947
 #: bookmarks/kbookmarkmenu.cc:652
 msgid "Location:"
 msgstr "অবস্থান:"
 
 #: kfile/kurlrequesterdialog.cpp:120 kfile/kicondialog.cpp:600
-#: kfile/kencodingfiledialog.cpp:101 kfile/kencodingfiledialog.cpp:119
-#: kfile/kencodingfiledialog.cpp:134 kfile/kencodingfiledialog.cpp:152
-#: kfile/kfiledialog.cpp:214 kfile/kfiledialog.cpp:238
-#: kfile/kfiledialog.cpp:254 kfile/kfiledialog.cpp:268
-#: kfile/kfiledialog.cpp:284 kfile/kfiledialog.cpp:324
+#: kfile/kencodingfiledialog.cpp:100 kfile/kencodingfiledialog.cpp:118
+#: kfile/kencodingfiledialog.cpp:133 kfile/kencodingfiledialog.cpp:151
+#: kfile/kfiledialog.cpp:193 kfile/kfiledialog.cpp:217
+#: kfile/kfiledialog.cpp:233 kfile/kfiledialog.cpp:247
+#: kfile/kfiledialog.cpp:263 kfile/kfiledialog.cpp:301
 #, fuzzy
 msgid "Open"
 msgstr "খোলো (&খ)"
@@ -2867,98 +2787,6 @@ msgstr "খোলো (&খ)"
 #: kfile/kpreviewprops.cpp:49
 msgid "P&review"
 msgstr "প্রাক&দর্শন"
-
-#: kfile/kfilespeedbar.cpp:47
-msgid "Desktop"
-msgstr "ডেস্কটপ"
-
-#: kfile/kfilespeedbar.cpp:48
-msgid "Files and folders found on your desktop"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:55
-msgid "Documents"
-msgstr "নথী"
-
-#: kfile/kfilespeedbar.cpp:56
-msgid "Your personal documents folder"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:60 kfile/kdiroperator.cpp:1279
-msgid "Home Folder"
-msgstr "ব্যক্তিগত ফোল্ডার"
-
-#: kfile/kfilespeedbar.cpp:62
-msgid "Your personal home folder for your files and settings"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:70
-msgid "Floppy"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:72
-msgid "Files and folders on floppy disks"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:77
-msgid "Storage Media"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:80
-msgid "Removable storage devices and media"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:85
-msgid "Network Folders"
-msgstr ""
-
-#: kfile/kfilespeedbar.cpp:88
-msgid "Files and folders on network locations."
-msgstr ""
-
-#: kfile/kcustommenueditor.cpp:92
-msgid "Menu Editor"
-msgstr "মেনু সম্পাদক"
-
-#: kfile/kcustommenueditor.cpp:99 kfile/kdiroperator.cpp:1268
-msgid "Menu"
-msgstr "মেনু"
-
-#: kfile/kcustommenueditor.cpp:103
-msgid "New..."
-msgstr "নতুন..."
-
-#. i18n: tag string
-#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 234
-#: kfile/kcustommenueditor.cpp:104 rc.cpp:292
-#, fuzzy, no-c-format
-msgid "Remove"
-msgstr "&এন্ট্রি মুছে ফেলো"
-
-#: kfile/kcustommenueditor.cpp:105
-msgid "Move Up"
-msgstr "উপরে ওঠাও"
-
-#: kfile/kcustommenueditor.cpp:106
-msgid "Move Down"
-msgstr "নীচে নামাও"
-
-#: kfile/k3filedetailview.cpp:63 kfile/kdiroperator.cpp:927
-#: kfile/kdiroperator.cpp:1350
-msgid "Detailed View"
-msgstr "বিস্তারিত ভিউ"
-
-#: kfile/k3filedetailview.cpp:67
-msgid "Date"
-msgstr "তারিখ"
-
-#: kfile/kfilefiltercombo.cpp:33 kfile/kfilewidget.cpp:1433
-msgid "*|All Files"
-msgstr "*|সব ফাইল"
-
-#: kfile/kfilefiltercombo.cpp:162
-msgid "All Supported Files"
-msgstr "সব সমর্থিত ফাইল"
 
 #: kfile/kicondialog.cpp:274 kfile/kicondialog.cpp:287
 msgid "Select Icon"
@@ -2978,8 +2806,7 @@ msgstr "&অন্যান্য আইকন:"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 178
-#: kfile/kicondialog.cpp:327 rc.cpp:264
-#, no-c-format
+#: kfile/kicondialog.cpp:327 rc.cpp:205
 msgid "&Browse..."
 msgstr "ব্রাউ&জ..."
 
@@ -3049,251 +2876,6 @@ msgstr "*.png *.xpm *.svg *.svgz|আইকন ফাইল (*.png *.xpm *.svg *.
 #: kfile/kfilemetainfowidget.cpp:119
 msgid "<Error>"
 msgstr "<ভুল>"
-
-#: kfile/kfilepreview.cpp:66
-msgid "Preview"
-msgstr "প্রাকদর্শন"
-
-#: kfile/kfilepreview.cpp:73
-msgid "No preview available."
-msgstr "কোন প্রাকদর্শন নেই।"
-
-#: kfile/kfilewidget.cpp:185
-msgid ""
-"<p>While typing in the text area, you may be presented with possible "
-"matches. This feature can be controlled by clicking with the right mouse "
-"button and selecting a preferred mode from the <b>Text Completion</b> menu."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:224
-msgid "Current location"
-msgstr "বর্তমান অবস্থান"
-
-#: kfile/kfilewidget.cpp:225
-msgid ""
-"This is the currently listed location. The drop-down list also lists "
-"commonly used locations. This includes standard locations, such as your home "
-"folder, as well as locations that have been visited recently."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:235
-#, fuzzy, qt-format
-msgid "Drive: %1"
-msgstr "মাপ %1 "
-
-#: kfile/kfilewidget.cpp:242
-#, qt-format
-msgid "Root Folder: %1"
-msgstr "রুট ফোল্ডার: %1"
-
-#: kfile/kfilewidget.cpp:249
-#, qt-format
-msgid "Home Folder: %1"
-msgstr "ব্যক্তিগত ফোল্ডার: %1"
-
-#: kfile/kfilewidget.cpp:258
-#, qt-format
-msgid "Documents: %1"
-msgstr "নথী: %1"
-
-#: kfile/kfilewidget.cpp:265
-#, qt-format
-msgid "Desktop: %1"
-msgstr "ডেস্কটপ: %1"
-
-#: kfile/kfilewidget.cpp:307
-#, qt-format
-msgid ""
-"<qt>Click this button to enter the parent folder.<p>For instance, if the "
-"current location is file:/home/%1 clicking this button will take you to "
-"file:/home.</qt>"
-msgstr ""
-"<qt>উর্ধ্বস্থ ফোল্ডারে যেতে এই বাটনটি ক্লিক করুন। <p>উদাহরণস্বরূপ, যদি আপনার বর্তমান "
-"অবস্থান হয় file:/home/%1, এই বাটনটি ক্লিক করলে আপনি চলে যাবেন file:/home।</qt>"
-
-#: kfile/kfilewidget.cpp:311
-msgid "Click this button to move backwards one step in the browsing history."
-msgstr "পূর্বদৃষ্ট অবস্থানের তালিকায় এক ধাপ পিছিয়ে যেতে এই বাটনটি ক্লিক করুন।"
-
-#: kfile/kfilewidget.cpp:313
-msgid "Click this button to move forward one step in the browsing history."
-msgstr "পূর্বদৃষ্ট অবস্থানের তালিকায় এক ধাপ এগিয়ে যেতে এই বাটনটি ক্লিক করুন।"
-
-#: kfile/kfilewidget.cpp:315
-msgid "Click this button to reload the contents of the current location."
-msgstr "প্রদর্শিত অবস্থানটির বিষয়বস্তু নতুন করে লোড করতে এই বাটনটি ক্লিক করুন।"
-
-#: kfile/kfilewidget.cpp:318
-msgid "Click this button to create a new folder."
-msgstr "নতুন ফোল্ডার তৈরি করতে এই বাটনটি ক্লিক করুন।"
-
-#: kfile/kfilewidget.cpp:321
-msgid "Show Quick Access Navigation Panel"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:324
-msgid "Hide Quick Access Navigation Panel"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:329
-msgid "Show Bookmarks"
-msgstr "বুকমার্ক দেখাও"
-
-#: kfile/kfilewidget.cpp:331
-msgid "Hide Bookmarks"
-msgstr "বুকমার্ক লুকোও"
-
-#: kfile/kfilewidget.cpp:335
-#, fuzzy
-msgid "Configure"
-msgstr "চালিয়ে যা&ও"
-
-#: kfile/kfilewidget.cpp:337
-msgid ""
-"<qt>This is the configuration menu for the file dialog. Various options can "
-"be accessed from this menu including: <ul><li>how files are sorted in the "
-"list</li><li>types of view, including icon and list</li><li>showing of "
-"hidden files</li><li>the Quick Access navigation panel</li><li>file "
-"previews</li><li>separating folders from files</li></ul></qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:388
-msgid "&Location:"
-msgstr "&অবস্থান:"
-
-#: kfile/kfilewidget.cpp:413
-msgid ""
-"<qt>This is the filter to apply to the file list. File names that do not "
-"match the filter will not be shown.<p>You may select from one of the preset "
-"filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:419
-msgid "&Filter:"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:584
-msgid "Please specify the filename to save to."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:586
-msgid "Please select the file to open."
-msgstr "খোলার জন্য ফাইল নির্বাচন করুন।"
-
-#: kfile/kfilewidget.cpp:643 kfile/kfilewidget.cpp:686
-#: kfile/kfilewidget.cpp:1378
-msgid "You can only select local files."
-msgstr "শুধু স্থানীয় ফাইল নির্বাচন করতে পারেন।"
-
-#: kfile/kfilewidget.cpp:644 kfile/kfilewidget.cpp:687
-#: kfile/kfilewidget.cpp:1379
-msgid "Remote Files Not Accepted"
-msgstr "দূরবর্তী (রিমোট) ফাইল গ্রহণযোগ্য নয়"
-
-#: kfile/kfilewidget.cpp:678
-#, qt-format
-msgid ""
-"%1\n"
-"does not appear to be a valid URL.\n"
-msgstr ""
-"%1\n"
-"একটি বৈধ ইউ-আর-এল বলে মনে হচ্ছে না।\n"
-
-#: kfile/kfilewidget.cpp:678
-msgid "Invalid URL"
-msgstr "অবৈধ ইউ-আর-এল"
-
-#: kfile/kfilewidget.cpp:999
-msgid "This is the name to save the file as."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1004
-msgid ""
-"This is the list of files to open. More than one file can be specified by "
-"listing several files, separated by spaces."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1011
-msgid "This is the name of the file to open."
-msgstr "যে ফাইলটি খোলা হবে তার নাম।"
-
-#: kfile/kfilewidget.cpp:1310
-msgid ""
-"The chosen filenames do not\n"
-"appear to be valid."
-msgstr ""
-"নির্বাচিত নামগুলি ফাইলের নাম\n"
-"হিসাবে অবৈধ বলে মনে হচ্ছে।"
-
-#: kfile/kfilewidget.cpp:1312
-msgid "Invalid Filenames"
-msgstr "ফাইলের নাম অবৈধ "
-
-#: kfile/kfilewidget.cpp:1341
-#, qt-format
-msgid ""
-"The requested filenames\n"
-"%1\n"
-"do not appear to be valid;\n"
-"make sure every filename is enclosed in double quotes."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1345
-msgid "Filename Error"
-msgstr "ফাইলের নাম ভুল"
-
-#: kfile/kfilewidget.cpp:1430
-msgid "*|All Folders"
-msgstr "*|সব ফোল্ডার"
-
-#: kfile/kfilewidget.cpp:1701
-#, qt-format
-msgid "Automatically select filename e&xtension (%1)"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1702
-#, qt-format
-msgid "the extension <b>%1</b>"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1710
-msgid "Automatically select filename e&xtension"
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1711
-msgid "a suitable extension"
-msgstr "একটি উপযুক্ত এক্সটেনশন"
-
-#: kfile/kfilewidget.cpp:1721
-#, qt-format
-msgid ""
-"This option enables some convenient features for saving files with "
-"extensions:<br><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br><br></li><li>If "
-"no extension is specified in the <b>%2</b> text area when you click <b>Save</"
-"b>, %3 will be added to the end of the filename (if the filename does not "
-"already exist). This extension is based on the file type that you have "
-"chosen to save in.<br><br>If you do not want KDE to supply an extension for "
-"the filename, you can either turn this option off or you can suppress it by "
-"adding a period (.) to the end of the filename (the period will be "
-"automatically removed).</li></ol>If unsure, keep this option enabled as it "
-"makes your files more manageable."
-msgstr ""
-
-#: kfile/kfilewidget.cpp:1987 bookmarks/kbookmarkimporter_ns.cc:198
-#: bookmarks/kbookmarkimporter_ns.cc:199 bookmarks/kbookmarkmenu.cc:681
-#, fuzzy
-msgid "Bookmarks"
-msgstr "বুকমার্ক"
-
-#: kfile/kfilewidget.cpp:1990
-msgid ""
-"<qt>This button allows you to bookmark specific locations. Click on this "
-"button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<p>These bookmarks are specific to the file dialog, but otherwise "
-"operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
 
 #: kfile/kacleditwidget.cpp:65 kfile/kacleditwidget.cpp:433
 msgid "Owning Group"
@@ -3375,53 +2957,13 @@ msgstr "x"
 msgid "Effective"
 msgstr ""
 
-#: kfile/kdirselectdialog.cpp:100
-msgid "Select Folder"
-msgstr "ফোল্ডার নির্বাচন করো"
-
-#: kfile/kdirselectdialog.cpp:102 kfile/kdirselectdialog.cpp:139
-#: kfile/kdiroperator.cpp:1290
-msgid "New Folder..."
-msgstr "নতুন ফোল্ডার..."
-
-#: kfile/kdirselectdialog.cpp:123
-msgid "Folders"
-msgstr "ফোল্ডার"
-
-#: kfile/kdirselectdialog.cpp:145
-msgid "Show Hidden Folders"
-msgstr "গুপ্ত ফোল্ডার দেখাও"
-
-#: kfile/kdirselectdialog.cpp:427 kfile/kdirselectdialog.cpp:431
-#: kfile/kdiroperator.cpp:398 kfile/kdiroperator.cpp:406
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: kfile/kdirselectdialog.cpp:432 kfile/kdiroperator.cpp:407
-#, qt-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"%1-এ \n"
-"নতুন ফোল্ডার তৈরি করো"
-
-#: kfile/kdirselectdialog.cpp:455 kfile/kdiroperator.cpp:435
-#, qt-format
-msgid "A file or folder named %1 already exists."
-msgstr "%1 নামে একটি ফাইল বা ফোল্ডার আগে থেকেই আছে।"
-
-#: kfile/kdirselectdialog.cpp:459 kfile/kdiroperator.cpp:439
-msgid "You do not have permission to create that folder."
-msgstr "আপনার ঐ ফোল্ডারটি তৈরি করার অনুমতি নেই।"
-
-#: kfile/kencodingfiledialog.cpp:173 kfile/kencodingfiledialog.cpp:198
-#: kfile/kfiledialog.cpp:373 kfile/kfiledialog.cpp:406
-#: kfile/kfiledialog.cpp:425
+#: kfile/kencodingfiledialog.cpp:172 kfile/kencodingfiledialog.cpp:197
+#: kfile/kfiledialog.cpp:350 kfile/kfiledialog.cpp:383
+#: kfile/kfiledialog.cpp:402
 msgid "Save As"
 msgstr ""
 
-#: kfile/kurlrequester.cpp:198
+#: kfile/kurlrequester.cpp:197
 msgid "Open file dialog"
 msgstr "ফাইল ডায়ালগ খোলো"
 
@@ -3498,154 +3040,6 @@ msgstr ""
 #: kfile/kopenwithdialog.cpp:494
 msgid "&Remember application association for this type of file"
 msgstr "এই &ধরনের ফাইলের জন্য এই অ্যাপলিকেশনটির কথা মনে রাখো"
-
-#: kfile/kdiroperator.cpp:461
-msgid "You did not select a file to delete."
-msgstr "আপনি মোছার জন্য কোন ফাইল বাছেননি।"
-
-#: kfile/kdiroperator.cpp:462
-msgid "Nothing to Delete"
-msgstr "কিছু মোছার নেই"
-
-#: kfile/kdiroperator.cpp:476
-#, qt-format
-msgid ""
-"<qt>Do you really want to delete\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt>আপনি কি সত্যিই \n"
-" <b>'%1'</b> মুছতে চান?</qt>"
-
-#: kfile/kdiroperator.cpp:478
-msgid "Delete File"
-msgstr "ফাইল মুছে ফেল"
-
-#: kfile/kdiroperator.cpp:484
-#, fuzzy, qt-format
-msgid "Do you really want to delete this item?"
-msgid_plural "Do you really want to delete these %1 items?"
-msgstr[0] "translators: not called for n == 1"
-msgstr[1] "আপনি কি সত্যিই এই %1-টি জিনিস মুছে ফেলতে চান?"
-
-#: kfile/kdiroperator.cpp:486
-msgid "Delete Files"
-msgstr "ফাইলগুলি মুছে ফেল"
-
-#: kfile/kdiroperator.cpp:518
-msgid "You did not select a file to trash."
-msgstr "আপনি আবর্জনার বাক্সে পাঠাবার জন্য কোন ফাইল বাছেননি।"
-
-#: kfile/kdiroperator.cpp:519
-msgid "Nothing to Trash"
-msgstr "আবর্জনার বাক্সে পাঠাবার মত কিছু নেই"
-
-#: kfile/kdiroperator.cpp:533
-#, qt-format
-msgid ""
-"<qt>Do you really want to trash\n"
-" <b>'%1'</b>?</qt>"
-msgstr ""
-"<qt>আপনি কি সত্যিই\n"
-" <b>'%1'</b> আবর্জনার বাক্সে পাঠাতে চান?</qt>"
-
-#: kfile/kdiroperator.cpp:535
-msgid "Trash File"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:536 kfile/kdiroperator.cpp:544
-msgctxt "to trash"
-msgid "&Trash"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:541
-#, fuzzy, qt-format
-msgid "translators: not called for n == 1"
-msgid_plural "Do you really want to trash these %1 items?"
-msgstr[0] "translators: not called for n == 1"
-msgstr[1] "আপনি কি সত্যিই এই %1-টি জিনিস আবর্জনার বাক্সে পাঠাতে চান?"
-
-#: kfile/kdiroperator.cpp:543
-msgid "Trash Files"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:663 kfile/kdiroperator.cpp:732
-msgid "The specified folder does not exist or was not readable."
-msgstr ""
-
-#: kfile/kdiroperator.cpp:932 kfile/kdiroperator.cpp:1345
-msgid "Short View"
-msgstr "সংক্ষিপ্ত ভিউ"
-
-#: kfile/kdiroperator.cpp:1272
-msgid "Parent Folder"
-msgstr "উর্ধ্বস্থ ফোল্ডার"
-
-#: kfile/kdiroperator.cpp:1282
-#, fuzzy
-msgid "Reload"
-msgstr "হ্যাঁ"
-
-#: kfile/kdiroperator.cpp:1295
-msgid "Move to Trash"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1301
-#, fuzzy
-msgid "Delete"
-msgstr "মুছে ফেলা হচ্ছে"
-
-#: kfile/kdiroperator.cpp:1308
-msgid "Sorting"
-msgstr "ক্রমবিন্যাস"
-
-#: kfile/kdiroperator.cpp:1311
-msgid "By Name"
-msgstr "নাম অনুসারে"
-
-#: kfile/kdiroperator.cpp:1315
-msgid "By Date"
-msgstr "তারিখ অনুসারে"
-
-#: kfile/kdiroperator.cpp:1319
-msgid "By Size"
-msgstr "আয়তন অনুসারে"
-
-#: kfile/kdiroperator.cpp:1323
-msgid "Reverse"
-msgstr "বিপরীত"
-
-#: kfile/kdiroperator.cpp:1332
-msgid "Folders First"
-msgstr "প্রথমে ফোল্ডার"
-
-#: kfile/kdiroperator.cpp:1336
-msgid "Case Insensitive"
-msgstr "Case Insensitive"
-
-#: kfile/kdiroperator.cpp:1341
-#, fuzzy
-msgid "&View"
-msgstr "প্রাক&দর্শন"
-
-#: kfile/kdiroperator.cpp:1355
-msgid "Show Hidden Files"
-msgstr "গুপ্ত ফাইল দেখাও"
-
-#: kfile/kdiroperator.cpp:1359
-msgid "Separate Folders"
-msgstr "আলাদা ফোল্ডার"
-
-#: kfile/kdiroperator.cpp:1363
-msgid "Show Preview"
-msgstr "প্রাকদর্শন দেখাও"
-
-#: kfile/kdiroperator.cpp:1366
-msgid "Hide Preview"
-msgstr ""
-
-#: kfile/kdiroperator.cpp:1375 bookmarks/kbookmarkmenu.cc:256
-msgid "Properties"
-msgstr ""
 
 #: kfile/kmetaprops.cpp:133
 msgid "&Meta Info"
@@ -3758,7 +3152,7 @@ msgstr "নতুন ফাইলের নাম ফাঁকা।"
 
 #: kfile/kpropertiesdialog.cpp:1426 kfile/kpropertiesdialog.cpp:2590
 #: kfile/kpropertiesdialog.cpp:2753 kfile/kpropertiesdialog.cpp:3041
-#: kfile/kpropertiesdialog.cpp:3250
+#: kfile/kpropertiesdialog.cpp:3251
 #, qt-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
@@ -3960,8 +3354,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 89
-#: kfile/kpropertiesdialog.cpp:1943 rc.cpp:110
-#, no-c-format
+#: kfile/kpropertiesdialog.cpp:1943 rc.cpp:83
 msgid "User"
 msgstr "ব্যবহারকারী"
 
@@ -4097,20 +3490,20 @@ msgstr "মাইমটাইপ"
 msgid "Description"
 msgstr "বর্ণনা"
 
-#: kfile/kpropertiesdialog.cpp:3191
+#: kfile/kpropertiesdialog.cpp:3192
 #, qt-format
 msgid "Add File Type for %1"
 msgstr "%1-র জন্য ফাইল টাইপ যোগ করো"
 
-#: kfile/kpropertiesdialog.cpp:3192
+#: kfile/kpropertiesdialog.cpp:3193
 msgid "Select one or more file types to add:"
 msgstr "যোগ করার জন্য এক বা একাধিক ফাইল বেছে নিন:"
 
-#: kfile/kpropertiesdialog.cpp:3323
+#: kfile/kpropertiesdialog.cpp:3324
 msgid "Only executables on local file systems are supported."
 msgstr "শুধুমাত্র স্থানীয় এক্সিকিউটেবল ফাইল সমর্থিত।"
 
-#: kfile/kpropertiesdialog.cpp:3337
+#: kfile/kpropertiesdialog.cpp:3338
 #, qt-format
 msgid "Advanced Options for %1"
 msgstr "%1-এর জন্য অগ্রসর অপশন"
@@ -4182,98 +3575,6 @@ msgid ""
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
 
-#: kfile/kurlbar.cpp:278 kfile/kurlbar.cpp:300
-msgid ""
-"<qt>The <b>Quick Access</b> panel provides easy access to commonly used file "
-"locations.<p>Clicking on one of the shortcut entries will take you to that "
-"location.<p>By right clicking on an entry you can add, edit and remove "
-"shortcuts.</qt>"
-msgstr ""
-
-#: kfile/kurlbar.cpp:689
-msgid "&Large Icons"
-msgstr "&বড় আইকন"
-
-#: kfile/kurlbar.cpp:689
-msgid "&Small Icons"
-msgstr "ছো&ট আইকন"
-
-#: kfile/kurlbar.cpp:695
-msgid "&Edit Entry..."
-msgstr "এন্ট্রি &সম্পাদন করো..."
-
-#: kfile/kurlbar.cpp:699
-msgid "&Add Entry..."
-msgstr "এন্ট্রি যো&গ করো..."
-
-#: kfile/kurlbar.cpp:703
-msgid "&Remove Entry"
-msgstr "&এন্ট্রি মুছে ফেলো"
-
-#: kfile/kurlbar.cpp:728
-msgid "Enter a description"
-msgstr "একটি বর্ণনা লিখুন"
-
-#: kfile/kurlbar.cpp:892
-msgid "Edit Quick Access Entry"
-msgstr ""
-
-#: kfile/kurlbar.cpp:898
-msgid ""
-"<qt><b>Please provide a description, URL and icon for this Quick Access "
-"entry.</b></br></qt>"
-msgstr ""
-
-#: kfile/kurlbar.cpp:906
-msgid ""
-"<qt>This is the text that will appear in the Quick Access panel.<p>The "
-"description should consist of one or two words that will help you remember "
-"what this entry refers to.</qt>"
-msgstr ""
-
-#. i18n: tag string
-#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 96
-#: kfile/kurlbar.cpp:909 rc.cpp:206
-#, no-c-format
-msgid "&Description:"
-msgstr "&বর্ণনা:"
-
-#: kfile/kurlbar.cpp:916
-#, qt-format
-msgid ""
-"<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/kde/"
-"stable<p>By clicking on the button next to the text edit box you can browse "
-"to an appropriate URL.</qt>"
-msgstr ""
-
-#: kfile/kurlbar.cpp:920
-msgid "&URL:"
-msgstr "ই&উ-আর-এল:"
-
-#: kfile/kurlbar.cpp:927
-msgid ""
-"<qt>This is the icon that will appear in the Quick Access panel.<p>Click on "
-"the button to select a different icon.</qt>"
-msgstr ""
-
-#: kfile/kurlbar.cpp:929
-msgid "Choose an &icon:"
-msgstr "একটি আ&ইকন বেছে নিন:"
-
-#: kfile/kurlbar.cpp:947
-#, qt-format
-msgid "&Only show when using this application (%1)"
-msgstr "শুধু &এই অ্যাপলিকেশনটি (%1) ব্যবহার করার সময় দেখাও"
-
-#: kfile/kurlbar.cpp:949
-#, qt-format
-msgid ""
-"<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<p>If this setting is not selected, the entry will "
-"be available in all applications.</qt>"
-msgstr ""
-
 #: tests/jobtest.cpp:985
 #, fuzzy
 msgid "1 day 23:59:00"
@@ -4312,8 +3613,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kssl/keygenwizard2.ui line 25
-#: rc.cpp:6
-#, no-c-format
+#: rc.cpp:5
 msgid ""
 "You must now provide a password for the certificate request. Please choose a "
 "very secure password as this will be used to encrypt your private key."
@@ -4321,22 +3621,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kssl/keygenwizard2.ui line 35
-#: rc.cpp:10
-#, no-c-format
+#: rc.cpp:8
 msgid "&Repeat password:"
 msgstr "পাসওয়ার্ড আবা&র লিখুন:"
 
 #. i18n: tag string
 #. i18n: file ./kssl/keygenwizard2.ui line 45
-#: rc.cpp:14
-#, no-c-format
+#: rc.cpp:11
 msgid "&Choose password:"
 msgstr "পা&সওয়ার্ড নির্বাচন করুন:"
 
 #. i18n: tag string
 #. i18n: file ./kssl/keygenwizard.ui line 25
-#: rc.cpp:18
-#, no-c-format
+#: rc.cpp:14
 msgid ""
 "You have indicated that you wish to obtain or purchase a secure certificate. "
 "This wizard is intended to guide you through the procedure. You may cancel "
@@ -4345,15 +3642,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 61
-#: rc.cpp:22
-#, no-c-format
+#: rc.cpp:17
 msgid "<u>KWallet</u> - The KDE Wallet System"
 msgstr "<u>কে-ওয়ালেট</u> - কে.ডি.ই. ওয়ালেট সিস্টেম"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 82
-#: rc.cpp:26
-#, no-c-format
+#: rc.cpp:20
 msgid ""
 "Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
 "passwords and other personal information on disk in an encrypted file, "
@@ -4363,22 +3658,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 116
-#: rc.cpp:30
-#, no-c-format
+#: rc.cpp:23
 msgid "&Basic setup (recommended)"
 msgstr "সহ&জ সেট-আপ "
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 126
-#: rc.cpp:34
-#, no-c-format
+#: rc.cpp:26
 msgid "&Advanced setup"
 msgstr "&অগ্রসর সেট-আপ"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 186
-#: rc.cpp:38
-#, no-c-format
+#: rc.cpp:29
 msgid ""
 "The KDE Wallet system stores your data in a <i>wallet</i> file on your local "
 "hard disk.  The data is only written in encrypted form, presently using the "
@@ -4391,8 +3683,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 217
-#: rc.cpp:42
-#, no-c-format
+#: rc.cpp:32
 msgid ""
 "Various applications may attempt to use the KDE wallet to store passwords or "
 "other information such as web form data and cookies.  If you would like "
@@ -4404,29 +3695,25 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 249
-#: rc.cpp:46
-#, no-c-format
+#: rc.cpp:35
 msgid "Enter a new password:"
 msgstr "নতুন পাসওয়ার্ড লিখুন:"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 265
-#: rc.cpp:50
-#, no-c-format
+#: rc.cpp:38
 msgid "Verify password:"
 msgstr "পাসওয়ার্ডটি আবার লিখুন:"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 312
-#: rc.cpp:54
-#, no-c-format
+#: rc.cpp:41
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
 msgstr "হ্যাঁ, আমি আমার ব্যক্তিগত তথ্য কে.ডি.ই. ওয়ালেট-এ রাখতে চাই"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 411
-#: rc.cpp:58
-#, no-c-format
+#: rc.cpp:44
 msgid ""
 "The KDE Wallet system allows you to control the level of security of your "
 "personal data.  Some of these settings do impact usability.  While the "
@@ -4437,57 +3724,49 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 443
-#: rc.cpp:62
-#, no-c-format
+#: rc.cpp:47
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr "নেটওয়ার্ক পাসওয়ার্ড এবং স্থানীয় পাসওয়ার্ড আলাদা ওয়ালেট ফাইলে রাখো"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kwalletwizardbase.ui line 450
-#: rc.cpp:66
-#, no-c-format
+#: rc.cpp:50
 msgid "Automatically close idle wallets"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 55
-#: rc.cpp:70
-#, no-c-format
+#: rc.cpp:53
 msgid "Allow &Once"
 msgstr "&একবার করতে দাও"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 65
-#: rc.cpp:74
-#, no-c-format
+#: rc.cpp:56
 msgid "Allow &Always"
 msgstr "&সবসময় করতে দাও"
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 72
-#: rc.cpp:78
-#, no-c-format
+#: rc.cpp:59
 msgid "&Deny"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 79
-#: rc.cpp:82
-#, no-c-format
+#: rc.cpp:62
 msgid "Deny &Forever"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 25
-#: rc.cpp:86
-#, no-c-format
+#: rc.cpp:65
 msgid "Terminal"
 msgstr "টার্মিনাল"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 53
-#: rc.cpp:90
-#, no-c-format
+#: rc.cpp:68
 msgid ""
 "Check this option if the application you want to run is a text mode "
 "application or if you want the information that is provided by the terminal "
@@ -4496,22 +3775,19 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 56
-#: rc.cpp:94
-#, no-c-format
+#: rc.cpp:71
 msgid "&Run in terminal"
 msgstr "টা&রমিনালে চালাও "
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 63
-#: rc.cpp:98
-#, no-c-format
+#: rc.cpp:74
 msgid "&Terminal options:"
 msgstr "টার্মিনা&ল অপশন:"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 73
-#: rc.cpp:102
-#, no-c-format
+#: rc.cpp:77
 msgid ""
 "Check this option if the text mode application offers relevant information "
 "on exit. Keeping the terminal emulator open allows you to retrieve this "
@@ -4520,15 +3796,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 76
-#: rc.cpp:106
-#, no-c-format
+#: rc.cpp:80
 msgid "Do not &close when command exits"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 101
-#: rc.cpp:114
-#, no-c-format
+#: rc.cpp:86
 msgid ""
 "Check this option if you want to run this application with a different user "
 "id. Every process has a different user id associated with it. This id code "
@@ -4538,43 +3812,37 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 104
-#: rc.cpp:118
-#, no-c-format
+#: rc.cpp:89
 msgid "Ru&n as a different user"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 127
-#: rc.cpp:122
-#, no-c-format
+#: rc.cpp:92
 msgid "Enter the user name you want to run the application as."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 130
-#: rc.cpp:126
-#, no-c-format
+#: rc.cpp:95
 msgid "&Username:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 140
-#: rc.cpp:130
-#, no-c-format
+#: rc.cpp:98
 msgid "Enter the user name you want to run the application as here."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 150
-#: rc.cpp:134
-#, no-c-format
+#: rc.cpp:101
 msgid "Startup"
 msgstr "আরম্ভ"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 162
-#: rc.cpp:138
-#, no-c-format
+#: rc.cpp:104
 msgid ""
 "Check this option if you want to make clear that your application has "
 "started. This visual feedback may appear as a busy cursor or in the taskbar."
@@ -4582,15 +3850,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 165
-#: rc.cpp:142
-#, no-c-format
+#: rc.cpp:107
 msgid "Enable &launch feedback"
 msgstr "&লঞ্চ ফীডব্যাক সক্রিয় করো"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 172
-#: rc.cpp:146
-#, no-c-format
+#: rc.cpp:110
 msgid ""
 "Check this option if you want to have a system tray handle for your "
 "application."
@@ -4598,43 +3864,38 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 175
-#: rc.cpp:150
-#, no-c-format
+#: rc.cpp:113
 msgid "&Place in system tray"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 182
-#: rc.cpp:154
-#, fuzzy, no-c-format
+#: rc.cpp:116
+#, fuzzy
 msgid "&DBUS registration:"
 msgstr "ডি&কপ রেজিস্ট্রেশন:"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 193
-#: rc.cpp:158
-#, no-c-format
+#: rc.cpp:119
 msgid "None"
 msgstr "একটিও না"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 198
-#: rc.cpp:162
-#, no-c-format
+#: rc.cpp:122
 msgid "Multiple Instances"
 msgstr "একাধিক"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 203
-#: rc.cpp:166
-#, no-c-format
+#: rc.cpp:125
 msgid "Single Instance"
 msgstr "একটিমাত্র"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 208
-#: rc.cpp:170
-#, no-c-format
+#: rc.cpp:128
 msgid "Run Until Finished"
 msgstr "শেষ হওয়া অবধি চালাও"
 
@@ -4642,8 +3903,7 @@ msgstr "শেষ হওয়া অবধি চালাও"
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 43
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 66
-#: rc.cpp:174 rc.cpp:184
-#, no-c-format
+#: rc.cpp:131 rc.cpp:139
 msgid ""
 "<qt><p>This list should show the types of file that your application can "
 "handle. This list is organized by <u>mimetypes</u>.</p>\n"
@@ -4663,8 +3923,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 46
-#: rc.cpp:180
-#, no-c-format
+#: rc.cpp:136
 msgid "&Supported file types:"
 msgstr "&সমর্থিত ফাইল টাইপ:"
 
@@ -4672,8 +3931,7 @@ msgstr "&সমর্থিত ফাইল টাইপ:"
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 73
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 86
-#: rc.cpp:190 rc.cpp:198
-#, no-c-format
+#: rc.cpp:144 rc.cpp:150
 msgid ""
 "Type the name you want to give to this application here. This application "
 "will appear under this name in the applications menu and in the panel."
@@ -4681,8 +3939,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 76
-#: rc.cpp:194
-#, no-c-format
+#: rc.cpp:147
 msgid "&Name:"
 msgstr "নাম (&ন):"
 
@@ -4690,26 +3947,29 @@ msgstr "নাম (&ন):"
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 93
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 106
-#: rc.cpp:202 rc.cpp:210
-#, no-c-format
+#: rc.cpp:153 rc.cpp:159
 msgid ""
 "Type the description of this application, based on its use, here. Examples: "
 "a dial up application (KPPP) would be \"Dial up tool\"."
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 96
+#: rc.cpp:156 ../kfile/kurlbar.cpp:909
+msgid "&Description:"
+msgstr "&বর্ণনা:"
+
+#. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 113
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 126
-#: rc.cpp:214 rc.cpp:222
-#, no-c-format
+#: rc.cpp:162 rc.cpp:168
 msgid "Type any comment you think is useful here."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 116
-#: rc.cpp:218
-#, no-c-format
+#: rc.cpp:165
 msgid "Comm&ent:"
 msgstr "&মন্তব্য:"
 
@@ -4717,8 +3977,7 @@ msgstr "&মন্তব্য:"
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 144
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 168
-#: rc.cpp:226 rc.cpp:245
-#, no-c-format
+#: rc.cpp:171 rc.cpp:188
 msgid ""
 "Type the command to start this application here.\n"
 "\n"
@@ -4738,15 +3997,13 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 147
-#: rc.cpp:241
-#, no-c-format
+#: rc.cpp:185
 msgid "Co&mmand:"
 msgstr "&কমান্ড:"
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 175
-#: rc.cpp:260
-#, no-c-format
+#: rc.cpp:202
 msgid ""
 "Click here to browse your file system in order to find the desired "
 "executable."
@@ -4756,22 +4013,19 @@ msgstr ""
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 185
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 198
-#: rc.cpp:268 rc.cpp:276
-#, no-c-format
+#: rc.cpp:208 rc.cpp:214
 msgid "Sets the working directory for your application."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 188
-#: rc.cpp:272
-#, no-c-format
+#: rc.cpp:211
 msgid "&Work path:"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 205
-#: rc.cpp:280
-#, no-c-format
+#: rc.cpp:217
 msgid ""
 "Click on this button if you want to add a type of file (mimetype) that your "
 "application can handle."
@@ -4779,24 +4033,28 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 208
-#: rc.cpp:284
-#, no-c-format
+#: rc.cpp:220
 msgid "Add..."
 msgstr "যোগ করো..."
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 231
-#: rc.cpp:288
-#, no-c-format
+#: rc.cpp:223
 msgid ""
 "If you want to remove a type of file (mimetype) that your application cannot "
 "handle, select the mimetype in the list above and click on this button."
 msgstr ""
 
 #. i18n: tag string
+#. i18n: file ./kfile/kpropertiesdesktopbase.ui line 234
+#: rc.cpp:226
+#, fuzzy
+msgid "Remove"
+msgstr "&এন্ট্রি মুছে ফেলো"
+
+#. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 257
-#: rc.cpp:296
-#, no-c-format
+#: rc.cpp:229
 msgid ""
 "Click here to modify the way this application will run, launch feedback, "
 "DBUS options or to run it as a different user."
@@ -4804,8 +4062,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 260
-#: rc.cpp:300
-#, no-c-format
+#: rc.cpp:232
 msgid "Ad&vanced Options"
 msgstr "&অগ্রসর অপশন"
 
@@ -4842,6 +4099,12 @@ msgstr "*.html|HTML ফাইল (*.html)"
 msgid "<!-- This file was generated by Konqueror -->"
 msgstr "<!-- এই ফাইলটি কনকরারের তৈরি করা -->"
 
+#: bookmarks/kbookmarkimporter_ns.cc:198 bookmarks/kbookmarkimporter_ns.cc:199
+#: bookmarks/kbookmarkmenu.cc:681 ../kfile/kfilewidget.cpp:1961
+#, fuzzy
+msgid "Bookmarks"
+msgstr "বুকমার্ক"
+
 #: bookmarks/kbookmarkimporter_opera.cc:110
 #: bookmarks/kbookmarkimporter_opera.cc:113
 msgid "*.adr|Opera Bookmark Files (*.adr)"
@@ -4862,6 +4125,10 @@ msgstr "ফোল্ডার বুকমার্ক সম্পাদকে 
 #: bookmarks/kbookmarkmenu.cc:249
 msgid "Delete Folder"
 msgstr "ফোল্ডার মুছে ফেল"
+
+#: bookmarks/kbookmarkmenu.cc:256 ../kfile/kdiroperator.cpp:1375
+msgid "Properties"
+msgstr ""
 
 #: bookmarks/kbookmarkmenu.cc:261
 msgid "Copy Link Address"
@@ -5008,12 +4275,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:463 ../kioslave/http/http.cpp:5032
+#: ../kioslave/ftp/ftp.cpp:463 ../kioslave/http/http.cpp:5024
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr "এই সাইটটি দেখতে আপনার একটি username এবং পাসওয়ার্ড প্রয়োজন।"
 
-#: ../kioslave/ftp/ftp.cpp:465 ../kioslave/http/http.cpp:5040
+#: ../kioslave/ftp/ftp.cpp:465 ../kioslave/http/http.cpp:5032
 msgid "Site:"
 msgstr "সাইট:"
 
@@ -5203,71 +4470,71 @@ msgstr ""
 msgid "upload %1"
 msgstr "%1 আপলোড করো"
 
-#: ../kioslave/http/http.cpp:2000
+#: ../kioslave/http/http.cpp:1992
 #, qt-format
 msgid "Connecting to %1..."
 msgstr "%1-এর সঙ্গে যোগাযোগ করা হচ্ছে..."
 
-#: ../kioslave/http/http.cpp:2018 ../kioslave/http/http.cpp:2022
+#: ../kioslave/http/http.cpp:2010 ../kioslave/http/http.cpp:2014
 #, qt-format
 msgid "Proxy %1 at port %2"
 msgstr "প্রক্সি %1 পোর্ট %2-এ"
 
-#: ../kioslave/http/http.cpp:2054
+#: ../kioslave/http/http.cpp:2046
 #, qt-format
 msgid "%1 (port %2)"
 msgstr "%1 (পোর্ট %2)"
 
-#: ../kioslave/http/http.cpp:2589
+#: ../kioslave/http/http.cpp:2581
 #, qt-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1-এর সঙ্গে যোগাযোগ করা হয়েছে। উত্তরের অপেক্ষায়..."
 
-#: ../kioslave/http/http.cpp:2955
+#: ../kioslave/http/http.cpp:2947
 msgid "Server processing request, please wait..."
 msgstr "সার্ভার অনুরোধ প্রসেস করছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
-#: ../kioslave/http/http.cpp:3798
+#: ../kioslave/http/http.cpp:3790
 msgid "Requesting data to send"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3839
+#: ../kioslave/http/http.cpp:3831
 #, qt-format
 msgid "Sending data to %1"
 msgstr "%1-কে তথ্য পাঠানো হচ্ছে"
 
-#: ../kioslave/http/http.cpp:4246
+#: ../kioslave/http/http.cpp:4238
 #, qt-format
 msgid "Retrieving %1 from %2..."
 msgstr "%2 থেকে %1 আনা হচ্ছে... ১"
 
-#: ../kioslave/http/http.cpp:4255
+#: ../kioslave/http/http.cpp:4247
 #, qt-format
 msgid "Retrieving from %1..."
 msgstr "%1 থেকে আনা হচ্ছে..."
 
-#: ../kioslave/http/http.cpp:5012 ../kioslave/http/http.cpp:5160
+#: ../kioslave/http/http.cpp:5004 ../kioslave/http/http.cpp:5152
 msgid "Authentication Failed."
 msgstr "অথেন্টিকেশন ব্যর্থ।"
 
-#: ../kioslave/http/http.cpp:5015 ../kioslave/http/http.cpp:5163
+#: ../kioslave/http/http.cpp:5007 ../kioslave/http/http.cpp:5155
 msgid "Proxy Authentication Failed."
 msgstr "প্রক্সি অথেন্টিকেশন ব্যর্থ।"
 
-#: ../kioslave/http/http.cpp:5020
+#: ../kioslave/http/http.cpp:5012
 msgid "  Do you want to retry?"
 msgstr "আপনি কি আবার চেষ্টা করতে চান?"
 
-#: ../kioslave/http/http.cpp:5021
+#: ../kioslave/http/http.cpp:5013
 msgid "Authentication"
 msgstr "অথেন্টিকেশন"
 
-#: ../kioslave/http/http.cpp:5041 ../kioslave/http/http.cpp:5058
+#: ../kioslave/http/http.cpp:5033 ../kioslave/http/http.cpp:5050
 #, qt-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:5048
+#: ../kioslave/http/http.cpp:5040
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -5276,16 +4543,16 @@ msgstr ""
 "কোনো সাইট দেখার আগে আপনাকে নিম্নোল্লিখিত প্রক্সি সার্ভারটির জন্য একটি বৈধ username "
 "এবং পাসওয়ার্ড দিতে হবে।"
 
-#: ../kioslave/http/http.cpp:5057
+#: ../kioslave/http/http.cpp:5049
 msgid "Proxy:"
 msgstr "প্রক্সি:"
 
-#: ../kioslave/http/http.cpp:5079
+#: ../kioslave/http/http.cpp:5071
 #, qt-format
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "%1-র জন্য অথেন্টিকেশন প্রয়োজন, কিন্তু অথেন্টিকেশন নিষ্ক্রিয় করা রয়েছে।"
 
-#: ../kioslave/http/http.cpp:5698
+#: ../kioslave/http/http.cpp:5690
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
@@ -5458,6 +4725,635 @@ msgstr ""
 #, qt-format
 msgid "No metainfo for %1"
 msgstr "%1-এর জন্য কোনো মেটা-তথ্য জানা নেই"
+
+#: ../kfile/k3fileiconview.cpp:68
+msgid "Small Icons"
+msgstr "ছোট আইকন"
+
+#: ../kfile/k3fileiconview.cpp:72
+msgid "Large Icons"
+msgstr "বড় আইকন"
+
+#: ../kfile/k3fileiconview.cpp:81
+msgid "Thumbnail Previews"
+msgstr "থাম্বনেইল প্রাকদর্শন"
+
+#: ../kfile/k3fileiconview.cpp:117
+msgid "Icon View"
+msgstr "আইকন ভিউ"
+
+#: ../kfile/kfileview.cpp:80
+msgid "Unknown View"
+msgstr "অজানা ভিউ"
+
+#: ../kfile/kfilespeedbar.cpp:47
+msgid "Desktop"
+msgstr "ডেস্কটপ"
+
+#: ../kfile/kfilespeedbar.cpp:48
+msgid "Files and folders found on your desktop"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:55
+msgid "Documents"
+msgstr "নথী"
+
+#: ../kfile/kfilespeedbar.cpp:56
+msgid "Your personal documents folder"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:60 ../kfile/kdiroperator.cpp:1279
+msgid "Home Folder"
+msgstr "ব্যক্তিগত ফোল্ডার"
+
+#: ../kfile/kfilespeedbar.cpp:62
+msgid "Your personal home folder for your files and settings"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:70
+msgid "Floppy"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:72
+msgid "Files and folders on floppy disks"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:77
+msgid "Storage Media"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:80
+msgid "Removable storage devices and media"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:85
+msgid "Network Folders"
+msgstr ""
+
+#: ../kfile/kfilespeedbar.cpp:88
+msgid "Files and folders on network locations."
+msgstr ""
+
+#: ../kfile/k3filedetailview.cpp:63 ../kfile/kdiroperator.cpp:927
+#: ../kfile/kdiroperator.cpp:1350
+msgid "Detailed View"
+msgstr "বিস্তারিত ভিউ"
+
+#: ../kfile/k3filedetailview.cpp:67
+msgid "Date"
+msgstr "তারিখ"
+
+#: ../kfile/kfilefiltercombo.cpp:33 ../kfile/kfilewidget.cpp:1407
+msgid "*|All Files"
+msgstr "*|সব ফাইল"
+
+#: ../kfile/kfilefiltercombo.cpp:162
+msgid "All Supported Files"
+msgstr "সব সমর্থিত ফাইল"
+
+#: ../kfile/kfilepreview.cpp:66
+msgid "Preview"
+msgstr "প্রাকদর্শন"
+
+#: ../kfile/kfilepreview.cpp:73
+msgid "No preview available."
+msgstr "কোন প্রাকদর্শন নেই।"
+
+#: ../kfile/kfilewidget.cpp:188
+msgid ""
+"<p>While typing in the text area, you may be presented with possible "
+"matches. This feature can be controlled by clicking with the right mouse "
+"button and selecting a preferred mode from the <b>Text Completion</b> menu."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:224
+msgid "Current location"
+msgstr "বর্তমান অবস্থান"
+
+#: ../kfile/kfilewidget.cpp:225
+msgid ""
+"This is the currently listed location. The drop-down list also lists "
+"commonly used locations. This includes standard locations, such as your home "
+"folder, as well as locations that have been visited recently."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:235
+#, fuzzy, qt-format
+msgid "Drive: %1"
+msgstr "মাপ %1 "
+
+#: ../kfile/kfilewidget.cpp:242
+#, qt-format
+msgid "Root Folder: %1"
+msgstr "রুট ফোল্ডার: %1"
+
+#: ../kfile/kfilewidget.cpp:249
+#, qt-format
+msgid "Home Folder: %1"
+msgstr "ব্যক্তিগত ফোল্ডার: %1"
+
+#: ../kfile/kfilewidget.cpp:258
+#, qt-format
+msgid "Documents: %1"
+msgstr "নথী: %1"
+
+#: ../kfile/kfilewidget.cpp:265
+#, qt-format
+msgid "Desktop: %1"
+msgstr "ডেস্কটপ: %1"
+
+#: ../kfile/kfilewidget.cpp:307
+#, qt-format
+msgid ""
+"<qt>Click this button to enter the parent folder.<p>For instance, if the "
+"current location is file:/home/%1 clicking this button will take you to "
+"file:/home.</qt>"
+msgstr ""
+"<qt>উর্ধ্বস্থ ফোল্ডারে যেতে এই বাটনটি ক্লিক করুন। <p>উদাহরণস্বরূপ, যদি আপনার বর্তমান "
+"অবস্থান হয় file:/home/%1, এই বাটনটি ক্লিক করলে আপনি চলে যাবেন file:/home।</qt>"
+
+#: ../kfile/kfilewidget.cpp:311
+msgid "Click this button to move backwards one step in the browsing history."
+msgstr "পূর্বদৃষ্ট অবস্থানের তালিকায় এক ধাপ পিছিয়ে যেতে এই বাটনটি ক্লিক করুন।"
+
+#: ../kfile/kfilewidget.cpp:313
+msgid "Click this button to move forward one step in the browsing history."
+msgstr "পূর্বদৃষ্ট অবস্থানের তালিকায় এক ধাপ এগিয়ে যেতে এই বাটনটি ক্লিক করুন।"
+
+#: ../kfile/kfilewidget.cpp:315
+msgid "Click this button to reload the contents of the current location."
+msgstr "প্রদর্শিত অবস্থানটির বিষয়বস্তু নতুন করে লোড করতে এই বাটনটি ক্লিক করুন।"
+
+#: ../kfile/kfilewidget.cpp:318
+msgid "Click this button to create a new folder."
+msgstr "নতুন ফোল্ডার তৈরি করতে এই বাটনটি ক্লিক করুন।"
+
+#: ../kfile/kfilewidget.cpp:321
+msgid "Show Quick Access Navigation Panel"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:324
+msgid "Hide Quick Access Navigation Panel"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:329
+msgid "Show Bookmarks"
+msgstr "বুকমার্ক দেখাও"
+
+#: ../kfile/kfilewidget.cpp:331
+msgid "Hide Bookmarks"
+msgstr "বুকমার্ক লুকোও"
+
+#: ../kfile/kfilewidget.cpp:335
+#, fuzzy
+msgid "Configure"
+msgstr "চালিয়ে যা&ও"
+
+#: ../kfile/kfilewidget.cpp:337
+msgid ""
+"<qt>This is the configuration menu for the file dialog. Various options can "
+"be accessed from this menu including: <ul><li>how files are sorted in the "
+"list</li><li>types of view, including icon and list</li><li>showing of "
+"hidden files</li><li>the Quick Access navigation panel</li><li>file "
+"previews</li><li>separating folders from files</li></ul></qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:388
+msgid "&Location:"
+msgstr "&অবস্থান:"
+
+#: ../kfile/kfilewidget.cpp:413
+msgid ""
+"<qt>This is the filter to apply to the file list. File names that do not "
+"match the filter will not be shown.<p>You may select from one of the preset "
+"filters in the drop down menu, or you may enter a custom filter directly "
+"into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:419
+msgid "&Filter:"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:583
+msgid "Please specify the filename to save to."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:585
+msgid "Please select the file to open."
+msgstr "খোলার জন্য ফাইল নির্বাচন করুন।"
+
+#: ../kfile/kfilewidget.cpp:642 ../kfile/kfilewidget.cpp:685
+#: ../kfile/kfilewidget.cpp:1352
+msgid "You can only select local files."
+msgstr "শুধু স্থানীয় ফাইল নির্বাচন করতে পারেন।"
+
+#: ../kfile/kfilewidget.cpp:643 ../kfile/kfilewidget.cpp:686
+#: ../kfile/kfilewidget.cpp:1353
+msgid "Remote Files Not Accepted"
+msgstr "দূরবর্তী (রিমোট) ফাইল গ্রহণযোগ্য নয়"
+
+#: ../kfile/kfilewidget.cpp:677
+#, qt-format
+msgid ""
+"%1\n"
+"does not appear to be a valid URL.\n"
+msgstr ""
+"%1\n"
+"একটি বৈধ ইউ-আর-এল বলে মনে হচ্ছে না।\n"
+
+#: ../kfile/kfilewidget.cpp:677
+msgid "Invalid URL"
+msgstr "অবৈধ ইউ-আর-এল"
+
+#: ../kfile/kfilewidget.cpp:997
+msgid "This is the name to save the file as."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1002
+msgid ""
+"This is the list of files to open. More than one file can be specified by "
+"listing several files, separated by spaces."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1009
+msgid "This is the name of the file to open."
+msgstr "যে ফাইলটি খোলা হবে তার নাম।"
+
+#: ../kfile/kfilewidget.cpp:1284
+msgid ""
+"The chosen filenames do not\n"
+"appear to be valid."
+msgstr ""
+"নির্বাচিত নামগুলি ফাইলের নাম\n"
+"হিসাবে অবৈধ বলে মনে হচ্ছে।"
+
+#: ../kfile/kfilewidget.cpp:1286
+msgid "Invalid Filenames"
+msgstr "ফাইলের নাম অবৈধ "
+
+#: ../kfile/kfilewidget.cpp:1315
+#, qt-format
+msgid ""
+"The requested filenames\n"
+"%1\n"
+"do not appear to be valid;\n"
+"make sure every filename is enclosed in double quotes."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1319
+msgid "Filename Error"
+msgstr "ফাইলের নাম ভুল"
+
+#: ../kfile/kfilewidget.cpp:1404
+msgid "*|All Folders"
+msgstr "*|সব ফোল্ডার"
+
+#: ../kfile/kfilewidget.cpp:1675
+#, qt-format
+msgid "Automatically select filename e&xtension (%1)"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1676
+#, qt-format
+msgid "the extension <b>%1</b>"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1684
+msgid "Automatically select filename e&xtension"
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1685
+msgid "a suitable extension"
+msgstr "একটি উপযুক্ত এক্সটেনশন"
+
+#: ../kfile/kfilewidget.cpp:1695
+#, qt-format
+msgid ""
+"This option enables some convenient features for saving files with "
+"extensions:<br><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br><br></li><li>If "
+"no extension is specified in the <b>%2</b> text area when you click <b>Save</"
+"b>, %3 will be added to the end of the filename (if the filename does not "
+"already exist). This extension is based on the file type that you have "
+"chosen to save in.<br><br>If you do not want KDE to supply an extension for "
+"the filename, you can either turn this option off or you can suppress it by "
+"adding a period (.) to the end of the filename (the period will be "
+"automatically removed).</li></ol>If unsure, keep this option enabled as it "
+"makes your files more manageable."
+msgstr ""
+
+#: ../kfile/kfilewidget.cpp:1964
+msgid ""
+"<qt>This button allows you to bookmark specific locations. Click on this "
+"button to open the bookmark menu where you may add, edit or select a "
+"bookmark.<p>These bookmarks are specific to the file dialog, but otherwise "
+"operate like bookmarks elsewhere in KDE.</qt>"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:393
+#, qt-format
+msgid "Browse (%1, Escape)"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:400
+#, qt-format
+msgid "Edit location (%1)"
+msgstr ""
+
+#: ../kfile/kurlnavigator.cpp:520
+msgid "Custom Path"
+msgstr ""
+
+#: ../kfile/kdirselectdialog.cpp:101
+msgid "Select Folder"
+msgstr "ফোল্ডার নির্বাচন করো"
+
+#: ../kfile/kdirselectdialog.cpp:103 ../kfile/kdirselectdialog.cpp:140
+#: ../kfile/kdiroperator.cpp:1290
+msgid "New Folder..."
+msgstr "নতুন ফোল্ডার..."
+
+#: ../kfile/kdirselectdialog.cpp:124
+msgid "Folders"
+msgstr "ফোল্ডার"
+
+#: ../kfile/kdirselectdialog.cpp:146
+msgid "Show Hidden Folders"
+msgstr "গুপ্ত ফোল্ডার দেখাও"
+
+#: ../kfile/kdirselectdialog.cpp:428 ../kfile/kdirselectdialog.cpp:432
+#: ../kfile/kdiroperator.cpp:398 ../kfile/kdiroperator.cpp:406
+msgid "New Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: ../kfile/kdirselectdialog.cpp:433 ../kfile/kdiroperator.cpp:407
+#, qt-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"%1-এ \n"
+"নতুন ফোল্ডার তৈরি করো"
+
+#: ../kfile/kdirselectdialog.cpp:456 ../kfile/kdiroperator.cpp:435
+#, qt-format
+msgid "A file or folder named %1 already exists."
+msgstr "%1 নামে একটি ফাইল বা ফোল্ডার আগে থেকেই আছে।"
+
+#: ../kfile/kdirselectdialog.cpp:460 ../kfile/kdiroperator.cpp:439
+msgid "You do not have permission to create that folder."
+msgstr "আপনার ঐ ফোল্ডারটি তৈরি করার অনুমতি নেই।"
+
+#: ../kfile/kdiroperator.cpp:461
+msgid "You did not select a file to delete."
+msgstr "আপনি মোছার জন্য কোন ফাইল বাছেননি।"
+
+#: ../kfile/kdiroperator.cpp:462
+msgid "Nothing to Delete"
+msgstr "কিছু মোছার নেই"
+
+#: ../kfile/kdiroperator.cpp:476
+#, qt-format
+msgid ""
+"<qt>Do you really want to delete\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>আপনি কি সত্যিই \n"
+" <b>'%1'</b> মুছতে চান?</qt>"
+
+#: ../kfile/kdiroperator.cpp:478
+msgid "Delete File"
+msgstr "ফাইল মুছে ফেল"
+
+#: ../kfile/kdiroperator.cpp:484
+#, fuzzy, qt-format
+msgid "Do you really want to delete this item?"
+msgid_plural "Do you really want to delete these %1 items?"
+msgstr[0] "translators: not called for n == 1"
+msgstr[1] "আপনি কি সত্যিই এই %1-টি জিনিস মুছে ফেলতে চান?"
+
+#: ../kfile/kdiroperator.cpp:486
+msgid "Delete Files"
+msgstr "ফাইলগুলি মুছে ফেল"
+
+#: ../kfile/kdiroperator.cpp:518
+msgid "You did not select a file to trash."
+msgstr "আপনি আবর্জনার বাক্সে পাঠাবার জন্য কোন ফাইল বাছেননি।"
+
+#: ../kfile/kdiroperator.cpp:519
+msgid "Nothing to Trash"
+msgstr "আবর্জনার বাক্সে পাঠাবার মত কিছু নেই"
+
+#: ../kfile/kdiroperator.cpp:533
+#, qt-format
+msgid ""
+"<qt>Do you really want to trash\n"
+" <b>'%1'</b>?</qt>"
+msgstr ""
+"<qt>আপনি কি সত্যিই\n"
+" <b>'%1'</b> আবর্জনার বাক্সে পাঠাতে চান?</qt>"
+
+#: ../kfile/kdiroperator.cpp:535
+msgid "Trash File"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:536 ../kfile/kdiroperator.cpp:544
+msgctxt "to trash"
+msgid "&Trash"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:541
+#, fuzzy, qt-format
+msgid "translators: not called for n == 1"
+msgid_plural "Do you really want to trash these %1 items?"
+msgstr[0] "translators: not called for n == 1"
+msgstr[1] "আপনি কি সত্যিই এই %1-টি জিনিস আবর্জনার বাক্সে পাঠাতে চান?"
+
+#: ../kfile/kdiroperator.cpp:543
+msgid "Trash Files"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:663 ../kfile/kdiroperator.cpp:732
+msgid "The specified folder does not exist or was not readable."
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:932 ../kfile/kdiroperator.cpp:1345
+msgid "Short View"
+msgstr "সংক্ষিপ্ত ভিউ"
+
+#: ../kfile/kdiroperator.cpp:1268
+msgid "Menu"
+msgstr "মেনু"
+
+#: ../kfile/kdiroperator.cpp:1272
+msgid "Parent Folder"
+msgstr "উর্ধ্বস্থ ফোল্ডার"
+
+#: ../kfile/kdiroperator.cpp:1282
+#, fuzzy
+msgid "Reload"
+msgstr "হ্যাঁ"
+
+#: ../kfile/kdiroperator.cpp:1295
+msgid "Move to Trash"
+msgstr ""
+
+#: ../kfile/kdiroperator.cpp:1301
+#, fuzzy
+msgid "Delete"
+msgstr "মুছে ফেলা হচ্ছে"
+
+#: ../kfile/kdiroperator.cpp:1308
+msgid "Sorting"
+msgstr "ক্রমবিন্যাস"
+
+#: ../kfile/kdiroperator.cpp:1311
+msgid "By Name"
+msgstr "নাম অনুসারে"
+
+#: ../kfile/kdiroperator.cpp:1315
+msgid "By Date"
+msgstr "তারিখ অনুসারে"
+
+#: ../kfile/kdiroperator.cpp:1319
+msgid "By Size"
+msgstr "আয়তন অনুসারে"
+
+#: ../kfile/kdiroperator.cpp:1323
+msgid "Reverse"
+msgstr "বিপরীত"
+
+#: ../kfile/kdiroperator.cpp:1332
+msgid "Folders First"
+msgstr "প্রথমে ফোল্ডার"
+
+#: ../kfile/kdiroperator.cpp:1336
+msgid "Case Insensitive"
+msgstr "Case Insensitive"
+
+#: ../kfile/kdiroperator.cpp:1341
+#, fuzzy
+msgid "&View"
+msgstr "প্রাক&দর্শন"
+
+#: ../kfile/kdiroperator.cpp:1355
+msgid "Show Hidden Files"
+msgstr "গুপ্ত ফাইল দেখাও"
+
+#: ../kfile/kdiroperator.cpp:1359
+msgid "Separate Folders"
+msgstr "আলাদা ফোল্ডার"
+
+#: ../kfile/kdiroperator.cpp:1363
+msgid "Show Preview"
+msgstr "প্রাকদর্শন দেখাও"
+
+#: ../kfile/kdiroperator.cpp:1366
+msgid "Hide Preview"
+msgstr ""
+
+#: ../kfile/kurlbar.cpp:278 ../kfile/kurlbar.cpp:300
+msgid ""
+"<qt>The <b>Quick Access</b> panel provides easy access to commonly used file "
+"locations.<p>Clicking on one of the shortcut entries will take you to that "
+"location.<p>By right clicking on an entry you can add, edit and remove "
+"shortcuts.</qt>"
+msgstr ""
+
+#: ../kfile/kurlbar.cpp:689
+msgid "&Large Icons"
+msgstr "&বড় আইকন"
+
+#: ../kfile/kurlbar.cpp:689
+msgid "&Small Icons"
+msgstr "ছো&ট আইকন"
+
+#: ../kfile/kurlbar.cpp:695
+msgid "&Edit Entry..."
+msgstr "এন্ট্রি &সম্পাদন করো..."
+
+#: ../kfile/kurlbar.cpp:699
+msgid "&Add Entry..."
+msgstr "এন্ট্রি যো&গ করো..."
+
+#: ../kfile/kurlbar.cpp:703
+msgid "&Remove Entry"
+msgstr "&এন্ট্রি মুছে ফেলো"
+
+#: ../kfile/kurlbar.cpp:728
+msgid "Enter a description"
+msgstr "একটি বর্ণনা লিখুন"
+
+#: ../kfile/kurlbar.cpp:892
+msgid "Edit Quick Access Entry"
+msgstr ""
+
+#: ../kfile/kurlbar.cpp:898
+msgid ""
+"<qt><b>Please provide a description, URL and icon for this Quick Access "
+"entry.</b></br></qt>"
+msgstr ""
+
+#: ../kfile/kurlbar.cpp:906
+msgid ""
+"<qt>This is the text that will appear in the Quick Access panel.<p>The "
+"description should consist of one or two words that will help you remember "
+"what this entry refers to.</qt>"
+msgstr ""
+
+#: ../kfile/kurlbar.cpp:916
+#, qt-format
+msgid ""
+"<qt>This is the location associated with the entry. Any valid URL may be "
+"used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/kde/"
+"stable<p>By clicking on the button next to the text edit box you can browse "
+"to an appropriate URL.</qt>"
+msgstr ""
+
+#: ../kfile/kurlbar.cpp:920
+msgid "&URL:"
+msgstr "ই&উ-আর-এল:"
+
+#: ../kfile/kurlbar.cpp:927
+msgid ""
+"<qt>This is the icon that will appear in the Quick Access panel.<p>Click on "
+"the button to select a different icon.</qt>"
+msgstr ""
+
+#: ../kfile/kurlbar.cpp:929
+msgid "Choose an &icon:"
+msgstr "একটি আ&ইকন বেছে নিন:"
+
+#: ../kfile/kurlbar.cpp:947
+#, qt-format
+msgid "&Only show when using this application (%1)"
+msgstr "শুধু &এই অ্যাপলিকেশনটি (%1) ব্যবহার করার সময় দেখাও"
+
+#: ../kfile/kurlbar.cpp:949
+#, qt-format
+msgid ""
+"<qt>Select this setting if you want this entry to show only when using the "
+"current application (%1).<p>If this setting is not selected, the entry will "
+"be available in all applications.</qt>"
+msgstr ""
+
+#~ msgid "kfile"
+#~ msgstr "kfile"
+
+#~ msgid "No files specified"
+#~ msgstr "কোন ফাইল উল্লেখ করা হয়নি"
+
+#~ msgid "Menu Editor"
+#~ msgstr "মেনু সম্পাদক"
+
+#~ msgid "New..."
+#~ msgstr "নতুন..."
+
+#~ msgid "Move Up"
+#~ msgstr "উপরে ওঠাও"
+
+#~ msgid "Move Down"
+#~ msgstr "নীচে নামাও"
 
 #~ msgid ""
 #~ "Could not find mime type\n"
