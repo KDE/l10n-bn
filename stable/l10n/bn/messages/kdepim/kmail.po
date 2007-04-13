@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
-"POT-Creation-Date: 2007-04-07 02:16+0200\n"
+"POT-Creation-Date: 2007-04-13 02:16+0200\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1709,9 +1709,9 @@ msgstr "স্বয়ংক্রিয় সংরক্ষণ কোরো না
 msgid "Configure Completion Order"
 msgstr ""
 
-#: configuredialog.cpp:2624
-msgid "Edit Recent Addresses"
-msgstr "সাম্প্রতিক ঠিকানা সম্পাদনা করো"
+#: configuredialog.cpp:2624 kmlineeditspell.cpp:135
+msgid "Edit Recent Addresses..."
+msgstr "সাম্প্রতিক ঠিকানা সম্পাদনা করো..."
 
 #: configuredialog.cpp:2631 kmedit.cpp:536
 msgid "External Editor"
@@ -2187,7 +2187,7 @@ msgstr ""
 
 #: configuredialog.cpp:4512
 #, fuzzy
-msgid "Quota Units: "
+msgid "Quota units: "
 msgstr "&উদ্ধৃতি নির্দেশক:"
 
 #: configuredialog.cpp:4514 folderdiaquotatab_p.cpp:95 quotajobs.h:80
@@ -3805,7 +3805,7 @@ msgstr "এই অ্যাকাউন্ট পরীক্ষা করা �
 msgid " completed"
 msgstr " সম্পন্ন"
 
-#: kmacctimap.cpp:609 kmheaders.cpp:1253
+#: kmacctimap.cpp:609 kmheaders.cpp:1254
 msgid "Unable to process messages: "
 msgstr "বার্তা প্রসেস করতে অসমর্থ:"
 
@@ -4005,12 +4005,12 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kmcommands.cpp:1674 kmheaders.cpp:1384
+#: kmcommands.cpp:1674 kmheaders.cpp:1385
 #, fuzzy
 msgid "Filtering messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: kmcommands.cpp:1682 kmheaders.cpp:1390
+#: kmcommands.cpp:1682 kmheaders.cpp:1391
 #, fuzzy
 msgid "Filtering message %1 of %2"
 msgstr "%1 থেকে %2-টি বার্তার %3 নম্বরটি স্থানান্তরিত করা হচ্ছে।"
@@ -6213,27 +6213,27 @@ msgstr ""
 msgid "Signature"
 msgstr "স্বাক্ষর"
 
-#: kmheaders.cpp:180 kmheaders.cpp:763 kmheaders.cpp:2512
+#: kmheaders.cpp:180 kmheaders.cpp:763 kmheaders.cpp:2513
 #: kmpopfiltercnfrmdlg.cpp:39 searchwindow.cpp:224
 #: templatesinsertcommand.cpp:142 templatesinsertcommand.cpp:243
 msgid "Subject"
 msgstr "বিষয়"
 
-#: kmheaders.cpp:182 kmheaders.cpp:758 kmheaders.cpp:2507
+#: kmheaders.cpp:182 kmheaders.cpp:758 kmheaders.cpp:2508
 #: kmpopfiltercnfrmdlg.cpp:42 searchwindow.cpp:228
 #: templatesinsertcommand.cpp:66 templatesinsertcommand.cpp:167
 msgid "Date"
 msgstr "তারিখ"
 
-#: kmheaders.cpp:760 kmheaders.cpp:2509
+#: kmheaders.cpp:760 kmheaders.cpp:2510
 msgid "Date (Order of Arrival)"
 msgstr "তারিখ (প্রাপ্তির ক্রমানুসারে)"
 
-#: kmheaders.cpp:765 kmheaders.cpp:2514
+#: kmheaders.cpp:765 kmheaders.cpp:2515
 msgid " (Status)"
 msgstr " (স্ট্যাটাস)"
 
-#: kmheaders.cpp:1338
+#: kmheaders.cpp:1339
 #, c-format
 msgid ""
 "_n: 1 unsent\n"
@@ -6242,11 +6242,11 @@ msgstr ""
 "একটি না পাঠানো\n"
 "%n-টি না পাঠানো"
 
-#: kmheaders.cpp:1338
+#: kmheaders.cpp:1339
 msgid "0 unsent"
 msgstr "0 না পাঠানো"
 
-#: kmheaders.cpp:1340
+#: kmheaders.cpp:1341
 #, c-format
 msgid ""
 "_n: 1 unread\n"
@@ -6255,11 +6255,11 @@ msgstr ""
 "একটি না পড়া\n"
 "%n-টি না পড়া"
 
-#: kmheaders.cpp:1340
+#: kmheaders.cpp:1341
 msgid "0 unread"
 msgstr "0 অপঠিত"
 
-#: kmheaders.cpp:1342
+#: kmheaders.cpp:1343
 msgid ""
 "_n: 1 message, %1.\n"
 "%n messages, %1."
@@ -6267,17 +6267,17 @@ msgstr ""
 "একটি বার্তা, %1.\n"
 "%n-টি বার্তা, %1।"
 
-#: kmheaders.cpp:1343
+#: kmheaders.cpp:1344
 msgid "0 messages"
 msgstr "0 বার্তা"
 
-#: kmheaders.cpp:1345
+#: kmheaders.cpp:1346
 msgid ""
 "_: %1 = n messages, m unread.\n"
 "%1 Folder is read-only."
 msgstr "%1 ফোল্ডার-টি শুধু পড়া যায়।"
 
-#: kmheaders.cpp:1524
+#: kmheaders.cpp:1525
 #, c-format
 msgid ""
 "_n: <qt>Do you really want to delete the selected message?"
@@ -6286,49 +6286,49 @@ msgid ""
 "<br>Once deleted, they cannot be restored.</qt>"
 msgstr ""
 
-#: kmheaders.cpp:1526
+#: kmheaders.cpp:1527
 msgid "Delete Messages"
 msgstr "বার্তা মুছে ফেলো"
 
-#: kmheaders.cpp:1526
+#: kmheaders.cpp:1527
 msgid "Delete Message"
 msgstr "বার্তা মুছে ফেলো"
 
-#: kmheaders.cpp:1550
+#: kmheaders.cpp:1551
 msgid "Messages deleted successfully."
 msgstr "বার্তা মুছে ফেলা সফল"
 
-#: kmheaders.cpp:1550
+#: kmheaders.cpp:1551
 msgid "Messages moved successfully"
 msgstr "বার্তা সরানো সফল"
 
-#: kmheaders.cpp:1573
+#: kmheaders.cpp:1574
 msgid "Deleting messages failed."
 msgstr "বার্তা মুছে ফেলা ব্যর্থ।"
 
-#: kmheaders.cpp:1573
+#: kmheaders.cpp:1574
 msgid "Moving messages failed."
 msgstr "বার্তা স্থানান্তর করা ব্যর্থ।"
 
-#: kmheaders.cpp:1576
+#: kmheaders.cpp:1577
 msgid "Deleting messages canceled."
 msgstr "বার্তা মোছা বাতিল করা হয়েছে।"
 
-#: kmheaders.cpp:1576
+#: kmheaders.cpp:1577
 msgid "Moving messages canceled."
 msgstr "বার্তা সরানো বাতিল করা হয়েছে।"
 
-#: kmheaders.cpp:2345 kmmainwidget.cpp:2990 kmreadermainwin.cpp:462
+#: kmheaders.cpp:2346 kmmainwidget.cpp:2990 kmreadermainwin.cpp:462
 #: searchwindow.cpp:805
 msgid "&Copy To"
 msgstr "কপি পাঠা&ও"
 
-#: kmheaders.cpp:2348 kmheaders.cpp:2354 kmmainwidget.cpp:2987
+#: kmheaders.cpp:2349 kmheaders.cpp:2355 kmmainwidget.cpp:2987
 #: searchwindow.cpp:806
 msgid "&Move To"
 msgstr "&সরিয়ে নিয়ে যাও"
 
-#: kmheaders.cpp:2681 kmheaders.cpp:2721
+#: kmheaders.cpp:2682 kmheaders.cpp:2722
 msgid ""
 "Failure modifying %1\n"
 "(No space left on device?)"
@@ -6469,10 +6469,6 @@ msgstr "ভি-কার্ড আমদানি ব্যর্থ"
 #: kmlineeditspell.cpp:115
 msgid "<qt>Unable to access <b>%1</b>.</qt>"
 msgstr ""
-
-#: kmlineeditspell.cpp:135
-msgid "Edit Recent Addresses..."
-msgstr "সাম্প্রতিক ঠিকানা সম্পাদনা করো..."
 
 #: kmlineeditspell.cpp:167 recipientspicker.cpp:467
 msgid "Recent Addresses"
@@ -6700,17 +6696,19 @@ msgid ""
 msgstr ""
 
 #: kmmainwidget.cpp:2464
-msgid "Forward with custom template"
-msgstr ""
+#, fuzzy
+msgid "Forward With Custom Template"
+msgstr "বার্তা ক্ষেত্রের &উপরে"
 
 #: kmmainwidget.cpp:2473
 #, fuzzy
-msgid "Reply with custom template"
+msgid "Reply With Custom Template"
 msgstr "বার্তা ক্ষেত্রের &উপরে"
 
 #: kmmainwidget.cpp:2481
-msgid "Reply to All with custom template"
-msgstr ""
+#, fuzzy
+msgid "Reply to All With Custom Template"
+msgstr "বার্তা ক্ষেত্রের &উপরে"
 
 #: kmmainwidget.cpp:2576 kmmainwidget.cpp:2580 kmmainwidget.cpp:2584
 #, fuzzy
@@ -11867,44 +11865,44 @@ msgstr ""
 
 #: templatesinsertcommand.cpp:37
 #, fuzzy
-msgid "&Insert command..."
+msgid "&Insert Command..."
 msgstr "ফাই&ল ঢোকাও..."
 
 #: templatesinsertcommand.cpp:48
 #, fuzzy
-msgid "Insert command"
+msgid "Insert Command..."
 msgstr "ফাই&ল ঢোকাও..."
 
 #: templatesinsertcommand.cpp:51
 #, fuzzy
-msgid "Original message"
+msgid "Original Message"
 msgstr "মূল বার্তা উদ্ধৃত করো:"
 
 #: templatesinsertcommand.cpp:54
 #, fuzzy
-msgid "Quoted message"
+msgid "Quoted Message"
 msgstr "এনক্রিপ্ট করা বার্তা"
 
 #: templatesinsertcommand.cpp:58
 #, fuzzy
-msgid "Message text as is"
+msgid "Message Text as Is"
 msgstr "বার্তা তালিকা"
 
 #: templatesinsertcommand.cpp:62 templatesinsertcommand.cpp:163
 #, fuzzy
-msgid "Message id"
+msgid "Message Id"
 msgstr "বার্তার প্রধান অংশ"
 
 #: templatesinsertcommand.cpp:70 templatesinsertcommand.cpp:171
-msgid "Date in short format"
+msgid "Date in Short Format"
 msgstr ""
 
 #: templatesinsertcommand.cpp:74 templatesinsertcommand.cpp:175
-msgid "Date in C locale"
+msgid "Date in C Locale"
 msgstr ""
 
 #: templatesinsertcommand.cpp:78 templatesinsertcommand.cpp:179
-msgid "Day of week"
+msgid "Day of Week"
 msgstr ""
 
 #: templatesinsertcommand.cpp:82 templatesinsertcommand.cpp:183
@@ -11912,121 +11910,129 @@ msgid "Time"
 msgstr ""
 
 #: templatesinsertcommand.cpp:86 templatesinsertcommand.cpp:187
-msgid "Time in long format"
+msgid "Time in Long Format"
 msgstr ""
 
 #: templatesinsertcommand.cpp:90 templatesinsertcommand.cpp:191
-msgid "Time in C locale"
+msgid "Time in C Locale"
 msgstr ""
 
 #: templatesinsertcommand.cpp:94 templatesinsertcommand.cpp:195
 #, fuzzy
-msgid "To field address"
+msgid "To Field Address"
 msgstr "&ই-মেইল ঠিকানা:"
 
 #: templatesinsertcommand.cpp:98 templatesinsertcommand.cpp:199
 #, fuzzy
-msgid "To field name"
+msgid "To Field Name"
 msgstr "আসল নাম:"
 
 #: templatesinsertcommand.cpp:102 templatesinsertcommand.cpp:203
-msgid "To field first name"
-msgstr ""
+#, fuzzy
+msgid "To Field First Name"
+msgstr "আসল নাম:"
 
 #: templatesinsertcommand.cpp:106 templatesinsertcommand.cpp:207
-msgid "To field last name"
-msgstr ""
+#, fuzzy
+msgid "To Field Last Name"
+msgstr "আসল নাম:"
 
 #: templatesinsertcommand.cpp:110 templatesinsertcommand.cpp:211
 #, fuzzy
-msgid "CC field address"
+msgid "CC Field Address"
 msgstr "&BCC ঠিকানা:"
 
 #: templatesinsertcommand.cpp:114 templatesinsertcommand.cpp:215
 #, fuzzy
-msgid "CC field name"
+msgid "CC Field Name"
 msgstr "আসল নাম:"
 
 #: templatesinsertcommand.cpp:118 templatesinsertcommand.cpp:219
-msgid "CC field first name"
-msgstr ""
+#, fuzzy
+msgid "CC Field First Name"
+msgstr "আসল নাম:"
 
 #: templatesinsertcommand.cpp:122 templatesinsertcommand.cpp:223
-msgid "CC field last name"
-msgstr ""
+#, fuzzy
+msgid "CC Field Last Name"
+msgstr "আসল নাম:"
 
 #: templatesinsertcommand.cpp:126 templatesinsertcommand.cpp:227
 #, fuzzy
-msgid "From field address"
+msgid "From Field Address"
 msgstr "&ই-মেইল ঠিকানা:"
 
 #: templatesinsertcommand.cpp:130 templatesinsertcommand.cpp:231
-msgid "From field name"
-msgstr ""
+#, fuzzy
+msgid "From Field Name"
+msgstr "&ই-মেইল ঠিকানা:"
 
 #: templatesinsertcommand.cpp:134 templatesinsertcommand.cpp:235
-msgid "From field first name"
-msgstr ""
+#, fuzzy
+msgid "From Field First Name"
+msgstr "&ই-মেইল ঠিকানা:"
 
 #: templatesinsertcommand.cpp:138 templatesinsertcommand.cpp:239
-msgid "From field last name"
-msgstr ""
+#, fuzzy
+msgid "From Field Last Name"
+msgstr "&ই-মেইল ঠিকানা:"
 
 #: templatesinsertcommand.cpp:146
 #, fuzzy
-msgid "Quoted headers"
+msgid "Quoted Headers"
 msgstr "উদ্ধৃতিচিহ্ন যো&গ করো"
 
 #: templatesinsertcommand.cpp:150
 #, fuzzy
-msgid "Headers as is"
+msgid "Headers as Is"
 msgstr "হেডা&র"
 
 #: templatesinsertcommand.cpp:154 templatesinsertcommand.cpp:247
 #, fuzzy
-msgid "Header content"
+msgid "Header Content"
 msgstr "ফোল্ডা&র-এর বিষয়বস্তু:"
 
 #: templatesinsertcommand.cpp:160
 #, fuzzy
-msgid "Current message"
+msgid "Current Message"
 msgstr "-টি বার্তা রাখো"
 
 #: templatesinsertcommand.cpp:253
-msgid "Process with external programs"
+msgid "Process With External Programs"
 msgstr ""
 
 #: templatesinsertcommand.cpp:256
-msgid "Insert result of command"
-msgstr ""
+#, fuzzy
+msgid "Insert Result of Command"
+msgstr "ফাই&ল ঢোকাও..."
 
 #: templatesinsertcommand.cpp:260
-msgid "Pipe original message body and insert result as quoted text"
+msgid "Pipe Original Message Body and Insert Result as Quoted Text"
 msgstr ""
 
 #: templatesinsertcommand.cpp:264
-msgid "Pipe original message body and insert result as is"
+msgid "Pipe Original Message Body and Insert Result as Is"
 msgstr ""
 
 #: templatesinsertcommand.cpp:268
-msgid "Pipe original message with headers and insert result as is"
+msgid "Pipe Original Message with Headers and Insert Result as Is"
 msgstr ""
 
 #: templatesinsertcommand.cpp:272
-msgid "Pipe current message body and insert result as is"
+msgid "Pipe Current Message Body and Insert Result as Is"
 msgstr ""
 
 #: templatesinsertcommand.cpp:276
-msgid "Pipe current message body and replace with result"
+msgid "Pipe Current Message Body and Replace with Result"
 msgstr ""
 
 #: templatesinsertcommand.cpp:285
-msgid "Set cursor position"
+msgid "Set Cursor Position"
 msgstr ""
 
 #: templatesinsertcommand.cpp:289
 #, fuzzy
-msgid "Insert file content"
+msgid "Insert File Content"
 msgstr "ফাইল অন্তর্ভুক্ত করো"
 
 #: templatesinsertcommand.cpp:293
@@ -12034,25 +12040,26 @@ msgid "DNL"
 msgstr ""
 
 #: templatesinsertcommand.cpp:297
-msgid "Template comment"
-msgstr ""
+#, fuzzy
+msgid "Template Comment"
+msgstr "ফোল্ডা&র-এর বিষয়বস্তু:"
 
 #: templatesinsertcommand.cpp:301
 #, fuzzy
-msgid "No operation"
+msgid "No Operation"
 msgstr "সার্ভার পরিচালনা"
 
 #: templatesinsertcommand.cpp:305
 #, fuzzy
-msgid "Clear generated message"
+msgid "Clear Generated Message"
 msgstr "এনক্রিপ্ট করা বার্তা"
 
 #: templatesinsertcommand.cpp:309
-msgid "Turn debug on"
+msgid "Turn Debug On"
 msgstr ""
 
 #: templatesinsertcommand.cpp:313
-msgid "Turn debug off"
+msgid "Turn Debug Off"
 msgstr ""
 
 #: tips.cpp:3
@@ -12419,6 +12426,9 @@ msgstr "করা বাকি"
 #: kmsearchpattern.h:233
 msgid "Has Attachment"
 msgstr "অ্যাটাচমেন্ট আছে"
+
+#~ msgid "Edit Recent Addresses"
+#~ msgstr "সাম্প্রতিক ঠিকানা সম্পাদনা করো"
 
 #~ msgid "Save in &Drafts Folder"
 #~ msgstr "&খসড়া ফোল্ডার-এ সংরক্ষণ করো"
