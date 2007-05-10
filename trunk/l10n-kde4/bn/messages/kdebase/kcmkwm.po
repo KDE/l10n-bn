@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-01 05:47+0200\n"
+"POT-Creation-Date: 2007-05-10 05:49+0200\n"
 "PO-Revision-Date: 2005-11-27 22:44-0600\n"
 "Last-Translator: Dr Anirban Mitra <anirban@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -451,31 +451,31 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "anirban@bengalinux.org"
 
-#: windows.cpp:127
+#: windows.cpp:130
 msgid "Focus"
 msgstr "আলোকপাত"
 
-#: windows.cpp:136
+#: windows.cpp:139
 msgid "&Policy:"
 msgstr "নীতি (&ন):"
 
-#: windows.cpp:140
+#: windows.cpp:143
 msgid "Click to Focus"
 msgstr "ক্লিক করলে আলোকপাত"
 
-#: windows.cpp:141
+#: windows.cpp:144
 msgid "Focus Follows Mouse"
 msgstr "মাউস অনুসারী আলোকপাত"
 
-#: windows.cpp:142
+#: windows.cpp:145
 msgid "Focus Under Mouse"
 msgstr "মাউসের নিচে আলোকপাত"
 
-#: windows.cpp:143
+#: windows.cpp:146
 msgid "Focus Strictly Under Mouse"
 msgstr "মাউসের ঠিক নিচে আলোকপাত"
 
-#: windows.cpp:148
+#: windows.cpp:151
 msgid ""
 "The focus policy is used to determine the active window, i.e. the window you "
 "can work in. <ul> <li><em>Click to focus:</em> A window becomes active when "
@@ -507,27 +507,27 @@ msgstr ""
 "আলোকপাত' খুব একটা কাজের নয়। শুধুমাত্র পুরাতনপন্থী উগ্র ইউনিক্স সমর্থকদের জন্য ঐ "
 "নীতিগুলি রাখা হল ;-)"
 
-#: windows.cpp:173
+#: windows.cpp:176
 msgid "Auto &raise"
 msgstr "আপনা থেকে &ওঠাও"
 
-#: windows.cpp:178 windows.cpp:191 windows.cpp:552
+#: windows.cpp:181 windows.cpp:194 windows.cpp:604
 msgid "Dela&y:"
 msgstr "বি&লম্ব"
 
-#: windows.cpp:181 windows.cpp:194 windows.cpp:555 windows.cpp:583
+#: windows.cpp:184 windows.cpp:197 windows.cpp:607 windows.cpp:635
 msgid " msec"
 msgstr "মাইক্রোসেকেন্ড"
 
-#: windows.cpp:186
+#: windows.cpp:189
 msgid "Delay focus"
 msgstr ""
 
-#: windows.cpp:197
+#: windows.cpp:200
 msgid "C&lick raise active window"
 msgstr "সক্রিয় উইন্ডো ক্লি&ক করে উঁচু কর"
 
-#: windows.cpp:204
+#: windows.cpp:207
 msgid ""
 "When this option is enabled, a window in the background will automatically "
 "come to the front when the mouse pointer has been over it for some time."
@@ -535,14 +535,14 @@ msgstr ""
 "এই পছন্দটি কার্যকর করলে, মাউসের নির্দেশকটি একটি পিছে থাকা উইন্ডোর ওপর কিচুক্ষণ "
 "রাখলে উইন্ডোটি সামনে চলে আসবে।"
 
-#: windows.cpp:206
+#: windows.cpp:209
 msgid ""
 "This is the delay after which the window that the mouse pointer is over will "
 "automatically come to the front."
 msgstr ""
 "এই সময় দেরীর পর যে উইন্ডোর ওপর মাউস নির্দেশক আছে  সেটি আপনা থেকে উপরে উঠে আসবে।"
 
-#: windows.cpp:210
+#: windows.cpp:213
 msgid ""
 "When this option is enabled, the active window will be brought to the front "
 "when you click somewhere into the window contents. To change it for inactive "
@@ -551,7 +551,7 @@ msgstr ""
 "এই পছন্দ বেছে নিলে, সক্রিয় উইন্ডোর কোন জায়গায় ক্লিক  করলে উইন্ডোটি উঠে আসবে। "
 "নিষ্ক্রিয় উইন্ডোর ক্ষেত্রে এই  পরিবর্তন কার্যকরী করতে হলে, কার্য ট্যাব এ পরিবর্তন করুন।"
 
-#: windows.cpp:215
+#: windows.cpp:218
 #, fuzzy
 msgid ""
 "When this option is enabled, there will be a delay after which the window "
@@ -559,22 +559,46 @@ msgid ""
 msgstr ""
 "এই সময় দেরীর পর যে উইন্ডোর ওপর মাউস নির্দেশক আছে  সেটি আপনা থেকে উপরে উঠে আসবে।"
 
-#: windows.cpp:217
+#: windows.cpp:220
 msgid ""
 "This is the delay after which the window the mouse pointer is over will "
 "automatically receive focus."
 msgstr ""
 "এই সময় দেরীর পর যে উইন্ডোর ওপর মাউস নির্দেশক আছে সেটি আপনা থেকে উপরে উঠে  আসবে।"
 
-#: windows.cpp:222
+#: windows.cpp:223
+msgid "S&eparate screen focus"
+msgstr ""
+
+#: windows.cpp:225
+msgid ""
+"When this option is enabled, focus operations are limited only to the active "
+"Xinerama screen"
+msgstr ""
+
+#: windows.cpp:228
+#, fuzzy
+#| msgid "Activate & Raise"
+msgid "Active &mouse screen"
+msgstr "সক্রিয় কর এবং তুলে ধর"
+
+#: windows.cpp:230
+msgid ""
+"When this option is enabled, active Xinerama screen (where for example new "
+"windows appear) is the screen with the mouse pointer. When disabled, the "
+"active Xinerama screen is the screen with the focused window. This option is "
+"by default disabled for Click to focus and enabled for other focus policies."
+msgstr ""
+
+#: windows.cpp:246
 msgid "Navigation"
 msgstr "পরিভ্রমণ"
 
-#: windows.cpp:228
+#: windows.cpp:252
 msgid "Show window list while switching windows"
 msgstr ""
 
-#: windows.cpp:231
+#: windows.cpp:255
 #, fuzzy
 msgid ""
 "Hold down the Alt key and press the Tab key repeatedly to walk through the "
@@ -596,11 +620,11 @@ msgstr ""
 "ডি.ই. প্রতিবার ট্যাব টিপলে একটি নতুন উইন্ডোতে আলোকপাত চলে যাবে। কোনো সুদৃশ্য উইজেট "
 "নেই।"
 
-#: windows.cpp:243
+#: windows.cpp:267
 msgid "&Traverse windows on all desktops"
 msgstr "&সমস্ত ডেস্কটপের উইন্ডোগুলিতে যাও"
 
-#: windows.cpp:246
+#: windows.cpp:270
 msgid ""
 "Leave this option disabled if you want to limit walking through windows to "
 "the current desktop."
@@ -608,11 +632,11 @@ msgstr ""
 "আপনি যদি কেবলমাত্র বর্তমান ডেস্কটপে উইন্ডোর মধ্যে ঘোরাসীমাবদ্ধ রাখতে চান তবে এই "
 "পছন্দটি নিষ্ক্রিয় করুন।"
 
-#: windows.cpp:250
+#: windows.cpp:274
 msgid "Desktop navi&gation wraps around"
 msgstr "ডেস্কটপ পরিভ্রম&ণ ঘিরে নেবে"
 
-#: windows.cpp:253
+#: windows.cpp:277
 msgid ""
 "Enable this option if you want keyboard or active desktop border navigation "
 "beyond the edge of a desktop to take you to the opposite edge of the new "
@@ -621,11 +645,11 @@ msgstr ""
 "আপনি যদি চান কী-বোর্ড বা সক্রিয় ডেস্কটপের প্রান্তে ঘোরার সময়একটি ডেস্কটপের প্রান্ত "
 "পেরিয়ে গেলে নতুন ডেস্কটপের অপর প্রান্তেপৌঁছানো যাবে, তাহলে এই পছন্দটি কার্যকর করুন।"
 
-#: windows.cpp:257
+#: windows.cpp:281
 msgid "Popup desktop name on desktop &switch"
 msgstr "ডেস্কটপ &বদল হলে  ডেস্কটপের নাম পপ্-আপ্ কর"
 
-#: windows.cpp:260
+#: windows.cpp:284
 msgid ""
 "Enable this option if you wish to see the current desktop name popup "
 "whenever the current desktop is changed."
@@ -633,15 +657,15 @@ msgstr ""
 "আপনি যদি চান বর্তমান ডেস্কটপ বদল হলে নতুন ডেস্কটপের নাম পপ্-আপ্ হবে, তাহলে এই "
 "পছন্দটি কার্যকর করুন।"
 
-#: windows.cpp:541
+#: windows.cpp:593
 msgid "Shading"
 msgstr "ছায়াবৃতকরণ"
 
-#: windows.cpp:543
+#: windows.cpp:595
 msgid "Anima&te"
 msgstr "চ&লমান দেখাও"
 
-#: windows.cpp:544
+#: windows.cpp:596
 msgid ""
 "Animate the action of reducing the window to its titlebar (shading) as well "
 "as the expansion of a shaded window"
@@ -649,11 +673,11 @@ msgstr ""
 "উইন্ডোটি তার শীর্ষকবারে গোটানো (ছায়াবৃত হওয়া) এবং ছায়াবৃতউইন্ডোর প্রসারণ চলমান করে "
 "দেখাও।"
 
-#: windows.cpp:547
+#: windows.cpp:599
 msgid "&Enable hover"
 msgstr "হোভার কার্য&কর কর"
 
-#: windows.cpp:557
+#: windows.cpp:609
 msgid ""
 "If Shade Hover is enabled, a shaded window will un-shade automatically when "
 "the mouse pointer has been over the title bar for some time."
@@ -661,7 +685,7 @@ msgstr ""
 "শেড হোভার কার্যকরী হলে একটি ছায়াবৃত উইন্ডোর শীর্ষকবারের ওপর মাউসের নির্দেশকটি "
 "কিছুক্ষন রাখলেই সেটি আপনা থেকে ছড়িয়ে যাবে"
 
-#: windows.cpp:560
+#: windows.cpp:612
 msgid ""
 "Sets the time in milliseconds before the window unshades when the mouse "
 "pointer goes over the shaded window."
@@ -669,11 +693,11 @@ msgstr ""
 "মাউসের নির্দেশকটি কতক্ষন ছায়াবৃত উইন্ডোর শীর্ষকবারের ওপর রাখলে সেটি আপনা থেকে "
 "ছড়িয়ে যাবে সেই সময়টিমিলিসেকেন্ডে ঠিক করা যাবে।"
 
-#: windows.cpp:571
+#: windows.cpp:623
 msgid "Active Desktop Borders"
 msgstr "সক্রিয় ডেস্কটপ সীমানা"
 
-#: windows.cpp:574
+#: windows.cpp:626
 msgid ""
 "If this option is enabled, moving the mouse to a screen border will change "
 "your desktop. This is e.g. useful if you want to drag windows from one "
@@ -682,23 +706,23 @@ msgstr ""
 "এই পছন্দটি কার্যকর করলে মাউসটি পর্দার সীমানায় নিয়ে গেলেডেস্কটপ বদল হবে। এটি যখন "
 "আপনি উইন্ডোকে একটি ডেস্কটপ থেকে অন্যতে টেনে নিয়ে যেতে চান তখন কার্যকর।"
 
-#: windows.cpp:577
+#: windows.cpp:629
 msgid "D&isabled"
 msgstr "নিষ্ক্রি&য়কৃত"
 
-#: windows.cpp:578
+#: windows.cpp:630
 msgid "Only &when moving windows"
 msgstr "শুধুমাত্র &উইন্ডো সরানোর সময়"
 
-#: windows.cpp:579
+#: windows.cpp:631
 msgid "A&lways enabled"
 msgstr "স&বসময় সক্রিয়"
 
-#: windows.cpp:584
+#: windows.cpp:636
 msgid "Desktop &switch delay:"
 msgstr "ডেস্কটপ &পরিবর্তনে বিলম্ব:"
 
-#: windows.cpp:585
+#: windows.cpp:637
 msgid ""
 "Here you can set a delay for switching desktops using the active borders "
 "feature. Desktops will be switched after the mouse has been pushed against a "
@@ -708,36 +732,36 @@ msgstr ""
 "মাউসটি পর্দার সীমানায নির্দিষ্ট  মিলিসেকেন্ড সময় চেপে ধরে রাখলে ডেস্কটপ পরিবর্তন "
 "হবে।"
 
-#: windows.cpp:600
+#: windows.cpp:652
 msgid "Focus stealing prevention level:"
 msgstr "আলোকপাত হরণ প্রতিরোধ স্তর:"
 
-#: windows.cpp:602
+#: windows.cpp:654
 msgctxt "Focus Stealing Prevention Level"
 msgid "None"
 msgstr "কিছু নয়"
 
-#: windows.cpp:603
+#: windows.cpp:655
 msgctxt "Focus Stealing Prevention Level"
 msgid "Low"
 msgstr "কম"
 
-#: windows.cpp:604
+#: windows.cpp:656
 msgctxt "Focus Stealing Prevention Level"
 msgid "Normal"
 msgstr "সাধারণ"
 
-#: windows.cpp:605
+#: windows.cpp:657
 msgctxt "Focus Stealing Prevention Level"
 msgid "High"
 msgstr "বেশী"
 
-#: windows.cpp:606
+#: windows.cpp:658
 msgctxt "Focus Stealing Prevention Level"
 msgid "Extreme"
 msgstr "অত্যন্ত বেশী"
 
-#: windows.cpp:610
+#: windows.cpp:662
 #, fuzzy
 msgid ""
 "<p>This option specifies how much KWin will try to prevent unwanted focus "
@@ -771,11 +795,11 @@ msgstr ""
 "কার্যকর হবে না।</li><li><em>অত্যন্ত বেশী:</em> প্রতিটি উইন্ডো ব্যবহারকারিকে নিজে "
 "সক্রিয় করে নিতে হবে</li>"
 
-#: windows.cpp:633
+#: windows.cpp:685
 msgid "Hide utility windows for inactive applications"
 msgstr ""
 
-#: windows.cpp:635
+#: windows.cpp:687
 msgid ""
 "When turned on, utility windows (tool windows, torn-off menus,...) of "
 "inactive applications will be hidden and will be shown only when the "
@@ -783,15 +807,15 @@ msgid ""
 "with the proper window type for this feature to work."
 msgstr ""
 
-#: windows.cpp:792
+#: windows.cpp:844
 msgid "Windows"
 msgstr "উইন্ডোসমূহ"
 
-#: windows.cpp:802
+#: windows.cpp:854
 msgid "Di&splay content in moving windows"
 msgstr "উইন্ডো সরানোর সময় তার উপাদান দেখা&ও"
 
-#: windows.cpp:804
+#: windows.cpp:856
 msgid ""
 "Enable this option if you want a window's content to be fully shown while "
 "moving it, instead of just showing a window 'skeleton'. The result may not "
@@ -801,11 +825,11 @@ msgstr ""
 "কী আছে তা  দেখতে চান, তাহলে এই অপশনটি কার্যকর করুন। গ্রাফিক এক্সেলারেশন বিহীন "
 "ধীর গতির কম্পিউটারে এর ফল আশানুরুপ নাও হতে পারে।"
 
-#: windows.cpp:808
+#: windows.cpp:860
 msgid "Display content in &resizing windows"
 msgstr "উইন্ডো &আকার পরিবর্তনের সময় তার উপাদান দেখাও"
 
-#: windows.cpp:810
+#: windows.cpp:862
 msgid ""
 "Enable this option if you want a window's content to be shown while resizing "
 "it, instead of just showing a window 'skeleton'. The result may not be "
@@ -815,11 +839,11 @@ msgstr ""
 "উইন্ডোটির ভিতরে কী আছে তা  দেখতে চান, তাহলে এই অপশনটি কার্যকর করুন। ধীর গতির "
 "কম্পিউটারে এর ফল আশানুরুপ নাও হতে পারে।"
 
-#: windows.cpp:814
+#: windows.cpp:866
 msgid "Display window &geometry when moving or resizing"
 msgstr "সরানোর বা আকার বদলের সম&য় জ্যামিতি দেখাও"
 
-#: windows.cpp:816
+#: windows.cpp:868
 msgid ""
 "Enable this option if you want a window's geometry to be displayed while it "
 "is being moved or resized. The window position relative to the top-left "
@@ -829,11 +853,11 @@ msgstr ""
 "দেখতে চান, তাহলে এই অপশনটি কার্যকর করুন। পর্দার উপরের বাঁদিকের কোণের সাপেক্ষে "
 "উইন্ডোর অবস্থান এবং তার মাপ দেখানো হবে।"
 
-#: windows.cpp:826
+#: windows.cpp:878
 msgid "Animate minimi&ze and restore"
 msgstr "ছো&ট বা বড় করা অ্যানিমেট কর"
 
-#: windows.cpp:828
+#: windows.cpp:880
 msgid ""
 "Enable this option if you want an animation shown when windows are minimized "
 "or restored."
@@ -841,15 +865,15 @@ msgstr ""
 "যদি আপনি উইন্ডো য়খন ছোট করা হবে বা আগের আকার করা হবে তখন একটি চলদৃশ্য "
 "(অ্যানিমেশন)দেখতে চান, তাহলে এই অপশনটি কার্যকর করুন।"
 
-#: windows.cpp:844
+#: windows.cpp:896
 msgid "Slow"
 msgstr "ধীরে"
 
-#: windows.cpp:848
+#: windows.cpp:900
 msgid "Fast"
 msgstr "দ্রুত"
 
-#: windows.cpp:852
+#: windows.cpp:904
 msgid ""
 "Here you can set the speed of the animation shown when windows are minimized "
 "and restored. "
@@ -857,11 +881,11 @@ msgstr ""
 "এখানে উইন্ডো য়খন ছোট করা হবে বা আগের আকার করা হবে, সেই চলদৃশ্যর (অ্যানিমেশনের) "
 "গতি নির্ধারণ করতে পারেন।"
 
-#: windows.cpp:858
+#: windows.cpp:910
 msgid "Allow moving and resizing o&f maximized windows"
 msgstr "পুরো ব&ড় করা উইন্ডোকে সরানো বা আকার পরিবর্তন চলবে"
 
-#: windows.cpp:860
+#: windows.cpp:912
 msgid ""
 "When enabled, this feature activates the border of maximized windows and "
 "allows you to move or resize them, just like for normal windows"
@@ -869,36 +893,36 @@ msgstr ""
 "এই বৈশিষ্ট্যটি কার্য়কর করলে পুরো বড় করা উইন্ডোর সীমানা সক্রিয় হয়ে যাবে এবং "
 "আপনিসেগুলিকেও সাধারণ উইন্ডোর মত সরাতে বা আকার পরিবর্তন করতে পারবেন"
 
-#: windows.cpp:867
+#: windows.cpp:919
 msgid "&Placement:"
 msgstr "সংস্থাপ&ন"
 
-#: windows.cpp:871
+#: windows.cpp:923
 msgid "Smart"
 msgstr "বুদ্ধিমান"
 
-#: windows.cpp:872
+#: windows.cpp:924
 #, fuzzy
 msgid "Maximizing"
 msgstr "পুরো বড় কর"
 
-#: windows.cpp:873
+#: windows.cpp:925
 msgid "Cascade"
 msgstr "গুচ্ছাকার"
 
-#: windows.cpp:874
+#: windows.cpp:926
 msgid "Random"
 msgstr "এলোমেলো"
 
-#: windows.cpp:875
+#: windows.cpp:927
 msgid "Centered"
 msgstr "কেন্দ্রীয়"
 
-#: windows.cpp:876
+#: windows.cpp:928
 msgid "Zero-Cornered"
 msgstr "শুন্য কোণবিশিষ্ট"
 
-#: windows.cpp:883
+#: windows.cpp:935
 #, fuzzy
 msgid ""
 "The placement policy determines where a new window will appear on the "
@@ -916,19 +940,19 @@ msgstr ""
 "করবে</li><li><em>গুচ্ছ (কাসকেড)</em> উইন্ডোগুলিকে গুচ্ছাকারে সাজাবে</"
 "li><li><em>এলোমেলো</em> যে কোনো একটি স্থানে উইন্ডোটিকে রাখবে</li></ul>"
 
-#: windows.cpp:922
+#: windows.cpp:974
 msgid "Snap Zones"
 msgstr "সংযোগ ক্ষেত্র"
 
-#: windows.cpp:926 windows.cpp:935
+#: windows.cpp:978 windows.cpp:987
 msgid "none"
 msgstr "কিছু নয়"
 
-#: windows.cpp:928
+#: windows.cpp:980
 msgid "&Border snap zone:"
 msgstr "সীমা সংযো&গ ক্ষেত্র:"
 
-#: windows.cpp:930
+#: windows.cpp:982
 msgid ""
 "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
 "the magnetic field which will make windows snap to the border when moved "
@@ -938,11 +962,11 @@ msgstr ""
 "প্রান্তে এলে যে চৌম্বক ক্ষেত্র উইন্ডোকে পর্দার প্রান্তে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:937
+#: windows.cpp:989
 msgid "&Window snap zone:"
 msgstr "&উইন্ডো সংযোগ ক্ষেত্র:"
 
-#: windows.cpp:939
+#: windows.cpp:991
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
 "magnetic field which will make windows snap to each other when they're moved "
@@ -952,11 +976,11 @@ msgstr ""
 "কাছে এলে যে চৌম্বক ক্ষেত্র তাদের পরস্পরের সঙ্গে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:943
+#: windows.cpp:995
 msgid "Snap windows onl&y when overlapping"
 msgstr "কেব&লমাত্র উপরিপাতন হলে উইন্ডোগুলি আটকে দাও"
 
-#: windows.cpp:944
+#: windows.cpp:996
 msgid ""
 "Here you can set that windows will be only snapped if you try to overlap "
 "them, i.e. they will not be snapped if the windows comes only near another "
@@ -965,13 +989,13 @@ msgstr ""
 "এখানে আপনি স্থির করতে পারেন উইন্ডোগুলি একে অন্যের উপরে চাপাতে চাইলে আটকে যাবে, "
 "অর্থাত্‍, উইন্ডোগুলি আরেকটি উইন্ডো বা তার সীমার কাছাকাছি এলেই আটকে যাবে না।"
 
-#: windows.cpp:1041 windows.cpp:1045
+#: windows.cpp:1093 windows.cpp:1097
 msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] ""
 msgstr[1] ""
 
-#: windows.cpp:1245
+#: windows.cpp:1297
 msgid ""
 "<qt><b>It seems that alpha channel support is not available.</"
 "b><br><br>Please make sure you have <a href=\"http://www.freedesktop.org/"
@@ -983,101 +1007,101 @@ msgid ""
 "\"RenderAccel\" \"true\"</i><br>In <i>Section \"Device\"</i></qt>"
 msgstr ""
 
-#: windows.cpp:1269
+#: windows.cpp:1321
 msgid "Apply translucency only to decoration"
 msgstr ""
 
-#: windows.cpp:1279
+#: windows.cpp:1331
 msgid "Active windows:"
 msgstr "সক্রিয় উইন্ডো:"
 
-#: windows.cpp:1286
+#: windows.cpp:1338
 msgid "Inactive windows:"
 msgstr "নিষ্ক্রিয় উইন্ডো:"
 
-#: windows.cpp:1293
+#: windows.cpp:1345
 msgid "Moving windows:"
 msgstr ""
 
-#: windows.cpp:1300
+#: windows.cpp:1352
 msgid "Dock windows:"
 msgstr ""
 
-#: windows.cpp:1309
+#: windows.cpp:1361
 msgid "Treat 'keep above' windows as active ones"
 msgstr ""
 
-#: windows.cpp:1312
+#: windows.cpp:1364
 msgid "Disable ARGB windows (ignores window alpha maps, fixes gtk1 apps)"
 msgstr ""
 
-#: windows.cpp:1316
+#: windows.cpp:1368
 msgid "Opacity"
 msgstr ""
 
-#: windows.cpp:1324
+#: windows.cpp:1376
 #, fuzzy
 msgid "Use shadows"
 msgstr "ছায়াবৃত কর"
 
-#: windows.cpp:1333
+#: windows.cpp:1385
 msgid "Active window size:"
 msgstr ""
 
-#: windows.cpp:1340
+#: windows.cpp:1392
 msgid "Inactive window size:"
 msgstr ""
 
-#: windows.cpp:1347
+#: windows.cpp:1399
 msgid "Dock window size:"
 msgstr ""
 
-#: windows.cpp:1354
+#: windows.cpp:1406
 msgid "Vertical offset:"
 msgstr ""
 
-#: windows.cpp:1361
+#: windows.cpp:1413
 msgid "Horizontal offset:"
 msgstr ""
 
-#: windows.cpp:1368
+#: windows.cpp:1420
 msgid "Shadow color:"
 msgstr ""
 
-#: windows.cpp:1374
+#: windows.cpp:1426
 msgid "Remove shadows on move"
 msgstr ""
 
-#: windows.cpp:1376
+#: windows.cpp:1428
 msgid "Remove shadows on resize"
 msgstr ""
 
-#: windows.cpp:1379
+#: windows.cpp:1431
 msgid "Shadows"
 msgstr ""
 
-#: windows.cpp:1386
+#: windows.cpp:1438
 msgid "Fade-in windows (including popups)"
 msgstr ""
 
-#: windows.cpp:1387
+#: windows.cpp:1439
 msgid "Fade between opacity changes"
 msgstr ""
 
-#: windows.cpp:1400
+#: windows.cpp:1452
 msgid "Effects"
 msgstr ""
 
-#: windows.cpp:1402
+#: windows.cpp:1454
 msgid "Use translucency/shadows"
 msgstr ""
 
-#: windows.cpp:1655
+#: windows.cpp:1707
 msgid ""
 "<qt>Translucency support is new and may cause problems<br> including crashes "
 "(sometimes the translucency engine, seldom even X).</qt>"
 msgstr ""
 
-#: windows.cpp:1655
+#: windows.cpp:1707
 msgid "Warning"
 msgstr ""
