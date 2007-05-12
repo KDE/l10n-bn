@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-05 05:45+0200\n"
+"POT-Creation-Date: 2007-05-12 05:48+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -330,8 +330,8 @@ msgstr ""
 "স্থানীয় রং বিন্যাসের ফাইল খোলা যায় নি।\n"
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
-#: colorscheme.cpp:261 colorscheme.cpp:279 indidriver.cpp:477
-#: indidriver.cpp:937 kstarsactions.cpp:555 locationdialog.cpp:245
+#: colorscheme.cpp:261 colorscheme.cpp:279 indidriver.cpp:480
+#: indidriver.cpp:940 kstarsactions.cpp:555 locationdialog.cpp:245
 #: opscolors.cpp:198 skymap.cpp:1274 tools/modcalcaltaz.cpp:264
 #: tools/modcalcangdist.cpp:143 tools/modcalcapcoord.cpp:166
 #: tools/modcalceclipticcoords.cpp:214 tools/modcalcgalcoord.cpp:191
@@ -504,7 +504,7 @@ msgstr "ইউ.আর.এল.:"
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "আপনি কি %1 লিঙ্কটি অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: detaildialog.cpp:587 indidriver.cpp:911 telescopeprop.cpp:243
+#: detaildialog.cpp:587 indidriver.cpp:914 telescopeprop.cpp:243
 msgid "Delete Confirmation"
 msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
 
@@ -839,25 +839,25 @@ msgstr "%1 ছবিটি সংরক্ষণ করার প্রচেষ
 
 #. i18n: tag string
 #. i18n: file devmanager.ui line 16
-#: indidriver.cpp:85 rc.cpp:291 rc.cpp:3040
+#: indidriver.cpp:88 rc.cpp:291 rc.cpp:3040
 msgid "Device Manager"
 msgstr "ডিভাইস ব্যবস্থাপক"
 
-#: indidriver.cpp:271
+#: indidriver.cpp:274
 #, qt-format
 msgid "Connection to INDI host at localhost on port %1 failed."
 msgstr ""
 
-#: indidriver.cpp:342
+#: indidriver.cpp:345
 #, qt-format
 msgid "Connection to INDI host at %1 on port %2 failed."
 msgstr ""
 
-#: indidriver.cpp:423
+#: indidriver.cpp:426
 msgid "Cannot start INDI server: port error."
 msgstr "INDI সার্ভার চালু করা যাচ্ছে না : পোর্ট ত্রুটি।"
 
-#: indidriver.cpp:476
+#: indidriver.cpp:479
 msgid ""
 "unable to write to file 'drivers.xml'\n"
 "Any changes to INDI device drivers will not be saved."
@@ -865,7 +865,7 @@ msgstr ""
 "drivers.xml' ফাইলে লেখা যাচ্ছে না\n"
 "INDI ডিভাইস ড্রাইভারে কোন পরিবর্তন করলে তা সংরক্ষিত হবে না।"
 
-#: indidriver.cpp:611
+#: indidriver.cpp:614
 #, fuzzy
 msgid ""
 "Unable to find device driver file 'drivers.xml'. Please locate the file and "
@@ -880,33 +880,33 @@ msgstr ""
 " \t$(KDEDIR)/share/apps/kstars/%1 \n"
 "\t~/.kde/share/apps/kstars/%1"
 
-#: indidriver.cpp:809
+#: indidriver.cpp:812
 msgid "Add Host"
 msgstr "হোস্ট যোগ করো"
 
-#: indidriver.cpp:825
+#: indidriver.cpp:828
 msgid "Error: the port number is invalid."
 msgstr "সমস্যা: অবৈধ পোর্ট নম্বর।"
 
-#: indidriver.cpp:835
+#: indidriver.cpp:838
 #, qt-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "হোস্ট: %1 পোর্ট: %2 ইতিমধ্যেই বিদ্যমান।"
 
-#: indidriver.cpp:860
+#: indidriver.cpp:863
 msgid "Modify Host"
 msgstr "হোস্ট পরিবর্তন করো"
 
-#: indidriver.cpp:907
+#: indidriver.cpp:910
 msgid "You need to disconnect the client before removing it."
 msgstr "ক্লায়েন্টকে অপসারণের পূর্বে তার সংযোগ বিচ্ছিন্ন করতে হবে।"
 
-#: indidriver.cpp:911
+#: indidriver.cpp:914
 #, qt-format
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "আপনি কি %1 ক্লায়েন্টকে অপসারণের ব্যাপারে নিশ্চিত?"
 
-#: indidriver.cpp:936
+#: indidriver.cpp:939
 msgid ""
 "unable to write to file 'indihosts.xml'\n"
 "Any changes to INDI hosts configurations will not be saved."
@@ -936,32 +936,32 @@ msgstr ""
 "বর্তমানে কোন INDI ডিভাইস চলছে না।  এ ধরনের কোন ডিভাইস চালানোর জন্য অনুগ্রহপূর্বক "
 "ডিভাইস মেনুর ডিভাইস ব্যবস্থাপক থেকে ডিভাইস বেছে নিন।"
 
-#: indiproperty.cpp:188
+#: indiproperty.cpp:195
 #, qt-format
 msgid "Invalid range for element %1. Valid range is from %2 to %3"
 msgstr "%1-এর সীমা অবৈধ।  বৈধ সীমা %2 থেকে %3-এর মধ্যে অবস্থিত"
 
 # FIXME: Crosshair = ?
-#: indiproperty.cpp:225 kspopupmenu.cpp:374
+#: indiproperty.cpp:232 kspopupmenu.cpp:374
 msgid "Center && Track Crosshair"
 msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অনুসরণ করো"
 
-#: indiproperty.cpp:361
+#: indiproperty.cpp:368
 #, qt-format
 msgid "Cannot open file %1 for reading"
 msgstr "পড়ার জন্য %1 ফাইলকে খোলা যাচ্ছে না"
 
-#: indiproperty.cpp:371
+#: indiproperty.cpp:378
 #, qt-format
 msgid "Not enough memory to load %1"
 msgstr "%1-কে লোড করার জন্য পর্যাপ্ত মেমরি নেই"
 
-#: indiproperty.cpp:382
+#: indiproperty.cpp:389
 #, qt-format
 msgid "Not enough memory to convert file %1 to base64"
 msgstr "%1 ফাইলকে base64 ফরম্যাটে রূপান্তর করার জন্য পর্যাপ্ত মেমরি নেই"
 
-#: indiproperty.cpp:910
+#: indiproperty.cpp:917
 msgid "Upload"
 msgstr "আপলোড"
 
@@ -993,7 +993,7 @@ msgstr "%1 অনলাইনে আছে।"
 msgid "%1 is online and ready."
 msgstr "%1 অনলাইনে আছে এবং প্রস্তুত রয়েছে।"
 
-#: indistd.cpp:843
+#: indistd.cpp:844
 #, fuzzy
 msgid "Cancel"
 msgstr "কান"
@@ -1253,7 +1253,7 @@ msgstr "অস্তের কোন সময় নেই: কখনোই উদ
 msgid "Sun"
 msgstr "সূর্য"
 
-#: kstars.cpp:155 kstarsactions.cpp:682 skymap.cpp:284
+#: kstars.cpp:149 kstarsactions.cpp:682 skymap.cpp:284
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
