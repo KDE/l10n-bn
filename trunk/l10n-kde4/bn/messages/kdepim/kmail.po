@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-20 05:48+0200\n"
+"POT-Creation-Date: 2007-05-21 05:48+0200\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -193,7 +193,7 @@ msgstr "পর পর পরীক্ষার মধ্যে বি&রতি:
 #. i18n: tag string
 #. i18n: file signatureconfigurationdialog.ui line 446
 #: accountdialog.cpp:444 accountdialog.cpp:545 accountdialog.cpp:749
-#: accountdialog.cpp:1117 configuredialog.cpp:2741 rc.cpp:952
+#: accountdialog.cpp:1117 configuredialog.cpp:2416 rc.cpp:952
 msgid " min"
 msgstr " মিনিট"
 
@@ -221,12 +221,12 @@ msgstr "নিজে হাতে মেই&ল পরীক্ষায় অন�
 msgid "Account Type: POP Account"
 msgstr "অ্যাকাউন্ট ধরন: পপ (POP) অ্যাকাউন্ট"
 
-#: accountdialog.cpp:588 accountdialog.cpp:894 configuredialog.cpp:2611
-#: identitydialog.cpp:121 kmfilterdlg.cpp:159 kmtransport.cpp:395
+#: accountdialog.cpp:588 accountdialog.cpp:894 configuredialog.cpp:2286
+#: identitydialog.cpp:122 kmfilterdlg.cpp:159
 msgid "&General"
 msgstr "সাধা&রণ"
 
-#: accountdialog.cpp:603 accountdialog.cpp:910 kmtransport.cpp:457
+#: accountdialog.cpp:603 accountdialog.cpp:910
 msgid "&Login:"
 msgstr "&লগ-ইন:"
 
@@ -240,7 +240,7 @@ msgstr ""
 "(username)</em> পাওয়া উচিত্‍। সাধারণত, এটি হবে আপনার ই-মেইল ঠিকানার প্রথম অংশ "
 "(<em>@</em>-এর আগে)।"
 
-#: accountdialog.cpp:610 accountdialog.cpp:918 kmtransport.cpp:466
+#: accountdialog.cpp:610 accountdialog.cpp:918
 msgid "P&assword:"
 msgstr "পা&সওয়ার্ড:"
 
@@ -248,7 +248,7 @@ msgstr "পা&সওয়ার্ড:"
 msgid "Ho&st:"
 msgstr "হোস্ট (&হ):"
 
-#: accountdialog.cpp:626 accountdialog.cpp:936 kmtransport.cpp:421
+#: accountdialog.cpp:626 accountdialog.cpp:936
 msgid "&Port:"
 msgstr "পোর্ট (&প):"
 
@@ -256,7 +256,7 @@ msgstr "পোর্ট (&প):"
 msgid "Sto&re POP password"
 msgstr "পপ (POP) পাসওয়ার্ড সঞ্চি&ত রাখো"
 
-#: accountdialog.cpp:636 accountdialog.cpp:1019 kmtransport.cpp:479
+#: accountdialog.cpp:636 accountdialog.cpp:1019
 msgid ""
 "Check this option to have KMail store the password.\n"
 "If KWallet is available the password will be stored there which is "
@@ -317,18 +317,17 @@ msgstr "প্রি-&কমান্ড:"
 msgid "&Extras"
 msgstr "&অতিরিক্ত"
 
-#: accountdialog.cpp:777 accountdialog.cpp:1141 kmtransport.cpp:557
+#: accountdialog.cpp:777 accountdialog.cpp:1141
 msgid "Check &What the Server Supports"
 msgstr "সার্ভার কী সমর্থন করে &পরীক্ষা করো"
 
 #. i18n: tag string
 #. i18n: file encryptionconfigurationdialog.ui line 28
-#: accountdialog.cpp:786 accountdialog.cpp:1150 kmheaders.cpp:159
-#: kmtransport.cpp:523 rc.cpp:95
+#: accountdialog.cpp:786 accountdialog.cpp:1150 kmheaders.cpp:159 rc.cpp:95
 msgid "Encryption"
 msgstr "এনক্রিপশন"
 
-#: accountdialog.cpp:789 accountdialog.cpp:1153 kmtransport.cpp:525
+#: accountdialog.cpp:789 accountdialog.cpp:1153
 msgid "&None"
 msgstr "কিছু না (&ন)"
 
@@ -340,7 +339,7 @@ msgstr "নিরাপদ মেইল ডাউনলোডের জন্য
 msgid "Use &TLS for secure mail download"
 msgstr "নিরাপদ মেইল ডাউনলোডের জন্য টি-এ&ল-এস (TLS) ব্যবহার করো"
 
-#: accountdialog.cpp:809 accountdialog.cpp:1173 kmtransport.cpp:535
+#: accountdialog.cpp:809 accountdialog.cpp:1173
 msgid "Authentication Method"
 msgstr "সত্যতা যাচাইয়ের (অথেন্টিকেশন) উপায়"
 
@@ -348,31 +347,31 @@ msgstr "সত্যতা যাচাইয়ের (অথেন্টিকে
 msgid "Clear te&xt"
 msgstr "Clear te&xt"
 
-#: accountdialog.cpp:814 accountdialog.cpp:1177 kmtransport.cpp:537
+#: accountdialog.cpp:814 accountdialog.cpp:1177
 msgctxt ""
 "Please translate this authentication method only if you have a good reason"
 msgid "&LOGIN"
 msgstr "&LOGIN"
 
-#: accountdialog.cpp:818 accountdialog.cpp:1180 kmtransport.cpp:540
+#: accountdialog.cpp:818 accountdialog.cpp:1180
 msgctxt ""
 "Please translate this authentication method only if you have a good reason"
 msgid "&PLAIN"
 msgstr "&PLAIN"
 
-#: accountdialog.cpp:821 accountdialog.cpp:1182 kmtransport.cpp:542
+#: accountdialog.cpp:821 accountdialog.cpp:1182
 msgid "CRAM-MD&5"
 msgstr "CRAM-MD&5"
 
-#: accountdialog.cpp:823 accountdialog.cpp:1183 kmtransport.cpp:543
+#: accountdialog.cpp:823 accountdialog.cpp:1183
 msgid "&DIGEST-MD5"
 msgstr "&DIGEST-MD5"
 
-#: accountdialog.cpp:825 accountdialog.cpp:1184 kmtransport.cpp:544
+#: accountdialog.cpp:825 accountdialog.cpp:1184
 msgid "&NTLM"
 msgstr "&NTLM"
 
-#: accountdialog.cpp:827 accountdialog.cpp:1185 kmtransport.cpp:545
+#: accountdialog.cpp:827 accountdialog.cpp:1185
 msgid "&GSSAPI"
 msgstr "&GSSAPI"
 
@@ -485,7 +484,7 @@ msgstr "নিজে হাতে মেইল পরীক্ষায় অন�
 msgid "&Trash folder:"
 msgstr "আ&বর্জনা ফোল্ডার:"
 
-#: accountdialog.cpp:1131 kmtransport.cpp:519
+#: accountdialog.cpp:1131
 msgid "S&ecurity"
 msgstr "নিরা&পত্তা"
 
@@ -503,7 +502,7 @@ msgstr "<কিছু না>"
 
 #: accountdialog.cpp:1497 accountdialog.cpp:1504 kmfoldercachedimap.cpp:244
 #: kmfoldercachedimap.cpp:2063 kmfolderimap.cpp:229 kmfolderimap.cpp:918
-#: kmkernel.cpp:1323 subscriptiondialog.cpp:171
+#: kmkernel.cpp:1331 subscriptiondialog.cpp:171
 msgid "inbox"
 msgstr "ইনবক্স"
 
@@ -628,8 +627,8 @@ msgstr ""
 msgid "Checking account %1 for new mail"
 msgstr "অ্যাকাউন্ট %1-এ নতুন মেইলের জন্য পরীক্ষা করা হচ্ছে "
 
-#: accountmanager.cpp:208 accountmanager.cpp:211 accountwizard.cpp:477
-#: accountwizard.cpp:513
+#: accountmanager.cpp:208 accountmanager.cpp:211 accountwizard.cpp:458
+#: accountwizard.cpp:494
 msgid "Local Account"
 msgstr "স্থানীয় অ্যাকাউন্ট"
 
@@ -647,120 +646,120 @@ msgid ""
 "to receive mail."
 msgstr ""
 
-#: accountwizard.cpp:96
+#: accountwizard.cpp:99
 msgid "Local mailbox"
 msgstr "স্থানীয় মেইল-বক্স"
 
-#: accountwizard.cpp:97
+#: accountwizard.cpp:100
 msgid "POP3"
 msgstr "পপ-৩ (POP3)"
 
-#: accountwizard.cpp:98
+#: accountwizard.cpp:101
 msgid "IMAP"
 msgstr "আই-ম্যাপ (IMAP)"
 
-#: accountwizard.cpp:99
+#: accountwizard.cpp:102
 msgid "Disconnected IMAP"
 msgstr "ডিসকানেক্‌টেড আই-ম্যাপ"
 
-#: accountwizard.cpp:100
+#: accountwizard.cpp:103
 msgid "Maildir mailbox"
 msgstr "মেইল-ডির মেইলবক্স"
 
-#: accountwizard.cpp:190
+#: accountwizard.cpp:192
 msgid "Location:"
 msgstr "অবস্থান:"
 
-#: accountwizard.cpp:200
+#: accountwizard.cpp:202
 msgid "Incoming server:"
 msgstr "অন্তর্মুখী সার্ভার:"
 
-#: accountwizard.cpp:210
+#: accountwizard.cpp:212
 msgid "Welcome to KMail"
 msgstr "কে-মেইল-এ স্বাগতম্"
 
-#: accountwizard.cpp:215
+#: accountwizard.cpp:217
 msgid ""
 "<qt>It seems you have started KMail for the first time. You can use this "
 "wizard to setup your mail accounts. Just enter the connection data that you "
 "received from your email provider into the following pages.</qt>"
 msgstr ""
 
-#: accountwizard.cpp:221
+#: accountwizard.cpp:223
 msgid "Welcome"
 msgstr "স্বাগতম্"
 
-#: accountwizard.cpp:230
+#: accountwizard.cpp:232
 msgid "Select what kind of account you would like to create"
 msgstr ""
 
-#: accountwizard.cpp:234 kmacctseldlg.cpp:47
+#: accountwizard.cpp:236 kmacctseldlg.cpp:47
 msgid "Account Type"
 msgstr "অ্যাকাউন্ট-এর ধরন"
 
-#: accountwizard.cpp:245
+#: accountwizard.cpp:247
 msgid "Real name:"
 msgstr "আসল নাম:"
 
-#: accountwizard.cpp:252
+#: accountwizard.cpp:254
 msgid "E-mail address:"
 msgstr "ই-মেইল ঠিকানা:"
 
-#: accountwizard.cpp:259
+#: accountwizard.cpp:261
 msgid "Organization:"
 msgstr "সংস্থা:"
 
-#: accountwizard.cpp:266
+#: accountwizard.cpp:268
 msgid "Account Information"
 msgstr "অ্যাকাউন্ট তথ্য"
 
-#: accountwizard.cpp:277
+#: accountwizard.cpp:279
 msgid "Login name:"
 msgstr "লগ-ইন নাম:"
 
-#: accountwizard.cpp:284
+#: accountwizard.cpp:286
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
-#: accountwizard.cpp:292
+#: accountwizard.cpp:294
 msgid "Login Information"
 msgstr "লগ-ইন তথ্য"
 
-#: accountwizard.cpp:312 accountwizard.cpp:331
+#: accountwizard.cpp:314 accountwizard.cpp:333
 msgid "Use secure connection (SSL)"
 msgstr ""
 
-#: accountwizard.cpp:319
+#: accountwizard.cpp:321
 msgid "Choose..."
 msgstr "বেছে নিন..."
 
-#: accountwizard.cpp:324
+#: accountwizard.cpp:326
 msgid "Outgoing server:"
 msgstr "বহির্মুখী সার্ভার:"
 
-#: accountwizard.cpp:335
+#: accountwizard.cpp:337
 msgid "Use local delivery"
 msgstr ""
 
-#: accountwizard.cpp:336
+#: accountwizard.cpp:338
 msgid ""
 "If your local host acts as a sending mail server (SMTP), you may activate "
 "this."
 msgstr ""
 
-#: accountwizard.cpp:342
+#: accountwizard.cpp:344
 msgid "Server Information"
 msgstr "সার্ভার তথ্য"
 
-#: accountwizard.cpp:364
+#: accountwizard.cpp:366
 msgid "None"
 msgstr "কিছু না"
 
-#: accountwizard.cpp:432 configuredialog.cpp:884
+#: accountwizard.cpp:424
 msgid "Sendmail"
 msgstr "সেন্ড-মেইল"
 
-#: accountwizard.cpp:559 accountwizard.cpp:573 accountwizard.cpp:591
+#: accountwizard.cpp:540 accountwizard.cpp:554 accountwizard.cpp:572
 #, qt-format
 msgid "Checking for supported security capabilities of %1..."
 msgstr ""
@@ -1062,564 +1061,505 @@ msgstr "ফোল্ডার \"%1\" সফলভাবে জমাট (compact
 msgid "Error occurred while compacting \"%1\". Compaction aborted."
 msgstr ""
 
-#: configuredialog.cpp:157
+#: configuredialog.cpp:159
 msgid ""
 "<qt><p>This setting has been fixed by your administrator.</p><p>If you think "
 "this is an error, please contact him.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:242
+#: configuredialog.cpp:244
 msgid "&Load Profile..."
 msgstr "প্রোফাই&ল লোড করো..."
 
-#: configuredialog.cpp:336 simplestringlisteditor.cpp:90
+#: configuredialog.cpp:338 simplestringlisteditor.cpp:90
 msgid "&Add..."
 msgstr "যো&গ করো..."
 
-#: configuredialog.cpp:337 configuredialog.cpp:711 configuredialog.cpp:1193
-#: configuredialog.cpp:3279 simplestringlisteditor.cpp:113
+#: configuredialog.cpp:339 configuredialog.cpp:868 configuredialog.cpp:2954
+#: simplestringlisteditor.cpp:113
 msgid "&Modify..."
 msgstr "&বদলাও..."
 
-#: configuredialog.cpp:338 searchwindow.cpp:282
+#: configuredialog.cpp:340 searchwindow.cpp:282
 msgid "&Rename"
 msgstr "না&ম পাল্টাও"
 
-#: configuredialog.cpp:339 configuredialog.cpp:3226 configuredialog.cpp:3278
+#: configuredialog.cpp:341 configuredialog.cpp:2901 configuredialog.cpp:2953
 msgid "Remo&ve"
 msgstr "&সরিয়ে ফেলো"
 
-#: configuredialog.cpp:340
+#: configuredialog.cpp:342
 msgid "Set as &Default"
 msgstr "ডি&ফল্ট হিসেবে নির্দিষ্ট করো"
 
-#: configuredialog.cpp:506
+#: configuredialog.cpp:508
 #, qt-format
 msgid "<qt>Do you really want to remove the identity named <b>%1</b>?</qt>"
 msgstr "<qt>আপনি কি সত্যিই <b>%1</b> নামক পরিচিতিটি সরিয়ে ফেলতে চান?</qt>"
 
-#: configuredialog.cpp:508
+#: configuredialog.cpp:510
 msgid "Remove Identity"
 msgstr "পরিচিতি সরিয়ে ফেলো"
 
-#: configuredialog.cpp:509 simplestringlisteditor.cpp:101
+#: configuredialog.cpp:511 simplestringlisteditor.cpp:101
 #, fuzzy
 msgid "&Remove"
 msgstr "&সরিয়ে ফেলো"
 
-#: configuredialog.cpp:553 configuredialog.cpp:3225
+#: configuredialog.cpp:555 configuredialog.cpp:2900
 msgid "Add..."
 msgstr "যোগ করো..."
 
-#: configuredialog.cpp:555 configuredialog.cpp:3227
+#: configuredialog.cpp:557 configuredialog.cpp:2902
 msgid "Modify..."
 msgstr "বদলাও..."
 
-#: configuredialog.cpp:557 folderdiaacltab.cpp:636 kmcomposewin.cpp:3106
+#: configuredialog.cpp:559 folderdiaacltab.cpp:636 kmcomposewin.cpp:3103
 #, fuzzy
 msgid "Remove"
 msgstr "&সরিয়ে ফেলো"
 
-#: configuredialog.cpp:560
+#: configuredialog.cpp:562
 msgid "Set as Default"
 msgstr "ডিফল্ট হিসেবে নির্দিষ্ট করো"
 
-#: configuredialog.cpp:634
+#: configuredialog.cpp:636
 msgid "&Receiving"
 msgstr "প্রাপ্তি (&ত)"
 
-#: configuredialog.cpp:642
+#: configuredialog.cpp:644
 msgid "&Sending"
 msgstr "প্রের&ণ"
 
-#: configuredialog.cpp:673
+#: configuredialog.cpp:669
 msgid "Outgoing accounts (add at least one):"
 msgstr "বহির্মুখী অ্যাকাউন্ট (অন্তত একটি যোগ করুন):"
 
-#. i18n: tag string
-#. i18n: file customtemplates_base.ui line 86
-#: configuredialog.cpp:683 configuredialog.cpp:3410
-#: distributionlistdialog.cpp:122 kmcomposewin.cpp:338 rc.cpp:59
-#: recipientspicker.cpp:300
-msgid "Name"
-msgstr "নাম"
-
-#. i18n: tag string
-#. i18n: file customtemplates_base.ui line 81
-#: configuredialog.cpp:683 kmcomposewin.cpp:341 kmfilterdlg.cpp:228
-#: kmmimeparttree.cpp:60 rc.cpp:56
-msgid "Type"
-msgstr "ধরন"
-
-#: configuredialog.cpp:704 configuredialog.cpp:1186 configuredialog.cpp:2937
-#: configuredialog.cpp:3196 configuredialog.cpp:3278 configuredialog.cpp:3623
-msgid "A&dd..."
-msgstr "যো&গ করো..."
-
-#: configuredialog.cpp:719 configuredialog.cpp:1201
-msgid "R&emove"
-msgstr "মুছে ফেলো (&ম)"
-
-#: configuredialog.cpp:726
-msgid "Set Default"
-msgstr "ডিফল্ট নির্দিষ্ট করো"
-
-#: configuredialog.cpp:735
+#: configuredialog.cpp:675
 msgid "Common Options"
 msgstr "সাধারণ অপশন"
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 320
-#: configuredialog.cpp:745 rc.cpp:507
+#: configuredialog.cpp:685 rc.cpp:507
 msgid "Confirm &before send"
 msgstr "পাঠাবার আগে &অনুমোদন চাও"
 
-#: configuredialog.cpp:754
+#: configuredialog.cpp:694
 msgid "Never Automatically"
 msgstr "কখনোই স্বয়ংক্রীয়ভাবে নয়"
 
-#: configuredialog.cpp:755
+#: configuredialog.cpp:695
 msgid "On Manual Mail Checks"
 msgstr "নিজে হাতে মেইল পরীক্ষা করলে"
 
-#: configuredialog.cpp:756
+#: configuredialog.cpp:696
 msgid "On All Mail Checks"
 msgstr "যে কোনভাবে মেইল পরীক্ষা করা হলে"
 
-#: configuredialog.cpp:765
+#: configuredialog.cpp:705
 msgid "Send Now"
 msgstr "এখন পাঠাও"
 
-#: configuredialog.cpp:766
+#: configuredialog.cpp:706
 msgid "Send Later"
 msgstr "পরে পাঠাও"
 
-#: configuredialog.cpp:777
+#: configuredialog.cpp:717
 msgid "Allow 8-bit"
 msgstr "৮-বিট অনুমোদন করো"
 
-#: configuredialog.cpp:778
+#: configuredialog.cpp:718
 msgid "MIME Compliant (Quoted Printable)"
 msgstr ""
 
-#: configuredialog.cpp:790
+#: configuredialog.cpp:730
 msgid "Send &messages in outbox folder:"
 msgstr "&আউটবক্স ফোল্ডার-এর বার্তা পাঠাও:"
 
-#: configuredialog.cpp:798
+#: configuredialog.cpp:738
 msgid "Defa&ult send method:"
 msgstr "পাঠাবার ডি&ফল্ট উপায়:"
 
-#: configuredialog.cpp:801
+#: configuredialog.cpp:741
 msgid "Message &property:"
 msgstr "বার্তা&র বৈশিষ্ট্যাবলী:"
 
-#: configuredialog.cpp:804
+#: configuredialog.cpp:744
 msgid "Defaul&t domain:"
 msgstr "ডিফল্ট ডোমে&ইন:"
 
-#: configuredialog.cpp:809
+#: configuredialog.cpp:749
 msgid ""
 "<qt><p>The default domain is used to complete email addresses that only "
 "consist of the user's name.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:833
+#: configuredialog.cpp:765
 #, qt-format
 msgctxt ""
 "%1: name; %2: number appended to it to make it unique among a list of names"
 msgid "%1 %2"
 msgstr "%1 %2"
 
-#: configuredialog.cpp:859 configuredialog.cpp:1039 configuredialog.cpp:1087
-msgid "smtp (Default)"
-msgstr ""
-
-#: configuredialog.cpp:861 configuredialog.cpp:1041 configuredialog.cpp:1089
-msgid "sendmail (Default)"
-msgstr ""
-
-#: configuredialog.cpp:891 kmtransport.cpp:252
-msgid "Add Transport"
-msgstr "বার্তাবাহক যোগ করো"
-
-#: configuredialog.cpp:925
-#, qt-format
-msgctxt ""
-"%1: type of transport. Result used in Configure->Accounts->Sending listview, "
-"\"type\" column, first row, to indicate that this is the default transport"
-msgid "%1 (Default)"
-msgstr "%1 (ডিফল্ট)"
-
-#: configuredialog.cpp:950
-msgid "Modify Transport"
-msgstr "বার্তাবাহক বদলাও"
-
-#: configuredialog.cpp:986
-#, qt-format
-msgid "This identity has been changed to use the modified transport:"
-msgid_plural ""
-"These %1 identities have been changed to use the modified transport:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: configuredialog.cpp:1017
-#, qt-format
-msgid "This identity has been changed to use the default transport:"
-msgid_plural ""
-"These %1 identities have been changed to use the default transport:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: configuredialog.cpp:1155
+#: configuredialog.cpp:830
 msgid "Incoming accounts (add at least one):"
 msgstr "অন্তর্মুখী অ্যাকাউন্ট (অন্তত একটি যোগ করুন):"
 
-#: configuredialog.cpp:1209
+#: configuredialog.cpp:861 configuredialog.cpp:2612 configuredialog.cpp:2871
+#: configuredialog.cpp:2953 configuredialog.cpp:3298
+msgid "A&dd..."
+msgstr "যো&গ করো..."
+
+#: configuredialog.cpp:876
+msgid "R&emove"
+msgstr "মুছে ফেলো (&ম)"
+
+#: configuredialog.cpp:884
 msgid "Chec&k mail on startup"
 msgstr "শুরু করার স&ময় মেইল পরীক্ষা করো"
 
-#: configuredialog.cpp:1215
+#: configuredialog.cpp:890
 msgid "New Mail Notification"
 msgstr "নতুন মেইল বিজ্ঞপ্তি"
 
-#: configuredialog.cpp:1223
+#: configuredialog.cpp:898
 msgid "&Beep"
 msgstr "বী&প"
 
-#: configuredialog.cpp:1231
+#: configuredialog.cpp:906
 msgid "Deta&iled new mail notification"
 msgstr "বিস্তারিত &নতুন মেইল বিজ্ঞপ্তি"
 
-#: configuredialog.cpp:1235
+#: configuredialog.cpp:910
 msgid "Show for each folder the number of newly arrived messages"
 msgstr "প্রত্যেক ফোল্ডার-এ নতুন বার্তার সংখ্যা প্রদর্শন করো"
 
-#: configuredialog.cpp:1243
+#: configuredialog.cpp:918
 msgid "Other Actio&ns"
 msgstr "&অন্যান্য কাজ"
 
-#: configuredialog.cpp:1325
+#: configuredialog.cpp:1000
 msgid "Unknown account type selected"
 msgstr "অজ্ঞাত অ্যাকাউন্ট ধরন নির্বাচিত হয়েছে"
 
-#: configuredialog.cpp:1334
+#: configuredialog.cpp:1009
 msgid "Unable to create account"
 msgstr "অ্যাকাউন্ট তৈরি করতে অক্ষম"
 
-#: configuredialog.cpp:1340 kmacctseldlg.cpp:39
+#: configuredialog.cpp:1015 kmacctseldlg.cpp:39
 msgid "Add Account"
 msgstr "অ্যাকাউন্ট যোগ করো"
 
-#: configuredialog.cpp:1393
+#: configuredialog.cpp:1068
 msgid "Unable to locate account"
 msgstr "অ্যাকাউন্টের অবস্থান নির্দিষ্ট করতে ব্যর্থ"
 
-#: configuredialog.cpp:1420
+#: configuredialog.cpp:1095
 msgid "Modify Account"
 msgstr "অ্যাকাউন্ট পাল্টাও"
 
-#: configuredialog.cpp:1465 configuredialog.cpp:1543
+#: configuredialog.cpp:1140 configuredialog.cpp:1218
 #, qt-format
 msgid "<qt>Unable to locate account <b>%1</b>.</qt>"
 msgstr "<qt>অ্যাকাউন্ট <b>%1</b>-র অবস্থান নির্দিষ্ট করতে ব্যর্থ।</qt>"
 
-#: configuredialog.cpp:1588
+#: configuredialog.cpp:1263
 msgid "&Fonts"
 msgstr ""
 
-#: configuredialog.cpp:1594
+#: configuredialog.cpp:1269
 msgid "Color&s"
 msgstr "র&ঙ"
 
-#: configuredialog.cpp:1600
+#: configuredialog.cpp:1275
 msgid "La&yout"
 msgstr "বিন্যা&স"
 
-#: configuredialog.cpp:1606
+#: configuredialog.cpp:1281
 msgid "M&essage List"
 msgstr "বার্তা তালিকা (&ব)"
 
-#: configuredialog.cpp:1612
+#: configuredialog.cpp:1287
 msgid "Message W&indow"
 msgstr "বার্তা &উইণ্ডো"
 
-#: configuredialog.cpp:1618
+#: configuredialog.cpp:1293
 msgid "System &Tray"
 msgstr "সিস্টে&ম ট্রে"
 
-#: configuredialog.cpp:1634
+#: configuredialog.cpp:1309
 msgid "Message Body"
 msgstr "বার্তার প্রধান অংশ"
 
-#: configuredialog.cpp:1635
+#: configuredialog.cpp:1310
 msgid "Message List"
 msgstr "বার্তা তালিকা"
 
-#: configuredialog.cpp:1636
+#: configuredialog.cpp:1311
 msgid "Message List - New Messages"
 msgstr "বার্তা তালিকা - নতুন বার্তা"
 
-#: configuredialog.cpp:1637
+#: configuredialog.cpp:1312
 msgid "Message List - Unread Messages"
 msgstr "বার্তা তালিকা - অপঠিত বার্তা"
 
-#: configuredialog.cpp:1638
+#: configuredialog.cpp:1313
 msgid "Message List - Important Messages"
 msgstr "বার্তা তালিকা - গুরুত্বপূর্ণ বার্তা"
 
-#: configuredialog.cpp:1639
+#: configuredialog.cpp:1314
 msgid "Message List - Todo Messages"
 msgstr ""
 
-#: configuredialog.cpp:1640
+#: configuredialog.cpp:1315
 msgid "Message List - Date Field"
 msgstr "বার্তা তালিকা - তারিখ"
 
-#: configuredialog.cpp:1641 configuredialog.cpp:1950
+#: configuredialog.cpp:1316 configuredialog.cpp:1625
 msgid "Folder List"
 msgstr "ফোল্ডার তালিকা"
 
-#: configuredialog.cpp:1642 configuredialog.cpp:1811
+#: configuredialog.cpp:1317 configuredialog.cpp:1486
 msgid "Quoted Text - First Level"
 msgstr "উদ্ধৃত লেখা - প্রথম স্তর"
 
-#: configuredialog.cpp:1643 configuredialog.cpp:1812
+#: configuredialog.cpp:1318 configuredialog.cpp:1487
 msgid "Quoted Text - Second Level"
 msgstr "উদ্ধৃত লেখা - দ্বিতীয় স্তর"
 
-#: configuredialog.cpp:1644 configuredialog.cpp:1813
+#: configuredialog.cpp:1319 configuredialog.cpp:1488
 msgid "Quoted Text - Third Level"
 msgstr "উদ্ধৃত লেখা - তৃতীয় স্তর"
 
-#: configuredialog.cpp:1645
+#: configuredialog.cpp:1320
 msgid "Fixed Width Font"
 msgstr "ধ্রুবক প্রস্থের ফন্ট"
 
-#: configuredialog.cpp:1646 kmcomposewin.cpp:328
+#: configuredialog.cpp:1321 kmcomposewin.cpp:330
 msgid "Composer"
 msgstr "রচনাক্ষেত্র"
 
-#: configuredialog.cpp:1647
+#: configuredialog.cpp:1322
 msgid "Printing Output"
 msgstr "মুদ্রণ আউটপুট"
 
-#: configuredialog.cpp:1664
+#: configuredialog.cpp:1339
 msgid "&Use custom fonts"
 msgstr "স্বনির্বাচিত &ফন্ট ব্যবহার করো"
 
-#: configuredialog.cpp:1682
+#: configuredialog.cpp:1357
 msgid "Apply &to:"
 msgstr "এখানে প্রয়ো&গ করো:"
 
-#: configuredialog.cpp:1808
+#: configuredialog.cpp:1483
 msgid "Composer Background"
 msgstr "রচনাক্ষেত্রের পটভূমি"
 
-#: configuredialog.cpp:1809
+#: configuredialog.cpp:1484
 msgid "Alternative Background Color"
 msgstr "পটভূমির বিকল্প রং"
 
-#: configuredialog.cpp:1810
+#: configuredialog.cpp:1485
 msgid "Normal Text"
 msgstr "স্বাভাবিক লেখা"
 
-#: configuredialog.cpp:1814
+#: configuredialog.cpp:1489
 msgid "Link"
 msgstr "লিঙ্ক"
 
-#: configuredialog.cpp:1815
+#: configuredialog.cpp:1490
 msgid "Followed Link"
 msgstr "দেখা লিঙ্ক"
 
-#: configuredialog.cpp:1816
+#: configuredialog.cpp:1491
 msgid "Misspelled Words"
 msgstr "বানান ভুল করা শব্দ"
 
 #. i18n: tag string
 #. i18n: file templatesconfiguration_base.ui line 74
-#: configuredialog.cpp:1817 rc.cpp:1170
+#: configuredialog.cpp:1492 rc.cpp:1170
 msgid "New Message"
 msgstr "নতুন বার্তা"
 
-#: configuredialog.cpp:1818
+#: configuredialog.cpp:1493
 msgid "Unread Message"
 msgstr "অপঠিত বার্তা"
 
-#: configuredialog.cpp:1819
+#: configuredialog.cpp:1494
 msgid "Important Message"
 msgstr "গুরুত্বপূর্ণ বার্তা"
 
-#: configuredialog.cpp:1820
+#: configuredialog.cpp:1495
 msgid "Todo Message"
 msgstr ""
 
-#: configuredialog.cpp:1821
+#: configuredialog.cpp:1496
 msgid "OpenPGP Message - Encrypted"
 msgstr "ওপেন-পি-জি-পি বার্তা - এনক্রিপ্ট করা"
 
-#: configuredialog.cpp:1822
+#: configuredialog.cpp:1497
 msgid "OpenPGP Message - Valid Signature with Trusted Key"
 msgstr "ওপেন-পি-জি-পি বার্তা - বিশ্বস্ত কী (Key) সমেত বৈধ স্বাক্ষর"
 
-#: configuredialog.cpp:1823
+#: configuredialog.cpp:1498
 msgid "OpenPGP Message - Valid Signature with Untrusted Key"
 msgstr "ওপেন-পি-জি-পি বার্তা - বৈধ স্বাক্ষর, অবিশ্বস্ত কী (Key)"
 
-#: configuredialog.cpp:1824
+#: configuredialog.cpp:1499
 msgid "OpenPGP Message - Unchecked Signature"
 msgstr "ওপেন-পি-জি-পি বার্তা - অপরীক্ষিত স্বাক্ষর"
 
-#: configuredialog.cpp:1825
+#: configuredialog.cpp:1500
 msgid "OpenPGP Message - Bad Signature"
 msgstr "ওপেন-পি-জি-পি বার্তা - ত্রুটিপূর্ণ স্বাক্ষর"
 
-#: configuredialog.cpp:1826
+#: configuredialog.cpp:1501
 msgid "Border Around Warning Prepending HTML Messages"
 msgstr "এইচ-টি-এম-এল বার্তার শুরুতে সতর্কবার্তার চারপাশে সীমা"
 
-#: configuredialog.cpp:1827
+#: configuredialog.cpp:1502
 msgid "HTML Status Bar Background - No HTML Message"
 msgstr "এইচ-টি-এম-এল স্ট্যাটাস বার পটভূমি - এইচ-টি-এম-এল বার্তা না হলে"
 
-#: configuredialog.cpp:1828
+#: configuredialog.cpp:1503
 msgid "HTML Status Bar Foreground - No HTML Message"
 msgstr "এইচ-টি-এম-এল স্ট্যাটাস বার পুরোভূমি - এইচ-টি-এম-এল বার্তা না হলে"
 
-#: configuredialog.cpp:1829
+#: configuredialog.cpp:1504
 msgid "HTML Status Bar Background - HTML Message"
 msgstr "এইচ-টি-এম-এল স্ট্যাটাস বার পটভূমি - এইচ-টি-এম-এল বার্তা হলে"
 
-#: configuredialog.cpp:1830
+#: configuredialog.cpp:1505
 msgid "HTML Status Bar Foreground - HTML Message"
 msgstr "এইচ-টি-এম-এল স্ট্যাটাস বার পুরোভূমি - এইচ-টি-এম-এল বার্তা হলে"
 
-#: configuredialog.cpp:1844
+#: configuredialog.cpp:1519
 msgid "&Use custom colors"
 msgstr "স্বনির্বাচি&ত রং ব্যবহার করো"
 
-#: configuredialog.cpp:1859
+#: configuredialog.cpp:1534
 msgid "Recycle colors on deep &quoting"
 msgstr ""
 
-#: configuredialog.cpp:1946
+#: configuredialog.cpp:1621
 msgid "Lon&g folder list"
 msgstr "দীর্ঘ ফোল্ডার তালিকা (&দ)"
 
-#: configuredialog.cpp:1947
+#: configuredialog.cpp:1622
 msgid "Shor&t folder list"
 msgstr "সংক্ষিপ্ত ফোল্ডার তালিকা (&স)"
 
-#: configuredialog.cpp:1956
+#: configuredialog.cpp:1631
 msgid "Abo&ve the message pane"
 msgstr "বার্তা ক্ষেত্রের &উপরে"
 
-#: configuredialog.cpp:1957
+#: configuredialog.cpp:1632
 msgid "&Below the message pane"
 msgstr "বার্তা ক্ষেত্রের নীচে (&ন)"
 
-#: configuredialog.cpp:1960
+#: configuredialog.cpp:1635
 msgid "Message Structure Viewer Placement"
 msgstr "বার্তা কাঠামো প্রদর্শকের অবস্থান"
 
-#: configuredialog.cpp:1965
+#: configuredialog.cpp:1640
 msgid "Show &never"
 msgstr "ক&খনো দেখিও না"
 
-#: configuredialog.cpp:1966
+#: configuredialog.cpp:1641
 msgid "Show only for non-plaintext &messages"
 msgstr "শুধুমাত্র প্লেইন-টেক্স&ট বার্তা না হলে দেখাও"
 
-#: configuredialog.cpp:1967
+#: configuredialog.cpp:1642
 msgid "Show alway&s"
 msgstr "&সর্বদা দেখাও"
 
-#: configuredialog.cpp:1970
+#: configuredialog.cpp:1645
 msgid "Message Structure Viewer"
 msgstr "বার্তা কাঠামো প্রদর্শক"
 
-#: configuredialog.cpp:1976
+#: configuredialog.cpp:1651
 msgid "&Do not show a message preview pane"
 msgstr "বার্তা প্রাকদর্শ&ন ক্ষেত্র দেখিও না"
 
-#: configuredialog.cpp:1977
+#: configuredialog.cpp:1652
 msgid "Show the message preview pane belo&w the message list"
 msgstr "বার্তা প্রাকদর্শ&ন ক্ষেত্র বার্তা তালিকার নীচে দেখাও"
 
-#: configuredialog.cpp:1978
+#: configuredialog.cpp:1653
 msgid "Show the message preview pane ne&xt to the message list"
 msgstr "বার্তা প্রাক&দর্শন ক্ষেত্র বার্তা তালিকার পাশে দেখাও"
 
-#: configuredialog.cpp:1981
+#: configuredialog.cpp:1656
 msgid "Message Preview Pane"
 msgstr "বার্তা প্রাকদর্শন ক্ষেত্র"
 
-#: configuredialog.cpp:2064
+#: configuredialog.cpp:1739
 #, qt-format
 msgid "Sta&ndard format (%1)"
 msgstr "স্ট্যাণ্ডার্ড &ফর্ম্যাট (%1)"
 
-#: configuredialog.cpp:2065
+#: configuredialog.cpp:1740
 #, qt-format
 msgid "Locali&zed format (%1)"
 msgstr "স্থানী&য় ফর্ম্যাট (%1)"
 
-#: configuredialog.cpp:2066
+#: configuredialog.cpp:1741
 #, qt-format
 msgid "Fancy for&mat (%1)"
 msgstr "&চটকদার ফর্ম্যাট (%1)"
 
-#: configuredialog.cpp:2067
+#: configuredialog.cpp:1742
 msgid "C&ustom format (Shift+F1 for help):"
 msgstr "স্বনির্বাচি&ত ফর্ম্যাট (সহায়তার জন্য Shift+F1 চাপুন):"
 
-#: configuredialog.cpp:2086
+#: configuredialog.cpp:1761
 msgid "General Options"
 msgstr "সাধারণ অপশন"
 
-#: configuredialog.cpp:2089
+#: configuredialog.cpp:1764
 msgid "Display messa&ge sizes"
 msgstr "বার্তার মা&প দেখাও"
 
-#: configuredialog.cpp:2091
+#: configuredialog.cpp:1766
 msgid "Show crypto &icons"
 msgstr "ক্রিপ্টো আ&ইকন দেখাও"
 
-#: configuredialog.cpp:2093
+#: configuredialog.cpp:1768
 msgid "Show attachment icon"
 msgstr "অ্যাটাচমেন্ট আইকন দেখাও"
 
-#: configuredialog.cpp:2096
+#: configuredialog.cpp:1771
 msgid "&Threaded message list"
 msgstr "সূত্রবদ্ধ বার্তা তালিকা (&স)"
 
-#: configuredialog.cpp:2112
+#: configuredialog.cpp:1787
 msgid "Threaded Message List Options"
 msgstr "সূত্রবদ্ধ বার্তা তালিকার পছন্দসমূহ"
 
-#: configuredialog.cpp:2116
+#: configuredialog.cpp:1791
 msgid "Always &keep threads open"
 msgstr "সূত্র &সর্বদা খোলা রাখো"
 
-#: configuredialog.cpp:2119
+#: configuredialog.cpp:1794
 msgid "Threads default to o&pen"
 msgstr ""
 
-#: configuredialog.cpp:2122
+#: configuredialog.cpp:1797
 msgid "Threads default to closed"
 msgstr ""
 
-#: configuredialog.cpp:2125
+#: configuredialog.cpp:1800
 msgid ""
 "Open threads that contain ne&w, unread or important messages and open "
 "watched threads."
 msgstr ""
 
-#: configuredialog.cpp:2135
+#: configuredialog.cpp:1810
 msgid "Date Display"
 msgstr "তারিখ প্রদর্শন"
 
-#: configuredialog.cpp:2152
+#: configuredialog.cpp:1827
 msgid ""
 "<qt><p><strong>These expressions may be used for the date:</strong></"
 "p><ul><li>d - the day as a number without a leading zero (1-31)</li><li>dd - "
@@ -1644,117 +1584,117 @@ msgid ""
 "characters will be ignored.</strong></p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:2266
+#: configuredialog.cpp:1941
 msgid ""
 "Changing the global threading setting will override all folder specific "
 "values."
 msgstr ""
 
-#: configuredialog.cpp:2303
+#: configuredialog.cpp:1978
 msgid "Show HTML stat&us bar"
 msgstr "এইচ-টি-এম-এল স্ট্যাটা&স বার দেখাও"
 
-#: configuredialog.cpp:2307
+#: configuredialog.cpp:1982
 msgid "Show s&pam status in fancy headers"
 msgstr "কেতাদুরস্ত হেডার-এ স্প্যা&ম স্ট্যাটাস দেখাও"
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 453
-#: configuredialog.cpp:2311 rc.cpp:562
+#: configuredialog.cpp:1986 rc.cpp:562
 msgid "Replace smileys by emoticons"
 msgstr ""
 
-#: configuredialog.cpp:2315
+#: configuredialog.cpp:1990
 msgid "Use smaller font for quoted text"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 458
-#: configuredialog.cpp:2319 rc.cpp:568
+#: configuredialog.cpp:1994 rc.cpp:568
 msgid "Show expand/collapse quote marks"
 msgstr ""
 
-#: configuredialog.cpp:2398
+#: configuredialog.cpp:2073
 msgid "Fallback ch&aracter encoding:"
 msgstr ""
 
-#: configuredialog.cpp:2409 configuredialog.cpp:2466 kmreaderwin.cpp:610
+#: configuredialog.cpp:2084 configuredialog.cpp:2141 kmreaderwin.cpp:610
 msgid "Auto"
 msgstr "স্বয়ংক্রীয়"
 
-#: configuredialog.cpp:2420
+#: configuredialog.cpp:2095
 msgid "&Override character encoding:"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 110
-#: configuredialog.cpp:2546 rc.cpp:393
+#: configuredialog.cpp:2221 rc.cpp:393
 msgid "Enable system tray icon"
 msgstr "সিস্টেম ট্রে আইকন সক্রিয় করো"
 
-#: configuredialog.cpp:2552
+#: configuredialog.cpp:2227
 msgid "System Tray Mode"
 msgstr "সিস্টেম ট্রে মোড"
 
-#: configuredialog.cpp:2560
+#: configuredialog.cpp:2235
 msgid "Always show KMail in system tray"
 msgstr "কে-মেইল সিস্টেম ট্রে-তে সর্বদা দেখাও"
 
-#: configuredialog.cpp:2563
+#: configuredialog.cpp:2238
 msgid "Only show KMail in system tray if there are unread messages"
 msgstr "শুধুমাত্র অপঠিত বার্তা থাকলে কে-মেইল সিস্টেম ট্রে-তে দেখাও"
 
-#: configuredialog.cpp:2624 identitydialog.cpp:419
+#: configuredialog.cpp:2299 identitydialog.cpp:420
 #, fuzzy
 msgid "&Templates"
 msgstr "&বদলাও"
 
-#: configuredialog.cpp:2630
+#: configuredialog.cpp:2305
 #, fuzzy
 msgid "&Custom Templates"
 msgstr "&বদলাও"
 
-#: configuredialog.cpp:2636
+#: configuredialog.cpp:2311
 msgid "&Subject"
 msgstr "বি&ষয়"
 
-#: configuredialog.cpp:2643
+#: configuredialog.cpp:2318
 msgid "Cha&rset"
 msgstr "&বর্ণমালা"
 
-#: configuredialog.cpp:2649
+#: configuredialog.cpp:2324
 msgid "H&eaders"
 msgstr "হেডা&র"
 
-#: configuredialog.cpp:2655
+#: configuredialog.cpp:2330
 msgctxt "Config->Composer->Attachments"
 msgid "A&ttachments"
 msgstr "অ্যাটা&চমেন্ট"
 
-#: configuredialog.cpp:2740
+#: configuredialog.cpp:2415
 msgid "No autosave"
 msgstr "স্বয়ংক্রিয় সংরক্ষণ কোরো না"
 
-#: configuredialog.cpp:2748
+#: configuredialog.cpp:2423
 #, fuzzy
 #| msgid "Configure &Filters..."
 msgid "Configure Completion Order..."
 msgstr "ফিল্টা&র কনফিগার করো..."
 
-#: configuredialog.cpp:2757 kmlineeditspell.cpp:147
+#: configuredialog.cpp:2432 kmlineeditspell.cpp:147
 msgid "Edit Recent Addresses..."
 msgstr "সাম্প্রতিক ঠিকানা সম্পাদনা করো..."
 
-#: configuredialog.cpp:2764 kmedit.cpp:557
+#: configuredialog.cpp:2439 kmedit.cpp:557
 msgid "External Editor"
 msgstr "বহিঃস্থ সম্পাদক"
 
-#: configuredialog.cpp:2797
+#: configuredialog.cpp:2472
 #, c-format
 msgid "<b>%f</b> will be replaced with the filename to edit."
 msgstr "<b>%f</b>-এর পরিবর্তে সম্পাদন করার জন্য ফাইলের নামটি দেওয়া হবে।"
 
-#: configuredialog.cpp:2905
+#: configuredialog.cpp:2580
 msgid ""
 "<qt>The following placeholders are supported in the reply phrases:"
 "<br><table><tr><td><b>%D</b>: date</td><td><b>%S</b>: subject</td><td></td></"
@@ -1766,157 +1706,164 @@ msgid ""
 "_</b>: space</td><td><b>%L</b>: linebreak</td></tr></table></qt>"
 msgstr ""
 
-#: configuredialog.cpp:2929
+#: configuredialog.cpp:2604
 msgid "Lang&uage:"
 msgstr "ভাষা (&ভ):"
 
-#: configuredialog.cpp:2940 configuredialog.cpp:3196 configuredialog.cpp:3423
-#: configuredialog.cpp:3623
+#: configuredialog.cpp:2615 configuredialog.cpp:2871 configuredialog.cpp:3098
+#: configuredialog.cpp:3298
 msgid "Re&move"
 msgstr "&সরিয়ে ফেলো"
 
-#: configuredialog.cpp:2953
+#: configuredialog.cpp:2628
 msgid "Reply to se&nder:"
 msgstr "প্রে&রককে উত্তর পাঠাও:"
 
-#: configuredialog.cpp:2962
+#: configuredialog.cpp:2637
 msgid "Repl&y to all:"
 msgstr "সক&লকে উত্তর পাঠাও:"
 
-#: configuredialog.cpp:2971
+#: configuredialog.cpp:2646
 msgid "&Forward:"
 msgstr "&ফরওয়ার্ড করো:"
 
 #. i18n: tag string
 #. i18n: file templatesconfiguration_base.ui line 318
-#: configuredialog.cpp:2980 rc.cpp:1182
+#: configuredialog.cpp:2655 rc.cpp:1182
 msgid "&Quote indicator:"
 msgstr "&উদ্ধৃতি নির্দেশক:"
 
-#: configuredialog.cpp:3028 kmmessage.cpp:3752
+#: configuredialog.cpp:2703 kmmessage.cpp:3752
 msgid "On %D, you wrote:"
 msgstr "%D তারিখে, আপনি লিখেছিলেন:"
 
-#: configuredialog.cpp:3029 kmmessage.cpp:3754
+#: configuredialog.cpp:2704 kmmessage.cpp:3754
 msgid "On %D, %F wrote:"
 msgstr "%D তারিখে, %F লিখেছিলেন:"
 
-#: configuredialog.cpp:3030 kmmessage.cpp:3756
+#: configuredialog.cpp:2705 kmmessage.cpp:3756
 msgid "Forwarded Message"
 msgstr "ফরওয়ার্ড করা বার্তা"
 
-#: configuredialog.cpp:3031
+#: configuredialog.cpp:2706
 msgid ">%_"
 msgstr ">%_"
 
-#: configuredialog.cpp:3182
+#: configuredialog.cpp:2857
 msgid "Repl&y Subject Prefixes"
 msgstr ""
 
-#: configuredialog.cpp:3186 configuredialog.cpp:3217
+#: configuredialog.cpp:2861 configuredialog.cpp:2892
 msgid ""
 "Recognize any sequence of the following prefixes\n"
 "(entries are case-insensitive regular expressions):"
 msgstr ""
 
-#: configuredialog.cpp:3197 configuredialog.cpp:3624
+#: configuredialog.cpp:2872 configuredialog.cpp:3299
 msgid "Mod&ify..."
 msgstr "পাল্টা&ও..."
 
-#: configuredialog.cpp:3198
+#: configuredialog.cpp:2873
 msgid "Enter new reply prefix:"
 msgstr ""
 
-#: configuredialog.cpp:3213
+#: configuredialog.cpp:2888
 msgid "For&ward Subject Prefixes"
 msgstr "ফর&ওয়ার্ড করা বার্তার বিষয় উপপদ"
 
-#: configuredialog.cpp:3228
+#: configuredialog.cpp:2903
 msgid "Enter new forward prefix:"
 msgstr "ফরওয়ার্ড করা বার্তার বিষয়ের জন্য নতুন উপপদ লিখুন:"
 
-#: configuredialog.cpp:3270
+#: configuredialog.cpp:2945
 msgid ""
 "This list is checked for every outgoing message from the top to the bottom "
 "for a charset that contains all required characters."
 msgstr ""
 
-#: configuredialog.cpp:3279
+#: configuredialog.cpp:2954
 msgid "Enter charset:"
 msgstr "বর্ণমালা উল্লেখ করুন:"
 
-#: configuredialog.cpp:3285
+#: configuredialog.cpp:2960
 msgid "&Keep original charset when replying or forwarding (if possible)"
 msgstr ""
 
-#: configuredialog.cpp:3319
+#: configuredialog.cpp:2994
 msgid "This charset is not supported."
 msgstr "এই বর্ণমালা সমর্থিত নয়।"
 
-#: configuredialog.cpp:3373
+#: configuredialog.cpp:3048
 msgid "&Use custom message-id suffix"
 msgstr ""
 
-#: configuredialog.cpp:3386
+#: configuredialog.cpp:3061
 msgid "Custom message-&id suffix:"
 msgstr ""
 
-#: configuredialog.cpp:3401
+#: configuredialog.cpp:3076
 msgid "Define custom mime header fields:"
 msgstr ""
 
-#: configuredialog.cpp:3411
+#. i18n: tag string
+#. i18n: file customtemplates_base.ui line 86
+#: configuredialog.cpp:3085 distributionlistdialog.cpp:122
+#: kmcomposewin.cpp:340 rc.cpp:59 recipientspicker.cpp:300
+msgid "Name"
+msgstr "নাম"
+
+#: configuredialog.cpp:3086
 msgid "Value"
 msgstr "মান"
 
-#: configuredialog.cpp:3419
+#: configuredialog.cpp:3094
 msgid "Ne&w"
 msgstr "নতুন (&ত)"
 
-#: configuredialog.cpp:3432 kmfolderdia.cpp:301 kmmsgpartdlg.cpp:120
-#: kmtransport.cpp:345 kmtransport.cpp:403 newfolderdialog.cpp:91
+#: configuredialog.cpp:3107 kmfolderdia.cpp:301 kmmsgpartdlg.cpp:120
+#: newfolderdialog.cpp:91
 msgid "&Name:"
 msgstr "না&ম:"
 
-#: configuredialog.cpp:3442
+#: configuredialog.cpp:3117
 msgid "&Value:"
 msgstr "মা&ন:"
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 297
-#: configuredialog.cpp:3591 rc.cpp:501
+#: configuredialog.cpp:3266 rc.cpp:501
 msgid "Outlook-compatible attachment naming"
 msgstr ""
 
-#: configuredialog.cpp:3594
+#: configuredialog.cpp:3269
 msgid ""
 "Turn this option on to make Outlook(tm) understand attachment names "
 "containing non-English characters"
 msgstr ""
 
-#: configuredialog.cpp:3605
+#: configuredialog.cpp:3280
 msgid "E&nable detection of missing attachments"
 msgstr "ভুলে যাওয়া অ্যাটাচমেন্ট &সনাক্ত করার চেষ্টা করো"
 
-#: configuredialog.cpp:3612
+#: configuredialog.cpp:3287
 msgid "Recognize any of the following key words as intention to attach a file:"
 msgstr "নিম্নলিখিত শব্দগুলিকে ফাইল সংযুক্ত করার অভিপ্রায় হিসাবে ভাবো:"
 
-#: configuredialog.cpp:3625
+#: configuredialog.cpp:3300
 msgid "Enter new key word:"
 msgstr "নতুন শব্দ লিখুন:"
 
-#: configuredialog.cpp:3646 configuredialog.cpp:3647 kmcomposewin.cpp:2201
-#: kmcomposewin.cpp:2202
+#: configuredialog.cpp:3321 configuredialog.cpp:3322 kmcomposewin.cpp:2198
+#: kmcomposewin.cpp:2199
 msgid "attachment"
 msgstr "attachment"
 
-#: configuredialog.cpp:3648 configuredialog.cpp:3649 kmcomposewin.cpp:2203
-#: kmcomposewin.cpp:2204
+#: configuredialog.cpp:3323 configuredialog.cpp:3324 kmcomposewin.cpp:2200
+#: kmcomposewin.cpp:2201
 msgid "attached"
 msgstr "attached"
 
-#: configuredialog.cpp:3667
+#: configuredialog.cpp:3342
 msgid ""
 "You have chosen to encode attachment names containing non-English characters "
 "in a way that is understood by Outlook(tm) and other mail clients that do "
@@ -1927,11 +1874,11 @@ msgid ""
 "enable this option."
 msgstr ""
 
-#: configuredialog.cpp:3694
+#: configuredialog.cpp:3369
 msgid "&Reading"
 msgstr "&পড়া"
 
-#: configuredialog.cpp:3700
+#: configuredialog.cpp:3375
 msgid "Composing"
 msgstr "রচনা"
 
@@ -1939,19 +1886,19 @@ msgstr "রচনা"
 #. i18n: file encryptionconfigurationdialog.ui line 397
 #. i18n: tag string
 #. i18n: file signatureconfigurationdialog.ui line 478
-#: configuredialog.cpp:3706 rc.cpp:268 rc.cpp:955
+#: configuredialog.cpp:3381 rc.cpp:268 rc.cpp:955
 msgid "Warnings"
 msgstr "সতর্কবার্তা"
 
-#: configuredialog.cpp:3712
+#: configuredialog.cpp:3387
 msgid "S/MIME &Validation"
 msgstr ""
 
-#: configuredialog.cpp:3718
+#: configuredialog.cpp:3393
 msgid "Crypto Backe&nds"
 msgstr ""
 
-#: configuredialog.cpp:3752
+#: configuredialog.cpp:3427
 msgid ""
 "<qt><p>Messages sometimes come in both formats. This option controls whether "
 "you want the HTML part or the plain text part to be displayed.</"
@@ -1967,7 +1914,7 @@ msgid ""
 "main window.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:3768
+#: configuredialog.cpp:3443
 msgid ""
 "<qt><p>Some mail advertisements are in HTML and contain references to, for "
 "example, images that the advertisers employ to find out that you have read "
@@ -1980,7 +1927,7 @@ msgid ""
 "should be aware of the possible problem.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:3780
+#: configuredialog.cpp:3455
 msgid ""
 "<qt><h3>Message Disposition Notification Policy</h3><p>MDNs are a "
 "generalization of what is commonly called <b>read receipt</b>. The message "
@@ -2005,19 +1952,19 @@ msgid ""
 "</li></ul></qt>"
 msgstr ""
 
-#: configuredialog.cpp:3811
+#: configuredialog.cpp:3486
 msgid "HTML Messages"
 msgstr "এইচ-টি-এম-এল বার্তা"
 
-#: configuredialog.cpp:3814
+#: configuredialog.cpp:3489
 msgid "Prefer H&TML to plain text"
 msgstr "প্লেইন-টেক্সট-এর তুলনায় &এইচ-টি-এম-এল-কে বেশী প্রাধান্য দাও"
 
-#: configuredialog.cpp:3820
+#: configuredialog.cpp:3495
 msgid "Allow messages to load e&xternal references from the Internet"
 msgstr ""
 
-#: configuredialog.cpp:3828
+#: configuredialog.cpp:3503
 msgid ""
 "<b>WARNING:</b> Allowing HTML in email may increase the risk that your "
 "system will be compromised by present and anticipated security exploits. <a "
@@ -2025,199 +1972,199 @@ msgid ""
 "about external references...</a>"
 msgstr ""
 
-#: configuredialog.cpp:3845
+#: configuredialog.cpp:3520
 msgid "Message Disposition Notifications"
 msgstr ""
 
-#: configuredialog.cpp:3858
+#: configuredialog.cpp:3533
 msgid "Send policy:"
 msgstr "প্রেরণ পলিসি:"
 
-#: configuredialog.cpp:3860 kmmessage.cpp:1307 kmmessage.cpp:1314
+#: configuredialog.cpp:3535 kmmessage.cpp:1307 kmmessage.cpp:1314
 msgid "&Ignore"
 msgstr "পাত্তা দি&ও না"
 
-#: configuredialog.cpp:3863
+#: configuredialog.cpp:3538
 msgid "As&k"
 msgstr "জিজ্ঞাসা করো (&জ)"
 
-#: configuredialog.cpp:3866
+#: configuredialog.cpp:3541
 msgid "&Deny"
 msgstr "নাক&চ করো"
 
-#: configuredialog.cpp:3869
+#: configuredialog.cpp:3544
 msgid "Al&ways send"
 msgstr "সর্বদা পাঠা&ও"
 
-#: configuredialog.cpp:3888
+#: configuredialog.cpp:3563
 msgid "Quote original message:"
 msgstr "মূল বার্তা উদ্ধৃত করো:"
 
-#: configuredialog.cpp:3890
+#: configuredialog.cpp:3565
 msgid "Nothin&g"
 msgstr "কিছু &নয়"
 
-#: configuredialog.cpp:3893
+#: configuredialog.cpp:3568
 msgid "&Full message"
 msgstr "পূর্ণ বার্তা (&প)"
 
-#: configuredialog.cpp:3896
+#: configuredialog.cpp:3571
 msgid "Onl&y headers"
 msgstr "শুধু হেডার (&শ)"
 
-#: configuredialog.cpp:3904
+#: configuredialog.cpp:3579
 msgid "Do not send MDNs in response to encrypted messages"
 msgstr ""
 
-#: configuredialog.cpp:3909
+#: configuredialog.cpp:3584
 msgid ""
 "<b>WARNING:</b> Unconditionally returning confirmations undermines your "
 "privacy. <a href=\"whatsthis3\">More...</a>"
 msgstr ""
 
-#: configuredialog.cpp:3923
+#: configuredialog.cpp:3598
 msgid "Certificate && Key Bundle Attachments"
 msgstr ""
 
-#: configuredialog.cpp:3926
+#: configuredialog.cpp:3601
 msgid "Automatically import keys and certificates"
 msgstr "নিজে থেকে সার্টিফিকেট এবং কী (key) আমদানি করো"
 
-#: configuredialog.cpp:4000
+#: configuredialog.cpp:3675
 msgid ""
 "Changing the global HTML setting will override all folder specific values."
 msgstr ""
 
-#: configuredialog.cpp:4328
+#: configuredialog.cpp:4003
 msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file smimeconfiguration.ui line 187
-#: configuredialog.cpp:4437 rc.cpp:1124
+#: configuredialog.cpp:4112 rc.cpp:1124
 msgid "no proxy"
 msgstr ""
 
-#: configuredialog.cpp:4438
+#: configuredialog.cpp:4113
 #, qt-format
 msgid "(Current system setting: %1)"
 msgstr ""
 
-#: configuredialog.cpp:4620
+#: configuredialog.cpp:4295
 msgid "&Folders"
 msgstr "ফোল্ডা&র"
 
-#: configuredialog.cpp:4623
+#: configuredialog.cpp:4298
 msgid "&Groupware"
 msgstr "গ্রু&পওয়্যার"
 
-#: configuredialog.cpp:4646
+#: configuredialog.cpp:4321
 msgctxt "Corresponds to Folder->Move All Messages to Trash"
 msgid "Ask for co&nfirmation before moving all messages to trash"
 msgstr "সব বার্তা আবর্জনার বাক্সে পাঠাবার আগে অনুমোদ&ন চাও"
 
-#: configuredialog.cpp:4653
+#: configuredialog.cpp:4328
 msgid "E&xclude important messages from expiry"
 msgstr ""
 
-#: configuredialog.cpp:4668
+#: configuredialog.cpp:4343
 msgctxt ""
 "to be continued with \"do not loop\", \"loop in current folder\", and \"loop "
 "in all folders\"."
 msgid "When trying to find unread messages:"
 msgstr ""
 
-#: configuredialog.cpp:4672
+#: configuredialog.cpp:4347
 msgctxt "continuation of \"When trying to find unread messages:\""
 msgid "Do not Loop"
 msgstr ""
 
-#: configuredialog.cpp:4674
+#: configuredialog.cpp:4349
 msgctxt "continuation of \"When trying to find unread messages:\""
 msgid "Loop in Current Folder"
 msgstr "বর্তমান ফোল্ডারে ঘোরো"
 
-#: configuredialog.cpp:4676
+#: configuredialog.cpp:4351
 msgctxt "continuation of \"When trying to find unread messages:\""
 msgid "Loop in All Folders"
 msgstr "সব ফোল্ডারে ঘোরো"
 
-#: configuredialog.cpp:4691
+#: configuredialog.cpp:4366
 msgctxt ""
 "to be continued with \"jump to first new message\", \"jump to first unread "
 "or new message\",and \"jump to last selected message\"."
 msgid "When entering a folder:"
 msgstr ""
 
-#: configuredialog.cpp:4695
+#: configuredialog.cpp:4370
 msgctxt "continuation of \"When entering a folder:\""
 msgid "Jump to First New Message"
 msgstr ""
 
-#: configuredialog.cpp:4697
+#: configuredialog.cpp:4372
 msgctxt "continuation of \"When entering a folder:\""
 msgid "Jump to First Unread or New Message"
 msgstr ""
 
-#: configuredialog.cpp:4699
+#: configuredialog.cpp:4374
 msgctxt "continuation of \"When entering a folder:\""
 msgid "Jump to Last Selected Message"
 msgstr ""
 
-#: configuredialog.cpp:4707
+#: configuredialog.cpp:4382
 msgid "Mar&k selected message as read after"
 msgstr "নির্বাচিত বার্তাকে এই সময়ের পর &পঠিত হিসাবে চিহ্নিত করো"
 
-#: configuredialog.cpp:4711
+#: configuredialog.cpp:4386
 msgid " sec"
 msgstr " সেকণ্ড"
 
-#: configuredialog.cpp:4724
+#: configuredialog.cpp:4399
 msgid "Ask for action after &dragging messages to another folder"
 msgstr "বার্তা &অন্য ফোল্ডারে টেনে নিয়ে যাবার পর কী করা হবে জিজ্ঞাসা করো"
 
-#: configuredialog.cpp:4736
+#: configuredialog.cpp:4411
 msgctxt "to be continued with \"flat files\" and \"directories\", resp."
 msgid "By default, &message folders on disk are:"
 msgstr ""
 
-#: configuredialog.cpp:4740
+#: configuredialog.cpp:4415
 msgctxt "continuation of \"By default, &message folders on disk are\""
 msgid "Flat Files (\"mbox\" format)"
 msgstr "ফ্ল্যাট ফাইল (\"mbox\" ফর্ম্যাট)"
 
-#: configuredialog.cpp:4742
+#: configuredialog.cpp:4417
 msgctxt "continuation of \"By default, &message folders on disk are\""
 msgid "Directories (\"maildir\" format)"
 msgstr "ঢিরেক্টরি (\"maildir\" ফর্ম্যাট)"
 
-#: configuredialog.cpp:4753
+#: configuredialog.cpp:4428
 msgid "Open this folder on startup:"
 msgstr "চালু করার সময় এই ফোল্ডারটি খোলো:"
 
-#: configuredialog.cpp:4762
+#: configuredialog.cpp:4437
 msgid "Empty local &trash folder on program exit"
 msgstr "প্রোগ্রাম থেকে প্রস্থান করাকালীন স্থানীয় &আবর্জনা ফোল্ডার ফাঁকা করো"
 
-#: configuredialog.cpp:4772
+#: configuredialog.cpp:4447
 #, fuzzy
 msgid "Quota units: "
 msgstr "&উদ্ধৃতি নির্দেশক:"
 
-#: configuredialog.cpp:4774 folderdiaquotatab_p.cpp:96 quotajobs.h:80
+#: configuredialog.cpp:4449 folderdiaquotatab_p.cpp:96 quotajobs.h:80
 msgid "KB"
 msgstr ""
 
-#: configuredialog.cpp:4775 folderdiaquotatab_p.cpp:101 quotajobs.h:85
+#: configuredialog.cpp:4450 folderdiaquotatab_p.cpp:101 quotajobs.h:85
 #, fuzzy
 msgid "MB"
 msgstr " এম-বি "
 
-#: configuredialog.cpp:4776 folderdiaquotatab_p.cpp:106 quotajobs.h:90
+#: configuredialog.cpp:4451 folderdiaquotatab_p.cpp:106 quotajobs.h:90
 msgid "GB"
 msgstr ""
 
-#: configuredialog.cpp:4785
+#: configuredialog.cpp:4460
 msgctxt "what's this help"
 msgid ""
 "<qt><p>This selects which mailbox format will be the default for local "
@@ -2230,7 +2177,7 @@ msgid ""
 "robust, e.g. when moving messages between folders.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:4802
+#: configuredialog.cpp:4477
 msgctxt "what's this help"
 msgid ""
 "<qt><p>When jumping to the next unread message, it may occur that no more "
@@ -2245,118 +2192,118 @@ msgid ""
 "which option is selected.</p></qt>"
 msgstr ""
 
-#: configuredialog.cpp:4874
+#: configuredialog.cpp:4549
 msgid "&IMAP Resource Folder Options"
 msgstr ""
 
-#: configuredialog.cpp:4878
+#: configuredialog.cpp:4553
 msgid "&Enable IMAP resource functionality"
 msgstr ""
 
-#: configuredialog.cpp:4879
+#: configuredialog.cpp:4554
 msgid "This enables the IMAP storage for the Kontact applications"
 msgstr ""
 
-#: configuredialog.cpp:4894
+#: configuredialog.cpp:4569
 msgid "&Format used for the groupware folders:"
 msgstr ""
 
-#: configuredialog.cpp:4896
+#: configuredialog.cpp:4571
 msgid ""
 "Choose the format to use to store the contents of the groupware folders."
 msgstr ""
 
-#: configuredialog.cpp:4906
+#: configuredialog.cpp:4581
 msgid "Standard (Ical / Vcard)"
 msgstr ""
 
-#: configuredialog.cpp:4906
+#: configuredialog.cpp:4581
 msgid "Kolab (XML)"
 msgstr ""
 
-#: configuredialog.cpp:4914
+#: configuredialog.cpp:4589
 msgid "&Language of the groupware folders:"
 msgstr ""
 
-#: configuredialog.cpp:4917
+#: configuredialog.cpp:4592
 msgid "Set the language of the folder names"
 msgstr ""
 
-#: configuredialog.cpp:4927
+#: configuredialog.cpp:4602
 msgid "English"
 msgstr "ইংরিজি"
 
-#: configuredialog.cpp:4927
+#: configuredialog.cpp:4602
 msgid "German"
 msgstr "জার্মান"
 
-#: configuredialog.cpp:4927
+#: configuredialog.cpp:4602
 msgid "French"
 msgstr "ফরাসী"
 
-#: configuredialog.cpp:4927
+#: configuredialog.cpp:4602
 msgid "Dutch"
 msgstr "ওলন্দাজ"
 
-#: configuredialog.cpp:4936
+#: configuredialog.cpp:4611
 msgid "Set the parent of the resource folders"
 msgstr ""
 
-#: configuredialog.cpp:4965
+#: configuredialog.cpp:4640
 msgid "&Hide groupware folders"
 msgstr "গ্রুপওয়্যার ফোল্ডার লুকো&ও"
 
-#: configuredialog.cpp:4969
+#: configuredialog.cpp:4644
 msgid ""
 "When this is checked, you will not see the IMAP resource folders in the "
 "folder tree."
 msgstr ""
 
-#: configuredialog.cpp:4977
+#: configuredialog.cpp:4652
 msgid "&Only show groupware folders for this account"
 msgstr ""
 
-#: configuredialog.cpp:4981
+#: configuredialog.cpp:4656
 msgid ""
 "When this is checked, you will not see normal  mail folders in the folder "
 "tree for the account configured for groupware."
 msgstr ""
 
-#: configuredialog.cpp:4990
+#: configuredialog.cpp:4665
 msgid "Groupware Compatibility && Legacy Options"
 msgstr ""
 
-#: configuredialog.cpp:4995
+#: configuredialog.cpp:4670
 msgid "&Enable groupware functionality"
 msgstr "গ্রুপওয়্যার কার্যকারীতা &সক্রিয় করো"
 
-#: configuredialog.cpp:5003
+#: configuredialog.cpp:4678
 msgid "Mangle From:/To: headers in replies to invitations"
 msgstr ""
 
-#: configuredialog.cpp:5004
+#: configuredialog.cpp:4679
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitation replies"
 msgstr ""
 
-#: configuredialog.cpp:5009
+#: configuredialog.cpp:4684
 msgid "Send invitations in the mail body"
 msgstr ""
 
-#: configuredialog.cpp:5010
+#: configuredialog.cpp:4685
 msgid ""
 "Turn this option on in order to make Outlook(tm) understand your answers to "
 "invitations"
 msgstr ""
 
-#: configuredialog.cpp:5018
+#: configuredialog.cpp:4693
 msgid "Exchange compatible invitation naming"
 msgstr ""
 
 #. i18n: tag whatsthis
 #. i18n: file kmail.kcfg line 169
-#: configuredialog.cpp:5019 rc.cpp:430
+#: configuredialog.cpp:4694 rc.cpp:430
 msgid ""
 "Microsoft Outlook, when used in combination with a Microsoft Exchange "
 "server, has a problem understanding standards-compliant groupware e-mail. "
@@ -2366,17 +2313,17 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 174
-#: configuredialog.cpp:5025 rc.cpp:433
+#: configuredialog.cpp:4700 rc.cpp:433
 msgid "Automatic invitation sending"
 msgstr ""
 
-#: configuredialog.cpp:5026
+#: configuredialog.cpp:4701
 msgid ""
 "When this is on, the user will not see the mail composer window. Invitation "
 "mails are sent automatically"
 msgstr ""
 
-#: configuredialog.cpp:5038
+#: configuredialog.cpp:4713
 msgid ""
 "<qt>Invitations are normally sent as attachments to a mail. This switch "
 "changes the invitation mails to be sent in the text of the mail instead; "
@@ -2388,77 +2335,77 @@ msgid ""
 "to work with this.</qt>"
 msgstr ""
 
-#: configuredialog.cpp:5089
+#: configuredialog.cpp:4764
 msgid "<Choose a Folder>"
 msgstr "<একটি ফোল্ডার বেছে নিন>"
 
-#: configuredialog.cpp:5177
+#: configuredialog.cpp:4852
 msgid "&Resource folders are subfolders of:"
 msgstr ""
 
-#: configuredialog.cpp:5180
+#: configuredialog.cpp:4855
 msgid "&Resource folders are in account:"
 msgstr ""
 
-#: configuredialog_p.cpp:51
+#: configuredialog_p.cpp:50
 msgid "New Identity"
 msgstr "নতুন পরিচিতি"
 
-#: configuredialog_p.cpp:65
+#: configuredialog_p.cpp:64
 msgid "&New identity:"
 msgstr "&নতুন পরিচিতি:"
 
-#: configuredialog_p.cpp:76
+#: configuredialog_p.cpp:75
 msgid "&With empty fields"
 msgstr "ফাঁকা ক্ষেত্র &সমেত"
 
-#: configuredialog_p.cpp:82
+#: configuredialog_p.cpp:81
 msgid "&Use Control Center settings"
 msgstr "নিয়ন্ত্র&ণ কেন্দ্র সেটিংস ব্যবহার করে"
 
-#: configuredialog_p.cpp:87
+#: configuredialog_p.cpp:86
 msgid "&Duplicate existing identity"
 msgstr "বর্তমা&ন পরিচিতির অনুরূপ"
 
-#: configuredialog_p.cpp:98
+#: configuredialog_p.cpp:97
 msgid "&Existing identities:"
 msgstr "বর্তমান &পরিচিতি:"
 
-#: configuredialog_p.cpp:212
+#: configuredialog_p.cpp:211
 msgid "New Language"
 msgstr "নতুন ভাষা"
 
-#: configuredialog_p.cpp:222
+#: configuredialog_p.cpp:221
 msgid "Choose &language:"
 msgstr "ভাষা বেছে নি&ন:"
 
-#: configuredialog_p.cpp:256
+#: configuredialog_p.cpp:255
 msgid "No More Languages Available"
 msgstr "আর কোন ভাষা পাওয়া যাচ্ছে না"
 
-#: configuredialog_p.cpp:312
+#: configuredialog_p.cpp:311
 msgid "Load Profile"
 msgstr "প্রোফাইল লোড করো"
 
-#: configuredialog_p.cpp:323
+#: configuredialog_p.cpp:322
 msgid "Available Profiles"
 msgstr "যে যে প্রোফাইল পাওয়া যাচ্ছে"
 
-#: configuredialog_p.cpp:324 kmmimeparttree.cpp:59
+#: configuredialog_p.cpp:323 kmmimeparttree.cpp:59
 msgid "Description"
 msgstr "বর্ণনা"
 
-#: configuredialog_p.cpp:330
+#: configuredialog_p.cpp:329
 msgid "&Select a profile and click 'OK' to load its settings:"
 msgstr ""
 "একটি প্রোফাই&ল নির্বাচন করুন এবং 'বেশ' বাটনটি ক্লিক করে তার বৈশিষ্ট্যাবলী লোড করুন:"
 
-#: configuredialog_p.cpp:373
+#: configuredialog_p.cpp:372
 msgctxt "Missing profile name placeholder"
 msgid "Unnamed"
 msgstr "নামহীন"
 
-#: configuredialog_p.cpp:379
+#: configuredialog_p.cpp:378
 msgctxt "Missing profile description placeholder"
 msgid "Not available"
 msgstr "পাওয়া যাচ্ছে না"
@@ -2891,6 +2838,24 @@ msgstr "অজানা ফোল্ডার '%1'"
 msgid "Please select a folder"
 msgstr "অনুগ্রহ করে একটি কাজ নির্বাচন করুন।"
 
+#: folderselectiondialog.cpp:76 kmfoldertree.cpp:359 searchwindow.cpp:252
+msgid "Folder"
+msgstr "ফোল্ডার"
+
+#: folderselectiondialog.cpp:77 folderselectiondialog.cpp:324
+#: folderselectiondialog.cpp:355 folderselectiondialog.cpp:357
+msgid "Path"
+msgstr ""
+
+#: folderselectiondialog.cpp:258 folderselectiondialog.cpp:390
+#: folderselectiondialog.cpp:413 kmfoldertree.cpp:1048 kmfoldertree.cpp:1068
+msgid "&New Subfolder..."
+msgstr "&নতুন সাব-ফোল্ডার..."
+
+#: folderselectiondialog.cpp:391 folderselectiondialog.cpp:414
+msgid "Create a new subfolder under the currently selected folder"
+msgstr ""
+
 #: foldershortcutdialog.cpp:64
 #, qt-format
 msgid "Shortcut for Folder %1"
@@ -2932,11 +2897,11 @@ msgstr "বিষয় অনির্দিষ্ট"
 msgid "Search"
 msgstr "&সন্ধান"
 
-#: headerlistquicksearch.cpp:74
+#: headerlistquicksearch.cpp:76
 msgid "Stat&us:"
 msgstr "&অবস্থা:"
 
-#: headerlistquicksearch.cpp:80
+#: headerlistquicksearch.cpp:82
 msgid "Any Status"
 msgstr "যে কোন অবস্থা"
 
@@ -3022,62 +2987,62 @@ msgstr ""
 "<qt><b><br>এইচ<br>টি<br>এম<br>এল<br> <br>বা<br>র<br>তা<br></b> <br>ন<br>য়</"
 "qt>"
 
-#: identitydialog.cpp:96
+#: identitydialog.cpp:97
 msgid "Edit Identity"
 msgstr "পরিচিতি সম্পাদন করো"
 
-#: identitydialog.cpp:132
+#: identitydialog.cpp:133
 msgid "&Your name:"
 msgstr "&আপনার নাম:"
 
-#: identitydialog.cpp:135
+#: identitydialog.cpp:136
 msgid ""
 "<qt><h3>Your name</h3><p>This field should contain your name as you would "
 "like it to appear in the email header that is sent out;</p><p>if you leave "
 "this blank your real name will not appear, only the email address.</p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:147
+#: identitydialog.cpp:148
 msgid "Organi&zation:"
 msgstr "সংস্থা (&স):"
 
-#: identitydialog.cpp:150
+#: identitydialog.cpp:151
 msgid ""
 "<qt><h3>Organization</h3><p>This field should have the name of your "
 "organization if you'd like it to be shown in the email header that is sent "
 "out.</p><p>It is safe (and normal) to leave this blank.</p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:163
+#: identitydialog.cpp:164
 msgid "&Email address:"
 msgstr "&ই-মেইল ঠিকানা:"
 
-#: identitydialog.cpp:166
+#: identitydialog.cpp:167
 msgid ""
 "<qt><h3>Email address</h3><p>This field should have your full email address."
 "</p><p>If you leave this blank, or get it wrong, people will have trouble "
 "replying to you.</p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:178
+#: identitydialog.cpp:179
 msgid "Cryptograph&y"
 msgstr "ক্রিপ্টোগ্রাফি (&ই)"
 
-#: identitydialog.cpp:187 identitydialog.cpp:212 identitydialog.cpp:238
-#: identitydialog.cpp:265
+#: identitydialog.cpp:188 identitydialog.cpp:213 identitydialog.cpp:239
+#: identitydialog.cpp:266
 msgid "Chang&e..."
 msgstr "পরি&বর্তন করো..."
 
-#: identitydialog.cpp:188
+#: identitydialog.cpp:189
 msgid "Your OpenPGP Signature Key"
 msgstr "আপনার ওপেন-পি-জি-পি স্বাক্ষর কী (Key)"
 
-#: identitydialog.cpp:189
+#: identitydialog.cpp:190
 msgid ""
 "Select the OpenPGP key which should be used to digitally sign your messages."
 msgstr ""
 
-#: identitydialog.cpp:193
+#: identitydialog.cpp:194
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to digitally sign "
 "messages. You can also use GnuPG keys.</p><p>You can leave this blank, but "
@@ -3086,21 +3051,21 @@ msgid ""
 "<a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:200
+#: identitydialog.cpp:201
 msgid "OpenPGP signing key:"
 msgstr "ওপেন-পি-জি-পি স্বাক্ষর কী (Key):"
 
-#: identitydialog.cpp:213
+#: identitydialog.cpp:214
 msgid "Your OpenPGP Encryption Key"
 msgstr "আপনার ওপেন-পি-জি-পি এনক্রিপ্‌শন কী (Key)"
 
-#: identitydialog.cpp:214
+#: identitydialog.cpp:215
 msgid ""
 "Select the OpenPGP key which should be used when encrypting to yourself and "
 "for the \"Attach My Public Key\" feature in the composer."
 msgstr ""
 
-#: identitydialog.cpp:219
+#: identitydialog.cpp:220
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to encrypt messages to "
 "yourself and for the \"Attach My Public Key\" feature in the composer. You "
@@ -3110,21 +3075,21 @@ msgid ""
 "at <a>http://www.gnupg.org</a></qt>"
 msgstr ""
 
-#: identitydialog.cpp:226
+#: identitydialog.cpp:227
 msgid "OpenPGP encryption key:"
 msgstr "ওপেন-পি-জি-পি এনক্রিপ্‌শন কী (Key):"
 
-#: identitydialog.cpp:239
+#: identitydialog.cpp:240
 msgid "Your S/MIME Signature Certificate"
 msgstr ""
 
-#: identitydialog.cpp:240
+#: identitydialog.cpp:241
 msgid ""
 "Select the S/MIME certificate which should be used to digitally sign your "
 "messages."
 msgstr ""
 
-#: identitydialog.cpp:244
+#: identitydialog.cpp:245
 msgid ""
 "<qt><p>The S/MIME (X.509) certificate you choose here will be used to "
 "digitally sign messages.</p><p>You can leave this blank, but KMail will not "
@@ -3132,21 +3097,21 @@ msgid ""
 "not be affected.</p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:249
+#: identitydialog.cpp:250
 msgid "S/MIME signing certificate:"
 msgstr ""
 
-#: identitydialog.cpp:266
+#: identitydialog.cpp:267
 msgid "Your S/MIME Encryption Certificate"
 msgstr ""
 
-#: identitydialog.cpp:267
+#: identitydialog.cpp:268
 msgid ""
 "Select the S/MIME certificate which should be used when encrypting to "
 "yourself and for the \"Attach My Certificate\" feature in the composer."
 msgstr ""
 
-#: identitydialog.cpp:272
+#: identitydialog.cpp:273
 msgid ""
 "<qt><p>The S/MIME certificate you choose here will be used to encrypt "
 "messages to yourself and for the \"Attach My Certificate\" feature in the "
@@ -3155,23 +3120,23 @@ msgid ""
 "functions will not be affected.</p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:278
+#: identitydialog.cpp:279
 msgid "S/MIME encryption certificate:"
 msgstr ""
 
-#: identitydialog.cpp:300
+#: identitydialog.cpp:301
 msgid "Preferred crypto message format:"
 msgstr "পছন্দের ক্রিপ্টো বার্তা ফর্ম্যাট:"
 
-#: identitydialog.cpp:314
+#: identitydialog.cpp:315
 msgid "&Advanced"
 msgstr "&অগ্রসর"
 
-#: identitydialog.cpp:327
+#: identitydialog.cpp:328
 msgid "&Reply-To address:"
 msgstr "উত্ত&র পাবার ঠিকানা:"
 
-#: identitydialog.cpp:330
+#: identitydialog.cpp:331
 msgid ""
 "<qt><h3>Reply-To addresses</h3><p>This sets the <tt>Reply-to:</tt> header to "
 "contain a different email address to the normal <tt>From:</tt> address.</"
@@ -3181,11 +3146,11 @@ msgid ""
 "address.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:348
+#: identitydialog.cpp:349
 msgid "&BCC addresses:"
 msgstr "&BCC ঠিকানা:"
 
-#: identitydialog.cpp:351
+#: identitydialog.cpp:352
 msgid ""
 "<qt><h3>BCC (Blind Carbon Copy) addresses</h3><p>The addresses that you "
 "enter here will be added to each outgoing mail that is sent with this "
@@ -3195,50 +3160,50 @@ msgid ""
 "list of BCC recipients.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: identitydialog.cpp:367
+#: identitydialog.cpp:368
 msgid "D&ictionary:"
 msgstr "অভিধা&ন:"
 
-#: identitydialog.cpp:377
+#: identitydialog.cpp:378
 msgid "Sent-mail &folder:"
 msgstr "প্রেরিত-মেই&ল ফোল্ডার:"
 
-#: identitydialog.cpp:387
+#: identitydialog.cpp:388
 msgid "&Drafts folder:"
 msgstr "&খসড়া ফোল্ডার:"
 
-#: identitydialog.cpp:397
+#: identitydialog.cpp:398
 #, fuzzy
 msgid "&Templates folder:"
 msgstr "আ&বর্জনা ফোল্ডার:"
 
-#: identitydialog.cpp:403
+#: identitydialog.cpp:404
 msgid "Special &transport:"
 msgstr "বিশেষ পরিবা&হক:"
 
-#: identitydialog.cpp:421 kmfolderdia.cpp:760
+#: identitydialog.cpp:422 kmfolderdia.cpp:760
 #, fuzzy
 msgid "&Use custom message templates"
 msgstr "বার্তা ক্ষেত্রের &উপরে"
 
-#: identitydialog.cpp:427 kmfolderdia.cpp:768
+#: identitydialog.cpp:428 kmfolderdia.cpp:768
 #, fuzzy
 msgid "&Copy Global Templates"
 msgstr "&বদলাও"
 
-#: identitydialog.cpp:442
+#: identitydialog.cpp:443
 msgid "&Signature"
 msgstr "স্বাক্ষ&র"
 
-#: identitydialog.cpp:446
+#: identitydialog.cpp:447
 msgid "&Picture"
 msgstr ""
 
-#: identitydialog.cpp:527 identitydialog.cpp:540 kmcomposewin.cpp:3930
+#: identitydialog.cpp:528 identitydialog.cpp:541 kmcomposewin.cpp:3927
 msgid "Invalid Email Address"
 msgstr "অবৈধ ই-মেইল ঠিকানা"
 
-#: identitydialog.cpp:565
+#: identitydialog.cpp:566
 #, qt-format
 msgid ""
 "One of the configured OpenPGP signing keys does not contain any user ID with "
@@ -3247,14 +3212,14 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: identitydialog.cpp:573
+#: identitydialog.cpp:574
 #, qt-format
 msgid ""
 "One of the configured OpenPGP encryption keys does not contain any user ID "
 "with the configured email address for this identity (%1)."
 msgstr ""
 
-#: identitydialog.cpp:579
+#: identitydialog.cpp:580
 #, qt-format
 msgid ""
 "One of the configured S/MIME signing certificates does not contain the "
@@ -3263,41 +3228,41 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: identitydialog.cpp:587
+#: identitydialog.cpp:588
 #, qt-format
 msgid ""
 "One of the configured S/MIME encryption certificates does not contain the "
 "configured email address for this identity (%1)."
 msgstr ""
 
-#: identitydialog.cpp:595
+#: identitydialog.cpp:596
 msgid "Email Address Not Found in Key/Certificates"
 msgstr ""
 
-#: identitydialog.cpp:608
+#: identitydialog.cpp:609
 msgid "The signature file is not valid"
 msgstr ""
 
-#: identitydialog.cpp:628
+#: identitydialog.cpp:629
 #, qt-format
 msgid "Edit Identity \"%1\""
 msgstr "পরিচিতি \"%1\" সম্পাদন করো"
 
-#: identitydialog.cpp:652
+#: identitydialog.cpp:653
 #, qt-format
 msgid ""
 "The custom sent-mail folder for identity \"%1\" does not exist (anymore); "
 "therefore, the default sent-mail folder will be used."
 msgstr ""
 
-#: identitydialog.cpp:663
+#: identitydialog.cpp:664
 #, qt-format
 msgid ""
 "The custom drafts folder for identity \"%1\" does not exist (anymore); "
 "therefore, the default drafts folder will be used."
 msgstr ""
 
-#: identitydialog.cpp:674
+#: identitydialog.cpp:675
 #, qt-format
 msgid ""
 "The custom templates folder for identity \"%1\" does not exist (anymore); "
@@ -3505,7 +3470,7 @@ msgstr ""
 msgid "Replace &All"
 msgstr "&বদলাও"
 
-#: keditcl2.cpp:847 kmcommands.cpp:637 kmcommands.cpp:939 kmkernel.cpp:1844
+#: keditcl2.cpp:847 kmcommands.cpp:637 kmcommands.cpp:939 kmkernel.cpp:1852
 msgid "&Replace"
 msgstr "&বদলাও"
 
@@ -3845,7 +3810,7 @@ msgstr "নির্বাচনের নামকরন করো"
 msgid "Which name shall the contact '%1' have in your addressbook?"
 msgstr ""
 
-#: kmaccount.cpp:48 kmaccount.cpp:357 kmsender.cpp:567
+#: kmaccount.cpp:48 kmaccount.cpp:357
 #, qt-format
 msgid "Executing precommand %1"
 msgstr "প্রি-কমান্ড %1 চালানো হচ্ছে"
@@ -4045,7 +4010,7 @@ msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
 msgstr ""
 "<qt><b>%1</b> নামক ফাইল আগে থেকেই আছে।<br>আপনি কি সেটি বদলাতে চান?</qt>"
 
-#: kmcommands.cpp:637 kmcommands.cpp:939 kmkernel.cpp:1844
+#: kmcommands.cpp:637 kmcommands.cpp:939 kmkernel.cpp:1852
 msgid "Save to File"
 msgstr "ফাইলে সংরক্ষণ করো"
 
@@ -4057,7 +4022,7 @@ msgstr "বার্তা প্লেইন টেক্সট হিসাব
 msgid "The message was removed while saving it. It has not been saved."
 msgstr ""
 
-#: kmcommands.cpp:938 kmkernel.cpp:1843
+#: kmcommands.cpp:938 kmkernel.cpp:1851
 #, qt-format
 msgid ""
 "File %1 exists.\n"
@@ -4088,7 +4053,7 @@ msgstr "নির্বাচিত বার্তাগুলি পঠিত 
 msgid "Send Digest"
 msgstr "প্রের&ণ"
 
-#: kmcommands.cpp:1217 kmcomposewin.cpp:1213
+#: kmcommands.cpp:1217 kmcomposewin.cpp:1210
 #, fuzzy
 msgid "Send"
 msgstr "প্রের&ণ"
@@ -4229,7 +4194,7 @@ msgid ""
 " it is not possible to determine who to chat with."
 msgstr ""
 
-#: kmcommands.cpp:3054 kmcomposewin.cpp:5024 objecttreeparser.cpp:1617
+#: kmcommands.cpp:3054 kmcomposewin.cpp:5021 objecttreeparser.cpp:1617
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
@@ -4237,19 +4202,19 @@ msgstr ""
 
 #: kmcommands.cpp:3056 kmcommands.cpp:3061 kmcommands.cpp:3070
 #: kmcommands.cpp:3079 kmcommands.cpp:3097 kmcommands.cpp:3108
-#: kmcommands.cpp:3165 kmcomposewin.cpp:5026 kmcomposewin.cpp:5031
-#: kmcomposewin.cpp:5040 messagecomposer.cpp:580 messagecomposer.cpp:588
+#: kmcommands.cpp:3165 kmcomposewin.cpp:5023 kmcomposewin.cpp:5028
+#: kmcomposewin.cpp:5037 messagecomposer.cpp:580 messagecomposer.cpp:588
 #: messagecomposer.cpp:602 objecttreeparser.cpp:1623
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: kmcommands.cpp:3067 kmcomposewin.cpp:5037 objecttreeparser.cpp:1629
+#: kmcommands.cpp:3067 kmcomposewin.cpp:5034 objecttreeparser.cpp:1629
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: kmcommands.cpp:3076 kmcomposewin.cpp:5046 objecttreeparser.cpp:1637
+#: kmcommands.cpp:3076 kmcomposewin.cpp:5043 objecttreeparser.cpp:1637
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
@@ -4291,99 +4256,105 @@ msgid ""
 "did not return a byte array. Please report this bug."
 msgstr ""
 
-#: kmcomposewin.cpp:244
+#: kmcomposewin.cpp:246
 msgid "Select email address(es)"
 msgstr "ই-মেইল ঠিকানা নির্বাচন করুন"
 
-#: kmcomposewin.cpp:293
+#: kmcomposewin.cpp:295
 msgid "Sticky"
 msgstr ""
 
-#: kmcomposewin.cpp:339 kmheaders.cpp:162 kmheaders.cpp:211
+#: kmcomposewin.cpp:341 kmheaders.cpp:162 kmheaders.cpp:211
 #: kmmimeparttree.cpp:62 kmpopfiltercnfrmdlg.cpp:55
 msgid "Size"
 msgstr "মাপ"
 
-#: kmcomposewin.cpp:340 kmmimeparttree.cpp:61
+#: kmcomposewin.cpp:342 kmmimeparttree.cpp:61
 msgid "Encoding"
 msgstr "এনকোডিং"
 
-#: kmcomposewin.cpp:347 kmcomposewin.cpp:3221
+#. i18n: tag string
+#. i18n: file customtemplates_base.ui line 81
+#: kmcomposewin.cpp:343 kmfilterdlg.cpp:228 kmmimeparttree.cpp:60 rc.cpp:56
+msgid "Type"
+msgstr "ধরন"
+
+#: kmcomposewin.cpp:349 kmcomposewin.cpp:3218
 msgid "Compress"
 msgstr "সঙ্কোচন"
 
-#: kmcomposewin.cpp:349 kmcomposewin.cpp:1461
+#: kmcomposewin.cpp:351 kmcomposewin.cpp:1458
 msgid "Encrypt"
 msgstr "এনক্রিপ্ট"
 
-#: kmcomposewin.cpp:351 kmcomposewin.cpp:1464
+#: kmcomposewin.cpp:353 kmcomposewin.cpp:1461
 msgid "Sign"
 msgstr "স্বাক্ষর"
 
-#: kmcomposewin.cpp:557 kmcomposewin.cpp:3567
+#: kmcomposewin.cpp:559 kmcomposewin.cpp:3564
 msgid "Name of the attachment:"
 msgstr "অ্যাটাচমেন্ট-এর নাম:"
 
-#: kmcomposewin.cpp:789
+#: kmcomposewin.cpp:786
 #, qt-format
 msgid ""
 "Autosaving the message as %1 failed.\n"
 "Reason: %2"
 msgstr ""
 
-#: kmcomposewin.cpp:793
+#: kmcomposewin.cpp:790
 msgid "Autosaving Failed"
 msgstr "স্বয়ংক্রীয় সংরক্ষণ ব্যর্থ"
 
-#: kmcomposewin.cpp:955
+#: kmcomposewin.cpp:952
 msgid "&Identity:"
 msgstr "&পরিচিতি:"
 
-#: kmcomposewin.cpp:961
+#: kmcomposewin.cpp:958
 msgid "&Dictionary:"
 msgstr "&অভিধান:"
 
-#: kmcomposewin.cpp:967
+#: kmcomposewin.cpp:964
 msgid "&Sent-Mail folder:"
 msgstr "প্রেরি&ত-মেইল ফোল্ডার:"
 
-#: kmcomposewin.cpp:973
+#: kmcomposewin.cpp:970
 msgid "&Mail transport:"
 msgstr "মেই&ল পরিবাহন:"
 
-#: kmcomposewin.cpp:979
+#: kmcomposewin.cpp:976
 msgctxt "sender address field"
 msgid "&From:"
 msgstr "প্রে&রক:"
 
-#: kmcomposewin.cpp:987
+#: kmcomposewin.cpp:984
 msgid "&Reply to:"
 msgstr "&উত্তর প্রাপক:"
 
-#: kmcomposewin.cpp:997
+#: kmcomposewin.cpp:994
 msgctxt "recipient address field"
 msgid "&To:"
 msgstr ""
 
-#: kmcomposewin.cpp:999
+#: kmcomposewin.cpp:996
 msgid "Primary Recipients"
 msgstr ""
 
-#: kmcomposewin.cpp:1000
+#: kmcomposewin.cpp:997
 msgid ""
 "<qt>The email addresses you put in this field receive a copy of the email.</"
 "qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:1009
+#: kmcomposewin.cpp:1006
 msgid "&Copy to (CC):"
 msgstr "&কপি প্রাপক (CC):"
 
-#: kmcomposewin.cpp:1011
+#: kmcomposewin.cpp:1008
 msgid "Additional Recipients"
 msgstr "অতিরিক্ত গ্রাহক"
 
-#: kmcomposewin.cpp:1012
+#: kmcomposewin.cpp:1009
 msgid ""
 "<qt>The email addresses you put in this field receive a copy of the email. "
 "Technically it is the same thing as putting all the addresses in the <b>To:</"
@@ -4391,361 +4362,361 @@ msgid ""
 "Carbon Copy (CC) is a listener, not the main recipient.</qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:1026
+#: kmcomposewin.cpp:1023
 msgid "&Blind copy to (BCC):"
 msgstr "ব্লাইন্ড কপি প্রা&পক (BCC):"
 
-#: kmcomposewin.cpp:1028
+#: kmcomposewin.cpp:1025
 msgid "Hidden Recipients"
 msgstr "গুপ্ত গ্রাহক"
 
-#: kmcomposewin.cpp:1029
+#: kmcomposewin.cpp:1026
 msgid ""
 "<qt>Essentially the same thing as the <b>Copy To:</b> field but differs in "
 "that all other recipients do not see who receives a blind copy.</qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:1063
+#: kmcomposewin.cpp:1060
 msgid "S&ubject:"
 msgstr "বি&ষয়:"
 
-#: kmcomposewin.cpp:1206 kmcomposewin.cpp:1232
+#: kmcomposewin.cpp:1203 kmcomposewin.cpp:1229
 msgid "&Send Mail"
 msgstr "মেই&ল পাঠাও"
 
-#: kmcomposewin.cpp:1212 kmcomposewin.cpp:1237
+#: kmcomposewin.cpp:1209 kmcomposewin.cpp:1234
 msgid "&Send Mail Via"
 msgstr "এর মারফত মেই&ল পাঠাও"
 
-#: kmcomposewin.cpp:1216 kmcomposewin.cpp:1225 kmcomposewin.cpp:4256
+#: kmcomposewin.cpp:1213 kmcomposewin.cpp:1222 kmcomposewin.cpp:4253
 #: redirectdialog.cpp:91
 msgid "Send &Later"
 msgstr "&পরে পাঠাও"
 
-#: kmcomposewin.cpp:1219 kmcomposewin.cpp:1229
+#: kmcomposewin.cpp:1216 kmcomposewin.cpp:1226
 msgid "Send &Later Via"
 msgstr "এর মারফত &পরে পাঠাও"
 
-#: kmcomposewin.cpp:1220
+#: kmcomposewin.cpp:1217
 #, fuzzy
 #| msgid "Queued"
 msgid "Queue"
 msgstr "সারিভুক্ত"
 
-#: kmcomposewin.cpp:1264
+#: kmcomposewin.cpp:1261
 #, fuzzy
 msgid "Save as &Draft"
 msgstr "&খসড়া হিসাবে সংরক্ষণ করো"
 
-#: kmcomposewin.cpp:1268
+#: kmcomposewin.cpp:1265
 #, fuzzy
 msgid "Save as &Template"
 msgstr "&বদলাও"
 
-#: kmcomposewin.cpp:1272
+#: kmcomposewin.cpp:1269
 msgid "&Insert File..."
 msgstr "ফাই&ল ঢোকাও..."
 
-#: kmcomposewin.cpp:1276
+#: kmcomposewin.cpp:1273
 msgid "&Insert File Recent"
 msgstr ""
 
-#: kmcomposewin.cpp:1283
+#: kmcomposewin.cpp:1280
 msgid "&Address Book"
 msgstr "ঠিকানা তালিকা (&ত)"
 
-#: kmcomposewin.cpp:1286
+#: kmcomposewin.cpp:1283
 msgid "&New Composer"
 msgstr "&নতুন রচনাক্ষেত্র"
 
-#: kmcomposewin.cpp:1290
+#: kmcomposewin.cpp:1287
 msgid "New Main &Window"
 msgstr "নতুন প্রধান &উইণ্ডো"
 
-#: kmcomposewin.cpp:1295
+#: kmcomposewin.cpp:1292
 msgid "Select &Recipients..."
 msgstr "প্রাপ&ক নির্বাচন করো..."
 
-#: kmcomposewin.cpp:1299
+#: kmcomposewin.cpp:1296
 msgid "Save &Distribution List..."
 msgstr "বিতর&ণ তালিকা সংরক্ষণ করো..."
 
-#: kmcomposewin.cpp:1320
+#: kmcomposewin.cpp:1317
 msgid "Pa&ste as Quotation"
 msgstr "উদ্ধৃতি হিসাবে সাঁটো (&স)"
 
-#: kmcomposewin.cpp:1324
+#: kmcomposewin.cpp:1321
 msgid "Paste as Attac&hment"
 msgstr "অ্যাটা&চমেন্ট হিসাবে পেস্ট করো"
 
-#: kmcomposewin.cpp:1328
+#: kmcomposewin.cpp:1325
 msgid "Add &Quote Characters"
 msgstr "উদ্ধৃতিচিহ্ন যো&গ করো"
 
-#: kmcomposewin.cpp:1332
+#: kmcomposewin.cpp:1329
 msgid "Re&move Quote Characters"
 msgstr "উদ্ধৃতিচিহ্ন &সরিয়ে ফেলো"
 
-#: kmcomposewin.cpp:1336
+#: kmcomposewin.cpp:1333
 msgid "Cl&ean Spaces"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kmail.kcfg line 279
-#: kmcomposewin.cpp:1340 kmreaderwin.cpp:647 rc.cpp:497
+#: kmcomposewin.cpp:1337 kmreaderwin.cpp:647 rc.cpp:497
 msgid "Use Fi&xed Font"
 msgstr "ফিক্সড &ফন্ট ব্যবহার করো"
 
-#: kmcomposewin.cpp:1346
+#: kmcomposewin.cpp:1343
 msgid "&Urgent"
 msgstr "&জরুরি"
 
-#: kmcomposewin.cpp:1348
+#: kmcomposewin.cpp:1345
 msgid "&Request Disposition Notification"
 msgstr ""
 
-#: kmcomposewin.cpp:1352
+#: kmcomposewin.cpp:1349
 msgid "Se&t Encoding"
 msgstr "&এনকোডিং নির্ধারণ করো"
 
-#: kmcomposewin.cpp:1355
+#: kmcomposewin.cpp:1352
 msgid "&Wordwrap"
 msgstr ""
 
-#: kmcomposewin.cpp:1360
+#: kmcomposewin.cpp:1357
 msgid "&Automatic Spellchecking"
 msgstr "স্বয়ংক্রিয় বানান &পরীক্ষা"
 
-#: kmcomposewin.cpp:1370
+#: kmcomposewin.cpp:1367
 msgid "Auto-Detect"
 msgstr "স্বয়ংক্রীয় সনাক্তকরণ"
 
-#: kmcomposewin.cpp:1375
+#: kmcomposewin.cpp:1372
 msgid "Formatting (HTML)"
 msgstr "ফরম্যাট করা হচ্ছে (এইচ-টি-এম-এল)"
 
-#: kmcomposewin.cpp:1379
+#: kmcomposewin.cpp:1376
 msgid "&All Fields"
 msgstr ""
 
-#: kmcomposewin.cpp:1382
+#: kmcomposewin.cpp:1379
 msgid "&Identity"
 msgstr "&পরিচিতি"
 
-#: kmcomposewin.cpp:1385
+#: kmcomposewin.cpp:1382
 msgid "&Dictionary"
 msgstr "&অভিধান"
 
-#: kmcomposewin.cpp:1388
+#: kmcomposewin.cpp:1385
 msgid "&Sent-Mail Folder"
 msgstr "প্রেরিত-মেই&ল ফোল্ডার"
 
-#: kmcomposewin.cpp:1391
+#: kmcomposewin.cpp:1388
 msgid "&Mail Transport"
 msgstr "মেইল &পরিবাহক"
 
-#: kmcomposewin.cpp:1394
+#: kmcomposewin.cpp:1391
 msgid "&From"
 msgstr "প্রে&রক:"
 
-#: kmcomposewin.cpp:1397
+#: kmcomposewin.cpp:1394
 msgid "&Reply To"
 msgstr "&উত্তর প্রাপক"
 
-#: kmcomposewin.cpp:1401
+#: kmcomposewin.cpp:1398
 msgid "&To"
 msgstr "প্রা&পক"
 
-#: kmcomposewin.cpp:1404
+#: kmcomposewin.cpp:1401
 msgid "&CC"
 msgstr "&CC"
 
-#: kmcomposewin.cpp:1407
+#: kmcomposewin.cpp:1404
 msgid "&BCC"
 msgstr "&BCC"
 
-#: kmcomposewin.cpp:1411
+#: kmcomposewin.cpp:1408
 msgid "S&ubject"
 msgstr "বি&ষয়:"
 
-#: kmcomposewin.cpp:1416
+#: kmcomposewin.cpp:1413
 msgid "Append S&ignature"
 msgstr "শেষে স্বাক্ষর যো&গ করো"
 
-#: kmcomposewin.cpp:1419
+#: kmcomposewin.cpp:1416
 msgid "Attach &Public Key..."
 msgstr "পা&বলিক কী (Key) যুক্ত করো..."
 
-#: kmcomposewin.cpp:1422
+#: kmcomposewin.cpp:1419
 msgid "Attach &My Public Key"
 msgstr "আমা&র পাবলিক কী (Key) যুক্ত করো"
 
-#: kmcomposewin.cpp:1425 kmcomposewin.cpp:2243
+#: kmcomposewin.cpp:1422 kmcomposewin.cpp:2240
 msgid "&Attach File..."
 msgstr "ফাই&ল সংযুক্ত করো..."
 
-#: kmcomposewin.cpp:1426
+#: kmcomposewin.cpp:1423
 #, fuzzy
 #| msgid "&Attach"
 msgid "Attach"
 msgstr "সংযুক্ত &করো"
 
-#: kmcomposewin.cpp:1429
+#: kmcomposewin.cpp:1426
 msgid "&Remove Attachment"
 msgstr "অ্যাটাচমেন্ট &সরাও"
 
-#: kmcomposewin.cpp:1432
+#: kmcomposewin.cpp:1429
 msgid "&Save Attachment As..."
 msgstr "অ্যাটাচমেন্ট নতুন নামে সং&রক্ষণ করো..."
 
-#: kmcomposewin.cpp:1435
+#: kmcomposewin.cpp:1432
 msgid "Attachment Pr&operties"
 msgstr ""
 
-#: kmcomposewin.cpp:1445
+#: kmcomposewin.cpp:1442
 msgid "&Spellchecker..."
 msgstr "বানান &পরীক্ষক..."
 
-#: kmcomposewin.cpp:1450 kmcomposewin.cpp:1452
+#: kmcomposewin.cpp:1447 kmcomposewin.cpp:1449
 msgid "Encrypt Message with Chiasmus..."
 msgstr ""
 
-#: kmcomposewin.cpp:1460
+#: kmcomposewin.cpp:1457
 msgid "&Encrypt Message"
 msgstr "বার্তা &এনক্রিপ্ট করো"
 
-#: kmcomposewin.cpp:1463
+#: kmcomposewin.cpp:1460
 msgid "&Sign Message"
 msgstr "বার্তা স্বাক্ষ&র করো"
 
-#: kmcomposewin.cpp:1511
+#: kmcomposewin.cpp:1508
 msgid "&Cryptographic Message Format"
 msgstr ""
 
-#: kmcomposewin.cpp:1519 kmcomposewin.cpp:4861
+#: kmcomposewin.cpp:1516 kmcomposewin.cpp:4858
 msgid "Standard"
 msgstr "স্ট্যাণ্ডার্ড"
 
-#: kmcomposewin.cpp:1520 kmcomposewin.cpp:4863
+#: kmcomposewin.cpp:1517 kmcomposewin.cpp:4860
 msgid "Bulleted List (Disc)"
 msgstr ""
 
-#: kmcomposewin.cpp:1521 kmcomposewin.cpp:4865
+#: kmcomposewin.cpp:1518 kmcomposewin.cpp:4862
 msgid "Bulleted List (Circle)"
 msgstr ""
 
-#: kmcomposewin.cpp:1522 kmcomposewin.cpp:4867
+#: kmcomposewin.cpp:1519 kmcomposewin.cpp:4864
 msgid "Bulleted List (Square)"
 msgstr ""
 
-#: kmcomposewin.cpp:1523 kmcomposewin.cpp:4869
+#: kmcomposewin.cpp:1520 kmcomposewin.cpp:4866
 msgid "Ordered List (Decimal)"
 msgstr ""
 
-#: kmcomposewin.cpp:1524 kmcomposewin.cpp:4871
+#: kmcomposewin.cpp:1521 kmcomposewin.cpp:4868
 msgid "Ordered List (Alpha lower)"
 msgstr ""
 
-#: kmcomposewin.cpp:1525 kmcomposewin.cpp:4873
+#: kmcomposewin.cpp:1522 kmcomposewin.cpp:4870
 msgid "Ordered List (Alpha upper)"
 msgstr ""
 
-#: kmcomposewin.cpp:1527
+#: kmcomposewin.cpp:1524
 msgid "Select Style"
 msgstr "স্টাইল নির্বাচন করো"
 
-#: kmcomposewin.cpp:1532
+#: kmcomposewin.cpp:1529
 #, fuzzy
 msgid "Select Font"
 msgstr "ফোল্ডার নির্বাচন করো"
 
-#: kmcomposewin.cpp:1536
+#: kmcomposewin.cpp:1533
 #, fuzzy
 msgid "Select Size"
 msgstr "স্টাইল নির্বাচন করো"
 
-#: kmcomposewin.cpp:1541
+#: kmcomposewin.cpp:1538
 msgid "Align Left"
 msgstr ""
 
-#: kmcomposewin.cpp:1545
+#: kmcomposewin.cpp:1542
 msgid "Align Right"
 msgstr ""
 
-#: kmcomposewin.cpp:1548
+#: kmcomposewin.cpp:1545
 msgid "Align Center"
 msgstr ""
 
-#: kmcomposewin.cpp:1551
+#: kmcomposewin.cpp:1548
 msgid "&Bold"
 msgstr ""
 
-#: kmcomposewin.cpp:1555
+#: kmcomposewin.cpp:1552
 msgid "&Italic"
 msgstr "&ইটালিক"
 
-#: kmcomposewin.cpp:1559
+#: kmcomposewin.cpp:1556
 msgid "&Underline"
 msgstr ""
 
-#: kmcomposewin.cpp:1563
+#: kmcomposewin.cpp:1560
 msgid "Reset Font Settings"
 msgstr "ফন্ট সেটিংস পূর্বাবস্থায় ফেরাও"
 
-#: kmcomposewin.cpp:1566
+#: kmcomposewin.cpp:1563
 msgid "Text Color..."
 msgstr "লেখার রং..."
 
-#: kmcomposewin.cpp:1578
+#: kmcomposewin.cpp:1575
 #, fuzzy
 msgid "Configure KMail..."
 msgstr "কে-মেইল ক&নফিগার করো..."
 
-#: kmcomposewin.cpp:1588
+#: kmcomposewin.cpp:1585
 #, fuzzy, qt-format
 msgid " Spellcheck: %1 "
 msgstr "বানান পরীক্ষক"
 
-#: kmcomposewin.cpp:1589 kmcomposewin.cpp:1602
+#: kmcomposewin.cpp:1586 kmcomposewin.cpp:1599
 #, qt-format
 msgid " Column: %1 "
 msgstr " কলাম: %1"
 
-#: kmcomposewin.cpp:1590 kmcomposewin.cpp:1600
+#: kmcomposewin.cpp:1587 kmcomposewin.cpp:1597
 #, qt-format
 msgid " Line: %1 "
 msgstr " লাইন: %1"
 
-#: kmcomposewin.cpp:2160
+#: kmcomposewin.cpp:2157
 #, fuzzy
 msgid "Re&save as Template"
 msgstr "&বদলাও"
 
-#: kmcomposewin.cpp:2161
+#: kmcomposewin.cpp:2158
 msgid "&Save as Draft"
 msgstr "&খসড়া হিসাবে সংরক্ষণ করো"
 
-#: kmcomposewin.cpp:2163
+#: kmcomposewin.cpp:2160
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
 msgstr ""
 
-#: kmcomposewin.cpp:2165
+#: kmcomposewin.cpp:2162
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: kmcomposewin.cpp:2169
+#: kmcomposewin.cpp:2166
 msgid "Do you want to save the message for later or discard it?"
 msgstr ""
 
-#: kmcomposewin.cpp:2170
+#: kmcomposewin.cpp:2167
 msgid "Close Composer"
 msgstr "রচনাক্ষেত্র বন্ধ করো"
 
-#: kmcomposewin.cpp:2239
+#: kmcomposewin.cpp:2236
 msgid ""
 "The message you have composed seems to refer to an attached file but you "
 "have not attached anything.\n"
@@ -4755,120 +4726,120 @@ msgstr ""
 "কিছু সংযুক্ত করা হয়নি।\n"
 "আপনি কি এই বার্তাটির সঙ্গে কোন ফাইল সংযুক্ত করতে চান?"
 
-#: kmcomposewin.cpp:2242
+#: kmcomposewin.cpp:2239
 msgid "File Attachment Reminder"
 msgstr "ফাইল অ্যাটাচমেন্ট স্মারক"
 
-#: kmcomposewin.cpp:2244
+#: kmcomposewin.cpp:2241
 msgid "&Send as Is"
 msgstr "যেমন &আছে পাঠাও"
 
-#: kmcomposewin.cpp:2329
+#: kmcomposewin.cpp:2326
 #, qt-format
 msgid ""
 "<qt><p>KMail could not recognize the location of the attachment (%1);</"
 "p><p>you have to specify the full path if you wish to attach a file.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:2667
+#: kmcomposewin.cpp:2664
 msgid "Attach File"
 msgstr "ফাইল সংযুক্ত করো"
 
 #. i18n: tag text
 #. i18n: file kmcomposerui.rc line 64
-#: kmcomposewin.cpp:2668 rc.cpp:676
+#: kmcomposewin.cpp:2665 rc.cpp:676
 msgid "&Attach"
 msgstr "সংযুক্ত &করো"
 
-#: kmcomposewin.cpp:2843
+#: kmcomposewin.cpp:2840
 #, fuzzy
 msgid "&Insert"
 msgstr "ফাইল অন্তর্ভুক্ত করো"
 
-#: kmcomposewin.cpp:2844
+#: kmcomposewin.cpp:2841
 msgid "Insert File"
 msgstr "ফাইল অন্তর্ভুক্ত করো"
 
-#: kmcomposewin.cpp:3020
+#: kmcomposewin.cpp:3017
 #, qt-format
 msgid ""
 "<qt><p>An error occurred while trying to export the key from the backend:</"
 "p><p><b>%1</b></p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3024
+#: kmcomposewin.cpp:3021
 msgid "Key Export Failed"
 msgstr "কী (Key) রপ্তানি ব্যর্থ"
 
-#: kmcomposewin.cpp:3052
+#: kmcomposewin.cpp:3049
 msgid "Exporting key..."
 msgstr "কী (Key) রপ্তানি করা হচ্ছে..."
 
-#: kmcomposewin.cpp:3064
+#: kmcomposewin.cpp:3061
 #, qt-format
 msgid "OpenPGP key 0x%1"
 msgstr "ওপেন-পি.জি.পি. কী (key) 0x%1"
 
-#: kmcomposewin.cpp:3079
+#: kmcomposewin.cpp:3076
 msgid "Attach Public OpenPGP Key"
 msgstr "ওপেন-পি-জি-পি পাবলিক কী (Key) সংযুক্ত করো"
 
-#: kmcomposewin.cpp:3080
+#: kmcomposewin.cpp:3077
 msgid "Select the public key which should be attached."
 msgstr "যে পাবলিক কী(Key)-টি সংযুক্ত করা হবে সেটি বেছে নিন।"
 
-#: kmcomposewin.cpp:3102 kmreaderwin.cpp:1903
+#: kmcomposewin.cpp:3099 kmreaderwin.cpp:1903
 msgctxt "to open"
 msgid "Open"
 msgstr "খোলো"
 
-#: kmcomposewin.cpp:3104
+#: kmcomposewin.cpp:3101
 msgctxt "to view"
 msgid "View"
 msgstr "দেখাও"
 
-#: kmcomposewin.cpp:3107 kmreaderwin.cpp:1912
+#: kmcomposewin.cpp:3104 kmreaderwin.cpp:1912
 #, fuzzy
 msgid "Save As..."
 msgstr "&নতুন নামে সংরক্ষণ করো..."
 
-#: kmcomposewin.cpp:3109 kmreaderwin.cpp:1921
+#: kmcomposewin.cpp:3106 kmreaderwin.cpp:1921
 #, fuzzy
 msgid "Properties"
 msgstr "বৈশিষ্ট্যা&বলী"
 
-#: kmcomposewin.cpp:3112
+#: kmcomposewin.cpp:3109
 msgid "Add Attachment..."
 msgstr "অ্যাটাচমেন্ট যোগ করো..."
 
-#: kmcomposewin.cpp:3203 kmcomposewin.cpp:3210
+#: kmcomposewin.cpp:3200 kmcomposewin.cpp:3207
 msgid "KMail could not compress the file."
 msgstr "কে-মেইল ফাইল-টি সঙ্কোচন করতে পারেনি।"
 
-#: kmcomposewin.cpp:3217
+#: kmcomposewin.cpp:3214
 msgid ""
 "The compressed file is larger than the original. Do you want to keep the "
 "original one?"
 msgstr "সঙ্কোচন করা ফাইলটি মূল ফাইলটির চেয়ে বড়। আপনি কি মূল ফাইলটি রেখে দিতে চান?"
 
-#: kmcomposewin.cpp:3220
+#: kmcomposewin.cpp:3217
 msgid "Keep"
 msgstr "রাখো"
 
-#: kmcomposewin.cpp:3296 kmcomposewin.cpp:3304
+#: kmcomposewin.cpp:3293 kmcomposewin.cpp:3301
 msgid "KMail could not uncompress the file."
 msgstr "কে-মেইল সঙ্কুচিত ফাইলটি পুনরুদ্ধার করতে পারেনি।"
 
-#: kmcomposewin.cpp:3469
+#: kmcomposewin.cpp:3466
 msgid "Save Attachment As"
 msgstr "অ্যাটাচমেন্ট নতুন নামে সংরক্ষণ করো"
 
-#: kmcomposewin.cpp:3774 kmfilterdlg.cpp:722 kmfolderdia.cpp:307
+#: kmcomposewin.cpp:3771 kmfilterdlg.cpp:722 kmfolderdia.cpp:307
 #: kmfolderdia.cpp:675 kmfoldertree.cpp:1588 managesievescriptsdialog.cpp:292
 msgid "unnamed"
 msgstr "নামহীন"
 
-#: kmcomposewin.cpp:3800
+#: kmcomposewin.cpp:3797
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -4876,171 +4847,171 @@ msgid ""
 "identity configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3807
+#: kmcomposewin.cpp:3804
 msgid "Undefined Encryption Key"
 msgstr "অনির্দিষ্ট এনক্রিপশন কী (Key)"
 
-#: kmcomposewin.cpp:3854
+#: kmcomposewin.cpp:3851
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
 "(OpenPGP or S/MIME) signing key to use.</p><p>Please select the key to use "
 "in the identity configuration.</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:3861
+#: kmcomposewin.cpp:3858
 msgid "Undefined Signing Key"
 msgstr "অনির্দিষ্ট স্বাক্ষর কী (Key)"
 
-#: kmcomposewin.cpp:3942
+#: kmcomposewin.cpp:3939
 msgid ""
 "KMail is currently in offline mode. Your messages will be kept in the outbox "
 "until you go online."
 msgstr ""
 
-#: kmcomposewin.cpp:3944 kmkernel.cpp:1190
+#: kmcomposewin.cpp:3941 kmkernel.cpp:1198
 msgid "Online/Offline"
 msgstr ""
 
-#: kmcomposewin.cpp:3959
+#: kmcomposewin.cpp:3956
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
 "for each message."
 msgstr ""
 
-#: kmcomposewin.cpp:3971
+#: kmcomposewin.cpp:3968
 msgid ""
 "You must specify at least one receiver,either in the To: field or as CC or "
 "as BCC."
 msgstr ""
 
-#: kmcomposewin.cpp:3980
+#: kmcomposewin.cpp:3977
 #, fuzzy
 msgid "To: field is empty. Send message anyway?"
 msgstr "আপনি বার্তার কোন বিষয় উল্লেখ করেননি। তা সত্ত্বেও বার্তাটি পাঠাব?"
 
-#: kmcomposewin.cpp:3982
+#: kmcomposewin.cpp:3979
 #, fuzzy
 msgid "No To: specified"
 msgstr "কোন নাম উল্লিখিত হয়নি"
 
-#: kmcomposewin.cpp:4006
+#: kmcomposewin.cpp:4003
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "আপনি বার্তার কোন বিষয় উল্লেখ করেননি। তা সত্ত্বেও বার্তাটি পাঠাব?"
 
-#: kmcomposewin.cpp:4008
+#: kmcomposewin.cpp:4005
 msgid "No Subject Specified"
 msgstr "বিষয় উল্লিখিত হয়নি"
 
-#: kmcomposewin.cpp:4009
+#: kmcomposewin.cpp:4006
 msgid "S&end as Is"
 msgstr "যে&মন আছে পাঠাও"
 
-#: kmcomposewin.cpp:4010
+#: kmcomposewin.cpp:4007
 msgid "&Specify the Subject"
 msgstr "বিষয় &উল্লেখ করব"
 
-#: kmcomposewin.cpp:4050
+#: kmcomposewin.cpp:4047
 msgid "&Keep markup, do not sign/encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:4051
+#: kmcomposewin.cpp:4048
 msgid "&Keep markup, do not encrypt"
 msgstr ""
 
-#: kmcomposewin.cpp:4052
+#: kmcomposewin.cpp:4049
 msgid "&Keep markup, do not sign"
 msgstr ""
 
-#: kmcomposewin.cpp:4054
+#: kmcomposewin.cpp:4051
 msgid "Sign/Encrypt (delete markup)"
 msgstr ""
 
-#: kmcomposewin.cpp:4055
+#: kmcomposewin.cpp:4052
 msgid "Encrypt (delete markup)"
 msgstr ""
 
-#: kmcomposewin.cpp:4056
+#: kmcomposewin.cpp:4053
 msgid "Sign (delete markup)"
 msgstr ""
 
-#: kmcomposewin.cpp:4058
+#: kmcomposewin.cpp:4055
 msgid ""
 "<qt><p>Inline signing/encrypting of HTML messages is not possible;</p><p>do "
 "you want to delete your markup?</p></qt>"
 msgstr ""
 
-#: kmcomposewin.cpp:4060
+#: kmcomposewin.cpp:4057
 msgid "Sign/Encrypt Message?"
 msgstr "বার্তা এনক্রিপ্ট/স্বাক্ষর করা হবে?"
 
-#: kmcomposewin.cpp:4096
+#: kmcomposewin.cpp:4093
 #, qt-format
 msgid ""
 "The custom drafts or templates folder for identify \"%1\" does not exist "
 "(anymore); therefore, the default drafts or templates folder will be used."
 msgstr ""
 
-#: kmcomposewin.cpp:4253
+#: kmcomposewin.cpp:4250
 msgid "About to send email..."
 msgstr "ই-মেইল পাঠাতে চলেছি..."
 
-#: kmcomposewin.cpp:4254
+#: kmcomposewin.cpp:4251
 msgid "Send Confirmation"
 msgstr ""
 
-#: kmcomposewin.cpp:4255 redirectdialog.cpp:90
+#: kmcomposewin.cpp:4252 redirectdialog.cpp:90
 msgid "&Send Now"
 msgstr "&এখন পাঠাও"
 
-#: kmcomposewin.cpp:4444
+#: kmcomposewin.cpp:4441
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "বানান পরীক্ষক"
 
-#: kmcomposewin.cpp:4446
+#: kmcomposewin.cpp:4443
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "বানান পরীক্ষক"
 
-#: kmcomposewin.cpp:4490
+#: kmcomposewin.cpp:4487
 msgid " Spell check canceled."
 msgstr " বানান পরীক্ষা বাতিল"
 
-#: kmcomposewin.cpp:4493
+#: kmcomposewin.cpp:4490
 msgid " Spell check stopped."
 msgstr " বানান পরীক্ষা স্থগিত"
 
-#: kmcomposewin.cpp:4496
+#: kmcomposewin.cpp:4493
 msgid " Spell check complete."
 msgstr " বানান পরীক্ষা সম্পূর্ণ"
 
-#: kmcomposewin.cpp:4690 kmcomposewin.cpp:4699
+#: kmcomposewin.cpp:4687 kmcomposewin.cpp:4696
 msgid "Spellchecker"
 msgstr "বানান পরীক্ষক"
 
-#: kmcomposewin.cpp:5011
+#: kmcomposewin.cpp:5008
 msgid ""
 "Please configure a Crypto Backend to use for Chiasmus encryption first.\n"
 "You can do this in the Crypto Backends tab of the configure dialog's "
 "Security page."
 msgstr ""
 
-#: kmcomposewin.cpp:5015
+#: kmcomposewin.cpp:5012
 msgid ""
 "It looks as though libkleopatra was compiled without Chiasmus support. You "
 "might want to recompile libkleopatra with --enable-chiasmus."
 msgstr ""
 
-#: kmcomposewin.cpp:5018
+#: kmcomposewin.cpp:5015
 msgid "No Chiasmus Backend Configured"
 msgstr ""
 
-#: kmcomposewin.cpp:5049
+#: kmcomposewin.cpp:5046
 msgid "No Chiasmus Keys Found"
 msgstr ""
 
-#: kmcomposewin.cpp:5053
+#: kmcomposewin.cpp:5050
 msgid "Chiasmus Encryption Key Selection"
 msgstr ""
 
@@ -5730,12 +5701,12 @@ msgid ""
 "you want to move these messages to another folder now?</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1355 kmkernel.cpp:1743
+#: kmfoldercachedimap.cpp:1355 kmkernel.cpp:1751
 #, fuzzy
 msgid "Move"
 msgstr "সরিয়ে নিয়ে যাও:"
 
-#: kmfoldercachedimap.cpp:1356 kmkernel.cpp:1745
+#: kmfoldercachedimap.cpp:1356 kmkernel.cpp:1753
 msgid "Do Not Move"
 msgstr "সরিও না"
 
@@ -6170,21 +6141,21 @@ msgstr ""
 "'%1' একটি ফোল্ডার বলে মনে হচ্ছে না।\n"
 "অনুগ্রহ করে ফাইলটি অন্য কোথাও সরিয়ে নিন।"
 
-#: kmfoldermgr.cpp:145 kmkernel.cpp:1272
+#: kmfoldermgr.cpp:145 kmkernel.cpp:1280
 #, qt-format
 msgid ""
 "The permissions of the folder '%1' are incorrect;\n"
 "please make sure that you can view and modify the content of this folder."
 msgstr ""
 
-#: kmfoldermgr.cpp:155 kmkernel.cpp:1264
+#: kmfoldermgr.cpp:155 kmkernel.cpp:1272
 #, qt-format
 msgid ""
 "KMail could not create folder '%1';\n"
 "please make sure that you can view and modify the content of the folder '%2'."
 msgstr ""
 
-#: kmfoldermgr.cpp:302 kmkernel.cpp:1550
+#: kmfoldermgr.cpp:302 kmkernel.cpp:1558
 #, qt-format
 msgid ""
 "Cannot create file `%1' in %2.\n"
@@ -6192,24 +6163,6 @@ msgid ""
 msgstr ""
 "%2-তে `%1' ফাইল তৈরি করা যায়নি।\n"
 "এই ফাইল ছাড়া কে-মেইল চালু করা যাবে না।"
-
-#: kmfolderseldlg.cpp:76 kmfoldertree.cpp:359 searchwindow.cpp:252
-msgid "Folder"
-msgstr "ফোল্ডার"
-
-#: kmfolderseldlg.cpp:77 kmfolderseldlg.cpp:324 kmfolderseldlg.cpp:355
-#: kmfolderseldlg.cpp:357
-msgid "Path"
-msgstr ""
-
-#: kmfolderseldlg.cpp:258 kmfolderseldlg.cpp:390 kmfolderseldlg.cpp:413
-#: kmfoldertree.cpp:1048 kmfoldertree.cpp:1068
-msgid "&New Subfolder..."
-msgstr "&নতুন সাব-ফোল্ডার..."
-
-#: kmfolderseldlg.cpp:391 kmfolderseldlg.cpp:414
-msgid "Create a new subfolder under the currently selected folder"
-msgstr ""
 
 #: kmfoldertree.cpp:369 kmheaders.cpp:137
 msgid "View Columns"
@@ -6305,12 +6258,12 @@ msgstr "&এখানে কপি করো"
 msgid "C&ancel"
 msgstr "বাতি&ল"
 
-#: kmfoldertree.cpp:1701 kmmainwidget.cpp:414 kmmainwidget.cpp:418
+#: kmfoldertree.cpp:1701 kmmainwidget.cpp:415 kmmainwidget.cpp:419
 #: kmsearchpattern.h:235
 msgid "Unread"
 msgstr "অপঠিত"
 
-#: kmfoldertree.cpp:1714 kmmainwidget.cpp:416
+#: kmfoldertree.cpp:1714 kmmainwidget.cpp:417
 msgid "Total"
 msgstr "মোট"
 
@@ -6494,85 +6447,85 @@ msgstr ""
 "%1 পরিবর্তন করা যায়নি\n"
 "(ডিভাইস-এ স্থানাভাব?)"
 
-#: kmkernel.cpp:671
+#: kmkernel.cpp:679
 msgid "Certificate Signature Request"
 msgstr ""
 
-#: kmkernel.cpp:674
+#: kmkernel.cpp:682
 msgid "Please create a certificate from attachment and return to sender."
 msgstr ""
 
-#: kmkernel.cpp:1156
+#: kmkernel.cpp:1164
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:1167
+#: kmkernel.cpp:1175
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:1188
+#: kmkernel.cpp:1196
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:1191 kmmainwidget.cpp:1883
+#: kmkernel.cpp:1199 kmmainwidget.cpp:1883
 msgid "Work Online"
 msgstr ""
 
-#: kmkernel.cpp:1192 kmmainwidget.cpp:1881
+#: kmkernel.cpp:1200 kmmainwidget.cpp:1881
 msgid "Work Offline"
 msgstr ""
 
-#: kmkernel.cpp:1328
+#: kmkernel.cpp:1336
 msgid "You do not have read/write permission to your inbox folder."
 msgstr ""
 
-#: kmkernel.cpp:1336
+#: kmkernel.cpp:1344
 msgid "outbox"
 msgstr "আউটবক্স"
 
-#: kmkernel.cpp:1338
+#: kmkernel.cpp:1346
 msgid "You do not have read/write permission to your outbox folder."
 msgstr ""
 
-#: kmkernel.cpp:1355
+#: kmkernel.cpp:1363
 msgid "sent-mail"
 msgstr "প্রেরিত-মেইল"
 
-#: kmkernel.cpp:1357
+#: kmkernel.cpp:1365
 msgid "You do not have read/write permission to your sent-mail folder."
 msgstr ""
 
-#: kmkernel.cpp:1364
+#: kmkernel.cpp:1372
 msgid "trash"
 msgstr "আবর্জনা"
 
-#: kmkernel.cpp:1366
+#: kmkernel.cpp:1374
 msgid "You do not have read/write permission to your trash folder."
 msgstr ""
 
-#: kmkernel.cpp:1373
+#: kmkernel.cpp:1381
 msgid "drafts"
 msgstr "খসড়া"
 
-#: kmkernel.cpp:1375
+#: kmkernel.cpp:1383
 msgid "You do not have read/write permission to your drafts folder."
 msgstr ""
 
-#: kmkernel.cpp:1382
+#: kmkernel.cpp:1390
 #, fuzzy
 msgid "templates"
 msgstr "&বদলাও"
 
-#: kmkernel.cpp:1384
+#: kmkernel.cpp:1392
 msgid "You do not have read/write permission to your templates folder."
 msgstr ""
 
-#: kmkernel.cpp:1424 searchwindow.cpp:278 searchwindow.cpp:489
+#: kmkernel.cpp:1432 searchwindow.cpp:278 searchwindow.cpp:489
 #: searchwindow.cpp:639
 msgid "Last Search"
 msgstr "শেষ সন্ধান"
 
-#: kmkernel.cpp:1718
+#: kmkernel.cpp:1726
 #, qt-format
 msgctxt "%1-%3 is the application name, %4-%7 are folder path"
 msgid ""
@@ -6582,7 +6535,7 @@ msgid ""
 "<p><strong>Would you like %3 to move the mail files now?</strong></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1732
+#: kmkernel.cpp:1740
 #, qt-format
 msgctxt "%1-%3 is the application name, %4-%6 are folder path"
 msgid ""
@@ -6591,16 +6544,16 @@ msgid ""
 "<p><strong>Would you like %3 to move the mail files now?</strong></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1742
+#: kmkernel.cpp:1750
 msgid "Migrate Mail Files?"
 msgstr ""
 
-#: kmkernel.cpp:1922
+#: kmkernel.cpp:1930
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr ""
 "কে-মেইল একটি মারাত্মক সমস্যার সম্মুখীন হয়েছে এবং এবার বিনা বাক্যব্যয়ে থেমে যাবে"
 
-#: kmkernel.cpp:1925
+#: kmkernel.cpp:1933
 #, qt-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -6611,13 +6564,29 @@ msgstr ""
 "যে সমস্যাটি ঘটেছে সেটি হল:\n"
 "%1"
 
-#: kmkernel.cpp:2047 kmmainwidget.cpp:1134
+#: kmkernel.cpp:2055 kmmainwidget.cpp:1134
 msgid "Empty Trash"
 msgstr "আবর্জনা ফাঁকা করো"
 
-#: kmkernel.cpp:2048
+#: kmkernel.cpp:2056
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr ""
+
+#: kmkernel.cpp:2312
+#, qt-format
+msgid "This identity has been changed to use the default transport:"
+msgid_plural ""
+"These %1 identities have been changed to use the default transport:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kmkernel.cpp:2335
+#, qt-format
+msgid "This identity has been changed to use the modified transport:"
+msgid_plural ""
+"These %1 identities have been changed to use the modified transport:"
+msgstr[0] ""
+msgstr[1] ""
 
 #: kmlineeditspell.cpp:121
 msgid "vCard Import Failed"
@@ -6811,7 +6780,7 @@ msgid ""
 "present and anticipated security exploits."
 msgstr ""
 
-#: kmmainwidget.cpp:1350 kmmainwidget.cpp:1375 kmsender.cpp:531
+#: kmmainwidget.cpp:1350 kmmainwidget.cpp:1375 kmsender.cpp:554
 msgid "Security Warning"
 msgstr "নিরাপত্তা সতর্কীকরণ"
 
@@ -7486,11 +7455,11 @@ msgstr ""
 msgid "Local Subscription"
 msgstr "বর্ণনা"
 
-#: kmmainwin.cpp:41
+#: kmmainwin.cpp:40
 msgid "New &Window"
 msgstr "নতুন &উইণ্ডো"
 
-#: kmmainwin.cpp:181
+#: kmmainwin.cpp:180
 msgid " Initializing..."
 msgstr " চালু করা হচ্ছে..."
 
@@ -8053,21 +8022,21 @@ msgstr "নীচের &সবকটির সঙ্গে মিল খোঁ�
 msgid "Match an&y of the following"
 msgstr "নীচের যে কোন &একটির সঙ্গে মিল খোঁজো"
 
-#: kmsender.cpp:132
+#: kmsender.cpp:129
 msgid "Please create an account for sending and try again."
 msgstr "অনুগ্রহ করে পাঠানোর জন্য একটি অ্যাকাউন্ট তৈরি করে আবার চেষ্টা করুন।"
 
-#: kmsender.cpp:194
+#: kmsender.cpp:191
 msgid "Cannot add message to outbox folder"
 msgstr "আউটবক্স ফোল্ডার-এ বার্তা যোগ করা যাচ্ছে না"
 
-#: kmsender.cpp:397
+#: kmsender.cpp:420
 msgid ""
 "Critical error: Unable to process sent mail (out of space?)Moving failing "
 "message to \"sent-mail\" folder."
 msgstr ""
 
-#: kmsender.cpp:409
+#: kmsender.cpp:432
 #, qt-format
 msgid ""
 "Moving the sent message \"%1\" from the \"outbox\" to the \"sent-mail\" "
@@ -8076,7 +8045,7 @@ msgid ""
 "fix the problem and move the message manually."
 msgstr ""
 
-#: kmsender.cpp:454
+#: kmsender.cpp:477
 #, qt-format
 msgid ""
 "It is not possible to send messages without specifying a sender address.\n"
@@ -8084,51 +8053,58 @@ msgid ""
 "the configuration dialog and then try again."
 msgstr ""
 
-#: kmsender.cpp:476
+#: kmsender.cpp:499
 #, qt-format
 msgid "%1 queued message successfully sent."
 msgid_plural "%1 queued messages successfully sent."
 msgstr[0] "%1-টি সারিভুক্ত বার্তা সফলভাবে প্রেরিত।"
 msgstr[1] "%1-টি সারিভুক্ত বার্তা সফলভাবে প্রেরিত।"
 
-#: kmsender.cpp:480
+#: kmsender.cpp:503
 #, qt-format
 msgid "%1 of %2 queued messages successfully sent."
 msgstr "%2-টি সারিভুক্ত বার্তার মধ্যে %1-টি সফলভাবে প্রেরিত।"
 
-#: kmsender.cpp:495
+#: kmsender.cpp:518
 msgid "Sending messages"
 msgstr "বার্তা পাঠানো হচ্ছে"
 
-#: kmsender.cpp:496
+#: kmsender.cpp:519
 msgid "Initiating sender process..."
 msgstr ""
 
-#: kmsender.cpp:530
+#: kmsender.cpp:539
+#, qt-format
+msgid "Transport '%1' is invalid."
+msgstr ""
+
+#: kmsender.cpp:540
+#, fuzzy
+#| msgid "Sending aborted."
+msgid "Sending failed"
+msgstr "পাঠানো বাতিল।"
+
+#: kmsender.cpp:553
 msgid ""
 "You have chosen to send all queued email using an unencrypted transport, do "
 "you want to continue? "
 msgstr ""
 
-#: kmsender.cpp:532
+#: kmsender.cpp:555
 msgid "Send Unencrypted"
 msgstr ""
 
-#: kmsender.cpp:585
-msgid "Unrecognized transport protocol. Unable to send message."
-msgstr "অচেনা পরিবাহন প্রোটোকল। বার্তা পাঠাতে অক্ষম।"
-
-#: kmsender.cpp:626
+#: kmsender.cpp:568
 #, qt-format
 msgctxt "%3: subject of message"
 msgid "Sending message %1 of %2: %3"
 msgstr "%2-টির মধ্যে %1 সংখ্যক বার্তা পাঠাচ্ছি: %3"
 
-#: kmsender.cpp:645
+#: kmsender.cpp:587
 msgid "Failed to send (some) queued messages."
 msgstr ""
 
-#: kmsender.cpp:728
+#: kmsender.cpp:676
 #, qt-format
 msgid ""
 "Sending aborted:\n"
@@ -8140,11 +8116,11 @@ msgid ""
 "  %2"
 msgstr ""
 
-#: kmsender.cpp:736 kmsender.cpp:783
+#: kmsender.cpp:684 kmsender.cpp:731
 msgid "Sending aborted."
 msgstr "পাঠানো বাতিল।"
 
-#: kmsender.cpp:756
+#: kmsender.cpp:704
 #, qt-format
 msgid ""
 "<p>Sending failed:</p><p>%1</p><p>The message will stay in the 'outbox' "
@@ -8154,19 +8130,19 @@ msgid ""
 "messages?</p>"
 msgstr ""
 
-#: kmsender.cpp:766
+#: kmsender.cpp:714
 msgid "Continue Sending"
 msgstr ""
 
-#: kmsender.cpp:766
+#: kmsender.cpp:714
 msgid "&Continue Sending"
 msgstr ""
 
-#: kmsender.cpp:767
+#: kmsender.cpp:715
 msgid "&Abort Sending"
 msgstr ""
 
-#: kmsender.cpp:769
+#: kmsender.cpp:717
 #, qt-format
 msgid ""
 "Sending failed:\n"
@@ -8176,34 +8152,6 @@ msgid ""
 "folder.\n"
 "The following transport protocol was used:\n"
 " %2"
-msgstr ""
-
-#: kmsender.cpp:969
-msgid "Please specify a mailer program in the settings."
-msgstr "অনুগ্রহ করে সেটিংস-এ একটি মেইল করার প্রোগ্রাম নির্ধারণ করুন।"
-
-#: kmsender.cpp:970
-#, qt-format
-msgid ""
-"Sending failed:\n"
-"%1\n"
-"The message will stay in the 'outbox' folder and will be resent.\n"
-"Please remove it from there if you do not want the message to be resent.\n"
-"The following transport protocol was used:\n"
-"  %2"
-msgstr ""
-
-#: kmsender.cpp:1018
-#, qt-format
-msgid "Failed to execute mailer program %1"
-msgstr "মেইল করার প্রোগ্রাম %1 চালু করতে ব্যর্থ"
-
-#: kmsender.cpp:1068
-msgid "Sendmail exited abnormally."
-msgstr "সেন্ড-মেইল-এর অস্বাভাবিক সমাপ্তি।"
-
-#: kmsender.cpp:1135
-msgid "You need to supply a username and a password to use this SMTP server."
 msgstr ""
 
 #: kmstartup.cpp:191
@@ -8257,157 +8205,6 @@ msgid "There is 1 unread message."
 msgid_plural "There are %1 unread messages."
 msgstr[0] "একটি অপঠিত বার্তা রয়েছে।"
 msgstr[1] "%1-টি অপঠিত বার্তা রয়েছে।"
-
-#: kmtransport.cpp:62 kmtransport.cpp:79
-msgid "Unnamed"
-msgstr "অনামিকা"
-
-#: kmtransport.cpp:146 networkaccount.cpp:221
-#, qt-format
-msgid ""
-"KWallet is not available. It is strongly recommended to use KWallet for "
-"managing your passwords.\n"
-"However, KMail can store the password in its configuration file instead. The "
-"password is stored in an obfuscated format, but should not be considered "
-"secure from decryption efforts if access to the configuration file is "
-"obtained.\n"
-"Do you want to store the password for account '%1' in the configuration file?"
-msgstr ""
-
-#: kmtransport.cpp:154 networkaccount.cpp:229
-msgid "KWallet Not Available"
-msgstr "কে-ওয়ালেট পাওয়া যায়নি"
-
-#: kmtransport.cpp:155 networkaccount.cpp:230
-msgid "Store Password"
-msgstr "পাসওয়ার্ড সঞ্চিত রাখো"
-
-#: kmtransport.cpp:156 networkaccount.cpp:231
-msgid "Do Not Store Password"
-msgstr ""
-
-#: kmtransport.cpp:260
-msgid "Transport"
-msgstr "পরিবাহক"
-
-#: kmtransport.cpp:269
-msgid "SM&TP"
-msgstr "এস-এ&ম-টি-পি"
-
-#: kmtransport.cpp:271
-msgid "&Sendmail"
-msgstr "সেন্ড-মেই&ল"
-
-#: kmtransport.cpp:330
-msgid "Transport: Sendmail"
-msgstr "পরিবাহক: সেন্ড-মেইল"
-
-#: kmtransport.cpp:351
-msgid "&Location:"
-msgstr "&অবস্থান:"
-
-#: kmtransport.cpp:357
-msgid "Choos&e..."
-msgstr "বেছে নি&ন..."
-
-#: kmtransport.cpp:383
-msgid "Transport: SMTP"
-msgstr "পরিবাহক: এস-এম-টি-পি"
-
-#: kmtransport.cpp:407
-msgid "The name that KMail will use when referring to this server."
-msgstr "কে-মেইল এই সার্ভারটি সনাক্ত করতে যে নাম ব্যবহার করবে।"
-
-#: kmtransport.cpp:412
-msgid "&Host:"
-msgstr "হোস্ট (&হ):"
-
-#: kmtransport.cpp:416
-msgid "The domain name or numerical address of the SMTP server."
-msgstr "এস-এম-টি-পি সার্ভার-এর ডোমেইন নেম বা আই.পি. অ্যাড্রেস।"
-
-#: kmtransport.cpp:426
-msgid ""
-"The port number that the SMTP server is listening on. The default port is 25."
-msgstr "এস-এম-টি-পি সার্ভার যে সংখ্যক পোর্ট ব্যবহার করে। সাধারণত এই সংখ্যাটি 25।"
-
-#: kmtransport.cpp:431
-msgid "Preco&mmand:"
-msgstr ""
-
-#: kmtransport.cpp:435
-msgid ""
-"A command to run locally, prior to sending email. This can be used to set up "
-"ssh tunnels, for example. Leave it empty if no command should be run."
-msgstr ""
-
-#: kmtransport.cpp:447
-msgid "Server &requires authentication"
-msgstr "সার্ভার-এর &অথেন্টিকেশন প্রয়োজন"
-
-#: kmtransport.cpp:449
-msgid ""
-"Check this option if your SMTP server requires authentication before "
-"accepting mail. This is known as 'Authenticated SMTP' or simply ASMTP."
-msgstr ""
-
-#: kmtransport.cpp:462
-msgid "The user name to send to the server for authorization"
-msgstr "অধিকার প্রাপ্তির জন্য সার্ভারকে যে ব্যবহারকারীর নাম পাঠানো হবে"
-
-#: kmtransport.cpp:472
-msgid "The password to send to the server for authorization"
-msgstr "অধিকার প্রাপ্তির জন্য সার্ভারকে যে পাসওয়ার্ড পাঠানো হবে"
-
-#: kmtransport.cpp:477
-msgid "&Store SMTP password"
-msgstr "এস-এম-টি-পি পাসওয়ার্ড &সঞ্চিত রাখো"
-
-#: kmtransport.cpp:495
-msgid "Sen&d custom hostname to server"
-msgstr ""
-
-#: kmtransport.cpp:498
-msgid ""
-"Check this option to have KMail use a custom hostname when identifying "
-"itself to the mail server.<p>This is useful when your system's hostname may "
-"not be set correctly or to mask your system's true hostname."
-msgstr ""
-
-#: kmtransport.cpp:505
-msgid "Hos&tname:"
-msgstr "হোস্টনে&ম:"
-
-#: kmtransport.cpp:509
-msgid ""
-"Enter the hostname KMail should use when identifying itself to the server."
-msgstr ""
-
-#: kmtransport.cpp:527
-msgid "&SSL"
-msgstr "&SSL"
-
-#: kmtransport.cpp:529
-msgid "&TLS"
-msgstr "&TLS"
-
-#: kmtransport.cpp:641
-msgid "Choose sendmail Location"
-msgstr "sendmail-এর অবস্থান বেছে নিন"
-
-#: kmtransport.cpp:653
-msgid "Only local files allowed."
-msgstr "শুধু স্থানীয় ফাইল অনুমোদিত।"
-
-#: kmtransport.cpp:808
-msgid ""
-"The Host field cannot be empty. Please  enter the name or the IP address of "
-"the SMTP server."
-msgstr ""
-
-#: kmtransport.cpp:810
-msgid "Invalid Hostname or Address"
-msgstr "অবৈধ হোস্টনেম অথবা ঠিকানা"
 
 #: listjob.cpp:176
 #, qt-format
@@ -8811,6 +8608,30 @@ msgid ""
 "This message could not be signed and encrypted, since the chosen backend "
 "does not seem to support combined signing and encryption; this should "
 "actually never happen, please report this bug."
+msgstr ""
+
+#: networkaccount.cpp:221
+#, qt-format
+msgid ""
+"KWallet is not available. It is strongly recommended to use KWallet for "
+"managing your passwords.\n"
+"However, KMail can store the password in its configuration file instead. The "
+"password is stored in an obfuscated format, but should not be considered "
+"secure from decryption efforts if access to the configuration file is "
+"obtained.\n"
+"Do you want to store the password for account '%1' in the configuration file?"
+msgstr ""
+
+#: networkaccount.cpp:229
+msgid "KWallet Not Available"
+msgstr "কে-ওয়ালেট পাওয়া যায়নি"
+
+#: networkaccount.cpp:230
+msgid "Store Password"
+msgstr "পাসওয়ার্ড সঞ্চিত রাখো"
+
+#: networkaccount.cpp:231
+msgid "Do Not Store Password"
 msgstr ""
 
 #: newfolderdialog.cpp:66
@@ -12741,6 +12562,102 @@ msgstr "করা বাকি"
 #: kmsearchpattern.h:248
 msgid "Has Attachment"
 msgstr "অ্যাটাচমেন্ট আছে"
+
+#~ msgid "Set Default"
+#~ msgstr "ডিফল্ট নির্দিষ্ট করো"
+
+#~ msgid "Add Transport"
+#~ msgstr "বার্তাবাহক যোগ করো"
+
+#~ msgctxt ""
+#~ "%1: type of transport. Result used in Configure->Accounts->Sending "
+#~ "listview, \"type\" column, first row, to indicate that this is the "
+#~ "default transport"
+#~ msgid "%1 (Default)"
+#~ msgstr "%1 (ডিফল্ট)"
+
+#~ msgid "Modify Transport"
+#~ msgstr "বার্তাবাহক বদলাও"
+
+#~ msgid "Unrecognized transport protocol. Unable to send message."
+#~ msgstr "অচেনা পরিবাহন প্রোটোকল। বার্তা পাঠাতে অক্ষম।"
+
+#~ msgid "Please specify a mailer program in the settings."
+#~ msgstr "অনুগ্রহ করে সেটিংস-এ একটি মেইল করার প্রোগ্রাম নির্ধারণ করুন।"
+
+#~ msgid "Failed to execute mailer program %1"
+#~ msgstr "মেইল করার প্রোগ্রাম %1 চালু করতে ব্যর্থ"
+
+#~ msgid "Sendmail exited abnormally."
+#~ msgstr "সেন্ড-মেইল-এর অস্বাভাবিক সমাপ্তি।"
+
+#~ msgid "Unnamed"
+#~ msgstr "অনামিকা"
+
+#~ msgid "Transport"
+#~ msgstr "পরিবাহক"
+
+#~ msgid "SM&TP"
+#~ msgstr "এস-এ&ম-টি-পি"
+
+#~ msgid "&Sendmail"
+#~ msgstr "সেন্ড-মেই&ল"
+
+#~ msgid "Transport: Sendmail"
+#~ msgstr "পরিবাহক: সেন্ড-মেইল"
+
+#~ msgid "&Location:"
+#~ msgstr "&অবস্থান:"
+
+#~ msgid "Choos&e..."
+#~ msgstr "বেছে নি&ন..."
+
+#~ msgid "Transport: SMTP"
+#~ msgstr "পরিবাহক: এস-এম-টি-পি"
+
+#~ msgid "The name that KMail will use when referring to this server."
+#~ msgstr "কে-মেইল এই সার্ভারটি সনাক্ত করতে যে নাম ব্যবহার করবে।"
+
+#~ msgid "&Host:"
+#~ msgstr "হোস্ট (&হ):"
+
+#~ msgid "The domain name or numerical address of the SMTP server."
+#~ msgstr "এস-এম-টি-পি সার্ভার-এর ডোমেইন নেম বা আই.পি. অ্যাড্রেস।"
+
+#~ msgid ""
+#~ "The port number that the SMTP server is listening on. The default port is "
+#~ "25."
+#~ msgstr "এস-এম-টি-পি সার্ভার যে সংখ্যক পোর্ট ব্যবহার করে। সাধারণত এই সংখ্যাটি 25।"
+
+#~ msgid "Server &requires authentication"
+#~ msgstr "সার্ভার-এর &অথেন্টিকেশন প্রয়োজন"
+
+#~ msgid "The user name to send to the server for authorization"
+#~ msgstr "অধিকার প্রাপ্তির জন্য সার্ভারকে যে ব্যবহারকারীর নাম পাঠানো হবে"
+
+#~ msgid "The password to send to the server for authorization"
+#~ msgstr "অধিকার প্রাপ্তির জন্য সার্ভারকে যে পাসওয়ার্ড পাঠানো হবে"
+
+#~ msgid "&Store SMTP password"
+#~ msgstr "এস-এম-টি-পি পাসওয়ার্ড &সঞ্চিত রাখো"
+
+#~ msgid "Hos&tname:"
+#~ msgstr "হোস্টনে&ম:"
+
+#~ msgid "&SSL"
+#~ msgstr "&SSL"
+
+#~ msgid "&TLS"
+#~ msgstr "&TLS"
+
+#~ msgid "Choose sendmail Location"
+#~ msgstr "sendmail-এর অবস্থান বেছে নিন"
+
+#~ msgid "Only local files allowed."
+#~ msgstr "শুধু স্থানীয় ফাইল অনুমোদিত।"
+
+#~ msgid "Invalid Hostname or Address"
+#~ msgstr "অবৈধ হোস্টনেম অথবা ঠিকানা"
 
 #, fuzzy
 #~| msgid "Mark Message as &Read"
