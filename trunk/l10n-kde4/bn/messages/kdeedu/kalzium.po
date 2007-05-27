@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalzium\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-20 05:49+0200\n"
+"POT-Creation-Date: 2007-05-27 05:46+0200\n"
 "PO-Revision-Date: 2006-04-21 09:40-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -20,9 +20,15 @@ msgstr ""
 "X-Generator: KBabel 1.11.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: src/detailedgraphicaloverview.cpp:79
+#: src/detailedgraphicaloverview.cpp:83
 msgid "No element selected"
 msgstr "কোন মৌল বেছে নেওয়া হয় নি"
+
+#: src/detailedgraphicaloverview.cpp:101
+#, fuzzy
+#| msgid "No picture of %1 found."
+msgid "No graphic found"
+msgstr "%1-এর কোন ছবি পাওয়া যায় নি!"
 
 #: src/detailinfodlg.cpp:53
 msgctxt "Next element"
@@ -209,7 +215,7 @@ msgstr " ইলেকট্রন-ক্যাপচার"
 msgid "%1 %2<sub>n</sub>"
 msgstr "%1 %2<sub>n</sub>"
 
-#: src/detailinfodlg.cpp:394 src/detailinfodlg.cpp:395 src/kalzium.cpp:320
+#: src/detailinfodlg.cpp:394 src/detailinfodlg.cpp:395 src/kalzium.cpp:329
 msgid "Overview"
 msgstr "সামগ্রিক চিত্র"
 
@@ -225,7 +231,7 @@ msgstr "এই মৌলটি যে রকম দেখায়"
 msgid "Atom Model"
 msgstr "পরমাণু মডেল"
 
-#: src/detailinfodlg.cpp:427 src/kalzium.cpp:539
+#: src/detailinfodlg.cpp:427 src/kalzium.cpp:554
 msgid "Miscellaneous"
 msgstr ""
 
@@ -309,149 +315,154 @@ msgstr "কপার"
 msgid "Copy answer to clipboard"
 msgstr ""
 
-#: src/kalzium.cpp:151
+#: src/kalzium.cpp:157
 msgid "Knowledge"
 msgstr "জ্ঞান"
 
-#: src/kalzium.cpp:156
+#: src/kalzium.cpp:162
 msgid "Tools"
 msgstr "সরঞ্জাম"
 
-#: src/kalzium.cpp:176
+#: src/kalzium.cpp:182
 #, fuzzy, qt-format
 msgid "Scheme: %1"
 msgstr "নম্বর: %1"
 
-#: src/kalzium.cpp:177
+#: src/kalzium.cpp:183 src/legendwidget.cpp:98
 #, fuzzy, qt-format
 msgid "Gradient: %1"
 msgstr "গ্রেডিয়েন্ট (&গ)"
 
-#: src/kalzium.cpp:179
+#: src/kalzium.cpp:185
 msgid "&Look"
 msgstr "প্রদর্শন &পদ্ধতি"
 
-#: src/kalzium.cpp:184
+#: src/kalzium.cpp:190
 #, fuzzy
 msgid "&Scheme"
 msgstr "কোন রং বিন্যাস নেই (&ন)"
 
-#: src/kalzium.cpp:193
+#: src/kalzium.cpp:199
 #, fuzzy, qt-format
 msgid "Table: %1"
 msgstr "তরঙ্গ-দৈর্ঘ্য: %1"
 
-#: src/kalzium.cpp:195
+#: src/kalzium.cpp:201
 #, fuzzy
 msgid "&Tables"
 msgstr "নিক্তি"
 
 # FIXME
-#: src/kalzium.cpp:202
+#: src/kalzium.cpp:208
 msgid "&Numeration"
 msgstr "&নম্বর নামকরণ পদ্ধতি"
 
-#: src/kalzium.cpp:208
+#: src/kalzium.cpp:214
 msgid "&Equation Solver..."
 msgstr "সমীকরণ স&মাধানকারী..."
 
 # FIXME
-#: src/kalzium.cpp:219
+#: src/kalzium.cpp:225
 msgid "&Plot Data..."
 msgstr "তথ্যানুসারে গ্রাফ আঁকো... (&প)"
 
-#: src/kalzium.cpp:224
+#: src/kalzium.cpp:230
 #, fuzzy
 msgid "&Isotope Table..."
 msgstr "আইসোটোপ-সারণী"
 
-#: src/kalzium.cpp:229
+#: src/kalzium.cpp:235
 msgid "&Glossary..."
 msgstr "টীকাপুঞ্জ... (&গ)"
 
-#: src/kalzium.cpp:234
+#: src/kalzium.cpp:240
 msgid "&R/S Phrases..."
 msgstr ""
 
-#: src/kalzium.cpp:239
+#: src/kalzium.cpp:245
 msgid "Convert chemical files..."
 msgstr ""
 
-#: src/kalzium.cpp:247
+#: src/kalzium.cpp:253
 msgid "Molecular Viewer..."
 msgstr ""
 
-#: src/kalzium.cpp:255
+#: src/kalzium.cpp:261
 msgid "&Tables..."
 msgstr ""
 
 # FIXME
-#: src/kalzium.cpp:300
+#: src/kalzium.cpp:306
 #, fuzzy
 msgid "&Legend"
 msgstr "বর্ণনা (Legend) আড়াল করো (&ব)"
 
-#: src/kalzium.cpp:301
-#, fuzzy
-msgid "&Table Information"
-msgstr "শক্তি সংক্রান্ত তথ্য"
-
-#: src/kalzium.cpp:303
+#: src/kalzium.cpp:311
 msgid "Sidebar"
 msgstr "সাইডবার"
 
-#: src/kalzium.cpp:326
+#: src/kalzium.cpp:335
 msgid "State of Matter"
 msgstr "পদার্থের অবস্থা"
 
 # FIXME
-#: src/kalzium.cpp:332
+#: src/kalzium.cpp:341
 msgid "Timeline"
 msgstr "সময়তালিকা"
 
-#: src/kalzium.cpp:336
+#: src/kalzium.cpp:345
 msgid "Calculate"
 msgstr "গণনা করো"
 
-#: src/kalzium.cpp:347
+#: src/kalzium.cpp:356
 msgid "*.png *.xpm *.jpg *.svg"
 msgstr ""
 
-#: src/kalzium.cpp:349
+#: src/kalzium.cpp:358
 msgid "Save Kalziums Table In"
 msgstr ""
 
-#: src/kalzium.cpp:429
+#: src/kalzium.cpp:391
+msgid "This system does not support OpenGL."
+msgstr ""
+
+#: src/kalzium.cpp:391
+#, fuzzy
+#| msgid "Kalzium"
+msgid "Kalzium Error"
+msgstr "ক্যালজিয়াম"
+
+#: src/kalzium.cpp:444
 #, fuzzy
 msgid "Show &Information"
 msgstr "শক্তি সংক্রান্ত তথ্য"
 
-#: src/kalzium.cpp:433
+#: src/kalzium.cpp:448
 #, fuzzy
 msgid "Hide &Informationwidget"
 msgstr "শক্তি সংক্রান্ত তথ্য"
 
-#: src/kalzium.cpp:448
+#: src/kalzium.cpp:463
 msgid "Show &Sidebar"
 msgstr "&সাইডবার প্রদর্শন করো"
 
-#: src/kalzium.cpp:453
+#: src/kalzium.cpp:468
 msgid "Hide &Sidebar"
 msgstr "&সাইডবার আড়াল করো"
 
-#: src/kalzium.cpp:527
+#: src/kalzium.cpp:542
 msgid "Colors"
 msgstr "রং"
 
-#: src/kalzium.cpp:533
+#: src/kalzium.cpp:548
 msgid "Units"
 msgstr "একক"
 
-#: src/kalzium.cpp:545
+#: src/kalzium.cpp:560
 msgid "Layout"
 msgstr ""
 
-#: src/kalzium.cpp:569
+#: src/kalzium.cpp:586
 #, qt-format
 msgctxt "For example: \"Carbon (6), Mass: 12.0107 u\""
 msgid "%1 (%2), Mass: %3 u"
@@ -558,187 +569,191 @@ msgstr "f-ব্লক"
 msgid "Iconic"
 msgstr "লৌহ"
 
-#: src/kalziumschemetype.cpp:253
+#: src/kalziumschemetype.cpp:230
+msgid "Each element is represented by an icon which represents its use."
+msgstr ""
+
+#: src/kalziumschemetype.cpp:254
 msgid "Family"
 msgstr "পরিবার"
 
-#: src/kalziumschemetype.cpp:303
+#: src/kalziumschemetype.cpp:304
 msgid "Alkaline"
 msgstr "ক্ষারীয়"
 
-#: src/kalziumschemetype.cpp:304
+#: src/kalziumschemetype.cpp:305
 msgid "Rare Earth"
 msgstr "বিরল মৃত্তিকা"
 
-#: src/kalziumschemetype.cpp:305
+#: src/kalziumschemetype.cpp:306
 msgid "Non-Metals"
 msgstr "অ‌ধাতু"
 
-#: src/kalziumschemetype.cpp:306
+#: src/kalziumschemetype.cpp:307
 #, fuzzy
 msgid "Alkalie Metal"
 msgstr "ক্ষারীয়-ধাতু"
 
-#: src/kalziumschemetype.cpp:307
+#: src/kalziumschemetype.cpp:308
 msgid "Other Metal"
 msgstr "অন্যান্য ধাতু"
 
-#: src/kalziumschemetype.cpp:308
+#: src/kalziumschemetype.cpp:309
 #, fuzzy
 msgid "Halogen"
 msgstr "হ্যালোজেন"
 
-#: src/kalziumschemetype.cpp:309
+#: src/kalziumschemetype.cpp:310
 msgid "Transition Metal"
 msgstr "অবস্থান্তর ধাতু"
 
-#: src/kalziumschemetype.cpp:310
+#: src/kalziumschemetype.cpp:311
 msgid "Noble Gas"
 msgstr "অভিজাত গ্যাস"
 
-#: src/kalziumschemetype.cpp:311
+#: src/kalziumschemetype.cpp:312
 msgid "Metalloid"
 msgstr "অপধাতু"
 
-#: src/kalziumschemetype.cpp:336
+#: src/kalziumschemetype.cpp:337
 #, fuzzy
 msgid "Acidic Behaviour"
 msgstr "&এসিডীয় আচরণ"
 
-#: src/kalziumschemetype.cpp:371
+#: src/kalziumschemetype.cpp:372
 msgid "Basic"
 msgstr "ক্ষারকীয়"
 
-#: src/kalziumschemetype.cpp:372
+#: src/kalziumschemetype.cpp:373
 msgid "Acidic"
 msgstr "এসিডীয়"
 
-#: src/kalziumschemetype.cpp:373
+#: src/kalziumschemetype.cpp:374
 msgid "Neutral"
 msgstr "নিরপেক্ষ"
 
-#: src/kalziumschemetype.cpp:374
+#: src/kalziumschemetype.cpp:375
 #, fuzzy
 msgid "Amphoteric"
 msgstr "এসিড-ক্ষারকীয়"
 
-#: src/kalziumschemetype.cpp:399
+#: src/kalziumschemetype.cpp:400
 #, fuzzy
 msgid "Groups"
 msgstr "গ্রুপ (&গ)"
 
-#: src/kalziumschemetype.cpp:446
+#: src/kalziumschemetype.cpp:447
 msgid "Group 1"
 msgstr "১ম গ্রুপ"
 
-#: src/kalziumschemetype.cpp:447
+#: src/kalziumschemetype.cpp:448
 msgid "Group 2"
 msgstr "২য় গ্রুপ"
 
-#: src/kalziumschemetype.cpp:448
+#: src/kalziumschemetype.cpp:449
 msgid "Group 3"
 msgstr "৩য় গ্রুপ"
 
-#: src/kalziumschemetype.cpp:449
+#: src/kalziumschemetype.cpp:450
 msgid "Group 4"
 msgstr "৪র্থ গ্রুপ"
 
-#: src/kalziumschemetype.cpp:450
+#: src/kalziumschemetype.cpp:451
 msgid "Group 5"
 msgstr "৫ম গ্রুপ"
 
-#: src/kalziumschemetype.cpp:451
+#: src/kalziumschemetype.cpp:452
 msgid "Group 6"
 msgstr "৬ষ্ঠ গ্রুপ"
 
-#: src/kalziumschemetype.cpp:452 src/kalziumschemetype.cpp:453
+#: src/kalziumschemetype.cpp:453 src/kalziumschemetype.cpp:454
 msgid "Group 7"
 msgstr "৭ম গ্রুপ"
 
-#: src/kalziumschemetype.cpp:477
+#: src/kalziumschemetype.cpp:478
 #, fuzzy
 msgid "Crystal Structures"
 msgstr "কেলাসের &গঠন প্রদর্শন করো"
 
-#: src/kalziumschemetype.cpp:547
+#: src/kalziumschemetype.cpp:548
 msgid "bcc, body centered cubic"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:548
+#: src/kalziumschemetype.cpp:549
 msgid "ccp, cubic close packed"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:549
+#: src/kalziumschemetype.cpp:550
 msgid "fcc, face centered cubic"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:550
+#: src/kalziumschemetype.cpp:551
 msgid "hcp, hexagonal close packed"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:551
+#: src/kalziumschemetype.cpp:552
 msgid "rh, rhombohedral"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:552
+#: src/kalziumschemetype.cpp:553
 msgid "or, orthorhombic primitive"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:553
+#: src/kalziumschemetype.cpp:554
 msgid "ms, monoclinic"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:554
+#: src/kalziumschemetype.cpp:555
 msgid "ap, triclinic"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:555
+#: src/kalziumschemetype.cpp:556
 msgid "tp, tetragonal primitive"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:579
+#: src/kalziumschemetype.cpp:580
 msgid "Discovery Country"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:666
+#: src/kalziumschemetype.cpp:667
 #, fuzzy
 msgid "Germany"
 msgstr "জার্মানিয়াম"
 
-#: src/kalziumschemetype.cpp:667
+#: src/kalziumschemetype.cpp:668
 msgid "United Kindom"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:668
+#: src/kalziumschemetype.cpp:669
 msgid "Sweden"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:669
+#: src/kalziumschemetype.cpp:670
 msgid "USA"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:670
+#: src/kalziumschemetype.cpp:671
 msgid "Russia"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:671
+#: src/kalziumschemetype.cpp:672
 msgid "Italy"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:672
+#: src/kalziumschemetype.cpp:673
 msgid "Denmark"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:673
+#: src/kalziumschemetype.cpp:674
 #, fuzzy
 msgid "France"
 msgstr "ফ্রান্সিয়াম"
 
-#: src/kalziumschemetype.cpp:674
+#: src/kalziumschemetype.cpp:675
 msgid "Finland"
 msgstr ""
 
-#: src/kalziumschemetype.cpp:675
+#: src/kalziumschemetype.cpp:676
 #, fuzzy
 msgid "Spain"
 msgstr "স্পিন"
@@ -804,21 +819,35 @@ msgctxt "%1 is a length, eg: 12.3 pm"
 msgid "%1 pm"
 msgstr "%1 পিকোমিটার"
 
-#: src/legendwidget.cpp:80
+#: src/legendwidget.cpp:83
 msgid "Solid"
 msgstr "কঠিন"
 
-#: src/legendwidget.cpp:81
+#: src/legendwidget.cpp:84
 msgid "Liquid"
 msgstr "তরল"
 
-#: src/legendwidget.cpp:82
+#: src/legendwidget.cpp:85
 msgid "Vaporous"
 msgstr "বাষ্পীয়"
 
-#: src/legendwidget.cpp:83
+#: src/legendwidget.cpp:86
 msgid "Unknown"
 msgstr "অজ্ঞাত"
+
+#: src/legendwidget.cpp:99
+#, fuzzy, qt-format
+#| msgid "Minimum value:"
+msgctxt "Minimum value of the gradient"
+msgid "Minimum: %1"
+msgstr "সর্বনিম্ন মান:"
+
+#: src/legendwidget.cpp:100
+#, fuzzy, qt-format
+#| msgid "Maximum value:"
+msgctxt "Maximum value of the gradient"
+msgid "Maximum: %1"
+msgstr "সর্বোচ্চ মান:"
 
 #: src/main.cpp:32
 msgid "A periodic table of the elements"
@@ -2120,6 +2149,10 @@ msgstr ""
 msgid "&Copy"
 msgstr ""
 
+#, fuzzy
+#~ msgid "&Table Information"
+#~ msgstr "শক্তি সংক্রান্ত তথ্য"
+
 # FIXME
 #~ msgid "Show &Legend"
 #~ msgstr "বর্ণনা (legend) প্রদর্শন করো (&ণ)"
@@ -2334,9 +2367,6 @@ msgstr ""
 #~ msgid "Define the last element whose value should be plotted"
 #~ msgstr "সর্বশেষে যে মৌলটির মান লেখচিত্রে স্থাপন করা হবে, তা উল্লেখ করুন"
 
-#~ msgid "Minimum value:"
-#~ msgstr "সর্বনিম্ন মান:"
-
 #~ msgid "&Show element names"
 #~ msgstr "মৌলের নাম প্রদর্শন করো (&প)"
 
@@ -2345,9 +2375,6 @@ msgstr ""
 
 #~ msgid "Last element:"
 #~ msgstr "শেষ মৌল:"
-
-#~ msgid "Maximum value:"
-#~ msgstr "সর্বোচ্চ মান:"
 
 #~ msgid "&Connect points"
 #~ msgstr "&সংযোগ বিন্দু"
