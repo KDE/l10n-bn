@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-05 06:20+0200\n"
+"POT-Creation-Date: 2007-06-08 06:05+0200\n"
 "PO-Revision-Date: 2006-03-29 19:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -324,13 +324,13 @@ msgid "Tests"
 msgstr "পরীক্ষা"
 
 #. i18n: tag text
-#. i18n: file kig/kigpartui.rc line 282
+#. i18n: file kig/kigpartui.rc line 283
 #: rc.cpp:89
 msgid "Other Objects"
 msgstr "অন্যান্য বস্তু"
 
 #. i18n: tag text
-#. i18n: file kig/kigpartui.rc line 290
+#. i18n: file kig/kigpartui.rc line 291
 #: rc.cpp:92
 msgid "View"
 msgstr ""
@@ -1569,29 +1569,41 @@ msgid "Test whether a given polygon is convex"
 msgstr "প্রদত্ত বহুভুজটি উত্তল কিনা তা পরীক্ষা করো"
 
 #: misc/builtin_stuff.cc:582
+#, fuzzy
+#| msgid "Distance Test"
+msgid "Existence Test"
+msgstr "দূরত্বমাপক পরীক্ষা"
+
+#: misc/builtin_stuff.cc:583
+#, fuzzy
+#| msgid "Test whether a given polygon is convex"
+msgid "Test whether a given object is constructible"
+msgstr "প্রদত্ত বহুভুজটি উত্তল কিনা তা পরীক্ষা করো"
+
+#: misc/builtin_stuff.cc:590
 msgid "Distance Test"
 msgstr "দূরত্বমাপক পরীক্ষা"
 
 # FIXME
-#: misc/builtin_stuff.cc:583
+#: misc/builtin_stuff.cc:591
 msgid ""
 "Test whether a given point have the same distance from a given point and "
 "from another given point"
 msgstr "প্রদত্ত দুটি বিন্দু থেকে তৃতীয় একটি প্রদত্ত বিন্দুর দূরত্ব সমান কিনা তা পরীক্ষা করো"
 
-#: misc/builtin_stuff.cc:591
+#: misc/builtin_stuff.cc:599
 msgid "Vector Equality Test"
 msgstr "ভেক্টর সাম্য পরীক্ষা"
 
-#: misc/builtin_stuff.cc:592
+#: misc/builtin_stuff.cc:600
 msgid "Test whether two vectors are equal"
 msgstr "দুটি ভেক্টর সমান কিনা তা পরীক্ষা করে"
 
-#: misc/builtin_stuff.cc:633 modes/popup.cc:1009
+#: misc/builtin_stuff.cc:641 modes/popup.cc:1009
 msgid "Python Script"
 msgstr "পাইথন স্ক্রিপ্ট"
 
-#: misc/builtin_stuff.cc:634
+#: misc/builtin_stuff.cc:642
 msgid "Construct a new Python script."
 msgstr "একটি নতুন পাইথন স্ক্রিপ্ট তৈরি করো।"
 
@@ -4107,6 +4119,28 @@ msgstr "ভেক্টরদ্বয় সমান।"
 #: objects/tests_type.cc:376
 msgid "The two vectors are not the same."
 msgstr "ভেক্টরদ্বয় অসমান"
+
+#: objects/tests_type.cc:386
+#, fuzzy
+#| msgid "Check whether this point is on a curve"
+msgid "Check whether this object exists"
+msgstr "এই বিন্দুটি কোন বক্ররেখার উপর অবস্থিত কিনা তা পরীক্ষা করো"
+
+#: objects/tests_type.cc:387
+#, fuzzy
+#| msgid "Select the object to scale..."
+msgid "Select the object for the existence check..."
+msgstr "যে বস্তুর আকার পরিবর্তন করা হবে তা বেছে নিন..."
+
+#: objects/tests_type.cc:411
+#, fuzzy
+#| msgid "Object Type"
+msgid "Object exists."
+msgstr "বস্তুর ধরন"
+
+#: objects/tests_type.cc:413
+msgid "The Object does not exist."
+msgstr ""
 
 #: objects/text_imp.cc:84
 msgid "Text"
