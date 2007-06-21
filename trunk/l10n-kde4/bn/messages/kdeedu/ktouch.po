@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktouch (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-14 17:54+0200\n"
+"POT-Creation-Date: 2007-06-21 05:12+0200\n"
 "PO-Revision-Date: 2006-03-30 14:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: ktouch.cpp:156 ktouch.cpp:856 ktouch.cpp:863
+#: ktouch.cpp:156 ktouch.cpp:859 ktouch.cpp:866
 #, fuzzy
 msgid "Default User"
 msgstr "একটি নতুন লেকচার..."
@@ -168,32 +168,26 @@ msgstr "ডিফল্ট লে&কচার"
 msgid "&Keyboard Layouts"
 msgstr "কীবোর্ড বিন্যাস (&ক)"
 
-#: ktouch.cpp:701
-#, fuzzy
-#| msgid "untitled keyboard layout"
-msgid "More keyboard layouts..."
-msgstr "নামবিহীন কীবোর্ড বিন্যাস"
-
-#: ktouch.cpp:707
+#: ktouch.cpp:710
 #, fuzzy
 msgid "Keyboards &Color Schemes"
 msgstr "কীবোর্ডের &রং বিন্যাস"
 
-#: ktouch.cpp:720
+#: ktouch.cpp:723
 msgid "&Setup Users..."
 msgstr ""
 
-#: ktouch.cpp:725
+#: ktouch.cpp:728
 #, fuzzy
 msgid "&Current User"
 msgstr "বর্তমান স্তর"
 
-#: ktouch.cpp:777 ktouchkeyboard.cpp:268 ktouchkeyboard.cpp:320
+#: ktouch.cpp:780 ktouchkeyboard.cpp:268 ktouchkeyboard.cpp:320
 #: ktouchkeyboardeditordialog.cpp:525 ktouchkeyboardeditordialog.cpp:577
 msgid "untitled keyboard layout"
 msgstr "নামবিহীন কীবোর্ড বিন্যাস"
 
-#: ktouch.cpp:810 ktouchlecture.cpp:189 ktouchlecture.cpp:221
+#: ktouch.cpp:813 ktouchlecture.cpp:206 ktouchlecture.cpp:238
 msgid "untitled lecture"
 msgstr "নামহীন লেকচার"
 
@@ -565,27 +559,27 @@ msgstr ""
 msgid "Sessions"
 msgstr "সেশন"
 
-#: ktouchtrainer.cpp:294
+#: ktouchtrainer.cpp:296
 msgid "Starting training session: Waiting for first keypress..."
 msgstr "প্রশিক্ষণ পর্ব আরম্ভ হচ্ছে: প্রথম কী (key) চাপার জন্য অপেক্ষা করছি..."
 
-#: ktouchtrainer.cpp:313
+#: ktouchtrainer.cpp:315
 msgid "Training session paused. Training continues on next keypress..."
 msgstr ""
 "প্রশিক্ষণ সেশনে বিরতি দেওয়া হয়েছে।  পরবর্তীবার কী চাপা হলে প্রশিক্ষণ পর্ব সচল "
 "হবে..."
 
-#: ktouchtrainer.cpp:326
+#: ktouchtrainer.cpp:328
 msgid "Training session! The time is running..."
 msgstr "প্রশিক্ষণ পর্ব!  সময় গড়িয়ে যাচ্ছে..."
 
-#: ktouchtrainer.cpp:411
+#: ktouchtrainer.cpp:413
 msgid ""
 "You have finished this training exercise.\n"
 "This training session will start from the beginning."
 msgstr ""
 
-#: ktouchtrainer.cpp:412
+#: ktouchtrainer.cpp:414
 msgid "You rock!"
 msgstr ""
 
@@ -753,141 +747,153 @@ msgstr "কীতে রং ব্যবহার করা হবে কিন�
 #. i18n: file ktouch.kcfg line 89
 #: rc.cpp:60
 #, fuzzy
-msgid "Whether to show the keyboard display."
+msgid "Whether to show only the learned/known keys or always all keys."
 msgstr "কীবোর্ডের জন্য পূর্বনির্ধারিত ফন্টকে অগ্রাহ্য করা হবে কিনা।"
 
 #. i18n: tag label
 #. i18n: file ktouch.kcfg line 93
 #: rc.cpp:63
-msgid "Whether to override the default/predefined keyboard fonts."
+#, fuzzy
+msgid "Whether to show the keyboard display."
 msgstr "কীবোর্ডের জন্য পূর্বনির্ধারিত ফন্টকে অগ্রাহ্য করা হবে কিনা।"
 
 #. i18n: tag label
 #. i18n: file ktouch.kcfg line 97
 #: rc.cpp:66
-msgid "The font for the keys on the keyboard"
-msgstr "কীবোর্ডের কী-এর জন্য ফন্ট"
+msgid "Whether to override the default/predefined keyboard fonts."
+msgstr "কীবোর্ডের জন্য পূর্বনির্ধারিত ফন্টকে অগ্রাহ্য করা হবে কিনা।"
 
 #. i18n: tag label
 #. i18n: file ktouch.kcfg line 101
 #: rc.cpp:69
+msgid "The font for the keys on the keyboard"
+msgstr "কীবোর্ডের কী-এর জন্য ফন্ট"
+
+#. i18n: tag label
+#. i18n: file ktouch.kcfg line 105
+#: rc.cpp:72
 msgid "The currently loaded keyboard file"
 msgstr "বর্তমানে ব্যবহৃত কীবোর্ড ফাইল"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 107
-#: rc.cpp:72
+#. i18n: file ktouch.kcfg line 111
+#: rc.cpp:75
 msgid "Requires user to press enter after the line is complete."
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 111
-#: rc.cpp:75
+#. i18n: file ktouch.kcfg line 115
+#: rc.cpp:78
 msgid "Allow automatic level adjustments"
 msgstr "স্বয়ংক্রিয় স্তর সমন্বয়ের ব্যবহার অনুমোদন করো"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 115
-#: rc.cpp:78
+#. i18n: file ktouch.kcfg line 119
+#: rc.cpp:81
 msgid "Diable manual level adjustments when auto-level change is enabled"
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 119
-#: rc.cpp:81
+#. i18n: file ktouch.kcfg line 123
+#: rc.cpp:84
 msgid "Remember the current level for the next KTouch start"
 msgstr "পরবর্তীবার কে-টাচ চালু হওয়ার সময় বর্তমান স্তর থেকে আরম্ভ করবে"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 123
-#: rc.cpp:84
+#. i18n: file ktouch.kcfg line 127
+#: rc.cpp:87
 msgid "The current training level"
 msgstr "বর্তমান প্রশিক্ষণ স্তর"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 127
-#: rc.cpp:87
+#. i18n: file ktouch.kcfg line 131
+#: rc.cpp:90
 msgid "Number of chars per minute to increase a level"
 msgstr "স্তর পরিবর্তনের ফলে মিনিট প্রতি অক্ষরের সংখ্যা যতটি বৃদ্ধি পাবে"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 131
-#: rc.cpp:90
+#. i18n: file ktouch.kcfg line 135
+#: rc.cpp:93
 msgid "Percentage of correctness to increase a level"
 msgstr "স্তর পরিবর্তনের ফলে যত শতাংশ নির্ভুলতা বৃদ্ধি পাবে"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 135
-#: rc.cpp:93
+#. i18n: file ktouch.kcfg line 139
+#: rc.cpp:96
 msgid "Number of chars per minute to decrease a level"
 msgstr "স্তর পরিবর্তনের ফলে মিনিট প্রতি অক্ষরের সংখ্যা যতটি হ্রাস পাবে"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 139
-#: rc.cpp:96
+#. i18n: file ktouch.kcfg line 143
+#: rc.cpp:99
 msgid "Percentage of correctness to decrease a level"
 msgstr "স্তর পরিবর্তনের ফলে যত শতাংশ নির্ভুলতা হ্রাস পাবে"
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 143
-#: rc.cpp:99
+#. i18n: file ktouch.kcfg line 147
+#: rc.cpp:102
 msgid "How many lines that must be typed before level can change"
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file ktouch.kcfg line 147
-#: rc.cpp:102
-msgid "Run minimum one complete level before going up"
-msgstr ""
-
-#. i18n: tag label
-#. i18n: file ktouch.kcfg line 153
+#. i18n: file ktouch.kcfg line 151
 #: rc.cpp:105
-msgid "Allow multiple KTouch users for single user account"
+msgid "Run minimum one complete level before going up"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file ktouch.kcfg line 157
 #: rc.cpp:108
+msgid "Allow multiple KTouch users for single user account"
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file ktouch.kcfg line 161
+#: rc.cpp:111
 #, fuzzy
 msgid "The user name of the current user."
 msgstr "বর্তমান রং বিন্যাসের সংখ্যা।"
 
 #. i18n: tag text
 #. i18n: file ktouchui.rc line 4
-#: rc.cpp:111
+#: rc.cpp:114
 msgid "F&ile"
 msgstr "ফাইল (&ফ)"
 
 #. i18n: tag text
 #. i18n: file ktouchui.rc line 12
-#: rc.cpp:114
+#: rc.cpp:117
 msgid "T&raining"
 msgstr "প্রশিক্ষণ (&শ)"
 
 #. i18n: tag text
 #. i18n: file ktouchui.rc line 19
-#: rc.cpp:117
+#: rc.cpp:120
 #, fuzzy
 msgid "&Settings"
 msgstr "রঙের বৈশিষ্ট্য"
 
 #. i18n: tag text
 #. i18n: file ktouchui.rc line 27
-#: rc.cpp:120
+#: rc.cpp:123
 msgid "Main Toolbar"
 msgstr ""
 
 # Total untranslated string: 4.
-#: rc.cpp:121
+#: rc.cpp:124
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "প্রজ্ঞা"
 
-#: rc.cpp:122
+#: rc.cpp:125
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "progga@BengaLinux.Org"
+
+#, fuzzy
+#~| msgid "untitled keyboard layout"
+#~ msgid "More keyboard layouts..."
+#~ msgstr "নামবিহীন কীবোর্ড বিন্যাস"
 
 #~ msgid "Progress"
 #~ msgstr "অগ্রগতি"
