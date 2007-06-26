@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_imap4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-05-28 05:51+0200\n"
+"POT-Creation-Date: 2007-06-26 05:24+0200\n"
 "PO-Revision-Date: 2004-05-23 19:40-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -52,9 +52,16 @@ msgstr "ফোল্ডার %1 আন-সাবস্ক্রাইব কর
 msgid "Subscribe of folder %1 failed. The server returned: %2"
 msgstr "ফোল্ডার %1 সাবস্ক্রাইব করতে ব্যর্থ।"
 
-#: imap4.cc:1376 imap4.cc:1388
-#, qt-format
-msgid "Changing the flags of message %1 failed."
+#: imap4.cc:1376
+#, fuzzy, qt-format
+#| msgid "Changing the flags of message %1 failed."
+msgid "Changing the flags of message %1 failed with %2."
+msgstr "বার্তা %1-এর ফ্ল্যাগ পরিবর্তন করতে ব্যর্থ।"
+
+#: imap4.cc:1388
+#, fuzzy, qt-format
+#| msgid "Changing the flags of message %1 failed."
+msgid "Silent Changing the flags of message %1 failed with %2."
 msgstr "বার্তা %1-এর ফ্ল্যাগ পরিবর্তন করতে ব্যর্থ।"
 
 #: imap4.cc:1428
