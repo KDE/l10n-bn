@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmconfig\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-06-23 05:21+0200\n"
+"POT-Creation-Date: 2007-06-30 04:44+0200\n"
 "PO-Revision-Date: 2005-11-30 00:26-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -255,7 +255,7 @@ msgstr ""
 msgid "Enable this if you would like to use a themed Login Manager."
 msgstr ""
 
-#: kdm-gen.cpp:63 kdm-gen.cpp:76 kdm-users.cpp:95
+#: kdm-gen.cpp:63 kdm-gen.cpp:76 kdm-users.cpp:99
 msgid "<default>"
 msgstr "<ডিফল্ট>"
 
@@ -518,11 +518,16 @@ msgstr ""
 msgid "Remove themes?"
 msgstr ""
 
-#: kdm-users.cpp:99
+#: kdm-users.cpp:96
+msgid ""
+"User 'nobody' does not exist. Displaying user images will not work in KDM."
+msgstr ""
+
+#: kdm-users.cpp:103
 msgid "System U&IDs"
 msgstr "সিস্টেম &ইউ-আই-ডি"
 
-#: kdm-users.cpp:100
+#: kdm-users.cpp:104
 msgid ""
 "Users with a UID (numerical user identification) outside this range will not "
 "be listed by KDM and this setup dialog. Note that users with the UID 0 "
@@ -530,43 +535,43 @@ msgid ""
 "\"Not hidden\" mode."
 msgstr ""
 
-#: kdm-users.cpp:105
+#: kdm-users.cpp:109
 msgid "Below:"
 msgstr "তলায়:"
 
-#: kdm-users.cpp:112
+#: kdm-users.cpp:116
 msgid "Above:"
 msgstr "উপরে:"
 
-#: kdm-users.cpp:125
+#: kdm-users.cpp:129
 msgid "Users"
 msgstr "ব্যবহারকারী"
 
-#: kdm-users.cpp:126
+#: kdm-users.cpp:130
 msgid "Show list"
 msgstr "তালিকা দেখাও"
 
-#: kdm-users.cpp:127
+#: kdm-users.cpp:131
 msgid ""
 "If this option is checked, KDM will show a list of users, so users can click "
 "on their name or image rather than typing in their login."
 msgstr ""
 
-#: kdm-users.cpp:129
+#: kdm-users.cpp:133
 msgid "Autocompletion"
 msgstr "স্বয়ংক্রিয় পরিপূরণ"
 
-#: kdm-users.cpp:130
+#: kdm-users.cpp:134
 msgid ""
 "If this option is checked, KDM will automatically complete user names while "
 "they are typed in the line edit."
 msgstr ""
 
-#: kdm-users.cpp:132
+#: kdm-users.cpp:136
 msgid "Inverse selection"
 msgstr "নির্বাচন ওল্টাও"
 
-#: kdm-users.cpp:133
+#: kdm-users.cpp:137
 msgid ""
 "This option specifies how the users for \"Show list\" and \"Autocompletion\" "
 "are selected in the \"Select users and groups\" list: If not checked, select "
@@ -574,11 +579,11 @@ msgid ""
 "checked ones."
 msgstr ""
 
-#: kdm-users.cpp:137
+#: kdm-users.cpp:141
 msgid "Sor&t users"
 msgstr "ব্যবহারকারীদের ক্রমান্বয়ে সাজা&ও"
 
-#: kdm-users.cpp:138
+#: kdm-users.cpp:142
 msgid ""
 "If this is checked, KDM will alphabetically sort the user list. Otherwise "
 "users are listed in the order they appear in the password file."
@@ -586,35 +591,35 @@ msgstr ""
 "এটি নির্বাচন করা হলে ব্যবহারকারীদের বর্ণানুক্রমে সাজানো হবে। অন্যথা, তাদের "
 "পাসওয়ার্ড ফাইল-এর ক্রমানুসারে তালিকাবদ্ধ করা হবে।"
 
-#: kdm-users.cpp:155
+#: kdm-users.cpp:159
 msgid "S&elect users and groups:"
 msgstr "ব্যবহারকারী এবং গ্রুপ বেছে নি&ন:"
 
-#: kdm-users.cpp:158
+#: kdm-users.cpp:162
 msgid "Selected Users"
 msgstr "নির্বাচিত ব্যবহারকারী"
 
-#: kdm-users.cpp:160
+#: kdm-users.cpp:164
 msgid ""
 "KDM will show all checked users. Entries denoted with '@' are user groups. "
 "Checking a group is like checking all users in that group."
 msgstr ""
 
-#: kdm-users.cpp:167
+#: kdm-users.cpp:171
 msgid "Hidden Users"
 msgstr "লুকনো ব্যবহারকারী"
 
-#: kdm-users.cpp:169
+#: kdm-users.cpp:173
 msgid ""
 "KDM will show all non-checked non-system users. Entries denoted with '@' are "
 "user groups. Checking a group is like checking all users in that group."
 msgstr ""
 
-#: kdm-users.cpp:176
+#: kdm-users.cpp:180
 msgid "User Image Source"
 msgstr "ব্যবহারকারীদের ছবির উত্‍স"
 
-#: kdm-users.cpp:177
+#: kdm-users.cpp:181
 msgid ""
 "Here you can specify where KDM will obtain the images that represent users. "
 "\"Admin\" represents the global folder; these are the pictures you can set "
@@ -623,59 +628,59 @@ msgid ""
 "sources are available."
 msgstr ""
 
-#: kdm-users.cpp:181
+#: kdm-users.cpp:185
 msgid "Admin"
 msgstr "অ্যাডমিন"
 
-#: kdm-users.cpp:182
+#: kdm-users.cpp:186
 msgid "Admin, user"
 msgstr "অ্যাডমিন, ব্যবহারকারী"
 
-#: kdm-users.cpp:183
+#: kdm-users.cpp:187
 msgid "User, admin"
 msgstr "ব্যবহারকারী, অ্যাডমিন"
 
-#: kdm-users.cpp:184
+#: kdm-users.cpp:188
 msgid "User"
 msgstr "ব্যবহারকারী"
 
-#: kdm-users.cpp:198
+#: kdm-users.cpp:202
 msgid "User Images"
 msgstr "ব্যবহারকারীদের ছবি"
 
-#: kdm-users.cpp:200
+#: kdm-users.cpp:204
 msgid "The user the image below belongs to."
 msgstr "ছবিটি যে ব্যবহারকারীর"
 
-#: kdm-users.cpp:203
+#: kdm-users.cpp:207
 msgid "User:"
 msgstr "ব্যবহারকারী:"
 
-#: kdm-users.cpp:212
+#: kdm-users.cpp:216
 msgid "Click or drop an image here"
 msgstr "এখানে ক্লিক করুন অথবা একটি ছবি ড্রপ করুন"
 
-#: kdm-users.cpp:213
+#: kdm-users.cpp:217
 msgid ""
 "Here you can see the image assigned to the user selected in the combo box "
 "above. Click on the image button to select from a list of images or drag and "
 "drop your own image on to the button (e.g. from Konqueror)."
 msgstr ""
 
-#: kdm-users.cpp:215
+#: kdm-users.cpp:219
 msgid "Unset"
 msgstr "নিষ্ক্রিয় করো"
 
-#: kdm-users.cpp:216
+#: kdm-users.cpp:220
 msgid ""
 "Click this button to make KDM use the default image for the selected user."
 msgstr ""
 
-#: kdm-users.cpp:318
+#: kdm-users.cpp:322
 msgid "Save image as default image?"
 msgstr "ছবিটি ডিফল্ট ছবি হিসাবে সংরক্ষণ করব?"
 
-#: kdm-users.cpp:327
+#: kdm-users.cpp:331
 #, qt-format
 msgid ""
 "There was an error loading the image\n"
@@ -684,7 +689,7 @@ msgstr ""
 "ছবিটি লোড করতে সমস্যা দেখা দিয়েছে\n"
 "%1"
 
-#: kdm-users.cpp:335
+#: kdm-users.cpp:339
 #, qt-format
 msgid ""
 "There was an error saving the image:\n"
@@ -692,10 +697,6 @@ msgid ""
 msgstr ""
 "ছবিটি সংরক্ষণ করতে সমস্যা দেখা দিয়েছে:\n"
 "%1"
-
-#: kdm-users.cpp:347
-msgid "Choose Image"
-msgstr "ছবি বেছে নিন"
 
 #: main.cpp:74
 #, qt-format
@@ -815,6 +816,9 @@ msgstr "দীপায়ন সরকার"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
+
+#~ msgid "Choose Image"
+#~ msgstr "ছবি বেছে নিন"
 
 #~ msgid "without name"
 #~ msgstr "নাম ছাড়া"
