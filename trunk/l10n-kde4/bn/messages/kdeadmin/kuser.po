@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-03 05:07+0200\n"
+"POT-Creation-Date: 2007-07-08 04:53+0200\n"
 "PO-Revision-Date: 2006-05-13 15:27-0500\n"
 "Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -50,7 +50,7 @@ msgstr "ইউ-আই-ডি %1 সহ একজন ব্যবহারকা�
 msgid "User with RID %1 already exists."
 msgstr "আর-আই-ডি %1সহ একজন ব্যবহারকারী ইতিমধ্যে রয়েছে। "
 
-#: ku_adduser.cpp:120
+#: ku_adduser.cpp:121
 #, fuzzy, qt-format
 msgid ""
 "Folder %1 already exists.\n"
@@ -61,22 +61,22 @@ msgstr ""
 "%2 মালিক হয়ে যেতে পারে এবং অনুমতির হয়ত পরিবর্তন হতে পারে।\n"
 "আপনি কি %3 ব্যবহার করতে সত্যি চান?"
 
-#: ku_adduser.cpp:127
+#: ku_adduser.cpp:128
 #, qt-format
 msgid "%1 is not a folder."
 msgstr "%1 একটি ফোল্ডার নয়।"
 
-#: ku_adduser.cpp:129 ku_adduser.cpp:156
+#: ku_adduser.cpp:130 ku_adduser.cpp:157
 #, qt-format
 msgid "stat() failed on %1."
 msgstr " %1 -এ stat() ব্যর্থ হল।"
 
-#: ku_adduser.cpp:149
+#: ku_adduser.cpp:150
 #, qt-format
 msgid "Mailbox %1 already exists (uid=%2)."
 msgstr "ডাকবাক্স %1 ইতিমধ্যে রয়েছে (ইউ-আই-ডি=%2)।"
 
-#: ku_adduser.cpp:153
+#: ku_adduser.cpp:154
 #, qt-format
 msgid "%1 exists but is not a regular file."
 msgstr "%1 রয়েছে কিন্তু এটি একটি নিয়মিত ফাইল নয়।"
@@ -454,33 +454,33 @@ msgstr "ব্যবহারকারীর বৈশিষ্ট্যাব�
 msgid "Do Not Change"
 msgstr "পরিবর্তন করো না"
 
-#: ku_edituser.cpp:908
+#: ku_edituser.cpp:910
 msgid "You need to specify an UID."
 msgstr "আপনার একটি ইউ-আই-ডি উল্লেখ করার প্রয়োজন।"
 
-#: ku_edituser.cpp:913
+#: ku_edituser.cpp:915
 msgid "You must specify a home directory."
 msgstr "আপনি একটি হোম ডিরেক্টরী অবশ্যই উল্লেখ করবেন।"
 
-#: ku_edituser.cpp:919
+#: ku_edituser.cpp:921
 msgid "You must fill the surname field."
 msgstr "আপনি পদবি ক্ষেত্র অবশ্যই ভর্তি করবেন।"
 
-#: ku_edituser.cpp:926
+#: ku_edituser.cpp:928
 msgid "You need to specify a samba RID."
 msgstr "আপনার একটি সাম্বা আর-আই-ডি উল্লেখ করার প্রয়োজন।"
 
-#: ku_edituser.cpp:970
+#: ku_edituser.cpp:973
 #, qt-format
 msgid "User with UID %1 already exists"
 msgstr "ইউ-আই-ডি %1 সহ একজন ব্যবহারকারী ইতিমধ্যে রয়েছে"
 
-#: ku_edituser.cpp:980
+#: ku_edituser.cpp:983
 #, qt-format
 msgid "User with RID %1 already exists"
 msgstr "আর-আই-ডি %1 সহ একজন ব্যবহারকারী ইতিমধ্যে রয়েছে"
 
-#: ku_edituser.cpp:994
+#: ku_edituser.cpp:997
 #, qt-format
 msgid ""
 "<p>The shell %1 is not yet listed in the file %2. In order to use this shell "
@@ -489,15 +489,15 @@ msgstr ""
 "<p>শেল %1 ফাইল %2-এ এখনও তালিকাভুক্ত নয়। এই শেলটি ব্যবহার করার জন্য আপনি প্রথমে "
 "এই ফাইলটিতে এটিকে অবশ্যই যোগ করবেন।<p>আপনি কি এখন এটি যোগ করতে চান?"
 
-#: ku_edituser.cpp:998
+#: ku_edituser.cpp:1001
 msgid "Unlisted Shell"
 msgstr "শেল তালিকভুক্ত নয়"
 
-#: ku_edituser.cpp:999
+#: ku_edituser.cpp:1002
 msgid "&Add Shell"
 msgstr "শে&ল যোগ করো"
 
-#: ku_edituser.cpp:1000
+#: ku_edituser.cpp:1003
 msgid "Do &Not Add"
 msgstr "যো&গ করো না"
 
@@ -525,16 +525,11 @@ msgstr "পড়ার জন্য %1 খুলতে ত্রুটি হয়�
 msgid "Error opening %1 for writing."
 msgstr "লেখার জন্য %1 খুলতে ত্রুটি হয়েছে।"
 
-#: ku_groupldap.cpp:90 ku_userldap.cpp:92
-#, fuzzy
-msgid "Unknown error"
-msgstr "অজানা"
-
-#: ku_groupldap.cpp:161
+#: ku_groupldap.cpp:155
 msgid "Loading Groups From LDAP"
 msgstr "এল-ডি-এ-পি থেকে গ্রুপ লোড করা হচ্ছে"
 
-#: ku_groupldap.cpp:189 ku_userldap.cpp:621
+#: ku_groupldap.cpp:201 ku_userldap.cpp:516
 msgid "LDAP Operation"
 msgstr "এল-ডি-এ-পি অপারেশন"
 
@@ -1029,7 +1024,7 @@ msgstr ""
 msgid "Unable to build password database."
 msgstr "পাসওয়ার্ড ডেটাবেস তৈরি করতে অক্ষম।"
 
-#: ku_userldap.cpp:245
+#: ku_userldap.cpp:227
 msgid "Loading Users From LDAP"
 msgstr "এল-ডি-এ-পি থেকে ব্যবহারকারী লোড করা হচ্ছে"
 
@@ -2083,6 +2078,10 @@ msgstr "গোলাম মোর্তুজা হোসেন"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "gmhossain@gmail com"
+
+#, fuzzy
+#~ msgid "Unknown error"
+#~ msgstr "অজানা"
 
 #~ msgid "LDAP Query"
 #~ msgstr "এল-ডি-এ-পি অনুসন্ধান"
