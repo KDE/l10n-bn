@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-27 05:46+0200\n"
+"POT-Creation-Date: 2007-07-28 05:33+0200\n"
 "PO-Revision-Date: 2006-05-13 15:21-0500\n"
 "Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -22,6 +22,41 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: debInterface.cpp:61
+msgid "Download only"
+msgstr "কেবলমাত্র ডাউনলোড"
+
+#: debInterface.cpp:312
+msgid "&Apt-File Update"
+msgstr "&এপিটি-ফাইল আপডেট"
+
+#: debInterface.cpp:332
+#, qt-format
+msgid "The %1 program needs to be installed"
+msgstr "প্রোগ্র্যাম %1 ইনস্টল করার প্রয়োজন"
+
+#: debInterface.cpp:346
+msgid "Querying DEB APT available list"
+msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা অনুসন্ধান করছে"
+
+#: debInterface.cpp:348
+#, qt-format
+msgid "Querying DEB APT available list: %1"
+msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা অনুসন্ধান করছে: %1"
+
+#: debInterface.cpp:353
+msgid "Processing DEB APT available list"
+msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা প্রসেস করছে"
+
+#: debInterface.cpp:355
+#, qt-format
+msgid "Processing DEB APT available list: %1"
+msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা প্রসেস করছে: %1"
+
+#: debInterface.cpp:389
+msgid "DEB APT"
+msgstr "ডেব এপিটি"
 
 #: findf.cpp:56
 msgid "Find File"
@@ -43,31 +78,27 @@ msgstr "খোঁজো:"
 msgid "Installed"
 msgstr "ইনস্টলকৃত"
 
-#: findf.cpp:92
-msgid "Type"
-msgstr "ধরন"
-
-#: findf.cpp:94 kplview.cpp:60
+#: findf.cpp:93 kplview.cpp:60
 msgid "Package"
 msgstr "প্যাকেজ"
 
-#: findf.cpp:95
+#: findf.cpp:94
 msgid "File Name"
 msgstr "ফাইলের নাম"
 
-#: findf.cpp:100
+#: findf.cpp:99
 msgid "Also search uninstalled packages"
 msgstr "আন-ইনষ্টলকৃত প্যাকেজও অনুসন্ধান করো"
 
-#: findf.cpp:103
+#: findf.cpp:102
 msgid "Also search uninstalled packages (apt-file needs to be installed)"
 msgstr "আন-ইনষ্টলকৃত প্যাকেজও অনুসন্ধান করো (এপিটি-ফাইল ইনস্টল করা প্রয়োজন)"
 
-#: findf.cpp:180
+#: findf.cpp:179
 msgid "--Nothing found--"
 msgstr "--কোনও কিছুই পাওয়া যায়নি--"
 
-#: findf.cpp:230
+#: findf.cpp:229
 msgid "Incorrect URL type"
 msgstr "বেঠিক ইউআরএল ধরন"
 
@@ -380,19 +411,19 @@ msgstr "ফাইল তালিকা"
 msgid "Change Log"
 msgstr "পরিবর্তন কার্যবিবরণী"
 
-#: packageDisplay.cpp:305
+#: packageDisplay.cpp:304
 msgid " - No change log -"
 msgstr "- কোনও পরিবর্তন কার্যবিবরণী নয় -"
 
-#: packageDisplay.cpp:322 packageDisplay.cpp:344
+#: packageDisplay.cpp:321 packageDisplay.cpp:343
 msgid "Updating File List"
 msgstr "ফাইল তালিকা আপডেট করা হচ্ছে "
 
-#: packageDisplay.cpp:351
+#: packageDisplay.cpp:350
 msgid " Files"
 msgstr " ফাইল"
 
-#: packageDisplay.cpp:407
+#: packageDisplay.cpp:406
 msgid "&Open With..."
 msgstr "&এটি দিয়ে খোলো..."
 
@@ -740,40 +771,8 @@ msgstr "নোট"
 msgid "%1 was not found."
 msgstr "%1 খুঁজে পাওয়া যায়নি।"
 
-#: smartInterface.cpp:61
-msgid "Download only"
-msgstr "কেবলমাত্র ডাউনলোড"
-
-#: smartInterface.cpp:312
-msgid "&Apt-File Update"
-msgstr "&এপিটি-ফাইল আপডেট"
-
-#: smartInterface.cpp:332
-#, qt-format
-msgid "The %1 program needs to be installed"
-msgstr "প্রোগ্র্যাম %1 ইনস্টল করার প্রয়োজন"
-
-#: smartInterface.cpp:346
-msgid "Querying DEB APT available list"
-msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা অনুসন্ধান করছে"
-
-#: smartInterface.cpp:348
-#, qt-format
-msgid "Querying DEB APT available list: %1"
-msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা অনুসন্ধান করছে: %1"
-
-#: smartInterface.cpp:353
-msgid "Processing DEB APT available list"
-msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা প্রসেস করছে"
-
-#: smartInterface.cpp:355
-#, qt-format
-msgid "Processing DEB APT available list: %1"
-msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা প্রসেস করছে: %1"
-
-#: smartInterface.cpp:389
-msgid "DEB APT"
-msgstr "ডেব এপিটি"
+#~ msgid "Type"
+#~ msgstr "ধরন"
 
 #~ msgid "Unknown package type: %1"
 #~ msgstr "অজানা প্যাকেজ ধরন: %1"
