@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 2007-07-16 01:12+0200\n"
+"POT-Creation-Date: 2007-08-16 01:12+0200\n"
 "PO-Revision-Date: 2006-03-22 11:11-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -153,7 +153,7 @@ msgstr "&আনুষঙ্গিক"
 msgid "&Settings"
 msgstr "&পছন্দ"
 
-#. i18n: file ./kdeui/ui_standards.rc line 184
+#. i18n: file ./kdeui/ui_standards.rc line 186
 #: common_texts.cpp:254 rc.cpp:78 rc.cpp:275
 #, no-c-format
 msgid "Main Toolbar"
@@ -1001,6 +1001,7 @@ msgid "Sorry"
 msgstr "দুঃখিত"
 
 #: common_texts.cpp:119 kdeui/kstdguiitem.cpp:269
+#: kdeui/kswitchlanguagedialog.cpp:304
 msgid "Remove"
 msgstr "সরিয়ে ফেলো"
 
@@ -4944,6 +4945,58 @@ msgstr ""
 msgid "Please click and drag on the image to select the region of interest:"
 msgstr ""
 
+#: kdeui/kswitchlanguagedialog.cpp:90
+#, fuzzy
+msgid "Switch application language"
+msgstr "অ্যাপলিকেশন-এর নাম নির্ধারণ করে"
+
+#: kdeui/kswitchlanguagedialog.cpp:96
+msgid "Please choose language which should be used for this application"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:123
+#, fuzzy
+msgid "Add fallback language"
+msgstr "ডিফল্ট ভাষা:"
+
+#: kdeui/kswitchlanguagedialog.cpp:124
+msgid ""
+"Adds one more language which will be used if other translations do not contain "
+"proper translation"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:222
+msgid ""
+"Language for this application has been changed. The change will take effect "
+"upon next start of application"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:223
+msgid "Application language changed"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:282
+#, fuzzy
+msgid "Primary language:"
+msgstr "ডিফল্ট ভাষা:"
+
+#: kdeui/kswitchlanguagedialog.cpp:282
+#, fuzzy
+msgid "Fallback language:"
+msgstr "ডিফল্ট ভাষা:"
+
+#: kdeui/kswitchlanguagedialog.cpp:316
+msgid ""
+"This is main application language which will be used first before any other "
+"languages"
+msgstr ""
+
+#: kdeui/kswitchlanguagedialog.cpp:320
+msgid ""
+"This is language which will be used if any previous languages does not contain "
+"proper translation"
+msgstr ""
+
 #: kdeui/ksconfig.cpp:102
 msgid "Create &root/affix combinations not in dictionary"
 msgstr ""
@@ -5316,7 +5369,7 @@ msgstr "প্রশ্ন"
 msgid "Do not ask again"
 msgstr "আর জিজ্ঞাসা করার প্রয়োজন নেই"
 
-#: kdeui/kaboutdialog.cpp:1535 kdeui/khelpmenu.cpp:213
+#: kdeui/kaboutdialog.cpp:1535 kdeui/khelpmenu.cpp:226
 #: kdeui/kmessagebox.cpp:975
 #, c-format
 msgid "About %1"
@@ -6334,24 +6387,29 @@ msgid ""
 "&Next"
 msgstr "&এগিয়ে যাও"
 
-#: kdeui/khelpmenu.cpp:125 kdeui/kstdaction_p.h:108
+#: kdeui/khelpmenu.cpp:129 kdeui/kstdaction_p.h:108
 msgid "%1 &Handbook"
 msgstr "%1 হ্যাণ্ডবু&ক"
 
-#: kdeui/khelpmenu.cpp:134
+#: kdeui/khelpmenu.cpp:138
 msgid "What's &This"
 msgstr "&এটা কী?"
 
-#: kdeui/khelpmenu.cpp:145 kdeui/kstdaction_p.h:111
+#: kdeui/khelpmenu.cpp:149 kdeui/kstdaction_p.h:111
 msgid "&Report Bug..."
 msgstr "বা&গ টিপোর্ট করো..."
 
-#: kdeui/khelpmenu.cpp:156 kdeui/kstdaction_p.h:112
+#: kdeui/khelpmenu.cpp:158 kdeui/kstdaction_p.h:112
+#, fuzzy
+msgid "Switch application &language..."
+msgstr "অ্যাপলিকেশন-এর নাম নির্ধারণ করে"
+
+#: kdeui/khelpmenu.cpp:169 kdeui/kstdaction_p.h:113
 #, c-format
 msgid "&About %1"
 msgstr "%1 &সম্বন্ধে"
 
-#: kdeui/khelpmenu.cpp:162 kdeui/kstdaction_p.h:113
+#: kdeui/khelpmenu.cpp:175 kdeui/kstdaction_p.h:114
 msgid "About &KDE"
 msgstr "কে-ডি-&ই পরিচিতি"
 
