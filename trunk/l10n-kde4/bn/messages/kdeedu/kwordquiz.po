@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwordquiz (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-11 05:34+0200\n"
+"POT-Creation-Date: 2007-08-16 05:38+0200\n"
 "PO-Revision-Date: 2006-04-02 13:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -109,6 +109,9 @@ msgid "There is an error with the Fill-in-the-blank brackets"
 msgstr "শূন্যস্থান-পূরনের বন্ধনী (bracket) নিয়ে একটি সমস্যা হয়েছে"
 
 #: kwordquizprefs.cpp:47
+#, fuzzy
+#| msgid "Editor"
+msgctxt "@title:group editor settings"
 msgid "Editor"
 msgstr "টেক্সট সম্পাদক"
 
@@ -116,15 +119,10 @@ msgstr "টেক্সট সম্পাদক"
 msgid "Editor Settings"
 msgstr "টেক্সট সম্পাদকের বৈশিষ্ট্য"
 
-#. i18n: tag text
-#. i18n: file kwordquizui.rc line 82
-#. i18n: tag string
-#. i18n: file prefquizbase.ui line 20
-#. i18n: tag text
-#. i18n: file kwordquizui.rc line 82
-#. i18n: tag string
-#. i18n: file prefquizbase.ui line 20
-#: kwordquizprefs.cpp:50 rc.cpp:246 rc.cpp:603
+#: kwordquizprefs.cpp:50
+#, fuzzy
+#| msgid "Quiz"
+msgctxt "@title:group quiz settings"
 msgid "Quiz"
 msgstr "কুইজ"
 
@@ -133,6 +131,11 @@ msgid "Quiz Settings"
 msgstr "কুইজের বৈশিষ্ট্য"
 
 #: kwordquizprefs.cpp:53
+#, fuzzy
+#| msgid ""
+#| "Flashcard\n"
+#| "Appearance"
+msgctxt "@title:group flash appearance settings"
 msgid ""
 "Flashcard\n"
 "Appearance"
@@ -145,6 +148,11 @@ msgid "Flashcard Appearance Settings"
 msgstr "ফ্ল্যাশকার্ডের চেহারা সংক্রান্ত বৈশিষ্ট্য"
 
 #: kwordquizprefs.cpp:57
+#, fuzzy
+#| msgid ""
+#| "Special\n"
+#| "Characters"
+msgctxt "@title:group special character settings"
 msgid ""
 "Special\n"
 "Characters"
@@ -885,6 +893,18 @@ msgstr "কুই&জ"
 #: rc.cpp:243
 msgid "Go to"
 msgstr "যাও"
+
+#. i18n: tag text
+#. i18n: file kwordquizui.rc line 82
+#. i18n: tag string
+#. i18n: file prefquizbase.ui line 20
+#. i18n: tag text
+#. i18n: file kwordquizui.rc line 82
+#. i18n: tag string
+#. i18n: file prefquizbase.ui line 20
+#: rc.cpp:246 rc.cpp:603
+msgid "Quiz"
+msgstr "কুইজ"
 
 #. i18n: tag string
 #. i18n: file multipleviewbase.ui line 72
@@ -2375,8 +2395,9 @@ msgid "&4 %1 -> %2 Randomly"
 msgstr "&৪ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
 #: kwordquiz.cpp:1439
-#, qt-format
-msgid "&5 %1 <-> %2 Randomly"
+#, fuzzy, qt-format
+#| msgid "&5 %1 <-> %2 Randomly"
+msgid "&5 %1 &lt;-&gt; %2 Randomly"
 msgstr "&৫ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
 #: kwordquiz.cpp:1446 kwordquiz.cpp:1449
@@ -2390,9 +2411,10 @@ msgid "%1 -> %2 Randomly"
 msgstr "%1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
 #: kwordquiz.cpp:1458
-#, qt-format
-msgid "%1 <-> %2 Randomly"
-msgstr "%1 <-> %2 এলোমেলো অবস্থায় রয়েছে"
+#, fuzzy, qt-format
+#| msgid "%1 -> %2 Randomly"
+msgid "%1 &lt;-&gt; %2 Randomly"
+msgstr "%1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
 #: kwordquiz.cpp:1536
 msgid "Disable Leitner system"
@@ -2457,6 +2479,9 @@ msgstr "বাছা&ই করো"
 #: dlgspecchar.cpp:37
 msgid "Select this character"
 msgstr "এই অক্ষরটি বেছে নাও"
+
+#~ msgid "%1 <-> %2 Randomly"
+#~ msgstr "%1 <-> %2 এলোমেলো অবস্থায় রয়েছে"
 
 #~ msgid "Sort"
 #~ msgstr "সাজাও"
