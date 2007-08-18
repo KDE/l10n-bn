@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-16 05:37+0200\n"
+"POT-Creation-Date: 2007-08-18 05:32+0200\n"
 "PO-Revision-Date: 2006-05-13 15:21-0500\n"
 "Last-Translator: Golam Mortuza Hossain <gmhossain@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -27,11 +27,11 @@ msgstr ""
 msgid "Download only"
 msgstr "কেবলমাত্র ডাউনলোড"
 
-#: debInterface.cpp:278
+#: debInterface.cpp:304
 msgid "&Apt-File Update"
 msgstr "&এপিটি-ফাইল আপডেট"
 
-#: debInterface.cpp:298
+#: debInterface.cpp:324
 #, qt-format
 msgid "The %1 program needs to be installed"
 msgstr "প্রোগ্র্যাম %1 ইনস্টল করার প্রয়োজন"
@@ -160,16 +160,16 @@ msgstr "কে-প্যাকে&জ কনফিগার করো..."
 msgid "Management Mode"
 msgstr "ব্যবস্থাপনা মোড"
 
-#: kpackage.cpp:390
+#: kpackage.cpp:388
 msgid "Select Package"
 msgstr "প্যাকেজ নির্বাচন করুন"
 
-#: kpackage.cpp:488
+#: kpackage.cpp:484
 #, qt-format
 msgid "Malformed URL: %1"
 msgstr "বিকৃত ইউআরএল: %1"
 
-#: kpackage.cpp:534
+#: kpackage.cpp:530
 msgid "Open location:"
 msgstr "লোকেশন খোলো:"
 
@@ -263,22 +263,14 @@ msgstr "চিহ্নিতগুলো ইনস্টল করো"
 msgid "Uninstall"
 msgstr "আন-ইনস্টল করো"
 
-#: managementWidget.cpp:197 managementWidget.cpp:264 pkgOptions.cpp:384
+#: managementWidget.cpp:197 managementWidget.cpp:263 pkgOptions.cpp:384
 #: pkgOptions.cpp:387
 msgid "Install"
 msgstr "ইনস্টল করো"
 
-#: managementWidget.cpp:266
-msgid "Fetch"
-msgstr "আনো"
-
-#: managementWidget.cpp:349
+#: managementWidget.cpp:343
 msgid "Building package tree"
 msgstr "প্যাকেজ ট্রি নির্মাণ করছে"
-
-#: managementWidget.cpp:474
-msgid "Filename not available\n"
-msgstr "ফাইলের নাম পাওয়া যাচ্ছেনা\n"
 
 #: options.cpp:57
 msgid "Options"
@@ -300,73 +292,73 @@ msgstr "প্রত্যন্ত হোস্ট"
 msgid "Use remote host (Debian APT only):"
 msgstr "প্রত্যন্ত হোস্ট ব্যবহার করো (কেবলমাত্র ডেবিয়ান এপিটির জন্য):"
 
-#: options.cpp:93
+#: options.cpp:92
 #, fuzzy, qt-format
 #| msgid "%1: %2 not found"
 msgid "%1 not found"
 msgstr "%1: %2 পাওয়া যায়নি"
 
-#: options.cpp:97
+#: options.cpp:96
 msgid "Enable"
 msgstr "সক্রিয় করো"
 
-#: options.cpp:99
+#: options.cpp:98
 msgid "Location of Packages"
 msgstr "প্যাকেজের অবস্থান"
 
-#: options.cpp:104
+#: options.cpp:103
 msgid "Cac&he"
 msgstr "ক্যা&শ"
 
-#: options.cpp:107
+#: options.cpp:106
 msgid "Cache Remote Package Folders"
 msgstr "প্রত্যন্ত প্যাকেজ ফোল্ডার ক্যাশ করো"
 
-#: options.cpp:116 options.cpp:136
+#: options.cpp:115 options.cpp:135
 msgid "Always"
 msgstr "সবসময়"
 
-#: options.cpp:119 options.cpp:139
+#: options.cpp:118 options.cpp:138
 msgid "During a session"
 msgstr "একটি অধিবেশনের সময়"
 
-#: options.cpp:122 options.cpp:142
+#: options.cpp:121 options.cpp:141
 msgid "Never"
 msgstr "কখনো না"
 
-#: options.cpp:127
+#: options.cpp:126
 msgid "Cache Remote Package Files"
 msgstr "প্রত্যন্ত প্যাকেজ ফাইল ক্যাশ করো"
 
-#: options.cpp:145
+#: options.cpp:144
 msgid "Cache Folder"
 msgstr "ক্যাশ ফোল্ডার"
 
-#: options.cpp:153
+#: options.cpp:152
 msgid "&Misc"
 msgstr "বিবি&ধ"
 
-#: options.cpp:160
+#: options.cpp:159
 msgid "Execute Privileged Commands Using"
 msgstr "বিশেষাধিকারসম্পন্ন কম্যান্ড রান করো ব্যবহার করে"
 
-#: options.cpp:169
+#: options.cpp:168
 msgid "su command"
 msgstr "su কম্যান্ড"
 
-#: options.cpp:172
+#: options.cpp:171
 msgid "sudo command"
 msgstr "sudo কম্যান্ড"
 
-#: options.cpp:175
+#: options.cpp:174
 msgid "ssh command"
 msgstr "এসএসএইচ কম্যান্ড"
 
-#: options.cpp:179
+#: options.cpp:178
 msgid "Verify file list"
 msgstr "ফাইল তালিকা যাচাই করো"
 
-#: options.cpp:183
+#: options.cpp:182
 msgid "Read information from all local package files"
 msgstr "সমস্ত স্থানীয় প্যাকেজ ফাইল থেকে তথ্য পড়ো"
 
@@ -599,66 +591,66 @@ msgstr "স্ল্যাক প্যাকেজ তালিকা অনু
 msgid "KPackage: Waiting on SMART"
 msgstr "কে-প্যাকেজ: স্ল্যাকের জন্য অপেক্ষারত"
 
-#: pkgInterface.cpp:116
+#: pkgInterface.cpp:115
 #, fuzzy
 msgid "&Update"
 msgstr "আপডেটকৃত"
 
-#: pkgInterface.cpp:120
+#: pkgInterface.cpp:119
 msgid "U&pgrade"
 msgstr "আ&পগ্রেড করো"
 
-#: pkgInterface.cpp:124
+#: pkgInterface.cpp:123
 msgid "&Fixup"
 msgstr "মেরা&মত করো"
 
-#: pkgInterface.cpp:416
+#: pkgInterface.cpp:385
 #, fuzzy
 #| msgid "Querying package list: "
 msgid "Querying package state"
 msgstr "প্যাকেজ তালিকা অনুসন্ধান করছে: "
 
-#: pkgInterface.cpp:470
+#: pkgInterface.cpp:439
 #, fuzzy
 #| msgid "Querying package list: "
 msgid "Querying package dependencies"
 msgstr "প্যাকেজ তালিকা অনুসন্ধান করছে: "
 
-#: pkgInterface.cpp:537
+#: pkgInterface.cpp:505
 #, fuzzy
 #| msgid "Querying Gentoo package list: "
 msgid "Querying installed package list"
 msgstr "গেন্টু প্যাকেজ তালিকা অনুসন্ধান করছে: "
 
-#: pkgInterface.cpp:570
+#: pkgInterface.cpp:537
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Generating package information"
 msgstr "প্যাকেজ তথ্য আনছে"
 
-#: pkgInterface.cpp:577
+#: pkgInterface.cpp:544
 #, fuzzy
 #| msgid "Getting package info"
 msgid "Processing package information"
 msgstr "প্যাকেজ তথ্য আনছে"
 
-#: pkgInterface.cpp:618
+#: pkgInterface.cpp:584
 #, fuzzy, qt-format
 #| msgid "Querying SLACK package list: "
 msgid "Querying SMART package list: %1"
 msgstr "স্ল্যাক প্যাকেজ তালিকা অনুসন্ধান করছে:"
 
-#: pkgInterface.cpp:631
+#: pkgInterface.cpp:597
 #, fuzzy, qt-format
 #| msgid "Processing RPM package list"
 msgid "Processing SMART package list: %1"
 msgstr "আরপিএম প্যাকেজ তালিকা প্রসেস করছে"
 
-#: pkgInterface.cpp:638
+#: pkgInterface.cpp:604
 msgid "SMART"
 msgstr ""
 
-#: pkgInterface.cpp:741
+#: pkgInterface.cpp:707
 msgid "Verifying"
 msgstr "যাচাই করছে"
 
@@ -748,6 +740,12 @@ msgstr "নোট"
 #, qt-format
 msgid "%1 was not found."
 msgstr "%1 খুঁজে পাওয়া যায়নি।"
+
+#~ msgid "Fetch"
+#~ msgstr "আনো"
+
+#~ msgid "Filename not available\n"
+#~ msgstr "ফাইলের নাম পাওয়া যাচ্ছেনা\n"
 
 #~ msgid "Querying DEB APT available list"
 #~ msgstr "ডেব এপিটি ব্যবহারযোগ্য তালিকা অনুসন্ধান করছে"
