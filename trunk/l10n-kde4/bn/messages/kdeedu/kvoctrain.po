@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-14 05:35+0200\n"
+"POT-Creation-Date: 2007-08-20 05:33+0200\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -125,15 +125,9 @@ msgstr "ব্যবহারকারী নির্ধারিত এই ক
 msgid "Deleting Tense Description"
 msgstr "কালের বিবরণ মোছা হচ্ছে"
 
-#: kvttablemodel.cpp:132 kvttablemodel.cpp:135 kvttablemodel.cpp:137
-#: kvttablemodel.cpp:140
-#, fuzzy
-msgid "Default lesson"
-msgstr "পাঠ তৈরি করে"
-
 #. i18n: tag string
 #. i18n: file ./statistics-dialogs/StatisticsPageForm.ui line 72
-#: kvttablemodel.cpp:191 rc.cpp:1148 kvtlessonmodel.cpp:126
+#: kvttablemodel.cpp:197 rc.cpp:1148 kvtlessonmodel.cpp:127
 msgid "Lesson"
 msgstr "পাঠ"
 
@@ -2499,7 +2493,7 @@ msgstr "বিশেষণের অতিশায়ন"
 
 #. i18n: tag string
 #. i18n: file ./entry-dialogs/FromToEntryPageForm.ui line 45
-#: rc.cpp:704 entry-dialogs/EntryDlg.cpp:137
+#: rc.cpp:704 entry-dialogs/EntryDlg.cpp:305
 msgid "Properties From Original"
 msgstr "মূল হতে বৈশিষ্ট্য"
 
@@ -2971,70 +2965,46 @@ msgstr "এন্ট্রি"
 msgid "Reset"
 msgstr "রিসেট"
 
-#: kvoctrain.cpp:214
-msgid ""
-"The entry dialog contains unsaved changes.\n"
-"Do you want to apply or discard your changes?"
-msgstr ""
-"এন্ট্রি ডায়ালগে অসংরক্ষিত পরিবর্তন রয়েছে।\n"
-"আপনি যা কিছু পরিবর্তন করেছেন, তা কি বাতিল নাকি সংরক্ষণ করতে চান?"
-
-#: kvoctrain.cpp:216
-msgid "Unsaved Changes"
-msgstr "অসংরক্ষিত পরিবর্তন"
-
-#: kvoctrain.cpp:400
-msgid "Edit General Properties"
-msgstr "সাধারণ বৈশিষ্ট্য সম্পাদন করো"
-
-#: kvoctrain.cpp:435
-msgid "Edit Properties for Original"
-msgstr "মূলশব্দের বৈশিষ্ট্য সম্পাদন করো"
-
-#: kvoctrain.cpp:437
-msgid "Edit Properties of a Translation"
-msgstr "অনুবাদের বৈশিষ্ট্য সম্পাদন করো"
-
-#: kvoctrain.cpp:496
+#: kvoctrain.cpp:288
 msgid "Updating lesson indices..."
 msgstr "পাঠের সূচি আপডেট করা হচ্ছে..."
 
-#: kvoctrain.cpp:503
+#: kvoctrain.cpp:295
 msgid "Updating type indices..."
 msgstr "ধরনের সূচি আপডেট করা হচ্ছে..."
 
-#: kvoctrain.cpp:507
+#: kvoctrain.cpp:299
 msgid "Updating tense indices..."
 msgstr "কালের সূচি আপডেট করা হচ্ছে..."
 
-#: kvoctrain.cpp:511
+#: kvoctrain.cpp:303
 msgctxt "usage (area) of an expression"
 msgid "Updating usage label indices..."
 msgstr "ব্যবহারবিধির লেবেলের সূচি আপডেট করা হচ্ছে..."
 
-#: kvoctrain.cpp:558
+#: kvoctrain.cpp:350
 #, fuzzy
 msgid "Do you really want to delete the selected entry?"
 msgstr "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
 
-#: kvoctrain.cpp:565
+#: kvoctrain.cpp:357
 #, fuzzy
 msgid "Do you really want to delete the selected entries?"
 msgstr "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
 
-#: kvoctrain.cpp:697
+#: kvoctrain.cpp:489
 #, fuzzy, qt-format
 msgid "1 entry with the same content was found and removed."
 msgid_plural "%1 entries with the same content were found and removed."
 msgstr[0] "অনুরূপ তথ্যবিশিষ্ট ১টি এন্ট্রি পাওয়া গিয়েছে ও অপসারণ করা হয়েছে।"
 msgstr[1] "অনুরূপ তথ্যবিশিষ্ট %1-টি এন্ট্রি পাওয়া গিয়েছে ও অপসারণ করা হয়েছে।"
 
-#: kvoctrain.cpp:700
+#: kvoctrain.cpp:492
 #, fuzzy
 msgid "Remove Duplicates"
 msgstr "ভাষা &অপসারণ করো"
 
-#: kvoctrain.cpp:742
+#: kvoctrain.cpp:534
 #, fuzzy
 msgid ""
 "To add a language which is not listed in the menu, you must first define its "
@@ -3046,7 +3016,7 @@ msgstr ""
 "সাধারণ অপশন ডায়ালগে যোগ করতে হবে।\n"
 "এখন কি এই ডায়ালগকে দেখানো হবে?"
 
-#: kvoctrain.cpp:782
+#: kvoctrain.cpp:579
 #, fuzzy, qt-format
 msgid ""
 "You are about to delete a language permanently.\n"
@@ -3055,163 +3025,163 @@ msgstr ""
 "আপনি একটি ভাষাকে সম্পূর্ণভাবে অপসারণ করতে যাচ্ছেন।\n"
 "আপনি কি \"%1\" ভাষা অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: kvoctrain.cpp:847 kvoctrain.cpp:865
+#: kvoctrain.cpp:645 kvoctrain.cpp:663
 msgid "Create Random &Query"
 msgstr "এলোমেলো &অনুসন্ধান তৈরি করো"
 
-#: kvoctrain.cpp:849 kvoctrain.cpp:858
+#: kvoctrain.cpp:647 kvoctrain.cpp:656
 #, qt-format
 msgid "From %1"
 msgstr "%1 থেকে"
 
-#: kvoctrain.cpp:850 kvoctrain.cpp:866
+#: kvoctrain.cpp:648 kvoctrain.cpp:664
 #, qt-format
 msgid "Creates and starts query from %1 to %2"
 msgstr "%1 থেকে %2 পর্যন্ত অনুসন্ধান তৈরি ও আরম্ভ করে"
 
-#: kvoctrain.cpp:856 kvoctrain.cpp:871
+#: kvoctrain.cpp:654 kvoctrain.cpp:669
 msgid "Create &Multiple Choice"
 msgstr "নৈব্যক্তি&ক প্রশ্ন তৈরি করো"
 
-#: kvoctrain.cpp:859 kvoctrain.cpp:872
+#: kvoctrain.cpp:657 kvoctrain.cpp:670
 #, qt-format
 msgid "Creates and starts multiple choice from %1 to %2"
 msgstr "%1 থেকে %2 পর্যন্ত নৈব্যক্তিক প্রশ্ন তৈরি ও আরম্ভ করে"
 
-#: kvoctrain.cpp:881
+#: kvoctrain.cpp:679
 msgid "&Verbs"
 msgstr "ক্রিয়াপদ (&ক)"
 
-#: kvoctrain.cpp:882
+#: kvoctrain.cpp:680
 msgid "Starts training with verbs"
 msgstr "ক্রিয়াপদের প্রশিক্ষণ আরম্ভ করে"
 
-#: kvoctrain.cpp:887
+#: kvoctrain.cpp:685
 msgid "&Articles"
 msgstr "&পদাশ্রিত নির্দেশক"
 
-#: kvoctrain.cpp:888
+#: kvoctrain.cpp:686
 msgid "Starts training with articles"
 msgstr "পদাশ্রিত নির্দেশকের প্রশিক্ষণ আরম্ভ করে"
 
-#: kvoctrain.cpp:893
+#: kvoctrain.cpp:691
 #, fuzzy
 msgid "&Comparisons"
 msgstr "তু&লনা"
 
-#: kvoctrain.cpp:894
+#: kvoctrain.cpp:692
 msgid "Starts training with adjectives"
 msgstr "বিশেষণপদের প্রশিক্ষণ আরম্ভ করে"
 
-#: kvoctrain.cpp:901
+#: kvoctrain.cpp:699
 msgid "S&ynonyms"
 msgstr "&সমার্থক শব্দ"
 
-#: kvoctrain.cpp:902
+#: kvoctrain.cpp:700
 msgid "Starts training with synonyms"
 msgstr "সমার্থক শব্দের প্রশিক্ষণ আরম্ভ করে"
 
-#: kvoctrain.cpp:907
+#: kvoctrain.cpp:705
 msgid "A&ntonyms"
 msgstr "বিপরী&ত শব্দ"
 
-#: kvoctrain.cpp:908
+#: kvoctrain.cpp:706
 msgid "Starts training with antonyms"
 msgstr "বিপরীত শব্দের প্রশিক্ষণ আরম্ভ করে"
 
-#: kvoctrain.cpp:913
+#: kvoctrain.cpp:711
 msgid "E&xamples"
 msgstr "উদা&হরণ"
 
-#: kvoctrain.cpp:914
+#: kvoctrain.cpp:712
 msgid "Starts training with examples"
 msgstr "উদাহরণ সহকারে প্রশিক্ষণ আরম্ভ করে"
 
-#: kvoctrain.cpp:919
+#: kvoctrain.cpp:717
 msgid "&Paraphrase"
 msgstr "অন্য &কথায় প্রকাশ"
 
-#: kvoctrain.cpp:920
+#: kvoctrain.cpp:718
 msgid "Starts training with paraphrases"
 msgstr "অন্য কথায় প্রকাশ করার প্রশিক্ষণ আরম্ভ করে"
 
-#: kvoctrain.cpp:952
+#: kvoctrain.cpp:750
 #, fuzzy, qt-format
 msgid "Add the language '%1' to the vocabulary"
 msgstr "শব্দভাণ্ডারে নতুন একটি সারি যোগ করো"
 
-#: kvoctrain.cpp:962
+#: kvoctrain.cpp:760
 #, fuzzy
 msgid "&New Language..."
 msgstr "আরেকটি ভাষা..."
 
-#: kvoctrain.cpp:963
+#: kvoctrain.cpp:761
 #, fuzzy
 msgid "Add a new language to the vocabulary"
 msgstr "শব্দভাণ্ডারে নতুন একটি সারি যোগ করো"
 
-#: kvoctrain.cpp:990
+#: kvoctrain.cpp:788
 msgid "&Original"
 msgstr "মূল&শব্দ"
 
-#: kvoctrain.cpp:993
+#: kvoctrain.cpp:791
 msgid "&Translation"
 msgstr "&অনুবাদ"
 
-#: kvoctrain.cpp:995
+#: kvoctrain.cpp:793
 #, qt-format
 msgid "&%1. Translation"
 msgstr "&%1. অনুবাদ"
 
-#: kvoctrain.cpp:1006
+#: kvoctrain.cpp:804
 #, fuzzy, qt-format
 msgid "Assign the language '%1' to the selected column"
 msgstr "আপনি প্রতিটি কলামের জন্য একটি ভাষা বরাদ্দ করতে পারেন"
 
-#: kvoctrain.cpp:1038
+#: kvoctrain.cpp:836
 #, qt-format
 msgid "Permanently remove the language '%1' from the vocabulary"
 msgstr ""
 
-#: kvoctrain.cpp:1057
+#: kvoctrain.cpp:855
 msgid "Printing..."
 msgstr "মুদ্রিত হচ্ছে..."
 
-#: kvoctrain.cpp:1062
+#: kvoctrain.cpp:860
 msgid "Ready"
 msgstr "প্রস্তুত"
 
-#: kvoctrain.cpp:1068
+#: kvoctrain.cpp:866
 msgid "Copying selection to clipboard..."
 msgstr "নির্বাচিত অংশ ক্লিপবোর্ডে কপি করা হচ্ছে..."
 
-#: kvoctrain.cpp:1101
+#: kvoctrain.cpp:899
 msgid "Inserting clipboard contents..."
 msgstr "ক্লিপবোর্ড থেকে ঢোকানো হচ্ছে..."
 
-#: kvoctrain.cpp:1144
+#: kvoctrain.cpp:942
 #, qt-format
 msgid "Comment: %1"
 msgstr ""
 
-#: kvoctrain.cpp:1146
+#: kvoctrain.cpp:944
 #, fuzzy, qt-format
 #| msgid "&Pronunciation:"
 msgid "Pronunciation: %1"
 msgstr "&উচ্চারণ:"
 
-#: kvoctrain.cpp:1148
+#: kvoctrain.cpp:946
 #, fuzzy, qt-format
 #| msgctxt "Abbreviation for T)ype of word"
 #| msgid "T: %1"
 msgid "Type: %1"
 msgstr "পদ: %1"
 
-#: kva_io.cpp:53
+#: kva_io.cpp:54
 msgid "Autobackup in progress"
 msgstr "স্বয়ংক্রিয়ভাবে ব্যাক-আপ করা হচ্ছে"
 
-#: kva_io.cpp:81
+#: kva_io.cpp:82
 msgid ""
 "Vocabulary is modified.\n"
 "\n"
@@ -3221,62 +3191,62 @@ msgstr ""
 "\n"
 "প্রস্থানের পূর্বে ফাইল সংরক্ষণ করা হবে কি?\n"
 
-#: kva_io.cpp:120
+#: kva_io.cpp:121
 msgid "Creating new file..."
 msgstr "নতুন ফাইল তৈরি করা হচ্ছে..."
 
-#: kva_io.cpp:128 kva_io.cpp:140
+#: kva_io.cpp:129 kva_io.cpp:141
 msgid "Opening file..."
 msgstr "ফাইল খোলা হচ্ছে..."
 
-#: kva_io.cpp:131
+#: kva_io.cpp:132
 #, fuzzy
 msgid "Open Vocabulary Document"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
-#: kva_io.cpp:154 kva_io.cpp:214
+#: kva_io.cpp:155 kva_io.cpp:215
 #, qt-format
 msgid "Loading %1"
 msgstr "%1 লোড করা হচ্ছে"
 
-#: kva_io.cpp:180
+#: kva_io.cpp:181
 msgid "Opening example file..."
 msgstr "উদাহরণের ফাইল খোলা হচ্ছে..."
 
-#: kva_io.cpp:184
+#: kva_io.cpp:185
 #, fuzzy
 msgid "Open Example Vocabulary Document"
 msgstr "শব্দভাণ্ডারের নমুনা ফাইল খোলো"
 
-#: kva_io.cpp:209
+#: kva_io.cpp:210
 msgid "Merging file..."
 msgstr "ফাইল একত্রিকরণ চলছে..."
 
-#: kva_io.cpp:211
+#: kva_io.cpp:212
 msgid "Merge Vocabulary File"
 msgstr "শব্দভাণ্ডারের ফাইল একত্রিত করো"
 
-#: kva_io.cpp:243
+#: kva_io.cpp:245
 #, fuzzy
 msgid "Untitled"
 msgstr "শিরোনাম"
 
-#: kva_io.cpp:248 kva_io.cpp:287 kva_io.cpp:373
+#: kva_io.cpp:250 kva_io.cpp:290 kva_io.cpp:377
 #, fuzzy, qt-format
 #| msgid "Saving %1"
 msgctxt "@info:status saving a file"
 msgid "Saving %1"
 msgstr "%1-কে সংরক্ষণ করা হচ্ছে"
 
-#: kva_io.cpp:271
+#: kva_io.cpp:273
 msgid "Saving file under new filename..."
 msgstr "ফাইলকে নতুন নামে সংরক্ষণ করা হচ্ছে..."
 
-#: kva_io.cpp:276 kva_io.cpp:364
+#: kva_io.cpp:279 kva_io.cpp:368
 msgid "Save Vocabulary As"
 msgstr "শব্দভাণ্ডারকে এই নামে সংরক্ষণ করো"
 
-#: kva_io.cpp:281 kva_io.cpp:369
+#: kva_io.cpp:284 kva_io.cpp:373
 #, fuzzy, qt-format
 #| msgid ""
 #| "<qt>The file<br><b>%1</b><br>already exists. Do you want to overwrite it?"
@@ -3288,45 +3258,69 @@ msgstr ""
 "<qt><b>%1</b> নামক ফাইলটি পূর্ব থেকেই আছে।  <br>আপনি কি এটির ওপর দিয়েই লিখতে "
 "চান?</qt>"
 
-#: kva_io.cpp:348
+#: kva_io.cpp:351
 msgid "Saving selected area under new filename..."
 msgstr "নির্বাচিত অংশকে নতুন নামের ফাইলে সংরক্ষণ করা হচ্ছে..."
 
-#: entry-dialogs/EntryDlg.cpp:44
+#: entry-dialogs/EntryDlg.cpp:45
 msgid "&Reset"
 msgstr "রিসে&ট"
 
-#: entry-dialogs/EntryDlg.cpp:56
+#: entry-dialogs/EntryDlg.cpp:59
 msgid "Co&mmon"
 msgstr "সাধার&ণ"
 
-#: entry-dialogs/EntryDlg.cpp:59
+#: entry-dialogs/EntryDlg.cpp:62
 msgid "A&dditional"
 msgstr "&অতিরিক্ত"
 
-#: entry-dialogs/EntryDlg.cpp:62
+#: entry-dialogs/EntryDlg.cpp:65
 msgid "&Multiple Choice"
 msgstr "নৈব্যক্তি&ক প্রশ্ন"
 
-#: entry-dialogs/EntryDlg.cpp:65
+#: entry-dialogs/EntryDlg.cpp:68
 msgid "Con&jugation"
 msgstr "ধাতুরূ&প"
 
-#: entry-dialogs/EntryDlg.cpp:68
+#: entry-dialogs/EntryDlg.cpp:71
 msgid "Compar&ison"
 msgstr "তু&লনা"
 
-#: entry-dialogs/EntryDlg.cpp:71
+#: entry-dialogs/EntryDlg.cpp:74
 msgid "&From Original"
 msgstr "মূল &হতে"
 
-#: entry-dialogs/EntryDlg.cpp:74
+#: entry-dialogs/EntryDlg.cpp:77
 msgid "&To Original"
 msgstr "মূ&ল থেকে"
 
-#: entry-dialogs/EntryDlg.cpp:139
+#: entry-dialogs/EntryDlg.cpp:268
+msgid "Edit General Properties"
+msgstr "সাধারণ বৈশিষ্ট্য সম্পাদন করো"
+
+#: entry-dialogs/EntryDlg.cpp:270
+msgid "Edit Properties for Original"
+msgstr "মূলশব্দের বৈশিষ্ট্য সম্পাদন করো"
+
+#: entry-dialogs/EntryDlg.cpp:272
+msgid "Edit Properties of a Translation"
+msgstr "অনুবাদের বৈশিষ্ট্য সম্পাদন করো"
+
+#: entry-dialogs/EntryDlg.cpp:314
 msgid "Properties to Original"
 msgstr "মূল থেকে বৈশিষ্ট্য"
+
+#: entry-dialogs/EntryDlg.cpp:365
+msgid ""
+"The entry dialog contains unsaved changes.\n"
+"Do you want to apply or discard your changes?"
+msgstr ""
+"এন্ট্রি ডায়ালগে অসংরক্ষিত পরিবর্তন রয়েছে।\n"
+"আপনি যা কিছু পরিবর্তন করেছেন, তা কি বাতিল নাকি সংরক্ষণ করতে চান?"
+
+#: entry-dialogs/EntryDlg.cpp:367
+msgid "Unsaved Changes"
+msgstr "অসংরক্ষিত পরিবর্তন"
 
 #: entry-dialogs/PhoneticEntryPage.cpp:182
 msgid "Select Characters From Phonetic Alphabet"
@@ -3346,16 +3340,16 @@ msgctxt "Usage (area) of an Expression"
 msgid "&Usage Labels"
 msgstr "ব্য&বহারবিধির লেবেল"
 
-#: entry-dialogs/CommonEntryPage.cpp:157 entry-dialogs/CommonEntryPage.cpp:278
+#: entry-dialogs/CommonEntryPage.cpp:165 entry-dialogs/CommonEntryPage.cpp:286
 msgid "<none>"
 msgstr "<none>"
 
-#: entry-dialogs/CommonEntryPage.cpp:319
+#: entry-dialogs/CommonEntryPage.cpp:327
 msgctxt "usage (area) of an expression"
 msgid "Edit User-Defined Usage Labels"
 msgstr "ব্যবহারকারী নির্ধারিত ব্যবহারবিধির লেবেল সম্পাদন করো"
 
-#: entry-dialogs/CommonEntryPage.cpp:377
+#: entry-dialogs/CommonEntryPage.cpp:355
 msgid "Edit User Defined Types"
 msgstr "ব্যবহারকারী নির্ধারিত ধরন সম্পাদন করো"
 
@@ -3631,7 +3625,7 @@ msgstr "অনুসন্ধানকৃত &এন্ট্রিগুলো�
 msgid "Save the entries in the query as a new vocabulary"
 msgstr "অনুসন্ধানের এন্ট্রিগুলোকে নতুন একটি শব্দভাণ্ডার হিসাবে সংরক্ষণ করো"
 
-#: kva_init.cpp:214 kvtlessonmodel.cpp:226 kvtlessonmodel.cpp:228
+#: kva_init.cpp:214
 #, fuzzy
 msgid "New lesson"
 msgstr "পাঠ তৈরি করে"
@@ -3788,6 +3782,16 @@ msgstr ""
 #, fuzzy
 msgid "S&earch:"
 msgstr "&মন্তব্য:"
+
+#: kvtlessonmodel.cpp:227
+#, fuzzy
+msgid "New Lesson"
+msgstr "পাঠ তৈরি করে"
+
+#: kvtlessonmodel.cpp:229
+#, fuzzy, qt-format
+msgid "New Lesson %1"
+msgstr "পাঠ তৈরি করে"
 
 #: kvtlessonview.cpp:100
 msgid ""
@@ -4140,7 +4144,7 @@ msgstr "প্রাকৃতি&ক:\t"
 msgid "Document Statistics"
 msgstr "ডকুমেন্টের পরিসংখ্যান"
 
-#: statistics-dialogs/StatisticsPage.cpp:279
+#: statistics-dialogs/StatisticsPage.cpp:282
 msgid ""
 "<html><p style='white-space:pre'><b>Number of Entries per Grade</b></"
 "p><table><tr><td>%1</td><td>%2</td></tr><tr><td>%3</td><td>%4</td></"
@@ -4148,6 +4152,10 @@ msgid ""
 "td><td>%10</td></tr><tr><td>%11</td><td>%12</td></tr><tr><td>%13</td><td>%"
 "14</td></tr><tr><td>%15</td><td>%16</td></tr></table></html>"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Default lesson"
+#~ msgstr "পাঠ তৈরি করে"
 
 #~ msgctxt "Abbreviation for R)emark"
 #~ msgid "R: %1"
