@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-08-23 05:39+0200\n"
+"POT-Creation-Date: 2007-09-05 05:31+0200\n"
 "PO-Revision-Date: 2006-04-04 13:15+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -98,7 +98,7 @@ msgstr "বোর্ড বিন্যাস খোলো"
 msgid "Save Board Layout"
 msgstr "বোর্ড বিন্যাস সংরক্ষণ করো"
 
-#: Editor.cpp:349 Preview.cpp:427
+#: Editor.cpp:349 Preview.cpp:427 kmahjongg.cpp:604
 msgid "Only saving to local files currently supported."
 msgstr "বর্তমানে শুধুমাত্র স্থানীয় ফাইলেই সংরক্ষণ করা যায়।"
 
@@ -239,81 +239,109 @@ msgstr "নতুন খেলা তৈরিতে সমস্যা হয়�
 msgid "Game over: You have no moves left."
 msgstr "খেল খতম: আপনার আর কোন চাল অবশিষ্ট নেই।"
 
-#: kmahjongg.cpp:170
+#: kmahjongg.cpp:171
 msgid "New Numbered Game..."
 msgstr "নতুন নম্বরযুক্ত খেলা..."
 
-#: kmahjongg.cpp:187
+#: kmahjongg.cpp:175
 msgid "Open La&yout..."
 msgstr "বোর্ড বিন্যাস খোলো... (&ব)"
 
-#: kmahjongg.cpp:199
+#: kmahjongg.cpp:182
 msgid "Shu&ffle"
 msgstr "সংমিশ্রণ (&শ)"
 
-#: kmahjongg.cpp:203
+#: kmahjongg.cpp:186
 msgid "Rotate View Counter Clockwise"
 msgstr ""
 
-#: kmahjongg.cpp:207
+#: kmahjongg.cpp:190
 msgid "Rotate View Clockwise"
 msgstr ""
 
-#: kmahjongg.cpp:213
+#: kmahjongg.cpp:196
 msgid "Show &Matching Tiles"
 msgstr "&অনুরূপ ঘুঁটি দেখাও"
 
-#: kmahjongg.cpp:216
+#: kmahjongg.cpp:199
 msgid "Hide &Matching Tiles"
 msgstr "&অনুরূপ ঘুঁটি লুকোও"
 
-#: kmahjongg.cpp:239
+#: kmahjongg.cpp:212
 msgid "&Board Editor"
 msgstr "বোর্ড সম্পাদক (&ব)"
 
-#: kmahjongg.cpp:251
+#: kmahjongg.cpp:224
 msgid "Removed: 0000/0000"
 msgstr ""
 
-#: kmahjongg.cpp:258
+#: kmahjongg.cpp:231
 msgid "Game: 000000000000000000000"
 msgstr ""
 
-#: kmahjongg.cpp:272
+#: kmahjongg.cpp:245
 msgid "Time: 0:00:00"
 msgstr ""
 
-#: kmahjongg.cpp:278
+#: kmahjongg.cpp:251
 #, fuzzy
 msgid "Time: "
 msgstr "সময়"
 
-#: kmahjongg.cpp:296
+#: kmahjongg.cpp:269
 #, fuzzy
 msgid "New Game"
 msgstr "খেলা সংরক্ষণ করো"
 
-#: kmahjongg.cpp:296
+#: kmahjongg.cpp:269
 msgid "Enter game number:"
 msgstr "খেলার নম্বর লিখুন:"
 
-#: kmahjongg.cpp:326
+#: kmahjongg.cpp:299
 msgid "General"
 msgstr "সাধারণ"
 
-#: kmahjongg.cpp:463
+#: kmahjongg.cpp:410
 msgid "You have won!"
 msgstr "আপনি জিতেছেন!"
 
-#: kmahjongg.cpp:504
+#: kmahjongg.cpp:451
 #, qt-format
 msgid "Game number: %1"
 msgstr "খেলার নম্বর: %1"
 
-#: kmahjongg.cpp:514
+#: kmahjongg.cpp:461
 #, qt-format
 msgid "Removed: %1/%2  Combinations left: %3"
 msgstr "অপসারিত: %1/%2  অবশিষ্ট সমন্বয়: %3"
+
+#: kmahjongg.cpp:531
+msgid "Load Game"
+msgstr "খেলা লোড করো"
+
+#: kmahjongg.cpp:542
+msgid "Could not read from file. Aborting."
+msgstr "ফাইল থেকে পড়া যায় নি।  কাজটি পরিত্যাগ করা হচ্ছে।"
+
+#: kmahjongg.cpp:552
+msgid "File is not a KMahjongg game."
+msgstr ""
+
+#: kmahjongg.cpp:566
+msgid "File format not recognized."
+msgstr "ফাইলের ফরম্যাট সনাক্ত করা যায় নি।"
+
+#: kmahjongg.cpp:597
+#, fuzzy
+#| msgid "Save Theme"
+msgid "Save Game"
+msgstr "থিম (Theme) সংরক্ষণ করো"
+
+#: kmahjongg.cpp:611
+#, fuzzy
+#| msgid "Could not write to file. Aborting."
+msgid "Could not write saved game."
+msgstr "ফাইলে লেখা যায় নি।  লেখার প্রচেষ্টা পরিত্যাগ করা হল।"
 
 #: main.cpp:29
 #, fuzzy
@@ -572,15 +600,6 @@ msgstr "progga@BengaLinux.Org"
 
 #~ msgid "Sa&ve Theme..."
 #~ msgstr "থিম (Theme) &সংরক্ষণ করো..."
-
-#~ msgid "Load Game"
-#~ msgstr "খেলা লোড করো"
-
-#~ msgid "Could not read from file. Aborting."
-#~ msgstr "ফাইল থেকে পড়া যায় নি।  কাজটি পরিত্যাগ করা হচ্ছে।"
-
-#~ msgid "File format not recognized."
-#~ msgstr "ফাইলের ফরম্যাট সনাক্ত করা যায় নি।"
 
 #~ msgid "Play winning animation"
 #~ msgstr "জয়সূচক অ্যানিমেশন চালাও"
