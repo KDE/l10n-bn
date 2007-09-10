@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kteatime (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-07 05:35+0200\n"
+"POT-Creation-Date: 2007-09-10 05:33+0200\n"
 "PO-Revision-Date: 2006-04-04 09:30+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -16,219 +16,303 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: main.cpp:36
-msgid "KDE utility for making a fine cup of tea"
+#: main.cpp:34
+#, fuzzy
+#| msgid "KDE utility for making a fine cup of tea"
+msgid "KDE utility for making a fine cup of tea."
 msgstr "চমৎকার এক কাপ চা তৈরির জন্য একটি কে.ডি.ই. ইউটিলিটি"
 
-#: main.cpp:42
+#: main.cpp:40
 msgid "KTeaTime"
 msgstr "কে-টি-টাইম"
 
-#: main.cpp:44
+#: main.cpp:41
 msgid ""
 "(c) 1998-1999, Matthias Hoelzer-Kluepfel\n"
-"(c) 2002-2003, Martin Willers"
+"(c) 2002-2003, Martin Willers\n"
+"(c) 2007, Stefan Böhmann"
 msgstr ""
 
-#: main.cpp:45
+#: main.cpp:42
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr ""
 
-#: main.cpp:46
+#: main.cpp:43
 msgid "Martin Willers"
 msgstr ""
 
-#: main.cpp:47
+#: main.cpp:44
+msgid "Stefan Böhmann"
+msgstr ""
+
+#: main.cpp:45
 msgid "Daniel Teske"
 msgstr ""
 
-#: main.cpp:47
+#: main.cpp:45
 msgid "Many patches"
 msgstr "অনেক প্যাচ"
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "প্রজ্ঞা"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "progga@BengaLinux.Org"
-
-#: tealist.cpp:38
-#, qt-format
-msgid "%1 min"
-msgstr "%1 মিনিট"
-
-#: tealist.cpp:41
-#, qt-format
-msgid "%1 s"
-msgstr "%1 সেকেন্ড"
-
-#: tealist.cpp:43
-#, fuzzy, qt-format
-msgid " %1 s"
-msgstr "%1 সেকেন্ড"
-
-#: timeedit.cpp:82
-#, fuzzy
-#| msgid " min"
-msgid "min"
-msgstr " মিনিট"
-
-#: timeedit.cpp:88
-#, fuzzy
-#| msgid " sec"
-msgid "sec"
-msgstr " সেকেন্ড"
-
-#: toplevel.cpp:101
-msgid "Black Tea"
-msgstr "কালো চা"
-
-#: toplevel.cpp:104
-msgid "Earl Grey"
-msgstr "আর্ল গ্রে"
-
-#: toplevel.cpp:107
-msgid "Fruit Tea"
-msgstr "ফলের চা"
-
-#: toplevel.cpp:116
-msgid "Other Tea"
-msgstr "অন্যান্য চা"
-
-#: toplevel.cpp:129
-msgid "&Start"
+#: main.cpp:50
+msgid "Start a new anonymous tea"
 msgstr ""
 
-#: toplevel.cpp:133
-msgid "Sto&p"
-msgstr "&বন্ধ করো"
-
-#: toplevel.cpp:137
-msgid "&Configure..."
-msgstr "&কনফিগার করো..."
-
-#: toplevel.cpp:140
-msgid "&Anonymous..."
-msgstr "না&মহীন..."
-
-#: toplevel.cpp:170
-msgid "&Help"
-msgstr ""
-
-#: toplevel.cpp:172
-msgid "Quit"
-msgstr ""
-
-#: toplevel.cpp:307
-#, qt-format
-msgid "The %1 is now ready!"
-msgstr "%1 তৈরি হয়ে গিয়েছে!"
-
-# FIXME
-#: toplevel.cpp:314 toplevel.cpp:322 toplevel.cpp:459
-msgid "The Tea Cooker"
-msgstr "চায়ের কেটলি"
-
-# FIXME
-#: toplevel.cpp:339
-#, qt-format
-msgid "%1 left for %2"
-msgstr "%2-এর %1 অবশিষ্ট আছে"
-
-# FIXME
-#: toplevel.cpp:423
-msgid "There is no tea to begin steeping."
-msgstr "ভেজানো আরম্ভ করার জন্য কোন চা নেই।"
-
-#: toplevel.cpp:423
-msgid "No Tea"
-msgstr "কোন চা নেই"
-
-#: toplevel.cpp:469
+#: main.cpp:60 timeedit.cpp:43 timeedit.cpp:105 tea.h:38
 msgid "Anonymous Tea"
 msgstr "নামহীন চা"
 
-#: toplevel.cpp:477 toplevel.cpp:727
-msgid "Tea time:"
-msgstr "চায়ের সময়:"
-
-#: toplevel.cpp:493
-msgid "tea"
-msgstr "চা"
-
-#: toplevel.cpp:568
-msgid "New Tea"
-msgstr "নতুন চা"
-
-#: toplevel.cpp:647
+#: settings.cpp:40
 msgid "Configure Tea Cooker"
 msgstr "চায়ের কেটলিকে কনফিগার করো"
 
-#: toplevel.cpp:668
-msgid "Tea List"
-msgstr "চায়ের তালিকা"
+#: settings.cpp:45
+msgid "Save changes and close dialog."
+msgstr ""
 
-#: toplevel.cpp:672
+#: settings.cpp:46
+msgid "Close dialog without saving changes."
+msgstr ""
+
+#: settings.cpp:47
+msgid "Show help page for this dialog."
+msgstr ""
+
+#: tea.cpp:32
+#, qt-format
+msgid "%1 year"
+msgid_plural "%1 years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tea.cpp:33
+#, fuzzy, qt-format
+#| msgid "%1 s"
+msgid "%1 a"
+msgid_plural "%1 a"
+msgstr[0] "%1 সেকেন্ড"
+msgstr[1] "%1 সেকেন্ড"
+
+#: tea.cpp:38
+#, fuzzy, qt-format
+#| msgid "%1 s"
+msgid "%1 day"
+msgid_plural "%1 days"
+msgstr[0] "%1 সেকেন্ড"
+msgstr[1] "%1 সেকেন্ড"
+
+#: tea.cpp:39
+#, fuzzy, qt-format
+#| msgid "%1 s"
+msgid "%1 d"
+msgid_plural "%1 d"
+msgstr[0] "%1 সেকেন্ড"
+msgstr[1] "%1 সেকেন্ড"
+
+#: tea.cpp:44
+#, qt-format
+msgid "%1 hour"
+msgid_plural "%1 hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tea.cpp:45
+#, fuzzy, qt-format
+#| msgid "%1 s"
+msgid "%1 h"
+msgid_plural "%1 h"
+msgstr[0] "%1 সেকেন্ড"
+msgstr[1] "%1 সেকেন্ড"
+
+#: tea.cpp:50
+#, fuzzy, qt-format
+#| msgid "%1 min"
+msgid "%1 minute"
+msgid_plural "%1 minutes"
+msgstr[0] "%1 মিনিট"
+msgstr[1] "%1 মিনিট"
+
+#: tea.cpp:51
+#, fuzzy, qt-format
+msgid "%1 min"
+msgid_plural "%1 min"
+msgstr[0] "%1 মিনিট"
+msgstr[1] "%1 মিনিট"
+
+#: tea.cpp:56
+#, fuzzy, qt-format
+#| msgid "%1 s"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 সেকেন্ড"
+msgstr[1] "%1 সেকেন্ড"
+
+#: tea.cpp:57
+#, fuzzy, qt-format
+msgid "%1 s"
+msgid_plural "%1 s"
+msgstr[0] "%1 সেকেন্ড"
+msgstr[1] "%1 সেকেন্ড"
+
+#: tealistmodel.cpp:72 toplevel.cpp:170
+msgid " ("
+msgstr ""
+
+#: tealistmodel.cpp:74 toplevel.cpp:172
+msgid ")"
+msgstr ""
+
+#: tealistmodel.cpp:102
 msgid "Name"
 msgstr "নাম"
 
-#: toplevel.cpp:674
+#: tealistmodel.cpp:102
 msgid "Time"
 msgstr "সময়"
 
-#: toplevel.cpp:685
-msgid "New"
-msgstr "নতুন"
-
-#: toplevel.cpp:691
-msgid "Delete"
+#: tealistmodel.cpp:113
+msgid "Unnamed Tea"
 msgstr ""
 
-#: toplevel.cpp:697
-msgid "Up"
-msgstr "উপর"
+#: timeedit.cpp:45
+msgid "Start a new anonymous tea with the in this dialog configured time."
+msgstr ""
 
-#: toplevel.cpp:703
-msgid "Down"
-msgstr "নিচ"
+#: timeedit.cpp:46
+msgid "Close this dialog without starting a new tea."
+msgstr ""
 
-#: toplevel.cpp:714
-msgid "Tea Properties"
-msgstr "চায়ের বৈশিষ্ট্য"
+#: toplevel.cpp:58
+msgid "Unknown Tea"
+msgstr ""
 
-#: toplevel.cpp:719
-msgid "Name:"
-msgstr "নাম:"
+#: toplevel.cpp:64
+msgid "Black Tea"
+msgstr "কালো চা"
 
-#: toplevel.cpp:736
-msgid "Action"
-msgstr "কাজ"
+#: toplevel.cpp:65
+msgid "Earl Grey"
+msgstr "আর্ল গ্রে"
 
-#: toplevel.cpp:742
-msgid "Configure Events..."
-msgstr "ইভেন্ট কনফিগার করো..."
+#: toplevel.cpp:66
+msgid "Fruit Tea"
+msgstr "ফলের চা"
 
-#: toplevel.cpp:747
-msgid "Event"
-msgstr "ইভেন্ট"
+#: toplevel.cpp:75
+#, fuzzy
+#| msgid "Sto&p"
+msgid "&Stop"
+msgstr "&বন্ধ করো"
+
+#: toplevel.cpp:80
+msgid "&Configure..."
+msgstr "&কনফিগার করো..."
+
+#: toplevel.cpp:83
+msgid "&Anonymous..."
+msgstr "না&মহীন..."
 
 # FIXME
-#: toplevel.cpp:748
-msgid "Popup"
-msgstr "আবির্ভূত হবে"
+#: toplevel.cpp:135 toplevel.cpp:136 toplevel.cpp:244
+msgid "The Tea Cooker"
+msgstr "চায়ের কেটলি"
 
-#: toplevel.cpp:756
-msgid "Execute:"
+#: toplevel.cpp:135
+msgid "No running tea."
 msgstr ""
 
-#: toplevel.cpp:762
-msgid "Enter command here; '%t' will be replaced with name of steeping tea"
-msgstr "এখানে কমান্ড লিখুন; যে চা ভেজানো হচ্ছে, তার নাম দিয়ে '%t' প্রতিস্থাপিত হবে"
+#: toplevel.cpp:249
+#, fuzzy, qt-format
+#| msgid "The %1 is now ready!"
+msgid "%1 is now ready!"
+msgstr "%1 তৈরি হয়ে গিয়েছে!"
 
-#: toplevel.cpp:767
-msgid "Visualize progress in icon tray"
-msgstr "আইকন ট্রে-তে অগ্রগতির পরিমাণ দেখুন"
+#: toplevel.cpp:269
+#, qt-format
+msgid "%1 is ready since %2!"
+msgstr ""
+
+# FIXME
+#: toplevel.cpp:282 toplevel.cpp:283
+#, fuzzy, qt-format
+#| msgid "%1 left for %2"
+msgid "%1 left for %2."
+msgstr "%2-এর %1 অবশিষ্ট আছে"
+
+#~ msgctxt "NAME OF TRANSLATORS"
+#~ msgid "Your names"
+#~ msgstr "প্রজ্ঞা"
+
+#~ msgctxt "EMAIL OF TRANSLATORS"
+#~ msgid "Your emails"
+#~ msgstr "progga@BengaLinux.Org"
+
+#, fuzzy
+#~ msgid " %1 s"
+#~ msgstr "%1 সেকেন্ড"
+
+#, fuzzy
+#~| msgid " min"
+#~ msgid "min"
+#~ msgstr " মিনিট"
+
+#, fuzzy
+#~| msgid " sec"
+#~ msgid "sec"
+#~ msgstr " সেকেন্ড"
+
+#~ msgid "Other Tea"
+#~ msgstr "অন্যান্য চা"
+
+# FIXME
+#~ msgid "There is no tea to begin steeping."
+#~ msgstr "ভেজানো আরম্ভ করার জন্য কোন চা নেই।"
+
+#~ msgid "No Tea"
+#~ msgstr "কোন চা নেই"
+
+#~ msgid "Tea time:"
+#~ msgstr "চায়ের সময়:"
+
+#~ msgid "tea"
+#~ msgstr "চা"
+
+#~ msgid "New Tea"
+#~ msgstr "নতুন চা"
+
+#~ msgid "Tea List"
+#~ msgstr "চায়ের তালিকা"
+
+#~ msgid "New"
+#~ msgstr "নতুন"
+
+#~ msgid "Up"
+#~ msgstr "উপর"
+
+#~ msgid "Down"
+#~ msgstr "নিচ"
+
+#~ msgid "Tea Properties"
+#~ msgstr "চায়ের বৈশিষ্ট্য"
+
+#~ msgid "Name:"
+#~ msgstr "নাম:"
+
+#~ msgid "Action"
+#~ msgstr "কাজ"
+
+#~ msgid "Configure Events..."
+#~ msgstr "ইভেন্ট কনফিগার করো..."
+
+#~ msgid "Event"
+#~ msgstr "ইভেন্ট"
+
+# FIXME
+#~ msgid "Popup"
+#~ msgstr "আবির্ভূত হবে"
+
+#~ msgid "Enter command here; '%t' will be replaced with name of steeping tea"
+#~ msgstr ""
+#~ "এখানে কমান্ড লিখুন; যে চা ভেজানো হচ্ছে, তার নাম দিয়ে '%t' প্রতিস্থাপিত হবে"
+
+#~ msgid "Visualize progress in icon tray"
+#~ msgstr "আইকন ট্রে-তে অগ্রগতির পরিমাণ দেখুন"
