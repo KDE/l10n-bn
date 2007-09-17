@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-14 05:37+0200\n"
+"POT-Creation-Date: 2007-09-17 05:34+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -654,22 +654,32 @@ msgstr "বর্গমূলীয় মাত্রা"
 msgid "Unknown"
 msgstr "অজ্ঞাত"
 
-#: fitsimage.cpp:137 fitsimage.cpp:145 fitsimage.cpp:153
+#: fitsimage.cpp:129
+#, fuzzy
+#| msgid "Loading FITS..."
+msgid "Loading FITS"
+msgstr "FITS ফাইল লোড করা হচ্ছে..."
+
+#: fitsimage.cpp:129
+msgid "Please hold while loading FITS file..."
+msgstr ""
+
+#: fitsimage.cpp:141 fitsimage.cpp:152 fitsimage.cpp:160
 #, fuzzy, qt-format
 msgid "FITS file open error: %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: fitsimage.cpp:137 fitsimage.cpp:145 fitsimage.cpp:153 fitsimage.cpp:324
-#: fitsimage.cpp:332 fitsimage.cpp:339
+#: fitsimage.cpp:141 fitsimage.cpp:152 fitsimage.cpp:160 fitsimage.cpp:346
+#: fitsimage.cpp:354 fitsimage.cpp:361
 #, fuzzy
 msgid "FITS Open"
 msgstr "FITS মাত্রা (scale)"
 
-#: fitsimage.cpp:324 fitsimage.cpp:332
+#: fitsimage.cpp:346 fitsimage.cpp:354
 msgid "Unable to calculate FITS Min/Max values."
 msgstr ""
 
-#: fitsimage.cpp:339
+#: fitsimage.cpp:361
 msgid "FITS image is saturated and cannot be displayed."
 msgstr ""
 
@@ -1275,7 +1285,7 @@ msgstr "অস্তের কোন সময় নেই: মেরু পরি
 msgid "No set time: Never rises"
 msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kstars.cpp:152 kstarsactions.cpp:687 skymap.cpp:298
+#: kstars.cpp:152 kstarsactions.cpp:689 skymap.cpp:298
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
@@ -20407,7 +20417,13 @@ msgstr "তবুও চালাও"
 msgid "Running script: %1"
 msgstr ""
 
-#: kstarsactions.cpp:610
+#: kstarsactions.cpp:603
+#, fuzzy
+#| msgid "Script name:"
+msgid "Script finished."
+msgstr "স্ক্রিপ্টের নাম:"
+
+#: kstarsactions.cpp:612
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which "
 "uses a white background. Would you like to temporarily switch to the Star "
@@ -20417,46 +20433,46 @@ msgstr ""
 "ব্যবহার করতে পারেন যা সাদা পটভূমি ব্যবহার করে।  আপনি কি মুদ্রণের জন্য সাময়িকভাবে "
 "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান?"
 
-#: kstarsactions.cpp:615
+#: kstarsactions.cpp:617
 msgid "Switch to Star Chart Colors?"
 msgstr "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান কি?"
 
-#: kstarsactions.cpp:616
+#: kstarsactions.cpp:618
 msgid "Switch Color Scheme"
 msgstr "রং বিন্যাস বদলাও"
 
-#: kstarsactions.cpp:616
+#: kstarsactions.cpp:618
 msgid "Do Not Switch"
 msgstr "বদলাবে না"
 
-#: kstarsactions.cpp:671 kstarsinit.cpp:160
+#: kstarsactions.cpp:673 kstarsinit.cpp:160
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:790
+#: kstarsactions.cpp:792
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণের মান লিখুন"
 
-#: kstarsactions.cpp:790
+#: kstarsactions.cpp:792
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
-#: kstarsactions.cpp:853
+#: kstarsactions.cpp:855
 #, qt-format
 msgid "Projection system: %1"
 msgstr ""
 
-#: kstarsactions.cpp:895
+#: kstarsactions.cpp:897
 msgid "Could not open fov.dat for writing."
 msgstr "লেখার জন্য fov.dat ফাইলটি খোলা যায় নি।"
 
-#: kstarsactions.cpp:926 kstarsinit.cpp:526
+#: kstarsactions.cpp:928 kstarsinit.cpp:526
 #, qt-format
 msgid "Could not open file: %1"
 msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
-#: kstarsactions.cpp:931 kstarsinit.cpp:531
+#: kstarsactions.cpp:933 kstarsinit.cpp:531
 msgid "Edit FOV Symbols..."
 msgstr "FOV প্রতীক সম্পাদন..."
 
@@ -22181,13 +22197,13 @@ msgstr "মন্তব্য"
 #. i18n: tag string
 #. i18n: file fitsheaderdialog.ui line 77
 #. i18n: tag string
-#. i18n: file fitshistogramui.ui line 343
+#. i18n: file fitshistogramui.ui line 349
 #. i18n: tag string
 #. i18n: file imgsequencedlg.ui line 87
 #. i18n: tag string
 #. i18n: file fitsheaderdialog.ui line 77
 #. i18n: tag string
-#. i18n: file fitshistogramui.ui line 343
+#. i18n: file fitshistogramui.ui line 349
 #. i18n: tag string
 #. i18n: file imgsequencedlg.ui line 87
 #: rc.cpp:324 rc.cpp:360 rc.cpp:444 rc.cpp:2989 rc.cpp:3025 rc.cpp:3094
@@ -22232,25 +22248,25 @@ msgid "Max."
 msgstr "সর্বোচ্চ"
 
 #. i18n: tag string
-#. i18n: file fitshistogramui.ui line 254
+#. i18n: file fitshistogramui.ui line 257
 #: rc.cpp:348 rc.cpp:3013
 msgid "Intensity:"
 msgstr "তীব্রতা:"
 
 #. i18n: tag string
-#. i18n: file fitshistogramui.ui line 271
+#. i18n: file fitshistogramui.ui line 277
 #: rc.cpp:351 rc.cpp:3016
 msgid "Frequency:"
 msgstr "কম্পাঙ্ক:"
 
 #. i18n: tag string
-#. i18n: file fitshistogramui.ui line 278
+#. i18n: file fitshistogramui.ui line 284
 #: rc.cpp:354 rc.cpp:3019
 msgid "Min."
 msgstr "সর্বনিম্ন"
 
 #. i18n: tag string
-#. i18n: file fitshistogramui.ui line 330
+#. i18n: file fitshistogramui.ui line 336
 #: rc.cpp:357 rc.cpp:3022
 msgid "&Apply"
 msgstr ""
@@ -33759,9 +33775,6 @@ msgstr "অস্ত: %1"
 
 #~ msgid "FITS Viewer"
 #~ msgstr "FITS ফাইল প্রদর্শক"
-
-#~ msgid "Loading FITS..."
-#~ msgstr "FITS ফাইল লোড করা হচ্ছে..."
 
 #~ msgid "Not enough memory to load FITS."
 #~ msgstr "FITS ফাইল লোড করার জন্য পর্যাপ্ত মেমরি নেই।"
