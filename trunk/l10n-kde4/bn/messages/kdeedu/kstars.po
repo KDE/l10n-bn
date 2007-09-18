@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-17 05:34+0200\n"
+"POT-Creation-Date: 2007-09-18 05:44+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -313,8 +313,8 @@ msgstr ""
 "স্থানীয় রং বিন্যাসের ফাইল খোলা যায় নি।\n"
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
-#: colorscheme.cpp:261 colorscheme.cpp:279 indidriver.cpp:488
-#: indidriver.cpp:947 kstarsactions.cpp:555 locationdialog.cpp:245
+#: colorscheme.cpp:261 colorscheme.cpp:279 indidriver.cpp:511
+#: indidriver.cpp:970 kstarsactions.cpp:555 locationdialog.cpp:245
 #: opscolors.cpp:192 skymap.cpp:1560 tools/modcalcaltaz.cpp:264
 #: tools/modcalcangdist.cpp:143 tools/modcalcapcoord.cpp:166
 #: tools/modcalcdaylength.cpp:251 tools/modcalceclipticcoords.cpp:204
@@ -480,35 +480,35 @@ msgstr "লিঙ্ক সম্পাদন করো"
 
 #. i18n: tag string
 #. i18n: file addlinkdialog.ui line 73
-#: detaildialog.cpp:502 rc.cpp:69 rc.cpp:2734
+#: detaildialog.cpp:503 rc.cpp:69 rc.cpp:2734
 msgid "URL:"
 msgstr "ইউ.আর.এল.:"
 
-#: detaildialog.cpp:589
+#: detaildialog.cpp:587
 #, qt-format
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "আপনি কি %1 লিঙ্কটি অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: detaildialog.cpp:589 indidriver.cpp:921 telescopeprop.cpp:243
+#: detaildialog.cpp:587 indidriver.cpp:944 telescopeprop.cpp:243
 msgid "Delete Confirmation"
 msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
 
-#: detaildialog.cpp:834 tools/observinglist.cpp:374
+#: detaildialog.cpp:832 tools/observinglist.cpp:374
 #, qt-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr ""
 "%1 দূরবীক্ষণ যন্ত্র এখন অফলাইনে রয়েছে।  অনুগ্রহপূর্বক সংযোগ স্থাপন করে পুনরায় চেষ্টা "
 "করুন।"
 
-#: detaildialog.cpp:918 tools/observinglist.cpp:458
+#: detaildialog.cpp:916 tools/observinglist.cpp:458
 msgid "KStars did not find any active telescopes."
 msgstr "কে-স্টার্স কোন সক্রিয় দূরবীক্ষণ যন্ত্র খুঁজে পায় নি।"
 
-#: devicemanager.cpp:102
+#: devicemanager.cpp:104
 msgid "Cannot create socket"
 msgstr "সকেট তৈরি করা যাচ্ছে না"
 
-#: devicemanager.cpp:126
+#: devicemanager.cpp:128
 msgid "Cannot read server file descriptor"
 msgstr "সার্ভারের ফাইল Descriptor পড়া যাচ্ছে না"
 
@@ -900,11 +900,11 @@ msgstr ""
 msgid "Connection to INDI host at %1 on port %2 failed."
 msgstr ""
 
-#: indidriver.cpp:431
+#: indidriver.cpp:454
 msgid "Cannot start INDI server: port error."
 msgstr "INDI সার্ভার চালু করা যাচ্ছে না : পোর্ট ত্রুটি।"
 
-#: indidriver.cpp:487
+#: indidriver.cpp:510
 msgid ""
 "unable to write to file 'drivers.xml'\n"
 "Any changes to INDI device drivers will not be saved."
@@ -912,7 +912,7 @@ msgstr ""
 "drivers.xml' ফাইলে লেখা যাচ্ছে না\n"
 "INDI ডিভাইস ড্রাইভারে কোন পরিবর্তন করলে তা সংরক্ষিত হবে না।"
 
-#: indidriver.cpp:623
+#: indidriver.cpp:646
 #, fuzzy
 msgid ""
 "Unable to find device driver file 'drivers.xml'. Please locate the file and "
@@ -927,33 +927,33 @@ msgstr ""
 " \t$(KDEDIR)/share/apps/kstars/%1 \n"
 "\t~/.kde/share/apps/kstars/%1"
 
-#: indidriver.cpp:819
+#: indidriver.cpp:842
 msgid "Add Host"
 msgstr "হোস্ট যোগ করো"
 
-#: indidriver.cpp:835
+#: indidriver.cpp:858
 msgid "Error: the port number is invalid."
 msgstr "সমস্যা: অবৈধ পোর্ট নম্বর।"
 
-#: indidriver.cpp:845
+#: indidriver.cpp:868
 #, qt-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "হোস্ট: %1 পোর্ট: %2 ইতিমধ্যেই বিদ্যমান।"
 
-#: indidriver.cpp:870
+#: indidriver.cpp:893
 msgid "Modify Host"
 msgstr "হোস্ট পরিবর্তন করো"
 
-#: indidriver.cpp:917
+#: indidriver.cpp:940
 msgid "You need to disconnect the client before removing it."
 msgstr "ক্লায়েন্টকে অপসারণের পূর্বে তার সংযোগ বিচ্ছিন্ন করতে হবে।"
 
-#: indidriver.cpp:921
+#: indidriver.cpp:944
 #, qt-format
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "আপনি কি %1 ক্লায়েন্টকে অপসারণের ব্যাপারে নিশ্চিত?"
 
-#: indidriver.cpp:946
+#: indidriver.cpp:969
 msgid ""
 "unable to write to file 'indihosts.xml'\n"
 "Any changes to INDI hosts configurations will not be saved."
@@ -1025,17 +1025,17 @@ msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়ে
 msgid "Start"
 msgstr "আরম্ভ"
 
-#: indistd.cpp:601
+#: indistd.cpp:603
 #, qt-format
 msgid "%1 is online."
 msgstr "%1 অনলাইনে আছে।"
 
-#: indistd.cpp:615
+#: indistd.cpp:617
 #, qt-format
 msgid "%1 is online and ready."
 msgstr "%1 অনলাইনে আছে এবং প্রস্তুত রয়েছে।"
 
-#: indistd.cpp:793
+#: indistd.cpp:795
 #, fuzzy
 msgid "Cancel"
 msgstr "কান"
@@ -1205,18 +1205,18 @@ msgstr "২য়-প্রজন্মের ডি.এস.এস. ছবি দ�
 msgid "Spectral type: %1"
 msgstr "বর্ণালীর ধরন: %1"
 
-#: kspopupmenu.cpp:163 kspopupmenu.cpp:377
+#: kspopupmenu.cpp:163 kspopupmenu.cpp:376
 #, qt-format
 msgid "Rise time: %1"
 msgstr "উদয়: %1"
 
-#: kspopupmenu.cpp:164 kspopupmenu.cpp:393
+#: kspopupmenu.cpp:164 kspopupmenu.cpp:392
 #, qt-format
 msgctxt "the time at which an object falls below the horizon"
 msgid "Set time: %1"
 msgstr "অস্ত: %1"
 
-#: kspopupmenu.cpp:165 kspopupmenu.cpp:407
+#: kspopupmenu.cpp:165 kspopupmenu.cpp:406
 #, qt-format
 msgid "Transit time: %1"
 msgstr "অতিক্রম কাল: %1"
@@ -1263,25 +1263,25 @@ msgid "Remove Trail"
 msgstr "গতিপথ অপসারণ করো"
 
 # FIXME: Crosshair = ?
-#: kspopupmenu.cpp:358
+#: kspopupmenu.cpp:357
 #, fuzzy
 #| msgid "Center && Track Crosshair"
 msgid "Track Crosshair"
 msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অনুসরণ করো"
 
-#: kspopupmenu.cpp:380
+#: kspopupmenu.cpp:379
 msgid "No rise time: Circumpolar"
 msgstr "উদয়ের কোন সময় নেই: মেরু পরিবৃত্ত"
 
-#: kspopupmenu.cpp:382
+#: kspopupmenu.cpp:381
 msgid "No rise time: Never rises"
 msgstr "উদয়ের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kspopupmenu.cpp:396
+#: kspopupmenu.cpp:395
 msgid "No set time: Circumpolar"
 msgstr "অস্তের কোন সময় নেই: মেরু পরিবৃত্ত"
 
-#: kspopupmenu.cpp:398
+#: kspopupmenu.cpp:397
 msgid "No set time: Never rises"
 msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
@@ -27170,7 +27170,8 @@ msgstr "অ্যাপার্চার:"
 
 #. i18n: tag string
 #. i18n: file telescopewizard.ui line 31
-#: rc.cpp:2523 rc.cpp:4189
+#: rc.cpp:2523 rc.cpp:4189 telescopewizardprocess.cpp:248
+#: telescopewizardprocess.cpp:257
 msgid "Telescope Wizard"
 msgstr "দূরবীক্ষণ যন্ত্র বিষয়ক উইজার্ড"
 
@@ -30967,11 +30968,11 @@ msgstr ""
 msgid "Are you sure you want to remove %1?"
 msgstr "আপনি কি %1-কে অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: telescopewizardprocess.cpp:135
-msgid "Autoscan"
-msgstr "স্বয়ংক্রিয়-স্ক্যান"
+#: telescopewizardprocess.cpp:218
+msgid "Error. Unable to locate telescope drivers."
+msgstr "সমস্যা।  দূরবীক্ষণ যন্ত্রের ড্রাইভার পাওয়া যায় নি।"
 
-#: telescopewizardprocess.cpp:136
+#: telescopewizardprocess.cpp:249
 msgid ""
 "Please wait while KStars scan communication ports for attached telescopes.\n"
 "This process might take few minutes to complete."
@@ -30981,23 +30982,19 @@ msgstr ""
 "করার কাজ শেষ না করছে, অনুগ্রহপূর্বক ততক্ষণ অপেক্ষা করুন।  এ কাজটিতে কয়েক\n"
 "মিনিট পর্যন্ত সময় লাগতে পারে।"
 
-#: telescopewizardprocess.cpp:149
+#: telescopewizardprocess.cpp:257
 msgid "Please wait while KStars tries to connect to your telescope..."
 msgstr ""
 "কে-স্টার্স আপনার দূরবীক্ষণ যন্ত্রের সাথে সংযোগ স্থাপনের পূর্ব পর্যন্ত অনুগ্রহপূর্বক অপেক্ষা "
 "করুন..."
 
-#: telescopewizardprocess.cpp:151
-msgid "Error. Unable to locate telescope drivers."
-msgstr "সমস্যা।  দূরবীক্ষণ যন্ত্রের ড্রাইভার পাওয়া যায় নি।"
-
-#: telescopewizardprocess.cpp:281
+#: telescopewizardprocess.cpp:284
 msgid "Error: connection timeout. Unable to communicate with an INDI server"
 msgstr ""
 "সমস্যা: সংযোগ স্থাপনের সময়সীমা অতিক্রান্ত হয়ে গিয়েছে।  কোন INDI সার্ভারের সাথে "
 "যোগাযোগ করা যায় নি"
 
-#: telescopewizardprocess.cpp:347
+#: telescopewizardprocess.cpp:352
 msgid ""
 "Sorry. KStars failed to detect any attached telescopes, please check your "
 "settings and try again."
@@ -33194,6 +33191,9 @@ msgstr "অতিক্রম কাল: %1"
 #, qt-format
 msgid "Sets at: %1"
 msgstr "অস্ত: %1"
+
+#~ msgid "Autoscan"
+#~ msgstr "স্বয়ংক্রিয়-স্ক্যান"
 
 #~ msgid "List of objects above horizon tonight"
 #~ msgstr "আজ রাতে দিগন্তের ওপর অবস্থিত বস্তুগুলোর তালিকা"
