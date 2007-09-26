@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-07-07 04:59+0200\n"
+"POT-Creation-Date: 2007-09-26 05:45+0200\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -16,81 +16,99 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kio/netaccess.cpp:82
+#: kio/netaccess.cpp:105
 #, qt-format
 msgid "File '%1' is not readable"
 msgstr "ফাইল '%1' পড়া যাচ্ছে না"
 
-#: kio/netaccess.cpp:407
+#: kio/netaccess.cpp:439
 #, fuzzy, qt-format
 msgid "ERROR: Unknown protocol '%1'"
 msgstr "অজ্ঞাত প্রোটোকল '%1'।"
 
-#: kio/job.cpp:151
+#: kio/job.cpp:144
+#, fuzzy
+#| msgid "Moving"
+msgctxt "@title job"
 msgid "Moving"
 msgstr "স্থানান্তর করা হচ্ছে"
 
-#: kio/job.cpp:152 kio/job.cpp:159 kio/job.cpp:184
+#: kio/job.cpp:145 kio/job.cpp:152 kio/job.cpp:177
 #, fuzzy
 msgid "Source"
 msgstr "উত্‍স:"
 
-#: kio/job.cpp:153 kio/job.cpp:160
+#: kio/job.cpp:146 kio/job.cpp:153
 #, fuzzy
 msgid "Destination"
 msgstr "গন্তব্য:"
 
-#: kio/job.cpp:158
+#: kio/job.cpp:151
+#, fuzzy
+#| msgid "Copying"
+msgctxt "@title job"
 msgid "Copying"
 msgstr "কপি করা হচ্ছে"
 
-#: kio/job.cpp:165
+#: kio/job.cpp:158
 #, fuzzy
+msgctxt "@title job"
 msgid "Creating directory"
 msgstr "ফোল্ডার তৈরি হচ্ছে"
 
-#: kio/job.cpp:166
+#: kio/job.cpp:159
 msgid "Directory"
 msgstr ""
 
-#: kio/job.cpp:171
+#: kio/job.cpp:164
+#, fuzzy
+#| msgid "Deleting"
+msgctxt "@title job"
 msgid "Deleting"
 msgstr "মুছে ফেলা হচ্ছে"
 
-#: kio/job.cpp:172 kio/job.cpp:178
+#: kio/job.cpp:165 kio/job.cpp:171
 #, fuzzy
 msgid "File"
 msgstr "কোন ফাইল নেই"
 
-#: kio/job.cpp:177
+#: kio/job.cpp:170
 #, fuzzy
+msgctxt "@title job"
 msgid "Stating"
 msgstr "ক্রমবিন্যাস"
 
-#: kio/job.cpp:183
+#: kio/job.cpp:176
+msgctxt "@title job"
 msgid "Transferring"
 msgstr ""
 
-#: kio/job.cpp:189
+#: kio/job.cpp:182
+#, fuzzy
+#| msgid "Mounting"
+msgctxt "@title job"
 msgid "Mounting"
 msgstr "মাউন্ট করা হচ্ছে"
 
-#: kio/job.cpp:190
+#: kio/job.cpp:183
 #, fuzzy
 msgid "Device"
 msgstr "ডিভাইস"
 
-#: kio/job.cpp:191 kio/job.cpp:197
+#: kio/job.cpp:184 kio/job.cpp:190
 #, fuzzy
 msgid "Mountpoint"
 msgstr "মাউন্ট পয়েন্ট:"
 
-#: kio/job.cpp:196
+#: kio/job.cpp:189
+#, fuzzy
+#| msgid "Unmounting"
+msgctxt "@title job"
 msgid "Unmounting"
 msgstr "আনমাউন্ট করা হচ্ছে"
 
-#: kio/job.cpp:1831 kio/paste.cpp:62 kio/copyjob.cpp:1036 kio/copyjob.cpp:1540
-#: kio/global.cpp:698
+#: kio/job.cpp:1979 kio/paste.cpp:62 kio/copyjob.cpp:1165 kio/copyjob.cpp:1685
+#: kio/global.cpp:703
 msgid "File Already Exists"
 msgstr "ফাইল আগে থেকেই আছে"
 
@@ -102,11 +120,11 @@ msgstr "সব ছবি"
 msgid "Data format:"
 msgstr "তথ্য ফরম্যাট"
 
-#: kio/slaveinterface.cpp:522
+#: kio/slaveinterface.cpp:466
 msgid "The peer SSL certificate appears to be corrupt."
 msgstr ""
 
-#: kio/slaveinterface.cpp:522 kio/tcpslavebase.cpp:753
+#: kio/slaveinterface.cpp:466 kio/tcpslavebase.cpp:753
 msgid "SSL"
 msgstr "এস-এস-এল"
 
@@ -129,7 +147,7 @@ msgstr ""
 msgid "The clipboard is empty"
 msgstr "ক্লিপবোর্ড ফাঁকা"
 
-#: kio/paste.cpp:198 kio/renamedialog.cpp:397 kio/kdirlister.cpp:295
+#: kio/paste.cpp:198 kio/renamedialog.cpp:393 kio/kdirlister.cpp:295
 #: kio/krun.cpp:798
 #, qt-format
 msgid ""
@@ -161,13 +179,13 @@ msgstr "ক্লিপবোর্ড-এর বিষয়&বস্তু প�
 msgid "Authorization Dialog"
 msgstr ""
 
-#: kio/kfileitemdelegate.cpp:194
+#: kio/kfileitemdelegate.cpp:225
 #, fuzzy
 msgctxt "Items in a folder"
 msgid "? items"
 msgstr "কোন বস্তু নেই"
 
-#: kio/kfileitemdelegate.cpp:196
+#: kio/kfileitemdelegate.cpp:227
 #, fuzzy, qt-format
 msgctxt "Items in a folder"
 msgid "1 item"
@@ -175,8 +193,10 @@ msgid_plural "%1 items"
 msgstr[0] "একটি ফাইল"
 msgstr[1] "%1-টি ফাইল"
 
-#: kio/kfileitemdelegate.cpp:234 kio/kfileitemdelegate.cpp:237
-#: kssl/ksslcertificate.cpp:201
+#: kio/kfileitemdelegate.cpp:265 kio/kfileitemdelegate.cpp:268
+#, fuzzy
+#| msgid "Unknown"
+msgctxt "@info mimetype"
 msgid "Unknown"
 msgstr "অজানা"
 
@@ -225,37 +245,37 @@ msgstr ""
 msgid "C&ontinue"
 msgstr "চালিয়ে যা&ও"
 
-#: kio/renamedialog.cpp:199 kio/renamedialog.cpp:277
+#: kio/renamedialog.cpp:195 kio/renamedialog.cpp:273
 #, qt-format
 msgid "An older item named '%1' already exists."
 msgstr "'%1' নামের একটি পুরনো বস্তু আগে থেকেই আছে।"
 
-#: kio/renamedialog.cpp:201 kio/renamedialog.cpp:279
+#: kio/renamedialog.cpp:197 kio/renamedialog.cpp:275
 #, qt-format
 msgid "A similar file named '%1' already exists."
 msgstr "'%1' নামের একই রকম একটি ফাইল আগে থেকেই আছে।"
 
-#: kio/renamedialog.cpp:203 kio/renamedialog.cpp:281
+#: kio/renamedialog.cpp:199 kio/renamedialog.cpp:277
 #, qt-format
 msgid "A newer item named '%1' already exists."
 msgstr "'%1' নামের আরো নতুন একটি বস্তু আগে থেকেই আছে।"
 
-#: kio/renamedialog.cpp:215 kio/renamedialog.cpp:250
+#: kio/renamedialog.cpp:211 kio/renamedialog.cpp:246
 #, qt-format
 msgid "size %1"
 msgstr "মাপ %1 "
 
-#: kio/renamedialog.cpp:223 kio/renamedialog.cpp:257
+#: kio/renamedialog.cpp:219 kio/renamedialog.cpp:253
 #, qt-format
 msgid "created on %1"
 msgstr "%1-এ তৈরি"
 
-#: kio/renamedialog.cpp:230 kio/renamedialog.cpp:264
+#: kio/renamedialog.cpp:226 kio/renamedialog.cpp:260
 #, qt-format
 msgid "modified on %1"
 msgstr "%1-এ পরিবর্তিত"
 
-#: kio/renamedialog.cpp:239
+#: kio/renamedialog.cpp:235
 #, qt-format
 msgid "The source file is '%1'"
 msgstr "সোর্স (source) ফাইলের নাম '%1'"
@@ -264,7 +284,7 @@ msgstr "সোর্স (source) ফাইলের নাম '%1'"
 msgid "The desktop is offline"
 msgstr ""
 
-#: kio/chmodjob.cpp:157
+#: kio/chmodjob.cpp:215
 #, qt-format
 msgid ""
 "<qt>Could not modify the ownership of file <b>%1</b>. You have insufficient "
@@ -273,15 +293,15 @@ msgstr ""
 "<qt><b>%1</b> ফাইলটির মালিকানা পাল্টানো যায়নি, কারণ তার জন্য প্রয়োজনীয় অনুমতি "
 "আপনার নেই।</qt>"
 
-#: kio/chmodjob.cpp:157
+#: kio/chmodjob.cpp:215
 msgid "&Skip File"
 msgstr "ফাই&ল ছেড়ে যাও"
 
-#: kio/kbuildsycocaprogressdialog.cpp:26
+#: kio/kbuildsycocaprogressdialog.cpp:33
 msgid "Updating System Configuration"
 msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে"
 
-#: kio/kbuildsycocaprogressdialog.cpp:27
+#: kio/kbuildsycocaprogressdialog.cpp:34
 msgid "Updating system configuration."
 msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে।"
 
@@ -418,19 +438,19 @@ msgstr "এড়িয়ে যাও"
 msgid "AutoSkip"
 msgstr "এড়িয়ে যাও"
 
-#: kio/copyjob.cpp:763 kio/global.cpp:708
+#: kio/copyjob.cpp:889 kio/global.cpp:713
 msgid "Folder Already Exists"
 msgstr "ফোল্ডার আগে থেকেই আছে"
 
-#: kio/copyjob.cpp:1036 kio/copyjob.cpp:1540
+#: kio/copyjob.cpp:1165 kio/copyjob.cpp:1685
 msgid "Already Exists as Folder"
 msgstr "ফোল্ডার হিসেবে আগে থেকেই আছে"
 
-#: kio/kscan.cpp:42
+#: kio/kscan.cpp:50
 msgid "Acquire Image"
 msgstr "চিত্র অর্জন করো"
 
-#: kio/kscan.cpp:83
+#: kio/kscan.cpp:99
 msgid "OCR Image"
 msgstr "চিত্র ও-সি-আর (OCR) করো"
 
@@ -697,16 +717,22 @@ msgid "Could not change permissions for %1."
 msgstr "%1-এর অনুমতি বদলানো যায়নি।"
 
 #: kio/global.cpp:308
+#, fuzzy, qt-format
+#| msgid "Could not change permissions for %1."
+msgid "Could not change ownership for %1."
+msgstr "%1-এর অনুমতি বদলানো যায়নি।"
+
+#: kio/global.cpp:311
 #, qt-format
 msgid "Could not delete file %1."
 msgstr "%1 ফাইলটি মোছা যায়নি।"
 
-#: kio/global.cpp:311
+#: kio/global.cpp:314
 #, qt-format
 msgid "The process for the %1 protocol died unexpectedly."
 msgstr "%1 প্রোটোকল-এর প্রসেসটি অপ্রত্যাশিতভাবে বন্ধ হয়ে গেছে"
 
-#: kio/global.cpp:314
+#: kio/global.cpp:317
 #, qt-format
 msgid ""
 "Error. Out of memory.\n"
@@ -715,7 +741,7 @@ msgstr ""
 "সমস্যা।  যথেষ্ট মেমরি নেই।\n"
 "%1"
 
-#: kio/global.cpp:317
+#: kio/global.cpp:320
 #, qt-format
 msgid ""
 "Unknown proxy host\n"
@@ -724,12 +750,12 @@ msgstr ""
 "অজ্ঞাত প্রক্সি হোস্ট\n"
 "%1"
 
-#: kio/global.cpp:320
+#: kio/global.cpp:323
 #, qt-format
 msgid "Authorization failed, %1 authentication not supported"
 msgstr "অনুমোদন ব্যর্থ, %1 সত্যতা যাচাই সমর্থিত নয়"
 
-#: kio/global.cpp:323
+#: kio/global.cpp:326
 #, qt-format
 msgid ""
 "User canceled action\n"
@@ -738,7 +764,7 @@ msgstr ""
 "ব্যবহারকারী কাজটি বাতিল করেছে\n"
 "%1"
 
-#: kio/global.cpp:326
+#: kio/global.cpp:329
 #, qt-format
 msgid ""
 "Internal error in server\n"
@@ -747,7 +773,7 @@ msgstr ""
 "সার্ভার-এ অভ্যন্তরীণ সমস্যা\n"
 "%1"
 
-#: kio/global.cpp:329
+#: kio/global.cpp:332
 #, qt-format
 msgid ""
 "Timeout on server\n"
@@ -756,7 +782,7 @@ msgstr ""
 "সার্ভার-এ টাইম-আউট\n"
 "%1"
 
-#: kio/global.cpp:332
+#: kio/global.cpp:335
 #, qt-format
 msgid ""
 "Unknown error\n"
@@ -765,14 +791,14 @@ msgstr ""
 "অজানা সমস্যা\n"
 "%1"
 
-#: kio/global.cpp:335
+#: kio/global.cpp:338
 #, qt-format
 msgid ""
 "Unknown interrupt\n"
 "%1"
 msgstr ""
 
-#: kio/global.cpp:346
+#: kio/global.cpp:349
 #, qt-format
 msgid ""
 "Could not delete original file %1.\n"
@@ -781,7 +807,7 @@ msgstr ""
 "মূল ফাইল %1 মোছা যায়নি।\n"
 "অনুগ্রহ করে অনুমতি পরীক্ষা করুন।"
 
-#: kio/global.cpp:349
+#: kio/global.cpp:352
 #, qt-format
 msgid ""
 "Could not delete partial file %1.\n"
@@ -790,7 +816,7 @@ msgstr ""
 "আংশিক ফাইল %1 মোছা যায়নি।\n"
 "অনুগ্রহ করে অনুমতি পরীক্ষা করুন।"
 
-#: kio/global.cpp:352
+#: kio/global.cpp:355
 #, qt-format
 msgid ""
 "Could not rename original file %1.\n"
@@ -799,7 +825,7 @@ msgstr ""
 "মূল ফাইল %1-এর নাম বদলানো যায়নি।\n"
 "অনুগ্রহ করে অনুমতি পরীক্ষা করুন।"
 
-#: kio/global.cpp:355
+#: kio/global.cpp:358
 #, qt-format
 msgid ""
 "Could not rename partial file %1.\n"
@@ -808,7 +834,7 @@ msgstr ""
 "আংশিক ফাইল %1-এর নাম বদলানো যায়নি।\n"
 "অনুগ্রহ করে অনুমতি পরীক্ষা করুন।"
 
-#: kio/global.cpp:358
+#: kio/global.cpp:361
 #, qt-format
 msgid ""
 "Could not create symlink %1.\n"
@@ -817,7 +843,7 @@ msgstr ""
 "সিমবলিক লিঙ্ক %1 তৈরি করা যায়নি।\n"
 "অনুগ্রহ করে অনুমতি পরীক্ষা করুন।"
 
-#: kio/global.cpp:364
+#: kio/global.cpp:367
 #, qt-format
 msgid ""
 "Could not write file %1.\n"
@@ -826,7 +852,7 @@ msgstr ""
 "ফাইল %1 লোখা যায়নি।\n"
 "ডিস্কে আর জায়গা নেই।"
 
-#: kio/global.cpp:367
+#: kio/global.cpp:370
 #, qt-format
 msgid ""
 "The source and destination are the same file.\n"
@@ -835,16 +861,16 @@ msgstr ""
 "উত্‍স এবং গন্তব্য একই ফাইল।\n"
 "%1"
 
-#: kio/global.cpp:373
+#: kio/global.cpp:376
 #, qt-format
 msgid "%1 is required by the server, but is not available."
 msgstr "সার্ভার-এর %1 প্রয়োজন, কিন্তু পাওয়া যাচ্ছে না"
 
-#: kio/global.cpp:376
+#: kio/global.cpp:379
 msgid "Access to restricted port in POST denied."
 msgstr ""
 
-#: kio/global.cpp:379
+#: kio/global.cpp:382
 #, qt-format
 msgid ""
 "Unknown error code %1\n"
@@ -855,188 +881,204 @@ msgstr ""
 "%2\n"
 "অনুগ্রহ করে http://bugs.kde.org-এ বাগ-রিপোর্ট পাঠান।"
 
-#: kio/global.cpp:389
+#: kio/global.cpp:392
 #, qt-format
 msgid "Opening connections is not supported with the protocol %1."
 msgstr "প্রোটোকল %1 কানেকশন খোলা সমর্থন করে না।"
 
-#: kio/global.cpp:391
+#: kio/global.cpp:394
 #, qt-format
 msgid "Closing connections is not supported with the protocol %1."
 msgstr "প্রোটোকল %1 কানেকশন বন্ধ করা সমর্থন করে না।"
 
-#: kio/global.cpp:393
+#: kio/global.cpp:396
 #, qt-format
 msgid "Accessing files is not supported with the protocol %1."
 msgstr ""
 
-#: kio/global.cpp:395
+#: kio/global.cpp:398
 #, qt-format
 msgid "Writing to %1 is not supported."
 msgstr "%1-তে লেখা সমর্থিত নয়।"
 
-#: kio/global.cpp:397
+#: kio/global.cpp:400
 #, qt-format
 msgid "There are no special actions available for protocol %1."
 msgstr "প্রোটোকল %1-এ কোন বিশেষ ক্রিয়া (special actions) নেই।"
 
-#: kio/global.cpp:399
+#: kio/global.cpp:402
 #, qt-format
 msgid "Listing folders is not supported for protocol %1."
 msgstr ""
 
-#: kio/global.cpp:401
+#: kio/global.cpp:404
 #, qt-format
 msgid "Retrieving data from %1 is not supported."
 msgstr ""
 
-#: kio/global.cpp:403
+#: kio/global.cpp:406
 #, qt-format
 msgid "Retrieving mime type information from %1 is not supported."
 msgstr ""
 
-#: kio/global.cpp:405
+#: kio/global.cpp:408
 #, qt-format
 msgid "Renaming or moving files within %1 is not supported."
 msgstr ""
 
-#: kio/global.cpp:407
+#: kio/global.cpp:410
 #, qt-format
 msgid "Creating symlinks is not supported with protocol %1."
 msgstr "প্রোটোকল %1 সিমলিঙ্ক তৈরি করা সমর্থন করে না।"
 
-#: kio/global.cpp:409
+#: kio/global.cpp:412
 #, qt-format
 msgid "Copying files within %1 is not supported."
 msgstr "%1-এর মধ্যে ফাইল কপি করা সমর্থিত নয়।"
 
-#: kio/global.cpp:411
+#: kio/global.cpp:414
 #, qt-format
 msgid "Deleting files from %1 is not supported."
 msgstr "%1 থেকে ফাইল মুছে ফেলা সমর্থিত নয়।"
 
-#: kio/global.cpp:413
+#: kio/global.cpp:416
 #, qt-format
 msgid "Creating folders is not supported with protocol %1."
 msgstr "প্রোটোকল %1 ফোল্ডার তৈরি করা সমর্থন করে না।"
 
-#: kio/global.cpp:415
+#: kio/global.cpp:418
 #, qt-format
 msgid "Changing the attributes of files is not supported with protocol %1."
 msgstr "প্রোটোকল %1 ফাইলের অ্যাট্রিবিউট পরিবর্তন করা সমর্থন করে না।"
 
-#: kio/global.cpp:417
+#: kio/global.cpp:420
+#, fuzzy, qt-format
+#| msgid "Changing the attributes of files is not supported with protocol %1."
+msgid "Changing the ownership of files is not supported with protocol %1."
+msgstr "প্রোটোকল %1 ফাইলের অ্যাট্রিবিউট পরিবর্তন করা সমর্থন করে না।"
+
+#: kio/global.cpp:422
 #, qt-format
 msgid "Using sub-URLs with %1 is not supported."
 msgstr ""
 
-#: kio/global.cpp:419
+#: kio/global.cpp:424
 #, qt-format
 msgid "Multiple get is not supported with protocol %1."
 msgstr ""
 
-#: kio/global.cpp:421
+#: kio/global.cpp:426
 #, fuzzy, qt-format
 msgid "Opening files is not supported with protocol %1."
 msgstr "প্রোটোকল %1 ফোল্ডার তৈরি করা সমর্থন করে না।"
 
-#: kio/global.cpp:423
+#: kio/global.cpp:428
 #, qt-format
 msgid "Protocol %1 does not support action %2."
 msgstr "প্রোটোকল %1 ক্রিয়া %2 সমর্থন করে না।"
 
-#: kio/global.cpp:443 kio/global.cpp:525
+#: kio/global.cpp:448
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "@info url"
 msgid "(unknown)"
 msgstr "(অজানা)"
 
-#: kio/global.cpp:455
+#: kio/global.cpp:460
 msgid "<b>Technical reason</b>: "
 msgstr "<b>টেকনিকাল কারণ</b>:"
 
-#: kio/global.cpp:456
+#: kio/global.cpp:461
 msgid "</p><p><b>Details of the request</b>:"
 msgstr "</p><p><b>অনুরোধটির বিস্তারিত বিবরণ</b>:"
 
-#: kio/global.cpp:457
+#: kio/global.cpp:462
 #, qt-format
 msgid "</p><ul><li>URL: %1</li>"
 msgstr "</p><ul><li>ইউ-আর-এল: %1</li>"
 
-#: kio/global.cpp:459
+#: kio/global.cpp:464
 #, qt-format
 msgid "<li>Protocol: %1</li>"
 msgstr "<li>প্রোটোকল: %1</li>"
 
-#: kio/global.cpp:461
+#: kio/global.cpp:466
 #, qt-format
 msgid "<li>Date and time: %1</li>"
 msgstr "<li>তারিখ এবং সময়: %1</li>"
 
-#: kio/global.cpp:462
+#: kio/global.cpp:467
 #, qt-format
 msgid "<li>Additional information: %1</li></ul>"
 msgstr "<li>আরো তথ্য: %1</li></ul>"
 
-#: kio/global.cpp:464
+#: kio/global.cpp:469
 msgid "<p><b>Possible causes</b>:</p><ul><li>"
 msgstr "<p><b>সম্ভাব্য কারণ</b>:</p><ul><li>"
 
-#: kio/global.cpp:469
+#: kio/global.cpp:474
 msgid "<p><b>Possible solutions</b>:</p><ul><li>"
 msgstr "<p><b>সম্ভাব্য সমাধান</b>:</p><ul><li>"
 
-#: kio/global.cpp:535
+#: kio/global.cpp:530
+#, fuzzy
+#| msgid "(unknown)"
+msgctxt "@info protocol"
+msgid "(unknown)"
+msgstr "(অজানা)"
+
+#: kio/global.cpp:540
 msgid ""
 "Contact your appropriate computer support system, whether the system "
 "administrator, or technical support group for further assistance."
 msgstr ""
 
-#: kio/global.cpp:538
+#: kio/global.cpp:543
 msgid "Contact the administrator of the server for further assistance."
 msgstr ""
 
-#: kio/global.cpp:541
+#: kio/global.cpp:546
 msgid "Check your access permissions on this resource."
 msgstr ""
 
-#: kio/global.cpp:542
+#: kio/global.cpp:547
 msgid ""
 "Your access permissions may be inadequate to perform the requested operation "
 "on this resource."
 msgstr ""
 
-#: kio/global.cpp:544
+#: kio/global.cpp:549
 msgid ""
 "The file may be in use (and thus locked) by another user or application."
 msgstr ""
 
-#: kio/global.cpp:546
+#: kio/global.cpp:551
 msgid ""
 "Check to make sure that no other application or user is using the file or "
 "has locked the file."
 msgstr ""
 
-#: kio/global.cpp:548
+#: kio/global.cpp:553
 msgid "Although unlikely, a hardware error may have occurred."
 msgstr "যদিও তার সম্ভাবনা কম, হয়তো হার্ডওয়ারে কোন সমস্যা হয়ে থাকতে পারে।"
 
-#: kio/global.cpp:550
+#: kio/global.cpp:555
 msgid "You may have encountered a bug in the program."
 msgstr "আপনি হয়তো প্রোগ্রামে একটি বাগ-এর সম্মুখীন হয়েছেন।"
 
-#: kio/global.cpp:551
+#: kio/global.cpp:556
 msgid ""
 "This is most likely to be caused by a bug in the program. Please consider "
 "submitting a full bug report as detailed below."
 msgstr ""
 
-#: kio/global.cpp:553
+#: kio/global.cpp:558
 msgid ""
 "Update your software to the latest version. Your distribution should provide "
 "tools to update your software."
 msgstr ""
 
-#: kio/global.cpp:555
+#: kio/global.cpp:560
 msgid ""
 "When all else fails, please consider helping the KDE team or the third party "
 "maintainer of this software by submitting a high quality bug report. If the "
@@ -1047,86 +1089,86 @@ msgid ""
 "in your bug report, along with as many other details as you think might help."
 msgstr ""
 
-#: kio/global.cpp:563
+#: kio/global.cpp:568
 msgid "There may have been a problem with your network connection."
 msgstr "আপনার নেটওয়ার্ক যোগাযোগ ব্যবস্থায় কিছু সমস্যা হয়ে থাকতে পারে।"
 
-#: kio/global.cpp:566
+#: kio/global.cpp:571
 msgid ""
 "There may have been a problem with your network configuration. If you have "
 "been accessing the Internet with no problems recently, this is unlikely."
 msgstr ""
 
-#: kio/global.cpp:569
+#: kio/global.cpp:574
 msgid ""
 "There may have been a problem at some point along the network path between "
 "the server and this computer."
 msgstr ""
 
-#: kio/global.cpp:571
+#: kio/global.cpp:576
 msgid "Try again, either now or at a later time."
 msgstr "আবার চেষ্টা করুন, এখন বা পরে কোন সময়।"
 
-#: kio/global.cpp:572
+#: kio/global.cpp:577
 msgid "A protocol error or incompatibility may have occurred."
 msgstr ""
 
-#: kio/global.cpp:573
+#: kio/global.cpp:578
 msgid "Ensure that the resource exists, and try again."
 msgstr ""
 
-#: kio/global.cpp:574
+#: kio/global.cpp:579
 msgid "The specified resource may not exist."
 msgstr "নির্বাচিত রিসোর্সটি না থাকতে পারে।"
 
-#: kio/global.cpp:575
+#: kio/global.cpp:580
 msgid "You may have incorrectly typed the location."
 msgstr "আপনি হয়তো অবস্থানটি লিখতে ভুল করেছেন।"
 
-#: kio/global.cpp:576
+#: kio/global.cpp:581
 msgid "Double-check that you have entered the correct location and try again."
 msgstr "অবস্থানটি সঠিক লিখেছেন কিনা পরীক্ষা করে আবার চেষ্টা করুন।"
 
-#: kio/global.cpp:578
+#: kio/global.cpp:583
 msgid "Check your network connection status."
 msgstr "আপনার নেটওয়ার্ক যোগাযোগ ব্যবস্থা পরীক্ষা করুন।"
 
-#: kio/global.cpp:582
+#: kio/global.cpp:587
 msgid "Cannot Open Resource For Reading"
 msgstr ""
 
-#: kio/global.cpp:583
+#: kio/global.cpp:588
 #, qt-format
 msgid ""
 "This means that the contents of the requested file or folder <strong>%1</"
 "strong> could not be retrieved, as read access could not be obtained."
 msgstr ""
 
-#: kio/global.cpp:586
+#: kio/global.cpp:591
 msgid "You may not have permissions to read the file or open the folder."
 msgstr ""
 
-#: kio/global.cpp:592
+#: kio/global.cpp:597
 msgid "Cannot Open Resource For Writing"
 msgstr ""
 
-#: kio/global.cpp:593
+#: kio/global.cpp:598
 #, qt-format
 msgid ""
 "This means that the file, <strong>%1</strong>, could not be written to as "
 "requested, because access with permission to write could not be obtained."
 msgstr ""
 
-#: kio/global.cpp:601
+#: kio/global.cpp:606
 #, qt-format
 msgid "Cannot Initiate the %1 Protocol"
 msgstr "%1 প্রোটোকলটি চালু করা যাচ্ছে না"
 
-#: kio/global.cpp:602
+#: kio/global.cpp:607
 msgid "Unable to Launch Process"
 msgstr "প্রসেস চালু করতে অক্ষম"
 
-#: kio/global.cpp:603
+#: kio/global.cpp:608
 #, qt-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
@@ -1134,29 +1176,29 @@ msgid ""
 "reasons."
 msgstr ""
 
-#: kio/global.cpp:606
+#: kio/global.cpp:611
 msgid ""
 "The program which provides compatibility with this protocol may not have "
 "been updated with your last update of KDE. This can cause the program to be "
 "incompatible with the current version and thus not start."
 msgstr ""
 
-#: kio/global.cpp:614
+#: kio/global.cpp:619
 msgid "Internal Error"
 msgstr "অভ্যন্তরীণ সমস্যা"
 
-#: kio/global.cpp:615
+#: kio/global.cpp:620
 #, qt-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an internal error."
 msgstr ""
 
-#: kio/global.cpp:623
+#: kio/global.cpp:628
 msgid "Improperly Formatted URL"
 msgstr ""
 
-#: kio/global.cpp:624
+#: kio/global.cpp:629
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered was not properly formatted. The format "
@@ -1165,30 +1207,30 @@ msgid ""
 "strong></blockquote>"
 msgstr ""
 
-#: kio/global.cpp:633
+#: kio/global.cpp:638
 #, qt-format
 msgid "Unsupported Protocol %1"
 msgstr "অসমর্থিত প্রোটোকল %1"
 
-#: kio/global.cpp:634
+#: kio/global.cpp:639
 #, qt-format
 msgid ""
 "The protocol <strong>%1</strong> is not supported by the KDE programs "
 "currently installed on this computer."
 msgstr ""
 
-#: kio/global.cpp:637
+#: kio/global.cpp:642
 msgid "The requested protocol may not be supported."
 msgstr "পছন্দ করা প্রোটোকলটি সমর্থিত না হতে পারে।"
 
-#: kio/global.cpp:638
+#: kio/global.cpp:643
 #, qt-format
 msgid ""
 "The versions of the %1 protocol supported by this computer and the server "
 "may be incompatible."
 msgstr ""
 
-#: kio/global.cpp:640
+#: kio/global.cpp:645
 msgid ""
 "You may perform a search on the Internet for a KDE program (called a "
 "kioslave or ioslave) which supports this protocol. Places to search include "
@@ -1196,21 +1238,21 @@ msgid ""
 "\"http://freshmeat.net/\">http://freshmeat.net/</a>."
 msgstr ""
 
-#: kio/global.cpp:649
+#: kio/global.cpp:654
 msgid "URL Does Not Refer to a Resource."
 msgstr ""
 
-#: kio/global.cpp:650
+#: kio/global.cpp:655
 msgid "Protocol is a Filter Protocol"
 msgstr "প্রোটোকলটি একটি ফিল্টার প্রোটোকল"
 
-#: kio/global.cpp:651
+#: kio/global.cpp:656
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
 "strong>ocator (URL) that you entered did not refer to a specific resource."
 msgstr ""
 
-#: kio/global.cpp:654
+#: kio/global.cpp:659
 msgid ""
 "KDE is able to communicate through a protocol within a protocol; the "
 "protocol specified is only for use in such situations, however this is not "
@@ -1218,183 +1260,183 @@ msgid ""
 "programming error."
 msgstr ""
 
-#: kio/global.cpp:662
+#: kio/global.cpp:667
 #, qt-format
 msgid "Unsupported Action: %1"
 msgstr ""
 
-#: kio/global.cpp:663
+#: kio/global.cpp:668
 #, qt-format
 msgid ""
 "The requested action is not supported by the KDE program which is "
 "implementing the <strong>%1</strong> protocol."
 msgstr ""
 
-#: kio/global.cpp:666
+#: kio/global.cpp:671
 msgid ""
 "This error is very much dependent on the KDE program. The additional "
 "information should give you more information than is available to the KDE "
 "input/output architecture."
 msgstr ""
 
-#: kio/global.cpp:669
+#: kio/global.cpp:674
 msgid "Attempt to find another way to accomplish the same outcome."
 msgstr "একই কাজ করার অন্য একটি উপায় খুঁজুন।"
 
-#: kio/global.cpp:674
+#: kio/global.cpp:679
 msgid "File Expected"
 msgstr "ফাইল প্রত্যাশিত ছিল"
 
-#: kio/global.cpp:675
+#: kio/global.cpp:680
 #, qt-format
 msgid ""
 "The request expected a file, however the folder <strong>%1</strong> was "
 "found instead."
 msgstr ""
 
-#: kio/global.cpp:677
+#: kio/global.cpp:682
 msgid "This may be an error on the server side."
 msgstr "সমস্যাটি সার্ভার-এর দিকে হয়ে থাকতে পারে।"
 
-#: kio/global.cpp:682
+#: kio/global.cpp:687
 msgid "Folder Expected"
 msgstr "ফোল্ডার প্রত্যাশিত ছিল"
 
-#: kio/global.cpp:683
+#: kio/global.cpp:688
 #, qt-format
 msgid ""
 "The request expected a folder, however the file <strong>%1</strong> was "
 "found instead."
 msgstr ""
 
-#: kio/global.cpp:690
+#: kio/global.cpp:695
 msgid "File or Folder Does Not Exist"
 msgstr "ফাইল বা ফোল্ডার নেই"
 
-#: kio/global.cpp:691
+#: kio/global.cpp:696
 #, qt-format
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "<strong>%1</strong> নামের কোনো ফাইল অথবা ফোল্ডার নেই।"
 
-#: kio/global.cpp:699
+#: kio/global.cpp:704
 msgid ""
 "The requested file could not be created because a file with the same name "
 "already exists."
 msgstr ""
 
-#: kio/global.cpp:701
+#: kio/global.cpp:706
 msgid "Try moving the current file out of the way first, and then try again."
 msgstr ""
 
-#: kio/global.cpp:703
+#: kio/global.cpp:708
 msgid "Delete the current file and try again."
 msgstr ""
 
-#: kio/global.cpp:704
+#: kio/global.cpp:709
 msgid "Choose an alternate filename for the new file."
 msgstr "নতুন ফাইলটির জন্য অন্য একটি নাম বাছুন।"
 
-#: kio/global.cpp:709
+#: kio/global.cpp:714
 msgid ""
 "The requested folder could not be created because a folder with the same "
 "name already exists."
 msgstr ""
 
-#: kio/global.cpp:711
+#: kio/global.cpp:716
 msgid "Try moving the current folder out of the way first, and then try again."
 msgstr ""
 
-#: kio/global.cpp:713
+#: kio/global.cpp:718
 msgid "Delete the current folder and try again."
 msgstr ""
 
-#: kio/global.cpp:714
+#: kio/global.cpp:719
 msgid "Choose an alternate name for the new folder."
 msgstr "নতুন ফোল্ডারটির জন্য অন্য একটি নাম বাছুন।"
 
-#: kio/global.cpp:718
+#: kio/global.cpp:723
 msgid "Unknown Host"
 msgstr "অজানা হোস্ট"
 
-#: kio/global.cpp:719
+#: kio/global.cpp:724
 #, qt-format
 msgid ""
 "An unknown host error indicates that the server with the requested name, "
 "<strong>%1</strong>, could not be located on the Internet."
 msgstr ""
 
-#: kio/global.cpp:722
+#: kio/global.cpp:727
 #, qt-format
 msgid ""
 "The name that you typed, %1, may not exist: it may be incorrectly typed."
 msgstr ""
 
-#: kio/global.cpp:729
+#: kio/global.cpp:734
 msgid "Access Denied"
 msgstr ""
 
-#: kio/global.cpp:730
+#: kio/global.cpp:735
 #, qt-format
 msgid "Access was denied to the specified resource, <strong>%1</strong>."
 msgstr ""
 
-#: kio/global.cpp:732 kio/global.cpp:948
+#: kio/global.cpp:737 kio/global.cpp:953
 msgid "You may have supplied incorrect authentication details or none at all."
 msgstr ""
 
-#: kio/global.cpp:734 kio/global.cpp:950
+#: kio/global.cpp:739 kio/global.cpp:955
 msgid "Your account may not have permission to access the specified resource."
 msgstr ""
 
-#: kio/global.cpp:736 kio/global.cpp:952 kio/global.cpp:964
+#: kio/global.cpp:741 kio/global.cpp:957 kio/global.cpp:969
 msgid ""
 "Retry the request and ensure your authentication details are entered "
 "correctly."
 msgstr ""
 
-#: kio/global.cpp:742
+#: kio/global.cpp:747
 msgid "Write Access Denied"
 msgstr ""
 
-#: kio/global.cpp:743
+#: kio/global.cpp:748
 #, qt-format
 msgid ""
 "This means that an attempt to write to the file <strong>%1</strong> was "
 "rejected."
 msgstr ""
 
-#: kio/global.cpp:750
+#: kio/global.cpp:755
 msgid "Unable to Enter Folder"
 msgstr "ফোল্ডারে ঢোকা যায়নি"
 
-#: kio/global.cpp:751
+#: kio/global.cpp:756
 #, qt-format
 msgid ""
 "This means that an attempt to enter (in other words, to open) the requested "
 "folder <strong>%1</strong> was rejected."
 msgstr ""
 
-#: kio/global.cpp:759
+#: kio/global.cpp:764
 msgid "Folder Listing Unavailable"
 msgstr ""
 
-#: kio/global.cpp:760
+#: kio/global.cpp:765
 #, qt-format
 msgid "Protocol %1 is not a Filesystem"
 msgstr ""
 
-#: kio/global.cpp:761
+#: kio/global.cpp:766
 msgid ""
 "This means that a request was made which requires determining the contents "
 "of the folder, and the KDE program supporting this protocol is unable to do "
 "so."
 msgstr ""
 
-#: kio/global.cpp:769
+#: kio/global.cpp:774
 msgid "Cyclic Link Detected"
 msgstr ""
 
-#: kio/global.cpp:770
+#: kio/global.cpp:775
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. KDE detected a link or series of links that results in "
@@ -1402,29 +1444,29 @@ msgid ""
 "itself."
 msgstr ""
 
-#: kio/global.cpp:774 kio/global.cpp:796
+#: kio/global.cpp:779 kio/global.cpp:801
 msgid ""
 "Delete one part of the loop in order that it does not cause an infinite "
 "loop, and try again."
 msgstr ""
 
-#: kio/global.cpp:783
+#: kio/global.cpp:788
 msgid "Request Aborted By User"
 msgstr ""
 
-#: kio/global.cpp:784 kio/global.cpp:1077
+#: kio/global.cpp:789 kio/global.cpp:1090
 msgid "The request was not completed because it was aborted."
 msgstr ""
 
-#: kio/global.cpp:786 kio/global.cpp:980 kio/global.cpp:1079
+#: kio/global.cpp:791 kio/global.cpp:985 kio/global.cpp:1092
 msgid "Retry the request."
 msgstr ""
 
-#: kio/global.cpp:790
+#: kio/global.cpp:795
 msgid "Cyclic Link Detected During Copy"
 msgstr ""
 
-#: kio/global.cpp:791
+#: kio/global.cpp:796
 msgid ""
 "UNIX environments are commonly able to link a file or folder to a separate "
 "name and/or location. During the requested copy operation, KDE detected a "
@@ -1432,84 +1474,84 @@ msgid ""
 "(perhaps in a roundabout way) linked to itself."
 msgstr ""
 
-#: kio/global.cpp:801
+#: kio/global.cpp:806
 msgid "Could Not Create Network Connection"
 msgstr ""
 
-#: kio/global.cpp:802
+#: kio/global.cpp:807
 msgid "Could Not Create Socket"
 msgstr "সকেট তৈরি করা যায়নি"
 
-#: kio/global.cpp:803
+#: kio/global.cpp:808
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be created."
 msgstr ""
 
-#: kio/global.cpp:805 kio/global.cpp:918 kio/global.cpp:929 kio/global.cpp:938
+#: kio/global.cpp:810 kio/global.cpp:923 kio/global.cpp:934 kio/global.cpp:943
 msgid ""
 "The network connection may be incorrectly configured, or the network "
 "interface may not be enabled."
 msgstr ""
 
-#: kio/global.cpp:811
+#: kio/global.cpp:816
 msgid "Connection to Server Refused"
 msgstr ""
 
-#: kio/global.cpp:812
+#: kio/global.cpp:817
 #, qt-format
 msgid ""
 "The server <strong>%1</strong> refused to allow this computer to make a "
 "connection."
 msgstr ""
 
-#: kio/global.cpp:814
+#: kio/global.cpp:819
 msgid ""
 "The server, while currently connected to the Internet, may not be configured "
 "to allow requests."
 msgstr ""
 
-#: kio/global.cpp:816
+#: kio/global.cpp:821
 #, qt-format
 msgid ""
 "The server, while currently connected to the Internet, may not be running "
 "the requested service (%1)."
 msgstr ""
 
-#: kio/global.cpp:818
+#: kio/global.cpp:823
 msgid ""
 "A network firewall (a device which restricts Internet requests), either "
 "protecting your network or the network of the server, may have intervened, "
 "preventing this request."
 msgstr ""
 
-#: kio/global.cpp:825
+#: kio/global.cpp:830
 msgid "Connection to Server Closed Unexpectedly"
 msgstr ""
 
-#: kio/global.cpp:826
+#: kio/global.cpp:831
 #, qt-format
 msgid ""
 "Although a connection was established to <strong>%1</strong>, the connection "
 "was closed at an unexpected point in the communication."
 msgstr ""
 
-#: kio/global.cpp:829
+#: kio/global.cpp:834
 msgid ""
 "A protocol error may have occurred, causing the server to close the "
 "connection as a response to the error."
 msgstr ""
 
-#: kio/global.cpp:835
+#: kio/global.cpp:840
 msgid "URL Resource Invalid"
 msgstr ""
 
-#: kio/global.cpp:836
+#: kio/global.cpp:841
 #, qt-format
 msgid "Protocol %1 is not a Filter Protocol"
 msgstr ""
 
-#: kio/global.cpp:837
+#: kio/global.cpp:842
 #, qt-format
 msgid ""
 "The <strong>U</strong>niform <strong>R</strong>esource <strong>L</"
@@ -1517,7 +1559,7 @@ msgid ""
 "accessing the specific resource, <strong>%1%2</strong>."
 msgstr ""
 
-#: kio/global.cpp:842
+#: kio/global.cpp:847
 msgid ""
 "KDE is able to communicate through a protocol within a protocol. This "
 "request specified a protocol be used as such, however this protocol is not "
@@ -1525,283 +1567,302 @@ msgid ""
 "programming error."
 msgstr ""
 
-#: kio/global.cpp:850
+#: kio/global.cpp:855
 msgid "Unable to Initialize Input/Output Device"
 msgstr ""
 
-#: kio/global.cpp:851
+#: kio/global.cpp:856
 msgid "Could Not Mount Device"
 msgstr ""
 
-#: kio/global.cpp:852
+#: kio/global.cpp:857
 #, qt-format
 msgid ""
 "The requested device could not be initialized (\"mounted\"). The reported "
 "error was: <strong>%1</strong>"
 msgstr ""
 
-#: kio/global.cpp:855
+#: kio/global.cpp:860
 msgid ""
 "The device may not be ready, for example there may be no media in a "
 "removable media device (i.e. no CD-ROM in a CD drive), or in the case of a "
 "peripheral/portable device, the device may not be correctly connected."
 msgstr ""
 
-#: kio/global.cpp:859
+#: kio/global.cpp:864
 msgid ""
 "You may not have permissions to initialize (\"mount\") the device. On UNIX "
 "systems, often system administrator privileges are required to initialize a "
 "device."
 msgstr ""
 
-#: kio/global.cpp:863
+#: kio/global.cpp:868
 msgid ""
 "Check that the device is ready; removable drives must contain media, and "
 "portable devices must be connected and powered on.; and try again."
 msgstr ""
 
-#: kio/global.cpp:869
+#: kio/global.cpp:874
 msgid "Unable to Uninitialize Input/Output Device"
 msgstr ""
 
-#: kio/global.cpp:870
+#: kio/global.cpp:875
 msgid "Could Not Unmount Device"
 msgstr ""
 
-#: kio/global.cpp:871
+#: kio/global.cpp:876
 #, qt-format
 msgid ""
 "The requested device could not be uninitialized (\"unmounted\"). The "
 "reported error was: <strong>%1</strong>"
 msgstr ""
 
-#: kio/global.cpp:874
+#: kio/global.cpp:879
 msgid ""
 "The device may be busy, that is, still in use by another application or "
 "user. Even such things as having an open browser window on a location on "
 "this device may cause the device to remain in use."
 msgstr ""
 
-#: kio/global.cpp:878
+#: kio/global.cpp:883
 msgid ""
 "You may not have permissions to uninitialize (\"unmount\") the device. On "
 "UNIX systems, system administrator privileges are often required to "
 "uninitialize a device."
 msgstr ""
 
-#: kio/global.cpp:882
+#: kio/global.cpp:887
 msgid "Check that no applications are accessing the device, and try again."
 msgstr ""
 
-#: kio/global.cpp:887
+#: kio/global.cpp:892
 msgid "Cannot Read From Resource"
 msgstr ""
 
-#: kio/global.cpp:888
+#: kio/global.cpp:893
 #, qt-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while reading the contents of the resource."
 msgstr ""
 
-#: kio/global.cpp:891
+#: kio/global.cpp:896
 msgid "You may not have permissions to read from the resource."
 msgstr ""
 
-#: kio/global.cpp:900
+#: kio/global.cpp:905
 msgid "Cannot Write to Resource"
 msgstr ""
 
-#: kio/global.cpp:901
+#: kio/global.cpp:906
 #, qt-format
 msgid ""
 "This means that although the resource, <strong>%1</strong>, was able to be "
 "opened, an error occurred while writing to the resource."
 msgstr ""
 
-#: kio/global.cpp:904
+#: kio/global.cpp:909
 msgid "You may not have permissions to write to the resource."
 msgstr ""
 
-#: kio/global.cpp:913 kio/global.cpp:924
+#: kio/global.cpp:918 kio/global.cpp:929
 msgid "Could Not Listen for Network Connections"
 msgstr ""
 
-#: kio/global.cpp:914
+#: kio/global.cpp:919
 msgid "Could Not Bind"
 msgstr ""
 
-#: kio/global.cpp:915 kio/global.cpp:926
+#: kio/global.cpp:920 kio/global.cpp:931
 msgid ""
 "This is a fairly technical error in which a required device for network "
 "communications (a socket) could not be established to listen for incoming "
 "network connections."
 msgstr ""
 
-#: kio/global.cpp:925
+#: kio/global.cpp:930
 msgid "Could Not Listen"
 msgstr ""
 
-#: kio/global.cpp:935
+#: kio/global.cpp:940
 msgid "Could Not Accept Network Connection"
 msgstr ""
 
-#: kio/global.cpp:936
+#: kio/global.cpp:941
 msgid ""
 "This is a fairly technical error in which an error occurred while attempting "
 "to accept an incoming network connection."
 msgstr ""
 
-#: kio/global.cpp:940
+#: kio/global.cpp:945
 msgid "You may not have permissions to accept the connection."
 msgstr ""
 
-#: kio/global.cpp:945
+#: kio/global.cpp:950
 #, qt-format
 msgid "Could Not Login: %1"
 msgstr ""
 
-#: kio/global.cpp:946
+#: kio/global.cpp:951
 msgid ""
 "An attempt to login to perform the requested operation was unsuccessful."
 msgstr ""
 
-#: kio/global.cpp:957
+#: kio/global.cpp:962
 msgid "Could Not Determine Resource Status"
 msgstr ""
 
-#: kio/global.cpp:958
+#: kio/global.cpp:963
 msgid "Could Not Stat Resource"
 msgstr ""
 
-#: kio/global.cpp:959
+#: kio/global.cpp:964
 #, qt-format
 msgid ""
 "An attempt to determine information about the status of the resource <strong>"
 "%1</strong>, such as the resource name, type, size, etc., was unsuccessful."
 msgstr ""
 
-#: kio/global.cpp:962
+#: kio/global.cpp:967
 msgid "The specified resource may not have existed or may not be accessible."
 msgstr ""
 
-#: kio/global.cpp:970
+#: kio/global.cpp:975
 msgid "Could Not Cancel Listing"
 msgstr ""
 
-#: kio/global.cpp:971
+#: kio/global.cpp:976
 msgid "FIXME: Document this"
 msgstr ""
 
-#: kio/global.cpp:975
+#: kio/global.cpp:980
 msgid "Could Not Create Folder"
 msgstr "ফোল্ডার তৈরি করা যায়নি"
 
-#: kio/global.cpp:976
+#: kio/global.cpp:981
 msgid "An attempt to create the requested folder failed."
 msgstr "ফোল্ডারটি তৈরি করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#: kio/global.cpp:977
+#: kio/global.cpp:982
 msgid "The location where the folder was to be created may not exist."
 msgstr "যেখানে ফোল্ডারটি তৈরি হওয়ার কথা, সেই জায়গাটি হয়ত নেই।"
 
-#: kio/global.cpp:984
+#: kio/global.cpp:989
 msgid "Could Not Remove Folder"
 msgstr "ফোল্ডার মুছে ফেলা যায়নি"
 
-#: kio/global.cpp:985
+#: kio/global.cpp:990
 #, qt-format
 msgid "An attempt to remove the specified folder, <strong>%1</strong>, failed."
 msgstr "<strong>%1</strong> ফোল্ডারটি মুছে ফেলার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#: kio/global.cpp:987
+#: kio/global.cpp:992
 msgid "The specified folder may not exist."
 msgstr "হয়ত ঐ নামে কোন ফোল্ডার নেই।"
 
-#: kio/global.cpp:988
+#: kio/global.cpp:993
 msgid "The specified folder may not be empty."
 msgstr "হয়ত ঐ ফোল্ডারটি ফাঁকা নয়।"
 
-#: kio/global.cpp:991
+#: kio/global.cpp:996
 msgid "Ensure that the folder exists and is empty, and try again."
 msgstr ""
 "ঐ নামে একটি ফোল্ডার আছে কিনা এবং সেটি ফাঁকা কিনা পরীক্ষা করে আবার চেষ্টা করুন।"
 
-#: kio/global.cpp:996
+#: kio/global.cpp:1001
 msgid "Could Not Resume File Transfer"
 msgstr ""
 
-#: kio/global.cpp:997
+#: kio/global.cpp:1002
 #, qt-format
 msgid ""
 "The specified request asked that the transfer of file <strong>%1</strong> be "
 "resumed at a certain point of the transfer. This was not possible."
 msgstr ""
 
-#: kio/global.cpp:1000
+#: kio/global.cpp:1005
 msgid "The protocol, or the server, may not support file resuming."
 msgstr ""
 
-#: kio/global.cpp:1002
+#: kio/global.cpp:1007
 msgid "Retry the request without attempting to resume transfer."
 msgstr ""
 
-#: kio/global.cpp:1007
+#: kio/global.cpp:1012
 msgid "Could Not Rename Resource"
 msgstr ""
 
-#: kio/global.cpp:1008
+#: kio/global.cpp:1013
 #, qt-format
 msgid "An attempt to rename the specified resource <strong>%1</strong> failed."
 msgstr ""
 
-#: kio/global.cpp:1016
+#: kio/global.cpp:1021
 msgid "Could Not Alter Permissions of Resource"
 msgstr ""
 
-#: kio/global.cpp:1017
+#: kio/global.cpp:1022
 #, qt-format
 msgid ""
 "An attempt to alter the permissions on the specified resource <strong>%1</"
 "strong> failed."
 msgstr ""
 
-#: kio/global.cpp:1024
+#: kio/global.cpp:1029
+#, fuzzy
+#| msgid ""
+#| "Could not change permissions for\n"
+#| "%1"
+msgid "Could Not Change Ownership of Resource"
+msgstr ""
+"%1-র\n"
+"জন্য অনুমতি বদলানো যায়নি"
+
+#: kio/global.cpp:1030
+#, fuzzy, qt-format
+#| msgid ""
+#| "An attempt to remove the specified folder, <strong>%1</strong>, failed."
+msgid ""
+"An attempt to change the ownership of the specified resource <strong>%1</"
+"strong> failed."
+msgstr "<strong>%1</strong> ফোল্ডারটি মুছে ফেলার প্রচেষ্টা ব্যর্থ হয়েছে।"
+
+#: kio/global.cpp:1037
 msgid "Could Not Delete Resource"
 msgstr ""
 
-#: kio/global.cpp:1025
+#: kio/global.cpp:1038
 #, qt-format
 msgid "An attempt to delete the specified resource <strong>%1</strong> failed."
 msgstr ""
 
-#: kio/global.cpp:1032
+#: kio/global.cpp:1045
 msgid "Unexpected Program Termination"
 msgstr "প্রোগ্রামের অপ্রত্যাশিত সমাপ্তি"
 
-#: kio/global.cpp:1033
+#: kio/global.cpp:1046
 #, qt-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has unexpectedly terminated."
 msgstr ""
 
-#: kio/global.cpp:1041
+#: kio/global.cpp:1054
 msgid "Out of Memory"
 msgstr "মেমরি ফুরিয়ে গেছে"
 
-#: kio/global.cpp:1042
+#: kio/global.cpp:1055
 #, qt-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol could not obtain the memory required to continue."
 msgstr ""
 
-#: kio/global.cpp:1050
+#: kio/global.cpp:1063
 msgid "Unknown Proxy Host"
 msgstr "অজ্ঞাত প্রক্সি হোস্ট"
 
-#: kio/global.cpp:1051
+#: kio/global.cpp:1064
 #, qt-format
 msgid ""
 "While retrieving information about the specified proxy host, <strong>%1</"
@@ -1809,23 +1870,23 @@ msgid ""
 "indicates that the requested name could not be located on the Internet."
 msgstr ""
 
-#: kio/global.cpp:1055
+#: kio/global.cpp:1068
 msgid ""
 "There may have been a problem with your network configuration, specifically "
 "your proxy's hostname. If you have been accessing the Internet with no "
 "problems recently, this is unlikely."
 msgstr ""
 
-#: kio/global.cpp:1059
+#: kio/global.cpp:1072
 msgid "Double-check your proxy settings and try again."
 msgstr "আপনার প্রক্সি সেটিংস পরীক্ষা করে আবার চেষ্টা করুন।"
 
-#: kio/global.cpp:1064
+#: kio/global.cpp:1077
 #, qt-format
 msgid "Authentication Failed: Method %1 Not Supported"
 msgstr ""
 
-#: kio/global.cpp:1066
+#: kio/global.cpp:1079
 #, qt-format
 msgid ""
 "Although you may have supplied the correct authentication details, the "
@@ -1833,48 +1894,48 @@ msgid ""
 "supported by the KDE program implementing the protocol %1."
 msgstr ""
 
-#: kio/global.cpp:1070
+#: kio/global.cpp:1083
 msgid ""
 "Please file a bug at <a href=\"http://bugs.kde.org/\">http://bugs.kde.org/</"
 "a> to inform the KDE team of the unsupported authentication method."
 msgstr ""
 
-#: kio/global.cpp:1076
+#: kio/global.cpp:1089
 msgid "Request Aborted"
 msgstr ""
 
-#: kio/global.cpp:1083
+#: kio/global.cpp:1096
 msgid "Internal Error in Server"
 msgstr "সার্ভার-এ অভ্যন্তরীণ সমস্যা"
 
-#: kio/global.cpp:1084
+#: kio/global.cpp:1097
 #, qt-format
 msgid ""
 "The program on the server which provides access to the <strong>%1</strong> "
 "protocol has reported an internal error: %2."
 msgstr ""
 
-#: kio/global.cpp:1087
+#: kio/global.cpp:1100
 msgid ""
 "This is most likely to be caused by a bug in the server program. Please "
 "consider submitting a full bug report as detailed below."
 msgstr ""
 
-#: kio/global.cpp:1090
+#: kio/global.cpp:1103
 msgid "Contact the administrator of the server to advise them of the problem."
 msgstr ""
 
-#: kio/global.cpp:1092
+#: kio/global.cpp:1105
 msgid ""
 "If you know who the authors of the server software are, submit the bug "
 "report directly to them."
 msgstr ""
 
-#: kio/global.cpp:1097
+#: kio/global.cpp:1110
 msgid "Timeout Error"
 msgstr ""
 
-#: kio/global.cpp:1098
+#: kio/global.cpp:1111
 #, qt-format
 msgid ""
 "Although contact was made with the server, a response was not received "
@@ -1885,37 +1946,37 @@ msgid ""
 "settings in the KDE Control Center, by selecting Network -> Preferences."
 msgstr ""
 
-#: kio/global.cpp:1109
+#: kio/global.cpp:1122
 msgid "The server was too busy responding to other requests to respond."
 msgstr ""
 
-#: kio/global.cpp:1115
+#: kio/global.cpp:1128
 msgid "Unknown Error"
 msgstr "অনির্দিষ্ট সমস্যা"
 
-#: kio/global.cpp:1116
+#: kio/global.cpp:1129
 #, qt-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an unknown error: %2."
 msgstr ""
 
-#: kio/global.cpp:1124
+#: kio/global.cpp:1137
 msgid "Unknown Interruption"
 msgstr ""
 
-#: kio/global.cpp:1125
+#: kio/global.cpp:1138
 #, qt-format
 msgid ""
 "The program on your computer which provides access to the <strong>%1</"
 "strong> protocol has reported an interruption of an unknown type: %2."
 msgstr ""
 
-#: kio/global.cpp:1133
+#: kio/global.cpp:1146
 msgid "Could Not Delete Original File"
 msgstr ""
 
-#: kio/global.cpp:1134
+#: kio/global.cpp:1147
 #, qt-format
 msgid ""
 "The requested operation required the deleting of the original file, most "
@@ -1923,11 +1984,11 @@ msgid ""
 "strong> could not be deleted."
 msgstr ""
 
-#: kio/global.cpp:1143
+#: kio/global.cpp:1156
 msgid "Could Not Delete Temporary File"
 msgstr "অস্থায়ী ফাইল মোছা যায়নি"
 
-#: kio/global.cpp:1144
+#: kio/global.cpp:1157
 #, qt-format
 msgid ""
 "The requested operation required the creation of a temporary file in which "
@@ -1935,78 +1996,78 @@ msgid ""
 "strong> could not be deleted."
 msgstr ""
 
-#: kio/global.cpp:1153
+#: kio/global.cpp:1166
 msgid "Could Not Rename Original File"
 msgstr ""
 
-#: kio/global.cpp:1154
+#: kio/global.cpp:1167
 #, qt-format
 msgid ""
 "The requested operation required the renaming of the original file <strong>%"
 "1</strong>, however it could not be renamed."
 msgstr ""
 
-#: kio/global.cpp:1162
+#: kio/global.cpp:1175
 msgid "Could Not Rename Temporary File"
 msgstr ""
 
-#: kio/global.cpp:1163
+#: kio/global.cpp:1176
 #, qt-format
 msgid ""
 "The requested operation required the creation of a temporary file <strong>%"
 "1</strong>, however it could not be created."
 msgstr ""
 
-#: kio/global.cpp:1171
+#: kio/global.cpp:1184
 msgid "Could Not Create Link"
 msgstr ""
 
-#: kio/global.cpp:1172
+#: kio/global.cpp:1185
 msgid "Could Not Create Symbolic Link"
 msgstr ""
 
-#: kio/global.cpp:1173
+#: kio/global.cpp:1186
 #, qt-format
 msgid "The requested symbolic link %1 could not be created."
 msgstr ""
 
-#: kio/global.cpp:1180
+#: kio/global.cpp:1193
 msgid "No Content"
 msgstr ""
 
-#: kio/global.cpp:1185
+#: kio/global.cpp:1198
 msgid "Disk Full"
 msgstr "ডিস্ক ভর্তি"
 
-#: kio/global.cpp:1186
+#: kio/global.cpp:1199
 #, qt-format
 msgid ""
 "The requested file <strong>%1</strong> could not be written to as there is "
 "inadequate disk space."
 msgstr ""
 
-#: kio/global.cpp:1188
+#: kio/global.cpp:1201
 msgid ""
 "Free up enough disk space by 1) deleting unwanted and temporary files; 2) "
 "archiving files to removable media storage such as CD-Recordable discs; or "
 "3) obtain more storage capacity."
 msgstr ""
 
-#: kio/global.cpp:1195
+#: kio/global.cpp:1208
 msgid "Source and Destination Files Identical"
 msgstr ""
 
-#: kio/global.cpp:1196
+#: kio/global.cpp:1209
 msgid ""
 "The operation could not be completed because the source and destination "
 "files are the same file."
 msgstr "অপারেশন পারে নয় সম্পন্ন কারণ টি উত্‍স এবং গন্তব্য   টি একই ফাইল."
 
-#: kio/global.cpp:1198
+#: kio/global.cpp:1211
 msgid "Choose a different filename for the destination file."
 msgstr ""
 
-#: kio/global.cpp:1209
+#: kio/global.cpp:1222
 msgid "Undocumented Error"
 msgstr ""
 
@@ -2084,7 +2145,7 @@ msgstr ""
 "ধরনের ডেস্কটপ এন্ট্রিটি অজানা।"
 
 #: kio/kdesktopfileactions.cpp:81 kio/kdesktopfileactions.cpp:159
-#: kio/kdesktopfileactions.cpp:304
+#: kio/kdesktopfileactions.cpp:311
 #, qt-format
 msgid ""
 "The desktop entry file\n"
@@ -2118,7 +2179,21 @@ msgstr "ইজেক্ট"
 msgid "Unmount"
 msgstr "আনমাউন্ট"
 
-#: kio/kdesktopfileactions.cpp:276
+#: kio/kdesktopfileactions.cpp:228
+#, fuzzy, qt-format
+#| msgid ""
+#| "The desktop entry file\n"
+#| "%1\n"
+#| " has an invalid menu entry\n"
+#| "%2."
+msgid "The desktop menu %1 has an invalid X-KDE-GetActionMenu entry."
+msgstr ""
+"ডেস্কটপ এন্ট্রি ফাইল\n"
+"%1-এ\n"
+"একটি অবৈধ মেনু এন্ট্রি\n"
+"%2আছে।"
+
+#: kio/kdesktopfileactions.cpp:283
 #, qt-format
 msgid ""
 "The desktop entry file\n"
@@ -2131,45 +2206,45 @@ msgstr ""
 "একটি অবৈধ মেনু এন্ট্রি\n"
 "%2আছে।"
 
-#: kio/kfileitem.cpp:909
+#: kio/kfileitem.cpp:940
 #, fuzzy, qt-format
 #| msgid "Link to %1 (%2)"
 msgid "(Symbolic Link to %1)"
 msgstr "%1-এ লিঙ্ক (%2)"
 
-#: kio/kfileitem.cpp:911
+#: kio/kfileitem.cpp:942
 #, fuzzy, qt-format
 #| msgid "Link to %1 (%2)"
 msgid "(%1, Link to %2)"
 msgstr "%1-এ লিঙ্ক (%2)"
 
-#: kio/kfileitem.cpp:938 bookmarks/kbookmarkmenu.cc:641
+#: kio/kfileitem.cpp:969 bookmarks/kbookmarkdialog.cc:251
 #: ../kioslave/http/kcookiejar/kcookiewin.cpp:218
 msgid "Name:"
 msgstr "নাম:"
 
-#: kio/kfileitem.cpp:939 kfile/kpropertiesdialog.cpp:958
+#: kio/kfileitem.cpp:970 kfile/kpropertiesdialog.cpp:975
 msgid "Type:"
 msgstr "ধরন:"
 
-#: kio/kfileitem.cpp:943
+#: kio/kfileitem.cpp:974
 #, qt-format
 msgid "Link to %1 (%2)"
 msgstr "%1-এ লিঙ্ক (%2)"
 
-#: kio/kfileitem.cpp:948 kfile/kpropertiesdialog.cpp:1006
+#: kio/kfileitem.cpp:979 kfile/kpropertiesdialog.cpp:1022
 msgid "Size:"
 msgstr "মাপ:"
 
-#: kio/kfileitem.cpp:953 kfile/kpropertiesdialog.cpp:1069
+#: kio/kfileitem.cpp:984 kfile/kpropertiesdialog.cpp:1083
 msgid "Modified:"
 msgstr "পরিবর্তিত:"
 
-#: kio/kfileitem.cpp:956
+#: kio/kfileitem.cpp:987
 msgid "Owner:"
 msgstr "মালিক:"
 
-#: kio/kfileitem.cpp:957
+#: kio/kfileitem.cpp:988
 msgid "Permissions:"
 msgstr "ব্যবহারের অনুমতি:"
 
@@ -2178,38 +2253,33 @@ msgstr "ব্যবহারের অনুমতি:"
 msgid "No service implementing %1"
 msgstr ""
 
-#: kio/slave.cpp:392
-#, qt-format
-msgid "Unable to create io-slave: %1"
-msgstr ""
-
-#: kio/slave.cpp:432
+#: kio/slave.cpp:406
 #, qt-format
 msgid "Unknown protocol '%1'."
 msgstr "অজ্ঞাত প্রোটোকল '%1'।"
 
-#: kio/slave.cpp:440
+#: kio/slave.cpp:414
 #, qt-format
 msgid "Can not find io-slave for protocol '%1'."
 msgstr ""
 
-#: kio/slave.cpp:459
+#: kio/slave.cpp:432
 #, qt-format
 msgid "Cannot talk to klauncher: %1"
 msgstr ""
 
-#: kio/slave.cpp:467
+#: kio/slave.cpp:440
 #, qt-format
 msgid ""
 "Unable to create io-slave:\n"
 "klauncher said: %1"
 msgstr ""
 
-#: kio/kmimetypechooser.cpp:73 kfile/kpropertiesdialog.cpp:2700
+#: kio/kmimetypechooser.cpp:73 kfile/kpropertiesdialog.cpp:2731
 msgid "Mime Type"
 msgstr "মাইম টাইপ"
 
-#: kio/kmimetypechooser.cpp:77 kfile/kpropertiesdialog.cpp:2712
+#: kio/kmimetypechooser.cpp:77 kfile/kpropertiesdialog.cpp:2744
 msgid "Comment"
 msgstr "মন্তব্য"
 
@@ -2225,35 +2295,56 @@ msgstr "&সম্পাদন করো..."
 msgid "Click this button to display the familiar KDE mime type editor."
 msgstr ""
 
-#: kio/kdirmodel.cpp:554 kfile/kacleditwidget.cpp:626
-#: ../kfile/k3filedetailview.cpp:65
+#: kio/connection.cpp:209
+#, qt-format
+msgid "Unable to create io-slave: %1"
+msgstr ""
+
+#: kio/kdirmodel.cpp:604
+#, fuzzy
+#| msgid "Name"
+msgctxt "@title:column"
 msgid "Name"
 msgstr "নাম"
 
-#: kio/kdirmodel.cpp:556 ../kfile/k3filedetailview.cpp:66
+#: kio/kdirmodel.cpp:606
+#, fuzzy
+#| msgid "Size"
+msgctxt "@title:column"
 msgid "Size"
 msgstr "মাপ"
 
-#: kio/kdirmodel.cpp:558
+#: kio/kdirmodel.cpp:608
 #, fuzzy
+msgctxt "@title:column"
 msgid "Modified"
 msgstr "পরিবর্তিত:"
 
-#: kio/kdirmodel.cpp:560 ../kfile/k3filedetailview.cpp:68
+#: kio/kdirmodel.cpp:610
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "@title:column"
 msgid "Permissions"
 msgstr "অনুমতি"
 
-#: kio/kdirmodel.cpp:562 kfile/kacleditwidget.cpp:61
-#: kfile/kacleditwidget.cpp:454 ../kfile/k3filedetailview.cpp:69
+#: kio/kdirmodel.cpp:612
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@title:column"
 msgid "Owner"
 msgstr "মালিক"
 
-#: kio/kdirmodel.cpp:564 kfile/kpropertiesdialog.cpp:1988
-#: ../kfile/k3filedetailview.cpp:70
+#: kio/kdirmodel.cpp:614
+#, fuzzy
+#| msgid "Group"
+msgctxt "@title:column"
 msgid "Group"
 msgstr "গ্রুপ"
 
-#: kio/kdirmodel.cpp:566 kfile/kacleditwidget.cpp:625
+#: kio/kdirmodel.cpp:616
+#, fuzzy
+#| msgid "Type"
+msgctxt "@title:column"
 msgid "Type"
 msgstr "ধরন"
 
@@ -2310,7 +2401,7 @@ msgstr ""
 msgid "IP address:"
 msgstr ""
 
-#: kssl/ksslinfodialog.cpp:236 kfile/kpropertiesdialog.cpp:2575
+#: kssl/ksslinfodialog.cpp:236 kfile/kpropertiesdialog.cpp:2601
 msgid "URL:"
 msgstr "ইউ-আর-এল:"
 
@@ -2355,7 +2446,7 @@ msgstr ""
 msgid "%1 bits used of a %2 bit cipher"
 msgstr ""
 
-#: kssl/ksslinfodialog.cpp:406
+#: kssl/ksslinfodialog.cpp:405
 msgid "Organization:"
 msgstr "সংস্থা:"
 
@@ -2363,67 +2454,71 @@ msgstr "সংস্থা:"
 msgid "Organizational unit:"
 msgstr ""
 
-#: kssl/ksslinfodialog.cpp:418
+#: kssl/ksslinfodialog.cpp:419
 msgid "Locality:"
 msgstr "অবস্থান:"
 
-#: kssl/ksslinfodialog.cpp:424
+#: kssl/ksslinfodialog.cpp:426
 msgctxt "Federal State"
 msgid "State:"
 msgstr "রাজ্য:"
 
-#: kssl/ksslinfodialog.cpp:430
+#: kssl/ksslinfodialog.cpp:433
 msgid "Country:"
 msgstr "দেশ:"
 
-#: kssl/ksslinfodialog.cpp:436
+#: kssl/ksslinfodialog.cpp:440
 msgid "Common name:"
 msgstr "প্রচলিত নাম:"
 
-#: kssl/ksslinfodialog.cpp:442
+#: kssl/ksslinfodialog.cpp:447
 msgid "Email:"
 msgstr "ই-মেইল:"
 
-#: kssl/ksslcertificate.cpp:200
+#: kssl/ksslcertificate.cpp:199
 msgid "Signature Algorithm: "
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:204
+#: kssl/ksslcertificate.cpp:200
+msgid "Unknown"
+msgstr "অজানা"
+
+#: kssl/ksslcertificate.cpp:203
 msgid "Signature Contents:"
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:336
+#: kssl/ksslcertificate.cpp:335
 msgctxt "Unknown"
 msgid "Unknown key algorithm"
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:340
+#: kssl/ksslcertificate.cpp:339
 #, qt-format
 msgid "Key type: RSA (%1 bit)"
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:342
+#: kssl/ksslcertificate.cpp:341
 msgid "Modulus: "
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:354
+#: kssl/ksslcertificate.cpp:353
 msgid "Exponent: 0x"
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:363
+#: kssl/ksslcertificate.cpp:362
 #, qt-format
 msgid "Key type: DSA (%1 bit)"
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:365
+#: kssl/ksslcertificate.cpp:364
 msgid "Prime: "
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:377
+#: kssl/ksslcertificate.cpp:376
 msgid "160 bit prime factor: "
 msgstr ""
 
-#: kssl/ksslcertificate.cpp:401
+#: kssl/ksslcertificate.cpp:400
 msgid "Public key: "
 msgstr ""
 
@@ -2565,8 +2660,8 @@ msgstr ""
 #: kssl/ksslcertdialog.cpp:144
 #, qt-format
 msgid ""
-"The server <b>%1</b> requests a certificate.<p>Select a certificate to use "
-"from the list below:"
+"The server <b>%1</b> requests a certificate.<br /><br />Select a certificate "
+"to use from the list below:"
 msgstr ""
 
 #: misc/kpac/proxyscout.cpp:122
@@ -2594,7 +2689,7 @@ msgstr ""
 msgid "Could not download the proxy configuration script"
 msgstr ""
 
-#: misc/kpac/discovery.cpp:118
+#: misc/kpac/discovery.cpp:117
 msgid "Could not find a usable proxy configuration script"
 msgstr ""
 
@@ -2602,17 +2697,17 @@ msgstr ""
 #, qt-format
 msgid ""
 "<qt>KDE has requested to open the wallet '<b>%1</b>'. Please enter the "
-"password for this wallet below."
+"password for this wallet below.</qt>"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:391
 #, qt-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the wallet '<b>%2</"
-"b>'. Please enter the password for this wallet below."
+"b>'. Please enter the password for this wallet below.</qt>"
 msgstr ""
 
-#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1509
+#: misc/kwalletd/kwalletd.cpp:395 ../kfile/kfilewidget.cpp:1556
 #, fuzzy
 msgid "&Open"
 msgstr "খোলো (&খ)"
@@ -2627,8 +2722,8 @@ msgstr "কে.ডি.ই. ওয়ালেট সার্ভিস"
 #: misc/kwalletd/kwalletd.cpp:403 misc/kwalletd/kwalletd.cpp:440
 #, qt-format
 msgid ""
-"<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br>(Error code %"
-"2: %3)"
+"<qt>Error opening the wallet '<b>%1</b>'. Please try again.<br />(Error code "
+"%2: %3)</qt>"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:420
@@ -2643,7 +2738,8 @@ msgstr ""
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to open the KDE wallet. This "
 "is used to store sensitive data in a secure fashion. Please enter a password "
-"to use with this wallet or click cancel to deny the application's request."
+"to use with this wallet or click cancel to deny the application's request.</"
+"qt>"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:426
@@ -2651,7 +2747,7 @@ msgstr ""
 msgid ""
 "<qt>KDE has requested to create a new wallet named '<b>%1</b>'. Please "
 "choose a password for this wallet, or cancel to deny the application's "
-"request."
+"request.</qt>"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:428
@@ -2659,7 +2755,7 @@ msgstr ""
 msgid ""
 "<qt>The application '<b>%1</b>' has requested to create a new wallet named "
 "'<b>%2</b>'. Please choose a password for this wallet, or cancel to deny the "
-"application's request."
+"application's request.</qt>"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:433
@@ -2667,15 +2763,16 @@ msgid "C&reate"
 msgstr "তৈরি &করো"
 
 #: misc/kwalletd/kwalletd.cpp:511
-#, qt-format
-msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'."
-msgstr ""
+#, fuzzy, qt-format
+#| msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'."
+msgid "<qt>KDE has requested access to the open wallet '<b>%1</b>'.</qt>"
+msgstr "<qt>অনুগ্রহ করে '<b>%1</b>' ওয়ালেটটির জন্য একটি নতুন পাসওয়ার্ড পছন্দ করুন।"
 
 #: misc/kwalletd/kwalletd.cpp:513
 #, qt-format
 msgid ""
 "<qt>The application '<b>%1</b>' has requested access to the open wallet '<b>%"
-"2</b>'."
+"2</b>'.</qt>"
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:595
@@ -2685,8 +2782,9 @@ msgid ""
 msgstr ""
 
 #: misc/kwalletd/kwalletd.cpp:606
-#, qt-format
-msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'."
+#, fuzzy, qt-format
+#| msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'."
+msgid "<qt>Please choose a new password for the wallet '<b>%1</b>'.</qt>"
 msgstr "<qt>অনুগ্রহ করে '<b>%1</b>' ওয়ালেটটির জন্য একটি নতুন পাসওয়ার্ড পছন্দ করুন।"
 
 #: misc/kwalletd/kwalletd.cpp:616
@@ -2704,7 +2802,7 @@ msgid ""
 msgstr ""
 
 #: misc/kwalletd/kwalletwizard.cpp:139
-msgid "<qt>Password is empty.  <b>(WARNING: Insecure)"
+msgid "<qt>Password is empty.  <b>(WARNING: Insecure)</b></qt>"
 msgstr ""
 
 #: misc/kwalletd/kwalletwizard.cpp:141
@@ -2785,25 +2883,17 @@ msgstr "KMailService"
 msgid "Mail service"
 msgstr "মেইল সার্ভিস"
 
-#: kfile/kimagefilepreview.cpp:71
-msgid "&Automatic preview"
-msgstr "স্বয়ংক্রীয় প্রাকদর্শ&ন"
-
-#: kfile/kimagefilepreview.cpp:76
-msgid "&Preview"
-msgstr "প্রাক&দর্শন"
-
-#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:998
-#: bookmarks/kbookmarkmenu.cc:650
+#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:1015
+#: bookmarks/kbookmarkdialog.cc:255
 msgid "Location:"
 msgstr "অবস্থান:"
 
-#: kfile/kurlrequesterdialog.cpp:131 kfile/kicondialog.cpp:588
-#: kfile/kencodingfiledialog.cpp:105 kfile/kencodingfiledialog.cpp:123
-#: kfile/kencodingfiledialog.cpp:138 kfile/kencodingfiledialog.cpp:156
-#: kfile/kfiledialog.cpp:193 kfile/kfiledialog.cpp:217
-#: kfile/kfiledialog.cpp:233 kfile/kfiledialog.cpp:247
-#: kfile/kfiledialog.cpp:263 kfile/kfiledialog.cpp:301
+#: kfile/kurlrequesterdialog.cpp:130 kfile/kicondialog.cpp:588
+#: kfile/kencodingfiledialog.cpp:107 kfile/kencodingfiledialog.cpp:125
+#: kfile/kencodingfiledialog.cpp:140 kfile/kencodingfiledialog.cpp:158
+#: kfile/kfiledialog.cpp:219 kfile/kfiledialog.cpp:243
+#: kfile/kfiledialog.cpp:259 kfile/kfiledialog.cpp:273
+#: kfile/kfiledialog.cpp:289 kfile/kfiledialog.cpp:327
 #, fuzzy
 msgid "Open"
 msgstr "খোলো (&খ)"
@@ -2811,23 +2901,6 @@ msgstr "খোলো (&খ)"
 #: kfile/kpreviewprops.cpp:49
 msgid "P&review"
 msgstr "প্রাক&দর্শন"
-
-#: kfile/tests/kopenwithtest.cpp:32
-msgid "kopenwithdialogtest"
-msgstr ""
-
-#: kfile/tests/kurlrequestertest.cpp:9
-msgid "kurlrequestertest"
-msgstr ""
-
-#: kfile/tests/kurlrequestertest.cpp:9 kfile/tests/kfstest.cpp:52
-#: ../kfile/tests/kdirselectdialogtest.cpp:10
-msgid "test app"
-msgstr ""
-
-#: kfile/tests/kfstest.cpp:52
-msgid "kfstest"
-msgstr ""
 
 #: kfile/kicondialog.cpp:275 kfile/kicondialog.cpp:288
 msgid "Select Icon"
@@ -2918,12 +2991,17 @@ msgstr "*.png *.xpm *.svg *.svgz|আইকন ফাইল (*.png *.xpm *.svg *.
 msgid "<Error>"
 msgstr "<ভুল>"
 
+#: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
+#: ../kfile/k3filedetailview.cpp:69
+msgid "Owner"
+msgstr "মালিক"
+
 #: kfile/kacleditwidget.cpp:62 kfile/kacleditwidget.cpp:459
 msgid "Owning Group"
 msgstr ""
 
 #: kfile/kacleditwidget.cpp:63 kfile/kacleditwidget.cpp:464
-#: kfile/kpropertiesdialog.cpp:1992
+#: kfile/kpropertiesdialog.cpp:2016
 msgid "Others"
 msgstr "অন্যান্য"
 
@@ -2975,6 +3053,14 @@ msgstr "ব্যবহারকারী:"
 msgid "Group: "
 msgstr "গ্রুপ:"
 
+#: kfile/kacleditwidget.cpp:625
+msgid "Type"
+msgstr "ধরন"
+
+#: kfile/kacleditwidget.cpp:626 ../kfile/k3filedetailview.cpp:65
+msgid "Name"
+msgstr "নাম"
+
 #: kfile/kacleditwidget.cpp:627
 msgctxt "read permission"
 msgid "r"
@@ -2994,9 +3080,15 @@ msgstr "x"
 msgid "Effective"
 msgstr ""
 
-#: kfile/kencodingfiledialog.cpp:177 kfile/kencodingfiledialog.cpp:202
-#: kfile/kfiledialog.cpp:350 kfile/kfiledialog.cpp:383
-#: kfile/kfiledialog.cpp:402
+#: kfile/kencodingfiledialog.cpp:50
+#, fuzzy
+#| msgid "Loading"
+msgid "Encoding:"
+msgstr "লোড করা হচ্ছে"
+
+#: kfile/kencodingfiledialog.cpp:179 kfile/kencodingfiledialog.cpp:204
+#: kfile/kfiledialog.cpp:376 kfile/kfiledialog.cpp:409
+#: kfile/kfiledialog.cpp:428
 msgid "Save As"
 msgstr ""
 
@@ -3028,29 +3120,29 @@ msgstr ""
 msgid "Choose the name of the program with which to open the selected files."
 msgstr ""
 
-#: kfile/kopenwithdialog.cpp:500
+#: kfile/kopenwithdialog.cpp:502
 #, qt-format
 msgid "Choose Application for %1"
 msgstr "%1-র জন্য অ্যাপলিকেশন বেছে নিন"
 
-#: kfile/kopenwithdialog.cpp:501
+#: kfile/kopenwithdialog.cpp:503
 #, qt-format
 msgid ""
 "<qt>Select the program for the file type: <b>%1</b>. If the program is not "
 "listed, enter the name or click the browse button.</qt>"
 msgstr ""
 
-#: kfile/kopenwithdialog.cpp:516
+#: kfile/kopenwithdialog.cpp:518
 msgid "Choose Application"
 msgstr "অ্যাপলিকেশন বেছে নিন"
 
-#: kfile/kopenwithdialog.cpp:517
+#: kfile/kopenwithdialog.cpp:519
 msgid ""
 "<qt>Select a program. If the program is not listed, enter the name or click "
 "the browse button.</qt>"
 msgstr ""
 
-#: kfile/kopenwithdialog.cpp:582
+#: kfile/kopenwithdialog.cpp:584
 msgid ""
 "Following the command, you can have several place holders which will be "
 "replaced with the actual values when the actual program is run:\n"
@@ -3066,15 +3158,15 @@ msgid ""
 "%c - the comment"
 msgstr ""
 
-#: kfile/kopenwithdialog.cpp:617
+#: kfile/kopenwithdialog.cpp:619
 msgid "Run in &terminal"
 msgstr "টার্মিনালে চালা&ও"
 
-#: kfile/kopenwithdialog.cpp:630
+#: kfile/kopenwithdialog.cpp:632
 msgid "&Do not close when command exits"
 msgstr ""
 
-#: kfile/kopenwithdialog.cpp:647
+#: kfile/kopenwithdialog.cpp:649
 msgid "&Remember application association for this type of file"
 msgstr "এই &ধরনের ফাইলের জন্য এই অ্যাপলিকেশনটির কথা মনে রাখো"
 
@@ -3096,76 +3188,76 @@ msgid_plural "Properties for %1 Selected Items"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kfile/kpropertiesdialog.cpp:773
+#: kfile/kpropertiesdialog.cpp:790
 msgid "&General"
 msgstr "সাধা&রণ"
 
-#: kfile/kpropertiesdialog.cpp:974
+#: kfile/kpropertiesdialog.cpp:991
 msgid "Create new file type"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:976
+#: kfile/kpropertiesdialog.cpp:993
 msgid "Edit file type"
 msgstr "ফাইল টাইপ সম্পাদন করুন"
 
-#: kfile/kpropertiesdialog.cpp:989
+#: kfile/kpropertiesdialog.cpp:1006
 msgid "Contents:"
 msgstr "বিষয়বস্তু:"
 
-#: kfile/kpropertiesdialog.cpp:1026
+#: kfile/kpropertiesdialog.cpp:1042
 msgid "Calculate"
 msgstr "গণনা করো"
 
-#: kfile/kpropertiesdialog.cpp:1027
+#: kfile/kpropertiesdialog.cpp:1043
 #, fuzzy
 msgid "Stop"
 msgstr "বন্ধ"
 
-#: kfile/kpropertiesdialog.cpp:1037 kfile/kpropertiesdialog.cpp:1244
+#: kfile/kpropertiesdialog.cpp:1053 kfile/kpropertiesdialog.cpp:1256
 msgid "Refresh"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1045
+#: kfile/kpropertiesdialog.cpp:1061
 msgid "Points to:"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1058
+#: kfile/kpropertiesdialog.cpp:1073
 msgid "Created:"
 msgstr "তৈরি:"
 
-#: kfile/kpropertiesdialog.cpp:1080
+#: kfile/kpropertiesdialog.cpp:1093
 msgid "Accessed:"
 msgstr "ব্যবহৃত:"
 
-#: kfile/kpropertiesdialog.cpp:1099
+#: kfile/kpropertiesdialog.cpp:1111
 msgid "Mounted on:"
 msgstr "মাউন্ট করা:"
 
-#: kfile/kpropertiesdialog.cpp:1106 kfile/kpropertiesdialog.cpp:2910
+#: kfile/kpropertiesdialog.cpp:1118 kfile/kpropertiesdialog.cpp:2950
 msgid "Free disk space:"
 msgstr "ডিস্কে ফাঁকা জায়গা:"
 
-#: kfile/kpropertiesdialog.cpp:1209 kfile/kpropertiesdialog.cpp:3051
+#: kfile/kpropertiesdialog.cpp:1221 kfile/kpropertiesdialog.cpp:3091
 #, qt-format
 msgctxt "Available space out of total partition size (percent used)"
 msgid "%1 out of %2 (%3% used)"
 msgstr "%2 -এর মধ্যে %1 (%3% ব্যবহৃত)"
 
-#: kfile/kpropertiesdialog.cpp:1223 kfile/kpropertiesdialog.cpp:1239
+#: kfile/kpropertiesdialog.cpp:1235 kfile/kpropertiesdialog.cpp:1251
 #, fuzzy, qt-format
 msgid "1 file"
 msgid_plural "%1 files"
 msgstr[0] "একটি ফাইল"
 msgstr[1] "%1-টি ফাইল"
 
-#: kfile/kpropertiesdialog.cpp:1224 kfile/kpropertiesdialog.cpp:1240
+#: kfile/kpropertiesdialog.cpp:1236 kfile/kpropertiesdialog.cpp:1252
 #, fuzzy, qt-format
 msgid "1 sub-folder"
 msgid_plural "%1 sub-folders"
 msgstr[0] "একটি সাব-ফোল্ডার"
 msgstr[1] "%1-টি সাব-ফোল্ডার"
 
-#: kfile/kpropertiesdialog.cpp:1220
+#: kfile/kpropertiesdialog.cpp:1232
 #, qt-format
 msgid ""
 "Calculating... %1 (%2)\n"
@@ -3174,215 +3266,215 @@ msgstr ""
 "গণনা চলছে... %1 (%2)\n"
 "%3, %4"
 
-#: kfile/kpropertiesdialog.cpp:1253
+#: kfile/kpropertiesdialog.cpp:1265
 msgid "Calculating..."
 msgstr "গণনা চলছে..."
 
-#: kfile/kpropertiesdialog.cpp:1292
+#: kfile/kpropertiesdialog.cpp:1304
 msgid "Stopped"
 msgstr "বন্ধ"
 
-#: kfile/kpropertiesdialog.cpp:1328
+#: kfile/kpropertiesdialog.cpp:1340
 msgid "The new file name is empty."
 msgstr "নতুন ফাইলের নাম ফাঁকা।"
 
-#: kfile/kpropertiesdialog.cpp:1467 kfile/kpropertiesdialog.cpp:2631
-#: kfile/kpropertiesdialog.cpp:2794 kfile/kpropertiesdialog.cpp:3080
-#: kfile/kpropertiesdialog.cpp:3295
+#: kfile/kpropertiesdialog.cpp:1479 kfile/kpropertiesdialog.cpp:2657
+#: kfile/kpropertiesdialog.cpp:2827 kfile/kpropertiesdialog.cpp:3120
+#: kfile/kpropertiesdialog.cpp:3357
 #, qt-format
 msgid ""
 "<qt>Could not save properties. You do not have sufficient access to write to "
 "<b>%1</b>.</qt>"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1538 kfile/kpropertiesdialog.cpp:1542
-#: kfile/kpropertiesdialog.cpp:1547
+#: kfile/kpropertiesdialog.cpp:1562 kfile/kpropertiesdialog.cpp:1566
+#: kfile/kpropertiesdialog.cpp:1571
 msgid "Forbidden"
 msgstr "নিষিদ্ধ"
 
-#: kfile/kpropertiesdialog.cpp:1539
+#: kfile/kpropertiesdialog.cpp:1563
 msgid "Can Read"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1540
+#: kfile/kpropertiesdialog.cpp:1564
 msgid "Can Read & Write"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1543
+#: kfile/kpropertiesdialog.cpp:1567
 msgid "Can View Content"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1544
+#: kfile/kpropertiesdialog.cpp:1568
 msgid "Can View & Modify Content"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1548
+#: kfile/kpropertiesdialog.cpp:1572
 msgid "Can View Content & Read"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1549
+#: kfile/kpropertiesdialog.cpp:1573
 msgid "Can View/Read & Modify/Write"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1645
+#: kfile/kpropertiesdialog.cpp:1669
 msgid "&Permissions"
 msgstr "&অনুমতি"
 
-#: kfile/kpropertiesdialog.cpp:1658 kfile/kpropertiesdialog.cpp:1915
+#: kfile/kpropertiesdialog.cpp:1682 kfile/kpropertiesdialog.cpp:1939
 msgid "Access Permissions"
 msgstr "ব্যবহারের অনুমতি"
 
-#: kfile/kpropertiesdialog.cpp:1668
+#: kfile/kpropertiesdialog.cpp:1692
 msgid "This file is a link and does not have permissions."
 msgid_plural "All files are links and do not have permissions."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kfile/kpropertiesdialog.cpp:1672
+#: kfile/kpropertiesdialog.cpp:1696
 msgid "Only the owner can change permissions."
 msgstr "কেবল মালিক অনুমতি বদলাতে পারেন।"
 
-#: kfile/kpropertiesdialog.cpp:1675
+#: kfile/kpropertiesdialog.cpp:1699
 msgid "O&wner:"
 msgstr "মালি&ক:"
 
-#: kfile/kpropertiesdialog.cpp:1681
+#: kfile/kpropertiesdialog.cpp:1705
 msgid "Specifies the actions that the owner is allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1683
+#: kfile/kpropertiesdialog.cpp:1707
 msgid "Gro&up:"
 msgstr "গ্রু&প:"
 
-#: kfile/kpropertiesdialog.cpp:1689
+#: kfile/kpropertiesdialog.cpp:1713
 msgid "Specifies the actions that the members of the group are allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1691
+#: kfile/kpropertiesdialog.cpp:1715
 msgid "O&thers:"
 msgstr "&অন্যান্য:"
 
-#: kfile/kpropertiesdialog.cpp:1697
+#: kfile/kpropertiesdialog.cpp:1721
 msgid ""
 "Specifies the actions that all users, who are neither owner nor in the "
 "group, are allowed to do."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1702
+#: kfile/kpropertiesdialog.cpp:1726
 msgid "Only own&er can rename and delete folder content"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1703
+#: kfile/kpropertiesdialog.cpp:1727
 msgid "Is &executable"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1707
+#: kfile/kpropertiesdialog.cpp:1731
 msgid ""
 "Enable this option to allow only the folder's owner to delete or rename the "
 "contained files and folders. Other users can only add new files, which "
 "requires the 'Modify Content' permission."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1711
+#: kfile/kpropertiesdialog.cpp:1735
 msgid ""
 "Enable this option to mark the file as executable. This only makes sense for "
 "programs and scripts. It is required when you want to execute them."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1718
+#: kfile/kpropertiesdialog.cpp:1742
 msgid "A&dvanced Permissions"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1727
+#: kfile/kpropertiesdialog.cpp:1751
 msgid "Ownership"
 msgstr "মালিকানা"
 
-#: kfile/kpropertiesdialog.cpp:1736
+#: kfile/kpropertiesdialog.cpp:1760
 msgid "User:"
 msgstr "ব্যবহারকারী:"
 
-#: kfile/kpropertiesdialog.cpp:1822
+#: kfile/kpropertiesdialog.cpp:1846
 msgid "Group:"
 msgstr "গ্রুপ:"
 
-#: kfile/kpropertiesdialog.cpp:1865
+#: kfile/kpropertiesdialog.cpp:1889
 msgid "Apply changes to all subfolders and their contents"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1905
+#: kfile/kpropertiesdialog.cpp:1929
 msgid "Advanced Permissions"
 msgstr "অগ্রসর অনুমতি"
 
-#: kfile/kpropertiesdialog.cpp:1925
+#: kfile/kpropertiesdialog.cpp:1949
 msgid "Class"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1930
+#: kfile/kpropertiesdialog.cpp:1954
 msgid ""
 "Show\n"
 "Entries"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1932
+#: kfile/kpropertiesdialog.cpp:1956
 msgid "Read"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1937
+#: kfile/kpropertiesdialog.cpp:1961
 msgid "This flag allows viewing the content of the folder."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1939
+#: kfile/kpropertiesdialog.cpp:1963
 msgid "The Read flag allows viewing the content of the file."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1943
+#: kfile/kpropertiesdialog.cpp:1967
 msgid ""
 "Write\n"
 "Entries"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1945
+#: kfile/kpropertiesdialog.cpp:1969
 msgid "Write"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1950
+#: kfile/kpropertiesdialog.cpp:1974
 msgid ""
 "This flag allows adding, renaming and deleting of files. Note that deleting "
 "and renaming can be limited using the Sticky flag."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1953
+#: kfile/kpropertiesdialog.cpp:1977
 msgid "The Write flag allows modifying the content of the file."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1958
+#: kfile/kpropertiesdialog.cpp:1982
 msgctxt "Enter folder"
 msgid "Enter"
 msgstr "ঢোকো"
 
-#: kfile/kpropertiesdialog.cpp:1959
+#: kfile/kpropertiesdialog.cpp:1983
 msgid "Enable this flag to allow entering the folder."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1962
+#: kfile/kpropertiesdialog.cpp:1986
 msgid "Exec"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1963
+#: kfile/kpropertiesdialog.cpp:1987
 msgid "Enable this flag to allow executing the file as a program."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1973
+#: kfile/kpropertiesdialog.cpp:1997
 msgid "Special"
 msgstr "বিশেষ"
 
-#: kfile/kpropertiesdialog.cpp:1977
+#: kfile/kpropertiesdialog.cpp:2001
 msgid ""
 "Special flag. Valid for the whole folder, the exact meaning of the flag can "
 "be seen in the right hand column."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:1980
+#: kfile/kpropertiesdialog.cpp:2004
 msgid ""
 "Special flag. The exact meaning of the flag can be seen in the right hand "
 "column."
@@ -3390,387 +3482,221 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopadvbase.ui line 89
-#: kfile/kpropertiesdialog.cpp:1984 rc.cpp:83
+#: kfile/kpropertiesdialog.cpp:2008 rc.cpp:83
 msgid "User"
 msgstr "ব্যবহারকারী"
 
-#: kfile/kpropertiesdialog.cpp:1996
+#: kfile/kpropertiesdialog.cpp:2012 ../kfile/k3filedetailview.cpp:70
+msgid "Group"
+msgstr "গ্রুপ"
+
+#: kfile/kpropertiesdialog.cpp:2020
 msgid "Set UID"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2000
+#: kfile/kpropertiesdialog.cpp:2024
 msgid ""
 "If this flag is set, the owner of this folder will be the owner of all new "
 "files."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2003
+#: kfile/kpropertiesdialog.cpp:2027
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the owner."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2007
+#: kfile/kpropertiesdialog.cpp:2031
 msgid "Set GID"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2011
+#: kfile/kpropertiesdialog.cpp:2035
 msgid ""
 "If this flag is set, the group of this folder will be set for all new files."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2014
+#: kfile/kpropertiesdialog.cpp:2038
 msgid ""
 "If this file is an executable and the flag is set, it will be executed with "
 "the permissions of the group."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2018
+#: kfile/kpropertiesdialog.cpp:2042
 msgctxt "File permission"
 msgid "Sticky"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2022
+#: kfile/kpropertiesdialog.cpp:2046
 msgid ""
 "If the Sticky flag is set on a folder, only the owner and root can delete or "
 "rename files. Otherwise everybody with write permissions can do this."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2026
+#: kfile/kpropertiesdialog.cpp:2050
 msgid ""
 "The Sticky flag on a file is ignored on Linux, but may be used on some "
 "systems"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2200
+#: kfile/kpropertiesdialog.cpp:2224
 msgid "Link"
 msgstr "লিঙ্ক"
 
-#: kfile/kpropertiesdialog.cpp:2216
+#: kfile/kpropertiesdialog.cpp:2240
 msgid "Varying (No Change)"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2314
+#: kfile/kpropertiesdialog.cpp:2338
 msgid "This file uses advanced permissions"
 msgid_plural "These files use advanced permissions."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kfile/kpropertiesdialog.cpp:2335
+#: kfile/kpropertiesdialog.cpp:2359
 msgid "This folder uses advanced permissions."
 msgid_plural "These folders use advanced permissions."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kfile/kpropertiesdialog.cpp:2351
+#: kfile/kpropertiesdialog.cpp:2375
 msgid "These files use advanced permissions."
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2567
+#: kfile/kpropertiesdialog.cpp:2593
 msgid "U&RL"
 msgstr "ইউ-আ&র-এল"
 
-#: kfile/kpropertiesdialog.cpp:2675
+#: kfile/kpropertiesdialog.cpp:2708
 msgid "A&ssociation"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2687
+#: kfile/kpropertiesdialog.cpp:2717
 msgid "Pattern ( example: *.html;*.htm )"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2722
+#: kfile/kpropertiesdialog.cpp:2755
 msgid "Left click previews"
 msgstr ""
 
-#: kfile/kpropertiesdialog.cpp:2842
+#: kfile/kpropertiesdialog.cpp:2882
 msgid "De&vice"
 msgstr "ডিভাই&স"
 
-#: kfile/kpropertiesdialog.cpp:2874
+#: kfile/kpropertiesdialog.cpp:2914
 msgid "Device (/dev/fd0):"
 msgstr "ডিভাইস (/dev/fd0):"
 
-#: kfile/kpropertiesdialog.cpp:2875
+#: kfile/kpropertiesdialog.cpp:2915
 msgid "Device:"
 msgstr "ডিভাইস:"
 
-#: kfile/kpropertiesdialog.cpp:2888
+#: kfile/kpropertiesdialog.cpp:2928
 msgid "Read only"
 msgstr "শুধু পড়া যায়"
 
-#: kfile/kpropertiesdialog.cpp:2892
+#: kfile/kpropertiesdialog.cpp:2932
 msgid "File system:"
 msgstr "ফাইল সিস্টেম:"
 
-#: kfile/kpropertiesdialog.cpp:2900
+#: kfile/kpropertiesdialog.cpp:2940
 msgid "Mount point (/mnt/floppy):"
 msgstr "মাউন্ট পয়েন্ট (/mnt/floppy):"
 
-#: kfile/kpropertiesdialog.cpp:2901
+#: kfile/kpropertiesdialog.cpp:2941
 msgid "Mount point:"
 msgstr "মাউন্ট পয়েন্ট:"
 
-#: kfile/kpropertiesdialog.cpp:2934
+#: kfile/kpropertiesdialog.cpp:2974
 msgid "Unmounted Icon"
 msgstr "আনমাউন্টেড আইকন"
 
-#: kfile/kpropertiesdialog.cpp:3113
+#: kfile/kpropertiesdialog.cpp:3176
 msgid "&Application"
 msgstr "অ্যা&পলিকেশন"
 
-#: kfile/kpropertiesdialog.cpp:3233
+#: kfile/kpropertiesdialog.cpp:3295
 #, qt-format
 msgid "Add File Type for %1"
 msgstr "%1-র জন্য ফাইল টাইপ যোগ করো"
 
-#: kfile/kpropertiesdialog.cpp:3234
+#: kfile/kpropertiesdialog.cpp:3296
 msgid "Select one or more file types to add:"
 msgstr "যোগ করার জন্য এক বা একাধিক ফাইল বেছে নিন:"
 
-#: kfile/kpropertiesdialog.cpp:3368
+#: kfile/kpropertiesdialog.cpp:3430
 msgid "Only executables on local file systems are supported."
 msgstr "শুধুমাত্র স্থানীয় এক্সিকিউটেবল ফাইল সমর্থিত।"
 
-#: kfile/kpropertiesdialog.cpp:3382
+#: kfile/kpropertiesdialog.cpp:3444
 #, qt-format
 msgid "Advanced Options for %1"
 msgstr "%1-এর জন্য অগ্রসর অপশন"
 
-#: kfile/kfilesharedialog.cpp:55
+#: kfile/kfilesharedialog.cpp:59
 msgid "&Share"
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:129
+#: kfile/kfilesharedialog.cpp:133
 msgid "Only folders in your home folder can be shared."
 msgstr "শুধুমাত্র আপনার ব্যক্তিগত ফোল্ডারের ফাইলগুলিই শেয়ার করা যেতে পারে।"
 
-#: kfile/kfilesharedialog.cpp:139
+#: kfile/kfilesharedialog.cpp:143
 msgid "Not shared"
 msgstr "শেয়ার্ড নয়"
 
-#: kfile/kfilesharedialog.cpp:144
+#: kfile/kfilesharedialog.cpp:148
 msgid "Shared"
 msgstr "শেয়ার্ড"
 
-#: kfile/kfilesharedialog.cpp:156
+#: kfile/kfilesharedialog.cpp:160
 msgid ""
 "Sharing this folder makes it available under Linux/UNIX (NFS) and Windows "
 "(Samba)."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:163
+#: kfile/kfilesharedialog.cpp:167
 msgid "You can also reconfigure file sharing authorization."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:167 kfile/kfilesharedialog.cpp:191
+#: kfile/kfilesharedialog.cpp:171 kfile/kfilesharedialog.cpp:195
 msgid "Configure File Sharing..."
 msgstr "ফাইল শেয়ারিং কনফিগার করো..."
 
-#: kfile/kfilesharedialog.cpp:176
+#: kfile/kfilesharedialog.cpp:180
 msgid ""
 "Error running 'filesharelist'. Check if installed and in $PATH or /usr/sbin."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:183
+#: kfile/kfilesharedialog.cpp:187
 msgid "You need to be authorized to share folders."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:186
+#: kfile/kfilesharedialog.cpp:190
 msgid "File sharing is disabled."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:253
+#: kfile/kfilesharedialog.cpp:257
 #, qt-format
 msgid "Sharing folder '%1' failed."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:254
+#: kfile/kfilesharedialog.cpp:258
 #, qt-format
 msgid ""
 "An error occurred while trying to share folder '%1'. Make sure that the Perl "
 "script 'fileshareset' is set suid root."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:259
+#: kfile/kfilesharedialog.cpp:263
 #, qt-format
 msgid "Unsharing folder '%1' failed."
 msgstr ""
 
-#: kfile/kfilesharedialog.cpp:260
+#: kfile/kfilesharedialog.cpp:264
 #, qt-format
 msgid ""
 "An error occurred while trying to unshare folder '%1'. Make sure that the "
 "Perl script 'fileshareset' is set suid root."
-msgstr ""
-
-#: tests/kruntest.cpp:89
-msgid "kruntest"
-msgstr ""
-
-#: tests/jobtest.cpp:931
-#, fuzzy
-msgid "1 day 23:59:00"
-msgstr "1 দিন %2"
-
-#: tests/jobtest.cpp:936
-msgid "00:00:50"
-msgstr ""
-
-#: tests/kmimetypechoosertest_gui.cpp:29
-msgid "Select the MimeTypes you want for this file type."
-msgstr ""
-
-#: tests/kmimetypechoosertest_gui.cpp:31
-#, fuzzy
-msgid "Select Mime Types"
-msgstr "মাইম টাইপ"
-
-#: tests/kprotocolinfotest.cpp:29
-msgid "KProtocolinfo Test"
-msgstr ""
-
-#: tests/kdirmodeltest_gui.cpp:38
-msgid "Directory(ies) to model"
-msgstr ""
-
-#: tests/kdirmodeltest_gui.cpp:40
-msgid "KDirModelTest"
-msgstr ""
-
-#: tests/kdirmodeltest_gui.cpp:41
-msgid "Test for KDirModel"
-msgstr ""
-
-#: tests/kioslavetest.cpp:485
-#, fuzzy
-msgid "Source URL"
-msgstr "উত্‍স:"
-
-#: tests/kioslavetest.cpp:487
-#, fuzzy
-msgid "Destination URL"
-msgstr "গন্তব্য:"
-
-#: tests/kioslavetest.cpp:489
-msgid "Operation (list,listrecursive,stat,get,put,copy,move,del,shred,mkdir)"
-msgstr ""
-
-#: tests/kioslavetest.cpp:491
-msgid "Progress Type (none,default,status)"
-msgstr ""
-
-#: tests/kioslavetest.cpp:494
-msgid "Test for kioslaves"
-msgstr ""
-
-#: tests/kioslavetest.cpp:496
-msgid "KIOSlave test"
-msgstr ""
-
-#: tests/previewtest.cpp:59
-#, fuzzy
-#| msgid "Preview"
-msgid "previewtest"
-msgstr "প্রাকদর্শন"
-
-#: tests/kdirwatchtest.cpp:22
-msgid "Directory(ies) to watch"
-msgstr ""
-
-#: tests/kdirwatchtest.cpp:24
-msgid "KDirWatchTest"
-msgstr ""
-
-#: tests/kdirwatchtest.cpp:25
-msgid "Test for KDirWatch"
-msgstr ""
-
-#: tests/getalltest.cpp:11
-msgid "getalltest"
-msgstr ""
-
-#: tests/kscantest.cpp:6
-msgid "kscantest"
-msgstr ""
-
-#: tests/kdirwatchtest_gui.cpp:38 tests/kdirwatchtest_gui.cpp:39
-msgid "KDirWatchTest_GUI"
-msgstr ""
-
-#: tests/kdirwatchtest_gui.cpp:40
-msgid "(C) 2006 Dirk Stoecker"
-msgstr ""
-
-#: tests/kdirwatchtest_gui.cpp:41
-msgid "Dirk Stoecker"
-msgstr ""
-
-#: tests/kdcopcheck.cpp:92 tests/ksycocaupdatetest.cpp:8
-msgid "whatever"
-msgstr ""
-
-#: tests/kdirlistertest_gui.cpp:159
-msgid "kdirlistertest"
-msgstr ""
-
-#: tests/kiopassdlgtest.cpp:11
-msgid "KIO Password Dialog Test"
-msgstr ""
-
-#: tests/kpropsdlgtest.cpp:11
-msgid "the path or url to the file/dir for which to show properties"
-msgstr ""
-
-#: tests/kpropsdlgtest.cpp:13
-#, fuzzy
-#| msgid "Progress Dialog"
-msgid "KIO Properties Dialog Test"
-msgstr "অগ্রগতি ডায়ালগ"
-
-#: tests/speed.cpp:60
-#, fuzzy
-#| msgid "Speed"
-msgid "SpeedApp"
-msgstr "গতি"
-
-#: tests/speed.cpp:60
-msgid "A KIO::listRecursive testing tool"
-msgstr ""
-
-#: tests/speed.cpp:63
-msgid "the URL to list"
-msgstr ""
-
-#: tests/kurlcompletiontest.cpp:167
-msgid "kurlcompletiontest"
-msgstr ""
-
-#: tests/safesitetest.cpp:6
-msgid "safesitetest"
-msgstr ""
-
-#: tests/kacltest.cpp:71
-msgid "kacltest"
-msgstr ""
-
-#: tests/netaccesstest.cpp:32
-msgid "netaccesstest"
-msgstr ""
-
-#: tests/kionetrctest.cpp:40
-msgid "Unit test for .netrc and kionetrc parser."
-msgstr ""
-
-#: tests/kionetrctest.cpp:42
-msgid "[url1,url2 ,...]"
-msgstr ""
-
-#: tests/kionetrctest.cpp:44
-msgid "KIO-netrc-test"
-msgstr ""
-
-#: tests/ksycocatest.cpp:60
-msgid "ksycocatest"
 msgstr ""
 
 #: rc.cpp:1
@@ -3813,13 +3739,13 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 30
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 27
 #: rc.cpp:17
 msgid "<u>KWallet</u> - The KDE Wallet System"
 msgstr "<u>কে-ওয়ালেট</u> - কে.ডি.ই. ওয়ালেট সিস্টেম"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 49
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 46
 #: rc.cpp:20
 msgid ""
 "Welcome to KWallet, the KDE Wallet System.  KWallet allows you to store your "
@@ -3829,19 +3755,19 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 86
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 83
 #: rc.cpp:23
 msgid "&Basic setup (recommended)"
 msgstr "সহ&জ সেট-আপ "
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 96
+#. i18n: file ./misc/kwalletd/kwalletwizardpageintro.ui line 93
 #: rc.cpp:26
 msgid "&Advanced setup"
 msgstr "&অগ্রসর সেট-আপ"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 19
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 16
 #: rc.cpp:29
 msgid ""
 "Various applications may attempt to use the KDE wallet to store passwords or "
@@ -3853,25 +3779,25 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 32
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 29
 #: rc.cpp:32
 msgid "Yes, I wish to use the KDE wallet to store my personal information."
 msgstr "হ্যাঁ, আমি আমার ব্যক্তিগত তথ্য কে.ডি.ই. ওয়ালেট-এ রাখতে চাই"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 91
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 88
 #: rc.cpp:35
 msgid "Enter a new password:"
 msgstr "নতুন পাসওয়ার্ড লিখুন:"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 107
+#. i18n: file ./misc/kwalletd/kwalletwizardpagepassword.ui line 104
 #: rc.cpp:38
 msgid "Verify password:"
 msgstr "পাসওয়ার্ডটি আবার লিখুন:"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageexplanation.ui line 19
+#. i18n: file ./misc/kwalletd/kwalletwizardpageexplanation.ui line 16
 #: rc.cpp:41
 msgid ""
 "The KDE Wallet system stores your data in a <i>wallet</i> file on your local "
@@ -3884,7 +3810,7 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 19
+#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 16
 #: rc.cpp:44
 msgid ""
 "The KDE Wallet system allows you to control the level of security of your "
@@ -3895,37 +3821,37 @@ msgid ""
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 51
+#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 48
 #: rc.cpp:47
 msgid "Automatically close idle wallets"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 58
+#. i18n: file ./misc/kwalletd/kwalletwizardpageoptions.ui line 55
 #: rc.cpp:50
 msgid "Store network passwords and local passwords in separate wallet files"
 msgstr "নেটওয়ার্ক পাসওয়ার্ড এবং স্থানীয় পাসওয়ার্ড আলাদা ওয়ালেট ফাইলে রাখো"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 55
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 52
 #: rc.cpp:53
 msgid "Allow &Once"
 msgstr "&একবার করতে দাও"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 65
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 62
 #: rc.cpp:56
 msgid "Allow &Always"
 msgstr "&সবসময় করতে দাও"
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 72
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 69
 #: rc.cpp:59
 msgid "&Deny"
 msgstr ""
 
 #. i18n: tag string
-#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 79
+#. i18n: file ./misc/kwalletd/kbetterthankdialogbase.ui line 76
 #: rc.cpp:62
 msgid "Deny &Forever"
 msgstr ""
@@ -4139,7 +4065,7 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file ./kfile/kpropertiesdesktopbase.ui line 122
-#: rc.cpp:162 ../kfile/kfileplaceeditdialog.cpp:102
+#: rc.cpp:162 ../kfile/kfileplaceeditdialog.cpp:99
 msgid "&Description:"
 msgstr "&বর্ণনা:"
 
@@ -4258,10 +4184,17 @@ msgstr "তথ্যের অপ্রত্যাশিত সমাপ্ত�
 msgid "Receiving corrupt data."
 msgstr ""
 
-#: bookmarks/konqbookmarkmenu.cc:69
+#: bookmarks/konqbookmarkmenu.cc:63 bookmarks/konqbookmarkmenu.cc:80
 #, fuzzy
-msgid "Open Folder in Tabs"
-msgstr "ফোল্ডার বুকমার্ক সম্পাদকে খোলো"
+#| msgid "Hide Bookmarks"
+msgid "Hide in toolbar"
+msgstr "বুকমার্ক লুকোও"
+
+#: bookmarks/konqbookmarkmenu.cc:63 bookmarks/konqbookmarkmenu.cc:80
+#, fuzzy
+#| msgid "Show toolbar"
+msgid "Show in toolbar"
+msgstr "টুলবার দেখাও"
 
 #: bookmarks/konqbookmarkmenu.cc:73
 msgid "Open in New Window"
@@ -4271,20 +4204,16 @@ msgstr ""
 msgid "Open in New Tab"
 msgstr ""
 
-#: bookmarks/konqbookmarkmenu.cc:193
-msgid "Netscape Bookmarks"
-msgstr "নেটস্কেপ বুকমার্ক"
-
-#: bookmarks/kbookmarkimporter_ns.cc:108 bookmarks/kbookmarkimporter_ns.cc:111
+#: bookmarks/kbookmarkimporter_ns.cc:111 bookmarks/kbookmarkimporter_ns.cc:114
 msgid "*.html|HTML Files (*.html)"
 msgstr "*.html|HTML ফাইল (*.html)"
 
-#: bookmarks/kbookmarkimporter_ns.cc:195
+#: bookmarks/kbookmarkimporter_ns.cc:149
 msgid "<!-- This file was generated by Konqueror -->"
 msgstr "<!-- এই ফাইলটি কনকরারের তৈরি করা -->"
 
-#: bookmarks/kbookmarkimporter_ns.cc:198 bookmarks/kbookmarkimporter_ns.cc:199
-#: bookmarks/kbookmarkmenu.cc:679 ../kfile/kfilewidget.cpp:1937
+#: bookmarks/kbookmarkimporter_ns.cc:152 bookmarks/kbookmarkimporter_ns.cc:153
+#: bookmarks/kbookmarkdialog.cc:321 ../kfile/kfilewidget.cpp:1987
 #, fuzzy
 msgid "Bookmarks"
 msgstr "বুকমার্ক"
@@ -4294,43 +4223,40 @@ msgstr "বুকমার্ক"
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr| অপেরা বুকমার্ক ফাইল (*.adr)"
 
-#: bookmarks/kbookmarkmenu_p.h:68 bookmarks/kbookmarkmenu.cc:453
-msgid "Add Bookmark"
-msgstr "বুকমার্ক যোগ করো"
-
-#: bookmarks/kbookmarkmenu.cc:240
+#: bookmarks/kbookmarkmenu.cc:250
 msgid "Add Bookmark Here"
 msgstr "এখানে বুকমার্ক যোগ করো"
 
-#: bookmarks/kbookmarkmenu.cc:245
+#: bookmarks/kbookmarkmenu.cc:255
 msgid "Open Folder in Bookmark Editor"
 msgstr "ফোল্ডার বুকমার্ক সম্পাদকে খোলো"
 
-#: bookmarks/kbookmarkmenu.cc:247
+#: bookmarks/kbookmarkmenu.cc:257
 msgid "Delete Folder"
 msgstr "ফোল্ডার মুছে ফেল"
 
-#: bookmarks/kbookmarkmenu.cc:254 ../kfile/kdiroperator.cpp:1469
+#: bookmarks/kbookmarkmenu.cc:263 ../kfile/kdiroperator.cpp:1541
 msgid "Properties"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:259
+#: bookmarks/kbookmarkmenu.cc:268
 msgid "Copy Link Address"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:261
+#: bookmarks/kbookmarkmenu.cc:270
 msgid "Delete Bookmark"
 msgstr "বুকমার্ক মুছে ফেল"
 
-#: bookmarks/kbookmarkmenu.cc:293
-msgid "Bookmark Properties"
-msgstr ""
+#: bookmarks/kbookmarkmenu.cc:276 bookmarks/kbookmarkmenu.cc:433
+#, fuzzy
+msgid "Open Folder in Tabs"
+msgstr "ফোল্ডার বুকমার্ক সম্পাদকে খোলো"
 
-#: bookmarks/kbookmarkmenu.cc:315 bookmarks/kbookmarkmanager.cc:509
+#: bookmarks/kbookmarkmenu.cc:301
 msgid "Cannot add bookmark with empty URL."
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:352
+#: bookmarks/kbookmarkmenu.cc:333
 #, qt-format
 msgid ""
 "Are you sure you wish to remove the bookmark folder\n"
@@ -4339,7 +4265,7 @@ msgstr ""
 "আপনি কি \"%1\"\n"
 "বুকমার্ক ফোল্ডারটি  মুছে ফেলার ব্যাপারে নিশ্চিত?"
 
-#: bookmarks/kbookmarkmenu.cc:353
+#: bookmarks/kbookmarkmenu.cc:334
 #, qt-format
 msgid ""
 "Are you sure you wish to remove the bookmark\n"
@@ -4348,68 +4274,53 @@ msgstr ""
 "আপনি কি \"%1\"\n"
 "বুকমার্কটি মুছে ফেলার ব্যাপারে নিশ্চিত?"
 
-#: bookmarks/kbookmarkmenu.cc:354
+#: bookmarks/kbookmarkmenu.cc:335
 msgid "Bookmark Folder Deletion"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:355
+#: bookmarks/kbookmarkmenu.cc:336
 msgid "Bookmark Deletion"
 msgstr ""
 
-#: bookmarks/kbookmarkmenu.cc:436
+#: bookmarks/kbookmarkmenu.cc:438
+msgid "Open all bookmarks in this folder as a new tab."
+msgstr ""
+
+#: bookmarks/kbookmarkmenu.cc:450
 msgid "Bookmark Tabs as Folder..."
 msgstr "ট্যাবগুলি ফোল্ডার হিসাবে বুকমার্ক করো"
 
-#: bookmarks/kbookmarkmenu.cc:441
+#: bookmarks/kbookmarkmenu.cc:455
 msgid "Add a folder of bookmarks for all open tabs."
 msgstr "সবকটি প্রদর্শিত ট্যাব মিলিয়ে একটি বুকমার্ক ফোল্ডার যোগ করা হবে"
 
-#: bookmarks/kbookmarkmenu.cc:459
+#: bookmarks/kbookmarkmenu.cc:467 bookmarks/kbookmarkdialog.cc:48
+msgid "Add Bookmark"
+msgstr "বুকমার্ক যোগ করো"
+
+#: bookmarks/kbookmarkmenu.cc:473
 msgid "Add a bookmark for the current document"
 msgstr "সক্রিয় পাতাটির জন্য একটি বুকমার্ক যোগ করা হবে"
 
-#: bookmarks/kbookmarkmenu.cc:474
+#: bookmarks/kbookmarkmenu.cc:488
 msgid "Edit your bookmark collection in a separate window"
 msgstr "আলাদা উইণ্ডোয় বুকমার্কের সংগ্রহ সম্পাদনা করা হবে"
 
-#: bookmarks/kbookmarkmenu.cc:483
-msgid "&New Bookmark Folder..."
+#: bookmarks/kbookmarkmenu.cc:497
+#, fuzzy
+#| msgid "&New Bookmark Folder..."
+msgid "New Bookmark Folder..."
 msgstr "&নতুন বুকমার্ক ফোল্ডার..."
 
-#: bookmarks/kbookmarkmenu.cc:489
+#: bookmarks/kbookmarkmenu.cc:500
 msgid "Create a new bookmark folder in this menu"
 msgstr "এই মেনুতে নতুন বুকমার্ক ফোল্ডার তৈরি করো"
 
-#: bookmarks/kbookmarkmenu.cc:714
-msgid "&Add"
-msgstr "যো&গ"
-
-#: bookmarks/kbookmarkmenu.cc:717
-msgid "&Update"
-msgstr ""
-
-#: bookmarks/kbookmarkmenu.cc:722
-msgid "&New Folder..."
-msgstr "&নতুন ফোল্ডার..."
-
-#: bookmarks/kbookmark.cc:128
-msgid "Create New Bookmark Folder"
-msgstr "নতুন বুকমার্ক ফোল্ডার তৈরি করো"
-
-#: bookmarks/kbookmark.cc:129
-#, qt-format
-msgid "Create New Bookmark Folder in %1"
-msgstr "%1-এ নতুন বুকমার্ক ফোল্ডার তৈরি করো"
-
-#: bookmarks/kbookmark.cc:131
-msgid "New folder:"
-msgstr "নতুন ফোল্ডার:"
-
-#: bookmarks/kbookmark.cc:334
+#: bookmarks/kbookmark.cc:252
 msgid "--- separator ---"
 msgstr "--- বিভাজক ---"
 
-#: bookmarks/kbookmarkmanager.cc:363
+#: bookmarks/kbookmarkmanager.cc:306
 #, qt-format
 msgid ""
 "Unable to save bookmarks in %1. Reported error was: %2. This error message "
@@ -4417,17 +4328,71 @@ msgid ""
 "as possible, which is most likely a full hard drive."
 msgstr ""
 
-#: ../kioslave/ftp/ftp.cpp:321
+#: bookmarks/kbookmarkdialog.cc:21
+#, fuzzy
+#| msgid "Date"
+msgid "Update"
+msgstr "তারিখ"
+
+#: bookmarks/kbookmarkdialog.cc:22
+msgid "Bookmark Properties"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:47 bookmarks/kbookmarkdialog.cc:76
+#, fuzzy
+#| msgid "&Add"
+msgid "Add"
+msgstr "যো&গ"
+
+#: bookmarks/kbookmarkdialog.cc:49 bookmarks/kbookmarkdialog.cc:78
+#: bookmarks/kbookmarkdialog.cc:102
+msgid "&New Folder..."
+msgstr "&নতুন ফোল্ডার..."
+
+#: bookmarks/kbookmarkdialog.cc:77
+#, fuzzy
+#| msgid "Add Bookmark"
+msgid "Add Bookmarks"
+msgstr "বুকমার্ক যোগ করো"
+
+#: bookmarks/kbookmarkdialog.cc:101 bookmarks/kbookmarkdialog.cc:127
+msgid "Ok"
+msgstr ""
+
+#: bookmarks/kbookmarkdialog.cc:103 ../kfile/kdirselectdialog.cpp:102
+msgid "Select Folder"
+msgstr "ফোল্ডার নির্বাচন করো"
+
+#: bookmarks/kbookmarkdialog.cc:128 ../kfile/kdirselectdialog.cpp:429
+#: ../kfile/kdirselectdialog.cpp:433 ../kfile/kdiroperator.cpp:614
+#: ../kfile/kdiroperator.cpp:622
+msgid "New Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: bookmarks/kbookmarkdialog.cc:285
+msgid "Create New Bookmark Folder"
+msgstr "নতুন বুকমার্ক ফোল্ডার তৈরি করো"
+
+#: bookmarks/kbookmarkdialog.cc:286
+#, qt-format
+msgid "Create New Bookmark Folder in %1"
+msgstr "%1-এ নতুন বুকমার্ক ফোল্ডার তৈরি করো"
+
+#: bookmarks/kbookmarkdialog.cc:289
+msgid "New folder:"
+msgstr "নতুন ফোল্ডার:"
+
+#: ../kioslave/ftp/ftp.cpp:320
 #, qt-format
 msgid "Opening connection to host %1"
 msgstr "%1 হোস্টের সঙ্গে যোগাযোগ স্থাপন করা হচ্ছে"
 
-#: ../kioslave/ftp/ftp.cpp:339
+#: ../kioslave/ftp/ftp.cpp:338
 #, qt-format
 msgid "Connected to host %1"
 msgstr "%1 হোস্টের সঙ্গে যোগাযোগ স্থাপন করা হয়েছে"
 
-#: ../kioslave/ftp/ftp.cpp:378
+#: ../kioslave/ftp/ftp.cpp:377
 #, qt-format
 msgid ""
 "%1.\n"
@@ -4438,11 +4403,11 @@ msgstr ""
 "\n"
 "কারণ: %2"
 
-#: ../kioslave/ftp/ftp.cpp:407
+#: ../kioslave/ftp/ftp.cpp:406
 msgid "Sending login information"
 msgstr "লগ-ইন তথ্য পাঠানো হচ্ছে"
 
-#: ../kioslave/ftp/ftp.cpp:454
+#: ../kioslave/ftp/ftp.cpp:453
 #, qt-format
 msgid ""
 "Message sent:\n"
@@ -4459,35 +4424,46 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:462 ../kioslave/http/http.cpp:5049
+#: ../kioslave/ftp/ftp.cpp:461 ../kioslave/http/http.cpp:5047
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr "এই সাইটটি দেখতে আপনার একটি username এবং পাসওয়ার্ড প্রয়োজন।"
 
-#: ../kioslave/ftp/ftp.cpp:464 ../kioslave/http/http.cpp:5057
+#: ../kioslave/ftp/ftp.cpp:463 ../kioslave/http/http.cpp:5055
 msgid "Site:"
 msgstr "সাইট:"
 
-#: ../kioslave/ftp/ftp.cpp:465
+#: ../kioslave/ftp/ftp.cpp:464
 #, qt-format
 msgid "<b>%1</b>"
 msgstr "<b>%1</b>"
 
-#: ../kioslave/ftp/ftp.cpp:528
+#: ../kioslave/ftp/ftp.cpp:527
 msgid "Login OK"
 msgstr "লগ-ইন সফল"
 
-#: ../kioslave/ftp/ftp.cpp:557
+#: ../kioslave/ftp/ftp.cpp:556
 #, qt-format
 msgid "Could not login to %1."
 msgstr "%1-এ লগ-ইন করা যায়নি।"
 
-#: ../kioslave/file/file.cpp:216
+#: ../kioslave/file/file.cpp:205
 #, fuzzy, qt-format
 msgid "Setting ACL for %1"
 msgstr "%1-কে তথ্য পাঠানো হচ্ছে"
 
-#: ../kioslave/file/file.cpp:758 ../kioslave/file/file.cpp:992
+#: ../kioslave/file/file.cpp:234
+#, fuzzy, qt-format
+#| msgid "Could not enter folder %1."
+msgid "Could not get user id for given user name %1"
+msgstr "%1 ফোল্ডারে ঢোকা যায়নি।"
+
+#: ../kioslave/file/file.cpp:247
+#, qt-format
+msgid "Could not get group id for given group name %1"
+msgstr ""
+
+#: ../kioslave/file/file.cpp:777 ../kioslave/file/file.cpp:1011
 #, qt-format
 msgid ""
 "Could not change permissions for\n"
@@ -4496,121 +4472,121 @@ msgstr ""
 "%1-র\n"
 "জন্য অনুমতি বদলানো যায়নি"
 
-#: ../kioslave/file/file.cpp:923
+#: ../kioslave/file/file.cpp:942
 #, qt-format
 msgid "Cannot copy file from %1 to %2. (Errno: %3)"
 msgstr ""
 
-#: ../kioslave/file/file.cpp:1366
+#: ../kioslave/file/file.cpp:1385
 #, qt-format
 msgid "No media in device for %1"
 msgstr ""
 
-#: ../kioslave/file/file.cpp:1518
+#: ../kioslave/file/file.cpp:1537
 msgid "No Media inserted or Media not recognized."
 msgstr ""
 
-#: ../kioslave/file/file.cpp:1528 ../kioslave/file/file.cpp:1729
+#: ../kioslave/file/file.cpp:1547 ../kioslave/file/file.cpp:1748
 msgid "\"vold\" is not running."
 msgstr ""
 
-#: ../kioslave/file/file.cpp:1563
+#: ../kioslave/file/file.cpp:1582
 msgid "Could not find program \"mount\""
 msgstr "\"mount\" প্রোগ্রামটি পাওয়া যায়নি"
 
-#: ../kioslave/file/file.cpp:1742
+#: ../kioslave/file/file.cpp:1761
 msgid "Could not find program \"umount\""
 msgstr "\"umount\" প্রোগ্রামটি পাওয়া যায়নি"
 
-#: ../kioslave/file/file.cpp:1830
+#: ../kioslave/file/file.cpp:1849
 #, qt-format
 msgid "Could not read %1"
 msgstr "%1 পড়া যায়নি"
 
-#: ../kioslave/http/http.cpp:455
+#: ../kioslave/http/http.cpp:450
 msgid "No host specified."
 msgstr "কোন হোস্ট উল্লেখ করা হয়নি।"
 
-#: ../kioslave/http/http.cpp:1480
+#: ../kioslave/http/http.cpp:1460
 msgid "Otherwise, the request would have succeeded."
 msgstr "না হলে অনুরোধটি সফল হত।"
 
-#: ../kioslave/http/http.cpp:1484
+#: ../kioslave/http/http.cpp:1464
 msgid "retrieve property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1487
+#: ../kioslave/http/http.cpp:1467
 msgid "set property values"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1490
+#: ../kioslave/http/http.cpp:1470
 msgid "create the requested folder"
 msgstr "উল্লিখিত ফোল্ডার তৈরি করো"
 
-#: ../kioslave/http/http.cpp:1493
+#: ../kioslave/http/http.cpp:1473
 msgid "copy the specified file or folder"
 msgstr "নির্বাচিত ফাইল বা ফোল্ডার কপি করো"
 
-#: ../kioslave/http/http.cpp:1496
+#: ../kioslave/http/http.cpp:1476
 msgid "move the specified file or folder"
 msgstr "নির্বাচিত ফাইল বা ফোল্ডার সরাও"
 
-#: ../kioslave/http/http.cpp:1499
+#: ../kioslave/http/http.cpp:1479
 msgid "search in the specified folder"
 msgstr "নির্বাচিত ফোল্ডারে সন্ধান করো"
 
-#: ../kioslave/http/http.cpp:1502
+#: ../kioslave/http/http.cpp:1482
 msgid "lock the specified file or folder"
 msgstr "নির্বাচিত ফাইল বা ফোল্ডার লক করো"
 
-#: ../kioslave/http/http.cpp:1505
+#: ../kioslave/http/http.cpp:1485
 msgid "unlock the specified file or folder"
 msgstr "নির্বাচিত ফাইল বা ফোল্ডার আনলক করো"
 
-#: ../kioslave/http/http.cpp:1508
+#: ../kioslave/http/http.cpp:1488
 msgid "delete the specified file or folder"
 msgstr "নির্বাচিত ফাইল বা ফোল্ডার মুছে ফেল"
 
-#: ../kioslave/http/http.cpp:1511
+#: ../kioslave/http/http.cpp:1491
 msgid "query the server's capabilities"
 msgstr "সার্ভারের ক্ষমতা যাচাই করো"
 
-#: ../kioslave/http/http.cpp:1514
+#: ../kioslave/http/http.cpp:1494
 msgid "retrieve the contents of the specified file or folder"
 msgstr "নির্বাচিত ফাইল বা ফোল্ডারের বিষয়বস্তু উদ্ধার করো"
 
-#: ../kioslave/http/http.cpp:1526 ../kioslave/http/http.cpp:1679
+#: ../kioslave/http/http.cpp:1506 ../kioslave/http/http.cpp:1659
 #, qt-format
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "%2 করার চেষ্টা চলাকালীন অপ্রত্যাশিত সমস্যা (%1) দেখা দিয়েছে।"
 
-#: ../kioslave/http/http.cpp:1534
+#: ../kioslave/http/http.cpp:1514
 msgid "The server does not support the WebDAV protocol."
 msgstr "সার্ভারটি WebDAV প্রোটোকল সমর্থন করে না।"
 
-#: ../kioslave/http/http.cpp:1575
+#: ../kioslave/http/http.cpp:1555
 #, qt-format
 msgid ""
 "An error occurred while attempting to %1, %2. A summary of the reasons is "
 "below.<ul>"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1587 ../kioslave/http/http.cpp:1690
+#: ../kioslave/http/http.cpp:1567 ../kioslave/http/http.cpp:1670
 #, qt-format
 msgid "Access was denied while attempting to %1."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1594
+#: ../kioslave/http/http.cpp:1574
 msgid "The specified folder already exists."
 msgstr "উল্লিখিত ফোল্ডারটি আগে থেকেই আছে।"
 
-#: ../kioslave/http/http.cpp:1600 ../kioslave/http/http.cpp:1695
+#: ../kioslave/http/http.cpp:1580 ../kioslave/http/http.cpp:1675
 msgid ""
 "A resource cannot be created at the destination until one or more "
 "intermediate collections (folders) have been created."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1609
+#: ../kioslave/http/http.cpp:1589
 #, qt-format
 msgid ""
 "The server was unable to maintain the liveness of the properties listed in "
@@ -4618,107 +4594,107 @@ msgid ""
 "requesting that files are not overwritten. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1619
+#: ../kioslave/http/http.cpp:1599
 #, qt-format
 msgid "The requested lock could not be granted. %1"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1625
+#: ../kioslave/http/http.cpp:1605
 msgid "The server does not support the request type of the body."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1630 ../kioslave/http/http.cpp:1702
+#: ../kioslave/http/http.cpp:1610 ../kioslave/http/http.cpp:1682
 #, qt-format
 msgid "Unable to %1 because the resource is locked."
 msgstr "%1 করা যায়নি কারণ রিসোর্সটি লক করা রয়েছে।"
 
-#: ../kioslave/http/http.cpp:1634
+#: ../kioslave/http/http.cpp:1614
 msgid "This action was prevented by another error."
 msgstr "অন্য একটি সমস্যার দরুন এই কাজটি করা যায়নি।"
 
-#: ../kioslave/http/http.cpp:1641 ../kioslave/http/http.cpp:1707
+#: ../kioslave/http/http.cpp:1621 ../kioslave/http/http.cpp:1687
 #, qt-format
 msgid ""
 "Unable to %1 because the destination server refuses to accept the file or "
 "folder."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1648 ../kioslave/http/http.cpp:1713
+#: ../kioslave/http/http.cpp:1628 ../kioslave/http/http.cpp:1693
 msgid ""
 "The destination resource does not have sufficient space to record the state "
 "of the resource after the execution of this method."
 msgstr ""
 
-#: ../kioslave/http/http.cpp:1670
+#: ../kioslave/http/http.cpp:1650
 #, qt-format
 msgid "upload %1"
 msgstr "%1 আপলোড করো"
 
-#: ../kioslave/http/http.cpp:1991
+#: ../kioslave/http/http.cpp:1968
 #, qt-format
 msgid "Connecting to %1..."
 msgstr "%1-এর সঙ্গে যোগাযোগ করা হচ্ছে..."
 
-#: ../kioslave/http/http.cpp:2009 ../kioslave/http/http.cpp:2013
+#: ../kioslave/http/http.cpp:1986 ../kioslave/http/http.cpp:1990
 #, qt-format
 msgid "Proxy %1 at port %2"
 msgstr "প্রক্সি %1 পোর্ট %2-এ"
 
-#: ../kioslave/http/http.cpp:2045
+#: ../kioslave/http/http.cpp:2022
 #, qt-format
 msgid "%1 (port %2)"
 msgstr "%1 (পোর্ট %2)"
 
-#: ../kioslave/http/http.cpp:2580
+#: ../kioslave/http/http.cpp:2556
 #, qt-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1-এর সঙ্গে যোগাযোগ করা হয়েছে। উত্তরের অপেক্ষায়..."
 
-#: ../kioslave/http/http.cpp:2946
+#: ../kioslave/http/http.cpp:2939
 msgid "Server processing request, please wait..."
 msgstr "সার্ভার অনুরোধ প্রসেস করছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
-#: ../kioslave/http/http.cpp:3789
+#: ../kioslave/http/http.cpp:3768
 msgid "Requesting data to send"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3830
+#: ../kioslave/http/http.cpp:3805
 #, qt-format
 msgid "Sending data to %1"
 msgstr "%1-কে তথ্য পাঠানো হচ্ছে"
 
-#: ../kioslave/http/http.cpp:4237
+#: ../kioslave/http/http.cpp:4211
 #, qt-format
 msgid "Retrieving %1 from %2..."
 msgstr "%2 থেকে %1 আনা হচ্ছে... ১"
 
-#: ../kioslave/http/http.cpp:4246
+#: ../kioslave/http/http.cpp:4220
 #, qt-format
 msgid "Retrieving from %1..."
 msgstr "%1 থেকে আনা হচ্ছে..."
 
-#: ../kioslave/http/http.cpp:5029 ../kioslave/http/http.cpp:5177
+#: ../kioslave/http/http.cpp:5027 ../kioslave/http/http.cpp:5173
 msgid "Authentication Failed."
 msgstr "অথেন্টিকেশন ব্যর্থ।"
 
-#: ../kioslave/http/http.cpp:5032 ../kioslave/http/http.cpp:5180
+#: ../kioslave/http/http.cpp:5030 ../kioslave/http/http.cpp:5176
 msgid "Proxy Authentication Failed."
 msgstr "প্রক্সি অথেন্টিকেশন ব্যর্থ।"
 
-#: ../kioslave/http/http.cpp:5037
+#: ../kioslave/http/http.cpp:5035
 msgid "  Do you want to retry?"
 msgstr "আপনি কি আবার চেষ্টা করতে চান?"
 
-#: ../kioslave/http/http.cpp:5038
+#: ../kioslave/http/http.cpp:5036
 msgid "Authentication"
 msgstr "অথেন্টিকেশন"
 
-#: ../kioslave/http/http.cpp:5058 ../kioslave/http/http.cpp:5075
+#: ../kioslave/http/http.cpp:5056 ../kioslave/http/http.cpp:5073
 #, qt-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:5065
+#: ../kioslave/http/http.cpp:5063
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -4727,16 +4703,16 @@ msgstr ""
 "কোনো সাইট দেখার আগে আপনাকে নিম্নোল্লিখিত প্রক্সি সার্ভারটির জন্য একটি বৈধ username "
 "এবং পাসওয়ার্ড দিতে হবে।"
 
-#: ../kioslave/http/http.cpp:5074
+#: ../kioslave/http/http.cpp:5072
 msgid "Proxy:"
 msgstr "প্রক্সি:"
 
-#: ../kioslave/http/http.cpp:5096
+#: ../kioslave/http/http.cpp:5093
 #, qt-format
 msgid "Authentication needed for %1 but authentication is disabled."
 msgstr "%1-র জন্য অথেন্টিকেশন প্রয়োজন, কিন্তু অথেন্টিকেশন নিষ্ক্রিয় করা রয়েছে।"
 
-#: ../kioslave/http/http.cpp:5715
+#: ../kioslave/http/http.cpp:5710
 msgid ""
 "Unsupported method: authentication will fail. Please submit a bug report."
 msgstr ""
@@ -4749,24 +4725,6 @@ msgstr "কে.ডি.ই. HTTP ক্যাশ রক্ষণাবেক্�
 #: ../kioslave/http/http_cache_cleaner.cpp:204
 msgid "Empty the cache"
 msgstr "ক্যাশ (Cache) ফাঁকা করো"
-
-#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:232
-msgid "KCookiejar regression test"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:234
-#, fuzzy
-#| msgid "Cookie Alert"
-msgid "kcookietest"
-msgstr "কুকি সতর্কীকরণ"
-
-#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:234
-msgid "(C) 2004 Waldo Bastian"
-msgstr ""
-
-#: ../kioslave/http/kcookiejar/tests/kcookiejartest.cpp:238
-msgid "Regression test to run"
-msgstr ""
 
 #: ../kioslave/http/kcookiejar/main.cpp:32
 msgid "HTTP Cookie Daemon"
@@ -4954,40 +4912,43 @@ msgstr "আইকন ভিউ"
 msgid "Unknown View"
 msgstr "অজানা ভিউ"
 
-#: ../kfile/tests/kdirselectdialogtest.cpp:10
-msgid "kdirselectdialogtest"
-msgstr ""
-
-#: ../kfile/kfileplacesview.cpp:273
+#: ../kfile/kfileplacesview.cpp:277
 #, fuzzy, qt-format
 #| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "&সম্পাদন করো..."
 
-#: ../kfile/kfileplacesview.cpp:276
+#: ../kfile/kfileplacesview.cpp:280
 #, qt-format
 msgid "&Hide '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesview.cpp:283
+#: ../kfile/kfileplacesview.cpp:287
 msgid "&Show All Entries"
 msgstr ""
 
-#: ../kfile/kfileplacesview.cpp:294
+#: ../kfile/kfileplacesview.cpp:298
 #, fuzzy, qt-format
 msgid "&Remove '%1'"
 msgstr "&এন্ট্রি মুছে ফেলো"
 
-#: ../kfile/k3filedetailview.cpp:63 ../kfile/kdiroperator.cpp:1007
-#: ../kfile/kdiroperator.cpp:1445
+#: ../kfile/k3filedetailview.cpp:63 ../kfile/kdiroperator.cpp:1522
 msgid "Detailed View"
 msgstr "বিস্তারিত ভিউ"
+
+#: ../kfile/k3filedetailview.cpp:66
+msgid "Size"
+msgstr "মাপ"
 
 #: ../kfile/k3filedetailview.cpp:67
 msgid "Date"
 msgstr "তারিখ"
 
-#: ../kfile/kfilefiltercombo.cpp:33 ../kfile/kfilewidget.cpp:1385
+#: ../kfile/k3filedetailview.cpp:68
+msgid "Permissions"
+msgstr "অনুমতি"
+
+#: ../kfile/kfilefiltercombo.cpp:33 ../kfile/kfilewidget.cpp:1417
 msgid "*|All Files"
 msgstr "*|সব ফাইল"
 
@@ -5003,132 +4964,126 @@ msgstr "প্রাকদর্শন"
 msgid "No preview available."
 msgstr "কোন প্রাকদর্শন নেই।"
 
-#: ../kfile/kfilewidget.cpp:181
+#: ../kfile/kfilewidget.cpp:182
 msgid ""
-"<p>While typing in the text area, you may be presented with possible "
+"<qt>While typing in the text area, you may be presented with possible "
 "matches. This feature can be controlled by clicking with the right mouse "
 "button and selecting a preferred mode from the <b>Text Completion</b> menu."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:215
-msgid "Current location"
-msgstr "বর্তমান অবস্থান"
-
-#: ../kfile/kfilewidget.cpp:216
-msgid ""
-"This is the currently listed location. The drop-down list also lists "
-"commonly used locations. This includes standard locations, such as your home "
-"folder, as well as locations that have been visited recently."
-msgstr ""
-
-#: ../kfile/kfilewidget.cpp:226
+#: ../kfile/kfilewidget.cpp:223
 #, fuzzy, qt-format
 msgid "Drive: %1"
 msgstr "মাপ %1 "
 
-#: ../kfile/kfilewidget.cpp:233
+#: ../kfile/kfilewidget.cpp:230
 #, qt-format
 msgid "Root Folder: %1"
 msgstr "রুট ফোল্ডার: %1"
 
-#: ../kfile/kfilewidget.cpp:240
+#: ../kfile/kfilewidget.cpp:237
 #, qt-format
 msgid "Home Folder: %1"
 msgstr "ব্যক্তিগত ফোল্ডার: %1"
 
-#: ../kfile/kfilewidget.cpp:249
+#: ../kfile/kfilewidget.cpp:246
 #, qt-format
 msgid "Documents: %1"
 msgstr "নথী: %1"
 
-#: ../kfile/kfilewidget.cpp:256
+#: ../kfile/kfilewidget.cpp:253
 #, qt-format
 msgid "Desktop: %1"
 msgstr "ডেস্কটপ: %1"
 
-#: ../kfile/kfilewidget.cpp:298
-#, qt-format
+#: ../kfile/kfilewidget.cpp:302
+#, fuzzy, qt-format
+#| msgid ""
+#| "<qt>Click this button to enter the parent folder.<p>For instance, if the "
+#| "current location is file:/home/%1 clicking this button will take you to "
+#| "file:/home.</qt>"
 msgid ""
-"<qt>Click this button to enter the parent folder.<p>For instance, if the "
-"current location is file:/home/%1 clicking this button will take you to "
-"file:/home.</qt>"
+"<qt>Click this button to enter the parent folder.<br /><br />For instance, "
+"if the current location is file:/home/%1 clicking this button will take you "
+"to file:/home.</qt>"
 msgstr ""
 "<qt>উর্ধ্বস্থ ফোল্ডারে যেতে এই বাটনটি ক্লিক করুন। <p>উদাহরণস্বরূপ, যদি আপনার বর্তমান "
 "অবস্থান হয় file:/home/%1, এই বাটনটি ক্লিক করলে আপনি চলে যাবেন file:/home।</qt>"
 
-#: ../kfile/kfilewidget.cpp:302
+#: ../kfile/kfilewidget.cpp:307
 msgid "Click this button to move backwards one step in the browsing history."
 msgstr "পূর্বদৃষ্ট অবস্থানের তালিকায় এক ধাপ পিছিয়ে যেতে এই বাটনটি ক্লিক করুন।"
 
-#: ../kfile/kfilewidget.cpp:304
+#: ../kfile/kfilewidget.cpp:309
 msgid "Click this button to move forward one step in the browsing history."
 msgstr "পূর্বদৃষ্ট অবস্থানের তালিকায় এক ধাপ এগিয়ে যেতে এই বাটনটি ক্লিক করুন।"
 
-#: ../kfile/kfilewidget.cpp:306
+#: ../kfile/kfilewidget.cpp:312
 msgid "Click this button to reload the contents of the current location."
 msgstr "প্রদর্শিত অবস্থানটির বিষয়বস্তু নতুন করে লোড করতে এই বাটনটি ক্লিক করুন।"
 
-#: ../kfile/kfilewidget.cpp:309
+#: ../kfile/kfilewidget.cpp:315
 msgid "Click this button to create a new folder."
 msgstr "নতুন ফোল্ডার তৈরি করতে এই বাটনটি ক্লিক করুন।"
 
-#: ../kfile/kfilewidget.cpp:312
-msgid "Show Quick Access Navigation Panel"
+#: ../kfile/kfilewidget.cpp:318
+msgid "Show Places Navigation Panel"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:319
+#: ../kfile/kfilewidget.cpp:325
 msgid "Show Bookmarks"
 msgstr "বুকমার্ক দেখাও"
 
-#: ../kfile/kfilewidget.cpp:324
+#: ../kfile/kfilewidget.cpp:330
 #, fuzzy
-msgid "Configure"
-msgstr "চালিয়ে যা&ও"
+#| msgid "Operation"
+msgid "Options"
+msgstr "প্রক্রিয়া"
 
-#: ../kfile/kfilewidget.cpp:326
+#: ../kfile/kfilewidget.cpp:332
 msgid ""
-"<qt>This is the configuration menu for the file dialog. Various options can "
-"be accessed from this menu including: <ul><li>how files are sorted in the "
-"list</li><li>types of view, including icon and list</li><li>showing of "
-"hidden files</li><li>the Quick Access navigation panel</li><li>file "
-"previews</li><li>separating folders from files</li></ul></qt>"
+"<qt>This is the preferences menu for the file dialog. Various options can be "
+"accessed from this menu including: <ul><li>how files are sorted in the list</"
+"li><li>types of view, including icon and list</li><li>showing of hidden "
+"files</li><li>the Places navigation panel</li><li>file previews</"
+"li><li>separating folders from files</li></ul></qt>"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:377
+#: ../kfile/kfilewidget.cpp:376 ../kfile/kfileplaceeditdialog.cpp:110
 msgid "&Location:"
 msgstr "&অবস্থান:"
 
-#: ../kfile/kfilewidget.cpp:399
+#: ../kfile/kfilewidget.cpp:400
 msgid ""
 "<qt>This is the filter to apply to the file list. File names that do not "
 "match the filter will not be shown.<p>You may select from one of the preset "
 "filters in the drop down menu, or you may enter a custom filter directly "
-"into the text area.<p>Wildcards such as * and ? are allowed.</qt>"
+"into the text area.</p><p>Wildcards such as * and ? are allowed.</p></qt>"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:405
+#: ../kfile/kfilewidget.cpp:406
 msgid "&Filter:"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:567
+#: ../kfile/kfilewidget.cpp:568
 msgid "Please specify the filename to save to."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:569
+#: ../kfile/kfilewidget.cpp:570
 msgid "Please select the file to open."
 msgstr "খোলার জন্য ফাইল নির্বাচন করুন।"
 
-#: ../kfile/kfilewidget.cpp:626 ../kfile/kfilewidget.cpp:669
-#: ../kfile/kfilewidget.cpp:1330
+#: ../kfile/kfilewidget.cpp:629 ../kfile/kfilewidget.cpp:672
+#: ../kfile/kfilewidget.cpp:1349
 msgid "You can only select local files."
 msgstr "শুধু স্থানীয় ফাইল নির্বাচন করতে পারেন।"
 
-#: ../kfile/kfilewidget.cpp:627 ../kfile/kfilewidget.cpp:670
-#: ../kfile/kfilewidget.cpp:1331
+#: ../kfile/kfilewidget.cpp:630 ../kfile/kfilewidget.cpp:673
+#: ../kfile/kfilewidget.cpp:1350
 msgid "Remote Files Not Accepted"
 msgstr "দূরবর্তী (রিমোট) ফাইল গ্রহণযোগ্য নয়"
 
-#: ../kfile/kfilewidget.cpp:661
+#: ../kfile/kfilewidget.cpp:664
 #, qt-format
 msgid ""
 "%1\n"
@@ -5137,25 +5092,25 @@ msgstr ""
 "%1\n"
 "একটি বৈধ ইউ-আর-এল বলে মনে হচ্ছে না।\n"
 
-#: ../kfile/kfilewidget.cpp:661
+#: ../kfile/kfilewidget.cpp:664
 msgid "Invalid URL"
 msgstr "অবৈধ ইউ-আর-এল"
 
-#: ../kfile/kfilewidget.cpp:981
+#: ../kfile/kfilewidget.cpp:988
 msgid "This is the name to save the file as."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:986
+#: ../kfile/kfilewidget.cpp:993
 msgid ""
 "This is the list of files to open. More than one file can be specified by "
 "listing several files, separated by spaces."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:993
+#: ../kfile/kfilewidget.cpp:1000
 msgid "This is the name of the file to open."
 msgstr "যে ফাইলটি খোলা হবে তার নাম।"
 
-#: ../kfile/kfilewidget.cpp:1262
+#: ../kfile/kfilewidget.cpp:1281
 msgid ""
 "The chosen filenames do not\n"
 "appear to be valid."
@@ -5163,11 +5118,11 @@ msgstr ""
 "নির্বাচিত নামগুলি ফাইলের নাম\n"
 "হিসাবে অবৈধ বলে মনে হচ্ছে।"
 
-#: ../kfile/kfilewidget.cpp:1264
+#: ../kfile/kfilewidget.cpp:1283
 msgid "Invalid Filenames"
 msgstr "ফাইলের নাম অবৈধ "
 
-#: ../kfile/kfilewidget.cpp:1293
+#: ../kfile/kfilewidget.cpp:1312
 #, qt-format
 msgid ""
 "The requested filenames\n"
@@ -5176,127 +5131,118 @@ msgid ""
 "make sure every filename is enclosed in double quotes."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:1297
+#: ../kfile/kfilewidget.cpp:1316
 msgid "Filename Error"
 msgstr "ফাইলের নাম ভুল"
 
-#: ../kfile/kfilewidget.cpp:1382
+#: ../kfile/kfilewidget.cpp:1414
 msgid "*|All Folders"
 msgstr "*|সব ফোল্ডার"
 
-#: ../kfile/kfilewidget.cpp:1649
+#: ../kfile/kfilewidget.cpp:1699
 #, qt-format
 msgid "Automatically select filename e&xtension (%1)"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:1650
+#: ../kfile/kfilewidget.cpp:1700
 #, qt-format
 msgid "the extension <b>%1</b>"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:1658
+#: ../kfile/kfilewidget.cpp:1708
 msgid "Automatically select filename e&xtension"
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:1659
+#: ../kfile/kfilewidget.cpp:1709
 msgid "a suitable extension"
 msgstr "একটি উপযুক্ত এক্সটেনশন"
 
-#: ../kfile/kfilewidget.cpp:1669
+#: ../kfile/kfilewidget.cpp:1719
 #, qt-format
 msgid ""
 "This option enables some convenient features for saving files with "
-"extensions:<br><ol><li>Any extension specified in the <b>%1</b> text area "
-"will be updated if you change the file type to save in.<br><br></li><li>If "
-"no extension is specified in the <b>%2</b> text area when you click <b>Save</"
-"b>, %3 will be added to the end of the filename (if the filename does not "
-"already exist). This extension is based on the file type that you have "
-"chosen to save in.<br><br>If you do not want KDE to supply an extension for "
-"the filename, you can either turn this option off or you can suppress it by "
-"adding a period (.) to the end of the filename (the period will be "
-"automatically removed).</li></ol>If unsure, keep this option enabled as it "
-"makes your files more manageable."
+"extensions:<br /><ol><li>Any extension specified in the <b>%1</b> text area "
+"will be updated if you change the file type to save in.<br /><br /></"
+"li><li>If no extension is specified in the <b>%2</b> text area when you "
+"click <b>Save</b>, %3 will be added to the end of the filename (if the "
+"filename does not already exist). This extension is based on the file type "
+"that you have chosen to save in.<br /><br />If you do not want KDE to supply "
+"an extension for the filename, you can either turn this option off or you "
+"can suppress it by adding a period (.) to the end of the filename (the "
+"period will be automatically removed).</li></ol>If unsure, keep this option "
+"enabled as it makes your files more manageable."
 msgstr ""
 
-#: ../kfile/kfilewidget.cpp:1940
+#: ../kfile/kfilewidget.cpp:1991
 msgid ""
 "<qt>This button allows you to bookmark specific locations. Click on this "
 "button to open the bookmark menu where you may add, edit or select a "
-"bookmark.<p>These bookmarks are specific to the file dialog, but otherwise "
-"operate like bookmarks elsewhere in KDE.</qt>"
-msgstr ""
-
-#: ../kfile/kfileplacesmodel.cpp:79
-msgid "Home"
+"bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
+"otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
 
 #: ../kfile/kfileplacesmodel.cpp:80
-msgid "Network"
+msgid "Home"
 msgstr ""
 
 #: ../kfile/kfileplacesmodel.cpp:81
+msgid "Network"
+msgstr ""
+
+#: ../kfile/kfileplacesmodel.cpp:84 ../kfile/kfileplacesmodel.cpp:86
 msgid "Root"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:82
+#: ../kfile/kfileplacesmodel.cpp:88
 msgid "Trash"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:632
+#: ../kfile/kfileplacesmodel.cpp:637
 #, fuzzy, qt-format
 #| msgid "Eject"
 msgid "&Eject '%1'"
 msgstr "ইজেক্ট"
 
-#: ../kfile/kfileplacesmodel.cpp:634
+#: ../kfile/kfileplacesmodel.cpp:639
 #, qt-format
 msgid "&Safely remove '%1'"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:636
+#: ../kfile/kfileplacesmodel.cpp:641
 #, fuzzy, qt-format
 #| msgid "Unmount"
 msgid "&Unmount '%1'"
 msgstr "আনমাউন্ট"
 
-#: ../kfile/kfileplacesmodel.cpp:689
+#: ../kfile/kfileplacesmodel.cpp:699
 #, qt-format
 msgid "An error occurred while accessing '%1', the system said: %2"
 msgstr ""
 
-#: ../kfile/kfileplacesmodel.cpp:693
+#: ../kfile/kfileplacesmodel.cpp:703
 #, fuzzy, qt-format
 #| msgid "An unexpected error (%1) occurred while attempting to %2."
 msgid "An error occurred while accessing '%1'"
 msgstr "%2 করার চেষ্টা চলাকালীন অপ্রত্যাশিত সমস্যা (%1) দেখা দিয়েছে।"
 
-#: ../kfile/kurlnavigator.cpp:550
+#: ../kfile/kurlnavigator.cpp:623
 msgid "Custom Path"
 msgstr ""
 
-#: ../kfile/kdirselectdialog.cpp:102
-msgid "Select Folder"
-msgstr "ফোল্ডার নির্বাচন করো"
-
-#: ../kfile/kdirselectdialog.cpp:104 ../kfile/kdirselectdialog.cpp:142
-#: ../kfile/kdiroperator.cpp:1385
+#: ../kfile/kdirselectdialog.cpp:104 ../kfile/kdirselectdialog.cpp:143
+#: ../kfile/kdiroperator.cpp:1470
 msgid "New Folder..."
 msgstr "নতুন ফোল্ডার..."
 
-#: ../kfile/kdirselectdialog.cpp:126
+#: ../kfile/kdirselectdialog.cpp:127
 msgid "Folders"
 msgstr "ফোল্ডার"
 
-#: ../kfile/kdirselectdialog.cpp:148
+#: ../kfile/kdirselectdialog.cpp:149
 msgid "Show Hidden Folders"
 msgstr "গুপ্ত ফোল্ডার দেখাও"
 
-#: ../kfile/kdirselectdialog.cpp:428 ../kfile/kdirselectdialog.cpp:432
-#: ../kfile/kdiroperator.cpp:468 ../kfile/kdiroperator.cpp:476
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: ../kfile/kdirselectdialog.cpp:433 ../kfile/kdiroperator.cpp:477
+#: ../kfile/kdirselectdialog.cpp:434 ../kfile/kdiroperator.cpp:623
 #, qt-format
 msgid ""
 "Create new folder in:\n"
@@ -5305,77 +5251,69 @@ msgstr ""
 "%1-এ \n"
 "নতুন ফোল্ডার তৈরি করো"
 
-#: ../kfile/kdirselectdialog.cpp:456 ../kfile/kdiroperator.cpp:505
+#: ../kfile/kdirselectdialog.cpp:457 ../kfile/kdiroperator.cpp:649
 #, qt-format
 msgid "A file or folder named %1 already exists."
 msgstr "%1 নামে একটি ফাইল বা ফোল্ডার আগে থেকেই আছে।"
 
-#: ../kfile/kdirselectdialog.cpp:460 ../kfile/kdiroperator.cpp:509
+#: ../kfile/kdirselectdialog.cpp:461 ../kfile/kdiroperator.cpp:652
 msgid "You do not have permission to create that folder."
 msgstr "আপনার ঐ ফোল্ডারটি তৈরি করার অনুমতি নেই।"
 
 #: ../kfile/kfileplaceeditdialog.cpp:85
-msgid "Edit Quick Access Entry"
-msgstr ""
+#, fuzzy
+#| msgid "Edit Entry..."
+msgid "Edit Places Entry"
+msgstr "এন্ট্রি সম্পাদন করো..."
 
-#: ../kfile/kfileplaceeditdialog.cpp:91
+#: ../kfile/kfileplaceeditdialog.cpp:96
 msgid ""
-"<qt><b>Please provide a description, URL and icon for this Quick Access "
-"entry.</b></br></qt>"
-msgstr ""
-
-#: ../kfile/kfileplaceeditdialog.cpp:99
-msgid ""
-"<qt>This is the text that will appear in the Quick Access panel.<p>The "
+"<qt>This is the text that will appear in the Places panel.<br /><br />The "
 "description should consist of one or two words that will help you remember "
 "what this entry refers to.</qt>"
 msgstr ""
 
-#: ../kfile/kfileplaceeditdialog.cpp:109
+#: ../kfile/kfileplaceeditdialog.cpp:106
 #, qt-format
 msgid ""
 "<qt>This is the location associated with the entry. Any valid URL may be "
-"used. For example:<p>%1<br>http://www.kde.org<br>ftp://ftp.kde.org/pub/kde/"
-"stable<p>By clicking on the button next to the text edit box you can browse "
-"to an appropriate URL.</qt>"
+"used. For example:<br /><br />%1<br />http://www.kde.org<br />ftp://ftp.kde."
+"org/pub/kde/stable<br /><br />By clicking on the button next to the text "
+"edit box you can browse to an appropriate URL.</qt>"
 msgstr ""
 
-#: ../kfile/kfileplaceeditdialog.cpp:113
-msgid "&URL:"
-msgstr "ই&উ-আর-এল:"
-
-#: ../kfile/kfileplaceeditdialog.cpp:120
+#: ../kfile/kfileplaceeditdialog.cpp:117
 msgid ""
-"<qt>This is the icon that will appear in the Quick Access panel.<p>Click on "
-"the button to select a different icon.</qt>"
+"<qt>This is the icon that will appear in the Places panel.<br /><br />Click "
+"on the button to select a different icon.</qt>"
 msgstr ""
 
-#: ../kfile/kfileplaceeditdialog.cpp:122
+#: ../kfile/kfileplaceeditdialog.cpp:119
 msgid "Choose an &icon:"
 msgstr "একটি আ&ইকন বেছে নিন:"
 
-#: ../kfile/kfileplaceeditdialog.cpp:140
+#: ../kfile/kfileplaceeditdialog.cpp:137
 #, qt-format
 msgid "&Only show when using this application (%1)"
 msgstr "শুধু &এই অ্যাপলিকেশনটি (%1) ব্যবহার করার সময় দেখাও"
 
-#: ../kfile/kfileplaceeditdialog.cpp:142
+#: ../kfile/kfileplaceeditdialog.cpp:139
 #, qt-format
 msgid ""
 "<qt>Select this setting if you want this entry to show only when using the "
-"current application (%1).<p>If this setting is not selected, the entry will "
-"be available in all applications.</qt>"
+"current application (%1).<br /><br />If this setting is not selected, the "
+"entry will be available in all applications.</qt>"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:531
+#: ../kfile/kdiroperator.cpp:667
 msgid "You did not select a file to delete."
 msgstr "আপনি মোছার জন্য কোন ফাইল বাছেননি।"
 
-#: ../kfile/kdiroperator.cpp:532
+#: ../kfile/kdiroperator.cpp:668
 msgid "Nothing to Delete"
 msgstr "কিছু মোছার নেই"
 
-#: ../kfile/kdiroperator.cpp:546
+#: ../kfile/kdiroperator.cpp:689
 #, qt-format
 msgid ""
 "<qt>Do you really want to delete\n"
@@ -5384,30 +5322,30 @@ msgstr ""
 "<qt>আপনি কি সত্যিই \n"
 " <b>'%1'</b> মুছতে চান?</qt>"
 
-#: ../kfile/kdiroperator.cpp:548
+#: ../kfile/kdiroperator.cpp:691
 msgid "Delete File"
 msgstr "ফাইল মুছে ফেল"
 
-#: ../kfile/kdiroperator.cpp:554
+#: ../kfile/kdiroperator.cpp:696
 #, fuzzy, qt-format
 msgid "Do you really want to delete this item?"
 msgid_plural "Do you really want to delete these %1 items?"
 msgstr[0] "translators: not called for n == 1"
 msgstr[1] "আপনি কি সত্যিই এই %1-টি জিনিস মুছে ফেলতে চান?"
 
-#: ../kfile/kdiroperator.cpp:556
+#: ../kfile/kdiroperator.cpp:698
 msgid "Delete Files"
 msgstr "ফাইলগুলি মুছে ফেল"
 
-#: ../kfile/kdiroperator.cpp:588
+#: ../kfile/kdiroperator.cpp:728
 msgid "You did not select a file to trash."
 msgstr "আপনি আবর্জনার বাক্সে পাঠাবার জন্য কোন ফাইল বাছেননি।"
 
-#: ../kfile/kdiroperator.cpp:589
+#: ../kfile/kdiroperator.cpp:729
 msgid "Nothing to Trash"
 msgstr "আবর্জনার বাক্সে পাঠাবার মত কিছু নেই"
 
-#: ../kfile/kdiroperator.cpp:603
+#: ../kfile/kdiroperator.cpp:746
 #, qt-format
 msgid ""
 "<qt>Do you really want to trash\n"
@@ -5416,110 +5354,106 @@ msgstr ""
 "<qt>আপনি কি সত্যিই\n"
 " <b>'%1'</b> আবর্জনার বাক্সে পাঠাতে চান?</qt>"
 
-#: ../kfile/kdiroperator.cpp:605
+#: ../kfile/kdiroperator.cpp:748
 msgid "Trash File"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:606 ../kfile/kdiroperator.cpp:614
+#: ../kfile/kdiroperator.cpp:749 ../kfile/kdiroperator.cpp:756
 msgctxt "to trash"
 msgid "&Trash"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:611
+#: ../kfile/kdiroperator.cpp:753
 #, fuzzy, qt-format
 msgid "translators: not called for n == 1"
 msgid_plural "Do you really want to trash these %1 items?"
 msgstr[0] "translators: not called for n == 1"
 msgstr[1] "আপনি কি সত্যিই এই %1-টি জিনিস আবর্জনার বাক্সে পাঠাতে চান?"
 
-#: ../kfile/kdiroperator.cpp:613
+#: ../kfile/kdiroperator.cpp:755
 msgid "Trash Files"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:733 ../kfile/kdiroperator.cpp:802
+#: ../kfile/kdiroperator.cpp:877 ../kfile/kdiroperator.cpp:990
 msgid "The specified folder does not exist or was not readable."
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1012 ../kfile/kdiroperator.cpp:1440
-msgid "Short View"
-msgstr "সংক্ষিপ্ত ভিউ"
-
-#: ../kfile/kdiroperator.cpp:1363
+#: ../kfile/kdiroperator.cpp:1453
 msgid "Menu"
 msgstr "মেনু"
 
-#: ../kfile/kdiroperator.cpp:1367
+#: ../kfile/kdiroperator.cpp:1457
 msgid "Parent Folder"
 msgstr "উর্ধ্বস্থ ফোল্ডার"
 
-#: ../kfile/kdiroperator.cpp:1374
+#: ../kfile/kdiroperator.cpp:1464
 msgid "Home Folder"
 msgstr "ব্যক্তিগত ফোল্ডার"
 
-#: ../kfile/kdiroperator.cpp:1377
+#: ../kfile/kdiroperator.cpp:1467
 #, fuzzy
 msgid "Reload"
 msgstr "হ্যাঁ"
 
-#: ../kfile/kdiroperator.cpp:1390
+#: ../kfile/kdiroperator.cpp:1475
 msgid "Move to Trash"
 msgstr ""
 
-#: ../kfile/kdiroperator.cpp:1396
+#: ../kfile/kdiroperator.cpp:1481
 #, fuzzy
 msgid "Delete"
 msgstr "মুছে ফেলা হচ্ছে"
 
-#: ../kfile/kdiroperator.cpp:1403
+#: ../kfile/kdiroperator.cpp:1488
 msgid "Sorting"
 msgstr "ক্রমবিন্যাস"
 
-#: ../kfile/kdiroperator.cpp:1406
+#: ../kfile/kdiroperator.cpp:1491
 msgid "By Name"
 msgstr "নাম অনুসারে"
 
-#: ../kfile/kdiroperator.cpp:1410
-msgid "By Date"
-msgstr "তারিখ অনুসারে"
-
-#: ../kfile/kdiroperator.cpp:1414
+#: ../kfile/kdiroperator.cpp:1495
 msgid "By Size"
 msgstr "আয়তন অনুসারে"
 
-#: ../kfile/kdiroperator.cpp:1418
-msgid "Reverse"
-msgstr "বিপরীত"
+#: ../kfile/kdiroperator.cpp:1499
+msgid "By Date"
+msgstr "তারিখ অনুসারে"
 
-#: ../kfile/kdiroperator.cpp:1427
-msgid "Folders First"
-msgstr "প্রথমে ফোল্ডার"
+#: ../kfile/kdiroperator.cpp:1503
+#, fuzzy
+#| msgid "Type"
+msgid "By Type"
+msgstr "ধরন"
 
-#: ../kfile/kdiroperator.cpp:1431
-msgid "Case Insensitive"
-msgstr "Case Insensitive"
+#: ../kfile/kdiroperator.cpp:1507
+#, fuzzy
+#| msgid "Deleting"
+msgid "Descending"
+msgstr "মুছে ফেলা হচ্ছে"
 
-#: ../kfile/kdiroperator.cpp:1436
+#: ../kfile/kdiroperator.cpp:1517
+msgid "Short View"
+msgstr "সংক্ষিপ্ত ভিউ"
+
+#: ../kfile/kdiroperator.cpp:1531
+msgid "Show Hidden Files"
+msgstr "গুপ্ত ফাইল দেখাও"
+
+#: ../kfile/kdiroperator.cpp:1535
+msgid "Show Preview"
+msgstr "প্রাকদর্শন দেখাও"
+
+#: ../kfile/kdiroperator.cpp:1547
 #, fuzzy
 msgid "&View"
 msgstr "প্রাক&দর্শন"
 
-#: ../kfile/kdiroperator.cpp:1450
-msgid "Show Hidden Files"
-msgstr "গুপ্ত ফাইল দেখাও"
-
-#: ../kfile/kdiroperator.cpp:1454
-msgid "Separate Folders"
-msgstr "আলাদা ফোল্ডার"
-
-#: ../kfile/kdiroperator.cpp:1458
-msgid "Show Preview"
-msgstr "প্রাকদর্শন দেখাও"
-
-#: ../kfile/kurltogglebutton.cpp:77
+#: ../kfile/kurltogglebutton.cpp:76
 msgid "Click for Location Navigation"
 msgstr ""
 
-#: ../kfile/kurltogglebutton.cpp:79
+#: ../kfile/kurltogglebutton.cpp:78
 msgid "Click to Edit Location"
 msgstr ""
 
@@ -5545,6 +5479,73 @@ msgstr "&সম্পাদন করো..."
 msgid "Navigate"
 msgstr ""
 
+#~ msgid "&Automatic preview"
+#~ msgstr "স্বয়ংক্রীয় প্রাকদর্শ&ন"
+
+#~ msgid "&Preview"
+#~ msgstr "প্রাক&দর্শন"
+
+#, fuzzy
+#~ msgid "1 day 23:59:00"
+#~ msgstr "1 দিন %2"
+
+#, fuzzy
+#~ msgid "Select Mime Types"
+#~ msgstr "মাইম টাইপ"
+
+#, fuzzy
+#~ msgid "Source URL"
+#~ msgstr "উত্‍স:"
+
+#, fuzzy
+#~ msgid "Destination URL"
+#~ msgstr "গন্তব্য:"
+
+#, fuzzy
+#~| msgid "Preview"
+#~ msgid "previewtest"
+#~ msgstr "প্রাকদর্শন"
+
+#, fuzzy
+#~| msgid "Progress Dialog"
+#~ msgid "KIO Properties Dialog Test"
+#~ msgstr "অগ্রগতি ডায়ালগ"
+
+#, fuzzy
+#~| msgid "Speed"
+#~ msgid "SpeedApp"
+#~ msgstr "গতি"
+
+#~ msgid "Netscape Bookmarks"
+#~ msgstr "নেটস্কেপ বুকমার্ক"
+
+#, fuzzy
+#~| msgid "Cookie Alert"
+#~ msgid "kcookietest"
+#~ msgstr "কুকি সতর্কীকরণ"
+
+#~ msgid "Current location"
+#~ msgstr "বর্তমান অবস্থান"
+
+#, fuzzy
+#~ msgid "Configure"
+#~ msgstr "চালিয়ে যা&ও"
+
+#~ msgid "&URL:"
+#~ msgstr "ই&উ-আর-এল:"
+
+#~ msgid "Reverse"
+#~ msgstr "বিপরীত"
+
+#~ msgid "Folders First"
+#~ msgstr "প্রথমে ফোল্ডার"
+
+#~ msgid "Case Insensitive"
+#~ msgstr "Case Insensitive"
+
+#~ msgid "Separate Folders"
+#~ msgstr "আলাদা ফোল্ডার"
+
 #~ msgid "&Edit Entry..."
 #~ msgstr "এন্ট্রি &সম্পাদন করো..."
 
@@ -5561,9 +5562,6 @@ msgstr ""
 
 #~ msgid "%1 (Link)"
 #~ msgstr "%1 (লিঙ্ক)"
-
-#~ msgid "Hide Bookmarks"
-#~ msgstr "বুকমার্ক লুকোও"
 
 #~ msgid "Desktop"
 #~ msgstr "ডেস্কটপ"
@@ -5827,9 +5825,6 @@ msgstr ""
 #~ msgid "Show column headers"
 #~ msgstr "কলাম হেডার দেখাও"
 
-#~ msgid "Show toolbar"
-#~ msgstr "টুলবার দেখাও"
-
 #~ msgid "Show statusbar"
 #~ msgstr "স্ট্যাটাস বার দেখাও"
 
@@ -5845,9 +5840,6 @@ msgstr ""
 #~ msgid "Local Filename"
 #~ msgstr "স্থানীয় ফাইলের নাম"
 
-#~ msgid "Operation"
-#~ msgstr "প্রক্রিয়া"
-
 #~ msgid "%1 / %2"
 #~ msgstr "%1 / %2"
 
@@ -5856,9 +5848,6 @@ msgstr ""
 
 #~ msgid "Creating"
 #~ msgstr "তৈরি করা হচ্ছে"
-
-#~ msgid "Loading"
-#~ msgstr "লোড করা হচ্ছে"
 
 #~ msgid "Examining"
 #~ msgstr "পরীক্ষা করা হচ্ছে"
