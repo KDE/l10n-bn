@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-09-24 05:31+0200\n"
+"POT-Creation-Date: 2007-09-27 05:41+0200\n"
 "PO-Revision-Date: 2006-04-04 12:30+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -45,37 +45,57 @@ msgstr ""
 msgid "Connect to network game"
 msgstr "সার্ভারের সাথে সংযুক্ত হও"
 
-#: networkdialog.cpp:34
-#, fuzzy
+#. i18n: tag string
+#. i18n: file preferences.ui line 25
+#: networkdialog.cpp:50 rc.cpp:32
+#, fuzzy, no-c-format
 #| msgid "&Nick name:"
 msgid "&Nickname:"
 msgstr "ডা&কনাম:"
 
-#: networkdialog.cpp:47
+#: networkdialog.cpp:63
 msgid "&Hostname:"
 msgstr ""
 
-#: networkdialog.cpp:63
+#: networkdialog.cpp:79
 msgid "&Port:"
 msgstr "পোর্ট (&প):"
 
-#: playfield.cpp:67
+#: networkdialog.cpp:141
+#, fuzzy
+#| msgid "Connection refused by other host."
+msgid "Connecting to remote host..."
+msgstr "অপর হোস্ট কর্তৃক সংযোগের আবেদন প্রত্যাখ্যাত হয়েছে।"
+
+#: networkdialog.cpp:148
+#, fuzzy
+#| msgid "Waiting for an answer..."
+msgid "Waiting for an incoming connection..."
+msgstr "উত্তরের জন্য অপেক্ষা করা হচ্ছে..."
+
+#: networkdialog.cpp:169
+#, fuzzy
+#| msgid "Couldn't connect to server."
+msgid "Could not connect to host"
+msgstr "সার্ভারের সাথে সংযুক্ত হওয়া যায় নি।"
+
+#: playfield.cpp:69
 msgid "Shots"
 msgstr "নিক্ষিপ্ত গোলা"
 
-#: playfield.cpp:68
+#: playfield.cpp:70
 msgid "Hits"
 msgstr "সফল আঘাত"
 
-#: playfield.cpp:69
+#: playfield.cpp:71
 msgid "Misses"
 msgstr ""
 
-#: playfield.cpp:147
+#: playfield.cpp:149
 msgid "You win!"
 msgstr ""
 
-#: playfield.cpp:150
+#: playfield.cpp:152
 #, fuzzy
 #| msgid "You lost the game. :("
 msgid "You lose."
@@ -83,70 +103,72 @@ msgstr "আপনি হেরে গিয়েছেন :("
 
 #. i18n: tag label
 #. i18n: file kbattleship.kcfg line 9
-#: rc.cpp:3
+#: rc.cpp:4
+#, no-c-format
 msgid "Default hostname for multiplayer games."
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kbattleship.kcfg line 13
-#: rc.cpp:6
+#: rc.cpp:8
+#, no-c-format
 msgid "Default port for multiplayer games."
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file kbattleship.kcfg line 19
-#: rc.cpp:9
+#: rc.cpp:12
+#, no-c-format
 msgid "User nickname."
+msgstr ""
+
+#. i18n: tag label
+#. i18n: file kbattleship.kcfg line 22
+#: rc.cpp:16
+#, no-c-format
+msgid "Wheter sound effects should be played."
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file kbattleshipui.rc line 6
-#: rc.cpp:12
-#, fuzzy
+#: rc.cpp:20
+#, fuzzy, no-c-format
 msgid "&Game"
 msgstr "খেলার না&ম:"
 
 #. i18n: tag text
 #. i18n: file kbattleshipui.rc line 10
-#: rc.cpp:15
+#: rc.cpp:24
+#, no-c-format
 msgid "&Settings"
 msgstr ""
 
-#: rc.cpp:16
+#. i18n: tag string
+#. i18n: file preferences.ui line 16
+#: rc.cpp:28
+#, no-c-format
+msgid "Enable &sounds"
+msgstr ""
+
+#: rc.cpp:33
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "প্রজ্ঞা"
 
-#: rc.cpp:17
+#: rc.cpp:34
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "progga@BengaLinux.Org"
-
-#: kwelcomescreen/test.cpp:32
-msgid "KWelcomeScreenTest"
-msgstr ""
-
-#: kwelcomescreen/test.cpp:33
-msgid "Test class for KWelcomeScreen"
-msgstr ""
-
-#: kwelcomescreen/test.cpp:34
-msgid "(c) 2007, Riccardo Iaconelli"
-msgstr ""
-
-#: kwelcomescreen/test.cpp:35
-msgid "Riccardo Iaconelli"
-msgstr ""
-
-#: kwelcomescreen/test.cpp:41
-msgid "Fill in the fildes to speed up testing. Just for development purpose."
-msgstr ""
 
 #: controller.cpp:47
 #, fuzzy
 #| msgid "Computer Player"
 msgid "Computer"
 msgstr "কম্পিউটার নিয়ন্ত্রিত খেলোয়াড়"
+
+#: mainwindow.cpp:77
+msgid "Main page"
+msgstr ""
 
 #: playerentity.cpp:86
 #, fuzzy
@@ -292,9 +314,6 @@ msgstr ""
 #~ msgid "Do Not Ask"
 #~ msgstr "বলবে না"
 
-#~ msgid "Waiting for an answer..."
-#~ msgstr "উত্তরের জন্য অপেক্ষা করা হচ্ছে..."
-
 #~ msgid "Loading Start-Server dialog..."
 #~ msgstr "Start-Server ডায়ালগ লোড করা হচ্ছে..."
 
@@ -372,9 +391,6 @@ msgstr ""
 
 #~ msgid "You can shoot now."
 #~ msgstr "এখন আপনি গোলাবর্ষণ করতে পারেন।"
-
-#~ msgid "Connection refused by other host."
-#~ msgstr "অপর হোস্ট কর্তৃক সংযোগের আবেদন প্রত্যাখ্যাত হয়েছে।"
 
 #, fuzzy
 #~ msgid "Could not lookup host."
@@ -506,9 +522,6 @@ msgstr ""
 
 #~ msgid "S&ingle game"
 #~ msgstr "&একটিমাত্র খেলা"
-
-#~ msgid "Couldn't connect to server."
-#~ msgstr "সার্ভারের সাথে সংযুক্ত হওয়া যায় নি।"
 
 #~ msgid "Chat Widget"
 #~ msgstr "আড্ডা দেওয়ার উইজেট"
