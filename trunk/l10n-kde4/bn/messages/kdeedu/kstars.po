@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-06 05:41+0200\n"
+"POT-Creation-Date: 2007-10-07 05:52+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: colorscheme.cpp:262 colorscheme.cpp:280 indidriver.cpp:511
 #: indidriver.cpp:970 kstarsactions.cpp:582 locationdialog.cpp:245
-#: opscolors.cpp:192 skymap.cpp:1560 tools/modcalcaltaz.cpp:264
+#: opscolors.cpp:192 skymap.cpp:1570 tools/modcalcaltaz.cpp:264
 #: tools/modcalcangdist.cpp:143 tools/modcalcapcoord.cpp:166
 #: tools/modcalcdaylength.cpp:251 tools/modcalceclipticcoords.cpp:204
 #: tools/modcalcgalcoord.cpp:191 tools/modcalcgeodcoord.cpp:232
@@ -350,7 +350,7 @@ msgstr "ফাইলের নাম অবৈধ"
 
 #. i18n: tag string
 #. i18n: file tools/wutdialog.ui line 476
-#: detaildialog.cpp:71 rc.cpp:8330 skymap.cpp:543
+#: detaildialog.cpp:71 rc.cpp:8330 skymap.cpp:545
 #, no-c-format
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
@@ -1302,7 +1302,7 @@ msgstr "অস্তের কোন সময় নেই: মেরু পরি
 msgid "No set time: Never rises"
 msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kstars.cpp:152 kstarsactions.cpp:700 skymap.cpp:298
+#: kstars.cpp:152 kstarsactions.cpp:700 skymap.cpp:300
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
@@ -20386,13 +20386,13 @@ msgstr "আরেকটি চেষ্টা করো"
 msgid "Do Not Try"
 msgstr "চেষ্টা করবে না"
 
-#: kstarsactions.cpp:554 kstarsdcop.cpp:460 streamwg.cpp:195
+#: kstarsactions.cpp:554 kstarsdcop.cpp:464 streamwg.cpp:195
 #: tools/scriptbuilder.cpp:1002
 #, qt-format
 msgid "Could not upload image to remote location: %1"
 msgstr "দূরবর্তী অবস্থানে ছবি আপলোড করা যায় নি: %1"
 
-#: kstarsactions.cpp:555 kstarsdcop.cpp:461 streamwg.cpp:196
+#: kstarsactions.cpp:555 kstarsdcop.cpp:465 streamwg.cpp:196
 #: tools/scriptbuilder.cpp:1003
 msgid "Could not upload file"
 msgstr "ফাইল আপলোড করা যায় নি"
@@ -20683,56 +20683,56 @@ msgstr "সময় নির্ধারণ করা যায় নি: %1 / %2 /
 msgid "Could not set location named %1, %2, %3"
 msgstr " %1, %2 ও %3 নামের অবস্থান নির্দিষ্ট করা যায় নি"
 
-#: kstarsdcop.cpp:120
+#: kstarsdcop.cpp:124
 msgid "Error [DCOP waitForKey()]: Invalid key requested."
 msgstr "সমস্যা [DCOP waitForKey()]: ভুল কী (key) আবেদন করা হয়েছে।"
 
-#: kstarsdcop.cpp:180 kstarsdcop.cpp:183
+#: kstarsdcop.cpp:184 kstarsdcop.cpp:187
 msgid "Error [DCOP setGeoLocation]: city "
 msgstr "সমস্যা [DCOP setGeoLocation]: নগর "
 
-#: kstarsdcop.cpp:181 kstarsdcop.cpp:184
+#: kstarsdcop.cpp:185 kstarsdcop.cpp:188
 msgid " not found in database."
 msgstr "ডেটাবেসে পাওয়া যায় নি।"
 
-#: kstarsdcop.cpp:353 opscolors.cpp:55 tools/scriptbuilder.cpp:863
+#: kstarsdcop.cpp:357 opscolors.cpp:55 tools/scriptbuilder.cpp:863
 msgctxt "use default color scheme"
 msgid "Default Colors"
 msgstr "ডিফল্ট রং"
 
-#: kstarsdcop.cpp:354 opscolors.cpp:56 tools/scriptbuilder.cpp:864
+#: kstarsdcop.cpp:358 opscolors.cpp:56 tools/scriptbuilder.cpp:864
 msgctxt "use 'star chart' color scheme"
 msgid "Star Chart"
 msgstr "তারা মানচিত্র"
 
-#: kstarsdcop.cpp:355 opscolors.cpp:57 tools/scriptbuilder.cpp:865
+#: kstarsdcop.cpp:359 opscolors.cpp:57 tools/scriptbuilder.cpp:865
 msgctxt "use 'night vision' color scheme"
 msgid "Night Vision"
 msgstr "নৈশ দৃষ্টি"
 
-#: kstarsdcop.cpp:372
+#: kstarsdcop.cpp:376
 #, qt-format
 msgid "Unable to load color scheme named %1. Also tried %2."
 msgstr "%1 নামক রং বিন্যাস লোড করা যায় নি।  %2-কেও লোড করার চেষ্টা করা হয়েছে।"
 
-#: kstarsdcop.cpp:422 main.cpp:82
+#: kstarsdcop.cpp:426 main.cpp:83
 #, qt-format
 msgid "Could not parse image format of %1; assuming PNG."
 msgstr ""
 "%1-এর ছবির বিন্যাস (format) পার্স (parse) করা যায় নি; ধরে নেওয়া হচ্ছে যে, এটি "
 "একটি পি.এন.জি. ছবি।"
 
-#: kstarsdcop.cpp:455
+#: kstarsdcop.cpp:459
 #, qt-format
 msgid "Error: Unable to save image: %1 "
 msgstr "সমস্যা: এই ছবিটি সংরক্ষণ করা যায় নি: %1"
 
-#: kstarsdcop.cpp:456
+#: kstarsdcop.cpp:460
 #, qt-format
 msgid "Image saved to file: %1"
 msgstr "ছবিটি এই ফাইলে সংরক্ষণ করা হয়েছে: %1"
 
-#: kstarsdcop.cpp:475
+#: kstarsdcop.cpp:484
 msgid "Print Sky"
 msgstr "আকাশের ছবি ছাপাও"
 
@@ -21133,7 +21133,7 @@ msgstr "১.৩ সেন্টিমিটারে ৩০ মিটার"
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:650 skymap.cpp:175 skymap.cpp:261 skymapevents.cpp:393
+#: kstarsinit.cpp:650 skymap.cpp:177 skymap.cpp:263 skymapevents.cpp:393
 #: skymapevents.cpp:522 skymapevents.cpp:608
 msgid "nothing"
 msgstr "কিছু না"
@@ -21396,97 +21396,104 @@ msgid "Jason Harris"
 msgstr ""
 
 #: main.cpp:49
-msgid "Heiko Evermann"
+msgid "Jasem Mutlaq"
 msgstr ""
 
 #: main.cpp:50
 #, fuzzy
-#| msgid "Compass Labels"
-msgid "Thomas Kabelmann"
-msgstr "কম্পাসের লেবেল"
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Jamestown"
+msgid "James Bowlin"
+msgstr "জেমসটাউন"
 
 #: main.cpp:51
 msgid "Pablo de Vicente"
 msgstr ""
 
 #: main.cpp:52
-msgid "Jasem Mutlaq"
-msgstr ""
+#, fuzzy
+#| msgid "Compass Labels"
+msgid "Thomas Kabelmann"
+msgstr "কম্পাসের লেবেল"
 
 #: main.cpp:53
-msgid "Carsten Niehaus"
+msgid "Heiko Evermann"
 msgstr ""
 
 #: main.cpp:54
+msgid "Carsten Niehaus"
+msgstr ""
+
+#: main.cpp:55
 msgid "Mark Hollomon"
 msgstr ""
 
-#: main.cpp:58
+#: main.cpp:59
 msgid "Dump sky image to file"
 msgstr "আকাশচিত্রকে ফাইলে সংরক্ষণ করো"
 
-#: main.cpp:59
+#: main.cpp:60
 msgid "Script to execute"
 msgstr "যে স্ক্রিপ্ট চালানো হবে"
 
-#: main.cpp:60
+#: main.cpp:61
 msgid "Width of sky image"
 msgstr "আকাশচিত্রের প্রস্থ"
 
-#: main.cpp:61
+#: main.cpp:62
 msgid "Height of sky image"
 msgstr "আকাশচিত্রের উচ্চতা"
 
-#: main.cpp:62
+#: main.cpp:63
 msgid "Filename for sky image"
 msgstr "আকাশচিত্রের ফাইল-নাম"
 
 #. i18n: tag string
 #. i18n: file tools/modcalcjd.ui line 117
-#: main.cpp:63 rc.cpp:7141
+#: main.cpp:64 rc.cpp:7141
 #, no-c-format
 msgid "Date and time"
 msgstr "তারিখ ও সময়"
 
-#: main.cpp:64
+#: main.cpp:65
 msgid "Start with clock paused"
 msgstr "ঘড়ি স্থগিত অবস্থায় আরম্ভ করো"
 
-#: main.cpp:71
+#: main.cpp:72
 msgid "Dumping sky image"
 msgstr "আকাশচিত্র সংরক্ষণ করা হচ্ছে"
 
-#: main.cpp:124
+#: main.cpp:125
 msgid "Could not parse Date/Time string: "
 msgstr "এই তারিখ/সময় পঙ্‌ক্তি পার্স (parse) করা যায় নি: "
 
-#: main.cpp:125
+#: main.cpp:126
 msgid "Valid date formats: "
 msgstr "তারিখের সঠিক বিন্যাস: "
 
-#: main.cpp:129
+#: main.cpp:130
 msgid "Using CPU date/time instead."
 msgstr "এর পরিবর্তে এখন সি.পি.ইউ.-এর তারিখ/সময় ব্যবহার করা হচ্ছে।"
 
-#: main.cpp:154
+#: main.cpp:155
 msgid "Script executed."
 msgstr "স্ক্রিপ্ট চালানো হয়েছে।"
 
-#: main.cpp:156
+#: main.cpp:157
 msgid "Could not execute script."
 msgstr "স্ক্রিপ্ট চালানো যায় নি।"
 
-#: main.cpp:168
+#: main.cpp:169
 #, qt-format
 msgid "Unable to save image: %1 "
 msgstr "এই ছবিটি সংরক্ষণ করা যাচ্ছে না: %1"
 
-#: main.cpp:169
+#: main.cpp:170
 #, qt-format
 msgid "Saved to file: %1"
 msgstr "এই ফাইলে সংরক্ষণ করা হয়েছে: %1"
 
-#: main.cpp:181
+#: main.cpp:182
 #, qt-format
 msgid "Specified date (%1) is invalid.  Will use current CPU date instead."
 msgstr ""
@@ -31545,46 +31552,46 @@ msgstr ""
 msgid "SkyLine index error: no such segment: %1"
 msgstr ""
 
-#: skymap.cpp:280
+#: skymap.cpp:282
 msgid "Requested Position Below Horizon"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিত"
 
-#: skymap.cpp:281
+#: skymap.cpp:283
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিতআপনি কি তবুও সেখানে যেতে চান?"
 
-#: skymap.cpp:283
+#: skymap.cpp:285
 msgid "Go Anyway"
 msgstr "তবুও যাও"
 
 # FIXME
-#: skymap.cpp:283
+#: skymap.cpp:285
 msgid "Keep Position"
 msgstr "অবস্থান ঠিক রাখো"
 
-#: skymap.cpp:373 skymap.cpp:417
+#: skymap.cpp:375 skymap.cpp:419
 #, fuzzy
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
 "[public domain]."
 msgstr "স্পেস টেলিস্কোপ সাইন্স ইনস্টিটিউট কর্তৃক প্রস্তুতকৃত ডিজিটাল আকাশ জরিপ চিত্র।"
 
-#: skymap.cpp:447
+#: skymap.cpp:449
 #, fuzzy, qt-format
 msgid "Angular distance: %1"
 msgstr "কৌণিক দূরত্ব: "
 
-#: skymap.cpp:543
+#: skymap.cpp:545
 msgid "No object selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
 
-#: skymap.cpp:842 skymap.cpp:960 skymap.cpp:1321
+#: skymap.cpp:844 skymap.cpp:962 skymap.cpp:1331
 msgid "Unrecognized coordinate projection: "
 msgstr ""
 
-#: skymap.cpp:1559
+#: skymap.cpp:1569
 msgid ""
 "Custom image-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -31592,7 +31599,7 @@ msgstr ""
 "স্বনির্বাচিত ছবির-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1577
+#: skymap.cpp:1587
 msgid ""
 "Custom information-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -31600,7 +31607,7 @@ msgstr ""
 "স্বনির্বাচিত তথ্য-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1577
+#: skymap.cpp:1587
 msgid "Could not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
