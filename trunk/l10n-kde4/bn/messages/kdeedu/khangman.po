@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khangman\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-10-17 05:40+0200\n"
+"POT-Creation-Date: 2007-10-21 05:48+0200\n"
 "PO-Revision-Date: 2006-04-24 01:25-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -28,15 +28,15 @@ msgstr ""
 msgid "G&uess"
 msgstr "&অনুমান"
 
-#: khangmanview.cpp:360
+#: khangmanview.cpp:342
 msgid "Misses"
 msgstr "ভুল অক্ষর"
 
-#: khangmanview.cpp:389
+#: khangmanview.cpp:371
 msgid "Hint"
 msgstr "ইঙ্গিত"
 
-#: khangmanview.cpp:417
+#: khangmanview.cpp:399
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>You lost!\n"
@@ -48,7 +48,7 @@ msgstr ""
 "শব্দটি ছিল\n"
 "<b>%1</b></qt>"
 
-#: khangmanview.cpp:417
+#: khangmanview.cpp:399
 #, fuzzy
 #| msgid ""
 #| "Congratulations,\n"
@@ -58,11 +58,11 @@ msgstr ""
 "অভিনন্দন,\n"
 "আপনি জয়ী হয়েছেন!"
 
-#: khangmanview.cpp:545
+#: khangmanview.cpp:527
 msgid "This letter has already been guessed."
 msgstr "এই অক্ষরটি ইতিমধ্যেই অনুমান করা হয়েছে।"
 
-#: khangmanview.cpp:629
+#: khangmanview.cpp:611
 #, kde-format
 msgid ""
 "File $KDEDIR/share/apps/khangman/data/%1/%2 not found!\n"
@@ -71,16 +71,16 @@ msgstr ""
 "$KDEDIR/share/apps/khangman/data/%1/%2 নামক ফাইলটি পাওয়া যায় নি!\n"
 "অনুগ্রহপূর্বক ইনস্টলকৃত ফাইলগুলো পরীক্ষা করুন!"
 
-#: khangmanview.cpp:633 khangman.cpp:414
+#: khangmanview.cpp:615 khangman.cpp:414
 msgid "Error"
 msgstr ""
 
-#: khangmanview.cpp:773
+#: khangmanview.cpp:755
 #, kde-format
 msgid "Wins: %1"
 msgstr ""
 
-#: khangmanview.cpp:774 khangman.cpp:532
+#: khangmanview.cpp:756 khangman.cpp:532
 #, kde-format
 msgid "Losses: %1"
 msgstr ""
@@ -373,7 +373,7 @@ msgstr ""
 #. i18n: file advanced.ui line 39
 #. i18n: tag string
 #. i18n: file languageui.ui line 19
-#: rc.cpp:3 rc.cpp:110
+#: rc.cpp:3 rc.cpp:111
 msgid "Spanish, Portuguese, Catalan"
 msgstr "স্পেনিয়, পর্তুগিজ, ক্যাটালানিয়"
 
@@ -391,7 +391,7 @@ msgstr "জোরপ্রদানে উচ্চারণকৃত &অক্
 #. i18n: file advanced.ui line 54
 #. i18n: tag string
 #. i18n: file languageui.ui line 25
-#: rc.cpp:9 rc.cpp:113
+#: rc.cpp:9 rc.cpp:114
 #, fuzzy
 #| msgid ""
 #| "If this is checked, you must type accented letters yourself (i.e. they "
@@ -411,7 +411,7 @@ msgstr ""
 #. i18n: file advanced.ui line 58
 #. i18n: tag string
 #. i18n: file languageui.ui line 29
-#: rc.cpp:12 rc.cpp:116
+#: rc.cpp:12 rc.cpp:117
 #, fuzzy
 #| msgid ""
 #| "If this is <b>disabled</b>, then the selected language does not support "
@@ -551,79 +551,73 @@ msgstr "শব্দ"
 #. i18n: tag string
 #. i18n: file generalui.ui line 50
 #: rc.cpp:50
-msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\">If checked, sounds will be played for New Game "
-"and Win Game</p></body></html>"
+#, fuzzy
+msgid "If checked, sounds will be played for New Game and Win Game"
 msgstr ""
+"এটিতে টিক দেওয়া থাকলে নতুন খেলা আরম্ভের সময় এবং খেলায় জয়ী হলে শব্দ বাজানো হবে"
 
 #. i18n: tag string
-#. i18n: file generalui.ui line 53
+#. i18n: file generalui.ui line 54
 #: rc.cpp:53
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\">If this box is checked, you will have some "
-"sounds played for each new game and when you win a game. If this is not "
-"checked, there will be no sound in KHangMan.</p><p style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\">Default is no sound.</p></body></html>"
+"If this box is checked, you will have some sounds played for each new game "
+"and when you win a game. If this is not checked, there will be no sound in "
+"KHangMan.\n"
+"Default is no sound."
 msgstr ""
+"এই বাক্সে টিক দেওয়া থাকলে নতুন খেলা আরম্ভের সময় এবং আপনি খেলায় জয়ী হলে কিছু শব্দ "
+"বাজানো হবে।  আর এটিতে টিক দেওয়া না থাকলে কে-হ্যাংম্যান হবে সম্পূর্ণ নিঃশব্দ।\n"
+"স্বাভাবিক অবস্থায় কোন শব্দ বাজানো হয় না।"
 
 #. i18n: tag string
-#. i18n: file generalui.ui line 56
-#: rc.cpp:56
+#. i18n: file generalui.ui line 57
+#: rc.cpp:57
 #, fuzzy
 msgid "Enable sounds"
 msgstr "&শব্দ সক্রিয় করো"
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 10
-#: rc.cpp:59
+#: rc.cpp:60
 #, fuzzy
 msgid "Level"
 msgstr "স্ত&র"
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 17
-#: rc.cpp:62
+#: rc.cpp:63
 #, fuzzy
 msgid "Show the characters toolbar"
 msgstr "অক্ষর প্রদর্শক টুলবারের আইকন তৈরির কোড"
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 21
-#: rc.cpp:65
+#: rc.cpp:66
 msgid "The language selected by the user"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 37
-#: rc.cpp:68
+#: rc.cpp:69
 msgid "Background theme"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 48
-#: rc.cpp:71
+#: rc.cpp:72
 msgid "Allow Only One Instance of Each Letter to be replaced in the word"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 52
-#: rc.cpp:74
+#: rc.cpp:75
 #, fuzzy
 msgid "Enable Animations"
 msgstr "&শব্দ সক্রিয় করো"
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 56
-#: rc.cpp:77
+#: rc.cpp:78
 #, fuzzy
 msgid "Enable Sounds on New Game and Win Game"
 msgstr ""
@@ -631,56 +625,56 @@ msgstr ""
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 60
-#: rc.cpp:80
+#: rc.cpp:81
 msgid "the time to display the Missed KPassivePopup, in seconds"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 67
-#: rc.cpp:83
+#: rc.cpp:84
 msgid "Type accented letters separately from normal letters"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file khangman.kcfg line 74
-#: rc.cpp:86
+#: rc.cpp:87
 msgid "The Providers path for KHangMan"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file khangmanui.rc line 5
-#: rc.cpp:89
+#: rc.cpp:90
 msgid "&Game"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file khangmanui.rc line 18
-#: rc.cpp:92
+#: rc.cpp:93
 msgid "&Settings"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file khangmanui.rc line 29
-#: rc.cpp:95
+#: rc.cpp:96
 msgid "Main"
 msgstr "প্রধান"
 
 #. i18n: tag text
 #. i18n: file khangmanui.rc line 37
-#: rc.cpp:98
+#: rc.cpp:99
 msgid "Special Characters"
 msgstr "বিশেষ অক্ষর"
 
 #. i18n: tag text
 #. i18n: file khangmanui.rc line 40
-#: rc.cpp:101
+#: rc.cpp:102
 #, fuzzy
 msgid "Theme"
 msgstr "সামুদ্রিক থিম (&স)"
 
 #. i18n: tag text
 #. i18n: file khangmanui.rc line 44
-#: rc.cpp:104
+#: rc.cpp:105
 #, fuzzy
 #| msgid "&Language"
 msgid "Language"
@@ -688,19 +682,19 @@ msgstr "ভাষা (&ভ)"
 
 #. i18n: tag string
 #. i18n: file languageui.ui line 13
-#: rc.cpp:107
+#: rc.cpp:108
 msgid "Here you can choose special settings for some languages."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file languageui.ui line 32
-#: rc.cpp:120 khangman.cpp:522
+#: rc.cpp:121 khangman.cpp:522
 msgid "Type accented letters"
 msgstr "জোরপ্রদানে উচ্চারণকৃত অক্ষর (accented) লিখুন"
 
 #. i18n: tag string
 #. i18n: file timerui.ui line 16
-#: rc.cpp:123
+#: rc.cpp:124
 #, fuzzy
 msgid ""
 "Here you can set the display times for hints and the \"Already Guessed\" "
@@ -709,13 +703,13 @@ msgstr "ইতিপূর্বেই অনুমানকৃত অক্ষ�
 
 #. i18n: tag string
 #. i18n: file timerui.ui line 19
-#: rc.cpp:126 khangman.cpp:353
+#: rc.cpp:127 khangman.cpp:353
 msgid "Timers"
 msgstr "সময়রক্ষক"
 
 #. i18n: tag string
 #. i18n: file timerui.ui line 34
-#: rc.cpp:129
+#: rc.cpp:130
 #, fuzzy
 msgid ""
 "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
@@ -732,47 +726,36 @@ msgstr ""
 
 #. i18n: tag string
 #. i18n: file timerui.ui line 41
-#: rc.cpp:132
+#: rc.cpp:133
 #, fuzzy
-msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\">Time during which the \"Already Guessed\" "
-"tooltip is displayed.</p></body></html>"
-msgstr ""
-"পূর্বে অনুমানকৃত অক্ষর পুনরায় লেখা হলে যে 'ইতিপূর্বেই অনুমানকৃত' নামক টুলটিপ দেখানো "
-"হবে, তা প্রদর্শনের সময়সীমা আপনি নির্ধারণ করতে পারেন।  এই সময়সীমার ডিফল্ট মান ৩ "
-"সেকেন্ড হলেও ছোট শিশুদের হয়তো এটি বুঝতে অপেক্ষাকৃত বেশি সময় লাগতে পারে যে তারা "
-"এমন একটি অক্ষর দিয়ে চেষ্টা করছে যা পূর্বেই অনুমান করা হয়ে গিয়েছে।"
+#| msgid "Time during which the Already Guessed tooltip is displayed"
+msgid "Time during which the \"Already Guessed\" tooltip is displayed."
+msgstr "'ইতিপূর্বেই অনুমানকৃত' নামক টুলটিপ প্রদর্শনের সময়সীমা"
 
 #. i18n: tag string
 #. i18n: file timerui.ui line 44
-#: rc.cpp:135
-#, fuzzy
-msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\">You can set the time for displaying the "
-"\"Already Guessed\" tooltip after you tried a letter that was already "
-"guessed. Default is 1 second but younger children might need longer time to "
-"be able to understand they are trying a letter that was already guessed.</"
-"p></body></html>"
-msgstr ""
-"পূর্বে অনুমানকৃত অক্ষর পুনরায় লেখা হলে যে 'ইতিপূর্বেই অনুমানকৃত' নামক টুলটিপ দেখানো "
-"হবে, তা প্রদর্শনের সময়সীমা আপনি নির্ধারণ করতে পারেন।  এই সময়সীমার ডিফল্ট মান ৩ "
-"সেকেন্ড হলেও ছোট শিশুদের হয়তো এটি বুঝতে অপেক্ষাকৃত বেশি সময় লাগতে পারে যে তারা "
-"এমন একটি অক্ষর দিয়ে চেষ্টা করছে যা পূর্বেই অনুমান করা হয়ে গিয়েছে।"
-
 #: rc.cpp:136
+#, fuzzy
+#| msgid ""
+#| "You can set the time for displaying the Hint tooltip. Default is 3 "
+#| "seconds but younger children might need longer time to be able to read "
+#| "the Hint."
+msgid ""
+"You can set the time for displaying the \"Already Guessed\" tooltip after "
+"you tried a letter that was already guessed. Default is 1 second but younger "
+"children might need longer time to be able to understand they are trying a "
+"letter that was already guessed."
+msgstr ""
+"আপনি ইঙ্গিত নির্দেশক টুলটিপ প্রদর্শনের সময়সীমা নির্ধারণ করতে পারেন।  এই সময়সীমার "
+"ডিফল্ট মান হল ৩ সেকেন্ড, তবে ছোট শিশুদের সুবিধার কথা চিন্তা করে এর মান বৃদ্ধি করতে "
+"পারেন।"
+
+#: rc.cpp:137
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "প্রজ্ঞা"
 
-#: rc.cpp:137
+#: rc.cpp:138
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "progga@BengaLinux.Org"
@@ -859,6 +842,37 @@ msgstr "সামুদ্রিক থিম (&স)"
 #, fuzzy
 msgid "Desert Theme"
 msgstr "মরুময় থিম (&ম)"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">Time during which the \"Already Guessed\" "
+#~ "tooltip is displayed.</p></body></html>"
+#~ msgstr ""
+#~ "পূর্বে অনুমানকৃত অক্ষর পুনরায় লেখা হলে যে 'ইতিপূর্বেই অনুমানকৃত' নামক টুলটিপ দেখানো "
+#~ "হবে, তা প্রদর্শনের সময়সীমা আপনি নির্ধারণ করতে পারেন।  এই সময়সীমার ডিফল্ট মান "
+#~ "৩ সেকেন্ড হলেও ছোট শিশুদের হয়তো এটি বুঝতে অপেক্ষাকৃত বেশি সময় লাগতে পারে যে "
+#~ "তারা এমন একটি অক্ষর দিয়ে চেষ্টা করছে যা পূর্বেই অনুমান করা হয়ে গিয়েছে।"
+
+#, fuzzy
+#~ msgid ""
+#~ "<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style="
+#~ "\" white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
+#~ "weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
+#~ "top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
+#~ "indent:0; text-indent:0px;\">You can set the time for displaying the "
+#~ "\"Already Guessed\" tooltip after you tried a letter that was already "
+#~ "guessed. Default is 1 second but younger children might need longer time "
+#~ "to be able to understand they are trying a letter that was already "
+#~ "guessed.</p></body></html>"
+#~ msgstr ""
+#~ "পূর্বে অনুমানকৃত অক্ষর পুনরায় লেখা হলে যে 'ইতিপূর্বেই অনুমানকৃত' নামক টুলটিপ দেখানো "
+#~ "হবে, তা প্রদর্শনের সময়সীমা আপনি নির্ধারণ করতে পারেন।  এই সময়সীমার ডিফল্ট মান "
+#~ "৩ সেকেন্ড হলেও ছোট শিশুদের হয়তো এটি বুঝতে অপেক্ষাকৃত বেশি সময় লাগতে পারে যে "
+#~ "তারা এমন একটি অক্ষর দিয়ে চেষ্টা করছে যা পূর্বেই অনুমান করা হয়ে গিয়েছে।"
 
 #~ msgid "Congratulations! You won! Do you want to play again?"
 #~ msgstr "অভিনন্দন! আপনি জয়ী হয়েছেন! আপনি কি আবারো খেলতে আগ্রহী?"
@@ -1047,34 +1061,11 @@ msgstr "মরুময় থিম (&ম)"
 #~ msgid "First letter upper case"
 #~ msgstr "প্রথম অক্ষর বড় ছাঁদের"
 
-#~ msgid ""
-#~ "If this box is checked, you will have some sounds played for each new "
-#~ "game and when you win a game. If this is not checked, there will be no "
-#~ "sound in KHangMan.\n"
-#~ "Default is no sound."
-#~ msgstr ""
-#~ "এই বাক্সে টিক দেওয়া থাকলে নতুন খেলা আরম্ভের সময় এবং আপনি খেলায় জয়ী হলে কিছু "
-#~ "শব্দ বাজানো হবে।  আর এটিতে টিক দেওয়া না থাকলে কে-হ্যাংম্যান হবে সম্পূর্ণ "
-#~ "নিঃশব্দ।\n"
-#~ "স্বাভাবিক অবস্থায় কোন শব্দ বাজানো হয় না।"
-
 #~ msgid "Time during which the Hint is displayed"
 #~ msgstr "যে সময় যাবৎ ইঙ্গিত প্রদর্শন করা হবে"
 
-#~ msgid ""
-#~ "You can set the time for displaying the Hint tooltip. Default is 3 "
-#~ "seconds but younger children might need longer time to be able to read "
-#~ "the Hint."
-#~ msgstr ""
-#~ "আপনি ইঙ্গিত নির্দেশক টুলটিপ প্রদর্শনের সময়সীমা নির্ধারণ করতে পারেন।  এই "
-#~ "সময়সীমার ডিফল্ট মান হল ৩ সেকেন্ড, তবে ছোট শিশুদের সুবিধার কথা চিন্তা করে এর "
-#~ "মান বৃদ্ধি করতে পারেন।"
-
 #~ msgid "Set the time for displaying the hint:"
 #~ msgstr "ইঙ্গিত প্রদর্শনের সময়সীমা নির্ধারণ করুন:"
-
-#~ msgid "Time during which the Already Guessed tooltip is displayed"
-#~ msgstr "'ইতিপূর্বেই অনুমানকৃত' নামক টুলটিপ প্রদর্শনের সময়সীমা"
 
 #~ msgid "&New"
 #~ msgstr "&নতুন"
