@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
-"POT-Creation-Date: 2007-08-28 01:15+0200\n"
+"POT-Creation-Date: 2007-11-21 01:17+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -138,7 +138,7 @@ msgstr ""
 msgid "Help on custom catalog file format"
 msgstr "স্বনির্বাচিত ক্যাটালগ ফাইলের বিন্যাস সংক্রান্ত সাহায্য"
 
-#: addcatdialog.cpp:145 customcatalog.cpp:22 kstarsdata.cpp:1493
+#: addcatdialog.cpp:145 customcatalog.cpp:22 kstarsdata.cpp:1498
 msgid "Custom"
 msgstr "স্বনির্বাচিত"
 
@@ -402,8 +402,9 @@ msgstr "সাধারণ"
 
 #: detaildialog.cpp:137 kspopupmenu.cpp:55 kspopupmenu.cpp:237
 #: kstarsdata.cpp:128 kstarsinit.cpp:526 kstarsinit.cpp:542
-#: skymapdraw.cpp:1226 starobject.cpp:243 tools/observinglist.cpp:186
-#: tools/observinglist.cpp:232 tools/observinglist.cpp:271
+#: skymapdraw.cpp:1226 skymapdraw.cpp:1394 starobject.cpp:243
+#: tools/observinglist.cpp:186 tools/observinglist.cpp:232
+#: tools/observinglist.cpp:271
 msgid "star"
 msgstr "তারা"
 
@@ -1028,25 +1029,20 @@ msgstr ""
 msgid "Invalid range for element %1. Valid range is from %2 to %3"
 msgstr "%1-এর সীমা অবৈধ।  বৈধ সীমা %2 থেকে %3-এর মধ্যে অবস্থিত"
 
-# FIXME: Crosshair = ?
-#: indiproperty.cpp:220 kspopupmenu.cpp:213
-msgid "Center && Track Crosshair"
-msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অনুসরণ করো"
-
-#: indiproperty.cpp:344
+#: indiproperty.cpp:347
 msgid "Cannot open file %1 for reading"
 msgstr "পড়ার জন্য %1 ফাইলকে খোলা যাচ্ছে না"
 
-#: indiproperty.cpp:354
+#: indiproperty.cpp:357
 #, c-format
 msgid "Not enough memory to load %1"
 msgstr "%1-কে লোড করার জন্য পর্যাপ্ত মেমরি নেই"
 
-#: indiproperty.cpp:366
+#: indiproperty.cpp:369
 msgid "Not enough memory to convert file %1 to base64"
 msgstr "%1 ফাইলকে base64 ফরম্যাটে রূপান্তর করার জন্য পর্যাপ্ত মেমরি নেই"
 
-#: indiproperty.cpp:899
+#: indiproperty.cpp:902
 msgid "Upload"
 msgstr "আপলোড"
 
@@ -1277,6 +1273,11 @@ msgstr "বর্ণালীর ধরন: %1"
 #, no-c-format
 msgid "Add Link..."
 msgstr "লিঙ্ক যোগ করো..."
+
+# FIXME: Crosshair = ?
+#: kspopupmenu.cpp:213
+msgid "Center && Track Crosshair"
+msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অনুসরণ করো"
 
 #: kspopupmenu.cpp:269
 msgid "Rise time: 00:00"
@@ -22287,7 +22288,7 @@ msgstr "ফাইল ডাউনলোড করা যায় নি।"
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:531 kstarsdata.cpp:2328 tools/observinglist.cpp:530
+#: kstarsactions.cpp:531 kstarsdata.cpp:2334 tools/observinglist.cpp:530
 #, c-format
 msgid "Could not open file %1"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি"
@@ -22416,11 +22417,11 @@ msgstr "সীমানা অংশ (segment) পার্স করার প�
 msgid "Bad Constellation Boundary data."
 msgstr "তারামণ্ডলের সীমানা বিষয়ক তথ্য ভুল।"
 
-#: kstarsdata.cpp:587 kstarsdata.cpp:1837
+#: kstarsdata.cpp:587 kstarsdata.cpp:1842
 msgid "Loading Star Data (%1%)"
 msgstr "তারা সংক্তান্ত তথ্য লোড করা হচ্ছে (%1 শতাংশ) "
 
-#: kstarsdata.cpp:791 kstarsdata.cpp:1848
+#: kstarsdata.cpp:791 kstarsdata.cpp:1853
 msgid "Loading NGC/IC Data (%1%)"
 msgstr "এন.জি.সি./আই.সি. তথ্য লোড করা হচ্ছে (%1 শতাংশ)"
 
@@ -22442,162 +22443,162 @@ msgstr ""
 "ডিফল্ট ইউ.আর.এল. ফাইলকে লোকাল (locale) ফোল্ডারে কপি করা যায় নি, ফলে বস্তুর "
 "ডিফল্ট লিঙ্ক সম্পাদন করা সম্ভব নয়"
 
-#: kstarsdata.cpp:1140
+#: kstarsdata.cpp:1145
 #, c-format
 msgid "Error adding catalog: %1"
 msgstr "এই ক্যাটালগটি যোগ করতে সমস্যা হয়েছে: %1"
 
-#: kstarsdata.cpp:1218
+#: kstarsdata.cpp:1223
 msgid "Line %1 does not contain %2 fields.  Skipping it."
 msgstr "%1 লাইনে %2 ঘরটি নেই।  এটিকে এড়িয়ে যাচ্ছি।"
 
-#: kstarsdata.cpp:1225
+#: kstarsdata.cpp:1230
 msgid ""
 "Some lines in the custom catalog could not be parsed; see error messages below."
 msgstr ""
 "স্বনির্বাচিত ক্যাটালগের কিছু লাইন পার্স করা যায় নি; নিচের সমস্যাসূচক বার্তা "
 "দেখুন।"
 
-#: kstarsdata.cpp:1226
+#: kstarsdata.cpp:1231
 msgid "To reject the file, press Cancel. "
 msgstr "ফাইলটি প্রত্যাখ্যান করার জন্য 'বাতিল' চাপুন। "
 
-#: kstarsdata.cpp:1227
+#: kstarsdata.cpp:1232
 msgid "To accept the file (ignoring unparsed lines), press Accept."
 msgstr ""
 "ফাইলটি (পার্স না করতে পারা লাইনগুলো অগ্রাহ্য করে) অনুমোদন করার জন্য 'অনুমোদন' "
 "চাপুন।"
 
-#: kstarsdata.cpp:1229
+#: kstarsdata.cpp:1234
 msgid "Some Lines in File Were Invalid"
 msgstr "ফাইলের কিছু সংখ্যক লাইনে সমস্যা রয়েছে"
 
-#: kstarsdata.cpp:1229
+#: kstarsdata.cpp:1234
 msgid "Accept"
 msgstr "অনুমোদন"
 
-#: kstarsdata.cpp:1235
+#: kstarsdata.cpp:1240
 msgid ""
 "No lines could be parsed from the specified file, see error messages below."
 msgstr ""
 "উল্লেখকৃত ফাইল থেকে কোন লাইনই পার্স করা যায় নি, সমস্যাসূচক বার্তার জন্য নিচে "
 "দেখুন।"
 
-#: kstarsdata.cpp:1237
+#: kstarsdata.cpp:1242
 msgid "No Valid Data Found in File"
 msgstr "ফাইলে কোন বৈধ তথ্য পাওয়া যায় নি"
 
-#: kstarsdata.cpp:1244 kstarsdata.cpp:1247
+#: kstarsdata.cpp:1249 kstarsdata.cpp:1252
 #, c-format
 msgid "Could not open custom data file: %1"
 msgstr "স্বনির্বাচিত তথ্যের এই ফাইলটি খোলা যায় নি: %1"
 
-#: kstarsdata.cpp:1245
+#: kstarsdata.cpp:1250
 msgid "Error opening file"
 msgstr "ফাইল খুলতে সমস্যা"
 
-#: kstarsdata.cpp:1277
+#: kstarsdata.cpp:1282
 msgid "Line %1, field %2: Unable to parse RA value: %3"
 msgstr "লাইন %1, ঘর %2: বিষুবাংশের মান পার্স করা যাচ্ছে না: %3"
 
-#: kstarsdata.cpp:1286
+#: kstarsdata.cpp:1291
 msgid "Line %1, field %2: Unable to parse Dec value: %3"
 msgstr "লাইন %1, ঘর %2: বিষুলম্বের মান পার্স করা যাচ্ছে না: %3"
 
-#: kstarsdata.cpp:1298
+#: kstarsdata.cpp:1303
 msgid "Line %1, field %2: Invalid object type: %3"
 msgstr "লাইন %1, ঘর %2: বস্তুর ধরন অবৈধ: %3"
 
-#: kstarsdata.cpp:1300
+#: kstarsdata.cpp:1305
 msgid "Must be one of 0, 1, 3, 4, 5, 6, 7, 8."
 msgstr "মান হতে হবে এগুলোর একটি - 0, 1, 3, 4, 5, 6, 7, 8"
 
-#: kstarsdata.cpp:1305
+#: kstarsdata.cpp:1310
 msgid "Line %1, field %2: Unable to parse Object type: %3"
 msgstr "লাইন %1, ঘর %2: বস্তুর ধরন পার্স করা যাচ্ছে না: %3"
 
-#: kstarsdata.cpp:1316
+#: kstarsdata.cpp:1321
 msgid "Line %1, field %2: Unable to parse Magnitude: %3"
 msgstr "লাইন %1, ঘর %2: উজ্জ্বলতা পার্স করা যাচ্ছে না: %3"
 
-#: kstarsdata.cpp:1327
+#: kstarsdata.cpp:1332
 msgid "Line %1, field %2: Unable to parse Major Axis: %3"
 msgstr "লাইন %1, ঘর %2: মুখ্য অক্ষ পার্স করা যাচ্ছে না: %3"
 
-#: kstarsdata.cpp:1338
+#: kstarsdata.cpp:1343
 msgid "Line %1, field %2: Unable to parse Minor Axis: %3"
 msgstr "লাইন %1, ঘর %2: গৌণ অক্ষ পার্স করা যাচ্ছে না: %3"
 
-#: kstarsdata.cpp:1349
+#: kstarsdata.cpp:1354
 msgid "Line %1, field %2: Unable to parse Position Angle: %3"
 msgstr "লাইন %1, ঘর %2: অবস্থানসূচক কোণ পার্স করা যাচ্ছে না: %3"
 
-#: kstarsdata.cpp:1397 kstarsdata.cpp:1406 kstarsdata.cpp:1415
-#: kstarsdata.cpp:1425 kstarsdata.cpp:1431 kstarsdata.cpp:1463
-#: kstarsdata.cpp:1468 kstarsdata.cpp:1479 kstarsdata.cpp:1485
-#: kstarsdata.cpp:1491 kstarsdata.cpp:1496 kstarsdata.cpp:1501
-#: kstarsdata.cpp:1506
+#: kstarsdata.cpp:1402 kstarsdata.cpp:1411 kstarsdata.cpp:1420
+#: kstarsdata.cpp:1430 kstarsdata.cpp:1436 kstarsdata.cpp:1468
+#: kstarsdata.cpp:1473 kstarsdata.cpp:1484 kstarsdata.cpp:1490
+#: kstarsdata.cpp:1496 kstarsdata.cpp:1501 kstarsdata.cpp:1506
+#: kstarsdata.cpp:1511
 msgid "Parsing header: "
 msgstr ""
 
-#: kstarsdata.cpp:1398
+#: kstarsdata.cpp:1403
 msgid "Extra Name field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1407
+#: kstarsdata.cpp:1412
 msgid "Extra Prefix field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1416
+#: kstarsdata.cpp:1421
 msgid "Extra Color field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1426
+#: kstarsdata.cpp:1431
 msgid "Could not convert Epoch to float: %1.  Using 2000. instead"
 msgstr ""
 
-#: kstarsdata.cpp:1432
+#: kstarsdata.cpp:1437
 msgid "Extra Epoch field in header: %1.  Will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1464
+#: kstarsdata.cpp:1469
 msgid "Duplicate data field descriptor \"%1\" will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1469
+#: kstarsdata.cpp:1474
 msgid "Invalid data field descriptor \"%1\" will be ignored"
 msgstr ""
 
-#: kstarsdata.cpp:1480
+#: kstarsdata.cpp:1485
 msgid "No valid column descriptors found.  Exiting"
 msgstr ""
 
-#: kstarsdata.cpp:1486
+#: kstarsdata.cpp:1491
 msgid "No data lines found after header.  Exiting."
 msgstr ""
 
-#: kstarsdata.cpp:1492
+#: kstarsdata.cpp:1497
 msgid "No Catalog Name specified; setting to \"Custom\""
 msgstr ""
 
-#: kstarsdata.cpp:1497
+#: kstarsdata.cpp:1502
 msgid "No Catalog Prefix specified; setting to \"CC\""
 msgstr ""
 
-#: kstarsdata.cpp:1502
+#: kstarsdata.cpp:1507
 msgid "No Catalog Color specified; setting to Red"
 msgstr ""
 
-#: kstarsdata.cpp:1507
+#: kstarsdata.cpp:1512
 msgid "No Catalog Epoch specified; assuming 2000."
 msgstr ""
 
-#: kstarsdata.cpp:1538
+#: kstarsdata.cpp:1543
 msgid "Cities.dat: Ran out of fields.  Line was:"
 msgstr "Cities.dat: আর কোন ঘর ফাঁকা নেই।  লাইন সংখ্যা হল:"
 
-#: kstarsdata.cpp:1556 kstarsdata.cpp:1562 kstarsdata.cpp:1568
-#: kstarsdata.cpp:1581 kstarsdata.cpp:1587 kstarsdata.cpp:1593
+#: kstarsdata.cpp:1561 kstarsdata.cpp:1567 kstarsdata.cpp:1573
+#: kstarsdata.cpp:1586 kstarsdata.cpp:1592 kstarsdata.cpp:1598
 msgid ""
 "\n"
 "Cities.dat: Bad integer.  Line was:\n"
@@ -22605,7 +22606,7 @@ msgstr ""
 "\n"
 "Cities.dat: ত্রুটিপূর্ণ পূর্ণসংখ্যা।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1575
+#: kstarsdata.cpp:1580
 msgid ""
 "\n"
 "Cities.dat: Invalid latitude sign.  Line was:\n"
@@ -22613,7 +22614,7 @@ msgstr ""
 "\n"
 "Cities.dat: অক্ষাংশের গাণিতিক চিহ্ন (sign) অবৈধ।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1600
+#: kstarsdata.cpp:1605
 msgid ""
 "\n"
 "Cities.dat: Invalid longitude sign.  Line was:\n"
@@ -22621,7 +22622,7 @@ msgstr ""
 "\n"
 "Cities.dat: দ্রাঘিমাংশের গাণিতিক চিহ্ন (sign) অবৈধ।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1618
+#: kstarsdata.cpp:1623
 msgid ""
 "\n"
 "Cities.dat: Bad time zone.  Line was:\n"
@@ -22629,7 +22630,7 @@ msgstr ""
 "\n"
 "Cities.dat: ত্রুটিপূর্ণ সময় অঞ্চল।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:1769
+#: kstarsdata.cpp:1774
 msgid ""
 "The file %1 could not be found. KStars cannot run properly without this file. "
 "To continue loading, place the file in one of the following locations, then "
@@ -22640,16 +22641,16 @@ msgstr ""
 "চলা অসম্ভব নয়।  লোড করার কাজ এগিয়ে নেওয়ার জন্য ফাইলটি নিম্নের কোন একটি অবস্থানে "
 "রাখুন ও তারপর 'পুনঃপ্রচেষ্টা' চাপুন:\n"
 
-#: kstarsdata.cpp:1775
+#: kstarsdata.cpp:1780
 msgid "Otherwise, press Cancel to shutdown."
 msgstr "অন্যথায়, প্রস্থান করার জন্য 'বাতিল' চাপুন।"
 
-#: kstarsdata.cpp:1776
+#: kstarsdata.cpp:1781
 #, c-format
 msgid "Critical File Not Found: %1"
 msgstr "গুরুত্বপূর্ণ এই ফাইলটি পাওয়া যায় নি: %1"
 
-#: kstarsdata.cpp:1778
+#: kstarsdata.cpp:1783
 msgid ""
 "The file %1 could not be found. KStars can still run without this file. "
 "However, to avoid seeing this message in the future, you can place the file in "
@@ -22661,72 +22662,72 @@ msgstr ""
 "অবস্থানে রাখুন ও তারপর 'পুনঃপ্রচেষ্টা' চাপুন:\n"
 "\n"
 
-#: kstarsdata.cpp:1784
+#: kstarsdata.cpp:1789
 msgid "Otherwise, press Cancel to continue loading without this file."
 msgstr "অন্যথায়, এই ফাইলটি ছাড়াই লোড করার কাজ এগিয়ে নেওয়ার জন্য 'বাতিল' চাপুন।"
 
-#: kstarsdata.cpp:1785
+#: kstarsdata.cpp:1790
 #, c-format
 msgid "Non-Critical File Not Found: %1"
 msgstr "অগুরুত্বপূর্ণ এই ফাইলটি পাওয়া যায় নি: %1"
 
-#: kstarsdata.cpp:1788
+#: kstarsdata.cpp:1793
 msgid "Retry"
 msgstr "পুনঃপ্রচেষ্টা"
 
-#: kstarsdata.cpp:1811
+#: kstarsdata.cpp:1816
 msgid "Reading Time Zone Rules"
 msgstr "সময় অঞ্চল সংক্রান্ত নিয়মাবলী পড়া হচ্ছে"
 
-#: kstarsdata.cpp:1827
+#: kstarsdata.cpp:1832
 msgid "Loading City Data"
 msgstr "নগর সংক্রান্ত তথ্য লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1852
+#: kstarsdata.cpp:1857
 msgid "Loading Custom catalogs"
 msgstr "স্বনির্বাচিত ক্যাটালগ লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1860
+#: kstarsdata.cpp:1865
 msgid "Loading Constellations"
 msgstr "তারামণ্ডল লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1867
+#: kstarsdata.cpp:1872
 msgid "Loading Constellation Names"
 msgstr "তারামণ্ডলের নাম লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1874
+#: kstarsdata.cpp:1879
 msgid "Loading Constellation Boundaries"
 msgstr "তারামণ্ডলের সীমারেখা লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1881
+#: kstarsdata.cpp:1886
 msgid "Loading Milky Way"
 msgstr "আকাশ গঙ্গা লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1888
+#: kstarsdata.cpp:1893
 msgid "Creating Planets"
 msgstr "গ্রহ তৈরি করা হচ্ছে"
 
-#: kstarsdata.cpp:1897
+#: kstarsdata.cpp:1902
 msgid "Creating Asteroids and Comets"
 msgstr "গ্রহাণু ও ধূমকেতু তৈরি করা হচ্ছে"
 
-#: kstarsdata.cpp:1907
+#: kstarsdata.cpp:1912
 msgid "Creating Moon"
 msgstr "চাঁদ তৈরি করা হচ্ছে"
 
-#: kstarsdata.cpp:1915
+#: kstarsdata.cpp:1920
 msgid "Loading Image URLs"
 msgstr "ছবির ইউ.আর.এল. লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:1929
+#: kstarsdata.cpp:1934
 msgid "Loading Information URLs"
 msgstr "তথ্যের ইউ.আর.এল. লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:2427
+#: kstarsdata.cpp:2433
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
 msgstr "সময় নির্ধারণ করা যায় নি: %1 / %2 / %3 ; %4:%5:%6"
 
-#: kstarsdata.cpp:2542
+#: kstarsdata.cpp:2548
 msgid "Could not set location named %1, %2, %3"
 msgstr " %1, %2 ও %3 নামের অবস্থান নির্দিষ্ট করা যায় নি"
 
