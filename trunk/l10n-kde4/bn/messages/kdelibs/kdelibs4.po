@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-11-21 05:59+0100\n"
+"POT-Creation-Date: 2007-11-22 05:53+0100\n"
 "PO-Revision-Date: 2006-03-22 11:11-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -3255,7 +3255,7 @@ msgstr ""
 msgid "Please contact your system administrator."
 msgstr "অনুগ্রহ করে আপনার সিস্টেম অ্যাডমিনস্ট্রেটরের সঙ্গে যোগাযোগ করুন।"
 
-#: kdecore/network/k3socketaddress.cpp:621
+#: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
 msgctxt "1: the unknown socket address family number"
 msgid "Unknown family %1"
@@ -5717,7 +5717,7 @@ msgstr ""
 msgid "Default:"
 msgstr "ডিফল্ট"
 
-#: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1048
+#: kdeui/dialogs/kshortcutsdialog.cpp:368 kdeui/widgets/klineedit.cpp:1078
 msgid "None"
 msgstr "কিছু না"
 
@@ -5884,7 +5884,7 @@ msgid "Reset ToolBars"
 msgstr "টুলবার"
 
 #: kdeui/dialogs/kedittoolbar.cpp:505 khtml/khtmlview.cpp:2796
-#: khtml/khtmlview.cpp:2829 khtml/html/html_formimpl.cpp:2169
+#: khtml/khtmlview.cpp:2829 khtml/html/html_formimpl.cpp:2166
 msgid "Reset"
 msgstr "রিসেট"
 
@@ -7412,7 +7412,7 @@ msgstr "ফু&ল স্ক্রীণ মোড"
 msgid "Exit F&ull Screen Mode"
 msgstr "ফু&ল স্ক্রীণ মোড থেকে বেরোও"
 
-#: kdeui/actions/kcodecaction.cpp:93 kdeui/widgets/klineedit.cpp:1075
+#: kdeui/actions/kcodecaction.cpp:93 kdeui/widgets/klineedit.cpp:1105
 #: kdeui/widgets/ktoolbar.cpp:276
 msgid "Default"
 msgstr "ডিফল্ট"
@@ -8647,32 +8647,32 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr ""
 
-#: kdeui/widgets/klineedit.cpp:183
+#: kdeui/widgets/klineedit.cpp:212
 #, fuzzy
 msgid "Clear text"
 msgstr "শর্টকাট মুছে ফেলো"
 
-#: kdeui/widgets/klineedit.cpp:1041
+#: kdeui/widgets/klineedit.cpp:1071
 msgid "Text Completion"
 msgstr "লেখা পরিপূরণ"
 
-#: kdeui/widgets/klineedit.cpp:1049
+#: kdeui/widgets/klineedit.cpp:1079
 msgid "Manual"
 msgstr "হাতে করা"
 
-#: kdeui/widgets/klineedit.cpp:1050
+#: kdeui/widgets/klineedit.cpp:1080
 msgid "Automatic"
 msgstr "স্বয়ংক্রিয়"
 
-#: kdeui/widgets/klineedit.cpp:1051
+#: kdeui/widgets/klineedit.cpp:1081
 msgid "Dropdown List"
 msgstr "ড্রপডাউন লিস্ট"
 
-#: kdeui/widgets/klineedit.cpp:1052
+#: kdeui/widgets/klineedit.cpp:1082
 msgid "Short Automatic"
 msgstr "সংক্ষিপ্ত স্বয়ংক্রিয়"
 
-#: kdeui/widgets/klineedit.cpp:1053
+#: kdeui/widgets/klineedit.cpp:1083
 msgid "Dropdown List && Automatic"
 msgstr "ড্রপডাউন লিস্ট এবং স্বয়ংক্রিয়"
 
@@ -9090,25 +9090,25 @@ msgstr ""
 msgid "Unknown View"
 msgstr "অজানা ফিল্ড"
 
-#: kfile/kfileplacesview.cpp:366
+#: kfile/kfileplacesview.cpp:365
 #, fuzzy, kde-format
 #| msgid "&Edit..."
 msgid "&Edit '%1'..."
 msgstr "&সম্পাদন..."
 
-#: kfile/kfileplacesview.cpp:369
+#: kfile/kfileplacesview.cpp:368
 #, fuzzy, kde-format
 #| msgid "Hide %1"
 msgid "&Hide '%1'"
 msgstr "%1 লুকোও"
 
-#: kfile/kfileplacesview.cpp:376
+#: kfile/kfileplacesview.cpp:375
 #, fuzzy
 #| msgid "Show all options"
 msgid "&Show All Entries"
 msgstr "সমস্ত অপশন দেখাও"
 
-#: kfile/kfileplacesview.cpp:387
+#: kfile/kfileplacesview.cpp:386
 #, fuzzy, kde-format
 #| msgid "&Remove"
 msgid "&Remove '%1'"
@@ -10335,7 +10335,7 @@ msgstr ""
 "এ।<BR>আপনি কি ফর্মটি জমা দিতে চান?"
 
 #: khtml/khtml_part.cpp:4724 khtml/khtmlview.cpp:2782 khtml/khtmlview.cpp:2824
-#: khtml/html/html_formimpl.cpp:1566 khtml/html/html_formimpl.cpp:2177
+#: khtml/html/html_formimpl.cpp:1563 khtml/html/html_formimpl.cpp:2174
 msgid "Submit"
 msgstr "জমা দাও"
 
@@ -10397,8 +10397,10 @@ msgstr ""
 
 #: khtml/khtml_part.cpp:7276
 #, kde-format
+#| msgid "&Show Blocked Popup Window"
+#| msgid_plural "Show %1 Blocked Popup Windows"
 msgid "&Show Blocked Popup Window"
-msgid_plural "Show %1 Blocked Popup Windows"
+msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -10646,11 +10648,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "থামা&ও"
 
-#: khtml/ecma/kjs_window.cpp:1570 khtml/ecma/kjs_html.cpp:2117
+#: khtml/ecma/kjs_window.cpp:1566 khtml/ecma/kjs_html.cpp:2109
 msgid "Confirmation: JavaScript Popup"
 msgstr "অনুমোদন: জাভাস্ক্রিপ্ট পপ-আপ"
 
-#: khtml/ecma/kjs_window.cpp:1573
+#: khtml/ecma/kjs_window.cpp:1569
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10658,7 +10660,7 @@ msgstr ""
 "এই সাইটটি জাভাস্ক্রিপ্ট-এর মাধ্যমে একটি নতুন ব্রাইজার উইণ্ডো খুলতে চাইছে।\n"
 "আপনি কি তাই চান?"
 
-#: khtml/ecma/kjs_window.cpp:1576
+#: khtml/ecma/kjs_window.cpp:1572
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10667,30 +10669,30 @@ msgstr ""
 "<qt>এই সাইটটি জাভাস্ক্রিপ্ট-এর মাধ্যমে একটি নতুন ব্রাইজার উইণ্ডোয় <p>%1</p>খুলতে "
 "চাইছে। <br/>আপনি কি তাই চান?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1578 khtml/ecma/kjs_html.cpp:2124
+#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
 msgid "Allow"
 msgstr "হ্যাঁ"
 
-#: khtml/ecma/kjs_window.cpp:1578 khtml/ecma/kjs_html.cpp:2124
+#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
 msgid "Do Not Allow"
 msgstr "না"
 
-#: khtml/ecma/kjs_window.cpp:1870
+#: khtml/ecma/kjs_window.cpp:1866
 msgid "Close window?"
 msgstr "উইণ্ডো বন্ধ করব?"
 
-#: khtml/ecma/kjs_window.cpp:1870
+#: khtml/ecma/kjs_window.cpp:1866
 msgid "Confirmation Required"
 msgstr "অনুমোদন প্রয়োজন"
 
-#: khtml/ecma/kjs_window.cpp:2820
+#: khtml/ecma/kjs_window.cpp:2816
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "আপনি কি আপনার সংকলনে \"%1\" অবস্থানটির জন্য একটি বুকমার্ক যোগ করতে চান?"
 
-#: khtml/ecma/kjs_window.cpp:2823
+#: khtml/ecma/kjs_window.cpp:2819
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
@@ -10699,19 +10701,19 @@ msgstr ""
 "আপনি কি আপনার সংকলনে \"%1\" অবস্থানটির জন্য \"%2\" শিরোনামের একটি বুকমার্ক যোগ "
 "করতে চান?"
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2827
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "জাভাস্ক্রিপ্ট বুকমার্ক যোগ করার চেষ্টা করছে"
 
-#: khtml/ecma/kjs_window.cpp:2835
+#: khtml/ecma/kjs_window.cpp:2831
 msgid "Insert"
 msgstr "মধ্যে ঢোকাও"
 
-#: khtml/ecma/kjs_window.cpp:2835
+#: khtml/ecma/kjs_window.cpp:2831
 msgid "Disallow"
 msgstr "অনুমতি দিও না"
 
-#: khtml/ecma/kjs_html.cpp:2119
+#: khtml/ecma/kjs_html.cpp:2111
 msgid ""
 "This site is submitting a form which will open up a new browser window via "
 "JavaScript.\n"
@@ -10721,7 +10723,7 @@ msgstr ""
 "উইণ্ডো খোলা হবে। \n"
 "আপনি কি ফর্মটি জমা দিতে চান?"
 
-#: khtml/ecma/kjs_html.cpp:2122
+#: khtml/ecma/kjs_html.cpp:2114
 #, kde-format
 msgid ""
 "<qt>This site is submitting a form which will open <p>%1</p> in a new "
@@ -10839,21 +10841,21 @@ msgstr "সারিবদ্ধ"
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "এটি একটি সন্ধানযোগ্য সূচি। সন্ধান কী-ওয়ার্ড লিখুন:"
 
-#: khtml/html/html_formimpl.cpp:370
+#: khtml/html/html_formimpl.cpp:367
 msgid ""
 "The following files will not be uploaded because they could not be found.\n"
 "Do you want to continue?"
 msgstr ""
 
-#: khtml/html/html_formimpl.cpp:374
+#: khtml/html/html_formimpl.cpp:371
 msgid "Submit Confirmation"
 msgstr "অনুমোদন জমা দাও"
 
-#: khtml/html/html_formimpl.cpp:374
+#: khtml/html/html_formimpl.cpp:371
 msgid "&Submit Anyway"
 msgstr "তা &সত্বেও জমা দাও"
 
-#: khtml/html/html_formimpl.cpp:385
+#: khtml/html/html_formimpl.cpp:382
 #, fuzzy
 msgid ""
 "You are about to transfer the following files from your local computer to "
@@ -10863,31 +10865,31 @@ msgstr ""
 "আপনি এই ফাইলগুলি আপনার কমপিউটার থেকে ইন্টারনেটে পাঠাতে চলেছেন। \n"
 "আপনি কি সত্যিই তাই চান?"
 
-#: khtml/html/html_formimpl.cpp:389
+#: khtml/html/html_formimpl.cpp:386
 msgid "Send Confirmation"
 msgstr "অনুমোদন পাঠাও"
 
-#: khtml/html/html_formimpl.cpp:389
+#: khtml/html/html_formimpl.cpp:386
 msgid "&Send Files"
 msgstr "ফাইল পাঠা&ও"
 
-#: khtml/html/html_formimpl.cpp:631
+#: khtml/html/html_formimpl.cpp:628
 msgid "Save Login Information"
 msgstr "লগ-ইন তথ্য সঞ্চয় করে রাখো"
 
-#: khtml/html/html_formimpl.cpp:633
+#: khtml/html/html_formimpl.cpp:630
 msgid "Store"
 msgstr "সঞ্চয় করো"
 
-#: khtml/html/html_formimpl.cpp:634
+#: khtml/html/html_formimpl.cpp:631
 msgid "Ne&ver for This Site"
 msgstr "এই সাইটের জন্য &কদাপি নয়"
 
-#: khtml/html/html_formimpl.cpp:635
+#: khtml/html/html_formimpl.cpp:632
 msgid "Do Not Store"
 msgstr "সঞ্চয় কোর না"
 
-#: khtml/html/html_formimpl.cpp:644
+#: khtml/html/html_formimpl.cpp:641
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
 "the wallet is unlocked, it can then automatically restore the login "
@@ -10899,7 +10901,7 @@ msgstr ""
 "লগ-ইন তথ্য নিজে থেকেই ভরে দিতে পারবে। আপনি কি এই লগ-ইন তথ্য এখন আপনার ওয়ালেট-এ "
 "সঞ্চয় করতে চান? "
 
-#: khtml/html/html_formimpl.cpp:649
+#: khtml/html/html_formimpl.cpp:646
 #, kde-format
 msgid ""
 "Konqueror has the ability to store the password in an encrypted wallet. When "
@@ -10911,7 +10913,7 @@ msgstr ""
 "ইন তথ্য নিজে থেকেই ভরে দিতে পারবে। আপনি কি এই লগ-ইন তথ্য এখন আপনার ওয়ালেটে "
 "সঞ্চয় করতে চান? "
 
-#: khtml/html/html_formimpl.cpp:2558
+#: khtml/html/html_formimpl.cpp:2555
 #, fuzzy
 #| msgid "General"
 msgid "Key Generator"
