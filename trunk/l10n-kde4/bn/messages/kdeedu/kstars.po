@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-13 06:10+0100\n"
+"POT-Creation-Date: 2007-12-15 06:12+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -316,7 +316,7 @@ msgstr ""
 
 #: colorscheme.cpp:262 colorscheme.cpp:280 indidriver.cpp:511
 #: indidriver.cpp:970 kstarsactions.cpp:583 locationdialog.cpp:246
-#: opscolors.cpp:192 skymap.cpp:1586 tools/modcalcaltaz.cpp:264
+#: opscolors.cpp:192 skymap.cpp:1598 tools/modcalcaltaz.cpp:264
 #: tools/modcalcangdist.cpp:143 tools/modcalcapcoord.cpp:165
 #: tools/modcalcdaylength.cpp:250 tools/modcalceclipticcoords.cpp:204
 #: tools/modcalcgalcoord.cpp:191 tools/modcalcgeodcoord.cpp:232
@@ -350,7 +350,7 @@ msgstr "ফাইলের নাম অবৈধ"
 
 #. i18n: tag string
 #. i18n: file tools/wutdialog.ui line 476
-#: detaildialog.cpp:71 rc.cpp:6272 skymap.cpp:550
+#: detaildialog.cpp:71 rc.cpp:6272 skymap.cpp:557
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
@@ -1187,7 +1187,7 @@ msgid "Pluto"
 msgstr "প্লুটো"
 
 #: kspopupmenu.cpp:66 kspopupmenu.cpp:121 kspopupmenu.cpp:124
-#: skymapevents.cpp:723
+#: skymapevents.cpp:704
 msgid "Empty sky"
 msgstr "শূন্য আকাশ"
 
@@ -22501,7 +22501,7 @@ msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
 #: kstarsinit.cpp:649 skymap.cpp:177 skymap.cpp:263 skymapevents.cpp:395
-#: skymapevents.cpp:524 skymapevents.cpp:616
+#: skymapevents.cpp:520 skymapevents.cpp:609
 msgid "nothing"
 msgstr "কিছু না"
 
@@ -28825,20 +28825,31 @@ msgstr "অতিরিক্ত তথ্য ডাউনলোড করো"
 #. i18n: tag string
 #. i18n: file wizdownload.ui line 88
 #: rc.cpp:2618 rc.cpp:4281
+#, fuzzy
+#| msgid ""
+#| "<p>You may now download optional data files to enhance\n"
+#| "KStars, such as Messier object images, or a more complete\n"
+#| "NGC/IC catalog.  Press the <b>Download Extra Data</b>\n"
+#| "button to proceed. </p>\n"
+#| "\n"
+#| "<p>You can also use this tool later, by selecting\n"
+#| "<b>Download data</b> from the <b>File</b> menu.</p>"
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-style:"
-"normal; text-decoration:none;\"><p style=\" margin-top:12px; margin-"
-"bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">You may now download optional data files to enhance KStars, "
-"such as Messier object images, or a more complete NGC/IC catalog. Press the "
-"<span style=\" font-weight:600;\">Download Extra Data</span> button to "
-"proceed. </p><p style=\" margin-top:12px; margin-bottom:12px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">You can "
-"also use this tool later, by selecting <span style=\" font-weight:600;"
-"\">Download data</span> from the <span style=\" font-weight:600;\">File</"
-"span> menu.</p></body></html>"
+"<html><head></head><body><p>You may now download optional data files to "
+"enhance KStars, such as Messier object images, or a more complete NGC/IC "
+"catalog. Press the <span style=\" font-weight:600;\">Download Extra Data</"
+"span> button to proceed. </p><p>You can also use this tool later, by "
+"selecting <span style=\" font-weight:600;\">Download data</span> from the "
+"<span style=\" font-weight:600;\">File</span> menu.</p></body></html>"
 msgstr ""
+"<p>কে-স্টার্সকে সমৃদ্ধ করার জন্য এখন আপনি বিভিন্ন ঐচ্ছিক তথ্যধারী ফাইল ডাউনলোড করতে "
+"পারেন, \n"
+"যেমন, মেসিয়ের বস্তুর ছবি, বা আরো পরিপূর্ণ এন.জি.সি./আই.সি. ক্যাটালগ।  ডাউনলোড "
+"করার জন্য \n"
+"<b>অতিরিক্ত তথ্য ডাউনলোড করো</b> চাপুন। </p>\n"
+"\n"
+"<p>অবশ্য এই ডাউনলোড করার কাজটি আপনি পরেও কোন এক সময় <b>ফাইল</b> মেনু থেকে \n"
+"<b>তথ্য ডাউনলোড করো</b> চেপে করতে পারবেন।</p>"
 
 #. i18n: tag string
 #. i18n: file wizdownload.ui line 132
@@ -28857,17 +28868,26 @@ msgstr "<h3>আপনার বাসার অবস্থান বেছে �
 #. i18n: tag string
 #. i18n: file wizlocation.ui line 88
 #: rc.cpp:2627 rc.cpp:4290
+#, fuzzy
+#| msgid ""
+#| "<p>Select a City near your\n"
+#| "location from the list.  You\n"
+#| "may filter the list by the name\n"
+#| "of your city, province, and\n"
+#| "country.</p>\n"
+#| "\n"
+#| "<p>Once you have selected a City, press <b>Next</b>.</p>"
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-style:"
-"normal; text-decoration:none;\"><p style=\" margin-top:12px; margin-"
-"bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">Select a City near your location from the list. You may filter "
-"the list by the name of your city, province, and country.</p><p style=\" "
-"margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-"
-"block-indent:0; text-indent:0px;\">Once you have selected a City, press "
-"<span style=\" font-weight:600;\">Next</span>.</p></body></html>"
+"<html><head></head><body><p>Select a City near your location from the list. "
+"You may filter the list by the name of your city, province, and country.</"
+"p><p>Once you have selected a City, press <span style=\" font-weight:600;"
+"\">Next</span>.</p></body></html>"
 msgstr ""
+"<p>তালিকাভুক্ত যে শহরটি আপনার অবস্থানের নিকটবর্তী, \n"
+"সেটি বেছে নিন।  আপনার শহর, প্রদেশ, এবং দেশের নাম \n"
+"ব্যবহার করে আপনি এই তালিকাকে ফিল্টার করতে পারেন।</p>\n"
+"\n"
+"<p>শহর বেছে নেওয়া হলে, <b>পরবর্তী</b> চাপুন।</p>"
 
 #. i18n: tag string
 #. i18n: file wizlocation.ui line 126
@@ -28904,17 +28924,9 @@ msgstr "<h3>কে-স্টার্স-এর প্রস্তুতি উ�
 #. i18n: file wizwelcome.ui line 88
 #: rc.cpp:2660 rc.cpp:4323
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-weight:400; font-style:"
-"normal; text-decoration:none;\"><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">This wizard will help you set up some basic options, such as "
-"your location on Earth.</p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">To get started, press the <span style=\" font-weight:600;"
-"\">Next</span> button.</p></body></html>"
+"<html><head></head><body><p>This wizard will help you set up some basic "
+"options, such as your location on Earth.</p><p></p><p>To get started, press "
+"the <span style=\" font-weight:600;\">Next</span> button.</p></body></html>"
 msgstr ""
 
 # References:
@@ -31088,28 +31100,16 @@ msgstr "যে খ-বস্তুর জন্য পর্যবেক্ষ�
 #. i18n: file tools/obslistwizard.ui line 56
 #: rc.cpp:5889
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:12pt; font-weight:600;\">Welcome to the "
-"Observing List Wizard</p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:12pt;\"></p><p style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\">With this tool, you can construct an observing list by "
-"filtering the list of all objects in various ways.  First, you will select "
-"objects by <span style=\" font-weight:600;\">type</span>.  Next, you can "
-"select only those objects which occupy a specific <span style=\" font-"
-"weight:600;\">region on the sky</span>.  You can further trim the observing "
-"list by selecting objects in a specified <span style=\" font-weight:600;"
-"\">magnitude range</span>.  Finally, you can choose to keep only those "
-"objects which are <span style=\" font-weight:600;\">observable on a "
-"particular date</span>.</p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">Press the <span style=\" font-weight:600;\">Next</span> button "
+"<html><head></head><body><p>Welcome to the Observing List Wizard</p><p></"
+"p><p>With this tool, you can construct an observing list by filtering the "
+"list of all objects in various ways.  First, you will select objects by "
+"<span style=\" font-weight:600;\">type</span>.  Next, you can select only "
+"those objects which occupy a specific <span style=\" font-weight:600;"
+"\">region on the sky</span>.  You can further trim the observing list by "
+"selecting objects in a specified <span style=\" font-weight:600;\">magnitude "
+"range</span>.  Finally, you can choose to keep only those objects which are "
+"<span style=\" font-weight:600;\">observable on a particular date</span>.</"
+"p><p></p><p>Press the <span style=\" font-weight:600;\">Next</span> button "
 "to get started by selecting which object types you would like to be present "
 "in your observing list.</p></body></html>"
 msgstr ""
@@ -31118,25 +31118,12 @@ msgstr ""
 #. i18n: file tools/obslistwizard.ui line 85
 #: rc.cpp:5892
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:600;\">Select objects "
-"by type</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px; font-size:10pt;\"><span style=\" font-size:9pt;\">Highlight the "
-"object types you want to include in your observing list in the box below.  "
-"You can highlight more than one item in the list.  The buttons along the "
-"right can be used to quickly choose some common selections.</span></p><p "
-"style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p><p "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\">When you are finished, "
-"press the <span style=\" font-weight:600;\">Next</span> button.</p></body></"
-"html>"
+"<html><head></head><body><p>Select objects by type</p><p></p><p><span style="
+"\" font-size:9pt;\">Highlight the object types you want to include in your "
+"observing list in the box below.  You can highlight more than one item in "
+"the list.  The buttons along the right can be used to quickly choose some "
+"common selections.</span></p><p></p><p>When you are finished, press the "
+"<span style=\" font-weight:600;\">Next</span> button.</p></body></html>"
 msgstr ""
 
 #. i18n: tag string
@@ -31221,31 +31208,19 @@ msgstr ""
 #. i18n: file tools/obslistwizard.ui line 270
 #: rc.cpp:5946
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:600;\">Select by "
-"region</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px; font-size:10pt;\"><span style=\" font-size:9pt;\">Next, you can "
-"limit your object list to only those objects which occupy a specific region "
-"on the sky.  There are three ways to specify the region for your list:  by </"
-"span><span style=\" font-size:9pt; font-weight:600;\">constellation</"
-"span><span style=\" font-size:9pt;\">, by specifying a </span><span style=\" "
-"font-size:9pt; font-weight:600;\">rectangular region</span><span style=\" "
-"font-size:9pt;\">, or by specifying a </span><span style=\" font-size:9pt; "
-"font-weight:600;\">circular region</span><span style=\" font-size:9pt;\">.  "
-"You may also skip selecting by a region, which will include objects from </"
-"span><span style=\" font-size:9pt; font-weight:600;\">all over the sky</"
-"span><span style=\" font-size:9pt;\">.  </span></p><p style=\"-qt-paragraph-"
-"type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"></p><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\">Make your selection below, and press <span "
-"style=\" font-weight:600;\">Next</span>.</p></body></html>"
+"<html><head></head><body><p>Select by region</p><p></p><p><span style=\" "
+"font-size:9pt;\">Next, you can limit your object list to only those objects "
+"which occupy a specific region on the sky.  There are three ways to specify "
+"the region for your list:  by </span><span style=\" font-size:9pt; font-"
+"weight:600;\">constellation</span><span style=\" font-size:9pt;\">, by "
+"specifying a </span><span style=\" font-size:9pt; font-weight:600;"
+"\">rectangular region</span><span style=\" font-size:9pt;\">, or by "
+"specifying a </span><span style=\" font-size:9pt; font-weight:600;"
+"\">circular region</span><span style=\" font-size:9pt;\">.  You may also "
+"skip selecting by a region, which will include objects from </span><span "
+"style=\" font-size:9pt; font-weight:600;\">all over the sky</span><span "
+"style=\" font-size:9pt;\">.  </span></p><p></p><p>Make your selection below, "
+"and press <span style=\" font-weight:600;\">Next</span>.</p></body></html>"
 msgstr ""
 
 #. i18n: tag string
@@ -31284,48 +31259,25 @@ msgstr ""
 #. i18n: file tools/obslistwizard.ui line 403
 #: rc.cpp:5964
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:600;\">Select objects "
-"in one or more constellations</p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\">In the list below, highlight the constellations you want "
-"to use for your observing list.  Only objects that occupy the selected "
-"constellations will be included in the list.</p><p style=\"-qt-paragraph-"
-"type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"></p><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\">When you are finished, press <span style=\" "
-"font-weight:600;\">Next</span> to continue.</p></body></html>"
+"<html><head></head><body><p>Select objects in one or more constellations</"
+"p><p></p><p>In the list below, highlight the constellations you want to use "
+"for your observing list.  Only objects that occupy the selected "
+"constellations will be included in the list.</p><p></p><p>When you are "
+"finished, press <span style=\" font-weight:600;\">Next</span> to continue.</"
+"p></body></html>"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file tools/obslistwizard.ui line 435
 #: rc.cpp:5967
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:600;\">Select objects "
-"in a rectangular region</p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px; font-size:10pt;\"><span style=\" font-size:9pt;\">On this "
-"page, you can limit your observing list to those objects which occupy a "
-"particular rectangular region on the sky.  Specify the rectangular region by "
-"selecting the right ascension (RA) and declination (Dec) limits that define "
-"the region.</span></p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">When you "
-"are finished, press <span style=\" font-weight:600;\">Next</span> to "
-"continue.</p></body></html>"
+"<html><head></head><body><p>Select objects in a rectangular region</p><p></"
+"p><p><span style=\" font-size:9pt;\">On this page, you can limit your "
+"observing list to those objects which occupy a particular rectangular region "
+"on the sky.  Specify the rectangular region by selecting the right ascension "
+"(RA) and declination (Dec) limits that define the region.</span></p><p></"
+"p><p>When you are finished, press <span style=\" font-weight:600;\">Next</"
+"span> to continue.</p></body></html>"
 msgstr ""
 
 #. i18n: tag string
@@ -31354,27 +31306,13 @@ msgstr "উপনাম:"
 #. i18n: file tools/obslistwizard.ui line 539
 #: rc.cpp:5982
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:600;\">Select objects "
-"in a circular region</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">On this page, you can limit your observing list to those "
-"objects which occupy a particular circular region on the sky.  Specify the "
-"circular region by selecting the right ascension (RA) and declination (Dec) "
-"coordinates for the center of the circle, and the size of the circle's "
-"radius, in Degrees.</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">When you "
-"are finished, press <span style=\" font-weight:600;\">Next</span></p><p "
-"style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"> to continue.</p></body></"
-"html>"
+"<html><head></head><body><p>Select objects in a circular region</p><p></"
+"p><p>On this page, you can limit your observing list to those objects which "
+"occupy a particular circular region on the sky.  Specify the circular region "
+"by selecting the right ascension (RA) and declination (Dec) coordinates for "
+"the center of the circle, and the size of the circle's radius, in Degrees.</"
+"p><p></p><p>When you are finished, press <span style=\" font-weight:600;"
+"\">Next</span></p><p> to continue.</p></body></html>"
 msgstr ""
 
 #. i18n: tag string
@@ -31402,29 +31340,16 @@ msgstr "ব্যাসার্ধ (ডিগ্রি):"
 #. i18n: file tools/obslistwizard.ui line 701
 #: rc.cpp:5994
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:600;\">Select objects "
-"observable on a date:</p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; "
-"margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; "
-"text-indent:0px;\">On this page, you can limit your observing list to only "
-"those objects which can be observed on a particular date (and from a "
-"particular location on Earth).  To filter your list in this way, check the "
-"checkbox below, and then select the desired date.  If you leave this box "
-"unchecked, then your list will include objects regardless of when they are "
-"observable (this is the default).  You may also change the geographic "
-"location used to determine whether objects are observable.</p><p style=\"-qt-"
-"paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; "
-"margin-right:0px; -qt-block-indent:0; text-indent:0px;\"></p><p style=\" "
-"margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-"
-"block-indent:0; text-indent:0px;\">When you are finished, press <span style="
-"\" font-weight:600;\">Next</span> to continue.</p><p style=\"-qt-paragraph-"
-"type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"></p></body></html>"
+"<html><head></head><body><p>Select objects observable on a date:</p><p></"
+"p><p>On this page, you can limit your observing list to only those objects "
+"which can be observed on a particular date (and from a particular location "
+"on Earth).  To filter your list in this way, check the checkbox below, and "
+"then select the desired date.  If you leave this box unchecked, then your "
+"list will include objects regardless of when they are observable (this is "
+"the default).  You may also change the geographic location used to determine "
+"whether objects are observable.</p><p></p><p>When you are finished, press "
+"<span style=\" font-weight:600;\">Next</span> to continue.</p><p></p></"
+"body></html>"
 msgstr ""
 
 #. i18n: tag string
@@ -31444,36 +31369,18 @@ msgstr ""
 #. i18n: file tools/obslistwizard.ui line 835
 #: rc.cpp:6006
 msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /></head><body style=\" "
-"white-space: pre-wrap; font-family:Sans Serif; font-size:9pt; font-"
-"weight:400; font-style:normal; text-decoration:none;\"><p style=\" margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px; font-size:10pt; font-weight:600;\">Select bright "
-"objects</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px; font-size:10pt;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">On this page, you can limit your observing list to only those "
-"objects brighter than a given magnitude.  Be careful with this selection, "
-"because KStars does not have a magnitude for every object in its database.  "
-"You need to indicate whether you want to include objects with an undefined "
-"magnitude.</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"></p><p style=\" margin-top:0px; margin-bottom:0px; margin-"
-"left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">If you do "
-"not wish to exclude faint objects with this selection, simply leave the "
-"checkbox below unchecked.</p><p style=\"-qt-paragraph-type:empty; margin-"
-"top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-"
-"indent:0; text-indent:0px;\"></p><p style=\" margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\">This is the final page of the Observing List Wizard.  You can "
-"go back and modify previous pages with the <span style=\" font-weight:600;"
-"\">Back</span> button.  When you are satisfied, press the <span style=\" "
-"font-weight:600;\">Finish</span> button to exit the wizard, and the "
-"Observing List tool will be populated with the objects you have specified "
-"here.</p><p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-"
-"bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-"
-"indent:0px;\"></p></body></html>"
+"<html><head></head><body><p>Select bright objects</p><p></p><p>On this page, "
+"you can limit your observing list to only those objects brighter than a "
+"given magnitude.  Be careful with this selection, because KStars does not "
+"have a magnitude for every object in its database.  You need to indicate "
+"whether you want to include objects with an undefined magnitude.</p><p></"
+"p><p>If you do not wish to exclude faint objects with this selection, simply "
+"leave the checkbox below unchecked.</p><p></p><p>This is the final page of "
+"the Observing List Wizard.  You can go back and modify previous pages with "
+"the <span style=\" font-weight:600;\">Back</span> button.  When you are "
+"satisfied, press the <span style=\" font-weight:600;\">Finish</span> button "
+"to exit the wizard, and the Observing List tool will be populated with the "
+"objects you have specified here.</p><p></p></body></html>"
 msgstr ""
 
 #. i18n: tag string
@@ -32068,12 +31975,12 @@ msgstr "SimClock-এর সময় নির্ধারণ করা যাচ�
 msgid "New clock scale: %1 sec"
 msgstr "ঘড়ির নতুন মাত্রা (scale): %1 সেকেন্ড"
 
-#: skyline.cpp:62
+#: skyline.cpp:69
 #, kde-format
 msgid "SkyLine index error: no such point: %1"
 msgstr ""
 
-#: skyline.cpp:71 skyline.cpp:106
+#: skyline.cpp:78 skyline.cpp:113
 #, kde-format
 msgid "SkyLine index error: no such segment: %1"
 msgstr ""
@@ -32104,20 +32011,20 @@ msgid ""
 "[public domain]."
 msgstr "স্পেস টেলিস্কোপ সাইন্স ইনস্টিটিউট কর্তৃক প্রস্তুতকৃত ডিজিটাল আকাশ জরিপ চিত্র।"
 
-#: skymap.cpp:454
+#: skymap.cpp:461
 #, fuzzy, kde-format
 msgid "Angular distance: %1"
 msgstr "কৌণিক দূরত্ব: "
 
-#: skymap.cpp:550
+#: skymap.cpp:557
 msgid "No object selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
 
-#: skymap.cpp:849 skymap.cpp:967 skymap.cpp:1336
+#: skymap.cpp:856 skymap.cpp:973 skymap.cpp:1347
 msgid "Unrecognized coordinate projection: "
 msgstr ""
 
-#: skymap.cpp:1585
+#: skymap.cpp:1597
 msgid ""
 "Custom image-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -32125,7 +32032,7 @@ msgstr ""
 "স্বনির্বাচিত ছবির-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1603
+#: skymap.cpp:1615
 msgid ""
 "Custom information-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -32133,7 +32040,7 @@ msgstr ""
 "স্বনির্বাচিত তথ্য-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1603
+#: skymap.cpp:1615
 msgid "Could not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
@@ -35623,21 +35530,6 @@ msgstr ""
 #~ "\n"
 #~ "<p>এবার <b>পরবর্তী</b> বাটন চেপে আরম্ভ করুন।</p>"
 
-#~ msgid ""
-#~ "<p>Select a City near your\n"
-#~ "location from the list.  You\n"
-#~ "may filter the list by the name\n"
-#~ "of your city, province, and\n"
-#~ "country.</p>\n"
-#~ "\n"
-#~ "<p>Once you have selected a City, press <b>Next</b>.</p>"
-#~ msgstr ""
-#~ "<p>তালিকাভুক্ত যে শহরটি আপনার অবস্থানের নিকটবর্তী, \n"
-#~ "সেটি বেছে নিন।  আপনার শহর, প্রদেশ, এবং দেশের নাম \n"
-#~ "ব্যবহার করে আপনি এই তালিকাকে ফিল্টার করতে পারেন।</p>\n"
-#~ "\n"
-#~ "<p>শহর বেছে নেওয়া হলে, <b>পরবর্তী</b> চাপুন।</p>"
-
 #~ msgid "Displays the latitude of the selected city"
 #~ msgstr "বাছাইকৃত শহরের অক্ষাংশ দেখাও"
 
@@ -35686,24 +35578,6 @@ msgstr ""
 
 #~ msgid "<h3>Download Extra Data Files</h3>"
 #~ msgstr "<h3>অতিরিক্ত তথ্যের ফাইল ডাউনলোড করো</h3>"
-
-#~ msgid ""
-#~ "<p>You may now download optional data files to enhance\n"
-#~ "KStars, such as Messier object images, or a more complete\n"
-#~ "NGC/IC catalog.  Press the <b>Download Extra Data</b>\n"
-#~ "button to proceed. </p>\n"
-#~ "\n"
-#~ "<p>You can also use this tool later, by selecting\n"
-#~ "<b>Download data</b> from the <b>File</b> menu.</p>"
-#~ msgstr ""
-#~ "<p>কে-স্টার্সকে সমৃদ্ধ করার জন্য এখন আপনি বিভিন্ন ঐচ্ছিক তথ্যধারী ফাইল ডাউনলোড "
-#~ "করতে পারেন, \n"
-#~ "যেমন, মেসিয়ের বস্তুর ছবি, বা আরো পরিপূর্ণ এন.জি.সি./আই.সি. ক্যাটালগ।  ডাউনলোড "
-#~ "করার জন্য \n"
-#~ "<b>অতিরিক্ত তথ্য ডাউনলোড করো</b> চাপুন। </p>\n"
-#~ "\n"
-#~ "<p>অবশ্য এই ডাউনলোড করার কাজটি আপনি পরেও কোন এক সময় <b>ফাইল</b> মেনু থেকে \n"
-#~ "<b>তথ্য ডাউনলোড করো</b> চেপে করতে পারবেন।</p>"
 
 #~ msgid "smallest timestep for which objects are always hidden"
 #~ msgstr "সর্বনিম্ন যে সময়-ধাপের (time Step) জন্য বস্তুকে আড়াল করা হয়"
