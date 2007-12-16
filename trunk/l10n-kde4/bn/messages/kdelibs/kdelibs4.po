@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2007-12-15 06:09+0100\n"
+"POT-Creation-Date: 2007-12-16 06:12+0100\n"
 "PO-Revision-Date: 2006-03-22 11:11-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -821,7 +821,7 @@ msgstr "বৈশিষ্ট্য"
 
 #. i18n: tag string
 #. i18n: file ./khtml/htmlpageinfo.ui line 237
-#: rc.cpp:351 khtml/ecma/debugger/execstatemodel.cpp:242
+#: rc.cpp:351 khtml/ecma/debugger/execstatemodel.cpp:244
 #: khtml/java/kjavaappletviewer.cpp:140
 msgid "Value"
 msgstr "মান"
@@ -1460,7 +1460,7 @@ msgstr ""
 #. i18n: file ./threadweaver/Examples/Jobs/JobsBase.ui line 90
 #: rc.cpp:656 rc.cpp:888 kdeui/util/kstandardguiitem.cpp:265
 #: kdeui/util/kkeyserver_x11.cpp:109 kdeui/findreplace/kreplace.cpp:353
-#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:177
+#: khtml/ecma/kjs_debugwin.cpp:482 khtml/ecma/debugger/debugwindow.cpp:176
 #: kross/ui/view.cpp:308
 msgid "Stop"
 msgstr "থামাও"
@@ -3436,6 +3436,23 @@ msgstr "NEC SOCKS ক্লায়েন্ট"
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS ক্লায়েন্ট"
 
+#: kdecore/kernel/ktoolinvocation_win.cpp:69
+#: kdecore/kernel/ktoolinvocation_x11.cpp:96
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"কে.ডি.ই. সহায়িকা চালু করা যায়নি:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_win.cpp:70
+#: kdecore/kernel/ktoolinvocation_x11.cpp:97
+msgid "Could not Launch Help Center"
+msgstr "সহায়িকা চালু করা যায়নি"
+
 #: kdecore/kernel/kcmdlineargs.cpp:270
 msgid "Use the X-server display 'displayname'"
 msgstr "'displayname' নামক এক্স-সার্ভার ডিস্‌প্লে ব্যবহার করো"
@@ -3716,21 +3733,6 @@ msgstr "অ্যাপলিকেশন যে সব ফাইল/ইউ-আ�
 #: kdecore/kernel/kcmdlineargs.cpp:1584
 msgid "KDE-tempfile"
 msgstr ""
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:96
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"কে.ডি.ই. সহায়িকা চালু করা যায়নি:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:97
-msgid "Could not Launch Help Center"
-msgstr "সহায়িকা চালু করা যায়নি"
 
 #: kdecore/kernel/ktoolinvocation_x11.cpp:359
 #, kde-format
@@ -10715,7 +10717,7 @@ msgid "Available Tests: %1 (ignored: %2)"
 msgstr ""
 
 #: khtml/test_regression_gui_window.cpp:563 khtml/ecma/kjs_debugwin.cpp:481
-#: khtml/ecma/debugger/debugwindow.cpp:170
+#: khtml/ecma/debugger/debugwindow.cpp:169
 msgid "Continue"
 msgstr "এগিয়ে চলো"
 
@@ -10807,7 +10809,7 @@ msgstr "জাভাস্ক্রিপ্ট ত্রুটি"
 msgid "&Do not show this message again"
 msgstr "এই বার্তাটি আ&র দেখানোর প্রয়োজন নেই"
 
-#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:118
+#: khtml/ecma/kjs_debugwin.cpp:385 khtml/ecma/debugger/debugwindow.cpp:113
 msgid "JavaScript Debugger"
 msgstr "জাভাস্ক্রিপ্ট ডিবাগার"
 
@@ -10892,11 +10894,11 @@ msgstr "JavaScript"
 msgid "&Abort"
 msgstr "থামা&ও"
 
-#: khtml/ecma/kjs_window.cpp:1566 khtml/ecma/kjs_html.cpp:2109
+#: khtml/ecma/kjs_window.cpp:1567 khtml/ecma/kjs_html.cpp:2109
 msgid "Confirmation: JavaScript Popup"
 msgstr "অনুমোদন: জাভাস্ক্রিপ্ট পপ-আপ"
 
-#: khtml/ecma/kjs_window.cpp:1569
+#: khtml/ecma/kjs_window.cpp:1570
 msgid ""
 "This site is requesting to open up a new browser window via JavaScript.\n"
 "Do you want to allow this?"
@@ -10904,7 +10906,7 @@ msgstr ""
 "এই সাইটটি জাভাস্ক্রিপ্ট-এর মাধ্যমে একটি নতুন ব্রাইজার উইণ্ডো খুলতে চাইছে।\n"
 "আপনি কি তাই চান?"
 
-#: khtml/ecma/kjs_window.cpp:1572
+#: khtml/ecma/kjs_window.cpp:1573
 #, kde-format
 msgid ""
 "<qt>This site is requesting to open<p>%1</p>in a new browser window via "
@@ -10913,30 +10915,30 @@ msgstr ""
 "<qt>এই সাইটটি জাভাস্ক্রিপ্ট-এর মাধ্যমে একটি নতুন ব্রাইজার উইণ্ডোয় <p>%1</p>খুলতে "
 "চাইছে। <br/>আপনি কি তাই চান?</qt>"
 
-#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1575 khtml/ecma/kjs_html.cpp:2116
 msgid "Allow"
 msgstr "হ্যাঁ"
 
-#: khtml/ecma/kjs_window.cpp:1574 khtml/ecma/kjs_html.cpp:2116
+#: khtml/ecma/kjs_window.cpp:1575 khtml/ecma/kjs_html.cpp:2116
 msgid "Do Not Allow"
 msgstr "না"
 
-#: khtml/ecma/kjs_window.cpp:1866
+#: khtml/ecma/kjs_window.cpp:1867
 msgid "Close window?"
 msgstr "উইণ্ডো বন্ধ করব?"
 
-#: khtml/ecma/kjs_window.cpp:1866
+#: khtml/ecma/kjs_window.cpp:1867
 msgid "Confirmation Required"
 msgstr "অনুমোদন প্রয়োজন"
 
-#: khtml/ecma/kjs_window.cpp:2816
+#: khtml/ecma/kjs_window.cpp:2817
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" to be added to your "
 "collection?"
 msgstr "আপনি কি আপনার সংকলনে \"%1\" অবস্থানটির জন্য একটি বুকমার্ক যোগ করতে চান?"
 
-#: khtml/ecma/kjs_window.cpp:2819
+#: khtml/ecma/kjs_window.cpp:2820
 #, kde-format
 msgid ""
 "Do you want a bookmark pointing to the location \"%1\" titled \"%2\" to be "
@@ -10945,15 +10947,15 @@ msgstr ""
 "আপনি কি আপনার সংকলনে \"%1\" অবস্থানটির জন্য \"%2\" শিরোনামের একটি বুকমার্ক যোগ "
 "করতে চান?"
 
-#: khtml/ecma/kjs_window.cpp:2827
+#: khtml/ecma/kjs_window.cpp:2828
 msgid "JavaScript Attempted Bookmark Insert"
 msgstr "জাভাস্ক্রিপ্ট বুকমার্ক যোগ করার চেষ্টা করছে"
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2832
 msgid "Insert"
 msgstr "মধ্যে ঢোকাও"
 
-#: khtml/ecma/kjs_window.cpp:2831
+#: khtml/ecma/kjs_window.cpp:2832
 msgid "Disallow"
 msgstr "অনুমতি দিও না"
 
@@ -10977,41 +10979,41 @@ msgstr ""
 "<qt>এই সাইটটি এমন একটি ফর্ম জমা দিচ্ছে যার ফলে জাভাস্ক্রিপ্ট ব্যবহার করে একটি নতুন "
 "উইণ্ডোয়<p>%1</p> খোলা হবে। <br/> আপনি কি ফর্মটি জমা দিতে চান?"
 
-#: khtml/ecma/debugger/scriptsdock.cpp:37
+#: khtml/ecma/debugger/scriptsdock.cpp:38
 #, fuzzy
 msgid "Loaded Scripts"
 msgstr "স্ক্রিপ্ট (&স)"
 
-#: khtml/ecma/debugger/execstatemodel.cpp:238
+#: khtml/ecma/debugger/execstatemodel.cpp:240
 #, fuzzy
 #| msgid "Reference error"
 msgid "Reference"
 msgstr "Reference error"
 
-#: khtml/ecma/debugger/execstatemodel.cpp:240
+#: khtml/ecma/debugger/execstatemodel.cpp:242
 #, fuzzy
 #| msgid "Type"
 msgid "Type"
 msgstr "ধরন"
 
-#: khtml/ecma/debugger/localvariabledock.cpp:41
+#: khtml/ecma/debugger/localvariabledock.cpp:43
 msgid "Local Variables"
 msgstr ""
 
-#: khtml/ecma/debugger/debugwindow.cpp:124
+#: khtml/ecma/debugger/debugwindow.cpp:119
 msgid ""
 "A KDE text-editor component could not be found;\n"
 "please check your KDE installation."
 msgstr ""
 
+#: khtml/ecma/debugger/debugwindow.cpp:171
 #: khtml/ecma/debugger/debugwindow.cpp:172
-#: khtml/ecma/debugger/debugwindow.cpp:173
 #, fuzzy
 msgid "Continue script execution"
 msgstr "কাজ চালিয়ে যাও"
 
+#: khtml/ecma/debugger/debugwindow.cpp:178
 #: khtml/ecma/debugger/debugwindow.cpp:179
-#: khtml/ecma/debugger/debugwindow.cpp:180
 msgid "Stop script execution"
 msgstr ""
 
@@ -11047,35 +11049,35 @@ msgstr "নথী বন্ধ করো"
 msgid "Ready"
 msgstr "নতুন করে পড়ো"
 
-#: khtml/ecma/debugger/breakpointsdock.cpp:28
+#: khtml/ecma/debugger/breakpointsdock.cpp:30
 msgid "Breakpoints"
 msgstr ""
 
-#: khtml/ecma/debugger/consoledock.cpp:31
+#: khtml/ecma/debugger/consoledock.cpp:33
 #, fuzzy
 #| msgid "Close"
 msgid "Console"
 msgstr "বন্ধ করো"
 
-#: khtml/ecma/debugger/consoledock.cpp:39
+#: khtml/ecma/debugger/consoledock.cpp:41
 #, fuzzy
 #| msgctxt "QAccel"
 #| msgid "Enter"
 msgid "Enter"
 msgstr "Enter"
 
-#: khtml/ecma/debugger/callstackdock.cpp:33
+#: khtml/ecma/debugger/callstackdock.cpp:36
 #, fuzzy
 #| msgid "Call stack"
 msgid "Call Stack"
 msgstr "কল স্ট্যাক"
 
-#: khtml/ecma/debugger/callstackdock.cpp:37
+#: khtml/ecma/debugger/callstackdock.cpp:40
 #, fuzzy
 msgid "Call"
 msgstr "ইনস্টল"
 
-#: khtml/ecma/debugger/callstackdock.cpp:37
+#: khtml/ecma/debugger/callstackdock.cpp:40
 #, fuzzy
 #| msgid "Line up"
 msgid "Line"
