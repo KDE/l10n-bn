@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knode\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-19 08:58+0100\n"
+"POT-Creation-Date: 2008-01-22 07:59+0100\n"
 "PO-Revision-Date: 2004-10-02 13:32-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -267,7 +267,7 @@ msgid ""
 "%1"
 msgstr "এই বার্তাগুলি প্রেরণ করাকালীন সমস্যা দেখা দিয়েছে:"
 
-#: articlewidget.cpp:1418 kncomposer.cpp:1265
+#: articlewidget.cpp:1418 kncomposer.cpp:1277
 msgid "Select Charset"
 msgstr "বর্ণমালা নির্বাচন করুন"
 
@@ -330,7 +330,7 @@ msgstr "আপনি কি সত্যিই এই অ্যাকাউন�
 #. i18n: file nntpaccountlistwidget_base.ui line 71
 #: knaccountmanager.cpp:148 knarticlemanager.cpp:586 knconfigwidgets.cpp:903
 #: knconfigwidgets.cpp:995 knconfigwidgets.cpp:1253 knfiltermanager.cpp:263
-#: knmainwidget.cpp:1653 knmainwidget.cpp:1704 rc.cpp:378
+#: knmainwidget.cpp:1653 knmainwidget.cpp:1704 rc.cpp:381
 #, fuzzy
 msgid "&Delete"
 msgstr "মুছে ফেলো (&ছ)"
@@ -430,7 +430,7 @@ msgstr "&এখন"
 msgid "&Later"
 msgstr "&পরে"
 
-#: knarticlefactory.cpp:382 knarticlefactory.cpp:460 kncomposer.cpp:1499
+#: knarticlefactory.cpp:382 knarticlefactory.cpp:460 kncomposer.cpp:1516
 msgid "You have no valid news accounts configured."
 msgstr "আপনার কোন বৈধ সংবাদ অ্যাকাউন্ট কনফিগার করা নেই।"
 
@@ -774,54 +774,58 @@ msgstr "বর্ণমালা নির্ধারণ করো"
 msgid "&Word Wrap"
 msgstr "শব্দ ঘুরিয়ে"
 
-#: kncomposer.cpp:324
+#: kncomposer.cpp:321
+msgid "&Automatic Spellchecking"
+msgstr ""
+
+#: kncomposer.cpp:332
 msgid "Add &Quote Characters"
 msgstr "&উদ্ধৃতিচিহ্ন যোগ করো"
 
-#: kncomposer.cpp:328
+#: kncomposer.cpp:336
 msgid "&Remove Quote Characters"
 msgstr "উদ্ধৃতিচিহ্ন &সরিয়ে ফেলো"
 
-#: kncomposer.cpp:332
+#: kncomposer.cpp:340
 msgid "Add &Box"
 msgstr "বাক্স যো&গ করো"
 
-#: kncomposer.cpp:336
+#: kncomposer.cpp:344
 msgid "Re&move Box"
 msgstr "বাক্স সরিয়ে ফেলো (&র)"
 
-#: kncomposer.cpp:340
+#: kncomposer.cpp:348
 #, fuzzy
 msgid "Get &Original Text (not re-wrapped)"
 msgstr "পাওয়া প্রকৃত লেখা/টেক্সট নয় মোড়ানো"
 
-#: kncomposer.cpp:346
+#: kncomposer.cpp:354
 msgid "S&cramble (Rot 13)"
 msgstr ""
 
-#: kncomposer.cpp:353
+#: kncomposer.cpp:361
 msgid "Start &External Editor"
 msgstr "&বহিঃস্থ সম্পাদক চালু করো"
 
-#: kncomposer.cpp:580 kncomposer.cpp:587 kncomposer.cpp:1222
+#: kncomposer.cpp:592 kncomposer.cpp:599 kncomposer.cpp:1234
 msgid "<posted & mailed>"
 msgstr ""
 
-#: kncomposer.cpp:583 kncomposer.cpp:1223
+#: kncomposer.cpp:595 kncomposer.cpp:1235
 msgid ""
 "<posted & mailed>\n"
 "\n"
 msgstr ""
 
-#: kncomposer.cpp:606
+#: kncomposer.cpp:618
 msgid "Please enter a subject."
 msgstr "অনুগ্রহ করে একটি বিষয় নির্ধারণ করুন।"
 
-#: kncomposer.cpp:614
+#: kncomposer.cpp:626
 msgid "Please enter a newsgroup."
 msgstr "অনুগ্রহ করে একটি নিউজ-গ্রুপ নির্ধারণ করুন।"
 
-#: kncomposer.cpp:623
+#: kncomposer.cpp:635
 msgid ""
 "You are crossposting to more than 12 newsgroups.\n"
 "Please remove all newsgroups in which your article is off-topic."
@@ -829,7 +833,7 @@ msgstr ""
 "আপনি একই সঙ্গে ১২-টির বেশী নিউজ-গ্রুপ-এ পাঠাচ্ছেন।\n"
 "অনুগ্রহ করে যে সব নিউজ-গ্রুপ-এ আপনার বার্তা প্রাসঙ্গিক নয় সেগুলি সরিয়ে ফেলুন। "
 
-#: kncomposer.cpp:628
+#: kncomposer.cpp:640
 msgid ""
 "You are crossposting to more than five newsgroups.\n"
 "Please reconsider whether this is really useful\n"
@@ -841,18 +845,18 @@ msgstr ""
 "এবং যে যে গ্রুপ-এ তা নয় সেগুলি সরিয়ে ফেলুন।\n"
 "আপনি কি আপনার বার্তাটি সম্পাদন করতে চান না যেমন আছে তেমনই পাঠাতে চান?"
 
-#: kncomposer.cpp:629 kncomposer.cpp:638 kncomposer.cpp:650 kncomposer.cpp:721
-#: kncomposer.cpp:735 kncomposer.cpp:741
+#: kncomposer.cpp:641 kncomposer.cpp:650 kncomposer.cpp:662 kncomposer.cpp:733
+#: kncomposer.cpp:747 kncomposer.cpp:753
 msgid "&Send"
 msgstr "পাঠা&ও"
 
-#: kncomposer.cpp:629 kncomposer.cpp:638 kncomposer.cpp:650 kncomposer.cpp:721
-#: kncomposer.cpp:736 kncomposer.cpp:741
+#: kncomposer.cpp:641 kncomposer.cpp:650 kncomposer.cpp:662 kncomposer.cpp:733
+#: kncomposer.cpp:748 kncomposer.cpp:753
 msgctxt "edit article"
 msgid "&Edit"
 msgstr "সম্পা&দন করো"
 
-#: kncomposer.cpp:634
+#: kncomposer.cpp:646
 #, fuzzy
 msgid ""
 "You are crossposting to more than two newsgroups.\n"
@@ -863,14 +867,14 @@ msgstr ""
 "আপনি প্রতি আরো/বেশী চেয়ে দুই ব্যবহার টি প্রতি হেডার প্রতি সরাসরি উত্তর প্রতি আপনার "
 "ভেতরে এক সমষ্টি,দল,গ্রুপ আপনি চাই প্রতি সম্পাদন টি অথবা পাঠাও এটি?"
 
-#: kncomposer.cpp:644
+#: kncomposer.cpp:656
 #, fuzzy
 msgid ""
 "You are directing replies to more than 12 newsgroups.\n"
 "Please remove some newsgroups from the \"Followup-To\" header."
 msgstr "আপনি উত্তর প্রতি আরো/বেশী চেয়ে সরাও কিছু থেকে টি প্রতি হেডার."
 
-#: kncomposer.cpp:649
+#: kncomposer.cpp:661
 #, fuzzy
 msgid ""
 "You are directing replies to more than five newsgroups.\n"
@@ -880,11 +884,11 @@ msgstr ""
 "আপনি উত্তর প্রতি আরো/বেশী চেয়ে পাঁচ কি না এই আছে সত্যিই কাজের আপনি চাই প্রতি "
 "সম্পাদন টি অথবা পাঠাও এটি?"
 
-#: kncomposer.cpp:656
+#: kncomposer.cpp:668
 msgid "Please enter the email address."
 msgstr "অনুগ্রহ করে ই-মেইল ঠিকানা লিখুন।"
 
-#: kncomposer.cpp:709
+#: kncomposer.cpp:721
 #, fuzzy
 msgid ""
 "Your message contains characters which are not included\n"
@@ -894,11 +898,11 @@ msgstr ""
 "আপনার বার্তা ধারণ করে অক্ষর কোন নয় অন্তর্ভুক্ত টি অ্যাসকি বর্ণ, অক্ষর সেট/সমষ্টি/"
 "নির্ধারণ অনুগ্রহ করে বেছে নিন মানানসই বর্ণ, অক্ষর সেট/সমষ্টি/নির্ধারণ থেকে টি মেনু."
 
-#: kncomposer.cpp:714
+#: kncomposer.cpp:726
 msgid "You cannot post an empty message."
 msgstr "ফাঁকা বার্তা পাঠানো যাবে না।"
 
-#: kncomposer.cpp:720
+#: kncomposer.cpp:732
 msgid ""
 "Your article seems to consist entirely of quoted text;\n"
 "do you want to re-edit the article or send it anyway?"
@@ -906,13 +910,13 @@ msgstr ""
 "মনে হচ্ছে আপনার বার্তায় পুরনো উদ্ধৃতি ছাড়া নতুন কিছু নেই;\n"
 "আপনি কি আপনার বার্তাটি সম্পাদন করতে চান না যেমন আছে তেমনই পাঠাতে চান?"
 
-#: kncomposer.cpp:725
+#: kncomposer.cpp:737
 msgid ""
 "You cannot post an article consisting\n"
 "entirely of quoted text."
 msgstr "শুধুমাত্র উদ্ধৃতি সমেত বার্তা পাঠানো যায় না।"
 
-#: kncomposer.cpp:733
+#: kncomposer.cpp:745
 #, fuzzy
 msgid ""
 "Your article contains lines longer than 80 characters.\n"
@@ -920,7 +924,7 @@ msgid ""
 msgstr ""
 "আপনার ধারণ করে দীর্ঘতর চেয়ে অক্ষর আপনি চাই প্রতি সম্পাদন টি অথবা পাঠাও এটি?"
 
-#: kncomposer.cpp:740
+#: kncomposer.cpp:752
 #, fuzzy
 msgid ""
 "Your signature is more than 8 lines long.\n"
@@ -930,7 +934,7 @@ msgstr ""
 "আপনার স্বাক্ষর আছে আরো/বেশী চেয়ে লম্বা উচিত এটি প্রতি মিল টি গৃহিত সীমা -র আপনি "
 "চাই প্রতি সম্পাদন টি অথবা পাঠাও এটি?"
 
-#: kncomposer.cpp:745
+#: kncomposer.cpp:757
 #, fuzzy
 msgid ""
 "Your signature exceeds the widely-accepted limit of 4 lines:\n"
@@ -940,7 +944,7 @@ msgstr ""
 "আপনার স্বাক্ষর ছাড়িয়ে যাওয়া টি গৃহিত সীমা -র বিবেচনা আপনার স্বাক্ষর আপনি সম্ভবত "
 "আপনার."
 
-#: kncomposer.cpp:767
+#: kncomposer.cpp:779
 #, fuzzy
 msgid ""
 "You have not configured your preferred signing key yet;\n"
@@ -951,23 +955,23 @@ msgstr ""
 "আপনি নয় কনফিগার করা আপনার পছন্দের কী (Key) এখনো উল্লেখ করুন এটি -এ টি গ্লোবাল "
 "কনফিগারেশন টি অ্যাকাউন্ট বৈশিষ্ট্য অথবা -এ টি সমষ্টি,দল,গ্রুপ বৈশিষ্ট্য প্রেরিত."
 
-#: kncomposer.cpp:774
+#: kncomposer.cpp:786
 msgid "Send Unsigned"
 msgstr "অস্বাক্ষরিত অবস্থায় পাঠাও"
 
-#: kncomposer.cpp:931
+#: kncomposer.cpp:943
 msgid "Do you want to save this article in the draft folder?"
 msgstr "আপনি কি এই বার্তাটি খসড়া ফোল্ডার-এ সংরক্ষণ করতে চান?"
 
-#: kncomposer.cpp:1058
+#: kncomposer.cpp:1070
 msgid "Insert File"
 msgstr "ফাইল অন্তর্ভুক্ত করো"
 
-#: kncomposer.cpp:1136
+#: kncomposer.cpp:1148
 msgid "Attach File"
 msgstr "ফাইল সংযুক্ত করো"
 
-#: kncomposer.cpp:1212
+#: kncomposer.cpp:1224
 #, fuzzy
 msgid ""
 "The poster does not want a mail copy of your reply (Mail-Copies-To: "
@@ -976,23 +980,23 @@ msgid ""
 msgstr ""
 "টি পোস্টার করে নয় চাই একটি মেইল কপি -র আপনার মেইল কপি প্রতি তাদের অনুরোধ/আবেদন."
 
-#: kncomposer.cpp:1213
+#: kncomposer.cpp:1225
 msgid "&Send Copy"
 msgstr "কপি পাঠা&ও"
 
-#: kncomposer.cpp:1281
+#: kncomposer.cpp:1298
 #, fuzzy
 msgid "This will replace all text you have written."
 msgstr "এই বদল সমস্ত লেখা/টেক্সট আপনি লিখিত."
 
-#: kncomposer.cpp:1295
+#: kncomposer.cpp:1312
 #, fuzzy
 msgid ""
 "No editor configured.\n"
 "Please do this in the settings dialog."
 msgstr "না সম্পাদক কনফিগার করা এই -এ টি বৈশিষ্ট্যাবলী ডায়ালগ."
 
-#: kncomposer.cpp:1354
+#: kncomposer.cpp:1371
 #, fuzzy
 msgid ""
 "Unable to start external editor.\n"
@@ -1001,129 +1005,125 @@ msgstr ""
 "অক্ষম/করা যায়নি প্রতি আরম্ভ/শুরু বহিস্থ সম্পাদক পরীক্ষা আপনার কনফিগারেশন -এ টি "
 "বৈশিষ্ট্যাবলী ডায়ালগ."
 
-#: kncomposer.cpp:1371
+#: kncomposer.cpp:1388
 msgid "News Article"
 msgstr "সংবাদ বার্তা"
 
-#: kncomposer.cpp:1373
+#: kncomposer.cpp:1390
 msgid "Email"
 msgstr "ই-মেইল"
 
-#: kncomposer.cpp:1375
+#: kncomposer.cpp:1392
 msgid "News Article & Email"
 msgstr "সংবাদ বার্তা এবং ই-মেইল"
 
-#: kncomposer.cpp:1379
+#: kncomposer.cpp:1396
 msgid " OVR "
 msgstr " OVR "
 
-#: kncomposer.cpp:1381
+#: kncomposer.cpp:1398
 msgid " INS "
 msgstr " INS "
 
-#: kncomposer.cpp:1383
+#: kncomposer.cpp:1400
 #, kde-format
 msgid " Type: %1 "
 msgstr " ধরন: %1 "
 
-#: kncomposer.cpp:1384
+#: kncomposer.cpp:1401
 #, kde-format
 msgid " Charset: %1 "
 msgstr " বর্ণমালা: %1 "
 
-#: kncomposer.cpp:1386 kncomposer.cpp:1393
+#: kncomposer.cpp:1403 kncomposer.cpp:1410
 #, kde-format
 msgid " Column: %1 "
 msgstr " কলাম: %1"
 
-#: kncomposer.cpp:1387 kncomposer.cpp:1394
+#: kncomposer.cpp:1404 kncomposer.cpp:1411
 #, kde-format
 msgid " Line: %1 "
 msgstr " লাইন: %1"
 
-#: kncomposer.cpp:1437
+#: kncomposer.cpp:1454
 msgid "No Subject"
 msgstr "বিষয় অনির্দিষ্ট"
 
-#: kncomposer.cpp:1651
+#: kncomposer.cpp:1668
 #, fuzzy
 msgid ""
 "ISpell could not be started.\n"
 "Please make sure you have ISpell properly configured and in your PATH."
 msgstr "পারে নয় আরম্ভ করা make নিশ্চিত আপনি সঠিকভাবে কনফিগার করা এবং -এ আপনার."
 
-#: kncomposer.cpp:1656
+#: kncomposer.cpp:1673
 msgid "ISpell seems to have crashed."
 msgstr "মনে হয় আই-স্পেল ক্র্যাশ করেছে।"
 
-#: kncomposer.cpp:1663
+#: kncomposer.cpp:1680
 msgid "No misspellings encountered."
 msgstr "কোন বানান ভুল পাওয়া যায়নি"
 
-#: kncomposer.cpp:1789
-msgid "Suggestions"
-msgstr ""
-
-#: kncomposer.cpp:2032 kncomposer.cpp:2095
+#: kncomposer.cpp:1743 kncomposer.cpp:1806
 #, fuzzy
 msgid "File"
 msgstr "ফিল্টার"
 
-#: kncomposer.cpp:2033
+#: kncomposer.cpp:1744
 msgid "Type"
 msgstr "ধরন"
 
-#: kncomposer.cpp:2034
+#: kncomposer.cpp:1745
 msgid "Size"
 msgstr "মাপ"
 
-#: kncomposer.cpp:2035 kngroupbrowser.cpp:94 kngrouppropdlg.cpp:85
+#: kncomposer.cpp:1746 kngroupbrowser.cpp:94 kngrouppropdlg.cpp:85
 msgid "Description"
 msgstr "বর্ণনা"
 
-#: kncomposer.cpp:2036
+#: kncomposer.cpp:1747
 msgid "Encoding"
 msgstr "এনকোডিং"
 
-#: kncomposer.cpp:2088
+#: kncomposer.cpp:1799
 #, fuzzy
 msgid "Attachment Properties"
 msgstr "সংযুক্ত বৈশিষ্ট্য"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 198
-#: kncomposer.cpp:2101 kngrouppropdlg.cpp:93 rc.cpp:363
+#: kncomposer.cpp:1812 kngrouppropdlg.cpp:93 rc.cpp:366
 msgid "Name:"
 msgstr "নাম:"
 
-#: kncomposer.cpp:2103
+#: kncomposer.cpp:1814
 msgid "Size:"
 msgstr "মাপ:"
 
-#: kncomposer.cpp:2110
+#: kncomposer.cpp:1821
 msgid "Mime"
 msgstr "মাইম"
 
-#: kncomposer.cpp:2119
+#: kncomposer.cpp:1830
 msgid "&Mime-Type:"
 msgstr "মাইম-টাইপ:"
 
-#: kncomposer.cpp:2126
+#: kncomposer.cpp:1837
 msgid "&Description:"
 msgstr "&বর্ণনা:"
 
-#: kncomposer.cpp:2143
+#: kncomposer.cpp:1854
 msgid "&Encoding:"
 msgstr "&এনকোডিং:"
 
-#: kncomposer.cpp:2178
+#: kncomposer.cpp:1889
 #, fuzzy
 msgid ""
 "You have set an invalid mime-type.\n"
 "Please change it."
 msgstr "আপনি সেট/সমষ্টি/নির্ধারণ একটি অবৈধ মাইম ধরন/টাইপ পরিবর্তন এটি."
 
-#: kncomposer.cpp:2183
+#: kncomposer.cpp:1894
 #, fuzzy
 msgid ""
 "You have changed the mime-type of this non-textual attachment\n"
@@ -1198,7 +1198,7 @@ msgstr "মেইল সার্ভার (SMTP)"
 #. i18n: file postnewscomposerwidget_base.ui line 23
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 25
-#: knconfigpages.cpp:139 rc.cpp:384 rc.cpp:425
+#: knconfigpages.cpp:139 rc.cpp:387 rc.cpp:428
 msgid "General"
 msgstr "সাধারণ"
 
@@ -1229,8 +1229,8 @@ msgid "Technical"
 msgstr "প্রযুক্তিগত"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 351
-#: knconfigpages.cpp:165 rc.cpp:273
+#. i18n: file knode.kcfg line 355
+#: knconfigpages.cpp:165 rc.cpp:276
 msgid "Composer"
 msgstr "রচনাক্ষেত্র"
 
@@ -1460,7 +1460,7 @@ msgstr "পরিবর্তন."
 #. i18n: file nntpaccountlistwidget_base.ui line 57
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 136
-#: knconfigwidgets.cpp:899 knconfigwidgets.cpp:1241 rc.cpp:372 rc.cpp:455
+#: knconfigwidgets.cpp:899 knconfigwidgets.cpp:1241 rc.cpp:375 rc.cpp:458
 #, fuzzy
 msgid "&Add..."
 msgstr "যো&গ করো..."
@@ -3043,7 +3043,7 @@ msgstr " সাজানো হচ্ছে..."
 #. i18n: file knodeui.rc line 5
 #. i18n: tag text
 #. i18n: file knreaderui.rc line 5
-#: rc.cpp:3 rc.cpp:282 rc.cpp:315
+#: rc.cpp:3 rc.cpp:285 rc.cpp:318
 #, fuzzy
 msgid "&File"
 msgstr "ফিল্টা&র"
@@ -3054,7 +3054,7 @@ msgstr "ফিল্টা&র"
 #. i18n: file knodeui.rc line 15
 #. i18n: tag text
 #. i18n: file knreaderui.rc line 11
-#: rc.cpp:6 rc.cpp:285 rc.cpp:318
+#: rc.cpp:6 rc.cpp:288 rc.cpp:321
 #, fuzzy
 msgid "&Edit"
 msgstr "সম্পা&দন করো"
@@ -3072,23 +3072,23 @@ msgid "Optio&ns"
 msgstr "&অপশন"
 
 #. i18n: tag text
-#. i18n: file kncomposerui.rc line 40
+#. i18n: file kncomposerui.rc line 42
 #: rc.cpp:15
 msgid "&Tools"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kncomposerui.rc line 55
+#. i18n: file kncomposerui.rc line 57
 #. i18n: tag text
 #. i18n: file knodeui.rc line 131
 #. i18n: tag text
 #. i18n: file knreaderui.rc line 38
-#: rc.cpp:18 rc.cpp:312 rc.cpp:327
+#: rc.cpp:18 rc.cpp:315 rc.cpp:330
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: tag text
-#. i18n: file kncomposerui.rc line 97
+#. i18n: file kncomposerui.rc line 99
 #: rc.cpp:21
 msgid "Spell Result"
 msgstr "বানান ফলাফল"
@@ -3181,7 +3181,7 @@ msgstr "সূত্র দেখা&ও"
 #. i18n: file knode.kcfg line 63
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 163
-#: rc.cpp:60 rc.cpp:504
+#: rc.cpp:60 rc.cpp:507
 #, fuzzy
 msgid "Standard format"
 msgstr "হেডার"
@@ -3190,7 +3190,7 @@ msgstr "হেডার"
 #. i18n: file knode.kcfg line 66
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 170
-#: rc.cpp:63 rc.cpp:507
+#: rc.cpp:63 rc.cpp:510
 msgid "Localized format"
 msgstr ""
 
@@ -3198,7 +3198,7 @@ msgstr ""
 #. i18n: file knode.kcfg line 69
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 177
-#: rc.cpp:66 rc.cpp:510
+#: rc.cpp:66 rc.cpp:513
 msgid "Fancy format"
 msgstr ""
 
@@ -3326,7 +3326,7 @@ msgstr "ফিক্স&ড ফন্ট ব্যবহার করো"
 #. i18n: file knode.kcfg line 148
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 57
-#: rc.cpp:137 rc.cpp:555
+#: rc.cpp:137 rc.cpp:558
 #, fuzzy
 msgid "Show reference bar"
 msgstr "না"
@@ -3335,7 +3335,7 @@ msgstr "না"
 #. i18n: file knode.kcfg line 152
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 122
-#: rc.cpp:140 rc.cpp:576
+#: rc.cpp:140 rc.cpp:579
 msgid "Prefer HTML to plain text"
 msgstr ""
 
@@ -3459,177 +3459,185 @@ msgstr "শব্দ ঘুরিয়ে -তে কলাম:"
 #. i18n: tag label
 #. i18n: file knode.kcfg line 241
 #: rc.cpp:198
-msgid "Maximum line length if word wrap is enabled"
-msgstr ""
+#, fuzzy
+#| msgid "Spellcheck"
+msgid "Automatic Spellchecking"
+msgstr "বানান পরীক্ষা"
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 245
 #: rc.cpp:201
-#, fuzzy
-msgid "Append own signature automatically"
-msgstr "স্বাক্ষর স্বয়ংক্রীয়ভাবে"
+msgid "Maximum line length if word wrap is enabled"
+msgstr ""
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 249
 #: rc.cpp:204
 #, fuzzy
-msgid "Rewrap quoted text automatically"
-msgstr "লেখা/টেক্সট স্বয়ংক্রীয়ভাবে"
+msgid "Append own signature automatically"
+msgstr "স্বাক্ষর স্বয়ংক্রীয়ভাবে"
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 253
 #: rc.cpp:207
 #, fuzzy
-msgid "Include the original author's signature in replies"
-msgstr "অন্তর্ভুক্ত করো টি লেখক s স্বাক্ষর"
+msgid "Rewrap quoted text automatically"
+msgstr "লেখা/টেক্সট স্বয়ংক্রীয়ভাবে"
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 257
 #: rc.cpp:210
 #, fuzzy
-msgid "Put the cursor below the introduction phrase"
-msgstr "রাখা টি কার্সার নীচে টি ভূমিকা শব্দসমষ্টি"
+msgid "Include the original author's signature in replies"
+msgstr "অন্তর্ভুক্ত করো টি লেখক s স্বাক্ষর"
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 261
 #: rc.cpp:213
 #, fuzzy
-msgid "Start external editor automatically"
-msgstr "আরম্ভ/শুরু বহিস্থ সম্পাদক স্বয়ংক্রীয়ভাবে"
+msgid "Put the cursor below the introduction phrase"
+msgstr "রাখা টি কার্সার নীচে টি ভূমিকা শব্দসমষ্টি"
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 265
 #: rc.cpp:216
 #, fuzzy
-msgid "Introduction phrase"
-msgstr "ভূমিকা শব্দসমষ্টি:"
+msgid "Start external editor automatically"
+msgstr "আরম্ভ/শুরু বহিস্থ সম্পাদক স্বয়ংক্রীয়ভাবে"
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 269
 #: rc.cpp:219
 #, fuzzy
+msgid "Introduction phrase"
+msgstr "ভূমিকা শব্দসমষ্টি:"
+
+#. i18n: tag label
+#. i18n: file knode.kcfg line 273
+#: rc.cpp:222
+#, fuzzy
 msgid "Path to external editor"
 msgstr "&বহিঃস্থ সম্পাদক চালু করো"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 277
-#: rc.cpp:222
+#. i18n: file knode.kcfg line 281
+#: rc.cpp:225
 #, fuzzy
 msgid "Use custom colors"
 msgstr "ব্যবহার স্বনির্বাচিত রং"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 281
-#: rc.cpp:225
+#. i18n: file knode.kcfg line 285
+#: rc.cpp:228
 msgid "Background"
 msgstr "পটভূমি"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 285
-#: rc.cpp:228
+#. i18n: file knode.kcfg line 289
+#: rc.cpp:231
 msgid "Alternate Background"
 msgstr "বিকল্প পটভূমি"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 289
-#: rc.cpp:231
+#. i18n: file knode.kcfg line 293
+#: rc.cpp:234
 msgid "Normal Text"
 msgstr "স্বাভাবিক লেখা"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 299
-#: rc.cpp:234
+#. i18n: file knode.kcfg line 303
+#: rc.cpp:237
 msgid "Link"
 msgstr "লিঙ্ক"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 303
-#: rc.cpp:237
+#. i18n: file knode.kcfg line 307
+#: rc.cpp:240
 msgid "Read Thread"
 msgstr "পড়া সূত্র"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 307
-#: rc.cpp:240
+#. i18n: file knode.kcfg line 311
+#: rc.cpp:243
 msgid "Unread Thread"
 msgstr "না পড়া সূত্র"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 311
-#: rc.cpp:243
+#. i18n: file knode.kcfg line 315
+#: rc.cpp:246
 msgid "Read Article"
 msgstr "পড়া বার্তা"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 315
-#: rc.cpp:246
+#. i18n: file knode.kcfg line 319
+#: rc.cpp:249
 msgid "Unread Article"
 msgstr "না পড়া বার্তা"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 319
-#: rc.cpp:249
-msgid "Valid Signature with Trusted Key"
-msgstr ""
-
-#. i18n: tag label
 #. i18n: file knode.kcfg line 323
 #: rc.cpp:252
-msgid "Valid Signature with Untrusted Key"
+msgid "Valid Signature with Trusted Key"
 msgstr ""
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 327
 #: rc.cpp:255
-#, fuzzy
-msgid "Unchecked Signature"
-msgstr "বেছে নিন স্বাক্ষর"
+msgid "Valid Signature with Untrusted Key"
+msgstr ""
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 331
 #: rc.cpp:258
 #, fuzzy
-msgid "Bad Signature"
-msgstr "স্বাক্ষর যো&গ করো"
+msgid "Unchecked Signature"
+msgstr "বেছে নিন স্বাক্ষর"
 
 #. i18n: tag label
 #. i18n: file knode.kcfg line 335
 #: rc.cpp:261
+#, fuzzy
+msgid "Bad Signature"
+msgstr "স্বাক্ষর যো&গ করো"
+
+#. i18n: tag label
+#. i18n: file knode.kcfg line 339
+#: rc.cpp:264
 msgid "HTML Message Warning"
 msgstr ""
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 340
-#: rc.cpp:264
+#. i18n: file knode.kcfg line 344
+#: rc.cpp:267
 #, fuzzy
 msgid "Use custom fonts"
 msgstr "স্বনির্বাচিত &ফন্ট ব্যবহার করো"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 344
-#: rc.cpp:267
+#. i18n: file knode.kcfg line 348
+#: rc.cpp:270
 msgid "Article Body"
 msgstr "বার্তার প্রধান অংশ"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 347
-#: rc.cpp:270
+#. i18n: file knode.kcfg line 351
+#: rc.cpp:273
 #, fuzzy
 msgid "Article Body (Fixed)"
 msgstr "দেহ, প্রধান অংশ স্থায়ী"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 354
-#: rc.cpp:276
+#. i18n: file knode.kcfg line 358
+#: rc.cpp:279
 #, fuzzy
 msgid "Group List"
 msgstr "সমষ্টি,দল,গ্রুপ তালিকা"
 
 #. i18n: tag label
-#. i18n: file knode.kcfg line 357
+#. i18n: file knode.kcfg line 361
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 94
-#: rc.cpp:279 rc.cpp:480
+#: rc.cpp:282 rc.cpp:483
 msgid "Article List"
 msgstr "বার্তা তালিকা"
 
@@ -3637,32 +3645,32 @@ msgstr "বার্তা তালিকা"
 #. i18n: file knodeui.rc line 24
 #. i18n: tag text
 #. i18n: file knreaderui.rc line 16
-#: rc.cpp:288 rc.cpp:321
+#: rc.cpp:291 rc.cpp:324
 #, fuzzy
 msgid "&View"
 msgstr "প্রদর্শক"
 
 #. i18n: tag text
 #. i18n: file knodeui.rc line 45
-#: rc.cpp:291
+#: rc.cpp:294
 msgid "&Go"
 msgstr "যা&ও"
 
 #. i18n: tag text
 #. i18n: file knodeui.rc line 55
-#: rc.cpp:294
+#: rc.cpp:297
 msgid "A&ccount"
 msgstr "অ্যাকা&উন্ট"
 
 #. i18n: tag text
 #. i18n: file knodeui.rc line 64
-#: rc.cpp:297
+#: rc.cpp:300
 msgid "G&roup"
 msgstr "গ্রু&প"
 
 #. i18n: tag text
 #. i18n: file knodeui.rc line 77
-#: rc.cpp:300
+#: rc.cpp:303
 msgid "Fol&der"
 msgstr "ফোল্ডা&র"
 
@@ -3670,105 +3678,105 @@ msgstr "ফোল্ডা&র"
 #. i18n: file knodeui.rc line 91
 #. i18n: tag text
 #. i18n: file knreaderui.rc line 28
-#: rc.cpp:303 rc.cpp:324
+#: rc.cpp:306 rc.cpp:327
 msgid "&Article"
 msgstr "বার্তা (&ব)"
 
 #. i18n: tag text
 #. i18n: file knodeui.rc line 111
-#: rc.cpp:306
+#: rc.cpp:309
 msgid "Sc&oring"
 msgstr ""
 
 #. i18n: tag text
 #. i18n: file knodeui.rc line 121
-#: rc.cpp:309
+#: rc.cpp:312
 #, fuzzy
 msgid "&Settings"
 msgstr "পছন্দ"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 41
-#: rc.cpp:330
+#: rc.cpp:333
 #, fuzzy
 msgid "min"
 msgstr " মিনিট"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 57
-#: rc.cpp:333
+#: rc.cpp:336
 #, fuzzy
 msgid "Enable &interval news checking"
 msgstr "সক্রিয় বিরতি সংবাদ পরীক্ষা করা হচ্ছে"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 67
-#: rc.cpp:336
+#: rc.cpp:339
 #, fuzzy
 msgid "Check inter&val:"
 msgstr "পরীক্ষা বিরতি:"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 90
-#: rc.cpp:339
+#: rc.cpp:342
 #, fuzzy
 msgid "Fetch group descriptions"
 msgstr "সমষ্টি,দল,গ্রুপ বর্ণনা"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 97
-#: rc.cpp:342
+#: rc.cpp:345
 #, fuzzy
 msgid "Server requires &authentication"
 msgstr "সার্ভার প্রয়োজন হয় সত্যতা যাচাই"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 130
-#: rc.cpp:345
+#: rc.cpp:348
 msgid "Pass&word:"
 msgstr "পা&সওয়ার্ড:"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 143
-#: rc.cpp:348
+#: rc.cpp:351
 msgid "&User:"
 msgstr "ব্য&বহারকারী:"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 153
-#: rc.cpp:351
+#: rc.cpp:354
 #, fuzzy
 msgid "Encryption"
 msgstr "বর্ণনা"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 165
-#: rc.cpp:354
+#: rc.cpp:357
 #, fuzzy
 msgid "None"
 msgstr "কে-নোড"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 175
-#: rc.cpp:357
+#: rc.cpp:360
 msgid "SSL"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 185
-#: rc.cpp:360
+#: rc.cpp:363
 msgid "TLS"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 208
-#: rc.cpp:366
+#: rc.cpp:369
 msgid "&Server:"
 msgstr "সার্ভার (&স):"
 
 #. i18n: tag string
 #. i18n: file nntpaccountdialog_base.ui line 218
-#: rc.cpp:369
+#: rc.cpp:372
 msgid "&Port:"
 msgstr "পোর্ট (&প):"
 
@@ -3776,47 +3784,47 @@ msgstr "পোর্ট (&প):"
 #. i18n: file nntpaccountlistwidget_base.ui line 64
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 122
-#: rc.cpp:375 rc.cpp:449
+#: rc.cpp:378 rc.cpp:452
 #, fuzzy
 msgid "&Edit..."
 msgstr "পরিবর্তন কিছু জিনিষ."
 
 #. i18n: tag string
 #. i18n: file nntpaccountlistwidget_base.ui line 78
-#: rc.cpp:381
+#: rc.cpp:384
 msgid "&Subscribe..."
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 35
-#: rc.cpp:387
+#: rc.cpp:390
 #, fuzzy
 msgid "Appe&nd signature automatically"
 msgstr "স্বাক্ষর স্বয়ংক্রীয়ভাবে"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 45
-#: rc.cpp:390
+#: rc.cpp:393
 #, fuzzy
 msgid "Word &wrap at column:"
 msgstr "শব্দ ঘুরিয়ে -তে কলাম:"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 55
-#: rc.cpp:393
+#: rc.cpp:396
 msgid "Reply"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 67
-#: rc.cpp:396
+#: rc.cpp:399
 #, fuzzy
 msgid "&Introduction phrase:"
 msgstr "ভূমিকা শব্দসমষ্টি:"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 80
-#: rc.cpp:400
+#: rc.cpp:403
 #, fuzzy, no-c-format
 msgid ""
 "<qt>Placeholders: <b>%NAME</b>=sender's name, <b>%EMAIL</b>=sender's address,"
@@ -3826,112 +3834,112 @@ msgstr "নাম ই-মেইল ঠিকানা তারিখ বার�
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 90
-#: rc.cpp:403
+#: rc.cpp:406
 #, fuzzy
 msgid "Rewrap quoted te&xt automatically"
 msgstr "লেখা/টেক্সট স্বয়ংক্রীয়ভাবে"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 97
-#: rc.cpp:406
+#: rc.cpp:409
 #, fuzzy
 msgid "Include the a&uthor's signature"
 msgstr "অন্তর্ভুক্ত করো টি লেখক s স্বাক্ষর"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 104
-#: rc.cpp:409
+#: rc.cpp:412
 #, fuzzy
 msgid "Put the cursor &below the introduction phrase"
 msgstr "রাখা টি কার্সার নীচে টি ভূমিকা শব্দসমষ্টি"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 114
-#: rc.cpp:412
+#: rc.cpp:415
 #, fuzzy
 msgid "External Editor"
 msgstr "বহিস্থ সম্পাদক"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 126
-#: rc.cpp:415
+#: rc.cpp:418
 #, fuzzy
 msgid "Start exte&rnal editor automatically"
 msgstr "আরম্ভ/শুরু বহিস্থ সম্পাদক স্বয়ংক্রীয়ভাবে"
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 133
-#: rc.cpp:419
+#: rc.cpp:422
 #, fuzzy, no-c-format
 msgid "<qt><b>%f</b> will be replaced with the filename to edit</qt>"
 msgstr "বদলানো সঙ্গে টি ফাইল-নাম প্রতি সম্পাদন."
 
 #. i18n: tag string
 #. i18n: file postnewscomposerwidget_base.ui line 143
-#: rc.cpp:422
+#: rc.cpp:425
 #, fuzzy
 msgid "Specify editor:"
 msgstr "উল্লেখ করুন সম্পাদক:"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 37
-#: rc.cpp:428
+#: rc.cpp:431
 #, fuzzy
 msgid "&Generate message-id"
 msgstr "উত্‍পাদন বার্তা আই.ডি."
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 54
-#: rc.cpp:431
+#: rc.cpp:434
 #, fuzzy
 msgid "Ho&st name:"
 msgstr "হোস্ট নাম:"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 64
-#: rc.cpp:434
+#: rc.cpp:437
 #, fuzzy
 msgid "Enco&ding:"
 msgstr "এনকোডিং:"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 77
-#: rc.cpp:437
+#: rc.cpp:440
 #, fuzzy
 msgid "Use o&wn default charset when replying"
 msgstr "ব্যবহার নিজস্ব ডিফল্ট বর্ণমালা যখন"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 87
-#: rc.cpp:440
+#: rc.cpp:443
 #, fuzzy
 msgid "Cha&rset:"
 msgstr "বর্ণমালা:"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 100
-#: rc.cpp:443
+#: rc.cpp:446
 #, fuzzy
 msgid "Header"
 msgstr "হেডার"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 115
-#: rc.cpp:446
+#: rc.cpp:449
 #, fuzzy
 msgid "Do not add the \"&User-Agent\" identification header"
 msgstr "নয় যোগ করো টি ব্যবহারকারী পরিচয় হেডার"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 129
-#: rc.cpp:452
+#: rc.cpp:455
 #, fuzzy
 msgid "Dele&te"
 msgstr "মুছে ফেলা"
 
 #. i18n: tag string
 #. i18n: file postnewstechnicalwidget_base.ui line 143
-#: rc.cpp:459
+#: rc.cpp:462
 #, fuzzy, no-c-format
 msgid ""
 "<qt>Placeholders for replies: <b>%NAME</b>=sender's name, <b>%EMAIL</"
@@ -3940,235 +3948,235 @@ msgstr "টি নিম্নলিখিত সমর্থিত নিজস
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 25
-#: rc.cpp:462
+#: rc.cpp:465
 msgid "Article Handling"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 37
-#: rc.cpp:465
+#: rc.cpp:468
 #, fuzzy
 msgid "Mark c&rossposted articles as read"
 msgstr "চিহ্ন   পড়া/পড়ো"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 47
-#: rc.cpp:468
+#: rc.cpp:471
 #, fuzzy
 msgid "sec"
 msgstr " সেকণ্ড"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 57
-#: rc.cpp:471
+#: rc.cpp:474
 #, fuzzy
 msgid "Mar&k article as read after:"
 msgstr "চিহ্ন   পড়া/পড়ো পরে:"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 74
-#: rc.cpp:474
+#: rc.cpp:477
 #, fuzzy
 msgid "&Maximum number of articles to fetch:"
 msgstr "সর্বাধিক,সর্বোচ্চ সংখ্যা/নম্বর -র প্রতি:"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 84
-#: rc.cpp:477
+#: rc.cpp:480
 #, fuzzy
 msgid "Check for new articles a&utomatically"
 msgstr "পরীক্ষা জন্য নতুন স্বয়ংক্রীয়ভাবে"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 106
-#: rc.cpp:483
+#: rc.cpp:486
 #, fuzzy
 msgid "Smart scrolli&ng"
 msgstr "কেতাদুরস্ত"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 113
-#: rc.cpp:486
+#: rc.cpp:489
 #, fuzzy
 msgid "Show &whole thread on expanding"
 msgstr "দেখাও/প্রদর্শন করো গোটা ওপর"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 120
-#: rc.cpp:489
+#: rc.cpp:492
 #, fuzzy
 msgid "Default to e&xpanded threads"
 msgstr "ডিফল্ট প্রতি"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 127
-#: rc.cpp:492
+#: rc.cpp:495
 #, fuzzy
 msgid "Show article &score"
 msgstr "দেখাও/প্রদর্শন করো স্কোর"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 134
-#: rc.cpp:495
+#: rc.cpp:498
 #, fuzzy
 msgid "Show &line count"
 msgstr "দেখাও/প্রদর্শন করো লাইন গুনতি, গণনা"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 141
-#: rc.cpp:498
+#: rc.cpp:501
 #, fuzzy
 msgid "Show unread count in &thread"
 msgstr "দেখাও/প্রদর্শন করো গুনতি, গণনা -এ"
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 151
-#: rc.cpp:501
+#: rc.cpp:504
 msgid "Date Display"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file readnewsgeneralwidget_base.ui line 184
-#: rc.cpp:513
+#: rc.cpp:516
 msgid "Custom format (Shift+F1 for help):"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 23
-#: rc.cpp:516
+#: rc.cpp:519
 #, fuzzy
 msgid "\"Mark All as Read\" Triggers Following Actions"
 msgstr "চিহ্ন সমস্ত   পড়া/পড়ো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 35
-#: rc.cpp:519
+#: rc.cpp:522
 #, fuzzy
 msgid "&Switch to the next group"
 msgstr "পরিবর্তন প্রতি টি পরবর্তী সমষ্টি,দল,গ্রুপ"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 45
-#: rc.cpp:522
+#: rc.cpp:525
 #, fuzzy
 msgid "\"Mark Thread as Read\" Triggers Following Actions"
 msgstr "চিহ্ন   পড়া/পড়ো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 57
-#: rc.cpp:525
+#: rc.cpp:528
 #, fuzzy
 msgid "Clos&e the current thread"
 msgstr "বন্ধ করো টি বর্তমান"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 64
-#: rc.cpp:528
+#: rc.cpp:531
 #, fuzzy
 msgid "Go &to the next unread thread"
 msgstr "যাও প্রতি টি পরবর্তী"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 74
-#: rc.cpp:531
+#: rc.cpp:534
 #, fuzzy
 msgid "\"Ignore Thread\" Triggers Following Actions"
 msgstr "অগ্রাহ্য করো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 86
-#: rc.cpp:534
+#: rc.cpp:537
 #, fuzzy
 msgid "Close the cu&rrent thread"
 msgstr "বন্ধ করো টি বর্তমান"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 93
-#: rc.cpp:537
+#: rc.cpp:540
 #, fuzzy
 msgid "Go to the next &unread thread"
 msgstr "যাও প্রতি টি পরবর্তী"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 103
-#: rc.cpp:540
+#: rc.cpp:543
 #, fuzzy
 msgid "Leaving a Group Triggers Following Actions"
 msgstr "অগ্রাহ্য করো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: tag string
 #. i18n: file readnewsnavigationwidget_base.ui line 115
-#: rc.cpp:543
+#: rc.cpp:546
 #, fuzzy
 msgid "Mark all articles as read"
 msgstr "চিহ্ন   পড়া/পড়ো পরে:"
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 25
-#: rc.cpp:546
+#: rc.cpp:549
 msgid "Appearance"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 40
-#: rc.cpp:549
+#: rc.cpp:552
 #, fuzzy
 msgid "Recognized q&uote characters:"
 msgstr "পরিচিত অক্ষর:"
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 50
-#: rc.cpp:552
+#: rc.cpp:555
 #, fuzzy
 msgid "Re&move trailing empty lines"
 msgstr "সরাও অনুসরণ করা ফাঁকা"
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 64
-#: rc.cpp:558
+#: rc.cpp:561
 #, fuzzy
 msgid "Show sig&nature"
 msgstr "দেখাও/প্রদর্শন করো স্বাক্ষর"
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 71
-#: rc.cpp:561
+#: rc.cpp:564
 #, fuzzy
 msgid "Re&wrap text when necessary"
 msgstr "লেখা/টেক্সট যখন প্রয়োজনীয়"
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 81
-#: rc.cpp:564
+#: rc.cpp:567
 msgid "Attachments"
 msgstr ""
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 93
-#: rc.cpp:567
+#: rc.cpp:570
 #, fuzzy
 msgid "Open a&ttachments on click"
 msgstr "খোলো ওপর ক্লিক"
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 100
-#: rc.cpp:570
+#: rc.cpp:573
 #, fuzzy
 msgid "Show alternati&ve contents as attachments"
 msgstr "দেখাও/প্রদর্শন করো বিকল্প সূচি  "
 
 #. i18n: tag string
 #. i18n: file readnewsviewerwidget_base.ui line 110
-#: rc.cpp:573
+#: rc.cpp:576
 msgid "Security"
 msgstr ""
 
-#: rc.cpp:577
+#: rc.cpp:580
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "দীপায়ন সরকার"
 
-#: rc.cpp:578
+#: rc.cpp:581
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
@@ -4267,9 +4275,6 @@ msgstr "একটি 'news://server/group' ইউ-আর-এল"
 #, fuzzy
 #~ msgid "Replace with:"
 #~ msgstr "&বদলাও"
-
-#~ msgid "Spellcheck"
-#~ msgstr "বানান পরীক্ষা"
 
 #, fuzzy
 #~ msgid "Form"
