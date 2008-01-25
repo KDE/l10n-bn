@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-01-22 05:54+0100\n"
+"POT-Creation-Date: 2008-01-25 06:36+0100\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -133,7 +133,7 @@ msgstr "তথ্য ফরম্যাট"
 msgid "The peer SSL certificate chainappears to be corrupt."
 msgstr ""
 
-#: kio/slaveinterface.cpp:484 kio/tcpslavebase.cpp:631
+#: kio/slaveinterface.cpp:484 kio/tcpslavebase.cpp:641
 msgid "SSL"
 msgstr "এস-এস-এল"
 
@@ -331,7 +331,7 @@ msgstr ""
 "না।\n"
 "এর ফলে কোনো তৃতীয় ব্যক্তির পক্ষে ঐ ট্রান্সমিশন পড়া সম্ভব হতে পারে।"
 
-#: kio/tcpslavebase.cpp:269 kio/tcpslavebase.cpp:463
+#: kio/tcpslavebase.cpp:269 kio/tcpslavebase.cpp:473
 msgid "Security Information"
 msgstr "নিরাপত্তা তথ্য"
 
@@ -339,7 +339,13 @@ msgstr "নিরাপত্তা তথ্য"
 msgid "C&ontinue Loading"
 msgstr "লো&ড করা চালিয়ে যাও"
 
-#: kio/tcpslavebase.cpp:457
+#: kio/tcpslavebase.cpp:316
+#, fuzzy
+#| msgid "Authentication Failed."
+msgid ": SSL negotiation failed"
+msgstr "অথেন্টিকেশন ব্যর্থ।"
+
+#: kio/tcpslavebase.cpp:467
 msgid ""
 "You are about to enter secure mode. All transmissions will be encrypted "
 "unless otherwise noted.\n"
@@ -347,31 +353,31 @@ msgid ""
 "transit."
 msgstr ""
 
-#: kio/tcpslavebase.cpp:464
+#: kio/tcpslavebase.cpp:474
 msgid "Display SSL &Information"
 msgstr "এস-এস-এল &তথ্য দেখাও"
 
-#: kio/tcpslavebase.cpp:465
+#: kio/tcpslavebase.cpp:475
 msgid "C&onnect"
 msgstr "যোগাযোগ স্থাপ&ন করো"
 
-#: kio/tcpslavebase.cpp:602
+#: kio/tcpslavebase.cpp:612
 msgid "Enter the certificate password:"
 msgstr "সার্টিফিকেটের পাসওয়ার্ড লিখুন:"
 
-#: kio/tcpslavebase.cpp:603
+#: kio/tcpslavebase.cpp:613
 msgid "SSL Certificate Password"
 msgstr "এস-এস-এল সার্টিফিকেটের পাসওয়ার্ড"
 
-#: kio/tcpslavebase.cpp:616
+#: kio/tcpslavebase.cpp:626
 msgid "Unable to open the certificate. Try a new password?"
 msgstr "সার্টিফিকেটটি খোলা যায়নি। নতুন পাসওয়ার্ড চেষ্টা করতে চান?"
 
-#: kio/tcpslavebase.cpp:629
+#: kio/tcpslavebase.cpp:639
 msgid "The procedure to set the client certificate for the session failed."
 msgstr ""
 
-#: kio/tcpslavebase.cpp:659
+#: kio/tcpslavebase.cpp:669
 #, fuzzy, kde-format
 #| msgid "The server certificate failed the authenticity test (%1)."
 msgid ""
@@ -379,34 +385,34 @@ msgid ""
 "\n"
 msgstr "সার্ভার সার্টিফিকেট সত্যতা পরীক্ষায় বিফল (%1)।"
 
-#: kio/tcpslavebase.cpp:708 kio/tcpslavebase.cpp:725 kio/tcpslavebase.cpp:827
-#: kio/tcpslavebase.cpp:839
+#: kio/tcpslavebase.cpp:718 kio/tcpslavebase.cpp:735 kio/tcpslavebase.cpp:837
+#: kio/tcpslavebase.cpp:849
 msgid "Server Authentication"
 msgstr "সার্ভারের সত্যতা প্রমাণ (Authentication)"
 
-#: kio/tcpslavebase.cpp:709
+#: kio/tcpslavebase.cpp:719
 msgid "&Details"
 msgstr "বিস্তারি&ত"
 
-#: kio/tcpslavebase.cpp:709
+#: kio/tcpslavebase.cpp:719
 msgid "Co&ntinue"
 msgstr "চালিয়ে যা&ও"
 
-#: kio/tcpslavebase.cpp:722
+#: kio/tcpslavebase.cpp:732
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "আপনি কি আর কোনো প্রশ্ন ছাড়াই এই সার্টিফিকেটটি চিরকালের জন্য স্বীকার করে নিতে চান?"
 
-#: kio/tcpslavebase.cpp:726
+#: kio/tcpslavebase.cpp:736
 msgid "&Forever"
 msgstr "চিরকালে&র জন্য"
 
-#: kio/tcpslavebase.cpp:727
+#: kio/tcpslavebase.cpp:737
 msgid "&Current Sessions Only"
 msgstr "শুধু &এই সেশনের জন্য"
 
-#: kio/tcpslavebase.cpp:826
+#: kio/tcpslavebase.cpp:836
 msgid ""
 "You have indicated that you wish to accept this certificate, but it is not "
 "issued to the server who is presenting it. Do you wish to continue loading?"
@@ -414,7 +420,7 @@ msgstr ""
 "আপনি এই সার্টিফিকেটটি স্বীকার করে নিতে চাইছেন, কিন্তু যে সার্ভারটি এটি উপস্থাপন "
 "করছে, এটি তাকে দেওয়া হয়নি। আপনি কি তা সত্বেও সার্টিফিকেটটি লোড করতে চান?"
 
-#: kio/tcpslavebase.cpp:838
+#: kio/tcpslavebase.cpp:848
 msgid ""
 "SSL certificate is being rejected as requested. You can disable this in the "
 "KDE Control Center."
@@ -2243,22 +2249,22 @@ msgstr "ব্যবহারের অনুমতি:"
 msgid "No service implementing %1"
 msgstr ""
 
-#: kio/slave.cpp:405
+#: kio/slave.cpp:406
 #, kde-format
 msgid "Unknown protocol '%1'."
 msgstr "অজ্ঞাত প্রোটোকল '%1'।"
 
-#: kio/slave.cpp:413
+#: kio/slave.cpp:414
 #, kde-format
 msgid "Can not find io-slave for protocol '%1'."
 msgstr ""
 
-#: kio/slave.cpp:431
+#: kio/slave.cpp:432
 #, kde-format
 msgid "Cannot talk to klauncher: %1"
 msgstr ""
 
-#: kio/slave.cpp:439
+#: kio/slave.cpp:440
 #, kde-format
 msgid ""
 "Unable to create io-slave:\n"
