@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-01 14:11+0100\n"
+"POT-Creation-Date: 2008-02-02 08:58+0100\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -225,54 +225,44 @@ msgstr "&পরিসংখ্যান দেখাও"
 msgid "Show and reset statistics for the current vocabulary"
 msgstr "বর্তমান শব্দভাণ্ডারের ওপর পরিসংখ্যান দেখাও"
 
-#: src/parley.cpp:670
+#: src/parley.cpp:669
 msgid "Show the configuration dialog"
 msgstr "কনফিগারেশন ডায়ালগ দেখাও"
 
-#: src/parley.cpp:676
+#: src/parley.cpp:675
 msgid "Toggle display of the toolbars"
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
-#: src/parley.cpp:681
+#: src/parley.cpp:680
 #, fuzzy
 msgid "Show Se&arch"
 msgstr "বুদ্ধিমান অনুসন্ধান"
 
-#: src/parley.cpp:683
+#: src/parley.cpp:682
 #, fuzzy
 msgid "Toggle display of the search bar"
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
-#: src/parley.cpp:690
-#, fuzzy
-msgid "Show Lesson Column"
-msgstr "পাঠের বিবরণ"
-
-#: src/parley.cpp:696
-#, fuzzy
-msgid "Show Active Entry Column"
-msgstr "পাঠের বিবরণ"
-
-#: src/parley.cpp:701
+#: src/parley.cpp:688
 #, fuzzy
 msgid "Vocabulary Columns"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
-#: src/parley.cpp:702
+#: src/parley.cpp:689
 #, fuzzy
 #| msgid "Toggle display of the toolbars"
 msgid "Toggle display of individual vocabulary columns"
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
-#: src/parley.cpp:712
+#: src/parley.cpp:700
 msgid "Restore Native Order"
 msgstr ""
 
-#: src/parley.cpp:762
+#: src/parley.cpp:750
 msgid "Enter search terms here"
 msgstr ""
 
-#: src/parley.cpp:764
+#: src/parley.cpp:752
 msgid ""
 "Enter space-separated search terms to find words.\n"
 "\n"
@@ -281,7 +271,7 @@ msgid ""
 "Enter type:verb to search for verbs."
 msgstr ""
 
-#: src/parley.cpp:766
+#: src/parley.cpp:754
 #, fuzzy
 msgid "S&earch:"
 msgstr "&মন্তব্য:"
@@ -1374,41 +1364,59 @@ msgstr ""
 msgid "No languages defined"
 msgstr "নতুন ভাষার কোড যোগ করো"
 
-#: src/vocabulary/vocabularyview.cpp:54
+#: src/vocabulary/vocabularyview.cpp:73
 #, fuzzy
 #| msgid "&Append New Entry"
 msgid "&Add New Entry"
 msgstr "নতুন &এন্ট্রি যোগ করো"
 
-#: src/vocabulary/vocabularyview.cpp:57
+#: src/vocabulary/vocabularyview.cpp:76
 msgid "Append a new row to the vocabulary"
 msgstr "শব্দভাণ্ডারে নতুন একটি সারি যোগ করো"
 
-#: src/vocabulary/vocabularyview.cpp:65
+#: src/vocabulary/vocabularyview.cpp:84
 #, fuzzy
 msgid "&Delete Entry"
 msgstr "নতুন &এন্ট্রি যোগ করো"
 
-#: src/vocabulary/vocabularyview.cpp:68
+#: src/vocabulary/vocabularyview.cpp:87
 msgid "Delete the selected rows"
 msgstr "নির্বাচিত সারি মোছো"
 
-#: src/vocabulary/vocabularyview.cpp:74 src/vocabulary/vocabularyview.cpp:79
+#: src/vocabulary/vocabularyview.cpp:97
 msgid "Copy"
 msgstr ""
 
-#: src/vocabulary/vocabularyview.cpp:84
+#: src/vocabulary/vocabularyview.cpp:103
+#, fuzzy
+#| msgid "Count:"
+msgid "Cut"
+msgstr "সংখ্যা:"
+
+#: src/vocabulary/vocabularyview.cpp:109
 #, fuzzy
 msgid "Paste"
 msgstr "বাক্যাংশ"
 
-#: src/vocabulary/vocabularyview.cpp:89
+#: src/vocabulary/vocabularyview.cpp:115
 msgid "Select all rows"
 msgstr "সকল সারি বাছাই করো"
 
-#: src/vocabulary/vocabularyview.cpp:94
+#: src/vocabulary/vocabularyview.cpp:120
 msgid "Deselect all rows"
 msgstr "সকল সারি অবাছাই করো"
+
+#: src/vocabulary/vocabularyview.cpp:411
+#, fuzzy, kde-format
+msgid "Do you really want to delete the selected entry?"
+msgid_plural "Do you really want to delete the selected %1 entries?"
+msgstr[0] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
+msgstr[1] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
+
+#: src/vocabulary/vocabularyview.cpp:411 src/vocabulary/wordtypeview.cpp:54
+#, fuzzy
+msgid "Delete"
+msgstr "রিসে&ট"
 
 #: src/vocabulary/lessonview.cpp:36
 #, fuzzy
@@ -1505,11 +1513,6 @@ msgstr "ফাইলের নাম:"
 #| msgid "Delete the selected rows"
 msgid "Rename the selected WordType"
 msgstr "নির্বাচিত সারি মোছো"
-
-#: src/vocabulary/wordtypeview.cpp:54
-#, fuzzy
-msgid "Delete"
-msgstr "রিসে&ট"
 
 #: src/vocabulary/wordtypeview.cpp:56
 #, fuzzy
@@ -4513,6 +4516,14 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~ msgid "Show Lesson Column"
+#~ msgstr "পাঠের বিবরণ"
+
+#, fuzzy
+#~ msgid "Show Active Entry Column"
+#~ msgstr "পাঠের বিবরণ"
+
+#, fuzzy
 #~ msgid "Vocabularies..."
 #~ msgstr "নতুন শব্দভাণ্ডারের ফাইল &আনো..."
 
@@ -4544,10 +4555,6 @@ msgstr ""
 #~ msgctxt "Describing the sound of the character"
 #~ msgid "Sound: "
 #~ msgstr "উচ্চারণ: "
-
-#, fuzzy
-#~ msgid "Do you really want to delete the selected entry?"
-#~ msgstr "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
 
 #, fuzzy
 #~ msgid "Do you really want to delete the selected entries?"
