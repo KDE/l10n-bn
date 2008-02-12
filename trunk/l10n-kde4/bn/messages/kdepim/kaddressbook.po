@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-02-05 10:19+0100\n"
+"POT-Creation-Date: 2008-02-12 11:45+0100\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -111,7 +111,7 @@ msgid "New..."
 msgstr "নতুন..."
 
 #: addresseditwidget.cpp:319 emaileditwidget.cpp:197 kabcore.cpp:1112
-#: keywidget.cpp:60 phoneeditwidget.cpp:182 features/resourceselection.cpp:367
+#: keywidget.cpp:60 phoneeditwidget.cpp:182
 #, fuzzy
 msgid "Remove"
 msgstr "তালিকা মুছে ফেলো"
@@ -1300,12 +1300,11 @@ msgstr "ই-মেইল ঠিকানা সম্পাদন করো..."
 msgid "Edit Email Addresses"
 msgstr "ই-মেইল ঠিকানা সম্পাদন করো"
 
-#: emaileditwidget.cpp:188 keywidget.cpp:57 features/resourceselection.cpp:364
+#: emaileditwidget.cpp:188 keywidget.cpp:57
 msgid "Add..."
 msgstr "যোগ করো..."
 
-#: emaileditwidget.cpp:192 features/distributionlistngwidget.cpp:158
-#: features/resourceselection.cpp:365
+#: emaileditwidget.cpp:192 features/distributionlistngwidget.cpp:153
 msgid "Edit..."
 msgstr "পরিবর্তন করো..."
 
@@ -1364,7 +1363,7 @@ msgstr "যো&গ করো..."
 msgid "&Edit..."
 msgstr "&সম্পাদনা..."
 
-#: filtereditdialog.cpp:274 features/resourceselection.cpp:224
+#: filtereditdialog.cpp:274 features/resourceselection.cpp:228
 #, fuzzy
 msgid "&Remove"
 msgstr "তালিকা মুছে ফেলো"
@@ -3042,31 +3041,31 @@ msgid_plural "Do you really want to delete the %1 selected addresses?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: features/distributionlistngwidget.cpp:108
+#: features/distributionlistngwidget.cpp:103
 #, fuzzy
 #| msgid "Distribution List Editor"
 msgid "Distribution List Editor NG"
 msgstr "বিতরণ তালিকা সম্পাদক"
 
-#: features/distributionlistngwidget.cpp:122
+#: features/distributionlistngwidget.cpp:117
 #, fuzzy
 #| msgid "New Distribution List"
 msgid "Distribution Lists"
 msgstr "নতুন ডিস্ট্রিবিউশন তালিকা"
 
-#: features/distributionlistngwidget.cpp:155
+#: features/distributionlistngwidget.cpp:150
 #, fuzzy
 #| msgid "New Distribution List"
 msgid "New Distribution List..."
 msgstr "নতুন ডিস্ট্রিবিউশন তালিকা"
 
-#: features/distributionlistngwidget.cpp:159
+#: features/distributionlistngwidget.cpp:154
 #: features/distributionlistwidget.cpp:328
 #, fuzzy
 msgid "Delete"
 msgstr "প্রদর্শন মুছে ফেল"
 
-#: features/distributionlistngwidget.cpp:220
+#: features/distributionlistngwidget.cpp:215
 #, fuzzy
 #| msgid "Edit Contact"
 msgid "All Contacts"
@@ -3154,32 +3153,51 @@ msgstr "ই-মেইল ঠিকানা"
 msgid "Preferred address"
 msgstr "পছন্দের ঠিকানা"
 
-#: features/resourceselection.cpp:151 features/resourceselection.cpp:361
+#: features/resourceselection.cpp:155 features/resourceselection.cpp:365
+#: features/resourceselection.cpp:386
 msgid "Address Books"
 msgstr "ঠিকানা তালিকা"
 
-#: features/resourceselection.cpp:165
+#: features/resourceselection.cpp:169
 msgid "Add Address Book"
 msgstr "ঠিকানা তালিকা যোগ করো"
 
-#: features/resourceselection.cpp:166
+#: features/resourceselection.cpp:170
 msgid "Please select type of the new address book:"
 msgstr "নতুন ঠিকানা তালিকার ধরন বেছে নিন:"
 
-#: features/resourceselection.cpp:176
+#: features/resourceselection.cpp:180
 #, kde-format
 msgid "<qt>Unable to create an address book of type <b>%1</b>.</qt>"
 msgstr ""
 
-#: features/resourceselection.cpp:181
+#: features/resourceselection.cpp:185
 #, kde-format
 msgid "%1 address book"
 msgstr "%1 ঠিকানা তালিকা"
 
-#: features/resourceselection.cpp:222
+#: features/resourceselection.cpp:226
 #, kde-format
 msgid "<qt>Do you really want to remove the address book <b>%1</b>?</qt>"
 msgstr ""
+
+#: features/resourceselection.cpp:371
+#, fuzzy
+#| msgid "Add Address Book"
+msgid "Add addressbook"
+msgstr "ঠিকানা তালিকা যোগ করো"
+
+#: features/resourceselection.cpp:376
+#, fuzzy
+#| msgid "Edit Address Book Filters"
+msgid "Edit addressbook settings"
+msgstr "ঠিকানা তালিকা ফিল্টার সম্পাদন করো"
+
+#: features/resourceselection.cpp:381
+#, fuzzy
+#| msgid "%1 address book"
+msgid "Remove addressbook"
+msgstr "%1 ঠিকানা তালিকা"
 
 #: printing/detailledstyle.cpp:138 printing/ringbinderstyle.cpp:133
 msgid "Setting up fonts and colors"
