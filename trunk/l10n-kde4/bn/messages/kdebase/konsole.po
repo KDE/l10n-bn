@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-03-19 11:17+0100\n"
+"POT-Creation-Date: 2008-03-20 08:05+0100\n"
 "PO-Revision-Date: 2006-01-04 14:06-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -423,40 +423,66 @@ msgstr "শব্দ সংযোজক"
 msgid "Connect"
 msgstr "শব্দ সংযোজক"
 
-#: Session.cpp:435
+#: Session.cpp:287
+#, fuzzy
+#| msgid "Could not save history."
+msgid "Could not find binary: "
+msgstr "আগের কমাণ্ডগুলি সংরক্ষণ করা যায়নি।"
+
+#: Session.cpp:296
+msgid "Warning: "
+msgstr ""
+
+#: Session.cpp:333
+#, kde-format
+msgid ""
+"Could not find '%1', starting '%2' instead.  Please check your profile "
+"settings."
+msgstr ""
+
+#: Session.cpp:338
+msgid "Could not find an interactive shell to start."
+msgstr ""
+
+#: Session.cpp:373
+#, kde-format
+msgid "Could not start program '%1' with arguments '%2'."
+msgstr ""
+
+#: Session.cpp:483
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "সেশন '%1' চুপচাপ"
 
-#: Session.cpp:452
+#: Session.cpp:500
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশন '%1'-এ ঘণ্টা"
 
-#: Session.cpp:463
+#: Session.cpp:511
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "সেশন '%1'-এ কিছু ঘটছে"
 
-#: Session.cpp:590
+#: Session.cpp:638
 #, fuzzy
 #| msgid "<Finished>"
 msgid "Finished"
 msgstr "<শেষ>"
 
-#: Session.cpp:600
+#: Session.cpp:647
 #, fuzzy, kde-format
 #| msgid "Session '%1' exited with status %2."
 msgid "Program '%1' exited with status %2."
 msgstr "সেশন '%1'-এর %2 স্ট্যাটাস সমেত সমাপ্তি।"
 
-#: Session.cpp:602
+#: Session.cpp:649
 #, fuzzy, kde-format
 #| msgid "Session '%1' exited unexpectedly."
-msgid "Program '%1' exited unexpectedly."
+msgid "Program '%1' crashed."
 msgstr "সেশন '%1'-এর অপ্রত্যাশিত প্রস্থান।"
 
-#: Session.cpp:813
+#: Session.cpp:863
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
@@ -2653,9 +2679,6 @@ msgstr "টার্মিনাল ফাঁকা &করো"
 
 #~ msgid "Unable to write to file."
 #~ msgstr "ফাইল লেখা সম্ভব হয়নি।"
-
-#~ msgid "Could not save history."
-#~ msgstr "আগের কমাণ্ডগুলি সংরক্ষণ করা যায়নি।"
 
 #~ msgid ""
 #~ "<p>The current session already has a ZModem file transfer in progress."
