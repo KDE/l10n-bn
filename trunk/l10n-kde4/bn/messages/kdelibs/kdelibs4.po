@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-04-02 16:21+0200\n"
+"POT-Creation-Date: 2008-04-04 16:32+0200\n"
 "PO-Revision-Date: 2006-03-22 11:11-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -3484,23 +3484,6 @@ msgstr "NEC SOCKS ক্লায়েন্ট"
 msgid "Dante SOCKS client"
 msgstr "Dante SOCKS ক্লায়েন্ট"
 
-#: kdecore/kernel/ktoolinvocation_win.cpp:72
-#: kdecore/kernel/ktoolinvocation_x11.cpp:81
-#, kde-format
-msgid ""
-"Could not launch the KDE Help Center:\n"
-"\n"
-"%1"
-msgstr ""
-"কে.ডি.ই. সহায়িকা চালু করা যায়নি:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_win.cpp:73
-#: kdecore/kernel/ktoolinvocation_x11.cpp:82
-msgid "Could not Launch Help Center"
-msgstr "সহায়িকা চালু করা যায়নি"
-
 #: kdecore/kernel/kcmdlineargs.cpp:270
 msgid "Use the X-server display 'displayname'"
 msgstr "'displayname' নামক এক্স-সার্ভার ডিস্‌প্লে ব্যবহার করো"
@@ -3786,7 +3769,7 @@ msgstr "অ্যাপলিকেশন যে সব ফাইল/ইউ-আ�
 msgid "KDE-tempfile"
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:344
+#: kdecore/kernel/ktoolinvocation_x11.cpp:252
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -3797,11 +3780,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:345
+#: kdecore/kernel/ktoolinvocation_x11.cpp:253
 msgid "Could not Launch Mail Client"
 msgstr "মেইল ক্লায়েন্ট চালু করা যায়নি"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:267
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -3812,11 +3795,11 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:268
 msgid "Could not Launch Browser"
 msgstr "ব্রাউজার চালু করা যায়নি"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:390
+#: kdecore/kernel/ktoolinvocation_x11.cpp:298
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not launch the mail client:\n"
@@ -3831,7 +3814,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:391
+#: kdecore/kernel/ktoolinvocation_x11.cpp:299
 #, fuzzy
 #| msgid "Could not Launch Mail Client"
 msgid "Could not Launch Terminal Client"
@@ -3918,16 +3901,31 @@ msgstr ""
 "projects/kde/)।</p><p>কে.ডি.ই. অনুবাদ সম্বন্ধে আরো জানতে দেখুন http://l10n.kde."
 "org</p>"
 
-#: kdecore/kernel/ktoolinvocation.cpp:73
+#: kdecore/kernel/ktoolinvocation.cpp:79
 msgid "Function must be called from the main thread."
 msgstr ""
 
-#: kdecore/kernel/ktoolinvocation.cpp:110
+#: kdecore/kernel/ktoolinvocation.cpp:116
 #, fuzzy, kde-format
 msgid ""
 "KLauncher could not be reached via D-Bus. Error when calling %1:\n"
 "%2\n"
 msgstr "DCOP-এর মাধ্যমে KLauncher-এ পৌঁছনো যায়নি।\n"
+
+#: kdecore/kernel/ktoolinvocation.cpp:272
+#, kde-format
+msgid ""
+"Could not launch the KDE Help Center:\n"
+"\n"
+"%1"
+msgstr ""
+"কে.ডি.ই. সহায়িকা চালু করা যায়নি:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation.cpp:273
+msgid "Could not Launch Help Center"
+msgstr "সহায়িকা চালু করা যায়নি"
 
 #: kdecore/sonnet/loader.cpp:162
 msgctxt "dictionary variant"
@@ -10327,7 +10325,9 @@ msgid "Open '%1'"
 msgstr "'%1' খোলো"
 
 #: khtml/khtml_ext.cpp:541
-msgid "Copy Email Address"
+#, fuzzy
+#| msgid "Copy Email Address"
+msgid "&Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করো"
 
 #: khtml/khtml_ext.cpp:546
@@ -10335,7 +10335,9 @@ msgid "&Save Link As..."
 msgstr "লিঙ্ক &নতুন নামে সংরক্ষণ করো..."
 
 #: khtml/khtml_ext.cpp:551
-msgid "Copy &Link Address"
+#, fuzzy
+#| msgid "Copy &Link Address"
+msgid "&Copy Link Address"
 msgstr "লিঙ্ক-এ&র ঠিকানা কপি করো"
 
 #: khtml/khtml_ext.cpp:563
@@ -11064,7 +11066,7 @@ msgstr "মারাত্মক পার্সিং ত্রুটি: %1, �
 msgid "XML parsing error"
 msgstr "এক্স-এম-এল পার্স করায় সমস্যা"
 
-#: khtml/xml/dom_docimpl.cpp:2162
+#: khtml/xml/dom_docimpl.cpp:2170
 msgid "Basic Page Style"
 msgstr "মৌলিক পেজ স্টাইল"
 
