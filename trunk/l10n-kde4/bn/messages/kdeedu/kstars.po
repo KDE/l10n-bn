@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-18 08:40+0200\n"
+"POT-Creation-Date: 2008-08-19 08:46+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -444,7 +444,7 @@ msgid "%1 AU"
 msgstr "%1 অ্যাস্ট্রোনমিক্যাল একক"
 
 #: detaildialog.cpp:192 detaildialog.cpp:244 detaildialog.cpp:247
-#: widgets/fovwidget.cpp:46
+#: widgets/fovwidget.cpp:47
 #, kde-format
 msgctxt "angular size in arcminutes"
 msgid "%1 arcmin"
@@ -810,7 +810,7 @@ msgstr "কোন FOV নেই"
 msgid "Set FOV Indicator"
 msgstr "FOV নির্দেশক নির্ধারণ করুন"
 
-#: fovdialog.cpp:180
+#: fovdialog.cpp:184
 msgid ""
 "You have removed all FOV symbols.  If the list remains empty when you exit "
 "this tool, the default symbols will be regenerated."
@@ -818,13 +818,13 @@ msgstr ""
 "আপনি সকল FOV প্রতীক অপসারণ করেছেন।  আপনার প্রস্থানের সময়ও যদি এই তালিকা ফাঁকা "
 "থাকে, তবে ডিফল্ট প্রতীকগুলো পরবর্তীতে পুনরায় উত্‍পন্ন হবে।"
 
-#: fovdialog.cpp:181
+#: fovdialog.cpp:185
 msgid "FOV list is empty"
 msgstr "FOV তালিকা ফাঁকা"
 
 #. i18n: tag string
 #. i18n: file newfov.ui line 13
-#: fovdialog.cpp:193 rc.cpp:1629 rc.cpp:3280
+#: fovdialog.cpp:197 rc.cpp:1629 rc.cpp:3280
 msgid "New FOV Indicator"
 msgstr "নতুন FOV নির্দেশক"
 
@@ -25044,7 +25044,7 @@ msgstr "নির্বাচিত অপশনের মান"
 #, fuzzy
 msgid ""
 "Integer indicating the selected FOV symbol shape.  Possible values are: "
-"0=Square; 1=Circle; 2=Crosshairs; 3=Bullseye."
+"0=Square; 1=Circle; 2=Crosshairs; 3=Bullseye; 4=Semitransparent circle."
 msgstr ""
 "FOV প্রতীকের আকৃতি বেছে নিন (০=বর্গক্ষেত্র, ১=বৃত্ত, ২=Crosshairs, ৪=লক্ষ্যবিন্দু)"
 
@@ -35045,6 +35045,27 @@ msgstr "উত্তর"
 msgid "Loading %1"
 msgstr "FITS ফাইল লোড করা হচ্ছে..."
 
+#: skycomponents/magellanicclouds.cpp:38
+#, fuzzy
+#| msgctxt "object name (optional)"
+#| msgid "Small Magellanic Cloud"
+msgid "Magellanic Clouds"
+msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
+
+#: skycomponents/magellanicclouds.cpp:59
+#, fuzzy
+#| msgctxt "object name (optional)"
+#| msgid "Small Magellanic Cloud"
+msgid "Loading Large Magellanic Clouds"
+msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
+
+#: skycomponents/magellanicclouds.cpp:108
+#, fuzzy
+#| msgctxt "object name (optional)"
+#| msgid "Small Magellanic Cloud"
+msgid "Loading Small Magellanic Clouds"
+msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
+
 #: skycomponents/milkyway.cpp:59
 msgid "Loading Milky Way"
 msgstr "আকাশ গঙ্গা লোড করা হচ্ছে"
@@ -35055,7 +35076,7 @@ msgstr "আকাশ গঙ্গা লোড করা হচ্ছে"
 msgid "Creating Earth satellites"
 msgstr "গ্রহ তৈরি করা হচ্ছে"
 
-#: skycomponents/skymapcomposite.cpp:450
+#: skycomponents/skymapcomposite.cpp:455
 #, fuzzy, kde-format
 #| msgid "Could not open custom data file: %1"
 msgid "Could not find custom catalog component named %1."
