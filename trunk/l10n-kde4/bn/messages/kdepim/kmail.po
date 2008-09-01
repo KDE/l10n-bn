@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-08-28 09:42+0200\n"
+"POT-Creation-Date: 2008-09-01 09:36+0200\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -127,8 +127,8 @@ msgstr "ফিল্টারিং (&ফ)"
 msgid "<none>"
 msgstr "<কিছু না>"
 
-#: accountdialog.cpp:801 accountdialog.cpp:808 kmfoldercachedimap.cpp:247
-#: kmfoldercachedimap.cpp:2060 kmfolderimap.cpp:218 kmfolderimap.cpp:933
+#: accountdialog.cpp:801 accountdialog.cpp:808 kmfoldercachedimap.cpp:261
+#: kmfoldercachedimap.cpp:2184 kmfolderimap.cpp:208 kmfolderimap.cpp:923
 #: kmkernel.cpp:1294 subscriptiondialog.cpp:167
 msgid "inbox"
 msgstr "ইনবক্স"
@@ -646,11 +646,11 @@ msgstr ""
 #. i18n: file: customtemplates_base.ui:85
 #. i18n: ectx: property (text), widget (QTreeWidget, mList)
 #: attachmentlistview.cpp:47 configuredialog.cpp:3606
-#: distributionlistdialog.cpp:125 rc.cpp:59 recipientspicker.cpp:357
+#: distributionlistdialog.cpp:125 rc.cpp:59 recipientspicker.cpp:363
 msgid "Name"
 msgstr "নাম"
 
-#: attachmentlistview.cpp:47 kmfoldertree.cpp:1771 kmheaders.cpp:166
+#: attachmentlistview.cpp:47 kmfoldertree.cpp:1704 kmheaders.cpp:166
 #: kmheaders.cpp:213 kmmainwidget.cpp:583 kmmainwidget.cpp:590
 #: kmmainwidget.cpp:597 kmmimeparttree.cpp:66 kmpopfiltercnfrmdlg.cpp:54
 msgid "Size"
@@ -1412,7 +1412,7 @@ msgstr ""
 msgid "Ta&g Settings"
 msgstr "প্রের&ণ"
 
-#: configuredialog.cpp:2374 favoritefolderview.cpp:467
+#: configuredialog.cpp:2374 favoritefolderview.cpp:389
 msgid "Name:"
 msgstr "নাম:"
 
@@ -2000,16 +2000,16 @@ msgstr "প্রোগ্রাম থেকে প্রস্থান কর
 msgid "Quota units: "
 msgstr "&উদ্ধৃতি নির্দেশক:"
 
-#: configuredialog.cpp:4971 folderdialogquotatab_p.cpp:96 quotajobs.h:90
+#: configuredialog.cpp:4971 quotajobs.h:90
 msgid "KB"
 msgstr ""
 
-#: configuredialog.cpp:4972 folderdialogquotatab_p.cpp:101 quotajobs.h:95
+#: configuredialog.cpp:4972 quotajobs.h:95
 #, fuzzy
 msgid "MB"
 msgstr " এম-বি "
 
-#: configuredialog.cpp:4973 folderdialogquotatab_p.cpp:106 quotajobs.h:100
+#: configuredialog.cpp:4973 quotajobs.h:100
 msgid "GB"
 msgstr ""
 
@@ -2050,11 +2050,11 @@ msgid ""
 msgstr ""
 
 #: configuredialog.cpp:5086
-msgid "Standard (Ical / Vcard)"
+msgid "Deprecated Kolab1 (iCal/vCard)"
 msgstr ""
 
 #: configuredialog.cpp:5086
-msgid "Kolab (XML)"
+msgid "Kolab2 (XML)"
 msgstr ""
 
 #: configuredialog.cpp:5094
@@ -2331,7 +2331,7 @@ msgstr ""
 msgid "Save List"
 msgstr ""
 
-#: distributionlistdialog.cpp:125 recipientspicker.cpp:358
+#: distributionlistdialog.cpp:125 recipientspicker.cpp:364
 msgid "Email"
 msgstr "ই-মেইল"
 
@@ -2472,55 +2472,55 @@ msgstr ""
 msgid "No Folder Selected"
 msgstr ""
 
-#: favoritefolderview.cpp:140
+#: favoritefolderview.cpp:92
 #, fuzzy
 msgid "Favorite Folders"
 msgstr "নতুন ফোল্ডার"
 
-#: favoritefolderview.cpp:375
+#: favoritefolderview.cpp:332
 #, fuzzy
 #| msgid "Re&move Quote Characters"
 msgid "Remove From Favorites"
 msgstr "উদ্ধৃতিচিহ্ন &সরিয়ে ফেলো"
 
-#: favoritefolderview.cpp:377
+#: favoritefolderview.cpp:334
 #, fuzzy
 #| msgid "Rename Filter"
 msgid "Rename Favorite..."
 msgstr "ফিল্টারের নাম পাল্টাও"
 
-#: favoritefolderview.cpp:390 kmfoldertree.cpp:1166 kmmainwidget.cpp:2834
+#: favoritefolderview.cpp:347 kmfoldertree.cpp:1172 kmmainwidget.cpp:2834
 msgid "&Assign Shortcut..."
 msgstr ""
 
-#: favoritefolderview.cpp:392 kmfoldertree.cpp:1171
+#: favoritefolderview.cpp:349 kmfoldertree.cpp:1177
 msgid "Expire..."
 msgstr ""
 
-#: favoritefolderview.cpp:395
+#: favoritefolderview.cpp:352
 #, fuzzy
 #| msgid "&New Folder..."
 msgid "Add Favorite Folder..."
 msgstr "&নতুন ফোল্ডার..."
 
-#: favoritefolderview.cpp:467
+#: favoritefolderview.cpp:389
 #, fuzzy
 #| msgid "Rename Filter"
 msgid "Rename Favorite"
 msgstr "ফিল্টারের নাম পাল্টাও"
 
-#: favoritefolderview.cpp:484
+#: favoritefolderview.cpp:406
 #, fuzzy
 #| msgid "Local mailbox"
 msgid "Local Inbox"
 msgstr "স্থানীয় মেইল-বক্স"
 
-#: favoritefolderview.cpp:486
+#: favoritefolderview.cpp:408
 #, kde-format
 msgid "Inbox of %1"
 msgstr ""
 
-#: favoritefolderview.cpp:490
+#: favoritefolderview.cpp:412
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1: name; %2: number appended to it to make it unique among a list of "
@@ -2529,7 +2529,7 @@ msgstr ""
 msgid "%1 on %2"
 msgstr "%1 %2"
 
-#: favoritefolderview.cpp:492
+#: favoritefolderview.cpp:414
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1: identity name. Used in the config dialog, section Identity, to "
@@ -2538,7 +2538,7 @@ msgstr "%1 %2"
 msgid "%1 (local)"
 msgstr "%1 (ডিফল্ট)"
 
-#: favoritefolderview.cpp:528
+#: favoritefolderview.cpp:450
 #, fuzzy
 msgid "Add Favorite Folder"
 msgstr "নতুন ফোল্ডার"
@@ -2723,7 +2723,7 @@ msgid "Connecting to server %1, please wait..."
 msgstr "সার্ভার %1-এর সঙ্গে যোগাযোগ স্থাপন করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
 #: folderdialogacltab.cpp:482 folderdialogquotatab.cpp:141
-#: kmfoldercachedimap.cpp:797
+#: kmfoldercachedimap.cpp:875
 #, kde-format
 msgid "Error connecting to server %1"
 msgstr "সার্ভার %1-এর সঙ্গে যোগাযোগ স্থাপনে সমস্যা হয়েছে"
@@ -2776,16 +2776,11 @@ msgstr ""
 msgid "Usage:"
 msgstr ""
 
-#: folderdialogquotatab_p.cpp:87 quotajobs.h:80
-#, kde-format
-msgid "%1 of %2 %3 used"
-msgstr ""
-
 #: folderrequester.cpp:74
 msgid "Select Folder"
 msgstr "ফোল্ডার নির্বাচন করো"
 
-#: folderrequester.cpp:103 kmfoldermgr.cpp:41 kmfoldertree.cpp:545
+#: folderrequester.cpp:103 kmfoldermgr.cpp:41 kmfoldertree.cpp:565
 msgid "Local Folders"
 msgstr "স্থানীয় ফোল্ডার"
 
@@ -2800,7 +2795,7 @@ msgid "Please select a folder"
 msgstr "অনুগ্রহ করে একটি কাজ নির্বাচন করুন।"
 
 #: folderselectiondialog.cpp:61 folderselectiontreewidget.cpp:204
-#: kmfoldertree.cpp:1067 kmfoldertree.cpp:1087
+#: kmfoldertree.cpp:1073 kmfoldertree.cpp:1093
 msgid "&New Subfolder..."
 msgstr "&নতুন সাব-ফোল্ডার..."
 
@@ -2812,7 +2807,7 @@ msgstr ""
 msgid "You can start typing to filter the list of folders."
 msgstr ""
 
-#: folderselectiontreewidget.cpp:61 kmfoldertree.cpp:369 searchwindow.cpp:229
+#: folderselectiontreewidget.cpp:61 kmfoldertree.cpp:384 searchwindow.cpp:229
 msgid "Folder"
 msgstr "ফোল্ডার"
 
@@ -2837,15 +2832,15 @@ msgid ""
 "associate with this folder.</qt>"
 msgstr ""
 
-#: foldertreebase.cpp:87
+#: foldertreebase.cpp:88
 msgid "&Move Here"
 msgstr "এখানে &সরাও"
 
-#: foldertreebase.cpp:88
+#: foldertreebase.cpp:89
 msgid "&Copy Here"
 msgstr "&এখানে কপি করো"
 
-#: foldertreebase.cpp:90
+#: foldertreebase.cpp:91
 msgid "C&ancel"
 msgstr "বাতি&ল"
 
@@ -3395,7 +3390,7 @@ msgstr ""
 msgid "retrieving folders"
 msgstr ""
 
-#: imapjob.cpp:154 kmfolderimap.cpp:510
+#: imapjob.cpp:154 kmfolderimap.cpp:500
 msgid "Uploading message data"
 msgstr "বার্তা তথ্য আপলোড করা হচ্ছে "
 
@@ -3815,7 +3810,7 @@ msgstr "বার্তা যোগ করা যায়নি:\n"
 msgid "Checking account: %1"
 msgstr "এই অ্যাকাউন্ট পরীক্ষা করা হচ্ছে:"
 
-#: kmacctimap.cpp:401 kmfolderimap.cpp:874
+#: kmacctimap.cpp:401 kmfolderimap.cpp:864
 msgid " completed"
 msgstr " সম্পন্ন"
 
@@ -3926,24 +3921,24 @@ msgstr "মেইল"
 msgid "My %1"
 msgstr "মেইল"
 
-#: kmailicalifaceimpl.cpp:1733
+#: kmailicalifaceimpl.cpp:1735
 #, kde-format
 msgid ""
 "KMail will now create the required groupware folders as subfolders of %1; if "
 "you do not want this, cancel and the IMAP resource will be disabled"
 msgstr ""
 
-#: kmailicalifaceimpl.cpp:1743
+#: kmailicalifaceimpl.cpp:1745
 #, kde-format
 msgid "%1: no folder found, will create it"
 msgstr ""
 
-#: kmailicalifaceimpl.cpp:1745
+#: kmailicalifaceimpl.cpp:1747
 #, kde-format
 msgid "%1: found folder %2, will set it as main groupware folder"
 msgstr ""
 
-#: kmailicalifaceimpl.cpp:1751
+#: kmailicalifaceimpl.cpp:1753
 #, kde-format
 msgid ""
 "<qt>KMail found the following groupware folders in %1 and needs to perform "
@@ -3951,27 +3946,27 @@ msgid ""
 "IMAP resource will be disabled"
 msgstr ""
 
-#: kmailicalifaceimpl.cpp:1758
+#: kmailicalifaceimpl.cpp:1760
 msgid "Standard Groupware Folders"
 msgstr "স্ট্যান্ডার্ড গ্রুপওয়্যার ফোল্ডার"
 
-#: kmailicalifaceimpl.cpp:1969
+#: kmailicalifaceimpl.cpp:1971
 #, fuzzy
 #| msgid "Delete Folder"
 msgid "Default folder"
 msgstr "ফোল্ডার মুছে ফেলো"
 
-#: kmailicalifaceimpl.cpp:1970
+#: kmailicalifaceimpl.cpp:1972
 #, kde-format
 msgid "There are multiple %1 default folders, please choose one:"
 msgstr ""
 
-#: kmailicalifaceimpl.cpp:1996
+#: kmailicalifaceimpl.cpp:1998
 #, kde-format
 msgid "You do not have read/write permission to your %1 folder."
 msgstr ""
 
-#: kmailicalifaceimpl.cpp:2054
+#: kmailicalifaceimpl.cpp:2056
 msgid "You do not have read/write permission to your folder."
 msgstr ""
 
@@ -4760,7 +4755,7 @@ msgid "Paste as text or attachment?"
 msgstr "অ্যাটা&চমেন্ট হিসাবে পেস্ট করো"
 
 #: kmcomposewin.cpp:3202 kmfilterdlg.cpp:734 kmfolderdialog.cpp:295
-#: kmfolderdialog.cpp:677 kmfoldertree.cpp:1619
+#: kmfolderdialog.cpp:677 kmfoldertree.cpp:1625
 #: managesievescriptsdialog.cpp:293
 msgid "unnamed"
 msgstr "নামহীন"
@@ -5389,11 +5384,11 @@ msgstr "<qt>ডাকবাক্স<b>%1</b> থেকে মেইল সর�
 msgid "Failed to create folder"
 msgstr "ফোল্ডার তৈরি করতে ব্যর্থ"
 
-#: kmfoldercachedimap.cpp:120
+#: kmfoldercachedimap.cpp:121
 msgid "Troubleshooting IMAP Cache"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:129
+#: kmfoldercachedimap.cpp:130
 msgid ""
 "<p><b>Troubleshooting the IMAP Cache</b></p><p>If you have problems with "
 "synchronizing an IMAP folder, you should first try rebuilding the index "
@@ -5403,47 +5398,61 @@ msgid ""
 "subfolders.</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:145
+#: kmfoldercachedimap.cpp:146
 #, fuzzy
 #| msgid "Rebuild &Index"
 msgid "Rebuild &index"
 msgstr "সূচী &নতুন করে তৈরি করো"
 
-#: kmfoldercachedimap.cpp:150
+#: kmfoldercachedimap.cpp:151
 msgid "Scope:"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:153
+#: kmfoldercachedimap.cpp:154
 #, fuzzy
 msgid "Only Current Folder"
 msgstr "বর্তমান ফোল্ডারে ঘোরো"
 
-#: kmfoldercachedimap.cpp:154
+#: kmfoldercachedimap.cpp:155
 msgid "Current Folder & All Subfolders"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:155
+#: kmfoldercachedimap.cpp:156
 #, fuzzy
 msgid "All Folders of This Account"
 msgstr "এই ফোল্ডার-এর সমস্ত পাঠক"
 
-#: kmfoldercachedimap.cpp:160
+#: kmfoldercachedimap.cpp:161
 #, fuzzy
 #| msgid "Refresh &Cache"
 msgid "Refresh &cache"
 msgstr "ক্যাশে &নতুন করে তৈরি করো"
 
-#: kmfoldercachedimap.cpp:527
+#: kmfoldercachedimap.cpp:215
+#, kde-format
+msgid ""
+"The UID cache file for folder %1 could not be read. There could be a problem "
+"with file system permission, or it is corrupted."
+msgstr ""
+
+#: kmfoldercachedimap.cpp:473
+#, kde-format
+msgid ""
+"The UID cache file for folder %1 could not be written. There could be a "
+"problem with file system permission."
+msgstr ""
+
+#: kmfoldercachedimap.cpp:586
 msgid "You must synchronize with the server before renaming IMAP folders."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:634
+#: kmfoldercachedimap.cpp:712
 msgid ""
 "No account setup for this folder.\n"
 "Please try running a sync before this."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:638
+#: kmfoldercachedimap.cpp:716
 #, kde-format
 msgid ""
 "Are you sure you want to refresh the IMAP cache of the folder %1 and all its "
@@ -5451,190 +5460,201 @@ msgid ""
 "This will remove all changes you have done locally to your folders."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:642 kmmainwidget.cpp:1477
+#: kmfoldercachedimap.cpp:720 kmmainwidget.cpp:1477
 msgid "Refresh IMAP Cache"
 msgstr "আই-ম্যাপ ক্যাশে নতুন করে তৈরি করো"
 
-#: kmfoldercachedimap.cpp:643 kmmainwidget.cpp:1477
+#: kmfoldercachedimap.cpp:721 kmmainwidget.cpp:1477
 msgid "&Refresh"
 msgstr "আবার &পড়ো"
 
-#: kmfoldercachedimap.cpp:669
+#: kmfoldercachedimap.cpp:747
 msgid "The index of this folder has been recreated."
 msgstr "এই ফোল্ডারের সূচী নতুন করে তৈরি করা হয়েছে।"
 
-#: kmfoldercachedimap.cpp:682
+#: kmfoldercachedimap.cpp:760
 #, kde-format
 msgid ""
 "Folder %1 is not in initial sync state (state was %2). Do you want to reset "
 "it to initial sync state and sync anyway?"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:685
+#: kmfoldercachedimap.cpp:763
 msgid "Reset && Sync"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:785
+#: kmfoldercachedimap.cpp:863
 msgid "Synchronizing"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:803
+#: kmfoldercachedimap.cpp:881
 #, kde-format
 msgid "Connecting to %1"
 msgstr "%1-এর সঙ্গে সংযোগ স্থাপন করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:822
+#: kmfoldercachedimap.cpp:900
 msgid "Checking permissions"
 msgstr "অনুমতি পরীক্ষা করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:836
+#: kmfoldercachedimap.cpp:914
 msgid "Renaming folder"
 msgstr "ফোল্ডার-এর নাম পরিবর্তন করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:898
+#: kmfoldercachedimap.cpp:976
 msgid "Retrieving folderlist"
 msgstr "ফোল্ডার তালিকা আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:902
+#: kmfoldercachedimap.cpp:980
 msgid "Error while retrieving the folderlist"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:909
+#: kmfoldercachedimap.cpp:987
 msgid "Retrieving subfolders"
 msgstr "সাব-ফোল্ডার আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:916
+#: kmfoldercachedimap.cpp:994
 msgid "Deleting folders from server"
 msgstr "সার্ভার থেকে ফোল্ডার মুছে ফেলা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:931
+#: kmfoldercachedimap.cpp:1009
 msgid "Retrieving message list"
 msgstr "বার্তা তালিকা আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:944
+#: kmfoldercachedimap.cpp:1022
 msgid "No messages to delete..."
 msgstr "মোছার মত কোন বার্তা নেই..."
 
-#: kmfoldercachedimap.cpp:955
+#: kmfoldercachedimap.cpp:1033
 msgid "Expunging deleted messages"
 msgstr "মুছে ফেলা বার্তা ফেলে দেওয়া হচ্ছে"
 
-#: kmfoldercachedimap.cpp:969
+#: kmfoldercachedimap.cpp:1047
 msgid "Retrieving new messages"
 msgstr "নতুন বার্তা আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:981
+#: kmfoldercachedimap.cpp:1059
 msgid "No new messages from server"
 msgstr "সার্ভার-এ কোন নতুন বার্তা নেই"
 
-#: kmfoldercachedimap.cpp:1015
+#: kmfoldercachedimap.cpp:1097
 msgid "Checking annotation support"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1066
+#: kmfoldercachedimap.cpp:1148
 msgid "Retrieving annotations"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1088
+#: kmfoldercachedimap.cpp:1170
 msgid "Setting annotations"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1134
+#: kmfoldercachedimap.cpp:1216
 msgid "Setting permissions"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1154
+#: kmfoldercachedimap.cpp:1236
 msgid "Retrieving permissions"
 msgstr "অনুমতি আনা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1164
+#: kmfoldercachedimap.cpp:1246
 #, fuzzy
 msgid "Getting quota information"
 msgstr "ফোল্ডার তথ্য পড়তে সমস্যা।"
 
-#: kmfoldercachedimap.cpp:1179
+#: kmfoldercachedimap.cpp:1261
 msgid "Updating cache file"
 msgstr "ক্যাশ ফাইল আপডেট করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1208
+#: kmfoldercachedimap.cpp:1290
 msgid "Synchronization done"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1288
+#: kmfoldercachedimap.cpp:1370
 msgid "Uploading messages to server"
 msgstr "সার্ভার-এ বার্তা আপলোড করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1307
+#: kmfoldercachedimap.cpp:1389
 #, kde-format
 msgid ""
 "<p>Your access rights to folder <b>%1</b> have been restricted, it will no "
 "longer be possible to add messages to this folder.</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1310
+#: kmfoldercachedimap.cpp:1392
 msgid "Access rights revoked"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1313 kmfoldercachedimap.cpp:1370
-#: kmfoldercachedimap.cpp:1415
+#: kmfoldercachedimap.cpp:1395 kmfoldercachedimap.cpp:1452
+#: kmfoldercachedimap.cpp:1497
 msgid "No messages to upload to server"
 msgstr "সার্ভার-এ আপলোড করার মত কোন বার্তা নেই"
 
-#: kmfoldercachedimap.cpp:1333 kmfoldercachedimap.cpp:1378
+#: kmfoldercachedimap.cpp:1415 kmfoldercachedimap.cpp:1460
 msgid "Uploading status of messages to server"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:1456
+#: kmfoldercachedimap.cpp:1540
 msgid "Creating subfolders on server"
 msgstr "সার্ভার-এ সাব-ফোল্ডার তৈরি করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1518
+#: kmfoldercachedimap.cpp:1597
+#, kde-format
+msgid ""
+"<qt><p>Mails on the server in folder <b>%1</b> were deleted. Do you want to "
+"delete them locally?<br>UIDs: %2</p></qt>"
+msgstr ""
+
+#: kmfoldercachedimap.cpp:1610
 msgid "Deleting removed messages from server"
 msgstr "মুছে ফেলা বার্তা সার্ভার থেকে অপসারিত হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1554
+#: kmfoldercachedimap.cpp:1646
 msgid "Checking folder validity"
 msgstr "ফোল্ডারের বৈধতা পরীক্ষা করা হচ্ছে"
 
-#: kmfoldercachedimap.cpp:1852
+#: kmfoldercachedimap.cpp:1877
+msgid "Folder listing failed in interesting ways."
+msgstr ""
+
+#: kmfoldercachedimap.cpp:1975
 #, kde-format
 msgid "Retrieving folders for namespace %1"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2109
+#: kmfoldercachedimap.cpp:2233
 #, kde-format
 msgid ""
 "<qt><p>It seems that the folder <b>%1</b> was deleted. Do you want to delete "
 "it from the server?</p></qt>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2421
+#: kmfoldercachedimap.cpp:2545
 msgid "Aborted"
 msgstr "থামিয়ে দেওয়া হয়েছে"
 
-#: kmfoldercachedimap.cpp:2626
+#: kmfoldercachedimap.cpp:2750
 #, kde-format
 msgid ""
 "The IMAP server %1 does not have support for IMAP annotations. The XML "
 "storage cannot be used on this server; please re-configure KMail differently."
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2666
+#: kmfoldercachedimap.cpp:2790
 #, kde-format
 msgid ""
 "The IMAP server %1 does not support annotations. The XML storage cannot be "
 "used on this server, please re-configure KMail differently"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2812
+#: kmfoldercachedimap.cpp:2936
 msgid "Error while setting annotation: "
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2943 kmfoldercachedimap.cpp:2946
+#: kmfoldercachedimap.cpp:3071 kmfoldercachedimap.cpp:3074
 msgid "lost+found"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2981
+#: kmfoldercachedimap.cpp:3109
 #, kde-format
 msgid ""
 "<p>There are new messages in folder <b>%1</b>, which have not been uploaded "
@@ -5644,11 +5664,11 @@ msgid ""
 "p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2987
+#: kmfoldercachedimap.cpp:3115
 msgid "Insufficient access rights"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:2993
+#: kmfoldercachedimap.cpp:3121
 #, kde-format
 msgid ""
 "<p>There are new messages in this folder (%1), which have not been uploaded "
@@ -5659,16 +5679,16 @@ msgid ""
 "another folder now?</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:3000 kmkernel.cpp:1768
+#: kmfoldercachedimap.cpp:3128 kmkernel.cpp:1768
 #, fuzzy
 msgid "Move"
 msgstr "সরিয়ে নিয়ে যাও:"
 
-#: kmfoldercachedimap.cpp:3000 kmkernel.cpp:1770
+#: kmfoldercachedimap.cpp:3128 kmkernel.cpp:1770
 msgid "Do Not Move"
 msgstr "সরিও না"
 
-#: kmfoldercachedimap.cpp:3003
+#: kmfoldercachedimap.cpp:3131
 msgid "Move Messages to Folder"
 msgstr "বার্তা ফোল্ডার-এ সরাও"
 
@@ -5841,59 +5861,59 @@ msgstr "<qt>ফোল্ডার <b>%1</b>-এ প্রবেশ করা য
 msgid "<qt>Folder <b>%1</b> is unreadable.</qt>"
 msgstr "<qt>ফোল্ডার <b>%1</b> পড়া যাচ্ছে না।</qt>"
 
-#: kmfolderimap.cpp:265
+#: kmfolderimap.cpp:255
 #, fuzzy
 msgid "Removing folder"
 msgstr "ফোল্ডার-এর নাম পরিবর্তন করা হচ্ছে"
 
-#: kmfolderimap.cpp:266 searchjob.cpp:274
+#: kmfolderimap.cpp:256 searchjob.cpp:274
 #, kde-format
 msgid "URL: %1"
 msgstr ""
 
-#: kmfolderimap.cpp:281
+#: kmfolderimap.cpp:271
 msgid "Error while removing a folder."
 msgstr ""
 
-#: kmfolderimap.cpp:511
+#: kmfolderimap.cpp:501
 #, fuzzy, kde-format
 msgid "Destination folder: %1"
 msgstr "গন্তব্য ফোল্ডার :"
 
-#: kmfolderimap.cpp:1092
+#: kmfolderimap.cpp:1082
 msgid "checking"
 msgstr "পরীক্ষা করা হচ্ছে"
 
-#: kmfolderimap.cpp:1153
+#: kmfolderimap.cpp:1143
 msgid "Error while querying the server status."
 msgstr ""
 
-#: kmfolderimap.cpp:1273
+#: kmfolderimap.cpp:1263
 msgid "Retrieving message status"
 msgstr "বার্তা অবস্থা আনা হচ্ছে"
 
-#: kmfolderimap.cpp:1291 kmfolderimap.cpp:1395
+#: kmfolderimap.cpp:1281 kmfolderimap.cpp:1385
 msgid "Retrieving messages"
 msgstr "বার্তা আনা হচ্ছে"
 
-#: kmfolderimap.cpp:1320
+#: kmfolderimap.cpp:1310
 #, kde-format
 msgid "Error while listing the contents of the folder %1."
 msgstr ""
 
-#: kmfolderimap.cpp:1745
+#: kmfolderimap.cpp:1735
 msgid "Error while retrieving messages."
 msgstr "বার্তা আনতে সমস্যা।"
 
-#: kmfolderimap.cpp:1813
+#: kmfolderimap.cpp:1803
 msgid "Error while creating a folder."
 msgstr "ফোল্ডার তৈরি করাকালীন সমস্যা।"
 
-#: kmfolderimap.cpp:2181
+#: kmfolderimap.cpp:2171
 msgid "updating message counts"
 msgstr ""
 
-#: kmfolderimap.cpp:2205
+#: kmfolderimap.cpp:2195
 msgid "Error while getting folder information."
 msgstr "ফোল্ডার তথ্য পড়তে সমস্যা।"
 
@@ -5952,30 +5972,30 @@ msgid ""
 "have sufficient access permissions."
 msgstr ""
 
-#: kmfoldermaildir.cpp:245
+#: kmfoldermaildir.cpp:231
 msgid "Could not sync maildir folder."
 msgstr ""
 
-#: kmfoldermaildir.cpp:402
+#: kmfoldermaildir.cpp:388
 msgid "Message could not be added to the folder, possibly disk space is low."
 msgstr ""
 
-#: kmfoldermaildir.cpp:499
+#: kmfoldermaildir.cpp:485
 msgid "KMFolderMaildir::addMsg: abnormally terminating to prevent data loss."
 msgstr ""
 "KMFolderMaildir::addMsg: তথ্য ক্ষয় প্রতিরোধ করতে অস্বাভাবিক সমাপ্তি ঘটানো হচ্ছে।"
 
-#: kmfoldermaildir.cpp:854 kmfoldermbox.cpp:885
+#: kmfoldermaildir.cpp:840 kmfoldermbox.cpp:856
 msgid "Writing index file"
 msgstr "সূচী ফাইল লেখা হচ্ছে"
 
-#: kmfoldermaildir.cpp:867 kmfoldermbox.cpp:899
+#: kmfoldermaildir.cpp:853 kmfoldermbox.cpp:870
 msgid ""
 "Your outbox contains messages which were most-likely not created by KMail;\n"
 "please remove them from there if you do not want KMail to send them."
 msgstr ""
 
-#: kmfoldermbox.cpp:128
+#: kmfoldermbox.cpp:130
 #, kde-format
 msgid ""
 "Cannot open file \"%1\":\n"
@@ -5984,28 +6004,28 @@ msgstr ""
 "ফাইল \"%1\" খোলা যাচ্ছে না:\n"
 "%2"
 
-#: kmfoldermbox.cpp:362
+#: kmfoldermbox.cpp:333
 msgid "Internal error. Please copy down the details and report a bug."
 msgstr ""
 "অভ্যন্তরীন ত্রুটি। অনুগ্রহ করে বিস্তারিত বিবরণ কপি করে নিয়ে একটি বাগ-রিপোর্ট পাঠান।"
 
-#: kmfoldermbox.cpp:362
+#: kmfoldermbox.cpp:333
 #, kde-format
 msgid "Could not sync index file <b>%1</b>: %2"
 msgstr ""
 
-#: kmfoldermbox.cpp:707
+#: kmfoldermbox.cpp:678
 #, kde-format
 msgid "Creating index file: one message done"
 msgid_plural "Creating index file: %1 messages done"
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmfoldermbox.cpp:1131 kmfoldermbox.cpp:1222
+#: kmfoldermbox.cpp:1102 kmfoldermbox.cpp:1193
 msgid "Could not add message to folder: "
 msgstr "ফোল্ডারে বার্তা যোগ করা যায়নি:"
 
-#: kmfoldermbox.cpp:1225
+#: kmfoldermbox.cpp:1196
 msgid "Could not add message to folder (No space left on device?)"
 msgstr "ফোল্ডারে বার্তা যোগ করা যায়নি (ডিভাইস-এ স্থানাভাব?)"
 
@@ -6065,86 +6085,86 @@ msgstr ""
 "%2-তে `%1' ফাইল তৈরি করা যায়নি।\n"
 "এই ফাইল ছাড়া কে-মেইল চালু করা যাবে না।"
 
-#: kmfoldertree.cpp:379 kmheaders.cpp:141
+#: kmfoldertree.cpp:394 kmheaders.cpp:141
 msgid "View Columns"
 msgstr "কলাম দেখাও"
 
-#: kmfoldertree.cpp:380
+#: kmfoldertree.cpp:395
 msgid "Unread Column"
 msgstr "অপঠিত কলাম"
 
-#: kmfoldertree.cpp:383
+#: kmfoldertree.cpp:398
 msgid "Total Column"
 msgstr "মোট কলাম"
 
-#: kmfoldertree.cpp:386
+#: kmfoldertree.cpp:401
 #, fuzzy
 #| msgid "View Columns"
 msgctxt "Column that shows the size"
 msgid "Size Column"
 msgstr "কলাম দেখাও"
 
-#: kmfoldertree.cpp:560 kmfoldertree.cpp:1070
+#: kmfoldertree.cpp:580 kmfoldertree.cpp:1076
 msgid "Searches"
 msgstr "সন্ধান"
 
-#: kmfoldertree.cpp:897
+#: kmfoldertree.cpp:903
 #, kde-format
 msgid "<qt>Go to the next unread message in folder <b>%1</b>?</qt>"
 msgstr "<qt>ফোল্ডার <b>%1</b>-র পরবর্তী অপঠিত বার্তায় যাব?</qt>"
 
-#: kmfoldertree.cpp:899
+#: kmfoldertree.cpp:905
 msgid "Go to Next Unread Message"
 msgstr "পরবর্তী অপঠিত বার্তায় যাও"
 
-#: kmfoldertree.cpp:900
+#: kmfoldertree.cpp:906
 msgid "Go To"
 msgstr "এখানে যাও"
 
-#: kmfoldertree.cpp:900
+#: kmfoldertree.cpp:906
 msgid "Do Not Go To"
 msgstr "এখানে যেও না"
 
-#: kmfoldertree.cpp:1068 kmmainwidget.cpp:2821
+#: kmfoldertree.cpp:1074 kmmainwidget.cpp:2821
 msgid "&New Folder..."
 msgstr "&নতুন ফোল্ডার..."
 
-#: kmfoldertree.cpp:1079 kmmainwidget.cpp:2656
+#: kmfoldertree.cpp:1085 kmmainwidget.cpp:2656
 msgid "Check &Mail"
 msgstr "মেইল &পরীক্ষা করো"
 
-#: kmfoldertree.cpp:1092
+#: kmfoldertree.cpp:1098
 #, fuzzy
 msgid "&Copy Folder To"
 msgstr "ফোল্ডার এখানে &সরাও"
 
-#: kmfoldertree.cpp:1097
+#: kmfoldertree.cpp:1103
 msgid "&Move Folder To"
 msgstr "ফোল্ডার এখানে &সরাও"
 
-#: kmfoldertree.cpp:1112
+#: kmfoldertree.cpp:1118
 #, fuzzy
 #| msgid "Standard Groupware Folders"
 msgid "Add to Favorite Folders"
 msgstr "স্ট্যান্ডার্ড গ্রুপওয়্যার ফোল্ডার"
 
-#: kmfoldertree.cpp:1131
-msgid "Subscription..."
+#: kmfoldertree.cpp:1137
+msgid "Serverside Subscription..."
 msgstr ""
 
-#: kmfoldertree.cpp:1134
+#: kmfoldertree.cpp:1140
 msgid "Local Subscription..."
 msgstr ""
 
-#: kmfoldertree.cpp:1141
+#: kmfoldertree.cpp:1147
 msgid "Refresh Folder List"
 msgstr "ফোল্ডার তালিকা নতুন করে পড়ো"
 
-#: kmfoldertree.cpp:1147 kmmainwidget.cpp:3984
+#: kmfoldertree.cpp:1153 kmmainwidget.cpp:3984
 msgid "&Troubleshoot IMAP Cache..."
 msgstr ""
 
-#: kmfoldertree.cpp:1255
+#: kmfoldertree.cpp:1261
 #, kde-format
 msgid ""
 "<qt>Cannot create folder <b>%1</b> because of insufficient permissions on "
@@ -6152,45 +6172,45 @@ msgid ""
 "your administrator to grant you rights to do so.</qt> "
 msgstr ""
 
-#: kmfoldertree.cpp:1746 kmmainwidget.cpp:579 kmmainwidget.cpp:586
+#: kmfoldertree.cpp:1679 kmmainwidget.cpp:579 kmmainwidget.cpp:586
 #: kmmainwidget.cpp:593
 msgid "Unread"
 msgstr "অপঠিত"
 
-#: kmfoldertree.cpp:1759 kmmainwidget.cpp:581 kmmainwidget.cpp:588
+#: kmfoldertree.cpp:1692 kmmainwidget.cpp:581 kmmainwidget.cpp:588
 #: kmmainwidget.cpp:595
 msgid "Total"
 msgstr "মোট"
 
-#: kmfoldertree.cpp:1981
+#: kmfoldertree.cpp:1914
 msgid "Move to This Folder"
 msgstr "এই ফোল্ডার-এ সরাও"
 
-#: kmfoldertree.cpp:1983
+#: kmfoldertree.cpp:1916
 msgid "Copy to This Folder"
 msgstr "এই ফোল্ডার-এ কপি করো"
 
-#: kmfoldertree.cpp:2039
+#: kmfoldertree.cpp:1972
 #, kde-format
 msgid ""
 "<qt>Cannot move or copy folder <b>%1</b> here because a folder with the same "
 "name already exists.</qt>"
 msgstr ""
 
-#: kmfoldertree.cpp:2048
+#: kmfoldertree.cpp:1981
 #, kde-format
 msgid ""
 "<qt>Cannot move or copy folder <b>%1</b> because it is not completely copied "
 "itself.</qt>"
 msgstr ""
 
-#: kmfoldertree.cpp:2056
+#: kmfoldertree.cpp:1989
 #, fuzzy, kde-format
 msgid ""
 "<qt>Cannot move or copy folder <b>%1</b> into a subfolder below itself.</qt>"
 msgstr "<qt>ফোল্ডার <b>%1</b> খোলা যাচ্ছে না।</qt>"
 
-#: kmfoldertree.cpp:2097
+#: kmfoldertree.cpp:2030
 msgid "Moving the selected folders is not possible"
 msgstr ""
 
@@ -6501,7 +6521,7 @@ msgstr "ভি-কার্ড আমদানি ব্যর্থ"
 msgid "<qt>Unable to access <b>%1</b>.</qt>"
 msgstr ""
 
-#: kmlineeditspell.cpp:201 recipientspicker.cpp:533
+#: kmlineeditspell.cpp:201 recipientspicker.cpp:550
 msgid "Recent Addresses"
 msgstr "সাম্প্রতিক ঠিকানা"
 
@@ -11257,7 +11277,7 @@ msgstr "যো&গ করো..."
 
 #. i18n: file: snippetdlgbase.ui:131
 #. i18n: ectx: property (text), widget (KPushButton, btnCancel)
-#: rc.cpp:1045 recipientspicker.cpp:391
+#: rc.cpp:1045 recipientspicker.cpp:408
 #, fuzzy
 msgid "&Cancel"
 msgstr "বাতি&ল"
@@ -11564,63 +11584,69 @@ msgstr ""
 msgid "Truncating recipients list to %1 of %2 entries."
 msgstr ""
 
-#: recipientspicker.cpp:77 recipientspicker.cpp:94
+#: recipientspicker.cpp:82 recipientspicker.cpp:99
 #, fuzzy, kde-format
 msgid "1 email address"
 msgid_plural "%1 email addresses"
 msgstr[0] "একটি ই-মেইল ঠিকানা"
 msgstr[1] "%1-টি ই-মেইল ঠিকানা"
 
-#: recipientspicker.cpp:165 recipientspicker.cpp:188
+#: recipientspicker.cpp:170 recipientspicker.cpp:193
 #, kde-format
 msgid "Distribution List %1"
 msgstr "বিতরণ তালিকা %1"
 
-#: recipientspicker.cpp:336
+#: recipientspicker.cpp:342
 msgid "Select Recipient"
 msgstr ""
 
-#: recipientspicker.cpp:347
+#: recipientspicker.cpp:353
 msgid "Address book:"
 msgstr "ঠিকানা তালিকা:"
 
-#: recipientspicker.cpp:356
+#: recipientspicker.cpp:362
 msgid "->"
 msgstr ""
 
-#: recipientspicker.cpp:372
+#: recipientspicker.cpp:380
+#, fuzzy
+#| msgid "Search Criteria"
+msgid "Search &Directory Service"
+msgstr "সন্ধাননীতি"
+
+#: recipientspicker.cpp:382
 #, fuzzy
 #| msgid "&Search:"
 msgid "Search:"
 msgstr "&সন্ধান:"
 
-#: recipientspicker.cpp:379
+#: recipientspicker.cpp:396
 #, fuzzy
 #| msgid "Add Transport"
 msgid "Add as &To"
 msgstr "বার্তাবাহক যোগ করো"
 
-#: recipientspicker.cpp:383
+#: recipientspicker.cpp:400
 msgid "Add as CC"
 msgstr ""
 
-#: recipientspicker.cpp:387
+#: recipientspicker.cpp:404
 msgid "Add as &BCC"
 msgstr ""
 
-#: recipientspicker.cpp:429
+#: recipientspicker.cpp:446
 msgid "All"
 msgstr ""
 
-#: recipientspicker.cpp:431
+#: recipientspicker.cpp:448
 msgid "Distribution Lists"
 msgstr "বিতরণ তালিকা"
 
-#: recipientspicker.cpp:432
+#: recipientspicker.cpp:449
 msgid "Selected Recipients"
 msgstr ""
 
-#: recipientspicker.cpp:733
+#: recipientspicker.cpp:750
 #, kde-format
 msgid ""
 "You selected 1 recipient. The maximum supported number of recipients is %2. "
@@ -12761,6 +12787,16 @@ msgstr "কোন ছবি নেই"
 msgid "You do not have your own contact defined in the address book."
 msgstr ""
 
+#: folderviewtooltip.h:46
+#, kde-format
+msgid "<qt><b>%1</b><br>Total: %2<br>Unread: %3<br>Size: %4"
+msgstr ""
+
+#: folderviewtooltip.h:55
+#, kde-format
+msgid "<br>Quota: %1"
+msgstr ""
+
 #: kmail_options.h:12
 msgid "Set subject of message"
 msgstr "বার্তার বিষয় নির্ধারণ করো"
@@ -12907,6 +12943,11 @@ msgstr "হ্যাম"
 msgctxt "message status"
 msgid "Has Attachment"
 msgstr "অ্যাটাচমেন্ট আছে"
+
+#: quotajobs.h:80
+#, kde-format
+msgid "%1 of %2 %3 used"
+msgstr ""
 
 #~ msgid "Welcome to KMail"
 #~ msgstr "কে-মেইল-এ স্বাগতম্"
