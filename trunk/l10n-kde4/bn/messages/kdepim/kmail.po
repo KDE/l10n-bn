@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-30 09:42+0200\n"
+"POT-Creation-Date: 2008-10-01 10:40+0200\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -124,15 +124,13 @@ msgid "&Filtering"
 msgstr "ফিল্টারিং (&ফ)"
 
 #: accountdialog.cpp:781
-#, fuzzy
-#| msgid "<none>"
 msgctxt "Placeholder for the case that there is no folder."
-msgid "<none>"
-msgstr "<কিছু না>"
+msgid "<placeholder>none</placeholder>"
+msgstr ""
 
 #: accountdialog.cpp:801 accountdialog.cpp:808 kmfoldercachedimap.cpp:262
-#: kmfoldercachedimap.cpp:2188 kmfolderimap.cpp:208 kmfolderimap.cpp:923
-#: kmkernel.cpp:1297 subscriptiondialog.cpp:167
+#: kmfoldercachedimap.cpp:2188 kmfolderimap.cpp:208 kmfolderimap.cpp:924
+#: kmkernel.cpp:1299 subscriptiondialog.cpp:167
 msgid "inbox"
 msgstr "ইনবক্স"
 
@@ -763,17 +761,20 @@ msgstr "প্রেরক:"
 #: callback.cpp:76
 #, fuzzy, kde-format
 #| msgid " Line: %1 "
+msgctxt "Not able to attend."
 msgid "Declined: %1"
 msgstr " লাইন: %1"
 
 #: callback.cpp:78
 #, kde-format
+msgctxt "Unsure if it is possible to attend."
 msgid "Tentative: %1"
 msgstr ""
 
 #: callback.cpp:80
 #, fuzzy, kde-format
 #| msgid "Account %1"
+msgctxt "Accepted the invitation."
 msgid "Accepted: %1"
 msgstr "অ্যাকাউন্ট %1"
 
@@ -2540,7 +2541,7 @@ msgstr "উদ্ধৃতিচিহ্ন &সরিয়ে ফেলো"
 msgid "Rename Favorite..."
 msgstr "ফিল্টারের নাম পাল্টাও"
 
-#: favoritefolderview.cpp:347 kmfoldertree.cpp:1193 kmmainwidget.cpp:2862
+#: favoritefolderview.cpp:347 kmfoldertree.cpp:1193 kmmainwidget.cpp:2863
 msgid "&Assign Shortcut..."
 msgstr ""
 
@@ -2922,6 +2923,7 @@ msgstr "বিষয় অনির্দিষ্ট"
 
 #: headerlistquicksearch.cpp:60
 #, fuzzy
+msgctxt "Search for messages."
 msgid "Search"
 msgstr "&সন্ধান"
 
@@ -3898,14 +3900,21 @@ msgstr "বার্তা যোগ করা যায়নি:\n"
 
 #: kmacctimap.cpp:304
 #, fuzzy, kde-format
+msgctxt "@info:status"
 msgid "Checking account: %1"
 msgstr "এই অ্যাকাউন্ট পরীক্ষা করা হচ্ছে:"
 
-#: kmacctimap.cpp:401 kmfolderimap.cpp:864
+#: kmacctimap.cpp:402
+#, fuzzy
+#| msgid " completed"
+msgctxt "@info:status Number of emails retrieved."
 msgid " completed"
 msgstr " সম্পন্ন"
 
-#: kmacctimap.cpp:606 kmheaders.cpp:1323
+#: kmacctimap.cpp:608
+#, fuzzy
+#| msgid "Unable to process messages: "
+msgctxt "@info:status"
 msgid "Unable to process messages: "
 msgstr "বার্তা প্রসেস করতে অসমর্থ:"
 
@@ -4032,7 +4041,7 @@ msgstr ""
 #: kmailicalifaceimpl.cpp:1753
 #, kde-format
 msgid ""
-"<qt>KMail found the following groupware folders in %1 andneeds to perform "
+"<qt>KMail found the following groupware folders in %1 and needs to perform "
 "the following operations: %2<nl/>If you do not want this, cancel and the "
 "IMAP resource will be disabled</qt>"
 msgstr ""
@@ -4088,11 +4097,11 @@ msgid "File <filename>%1</filename> exists.<nl/>Do you want to replace it?"
 msgstr ""
 "<qt><b>%1</b> নামক ফাইল আগে থেকেই আছে।<br>আপনি কি সেটি বদলাতে চান?</qt>"
 
-#: kmcommands.cpp:643 kmcommands.cpp:952 kmkernel.cpp:1881
+#: kmcommands.cpp:643 kmcommands.cpp:952 kmkernel.cpp:1883
 msgid "Save to File"
 msgstr "ফাইলে সংরক্ষণ করো"
 
-#: kmcommands.cpp:643 kmcommands.cpp:952 kmkernel.cpp:1881
+#: kmcommands.cpp:643 kmcommands.cpp:952 kmkernel.cpp:1883
 msgid "&Replace"
 msgstr "&বদলাও"
 
@@ -4104,7 +4113,7 @@ msgstr "বার্তা প্লেইন টেক্সট হিসাব
 msgid "The message was removed while saving it. It has not been saved."
 msgstr ""
 
-#: kmcommands.cpp:951 kmkernel.cpp:1880
+#: kmcommands.cpp:951 kmkernel.cpp:1882
 #, kde-format
 msgid ""
 "File %1 exists.\n"
@@ -4149,12 +4158,12 @@ msgid ""
 "\n"
 msgstr ""
 
-#: kmcommands.cpp:1714 kmheaders.cpp:1459
+#: kmcommands.cpp:1714 kmheaders.cpp:1460
 #, fuzzy
 msgid "Filtering messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: kmcommands.cpp:1723 kmheaders.cpp:1467
+#: kmcommands.cpp:1723 kmheaders.cpp:1468
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "%1 থেকে %2-টি বার্তার %3 নম্বরটি স্থানান্তরিত করা হচ্ছে।"
@@ -4457,7 +4466,7 @@ msgstr "ফাই&ল ঢোকাও..."
 msgid "&Insert File Recent"
 msgstr ""
 
-#: kmcomposewin.cpp:1088 kmmainwidget.cpp:2729
+#: kmcomposewin.cpp:1088 kmmainwidget.cpp:2730
 msgid "&Address Book"
 msgstr "ঠিকানা তালিকা (&ত)"
 
@@ -4904,7 +4913,7 @@ msgid ""
 "until you go online."
 msgstr ""
 
-#: kmcomposewin.cpp:3382 kmkernel.cpp:1165
+#: kmcomposewin.cpp:3382 kmkernel.cpp:1167
 msgid "Online/Offline"
 msgstr ""
 
@@ -5817,12 +5826,12 @@ msgid ""
 "another folder now?</p>"
 msgstr ""
 
-#: kmfoldercachedimap.cpp:3131 kmkernel.cpp:1771
+#: kmfoldercachedimap.cpp:3131 kmkernel.cpp:1773
 #, fuzzy
 msgid "Move"
 msgstr "সরিয়ে নিয়ে যাও:"
 
-#: kmfoldercachedimap.cpp:3131 kmkernel.cpp:1773
+#: kmfoldercachedimap.cpp:3131 kmkernel.cpp:1775
 msgid "Do Not Move"
 msgstr "সরিও না"
 
@@ -6037,40 +6046,47 @@ msgstr ""
 msgid "Destination folder: %1"
 msgstr "গন্তব্য ফোল্ডার :"
 
-#: kmfolderimap.cpp:1082
+#: kmfolderimap.cpp:865
+#, fuzzy
+#| msgid " completed"
+msgctxt "@info:status Number of folders for which update is completed."
+msgid " completed"
+msgstr " সম্পন্ন"
+
+#: kmfolderimap.cpp:1083
 msgid "checking"
 msgstr "পরীক্ষা করা হচ্ছে"
 
-#: kmfolderimap.cpp:1143
+#: kmfolderimap.cpp:1144
 msgid "Error while querying the server status."
 msgstr ""
 
-#: kmfolderimap.cpp:1263
+#: kmfolderimap.cpp:1264
 msgid "Retrieving message status"
 msgstr "বার্তা অবস্থা আনা হচ্ছে"
 
-#: kmfolderimap.cpp:1281 kmfolderimap.cpp:1385
+#: kmfolderimap.cpp:1282 kmfolderimap.cpp:1386
 msgid "Retrieving messages"
 msgstr "বার্তা আনা হচ্ছে"
 
-#: kmfolderimap.cpp:1310
+#: kmfolderimap.cpp:1311
 #, kde-format
 msgid "Error while listing the contents of the folder %1."
 msgstr ""
 
-#: kmfolderimap.cpp:1735
+#: kmfolderimap.cpp:1736
 msgid "Error while retrieving messages."
 msgstr "বার্তা আনতে সমস্যা।"
 
-#: kmfolderimap.cpp:1803
+#: kmfolderimap.cpp:1804
 msgid "Error while creating a folder."
 msgstr "ফোল্ডার তৈরি করাকালীন সমস্যা।"
 
-#: kmfolderimap.cpp:2171
+#: kmfolderimap.cpp:2172
 msgid "updating message counts"
 msgstr ""
 
-#: kmfolderimap.cpp:2195
+#: kmfolderimap.cpp:2196
 msgid "Error while getting folder information."
 msgstr "ফোল্ডার তথ্য পড়তে সমস্যা।"
 
@@ -6207,14 +6223,14 @@ msgstr ""
 "'%1' একটি ফোল্ডার বলে মনে হচ্ছে না।\n"
 "অনুগ্রহ করে ফাইলটি অন্য কোথাও সরিয়ে নিন।"
 
-#: kmfoldermgr.cpp:146 kmkernel.cpp:1247
+#: kmfoldermgr.cpp:146 kmkernel.cpp:1249
 #, kde-format
 msgid ""
 "The permissions of the folder '%1' are incorrect;\n"
 "please make sure that you can view and modify the content of this folder."
 msgstr ""
 
-#: kmfoldermgr.cpp:156 kmkernel.cpp:1239
+#: kmfoldermgr.cpp:156 kmkernel.cpp:1241
 #, kde-format
 msgid ""
 "KMail could not create folder '%1';\n"
@@ -6233,7 +6249,7 @@ msgstr ""
 msgid "Could Not Create Folder"
 msgstr "ফোল্ডার তৈরি করতে ব্যর্থ"
 
-#: kmfoldermgr.cpp:322 kmkernel.cpp:1555
+#: kmfoldermgr.cpp:322 kmkernel.cpp:1557
 #, kde-format
 msgid ""
 "Cannot create file `%1' in %2.\n"
@@ -6282,11 +6298,11 @@ msgstr "এখানে যাও"
 msgid "Do Not Go To"
 msgstr "এখানে যেও না"
 
-#: kmfoldertree.cpp:1095 kmmainwidget.cpp:2849
+#: kmfoldertree.cpp:1095 kmmainwidget.cpp:2850
 msgid "&New Folder..."
 msgstr "&নতুন ফোল্ডার..."
 
-#: kmfoldertree.cpp:1106 kmmainwidget.cpp:2684
+#: kmfoldertree.cpp:1106 kmmainwidget.cpp:2685
 msgid "Check &Mail"
 msgstr "মেইল &পরীক্ষা করো"
 
@@ -6317,7 +6333,7 @@ msgstr ""
 msgid "Refresh Folder List"
 msgstr "ফোল্ডার তালিকা নতুন করে পড়ো"
 
-#: kmfoldertree.cpp:1174 kmmainwidget.cpp:4013
+#: kmfoldertree.cpp:1174 kmmainwidget.cpp:4015
 msgid "&Troubleshoot IMAP Cache..."
 msgstr ""
 
@@ -6356,27 +6372,27 @@ msgstr "এই ফোল্ডার-এ সরাও"
 msgid "Copy to This Folder"
 msgstr "এই ফোল্ডার-এ কপি করো"
 
-#: kmfoldertree.cpp:1997
+#: kmfoldertree.cpp:1998
 #, kde-format
 msgid ""
 "<qt>Cannot move or copy folder <b>%1</b> here because a folder with the same "
 "name already exists.</qt>"
 msgstr ""
 
-#: kmfoldertree.cpp:2006
+#: kmfoldertree.cpp:2007
 #, kde-format
 msgid ""
 "<qt>Cannot move or copy folder <b>%1</b> because it is not completely copied "
 "itself.</qt>"
 msgstr ""
 
-#: kmfoldertree.cpp:2014
+#: kmfoldertree.cpp:2015
 #, fuzzy, kde-format
 msgid ""
 "<qt>Cannot move or copy folder <b>%1</b> into a subfolder below itself.</qt>"
 msgstr "<qt>ফোল্ডার <b>%1</b> খোলা যাচ্ছে না।</qt>"
 
-#: kmfoldertree.cpp:2055
+#: kmfoldertree.cpp:2056
 msgid "Moving the selected folders is not possible"
 msgstr ""
 
@@ -6385,6 +6401,9 @@ msgid "Status"
 msgstr "স্ট্যাটাস"
 
 #: kmheaders.cpp:145
+#, fuzzy
+#| msgid "Important"
+msgctxt "@action:inmenu Mark message as important."
 msgid "Important"
 msgstr "গুরুত্বপূর্ণ"
 
@@ -6417,7 +6436,10 @@ msgstr "এনক্রিপশন"
 msgid "Receiver"
 msgstr "গ্রাহক"
 
-#: kmheaders.cpp:210 kmheaders.cpp:790 kmheaders.cpp:2666
+#: kmheaders.cpp:210
+#, fuzzy
+#| msgid "Subject"
+msgctxt "@title:column Subject of message."
 msgid "Subject"
 msgstr "বিষয়"
 
@@ -6426,18 +6448,29 @@ msgstr "বিষয়"
 msgid "Sender"
 msgstr "প্রেরক"
 
-#: kmheaders.cpp:212 kmheaders.cpp:785 kmheaders.cpp:2661
+#: kmheaders.cpp:212 kmheaders.cpp:785 kmheaders.cpp:2662
 #: templatesinsertcommand.cpp:68 templatesinsertcommand.cpp:192
 msgid "Date"
 msgstr "তারিখ"
 
-#: kmheaders.cpp:787 kmheaders.cpp:2663
+#: kmheaders.cpp:787 kmheaders.cpp:2664
 msgid "Date (Order of Arrival)"
 msgstr "তারিখ (প্রাপ্তির ক্রমানুসারে)"
 
-#: kmheaders.cpp:792 kmheaders.cpp:2668
+#: kmheaders.cpp:790
+#, fuzzy
+#| msgid "Subject"
+msgctxt "@title:column Subject of email."
+msgid "Subject"
+msgstr "বিষয়"
+
+#: kmheaders.cpp:792 kmheaders.cpp:2669
 msgid " (Status)"
 msgstr " (স্ট্যাটাস)"
+
+#: kmheaders.cpp:1323
+msgid "Unable to process messages: "
+msgstr "বার্তা প্রসেস করতে অসমর্থ:"
 
 #: kmheaders.cpp:1410
 #, fuzzy, kde-format
@@ -6452,33 +6485,37 @@ msgstr "0 না পাঠানো"
 
 #: kmheaders.cpp:1412
 #, fuzzy, kde-format
+msgctxt "Number of unread messages."
 msgid "1 unread"
 msgid_plural "%1 unread"
 msgstr[0] "একটি না পড়া"
 msgstr[1] "%1-টি না পড়া"
 
-#: kmheaders.cpp:1412
+#: kmheaders.cpp:1413
+#, fuzzy
+#| msgid "0 unread"
+msgctxt "No unread messages."
 msgid "0 unread"
 msgstr "0 অপঠিত"
 
-#: kmheaders.cpp:1414
+#: kmheaders.cpp:1415
 #, fuzzy, kde-format
 msgid "1 message, %2."
 msgid_plural "%1 messages, %2."
 msgstr[0] "একটি বার্তা, %2."
 msgstr[1] "%1-টি বার্তা, %2।"
 
-#: kmheaders.cpp:1415
+#: kmheaders.cpp:1416
 msgid "0 messages"
 msgstr "0 বার্তা"
 
-#: kmheaders.cpp:1417
+#: kmheaders.cpp:1418
 #, kde-format
 msgctxt "%1 = n messages, m unread."
 msgid "%1 Folder is read-only."
 msgstr "%1 ফোল্ডার-টি শুধু পড়া যায়।"
 
-#: kmheaders.cpp:1609
+#: kmheaders.cpp:1610
 #, kde-format
 msgid ""
 "<qt>Do you really want to delete the selected message?<br />Once deleted, it "
@@ -6489,49 +6526,56 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmheaders.cpp:1613
+#: kmheaders.cpp:1614
 msgid "Delete Messages"
 msgstr "বার্তা মুছে ফেলো"
 
-#: kmheaders.cpp:1613
+#: kmheaders.cpp:1614
 msgid "Delete Message"
 msgstr "বার্তা মুছে ফেলো"
 
-#: kmheaders.cpp:1639
+#: kmheaders.cpp:1640
 msgid "Messages deleted successfully."
 msgstr "বার্তা মুছে ফেলা সফল"
 
-#: kmheaders.cpp:1639
+#: kmheaders.cpp:1640
 msgid "Messages moved successfully"
 msgstr "বার্তা সরানো সফল"
 
-#: kmheaders.cpp:1662
+#: kmheaders.cpp:1663
 msgid "Deleting messages failed."
 msgstr "বার্তা মুছে ফেলা ব্যর্থ।"
 
-#: kmheaders.cpp:1662
+#: kmheaders.cpp:1663
 msgid "Moving messages failed."
 msgstr "বার্তা স্থানান্তর করা ব্যর্থ।"
 
-#: kmheaders.cpp:1665
+#: kmheaders.cpp:1666
 msgid "Deleting messages canceled."
 msgstr "বার্তা মোছা বাতিল করা হয়েছে।"
 
-#: kmheaders.cpp:1665
+#: kmheaders.cpp:1666
 msgid "Moving messages canceled."
 msgstr "বার্তা সরানো বাতিল করা হয়েছে।"
 
-#: kmheaders.cpp:2491 kmmainwidget.cpp:3098 kmreadermainwin.cpp:330
+#: kmheaders.cpp:2492 kmmainwidget.cpp:3099 kmreadermainwin.cpp:330
 #: searchwindow.cpp:839
 msgid "&Copy To"
 msgstr "কপি পাঠা&ও"
 
-#: kmheaders.cpp:2495 kmheaders.cpp:2501 kmmainwidget.cpp:3095
+#: kmheaders.cpp:2496 kmheaders.cpp:2502 kmmainwidget.cpp:3096
 #: searchwindow.cpp:841
 msgid "&Move To"
 msgstr "&সরিয়ে নিয়ে যাও"
 
-#: kmheaders.cpp:2838 kmheaders.cpp:2878
+#: kmheaders.cpp:2667
+#, fuzzy
+#| msgid "Subject"
+msgctxt "@title:column Subject of the email."
+msgid "Subject"
+msgstr "বিষয়"
+
+#: kmheaders.cpp:2839 kmheaders.cpp:2879
 #, kde-format
 msgid ""
 "Failure modifying %1\n"
@@ -6540,85 +6584,85 @@ msgstr ""
 "%1 পরিবর্তন করা যায়নি\n"
 "(ডিভাইস-এ স্থানাভাব?)"
 
-#: kmkernel.cpp:671
+#: kmkernel.cpp:673
 msgid "Certificate Signature Request"
 msgstr ""
 
-#: kmkernel.cpp:674
+#: kmkernel.cpp:676
 msgid "Please create a certificate from attachment and return to sender."
 msgstr ""
 
-#: kmkernel.cpp:1131
+#: kmkernel.cpp:1133
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:1142
+#: kmkernel.cpp:1144
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:1163
+#: kmkernel.cpp:1165
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:1166 kmmainwidget.cpp:2028
+#: kmkernel.cpp:1168 kmmainwidget.cpp:2029
 msgid "Work Online"
 msgstr ""
 
-#: kmkernel.cpp:1167 kmmainwidget.cpp:2024
+#: kmkernel.cpp:1169 kmmainwidget.cpp:2025
 msgid "Work Offline"
 msgstr ""
 
-#: kmkernel.cpp:1302
+#: kmkernel.cpp:1304
 msgid "You do not have read/write permission to your inbox folder."
 msgstr ""
 
-#: kmkernel.cpp:1310
+#: kmkernel.cpp:1312
 msgid "outbox"
 msgstr "আউটবক্স"
 
-#: kmkernel.cpp:1312
+#: kmkernel.cpp:1314
 msgid "You do not have read/write permission to your outbox folder."
 msgstr ""
 
-#: kmkernel.cpp:1329
+#: kmkernel.cpp:1331
 msgid "sent-mail"
 msgstr "প্রেরিত-মেইল"
 
-#: kmkernel.cpp:1331
+#: kmkernel.cpp:1333
 msgid "You do not have read/write permission to your sent-mail folder."
 msgstr ""
 
-#: kmkernel.cpp:1338
+#: kmkernel.cpp:1340
 msgid "trash"
 msgstr "আবর্জনা"
 
-#: kmkernel.cpp:1340
+#: kmkernel.cpp:1342
 msgid "You do not have read/write permission to your trash folder."
 msgstr ""
 
-#: kmkernel.cpp:1347
+#: kmkernel.cpp:1349
 msgid "drafts"
 msgstr "খসড়া"
 
-#: kmkernel.cpp:1349
+#: kmkernel.cpp:1351
 msgid "You do not have read/write permission to your drafts folder."
 msgstr ""
 
-#: kmkernel.cpp:1356
+#: kmkernel.cpp:1358
 #, fuzzy
 msgid "templates"
 msgstr "&বদলাও"
 
-#: kmkernel.cpp:1358
+#: kmkernel.cpp:1360
 msgid "You do not have read/write permission to your templates folder."
 msgstr ""
 
-#: kmkernel.cpp:1425 searchwindow.cpp:256 searchwindow.cpp:481
+#: kmkernel.cpp:1427 searchwindow.cpp:256 searchwindow.cpp:481
 #: searchwindow.cpp:635
 msgid "Last Search"
 msgstr "শেষ সন্ধান"
 
-#: kmkernel.cpp:1746
+#: kmkernel.cpp:1748
 #, kde-format
 msgctxt "%1-%3 is the application name, %4-%7 are folder path"
 msgid ""
@@ -6628,7 +6672,7 @@ msgid ""
 "p><p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1760
+#: kmkernel.cpp:1762
 #, kde-format
 msgctxt "%1-%3 is the application name, %4-%6 are folder path"
 msgid ""
@@ -6637,16 +6681,16 @@ msgid ""
 "<p><strong>Would you like %3 to move the mail files now?</strong></p></qt>"
 msgstr ""
 
-#: kmkernel.cpp:1770
+#: kmkernel.cpp:1772
 msgid "Migrate Mail Files?"
 msgstr ""
 
-#: kmkernel.cpp:1962
+#: kmkernel.cpp:1964
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr ""
 "কে-মেইল একটি মারাত্মক সমস্যার সম্মুখীন হয়েছে এবং এবার বিনা বাক্যব্যয়ে থেমে যাবে"
 
-#: kmkernel.cpp:1965
+#: kmkernel.cpp:1967
 #, kde-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -6657,15 +6701,15 @@ msgstr ""
 "যে সমস্যাটি ঘটেছে সেটি হল:\n"
 "%1"
 
-#: kmkernel.cpp:2086 kmmainwidget.cpp:1302
+#: kmkernel.cpp:2088 kmmainwidget.cpp:1302
 msgid "Empty Trash"
 msgstr "আবর্জনা ফাঁকা করো"
 
-#: kmkernel.cpp:2087
+#: kmkernel.cpp:2089
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr ""
 
-#: kmkernel.cpp:2349
+#: kmkernel.cpp:2351
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -6673,7 +6717,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmkernel.cpp:2372
+#: kmkernel.cpp:2374
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -6889,7 +6933,7 @@ msgid ""
 "deleted.</p></qt>"
 msgstr ""
 
-#: kmmainwidget.cpp:1385 kmmainwidget.cpp:2809
+#: kmmainwidget.cpp:1385 kmmainwidget.cpp:2810
 #, fuzzy
 msgid "&Delete"
 msgstr "মুছে ফেলা"
@@ -6997,341 +7041,341 @@ msgid ""
 "installation."
 msgstr ""
 
-#: kmmainwidget.cpp:2655 kmmimeparttree.cpp:168
+#: kmmainwidget.cpp:2656 kmmimeparttree.cpp:168
 msgid "Save &As..."
 msgstr "&নতুন নামে সংরক্ষণ করো..."
 
-#: kmmainwidget.cpp:2664
+#: kmmainwidget.cpp:2665
 msgid "&Compact All Folders"
 msgstr "সমস্ত ফোল্ডার &জমাট (Compact) করো"
 
-#: kmmainwidget.cpp:2669
+#: kmmainwidget.cpp:2670
 msgid "&Expire All Folders"
 msgstr ""
 
-#: kmmainwidget.cpp:2674
+#: kmmainwidget.cpp:2675
 msgid "&Refresh Local IMAP Cache"
 msgstr ""
 
-#: kmmainwidget.cpp:2679
+#: kmmainwidget.cpp:2680
 msgid "Empty All &Trash Folders"
 msgstr "সমস্ত &আবর্জনা ফোল্ডার ফাঁকা করো"
 
-#: kmmainwidget.cpp:2691
+#: kmmainwidget.cpp:2692
 #, fuzzy
 #| msgid "Check Mail &in This Folder"
 msgid "Check Mail in Favorite Folders"
 msgstr "&এই ফোল্ডার-এ মেইল পরীক্ষা করো"
 
-#: kmmainwidget.cpp:2699
+#: kmmainwidget.cpp:2700
 #, fuzzy
 #| msgid "Check &Mail"
 msgid "Check Ma&il"
 msgstr "মেইল &পরীক্ষা করো"
 
-#: kmmainwidget.cpp:2709
+#: kmmainwidget.cpp:2710
 msgid "&Send Queued Messages"
 msgstr "না পাঠানো বার্তা পাঠা&ও"
 
-#: kmmainwidget.cpp:2714
+#: kmmainwidget.cpp:2715
 msgid "Onlinestatus (unknown)"
 msgstr ""
 
-#: kmmainwidget.cpp:2719
+#: kmmainwidget.cpp:2720
 msgid "Send Queued Messages Via"
 msgstr ""
 
-#: kmmainwidget.cpp:2736
+#: kmmainwidget.cpp:2737
 #, fuzzy
 #| msgid "Certificate Manager..."
 msgid "Certificate Manager"
 msgstr "সার্টিফিকেট ম্যানেজার..."
 
-#: kmmainwidget.cpp:2743
+#: kmmainwidget.cpp:2744
 #, fuzzy
 #| msgid "Filter Log Viewer"
 msgid "GnuPG Log Viewer"
 msgstr "ফিল্টার লগ প্রদর্শক"
 
-#: kmmainwidget.cpp:2755
+#: kmmainwidget.cpp:2756
 #, fuzzy
 #| msgid "&Import Messages..."
 msgid "&Import Messages"
 msgstr "বার্তা আ&মদানি করো..."
 
-#: kmmainwidget.cpp:2763
+#: kmmainwidget.cpp:2764
 msgid "&Debug Sieve..."
 msgstr ""
 
-#: kmmainwidget.cpp:2770
+#: kmmainwidget.cpp:2771
 msgid "Filter &Log Viewer..."
 msgstr ""
 
-#: kmmainwidget.cpp:2775
+#: kmmainwidget.cpp:2776
 msgid "&Anti-Spam Wizard..."
 msgstr ""
 
-#: kmmainwidget.cpp:2780
+#: kmmainwidget.cpp:2781
 msgid "&Anti-Virus Wizard..."
 msgstr ""
 
-#: kmmainwidget.cpp:2785
+#: kmmainwidget.cpp:2786
 #, fuzzy
 #| msgid "Account Name"
 msgid "&Account Wizard..."
 msgstr "অ্যাকাউন্ট নাম"
 
-#: kmmainwidget.cpp:2791
+#: kmmainwidget.cpp:2792
 msgid "Edit \"Out of Office\" Replies..."
 msgstr ""
 
-#: kmmainwidget.cpp:2797 kmreadermainwin.cpp:276
+#: kmmainwidget.cpp:2798 kmreadermainwin.cpp:276
 msgid "&Move to Trash"
 msgstr "&আবর্জনা ফোল্ডারে পাঠাও"
 
-#: kmmainwidget.cpp:2800 kmreadermainwin.cpp:277
+#: kmmainwidget.cpp:2801 kmreadermainwin.cpp:277
 #, fuzzy
 #| msgid "trash"
 msgid "Trash"
 msgstr "আবর্জনা"
 
-#: kmmainwidget.cpp:2802 kmreadermainwin.cpp:278
+#: kmmainwidget.cpp:2803 kmreadermainwin.cpp:278
 msgid "Move message to trashcan"
 msgstr "বার্তা সরিয়ে আবর্জনা ফোল্ডারে নিয়ে যাও"
 
-#: kmmainwidget.cpp:2814
+#: kmmainwidget.cpp:2815
 msgid "M&ove Thread to Trash"
 msgstr "সূত্র আবর্জনা ফোল্ডারে সরা&ও"
 
-#: kmmainwidget.cpp:2818
+#: kmmainwidget.cpp:2819
 msgid "Move thread to trashcan"
 msgstr "সূত্র আবর্জনার বাক্সে পাঠাও"
 
-#: kmmainwidget.cpp:2821
+#: kmmainwidget.cpp:2822
 msgid "Delete T&hread"
 msgstr "[&স]সূত্র মুছে ফেলো"
 
-#: kmmainwidget.cpp:2827
+#: kmmainwidget.cpp:2828
 msgid "&Find Messages..."
 msgstr "বার্তা &সন্ধান করো"
 
-#: kmmainwidget.cpp:2833
+#: kmmainwidget.cpp:2834
 msgid "&Find in Message..."
 msgstr "বার্তা&য় সন্ধান করো..."
 
-#: kmmainwidget.cpp:2842
+#: kmmainwidget.cpp:2843
 msgid "Select &All Messages"
 msgstr "&সব বার্তা নির্বাচন করো"
 
-#: kmmainwidget.cpp:2853
+#: kmmainwidget.cpp:2854
 msgid "&Properties"
 msgstr "বৈশিষ্ট্যা&বলী"
 
-#: kmmainwidget.cpp:2857
+#: kmmainwidget.cpp:2858
 #, fuzzy
 msgid "&Mailing List Management..."
 msgstr "মে&ইলিং-লিস্ট ব্যবস্থাপনা"
 
-#: kmmainwidget.cpp:2867
+#: kmmainwidget.cpp:2868
 msgid "Mark All Messages as &Read"
 msgstr "সব বার্তা &পঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:2871
+#: kmmainwidget.cpp:2872
 msgid "&Expiration Settings"
 msgstr ""
 
-#: kmmainwidget.cpp:2875
+#: kmmainwidget.cpp:2876
 msgid "&Compact Folder"
 msgstr ""
 
-#: kmmainwidget.cpp:2879
+#: kmmainwidget.cpp:2880
 msgid "Check Mail &in This Folder"
 msgstr "&এই ফোল্ডার-এ মেইল পরীক্ষা করো"
 
-#: kmmainwidget.cpp:2885
+#: kmmainwidget.cpp:2886
 #, fuzzy
 #| msgid "Rebuild &Index"
 msgid "Rebuild Index..."
 msgstr "সূচী &নতুন করে তৈরি করো"
 
-#: kmmainwidget.cpp:2899
+#: kmmainwidget.cpp:2900
 msgid "Prefer &HTML to Plain Text"
 msgstr "সাধারন লেখার চেয়ে এই&চ-টি-এম-এল বেশী পছন্দ করো"
 
-#: kmmainwidget.cpp:2903
+#: kmmainwidget.cpp:2904
 msgid "Load E&xternal References"
 msgstr ""
 
-#: kmmainwidget.cpp:2907
+#: kmmainwidget.cpp:2908
 msgid "&Thread Messages"
 msgstr "বার্তা সূত্র&বদ্ধ করো"
 
-#: kmmainwidget.cpp:2911
+#: kmmainwidget.cpp:2912
 msgid "Thread Messages also by &Subject"
 msgstr ""
 
-#: kmmainwidget.cpp:2916
+#: kmmainwidget.cpp:2917
 #, fuzzy
 msgid "Copy Folder"
 msgstr "এই ফোল্ডার-এ কপি করো"
 
-#: kmmainwidget.cpp:2922
+#: kmmainwidget.cpp:2923
 #, fuzzy
 msgid "Cut Folder"
 msgstr "ফোল্ডার"
 
-#: kmmainwidget.cpp:2928
+#: kmmainwidget.cpp:2929
 #, fuzzy
 msgid "Paste Folder"
 msgstr "নতুন ফোল্ডার"
 
-#: kmmainwidget.cpp:2934
+#: kmmainwidget.cpp:2935
 #, fuzzy
 msgid "Copy Messages"
 msgstr "বার্তা খোলো"
 
-#: kmmainwidget.cpp:2940
+#: kmmainwidget.cpp:2941
 #, fuzzy
 msgid "Cut Messages"
 msgstr "বার্তা মুছে ফেলো"
 
-#: kmmainwidget.cpp:2946
+#: kmmainwidget.cpp:2947
 #, fuzzy
 msgid "Paste Messages"
 msgstr "বার্তা মুছে ফেলো"
 
-#: kmmainwidget.cpp:2954
+#: kmmainwidget.cpp:2955
 msgid "&New Message..."
 msgstr "&নতুন বার্তা..."
 
-#: kmmainwidget.cpp:2956
+#: kmmainwidget.cpp:2957
 #, fuzzy
 #| msgid "New"
 msgctxt "@action:intoolbar New Empty Message"
 msgid "New"
 msgstr "নতুন"
 
-#: kmmainwidget.cpp:2964
+#: kmmainwidget.cpp:2965
 #, fuzzy
 msgid "Message From &Template"
 msgstr "সার্ভার-এ কোন নতুন বার্তা নেই"
 
-#: kmmainwidget.cpp:2974
+#: kmmainwidget.cpp:2975
 msgid "New Message t&o Mailing-List..."
 msgstr "মেইলিং লিস্ট-&এ নতুন বার্তা পাঠাও..."
 
-#: kmmainwidget.cpp:2981 kmreadermainwin.cpp:295 searchwindow.cpp:324
+#: kmmainwidget.cpp:2982 kmreadermainwin.cpp:295 searchwindow.cpp:324
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&ফরোয়ার্ড করো"
 
-#: kmmainwidget.cpp:2986 kmreadermainwin.cpp:300 searchwindow.cpp:333
+#: kmmainwidget.cpp:2987 kmreadermainwin.cpp:300 searchwindow.cpp:333
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "সংযুক্ত করে (&স)..."
 
-#: kmmainwidget.cpp:2992
+#: kmmainwidget.cpp:2993
 #, fuzzy
 #| msgid "&Inline..."
 msgctxt "@action:inmenu Message->Forward->"
 msgid "&Inline..."
 msgstr "বার্তার মূ&ল অংশে..."
 
-#: kmmainwidget.cpp:2999
+#: kmmainwidget.cpp:3000
 msgid "Send A&gain..."
 msgstr "&আবার পাঠাও..."
 
-#: kmmainwidget.cpp:3003 kmreadermainwin.cpp:313
+#: kmmainwidget.cpp:3004 kmreadermainwin.cpp:313
 msgctxt "Message->Forward->"
 msgid "&Redirect..."
 msgstr "&অন্য ঠিকানায় পাঠাও..."
 
-#: kmmainwidget.cpp:3010
+#: kmmainwidget.cpp:3011
 msgid "&Create Filter"
 msgstr "ফিল্টা&র তৈরি করো"
 
-#: kmmainwidget.cpp:3014
+#: kmmainwidget.cpp:3015
 msgid "Filter on &Subject..."
 msgstr "বিষ&য় দিয়ে ফিল্টার করো"
 
-#: kmmainwidget.cpp:3019
+#: kmmainwidget.cpp:3020
 msgid "Filter on &From..."
 msgstr "প্রের&ক দিয়ে ফিল্টার করো"
 
-#: kmmainwidget.cpp:3024
+#: kmmainwidget.cpp:3025
 msgid "Filter on &To..."
 msgstr "প্রা&পক দিয়ে ফিল্টার করো"
 
-#: kmmainwidget.cpp:3029
+#: kmmainwidget.cpp:3030
 msgid "Filter on Mailing-&List..."
 msgstr "মে&ইলিং-লিস্ট দিয়ে ফিল্টার করো..."
 
-#: kmmainwidget.cpp:3036
+#: kmmainwidget.cpp:3037
 #, fuzzy
 msgid "New Message From &Template"
 msgstr "সার্ভার-এ কোন নতুন বার্তা নেই"
 
-#: kmmainwidget.cpp:3042
+#: kmmainwidget.cpp:3043
 msgid "Mark &Thread"
 msgstr "সূত্র চিহ্নি&ত করো"
 
-#: kmmainwidget.cpp:3045
+#: kmmainwidget.cpp:3046
 msgid "Mark Thread as &Read"
 msgstr "সূত্র &পঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:3048
+#: kmmainwidget.cpp:3049
 msgid "Mark all messages in the selected thread as read"
 msgstr "নির্বাচিত সূত্রে সমস্ত বার্তা পঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:3051
+#: kmmainwidget.cpp:3052
 msgid "Mark Thread as &New"
 msgstr "সূত্র &নতুন হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:3054
+#: kmmainwidget.cpp:3055
 msgid "Mark all messages in the selected thread as new"
 msgstr "নির্বাচিত সূত্রে সমস্ত বার্তা নতুন হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:3057
+#: kmmainwidget.cpp:3058
 msgid "Mark Thread as &Unread"
 msgstr "সূত্র &অপঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:3060
+#: kmmainwidget.cpp:3061
 msgid "Mark all messages in the selected thread as unread"
 msgstr "নির্বাচিত সূত্রে সমস্ত বার্তা অপঠিত হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:3066
+#: kmmainwidget.cpp:3067
 msgid "Mark Thread as &Important"
 msgstr "সূত্র গুরুত্বপূর্ণ হিসাবে চিহ্নিত &করো"
 
-#: kmmainwidget.cpp:3069
+#: kmmainwidget.cpp:3070
 msgid "Remove &Important Thread Mark"
 msgstr "গুরুত্বপূর্ণ সূত্র চিহ্ন &সরাও"
 
-#: kmmainwidget.cpp:3072
+#: kmmainwidget.cpp:3073
 #, fuzzy
 #| msgid "Mark Thread as &New"
 msgid "Mark Thread as &Action Item"
 msgstr "সূত্র &নতুন হিসাবে চিহ্নিত করো"
 
-#: kmmainwidget.cpp:3075
+#: kmmainwidget.cpp:3076
 #, fuzzy
 #| msgid "Remove &Important Message Mark"
 msgid "Remove &Action Item Thread Mark"
 msgstr "`গুরুত্বপূর্ণ বার্তা' চিহ্ন সরা&ও"
 
-#: kmmainwidget.cpp:3079
+#: kmmainwidget.cpp:3080
 msgid "&Watch Thread"
 msgstr "সূত্র &লক্ষ্য রাখো"
 
-#: kmmainwidget.cpp:3083
+#: kmmainwidget.cpp:3084
 msgid "&Ignore Thread"
 msgstr "সূত্র &অগ্রাহ্য করো"
 
-#: kmmainwidget.cpp:3091 kmreadermainwin.cpp:273
+#: kmmainwidget.cpp:3092 kmreadermainwin.cpp:273
 msgid "Save A&ttachments..."
 msgstr "অ্যাটা&চমেন্ট সংরক্ষণ করো..."
 
-#: kmmainwidget.cpp:3101
+#: kmmainwidget.cpp:3102
 msgid "Appl&y All Filters"
 msgstr "সমস্ত ফিল্টার প্রয়ো&গ করো"
 
@@ -7339,254 +7383,254 @@ msgstr "সমস্ত ফিল্টার প্রয়ো&গ করো"
 #. i18n: ectx: Menu (apply_filter_actions)
 #. i18n: file: kmmainwin.rc:151
 #. i18n: ectx: Menu (apply_filter_actions)
-#: kmmainwidget.cpp:3106 rc.cpp:611 rc.cpp:677
+#: kmmainwidget.cpp:3107 rc.cpp:611 rc.cpp:677
 msgid "A&pply Filter"
 msgstr "ফিল্টা&র প্রয়োগ করো"
 
-#: kmmainwidget.cpp:3111
+#: kmmainwidget.cpp:3112
 msgctxt "View->"
 msgid "&Unread Count"
 msgstr "অপঠি&ত সংখ্যা"
 
-#: kmmainwidget.cpp:3113
+#: kmmainwidget.cpp:3114
 msgid "Choose how to display the count of unread messages"
 msgstr "অপঠিত বার্তার সংখ্যা কি ভাবে দেখানো হবে বেছে নিন"
 
-#: kmmainwidget.cpp:3116
+#: kmmainwidget.cpp:3117
 msgctxt "View->Unread Count"
 msgid "View in &Separate Column"
 msgstr "&আলাদা কলামে দেখাও"
 
-#: kmmainwidget.cpp:3124
+#: kmmainwidget.cpp:3125
 msgctxt "View->Unread Count"
 msgid "View After &Folder Name"
 msgstr "ফোল্ডার নামের &পরে দেখাও"
 
-#: kmmainwidget.cpp:3132
+#: kmmainwidget.cpp:3133
 msgctxt "View->"
 msgid "&Total Column"
 msgstr "'মো&ট' কলাম"
 
-#: kmmainwidget.cpp:3136
+#: kmmainwidget.cpp:3137
 msgid ""
 "Toggle display of column showing the total number of messages in folders."
 msgstr ""
 
-#: kmmainwidget.cpp:3138
+#: kmmainwidget.cpp:3139
 #, fuzzy
 #| msgid "View Columns"
 msgctxt "View->"
 msgid "&Size Column"
 msgstr "কলাম দেখাও"
 
-#: kmmainwidget.cpp:3143
+#: kmmainwidget.cpp:3144
 msgid "Toggle display of column showing the total size of messages in folders."
 msgstr ""
 
-#: kmmainwidget.cpp:3147
+#: kmmainwidget.cpp:3148
 msgctxt "View->"
 msgid "&Expand Thread"
 msgstr "সূত্র &সম্প্রসারণ করো"
 
-#: kmmainwidget.cpp:3150
+#: kmmainwidget.cpp:3151
 msgid "Expand the current thread"
 msgstr "বর্তমান সূত্রটি সম্প্রসারণ করো"
 
-#: kmmainwidget.cpp:3154
+#: kmmainwidget.cpp:3155
 msgctxt "View->"
 msgid "&Collapse Thread"
 msgstr "সূত্র গুটিয়ে না&ও"
 
-#: kmmainwidget.cpp:3157
+#: kmmainwidget.cpp:3158
 msgid "Collapse the current thread"
 msgstr "বর্তমান সূত্রটি গুটিয়ে নাও"
 
-#: kmmainwidget.cpp:3161
+#: kmmainwidget.cpp:3162
 msgctxt "View->"
 msgid "Ex&pand All Threads"
 msgstr "সব সূত্র সম্প্রসার&ণ করো"
 
-#: kmmainwidget.cpp:3164
+#: kmmainwidget.cpp:3165
 msgid "Expand all threads in the current folder"
 msgstr "বর্তমান ফোল্ডার-এ সমস্ত সূত্র সম্প্রসারণ করো"
 
-#: kmmainwidget.cpp:3168
+#: kmmainwidget.cpp:3169
 msgctxt "View->"
 msgid "C&ollapse All Threads"
 msgstr "স&ব সূত্র গুটিয়ে নাও"
 
-#: kmmainwidget.cpp:3171
+#: kmmainwidget.cpp:3172
 msgid "Collapse all threads in the current folder"
 msgstr "বর্তমান ফোল্ডার-এ সমস্ত সূত্র গুটিয়ে নাও"
 
-#: kmmainwidget.cpp:3175 kmreadermainwin.cpp:289
+#: kmmainwidget.cpp:3176 kmreadermainwin.cpp:289
 msgid "&View Source"
 msgstr "&উত্‍স দেখাও"
 
-#: kmmainwidget.cpp:3180
+#: kmmainwidget.cpp:3181
 msgid "&Display Message"
 msgstr "বার্তা দেখা&ও"
 
-#: kmmainwidget.cpp:3187
+#: kmmainwidget.cpp:3188
 msgid "&Next Message"
 msgstr "পরবর্তী বার্তা (&ন)"
 
-#: kmmainwidget.cpp:3190
+#: kmmainwidget.cpp:3191
 msgid "Go to the next message"
 msgstr "পরবর্তী বার্তায় যাও"
 
-#: kmmainwidget.cpp:3194
+#: kmmainwidget.cpp:3195
 msgid "Next &Unread Message"
 msgstr "পর&বর্তী অপঠিত বার্তা"
 
-#: kmmainwidget.cpp:3202
+#: kmmainwidget.cpp:3203
 msgctxt "@action:inmenu Goto next unread message"
 msgid "Next"
 msgstr ""
 
-#: kmmainwidget.cpp:3203
+#: kmmainwidget.cpp:3204
 msgid "Go to the next unread message"
 msgstr "পরবর্তী অপঠিত বার্তায় যাও"
 
-#: kmmainwidget.cpp:3207
+#: kmmainwidget.cpp:3208
 msgid "&Previous Message"
 msgstr "পূর্ববর্তী বার্তা (&আ)"
 
-#: kmmainwidget.cpp:3209
+#: kmmainwidget.cpp:3210
 msgid "Go to the previous message"
 msgstr "পূর্ববর্তী বার্তায় যাও"
 
-#: kmmainwidget.cpp:3214
+#: kmmainwidget.cpp:3215
 msgid "Previous Unread &Message"
 msgstr "পূর্ববর্তী &অপঠিত বার্তা"
 
-#: kmmainwidget.cpp:3222
+#: kmmainwidget.cpp:3223
 #, fuzzy
 #| msgid "&Previous Card"
 msgctxt "@action:inmenu Goto previous unread message."
 msgid "Previous"
 msgstr "পূর্ব&বর্তী কার্ড"
 
-#: kmmainwidget.cpp:3223
+#: kmmainwidget.cpp:3224
 msgid "Go to the previous unread message"
 msgstr "পূর্ববর্তী অপঠিত বার্তায় যাও"
 
-#: kmmainwidget.cpp:3227
+#: kmmainwidget.cpp:3228
 msgid "Next Unread &Folder"
 msgstr "&পরবর্তী অপঠিত ফোল্ডার"
 
-#: kmmainwidget.cpp:3231
+#: kmmainwidget.cpp:3232
 msgid "Go to the next folder with unread messages"
 msgstr "পরবর্তী অপঠিত বার্তা সমেত ফোল্ডার-এ যাও"
 
-#: kmmainwidget.cpp:3237
+#: kmmainwidget.cpp:3238
 msgid "Previous Unread F&older"
 msgstr "পূর্ববর্তী অপঠিত ফোল্ডা&র"
 
-#: kmmainwidget.cpp:3240
+#: kmmainwidget.cpp:3241
 msgid "Go to the previous folder with unread messages"
 msgstr "পূর্ববর্তী অপঠিত বার্তা সমেত ফোল্ডার-এ যাও"
 
-#: kmmainwidget.cpp:3247
+#: kmmainwidget.cpp:3248
 msgctxt "Go->"
 msgid "Next Unread &Text"
 msgstr "পরবর্তী অপঠি&ত লেখা"
 
-#: kmmainwidget.cpp:3250
+#: kmmainwidget.cpp:3251
 msgid "Go to the next unread text"
 msgstr "পরবর্তী অপঠিত লেখায় যাও"
 
-#: kmmainwidget.cpp:3251
+#: kmmainwidget.cpp:3252
 msgid ""
 "Scroll down current message. If at end of current message, go to next unread "
 "message."
 msgstr ""
 
-#: kmmainwidget.cpp:3259
+#: kmmainwidget.cpp:3260
 msgid "Configure &Filters..."
 msgstr "ফিল্টা&র কনফিগার করো..."
 
-#: kmmainwidget.cpp:3265
+#: kmmainwidget.cpp:3266
 msgid "Configure &POP Filters..."
 msgstr "&পপ ফিল্টার কনফিগার করো..."
 
-#: kmmainwidget.cpp:3271
+#: kmmainwidget.cpp:3272
 msgid "Manage &Sieve Scripts..."
 msgstr ""
 
-#: kmmainwidget.cpp:3276
+#: kmmainwidget.cpp:3277
 msgid "KMail &Introduction"
 msgstr "কে-মে&ইল পরিচিতি"
 
-#: kmmainwidget.cpp:3278
+#: kmmainwidget.cpp:3279
 msgid "Display KMail's Welcome Page"
 msgstr "কে-মেইলের পরিচিতি পৃষ্ঠা দেখাও"
 
-#: kmmainwidget.cpp:3287
+#: kmmainwidget.cpp:3288
 msgid "Configure &Notifications..."
 msgstr "বার্তা&বলী কনফিগার করো..."
 
-#: kmmainwidget.cpp:3295
+#: kmmainwidget.cpp:3296
 msgid "&Configure KMail..."
 msgstr "কে-মেইল ক&নফিগার করো..."
 
-#: kmmainwidget.cpp:3593
+#: kmmainwidget.cpp:3595
 msgid "E&mpty Trash"
 msgstr "&আবর্জনা ফোল্ডার ফাঁকা করো"
 
-#: kmmainwidget.cpp:3593
+#: kmmainwidget.cpp:3595
 msgid "&Move All Messages to Trash"
 msgstr "&সব বার্তা আবর্জনা ফোল্ডারে পাঠাও"
 
-#: kmmainwidget.cpp:3595
+#: kmmainwidget.cpp:3597
 msgid "&Delete Search"
 msgstr "&সন্ধান মুছে ফেলো"
 
-#: kmmainwidget.cpp:3595
+#: kmmainwidget.cpp:3597
 msgid "&Delete Folder"
 msgstr "ফোল্ডা&র মুছে ফেলো"
 
-#: kmmainwidget.cpp:3707
+#: kmmainwidget.cpp:3709
 #, kde-format
 msgid "Toggle Message Tag %1"
 msgstr ""
 
-#: kmmainwidget.cpp:3778
+#: kmmainwidget.cpp:3780
 #, fuzzy, kde-format
 msgid "Message Tag %1"
 msgstr "বার্তা তালিকা"
 
-#: kmmainwidget.cpp:3882
+#: kmmainwidget.cpp:3884
 #, kde-format
 msgid "Removed %1 duplicate message."
 msgid_plural "Removed %1 duplicate messages."
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmmainwidget.cpp:3885
+#: kmmainwidget.cpp:3887
 msgid "No duplicate messages found."
 msgstr ""
 
-#: kmmainwidget.cpp:3952
+#: kmmainwidget.cpp:3954
 #, kde-format
 msgid "Filter %1"
 msgstr "ফিল্টার %1"
 
-#: kmmainwidget.cpp:4043 kmmainwidget.cpp:4044
+#: kmmainwidget.cpp:4045 kmmainwidget.cpp:4046
 #, kde-format
 msgid "Folder Shortcut %1"
 msgstr ""
 
-#: kmmainwidget.cpp:4103
+#: kmmainwidget.cpp:4105
 msgid "Subscription"
 msgstr ""
 
-#: kmmainwidget.cpp:4122
+#: kmmainwidget.cpp:4124
 #, fuzzy
 msgid "Local Subscription"
 msgstr "বর্ণনা"
 
-#: kmmainwidget.cpp:4250
+#: kmmainwidget.cpp:4252
 #, fuzzy
 #| msgid "Configure \"Out of Office\" Replies"
 msgid "Out of office reply active"
@@ -9153,9 +9197,10 @@ msgstr "নতুন ফোল্ডার"
 msgid "New Subfolder of %1"
 msgstr "%1-এর নতুন সাব-ফোল্ডার"
 
-#. i18n: file: snippetdlgbase.ui:19
-#. i18n: ectx: property (text), widget (QLabel, nameLabel)
-#: newfolderdialog.cpp:85 rc.cpp:1030
+#: newfolderdialog.cpp:85
+#, fuzzy
+#| msgid "&Name:"
+msgctxt "@label:textbox Name of the new folder."
 msgid "&Name:"
 msgstr "না&ম:"
 
@@ -11624,6 +11669,12 @@ msgstr ""
 msgid "Add Snippet"
 msgstr ""
 
+#. i18n: file: snippetdlgbase.ui:19
+#. i18n: ectx: property (text), widget (QLabel, nameLabel)
+#: rc.cpp:1030
+msgid "&Name:"
+msgstr "না&ম:"
+
 #. i18n: file: snippetdlgbase.ui:35
 #. i18n: ectx: property (text), widget (QLabel, textLabelGroup)
 #: rc.cpp:1033
@@ -13118,18 +13169,30 @@ msgid "Overwrite File?"
 msgstr "ফাইল মুছে লিখব?"
 
 #: vacation.cpp:568
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "I am out of office till %1.\n"
+#| "\n"
+#| "In urgent cases, please contact Mrs. <vacation replacement>\n"
+#| "\n"
+#| "email: <email address of vacation replacement>\n"
+#| "phone: +49 711 1111 11\n"
+#| "fax.:  +49 711 1111 12\n"
+#| "\n"
+#| "Yours sincerely,\n"
+#| "-- <enter your name and email address here>\n"
 msgid ""
 "I am out of office till %1.\n"
 "\n"
-"In urgent cases, please contact Mrs. <vacation replacement>\n"
+"In urgent cases, please contact Mrs. <placeholder>vacation replacement</"
+"placeholder>\n"
 "\n"
-"email: <email address of vacation replacement>\n"
+"email: <placeholder>email address of vacation replacement</placeholder>\n"
 "phone: +49 711 1111 11\n"
 "fax.:  +49 711 1111 12\n"
 "\n"
 "Yours sincerely,\n"
-"-- <enter your name and email address here>\n"
+"-- <placeholder>enter your name and email address here</placeholder>\n"
 msgstr ""
 "প্রথম পূর্বাহ্ণ -র অফিস পর্যন্ত জরুরি ঘটনা অনুগ্রহ করে পরিচিতিআমি %1 পর্যন্ত অফিসের "
 "বাইরে।\n"
@@ -13461,6 +13524,12 @@ msgstr "অ্যাটাচমেন্ট আছে"
 #, kde-format
 msgid "%1 of %2 %3 used"
 msgstr ""
+
+#, fuzzy
+#~| msgid "<none>"
+#~ msgctxt "Placeholder for the case that there is no folder."
+#~ msgid "<none>"
+#~ msgstr "<কিছু না>"
 
 #~ msgid "M&essage List"
 #~ msgstr "বার্তা তালিকা (&ব)"
