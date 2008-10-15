@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-09-30 09:39+0200\n"
+"POT-Creation-Date: 2008-10-15 10:37+0200\n"
 "PO-Revision-Date: 2006-03-25 02:57-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: bookmarks.cpp:98
+#: bookmarks.cpp:111
 msgid ""
 "<h1>My Bookmarks</h1><p>This module lets you configure the bookmarks home "
 "page.</p><p>The bookmarks home page is accessible at <a href=\"bookmarks:/"
@@ -650,9 +650,51 @@ msgstr ""
 msgid "Show folder &backgrounds"
 msgstr ""
 
+#. i18n: file: bookmarks.ui:138
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, groupBox_3)
+#: rc.cpp:41
+msgid "How much disk space is used to cache the pixmaps"
+msgstr ""
+
+#. i18n: file: bookmarks.ui:141
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: rc.cpp:44
+msgid "Pixmap cache"
+msgstr ""
+
+#. i18n: file: bookmarks.ui:150
+#. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
+#: rc.cpp:47
+#, fuzzy
+#| msgid "Disk cache &size:"
+msgid "Disk cache size:"
+msgstr "ডিস্ক ক্যাশ-এর মা&প:"
+
+#. i18n: file: bookmarks.ui:163
+#. i18n: ectx: property (suffix), widget (KIntNumInput, sbCacheSize)
+#: rc.cpp:50
+#, fuzzy
+#| msgid " KB"
+msgid " kB"
+msgstr " কিলোবাইট"
+
+#. i18n: file: bookmarks.ui:173
+#. i18n: ectx: property (whatsThis), widget (QPushButton, clearCacheButton)
+#: rc.cpp:53
+msgid "Clear the pixmap cache"
+msgstr ""
+
+#. i18n: file: bookmarks.ui:176
+#. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
+#: rc.cpp:56
+#, fuzzy
+#| msgid "C&lear Cache"
+msgid "&Clear Cache"
+msgstr "ক্যা&শ ফাঁকা করো"
+
 #. i18n: file: cache.ui:16
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbUseCache)
-#: rc.cpp:41
+#: rc.cpp:59
 #, fuzzy
 msgid ""
 "Check this box if you want the web pages you visit to be stored on your hard "
@@ -667,7 +709,7 @@ msgstr ""
 
 #. i18n: file: cache.ui:19
 #. i18n: ectx: property (text), widget (QCheckBox, cbUseCache)
-#: rc.cpp:44
+#: rc.cpp:62
 msgid "&Use cache"
 msgstr "ক্যাশ ব্য&বহার করো"
 
@@ -675,13 +717,13 @@ msgstr "ক্যাশ ব্য&বহার করো"
 #. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
 #. i18n: file: kcookiespoliciesdlg.ui:177
 #. i18n: ectx: property (text), widget (K3ListView, lvDomainPolicy)
-#: rc.cpp:47 rc.cpp:274
+#: rc.cpp:65 rc.cpp:292
 msgid "Policy"
 msgstr "পলিসি"
 
 #. i18n: file: cache.ui:51
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbVerifyCache)
-#: rc.cpp:50
+#: rc.cpp:68
 msgid ""
 "Verify whether the cached web page is valid before attempting to fetch the "
 "web page again."
@@ -689,13 +731,13 @@ msgstr "ওয়েবপেজ পুনরায় আনার আগে পর�
 
 #. i18n: file: cache.ui:54
 #. i18n: ectx: property (text), widget (QRadioButton, rbVerifyCache)
-#: rc.cpp:53
+#: rc.cpp:71
 msgid "&Keep cache in sync"
 msgstr "ক্যা&শ সামঞ্জস্যে রাখো"
 
 #. i18n: file: cache.ui:61
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbCacheIfPossible)
-#: rc.cpp:56
+#: rc.cpp:74
 msgid ""
 "Always use documents from the cache when available. You can still use the "
 "reload button to synchronize the cache with the remote host."
@@ -705,13 +747,13 @@ msgstr ""
 
 #. i18n: file: cache.ui:64
 #. i18n: ectx: property (text), widget (QRadioButton, rbCacheIfPossible)
-#: rc.cpp:59
+#: rc.cpp:77
 msgid "Use cache whenever &possible"
 msgstr "&সম্ভব হলেই ক্যাশ ব্যবহার করো"
 
 #. i18n: file: cache.ui:71
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbOfflineMode)
-#: rc.cpp:62
+#: rc.cpp:80
 msgid ""
 "Do not fetch web pages that are not already stored in the cache. Offline "
 "mode prevents you from viewing pages that you have not previously visited."
@@ -721,19 +763,19 @@ msgstr ""
 
 #. i18n: file: cache.ui:74
 #. i18n: ectx: property (text), widget (QRadioButton, rbOfflineMode)
-#: rc.cpp:65
+#: rc.cpp:83
 msgid "O&ffline browsing mode"
 msgstr "অ&ফলাইন ব্রাউজিং মোড"
 
 #. i18n: file: cache.ui:87
 #. i18n: ectx: property (text), widget (QLabel, lbMaxCacheSize)
-#: rc.cpp:68
+#: rc.cpp:86
 msgid "Disk cache &size:"
 msgstr "ডিস্ক ক্যাশ-এর মা&প:"
 
 #. i18n: file: cache.ui:107
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
-#: rc.cpp:71
+#: rc.cpp:89
 msgid "C&lear Cache"
 msgstr "ক্যা&শ ফাঁকা করো"
 
@@ -741,7 +783,7 @@ msgstr "ক্যা&শ ফাঁকা করো"
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbHttp)
 #. i18n: file: envvarproxy.ui:47
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttp)
-#: rc.cpp:74 rc.cpp:83
+#: rc.cpp:92 rc.cpp:101
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -762,13 +804,13 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbHttp)
 #. i18n: file: manualproxy.ui:66
 #. i18n: ectx: property (text), widget (QLabel, lbHttp)
-#: rc.cpp:80 rc.cpp:413
+#: rc.cpp:98 rc.cpp:431
 msgid "H&TTP:"
 msgstr "H&TTP:"
 
 #. i18n: file: envvarproxy.ui:56
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbVerify)
-#: rc.cpp:89
+#: rc.cpp:107
 #, fuzzy
 msgid ""
 "<qt>Verify whether or not the environment variable names you supplied are "
@@ -781,13 +823,13 @@ msgstr ""
 
 #. i18n: file: envvarproxy.ui:59
 #. i18n: ectx: property (text), widget (QPushButton, pbVerify)
-#: rc.cpp:92
+#: rc.cpp:110
 msgid "&Verify"
 msgstr "যাচা&ই করো"
 
 #. i18n: file: envvarproxy.ui:66
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDetect)
-#: rc.cpp:95
+#: rc.cpp:113
 #, fuzzy
 msgid ""
 "<qt>Attempt automatic discovery of the environment variables used for "
@@ -801,7 +843,7 @@ msgstr ""
 
 #. i18n: file: envvarproxy.ui:69
 #. i18n: ectx: property (text), widget (QPushButton, pbDetect)
-#: rc.cpp:98
+#: rc.cpp:116
 msgid "Auto &Detect"
 msgstr "স্বয়ংক্রীয় &উদ্ঘাটন"
 
@@ -809,7 +851,7 @@ msgstr "স্বয়ংক্রীয় &উদ্ঘাটন"
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbHttps)
 #. i18n: file: envvarproxy.ui:125
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttps)
-#: rc.cpp:101 rc.cpp:110
+#: rc.cpp:119 rc.cpp:128
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -830,7 +872,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbHttps)
 #. i18n: file: manualproxy.ui:47
 #. i18n: ectx: property (text), widget (QLabel, lbHttps)
-#: rc.cpp:107 rc.cpp:410
+#: rc.cpp:125 rc.cpp:428
 msgid "HTTP&S:"
 msgstr "HTTP&S:"
 
@@ -838,7 +880,7 @@ msgstr "HTTP&S:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbFtp)
 #. i18n: file: envvarproxy.ui:163
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leFtp)
-#: rc.cpp:116 rc.cpp:125
+#: rc.cpp:134 rc.cpp:143
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -859,7 +901,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, lbFtp)
 #. i18n: file: manualproxy.ui:28
 #. i18n: ectx: property (text), widget (QLabel, lbFtp)
-#: rc.cpp:122 rc.cpp:407
+#: rc.cpp:140 rc.cpp:425
 msgid "&FTP:"
 msgstr "&FTP:"
 
@@ -867,7 +909,7 @@ msgstr "&FTP:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, lnNoProxy)
 #. i18n: file: envvarproxy.ui:201
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leNoProxy)
-#: rc.cpp:131 rc.cpp:140
+#: rc.cpp:149 rc.cpp:158
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -886,19 +928,19 @@ msgstr ""
 
 #. i18n: file: envvarproxy.ui:176
 #. i18n: ectx: property (text), widget (QLabel, lnNoProxy)
-#: rc.cpp:137
+#: rc.cpp:155
 msgid "NO &PROXY:"
 msgstr "NO &PROXY:"
 
 #. i18n: file: envvarproxy.ui:208
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowValue)
-#: rc.cpp:146
+#: rc.cpp:164
 msgid "Show the &value of the environment variables"
 msgstr "এনভায়রনমেন্ট ভেরিয়েবল-গুলির মা&ন প্রদর্শন করো"
 
 #. i18n: file: kcookiesmanagementdlg.ui:23
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
-#: rc.cpp:149
+#: rc.cpp:167
 #, fuzzy
 #| msgid "&Search:"
 msgid "Search"
@@ -906,20 +948,20 @@ msgstr "&সন্ধান:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:30
 #. i18n: ectx: property (toolTip), widget (QTreeWidget, lvCookies)
-#: rc.cpp:152
+#: rc.cpp:170
 #, fuzzy
 msgid "Search interactively for domains and hosts"
 msgstr "ডোমেন এবং হোস্টের জন্য অনুসন্ধান interactively"
 
 #. i18n: file: kcookiesmanagementdlg.ui:40
 #. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
-#: rc.cpp:155
+#: rc.cpp:173
 msgid "Domain [Group]"
 msgstr "ডোমেইন [গ্রুপ]"
 
 #. i18n: file: kcookiesmanagementdlg.ui:45
 #. i18n: ectx: property (text), widget (QTreeWidget, lvCookies)
-#: rc.cpp:158
+#: rc.cpp:176
 msgid "Host [Set By]"
 msgstr "হোস্ট [সেট করেছে]"
 
@@ -929,7 +971,7 @@ msgstr "হোস্ট [সেট করেছে]"
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
 #. i18n: file: useragentdlg.ui:208
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:161 rc.cpp:283 rc.cpp:653
+#: rc.cpp:179 rc.cpp:301 rc.cpp:671
 msgid "D&elete"
 msgstr "মুছে ফেলো (&ম)"
 
@@ -939,67 +981,67 @@ msgstr "মুছে ফেলো (&ম)"
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
 #. i18n: file: useragentdlg.ui:218
 #. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
-#: rc.cpp:164 rc.cpp:286 rc.cpp:659
+#: rc.cpp:182 rc.cpp:304 rc.cpp:677
 msgid "Delete A&ll"
 msgstr "সব মুছে ফেলো (&ল)"
 
 #. i18n: file: kcookiesmanagementdlg.ui:71
 #. i18n: ectx: property (text), widget (QPushButton, pbPolicy)
-#: rc.cpp:167
+#: rc.cpp:185
 msgid "Change &Policy..."
 msgstr "পলিসি &বদলাও..."
 
 #. i18n: file: kcookiesmanagementdlg.ui:78
 #. i18n: ectx: property (text), widget (QPushButton, pbReload)
-#: rc.cpp:170
+#: rc.cpp:188
 msgid "&Reload List"
 msgstr "তালিকা &আবার পড়ো"
 
 #. i18n: file: kcookiesmanagementdlg.ui:102
 #. i18n: ectx: property (title), widget (QGroupBox, gbDetails)
-#: rc.cpp:173
+#: rc.cpp:191
 msgid "Details"
 msgstr "বিস্তারিত বিবরণ"
 
 #. i18n: file: kcookiesmanagementdlg.ui:108
 #. i18n: ectx: property (text), widget (QLabel, lbName)
-#: rc.cpp:176
+#: rc.cpp:194
 msgid "Name:"
 msgstr "নাম:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:131
 #. i18n: ectx: property (text), widget (QLabel, lbValue)
-#: rc.cpp:179
+#: rc.cpp:197
 msgid "Value:"
 msgstr "মান:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:154
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
-#: rc.cpp:182
+#: rc.cpp:200
 msgid "Domain:"
 msgstr "ডোমেইন:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:177
 #. i18n: ectx: property (text), widget (QLabel, lbPath)
-#: rc.cpp:185
+#: rc.cpp:203
 msgid "Path:"
 msgstr "পাথ:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:200
 #. i18n: ectx: property (text), widget (QLabel, lbExpires)
-#: rc.cpp:188
+#: rc.cpp:206
 msgid "Expires:"
 msgstr "অবসান:"
 
 #. i18n: file: kcookiesmanagementdlg.ui:223
 #. i18n: ectx: property (text), widget (QLabel, lbSecure)
-#: rc.cpp:191
+#: rc.cpp:209
 msgid "Secure:"
 msgstr "নিরাপদ:"
 
 #. i18n: file: kcookiespoliciesdlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbEnableCookies)
-#: rc.cpp:194
+#: rc.cpp:212
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1018,13 +1060,13 @@ msgstr ""
 
 #. i18n: file: kcookiespoliciesdlg.ui:22
 #. i18n: ectx: property (text), widget (QCheckBox, cbEnableCookies)
-#: rc.cpp:200
+#: rc.cpp:218
 msgid "Enable coo&kies"
 msgstr "কুকি &সক্রিয় করো"
 
 #. i18n: file: kcookiespoliciesdlg.ui:34
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbRejectCrossDomainCookies)
-#: rc.cpp:203
+#: rc.cpp:221
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1047,13 +1089,13 @@ msgstr ""
 
 #. i18n: file: kcookiespoliciesdlg.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, cbRejectCrossDomainCookies)
-#: rc.cpp:208
+#: rc.cpp:226
 msgid "Only acce&pt cookies from originating server"
 msgstr "শুধুমাত্র একই সার্ভার থেকে উত্পন্ন কুকি স্বীকা&র করো"
 
 #. i18n: file: kcookiespoliciesdlg.ui:47
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAutoAcceptSessionCookies)
-#: rc.cpp:211
+#: rc.cpp:229
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1079,13 +1121,13 @@ msgstr ""
 
 #. i18n: file: kcookiespoliciesdlg.ui:50
 #. i18n: ectx: property (text), widget (QCheckBox, cbAutoAcceptSessionCookies)
-#: rc.cpp:217
+#: rc.cpp:235
 msgid "Automaticall&y accept session cookies"
 msgstr "সব সেশন কুকি স্বীকার &করো"
 
 #. i18n: file: kcookiespoliciesdlg.ui:60
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbIgnoreCookieExpirationDate)
-#: rc.cpp:220
+#: rc.cpp:238
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1113,13 +1155,13 @@ msgstr ""
 
 #. i18n: file: kcookiespoliciesdlg.ui:63
 #. i18n: ectx: property (text), widget (QCheckBox, cbIgnoreCookieExpirationDate)
-#: rc.cpp:226
+#: rc.cpp:244
 msgid "Treat &all cookies as session cookies"
 msgstr "সব কুকি-কে সে&শন কুকি হিসাবে দেখ"
 
 #. i18n: file: kcookiespoliciesdlg.ui:81
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, bgDefault)
-#: rc.cpp:229
+#: rc.cpp:247
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1151,31 +1193,31 @@ msgstr ""
 
 #. i18n: file: kcookiespoliciesdlg.ui:84
 #. i18n: ectx: property (title), widget (QGroupBox, bgDefault)
-#: rc.cpp:240
+#: rc.cpp:258
 msgid "Default Policy"
 msgstr "ডিফল্ট পলিসি"
 
 #. i18n: file: kcookiespoliciesdlg.ui:90
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAsk)
-#: rc.cpp:243
+#: rc.cpp:261
 msgid "Ask &for confirmation"
 msgstr "জিজ্ঞাসা &করো"
 
 #. i18n: file: kcookiespoliciesdlg.ui:97
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyAccept)
-#: rc.cpp:246
+#: rc.cpp:264
 msgid "Accep&t all cookies"
 msgstr "স&ব কুকি স্বীকার করো"
 
 #. i18n: file: kcookiespoliciesdlg.ui:104
 #. i18n: ectx: property (text), widget (QRadioButton, rbPolicyReject)
-#: rc.cpp:249
+#: rc.cpp:267
 msgid "Re&ject all cookies"
 msgstr "সব কুকি প্রত্যাখ্যা&ন করো"
 
 #. i18n: file: kcookiespoliciesdlg.ui:116
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, gbDomainSpecific)
-#: rc.cpp:252
+#: rc.cpp:270
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1198,26 +1240,26 @@ msgstr ""
 
 #. i18n: file: kcookiespoliciesdlg.ui:119
 #. i18n: ectx: property (title), widget (QGroupBox, gbDomainSpecific)
-#: rc.cpp:257
+#: rc.cpp:275
 msgid "Site Policy"
 msgstr "সাইট পলিসি"
 
 #. i18n: file: kcookiespoliciesdlg.ui:125
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:260
+#: rc.cpp:278
 msgid "&Search:"
 msgstr "&সন্ধান:"
 
 #. i18n: file: kcookiespoliciesdlg.ui:138
 #. i18n: ectx: property (toolTip), widget (K3ListViewSearchLine, kListViewSearchLine)
-#: rc.cpp:263
+#: rc.cpp:281
 #, fuzzy
 msgid "Search interactively for domains"
 msgstr "ডোমেনের জন্য অনুসন্ধান interactively"
 
 #. i18n: file: kcookiespoliciesdlg.ui:150
 #. i18n: ectx: property (whatsThis), widget (K3ListView, lvDomainPolicy)
-#: rc.cpp:266
+#: rc.cpp:284
 msgid ""
 "<qt>\n"
 "List of sites for which you have set a specific cookie policy. Specific "
@@ -1231,7 +1273,7 @@ msgstr ""
 
 #. i18n: file: kcookiespoliciesdlg.ui:166
 #. i18n: ectx: property (text), widget (K3ListView, lvDomainPolicy)
-#: rc.cpp:271
+#: rc.cpp:289
 msgid "Domain"
 msgstr "ডোমেইন"
 
@@ -1241,7 +1283,7 @@ msgstr "ডোমেইন"
 #. i18n: ectx: property (text), widget (QPushButton, pbNew)
 #. i18n: file: useragentdlg.ui:188
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
-#: rc.cpp:277 rc.cpp:463 rc.cpp:641
+#: rc.cpp:295 rc.cpp:481 rc.cpp:659
 msgid "&New..."
 msgstr "&নতুন..."
 
@@ -1249,20 +1291,20 @@ msgstr "&নতুন..."
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
 #. i18n: file: useragentdlg.ui:198
 #. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:280 rc.cpp:647
+#: rc.cpp:298 rc.cpp:665
 msgid "Chan&ge..."
 msgstr "পরি&বর্তন..."
 
 #. i18n: file: kio_ftprc.kcfg:10
 #. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
-#: rc.cpp:289
+#: rc.cpp:307
 #, fuzzy
 msgid "Disable Passive FTP"
 msgstr "Passive এফ-টি-পি নিষ্ক্রিয় করো"
 
 #. i18n: file: kio_ftprc.kcfg:11
 #. i18n: ectx: whatsthis, entry (DisablePassiveMode), group (DesktopIcons)
-#: rc.cpp:292
+#: rc.cpp:310
 #, fuzzy
 msgid ""
 "When FTP connections are passive the client connects to the server, instead "
@@ -1275,13 +1317,13 @@ msgstr ""
 
 #. i18n: file: kio_ftprc.kcfg:16
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
-#: rc.cpp:295
+#: rc.cpp:313
 msgid "Mark partially uploaded files"
 msgstr "অসম্পূর্ণ আপলোড করা ফাইল চিহ্নিত করো"
 
 #. i18n: file: kio_ftprc.kcfg:17
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
-#: rc.cpp:298
+#: rc.cpp:316
 #, fuzzy
 msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
@@ -1292,7 +1334,7 @@ msgstr ""
 
 #. i18n: file: kproxydlg.ui:19
 #. i18n: ectx: property (whatsThis), widget (QWidget, KProxyDialogUI)
-#: rc.cpp:301
+#: rc.cpp:319
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1327,19 +1369,19 @@ msgstr ""
 
 #. i18n: file: kproxydlg.ui:30
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbNoProxy)
-#: rc.cpp:310
+#: rc.cpp:328
 msgid "Connect to the Internet directly."
 msgstr "ইন্টারনেট-এ সরাসরি যোগাযোগ করো"
 
 #. i18n: file: kproxydlg.ui:33
 #. i18n: ectx: property (text), widget (QRadioButton, rbNoProxy)
-#: rc.cpp:313
+#: rc.cpp:331
 msgid "Connect to the &Internet directly"
 msgstr "ইন্টারনেট-এ &সরাসরি যোগাযোগ করো"
 
 #. i18n: file: kproxydlg.ui:50
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoDiscover)
-#: rc.cpp:316
+#: rc.cpp:334
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1362,19 +1404,19 @@ msgstr ""
 
 #. i18n: file: kproxydlg.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoDiscover)
-#: rc.cpp:323
+#: rc.cpp:341
 msgid "A&utomatically detect proxy configuration"
 msgstr "স্বয়ংক্রিয় প্রক্সি কনফিগারেশন &উদ্ঘাটন"
 
 #. i18n: file: kproxydlg.ui:71
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbAutoScript)
-#: rc.cpp:326
+#: rc.cpp:344
 msgid "Use the specified proxy script URL to configure the proxy settings."
 msgstr "প্রক্সি সার্ভার ব্যবস্থাপনার জন্য নিম্নোল্লিখিত কনফিগারেশন স্ক্রিপ্ট ব্যবহার করো।"
 
 #. i18n: file: kproxydlg.ui:74
 #. i18n: ectx: property (text), widget (QRadioButton, rbAutoScript)
-#: rc.cpp:329
+#: rc.cpp:347
 #, fuzzy
 #| msgid "U&se the following proxy configuration URL"
 msgid "U&se proxy configuration URL:"
@@ -1382,13 +1424,13 @@ msgstr "নিম্নোক্ত প্রক্সি কনফিগার�
 
 #. i18n: file: kproxydlg.ui:90
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, location)
-#: rc.cpp:332
+#: rc.cpp:350
 msgid "Enter the address for the proxy configuration script."
 msgstr "প্রক্সি কনফিগারেশন স্ক্রিপ্ট-এর ঠিকানা লিখুন।"
 
 #. i18n: file: kproxydlg.ui:119
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbEnvVar)
-#: rc.cpp:335
+#: rc.cpp:353
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1408,13 +1450,13 @@ msgstr ""
 
 #. i18n: file: kproxydlg.ui:122
 #. i18n: ectx: property (text), widget (QRadioButton, rbEnvVar)
-#: rc.cpp:341
+#: rc.cpp:359
 msgid "Use preset proxy environment &variables"
 msgstr "পূর্বনির্দিষ্ট প্রক্সি এনভায়রনমেন্ট ভেরিয়েব&ল ব্যবহার করো"
 
 #. i18n: file: kproxydlg.ui:132
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbEnvSetup)
-#: rc.cpp:344
+#: rc.cpp:362
 msgid "Show the proxy environment variable configuration dialog."
 msgstr "প্রক্সি এনভায়রনমেন্ট ভেরিয়েবল কনফিগারেশন ডায়ালগ দেখাও।"
 
@@ -1422,49 +1464,49 @@ msgstr "প্রক্সি এনভায়রনমেন্ট ভেরি�
 #. i18n: ectx: property (text), widget (QPushButton, pbEnvSetup)
 #. i18n: file: kproxydlg.ui:177
 #. i18n: ectx: property (text), widget (QPushButton, pbManSetup)
-#: rc.cpp:347 rc.cpp:359
+#: rc.cpp:365 rc.cpp:377
 msgid "Setup..."
 msgstr "ব্যবস্থাপনা..."
 
 #. i18n: file: kproxydlg.ui:161
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbManual)
-#: rc.cpp:350
+#: rc.cpp:368
 msgid "Manually enter proxy server configuration information."
 msgstr "নিজে হাতে প্রক্সি সার্ভার কনফিগারেশন তথ্য লিখুন।"
 
 #. i18n: file: kproxydlg.ui:164
 #. i18n: ectx: property (text), widget (QRadioButton, rbManual)
-#: rc.cpp:353
+#: rc.cpp:371
 msgid "&Manually specify the proxy settings"
 msgstr "নিজে হাতে প্রক্সি সেটিং&স"
 
 #. i18n: file: kproxydlg.ui:174
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbManSetup)
-#: rc.cpp:356
+#: rc.cpp:374
 msgid "Show the manual proxy configuration dialog."
 msgstr "নিজে হাতে প্রক্সি কনফিগারেশন করার ডায়ালগ দেখাও।"
 
 #. i18n: file: kproxydlg.ui:191
 #. i18n: ectx: property (title), widget (QGroupBox, gbAuth)
-#: rc.cpp:362
+#: rc.cpp:380
 msgid "Authori&zation"
 msgstr "&সত্যতা যাচাই"
 
 #. i18n: file: kproxydlg.ui:197
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPrompt)
-#: rc.cpp:365
+#: rc.cpp:383
 msgid "Prompt for login information whenever it is required."
 msgstr "প্রয়োজন হলে লগ-ইন তথ্য জিজ্ঞাসা করা হবে।"
 
 #. i18n: file: kproxydlg.ui:200
 #. i18n: ectx: property (text), widget (QRadioButton, rbPrompt)
-#: rc.cpp:368
+#: rc.cpp:386
 msgid "Prompt as &needed"
 msgstr "প্রয়োজ&নমত জিজ্ঞাসা করো"
 
 #. i18n: file: kproxydlg.ui:221
 #. i18n: ectx: property (toolTip), widget (QRadioButton, rbPresetLogin)
-#: rc.cpp:371
+#: rc.cpp:389
 #, fuzzy
 #| msgid "Use the following lo&gin information."
 msgid "Use this login information."
@@ -1472,7 +1514,7 @@ msgstr "এই ল&গ-ইন তথ্য ব্যবহার করো"
 
 #. i18n: file: kproxydlg.ui:224
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, rbPresetLogin)
-#: rc.cpp:374
+#: rc.cpp:392
 #, fuzzy
 #| msgid "Use the information below to login into proxy servers as needed."
 msgid "Use information specified here to login into proxy servers as needed."
@@ -1480,13 +1522,13 @@ msgstr "প্রয়োজন মত প্রক্সি সার্ভার
 
 #. i18n: file: kproxydlg.ui:227
 #. i18n: ectx: property (text), widget (QRadioButton, rbPresetLogin)
-#: rc.cpp:377
+#: rc.cpp:395
 msgid "Username:"
 msgstr "ইউসারনেম:"
 
 #. i18n: file: kproxydlg.ui:237
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leUsername)
-#: rc.cpp:380
+#: rc.cpp:398
 msgid "Login name."
 msgstr "লগ-ইন নাম"
 
@@ -1494,25 +1536,25 @@ msgstr "লগ-ইন নাম"
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPassword)
 #. i18n: file: kproxydlg.ui:266
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, lePassword)
-#: rc.cpp:383 rc.cpp:389
+#: rc.cpp:401 rc.cpp:407
 msgid "Login password."
 msgstr "লগ-ইন পাসওয়ার্ড"
 
 #. i18n: file: kproxydlg.ui:250
 #. i18n: ectx: property (text), widget (QLabel, lbPassword)
-#: rc.cpp:386
+#: rc.cpp:404
 msgid "Password:"
 msgstr "পাসওয়ার্ড:"
 
 #. i18n: file: kproxydlg.ui:284
 #. i18n: ectx: property (title), widget (QGroupBox, gbOptions)
-#: rc.cpp:392
+#: rc.cpp:410
 msgid "O&ptions"
 msgstr "অপ&শন"
 
 #. i18n: file: kproxydlg.ui:293
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbPersConn)
-#: rc.cpp:395
+#: rc.cpp:413
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1533,37 +1575,37 @@ msgstr ""
 
 #. i18n: file: kproxydlg.ui:296
 #. i18n: ectx: property (text), widget (QCheckBox, cbPersConn)
-#: rc.cpp:401
+#: rc.cpp:419
 msgid "Use persistent connections to proxy"
 msgstr "প্রক্সির জন্য পারসিস্টেন্ট (persistent) কানেকশন ব্যবহার করো"
 
 #. i18n: file: manualproxy.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, gbServers)
-#: rc.cpp:404
+#: rc.cpp:422
 msgid "Ser&vers"
 msgstr "সার্ভা&রসমূহ"
 
 #. i18n: file: manualproxy.ui:79
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttp)
-#: rc.cpp:416
+#: rc.cpp:434
 msgid "Enter the address of the HTTP proxy server."
 msgstr "HTTP প্রক্সি সার্ভারের ঠিকানা লিখুন।"
 
 #. i18n: file: manualproxy.ui:86
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttps)
-#: rc.cpp:419
+#: rc.cpp:437
 msgid "Enter the address of the HTTPS proxy server."
 msgstr "HTTPS প্রক্সি সার্ভারের ঠিকানা লিখুন।"
 
 #. i18n: file: manualproxy.ui:93
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leFtp)
-#: rc.cpp:422
+#: rc.cpp:440
 msgid "Enter the address of the FTP proxy server."
 msgstr "FTP প্রক্সি সার্ভারের ঠিকানা লিখুন।"
 
 #. i18n: file: manualproxy.ui:100
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbFtp)
-#: rc.cpp:425
+#: rc.cpp:443
 msgid ""
 "Enter the port number of the FTP proxy server. Default 8080. Another common "
 "value is 3128."
@@ -1575,7 +1617,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbHttps)
 #. i18n: file: manualproxy.ui:126
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, sbHttp)
-#: rc.cpp:428 rc.cpp:431
+#: rc.cpp:446 rc.cpp:449
 msgid ""
 "Enter the port number of the HTTP proxy server. Default is 8080. Another "
 "common value is 3128."
@@ -1585,19 +1627,19 @@ msgstr ""
 
 #. i18n: file: manualproxy.ui:136
 #. i18n: ectx: property (text), widget (QCheckBox, cbSameProxy)
-#: rc.cpp:434
+#: rc.cpp:452
 msgid "&Use the same proxy server for all protocols"
 msgstr "&একই প্রক্সি সার্ভার সব প্রোটোকলের জন্য ব্যবহার করো"
 
 #. i18n: file: manualproxy.ui:153
 #. i18n: ectx: property (title), widget (QGroupBox, gbExceptions)
-#: rc.cpp:437
+#: rc.cpp:455
 msgid "E&xceptions"
 msgstr "এক্সেপ&শন"
 
 #. i18n: file: manualproxy.ui:161
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbReverseProxy)
-#: rc.cpp:440
+#: rc.cpp:458
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1618,49 +1660,49 @@ msgstr ""
 
 #. i18n: file: manualproxy.ui:164
 #. i18n: ectx: property (text), widget (QCheckBox, cbReverseProxy)
-#: rc.cpp:445
+#: rc.cpp:463
 msgid "Use proxy only for entries in this list"
 msgstr "শুধু এই তালিকাভুক্ত এন্ট্রিগুলির জন্য প্রক্সি ব্যবহার করো"
 
 #. i18n: file: manualproxy.ui:188
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDeleteAll)
-#: rc.cpp:448
+#: rc.cpp:466
 msgid "Remove all proxy exception addresses from the list."
 msgstr "সবকটি প্রক্সি এক্সেপশন অ্যাড্রেসতালিকা থেকে মুছে ফেলো।"
 
 #. i18n: file: manualproxy.ui:191
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
-#: rc.cpp:451
+#: rc.cpp:469
 msgid "D&elete All"
 msgstr "&সব মুছে ফেলো"
 
 #. i18n: file: manualproxy.ui:201
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbDelete)
-#: rc.cpp:454
+#: rc.cpp:472
 msgid "Remove the selected proxy exception address from the list."
 msgstr "নির্বাচিত প্রক্সি এক্সেপশন অ্যাড্রেস-টি তালিকা থেকে মুছে ফেলো।"
 
 #. i18n: file: manualproxy.ui:204
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
-#: rc.cpp:457
+#: rc.cpp:475
 msgid "De&lete"
 msgstr "মুছে ফেলো (&ম)"
 
 #. i18n: file: manualproxy.ui:211
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbNew)
-#: rc.cpp:460
+#: rc.cpp:478
 msgid "Add new proxy exception address to the list."
 msgstr "তালিকায় নতুন প্রক্সি এক্সেপশন অ্যাড্রেস যোগ করো।"
 
 #. i18n: file: manualproxy.ui:224
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pbChange)
-#: rc.cpp:466
+#: rc.cpp:484
 msgid "Change the selected proxy exception address."
 msgstr "নির্বাচিত প্রক্সি এক্সেপশন অ্যাড্রেস-টি পাল্টাও।"
 
 #. i18n: file: manualproxy.ui:227
 #. i18n: ectx: property (text), widget (QPushButton, pbChange)
-#: rc.cpp:469
+#: rc.cpp:487
 msgid "C&hange..."
 msgstr "ব&দলাও..."
 
@@ -1668,7 +1710,7 @@ msgstr "ব&দলাও..."
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbDomain)
 #. i18n: file: policydlg.ui:28
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leDomain)
-#: rc.cpp:472 rc.cpp:480
+#: rc.cpp:490 rc.cpp:498
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1683,7 +1725,7 @@ msgstr ""
 
 #. i18n: file: policydlg.ui:13
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
-#: rc.cpp:477
+#: rc.cpp:495
 msgid "&Domain name:"
 msgstr "ডোমে&ইন নাম:"
 
@@ -1691,7 +1733,7 @@ msgstr "ডোমে&ইন নাম:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPolicy)
 #. i18n: file: policydlg.ui:65
 #. i18n: ectx: property (whatsThis), widget (KComboBox, cbPolicy)
-#: rc.cpp:485 rc.cpp:498
+#: rc.cpp:503 rc.cpp:516
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1714,37 +1756,37 @@ msgstr ""
 
 #. i18n: file: policydlg.ui:45
 #. i18n: ectx: property (text), widget (QLabel, lbPolicy)
-#: rc.cpp:495
+#: rc.cpp:513
 msgid "&Policy:"
 msgstr "&পলিসি:"
 
 #. i18n: file: policydlg.ui:69
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
-#: rc.cpp:508
+#: rc.cpp:526
 msgid "Accept"
 msgstr "স্বীকার করো"
 
 #. i18n: file: policydlg.ui:74
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
-#: rc.cpp:511
+#: rc.cpp:529
 msgid "Reject"
 msgstr "প্রত্যাখ্যান করো"
 
 #. i18n: file: policydlg.ui:79
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
-#: rc.cpp:514
+#: rc.cpp:532
 msgid "Ask"
 msgstr "জিজ্ঞাসা করো"
 
 #. i18n: file: socksbase.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, SocksBase)
-#: rc.cpp:517
+#: rc.cpp:535
 msgid "SOCKS"
 msgstr "সকস (SOCKS)"
 
 #. i18n: file: socksbase.ui:30
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, _c_enableSocks)
-#: rc.cpp:520
+#: rc.cpp:538
 msgid ""
 "Check this to enable SOCKS4 and SOCKS5 support in KDE applications and I/O "
 "subsystems."
@@ -1754,31 +1796,31 @@ msgstr ""
 
 #. i18n: file: socksbase.ui:33
 #. i18n: ectx: property (text), widget (QCheckBox, _c_enableSocks)
-#: rc.cpp:523
+#: rc.cpp:541
 msgid "&Enable SOCKS support"
 msgstr "সকস (SOCKS) সাপোর্ট সক্রিয় করো"
 
 #. i18n: file: socksbase.ui:59
 #. i18n: ectx: property (whatsThis), widget (QPushButton, _c_test)
-#: rc.cpp:526
+#: rc.cpp:544
 msgid "Click here to test SOCKS support."
 msgstr "সকস (SOCKS) সাপোর্ট পরীক্ষা করতে এখানে ক্লিক করুন।"
 
 #. i18n: file: socksbase.ui:62
 #. i18n: ectx: property (text), widget (QPushButton, _c_test)
-#: rc.cpp:529
+#: rc.cpp:547
 msgid "&Test"
 msgstr "&পরীক্ষা করো"
 
 #. i18n: file: socksbase.ui:74
 #. i18n: ectx: property (title), widget (Q3ButtonGroup, bg)
-#: rc.cpp:532
+#: rc.cpp:550
 msgid "SOCKS Implementation"
 msgstr "সকস (SOCKS) ব্যবস্থা"
 
 #. i18n: file: socksbase.ui:88
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_custom)
-#: rc.cpp:535
+#: rc.cpp:553
 #, fuzzy
 msgid ""
 "Select custom if you wish to use an unlisted SOCKS library. Please note that "
@@ -1791,20 +1833,20 @@ msgstr ""
 
 #. i18n: file: socksbase.ui:91
 #. i18n: ectx: property (text), widget (QRadioButton, _c_custom)
-#: rc.cpp:538
+#: rc.cpp:556
 msgid "Use &custom library"
 msgstr "স্বনির্বাচি&ত লাইব্রেরি"
 
 #. i18n: file: socksbase.ui:104
 #. i18n: ectx: property (whatsThis), widget (KUrlRequester, _c_customPath)
-#: rc.cpp:541
+#: rc.cpp:559
 #, fuzzy
 msgid "Enter the path to an unsupported SOCKS library."
 msgstr "একটি অসমর্থিত SOCKS লাইব্রেরীতে পাথ ঢোকাও।"
 
 #. i18n: file: socksbase.ui:113
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_detect)
-#: rc.cpp:544
+#: rc.cpp:562
 #, fuzzy
 msgid ""
 "If you select Autodetect, then KDE will automatically search for an "
@@ -1815,37 +1857,37 @@ msgstr ""
 
 #. i18n: file: socksbase.ui:116
 #. i18n: ectx: property (text), widget (QRadioButton, _c_detect)
-#: rc.cpp:547
+#: rc.cpp:565
 msgid "A&uto detect"
 msgstr "স্বয়ংক্রী&য় উদ্ঘাটন"
 
 #. i18n: file: socksbase.ui:123
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_NEC)
-#: rc.cpp:550
+#: rc.cpp:568
 msgid "This will force KDE to use NEC SOCKS if it can be found."
 msgstr "NEC SOCKS পাওয়া গেলে তা ব্যবহার করা হবে।"
 
 #. i18n: file: socksbase.ui:126
 #. i18n: ectx: property (text), widget (QRadioButton, _c_NEC)
-#: rc.cpp:553
+#: rc.cpp:571
 msgid "&NEC SOCKS"
 msgstr "&NEC SOCKS"
 
 #. i18n: file: socksbase.ui:133
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, _c_Dante)
-#: rc.cpp:556
+#: rc.cpp:574
 msgid "This will force KDE to use Dante if it can be found."
 msgstr "দান্তে পাওয়া গেলে তা ব্যবহার করা হবে।"
 
 #. i18n: file: socksbase.ui:136
 #. i18n: ectx: property (text), widget (QRadioButton, _c_Dante)
-#: rc.cpp:559
+#: rc.cpp:577
 msgid "&Dante"
 msgstr "দান্তে (&দ)"
 
 #. i18n: file: socksbase.ui:155
 #. i18n: ectx: property (whatsThis), widget (KEditListBox, _c_libs)
-#: rc.cpp:562
+#: rc.cpp:580
 msgid ""
 "Here you can specify additional directories to search for the SOCKS "
 "libraries. /usr/lib, /usr/local/lib, /usr/local/socks5/lib and /opt/socks5/"
@@ -1857,13 +1899,13 @@ msgstr ""
 
 #. i18n: file: socksbase.ui:158
 #. i18n: ectx: property (title), widget (KEditListBox, _c_libs)
-#: rc.cpp:565
+#: rc.cpp:583
 msgid "Additional Library Search Paths"
 msgstr "অতিরিক্ত লাইব্রেরি সার্চ পাথ"
 
 #. i18n: file: useragentdlg.ui:16
 #. i18n: ectx: property (whatsThis), widget (QWidget, UserAgentUI)
-#: rc.cpp:568
+#: rc.cpp:586
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1890,7 +1932,7 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:26
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, sendUACheckBox)
-#: rc.cpp:574
+#: rc.cpp:592
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -1913,13 +1955,13 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, sendUACheckBox)
-#: rc.cpp:581
+#: rc.cpp:599
 msgid "&Send identification"
 msgstr "&পরিচয় পাঠাও"
 
 #. i18n: file: useragentdlg.ui:42
 #. i18n: ectx: property (whatsThis), widget (QGroupBox, defaultIdGroupBox)
-#: rc.cpp:584
+#: rc.cpp:602
 msgid ""
 "The browser identification text sent to the sites you visit. Use the "
 "provided options to customize it."
@@ -1929,13 +1971,13 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, defaultIdGroupBox)
-#: rc.cpp:587
+#: rc.cpp:605
 msgid "Default Identification"
 msgstr "ডিফল্ট পরিচায়ক"
 
 #. i18n: file: useragentdlg.ui:57
 #. i18n: ectx: property (whatsThis), widget (KSqueezedTextLabel, defaultIdLineEdit)
-#: rc.cpp:590
+#: rc.cpp:608
 msgid ""
 "The browser identification text sent to the sites you visit. You can "
 "customize it using the options provided below."
@@ -1945,27 +1987,27 @@ msgstr ""
 
 #. i18n: file: useragentdlg.ui:60
 #. i18n: ectx: property (text), widget (KSqueezedTextLabel, defaultIdLineEdit)
-#: rc.cpp:593
+#: rc.cpp:611
 msgctxt "just a placeholder; do not translate"
 msgid "KSqueezedTextLabel"
 msgstr ""
 
 #. i18n: file: useragentdlg.ui:70
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osNameCheckBox)
-#: rc.cpp:596
+#: rc.cpp:614
 msgid ""
 "Includes your operating system's name in the browser identification text."
 msgstr "ব্রাউজার পরিচায়ক পংক্তিতে আপনার অপারেটিং সিস্টেমের নাম অন্তর্ভুক্ত হবে।"
 
 #. i18n: file: useragentdlg.ui:73
 #. i18n: ectx: property (text), widget (QCheckBox, osNameCheckBox)
-#: rc.cpp:599
+#: rc.cpp:617
 msgid "Add operating s&ystem name"
 msgstr "অপারেটিং সিস্টেমের নাম যোগ &করো"
 
 #. i18n: file: useragentdlg.ui:101
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, osVersionCheckBox)
-#: rc.cpp:602
+#: rc.cpp:620
 msgid ""
 "Includes your operating system's version number in the browser "
 "identification text."
@@ -1973,37 +2015,37 @@ msgstr "ব্রাউজার পরিচায়ক পংক্তিতে 
 
 #. i18n: file: useragentdlg.ui:104
 #. i18n: ectx: property (text), widget (QCheckBox, osVersionCheckBox)
-#: rc.cpp:605
+#: rc.cpp:623
 msgid "Add operating system &version"
 msgstr "&অপারেটিং সিস্টেমের সংস্করণ যোগ করো"
 
 #. i18n: file: useragentdlg.ui:113
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, platformCheckBox)
-#: rc.cpp:608
+#: rc.cpp:626
 msgid "Includes your platform type in the browser identification text"
 msgstr "ব্রাউজার পরিচায়ক পংক্তিতে আপনার প্ল্যাটফর্ম টাইপ অন্তর্ভুক্ত হবে।"
 
 #. i18n: file: useragentdlg.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, platformCheckBox)
-#: rc.cpp:611
+#: rc.cpp:629
 msgid "Add &platform name"
 msgstr "প্ল্যাট&ফর্মের  নাম যোগ করো"
 
 #. i18n: file: useragentdlg.ui:123
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, processorTypeCheckBox)
-#: rc.cpp:614
+#: rc.cpp:632
 msgid "Includes your machine's CPU type in the browser identification text."
 msgstr "ব্রাউজার পরিচায়ক পংক্তিতে আপনার সি-পি-ইউ (CPU) টাইপ অন্তর্ভুক্ত হবে।"
 
 #. i18n: file: useragentdlg.ui:126
 #. i18n: ectx: property (text), widget (QCheckBox, processorTypeCheckBox)
-#: rc.cpp:617
+#: rc.cpp:635
 msgid "Add &machine (processor) type"
 msgstr "মেশি&ন (প্রসেসর) টাইপ যোগ করো"
 
 #. i18n: file: useragentdlg.ui:133
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, languageCheckBox)
-#: rc.cpp:620
+#: rc.cpp:638
 #, fuzzy
 msgid ""
 "Includes your language settings in the browser identification text to obtain "
@@ -2012,55 +2054,55 @@ msgstr "ব্রাউজার পরিচায়ক পংক্তিতে 
 
 #. i18n: file: useragentdlg.ui:136
 #. i18n: ectx: property (text), widget (QCheckBox, languageCheckBox)
-#: rc.cpp:623
+#: rc.cpp:641
 msgid "Add lang&uage information"
 msgstr "ভাষা সংক্রান্ত &তথ্য যোগ করো"
 
 #. i18n: file: useragentdlg.ui:149
 #. i18n: ectx: property (title), widget (QGroupBox, domainPolicyGroupBox)
-#: rc.cpp:626
+#: rc.cpp:644
 msgid "Site Specific Identification"
 msgstr "অবস্থান নির্ভর পরিচায়ক"
 
 #. i18n: file: useragentdlg.ui:162
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: rc.cpp:629
+#: rc.cpp:647
 msgid "Site Name"
 msgstr "সাইটের নাম"
 
 #. i18n: file: useragentdlg.ui:167
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: rc.cpp:632
+#: rc.cpp:650
 msgid "Identification"
 msgstr "পরিচায়ক"
 
 #. i18n: file: useragentdlg.ui:172
 #. i18n: ectx: property (text), widget (QTreeWidget, sitePolicyTreeWidget)
-#: rc.cpp:635
+#: rc.cpp:653
 msgid "User Agent"
 msgstr "ইউসার এজেন্ট"
 
 #. i18n: file: useragentdlg.ui:185
 #. i18n: ectx: property (whatsThis), widget (QPushButton, newButton)
-#: rc.cpp:638
+#: rc.cpp:656
 msgid "Add new identification text for a site."
 msgstr "একটি অবস্থানের জন্য নতুন পরিচায়ক যোগ করো"
 
 #. i18n: file: useragentdlg.ui:195
 #. i18n: ectx: property (whatsThis), widget (QPushButton, changeButton)
-#: rc.cpp:644
+#: rc.cpp:662
 msgid "Change the selected identifier text."
 msgstr "নির্বাচিত পরিচায়কটি পাল্টাও"
 
 #. i18n: file: useragentdlg.ui:205
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteButton)
-#: rc.cpp:650
+#: rc.cpp:668
 msgid "Delete the selected identifier text."
 msgstr "নির্বাচিত পরিচায়কটি মুছে ফেলো"
 
 #. i18n: file: useragentdlg.ui:215
 #. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
-#: rc.cpp:656
+#: rc.cpp:674
 msgid "Delete all identifiers."
 msgstr "সবকটি পরিচায়ক মুছে ফেলো।"
 
@@ -2068,7 +2110,7 @@ msgstr "সবকটি পরিচায়ক মুছে ফেলো।"
 #. i18n: ectx: property (whatsThis), widget (QLabel, siteLabel)
 #. i18n: file: useragentselectordlg.ui:38
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, siteLineEdit)
-#: rc.cpp:662 rc.cpp:671
+#: rc.cpp:680 rc.cpp:689
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -2093,7 +2135,7 @@ msgstr ""
 
 #. i18n: file: useragentselectordlg.ui:22
 #. i18n: ectx: property (text), widget (QLabel, siteLabel)
-#: rc.cpp:668
+#: rc.cpp:686
 msgid "&When browsing the following site:"
 msgstr "নিম্নোক্ত &অবস্থান ব্রাউজ করাকালীন:"
 
@@ -2101,7 +2143,7 @@ msgstr "নিম্নোক্ত &অবস্থান ব্রাউজ �
 #. i18n: ectx: property (whatsThis), widget (QLabel, aliasLabel)
 #. i18n: file: useragentselectordlg.ui:65
 #. i18n: ectx: property (whatsThis), widget (KComboBox, aliasComboBox)
-#: rc.cpp:677 rc.cpp:685
+#: rc.cpp:695 rc.cpp:703
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -2116,7 +2158,7 @@ msgstr ""
 
 #. i18n: file: useragentselectordlg.ui:50
 #. i18n: ectx: property (text), widget (QLabel, aliasLabel)
-#: rc.cpp:682
+#: rc.cpp:700
 msgid "&Use the following identification:"
 msgstr "এ&ই পারিচায়কটি ব্যবহার করো:"
 
@@ -2124,7 +2166,7 @@ msgstr "এ&ই পারিচায়কটি ব্যবহার করো:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, identityLabel)
 #. i18n: file: useragentselectordlg.ui:89
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, identityLineEdit)
-#: rc.cpp:690 rc.cpp:698
+#: rc.cpp:708 rc.cpp:716
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -2138,16 +2180,16 @@ msgstr ""
 
 #. i18n: file: useragentselectordlg.ui:77
 #. i18n: ectx: property (text), widget (QLabel, identityLabel)
-#: rc.cpp:695
+#: rc.cpp:713
 msgid "Real identification:"
 msgstr "বাস্তবিক পরিচয়:"
 
-#: rc.cpp:701
+#: rc.cpp:719
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "দীপায়ন সরকার"
 
-#: rc.cpp:702
+#: rc.cpp:720
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
@@ -2327,9 +2369,6 @@ msgstr ""
 #~ "List of sites for which the specified identification text will be used "
 #~ "instead of the default one."
 #~ msgstr "যে অবস্থানগুলির জন্য উল্লিখিত পরিচায়কটি ব্যবহার করা হবে তার তালিকা।"
-
-#~ msgid " KB"
-#~ msgstr " কিলোবাইট"
 
 #~ msgid "..."
 #~ msgstr "..."
