@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-11-25 10:20+0100\n"
+"POT-Creation-Date: 2008-11-30 09:46+0100\n"
 "PO-Revision-Date: 2006-03-25 02:57-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -140,15 +140,15 @@ msgstr "সেশনের সমাপ্তি"
 msgid "Yes"
 msgstr ""
 
-#: kcookiespolicies.cpp:154
+#: kcookiespolicies.cpp:151
 msgid "New Cookie Policy"
 msgstr "নতুন কুকি পলিসি"
 
-#: kcookiespolicies.cpp:193
+#: kcookiespolicies.cpp:190
 msgid "Change Cookie Policy"
 msgstr "কুকি পরিবর্তন পলিসি"
 
-#: kcookiespolicies.cpp:218
+#: kcookiespolicies.cpp:215
 #, kde-format
 msgid ""
 "<qt>A policy already exists for<center><b>%1</b></center>Do you want to "
@@ -157,15 +157,15 @@ msgstr ""
 "<qt><center><b>%1</b></center> -এর জন্য একটি পলিসি আগে থেকেই আছে। আপনি কি "
 "সেটি বদলাতে চান?</qt>"
 
-#: kcookiespolicies.cpp:222
+#: kcookiespolicies.cpp:219
 msgid "Duplicate Policy"
 msgstr "ডুপলিকেট পলিসি"
 
-#: kcookiespolicies.cpp:223 useragentdlg.cpp:212
+#: kcookiespolicies.cpp:220 useragentdlg.cpp:215
 msgid "Replace"
 msgstr ""
 
-#: kcookiespolicies.cpp:419
+#: kcookiespolicies.cpp:397
 msgid ""
 "Unable to communicate with the cookie handler service.\n"
 "Any changes you made will not take effect until the service is restarted."
@@ -173,7 +173,7 @@ msgstr ""
 "কুকি হ্যান্ডলার সার্ভিসের  সঙ্গে যোগাযোগ স্থাপন  করা যায়নি।\n"
 "সার্ভিসটি পুনরায় চালু  করা পর্যন্ত কোন পরিবর্তন  কার্যকরী হবে না। "
 
-#: kcookiespolicies.cpp:460
+#: kcookiespolicies.cpp:438
 #, fuzzy
 #| msgid ""
 #| "<h1>Cookies</h1> Cookies contain information that Konqueror (or any other "
@@ -707,9 +707,9 @@ msgstr "ক্যাশ ব্য&বহার করো"
 
 #. i18n: file: cache.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, bgCachePolicy)
-#. i18n: file: kcookiespoliciesdlg.ui:177
-#. i18n: ectx: property (text), widget (K3ListView, lvDomainPolicy)
-#: rc.cpp:65 rc.cpp:292
+#. i18n: file: kcookiespoliciesdlg.ui:196
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDomainPolicy)
+#: rc.cpp:65 rc.cpp:298
 msgid "Policy"
 msgstr "পলিসি"
 
@@ -771,9 +771,9 @@ msgstr "ডিস্ক ক্যাশ-এর মা&প:"
 msgid "C&lear Cache"
 msgstr "ক্যা&শ ফাঁকা করো"
 
-#. i18n: file: envvarproxy.ui:19
+#. i18n: file: envvarproxy.ui:21
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbHttp)
-#. i18n: file: envvarproxy.ui:47
+#. i18n: file: envvarproxy.ui:49
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttp)
 #: rc.cpp:92 rc.cpp:101
 #, fuzzy
@@ -792,7 +792,7 @@ msgstr ""
 "discovery পেতে চেষ্টা করতে বাটনটি।\n"
 "</qt>(_P)"
 
-#. i18n: file: envvarproxy.ui:22
+#. i18n: file: envvarproxy.ui:24
 #. i18n: ectx: property (text), widget (QLabel, lbHttp)
 #. i18n: file: manualproxy.ui:66
 #. i18n: ectx: property (text), widget (QLabel, lbHttp)
@@ -800,50 +800,11 @@ msgstr ""
 msgid "H&TTP:"
 msgstr "H&TTP:"
 
-#. i18n: file: envvarproxy.ui:56
-#. i18n: ectx: property (whatsThis), widget (QPushButton, pbVerify)
-#: rc.cpp:107
-#, fuzzy
-msgid ""
-"<qt>Verify whether or not the environment variable names you supplied are "
-"valid. If an environment variable is not found, the associated labels will "
-"be <b>highlighted</b> to indicate that they are invalid.</qt>"
-msgstr ""
-"<qt>সত্যতা পরীক্ষা করো কিনা অথবা পরিবেশ চলক নামগুলো আপনি না সরাবরাহ করলেন বৈধ। "
-"যদি একটি পরিবেশ চলক খুঁজে পাওয়া হল না, সহযোগী লেবেল হবে<b>চিহ্নিত</b>নির্দেশ "
-"করতে যে তারা আছে অবৈধ।</qt>"
-
 #. i18n: file: envvarproxy.ui:59
-#. i18n: ectx: property (text), widget (QPushButton, pbVerify)
-#: rc.cpp:110
-msgid "&Verify"
-msgstr "যাচা&ই করো"
-
-#. i18n: file: envvarproxy.ui:66
-#. i18n: ectx: property (whatsThis), widget (QPushButton, pbDetect)
-#: rc.cpp:113
-#, fuzzy
-msgid ""
-"<qt>Attempt automatic discovery of the environment variables used for "
-"setting system wide proxy information.<p> This feature works by searching "
-"for commonly used variable names such as HTTP_PROXY, FTP_PROXY and NO_PROXY."
-"</qt>"
-msgstr ""
-"<qt>সিস্টেম প্রশস্ত প্রক্সি তথ্য নিযুক্ত করার জন্য পরিবেশ চলক ব্যবহৃতের প্রচেষ্টা "
-"স্বয়ংক্রিয় discovery।<p>এই বৈশিষ্ট্যটি HTTPPROXY, FTPPROXY এবং NOPROXY হিসেবে "
-"সাধারণত ব্যবহৃত চলক নামগুলো যেমনের জন্য অনুসন্ধান করার মধ্যে কাজ করে।</qt>(_P)"
-
-#. i18n: file: envvarproxy.ui:69
-#. i18n: ectx: property (text), widget (QPushButton, pbDetect)
-#: rc.cpp:116
-msgid "Auto &Detect"
-msgstr "স্বয়ংক্রীয় &উদ্ঘাটন"
-
-#. i18n: file: envvarproxy.ui:97
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbHttps)
-#. i18n: file: envvarproxy.ui:125
+#. i18n: file: envvarproxy.ui:87
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leHttps)
-#: rc.cpp:119 rc.cpp:128
+#: rc.cpp:107 rc.cpp:116
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -860,19 +821,19 @@ msgstr ""
 "discovery পেতে চেষ্টা করতে বাটনটি।\n"
 "</qt>(_P)"
 
-#. i18n: file: envvarproxy.ui:100
+#. i18n: file: envvarproxy.ui:62
 #. i18n: ectx: property (text), widget (QLabel, lbHttps)
 #. i18n: file: manualproxy.ui:47
 #. i18n: ectx: property (text), widget (QLabel, lbHttps)
-#: rc.cpp:125 rc.cpp:428
+#: rc.cpp:113 rc.cpp:428
 msgid "HTTP&S:"
 msgstr "HTTP&S:"
 
-#. i18n: file: envvarproxy.ui:135
+#. i18n: file: envvarproxy.ui:97
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbFtp)
-#. i18n: file: envvarproxy.ui:163
+#. i18n: file: envvarproxy.ui:125
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leFtp)
-#: rc.cpp:134 rc.cpp:143
+#: rc.cpp:122 rc.cpp:131
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -889,19 +850,19 @@ msgstr ""
 "discovery পেতে চেষ্টা করতে বাটনটি।\n"
 "</qt>(_P)"
 
-#. i18n: file: envvarproxy.ui:138
+#. i18n: file: envvarproxy.ui:100
 #. i18n: ectx: property (text), widget (QLabel, lbFtp)
 #. i18n: file: manualproxy.ui:28
 #. i18n: ectx: property (text), widget (QLabel, lbFtp)
-#: rc.cpp:140 rc.cpp:425
+#: rc.cpp:128 rc.cpp:425
 msgid "&FTP:"
 msgstr "&FTP:"
 
-#. i18n: file: envvarproxy.ui:173
+#. i18n: file: envvarproxy.ui:135
 #. i18n: ectx: property (whatsThis), widget (QLabel, lnNoProxy)
-#. i18n: file: envvarproxy.ui:201
+#. i18n: file: envvarproxy.ui:163
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leNoProxy)
-#: rc.cpp:149 rc.cpp:158
+#: rc.cpp:137 rc.cpp:146
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -918,21 +879,62 @@ msgstr ""
 "discovery পেতে চেষ্টা করতে বাটনটি।\n"
 "</qt>(_P)"
 
-#. i18n: file: envvarproxy.ui:176
+#. i18n: file: envvarproxy.ui:138
 #. i18n: ectx: property (text), widget (QLabel, lnNoProxy)
-#: rc.cpp:155
+#: rc.cpp:143
 msgid "NO &PROXY:"
 msgstr "NO &PROXY:"
 
-#. i18n: file: envvarproxy.ui:208
+#. i18n: file: envvarproxy.ui:170
 #. i18n: ectx: property (text), widget (QCheckBox, cbShowValue)
-#: rc.cpp:164
+#: rc.cpp:152
 msgid "Show the &value of the environment variables"
 msgstr "এনভায়রনমেন্ট ভেরিয়েবল-গুলির মা&ন প্রদর্শন করো"
 
+#. i18n: file: envvarproxy.ui:181
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbVerify)
+#: rc.cpp:155
+#, fuzzy
+msgid ""
+"<qt>Verify whether or not the environment variable names you supplied are "
+"valid. If an environment variable is not found, the associated labels will "
+"be <b>highlighted</b> to indicate that they are invalid.</qt>"
+msgstr ""
+"<qt>সত্যতা পরীক্ষা করো কিনা অথবা পরিবেশ চলক নামগুলো আপনি না সরাবরাহ করলেন বৈধ। "
+"যদি একটি পরিবেশ চলক খুঁজে পাওয়া হল না, সহযোগী লেবেল হবে<b>চিহ্নিত</b>নির্দেশ "
+"করতে যে তারা আছে অবৈধ।</qt>"
+
+#. i18n: file: envvarproxy.ui:184
+#. i18n: ectx: property (text), widget (QPushButton, pbVerify)
+#: rc.cpp:158
+msgid "&Verify"
+msgstr "যাচা&ই করো"
+
+#. i18n: file: envvarproxy.ui:191
+#. i18n: ectx: property (whatsThis), widget (QPushButton, pbDetect)
+#: rc.cpp:161
+#, fuzzy
+msgid ""
+"<qt>Attempt automatic discovery of the environment variables used for "
+"setting system wide proxy information.<p> This feature works by searching "
+"for commonly used variable names such as HTTP_PROXY, FTP_PROXY and NO_PROXY."
+"</qt>"
+msgstr ""
+"<qt>সিস্টেম প্রশস্ত প্রক্সি তথ্য নিযুক্ত করার জন্য পরিবেশ চলক ব্যবহৃতের প্রচেষ্টা "
+"স্বয়ংক্রিয় discovery।<p>এই বৈশিষ্ট্যটি HTTPPROXY, FTPPROXY এবং NOPROXY হিসেবে "
+"সাধারণত ব্যবহৃত চলক নামগুলো যেমনের জন্য অনুসন্ধান করার মধ্যে কাজ করে।</qt>(_P)"
+
+#. i18n: file: envvarproxy.ui:194
+#. i18n: ectx: property (text), widget (QPushButton, pbDetect)
+#: rc.cpp:164
+msgid "Auto &Detect"
+msgstr "স্বয়ংক্রীয় &উদ্ঘাটন"
+
 #. i18n: file: kcookiesmanagementdlg.ui:23
 #. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
-#: rc.cpp:167
+#. i18n: file: kcookiespoliciesdlg.ui:210
+#. i18n: ectx: property (clickMessage), widget (KTreeWidgetSearchLine, kListViewSearchLine)
+#: rc.cpp:167 rc.cpp:304
 #, fuzzy
 #| msgid "&Search:"
 msgid "Search"
@@ -959,21 +961,21 @@ msgstr "হোস্ট [সেট করেছে]"
 
 #. i18n: file: kcookiesmanagementdlg.ui:57
 #. i18n: ectx: property (text), widget (QPushButton, pbDelete)
-#. i18n: file: kcookiespoliciesdlg.ui:207
-#. i18n: ectx: property (text), widget (QPushButton, pbDelete)
+#. i18n: file: kcookiespoliciesdlg.ui:141
+#. i18n: ectx: property (text), widget (KPushButton, pbDelete)
 #. i18n: file: useragentdlg.ui:208
-#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:179 rc.cpp:301 rc.cpp:620
+#. i18n: ectx: property (text), widget (KPushButton, deleteButton)
+#: rc.cpp:179 rc.cpp:284 rc.cpp:620
 msgid "D&elete"
 msgstr "মুছে ফেলো (&ম)"
 
 #. i18n: file: kcookiesmanagementdlg.ui:64
 #. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
-#. i18n: file: kcookiespoliciesdlg.ui:214
-#. i18n: ectx: property (text), widget (QPushButton, pbDeleteAll)
+#. i18n: file: kcookiespoliciesdlg.ui:148
+#. i18n: ectx: property (text), widget (KPushButton, pbDeleteAll)
 #. i18n: file: useragentdlg.ui:218
-#. i18n: ectx: property (text), widget (QPushButton, deleteAllButton)
-#: rc.cpp:182 rc.cpp:304 rc.cpp:626
+#. i18n: ectx: property (text), widget (KPushButton, deleteAllButton)
+#: rc.cpp:182 rc.cpp:287 rc.cpp:626
 msgid "Delete A&ll"
 msgstr "সব মুছে ফেলো (&ল)"
 
@@ -1236,22 +1238,27 @@ msgstr ""
 msgid "Site Policy"
 msgstr "সাইট পলিসি"
 
-#. i18n: file: kcookiespoliciesdlg.ui:125
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:278
-msgid "&Search:"
-msgstr "&সন্ধান:"
+#. i18n: file: kcookiespoliciesdlg.ui:127
+#. i18n: ectx: property (text), widget (KPushButton, pbNew)
+#. i18n: file: manualproxy.ui:214
+#. i18n: ectx: property (text), widget (QPushButton, pbNew)
+#. i18n: file: useragentdlg.ui:188
+#. i18n: ectx: property (text), widget (KPushButton, newButton)
+#: rc.cpp:278 rc.cpp:481 rc.cpp:608
+msgid "&New..."
+msgstr "&নতুন..."
 
-#. i18n: file: kcookiespoliciesdlg.ui:138
-#. i18n: ectx: property (toolTip), widget (K3ListViewSearchLine, kListViewSearchLine)
-#: rc.cpp:281
-#, fuzzy
-msgid "Search interactively for domains"
-msgstr "ডোমেনের জন্য অনুসন্ধান interactively"
+#. i18n: file: kcookiespoliciesdlg.ui:134
+#. i18n: ectx: property (text), widget (KPushButton, pbChange)
+#. i18n: file: useragentdlg.ui:198
+#. i18n: ectx: property (text), widget (KPushButton, changeButton)
+#: rc.cpp:281 rc.cpp:614
+msgid "Chan&ge..."
+msgstr "পরি&বর্তন..."
 
-#. i18n: file: kcookiespoliciesdlg.ui:150
-#. i18n: ectx: property (whatsThis), widget (K3ListView, lvDomainPolicy)
-#: rc.cpp:284
+#. i18n: file: kcookiespoliciesdlg.ui:175
+#. i18n: ectx: property (whatsThis), widget (QTreeWidget, lvDomainPolicy)
+#: rc.cpp:290
 msgid ""
 "<qt>\n"
 "List of sites for which you have set a specific cookie policy. Specific "
@@ -1263,29 +1270,18 @@ msgstr ""
 "জন্য ডিফল্ট পলিসি সেটিংস-এর পরিবর্তে বিশেষ পলিসিগুলি কার্যকর হবে।\n"
 "</qt>"
 
-#. i18n: file: kcookiespoliciesdlg.ui:166
-#. i18n: ectx: property (text), widget (K3ListView, lvDomainPolicy)
-#: rc.cpp:289
+#. i18n: file: kcookiespoliciesdlg.ui:191
+#. i18n: ectx: property (text), widget (QTreeWidget, lvDomainPolicy)
+#: rc.cpp:295
 msgid "Domain"
 msgstr "ডোমেইন"
 
-#. i18n: file: kcookiespoliciesdlg.ui:193
-#. i18n: ectx: property (text), widget (QPushButton, pbNew)
-#. i18n: file: manualproxy.ui:214
-#. i18n: ectx: property (text), widget (QPushButton, pbNew)
-#. i18n: file: useragentdlg.ui:188
-#. i18n: ectx: property (text), widget (QPushButton, newButton)
-#: rc.cpp:295 rc.cpp:481 rc.cpp:608
-msgid "&New..."
-msgstr "&নতুন..."
-
-#. i18n: file: kcookiespoliciesdlg.ui:200
-#. i18n: ectx: property (text), widget (QPushButton, pbChange)
-#. i18n: file: useragentdlg.ui:198
-#. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:298 rc.cpp:614
-msgid "Chan&ge..."
-msgstr "পরি&বর্তন..."
+#. i18n: file: kcookiespoliciesdlg.ui:207
+#. i18n: ectx: property (toolTip), widget (KTreeWidgetSearchLine, kListViewSearchLine)
+#: rc.cpp:301
+#, fuzzy
+msgid "Search interactively for domains"
+msgstr "ডোমেনের জন্য অনুসন্ধান interactively"
 
 #. i18n: file: kio_ftprc.kcfg:10
 #. i18n: ectx: label, entry (DisablePassiveMode), group (DesktopIcons)
@@ -1698,9 +1694,9 @@ msgstr "নির্বাচিত প্রক্সি এক্সেপশ�
 msgid "C&hange..."
 msgstr "ব&দলাও..."
 
-#. i18n: file: policydlg.ui:10
+#. i18n: file: policydlg.ui:18
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbDomain)
-#. i18n: file: policydlg.ui:28
+#. i18n: file: policydlg.ui:36
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, leDomain)
 #: rc.cpp:490 rc.cpp:498
 #, fuzzy
@@ -1715,15 +1711,15 @@ msgstr ""
 "org</b>অথবা<b>কে-ডি-ই org</b>।\n"
 "</qt>"
 
-#. i18n: file: policydlg.ui:13
+#. i18n: file: policydlg.ui:21
 #. i18n: ectx: property (text), widget (QLabel, lbDomain)
 #: rc.cpp:495
 msgid "&Domain name:"
 msgstr "ডোমে&ইন নাম:"
 
-#. i18n: file: policydlg.ui:42
+#. i18n: file: policydlg.ui:50
 #. i18n: ectx: property (whatsThis), widget (QLabel, lbPolicy)
-#. i18n: file: policydlg.ui:65
+#. i18n: file: policydlg.ui:73
 #. i18n: ectx: property (whatsThis), widget (KComboBox, cbPolicy)
 #: rc.cpp:503 rc.cpp:516
 #, fuzzy
@@ -1746,25 +1742,25 @@ msgstr ""
 "</ul>\n"
 "</qt>"
 
-#. i18n: file: policydlg.ui:45
+#. i18n: file: policydlg.ui:53
 #. i18n: ectx: property (text), widget (QLabel, lbPolicy)
 #: rc.cpp:513
 msgid "&Policy:"
 msgstr "&পলিসি:"
 
-#. i18n: file: policydlg.ui:69
+#. i18n: file: policydlg.ui:77
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: rc.cpp:526
 msgid "Accept"
 msgstr "স্বীকার করো"
 
-#. i18n: file: policydlg.ui:74
+#. i18n: file: policydlg.ui:82
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: rc.cpp:529
 msgid "Reject"
 msgstr "প্রত্যাখ্যান করো"
 
-#. i18n: file: policydlg.ui:79
+#. i18n: file: policydlg.ui:87
 #. i18n: ectx: property (text), item, widget (KComboBox, cbPolicy)
 #: rc.cpp:532
 msgid "Ask"
@@ -1950,25 +1946,25 @@ msgid "User Agent"
 msgstr "ইউসার এজেন্ট"
 
 #. i18n: file: useragentdlg.ui:185
-#. i18n: ectx: property (whatsThis), widget (QPushButton, newButton)
+#. i18n: ectx: property (whatsThis), widget (KPushButton, newButton)
 #: rc.cpp:605
 msgid "Add new identification text for a site."
 msgstr "একটি অবস্থানের জন্য নতুন পরিচায়ক যোগ করো"
 
 #. i18n: file: useragentdlg.ui:195
-#. i18n: ectx: property (whatsThis), widget (QPushButton, changeButton)
+#. i18n: ectx: property (whatsThis), widget (KPushButton, changeButton)
 #: rc.cpp:611
 msgid "Change the selected identifier text."
 msgstr "নির্বাচিত পরিচায়কটি পাল্টাও"
 
 #. i18n: file: useragentdlg.ui:205
-#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteButton)
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteButton)
 #: rc.cpp:617
 msgid "Delete the selected identifier text."
 msgstr "নির্বাচিত পরিচায়কটি মুছে ফেলো"
 
 #. i18n: file: useragentdlg.ui:215
-#. i18n: ectx: property (whatsThis), widget (QPushButton, deleteAllButton)
+#. i18n: ectx: property (whatsThis), widget (KPushButton, deleteAllButton)
 #: rc.cpp:623
 msgid "Delete all identifiers."
 msgstr "সবকটি পরিচায়ক মুছে ফেলো।"
@@ -2101,15 +2097,15 @@ msgstr ""
 "জন্য, আপনি করতে হয়ত চাবেন না যে, পাসওয়ার্ডের সঙ্গে এন্ট্রি হিসেবে যেমন হিসেবে "
 "clearly নির্দেশ করা হল।<p>"
 
-#: useragentdlg.cpp:77
+#: useragentdlg.cpp:80
 msgid "Add Identification"
 msgstr "পরিচায়ক যোগ করো"
 
-#: useragentdlg.cpp:151
+#: useragentdlg.cpp:154
 msgid "Modify Identification"
 msgstr "পরিচায়ক পরিবর্তন করো"
 
-#: useragentdlg.cpp:206
+#: useragentdlg.cpp:209
 #, fuzzy, kde-format
 msgid ""
 "<qt><center>Found an existing identification for<br/><b>%1</b><br/>Do you "
@@ -2118,11 +2114,11 @@ msgstr ""
 "<qt><center><b>%1</b>-এর জন্য পাওয়া গেছে একটি বিদ্যমান পরিচয়<br/><br/>এইটি "
 "প্রতিস্থাপন করতে আপনি কি চান?</center></qt>"
 
-#: useragentdlg.cpp:211
+#: useragentdlg.cpp:214
 msgid "Duplicate Identification"
 msgstr "ডুপ্লিকেট পরিচায়ক"
 
-#: useragentdlg.cpp:393
+#: useragentdlg.cpp:396
 #, fuzzy
 msgid ""
 "<p><h1>Browser Identification</h1> The browser-identification module allows "
@@ -2149,6 +2145,9 @@ msgstr ""
 "প্রোটোকল এবং অথবা সুনির্দিষ্ট বিবরণ ব্যবহার করবে।<P><u>নোট:</u>ডায়ালগ বাক্সের একটি "
 "বিশেষ বিভাগে সুনির্দিষ্ট সাহায্য অর্জন করতে, উইন্ডো শিরোনাম বাঁধা দেয়া,ে দ্রুত সাহায্য "
 "বাটনে ক্লিক সহজভাবে তারপরের জন্য বিভাগে ক্লিক যেটি আপনি সাহায্য পেতে চেষ্টা করছেন।"
+
+#~ msgid "&Search:"
+#~ msgstr "&সন্ধান:"
 
 #~ msgid "&Proxy"
 #~ msgstr "প্রক্সি (&প)"
