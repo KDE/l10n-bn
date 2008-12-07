@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-12-05 10:23+0100\n"
+"POT-Creation-Date: 2008-12-07 10:24+0100\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -19,6 +19,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.11.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/scripts/scriptmanager.cpp:122
+#, fuzzy
+msgid "Script Activation"
+msgstr "মেয়া&দ"
 
 #: src/scripts/scriptmanager.cpp:122
 msgid ""
@@ -410,7 +415,7 @@ msgstr "সাবাশ, আপনার উত্তর সঠিক।  %1% �
 
 #. i18n: file: src/configure-practice/configurepracticewidget.ui:38
 #. i18n: ectx: property (text), widget (QRadioButton, MultipleChoiceRadio)
-#: src/practiceold/MCQueryDlg.cpp:42 src/editor/editor.cpp:261 rc.cpp:703
+#: src/practiceold/MCQueryDlg.cpp:42 src/editor/editor.cpp:239 rc.cpp:703
 msgid "Multiple Choice"
 msgstr "নৈব্যক্তিক প্রশ্ন"
 
@@ -525,11 +530,11 @@ msgstr "ক্লী&ব"
 msgid "Image Practice"
 msgstr "পদাশ্রিত নির্দেশক"
 
-#: src/editor/editor.cpp:140
+#: src/editor/editor.cpp:120
 msgid "Lessons"
 msgstr "পাঠ"
 
-#: src/editor/editor.cpp:153
+#: src/editor/editor.cpp:133
 msgid ""
 "Right click to add, delete, or rename lessons. \n"
 "With the checkboxes you can select which lessons you want to practice. \n"
@@ -538,13 +543,13 @@ msgstr ""
 
 #. i18n: file: src/configure-practice/thresholdoptions.ui:160
 #. i18n: ectx: property (text), widget (QTreeWidget, PracticeWordTypesTreeWidget)
-#: src/editor/editor.cpp:168 rc.cpp:633
+#: src/editor/editor.cpp:148 rc.cpp:633
 #, fuzzy
 #| msgid "Word t&ype:"
 msgid "Word Types"
 msgstr "শব্দের &ধরন:"
 
-#: src/editor/editor.cpp:195
+#: src/editor/editor.cpp:175
 #, fuzzy
 #| msgid "Grade Colors"
 msgid "Grade Boxes"
@@ -552,17 +557,17 @@ msgstr "গ্রেডের রং"
 
 #. i18n: file: src/configure-practice/configurepracticewidget.ui:99
 #. i18n: ectx: property (text), widget (QRadioButton, ConjugationRadio)
-#: src/editor/editor.cpp:218 rc.cpp:721
+#: src/editor/editor.cpp:198 rc.cpp:721
 msgid "Conjugation"
 msgstr "ধাতুরূপ"
 
-#: src/editor/editor.cpp:232
+#: src/editor/editor.cpp:212
 #, fuzzy
 #| msgid "abbreviation"
 msgid "Declension"
 msgstr "শব্দসংক্ষেপ"
 
-#: src/editor/editor.cpp:247
+#: src/editor/editor.cpp:226
 #, fuzzy
 #| msgid "&Comparison Forms"
 msgid "Comparison forms"
@@ -570,149 +575,149 @@ msgstr "তুলনার রূ&প"
 
 #. i18n: file: src/entry-dialogs/synonymwidget.ui:16
 #. i18n: ectx: property (text), widget (QLabel, synonymLabel)
-#: src/editor/editor.cpp:273 rc.cpp:847
+#: src/editor/editor.cpp:251 rc.cpp:847
 #, fuzzy
 #| msgid "&Synonyms"
 msgid "Synonyms"
 msgstr "&সমার্থক শব্দ"
 
-#: src/editor/editor.cpp:284
+#: src/editor/editor.cpp:262
 #, fuzzy
 #| msgid "&Antonyms"
 msgid "Antonyms"
 msgstr "বি&পরীত শব্দ"
 
-#: src/editor/editor.cpp:295
+#: src/editor/editor.cpp:273
 #, fuzzy
 #| msgid "&False friend:"
 msgid "False Friends"
 msgstr "নক&ল বন্ধু:"
 
-#: src/editor/editor.cpp:307
+#: src/editor/editor.cpp:285
 msgid "Phonetic Symbols"
 msgstr ""
 
-#: src/editor/editor.cpp:319
+#: src/editor/editor.cpp:297
 #, fuzzy
 #| msgid "&male:\t"
 msgid "Image"
 msgstr "পুরু&ষ:\t"
 
-#: src/editor/editor.cpp:331
+#: src/editor/editor.cpp:309
 #, fuzzy
 #| msgid "Article"
 msgid "Summary"
 msgstr "পদাশ্রিত নির্দেশক"
 
-#: src/editor/editor.cpp:345
+#: src/editor/editor.cpp:323
 #, fuzzy
 #| msgctxt "Describing the sound of the character"
 #| msgid "Sound: "
 msgid "Sound"
 msgstr "উচ্চারণ: "
 
-#: src/editor/editor.cpp:357
+#: src/editor/editor.cpp:335
 #, fuzzy
 #| msgid "Interlingue"
 msgid "Internet"
 msgstr "ইন্টারলিঙ্গুয়া"
 
-#: src/editor/editor.cpp:393
+#: src/editor/editor.cpp:363
 #, fuzzy
 msgid "&Languages..."
 msgstr "আরেকটি ভাষা..."
 
-#: src/editor/editor.cpp:394
+#: src/editor/editor.cpp:364
 msgid ""
 "Edit which languages are in the collection and their grammar properties."
 msgstr ""
 
-#: src/editor/editor.cpp:403
+#: src/editor/editor.cpp:373
 #, fuzzy
 #| msgid "Reset &Grades"
 msgid "Remove Grades"
 msgstr "গ্রে&ড রিসেট করো"
 
-#: src/editor/editor.cpp:405
+#: src/editor/editor.cpp:375
 #, fuzzy
 msgid "Remove all grades from the current document"
 msgstr "শব্দভাণ্ডার থেকে অনুরূপ এন্ট্রি অপসারণ করো"
 
-#: src/editor/editor.cpp:412
+#: src/editor/editor.cpp:382
 #, fuzzy
 msgid "Show Entries from Child Lessons"
 msgstr "পাঠ মধ্যস্থিত এন্ট্রি"
 
-#: src/editor/editor.cpp:414
+#: src/editor/editor.cpp:384
 msgid "Enable to also see the entries of child lessons in each lesson."
 msgstr ""
 
-#: src/editor/editor.cpp:420
+#: src/editor/editor.cpp:390
 #, fuzzy
 msgid "Automatic Translation"
 msgstr "&অনুবাদ"
 
 #. i18n: file: src/settings/parley.kcfg:50
 #. i18n: ectx: label, entry (AutomaticTranslation), group (General)
-#: src/editor/editor.cpp:422 rc.cpp:1328
+#: src/editor/editor.cpp:392 rc.cpp:1328
 msgid "Enable automatic translation of the lesson entries."
 msgstr ""
 
-#: src/editor/editor.cpp:428
+#: src/editor/editor.cpp:398
 #, fuzzy
 #| msgid "Starting special query..."
 msgid "Start Practice..."
 msgstr "বিশেষ অনুসন্ধান আরম্ভ করা হচ্ছে..."
 
-#: src/editor/editor.cpp:430
+#: src/editor/editor.cpp:400
 #, fuzzy
 #| msgid "Starting Query"
 msgid "Start a test"
 msgstr "অনুসন্ধান আরম্ভ করা হচ্ছে"
 
-#: src/editor/editor.cpp:439
+#: src/editor/editor.cpp:409
 #, fuzzy
 #| msgid "Starts training with articles"
 msgid "Configure Practice..."
 msgstr "পদাশ্রিত নির্দেশকের প্রশিক্ষণ আরম্ভ করে"
 
-#: src/editor/editor.cpp:441
+#: src/editor/editor.cpp:411
 #, fuzzy
 #| msgid "View Settings"
 msgid "Change practice settings"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
-#: src/editor/editor.cpp:450
+#: src/editor/editor.cpp:420
 #, fuzzy
 msgid "&Statistics..."
 msgstr "&পরিসংখ্যান দেখাও"
 
-#: src/editor/editor.cpp:452
+#: src/editor/editor.cpp:422
 #, fuzzy
 msgid "Show and reset statistics for the current collection"
 msgstr "বর্তমান শব্দভাণ্ডারের ওপর পরিসংখ্যান দেখাও"
 
-#: src/editor/editor.cpp:458
+#: src/editor/editor.cpp:428
 #, fuzzy
 msgid "Show Se&arch"
 msgstr "বুদ্ধিমান অনুসন্ধান"
 
-#: src/editor/editor.cpp:460
+#: src/editor/editor.cpp:430
 #, fuzzy
 msgid "Toggle display of the search bar"
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
-#: src/editor/editor.cpp:482
+#: src/editor/editor.cpp:442
 #, fuzzy
 #| msgid "Languages"
 msgid "&Script Manager"
 msgstr "ভাষা"
 
-#: src/editor/editor.cpp:519
+#: src/editor/editor.cpp:477
 msgid "Enter search terms here"
 msgstr ""
 
-#: src/editor/editor.cpp:523
+#: src/editor/editor.cpp:481
 #, fuzzy
 msgid "S&earch:"
 msgstr "&মন্তব্য:"
@@ -1591,32 +1596,32 @@ msgstr ""
 msgid "View Settings"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
-#: src/settings/languagepropertiespage.cpp:73
-msgid "No icon"
-msgstr ""
-
-#: src/settings/languagepropertiespage.cpp:83
+#: src/settings/languagepropertiespage.cpp:78
 msgid "without name"
 msgstr "নামহীন"
 
-#: src/settings/languagepropertiespage.cpp:362
-#: src/settings/languagepropertiespage.cpp:384
+#: src/settings/languagepropertiespage.cpp:89
+msgid "No icon"
+msgstr ""
+
+#: src/settings/languagepropertiespage.cpp:364
+#: src/settings/languagepropertiespage.cpp:386
 msgid "Tense Description"
 msgstr "কালের বিবরণ"
 
-#: src/settings/languagepropertiespage.cpp:362
-#: src/settings/languagepropertiespage.cpp:384
+#: src/settings/languagepropertiespage.cpp:364
+#: src/settings/languagepropertiespage.cpp:386
 msgid "Enter tense description:"
 msgstr "কালের বিবরণ লিখুন:"
 
-#: src/settings/languagepropertiespage.cpp:413
+#: src/settings/languagepropertiespage.cpp:415
 #, fuzzy
 msgid ""
 "The selected user defined tense could not be deleted\n"
 "because it is in use."
 msgstr "ব্যবহারকারী নির্ধারিত এই কাল এ মুহূর্তে ব্যবহৃত হচ্ছে বলে মোছা যাচ্ছে না।"
 
-#: src/settings/languagepropertiespage.cpp:413
+#: src/settings/languagepropertiespage.cpp:415
 msgid "Deleting Tense Description"
 msgstr "কালের বিবরণ মোছা হচ্ছে"
 
