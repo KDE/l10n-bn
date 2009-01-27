@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kscd\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2008-10-22 10:39+0200\n"
+"POT-Creation-Date: 2009-01-27 08:26+0100\n"
 "PO-Revision-Date: 2006-02-05 19:55-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -21,265 +21,398 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kscd.cpp:41
-msgid "KDE CD player"
-msgstr "কে-ডি-ই সিডি প্লেয়ার"
+#: cddbdlg.cpp:27
+msgid "CD Editor"
+msgstr "সিডি সম্পাদক"
 
-#: kscd.cpp:89 kscd.cpp:90
-#, fuzzy
-#| msgid "Configure &Global Shortcuts..."
-msgid "Configure Shortcuts..."
-msgstr "গ্লোবা&ল শর্টকাট কনফিগার করো..."
-
-#: kscd.cpp:99 kscd.cpp:100
-msgid "Configure..."
-msgstr ""
-
-#: kscd.cpp:105 kscd.cpp:106
-msgid "Download Info"
-msgstr ""
-
-#: kscd.cpp:112
+#: cddbdlg.cpp:32
 #, fuzzy
 #| msgid "Upload"
-msgid "Upload Info"
+msgid "Upload"
 msgstr "আপলোড"
 
-#: kscd.cpp:118
+#: cddbdlg.cpp:33
+msgid "Fetch Info"
+msgstr "তথ্য আনো"
+
+#: cddbdlg.cpp:68
+msgid "Record submitted successfully."
+msgstr "রেকর্ড দাখিল করা সফল।"
+
+#: cddbdlg.cpp:69 cddbdlg.cpp:75
+msgid "Record Submission"
+msgstr "রেকর্ড দাখিল"
+
+#: cddbdlg.cpp:73
+#, kde-format
+msgid ""
+"Error sending record.\n"
+"\n"
+"%1"
+msgstr ""
+"রেকর্ড দাখিল করাকালীন সমস্যা।\n"
+"\n"
+"%1"
+
+#: cddbdlg.cpp:104
+msgid ""
+"The artist name of the disc has to be entered.\n"
+"Please correct the entry and try again."
+msgstr ""
+"ডিস্ক-এর শিল্পীর নাম সরবরাহ করা প্রয়োজন।\n"
+"অনুগ্রহ করে এন্ট্রি-টি সংশোধন করে আবার চেষ্টা করুন।"
+
+#: cddbdlg.cpp:106 cddbdlg.cpp:115 cddbdlg.cpp:134
+msgid "Invalid Database Entry"
+msgstr "অবৈধ ডেটাবেস এন্ট্রি"
+
+#: cddbdlg.cpp:113
+msgid ""
+"The title of the disc has to be entered.\n"
+"Please correct the entry and try again."
+msgstr ""
+"ডিস্ক-এর শিরোনাম সরবরাহ করা প্রয়োজন।\n"
+"অনুগ্রহ করে এন্ট্রি-টি সংশোধন করে আবার চেষ্টা করুন।"
+
+#: cddbdlg.cpp:132
+msgid ""
+"At least one track title must be entered.\n"
+"Please correct the entry and try again."
+msgstr ""
+"অন্তত একটি ট্র্যাক শিরোনাম সরবরাহ করা প্রয়োজন।\n"
+"অনুগ্রহ করে এন্ট্রি-টি সংশোধন করে আবার চেষ্টা করুন।"
+
+#: docking.cpp:47 kscd.cpp:135
 msgid "Play/Pause"
 msgstr "চালাও/বিরত রাখো"
 
-#: kscd.cpp:125
+#. i18n: file: panel.ui:456
+#. i18n: ectx: property (text), widget (QPushButton, stopPB)
+#: docking.cpp:48 kscd.cpp:139 rc.cpp:211
 #, fuzzy
 msgid "Stop"
 msgstr "স্থগিত"
 
-#: kscd.cpp:132
+#: docking.cpp:49 kscd.cpp:148
 #, fuzzy
 #| msgid "Next"
-msgctxt "This action allow user to pass to the following track"
 msgid "Next"
 msgstr "পরবর্তী"
 
-#: kscd.cpp:139
+#: docking.cpp:50 kscd.cpp:143
 #, fuzzy
 #| msgid "Previous"
-msgctxt "This action allow the user to pass to the preceding track"
 msgid "Previous"
 msgstr "পূর্ববর্তী"
 
-#: kscd.cpp:146
+#: docking.cpp:51 kscd.cpp:160
 #, fuzzy
 #| msgid "Eject"
-msgctxt " This action allow to eject the inserted disc"
 msgid "Eject"
 msgstr "বহিষ্কার করো"
 
-#: kscd.cpp:153
-#, fuzzy
-#| msgid "Volume control"
-msgid "Volume Up"
-msgstr "ভলিউম নিয়ন্ত্রণ"
+#: kscd.cpp:60
+msgid "KDE CD player"
+msgstr "কে-ডি-ই সিডি প্লেয়ার"
 
-#: kscd.cpp:160
-#, fuzzy
-#| msgid "Volume control"
-msgid "Volume Down"
-msgstr "ভলিউম নিয়ন্ত্রণ"
-
-#: kscd.cpp:167
-#, fuzzy
-#| msgid "Random"
-msgctxt "This action allow the user to listen a random track list"
-msgid "Random"
-msgstr "এলোমেলো"
-
-#: kscd.cpp:174
-msgid "Repeat Track"
-msgstr ""
-
-#: kscd.cpp:181
-msgid "Repeat Album"
-msgstr ""
-
-#: kscd.cpp:188
+#: kscd.cpp:127
 #, fuzzy
 #| msgid "Track list"
-msgid "Show Tracklist"
+msgid "Track list"
 msgstr "ট্র্যাক তালিকা"
 
-#: kscd.cpp:194
-msgid "Mute/Unmute"
+#. i18n: file: panel.ui:485
+#. i18n: ectx: property (text), widget (QPushButton, repeatPB)
+#: kscd.cpp:158 rc.cpp:217
+msgid "Loop"
+msgstr "লুপ"
+
+#: kscd.cpp:162
+msgid "Increase Volume"
+msgstr "ভলিউম বাড়াও"
+
+#: kscd.cpp:166
+msgid "Decrease Volume"
+msgstr "ভলিউম কমাও"
+
+#: kscd.cpp:170
+msgid "Options"
 msgstr ""
 
-#: kscd.cpp:200
-msgid "Minimize"
+#: kscd.cpp:172
+msgid "Shuffle"
+msgstr "শাফল করো"
+
+#: kscd.cpp:176
+msgid "CDDB"
+msgstr "CDDB"
+
+#: kscd.cpp:249
+msgid "Artist Information"
+msgstr "শিল্পী তথ্য"
+
+#: kscd.cpp:404
+msgid "CD Drive (you must stop playing to change this)"
+msgstr "সিডি ড্রাইভ (এটি পরিবর্তন করতে হলে প্লেয়ার থামানো প্রয়োজন)"
+
+#: kscd.cpp:427
+msgid "CD Player"
+msgstr "সিডি প্লেয়ার"
+
+#: kscd.cpp:427
+msgid "Settings & Behavior"
+msgstr "সেটিংস এবং আচরণ"
+
+#: kscd.cpp:442
+msgid "Configure Fetching Items"
+msgstr "বস্তু নিয়ে আসা কনফিগার করো"
+
+#: kscd.cpp:503
+#, fuzzy, kde-format
+msgid ""
+"CD-ROM access error (or error in startup of audio system).\n"
+"Please make sure you have access permissions to cdrom device:\n"
+"device '%1'(%2), audio system '%3'"
+msgstr ""
+"CD-ROM অথবা উপলব্ধি করা ত্রুটি পড়ল (অথবা চালায়ে কোনও অডিও ডিস্ক না)।\n"
+"দয়া করে তৈরী করুন নিশ্চিত আপনার আছে তে উপলব্ধি করা অনুমতি:\n"
+"%1"
+
+#: kscd.cpp:507
+#, fuzzy
+msgid "Error"
+msgstr "CDDA ত্রুটি"
+
+#: kscd.cpp:664 kscd.cpp:852
+msgid "Start freedb lookup."
+msgstr "ফ্রী-ডিবি লুক-আপ আরম্ভ করো।"
+
+#: kscd.cpp:679
+msgid "No matching freedb entry found."
+msgstr "ফ্রী-ডিবিতে কোনও মিল পাওয়া যায়নি।"
+
+#: kscd.cpp:680
+msgid "Error getting freedb entry."
+msgstr "ফ্রী-ডিবি এন্ট্রি আনাকালীন সমস্যা।"
+
+#: kscd.cpp:703
+msgid "Select CDDB Entry"
+msgstr "CDDB এন্ট্রি নির্বাচন করুন"
+
+#: kscd.cpp:704
+msgid "Select a CDDB entry:"
+msgstr "একটি CDDB এন্ট্রি নির্বাচন করুন:"
+
+#: kscd.cpp:886 kscd.cpp:900
+msgid "Play"
+msgstr "চালাও"
+
+#: kscd.cpp:895
+msgid "Pause"
+msgstr "বিরত রাখো"
+
+#: kscd.cpp:934
+#, kde-format
+msgid "Current track: %1"
+msgstr "বর্তমান ট্র্যাক: %1"
+
+#: kscd.cpp:980
+msgid "Tra Rem"
 msgstr ""
 
-#: kscd.cpp:482 kscd.cpp:532 kscd.cpp:566
-msgid "No disc"
-msgstr "কোনও ডিস্ক নেই"
-
-#: kscd.cpp:486 kscd.cpp:536 kscd.cpp:570
-msgid "Invalid disc"
+#: kscd.cpp:984
+msgid "Tot Sec"
 msgstr ""
 
-#: kscd.cpp:747 kscd.cpp:764
-msgctxt "General option in the configuration dialog"
-msgid "General"
+#: kscd.cpp:988
+msgid "Tot Rem"
 msgstr ""
 
-#: kscd.cpp:748
-msgid "Show"
+#: kscd.cpp:993
+#, fuzzy
+#| msgid "Track %1"
+msgid "Tra Sec"
+msgstr "ট্র্যাক %1"
+
+#: kscd.cpp:1003
+#, fuzzy, kde-format
+msgid "Vol: %1%"
+msgstr "ভলিউম: %02d%%"
+
+#: kscd.cpp:1035
+msgid "NO DISC"
 msgstr ""
 
-#: kscd.cpp:754 kscd.cpp:759
-msgid "Settings"
-msgstr ""
-
-#: kscd.cpp:778
-msgid "Appearance"
-msgstr ""
-
-#: kscd.cpp:821
+#. i18n: file: panel.ui:19
+#. i18n: ectx: property (windowTitle), widget (QWidget, kscdPanelDlg)
+#: kscd.cpp:1221 rc.cpp:157
 msgid "KsCD"
 msgstr ""
 
-#: kscd.cpp:824
+#: kscd.cpp:1224
 msgid ""
 "(c) 2001, Dirk Försterling\n"
 "(c) 2003, Aaron J. Seigo"
 msgstr ""
 
-#: kscd.cpp:825
-msgid "Amine Bouchikhi"
-msgstr ""
-
-#: kscd.cpp:825
-msgid "Current maintainer, Solid/Phonon Upgrade, QDBus connection"
-msgstr ""
-
-#: kscd.cpp:826
+#: kscd.cpp:1225
 msgid "Aaron J. Seigo"
 msgstr ""
 
-#: kscd.cpp:826
+#: kscd.cpp:1225
 #, fuzzy
 #| msgid "Current maintainer"
-msgid "Previous maintainer"
+msgid "Current maintainer"
 msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
 
-#: kscd.cpp:827
+#: kscd.cpp:1226
 msgid "Alexander Kern"
 msgstr ""
 
-#: kscd.cpp:827
+#: kscd.cpp:1226
 msgid "Workman library update, CDTEXT, CDDA"
 msgstr "Workman library update, CDTEXT, CDDA"
 
-#: kscd.cpp:828
+#: kscd.cpp:1227
 msgid "Bernd Johannes Wuebben"
 msgstr ""
 
-#: kscd.cpp:829
+#: kscd.cpp:1228
 msgid "Dirk Försterling"
 msgstr ""
 
-#: kscd.cpp:829
+#: kscd.cpp:1228
 msgid "Workman library, previous maintainer"
 msgstr "Workman library, পূর্বতন রক্ষণাবেক্ষণকারী"
 
-#: kscd.cpp:830
+#: kscd.cpp:1229
 msgid "Wilfried Huss"
 msgstr ""
 
-#: kscd.cpp:830
+#: kscd.cpp:1229
 msgid "Patches galore"
 msgstr "Patches galore"
 
-#: kscd.cpp:831
+#: kscd.cpp:1230
 msgid "Steven Grimm"
 msgstr ""
 
-#: kscd.cpp:831
+#: kscd.cpp:1230
 msgid "Workman library"
 msgstr "Workman library"
 
-#: kscd.cpp:832
+#: kscd.cpp:1231
 msgid "Sven Lueppken"
 msgstr ""
 
-#: kscd.cpp:832
+#: kscd.cpp:1231
 msgid "UI Work"
 msgstr "UI Work"
 
-#: kscd.cpp:833
+#: kscd.cpp:1232
 msgid "freedb.org"
 msgstr ""
 
-#: kscd.cpp:833
+#: kscd.cpp:1232
 #, fuzzy
 msgid "Special thanks to freedb.org for providing a free CDDB-like CD database"
 msgstr ""
 "Special thanks to freedb.org for providing a free CDDB-like CD database"
 
-#: kscd.cpp:839
+#: kscd.cpp:1238
 msgid "Start playing"
 msgstr "আরম্ভ করো"
 
-#: mbmanager.cpp:139
+#: kscd.cpp:1239
+msgid "CD device, can be a path or a media:/ URL"
+msgstr "সিডি ডিভাইস, একটি পাথ অথবা একটি media:/ ইউ.আর.এল"
+
+#. i18n: file: configWidgetUI.ui:34
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: rc.cpp:3
+msgid "Interface"
+msgstr "ইন্টারফেস"
+
+#. i18n: file: configWidgetUI.ui:40
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
+#: rc.cpp:6
 #, fuzzy
-#| msgid "Unknown"
-msgid "Unknown album"
-msgstr "অজানা"
+msgid "LCD &font:"
+msgstr "LCD &ফন্ট:"
 
-#: mbmanager.cpp:140
+#. i18n: file: configWidgetUI.ui:63
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:9
 #, fuzzy
-#| msgid "Unknown Artist"
-msgid "Unknown artist"
-msgstr "অজানা শিল্পী"
+msgid "&LCD color:"
+msgstr "&LCD রং:"
 
-#: mbmanager.cpp:147
+#. i18n: file: configWidgetUI.ui:76
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_ledColor)
+#. i18n: file: kscd.kcfg:72
+#. i18n: ectx: label, entry (ledColor), group (GENERAL)
+#: rc.cpp:12 rc.cpp:142
 #, fuzzy
-#| msgid "Unknown Title"
-msgid "Unknown title"
-msgstr "অজানা শিরোনাম"
+msgid "The foreground color that will be used in the LCD display."
+msgstr "পটভূমি রং যে LCD প্রদর্শন করার জন্য ব্যবহার করা হবে।"
 
-#. i18n: file: generalSettings.ui:18
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EjectOnFinish)
-#: rc.cpp:3 rc.cpp:71
-#, fuzzy
-#| msgid "&Eject CD when finished playing"
-msgid "Eject CD when finished playing"
-msgstr "সিডি শেষ হলে &বহিষ্কার করো"
-
-#. i18n: file: interfaceSettings.ui:37
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:6 rc.cpp:74
-msgid "Text Font:"
-msgstr ""
-
-#. i18n: file: interfaceSettings.ui:54
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:9 rc.cpp:77
-msgid "Text Color:"
-msgstr ""
-
-#. i18n: file: interfaceSettings.ui:64
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:12 rc.cpp:80
-msgid "URL :"
-msgstr ""
-
-#. i18n: file: kscd.kcfg:12
-#. i18n: ectx: label, entry (Autoplay), group (General)
+#. i18n: file: configWidgetUI.ui:99
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: rc.cpp:15
-msgid "Start playing when a CD is inserted."
-msgstr "একটি সিডি ঢোকানো হলে চালানো শুরু করো।"
+msgid "&Background color:"
+msgstr "&পটভূমির রং:"
 
-#. i18n: file: kscd.kcfg:13
-#. i18n: ectx: whatsthis, entry (Autoplay), group (General)
-#: rc.cpp:18
+#. i18n: file: configWidgetUI.ui:112
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_BackColor)
+#. i18n: file: kscd.kcfg:80
+#. i18n: ectx: label, entry (BackColor), group (GENERAL)
+#: rc.cpp:18 rc.cpp:148
+#, fuzzy
+msgid "The background color that will be used for the LCD display."
+msgstr "পটভূমি রং যে LCD প্রদর্শন করার জন্য ব্যবহার করা হবে।"
+
+#. i18n: file: configWidgetUI.ui:119
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Docking)
+#. i18n: file: kscd.kcfg:22
+#. i18n: ectx: whatsthis, entry (Docking), group (GENERAL)
+#: rc.cpp:21 rc.cpp:115
+#, fuzzy
+msgid ""
+"When this option is selected an icon will appear in the system tray. Note "
+"that KsCD will <i>not</i> quit when the window is closed if a system tray "
+"icon is displayed. You may quit KsCD by clicking the Quit button or right-"
+"clicking on the system tray icon and selecting the appropriate entry."
+msgstr ""
+"যখন এই অপশনটি নির্বাচন করা হল একটি আইকন সিস্টেম ট্রেতে আবির্ভূত হবে। নোট যে "
+"KsCD<i>না</i>প্রস্থান করুন যখন উইন্ডো বন্ধ করা হল যদি একটি সিস্টেম ট্রে আইকন প্রদর্শন "
+"করা হল। আপনি প্রস্থান করা বাটন ক্লিক করার মধ্যে KsCD হয়ত প্রস্থান করবেন অথবা "
+"সিস্টেম ট্রে আইকনে right-clicking এবং selecting উপযুক্ত এন্ট্রি।"
+
+#. i18n: file: configWidgetUI.ui:122
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Docking)
+#: rc.cpp:24
+msgid "Show icon in &system tray"
+msgstr "সিস্টেম ট্রে-তে &আইকন দেখাও"
+
+#. i18n: file: configWidgetUI.ui:132
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_TrackAnnouncement)
+#: rc.cpp:27
+msgid "Show &track announcement"
+msgstr "ট্র্যা&ক ঘোষণা করো"
+
+#. i18n: file: configWidgetUI.ui:142
+#. i18n: ectx: property (title), widget (QGroupBox, buttonGroup1)
+#: rc.cpp:30
+#, fuzzy
+#| msgid "Playing"
+msgid "Play Options"
+msgstr "চলছে"
+
+#. i18n: file: configWidgetUI.ui:148
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_Autoplay)
+#. i18n: file: kscd.kcfg:30
+#. i18n: ectx: whatsthis, entry (Autoplay), group (GENERAL)
+#: rc.cpp:33 rc.cpp:121
 #, fuzzy
 msgid ""
 "When this option is selected the CD will start playing automatically upon "
@@ -288,15 +421,17 @@ msgstr ""
 "যখন এই অপশনটি নির্বাচন করা হল সিডি CD-ROMএর দিকে inserted হওয়ার ওপর playing "
 "স্বয়ংক্রীয়ভাবে আরম্ভ করবে।"
 
-#. i18n: file: kscd.kcfg:17
-#. i18n: ectx: label, entry (EjectOnFinish), group (General)
-#: rc.cpp:21
-msgid "Eject CD when playing is finished."
-msgstr "চালানো শেষ হবার পর সিডি বের করে দাও।"
+#. i18n: file: configWidgetUI.ui:151
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_Autoplay)
+#: rc.cpp:36
+msgid "Auto&play when CD inserted"
+msgstr "সিডি ঢোকালে নিজে থেকে চালা&ও"
 
-#. i18n: file: kscd.kcfg:18
-#. i18n: ectx: whatsthis, entry (EjectOnFinish), group (General)
-#: rc.cpp:24
+#. i18n: file: configWidgetUI.ui:158
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_EjectOnFinish)
+#. i18n: file: kscd.kcfg:35
+#. i18n: ectx: whatsthis, entry (EjectOnFinish), group (GENERAL)
+#: rc.cpp:39 rc.cpp:127
 #, fuzzy
 msgid ""
 "When this option is selected the CD will automatically eject when it is "
@@ -305,110 +440,412 @@ msgstr ""
 "যখন এই অপশনটি নির্বাচন করা হল সিডি স্বয়ংক্রীয়ভাবে বের করে দেবে যখন এইটি শেষ করা "
 "হল।"
 
-#. i18n: file: kscd.kcfg:24
-#. i18n: ectx: label, entry (TextColor), group (Appearance)
-#: rc.cpp:27
+#. i18n: file: configWidgetUI.ui:161
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EjectOnFinish)
+#: rc.cpp:42
 #, fuzzy
-msgid "The text color that will be used in the panel."
-msgstr "পুরোভূমি রং যে LCD প্রদর্শন করাতে ব্যবহার করা হবে।"
+#| msgid "&Eject CD when finished playing"
+msgid "&Eject CD when finished playing"
+msgstr "সিডি শেষ হলে &বহিষ্কার করো"
 
-#. i18n: file: kscd.kcfg:25
-#. i18n: ectx: whatsthis, entry (TextColor), group (Appearance)
-#: rc.cpp:30
-msgid "Change the color of the text in the panel"
+#. i18n: file: configWidgetUI.ui:171
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
+#: rc.cpp:45
+msgid "CD-ROM &Device"
+msgstr "সিডি-&রম ডিভাইস"
+
+#. i18n: file: configWidgetUI.ui:183
+#. i18n: ectx: property (whatsThis), widget (CDComboBox, kcfg_CdDevice)
+#: rc.cpp:48
+#, fuzzy
+msgid ""
+"The CD-ROM device to use when playing CDs. This will typically look "
+"something like \"/dev/cdrom\". To have KsCD autodetect your CD-ROM, leave "
+"this field empty."
 msgstr ""
+"ব্যবহার করতে CD-ROM ডিভাইস যখন playing সিডি। এইটি\"/dev/cdrom\"এর মত কিছু "
+"জিনিষ typically দেখবে। KsCD থাকতে আপনার CD-ROM autodetectয়, এই ক্ষেত্রেটি ফাঁকা "
+"ছেড়ে চলে যায়।"
+
+#. i18n: file: configWidgetUI.ui:193
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_DigitalPlayback)
+#: rc.cpp:51
+#, fuzzy
+msgid ""
+"When this option is selected KsCD will attempt to play the CD using direct "
+"digital playback. This option is useful if the CD-ROM is not connected "
+"directly to the sound output on the computer. Note that digital playback "
+"consumes more system resources than the normal method of playback."
+msgstr ""
+"যখন এই অপশনটি নির্বাচন করা হল KsCD সিডি ব্যবহার করে সরাসরি ডিজিট্যাল playback "
+"খেলতে পেতে চেষ্টা করবে। এই অপশনটি কার্যকর যদি CD-ROM কম্পিউটারে শব্দ আউটপুটে "
+"সরাসরিভাবে সংযোগ করা হল না। নোট যে ডিজিট্যাল playback playbackএর স্বাভাবিক "
+"পন্থার চেয়ে আরও বেশি সিস্টেম সম্পদ consumeয়।"
+
+#. i18n: file: configWidgetUI.ui:196
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DigitalPlayback)
+#: rc.cpp:54
+msgid "&Use direct digital playback"
+msgstr "সরা&সরি ডিজিট্যাল প্লেব্যাক ব্যবহার করো"
+
+#. i18n: file: configWidgetUI.ui:206
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:57
+msgid "Select &audio backend:"
+msgstr "অডি&ও ব্যাক-এন্ড বেছে নিন:"
+
+#. i18n: file: configWidgetUI.ui:235
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:60
+msgid "Select audio de&vice:"
+msgstr "&অডিও ডিভাইস বেছে নিন:"
+
+#. i18n: file: configWidgetUI.ui:264
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox9)
+#: rc.cpp:63
+msgid " Music Information Services "
+msgstr " সঙ্গীত তথ্য সেবা"
+
+#. i18n: file: configWidgetUI.ui:270
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_SelectEncoding)
+#. i18n: file: kscd.kcfg:85
+#. i18n: ectx: whatsthis, entry (SelectEncoding), group (GENERAL)
+#: rc.cpp:66 rc.cpp:154
+#, fuzzy
+msgid ""
+"When this option is selected, you have the ability to select encoding for "
+"the results of a CDDB request. The standard describes CDDB results as being "
+"strictly Latin1. This is not true, as non-English speaking users often use "
+"other 8-bit encodings."
+msgstr ""
+"যখন এই অপশনটি নির্বাচন করা হল, আপনার আছে একটি CDDB অনুরোধের ফলাফলের জন্য "
+"এনকোডিং নির্বাচন করতে ক্ষমতা। প্রমাণ strictly Latin1 হওয়া হিসেবে CDDB ফলাফল "
+"বর্ণনা করে। এইটি সত্যি না, non-English speaking ব্যবহারকারী হিসেবে অন্যান্য 8-bit "
+"encodings প্রায়শই ব্যবহার করে।"
+
+#. i18n: file: configWidgetUI.ui:273
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SelectEncoding)
+#: rc.cpp:69
+msgid "Allow en&coding selection:"
+msgstr "&এনকোডিং নির্বাচন অনুমোদন করো:"
+
+#. i18n: file: configWidgetUI.ui:287
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:72
+msgid "AUTO"
+msgstr "AUTO"
+
+#. i18n: file: configWidgetUI.ui:292
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:75
+msgid "UTF-8"
+msgstr "UTF-8"
+
+#. i18n: file: configWidgetUI.ui:297
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:78
+msgid "CP1250"
+msgstr "CP1250"
+
+#. i18n: file: configWidgetUI.ui:302
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:81
+msgid "CP1251"
+msgstr "CP1251"
+
+#. i18n: file: configWidgetUI.ui:307
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:84
+msgid "CP1252"
+msgstr "CP1252"
+
+#. i18n: file: configWidgetUI.ui:312
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:87
+msgid "CP1253"
+msgstr "CP1253"
+
+#. i18n: file: configWidgetUI.ui:317
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:90
+msgid "CP1254"
+msgstr "CP1254"
+
+#. i18n: file: configWidgetUI.ui:322
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:93
+msgid "CP1255"
+msgstr "CP1255"
+
+#. i18n: file: configWidgetUI.ui:327
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:96
+msgid "CP1256"
+msgstr "CP1256"
+
+#. i18n: file: configWidgetUI.ui:332
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_SelectedEncoding)
+#: rc.cpp:99
+msgid "CP1257"
+msgstr "CP1257"
+
+#. i18n: file: kscd.kcfg:11
+#. i18n: ectx: label, entry (Volume), group (GENERAL)
+#: rc.cpp:102
+msgid "Output Volume"
+msgstr "আউটপুট ভলিউম"
+
+#. i18n: file: kscd.kcfg:15
+#. i18n: ectx: label, entry (RandomPlay), group (GENERAL)
+#: rc.cpp:105
+msgid "Play random tracks."
+msgstr "এলোমেলো ক্রমে ট্র্যাক চালাও।"
+
+#. i18n: file: kscd.kcfg:17
+#. i18n: ectx: whatsthis, entry (RandomPlay), group (GENERAL)
+#: rc.cpp:108
+#, fuzzy
+msgid ""
+"When this option is selected the playing order\n"
+"            of the CD tracks is chosen at random."
+msgstr ""
+"যখন এই অপশনটি নির্বাচন করা হল সিডির playing ধারা\n"
+"ট্র্যাকয় এলোমেলোতে বেছে নেওয়া হল।"
+
+#. i18n: file: kscd.kcfg:21
+#. i18n: ectx: label, entry (Docking), group (GENERAL)
+#: rc.cpp:112
+msgid "Show an icon in the system tray."
+msgstr "সিস্টেম ট্রে-তে একটি আইকন প্রদর্শন করো।"
 
 #. i18n: file: kscd.kcfg:29
-#. i18n: ectx: label, entry (TextFont), group (Appearance)
-#: rc.cpp:33
-#, fuzzy
-msgid "The font that will be used for the panel."
-msgstr "ফন্ট যে LCD প্রদর্শন করার জন্য ব্যবহার করা হবে।"
-
-#. i18n: file: kscd.kcfg:30
-#. i18n: ectx: whatsthis, entry (TextFont), group (Appearance)
-#: rc.cpp:36
-msgid "Change the font of the text in the panel"
-msgstr ""
+#. i18n: ectx: label, entry (Autoplay), group (GENERAL)
+#: rc.cpp:118
+msgid "Start playing when a CD is inserted."
+msgstr "একটি সিডি ঢোকানো হলে চালানো শুরু করো।"
 
 #. i18n: file: kscd.kcfg:34
-#. i18n: ectx: label, entry (url), group (Appearance)
-#: rc.cpp:39
+#. i18n: ectx: label, entry (EjectOnFinish), group (GENERAL)
+#: rc.cpp:124
+msgid "Eject CD when playing is finished."
+msgstr "চালানো শেষ হবার পর সিডি বের করে দাও।"
+
+#. i18n: file: kscd.kcfg:39
+#. i18n: ectx: label, entry (Looping), group (GENERAL)
+#: rc.cpp:130
+msgid "Loop tracks."
+msgstr "ট্র্যাক বারবার চালাও।"
+
+#. i18n: file: kscd.kcfg:64
+#. i18n: ectx: label, entry (AudioDevice), group (GENERAL)
+#: rc.cpp:133
 #, fuzzy
-msgid "The skin that will be use for the application"
+msgid "The audio device KsCD uses."
+msgstr "অডিও ডিভাইস KsCD ব্যবহার করে।"
+
+#. i18n: file: kscd.kcfg:67
+#. i18n: ectx: label, entry (DigitalPlayback), group (GENERAL)
+#: rc.cpp:136
+msgid "Use direct digital playback."
+msgstr "সরাসরি ডিজিট্যাল প্লে-ব্যাক ব্যবহার করো।"
+
+#. i18n: file: kscd.kcfg:68
+#. i18n: ectx: whatsthis, entry (DigitalPlayback), group (GENERAL)
+#: rc.cpp:139
+#, fuzzy
+msgid ""
+"When this option is selected KsCD will attempt to play the CD using direct "
+"digital playback. This option is useful if the CD-ROM is not connected "
+"directly to the sound output on the computer. Note that digital playback is "
+"slower than the normal method of playback."
+msgstr ""
+"যখন এই অপশনটি নির্বাচন করা হল KsCD সিডি ব্যবহার করে সরাসরি ডিজিট্যাল playback "
+"খেলতে পেতে চেষ্টা করবে। এই অপশনটি কার্যকর যদি CD-ROM কম্পিউটারে শব্দ আউটপুটে "
+"সরাসরিভাবে সংযোগ করা হল না। নোট যে ডিজিট্যাল playback playbackএর স্বাভাবিক "
+"পন্থার চেয়ে slower।"
+
+#. i18n: file: kscd.kcfg:76
+#. i18n: ectx: label, entry (ledFont), group (GENERAL)
+#: rc.cpp:145
+#, fuzzy
+msgid "The font that will be used for the LCD display."
 msgstr "ফন্ট যে LCD প্রদর্শন করার জন্য ব্যবহার করা হবে।"
 
-#. i18n: file: kscd.kcfg:35
-#. i18n: ectx: whatsthis, entry (url), group (Appearance)
-#: rc.cpp:42
-msgid "Change the skin of the application"
+#. i18n: file: kscd.kcfg:84
+#. i18n: ectx: label, entry (SelectEncoding), group (GENERAL)
+#: rc.cpp:151
+msgid "Allow encoding selection."
+msgstr "এনকোডিং নির্বাচন করা অনুমোদন করো।"
+
+#. i18n: file: panel.ui:62
+#. i18n: ectx: property (toolTip), widget (QLabel, timeIcon)
+#. i18n: file: panel.ui:81
+#. i18n: ectx: property (toolTip), widget (QSlider, timeSlider)
+#: rc.cpp:160 rc.cpp:163
+msgid "Track progress"
+msgstr "ট্র্যাক অগ্রগতি"
+
+#. i18n: file: panel.ui:110
+#. i18n: ectx: property (toolTip), widget (QLabel, volumeIcon)
+#. i18n: file: panel.ui:120
+#. i18n: ectx: property (toolTip), widget (QSlider, volumeSlider)
+#: rc.cpp:166 rc.cpp:169
+#, fuzzy
+#| msgid "Volume control"
+msgid "Volume control"
+msgstr "ভলিউম নিয়ন্ত্রণ"
+
+#. i18n: file: panel.ui:161
+#. i18n: ectx: property (text), widget (QPushButton, ejectPB)
+#: rc.cpp:172
+msgid "E&ject"
+msgstr "&বহিষ্কার করো"
+
+#. i18n: file: panel.ui:298
+#. i18n: ectx: property (text), widget (QLabel, randomled)
+#: rc.cpp:175
+msgid "?"
 msgstr ""
 
-#: rc.cpp:43
+#. i18n: file: panel.ui:314
+#. i18n: ectx: property (text), widget (QLabel, loopled)
+#: rc.cpp:178
+msgid "@"
+msgstr ""
+
+#. i18n: file: panel.ui:335
+#. i18n: ectx: property (text), widget (QLabel, queryled)
+#: rc.cpp:181
+msgid "cddb"
+msgstr ""
+
+#. i18n: file: panel.ui:347
+#. i18n: ectx: property (text), widget (QLabel, statuslabel)
+#: rc.cpp:184
+#, fuzzy
+#| msgid "Status"
+msgid "status"
+msgstr "অবস্থা"
+
+#. i18n: file: panel.ui:357
+#. i18n: ectx: property (text), widget (QLabel, totaltimelabel)
+#: rc.cpp:187
+msgid "total time"
+msgstr ""
+
+#. i18n: file: panel.ui:367
+#. i18n: ectx: property (text), widget (QLabel, volumelabel)
+#: rc.cpp:190
+#, fuzzy
+#| msgid "Volume control"
+msgid "volume"
+msgstr "ভলিউম নিয়ন্ত্রণ"
+
+#. i18n: file: panel.ui:377
+#. i18n: ectx: property (text), widget (QLabel, tracklabel)
+#: rc.cpp:193
+msgid "track label"
+msgstr ""
+
+#. i18n: file: panel.ui:387
+#. i18n: ectx: property (text), widget (QLabel, artistlabel)
+#: rc.cpp:196
+msgid "Artist"
+msgstr "শিল্পী"
+
+#. i18n: file: panel.ui:394
+#. i18n: ectx: property (text), widget (QLabel, titlelabel)
+#: rc.cpp:199
+msgid "Title"
+msgstr "শিরোনাম"
+
+#. i18n: file: panel.ui:411
+#. i18n: ectx: property (text), widget (QPushButton, shufflePB)
+#: rc.cpp:202
+msgid "R&andom"
+msgstr "&এলোমেলো"
+
+#. i18n: file: panel.ui:424
+#. i18n: ectx: property (text), widget (QPushButton, infoPB)
+#: rc.cpp:205
+msgid "E&xtras"
+msgstr "&অতিরিক্ত"
+
+#. i18n: file: panel.ui:440
+#. i18n: ectx: property (text), widget (QPushButton, playPB)
+#: rc.cpp:208
+msgid "Pla&y"
+msgstr "চালা&ও"
+
+#. i18n: file: panel.ui:469
+#. i18n: ectx: property (text), widget (QPushButton, cddbPB)
+#: rc.cpp:214
+msgid "&CDDB"
+msgstr "&CDDB"
+
+#. i18n: file: panel.ui:507
+#. i18n: ectx: property (text), widget (QPushButton, nextPB)
+#: rc.cpp:220
+msgid "&Next"
+msgstr "প&রবর্তী"
+
+#. i18n: file: panel.ui:523
+#. i18n: ectx: property (text), widget (QPushButton, prevPB)
+#: rc.cpp:223
+msgid "Pre&vious"
+msgstr "পূর্ব&বর্তী"
+
+#: rc.cpp:224
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "দীপায়ন সরকার"
 
-#: rc.cpp:44
+#: rc.cpp:225
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#. i18n: file: gui/trackListDlgUI.ui:19
-#. i18n: ectx: property (windowTitle), widget (QWidget, trackListDlgUI)
-#: rc.cpp:47
 #, fuzzy
-#| msgid "Track list"
-msgid "KsCD - TrackList"
-msgstr "ট্র্যাক তালিকা"
+#~| msgid "Configure &Global Shortcuts..."
+#~ msgid "Configure Shortcuts..."
+#~ msgstr "গ্লোবা&ল শর্টকাট কনফিগার করো..."
 
-#. i18n: file: gui/trackListDlgUI.ui:50
-#. i18n: ectx: property (text), widget (QLabel, albumLbl)
-#: rc.cpp:50
-msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
-"weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-"
-"size:12pt; font-weight:600;\">Album</span></p></body></html>"
-msgstr ""
-
-#. i18n: file: gui/trackListDlgUI.ui:60
-#. i18n: ectx: property (text), widget (QLabel, yearLbl)
-#: rc.cpp:56
-msgid ""
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css"
-"\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:'Sans Serif'; font-size:10pt; font-"
-"weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-"
-"right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:"
-"italic;\">Year</span></p></body></html>"
-msgstr ""
-
-#. i18n: file: gui/trackListDlgUI.ui:105
-#. i18n: ectx: property (text), widget (QTableWidget, trackTable)
-#: rc.cpp:62
 #, fuzzy
-#| msgid "Track %1"
-msgid "Track"
-msgstr "ট্র্যাক %1"
+#~| msgid "Random"
+#~ msgctxt "This action allow the user to listen a random track list"
+#~ msgid "Random"
+#~ msgstr "এলোমেলো"
 
-#. i18n: file: gui/trackListDlgUI.ui:110
-#. i18n: ectx: property (text), widget (QTableWidget, trackTable)
-#: rc.cpp:65
-msgid "Title"
-msgstr "শিরোনাম"
+#~ msgid "No disc"
+#~ msgstr "কোনও ডিস্ক নেই"
 
-#. i18n: file: gui/trackListDlgUI.ui:115
-#. i18n: ectx: property (text), widget (QTableWidget, trackTable)
-#: rc.cpp:68
-msgid "Length"
-msgstr ""
+#, fuzzy
+#~| msgid "Unknown"
+#~ msgid "Unknown album"
+#~ msgstr "অজানা"
+
+#, fuzzy
+#~| msgid "Unknown Artist"
+#~ msgid "Unknown artist"
+#~ msgstr "অজানা শিল্পী"
+
+#, fuzzy
+#~| msgid "Unknown Title"
+#~ msgid "Unknown title"
+#~ msgstr "অজানা শিরোনাম"
+
+#, fuzzy
+#~ msgid "The text color that will be used in the panel."
+#~ msgstr "পুরোভূমি রং যে LCD প্রদর্শন করাতে ব্যবহার করা হবে।"
+
+#, fuzzy
+#~ msgid "The skin that will be use for the application"
+#~ msgstr "ফন্ট যে LCD প্রদর্শন করার জন্য ব্যবহার করা হবে।"
+
+#, fuzzy
+#~| msgid "Track list"
+#~ msgid "KsCD - TrackList"
+#~ msgstr "ট্র্যাক তালিকা"
 
 #~ msgid "Unknown"
 #~ msgstr "অজানা"
@@ -418,324 +855,8 @@ msgstr ""
 #~ msgid "Album Title"
 #~ msgstr "শিরোনাম"
 
-#~ msgid "Artist"
-#~ msgstr "শিল্পী"
-
 #~ msgid "No Disc"
 #~ msgstr "কোনও ডিস্ক নেই"
-
-#~ msgid "Start freedb lookup."
-#~ msgstr "ফ্রী-ডিবি লুক-আপ আরম্ভ করো।"
-
-#~ msgid "No matching freedb entry found."
-#~ msgstr "ফ্রী-ডিবিতে কোনও মিল পাওয়া যায়নি।"
-
-#~ msgid "Error getting freedb entry."
-#~ msgstr "ফ্রী-ডিবি এন্ট্রি আনাকালীন সমস্যা।"
-
-#~ msgid "Select CDDB Entry"
-#~ msgstr "CDDB এন্ট্রি নির্বাচন করুন"
-
-#~ msgid "Select a CDDB entry:"
-#~ msgstr "একটি CDDB এন্ট্রি নির্বাচন করুন:"
-
-#~ msgid "CD device, can be a path or a media:/ URL"
-#~ msgstr "সিডি ডিভাইস, একটি পাথ অথবা একটি media:/ ইউ.আর.এল"
-
-#~ msgid "CD Editor"
-#~ msgstr "সিডি সম্পাদক"
-
-#~ msgid "Fetch Info"
-#~ msgstr "তথ্য আনো"
-
-#~ msgid "Record submitted successfully."
-#~ msgstr "রেকর্ড দাখিল করা সফল।"
-
-#~ msgid "Record Submission"
-#~ msgstr "রেকর্ড দাখিল"
-
-#~ msgid ""
-#~ "Error sending record.\n"
-#~ "\n"
-#~ "%1"
-#~ msgstr ""
-#~ "রেকর্ড দাখিল করাকালীন সমস্যা।\n"
-#~ "\n"
-#~ "%1"
-
-#~ msgid ""
-#~ "The artist name of the disc has to be entered.\n"
-#~ "Please correct the entry and try again."
-#~ msgstr ""
-#~ "ডিস্ক-এর শিল্পীর নাম সরবরাহ করা প্রয়োজন।\n"
-#~ "অনুগ্রহ করে এন্ট্রি-টি সংশোধন করে আবার চেষ্টা করুন।"
-
-#~ msgid "Invalid Database Entry"
-#~ msgstr "অবৈধ ডেটাবেস এন্ট্রি"
-
-#~ msgid ""
-#~ "The title of the disc has to be entered.\n"
-#~ "Please correct the entry and try again."
-#~ msgstr ""
-#~ "ডিস্ক-এর শিরোনাম সরবরাহ করা প্রয়োজন।\n"
-#~ "অনুগ্রহ করে এন্ট্রি-টি সংশোধন করে আবার চেষ্টা করুন।"
-
-#~ msgid ""
-#~ "At least one track title must be entered.\n"
-#~ "Please correct the entry and try again."
-#~ msgstr ""
-#~ "অন্তত একটি ট্র্যাক শিরোনাম সরবরাহ করা প্রয়োজন।\n"
-#~ "অনুগ্রহ করে এন্ট্রি-টি সংশোধন করে আবার চেষ্টা করুন।"
-
-#~ msgid "Loop"
-#~ msgstr "লুপ"
-
-#~ msgid "Increase Volume"
-#~ msgstr "ভলিউম বাড়াও"
-
-#~ msgid "Decrease Volume"
-#~ msgstr "ভলিউম কমাও"
-
-#~ msgid "Shuffle"
-#~ msgstr "শাফল করো"
-
-#~ msgid "CDDB"
-#~ msgstr "CDDB"
-
-#~ msgid "Artist Information"
-#~ msgstr "শিল্পী তথ্য"
-
-#~ msgid "CD Drive (you must stop playing to change this)"
-#~ msgstr "সিডি ড্রাইভ (এটি পরিবর্তন করতে হলে প্লেয়ার থামানো প্রয়োজন)"
-
-#~ msgid "CD Player"
-#~ msgstr "সিডি প্লেয়ার"
-
-#~ msgid "Settings & Behavior"
-#~ msgstr "সেটিংস এবং আচরণ"
-
-#~ msgid "Configure Fetching Items"
-#~ msgstr "বস্তু নিয়ে আসা কনফিগার করো"
-
-#, fuzzy
-#~ msgid ""
-#~ "CD-ROM access error (or error in startup of audio system).\n"
-#~ "Please make sure you have access permissions to cdrom device:\n"
-#~ "device '%1'(%2), audio system '%3'"
-#~ msgstr ""
-#~ "CD-ROM অথবা উপলব্ধি করা ত্রুটি পড়ল (অথবা চালায়ে কোনও অডিও ডিস্ক না)।\n"
-#~ "দয়া করে তৈরী করুন নিশ্চিত আপনার আছে তে উপলব্ধি করা অনুমতি:\n"
-#~ "%1"
-
-#, fuzzy
-#~ msgid "Error"
-#~ msgstr "CDDA ত্রুটি"
-
-#~ msgid "Play"
-#~ msgstr "চালাও"
-
-#~ msgid "Pause"
-#~ msgstr "বিরত রাখো"
-
-#~ msgid "Current track: %1"
-#~ msgstr "বর্তমান ট্র্যাক: %1"
-
-#, fuzzy
-#~ msgid "Vol: %1%"
-#~ msgstr "ভলিউম: %02d%%"
-
-#~ msgid "Interface"
-#~ msgstr "ইন্টারফেস"
-
-#, fuzzy
-#~ msgid "LCD &font:"
-#~ msgstr "LCD &ফন্ট:"
-
-#, fuzzy
-#~ msgid "&LCD color:"
-#~ msgstr "&LCD রং:"
-
-#~ msgid "&Background color:"
-#~ msgstr "&পটভূমির রং:"
-
-#, fuzzy
-#~ msgid "The background color that will be used for the LCD display."
-#~ msgstr "পটভূমি রং যে LCD প্রদর্শন করার জন্য ব্যবহার করা হবে।"
-
-#, fuzzy
-#~ msgid ""
-#~ "When this option is selected an icon will appear in the system tray. Note "
-#~ "that KsCD will <i>not</i> quit when the window is closed if a system tray "
-#~ "icon is displayed. You may quit KsCD by clicking the Quit button or right-"
-#~ "clicking on the system tray icon and selecting the appropriate entry."
-#~ msgstr ""
-#~ "যখন এই অপশনটি নির্বাচন করা হল একটি আইকন সিস্টেম ট্রেতে আবির্ভূত হবে। নোট যে "
-#~ "KsCD<i>না</i>প্রস্থান করুন যখন উইন্ডো বন্ধ করা হল যদি একটি সিস্টেম ট্রে আইকন "
-#~ "প্রদর্শন করা হল। আপনি প্রস্থান করা বাটন ক্লিক করার মধ্যে KsCD হয়ত প্রস্থান করবেন "
-#~ "অথবা সিস্টেম ট্রে আইকনে right-clicking এবং selecting উপযুক্ত এন্ট্রি।"
-
-#~ msgid "Show icon in &system tray"
-#~ msgstr "সিস্টেম ট্রে-তে &আইকন দেখাও"
-
-#~ msgid "Show &track announcement"
-#~ msgstr "ট্র্যা&ক ঘোষণা করো"
-
-#~ msgid "Auto&play when CD inserted"
-#~ msgstr "সিডি ঢোকালে নিজে থেকে চালা&ও"
-
-#~ msgid "CD-ROM &Device"
-#~ msgstr "সিডি-&রম ডিভাইস"
-
-#, fuzzy
-#~ msgid ""
-#~ "The CD-ROM device to use when playing CDs. This will typically look "
-#~ "something like \"/dev/cdrom\". To have KsCD autodetect your CD-ROM, leave "
-#~ "this field empty."
-#~ msgstr ""
-#~ "ব্যবহার করতে CD-ROM ডিভাইস যখন playing সিডি। এইটি\"/dev/cdrom\"এর মত কিছু "
-#~ "জিনিষ typically দেখবে। KsCD থাকতে আপনার CD-ROM autodetectয়, এই ক্ষেত্রেটি "
-#~ "ফাঁকা ছেড়ে চলে যায়।"
-
-#, fuzzy
-#~ msgid ""
-#~ "When this option is selected KsCD will attempt to play the CD using "
-#~ "direct digital playback. This option is useful if the CD-ROM is not "
-#~ "connected directly to the sound output on the computer. Note that digital "
-#~ "playback consumes more system resources than the normal method of "
-#~ "playback."
-#~ msgstr ""
-#~ "যখন এই অপশনটি নির্বাচন করা হল KsCD সিডি ব্যবহার করে সরাসরি ডিজিট্যাল "
-#~ "playback খেলতে পেতে চেষ্টা করবে। এই অপশনটি কার্যকর যদি CD-ROM কম্পিউটারে শব্দ "
-#~ "আউটপুটে সরাসরিভাবে সংযোগ করা হল না। নোট যে ডিজিট্যাল playback playbackএর "
-#~ "স্বাভাবিক পন্থার চেয়ে আরও বেশি সিস্টেম সম্পদ consumeয়।"
-
-#~ msgid "&Use direct digital playback"
-#~ msgstr "সরা&সরি ডিজিট্যাল প্লেব্যাক ব্যবহার করো"
-
-#~ msgid "Select &audio backend:"
-#~ msgstr "অডি&ও ব্যাক-এন্ড বেছে নিন:"
-
-#~ msgid "Select audio de&vice:"
-#~ msgstr "&অডিও ডিভাইস বেছে নিন:"
-
-#~ msgid " Music Information Services "
-#~ msgstr " সঙ্গীত তথ্য সেবা"
-
-#, fuzzy
-#~ msgid ""
-#~ "When this option is selected, you have the ability to select encoding for "
-#~ "the results of a CDDB request. The standard describes CDDB results as "
-#~ "being strictly Latin1. This is not true, as non-English speaking users "
-#~ "often use other 8-bit encodings."
-#~ msgstr ""
-#~ "যখন এই অপশনটি নির্বাচন করা হল, আপনার আছে একটি CDDB অনুরোধের ফলাফলের জন্য "
-#~ "এনকোডিং নির্বাচন করতে ক্ষমতা। প্রমাণ strictly Latin1 হওয়া হিসেবে CDDB ফলাফল "
-#~ "বর্ণনা করে। এইটি সত্যি না, non-English speaking ব্যবহারকারী হিসেবে অন্যান্য 8-"
-#~ "bit encodings প্রায়শই ব্যবহার করে।"
-
-#~ msgid "Allow en&coding selection:"
-#~ msgstr "&এনকোডিং নির্বাচন অনুমোদন করো:"
-
-#~ msgid "AUTO"
-#~ msgstr "AUTO"
-
-#~ msgid "UTF-8"
-#~ msgstr "UTF-8"
-
-#~ msgid "CP1250"
-#~ msgstr "CP1250"
-
-#~ msgid "CP1251"
-#~ msgstr "CP1251"
-
-#~ msgid "CP1252"
-#~ msgstr "CP1252"
-
-#~ msgid "CP1253"
-#~ msgstr "CP1253"
-
-#~ msgid "CP1254"
-#~ msgstr "CP1254"
-
-#~ msgid "CP1255"
-#~ msgstr "CP1255"
-
-#~ msgid "CP1256"
-#~ msgstr "CP1256"
-
-#~ msgid "CP1257"
-#~ msgstr "CP1257"
-
-#~ msgid "Output Volume"
-#~ msgstr "আউটপুট ভলিউম"
-
-#~ msgid "Play random tracks."
-#~ msgstr "এলোমেলো ক্রমে ট্র্যাক চালাও।"
-
-#, fuzzy
-#~ msgid ""
-#~ "When this option is selected the playing order\n"
-#~ "            of the CD tracks is chosen at random."
-#~ msgstr ""
-#~ "যখন এই অপশনটি নির্বাচন করা হল সিডির playing ধারা\n"
-#~ "ট্র্যাকয় এলোমেলোতে বেছে নেওয়া হল।"
-
-#~ msgid "Show an icon in the system tray."
-#~ msgstr "সিস্টেম ট্রে-তে একটি আইকন প্রদর্শন করো।"
-
-#~ msgid "Loop tracks."
-#~ msgstr "ট্র্যাক বারবার চালাও।"
-
-#, fuzzy
-#~ msgid "The audio device KsCD uses."
-#~ msgstr "অডিও ডিভাইস KsCD ব্যবহার করে।"
-
-#~ msgid "Use direct digital playback."
-#~ msgstr "সরাসরি ডিজিট্যাল প্লে-ব্যাক ব্যবহার করো।"
-
-#, fuzzy
-#~ msgid ""
-#~ "When this option is selected KsCD will attempt to play the CD using "
-#~ "direct digital playback. This option is useful if the CD-ROM is not "
-#~ "connected directly to the sound output on the computer. Note that digital "
-#~ "playback is slower than the normal method of playback."
-#~ msgstr ""
-#~ "যখন এই অপশনটি নির্বাচন করা হল KsCD সিডি ব্যবহার করে সরাসরি ডিজিট্যাল "
-#~ "playback খেলতে পেতে চেষ্টা করবে। এই অপশনটি কার্যকর যদি CD-ROM কম্পিউটারে শব্দ "
-#~ "আউটপুটে সরাসরিভাবে সংযোগ করা হল না। নোট যে ডিজিট্যাল playback playbackএর "
-#~ "স্বাভাবিক পন্থার চেয়ে slower।"
-
-#~ msgid "Allow encoding selection."
-#~ msgstr "এনকোডিং নির্বাচন করা অনুমোদন করো।"
-
-#~ msgid "Track progress"
-#~ msgstr "ট্র্যাক অগ্রগতি"
-
-#~ msgid "E&ject"
-#~ msgstr "&বহিষ্কার করো"
-
-#, fuzzy
-#~| msgid "Status"
-#~ msgid "status"
-#~ msgstr "অবস্থা"
-
-#~ msgid "R&andom"
-#~ msgstr "&এলোমেলো"
-
-#~ msgid "E&xtras"
-#~ msgstr "&অতিরিক্ত"
-
-#~ msgid "Pla&y"
-#~ msgstr "চালা&ও"
-
-#~ msgid "&CDDB"
-#~ msgstr "&CDDB"
-
-#~ msgid "&Next"
-#~ msgstr "প&রবর্তী"
-
-#~ msgid "Pre&vious"
-#~ msgstr "পূর্ব&বর্তী"
 
 #, fuzzy
 #~ msgid ""
@@ -770,9 +891,6 @@ msgstr ""
 
 #~ msgid "Back/Track Done"
 #~ msgstr "পিছিয়ে যাও/ট্র্যাক শেষ"
-
-#~ msgid "Playing"
-#~ msgstr "চলছে"
 
 #~ msgid "Forward"
 #~ msgstr "ফরওয়ার্ড"
