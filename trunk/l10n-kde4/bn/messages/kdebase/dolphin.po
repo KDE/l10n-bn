@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-20 10:15+0100\n"
+"POT-Creation-Date: 2009-01-28 09:12+0100\n"
 "PO-Revision-Date: 2008-12-26 13:12-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: bn <kde-translation@bengalinux.org>\n"
@@ -15,6 +15,34 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 0.2\n"
+
+#: kcm/kcmdolphingeneral.cpp:55 settings/generalsettingspage.cpp:48
+msgctxt "@title:tab Behavior settings"
+msgid "Behavior"
+msgstr ""
+
+#: kcm/kcmdolphingeneral.cpp:60 settings/generalsettingspage.cpp:53
+#, fuzzy
+#| msgctxt "@action:intoolbar"
+#| msgid "Preview"
+msgctxt "@title:tab Previews settings"
+msgid "Previews"
+msgstr "প্রাকদর্শন"
+
+#: kcm/kcmdolphinviewmodes.cpp:59 settings/viewsettingspage.cpp:46
+msgctxt "@title:tab"
+msgid "Icons"
+msgstr "আইকন"
+
+#: kcm/kcmdolphinviewmodes.cpp:64 settings/viewsettingspage.cpp:51
+msgctxt "@title:tab"
+msgid "Details"
+msgstr "বিস্তারিত"
+
+#: kcm/kcmdolphinviewmodes.cpp:69 settings/viewsettingspage.cpp:56
+msgctxt "@title:tab"
+msgid "Column"
+msgstr "কলাম"
 
 #: filterbar.cpp:41
 msgctxt "@info:tooltip"
@@ -26,67 +54,29 @@ msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার:"
 
-#: iconsizegroupbox.cpp:35
-msgctxt "@title:group"
-msgid "Icon Size"
-msgstr "আইকন মাপ"
-
-#: iconsizegroupbox.cpp:39
-msgctxt "@label:listbox"
-msgid "Default:"
-msgstr "ডিফল্ট:"
-
-#: iconsizegroupbox.cpp:46
-msgctxt "@label:listbox"
-msgid "Preview:"
-msgstr "প্রাকদর্শন:"
-
-#: iconsizegroupbox.cpp:109 dolphinstatusbar.cpp:309
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Size: 1 pixel"
-msgid_plural "Size: %1 pixels"
-msgstr[0] "মাপ:১ পিক্সেল"
-msgstr[1] "মাপ: %1 পিক্সেল"
-
-#: draganddrophelper.cpp:108
+#: draganddrophelper.cpp:116
 msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "একটি ফোল্ডারকে নিজের মধ্যে ড্রপ করা যায় না"
-
-#: dolphinfontrequester.cpp:40
-msgctxt "@item:inlistbox Font"
-msgid "System Font"
-msgstr "সিস্টেম ফন্ট"
-
-#: dolphinfontrequester.cpp:41
-msgctxt "@item:inlistbox Font"
-msgid "Custom Font"
-msgstr "স্বনির্বাচিত ফন্ট"
-
-#: dolphinfontrequester.cpp:45
-msgctxt "@action:button Choose font"
-msgid "Choose..."
-msgstr "পছন্দ করো..."
 
 #: dolphindetailsview.cpp:561
 msgctxt "@title:menu"
 msgid "Columns"
 msgstr "কলাম"
 
-#: dolphinview.cpp:554
+#: dolphinview.cpp:556
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected"
 msgstr "<filename>%1</filename> নির্বাচিত"
 
-#: dolphinview.cpp:555
+#: dolphinview.cpp:557
 #, kde-format
 msgctxt "@info:status"
 msgid "<filename>%1</filename> selected (%2)"
 msgstr "<filename>%1</filename> নির্বাচিত (%2)"
 
-#: dolphinview.cpp:559
+#: dolphinview.cpp:561
 #, kde-format
 msgctxt "@info:status"
 msgid "1 Folder selected"
@@ -94,7 +84,7 @@ msgid_plural "%1 Folders selected"
 msgstr[0] "একটি ফোল্ডার নির্বাচিত"
 msgstr[1] "%1-টি ফোল্ডার নির্বাচিত"
 
-#: dolphinview.cpp:560
+#: dolphinview.cpp:562
 #, kde-format
 msgctxt "@info:status"
 msgid "1 File selected"
@@ -102,29 +92,29 @@ msgid_plural "%1 Files selected"
 msgstr[0] "একটি ফাইল নির্বাচিত"
 msgstr[1] "%1-টি ফাইল নির্বাচিত"
 
-#: dolphinview.cpp:562
+#: dolphinview.cpp:564
 #, kde-format
 msgctxt "@info:status folders, files (size)"
 msgid "%1, %2 (%3)"
 msgstr "%1, %2 (%3)"
 
-#: dolphinview.cpp:565
+#: dolphinview.cpp:567
 #, kde-format
 msgctxt "@info:status files (size)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
-#: dolphinview.cpp:1029
+#: dolphinview.cpp:1040
 msgctxt "@action:inmenu"
 msgid "Paste One Folder"
 msgstr "একটি ফোল্ডার পেস্ট করো"
 
-#: dolphinview.cpp:1030
+#: dolphinview.cpp:1041
 msgctxt "@action:inmenu"
 msgid "Paste One File"
 msgstr "একটি ফাইল পেস্ট করো"
 
-#: dolphinview.cpp:1033
+#: dolphinview.cpp:1044
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Paste One Item"
@@ -132,86 +122,26 @@ msgid_plural "Paste %1 Items"
 msgstr[0] "একটি বস্তু পেস্ট করো"
 msgstr[1] "%1-টি বস্তু পেস্ট করো"
 
-#: dolphinview.cpp:1037 treeviewcontextmenu.cpp:67
+#: dolphinview.cpp:1048 panels/folders/treeviewcontextmenu.cpp:67
 msgctxt "@action:inmenu"
 msgid "Paste"
 msgstr "পেস্ট"
 
-#: dolphinview.cpp:1084
+#: dolphinview.cpp:1118
 msgctxt "@info:status"
 msgid "Delete operation completed."
 msgstr "মুছে ফেলা শেষ।"
 
-#: dolphinview.cpp:1125
+#: dolphinview.cpp:1149
 msgctxt "@info:status"
 msgid "The location is empty."
 msgstr "অবস্থান ফাঁকা।"
 
-#: dolphinview.cpp:1127
+#: dolphinview.cpp:1151
 #, kde-format
 msgctxt "@info:status"
 msgid "The location '%1' is invalid."
 msgstr "অবস্থান '%1' অবৈধ।"
-
-#: generalsettingspage.cpp:57
-msgctxt "@title:group"
-msgid "Ask For Confirmation When"
-msgstr "অনুমোদন চাও"
-
-#: generalsettingspage.cpp:59
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Moving files or folders to trash"
-msgstr "ফাইল অথবা ফোল্ডার আবর্জনার বাক্সে সরাবার আগে"
-
-#: generalsettingspage.cpp:62
-msgctxt "@option:check Ask for Confirmation When"
-msgid "Deleting files or folders"
-msgstr "ফাইল অথবা ফোল্ডার মোছার আগে"
-
-#: generalsettingspage.cpp:69
-msgctxt "@title:group"
-msgid "Context Menu"
-msgstr "প্রাসঙ্গিক মেনু"
-
-#: generalsettingspage.cpp:72
-msgctxt "@option:check"
-msgid "Show 'Delete' command"
-msgstr "'মুছে ফেলো' কমান্ড দেখাও "
-
-#: generalsettingspage.cpp:75
-msgctxt "@option:check"
-msgid "Show 'Copy To' and 'Move To' commands"
-msgstr "'কপি করো' এবং 'সরাও' কমান্ড দেখাও"
-
-#: generalsettingspage.cpp:82
-msgctxt "@title:group"
-msgid "Status Bar"
-msgstr "স্ট্যাটাস বার"
-
-#: generalsettingspage.cpp:84
-msgctxt "@option:check"
-msgid "Show zoom slider"
-msgstr "ছোটবড় করার জন্য স্লাইডার দেখাও"
-
-#: generalsettingspage.cpp:87
-msgctxt "@option:check"
-msgid "Show space information"
-msgstr "ফাঁকা জায়গা সম্বন্ধে তথ্য দেখাও"
-
-#: generalsettingspage.cpp:94
-msgctxt "@option:check"
-msgid "Browse through archives"
-msgstr "আর্কাইভ ব্রাউজ করো"
-
-#: generalsettingspage.cpp:97
-msgctxt "@option:check"
-msgid "Rename inline"
-msgstr "নিজস্থানে নামান্তর করো"
-
-#: generalsettingspage.cpp:100
-msgctxt "option:check"
-msgid "Open folders during drag operations"
-msgstr "ড্র্যাগ করাকালীন ফোল্ডার খোলো"
 
 #: statusbarspaceinfo.cpp:78 statusbarspaceinfo.cpp:91
 msgctxt "@info:status"
@@ -223,41 +153,6 @@ msgstr "অজানা মাপ"
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 ফাঁকা"
-
-#: treeviewcontextmenu.cpp:60
-msgctxt "@action:inmenu"
-msgid "Cut"
-msgstr "কাট করো"
-
-#: treeviewcontextmenu.cpp:64
-msgctxt "@action:inmenu"
-msgid "Copy"
-msgstr "কপি করো"
-
-#: treeviewcontextmenu.cpp:79
-msgctxt "@action:inmenu"
-msgid "Rename..."
-msgstr "নাম বদলাও..."
-
-#: treeviewcontextmenu.cpp:92
-msgctxt "@action:inmenu"
-msgid "Move To Trash"
-msgstr "আবর্জনার বাক্সে সরাও"
-
-#: treeviewcontextmenu.cpp:102
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr "মুছে ফেলো"
-
-#: treeviewcontextmenu.cpp:111 dolphincontextmenu.cpp:282
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr "বৈশিষ্ট্যাবলী"
-
-#: treeviewcontextmenu.cpp:118
-msgctxt "@action:inmenu"
-msgid "Show Hidden Files"
-msgstr "লুকানো ফাইল দেখাও"
 
 #: dolphinviewcontainer.cpp:239
 msgctxt "@info:progress"
@@ -279,140 +174,10 @@ msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "অবৈধ প্রোটোকল"
 
-#: infosidebarpage.cpp:199
-#, kde-format
-msgctxt "@info"
-msgid "%1 item selected"
-msgid_plural "%1 items selected"
-msgstr[0] "%1-টি বস্তু নির্বাচিত"
-msgstr[1] "%1-টি বস্তু নির্বাচিত"
-
-#: infosidebarpage.cpp:376
-msgctxt "@label"
-msgid "Total size:"
-msgstr "মোট মাপ:"
-
-#: infosidebarpage.cpp:380 infosidebarpage.cpp:383 infosidebarpage.cpp:434
-msgctxt "@label"
-msgid "Type:"
-msgstr "ধরন:"
-
-#: infosidebarpage.cpp:380
-msgctxt "@label"
-msgid "Folder"
-msgstr "ফোল্ডার"
-
-#: infosidebarpage.cpp:381 infosidebarpage.cpp:386
-msgctxt "@label"
-msgid "Modified:"
-msgstr "পরিবর্তিত:"
-
-#: infosidebarpage.cpp:385
-msgctxt "@label"
-msgid "Size:"
-msgstr "মাপ:"
-
-#: infosidebarpage.cpp:428
-msgctxt "@label"
-msgid "Album:"
-msgstr "অ্যালবাম:"
-
-#: infosidebarpage.cpp:429
-msgctxt "@label"
-msgid "Artist:"
-msgstr "শিল্পী:"
-
-#: infosidebarpage.cpp:430
-msgctxt "@label"
-msgid "Genre:"
-msgstr "গোত্র:"
-
-#: infosidebarpage.cpp:431
-msgctxt "@label"
-msgid "Height:"
-msgstr "উচ্চতা:"
-
-#: infosidebarpage.cpp:432
-msgctxt "@label"
-msgid "Lines:"
-msgstr "লাইন:"
-
-#: infosidebarpage.cpp:433
-msgctxt "@label"
-msgid "Title:"
-msgstr "শিরোনাম:"
-
-#: infosidebarpage.cpp:435
-msgctxt "@label"
-msgid "Track:"
-msgstr "ট্র্যাক:"
-
-#: infosidebarpage.cpp:436
-msgctxt "@label"
-msgid "Width:"
-msgstr "প্রস্থ:"
-
-#: viewpropsprogressinfo.cpp:49
-msgctxt "@title:window"
-msgid "Applying View Properties"
-msgstr "ভিউ প্রকৃতি প্রয়োগ করা হচ্ছে"
-
-#: viewpropsprogressinfo.cpp:62 viewpropsprogressinfo.cpp:109
-#, kde-format
-msgctxt "@info:progress"
-msgid "Counting folders: %1"
-msgstr "ফোল্ডার গণনা চলছে: %1"
-
-#: viewpropsprogressinfo.cpp:125
-#, kde-format
-msgctxt "@info:progress"
-msgid "Folders: %1"
-msgstr "ফোল্ডার: %1"
-
-#: generalviewsettingspage.cpp:61
-msgctxt "@title:group"
-msgid "View Properties"
-msgstr "ভিউ প্রকৃতি"
-
-#: generalviewsettingspage.cpp:63
-msgctxt "@option:radio"
-msgid "Remember view properties for each folder"
-msgstr "প্রত্যেক ফোল্ডারের জন্য আলাদা করে ভিউ প্রকৃতি মনে রাখো"
-
-#: generalviewsettingspage.cpp:66
-msgctxt "@option:radio"
-msgid "Use common view properties for all folders"
-msgstr "সমস্ত ফোল্ডারের জন্য একই ভিউ প্রকৃতি ব্যবহার করো"
-
-#: generalviewsettingspage.cpp:74
-msgctxt "@title:group"
-msgid "File Previews"
-msgstr "ফাইল প্রাকদর্শন"
-
-#: generalviewsettingspage.cpp:79
-msgctxt "@label:slider"
-msgid "Maximum file size:"
-msgstr "সর্বাধিক ফাইল মাপ:"
-
-#: generalviewsettingspage.cpp:94
-msgctxt "@option:check"
-msgid "Use thumbnails embedded in files"
-msgstr "ফাইলে সন্নিবিষ্ট থাম্ব-নেইল ব্যবহার করো"
-
-#: generalviewsettingspage.cpp:101
-msgctxt "@option:check"
-msgid "Show selection marker"
-msgstr "নির্বাচন মার্কার দেখাও"
-
-#: generalviewsettingspage.cpp:104
-msgctxt "@option:check"
-msgid "Show tooltips"
-msgstr "টুলটিপ দেখাও"
-
-#: nepomukmassupdatejob.cpp:74
-msgctxt "@info:progress"
-msgid "Changing annotations"
-msgstr "টীকা পরিবর্তন করা হচ্ছে"
+#: dolphinsearchbox.cpp:44
+msgctxt "@info:tooltip"
+msgid "Search"
+msgstr ""
 
 #: renamedialog.cpp:41
 msgctxt "@title:window"
@@ -475,8 +240,11 @@ msgid "File Manager"
 msgstr "ফাইল ম্যানেজার"
 
 #: main.cpp:38
+#, fuzzy
+#| msgctxt "@info:credit"
+#| msgid "(C) 2006-2008 Peter Penz"
 msgctxt "@info:credit"
-msgid "(C) 2006-2008 Peter Penz"
+msgid "(C) 2006-2009 Peter Penz"
 msgstr "(C) 2006-2008 Peter Penz"
 
 #: main.cpp:40
@@ -534,7 +302,7 @@ msgctxt "@info:credit"
 msgid "Documentation"
 msgstr "ডকুমেনটেশন"
 
-#: main.cpp:69
+#: main.cpp:71
 msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "যে নথীটি খোলা হবে"
@@ -569,7 +337,7 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "পুনঃস্থাপন করো"
 
-#: dolphincontextmenu.cpp:185 dolphinmainwindow.cpp:967
+#: dolphincontextmenu.cpp:185 dolphinmainwindow.cpp:981
 msgctxt "@title:menu Create new folder, file, link, etc."
 msgid "Create New"
 msgstr "নতুন তৈরি করো"
@@ -579,12 +347,17 @@ msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
 msgstr "স্থানতালিকায় যোগ করো"
 
-#. i18n: file: dolphinui.rc:21
+#. i18n: file: dolphinui.rc:22
 #. i18n: ectx: Menu (view_mode)
-#: dolphincontextmenu.cpp:263 rc.cpp:201 rc.cpp:311
+#: dolphincontextmenu.cpp:263 rc.cpp:24 rc.cpp:68
 msgctxt "@title:menu"
 msgid "View Mode"
 msgstr "ভিউ মোড"
+
+#: dolphincontextmenu.cpp:282 panels/folders/treeviewcontextmenu.cpp:111
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "বৈশিষ্ট্যাবলী"
 
 #: dolphincontextmenu.cpp:362
 msgctxt "@action:inmenu"
@@ -732,412 +505,342 @@ msgctxt "@title:group Tags"
 msgid "Not yet tagged"
 msgstr "এখনও ট্যাগ করা হয়নি"
 
-#: columnviewsettingspage.cpp:68 iconsviewsettingspage.cpp:76
-#: detailsviewsettingspage.cpp:68
-msgctxt "@title:group"
-msgid "Text"
-msgstr "লেখা"
-
-#: columnviewsettingspage.cpp:71 iconsviewsettingspage.cpp:79
-#: detailsviewsettingspage.cpp:71
-msgctxt "@label:listbox"
-msgid "Font:"
-msgstr "ফন্ট:"
-
-#: columnviewsettingspage.cpp:75 iconsviewsettingspage.cpp:89
-msgctxt "@label:listbox"
-msgid "Text width:"
-msgstr "লেখা প্রস্থ:"
-
-#: columnviewsettingspage.cpp:77 iconsviewsettingspage.cpp:91
-msgctxt "@item:inlistbox Text width"
-msgid "Small"
-msgstr "ছোট"
-
-#: columnviewsettingspage.cpp:78 iconsviewsettingspage.cpp:92
-msgctxt "@item:inlistbox Text width"
-msgid "Medium"
-msgstr "মাঝারি"
-
-#: columnviewsettingspage.cpp:79 iconsviewsettingspage.cpp:93
-msgctxt "@item:inlistbox Text width"
-msgid "Large"
-msgstr "বড়"
-
-#: viewsettingspage.cpp:54 kcmdolphin.cpp:60
-msgctxt "@title:tab General settings"
-msgid "General"
-msgstr "সাধারণ"
-
-#: viewsettingspage.cpp:59 kcmdolphin.cpp:65
-msgctxt "@title:tab"
-msgid "Icons"
-msgstr "আইকন"
-
-#: viewsettingspage.cpp:64 kcmdolphin.cpp:70
-msgctxt "@title:tab"
-msgid "Details"
-msgstr "বিস্তারিত"
-
-#: viewsettingspage.cpp:69 kcmdolphin.cpp:75
-msgctxt "@title:tab"
-msgid "Column"
-msgstr "কলাম"
-
-#: iconsviewsettingspage.cpp:83
-msgctxt "@label:textbox"
-msgid "Number of lines:"
-msgstr "লাইনের সংখ্যা:"
-
-#: iconsviewsettingspage.cpp:94
-msgctxt "@item:inlistbox Text width"
-msgid "Huge"
-msgstr "বিশাল"
-
-#: iconsviewsettingspage.cpp:106
-msgctxt "@title:group"
-msgid "Grid"
-msgstr "সারিবদ্ধ"
-
-#: iconsviewsettingspage.cpp:109
-#, fuzzy
-msgctxt "@label:listbox"
-msgid "Arrangement:"
-msgstr "সুসজ্জায়ন:"
-
-#: iconsviewsettingspage.cpp:111
-msgctxt "@item:inlistbox Arrangement"
-msgid "Columns"
-msgstr "কলাম"
-
-#: iconsviewsettingspage.cpp:112
-msgctxt "@item:inlistbox Arrangement"
-msgid "Rows"
-msgstr "সারি"
-
-#: iconsviewsettingspage.cpp:115
-#, fuzzy
-msgctxt "@label:listbox"
-msgid "Grid spacing:"
-msgstr "Grid spacing:"
-
-#: iconsviewsettingspage.cpp:117
-msgctxt "@item:inlistbox Grid spacing"
-msgid "None"
-msgstr "কিছু না"
-
-#: iconsviewsettingspage.cpp:118
-msgctxt "@item:inlistbox Grid spacing"
-msgid "Small"
-msgstr "ছোট"
-
-#: iconsviewsettingspage.cpp:119
-msgctxt "@item:inlistbox Grid spacing"
-msgid "Medium"
-msgstr "মাঝারি"
-
-#: iconsviewsettingspage.cpp:120
-msgctxt "@item:inlistbox Grid spacing"
-msgid "Large"
-msgstr "বড়"
-
-#: dolphinsettingsdialog.cpp:42
-msgctxt "@title:window"
-msgid "Dolphin Preferences"
-msgstr "ডলফিন পছন্দসমূহ"
-
-#: dolphinsettingsdialog.cpp:49
-msgctxt "@title:group"
-msgid "Startup"
-msgstr "সূচনা"
-
-#: dolphinsettingsdialog.cpp:55
-msgctxt "@title:group"
-msgid "View Modes"
-msgstr "ভিউ মোড"
-
-#: dolphinsettingsdialog.cpp:61
-msgctxt "@title:group General settings"
-msgid "General"
-msgstr "সাধারণ"
-
-#: dolphinsettingsdialog.cpp:84
-msgctxt "@info"
-msgid "All settings will be reset to default values. Do you want to continue?"
-msgstr "সমস্ত সেটিংস ডিফল্ট মানে ফিরিয়ে দেওয়া হবে। আপনি কি সত্যিই তাই চান?"
-
-#: commentwidget.cpp:55
-msgctxt "@label"
-msgid "Add Comment..."
-msgstr "মন্তব্য যোগ করো..."
-
-#: commentwidget.cpp:58
-msgctxt "@label"
-msgid "Change Comment..."
-msgstr "মন্তব্য পরিবর্তন করো..."
-
-#: startupsettingspage.cpp:58
-msgctxt "@title:group"
-msgid "Home Folder"
-msgstr "গৃহ ফোল্ডার"
-
-#: startupsettingspage.cpp:63
-msgctxt "@label:textbox"
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: startupsettingspage.cpp:74
-msgctxt "@action:button"
-msgid "Use Current Location"
-msgstr "বর্তমান অবস্থান ব্যবহার করো"
-
-#: startupsettingspage.cpp:77
-msgctxt "@action:button"
-msgid "Use Default Location"
-msgstr "ডিফল্ট অবস্থান ব্যবহার করো"
-
-#: startupsettingspage.cpp:86
-msgctxt "@option:check Startup Settings"
-msgid "Split view mode"
-msgstr "বিভক্ত ভিউ মোড"
-
-#: startupsettingspage.cpp:87
-msgctxt "@option:check Startup Settings"
-msgid "Editable location bar"
-msgstr "সম্পাদনযোগ্য অবস্থান বার"
-
-#: startupsettingspage.cpp:88
-msgctxt "@option:check Startup Settings"
-msgid "Show full path inside location bar"
-msgstr "অবস্থান বার-এর ভিতরে পুরো পাথ দেখাও"
-
-#: startupsettingspage.cpp:89
-msgctxt "@option:check Startup Settings"
-msgid "Show filter bar"
-msgstr "ফিল্টার বার দেখাও"
-
-#: startupsettingspage.cpp:122
-msgctxt "@info"
-msgid "The location for the home folder is invalid and will not be applied."
-msgstr "গৃহ ফোল্ডারের জন্য অবস্থান অবৈধ, অতএব প্রয়োগ করা হবে না।"
-
-#: tagcloud/newtagdialog.cpp:31 tagcloud/newtagdialog.cpp:68
+#: panels/information/newtagdialog.cpp:31
+#: panels/information/newtagdialog.cpp:68
 msgctxt "@title:window"
 msgid "Create New Tag"
 msgstr "নতুন ট্যাগ তৈরি করো"
 
-#: tagcloud/newtagdialog.cpp:69
+#: panels/information/newtagdialog.cpp:69
 #, fuzzy
 msgctxt "@title:window subtitle to previous message"
 msgid "with optional icon and description"
 msgstr "ঐচ্ছিক আইকন এবং বর্ণনার সঙ্গে"
 
-#: tagcloud/resourcetaggingwidget.cpp:122
+#: panels/information/nepomukmassupdatejob.cpp:74
+msgctxt "@info:progress"
+msgid "Changing annotations"
+msgstr "টীকা পরিবর্তন করা হচ্ছে"
+
+#: panels/information/commentwidget.cpp:55
+msgctxt "@label"
+msgid "Add Comment..."
+msgstr "মন্তব্য যোগ করো..."
+
+#: panels/information/commentwidget.cpp:58
+msgctxt "@label"
+msgid "Change Comment..."
+msgstr "মন্তব্য পরিবর্তন করো..."
+
+#: panels/information/resourcetaggingwidget.cpp:127
 msgctxt "@label"
 msgid "Change Tags..."
 msgstr "ট্যাগ পরিবর্তন করো..."
 
-#: tagcloud/tagcloud.cpp:134
+#: panels/information/informationpanel.cpp:206
+#, kde-format
+msgctxt "@info"
+msgid "%1 item selected"
+msgid_plural "%1 items selected"
+msgstr[0] "%1-টি বস্তু নির্বাচিত"
+msgstr[1] "%1-টি বস্তু নির্বাচিত"
+
+#: panels/information/informationpanel.cpp:386
+msgctxt "@label"
+msgid "Total size:"
+msgstr "মোট মাপ:"
+
+#: panels/information/informationpanel.cpp:390
+#: panels/information/informationpanel.cpp:393
+#: panels/information/informationpanel.cpp:454
+msgctxt "@label"
+msgid "Type:"
+msgstr "ধরন:"
+
+#: panels/information/informationpanel.cpp:390
+msgctxt "@label"
+msgid "Folder"
+msgstr "ফোল্ডার"
+
+#: panels/information/informationpanel.cpp:391
+#: panels/information/informationpanel.cpp:396
+msgctxt "@label"
+msgid "Modified:"
+msgstr "পরিবর্তিত:"
+
+#: panels/information/informationpanel.cpp:395
+msgctxt "@label"
+msgid "Size:"
+msgstr "মাপ:"
+
+#: panels/information/informationpanel.cpp:448
+msgctxt "@label"
+msgid "Album:"
+msgstr "অ্যালবাম:"
+
+#: panels/information/informationpanel.cpp:449
+msgctxt "@label"
+msgid "Artist:"
+msgstr "শিল্পী:"
+
+#: panels/information/informationpanel.cpp:450
+msgctxt "@label"
+msgid "Genre:"
+msgstr "গোত্র:"
+
+#: panels/information/informationpanel.cpp:451
+msgctxt "@label"
+msgid "Height:"
+msgstr "উচ্চতা:"
+
+#: panels/information/informationpanel.cpp:452
+msgctxt "@label"
+msgid "Lines:"
+msgstr "লাইন:"
+
+#: panels/information/informationpanel.cpp:453
+msgctxt "@label"
+msgid "Title:"
+msgstr "শিরোনাম:"
+
+#: panels/information/informationpanel.cpp:455
+msgctxt "@label"
+msgid "Track:"
+msgstr "ট্র্যাক:"
+
+#: panels/information/informationpanel.cpp:456
+msgctxt "@label"
+msgid "Width:"
+msgstr "প্রস্থ:"
+
+#: panels/information/tagcloud.cpp:134
 msgctxt "@label"
 msgid "New Tag..."
 msgstr "নতুন ট্যাগ..."
 
-#: tagcloud/tagcloud.cpp:739
+#: panels/information/tagcloud.cpp:739
 msgctxt "@label Indicator when no tags defined"
 msgid "No Tags"
 msgstr "কোন ট্যাগ নেই"
 
-#: dolphinpart.cpp:152
+#: panels/information/commenteditwidget.cpp:129
+msgctxt "@action:button"
+msgid "Save"
+msgstr "সংরক্ষণ করো"
+
+#: panels/information/commenteditwidget.cpp:130
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "বাতিল করো"
+
+#: panels/information/phononwidget.cpp:46
+msgid "play"
+msgstr ""
+
+#: panels/information/phononwidget.cpp:49
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "stop"
+msgstr "থামাও"
+
+#: panels/folders/treeviewcontextmenu.cpp:60
+msgctxt "@action:inmenu"
+msgid "Cut"
+msgstr "কাট করো"
+
+#: panels/folders/treeviewcontextmenu.cpp:64
+msgctxt "@action:inmenu"
+msgid "Copy"
+msgstr "কপি করো"
+
+#: panels/folders/treeviewcontextmenu.cpp:79
+msgctxt "@action:inmenu"
+msgid "Rename..."
+msgstr "নাম বদলাও..."
+
+#: panels/folders/treeviewcontextmenu.cpp:92
+msgctxt "@action:inmenu"
+msgid "Move To Trash"
+msgstr "আবর্জনার বাক্সে সরাও"
+
+#: panels/folders/treeviewcontextmenu.cpp:102
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "মুছে ফেলো"
+
+#: panels/folders/treeviewcontextmenu.cpp:118
+msgctxt "@action:inmenu"
+msgid "Show Hidden Files"
+msgstr "লুকানো ফাইল দেখাও"
+
+#: dolphinpart.cpp:154
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
 msgstr "ফাইল &ধরন সম্পাদনা করো..."
 
-#: dolphinpart.cpp:164
+#: dolphinpart.cpp:166
 msgctxt "@action:inmenu Go"
 msgid "App&lications"
 msgstr "অ্যাপলিকেশ&ন"
 
-#: dolphinpart.cpp:167
+#: dolphinpart.cpp:169
 msgctxt "@action:inmenu Go"
 msgid "&Network Folders"
 msgstr "নে&টওয়ার্ক ফোল্ডার"
 
-#: dolphinpart.cpp:170
+#: dolphinpart.cpp:172
 msgctxt "@action:inmenu Go"
 msgid "Sett&ings"
 msgstr "সেটিং&স"
 
-#: dolphinpart.cpp:173
+#: dolphinpart.cpp:175
 msgctxt "@action:inmenu Go"
 msgid "Trash"
 msgstr "আবর্জনা"
 
-#: dolphinpart.cpp:176
+#: dolphinpart.cpp:178
 #, fuzzy
 msgctxt "@action:inmenu Go"
 msgid "Autostart"
 msgstr "Autostart"
 
-#: dolphinpart.cpp:183
+#: dolphinpart.cpp:185
 msgctxt "@action:inmenu Tools"
 msgid "Open &Terminal"
 msgstr "টার্মিনা&ল খোলো"
 
-#: dolphinpart.cpp:253
+#: dolphinpart.cpp:255
 msgctxt "@title"
 msgid "Dolphin Part"
 msgstr "ডলফিন পার্ট"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:9
-#. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:9
-#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:18
-#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:9
-#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:18
-#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
-#. i18n: file: dolphin_columnmodesettings.kcfg:9
-#. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
-#: rc.cpp:3 rc.cpp:27 rc.cpp:150 rc.cpp:263 rc.cpp:341 rc.cpp:371
-msgctxt "@label"
-msgid "Font family"
-msgstr "ফন্ট ফ্যামিলি"
+#. i18n: file: dolphinpart.rc:4
+#. i18n: ectx: Menu (edit)
+#: rc.cpp:3 rc.cpp:47
+msgid "&Edit"
+msgstr "সম্পা&দনা"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:13
-#. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:13
-#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:14
-#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:13
-#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:14
-#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
-#. i18n: file: dolphin_columnmodesettings.kcfg:13
-#. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
-#: rc.cpp:6 rc.cpp:30 rc.cpp:147 rc.cpp:266 rc.cpp:338 rc.cpp:374
-msgctxt "@label"
-msgid "Use system font"
-msgstr "সিস্টেম ফন্ট ব্যবহার করো"
+#. i18n: file: dolphinpart.rc:16
+#. i18n: ectx: Menu (view)
+#: rc.cpp:6 rc.cpp:50
+msgid "&View"
+msgstr "ভি&উ"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:17
-#. i18n: ectx: label, entry (FontSize), group (ColumnMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:17
-#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:22
-#. i18n: ectx: label, entry (FontSize), group (IconsMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:17
-#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:22
-#. i18n: ectx: label, entry (FontSize), group (IconsMode)
-#. i18n: file: dolphin_columnmodesettings.kcfg:17
-#. i18n: ectx: label, entry (FontSize), group (ColumnMode)
-#: rc.cpp:9 rc.cpp:33 rc.cpp:153 rc.cpp:269 rc.cpp:344 rc.cpp:377
-msgctxt "@label"
-msgid "Font size"
-msgstr "ফন্ট মাপ"
+#. i18n: file: dolphinpart.rc:18
+#. i18n: ectx: Menu (sort)
+#. i18n: file: dolphinui.rc:28
+#. i18n: ectx: Menu (sort)
+#. i18n: file: dolphinpart.rc:18
+#. i18n: ectx: Menu (sort)
+#. i18n: file: dolphinui.rc:28
+#. i18n: ectx: Menu (sort)
+#: rc.cpp:9 rc.cpp:27 rc.cpp:53 rc.cpp:71
+msgctxt "@title:menu"
+msgid "Sort By"
+msgstr "সাজাতে ব্যবহার করো"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:21
-#. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:21
-#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:26
-#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:21
-#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:26
-#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
-#. i18n: file: dolphin_columnmodesettings.kcfg:21
-#. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
-#: rc.cpp:12 rc.cpp:36 rc.cpp:156 rc.cpp:272 rc.cpp:347 rc.cpp:380
-msgctxt "@label Font style"
-msgid "Italic"
-msgstr "ইটালিক"
+#. i18n: file: dolphinpart.rc:32
+#. i18n: ectx: Menu (additional_info)
+#. i18n: file: dolphinui.rc:42
+#. i18n: ectx: Menu (additional_info)
+#. i18n: file: dolphinpart.rc:32
+#. i18n: ectx: Menu (additional_info)
+#. i18n: file: dolphinui.rc:42
+#. i18n: ectx: Menu (additional_info)
+#: rc.cpp:12 rc.cpp:30 rc.cpp:56 rc.cpp:74
+msgctxt "@title:menu"
+msgid "Additional Information"
+msgstr "অতিরিক্ত তথ্য"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:25
-#. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:25
-#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:30
-#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:25
-#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:30
-#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
-#. i18n: file: dolphin_columnmodesettings.kcfg:25
-#. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
-#: rc.cpp:15 rc.cpp:39 rc.cpp:159 rc.cpp:275 rc.cpp:350 rc.cpp:383
-msgctxt "@label"
-msgid "Font weight"
-msgstr "ফন্ট ওয়েট"
+#. i18n: file: dolphinpart.rc:46
+#. i18n: ectx: Menu (go)
+#: rc.cpp:15 rc.cpp:59
+msgid "&Go"
+msgstr "যা&ও"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:29
-#. i18n: ectx: label, entry (IconSize), group (ColumnMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:29
-#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:54
-#. i18n: ectx: label, entry (IconSize), group (IconsMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:29
-#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:54
-#. i18n: ectx: label, entry (IconSize), group (IconsMode)
-#. i18n: file: dolphin_columnmodesettings.kcfg:29
-#. i18n: ectx: label, entry (IconSize), group (ColumnMode)
-#: rc.cpp:18 rc.cpp:42 rc.cpp:171 rc.cpp:278 rc.cpp:362 rc.cpp:386
-msgctxt "@label"
-msgid "Icon size"
-msgstr "আইকন মাপ"
+#. i18n: file: dolphinpart.rc:54
+#. i18n: ectx: Menu (tools)
+#: rc.cpp:18 rc.cpp:62
+msgctxt "@title:menu"
+msgid "Tools"
+msgstr "টুল"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:33
-#. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:33
-#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:63
-#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
-#. i18n: file: dolphin_detailsmodesettings.kcfg:33
-#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
-#. i18n: file: dolphin_iconsmodesettings.kcfg:63
-#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
-#. i18n: file: dolphin_columnmodesettings.kcfg:33
-#. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
-#: rc.cpp:21 rc.cpp:45 rc.cpp:177 rc.cpp:281 rc.cpp:368 rc.cpp:389
-msgctxt "@label"
-msgid "Preview size"
-msgstr "প্রাকদর্শন মাপ"
+#. i18n: file: dolphinpart.rc:61
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:21 rc.cpp:65
+msgctxt "@title:menu"
+msgid "Dolphin Toolbar"
+msgstr "ডলফিন টুলবার"
 
-#. i18n: file: dolphin_columnmodesettings.kcfg:37
-#. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
-#: rc.cpp:24 rc.cpp:392
-msgctxt "@label"
-msgid "Column width"
-msgstr "কলাম প্রস্থ"
+#. i18n: file: dolphinui.rc:59
+#. i18n: ectx: Menu (panels)
+#: rc.cpp:33 rc.cpp:77
+msgctxt "@title:menu"
+msgid "Panels"
+msgstr "প্যানেল"
 
-#. i18n: file: dolphin_detailsmodesettings.kcfg:37
-#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
-#: rc.cpp:48 rc.cpp:284
+#. i18n: file: dolphinui.rc:66
+#. i18n: ectx: Menu (navigation_bar)
+#: rc.cpp:36 rc.cpp:80
+msgctxt "@title:menu"
+msgid "Navigation Bar"
+msgstr "ন্যাভিগেশন বার"
+
+#. i18n: file: dolphinui.rc:117
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:39 rc.cpp:83
+msgctxt "@title:menu"
+msgid "Main Toolbar"
+msgstr "প্রধান টুলবার"
+
+#. i18n: file: dolphinui.rc:129
+#. i18n: ectx: ToolBar (searchToolBar)
+#: rc.cpp:42 rc.cpp:86
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Main Toolbar"
+msgctxt "@title:menu"
+msgid "Search Toolbar"
+msgstr "প্রধান টুলবার"
+
+#: rc.cpp:43
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "দীপায়ন সরকার"
+
+#: rc.cpp:44
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "deepayan.sarkar@gmail.com"
+
+#. i18n: file: panels/information/newtagdialog.ui:39
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: rc.cpp:89
+msgctxt "@label Tag name"
+msgid "Name:"
+msgstr "নাম:"
+
+#. i18n: file: panels/information/newtagdialog.ui:82
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:92
 #, fuzzy
 msgctxt "@label"
-msgid "Expandable folders"
-msgstr "Expandable ফোল্ডার"
+msgid "Detailed description (optional):"
+msgstr "বিস্তারিত বর্ণনা (ঐচ্ছিক):"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:11
-#. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
-#. i18n: file: dolphin_folderspanelsettings.kcfg:7
+#. i18n: file: panels/folders/dolphin_folderspanelsettings.kcfg:7
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (FoldersPanel)
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:11
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:11
 #. i18n: ectx: label, entry (ShowHiddenFiles), group (Settings)
-#. i18n: file: dolphin_folderspanelsettings.kcfg:7
-#. i18n: ectx: label, entry (ShowHiddenFiles), group (FoldersPanel)
-#: rc.cpp:51 rc.cpp:93 rc.cpp:221 rc.cpp:308
+#: rc.cpp:95 rc.cpp:98
 msgctxt "@label"
 msgid "Show hidden files"
 msgstr "লুকানো ফাইল দেখাও"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:12
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ShowHiddenFiles), group (Settings)
-#: rc.cpp:54 rc.cpp:224
+#: rc.cpp:101
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1147,16 +850,16 @@ msgstr ""
 "একটি 'এর সঙ্গে লুকানো ফাইল, যেমন সেই শুরু করা হচ্ছেগুলি কখন এই অপশনটি সক্রিয় করা "
 "হয়।' , ফাইল দেখাতে দেখাওয়া হবে।"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:19
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:19
 #. i18n: ectx: label, entry (ViewMode), group (Dolphin)
-#: rc.cpp:57 rc.cpp:227
+#: rc.cpp:104
 msgctxt "@label"
 msgid "View Mode"
 msgstr "ভিউ মোড"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:20
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:20
 #. i18n: ectx: whatsthis, entry (ViewMode), group (Dolphin)
-#: rc.cpp:60 rc.cpp:230
+#: rc.cpp:107
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1166,16 +869,16 @@ msgstr ""
 "এই অপশনটি দেখার স্টাইল নিয়ন্ত্রণ করো। বর্তমানে সমর্থিত মান আইকনস্ অন্তর্ভুক্ত করো (), "
 "বিশদ বর্ণনা (১) এবং কলাম (২) দৃশ্য।"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:27
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:27
 #. i18n: ectx: label, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:63 rc.cpp:233
+#: rc.cpp:110
 msgctxt "@label"
 msgid "Show preview"
 msgstr "প্রাকদর্শন দেখাও"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:28
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:28
 #. i18n: ectx: whatsthis, entry (ShowPreview), group (Dolphin)
-#: rc.cpp:66 rc.cpp:236
+#: rc.cpp:113
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1185,17 +888,17 @@ msgstr ""
 "কখন এই অপশনটি সক্রিয় করা হয়, ফাইল ভিতরের উপাদানের একটি প্রাকদর্শন একটি আইকন "
 "হিসেবে দেখাওয়া হয়।"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:33
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:33
 #. i18n: ectx: label, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:69 rc.cpp:239
+#: rc.cpp:116
 #, fuzzy
 msgctxt "@label"
 msgid "Categorized Sorting"
 msgstr "Categorized সাজানো"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:34
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:34
 #. i18n: ectx: whatsthis, entry (CategorizedSorting), group (Dolphin)
-#: rc.cpp:72 rc.cpp:242
+#: rc.cpp:119
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1205,16 +908,16 @@ msgstr ""
 "কখন এই অপশনটি সক্রিয় করা হয়, সজ্জিত পদগুলো তাদের শ্রেণীবিভাগের মধ্যে summarizeওয়া "
 "হয়।"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:39
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:39
 #. i18n: ectx: label, entry (Sorting), group (Dolphin)
-#: rc.cpp:75 rc.cpp:245
+#: rc.cpp:122
 msgctxt "@label"
 msgid "Sort files by"
 msgstr "ফাইল সাজাতে ব্যবহার করো"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:40
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:40
 #. i18n: ectx: whatsthis, entry (Sorting), group (Dolphin)
-#: rc.cpp:78 rc.cpp:248
+#: rc.cpp:125
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid ""
@@ -1224,452 +927,453 @@ msgstr ""
 "এই অপশনটি সংজ্ঞায়িত করো যেটি বৈশিষ্ট্যো (নাম, মাপ, তারিখ, ইত্যাদি) সাজানো ে কর্ম "
 "সম্পাদন করা হয়।"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:47
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:47
 #. i18n: ectx: label, entry (SortOrder), group (Dolphin)
-#: rc.cpp:81 rc.cpp:251
+#: rc.cpp:128
 msgctxt "@label"
 msgid "Order in which to sort files"
 msgstr "যে ক্রমে ফাইল সাজানো হবে"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:54
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:54
 #. i18n: ectx: label, entry (AdditionalInfo), group (Dolphin)
-#: rc.cpp:84 rc.cpp:254
+#: rc.cpp:131
 msgctxt "@label"
 msgid "Additional information"
 msgstr "অতিরিক্ত তথ্য"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:59
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:59
 #. i18n: ectx: label, entry (Timestamp), group (Dolphin)
-#: rc.cpp:87 rc.cpp:257
+#: rc.cpp:134
 msgctxt "@label"
 msgid "Properties last changed"
 msgstr "প্রকৃতি শেষ পরিবর্তিত"
 
-#. i18n: file: dolphin_directoryviewpropertysettings.kcfg:60
+#. i18n: file: settings/dolphin_directoryviewpropertysettings.kcfg:60
 #. i18n: ectx: whatsthis, entry (Timestamp), group (Dolphin)
-#: rc.cpp:90 rc.cpp:260
+#: rc.cpp:137
 #, fuzzy
 msgctxt "@info:whatsthis"
 msgid "The last time these properties were changed by the user."
 msgstr "শেষ সময় এই বৈশিষ্ট্যাবলী ব্যবহারকারীর দ্বারা পরিবর্তন করা হয়েছিল।"
 
-#. i18n: file: dolphin_generalsettings.kcfg:8
-#. i18n: ectx: label, entry (EditableUrl), group (General)
-#: rc.cpp:96 rc.cpp:395
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:9
+#. i18n: ectx: label, entry (FontFamily), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:18
+#. i18n: ectx: label, entry (FontFamily), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:9
+#. i18n: ectx: label, entry (FontFamily), group (ColumnMode)
+#: rc.cpp:140 rc.cpp:170 rc.cpp:200
+msgctxt "@label"
+msgid "Font family"
+msgstr "ফন্ট ফ্যামিলি"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:13
+#. i18n: ectx: label, entry (UseSystemFont), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:14
+#. i18n: ectx: label, entry (UseSystemFont), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:13
+#. i18n: ectx: label, entry (UseSystemFont), group (ColumnMode)
+#: rc.cpp:143 rc.cpp:167 rc.cpp:203
+msgctxt "@label"
+msgid "Use system font"
+msgstr "সিস্টেম ফন্ট ব্যবহার করো"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:17
+#. i18n: ectx: label, entry (FontSize), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:22
+#. i18n: ectx: label, entry (FontSize), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:17
+#. i18n: ectx: label, entry (FontSize), group (ColumnMode)
+#: rc.cpp:146 rc.cpp:173 rc.cpp:206
+msgctxt "@label"
+msgid "Font size"
+msgstr "ফন্ট মাপ"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:21
+#. i18n: ectx: label, entry (ItalicFont), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:26
+#. i18n: ectx: label, entry (ItalicFont), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:21
+#. i18n: ectx: label, entry (ItalicFont), group (ColumnMode)
+#: rc.cpp:149 rc.cpp:176 rc.cpp:209
+msgctxt "@label Font style"
+msgid "Italic"
+msgstr "ইটালিক"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:25
+#. i18n: ectx: label, entry (FontWeight), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:30
+#. i18n: ectx: label, entry (FontWeight), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:25
+#. i18n: ectx: label, entry (FontWeight), group (ColumnMode)
+#: rc.cpp:152 rc.cpp:179 rc.cpp:212
+msgctxt "@label"
+msgid "Font weight"
+msgstr "ফন্ট ওয়েট"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:29
+#. i18n: ectx: label, entry (IconSize), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:54
+#. i18n: ectx: label, entry (IconSize), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:29
+#. i18n: ectx: label, entry (IconSize), group (ColumnMode)
+#: rc.cpp:155 rc.cpp:191 rc.cpp:215
+msgctxt "@label"
+msgid "Icon size"
+msgstr "আইকন মাপ"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:33
+#. i18n: ectx: label, entry (PreviewSize), group (DetailsMode)
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:63
+#. i18n: ectx: label, entry (PreviewSize), group (IconsMode)
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:33
+#. i18n: ectx: label, entry (PreviewSize), group (ColumnMode)
+#: rc.cpp:158 rc.cpp:197 rc.cpp:218
+msgctxt "@label"
+msgid "Preview size"
+msgstr "প্রাকদর্শন মাপ"
+
+#. i18n: file: settings/dolphin_detailsmodesettings.kcfg:37
+#. i18n: ectx: label, entry (ExpandableFolders), group (DetailsMode)
+#: rc.cpp:161
 #, fuzzy
 msgctxt "@label"
-msgid "Should the URL be editable for the user"
-msgstr "ইউআরএল কির ব্যবহারকারীর জন্য editable"
+msgid "Expandable folders"
+msgstr "Expandable ফোল্ডার"
 
-#. i18n: file: dolphin_generalsettings.kcfg:12
-#. i18n: ectx: label, entry (ShowFullPath), group (General)
-#: rc.cpp:99 rc.cpp:398
-#, fuzzy
-msgctxt "@label"
-msgid "Should the full path be shown inside the location bar"
-msgstr "পূর্ণ রাস্তা কির অবস্থান বাঁধা দেয়ার ভেতরে দেখাওয়া উচিত"
-
-#. i18n: file: dolphin_generalsettings.kcfg:16
-#. i18n: ectx: label, entry (FirstRun), group (General)
-#: rc.cpp:102 rc.cpp:401
-msgctxt "@label"
-msgid "Is the application started the first time"
-msgstr "অ্যাপলিকেশন প্রথম বার চালানো হয়েছে কি না"
-
-#. i18n: file: dolphin_generalsettings.kcfg:20
-#. i18n: ectx: label, entry (HomeUrl), group (General)
-#: rc.cpp:105 rc.cpp:404
-msgctxt "@label"
-msgid "Home URL"
-msgstr "গৃহ ইউ-আর-এল"
-
-#. i18n: file: dolphin_generalsettings.kcfg:24
-#. i18n: ectx: label, entry (SplitView), group (General)
-#: rc.cpp:108 rc.cpp:407
-msgctxt "@label"
-msgid "Split the view into two panes"
-msgstr "ভিউ দুটি পেন-এ বিভক্ত করো"
-
-#. i18n: file: dolphin_generalsettings.kcfg:28
-#. i18n: ectx: label, entry (FilterBar), group (General)
-#: rc.cpp:111 rc.cpp:410
-msgctxt "@label"
-msgid "Should the filter bar be shown"
-msgstr "ফিল্টার বার দেখানো হবে কি না"
-
-#. i18n: file: dolphin_generalsettings.kcfg:32
-#. i18n: ectx: label, entry (GlobalViewProps), group (General)
-#: rc.cpp:114 rc.cpp:413
-#, fuzzy
-msgctxt "@label"
-msgid "Should the view properties be used for all directories"
-msgstr "দেখা কি বৈশিষ্ট্যাবলীর সমস্ত ডিরেক্টরীর জন্য ব্যবহার করা উচিত"
-
-#. i18n: file: dolphin_generalsettings.kcfg:36
-#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
-#: rc.cpp:117 rc.cpp:416
-msgctxt "@label"
-msgid "Browse through archives"
-msgstr "আর্কাইভ ব্রাউজ করো"
-
-#. i18n: file: dolphin_generalsettings.kcfg:40
-#. i18n: ectx: label, entry (RenameInline), group (General)
-#: rc.cpp:120 rc.cpp:419
-msgctxt "@label"
-msgid "Rename inline"
-msgstr "নিজস্থানে নামান্তর করো"
-
-#. i18n: file: dolphin_generalsettings.kcfg:44
-#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
-#: rc.cpp:123 rc.cpp:422
-#, fuzzy
-msgctxt "@label"
-msgid "Show selection toggle"
-msgstr "নির্বাচন দেখাও টোগল করো"
-
-#. i18n: file: dolphin_generalsettings.kcfg:48
-#. i18n: ectx: label, entry (ShowToolTips), group (General)
-#: rc.cpp:126 rc.cpp:425
-msgctxt "@label"
-msgid "Show tooltips"
-msgstr "টুলটিপ দেখাও"
-
-#. i18n: file: dolphin_generalsettings.kcfg:52
-#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
-#: rc.cpp:129 rc.cpp:428
-msgctxt "@label"
-msgid "Show 'Copy To' and 'Move To' commands in context menu"
-msgstr "প্রাসঙ্গিক মেনুতে 'কপি করো' এবং 'সরাও' কমান্ড দেখাও"
-
-#. i18n: file: dolphin_generalsettings.kcfg:56
-#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
-#: rc.cpp:132 rc.cpp:431
-#, fuzzy
-msgctxt "@label"
-msgid "Timestamp since when the view properties are valid"
-msgstr "থেকে Timestamp যখন দেখা বৈশিষ্ট্যাবলী বৈধ আছে"
-
-#. i18n: file: dolphin_generalsettings.kcfg:59
-#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
-#: rc.cpp:135 rc.cpp:434
-#, fuzzy
-msgctxt "@label"
-msgid "Use auto-expanding folders for all view types"
-msgstr "সমস্ত দেখা ধরনের জন্য auto-expanding ফোল্ডার ব্যবহার করো"
-
-#. i18n: file: dolphin_generalsettings.kcfg:63
-#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
-#: rc.cpp:138 rc.cpp:437
-msgctxt "@label"
-msgid "Show zoom slider in the statusbar"
-msgstr "স্ট্যাটাস বারে ছোটবড় করার জন্য স্লাইডার দেখাও"
-
-#. i18n: file: dolphin_generalsettings.kcfg:67
-#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
-#: rc.cpp:141 rc.cpp:440
-msgctxt "@label"
-msgid "Show the space information in the statusbar"
-msgstr "স্ট্যাটাস বারে ডিস্ক-এ ফাঁকা জায়গা সম্বন্ধে তথ্য দেখাও"
-
-#. i18n: file: dolphin_iconsmodesettings.kcfg:10
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:10
 #. i18n: ectx: label, entry (Arrangement), group (IconsMode)
-#: rc.cpp:144 rc.cpp:335
+#: rc.cpp:164
 #, fuzzy
 msgctxt "@label"
 msgid "Arrangement"
 msgstr "সুসজ্জায়ন"
 
-#. i18n: file: dolphin_iconsmodesettings.kcfg:34
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:34
 #. i18n: ectx: label, entry (ItemHeight), group (IconsMode)
-#: rc.cpp:162 rc.cpp:353
+#: rc.cpp:182
 msgctxt "@label"
 msgid "Item height"
 msgstr "বস্তুর উচ্চতা"
 
-#. i18n: file: dolphin_iconsmodesettings.kcfg:42
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:42
 #. i18n: ectx: label, entry (ItemWidth), group (IconsMode)
-#: rc.cpp:165 rc.cpp:356
+#: rc.cpp:185
 msgctxt "@label"
 msgid "Item width"
 msgstr "বস্তুর প্রস্থ"
 
-#. i18n: file: dolphin_iconsmodesettings.kcfg:50
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:50
 #. i18n: ectx: label, entry (GridSpacing), group (IconsMode)
-#: rc.cpp:168 rc.cpp:359
+#: rc.cpp:188
 #, fuzzy
 msgctxt "@label"
 msgid "Grid spacing"
 msgstr "Grid spacing"
 
-#. i18n: file: dolphin_iconsmodesettings.kcfg:58
+#. i18n: file: settings/dolphin_iconsmodesettings.kcfg:58
 #. i18n: ectx: label, entry (NumberOfTextlines), group (IconsMode)
-#: rc.cpp:174 rc.cpp:365
+#: rc.cpp:194
 #, fuzzy
 msgctxt "@label"
 msgid "Number of textlines"
 msgstr "textlinesএর সংখ্যা"
 
-#. i18n: file: dolphinpart.rc:4
-#. i18n: ectx: Menu (edit)
-#: rc.cpp:180 rc.cpp:287
-msgid "&Edit"
-msgstr "সম্পা&দনা"
+#. i18n: file: settings/dolphin_columnmodesettings.kcfg:37
+#. i18n: ectx: label, entry (ColumnWidth), group (ColumnMode)
+#: rc.cpp:221
+msgctxt "@label"
+msgid "Column width"
+msgstr "কলাম প্রস্থ"
 
-#. i18n: file: dolphinpart.rc:16
-#. i18n: ectx: Menu (view)
-#: rc.cpp:183 rc.cpp:290
-msgid "&View"
-msgstr "ভি&উ"
-
-#. i18n: file: dolphinpart.rc:18
-#. i18n: ectx: Menu (sort)
-#. i18n: file: dolphinui.rc:27
-#. i18n: ectx: Menu (sort)
-#. i18n: file: dolphinpart.rc:18
-#. i18n: ectx: Menu (sort)
-#. i18n: file: dolphinui.rc:27
-#. i18n: ectx: Menu (sort)
-#: rc.cpp:186 rc.cpp:204 rc.cpp:293 rc.cpp:314
-msgctxt "@title:menu"
-msgid "Sort By"
-msgstr "সাজাতে ব্যবহার করো"
-
-#. i18n: file: dolphinpart.rc:32
-#. i18n: ectx: Menu (additional_info)
-#. i18n: file: dolphinui.rc:41
-#. i18n: ectx: Menu (additional_info)
-#. i18n: file: dolphinpart.rc:32
-#. i18n: ectx: Menu (additional_info)
-#. i18n: file: dolphinui.rc:41
-#. i18n: ectx: Menu (additional_info)
-#: rc.cpp:189 rc.cpp:207 rc.cpp:296 rc.cpp:317
-msgctxt "@title:menu"
-msgid "Additional Information"
-msgstr "অতিরিক্ত তথ্য"
-
-#. i18n: file: dolphinpart.rc:46
-#. i18n: ectx: Menu (go)
-#: rc.cpp:192 rc.cpp:299
-msgid "&Go"
-msgstr "যা&ও"
-
-#. i18n: file: dolphinpart.rc:54
-#. i18n: ectx: Menu (tools)
-#: rc.cpp:195 rc.cpp:302
-msgctxt "@title:menu"
-msgid "Tools"
-msgstr "টুল"
-
-#. i18n: file: dolphinpart.rc:61
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:198 rc.cpp:305
-msgctxt "@title:menu"
-msgid "Dolphin Toolbar"
-msgstr "ডলফিন টুলবার"
-
-#. i18n: file: dolphinui.rc:58
-#. i18n: ectx: Menu (panels)
-#: rc.cpp:210 rc.cpp:320
-msgctxt "@title:menu"
-msgid "Panels"
-msgstr "প্যানেল"
-
-#. i18n: file: dolphinui.rc:65
-#. i18n: ectx: Menu (navigation_bar)
-#: rc.cpp:213 rc.cpp:323
-msgctxt "@title:menu"
-msgid "Navigation Bar"
-msgstr "ন্যাভিগেশন বার"
-
-#. i18n: file: dolphinui.rc:116
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:216 rc.cpp:326
-msgctxt "@title:menu"
-msgid "Main Toolbar"
-msgstr "প্রধান টুলবার"
-
-#: rc.cpp:217
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "দীপায়ন সরকার"
-
-#: rc.cpp:218
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "deepayan.sarkar@gmail.com"
-
-#. i18n: file: tagcloud/newtagdialog.ui:39
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:329
-msgctxt "@label Tag name"
-msgid "Name:"
-msgstr "নাম:"
-
-#. i18n: file: tagcloud/newtagdialog.ui:82
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:332
+#. i18n: file: settings/dolphin_generalsettings.kcfg:8
+#. i18n: ectx: label, entry (EditableUrl), group (General)
+#: rc.cpp:224
 #, fuzzy
 msgctxt "@label"
-msgid "Detailed description (optional):"
-msgstr "বিস্তারিত বর্ণনা (ঐচ্ছিক):"
+msgid "Should the URL be editable for the user"
+msgstr "ইউআরএল কির ব্যবহারকারীর জন্য editable"
 
-#: dolphinmainwindow.cpp:148
+#. i18n: file: settings/dolphin_generalsettings.kcfg:12
+#. i18n: ectx: label, entry (ShowFullPath), group (General)
+#: rc.cpp:227
+#, fuzzy
+msgctxt "@label"
+msgid "Should the full path be shown inside the location bar"
+msgstr "পূর্ণ রাস্তা কির অবস্থান বাঁধা দেয়ার ভেতরে দেখাওয়া উচিত"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:16
+#. i18n: ectx: label, entry (FirstRun), group (General)
+#: rc.cpp:230
+msgctxt "@label"
+msgid "Is the application started the first time"
+msgstr "অ্যাপলিকেশন প্রথম বার চালানো হয়েছে কি না"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:20
+#. i18n: ectx: label, entry (HomeUrl), group (General)
+#: rc.cpp:233
+msgctxt "@label"
+msgid "Home URL"
+msgstr "গৃহ ইউ-আর-এল"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:24
+#. i18n: ectx: label, entry (SplitView), group (General)
+#: rc.cpp:236
+msgctxt "@label"
+msgid "Split the view into two panes"
+msgstr "ভিউ দুটি পেন-এ বিভক্ত করো"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:28
+#. i18n: ectx: label, entry (FilterBar), group (General)
+#: rc.cpp:239
+msgctxt "@label"
+msgid "Should the filter bar be shown"
+msgstr "ফিল্টার বার দেখানো হবে কি না"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:32
+#. i18n: ectx: label, entry (GlobalViewProps), group (General)
+#: rc.cpp:242
+#, fuzzy
+msgctxt "@label"
+msgid "Should the view properties be used for all directories"
+msgstr "দেখা কি বৈশিষ্ট্যাবলীর সমস্ত ডিরেক্টরীর জন্য ব্যবহার করা উচিত"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:36
+#. i18n: ectx: label, entry (BrowseThroughArchives), group (General)
+#: rc.cpp:245
+msgctxt "@label"
+msgid "Browse through archives"
+msgstr "আর্কাইভ ব্রাউজ করো"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:40
+#. i18n: ectx: label, entry (RenameInline), group (General)
+#: rc.cpp:248
+msgctxt "@label"
+msgid "Rename inline"
+msgstr "নিজস্থানে নামান্তর করো"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:44
+#. i18n: ectx: label, entry (ShowSelectionToggle), group (General)
+#: rc.cpp:251
+#, fuzzy
+msgctxt "@label"
+msgid "Show selection toggle"
+msgstr "নির্বাচন দেখাও টোগল করো"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:48
+#. i18n: ectx: label, entry (ShowToolTips), group (General)
+#: rc.cpp:254
+msgctxt "@label"
+msgid "Show tooltips"
+msgstr "টুলটিপ দেখাও"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:52
+#. i18n: ectx: label, entry (ShowCopyMoveMenu), group (General)
+#: rc.cpp:257
+msgctxt "@label"
+msgid "Show 'Copy To' and 'Move To' commands in context menu"
+msgstr "প্রাসঙ্গিক মেনুতে 'কপি করো' এবং 'সরাও' কমান্ড দেখাও"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:56
+#. i18n: ectx: label, entry (ViewPropsTimestamp), group (General)
+#: rc.cpp:260
+#, fuzzy
+msgctxt "@label"
+msgid "Timestamp since when the view properties are valid"
+msgstr "থেকে Timestamp যখন দেখা বৈশিষ্ট্যাবলী বৈধ আছে"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:59
+#. i18n: ectx: label, entry (AutoExpandFolders), group (General)
+#: rc.cpp:263
+#, fuzzy
+msgctxt "@label"
+msgid "Use auto-expanding folders for all view types"
+msgstr "সমস্ত দেখা ধরনের জন্য auto-expanding ফোল্ডার ব্যবহার করো"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:63
+#. i18n: ectx: label, entry (ShowZoomSlider), group (General)
+#: rc.cpp:266
+msgctxt "@label"
+msgid "Show zoom slider in the statusbar"
+msgstr "স্ট্যাটাস বারে ছোটবড় করার জন্য স্লাইডার দেখাও"
+
+#. i18n: file: settings/dolphin_generalsettings.kcfg:67
+#. i18n: ectx: label, entry (ShowSpaceInfo), group (General)
+#: rc.cpp:269
+msgctxt "@label"
+msgid "Show the space information in the statusbar"
+msgstr "স্ট্যাটাস বারে ডিস্ক-এ ফাঁকা জায়গা সম্বন্ধে তথ্য দেখাও"
+
+#: dolphinmainwindow.cpp:152
 msgctxt "@info:status"
 msgid "Copy operation completed."
 msgstr "কপি করা সম্পন্ন।"
 
-#: dolphinmainwindow.cpp:152
+#: dolphinmainwindow.cpp:156
 msgctxt "@info:status"
 msgid "Move operation completed."
 msgstr "সরানো সম্পন্ন।"
 
-#: dolphinmainwindow.cpp:156
+#: dolphinmainwindow.cpp:160
 msgctxt "@info:status"
 msgid "Link operation completed."
 msgstr "লিঙ্ক করা সম্পন্ন।"
 
-#: dolphinmainwindow.cpp:160
+#: dolphinmainwindow.cpp:164
 msgctxt "@info:status"
 msgid "Move to trash operation completed."
 msgstr "আবর্জনার বাক্সে সরানো সম্পন্ন।"
 
-#: dolphinmainwindow.cpp:164
+#: dolphinmainwindow.cpp:168
 msgctxt "@info:status"
 msgid "Renaming operation completed."
 msgstr "নামান্তর করা সম্পন্ন।"
 
-#: dolphinmainwindow.cpp:169
+#: dolphinmainwindow.cpp:173
 msgctxt "@info:status"
 msgid "Created folder."
 msgstr "ফোল্ডার তৈরী করা হয়েছে।"
 
-#: dolphinmainwindow.cpp:798
+#: dolphinmainwindow.cpp:803
 msgctxt "@action:inmenu"
 msgid "New Tab"
 msgstr "নতুন ট্যাব"
 
-#: dolphinmainwindow.cpp:801
+#: dolphinmainwindow.cpp:806
 msgctxt "@action:inmenu"
 msgid "Close Other Tabs"
 msgstr "অন্যান্য ট্যাব বন্ধ করো"
 
-#: dolphinmainwindow.cpp:803
+#: dolphinmainwindow.cpp:808
 msgctxt "@action:inmenu"
 msgid "Close Tab"
 msgstr "ট্যাব বন্ধ করো"
 
-#: dolphinmainwindow.cpp:974
+#: dolphinmainwindow.cpp:988
 msgctxt "@action:inmenu File"
 msgid "New &Window"
 msgstr "নতুন &উইণ্ডো"
 
-#: dolphinmainwindow.cpp:980
+#: dolphinmainwindow.cpp:994
 msgctxt "@action:inmenu File"
 msgid "New Tab"
 msgstr "নতুন ট্যাব"
 
-#: dolphinmainwindow.cpp:984
+#: dolphinmainwindow.cpp:1000
 msgctxt "@action:inmenu File"
 msgid "Close Tab"
 msgstr "ট্যাব বন্ধ করো"
 
-#: dolphinmainwindow.cpp:1007
+#: dolphinmainwindow.cpp:1022
 msgctxt "@action:inmenu Edit"
 msgid "Select All"
 msgstr "সব নির্বাচন করো"
 
-#: dolphinmainwindow.cpp:1012
+#: dolphinmainwindow.cpp:1027
 msgctxt "@action:inmenu Edit"
 msgid "Invert Selection"
 msgstr "নির্বাচন বিপরীত অবস্থায় আনো"
 
-#: dolphinmainwindow.cpp:1025
+#: dolphinmainwindow.cpp:1040
 msgctxt "@action:inmenu View"
 msgid "Reload"
 msgstr "নতুন করে পড়ো"
 
-#: dolphinmainwindow.cpp:1031
+#: dolphinmainwindow.cpp:1046
 msgctxt "@action:inmenu View"
 msgid "Stop"
 msgstr "থামাও"
 
-#: dolphinmainwindow.cpp:1036
+#: dolphinmainwindow.cpp:1051
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Editable Location"
 msgstr "সম্পাদনযোগ্য অবস্থান"
 
-#: dolphinmainwindow.cpp:1041
+#: dolphinmainwindow.cpp:1056
 #, fuzzy
 msgctxt "@action:inmenu Navigation Bar"
 msgid "Replace Location"
 msgstr "অবস্থান প্রতিস্থাপন করো"
 
-#: dolphinmainwindow.cpp:1057
+#: dolphinmainwindow.cpp:1072
+#, fuzzy
+#| msgctxt "@action:inmenu Tools"
+#| msgid "Show Filter Bar"
+msgctxt "@action:inmenu Tools"
+msgid "Show Search Bar"
+msgstr "ফিল্টার বার দেখাও"
+
+#: dolphinmainwindow.cpp:1077
 msgctxt "@action:inmenu Tools"
 msgid "Show Filter Bar"
 msgstr "ফিল্টার বার দেখাও"
 
-#: dolphinmainwindow.cpp:1062
+#: dolphinmainwindow.cpp:1082
 msgctxt "@action:inmenu Tools"
 msgid "Compare Files"
 msgstr "ফাইল তুলনা করো"
 
-#: dolphinmainwindow.cpp:1070
+#: dolphinmainwindow.cpp:1090
 msgctxt "@action:inmenu Tools"
 msgid "Quick View"
 msgstr "চটপট ভিউ"
 
-#: dolphinmainwindow.cpp:1083
+#: dolphinmainwindow.cpp:1103
 msgctxt "@action:inmenu"
 msgid "Activate Next Tab"
 msgstr "পরবর্তী ট্যাব সক্রিয় করো"
 
-#: dolphinmainwindow.cpp:1089
+#: dolphinmainwindow.cpp:1109
 msgctxt "@action:inmenu"
 msgid "Activate Previous Tab"
 msgstr "পূর্ববর্তী ট্যাব সক্রিয় করো"
 
-#: dolphinmainwindow.cpp:1096
+#: dolphinmainwindow.cpp:1116
 msgctxt "@action:inmenu"
 msgid "Open in New Tab"
 msgstr "নতুন ট্যাবে খোলা"
 
-#: dolphinmainwindow.cpp:1101
+#: dolphinmainwindow.cpp:1121
 msgctxt "@action:inmenu"
 msgid "Open in New Window"
 msgstr "নতুন উইণ্ডোয় খোলো"
 
-#: dolphinmainwindow.cpp:1109 dolphinmainwindow.cpp:1116
+#: dolphinmainwindow.cpp:1131
+msgctxt "@action:inmenu"
+msgid "Search Bar"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1139 dolphinmainwindow.cpp:1146
 msgctxt "@title:window"
 msgid "Information"
 msgstr "তথ্য"
 
-#: dolphinmainwindow.cpp:1130 dolphinmainwindow.cpp:1137
+#: dolphinmainwindow.cpp:1160 dolphinmainwindow.cpp:1167
 msgctxt "@title:window"
 msgid "Folders"
 msgstr "ফোল্ডার"
 
-#: dolphinmainwindow.cpp:1152 dolphinmainwindow.cpp:1161
+#: dolphinmainwindow.cpp:1182 dolphinmainwindow.cpp:1191
 msgctxt "@title:window Shell terminal"
 msgid "Terminal"
 msgstr "টার্মিনাল"
 
-#: dolphinmainwindow.cpp:1179 dolphinmainwindow.cpp:1189
+#: dolphinmainwindow.cpp:1209 dolphinmainwindow.cpp:1219
 msgctxt "@title:window"
 msgid "Places"
 msgstr "স্থান"
 
-#: dolphinmainwindow.cpp:1283
+#: dolphinmainwindow.cpp:1313
 msgctxt "@action:intoolbar Close right view"
 msgid "Close"
 msgstr "বন্ধ করো"
 
-#: dolphinmainwindow.cpp:1286
+#: dolphinmainwindow.cpp:1316
 msgctxt "@action:intoolbar Close left view"
 msgid "Close"
 msgstr "বন্ধ করো"
 
-#: dolphinmainwindow.cpp:1290
+#: dolphinmainwindow.cpp:1320
 msgctxt "@action:intoolbar Split view"
 msgid "Split"
 msgstr "ভাগ করো"
@@ -1690,146 +1394,543 @@ msgctxt "@info:tooltip"
 msgid "Select Item"
 msgstr "বস্তু নির্বাচন করো"
 
-#: viewpropertiesdialog.cpp:77
+#: settings/iconsizegroupbox.cpp:35
+msgctxt "@title:group"
+msgid "Icon Size"
+msgstr "আইকন মাপ"
+
+#: settings/iconsizegroupbox.cpp:39
+msgctxt "@label:listbox"
+msgid "Default:"
+msgstr "ডিফল্ট:"
+
+#: settings/iconsizegroupbox.cpp:46
+msgctxt "@label:listbox"
+msgid "Preview:"
+msgstr "প্রাকদর্শন:"
+
+#: settings/iconsizegroupbox.cpp:109 dolphinstatusbar.cpp:309
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "মাপ:১ পিক্সেল"
+msgstr[1] "মাপ: %1 পিক্সেল"
+
+#: settings/statusbarsettingspage.cpp:40
+msgctxt "@option:check"
+msgid "Show zoom slider"
+msgstr "ছোটবড় করার জন্য স্লাইডার দেখাও"
+
+#: settings/statusbarsettingspage.cpp:43
+msgctxt "@option:check"
+msgid "Show space information"
+msgstr "ফাঁকা জায়গা সম্বন্ধে তথ্য দেখাও"
+
+#: settings/dolphinfontrequester.cpp:40
+msgctxt "@item:inlistbox Font"
+msgid "System Font"
+msgstr "সিস্টেম ফন্ট"
+
+#: settings/dolphinfontrequester.cpp:41
+msgctxt "@item:inlistbox Font"
+msgid "Custom Font"
+msgstr "স্বনির্বাচিত ফন্ট"
+
+#: settings/dolphinfontrequester.cpp:45
+msgctxt "@action:button Choose font"
+msgid "Choose..."
+msgstr "পছন্দ করো..."
+
+#: settings/generalsettingspage.cpp:58
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Context Menu"
+msgctxt "@title:tab Context Menu settings"
+msgid "Context Menu"
+msgstr "প্রাসঙ্গিক মেনু"
+
+#: settings/generalsettingspage.cpp:63
+#, fuzzy
+#| msgctxt "@title:group"
+#| msgid "Status Bar"
+msgctxt "@title:tab Status Bar settings"
+msgid "Status Bar"
+msgstr "স্ট্যাটাস বার"
+
+#: settings/previewssettingspage.cpp:55
+msgctxt "@label:slider"
+msgid "Maximum file size:"
+msgstr "সর্বাধিক ফাইল মাপ:"
+
+#: settings/previewssettingspage.cpp:70
+msgctxt "@option:check"
+msgid "Use thumbnails embedded in files"
+msgstr "ফাইলে সন্নিবিষ্ট থাম্ব-নেইল ব্যবহার করো"
+
+#: settings/viewpropsprogressinfo.cpp:49
+msgctxt "@title:window"
+msgid "Applying View Properties"
+msgstr "ভিউ প্রকৃতি প্রয়োগ করা হচ্ছে"
+
+#: settings/viewpropsprogressinfo.cpp:62
+#: settings/viewpropsprogressinfo.cpp:109
+#, kde-format
+msgctxt "@info:progress"
+msgid "Counting folders: %1"
+msgstr "ফোল্ডার গণনা চলছে: %1"
+
+#: settings/viewpropsprogressinfo.cpp:125
+#, kde-format
+msgctxt "@info:progress"
+msgid "Folders: %1"
+msgstr "ফোল্ডার: %1"
+
+#: settings/columnviewsettingspage.cpp:68
+#: settings/iconsviewsettingspage.cpp:76
+#: settings/detailsviewsettingspage.cpp:68
+msgctxt "@title:group"
+msgid "Text"
+msgstr "লেখা"
+
+#: settings/columnviewsettingspage.cpp:71
+#: settings/iconsviewsettingspage.cpp:79
+#: settings/detailsviewsettingspage.cpp:71
+msgctxt "@label:listbox"
+msgid "Font:"
+msgstr "ফন্ট:"
+
+#: settings/columnviewsettingspage.cpp:75
+#: settings/iconsviewsettingspage.cpp:89
+msgctxt "@label:listbox"
+msgid "Text width:"
+msgstr "লেখা প্রস্থ:"
+
+#: settings/columnviewsettingspage.cpp:77
+#: settings/iconsviewsettingspage.cpp:91
+msgctxt "@item:inlistbox Text width"
+msgid "Small"
+msgstr "ছোট"
+
+#: settings/columnviewsettingspage.cpp:78
+#: settings/iconsviewsettingspage.cpp:92
+msgctxt "@item:inlistbox Text width"
+msgid "Medium"
+msgstr "মাঝারি"
+
+#: settings/columnviewsettingspage.cpp:79
+#: settings/iconsviewsettingspage.cpp:93
+msgctxt "@item:inlistbox Text width"
+msgid "Large"
+msgstr "বড়"
+
+#: settings/iconsviewsettingspage.cpp:83
+msgctxt "@label:textbox"
+msgid "Number of lines:"
+msgstr "লাইনের সংখ্যা:"
+
+#: settings/iconsviewsettingspage.cpp:94
+msgctxt "@item:inlistbox Text width"
+msgid "Huge"
+msgstr "বিশাল"
+
+#: settings/iconsviewsettingspage.cpp:106
+msgctxt "@title:group"
+msgid "Grid"
+msgstr "সারিবদ্ধ"
+
+#: settings/iconsviewsettingspage.cpp:109
+#, fuzzy
+msgctxt "@label:listbox"
+msgid "Arrangement:"
+msgstr "সুসজ্জায়ন:"
+
+#: settings/iconsviewsettingspage.cpp:111
+msgctxt "@item:inlistbox Arrangement"
+msgid "Columns"
+msgstr "কলাম"
+
+#: settings/iconsviewsettingspage.cpp:112
+msgctxt "@item:inlistbox Arrangement"
+msgid "Rows"
+msgstr "সারি"
+
+#: settings/iconsviewsettingspage.cpp:115
+#, fuzzy
+msgctxt "@label:listbox"
+msgid "Grid spacing:"
+msgstr "Grid spacing:"
+
+#: settings/iconsviewsettingspage.cpp:117
+msgctxt "@item:inlistbox Grid spacing"
+msgid "None"
+msgstr "কিছু না"
+
+#: settings/iconsviewsettingspage.cpp:118
+msgctxt "@item:inlistbox Grid spacing"
+msgid "Small"
+msgstr "ছোট"
+
+#: settings/iconsviewsettingspage.cpp:119
+msgctxt "@item:inlistbox Grid spacing"
+msgid "Medium"
+msgstr "মাঝারি"
+
+#: settings/iconsviewsettingspage.cpp:120
+msgctxt "@item:inlistbox Grid spacing"
+msgid "Large"
+msgstr "বড়"
+
+#: settings/dolphinsettingsdialog.cpp:44
+msgctxt "@title:window"
+msgid "Dolphin Preferences"
+msgstr "ডলফিন পছন্দসমূহ"
+
+#: settings/dolphinsettingsdialog.cpp:52
+msgctxt "@title:group"
+msgid "Startup"
+msgstr "সূচনা"
+
+#: settings/dolphinsettingsdialog.cpp:59
+msgctxt "@title:group"
+msgid "View Modes"
+msgstr "ভিউ মোড"
+
+#: settings/dolphinsettingsdialog.cpp:66
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Navigation Bar"
+msgctxt "@title:group"
+msgid "Navigation"
+msgstr "ন্যাভিগেশন বার"
+
+#: settings/dolphinsettingsdialog.cpp:73
+msgctxt "@title:group"
+msgid "Services"
+msgstr ""
+
+#: settings/dolphinsettingsdialog.cpp:80
+msgctxt "@title:group General settings"
+msgid "General"
+msgstr "সাধারণ"
+
+#: settings/dolphinsettingsdialog.cpp:105
+msgctxt "@info"
+msgid "All settings will be reset to default values. Do you want to continue?"
+msgstr "সমস্ত সেটিংস ডিফল্ট মানে ফিরিয়ে দেওয়া হবে। আপনি কি সত্যিই তাই চান?"
+
+#: settings/navigationsettingspage.cpp:49
+msgctxt "@title:group"
+msgid "Mouse"
+msgstr ""
+
+#: settings/navigationsettingspage.cpp:51
+#, fuzzy
+#| msgctxt "@option:check Ask for Confirmation When"
+#| msgid "Deleting files or folders"
+msgctxt "@option:check Mouse Settings"
+msgid "Single-click to open files and folders"
+msgstr "ফাইল অথবা ফোল্ডার মোছার আগে"
+
+#: settings/navigationsettingspage.cpp:54
+#, fuzzy
+#| msgctxt "@option:check Ask for Confirmation When"
+#| msgid "Deleting files or folders"
+msgctxt "@option:check Mouse Settings"
+msgid "Double-click to open files and folders"
+msgstr "ফাইল অথবা ফোল্ডার মোছার আগে"
+
+#: settings/navigationsettingspage.cpp:61
+msgctxt "@option:check"
+msgid "Browse through archives"
+msgstr "আর্কাইভ ব্রাউজ করো"
+
+#: settings/navigationsettingspage.cpp:64
+msgctxt "option:check"
+msgid "Open folders during drag operations"
+msgstr "ড্র্যাগ করাকালীন ফোল্ডার খোলো"
+
+#: settings/startupsettingspage.cpp:58
+msgctxt "@title:group"
+msgid "Home Folder"
+msgstr "গৃহ ফোল্ডার"
+
+#: settings/startupsettingspage.cpp:63
+msgctxt "@label:textbox"
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: settings/startupsettingspage.cpp:74
+msgctxt "@action:button"
+msgid "Use Current Location"
+msgstr "বর্তমান অবস্থান ব্যবহার করো"
+
+#: settings/startupsettingspage.cpp:77
+msgctxt "@action:button"
+msgid "Use Default Location"
+msgstr "ডিফল্ট অবস্থান ব্যবহার করো"
+
+#: settings/startupsettingspage.cpp:86
+msgctxt "@option:check Startup Settings"
+msgid "Split view mode"
+msgstr "বিভক্ত ভিউ মোড"
+
+#: settings/startupsettingspage.cpp:87
+msgctxt "@option:check Startup Settings"
+msgid "Editable location bar"
+msgstr "সম্পাদনযোগ্য অবস্থান বার"
+
+#: settings/startupsettingspage.cpp:88
+msgctxt "@option:check Startup Settings"
+msgid "Show full path inside location bar"
+msgstr "অবস্থান বার-এর ভিতরে পুরো পাথ দেখাও"
+
+#: settings/startupsettingspage.cpp:89
+msgctxt "@option:check Startup Settings"
+msgid "Show filter bar"
+msgstr "ফিল্টার বার দেখাও"
+
+#: settings/startupsettingspage.cpp:122
+msgctxt "@info"
+msgid "The location for the home folder is invalid and will not be applied."
+msgstr "গৃহ ফোল্ডারের জন্য অবস্থান অবৈধ, অতএব প্রয়োগ করা হবে না।"
+
+#: settings/contextmenusettingspage.cpp:40
+msgctxt "@option:check"
+msgid "Show 'Delete' command"
+msgstr "'মুছে ফেলো' কমান্ড দেখাও "
+
+#: settings/contextmenusettingspage.cpp:43
+msgctxt "@option:check"
+msgid "Show 'Copy To' and 'Move To' commands"
+msgstr "'কপি করো' এবং 'সরাও' কমান্ড দেখাও"
+
+#: settings/behaviorsettingspage.cpp:56
+msgctxt "@title:group"
+msgid "View Properties"
+msgstr "ভিউ প্রকৃতি"
+
+#: settings/behaviorsettingspage.cpp:58
+msgctxt "@option:radio"
+msgid "Remember view properties for each folder"
+msgstr "প্রত্যেক ফোল্ডারের জন্য আলাদা করে ভিউ প্রকৃতি মনে রাখো"
+
+#: settings/behaviorsettingspage.cpp:61
+msgctxt "@option:radio"
+msgid "Use common view properties for all folders"
+msgstr "সমস্ত ফোল্ডারের জন্য একই ভিউ প্রকৃতি ব্যবহার করো"
+
+#: settings/behaviorsettingspage.cpp:69
+msgctxt "@title:group"
+msgid "Ask For Confirmation When"
+msgstr "অনুমোদন চাও"
+
+#: settings/behaviorsettingspage.cpp:71
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Moving files or folders to trash"
+msgstr "ফাইল অথবা ফোল্ডার আবর্জনার বাক্সে সরাবার আগে"
+
+#: settings/behaviorsettingspage.cpp:74
+msgctxt "@option:check Ask for Confirmation When"
+msgid "Deleting files or folders"
+msgstr "ফাইল অথবা ফোল্ডার মোছার আগে"
+
+#: settings/behaviorsettingspage.cpp:81
+msgctxt "@option:check"
+msgid "Rename inline"
+msgstr "নিজস্থানে নামান্তর করো"
+
+#: settings/behaviorsettingspage.cpp:84
+msgctxt "@option:check"
+msgid "Show tooltips"
+msgstr "টুলটিপ দেখাও"
+
+#: settings/behaviorsettingspage.cpp:87
+msgctxt "@option:check"
+msgid "Show selection marker"
+msgstr "নির্বাচন মার্কার দেখাও"
+
+#: settings/viewpropertiesdialog.cpp:77
 msgctxt "@title:window"
 msgid "View Properties"
 msgstr "ভিউ প্রকৃতি"
 
-#: viewpropertiesdialog.cpp:90
+#: settings/viewpropertiesdialog.cpp:90
 msgctxt "@title:group"
 msgid "Properties"
 msgstr "প্রকৃতি"
 
-#: viewpropertiesdialog.cpp:95
+#: settings/viewpropertiesdialog.cpp:95
 msgctxt "@label:listbox"
 msgid "View mode:"
 msgstr "ভিউ মোড:"
 
-#: viewpropertiesdialog.cpp:97
+#: settings/viewpropertiesdialog.cpp:97
 msgctxt "@item:inlistbox"
 msgid "Icons"
 msgstr "আইকন"
 
-#: viewpropertiesdialog.cpp:98
+#: settings/viewpropertiesdialog.cpp:98
 msgctxt "@item:inlistbox"
 msgid "Details"
 msgstr "বিস্তারিত"
 
-#: viewpropertiesdialog.cpp:99
+#: settings/viewpropertiesdialog.cpp:99
 msgctxt "@item:inlistbox"
 msgid "Column"
 msgstr "কলাম"
 
-#: viewpropertiesdialog.cpp:101
+#: settings/viewpropertiesdialog.cpp:101
 msgctxt "@label:listbox"
 msgid "Sorting:"
 msgstr "সাজানো:"
 
-#: viewpropertiesdialog.cpp:105
+#: settings/viewpropertiesdialog.cpp:105
 #, fuzzy
 msgctxt "@item:inlistbox Sort"
 msgid "Ascending"
 msgstr "ascendচ্ছে"
 
-#: viewpropertiesdialog.cpp:106
+#: settings/viewpropertiesdialog.cpp:106
 #, fuzzy
 msgctxt "@item:inlistbox Sort"
 msgid "Descending"
 msgstr "অবতরণ করছে"
 
-#: viewpropertiesdialog.cpp:109
+#: settings/viewpropertiesdialog.cpp:109
 msgctxt "@item:inlistbox Sort"
 msgid "By Name"
 msgstr "নাম অনুসারে"
 
-#: viewpropertiesdialog.cpp:110
+#: settings/viewpropertiesdialog.cpp:110
 msgctxt "@item:inlistbox Sort"
 msgid "By Size"
 msgstr "মাপ অনুসারে"
 
-#: viewpropertiesdialog.cpp:111
+#: settings/viewpropertiesdialog.cpp:111
 msgctxt "@item:inlistbox Sort"
 msgid "By Date"
 msgstr "তারিখ অনুসারে"
 
-#: viewpropertiesdialog.cpp:112
+#: settings/viewpropertiesdialog.cpp:112
 msgctxt "@item:inlistbox Sort"
 msgid "By Permissions"
 msgstr "অনুমতি অনুসারে"
 
-#: viewpropertiesdialog.cpp:113
+#: settings/viewpropertiesdialog.cpp:113
 msgctxt "@item:inlistbox Sort"
 msgid "By Owner"
 msgstr "মালিকানা অনুসারে"
 
-#: viewpropertiesdialog.cpp:114
+#: settings/viewpropertiesdialog.cpp:114
 msgctxt "@item:inlistbox Sort"
 msgid "By Group"
 msgstr "গ্রুপ অনুসারে"
 
-#: viewpropertiesdialog.cpp:115
+#: settings/viewpropertiesdialog.cpp:115
 msgctxt "@item:inlistbox Sort"
 msgid "By Type"
 msgstr "ধরন অনুসারে"
 
-#: viewpropertiesdialog.cpp:125
+#: settings/viewpropertiesdialog.cpp:125
 msgctxt "@option:check"
 msgid "Show preview"
 msgstr "প্রাকদর্শন দেখাও"
 
-#: viewpropertiesdialog.cpp:126
+#: settings/viewpropertiesdialog.cpp:126
 #, fuzzy
 msgctxt "@option:check"
 msgid "Show in groups"
 msgstr "দলে দেখাও"
 
-#: viewpropertiesdialog.cpp:127
+#: settings/viewpropertiesdialog.cpp:127
 msgctxt "@option:check"
 msgid "Show hidden files"
 msgstr "লুকানো ফাইল দেখাও"
 
-#: viewpropertiesdialog.cpp:129
+#: settings/viewpropertiesdialog.cpp:129
 msgctxt "@action:button"
 msgid "Additional Information"
 msgstr "অতিরিক্ত তথ্য"
 
-#: viewpropertiesdialog.cpp:174
+#: settings/viewpropertiesdialog.cpp:174
 msgctxt "@title:group"
 msgid "Apply View Properties To"
 msgstr "ভিউ প্রকৃতি ব্যবহার করো"
 
-#: viewpropertiesdialog.cpp:177
+#: settings/viewpropertiesdialog.cpp:177
 msgctxt "@option:radio Apply View Properties To"
 msgid "Current folder"
 msgstr "বর্তমান ফোল্ডারের জন্য"
 
-#: viewpropertiesdialog.cpp:180
+#: settings/viewpropertiesdialog.cpp:180
 msgctxt "@option:radio Apply View Properties To"
 msgid "Current folder including all sub folders"
 msgstr "বর্তমান ফোল্ডার এবং সমস্ত সাব-ফোল্ডারের জন্য"
 
-#: viewpropertiesdialog.cpp:182
+#: settings/viewpropertiesdialog.cpp:182
 msgctxt "@option:radio Apply View Properties To"
 msgid "All folders"
 msgstr "সমস্ত ফোল্ডারের জন্য"
 
-#: viewpropertiesdialog.cpp:194
+#: settings/viewpropertiesdialog.cpp:194
 msgctxt "@option:check"
 msgid "Use as default for new folders"
 msgstr "নতুন ফোল্ডারের জন্য ডিফল্ট হিসেবে ব্যবহার করো"
 
-#: viewpropertiesdialog.cpp:322
+#: settings/viewpropertiesdialog.cpp:322
 msgctxt "@info"
 msgid ""
 "The view properties of all sub folders will be changed. Do you want to "
 "continue?"
 msgstr "নিম্নস্থ সমস্ত ফোল্ডারের ভিউ প্রকৃতি পরিবর্তন করা হবে। আপনি কি সত্যিই তাই চান?"
 
-#: viewpropertiesdialog.cpp:357
+#: settings/viewpropertiesdialog.cpp:357
 msgctxt "@info"
 msgid ""
 "The view properties of all folders will be changed. Do you want to continue?"
 msgstr "সমস্ত ফোল্ডারের ভিউ প্রকৃতি পরিবর্তন করা হবে। আপনি কি সত্যিই তাই চান?"
+
+#: settings/detailsviewsettingspage.cpp:80
+#, fuzzy
+msgctxt "@option:check"
+msgid "Expandable folders"
+msgstr "Expandable ফোল্ডার"
+
+#: settings/additionalinfodialog.cpp:38
+msgctxt "@title:window"
+msgid "Additional Information"
+msgstr "অতিরিক্ত তথ্য"
+
+#: settings/additionalinfodialog.cpp:44
+msgctxt "@option:check Additional Information"
+msgid "Size"
+msgstr "মাপ"
+
+#: settings/additionalinfodialog.cpp:45
+msgctxt "@option:check Additional Information"
+msgid "Date"
+msgstr "তারিখ"
+
+#: settings/additionalinfodialog.cpp:46
+msgctxt "@option:check Additional Information"
+msgid "Permissions"
+msgstr "অনুমতি"
+
+#: settings/additionalinfodialog.cpp:47
+msgctxt "@option:check Additional Information"
+msgid "Owner"
+msgstr "মালিক"
+
+#: settings/additionalinfodialog.cpp:48
+msgctxt "@option:check Additional Information"
+msgid "Group"
+msgstr "গ্রুপ"
+
+#: settings/additionalinfodialog.cpp:49
+msgctxt "@option:check Additional Information"
+msgid "Type"
+msgstr "ধরন"
 
 #: dolphinviewactionhandler.cpp:76
 msgctxt "@action"
@@ -1973,56 +2074,13 @@ msgctxt "@action:inmenu View Mode"
 msgid "Columns"
 msgstr "কলাম"
 
-#: commenteditwidget.cpp:129
-msgctxt "@action:button"
-msgid "Save"
-msgstr "সংরক্ষণ করো"
+#~ msgctxt "@title:group"
+#~ msgid "File Previews"
+#~ msgstr "ফাইল প্রাকদর্শন"
 
-#: commenteditwidget.cpp:130
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "বাতিল করো"
-
-#: detailsviewsettingspage.cpp:80
-#, fuzzy
-msgctxt "@option:check"
-msgid "Expandable folders"
-msgstr "Expandable ফোল্ডার"
-
-#: additionalinfodialog.cpp:38
-msgctxt "@title:window"
-msgid "Additional Information"
-msgstr "অতিরিক্ত তথ্য"
-
-#: additionalinfodialog.cpp:44
-msgctxt "@option:check Additional Information"
-msgid "Size"
-msgstr "মাপ"
-
-#: additionalinfodialog.cpp:45
-msgctxt "@option:check Additional Information"
-msgid "Date"
-msgstr "তারিখ"
-
-#: additionalinfodialog.cpp:46
-msgctxt "@option:check Additional Information"
-msgid "Permissions"
-msgstr "অনুমতি"
-
-#: additionalinfodialog.cpp:47
-msgctxt "@option:check Additional Information"
-msgid "Owner"
-msgstr "মালিক"
-
-#: additionalinfodialog.cpp:48
-msgctxt "@option:check Additional Information"
-msgid "Group"
-msgstr "গ্রুপ"
-
-#: additionalinfodialog.cpp:49
-msgctxt "@option:check Additional Information"
-msgid "Type"
-msgstr "ধরন"
+#~ msgctxt "@title:tab General settings"
+#~ msgid "General"
+#~ msgstr "সাধারণ"
 
 #~ msgid ""
 #~ "_: NAME OF TRANSLATORS\n"
