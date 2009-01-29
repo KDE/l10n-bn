@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-01-27 08:23+0100\n"
+"POT-Creation-Date: 2009-01-29 07:19+0100\n"
 "PO-Revision-Date: 2009-01-05 20:52-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -15,7 +15,165 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: appearance.cpp:38
+#: appearance.cpp:54
+msgctxt "@title:tab"
+msgid "General"
+msgstr "সাধারণ"
+
+#: appearance.cpp:55
+msgctxt "@title:tab"
+msgid "Fonts"
+msgstr "ফন্ট"
+
+#: appearance.cpp:56
+msgctxt "@title:tab"
+msgid "Stylesheets"
+msgstr "স্টাইল-শীট"
+
+#: appearance.cpp:65
+msgid "Images"
+msgstr "ছবি"
+
+#: appearance.cpp:70
+msgid "A&utomatically load images"
+msgstr "জিজ্ঞাসা না করে সব ছবি লো&ড করো"
+
+#: appearance.cpp:71
+msgid ""
+"<html>If this box is checked, Konqueror will automatically load any images "
+"that are embedded in a web page. Otherwise, it will display placeholders for "
+"the images, and you can then manually load the images by clicking on the "
+"image button.<br />Unless you have a very slow network connection, you will "
+"probably want to check this box to enhance your browsing experience.</html>"
+msgstr ""
+"<html>এই বক্স-টি নির্বাচন করা থাকলে কনকরার একটি ওয়েব পেজ-এর সমস্ত ছবি সরাসরি "
+"লোড করার চেষ্টা করবে। না করা থাকলে কনকরার ছবিগুলি লোড না করে শুধু তাদের অবস্থান "
+"নির্দেশ করবে, এবং সে ক্ষেত্রে আপনি সেগুলির উপর ক্লিক করে একটি একটি করে ছবি লোড "
+"করতে পারবেন। <br />আপনার ব্রাউজিং অভিজ্ঞতা যথাসম্ভব মনোরম করতে আপনার এই বক্স-টি "
+"নির্বাচন করে রাখা উচিত্‍, যদি না আপনার নেটওয়ার্ক সংযোগ ব্যবস্থা খুব মন্থর হয়।</html>"
+
+#: appearance.cpp:81
+msgid "Dra&w frame around not completely loaded images"
+msgstr "&আংশিক লোড করা ছবির চারধারে ফ্রেম আঁকো"
+
+#: appearance.cpp:82
+#, fuzzy
+msgid ""
+"<html>If this box is checked, Konqueror will draw a frame as a placeholder "
+"around images embedded in a web page that are not yet fully loaded.<br />You "
+"will probably want to check this box to enhance your browsing experience, "
+"especially if have a slow network connection.</html>"
+msgstr ""
+"<html>যদি এই বাক্সটি পরীক্ষা করা হয়, কনকরার একটি ওয়েব পাতাতে ছবিের ধারেকাছে "
+"একটি placeholder হিসেবে একটি ফ্রেম আঁকবে সন্নিবেশ করবে যে এখনও সম্পূর্ণভাবে লোড "
+"করা হয় না।<br />আপনি আপনার ব্রাউজিং অভিজ্ঞতা, উন্নত করতে এই বাক্সটি পরীক্ষা করতে "
+"সম্ভবত বিশেষভাবে চাবেন যদির একটি ধীর নেটওয়ার্ক সংযোগ রাখ।</html>"
+
+#: appearance.cpp:93
+msgctxt "animations"
+msgid "Enabled"
+msgstr "সক্রিয়"
+
+#: appearance.cpp:94
+msgctxt "animations"
+msgid "Disabled"
+msgstr "নিষ্ক্রিয়"
+
+#: appearance.cpp:95
+msgid "Show Only Once"
+msgstr "একবার মাত্র দেখাও"
+
+#: appearance.cpp:96
+msgid ""
+"<html>Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
+"b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
+"animations, show the starting image only.</li><li><b>Show only once</b>: "
+"Show all animations completely but do not repeat them.</li></ul></html>"
+msgstr ""
+"<html>কনকরার কি ভাবে অ্যানিমেটেড ছবি প্রদর্শন করবে তা নিয়ন্ত্রণ করে:<br /> <ul> "
+"<li><b>সক্রিয়</b>: সব অ্যানিমেশন সম্পূর্ণ দেখানো হবে।</li> <li><b>নিষ্ক্রিয়</b>: "
+"অ্যানিমেশন কখনোই দেখানো হবে না, কেবল প্রথম ছবিটি দেখানো হবে।</li> <li><b>একবার "
+"মাত্র দেখাও</b>: সব অ্যানিমেশন সম্পূর্ণ দেখানো হবে, কিন্তু মাত্র একবার।</li> </ul> </"
+"html>"
+
+#: appearance.cpp:101
+msgid "A&nimations:"
+msgstr "অ্যানিমেশ&ন:"
+
+#: appearance.cpp:106 htmlopts.cpp:124
+msgctxt "@title:group"
+msgid "Miscellaneous"
+msgstr "বিবিধ"
+
+#: appearance.cpp:111
+msgctxt "underline"
+msgid "Enabled"
+msgstr "সক্রিয়"
+
+#: appearance.cpp:112
+msgctxt "underline"
+msgid "Disabled"
+msgstr "নিষ্ক্রিয়"
+
+#: appearance.cpp:113
+msgid "Only on Hover"
+msgstr "শুধু উপরে কার্সর থাকলে"
+
+#: appearance.cpp:114
+msgid "Und&erline links:"
+msgstr "লিঙ্ক আন্ডারলা&ইন করো:"
+
+#: appearance.cpp:117
+msgid ""
+"<html>Controls how Konqueror handles underlining hyperlinks:<br /"
+"><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
+"Never underline links</li><li><b>Only on Hover</b>: Underline when the mouse "
+"is moved over the link</li></ul><br /><i>Note: The site's CSS definitions "
+"can override this value.</i></html>"
+msgstr ""
+"<html>কনকরার কি ভাবে হাইপার-লিঙ্ক আন্ডারলাইন করবে তা নিয়ন্ত্রণ করে:<br /> <ul> "
+"<li><b>সক্রিয়</b>: লিঙ্ক সর্বদা আন্ডারলাইন করা হবে</li> <li><b>নিষ্ক্রিয়</b>: লিঙ্ক "
+"কখনোই আন্ডারলাইন করা হবে না</li> <li><b>শুধু উপরে কার্সর থাকলে</b>: শুধুমাত্র মাউস "
+"লিঙ্ক-টির উপর অবস্থিত থাকলে আন্ডারলাইন করা হবে</li> </ul> <br /><i>নোট: ওয়েব "
+"পেজ-টি সি-এস-এস (CSS) ব্যবহার করে এই নির্দেশটি বাতিল করতে পারে</i></html>"
+
+#: appearance.cpp:127
+msgid "When Efficient"
+msgstr "কার্যকরী হলে"
+
+#: appearance.cpp:128
+msgctxt "smooth scrolling"
+msgid "Always"
+msgstr "সবসময়"
+
+#: appearance.cpp:129
+msgctxt "soft scrolling"
+msgid "Never"
+msgstr "কখনও না"
+
+#: appearance.cpp:130
+#, fuzzy
+msgid "S&mooth scrolling:"
+msgstr "মোলায়েম scrolling: (&m)"
+
+#: appearance.cpp:132
+#, fuzzy
+msgid ""
+"<html>Determines whether Konqueror should use smooth steps to scroll HTML "
+"pages, or whole steps:<br /><ul><li><b>Always</b>: Always use smooth steps "
+"when scrolling.</li><li><b>Never</b>: Never use smooth scrolling, scroll "
+"with whole steps instead.</li><li><b>When Efficient</b>: Only use smooth "
+"scrolling on pages where it can be achieved with moderate usage of system "
+"resources.</li></ul></html>"
+msgstr ""
+"<html>নির্ধারণ কনকরারের স্ক্রোল এইচটিএমএল পাতাতে মসৃণ ধাপ ব্যবহার করা উচিত নয়, "
+"অথবা পুরো ধাপ:<br /><ul><li><b>সবসময়</b>: মসৃণ ধাপ সবসময় ব্যবহার করো যখন "
+"scrolling।</li><li><b>কখনও না</b>: পুরো ধাপ পরিবর্তের সঙ্গে মসৃণ scrolling, "
+"স্ক্রোল কখনও না ব্যবহার করো।</li><li><b>কখন Efficient</b>: পাতা মসৃণ scrolling "
+"কেবল ব্যবহার করো যেখানে এইটি সিস্টেম সম্পদের মধ্যপন্থী ব্যবহারের রীতি-নীতির সঙ্গে "
+"অর্জন করা যাবে।</li></ul></html>"
+
+#: appearance.cpp:145
 msgid ""
 "<h1>Konqueror Fonts</h1>On this page, you can configure which fonts "
 "Konqueror should use to display the web pages you view."
@@ -23,92 +181,92 @@ msgstr ""
 "<h1>কনকরার ফন্ট</h1>এখানে আপনি নির্ধারণকরতে পারেন কনকরার ওয়েব পেজ দেখাতে কোন "
 "ফন্ট ব্যবহার করবে"
 
-#: appearance.cpp:52
+#: appearance.cpp:157
 msgid "Font Si&ze"
 msgstr "ফন্ট মা&প"
 
-#: appearance.cpp:56 appearance.cpp:74
+#: appearance.cpp:160 appearance.cpp:176
 msgid "This is the relative font size Konqueror uses to display web sites."
 msgstr "ওয়েবসাইট দেখাতে কনকরার দ্বারা ব্যবহৃত ফন্টগুলির তুলনামূলক মাপ"
 
-#: appearance.cpp:59
+#: appearance.cpp:163
 msgid "M&inimum font size:"
 msgstr "ন্যু&নতম ফন্ট মাপ:"
 
-#: appearance.cpp:64
+#: appearance.cpp:167
 msgid ""
 "Konqueror will never display text smaller than this size,<br />overriding "
 "any other settings."
 msgstr ""
 "কনকরার কখনই এর চেয়ে ছোট লেখা দেখাবে না,<br /> অন্যান্য সেটিংস যাই হোক না কেন।"
 
-#: appearance.cpp:69
+#: appearance.cpp:171
 msgid "&Medium font size:"
 msgstr "মাঝারি ফন্ট মা&প:"
 
-#: appearance.cpp:78
+#: appearance.cpp:186
 msgid "S&tandard font:"
 msgstr "স্ট্যাণ্ডার্ড &ফন্ট:"
 
-#: appearance.cpp:86
+#: appearance.cpp:187
 msgid "This is the font used to display normal text in a web page."
 msgstr "ওয়েব পেজ-এ সাধারণ লেখা দেখাতে এই ফন্ট ব্যবহার করা হবে"
 
-#: appearance.cpp:93
+#: appearance.cpp:192
 msgid "&Fixed font:"
 msgstr "ফিক্সড ফন্ট (&ড):"
 
-#: appearance.cpp:101
+#: appearance.cpp:193
 msgid ""
 "This is the font used to display fixed-width (i.e. non-proportional) text."
 msgstr "ফিক্সড উইডথ (নন-প্রোপর্শনাল) লেখা জন্য ব্যবহৃত ফন্ট"
 
-#: appearance.cpp:108
+#: appearance.cpp:198
 msgid "S&erif font:"
 msgstr "সেরিফ ফন্ট (&স):"
 
-#: appearance.cpp:116
+#: appearance.cpp:199
 msgid "This is the font used to display text that is marked up as serif."
 msgstr "এই ফন্টটি \"সেরিফ\" হিসাবে চিহ্নিত লেখা দেখাতে ব্যবহার করা হবে।"
 
-#: appearance.cpp:123
+#: appearance.cpp:205
 msgid "Sa&ns serif font:"
 msgstr "সান্স সেরিফ ফন্ট (&ট):"
 
-#: appearance.cpp:131
+#: appearance.cpp:206
 msgid "This is the font used to display text that is marked up as sans-serif."
 msgstr "এই ফন্টটি \"সান্স সেরিফ\" হিসাবে চিহ্নিত লেখা দেখাতে ব্যবহার করা হবে।"
 
-#: appearance.cpp:138
+#: appearance.cpp:211
 msgid "C&ursive font:"
 msgstr "কার্সিভ ফন্ট (&ভ):"
 
-#: appearance.cpp:146
+#: appearance.cpp:212
 msgid "This is the font used to display text that is marked up as italic."
 msgstr "এই ফন্টটি \"ইটালিক\" হিসাবে চিহ্নিত লেখা দেখাতে ব্যবহার করা হবে।"
 
-#: appearance.cpp:153
+#: appearance.cpp:217
 msgid "Fantas&y font:"
 msgstr "ফ্যাণ্টাসি ফন্ট (&ণ):"
 
-#: appearance.cpp:161
+#: appearance.cpp:218
 msgid ""
 "This is the font used to display text that is marked up as a fantasy font."
 msgstr "এই ফন্টটি \"ফ্যাণ্টাসি\" হিসাবে চিহ্নিত লেখা দেখাতে ব্যবহার করা হবে।"
 
-#: appearance.cpp:173
+#: appearance.cpp:232
 msgid "Font &size adjustment for this encoding:"
 msgstr "এই এনকোডিঙের &জন্য ফন্টের মাপে সংশোধন:"
 
-#: appearance.cpp:187
-msgid "Default encoding:"
-msgstr "ডিফল্ট এনকোডিং:"
-
-#: appearance.cpp:196 appearance.cpp:363
+#: appearance.cpp:243 appearance.cpp:443
 msgid "Use Language Encoding"
 msgstr "ভাষা এনকোডিং ব্যবহার করো"
 
-#: appearance.cpp:200
+#: appearance.cpp:245
+msgid "Default encoding:"
+msgstr "ডিফল্ট এনকোডিং:"
+
+#: appearance.cpp:247
 msgid ""
 "Select the default encoding to be used; normally, you will be fine with 'Use "
 "language encoding' and should not have to change this."
@@ -116,11 +274,11 @@ msgstr ""
 "স্পষ্ট কোন এনকোডিং উল্লেখ না করা থাকলে যে এনকোডিং ব্যবহৃত হবে সেটি বেছে নিন। "
 "এখানে 'ভাষা এনকোডিং ব্যবহার করো' রেখে দিলে সাধারণত কোন অসুবিধা হবার কথা নয়। "
 
-#: domainlistview.cpp:51
+#: domainlistview.cpp:49
 msgid "Host/Domain"
 msgstr "হোস্ট/ডোমেইন"
 
-#: domainlistview.cpp:51
+#: domainlistview.cpp:49
 msgid "Policy"
 msgstr "পলিসি"
 
@@ -144,13 +302,13 @@ msgstr "&আমদানি..."
 msgid "&Export..."
 msgstr "&রপ্তানি..."
 
-#: domainlistview.cpp:84
+#: domainlistview.cpp:83
 msgid "Click on this button to manually add a host or domain specific policy."
 msgstr ""
 "বিশেষ একটি হোস্ট অথবা ডোমেইন-এর জন্য নিজে হাতে পলিসি যোগ করতে এই বাটন-এ ক্লিক "
 "করুন।"
 
-#: domainlistview.cpp:86
+#: domainlistview.cpp:85
 msgid ""
 "Click on this button to change the policy for the host or domain selected in "
 "the list box."
@@ -158,7 +316,7 @@ msgstr ""
 "লিস্ট-বক্স-এ নির্বাচিত হোস্ট বা ডোমেইন-এর জন্য পলিসি পরিবর্তন করতে এই বাটন-এ ক্লিক "
 "করুন।"
 
-#: domainlistview.cpp:88
+#: domainlistview.cpp:87
 msgid ""
 "Click on this button to delete the policy for the host or domain selected in "
 "the list box."
@@ -166,66 +324,66 @@ msgstr ""
 "লিস্ট-বক্স-এ নির্বাচিত হোস্ট বা ডোমেইন-এর জন্য পলিসি মুছে ফেলতে এই বাটন-এ ক্লিক "
 "করুন। "
 
-#: domainlistview.cpp:135
+#: domainlistview.cpp:134
 msgid "You must first select a policy to be changed."
 msgstr "পরিবর্তন করার জন্য প্রথমে একটি পলিসি নির্বাচন করতে হবে।"
 
-#: domainlistview.cpp:164
+#: domainlistview.cpp:163
 msgid "You must first select a policy to delete."
 msgstr "মুছে ফেলার জন্য প্রথমে একটি পলিসি নির্বাচন করতে হবে।"
 
-#: domainlistview.cpp:202 policydlg.cpp:62
+#: domainlistview.cpp:201 policydlg.cpp:62
 msgid "Use Global"
 msgstr "গ্লোবাল ব্যবহার করো"
 
-#: domainlistview.cpp:204 policydlg.cpp:62
+#: domainlistview.cpp:203 policydlg.cpp:62
 msgid "Accept"
 msgstr "স্বীকার করো"
 
-#: domainlistview.cpp:206 policydlg.cpp:62
+#: domainlistview.cpp:205 policydlg.cpp:62
 msgid "Reject"
 msgstr "প্রত্যাখ্যান করো"
 
-#: filteropts.cpp:57
+#: filteropts.cpp:58
 msgid "Enable filters"
 msgstr "ফিল্টার সক্রিয় করো"
 
-#: filteropts.cpp:60
+#: filteropts.cpp:61
 msgid "Hide filtered images"
 msgstr "ফিল্টার করা ছবি লুকাও"
 
-#: filteropts.cpp:63
+#: filteropts.cpp:64
 #, fuzzy
 msgid "URL Expressions to Filter"
 msgstr "ফিল্টারে ইউআরএল অভিব্যক্তি"
 
-#: filteropts.cpp:72
+#: filteropts.cpp:78
 #, fuzzy
 #| msgid "Expression (e.g. http://www.example.com/ad/*):"
-msgid "Expression (e.g. http://www.site.com/ad/*):"
+msgid "Expression (e.g. http://www.example.com/ad/*):"
 msgstr "মান (উদাঃ http://www.example.com/ad/*):"
 
-#: filteropts.cpp:81
+#: filteropts.cpp:87
 msgid "Insert"
 msgstr "ঢোকাও"
 
-#: filteropts.cpp:83
+#: filteropts.cpp:89
 msgid "Update"
 msgstr "আপডেট"
 
-#: filteropts.cpp:85
+#: filteropts.cpp:91
 msgid "Remove"
 msgstr "সরাও"
 
-#: filteropts.cpp:88
+#: filteropts.cpp:94
 msgid "Import..."
 msgstr "আমদানি করো..."
 
-#: filteropts.cpp:90
+#: filteropts.cpp:96
 msgid "Export..."
 msgstr "রপ্তানি করো..."
 
-#: filteropts.cpp:100
+#: filteropts.cpp:106
 #, fuzzy
 msgid ""
 "Enable or disable AdBlocK filters. When enabled a set of expressions to be "
@@ -235,7 +393,7 @@ msgstr ""
 "ফিল্টার তালিকাতে should হ বাধা দে হ সংজ্ঞায়িত করতে অভিব্যক্তির একটি সেটের কখন "
 "সক্রিয় কর।"
 
-#: filteropts.cpp:103
+#: filteropts.cpp:109
 #, fuzzy
 msgid ""
 "When enabled blocked images will be removed from the page completely "
@@ -244,7 +402,7 @@ msgstr ""
 "পাতা একটি placeholder '' ছবি সম্পূর্ণভাবে অন্যথায় থেকে blocked ছবি কখন সক্রিয় করা "
 "হয়েছিল সরিয়ে দেওয়া হয়েছিল বাধা দেওয়া হয়েছিল ব্যবহার করা হয়েছিল।"
 
-#: filteropts.cpp:105
+#: filteropts.cpp:111
 #, fuzzy
 msgid ""
 "This is the list of URL filters that will be applied to all linked images "
@@ -255,18 +413,18 @@ msgstr ""
 "ফিল্টার অর্ডারে প্রসেস করা হয় তালিকার চূড়ার প্রতি আরও বেশি সাধারণ ফিল্টার সুতরাং "
 "রাখো।"
 
-#: filteropts.cpp:108
+#: filteropts.cpp:114
 #, fuzzy
 msgid ""
 "Enter an expression to filter. Expressions can be defined as either a "
-"filename style wildcard e.g. http://www.site.com/ads* or as a full regular "
-"expression by surrounding the string with '/' e.g.  //(ad|banner)\\./"
+"filename style wildcard e.g. http://www.example.com/ads* or as a full "
+"regular expression by surrounding the string with '/' e.g.  //(ad|banner)\\./"
 msgstr ""
 "ফিল্টার করতে একটি মত ঢোকাও। অভিব্যক্তি হয় একটি ফাইলের নাম স্টাইল ওয়্যাল্ডকার্ড উদাঃ "
 "এইচটিটিপি হিসেবে সংজ্ঞায়িত করা যাবে: //www.example.com অথবা '/' উদাঃ //(ad|"
 "banner)\\.এর সঙ্গে পংক্তি পরিবেষ্টন করার মধ্যে একটি পূর্ণ নিয়মিত মত হিসেবে"
 
-#: filteropts.cpp:337
+#: filteropts.cpp:340
 #, fuzzy
 msgid ""
 "<h1>Konqueror AdBlocK</h1> Konqueror AdBlocK allows you to create a list of "
@@ -281,39 +439,44 @@ msgstr ""
 msgid "Tabbed Browsing"
 msgstr "ট্যাব সম্বলিত ব্রাউজিং"
 
-#: generalopts.cpp:81
+#: generalopts.cpp:80
 msgctxt "@label:listbox"
 msgid "When &Konqueror starts:"
 msgstr "যখন &কনকরার শুরু হবে:"
 
-#: generalopts.cpp:86
+#: generalopts.cpp:85
 #, fuzzy
 #| msgctxt "@item:inlistbox"
 #| msgid "Show Introduction Page"
 msgctxt "@item:inlistbox"
-msgid "Show the introduction page"
+msgid "Show Introduction Page"
 msgstr "ভূমিকা দেখাও"
 
-#: generalopts.cpp:87
+#: generalopts.cpp:86
 #, fuzzy
 #| msgctxt "@item:inlistbox"
 #| msgid "Show My Home Page"
 msgctxt "@item:inlistbox"
-msgid "Show my home page"
+msgid "Show My Home Page"
 msgstr "আমার হোম-পেজ দেখাও"
 
-#: generalopts.cpp:88
+#: generalopts.cpp:87
 #, fuzzy
 #| msgctxt "@item:inlistbox"
 #| msgid "Show Blank Page"
 msgctxt "@item:inlistbox"
-msgid "Show a blank page"
+msgid "Show Blank Page"
 msgstr "কিছু দেখিও না"
+
+#: generalopts.cpp:88
+msgctxt "@item:inlistbox"
+msgid "Show My Bookmarks"
+msgstr "আমার বুকমার্ক দেখাও"
 
 #: generalopts.cpp:97
 #, fuzzy
 #| msgid "Home page:"
-msgid "Home Page:"
+msgid "Home page:"
 msgstr "হোম-পেজ:"
 
 #: generalopts.cpp:102
@@ -331,7 +494,7 @@ msgstr ""
 "\"বাড়ি\"বাটন চাপ দেওয়া হয়। আপনার স্থানীয় বাড়ি ফোল্ডার পরিবর্তেতে একটি ফাইল "
 "ম্যানেজার, সেই বাটন এইটিটি হিসেবে কখন কনকরার শুরু করা হয় তৈরি করা হয় লাফাওয়া হয়।"
 
-#: htmlopts.cpp:49
+#: htmlopts.cpp:46
 msgid ""
 "<h1>Konqueror Browser</h1> Here you can configure Konqueror's browser "
 "functionality. Please note that the file manager functionality has to be "
@@ -345,15 +508,15 @@ msgstr ""
 "আপনি বেছে নিতে পারেন কনকরার বিভিন্ন ওয়েব পেজ-এর এইচ-টি-এম-এল কোড কিভাবে পড়বে "
 "এবং দেখাবে। সাধারণত এখানে কোন পরিবর্তন করার প্রয়োজন হয় না।"
 
-#: htmlopts.cpp:57
+#: htmlopts.cpp:54
 msgid "Boo&kmarks"
 msgstr "বু&কমার্ক"
 
-#: htmlopts.cpp:62
+#: htmlopts.cpp:59
 msgid "Ask for name and folder when adding bookmarks"
 msgstr "বুকমার্ক যোগ করার সময় নাম এবং ফোল্ডার জানতে চাও"
 
-#: htmlopts.cpp:65
+#: htmlopts.cpp:62
 msgid ""
 "If this box is checked, Konqueror will allow you to change the title of the "
 "bookmark and choose a folder in which to store it when you add a new "
@@ -363,11 +526,11 @@ msgstr ""
 "শিরোনাম পরিবর্তন করার সুযোগ দেবে, এবং বুকমার্কটি কোন ফোল্ডার-এ সঞ্চয় করা হবে তাও "
 "বেছে নিতে দেবে।"
 
-#: htmlopts.cpp:71
+#: htmlopts.cpp:68
 msgid "Show only marked bookmarks in bookmark toolbar"
 msgstr "বুকমার্ক টুলবার-এ শুধু চিহ্নিত বুকমার্কগুলি দেখাও"
 
-#: htmlopts.cpp:73
+#: htmlopts.cpp:70
 msgid ""
 "If this box is checked, Konqueror will show only those bookmarks in the "
 "bookmark toolbar which you have marked to do so in the bookmark editor."
@@ -375,15 +538,11 @@ msgstr ""
 "এই বক্স-টি নির্বাচন করা থাকলে কনকরার বুকমার্ক টুলবার-এ কেবলমাত্র সেই বুকমার্কগুলি "
 "দেখাবে যেগুলি আপনি বুকমার্ক সম্পাদকে বিশেষভাবে চিহ্নিত করেছেন।"
 
-#: htmlopts.cpp:82
+#: htmlopts.cpp:77
 msgid "Form Com&pletion"
 msgstr "ফর্ম &পরিপূরণ"
 
-#: htmlopts.cpp:87
-msgid "Enable completion of &forms"
-msgstr "&ফর্ম-এর পরিপূরণ সক্রিয় করো"
-
-#: htmlopts.cpp:90
+#: htmlopts.cpp:82
 msgid ""
 "If this box is checked, Konqueror will remember the data you enter in web "
 "forms and suggest it in similar fields for all forms."
@@ -391,25 +550,25 @@ msgstr ""
 "এই বক্স-টি নির্বাচন করা থাকলে, আপনি বিভিন্ন ওয়েব ফর্ম কিভাবে পরিপূরণ করেছেন "
 "কনকরার সেই তথ্য মনে রাখবে এবং পরবর্তীকালে অনুরূপ ক্ষেত্রে নিজে থেকে ফর্ম ভরে দেবে।"
 
-#: htmlopts.cpp:95
+#: htmlopts.cpp:88
 msgid "&Maximum completions:"
 msgstr "&সর্বাধিক পরিপূরণ:"
 
-#: htmlopts.cpp:99
+#: htmlopts.cpp:90
 msgid ""
 "Here you can select how many values Konqueror will remember for a form field."
 msgstr ""
 "এখানে আপনি নির্ধারণ করতে পারেন একটি ফর্ম ফিল্ডের জন্য কনকরার কটি মান মনে রাখবে।"
 
-#: htmlopts.cpp:108
+#: htmlopts.cpp:97
 msgid "Mouse Beha&vior"
 msgstr "মাউস &আচরণ"
 
-#: htmlopts.cpp:112
+#: htmlopts.cpp:101
 msgid "Chan&ge cursor over links"
 msgstr "লিঙ্ক-এর উ&পর কার্সার পাল্টাও "
 
-#: htmlopts.cpp:114
+#: htmlopts.cpp:103
 msgid ""
 "If this option is set, the shape of the cursor will change (usually to a "
 "hand) if it is moved over a hyperlink."
@@ -417,11 +576,11 @@ msgstr ""
 "এই অপশনটি সক্রিয় করা হলে, কোন লিঙ্ক-এর উপর কার্সার নিয়ে গেলে তার আকৃতি বদলে যাবে "
 "(সাধারণত একটি হাতের মত দেখতে হবে)।"
 
-#: htmlopts.cpp:118
+#: htmlopts.cpp:107
 msgid "M&iddle click opens URL in selection"
 msgstr "মধ্য&ম বাটন ক্লিক নির্বাচিত ইউ-আর-এল খোলে"
 
-#: htmlopts.cpp:121
+#: htmlopts.cpp:110
 msgid ""
 "If this box is checked, you can open the URL in the selection by middle "
 "clicking on a Konqueror view."
@@ -429,11 +588,11 @@ msgstr ""
 "এই বক্স-টি নির্বাচন করা হলে, আপনি কোন ইউ-আর-এল কাট বা কপি করে নির্বাচন করে "
 "থাকলে তা কনকরার-এর মধ্যে মাউসের মাঝখানের বাটন ক্লিক করে খুলতে পারবেন।"
 
-#: htmlopts.cpp:125
+#: htmlopts.cpp:114
 msgid "Right click goes &back in history"
 msgstr "ডানদিকের বাটন ক্লিক করলে পূর্ব&বর্তী পাতায় ফিরে যাবে"
 
-#: htmlopts.cpp:128
+#: htmlopts.cpp:117
 msgid ""
 "If this box is checked, you can go back in history by right clicking on a "
 "Konqueror view. To access the context menu, press the right mouse button and "
@@ -443,46 +602,11 @@ msgstr ""
 "পূর্ববর্তী পাতাটি দেখানো হবে। সে ক্ষেত্রে কনটেক্সট মেনু পেতে ডানদিকের বাটন ক্লিক করে "
 "মাউস নাড়ান।"
 
-#: htmlopts.cpp:138
-msgid "A&utomatically load images"
-msgstr "জিজ্ঞাসা না করে সব ছবি লো&ড করো"
-
-#: htmlopts.cpp:139
-msgid ""
-"<html>If this box is checked, Konqueror will automatically load any images "
-"that are embedded in a web page. Otherwise, it will display placeholders for "
-"the images, and you can then manually load the images by clicking on the "
-"image button.<br />Unless you have a very slow network connection, you will "
-"probably want to check this box to enhance your browsing experience.</html>"
-msgstr ""
-"<html>এই বক্স-টি নির্বাচন করা থাকলে কনকরার একটি ওয়েব পেজ-এর সমস্ত ছবি সরাসরি "
-"লোড করার চেষ্টা করবে। না করা থাকলে কনকরার ছবিগুলি লোড না করে শুধু তাদের অবস্থান "
-"নির্দেশ করবে, এবং সে ক্ষেত্রে আপনি সেগুলির উপর ক্লিক করে একটি একটি করে ছবি লোড "
-"করতে পারবেন। <br />আপনার ব্রাউজিং অভিজ্ঞতা যথাসম্ভব মনোরম করতে আপনার এই বক্স-টি "
-"নির্বাচন করে রাখা উচিত্‍, যদি না আপনার নেটওয়ার্ক সংযোগ ব্যবস্থা খুব মন্থর হয়।</html>"
-
-#: htmlopts.cpp:150
-msgid "Dra&w frame around not completely loaded images"
-msgstr "&আংশিক লোড করা ছবির চারধারে ফ্রেম আঁকো"
-
-#: htmlopts.cpp:151
-#, fuzzy
-msgid ""
-"<html>If this box is checked, Konqueror will draw a frame as a placeholder "
-"around images embedded in a web page that are not yet fully loaded.<br />You "
-"will probably want to check this box to enhance your browsing experience, "
-"especially if have a slow network connection.</html>"
-msgstr ""
-"<html>যদি এই বাক্সটি পরীক্ষা করা হয়, কনকরার একটি ওয়েব পাতাতে ছবিের ধারেকাছে "
-"একটি placeholder হিসেবে একটি ফ্রেম আঁকবে সন্নিবেশ করবে যে এখনও সম্পূর্ণভাবে লোড "
-"করা হয় না।<br />আপনি আপনার ব্রাউজিং অভিজ্ঞতা, উন্নত করতে এই বাক্সটি পরীক্ষা করতে "
-"সম্ভবত বিশেষভাবে চাবেন যদির একটি ধীর নেটওয়ার্ক সংযোগ রাখ।</html>"
-
-#: htmlopts.cpp:160
+#: htmlopts.cpp:128
 msgid "Allow automatic delayed &reloading/redirecting"
 msgstr "স্বয়ংক্রীয় বিলম্বিত রিলোডিং/রি-ডা&য়রেক্টিং অনুমোদন করো"
 
-#: htmlopts.cpp:161
+#: htmlopts.cpp:129
 msgid ""
 "Some web pages request an automatic reload or redirection after a certain "
 "period of time. By unchecking this box Konqueror will ignore these requests."
@@ -491,12 +615,12 @@ msgstr ""
 "অন্য কোন ওয়েবপেজ লোড করার অনুরোধ জানায়। এই বক্স-টি নির্বাচন না করা থাকলে কনকরার "
 "এই সব অনুরোধ অগ্রাহ্য করবে।"
 
-#: htmlopts.cpp:169
+#: htmlopts.cpp:137
 #, fuzzy
 msgid "Enable/disable Access Ke&y activation with Ctrl key"
 msgstr "Ctrl মূখ্যের সঙ্গে সক্রিয়/নিষ্ক্রিয় উপলব্ধি করা চাবি সক্রিয়করণ (&y)"
 
-#: htmlopts.cpp:170
+#: htmlopts.cpp:138
 #, fuzzy
 msgid ""
 "Pressing the Ctrl key when viewing webpages activates KDE's Access Keys. "
@@ -507,148 +631,41 @@ msgstr ""
 "এই বাক্সটি এই accessibilityটি বৈশিষ্ট্য Uncheckingবে নিষ্ক্রিয় করবে। (কনকরার "
 "effect. গ্রহণ করতে পরিবর্তনের জন্য হ পুনরায় শুরু করতে প্রয়োজন বোধ করো)"
 
-#: htmlopts.cpp:181
-msgid "Und&erline links:"
-msgstr "লিঙ্ক আন্ডারলা&ইন করো:"
-
-#: htmlopts.cpp:185
-msgctxt "underline"
-msgid "Enabled"
-msgstr "সক্রিয়"
-
-#: htmlopts.cpp:186
-msgctxt "underline"
-msgid "Disabled"
-msgstr "নিষ্ক্রিয়"
-
-#: htmlopts.cpp:187
-msgid "Only on Hover"
-msgstr "শুধু উপরে কার্সর থাকলে"
-
-#: htmlopts.cpp:191
-msgid ""
-"<html>Controls how Konqueror handles underlining hyperlinks:<br /"
-"><ul><li><b>Enabled</b>: Always underline links</li><li><b>Disabled</b>: "
-"Never underline links</li><li><b>Only on Hover</b>: Underline when the mouse "
-"is moved over the link</li></ul><br /><i>Note: The site's CSS definitions "
-"can override this value.</i></html>"
-msgstr ""
-"<html>কনকরার কি ভাবে হাইপার-লিঙ্ক আন্ডারলাইন করবে তা নিয়ন্ত্রণ করে:<br /> <ul> "
-"<li><b>সক্রিয়</b>: লিঙ্ক সর্বদা আন্ডারলাইন করা হবে</li> <li><b>নিষ্ক্রিয়</b>: লিঙ্ক "
-"কখনোই আন্ডারলাইন করা হবে না</li> <li><b>শুধু উপরে কার্সর থাকলে</b>: শুধুমাত্র মাউস "
-"লিঙ্ক-টির উপর অবস্থিত থাকলে আন্ডারলাইন করা হবে</li> </ul> <br /><i>নোট: ওয়েব "
-"পেজ-টি সি-এস-এস (CSS) ব্যবহার করে এই নির্দেশটি বাতিল করতে পারে</i></html>"
-
-#: htmlopts.cpp:202
-msgid "A&nimations:"
-msgstr "অ্যানিমেশ&ন:"
-
-#: htmlopts.cpp:206
-msgctxt "animations"
-msgid "Enabled"
-msgstr "সক্রিয়"
-
-#: htmlopts.cpp:207
-msgctxt "animations"
-msgid "Disabled"
-msgstr "নিষ্ক্রিয়"
-
-#: htmlopts.cpp:208
-msgid "Show Only Once"
-msgstr "একবার মাত্র দেখাও"
-
-#: htmlopts.cpp:212
-msgid ""
-"<html>Controls how Konqueror shows animated images:<br /><ul><li><b>Enabled</"
-"b>: Show all animations completely.</li><li><b>Disabled</b>: Never show "
-"animations, show the starting image only.</li><li><b>Show only once</b>: "
-"Show all animations completely but do not repeat them.</li></ul></html>"
-msgstr ""
-"<html>কনকরার কি ভাবে অ্যানিমেটেড ছবি প্রদর্শন করবে তা নিয়ন্ত্রণ করে:<br /> <ul> "
-"<li><b>সক্রিয়</b>: সব অ্যানিমেশন সম্পূর্ণ দেখানো হবে।</li> <li><b>নিষ্ক্রিয়</b>: "
-"অ্যানিমেশন কখনোই দেখানো হবে না, কেবল প্রথম ছবিটি দেখানো হবে।</li> <li><b>একবার "
-"মাত্র দেখাও</b>: সব অ্যানিমেশন সম্পূর্ণ দেখানো হবে, কিন্তু মাত্র একবার।</li> </ul> </"
-"html>"
-
-#: htmlopts.cpp:220
-#, fuzzy
-msgid "S&mooth scrolling:"
-msgstr "মোলায়েম scrolling: (&m)"
-
-#: htmlopts.cpp:224
-msgid "When Efficient"
-msgstr "কার্যকরী হলে"
-
-#: htmlopts.cpp:225
-msgctxt "smooth scrolling"
-msgid "Always"
-msgstr "সবসময়"
-
-#: htmlopts.cpp:226
-msgctxt "soft scrolling"
-msgid "Never"
-msgstr "কখনও না"
-
-#: htmlopts.cpp:230
-#, fuzzy
-msgid ""
-"<html>Determines whether Konqueror should use smooth steps to scroll HTML "
-"pages, or whole steps:<br /><ul><li><b>Always</b>: Always use smooth steps "
-"when scrolling.</li><li><b>Never</b>: Never use smooth scrolling, scroll "
-"with whole steps instead.</li><li><b>When Efficient</b>: Only use smooth "
-"scrolling on pages where it can be achieved with moderate usage of system "
-"resources.</li></ul></html>"
-msgstr ""
-"<html>নির্ধারণ কনকরারের স্ক্রোল এইচটিএমএল পাতাতে মসৃণ ধাপ ব্যবহার করা উচিত নয়, "
-"অথবা পুরো ধাপ:<br /><ul><li><b>সবসময়</b>: মসৃণ ধাপ সবসময় ব্যবহার করো যখন "
-"scrolling।</li><li><b>কখনও না</b>: পুরো ধাপ পরিবর্তের সঙ্গে মসৃণ scrolling, "
-"স্ক্রোল কখনও না ব্যবহার করো।</li><li><b>কখন Efficient</b>: পাতা মসৃণ scrolling "
-"কেবল ব্যবহার করো যেখানে এইটি সিস্টেম সম্পদের মধ্যপন্থী ব্যবহারের রীতি-নীতির সঙ্গে "
-"অর্জন করা যাবে।</li></ul></html>"
-
-#: javaopts.cpp:79 jsopts.cpp:58 pluginopts.cpp:74
-msgid "Global Settings"
-msgstr "গ্লোবাল (গ্লোবাল) পছন্দ"
-
-#: javaopts.cpp:84
+#: javaopts.cpp:80
 msgid "Enable Ja&va globally"
 msgstr "জাভা &সর্বত্র সক্রিয় করো"
 
-#: javaopts.cpp:100
+#: javaopts.cpp:96
 msgid "Java Runtime Settings"
 msgstr "জাভা রানটাইম সেটিংস"
 
-#: javaopts.cpp:110
+#: javaopts.cpp:101
 msgid "&Use security manager"
 msgstr "নিরাপত্তা ম্যানেজার ব্য&বহার করো"
 
-#: javaopts.cpp:114
+#: javaopts.cpp:105
 msgid "Use &KIO"
 msgstr "KIO ব্যবহা&র করো"
 
-#: javaopts.cpp:118
+#: javaopts.cpp:109
 #, fuzzy
 #| msgid "Shu&tdown applet server when inactive for more than"
-msgid "Shu&tdown applet server when inactive"
+msgid "Shu&tdown applet server when inactive for more than"
 msgstr "অ্যাপলে&ট সার্ভার এতক্ষণ নিষ্ক্রিয় থাকলে বন্ধ করে রাখো "
 
-#: javaopts.cpp:128
-msgid "App&let server timeout:"
-msgstr "অ্যাপলে&ট সার্ভার টাইম-আউট:"
-
-#: javaopts.cpp:129
+#: javaopts.cpp:116
 msgid " sec"
 msgstr " সেকণ্ড"
 
-#: javaopts.cpp:135
+#: javaopts.cpp:122
 msgid "&Path to Java executable, or 'java':"
 msgstr "জাভা এক্সিকিউটেবল অথবা 'java'-র পা&থ (path):"
 
-#: javaopts.cpp:145
+#: javaopts.cpp:126
 msgid "Additional Java a&rguments:"
 msgstr "অতিরিক্ত জাভা &আর্গুমেন্ট:"
 
-#: javaopts.cpp:153
+#: javaopts.cpp:131
 msgid ""
 "Enables the execution of scripts written in Java that can be contained in "
 "HTML pages. Note that, as with any browser, enabling active contents can be "
@@ -658,7 +675,7 @@ msgstr ""
 "কোন ব্রাউজারের মত, এই ধরনের বিষয়বস্তু সক্রিয় করলে তার থেকে নিরাপত্তাজনিত সমস্যা "
 "দেখা দিতে পারে।"
 
-#: javaopts.cpp:156
+#: javaopts.cpp:134
 #, fuzzy
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific Java "
@@ -672,7 +689,7 @@ msgstr ""
 "পাঠিয়েছিল।</p><p>একটি পলিসি নির্বাচন করো এবং এইটি পরিবর্তন করতে অধিকারে "
 "নিয়ন্ত্রণ করে ব্যবহার করো।</p>"
 
-#: javaopts.cpp:163
+#: javaopts.cpp:141
 msgid ""
 "Click this button to choose the file that contains the Java policies. These "
 "policies will be merged with the existing ones. Duplicate entries are "
@@ -681,7 +698,7 @@ msgstr ""
 "জাভা পলিসি সম্বলিত ফাইল বেছে নিতে এই বাটনটি ক্লিক করুন। এই পলিসিগুলি বর্তমান "
 "পলিসিগুলির সঙ্গে যোগ করা হবে। পরস্পরবিরোধী এন্ট্রি অগ্রাহ্য করা হবে।"
 
-#: javaopts.cpp:166
+#: javaopts.cpp:144
 msgid ""
 "Click this button to save the Java policy to a zipped file. The file, named "
 "<b>java_policy.tgz</b>, will be saved to a location of your choice."
@@ -689,7 +706,7 @@ msgstr ""
 "জাভা পলিসি একটি জিপ করা ফাইল-এ সংরক্ষণ করতে এই বাটন-টি ক্লিক করুন। ফাইলটির নাম "
 "হবে <b>java_policy.tgz</b>, এবং তা আপনার পছন্দমত অবস্থানে সংরক্ষণ করা হবে।"
 
-#: javaopts.cpp:170
+#: javaopts.cpp:148
 #, fuzzy
 msgid ""
 "Here you can set specific Java policies for any particular host or domain. "
@@ -707,7 +724,7 @@ msgstr ""
 "বাক্স থেকে নতুন পলিসি বেছে নাও। ে ক্লিক করছে<i>মুছে ফেলো</i>বাটন সেই ডোমেনটির "
 "জন্য হ ব্যবহার করতে নির্বাচিত পলিসি, causing ডিফল্ট পলিসি মানসমূহ সরিয়ে দেবে।"
 
-#: javaopts.cpp:183
+#: javaopts.cpp:161
 #, fuzzy
 msgid ""
 "Enabling the security manager will cause the jvm to run with a Security "
@@ -724,11 +741,11 @@ msgstr ""
 "অনুমতি থেকে কোড দিতে জাভা policytool ইউটিলিটির সঙ্গে আপনার $home/.java.policy "
 "ফাইল পরিবর্তন করতে পেরেছিলেন ডাউনলোড করেছিলেন।"
 
-#: javaopts.cpp:191
+#: javaopts.cpp:169
 msgid "Enabling this will cause the jvm to use KIO for network transport "
 msgstr "ার্ক "
 
-#: javaopts.cpp:193
+#: javaopts.cpp:171
 #, fuzzy
 msgid ""
 "Enter the path to the java executable. If you want to use the jre in your "
@@ -741,13 +758,13 @@ msgstr ""
 "প্রয়োজন বোধ করো, জাভা প্রোগ্রামে রাস্তা ঢোকাও (উদাঃ /usr/lib/jdk/bin/java), "
 "ডিরেক্টরীতে অথবা রাস্তা যে 'bin/java' ধারণ করো (উদাঃ /opt/IBMJava2-13)।"
 
-#: javaopts.cpp:198
+#: javaopts.cpp:176
 msgid ""
 "If you want special arguments to be passed to the virtual machine, enter "
 "them here."
 msgstr "যদি আপনি ভার্চুয়াল মেশিন-কে কিছু বিশেষ আর্গুমেন্ট পাঠাতে চান, তা এখানে লিখুন।"
 
-#: javaopts.cpp:200
+#: javaopts.cpp:178
 #, fuzzy
 msgid ""
 "When all the applets have been destroyed, the applet server should shut "
@@ -763,31 +780,32 @@ msgstr ""
 "কিছু আপনি পছন্দ করো। পুরো সময়ের জন্য জাভা পদ্ধতি চলন্ত রাখতে যে কনকরার পদ্ধতি, বন্ধ "
 "অ্যাপলেট সার্ভার চেকবাক্স unchecked ছেড়ে চলে যাও।"
 
-#: javaopts.cpp:315 pluginopts.cpp:665
+#: javaopts.cpp:291
+msgctxt "@title:group"
 msgid "Doma&in-Specific"
 msgstr "ডোমে&ইন-প্রতি"
 
-#: javaopts.cpp:348
+#: javaopts.cpp:324
 msgid "New Java Policy"
 msgstr "নতুন জাভা পলিসি"
 
-#: javaopts.cpp:351
+#: javaopts.cpp:327
 msgid "Change Java Policy"
 msgstr "জাভা পলিসি পরিবর্তন করো"
 
-#: javaopts.cpp:355
+#: javaopts.cpp:331
 msgid "&Java policy:"
 msgstr "জাভা &পলিসি:"
 
-#: javaopts.cpp:356
+#: javaopts.cpp:332
 msgid "Select a Java policy for the above host or domain."
 msgstr "উপরোক্ত হোস্ট অথবা ডোমেইন-এর জন্য জাভা পলিসি বেছে নিন।"
 
-#: jsopts.cpp:62
+#: jsopts.cpp:57
 msgid "Ena&ble JavaScript globally"
 msgstr "জাভাস্ক্রিপ্ট &সর্বত্র সক্রিয় করো"
 
-#: jsopts.cpp:63
+#: jsopts.cpp:58
 #, fuzzy
 msgid ""
 "Enables the execution of scripts written in ECMA-Script (also known as "
@@ -798,25 +816,29 @@ msgstr ""
 "যে এইচটিএমএল পাতাতে ধারণ করা যাবে। নোট যে, যেকোন ব্রাউজারের সঙ্গে হিসেবে, "
 "সক্রিয়করণ scripting ভাষা একটি নিরাপত্তা সমস্যা।"
 
+#: jsopts.cpp:66
+msgid "Debugging"
+msgstr "ডিবাগিং"
+
 #: jsopts.cpp:70
+msgid "Enable debu&gger"
+msgstr "ডিবাগা&র সক্রিয় করো"
+
+#: jsopts.cpp:71
+msgid "Enables builtin JavaScript debugger."
+msgstr "অভ্যন্তরীণ জাভা-স্ক্রিপ্ট ডিবাগার সক্রিয় করে।"
+
+#: jsopts.cpp:75
 msgid "Report &errors"
 msgstr "&সমস্যা রিপোর্ট করো"
 
-#: jsopts.cpp:71
+#: jsopts.cpp:76
 #, fuzzy
 msgid ""
 "Enables the reporting of errors that occur when JavaScript code is executed."
 msgstr "ত্রুটির reporting সক্রিয় করো যে ঘটাও যখন জাভাস্ক্রীপ্ট কোড রান করা হয়।"
 
-#: jsopts.cpp:76
-msgid "Enable debu&gger"
-msgstr "ডিবাগা&র সক্রিয় করো"
-
-#: jsopts.cpp:77
-msgid "Enables builtin JavaScript debugger."
-msgstr "অভ্যন্তরীণ জাভা-স্ক্রিপ্ট ডিবাগার সক্রিয় করে।"
-
-#: jsopts.cpp:87
+#: jsopts.cpp:86
 #, fuzzy
 msgid ""
 "Here you can set specific JavaScript policies for any particular host or "
@@ -839,7 +861,7 @@ msgstr ""
 "মধ্যে অন্যান্য জনগণের সঙ্গে আপনার পলিসি সহজভাবে ভাগাভাগি করতে আপনাকে অনুমোদন করো "
 "এবং একটি ফাইল থেকে তাদেরকে আহরন করেছিলেন zipেছিলেন।"
 
-#: jsopts.cpp:97
+#: jsopts.cpp:96
 #, fuzzy
 msgid ""
 "<p>This box contains the domains and hosts you have set a specific "
@@ -854,7 +876,7 @@ msgstr ""
 "আয়োজন করের দ্বারা পাঠিয়েছিল।</p><p>একটি পলিসি নির্বাচন করো এবং এইটি পরিবর্তন "
 "করতে অধিকারে নিয়ন্ত্রণ করে ব্যবহার করো।</p>"
 
-#: jsopts.cpp:104
+#: jsopts.cpp:103
 #, fuzzy
 msgid ""
 "Click this button to choose the file that contains the JavaScript policies. "
@@ -864,7 +886,7 @@ msgstr ""
 "ফাইল বেছে নিতে এই বাটনটি ক্লিক করো যে জাভাস্ক্রীপ্ট পলিসি ধারণ করো। এই পলিসি "
 "বিদ্যমান একের সঙ্গে নিমজ্জিত করা হবে। নকল এন্ট্রি উপেক্ষা করা হয়।"
 
-#: jsopts.cpp:107
+#: jsopts.cpp:106
 #, fuzzy
 msgid ""
 "Click this button to save the JavaScript policy to a zipped file. The file, "
@@ -875,34 +897,35 @@ msgstr ""
 "ফাইল, নাম করেছিল<b>javascriptpolicy tgz</b>, আপনার পছন্দের একটি অবস্থানে "
 "সংরক্ষণ করা হবে। (_p)"
 
-#: jsopts.cpp:113
+#: jsopts.cpp:112
 msgid "Global JavaScript Policies"
 msgstr "গ্লোবাল জাভাস্ক্রিপ্ট পলিসি"
 
-#: jsopts.cpp:184
+#: jsopts.cpp:180
 #, fuzzy
 #| msgctxt "@title:group"
 #| msgid "Do&main-Specific"
+msgctxt "@title:group"
 msgid "Do&main-Specific"
 msgstr "ডোমেই&ন-প্রতি"
 
-#: jsopts.cpp:220
+#: jsopts.cpp:216
 msgid "New JavaScript Policy"
 msgstr "নতুন জাভাস্ক্রিপ্ট পলিসি"
 
-#: jsopts.cpp:223
+#: jsopts.cpp:219
 msgid "Change JavaScript Policy"
 msgstr "জাভাস্ক্রিপ্ট পলিসি পরিবর্তন করো"
 
-#: jsopts.cpp:227
+#: jsopts.cpp:223
 msgid "JavaScript policy:"
 msgstr "জাভাস্ক্রিপ্ট পলিসি:"
 
-#: jsopts.cpp:228
+#: jsopts.cpp:224
 msgid "Select a JavaScript policy for the above host or domain."
 msgstr "উপরের হোস্ট অথবা ডোমেইন-এর জন্য একটি জাভাস্ক্রীপ্ট পলিসি নির্বাচন করুন।"
 
-#: jsopts.cpp:230
+#: jsopts.cpp:226
 msgid "Domain-Specific JavaScript Policies"
 msgstr "ডোমেইন অনুযায়ী জাভা-স্ক্রিপ্ট পলিসি"
 
@@ -1183,6 +1206,10 @@ msgstr ""
 "থেকে খুব fine-grained উল্লেখ করতে আপনাকে অনুমোদন করো যেটি আয়োজন করে আপনি জাভা "
 "এবং/অথবা জাভাস্ক্রীপ্ট প্রোগ্রাম রান করতে চাও।"
 
+#: pluginopts.cpp:74
+msgid "Global Settings"
+msgstr "গ্লোবাল (গ্লোবাল) পছন্দ"
+
 #: pluginopts.cpp:79
 msgid "&Enable plugins globally"
 msgstr "প্লাগ-&ইন সর্বত্র অনুমোদন করো"
@@ -1196,7 +1223,7 @@ msgstr "প্লাগিনের জন্য এইচটিটিপি এ
 msgid "&Load plugins on demand only"
 msgstr "শুধুমাত্র প্রয়োজন &হলে প্লাগ-ইন লোড করো"
 
-#: pluginopts.cpp:82 pluginopts.cpp:205
+#: pluginopts.cpp:82 pluginopts.cpp:203
 #, kde-format
 msgid "CPU priority for plugins: %1"
 msgstr "প্লাগ-ইনের জন্য সি-পি-ইউ প্রায়রিটি: %1"
@@ -1205,7 +1232,7 @@ msgstr "প্লাগ-ইনের জন্য সি-পি-ইউ প্র
 msgid "Domain-Specific Settin&gs"
 msgstr "ডোমেইন-অনুযায়ী &পছন্দ"
 
-#: pluginopts.cpp:123 pluginopts.cpp:630
+#: pluginopts.cpp:123 pluginopts.cpp:632
 msgid "Domain-Specific Policies"
 msgstr "ডোমেইন-অনুযায়ী পলিসি"
 
@@ -1280,32 +1307,32 @@ msgstr ""
 msgid "Plugins"
 msgstr "প্লাগ-ইন"
 
-#: pluginopts.cpp:194
+#: pluginopts.cpp:192
 msgctxt "lowest priority"
 msgid "lowest"
 msgstr "সর্বনিম্ন"
 
-#: pluginopts.cpp:196
+#: pluginopts.cpp:194
 msgctxt "low priority"
 msgid "low"
 msgstr "অল্প"
 
-#: pluginopts.cpp:198
+#: pluginopts.cpp:196
 msgctxt "medium priority"
 msgid "medium"
 msgstr "মাঝারি"
 
-#: pluginopts.cpp:200
+#: pluginopts.cpp:198
 msgctxt "high priority"
 msgid "high"
 msgstr "উচ্চ"
 
-#: pluginopts.cpp:202
+#: pluginopts.cpp:200
 msgctxt "highest priority"
 msgid "highest"
 msgstr "উচ্চতম"
 
-#: pluginopts.cpp:294
+#: pluginopts.cpp:292
 #, fuzzy
 msgid ""
 "<h1>Konqueror Plugins</h1> The Konqueror web browser can use Netscape "
@@ -1319,7 +1346,7 @@ msgstr ""
 "আপনাকে আপনার বন্টনে নেটস্কেপ প্লাগিন ইনস্টল করতে নির্ভর করা যেত। তাদেরকে ইনস্টল "
 "করতে একটি typical স্থান উদাহরণ, '/opt/netscape/plugins'এর জন্য,।"
 
-#: pluginopts.cpp:320
+#: pluginopts.cpp:318
 #, fuzzy
 msgid ""
 "Do you want to apply your changes before the scan? Otherwise the changes "
@@ -1328,55 +1355,59 @@ msgstr ""
 "আপনি কি স্ক্যানার পূর্বে আপনার পরিবর্তন প্রয়োগ করতে চাও? পরিবর্তন অন্যথায় হারাওয়া "
 "হবে।"
 
-#: pluginopts.cpp:338
+#: pluginopts.cpp:336
 #, fuzzy
 msgid ""
 "The nspluginscan executable cannot be found. Netscape plugins will not be "
 "scanned."
 msgstr "nspluginscan প্রোগ্রাম খুঁজে পা যাবে না। নেটস্কেপ প্লাগিন স্ক্যান করা হবে না।"
 
-#: pluginopts.cpp:345
+#: pluginopts.cpp:343
 msgid "Scanning for plugins"
 msgstr "প্লাগ-ইন-এর জন্য স্ক্যান করা হচ্ছে"
 
-#: pluginopts.cpp:390
+#: pluginopts.cpp:388
 msgid "Select Plugin Scan Folder"
 msgstr "প্লাগ-ইন স্ক্যান ফোল্ডার নির্বাচন করুন"
 
-#: pluginopts.cpp:563
+#: pluginopts.cpp:561
 msgid "Netscape Plugins"
 msgstr "নেটস্কেপ প্লাগ-ইন"
 
-#: pluginopts.cpp:585
+#: pluginopts.cpp:583
 msgid "Plugin"
 msgstr "প্লাগ-ইন"
 
-#: pluginopts.cpp:604
+#: pluginopts.cpp:606
 msgid "MIME type"
 msgstr "মাইম টাইপ"
 
-#: pluginopts.cpp:607
+#: pluginopts.cpp:609
 msgid "Description"
 msgstr "বর্ণনা"
 
-#: pluginopts.cpp:610
+#: pluginopts.cpp:612
 #, fuzzy
 msgid "Suffixes"
 msgstr "Suffixes"
 
-#: pluginopts.cpp:677
+#: pluginopts.cpp:667
+msgid "Doma&in-Specific"
+msgstr "ডোমে&ইন-প্রতি"
+
+#: pluginopts.cpp:679
 msgid "New Plugin Policy"
 msgstr "নতুন প্লাগ-ইন পলিসি"
 
-#: pluginopts.cpp:680
+#: pluginopts.cpp:682
 msgid "Change Plugin Policy"
 msgstr "প্লাগ-ইন পলিসি বদলাও"
 
-#: pluginopts.cpp:684
+#: pluginopts.cpp:686
 msgid "&Plugin policy:"
 msgstr "প্লাগ-ইন &পলিসি:"
 
-#: pluginopts.cpp:685
+#: pluginopts.cpp:687
 msgid "Select a plugin policy for the above host or domain."
 msgstr "উপরের হোস্ট অথবা ডোমেইন-এর জন্য একটি প্লাগিন পলিসি নির্বাচন করুন।"
 
@@ -1398,7 +1429,7 @@ msgstr ""
 msgid "You must first enter a domain name."
 msgstr "আপনার একটি ডোমেন নাম প্রথম ঢোকাওয়া উচিত।"
 
-#. i18n: file: advancedTabOptions.ui:22
+#. i18n: file: advancedTabOptions.ui:21
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pShowMMBInTabs)
 #: rc.cpp:3
 msgid ""
@@ -1408,94 +1439,15 @@ msgstr ""
 "কিছু কিছু ক্ষেত্রে নতুন উইণ্ডোর পরিবর্তে নতুন ট্যাব খোলা হবে, যেমন মাঝখানের মাউস বাটন "
 "ব্যবহার করে কোন লিঙ্ক অথবা ফোল্ডার-এর উপর ক্লিক করলে।"
 
-#. i18n: file: advancedTabOptions.ui:25
+#. i18n: file: advancedTabOptions.ui:24
 #. i18n: ectx: property (text), widget (QCheckBox, m_pShowMMBInTabs)
 #: rc.cpp:6
 msgid "Open &links in new tab instead of in new window"
 msgstr "লিঙ্ক নতুন &উইণ্ডোর পরিবর্তে নতুন ট্যাব-এ খোলো "
 
-#. i18n: file: advancedTabOptions.ui:32
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pDynamicTabbarHide)
-#: rc.cpp:9
-msgid ""
-"This will display the tab bar only if there are two or more tabs. Otherwise "
-"it will always be displayed."
-msgstr ""
-"এটি সক্রিয় করা হলে ট্যাব-বার শুধু তখনই দেখানোহবে যখন একাধিক ট্যাব খোলা আছে, নয়ত "
-"ট্যাব-বার সর্বদাই দেখানো হবে।"
-
-#. i18n: file: advancedTabOptions.ui:35
-#. i18n: ectx: property (text), widget (QCheckBox, m_pDynamicTabbarHide)
-#: rc.cpp:12
-msgid "Hide the tab bar when only one tab is open"
-msgstr "একটিমাত্র ট্যাব খোলা থাকলে ট্যাব-বার দেখিও না"
-
-#. i18n: file: advancedTabOptions.ui:42
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pNewTabsInBackground)
-#: rc.cpp:15
-#, fuzzy
-msgid ""
-"This will open a new tab in the background, instead of in the foreground."
-msgstr "এইটি পুরোভূমিতে ের পরিবর্তে পটভূমি,তে একটি নতুন ট্যাব খোলবে।"
-
-#. i18n: file: advancedTabOptions.ui:45
-#. i18n: ectx: property (text), widget (QCheckBox, m_pNewTabsInBackground)
-#: rc.cpp:18
-msgid "O&pen new tabs in the background"
-msgstr "নতুন ট্যাব পি&ছনে খোলো "
-
-#. i18n: file: advancedTabOptions.ui:52
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pOpenAfterCurrentPage)
-#: rc.cpp:21
-#, fuzzy
-msgid ""
-"This will open a new tab opened from a page after the current tab, instead "
-"of after the last tab."
-msgstr ""
-"এইটি শেষ ট্যাবের পরে ের পরিবর্তে বর্তমান ট্যাব,এর পরে একটি পাতা থেকে একটি নতুন "
-"ট্যাব খোলবে খোলবে।"
-
-#. i18n: file: advancedTabOptions.ui:55
-#. i18n: ectx: property (text), widget (QCheckBox, m_pOpenAfterCurrentPage)
-#: rc.cpp:24
-msgid "Open &new tab after current tab"
-msgstr "&নতুন ট্যাব বর্তমান ট্যাব-এর ঠিক পরে খোলো "
-
-#. i18n: file: advancedTabOptions.ui:62
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabConfirm)
-#: rc.cpp:27
-#, fuzzy
-msgid ""
-"This will ask you whether you are sure you want to close a window when it "
-"has multiple tabs opened in it."
-msgstr ""
-"এইটি একটি জানালা বন্ধ করতে আপনাকে আপনাকে নিশ্চিত আপনাকে জিজ্ঞাসা করবে চাবে কিনা "
-"যখন এইটি এইটিতে একাধিক ট্যাব খোলেছে।"
-
-#. i18n: file: advancedTabOptions.ui:65
-#. i18n: ectx: property (text), widget (QCheckBox, m_pTabConfirm)
-#: rc.cpp:30
-msgid "Confirm &when closing windows with multiple tabs"
-msgstr "একাধিক ট্যাব সম্বলিত উইণ্ডো বন্ধ করার &আগে জিজ্ঞাসা করো"
-
-#. i18n: file: advancedTabOptions.ui:72
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pPermanentCloseButton)
-#: rc.cpp:33
-#, fuzzy
-msgid ""
-"This will display close buttons inside each tab instead of websites' icons."
-msgstr ""
-"এইটি websites' আইকনস্ের পরিবর্তে প্রত্যেক ট্যাবের ভেতরে বন্ধ করা বাটন প্রদর্শন করবে।"
-
-#. i18n: file: advancedTabOptions.ui:75
-#. i18n: ectx: property (text), widget (QCheckBox, m_pPermanentCloseButton)
-#: rc.cpp:36
-msgid "&Show close button on tabs"
-msgstr "ট্যাবে বন্ধ করার বাটন দেখা&ও "
-
-#. i18n: file: advancedTabOptions.ui:82
+#. i18n: file: advancedTabOptions.ui:31
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pPopupsWithinTabs)
-#: rc.cpp:39
+#: rc.cpp:9
 #, fuzzy
 msgid ""
 "Whether or not JavaScript popups if allowed shall open in a new tab or in a "
@@ -1504,35 +1456,16 @@ msgstr ""
 "অথবা জাভাস্ক্রীপ্ট popups না কিনা যদি অনুমোদিত shall একটি নতুন জানালাতে একটি নতুন "
 "ট্যাব অথবাতে খোল।"
 
-#. i18n: file: advancedTabOptions.ui:85
+#. i18n: file: advancedTabOptions.ui:34
 #. i18n: ectx: property (text), widget (QCheckBox, m_pPopupsWithinTabs)
-#: rc.cpp:42
+#: rc.cpp:12
 #, fuzzy
 msgid "Open pop&ups in new tab instead of in new window"
 msgstr "নতুন জানালাতে ের পরিবর্তে নতুন ট্যাবে মুক্ত popups (&u)"
 
-#. i18n: file: advancedTabOptions.ui:92
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabCloseActivatePrevious)
-#: rc.cpp:45
-#, fuzzy
-msgid ""
-"When checking this the previous used or opened tab will be activated when "
-"you close the current active tab instead of the one right to the current tab."
-msgstr ""
-"কখন পরীক্ষা করা এই পূর্ববর্তী ব্যবহৃত অথবা ট্যাব খোলা হয়েছিল সক্রিয় করা হয়েছিল যখন "
-"আপনি বর্তমান ট্যাবে এক অধিকারের পরিবর্তে বর্তমান সক্রিয় ট্যাব বন্ধ করো।"
-
-#. i18n: file: advancedTabOptions.ui:95
-#. i18n: ectx: property (text), widget (QCheckBox, m_pTabCloseActivatePrevious)
-#: rc.cpp:48
-#, fuzzy
-#| msgid "Activate previously used tab when closing the current tab"
-msgid "Activate previous used tab when closing the current tab"
-msgstr "বর্তমান ট্যাব বন্ধ করা হলে পূর্বব্যবহৃত ট্যাব সক্রিয় করো"
-
-#. i18n: file: advancedTabOptions.ui:102
+#. i18n: file: advancedTabOptions.ui:41
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pKonquerorTabforExternalURL)
-#: rc.cpp:51
+#: rc.cpp:15
 #, fuzzy
 msgid ""
 "When you click a URL in another KDE program or call kfmclient to open a URL, "
@@ -1545,16 +1478,78 @@ msgstr ""
 "অনুসন্ধান করা হবে যদি পাওয়া গেছে, ইউআরএল এইটির মধ্যে একটি নতুন ট্যাব হিসেবে "
 "খোলেছিলেন। একটি অন্যথায় নতুন কনকরার জানালা প্রয়োজনীয় ইউআরএলের সঙ্গে খোলা হবে।"
 
-#. i18n: file: advancedTabOptions.ui:105
+#. i18n: file: advancedTabOptions.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, m_pKonquerorTabforExternalURL)
-#: rc.cpp:54
+#: rc.cpp:18
 #, fuzzy
 msgid "Open as tab in existing Konqueror when URL is called externally"
 msgstr "কনকরার রয়েছতে ট্যাব হিসেবে খোলা যখন ইউআরএল বাহ্যিকভাবে ডাক দেওয়া হয়"
 
-#. i18n: file: advancedTabOptions.ui:112
+#. i18n: file: advancedTabOptions.ui:51
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pNewTabsInBackground)
+#: rc.cpp:21
+#, fuzzy
+msgid ""
+"This will open a new tab in the background, instead of in the foreground."
+msgstr "এইটি পুরোভূমিতে ের পরিবর্তে পটভূমি,তে একটি নতুন ট্যাব খোলবে।"
+
+#. i18n: file: advancedTabOptions.ui:54
+#. i18n: ectx: property (text), widget (QCheckBox, m_pNewTabsInBackground)
+#: rc.cpp:24
+msgid "O&pen new tabs in the background"
+msgstr "নতুন ট্যাব পি&ছনে খোলো "
+
+#. i18n: file: advancedTabOptions.ui:61
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pOpenAfterCurrentPage)
+#: rc.cpp:27
+#, fuzzy
+msgid ""
+"This will open a new tab opened from a page after the current tab, instead "
+"of after the last tab."
+msgstr ""
+"এইটি শেষ ট্যাবের পরে ের পরিবর্তে বর্তমান ট্যাব,এর পরে একটি পাতা থেকে একটি নতুন "
+"ট্যাব খোলবে খোলবে।"
+
+#. i18n: file: advancedTabOptions.ui:64
+#. i18n: ectx: property (text), widget (QCheckBox, m_pOpenAfterCurrentPage)
+#: rc.cpp:30
+msgid "Open &new tab after current tab"
+msgstr "&নতুন ট্যাব বর্তমান ট্যাব-এর ঠিক পরে খোলো "
+
+#. i18n: file: advancedTabOptions.ui:71
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pDynamicTabbarHide)
+#: rc.cpp:33
+msgid ""
+"This will display the tab bar only if there are two or more tabs. Otherwise "
+"it will always be displayed."
+msgstr ""
+"এটি সক্রিয় করা হলে ট্যাব-বার শুধু তখনই দেখানোহবে যখন একাধিক ট্যাব খোলা আছে, নয়ত "
+"ট্যাব-বার সর্বদাই দেখানো হবে।"
+
+#. i18n: file: advancedTabOptions.ui:74
+#. i18n: ectx: property (text), widget (QCheckBox, m_pDynamicTabbarHide)
+#: rc.cpp:36
+msgid "Hide the tab bar when only one tab is open"
+msgstr "একটিমাত্র ট্যাব খোলা থাকলে ট্যাব-বার দেখিও না"
+
+#. i18n: file: advancedTabOptions.ui:81
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pPermanentCloseButton)
+#: rc.cpp:39
+#, fuzzy
+msgid ""
+"This will display close buttons inside each tab instead of websites' icons."
+msgstr ""
+"এইটি websites' আইকনস্ের পরিবর্তে প্রত্যেক ট্যাবের ভেতরে বন্ধ করা বাটন প্রদর্শন করবে।"
+
+#. i18n: file: advancedTabOptions.ui:84
+#. i18n: ectx: property (text), widget (QCheckBox, m_pPermanentCloseButton)
+#: rc.cpp:42
+msgid "&Show close button on tabs"
+msgstr "ট্যাবে বন্ধ করার বাটন দেখা&ও "
+
+#. i18n: file: advancedTabOptions.ui:91
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pMiddleClickClose)
-#: rc.cpp:57
+#: rc.cpp:45
 #, fuzzy
 msgid ""
 "When you click on a tab using the middle mouse button or mouse wheel, it "
@@ -1565,12 +1560,48 @@ msgstr ""
 "সেই ট্যাবটি বন্ধ করবে। (কনকরার effect. গ্রহণ করতে পরিবর্তনের জন্য হ পুনরায় শুরু করতে "
 "প্রয়োজন বোধ করো)"
 
-#. i18n: file: advancedTabOptions.ui:115
+#. i18n: file: advancedTabOptions.ui:94
 #. i18n: ectx: property (text), widget (QCheckBox, m_pMiddleClickClose)
-#: rc.cpp:60
+#: rc.cpp:48
 #, fuzzy
 msgid "Middle-click on a tab to close it"
 msgstr "এইটি বন্ধ করতে একটি ট্যাবে মাঝের বাটন ক্লিক করা"
+
+#. i18n: file: advancedTabOptions.ui:101
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabConfirm)
+#: rc.cpp:51
+#, fuzzy
+msgid ""
+"This will ask you whether you are sure you want to close a window when it "
+"has multiple tabs opened in it."
+msgstr ""
+"এইটি একটি জানালা বন্ধ করতে আপনাকে আপনাকে নিশ্চিত আপনাকে জিজ্ঞাসা করবে চাবে কিনা "
+"যখন এইটি এইটিতে একাধিক ট্যাব খোলেছে।"
+
+#. i18n: file: advancedTabOptions.ui:104
+#. i18n: ectx: property (text), widget (QCheckBox, m_pTabConfirm)
+#: rc.cpp:54
+msgid "Confirm &when closing windows with multiple tabs"
+msgstr "একাধিক ট্যাব সম্বলিত উইণ্ডো বন্ধ করার &আগে জিজ্ঞাসা করো"
+
+#. i18n: file: advancedTabOptions.ui:111
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_pTabCloseActivatePrevious)
+#: rc.cpp:57
+#, fuzzy
+msgid ""
+"When checking this the previous used or opened tab will be activated when "
+"you close the current active tab instead of the one right to the current tab."
+msgstr ""
+"কখন পরীক্ষা করা এই পূর্ববর্তী ব্যবহৃত অথবা ট্যাব খোলা হয়েছিল সক্রিয় করা হয়েছিল যখন "
+"আপনি বর্তমান ট্যাবে এক অধিকারের পরিবর্তে বর্তমান সক্রিয় ট্যাব বন্ধ করো।"
+
+#. i18n: file: advancedTabOptions.ui:114
+#. i18n: ectx: property (text), widget (QCheckBox, m_pTabCloseActivatePrevious)
+#: rc.cpp:60
+#, fuzzy
+#| msgid "Activate previously used tab when closing the current tab"
+msgid "Activate previously used tab when closing the current tab"
+msgstr "বর্তমান ট্যাব বন্ধ করা হলে পূর্বব্যবহৃত ট্যাব সক্রিয় করো"
 
 #. i18n: file: nsconfigwidget.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
@@ -1643,35 +1674,11 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.or"
 
-#~ msgctxt "@title:tab"
-#~ msgid "General"
-#~ msgstr "সাধারণ"
+#~ msgid "Enable completion of &forms"
+#~ msgstr "&ফর্ম-এর পরিপূরণ সক্রিয় করো"
 
-#~ msgctxt "@title:tab"
-#~ msgid "Fonts"
-#~ msgstr "ফন্ট"
-
-#~ msgctxt "@title:tab"
-#~ msgid "Stylesheets"
-#~ msgstr "স্টাইল-শীট"
-
-#~ msgid "Images"
-#~ msgstr "ছবি"
-
-#~ msgctxt "@title:group"
-#~ msgid "Miscellaneous"
-#~ msgstr "বিবিধ"
-
-#~ msgctxt "@item:inlistbox"
-#~ msgid "Show My Bookmarks"
-#~ msgstr "আমার বুকমার্ক দেখাও"
-
-#~ msgctxt "@title:group"
-#~ msgid "Doma&in-Specific"
-#~ msgstr "ডোমে&ইন-প্রতি"
-
-#~ msgid "Debugging"
-#~ msgstr "ডিবাগিং"
+#~ msgid "App&let server timeout:"
+#~ msgstr "অ্যাপলে&ট সার্ভার টাইম-আউট:"
 
 #~ msgid "Netscape Plugin Config"
 #~ msgstr "নেটস্কেপ প্লাগ-ইন কনফিগ"
