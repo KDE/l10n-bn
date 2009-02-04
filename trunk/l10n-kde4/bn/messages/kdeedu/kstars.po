@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-01 11:32+0100\n"
+"POT-Creation-Date: 2009-02-04 12:08+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -392,7 +392,7 @@ msgstr "সাধারণ"
 #: detaildialog.cpp:134 kspopupmenu.cpp:133 kstarsdata.cpp:84
 #: kstarsinit.cpp:660 starobject.cpp:659 starobject.cpp:678 starobject.cpp:683
 #: starobject.cpp:686 tools/observinglist.cpp:298 tools/wutdialog.cpp:256
-#: skycomponents/starcomponent.cpp:480
+#: skycomponents/starcomponent.cpp:490
 msgid "star"
 msgstr "তারা"
 
@@ -24480,7 +24480,9 @@ msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণে�
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
-#: kstarsactions.cpp:872
+#. i18n: file: newfov.ui:229
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
+#: kstarsactions.cpp:872 rc.cpp:1901 rc.cpp:3990
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
@@ -30015,22 +30017,6 @@ msgstr ""
 "দূরবীক্ষণ যন্ত্রের আইপিসের ফিল্ড-অব-ভিউ (FOV) এর সাথে মিলে যায় এরকম ফিল্ড-অব-ভিউ "
 "(FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
-#. i18n: file: newfov.ui:229
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#. i18n: file: newfov.ui:913
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: newfov.ui:930
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: newfov.ui:229
-#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#. i18n: file: newfov.ui:913
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#. i18n: file: newfov.ui:930
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1901 rc.cpp:2041 rc.cpp:2047 rc.cpp:3990 rc.cpp:4130 rc.cpp:4136
-msgid "arcmin"
-msgstr "আর্কমিনিট"
-
 #. i18n: file: newfov.ui:282
 #. i18n: ectx: property (toolTip), widget (KPushButton, ComputeEyeFOV)
 #. i18n: file: newfov.ui:312
@@ -30302,6 +30288,18 @@ msgstr ""
 "\n"
 "আপনি সরাসরি এই মানটি লিখতে পারেন, অথবা \"আইপিস\" বা \"ক্যামেরা\" ট্যাব ব্যবহার "
 "করে নির্দিষ্ট আইপিস বা ক্যামেরার কৌণিক আকার গণনা করতে পারেন।"
+
+#. i18n: file: newfov.ui:913
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: newfov.ui:930
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: file: newfov.ui:913
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: file: newfov.ui:930
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: rc.cpp:2041 rc.cpp:2047 rc.cpp:4130 rc.cpp:4136
+msgid "arcmin"
+msgstr "আর্কমিনিট"
 
 #. i18n: file: newfov.ui:920
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -38651,13 +38649,13 @@ msgstr "তারামণ্ডলের সীমারেখা"
 msgid "Loading Consellation Boundaries"
 msgstr "তারামণ্ডলের সীমারেখা লোড করা হচ্ছে"
 
-#: skycomponents/constellationlines.cpp:39
+#: skycomponents/constellationlines.cpp:40
 #, fuzzy
 #| msgid "Constellation lines"
 msgid "Constellation Lines"
 msgstr "তারামণ্ডলের রেখা"
 
-#: skycomponents/constellationlines.cpp:123
+#: skycomponents/constellationlines.cpp:124
 #, fuzzy, kde-format
 msgid "Star HD%1 not found."
 msgstr "%1 নামক কোন বস্তু পাওয়া যায় নি।"
@@ -38949,12 +38947,12 @@ msgstr "স্বনির্বাচিত তথ্যের এই ফাই
 msgid "Loading solar system"
 msgstr "সৌরজগত্‍"
 
-#: skycomponents/starcomponent.cpp:74
+#: skycomponents/starcomponent.cpp:84
 #, fuzzy
 msgid "Loading stars"
 msgstr "মিলযুক্ত খ-বস্তু:"
 
-#: skycomponents/starcomponent.cpp:145
+#: skycomponents/starcomponent.cpp:155
 msgid "Please wait while re-indexing stars ..."
 msgstr ""
 
