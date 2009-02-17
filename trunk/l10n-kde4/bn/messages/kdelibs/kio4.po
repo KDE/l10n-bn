@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-16 09:04+0100\n"
+"POT-Creation-Date: 2009-02-17 09:06+0100\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -104,7 +104,7 @@ msgctxt "@title job"
 msgid "Unmounting"
 msgstr "আনমাউন্ট করা হচ্ছে"
 
-#: kio/job.cpp:1995 kio/paste.cpp:63 kio/copyjob.cpp:1187 kio/copyjob.cpp:1722
+#: kio/job.cpp:1995 kio/paste.cpp:63 kio/copyjob.cpp:1183 kio/copyjob.cpp:1720
 #: kio/global.cpp:664
 msgid "File Already Exists"
 msgstr "ফাইল আগে থেকেই আছে"
@@ -154,7 +154,7 @@ msgid "The clipboard is empty"
 msgstr "ক্লিপবোর্ড ফাঁকা"
 
 #: kio/paste.cpp:203 kio/renamedialog.cpp:403 kio/kdirlister.cpp:313
-#: kio/krun.cpp:825
+#: kio/krun.cpp:829
 #, kde-format
 msgid ""
 "Malformed URL\n"
@@ -509,11 +509,11 @@ msgstr "এড়িয়ে যাও"
 msgid "AutoSkip"
 msgstr "এড়িয়ে যাও"
 
-#: kio/copyjob.cpp:905 kio/global.cpp:674
+#: kio/copyjob.cpp:898 kio/global.cpp:674
 msgid "Folder Already Exists"
 msgstr "ফোল্ডার আগে থেকেই আছে"
 
-#: kio/copyjob.cpp:1187 kio/copyjob.cpp:1722
+#: kio/copyjob.cpp:1183 kio/copyjob.cpp:1720
 msgid "Already Exists as Folder"
 msgstr "ফোল্ডার হিসেবে আগে থেকেই আছে"
 
@@ -2170,32 +2170,32 @@ msgstr "আপনার এই ফাইলটি চালাবার অন�
 msgid "Open with:"
 msgstr "খুলতে ব্যবহার করো:"
 
-#: kio/krun.cpp:499
+#: kio/krun.cpp:500
 msgid "You are not authorized to execute this file."
 msgstr "আপনার এই ফাইলটি চালাবার অনুমতি নেই।"
 
-#: kio/krun.cpp:520
+#: kio/krun.cpp:521
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 চালানো হচ্ছে"
 
-#: kio/krun.cpp:626
+#: kio/krun.cpp:627
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: kio/krun.cpp:693
+#: kio/krun.cpp:694
 msgid "You are not authorized to execute this service."
 msgstr ""
 
-#: kio/krun.cpp:861
+#: kio/krun.cpp:865
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr ""
 
-#: kio/krun.cpp:1486
+#: kio/krun.cpp:1496
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "'%1' প্রোগ্রামটি পাওয়া যায়নি"
@@ -2405,43 +2405,43 @@ msgstr ""
 msgid "Unable to create io-slave: %1"
 msgstr ""
 
-#: kio/kdirmodel.cpp:907
+#: kio/kdirmodel.cpp:922
 #, fuzzy
 msgctxt "@title:column"
 msgid "Name"
 msgstr "নাম"
 
-#: kio/kdirmodel.cpp:909
+#: kio/kdirmodel.cpp:924
 #, fuzzy
 msgctxt "@title:column"
 msgid "Size"
 msgstr "মাপ"
 
-#: kio/kdirmodel.cpp:911
+#: kio/kdirmodel.cpp:926
 #, fuzzy
 msgctxt "@title:column"
 msgid "Date"
 msgstr "তারিখ"
 
-#: kio/kdirmodel.cpp:913
+#: kio/kdirmodel.cpp:928
 #, fuzzy
 msgctxt "@title:column"
 msgid "Permissions"
 msgstr "অনুমতি"
 
-#: kio/kdirmodel.cpp:915
+#: kio/kdirmodel.cpp:930
 #, fuzzy
 msgctxt "@title:column"
 msgid "Owner"
 msgstr "মালিক"
 
-#: kio/kdirmodel.cpp:917
+#: kio/kdirmodel.cpp:932
 #, fuzzy
 msgctxt "@title:column"
 msgid "Group"
 msgstr "গ্রুপ"
 
-#: kio/kdirmodel.cpp:919
+#: kio/kdirmodel.cpp:934
 #, fuzzy
 msgctxt "@title:column"
 msgid "Type"
@@ -4590,12 +4590,12 @@ msgstr ""
 "%2\n"
 "\n"
 
-#: ../kioslave/ftp/ftp.cpp:466 ../kioslave/http/http.cpp:4805
+#: ../kioslave/ftp/ftp.cpp:466 ../kioslave/http/http.cpp:4811
 #, fuzzy
 msgid "You need to supply a username and a password to access this site."
 msgstr "এই সাইটটি দেখতে আপনার একটি username এবং পাসওয়ার্ড প্রয়োজন।"
 
-#: ../kioslave/ftp/ftp.cpp:468 ../kioslave/http/http.cpp:4812
+#: ../kioslave/ftp/ftp.cpp:468 ../kioslave/http/http.cpp:4818
 msgid "Site:"
 msgstr "সাইট:"
 
@@ -4832,49 +4832,49 @@ msgctxt "%1: response code, %2: request type"
 msgid "An unexpected error (%1) occurred while attempting to %2."
 msgstr "%2 করার চেষ্টা চলাকালীন অপ্রত্যাশিত সমস্যা (%1) দেখা দিয়েছে।"
 
-#: ../kioslave/http/http.cpp:2428
+#: ../kioslave/http/http.cpp:2434
 #, kde-format
 msgid "%1 contacted. Waiting for reply..."
 msgstr "%1-এর সঙ্গে যোগাযোগ করা হয়েছে। উত্তরের অপেক্ষায়..."
 
-#: ../kioslave/http/http.cpp:2806
+#: ../kioslave/http/http.cpp:2812
 msgid "Server processing request, please wait..."
 msgstr "সার্ভার অনুরোধ প্রসেস করছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
-#: ../kioslave/http/http.cpp:3327
+#: ../kioslave/http/http.cpp:3333
 msgid "Authentication Failed."
 msgstr "অথেন্টিকেশন ব্যর্থ।"
 
-#: ../kioslave/http/http.cpp:3328 ../kioslave/http/http.cpp:4880
+#: ../kioslave/http/http.cpp:3334 ../kioslave/http/http.cpp:4886
 msgid "Proxy Authentication Failed."
 msgstr "প্রক্সি অথেন্টিকেশন ব্যর্থ।"
 
-#: ../kioslave/http/http.cpp:3700
+#: ../kioslave/http/http.cpp:3706
 msgid "Requesting data to send"
 msgstr ""
 
-#: ../kioslave/http/http.cpp:3732
+#: ../kioslave/http/http.cpp:3738
 #, kde-format
 msgid "Sending data to %1"
 msgstr "%1-কে তথ্য পাঠানো হচ্ছে"
 
-#: ../kioslave/http/http.cpp:4139
+#: ../kioslave/http/http.cpp:4145
 #, kde-format
 msgid "Retrieving %1 from %2..."
 msgstr "%2 থেকে %1 আনা হচ্ছে... ১"
 
-#: ../kioslave/http/http.cpp:4145
+#: ../kioslave/http/http.cpp:4151
 #, kde-format
 msgid "Retrieving from %1..."
 msgstr "%1 থেকে আনা হচ্ছে..."
 
-#: ../kioslave/http/http.cpp:4813 ../kioslave/http/http.cpp:4829
-#: ../kioslave/http/http.cpp:4879
+#: ../kioslave/http/http.cpp:4819 ../kioslave/http/http.cpp:4835
+#: ../kioslave/http/http.cpp:4885
 #, kde-format
 msgid "<b>%1</b> at <b>%2</b>"
 msgstr "<b>%1</b> at <b>%2</b>"
 
-#: ../kioslave/http/http.cpp:4820 ../kioslave/http/http.cpp:4874
+#: ../kioslave/http/http.cpp:4826 ../kioslave/http/http.cpp:4880
 #, fuzzy
 msgid ""
 "You need to supply a username and a password for the proxy server listed "
@@ -4883,7 +4883,7 @@ msgstr ""
 "কোনো সাইট দেখার আগে আপনাকে নিম্নোল্লিখিত প্রক্সি সার্ভারটির জন্য একটি বৈধ username "
 "এবং পাসওয়ার্ড দিতে হবে।"
 
-#: ../kioslave/http/http.cpp:4828 ../kioslave/http/http.cpp:4878
+#: ../kioslave/http/http.cpp:4834 ../kioslave/http/http.cpp:4884
 msgid "Proxy:"
 msgstr "প্রক্সি:"
 
