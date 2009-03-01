@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbruch (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-02-15 10:06+0100\n"
+"POT-Creation-Date: 2009-03-01 10:37+0100\n"
 "PO-Revision-Date: 2006-03-29 08:30+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -105,16 +105,20 @@ msgstr ""
 #: FractionRingWidget.cpp:458
 #, kde-format
 msgctxt "Inserted as %1 in the message below."
-msgid "%2 of %1 painted parts."
-msgstr ""
+msgid "%2 of 1 painted part."
+msgid_plural "%2 of %1 painted parts."
+msgstr[0] ""
+msgstr[1] ""
 
-#: FractionRingWidget.cpp:460
+#: FractionRingWidget.cpp:461
 #, kde-format
 msgctxt "Inserted as %2 in the message below."
-msgid "%2 of %1 painted parts."
-msgstr ""
+msgid "%2 of 1 painted part."
+msgid_plural "%2 of %1 painted parts."
+msgstr[0] ""
+msgstr[1] ""
 
-#: FractionRingWidget.cpp:462
+#: FractionRingWidget.cpp:464
 #, kde-format
 msgctxt "%1 and %2 are the two messages translated above."
 msgid ""
@@ -133,7 +137,7 @@ msgstr ""
 #: exercisecompare.cpp:103
 #, fuzzy
 #| msgid "Click on this button to change the comparison sign."
-msgid "Click on this button to select the more sign."
+msgid "Click on this button to select the 'greater than' sign."
 msgstr "তুলনার চিহ্ন পরিবর্তনের জন্য এই বাটনে ক্লিক করুন।"
 
 #: exercisecompare.cpp:108
@@ -142,9 +146,9 @@ msgstr ""
 
 #: exercisecompare.cpp:112
 #, fuzzy
-#| msgid "Click on this button to change the comparison sign."
-msgid "Click on this button to select the minor sign."
-msgstr "তুলনার চিহ্ন পরিবর্তনের জন্য এই বাটনে ক্লিক করুন।"
+#| msgid "Click on this button to get to the next task."
+msgid "Click on this button to select the 'less than' sign."
+msgstr "পরবর্তী অংকে যেতে হলে এই বাটনে ক্লিক করুন।"
 
 #: exercisecompare.cpp:117
 msgid "="
@@ -153,7 +157,7 @@ msgstr ""
 #: exercisecompare.cpp:121
 #, fuzzy
 #| msgid "Click on this button to get to the next task."
-msgid "Click on this button to select the equal sign."
+msgid "Click on this button to select the 'equals' sign."
 msgstr "পরবর্তী অংকে যেতে হলে এই বাটনে ক্লিক করুন।"
 
 #: exercisecompare.cpp:133 exercisecompare.cpp:300 exerciseconvert.cpp:151
@@ -169,14 +173,16 @@ msgid "Click on this button to skip this question."
 msgstr "আপনার ফলাফল পরীক্ষা করার জন্য এই বাটনে ক্লিক করুন।"
 
 #: exercisecompare.cpp:149
-msgid "In this exercise you have to compare 2 given fractions."
+#, fuzzy
+#| msgid "In this exercise you have to compare 2 given fractions."
+msgid "In this exercise you have to compare two given fractions."
 msgstr "এই অনুশীলনীতে আপনাকে দুটি ভগ্নাংশ তুলনা করতে হবে।"
 
 #: exercisecompare.cpp:150
 #, fuzzy
 #| msgid "In this exercise you have to compare 2 given fractions."
 msgid ""
-"In this exercise you have to compare 2 given fractions by choosing the "
+"In this exercise you have to compare two given fractions and choose the "
 "correct comparison sign."
 msgstr "এই অনুশীলনীতে আপনাকে দুটি ভগ্নাংশ তুলনা করতে হবে।"
 
@@ -226,7 +232,7 @@ msgstr "এই অনুশীলনীতে আপনাকে একটি �
 #, fuzzy
 msgid ""
 "In this exercise you have to convert a given number into a fraction by "
-"entering numerator and denominator. Do not forget to reduce the result."
+"entering a numerator and denominator. Do not forget to reduce the result."
 msgstr ""
 "এই অনুশীলনীতে একটি সংখ্যাকে ভগাংশে রূপান্তর করার জন্য আপনাকে তার লব ও হর লিখতে "
 "হবে।  ফলাফলকে লঘু করতে ভুলবে না যেন!"
@@ -467,20 +473,20 @@ msgstr ""
 
 #: mainqtwidget.cpp:185
 msgid ""
-"Set if the fractions will appear in mixed number or not in the question "
-"expression ( mixed number example: 1 5/4 = 9/4 )."
+"Set if the fractions will appear as mixed numbers or not in the question "
+"expression (mixed number example: 1 5/4 = 9/4 )."
 msgstr ""
 
 #: mainqtwidget.cpp:196
 msgid ""
-"Set if the fractions will appear in mixed number or not in the answer "
-"( mixed number example: 1 5/4 = 9/4 )."
+"Set if the fractions will appear as mixed numbers or not in the answer "
+"(mixed number example: 1 5/4 = 9/4 )."
 msgstr ""
 
 #: mainqtwidget.cpp:207
 msgid ""
-"Set if the fractions will appear in mixed number or not in the solution "
-"( mixed number example: 1 5/4 = 9/4 )."
+"Set if the fractions will appear as mixed numbers or not in the solution "
+"(mixed number example: 1 5/4 = 9/4 )."
 msgstr ""
 
 #: mainqtwidget.cpp:217
@@ -837,16 +843,21 @@ msgstr ""
 
 #. i18n: file: kbruch.kcfg:60
 #. i18n: ectx: whatsthis, entry, group (Task)
-#. i18n: file: kbruch.kcfg:70
-#. i18n: ectx: whatsthis, entry, group (Task)
-#: rc.cpp:66 rc.cpp:78
+#: rc.cpp:66
 msgid "Set if the fractions will appear in mixed form or not on solution."
 msgstr ""
 
 #. i18n: file: kbruch.kcfg:65
 #. i18n: ectx: whatsthis, entry, group (Task)
 #: rc.cpp:72
-msgid "Set if the fractions will need answer in mixed form or not on solution."
+msgid ""
+"Set if the fractions will need answers in mixed form or not on solution."
+msgstr ""
+
+#. i18n: file: kbruch.kcfg:70
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: rc.cpp:78
+msgid "Set if the fractions will appear in mixed form or not in questions."
 msgstr ""
 
 #. i18n: file: kbruch.kcfg:77
@@ -1145,6 +1156,11 @@ msgstr "/"
 #: kbruch.h:34
 msgid "KBruch"
 msgstr "কে-ব্রুচ"
+
+#, fuzzy
+#~| msgid "Click on this button to change the comparison sign."
+#~ msgid "Click on this button to select the minor sign."
+#~ msgstr "তুলনার চিহ্ন পরিবর্তনের জন্য এই বাটনে ক্লিক করুন।"
 
 #~ msgid ""
 #~ "In this exercise you have to compare 2 given fractions by choosing the "
