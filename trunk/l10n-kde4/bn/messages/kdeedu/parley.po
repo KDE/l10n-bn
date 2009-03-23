@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-02 10:01+0100\n"
+"POT-Creation-Date: 2009-03-23 10:25+0100\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -35,12 +35,12 @@ msgid "Script Dialog"
 msgstr ""
 
 #: src/parleymainwindow.cpp:110 src/export/exportdialog.cpp:107
-#: src/parleydocument.cpp:190
+#: src/parleydocument.cpp:211
 #, fuzzy
 msgid "Untitled"
 msgstr "শিরোনাম"
 
-#: src/parleymainwindow.cpp:160 src/parleydocument.cpp:99
+#: src/parleymainwindow.cpp:160 src/parleydocument.cpp:97
 #, fuzzy, kde-format
 #| msgid "Edit Properties for Original"
 msgctxt "@title:window document properties"
@@ -295,7 +295,7 @@ msgid ""
 "%1 (%2)."
 msgstr ""
 
-#: src/practiceold/practicedialog.cpp:68 src/vocabulary/vocabularyview.cpp:583
+#: src/practiceold/practicedialog.cpp:68 src/vocabulary/vocabularyview.cpp:395
 msgctxt "@title of a popup"
 msgid "No Spell Checker Available"
 msgstr ""
@@ -653,7 +653,7 @@ msgstr "&অনুবাদ"
 
 #. i18n: file: src/settings/parley.kcfg:46
 #. i18n: ectx: label, entry (AutomaticTranslation), group (General)
-#: src/editor/editor.cpp:404 rc.cpp:1298
+#: src/editor/editor.cpp:404 rc.cpp:1301
 msgid "Enable automatic translation of the lesson entries."
 msgstr ""
 
@@ -1436,37 +1436,37 @@ msgctxt ""
 msgid "False Friends of %1:"
 msgstr "নক&ল বন্ধু:"
 
-#: src/parleydocument.cpp:126
+#: src/parleydocument.cpp:147
 #, fuzzy
 #| msgid "&Articles"
 msgid "Open in practice &mode"
 msgstr "&পদাশ্রিত নির্দেশক"
 
-#: src/parleydocument.cpp:128
+#: src/parleydocument.cpp:149
 #, fuzzy
 msgid "Open Vocabulary Collection"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
-#: src/parleydocument.cpp:176
+#: src/parleydocument.cpp:197
 #, fuzzy
 #| msgid "Downloads new vocabularies"
 msgid "Open Downloaded Vocabulary Collection"
 msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
 
-#: src/parleydocument.cpp:205 src/parleydocument.cpp:245
+#: src/parleydocument.cpp:226 src/parleydocument.cpp:276
 #, kde-format
 msgid "Writing file \"%1\" resulted in an error: %2"
 msgstr ""
 
-#: src/parleydocument.cpp:205 src/parleydocument.cpp:245
+#: src/parleydocument.cpp:226 src/parleydocument.cpp:277
 msgid "Save File"
 msgstr ""
 
-#: src/parleydocument.cpp:217
+#: src/parleydocument.cpp:244
 msgid "Save Vocabulary As"
 msgstr "শব্দভাণ্ডারকে এই নামে সংরক্ষণ করো"
 
-#: src/parleydocument.cpp:223
+#: src/parleydocument.cpp:253
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The file<br><b>%1</b><br>already exists. Do you want to overwrite it?"
@@ -1477,36 +1477,36 @@ msgstr ""
 "<qt><b>%1</b> নামক ফাইলটি পূর্ব থেকেই আছে।  <br>আপনি কি এটির ওপর দিয়েই লিখতে "
 "চান?</qt>"
 
-#: src/parleydocument.cpp:229
+#: src/parleydocument.cpp:259
 #, fuzzy, kde-format
 #| msgid "Saving %1"
 msgctxt "@info:status saving a file"
 msgid "Saving %1"
 msgstr "%1-কে সংরক্ষণ করা হচ্ছে"
 
-#: src/parleydocument.cpp:309 src/vocabulary/wordtypeview.cpp:69
+#: src/parleydocument.cpp:284 src/vocabulary/wordtypeview.cpp:69
 msgid "Noun"
 msgstr "নামপদ"
 
-#: src/parleydocument.cpp:313
+#: src/parleydocument.cpp:288
 #, fuzzy
 #| msgid "&Male:"
 msgid "Masculine"
 msgstr "পুরু&ষ:"
 
-#: src/parleydocument.cpp:316
+#: src/parleydocument.cpp:291
 #, fuzzy
 #| msgid "Definite"
 msgid "Feminine"
 msgstr "নির্দিষ্ট"
 
-#: src/parleydocument.cpp:319
+#: src/parleydocument.cpp:294
 #, fuzzy
 #| msgid "Neu&tral:"
 msgid "Neuter"
 msgstr "ক্লীব (&ক):"
 
-#: src/parleydocument.cpp:323 src/vocabulary/wordtypeview.cpp:118
+#: src/parleydocument.cpp:298 src/vocabulary/wordtypeview.cpp:118
 #, fuzzy
 #| msgid "Verb"
 msgid "Verb"
@@ -1514,7 +1514,7 @@ msgstr "ক্রিয়াপদ"
 
 #. i18n: file: src/entry-dialogs/comparisonwidget.ui:116
 #. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
-#: src/parleydocument.cpp:327 src/vocabulary/wordtypeview.cpp:101 rc.cpp:869
+#: src/parleydocument.cpp:302 src/vocabulary/wordtypeview.cpp:101 rc.cpp:869
 #, fuzzy
 #| msgid "Acti&ve"
 msgid "Adjective"
@@ -1522,13 +1522,13 @@ msgstr "&সক্রিয়"
 
 #. i18n: file: src/entry-dialogs/comparisonwidget.ui:123
 #. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
-#: src/parleydocument.cpp:331 src/vocabulary/wordtypeview.cpp:109 rc.cpp:872
+#: src/parleydocument.cpp:306 src/vocabulary/wordtypeview.cpp:109 rc.cpp:872
 msgid "Adverb"
 msgstr "অব্যয়"
 
 #. i18n: file: src/settings/documentproperties.ui:221
 #. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
-#: src/parleydocument.cpp:345 rc.cpp:1575
+#: src/parleydocument.cpp:320 rc.cpp:1578
 msgid "Public Domain"
 msgstr ""
 
@@ -1538,46 +1538,46 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #. i18n: file: src/settings/documentproperties.ui:237
 #. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
-#: src/parleydocument.cpp:346 rc.cpp:704 rc.cpp:1550 rc.cpp:1581
+#: src/parleydocument.cpp:321 rc.cpp:704 rc.cpp:1553 rc.cpp:1584
 msgid "Languages"
 msgstr "ভাষা"
 
-#: src/parleydocument.cpp:354
+#: src/parleydocument.cpp:329
 #, fuzzy
 #| msgid "&Append Language"
 msgid "A Second Language"
 msgstr "ভাষা যো&গ করো"
 
-#: src/parleydocument.cpp:357
+#: src/parleydocument.cpp:332
 #, fuzzy
 msgid "Lesson 1"
 msgstr "পাঠ তৈরি করে"
 
-#: src/parleydocument.cpp:361
+#: src/parleydocument.cpp:336
 msgid "Box 7 (best)"
 msgstr ""
 
-#: src/parleydocument.cpp:362
+#: src/parleydocument.cpp:337
 msgid "Box 6"
 msgstr ""
 
-#: src/parleydocument.cpp:363
+#: src/parleydocument.cpp:338
 msgid "Box 5"
 msgstr ""
 
-#: src/parleydocument.cpp:364
+#: src/parleydocument.cpp:339
 msgid "Box 4"
 msgstr ""
 
-#: src/parleydocument.cpp:365
+#: src/parleydocument.cpp:340
 msgid "Box 3"
 msgstr ""
 
-#: src/parleydocument.cpp:366
+#: src/parleydocument.cpp:341
 msgid "Box 2"
 msgstr ""
 
-#: src/parleydocument.cpp:367
+#: src/parleydocument.cpp:342
 msgid "Box 1 (lowest)"
 msgstr ""
 
@@ -1600,78 +1600,78 @@ msgstr ""
 msgid "View Settings"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
-#: src/settings/languagepropertiespage.cpp:78
+#: src/settings/languagepropertiespage.cpp:79
 msgid "without name"
 msgstr "নামহীন"
 
-#: src/settings/languagepropertiespage.cpp:89
+#: src/settings/languagepropertiespage.cpp:90
 msgid "No icon"
 msgstr ""
 
-#: src/settings/languagepropertiespage.cpp:364
-#: src/settings/languagepropertiespage.cpp:386
+#: src/settings/languagepropertiespage.cpp:372
+#: src/settings/languagepropertiespage.cpp:394
 msgid "Tense Description"
 msgstr "কালের বিবরণ"
 
-#: src/settings/languagepropertiespage.cpp:364
-#: src/settings/languagepropertiespage.cpp:386
+#: src/settings/languagepropertiespage.cpp:372
+#: src/settings/languagepropertiespage.cpp:394
 msgid "Enter tense description:"
 msgstr "কালের বিবরণ লিখুন:"
 
-#: src/settings/languagepropertiespage.cpp:415
+#: src/settings/languagepropertiespage.cpp:423
 #, fuzzy
 msgid ""
 "The selected user defined tense could not be deleted\n"
 "because it is in use."
 msgstr "ব্যবহারকারী নির্ধারিত এই কাল এ মুহূর্তে ব্যবহৃত হচ্ছে বলে মোছা যাচ্ছে না।"
 
-#: src/settings/languagepropertiespage.cpp:415
+#: src/settings/languagepropertiespage.cpp:423
 msgid "Deleting Tense Description"
 msgstr "কালের বিবরণ মোছা হচ্ছে"
 
-#: src/settings/languageproperties.cpp:31
+#: src/settings/languageproperties.cpp:27
 #, fuzzy
 #| msgid "Languages"
 msgid "Edit Languages"
 msgstr "ভাষা"
 
-#: src/settings/languageproperties.cpp:35
+#: src/settings/languageproperties.cpp:31
 #, fuzzy
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
 msgid "Add language"
 msgstr "প্রজ্ঞা"
 
-#: src/settings/languageproperties.cpp:37
+#: src/settings/languageproperties.cpp:33
 #, fuzzy
 #| msgid "&Remove Language"
 msgid "Remove language"
 msgstr "ভাষা &অপসারণ করো"
 
-#: src/settings/languageproperties.cpp:63
-#, fuzzy, kde-format
-#| msgid "&Append Language"
-msgid "Really delete language: %1?"
-msgstr "ভাষা যো&গ করো"
-
-#: src/settings/languageproperties.cpp:63
-#, fuzzy
-#| msgid "&Remove Language"
-msgid "Remove Language"
-msgstr "ভাষা &অপসারণ করো"
-
-#: src/settings/languageproperties.cpp:108
+#: src/settings/languageproperties.cpp:48
 #, fuzzy
 #| msgid "Languages"
 msgid "New Language"
 msgstr "ভাষা"
 
-#: src/settings/languageproperties.cpp:120
+#: src/settings/languageproperties.cpp:60
 #, fuzzy, kde-format
 #| msgid "Edit Properties for Original"
 msgctxt "Edit language properties"
 msgid "Properties for %1"
 msgstr "মূলশব্দের বৈশিষ্ট্য সম্পাদন করো"
+
+#: src/settings/languageproperties.cpp:92
+#, fuzzy, kde-format
+#| msgid "&Append Language"
+msgid "Really delete language: %1?"
+msgstr "ভাষা যো&গ করো"
+
+#: src/settings/languageproperties.cpp:92
+#, fuzzy
+#| msgid "&Remove Language"
+msgid "Remove Language"
+msgstr "ভাষা &অপসারণ করো"
 
 #: src/settings/generaloptions.cpp:60
 #, fuzzy
@@ -1852,9 +1852,8 @@ msgid "Deselect all rows"
 msgstr "সকল সারি অবাছাই করো"
 
 #: src/vocabulary/vocabularyview.cpp:138
-#: src/vocabulary/vocabularycolumnsdialog.cpp:51
 #, fuzzy
-msgid "Vocabulary Columns"
+msgid "Vocabulary Columns..."
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
 #: src/vocabulary/vocabularyview.cpp:139
@@ -1863,19 +1862,19 @@ msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 msgid "Toggle display of individual vocabulary columns"
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
-#: src/vocabulary/vocabularyview.cpp:431
+#: src/vocabulary/vocabularyview.cpp:243
 #, fuzzy, kde-format
 msgid "Do you really want to delete the selected entry?"
 msgid_plural "Do you really want to delete the selected %1 entries?"
 msgstr[0] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
 msgstr[1] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
 
-#: src/vocabulary/vocabularyview.cpp:431
+#: src/vocabulary/vocabularyview.cpp:243
 #, fuzzy
 msgid "Delete"
 msgstr "রিসে&ট"
 
-#: src/vocabulary/vocabularyview.cpp:583
+#: src/vocabulary/vocabularyview.cpp:395
 #, kde-format
 msgctxt "@popupmessage"
 msgid ""
@@ -1960,6 +1959,11 @@ msgstr[0] ""
 "%1 নামক ফাইলটি পূর্ব থেকেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?"
 msgstr[1] ""
 "%1 নামক ফাইলটি পূর্ব থেকেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?"
+
+#: src/vocabulary/vocabularycolumnsdialog.cpp:51
+#, fuzzy
+msgid "Vocabulary Columns"
+msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
 #: src/vocabulary/vocabularycolumnsdialog.cpp:60
 msgid "Enable/Disable the columns for each language"
@@ -2207,11 +2211,11 @@ msgstr "সঠিক কাল হল %1 ।"
 #. i18n: ectx: property (title), widget (QGroupBox, singularGroupBox)
 #. i18n: file: src/entry-dialogs/declensionwidget.ui:186
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: file: src/settings/languagepropertiespage.ui:332
+#. i18n: file: src/settings/languagepropertiespage.ui:342
 #. i18n: ectx: property (text), widget (QLabel, male_label_3)
-#. i18n: file: src/settings/languagepropertiespage.ui:446
+#. i18n: file: src/settings/languagepropertiespage.ui:456
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2_2)
-#: rc.cpp:24 rc.cpp:935 rc.cpp:1019 rc.cpp:1211 rc.cpp:1226
+#: rc.cpp:24 rc.cpp:935 rc.cpp:1019 rc.cpp:1214 rc.cpp:1229
 msgid "Singular"
 msgstr "একবচন"
 
@@ -2307,11 +2311,11 @@ msgstr "স্ত্রী নামপদ"
 #. i18n: ectx: property (title), widget (QGroupBox, pluralGroupBox)
 #. i18n: file: src/entry-dialogs/declensionwidget.ui:200
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#. i18n: file: src/settings/languagepropertiespage.ui:345
+#. i18n: file: src/settings/languagepropertiespage.ui:355
 #. i18n: ectx: property (text), widget (QLabel, male_label_4)
-#. i18n: file: src/settings/languagepropertiespage.ui:460
+#. i18n: file: src/settings/languagepropertiespage.ui:470
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_3)
-#: rc.cpp:42 rc.cpp:971 rc.cpp:1025 rc.cpp:1214 rc.cpp:1232
+#: rc.cpp:42 rc.cpp:971 rc.cpp:1025 rc.cpp:1217 rc.cpp:1235
 msgid "Plural"
 msgstr "বহুবচন"
 
@@ -2321,9 +2325,9 @@ msgstr "বহুবচন"
 #. i18n: ectx: property (title), widget (QGroupBox, dualGroupBox)
 #. i18n: file: src/entry-dialogs/declensionwidget.ui:193
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: file: src/settings/languagepropertiespage.ui:453
+#. i18n: file: src/settings/languagepropertiespage.ui:463
 #. i18n: ectx: property (text), widget (QLabel, dualLabel)
-#: rc.cpp:60 rc.cpp:953 rc.cpp:1022 rc.cpp:1229
+#: rc.cpp:60 rc.cpp:953 rc.cpp:1022 rc.cpp:1232
 #, fuzzy
 #| msgid "Plural"
 msgid "Dual"
@@ -2839,8 +2843,8 @@ msgstr "মালয়"
 #. i18n: ectx: property (windowTitle), widget (QWidget, DocumentProperties)
 #. i18n: file: src/settings/optionlistform.ui:19
 #. i18n: ectx: property (windowTitle), widget (QWidget, OptionListForm)
-#: rc.cpp:326 rc.cpp:329 rc.cpp:875 rc.cpp:923 rc.cpp:989 rc.cpp:1514
-#: rc.cpp:1593
+#: rc.cpp:326 rc.cpp:329 rc.cpp:875 rc.cpp:923 rc.cpp:989 rc.cpp:1517
+#: rc.cpp:1599
 msgid "-"
 msgstr "-"
 
@@ -2878,7 +2882,7 @@ msgstr "নক&ল বন্ধু:"
 #. i18n: ectx: property (text), widget (QCheckBox, commentCheckBox)
 #. i18n: file: src/settings/documentproperties.ui:115
 #. i18n: ectx: property (text), widget (QLabel, label_remark)
-#: rc.cpp:389 rc.cpp:1538
+#: rc.cpp:389 rc.cpp:1541
 #, fuzzy
 #| msgid "&Common"
 msgid "&Comment:"
@@ -3039,7 +3043,7 @@ msgstr "নাভাজো"
 #. i18n: ectx: Menu (Solution)
 #. i18n: file: plasmoid/config.ui:81
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:562 rc.cpp:1680
+#: rc.cpp:562 rc.cpp:1686
 #, fuzzy
 #| msgid "&Show solution"
 msgid "Solution"
@@ -3237,9 +3241,9 @@ msgstr ""
 
 #. i18n: file: src/configure-practice/conjugationoptionswidget.ui:38
 #. i18n: ectx: property (text), widget (QTreeWidget, tenseSelectionTreeWidget)
-#. i18n: file: src/settings/languagepropertiespage.ui:685
+#. i18n: file: src/settings/languagepropertiespage.ui:695
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: rc.cpp:652 rc.cpp:1262
+#: rc.cpp:652 rc.cpp:1265
 #, fuzzy
 #| msgid "Te&nses"
 msgid "Tenses"
@@ -4089,181 +4093,187 @@ msgstr ""
 msgid "Keyboard layout:"
 msgstr "কীবোর্ড লে-আউট:"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:95
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#. i18n: file: src/settings/languagepropertiespage.ui:94
+#. i18n: ectx: property (text), widget (QPushButton, downloadGrammarButton)
 #: rc.cpp:1184
+msgid "&Download Grammar"
+msgstr ""
+
+#. i18n: file: src/settings/languagepropertiespage.ui:105
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:1187
 msgid "Articles"
 msgstr "পদাশ্রিত নির্দেশক"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:107
+#. i18n: file: src/settings/languagepropertiespage.ui:117
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3)
-#. i18n: file: src/settings/languagepropertiespage.ui:364
+#. i18n: file: src/settings/languagepropertiespage.ui:374
 #. i18n: ectx: property (text), widget (QLabel, TextLabel3_2)
-#: rc.cpp:1187 rc.cpp:1217
+#: rc.cpp:1190 rc.cpp:1220
 msgid "Definite"
 msgstr "নির্দিষ্ট"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:114
+#. i18n: file: src/settings/languagepropertiespage.ui:124
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4)
-#. i18n: file: src/settings/languagepropertiespage.ui:371
+#. i18n: file: src/settings/languagepropertiespage.ui:381
 #. i18n: ectx: property (text), widget (QLabel, TextLabel4_2)
-#: rc.cpp:1190 rc.cpp:1220
+#: rc.cpp:1193 rc.cpp:1223
 msgid "Indefinite"
 msgstr "অনির্দিষ্ট"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:121
+#. i18n: file: src/settings/languagepropertiespage.ui:131
 #. i18n: ectx: property (text), widget (QLabel, male_label)
-#. i18n: file: src/settings/languagepropertiespage.ui:319
+#. i18n: file: src/settings/languagepropertiespage.ui:329
 #. i18n: ectx: property (text), widget (QLabel, male_label_2)
-#: rc.cpp:1193 rc.cpp:1208
+#: rc.cpp:1196 rc.cpp:1211
 msgid "&Male:"
 msgstr "পুরু&ষ:"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:144
+#. i18n: file: src/settings/languagepropertiespage.ui:154
 #. i18n: ectx: property (text), widget (QLabel, female_label)
-#. i18n: file: src/settings/languagepropertiespage.ui:306
+#. i18n: file: src/settings/languagepropertiespage.ui:316
 #. i18n: ectx: property (text), widget (QLabel, female_label_2)
-#: rc.cpp:1196 rc.cpp:1205
+#: rc.cpp:1199 rc.cpp:1208
 msgid "&Female:"
 msgstr "স্ত্রী (&স):"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:177
+#. i18n: file: src/settings/languagepropertiespage.ui:187
 #. i18n: ectx: property (text), widget (QLabel, natural_label)
-#. i18n: file: src/settings/languagepropertiespage.ui:293
+#. i18n: file: src/settings/languagepropertiespage.ui:303
 #. i18n: ectx: property (text), widget (QLabel, natural_label_2)
-#: rc.cpp:1199 rc.cpp:1202
+#: rc.cpp:1202 rc.cpp:1205
 #, fuzzy
 #| msgid "&neutral"
 msgid "&Neutral:"
 msgstr "ক্লী&ব"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:411
+#. i18n: file: src/settings/languagepropertiespage.ui:421
 #. i18n: ectx: attribute (title), widget (QWidget, tab_3)
-#: rc.cpp:1223
+#: rc.cpp:1226
 msgid "Personal Pronouns"
 msgstr ""
 
-#. i18n: file: src/settings/languagepropertiespage.ui:467
+#. i18n: file: src/settings/languagepropertiespage.ui:477
 #. i18n: ectx: property (text), widget (QLabel, pers1_label)
-#: rc.cpp:1235
+#: rc.cpp:1238
 msgid "&1. Person:"
 msgstr "&উত্তম পুরুষ:"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:503
+#. i18n: file: src/settings/languagepropertiespage.ui:513
 #. i18n: ectx: property (text), widget (QLabel, pers2_label)
-#: rc.cpp:1238
+#: rc.cpp:1241
 msgid "&2. Person:"
 msgstr "ম&ধ্যম পুরুষ:"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:539
+#. i18n: file: src/settings/languagepropertiespage.ui:549
 #. i18n: ectx: property (text), widget (QLabel, pers3_label)
-#: rc.cpp:1241
+#: rc.cpp:1244
 msgid "3. Person:"
 msgstr "নাম পুরুষ:"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:549
+#. i18n: file: src/settings/languagepropertiespage.ui:559
 #. i18n: ectx: property (text), widget (QLabel, male_c_label)
-#: rc.cpp:1244
+#: rc.cpp:1247
 msgid "M&ale:"
 msgstr "পুরুষ (&প):"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:585
+#. i18n: file: src/settings/languagepropertiespage.ui:595
 #. i18n: ectx: property (text), widget (QLabel, female_c_label)
-#: rc.cpp:1247
+#: rc.cpp:1250
 msgid "F&emale:"
 msgstr "স্ত্রী (&ত):"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:621
+#. i18n: file: src/settings/languagepropertiespage.ui:631
 #. i18n: ectx: property (text), widget (QLabel, natural_c_label)
-#: rc.cpp:1250
+#: rc.cpp:1253
 #, fuzzy
 #| msgid "Neu&tral:"
 msgid "Neu&ter:"
 msgstr "ক্লীব (&ক):"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:657
+#. i18n: file: src/settings/languagepropertiespage.ui:667
 #. i18n: ectx: property (text), widget (QCheckBox, dualCheckBox)
-#: rc.cpp:1253
+#: rc.cpp:1256
 #, fuzzy
 #| msgid "Conjugation"
 msgid "Dual conjugations"
 msgstr "ধাতুরূপ"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:664
+#. i18n: file: src/settings/languagepropertiespage.ui:674
 #. i18n: ectx: property (text), widget (QCheckBox, neutralCheckBox)
-#: rc.cpp:1256
+#: rc.cpp:1259
 #, fuzzy
 #| msgid "Enter the correct conjugation forms."
 msgid "A neutral conjugation form exists"
 msgstr "সঠিক ধাতুরূপ লিখুন।"
 
-#. i18n: file: src/settings/languagepropertiespage.ui:677
+#. i18n: file: src/settings/languagepropertiespage.ui:687
 #. i18n: ectx: property (text), widget (QCheckBox, maleFemaleDifferCheckBox)
-#: rc.cpp:1259
+#: rc.cpp:1262
 msgid "Male/female have different conjugations"
 msgstr ""
 
-#. i18n: file: src/settings/languagepropertiespage.ui:712
+#. i18n: file: src/settings/languagepropertiespage.ui:722
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
 #. i18n: file: src/settings/optionlistform.ui:63
 #. i18n: ectx: property (text), widget (QPushButton, newButton)
-#: rc.cpp:1265 rc.cpp:1596
+#: rc.cpp:1268 rc.cpp:1602
 msgid "&New..."
 msgstr "&নতুন..."
 
-#. i18n: file: src/settings/languagepropertiespage.ui:725
+#. i18n: file: src/settings/languagepropertiespage.ui:735
 #. i18n: ectx: property (text), widget (QPushButton, modifyButton)
 #. i18n: file: src/settings/optionlistform.ui:78
 #. i18n: ectx: property (text), widget (QPushButton, modifyButton)
-#: rc.cpp:1268 rc.cpp:1599
+#: rc.cpp:1271 rc.cpp:1605
 msgid "&Modify..."
 msgstr "&পরিবর্তন..."
 
-#. i18n: file: src/settings/languagepropertiespage.ui:738
+#. i18n: file: src/settings/languagepropertiespage.ui:748
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
 #. i18n: file: src/settings/optionlistform.ui:93
 #. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:1271 rc.cpp:1602
+#: rc.cpp:1274 rc.cpp:1608
 #, fuzzy
 msgid "&Delete"
 msgstr "রিসে&ট"
 
 #. i18n: file: src/settings/parley.kcfg:11
 #. i18n: ectx: label, entry (NumPreSetting), group (General)
-#: rc.cpp:1274
+#: rc.cpp:1277
 #, fuzzy
 msgid "Number of stored setting profiles"
 msgstr "পাঠ মধ্যস্থিত এন্ট্রির সংখ্যা:"
 
 #. i18n: file: src/settings/parley.kcfg:15
 #. i18n: ectx: label, entry (SmartAppend), group (General)
-#: rc.cpp:1277
+#: rc.cpp:1280
 msgid ""
 "If true, when using the entry dialog, new rows will be appended as needed"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:19
 #. i18n: ectx: label, entry (Separator), group (General)
-#: rc.cpp:1280
+#: rc.cpp:1283
 msgid "This sets the separator used when copying/pasting text, default is Tab"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:23
 #. i18n: ectx: label, entry (EntriesPerLesson), group (General)
-#: rc.cpp:1283
+#: rc.cpp:1286
 #, fuzzy
 msgid "The number of entries per lesson"
 msgstr "পাঠ মধ্যস্থিত এন্ট্রির সংখ্যা:"
 
 #. i18n: file: src/settings/parley.kcfg:27
 #. i18n: ectx: label, entry (AutoOpenLast), group (General)
-#: rc.cpp:1286
+#: rc.cpp:1289
 msgid "If true, on each application start the last opened file will be loaded"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:31
 #. i18n: ectx: label, entry (AutoSave), group (General)
-#: rc.cpp:1289
+#: rc.cpp:1292
 #, fuzzy
 #| msgid "&Save vocabularies automatically on close and quit"
 msgid "If true, vocabularies are automatically saved on close and exit"
@@ -4271,31 +4281,31 @@ msgstr "বন্ধ বা প্রস্থান করার সময় স�
 
 #. i18n: file: src/settings/parley.kcfg:38
 #. i18n: ectx: label, entry (AutoBackup), group (General)
-#: rc.cpp:1292
+#: rc.cpp:1295
 msgid "If true, a backup is saved every BackupTime minutes"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:42
 #. i18n: ectx: label, entry (BackupTime), group (General)
-#: rc.cpp:1295
+#: rc.cpp:1298
 msgid "Time interval between two automatic backups"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:53
 #. i18n: ectx: label, entry (FlashcardsFrontImage), group (PracticeOptions)
-#: rc.cpp:1301
+#: rc.cpp:1304
 msgid "Show images on the front of the flashcard."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:57
 #. i18n: ectx: label, entry (FlashcardsBackImage), group (PracticeOptions)
-#: rc.cpp:1304
+#: rc.cpp:1307
 msgid "Show images on the back of the flashcard."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:61
 #. i18n: ectx: label, entry (Theme), group (PracticeOptions)
-#: rc.cpp:1307
+#: rc.cpp:1310
 #, fuzzy
 #| msgid "View Settings"
 msgid "Practice theme to use"
@@ -4303,13 +4313,13 @@ msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্�
 
 #. i18n: file: src/settings/parley.kcfg:65
 #. i18n: ectx: label, entry (Block), group (PracticeOptions)
-#: rc.cpp:1310
+#: rc.cpp:1313
 msgid "In Blocking Query Tab Dialog, if checked then the Query is blocked"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:69
 #. i18n: ectx: label, entry (Expire), group (PracticeOptions)
-#: rc.cpp:1313
+#: rc.cpp:1316
 msgid ""
 "In Blocking Query Tab Dialog, if checked then the Query accepts an expiring "
 "time"
@@ -4317,13 +4327,13 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:73
 #. i18n: ectx: label, entry (AltLearn), group (PracticeOptions)
-#: rc.cpp:1316
+#: rc.cpp:1319
 msgid "Use the Leitner learning method"
 msgstr "Leitner শিক্ষণ পদ্ধতি ব্যবহার করো"
 
 #. i18n: file: src/settings/parley.kcfg:77
 #. i18n: ectx: label, entry (TestOrderLesson), group (PracticeOptions)
-#: rc.cpp:1319
+#: rc.cpp:1322
 msgid ""
 "Append new vocabulary in a test in order of their lessons. Note that this "
 "will not be a hard transition, but a slow mix from one lesson to the next."
@@ -4331,7 +4341,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:81
 #. i18n: ectx: label, entry (TestNumberOfEntries), group (PracticeOptions)
-#: rc.cpp:1322
+#: rc.cpp:1325
 msgid ""
 "The number of entries that are practiced at the same time. If one of these "
 "is answered correctly another entry will be appended."
@@ -4339,7 +4349,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:85
 #. i18n: ectx: label, entry (SwapDirection), group (PracticeOptions)
-#: rc.cpp:1325
+#: rc.cpp:1328
 #, fuzzy
 #| msgid "S&wap direction randomly"
 msgid "Swap direction randomly"
@@ -4347,13 +4357,13 @@ msgstr "এলোমেলোভাবে দিক &বদলাও"
 
 #. i18n: file: src/settings/parley.kcfg:90
 #. i18n: ectx: label, entry (PracticeTimeout), group (PracticeOptions)
-#: rc.cpp:1328
+#: rc.cpp:1331
 msgid "Limit the time for the user to answer in a test."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:94
 #. i18n: ectx: label, entry (PracticeTimeoutMode), group (PracticeOptions)
-#: rc.cpp:1331
+#: rc.cpp:1334
 msgid ""
 "Show - show the solution after the given time; continue - go to the next "
 "question after the given time."
@@ -4361,7 +4371,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:102
 #. i18n: ectx: label, entry (PracticeTimeoutTimePerAnswer), group (PracticeOptions)
-#: rc.cpp:1334
+#: rc.cpp:1337
 #, fuzzy
 #| msgid "Set the maximum time allowed per query."
 msgid "Maximum time allowed to answer."
@@ -4369,7 +4379,7 @@ msgstr "প্রতি অনুসন্ধানে ব্যয়িত সর
 
 #. i18n: file: src/settings/parley.kcfg:107
 #. i18n: ectx: label, entry (Suggestions), group (PracticeOptions)
-#: rc.cpp:1337
+#: rc.cpp:1340
 #, fuzzy
 #| msgid "&Enable suggestion lists"
 msgid "Enable suggestion lists in written practice."
@@ -4377,26 +4387,26 @@ msgstr "পরামর্শ তালিকা &সক্রিয় করো"
 
 #. i18n: file: src/settings/parley.kcfg:111
 #. i18n: ectx: label, entry (ShowHints), group (PracticeOptions)
-#: rc.cpp:1340
+#: rc.cpp:1343
 msgid "Enable the showing of hints."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:115
 #. i18n: ectx: label, entry (IgnoreAccentMistakes), group (PracticeOptions)
-#: rc.cpp:1343
+#: rc.cpp:1346
 msgid "Count answers as right when only the accentuation is wrong."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:119
 #. i18n: ectx: label, entry (IgnoreCapitalizationMistakes), group (PracticeOptions)
-#: rc.cpp:1346
+#: rc.cpp:1349
 msgid "Count answers as right when only the capitalization is wrong."
 msgstr ""
 
 # FIXME
 #. i18n: file: src/settings/parley.kcfg:124
 #. i18n: ectx: label, entry (SplitTranslations), group (PracticeOptions)
-#: rc.cpp:1349
+#: rc.cpp:1352
 #, fuzzy
 #| msgid "Split translations at periods"
 msgid "Split translations in written practice."
@@ -4405,7 +4415,7 @@ msgstr "ডট পেলে অনুবাদকে বিভক্ত কর�
 # FIXME
 #. i18n: file: src/settings/parley.kcfg:128
 #. i18n: ectx: label, entry (Periods), group (PracticeOptions)
-#: rc.cpp:1352
+#: rc.cpp:1355
 #, fuzzy
 #| msgid "Split translations at periods"
 msgid "Split translations at periods."
@@ -4413,7 +4423,7 @@ msgstr "ডট পেলে অনুবাদকে বিভক্ত কর�
 
 #. i18n: file: src/settings/parley.kcfg:132
 #. i18n: ectx: label, entry (Colons), group (PracticeOptions)
-#: rc.cpp:1355
+#: rc.cpp:1358
 #, fuzzy
 #| msgid "Split translations at colons"
 msgid "Split translations at colons."
@@ -4421,7 +4431,7 @@ msgstr "কোলন পেলে অনুবাদকে বিভক্ত �
 
 #. i18n: file: src/settings/parley.kcfg:136
 #. i18n: ectx: label, entry (Semicolons), group (PracticeOptions)
-#: rc.cpp:1358
+#: rc.cpp:1361
 #, fuzzy
 #| msgid "Split translations at semicolons"
 msgid "Split translations at semicolons."
@@ -4429,7 +4439,7 @@ msgstr "সেমিকোলন পেলে অনুবাদকে বিভ
 
 #. i18n: file: src/settings/parley.kcfg:140
 #. i18n: ectx: label, entry (Commas), group (PracticeOptions)
-#: rc.cpp:1361
+#: rc.cpp:1364
 #, fuzzy
 #| msgid "Split translations at commas"
 msgid "Split translations at commas."
@@ -4437,14 +4447,14 @@ msgstr "কমা পেলে অনুবাদকে বিভক্ত ক�
 
 #. i18n: file: src/settings/parley.kcfg:146
 #. i18n: ectx: label, entry (ShowMore), group (PracticeOptions)
-#: rc.cpp:1364
+#: rc.cpp:1367
 msgid ""
 "Enable Show More button to reveal parts of the solution in written practice."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:150
 #. i18n: ectx: label, entry (SkipKnownEnabled), group (PracticeOptions)
-#: rc.cpp:1367
+#: rc.cpp:1370
 #, fuzzy
 #| msgid "Enable I Know &button"
 msgid "Enable Skip (I Know It) button in written practice."
@@ -4452,26 +4462,26 @@ msgstr "'জানি' বা&টন সক্রিয় করো"
 
 #. i18n: file: src/settings/parley.kcfg:154
 #. i18n: ectx: label, entry (CountSynonymsAsCorrect), group (PracticeOptions)
-#: rc.cpp:1370
+#: rc.cpp:1373
 msgid ""
 "When the synonym instead of the word was entered, does it count as correct?"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:158
 #. i18n: ectx: label, entry (PracticeImagesEnabled), group (PracticeOptions)
-#: rc.cpp:1373
+#: rc.cpp:1376
 msgid "Enable image display in the practice dialogs."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:162
 #. i18n: ectx: label, entry (PracticeSoundEnabled), group (PracticeOptions)
-#: rc.cpp:1376
+#: rc.cpp:1379
 msgid "Enable sound playback in the practice dialogs."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:166
 #. i18n: ectx: label, entry (MultipleChoiceWordTypeConsistancy), group (PracticeOptions)
-#: rc.cpp:1379
+#: rc.cpp:1382
 msgid ""
 "Use the same word type as the solution for the incorrect answers in a "
 "multiple choice practice."
@@ -4479,7 +4489,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:170
 #. i18n: ectx: label, entry (NumberMultipleChoiceAnswers), group (PracticeOptions)
-#: rc.cpp:1382
+#: rc.cpp:1385
 msgid ""
 "How many answers are provided for a multiple choice question, including the "
 "correct answer."
@@ -4487,64 +4497,64 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:177
 #. i18n: ectx: label, entry (ShowSearch), group (Appearance)
-#: rc.cpp:1385
+#: rc.cpp:1388
 #, fuzzy
 msgid "Toggle display of the search bar."
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
 #. i18n: file: src/settings/parley.kcfg:182
 #. i18n: ectx: label, entry (ShowSublessonentries), group (Appearance)
-#: rc.cpp:1388
+#: rc.cpp:1391
 msgid "When enabled a lesson also shows entries from its sublessons."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:187
 #. i18n: ectx: label, entry (TableLessonColumnVisible), group (Appearance)
-#: rc.cpp:1391
+#: rc.cpp:1394
 #, fuzzy
 msgid "Show/hide the lesson column."
 msgstr "পাঠের বিবরণ"
 
 #. i18n: file: src/settings/parley.kcfg:192
 #. i18n: ectx: label, entry (TableActiveColumnVisible), group (Appearance)
-#: rc.cpp:1394
+#: rc.cpp:1397
 #, fuzzy
 msgid "Show/hide the active column."
 msgstr "পাঠের বিবরণ"
 
 #. i18n: file: src/settings/parley.kcfg:197
 #. i18n: ectx: label, entry (LessonEditingSelection), group (Appearance)
-#: rc.cpp:1397
+#: rc.cpp:1400
 msgid "Select which lessons are displayed for editing"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:207
 #. i18n: ectx: label, entry (MainWindowSplitter), group (Appearance)
-#: rc.cpp:1400
+#: rc.cpp:1403
 msgid "How the main window is divided."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:211
 #. i18n: ectx: label, entry (TableFont), group (Appearance)
-#: rc.cpp:1403
+#: rc.cpp:1406
 msgid "The font used in the vocabulary table"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:215
 #. i18n: ectx: label, entry (IPAFont), group (Appearance)
-#: rc.cpp:1406
+#: rc.cpp:1409
 msgid "The font used for phonetics"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:219
 #. i18n: ectx: label, entry (CurrentCol), group (Appearance)
-#: rc.cpp:1409
+#: rc.cpp:1412
 msgid "Currently selected column"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:223
 #. i18n: ectx: label, entry (CurrentRow), group (Appearance)
-#: rc.cpp:1412
+#: rc.cpp:1415
 #, fuzzy
 #| msgid "Delete the selected rows"
 msgid "Currently selected row"
@@ -4552,7 +4562,7 @@ msgstr "নির্বাচিত সারি মোছো"
 
 #. i18n: file: src/settings/parley.kcfg:227
 #. i18n: ectx: label, entry (UseGradeColors), group (Appearance)
-#: rc.cpp:1415
+#: rc.cpp:1418
 #, fuzzy
 #| msgid "&Use colors"
 msgid "Use your own colors"
@@ -4560,13 +4570,13 @@ msgstr "রং ব্য&বহার করো"
 
 #. i18n: file: src/settings/parley.kcfg:232
 #. i18n: ectx: label, entry (GradeColor$(Number)), group (Appearance)
-#: rc.cpp:1418
+#: rc.cpp:1421
 msgid "Colors used to display different grades"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:247
 #. i18n: ectx: label, entry (PracticeMinimumTimesAsked), group (Thresholds)
-#: rc.cpp:1421
+#: rc.cpp:1424
 msgid ""
 "The entry must have been asked at least this often to be included in the "
 "practice."
@@ -4574,7 +4584,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:251
 #. i18n: ectx: label, entry (PracticeMaximumTimesAsked), group (Thresholds)
-#: rc.cpp:1424
+#: rc.cpp:1427
 msgid ""
 "The entry must have been asked at most this often to be included in the "
 "practice."
@@ -4582,7 +4592,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:256
 #. i18n: ectx: label, entry (PracticeMinimumWrongCount), group (Thresholds)
-#: rc.cpp:1427
+#: rc.cpp:1430
 msgid ""
 "The entry must have been answered incorrectly at least this often to be "
 "included in the practice."
@@ -4590,7 +4600,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:260
 #. i18n: ectx: label, entry (PracticeMaximumWrongCount), group (Thresholds)
-#: rc.cpp:1430
+#: rc.cpp:1433
 msgid ""
 "The entry must have been answered incorrectly at most this often to be "
 "included in the practice."
@@ -4598,7 +4608,7 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:265
 #. i18n: ectx: label, entry (PracticeMinimumGrade), group (Thresholds)
-#: rc.cpp:1433
+#: rc.cpp:1436
 msgid ""
 "The entry must have at least this grade to be included in the practice "
 "(0..7)."
@@ -4606,14 +4616,14 @@ msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:269
 #. i18n: ectx: label, entry (PracticeMaximumGrade), group (Thresholds)
-#: rc.cpp:1436
+#: rc.cpp:1439
 msgid ""
 "The entry must have at most this grade to be included in the practice (0..7)."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:273
 #. i18n: ectx: label, entry (WordTypesInPracticeEnabled), group (Thresholds)
-#: rc.cpp:1439
+#: rc.cpp:1442
 msgid "Only selected word types will be included in practice."
 msgstr ""
 
@@ -4621,7 +4631,7 @@ msgstr ""
 #. i18n: ectx: label, entry (WordTypesInPractice), group (Thresholds)
 #. i18n: file: src/settings/parley.kcfg:278
 #. i18n: ectx: whatsthis, entry (WordTypesInPractice), group (Thresholds)
-#: rc.cpp:1442 rc.cpp:1445
+#: rc.cpp:1445 rc.cpp:1448
 msgid "Selected word types for practices."
 msgstr ""
 
@@ -4629,25 +4639,25 @@ msgstr ""
 #. i18n: ectx: label, entry (SubWordTypesInPractice), group (Thresholds)
 #. i18n: file: src/settings/parley.kcfg:282
 #. i18n: ectx: whatsthis, entry (SubWordTypesInPractice), group (Thresholds)
-#: rc.cpp:1448 rc.cpp:1451
+#: rc.cpp:1451 rc.cpp:1454
 msgid "Selected sub word types for practices."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:288
 #. i18n: ectx: label, entry (QuestionLanguage), group (PracticeManager)
-#: rc.cpp:1454
+#: rc.cpp:1457
 msgid "The language that is displayed in a test."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:292
 #. i18n: ectx: label, entry (SolutionLanguage), group (PracticeManager)
-#: rc.cpp:1457
+#: rc.cpp:1460
 msgid "The language in which the user has to answer."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:297
 #. i18n: ectx: label, entry (ShowSolutionAfterAnswer), group (PracticeManager)
-#: rc.cpp:1460
+#: rc.cpp:1463
 #, fuzzy
 #| msgid "&Show solution"
 msgid "Show the solution after an answer was given."
@@ -4655,67 +4665,67 @@ msgstr "সমাধান দেখা&ও"
 
 #. i18n: file: src/settings/parley.kcfg:301
 #. i18n: ectx: label, entry (ShowSolutionAfterAnswerTime), group (PracticeManager)
-#: rc.cpp:1463
+#: rc.cpp:1466
 msgid "The time the solution is shown (seconds). 0 is unlimited."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:319
 #. i18n: ectx: label, entry (TestType), group (PracticeManager)
-#: rc.cpp:1466
+#: rc.cpp:1469
 msgid "The test type that is currently selected."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:323
 #. i18n: ectx: label, entry (ComparisonIncludeAdjective), group (PracticeManager)
-#: rc.cpp:1469
+#: rc.cpp:1472
 msgid "In a comparison forms test, include adjectives."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:327
 #. i18n: ectx: label, entry (ComparisonIncludeAdverb), group (PracticeManager)
-#: rc.cpp:1472
+#: rc.cpp:1475
 msgid "In a comparison forms test, include adverbs."
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:334
 #. i18n: ectx: label, entry (BlockItem$(Grade)), group (PracticeManager)
-#: rc.cpp:1475
+#: rc.cpp:1478
 msgid "Amount of time different grades should be blocked"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:345
 #. i18n: ectx: label, entry (ExpireItem$(Grade)), group (PracticeManager)
-#: rc.cpp:1478
+#: rc.cpp:1481
 msgid "Amount of time after which different grades should expire"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:357
 #. i18n: ectx: label, entry (ProvidersUrl), group (KNewStuff)
-#: rc.cpp:1481
+#: rc.cpp:1484
 msgid "The Providers path for Parley"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:361
 #. i18n: ectx: label, entry (InstallationCommand), group (KNewStuff)
-#: rc.cpp:1484
+#: rc.cpp:1487
 msgid "The command used to start a downloaded vocabulary"
 msgstr ""
 
 #. i18n: file: src/settings/parley.kcfg:365
 #. i18n: ectx: label, entry (InstallPath), group (KNewStuff)
-#: rc.cpp:1487
+#: rc.cpp:1490
 msgid "The folder where downloaded vocabularies are saved by default"
 msgstr ""
 
 #. i18n: file: src/settings/languagesettings.kcfg:11
 #. i18n: ectx: label, entry (Icon), group (Locale $(locale))
-#: rc.cpp:1490
+#: rc.cpp:1493
 msgid "Icon for an identifier"
 msgstr ""
 
 #. i18n: file: src/settings/languagesettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (Icon), group (Locale $(locale))
-#: rc.cpp:1493
+#: rc.cpp:1496
 msgid "The icon shown for the identifier (locale)"
 msgstr ""
 
@@ -4723,7 +4733,7 @@ msgstr ""
 #. i18n: ectx: label, entry (KeyboardLayout), group (Locale $(locale))
 #. i18n: file: src/settings/languagesettings.kcfg:17
 #. i18n: ectx: whatsthis, entry (KeyboardLayout), group (Locale $(locale))
-#: rc.cpp:1496 rc.cpp:1499
+#: rc.cpp:1499 rc.cpp:1502
 #, fuzzy
 #| msgid "Keyboard layout:"
 msgid "Keyboard layout for this locale"
@@ -4737,7 +4747,7 @@ msgstr "কীবোর্ড লে-আউট:"
 #. i18n: ectx: label, entry (ConjugationTenses), group (Document $(fileurl))
 #. i18n: file: src/settings/documentsettings.kcfg:12
 #. i18n: ectx: whatsthis, entry (ConjugationTenses), group (Document $(fileurl))
-#: rc.cpp:1502 rc.cpp:1505 rc.cpp:1608 rc.cpp:1611
+#: rc.cpp:1505 rc.cpp:1508 rc.cpp:1614 rc.cpp:1617
 msgid "Selected tenses for conjugation practice."
 msgstr ""
 
@@ -4749,19 +4759,19 @@ msgstr ""
 #. i18n: ectx: label, entry (VisibleColumns), group (Document $(fileurl))
 #. i18n: file: src/settings/documentsettings.kcfg:17
 #. i18n: ectx: whatsthis, entry (VisibleColumns), group (Document $(fileurl))
-#: rc.cpp:1508 rc.cpp:1511 rc.cpp:1614 rc.cpp:1617
+#: rc.cpp:1511 rc.cpp:1514 rc.cpp:1620 rc.cpp:1623
 msgid "Visible columns in the main editor window."
 msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:25
 #. i18n: ectx: property (title), widget (QGroupBox, tiltle_group)
-#: rc.cpp:1517
+#: rc.cpp:1520
 msgid "General Document Properties"
 msgstr "ডকুমেন্টের সাধারণ বৈশিষ্ট্য"
 
 #. i18n: file: src/settings/documentproperties.ui:37
 #. i18n: ectx: property (text), widget (QLabel, label_title)
-#: rc.cpp:1520
+#: rc.cpp:1523
 msgid "&Title:"
 msgstr "শিরোনা&ম:"
 
@@ -4769,13 +4779,13 @@ msgstr "শিরোনা&ম:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, titleLineEdit)
 #. i18n: file: src/settings/documentproperties.ui:82
 #. i18n: ectx: property (toolTip), widget (KLineEdit, authorLineEdit)
-#: rc.cpp:1523 rc.cpp:1529
+#: rc.cpp:1526 rc.cpp:1532
 msgid "A title for your document."
 msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:63
 #. i18n: ectx: property (text), widget (QLabel, label_author)
-#: rc.cpp:1526
+#: rc.cpp:1529
 #, fuzzy
 #| msgid "&Authors:"
 msgid "&Author:"
@@ -4783,7 +4793,7 @@ msgstr "লে&খক:"
 
 #. i18n: file: src/settings/documentproperties.ui:89
 #. i18n: ectx: property (text), widget (QLabel, label_author_2)
-#: rc.cpp:1532
+#: rc.cpp:1535
 #, fuzzy
 #| msgid "&male:\t"
 msgid "&Email:"
@@ -4791,13 +4801,13 @@ msgstr "পুরু&ষ:\t"
 
 #. i18n: file: src/settings/documentproperties.ui:108
 #. i18n: ectx: property (toolTip), widget (KLineEdit, contactLineEdit)
-#: rc.cpp:1535
+#: rc.cpp:1538
 msgid "A way to contact you (email or a webpage)."
 msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:134
 #. i18n: ectx: property (toolTip), widget (KTextEdit, commentTextEdit)
-#: rc.cpp:1541
+#: rc.cpp:1544
 #, fuzzy
 #| msgid "Additional Properties"
 msgid "Any additional information."
@@ -4805,7 +4815,7 @@ msgstr "অন্যান্য বৈশিষ্ট্য"
 
 #. i18n: file: src/settings/documentproperties.ui:147
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1544
+#: rc.cpp:1547
 #, fuzzy
 #| msgid "&Append Language"
 msgid "Cat&egory"
@@ -4813,19 +4823,19 @@ msgstr "ভাষা যো&গ করো"
 
 #. i18n: file: src/settings/documentproperties.ui:160
 #. i18n: ectx: property (toolTip), widget (KComboBox, categoryComboBox)
-#: rc.cpp:1547
+#: rc.cpp:1550
 msgid "A general category into which your document belongs."
 msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:172
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
-#: rc.cpp:1553
+#: rc.cpp:1556
 msgid "Music"
 msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:177
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
-#: rc.cpp:1556
+#: rc.cpp:1559
 #, fuzzy
 #| msgid "telegraphy"
 msgid "Geography"
@@ -4833,7 +4843,7 @@ msgstr "টেলিগ্রাফের সাহায্যে বার্�
 
 #. i18n: file: src/settings/documentproperties.ui:182
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
-#: rc.cpp:1559
+#: rc.cpp:1562
 #, fuzzy
 #| msgid "anatomy"
 msgid "Anatomy"
@@ -4841,13 +4851,13 @@ msgstr "অঙ্গব্যবচ্ছেদ-বিদ্যা"
 
 #. i18n: file: src/settings/documentproperties.ui:187
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
-#: rc.cpp:1562
+#: rc.cpp:1565
 msgid "History"
 msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:192
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
-#: rc.cpp:1565
+#: rc.cpp:1568
 #, fuzzy
 #| msgid "Tense Description"
 msgid "Test Preparation"
@@ -4855,13 +4865,13 @@ msgstr "কালের বিবরণ"
 
 #. i18n: file: src/settings/documentproperties.ui:200
 #. i18n: ectx: property (text), widget (QLabel, label_license)
-#: rc.cpp:1568
+#: rc.cpp:1571
 msgid "&License:"
 msgstr "লা&ইসেন্স:"
 
 #. i18n: file: src/settings/documentproperties.ui:214
 #. i18n: ectx: property (toolTip), widget (KComboBox, licenseComboBox)
-#: rc.cpp:1571
+#: rc.cpp:1574
 msgid ""
 "The license under which your document will be.\n"
 "If you consider contributing your file to KDE in the future, an appropriate "
@@ -4870,13 +4880,13 @@ msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:226
 #. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
-#: rc.cpp:1578
+#: rc.cpp:1581
 msgid "GPLv2+ (GNU General Public License version 2 or later)"
 msgstr ""
 
 #. i18n: file: src/settings/documentproperties.ui:243
 #. i18n: ectx: property (text), widget (QLabel, label_language_1)
-#: rc.cpp:1584
+#: rc.cpp:1587
 #, fuzzy
 #| msgid "Languages"
 msgid "&First language:"
@@ -4884,7 +4894,7 @@ msgstr "ভাষা"
 
 #. i18n: file: src/settings/documentproperties.ui:269
 #. i18n: ectx: property (text), widget (QLabel, label_language_2)
-#: rc.cpp:1587
+#: rc.cpp:1590
 #, fuzzy
 #| msgid "&Append Language"
 msgid "&Second language:"
@@ -4892,32 +4902,41 @@ msgstr "ভাষা যো&গ করো"
 
 #. i18n: file: src/settings/documentproperties.ui:298
 #. i18n: ectx: property (text), widget (QCheckBox, grammarCheckBox)
-#: rc.cpp:1590
+#: rc.cpp:1593
 #, fuzzy
 msgid "&Setup Grammar Details"
 msgstr "প্রোফা&ইল..."
 
+#. i18n: file: src/settings/documentproperties.ui:308
+#. i18n: ectx: property (text), widget (QCheckBox, downloadGrammarCheckBox)
+#: rc.cpp:1596
+#, fuzzy
+#| msgid "German"
+msgctxt "Attept to download grammar properties for the selected languages"
+msgid "Download Grammar"
+msgstr "জর্মন"
+
 #. i18n: file: src/settings/optionlistform.ui:124
 #. i18n: ectx: property (text), widget (QPushButton, cleanUpButton)
-#: rc.cpp:1605
+#: rc.cpp:1611
 msgid "&Clean Up"
 msgstr "পরিপাটিক&রণ"
 
 #. i18n: file: src/settings/generaloptionsbase.ui:17
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1620
+#: rc.cpp:1626
 msgid "Open/Save"
 msgstr ""
 
 #. i18n: file: src/settings/generaloptionsbase.ui:23
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoOpenLast)
-#: rc.cpp:1623
+#: rc.cpp:1629
 msgid "Always open the collection that was active when quitting Parley"
 msgstr ""
 
 #. i18n: file: src/settings/generaloptionsbase.ui:26
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoOpenLast)
-#: rc.cpp:1626
+#: rc.cpp:1632
 msgid ""
 "When this option is checked, the last active collection will be loaded "
 "automatically when starting Parley instead of showing the welcome screen."
@@ -4925,7 +4944,7 @@ msgstr ""
 
 #. i18n: file: src/settings/generaloptionsbase.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoOpenLast)
-#: rc.cpp:1629
+#: rc.cpp:1635
 msgid "Always load the last opened collection on start"
 msgstr ""
 
@@ -4933,7 +4952,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSave)
 #. i18n: file: src/settings/generaloptionsbase.ui:60
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoBackup)
-#: rc.cpp:1632 rc.cpp:1641
+#: rc.cpp:1638 rc.cpp:1647
 msgid "Allow automatic saving of your work"
 msgstr "স্বয়ংক্রিয়ভাবে কাজ সংরক্ষণ করা অনুমোদন করো"
 
@@ -4941,38 +4960,38 @@ msgstr "স্বয়ংক্রিয়ভাবে কাজ সংরক্ষ�
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSave)
 #. i18n: file: src/settings/generaloptionsbase.ui:63
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoBackup)
-#: rc.cpp:1635 rc.cpp:1644
+#: rc.cpp:1641 rc.cpp:1650
 msgid "Your work will be automatically saved if you check this option"
 msgstr "এই অপশনে টিক দিলে আপনার কাজ স্বয়ংক্রিয়ভাবে সংরক্ষণ করা হবে"
 
 #. i18n: file: src/settings/generaloptionsbase.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSave)
-#: rc.cpp:1638
+#: rc.cpp:1644
 msgid "&Save vocabularies automatically on close and quit"
 msgstr "বন্ধ বা প্রস্থান করার সময় স্বয়ংক্রিয়ভাবে শব্দভাণ্ডার সংরক্ষ&ণ করো"
 
 # FIXME: ঠিকঠাকমত হইলো না :-(
 #. i18n: file: src/settings/generaloptionsbase.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoBackup)
-#: rc.cpp:1647
+#: rc.cpp:1653
 msgid "&Create a backup every"
 msgstr "এই সময় পরপর একটি &ব্যাক-আপ কপি তৈরি করো - "
 
 #. i18n: file: src/settings/generaloptionsbase.ui:89
 #. i18n: ectx: property (text), widget (QLabel, lblBackupInterva)
-#: rc.cpp:1650
+#: rc.cpp:1656
 msgid "minutes"
 msgstr "মিনিট"
 
 #. i18n: file: src/settings/generaloptionsbase.ui:103
 #. i18n: ectx: property (text), widget (QLabel, label_sep)
-#: rc.cpp:1653
+#: rc.cpp:1659
 msgid "Sep&arator for text file import/export (CSV):"
 msgstr ""
 
 #. i18n: file: src/settings/generaloptionsbase.ui:119
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SeparatorCombo)
-#: rc.cpp:1656
+#: rc.cpp:1662
 #, fuzzy
 msgid ""
 "Choose which separator you want to use to separate your data when importing "
@@ -4981,7 +5000,7 @@ msgstr "আপনার তথ্যকে বিভক্ত করার জ�
 
 #. i18n: file: src/settings/generaloptionsbase.ui:122
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SeparatorCombo)
-#: rc.cpp:1659
+#: rc.cpp:1665
 #, fuzzy
 msgid ""
 "Choose the separator to use to divide the parts of an expression when "
@@ -4992,27 +5011,27 @@ msgstr ""
 
 #. i18n: file: src/settings/generaloptionsbase.ui:147
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1662
+#: rc.cpp:1668
 #, fuzzy
 msgid "Editing"
 msgstr "মেয়া&দ"
 
 #. i18n: file: src/settings/generaloptionsbase.ui:165
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SmartAppend)
-#: rc.cpp:1665
+#: rc.cpp:1671
 msgid "&Append new rows automatically when editing"
 msgstr ""
 
 #. i18n: file: plasmoid/config.ui:18
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1668
+#: rc.cpp:1674
 #, fuzzy
 msgid "Vocabulary collection:"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
 #. i18n: file: plasmoid/config.ui:30
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1671
+#: rc.cpp:1677
 #, fuzzy
 #| msgid "Language Elements"
 msgid "Language selection"
@@ -5020,26 +5039,26 @@ msgstr "ভাষার উপাদান"
 
 #. i18n: file: plasmoid/config.ui:38
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:1674
+#: rc.cpp:1680
 #, fuzzy
 msgid "Top:"
 msgstr "পুরু&ষ:"
 
 #. i18n: file: plasmoid/config.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:1677
+#: rc.cpp:1683
 msgid "Bottom:"
 msgstr ""
 
 #. i18n: file: plasmoid/config.ui:87
 #. i18n: ectx: property (text), widget (QRadioButton, solutionOnHover)
-#: rc.cpp:1683
+#: rc.cpp:1689
 msgid "Reveal solution when mouse cursor is over the widget"
 msgstr ""
 
 #. i18n: file: plasmoid/config.ui:97
 #. i18n: ectx: property (text), widget (QRadioButton, solutionAlways)
-#: rc.cpp:1686
+#: rc.cpp:1692
 #, fuzzy
 #| msgid "&Show solution"
 msgid "Always show the solution"
@@ -5047,13 +5066,13 @@ msgstr "সমাধান দেখা&ও"
 
 #. i18n: file: plasmoid/config.ui:112
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1689
+#: rc.cpp:1695
 msgid "Update interval"
 msgstr ""
 
 #. i18n: file: plasmoid/config.ui:153
 #. i18n: ectx: property (text), widget (KPushButton, fontSelectButton)
-#: rc.cpp:1692
+#: rc.cpp:1698
 #, fuzzy
 #| msgid "Selected lessons:"
 msgid "Select Font..."
@@ -5061,7 +5080,7 @@ msgstr "নির্বাচিত পাঠ:"
 
 #. i18n: file: plugins/google_images.ui:13
 #. i18n: ectx: property (windowTitle), widget (QDialog, Dialog)
-#: rc.cpp:1695
+#: rc.cpp:1701
 #, fuzzy
 #| msgid "Unapplied Changes"
 msgid "Google Images"
@@ -5069,26 +5088,26 @@ msgstr "অপ্রয়োগকৃত পরিবর্তন"
 
 #. i18n: file: plugins/google_images.ui:29
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1698
+#: rc.cpp:1704
 msgid "Give a keyword to search for an image related to it"
 msgstr ""
 
 #. i18n: file: plugins/google_images.ui:41
 #. i18n: ectx: property (text), widget (QPushButton, searchButton)
-#: rc.cpp:1701
+#: rc.cpp:1707
 #, fuzzy
 msgid "Search"
 msgstr "&মন্তব্য:"
 
 #. i18n: file: plugins/google_images.ui:73
 #. i18n: ectx: property (text), widget (QPushButton, previousButton)
-#: rc.cpp:1704
+#: rc.cpp:1710
 msgid "Previous"
 msgstr ""
 
 #. i18n: file: plugins/google_images.ui:86
 #. i18n: ectx: property (text), widget (QPushButton, nextButton)
-#: rc.cpp:1707
+#: rc.cpp:1713
 #, fuzzy
 #| msgid "Ne&xt"
 msgid "Next"
@@ -5096,13 +5115,13 @@ msgstr "&পরবর্তী"
 
 #. i18n: file: plugins/google_images.ui:147
 #. i18n: ectx: property (text), widget (QPushButton, okButton)
-#: rc.cpp:1710
+#: rc.cpp:1716
 msgid "OK"
 msgstr ""
 
 #. i18n: file: plugins/google_images.ui:154
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: rc.cpp:1713
+#: rc.cpp:1719
 msgid "Cancel"
 msgstr ""
 
