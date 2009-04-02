@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kteatime (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-03-08 10:13+0100\n"
+"POT-Creation-Date: 2009-04-02 11:28+0200\n"
 "PO-Revision-Date: 2006-04-04 09:30+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -43,7 +43,7 @@ msgstr "চায়ের সময়:"
 #. i18n: ectx: property (text), widget (QLabel, minutesLabel)
 #. i18n: file: src/settings.ui:159
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:11 rc.cpp:41
+#: rc.cpp:11 rc.cpp:33
 #, fuzzy
 #| msgid " min"
 msgid "min"
@@ -53,7 +53,7 @@ msgstr " মিনিট"
 #. i18n: ectx: property (text), widget (QLabel, secondsLabel)
 #. i18n: file: src/settings.ui:176
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:14 rc.cpp:44
+#: rc.cpp:14 rc.cpp:36
 #, fuzzy
 #| msgid " sec"
 msgid "sec"
@@ -65,61 +65,39 @@ msgstr " সেকেন্ড"
 msgid "Tea List"
 msgstr "চায়ের তালিকা"
 
-#. i18n: file: src/settings.ui:39
-#. i18n: ectx: property (text), widget (QToolButton, newButton)
-#: rc.cpp:20
-msgid "N"
-msgstr ""
-
-#. i18n: file: src/settings.ui:57
-#. i18n: ectx: property (text), widget (QToolButton, removeButton)
-#. i18n: file: src/settings.ui:86
-#. i18n: ectx: property (text), widget (QToolButton, downButton)
-#: rc.cpp:23 rc.cpp:29
-msgid "D"
-msgstr ""
-
-#. i18n: file: src/settings.ui:70
-#. i18n: ectx: property (text), widget (QToolButton, upButton)
-#: rc.cpp:26
-#, fuzzy
-#| msgid "Up"
-msgid "U"
-msgstr "উপর"
-
 #. i18n: file: src/settings.ui:122
 #. i18n: ectx: property (title), widget (QGroupBox, teaPropertiesGroup)
-#: rc.cpp:32
+#: rc.cpp:24
 msgid "Tea Properties"
 msgstr "চায়ের বৈশিষ্ট্য"
 
 #. i18n: file: src/settings.ui:128
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:35 src/tealistmodel.cpp:102
+#: rc.cpp:27 src/tealistmodel.cpp:102
 msgid "Name"
 msgstr "নাম"
 
 #. i18n: file: src/settings.ui:142
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:38 src/tealistmodel.cpp:102
+#: rc.cpp:30 src/tealistmodel.cpp:102
 msgid "Time"
 msgstr "সময়"
 
 #. i18n: file: src/settings.ui:199
 #. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup2)
-#: rc.cpp:47
+#: rc.cpp:39
 msgid "Action"
 msgstr "কাজ"
 
 #. i18n: file: src/settings.ui:207
 #. i18n: ectx: property (text), widget (QCheckBox, notificationCheckBox)
-#: rc.cpp:50
+#: rc.cpp:42
 msgid "Notification"
 msgstr ""
 
 #. i18n: file: src/settings.ui:220
 #. i18n: ectx: property (text), widget (KPushButton, notificationButton)
-#: rc.cpp:53
+#: rc.cpp:45
 #, fuzzy
 #| msgid "Configure Events..."
 msgid "Configure &Notifications..."
@@ -128,25 +106,25 @@ msgstr "ইভেন্ট কনফিগার করো..."
 # FIXME
 #. i18n: file: src/settings.ui:248
 #. i18n: ectx: property (text), widget (QCheckBox, popupCheckBox)
-#: rc.cpp:56
+#: rc.cpp:48
 msgid "Popup"
 msgstr "আবির্ভূত হবে"
 
 #. i18n: file: src/settings.ui:279
 #. i18n: ectx: property (text), widget (QCheckBox, autohideCheckBox)
-#: rc.cpp:59
+#: rc.cpp:51
 msgid "Auto hide popup after"
 msgstr ""
 
 #. i18n: file: src/settings.ui:328
 #. i18n: ectx: property (text), widget (QCheckBox, reminderCheckBox)
-#: rc.cpp:62
+#: rc.cpp:54
 msgid "Reminder every"
 msgstr ""
 
 #. i18n: file: src/settings.ui:378
 #. i18n: ectx: property (text), widget (QCheckBox, visualizeCheckBox)
-#: rc.cpp:65
+#: rc.cpp:57
 msgid "Visualize progress in icon tray"
 msgstr "আইকন ট্রে-তে অগ্রগতির পরিমাণ দেখুন"
 
@@ -389,6 +367,11 @@ msgstr ""
 msgctxt "%1 is the time, %2 is the name of the tea"
 msgid "%1 left for %2."
 msgstr "%2-এর %1 অবশিষ্ট আছে"
+
+#, fuzzy
+#~| msgid "Up"
+#~ msgid "U"
+#~ msgstr "উপর"
 
 #, fuzzy
 #~ msgid " %1 s"
