@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-07 11:12+0200\n"
+"POT-Creation-Date: 2009-04-08 12:01+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -429,15 +429,15 @@ msgstr "অস্তের কোন সময় নেই: মেরু পরি
 msgid "No set time: Never rises"
 msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kstars.cpp:160 kstarsactions.cpp:741 skymap.cpp:294
+#: kstars.cpp:160 kstarsactions.cpp:744 skymap.cpp:294
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
-#: kstars.cpp:164 kstarsactions.cpp:917 kstarsinit.cpp:189
+#: kstars.cpp:164 kstarsactions.cpp:920 kstarsinit.cpp:189
 msgid "Horizontal &Coordinates"
 msgstr "&অনুভূমিক স্থানাঙ্ক"
 
-#: kstars.cpp:165 kstarsactions.cpp:910 kstarsinit.cpp:188
+#: kstars.cpp:165 kstarsactions.cpp:913 kstarsinit.cpp:188
 msgid "Equatorial &Coordinates"
 msgstr "নি&রক্ষীয় স্থানাঙ্ক"
 
@@ -23508,62 +23508,67 @@ msgstr "রং বিন্যাস বদলাও"
 msgid "Do Not Switch"
 msgstr "বদলাবে না"
 
-#: kstarsactions.cpp:725 kstarsinit.cpp:160
+#: kstarsactions.cpp:711 kstarsinit.cpp:665 skymap.cpp:182 skymap.cpp:257
+#: skymapevents.cpp:438 skymapevents.cpp:563 skymapevents.cpp:655
+msgid "nothing"
+msgstr "কিছু না"
+
+#: kstarsactions.cpp:728 kstarsinit.cpp:160
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:857
+#: kstarsactions.cpp:860
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণের মান লিখুন"
 
-#: kstarsactions.cpp:857
+#: kstarsactions.cpp:860
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
 #. i18n: file: dialogs/newfov.ui:229
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: kstarsactions.cpp:884 rc.cpp:4100
+#: kstarsactions.cpp:887 rc.cpp:4100
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
 msgid "degrees"
 msgstr "এভারগ্রিন"
 
-#: kstarsactions.cpp:887
+#: kstarsactions.cpp:890
 #, fuzzy
 #| msgid "arcmin"
 msgid "arcminutes"
 msgstr "আর্কমিনিট"
 
-#: kstarsactions.cpp:891
+#: kstarsactions.cpp:894
 #, fuzzy
 #| msgid "arcsecs"
 msgid "arcseconds"
 msgstr "আর্কসেকেন্ড"
 
-#: kstarsactions.cpp:894
+#: kstarsactions.cpp:897
 #, fuzzy
 #| msgid "No FOV"
 msgctxt "field of view"
 msgid "FOV"
 msgstr "কোন FOV নেই"
 
-#: kstarsactions.cpp:937
+#: kstarsactions.cpp:940
 #, kde-format
 msgid "Projection system: %1"
 msgstr ""
 
-#: kstarsactions.cpp:980
+#: kstarsactions.cpp:983
 msgid "Could not open fov.dat for writing."
 msgstr "লেখার জন্য fov.dat ফাইলটি খোলা যায় নি।"
 
-#: kstarsactions.cpp:1014 kstarsinit.cpp:557
+#: kstarsactions.cpp:1017 kstarsinit.cpp:557
 #, kde-format
 msgid "Could not open file: %1"
 msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
-#: kstarsactions.cpp:1019 kstarsinit.cpp:562
+#: kstarsactions.cpp:1022 kstarsinit.cpp:562
 msgid "Edit FOV Symbols..."
 msgstr "FOV প্রতীক সম্পাদন..."
 
@@ -24237,11 +24242,6 @@ msgstr "১.৩ সেন্টিমিটারে ৩০ মিটার"
 #: kstarsinit.cpp:568
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
-
-#: kstarsinit.cpp:665 skymap.cpp:182 skymap.cpp:257 skymapevents.cpp:438
-#: skymapevents.cpp:563 skymapevents.cpp:655
-msgid "nothing"
-msgstr "কিছু না"
 
 #: kstarsinit.cpp:715
 msgid "Initial Position is Below Horizon"
