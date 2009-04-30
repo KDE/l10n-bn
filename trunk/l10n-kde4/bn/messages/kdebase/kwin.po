@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-04-29 11:56+0200\n"
+"POT-Creation-Date: 2009-04-30 11:41+0200\n"
 "PO-Revision-Date: 2009-01-09 21:22-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -761,23 +761,26 @@ msgid "This helper utility is not supposed to be called directly."
 msgstr "এই সাহায্যকারী ইউটিলিটি সরাসরি চালানোর কথা নয়।"
 
 #: killer/killer.cpp:67
-#, kde-format
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs "
+#| "to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to "
+#| "terminate this application? (All unsaved data in this application will be "
+#| "lost.)</p>"
 msgid ""
-"<p>Window with title \"<b>%2</b>\" is not responding. This window belongs to "
-"application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to terminate "
-"this application? (All unsaved data in this application will be lost.)</p>"
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child windows</em>?"
+"<br /><b>Any unsaved data will be lost!</b></p>"
 msgstr ""
 "<p>\"<b>%2</b>\" শীর্ষক উইণ্ডোটি সাড়া দিচ্ছে না। এই উইণ্ডোটি <b>%1</b> "
 "অ্যাপ্লিকেশনটির অংশ (PID=%3, hostname=%4)। </p><p>আপনি কি অ্যাপ্লিকেশনটি বন্ধ "
 "করতে চান? (সমস্ত অসঞ্চিত তথ্য হারিয়ে যাবে)</p>"
 
-#: killer/killer.cpp:72
-msgid "Terminate"
-msgstr "থামিয়ে দাও"
-
-#: killer/killer.cpp:72
-msgid "Keep Running"
-msgstr "চালিয়ে যাও"
+#: killer/killer.cpp:73
+#, kde-format
+msgid "&Terminate application %1"
+msgstr ""
 
 #: lib/kcommondecoration.cpp:286
 #, kde-format
@@ -854,6 +857,12 @@ msgstr "ডিফল্ট উইন্ডো সজ্জার প্লাগ
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "লাইব্রেরী %1 একটি কে-উইন প্লাগ-ইন্ নয়।"
+
+#~ msgid "Terminate"
+#~ msgstr "থামিয়ে দাও"
+
+#~ msgid "Keep Running"
+#~ msgstr "চালিয়ে যাও"
 
 #~ msgid "Desktop Cube"
 #~ msgstr "ডেস্কটপ কিউব"
