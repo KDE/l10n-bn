@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-19 11:30+0200\n"
+"POT-Creation-Date: 2009-05-21 11:33+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -433,8 +433,7 @@ msgstr "অস্তের কোন সময় নেই: কখনোই উদ
 msgid "Catalogs"
 msgstr "তালিকা"
 
-#: kstarsactions.cpp:410 tools/astrocalc.cpp:131 tools/astrocalc.cpp:179
-#: dialogs/finddialog.cpp:36
+#: kstarsactions.cpp:410 tools/astrocalc.cpp:176 dialogs/finddialog.cpp:36
 msgid "Solar System"
 msgstr "সৌরজগত্‍"
 
@@ -601,7 +600,7 @@ msgstr "কিছু না"
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:749 kstars.cpp:169 skymap.cpp:294
+#: kstarsactions.cpp:749 kstars.cpp:164 skymap.cpp:294
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
@@ -642,11 +641,11 @@ msgctxt "field of view"
 msgid "FOV"
 msgstr "কোন FOV নেই"
 
-#: kstarsactions.cpp:919 kstars.cpp:174 kstarsinit.cpp:188
+#: kstarsactions.cpp:919 kstars.cpp:169 kstarsinit.cpp:188
 msgid "Equatorial &Coordinates"
 msgstr "নি&রক্ষীয় স্থানাঙ্ক"
 
-#: kstarsactions.cpp:926 kstars.cpp:173 kstarsinit.cpp:189
+#: kstarsactions.cpp:926 kstars.cpp:168 kstarsinit.cpp:189
 msgid "Horizontal &Coordinates"
 msgstr "&অনুভূমিক স্থানাঙ্ক"
 
@@ -29435,8 +29434,7 @@ msgstr "বক্ররেখা আনো"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. i18n: file: tools/modcalcplanets.ui:233
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: rc.cpp:2123 rc.cpp:2153 rc.cpp:2883 tools/astrocalc.cpp:125
-#: tools/astrocalc.cpp:194
+#: rc.cpp:2123 rc.cpp:2153 rc.cpp:2883 tools/astrocalc.cpp:164
 msgid "Horizontal Coordinates"
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
@@ -29786,7 +29784,7 @@ msgstr "চালাও"
 
 #. i18n: file: tools/modcalcangdist.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, modCalcAngDistDlg)
-#: rc.cpp:2222 tools/astrocalc.cpp:127 tools/astrocalc.cpp:208
+#: rc.cpp:2222 tools/astrocalc.cpp:168
 msgid "Angular Distance"
 msgstr "কৌণিক দূরত্ব"
 
@@ -29872,7 +29870,7 @@ msgstr "চূড়ান্ত বিষুবলম্ব:"
 
 #. i18n: file: tools/modcalcapcoord.ui:16
 #. i18n: ectx: property (windowTitle), widget (QWidget, modCalcApCoordDlg)
-#: rc.cpp:2303 tools/astrocalc.cpp:124 tools/astrocalc.cpp:192
+#: rc.cpp:2303 tools/astrocalc.cpp:162
 msgid "Apparent Coordinates"
 msgstr "আপাত স্থানাঙ্ক"
 
@@ -29932,7 +29930,7 @@ msgstr "আউটপুর ফাইল খুলতে সমস্যা হ�
 #. i18n: ectx: property (windowTitle), widget (QWidget, modCalcDayLengthDlg)
 #. i18n: file: tools/wutdialog.ui:153
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:2405 rc.cpp:3610 tools/astrocalc.cpp:118 tools/astrocalc.cpp:200
+#: rc.cpp:2405 rc.cpp:3610 tools/astrocalc.cpp:152
 msgid "Almanac"
 msgstr "পঞ্জিকা"
 
@@ -30140,7 +30138,7 @@ msgstr "নিরক্ষীয় স্থানাঙ্ক"
 
 #. i18n: file: tools/modcalceclipticcoords.ui:124
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:2556 tools/astrocalc.cpp:126 tools/astrocalc.cpp:196
+#: rc.cpp:2556 tools/astrocalc.cpp:166
 msgid "Ecliptic Coordinates"
 msgstr "সূর্যপথ (ecliptic) স্থানাঙ্ক"
 
@@ -30649,7 +30647,7 @@ msgstr "ইনপুট যুগ:"
 
 #. i18n: file: tools/modcalcsidtime.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, modCalcSidTimeDlg)
-#: rc.cpp:3006 tools/astrocalc.cpp:117 tools/astrocalc.cpp:186
+#: rc.cpp:3006 tools/astrocalc.cpp:150
 msgid "Sidereal Time"
 msgstr "নাক্ষত্র কাল"
 
@@ -36401,16 +36399,7 @@ msgstr "উন্নতি"
 msgid "An object named %1 is already displayed, it will not be duplicated."
 msgstr ""
 
-#: tools/astrocalc.cpp:50
-msgid "Calculator"
-msgstr "ক্যালকুলেটর"
-
-#: tools/astrocalc.cpp:55
-#, fuzzy
-msgid "Calculator modules"
-msgstr "ক্যালকুলেটর"
-
-#: tools/astrocalc.cpp:71
+#: tools/astrocalc.cpp:48
 msgid ""
 "<QT><H2>KStars Astrocalculator</H2><P>The KStars Astrocalculator contains "
 "several <B>modules</b> which perform a variety of astronomy-related "
@@ -36422,47 +36411,7 @@ msgid ""
 "UL></QT>"
 msgstr ""
 
-#: tools/astrocalc.cpp:111 tools/astrocalc.cpp:175
-msgid "Time Calculators"
-msgstr "সময় ক্যালকুলেটর"
-
-#: tools/astrocalc.cpp:114 tools/astrocalc.cpp:188
-msgid "Julian Day"
-msgstr "জুলিয়ান দিবস"
-
-#: tools/astrocalc.cpp:119 tools/astrocalc.cpp:202
-msgid "Equinoxes & Solstices"
-msgstr "বিষুবন ও অয়ন"
-
-#: tools/astrocalc.cpp:122 tools/astrocalc.cpp:177
-#, fuzzy
-msgid "Coordinate Converters"
-msgstr "স্থানাংক রেখা"
-
-#: tools/astrocalc.cpp:123 tools/astrocalc.cpp:190
-#, fuzzy
-msgid "Equatorial/Galactic"
-msgstr "নিরক্ষীয়"
-
-#: tools/astrocalc.cpp:128 tools/astrocalc.cpp:198
-msgid "Geodetic Coordinates"
-msgstr "ভূমিতিক (geodetic) স্থানাঙ্ক"
-
-#: tools/astrocalc.cpp:129 tools/astrocalc.cpp:210
-msgid "LSR Velocity"
-msgstr "এল.এস.আর.-এর গতি"
-
-#: tools/astrocalc.cpp:133 tools/astrocalc.cpp:204
-msgid "Planets Coordinates"
-msgstr "গ্রহ স্থানাঙ্ক"
-
-#: tools/astrocalc.cpp:134 tools/astrocalc.cpp:206
-#, fuzzy
-#| msgid "Connection"
-msgid "Conjunctions"
-msgstr "সংযোগ"
-
-#: tools/astrocalc.cpp:216
+#: tools/astrocalc.cpp:65
 #, fuzzy
 msgid ""
 "<QT>Section which includes algorithms for computing time "
@@ -36477,7 +36426,7 @@ msgstr ""
 "LI><LI><B>দিনের দৈর্ঘ্য:</B> সূর্যোদয়, সূর্যাস্ত, মধাহ্ন সময় এবং ঐসব ঘটনার অবস্থান</"
 "LI></LI><B>বিষুবন ও অয়ন:</B> বিষুবন, অয়ন ও বিভিন্ন ঋতুর দৈর্ঘ্য</LI></UL></QT>"
 
-#: tools/astrocalc.cpp:235
+#: tools/astrocalc.cpp:80
 #, fuzzy
 msgid ""
 "<QT>Section with algorithms for the conversion of different astronomical "
@@ -36502,7 +36451,7 @@ msgstr ""
 "খ-বস্তুর এল.এস.আর. গতি থেেকে তার সৌরকেন্দ্রিক, ভূকেন্দ্রিক ও টপোসেন্ট্রিক বৃত্তীয় গতি "
 "গণনা</LI></UL></QT>"
 
-#: tools/astrocalc.cpp:263
+#: tools/astrocalc.cpp:104
 #, fuzzy
 msgid ""
 "<QT>Section with algorithms regarding information on solar system bodies "
@@ -36513,6 +36462,55 @@ msgstr ""
 "<QT>যে অংশে সৌরজগতের সদস্যদের স্থানাংক ও সময় বিষয়ক তথ্য সংক্রান্ত অ্যালগরিদ্‌ম "
 "থাকে<UL><LI><B>গ্রহের স্থানাংক:</B> কোন নির্দিষ্ট সময়ে পৃথিবীর একটি নির্দিষ্ট "
 "অবস্থান থেকে গ্রহ, চাঁদ ও সূর্যের স্থানাংক </LI></UL></QT>"
+
+#: tools/astrocalc.cpp:115
+msgid "Calculator"
+msgstr "ক্যালকুলেটর"
+
+#: tools/astrocalc.cpp:121
+#, fuzzy
+msgid "Calculator modules"
+msgstr "ক্যালকুলেটর"
+
+#: tools/astrocalc.cpp:143
+msgid "Time Calculators"
+msgstr "সময় ক্যালকুলেটর"
+
+#: tools/astrocalc.cpp:146
+msgid "Julian Day"
+msgstr "জুলিয়ান দিবস"
+
+#: tools/astrocalc.cpp:154
+msgid "Equinoxes & Solstices"
+msgstr "বিষুবন ও অয়ন"
+
+#: tools/astrocalc.cpp:159
+#, fuzzy
+msgid "Coordinate Converters"
+msgstr "স্থানাংক রেখা"
+
+#: tools/astrocalc.cpp:160
+#, fuzzy
+msgid "Equatorial/Galactic"
+msgstr "নিরক্ষীয়"
+
+#: tools/astrocalc.cpp:170
+msgid "Geodetic Coordinates"
+msgstr "ভূমিতিক (geodetic) স্থানাঙ্ক"
+
+#: tools/astrocalc.cpp:172
+msgid "LSR Velocity"
+msgstr "এল.এস.আর.-এর গতি"
+
+#: tools/astrocalc.cpp:178
+msgid "Planets Coordinates"
+msgstr "গ্রহ স্থানাঙ্ক"
+
+#: tools/astrocalc.cpp:180
+#, fuzzy
+#| msgid "Connection"
+msgid "Conjunctions"
+msgstr "সংযোগ"
 
 #: tools/conjunctions.cpp:185
 msgid ""
