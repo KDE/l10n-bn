@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-05-26 11:53+0200\n"
+"POT-Creation-Date: 2009-05-28 11:39+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -183,7 +183,7 @@ msgstr ""
 #: tools/observinglist.cpp:572 tools/observinglist.cpp:664
 #: tools/scriptbuilder.cpp:990 tools/scriptbuilder.cpp:1054
 #: tools/scriptbuilder.cpp:1120 dialogs/locationdialog.cpp:250
-#: indi/indidriver.cpp:446 indi/indidriver.cpp:918 options/opscolors.cpp:199
+#: indi/indidriver.cpp:430 indi/indidriver.cpp:902 options/opscolors.cpp:199
 msgid "Could Not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
@@ -33948,8 +33948,8 @@ msgstr "অ্যাপার্চার:"
 
 #. i18n: file: indi/telescopewizard.ui:31
 #. i18n: ectx: property (windowTitle), widget (QDialog, telescopeWizard)
-#: rc.cpp:4785 indi/telescopewizardprocess.cpp:248
-#: indi/telescopewizardprocess.cpp:258
+#: rc.cpp:4785 indi/telescopewizardprocess.cpp:250
+#: indi/telescopewizardprocess.cpp:260
 msgid "Telescope Wizard"
 msgstr "দূরবীক্ষণ যন্ত্র বিষয়ক উইজার্ড"
 
@@ -36845,7 +36845,7 @@ msgstr "%1 এর পর্যবেক্ষণ নোট:"
 
 #: tools/observinglist.cpp:311 tools/observinglist.cpp:532
 #: tools/observinglist.cpp:542 dialogs/detaildialog.cpp:441
-#: skyobjects/skyobject.cpp:387
+#: skyobjects/skyobject.cpp:378
 #, kde-format
 msgid "Record here observation logs and/or data on %1."
 msgstr "এখানে %1-এর পর্যবেক্ষণলব্ধ তথ্য এবং/বা লগ লিখুন।"
@@ -38611,7 +38611,7 @@ msgstr "লিঙ্ক সম্পাদন করো"
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "আপনি কি %1 লিঙ্কটি অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: dialogs/detaildialog.cpp:635 indi/indidriver.cpp:892
+#: dialogs/detaildialog.cpp:635 indi/indidriver.cpp:876
 #: indi/telescopeprop.cpp:243
 msgid "Delete Confirmation"
 msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
@@ -38953,7 +38953,7 @@ msgstr "বর্গমূলীয় মাত্রা"
 msgid "Please hold while loading FITS file..."
 msgstr ""
 
-#: fitsviewer/fitsimage.cpp:132 indi/indistd.cpp:891
+#: fitsviewer/fitsimage.cpp:132 indi/indistd.cpp:888
 #, fuzzy
 msgid "Cancel"
 msgstr "কান"
@@ -39083,7 +39083,7 @@ msgstr ""
 msgid "Cannot start INDI server: port error."
 msgstr "INDI সার্ভার চালু করা যাচ্ছে না : পোর্ট ত্রুটি।"
 
-#: indi/indidriver.cpp:445
+#: indi/indidriver.cpp:429
 msgid ""
 "unable to write to file 'drivers.xml'\n"
 "Any changes to INDI device drivers will not be saved."
@@ -39091,46 +39091,46 @@ msgstr ""
 "drivers.xml' ফাইলে লেখা যাচ্ছে না\n"
 "INDI ডিভাইস ড্রাইভারে কোন পরিবর্তন করলে তা সংরক্ষিত হবে না।"
 
-#: indi/indidriver.cpp:582
+#: indi/indidriver.cpp:564
 #, kde-format
 msgid ""
 "Unable to find INDI Drivers directory: %1\n"
 "Please make sure to set the correct path in KStars configuration"
 msgstr ""
 
-#: indi/indidriver.cpp:604
+#: indi/indidriver.cpp:587
 #, fuzzy, kde-format
 #| msgid "Could not open file: %1"
 msgid "Failed to open INDI Driver file: %1"
 msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
-#: indi/indidriver.cpp:790
+#: indi/indidriver.cpp:774
 msgid "Add Host"
 msgstr "হোস্ট যোগ করো"
 
-#: indi/indidriver.cpp:806
+#: indi/indidriver.cpp:790
 msgid "Error: the port number is invalid."
 msgstr "সমস্যা: অবৈধ পোর্ট নম্বর।"
 
-#: indi/indidriver.cpp:816
+#: indi/indidriver.cpp:800
 #, kde-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "হোস্ট: %1 পোর্ট: %2 ইতিমধ্যেই বিদ্যমান।"
 
-#: indi/indidriver.cpp:841
+#: indi/indidriver.cpp:825
 msgid "Modify Host"
 msgstr "হোস্ট পরিবর্তন করো"
 
-#: indi/indidriver.cpp:888
+#: indi/indidriver.cpp:872
 msgid "You need to disconnect the client before removing it."
 msgstr "ক্লায়েন্টকে অপসারণের পূর্বে তার সংযোগ বিচ্ছিন্ন করতে হবে।"
 
-#: indi/indidriver.cpp:892
+#: indi/indidriver.cpp:876
 #, kde-format
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "আপনি কি %1 ক্লায়েন্টকে অপসারণের ব্যাপারে নিশ্চিত?"
 
-#: indi/indidriver.cpp:917
+#: indi/indidriver.cpp:901
 msgid ""
 "unable to write to file 'indihosts.xml'\n"
 "Any changes to INDI hosts configurations will not be saved."
@@ -39199,12 +39199,12 @@ msgstr "তথ্যের ফাইল %1-এ সংরক্ষণ করা �
 msgid "FITS file saved to %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: indi/indistd.cpp:695
+#: indi/indistd.cpp:692
 #, kde-format
 msgid "%1 is online."
 msgstr "%1 অনলাইনে আছে।"
 
-#: indi/indistd.cpp:708
+#: indi/indistd.cpp:705
 #, kde-format
 msgid "%1 is online and ready."
 msgstr "%1 অনলাইনে আছে এবং প্রস্তুত রয়েছে।"
@@ -39235,7 +39235,7 @@ msgstr "আপনি কি %1-কে অপসারণ করার ব্য�
 msgid "Error. Unable to locate telescope drivers."
 msgstr "সমস্যা।  দূরবীক্ষণ যন্ত্রের ড্রাইভার পাওয়া যায় নি।"
 
-#: indi/telescopewizardprocess.cpp:249
+#: indi/telescopewizardprocess.cpp:251
 msgid ""
 "Please wait while KStars scan communication ports for attached telescopes.\n"
 "This process might take few minutes to complete."
@@ -39245,19 +39245,19 @@ msgstr ""
 "করার কাজ শেষ না করছে, অনুগ্রহপূর্বক ততক্ষণ অপেক্ষা করুন।  এ কাজটিতে কয়েক\n"
 "মিনিট পর্যন্ত সময় লাগতে পারে।"
 
-#: indi/telescopewizardprocess.cpp:258
+#: indi/telescopewizardprocess.cpp:260
 msgid "Please wait while KStars tries to connect to your telescope..."
 msgstr ""
 "কে-স্টার্স আপনার দূরবীক্ষণ যন্ত্রের সাথে সংযোগ স্থাপনের পূর্ব পর্যন্ত অনুগ্রহপূর্বক অপেক্ষা "
 "করুন..."
 
-#: indi/telescopewizardprocess.cpp:286
+#: indi/telescopewizardprocess.cpp:288
 msgid "Error: connection timeout. Unable to communicate with an INDI server"
 msgstr ""
 "সমস্যা: সংযোগ স্থাপনের সময়সীমা অতিক্রান্ত হয়ে গিয়েছে।  কোন INDI সার্ভারের সাথে "
 "যোগাযোগ করা যায় নি"
 
-#: indi/telescopewizardprocess.cpp:356
+#: indi/telescopewizardprocess.cpp:372
 msgid ""
 "Sorry. KStars failed to detect any attached telescopes, please check your "
 "settings and try again."
@@ -39487,87 +39487,87 @@ msgstr "নামহীন"
 msgid "unnamed object"
 msgstr "নামহীন বস্তু"
 
-#: skyobjects/skyobject.cpp:328
+#: skyobjects/skyobject.cpp:319
 msgid "Star"
 msgstr "তারা"
 
-#: skyobjects/skyobject.cpp:329
+#: skyobjects/skyobject.cpp:320
 msgid "Catalog Star"
 msgstr "ক্যাটালগভুক্ত তারা"
 
-#: skyobjects/skyobject.cpp:330
+#: skyobjects/skyobject.cpp:321
 msgid "Planet"
 msgstr "গ্রহ"
 
-#: skyobjects/skyobject.cpp:331
+#: skyobjects/skyobject.cpp:322
 msgid "Open Cluster"
 msgstr "মুক্ত স্তবক"
 
-#: skyobjects/skyobject.cpp:332
+#: skyobjects/skyobject.cpp:323
 msgid "Globular Cluster"
 msgstr "গুচ্ছ স্তবক"
 
-#: skyobjects/skyobject.cpp:333
+#: skyobjects/skyobject.cpp:324
 msgid "Gaseous Nebula"
 msgstr "গ্যাসীয় নীহারিকা"
 
-#: skyobjects/skyobject.cpp:334
+#: skyobjects/skyobject.cpp:325
 msgid "Planetary Nebula"
 msgstr "গ্রহ নীহারিকা"
 
-#: skyobjects/skyobject.cpp:335
+#: skyobjects/skyobject.cpp:326
 msgid "Supernova Remnant"
 msgstr "সুপারনোভার অবশিষ্টাংশ"
 
-#: skyobjects/skyobject.cpp:336
+#: skyobjects/skyobject.cpp:327
 msgid "Galaxy"
 msgstr "ছায়াপথ"
 
-#: skyobjects/skyobject.cpp:337
+#: skyobjects/skyobject.cpp:328
 msgid "Comet"
 msgstr "ধূমকেতু"
 
-#: skyobjects/skyobject.cpp:338
+#: skyobjects/skyobject.cpp:329
 msgid "Asteroid"
 msgstr "গ্রহাণু"
 
-#: skyobjects/skyobject.cpp:339
+#: skyobjects/skyobject.cpp:330
 msgid "Unknown Type"
 msgstr "অজ্ঞাত ধরন"
 
-#: skyobjects/skyobject.cpp:346
+#: skyobjects/skyobject.cpp:337
 msgid "Show HST Image"
 msgstr "HST ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:347
+#: skyobjects/skyobject.cpp:338
 #, kde-format
 msgid "%1: Hubble Space Telescope, operated by STScI for NASA [public domain]"
 msgstr "%1: নাসা'র পক্ষে STScI কর্তৃক পরিচালিত হাবল স্পেস টেলিস্কোপ [পাবলিক ডোমেইন]"
 
-#: skyobjects/skyobject.cpp:350
+#: skyobjects/skyobject.cpp:341
 msgid "Show Spitzer Image"
 msgstr "স্পিৎজার ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:351
+#: skyobjects/skyobject.cpp:342
 #, kde-format
 msgid "%1: Spitzer Space Telescope, courtesy NASA/JPL-Caltech [public domain]"
 msgstr ""
 "%1: স্পিৎজার স্পেস দূরবীক্ষণ যন্ত, সৌজন্যে নাসা/জে.পি.এল.-ক্যালটেক [পাবলিক ডোমেইন]"
 
-#: skyobjects/skyobject.cpp:354
+#: skyobjects/skyobject.cpp:345
 msgid "Show SEDS Image"
 msgstr "SEDS ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:355
+#: skyobjects/skyobject.cpp:346
 #, kde-format
 msgid "%1: SEDS, http://www.seds.org [free for non-commercial use]"
 msgstr "%1: SEDS, http://www.seds.org [বিনামূল্যে অবাণিজ্যিক ব্যবহার]"
 
-#: skyobjects/skyobject.cpp:358
+#: skyobjects/skyobject.cpp:349
 msgid "Show KPNO AOP Image"
 msgstr "KPNO AOP ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:359
+#: skyobjects/skyobject.cpp:350
 #, kde-format
 msgid ""
 "%1: Advanced Observing Program at Kitt Peak National Observatory [free for "
@@ -39576,11 +39576,11 @@ msgstr ""
 "%1: কিট পিক ন্যাশনাল অবজারভেটরি'র অগ্রসর পর্যবেক্ষণ প্রোগ্রাম [বিনামূল্যে অবাণিজ্যিক "
 "ব্যবহার; কোন মিডিয়াতে কপি করা যাবে না]"
 
-#: skyobjects/skyobject.cpp:362
+#: skyobjects/skyobject.cpp:353
 msgid "Show NOAO Image"
 msgstr "NOAO ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:363
+#: skyobjects/skyobject.cpp:354
 #, kde-format
 msgid ""
 "%1: National Optical Astronomy Observatories and AURA [free for non-"
@@ -39588,7 +39588,7 @@ msgid ""
 msgstr ""
 "%1: ন্যাশনাল অপটিকাল অ্যাস্ট্রোনমি অবজারভেটরি ও AURA [বিনামূল্যে অবাণিজ্যিক ব্যবহার]"
 
-#: skyobjects/skyobject.cpp:367
+#: skyobjects/skyobject.cpp:358
 #, kde-format
 msgid ""
 "%1: Very Large Telescope, operated by the European Southern Observatory "
@@ -39597,11 +39597,11 @@ msgstr ""
 "%1: ইউরোপিয়ান সাউদার্ন অবজারভেটরি কর্তৃক পরিচালিত বৃহদায়তন দূরবীক্ষণ যন্ত্র "
 "[বিনামূল্যে অবাণিজ্যিক ব্যবহার; কোন মিডিয়াতে কপি করা যাবে না]"
 
-#: skyobjects/skyobject.cpp:370
+#: skyobjects/skyobject.cpp:361
 msgid "Show"
 msgstr "দেখাও"
 
-#: skyobjects/skyobject.cpp:424
+#: skyobjects/skyobject.cpp:415
 msgid "Cannot write to user log file"
 msgstr ""
 
