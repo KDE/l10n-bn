@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-02 06:04+0200\n"
+"POT-Creation-Date: 2009-08-04 06:08+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -211,12 +211,12 @@ msgstr "ফাইলের নাম অবৈধ"
 msgid "No FOV"
 msgstr "কোন FOV নেই"
 
-#: fov.cpp:132
+#: fov.cpp:139
 msgctxt "use field-of-view for binoculars"
 msgid "7x35 Binoculars"
 msgstr "৭x৩৫ দূরবীন"
 
-#: fov.cpp:134
+#: fov.cpp:141
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Belgrade"
@@ -224,22 +224,22 @@ msgctxt "use a Telrad field-of-view indicator"
 msgid "Telrad"
 msgstr "বেলগ্রেড"
 
-#: fov.cpp:136
+#: fov.cpp:143
 msgctxt "use 1-degree field-of-view indicator"
 msgid "One Degree"
 msgstr "এক ডিগ্রি"
 
-#: fov.cpp:138
+#: fov.cpp:145
 msgctxt "use HST field-of-view indicator"
 msgid "HST WFPC2"
 msgstr "HST ভিল্ড-অব-ভিশন নির্দেশক ব্যবহার করো"
 
-#: fov.cpp:140
+#: fov.cpp:147
 msgctxt "use Radiotelescope HPBW"
 msgid "30m at 1.3cm"
 msgstr "১.৩ সেন্টিমিটারে ৩০ মিটার"
 
-#: fov.cpp:151
+#: fov.cpp:158
 msgid "Could not open fov.dat."
 msgstr "fov.dat খোলা যায় নি।"
 
@@ -359,7 +359,7 @@ msgstr "SEDS ছবি প্রদর্শন করো"
 
 #: kspopupmenu.cpp:115 kspopupmenu.cpp:170 kstarsdata.cpp:84 kstarsdata.cpp:85
 #: kstarsinit.cpp:637 tools/observinglist.cpp:494 tools/wutdialog.cpp:246
-#: skycomponents/starcomponent.cpp:501 dialogs/detaildialog.cpp:136
+#: skycomponents/starcomponent.cpp:508 dialogs/detaildialog.cpp:136
 #: skyobjects/starobject.cpp:660 skyobjects/starobject.cpp:679
 #: skyobjects/starobject.cpp:684 skyobjects/starobject.cpp:687
 msgid "star"
@@ -32727,7 +32727,7 @@ msgstr "তালিকাভুক্ত করো"
 
 #. i18n: file: dialogs/newfov.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, NewFOV)
-#: rc.cpp:4067 dialogs/fovdialog.cpp:161
+#: rc.cpp:4067 dialogs/fovdialog.cpp:175
 msgid "New FOV Indicator"
 msgstr "নতুন FOV নির্দেশক"
 
@@ -33016,7 +33016,7 @@ msgstr "কৌণিক দূরত্ব: "
 
 #. i18n: file: dialogs/newfov.ui:674
 #. i18n: ectx: property (text), widget (QLabel, LabelUnits)
-#: rc.cpp:4205 dialogs/fovdialog.cpp:183
+#: rc.cpp:4205 dialogs/fovdialog.cpp:209
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Delta"
@@ -38378,12 +38378,12 @@ msgstr "স্বনির্বাচিত তথ্যের এই ফাই
 msgid "Loading solar system"
 msgstr "সৌরজগত্‍"
 
-#: skycomponents/starcomponent.cpp:84
+#: skycomponents/starcomponent.cpp:91
 #, fuzzy
 msgid "Loading stars"
 msgstr "মিলযুক্ত খ-বস্তু:"
 
-#: skycomponents/starcomponent.cpp:155
+#: skycomponents/starcomponent.cpp:162
 msgid "Please wait while re-indexing stars ..."
 msgstr ""
 
@@ -38477,7 +38477,7 @@ msgstr ""
 msgid "Ignore"
 msgstr "অগ্রাহ্য"
 
-#: widgets/fovwidget.cpp:50
+#: widgets/fovwidget.cpp:48
 #, fuzzy, kde-format
 #| msgctxt "angular size in arcminutes"
 #| msgid "%1 arcmin"
@@ -38934,33 +38934,21 @@ msgstr "দিগংশের সীমা হল ০.০ থেকে ৩৬০
 msgid "The Altitude value must be between -90.0 and 90.0."
 msgstr "উন্নতির সীমা হল -৯০.০ থেকে ৯০.০ ।"
 
-#: dialogs/fovdialog.cpp:55
+#: dialogs/fovdialog.cpp:84
 msgid "Set FOV Indicator"
 msgstr "FOV নির্দেশক নির্ধারণ করুন"
 
-#: dialogs/fovdialog.cpp:148
-msgid ""
-"You have removed all FOV symbols.  If the list remains empty when you exit "
-"this tool, the default symbols will be regenerated."
-msgstr ""
-"আপনি সকল FOV প্রতীক অপসারণ করেছেন।  আপনার প্রস্থানের সময়ও যদি এই তালিকা ফাঁকা "
-"থাকে, তবে ডিফল্ট প্রতীকগুলো পরবর্তীতে পুনরায় উত্‍পন্ন হবে।"
-
-#: dialogs/fovdialog.cpp:149
-msgid "FOV list is empty"
-msgstr "FOV তালিকা ফাঁকা"
-
-#: dialogs/fovdialog.cpp:174
+#: dialogs/fovdialog.cpp:201
 msgid "1000 yards"
 msgstr ""
 
-#: dialogs/fovdialog.cpp:175
+#: dialogs/fovdialog.cpp:202
 #, fuzzy
 #| msgid "Comets"
 msgid "1000 meters"
 msgstr "ধূমকেতু"
 
-#: dialogs/fovdialog.cpp:185
+#: dialogs/fovdialog.cpp:209
 #, fuzzy
 #| msgid "Comets"
 msgid "meters"
@@ -40045,6 +40033,16 @@ msgstr "খ. চতুর্ভূজাকৃতি"
 msgctxt "Map projection method"
 msgid "TSC"
 msgstr ""
+
+#~ msgid ""
+#~ "You have removed all FOV symbols.  If the list remains empty when you "
+#~ "exit this tool, the default symbols will be regenerated."
+#~ msgstr ""
+#~ "আপনি সকল FOV প্রতীক অপসারণ করেছেন।  আপনার প্রস্থানের সময়ও যদি এই তালিকা ফাঁকা "
+#~ "থাকে, তবে ডিফল্ট প্রতীকগুলো পরবর্তীতে পুনরায় উত্‍পন্ন হবে।"
+
+#~ msgid "FOV list is empty"
+#~ msgstr "FOV তালিকা ফাঁকা"
 
 #~ msgid "Could not open fov.dat for writing."
 #~ msgstr "লেখার জন্য fov.dat ফাইলটি খোলা যায় নি।"
