@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-14 06:16+0200\n"
+"POT-Creation-Date: 2009-08-18 06:20+0200\n"
 "PO-Revision-Date: 2009-01-05 01:16-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -1695,7 +1695,7 @@ msgstr "মেইন-উইণ্ডো"
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:106
 #. i18n: ectx: property (text), widget (QPushButton, mExecute)
-#: rc.cpp:764 kparts/browserrun.cpp:315
+#: rc.cpp:764 kparts/browserrun.cpp:311
 msgid "Execute"
 msgstr "চালাও"
 
@@ -1755,7 +1755,7 @@ msgstr "অ্যাপলিকেশন বন্ধ করো..."
 
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:194
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
-#: rc.cpp:791 kross/ui/view.cpp:302
+#: rc.cpp:791 kross/ui/view.cpp:301
 msgid "Run"
 msgstr "চালাও"
 
@@ -1797,7 +1797,7 @@ msgstr "পরবর্তী লাইনে ধাপ..."
 #. i18n: ectx: property (text), widget (QPushButton, pbStop)
 #: rc.cpp:809 rc.cpp:957 kdeui/jobs/kstatusbarjobtracker.cpp:156
 #: kdeui/util/kstandardguiitem.cpp:281 kdeui/util/kkeyserver_x11.cpp:103
-#: kross/ui/view.cpp:309
+#: kross/ui/view.cpp:308
 msgid "Stop"
 msgstr "থামাও"
 
@@ -6435,7 +6435,7 @@ msgid "Add"
 msgstr "যোগ করো"
 
 #: kdeui/util/kstandardguiitem.cpp:291
-#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:301 kross/ui/view.cpp:330
+#: kdeui/dialogs/kswitchlanguagedialog_p.cpp:301 kross/ui/view.cpp:329
 msgid "Remove"
 msgstr "সরিয়ে ফেলো"
 
@@ -6928,15 +6928,15 @@ msgstr "বিস্তারি&ত বর্ণনা"
 msgid "Get help..."
 msgstr "সাহায্য চাও..."
 
-#: kdeui/dialogs/kedittoolbar.cpp:55
+#: kdeui/dialogs/kedittoolbar.cpp:56
 msgid "--- separator ---"
 msgstr "--- বিভাজক---"
 
-#: kdeui/dialogs/kedittoolbar.cpp:481
+#: kdeui/dialogs/kedittoolbar.cpp:484
 msgid "Configure Toolbars"
 msgstr "টুলবার কনফিগার করো"
 
-#: kdeui/dialogs/kedittoolbar.cpp:530
+#: kdeui/dialogs/kedittoolbar.cpp:533
 #, fuzzy
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
@@ -6945,59 +6945,65 @@ msgstr ""
 "আপনি কি তাদের ডিফল্টে এই অ্যাপলিকেশনটির সমস্ত টুলবার রিসেট করতে সত্যি চাও? "
 "পরিবর্তন তাৎ‍ক্ষণিকভাবে প্রয়োগ করা হবে।"
 
-#: kdeui/dialogs/kedittoolbar.cpp:530
+#: kdeui/dialogs/kedittoolbar.cpp:533
 msgid "Reset Toolbars"
 msgstr "টুলবার রিসেট করো"
 
-#: kdeui/dialogs/kedittoolbar.cpp:530 khtml/khtmlview.cpp:2924
+#: kdeui/dialogs/kedittoolbar.cpp:533 khtml/khtmlview.cpp:2924
 #: khtml/khtmlview.cpp:2957 khtml/html/html_formimpl.cpp:1809
 msgid "Reset"
 msgstr "রিসেট"
 
-#: kdeui/dialogs/kedittoolbar.cpp:829
+#: kdeui/dialogs/kedittoolbar.cpp:832
 msgid "&Toolbar:"
 msgstr "টু&লবার:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:844
+#: kdeui/dialogs/kedittoolbar.cpp:847
 msgid "A&vailable actions:"
 msgstr "&সম্ভাব্য কাজ:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:859 kdeui/dialogs/kedittoolbar.cpp:878
+#: kdeui/dialogs/kedittoolbar.cpp:862 kdeui/dialogs/kedittoolbar.cpp:881
 #, fuzzy
 msgid "Filter"
 msgstr "ফা&ইল"
 
-#: kdeui/dialogs/kedittoolbar.cpp:862
+#: kdeui/dialogs/kedittoolbar.cpp:865
 msgid "Curr&ent actions:"
 msgstr "&বর্তমান কাজ:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:881
+#: kdeui/dialogs/kedittoolbar.cpp:884
 msgid "Change &Icon..."
 msgstr "আ&ইকন বদলাও..."
 
-#: kdeui/dialogs/kedittoolbar.cpp:1034
+#: kdeui/dialogs/kedittoolbar.cpp:894
+#, fuzzy
+#| msgid "Change &Icon..."
+msgid "Change Te&xt..."
+msgstr "আ&ইকন বদলাও..."
+
+#: kdeui/dialogs/kedittoolbar.cpp:1045
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1055
+#: kdeui/dialogs/kedittoolbar.cpp:1066
 #, fuzzy
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 "এই উপাদানটি একটি সন্নিবেশিত উপাদানের সমস্ত উপাদানের সঙ্গে প্রতিস্থাপন করা হবে।"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1057
+#: kdeui/dialogs/kedittoolbar.cpp:1068
 msgid "<Merge>"
 msgstr "<Merge>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1059
+#: kdeui/dialogs/kedittoolbar.cpp:1070
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Merge %1>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1065
+#: kdeui/dialogs/kedittoolbar.cpp:1076
 #, fuzzy
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
@@ -7006,20 +7012,31 @@ msgstr ""
 "এইটি ক্রিয়ার একটি গতিশীল তালিকা। আপনি এইটি চলতে পারেন, কিন্তু যদি আপনি এইটি re-"
 "addতে এইটি আপনাকে সক্ষম সরিয়ে দিেন না।"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1066
+#: kdeui/dialogs/kedittoolbar.cpp:1077
 #, kde-format
 msgid "ActionList: %1"
 msgstr "কার্যতালিকা: %1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1166 kdeui/dialogs/kedittoolbar.cpp:1193
+#: kdeui/dialogs/kedittoolbar.cpp:1177 kdeui/dialogs/kedittoolbar.cpp:1207
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1448
+#: kdeui/dialogs/kedittoolbar.cpp:1462
 msgid "Change Icon"
 msgstr "আইকন বদলাও"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1494
+#, fuzzy
+#| msgid "Change Icon"
+msgid "Change Text"
+msgstr "আইকন বদলাও"
+
+#: kdeui/dialogs/kedittoolbar.cpp:1494
+#, fuzzy
+msgid "Icon Te&xt:"
+msgstr "সংযোগ লেখা:"
 
 #: kdeui/dialogs/kshortcutseditor.cpp:566
 #: kdeui/dialogs/kshortcutseditor.cpp:582
@@ -10509,7 +10526,7 @@ msgid "a basic web browser using the KHTML library"
 msgstr "কে-এইচ-টি-এম-এল লাইব্রেরী ব্যবহার করে একটি মৌলিক ওয়েব ব্রাউজার"
 
 #: khtml/khtml_run.cpp:97 khtml/khtml_part.cpp:3719 khtml/khtml_part.cpp:3929
-#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:464
+#: khtml/khtml_part.cpp:4315 kparts/browserrun.cpp:460
 msgid "Save As"
 msgstr "নতুন নামে সংরক্ষণ করো"
 
@@ -10781,12 +10798,12 @@ msgstr "ফাইল মুছে লিখব?"
 msgid "Overwrite"
 msgstr "মুছে লেখ"
 
-#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:435
+#: khtml/khtml_ext.cpp:991 kparts/browserrun.cpp:431
 #, kde-format
 msgid "The Download Manager (%1) could not be found in your $PATH "
 msgstr "আপনার $PATH-এ ডাউনলোড ম্যানেজার (%1) পাওয়া যায়নি"
 
-#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:436
+#: khtml/khtml_ext.cpp:992 kparts/browserrun.cpp:432
 msgid ""
 "Try to reinstall it  \n"
 "\n"
@@ -11959,39 +11976,39 @@ msgstr "আইকন:"
 msgid "Interpreter:"
 msgstr "ইন্টারপ্রিটার:"
 
-#: kross/ui/view.cpp:304
+#: kross/ui/view.cpp:303
 msgid "Execute the selected script."
 msgstr "নির্বাচিত স্ক্রিপ্ট চালাও।"
 
-#: kross/ui/view.cpp:311
+#: kross/ui/view.cpp:310
 msgid "Stop execution of the selected script."
 msgstr "নির্বাচিত স্ক্রিপ্ট থামাও।"
 
-#: kross/ui/view.cpp:316
+#: kross/ui/view.cpp:315
 msgid "Edit..."
 msgstr "সম্পাদন করো..."
 
-#: kross/ui/view.cpp:318
+#: kross/ui/view.cpp:317
 msgid "Edit selected script."
 msgstr "নির্বাচিত স্ক্রিপ্ট সম্পাদনা করো।"
 
-#: kross/ui/view.cpp:323
+#: kross/ui/view.cpp:322
 msgid "Add..."
 msgstr "যোগ করো..."
 
-#: kross/ui/view.cpp:325
+#: kross/ui/view.cpp:324
 msgid "Add a new script."
 msgstr "একটি নতুন স্ক্রিপ্ট যোগ করো।"
 
-#: kross/ui/view.cpp:332
+#: kross/ui/view.cpp:331
 msgid "Remove selected script."
 msgstr "নির্বাচিত স্ক্রিপ্ট সরাও।"
 
-#: kross/ui/view.cpp:505
+#: kross/ui/view.cpp:504
 msgid "Edit"
 msgstr "সম্পাদনা"
 
-#: kross/ui/view.cpp:512
+#: kross/ui/view.cpp:511
 msgctxt "@title:group Script properties"
 msgid "General"
 msgstr "সাধারণ"
@@ -12350,16 +12367,16 @@ msgstr ""
 msgid "Close Document"
 msgstr "নথী বন্ধ করো"
 
-#: kparts/browserrun.cpp:314
+#: kparts/browserrun.cpp:310
 #, kde-format
 msgid "Do you really want to execute '%1'?"
 msgstr "আপনি কি সত্যিই '%1' চালাতে চান?"
 
-#: kparts/browserrun.cpp:315
+#: kparts/browserrun.cpp:311
 msgid "Execute File?"
 msgstr "ফাইল চালাব?"
 
-#: kparts/browserrun.cpp:333
+#: kparts/browserrun.cpp:329
 #, kde-format
 msgid ""
 "Open '%2'?\n"
@@ -12368,7 +12385,7 @@ msgstr ""
 "'%2' খুলব?\n"
 "ধরন: %1"
 
-#: kparts/browserrun.cpp:335
+#: kparts/browserrun.cpp:331
 #, kde-format
 msgid ""
 "Open '%3'?\n"
@@ -12379,18 +12396,18 @@ msgstr ""
 "নাম: %2\n"
 "ধরন: %1"
 
-#: kparts/browserrun.cpp:351
+#: kparts/browserrun.cpp:347
 #, kde-format
 msgid "&Open with '%1'"
 msgstr "'%1' দিয়ে খোলো (&খ)"
 
-#: kparts/browserrun.cpp:353
+#: kparts/browserrun.cpp:349
 #, fuzzy
 #| msgid "&Open With..."
 msgid "&Open with..."
 msgstr "খুলতে ব্যবহা&র করো..."
 
-#: kparts/browserrun.cpp:398
+#: kparts/browserrun.cpp:394
 msgid "&Open"
 msgstr "খোলো (&ল)"
 
