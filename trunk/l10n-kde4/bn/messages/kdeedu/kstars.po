@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-27 07:17+0200\n"
+"POT-Creation-Date: 2009-08-29 07:26+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -87,7 +87,7 @@ msgstr "বিষুবরেখা"
 msgid "Ecliptic"
 msgstr "সূর্যপথ"
 
-#: colorscheme.cpp:85 skycomponents/horizoncomponent.cpp:86
+#: colorscheme.cpp:85 skycomponents/horizoncomponent.cpp:87
 msgid "Horizon"
 msgstr "দিগন্ত"
 
@@ -173,8 +173,8 @@ msgstr ""
 "স্থানীয় রং বিন্যাসের ফাইল খোলা যায় নি।\n"
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
-#: colorscheme.cpp:268 colorscheme.cpp:286 kstarsactions.cpp:612
-#: skymap.cpp:1693 tools/modcalcaltaz.cpp:253 tools/modcalcangdist.cpp:144
+#: colorscheme.cpp:268 colorscheme.cpp:286 kstarsactions.cpp:594
+#: skymap.cpp:1647 tools/modcalcaltaz.cpp:253 tools/modcalcangdist.cpp:144
 #: tools/modcalcapcoord.cpp:167 tools/modcalcdaylength.cpp:249
 #: tools/modcalceclipticcoords.cpp:204 tools/modcalcgalcoord.cpp:192
 #: tools/modcalcgeodcoord.cpp:232 tools/modcalcjd.cpp:123
@@ -183,7 +183,7 @@ msgstr ""
 #: tools/observinglist.cpp:843 tools/observinglist.cpp:960
 #: tools/scriptbuilder.cpp:990 tools/scriptbuilder.cpp:1054
 #: tools/scriptbuilder.cpp:1120 dialogs/locationdialog.cpp:254
-#: indi/indidriver.cpp:431 indi/indidriver.cpp:917 options/opscolors.cpp:199
+#: indi/indidriver.cpp:430 indi/indidriver.cpp:913 options/opscolors.cpp:199
 msgid "Could Not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
@@ -266,13 +266,13 @@ msgstr "বর্তমানে ব্যবহৃত পর্যবেক্�
 msgid "Loading of the image %1 failed."
 msgstr "%1 ছবিটি লোড করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#: imageviewer.cpp:248 kstarsactions.cpp:534 tools/scriptbuilder.cpp:1038
+#: imageviewer.cpp:248 kstarsactions.cpp:516 tools/scriptbuilder.cpp:1038
 #: dialogs/addcatdialog.cpp:213 fitsviewer/fitsviewer.cpp:290
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr "\"%1\" নামে একটি ফাইল ইতিমধ্যেই বিদ্যমান।  সেটির ওপর দিয়েই কি লেখা হবে?"
 
-#: imageviewer.cpp:250 kstarsactions.cpp:536 tools/scriptbuilder.cpp:1040
+#: imageviewer.cpp:250 kstarsactions.cpp:518 tools/scriptbuilder.cpp:1040
 #: dialogs/addcatdialog.cpp:215 fitsviewer/fitsviewer.cpp:292
 msgid "Overwrite File?"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
@@ -282,64 +282,8 @@ msgstr "ফাইলের ওপর দিয়েই কি লেখা হব�
 msgid "Saving of the image %1 failed."
 msgstr "%1 ছবিটি সংরক্ষণ করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#: infoboxes.cpp:371
-msgctxt "Local Time"
-msgid "LT: "
-msgstr "স্থানীয় সময়:"
-
-#: infoboxes.cpp:374
-msgctxt "Universal Time"
-msgid "UT: "
-msgstr "বিশ্বজনীন সময়:"
-
-#: infoboxes.cpp:386
-msgctxt "Sidereal Time"
-msgid "ST: "
-msgstr "নাক্ষত্র কাল:"
-
-#: infoboxes.cpp:387
-msgctxt "Julian Day"
-msgid "JD: "
-msgstr "জুলিয়ান দিবস: "
-
-#: infoboxes.cpp:407
-msgctxt "Longitude"
-msgid "Long:"
-msgstr "দ্রাঘিমাংশ:"
-
-#: infoboxes.cpp:409
-msgctxt "Latitude"
-msgid "Lat:"
-msgstr "অক্ষাংশ:"
-
-#: infoboxes.cpp:423
-msgid "Focused on: "
-msgstr "ফোকাসকৃত বস্তু: "
-
-#: infoboxes.cpp:435 tools/flagmanager.cpp:56 tools/observinglist.cpp:108
-#: tools/observinglist.cpp:111
-msgctxt "Right Ascension"
-msgid "RA"
-msgstr "বিষুবাংশ"
-
-#: infoboxes.cpp:436 tools/flagmanager.cpp:57 tools/observinglist.cpp:108
-#: tools/observinglist.cpp:111
-msgctxt "Declination"
-msgid "Dec"
-msgstr "বিষুবলম্ব"
-
-#: infoboxes.cpp:437 tools/observinglist.cpp:113
-msgctxt "Azimuth"
-msgid "Az"
-msgstr "দিগংশ"
-
-#: infoboxes.cpp:438 tools/observinglist.cpp:113
-msgctxt "Altitude"
-msgid "Alt"
-msgstr "উন্নতি"
-
 #: kspopupmenu.cpp:98 kspopupmenu.cpp:169 kspopupmenu.cpp:172
-#: skymapevents.cpp:737
+#: skymapevents.cpp:711
 msgid "Empty sky"
 msgstr "শূন্য আকাশ"
 
@@ -358,8 +302,8 @@ msgid "Show DSS Image"
 msgstr "SEDS ছবি প্রদর্শন করো"
 
 #: kspopupmenu.cpp:117 kspopupmenu.cpp:172 kstarsdata.cpp:109
-#: kstarsdata.cpp:110 kstarsinit.cpp:576 tools/observinglist.cpp:507
-#: tools/wutdialog.cpp:247 skycomponents/starcomponent.cpp:508
+#: kstarsdata.cpp:110 kstarsinit.cpp:568 tools/observinglist.cpp:507
+#: tools/wutdialog.cpp:247 skycomponents/starcomponent.cpp:507
 #: dialogs/detaildialog.cpp:136 skyobjects/starobject.cpp:660
 #: skyobjects/starobject.cpp:679 skyobjects/starobject.cpp:684
 #: skyobjects/starobject.cpp:687
@@ -476,48 +420,48 @@ msgstr "অস্তের কোন সময় নেই: মেরু পরি
 msgid "No set time: Never rises"
 msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kstarsactions.cpp:406
+#: kstarsactions.cpp:387
 msgid "Catalogs"
 msgstr "তালিকা"
 
-#: kstarsactions.cpp:407 tools/astrocalc.cpp:167 dialogs/finddialog.cpp:37
+#: kstarsactions.cpp:388 tools/astrocalc.cpp:167 dialogs/finddialog.cpp:37
 msgid "Solar System"
 msgstr "সৌরজগত্‍"
 
-#: kstarsactions.cpp:408
+#: kstarsactions.cpp:389
 msgid "Guides"
 msgstr "নির্দেশিকা"
 
-#: kstarsactions.cpp:409
+#: kstarsactions.cpp:390
 msgid "Colors"
 msgstr "রং"
 
-#: kstarsactions.cpp:413
+#: kstarsactions.cpp:394
 msgid "INDI"
 msgstr "INDI"
 
-#: kstarsactions.cpp:418
+#: kstarsactions.cpp:399
 #, fuzzy
 #| msgid "planet"
 msgid "Xplanet"
 msgstr "গ্রহ"
 
-#: kstarsactions.cpp:421 dialogs/detaildialog.cpp:421
+#: kstarsactions.cpp:402 dialogs/detaildialog.cpp:421
 msgid "Advanced"
 msgstr "অগ্রসর"
 
-#: kstarsactions.cpp:501
+#: kstarsactions.cpp:482
 msgid "KStars::slotFind() - Not enough memory for dialog"
 msgstr "KStars::slotFind() - ডায়ালগ প্রদর্শনের জন্য পর্যাপ্ত মেমরি নেই"
 
-#: kstarsactions.cpp:553
+#: kstarsactions.cpp:535
 msgid ""
 "Warning:  You are about to execute a remote shell script on your machine. "
 msgstr ""
 "সতর্কবাণী:  আপনি আপনার কম্পিউটারে একটি দূরবর্তী (remote) শেল স্ক্রিপ্ট চালাতে "
 "যাচ্ছেন। "
 
-#: kstarsactions.cpp:554
+#: kstarsactions.cpp:536
 msgid ""
 "If you absolutely trust the source of this script, press Continue to execute "
 "the script; "
@@ -525,61 +469,61 @@ msgstr ""
 "যদি স্ক্রিপ্টের সোর্সকে আপনি বিশ্বাস করেন, তবে স্ক্রিপ্ট চালানোর জন্য 'অগ্রসর' বাটন "
 "চাপুন; "
 
-#: kstarsactions.cpp:555
+#: kstarsactions.cpp:537
 msgid "to save the file without executing it, press Save; "
 msgstr "ফাইলটি না চালিয়ে শুধু সংরক্ষণ করতে চাইলে 'সংরক্ষণ' চাপুন; "
 
-#: kstarsactions.cpp:556
+#: kstarsactions.cpp:538
 msgid "to cancel the download, press Cancel. "
 msgstr "ডাউনলোড প্রক্রিয়া বাতিল করার জন্য 'বাতিল' চাপুন। "
 
-#: kstarsactions.cpp:558
+#: kstarsactions.cpp:540
 msgid "Really Execute Remote Script?"
 msgstr "আপনি কি দূরবর্তী (remote) স্ক্রিপ্ট চালানোর ব্যাপারে নিশ্চিত?"
 
-#: kstarsactions.cpp:568
+#: kstarsactions.cpp:550
 msgid "Save location is invalid. Try another location?"
 msgstr ""
 "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ।  অপর কোনো অবস্থানে সংরক্ষণ করতে চান "
 "কি?"
 
-#: kstarsactions.cpp:569
+#: kstarsactions.cpp:551
 msgid "Invalid Save Location"
 msgstr "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ"
 
-#: kstarsactions.cpp:569
+#: kstarsactions.cpp:551
 msgid "Try Another"
 msgstr "আরেকটি চেষ্টা করো"
 
-#: kstarsactions.cpp:569 tools/observinglist.cpp:960
+#: kstarsactions.cpp:551 tools/observinglist.cpp:960
 msgid "Do Not Try"
 msgstr "চেষ্টা করবে না"
 
-#: kstarsactions.cpp:584 kstarsdcop.cpp:493 tools/scriptbuilder.cpp:1068
+#: kstarsactions.cpp:566 kstarsdcop.cpp:496 tools/scriptbuilder.cpp:1068
 #: indi/streamwg.cpp:195
 #, kde-format
 msgid "Could not upload image to remote location: %1"
 msgstr "দূরবর্তী অবস্থানে ছবি আপলোড করা যায় নি: %1"
 
-#: kstarsactions.cpp:585 kstarsdcop.cpp:494 tools/scriptbuilder.cpp:1069
+#: kstarsactions.cpp:567 kstarsdcop.cpp:497 tools/scriptbuilder.cpp:1069
 #: indi/streamwg.cpp:196
 msgid "Could not upload file"
 msgstr "ফাইল আপলোড করা যায় নি"
 
-#: kstarsactions.cpp:589
+#: kstarsactions.cpp:571
 msgid "Could not download the file."
 msgstr "ফাইল ডাউনলোড করা যায় নি।"
 
-#: kstarsactions.cpp:589 tools/scriptbuilder.cpp:984
+#: kstarsactions.cpp:571 tools/scriptbuilder.cpp:984
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:611 kstarsdata.cpp:873 tools/observinglist.cpp:842
+#: kstarsactions.cpp:593 kstarsdata.cpp:873 tools/observinglist.cpp:842
 #, kde-format
 msgid "Could not open file %1"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি"
 
-#: kstarsactions.cpp:636
+#: kstarsactions.cpp:618
 #, fuzzy
 #| msgid ""
 #| "The selected script contains unrecognized elements,indicating that it was "
@@ -596,26 +540,26 @@ msgstr ""
 "স্ক্রিপ্ট বিল্ডার ব্যবহার করে তৈরি করা হয় নি।  এই স্ক্রিপ্টটি সঠিকভাবে কাজ করবে না "
 "এবং এতে সন্দেহজনক কোড থাকতে পারে।  এ অবস্থায় আপনি কি স্ক্রিপ্টটি চালাতে চান?"
 
-#: kstarsactions.cpp:640
+#: kstarsactions.cpp:622
 msgid "Script Validation Failed"
 msgstr "স্ক্রিপ্টের বৈধতা প্রমাণ করা যায় নি"
 
-#: kstarsactions.cpp:640
+#: kstarsactions.cpp:622
 msgid "Run Nevertheless"
 msgstr "তবুও চালাও"
 
-#: kstarsactions.cpp:645
+#: kstarsactions.cpp:627
 #, kde-format
 msgid "Running script: %1"
 msgstr ""
 
-#: kstarsactions.cpp:660
+#: kstarsactions.cpp:642
 #, fuzzy
 #| msgid "Script name:"
 msgid "Script finished."
 msgstr "স্ক্রিপ্টের নাম:"
 
-#: kstarsactions.cpp:669
+#: kstarsactions.cpp:651
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which "
 "uses a white background. Would you like to temporarily switch to the Star "
@@ -625,77 +569,72 @@ msgstr ""
 "ব্যবহার করতে পারেন যা সাদা পটভূমি ব্যবহার করে।  আপনি কি মুদ্রণের জন্য সাময়িকভাবে "
 "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান?"
 
-#: kstarsactions.cpp:674
+#: kstarsactions.cpp:656
 msgid "Switch to Star Chart Colors?"
 msgstr "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান কি?"
 
-#: kstarsactions.cpp:675
+#: kstarsactions.cpp:657
 msgid "Switch Color Scheme"
 msgstr "রং বিন্যাস বদলাও"
 
-#: kstarsactions.cpp:675
+#: kstarsactions.cpp:657
 msgid "Do Not Switch"
 msgstr "বদলাবে না"
 
-#: kstarsactions.cpp:701 kstarsinit.cpp:574 skymap.cpp:178 skymap.cpp:253
-#: skymapevents.cpp:426 skymapevents.cpp:551 skymapevents.cpp:641
-msgid "nothing"
-msgstr "কিছু না"
-
-#: kstarsactions.cpp:718 kstarsinit.cpp:198
+#: kstarsactions.cpp:701 kstarsinit.cpp:194
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:734 kstars.cpp:164 skymap.cpp:292
+#: kstarsactions.cpp:717 kstars.cpp:152 skymap.cpp:300
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
 #. i18n: file: dialogs/newfov.ui:239
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: kstarsactions.cpp:799 rc.cpp:4133
+#: kstarsactions.cpp:782 rc.cpp:4133
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
 msgid "degrees"
 msgstr "এভারগ্রিন"
 
-#: kstarsactions.cpp:802
+#: kstarsactions.cpp:785
 #, fuzzy
 #| msgid "arcmin"
 msgid "arcminutes"
 msgstr "আর্কমিনিট"
 
-#: kstarsactions.cpp:806
+#: kstarsactions.cpp:789
 #, fuzzy
 #| msgid "arcsecs"
 msgid "arcseconds"
 msgstr "আর্কসেকেন্ড"
 
-#: kstarsactions.cpp:808
+#: kstarsactions.cpp:791
 #, fuzzy
 #| msgid "No FOV"
 msgctxt "field of view"
 msgid "FOV"
 msgstr "কোন FOV নেই"
 
-#: kstarsactions.cpp:819
+#: kstarsactions.cpp:802
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণের মান লিখুন"
 
-#: kstarsactions.cpp:820
+#: kstarsactions.cpp:803
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
-#: kstarsactions.cpp:840 kstars.cpp:169 kstarsinit.cpp:220
+#: kstarsactions.cpp:823 kstars.cpp:157 kstarsinit.cpp:216
 msgid "Equatorial &Coordinates"
 msgstr "নি&রক্ষীয় স্থানাঙ্ক"
 
-#: kstarsactions.cpp:847 kstars.cpp:169 kstarsinit.cpp:220
+#: kstarsactions.cpp:830 kstars.cpp:157 kstarsinit.cpp:216
 msgid "Horizontal &Coordinates"
 msgstr "&অনুভূমিক স্থানাঙ্ক"
 
-#: kstarsactions.cpp:867
+#: kstarsactions.cpp:850
 #, kde-format
 msgid "Projection system: %1"
 msgstr ""
@@ -790,7 +729,7 @@ msgstr "তারামণ্ডল"
 #. i18n: file: tools/modcalcplanets.ui:497
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #: kstarsdata.cpp:121 rc.cpp:2462 rc.cpp:2865 rc.cpp:2949
-#: tools/conjunctions.cpp:84 tools/modcalcplanets.cpp:271
+#: tools/conjunctions.cpp:83 tools/modcalcplanets.cpp:271
 #: skyobjects/ksmoon.cpp:62
 msgid "Moon"
 msgstr "চাঁদ"
@@ -930,36 +869,36 @@ msgstr "এই তারিখ/সময় পঙ্‌ক্তি পার্�
 msgid "Valid date formats: "
 msgstr "তারিখের সঠিক বিন্যাস: "
 
-#: kstarsdcop.cpp:173
+#: kstarsdcop.cpp:178
 msgid "Error [DCOP waitForKey()]: Invalid key requested."
 msgstr "সমস্যা [DCOP waitForKey()]: ভুল কী (key) আবেদন করা হয়েছে।"
 
-#: kstarsdcop.cpp:233 kstarsdcop.cpp:236
+#: kstarsdcop.cpp:235 kstarsdcop.cpp:238
 msgid "Error [DCOP setGeoLocation]: city "
 msgstr "সমস্যা [DCOP setGeoLocation]: নগর "
 
-#: kstarsdcop.cpp:234 kstarsdcop.cpp:237
+#: kstarsdcop.cpp:236 kstarsdcop.cpp:239
 msgid " not found in database."
 msgstr "ডেটাবেসে পাওয়া যায় নি।"
 
-#: kstarsdcop.cpp:455 main.cpp:88
+#: kstarsdcop.cpp:458 main.cpp:88
 #, kde-format
 msgid "Could not parse image format of %1; assuming PNG."
 msgstr ""
 "%1-এর ছবির বিন্যাস (format) পার্স (parse) করা যায় নি; ধরে নেওয়া হচ্ছে যে, এটি "
 "একটি পি.এন.জি. ছবি।"
 
-#: kstarsdcop.cpp:488
+#: kstarsdcop.cpp:491
 #, kde-format
 msgid "Error: Unable to save image: %1 "
 msgstr "সমস্যা: এই ছবিটি সংরক্ষণ করা যায় নি: %1"
 
-#: kstarsdcop.cpp:489
+#: kstarsdcop.cpp:492
 #, kde-format
 msgid "Image saved to file: %1"
 msgstr "ছবিটি এই ফাইলে সংরক্ষণ করা হয়েছে: %1"
 
-#: kstarsdcop.cpp:513
+#: kstarsdcop.cpp:516
 msgid "Print Sky"
 msgstr "আকাশের ছবি ছাপাও"
 
@@ -35278,255 +35217,255 @@ msgctxt "Advanced URLs: description or category"
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kstarsinit.cpp:134
+#: kstarsinit.cpp:130
 #, fuzzy
 #| msgid "&Download Data..."
 msgid "Download New Data..."
 msgstr "তথ্য ডাউনলো&ড করো..."
 
-#: kstarsinit.cpp:136
+#: kstarsinit.cpp:132
 #, fuzzy
 #| msgid "Downloading Data..."
 msgid "Downloads new data"
 msgstr "তথ্য ডাউনলোড করা হচ্ছে..."
 
-#: kstarsinit.cpp:142
+#: kstarsinit.cpp:138
 msgid "Open FITS..."
 msgstr "FITS খোলো..."
 
-#: kstarsinit.cpp:148
+#: kstarsinit.cpp:144
 msgid "&Save Sky Image..."
 msgstr "আকাশের ছবি সং&রক্ষণ করো..."
 
-#: kstarsinit.cpp:152
+#: kstarsinit.cpp:148
 msgid "&Run Script..."
 msgstr "স্ক্রিপ্ট চালা&ও..."
 
-#: kstarsinit.cpp:160
+#: kstarsinit.cpp:156
 msgid "Set Time to &Now"
 msgstr "&এ মুহূর্তের সময় ব্যবহার করো"
 
-#: kstarsinit.cpp:164
+#: kstarsinit.cpp:160
 msgctxt "set Clock to New Time"
 msgid "&Set Time..."
 msgstr "&সময় নির্দিষ্ট করো..."
 
-#: kstarsinit.cpp:169
+#: kstarsinit.cpp:165
 msgid "Stop &Clock"
 msgstr "&ঘড়ি বন্ধ করো"
 
-#: kstarsinit.cpp:178
+#: kstarsinit.cpp:174
 msgid "&Zenith"
 msgstr "সুবিন্দু (&স)"
 
-#: kstarsinit.cpp:181
+#: kstarsinit.cpp:177
 msgid "&North"
 msgstr "&উত্তর"
 
-#: kstarsinit.cpp:184
+#: kstarsinit.cpp:180
 msgid "&East"
 msgstr "পূর্ব (&প)"
 
-#: kstarsinit.cpp:187
+#: kstarsinit.cpp:183
 msgid "&South"
 msgstr "&দক্ষিণ"
 
-#: kstarsinit.cpp:190
+#: kstarsinit.cpp:186
 msgid "&West"
 msgstr "পশ্চিম (&শ)"
 
-#: kstarsinit.cpp:194
+#: kstarsinit.cpp:190
 msgid "&Find Object..."
 msgstr "&বস্তু খোঁজো..."
 
-#: kstarsinit.cpp:202
+#: kstarsinit.cpp:198
 msgid "Set Focus &Manually..."
 msgstr "নিজেই ফোকা&স নির্দিষ্ট করুন..."
 
-#: kstarsinit.cpp:209
+#: kstarsinit.cpp:205
 msgid "&Default Zoom"
 msgstr "ডি&ফল্ট জুমমাত্রা"
 
-#: kstarsinit.cpp:213
+#: kstarsinit.cpp:209
 msgid "&Zoom to Angular Size..."
 msgstr "কৌণিক আকার অনুযায়ী জু&ম করো..."
 
-#: kstarsinit.cpp:224
+#: kstarsinit.cpp:220
 msgid "&Lambert Azimuthal Equal-area"
 msgstr ""
 
-#: kstarsinit.cpp:229
+#: kstarsinit.cpp:225
 msgid "&Azimuthal Equidistant"
 msgstr ""
 
-#: kstarsinit.cpp:234
+#: kstarsinit.cpp:230
 #, fuzzy
 msgid "&Orthographic"
 msgstr "ভৌগলিক"
 
-#: kstarsinit.cpp:239
+#: kstarsinit.cpp:235
 #, fuzzy
 msgid "&Equirectangular"
 msgstr "চতুর্ভূজাকৃতি"
 
-#: kstarsinit.cpp:244
+#: kstarsinit.cpp:240
 #, fuzzy
 msgid "&Stereographic"
 msgstr "ভৌগলিক"
 
-#: kstarsinit.cpp:249
+#: kstarsinit.cpp:245
 msgid "&Gnomonic"
 msgstr ""
 
-#: kstarsinit.cpp:257
+#: kstarsinit.cpp:253
 msgctxt "Show the information boxes"
 msgid "Show &Info Boxes"
 msgstr "&তথ্যমূলক বাক্স দেখাও"
 
-#: kstarsinit.cpp:263
+#: kstarsinit.cpp:257
 msgctxt "Show time-related info box"
 msgid "Show &Time Box"
 msgstr "&সময় প্রদানকারী বাক্স দেখাও"
 
-#: kstarsinit.cpp:268
+#: kstarsinit.cpp:261
 msgctxt "Show focus-related info box"
 msgid "Show &Focus Box"
 msgstr "ফোকাস বাক্স দেখা&ও"
 
-#: kstarsinit.cpp:273
+#: kstarsinit.cpp:265
 msgctxt "Show location-related info box"
 msgid "Show &Location Box"
 msgstr "&অবস্থানসূচক বাক্স প্রদর্শন করো"
 
-#: kstarsinit.cpp:278
+#: kstarsinit.cpp:270
 msgid "Show Main Toolbar"
 msgstr "মূল টুলবার দেখাও"
 
-#: kstarsinit.cpp:280
+#: kstarsinit.cpp:272
 msgid "Show View Toolbar"
 msgstr "ভিউ টুলবার দেখাও"
 
-#: kstarsinit.cpp:284
+#: kstarsinit.cpp:276
 msgid "Show Statusbar"
 msgstr "স্ট্যাটাসবার দেখাও"
 
-#: kstarsinit.cpp:286
+#: kstarsinit.cpp:278
 msgid "Show Az/Alt Field"
 msgstr "দিগংশ/উন্নতি প্রদর্শক ঘর দেখাও"
 
-#: kstarsinit.cpp:288
+#: kstarsinit.cpp:280
 msgid "Show RA/Dec Field"
 msgstr "বিষুবাংশ/বিষুবলম্ব প্রদর্শক ঘর দেখাও"
 
-#: kstarsinit.cpp:293
+#: kstarsinit.cpp:285
 msgid "C&olor Schemes"
 msgstr "রং বিন্যা&স"
 
-#: kstarsinit.cpp:294
+#: kstarsinit.cpp:286
 msgid "&Classic"
 msgstr ""
 
-#: kstarsinit.cpp:295
+#: kstarsinit.cpp:287
 msgid "&Star Chart"
 msgstr "তারা মা&নচিত্র"
 
-#: kstarsinit.cpp:296
+#: kstarsinit.cpp:288
 msgid "&Night Vision"
 msgstr "নৈ&শ দৃষ্টি"
 
-#: kstarsinit.cpp:297
+#: kstarsinit.cpp:289
 msgid "&Moonless Night"
 msgstr "চাঁ&দহীন রাত"
 
-#: kstarsinit.cpp:314
+#: kstarsinit.cpp:306
 msgid "&FOV Symbols"
 msgstr "FOV প্রতী&ক"
 
-#: kstarsinit.cpp:318
+#: kstarsinit.cpp:310
 msgctxt "Location on Earth"
 msgid "&Geographic..."
 msgstr "ভৌ&গলিক..."
 
-#: kstarsinit.cpp:323
+#: kstarsinit.cpp:315
 msgid "Startup Wizard..."
 msgstr "আরম্ভকালীন উইজার্ড..."
 
-#: kstarsinit.cpp:328
+#: kstarsinit.cpp:320
 msgid "Calculator..."
 msgstr "ক্যালকুলেটর..."
 
-#: kstarsinit.cpp:332
+#: kstarsinit.cpp:324
 msgid "Observing List..."
 msgstr "পর্যবেক্ষণ তালিকা..."
 
-#: kstarsinit.cpp:337
+#: kstarsinit.cpp:329
 msgid "AAVSO Light Curves..."
 msgstr "AAVSO আলোক বক্ররেখা..."
 
-#: kstarsinit.cpp:341
+#: kstarsinit.cpp:333
 msgid "Altitude vs. Time..."
 msgstr "উন্নতি বনাম সময়..."
 
-#: kstarsinit.cpp:344
+#: kstarsinit.cpp:336
 msgid "What's up Tonight..."
 msgstr "আজ রাতে কি দেখা যাবে..."
 
-#: kstarsinit.cpp:347
+#: kstarsinit.cpp:339
 msgid "Sky Calendar..."
 msgstr ""
 
-#: kstarsinit.cpp:356
+#: kstarsinit.cpp:348
 msgid "Script Builder..."
 msgstr "স্ক্রিপ্ট প্রস্তুতকারক..."
 
-#: kstarsinit.cpp:359
+#: kstarsinit.cpp:351
 msgid "Solar System..."
 msgstr "সৌরজগত্‍..."
 
-#: kstarsinit.cpp:362
+#: kstarsinit.cpp:354
 msgid "Jupiter's Moons..."
 msgstr "বৃহস্পতির উপগ্রহ..."
 
-#: kstarsinit.cpp:365
+#: kstarsinit.cpp:357
 msgid "Flags..."
 msgstr ""
 
-#: kstarsinit.cpp:368
+#: kstarsinit.cpp:360
 msgid "Define Equipment..."
 msgstr ""
 
-#: kstarsinit.cpp:371
+#: kstarsinit.cpp:363
 msgid "Add Observer..."
 msgstr ""
 
-#: kstarsinit.cpp:376
+#: kstarsinit.cpp:368
 #, fuzzy
 #| msgctxt "Country name (optional, but should be translated)"
 #| msgid "Ascension Island"
 msgid "Execute the session Plan..."
 msgstr "এসেশোন দ্বীপ"
 
-#: kstarsinit.cpp:384
+#: kstarsinit.cpp:376
 msgid "Telescope Wizard..."
 msgstr "দূরবীক্ষণ যন্ত্র বিষয়ক উইজার্ড..."
 
-#: kstarsinit.cpp:387
+#: kstarsinit.cpp:379
 msgid "Telescope Properties..."
 msgstr "দূরবীক্ষণ যন্ত্রের বৈশিষ্ট্য..."
 
-#: kstarsinit.cpp:389
+#: kstarsinit.cpp:381
 msgid "Device Manager..."
 msgstr "ডিভাইস ব্যবস্থাপক..."
 
-#: kstarsinit.cpp:393
+#: kstarsinit.cpp:385
 msgid "Capture Image Sequence..."
 msgstr "ধারাবাহিক ছবি ধারণ করো..."
 
-#: kstarsinit.cpp:397
+#: kstarsinit.cpp:389
 msgid "INDI Control Panel..."
 msgstr "INDI নিয়ন্ত্রণ প্যানেল..."
 
-#: kstarsinit.cpp:411
+#: kstarsinit.cpp:403
 msgctxt "Tooltip describing the nature of the time step control"
 msgid ""
 "Use this to set the rate at which time in the simulation flows.\n"
@@ -35536,48 +35475,48 @@ msgid ""
 "of 'X'."
 msgstr ""
 
-#: kstarsinit.cpp:415
+#: kstarsinit.cpp:407
 msgid "Time step control"
 msgstr ""
 
-#: kstarsinit.cpp:420
+#: kstarsinit.cpp:412
 #, fuzzy
 #| msgid "Stars"
 msgctxt "Toggle Stars in the display"
 msgid "Stars"
 msgstr "তারা"
 
-#: kstarsinit.cpp:422
+#: kstarsinit.cpp:414
 #, fuzzy
 #| msgid "Toggle Stars"
 msgid "Toggle stars"
 msgstr "তারা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:424
+#: kstarsinit.cpp:416
 #, fuzzy
 msgctxt "Toggle Deep Sky Objects in the display"
 msgid "Deep Sky"
 msgstr "দূর-&আকাশ"
 
-#: kstarsinit.cpp:426
+#: kstarsinit.cpp:418
 #, fuzzy
 #| msgid "Toggle Deep Sky Objects"
 msgid "Toggle deep sky objects"
 msgstr "দূর আকাশের বস্তু দেখানোর মোড পাল্টাও"
 
-#: kstarsinit.cpp:428
+#: kstarsinit.cpp:420
 #, fuzzy
 #| msgid "Solar System"
 msgctxt "Toggle Solar System objects in the display"
 msgid "Solar System"
 msgstr "সৌরজগত্‍"
 
-#: kstarsinit.cpp:430
+#: kstarsinit.cpp:422
 #, fuzzy
 msgid "Toggle Solar system objects"
 msgstr "সরে যাওয়ার সময় কি সৌরজগতের সদস্যদের আড়াল করা হবে?"
 
-#: kstarsinit.cpp:432
+#: kstarsinit.cpp:424
 #, fuzzy
 #| msgctxt "Constellation Line"
 #| msgid "Constell. Line"
@@ -35585,13 +35524,13 @@ msgctxt "Toggle Constellation Lines in the display"
 msgid "Const. Lines"
 msgstr "তারামণ্ডলের রেখা"
 
-#: kstarsinit.cpp:434
+#: kstarsinit.cpp:426
 #, fuzzy
 #| msgid "Toggle Constellation Lines"
 msgid "Toggle constellation lines"
 msgstr "তারামণ্ডলের রেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:436
+#: kstarsinit.cpp:428
 #, fuzzy
 #| msgctxt "Constellation Name"
 #| msgid "Constell. Name"
@@ -35599,13 +35538,13 @@ msgctxt "Toggle Constellation Names in the display"
 msgid "Const. Names"
 msgstr "তারামণ্ডলের নাম"
 
-#: kstarsinit.cpp:438
+#: kstarsinit.cpp:430
 #, fuzzy
 #| msgid "Toggle Constellation Names"
 msgid "Toggle constellation names"
 msgstr "তারামণ্ডলের নাম প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:440
+#: kstarsinit.cpp:432
 #, fuzzy
 #| msgctxt "Constellation Boundary"
 #| msgid "Constell. Boundary"
@@ -35613,51 +35552,51 @@ msgctxt "Toggle Constellation Boundaries in the display"
 msgid "C. Boundaries"
 msgstr "তারামণ্ডলের সীমারেখা"
 
-#: kstarsinit.cpp:442
+#: kstarsinit.cpp:434
 #, fuzzy
 #| msgid "Toggle Constellation Boundaries"
 msgid "Toggle constellation boundaries"
 msgstr "তারামণ্ডলের সীমারেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:444
+#: kstarsinit.cpp:436
 #, fuzzy
 #| msgid "Milky Way"
 msgctxt "Toggle Milky Way in the display"
 msgid "Milky Way"
 msgstr "আকাশ গঙ্গা"
 
-#: kstarsinit.cpp:446
+#: kstarsinit.cpp:438
 #, fuzzy
 #| msgid "Toggle Milky Way"
 msgid "Toggle milky way"
 msgstr "আকাশ গঙ্গা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:448
+#: kstarsinit.cpp:440
 #, fuzzy
 #| msgid "Coordinate grid"
 msgctxt "Toggle Coordinate Grid in the display"
 msgid "Coord. grid"
 msgstr "স্থানাংক রেখা"
 
-#: kstarsinit.cpp:450
+#: kstarsinit.cpp:442
 #, fuzzy
 #| msgid "Toggle Coordinate Grid"
 msgid "Toggle coordinate grid"
 msgstr "স্থানাংক রেখা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:452
+#: kstarsinit.cpp:444
 #, fuzzy
 msgctxt "Toggle the opaque fill of the ground polygon in the display"
 msgid "Ground"
 msgstr "আর্মার"
 
-#: kstarsinit.cpp:454
+#: kstarsinit.cpp:446
 #, fuzzy
 #| msgid "Toggle Ground"
 msgid "Toggle opaque ground"
 msgstr "ভূমি প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:456
+#: kstarsinit.cpp:448
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Flagstaff"
@@ -35665,25 +35604,29 @@ msgctxt "Toggle flags in the display"
 msgid "Flags"
 msgstr "ফ্ল্যাগস্টাফ"
 
-#: kstarsinit.cpp:458
+#: kstarsinit.cpp:450
 #, fuzzy
 #| msgid "Toggle Stars"
 msgid "Toggle flags"
 msgstr "তারা প্রদর্শনের মোড পাল্টাও"
 
-#: kstarsinit.cpp:485
+#: kstarsinit.cpp:477
 msgid "Edit FOV Symbols..."
 msgstr "FOV প্রতীক সম্পাদন..."
 
-#: kstarsinit.cpp:491
+#: kstarsinit.cpp:483
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:620
+#: kstarsinit.cpp:566 skymap.cpp:261 widgets/infoboxwidget.cpp:122
+msgid "nothing"
+msgstr "কিছু না"
+
+#: kstarsinit.cpp:612
 msgid "Initial Position is Below Horizon"
 msgstr " প্রাথমিক অবস্থান দিগন্তের নিচে অবস্থিত"
 
-#: kstarsinit.cpp:621
+#: kstarsinit.cpp:613
 msgid ""
 "The initial position is below the horizon.\n"
 "Would you like to reset to the default position?"
@@ -35691,11 +35634,11 @@ msgstr ""
 "প্রাথমিক অবস্থান দিগন্তের নিচে অবস্থিত।\n"
 "আপনি কি ডিফল্ট অবস্থানে ফিরে যেতে চান?"
 
-#: kstarsinit.cpp:623
+#: kstarsinit.cpp:615
 msgid "Reset Position"
 msgstr "অবস্থান রিসেট করো"
 
-#: kstarsinit.cpp:623
+#: kstarsinit.cpp:615
 msgid "Do Not Reset"
 msgstr "রিসেট করবে না"
 
@@ -41141,7 +41084,7 @@ msgstr "পঞ্জিকা"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: file: tools/modcalcplanets.ui:502
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
-#: rc.cpp:2417 rc.cpp:2868 rc.cpp:2952 tools/conjunctions.cpp:83
+#: rc.cpp:2417 rc.cpp:2868 rc.cpp:2952 tools/conjunctions.cpp:82
 #: tools/modcalcplanets.cpp:271 dialogs/finddialog.cpp:168
 #: skyobjects/kssun.cpp:29
 msgid "Sun"
@@ -41631,8 +41574,8 @@ msgstr "সৌরবস্তু:"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMercury)
-#: rc.cpp:2838 rc.cpp:2922 rc.cpp:5414 skymapdraw.cpp:327
-#: tools/conjunctions.cpp:75 tools/ksconjunct.cpp:59
+#: rc.cpp:2838 rc.cpp:2922 rc.cpp:5414 skymapdraw.cpp:325
+#: tools/conjunctions.cpp:74 tools/ksconjunct.cpp:59
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:429
 #: tools/obslistwizard.cpp:443 skycomponents/skymapcomposite.cpp:450
 #: skycomponents/solarsystemsinglecomponent.cpp:138
@@ -41648,8 +41591,8 @@ msgstr "বুধগ্রহ (মার্কারি)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowVenus)
-#: rc.cpp:2841 rc.cpp:2925 rc.cpp:5378 skymapdraw.cpp:328
-#: tools/conjunctions.cpp:76 tools/ksconjunct.cpp:59
+#: rc.cpp:2841 rc.cpp:2925 rc.cpp:5378 skymapdraw.cpp:326
+#: tools/conjunctions.cpp:75 tools/ksconjunct.cpp:59
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:430
 #: tools/obslistwizard.cpp:444 skycomponents/skymapcomposite.cpp:451
 #: skyobjects/ksplanetbase.cpp:162 skyobjects/ksplanet.cpp:128
@@ -41675,8 +41618,8 @@ msgstr "পৃথিবী"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:64
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMars)
-#: rc.cpp:2847 rc.cpp:2931 rc.cpp:5333 skymapdraw.cpp:330
-#: tools/conjunctions.cpp:77 tools/ksconjunct.cpp:56
+#: rc.cpp:2847 rc.cpp:2931 rc.cpp:5333 skymapdraw.cpp:328
+#: tools/conjunctions.cpp:76 tools/ksconjunct.cpp:56
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:431
 #: tools/obslistwizard.cpp:445 skycomponents/skymapcomposite.cpp:453
 #: skycomponents/solarsystemsinglecomponent.cpp:135
@@ -41692,8 +41635,8 @@ msgstr "মঙ্গলগ্রহ (মার্স)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowJupiter)
-#: rc.cpp:2850 rc.cpp:2934 rc.cpp:5396 skymapdraw.cpp:331
-#: tools/conjunctions.cpp:78 tools/jmoontool.cpp:117
+#: rc.cpp:2850 rc.cpp:2934 rc.cpp:5396 skymapdraw.cpp:329
+#: tools/conjunctions.cpp:77 tools/jmoontool.cpp:117
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:432
 #: tools/obslistwizard.cpp:446 skycomponents/skymapcomposite.cpp:454
 #: skycomponents/solarsystemsinglecomponent.cpp:138
@@ -41709,8 +41652,8 @@ msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSaturn)
-#: rc.cpp:2853 rc.cpp:2937 rc.cpp:5315 skymapdraw.cpp:332
-#: tools/conjunctions.cpp:79 tools/modcalcplanets.cpp:269
+#: rc.cpp:2853 rc.cpp:2937 rc.cpp:5315 skymapdraw.cpp:330
+#: tools/conjunctions.cpp:78 tools/modcalcplanets.cpp:269
 #: tools/obslistwizard.cpp:433 tools/obslistwizard.cpp:447
 #: skycomponents/skymapcomposite.cpp:455
 #: skycomponents/solarsystemsinglecomponent.cpp:138
@@ -41726,8 +41669,8 @@ msgstr "শনিগ্রহ (স্যাটার্ন)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:223
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUranus)
-#: rc.cpp:2856 rc.cpp:2940 rc.cpp:5432 skymapdraw.cpp:333
-#: tools/conjunctions.cpp:80 tools/modcalcplanets.cpp:270
+#: rc.cpp:2856 rc.cpp:2940 rc.cpp:5432 skymapdraw.cpp:331
+#: tools/conjunctions.cpp:79 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:434 tools/obslistwizard.cpp:448
 #: skycomponents/skymapcomposite.cpp:456 skyobjects/ksplanetbase.cpp:163
 #: skyobjects/ksplanet.cpp:140 skyobjects/ksplanet.cpp:168
@@ -41741,8 +41684,8 @@ msgstr "ইউরেনাস"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:194
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNeptune)
-#: rc.cpp:2859 rc.cpp:2943 rc.cpp:5423 skymapdraw.cpp:334
-#: tools/conjunctions.cpp:81 tools/modcalcplanets.cpp:270
+#: rc.cpp:2859 rc.cpp:2943 rc.cpp:5423 skymapdraw.cpp:332
+#: tools/conjunctions.cpp:80 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:435 tools/obslistwizard.cpp:449
 #: skycomponents/skymapcomposite.cpp:457 skyobjects/ksplanetbase.cpp:164
 #: skyobjects/ksplanet.cpp:143 skyobjects/ksplanet.cpp:170
@@ -41756,8 +41699,8 @@ msgstr "নেপচুন"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:90
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPluto)
-#: rc.cpp:2862 rc.cpp:2946 rc.cpp:5351 skymapdraw.cpp:335
-#: tools/conjunctions.cpp:82 tools/modcalcplanets.cpp:270
+#: rc.cpp:2862 rc.cpp:2946 rc.cpp:5351 skymapdraw.cpp:333
+#: tools/conjunctions.cpp:81 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:436 tools/obslistwizard.cpp:450
 #: tools/wutdialog.cpp:263 skycomponents/skymapcomposite.cpp:458
 #: dialogs/detaildialog.cpp:184 skyobjects/kspluto.cpp:36
@@ -43202,7 +43145,7 @@ msgstr ""
 
 #. i18n: file: tools/wutdialog.ui:480
 #. i18n: ectx: property (text), widget (KPushButton, DetailButton)
-#: rc.cpp:3728 skymap.cpp:569 dialogs/detaildialog.cpp:76
+#: rc.cpp:3728 skymap.cpp:577 dialogs/detaildialog.cpp:76
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
@@ -46732,53 +46675,53 @@ msgstr "SimClock-এর সময় নির্ধারণ করা যাচ�
 msgid "New clock scale: %1 sec"
 msgstr "ঘড়ির নতুন মাত্রা (scale): %1 সেকেন্ড"
 
-#: skymap.cpp:274
+#: skymap.cpp:282
 msgid "Requested Position Below Horizon"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিত"
 
-#: skymap.cpp:275
+#: skymap.cpp:283
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিতআপনি কি তবুও সেখানে যেতে চান?"
 
-#: skymap.cpp:277
+#: skymap.cpp:285
 msgid "Go Anyway"
 msgstr "তবুও যাও"
 
 # FIXME
-#: skymap.cpp:277
+#: skymap.cpp:285
 msgid "Keep Position"
 msgstr "অবস্থান ঠিক রাখো"
 
-#: skymap.cpp:374
+#: skymap.cpp:382
 #, fuzzy
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
 "[public domain]."
 msgstr "স্পেস টেলিস্কোপ সাইন্স ইনস্টিটিউট কর্তৃক প্রস্তুতকৃত ডিজিটাল আকাশ জরিপ চিত্র।"
 
-#: skymap.cpp:413
+#: skymap.cpp:421
 msgid ""
 "Sloan Digital Sky Survey image provided by the Astrophysical Research "
 "Consortium [free for non-commercial use]."
 msgstr ""
 
-#: skymap.cpp:458
+#: skymap.cpp:466
 #, fuzzy, kde-format
 msgid "Angular distance: %1"
 msgstr "কৌণিক দূরত্ব: "
 
-#: skymap.cpp:569
+#: skymap.cpp:577
 msgid "No object selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
 
-#: skymap.cpp:881 skymap.cpp:1040 skymap.cpp:1414
-#: skycomponents/horizoncomponent.cpp:294
+#: skymap.cpp:883 skymap.cpp:1042 skymap.cpp:1368
+#: skycomponents/horizoncomponent.cpp:295
 msgid "Unrecognized coordinate projection: "
 msgstr ""
 
-#: skymap.cpp:1692
+#: skymap.cpp:1646
 msgid ""
 "Custom image-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -46786,7 +46729,7 @@ msgstr ""
 "স্বনির্বাচিত ছবির-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1710
+#: skymap.cpp:1664
 msgid ""
 "Custom information-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -46794,15 +46737,15 @@ msgstr ""
 "স্বনির্বাচিত তথ্য-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1710
+#: skymap.cpp:1664
 msgid "Could not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
-#: skymap.cpp:1745
+#: skymap.cpp:1699
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
 
-#: skymap.cpp:1850
+#: skymap.cpp:1804
 #, fuzzy, kde-format
 #| msgid "Sunset: %1"
 msgid "Run : %1"
@@ -47836,28 +47779,28 @@ msgstr "গ্রহ স্থানাঙ্ক"
 msgid "Conjunctions"
 msgstr "সংযোগ"
 
-#: tools/conjunctions.cpp:165
+#: tools/conjunctions.cpp:163
 msgid ""
 "Maximum separation entered is not a valid angle. Use the What's this help "
 "feature for information on how to enter a valid angle"
 msgstr ""
 
-#: tools/conjunctions.cpp:169
+#: tools/conjunctions.cpp:167
 msgid ""
 "Please select an object to check conjunctions with, by clicking on the 'Find "
 "Object' button."
 msgstr ""
 
-#: tools/conjunctions.cpp:174
+#: tools/conjunctions.cpp:172
 msgid "Please select two different objects to check conjunctions with."
 msgstr ""
 
-#: tools/conjunctions.cpp:210
+#: tools/conjunctions.cpp:208
 #, kde-format
 msgid "Conjunction on %1 UT: Separation is %2"
 msgstr ""
 
-#: tools/conjunctions.cpp:214
+#: tools/conjunctions.cpp:212
 #, kde-format
 msgid "Opposition on %1 UT: Separation is %2"
 msgstr ""
@@ -47865,6 +47808,18 @@ msgstr ""
 #: tools/flagmanager.cpp:49
 msgid "Flag manager"
 msgstr ""
+
+#: tools/flagmanager.cpp:56 tools/observinglist.cpp:108
+#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:129
+msgctxt "Right Ascension"
+msgid "RA"
+msgstr "বিষুবাংশ"
+
+#: tools/flagmanager.cpp:57 tools/observinglist.cpp:108
+#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:130
+msgctxt "Declination"
+msgid "Dec"
+msgstr "বিষুবলম্ব"
 
 #: tools/flagmanager.cpp:57
 #, fuzzy
@@ -48159,6 +48114,16 @@ msgstr "পর্যবেক্ষণ তালিকা"
 msgctxt "Magnitude"
 msgid "Mag"
 msgstr "উজ্জ্বলতা"
+
+#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:133
+msgctxt "Altitude"
+msgid "Alt"
+msgstr "উন্নতি"
+
+#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:132
+msgctxt "Azimuth"
+msgid "Az"
+msgstr "দিগংশ"
 
 #: tools/observinglist.cpp:225
 msgid "Unnamed stars are not supported in the observing lists"
@@ -49136,7 +49101,7 @@ msgstr "অতিক্রম কাল: %1"
 msgid "Sets at: %1"
 msgstr "অস্ত: %1"
 
-#: skycomponents/asteroidscomponent.cpp:63
+#: skycomponents/asteroidscomponent.cpp:62
 #, fuzzy
 #| msgid "Draw asteroids?"
 msgid "Loading asteroids"
@@ -49361,12 +49326,12 @@ msgstr "লাইন %1, ঘর %2: গৌণ অক্ষ পার্স ক�
 msgid "Line %1, field %2: Unable to parse Position Angle: %3"
 msgstr "লাইন %1, ঘর %2: অবস্থানসূচক কোণ পার্স করা যাচ্ছে না: %3"
 
-#: skycomponents/deepskycomponent.cpp:74
+#: skycomponents/deepskycomponent.cpp:75
 #, fuzzy
 msgid "Loading NGC/IC objects"
 msgstr "মিলযুক্ত খ-বস্তু:"
 
-#: skycomponents/deepskycomponent.cpp:177
+#: skycomponents/deepskycomponent.cpp:178
 msgid "Unnamed Object"
 msgstr "নামহীন বস্তু"
 
@@ -49376,48 +49341,48 @@ msgstr "নামহীন বস্তু"
 msgid "Default"
 msgstr "ডিফল্ট"
 
-#: skycomponents/horizoncomponent.cpp:43
+#: skycomponents/horizoncomponent.cpp:44
 #, fuzzy
 #| msgid "Creating Moon"
 msgid "Creating horizon"
 msgstr "চাঁদ তৈরি করা হচ্ছে"
 
-#: skycomponents/horizoncomponent.cpp:426
+#: skycomponents/horizoncomponent.cpp:427
 msgctxt "Northeast"
 msgid "NE"
 msgstr "উত্তর-পূর্ব"
 
-#: skycomponents/horizoncomponent.cpp:427
+#: skycomponents/horizoncomponent.cpp:428
 msgctxt "East"
 msgid "E"
 msgstr "পূর্ব"
 
-#: skycomponents/horizoncomponent.cpp:428
+#: skycomponents/horizoncomponent.cpp:429
 msgctxt "Southeast"
 msgid "SE"
 msgstr "দক্ষিণ-পূর্ব"
 
-#: skycomponents/horizoncomponent.cpp:429
+#: skycomponents/horizoncomponent.cpp:430
 msgctxt "South"
 msgid "S"
 msgstr "দক্ষিণ"
 
-#: skycomponents/horizoncomponent.cpp:430
+#: skycomponents/horizoncomponent.cpp:431
 msgctxt "Southwest"
 msgid "SW"
 msgstr "দক্ষিণ-পশ্চিম"
 
-#: skycomponents/horizoncomponent.cpp:431
+#: skycomponents/horizoncomponent.cpp:432
 msgctxt "West"
 msgid "W"
 msgstr "পশ্চিম"
 
-#: skycomponents/horizoncomponent.cpp:432
+#: skycomponents/horizoncomponent.cpp:433
 msgctxt "Northwest"
 msgid "NW"
 msgstr "উত্তর-পশ্চিম"
 
-#: skycomponents/horizoncomponent.cpp:433
+#: skycomponents/horizoncomponent.cpp:434
 msgctxt "North"
 msgid "N"
 msgstr "উত্তর"
@@ -49435,21 +49400,21 @@ msgstr "FITS ফাইল লোড করা হচ্ছে..."
 msgid "Magellanic Clouds"
 msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
 
-#: skycomponents/magellanicclouds.cpp:59
+#: skycomponents/magellanicclouds.cpp:57
 #, fuzzy
 #| msgctxt "object name (optional)"
 #| msgid "Small Magellanic Cloud"
 msgid "Loading Large Magellanic Clouds"
 msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
 
-#: skycomponents/magellanicclouds.cpp:108
+#: skycomponents/magellanicclouds.cpp:106
 #, fuzzy
 #| msgctxt "object name (optional)"
 #| msgid "Small Magellanic Cloud"
 msgid "Loading Small Magellanic Clouds"
 msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
 
-#: skycomponents/milkyway.cpp:59
+#: skycomponents/milkyway.cpp:57
 msgid "Loading Milky Way"
 msgstr "আকাশ গঙ্গা লোড করা হচ্ছে"
 
@@ -49476,7 +49441,7 @@ msgstr "সৌরজগত্‍"
 msgid "Loading stars"
 msgstr "মিলযুক্ত খ-বস্তু:"
 
-#: skycomponents/starcomponent.cpp:162
+#: skycomponents/starcomponent.cpp:161
 msgid "Please wait while re-indexing stars ..."
 msgstr ""
 
@@ -49577,6 +49542,36 @@ msgstr "অগ্রাহ্য"
 msgctxt "angular size in arcminutes"
 msgid "%1 x %2 arcmin"
 msgstr "%1 আর্কমিনিট"
+
+#: widgets/infoboxwidget.cpp:76
+msgctxt "Local Time"
+msgid "LT: "
+msgstr "স্থানীয় সময়:"
+
+#: widgets/infoboxwidget.cpp:80
+msgctxt "Universal Time"
+msgid "UT: "
+msgstr "বিশ্বজনীন সময়:"
+
+#: widgets/infoboxwidget.cpp:91
+msgctxt "Sidereal Time"
+msgid "ST: "
+msgstr "নাক্ষত্র কাল:"
+
+#: widgets/infoboxwidget.cpp:92
+msgctxt "Julian Day"
+msgid "JD: "
+msgstr "জুলিয়ান দিবস: "
+
+#: widgets/infoboxwidget.cpp:109
+msgctxt "Longitude"
+msgid "Long:"
+msgstr "দ্রাঘিমাংশ:"
+
+#: widgets/infoboxwidget.cpp:111
+msgctxt "Latitude"
+msgid "Lat:"
+msgstr "অক্ষাংশ:"
 
 #: widgets/timespinbox.cpp:124 widgets/timespinbox.cpp:125
 #: widgets/timespinbox.cpp:126 widgets/timespinbox.cpp:127
@@ -49946,7 +49941,7 @@ msgstr "লিঙ্ক সম্পাদন করো"
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "আপনি কি %1 লিঙ্কটি অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: dialogs/detaildialog.cpp:635 indi/indidriver.cpp:893
+#: dialogs/detaildialog.cpp:635 indi/indidriver.cpp:889
 #: indi/telescopeprop.cpp:243
 msgid "Delete Confirmation"
 msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
@@ -50406,7 +50401,7 @@ msgstr ""
 msgid "Cannot start INDI server: port error."
 msgstr "INDI সার্ভার চালু করা যাচ্ছে না : পোর্ট ত্রুটি।"
 
-#: indi/indidriver.cpp:430
+#: indi/indidriver.cpp:429
 msgid ""
 "unable to write to file 'drivers.xml'\n"
 "Any changes to INDI device drivers will not be saved."
@@ -50414,46 +50409,46 @@ msgstr ""
 "drivers.xml' ফাইলে লেখা যাচ্ছে না\n"
 "INDI ডিভাইস ড্রাইভারে কোন পরিবর্তন করলে তা সংরক্ষিত হবে না।"
 
-#: indi/indidriver.cpp:576
+#: indi/indidriver.cpp:571
 #, kde-format
 msgid ""
 "Unable to find INDI Drivers directory: %1\n"
 "Please make sure to set the correct path in KStars configuration"
 msgstr ""
 
-#: indi/indidriver.cpp:613
+#: indi/indidriver.cpp:608
 #, fuzzy, kde-format
 #| msgid "Could not open file: %1"
 msgid "Failed to open INDI Driver file: %1"
 msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
-#: indi/indidriver.cpp:791
+#: indi/indidriver.cpp:787
 msgid "Add Host"
 msgstr "হোস্ট যোগ করো"
 
-#: indi/indidriver.cpp:807
+#: indi/indidriver.cpp:803
 msgid "Error: the port number is invalid."
 msgstr "সমস্যা: অবৈধ পোর্ট নম্বর।"
 
-#: indi/indidriver.cpp:817
+#: indi/indidriver.cpp:813
 #, kde-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "হোস্ট: %1 পোর্ট: %2 ইতিমধ্যেই বিদ্যমান।"
 
-#: indi/indidriver.cpp:842
+#: indi/indidriver.cpp:838
 msgid "Modify Host"
 msgstr "হোস্ট পরিবর্তন করো"
 
-#: indi/indidriver.cpp:889
+#: indi/indidriver.cpp:885
 msgid "You need to disconnect the client before removing it."
 msgstr "ক্লায়েন্টকে অপসারণের পূর্বে তার সংযোগ বিচ্ছিন্ন করতে হবে।"
 
-#: indi/indidriver.cpp:893
+#: indi/indidriver.cpp:889
 #, kde-format
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "আপনি কি %1 ক্লায়েন্টকে অপসারণের ব্যাপারে নিশ্চিত?"
 
-#: indi/indidriver.cpp:916
+#: indi/indidriver.cpp:912
 msgid ""
 "unable to write to file 'indihosts.xml'\n"
 "Any changes to INDI hosts configurations will not be saved."
@@ -51126,6 +51121,9 @@ msgstr "খ. চতুর্ভূজাকৃতি"
 msgctxt "Map projection method"
 msgid "TSC"
 msgstr ""
+
+#~ msgid "Focused on: "
+#~ msgstr "ফোকাসকৃত বস্তু: "
 
 #~ msgctxt "City name (optional, probably does not need a translation)"
 #~ msgid "Circle"
