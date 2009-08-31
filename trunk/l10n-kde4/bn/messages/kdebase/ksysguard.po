@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-29 07:19+0200\n"
+"POT-Creation-Date: 2009-08-31 06:07+0200\n"
 "PO-Revision-Date: 2009-01-01 17:40-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -15,17 +15,17 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: WorkSheet.cc:97
+#: WorkSheet.cc:88
 #, kde-format
 msgid "Cannot open the file %1."
 msgstr "%1 ফাইলটি খোলা যাচ্ছে না"
 
-#: WorkSheet.cc:105
+#: WorkSheet.cc:96
 #, kde-format
 msgid "The file %1 does not contain valid XML."
 msgstr "%1 ফাইলটি বৈধ এক্স-এম-এল নয়"
 
-#: WorkSheet.cc:112
+#: WorkSheet.cc:103
 #, kde-format
 msgid ""
 "The file %1 does not contain a valid worksheet definition, which must have a "
@@ -34,49 +34,53 @@ msgstr ""
 "%1 ফাইলটিতে কোন বৈধ ওয়ার্কশিট ডেফিনিশন নেই, যার ডকুমেন্ট টাইপ "
 "'KSysGuardWorkSheet' হওয়া প্রয়োজন।"
 
-#: WorkSheet.cc:136
+#: WorkSheet.cc:127
 #, kde-format
 msgid "The file %1 has an invalid worksheet size."
 msgstr "%1 ফাইলে ওয়ার্কশিট-এর আয়তন অবৈধ "
 
-#: WorkSheet.cc:238
+#: WorkSheet.cc:228
 #, kde-format
 msgid "Cannot save file %1"
 msgstr "%1 ফাইলটি সংরক্ষণ করা যাচ্ছে না"
 
-#: WorkSheet.cc:284
+#: WorkSheet.cc:274
 msgid "The clipboard does not contain a valid display description."
 msgstr "ক্লীপবোর্ড-এ বৈধ ডিসপ্লে বর্ণনা নেই"
 
-#: WorkSheet.cc:382
+#: WorkSheet.cc:372
 msgid "Select Display Type"
 msgstr "ডিসপ্লে টাইপ নির্বাচন করুন"
 
-#: WorkSheet.cc:383
+#: WorkSheet.cc:373
 msgid "&Line graph"
 msgstr "লাই&ন গ্রাফ"
 
-#: WorkSheet.cc:384
+#: WorkSheet.cc:374
 msgid "&Digital display"
 msgstr "ডিজিট্যাল ডি&সপ্লে"
 
-#: WorkSheet.cc:385
+#: WorkSheet.cc:375
 msgid "&Bar graph"
 msgstr "বার গ্রা&ফ"
 
-#: WorkSheet.cc:386
+#: WorkSheet.cc:376
 msgid "Log to a &file"
 msgstr "ফাইল-এ &লগ লেখো"
 
-#: WorkSheet.cc:546
-msgid "Do you really want to delete the display?"
-msgstr "আপনি কি সত্যিই ডিসপ্লে মুছে ফেলতে চান?"
+#: WorkSheet.cc:530
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove this display?"
+msgstr "ডি&সপ্লে সরিয়ে ফেলো"
 
-#: WorkSheet.cc:547
-msgid "Delete Display"
-msgstr "ডিসপ্লে মুছে ফেলো"
+#: WorkSheet.cc:531
+#, fuzzy
+#| msgid "&Remove Display"
+msgid "Remove Display"
+msgstr "ডি&সপ্লে সরিয়ে ফেলো"
 
-#: WorkSheet.cc:588
+#: WorkSheet.cc:572
 msgid "Dummy"
 msgstr "ডামি"
 
@@ -1106,12 +1110,12 @@ msgstr "নীচে নামাও"
 msgid "Sensor Logger"
 msgstr "সেনসর লগার"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:213
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:215
 msgid "OK"
 msgstr "বেশ"
 
-#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:213
-#: SensorDisplayLib/FancyPlotter.cc:439 SensorDisplayLib/FancyPlotter.cc:507
+#: SensorDisplayLib/DancingBars.cc:96 SensorDisplayLib/FancyPlotter.cc:215
+#: SensorDisplayLib/FancyPlotter.cc:441 SensorDisplayLib/FancyPlotter.cc:509
 msgid "Error"
 msgstr "সমস্যা"
 
@@ -1136,79 +1140,79 @@ msgstr ""
 "এন্ট্রি। নির্বাচন করো<i>সরিয়ে দাও</i>worksheet থেকে প্রদর্শন করা মুছে ফেলতে।</p>%"
 "1</qt>"
 
-#: SensorDisplayLib/FancyPlotter.cc:107
+#: SensorDisplayLib/FancyPlotter.cc:109
 msgctxt "Largest axis title"
 msgid "99999 XXXX"
 msgstr "99999 XXXX"
 
-#: SensorDisplayLib/FancyPlotter.cc:435 SensorDisplayLib/FancyPlotter.cc:498
-#: SensorDisplayLib/FancyPlotter.cc:559
+#: SensorDisplayLib/FancyPlotter.cc:437 SensorDisplayLib/FancyPlotter.cc:500
+#: SensorDisplayLib/FancyPlotter.cc:561
 #, kde-format
 msgctxt "units"
 msgid "%1%"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:442
+#: SensorDisplayLib/FancyPlotter.cc:444
 #, kde-format
 msgctxt "%1 is what is being shown statistics for, like 'Memory', 'Swap', etc."
 msgid "<p><b>%1:</b><br>"
 msgstr "<p><b>%1:</b><br>"
 
-#: SensorDisplayLib/FancyPlotter.cc:505
+#: SensorDisplayLib/FancyPlotter.cc:507
 #, kde-format
 msgctxt "%1 and %2 are sensor's last and maximum value"
 msgid "%1 of %2"
 msgstr "%2-এর %1"
 
-#: SensorDisplayLib/FancyPlotter.cc:532
+#: SensorDisplayLib/FancyPlotter.cc:534
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:535
+#: SensorDisplayLib/FancyPlotter.cc:537
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:538
+#: SensorDisplayLib/FancyPlotter.cc:540
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:541
+#: SensorDisplayLib/FancyPlotter.cc:543
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:546
+#: SensorDisplayLib/FancyPlotter.cc:548
 #, kde-format
 msgctxt "units"
 msgid "%1 TiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:549
+#: SensorDisplayLib/FancyPlotter.cc:551
 #, kde-format
 msgctxt "units"
 msgid "%1 GiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:552
+#: SensorDisplayLib/FancyPlotter.cc:554
 #, kde-format
 msgctxt "units"
 msgid "%1 MiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:555
+#: SensorDisplayLib/FancyPlotter.cc:557
 #, kde-format
 msgctxt "units"
 msgid "%1 KiB/s"
 msgstr ""
 
-#: SensorDisplayLib/FancyPlotter.cc:561
+#: SensorDisplayLib/FancyPlotter.cc:563
 #, fuzzy, kde-format
 #| msgctxt "a percentage"
 #| msgid "%"
@@ -1705,6 +1709,12 @@ msgstr ""
 #, fuzzy
 msgid "Optional worksheet files to load"
 msgstr "লোড করতে ঐচ্ছিক worksheet ফাইল"
+
+#~ msgid "Do you really want to delete the display?"
+#~ msgstr "আপনি কি সত্যিই ডিসপ্লে মুছে ফেলতে চান?"
+
+#~ msgid "Delete Display"
+#~ msgstr "ডিসপ্লে মুছে ফেলো"
 
 #~ msgid "&Edit"
 #~ msgstr "&সম্পাদনা"
