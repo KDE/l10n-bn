@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-08-31 06:06+0200\n"
+"POT-Creation-Date: 2009-09-01 06:21+0200\n"
 "PO-Revision-Date: 2009-01-05 01:16-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -6933,7 +6933,7 @@ msgstr "এই বার্তাটি আর দেখিও না"
 msgid "About %1"
 msgstr "%1-এর সম্বন্ধে"
 
-#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:123
+#: kdeui/dialogs/kconfigdialog.cpp:69 kutils/kcmultidialog.cpp:125
 msgid "Configure"
 msgstr "কনফিগার করো"
 
@@ -8942,6 +8942,16 @@ msgstr "টুলবার"
 #: kdeui/widgets/klanguagebutton.cpp:177
 msgid "without name"
 msgstr "নামহীন"
+
+#: kdeui/widgets/kcmodule.cpp:170
+msgid "You will be asked to authenticate before saving"
+msgstr ""
+
+#: kdeui/widgets/kcmodule.cpp:174
+#, fuzzy
+#| msgid "Do you want to reload KDE configuration?"
+msgid "You are not allowed to save the configuration"
+msgstr "আপনি কি কনফিগারেশন ফাইল নতুন করে পড়তে চান?"
 
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
@@ -11768,8 +11778,12 @@ msgid "Send Confirmation"
 msgstr "অনুমোদন পাঠাও"
 
 #: khtml/html/html_formimpl.cpp:440
-msgid "&Send Files"
-msgstr "ফাইল পাঠা&ও"
+#, fuzzy
+#| msgid "&Send Files"
+msgid "&Send File"
+msgid_plural "&Send Files"
+msgstr[0] "ফাইল পাঠা&ও"
+msgstr[1] "ফাইল পাঠা&ও"
 
 #: khtml/html/html_formimpl.cpp:2619
 msgid "Key Generator"
@@ -12601,29 +12615,7 @@ msgstr "মুদ্রণ প্রাকদর্শন পার্ট লো
 msgid "Print Preview"
 msgstr "মুদ্রণ প্রাক্‌দর্শন"
 
-#: kutils/kcmoduleproxy.cpp:131
-#, fuzzy
-msgid ""
-"<b>Changes in this section require root access.</b><br />On applying your "
-"changes you will have to supply your root password."
-msgstr ""
-"<b>এই বিভাগে পরিবর্তনটি মূল উপলব্ধি করা প্রয়োজন বোধ করো।</b><br />আপনার পরিবর্তন "
-"আপনাকে প্রয়োগ করে আপনার মূল শব্দচাবি সরাবরাহ করতে হবে।"
-
-#: kutils/kcmoduleproxy.cpp:138
-#, fuzzy
-msgid ""
-"This section requires special permissions, probably for system-wide changes; "
-"therefore, it is required that you provide the root password to be able to "
-"change the module's properties. If you cannot provide the password, the "
-"changes of the module cannot be saved "
-msgstr ""
-"এই বিভাগটি system-wide পরিবর্তনের জন্য বিশেষ অনুমতি, সম্ভবত প্রয়োজন বোধ করো; "
-"অতএব, এইটি প্রয়োজন বোধ করা হয় যে আপনি মডিউলের বৈশিষ্ট্যাবলী পরিবর্তন করতে সক্ষম "
-"হতে মূল শব্দচাবি জোগান দাও। যদি আপনি শব্দচাবি জোগান দিতে পারেন না, মডিউলের "
-"পরিবর্তন সংরক্ষণ করা যাবে না"
-
-#: kutils/kcmoduleproxy.cpp:159
+#: kutils/kcmoduleproxy.cpp:165
 #, fuzzy, kde-format
 msgctxt "Argument is application name"
 msgid "This configuration section is already opened in %1"
@@ -13570,6 +13562,26 @@ msgstr "&আজকের টিপ"
 #, kde-format
 msgid "No such function \"%1\""
 msgstr "\"%1\" নামে কোনো ক্রিয়া (function) নেই"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Changes in this section require root access.</b><br />On applying your "
+#~ "changes you will have to supply your root password."
+#~ msgstr ""
+#~ "<b>এই বিভাগে পরিবর্তনটি মূল উপলব্ধি করা প্রয়োজন বোধ করো।</b><br />আপনার "
+#~ "পরিবর্তন আপনাকে প্রয়োগ করে আপনার মূল শব্দচাবি সরাবরাহ করতে হবে।"
+
+#, fuzzy
+#~ msgid ""
+#~ "This section requires special permissions, probably for system-wide "
+#~ "changes; therefore, it is required that you provide the root password to "
+#~ "be able to change the module's properties. If you cannot provide the "
+#~ "password, the changes of the module cannot be saved "
+#~ msgstr ""
+#~ "এই বিভাগটি system-wide পরিবর্তনের জন্য বিশেষ অনুমতি, সম্ভবত প্রয়োজন বোধ করো; "
+#~ "অতএব, এইটি প্রয়োজন বোধ করা হয় যে আপনি মডিউলের বৈশিষ্ট্যাবলী পরিবর্তন করতে "
+#~ "সক্ষম হতে মূল শব্দচাবি জোগান দাও। যদি আপনি শব্দচাবি জোগান দিতে পারেন না, "
+#~ "মডিউলের পরিবর্তন সংরক্ষণ করা যাবে না"
 
 #~ msgid "&Abort"
 #~ msgstr "থামা&ও"
