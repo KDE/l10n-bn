@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-05 06:50+0200\n"
+"POT-Creation-Date: 2009-09-06 06:20+0200\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -13,6 +13,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: contactselectiondialog.cpp:29
+#, fuzzy
+#| msgid "&Delete Contact"
+msgid "Select Contacts"
+msgstr "পরিচ&য় মুছে ফেলো"
 
 #: modelcolumnmanager.cpp:74 xxport/ldap/ldapsearchdialog.cpp:83
 #: xxport/ldap/ldapsearchdialog.cpp:177
@@ -350,7 +356,11 @@ msgstr ""
 msgid "EMail (4)"
 msgstr ""
 
-#: xxportmanager.cpp:132
+#: xxportmanager.cpp:112
+msgid "Which contact do you want to export?"
+msgstr ""
+
+#: xxportmanager.cpp:118
 msgid "You have not selected any contact to export!"
 msgstr ""
 
@@ -449,48 +459,32 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#. i18n: file: printing/rbs_appearance.ui:13
+#. i18n: file: printing/rbs_appearance.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, RingBinderStyleAppearanceForm_Base)
 #: rc.cpp:26
 #, fuzzy
 msgid "Appearance"
 msgstr "চেহারা পাতা"
 
-#. i18n: file: printing/rbs_appearance.ui:25
+#. i18n: file: printing/rbs_appearance.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox3)
 #: rc.cpp:29
 msgctxt "@title:group Print settings"
 msgid "Miscellaneous"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:53
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, cbAlwaysAllPages)
-#: rc.cpp:32
-msgid ""
-"If this box is checked, at least one page will be printed for every letter "
-"group, regardless of whether entries exist for this letter group. This is "
-"normally only useful in conjunction with the option 'fill pages with empty "
-"address fields'."
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:56
-#. i18n: ectx: property (text), widget (QCheckBox, cbAlwaysAllPages)
-#: rc.cpp:35
-msgid "Always print pages for all tabs"
-msgstr ""
-
-#. i18n: file: printing/rbs_appearance.ui:66
+#. i18n: file: printing/rbs_appearance.ui:51
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, sbMinNumFill)
-#: rc.cpp:38
+#: rc.cpp:32
 msgid ""
 "This is the minimum number of empty fields that have to be printed in "
 "addition to real entries; if this number is not reached on the first page, "
 "more pages with empty fields only may be appended."
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:73
+#. i18n: file: printing/rbs_appearance.ui:58
 #. i18n: ectx: property (whatsThis), widget (QLabel, sblabel)
-#: rc.cpp:41
+#: rc.cpp:35
 msgid ""
 "If you often add contacts to your printout manually before entering them "
 "into the KDE address book, you should set this option to a value greater "
@@ -499,77 +493,77 @@ msgid ""
 "be printed."
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:76
+#. i18n: file: printing/rbs_appearance.ui:61
 #. i18n: ectx: property (text), widget (QLabel, sblabel)
-#: rc.cpp:44
+#: rc.cpp:38
 #, fuzzy
 msgid "Min. number of empty fields:"
 msgstr "ফাঁকা ক্ষেত্র দেখা&ও"
 
-#. i18n: file: printing/rbs_appearance.ui:83
+#. i18n: file: printing/rbs_appearance.ui:68
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cbFillEmpty)
-#: rc.cpp:47
+#: rc.cpp:41
 msgid ""
 "If this option is turned on, behind the contacts on a page the remaining "
 "space will be filled with empty fields so you can add contacts manually later"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:86
+#. i18n: file: printing/rbs_appearance.ui:71
 #. i18n: ectx: property (text), widget (QCheckBox, cbFillEmpty)
-#: rc.cpp:50
+#: rc.cpp:44
 msgid "Fill pages with empty address fields"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:99
+#. i18n: file: printing/rbs_appearance.ui:84
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
-#: rc.cpp:53
+#: rc.cpp:47
 msgid "Print Contact's Information"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:111
+#. i18n: file: printing/rbs_appearance.ui:96
 #. i18n: ectx: property (text), widget (QCheckBox, cbPhoneNumbers)
-#: rc.cpp:56
+#: rc.cpp:50
 #, fuzzy
 msgid "Phone numbers"
 msgstr "ফোন নম্বর সম্পাদন করো"
 
-#. i18n: file: printing/rbs_appearance.ui:121
+#. i18n: file: printing/rbs_appearance.ui:106
 #. i18n: ectx: property (text), widget (QCheckBox, cbEmails)
-#: rc.cpp:59
+#: rc.cpp:53
 #, fuzzy
 msgid "Email addresses"
 msgstr "ই-মেইল ঠিকানা:"
 
-#. i18n: file: printing/rbs_appearance.ui:131
+#. i18n: file: printing/rbs_appearance.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, cbStreetAddresses)
-#: rc.cpp:62
+#: rc.cpp:56
 #, fuzzy
 msgid "Street addresses"
 msgstr "ঠিকানা ছাপাও"
 
-#. i18n: file: printing/rbs_appearance.ui:141
+#. i18n: file: printing/rbs_appearance.ui:126
 #. i18n: ectx: property (text), widget (QCheckBox, cbOrganization)
-#: rc.cpp:65 xxport/ldap/ldapsearchdialog.cpp:94
+#: rc.cpp:59 xxport/ldap/ldapsearchdialog.cpp:94
 #: xxport/ldap/ldapsearchdialog.cpp:184
 msgid "Organization"
 msgstr "সংস্থা"
 
-#. i18n: file: printing/rbs_appearance.ui:148
+#. i18n: file: printing/rbs_appearance.ui:133
 #. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
-#: rc.cpp:68
+#: rc.cpp:62
 #, fuzzy
 msgid "Birthday"
 msgstr "জন্মদিন:"
 
-#. i18n: file: printing/rbs_appearance.ui:182
+#. i18n: file: printing/rbs_appearance.ui:167
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: rc.cpp:71
+#: rc.cpp:65
 msgid "Letter Groups"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:194
+#. i18n: file: printing/rbs_appearance.ui:179
 #. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:74
+#: rc.cpp:68
 msgid ""
 "Here you can group letters together as they are grouped in your time "
 "planner. Press 'group letter' to combine the selected letter with the letter "
@@ -577,45 +571,45 @@ msgid ""
 "selected group."
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:213
+#. i18n: file: printing/rbs_appearance.ui:198
 #. i18n: ectx: property (text), widget (QPushButton, groupButton)
-#: rc.cpp:77
+#: rc.cpp:71
 msgid "Group Letter"
 msgstr ""
 
-#. i18n: file: printing/rbs_appearance.ui:220
+#. i18n: file: printing/rbs_appearance.ui:205
 #. i18n: ectx: property (text), widget (QPushButton, ungroupButton)
-#: rc.cpp:80
+#: rc.cpp:74
 msgid "Ungroup Letter"
 msgstr ""
 
 #. i18n: file: printing/ds_appearance.ui:13
 #. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
-#: rc.cpp:83
+#: rc.cpp:77
 msgid "Appearance Page"
 msgstr "চেহারা পাতা"
 
 #. i18n: file: printing/ds_appearance.ui:50
 #. i18n: ectx: property (text), widget (QLabel, labelHeader)
-#: rc.cpp:86 printing/detailledstyle.cpp:87
+#: rc.cpp:80 printing/detailledstyle.cpp:87
 msgid "Detailed Print Style - Appearance"
 msgstr ""
 
 #. i18n: file: printing/ds_appearance.ui:71
 #. i18n: ectx: property (title), widget (QGroupBox, gbFont)
-#: rc.cpp:89
+#: rc.cpp:83
 msgid "Font Settings"
 msgstr "ফন্ট সেটিংস"
 
 #. i18n: file: printing/ds_appearance.ui:83
 #. i18n: ectx: property (text), widget (QCheckBox, cbStandardFonts)
-#: rc.cpp:92
+#: rc.cpp:86
 msgid "Use standard KDE fonts"
 msgstr "স্ট্যাণ্ডার্ড কে.ডি.ই. ফন্ট ব্যবহার করো"
 
 #. i18n: file: printing/ds_appearance.ui:105
 #. i18n: ectx: property (text), widget (QLabel, labelDetailsFont)
-#: rc.cpp:95
+#: rc.cpp:89
 msgid "Details font:"
 msgstr "বিস্তারিত বিবরণীর ফন্ট:"
 
@@ -629,55 +623,55 @@ msgstr "বিস্তারিত বিবরণীর ফন্ট:"
 #. i18n: ectx: property (text), widget (QLabel, labelHeaderFontSize)
 #. i18n: file: printing/ds_appearance.ui:233
 #. i18n: ectx: property (text), widget (QLabel, labelHeaderFontSize_2)
-#: rc.cpp:98 rc.cpp:104 rc.cpp:110 rc.cpp:116 rc.cpp:119
+#: rc.cpp:92 rc.cpp:98 rc.cpp:104 rc.cpp:110 rc.cpp:113
 msgid "Size:"
 msgstr "মাপ:"
 
 #. i18n: file: printing/ds_appearance.ui:125
 #. i18n: ectx: property (text), widget (QLabel, labelBodyFont)
-#: rc.cpp:101
+#: rc.cpp:95
 msgid "Body font:"
 msgstr "প্রধান অংশের ফন্ট:"
 
 #. i18n: file: printing/ds_appearance.ui:145
 #. i18n: ectx: property (text), widget (QLabel, labelFixed)
-#: rc.cpp:107
+#: rc.cpp:101
 msgid "Fixed font:"
 msgstr "ফিক্সড ফন্ট:"
 
 #. i18n: file: printing/ds_appearance.ui:198
 #. i18n: ectx: property (text), widget (QLabel, labelHeaderFont)
-#: rc.cpp:113
+#: rc.cpp:107
 msgid "Contact header font:"
 msgstr "পরিচয় হেডার ফন্ট:"
 
 #. i18n: file: printing/ds_appearance.ui:246
 #. i18n: ectx: property (text), widget (QLabel, labelHeadlines)
-#: rc.cpp:122
+#: rc.cpp:116
 msgid "Headlines:"
 msgstr "শিরোনাম:"
 
 #. i18n: file: printing/ds_appearance.ui:276
 #. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
-#: rc.cpp:125
+#: rc.cpp:119
 msgid "Contact Headers"
 msgstr "পরিচয় হেডার"
 
 #. i18n: file: printing/ds_appearance.ui:288
 #. i18n: ectx: property (text), widget (QCheckBox, cbBackgroundColor)
-#: rc.cpp:128
+#: rc.cpp:122
 msgid "Use colored contact headers"
 msgstr "রঙীন পরিচয় হেডার ব্যবহার করো"
 
 #. i18n: file: printing/ds_appearance.ui:324
 #. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
-#: rc.cpp:131
+#: rc.cpp:125
 msgid "Headline background color:"
 msgstr "শিরোনাম পটভূমির রং:"
 
 #. i18n: file: printing/ds_appearance.ui:334
 #. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
-#: rc.cpp:134
+#: rc.cpp:128
 msgid "Headline text color:"
 msgstr "শিরোনাম লেখার রং:"
 
@@ -772,61 +766,6 @@ msgstr "মুদ্রণ: অগ্রগতি"
 msgid "Progress"
 msgstr "অগ্রগতি"
 
-#: printing/selectionpage.cpp:47
-msgid "Choose Which Contacts to Print"
-msgstr ""
-
-#: printing/selectionpage.cpp:53
-msgid "Which contacts do you want to print?"
-msgstr ""
-
-#: printing/selectionpage.cpp:65
-msgid "&All contacts"
-msgstr ""
-
-#: printing/selectionpage.cpp:67
-msgid "Print the entire address book"
-msgstr "সমগ্র ঠিকানা তালিকা ছাপাও"
-
-#: printing/selectionpage.cpp:70
-msgid "&Selected contacts"
-msgstr ""
-
-#: printing/selectionpage.cpp:71
-msgid ""
-"Only print contacts selected in KAddressBook.\n"
-"This option is disabled if no contacts are selected."
-msgstr ""
-
-#: printing/selectionpage.cpp:75
-msgid "Contacts matching &filter"
-msgstr ""
-
-#: printing/selectionpage.cpp:77
-msgid ""
-"Only print contacts matching the selected filter.\n"
-"This option is disabled if you have not defined any filters."
-msgstr ""
-
-#: printing/selectionpage.cpp:81
-msgid "Category &members"
-msgstr ""
-
-#: printing/selectionpage.cpp:83
-msgid ""
-"Only print contacts who are members of a category that is checked on the "
-"list to the left.\n"
-"This option is disabled if you have no categories."
-msgstr ""
-
-#: printing/selectionpage.cpp:89
-msgid "Select a filter to decide which contacts to print."
-msgstr ""
-
-#: printing/selectionpage.cpp:95
-msgid "Check the categories whose members you want to print."
-msgstr ""
-
 #: printing/ringbinderstyle.cpp:107
 msgid "Ring Binder Printing Style - Appearance"
 msgstr ""
@@ -849,19 +788,23 @@ msgstr "মুদ্রণ চলছে"
 msgid "Done"
 msgstr "হয়ে গেছে"
 
-#: printing/ringbinderstyle.cpp:524
+#: printing/ringbinderstyle.cpp:523
 msgid "Printout for Ring Binders"
 msgstr ""
 
-#: printing/printingwizard.cpp:62
+#: printing/printingwizard.cpp:55
+msgid "Which contacts do you want to print?"
+msgstr ""
+
+#: printing/printingwizard.cpp:59
 msgid "Choose Contacts to Print"
 msgstr ""
 
-#: printing/printingwizard.cpp:69 printing/stylepage.cpp:111
+#: printing/printingwizard.cpp:65 printing/stylepage.cpp:121
 msgid "Choose Printing Style"
 msgstr "মুদ্রণশৈলী বেছে নিন"
 
-#: printing/printingwizard.cpp:139
+#: printing/printingwizard.cpp:130
 msgid "Print Progress"
 msgstr "মুদ্রণ অগ্রগতি"
 
@@ -878,42 +821,42 @@ msgstr ""
 msgid "Mike's Printing Style"
 msgstr ""
 
-#: printing/stylepage.cpp:45
+#: printing/stylepage.cpp:51
 msgid "Ascending"
 msgstr ""
 
-#: printing/stylepage.cpp:46
+#: printing/stylepage.cpp:52
 msgid "Descending"
 msgstr ""
 
-#: printing/stylepage.cpp:58
+#: printing/stylepage.cpp:64
 msgid "(No preview available.)"
 msgstr "(কোন প্রাকদর্শন পাওয়া যাচ্ছে না)"
 
-#: printing/stylepage.cpp:117
+#: printing/stylepage.cpp:127
 msgid ""
 "What should the print look like?\n"
 "KAddressBook has several printing styles, designed for different purposes.\n"
 "Choose the style that suits your needs below."
 msgstr ""
 
-#: printing/stylepage.cpp:122
+#: printing/stylepage.cpp:132
 msgid "Sorting"
 msgstr "ক্রমবিন্যাস"
 
-#: printing/stylepage.cpp:129
+#: printing/stylepage.cpp:139
 msgid "Criterion:"
 msgstr ""
 
-#: printing/stylepage.cpp:135
+#: printing/stylepage.cpp:145
 msgid "Order:"
 msgstr "ধারা:"
 
-#: printing/stylepage.cpp:143
+#: printing/stylepage.cpp:153
 msgid "Print Style"
 msgstr "মুদ্রণশৈলী"
 
-#: printing/detailledstyle.cpp:296
+#: printing/detailledstyle.cpp:295
 msgid "Detailed Style"
 msgstr "বিস্তারিত স্টাইল"
 
@@ -1494,6 +1437,24 @@ msgstr ""
 msgid "Encryption keys"
 msgstr ""
 
+#: contactselectionwidget.cpp:85
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "All contacts"
+msgstr "পরিচয় সম্পাদন করো"
+
+#: contactselectionwidget.cpp:86
+#, fuzzy
+#| msgid "&Delete Contact"
+msgid "Selected contacts"
+msgstr "পরিচ&য় মুছে ফেলো"
+
+#: contactselectionwidget.cpp:87
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "All contacts from:"
+msgstr "পরিচয় সম্পাদন করো"
+
 #: contactswitcher.cpp:35
 msgid "Previous"
 msgstr ""
@@ -1508,6 +1469,9 @@ msgstr ""
 #| msgid "%1 on %2"
 msgid "%1 out of %2"
 msgstr "%2-এ %1"
+
+#~ msgid "Print the entire address book"
+#~ msgstr "সমগ্র ঠিকানা তালিকা ছাপাও"
 
 #, fuzzy
 #~| msgid "Address Book"
@@ -2210,9 +2174,6 @@ msgstr "%2-এ %1"
 
 #~ msgid "Selects all visible contacts from current view."
 #~ msgstr "বর্তমান ভিউ থেকে সবকটি পরিচয় নির্বাচন করে।"
-
-#~ msgid "&Delete Contact"
-#~ msgstr "পরিচ&য় মুছে ফেলো"
 
 #~ msgid "Delete all selected contacts."
 #~ msgstr "সব নির্বাচিত পরিচয় মুছে ফেলো।"
