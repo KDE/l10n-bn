@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-15 01:20+0200\n"
+"POT-Creation-Date: 2009-09-16 01:19+0200\n"
 "PO-Revision-Date: 2009-01-05 01:16-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -3394,11 +3394,11 @@ msgstr "%1 লাইব্রেরীটিতে কে.ডি.ই. 4-এ ক�
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "প্লাগিন '%1' একটি সামঞ্জস্যহীন কে.ডি.ই. লাইব্রেরী ব্যবহার করো (%2)।"
 
-#: kdecore/config/kconfig.cpp:676
+#: kdecore/config/kconfig.cpp:681
 msgid "Please contact your system administrator."
 msgstr "অনুগ্রহ করে আপনার সিস্টেম অ্যাডমিনস্ট্রেটরের সঙ্গে যোগাযোগ করুন।"
 
-#: kdecore/config/kconfigini.cpp:511
+#: kdecore/config/kconfigini.cpp:518
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "কনফিগারেশন ফাইল \"%1\" লেখা যাচ্ছে না।\n"
@@ -3931,7 +3931,18 @@ msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "'%1' পাওয়া যাচ্ছে না।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:916
+#: kdecore/kernel/kcmdlineargs.cpp:897
+#, kde-format
+msgctxt ""
+"@info:shell message on appcmd --version; %3 application name, other %n "
+"version strings"
+msgid ""
+"Qt: %1\n"
+"KDE: %2\n"
+"%3: %4\n"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:922
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -3941,45 +3952,45 @@ msgstr ""
 "%1 লিখেছেন\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:919
+#: kdecore/kernel/kcmdlineargs.cpp:925
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "এই অ্যাপলিকেশন-এর লেখক অজ্ঞাতপরিচয় থাকতে চান।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:926
+#: kdecore/kernel/kcmdlineargs.cpp:932
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr ""
 "কোনো বাগ (প্রোগ্রামে সমস্যা) খুঁজে পেলে তার কথা জানাতে http://bugs.kde.org ব্যবহার "
 "করুন।\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:928
+#: kdecore/kernel/kcmdlineargs.cpp:934
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "অনুগ্রহ করে বাগ রিপোর্ট %1-এ পাঠান।\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:953
+#: kdecore/kernel/kcmdlineargs.cpp:959
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "অপ্রত্যাশিত আর্গুমেন্ট '%1'।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1070
+#: kdecore/kernel/kcmdlineargs.cpp:1076
 msgid "Use --help to get a list of available command line options."
 msgstr "সম্ভাব্য কমাণ্ড লাইন অপশন সম্বন্ধে জানতে --help ব্যবহার করুন। "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1093
+#: kdecore/kernel/kcmdlineargs.cpp:1099
 msgid "[options] "
 msgstr "[অপশন]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1100
+#: kdecore/kernel/kcmdlineargs.cpp:1106
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-অপশন]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1121
+#: kdecore/kernel/kcmdlineargs.cpp:1127
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "ব্যবহার: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1124
+#: kdecore/kernel/kcmdlineargs.cpp:1130
 msgid ""
 "\n"
 "Generic options:\n"
@@ -3987,36 +3998,36 @@ msgstr ""
 "\n"
 "সাধারণ অপশন:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1126
+#: kdecore/kernel/kcmdlineargs.cpp:1132
 msgid "Show help about options"
 msgstr "অপশন সম্বন্ধে সাহায্য দেখাও"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1134
+#: kdecore/kernel/kcmdlineargs.cpp:1140
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "শুধু %1 বিষয়ক অপশন দেখাও"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1141
+#: kdecore/kernel/kcmdlineargs.cpp:1147
 msgid "Show all options"
 msgstr "সমস্ত অপশন দেখাও"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1142
+#: kdecore/kernel/kcmdlineargs.cpp:1148
 msgid "Show author information"
 msgstr "লেখক সংক্রান্ত তথ্য প্রদর্শিত হোক"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1143
+#: kdecore/kernel/kcmdlineargs.cpp:1149
 msgid "Show version information"
 msgstr "ভার্সান সংক্রান্ত তথ্য প্রদর্শিত হোক"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1144
+#: kdecore/kernel/kcmdlineargs.cpp:1150
 msgid "Show license information"
 msgstr "লাইসেন্স সংক্রান্ত তথ্য প্রদর্শিত হোক"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1145
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 msgid "End of options"
 msgstr "অপশনসমূহের শেষ"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1166
+#: kdecore/kernel/kcmdlineargs.cpp:1172
 #, kde-format
 msgid ""
 "\n"
@@ -4025,7 +4036,7 @@ msgstr ""
 "\n"
 "%1 অপশন:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1168
+#: kdecore/kernel/kcmdlineargs.cpp:1174
 msgid ""
 "\n"
 "Options:\n"
@@ -4033,7 +4044,7 @@ msgstr ""
 "\n"
 "অপশনসমূহ:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1226
+#: kdecore/kernel/kcmdlineargs.cpp:1232
 msgid ""
 "\n"
 "Arguments:\n"
@@ -4041,16 +4052,16 @@ msgstr ""
 "\n"
 "আর্গুমেন্টসমূহ:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1582
+#: kdecore/kernel/kcmdlineargs.cpp:1588
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "অ্যাপলিকেশন যে সব ফাইল/ইউ-আর-এল খুলবে, তা ব্যবহারের পর মুছে ফেলা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1583
+#: kdecore/kernel/kcmdlineargs.cpp:1589
 #, fuzzy
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:252
+#: kdecore/kernel/ktoolinvocation_x11.cpp:253
 #, kde-format
 msgid ""
 "Could not launch the mail client:\n"
@@ -4061,11 +4072,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:253
+#: kdecore/kernel/ktoolinvocation_x11.cpp:254
 msgid "Could not Launch Mail Client"
 msgstr "মেইল ক্লায়েন্ট চালু করা যায়নি"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:307
+#: kdecore/kernel/ktoolinvocation_x11.cpp:299
+#: kdecore/kernel/ktoolinvocation_x11.cpp:325
 #, kde-format
 msgid ""
 "Could not launch the browser:\n"
@@ -4076,11 +4088,12 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:308
+#: kdecore/kernel/ktoolinvocation_x11.cpp:300
+#: kdecore/kernel/ktoolinvocation_x11.cpp:326
 msgid "Could not Launch Browser"
 msgstr "ব্রাউজার চালু করা যায়নি"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:347
+#: kdecore/kernel/ktoolinvocation_x11.cpp:365
 #, kde-format
 msgid ""
 "Could not launch the terminal client:\n"
@@ -4091,7 +4104,7 @@ msgstr ""
 "\n"
 "%1"
 
-#: kdecore/kernel/ktoolinvocation_x11.cpp:348
+#: kdecore/kernel/ktoolinvocation_x11.cpp:366
 msgid "Could not Launch Terminal Client"
 msgstr "টার্মিনাল ক্লায়েন্ট চালু করা যায়নি"
 
