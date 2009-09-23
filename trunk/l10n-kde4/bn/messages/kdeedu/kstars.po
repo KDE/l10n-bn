@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-21 06:04+0200\n"
+"POT-Creation-Date: 2009-09-23 07:21+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -174,7 +174,7 @@ msgstr ""
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
 #: colorscheme.cpp:226 colorscheme.cpp:241 kstarsactions.cpp:594
-#: skymap.cpp:1661 tools/modcalcaltaz.cpp:253 tools/modcalcangdist.cpp:144
+#: skymap.cpp:1677 tools/modcalcaltaz.cpp:253 tools/modcalcangdist.cpp:144
 #: tools/modcalcapcoord.cpp:167 tools/modcalcdaylength.cpp:249
 #: tools/modcalceclipticcoords.cpp:204 tools/modcalcgalcoord.cpp:192
 #: tools/modcalcgeodcoord.cpp:232 tools/modcalcjd.cpp:123
@@ -284,7 +284,7 @@ msgid "Saving of the image %1 failed."
 msgstr "%1 ছবিটি সংরক্ষণ করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
 #: kspopupmenu.cpp:98 kspopupmenu.cpp:169 kspopupmenu.cpp:172
-#: skymapevents.cpp:707
+#: skymapevents.cpp:712
 msgid "Empty sky"
 msgstr "শূন্য আকাশ"
 
@@ -587,7 +587,7 @@ msgstr "বদলাবে না"
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:717 kstars.cpp:152 skymap.cpp:314
+#: kstarsactions.cpp:717 kstars.cpp:152 skymap.cpp:347
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
@@ -740,7 +740,7 @@ msgstr "তারামণ্ডল"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #: kstarsdata.cpp:130 rc.cpp:2462 rc.cpp:2865 rc.cpp:2949
 #: tools/conjunctions.cpp:83 tools/modcalcplanets.cpp:271
-#: skyobjects/ksmoon.cpp:62
+#: skyobjects/ksmoon.cpp:59
 msgid "Moon"
 msgstr "চাঁদ"
 
@@ -34302,7 +34302,7 @@ msgstr "FOV প্রতীক সম্পাদন..."
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:566 skymap.cpp:275 widgets/infoboxwidget.cpp:122
+#: kstarsinit.cpp:566 skymap.cpp:308 widgets/infoboxwidget.cpp:134
 msgid "nothing"
 msgstr "কিছু না"
 
@@ -40278,7 +40278,7 @@ msgstr "সৌরবস্তু:"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMercury)
-#: rc.cpp:2838 rc.cpp:2922 rc.cpp:5414 skymapdraw.cpp:325
+#: rc.cpp:2838 rc.cpp:2922 rc.cpp:5414 skymapdraw.cpp:323
 #: tools/conjunctions.cpp:74 tools/ksconjunct.cpp:59
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:429
 #: tools/obslistwizard.cpp:443 skycomponents/skymapcomposite.cpp:450
@@ -40295,7 +40295,7 @@ msgstr "বুধগ্রহ (মার্কারি)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowVenus)
-#: rc.cpp:2841 rc.cpp:2925 rc.cpp:5378 skymapdraw.cpp:326
+#: rc.cpp:2841 rc.cpp:2925 rc.cpp:5378 skymapdraw.cpp:324
 #: tools/conjunctions.cpp:75 tools/ksconjunct.cpp:59
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:430
 #: tools/obslistwizard.cpp:444 skycomponents/skymapcomposite.cpp:451
@@ -40322,7 +40322,7 @@ msgstr "পৃথিবী"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:64
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMars)
-#: rc.cpp:2847 rc.cpp:2931 rc.cpp:5333 skymapdraw.cpp:328
+#: rc.cpp:2847 rc.cpp:2931 rc.cpp:5333 skymapdraw.cpp:326
 #: tools/conjunctions.cpp:76 tools/ksconjunct.cpp:56
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:431
 #: tools/obslistwizard.cpp:445 skycomponents/skymapcomposite.cpp:453
@@ -40339,7 +40339,7 @@ msgstr "মঙ্গলগ্রহ (মার্স)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowJupiter)
-#: rc.cpp:2850 rc.cpp:2934 rc.cpp:5396 skymapdraw.cpp:329
+#: rc.cpp:2850 rc.cpp:2934 rc.cpp:5396 skymapdraw.cpp:327
 #: tools/conjunctions.cpp:77 tools/jmoontool.cpp:117
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:432
 #: tools/obslistwizard.cpp:446 skycomponents/skymapcomposite.cpp:454
@@ -40356,7 +40356,7 @@ msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSaturn)
-#: rc.cpp:2853 rc.cpp:2937 rc.cpp:5315 skymapdraw.cpp:330
+#: rc.cpp:2853 rc.cpp:2937 rc.cpp:5315 skymapdraw.cpp:328
 #: tools/conjunctions.cpp:78 tools/modcalcplanets.cpp:269
 #: tools/obslistwizard.cpp:433 tools/obslistwizard.cpp:447
 #: skycomponents/skymapcomposite.cpp:455
@@ -40373,7 +40373,7 @@ msgstr "শনিগ্রহ (স্যাটার্ন)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:223
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUranus)
-#: rc.cpp:2856 rc.cpp:2940 rc.cpp:5432 skymapdraw.cpp:331
+#: rc.cpp:2856 rc.cpp:2940 rc.cpp:5432 skymapdraw.cpp:329
 #: tools/conjunctions.cpp:79 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:434 tools/obslistwizard.cpp:448
 #: skycomponents/skymapcomposite.cpp:456 skyobjects/ksplanetbase.cpp:162
@@ -40388,7 +40388,7 @@ msgstr "ইউরেনাস"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:194
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNeptune)
-#: rc.cpp:2859 rc.cpp:2943 rc.cpp:5423 skymapdraw.cpp:332
+#: rc.cpp:2859 rc.cpp:2943 rc.cpp:5423 skymapdraw.cpp:330
 #: tools/conjunctions.cpp:80 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:435 tools/obslistwizard.cpp:449
 #: skycomponents/skymapcomposite.cpp:457 skyobjects/ksplanetbase.cpp:163
@@ -40403,7 +40403,7 @@ msgstr "নেপচুন"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:90
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPluto)
-#: rc.cpp:2862 rc.cpp:2946 rc.cpp:5351 skymapdraw.cpp:333
+#: rc.cpp:2862 rc.cpp:2946 rc.cpp:5351 skymapdraw.cpp:331
 #: tools/conjunctions.cpp:81 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:436 tools/obslistwizard.cpp:450
 #: tools/wutdialog.cpp:263 skycomponents/skymapcomposite.cpp:458
@@ -41849,7 +41849,7 @@ msgstr ""
 
 #. i18n: file: tools/wutdialog.ui:480
 #. i18n: ectx: property (text), widget (KPushButton, DetailButton)
-#: rc.cpp:3728 skymap.cpp:591 dialogs/detaildialog.cpp:76
+#: rc.cpp:3728 skymap.cpp:622 dialogs/detaildialog.cpp:76
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
@@ -45864,53 +45864,53 @@ msgstr "SimClock-এর সময় নির্ধারণ করা যাচ�
 msgid "New clock scale: %1 sec"
 msgstr "ঘড়ির নতুন মাত্রা (scale): %1 সেকেন্ড"
 
-#: skymap.cpp:296
+#: skymap.cpp:329
 msgid "Requested Position Below Horizon"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিত"
 
-#: skymap.cpp:297
+#: skymap.cpp:330
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিতআপনি কি তবুও সেখানে যেতে চান?"
 
-#: skymap.cpp:299
+#: skymap.cpp:332
 msgid "Go Anyway"
 msgstr "তবুও যাও"
 
 # FIXME
-#: skymap.cpp:299
+#: skymap.cpp:332
 msgid "Keep Position"
 msgstr "অবস্থান ঠিক রাখো"
 
-#: skymap.cpp:396
+#: skymap.cpp:429
 #, fuzzy
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
 "[public domain]."
 msgstr "স্পেস টেলিস্কোপ সাইন্স ইনস্টিটিউট কর্তৃক প্রস্তুতকৃত ডিজিটাল আকাশ জরিপ চিত্র।"
 
-#: skymap.cpp:435
+#: skymap.cpp:468
 msgid ""
 "Sloan Digital Sky Survey image provided by the Astrophysical Research "
 "Consortium [free for non-commercial use]."
 msgstr ""
 
-#: skymap.cpp:480
+#: skymap.cpp:513
 #, fuzzy, kde-format
 msgid "Angular distance: %1"
 msgstr "কৌণিক দূরত্ব: "
 
-#: skymap.cpp:591
+#: skymap.cpp:622
 msgid "No object selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
 
-#: skymap.cpp:897 skymap.cpp:1056 skymap.cpp:1382
+#: skymap.cpp:925 skymap.cpp:1072 skymap.cpp:1398
 #: skycomponents/horizoncomponent.cpp:295
 msgid "Unrecognized coordinate projection: "
 msgstr ""
 
-#: skymap.cpp:1660
+#: skymap.cpp:1676
 msgid ""
 "Custom image-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -45918,7 +45918,7 @@ msgstr ""
 "স্বনির্বাচিত ছবির-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1678
+#: skymap.cpp:1694
 msgid ""
 "Custom information-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -45926,15 +45926,15 @@ msgstr ""
 "স্বনির্বাচিত তথ্য-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1678
+#: skymap.cpp:1694
 msgid "Could not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
-#: skymap.cpp:1713
+#: skymap.cpp:1728
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
 
-#: skymap.cpp:1818
+#: skymap.cpp:1833
 #, fuzzy, kde-format
 #| msgid "Sunset: %1"
 msgid "Run : %1"
@@ -47007,13 +47007,13 @@ msgid "Flag manager"
 msgstr ""
 
 #: tools/flagmanager.cpp:56 tools/observinglist.cpp:108
-#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:129
+#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:141
 msgctxt "Right Ascension"
 msgid "RA"
 msgstr "বিষুবাংশ"
 
 #: tools/flagmanager.cpp:57 tools/observinglist.cpp:108
-#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:130
+#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:142
 msgctxt "Declination"
 msgid "Dec"
 msgstr "বিষুবলম্ব"
@@ -47312,12 +47312,12 @@ msgctxt "Magnitude"
 msgid "Mag"
 msgstr "উজ্জ্বলতা"
 
-#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:133
+#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:145
 msgctxt "Altitude"
 msgid "Alt"
 msgstr "উন্নতি"
 
-#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:132
+#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:144
 msgctxt "Azimuth"
 msgid "Az"
 msgstr "দিগংশ"
@@ -48740,32 +48740,32 @@ msgctxt "angular size in arcminutes"
 msgid "%1 x %2 arcmin"
 msgstr "%1 আর্কমিনিট"
 
-#: widgets/infoboxwidget.cpp:76
+#: widgets/infoboxwidget.cpp:88
 msgctxt "Local Time"
 msgid "LT: "
 msgstr "স্থানীয় সময়:"
 
-#: widgets/infoboxwidget.cpp:80
+#: widgets/infoboxwidget.cpp:92
 msgctxt "Universal Time"
 msgid "UT: "
 msgstr "বিশ্বজনীন সময়:"
 
-#: widgets/infoboxwidget.cpp:91
+#: widgets/infoboxwidget.cpp:103
 msgctxt "Sidereal Time"
 msgid "ST: "
 msgstr "নাক্ষত্র কাল:"
 
-#: widgets/infoboxwidget.cpp:92
+#: widgets/infoboxwidget.cpp:104
 msgctxt "Julian Day"
 msgid "JD: "
 msgstr "জুলিয়ান দিবস: "
 
-#: widgets/infoboxwidget.cpp:109
+#: widgets/infoboxwidget.cpp:121
 msgctxt "Longitude"
 msgid "Long:"
 msgstr "দ্রাঘিমাংশ:"
 
-#: widgets/infoboxwidget.cpp:111
+#: widgets/infoboxwidget.cpp:123
 msgctxt "Latitude"
 msgid "Lat:"
 msgstr "অক্ষাংশ:"
@@ -49870,47 +49870,47 @@ msgctxt "Jupiter's moon Callisto"
 msgid "Callisto"
 msgstr "ক্যালিস্টো"
 
-#: skyobjects/ksmoon.cpp:256
+#: skyobjects/ksmoon.cpp:253
 msgctxt "moon phase, 100 percent illuminated"
 msgid "Full moon"
 msgstr "পূর্ণিমা"
 
-#: skyobjects/ksmoon.cpp:257
+#: skyobjects/ksmoon.cpp:254
 msgctxt "moon phase, 0 percent illuminated"
 msgid "New moon"
 msgstr "অমাবস্যা"
 
-#: skyobjects/ksmoon.cpp:259
+#: skyobjects/ksmoon.cpp:256
 msgctxt "moon phase, half-illuminated and growing"
 msgid "First quarter"
 msgstr "প্রথম চতুর্থাংশ"
 
-#: skyobjects/ksmoon.cpp:260
+#: skyobjects/ksmoon.cpp:257
 msgctxt "moon phase, half-illuminated and shrinking"
 msgid "Third quarter"
 msgstr "তৃতীয় চতুর্থাংশ"
 
-#: skyobjects/ksmoon.cpp:264
+#: skyobjects/ksmoon.cpp:261
 msgctxt "moon phase between new moon and 1st quarter"
 msgid "Waxing crescent"
 msgstr "বাড়ন্ত হেলাল"
 
-#: skyobjects/ksmoon.cpp:265
+#: skyobjects/ksmoon.cpp:262
 msgctxt "moon phase between 1st quarter and full moon"
 msgid "Waxing gibbous"
 msgstr "বাড়ন্ত অর্ধাধিক দশা"
 
-#: skyobjects/ksmoon.cpp:266
+#: skyobjects/ksmoon.cpp:263
 msgctxt "moon phase between full moon and 3rd quarter"
 msgid "Waning gibbous"
 msgstr "হ্রাসমান অর্ধাধিক দশা"
 
-#: skyobjects/ksmoon.cpp:267
+#: skyobjects/ksmoon.cpp:264
 msgctxt "moon phase between 3rd quarter and new moon"
 msgid "Waning crescent"
 msgstr "হ্রাসমান হেলাল"
 
-#: skyobjects/ksmoon.cpp:269
+#: skyobjects/ksmoon.cpp:266
 msgid "unknown"
 msgstr "অজ্ঞাত"
 
