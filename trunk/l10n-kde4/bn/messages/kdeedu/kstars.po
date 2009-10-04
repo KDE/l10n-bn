@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-03 06:21+0200\n"
+"POT-Creation-Date: 2009-10-04 06:08+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -83,7 +83,7 @@ msgstr "বিষুবরেখা"
 
 #. i18n: file: options/opsguides.ui:230
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEcliptic)
-#: colorscheme.cpp:61 rc.cpp:5273 skycomponents/ecliptic.cpp:31
+#: colorscheme.cpp:61 rc.cpp:5297 skycomponents/ecliptic.cpp:31
 msgid "Ecliptic"
 msgstr "সূর্যপথ"
 
@@ -173,8 +173,8 @@ msgstr ""
 "স্থানীয় রং বিন্যাসের ফাইল খোলা যায় নি।\n"
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
-#: colorscheme.cpp:226 colorscheme.cpp:241 kstarsactions.cpp:594
-#: skymap.cpp:1677 tools/modcalcaltaz.cpp:253 tools/modcalcangdist.cpp:144
+#: colorscheme.cpp:226 colorscheme.cpp:241 kstarsactions.cpp:602
+#: skymap.cpp:1678 tools/modcalcaltaz.cpp:253 tools/modcalcangdist.cpp:144
 #: tools/modcalcapcoord.cpp:167 tools/modcalcdaylength.cpp:249
 #: tools/modcalceclipticcoords.cpp:204 tools/modcalcgalcoord.cpp:192
 #: tools/modcalcgeodcoord.cpp:232 tools/modcalcjd.cpp:123
@@ -267,13 +267,13 @@ msgstr "বর্তমানে ব্যবহৃত পর্যবেক্�
 msgid "Loading of the image %1 failed."
 msgstr "%1 ছবিটি লোড করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#: imageviewer.cpp:248 kstarsactions.cpp:516 tools/scriptbuilder.cpp:1038
+#: imageviewer.cpp:248 kstarsactions.cpp:524 tools/scriptbuilder.cpp:1038
 #: dialogs/addcatdialog.cpp:213 fitsviewer/fitsviewer.cpp:290
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr "\"%1\" নামে একটি ফাইল ইতিমধ্যেই বিদ্যমান।  সেটির ওপর দিয়েই কি লেখা হবে?"
 
-#: imageviewer.cpp:250 kstarsactions.cpp:518 tools/scriptbuilder.cpp:1040
+#: imageviewer.cpp:250 kstarsactions.cpp:526 tools/scriptbuilder.cpp:1040
 #: dialogs/addcatdialog.cpp:215 fitsviewer/fitsviewer.cpp:292
 msgid "Overwrite File?"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
@@ -421,48 +421,58 @@ msgstr "অস্তের কোন সময় নেই: মেরু পরি
 msgid "No set time: Never rises"
 msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
-#: kstarsactions.cpp:387
+#: kstarsactions.cpp:152
+msgid "Refraction effects disabled"
+msgstr ""
+
+#: kstarsactions.cpp:153
+msgid ""
+"When the horizon is switched off, refraction effects are temporarily "
+"disabled."
+msgstr ""
+
+#: kstarsactions.cpp:395
 msgid "Catalogs"
 msgstr "তালিকা"
 
-#: kstarsactions.cpp:388 tools/astrocalc.cpp:167 dialogs/finddialog.cpp:36
+#: kstarsactions.cpp:396 tools/astrocalc.cpp:167 dialogs/finddialog.cpp:36
 msgid "Solar System"
 msgstr "সৌরজগত্‍"
 
-#: kstarsactions.cpp:389
+#: kstarsactions.cpp:397
 msgid "Guides"
 msgstr "নির্দেশিকা"
 
-#: kstarsactions.cpp:390
+#: kstarsactions.cpp:398
 msgid "Colors"
 msgstr "রং"
 
-#: kstarsactions.cpp:394
+#: kstarsactions.cpp:402
 msgid "INDI"
 msgstr "INDI"
 
-#: kstarsactions.cpp:399
+#: kstarsactions.cpp:407
 #, fuzzy
 #| msgid "planet"
 msgid "Xplanet"
 msgstr "গ্রহ"
 
-#: kstarsactions.cpp:402 dialogs/detaildialog.cpp:421
+#: kstarsactions.cpp:410 dialogs/detaildialog.cpp:421
 msgid "Advanced"
 msgstr "অগ্রসর"
 
-#: kstarsactions.cpp:482
+#: kstarsactions.cpp:490
 msgid "KStars::slotFind() - Not enough memory for dialog"
 msgstr "KStars::slotFind() - ডায়ালগ প্রদর্শনের জন্য পর্যাপ্ত মেমরি নেই"
 
-#: kstarsactions.cpp:535
+#: kstarsactions.cpp:543
 msgid ""
 "Warning:  You are about to execute a remote shell script on your machine. "
 msgstr ""
 "সতর্কবাণী:  আপনি আপনার কম্পিউটারে একটি দূরবর্তী (remote) শেল স্ক্রিপ্ট চালাতে "
 "যাচ্ছেন। "
 
-#: kstarsactions.cpp:536
+#: kstarsactions.cpp:544
 msgid ""
 "If you absolutely trust the source of this script, press Continue to execute "
 "the script; "
@@ -470,62 +480,62 @@ msgstr ""
 "যদি স্ক্রিপ্টের সোর্সকে আপনি বিশ্বাস করেন, তবে স্ক্রিপ্ট চালানোর জন্য 'অগ্রসর' বাটন "
 "চাপুন; "
 
-#: kstarsactions.cpp:537
+#: kstarsactions.cpp:545
 msgid "to save the file without executing it, press Save; "
 msgstr "ফাইলটি না চালিয়ে শুধু সংরক্ষণ করতে চাইলে 'সংরক্ষণ' চাপুন; "
 
-#: kstarsactions.cpp:538
+#: kstarsactions.cpp:546
 msgid "to cancel the download, press Cancel. "
 msgstr "ডাউনলোড প্রক্রিয়া বাতিল করার জন্য 'বাতিল' চাপুন। "
 
-#: kstarsactions.cpp:540
+#: kstarsactions.cpp:548
 msgid "Really Execute Remote Script?"
 msgstr "আপনি কি দূরবর্তী (remote) স্ক্রিপ্ট চালানোর ব্যাপারে নিশ্চিত?"
 
-#: kstarsactions.cpp:550
+#: kstarsactions.cpp:558
 msgid "Save location is invalid. Try another location?"
 msgstr ""
 "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ।  অপর কোনো অবস্থানে সংরক্ষণ করতে চান "
 "কি?"
 
-#: kstarsactions.cpp:551
+#: kstarsactions.cpp:559
 msgid "Invalid Save Location"
 msgstr "যে অবস্থানে সংরক্ষণ করতে বলা হয়েছে, তা অবৈধ"
 
-#: kstarsactions.cpp:551
+#: kstarsactions.cpp:559
 msgid "Try Another"
 msgstr "আরেকটি চেষ্টা করো"
 
-#: kstarsactions.cpp:551 tools/observinglist.cpp:960
+#: kstarsactions.cpp:559 tools/observinglist.cpp:960
 msgid "Do Not Try"
 msgstr "চেষ্টা করবে না"
 
-#: kstarsactions.cpp:566 kstarsdcop.cpp:496 tools/scriptbuilder.cpp:1068
+#: kstarsactions.cpp:574 kstarsdcop.cpp:496 tools/scriptbuilder.cpp:1068
 #: indi/streamwg.cpp:195
 #, kde-format
 msgid "Could not upload image to remote location: %1"
 msgstr "দূরবর্তী অবস্থানে ছবি আপলোড করা যায় নি: %1"
 
-#: kstarsactions.cpp:567 kstarsdcop.cpp:497 tools/scriptbuilder.cpp:1069
+#: kstarsactions.cpp:575 kstarsdcop.cpp:497 tools/scriptbuilder.cpp:1069
 #: indi/streamwg.cpp:196
 msgid "Could not upload file"
 msgstr "ফাইল আপলোড করা যায় নি"
 
-#: kstarsactions.cpp:571
+#: kstarsactions.cpp:579
 msgid "Could not download the file."
 msgstr "ফাইল ডাউনলোড করা যায় নি।"
 
-#: kstarsactions.cpp:571 tools/scriptbuilder.cpp:984
+#: kstarsactions.cpp:579 tools/scriptbuilder.cpp:984
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:593 kstarsdata.cpp:847 tools/observinglist.cpp:842
+#: kstarsactions.cpp:601 kstarsdata.cpp:847 tools/observinglist.cpp:842
 #: comast/execute.cpp:266
 #, kde-format
 msgid "Could not open file %1"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি"
 
-#: kstarsactions.cpp:618
+#: kstarsactions.cpp:626
 #, fuzzy
 #| msgid ""
 #| "The selected script contains unrecognized elements,indicating that it was "
@@ -542,26 +552,26 @@ msgstr ""
 "স্ক্রিপ্ট বিল্ডার ব্যবহার করে তৈরি করা হয় নি।  এই স্ক্রিপ্টটি সঠিকভাবে কাজ করবে না "
 "এবং এতে সন্দেহজনক কোড থাকতে পারে।  এ অবস্থায় আপনি কি স্ক্রিপ্টটি চালাতে চান?"
 
-#: kstarsactions.cpp:622
+#: kstarsactions.cpp:630
 msgid "Script Validation Failed"
 msgstr "স্ক্রিপ্টের বৈধতা প্রমাণ করা যায় নি"
 
-#: kstarsactions.cpp:622
+#: kstarsactions.cpp:630
 msgid "Run Nevertheless"
 msgstr "তবুও চালাও"
 
-#: kstarsactions.cpp:627
+#: kstarsactions.cpp:635
 #, kde-format
 msgid "Running script: %1"
 msgstr ""
 
-#: kstarsactions.cpp:642
+#: kstarsactions.cpp:650
 #, fuzzy
 #| msgid "Script name:"
 msgid "Script finished."
 msgstr "স্ক্রিপ্টের নাম:"
 
-#: kstarsactions.cpp:651
+#: kstarsactions.cpp:659
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which "
 "uses a white background. Would you like to temporarily switch to the Star "
@@ -571,72 +581,72 @@ msgstr ""
 "ব্যবহার করতে পারেন যা সাদা পটভূমি ব্যবহার করে।  আপনি কি মুদ্রণের জন্য সাময়িকভাবে "
 "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান?"
 
-#: kstarsactions.cpp:656
+#: kstarsactions.cpp:664
 msgid "Switch to Star Chart Colors?"
 msgstr "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান কি?"
 
-#: kstarsactions.cpp:657
+#: kstarsactions.cpp:665
 msgid "Switch Color Scheme"
 msgstr "রং বিন্যাস বদলাও"
 
-#: kstarsactions.cpp:657
+#: kstarsactions.cpp:665
 msgid "Do Not Switch"
 msgstr "বদলাবে না"
 
-#: kstarsactions.cpp:701 kstarsinit.cpp:194
+#: kstarsactions.cpp:709 kstarsinit.cpp:194
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:717 kstars.cpp:152 skymap.cpp:347
+#: kstarsactions.cpp:725 kstars.cpp:152 skymap.cpp:347
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
 #. i18n: file: dialogs/newfov.ui:239
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: kstarsactions.cpp:782 rc.cpp:4133
+#: kstarsactions.cpp:790 rc.cpp:4133
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
 msgid "degrees"
 msgstr "এভারগ্রিন"
 
-#: kstarsactions.cpp:785
+#: kstarsactions.cpp:793
 #, fuzzy
 #| msgid "arcmin"
 msgid "arcminutes"
 msgstr "আর্কমিনিট"
 
-#: kstarsactions.cpp:789
+#: kstarsactions.cpp:797
 #, fuzzy
 #| msgid "arcsecs"
 msgid "arcseconds"
 msgstr "আর্কসেকেন্ড"
 
-#: kstarsactions.cpp:791
+#: kstarsactions.cpp:799
 #, fuzzy
 #| msgid "No FOV"
 msgctxt "field of view"
 msgid "FOV"
 msgstr "কোন FOV নেই"
 
-#: kstarsactions.cpp:802
+#: kstarsactions.cpp:810
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণের মান লিখুন"
 
-#: kstarsactions.cpp:803
+#: kstarsactions.cpp:811
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
-#: kstarsactions.cpp:823 kstars.cpp:157 kstarsinit.cpp:216
+#: kstarsactions.cpp:831 kstars.cpp:157 kstarsinit.cpp:216
 msgid "Equatorial &Coordinates"
 msgstr "নি&রক্ষীয় স্থানাঙ্ক"
 
-#: kstarsactions.cpp:830 kstars.cpp:157 kstarsinit.cpp:216
+#: kstarsactions.cpp:838 kstars.cpp:157 kstarsinit.cpp:216
 msgid "Horizontal &Coordinates"
 msgstr "&অনুভূমিক স্থানাঙ্ক"
 
-#: kstarsactions.cpp:850
+#: kstarsactions.cpp:858
 #, kde-format
 msgid "Projection system: %1"
 msgstr ""
@@ -34572,15 +34582,15 @@ msgstr "তালিকা থেকে অপসারণ করো"
 #. i18n: ectx: Menu (file)
 #. i18n: file: kstarsui-win.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:3 rc.cpp:1184 rc.cpp:1226 rc.cpp:1265 rc.cpp:5801 rc.cpp:5816
-#: rc.cpp:5858 rc.cpp:5897
+#: rc.cpp:3 rc.cpp:1184 rc.cpp:1226 rc.cpp:1265 rc.cpp:5825 rc.cpp:5840
+#: rc.cpp:5882 rc.cpp:5921
 #, fuzzy
 msgid "&File"
 msgstr "ফিল্টার"
 
 #. i18n: file: fitsviewer.rc:12
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:6 rc.cpp:5804
+#: rc.cpp:6 rc.cpp:5828
 #, fuzzy
 msgid "&Edit"
 msgstr "সম্পাদন..."
@@ -34601,8 +34611,8 @@ msgstr "সম্পাদন..."
 #. i18n: ectx: Menu (view)
 #. i18n: file: kstarsui-win.rc:40
 #. i18n: ectx: Menu (view)
-#: rc.cpp:9 rc.cpp:1193 rc.cpp:1235 rc.cpp:1274 rc.cpp:5807 rc.cpp:5825
-#: rc.cpp:5867 rc.cpp:5906
+#: rc.cpp:9 rc.cpp:1193 rc.cpp:1235 rc.cpp:1274 rc.cpp:5831 rc.cpp:5849
+#: rc.cpp:5891 rc.cpp:5930
 #, fuzzy
 msgid "&View"
 msgstr "&নতুন"
@@ -34623,15 +34633,15 @@ msgstr "&নতুন"
 #. i18n: ectx: ToolBar (kstarsToolBar)
 #. i18n: file: kstarsui-win.rc:121
 #. i18n: ectx: ToolBar (kstarsToolBar)
-#: rc.cpp:12 rc.cpp:1220 rc.cpp:1259 rc.cpp:1301 rc.cpp:5810 rc.cpp:5852
-#: rc.cpp:5891 rc.cpp:5933
+#: rc.cpp:12 rc.cpp:1220 rc.cpp:1259 rc.cpp:1301 rc.cpp:5834 rc.cpp:5876
+#: rc.cpp:5915 rc.cpp:5957
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "মূল টুলবার দেখাও"
 
 #. i18n: file: fitsviewer.rc:36
 #. i18n: ectx: ToolBar (processToolBar)
-#: rc.cpp:15 rc.cpp:5813
+#: rc.cpp:15 rc.cpp:5837
 msgid "Process ToolBar"
 msgstr "প্রসেস টুলবার"
 
@@ -37403,7 +37413,7 @@ msgstr ""
 #. i18n: ectx: Menu (time)
 #. i18n: file: kstarsui-win.rc:20
 #. i18n: ectx: Menu (time)
-#: rc.cpp:1187 rc.cpp:1229 rc.cpp:1268 rc.cpp:5819 rc.cpp:5861 rc.cpp:5900
+#: rc.cpp:1187 rc.cpp:1229 rc.cpp:1268 rc.cpp:5843 rc.cpp:5885 rc.cpp:5924
 msgid "T&ime"
 msgstr "স&ময়"
 
@@ -37419,7 +37429,7 @@ msgstr "স&ময়"
 #. i18n: ectx: Menu (focus)
 #. i18n: file: kstarsui-win.rc:27
 #. i18n: ectx: Menu (focus)
-#: rc.cpp:1190 rc.cpp:1232 rc.cpp:1271 rc.cpp:5822 rc.cpp:5864 rc.cpp:5903
+#: rc.cpp:1190 rc.cpp:1232 rc.cpp:1271 rc.cpp:5846 rc.cpp:5888 rc.cpp:5927
 msgid "&Pointing"
 msgstr "নির্দে&শক"
 
@@ -37435,14 +37445,14 @@ msgstr "নির্দে&শক"
 #. i18n: ectx: Menu (projection)
 #. i18n: file: kstarsui-win.rc:49
 #. i18n: ectx: Menu (projection)
-#: rc.cpp:1196 rc.cpp:1238 rc.cpp:1277 rc.cpp:5828 rc.cpp:5870 rc.cpp:5909
+#: rc.cpp:1196 rc.cpp:1238 rc.cpp:1277 rc.cpp:5852 rc.cpp:5894 rc.cpp:5933
 #, fuzzy
 msgid "&Projection"
 msgstr "সংযোগ"
 
 #. i18n: file: kstarsui-indi.rc:59
 #. i18n: ectx: Menu (devices)
-#: rc.cpp:1199 rc.cpp:5831
+#: rc.cpp:1199 rc.cpp:5855
 msgid "&Devices"
 msgstr "ডিভা&ইস"
 
@@ -37458,7 +37468,7 @@ msgstr "ডিভা&ইস"
 #. i18n: ectx: Menu (tools)
 #. i18n: file: kstarsui-win.rc:59
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:1202 rc.cpp:1241 rc.cpp:1280 rc.cpp:5834 rc.cpp:5873 rc.cpp:5912
+#: rc.cpp:1202 rc.cpp:1241 rc.cpp:1280 rc.cpp:5858 rc.cpp:5897 rc.cpp:5936
 #, fuzzy
 msgid "&Tools"
 msgstr "টু&লবার"
@@ -37475,7 +37485,7 @@ msgstr "টু&লবার"
 #. i18n: ectx: Menu (settings)
 #. i18n: file: kstarsui-win.rc:72
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:1205 rc.cpp:1244 rc.cpp:1283 rc.cpp:5837 rc.cpp:5876 rc.cpp:5915
+#: rc.cpp:1205 rc.cpp:1244 rc.cpp:1283 rc.cpp:5861 rc.cpp:5900 rc.cpp:5939
 msgid "&Settings"
 msgstr ""
 
@@ -37491,7 +37501,7 @@ msgstr ""
 #. i18n: ectx: Menu (infopanel)
 #. i18n: file: kstarsui-win.rc:73
 #. i18n: ectx: Menu (infopanel)
-#: rc.cpp:1208 rc.cpp:1247 rc.cpp:1286 rc.cpp:5840 rc.cpp:5879 rc.cpp:5918
+#: rc.cpp:1208 rc.cpp:1247 rc.cpp:1286 rc.cpp:5864 rc.cpp:5903 rc.cpp:5942
 msgid "&Info Boxes"
 msgstr "&তথ্যমূলক বাক্স"
 
@@ -37507,7 +37517,7 @@ msgstr "&তথ্যমূলক বাক্স"
 #. i18n: ectx: Menu (statusbar)
 #. i18n: file: kstarsui-win.rc:86
 #. i18n: ectx: Menu (statusbar)
-#: rc.cpp:1211 rc.cpp:1250 rc.cpp:1292 rc.cpp:5843 rc.cpp:5882 rc.cpp:5924
+#: rc.cpp:1211 rc.cpp:1250 rc.cpp:1292 rc.cpp:5867 rc.cpp:5906 rc.cpp:5948
 msgid "&Statusbar"
 msgstr "স্ট্যাটা&সবার"
 
@@ -37524,7 +37534,7 @@ msgstr "স্ট্যাটা&সবার"
 #. i18n: ectx: Menu (comast)
 #. i18n: file: kstarsui-win.rc:104
 #. i18n: ectx: Menu (comast)
-#: rc.cpp:1214 rc.cpp:1253 rc.cpp:1295 rc.cpp:5846 rc.cpp:5885 rc.cpp:5927
+#: rc.cpp:1214 rc.cpp:1253 rc.cpp:1295 rc.cpp:5870 rc.cpp:5909 rc.cpp:5951
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Dyer Observatory"
@@ -37545,8 +37555,8 @@ msgstr "ডিয়ের মানমন্দির"
 #. i18n: ectx: Menu (help)
 #. i18n: file: kstarsui-win.rc:108
 #. i18n: ectx: Menu (help)
-#: rc.cpp:1217 rc.cpp:1256 rc.cpp:1298 rc.cpp:4821 rc.cpp:5849 rc.cpp:5888
-#: rc.cpp:5930
+#: rc.cpp:1217 rc.cpp:1256 rc.cpp:1298 rc.cpp:4821 rc.cpp:5873 rc.cpp:5912
+#: rc.cpp:5954
 msgid "&Help"
 msgstr ""
 
@@ -37562,13 +37572,13 @@ msgstr ""
 #. i18n: ectx: ToolBar (viewToolBar)
 #. i18n: file: kstarsui-win.rc:131
 #. i18n: ectx: ToolBar (viewToolBar)
-#: rc.cpp:1223 rc.cpp:1262 rc.cpp:1304 rc.cpp:5855 rc.cpp:5894 rc.cpp:5936
+#: rc.cpp:1223 rc.cpp:1262 rc.cpp:1304 rc.cpp:5879 rc.cpp:5918 rc.cpp:5960
 msgid "View Toolbar"
 msgstr "টুলবার প্রদর্শন করো"
 
 #. i18n: file: kstarsui-win.rc:80
 #. i18n: ectx: Menu (toolbars)
-#: rc.cpp:1289 rc.cpp:5921
+#: rc.cpp:1289 rc.cpp:5945
 msgid "&Toolbars"
 msgstr "টু&লবার"
 
@@ -37933,7 +37943,7 @@ msgstr "লেক সিটি"
 #. i18n: ectx: property (text), widget (QLabel, textLabel8)
 #. i18n: file: comast/equipmentwriter.ui:569
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: rc.cpp:1506 rc.cpp:4288 rc.cpp:5666
+#: rc.cpp:1506 rc.cpp:4288 rc.cpp:5690
 msgid "Color:"
 msgstr "রং:"
 
@@ -38584,7 +38594,7 @@ msgstr "ডিভাইস:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
 #. i18n: file: comast/execute.ui:361
 #. i18n: ectx: property (text), widget (QLabel, label_18)
-#: rc.cpp:1846 rc.cpp:4581 rc.cpp:5762
+#: rc.cpp:1846 rc.cpp:4581 rc.cpp:5786
 msgid "Filter:"
 msgstr "ফিল্টার:"
 
@@ -38609,7 +38619,7 @@ msgstr "মেয়াদ:"
 #. i18n: ectx: property (text), widget (QLabel, label6)
 #. i18n: file: comast/execute.ui:181
 #. i18n: ectx: property (text), widget (QLabel, label_22)
-#: rc.cpp:1855 rc.cpp:5540 rc.cpp:5663 rc.cpp:5723
+#: rc.cpp:1855 rc.cpp:5564 rc.cpp:5687 rc.cpp:5747
 msgid "Type:"
 msgstr "ধরন:"
 
@@ -39071,7 +39081,7 @@ msgstr "বিষুবাংশ:"
 #. i18n: ectx: property (text), widget (QLabel, label_27)
 #: rc.cpp:2042 rc.cpp:2144 rc.cpp:2165 rc.cpp:2231 rc.cpp:2243 rc.cpp:2309
 #: rc.cpp:2345 rc.cpp:2369 rc.cpp:2547 rc.cpp:2577 rc.cpp:2610 rc.cpp:3141
-#: rc.cpp:5732
+#: rc.cpp:5756
 msgid "Declination:"
 msgstr "বিষুবলম্ব:"
 
@@ -39333,7 +39343,7 @@ msgstr "এখন"
 #. i18n: file: comast/execute.ui:88
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: rc.cpp:2129 rc.cpp:2408 rc.cpp:2511 rc.cpp:3021 rc.cpp:3042 rc.cpp:3126
-#: rc.cpp:5696
+#: rc.cpp:5720
 #, fuzzy
 msgid "Location:"
 msgstr "কাজ:"
@@ -39385,7 +39395,7 @@ msgstr "বস্তু খোঁজো..."
 #. i18n: ectx: property (text), widget (QLabel, AzLabel)
 #. i18n: file: comast/execute.ui:251
 #. i18n: ectx: property (text), widget (QLabel, label_23)
-#: rc.cpp:2153 rc.cpp:2183 rc.cpp:3905 rc.cpp:5738
+#: rc.cpp:2153 rc.cpp:2183 rc.cpp:3905 rc.cpp:5762
 msgid "Azimuth:"
 msgstr "দিগংশ:"
 
@@ -39397,7 +39407,7 @@ msgstr "দিগংশ:"
 #. i18n: ectx: property (text), widget (QLabel, AltLabel)
 #. i18n: file: comast/execute.ui:237
 #. i18n: ectx: property (text), widget (QLabel, label_21)
-#: rc.cpp:2156 rc.cpp:2180 rc.cpp:3917 rc.cpp:5735
+#: rc.cpp:2156 rc.cpp:2180 rc.cpp:3917 rc.cpp:5759
 msgid "Altitude:"
 msgstr "উন্নতি:"
 
@@ -40278,7 +40288,7 @@ msgstr "সৌরবস্তু:"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:181
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMercury)
-#: rc.cpp:2838 rc.cpp:2922 rc.cpp:5414 skymapdraw.cpp:323
+#: rc.cpp:2838 rc.cpp:2922 rc.cpp:5438 skymapdraw.cpp:323
 #: tools/conjunctions.cpp:74 tools/ksconjunct.cpp:59
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:429
 #: tools/obslistwizard.cpp:443 skycomponents/skymapcomposite.cpp:450
@@ -40295,7 +40305,7 @@ msgstr "বুধগ্রহ (মার্কারি)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:129
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowVenus)
-#: rc.cpp:2841 rc.cpp:2925 rc.cpp:5378 skymapdraw.cpp:324
+#: rc.cpp:2841 rc.cpp:2925 rc.cpp:5402 skymapdraw.cpp:324
 #: tools/conjunctions.cpp:75 tools/ksconjunct.cpp:59
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:430
 #: tools/obslistwizard.cpp:444 skycomponents/skymapcomposite.cpp:451
@@ -40322,7 +40332,7 @@ msgstr "পৃথিবী"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:64
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMars)
-#: rc.cpp:2847 rc.cpp:2931 rc.cpp:5333 skymapdraw.cpp:326
+#: rc.cpp:2847 rc.cpp:2931 rc.cpp:5357 skymapdraw.cpp:326
 #: tools/conjunctions.cpp:76 tools/ksconjunct.cpp:56
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:431
 #: tools/obslistwizard.cpp:445 skycomponents/skymapcomposite.cpp:453
@@ -40339,7 +40349,7 @@ msgstr "মঙ্গলগ্রহ (মার্স)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:155
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowJupiter)
-#: rc.cpp:2850 rc.cpp:2934 rc.cpp:5396 skymapdraw.cpp:327
+#: rc.cpp:2850 rc.cpp:2934 rc.cpp:5420 skymapdraw.cpp:327
 #: tools/conjunctions.cpp:77 tools/jmoontool.cpp:117
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:432
 #: tools/obslistwizard.cpp:446 skycomponents/skymapcomposite.cpp:454
@@ -40356,7 +40366,7 @@ msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:38
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSaturn)
-#: rc.cpp:2853 rc.cpp:2937 rc.cpp:5315 skymapdraw.cpp:328
+#: rc.cpp:2853 rc.cpp:2937 rc.cpp:5339 skymapdraw.cpp:328
 #: tools/conjunctions.cpp:78 tools/modcalcplanets.cpp:269
 #: tools/obslistwizard.cpp:433 tools/obslistwizard.cpp:447
 #: skycomponents/skymapcomposite.cpp:455
@@ -40373,7 +40383,7 @@ msgstr "শনিগ্রহ (স্যাটার্ন)"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:223
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUranus)
-#: rc.cpp:2856 rc.cpp:2940 rc.cpp:5432 skymapdraw.cpp:329
+#: rc.cpp:2856 rc.cpp:2940 rc.cpp:5456 skymapdraw.cpp:329
 #: tools/conjunctions.cpp:79 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:434 tools/obslistwizard.cpp:448
 #: skycomponents/skymapcomposite.cpp:456 skyobjects/ksplanetbase.cpp:162
@@ -40388,7 +40398,7 @@ msgstr "ইউরেনাস"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:194
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNeptune)
-#: rc.cpp:2859 rc.cpp:2943 rc.cpp:5423 skymapdraw.cpp:330
+#: rc.cpp:2859 rc.cpp:2943 rc.cpp:5447 skymapdraw.cpp:330
 #: tools/conjunctions.cpp:80 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:435 tools/obslistwizard.cpp:449
 #: skycomponents/skymapcomposite.cpp:457 skyobjects/ksplanetbase.cpp:163
@@ -40403,7 +40413,7 @@ msgstr "নেপচুন"
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: file: options/opssolarsystem.ui:90
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPluto)
-#: rc.cpp:2862 rc.cpp:2946 rc.cpp:5351 skymapdraw.cpp:331
+#: rc.cpp:2862 rc.cpp:2946 rc.cpp:5375 skymapdraw.cpp:331
 #: tools/conjunctions.cpp:81 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:436 tools/obslistwizard.cpp:450
 #: tools/wutdialog.cpp:263 skycomponents/skymapcomposite.cpp:458
@@ -40948,7 +40958,7 @@ msgstr "সূর্য, চাঁদ, গ্রহ"
 #. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #. i18n: file: options/opssolarsystem.ui:375
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowComets)
-#: rc.cpp:3339 rc.cpp:5477 tools/obslistwizard.cpp:227
+#: rc.cpp:3339 rc.cpp:5501 tools/obslistwizard.cpp:227
 #: tools/obslistwizard.cpp:343 tools/obslistwizard.cpp:511
 #: tools/wutdialog.cpp:113 dialogs/finddialog.cpp:42
 msgid "Comets"
@@ -40958,7 +40968,7 @@ msgstr "ধূমকেতু"
 #. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #. i18n: file: options/opssolarsystem.ui:265
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAsteroids)
-#: rc.cpp:3342 rc.cpp:5444 tools/obslistwizard.cpp:228
+#: rc.cpp:3342 rc.cpp:5468 tools/obslistwizard.cpp:228
 #: tools/obslistwizard.cpp:345 tools/obslistwizard.cpp:519
 #: tools/wutdialog.cpp:113 dialogs/finddialog.cpp:43
 msgid "Asteroids"
@@ -41243,13 +41253,13 @@ msgstr "এ থেকে &উজ্জ্বলতর খ-বস্তু নি
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: file: options/opsadvanced.ui:301
 #. i18n: ectx: property (text), widget (QLabel, textLabelMag1)
-#. i18n: file: options/opscatalog.ui:316
+#. i18n: file: options/opscatalog.ui:325
 #. i18n: ectx: property (text), widget (QLabel, LabelMag3)
-#. i18n: file: options/opscatalog.ui:323
+#. i18n: file: options/opscatalog.ui:336
 #. i18n: ectx: property (text), widget (QLabel, LabelMag4)
 #. i18n: file: options/opssolarsystem.ui:294
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
-#: rc.cpp:3450 rc.cpp:4982 rc.cpp:5093 rc.cpp:5096 rc.cpp:5456
+#: rc.cpp:3450 rc.cpp:4982 rc.cpp:5101 rc.cpp:5108 rc.cpp:5480
 msgid "mag"
 msgstr "উজ্জ্বলতা"
 
@@ -42008,7 +42018,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, DescLabel)
 #. i18n: file: comast/execute.ui:423
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: rc.cpp:3803 rc.cpp:5780
+#: rc.cpp:3803 rc.cpp:5804
 msgid "Description:"
 msgstr "বিবরণ:"
 
@@ -42107,7 +42117,7 @@ msgstr "আকার:"
 #. i18n: ectx: property (text), widget (QLabel, MagLabel)
 #. i18n: file: comast/execute.ui:167
 #. i18n: ectx: property (text), widget (QLabel, label_20)
-#: rc.cpp:3848 rc.cpp:5720
+#: rc.cpp:3848 rc.cpp:5744
 msgid "Magnitude:"
 msgstr "উজ্জ্বলতা:"
 
@@ -42418,8 +42428,8 @@ msgstr "চিহ্নিত FOV প্রতীককে তালিকা �
 #. i18n: ectx: property (text), widget (QPushButton, RemoveLens)
 #. i18n: file: comast/equipmentwriter.ui:620
 #. i18n: ectx: property (text), widget (QPushButton, RemoveFilter)
-#: rc.cpp:4031 rc.cpp:4491 rc.cpp:4806 rc.cpp:5582 rc.cpp:5621 rc.cpp:5651
-#: rc.cpp:5678
+#: rc.cpp:4031 rc.cpp:4491 rc.cpp:4806 rc.cpp:5606 rc.cpp:5645 rc.cpp:5675
+#: rc.cpp:5702
 #, fuzzy
 msgid "Remove"
 msgstr "&অপসারণ করো"
@@ -42523,7 +42533,7 @@ msgstr ""
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
 #. i18n: file: comast/equipmentwriter.ui:217
 #. i18n: ectx: attribute (title), widget (QWidget, Eyepiece)
-#: rc.cpp:4091 rc.cpp:5585
+#: rc.cpp:4091 rc.cpp:5609
 msgid "Eyepiece"
 msgstr "আইপিস"
 
@@ -42592,7 +42602,7 @@ msgstr ""
 #. i18n: file: comast/equipmentwriter.ui:269
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #: rc.cpp:4111 rc.cpp:4122 rc.cpp:4175 rc.cpp:4186 rc.cpp:4794 rc.cpp:4797
-#: rc.cpp:5564 rc.cpp:5570 rc.cpp:5594
+#: rc.cpp:5588 rc.cpp:5594 rc.cpp:5618
 msgid "mm"
 msgstr "মিলিমিটার"
 
@@ -43333,7 +43343,7 @@ msgstr "সম্পাদন..."
 #. i18n: ectx: property (text), widget (QTreeWidget, clientTreeWidget)
 #. i18n: file: comast/observeradd.ui:14
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:4497 rc.cpp:5789 tools/observinglist.cpp:107
+#: rc.cpp:4497 rc.cpp:5813 tools/observinglist.cpp:107
 #: tools/observinglist.cpp:110
 msgid "Name"
 msgstr "নাম"
@@ -43467,7 +43477,7 @@ msgstr "আই.এস.ও. ৮৬০১ টাইম স্ট্যাম্প
 #. i18n: ectx: property (title), widget (QGroupBox, setupGroup_2)
 #. i18n: file: comast/equipmentwriter.ui:516
 #. i18n: ectx: attribute (title), widget (QWidget, Filter)
-#: rc.cpp:4572 rc.cpp:5654
+#: rc.cpp:4572 rc.cpp:5678
 msgid "Filter"
 msgstr "ফিল্টার"
 
@@ -43869,7 +43879,7 @@ msgstr "ফোকাস দূরত্ব:"
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2_3)
 #. i18n: file: comast/equipmentwriter.ui:114
 #. i18n: ectx: property (text), widget (QLabel, label_13)
-#: rc.cpp:4791 rc.cpp:5561
+#: rc.cpp:4791 rc.cpp:5585
 msgid "Aperture:"
 msgstr "অ্যাপার্চার:"
 
@@ -44416,7 +44426,7 @@ msgstr "তারামণ্ডলের নাম"
 msgid "Object labels"
 msgstr "বস্তুর নাম"
 
-#. i18n: file: options/opscatalog.ui:24
+#. i18n: file: options/opscatalog.ui:25
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStars)
 #: rc.cpp:5063
 #, fuzzy
@@ -44424,7 +44434,7 @@ msgstr "বস্তুর নাম"
 msgid "&Star Catalogs"
 msgstr "তালিকা"
 
-#. i18n: file: options/opscatalog.ui:39
+#. i18n: file: options/opscatalog.ui:40
 #. i18n: ectx: property (text), widget (QLabel, LabelStarDensity)
 #: rc.cpp:5066
 #, fuzzy
@@ -44432,82 +44442,102 @@ msgstr "তালিকা"
 msgid "Star Density:"
 msgstr "তারার রঙের তীব্রতা:"
 
-#. i18n: file: options/opscatalog.ui:107
+#. i18n: file: options/opscatalog.ui:108
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStarNames)
 #: rc.cpp:5069
 msgid "Show &name"
 msgstr "না&ম দেখাও"
 
-#. i18n: file: options/opscatalog.ui:114
+#. i18n: file: options/opscatalog.ui:115
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStarMagnitudes)
 #: rc.cpp:5072
 msgid "Show ma&gnitude"
 msgstr "&উজ্জ্বলতা দেখাও"
 
-#. i18n: file: options/opscatalog.ui:173
+#. i18n: file: options/opscatalog.ui:174
 #. i18n: ectx: property (text), widget (QLabel, LabelDensity)
 #. i18n: file: options/opssolarsystem.ui:350
 #. i18n: ectx: property (text), widget (QLabel, LabelDensity)
-#: rc.cpp:5075 rc.cpp:5468
+#: rc.cpp:5075 rc.cpp:5492
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Lake City"
 msgid "Label density:"
 msgstr "লেক সিটি"
 
-#. i18n: file: options/opscatalog.ui:222
+#. i18n: file: options/opscatalog.ui:223
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDeepSky)
 #: rc.cpp:5078
 #, fuzzy
 msgid "Deep-Sky Catalogs"
 msgstr "দূর-আকাশের বস্তু"
 
-#. i18n: file: options/opscatalog.ui:252
+#. i18n: file: options/opscatalog.ui:253
 #. i18n: ectx: property (text), widget (KPushButton, AddCatalog)
 #: rc.cpp:5081
 msgid "Import Catalog..."
 msgstr "ক্যাটালগ আমদানি করো..."
 
-#. i18n: file: options/opscatalog.ui:259
+#. i18n: file: options/opscatalog.ui:260
 #. i18n: ectx: property (text), widget (KPushButton, LoadCatalog)
 #: rc.cpp:5084
 msgid "Load Catalog..."
 msgstr "ক্যাটালগ লোড করো..."
 
-#. i18n: file: options/opscatalog.ui:269
+#. i18n: file: options/opscatalog.ui:270
 #. i18n: ectx: property (text), widget (KPushButton, RemoveCatalog)
 #: rc.cpp:5087
 #, fuzzy
 msgid "Remove Catalog..."
 msgstr "ক্যাটালগ অপসারণ করো"
 
-#. i18n: file: options/opscatalog.ui:309
+#. i18n: file: options/opscatalog.ui:311
+#. i18n: ectx: property (toolTip), widget (QLabel, LabelMagDeepSkyZoomOut)
+#. i18n: file: options/opscatalog.ui:322
+#. i18n: ectx: property (toolTip), widget (QLabel, LabelMag3)
+#. i18n: file: options/opscatalog.ui:333
+#. i18n: ectx: property (toolTip), widget (QLabel, LabelMag4)
+#. i18n: file: options/opscatalog.ui:344
+#. i18n: ectx: property (toolTip), widget (QLabel, LabelMagDeepSky)
+#. i18n: file: options/opscatalog.ui:355
+#. i18n: ectx: property (toolTip), widget (MagnitudeSpinBox, kcfg_MagLimitDrawDeepSky)
+#. i18n: file: options/opscatalog.ui:363
+#. i18n: ectx: property (toolTip), widget (MagnitudeSpinBox, kcfg_MagLimitDrawDeepSkyZoomOut)
+#: rc.cpp:5090 rc.cpp:5097 rc.cpp:5104 rc.cpp:5111 rc.cpp:5118 rc.cpp:5122
+msgid ""
+"Set the faint magnitude limits for NGC / Messier objects when zoomed in and "
+"zoomed out. \n"
+"These magnitude limits do not affect IC objects, as the magnitudes for many "
+"IC objects are undefined."
+msgstr ""
+
+#. i18n: file: options/opscatalog.ui:314
 #. i18n: ectx: property (text), widget (QLabel, LabelMagDeepSkyZoomOut)
-#: rc.cpp:5090
+#: rc.cpp:5094
 msgid "Faint limit zoomed out:"
 msgstr "ছোট করে দেখার ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা:"
 
-#. i18n: file: options/opscatalog.ui:330
+#. i18n: file: options/opscatalog.ui:347
 #. i18n: ectx: property (text), widget (QLabel, LabelMagDeepSky)
-#: rc.cpp:5099
+#: rc.cpp:5115
 msgid "Faint limit zoomed in:"
 msgstr "বিবর্ধনের ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা:"
 
 #. i18n: file: options/opscolors.ui:22
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:5102
+#: rc.cpp:5126
 msgid "Current Colors"
 msgstr "বর্তমান রং"
 
 #. i18n: file: options/opscolors.ui:34
 #. i18n: ectx: property (toolTip), widget (QListWidget, ColorPalette)
-#: rc.cpp:5105
+#: rc.cpp:5129
 msgid "Current color settings"
 msgstr "বর্তমান রঙের বৈশিষ্ট্য"
 
 #. i18n: file: options/opscolors.ui:37
 #. i18n: ectx: property (whatsThis), widget (QListWidget, ColorPalette)
-#: rc.cpp:5108
+#: rc.cpp:5132
 msgid ""
 "The list of all customizable colors in the program.  Next to each item is a "
 "square showing the color it is currently set to.  Click on any item to "
@@ -44519,43 +44549,43 @@ msgstr ""
 
 #. i18n: file: options/opscolors.ui:52
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:5111
+#: rc.cpp:5135
 msgid "InfoBox BG mode:"
 msgstr "তথ্যমূলক-বাক্সের পটভূমি মোড:"
 
 #. i18n: file: options/opscolors.ui:60
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_BoxBGMode)
-#: rc.cpp:5114
+#: rc.cpp:5138
 msgid "No Fill"
 msgstr "পূরণ করবে না"
 
 #. i18n: file: options/opscolors.ui:65
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_BoxBGMode)
-#: rc.cpp:5117
+#: rc.cpp:5141
 msgid "Transparent"
 msgstr "স্বচ্ছ"
 
 #. i18n: file: options/opscolors.ui:70
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_BoxBGMode)
-#: rc.cpp:5120
+#: rc.cpp:5144
 msgid "Opaque"
 msgstr "অস্বচ্ছ"
 
 #. i18n: file: options/opscolors.ui:88
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:5123
+#: rc.cpp:5147
 msgid "Star color mode:"
 msgstr "তারা রং করার মোড:"
 
 #. i18n: file: options/opscolors.ui:98
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_StarColorMode)
-#: rc.cpp:5126
+#: rc.cpp:5150
 msgid "Set the star color mode"
 msgstr "তারা রং করার মোড নির্ধারণ করুন"
 
 #. i18n: file: options/opscolors.ui:101
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_StarColorMode)
-#: rc.cpp:5129
+#: rc.cpp:5153
 msgid ""
 "There are four ways to draw stars on the map.  By default, stars are circles "
 "with a white core and a rim which is tinted to reflect the star's actual "
@@ -44569,19 +44599,19 @@ msgstr ""
 
 #. i18n: file: options/opscolors.ui:118
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
-#: rc.cpp:5132
+#: rc.cpp:5156
 msgid "Star color intensity:"
 msgstr "তারার রঙের তীব্রতা:"
 
 #. i18n: file: options/opscolors.ui:125
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_StarColorIntensity)
-#: rc.cpp:5135
+#: rc.cpp:5159
 msgid "Set the intensity of star colors"
 msgstr "তারার রঙের তীব্রতা নির্ধারণ করুন"
 
 #. i18n: file: options/opscolors.ui:128
 #. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_StarColorIntensity)
-#: rc.cpp:5138
+#: rc.cpp:5162
 msgid ""
 "When using the realistic-color star mode, this option will set the "
 "saturation level of the star's colors.  A higher value means more intense "
@@ -44592,19 +44622,19 @@ msgstr ""
 
 #. i18n: file: options/opscolors.ui:140
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:5141
+#: rc.cpp:5165
 msgid "Preset Color Schemes"
 msgstr "পূর্বনির্ধারিত রং বিন্যাস"
 
 #. i18n: file: options/opscolors.ui:152
 #. i18n: ectx: property (toolTip), widget (QListWidget, PresetBox)
-#: rc.cpp:5144
+#: rc.cpp:5168
 msgid "List of preset color schemes"
 msgstr "পূর্বনির্ধারিত রং বিন্যাসের তালিকা"
 
 #. i18n: file: options/opscolors.ui:155
 #. i18n: ectx: property (whatsThis), widget (QListWidget, PresetBox)
-#: rc.cpp:5147
+#: rc.cpp:5171
 msgid ""
 "List of all known color schemes.  Several are provided by default, and you "
 "may also define your own."
@@ -44614,13 +44644,13 @@ msgstr ""
 
 #. i18n: file: options/opscolors.ui:186
 #. i18n: ectx: property (toolTip), widget (KPushButton, RemovePreset)
-#: rc.cpp:5150
+#: rc.cpp:5174
 msgid "Remove a preset color scheme"
 msgstr "একটি পূর্বনির্ধারিত রং বিন্যাস অপসারণ করো"
 
 #. i18n: file: options/opscolors.ui:189
 #. i18n: ectx: property (whatsThis), widget (KPushButton, RemovePreset)
-#: rc.cpp:5153
+#: rc.cpp:5177
 msgid ""
 "Press this button to remove the highlighted color scheme.  This will only "
 "work on your custom color schemes."
@@ -44630,19 +44660,19 @@ msgstr ""
 
 #. i18n: file: options/opscolors.ui:192
 #. i18n: ectx: property (text), widget (KPushButton, RemovePreset)
-#: rc.cpp:5156
+#: rc.cpp:5180
 msgid "Remove Color Scheme"
 msgstr "রং বিন্যাস অপসারণ করো"
 
 #. i18n: file: options/opscolors.ui:247
 #. i18n: ectx: property (toolTip), widget (KPushButton, AddPreset)
-#: rc.cpp:5159
+#: rc.cpp:5183
 msgid "Create a new preset color scheme using current settings"
 msgstr "বর্তমান বৈশিষ্ট্য ব্যবহার করে একটি নতুন পূর্বনির্ধারিত রং বিন্যাস তৈরি করো"
 
 #. i18n: file: options/opscolors.ui:250
 #. i18n: ectx: property (whatsThis), widget (KPushButton, AddPreset)
-#: rc.cpp:5162
+#: rc.cpp:5186
 #, fuzzy
 msgid ""
 "After changing the colors to a scheme that you like, press this button to "
@@ -44656,129 +44686,129 @@ msgstr ""
 
 #. i18n: file: options/opscolors.ui:253
 #. i18n: ectx: property (text), widget (KPushButton, AddPreset)
-#: rc.cpp:5165
+#: rc.cpp:5189
 msgid "Save Current Colors..."
 msgstr "বর্তমান রং সংরক্ষণ করো..."
 
 #. i18n: file: options/opsguides.ui:16
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCLines)
-#: rc.cpp:5168
+#: rc.cpp:5192
 msgid "Show constellation lines?"
 msgstr "তারামণ্ডলের রেখা দেখানো হবে কি?"
 
 #. i18n: file: options/opsguides.ui:19
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowCLines)
-#: rc.cpp:5171
+#: rc.cpp:5195
 msgid "If checked, constellation lines will be drawn on the sky map."
 msgstr "টিক দেওয়া থাকলে, খ-মানচিত্রে তারামণ্ডলের রেখা আঁকা হবে।"
 
 #. i18n: file: options/opsguides.ui:22
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCLines)
-#: rc.cpp:5174
+#: rc.cpp:5198
 msgid "&Constellation lines"
 msgstr "তারা&মণ্ডলের রেখা"
 
 #. i18n: file: options/opsguides.ui:37
 #. i18n: ectx: property (text), widget (QLabel, textLabelSkyCulture)
-#: rc.cpp:5177
+#: rc.cpp:5201
 msgid "Sky culture:"
 msgstr ""
 
 #. i18n: file: options/opsguides.ui:47
 #. i18n: ectx: property (toolTip), widget (KComboBox, kcfg_SkyCulture)
-#: rc.cpp:5180
+#: rc.cpp:5204
 msgid "Choose sky culture"
 msgstr ""
 
 #. i18n: file: options/opsguides.ui:50
 #. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_SkyCulture)
-#: rc.cpp:5183
+#: rc.cpp:5207
 msgid "Here, you can choose how constellations are represented"
 msgstr ""
 
 #. i18n: file: options/opsguides.ui:59
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCBounds)
-#: rc.cpp:5186
+#: rc.cpp:5210
 msgid "Constellation &boundaries"
 msgstr "তারামণ্ডলের সীমারেখা (&স)"
 
 #. i18n: file: options/opsguides.ui:66
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHighlightedCBound)
-#: rc.cpp:5189
+#: rc.cpp:5213
 #, fuzzy
 msgid "Highlight central constellation boundary"
 msgstr "তারামণ্ডলের সীমারেখা"
 
 #. i18n: file: options/opsguides.ui:73
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCNames)
-#: rc.cpp:5192
+#: rc.cpp:5216
 msgid "Draw constellation names?"
 msgstr "তারামণ্ডলের নাম দেখানো হবে কি?"
 
 #. i18n: file: options/opsguides.ui:76
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowCNames)
-#: rc.cpp:5195
+#: rc.cpp:5219
 msgid "If checked, constellation names will be drawn on the sky map."
 msgstr "টিক দেওয়া থাকলে, খ-মানচিত্রে তারামণ্ডলের নাম দেখানো হবে।"
 
 #. i18n: file: options/opsguides.ui:79
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCNames)
-#: rc.cpp:5198
+#: rc.cpp:5222
 msgid "Constellation &names"
 msgstr "তারামণ্ডলের নাম (&ন)"
 
 #. i18n: file: options/opsguides.ui:86
 #. i18n: ectx: property (title), widget (QGroupBox, ConstellOptions)
-#: rc.cpp:5201
+#: rc.cpp:5225
 msgid "Constellation Name Options"
 msgstr "তারামণ্ডলের নাম সংক্রান্ত অপশন"
 
 #. i18n: file: options/opsguides.ui:98
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_UseLatinConstellNames)
-#: rc.cpp:5204
+#: rc.cpp:5228
 msgid "Use Latin constellation names"
 msgstr "তারামণ্ডলের ল্যাটিন নাম ব্যবহার করো"
 
 #. i18n: file: options/opsguides.ui:101
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_UseLatinConstellNames)
-#: rc.cpp:5207
+#: rc.cpp:5231
 msgid "Select this to use Latin constellation names on the sky map"
 msgstr "তারামণ্ডলের ল্যাটিন নাম ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: file: options/opsguides.ui:104
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseLatinConstellNames)
-#: rc.cpp:5210
+#: rc.cpp:5234
 msgid "L&atin"
 msgstr "ল্যাটি&ন"
 
 #. i18n: file: options/opsguides.ui:111
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_UseLocalConstellNames)
-#: rc.cpp:5213
+#: rc.cpp:5237
 msgid "Use Localized constellation names"
 msgstr "তারামণ্ডলের স্থানীয় নাম ব্যবহার করো"
 
 #. i18n: file: options/opsguides.ui:114
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_UseLocalConstellNames)
-#: rc.cpp:5216
+#: rc.cpp:5240
 msgid ""
 "Select this to use constellation names from your locality (if available)"
 msgstr "তারামণ্ডলের স্থানীয় নাম (যদি থাকে) ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: file: options/opsguides.ui:117
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseLocalConstellNames)
-#: rc.cpp:5219
+#: rc.cpp:5243
 msgid "Localized"
 msgstr "স্থানীয়"
 
 #. i18n: file: options/opsguides.ui:124
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_UseAbbrevConstellNames)
-#: rc.cpp:5222
+#: rc.cpp:5246
 msgid "Use IAU abbreviations"
 msgstr "আই.এ.ইউ. নির্ধারিত সংক্ষিপ্ত নাম ব্যবহার করো"
 
 #. i18n: file: options/opsguides.ui:127
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_UseAbbrevConstellNames)
-#: rc.cpp:5225
+#: rc.cpp:5249
 msgid ""
 "Select this to use abbreviations from the International Astronomical Union "
 "as constellation labels"
@@ -44788,38 +44818,38 @@ msgstr ""
 
 #. i18n: file: options/opsguides.ui:130
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseAbbrevConstellNames)
-#: rc.cpp:5228
+#: rc.cpp:5252
 msgid "Abbre&viated"
 msgstr "স&ংক্ষেপিত"
 
 #. i18n: file: options/opsguides.ui:156
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMilkyWay)
-#: rc.cpp:5231
+#: rc.cpp:5255
 msgid "Draw the Milky Way contour?"
 msgstr "আকাশ গঙ্গার আবয়ব আঁকা হবে কি?"
 
 #. i18n: file: options/opsguides.ui:159
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMilkyWay)
-#: rc.cpp:5234
+#: rc.cpp:5258
 msgid ""
 "If checked, a contour representing the Milky Way will be drawn on the sky map"
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে আকাশ গঙ্গা নির্দেশক আবয়ব আঁকা হবে"
 
 #. i18n: file: options/opsguides.ui:162
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMilkyWay)
-#: rc.cpp:5237
+#: rc.cpp:5261
 msgid "Mil&ky Way"
 msgstr "&আকাশ গঙ্গা"
 
 #. i18n: file: options/opsguides.ui:169
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FillMilkyWay)
-#: rc.cpp:5240
+#: rc.cpp:5264
 msgid "Use filled Milky Way contour?"
 msgstr "আকাশ গঙ্গার আবয়ব ভরাট করা থাকবে কি?"
 
 #. i18n: file: options/opsguides.ui:172
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_FillMilkyWay)
-#: rc.cpp:5243
+#: rc.cpp:5267
 msgid ""
 "If checked, the Milky Way contour will be shown filled.  Otherwise, only the "
 "outline will be drawn."
@@ -44829,19 +44859,19 @@ msgstr ""
 
 #. i18n: file: options/opsguides.ui:175
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FillMilkyWay)
-#: rc.cpp:5246
+#: rc.cpp:5270
 msgid "Fill Milk&y Way"
 msgstr "আকা&শ গঙ্গার আবয়ব ভরাট করো"
 
 #. i18n: file: options/opsguides.ui:198
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowGrid)
-#: rc.cpp:5249
+#: rc.cpp:5273
 msgid "Draw coordinate grid?"
 msgstr "স্থানাংক রেখা আঁকা হবে কি?"
 
 #. i18n: file: options/opsguides.ui:201
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowGrid)
-#: rc.cpp:5252
+#: rc.cpp:5276
 msgid ""
 "If checked, a grid of lines will be drawn every 2 hours in Right Ascension "
 "and every 20 degrees in Declination."
@@ -44851,37 +44881,37 @@ msgstr ""
 
 #. i18n: file: options/opsguides.ui:204
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowGrid)
-#: rc.cpp:5255
+#: rc.cpp:5279
 msgid "Coor&dinate grid"
 msgstr "স্থানাং&ক রেখা"
 
 #. i18n: file: options/opsguides.ui:211
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowEquator)
-#: rc.cpp:5258
+#: rc.cpp:5282
 msgid "Draw Celestial equator?"
 msgstr "খ-বিষুব আঁকা হবে কি?"
 
 #. i18n: file: options/opsguides.ui:214
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowEquator)
-#: rc.cpp:5261
+#: rc.cpp:5285
 msgid "If checked, the celestial equator will be drawn in the sky map."
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে খ-বিষুব আঁকা হবে।"
 
 #. i18n: file: options/opsguides.ui:217
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEquator)
-#: rc.cpp:5264
+#: rc.cpp:5288
 msgid "Celestial e&quator"
 msgstr "&খ-বিষুব"
 
 #. i18n: file: options/opsguides.ui:224
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowEcliptic)
-#: rc.cpp:5267
+#: rc.cpp:5291
 msgid "Draw Ecliptic?"
 msgstr "সূর্যপথ আঁকা হবে কি?"
 
 #. i18n: file: options/opsguides.ui:227
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowEcliptic)
-#: rc.cpp:5270
+#: rc.cpp:5294
 msgid ""
 "If checked, the ecliptic will be drawn on the sky map.  The ecliptic is a "
 "great circle on the sky that the Sun appears to follow over the course of "
@@ -44893,13 +44923,13 @@ msgstr ""
 
 #. i18n: file: options/opsguides.ui:237
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHorizon)
-#: rc.cpp:5276
+#: rc.cpp:5300
 msgid "Draw horizon?"
 msgstr "দিগন্ত আঁকা হবে কি?"
 
 #. i18n: file: options/opsguides.ui:240
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowHorizon)
-#: rc.cpp:5279
+#: rc.cpp:5303
 msgid ""
 "If checked, a line representing the local horizon will be drawn on the map."
 msgstr ""
@@ -44908,19 +44938,19 @@ msgstr ""
 
 #. i18n: file: options/opsguides.ui:243
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHorizon)
-#: rc.cpp:5282
+#: rc.cpp:5306
 msgid "Hori&zon (line)"
 msgstr "দি&গন্ত (রেখা)"
 
 #. i18n: file: options/opsguides.ui:250
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowGround)
-#: rc.cpp:5285
+#: rc.cpp:5309
 msgid "Draw opaque ground?"
 msgstr "অস্বচ্ছ ভূমি আঁকা হবে কি?"
 
 #. i18n: file: options/opsguides.ui:253
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowGround)
-#: rc.cpp:5288
+#: rc.cpp:5312
 msgid ""
 "If checked, the area below the horizon will be filled in, to simulate the "
 "ground beneath you.  Note that the ground is never drawn when using the "
@@ -44931,13 +44961,13 @@ msgstr ""
 
 #. i18n: file: options/opsguides.ui:256
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowGround)
-#: rc.cpp:5291
+#: rc.cpp:5315
 msgid "Opaque &ground"
 msgstr "&অস্বচ্ছ ভূমি"
 
 #. i18n: file: options/opsguides.ui:263
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowFlags)
-#: rc.cpp:5294
+#: rc.cpp:5318
 #, fuzzy
 #| msgid "Draw Mars?"
 msgid "Draw flags?"
@@ -44945,7 +44975,7 @@ msgstr "মঙ্গলগ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opsguides.ui:266
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowFlags)
-#: rc.cpp:5297
+#: rc.cpp:5321
 #, fuzzy
 #| msgid "If checked, Mars will be drawn on the map."
 msgid "If checked, flags will be drawn on the sky map"
@@ -44953,7 +44983,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 
 #. i18n: file: options/opsguides.ui:269
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowFlags)
-#: rc.cpp:5300
+#: rc.cpp:5324
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Flagstaff"
@@ -44962,38 +44992,38 @@ msgstr "ফ্ল্যাগস্টাফ"
 
 #. i18n: file: options/opssolarsystem.ui:17
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSolarSystem)
-#: rc.cpp:5303
+#: rc.cpp:5327
 #, fuzzy
 msgid "Show solar system objects"
 msgstr "সরে যাওয়ার সময় কি সৌরজগতের সদস্যদের আড়াল করা হবে?"
 
 #. i18n: file: options/opssolarsystem.ui:24
 #. i18n: ectx: property (title), widget (QGroupBox, MajorBodiesBox)
-#: rc.cpp:5306
+#: rc.cpp:5330
 msgid "Sun, Moon && Planets"
 msgstr "সূর্য, চাঁদ ও গ্রহ"
 
 #. i18n: file: options/opssolarsystem.ui:32
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowSaturn)
-#: rc.cpp:5309
+#: rc.cpp:5333
 msgid "Draw Saturn?"
 msgstr "শনিগ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:35
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowSaturn)
-#: rc.cpp:5312
+#: rc.cpp:5336
 msgid "If checked, Saturn will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শনিগ্রহ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:45
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowPlanetImages)
-#: rc.cpp:5318
+#: rc.cpp:5342
 msgid "Draw major bodies as images?"
 msgstr "প্রধান প্রধান খ-বস্তুকে চিত্র হিসাবে আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:48
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowPlanetImages)
-#: rc.cpp:5321
+#: rc.cpp:5345
 msgid ""
 "If checked, then the planets, the Sun and the Moon will be shown as bitmap "
 "images on the map"
@@ -45002,82 +45032,82 @@ msgstr ""
 
 #. i18n: file: options/opssolarsystem.ui:51
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPlanetImages)
-#: rc.cpp:5324
+#: rc.cpp:5348
 msgid "Use images"
 msgstr "ছবি ব্যবহার করো"
 
 #. i18n: file: options/opssolarsystem.ui:58
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMars)
-#: rc.cpp:5327
+#: rc.cpp:5351
 msgid "Draw Mars?"
 msgstr "মঙ্গলগ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:61
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMars)
-#: rc.cpp:5330
+#: rc.cpp:5354
 msgid "If checked, Mars will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে মঙ্গলগ্রহ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:71
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowPlanetNames)
-#: rc.cpp:5336
+#: rc.cpp:5360
 msgid "Attach Name labels to the major solar system bodies?"
 msgstr "সৌরজগতের প্রধান প্রধান সদস্যদের সাথে কি নামের লেবেল যুক্ত করা হবে?"
 
 #. i18n: file: options/opssolarsystem.ui:74
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowPlanetNames)
-#: rc.cpp:5339
+#: rc.cpp:5363
 msgid ""
 "If checked, name labels will be attached to the planets, the Sun and the Moon"
 msgstr "এটিতে টিক দেওয়া থাকলে গ্রহ, সূর্য ও চাঁদের সাথে নামের লেবেল যুক্ত করা হবে"
 
 #. i18n: file: options/opssolarsystem.ui:77
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPlanetNames)
-#: rc.cpp:5342
+#: rc.cpp:5366
 msgid "Use name labels"
 msgstr "নামের লেবেল ব্যবহার করো"
 
 #. i18n: file: options/opssolarsystem.ui:84
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowPluto)
-#: rc.cpp:5345
+#: rc.cpp:5369
 msgid "Draw Pluto?"
 msgstr "প্লুটো আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:87
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowPluto)
-#: rc.cpp:5348
+#: rc.cpp:5372
 msgid "If checked, Pluto will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে প্লুটো আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:97
 #. i18n: ectx: property (toolTip), widget (KPushButton, showAllPlanets)
-#: rc.cpp:5354
+#: rc.cpp:5378
 msgid "Select all major bodies"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
 #. i18n: file: options/opssolarsystem.ui:100
 #. i18n: ectx: property (whatsThis), widget (KPushButton, showAllPlanets)
-#: rc.cpp:5357
+#: rc.cpp:5381
 msgid ""
 "Press this to select all planets, the Sun and the Moon to be drawn in the map"
 msgstr "মানচিত্রে প্রতিটি গ্রহ, সূর্য ও চাঁদ আঁকার জন্য এটিতে চাপ দিন"
 
 #. i18n: file: options/opssolarsystem.ui:103
 #. i18n: ectx: property (text), widget (KPushButton, showAllPlanets)
-#: rc.cpp:5360
+#: rc.cpp:5384
 #, fuzzy
 msgid "Select All"
 msgstr "কিছুই বাছাই করবে না"
 
 #. i18n: file: options/opssolarsystem.ui:110
 #. i18n: ectx: property (toolTip), widget (KPushButton, showNonePlanets)
-#: rc.cpp:5363
+#: rc.cpp:5387
 msgid "Unselect all major bodies"
 msgstr "সকল প্রধান প্রধান খ-বস্তু অবাছাই করো"
 
 #. i18n: file: options/opssolarsystem.ui:113
 #. i18n: ectx: property (whatsThis), widget (KPushButton, showNonePlanets)
-#: rc.cpp:5366
+#: rc.cpp:5390
 msgid ""
 "Press this button to unselect all planets, the Sun and the Moon so that they "
 "will not be drawn on the map"
@@ -45087,145 +45117,145 @@ msgstr ""
 
 #. i18n: file: options/opssolarsystem.ui:116
 #. i18n: ectx: property (text), widget (KPushButton, showNonePlanets)
-#: rc.cpp:5369
+#: rc.cpp:5393
 msgid "Select None"
 msgstr "কিছুই বাছাই করবে না"
 
 #. i18n: file: options/opssolarsystem.ui:123
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowVenus)
-#: rc.cpp:5372
+#: rc.cpp:5396
 msgid "Draw Venus?"
 msgstr "শুক্রগ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:126
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowVenus)
-#: rc.cpp:5375
+#: rc.cpp:5399
 msgid "If checked, Venus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শুক্রগ্রহ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:136
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowSun)
-#: rc.cpp:5381
+#: rc.cpp:5405
 msgid "Draw the Sun?"
 msgstr "সূর্য আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:139
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowSun)
-#: rc.cpp:5384
+#: rc.cpp:5408
 msgid "If checked, the Sun will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে সূর্য আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:142
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSun)
-#: rc.cpp:5387
+#: rc.cpp:5411
 msgid "The sun"
 msgstr "সূর্য"
 
 #. i18n: file: options/opssolarsystem.ui:149
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowJupiter)
-#: rc.cpp:5390
+#: rc.cpp:5414
 msgid "Draw Jupiter?"
 msgstr "বৃহস্পতিগ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:152
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowJupiter)
-#: rc.cpp:5393
+#: rc.cpp:5417
 msgid "If checked, Jupiter will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বৃহস্পতিগ্রহ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:162
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMoon)
-#: rc.cpp:5399
+#: rc.cpp:5423
 msgid "Draw the Moon?"
 msgstr "চাঁদ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:165
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMoon)
-#: rc.cpp:5402
+#: rc.cpp:5426
 msgid "If checked, the Moon will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে চাঁদ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:168
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMoon)
-#: rc.cpp:5405
+#: rc.cpp:5429
 msgid "The moon"
 msgstr "চাঁদ"
 
 #. i18n: file: options/opssolarsystem.ui:175
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMercury)
-#: rc.cpp:5408
+#: rc.cpp:5432
 msgid "Draw Mercury?"
 msgstr "বুধগ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:178
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMercury)
-#: rc.cpp:5411
+#: rc.cpp:5435
 msgid "If checked, Mercury will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বুধগ্রহ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:188
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowNeptune)
-#: rc.cpp:5417
+#: rc.cpp:5441
 msgid "Draw Neptune?"
 msgstr "নেপচুন গ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:191
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowNeptune)
-#: rc.cpp:5420
+#: rc.cpp:5444
 msgid "If checked, Neptune will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে নেপচুন গ্রহ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:217
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowUranus)
-#: rc.cpp:5426
+#: rc.cpp:5450
 msgid "Draw Uranus?"
 msgstr "ইউরেনাস গ্রহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:220
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowUranus)
-#: rc.cpp:5429
+#: rc.cpp:5453
 msgid "If checked, Uranus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে ইউরেনাস গ্রহ আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:251
 #. i18n: ectx: property (title), widget (QGroupBox, MinorBodiesBox)
-#: rc.cpp:5435
+#: rc.cpp:5459
 msgid "Minor Planets"
 msgstr "অপ্রধান গ্রহসমূহ আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:259
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowAsteroids)
-#: rc.cpp:5438
+#: rc.cpp:5462
 msgid "Draw asteroids?"
 msgstr "গ্রহাণু আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:262
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowAsteroids)
-#: rc.cpp:5441
+#: rc.cpp:5465
 msgid "If checked, asteroids will be drawn on the map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে গ্রহাণু আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:272
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:5447
+#: rc.cpp:5471
 msgid "Show asteroids brighter than"
 msgstr "এটি অপেক্ষা অধিক উজ্জ্বল গ্রহাণু দেখাও"
 
 #. i18n: file: options/opssolarsystem.ui:284
 #. i18n: ectx: property (toolTip), widget (MagnitudeSpinBox, kcfg_MagLimitAsteroid)
-#: rc.cpp:5450
+#: rc.cpp:5474
 msgid "faint limit for asteroids"
 msgstr "গ্রহাণুর উজ্জ্বলতার নিম্নসীমা"
 
 #. i18n: file: options/opssolarsystem.ui:287
 #. i18n: ectx: property (whatsThis), widget (MagnitudeSpinBox, kcfg_MagLimitAsteroid)
-#: rc.cpp:5453
+#: rc.cpp:5477
 msgid "Set the faintest magnitude for drawing asteroids"
 msgstr "গ্রহাণু আঁকার ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা নির্ধারণ করুন"
 
 #. i18n: file: options/opssolarsystem.ui:321
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowAsteroidNames)
-#: rc.cpp:5459
+#: rc.cpp:5483
 #, fuzzy
 #| msgid "Attach name labels to bright stars?"
 msgid "Attach name labels to asteroids?"
@@ -45233,7 +45263,7 @@ msgstr "উজ্জ্বল তারার সাথে কি নামে�
 
 #. i18n: file: options/opssolarsystem.ui:324
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowAsteroidNames)
-#: rc.cpp:5462
+#: rc.cpp:5486
 #, fuzzy
 #| msgid "If checked, then name labels will be attached to bright asteroids"
 msgid "If checked, then name labels will be attached to asteroids"
@@ -45241,7 +45271,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, উজ্জ�
 
 #. i18n: file: options/opssolarsystem.ui:327
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAsteroidNames)
-#: rc.cpp:5465
+#: rc.cpp:5489
 #, fuzzy
 #| msgid "Show &name"
 msgid "Show names"
@@ -45249,25 +45279,25 @@ msgstr "না&ম দেখাও"
 
 #. i18n: file: options/opssolarsystem.ui:369
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowComets)
-#: rc.cpp:5471
+#: rc.cpp:5495
 msgid "Draw comets?"
 msgstr "ধূমকেতু আঁকা হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:372
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowComets)
-#: rc.cpp:5474
+#: rc.cpp:5498
 msgid "If checked, comets will be drawn on the map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে ধূমকেতু আঁকা হবে।"
 
 #. i18n: file: options/opssolarsystem.ui:382
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCometNames)
-#: rc.cpp:5480
+#: rc.cpp:5504
 msgid "Show names of comets near the Sun"
 msgstr "সূর্যের নিকটবর্তী ধূমকেতুর নাম দেখাও"
 
 #. i18n: file: options/opssolarsystem.ui:385
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowCometNames)
-#: rc.cpp:5483
+#: rc.cpp:5507
 msgid ""
 "If checked, the comets near the Sun will have name labels attached.  Comets "
 "vary in brightness in their orbits, so a faint magnitude is not effective in "
@@ -45279,19 +45309,19 @@ msgstr ""
 
 #. i18n: file: options/opssolarsystem.ui:388
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCometNames)
-#: rc.cpp:5486
+#: rc.cpp:5510
 msgid "Show names of comets within"
 msgstr "এই দূরত্বের মধ্যে অবস্থিত ধূমকেতুর নাম দেখাও"
 
 #. i18n: file: options/opssolarsystem.ui:397
 #. i18n: ectx: property (toolTip), widget (KDoubleNumInput, kcfg_MaxRadCometName)
-#: rc.cpp:5489
+#: rc.cpp:5513
 msgid "Maximum distance for comet names"
 msgstr "সর্বোচ্চ যে দূরত্বের ক্ষেত্রে ধূমকেতুর নাম দেখানো হবে"
 
 #. i18n: file: options/opssolarsystem.ui:400
 #. i18n: ectx: property (whatsThis), widget (KDoubleNumInput, kcfg_MaxRadCometName)
-#: rc.cpp:5492
+#: rc.cpp:5516
 msgid ""
 "Set the maximum distance from the Sun for a comet to have a name label, in "
 "Astronomical Units (AU).  1 AU is the distance between the Earth and the "
@@ -45303,26 +45333,26 @@ msgstr ""
 
 #. i18n: file: options/opssolarsystem.ui:413
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: rc.cpp:5495
+#: rc.cpp:5519
 msgid "AU"
 msgstr "অ্যাস্ট্রোনমিক্যাল-একক"
 
 #. i18n: file: options/opssolarsystem.ui:440
 #. i18n: ectx: property (title), widget (QGroupBox, TrailsBox)
-#: rc.cpp:5498
+#: rc.cpp:5522
 #, fuzzy
 msgid "Orbit Trails"
 msgstr "কক্ষপথ"
 
 #. i18n: file: options/opssolarsystem.ui:446
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseAutoTrail)
-#: rc.cpp:5501
+#: rc.cpp:5525
 msgid "Auto-trail tracked bodies"
 msgstr "স্বয়ংক্রিয়ভাবে অনুসরণকৃত খ-বস্তুর গতিপথ দেখাও"
 
 #. i18n: file: options/opssolarsystem.ui:449
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseAutoTrail)
-#: rc.cpp:5504
+#: rc.cpp:5528
 msgid ""
 "If checked then any solar system body will have a temporary trail attached "
 "while it is centered in the display."
@@ -45332,19 +45362,19 @@ msgstr ""
 
 #. i18n: file: options/opssolarsystem.ui:452
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseAutoTrail)
-#: rc.cpp:5507
+#: rc.cpp:5531
 msgid "Always show trail when tracking a solar system body"
 msgstr "সৌরজগতের কোন সদস্যকে অনুসরণের ক্ষেত্রে সর্বদা তার গতিপথ দেখাবে"
 
 #. i18n: file: options/opssolarsystem.ui:461
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FadePlanetTrails)
-#: rc.cpp:5510
+#: rc.cpp:5534
 msgid "Fade trail color into the background?"
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দেওয়া হবে কি?"
 
 #. i18n: file: options/opssolarsystem.ui:464
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_FadePlanetTrails)
-#: rc.cpp:5513
+#: rc.cpp:5537
 msgid ""
 "If checked, the color of the planet trail will be blended into the "
 "background sky color."
@@ -45352,19 +45382,19 @@ msgstr "এটিতে টিক দেওয়া থাকলে, গ্রহ�
 
 #. i18n: file: options/opssolarsystem.ui:467
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FadePlanetTrails)
-#: rc.cpp:5516
+#: rc.cpp:5540
 msgid "Fade trails to background color"
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দাও"
 
 #. i18n: file: options/opssolarsystem.ui:490
 #. i18n: ectx: property (toolTip), widget (KPushButton, ClearAllTrails)
-#: rc.cpp:5519
+#: rc.cpp:5543
 msgid "Clear all orbit trails"
 msgstr "প্রতিটি কক্ষপথ মুছে ফেলো"
 
 #. i18n: file: options/opssolarsystem.ui:493
 #. i18n: ectx: property (whatsThis), widget (KPushButton, ClearAllTrails)
-#: rc.cpp:5522
+#: rc.cpp:5546
 msgid ""
 "Press this to clear all orbit trails that you may have attached to solar "
 "system bodies using the right-click popup menu."
@@ -45374,13 +45404,13 @@ msgstr ""
 
 #. i18n: file: options/opssolarsystem.ui:496
 #. i18n: ectx: property (text), widget (KPushButton, ClearAllTrails)
-#: rc.cpp:5525
+#: rc.cpp:5549
 msgid "Remove All Trails"
 msgstr "সকল গতিপথ অপসারণ করো"
 
 #. i18n: file: options/opssolarsystem.ui:521
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
-#: rc.cpp:5528
+#: rc.cpp:5552
 #, fuzzy
 #| msgid "Center && Track"
 msgid "Earth satellite tracks"
@@ -45388,7 +45418,7 @@ msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
 
 #. i18n: file: comast/equipmentwriter.ui:30
 #. i18n: ectx: attribute (title), widget (QWidget, Scope)
-#: rc.cpp:5531
+#: rc.cpp:5555
 #, fuzzy
 #| msgid "Scope"
 msgid "Scope"
@@ -45402,7 +45432,7 @@ msgstr "ক্ষেত্র"
 #. i18n: ectx: property (text), widget (QLabel, label3)
 #. i18n: file: comast/equipmentwriter.ui:532
 #. i18n: ectx: property (text), widget (QLabel, label4)
-#: rc.cpp:5534 rc.cpp:5588 rc.cpp:5630 rc.cpp:5657
+#: rc.cpp:5558 rc.cpp:5612 rc.cpp:5654 rc.cpp:5681
 msgid "Id:"
 msgstr ""
 
@@ -45414,7 +45444,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label3)
 #. i18n: file: comast/equipmentwriter.ui:549
 #. i18n: ectx: property (text), widget (QLabel, label5)
-#: rc.cpp:5537 rc.cpp:5591 rc.cpp:5633 rc.cpp:5660
+#: rc.cpp:5561 rc.cpp:5615 rc.cpp:5657 rc.cpp:5684
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Genoa"
@@ -45423,7 +45453,7 @@ msgstr "জেনোয়া"
 
 #. i18n: file: comast/equipmentwriter.ui:81
 #. i18n: ectx: property (text), item, widget (KComboBox, Type)
-#: rc.cpp:5543
+#: rc.cpp:5567
 #, fuzzy
 #| msgid "Mercury"
 msgid "Refractor"
@@ -45431,7 +45461,7 @@ msgstr "বুধগ্রহ (মার্কারি)"
 
 #. i18n: file: comast/equipmentwriter.ui:86
 #. i18n: ectx: property (text), item, widget (KComboBox, Type)
-#: rc.cpp:5546
+#: rc.cpp:5570
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Newton"
@@ -45440,7 +45470,7 @@ msgstr "নিউটন"
 
 #. i18n: file: comast/equipmentwriter.ui:91
 #. i18n: ectx: property (text), item, widget (KComboBox, Type)
-#: rc.cpp:5549
+#: rc.cpp:5573
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Maputo"
@@ -45449,19 +45479,19 @@ msgstr "মাপুটো"
 
 #. i18n: file: comast/equipmentwriter.ui:96
 #. i18n: ectx: property (text), item, widget (KComboBox, Type)
-#: rc.cpp:5552
+#: rc.cpp:5576
 msgid "Schmidt-Cassegrain"
 msgstr ""
 
 #. i18n: file: comast/equipmentwriter.ui:101
 #. i18n: ectx: property (text), item, widget (KComboBox, Type)
-#: rc.cpp:5555
+#: rc.cpp:5579
 msgid "Kutter (Schiefspiegler)"
 msgstr ""
 
 #. i18n: file: comast/equipmentwriter.ui:106
 #. i18n: ectx: property (text), item, widget (KComboBox, Type)
-#: rc.cpp:5558
+#: rc.cpp:5582
 #, fuzzy
 msgid "Cassegrain"
 msgstr "কাসাব্লাঙ্কা"
@@ -45470,7 +45500,7 @@ msgstr "কাসাব্লাঙ্কা"
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: file: comast/equipmentwriter.ui:278
 #. i18n: ectx: property (text), widget (QLabel, label_10)
-#: rc.cpp:5567 rc.cpp:5597
+#: rc.cpp:5591 rc.cpp:5621
 #, fuzzy
 #| msgid "Focal length:"
 msgid "Focal Length:"
@@ -45484,7 +45514,7 @@ msgstr "ফোকাস দূরত্ব:"
 #. i18n: ectx: property (text), widget (QLabel, label2)
 #. i18n: file: comast/equipmentwriter.ui:582
 #. i18n: ectx: property (text), widget (QLabel, label3)
-#: rc.cpp:5573 rc.cpp:5600 rc.cpp:5642 rc.cpp:5669
+#: rc.cpp:5597 rc.cpp:5624 rc.cpp:5666 rc.cpp:5693
 #, fuzzy
 #| msgid "Mode"
 msgid "Model:"
@@ -45496,7 +45526,7 @@ msgstr "মোড"
 #. i18n: ectx: property (text), widget (QPushButton, NewLens)
 #. i18n: file: comast/equipmentwriter.ui:606
 #. i18n: ectx: property (text), widget (QPushButton, NewFilter)
-#: rc.cpp:5576 rc.cpp:5645 rc.cpp:5672
+#: rc.cpp:5600 rc.cpp:5669 rc.cpp:5696
 #, fuzzy
 #| msgid "New..."
 msgid "Add New.."
@@ -45504,7 +45534,7 @@ msgstr "নতুন..."
 
 #. i18n: file: comast/equipmentwriter.ui:198
 #. i18n: ectx: property (text), widget (QPushButton, AddScope)
-#: rc.cpp:5579
+#: rc.cpp:5603
 #, fuzzy
 #| msgid "Save Script"
 msgid "Save Scope"
@@ -45512,20 +45542,20 @@ msgstr "স্ক্রিপ্ট সংরক্ষণ করো"
 
 #. i18n: file: comast/equipmentwriter.ui:299
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: rc.cpp:5603
+#: rc.cpp:5627
 msgid "Apparent FOV:"
 msgstr ""
 
 #. i18n: file: comast/equipmentwriter.ui:313
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:5606
+#: rc.cpp:5630
 #, fuzzy
 msgid "Unit:"
 msgstr "ইউনিয়ন সিটি"
 
 #. i18n: file: comast/equipmentwriter.ui:321
 #. i18n: ectx: property (text), item, widget (KComboBox, FovUnit)
-#: rc.cpp:5609
+#: rc.cpp:5633
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
@@ -45534,7 +45564,7 @@ msgstr "এভারগ্রিন"
 
 #. i18n: file: comast/equipmentwriter.ui:326
 #. i18n: ectx: property (text), item, widget (KComboBox, FovUnit)
-#: rc.cpp:5612
+#: rc.cpp:5636
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Nandi"
@@ -45543,14 +45573,14 @@ msgstr "নন্দী"
 
 #. i18n: file: comast/equipmentwriter.ui:364
 #. i18n: ectx: property (text), widget (QPushButton, NewEyepiece)
-#: rc.cpp:5615
+#: rc.cpp:5639
 #, fuzzy
 msgid "Add New"
 msgstr "যোগ করো..."
 
 #. i18n: file: comast/equipmentwriter.ui:371
 #. i18n: ectx: property (text), widget (QPushButton, AddEyepiece)
-#: rc.cpp:5618
+#: rc.cpp:5642
 #, fuzzy
 #| msgid "Eyepiece"
 msgid "Save Eyepiece"
@@ -45558,7 +45588,7 @@ msgstr "আইপিস"
 
 #. i18n: file: comast/equipmentwriter.ui:390
 #. i18n: ectx: attribute (title), widget (QWidget, Lens)
-#: rc.cpp:5624
+#: rc.cpp:5648
 #, fuzzy
 #| msgid "Venus"
 msgid "Lens"
@@ -45566,19 +45596,19 @@ msgstr "শুক্রগ্রহ (ভিনাস)"
 
 #. i18n: file: comast/equipmentwriter.ui:407
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: rc.cpp:5627
+#: rc.cpp:5651
 msgid "Enter details of Barlow/Shapley lenses"
 msgstr ""
 
 #. i18n: file: comast/equipmentwriter.ui:446
 #. i18n: ectx: property (toolTip), widget (QLabel, label5)
-#: rc.cpp:5636
+#: rc.cpp:5660
 msgid "Magnification factor of the Barlow/Shapley lens"
 msgstr ""
 
 #. i18n: file: comast/equipmentwriter.ui:449
 #. i18n: ectx: property (text), widget (QLabel, label5)
-#: rc.cpp:5639
+#: rc.cpp:5663
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Falcon"
@@ -45587,14 +45617,14 @@ msgstr "ফ্যালকন"
 
 #. i18n: file: comast/equipmentwriter.ui:497
 #. i18n: ectx: property (text), widget (QPushButton, AddLens)
-#: rc.cpp:5648
+#: rc.cpp:5672
 #, fuzzy
 msgid "Save Lens"
 msgstr "ছবি সংরক্ষণ করো"
 
 #. i18n: file: comast/equipmentwriter.ui:613
 #. i18n: ectx: property (text), widget (QPushButton, AddFilter)
-#: rc.cpp:5675
+#: rc.cpp:5699
 #, fuzzy
 #| msgid "Image Filter"
 msgid "Save Filter"
@@ -45602,7 +45632,7 @@ msgstr "ছবির ফিল্টার"
 
 #. i18n: file: comast/execute.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, Execute)
-#: rc.cpp:5681 comast/execute.cpp:41
+#: rc.cpp:5705 comast/execute.cpp:41
 #, fuzzy
 #| msgctxt "Country name (optional, but should be translated)"
 #| msgid "Ascension Island"
@@ -45611,14 +45641,14 @@ msgstr "এসেশোন দ্বীপ"
 
 #. i18n: file: comast/execute.ui:22
 #. i18n: ectx: property (text), widget (KUrlLabel, SessionURL)
-#: rc.cpp:5684
+#: rc.cpp:5708
 msgid "Step 1: Session Details"
 msgstr ""
 
 # FIXME
 #. i18n: file: comast/execute.ui:29
 #. i18n: ectx: property (text), widget (KUrlLabel, ObservationsURL)
-#: rc.cpp:5687
+#: rc.cpp:5711
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Dyer Observatory"
@@ -45627,7 +45657,7 @@ msgstr "ডিয়ের মানমন্দির"
 
 #. i18n: file: comast/execute.ui:45
 #. i18n: ectx: property (text), widget (KUrlLabel, AddObject)
-#: rc.cpp:5690
+#: rc.cpp:5714
 #, fuzzy
 #| msgid "Select object from a list"
 msgid "Add new object to list"
@@ -45635,7 +45665,7 @@ msgstr "তালিকা থেকে খ-বস্তু বেছে নি�
 
 #. i18n: file: comast/execute.ui:76
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget)
-#: rc.cpp:5693
+#: rc.cpp:5717
 #, fuzzy
 #| msgid "Enter List Name"
 msgid "Enter Session Details:"
@@ -45643,7 +45673,7 @@ msgstr "তালিকার নাম লিখুন"
 
 #. i18n: file: comast/execute.ui:95
 #. i18n: ectx: property (text), widget (QPushButton, Location)
-#: rc.cpp:5699
+#: rc.cpp:5723
 #, fuzzy
 #| msgid "Set Location..."
 msgid "set location"
@@ -45651,7 +45681,7 @@ msgstr "অবস্থান নির্ধারণ..."
 
 #. i18n: file: comast/execute.ui:102
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:5702
+#: rc.cpp:5726
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Berlin"
@@ -45660,21 +45690,21 @@ msgstr "বার্লিন"
 
 #. i18n: file: comast/execute.ui:112
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:5705
+#: rc.cpp:5729
 #, fuzzy
 msgid "Weather:"
 msgstr "উইনার"
 
 #. i18n: file: comast/execute.ui:122
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:5708
+#: rc.cpp:5732
 #, fuzzy
 msgid "Equipment:"
 msgstr "জলবিষুব"
 
 #. i18n: file: comast/execute.ui:132
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:5711
+#: rc.cpp:5735
 #, fuzzy
 #| msgid "Comment"
 msgid "Comment:"
@@ -45682,7 +45712,7 @@ msgstr "মন্তব্য"
 
 #. i18n: file: comast/execute.ui:142
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: rc.cpp:5714
+#: rc.cpp:5738
 #, fuzzy
 #| msgid "Longitude:"
 msgid "Language:"
@@ -45690,7 +45720,7 @@ msgstr "দ্রাঘিমাংশ:"
 
 #. i18n: file: comast/execute.ui:158
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_2)
-#: rc.cpp:5717
+#: rc.cpp:5741
 #, fuzzy
 #| msgid "Object Details"
 msgid "View Object Details:"
@@ -45698,7 +45728,7 @@ msgstr "বস্তুর বিস্তারিত বিবরণ"
 
 #. i18n: file: comast/execute.ui:195
 #. i18n: ectx: property (text), widget (QLabel, label_24)
-#: rc.cpp:5726
+#: rc.cpp:5750
 #, fuzzy
 #| msgid "Set Time..."
 msgid "Schdeduled Time:"
@@ -45706,7 +45736,7 @@ msgstr "সময় নির্ধারণ..."
 
 #. i18n: file: comast/execute.ui:209
 #. i18n: ectx: property (text), widget (QLabel, label_26)
-#: rc.cpp:5729
+#: rc.cpp:5753
 #, fuzzy
 msgid "Right Ascention:"
 msgstr "বিষুবাংশ:"
@@ -45714,7 +45744,7 @@ msgstr "বিষুবাংশ:"
 # FIXME
 #. i18n: file: comast/execute.ui:267
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_4)
-#: rc.cpp:5741
+#: rc.cpp:5765
 #, fuzzy
 #| msgid "observing notes for object:"
 msgid "Set observing notes for the object:"
@@ -45722,7 +45752,7 @@ msgstr "যে খ-বস্তুর জন্য পর্যবেক্ষ�
 
 #. i18n: file: comast/execute.ui:296
 #. i18n: ectx: property (text), widget (QPushButton, Slew)
-#: rc.cpp:5744
+#: rc.cpp:5768
 #, fuzzy
 #| msgid "Scope"
 msgid "Slew Scope"
@@ -45730,7 +45760,7 @@ msgstr "ক্ষেত্র"
 
 #. i18n: file: comast/execute.ui:309
 #. i18n: ectx: property (text), widget (KTitleWidget, ktitlewidget_3)
-#: rc.cpp:5747
+#: rc.cpp:5771
 #, fuzzy
 #| msgid "Open the Object Details window"
 msgid "Enter the Observation Details:"
@@ -45738,7 +45768,7 @@ msgstr "বস্তুর বিস্তারিত বিবরণের উ
 
 #. i18n: file: comast/execute.ui:321
 #. i18n: ectx: property (text), widget (QLabel, label_19)
-#: rc.cpp:5750
+#: rc.cpp:5774
 #, fuzzy
 #| msgid "Server"
 msgid "Observer"
@@ -45746,7 +45776,7 @@ msgstr "সার্ভার"
 
 #. i18n: file: comast/execute.ui:331
 #. i18n: ectx: property (text), widget (QLabel, label_11)
-#: rc.cpp:5753
+#: rc.cpp:5777
 #, fuzzy
 #| msgid "Scope"
 msgid "Scope:"
@@ -45754,7 +45784,7 @@ msgstr "ক্ষেত্র"
 
 #. i18n: file: comast/execute.ui:341
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: rc.cpp:5756
+#: rc.cpp:5780
 #, fuzzy
 #| msgid "Eyepiece"
 msgid "Eyepiece:"
@@ -45762,7 +45792,7 @@ msgstr "আইপিস"
 
 #. i18n: file: comast/execute.ui:351
 #. i18n: ectx: property (text), widget (QLabel, label_17)
-#: rc.cpp:5759
+#: rc.cpp:5783
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Logan"
@@ -45771,14 +45801,14 @@ msgstr "লোগান"
 
 #. i18n: file: comast/execute.ui:371
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: rc.cpp:5765
+#: rc.cpp:5789
 #, fuzzy
 msgid "Seeing:"
 msgstr "স্প্রিংডেল"
 
 #. i18n: file: comast/execute.ui:383
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:5768
+#: rc.cpp:5792
 #, fuzzy
 #| msgid "arcsecs"
 msgid "arc seconds"
@@ -45786,7 +45816,7 @@ msgstr "আর্কসেকেন্ড"
 
 #. i18n: file: comast/execute.ui:392
 #. i18n: ectx: property (text), widget (QLabel, label_15)
-#: rc.cpp:5771
+#: rc.cpp:5795
 #, fuzzy
 #| msgid "Fainter thans"
 msgid "Faintest Star:"
@@ -45794,7 +45824,7 @@ msgstr "এটি অপেক্ষা অনুজ্জ্বল"
 
 #. i18n: file: comast/execute.ui:404
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:5774
+#: rc.cpp:5798
 #, fuzzy
 #| msgid "Magnitude"
 msgid "(magnitude)"
@@ -45802,7 +45832,7 @@ msgstr "উজ্জ্বলতা"
 
 #. i18n: file: comast/execute.ui:413
 #. i18n: ectx: property (text), widget (QLabel, label_16)
-#: rc.cpp:5777
+#: rc.cpp:5801
 #, fuzzy
 #| msgid "Time"
 msgid "Time:"
@@ -45810,7 +45840,7 @@ msgstr "সময়"
 
 #. i18n: file: comast/execute.ui:454
 #. i18n: ectx: property (text), widget (QPushButton, NextButton)
-#: rc.cpp:5783
+#: rc.cpp:5807
 #, fuzzy
 #| msgid "&Next"
 msgid "Next >"
@@ -45820,7 +45850,7 @@ msgstr "&পরবর্তী"
 #. i18n: ectx: property (windowTitle), widget (QWidget, ObserverAdd)
 #. i18n: file: comast/observeradd.ui:61
 #. i18n: ectx: property (text), widget (QPushButton, AddObserver)
-#: rc.cpp:5786 rc.cpp:5798 comast/observeradd.cpp:35
+#: rc.cpp:5810 rc.cpp:5822 comast/observeradd.cpp:35
 #, fuzzy
 #| msgid "Find Object"
 msgid "Add Observer"
@@ -45828,7 +45858,7 @@ msgstr "বস্তু অনুসন্ধান করো"
 
 #. i18n: file: comast/observeradd.ui:21
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:5792
+#: rc.cpp:5816
 #, fuzzy
 #| msgid "unnamed"
 msgid "Surname"
@@ -45836,7 +45866,7 @@ msgstr "নামহীন"
 
 #. i18n: file: comast/observeradd.ui:28
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:5795
+#: rc.cpp:5819
 #, fuzzy
 #| msgid "Connect"
 msgid "Contact"
@@ -45910,7 +45940,7 @@ msgstr "কোন বস্তু বাছাই করা হয় নি।"
 msgid "Unrecognized coordinate projection: "
 msgstr ""
 
-#: skymap.cpp:1676
+#: skymap.cpp:1677
 msgid ""
 "Custom image-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -45918,7 +45948,7 @@ msgstr ""
 "স্বনির্বাচিত ছবির-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1694
+#: skymap.cpp:1695
 msgid ""
 "Custom information-links file could not be opened.\n"
 "Link cannot be recorded for future sessions."
@@ -45926,15 +45956,15 @@ msgstr ""
 "স্বনির্বাচিত তথ্য-লিঙ্ক এর ফাইল খোলা যায় নি।\n"
 "ফলে ভবিষ্যত্‍ সেশনের জন্য লিঙ্ক সংরক্ষণ করা যাচ্ছে না।"
 
-#: skymap.cpp:1694
+#: skymap.cpp:1695
 msgid "Could not Open File"
 msgstr "ফাইল খোলা যায় নি"
 
-#: skymap.cpp:1728
+#: skymap.cpp:1729
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
 
-#: skymap.cpp:1833
+#: skymap.cpp:1834
 #, fuzzy, kde-format
 #| msgid "Sunset: %1"
 msgid "Run : %1"
