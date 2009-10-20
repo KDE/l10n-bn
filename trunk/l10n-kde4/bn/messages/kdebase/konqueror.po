@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-17 06:44+0200\n"
+"POT-Creation-Date: 2009-10-20 06:07+0200\n"
 "PO-Revision-Date: 2008-12-26 23:24-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -1316,11 +1316,18 @@ msgstr ""
 msgid "Location to open"
 msgstr "যে অবস্থান খোলা হবে"
 
-#: sidebar/trees/konqsidebar_tree.cpp:138
+#: sidebar/test/modulemanagertest.cpp:87
+#: sidebar/test/modulemanagertest.cpp:114
+#, fuzzy
+#| msgid "Web SideBar Plugin"
+msgid "SideBar Test Plugin"
+msgstr "ওয়েব সাইডবার প্লাগ-ইন"
+
+#: sidebar/trees/konqsidebar_tree.cpp:161
 msgid "Select Type"
 msgstr "ধরন বেছে নিন"
 
-#: sidebar/trees/konqsidebar_tree.cpp:139
+#: sidebar/trees/konqsidebar_tree.cpp:162
 msgid "Select type:"
 msgstr "ধরন বেছে নিন:"
 
@@ -1362,7 +1369,7 @@ msgid "&Create New Folder"
 msgstr "&নতুন ফোল্ডার তৈরি করো"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:77
-#: sidebar/trees/konq_sidebartree.cpp:932
+#: sidebar/trees/konq_sidebartree.cpp:905
 msgid "Delete Folder"
 msgstr "ফোল্ডার মুছে ফেলো"
 
@@ -1371,17 +1378,17 @@ msgid "Delete Bookmark"
 msgstr "বুকমার্ক মুছে ফেলো"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:85
-#: sidebar/trees/konq_sidebartree.cpp:941
+#: sidebar/trees/konq_sidebartree.cpp:914
 msgid "Properties"
 msgstr "বৈশিষ্ট্যাবলী"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:89
-#: sidebar/trees/konq_sidebartree.cpp:944
+#: sidebar/trees/konq_sidebartree.cpp:917
 msgid "Open in New Window"
 msgstr "নতুন উইণ্ডোয় খোলো"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:93
-#: sidebar/trees/konq_sidebartree.cpp:947
+#: sidebar/trees/konq_sidebartree.cpp:920
 msgid "Open in New Tab"
 msgstr "নতুন ট্যাবে খোলো"
 
@@ -1390,7 +1397,7 @@ msgid "Open Folder in Tabs"
 msgstr "ট্যাবে ফোল্ডার খোলে"
 
 #: sidebar/trees/bookmark_module/bookmark_module.cpp:101
-#: sidebar/trees/konq_sidebartree.cpp:950
+#: sidebar/trees/konq_sidebartree.cpp:923
 msgid "Copy Link Address"
 msgstr "লিঙ্ক ঠিকানা কপি করো"
 
@@ -1440,27 +1447,27 @@ msgstr "অবস্থান:"
 msgid "Add Bookmark"
 msgstr "বুকমার্ক যোগ করো"
 
-#: sidebar/trees/konq_sidebartree.cpp:929
+#: sidebar/trees/konq_sidebartree.cpp:902
 msgid "&Create New Folder..."
 msgstr "&নতুন ফোল্ডার"
 
-#: sidebar/trees/konq_sidebartree.cpp:935
+#: sidebar/trees/konq_sidebartree.cpp:908
 msgid "Rename"
 msgstr "নাম পাল্টাও"
 
-#: sidebar/trees/konq_sidebartree.cpp:938
+#: sidebar/trees/konq_sidebartree.cpp:911
 msgid "Delete Link"
 msgstr "লিঙ্ক মুছে ফেলো"
 
-#: sidebar/trees/konq_sidebartree.cpp:989
+#: sidebar/trees/konq_sidebartree.cpp:962
 msgid "New Folder"
 msgstr "নতুন ফোল্ডার"
 
-#: sidebar/trees/konq_sidebartree.cpp:993
+#: sidebar/trees/konq_sidebartree.cpp:966
 msgid "Create New Folder"
 msgstr "নতুন ফোল্ডার তৈরি করো"
 
-#: sidebar/trees/konq_sidebartree.cpp:994
+#: sidebar/trees/konq_sidebartree.cpp:967
 msgid "Enter folder name:"
 msgstr "ফোল্ডার-এর নাম:"
 
@@ -1468,11 +1475,39 @@ msgstr "ফোল্ডার-এর নাম:"
 msgid "Extended Sidebar"
 msgstr "বিস্তৃত সাইডবার"
 
-#: sidebar/sidebar_widget.cpp:99
+#: sidebar/sidebar_widget.cpp:84
 msgid "Rollback to System Default"
 msgstr "সিস্টেম ডিফল্টে ফিরে যাও"
 
-#: sidebar/sidebar_widget.cpp:105
+#: sidebar/sidebar_widget.cpp:171
+msgid "Configure Navigation Panel"
+msgstr "ন্যাভিগেশন প্যানেল কনফিগার করুন"
+
+#: sidebar/sidebar_widget.cpp:173
+msgid "Add New"
+msgstr "নতুন যোগ"
+
+#: sidebar/sidebar_widget.cpp:177
+msgid "Multiple Views"
+msgstr "একাধিক ভিউ"
+
+#: sidebar/sidebar_widget.cpp:179 sidebar/sidebar_widget.cpp:276
+msgid "Show Tabs Left"
+msgstr "ট্যাব বাঁদিকে দেখাও"
+
+#: sidebar/sidebar_widget.cpp:180
+msgid "Show Configuration Button"
+msgstr "কনফিগারেশন বাটন দেখাও"
+
+#: sidebar/sidebar_widget.cpp:183
+msgid "Close Navigation Panel"
+msgstr "ন্যাভিগেশন প্যানেল বন্ধ করো"
+
+#: sidebar/sidebar_widget.cpp:211
+msgid "This entry already exists."
+msgstr "এই এন্ট্রিটি আগে থেকেই আছে।"
+
+#: sidebar/sidebar_widget.cpp:234
 msgid ""
 "<qt>This removes all your entries from the sidebar and adds the system "
 "default ones.<br /><b>This procedure is irreversible</b><br />Do you want to "
@@ -1482,66 +1517,29 @@ msgstr ""
 "><B>এই প্রক্রিয়াটি সম্পন্ন হওয়ার পর আর আগের অবস্থায় ফিরে যাওয়া যাবে না</B> <BR /"
 ">আপনি কি তাও এগোতে চান?</qt>"
 
-#: sidebar/sidebar_widget.cpp:234
-msgid "Configure Navigation Panel"
-msgstr "ন্যাভিগেশন প্যানেল কনফিগার করুন"
-
-#: sidebar/sidebar_widget.cpp:236
-msgid "Add New"
-msgstr "নতুন যোগ"
-
-#: sidebar/sidebar_widget.cpp:238
-msgid "Multiple Views"
-msgstr "একাধিক ভিউ"
-
-#: sidebar/sidebar_widget.cpp:240 sidebar/sidebar_widget.cpp:353
-msgid "Show Tabs Left"
-msgstr "ট্যাব বাঁদিকে দেখাও"
-
-#: sidebar/sidebar_widget.cpp:241
-msgid "Show Configuration Button"
-msgstr "কনফিগারেশন বাটন দেখাও"
-
-#: sidebar/sidebar_widget.cpp:244
-msgid "Close Navigation Panel"
-msgstr "ন্যাভিগেশন প্যানেল বন্ধ করো"
-
-#: sidebar/sidebar_widget.cpp:287
-msgid "This entry already exists."
-msgstr "এই এন্ট্রিটি আগে থেকেই আছে।"
-
-#: sidebar/sidebar_widget.cpp:301 sidebar/web_module/web_module.cpp:217
-msgid "Web SideBar Plugin"
-msgstr "ওয়েব সাইডবার প্লাগ-ইন"
-
-#: sidebar/sidebar_widget.cpp:353
+#: sidebar/sidebar_widget.cpp:276
 #, fuzzy
 msgid "Show Tabs Right"
 msgstr "ট্যাব ঠিক দেখাও"
 
-#: sidebar/sidebar_widget.cpp:424
+#: sidebar/sidebar_widget.cpp:286
 msgid "Set Name"
 msgstr "নাম নির্ধারণ করো"
 
-#: sidebar/sidebar_widget.cpp:424
+#: sidebar/sidebar_widget.cpp:286
 msgid "Enter the name:"
 msgstr "নাম লেখো:"
 
-#: sidebar/sidebar_widget.cpp:442
+#: sidebar/sidebar_widget.cpp:301
 msgid "Enter a URL:"
 msgstr "একটি ইউ-আর-এল লিখুন:"
 
-#: sidebar/sidebar_widget.cpp:450
-#, kde-format
-msgid "<qt><b>%1</b> does not exist</qt>"
-msgstr "<qt><b>%1</b>-র কোন অস্তিত্ব নেই<qt>"
-
-#: sidebar/sidebar_widget.cpp:481
+#: sidebar/sidebar_widget.cpp:324
 #, kde-format
 msgid "<qt>Do you really want to remove the <b>%1</b> tab?</qt>"
 msgstr "<qt>আপনি কি সত্যিই <b>%1</b> ট্যাবটি সরাতে চান?</qt>"
 
-#: sidebar/sidebar_widget.cpp:529
+#: sidebar/sidebar_widget.cpp:370
 #, fuzzy
 msgid ""
 "You have hidden the navigation panel configuration button. To make it "
@@ -1552,37 +1550,41 @@ msgstr ""
 "পুনরায়, দিকনির্নয় প্যানেল বাটনের যেকোনে ঠিক মাউস বাটন ক্লিক করো এবং\"কনফিগারেশন "
 "বাটন\"নির্বাচন করো দেখাও।"
 
-#: sidebar/sidebar_widget.cpp:598
+#: sidebar/sidebar_widget.cpp:438
 msgid "Configure Sidebar"
 msgstr "সাইডবার কনফিগার করো"
 
-#: sidebar/sidebar_widget.cpp:715
+#: sidebar/sidebar_widget.cpp:551
 msgid "Set Name..."
 msgstr "নাম নির্ধারণ করো..."
 
-#: sidebar/sidebar_widget.cpp:716
+#: sidebar/sidebar_widget.cpp:552
 msgid "Set URL..."
 msgstr "ইউ-আর-এল নির্ধারণ করুন..."
 
-#: sidebar/sidebar_widget.cpp:717
+#: sidebar/sidebar_widget.cpp:553
 msgid "Set Icon..."
 msgstr "আইকন নির্ধারণ করুন..."
 
-#: sidebar/sidebar_widget.cpp:719
+#: sidebar/sidebar_widget.cpp:555
 msgid "Remove"
 msgstr "সরাও"
 
-#: sidebar/web_module/web_module.cpp:90
+#: sidebar/web_module/web_module.cpp:86
 msgid "Set Refresh Timeout (0 disables)"
 msgstr "রিফ্রেশ টাইম-আউট নির্ধারণ করুন (0 নিষ্ক্রিয় করে)"
 
-#: sidebar/web_module/web_module.cpp:98
+#: sidebar/web_module/web_module.cpp:94
 msgid " min"
 msgstr " মিনিট"
 
-#: sidebar/web_module/web_module.cpp:100
+#: sidebar/web_module/web_module.cpp:96
 msgid " sec"
 msgstr " সেকণ্ড"
+
+#: sidebar/web_module/web_module.cpp:210
+msgid "Web SideBar Plugin"
+msgstr "ওয়েব সাইডবার প্লাগ-ইন"
 
 #: sidebar/web_module/web_module.h:52
 msgid "&Open Link"
@@ -2445,6 +2447,9 @@ msgid ""
 "If true, when opening a session from within the sessions dialog the tabs "
 "will be opened inside current window."
 msgstr ""
+
+#~ msgid "<qt><b>%1</b> does not exist</qt>"
+#~ msgstr "<qt><b>%1</b>-র কোন অস্তিত্ব নেই<qt>"
 
 #~ msgid "Minutes"
 #~ msgstr "মিনিট"
