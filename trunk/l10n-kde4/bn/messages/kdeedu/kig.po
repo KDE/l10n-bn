@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-29 06:50+0100\n"
+"POT-Creation-Date: 2009-10-30 06:22+0100\n"
 "PO-Revision-Date: 2006-03-29 19:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -167,7 +167,7 @@ msgstr "progga@BengaLinux.Org"
 #. i18n: ectx: Menu (file)
 #. i18n: file: kig/kigui.rc:4
 #. i18n: ectx: Menu (file)
-#: rc.cpp:5 rc.cpp:95
+#: rc.cpp:5 rc.cpp:101
 #, fuzzy
 msgid "&File"
 msgstr "আড়াল করো (&ড়)"
@@ -241,144 +241,158 @@ msgid "Cu&bics"
 msgstr "ঘনক (&ঘ)"
 
 #. i18n: file: kig/kigpartui.rc:121
-#. i18n: ectx: Menu (new_angle)
+#. i18n: ectx: Menu (new_bezier)
 #: rc.cpp:41
+msgid "&Bézier curves"
+msgstr ""
+
+#. i18n: file: kig/kigpartui.rc:130
+#. i18n: ectx: Menu (new_angle)
+#: rc.cpp:44
 msgid "&Angles"
 msgstr "কোণ (&ণ)"
 
-#. i18n: file: kig/kigpartui.rc:126
+#. i18n: file: kig/kigpartui.rc:135
 #. i18n: ectx: Menu (new_transformation)
-#: rc.cpp:44
+#: rc.cpp:47
 msgid "&Transformations"
 msgstr "রূপান্তর প্রক্রিয়া(&র)"
 
-#. i18n: file: kig/kigpartui.rc:144
+#. i18n: file: kig/kigpartui.rc:153
 #. i18n: ectx: Menu (new_differentialgeometry)
-#: rc.cpp:47
+#: rc.cpp:50
 msgid "&Differential geometry"
 msgstr "ডিফারেন্সিয়াল জ্যামিতি (&ড)"
 
-#. i18n: file: kig/kigpartui.rc:151
+#. i18n: file: kig/kigpartui.rc:160
 #. i18n: ectx: Menu (new_test)
-#: rc.cpp:50
+#: rc.cpp:53
 msgid "T&ests"
 msgstr "&পরীক্ষা"
 
-#. i18n: file: kig/kigpartui.rc:162
+#. i18n: file: kig/kigpartui.rc:171
 #. i18n: ectx: Menu (new_other)
-#: rc.cpp:53
+#: rc.cpp:56
 msgid "&Other"
 msgstr "অন্যান্য (&অ)"
 
-#. i18n: file: kig/kigpartui.rc:176
+#. i18n: file: kig/kigpartui.rc:185
 #. i18n: ectx: Menu (types)
-#: rc.cpp:56
+#: rc.cpp:59
 msgid "&Types"
 msgstr "&ধরন"
 
-#. i18n: file: kig/kigpartui.rc:181
+#. i18n: file: kig/kigpartui.rc:190
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:59
+#: rc.cpp:62
 msgid "&Tools"
 msgstr ""
 
-#. i18n: file: kig/kigpartui.rc:193
+#. i18n: file: kig/kigpartui.rc:202
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kig/kigui.rc:23
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:62 rc.cpp:101
+#: rc.cpp:65 rc.cpp:107
 msgid "Main Toolbar"
 msgstr ""
 
-#. i18n: file: kig/kigpartui.rc:207
+#. i18n: file: kig/kigpartui.rc:216
 #. i18n: ectx: ToolBar (points_toolbar)
-#: rc.cpp:65
+#: rc.cpp:68
 msgid "Points"
 msgstr "বিন্দু"
 
-#. i18n: file: kig/kigpartui.rc:218
+#. i18n: file: kig/kigpartui.rc:227
 #. i18n: ectx: ToolBar (line_toolbar)
-#: rc.cpp:68
+#: rc.cpp:71
 msgid "Lines"
 msgstr "রেখা"
 
-#. i18n: file: kig/kigpartui.rc:228
+#. i18n: file: kig/kigpartui.rc:237
 #. i18n: ectx: ToolBar (vectseg_toolbar)
-#: rc.cpp:71
+#: rc.cpp:74
 msgid "Vectors && Segments"
 msgstr "ভেক্টর ও রেখাংশ"
 
-#. i18n: file: kig/kigpartui.rc:236
+#. i18n: file: kig/kigpartui.rc:245
 #. i18n: ectx: ToolBar (circle_toolbar)
-#: rc.cpp:74
+#: rc.cpp:77
 msgid "Circles && Arcs"
 msgstr "বৃত্ত ও বৃত্তচাপ"
 
-#. i18n: file: kig/kigpartui.rc:244
+#. i18n: file: kig/kigpartui.rc:253
 #. i18n: ectx: ToolBar (conic_toolbar)
-#: rc.cpp:77
+#: rc.cpp:80
 msgid "Conics"
 msgstr "কনিক"
 
-#. i18n: file: kig/kigpartui.rc:253
+#. i18n: file: kig/kigpartui.rc:262
+#. i18n: ectx: ToolBar (bezier_toolbar)
+#: rc.cpp:83
+#, fuzzy
+#| msgid "Hide a Curve"
+msgid "Bézier Curves"
+msgstr "একটি বক্ররেখা আড়াল করো"
+
+#. i18n: file: kig/kigpartui.rc:271
 #. i18n: ectx: ToolBar (angles_toolbar)
-#: rc.cpp:80
+#: rc.cpp:86
 msgid "Angles"
 msgstr "কোণ"
 
-#. i18n: file: kig/kigpartui.rc:258
+#. i18n: file: kig/kigpartui.rc:276
 #. i18n: ectx: ToolBar (transformation_toolbar)
-#: rc.cpp:83
+#: rc.cpp:89
 msgid "Transformations"
 msgstr "রূপান্তর প্রক্রিয়া"
 
-#. i18n: file: kig/kigpartui.rc:272
+#. i18n: file: kig/kigpartui.rc:290
 #. i18n: ectx: ToolBar (tests_toolbar)
-#: rc.cpp:86
+#: rc.cpp:92
 msgid "Tests"
 msgstr "পরীক্ষা"
 
-#. i18n: file: kig/kigpartui.rc:284
+#. i18n: file: kig/kigpartui.rc:302
 #. i18n: ectx: ToolBar (rest_toolbar)
-#: rc.cpp:89
+#: rc.cpp:95
 msgid "Other Objects"
 msgstr "অন্যান্য বস্তু"
 
-#. i18n: file: kig/kigpartui.rc:292
+#. i18n: file: kig/kigpartui.rc:310
 #. i18n: ectx: ToolBar (view_toolbar)
-#: rc.cpp:92
+#: rc.cpp:98
 msgid "View"
 msgstr ""
 
 #. i18n: file: kig/kigui.rc:13
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:98
+#: rc.cpp:104
 msgid "&Settings"
 msgstr ""
 
 #. i18n: file: filters/imageexporteroptionswidget.ui:22
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:104
+#: rc.cpp:110
 msgid "Resolution"
 msgstr "রেজলুশন"
 
 # FIXME
 #. i18n: file: filters/imageexporteroptionswidget.ui:37
 #. i18n: ectx: property (text), widget (QCheckBox, keepAspectRatio)
-#: rc.cpp:107
+#: rc.cpp:113
 #, fuzzy
 msgid "&Keep Aspect Ratio"
 msgstr "aspect ratio পরিবর্তন করবে না (&ন)"
 
 #. i18n: file: filters/imageexporteroptionswidget.ui:54
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:110
+#: rc.cpp:116
 msgid "Height:"
 msgstr "উচ্চতা:"
 
 #. i18n: file: filters/imageexporteroptionswidget.ui:110
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:113
+#: rc.cpp:119
 msgid "Width:"
 msgstr "প্রস্থ:"
 
@@ -388,7 +402,7 @@ msgstr "প্রস্থ:"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: file: filters/svgexporteroptionswidget.ui:22
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:116 rc.cpp:125 rc.cpp:137 misc/kigfiledialog.cc:34
+#: rc.cpp:122 rc.cpp:131 rc.cpp:143 misc/kigfiledialog.cc:34
 #, fuzzy
 msgid "Options"
 msgstr "এস.ভি.জি. সংক্রান্ত অপশন"
@@ -399,7 +413,7 @@ msgstr "এস.ভি.জি. সংক্রান্ত অপশন"
 #. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
 #. i18n: file: filters/svgexporteroptionswidget.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, showAxesCheckBox)
-#: rc.cpp:119 rc.cpp:131 rc.cpp:140
+#: rc.cpp:125 rc.cpp:137 rc.cpp:146
 #, fuzzy
 msgid "Show Axes"
 msgstr "&অক্ষ প্রদর্শন করো"
@@ -410,21 +424,21 @@ msgstr "&অক্ষ প্রদর্শন করো"
 #. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
 #. i18n: file: filters/svgexporteroptionswidget.ui:49
 #. i18n: ectx: property (text), widget (QCheckBox, showGridCheckBox)
-#: rc.cpp:122 rc.cpp:134 rc.cpp:143
+#: rc.cpp:128 rc.cpp:140 rc.cpp:149
 #, fuzzy
 msgid "Show Grid"
 msgstr "গ্রিড/ছক রেখা প্রদর্শন করো (&গ)"
 
 #. i18n: file: filters/latexexporteroptionswidget.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, showFrameCheckBox)
-#: rc.cpp:128
+#: rc.cpp:134
 #, fuzzy
 msgid "Show Extra Frame"
 msgstr "অতিরিক্ত ফ্রেম প্রদর্শন করো"
 
 #. i18n: file: modes/edittypewidget.ui:36
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:146
+#: rc.cpp:152
 msgid ""
 "Here you can modify the name, the description and the icon of this macro "
 "type."
@@ -432,62 +446,62 @@ msgstr "এখানে আপনি এই ম্যাক্রোর ধর�
 
 #. i18n: file: modes/edittypewidget.ui:73
 #. i18n: ectx: property (text), widget (QLabel, label_2_3)
-#: rc.cpp:149
+#: rc.cpp:155
 msgid "Name:"
 msgstr "নাম:"
 
 #. i18n: file: modes/edittypewidget.ui:93
 #. i18n: ectx: property (text), widget (QLabel, label_2_2_2)
-#: rc.cpp:152
+#: rc.cpp:158
 msgid "Description:"
 msgstr "বিবরণ:"
 
 #. i18n: file: modes/historywidget.ui:22
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:155
+#: rc.cpp:161
 msgid "Description of the current step:"
 msgstr ""
 
 #. i18n: file: modes/historywidget.ui:53
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonFirst)
-#: rc.cpp:158
+#: rc.cpp:164
 #, fuzzy
 msgid "First step"
 msgstr "প্রথম ফোকাস"
 
 #. i18n: file: modes/historywidget.ui:66
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonBack)
-#: rc.cpp:161
+#: rc.cpp:167
 msgid "One step back"
 msgstr ""
 
 #. i18n: file: modes/historywidget.ui:82
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:164
+#: rc.cpp:170
 msgid "/"
 msgstr ""
 
 #. i18n: file: modes/historywidget.ui:96
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonNext)
-#: rc.cpp:167
+#: rc.cpp:173
 msgid "One step forward"
 msgstr ""
 
 #. i18n: file: modes/historywidget.ui:109
 #. i18n: ectx: property (toolTip), widget (QPushButton, buttonLast)
-#: rc.cpp:170
+#: rc.cpp:176
 msgid "Last step"
 msgstr ""
 
 #. i18n: file: modes/typeswidget.ui:37
 #. i18n: ectx: property (toolTip), widget (QTreeView, typeList)
-#: rc.cpp:173
+#: rc.cpp:179
 msgid "Select types here..."
 msgstr "এখান থেকে ধরন বেছে নিন..."
 
 #. i18n: file: modes/typeswidget.ui:40
 #. i18n: ectx: property (whatsThis), widget (QTreeView, typeList)
-#: rc.cpp:176
+#: rc.cpp:182
 msgid ""
 "This is a list of the current macro types... You can select, edit, delete, "
 "export and import them..."
@@ -497,204 +511,204 @@ msgstr ""
 
 #. i18n: file: modes/typeswidget.ui:99
 #. i18n: ectx: property (whatsThis), widget (KPushButton, buttonEdit)
-#: rc.cpp:179
+#: rc.cpp:185
 msgid "Edit the selected type."
 msgstr "নির্বাচিত ধরন সম্পাদন করো।"
 
 #. i18n: file: modes/typeswidget.ui:102
 #. i18n: ectx: property (text), widget (KPushButton, buttonEdit)
-#: rc.cpp:182 modes/typesdialog.cpp:367
+#: rc.cpp:188 modes/typesdialog.cpp:367
 msgid "&Edit..."
 msgstr "&সম্পাদন..."
 
 #. i18n: file: modes/typeswidget.ui:109
 #. i18n: ectx: property (whatsThis), widget (KPushButton, buttonRemove)
-#: rc.cpp:185
+#: rc.cpp:191
 msgid "Delete all the selected types in the list."
 msgstr "সকল নির্বাচিত ধরন মোছো।"
 
 #. i18n: file: modes/typeswidget.ui:112
 #. i18n: ectx: property (text), widget (KPushButton, buttonRemove)
-#: rc.cpp:188 modes/popup.cc:374 modes/typesdialog.cpp:368
+#: rc.cpp:194 modes/popup.cc:374 modes/typesdialog.cpp:368
 #, fuzzy
 msgid "&Delete"
 msgstr "বস্তু মোছো (&ম)"
 
 #. i18n: file: modes/typeswidget.ui:151
 #. i18n: ectx: property (whatsThis), widget (KPushButton, buttonExport)
-#: rc.cpp:191
+#: rc.cpp:197
 msgid "Export all the selected types to a file."
 msgstr "সকল নির্বাচিত ধরনকে একটি ফাইলে রপ্তানি করো।"
 
 #. i18n: file: modes/typeswidget.ui:154
 #. i18n: ectx: property (text), widget (KPushButton, buttonExport)
-#: rc.cpp:194 modes/typesdialog.cpp:370
+#: rc.cpp:200 modes/typesdialog.cpp:370
 msgid "E&xport..."
 msgstr "&রপ্তানি..."
 
 #. i18n: file: modes/typeswidget.ui:161
 #. i18n: ectx: property (whatsThis), widget (KPushButton, buttonImport)
-#: rc.cpp:197
+#: rc.cpp:203
 msgid "Import macros that are contained in one or more files."
 msgstr "এক বা একাধিক ফাইলে রক্ষিত ম্যাক্রোগুলোকে আমদানি করো।"
 
 #. i18n: file: modes/typeswidget.ui:164
 #. i18n: ectx: property (text), widget (KPushButton, buttonImport)
-#: rc.cpp:200
+#: rc.cpp:206
 #, fuzzy
 msgid "&Import..."
 msgstr "আমদানি..."
 
-#: rc.cpp:201
+#: rc.cpp:207
 msgid "Circle by Center && Line"
 msgstr "কেন্দ্রবিন্দু ও অপর কোন নির্দিষ্ট রেখার সাহায্যে অঙ্কিত বৃত্ত"
 
-#: rc.cpp:202
+#: rc.cpp:208
 msgid "A circle constructed by its center and tangent to a given line"
 msgstr "কেন্দ্রবিন্দু ও অপর কোন রেখার ঢালের সাহায্যে অঙ্কিত বৃত্ত"
 
-#: rc.cpp:203
+#: rc.cpp:209
 msgid "Construct a circle tangent to this line"
 msgstr "এই রেখাকে স্পর্শক ধরে একটি বৃত্ত আঁকো"
 
-#: rc.cpp:204 rc.cpp:209 objects/circle_type.cc:34
+#: rc.cpp:210 rc.cpp:215 objects/circle_type.cc:34
 msgid "Construct a circle with this center"
 msgstr "এই কেন্দ্রবিন্দু ব্যবহার করে একটি বৃত্ত আঁকো"
 
-#: rc.cpp:205
+#: rc.cpp:211
 msgid "Select the line that the new circle should be tangent to..."
 msgstr "যে রেখাটি নতুন বৃত্তের স্পর্শক হবে তাকে বেছে নিন..."
 
-#: rc.cpp:206 rc.cpp:211 objects/circle_type.cc:39 objects/circle_type.cc:194
+#: rc.cpp:212 rc.cpp:217 objects/circle_type.cc:39 objects/circle_type.cc:194
 msgid "Select the center of the new circle..."
 msgstr "নতুন বৃত্তের কেন্দ্র নির্বাচন করুন..."
 
 # FIXME
-#: rc.cpp:207
+#: rc.cpp:213
 msgid "Circle by Point && Segment (as the Diameter)"
 msgstr "বিন্দু ও রেখাংশের (ব্যাস হিসাবে) সাহায্যে বৃত্ত"
 
-#: rc.cpp:208
+#: rc.cpp:214
 msgid ""
 "A circle defined by its center and the length of a segment as the diameter"
 msgstr "রেখাংশের দৈর্ঘ্য দ্বারা নির্ধারিত ব্যাস এবং কেন্দ্রবিন্দুর সাহায্যে নির্দেশিত বৃত্ত"
 
-#: rc.cpp:210
+#: rc.cpp:216
 msgid ""
 "Construct a circle with the diameter given by the length of this segment"
 msgstr "এই রেখাংশের দৈর্ঘ্যের সমান ব্যাসবিশিষ্ট একটি বৃত্ত আঁকো"
 
-#: rc.cpp:212
+#: rc.cpp:218
 msgid "Select the segment whose length gives the diameter of the new circle..."
 msgstr "যে রেখাংশটি নতুন বৃত্তের ব্যাসের দৈর্ঘ্য প্রদান করে তা নির্বাচন করুন..."
 
-#: rc.cpp:213
+#: rc.cpp:219
 msgid "Equilateral Triangle"
 msgstr "সমবাহু ত্রিভুজ"
 
-#: rc.cpp:214
+#: rc.cpp:220
 msgid "Equilateral triangle with given two vertices"
 msgstr "দুটি প্রদত্ত বিন্দুর সাহায্যে অঙ্কিত সমবাহু ত্রিভুজ"
 
-#: rc.cpp:215
+#: rc.cpp:221
 msgid "Evolute"
 msgstr "ইভলিউট"
 
-#: rc.cpp:216
+#: rc.cpp:222
 msgid "Evolute of a curve"
 msgstr "বক্ররেখার ইভলিউট"
 
-#: rc.cpp:217
+#: rc.cpp:223
 msgid "Evolute of this curve"
 msgstr "এই বক্ররেখার ইভলিউট"
 
-#: rc.cpp:218 rc.cpp:223 objects/centerofcurvature_type.cc:35
+#: rc.cpp:224 rc.cpp:229 objects/centerofcurvature_type.cc:35
 #: objects/tangent_type.cc:36
 msgid "Select the curve..."
 msgstr "বক্ররেখাটি বাছাই করো..."
 
 # FIXME: Osculating = আপতিত ?
-#: rc.cpp:219
+#: rc.cpp:225
 msgid "Osculating Circle"
 msgstr "আপতিত বৃত্ত"
 
 # FIXME
-#: rc.cpp:220
+#: rc.cpp:226
 msgid "Osculating circle of a curve at a point"
 msgstr "যেকোন বিন্দুতে একটি বক্ররেখার উপর আপতিত বৃত্ত"
 
 # FIXME
-#: rc.cpp:221
+#: rc.cpp:227
 msgid "Osculating circle of this curve"
 msgstr "এই বক্ররেখার ওপর আপতিত বৃত্ত"
 
 # FIXME
-#: rc.cpp:222
+#: rc.cpp:228
 msgid "Osculating circle at this point"
 msgstr "এই বিন্দুতে আপতিত বৃত্ত"
 
-#: rc.cpp:224
+#: rc.cpp:230
 msgid "Select the point..."
 msgstr "বিন্দুটি বেছে নিন..."
 
 # FIXME
-#: rc.cpp:225
+#: rc.cpp:231
 msgid "Segment Axis"
 msgstr "রেখাংশের অক্ষ"
 
-#: rc.cpp:226
+#: rc.cpp:232
 msgid "The perpendicular line through a given segment's mid point."
 msgstr "প্রদত্ত রেখাংশের মধ্যবিন্দু দিয়ে অঙ্কিত লম্বরেখা।"
 
-#: rc.cpp:227
+#: rc.cpp:233
 msgid "Construct the axis of this segment"
 msgstr "এই রেখাংশের অক্ষ আঁকো"
 
-#: rc.cpp:228
+#: rc.cpp:234
 msgid "Select the segment of which you want to draw the axis..."
 msgstr "যে রেখাংশের অক্ষ আঁকতে চান তা নির্বাচন করুন..."
 
-#: rc.cpp:229
+#: rc.cpp:235
 msgid "Square"
 msgstr "বর্গক্ষেত্রে"
 
-#: rc.cpp:230
+#: rc.cpp:236
 msgid "Square with two given adjacent vertices"
 msgstr "প্রদত্ত দুটি সন্নিহিত বিন্দু দিয়ে অঙ্কিত বর্গক্ষেত্র"
 
-#: rc.cpp:231
+#: rc.cpp:237
 msgid "Vector Difference"
 msgstr "ভেক্টর পার্থক্য"
 
-#: rc.cpp:232
+#: rc.cpp:238
 msgid "Construct the vector difference of two vectors."
 msgstr "দুইটি ভেক্টরের ভেক্টর পার্থক্য আঁকো।"
 
-#: rc.cpp:233
+#: rc.cpp:239
 msgid "Construct the vector difference of this vector and another one."
 msgstr "এই ভেক্টর ও অপর একটি ভেক্টরের পার্থক্যসূচক ভেক্টর আঁকো।"
 
-#: rc.cpp:234
+#: rc.cpp:240
 msgid "Construct the vector difference of the other vector and this one."
 msgstr "অপর ভেক্টর ও এই ভেক্টরের পার্থক্যসূচক ভেক্টর আঁকো।"
 
-#: rc.cpp:235
+#: rc.cpp:241
 msgid "Construct the vector difference starting at this point."
 msgstr "এই বিন্দু থেকে যে পার্থক্যসূচক ভেক্টর আরম্ভ হয় তা আঁকো।"
 
-#: rc.cpp:236
+#: rc.cpp:242
 msgid ""
 "Select the first of the two vectors of which you want to construct the "
 "difference..."
 msgstr "যে ভেক্টরদ্বয়ের পার্থক্য আঁকতে চান তাদের প্রথমটি বেছে নিন..."
 
-#: rc.cpp:237
+#: rc.cpp:243
 msgid ""
 "Select the other of the two vectors of which you want to construct the "
 "difference..."
 msgstr "যে ভেক্টরদ্বয়ের পার্থক্য আঁকতে চান তাদের অপরটি বেছে নিন..."
 
-#: rc.cpp:238
+#: rc.cpp:244
 msgid "Select the point to construct the difference vector in..."
 msgstr "যে বিন্দু থেকে পার্থক্যসূচক ভেক্টর আরম্ভ হবে তা বেছে নিন..."
 
@@ -1112,360 +1126,360 @@ msgstr "*.fig|এক্সফিগ ডকুমেন্ট (*.fig)"
 msgid "Export as XFig File"
 msgstr "এক্সফিগ (XFig) ফাইলে রূপান্তর করো"
 
-#: misc/builtin_stuff.cc:59
+#: misc/builtin_stuff.cc:60
 #, fuzzy
 msgid "Point by Numeric Labels"
 msgstr "স্থানাংকের সাহায্যে অঙ্কিত বিন্দু"
 
-#: misc/builtin_stuff.cc:60
+#: misc/builtin_stuff.cc:61
 msgid "A point whose coordinates are given by two numeric labels"
 msgstr ""
 
-#: misc/builtin_stuff.cc:67
+#: misc/builtin_stuff.cc:68
 msgid "Segment"
 msgstr "রেখাংশ"
 
-#: misc/builtin_stuff.cc:68
+#: misc/builtin_stuff.cc:69
 msgid "A segment constructed from its start and end point"
 msgstr "প্রান্তীয় বিন্দু থেকে অঙ্কিত একটি রেখাংশ"
 
-#: misc/builtin_stuff.cc:75
+#: misc/builtin_stuff.cc:76
 msgid "Line by Two Points"
 msgstr "দুইটি নির্দিষ্ট বিন্দুর সংযোগকারী রেখা"
 
-#: misc/builtin_stuff.cc:76
+#: misc/builtin_stuff.cc:77
 msgid "A line constructed through two points"
 msgstr "দুইটি নির্দিষ্ট বিন্দুর মধ্য দিয়ে অঙ্কিত রেখা"
 
-#: misc/builtin_stuff.cc:82
+#: misc/builtin_stuff.cc:83
 msgid "Half-Line"
 msgstr "অর্ধ-রেখা"
 
-#: misc/builtin_stuff.cc:83
+#: misc/builtin_stuff.cc:84
 msgid "A half-line by its start point, and another point somewhere on it."
 msgstr "একটি প্রান্তীয় বিন্দু ও অপর একটি অতিক্রমকৃত বিন্দু দিয়ে অঙ্কিত অর্ধ-রেখা।"
 
-#: misc/builtin_stuff.cc:90
+#: misc/builtin_stuff.cc:91
 msgid "Perpendicular"
 msgstr "লম্ব"
 
-#: misc/builtin_stuff.cc:91
+#: misc/builtin_stuff.cc:92
 msgid ""
 "A line constructed through a point, perpendicular to another line or segment."
 msgstr ""
 "কোন রেখা বা রেখাংশের উপর লম্বভাবে অবস্থিত ও একটি নির্দিষ্ট বিন্দুর মধ্য দিয়ে অঙ্কিত "
 "রেখা।"
 
-#: misc/builtin_stuff.cc:98
+#: misc/builtin_stuff.cc:99
 msgid "Parallel"
 msgstr "সমান্তরাল"
 
-#: misc/builtin_stuff.cc:99
+#: misc/builtin_stuff.cc:100
 msgid ""
 "A line constructed through a point, and parallel to another line or segment"
 msgstr ""
 "কোন রেখা বা রেখাংশের সাথে সমান্তরালভাবে অবস্থিত ও একটি নির্দিষ্ট বিন্দুর মধ্য দিয়ে "
 "গমনকারী রেখা।"
 
-#: misc/builtin_stuff.cc:106
+#: misc/builtin_stuff.cc:107
 msgid "Circle by Center && Point"
 msgstr "কেন্দ্রবিন্দু ও অপর কোন নির্দিষ্ট বিন্দুর সাহায্যে অঙ্কিত বৃত্ত"
 
-#: misc/builtin_stuff.cc:107
+#: misc/builtin_stuff.cc:108
 msgid "A circle constructed by its center and a point that pertains to it"
 msgstr "কেন্দ্রবিন্দু ও অপর কোন অতিক্রমকৃত বিন্দুর সাহায্যে অঙ্কিত বৃত্ত"
 
-#: misc/builtin_stuff.cc:113
+#: misc/builtin_stuff.cc:114
 msgid "Circle by Three Points"
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত বৃত্ত"
 
-#: misc/builtin_stuff.cc:114
+#: misc/builtin_stuff.cc:115
 msgid "A circle constructed through three points"
 msgstr "তিনটি নির্দিষ্ট বিন্দুর মধ্য দিয়ে অঙ্কিত বৃত্ত"
 
-#: misc/builtin_stuff.cc:120
+#: misc/builtin_stuff.cc:121
 #, fuzzy
 msgid "Circle by Point && Radius"
 msgstr "বিন্দু ও রেখাংশের (ব্যাসার্ধ হিসাবে) সাহায্যে বৃত্ত"
 
-#: misc/builtin_stuff.cc:121
+#: misc/builtin_stuff.cc:122
 #, fuzzy
 msgid "A circle defined by its center and the length of the radius"
 msgstr ""
 "রেখাংশের দৈর্ঘ্যের দ্বারা নির্ধারিত ব্যাসার্ধ এবং কেন্দ্রবিন্দুর সাহায্যে নির্দেশিত বৃত্ত"
 
-#: misc/builtin_stuff.cc:136
+#: misc/builtin_stuff.cc:137
 msgid "Construct Bisector of This Angle"
 msgstr "এই কোণের দ্বিখণ্ডক আঁকো"
 
-#: misc/builtin_stuff.cc:137
+#: misc/builtin_stuff.cc:138
 msgid "Select the angle you want to construct the bisector of..."
 msgstr "যে কোণের দ্বিখণ্ডক আঁকতে চান তা নির্বাচন করুন..."
 
-#: misc/builtin_stuff.cc:138 objects/other_imp.cc:107
+#: misc/builtin_stuff.cc:139 objects/other_imp.cc:107
 msgid "Angle Bisector"
 msgstr "কোণ দ্বিখণ্ডক"
 
-#: misc/builtin_stuff.cc:139
+#: misc/builtin_stuff.cc:140
 msgid "The bisector of an angle"
 msgstr "কোন কোণের দ্বিখণ্ডক"
 
-#: misc/builtin_stuff.cc:146
+#: misc/builtin_stuff.cc:147
 msgid "Conic by Five Points"
 msgstr "পাঁচটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত কনিক"
 
-#: misc/builtin_stuff.cc:147
+#: misc/builtin_stuff.cc:148
 msgid "A conic constructed through five points"
 msgstr "পাঁচটি নির্দিষ্ট বিন্দুর সাহায্যে অঙ্কিত কনিক"
 
-#: misc/builtin_stuff.cc:154
+#: misc/builtin_stuff.cc:155
 msgid "Hyperbola by Asymptotes && Point"
 msgstr "অসীমতট ও নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত হাইপারবোলা"
 
-#: misc/builtin_stuff.cc:155
+#: misc/builtin_stuff.cc:156
 msgid "A hyperbola with given asymptotes through a point"
 msgstr "প্রদত্ত অসীমতটের সাহায্যে নির্দিষ্ট বিন্দুর মধ্য দিয়ে অঙ্কিত হাইপারবোলা"
 
-#: misc/builtin_stuff.cc:162
+#: misc/builtin_stuff.cc:163
 msgid "Ellipse by Focuses && Point"
 msgstr "ফোকাস ও নির্দিষ্ট বিন্দুর সাহায্যে অঙ্কিত উপবৃত্ত"
 
-#: misc/builtin_stuff.cc:163
+#: misc/builtin_stuff.cc:164
 msgid "An ellipse constructed by its focuses and a point that pertains to it"
 msgstr "ফোকাস ও অতিক্রমকারী বিন্দুর সাহায্যে অঙ্কিত একটি উপবৃত্ত"
 
-#: misc/builtin_stuff.cc:170
+#: misc/builtin_stuff.cc:171
 msgid "Hyperbola by Focuses && Point"
 msgstr "ফোকাস ও নির্দিষ্ট বিন্দুর সাহায্যে অঙ্কিত হাইপারবোলা"
 
-#: misc/builtin_stuff.cc:171
+#: misc/builtin_stuff.cc:172
 msgid "A hyperbola constructed by its focuses and a point that pertains to it"
 msgstr "ফোকাস ও অতিক্রমকৃত বিন্দুর সাহায্যে অঙ্কিত একটি হাইপারবোলা"
 
-#: misc/builtin_stuff.cc:178
+#: misc/builtin_stuff.cc:179
 msgid "Conic by Directrix, Focus && Point"
 msgstr "দিকাক্ষ, ফোকাস ও নির্দিষ্ট বিন্দুর সাহায্যে অঙ্কিত কনিক"
 
-#: misc/builtin_stuff.cc:179
+#: misc/builtin_stuff.cc:180
 msgid "A conic with given directrix and focus, through a point"
 msgstr "প্রদত্ত দিকাক্ষ ও ফোকাস সাহায্যে কোন বিন্দুকে অতিক্রমকারী একটি কনিক"
 
-#: misc/builtin_stuff.cc:186
+#: misc/builtin_stuff.cc:187
 msgid "Vertical Parabola by Three Points"
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত উল্লম্ব প্যারাবোলা"
 
-#: misc/builtin_stuff.cc:187
+#: misc/builtin_stuff.cc:188
 msgid "A vertical parabola constructed through three points"
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত একটি উল্লম্ব প্যারাবোলা"
 
-#: misc/builtin_stuff.cc:194
+#: misc/builtin_stuff.cc:195
 msgid "Cubic Curve by Nine Points"
 msgstr "নয়টি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত ঘনক"
 
-#: misc/builtin_stuff.cc:195
+#: misc/builtin_stuff.cc:196
 msgid "A cubic curve constructed through nine points"
 msgstr "নয়টি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত একটি ঘনক"
 
-#: misc/builtin_stuff.cc:202
+#: misc/builtin_stuff.cc:203
 msgid "Polar Point of a Line"
 msgstr "কোন রেখার পোলার বিন্দু"
 
-#: misc/builtin_stuff.cc:203
+#: misc/builtin_stuff.cc:204
 msgid "The polar point of a line with respect to a conic."
 msgstr "একটি ঘনকের সাপেক্ষে কোন রেখার পোলার বিন্দু।"
 
-#: misc/builtin_stuff.cc:210
+#: misc/builtin_stuff.cc:211
 msgid "Polar Line of a Point"
 msgstr "কোন বিন্দুর পোলার রেখা"
 
-#: misc/builtin_stuff.cc:211
+#: misc/builtin_stuff.cc:212
 msgid "The polar line of a point with respect to a conic."
 msgstr "একটি কনিকের সাপেক্ষে কোন বিন্দুর পোলার রেখা"
 
 # FIXME: ঘনকীয় রেখা আবার কি ?
-#: misc/builtin_stuff.cc:218
+#: misc/builtin_stuff.cc:219
 msgid "Cubic Curve with Node by Six Points"
 msgstr "ছয়টি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত ঘনকীয় বক্ররেখা"
 
-#: misc/builtin_stuff.cc:219
+#: misc/builtin_stuff.cc:220
 msgid "A cubic curve with a nodal point at the origin through six points"
 msgstr "এরূপ ছয়টি বিন্দু দিয়ে অঙ্কিত একটি ঘনকীয় রেখা যার একটি বিন্দু হল মূলবিন্দু"
 
-#: misc/builtin_stuff.cc:226
+#: misc/builtin_stuff.cc:227
 msgid "Cubic Curve with Cusp by Four Points"
 msgstr "চারটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত তীক্ষ্ন ডগাবিিশিষ্ট ঘনকীয় বক্ররেখা"
 
 # FIXME: Cusp
-#: misc/builtin_stuff.cc:227
+#: misc/builtin_stuff.cc:228
 msgid "A cubic curve with a horizontal cusp at the origin through four points"
 msgstr ""
 "চারটি বিন্দু দিয়ে অতিক্রমকারী ও মূলবিন্দুতে অনুভূমিক ছেদবিন্দুবিশিষ্ট একটি ঘনকীয় বক্ররেখা"
 
-#: misc/builtin_stuff.cc:234
+#: misc/builtin_stuff.cc:235
 #, fuzzy
 msgid "Cubic Function by Four Points"
 msgstr "চারটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত তীক্ষ্ন ডগাবিিশিষ্ট ঘনকীয় বক্ররেখা"
 
-#: misc/builtin_stuff.cc:235
+#: misc/builtin_stuff.cc:236
 #, fuzzy
 msgid "A cubic function through four points"
 msgstr "পাঁচটি নির্দিষ্ট বিন্দুর সাহায্যে অঙ্কিত কনিক"
 
-#: misc/builtin_stuff.cc:242
+#: misc/builtin_stuff.cc:243
 msgid "Directrix of a Conic"
 msgstr "কনিকের দিকাক্ষ"
 
-#: misc/builtin_stuff.cc:243
+#: misc/builtin_stuff.cc:244
 msgid "The directrix line of a conic."
 msgstr "কোন কনিকের দিকাক্ষ রেখা।"
 
-#: misc/builtin_stuff.cc:250
+#: misc/builtin_stuff.cc:251
 msgid "Angle by Three Points"
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত কোণ"
 
-#: misc/builtin_stuff.cc:251
+#: misc/builtin_stuff.cc:252
 msgid "An angle defined by three points"
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে নির্ধারিত কোণ"
 
 # FIXME
-#: misc/builtin_stuff.cc:258
+#: misc/builtin_stuff.cc:259
 msgid "Equilateral Hyperbola by Four Points"
 msgstr "চারটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত সমভূজ হাইপারবোলা"
 
-#: misc/builtin_stuff.cc:259
+#: misc/builtin_stuff.cc:260
 msgid "An equilateral hyperbola constructed through four points"
 msgstr "চারটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত একটি সমভূজ হাইপারবোলা"
 
-#: misc/builtin_stuff.cc:276
+#: misc/builtin_stuff.cc:277
 msgid "Construct the midpoint of this segment"
 msgstr "এই রেখাংশের মধ্যবিন্দু আঁকো"
 
-#: misc/builtin_stuff.cc:282 objects/line_imp.cc:124
+#: misc/builtin_stuff.cc:283 objects/line_imp.cc:124
 msgid "Mid Point"
 msgstr "মধ্যবিন্দু"
 
-#: misc/builtin_stuff.cc:283
+#: misc/builtin_stuff.cc:284
 msgid "The midpoint of a segment or two other points"
 msgstr "কোন রেখাংশ বা দুই বিন্দুর মধ্যবিন্দু"
 
-#: misc/builtin_stuff.cc:292
+#: misc/builtin_stuff.cc:293
 msgid "Vector"
 msgstr "ভেক্টর"
 
-#: misc/builtin_stuff.cc:293
+#: misc/builtin_stuff.cc:294
 msgid "Construct a vector from two given points."
 msgstr "দুটি প্রদত্ত বিন্দু থেকে একটি ভেক্টর আঁকো।"
 
-#: misc/builtin_stuff.cc:300
+#: misc/builtin_stuff.cc:301
 msgid "Vector Sum"
 msgstr "ভেক্টর সমষ্টি"
 
-#: misc/builtin_stuff.cc:301
+#: misc/builtin_stuff.cc:302
 msgid "Construct the vector sum of two vectors."
 msgstr "দুইটি ভেক্টরের ভেক্টর সমষ্টি আঁকো।"
 
-#: misc/builtin_stuff.cc:308
+#: misc/builtin_stuff.cc:309
 msgid "Line by Vector"
 msgstr "ভেক্টর দ্বারা রেখা"
 
-#: misc/builtin_stuff.cc:309
+#: misc/builtin_stuff.cc:310
 msgid "Construct the line by a given vector though a given point."
 msgstr "প্রদত্ত একটি ভেক্টর ও বিন্দু দিয়ে রেখাটি আঁকো"
 
-#: misc/builtin_stuff.cc:316
+#: misc/builtin_stuff.cc:317
 msgid "Half-Line by Vector"
 msgstr "ভেক্টর দ্বারা অর্ধ-রেখা"
 
-#: misc/builtin_stuff.cc:317
+#: misc/builtin_stuff.cc:318
 msgid "Construct the half-line by a given vector starting at given point."
 msgstr "প্রদত্ত ভেক্টর দিয়ে প্রদত্ত একটি বিন্দুতে আরম্ভ হয় এরূপ অর্ধ-রেখা আঁকো।"
 
-#: misc/builtin_stuff.cc:324
+#: misc/builtin_stuff.cc:325
 msgid "Arc by Three Points"
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত বৃত্তচাপ"
 
-#: misc/builtin_stuff.cc:325
+#: misc/builtin_stuff.cc:326
 msgid "Construct an arc through three points."
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে একটি বৃত্তচাপ আঁকো।"
 
-#: misc/builtin_stuff.cc:332
+#: misc/builtin_stuff.cc:333
 #, fuzzy
 msgid "Conic Arc by Center and Three Points"
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত বৃত্তচাপ"
 
-#: misc/builtin_stuff.cc:333
+#: misc/builtin_stuff.cc:334
 #, fuzzy
 msgid "Construct a conic arc with given center through three points."
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে একটি বৃত্তচাপ আঁকো।"
 
-#: misc/builtin_stuff.cc:340
+#: misc/builtin_stuff.cc:341
 #, fuzzy
 msgid "Conic Arc by Five Points"
 msgstr "পাঁচটি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত কনিক"
 
-#: misc/builtin_stuff.cc:341
+#: misc/builtin_stuff.cc:342
 #, fuzzy
 msgid "Construct a conic arc through five points."
 msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে একটি বৃত্তচাপ আঁকো।"
 
-#: misc/builtin_stuff.cc:348
+#: misc/builtin_stuff.cc:349
 msgid "Arc by Center, Angle && Point"
 msgstr "কেন্দ্রবিন্দু, নির্দিষ্ট কোণ এবং একটি বিন্দুর সাহায্যে অঙ্কিত বৃত্তচাপ"
 
-#: misc/builtin_stuff.cc:349
+#: misc/builtin_stuff.cc:350
 msgid ""
 "Construct an arc by its center and a given angle, starting at a given point"
 msgstr ""
 "কেন্দ্রবিন্দু ও নির্দিষ্ট কোণ ব্যবহার করে প্রদত্ত একটি বিন্দুতে আরম্ভ হয় এরূপ একটি বৃত্তচাপ "
 "আঁকো"
 
-#: misc/builtin_stuff.cc:357
+#: misc/builtin_stuff.cc:358
 msgid "Parabola by Directrix && Focus"
 msgstr "দিকাক্ষ ও ফোকাসের সাহায্যে অঙ্কিত প্যারাবোলা"
 
-#: misc/builtin_stuff.cc:358
+#: misc/builtin_stuff.cc:359
 msgid "A parabola defined by its directrix and focus"
 msgstr "দিকাক্ষ ও ফোকাসের সাহায্যে নির্ধারিত একটি প্যারাবোলা"
 
-#: misc/builtin_stuff.cc:378
+#: misc/builtin_stuff.cc:379
 msgid "Translate"
 msgstr "স্থানান্তর"
 
-#: misc/builtin_stuff.cc:379
+#: misc/builtin_stuff.cc:380
 msgid "The translation of an object by a vector"
 msgstr "ভেক্টরের সাহায্যে কোন বস্তুর স্থানান্তর"
 
 # FIXME
-#: misc/builtin_stuff.cc:386
+#: misc/builtin_stuff.cc:387
 msgid "Reflect in Point"
 msgstr "বিন্দুর বিপরীতে প্রতিফলন ঘটাও"
 
 # FIXME
-#: misc/builtin_stuff.cc:387
+#: misc/builtin_stuff.cc:388
 msgid "An object reflected in a point"
 msgstr "কোন বিন্দুর বিপরীতে প্রতিফলিত একটি বস্তু"
 
-#: misc/builtin_stuff.cc:394
+#: misc/builtin_stuff.cc:395
 msgid "Reflect in Line"
 msgstr "রেখার বিপরীতে প্রতিফলন ঘটাও"
 
-#: misc/builtin_stuff.cc:395
+#: misc/builtin_stuff.cc:396
 msgid "An object reflected in a line"
 msgstr "রেখার বিপরীতে প্রতিফলিত একটি বস্তু"
 
-#: misc/builtin_stuff.cc:402
+#: misc/builtin_stuff.cc:403
 msgid "Rotate"
 msgstr "আবর্তন"
 
-#: misc/builtin_stuff.cc:403
+#: misc/builtin_stuff.cc:404
 msgid "An object rotated by an angle around a point"
 msgstr "কোন বিন্দুর চারপাশে নির্দিষ্ট কোণে আবর্তিত বস্তু"
 
-#: misc/builtin_stuff.cc:410
+#: misc/builtin_stuff.cc:411
 msgid "Scale"
 msgstr "আকার পরিবর্তন"
 
-#: misc/builtin_stuff.cc:411
+#: misc/builtin_stuff.cc:412
 msgid ""
 "Scale an object over a point, by the ratio given by the length of a segment"
 msgstr ""
@@ -1473,21 +1487,21 @@ msgstr ""
 "আকার পরিবর্তন করো"
 
 # FIXME
-#: misc/builtin_stuff.cc:418
+#: misc/builtin_stuff.cc:419
 msgid "Scale over Line"
 msgstr "রেখাকে কেন্দ্র করে আকার পরিবর্তন করো"
 
-#: misc/builtin_stuff.cc:419
+#: misc/builtin_stuff.cc:420
 msgid ""
 "An object scaled over a line, by the ratio given by the length of a segment"
 msgstr ""
 "রেখাংশের দৈর্ঘ্যের সাহায্যে প্রদত্ত অনুপাতে, কোন রেখাকে কেন্দ্র করে আকার পরিবর্তিত বস্তু"
 
-#: misc/builtin_stuff.cc:426
+#: misc/builtin_stuff.cc:427
 msgid "Scale (ratio given by two segments)"
 msgstr "আকার পরিবর্তন (দুটি রেখাংশের সাহায্যে প্রদত্ত অনুপাতে)"
 
-#: misc/builtin_stuff.cc:427
+#: misc/builtin_stuff.cc:428
 msgid ""
 "Scale an object over a point, by the ratio given by the length of two "
 "segments"
@@ -1495,11 +1509,11 @@ msgstr ""
 "দুটি রেখাংশের দৈর্ঘ্যের সাহায্যে প্রদত্ত অনুপাতে, একটি নির্দিষ্ট বিন্দুকে কেন্দ্র করে "
 "বস্তুর আকার পরিবর্তন করো"
 
-#: misc/builtin_stuff.cc:434
+#: misc/builtin_stuff.cc:435
 msgid "Scale over Line (ratio given by two segments)"
 msgstr "রেখাকে কেন্দ্র করে আকার পরিবর্তন করো (দুটি রেখাংশের সাহায্যে প্রদত্ত অনুপাতে)"
 
-#: misc/builtin_stuff.cc:435
+#: misc/builtin_stuff.cc:436
 msgid ""
 "An object scaled over a line, by the ratio given by the length of two "
 "segments"
@@ -1507,11 +1521,11 @@ msgstr ""
 "দুটি রেখাংশের দৈর্ঘ্যের সাহায্যে প্রদত্ত অনুপাতে, একটি নির্দিষ্ট রেখাকে কেন্দ্র করে "
 "আকার পরিবর্তিত বস্তু"
 
-#: misc/builtin_stuff.cc:442
+#: misc/builtin_stuff.cc:443
 msgid "Apply Similitude"
 msgstr "সাদৃশ্য (similitude) প্রয়োগ করো"
 
-#: misc/builtin_stuff.cc:443
+#: misc/builtin_stuff.cc:444
 #, fuzzy
 msgid ""
 "Apply a similitude to an object (the sequence of a scaling and rotation "
@@ -1520,12 +1534,12 @@ msgstr ""
 "বস্তুর ওপর সদৃশ্য প্রয়োগ করো (নির্দিষ্ট একটি বিন্দুকে কেন্দ্র করে আকার পরিবর্তন ও আবর্তন)"
 
 # FIXME
-#: misc/builtin_stuff.cc:450
+#: misc/builtin_stuff.cc:451
 msgid "Harmonic Homology"
 msgstr "তরঙ্গ (harmonic) সাদৃশ্য"
 
 # FIXME
-#: misc/builtin_stuff.cc:451
+#: misc/builtin_stuff.cc:452
 msgid ""
 "The harmonic homology with a given center and a given axis (this is a "
 "projective transformation)"
@@ -1533,11 +1547,11 @@ msgstr ""
 "প্রদত্ত একটি কেন্দ্রবিন্দু ও অক্ষবিশিষ্ট তরঙ্গ (harmonic) সাদৃশ্য (এটি একটি প্রক্ষিপ্ত "
 "রূপান্তর)"
 
-#: misc/builtin_stuff.cc:466
+#: misc/builtin_stuff.cc:467
 msgid "Draw Projective Shadow"
 msgstr "প্রক্ষিপ্ত ছায়া আঁকো"
 
-#: misc/builtin_stuff.cc:467
+#: misc/builtin_stuff.cc:468
 msgid ""
 "The shadow of an object with a given light source and projection plane "
 "(indicated by a line)"
@@ -1545,115 +1559,153 @@ msgstr ""
 "প্রদত্ত আলোক উত্‍স ও প্রক্ষেপণ (projection) পৃষ্ঠের ( একটি রেখার দ্বারা নির্দেশিত ) "
 "ওপর একটি বস্তুর ছায়া"
 
-#: misc/builtin_stuff.cc:482
+#: misc/builtin_stuff.cc:483
 msgid "Asymptotes of a Hyperbola"
 msgstr "হাইপারবোলার অসীমতট"
 
-#: misc/builtin_stuff.cc:483
+#: misc/builtin_stuff.cc:484
 msgid "The two asymptotes of a hyperbola."
 msgstr "কোন হাইপারবোলার দুটি অসীমতট।"
 
-#: misc/builtin_stuff.cc:496
+#: misc/builtin_stuff.cc:497
 msgid "Triangle by Its Vertices"
 msgstr "প্রান্তবিন্দুর সাহায্যে অঙ্কিত ত্রিভুজ"
 
-#: misc/builtin_stuff.cc:497
+#: misc/builtin_stuff.cc:498
 msgid "Construct a triangle given its three vertices."
 msgstr "তিনটি প্রদত্ত প্রান্তবিন্দু ব্যবহার করে একটি ত্রিভুজ আঁকো।"
 
-#: misc/builtin_stuff.cc:523
+#: misc/builtin_stuff.cc:524
 msgid "Convex Hull"
 msgstr "উত্তল হাল (hull)"
 
-#: misc/builtin_stuff.cc:524
+#: misc/builtin_stuff.cc:525
 msgid "A polygon that corresponds to the convex hull of another polygon"
 msgstr "এমন একটি বহুভুজ যা অপর একটি বহুভুজের কনভেক্স হাল (hull)"
 
-#: misc/builtin_stuff.cc:538
+#: misc/builtin_stuff.cc:536
+msgid "Bézier Quadric by its Control Points"
+msgstr ""
+
+#: misc/builtin_stuff.cc:537
+#, fuzzy
+msgid "Construct a Bézier quadric given its three control points."
+msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে একটি বৃত্তচাপ আঁকো।"
+
+#: misc/builtin_stuff.cc:544
+msgid "Bézier Cubic by its Control Points"
+msgstr ""
+
+#: misc/builtin_stuff.cc:545
+#, fuzzy
+#| msgid "Construct a cubic curve through this point"
+msgid "Construct a Bézier cubic given its four control points."
+msgstr "এই বিন্দু দিয়ে একটি ঘনকীয় বক্ররেখা আঁকো"
+
+#: misc/builtin_stuff.cc:556
+msgid "Rational Bézier Quadric by its Control Points"
+msgstr ""
+
+#: misc/builtin_stuff.cc:557
+#, fuzzy
+#| msgid "Construct a triangle given its three vertices."
+msgid "Construct a Rational Bézier quadric given its three control points."
+msgstr "তিনটি প্রদত্ত প্রান্তবিন্দু ব্যবহার করে একটি ত্রিভুজ আঁকো।"
+
+#: misc/builtin_stuff.cc:564
+msgid "Rational Bézier Cubic by its Control Points"
+msgstr ""
+
+#: misc/builtin_stuff.cc:565
+#, fuzzy
+msgid "Construct a Rational Bézier cubic given its four control points."
+msgstr "তিনটি নির্দিষ্ট বিন্দু দিয়ে একটি বৃত্তচাপ আঁকো।"
+
+#: misc/builtin_stuff.cc:580
 msgid "Parallel Test"
 msgstr "সমান্তরাল পরীক্ষা"
 
-#: misc/builtin_stuff.cc:539
+#: misc/builtin_stuff.cc:581
 msgid "Test whether two given lines are parallel"
 msgstr "প্রদত্ত দুটি রেখা সমান্তরাল কিনা তা পরীক্ষা করে"
 
-#: misc/builtin_stuff.cc:546
+#: misc/builtin_stuff.cc:588
 msgid "Orthogonal Test"
 msgstr "ছেদ পরীক্ষা"
 
-#: misc/builtin_stuff.cc:547
+#: misc/builtin_stuff.cc:589
 msgid "Test whether two given lines are orthogonal"
 msgstr "প্রদত্ত রেখাদ্বয় পরস্পরকে ছেদ করে কিনা পরীক্ষা করো"
 
-#: misc/builtin_stuff.cc:554
+#: misc/builtin_stuff.cc:596
 msgid "Collinear Test"
 msgstr "সমরৈখিকতার পরীক্ষা"
 
-#: misc/builtin_stuff.cc:555
+#: misc/builtin_stuff.cc:597
 msgid "Test whether three given points are collinear"
 msgstr "তিনটি প্রদত্ত বিন্দু সমরৈখিক কিনা তা পরীক্ষা করে"
 
 # FIXME
-#: misc/builtin_stuff.cc:562
+#: misc/builtin_stuff.cc:604
 msgid "Contains Test"
 msgstr "অবস্থান পরীক্ষা"
 
-#: misc/builtin_stuff.cc:563
+#: misc/builtin_stuff.cc:605
 msgid "Test whether a given curve contains a given point"
 msgstr "প্রদত্ত একটি বিন্দু প্রদত্ত অপর একটি বক্ররেখার উপর অবস্থিত কিনা তা পরীক্ষা করে"
 
-#: misc/builtin_stuff.cc:570
+#: misc/builtin_stuff.cc:612
 msgid "In Polygon Test"
 msgstr "বহুভুজ পরীক্ষার ভেতর"
 
-#: misc/builtin_stuff.cc:571
+#: misc/builtin_stuff.cc:613
 msgid "Test whether a given polygon contains a given point"
 msgstr "প্রদত্ত একটি বিন্দু প্রদত্ত অপর একটি বহুভুজের ভেতর অবস্থিত কিনা তা পরীক্ষা করো"
 
-#: misc/builtin_stuff.cc:578
+#: misc/builtin_stuff.cc:620
 msgid "Convex Polygon Test"
 msgstr "উত্তল বহুভুজ পরীক্ষা"
 
-#: misc/builtin_stuff.cc:579
+#: misc/builtin_stuff.cc:621
 msgid "Test whether a given polygon is convex"
 msgstr "প্রদত্ত বহুভুজটি উত্তল কিনা তা পরীক্ষা করো"
 
-#: misc/builtin_stuff.cc:586
+#: misc/builtin_stuff.cc:628
 #, fuzzy
 #| msgid "Distance Test"
 msgid "Existence Test"
 msgstr "দূরত্বমাপক পরীক্ষা"
 
-#: misc/builtin_stuff.cc:587
+#: misc/builtin_stuff.cc:629
 #, fuzzy
 #| msgid "Test whether a given polygon is convex"
 msgid "Test whether a given object is constructible"
 msgstr "প্রদত্ত বহুভুজটি উত্তল কিনা তা পরীক্ষা করো"
 
-#: misc/builtin_stuff.cc:594
+#: misc/builtin_stuff.cc:636
 msgid "Distance Test"
 msgstr "দূরত্বমাপক পরীক্ষা"
 
 # FIXME
-#: misc/builtin_stuff.cc:595
+#: misc/builtin_stuff.cc:637
 msgid ""
 "Test whether a given point have the same distance from a given point and "
 "from another given point"
 msgstr "প্রদত্ত দুটি বিন্দু থেকে তৃতীয় একটি প্রদত্ত বিন্দুর দূরত্ব সমান কিনা তা পরীক্ষা করো"
 
-#: misc/builtin_stuff.cc:603
+#: misc/builtin_stuff.cc:645
 msgid "Vector Equality Test"
 msgstr "ভেক্টর সাম্য পরীক্ষা"
 
-#: misc/builtin_stuff.cc:604
+#: misc/builtin_stuff.cc:646
 msgid "Test whether two vectors are equal"
 msgstr "দুটি ভেক্টর সমান কিনা তা পরীক্ষা করে"
 
-#: misc/builtin_stuff.cc:645 modes/popup.cc:1009
+#: misc/builtin_stuff.cc:687 modes/popup.cc:1009
 msgid "Python Script"
 msgstr "পাইথন স্ক্রিপ্ট"
 
-#: misc/builtin_stuff.cc:646
+#: misc/builtin_stuff.cc:688
 msgid "Construct a new Python script."
 msgstr "একটি নতুন পাইথন স্ক্রিপ্ট তৈরি করো।"
 
@@ -1795,11 +1847,11 @@ msgstr ""
 "অথবা আপনি কিগ-এর পুরনো কোন সংস্করণ ব্যবহার করছেন।"
 
 # FIXME: 'Radical'-এর অর্থ জানি না ;-(
-#: misc/special_constructors.cc:322
+#: misc/special_constructors.cc:324
 msgid "Radical Lines for Conics"
 msgstr "কনিকের র্যাডিকাল (radical) রেখা"
 
-#: misc/special_constructors.cc:323
+#: misc/special_constructors.cc:325
 msgid ""
 "The lines constructed through the intersections of two conics.  This is also "
 "defined for non-intersecting conics."
@@ -1807,164 +1859,198 @@ msgstr ""
 "দুইটি কনিকের ছেদবিন্দু দিয়ে অঙ্কিত রেখা।  এটি ছেদ করে না এরূপ কনিকের জন্যও "
 "নির্ধারিত।"
 
-#: misc/special_constructors.cc:381 misc/special_constructors.cc:477
+#: misc/special_constructors.cc:383 misc/special_constructors.cc:479
 msgid "Moving Point"
 msgstr "চলমান বিন্দু"
 
-#: misc/special_constructors.cc:382
+#: misc/special_constructors.cc:384
 msgid ""
 "Select the moving point, which will be moved around while drawing the "
 "locus..."
 msgstr "সঞ্চারপথ অঙ্কনের সময় যে বিন্দুটিকে সরানো হবে তা বেছে নিন..."
 
 # FIXME
-#: misc/special_constructors.cc:383
+#: misc/special_constructors.cc:385
 msgid "Following Point"
 msgstr "অনুসরণরত বিন্দু"
 
-#: misc/special_constructors.cc:384
+#: misc/special_constructors.cc:386
 msgid ""
 "Select the following point, whose locations the locus will be drawn "
 "through..."
 msgstr "নিম্নের বিন্দুটি বেছে নিন, যার অবস্থান দিয়ে সঞ্চারপথ আঁকা হবে..."
 
-#: misc/special_constructors.cc:388
+#: misc/special_constructors.cc:390
 msgid "Locus"
 msgstr "সঞ্চারপথ"
 
-#: misc/special_constructors.cc:388
+#: misc/special_constructors.cc:390
 msgid "A locus"
 msgstr "একটি সঞ্চারপথ"
 
-#: misc/special_constructors.cc:478
+#: misc/special_constructors.cc:480
 msgid "Dependent Point"
 msgstr "নির্ভরশীল বিন্দু"
 
-#: misc/special_constructors.cc:514
+#: misc/special_constructors.cc:516
 msgid "Polygon by Its Vertices"
 msgstr "প্রান্তবিন্দুর সাহায্যে অঙ্কিত বহুভুজ"
 
-#: misc/special_constructors.cc:519
+#: misc/special_constructors.cc:521
 msgid "Construct a polygon by giving its vertices"
 msgstr "প্রান্তবিন্দু দেওয়ার মাধ্যমে একটি বহুভুজ আঁকো"
 
-#: misc/special_constructors.cc:591 misc/special_constructors.cc:742
+#: misc/special_constructors.cc:593 misc/special_constructors.cc:744
 msgid ""
 "... with this vertex (click on the first vertex to terminate construction)"
 msgstr ""
 "... এই প্রান্তবিন্দুর মাধ্যমে (আঁকা শেষ করার জন্য প্রথম প্রান্তবিন্দুর ওপর ক্লিক করুন)"
 
-#: misc/special_constructors.cc:592
+#: misc/special_constructors.cc:594
 msgid "Construct a polygon with this vertex"
 msgstr "এই প্রান্তবিন্দু ব্যবহার করে একটি বহুভুজ আঁকো"
 
-#: misc/special_constructors.cc:599 misc/special_constructors.cc:1628
+#: misc/special_constructors.cc:601 misc/special_constructors.cc:1775
 msgid "Select a point to be a vertex of the new polygon..."
 msgstr "নতুন বহুভুজের যেকোন প্রান্তবিন্দু হিসেবে একটি বিন্দুকে বেছে নিন..."
 
-#: misc/special_constructors.cc:665
+#: misc/special_constructors.cc:667
 msgid "Open Polygon (Polygonal Line)"
 msgstr ""
 
-#: misc/special_constructors.cc:670
+#: misc/special_constructors.cc:672
 #, fuzzy
 #| msgid "Construct the sides of this polygon"
 msgid "Construct a open polygon"
 msgstr "এই বহুভুজের বাহুগুলো আঁকো"
 
-#: misc/special_constructors.cc:743
+#: misc/special_constructors.cc:745
 #, fuzzy
 #| msgid "Construct a polygon with this vertex"
 msgid "Construct a open polygon (polyline) with this vertex"
 msgstr "এই প্রান্তবিন্দু ব্যবহার করে একটি বহুভুজ আঁকো"
 
-#: misc/special_constructors.cc:750
+#: misc/special_constructors.cc:752
 #, fuzzy
 #| msgid "Select a point to be a vertex of the new polygon..."
 msgid "Select a point to be a vertex of the new open polygon..."
 msgstr "নতুন বহুভুজের যেকোন প্রান্তবিন্দু হিসেবে একটি বিন্দুকে বেছে নিন..."
 
-#: misc/special_constructors.cc:805 misc/special_constructors.cc:872
+#: misc/special_constructors.cc:807 misc/special_constructors.cc:874
 msgid "Polygon"
 msgstr "বহুভুজ"
 
-#: misc/special_constructors.cc:806
+#: misc/special_constructors.cc:808
 msgid "Construct the vertices of this polygon..."
 msgstr "এই বহুভুজের প্রান্তবিন্দুগুলো আঁকো..."
 
-#: misc/special_constructors.cc:810
+#: misc/special_constructors.cc:812
 msgid "Vertices of a Polygon"
 msgstr "কোন বহুভুজের প্রান্তবিন্দু"
 
-#: misc/special_constructors.cc:811
+#: misc/special_constructors.cc:813
 msgid "The vertices of a polygon."
 msgstr "কোন বহুভুজের প্রান্তবিন্দুসমূহ।"
 
-#: misc/special_constructors.cc:873
+#: misc/special_constructors.cc:875
 msgid "Construct the sides of this polygon..."
 msgstr "এই বহুভুজের বাহুগুলো আঁকো..."
 
-#: misc/special_constructors.cc:877
+#: misc/special_constructors.cc:879
 msgid "Sides of a Polygon"
 msgstr "কোন বহুভুজের বাহু"
 
-#: misc/special_constructors.cc:878
+#: misc/special_constructors.cc:880
 msgid "The sides of a polygon."
 msgstr "কোন বহুভুজের বাহু।"
 
-#: misc/special_constructors.cc:949
+#: misc/special_constructors.cc:951
 msgid "Regular Polygon with Given Center"
 msgstr "প্রদত্ত কেন্দ্রবিন্দু ব্যবহার করে অঙ্কিত নিয়মিত বহুভুজ"
 
-#: misc/special_constructors.cc:954
+#: misc/special_constructors.cc:956
 msgid "Construct a regular polygon with a given center and vertex"
 msgstr "প্রদত্ত কেন্দ্রবিন্দু ও প্রান্তবিন্দু ব্যবহার করে একটি নিয়মিত আকারের বহুভুজ আঁকো"
 
-#: misc/special_constructors.cc:1113
+#: misc/special_constructors.cc:1115
 msgid "Construct a regular polygon with this center"
 msgstr "এই কেন্দ্রবিন্দু ব্যবহার করে একটি নিয়মিত আকারের বহুভুজ আঁকো"
 
-#: misc/special_constructors.cc:1117
+#: misc/special_constructors.cc:1119
 msgid "Construct a regular polygon with this vertex"
 msgstr "এই প্রান্তবিন্দু ব্যবহার করে একটি নিয়মিত আকারের বহুভুজ আঁকো"
 
-#: misc/special_constructors.cc:1129
+#: misc/special_constructors.cc:1131
 #, kde-format
 msgid "Adjust the number of sides (%1/%2)"
 msgstr "বাহুর সংখ্যা নির্ধারণ করুন (%1/%2)"
 
-#: misc/special_constructors.cc:1133
+#: misc/special_constructors.cc:1135
 #, kde-format
 msgid "Adjust the number of sides (%1)"
 msgstr "বাহুর সংখ্যা নির্ধারণ করুন (%1)"
 
-#: misc/special_constructors.cc:1149
+#: misc/special_constructors.cc:1151
 msgid "Select the center of the new polygon..."
 msgstr "নতুন বহুভুজের কেন্দ্রবিন্দু বেছে নিন..."
 
-#: misc/special_constructors.cc:1153
+#: misc/special_constructors.cc:1155
 msgid "Select a vertex for the new polygon..."
 msgstr "নতুন বহুভুজের জন্য একটি প্রান্তবিন্দু বেছে নিন..."
 
-#: misc/special_constructors.cc:1157
+#: misc/special_constructors.cc:1159
 msgid "Move the cursor to get the desired number of sides..."
 msgstr "আকাঙ্খিত সংখ্যক বাহু আঁকার জন্য কার্সারকে সরান..."
 
-#: misc/special_constructors.cc:1349
+#: misc/special_constructors.cc:1250
+#, fuzzy
+#| msgid "Cubic Curve by Nine Points"
+msgid "Bézier Curve by its Control Points"
+msgstr "নয়টি নির্দিষ্ট বিন্দু দিয়ে অঙ্কিত ঘনক"
+
+#: misc/special_constructors.cc:1255
+#, fuzzy
+#| msgid "Construct a polygon by giving its vertices"
+msgid "Construct a Bézier curve by giving its control points"
+msgstr "প্রান্তবিন্দু দেওয়ার মাধ্যমে একটি বহুভুজ আঁকো"
+
+#: misc/special_constructors.cc:1327
+#, fuzzy
+#| msgid ""
+#| "... with this vertex (click on the first vertex to terminate construction)"
+msgid ""
+"... with this control point (click on the first control point to terminate "
+"construction)"
+msgstr ""
+"... এই প্রান্তবিন্দুর মাধ্যমে (আঁকা শেষ করার জন্য প্রথম প্রান্তবিন্দুর ওপর ক্লিক করুন)"
+
+#: misc/special_constructors.cc:1328
+#, fuzzy
+#| msgid "Construct a polygon with this vertex"
+msgid "Construct a polygon with this control point"
+msgstr "এই প্রান্তবিন্দু ব্যবহার করে একটি বহুভুজ আঁকো"
+
+#: misc/special_constructors.cc:1335
+#, fuzzy
+#| msgid "Select a point to be a vertex of the new triangle..."
+msgid "Select a point to be a control point of the new Bézier curve..."
+msgstr "নতুন ত্রিভুজের প্রান্তবিন্দু হিসাবে একটি বিন্দু বেছে নিন..."
+
+#: misc/special_constructors.cc:1496
 msgid "Construct the Radical Lines of This Circle"
 msgstr "এই বৃত্তের র্যাডিকাল (radical) রেখা আঁকো"
 
-#: misc/special_constructors.cc:1351
+#: misc/special_constructors.cc:1498
 msgid "Construct the Radical Lines of This Conic"
 msgstr "এই কনিকের র্যাডিকাল (radical) রেখা আঁকো"
 
 # FIXME
-#: misc/special_constructors.cc:1366
+#: misc/special_constructors.cc:1513
 msgid "Generic Affinity"
 msgstr "সাধারণ সাদৃশ্য (affinity)"
 
 # FIXME
-#: misc/special_constructors.cc:1367
+#: misc/special_constructors.cc:1514
 msgid ""
 "The unique affinity that maps three points (or a triangle) onto three other "
 "points (or a triangle)"
@@ -1973,12 +2059,12 @@ msgstr ""
 "করে এরূপ একটি একক সাদৃশ্য (affinity)"
 
 # FIXME
-#: misc/special_constructors.cc:1390
+#: misc/special_constructors.cc:1537
 msgid "Generic Projective Transformation"
 msgstr "সাধারণ প্রক্ষেপণ রূপান্তর"
 
 # FIXME: প্রক্ষেপণ রূপান্তর
-#: misc/special_constructors.cc:1391
+#: misc/special_constructors.cc:1538
 msgid ""
 "The unique projective transformation that maps four points (or a "
 "quadrilateral) onto four other points (or a quadrilateral)"
@@ -1986,213 +2072,213 @@ msgstr ""
 "প্রদত্ত ৪টি বিন্দুকে (বা একটি চতুর্ভুজকে) অপর ৪টি বিন্দুর (বা একটি চতুর্ভুজের) উপর স্থাপন "
 "করে এরূপ একটি একক প্রক্ষেপণ রূপান্তর"
 
-#: misc/special_constructors.cc:1418
+#: misc/special_constructors.cc:1565
 msgid "Inversion of Point, Line or Circle"
 msgstr "বিন্দু, রেখা বা বৃত্তের বিপরীতকরণ (inversion)"
 
-#: misc/special_constructors.cc:1419
+#: misc/special_constructors.cc:1566
 msgid "The inversion of a point, line or circle with respect to a circle"
 msgstr "একটি বৃত্তের সাপেক্ষে অপর একটি বিন্দু, রেখা বা বৃত্তের বিপরীতকরণ (inversion)"
 
 # FIXME
-#: misc/special_constructors.cc:1483
+#: misc/special_constructors.cc:1630
 msgid "Measure Transport"
 msgstr "স্থানান্তরের পরিমাণ মাপো"
 
 # FIXME
-#: misc/special_constructors.cc:1488
+#: misc/special_constructors.cc:1635
 msgid "Transport the measure of a segment or arc over a line or circle."
 msgstr "কোন রেখাংশ বা বৃত্তচাপের দৈর্ঘ্যকে একটি রেখা বা বৃত্তের উপর স্থানান্তর করো।"
 
-#: misc/special_constructors.cc:1601 objects/special_calcers.cc:24
+#: misc/special_constructors.cc:1748 objects/special_calcers.cc:24
 msgid "Segment to transport"
 msgstr "যে রেখাংশকে স্থানান্তর করা হবে"
 
-#: misc/special_constructors.cc:1603
+#: misc/special_constructors.cc:1750
 msgid "Arc to transport"
 msgstr "যে বৃত্তচাপকে স্থানান্তর করা হবে"
 
-#: misc/special_constructors.cc:1605
+#: misc/special_constructors.cc:1752
 #, fuzzy
 msgid "Value to transport"
 msgstr "যে বৃত্তচাপকে স্থানান্তর করা হবে"
 
-#: misc/special_constructors.cc:1607
+#: misc/special_constructors.cc:1754
 msgid "Transport a measure on this line"
 msgstr "এই রেখার উপর একটি দৈর্ঘ্যকে স্থানান্তর করো"
 
-#: misc/special_constructors.cc:1609 objects/special_calcers.cc:22
+#: misc/special_constructors.cc:1756 objects/special_calcers.cc:22
 msgid "Transport a measure on this circle"
 msgstr "এই বৃত্তেরর উপর একটি দৈর্ঘ্যকে স্থানান্তর করো"
 
-#: misc/special_constructors.cc:1613
+#: misc/special_constructors.cc:1760
 msgid "Start transport from this point of the circle"
 msgstr "বৃত্তের এই বিন্দু থেকে স্থানান্তর আরম্ভ করো"
 
-#: misc/special_constructors.cc:1615
+#: misc/special_constructors.cc:1762
 msgid "Start transport from this point of the line"
 msgstr "রেখার এই বিন্দু থেকে স্থানান্তর আরম্ভ করো"
 
-#: misc/special_constructors.cc:1617
+#: misc/special_constructors.cc:1764
 msgid "Start transport from this point of the curve"
 msgstr "বক্ররেখার এই বিন্দু থেকে স্থানান্তর আরম্ভ করো"
 
-#: misc/special_constructors.cc:1665 objects/intersection_types.cc:36
+#: misc/special_constructors.cc:1812 objects/intersection_types.cc:36
 msgid "Intersect with this conic"
 msgstr "এই কনিককে ছেদ করে"
 
-#: misc/special_constructors.cc:1667 misc/special_constructors.cc:1676
+#: misc/special_constructors.cc:1814 misc/special_constructors.cc:1823
 #: objects/intersection_types.cc:32
 msgid "Intersect with this line"
 msgstr "এই রেখাকে ছেদ করে"
 
-#: misc/special_constructors.cc:1674 objects/intersection_types.cc:155
+#: misc/special_constructors.cc:1821 objects/intersection_types.cc:155
 #: objects/intersection_types.cc:223
 #, fuzzy
 #| msgid "Intersect with this conic"
 msgid "Intersect with this cubic"
 msgstr "এই কনিককে ছেদ করে"
 
-#: misc/special_constructors.cc:1683 misc/special_constructors.cc:1685
+#: misc/special_constructors.cc:1830 misc/special_constructors.cc:1832
 #: objects/intersection_types.cc:471 objects/intersection_types.cc:473
 msgid "Intersect with this circle"
 msgstr "এই বৃত্তকে ছেদ করে"
 
-#: misc/special_constructors.cc:1691
+#: misc/special_constructors.cc:1838
 msgid "Intersect"
 msgstr "ছেদ করে"
 
-#: misc/special_constructors.cc:1692
+#: misc/special_constructors.cc:1839
 msgid "The intersection of two objects"
 msgstr "দুটি বস্তুর ছেদবিন্দু"
 
-#: misc/special_constructors.cc:1779
+#: misc/special_constructors.cc:1926
 msgid "Intersect this Circle"
 msgstr "এই বৃত্তকে ছেদ করে"
 
-#: misc/special_constructors.cc:1781
+#: misc/special_constructors.cc:1928
 msgid "Intersect this Conic"
 msgstr "এই কনিককে ছেদ করে"
 
-#: misc/special_constructors.cc:1783
+#: misc/special_constructors.cc:1930
 msgid "Intersect this Line"
 msgstr "এই রেখাকে ছেদ করে"
 
-#: misc/special_constructors.cc:1785
+#: misc/special_constructors.cc:1932
 msgid "Intersect this Cubic Curve"
 msgstr "এই ঘনকীয় বক্ররেখাকে ছেদ করে"
 
-#: misc/special_constructors.cc:1787
+#: misc/special_constructors.cc:1934
 msgid "Intersect this Arc"
 msgstr "এই বৃত্তচাপকে ছেদ করে"
 
-#: misc/special_constructors.cc:1789
+#: misc/special_constructors.cc:1936
 msgid "Intersect this Polygon"
 msgstr "এই বহুভুজকে ছেদ করে"
 
-#: misc/special_constructors.cc:1794
+#: misc/special_constructors.cc:1941
 msgid "with this Circle"
 msgstr "এই বৃত্তকে"
 
-#: misc/special_constructors.cc:1796
+#: misc/special_constructors.cc:1943
 msgid "with this Conic"
 msgstr "এই কনিককে"
 
-#: misc/special_constructors.cc:1798
+#: misc/special_constructors.cc:1945
 msgid "with this Line"
 msgstr "এই রেখাকে"
 
-#: misc/special_constructors.cc:1800
+#: misc/special_constructors.cc:1947
 msgid "with this Cubic Curve"
 msgstr "এই ঘনকীয় বক্ররেখাকে"
 
-#: misc/special_constructors.cc:1802
+#: misc/special_constructors.cc:1949
 msgid "with this Arc"
 msgstr "এই বৃত্তচাপকে"
 
-#: misc/special_constructors.cc:1804
+#: misc/special_constructors.cc:1951
 msgid "with this Polygon"
 msgstr "এই বহুভুজকে"
 
-#: misc/special_constructors.cc:1814
+#: misc/special_constructors.cc:1961
 msgid "Construct Midpoint of This Point and Another One"
 msgstr "এই বিন্দু ও অপর একটি বিন্দুর মধ্যবিন্দু আঁকো"
 
-#: misc/special_constructors.cc:1815
+#: misc/special_constructors.cc:1962
 msgid ""
 "Select the first of the points of which you want to construct the midpoint..."
 msgstr "যে বিন্দুগুলোর মধ্যবিন্দু আঁকতে চান তাদের প্রথমটি বেছে নিন..."
 
-#: misc/special_constructors.cc:1816
+#: misc/special_constructors.cc:1963
 msgid "Construct the midpoint of this point and another one"
 msgstr "এই বিন্দু ও অপর একটি বিন্দুর মধ্যবিন্দু আঁকো"
 
-#: misc/special_constructors.cc:1817
+#: misc/special_constructors.cc:1964
 msgid "Select the other of the points of which to construct the midpoint..."
 msgstr "যে বিন্দুগুলোর মধ্যবিন্দু আঁকতে চান তাদের অন্য একটি বেছে নিন..."
 
-#: misc/special_constructors.cc:1927
+#: misc/special_constructors.cc:2074
 msgid "Select the first object to intersect..."
 msgstr "প্রথম যে বস্তুকে ছেদ করবে তা বেছে নিন..."
 
-#: misc/special_constructors.cc:1929
+#: misc/special_constructors.cc:2076
 msgid "Select the second object to intersect..."
 msgstr "দ্বিতীয় যে বস্তুকে ছেদ করবে তা বেছে নিন..."
 
-#: misc/special_constructors.cc:1934
+#: misc/special_constructors.cc:2081
 msgid "Tangent"
 msgstr "ঢাল"
 
-#: misc/special_constructors.cc:1935
+#: misc/special_constructors.cc:2082
 msgid "The line tangent to a curve"
 msgstr "কোন বক্ররেখার সাথে রেখাটির ঢাল"
 
-#: misc/special_constructors.cc:1977
+#: misc/special_constructors.cc:2124
 msgid "Tangent to This Circle"
 msgstr "এই বৃত্তের সাথে ঢাল"
 
-#: misc/special_constructors.cc:1979
+#: misc/special_constructors.cc:2126
 msgid "Tangent to This Conic"
 msgstr "এই কনিকের সাথে ঢাল"
 
-#: misc/special_constructors.cc:1981
+#: misc/special_constructors.cc:2128
 msgid "Tangent to This Arc"
 msgstr "এই বৃত্তচাপের সাথে ঢাল"
 
-#: misc/special_constructors.cc:1983
+#: misc/special_constructors.cc:2130
 msgid "Tangent to This Cubic Curve"
 msgstr "এই ঘনকীয় বক্ররেখার সাথে ঢাল"
 
-#: misc/special_constructors.cc:1985
+#: misc/special_constructors.cc:2132
 msgid "Tangent to This Curve"
 msgstr "এই বক্ররেখার সাথে ঢাল"
 
-#: misc/special_constructors.cc:1987
+#: misc/special_constructors.cc:2134
 msgid "Tangent at This Point"
 msgstr "এই বিন্দুতে ঢাল"
 
-#: misc/special_constructors.cc:2008
+#: misc/special_constructors.cc:2155
 msgid "Center Of Curvature"
 msgstr "বক্রতার কেন্দ্র"
 
-#: misc/special_constructors.cc:2009
+#: misc/special_constructors.cc:2156
 msgid "The center of the osculating circle to a curve"
 msgstr "কোন বক্ররেখার ওপর আপতিত বৃত্তের কেন্দ্রবিন্দু"
 
-#: misc/special_constructors.cc:2044
+#: misc/special_constructors.cc:2191
 msgid "Center of Curvature of This Conic"
 msgstr "এই কনিকের বক্রতার কেন্দ্র"
 
-#: misc/special_constructors.cc:2046
+#: misc/special_constructors.cc:2193
 msgid "Center of Curvature of This Cubic Curve"
 msgstr "এই ঘনকীয় বক্ররেখার বক্রতার কেন্দ্র"
 
-#: misc/special_constructors.cc:2048
+#: misc/special_constructors.cc:2195
 msgid "Center of Curvature of This Curve"
 msgstr "এই বক্ররেখার বক্রতার কেন্দ্র"
 
 # FIXME
-#: misc/special_constructors.cc:2050
+#: misc/special_constructors.cc:2197
 msgid "Center of Curvature at This Point"
 msgstr "এই বিন্দুতে বক্রতার কেন্দ্র"
 
@@ -2660,6 +2746,371 @@ msgstr "এই কেন্দ্রবিন্দু ব্যবহার ক
 #, fuzzy
 msgid "Select the center of the new conic arc..."
 msgstr "নতুন বৃত্তচাপের কেন্দ্রবিন্দু বেছে নিন..."
+
+#: objects/bezier_imp.cc:134 objects/bezier_imp.cc:422
+#, fuzzy
+#| msgid "Number of sides"
+msgid "Number of control points"
+msgstr "বাহুর সংখ্যা"
+
+#: objects/bezier_imp.cc:135 objects/bezier_imp.cc:423
+#, fuzzy
+#| msgid "Construct the sides of this polygon"
+msgid "Control polygon"
+msgstr "এই বহুভুজের বাহুগুলো আঁকো"
+
+#: objects/bezier_imp.cc:212
+#, fuzzy
+#| msgid "Hide a Curve"
+msgid "Bézier Curve"
+msgstr "একটি বক্ররেখা আড়াল করো"
+
+#: objects/bezier_imp.cc:213
+#, fuzzy
+#| msgid "Select this curve"
+msgid "Select this Bézier Curve"
+msgstr "এই বক্ররেখাটি বাছাই করো"
+
+#: objects/bezier_imp.cc:214
+#, fuzzy, kde-format
+#| msgid "Select curve %1"
+msgid "Select Bézier Curve %1"
+msgstr "%1 বক্ররেখাটি বেছে নিন"
+
+#: objects/bezier_imp.cc:215
+#, fuzzy
+#| msgid "Remove a Curve"
+msgid "Remove a Bézier Curve"
+msgstr "একটি বক্ররেখা অপসারণ করো"
+
+#: objects/bezier_imp.cc:216
+#, fuzzy
+#| msgid "Add a Curve"
+msgid "Add a Bézier Curve"
+msgstr "একটি বক্ররেখা যোগ করো"
+
+#: objects/bezier_imp.cc:217
+#, fuzzy
+#| msgid "Move a Curve"
+msgid "Move a Bézier Curve"
+msgstr "একটি বক্ররেখা স্থানান্তর করো"
+
+#: objects/bezier_imp.cc:218
+#, fuzzy
+#| msgid "Attach to this curve"
+msgid "Attach to this Bézier Curve"
+msgstr "এই বক্ররেখার সাথে সংযুক্ত করো"
+
+#: objects/bezier_imp.cc:219
+#, fuzzy
+#| msgid "Show a Curve"
+msgid "Show a Bézier Curve"
+msgstr "একটি বক্ররেখা দেখাও"
+
+#: objects/bezier_imp.cc:220
+#, fuzzy
+#| msgid "Hide a Curve"
+msgid "Hide a Bézier Curve"
+msgstr "একটি বক্ররেখা আড়াল করো"
+
+#: objects/bezier_imp.cc:230
+msgid "Bézier Quadric"
+msgstr ""
+
+#: objects/bezier_imp.cc:231
+#, fuzzy
+#| msgid "Select this arc"
+msgid "Select this Bézier Quadric"
+msgstr "এই বৃত্ত চাপটি বেছে নাও"
+
+#: objects/bezier_imp.cc:232
+#, fuzzy, kde-format
+#| msgid "Select arc %1"
+msgid "Select Bézier Quadric %1"
+msgstr "%1 বৃত্তচাপটি বেছে নিন"
+
+#: objects/bezier_imp.cc:233
+#, fuzzy
+#| msgid "Remove a Quadrilateral"
+msgid "Remove a Bézier Quadric"
+msgstr "একটি চতুর্ভুজকে অপসারণ করো"
+
+#: objects/bezier_imp.cc:234
+#, fuzzy
+#| msgid "Add a Quadrilateral"
+msgid "Add a Bézier Quadric"
+msgstr "একটি চতুর্ভুজ যোগ করো"
+
+#: objects/bezier_imp.cc:235
+#, fuzzy
+#| msgid "Move a Quadrilateral"
+msgid "Move a Bézier Quadric"
+msgstr "একটি চতুর্ভুজকে স্থানান্তর করো"
+
+#: objects/bezier_imp.cc:236
+#, fuzzy
+#| msgid "Attach to this arc"
+msgid "Attach to this Bézier Quadric"
+msgstr "এই বৃত্ত চাপের সাথে সংযুক্ত করো"
+
+#: objects/bezier_imp.cc:237
+#, fuzzy
+#| msgid "Show a Quadrilateral"
+msgid "Show a Bézier Quadric"
+msgstr "একটি চতুর্ভুজকে দেখাও"
+
+#: objects/bezier_imp.cc:238
+#, fuzzy
+#| msgid "Hide a Quadrilateral"
+msgid "Hide a Bézier Quadric"
+msgstr "একটি চতুর্ভুজকে লুকাও"
+
+#: objects/bezier_imp.cc:248
+msgid "Bézier Cubic"
+msgstr ""
+
+#: objects/bezier_imp.cc:249
+#, fuzzy
+#| msgid "Select this arc"
+msgid "Select this Bézier Cubic"
+msgstr "এই বৃত্ত চাপটি বেছে নাও"
+
+#: objects/bezier_imp.cc:250
+#, fuzzy, kde-format
+#| msgid "Select circle %1"
+msgid "Select Bézier Cubic %1"
+msgstr "%1 বৃত্তটি বেছে নাও"
+
+#: objects/bezier_imp.cc:251
+#, fuzzy
+#| msgid "Remove a Conic"
+msgid "Remove a Bézier Cubic"
+msgstr "একটি কনিক অপসারণ করো"
+
+#: objects/bezier_imp.cc:252
+#, fuzzy
+#| msgid "Add a Cubic Curve"
+msgid "Add a Bézier Cubic"
+msgstr "একটি ঘনকীয় বক্ররেখা যোগ করো"
+
+#: objects/bezier_imp.cc:253
+#, fuzzy
+#| msgid "Move a Cubic Curve"
+msgid "Move a Bézier Cubic"
+msgstr "একটি ঘনকীয় বক্ররেখা স্থানান্তর করো"
+
+#: objects/bezier_imp.cc:254
+#, fuzzy
+#| msgid "Attach to this arc"
+msgid "Attach to this Bézier Cubic"
+msgstr "এই বৃত্ত চাপের সাথে সংযুক্ত করো"
+
+#: objects/bezier_imp.cc:255
+#, fuzzy
+#| msgid "Show a Cubic Curve"
+msgid "Show a Bézier Cubic"
+msgstr "একটি ঘনকীয় বক্ররেখা দেখাও"
+
+#: objects/bezier_imp.cc:256
+#, fuzzy
+#| msgid "Hide a Cubic Curve"
+msgid "Hide a Bézier Cubic"
+msgstr "একটি ঘনকীয় বক্ররেখাকে আড়াল করো"
+
+#: objects/bezier_imp.cc:500
+msgid "Rational Bézier Curve"
+msgstr ""
+
+#: objects/bezier_imp.cc:501
+#, fuzzy
+#| msgid "Select this polygon"
+msgid "Select this Rational Bézier Curve"
+msgstr "এই বহুভুজটি বাছাই করো"
+
+#: objects/bezier_imp.cc:502
+#, fuzzy, kde-format
+#| msgid "Select polygon %1"
+msgid "Select Rational Bézier Curve %1"
+msgstr "%1 বহুভুজকে বেছে নিন"
+
+#: objects/bezier_imp.cc:503
+#, fuzzy
+#| msgid "Remove a Polygon"
+msgid "Remove a Rational Bézier Curve"
+msgstr "একটি বহুভুজকে অপসারণ করো"
+
+#: objects/bezier_imp.cc:504
+#, fuzzy
+#| msgid "Add a Polygon"
+msgid "Add a Rational Bézier Curve"
+msgstr "একটি বহুভুজকে যোগ করো"
+
+#: objects/bezier_imp.cc:505
+#, fuzzy
+#| msgid "Move a Polygon"
+msgid "Move a Rational Bézier Curve"
+msgstr "একটি বহুভুজ স্থানান্তর করো"
+
+#: objects/bezier_imp.cc:506
+#, fuzzy
+#| msgid "Attach to this polygon"
+msgid "Attach to this Rational Bézier Curve"
+msgstr "এই বহুভুজের সাথে সংযুক্ত করো"
+
+#: objects/bezier_imp.cc:507
+#, fuzzy
+#| msgid "Show a Polygon"
+msgid "Show a Rational Bézier Curve"
+msgstr "একটি বহুভুজ দেখাও"
+
+#: objects/bezier_imp.cc:508
+#, fuzzy
+#| msgid "Hide a Polygon"
+msgid "Hide a Rational Bézier Curve"
+msgstr "একটি বহুভুজকে লুকাও"
+
+#: objects/bezier_imp.cc:518
+msgid "Rational Bézier Quadric"
+msgstr ""
+
+#: objects/bezier_imp.cc:519
+#, fuzzy
+msgid "Select this Rational Bézier Quadric"
+msgstr "এই কনিকটি বাছাই করো"
+
+#: objects/bezier_imp.cc:520
+#, fuzzy, kde-format
+msgid "Select Rational Bézier Quadric %1"
+msgstr "%1 কনিকটি বেছে নিন"
+
+#: objects/bezier_imp.cc:521
+msgid "Remove a Rational Bézier Quadric"
+msgstr ""
+
+#: objects/bezier_imp.cc:522
+msgid "Add a Rational Bézier Quadric"
+msgstr ""
+
+#: objects/bezier_imp.cc:523
+msgid "Move a Rational Bézier Quadric"
+msgstr ""
+
+#: objects/bezier_imp.cc:524
+#, fuzzy
+msgid "Attach to this Rational Bézier Quadric"
+msgstr "এই কনিকের সাথে সংযুক্ত করো"
+
+#: objects/bezier_imp.cc:525
+msgid "Show a Rational Bézier Quadric"
+msgstr ""
+
+#: objects/bezier_imp.cc:526
+msgid "Hide a Rational Bézier Quadric"
+msgstr ""
+
+#: objects/bezier_imp.cc:536
+msgid "Rational Bézier Cubic"
+msgstr ""
+
+#: objects/bezier_imp.cc:537
+#, fuzzy
+#| msgid "Select this triangle"
+msgid "Select this Rational Bézier Cubic"
+msgstr "এই ত্রিভুজকে বেছে নাও"
+
+#: objects/bezier_imp.cc:538
+#, fuzzy, kde-format
+#| msgid "Select triangle %1"
+msgid "Select Rational Bézier Cubic %1"
+msgstr "%1 ত্রিভুজকে বেছে নিন"
+
+#: objects/bezier_imp.cc:539
+msgid "Remove a Rational Bézier Cubic"
+msgstr ""
+
+#: objects/bezier_imp.cc:540
+msgid "Add a Rational Bézier Cubic"
+msgstr ""
+
+#: objects/bezier_imp.cc:541
+msgid "Move a Rational Bézier Cubic"
+msgstr ""
+
+#: objects/bezier_imp.cc:542
+#, fuzzy
+#| msgid "Attach to this conic"
+msgid "Attach to this Rational Bézier Cubic"
+msgstr "এই কনিকের সাথে সংযুক্ত করো"
+
+#: objects/bezier_imp.cc:543
+msgid "Show a Rational Bézier Cubic"
+msgstr ""
+
+#: objects/bezier_imp.cc:544
+msgid "Hide a Rational Bézier Cubic"
+msgstr ""
+
+#: objects/bezier_type.cc:39
+#, fuzzy
+#| msgid "Construct an arc with this center"
+msgid "Construct a quadric with this control point"
+msgstr "এই কেন্দ্রবিন্দু ব্যবহার করে একটি বৃত্তচাপ আঁকো"
+
+#: objects/bezier_type.cc:40
+#, fuzzy
+#| msgid "Select a point to be a vertex of the new triangle..."
+msgid "Select a point to be a control point of the new quadric..."
+msgstr "নতুন ত্রিভুজের প্রান্তবিন্দু হিসাবে একটি বিন্দু বেছে নিন..."
+
+#: objects/bezier_type.cc:139
+#, fuzzy
+#| msgid "Construct a circle with this center"
+msgid "Construct a cubic with this control point"
+msgstr "এই কেন্দ্রবিন্দু ব্যবহার করে একটি বৃত্ত আঁকো"
+
+#: objects/bezier_type.cc:140
+#, fuzzy
+#| msgid "Select a point to be a vertex of the new triangle..."
+msgid "Select a point to be a control point of the new cubic..."
+msgstr "নতুন ত্রিভুজের প্রান্তবিন্দু হিসাবে একটি বিন্দু বেছে নিন..."
+
+#: objects/bezier_type.cc:359
+#, fuzzy
+#| msgid "Construct an arc with this center"
+msgid "Construct a rational quadric with this control point"
+msgstr "এই কেন্দ্রবিন্দু ব্যবহার করে একটি বৃত্তচাপ আঁকো"
+
+#: objects/bezier_type.cc:360
+#, fuzzy
+#| msgid ""
+#| "Select the first of the two conics of which you want to construct the "
+#| "radical line..."
+msgid ""
+"Select three points and three numeric values as weights to construct "
+"rational quadric..."
+msgstr "যে দুটি কনিকের র্যাডিকাল (radical) রেখা আঁকতে চান তার প্রথমটি বাছাই করুন..."
+
+#: objects/bezier_type.cc:361 objects/bezier_type.cc:470
+#, fuzzy
+#| msgid "Select this segment"
+msgid "Select this value as weight"
+msgstr "এই রেখাংশকে বেছে নাও"
+
+#: objects/bezier_type.cc:468
+#, fuzzy
+#| msgid "Construct a circle with this center"
+msgid "Construct a rational cubic with this control point"
+msgstr "এই কেন্দ্রবিন্দু ব্যবহার করে একটি বৃত্ত আঁকো"
+
+#: objects/bezier_type.cc:469
+#, fuzzy
+#| msgid ""
+#| "Select the first of the two conics of which you want to construct the "
+#| "radical line..."
+msgid ""
+"Select three points and three numeric values as weights to construct "
+"rational cubic..."
+msgstr "যে দুটি কনিকের র্যাডিকাল (radical) রেখা আঁকতে চান তার প্রথমটি বাছাই করুন..."
 
 #: objects/bogus_imp.cc:338
 msgid "Test Result"
@@ -3503,40 +3954,40 @@ msgstr ""
 msgid "Object Type"
 msgstr "বস্তুর ধরন"
 
-#: objects/object_imp.cc:272
+#: objects/object_imp.cc:276
 msgid "Object"
 msgstr "বস্তু"
 
-#: objects/object_imp.cc:273
+#: objects/object_imp.cc:277
 msgid "Select this object"
 msgstr "এই বস্তুটি বেছে নাও"
 
-#: objects/object_imp.cc:274
+#: objects/object_imp.cc:278
 #, kde-format
 msgid "Select object %1"
 msgstr "%1 বস্তুটি বেছে নিন"
 
-#: objects/object_imp.cc:275
+#: objects/object_imp.cc:279
 msgid "Remove an object"
 msgstr "একটি বস্তু অপসারণ করো"
 
-#: objects/object_imp.cc:276
+#: objects/object_imp.cc:280
 msgid "Add an object"
 msgstr "একটি বস্তু যোগ করো"
 
-#: objects/object_imp.cc:277
+#: objects/object_imp.cc:281
 msgid "Move an object"
 msgstr "একটি বস্তু স্থানান্তর করো"
 
-#: objects/object_imp.cc:278
+#: objects/object_imp.cc:282
 msgid "Attach to this object"
 msgstr "এই বস্তুর সাথে সংযুক্ত করো"
 
-#: objects/object_imp.cc:279
+#: objects/object_imp.cc:283
 msgid "Show an object"
 msgstr "একটি বস্তু দেখাও"
 
-#: objects/object_imp.cc:280
+#: objects/object_imp.cc:284
 msgid "Hide an object"
 msgstr "একটি বস্তু আড়াল করো"
 
