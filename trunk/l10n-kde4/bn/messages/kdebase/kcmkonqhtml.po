@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkonqhtml\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-09-11 06:34+0200\n"
+"POT-Creation-Date: 2009-11-04 07:09+0100\n"
 "PO-Revision-Date: 2009-01-05 20:52-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -346,85 +346,110 @@ msgstr "স্বীকার করো"
 msgid "Reject"
 msgstr "প্রত্যাখ্যান করো"
 
-#: filteropts.cpp:57
+#: filteropts.cpp:59
 msgid "Enable filters"
 msgstr "ফিল্টার সক্রিয় করো"
 
-#: filteropts.cpp:60
+#: filteropts.cpp:62
 msgid "Hide filtered images"
 msgstr "ফিল্টার করা ছবি লুকাও"
 
-#: filteropts.cpp:63
+#: filteropts.cpp:65
 #, fuzzy
 msgid "URL Expressions to Filter"
 msgstr "ফিল্টারে ইউআরএল অভিব্যক্তি"
 
-#: filteropts.cpp:77
-msgid "Expression (e.g. http://www.example.com/ad/*):"
-msgstr "মান (উদাঃ http://www.example.com/ad/*):"
+#: filteropts.cpp:82
+msgid "Search:"
+msgstr ""
 
-#: filteropts.cpp:85
+#: filteropts.cpp:90
+msgid ""
+"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
+"\"filterhelp\">more information</a>):"
+msgstr ""
+
+#: filteropts.cpp:101
 msgid "Insert"
 msgstr "ঢোকাও"
 
-#: filteropts.cpp:87
+#: filteropts.cpp:103
 msgid "Update"
 msgstr "আপডেট"
 
-#: filteropts.cpp:89
+#: filteropts.cpp:105
 msgid "Remove"
 msgstr "সরাও"
 
-#: filteropts.cpp:92
+#: filteropts.cpp:108
 msgid "Import..."
 msgstr "আমদানি করো..."
 
-#: filteropts.cpp:94
+#: filteropts.cpp:110
 msgid "Export..."
 msgstr "রপ্তানি করো..."
 
-#: filteropts.cpp:104
+#: filteropts.cpp:114
+msgid ""
+"<qt>More information on <a href=\"importhelp\">import format</a>, <a href="
+"\"exporthelp\">export format</a>"
+msgstr ""
+
+#: filteropts.cpp:128
 #, fuzzy
 msgid ""
-"Enable or disable AdBlocK filters. When enabled a set of expressions to be "
-"blocked should be defined in the filter list for blocking to take effect."
+"Enable or disable AdBlocK filters. When enabled, a set of URL expressions "
+"should be defined in the filter list for blocking to take effect."
 msgstr ""
 "সক্রিয় করো অথবা AdBlocK ফিল্টার নিষ্ক্রিয় করো। প্রভাব গ্রহণ করতে বাধা দেওয়ার জন্য "
 "ফিল্টার তালিকাতে should হ বাধা দে হ সংজ্ঞায়িত করতে অভিব্যক্তির একটি সেটের কখন "
 "সক্রিয় কর।"
 
-#: filteropts.cpp:107
+#: filteropts.cpp:130
 #, fuzzy
 msgid ""
-"When enabled blocked images will be removed from the page completely "
+"When enabled blocked images will be removed from the page completely, "
 "otherwise a placeholder 'blocked' image will be used."
 msgstr ""
 "পাতা একটি placeholder '' ছবি সম্পূর্ণভাবে অন্যথায় থেকে blocked ছবি কখন সক্রিয় করা "
 "হয়েছিল সরিয়ে দেওয়া হয়েছিল বাধা দেওয়া হয়েছিল ব্যবহার করা হয়েছিল।"
 
-#: filteropts.cpp:109
+#: filteropts.cpp:137
 #, fuzzy
 msgid ""
-"This is the list of URL filters that will be applied to all linked images "
-"and frames. The filters are processed in order so place more generic filters "
-"towards the top of the list."
+"This is the list of URL filters that will be applied to all embedded images "
+"and media objects."
 msgstr ""
 "এইটি ইউআরএল ফিল্টারের তালিকা যে সমস্ত সংযুক্ত ছবি এবং কাঠামোতে প্রয়োগ করা হবে। "
 "ফিল্টার অর্ডারে প্রসেস করা হয় তালিকার চূড়ার প্রতি আরও বেশি সাধারণ ফিল্টার সুতরাং "
 "রাখো।"
 
-#: filteropts.cpp:112
-#, fuzzy
+#: filteropts.cpp:141
 msgid ""
-"Enter an expression to filter. Expressions can be defined as either a "
-"filename style wildcard e.g. http://www.example.com/ads* or as a full "
-"regular expression by surrounding the string with '/' e.g.  //(ad|banner)\\./"
+"<qt><p>Enter an expression to filter. Filters can be defined as either:"
+"<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
+"the wildcards <tt>*?[]</tt> may be used</li><li>a full regular expression by "
+"surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/(ad|banner)\\./</tt></"
+"li></ul><p>Any filter string can be preceded by '<tt>@@</tt>' to whitelist "
+"(allow) any matching URL, which takes priority over any blacklist (blocking) "
+"filter."
 msgstr ""
-"ফিল্টার করতে একটি মত ঢোকাও। অভিব্যক্তি হয় একটি ফাইলের নাম স্টাইল ওয়্যাল্ডকার্ড উদাঃ "
-"এইচটিটিপি হিসেবে সংজ্ঞায়িত করা যাবে: //www.example.com অথবা '/' উদাঃ //(ad|"
-"banner)\\.এর সঙ্গে পংক্তি পরিবেষ্টন করার মধ্যে একটি পূর্ণ নিয়মিত মত হিসেবে"
 
-#: filteropts.cpp:338
+#: filteropts.cpp:157
+msgid ""
+"<qt><p>The filter import format is a plain text file. Blank lines, comment "
+"lines starting with '<tt>!</tt>' and the header line <tt>[AdBlock]</tt> are "
+"ignored. Any other line is added as a filter expression."
+msgstr ""
+
+#: filteropts.cpp:162
+msgid ""
+"<qt><p>The filter export format is a plain text file. The file begins with a "
+"header line <tt>[AdBlock]</tt>, then all of the filters follow each on a "
+"separate line."
+msgstr ""
+
+#: filteropts.cpp:411
 #, fuzzy
 msgid ""
 "<h1>Konqueror AdBlocK</h1> Konqueror AdBlocK allows you to create a list of "
@@ -2057,6 +2082,21 @@ msgid ""
 "\n"
 "</html>\n"
 msgstr ""
+
+#~ msgid "Expression (e.g. http://www.example.com/ad/*):"
+#~ msgstr "মান (উদাঃ http://www.example.com/ad/*):"
+
+#, fuzzy
+#~ msgid ""
+#~ "Enter an expression to filter. Expressions can be defined as either a "
+#~ "filename style wildcard e.g. http://www.example.com/ads* or as a full "
+#~ "regular expression by surrounding the string with '/' e.g.  //(ad|banner)"
+#~ "\\./"
+#~ msgstr ""
+#~ "ফিল্টার করতে একটি মত ঢোকাও। অভিব্যক্তি হয় একটি ফাইলের নাম স্টাইল ওয়্যাল্ডকার্ড "
+#~ "উদাঃ এইচটিটিপি হিসেবে সংজ্ঞায়িত করা যাবে: //www.example.com অথবা '/' "
+#~ "উদাঃ //(ad|banner)\\.এর সঙ্গে পংক্তি পরিবেষ্টন করার মধ্যে একটি পূর্ণ নিয়মিত মত "
+#~ "হিসেবে"
 
 #~ msgid "Enable completion of &forms"
 #~ msgstr "&ফর্ম-এর পরিপূরণ সক্রিয় করো"
