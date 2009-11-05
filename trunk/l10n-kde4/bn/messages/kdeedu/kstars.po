@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-11-03 06:15+0100\n"
+"POT-Creation-Date: 2009-11-05 06:23+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -290,26 +290,43 @@ msgstr "ফাইলের ওপর দিয়েই কি লেখা হব�
 msgid "Saving of the image %1 failed."
 msgstr "%1 ছবিটি সংরক্ষণ করার প্রচেষ্টা ব্যর্থ হয়েছে।"
 
-#: kspopupmenu.cpp:98 kspopupmenu.cpp:169 kspopupmenu.cpp:172
-#: skymapevents.cpp:711
+#: kspopupmenu.cpp:73
+#, kde-format
+msgid "Rise time: %1"
+msgstr "উদয়: %1"
+
+#: kspopupmenu.cpp:75
+msgid "No rise time: Circumpolar"
+msgstr "উদয়ের কোন সময় নেই: মেরু পরিবৃত্ত"
+
+#: kspopupmenu.cpp:77
+msgid "No rise time: Never rises"
+msgstr "উদয়ের কোন সময় নেই: কখনোই উদিত হয় না"
+
+#: kspopupmenu.cpp:86
+#, kde-format
+msgid "Transit time: %1"
+msgstr "অতিক্রম কাল: %1"
+
+#: kspopupmenu.cpp:104 kspopupmenu.cpp:178 skymapevents.cpp:711
 msgid "Empty sky"
 msgstr "শূন্য আকাশ"
 
-#: kspopupmenu.cpp:100 kspopupmenu.cpp:122 kspopupmenu.cpp:331
+#: kspopupmenu.cpp:106 kspopupmenu.cpp:128 kspopupmenu.cpp:283
 #, fuzzy
 #| msgid "Show SEDS Image"
 msgctxt "Sloan Digital Sky Survey"
 msgid "Show SDSS Image"
 msgstr "SEDS ছবি প্রদর্শন করো"
 
-#: kspopupmenu.cpp:101 kspopupmenu.cpp:123 kspopupmenu.cpp:332
+#: kspopupmenu.cpp:107 kspopupmenu.cpp:129 kspopupmenu.cpp:284
 #, fuzzy
 #| msgid "Show SEDS Image"
 msgctxt "Digitized Sky Survey"
 msgid "Show DSS Image"
 msgstr "SEDS ছবি প্রদর্শন করো"
 
-#: kspopupmenu.cpp:117 kspopupmenu.cpp:172 kstarsdata.cpp:118
+#: kspopupmenu.cpp:123 kspopupmenu.cpp:176 kstarsdata.cpp:118
 #: kstarsdata.cpp:119 kstarsinit.cpp:568 tools/observinglist.cpp:507
 #: tools/wutdialog.cpp:261 skycomponents/starcomponent.cpp:487
 #: dialogs/detaildialog.cpp:136 skyobjects/starobject.cpp:663
@@ -318,115 +335,83 @@ msgstr "SEDS ছবি প্রদর্শন করো"
 msgid "star"
 msgstr "তারা"
 
-#: kspopupmenu.cpp:117
+#: kspopupmenu.cpp:123
 #, kde-format
 msgid "%1<sup>m</sup>, %2"
 msgstr ""
 
-#: kspopupmenu.cpp:157
+#: kspopupmenu.cpp:163
 #, fuzzy
 msgid "Solar system object"
 msgstr "সরে যাওয়ার সময় কি সৌরজগতের সদস্যদের আড়াল করা হবে?"
 
-#: kspopupmenu.cpp:212 kspopupmenu.cpp:443
-#, kde-format
-msgid "Rise time: %1"
-msgstr "উদয়: %1"
-
-#: kspopupmenu.cpp:213 kspopupmenu.cpp:459
-#, kde-format
-msgctxt "the time at which an object falls below the horizon"
-msgid "Set time: %1"
-msgstr "অস্ত: %1"
-
-#: kspopupmenu.cpp:214 kspopupmenu.cpp:473
-#, kde-format
-msgid "Transit time: %1"
-msgstr "অতিক্রম কাল: %1"
-
-#: kspopupmenu.cpp:248
+#: kspopupmenu.cpp:200
 msgid "Center && Track"
 msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
 
-#: kspopupmenu.cpp:255
+#: kspopupmenu.cpp:207
 msgid "Angular Distance To...            ["
 msgstr "এটি থেকে কৌণিক দূরত্ব...            ["
 
-#: kspopupmenu.cpp:258
+#: kspopupmenu.cpp:210
 msgid "Compute Angular Distance          ]"
 msgstr "কৌণিক দূরত্ব গণনা করো          ]"
 
-#: kspopupmenu.cpp:266 obslistpopupmenu.cpp:54
+#: kspopupmenu.cpp:218 obslistpopupmenu.cpp:54
 msgctxt "Show Detailed Information Dialog"
 msgid "Details"
 msgstr "বিস্তারিত"
 
-#: kspopupmenu.cpp:273
+#: kspopupmenu.cpp:225
 msgid "Remove Label"
 msgstr "লেবেল অপসারণ করো"
 
-#: kspopupmenu.cpp:275
+#: kspopupmenu.cpp:227
 msgid "Attach Label"
 msgstr "লেবেল সংযুক্ত করো"
 
-#: kspopupmenu.cpp:281
+#: kspopupmenu.cpp:233
 #, fuzzy
 #| msgid "Remove From List"
 msgid "Remove From Observing WishList"
 msgstr "তালিকা থেকে অপসারণ করো"
 
-#: kspopupmenu.cpp:283
+#: kspopupmenu.cpp:235
 #, fuzzy
 #| msgid "Add to Observing List"
 msgid "Add to Observing WishList"
 msgstr "পর্যবেক্ষণ তালিকায় যোগ করো"
 
-#: kspopupmenu.cpp:288
+#: kspopupmenu.cpp:240
 msgid "Add Trail"
 msgstr "গতিপথ যুক্ত করো"
 
-#: kspopupmenu.cpp:290
+#: kspopupmenu.cpp:242
 msgid "Remove Trail"
 msgstr "গতিপথ অপসারণ করো"
 
-#: kspopupmenu.cpp:299
+#: kspopupmenu.cpp:251
 #, fuzzy
 #| msgid "Planet Viewer"
 msgid "Print Xplanet view"
 msgstr "গ্রহ প্রদর্শক"
 
-#: kspopupmenu.cpp:300
+#: kspopupmenu.cpp:252
 msgid "To screen"
 msgstr ""
 
-#: kspopupmenu.cpp:301
+#: kspopupmenu.cpp:253
 #, fuzzy
 #| msgid "Input File..."
 msgid "To file..."
 msgstr "ইনপুট ফাইল..."
 
 # FIXME: Crosshair = ?
-#: kspopupmenu.cpp:421
+#: kspopupmenu.cpp:373
 #, fuzzy
 #| msgid "Center && Track Crosshair"
 msgid "Track Crosshair"
 msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অনুসরণ করো"
-
-#: kspopupmenu.cpp:446
-msgid "No rise time: Circumpolar"
-msgstr "উদয়ের কোন সময় নেই: মেরু পরিবৃত্ত"
-
-#: kspopupmenu.cpp:448
-msgid "No rise time: Never rises"
-msgstr "উদয়ের কোন সময় নেই: কখনোই উদিত হয় না"
-
-#: kspopupmenu.cpp:462
-msgid "No set time: Circumpolar"
-msgstr "অস্তের কোন সময় নেই: মেরু পরিবৃত্ত"
-
-#: kspopupmenu.cpp:464
-msgid "No set time: Never rises"
-msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
 #: kstarsactions.cpp:152
 msgid "Refraction effects disabled"
@@ -34287,7 +34272,7 @@ msgstr "FOV প্রতীক সম্পাদন..."
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:566 skymap.cpp:308 widgets/infoboxwidget.cpp:125
+#: kstarsinit.cpp:566 skymap.cpp:308 widgets/infoboxwidget.cpp:120
 msgid "nothing"
 msgstr "কিছু না"
 
@@ -34311,7 +34296,7 @@ msgstr "অবস্থান রিসেট করো"
 msgid "Do Not Reset"
 msgstr "রিসেট করবে না"
 
-#: kstarssplash.cpp:39
+#: kstarssplash.cpp:29
 msgid "Welcome to KStars. Please stand by while loading..."
 msgstr ""
 "কে-স্টার্স এর পক্ষ থেকে স্বাগতম।  অনুগ্রহপূর্বক লোড করা শেষ না হওয়া পর্যন্ত অপেক্ষা "
@@ -47173,13 +47158,13 @@ msgid "Flag manager"
 msgstr ""
 
 #: tools/flagmanager.cpp:56 tools/observinglist.cpp:108
-#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:132
+#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:127
 msgctxt "Right Ascension"
 msgid "RA"
 msgstr "বিষুবাংশ"
 
 #: tools/flagmanager.cpp:57 tools/observinglist.cpp:108
-#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:133
+#: tools/observinglist.cpp:111 widgets/infoboxwidget.cpp:128
 msgctxt "Declination"
 msgid "Dec"
 msgstr "বিষুবলম্ব"
@@ -47478,12 +47463,12 @@ msgctxt "Magnitude"
 msgid "Mag"
 msgstr "উজ্জ্বলতা"
 
-#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:136
+#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:131
 msgctxt "Altitude"
 msgid "Alt"
 msgstr "উন্নতি"
 
-#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:135
+#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:130
 msgctxt "Azimuth"
 msgid "Az"
 msgstr "দিগংশ"
@@ -48785,21 +48770,21 @@ msgstr "FITS ফাইল লোড করা হচ্ছে..."
 msgid "Magellanic Clouds"
 msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
 
-#: skycomponents/magellanicclouds.cpp:57
+#: skycomponents/magellanicclouds.cpp:43
 #, fuzzy
 #| msgctxt "object name (optional)"
 #| msgid "Small Magellanic Cloud"
 msgid "Loading Large Magellanic Clouds"
 msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
 
-#: skycomponents/magellanicclouds.cpp:106
+#: skycomponents/magellanicclouds.cpp:44
 #, fuzzy
 #| msgctxt "object name (optional)"
 #| msgid "Small Magellanic Cloud"
 msgid "Loading Small Magellanic Clouds"
 msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
 
-#: skycomponents/milkyway.cpp:57
+#: skycomponents/milkyway.cpp:44
 msgid "Loading Milky Way"
 msgstr "আকাশ গঙ্গা লোড করা হচ্ছে"
 
@@ -48948,12 +48933,12 @@ msgctxt "Julian Day"
 msgid "JD: "
 msgstr "জুলিয়ান দিবস: "
 
-#: widgets/infoboxwidget.cpp:112
+#: widgets/infoboxwidget.cpp:107
 msgctxt "Longitude"
 msgid "Long:"
 msgstr "দ্রাঘিমাংশ:"
 
-#: widgets/infoboxwidget.cpp:114
+#: widgets/infoboxwidget.cpp:109
 msgctxt "Latitude"
 msgid "Lat:"
 msgstr "অক্ষাংশ:"
@@ -50620,6 +50605,16 @@ msgstr "ফাইল ডাউনলোড করা যায় নি।"
 #: comast/observeradd.cpp:78
 msgid "Write Error"
 msgstr ""
+
+#~ msgctxt "the time at which an object falls below the horizon"
+#~ msgid "Set time: %1"
+#~ msgstr "অস্ত: %1"
+
+#~ msgid "No set time: Circumpolar"
+#~ msgstr "অস্তের কোন সময় নেই: মেরু পরিবৃত্ত"
+
+#~ msgid "No set time: Never rises"
+#~ msgstr "অস্তের কোন সময় নেই: কখনোই উদিত হয় না"
 
 #, fuzzy
 #~ msgid "Object type"
