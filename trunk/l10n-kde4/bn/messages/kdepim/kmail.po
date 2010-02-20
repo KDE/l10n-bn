@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-18 07:10+0100\n"
+"POT-Creation-Date: 2010-02-20 07:03+0100\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -804,22 +804,23 @@ msgid ""
 "Out of Office reply has been deactivated."
 msgstr ""
 
-#: kmsystemtray.cpp:344
+#: kmsystemtray.cpp:338
 msgid "New Messages In"
 msgstr "নতুন বার্তা আছে"
 
-#: kmsystemtray.cpp:565
+#: kmsystemtray.cpp:558
 #, fuzzy
 #| msgid "There are no unread messages"
-msgid "KMail - There are no unread messages"
+msgid "There are no unread messages"
 msgstr "কোন অপঠিত বার্তা নেই"
 
-#: kmsystemtray.cpp:566
+#: kmsystemtray.cpp:559
 #, fuzzy, kde-format
-msgid "KMail - 1 unread message"
-msgid_plural "KMail - %1 unread messages"
-msgstr[0] "একটি অপঠিত বার্তা রয়েছে।"
-msgstr[1] "%1-টি অপঠিত বার্তা রয়েছে।"
+#| msgid "Unread Message"
+msgid "1 unread message"
+msgid_plural "%1 unread messages"
+msgstr[0] "অপঠিত বার্তা"
+msgstr[1] "অপঠিত বার্তা"
 
 #: searchwindow.cpp:90
 msgid "Find Messages"
@@ -1037,21 +1038,21 @@ msgstr "এন্ট্রি পরিবর্তন করো..."
 msgid "Remove Entry"
 msgstr "এন্ট্রি সরিয়ে ফেলো"
 
-#: collectionaclpage.cpp:432
+#: collectionaclpage.cpp:431
 msgid "Modify Permissions"
 msgstr "অনুমতি পরিবর্তন করো"
 
-#: collectionaclpage.cpp:467
+#: collectionaclpage.cpp:466
 msgid "Add Permissions"
 msgstr "অনুমতি যোগ করো"
 
-#: collectionaclpage.cpp:503
+#: collectionaclpage.cpp:502
 msgid ""
 "Do you really want to remove your own permissions for this folder? You will "
 "not be able to access it afterwards."
 msgstr ""
 
-#: collectionaclpage.cpp:503 configuredialog.cpp:486
+#: collectionaclpage.cpp:502 configuredialog.cpp:486
 #: attachmentcontroller.cpp:412
 #, fuzzy
 msgid "Remove"
@@ -1202,7 +1203,7 @@ msgstr ""
 msgid "&Expire"
 msgstr ""
 
-#: kmmainwidget.cpp:1535 kmkernel.cpp:1486
+#: kmmainwidget.cpp:1535 kmkernel.cpp:1487
 msgid "Empty Trash"
 msgstr "আবর্জনা ফাঁকা করো"
 
@@ -1501,11 +1502,11 @@ msgid ""
 "installation."
 msgstr ""
 
-#: kmmainwidget.cpp:2552 kmkernel.cpp:868
+#: kmmainwidget.cpp:2552 kmkernel.cpp:869
 msgid "Work Offline"
 msgstr ""
 
-#: kmmainwidget.cpp:2556 kmkernel.cpp:867
+#: kmmainwidget.cpp:2556 kmkernel.cpp:868
 msgid "Work Online"
 msgstr ""
 
@@ -7768,27 +7769,27 @@ msgstr "&নতুন সাব-ফোল্ডার..."
 msgid "Create a new subfolder under the currently selected folder"
 msgstr ""
 
-#: folderselectiontreeviewdialog.cpp:87
+#: folderselectiontreeviewdialog.cpp:88
 #, fuzzy
 #| msgid "New Folder"
 msgctxt "@title:window"
 msgid "New Folder"
 msgstr "নতুন ফোল্ডার"
 
-#: folderselectiontreeviewdialog.cpp:88
+#: folderselectiontreeviewdialog.cpp:89
 #, fuzzy
 #| msgid "Name"
 msgctxt "@label:textbox, name of a thing"
 msgid "Name"
 msgstr "নাম"
 
-#: folderselectiontreeviewdialog.cpp:104
+#: folderselectiontreeviewdialog.cpp:105
 #, fuzzy, kde-format
 #| msgid "Failed to create folder"
 msgid "Could not create folder: %1"
 msgstr "ফোল্ডার তৈরি করতে ব্যর্থ"
 
-#: folderselectiontreeviewdialog.cpp:105
+#: folderselectiontreeviewdialog.cpp:106
 #, fuzzy
 #| msgid "Folder &location:"
 msgid "Folder creation failed"
@@ -8067,41 +8068,42 @@ msgstr "(c) ১৯৯৭-২০০৫, কে-মেইল ডেভেলপা
 #: kmkernel.cpp:149
 msgid ""
 "You are attempting to start an <b>unstable development version</b> of KMail."
-"<br>KMail is currently being ported to Akonadi and is under heavy "
+"<br>KMail 2 is currently being ported to Akonadi and is under heavy "
 "development. Do not use this version for real mails, you will <b>lose data</"
 "b>. If you use this version now, your mails will not be correctly migrated, "
 "and you will not be able to migrate them afterwards.<br>Because of the "
 "current development, there are many bugs and regressions as well as missing "
-"features. Please do not report any bugs for this version yet.<br><br>If you "
-"want to use KMail for real mails, please use the version from the KDE 4.4 "
-"branch instead."
-msgstr ""
-
-#: kmkernel.cpp:157
-msgid "Unstable Development version of KMail"
+"features. <b>Essentially KMail 2 does not work at the moment, do not try to "
+"use it.</b><br>Please do not report any bugs for this version yet.<br><br>If "
+"you want to use KMail for real mails, please use the version from the KDE "
+"4.4 branch instead."
 msgstr ""
 
 #: kmkernel.cpp:158
+msgid "Unstable Development version of KMail"
+msgstr ""
+
+#: kmkernel.cpp:159
 msgid "Lose Data"
 msgstr ""
 
-#: kmkernel.cpp:826
+#: kmkernel.cpp:827
 msgid "KMail is set to be offline; all network jobs are suspended"
 msgstr ""
 
-#: kmkernel.cpp:837
+#: kmkernel.cpp:838
 msgid "KMail is set to be online; all network jobs resumed"
 msgstr ""
 
-#: kmkernel.cpp:864
+#: kmkernel.cpp:865
 msgid "KMail is currently in offline mode. How do you want to proceed?"
 msgstr ""
 
-#: kmkernel.cpp:866 kmcomposewin.cpp:3114
+#: kmkernel.cpp:867 kmcomposewin.cpp:3114
 msgid "Online/Offline"
 msgstr ""
 
-#: kmkernel.cpp:967
+#: kmkernel.cpp:968
 #, kde-format
 msgid ""
 "Failed to delete the autosave file at %1\n"
@@ -8109,30 +8111,30 @@ msgid ""
 "same message on each startup."
 msgstr ""
 
-#: kmkernel.cpp:971
+#: kmkernel.cpp:972
 #, fuzzy
 #| msgid "Deleting messages failed."
 msgid "Deleting Autosave File Failed"
 msgstr "বার্তা মুছে ফেলা ব্যর্থ।"
 
-#: kmkernel.cpp:974
+#: kmkernel.cpp:975
 #, kde-format
 msgid ""
 "Failed to open autosave file at %1.\n"
 "Reason: %2"
 msgstr ""
 
-#: kmkernel.cpp:976
+#: kmkernel.cpp:977
 #, fuzzy
 #| msgid "Autosaving Failed"
 msgid "Opening Autosave File Failed"
 msgstr "স্বয়ংক্রীয় সংরক্ষণ ব্যর্থ"
 
-#: kmkernel.cpp:986 kmkernel.cpp:1006
+#: kmkernel.cpp:987 kmkernel.cpp:1007
 msgid "You do not have read/write permission to your inbox folder."
 msgstr ""
 
-#: kmkernel.cpp:1259 kmcommands.cpp:846
+#: kmkernel.cpp:1260 kmcommands.cpp:846
 #, kde-format
 msgid ""
 "File %1 exists.\n"
@@ -8141,20 +8143,20 @@ msgstr ""
 "%1 ফাইলটি আগে থেকেই আছে।\n"
 "আপনি কি সেটি মুছে লিখতে চান?"
 
-#: kmkernel.cpp:1260 kmcommands.cpp:552 kmcommands.cpp:847
+#: kmkernel.cpp:1261 kmcommands.cpp:552 kmcommands.cpp:847
 msgid "Save to File"
 msgstr "ফাইলে সংরক্ষণ করো"
 
-#: kmkernel.cpp:1260 kmcommands.cpp:552 kmcommands.cpp:847
+#: kmkernel.cpp:1261 kmcommands.cpp:552 kmcommands.cpp:847
 msgid "&Replace"
 msgstr "&বদলাও"
 
-#: kmkernel.cpp:1341
+#: kmkernel.cpp:1342
 msgid "KMail encountered a fatal error and will terminate now"
 msgstr ""
 "কে-মেইল একটি মারাত্মক সমস্যার সম্মুখীন হয়েছে এবং এবার বিনা বাক্যব্যয়ে থেমে যাবে"
 
-#: kmkernel.cpp:1344
+#: kmkernel.cpp:1345
 #, kde-format
 msgid ""
 "KMail encountered a fatal error and will terminate now.\n"
@@ -8165,11 +8167,11 @@ msgstr ""
 "যে সমস্যাটি ঘটেছে সেটি হল:\n"
 "%1"
 
-#: kmkernel.cpp:1487
+#: kmkernel.cpp:1488
 msgid "Are you sure you want to empty the trash folders of all accounts?"
 msgstr ""
 
-#: kmkernel.cpp:1693
+#: kmkernel.cpp:1694
 #, kde-format
 msgid "This identity has been changed to use the default transport:"
 msgid_plural ""
@@ -8177,7 +8179,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: kmkernel.cpp:1716
+#: kmkernel.cpp:1717
 #, kde-format
 msgid "This identity has been changed to use the modified transport:"
 msgid_plural ""
@@ -10661,6 +10663,12 @@ msgstr "ঠিকানা তালিকায় খোলো"
 #: kmfawidgets.cpp:123
 msgid "Select Sound File"
 msgstr "সাউণ্ড ফাইল বেছে নিন"
+
+#, fuzzy
+#~ msgid "KMail - 1 unread message"
+#~ msgid_plural "KMail - %1 unread messages"
+#~ msgstr[0] "একটি অপঠিত বার্তা রয়েছে।"
+#~ msgstr[1] "%1-টি অপঠিত বার্তা রয়েছে।"
 
 #~ msgid "inbox"
 #~ msgstr "ইনবক্স"
