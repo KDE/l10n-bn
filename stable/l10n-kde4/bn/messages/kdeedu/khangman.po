@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khangman\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-01-11 06:22+0100\n"
+"POT-Creation-Date: 2010-02-26 20:29+0100\n"
 "PO-Revision-Date: 2006-04-24 01:25-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -30,6 +30,16 @@ msgid ""
 "(translate this message as \"DONE\" when you have translated\n"
 "the words; otherwise leave it untranslated as a reminder)"
 msgstr ""
+
+#: khmtheme.cpp:49
+#, fuzzy
+msgid "Sea Theme"
+msgstr "সামুদ্রিক থিম (&স)"
+
+#: khmtheme.cpp:123
+#, fuzzy
+msgid "Desert Theme"
+msgstr "মরুময় থিম (&ম)"
 
 #: khangmanview.cpp:73
 msgid "G&uess"
@@ -108,6 +118,100 @@ msgid "1 second"
 msgid_plural "%1 seconds"
 msgstr[0] "সেকেন্ড"
 msgstr[1] "সেকেন্ড"
+
+#: khangman.cpp:91
+msgid "Play with a new word"
+msgstr "নতুন শব্দ ব্যবহার করো"
+
+#: khangman.cpp:94
+msgid "Opens an existing vocabulary document"
+msgstr ""
+
+#: khangman.cpp:97
+#, fuzzy
+msgid "&Show Hint"
+msgstr "ইঙ্গিত দা&ও"
+
+#: khangman.cpp:98
+msgid "Show/Hide the hint to help guessing the word"
+msgstr ""
+
+#: khangman.cpp:106
+msgid "&Get Words in New Language..."
+msgstr "নতুন ভাষার শব্দ &আনো..."
+
+#: khangman.cpp:114
+msgid "&Category"
+msgstr ""
+
+#: khangman.cpp:117
+#, fuzzy
+#| msgid "Choose the level"
+msgid "Choose the category"
+msgstr "স্তর বেছে নিন"
+
+#: khangman.cpp:118
+msgid "Choose the category of words"
+msgstr ""
+
+#: khangman.cpp:121
+msgid "&Language"
+msgstr "ভাষা (&ভ)"
+
+#: khangman.cpp:126 khangman.cpp:127
+#, fuzzy
+#| msgid "Choose the look and feel"
+msgid "Choose the language"
+msgstr "পছন্দের চেহারা বেছে নিন"
+
+#: khangman.cpp:132
+msgid "L&ook"
+msgstr "চেহারা (&চ)"
+
+#: khangman.cpp:137 khangman.cpp:138
+msgid "Choose the look and feel"
+msgstr "পছন্দের চেহারা বেছে নিন"
+
+#: khangman.cpp:238
+msgctxt "@item:inlistbox no language for that locale"
+msgid "None"
+msgstr ""
+
+#: khangman.cpp:338
+msgid "General"
+msgstr "সাধারণ"
+
+#: khangman.cpp:343
+msgid "Languages"
+msgstr "ভাষা"
+
+#. i18n: file: timerui.ui:19
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: khangman.cpp:348 rc.cpp:143
+msgid "Timers"
+msgstr "সময়রক্ষক"
+
+#: khangman.cpp:411
+#, fuzzy, kde-format
+#| msgid ""
+#| "File $KDEDIR/share/apps/khangman/%1.txt not found;\n"
+#| "check your installation."
+msgid ""
+"File '%1' not found.\n"
+"Please reinstall '%2'. Going back to English."
+msgstr ""
+"$KDEDIR/share/apps/khangman/%1.txt নামক ফাইলটি পাওয়া যায় নি!\n"
+"অনুগ্রহপূর্বক ইনস্টলকৃত ফাইলগুলো পরীক্ষা করুন!"
+
+#. i18n: file: languageui.ui:32
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
+#: khangman.cpp:522 rc.cpp:137
+msgid "Type accented letters"
+msgstr "জোরপ্রদানে উচ্চারণকৃত অক্ষর (accented) লিখুন"
+
+#: khangman.cpp:538
+msgid "Open Vocabulary Document"
+msgstr ""
 
 #: main.cpp:34
 msgid "Classical hangman game for KDE"
@@ -697,12 +801,6 @@ msgstr "ভাষা (&ভ)"
 msgid "Here you can choose special settings for some languages."
 msgstr ""
 
-#. i18n: file: languageui.ui:32
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
-#: rc.cpp:137 khangman.cpp:522
-msgid "Type accented letters"
-msgstr "জোরপ্রদানে উচ্চারণকৃত অক্ষর (accented) লিখুন"
-
 #. i18n: file: timerui.ui:16
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox)
 #: rc.cpp:140
@@ -711,12 +809,6 @@ msgid ""
 "Here you can set the display times for hints and the \"Already Guessed\" "
 "tooltip."
 msgstr "ইতিপূর্বেই অনুমানকৃত অক্ষর প্রদর্শনের সময়সীমা নির্ধারণ করুন:"
-
-#. i18n: file: timerui.ui:19
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:143 khangman.cpp:348
-msgid "Timers"
-msgstr "সময়রক্ষক"
 
 #. i18n: file: timerui.ui:34
 #. i18n: ectx: property (text), widget (QLabel, label_2)
@@ -753,98 +845,6 @@ msgstr "প্রজ্ঞা"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "progga@BengaLinux.Org"
-
-#: khangman.cpp:91
-msgid "Play with a new word"
-msgstr "নতুন শব্দ ব্যবহার করো"
-
-#: khangman.cpp:94
-msgid "Opens an existing vocabulary document"
-msgstr ""
-
-#: khangman.cpp:97
-#, fuzzy
-msgid "&Show Hint"
-msgstr "ইঙ্গিত দা&ও"
-
-#: khangman.cpp:98
-msgid "Show/Hide the hint to help guessing the word"
-msgstr ""
-
-#: khangman.cpp:106
-msgid "&Get Words in New Language..."
-msgstr "নতুন ভাষার শব্দ &আনো..."
-
-#: khangman.cpp:114
-msgid "&Category"
-msgstr ""
-
-#: khangman.cpp:117
-#, fuzzy
-#| msgid "Choose the level"
-msgid "Choose the category"
-msgstr "স্তর বেছে নিন"
-
-#: khangman.cpp:118
-msgid "Choose the category of words"
-msgstr ""
-
-#: khangman.cpp:121
-msgid "&Language"
-msgstr "ভাষা (&ভ)"
-
-#: khangman.cpp:126 khangman.cpp:127
-#, fuzzy
-#| msgid "Choose the look and feel"
-msgid "Choose the language"
-msgstr "পছন্দের চেহারা বেছে নিন"
-
-#: khangman.cpp:132
-msgid "L&ook"
-msgstr "চেহারা (&চ)"
-
-#: khangman.cpp:137 khangman.cpp:138
-msgid "Choose the look and feel"
-msgstr "পছন্দের চেহারা বেছে নিন"
-
-#: khangman.cpp:238
-msgctxt "@item:inlistbox no language for that locale"
-msgid "None"
-msgstr ""
-
-#: khangman.cpp:338
-msgid "General"
-msgstr "সাধারণ"
-
-#: khangman.cpp:343
-msgid "Languages"
-msgstr "ভাষা"
-
-#: khangman.cpp:411
-#, fuzzy, kde-format
-#| msgid ""
-#| "File $KDEDIR/share/apps/khangman/%1.txt not found;\n"
-#| "check your installation."
-msgid ""
-"File '%1' not found.\n"
-"Please reinstall '%2'. Going back to English."
-msgstr ""
-"$KDEDIR/share/apps/khangman/%1.txt নামক ফাইলটি পাওয়া যায় নি!\n"
-"অনুগ্রহপূর্বক ইনস্টলকৃত ফাইলগুলো পরীক্ষা করুন!"
-
-#: khangman.cpp:538
-msgid "Open Vocabulary Document"
-msgstr ""
-
-#: khmtheme.cpp:49
-#, fuzzy
-msgid "Sea Theme"
-msgstr "সামুদ্রিক থিম (&স)"
-
-#: khmtheme.cpp:123
-#, fuzzy
-msgid "Desert Theme"
-msgstr "মরুময় থিম (&ম)"
 
 #, fuzzy
 #~ msgid ""
