@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwordquiz (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-02-05 02:44+0100\n"
+"POT-Creation-Date: 2010-03-02 04:21+0100\n"
 "PO-Revision-Date: 2006-04-02 13:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -16,37 +16,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-
-#: prefcharacter.cpp:44
-msgid "Action"
-msgstr "কাজ"
-
-#: prefcharacter.cpp:45
-msgid "Shortcut"
-msgstr "শর্টকাট"
-
-#: prefcharacter.cpp:46
-msgid "Character"
-msgstr "অক্ষর"
-
-#: prefcharacter.cpp:55
-#, fuzzy, kde-format
-msgid "Special Character %1"
-msgstr "১ম বিশেষ অক্ষর"
-
-#: flashview.cpp:75 qaview.cpp:141 multipleview.cpp:112
-msgid "Your answer was correct!"
-msgstr "উত্তর সঠিক!"
-
-#: flashview.cpp:80 qaview.cpp:151 multipleview.cpp:121
-msgid "Your answer was incorrect."
-msgstr "ভুল উত্তর।"
-
-#: dlglanguage.cpp:31
-#, fuzzy
-#| msgid "Quiz Settings"
-msgid "Column Settings"
-msgstr "কুইজের বৈশিষ্ট্য"
 
 #: kwqtableview.cpp:186
 msgid "Name:_____________________________ Date:__________"
@@ -62,190 +31,95 @@ msgstr "স্কোর"
 msgid "There is an error with the Fill-in-the-blank brackets"
 msgstr "শূন্যস্থান-পূরনের বন্ধনী (bracket) নিয়ে একটি সমস্যা হয়েছে"
 
-#: kwordquizprefs.cpp:36
-msgctxt "@title:group general settings"
-msgid "General"
+#: flashview.cpp:75 multipleview.cpp:112 qaview.cpp:142
+msgid "Your answer was correct!"
+msgstr "উত্তর সঠিক!"
+
+#: flashview.cpp:80 multipleview.cpp:121 qaview.cpp:153
+msgid "Your answer was incorrect."
+msgstr "ভুল উত্তর।"
+
+#: prefcardappearance.cpp:80
+msgctxt "Back of the flashcard"
+msgid "Back"
+msgstr "উল্টো পৃষ্ঠ"
+
+#: prefcardappearance.cpp:81
+msgid "Answer"
+msgstr "উত্তর"
+
+#: prefcardappearance.cpp:94
+msgid "Front"
+msgstr "সম্মুখ"
+
+#: prefcardappearance.cpp:95
+msgid "Question"
+msgstr "প্রশ্ন"
+
+#: kwqcommands.cpp:83
+#, fuzzy
+#| msgid "&Undo Clear"
+msgctxt "@item:inmenu undo clear"
+msgid "Clear"
+msgstr "মোছা বাতি&ল করো"
+
+#: kwqcommands.cpp:102
+msgctxt "@item:inmenu undo cut"
+msgid "Cut"
 msgstr ""
 
-#: kwordquizprefs.cpp:36
+#: kwqcommands.cpp:115
 #, fuzzy
-#| msgid "Editor Settings"
-msgctxt "@title:group general settings"
-msgid "General Settings"
-msgstr "টেক্সট সম্পাদকের বৈশিষ্ট্য"
+#| msgid "&Undo Paste"
+msgctxt "@item:inmenu undo paste"
+msgid "Paste"
+msgstr "সাঁটা বাতি&ল করো"
 
-#: kwordquizprefs.cpp:39
+#: kwqcommands.cpp:212
 #, fuzzy
-#| msgid "Editor"
-msgctxt "@title:group editor settings"
-msgid "Editor"
-msgstr "টেক্সট সম্পাদক"
+#| msgid "Sort"
+msgctxt "@item:inmenu undo sort"
+msgid "Sort"
+msgstr "সাজাও"
 
-#: kwordquizprefs.cpp:39
+#: kwqcommands.cpp:239
 #, fuzzy
-#| msgid "Editor Settings"
-msgctxt "@title:group editor settings"
-msgid "Editor Settings"
-msgstr "টেক্সট সম্পাদকের বৈশিষ্ট্য"
+#| msgid "Sh&uffle"
+msgctxt "@item:inmenu undo shuffle"
+msgid "Shuffle"
+msgstr "&এলোমেলো করো"
 
-#: kwordquizprefs.cpp:42
+#: kwqcommands.cpp:259
 #, fuzzy
-#| msgid "Quiz"
-msgctxt "@title:group quiz settings"
-msgid "Quiz"
-msgstr "কুইজ"
+#| msgid "&Insert Row"
+msgctxt "@item:inmenu undo insert"
+msgid "Insert"
+msgstr "সারি ঢোকা&ও"
 
-#: kwordquizprefs.cpp:42
+#: kwqcommands.cpp:291
+#, fuzzy
+#| msgid "&Delete Row"
+msgctxt "@item:inmenu undo delete"
+msgid "Delete"
+msgstr "সারি মোছো (&ম)"
+
+#: kwqcommands.cpp:340
+#, fuzzy
+#| msgid "&Unmark Blanks"
+msgctxt "@item:inmenu undo unmark blank"
+msgid "Unmark Blank"
+msgstr "ফাঁকা স্থান &অচিহ্নিত করো"
+
+#: kwqcommands.cpp:362
 #, fuzzy
 #| msgid "Quiz Settings"
-msgctxt "@title:group quiz settings"
-msgid "Quiz Settings"
+msgctxt "@item:inmenu undo column titles"
+msgid "Column Settings"
 msgstr "কুইজের বৈশিষ্ট্য"
-
-#: kwordquizprefs.cpp:45
-#, fuzzy
-#| msgid ""
-#| "Flashcard\n"
-#| "Appearance"
-msgctxt "@title:group flash appearance settings"
-msgid ""
-"Flashcard\n"
-"Appearance"
-msgstr ""
-"ফ্ল্যাশকার্ডের\n"
-"চেহারা"
-
-#: kwordquizprefs.cpp:45
-#, fuzzy
-#| msgid "Flashcard Appearance Settings"
-msgctxt "@title:group flash appearance settings"
-msgid "Flashcard Appearance Settings"
-msgstr "ফ্ল্যাশকার্ডের চেহারা সংক্রান্ত বৈশিষ্ট্য"
-
-#: kwordquizprefs.cpp:48
-#, fuzzy
-#| msgid ""
-#| "Special\n"
-#| "Characters"
-msgctxt "@title:group special character settings"
-msgid ""
-"Special\n"
-"Characters"
-msgstr ""
-"বিশেষ\n"
-"অক্ষর"
-
-#: kwordquizprefs.cpp:48
-#, fuzzy
-#| msgid "Special Characters"
-msgctxt "@title:group special character settings"
-msgid "Special Characters"
-msgstr "বিশেষ অক্ষর"
-
-#. i18n: file: multipleviewbase.ui:558
-#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
-#. i18n: file: qaviewbase.ui:518
-#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
-#. i18n: file: multipleviewbase.ui:558
-#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
-#. i18n: file: qaviewbase.ui:518
-#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
-#: qaview.cpp:149 rc.cpp:357 rc.cpp:759 multipleview.cpp:119
-msgid "Correct Answer"
-msgstr "সঠিক উত্তর"
-
-#. i18n: file: multipleviewbase.ui:353
-#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
-#. i18n: file: qaviewbase.ui:294
-#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
-#. i18n: file: multipleviewbase.ui:353
-#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
-#. i18n: file: qaviewbase.ui:294
-#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
-#: qaview.cpp:154 rc.cpp:315 rc.cpp:714 multipleview.cpp:124
-msgid "Previous Question"
-msgstr "পূর্ববর্তী প্রশ্ন"
-
-#. i18n: file: multipleviewbase.ui:479
-#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
-#. i18n: file: qaviewbase.ui:395
-#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
-#. i18n: file: multipleviewbase.ui:479
-#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
-#. i18n: file: qaviewbase.ui:395
-#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
-#: qaview.cpp:159 rc.cpp:339 rc.cpp:735 multipleview.cpp:128
-msgid "Your Answer"
-msgstr "আপনার উত্তর"
-
-#: qaview.cpp:174 multipleview.cpp:146
-msgid "Summary"
-msgstr "সারসংক্ষেপ"
-
-#: main.cpp:29
-msgid "A powerful flashcard and vocabulary learning program"
-msgstr "একটি শক্তিশালী ফ্ল্যাশকার্ড ও শব্দভাণ্ডার সমৃদ্ধকারী প্রোগ্রাম"
-
-#: main.cpp:34
-msgid "KWordQuiz"
-msgstr "কে-ওয়ার্ডকুইজ"
-
-#: main.cpp:38
-msgid "(c) 2003-2010, Peter Hedlund"
-msgstr ""
-
-#: main.cpp:43
-msgid "Peter Hedlund"
-msgstr ""
-
-#: main.cpp:44
-msgid "Anne-Marie Mahfouf"
-msgstr ""
-
-#: main.cpp:44
-msgid "KDE Edutainment Maintainer"
-msgstr "কে.ডি.ই. শিক্ষা-বিনোদন রক্ষণাবেক্ষণকারী"
-
-#: main.cpp:45
-msgid "Martin Pfeiffer"
-msgstr ""
-
-#: main.cpp:45
-msgid "Leitner System and several code contributions"
-msgstr ""
-
-# FIXME
-#: main.cpp:51
-msgid ""
-"A number 1-5 corresponding to the \n"
-"entries in the Mode menu"
-msgstr ""
-"মোড মেনুর এন্ট্রিগুলোর সাথে সংশ্লিষ্ট একটি সংখ্যা\n"
-"যা ১ থেকে ৫ এর মধ্যে অবস্থিত"
-
-#: main.cpp:53
-msgid ""
-"Type of session to start with: \n"
-"'flash' for flashcard, \n"
-"'mc' for multiple choice, \n"
-"'qa' for question and answer"
-msgstr ""
-"যে ধরনের সেশন দিয়ে আরম্ভ করা হবে: \n"
-"ফ্ল্যাশকার্ড ব্যবহার করতে হলে 'ফ্যাশ', \n"
-"নৈব্যক্তিক প্রশ্নোত্তরের জন্য 'এম.সি.', \n"
-"সাধারণ প্রশ্নোত্তরের জন্য 'কিউ.এ.'"
-
-#: main.cpp:54
-msgid "File to open"
-msgstr "যে ফাইলটি খোলা হবে"
-
-#: kwqtablemodel.cpp:216 kwordquiz.cpp:642 kwordquiz.cpp:699 kwordquiz.cpp:823
-msgid "Untitled"
-msgstr ""
 
 #. i18n: file: columndialogbase.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, column1GroupBox)
-#: rc.cpp:3 kwordquiz.cpp:453
+#: rc.cpp:3 kwordquiz.cpp:461
 msgid "Column 1"
 msgstr "১ম কলাম"
 
@@ -333,7 +207,7 @@ msgstr "পিক্সেল হিসেবে বাছাইকৃত কল
 
 #. i18n: file: columndialogbase.ui:214
 #. i18n: ectx: property (title), widget (QGroupBox, column2GroupBox)
-#: rc.cpp:39 kwordquiz.cpp:456
+#: rc.cpp:39 kwordquiz.cpp:464
 msgid "Column 2"
 msgstr "২য় কলাম"
 
@@ -626,11 +500,11 @@ msgstr "মো&ড"
 msgid "&Quiz"
 msgstr "কুই&জ"
 
-#. i18n: file: kwordquizui.rc:56
+#. i18n: file: kwordquizui.rc:57
 #. i18n: ectx: ToolBar (quizToolBar)
 #. i18n: file: prefquizbase.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrefQuizBase)
-#. i18n: file: kwordquizui.rc:56
+#. i18n: file: kwordquizui.rc:57
 #. i18n: ectx: ToolBar (quizToolBar)
 #. i18n: file: prefquizbase.ui:20
 #. i18n: ectx: property (windowTitle), widget (QWidget, PrefQuizBase)
@@ -638,7 +512,7 @@ msgstr "কুই&জ"
 msgid "Quiz"
 msgstr "কুইজ"
 
-#. i18n: file: kwordquizui.rc:68
+#. i18n: file: kwordquizui.rc:70
 #. i18n: ectx: ToolBar (characterToolBar)
 #: rc.cpp:186
 msgid "Special Characters"
@@ -967,6 +841,18 @@ msgstr "পূর্বের প্রশ্ন"
 msgid "The previous question"
 msgstr "পূর্বের প্রশ্ন"
 
+#. i18n: file: multipleviewbase.ui:353
+#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
+#. i18n: file: qaviewbase.ui:294
+#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
+#. i18n: file: multipleviewbase.ui:353
+#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
+#. i18n: file: qaviewbase.ui:294
+#. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestionHeader)
+#: rc.cpp:315 rc.cpp:714 multipleview.cpp:124 qaview.cpp:157
+msgid "Previous Question"
+msgstr "পূর্ববর্তী প্রশ্ন"
+
 #. i18n: file: multipleviewbase.ui:375
 #. i18n: ectx: property (text), widget (QLabel, lblPreviousQuestion)
 #. i18n: file: qaviewbase.ui:316
@@ -1027,6 +913,18 @@ msgstr "পূর্ববর্তী উত্তর"
 msgid "Your answer to the previous question"
 msgstr "পূর্ববর্তী প্রশ্নের যে উত্তর দিয়েছেন"
 
+#. i18n: file: multipleviewbase.ui:479
+#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
+#. i18n: file: qaviewbase.ui:395
+#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
+#. i18n: file: multipleviewbase.ui:479
+#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
+#. i18n: file: qaviewbase.ui:395
+#. i18n: ectx: property (text), widget (QLabel, lblYourAnswerHeader)
+#: rc.cpp:339 rc.cpp:735 multipleview.cpp:128 qaview.cpp:162
+msgid "Your Answer"
+msgstr "আপনার উত্তর"
+
 #. i18n: file: multipleviewbase.ui:501
 #. i18n: ectx: property (text), widget (QLabel, lblYourAnswer)
 #. i18n: file: qaviewbase.ui:417
@@ -1086,6 +984,18 @@ msgstr "পূর্ববর্তী সঠিক উত্তর"
 #: rc.cpp:354 rc.cpp:363 rc.cpp:756 rc.cpp:765
 msgid "The correct answer to the previous question"
 msgstr "পূর্ববতী প্রশ্নের সঠিক উত্তর"
+
+#. i18n: file: multipleviewbase.ui:558
+#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
+#. i18n: file: qaviewbase.ui:518
+#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
+#. i18n: file: multipleviewbase.ui:558
+#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
+#. i18n: file: qaviewbase.ui:518
+#. i18n: ectx: property (text), widget (QLabel, lblCorrectHeader)
+#: rc.cpp:357 rc.cpp:759 multipleview.cpp:119 qaview.cpp:151
+msgid "Correct Answer"
+msgstr "সঠিক উত্তর"
 
 #. i18n: file: multipleviewbase.ui:580
 #. i18n: ectx: property (text), widget (QLabel, lblCorrect)
@@ -1629,7 +1539,7 @@ msgstr "ফ্ল্যাশকার্ড সেশনের আচরণ উ
 
 #. i18n: file: prefquizbase.ui:192
 #. i18n: ectx: property (title), widget (QGroupBox, KeepDiscard)
-#: rc.cpp:618 kwordquiz.cpp:515
+#: rc.cpp:618 kwordquiz.cpp:523
 msgid "Flashcard"
 msgstr "ফ্ল্যাশকার্ড"
 
@@ -1778,6 +1688,90 @@ msgstr "প্রজ্ঞা"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "progga@BengaLinux.Org"
+
+#: kwordquizprefs.cpp:36
+msgctxt "@title:group general settings"
+msgid "General"
+msgstr ""
+
+#: kwordquizprefs.cpp:36
+#, fuzzy
+#| msgid "Editor Settings"
+msgctxt "@title:group general settings"
+msgid "General Settings"
+msgstr "টেক্সট সম্পাদকের বৈশিষ্ট্য"
+
+#: kwordquizprefs.cpp:39
+#, fuzzy
+#| msgid "Editor"
+msgctxt "@title:group editor settings"
+msgid "Editor"
+msgstr "টেক্সট সম্পাদক"
+
+#: kwordquizprefs.cpp:39
+#, fuzzy
+#| msgid "Editor Settings"
+msgctxt "@title:group editor settings"
+msgid "Editor Settings"
+msgstr "টেক্সট সম্পাদকের বৈশিষ্ট্য"
+
+#: kwordquizprefs.cpp:42
+#, fuzzy
+#| msgid "Quiz"
+msgctxt "@title:group quiz settings"
+msgid "Quiz"
+msgstr "কুইজ"
+
+#: kwordquizprefs.cpp:42
+#, fuzzy
+#| msgid "Quiz Settings"
+msgctxt "@title:group quiz settings"
+msgid "Quiz Settings"
+msgstr "কুইজের বৈশিষ্ট্য"
+
+#: kwordquizprefs.cpp:45
+#, fuzzy
+#| msgid ""
+#| "Flashcard\n"
+#| "Appearance"
+msgctxt "@title:group flash appearance settings"
+msgid ""
+"Flashcard\n"
+"Appearance"
+msgstr ""
+"ফ্ল্যাশকার্ডের\n"
+"চেহারা"
+
+#: kwordquizprefs.cpp:45
+#, fuzzy
+#| msgid "Flashcard Appearance Settings"
+msgctxt "@title:group flash appearance settings"
+msgid "Flashcard Appearance Settings"
+msgstr "ফ্ল্যাশকার্ডের চেহারা সংক্রান্ত বৈশিষ্ট্য"
+
+#: kwordquizprefs.cpp:48
+#, fuzzy
+#| msgid ""
+#| "Special\n"
+#| "Characters"
+msgctxt "@title:group special character settings"
+msgid ""
+"Special\n"
+"Characters"
+msgstr ""
+"বিশেষ\n"
+"অক্ষর"
+
+#: kwordquizprefs.cpp:48
+#, fuzzy
+#| msgid "Special Characters"
+msgctxt "@title:group special character settings"
+msgid "Special Characters"
+msgstr "বিশেষ অক্ষর"
+
+#: multipleview.cpp:146 qaview.cpp:178
+msgid "Summary"
+msgstr "সারসংক্ষেপ"
 
 #: kwqcommands.h:104
 #, fuzzy
@@ -2039,70 +2033,80 @@ msgid "Gets the next correct letter of the answer"
 msgstr "উত্তরের পরবর্তী সঠিক অক্ষরকে আনে"
 
 #: kwordquiz.cpp:376
+msgid "Mark Last Correct"
+msgstr ""
+
+#: kwordquiz.cpp:378
+#, fuzzy
+#| msgid "Your answer was correct!"
+msgid "Marks last answer as correct"
+msgstr "উত্তর সঠিক!"
+
+#: kwordquiz.cpp:384
 msgid "&Restart"
 msgstr "পুনরায় &আরম্ভ"
 
-#: kwordquiz.cpp:378
+#: kwordquiz.cpp:386
 msgid "Restarts the quiz session from the beginning"
 msgstr "প্রথম থেকে কুইজ সেশন আরম্ভ করে"
 
-#: kwordquiz.cpp:384
+#: kwordquiz.cpp:392
 msgid "Repeat &Errors"
 msgstr "&সমস্যার পুনরাবৃত্তি ঘটাও"
 
-#: kwordquiz.cpp:386
+#: kwordquiz.cpp:394
 msgid "Repeats all incorrectly answered questions"
 msgstr "সকল ভুল উত্তর দেওয়া প্রশ্নের পুনরাবৃত্তি ঘটায়"
 
-#: kwordquiz.cpp:392
+#: kwordquiz.cpp:400
 msgid "Export Errors &As..."
 msgstr ""
 
-#: kwordquiz.cpp:393
+#: kwordquiz.cpp:401
 #, fuzzy
 #| msgid "Creates a new blank vocabulary document"
 msgid "Exports all errors as a new vocabulary document"
 msgstr "নতুন শব্দভাণ্ডারের ফাইল তৈরি করে"
 
-#: kwordquiz.cpp:399
+#: kwordquiz.cpp:407
 msgid "Show Se&arch"
 msgstr ""
 
-#: kwordquiz.cpp:401
+#: kwordquiz.cpp:409
 #, fuzzy
 #| msgid "Toggles display of the toolbars"
 msgid "Toggle display of the search bar"
 msgstr "টুলবার প্রদর্শনের মোড পাল্টায়"
 
-#: kwordquiz.cpp:406
+#: kwordquiz.cpp:414
 msgid "Configures sound and other notifications for certain events"
 msgstr "নির্দিষ্ট কিছু ইভেন্টের জন্য শব্দ ও অন্যান্য বিজ্ঞপ্তি কনফিগার করে"
 
-#: kwordquiz.cpp:411
+#: kwordquiz.cpp:419
 msgid "Specifies preferences for the vocabulary editor and quiz sessions"
 msgstr "শব্দভাণ্ডার ও কুইজ পর্ব সংক্রান্ত পছন্দ উল্লেখ করে"
 
-#: kwordquiz.cpp:420
+#: kwordquiz.cpp:428
 #, fuzzy, kde-format
 msgid "Special Character <numid>%1</numid>"
 msgstr "১ম বিশেষ অক্ষর"
 
-#: kwordquiz.cpp:434
+#: kwordquiz.cpp:442
 msgid "Toggles display of the toolbars"
 msgstr "টুলবার প্রদর্শনের মোড পাল্টায়"
 
-#: kwordquiz.cpp:488
+#: kwordquiz.cpp:496
 msgid "Enter search terms here"
 msgstr ""
 
-#: kwordquiz.cpp:510
+#: kwordquiz.cpp:518
 #, fuzzy
 #| msgid "Editor"
 msgctxt "@item:inlistbox vocabulary editor"
 msgid "Editor"
 msgstr "টেক্সট সম্পাদক"
 
-#: kwordquiz.cpp:519
+#: kwordquiz.cpp:527
 #, fuzzy
 #| msgid "Multiple Choice"
 msgid ""
@@ -2110,28 +2114,32 @@ msgid ""
 "Choice"
 msgstr "নৈব্যক্তিক"
 
-#: kwordquiz.cpp:523
+#: kwordquiz.cpp:531
 msgid "Q&A"
 msgstr ""
 
-#: kwordquiz.cpp:589 kwordquiz.cpp:745 kwordquiz.cpp:792
+#: kwordquiz.cpp:597 kwordquiz.cpp:753 kwordquiz.cpp:800
 msgid "Opening file..."
 msgstr "ফাইল খোলা হচ্ছে..."
 
-#: kwordquiz.cpp:621 kwordquiz.cpp:740 kwordquiz.cpp:787 kwordquiz.cpp:795
-#: kwordquiz.cpp:835 kwordquiz.cpp:847 kwordquiz.cpp:924 kwordquiz.cpp:931
-#: kwordquiz.cpp:937 kwordquiz.cpp:965 kwordquiz.cpp:972 kwordquiz.cpp:979
-#: kwordquiz.cpp:986 kwordquiz.cpp:993 kwordquiz.cpp:1000 kwordquiz.cpp:1007
-#: kwordquiz.cpp:1014 kwordquiz.cpp:1027 kwordquiz.cpp:1043 kwordquiz.cpp:1052
-#: kwordquiz.cpp:1060 kwordquiz.cpp:1074 kwordquiz.cpp:1082 kwordquiz.cpp:1089
-#: kwordquiz.cpp:1096 kwordquiz.cpp:1103
+#: kwordquiz.cpp:629 kwordquiz.cpp:748 kwordquiz.cpp:795 kwordquiz.cpp:803
+#: kwordquiz.cpp:841 kwordquiz.cpp:853 kwordquiz.cpp:930 kwordquiz.cpp:937
+#: kwordquiz.cpp:943 kwordquiz.cpp:971 kwordquiz.cpp:978 kwordquiz.cpp:985
+#: kwordquiz.cpp:992 kwordquiz.cpp:999 kwordquiz.cpp:1006 kwordquiz.cpp:1013
+#: kwordquiz.cpp:1020 kwordquiz.cpp:1033 kwordquiz.cpp:1049 kwordquiz.cpp:1058
+#: kwordquiz.cpp:1066 kwordquiz.cpp:1080 kwordquiz.cpp:1088 kwordquiz.cpp:1095
+#: kwordquiz.cpp:1102 kwordquiz.cpp:1109
 #, fuzzy
 #| msgid "Ready"
 msgctxt "@info:status ready"
 msgid "Ready"
 msgstr "প্রস্তুত"
 
-#: kwordquiz.cpp:691
+#: kwordquiz.cpp:650 kwordquiz.cpp:707 kwordquiz.cpp:829 kwqtablemodel.cpp:216
+msgid "Untitled"
+msgstr ""
+
+#: kwordquiz.cpp:699
 #, fuzzy
 msgid ""
 "The current document has been modified.\n"
@@ -2140,181 +2148,198 @@ msgstr ""
 "বর্তমান ফাইলকে পরিবর্তন করা হয়েছে।\n"
 "আপনি কি এটি সংরক্ষণ করতে চান?"
 
-#: kwordquiz.cpp:735
+#: kwordquiz.cpp:743
 msgid "Opening a new document window..."
 msgstr "একটি নতুন ডকুমেন্ট উইন্ডো খোলা হচ্ছে..."
 
-#: kwordquiz.cpp:747
+#: kwordquiz.cpp:755
 msgid "&Merge selected files with the current document"
 msgstr ""
 
-#: kwordquiz.cpp:755
+#: kwordquiz.cpp:763
 msgid "Open Vocabulary Document"
 msgstr "শব্দভাণ্ডারের ডকুমেন্ট খোলো"
 
-#: kwordquiz.cpp:822
+#: kwordquiz.cpp:828
 msgid "Saving file..."
 msgstr "ফাইল সংরক্ষণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:841
+#: kwordquiz.cpp:847
 msgid "Saving file with a new filename..."
 msgstr "একটি নতুন ফাইল-নাম ব্যবহার করে সংরক্ষণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:858
+#: kwordquiz.cpp:864
 msgid "*.html|HTML Document"
 msgstr ""
 
-#: kwordquiz.cpp:862
+#: kwordquiz.cpp:868
 msgid "Save Vocabulary Document As"
 msgstr "শব্দভাণ্ডারের ডকুমেন্টকে যে নামে সংরক্ষণ করা হচ্ছে"
 
-#: kwordquiz.cpp:907
+#: kwordquiz.cpp:913
 msgid "Closing file..."
 msgstr "ফাইল বন্ধ করা হচ্ছে..."
 
-#: kwordquiz.cpp:929
+#: kwordquiz.cpp:935
 msgid "Printing..."
 msgstr "মুদ্রিত হচ্ছে..."
 
-#: kwordquiz.cpp:935
+#: kwordquiz.cpp:941
 #, fuzzy
 #| msgid "Saving file..."
 msgid "Showing Preview..."
 msgstr "ফাইল সংরক্ষণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:943
+#: kwordquiz.cpp:949
 #, fuzzy
 #| msgid "Exiting..."
 msgctxt "@info:status quitting"
 msgid "Quitting..."
 msgstr "প্রস্থান করছে..."
 
-#: kwordquiz.cpp:963
+#: kwordquiz.cpp:969
 msgid "Cutting selection..."
 msgstr "বাছাইকৃত অংশ কাটা হচ্ছে..."
 
-#: kwordquiz.cpp:970
+#: kwordquiz.cpp:976
 msgid "Copying selection to clipboard..."
 msgstr "বাছাইকৃত অংশ ক্লিপবোর্ডে কপি করা হচ্ছে..."
 
-#: kwordquiz.cpp:977
+#: kwordquiz.cpp:983
 msgid "Inserting clipboard contents..."
 msgstr "ক্লিপবোর্ড থেকে ঢোকানো হচ্ছে..."
 
-#: kwordquiz.cpp:984
+#: kwordquiz.cpp:990
 msgid "Clearing the selected cells..."
 msgstr "নির্বাচিত ঘরকে ফাঁকা করা হচ্ছে..."
 
-#: kwordquiz.cpp:991
+#: kwordquiz.cpp:997
 msgid "Inserting rows..."
 msgstr "সারি ঢোকানো হচ্ছে..."
 
-#: kwordquiz.cpp:998
+#: kwordquiz.cpp:1004
 msgid "Deleting selected rows..."
 msgstr "নির্বাচিত সারি মোছা হচ্ছে..."
 
-#: kwordquiz.cpp:1005
+#: kwordquiz.cpp:1011
 msgid "Marking selected text as a blank..."
 msgstr "বাছাইকৃত টেক্সটকে ফাঁকা স্থান হিসাবে চিহ্নিত করা হচ্ছে..."
 
-#: kwordquiz.cpp:1012
+#: kwordquiz.cpp:1018
 msgid "Removing blank markings..."
 msgstr "চিহ্নিত ফাঁকা স্থান অপসারণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1019
+#: kwordquiz.cpp:1025
 msgid "Setting the column titles of the vocabulary..."
 msgstr "শব্দভাণ্ডারের কলাম শিরোনাম নির্ধারণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1032
+#: kwordquiz.cpp:1038
 msgid "Setting the font of the vocabulary..."
 msgstr "শব্দভাণ্ডারের ফন্ট নির্ধারণ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1049
+#: kwordquiz.cpp:1055
 #, fuzzy
 #| msgid "Inserting rows..."
 msgid "Adjusting row heights..."
 msgstr "সারি ঢোকানো হচ্ছে..."
 
-#: kwordquiz.cpp:1058
+#: kwordquiz.cpp:1064
 msgid "Randomizing the vocabulary..."
 msgstr "শব্দভাণ্ডার এলোমেলো করা হচ্ছে..."
 
-#: kwordquiz.cpp:1066
+#: kwordquiz.cpp:1072
 msgid "Updating mode..."
 msgstr "মোড আপডেট করা হচ্ছে..."
 
-#: kwordquiz.cpp:1080
+#: kwordquiz.cpp:1086
 msgid "Starting editor session..."
 msgstr "এডিটর সেশন আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1087
+#: kwordquiz.cpp:1093
 msgid "Starting flashcard session..."
 msgstr "ফ্ল্যাশকার্ড সেশন আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1094
+#: kwordquiz.cpp:1100
 msgid "Starting multiple choice session..."
 msgstr "নৈব্যক্তিক সেশন আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1101
+#: kwordquiz.cpp:1107
 msgid "Starting question & answer session..."
 msgstr "প্রশ্নোত্তর পর্ব আরম্ভ করা হচ্ছে..."
 
-#: kwordquiz.cpp:1251
+#: kwordquiz.cpp:1259
 #, fuzzy, kde-format
 #| msgid "&Insert Row"
 msgid "Insert %1"
 msgstr "সারি ঢোকা&ও"
 
-#: kwordquiz.cpp:1252
+#: kwordquiz.cpp:1260
 #, kde-format
 msgid "Inserts the character %1"
 msgstr "%1 অক্ষরটি ঢোকানো হচ্ছে"
 
-#: kwordquiz.cpp:1303
+#: kwordquiz.cpp:1311
 msgid "This will restart your quiz. Do you wish to continue?"
 msgstr "এটি কুইজ আরম্ভ করবে।  আপনি কি এগিয়ে যেতে চান?"
 
-#: kwordquiz.cpp:1319
+#: kwordquiz.cpp:1327
 #, kde-format
 msgid "&1 %1 -> %2 In Order"
 msgstr "&১ %1 -> %2 সাজানো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1320
+#: kwordquiz.cpp:1328
 #, kde-format
 msgid "&2 %1 -> %2 In Order"
 msgstr "&২ %1 -> %2 সাজানো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1321
+#: kwordquiz.cpp:1329
 #, kde-format
 msgid "&3 %1 -> %2 Randomly"
 msgstr "&৩ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1322
+#: kwordquiz.cpp:1330
 #, kde-format
 msgid "&4 %1 -> %2 Randomly"
 msgstr "&৪ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1323
+#: kwordquiz.cpp:1331
 #, fuzzy, kde-format
 #| msgid "&5 %1 <-> %2 Randomly"
 msgid "&5 %1 &lt;-&gt; %2 Randomly"
 msgstr "&৫ %1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1330 kwordquiz.cpp:1333
+#: kwordquiz.cpp:1338 kwordquiz.cpp:1341
 #, kde-format
 msgid "%1 -> %2 In Order"
 msgstr "%1 -> %2 সাজানো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1336 kwordquiz.cpp:1339
+#: kwordquiz.cpp:1344 kwordquiz.cpp:1347
 #, kde-format
 msgid "%1 -> %2 Randomly"
 msgstr "%1 -> %2 এলোমেলো অবস্থায় রয়েছে"
 
-#: kwordquiz.cpp:1342
+#: kwordquiz.cpp:1350
 #, fuzzy, kde-format
 #| msgid "%1 -> %2 Randomly"
 msgid "%1 &lt;-&gt; %2 Randomly"
 msgstr "%1 -> %2 এলোমেলো অবস্থায় রয়েছে"
+
+#: prefcharacter.cpp:44
+msgid "Action"
+msgstr "কাজ"
+
+#: prefcharacter.cpp:45
+msgid "Shortcut"
+msgstr "শর্টকাট"
+
+#: prefcharacter.cpp:46
+msgid "Character"
+msgstr "অক্ষর"
+
+#: prefcharacter.cpp:55
+#, fuzzy, kde-format
+msgid "Special Character %1"
+msgstr "১ম বিশেষ অক্ষর"
 
 #: wqprintdialogpage.cpp:30
 msgid "Vocabulary Options"
@@ -2351,81 +2376,66 @@ msgstr "ফ্ল্যা&শকার্ড"
 msgid "Select to print flashcards"
 msgstr "ফ্ল্যাশকার্ড মুদ্রণের জন্য এটি বেছে নিন"
 
-#: prefcardappearance.cpp:80
-msgctxt "Back of the flashcard"
-msgid "Back"
-msgstr "উল্টো পৃষ্ঠ"
+#: main.cpp:29
+msgid "A powerful flashcard and vocabulary learning program"
+msgstr "একটি শক্তিশালী ফ্ল্যাশকার্ড ও শব্দভাণ্ডার সমৃদ্ধকারী প্রোগ্রাম"
 
-#: prefcardappearance.cpp:81
-msgid "Answer"
-msgstr "উত্তর"
+#: main.cpp:34
+msgid "KWordQuiz"
+msgstr "কে-ওয়ার্ডকুইজ"
 
-#: prefcardappearance.cpp:94
-msgid "Front"
-msgstr "সম্মুখ"
-
-#: prefcardappearance.cpp:95
-msgid "Question"
-msgstr "প্রশ্ন"
-
-#: kwqcommands.cpp:83
-#, fuzzy
-#| msgid "&Undo Clear"
-msgctxt "@item:inmenu undo clear"
-msgid "Clear"
-msgstr "মোছা বাতি&ল করো"
-
-#: kwqcommands.cpp:102
-msgctxt "@item:inmenu undo cut"
-msgid "Cut"
+#: main.cpp:38
+msgid "(c) 2003-2010, Peter Hedlund"
 msgstr ""
 
-#: kwqcommands.cpp:115
-#, fuzzy
-#| msgid "&Undo Paste"
-msgctxt "@item:inmenu undo paste"
-msgid "Paste"
-msgstr "সাঁটা বাতি&ল করো"
+#: main.cpp:43
+msgid "Peter Hedlund"
+msgstr ""
 
-#: kwqcommands.cpp:212
-#, fuzzy
-#| msgid "Sort"
-msgctxt "@item:inmenu undo sort"
-msgid "Sort"
-msgstr "সাজাও"
+#: main.cpp:44
+msgid "Anne-Marie Mahfouf"
+msgstr ""
 
-#: kwqcommands.cpp:239
-#, fuzzy
-#| msgid "Sh&uffle"
-msgctxt "@item:inmenu undo shuffle"
-msgid "Shuffle"
-msgstr "&এলোমেলো করো"
+#: main.cpp:44
+msgid "KDE Edutainment Maintainer"
+msgstr "কে.ডি.ই. শিক্ষা-বিনোদন রক্ষণাবেক্ষণকারী"
 
-#: kwqcommands.cpp:259
-#, fuzzy
-#| msgid "&Insert Row"
-msgctxt "@item:inmenu undo insert"
-msgid "Insert"
-msgstr "সারি ঢোকা&ও"
+#: main.cpp:45
+msgid "Martin Pfeiffer"
+msgstr ""
 
-#: kwqcommands.cpp:291
-#, fuzzy
-#| msgid "&Delete Row"
-msgctxt "@item:inmenu undo delete"
-msgid "Delete"
-msgstr "সারি মোছো (&ম)"
+#: main.cpp:45
+msgid "Leitner System and several code contributions"
+msgstr ""
 
-#: kwqcommands.cpp:340
-#, fuzzy
-#| msgid "&Unmark Blanks"
-msgctxt "@item:inmenu undo unmark blank"
-msgid "Unmark Blank"
-msgstr "ফাঁকা স্থান &অচিহ্নিত করো"
+# FIXME
+#: main.cpp:51
+msgid ""
+"A number 1-5 corresponding to the \n"
+"entries in the Mode menu"
+msgstr ""
+"মোড মেনুর এন্ট্রিগুলোর সাথে সংশ্লিষ্ট একটি সংখ্যা\n"
+"যা ১ থেকে ৫ এর মধ্যে অবস্থিত"
 
-#: kwqcommands.cpp:362
+#: main.cpp:53
+msgid ""
+"Type of session to start with: \n"
+"'flash' for flashcard, \n"
+"'mc' for multiple choice, \n"
+"'qa' for question and answer"
+msgstr ""
+"যে ধরনের সেশন দিয়ে আরম্ভ করা হবে: \n"
+"ফ্ল্যাশকার্ড ব্যবহার করতে হলে 'ফ্যাশ', \n"
+"নৈব্যক্তিক প্রশ্নোত্তরের জন্য 'এম.সি.', \n"
+"সাধারণ প্রশ্নোত্তরের জন্য 'কিউ.এ.'"
+
+#: main.cpp:54
+msgid "File to open"
+msgstr "যে ফাইলটি খোলা হবে"
+
+#: dlglanguage.cpp:31
 #, fuzzy
 #| msgid "Quiz Settings"
-msgctxt "@item:inmenu undo column titles"
 msgid "Column Settings"
 msgstr "কুইজের বৈশিষ্ট্য"
 

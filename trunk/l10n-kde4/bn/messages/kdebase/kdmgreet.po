@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2009-10-26 06:23+0100\n"
+"POT-Creation-Date: 2010-03-02 04:18+0100\n"
 "PO-Revision-Date: 2006-03-22 23:35-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -15,13 +15,356 @@ msgstr ""
 "X-Generator: KBabel 1.11.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kdmconfig.cpp:128
+#: themer/kdmlabel.cpp:244
 #, fuzzy
-msgctxt ""
-"@item:intext substitution for an undefined %X placeholder wrongly given in "
-"the config file 'kdmrc', telling the user to fix it"
-msgid "[fix kdmrc]"
-msgstr "[kdmrc ঠিক করুন!]"
+msgctxt "@action:button"
+msgid "Lan_guage"
+msgstr "ভাষা"
+
+#: themer/kdmlabel.cpp:245
+#, fuzzy
+msgctxt "@action:button"
+msgid "Session _Type"
+msgstr "সেশন টাইপ"
+
+#: themer/kdmlabel.cpp:246
+#, fuzzy
+msgctxt "@action:button"
+msgid "_Menu"
+msgstr "মেনু"
+
+#. i18n("Actions");
+#: themer/kdmlabel.cpp:247
+msgctxt "@action:button ... from XDMCP server"
+msgid "Disconn_ect"
+msgstr ""
+
+#: themer/kdmlabel.cpp:248
+msgctxt "@action:button"
+msgid "_Quit"
+msgstr ""
+
+#: themer/kdmlabel.cpp:249
+msgctxt "@action:button"
+msgid "Power o_ff"
+msgstr ""
+
+#: themer/kdmlabel.cpp:251
+msgctxt "@action:button"
+msgid "Re_boot"
+msgstr ""
+
+#: themer/kdmlabel.cpp:252
+#, fuzzy
+msgctxt "@action:button"
+msgid "_Remote login"
+msgstr "দূ&রবর্তী লগ-ইন"
+
+#: themer/kdmlabel.cpp:253
+msgid "Caps Lock is enabled"
+msgstr ""
+
+#: themer/kdmlabel.cpp:254
+msgid "User %u will log in in %t"
+msgstr ""
+
+#: themer/kdmlabel.cpp:255
+msgid "Welcome to %h"
+msgstr ""
+
+#: themer/kdmlabel.cpp:256
+msgid "_Domain:"
+msgstr ""
+
+#: themer/kdmlabel.cpp:257
+#, fuzzy
+msgid "_Username:"
+msgstr "ব্যবহারকারী:"
+
+#: themer/kdmlabel.cpp:258
+#, fuzzy
+msgid "_Password:"
+msgstr "পাসওয়ার্ড:"
+
+#: themer/kdmlabel.cpp:259
+#, fuzzy
+msgctxt "@action:button"
+msgid "_Login"
+msgstr "লগ-ইন"
+
+#: themer/kdmlabel.cpp:290
+#, kde-format
+msgctxt "will login in ..."
+msgid "1 second"
+msgid_plural "%1 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themer/kdmlabel.cpp:298
+#, no-c-format
+msgctxt "date format"
+msgid "%a %d %B"
+msgstr ""
+
+#: themer/kdmthemer.cpp:67
+#, kde-format
+msgid "Cannot open theme file %1"
+msgstr "থীম ফাইল %1 খোলা যাচ্ছে না"
+
+#: themer/kdmthemer.cpp:72
+#, kde-format
+msgid "Cannot parse theme file %1"
+msgstr ""
+
+#: themer/kdmthemer.cpp:79
+#, kde-format
+msgid "%1 does not seem to be a correct theme file"
+msgstr ""
+
+#: kdmshutdown.cpp:90
+msgid "Root authorization required."
+msgstr ""
+
+#: kdmshutdown.cpp:122
+msgctxt "@action:inmenu verb"
+msgid "&Schedule..."
+msgstr ""
+
+#: kdmshutdown.cpp:264
+msgid "Shutdown Type"
+msgstr "শাটডাউন টাইপ"
+
+#: kdmshutdown.cpp:268
+msgid "&Turn off computer"
+msgstr "কমপি&উটার বন্ধ করো"
+
+#: kdmshutdown.cpp:272
+msgid "&Restart computer"
+msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
+
+#: kdmshutdown.cpp:298
+msgctxt "@title:group ... of shutdown"
+msgid "Scheduling"
+msgstr ""
+
+#: kdmshutdown.cpp:302
+msgid "&Start:"
+msgstr "[&শ]শুরু:"
+
+#: kdmshutdown.cpp:306
+msgid "T&imeout:"
+msgstr "&সময়সীমা:"
+
+#: kdmshutdown.cpp:309
+msgid "&Force after timeout"
+msgstr ""
+
+#: kdmshutdown.cpp:356
+msgid "Entered start date is invalid."
+msgstr ""
+
+#: kdmshutdown.cpp:365
+msgid "Entered timeout date is invalid."
+msgstr ""
+
+#: kdmshutdown.cpp:479
+msgid "&Turn Off Computer"
+msgstr "কমপি&উটার বন্ধ করো"
+
+#: kdmshutdown.cpp:486
+msgid "&Restart Computer"
+msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
+
+#: kdmshutdown.cpp:496
+#, kde-format
+msgctxt "current option in boot loader"
+msgid "%1 (current)"
+msgstr "%1 (বর্তমান)"
+
+#: kdmshutdown.cpp:507
+msgctxt "@action:button verb"
+msgid "&Schedule..."
+msgstr ""
+
+#: kdmshutdown.cpp:586
+msgid ""
+"<br/>Switching to console mode will terminate all local X servers and leave "
+"you with console logins only. Graphical mode is automatically resumed 10 "
+"seconds after the last console session ends or after 40 seconds if no-one "
+"logs in in the first place.<br/>"
+msgstr ""
+
+#: kdmshutdown.cpp:607
+msgid "Turn Off Computer"
+msgstr "কমপিউটার বন্ধ করো"
+
+#: kdmshutdown.cpp:610
+msgid "Switch to Console"
+msgstr "কনসোল-এ যাও"
+
+#: kdmshutdown.cpp:612
+msgid "Restart Computer"
+msgstr "কমপিউটার বন্ধ করে আবার চালাও"
+
+#: kdmshutdown.cpp:614
+#, kde-format
+msgid "<br/>(Next boot: %1)"
+msgstr ""
+
+#: kdmshutdown.cpp:632
+msgid "Abort active sessions:"
+msgstr ""
+
+#: kdmshutdown.cpp:633
+msgid "No permission to abort active sessions:"
+msgstr ""
+
+#: kdmshutdown.cpp:644
+#, fuzzy
+msgctxt "@title:column"
+msgid "Session"
+msgstr "সেশন"
+
+#: kdmshutdown.cpp:645
+#, fuzzy
+msgctxt "@title:column ... of session"
+msgid "Location"
+msgstr "অবস্থান"
+
+#: kdmshutdown.cpp:686
+msgid "Cancel pending shutdown:"
+msgstr ""
+
+#: kdmshutdown.cpp:687
+msgid "No permission to cancel pending shutdown:"
+msgstr ""
+
+#: kdmshutdown.cpp:693
+#, fuzzy
+msgctxt "start of shutdown:"
+msgid "now"
+msgstr "এখন"
+
+#: kdmshutdown.cpp:699
+#, fuzzy
+msgctxt "timeout of shutdown:"
+msgid "infinite"
+msgstr "অসীম"
+
+#: kdmshutdown.cpp:710
+msgctxt "owner of shutdown:"
+msgid "console user"
+msgstr ""
+
+#: kdmshutdown.cpp:712
+msgctxt "owner of shutdown:"
+msgid "control socket"
+msgstr ""
+
+#: kdmshutdown.cpp:715
+msgid "turn off computer"
+msgstr "কমপিউটার বন্ধ করো"
+
+#: kdmshutdown.cpp:716
+msgid "restart computer"
+msgstr "কমপিউটার বন্ধ করে আবার চালাও"
+
+#: kdmshutdown.cpp:719
+#, kde-format
+msgid ""
+"\n"
+"Next boot: %1"
+msgstr ""
+
+#: kdmshutdown.cpp:705
+#, kde-format
+msgid ""
+"Owner: %1\n"
+"Type: %2%5\n"
+"Start: %3\n"
+"Timeout: %4"
+msgstr ""
+
+#: kdmshutdown.cpp:724
+#, fuzzy
+msgctxt "after timeout:"
+msgid "abort all sessions"
+msgstr "সেশন"
+
+#: kdmshutdown.cpp:726
+#, fuzzy
+msgctxt "after timeout:"
+msgid "abort own sessions"
+msgstr "সেশন"
+
+#: kdmshutdown.cpp:727
+msgctxt "after timeout:"
+msgid "cancel shutdown"
+msgstr ""
+
+#: kdmshutdown.cpp:722
+#, kde-format
+msgid ""
+"\n"
+"After timeout: %1"
+msgstr ""
+
+#: kgdialog.cpp:57
+msgid "Sw&itch User"
+msgstr "ব্যবহা&রকারী পাল্টাও"
+
+#: kgdialog.cpp:72
+#, fuzzy
+msgid "Canc&el Session"
+msgstr "সেশন"
+
+#: kgdialog.cpp:73
+msgid "R&estart X Server"
+msgstr "&এক্স সার্ভার বন্ধ করে আবার চালাও"
+
+#: kgdialog.cpp:74
+msgid "Clos&e Connection"
+msgstr "যোগাযো&গ বন্ধ করো"
+
+#: kgdialog.cpp:85
+msgid "Co&nsole Login"
+msgstr "ক&নসোল লগ-ইন"
+
+#: kgdialog.cpp:88
+msgid "&Shutdown..."
+msgstr "শা&টডাউন..."
+
+#: kgdialog.cpp:228
+#, kde-format
+msgctxt "session (location)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: utils.cpp:87
+#, kde-format
+msgctxt "user: ..."
+msgid "%2: TTY login"
+msgid_plural "%2: %1 TTY logins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: utils.cpp:99
+#, fuzzy
+msgctxt "... session"
+msgid "Unused"
+msgstr "ব্যবহৃত নয়"
+
+#: utils.cpp:101
+#, kde-format
+msgctxt "user: session type"
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: utils.cpp:103
+#, kde-format
+msgctxt "... host"
+msgid "X login on %1"
+msgstr "%1-এ এক্স লগ-ইন"
 
 #: krootimage.cpp:328
 msgid "KRootImage"
@@ -34,6 +377,91 @@ msgstr "কে.ডি.এম-এর জন্য ঝক্‌মকে ডেস
 #: krootimage.cpp:332
 msgid "Name of the configuration file"
 msgstr "কনফিগারেশন ফাইল-এর নাম"
+
+#: kdmconfig.cpp:131
+#, fuzzy
+msgctxt ""
+"@item:intext substitution for an undefined %X placeholder wrongly given in "
+"the config file 'kdmrc', telling the user to fix it"
+msgid "[fix kdmrc]"
+msgstr "[kdmrc ঠিক করুন!]"
+
+#: kgreeter.cpp:478
+msgctxt "@item:inlistbox session type"
+msgid "Default"
+msgstr ""
+
+#: kgreeter.cpp:479
+#, fuzzy
+msgctxt "@item:inlistbox session type"
+msgid "Custom"
+msgstr "স্বনির্বাচিত"
+
+#: kgreeter.cpp:480
+#, fuzzy
+msgctxt "@item:inlistbox session type"
+msgid "Failsafe"
+msgstr "নিরাপদ"
+
+#: kgreeter.cpp:556
+#, fuzzy, kde-format
+msgctxt "@item:inmenu session type"
+msgid "%1 (previous)"
+msgstr " (পূর্ববর্তী)"
+
+#: kgreeter.cpp:618
+#, kde-format
+msgid ""
+"Your saved session type '%1' is not valid any more.\n"
+"Please select a new one, otherwise 'default' will be used."
+msgstr ""
+"আপনার সংরক্ষিত সেশন টাইপ '%1' এখন আর অর্থপূর্ণ নয়।\n"
+"অনুগ্রহ করে নতুন কিছু বেছে নিন, না হলে 'ডিফল্ট' ব্যবহার করা হবে।"
+
+#: kgreeter.cpp:741
+msgid "Warning: this is an unsecured session"
+msgstr "সাবধান:এই সেশনটি নিরাপদ (secure) নয়"
+
+#: kgreeter.cpp:743
+msgid ""
+"This display requires no X authorization.\n"
+"This means that anybody can connect to it,\n"
+"open windows on it or intercept your input."
+msgstr ""
+
+#: kgreeter.cpp:796
+#, fuzzy
+msgctxt "@action:button"
+msgid "L&ogin"
+msgstr "লগ-&ইন"
+
+#: kgreeter.cpp:799 kchooser.cpp:100
+#, fuzzy
+msgctxt "@action:button"
+msgid "&Menu"
+msgstr "মেনু (&ম)"
+
+#: kgreeter.cpp:830 kgreeter.cpp:963
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Session &Type"
+msgstr "সেশন টাই&প"
+
+#: kgreeter.cpp:835 kgreeter.cpp:969
+#, fuzzy
+msgctxt "@title:menu"
+msgid "&Authentication Method"
+msgstr "সত্যতা যাচাইয়ের &উপায়"
+
+#: kgreeter.cpp:840 kgreeter.cpp:974
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "&Remote Login"
+msgstr "দূ&রবর্তী লগ-ইন"
+
+#: kgreeter.cpp:914 kgverify.cpp:1069
+msgid "Login failed"
+msgstr "লগ-ইন ব্যর্থ"
 
 #: kchooser.cpp:54
 #, fuzzy
@@ -81,12 +509,6 @@ msgctxt "@action:button"
 msgid "&Refresh"
 msgstr "আবার &পড়ো"
 
-#: kchooser.cpp:100 kgreeter.cpp:797
-#, fuzzy
-msgctxt "@action:button"
-msgid "&Menu"
-msgstr "মেনু (&ম)"
-
 #: kchooser.cpp:180
 #, fuzzy
 msgctxt "hostname or status"
@@ -97,77 +519,6 @@ msgstr "<অজানা>"
 #, kde-format
 msgid "Unknown host %1"
 msgstr "অপরিচিত হোস্ট %1"
-
-#: kgreeter.cpp:476
-msgctxt "@item:inlistbox session type"
-msgid "Default"
-msgstr ""
-
-#: kgreeter.cpp:477
-#, fuzzy
-msgctxt "@item:inlistbox session type"
-msgid "Custom"
-msgstr "স্বনির্বাচিত"
-
-#: kgreeter.cpp:478
-#, fuzzy
-msgctxt "@item:inlistbox session type"
-msgid "Failsafe"
-msgstr "নিরাপদ"
-
-#: kgreeter.cpp:554
-#, fuzzy, kde-format
-msgctxt "@item:inmenu session type"
-msgid "%1 (previous)"
-msgstr " (পূর্ববর্তী)"
-
-#: kgreeter.cpp:616
-#, kde-format
-msgid ""
-"Your saved session type '%1' is not valid any more.\n"
-"Please select a new one, otherwise 'default' will be used."
-msgstr ""
-"আপনার সংরক্ষিত সেশন টাইপ '%1' এখন আর অর্থপূর্ণ নয়।\n"
-"অনুগ্রহ করে নতুন কিছু বেছে নিন, না হলে 'ডিফল্ট' ব্যবহার করা হবে।"
-
-#: kgreeter.cpp:739
-msgid "Warning: this is an unsecured session"
-msgstr "সাবধান:এই সেশনটি নিরাপদ (secure) নয়"
-
-#: kgreeter.cpp:741
-msgid ""
-"This display requires no X authorization.\n"
-"This means that anybody can connect to it,\n"
-"open windows on it or intercept your input."
-msgstr ""
-
-#: kgreeter.cpp:794
-#, fuzzy
-msgctxt "@action:button"
-msgid "L&ogin"
-msgstr "লগ-&ইন"
-
-#: kgreeter.cpp:828 kgreeter.cpp:961
-#, fuzzy
-msgctxt "@title:menu"
-msgid "Session &Type"
-msgstr "সেশন টাই&প"
-
-#: kgreeter.cpp:833 kgreeter.cpp:967
-#, fuzzy
-msgctxt "@title:menu"
-msgid "&Authentication Method"
-msgstr "সত্যতা যাচাইয়ের &উপায়"
-
-#: kgreeter.cpp:838 kgreeter.cpp:972
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "&Remote Login"
-msgstr "দূ&রবর্তী লগ-ইন"
-
-#: kgreeter.cpp:912 kgverify.cpp:1069
-msgid "Login failed"
-msgstr "লগ-ইন ব্যর্থ"
 
 #: kconsole.cpp:70
 #, fuzzy
@@ -184,37 +535,6 @@ msgid ""
 msgstr ""
 "\n"
 "*** Cannot open console log source ***"
-
-#: kgdialog.cpp:57
-msgid "Sw&itch User"
-msgstr "ব্যবহা&রকারী পাল্টাও"
-
-#: kgdialog.cpp:72
-#, fuzzy
-msgid "Canc&el Session"
-msgstr "সেশন"
-
-#: kgdialog.cpp:73
-msgid "R&estart X Server"
-msgstr "&এক্স সার্ভার বন্ধ করে আবার চালাও"
-
-#: kgdialog.cpp:74
-msgid "Clos&e Connection"
-msgstr "যোগাযো&গ বন্ধ করো"
-
-#: kgdialog.cpp:85
-msgid "Co&nsole Login"
-msgstr "ক&নসোল লগ-ইন"
-
-#: kgdialog.cpp:88
-msgid "&Shutdown..."
-msgstr "শা&টডাউন..."
-
-#: kgdialog.cpp:230
-#, kde-format
-msgctxt "session (location)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
 
 #: kgverify.cpp:186
 msgid "No greeter widget plugin loaded. Check the configuration."
@@ -332,318 +652,6 @@ msgstr ""
 msgctxt "@title:window"
 msgid "<qt><b>Changing authentication token</b></qt>"
 msgstr "অথেন্টিকেশন টোকেন বদলানো হচ্ছে"
-
-#: kdmshutdown.cpp:90
-msgid "Root authorization required."
-msgstr ""
-
-#: kdmshutdown.cpp:122
-msgctxt "@action:inmenu verb"
-msgid "&Schedule..."
-msgstr ""
-
-#: kdmshutdown.cpp:264
-msgid "Shutdown Type"
-msgstr "শাটডাউন টাইপ"
-
-#: kdmshutdown.cpp:268
-msgid "&Turn off computer"
-msgstr "কমপি&উটার বন্ধ করো"
-
-#: kdmshutdown.cpp:272
-msgid "&Restart computer"
-msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
-
-#: kdmshutdown.cpp:298
-msgctxt "@title:group ... of shutdown"
-msgid "Scheduling"
-msgstr ""
-
-#: kdmshutdown.cpp:302
-msgid "&Start:"
-msgstr "[&শ]শুরু:"
-
-#: kdmshutdown.cpp:306
-msgid "T&imeout:"
-msgstr "&সময়সীমা:"
-
-#: kdmshutdown.cpp:309
-msgid "&Force after timeout"
-msgstr ""
-
-#: kdmshutdown.cpp:356
-msgid "Entered start date is invalid."
-msgstr ""
-
-#: kdmshutdown.cpp:365
-msgid "Entered timeout date is invalid."
-msgstr ""
-
-#: kdmshutdown.cpp:479
-msgid "&Turn Off Computer"
-msgstr "কমপি&উটার বন্ধ করো"
-
-#: kdmshutdown.cpp:486
-msgid "&Restart Computer"
-msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
-
-#: kdmshutdown.cpp:496
-#, kde-format
-msgctxt "current option in boot loader"
-msgid "%1 (current)"
-msgstr "%1 (বর্তমান)"
-
-#: kdmshutdown.cpp:507
-msgctxt "@action:button verb"
-msgid "&Schedule..."
-msgstr ""
-
-#: kdmshutdown.cpp:598
-msgid "Turn Off Computer"
-msgstr "কমপিউটার বন্ধ করো"
-
-#: kdmshutdown.cpp:601
-msgid "Switch to Console"
-msgstr "কনসোল-এ যাও"
-
-#: kdmshutdown.cpp:603
-msgid "Restart Computer"
-msgstr "কমপিউটার বন্ধ করে আবার চালাও"
-
-#: kdmshutdown.cpp:605
-#, kde-format
-msgid "<br/>(Next boot: %1)"
-msgstr ""
-
-#: kdmshutdown.cpp:616
-msgid "Abort active sessions:"
-msgstr ""
-
-#: kdmshutdown.cpp:617
-msgid "No permission to abort active sessions:"
-msgstr ""
-
-#: kdmshutdown.cpp:628
-#, fuzzy
-msgctxt "@title:column"
-msgid "Session"
-msgstr "সেশন"
-
-#: kdmshutdown.cpp:629
-#, fuzzy
-msgctxt "@title:column ... of session"
-msgid "Location"
-msgstr "অবস্থান"
-
-#: kdmshutdown.cpp:670
-msgid "Cancel pending shutdown:"
-msgstr ""
-
-#: kdmshutdown.cpp:671
-msgid "No permission to cancel pending shutdown:"
-msgstr ""
-
-#: kdmshutdown.cpp:677
-#, fuzzy
-msgctxt "start of shutdown:"
-msgid "now"
-msgstr "এখন"
-
-#: kdmshutdown.cpp:683
-#, fuzzy
-msgctxt "timeout of shutdown:"
-msgid "infinite"
-msgstr "অসীম"
-
-#: kdmshutdown.cpp:694
-msgctxt "owner of shutdown:"
-msgid "console user"
-msgstr ""
-
-#: kdmshutdown.cpp:696
-msgctxt "owner of shutdown:"
-msgid "control socket"
-msgstr ""
-
-#: kdmshutdown.cpp:699
-msgid "turn off computer"
-msgstr "কমপিউটার বন্ধ করো"
-
-#: kdmshutdown.cpp:700
-msgid "restart computer"
-msgstr "কমপিউটার বন্ধ করে আবার চালাও"
-
-#: kdmshutdown.cpp:703
-#, kde-format
-msgid ""
-"\n"
-"Next boot: %1"
-msgstr ""
-
-#: kdmshutdown.cpp:689
-#, kde-format
-msgid ""
-"Owner: %1\n"
-"Type: %2%5\n"
-"Start: %3\n"
-"Timeout: %4"
-msgstr ""
-
-#: kdmshutdown.cpp:708
-#, fuzzy
-msgctxt "after timeout:"
-msgid "abort all sessions"
-msgstr "সেশন"
-
-#: kdmshutdown.cpp:710
-#, fuzzy
-msgctxt "after timeout:"
-msgid "abort own sessions"
-msgstr "সেশন"
-
-#: kdmshutdown.cpp:711
-msgctxt "after timeout:"
-msgid "cancel shutdown"
-msgstr ""
-
-#: kdmshutdown.cpp:706
-#, kde-format
-msgid ""
-"\n"
-"After timeout: %1"
-msgstr ""
-
-#: themer/kdmlabel.cpp:244
-#, fuzzy
-msgctxt "@action:button"
-msgid "Lan_guage"
-msgstr "ভাষা"
-
-#: themer/kdmlabel.cpp:245
-#, fuzzy
-msgctxt "@action:button"
-msgid "Session _Type"
-msgstr "সেশন টাইপ"
-
-#: themer/kdmlabel.cpp:246
-#, fuzzy
-msgctxt "@action:button"
-msgid "_Menu"
-msgstr "মেনু"
-
-#. i18n("Actions");
-#: themer/kdmlabel.cpp:247
-msgctxt "@action:button ... from XDMCP server"
-msgid "Disconn_ect"
-msgstr ""
-
-#: themer/kdmlabel.cpp:248
-msgctxt "@action:button"
-msgid "_Quit"
-msgstr ""
-
-#: themer/kdmlabel.cpp:249
-msgctxt "@action:button"
-msgid "Power o_ff"
-msgstr ""
-
-#: themer/kdmlabel.cpp:251
-msgctxt "@action:button"
-msgid "Re_boot"
-msgstr ""
-
-#: themer/kdmlabel.cpp:252
-#, fuzzy
-msgctxt "@action:button"
-msgid "_Remote login"
-msgstr "দূ&রবর্তী লগ-ইন"
-
-#: themer/kdmlabel.cpp:253
-msgid "Caps Lock is enabled"
-msgstr ""
-
-#: themer/kdmlabel.cpp:254
-msgid "User %u will log in in %t"
-msgstr ""
-
-#: themer/kdmlabel.cpp:255
-msgid "Welcome to %h"
-msgstr ""
-
-#: themer/kdmlabel.cpp:256
-msgid "_Domain:"
-msgstr ""
-
-#: themer/kdmlabel.cpp:257
-#, fuzzy
-msgid "_Username:"
-msgstr "ব্যবহারকারী:"
-
-#: themer/kdmlabel.cpp:258
-#, fuzzy
-msgid "_Password:"
-msgstr "পাসওয়ার্ড:"
-
-#: themer/kdmlabel.cpp:259
-#, fuzzy
-msgctxt "@action:button"
-msgid "_Login"
-msgstr "লগ-ইন"
-
-#: themer/kdmlabel.cpp:290
-#, kde-format
-msgctxt "will login in ..."
-msgid "1 second"
-msgid_plural "%1 seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: themer/kdmlabel.cpp:298
-#, no-c-format
-msgctxt "date format"
-msgid "%a %d %B"
-msgstr ""
-
-#: themer/kdmthemer.cpp:67
-#, kde-format
-msgid "Cannot open theme file %1"
-msgstr "থীম ফাইল %1 খোলা যাচ্ছে না"
-
-#: themer/kdmthemer.cpp:72
-#, kde-format
-msgid "Cannot parse theme file %1"
-msgstr ""
-
-#: themer/kdmthemer.cpp:79
-#, kde-format
-msgid "%1 does not seem to be a correct theme file"
-msgstr ""
-
-#: utils.cpp:87
-#, kde-format
-msgctxt "user: ..."
-msgid "%2: TTY login"
-msgid_plural "%2: %1 TTY logins"
-msgstr[0] ""
-msgstr[1] ""
-
-#: utils.cpp:99
-#, fuzzy
-msgctxt "... session"
-msgid "Unused"
-msgstr "ব্যবহৃত নয়"
-
-#: utils.cpp:101
-#, kde-format
-msgctxt "user: session type"
-msgid "%1: %2"
-msgstr "%1: %2"
-
-#: utils.cpp:103
-#, kde-format
-msgctxt "... host"
-msgid "X login on %1"
-msgstr "%1-এ এক্স লগ-ইন"
 
 #, fuzzy
 #~ msgid "Abort S&ession"
