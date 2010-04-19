@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-18 03:05+0000\n"
+"POT-Creation-Date: 2010-04-19 02:58+0000\n"
 "PO-Revision-Date: 2009-01-01 03:17-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -1522,7 +1522,7 @@ msgctxt "Name"
 msgid "Manage Notifications"
 msgstr "বিজ্ঞপ্তি"
 
-#: runtime/kcontrol/knotify/kcmnotify.desktop:15
+#: runtime/kcontrol/knotify/kcmnotify.desktop:16
 msgctxt "Comment"
 msgid "System Notification Configuration"
 msgstr "সিস্টেম বিজ্ঞপ্তি কনফিগারেশন"
@@ -6239,7 +6239,6 @@ msgid "More Applications"
 msgstr "আরো অ্যাপলিকেশন"
 
 #: runtime/menu/desktop/kde-multimedia.directory:4
-#: runtime/phonon/kcm/kcm_phonon.desktop:13
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-multimedia.desktop:2
 msgctxt "Name"
 msgid "Multimedia"
@@ -6258,7 +6257,6 @@ msgstr "বিজ্ঞান এবং গণিত"
 
 #: runtime/menu/desktop/kde-system.directory:4
 #: workspace/plasma/netbook/containments/sal/services/plasma-sal-system.desktop:2
-#: workspace/systemsettings/categories/settings-system.desktop:8
 msgctxt "Name"
 msgid "System"
 msgstr "সিস্টেম"
@@ -6287,7 +6285,6 @@ msgid "Accessibility"
 msgstr "সহায়ক প্রযুক্তি"
 
 #: runtime/menu/desktop/kde-utilities-desktop.directory:4
-#: workspace/systemsettings/categories/settings-desktop.desktop:8
 msgctxt "Name"
 msgid "Desktop"
 msgstr "ডেস্কটপ"
@@ -6560,6 +6557,14 @@ msgctxt "Comment"
 msgid "File indexing has been resumed by the search service."
 msgstr ""
 
+#: runtime/phonon/kcm/kcm_phonon.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Phonon Xine"
+msgctxt "Name"
+msgid "Phonon"
+msgstr "ফোনন জাইন"
+
 #: runtime/phonon/kcm/kcm_phonon.desktop:103
 msgctxt "Comment"
 msgid "Sound and Video Configuration"
@@ -6697,6 +6702,7 @@ msgid "Automatically releases drives when their eject button is pushed"
 msgstr ""
 
 #: runtime/solid-device-automounter/kcm/device_automounter_kcm.desktop:11
+#: workspace/systemsettings/categories/settings-removable-devices.desktop:8
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "USB Devices"
@@ -6879,12 +6885,12 @@ msgctxt "Comment"
 msgid "Color settings"
 msgstr "রং সেটিংস"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:14
+#: workspace/kcontrol/dateandtime/clock.desktop:15
 msgctxt "Name"
 msgid "Date & Time"
 msgstr "তারিখ এবং সময়"
 
-#: workspace/kcontrol/dateandtime/clock.desktop:104
+#: workspace/kcontrol/dateandtime/clock.desktop:105
 msgctxt "Comment"
 msgid "Date and time settings"
 msgstr "তারিখ এবং সময় সেটিংস"
@@ -6931,13 +6937,12 @@ msgctxt "Comment"
 msgid "Font settings"
 msgstr "ফন্ট সেটিংস"
 
-#: workspace/kcontrol/hardware/display/display.desktop:11
-#: workspace/systemsettings/categories/settings-display.desktop:8
+#: workspace/kcontrol/hardware/display/display.desktop:12
 msgctxt "Name"
 msgid "Display"
 msgstr "ডিসপ্লে"
 
-#: workspace/kcontrol/hardware/display/display.desktop:99
+#: workspace/kcontrol/hardware/display/display.desktop:100
 #: workspace/systemsettings/categories/settings-display.desktop:96
 msgctxt "Comment"
 msgid "Display Settings"
@@ -7014,9 +7019,12 @@ msgid "XPlanet by Hari Nair"
 msgstr "হরি নায়ার-এর এক্স-প্ল্যানেট"
 
 #: workspace/kcontrol/kdm/kdm.desktop:16
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "PrintScreen"
 msgctxt "Name"
-msgid "Login Manager"
-msgstr "লগ-ইন ম্যানেজার"
+msgid "Login Screen"
+msgstr "PrintScreen"
 
 #: workspace/kcontrol/kdm/kdm.desktop:105
 msgctxt "Comment"
@@ -8267,7 +8275,7 @@ msgctxt "Name"
 msgid "Custom Shortcuts"
 msgstr "ওয়েব শর্টকাট"
 
-#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:95
+#: workspace/khotkeys/kcm_hotkeys/khotkeys.desktop:15
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Configure trash settings"
@@ -8666,8 +8674,11 @@ msgid "ScreenSaver"
 msgstr "স্ক্রীন-সেভার"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:13
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Session Manager"
 msgctxt "Name"
-msgid "Session Manager"
+msgid "Session Management"
 msgstr "সেশন ম্যানেজার"
 
 #: workspace/ksmserver/kcm/kcmsmserver.desktop:100
@@ -9604,9 +9615,12 @@ msgid "Configure desktop effects"
 msgstr "ডেস্কটপ এফেক্টস কনফিগার করুন"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:14
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Information"
 msgctxt "Name"
-msgid "Windows"
-msgstr "উইণ্ডো"
+msgid "Window Decorations"
+msgstr "উইণ্ডো তথ্য"
 
 #: workspace/kwin/kcmkwin/kwindecoration/kwindecoration.desktop:94
 msgctxt "Comment"
@@ -9614,8 +9628,9 @@ msgid "Configure the look and feel of window titles"
 msgstr "উইণ্ডো শিরোনামের চেহারা কনফিগার করুন"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:14
+#, fuzzy
 msgctxt "Name"
-msgid "Multiple Desktops"
+msgid "Virtual Desktops"
 msgstr "একাধিক ডেস্কটপ"
 
 #: workspace/kwin/kcmkwin/kwindesktop/desktop.desktop:99
@@ -9634,7 +9649,6 @@ msgid "Configure keyboard and mouse settings"
 msgstr "কীবোর্ড এবং মাউস সেটিংস কনফিগার করুন"
 
 #: workspace/kwin/kcmkwin/kwinoptions/kwinadvanced.desktop:11
-#: workspace/systemsettings/categories/settings-advanced.desktop:8
 msgctxt "Name"
 msgid "Advanced"
 msgstr "অগ্রসর"
@@ -9677,9 +9691,11 @@ msgstr "উইণ্ডোটির আচরণ কনফিগার করু
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:14
 #, fuzzy
+#| msgctxt "Name"
+#| msgid "Window Close"
 msgctxt "Name"
-msgid "Window-Specific"
-msgstr "উইণ্ডো-প্রতি সেটিংস"
+msgid "Window Rules"
+msgstr "উইণ্ডো বন্ধ"
 
 #: workspace/kwin/kcmkwin/kwinrules/kwinrules.desktop:90
 msgctxt "Comment"
@@ -9703,10 +9719,10 @@ msgstr "ওয়েব ক্যাশে সেটিংস কনফিগার
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:13
 #, fuzzy
 #| msgctxt "Name"
-#| msgid "Delete Window"
+#| msgid "Box Switch"
 msgctxt "Name"
-msgid "Navigate Through Windows"
-msgstr "উইণ্ডো বন্ধ করো"
+msgid "Task Switcher"
+msgstr "বাক্স বদল"
 
 #: workspace/kwin/kcmkwin/kwintabbox/kwintabbox.desktop:66
 #, fuzzy
@@ -11722,7 +11738,7 @@ msgctxt "Name"
 msgid "Solid Backend"
 msgstr "ইউ-এস-বি ডিভাইস"
 
-#: workspace/solid/kcm/kcm_solid.desktop:94
+#: workspace/solid/kcm/kcm_solid.desktop:14
 msgctxt "Comment"
 msgid "Hardware Integration Configuration with Solid"
 msgstr ""
@@ -12232,11 +12248,6 @@ msgctxt "Name"
 msgid "System Settings"
 msgstr "সিস্টেম সেটিংস"
 
-#: workspace/systemsettings/categories/settings-about-me.desktop:8
-msgctxt "Name"
-msgid "About Me"
-msgstr "আমার সম্বন্ধে"
-
 #: workspace/systemsettings/categories/settings-account-details.desktop:8
 #, fuzzy
 #| msgctxt "Name"
@@ -12244,11 +12255,6 @@ msgstr "আমার সম্বন্ধে"
 msgctxt "Name"
 msgid "Account Details"
 msgstr "বিস্তারিত"
-
-#: workspace/systemsettings/categories/settings-advanced-user-settings.desktop:8
-msgctxt "Name"
-msgid "Advanced User Settings"
-msgstr ""
 
 #: workspace/systemsettings/categories/settings-application-and-system-notifications.desktop:8
 #, fuzzy
@@ -12274,15 +12280,34 @@ msgctxt "Name"
 msgid "Application Appearance"
 msgstr "অ্যাপলিকেশন লঞ্চার"
 
+#: workspace/systemsettings/categories/settings-audio-and-video.desktop:9
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Audio and Video IDE"
+msgctxt "Name"
+msgid "Audio and Video"
+msgstr "অডিও এবং ভিডিও IDE"
+
 #: workspace/systemsettings/categories/settings-bluetooth.desktop:8
 msgctxt "Name"
 msgid "Bluetooth"
 msgstr "ব্লু-টুথ"
 
-#: workspace/systemsettings/categories/settings-computer-administration.desktop:9
+#: workspace/systemsettings/categories/settings-desktop-appearance.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Desktop Search"
 msgctxt "Name"
-msgid "Computer Administration"
-msgstr "কমপিউটার অ্যাডমিনস্ট্রেশন"
+msgid "Desktop Appearance"
+msgstr "ডেস্কটপ সন্ধান"
+
+#: workspace/systemsettings/categories/settings-display.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "File Management"
+msgctxt "Name"
+msgid "Display and Monitor"
+msgstr "ফাইল ব্যবস্থাপনা"
 
 #: workspace/systemsettings/categories/settings-general.desktop:9
 #, fuzzy
@@ -12297,11 +12322,6 @@ msgctxt "Name"
 msgid "Hardware"
 msgstr "হার্ডওয়্যার"
 
-#: workspace/systemsettings/categories/settings-keyboard-and-mouse.desktop:8
-msgctxt "Name"
-msgid "Keyboard & Mouse"
-msgstr "কীবোর্ড ও মাউস"
-
 #: workspace/systemsettings/categories/settings-locale.desktop:8
 #, fuzzy
 #| msgctxt "GenericName"
@@ -12309,11 +12329,6 @@ msgstr "কীবোর্ড ও মাউস"
 msgctxt "Name"
 msgid "Locale"
 msgstr "যুক্তির খেলা"
-
-#: workspace/systemsettings/categories/settings-look-and-feel.desktop:9
-msgctxt "Name"
-msgid "Look & Feel"
-msgstr ""
 
 #: workspace/systemsettings/categories/settings-lost-and-found.desktop:9
 #, fuzzy
@@ -12323,20 +12338,40 @@ msgctxt "Name"
 msgid "Lost and Found"
 msgstr "হারানো প্রাপ্তি"
 
-#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:9
+#: workspace/systemsettings/categories/settings-main-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Network & Connectivity"
-msgstr ""
+msgid "Main Input Devices"
+msgstr "ডিভাইস"
+
+#: workspace/systemsettings/categories/settings-network-and-connectivity.desktop:8
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "Network Tool"
+msgctxt "Name"
+msgid "Network and Connectivity"
+msgstr "নেটওয়ার্ক টুল"
 
 #: workspace/systemsettings/categories/settings-network-settings.desktop:8
 msgctxt "Name"
 msgid "Network Settings"
 msgstr "নেটওয়ার্ক সেটিংস"
 
-#: workspace/systemsettings/categories/settings-personal.desktop:8
+#: workspace/systemsettings/categories/settings-other-input-devices.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Devices"
 msgctxt "Name"
-msgid "Personal"
-msgstr "ব্যক্তিগত"
+msgid "Other Input Devices"
+msgstr "ডিভাইস"
+
+#: workspace/systemsettings/categories/settings-permissions.desktop:8
+#, fuzzy
+msgctxt "Name"
+msgid "Permissions"
+msgstr "টার্মিনাল অ্যাপলিকেশন"
 
 #: workspace/systemsettings/categories/settings-personal-information.desktop:8
 #, fuzzy
@@ -12346,10 +12381,13 @@ msgctxt "Name"
 msgid "Personal Information"
 msgstr "প্রসেসর তথ্য"
 
-#: workspace/systemsettings/categories/settings-regional-and-language.desktop:8
+#: workspace/systemsettings/categories/settings-security.desktop:8
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Metacity"
 msgctxt "Name"
-msgid "Regional & Language"
-msgstr "এলাকা ও ভাষা"
+msgid "Security"
+msgstr "মেটাসিটি"
 
 #: workspace/systemsettings/categories/settings-sharing.desktop:8
 msgctxt "Name"
@@ -12361,6 +12399,25 @@ msgstr ""
 msgctxt "Name"
 msgid "Shortcuts and Gestures"
 msgstr "কংকরার প্রোফাইল"
+
+#: workspace/systemsettings/categories/settings-startup-and-shutdown.desktop:8
+msgctxt "Name"
+msgid "Startup and Shutdown"
+msgstr ""
+
+#: workspace/systemsettings/categories/settings-system-administration.desktop:9
+#, fuzzy
+msgctxt "Name"
+msgid "System Administration"
+msgstr "স্যাম সিস্টেম-অ্যাডমিনস্ট্রেশন"
+
+#: workspace/systemsettings/categories/settings-workspace-appearance-and-behavior.desktop:9
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "Application Launcher"
+msgctxt "Name"
+msgid "Workspace Appearance and Behavior"
+msgstr "অ্যাপলিকেশন লঞ্চার"
 
 #: workspace/systemsettings/categories/systemsettingscategory.desktop:4
 msgctxt "Name"
@@ -12476,6 +12533,50 @@ msgstr ""
 msgctxt "Name"
 msgid "The Rings of Saturn"
 msgstr ""
+
+#~ msgctxt "Name"
+#~ msgid "Login Manager"
+#~ msgstr "লগ-ইন ম্যানেজার"
+
+#~ msgctxt "Name"
+#~ msgid "Windows"
+#~ msgstr "উইণ্ডো"
+
+#~ msgctxt "Name"
+#~ msgid "Multiple Desktops"
+#~ msgstr "একাধিক ডেস্কটপ"
+
+#, fuzzy
+#~ msgctxt "Name"
+#~ msgid "Window-Specific"
+#~ msgstr "উইণ্ডো-প্রতি সেটিংস"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Delete Window"
+#~ msgctxt "Name"
+#~ msgid "Navigate Through Windows"
+#~ msgstr "উইণ্ডো বন্ধ করো"
+
+#~ msgctxt "Name"
+#~ msgid "About Me"
+#~ msgstr "আমার সম্বন্ধে"
+
+#~ msgctxt "Name"
+#~ msgid "Computer Administration"
+#~ msgstr "কমপিউটার অ্যাডমিনস্ট্রেশন"
+
+#~ msgctxt "Name"
+#~ msgid "Keyboard & Mouse"
+#~ msgstr "কীবোর্ড ও মাউস"
+
+#~ msgctxt "Name"
+#~ msgid "Personal"
+#~ msgstr "ব্যক্তিগত"
+
+#~ msgctxt "Name"
+#~ msgid "Regional & Language"
+#~ msgstr "এলাকা ও ভাষা"
 
 #~ msgctxt "Name"
 #~ msgid "System Notifications"
@@ -13423,10 +13524,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Broadcast 2000"
 #~ msgstr "ব্রডকাস্ট ২০০০"
-
-#~ msgctxt "GenericName"
-#~ msgid "Audio and Video IDE"
-#~ msgstr "অডিও এবং ভিডিও IDE"
 
 #~ msgctxt "Name"
 #~ msgid "DJPlay"
@@ -15821,11 +15918,6 @@ msgstr ""
 
 #, fuzzy
 #~ msgctxt "Name"
-#~ msgid "System Administration"
-#~ msgstr "স্যাম সিস্টেম-অ্যাডমিনস্ট্রেশন"
-
-#, fuzzy
-#~ msgctxt "Name"
 #~ msgid "Settings-Modules"
 #~ msgstr "সেটিংস"
 
@@ -16221,11 +16313,6 @@ msgstr ""
 #~ msgctxt "Name"
 #~ msgid "Konqueror Profiles"
 #~ msgstr "কংকরার প্রোফাইল"
-
-#, fuzzy
-#~ msgctxt "Name"
-#~ msgid "Terminal Sessions"
-#~ msgstr "টার্মিনাল অ্যাপলিকেশন"
 
 #, fuzzy
 #~ msgctxt "Comment"
