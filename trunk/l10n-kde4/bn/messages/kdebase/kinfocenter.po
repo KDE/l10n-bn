@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-03-15 04:25+0100\n"
+"POT-Creation-Date: 2010-04-20 05:13+0200\n"
 "PO-Revision-Date: 2009-01-05 20:48-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -20,991 +20,125 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 0.2\n"
 
-#: base/info_aix.cpp:54
-msgid "Name"
-msgstr "নাম"
-
-#: base/info_aix.cpp:55
-msgid "Status"
-msgstr "অবস্থা"
-
-#: base/info_aix.cpp:56
-msgid "Location"
-msgstr "অবস্থান"
-
-#: base/info_aix.cpp:57 base/info_fbsd.cpp:305
-msgid "Description"
-msgstr "বর্ণনা"
-
-#: base/info_aix.cpp:177 base/info_hpux.cpp:163 base/info_hpux.cpp:438
-#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
-#: base/os_base.h:203
+#: infocenter.cpp:28
 #, fuzzy
-#| msgid "Device Information"
-msgid "Information"
-msgstr "ডিভাইস তথ্য"
+#| msgid "KDE Info Center"
+msgctxt "Main window title"
+msgid "KInfocenter"
+msgstr "কে.ডি.ই তথ্য কেন্দ্র"
 
-#: base/info_aix.cpp:178 base/info_hpux.cpp:164 base/info_hpux.cpp:439
-#: base/info_linux.cpp:113 base/info_netbsd.cpp:53 base/info_openbsd.cpp:49
-#: base/info_solaris.cpp:697 base/os_base.h:203
-msgid "Value"
-msgstr "মান"
-
-#: base/info_aix.cpp:307
+#: infocenter.cpp:104
 #, fuzzy
-#| msgid "MB"
-msgctxt "Mebibyte"
-msgid "MiB "
-msgstr "এম-বি"
+#| msgid "About Current Module"
+msgctxt "Information about current module located in about menu"
+msgid "About Current Information Module"
+msgstr "সক্রিয় মডিউল সম্বন্ধে"
 
-#: base/info_aix.cpp:312 base/info_fbsd.cpp:277 base/info_fbsd.cpp:305
-#: base/info_hpux.cpp:361 base/info_linux.cpp:476 base/info_netbsd.cpp:161
-#: base/info_netbsd.cpp:273 base/info_openbsd.cpp:172
-#: base/info_openbsd.cpp:267 base/info_solaris.cpp:174
-msgid "Device"
-msgstr "ডিভাইস"
+#: infocenter.cpp:123
+msgctxt "Help button label"
+msgid "Help"
+msgstr ""
 
-#: base/info_aix.cpp:313 base/info_fbsd.cpp:277 base/info_hpux.cpp:362
-#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
-#: base/info_solaris.cpp:174
-msgid "Mount Point"
-msgstr "মাউন্ট পয়েন্ট"
+#: infocenter.cpp:127
+msgctxt "Help Button ToolTip"
+msgid "Opens help browser for selected module"
+msgstr ""
 
-#: base/info_aix.cpp:314 base/info_fbsd.cpp:277 base/info_hpux.cpp:363
-#: base/info_linux.cpp:476 base/info_netbsd.cpp:273 base/info_openbsd.cpp:267
-#: base/info_solaris.cpp:174
-msgid "FS Type"
-msgstr "FS ধরন"
+#: infocenter.cpp:132
+msgctxt "export button label"
+msgid "Export"
+msgstr ""
 
-#: base/info_aix.cpp:315 base/info_hpux.cpp:364 base/info_linux.cpp:476
-#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
-msgid "Total Size"
-msgstr "মোট মাপ"
+#: infocenter.cpp:136
+msgctxt "Export Button ToolTip"
+msgid "Exports information for selected module"
+msgstr ""
 
-#: base/info_aix.cpp:316 base/info_hpux.cpp:365 base/info_linux.cpp:476
-#: base/info_netbsd.cpp:273 base/info_solaris.cpp:174
-msgid "Free Size"
-msgstr "ফাঁকা মাপ"
+#: infocenter.cpp:177
+#, fuzzy
+msgctxt "Search Bar Click Message"
+msgid "Search"
+msgstr "সন্ধান:"
 
-#: base/info_aix.cpp:334 base/info_aix.cpp:340 base/info_hpux.cpp:383
-#: base/info_hpux.cpp:389
-msgid "n/a"
-msgstr "n/a"
+#: infocenter.cpp:259
+msgid "Export of the module has produced no output."
+msgstr ""
 
-#: base/info_fbsd.cpp:81
+#: infocenter.cpp:269
+msgid "Unable to open file to write export information"
+msgstr ""
+
+#: infocenter.cpp:274
 #, kde-format
-msgid "CPU %1: %2, %3 MHz"
-msgstr "সি-পি-ইউ %1: %2, %3 MHz"
+msgid "Export information for %1"
+msgstr ""
 
-#: base/info_fbsd.cpp:83
+#: infocenter.cpp:278
+#, fuzzy
+#| msgid "Information"
+msgid "Information exported"
+msgstr "তথ্য"
+
+#: infokcmmodel.cpp:25
+#, fuzzy
+#| msgid "Information"
+msgid "Information Modules"
+msgstr "তথ্য"
+
+#: kcmcontainer.cpp:110
 #, kde-format
-msgid "CPU %1: %2, unknown speed"
-msgstr "সি-পি-ইউ %1: %2, অজানা গতি"
-
-#: base/info_fbsd.cpp:145
-msgid ""
-"Your sound system could not be queried.  /dev/sndstat does not exist or is "
-"not readable."
-msgstr ""
-"আপনার শব্দব্যবস্থাকে প্রশ্ন করা যাচ্ছে না। /dev/sndstat নেই বা থাকলেও পড়া যাচ্ছে না।"
-
-#: base/info_fbsd.cpp:173
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
-msgstr "SCSI সাবসিস্টেম-কে প্রশ্ন করা যাচ্ছে না। /sbin/camcontrol পাওয়া যায়নি"
-
-#: base/info_fbsd.cpp:178
-msgid ""
-"SCSI subsystem could not be queried: /sbin/camcontrol could not be executed"
-msgstr "SCSI সাবসিস্টেম-কে প্রশ্ন করা যাচ্ছে না। /sbin/camcontrol চালানো যায়নি"
-
-#: base/info_fbsd.cpp:226
-msgid ""
-"Could not find any programs with which to query your system's PCI information"
-msgstr "আপনার সিস্টেমের পি-সি-আই তথ্য অনুসন্ধান করার মতন কোন প্রোগ্রাম নেই "
-
-#: base/info_fbsd.cpp:243
-#, kde-format
-msgid "PCI subsystem could not be queried: %1 could not be executed"
-msgstr "পি-সি-আই সাবসিস্টেম অনুসন্ধান করা যায়নি: %1 রান করা যায়নি"
-
-#: base/info_fbsd.cpp:255
-msgid "The PCI subsystem could not be queried, this may need root privileges."
-msgstr ""
-"পি-সি-আই সাবসিস্টেম অনুসন্ধান করা যায়নি, এর জন্য root অধিকার প্রয়োজন হতে পারে।"
-
-#: base/info_fbsd.cpp:270
-msgid "Could not check file system info: "
-msgstr "ফাইল সিস্টেম তথ্য পরীক্ষা করা যায়নি:"
-
-#: base/info_fbsd.cpp:277 base/info_linux.cpp:476 base/info_openbsd.cpp:267
-#: base/info_solaris.cpp:174
-msgid "Mount Options"
-msgstr "মাউন্ট অপশনস"
-
-#: base/info_hpux.cpp:129
-msgid "PA-RISC Processor"
-msgstr "PA-RISC প্রসেসর"
-
-#: base/info_hpux.cpp:131
-msgid "PA-RISC Revision"
-msgstr "PA-RISC পুনর্বিবেচনা            "
-
-#: base/info_hpux.cpp:168
-msgid "Machine"
-msgstr "মেশিন"
-
-#: base/info_hpux.cpp:175
-msgid "Model"
-msgstr "মডেল"
-
-#: base/info_hpux.cpp:182
-msgid "Machine Identification Number"
-msgstr "মেশিন পরিচয় সংখ্যা"
-
-#: base/info_hpux.cpp:183 base/info_solaris.cpp:619
-msgid "(none)"
-msgstr "(কিছু নয়)"
-
-#: base/info_hpux.cpp:188
-msgid "Number of Active Processors"
-msgstr "সক্রিয় প্রসেসারের সংখ্যা"
-
-#: base/info_hpux.cpp:192
-msgid "CPU Clock"
-msgstr "সি-পি-ইউ ঘড়ি"
-
-#: base/info_hpux.cpp:193 base/info_solaris.cpp:69
-msgid "MHz"
-msgstr "মেগা-হার্জ"
-
-#: base/info_hpux.cpp:226
-msgid "(unknown)"
-msgstr "(অজানা)"
-
-#: base/info_hpux.cpp:230
-msgid "CPU Architecture"
-msgstr "সিপিউ নকশা"
-
-#: base/info_hpux.cpp:236
-msgid "enabled"
-msgstr "সক্রিয়"
-
-#: base/info_hpux.cpp:236
-msgid "disabled"
-msgstr "নিষ্ক্রিয়"
-
-#: base/info_hpux.cpp:238
-#, fuzzy
-msgid "Numerical Coprocessor (FPU)"
-msgstr "Numerical Coprocessor (FPU)"
-
-#: base/info_hpux.cpp:242 base/info_linux.cpp:334 base/info_linux.cpp:445
-#, fuzzy
-#| msgid "MB"
-msgctxt "Mebibyte"
-msgid "MiB"
-msgstr "এম-বি"
-
-#: base/info_hpux.cpp:243
-msgid "Total Physical Memory"
-msgstr "মোট ভৌতিক মেমরি"
-
-#: base/info_hpux.cpp:245
-#, fuzzy
-#| msgid "Bytes"
-msgid " Bytes"
-msgstr "বাইট"
-
-#: base/info_hpux.cpp:246
-msgid "Size of One Page"
-msgstr "একটি পৃষ্ঠার মাপ"
-
-#: base/info_hpux.cpp:356
-msgid "MB"
-msgstr "এম-বি"
-
-#: base/info_hpux.cpp:441
-msgid "Audio Name"
-msgstr "অডিও নাম"
-
-#: base/info_hpux.cpp:442
-msgid "Vendor"
-msgstr "বিক্রেতা"
-
-#: base/info_hpux.cpp:443
-msgid "Alib Version"
-msgstr "এ-লিব সংস্করণ"
-
-#: base/info_hpux.cpp:447
-msgid "Protocol Revision"
-msgstr "প্রোটোকল পুনর্বিবেচনা"
-
-#: base/info_hpux.cpp:451
-msgid "Vendor Number"
-msgstr "বিক্রেতা সংখ্যা"
-
-#: base/info_hpux.cpp:454
-#, fuzzy
-msgid "Release"
-msgstr "মুক্তি দেওয়া"
-
-#: base/info_hpux.cpp:457
-msgid "Byte Order"
-msgstr "বাইট-এর ক্রম  "
-
-#: base/info_hpux.cpp:458
-msgid "ALSBFirst (LSB)"
-msgstr "ALSBFirst (LSB)"
-
-#: base/info_hpux.cpp:459
-msgid "AMSBFirst (MSB)"
-msgstr "AMSBFirst (MSB)"
-
-#: base/info_hpux.cpp:460
-msgid "Invalid Byteorder."
-msgstr "অবৈধ বাইট-অর্ডার। "
-
-#: base/info_hpux.cpp:462
-msgid "Bit Order"
-msgstr "বিট-এর ক্রম "
-
-#: base/info_hpux.cpp:464
-msgid "ALeastSignificant (LSB)"
-msgstr "ALeastSignificant (LSB)"
-
-#: base/info_hpux.cpp:466
-msgid "AMostSignificant (MSB)"
-msgstr "AMostSignificant (MSB)"
-
-#: base/info_hpux.cpp:466
-msgid "Invalid Bitorder."
-msgstr "অবৈধ বিট-অর্ডার।"
-
-#: base/info_hpux.cpp:468
-msgid "Data Formats"
+msgid "%1  ( %2 )"
 msgstr ""
 
-#: base/info_hpux.cpp:475
-msgid "Sampling Rates"
-msgstr "নমুনা নির্ধারনের হার "
-
-#: base/info_hpux.cpp:481
-msgid "Input Sources"
-msgstr ""
-
-#: base/info_hpux.cpp:483
-#, fuzzy
-msgid "Mono-Microphone"
-msgstr "Mono-Microphone"
-
-#: base/info_hpux.cpp:485
-#, fuzzy
-msgid "Mono-Auxiliary"
-msgstr "Mono-Auxiliary"
-
-#: base/info_hpux.cpp:487
-#, fuzzy
-msgid "Left-Microphone"
-msgstr "Left-Microphone"
-
-#: base/info_hpux.cpp:489
-#, fuzzy
-msgid "Right-Microphone"
-msgstr "Right-Microphone"
-
-#: base/info_hpux.cpp:491
-#, fuzzy
-msgid "Left-Auxiliary"
-msgstr "Left-Auxiliary"
-
-#: base/info_hpux.cpp:493
-#, fuzzy
-msgid "Right-Auxiliary"
-msgstr "Right-Auxiliary"
-
-#: base/info_hpux.cpp:496
-#, fuzzy
-msgid "Input Channels"
-msgstr "ইনপুট চ্যানেল"
-
-#: base/info_hpux.cpp:498 base/info_hpux.cpp:522
-#, fuzzy
-msgid "Mono-Channel"
-msgstr "Mono-Channel"
-
-#: base/info_hpux.cpp:500 base/info_hpux.cpp:524
-#, fuzzy
-msgid "Left-Channel"
-msgstr "Left-Channel"
-
-#: base/info_hpux.cpp:502 base/info_hpux.cpp:526
-#, fuzzy
-msgid "Right-Channel"
-msgstr "Right-Channel"
-
-#: base/info_hpux.cpp:505
-#, fuzzy
-msgid "Output Destinations"
-msgstr "আউটপুট গন্তব্য"
-
-#: base/info_hpux.cpp:507
-#, fuzzy
-msgid "Mono-InternalSpeaker"
-msgstr "Mono-InternalSpeaker"
-
-#: base/info_hpux.cpp:509
-#, fuzzy
-msgid "Mono-Jack"
-msgstr "Mono-Jack"
-
-#: base/info_hpux.cpp:511
-#, fuzzy
-msgid "Left-InternalSpeaker"
-msgstr "Left-InternalSpeaker"
-
-#: base/info_hpux.cpp:513
-#, fuzzy
-msgid "Right-InternalSpeaker"
-msgstr "Right-InternalSpeaker"
-
-#: base/info_hpux.cpp:515
-#, fuzzy
-msgid "Left-Jack"
-msgstr "Left-Jack"
-
-#: base/info_hpux.cpp:517
-#, fuzzy
-msgid "Right-Jack"
-msgstr "Right-Jack"
-
-#: base/info_hpux.cpp:520
-#, fuzzy
-msgid "Output Channels"
-msgstr "আউটপুট চ্যানেল"
-
-#: base/info_hpux.cpp:529
-#, fuzzy
-msgid "Gain"
-msgstr "লাভ"
-
-#: base/info_hpux.cpp:530
-#, fuzzy
-msgid "Input Gain Limits"
-msgstr "ইনপুট লাভ সীমা"
-
-#: base/info_hpux.cpp:532
-#, fuzzy
-msgid "Output Gain Limits"
-msgstr "আউটপুট লাভ সীমা"
-
-#: base/info_hpux.cpp:535
-#, fuzzy
-msgid "Monitor Gain Limits"
-msgstr "মনিটর লাভ সীমা"
-
-#: base/info_hpux.cpp:538
-#, fuzzy
-msgid "Gain Restricted"
-msgstr "লাভ নিয়ন্ত্রিত"
-
-#: base/info_hpux.cpp:542
-msgid "Lock"
-msgstr "লক"
-
-#: base/info_hpux.cpp:544
-#, fuzzy
-msgid "Queue Length"
-msgstr "সারি দৈর্ঘ্য"
-
-#: base/info_hpux.cpp:546
-#, fuzzy
-msgid "Block Size"
-msgstr "বনধ্ মাপ"
-
-#: base/info_hpux.cpp:548
-msgid "Stream Port (decimal)"
-msgstr "Stream Port (decimal)"
-
-#: base/info_linux.cpp:130
-msgid "DMA-Channel"
-msgstr "DMA-Channel"
-
-#: base/info_linux.cpp:130 base/info_linux.cpp:181
-#, fuzzy
-msgid "Used By"
-msgstr "ের মধ্যে ব্যবহৃত"
-
-#: base/info_linux.cpp:181
-msgid "I/O-Range"
-msgstr "I/O-Range"
-
-#: base/info_linux.cpp:206
-msgid "Devices"
-msgstr "ডিভাইস"
-
-#: base/info_linux.cpp:206
-msgid "Major Number"
-msgstr "Major Number"
-
-#: base/info_linux.cpp:206
-msgid "Minor Number"
-msgstr "Minor Number"
-
-#: base/info_linux.cpp:220
-msgid "Character Devices"
-msgstr "Character Devices"
-
-#: base/info_linux.cpp:227
-msgid "Block Devices"
-msgstr "ব্লক ডিভাইস"
-
-#: base/info_linux.cpp:262
-msgid "Miscellaneous Devices"
-msgstr "বিবিধ ডিভাইস"
-
-#: base/info_netbsd.cpp:161 base/info_openbsd.cpp:172
-msgid "IRQ"
-msgstr "IRQ"
-
-#: base/info_netbsd.cpp:179 base/info_openbsd.cpp:185
-msgid "No PCI devices found."
-msgstr "কোনও পি-সি-আই ডিভাইস খুঁজে পাওয়া যায়নি।"
-
-#: base/info_netbsd.cpp:188 base/info_openbsd.cpp:194
-msgid "No I/O port devices found."
-msgstr "কোনও আই/ও পোর্ট ডিভাইস খুঁজে পাওয়া যায়নি।"
-
-#: base/info_netbsd.cpp:199 base/info_openbsd.cpp:203
-msgid "No audio devices found."
-msgstr "কোনও অডিও ডিভাইস খুঁজে পাওয়া যায়নি।"
-
-#: base/info_netbsd.cpp:237 base/info_openbsd.cpp:247
-msgid "No SCSI devices found."
-msgstr "কোনও SCSI ডিভাইস খুঁজে পাওয়া যায়নি।"
-
-#: base/info_netbsd.cpp:273
-msgid "Total Nodes"
-msgstr "মোট নোড"
-
-#: base/info_netbsd.cpp:273
-msgid "Free Nodes"
-msgstr "ফাঁকা নোড"
-
-#: base/info_netbsd.cpp:273
-msgid "Flags"
-msgstr "ফ্ল্যাগ"
-
-#: base/info_openbsd.cpp:261
-msgid "Unable to run /sbin/mount."
-msgstr "/sbin/mount চালাতে অক্ষম।"
-
-#: base/info_osx.cpp:121
-#, fuzzy
-#| msgid "Device Name: %1"
-msgid "Device Name"
-msgstr "ডিভাইস নাম: %1"
-
-#: base/info_osx.cpp:131
-#, fuzzy
-#| msgid "Manufacturer: %1"
-msgid "Manufacturer"
-msgstr "প্রস্তুতকারক: %1"
-
-#: base/info_solaris.cpp:69
-#, fuzzy
-msgid "Instance"
-msgstr "ঘটনা"
-
-#: base/info_solaris.cpp:69
-msgid "CPU Type"
-msgstr "সি-পি-ইউ ধরন"
-
-#: base/info_solaris.cpp:69
-#, fuzzy
-#| msgid "CPU Type"
-msgid "FPU Type"
-msgstr "সি-পি-ইউ ধরন"
-
-#: base/info_solaris.cpp:69
-#, fuzzy
-#| msgid "Status"
-msgid "State"
-msgstr "অবস্থা"
-
-#: base/info_solaris.cpp:174
-#, fuzzy
-msgid "Mount Time"
-msgstr "মাউন্ট সময়"
-
-#: base/info_solaris.cpp:444
-msgid "character special"
-msgstr "character special"
-
-#: base/info_solaris.cpp:446
-msgid "block special"
-msgstr "block special"
-
-#: base/info_solaris.cpp:449
-#, fuzzy
-#| msgid "Spectype:"
-msgctxt "Can be either character special or block special"
-msgid "Special type:"
-msgstr "Spectype:"
-
-#: base/info_solaris.cpp:462
-msgid "Nodetype:"
-msgstr "Nodetype:"
-
-#: base/info_solaris.cpp:469
-msgid "Major/Minor:"
-msgstr "Major/Minor:"
-
-#: base/info_solaris.cpp:540
-msgid "(no value)"
-msgstr "(কোনও মূল্য নয়)"
-
-#: base/info_solaris.cpp:605
-msgid "Driver Name:"
-msgstr "ড্রাইভার-এর নাম:"
-
-#: base/info_solaris.cpp:607
-msgid "(driver not attached)"
-msgstr "(ড্রাইভার সংযুক্ত নয়)"
-
-#: base/info_solaris.cpp:614
-#, fuzzy
-msgid "Binding Name:"
-msgstr "Binding নাম:"
-
-#: base/info_solaris.cpp:629
-#, fuzzy
-msgid "Compatible Names:"
-msgstr "সঙ্গতিপূর্ণ নামগুলো:"
-
-#: base/info_solaris.cpp:633
-msgid "Physical Path:"
-msgstr ""
-
-#: base/info_solaris.cpp:643
-msgid "Properties"
-msgstr "বৈশিষ্ট্যাবলী"
-
-#: base/info_solaris.cpp:657
-msgid "Type:"
-msgstr "ধরন:"
-
-#: base/info_solaris.cpp:661
-msgid "Value:"
-msgstr "মান:"
-
-#: base/info_solaris.cpp:672
-msgid "Minor Nodes"
-msgstr "মাইনর নোড"
-
-#: base/info_solaris.cpp:697
-msgid "Device Information"
-msgstr "ডিভাইস তথ্য"
-
-#: base/os_base.h:36
-#, fuzzy
-#| msgid "ALSBFirst (LSB)"
-msgid "LSBFirst"
-msgstr "ALSBFirst (LSB)"
-
-#: base/os_base.h:38
-#, fuzzy
-#| msgid "AMSBFirst (MSB)"
-msgid "MSBFirst"
-msgstr "AMSBFirst (MSB)"
-
-#: base/os_base.h:40
-#, kde-format
-msgid "Unknown Order %1"
-msgstr ""
-
-#: base/os_base.h:44
-#, fuzzy, kde-format
-#| msgid "Bytes"
-msgid "1 Bit"
-msgid_plural "%1 Bits"
-msgstr[0] "বাইট"
-msgstr[1] "বাইট"
-
-#: base/os_base.h:50
-#, fuzzy
-#| msgid "Bytes"
-msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
-msgid "1 Byte"
-msgstr "বাইট"
-
-#: base/os_base.h:52
-#, fuzzy, kde-format
-#| msgid "Bytes"
-msgctxt "plural form: '%1 Bytes'"
-msgid "%1 Bytes"
-msgstr "বাইট"
-
-#: base/os_base.h:90
-#, kde-format
-msgid "Screen # %1"
-msgstr ""
-
-#: base/os_base.h:92
-msgid "(Default Screen)"
-msgstr ""
-
-#: base/os_base.h:101
-msgid "Dimensions"
-msgstr ""
-
-#: base/os_base.h:101
-#, kde-format
-msgid "%1 x %2 Pixels (%3 x %4 mm)"
-msgstr ""
-
-#: base/os_base.h:105
-msgid "Resolution"
-msgstr ""
-
-#: base/os_base.h:105
-#, kde-format
-msgid "%1 x %2 dpi"
-msgstr ""
-
-#: base/os_base.h:122
-#, kde-format
-msgid "Depths (%1)"
-msgstr ""
-
-#: base/os_base.h:128
-msgid "Root Window ID"
-msgstr ""
-
-#: base/os_base.h:132
-msgid "Depth of Root Window"
-msgstr ""
-
-#: base/os_base.h:132
-#, kde-format
-msgid "%1 plane"
-msgid_plural "%1 planes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: base/os_base.h:136
-#, fuzzy
-#| msgid "Number of Active Processors"
-msgid "Number of Colormaps"
-msgstr "সক্রিয় প্রসেসারের সংখ্যা"
-
-#: base/os_base.h:136
-#, kde-format
-msgid "minimum %1, maximum %2"
-msgstr ""
-
-#: base/os_base.h:140
-#, fuzzy
-#| msgid "Number of Active Processors"
-msgid "Default Colormap"
-msgstr "সক্রিয় প্রসেসারের সংখ্যা"
-
-#: base/os_base.h:144
-#, fuzzy
-#| msgid "Number of Active Processors"
-msgid "Default Number of Colormap Cells"
-msgstr "সক্রিয় প্রসেসারের সংখ্যা"
-
-#: base/os_base.h:148
-msgid "Preallocated Pixels"
-msgstr ""
-
-#: base/os_base.h:148
-#, kde-format
-msgid "Black %1, White %2"
-msgstr ""
-
-#: base/os_base.h:151
-msgid "Yes"
-msgstr ""
-
-#: base/os_base.h:152
-msgid "No"
-msgstr ""
-
-#: base/os_base.h:155
-#, fuzzy
-#| msgid "Mount Options"
-msgid "Options"
-msgstr "মাউন্ট অপশনস"
-
-#: base/os_base.h:155
-msgid "When mapped"
-msgstr ""
-
-#: base/os_base.h:155
-#, kde-format
-msgid "backing-store: %1, save-unders: %2"
-msgstr ""
-
-#: base/os_base.h:161
-msgid "Largest Cursor"
-msgstr ""
-
-#: base/os_base.h:163
-msgid "unlimited"
-msgstr ""
-
-#: base/os_base.h:169
-msgid "Current Input Event Mask"
-msgstr ""
-
-#: base/os_base.h:175
-#, kde-format
-msgid "Event = %1"
-msgstr ""
-
-#: base/os_base.h:208
-#, fuzzy
-#| msgid "Device Information"
-msgid "Server Information"
-msgstr "ডিভাইস তথ্য"
-
-#: base/os_base.h:214
-msgid "Name of the Display"
-msgstr ""
-
-#: base/os_base.h:218
-#, fuzzy
-#| msgid "Vendor"
-msgid "Vendor String"
-msgstr "বিক্রেতা"
-
-#: base/os_base.h:222
-#, fuzzy
-#| msgid "Vendor Number"
-msgid "Vendor Release Number"
-msgstr "বিক্রেতা সংখ্যা"
-
-#: base/os_base.h:226
-#, fuzzy
-#| msgid "Vendor Number"
-msgid "Version Number"
-msgstr "বিক্রেতা সংখ্যা"
-
-#: base/os_base.h:230
-msgid "Available Screens"
-msgstr ""
-
-#: base/os_base.h:240
-msgid "Supported Extensions"
-msgstr ""
-
-#: base/os_base.h:255
-msgid "Supported Pixmap Formats"
-msgstr ""
-
-#: base/os_base.h:262
-#, kde-format
-msgid "Pixmap Format #%1"
-msgstr ""
-
-#: base/os_base.h:262
-#, kde-format
-msgid "%1 BPP, Depth: %2, Scanline padding: %3"
-msgstr ""
-
-#: base/os_base.h:274
-msgid "Maximum Request Size"
-msgstr ""
-
-#: base/os_base.h:278
-#, fuzzy
-#| msgid "Ev Buffer Size"
-msgid "Motion Buffer Size"
-msgstr "Ev Buffer Size"
-
-#: base/os_base.h:282
-msgid "Bitmap"
-msgstr ""
-
-#: base/os_base.h:286
-msgid "Unit"
-msgstr ""
-
-#: base/os_base.h:290
-#, fuzzy
-#| msgid "Bit Order"
-msgid "Order"
-msgstr "বিট-এর ক্রম "
-
-#: base/os_base.h:294
-msgid "Padding"
-msgstr ""
-
-#: base/os_base.h:298
-#, fuzzy
-#| msgid "Byte Order"
-msgid "Image Byte Order"
-msgstr "বাইট-এর ক্রম  "
-
-#: base/os_current.h:49 base/os_current.h:64 base/os_current.h:95
-#: base/os_current.h:109 base/os_current.h:123 base/os_current.h:137
-#: base/os_current.h:152 base/os_current.h:166 base/os_current.h:180
-msgid "This system may not be completely supported yet."
-msgstr ""
-
-#: aboutwidget.cpp:38 main.cpp:91
+#: main.cpp:34
 msgid "KDE Info Center"
 msgstr "কে.ডি.ই তথ্য কেন্দ্র"
 
-#: aboutwidget.cpp:40
-msgid "Get system and desktop environment information"
-msgstr "সিস্টেম এবং ডেস্কটপ এনভায়রনমেন্ট তথ্য পড়ো"
-
-#: aboutwidget.cpp:42
-msgid ""
-"Welcome to the \"KDE Info Center\", a central place to find information "
-"about your computer system."
-msgstr ""
-"\"কে.ডি.ই তথ্য কেন্দ্রে\" অভ্যর্থনা। এখানে আপনি আপনার কমপিউটার সম্বন্ধে নানান তথ্য "
-"জানতে পারবেন।"
-
-#: aboutwidget.cpp:46
-msgid ""
-"Click on the \"Help\" tab on the left to view help for the active control "
-"module. Use the \"Search\" tab if you are unsure where to look for a "
-"particular configuration option."
-msgstr ""
-"সক্রিয় নিয়ন্ত্রণ মডিউলটি সম্বন্ধে জানতে বাঁদিকের \"সহায়তা\" ট্যাবে ক্লিক করুন। বিশেষ "
-"কোনো একটি কনফিগারেশন অপশন কোথায় পাওয়া যাবে সে ব্যপারে সন্দেহ থাকলে \"সন্ধান\" "
-"ট্যাবটি ব্যবহার করুন।"
-
-#: aboutwidget.cpp:52
-msgid "KDE version:"
-msgstr "কে.ডি.ই সংস্করণ:"
-
-#: aboutwidget.cpp:53
-msgid "User:"
-msgstr "ব্যবহারকারী:"
-
-#: aboutwidget.cpp:54
-msgid "Hostname:"
-msgstr "হোস্টনেম:"
-
-#: aboutwidget.cpp:55
-msgid "System:"
-msgstr "সিস্টেম:"
-
-#: aboutwidget.cpp:56
-msgid "Release:"
-msgstr "প্রকাশ:"
-
-#: aboutwidget.cpp:57
-msgid "Machine:"
-msgstr "যন্ত্র:"
-
-#: dockcontainer.cpp:70
-#, fuzzy, kde-format
-msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
-msgstr "<p>পূর্ণ পরামর্শ করতে এখানে ক্লিক করো<a href=\"%1\">নিজে হাতে</a>।</p>"
-
-#: dockcontainer.cpp:75
-msgid ""
-"<h1>KDE Info Center</h1>There is no quick help available for the active info "
-"module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</a> to "
-"read the general Info Center manual."
-msgstr ""
-"<h1>কে.ডি.ই তথ্য কেন্দ্র</h1>সক্রিয় তথ্য মডিউলটির জন্য আলাদা করে কোনো সাহায্য পাওয়া "
-"যাচ্ছে না। <br /><br />তথ্য কেন্দ্রের সম্পূর্ণ ম্যানুয়ালটি পড়তে <a href = "
-"\"kinfocenter/index.html\"> এখানে</a> ক্লিক করুন।"
-
-#: dockcontainer.cpp:92
-msgid "<big><b>Loading...</b></big>"
-msgstr "<big><b>লোড করছি...</b></big>"
-
-#: dockcontainer.cpp:148
-msgid ""
-"There are unsaved changes in the active module.\n"
-"Do you want to apply the changes before running the new module or discard "
-"the changes?"
-msgstr ""
-"সক্রিয় মডিউলে কিছু পরিবর্তন এখনো সংরক্ষিত হয়নি।\n"
-"নতুন মডিউলটি চালাবার আগে আপনি এই পরিবর্তনগুলি প্রয়োগ করতে চান, না বর্তমান অবস্থাই "
-"রেখে দিতে চান? "
-
-#: dockcontainer.cpp:150
-#, fuzzy
-#| msgid ""
-#| "There are unsaved changes in the active module.\n"
-#| "Do you want to apply the changes before exiting the Control Center or "
-#| "discard the changes?"
-msgid ""
-"There are unsaved changes in the active module.\n"
-"Do you want to apply the changes before exiting the System Settings or "
-"discard the changes?"
-msgstr ""
-"সক্রিয় মডিউলে কিছু পরিবর্তন এখনো সংরক্ষিত হয়নি।\n"
-"নিয়ন্ত্রণ কেন্দ্র থেকে বেরোবার আগে আপনি এই পরিবর্তনগুলি প্রয়োগ করতে চান, না বর্তমান "
-"অবস্থাই রেখে দিতে চান?"
-
-#: dockcontainer.cpp:152
-msgid "Unsaved Changes"
-msgstr "পরিবর্তন অসংরক্ষিত "
-
-#: indexwidget.cpp:45
-msgid "Filter:"
-msgstr "ফিল্টার:"
-
-#: main.cpp:92
+#: main.cpp:35
 msgid "The KDE Info Center"
 msgstr "কে.ডি.ই তথ্য কেন্দ্র"
 
-#: main.cpp:93
+#: main.cpp:36
 #, fuzzy
 #| msgid "(c) 1998-2004, The KDE Control Center Developers"
-msgid "(c) 1998-2004, The KDE Control Center Developers"
+msgid "(c) 2009-2010, The KDE SC KInfocenter Development Team"
 msgstr "(c) ১৯৯৮-২০০৪, কে.ডি.ই নিয়ন্ত্রণ কেন্দ্র ডেভেলপারবৃন্দ"
 
-#: main.cpp:98
-msgid "Nicolas Ternisien"
-msgstr "Nicolas Ternisien"
+#: main.cpp:41
+msgid "David Hubner"
+msgstr ""
 
-#: main.cpp:98
+#: main.cpp:41
 msgid "Current Maintainer"
 msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
 
-#: main.cpp:99
+#: main.cpp:42
 msgid "Helge Deller"
 msgstr "Helge Deller"
 
-#: main.cpp:99
+#: main.cpp:42
 msgid "Previous Maintainer"
 msgstr "পূর্বতন রক্ষণাবেক্ষণকারী"
 
-#: main.cpp:100
+#: main.cpp:43
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:101
+#: main.cpp:44
 msgid "Matthias Elter"
 msgstr "Matthias Elter"
 
-#: main.cpp:102
+#: main.cpp:45
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:103
+#: main.cpp:46
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: moduletreeview.cpp:43 toplevel.cpp:221
-msgid "General Information"
-msgstr "সাধারণ তথ্য"
-
-#: proxywidget.cpp:51
-msgid "The currently loaded configuration module."
-msgstr "আপাতত লোড করা কনফিগারেশন মডিউল।"
+#: main.cpp:47
+msgid "Nicolas Ternisien"
+msgstr "Nicolas Ternisien"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -1016,38 +150,637 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#: toplevel.cpp:119 toplevel.cpp:150 toplevel.cpp:217
+#: sidepanel.cpp:85
 #, fuzzy
-#| msgid "About Current Module"
-msgid "About Current Module"
-msgstr "সক্রিয় মডিউল সম্বন্ধে"
+#| msgid "Clear search"
+msgid "Clear Search"
+msgstr "সন্ধান ফাঁকা করো"
 
-#: toplevel.cpp:126 toplevel.cpp:158 toplevel.cpp:223
-msgid "&Report Bug..."
-msgstr "বা&গ রিপোর্ট..."
+#: sidepanel.cpp:88
+msgid "Expand All Categories"
+msgstr ""
 
-#: toplevel.cpp:146
-#, kde-format
-msgctxt "Help menu->about <modulename>"
-msgid "About %1"
-msgstr "%1 সম্বন্ধে"
+#: sidepanel.cpp:91
+msgid "Collapse All Categories"
+msgstr ""
 
-#: toplevel.cpp:160
-#, kde-format
-msgid "Report Bug on Module %1..."
-msgstr "%1 মডিউল সম্বন্ধে বাগ রিপোর্ট..."
+#~ msgid "Name"
+#~ msgstr "নাম"
+
+#~ msgid "Status"
+#~ msgstr "অবস্থা"
+
+#~ msgid "Location"
+#~ msgstr "অবস্থান"
+
+#~ msgid "Description"
+#~ msgstr "বর্ণনা"
 
 #, fuzzy
-#~| msgid "KDE Info Center"
-#~ msgctxt "Main window title"
-#~ msgid "KInfocenter"
-#~ msgstr "কে.ডি.ই তথ্য কেন্দ্র"
+#~| msgid "Device Information"
+#~ msgid "Information"
+#~ msgstr "ডিভাইস তথ্য"
+
+#~ msgid "Value"
+#~ msgstr "মান"
 
 #, fuzzy
-#~| msgid "Information"
-#~ msgctxt "List header topic"
-#~ msgid "Information Modules"
-#~ msgstr "তথ্য"
+#~| msgid "MB"
+#~ msgctxt "Mebibyte"
+#~ msgid "MiB "
+#~ msgstr "এম-বি"
+
+#~ msgid "Device"
+#~ msgstr "ডিভাইস"
+
+#~ msgid "Mount Point"
+#~ msgstr "মাউন্ট পয়েন্ট"
+
+#~ msgid "FS Type"
+#~ msgstr "FS ধরন"
+
+#~ msgid "Total Size"
+#~ msgstr "মোট মাপ"
+
+#~ msgid "Free Size"
+#~ msgstr "ফাঁকা মাপ"
+
+#~ msgid "n/a"
+#~ msgstr "n/a"
+
+#~ msgid "CPU %1: %2, %3 MHz"
+#~ msgstr "সি-পি-ইউ %1: %2, %3 MHz"
+
+#~ msgid "CPU %1: %2, unknown speed"
+#~ msgstr "সি-পি-ইউ %1: %2, অজানা গতি"
+
+#~ msgid ""
+#~ "Your sound system could not be queried.  /dev/sndstat does not exist or "
+#~ "is not readable."
+#~ msgstr ""
+#~ "আপনার শব্দব্যবস্থাকে প্রশ্ন করা যাচ্ছে না। /dev/sndstat নেই বা থাকলেও পড়া যাচ্ছে "
+#~ "না।"
+
+#~ msgid ""
+#~ "SCSI subsystem could not be queried: /sbin/camcontrol could not be found"
+#~ msgstr "SCSI সাবসিস্টেম-কে প্রশ্ন করা যাচ্ছে না। /sbin/camcontrol পাওয়া যায়নি"
+
+#~ msgid ""
+#~ "SCSI subsystem could not be queried: /sbin/camcontrol could not be "
+#~ "executed"
+#~ msgstr "SCSI সাবসিস্টেম-কে প্রশ্ন করা যাচ্ছে না। /sbin/camcontrol চালানো যায়নি"
+
+#~ msgid ""
+#~ "Could not find any programs with which to query your system's PCI "
+#~ "information"
+#~ msgstr "আপনার সিস্টেমের পি-সি-আই তথ্য অনুসন্ধান করার মতন কোন প্রোগ্রাম নেই "
+
+#~ msgid "PCI subsystem could not be queried: %1 could not be executed"
+#~ msgstr "পি-সি-আই সাবসিস্টেম অনুসন্ধান করা যায়নি: %1 রান করা যায়নি"
+
+#~ msgid ""
+#~ "The PCI subsystem could not be queried, this may need root privileges."
+#~ msgstr ""
+#~ "পি-সি-আই সাবসিস্টেম অনুসন্ধান করা যায়নি, এর জন্য root অধিকার প্রয়োজন হতে পারে।"
+
+#~ msgid "Could not check file system info: "
+#~ msgstr "ফাইল সিস্টেম তথ্য পরীক্ষা করা যায়নি:"
+
+#~ msgid "Mount Options"
+#~ msgstr "মাউন্ট অপশনস"
+
+#~ msgid "PA-RISC Processor"
+#~ msgstr "PA-RISC প্রসেসর"
+
+#~ msgid "PA-RISC Revision"
+#~ msgstr "PA-RISC পুনর্বিবেচনা            "
+
+#~ msgid "Machine"
+#~ msgstr "মেশিন"
+
+#~ msgid "Model"
+#~ msgstr "মডেল"
+
+#~ msgid "Machine Identification Number"
+#~ msgstr "মেশিন পরিচয় সংখ্যা"
+
+#~ msgid "(none)"
+#~ msgstr "(কিছু নয়)"
+
+#~ msgid "Number of Active Processors"
+#~ msgstr "সক্রিয় প্রসেসারের সংখ্যা"
+
+#~ msgid "CPU Clock"
+#~ msgstr "সি-পি-ইউ ঘড়ি"
+
+#~ msgid "MHz"
+#~ msgstr "মেগা-হার্জ"
+
+#~ msgid "(unknown)"
+#~ msgstr "(অজানা)"
+
+#~ msgid "CPU Architecture"
+#~ msgstr "সিপিউ নকশা"
+
+#~ msgid "enabled"
+#~ msgstr "সক্রিয়"
+
+#~ msgid "disabled"
+#~ msgstr "নিষ্ক্রিয়"
+
+#, fuzzy
+#~ msgid "Numerical Coprocessor (FPU)"
+#~ msgstr "Numerical Coprocessor (FPU)"
+
+#, fuzzy
+#~| msgid "MB"
+#~ msgctxt "Mebibyte"
+#~ msgid "MiB"
+#~ msgstr "এম-বি"
+
+#~ msgid "Total Physical Memory"
+#~ msgstr "মোট ভৌতিক মেমরি"
+
+#, fuzzy
+#~| msgid "Bytes"
+#~ msgid " Bytes"
+#~ msgstr "বাইট"
+
+#~ msgid "Size of One Page"
+#~ msgstr "একটি পৃষ্ঠার মাপ"
+
+#~ msgid "MB"
+#~ msgstr "এম-বি"
+
+#~ msgid "Audio Name"
+#~ msgstr "অডিও নাম"
+
+#~ msgid "Vendor"
+#~ msgstr "বিক্রেতা"
+
+#~ msgid "Alib Version"
+#~ msgstr "এ-লিব সংস্করণ"
+
+#~ msgid "Protocol Revision"
+#~ msgstr "প্রোটোকল পুনর্বিবেচনা"
+
+#~ msgid "Vendor Number"
+#~ msgstr "বিক্রেতা সংখ্যা"
+
+#, fuzzy
+#~ msgid "Release"
+#~ msgstr "মুক্তি দেওয়া"
+
+#~ msgid "Byte Order"
+#~ msgstr "বাইট-এর ক্রম  "
+
+#~ msgid "ALSBFirst (LSB)"
+#~ msgstr "ALSBFirst (LSB)"
+
+#~ msgid "AMSBFirst (MSB)"
+#~ msgstr "AMSBFirst (MSB)"
+
+#~ msgid "Invalid Byteorder."
+#~ msgstr "অবৈধ বাইট-অর্ডার। "
+
+#~ msgid "Bit Order"
+#~ msgstr "বিট-এর ক্রম "
+
+#~ msgid "ALeastSignificant (LSB)"
+#~ msgstr "ALeastSignificant (LSB)"
+
+#~ msgid "AMostSignificant (MSB)"
+#~ msgstr "AMostSignificant (MSB)"
+
+#~ msgid "Invalid Bitorder."
+#~ msgstr "অবৈধ বিট-অর্ডার।"
+
+#~ msgid "Sampling Rates"
+#~ msgstr "নমুনা নির্ধারনের হার "
+
+#, fuzzy
+#~ msgid "Mono-Microphone"
+#~ msgstr "Mono-Microphone"
+
+#, fuzzy
+#~ msgid "Mono-Auxiliary"
+#~ msgstr "Mono-Auxiliary"
+
+#, fuzzy
+#~ msgid "Left-Microphone"
+#~ msgstr "Left-Microphone"
+
+#, fuzzy
+#~ msgid "Right-Microphone"
+#~ msgstr "Right-Microphone"
+
+#, fuzzy
+#~ msgid "Left-Auxiliary"
+#~ msgstr "Left-Auxiliary"
+
+#, fuzzy
+#~ msgid "Right-Auxiliary"
+#~ msgstr "Right-Auxiliary"
+
+#, fuzzy
+#~ msgid "Input Channels"
+#~ msgstr "ইনপুট চ্যানেল"
+
+#, fuzzy
+#~ msgid "Mono-Channel"
+#~ msgstr "Mono-Channel"
+
+#, fuzzy
+#~ msgid "Left-Channel"
+#~ msgstr "Left-Channel"
+
+#, fuzzy
+#~ msgid "Right-Channel"
+#~ msgstr "Right-Channel"
+
+#, fuzzy
+#~ msgid "Output Destinations"
+#~ msgstr "আউটপুট গন্তব্য"
+
+#, fuzzy
+#~ msgid "Mono-InternalSpeaker"
+#~ msgstr "Mono-InternalSpeaker"
+
+#, fuzzy
+#~ msgid "Mono-Jack"
+#~ msgstr "Mono-Jack"
+
+#, fuzzy
+#~ msgid "Left-InternalSpeaker"
+#~ msgstr "Left-InternalSpeaker"
+
+#, fuzzy
+#~ msgid "Right-InternalSpeaker"
+#~ msgstr "Right-InternalSpeaker"
+
+#, fuzzy
+#~ msgid "Left-Jack"
+#~ msgstr "Left-Jack"
+
+#, fuzzy
+#~ msgid "Right-Jack"
+#~ msgstr "Right-Jack"
+
+#, fuzzy
+#~ msgid "Output Channels"
+#~ msgstr "আউটপুট চ্যানেল"
+
+#, fuzzy
+#~ msgid "Gain"
+#~ msgstr "লাভ"
+
+#, fuzzy
+#~ msgid "Input Gain Limits"
+#~ msgstr "ইনপুট লাভ সীমা"
+
+#, fuzzy
+#~ msgid "Output Gain Limits"
+#~ msgstr "আউটপুট লাভ সীমা"
+
+#, fuzzy
+#~ msgid "Monitor Gain Limits"
+#~ msgstr "মনিটর লাভ সীমা"
+
+#, fuzzy
+#~ msgid "Gain Restricted"
+#~ msgstr "লাভ নিয়ন্ত্রিত"
+
+#~ msgid "Lock"
+#~ msgstr "লক"
+
+#, fuzzy
+#~ msgid "Queue Length"
+#~ msgstr "সারি দৈর্ঘ্য"
+
+#, fuzzy
+#~ msgid "Block Size"
+#~ msgstr "বনধ্ মাপ"
+
+#~ msgid "Stream Port (decimal)"
+#~ msgstr "Stream Port (decimal)"
+
+#~ msgid "DMA-Channel"
+#~ msgstr "DMA-Channel"
+
+#, fuzzy
+#~ msgid "Used By"
+#~ msgstr "ের মধ্যে ব্যবহৃত"
+
+#~ msgid "I/O-Range"
+#~ msgstr "I/O-Range"
+
+#~ msgid "Devices"
+#~ msgstr "ডিভাইস"
+
+#~ msgid "Major Number"
+#~ msgstr "Major Number"
+
+#~ msgid "Minor Number"
+#~ msgstr "Minor Number"
+
+#~ msgid "Character Devices"
+#~ msgstr "Character Devices"
+
+#~ msgid "Block Devices"
+#~ msgstr "ব্লক ডিভাইস"
+
+#~ msgid "Miscellaneous Devices"
+#~ msgstr "বিবিধ ডিভাইস"
+
+#~ msgid "IRQ"
+#~ msgstr "IRQ"
+
+#~ msgid "No PCI devices found."
+#~ msgstr "কোনও পি-সি-আই ডিভাইস খুঁজে পাওয়া যায়নি।"
+
+#~ msgid "No I/O port devices found."
+#~ msgstr "কোনও আই/ও পোর্ট ডিভাইস খুঁজে পাওয়া যায়নি।"
+
+#~ msgid "No audio devices found."
+#~ msgstr "কোনও অডিও ডিভাইস খুঁজে পাওয়া যায়নি।"
+
+#~ msgid "No SCSI devices found."
+#~ msgstr "কোনও SCSI ডিভাইস খুঁজে পাওয়া যায়নি।"
+
+#~ msgid "Total Nodes"
+#~ msgstr "মোট নোড"
+
+#~ msgid "Free Nodes"
+#~ msgstr "ফাঁকা নোড"
+
+#~ msgid "Flags"
+#~ msgstr "ফ্ল্যাগ"
+
+#~ msgid "Unable to run /sbin/mount."
+#~ msgstr "/sbin/mount চালাতে অক্ষম।"
+
+#, fuzzy
+#~| msgid "Device Name: %1"
+#~ msgid "Device Name"
+#~ msgstr "ডিভাইস নাম: %1"
+
+#, fuzzy
+#~| msgid "Manufacturer: %1"
+#~ msgid "Manufacturer"
+#~ msgstr "প্রস্তুতকারক: %1"
+
+#, fuzzy
+#~ msgid "Instance"
+#~ msgstr "ঘটনা"
+
+#~ msgid "CPU Type"
+#~ msgstr "সি-পি-ইউ ধরন"
+
+#, fuzzy
+#~| msgid "CPU Type"
+#~ msgid "FPU Type"
+#~ msgstr "সি-পি-ইউ ধরন"
+
+#, fuzzy
+#~| msgid "Status"
+#~ msgid "State"
+#~ msgstr "অবস্থা"
+
+#, fuzzy
+#~ msgid "Mount Time"
+#~ msgstr "মাউন্ট সময়"
+
+#~ msgid "character special"
+#~ msgstr "character special"
+
+#~ msgid "block special"
+#~ msgstr "block special"
+
+#, fuzzy
+#~| msgid "Spectype:"
+#~ msgctxt "Can be either character special or block special"
+#~ msgid "Special type:"
+#~ msgstr "Spectype:"
+
+#~ msgid "Nodetype:"
+#~ msgstr "Nodetype:"
+
+#~ msgid "Major/Minor:"
+#~ msgstr "Major/Minor:"
+
+#~ msgid "(no value)"
+#~ msgstr "(কোনও মূল্য নয়)"
+
+#~ msgid "Driver Name:"
+#~ msgstr "ড্রাইভার-এর নাম:"
+
+#~ msgid "(driver not attached)"
+#~ msgstr "(ড্রাইভার সংযুক্ত নয়)"
+
+#, fuzzy
+#~ msgid "Binding Name:"
+#~ msgstr "Binding নাম:"
+
+#, fuzzy
+#~ msgid "Compatible Names:"
+#~ msgstr "সঙ্গতিপূর্ণ নামগুলো:"
+
+#~ msgid "Properties"
+#~ msgstr "বৈশিষ্ট্যাবলী"
+
+#~ msgid "Type:"
+#~ msgstr "ধরন:"
+
+#~ msgid "Value:"
+#~ msgstr "মান:"
+
+#~ msgid "Minor Nodes"
+#~ msgstr "মাইনর নোড"
+
+#~ msgid "Device Information"
+#~ msgstr "ডিভাইস তথ্য"
+
+#, fuzzy
+#~| msgid "ALSBFirst (LSB)"
+#~ msgid "LSBFirst"
+#~ msgstr "ALSBFirst (LSB)"
+
+#, fuzzy
+#~| msgid "AMSBFirst (MSB)"
+#~ msgid "MSBFirst"
+#~ msgstr "AMSBFirst (MSB)"
+
+#, fuzzy
+#~| msgid "Bytes"
+#~ msgid "1 Bit"
+#~ msgid_plural "%1 Bits"
+#~ msgstr[0] "বাইট"
+#~ msgstr[1] "বাইট"
+
+#, fuzzy
+#~| msgid "Bytes"
+#~ msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
+#~ msgid "1 Byte"
+#~ msgstr "বাইট"
+
+#, fuzzy
+#~| msgid "Bytes"
+#~ msgctxt "plural form: '%1 Bytes'"
+#~ msgid "%1 Bytes"
+#~ msgstr "বাইট"
+
+#, fuzzy
+#~| msgid "Number of Active Processors"
+#~ msgid "Number of Colormaps"
+#~ msgstr "সক্রিয় প্রসেসারের সংখ্যা"
+
+#, fuzzy
+#~| msgid "Number of Active Processors"
+#~ msgid "Default Colormap"
+#~ msgstr "সক্রিয় প্রসেসারের সংখ্যা"
+
+#, fuzzy
+#~| msgid "Number of Active Processors"
+#~ msgid "Default Number of Colormap Cells"
+#~ msgstr "সক্রিয় প্রসেসারের সংখ্যা"
+
+#, fuzzy
+#~| msgid "Mount Options"
+#~ msgid "Options"
+#~ msgstr "মাউন্ট অপশনস"
+
+#, fuzzy
+#~| msgid "Device Information"
+#~ msgid "Server Information"
+#~ msgstr "ডিভাইস তথ্য"
+
+#, fuzzy
+#~| msgid "Vendor"
+#~ msgid "Vendor String"
+#~ msgstr "বিক্রেতা"
+
+#, fuzzy
+#~| msgid "Vendor Number"
+#~ msgid "Vendor Release Number"
+#~ msgstr "বিক্রেতা সংখ্যা"
+
+#, fuzzy
+#~| msgid "Vendor Number"
+#~ msgid "Version Number"
+#~ msgstr "বিক্রেতা সংখ্যা"
+
+#, fuzzy
+#~| msgid "Ev Buffer Size"
+#~ msgid "Motion Buffer Size"
+#~ msgstr "Ev Buffer Size"
+
+#, fuzzy
+#~| msgid "Bit Order"
+#~ msgid "Order"
+#~ msgstr "বিট-এর ক্রম "
+
+#, fuzzy
+#~| msgid "Byte Order"
+#~ msgid "Image Byte Order"
+#~ msgstr "বাইট-এর ক্রম  "
+
+#~ msgid "Get system and desktop environment information"
+#~ msgstr "সিস্টেম এবং ডেস্কটপ এনভায়রনমেন্ট তথ্য পড়ো"
+
+#~ msgid ""
+#~ "Welcome to the \"KDE Info Center\", a central place to find information "
+#~ "about your computer system."
+#~ msgstr ""
+#~ "\"কে.ডি.ই তথ্য কেন্দ্রে\" অভ্যর্থনা। এখানে আপনি আপনার কমপিউটার সম্বন্ধে নানান "
+#~ "তথ্য জানতে পারবেন।"
+
+#~ msgid ""
+#~ "Click on the \"Help\" tab on the left to view help for the active control "
+#~ "module. Use the \"Search\" tab if you are unsure where to look for a "
+#~ "particular configuration option."
+#~ msgstr ""
+#~ "সক্রিয় নিয়ন্ত্রণ মডিউলটি সম্বন্ধে জানতে বাঁদিকের \"সহায়তা\" ট্যাবে ক্লিক করুন। "
+#~ "বিশেষ কোনো একটি কনফিগারেশন অপশন কোথায় পাওয়া যাবে সে ব্যপারে সন্দেহ থাকলে "
+#~ "\"সন্ধান\" ট্যাবটি ব্যবহার করুন।"
+
+#~ msgid "KDE version:"
+#~ msgstr "কে.ডি.ই সংস্করণ:"
+
+#~ msgid "User:"
+#~ msgstr "ব্যবহারকারী:"
+
+#~ msgid "Hostname:"
+#~ msgstr "হোস্টনেম:"
+
+#~ msgid "System:"
+#~ msgstr "সিস্টেম:"
+
+#~ msgid "Release:"
+#~ msgstr "প্রকাশ:"
+
+#~ msgid "Machine:"
+#~ msgstr "যন্ত্র:"
+
+#, fuzzy
+#~ msgid "<p>Click here to consult the full <a href=\"%1\">Manual</a>.</p>"
+#~ msgstr "<p>পূর্ণ পরামর্শ করতে এখানে ক্লিক করো<a href=\"%1\">নিজে হাতে</a>।</p>"
+
+#~ msgid ""
+#~ "<h1>KDE Info Center</h1>There is no quick help available for the active "
+#~ "info module.<br /><br />Click <a href = \"kinfocenter/index.html\">here</"
+#~ "a> to read the general Info Center manual."
+#~ msgstr ""
+#~ "<h1>কে.ডি.ই তথ্য কেন্দ্র</h1>সক্রিয় তথ্য মডিউলটির জন্য আলাদা করে কোনো সাহায্য "
+#~ "পাওয়া যাচ্ছে না। <br /><br />তথ্য কেন্দ্রের সম্পূর্ণ ম্যানুয়ালটি পড়তে <a href = "
+#~ "\"kinfocenter/index.html\"> এখানে</a> ক্লিক করুন।"
+
+#~ msgid "<big><b>Loading...</b></big>"
+#~ msgstr "<big><b>লোড করছি...</b></big>"
+
+#~ msgid ""
+#~ "There are unsaved changes in the active module.\n"
+#~ "Do you want to apply the changes before running the new module or discard "
+#~ "the changes?"
+#~ msgstr ""
+#~ "সক্রিয় মডিউলে কিছু পরিবর্তন এখনো সংরক্ষিত হয়নি।\n"
+#~ "নতুন মডিউলটি চালাবার আগে আপনি এই পরিবর্তনগুলি প্রয়োগ করতে চান, না বর্তমান "
+#~ "অবস্থাই রেখে দিতে চান? "
+
+#, fuzzy
+#~| msgid ""
+#~| "There are unsaved changes in the active module.\n"
+#~| "Do you want to apply the changes before exiting the Control Center or "
+#~| "discard the changes?"
+#~ msgid ""
+#~ "There are unsaved changes in the active module.\n"
+#~ "Do you want to apply the changes before exiting the System Settings or "
+#~ "discard the changes?"
+#~ msgstr ""
+#~ "সক্রিয় মডিউলে কিছু পরিবর্তন এখনো সংরক্ষিত হয়নি।\n"
+#~ "নিয়ন্ত্রণ কেন্দ্র থেকে বেরোবার আগে আপনি এই পরিবর্তনগুলি প্রয়োগ করতে চান, না "
+#~ "বর্তমান অবস্থাই রেখে দিতে চান?"
+
+#~ msgid "Unsaved Changes"
+#~ msgstr "পরিবর্তন অসংরক্ষিত "
+
+#~ msgid "Filter:"
+#~ msgstr "ফিল্টার:"
+
+#~ msgid "General Information"
+#~ msgstr "সাধারণ তথ্য"
+
+#~ msgid "The currently loaded configuration module."
+#~ msgstr "আপাতত লোড করা কনফিগারেশন মডিউল।"
+
+#~ msgid "&Report Bug..."
+#~ msgstr "বা&গ রিপোর্ট..."
+
+#~ msgctxt "Help menu->about <modulename>"
+#~ msgid "About %1"
+#~ msgstr "%1 সম্বন্ধে"
+
+#~ msgid "Report Bug on Module %1..."
+#~ msgstr "%1 মডিউল সম্বন্ধে বাগ রিপোর্ট..."
 
 #, fuzzy
 #~| msgid "MB"
@@ -1143,10 +876,6 @@ msgstr "%1 মডিউল সম্বন্ধে বাগ রিপোর্
 #~ msgid "&Results:"
 #~ msgstr "&ফলাফল:"
 
-#, fuzzy
-#~ msgid "Sear&ch"
-#~ msgstr "সন্ধান:"
-
 #~ msgid "&Icon View"
 #~ msgstr "&আইকন ভিউ"
 
@@ -1185,9 +914,6 @@ msgstr "%1 মডিউল সম্বন্ধে বাগ রিপোর্
 
 #~ msgid "&Reset"
 #~ msgstr "পূর্বাবস্থা&য় ফেরাও"
-
-#~ msgid "Clear search"
-#~ msgstr "সন্ধান ফাঁকা করো"
 
 #~ msgid ""
 #~ "_: NAME OF TRANSLATORS\n"
