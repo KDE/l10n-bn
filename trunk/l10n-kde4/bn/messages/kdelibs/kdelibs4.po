@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-04-24 04:51+0200\n"
+"POT-Creation-Date: 2010-04-26 04:36+0200\n"
 "PO-Revision-Date: 2009-01-05 01:16-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -6415,7 +6415,7 @@ msgid "Submit"
 msgstr "জমা দাও"
 
 #: khtml/khtmlview.cpp:2968 khtml/khtmlview.cpp:3001
-#: khtml/html/html_formimpl.cpp:1810 kdeui/dialogs/kedittoolbar.cpp:533
+#: khtml/html/html_formimpl.cpp:1810 kdeui/dialogs/kedittoolbar.cpp:601
 msgid "Reset"
 msgstr "রিসেট"
 
@@ -9655,15 +9655,30 @@ msgstr "বিস্তারি&ত বর্ণনা"
 msgid "Get help..."
 msgstr "সাহায্য চাও..."
 
-#: kdeui/dialogs/kedittoolbar.cpp:56
+#: kdeui/dialogs/kedittoolbar.cpp:58
 msgid "--- separator ---"
 msgstr "--- বিভাজক---"
 
-#: kdeui/dialogs/kedittoolbar.cpp:484
+#: kdeui/dialogs/kedittoolbar.cpp:287
+#, fuzzy
+#| msgid "Change Icon"
+msgid "Change Text"
+msgstr "আইকন বদলাও"
+
+#: kdeui/dialogs/kedittoolbar.cpp:299
+#, fuzzy
+msgid "Icon te&xt:"
+msgstr "সংযোগ লেখা:"
+
+#: kdeui/dialogs/kedittoolbar.cpp:304
+msgid "&Hide text when toolbar shows text alongside icons"
+msgstr ""
+
+#: kdeui/dialogs/kedittoolbar.cpp:552
 msgid "Configure Toolbars"
 msgstr "টুলবার কনফিগার করো"
 
-#: kdeui/dialogs/kedittoolbar.cpp:533
+#: kdeui/dialogs/kedittoolbar.cpp:601
 #, fuzzy
 msgid ""
 "Do you really want to reset all toolbars of this application to their "
@@ -9672,60 +9687,60 @@ msgstr ""
 "আপনি কি তাদের ডিফল্টে এই অ্যাপলিকেশনটির সমস্ত টুলবার রিসেট করতে সত্যি চাও? "
 "পরিবর্তন তাৎ‍ক্ষণিকভাবে প্রয়োগ করা হবে।"
 
-#: kdeui/dialogs/kedittoolbar.cpp:533
+#: kdeui/dialogs/kedittoolbar.cpp:601
 msgid "Reset Toolbars"
 msgstr "টুলবার রিসেট করো"
 
-#: kdeui/dialogs/kedittoolbar.cpp:831
+#: kdeui/dialogs/kedittoolbar.cpp:899
 msgid "&Toolbar:"
 msgstr "টু&লবার:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:846
+#: kdeui/dialogs/kedittoolbar.cpp:914
 msgid "A&vailable actions:"
 msgstr "&সম্ভাব্য কাজ:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:861 kdeui/dialogs/kedittoolbar.cpp:880
+#: kdeui/dialogs/kedittoolbar.cpp:929 kdeui/dialogs/kedittoolbar.cpp:948
 #, fuzzy
 msgid "Filter"
 msgstr "ফা&ইল"
 
-#: kdeui/dialogs/kedittoolbar.cpp:864
+#: kdeui/dialogs/kedittoolbar.cpp:932
 msgid "Curr&ent actions:"
 msgstr "&বর্তমান কাজ:"
 
-#: kdeui/dialogs/kedittoolbar.cpp:883
+#: kdeui/dialogs/kedittoolbar.cpp:951
 msgid "Change &Icon..."
 msgstr "আ&ইকন বদলাও..."
 
-#: kdeui/dialogs/kedittoolbar.cpp:893
+#: kdeui/dialogs/kedittoolbar.cpp:961
 #, fuzzy
 #| msgid "Change &Icon..."
 msgid "Change Te&xt..."
 msgstr "আ&ইকন বদলাও..."
 
-#: kdeui/dialogs/kedittoolbar.cpp:1044
+#: kdeui/dialogs/kedittoolbar.cpp:1112
 #, kde-format
 msgctxt "@item:intable Action name in toolbar editor"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1065
+#: kdeui/dialogs/kedittoolbar.cpp:1133
 #, fuzzy
 msgid ""
 "This element will be replaced with all the elements of an embedded component."
 msgstr ""
 "এই উপাদানটি একটি সন্নিবেশিত উপাদানের সমস্ত উপাদানের সঙ্গে প্রতিস্থাপন করা হবে।"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1067
+#: kdeui/dialogs/kedittoolbar.cpp:1135
 msgid "<Merge>"
 msgstr "<Merge>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1069
+#: kdeui/dialogs/kedittoolbar.cpp:1137
 #, kde-format
 msgid "<Merge %1>"
 msgstr "<Merge %1>"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1075
+#: kdeui/dialogs/kedittoolbar.cpp:1143
 #, fuzzy
 msgid ""
 "This is a dynamic list of actions. You can move it, but if you remove it you "
@@ -9734,31 +9749,20 @@ msgstr ""
 "এইটি ক্রিয়ার একটি গতিশীল তালিকা। আপনি এইটি চলতে পারেন, কিন্তু যদি আপনি এইটি re-"
 "addতে এইটি আপনাকে সক্ষম সরিয়ে দিেন না।"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1076
+#: kdeui/dialogs/kedittoolbar.cpp:1144
 #, kde-format
 msgid "ActionList: %1"
 msgstr "কার্যতালিকা: %1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1176 kdeui/dialogs/kedittoolbar.cpp:1206
+#: kdeui/dialogs/kedittoolbar.cpp:1245 kdeui/dialogs/kedittoolbar.cpp:1275
 #, kde-format
 msgctxt "@label Action tooltip in toolbar editor, below the action list"
 msgid "%1"
 msgstr "%1"
 
-#: kdeui/dialogs/kedittoolbar.cpp:1461
+#: kdeui/dialogs/kedittoolbar.cpp:1530
 msgid "Change Icon"
 msgstr "আইকন বদলাও"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1493
-#, fuzzy
-#| msgid "Change Icon"
-msgid "Change Text"
-msgstr "আইকন বদলাও"
-
-#: kdeui/dialogs/kedittoolbar.cpp:1493
-#, fuzzy
-msgid "Icon Te&xt:"
-msgstr "সংযোগ লেখা:"
 
 #: kdeui/dialogs/kshortcuteditwidget.cpp:59
 msgid "Default:"
@@ -12749,24 +12753,24 @@ msgid "Minimize"
 msgstr "মিনিমাইজ"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:215
-#: kdeui/notifications/kstatusnotifieritem.cpp:355
-#: kdeui/notifications/kstatusnotifieritem.cpp:781
+#: kdeui/notifications/kstatusnotifieritem.cpp:389
+#: kdeui/notifications/kstatusnotifieritem.cpp:815
 msgid "&Minimize"
 msgstr "মিনিমাই&জ"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:219
-#: kdeui/notifications/kstatusnotifieritem.cpp:779
+#: kdeui/notifications/kstatusnotifieritem.cpp:813
 msgid "&Restore"
 msgstr "&আগের মত"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:239
-#: kdeui/notifications/kstatusnotifieritem.cpp:789
+#: kdeui/notifications/kstatusnotifieritem.cpp:823
 #, fuzzy, kde-format
 msgid "<qt>Are you sure you want to quit <b>%1</b>?</qt>"
 msgstr "<qt>আপনি কি নিশ্চিত আপনি প্রস্থান করতে চাও<b>%1</b>?</qt>"
 
 #: kdeui/notifications/ksystemtrayicon.cpp:242
-#: kdeui/notifications/kstatusnotifieritem.cpp:792
+#: kdeui/notifications/kstatusnotifieritem.cpp:826
 #, fuzzy
 msgid "Confirm Quit From System Tray"
 msgstr "সিস্টেম ট্রে থেকে দৃঢ়তরভাবে প্রতিপন্ন করো প্রস্থান করো"
