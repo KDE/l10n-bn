@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-05-02 04:37+0200\n"
+"POT-Creation-Date: 2010-05-03 04:52+0200\n"
 "PO-Revision-Date: 2009-01-01 14:16-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -241,7 +241,7 @@ msgstr "ই-মেইল পাঠাও..."
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করো"
 
-#: HistorySizeDialog.cpp:51 SessionController.cpp:527
+#: HistorySizeDialog.cpp:51 SessionController.cpp:501
 msgid "Scrollback Options"
 msgstr "ইতিবৃত্ত সংক্রান্ত অপশন"
 
@@ -567,39 +567,49 @@ msgstr "Lars Knoll"
 msgid "Thanks to many others.\n"
 msgstr "আরো অনেককে ধন্যবাদ।\n"
 
-#: MainWindow.cpp:235
+#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: ectx: Menu (new-tab)
+#: MainWindow.cpp:233 rc.cpp:882
 msgid "New &Tab"
 msgstr "নতুন ট্যা&ব"
 
-#: MainWindow.cpp:241
+#: MainWindow.cpp:238
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "&Default Profile"
+msgstr "প্রোফাইল মুছে ফেলো"
+
+#: MainWindow.cpp:244
 msgid "New &Window"
 msgstr "নতুন &উইণ্ডো"
 
-#: MainWindow.cpp:246
+#: MainWindow.cpp:249
 msgid "Remote Connection..."
 msgstr ""
 
-#: MainWindow.cpp:257
+#: MainWindow.cpp:260
 msgid "&Bookmarks"
 msgstr "বু&কমার্ক"
 
-#: MainWindow.cpp:268
+#: MainWindow.cpp:271
 msgid "Show Menu Bar"
 msgstr "মেনুবার দেখাও"
 
-#: MainWindow.cpp:290 Part.cpp:116
-msgid "Manage Profiles..."
+#: MainWindow.cpp:293 Part.cpp:116
+#, fuzzy
+#| msgid "Manage Profiles..."
+msgid "Configure Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা করো..."
 
-#: MainWindow.cpp:363
+#: MainWindow.cpp:376
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "এই ইউণ্ডোতে একাধিক ট্যাব রয়েছে, আপনি কি সত্যিই প্রস্থান করতে চান?"
 
-#: MainWindow.cpp:365 SessionController.cpp:633
+#: MainWindow.cpp:378 SessionController.cpp:608
 msgid "Confirm Close"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: MainWindow.cpp:367
+#: MainWindow.cpp:380
 msgid "Close Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করো"
 
@@ -1530,7 +1540,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#. i18n: file: ../desktop/sessionui.rc:14
+#. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
 #: rc.cpp:849
 #, fuzzy
@@ -1538,13 +1548,13 @@ msgstr "deepayan@bengalinux.org"
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করে পাঠাও..."
 
-#. i18n: file: ../desktop/sessionui.rc:47
+#. i18n: file: ../desktop/sessionui.rc:43
 #. i18n: ectx: Menu (debug)
 #: rc.cpp:852
 msgid "Debug"
 msgstr "ডিবাগ"
 
-#. i18n: file: ../desktop/sessionui.rc:65
+#. i18n: file: ../desktop/sessionui.rc:62
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/partui.rc:25
 #. i18n: ectx: Menu (change-profile)
@@ -1564,39 +1574,33 @@ msgstr "&ইতিবৃত্ত"
 msgid "File"
 msgstr "ফাইল"
 
-#. i18n: file: ../desktop/konsoleui.rc:15
+#. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
 #: rc.cpp:867
 msgid "Edit"
 msgstr "সম্পাদনা"
 
-#. i18n: file: ../desktop/konsoleui.rc:18
-#. i18n: ectx: Menu (history)
-#: rc.cpp:870
-msgid "Scrollback"
-msgstr "ইতিবৃত্ত"
-
-#. i18n: file: ../desktop/konsoleui.rc:21
+#. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:873
+#: rc.cpp:870
 msgid "View"
 msgstr "ভিউ"
 
-#. i18n: file: ../desktop/konsoleui.rc:22
+#. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:876
+#: rc.cpp:873
 msgid "Split View"
 msgstr "বিভক্ত ভিউ"
 
-#. i18n: file: ../desktop/konsoleui.rc:40
+#. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:879
+#: rc.cpp:876
 msgid "Settings"
 msgstr "সেটিংস"
 
-#. i18n: file: ../desktop/konsoleui.rc:47
+#. i18n: file: ../desktop/konsoleui.rc:42
 #. i18n: ectx: Menu (help)
-#: rc.cpp:882
+#: rc.cpp:879
 msgid "Help"
 msgstr "সহায়তা"
 
@@ -1666,126 +1670,110 @@ msgstr "ট্যাব &বন্ধ করো"
 msgid "Open File Manager"
 msgstr ""
 
-#: SessionController.cpp:408
-msgid "&Copy"
-msgstr "&কপি করো"
-
-#: SessionController.cpp:412
-msgid "&Paste"
-msgstr "সাঁটো (&স)"
-
-#: SessionController.cpp:425
+#: SessionController.cpp:416
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ সাঁটো"
 
-#: SessionController.cpp:431
+#: SessionController.cpp:422
 msgid "&Rename Tab..."
 msgstr "ট্যাব-এর না&ম পাল্টাও..."
 
-#: SessionController.cpp:438
+#: SessionController.cpp:429
 msgid "&All Tabs in Current Window"
 msgstr ""
 
-#: SessionController.cpp:445
+#: SessionController.cpp:436
 #, fuzzy
 #| msgid "Select &Tab Color..."
 msgid "&Select Tabs..."
 msgstr "ট্যা&ব-এর রঙ নির্বাচন করুন..."
 
-#: SessionController.cpp:452
+#: SessionController.cpp:443
 #, fuzzy
 #| msgid "N&one"
 msgid "&None"
 msgstr "কিছু &নয়"
 
-#: SessionController.cpp:459
+#: SessionController.cpp:450
 #, fuzzy
 #| msgid "Clear && Reset"
 msgid "Clear and Reset"
 msgstr "ফাঁকা এবং রিসেট করো"
 
-#: SessionController.cpp:464
+#: SessionController.cpp:455
 msgid "&ZModem Upload..."
 msgstr "&ZModem আপলোড..."
 
-#: SessionController.cpp:470
+#: SessionController.cpp:461
 msgid "Monitor for &Activity"
 msgstr "কিছু &ঘটছে কি না খেয়াল রাখো"
 
-#: SessionController.cpp:475
+#: SessionController.cpp:466
 msgid "Monitor for &Silence"
 msgstr "সব চুপচা&প কি না খেয়াল রাখো"
 
-#: SessionController.cpp:481
+#: SessionController.cpp:472
 msgid "Character Encoding"
 msgstr "অক্ষর এনকোডিং"
 
-#: SessionController.cpp:488
-msgid "Increase Text Size"
-msgstr "লেখা বড় করো"
+#: SessionController.cpp:479
+msgid "Enlarge Font"
+msgstr "ফন্ট বড় করো"
 
-#: SessionController.cpp:494
-msgid "Decrease Text Size"
-msgstr "লেখা ছোট করো"
+#: SessionController.cpp:482
+#, fuzzy
+#| msgid "&Shrink Font"
+msgid "Shrink Font"
+msgstr "ফন্ট ছো&ট করো"
 
-#: SessionController.cpp:500
-msgid "Search Output..."
-msgstr "আউটপুট সন্ধান করো..."
-
-#: SessionController.cpp:509
-msgid "Find Next"
-msgstr "পরবর্তী মিল খোঁজো"
-
-#: SessionController.cpp:516
-msgid "Find Previous"
-msgstr "পূর্ববর্তী মিল খোঁজো"
-
-#: SessionController.cpp:522
-msgid "Save Output..."
+#: SessionController.cpp:498
+#, fuzzy
+#| msgid "Save Output..."
+msgid "Save Output As..."
 msgstr "আউটপুট সংরক্ষণ করো..."
 
-#: SessionController.cpp:532
+#: SessionController.cpp:506
 #, fuzzy
 #| msgid "Clear Scrollback && Reset"
 msgid "Clear Scrollback and Reset"
 msgstr "ইতিবৃত্ত মুছে ফেলো এবং রিসেট করো"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:513
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা করো..."
 
-#: SessionController.cpp:542
+#: SessionController.cpp:517
 msgid "Change Profile"
 msgstr "প্রোফাইল পরিবর্তন করো"
 
-#: SessionController.cpp:583
+#: SessionController.cpp:558
 msgid "Rename Tab"
 msgstr "ট্যাব-এর নাম পাল্টাও"
 
-#: SessionController.cpp:584
+#: SessionController.cpp:559
 msgid "Enter new tab text:"
 msgstr "নতুন ট্যাব লেখা ঢোকাও:"
 
-#: SessionController.cpp:627
+#: SessionController.cpp:602
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "এই সেশন-এ একটি প্রোগ্রাম চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:630
+#: SessionController.cpp:605
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:1188
+#: SessionController.cpp:1163
 #, fuzzy
 #| msgid "&ZModem Upload..."
 msgid "Save ZModem Download to..."
 msgstr "&ZModem আপলোড..."
 
-#: SessionController.cpp:1197
+#: SessionController.cpp:1172
 #, fuzzy
 #| msgid ""
 #| "<p>A ZModem file transfer attempt has been detected, but no suitable "
@@ -1800,7 +1788,7 @@ msgstr ""
 "সফটওয়ার পাওয়া যাচ্ছে না।\n"
 "<p>আপনি 'rzsz' অথবা 'lrzsz' প্যাকেজটি ইনস্টল করে দেখতে পারেন।\n"
 
-#: SessionController.cpp:1209
+#: SessionController.cpp:1184
 #, fuzzy
 #| msgid ""
 #| "<p>The current session already has a ZModem file transfer in progress."
@@ -1808,7 +1796,7 @@ msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>বর্তমান সেশনে একটি জি-মোডেম ফাইল ট্রান্সফার আগে থেকেই চলছে।"
 
-#: SessionController.cpp:1218
+#: SessionController.cpp:1193
 #, fuzzy
 #| msgid ""
 #| "<p>No suitable ZModem software was found on the system.\n"
@@ -1820,23 +1808,23 @@ msgstr ""
 "<p>সিস্টেমে কোনো মানানসই জি-মোডেম সফটওয়ার পাওয়া যায়নি।\n"
 "<p>আপনি 'rzsz' বা 'lrzsz' প্যাকেজগুলি ইনস্টল করে দেখতে পারেন।\n"
 
-#: SessionController.cpp:1224
+#: SessionController.cpp:1199
 #, fuzzy
 #| msgid "Select Files to Upload"
 msgid "Select Files for ZModem Upload"
 msgstr "আপলোড করার জন্য ফাইল বেছে নিন"
 
-#: SessionController.cpp:1296
+#: SessionController.cpp:1271
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে আউটপুট সংরক্ষণ করো"
 
-#: SessionController.cpp:1307
+#: SessionController.cpp:1282
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 একটি অবৈধ ইউ-আর-এল, আউটপুট সংরক্ষণ করা যায়নি।"
 
-#: SessionController.cpp:1396
+#: SessionController.cpp:1371
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2061,6 +2049,30 @@ msgstr ""
 #: ZModemDialog.cpp:35
 msgid "&Stop"
 msgstr "থামো (&থ)"
+
+#~ msgid "Scrollback"
+#~ msgstr "ইতিবৃত্ত"
+
+#~ msgid "&Copy"
+#~ msgstr "&কপি করো"
+
+#~ msgid "&Paste"
+#~ msgstr "সাঁটো (&স)"
+
+#~ msgid "Increase Text Size"
+#~ msgstr "লেখা বড় করো"
+
+#~ msgid "Decrease Text Size"
+#~ msgstr "লেখা ছোট করো"
+
+#~ msgid "Search Output..."
+#~ msgstr "আউটপুট সন্ধান করো..."
+
+#~ msgid "Find Next"
+#~ msgstr "পরবর্তী মিল খোঁজো"
+
+#~ msgid "Find Previous"
+#~ msgstr "পূর্ববর্তী মিল খোঁজো"
 
 #~ msgid "Open Browser Here"
 #~ msgstr "এখানে ব্রাউজার খোলো"
@@ -2368,9 +2380,6 @@ msgstr "থামো (&থ)"
 #~ msgid "&Enlarge Font"
 #~ msgstr "ফন্ট &বড় করো"
 
-#~ msgid "&Shrink Font"
-#~ msgstr "ফন্ট ছো&ট করো"
-
 #, fuzzy
 #~ msgid "Default"
 #~ msgstr "কনসোল ডিফল্ট"
@@ -2468,9 +2477,6 @@ msgstr "থামো (&থ)"
 
 #~ msgid "Switch to Session %1"
 #~ msgstr "সেশন %1-এ চলে যাও"
-
-#~ msgid "Enlarge Font"
-#~ msgstr "ফন্ট বড় করো"
 
 #, fuzzy
 #~ msgid "Close sessions"
