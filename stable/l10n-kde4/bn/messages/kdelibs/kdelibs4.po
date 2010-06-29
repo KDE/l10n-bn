@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-27 04:48+0200\n"
+"POT-Creation-Date: 2010-06-29 02:42+0200\n"
 "PO-Revision-Date: 2010-05-29 19:56+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -115,8 +115,8 @@ msgstr "শুরু করো"
 #. i18n: file: kjsembed/examples/kjsconsole/jsconsole.ui:227
 #. i18n: ectx: property (text), widget (QStatusBar, statusBar)
 #: rc.cpp:32 rc.cpp:859 kross/ui/view.cpp:308
-#: kdeui/jobs/kstatusbarjobtracker.cpp:160 kdeui/util/kstandardguiitem.cpp:281
-#: kdeui/util/kkeyserver_x11.cpp:103
+#: kdeui/jobs/kstatusbarjobtracker.cpp:160 kdeui/util/kkeyserver_x11.cpp:103
+#: kdeui/util/kstandardguiitem.cpp:281
 msgid "Stop"
 msgstr "থামাও"
 
@@ -150,51 +150,71 @@ msgstr "বাতিল করো"
 msgid "Suspend"
 msgstr "Suspend"
 
+#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:5
+#. i18n: ectx: property (windowTitle), widget (QWidget, EditorChooser)
+#: rc.cpp:56
+msgid "Editor Chooser"
+msgstr "সম্পাদক পছন্দকারী"
+
+#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:19
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: rc.cpp:59
+msgid ""
+"Please choose the default text editing component that you wish to use in "
+"this application. If you choose <B>System Default</B>, the application will "
+"honor your changes in the System Settings. All other choices will override "
+"that setting."
+msgstr ""
+"এই অ্যাপলিকেশনে টেক্সট সম্পাদনার জন্য আপনি যে উপাদানটি ব্যবহার করতে চান, সেটি "
+"এখানে বেছে নিন। যদি আপনি <B>System Default</B> বাছেন, তাহলে কে.ডি.ই. নিয়ন্ত্রণ "
+"কেন্দ্রে আপনি যা পছন্দ করেছেন, তাই ব্যবহার করা হবে। অন্য কিছু বাছলে সেটিই প্রাধান্য "
+"পাবে।"
+
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:16
 #. i18n: ectx: property (text), widget (QCheckBox, Sound_check)
-#: rc.cpp:56
+#: rc.cpp:62
 msgid "Play a &sound"
 msgstr "একটি &শব্দ শোনাও"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:42
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Sound_select)
-#: rc.cpp:59
+#: rc.cpp:65
 msgid "Select the sound to play"
 msgstr "চালানোর জন্য শব্দ নির্বাচন করুন"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:49
 #. i18n: ectx: property (text), widget (QCheckBox, Popup_check)
-#: rc.cpp:62
+#: rc.cpp:68
 msgid "Show a message in a &popup"
 msgstr "&পপ-আপ উইণ্ডোয় একটি বার্তা দেখাও"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:56
 #. i18n: ectx: property (text), widget (QCheckBox, Logfile_check)
-#: rc.cpp:65
+#: rc.cpp:71
 msgid "Log to a file"
 msgstr "ফাইলে লগ লেখো"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:76
 #. i18n: ectx: property (text), widget (QCheckBox, Taskbar_check)
-#: rc.cpp:68
+#: rc.cpp:74
 msgid "Mark &taskbar entry"
 msgstr "টাস্কবার &এন্ট্রী চিহ্নিত করো"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:83
 #. i18n: ectx: property (text), widget (QCheckBox, Execute_check)
-#: rc.cpp:71
+#: rc.cpp:77
 msgid "Run &command"
 msgstr "&কমান্ড চালাও"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:99
 #. i18n: ectx: property (toolTip), widget (KUrlRequester, Execute_select)
-#: rc.cpp:74
+#: rc.cpp:80
 msgid "Select the command to run"
 msgstr "চালানোর জন্য কমান্ড নির্বাচন করুন"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:106
 #. i18n: ectx: property (text), widget (QCheckBox, KTTS_check)
-#: rc.cpp:77
+#: rc.cpp:83
 msgid "Sp&eech"
 msgstr "&কথা"
 
@@ -202,7 +222,7 @@ msgstr "&কথা"
 #. i18n: ectx: property (whatsThis), widget (KComboBox, KTTS_combo)
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:141
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, KTTS_select)
-#: rc.cpp:81 rc.cpp:94
+#: rc.cpp:87 rc.cpp:100
 #, fuzzy, no-c-format
 msgid ""
 "<qt>Specifies how KTTS should speak the event when received.  If you select "
@@ -219,41 +239,21 @@ msgstr ""
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:123
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:84
+#: rc.cpp:90
 msgid "Speak Event Message"
 msgstr "ঘটনাবার্তা পড়ে শোনাও"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:128
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:87
+#: rc.cpp:93
 msgid "Speak Event Name"
 msgstr "ঘটনার নাম বলো"
 
 #. i18n: file: knotify/config/knotifyconfigactionswidgetbase.ui:133
 #. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: rc.cpp:90
+#: rc.cpp:96
 msgid "Speak Custom Text"
 msgstr "স্বনির্বাচিত লেখা পড়ে শোনাও"
-
-#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:5
-#. i18n: ectx: property (windowTitle), widget (QWidget, EditorChooser)
-#: rc.cpp:97
-msgid "Editor Chooser"
-msgstr "সম্পাদক পছন্দকারী"
-
-#. i18n: file: interfaces/ktexteditor/editorchooser_ui.ui:19
-#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
-#: rc.cpp:100
-msgid ""
-"Please choose the default text editing component that you wish to use in "
-"this application. If you choose <B>System Default</B>, the application will "
-"honor your changes in the System Settings. All other choices will override "
-"that setting."
-msgstr ""
-"এই অ্যাপলিকেশনে টেক্সট সম্পাদনার জন্য আপনি যে উপাদানটি ব্যবহার করতে চান, সেটি "
-"এখানে বেছে নিন। যদি আপনি <B>System Default</B> বাছেন, তাহলে কে.ডি.ই. নিয়ন্ত্রণ "
-"কেন্দ্রে আপনি যা পছন্দ করেছেন, তাই ব্যবহার করা হবে। অন্য কিছু বাছলে সেটিই প্রাধান্য "
-"পাবে।"
 
 #. i18n: file: kross/test/testguiform.ui:44
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
@@ -685,7 +685,7 @@ msgstr "বি-এস-ডি"
 
 #. i18n: file: knewstuff/knewstuff3/uploaddialog.ui:207
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: rc.cpp:300 khtml/khtml_part.cpp:1842
+#: rc.cpp:300 khtml/khtml_part.cpp:1847
 msgid "Description:"
 msgstr "বর্ণনা:"
 
@@ -721,7 +721,7 @@ msgstr "অনুগ্রহ করে ইংরিজিতে আপনার
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: file: khtml/htmlpageinfo.ui:112
 #. i18n: ectx: property (text), widget (QLabel, titleLabel)
-#: rc.cpp:315 rc.cpp:513
+#: rc.cpp:315 rc.cpp:525
 msgid "Title:"
 msgstr "শিরোনাম:"
 
@@ -1027,19 +1027,41 @@ msgstr "সহযোগিতা করো"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: kdeui/xmlgui/ui_standards.rc:61
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:489 rc.cpp:603 rc.cpp:997
+#: rc.cpp:489 rc.cpp:495 rc.cpp:997
 msgid "&Edit"
 msgstr "সম্পা&দনা"
 
+#. i18n: file: khtml/khtml_browser.rc:4
+#. i18n: ectx: Menu (file)
+#. i18n: file: kdeui/xmlgui/ui_standards.rc:5
+#. i18n: ectx: Menu (file)
+#: rc.cpp:492 rc.cpp:991
+msgid "&File"
+msgstr "ফা&ইল"
+
+#. i18n: file: khtml/khtml_browser.rc:20
+#. i18n: ectx: Menu (view)
+#. i18n: file: kdeui/xmlgui/ui_standards.rc:101
+#. i18n: ectx: Menu (view)
+#: rc.cpp:498 rc.cpp:1003
+msgid "&View"
+msgstr "প্রদর্শ&ন"
+
+#. i18n: file: khtml/khtml_browser.rc:35
+#. i18n: ectx: ToolBar (htmlToolBar)
+#: rc.cpp:501
+msgid "HTML Toolbar"
+msgstr "এইচ-টি-এম-এল টুলবার"
+
 #. i18n: file: khtml/kjserrordlgbase.ui:14
 #. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:492
+#: rc.cpp:504
 msgid "JavaScript Errors"
 msgstr "জাভাস্ক্রিপ্ট সমস্যা"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:17
 #. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
-#: rc.cpp:495
+#: rc.cpp:507
 msgid ""
 "This dialog provides you with notification and details of scripting errors "
 "that occur on web pages.  In many cases it is due to an error in the web "
@@ -1058,64 +1080,64 @@ msgstr ""
 
 #. i18n: file: khtml/kjserrordlgbase.ui:29
 #. i18n: ectx: property (text), widget (QPushButton, _close)
-#: rc.cpp:498 kdeui/util/kstandardguiitem.cpp:184
+#: rc.cpp:510 kdeui/util/kstandardguiitem.cpp:184
 #: kdeui/actions/kstandardaction_p.h:49
 msgid "&Close"
 msgstr "&বন্ধ করো"
 
 #. i18n: file: khtml/kjserrordlgbase.ui:36
 #. i18n: ectx: property (text), widget (QPushButton, _clear)
-#: rc.cpp:501 kdeui/util/kstandardguiitem.cpp:171
+#: rc.cpp:513 kdeui/util/kstandardguiitem.cpp:171
 #: kdeui/actions/kstandardaction_p.h:61
 msgid "C&lear"
 msgstr "ফাঁকা &করো"
 
 #. i18n: file: khtml/htmlpageinfo.ui:22
 #. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
-#: rc.cpp:504
+#: rc.cpp:516
 msgid "Document Information"
 msgstr "নথী সম্বন্ধিত তথ্য"
 
 #. i18n: file: khtml/htmlpageinfo.ui:34
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:507
+#: rc.cpp:519
 msgctxt "@title:group Document information"
 msgid "General"
 msgstr "সাধারণ"
 
 #. i18n: file: khtml/htmlpageinfo.ui:60
 #. i18n: ectx: property (text), widget (QLabel, urlLabel)
-#: rc.cpp:510
+#: rc.cpp:522
 msgid "URL:"
 msgstr "ইউ-আর-এল:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:128
 #. i18n: ectx: property (text), widget (QLabel, _lmLabel)
-#: rc.cpp:516
+#: rc.cpp:528
 msgid "Last modified:"
 msgstr "শেষ পরিবর্তন:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:144
 #. i18n: ectx: property (text), widget (QLabel, _eLabel)
-#: rc.cpp:519
+#: rc.cpp:531
 msgid "Document encoding:"
 msgstr "ডকুমেন্ট এনকোডিং:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:167
 #. i18n: ectx: property (text), widget (QLabel, _modeLabel)
-#: rc.cpp:522
+#: rc.cpp:534
 msgid "Rendering mode:"
 msgstr "Rendering mode:"
 
 #. i18n: file: khtml/htmlpageinfo.ui:186
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: rc.cpp:525
+#: rc.cpp:537
 msgid "HTTP Headers"
 msgstr "এইচ-টি-টি-পি (HTTP) হেডার"
 
 #. i18n: file: khtml/htmlpageinfo.ui:214
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
-#: rc.cpp:528
+#: rc.cpp:540
 msgid "Property"
 msgstr "বৈশিষ্ট্য"
 
@@ -1123,14 +1145,14 @@ msgstr "বৈশিষ্ট্য"
 #. i18n: ectx: property (text), widget (QTreeWidget, _headers)
 #. i18n: file: kdeui/dialogs/kcupsoptionsjobwidget.ui:122
 #. i18n: ectx: property (text), widget (QTableWidget, jobOptionsTable)
-#: rc.cpp:531 rc.cpp:898 khtml/ecma/debugger/localvariabledock.cpp:52
+#: rc.cpp:543 rc.cpp:898 khtml/ecma/debugger/localvariabledock.cpp:52
 #: khtml/java/kjavaappletviewer.cpp:139
 msgid "Value"
 msgstr "মান"
 
 #. i18n: file: khtml/test_regression_gui.ui:13
 #. i18n: ectx: property (windowTitle), widget (QMainWindow, MainWindow)
-#: rc.cpp:534
+#: rc.cpp:546
 msgid "KHTML Regression Testing Utility"
 msgstr "KHTML Regression Testing Utility"
 
@@ -1138,13 +1160,13 @@ msgstr "KHTML Regression Testing Utility"
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #. i18n: file: kjsembed/examples/calc/calc.ui:75
 #. i18n: ectx: property (text), widget (QPushButton, zero)
-#: rc.cpp:537 rc.cpp:775
+#: rc.cpp:549 rc.cpp:775
 msgid "0"
 msgstr "০"
 
 #. i18n: file: khtml/test_regression_gui.ui:56
 #. i18n: ectx: attribute (title), widget (QWidget, firstTab)
-#: rc.cpp:540
+#: rc.cpp:552
 msgid "Regression testing output"
 msgstr "Regression testing output"
 
@@ -1152,13 +1174,13 @@ msgstr "Regression testing output"
 #. i18n: ectx: property (toolTip), widget (QPushButton, pauseContinueButton)
 #. i18n: file: khtml/test_regression_gui.ui:114
 #. i18n: ectx: property (whatsThis), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:543 rc.cpp:546
+#: rc.cpp:555 rc.cpp:558
 msgid "Pause/Continue regression testing process"
 msgstr "Pause/Continue regression testing process"
 
 #. i18n: file: khtml/test_regression_gui.ui:120
 #. i18n: ectx: property (text), widget (QPushButton, pauseContinueButton)
-#: rc.cpp:549 khtml/test_regression_gui_window.cpp:571
+#: rc.cpp:561 khtml/test_regression_gui_window.cpp:571
 #: khtml/rendering/media_controls.cpp:50
 msgid "Pause"
 msgstr "স্থগিত রাখো"
@@ -1167,7 +1189,7 @@ msgstr "স্থগিত রাখো"
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveLogButton)
 #. i18n: file: khtml/test_regression_gui.ui:147
 #. i18n: ectx: property (whatsThis), widget (QPushButton, saveLogButton)
-#: rc.cpp:552 rc.cpp:555
+#: rc.cpp:564 rc.cpp:567
 #, fuzzy
 msgid ""
 "You may select a file where the log content is stored, before the regression "
@@ -1178,109 +1200,87 @@ msgstr ""
 
 #. i18n: file: khtml/test_regression_gui.ui:150
 #. i18n: ectx: property (text), widget (QPushButton, saveLogButton)
-#: rc.cpp:558
+#: rc.cpp:570
 msgid "Output to File..."
 msgstr "আউটপুট ফাইলে পাঠাও..."
 
 #. i18n: file: khtml/test_regression_gui.ui:162
 #. i18n: ectx: property (text), widget (QLabel, statusLabel)
-#: rc.cpp:561
+#: rc.cpp:573
 msgid "Regression Testing Status"
 msgstr "Regression Testing Status"
 
 #. i18n: file: khtml/test_regression_gui.ui:182
 #. i18n: ectx: attribute (title), widget (QWidget, secondTab)
-#: rc.cpp:564
+#: rc.cpp:576
 msgid "View HTML Output"
 msgstr "এইচ-টি-এম-এল আউটপুট দেখাও"
 
 #. i18n: file: khtml/test_regression_gui.ui:203
 #. i18n: ectx: property (title), widget (QMenu, menuSettings)
-#: rc.cpp:567
+#: rc.cpp:579
 msgid "Settings"
 msgstr "পছন্দ"
 
 #. i18n: file: khtml/test_regression_gui.ui:212
 #. i18n: ectx: property (title), widget (QMenu, menuMain)
-#: rc.cpp:570
+#: rc.cpp:582
 msgid "Tests"
 msgstr "পরীক্ষাসমূহ"
 
 #. i18n: file: khtml/test_regression_gui.ui:238
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:573
+#: rc.cpp:585
 msgid "Only Run JS Tests"
 msgstr "শুধু জাভাস্ক্রিপ্ট টেস্ট চালাও"
 
 #. i18n: file: khtml/test_regression_gui.ui:246
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:576
+#: rc.cpp:588
 msgid "Only Run HTML Tests"
 msgstr "শুধু এইচ-টি-এম-এল টেস্ট চালাও"
 
 #. i18n: file: khtml/test_regression_gui.ui:254
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:579
+#: rc.cpp:591
 msgid "Do Not Suppress Debug Output"
 msgstr "ডিবাগ আউটপুট দেখাও"
 
 #. i18n: file: khtml/test_regression_gui.ui:262
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:582 khtml/test_regression.cpp:630
+#: rc.cpp:594 khtml/test_regression.cpp:630
 msgid "Do not use Xvfb"
 msgstr "Xvfb ব্যবহার কোর না"
 
 #. i18n: file: khtml/test_regression_gui.ui:267
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:585
+#: rc.cpp:597
 msgid "Run Tests..."
 msgstr "টেস্ট চালাও..."
 
 #. i18n: file: khtml/test_regression_gui.ui:272
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:588
+#: rc.cpp:600
 msgid "Run Single Test..."
 msgstr "একটি টেস্ট চালাও..."
 
 #. i18n: file: khtml/test_regression_gui.ui:277
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:591
+#: rc.cpp:603
 msgid "Specify tests Directory..."
 msgstr "টেস্ট ডিরেক্টরি নির্ধারণ করুন..."
 
 #. i18n: file: khtml/test_regression_gui.ui:282
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:594
+#: rc.cpp:606
 msgid "Specify khtml Directory..."
 msgstr "khtml ডিরেক্টরি নির্ধারণ করুন..."
 
 #. i18n: file: khtml/test_regression_gui.ui:287
 #. i18n: ectx: property (text), widget (QStatusBar, statusbar)
-#: rc.cpp:597
+#: rc.cpp:609
 msgid "Specify Output Directory..."
 msgstr "আউটপুট ডিরেক্টরি নির্ধারণ করুন..."
-
-#. i18n: file: khtml/khtml_browser.rc:4
-#. i18n: ectx: Menu (file)
-#. i18n: file: kdeui/xmlgui/ui_standards.rc:5
-#. i18n: ectx: Menu (file)
-#: rc.cpp:600 rc.cpp:991
-msgid "&File"
-msgstr "ফা&ইল"
-
-#. i18n: file: khtml/khtml_browser.rc:20
-#. i18n: ectx: Menu (view)
-#. i18n: file: kdeui/xmlgui/ui_standards.rc:101
-#. i18n: ectx: Menu (view)
-#: rc.cpp:606 rc.cpp:1003
-msgid "&View"
-msgstr "প্রদর্শ&ন"
-
-#. i18n: file: khtml/khtml_browser.rc:35
-#. i18n: ectx: ToolBar (htmlToolBar)
-#: rc.cpp:609
-msgid "HTML Toolbar"
-msgstr "এইচ-টি-এম-এল টুলবার"
 
 #. i18n: file: khtml/ui/findbar/khtmlfindbar_base.ui:43
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -2219,25 +2219,6 @@ msgstr "ব্রাউজ করার জন্য অতিরিক্ত �
 msgid "List of 'wide-area' (non link-local) domains that should be browsed."
 msgstr "যে সব 'wide-area' (non link-local) ডোমেইন ব্রাউজ করা হবে তার তালিকা।"
 
-#: knotify/config/knotifyeventlist.cpp:92
-msgctxt "State of the notified event"
-msgid "State"
-msgstr "অবস্থা"
-
-#: knotify/config/knotifyeventlist.cpp:92
-msgctxt "Title of the notified event"
-msgid "Title"
-msgstr "শিরোনাম"
-
-#: knotify/config/knotifyeventlist.cpp:92
-msgctxt "Description of the notified event"
-msgid "Description"
-msgstr "বিবরণ"
-
-#: knotify/config/knotifyconfigwidget.cpp:107
-msgid "Configure Notifications"
-msgstr "বার্তাবলী কনফিগার করো"
-
 #: interfaces/ktexteditor/templateinterface.cpp:66
 #, fuzzy
 msgid ""
@@ -2257,6 +2238,25 @@ msgstr ""
 #, kde-format
 msgid "System Default (currently: %1)"
 msgstr "সিস্টেম ডিফল্ট (আপাতত: %1)"
+
+#: knotify/config/knotifyeventlist.cpp:92
+msgctxt "State of the notified event"
+msgid "State"
+msgstr "অবস্থা"
+
+#: knotify/config/knotifyeventlist.cpp:92
+msgctxt "Title of the notified event"
+msgid "Title"
+msgstr "শিরোনাম"
+
+#: knotify/config/knotifyeventlist.cpp:92
+msgctxt "Description of the notified event"
+msgid "Description"
+msgstr "বিবরণ"
+
+#: knotify/config/knotifyconfigwidget.cpp:107
+msgid "Configure Notifications"
+msgstr "বার্তাবলী কনফিগার করো"
 
 #: kross/test/main.cpp:141
 msgid "KrossTest"
@@ -2481,6 +2481,72 @@ msgstr "ডেটাবেসে অবৈধ ধরন"
 msgid "Unknown error"
 msgstr "অজানা সমস্যা"
 
+#: nepomuk/ui/kedittagsdialog.cpp:48
+msgctxt "@title:window"
+msgid "Change Tags"
+msgstr "ট্যাগ বদলাও"
+
+#: nepomuk/ui/kedittagsdialog.cpp:49
+msgctxt "@title:window"
+msgid "Add Tags"
+msgstr "ট্যাগ যোগ করো"
+
+#: nepomuk/ui/kedittagsdialog.cpp:58
+msgctxt "@label:textbox"
+msgid "Configure which tags should be applied."
+msgstr ""
+
+#: nepomuk/ui/kedittagsdialog.cpp:71
+msgctxt "@label"
+msgid "Create new tag:"
+msgstr "নতুন ট্যাগ তৈরি করো:"
+
+#: nepomuk/ui/kedittagsdialog.cpp:93
+msgctxt "@info"
+msgid "Delete tag"
+msgstr "ট্যাগ মুছে ফেলো"
+
+#: nepomuk/ui/kedittagsdialog.cpp:205
+#, kde-format
+msgctxt "@info"
+msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
+msgstr ""
+
+#: nepomuk/ui/kedittagsdialog.cpp:207
+msgctxt "@title"
+msgid "Delete tag"
+msgstr "ট্যাগ  মুছে ফেলো"
+
+#: nepomuk/ui/kedittagsdialog.cpp:208
+msgctxt "@action:button"
+msgid "Delete"
+msgstr "মুছে ফেলো"
+
+#: nepomuk/ui/kedittagsdialog.cpp:209
+msgctxt "@action:button"
+msgid "Cancel"
+msgstr "বাতিল করো"
+
+#: nepomuk/ui/nepomukmassupdatejob.cpp:76
+#, fuzzy
+msgid "Changing annotations"
+msgstr "annotations পরিবর্তন করছে"
+
+#: nepomuk/ui/tagwidget.cpp:61
+msgctxt "@label"
+msgid "Show all tags..."
+msgstr "সব ট্যাগ দেখাও..."
+
+#: nepomuk/ui/tagwidget.cpp:104
+msgctxt "@label"
+msgid "Add Tags..."
+msgstr "ট্যাগ যোগ করো..."
+
+#: nepomuk/ui/tagwidget.cpp:104
+msgctxt "@label"
+msgid "Change..."
+msgstr "বদলাও..."
+
 #: nepomuk/rcgen/rcgen.cpp:49 nepomuk/rcgen/rcgen.cpp:51
 msgid "Nepomuk Resource Class Generator"
 msgstr "Nepomuk Resource Class Generator"
@@ -2575,72 +2641,6 @@ msgstr ""
 #: nepomuk/rcgen/rcgen.cpp:80
 msgid "The ontology files containing the ontologies to be generated."
 msgstr ""
-
-#: nepomuk/ui/kedittagsdialog.cpp:48
-msgctxt "@title:window"
-msgid "Change Tags"
-msgstr "ট্যাগ বদলাও"
-
-#: nepomuk/ui/kedittagsdialog.cpp:49
-msgctxt "@title:window"
-msgid "Add Tags"
-msgstr "ট্যাগ যোগ করো"
-
-#: nepomuk/ui/kedittagsdialog.cpp:58
-msgctxt "@label:textbox"
-msgid "Configure which tags should be applied."
-msgstr ""
-
-#: nepomuk/ui/kedittagsdialog.cpp:71
-msgctxt "@label"
-msgid "Create new tag:"
-msgstr "নতুন ট্যাগ তৈরি করো:"
-
-#: nepomuk/ui/kedittagsdialog.cpp:93
-msgctxt "@info"
-msgid "Delete tag"
-msgstr "ট্যাগ মুছে ফেলো"
-
-#: nepomuk/ui/kedittagsdialog.cpp:205
-#, kde-format
-msgctxt "@info"
-msgid "Should the tag <resource>%1</resource> really be deleted for all files?"
-msgstr ""
-
-#: nepomuk/ui/kedittagsdialog.cpp:207
-msgctxt "@title"
-msgid "Delete tag"
-msgstr "ট্যাগ  মুছে ফেলো"
-
-#: nepomuk/ui/kedittagsdialog.cpp:208
-msgctxt "@action:button"
-msgid "Delete"
-msgstr "মুছে ফেলো"
-
-#: nepomuk/ui/kedittagsdialog.cpp:209
-msgctxt "@action:button"
-msgid "Cancel"
-msgstr "বাতিল করো"
-
-#: nepomuk/ui/nepomukmassupdatejob.cpp:76
-#, fuzzy
-msgid "Changing annotations"
-msgstr "annotations পরিবর্তন করছে"
-
-#: nepomuk/ui/tagwidget.cpp:61
-msgctxt "@label"
-msgid "Show all tags..."
-msgstr "সব ট্যাগ দেখাও..."
-
-#: nepomuk/ui/tagwidget.cpp:104
-msgctxt "@label"
-msgid "Add Tags..."
-msgstr "ট্যাগ যোগ করো..."
-
-#: nepomuk/ui/tagwidget.cpp:104
-msgctxt "@label"
-msgid "Change..."
-msgstr "বদলাও..."
 
 #: kinit/klauncher.cpp:563
 #, kde-format
@@ -2782,6 +2782,10 @@ msgstr "মুদ্রণ প্রাকদর্শন পার্ট লো
 msgid "Print Preview"
 msgstr "মুদ্রণ প্রাক্‌দর্শন"
 
+#: kutils/kcmultidialog.cpp:163 kdeui/dialogs/kconfigdialog.cpp:69
+msgid "Configure"
+msgstr "কনফিগার করো"
+
 #: kutils/kpluginselector.cpp:136
 msgid ""
 "Automatic changes have been performed due to plugin dependencies. Click here "
@@ -2841,10 +2845,6 @@ msgstr[1] "প্লাগিন নির্ভরতার দরুন %1-ট
 #: kutils/kpluginselector.cpp:257
 msgid "Search Plugins"
 msgstr "সন্ধান প্লাগ-ইন"
-
-#: kutils/kcmultidialog.cpp:163 kdeui/dialogs/kconfigdialog.cpp:69
-msgid "Configure"
-msgstr "কনফিগার করো"
 
 #: kutils/kcmoduleloader.cpp:75
 #, kde-format
@@ -2929,744 +2929,6 @@ msgstr "কম্পোনেন্ট সক্রিয় করো"
 #: kutils/ksettings/componentsdialog.cpp:53
 msgid "Select Components"
 msgstr "উপাদান নির্বাচন করুন"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:108
-msgid "Fetching license data from server..."
-msgstr "সার্ভার থেকে লাইসেন্স তথ্য আনা হচ্ছে..."
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:115
-msgid "Fetching content data from server..."
-msgstr "সার্ভার থেকে বিষয়বস্তু সংক্রান্ত তথ্য আনা হচ্ছে..."
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:231
-msgid "Checking login..."
-msgstr "লগিন পরীক্ষা করা হচ্ছে..."
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:253
-#, fuzzy
-msgid "Fetching your previously updated content..."
-msgstr "প্রাকদর্শন এবং বিষয়বস্তু আপলোড করা হচ্ছে..."
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:256
-msgid "Could not verify login, please try again."
-msgstr "লগিন যাচাই করা যায়নি, আবার চেষ্টা করুন।"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:275
-msgid "Fetching your previously updated content finished."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:293
-msgid "Fetching content data from server finished."
-msgstr ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:316
-#: knewstuff/knewstuff3/uploaddialog.cpp:748
-msgctxt "A link to the website where the get hot new stuff upload can be seen"
-msgid "Visit website"
-msgstr "ওয়েবসাইট-এ যান"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:368
-#: kdeui/dialogs/kassistantdialog.cpp:94
-msgctxt "Opposite to Back"
-msgid "Next"
-msgstr "পরবর্তী"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:370
-#: kdeui/dialogs/kassistantdialog.cpp:95
-msgid "Finish"
-msgstr "শেষ করো"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:389
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:64
-#, kde-format
-msgctxt "Program name followed by 'Add On Uploader'"
-msgid "%1 Add-On Uploader"
-msgstr "%1 Add-On আপ-লোডার"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:445
-#: knewstuff/knewstuff3/uploaddialog.cpp:674
-#, kde-format
-msgid "File not found: %1"
-msgstr "ফাইল পাওয়া যায়নি: %1"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:445
-#: knewstuff/knewstuff3/uploaddialog.cpp:549
-#: knewstuff/knewstuff3/uploaddialog.cpp:674
-msgid "Upload Failed"
-msgstr "আপলোড ব্যর্থ"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:503
-#, kde-format
-msgid ""
-"The server does not recognize the category %2 to which you are trying to "
-"upload."
-msgid_plural ""
-"The server does not recognize any of the categories to which you are trying "
-"to upload: %2"
-msgstr[0] ""
-msgstr[1] ""
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:506
-#: khtml/rendering/render_form.cpp:811 kjs/object.cpp:548
-#: kdeui/dialogs/kmessagebox.cpp:834 kdeui/dialogs/kmessagebox.cpp:864
-msgid "Error"
-msgstr "সমস্যা"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:549
-#, fuzzy, kde-format
-msgid "The selected category \"%1\" is invalid."
-msgstr "সার্টিফিকেট-টি অবৈধ"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:597
-#: knewstuff/knewstuff3/uploaddialog.cpp:606
-#: knewstuff/knewstuff3/uploaddialog.cpp:614
-msgid "Select preview image"
-msgstr "চিত্রের প্রাকদর্শন নির্বাচন করুন"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:624
-msgid "There was a network error."
-msgstr "একটি নেটওয়ার্ক ঘটিত সমস্যা হয়েছে।"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:624
-#: knewstuff/knewstuff3/uploaddialog.cpp:629
-msgid "Uploading Failed"
-msgstr "আপলোড ব্যর্থ"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:629
-msgid "Authentication error."
-msgstr "সত্যতা যাচাইয়ে সমস্যা।"
-
-#: knewstuff/knewstuff3/uploaddialog.cpp:638
-#, kde-format
-msgid "Upload failed: %1"
-msgstr "আপলোড ব্যর্থ: %1"
-
-#: knewstuff/knewstuff3/knewstuffbutton.cpp:48
-#: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
-msgid "Download New Stuff..."
-msgstr "নতুন জিনিস ডাউনলোড করুন..."
-
-#: knewstuff/knewstuff3/downloaddialog.cpp:81
-#: knewstuff/knewstuff3/downloadwidget.cpp:199
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
-msgid "Get Hot New Stuff"
-msgstr "তাজা নতুন জিনিসপত্র আনুন"
-
-#: knewstuff/knewstuff3/downloaddialog.cpp:88
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:129
-#, kde-format
-msgctxt "Program name followed by 'Add On Installer'"
-msgid "%1 Add-On Installer"
-msgstr "%1 Add-On ইনস্টলার"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:113
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
-msgid "Timeout. Check Internet connection."
-msgstr "টাইম-আউট। ইন্টারনেট সংযোগ পরীক্ষা করুন।"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:171
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
-#, kde-format
-msgid "Server: %1"
-msgstr "সার্ভার: %1"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:172
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
-#, kde-format
-msgid "<br />Provider: %1"
-msgstr "<br />সরবরাহকারী: %1"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:173
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
-#, kde-format
-msgid "<br />Version: %1"
-msgstr "<br />সংস্করণ: %1"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:177
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
-msgid "Provider information"
-msgstr "সরবরাহকারী তথ্য"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:188
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
-#, kde-format
-msgid "Could not install %1"
-msgstr "%1 ইনস্টল করা যায়নি"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:189
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
-msgid "Get Hot New Stuff!"
-msgstr "তাজা নতুন জিনিসপত্র আনুন!"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:241
-msgid "Icons view mode"
-msgstr "আইকন ভিউ মোড"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:243
-msgid "Details view mode"
-msgstr "বিস্তারিত ভিউ মোড"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:258
-msgid "All Providers"
-msgstr "সব সরবরাহকারী"
-
-#: knewstuff/knewstuff3/downloadwidget.cpp:265
-msgid "All Categories"
-msgstr "সব গোত্র"
-
-#: knewstuff/knewstuff3/core/installation.cpp:157
-msgid "Invalid item."
-msgstr "অবৈধ বস্তু।"
-
-#: knewstuff/knewstuff3/core/installation.cpp:164
-#, kde-format
-msgid "Download of item failed: no download URL for \"%1\"."
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:200
-#, kde-format
-msgid "Download of \"%1\" failed, error: %2"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:208
-msgid ""
-"The downloaded file is a html file. This indicates a link to a website "
-"instead of the actual download. Would you like to open the site with a "
-"browser instead?"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:208
-msgid "Possibly bad download link"
-msgstr "সম্ভবত বাজে ডাউনলোড লিঙ্ক"
-
-#: knewstuff/knewstuff3/core/installation.cpp:211
-msgid "Downloaded file was a HTML file. Opened in browser."
-msgstr ""
-
-#: knewstuff/knewstuff3/core/installation.cpp:276
-#, kde-format
-msgid "Could not install \"%1\": file not found."
-msgstr "\"%1\" ইনস্টল করা যায়নি: ফাইল পাওয়া যায়নি।"
-
-#: knewstuff/knewstuff3/core/installation.cpp:474
-msgid "Overwrite existing file?"
-msgstr "ফাইল মুছে লিখব?"
-
-#: knewstuff/knewstuff3/core/installation.cpp:474
-msgid "Download File:"
-msgstr "ডাউনলোড ফাইল:"
-
-#: knewstuff/knewstuff3/core/engine.cpp:99
-msgid "Initializing"
-msgstr "চালু করা হচ্ছে"
-
-#: knewstuff/knewstuff3/core/engine.cpp:103
-#: knewstuff/knewstuff3/core/engine.cpp:112
-#, kde-format
-msgid "Configuration file not found: \"%1\""
-msgstr "কনফিগারেশন ফাইল পাওয়া যায়নি: \"%1\""
-
-#: knewstuff/knewstuff3/core/engine.cpp:125
-#, kde-format
-msgid "Configuration file is invalid: \"%1\""
-msgstr "কনফিগারেশন ফাইল অবৈধ: \"%1\""
-
-#: knewstuff/knewstuff3/core/engine.cpp:174
-msgid "Loading provider information"
-msgstr "সরবরাহকারী সংক্রান্ত তথ্যাবলী লোড করা হচ্ছে"
-
-#: knewstuff/knewstuff3/core/engine.cpp:197
-#, kde-format
-msgid "Could not load get hot new stuff providers from file: %1"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/engine.cpp:215
-msgid "Error initializing provider."
-msgstr ""
-
-#: knewstuff/knewstuff3/core/engine.cpp:219
-#: knewstuff/knewstuff3/core/engine.cpp:499
-msgid "Loading data"
-msgstr "তথ্য লোড করা হচ্ছে"
-
-#: knewstuff/knewstuff3/core/engine.cpp:247
-msgid "Loading data from provider"
-msgstr "সরবরাহকারীর থেকে তথ্য লোড করা হচ্ছে"
-
-#: knewstuff/knewstuff3/core/engine.cpp:252
-#, kde-format
-msgid "Loading of providers from file: %1 failed"
-msgstr ""
-
-#: knewstuff/knewstuff3/core/engine.cpp:461
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
-#, kde-format
-msgid "Re: %1"
-msgstr "Re: %1"
-
-#: knewstuff/knewstuff3/core/engine.cpp:501
-#, kde-format
-msgid "Loading one preview"
-msgid_plural "Loading %1 previews"
-msgstr[0] "একটি প্রাকদর্শন লোড করা হচ্ছে"
-msgstr[1] "%1-টি প্রাকদর্শন লোড করা হচ্ছে"
-
-#: knewstuff/knewstuff3/core/engine.cpp:503
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:133
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:342
-msgid "Installing"
-msgstr "ইনস্টল করা হচ্ছে"
-
-#: knewstuff/knewstuff3/core/security.cpp:75
-#: knewstuff/knewstuff2/core/security.cpp:75
-#, fuzzy
-msgid ""
-"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
-"<i>gpg</i> is installed, otherwise verification of downloaded resources will "
-"not be possible.</qt>"
-msgstr ""
-"<qt>শুরু করতে পারে না<i>জিপিজি</i>এবং প্রাপ্তিসাধ্য চাবি আহরন করো। নিশ্চিত করো "
-"যে<i>জিপিজি</i>ইনস্টল করা হয়, ডাউনলোডকৃত সম্পদের অন্যথা যাচাই সম্ভব হবে না।</qt>"
-
-#: knewstuff/knewstuff3/core/security.cpp:197
-#: knewstuff/knewstuff2/core/security.cpp:197
-#, fuzzy, kde-format
-msgid ""
-"<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
-"i><br />:</qt>"
-msgstr ""
-"<qt>মূখ্যের জন্য পাশফ্রেজ ঢোকাও<b>0x%1</b>তে, বিষয়সম্পত্তি<br /><i>%2lt; %3gt;</"
-"i><br />:</qt>(&g)"
-
-#: knewstuff/knewstuff3/core/security.cpp:276
-#: knewstuff/knewstuff2/core/security.cpp:276
-#, fuzzy
-msgid ""
-"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
-"that <i>gpg</i> is installed, otherwise verification of downloaded resources "
-"will not be possible.</qt>"
-msgstr ""
-"<qt>শুরু করতে পারে না<i>জিপিজি</i>এবং ফাইলের বৈধতা পরীক্ষা করো। নিশ্চিত করো "
-"যে<i>জিপিজি</i>ইনস্টল করা হয়, ডাউনলোডকৃত সম্পদের অন্যথা যাচাই সম্ভব হবে না।</qt>"
-
-#: knewstuff/knewstuff3/core/security.cpp:331
-#: knewstuff/knewstuff2/core/security.cpp:331
-#, fuzzy
-msgid "Select Signing Key"
-msgstr "Signing চাবি নির্বাচন করো"
-
-#: knewstuff/knewstuff3/core/security.cpp:331
-#: knewstuff/knewstuff2/core/security.cpp:331
-#, fuzzy
-msgid "Key used for signing:"
-msgstr "চাবি সই করার জন্য ব্যবহার করেছিল:"
-
-#: knewstuff/knewstuff3/core/security.cpp:363
-#: knewstuff/knewstuff2/core/security.cpp:363
-#, fuzzy
-msgid ""
-"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
-"installed, otherwise signing of the resources will not be possible.</qt>"
-msgstr ""
-"<qt>শুরু করতে পারে না<i>জিপিজি</i>এবং ফাইল সই করো। নিশ্চিত করো যে<i>জিপিজি</"
-"i>ইনস্টল করা হয়, সম্পদ সম্ভবের অন্যথায় সই করবে না।</qt>"
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:288
-#, kde-format
-msgctxt ""
-"the price of a download item, parameter 1 is the currency, 2 is the price"
-msgid ""
-"This items costs %1 %2.\n"
-"Do you want to buy it?"
-msgstr ""
-"এই বস্তুটির দাম %1 %2.\n"
-"আপনি কি এটি কিনতে চান?"
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:302
-#, kde-format
-msgid ""
-"Your account balance is too low:\n"
-"Your balance: %1\n"
-"Price: %2"
-msgstr ""
-"আপনার অ্যাকাউন্ট-এ যথেষ্ট অঙ্ক বাকি  নেই:\n"
-"বাকি অঙ্ক: %1\n"
-"দাম: %2"
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:341
-msgctxt "voting for an item (good/bad)"
-msgid "Your vote was recorded."
-msgstr "আপনার ভোট রেকর্ড করা হয়েছে।"
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:355
-msgid "You are now a fan."
-msgstr "আপনি এখন একজন ফ্যান।"
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:366
-#, kde-format
-msgid "Network error. (%1)"
-msgstr "নেটওয়ার্ক সমস্যা। (%1)"
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:370
-msgid "Too many requests to server. Please try again in a few minutes."
-msgstr ""
-
-#: knewstuff/knewstuff3/attica/atticaprovider.cpp:372
-#, kde-format
-msgid "Unknown Open Collaboration Service API error. (%1)"
-msgstr ""
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:94
-#, kde-format
-msgid "Details for %1"
-msgstr "%1-এর বিস্তারিত বিবরণ"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:114
-msgctxt "A link to the description of this Get Hot New Stuff item"
-msgid "Homepage"
-msgstr "হোমপেজ"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:117
-#, fuzzy
-msgctxt ""
-"A link to make a donation for a Get Hot New Stuff item (opens a web browser)"
-msgid "Make a donation"
-msgstr "এইচ-টি-এম-এল ডকুমেনটেশন"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:121
-#, kde-format
-msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
-msgid "Knowledgebase (no entries)"
-msgid_plural "Knowledgebase (%1 entries)"
-msgstr[0] "Knowledgebase (কোন এন্ট্রী নেই)"
-msgstr[1] "Knowledgebase (%1-টি এন্ট্রী)"
-
-#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:124
-msgctxt "Tooltip for a link in a dialog"
-msgid "Opens in a browser window"
-msgstr "নতুন ব্রাউজার উইণ্ডোয় খোলে"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:138
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:347
-msgid "Updating"
-msgstr "আপডেট করা হচ্ছে"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:148
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:357
-msgid "Install Again"
-msgstr "আবার ইনস্টল করো"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:174
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:282
-#: kdeui/dialogs/kmessagebox.cpp:271
-msgid "Details"
-msgstr "বিস্তারিত বিবরণ"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:223
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:225
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:227
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:158
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:160
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:162
-#, kde-format
-msgctxt "Show the author of this item in a list"
-msgid "By <i>%1</i>"
-msgstr "<i>%1</i>-র সৌজন্যে"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:241
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:185
-#, kde-format
-msgid "1 fan"
-msgid_plural "%1 fans"
-msgstr[0] "একটি ফ্যান"
-msgstr[1] "%1-টি ফ্যান"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:244
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:188
-#, kde-format
-msgid "1 download"
-msgid_plural "%1 downloads"
-msgstr[0] "একটি ডাউনলোড"
-msgstr[1] "%1-টি ডাউনলোড"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:263
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:107
-#, kde-format
-msgid "Rating: %1%"
-msgstr "রেটিং: %1%"
-
-#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:314
-#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:255
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
-msgid "Loading Preview"
-msgstr "প্রাকদর্শন লোড করা হচ্ছে"
-
-#: knewstuff/knewstuff2/core/coreengine.cpp:428
-#, kde-format
-msgid "loading %1"
-msgstr "%1 লোড করা হচ্ছে"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:154
-#: knewstuff/knewstuff2/core/providerhandler.cpp:174
-msgctxt "describes the feed of the latest posted entries"
-msgid "Latest"
-msgstr "সবচেয়ে নতুন"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:160
-msgid "Highest Rated"
-msgstr "সর্বোচ্চ মান"
-
-#: knewstuff/knewstuff2/core/providerhandler.cpp:166
-msgid "Most Downloads"
-msgstr "সর্বাধিক ডাউনলোড করা"
-
-#: knewstuff/knewstuff2/ui/kdxschanges.cpp:31
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:70
-msgid "Changelog"
-msgstr "চেঞ্জ-লগ"
-
-#: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
-#, kde-format
-msgid "Version %1"
-msgstr "সংস্করণ %1"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:68
-msgid "Comments"
-msgstr "মন্তব্য"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:73
-msgid "Switch version"
-msgstr "সংস্করণ বদলাও"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:86
-msgid "Contact author"
-msgstr "লেখকের সঙ্গে যোগাযোগ করুন"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:89
-msgid "Collaboration"
-msgstr "সহযোগিতা"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:91
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:136
-msgid "Add Rating"
-msgstr "রেটিং যোগ করো"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:92
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:139
-msgid "Add Comment"
-msgstr "মন্তব্য যোগ করুন"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:93
-msgid "Translate"
-msgstr "অনুবাদ করো"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:94
-msgid "Subscribe"
-msgstr "গ্রাহক হোন"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:95
-msgid "Report bad entry"
-msgstr "খারাপ এন্ট্রি সম্বন্ধে জানান"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:158
-msgid "Send Mail"
-msgstr "ই-মেইল পাঠাও"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:162
-msgid "Contact on Jabber"
-msgstr "জ্যাবার-এ যোগাযোগ করুন"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:253
-#, kde-format
-msgid "Provider: %1"
-msgstr "সরবরাহকারী: %1"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:254
-#, kde-format
-msgid "Version: %1"
-msgstr "সংস্করণ: %1"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:328
-#, fuzzy
-msgid "The removal request was successfully registered."
-msgstr "অপসারণ অনুরোধ সফলভাবে নিবন্ধন করা হয়েছিল।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:329
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:333
-msgid "Removal of entry"
-msgstr "এন্ট্রি অপসারণ"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:332
-msgid "The removal request failed."
-msgstr "অপসারণ অনুরোধ ব্যর্থ হয়েছে।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:341
-#, fuzzy
-msgid "The subscription was successfully completed."
-msgstr "subscription সফলভাবে শেষ করা হয়েছিল।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:342
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:346
-#, fuzzy
-msgid "Subscription to entry"
-msgstr "এন্ট্রিতে Subscription"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:345
-#, fuzzy
-msgid "The subscription request failed."
-msgstr "subscription অনুরোধ ব্যর্থ হয়েছিল।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:354
-msgid "The rating was submitted successfully."
-msgstr "রেটিং সফলভাবে দাখিল করা হয়েছে।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:355
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:359
-msgid "Rating for entry"
-msgstr "এন্ট্রির জন্য রেটিং"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:358
-msgid "The rating could not be submitted."
-msgstr "রেটিং দাখিল করা যায়নি।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:367
-msgid "The comment was submitted successfully."
-msgstr "মন্তব্য সফলভাবে দাখিল করা হয়েছে।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:368
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:372
-msgid "Comment on entry"
-msgstr "এন্ট্রির সম্বন্ধে মন্তব্য করুন"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:371
-msgid "The comment could not be submitted."
-msgstr "মন্তব্য দাখিল করা যায়নি।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:379
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:585
-msgid "A protocol fault has occurred. The request has failed."
-msgstr "একটি প্রোটোকল ত্রুটি ঘটেছে। অনুরোধ ব্যর্থ হয়েছে।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:380
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:387
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:586
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:593
-msgid "Desktop Exchange Service"
-msgstr "ডেস্কটপ বিনিময় পরিষেবা"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:386
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:592
-msgid "A network error has occurred. The request has failed."
-msgstr "একটি নেটওয়ার্ক সমস্যা ঘটেছে। অনুরোধ ব্যর্থ হয়েছে।"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:420
-msgid "KNewStuff contributions"
-msgstr "KNewStuff অবদানসমূহ"
-
-#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:516
-msgid "This operation requires authentication."
-msgstr "এই কাজের জন্য সত্যতা যাচাই করা প্রয়োজন।"
-
-#: knewstuff/knewstuff2/ui/itemsview.cpp:306
-msgid "Rating: "
-msgstr "রেটিং:"
-
-#: knewstuff/knewstuff2/ui/itemsview.cpp:311
-msgid "Downloads: "
-msgstr "ডাউনলোড:"
-
-#: knewstuff/knewstuff2/ui/kdxsrating.cpp:33
-msgid "Rate this entry"
-msgstr "এই এন্ট্রিটিকে rate করুন"
-
-#: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
-msgid "User comments"
-msgstr "ব্যবহারকারীদের মন্তব্য"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:33
-msgid "Translate this entry"
-msgstr "এই এন্ট্রিটি অনুবাদ কর"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:46
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:68 dnssd/servicemodel.cpp:101
-msgid "Name"
-msgstr "নাম"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
-#: kdeui/dialogs/kshortcutseditor.cpp:667
-msgid "Description"
-msgstr "বিবরণ"
-
-#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
-msgid "Payload"
-msgstr "Payload"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:91
-msgid "Please put in a name."
-msgstr "অনুগ্রহ করে একটি নাম লিখুন।"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:159
-msgid "Old upload information found, fill out fields?"
-msgstr "পুরনো আপলোড তথ্য পাওয়া গেছে, তা দিয়ে ভরাট করব?"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:161
-msgid "Fill Out"
-msgstr "হ্যাঁ"
-
-#: knewstuff/knewstuff2/ui/uploaddialog.cpp:162
-msgid "Do Not Fill Out"
-msgstr "না"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-msgid "<p>No Downloads</p>"
-msgstr "<p>কোন ডাউনলোড নেই</p>"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
-#, kde-format
-msgid "<p>Downloads: %1</p>\n"
-msgstr "<p>ডাউনলোড: %1</p>\n"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:219
-#, kde-format
-msgid "Rating: %1"
-msgstr "রেটিং: %1"
-
-#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
-msgid "No Preview"
-msgstr "প্রাকদর্শন নেই"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:54
-msgid "Hot New Stuff Providers"
-msgstr "তাজা নতুন জিনিস যাঁরা দিচ্ছেন"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:64
-msgid "Please select one of the providers listed below:"
-msgstr "অনুগ্রহ করে নীচের তালিকা থেকে একজন প্রোভাইডার বেছে নিন:"
-
-#: knewstuff/knewstuff2/ui/providerdialog.cpp:95
-msgid "No provider selected."
-msgstr "কোন প্রোভাইডার নির্বাচিত হয়নি।"
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:142
-msgid "View Comments"
-msgstr "মন্তব্য দেখুন"
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
-msgid "Entries failed to load"
-msgstr "এন্ট্রি লোড করতে ব্যর্থ"
-
-#: knewstuff/knewstuff2/ui/downloaddialog.cpp:554
-#, fuzzy
-msgid "There was an error loading data providers."
-msgstr "একটি সমস্যা লোড করা হচ্ছে ডেটা প্রদানকারী ছিল।"
-
-#: knewstuff/knewstuff2/ui/kdxscomment.cpp:29
-msgid "Leave a comment"
-msgstr "একটি মন্তব্য লিখুন"
 
 #: kdecore/kde-config.cpp:68
 msgid "kde4-config"
@@ -4040,7 +3302,7 @@ msgstr "কে.ডি.ই. অ্যাপলিকেশন"
 msgid "Qt"
 msgstr "কিউ-টি (Qt)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4806
+#: kdecore/kernel/kcmdlineargs.cpp:498 khtml/khtml_part.cpp:4811
 msgid "KDE"
 msgstr "কে.ডি.ই."
 
@@ -4426,160 +3688,6 @@ msgid ""
 msgstr ""
 "কোনও মাইম ধরন ইনস্টল করেনি। পরীক্ষা করো যে shared-mime-info ইনস্টল করা হয়, এবং "
 "যে XDGDATADIRS নিযুক্ত করা হয় না, অথবা /usr/share অন্তর্ভুক্ত করো। (_D)"
-
-#: kdecore/localization/kcharsets.cpp:155
-#: kdecore/localization/kencodingprober.cpp:242
-#: kdecore/localization/kencodingprober.cpp:301
-#: kdecore/localization/kencodingdetector.cpp:1149
-#: kdecore/localization/kencodingdetector.cpp:1232
-msgctxt "@item Text character set"
-msgid "Western European"
-msgstr "পশ্চিম ইউরোপীয়"
-
-#: kdecore/localization/kcharsets.cpp:161
-#: kdecore/localization/kencodingprober.cpp:244
-#: kdecore/localization/kencodingprober.cpp:283
-#: kdecore/localization/kencodingdetector.cpp:1151
-#: kdecore/localization/kencodingdetector.cpp:1214
-msgctxt "@item Text character set"
-msgid "Central European"
-msgstr "মধ্য ইউরোপীয়"
-
-#: kdecore/localization/kcharsets.cpp:164
-#: kdecore/localization/kencodingprober.cpp:254
-#: kdecore/localization/kencodingprober.cpp:280
-#: kdecore/localization/kencodingdetector.cpp:1161
-#: kdecore/localization/kencodingdetector.cpp:1211
-msgctxt "@item Text character set"
-msgid "Baltic"
-msgstr "বল্টিক"
-
-#: kdecore/localization/kcharsets.cpp:167
-msgctxt "@item Text character set"
-msgid "South-Eastern Europe"
-msgstr "দক্ষিণ-পূর্ব ইউরোপ"
-
-#: kdecore/localization/kcharsets.cpp:170
-#: kdecore/localization/kencodingprober.cpp:250
-#: kdecore/localization/kencodingprober.cpp:298
-#: kdecore/localization/kencodingdetector.cpp:1157
-#: kdecore/localization/kencodingdetector.cpp:1229
-msgctxt "@item Text character set"
-msgid "Turkish"
-msgstr "তুর্কী"
-
-#: kdecore/localization/kcharsets.cpp:173
-#: kdecore/localization/kencodingprober.cpp:240
-#: kdecore/localization/kencodingprober.cpp:286
-#: kdecore/localization/kencodingdetector.cpp:1147
-#: kdecore/localization/kencodingdetector.cpp:1217
-msgctxt "@item Text character set"
-msgid "Cyrillic"
-msgstr "কিরিলিক"
-
-#: kdecore/localization/kcharsets.cpp:179
-#: kdecore/localization/kencodingprober.cpp:256
-#: kdecore/localization/kencodingprober.cpp:304
-#: kdecore/localization/kencodingdetector.cpp:1235
-msgctxt "@item Text character set"
-msgid "Chinese Traditional"
-msgstr "প্রথাগত চৈনিক"
-
-#: kdecore/localization/kcharsets.cpp:182
-#: kdecore/localization/kencodingprober.cpp:258
-#: kdecore/localization/kencodingprober.cpp:307
-#: kdecore/localization/kencodingdetector.cpp:1238
-msgctxt "@item Text character set"
-msgid "Chinese Simplified"
-msgstr "সরলীকৃত চৈনিক"
-
-#: kdecore/localization/kcharsets.cpp:186
-#: kdecore/localization/kencodingprober.cpp:310
-#: kdecore/localization/kencodingdetector.cpp:1241
-msgctxt "@item Text character set"
-msgid "Korean"
-msgstr "কোরীয়ান"
-
-#: kdecore/localization/kcharsets.cpp:188
-#: kdecore/localization/kencodingprober.cpp:252
-#: kdecore/localization/kencodingprober.cpp:295
-#: kdecore/localization/kencodingdetector.cpp:1159
-#: kdecore/localization/kencodingdetector.cpp:1226
-msgctxt "@item Text character set"
-msgid "Japanese"
-msgstr "জাপানী"
-
-#: kdecore/localization/kcharsets.cpp:192
-#: kdecore/localization/kencodingprober.cpp:246
-#: kdecore/localization/kencodingprober.cpp:289
-#: kdecore/localization/kencodingdetector.cpp:1153
-#: kdecore/localization/kencodingdetector.cpp:1220
-msgctxt "@item Text character set"
-msgid "Greek"
-msgstr "গ্রীক"
-
-#: kdecore/localization/kcharsets.cpp:195
-#: kdecore/localization/kencodingprober.cpp:260
-#: kdecore/localization/kencodingprober.cpp:277
-#: kdecore/localization/kencodingdetector.cpp:1163
-#: kdecore/localization/kencodingdetector.cpp:1208
-msgctxt "@item Text character set"
-msgid "Arabic"
-msgstr "আরবী"
-
-#: kdecore/localization/kcharsets.cpp:198
-#: kdecore/localization/kencodingprober.cpp:248
-#: kdecore/localization/kencodingprober.cpp:292
-#: kdecore/localization/kencodingdetector.cpp:1155
-#: kdecore/localization/kencodingdetector.cpp:1223
-msgctxt "@item Text character set"
-msgid "Hebrew"
-msgstr "হীব্রু"
-
-#: kdecore/localization/kcharsets.cpp:203
-#: kdecore/localization/kencodingprober.cpp:313
-#: kdecore/localization/kencodingdetector.cpp:1244
-msgctxt "@item Text character set"
-msgid "Thai"
-msgstr "থাই"
-
-#: kdecore/localization/kcharsets.cpp:206
-#: kdecore/localization/kencodingprober.cpp:238
-#: kdecore/localization/kencodingprober.cpp:316
-#: kdecore/localization/kencodingdetector.cpp:1145
-#: kdecore/localization/kencodingdetector.cpp:1247
-msgctxt "@item Text character set"
-msgid "Unicode"
-msgstr "ইউনিকোড"
-
-#: kdecore/localization/kcharsets.cpp:212
-msgctxt "@item Text character set"
-msgid "Northern Saami"
-msgstr "উত্তর সামি"
-
-#: kdecore/localization/kcharsets.cpp:214
-#: kdecore/localization/kcharsets.cpp:651
-msgctxt "@item Text character set"
-msgid "Other"
-msgstr "অন্যান্য"
-
-#: kdecore/localization/kcharsets.cpp:660
-#, kde-format
-msgctxt "@item %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
-
-#: kdecore/localization/kcharsets.cpp:663
-#, kde-format
-msgctxt "@item"
-msgid "Other encoding (%1)"
-msgstr "অন্যান্য এনকোডিং (%1)"
-
-#: kdecore/localization/kcharsets.cpp:689
-#, kde-format
-msgctxt "@item Text encoding: %1 character set, %2 encoding"
-msgid "%1 ( %2 )"
-msgstr "%1 ( %2 )"
 
 #: kdecore/localization/klocale.cpp:1083
 msgctxt "digit set"
@@ -4968,6 +4076,126 @@ msgstr "নিষ্ক্রিয়"
 msgctxt "@item Text character set"
 msgid "Universal"
 msgstr "সার্বজনীন"
+
+#: kdecore/localization/kencodingprober.cpp:238
+#: kdecore/localization/kencodingprober.cpp:316
+#: kdecore/localization/kcharsets.cpp:206
+#: kdecore/localization/kencodingdetector.cpp:1145
+#: kdecore/localization/kencodingdetector.cpp:1247
+msgctxt "@item Text character set"
+msgid "Unicode"
+msgstr "ইউনিকোড"
+
+#: kdecore/localization/kencodingprober.cpp:240
+#: kdecore/localization/kencodingprober.cpp:286
+#: kdecore/localization/kcharsets.cpp:173
+#: kdecore/localization/kencodingdetector.cpp:1147
+#: kdecore/localization/kencodingdetector.cpp:1217
+msgctxt "@item Text character set"
+msgid "Cyrillic"
+msgstr "কিরিলিক"
+
+#: kdecore/localization/kencodingprober.cpp:242
+#: kdecore/localization/kencodingprober.cpp:301
+#: kdecore/localization/kcharsets.cpp:155
+#: kdecore/localization/kencodingdetector.cpp:1149
+#: kdecore/localization/kencodingdetector.cpp:1232
+msgctxt "@item Text character set"
+msgid "Western European"
+msgstr "পশ্চিম ইউরোপীয়"
+
+#: kdecore/localization/kencodingprober.cpp:244
+#: kdecore/localization/kencodingprober.cpp:283
+#: kdecore/localization/kcharsets.cpp:161
+#: kdecore/localization/kencodingdetector.cpp:1151
+#: kdecore/localization/kencodingdetector.cpp:1214
+msgctxt "@item Text character set"
+msgid "Central European"
+msgstr "মধ্য ইউরোপীয়"
+
+#: kdecore/localization/kencodingprober.cpp:246
+#: kdecore/localization/kencodingprober.cpp:289
+#: kdecore/localization/kcharsets.cpp:192
+#: kdecore/localization/kencodingdetector.cpp:1153
+#: kdecore/localization/kencodingdetector.cpp:1220
+msgctxt "@item Text character set"
+msgid "Greek"
+msgstr "গ্রীক"
+
+#: kdecore/localization/kencodingprober.cpp:248
+#: kdecore/localization/kencodingprober.cpp:292
+#: kdecore/localization/kcharsets.cpp:198
+#: kdecore/localization/kencodingdetector.cpp:1155
+#: kdecore/localization/kencodingdetector.cpp:1223
+msgctxt "@item Text character set"
+msgid "Hebrew"
+msgstr "হীব্রু"
+
+#: kdecore/localization/kencodingprober.cpp:250
+#: kdecore/localization/kencodingprober.cpp:298
+#: kdecore/localization/kcharsets.cpp:170
+#: kdecore/localization/kencodingdetector.cpp:1157
+#: kdecore/localization/kencodingdetector.cpp:1229
+msgctxt "@item Text character set"
+msgid "Turkish"
+msgstr "তুর্কী"
+
+#: kdecore/localization/kencodingprober.cpp:252
+#: kdecore/localization/kencodingprober.cpp:295
+#: kdecore/localization/kcharsets.cpp:188
+#: kdecore/localization/kencodingdetector.cpp:1159
+#: kdecore/localization/kencodingdetector.cpp:1226
+msgctxt "@item Text character set"
+msgid "Japanese"
+msgstr "জাপানী"
+
+#: kdecore/localization/kencodingprober.cpp:254
+#: kdecore/localization/kencodingprober.cpp:280
+#: kdecore/localization/kcharsets.cpp:164
+#: kdecore/localization/kencodingdetector.cpp:1161
+#: kdecore/localization/kencodingdetector.cpp:1211
+msgctxt "@item Text character set"
+msgid "Baltic"
+msgstr "বল্টিক"
+
+#: kdecore/localization/kencodingprober.cpp:256
+#: kdecore/localization/kencodingprober.cpp:304
+#: kdecore/localization/kcharsets.cpp:179
+#: kdecore/localization/kencodingdetector.cpp:1235
+msgctxt "@item Text character set"
+msgid "Chinese Traditional"
+msgstr "প্রথাগত চৈনিক"
+
+#: kdecore/localization/kencodingprober.cpp:258
+#: kdecore/localization/kencodingprober.cpp:307
+#: kdecore/localization/kcharsets.cpp:182
+#: kdecore/localization/kencodingdetector.cpp:1238
+msgctxt "@item Text character set"
+msgid "Chinese Simplified"
+msgstr "সরলীকৃত চৈনিক"
+
+#: kdecore/localization/kencodingprober.cpp:260
+#: kdecore/localization/kencodingprober.cpp:277
+#: kdecore/localization/kcharsets.cpp:195
+#: kdecore/localization/kencodingdetector.cpp:1163
+#: kdecore/localization/kencodingdetector.cpp:1208
+msgctxt "@item Text character set"
+msgid "Arabic"
+msgstr "আরবী"
+
+#: kdecore/localization/kencodingprober.cpp:310
+#: kdecore/localization/kcharsets.cpp:186
+#: kdecore/localization/kencodingdetector.cpp:1241
+msgctxt "@item Text character set"
+msgid "Korean"
+msgstr "কোরীয়ান"
+
+#: kdecore/localization/kencodingprober.cpp:313
+#: kdecore/localization/kcharsets.cpp:203
+#: kdecore/localization/kencodingdetector.cpp:1244
+msgctxt "@item Text character set"
+msgid "Thai"
+msgstr "থাই"
 
 #. i18n: The following messages, with msgctxt "@tag/modifier",
 #. are KUIT patterns for formatting the text found inside semantic tags.
@@ -5545,6 +4773,40 @@ msgctxt "keyboard-key-name"
 msgid "F%1"
 msgstr "F%1"
 
+#: kdecore/localization/kcharsets.cpp:167
+msgctxt "@item Text character set"
+msgid "South-Eastern Europe"
+msgstr "দক্ষিণ-পূর্ব ইউরোপ"
+
+#: kdecore/localization/kcharsets.cpp:212
+msgctxt "@item Text character set"
+msgid "Northern Saami"
+msgstr "উত্তর সামি"
+
+#: kdecore/localization/kcharsets.cpp:214
+#: kdecore/localization/kcharsets.cpp:651
+msgctxt "@item Text character set"
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: kdecore/localization/kcharsets.cpp:660
+#, kde-format
+msgctxt "@item %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
+#: kdecore/localization/kcharsets.cpp:663
+#, kde-format
+msgctxt "@item"
+msgid "Other encoding (%1)"
+msgstr "অন্যান্য এনকোডিং (%1)"
+
+#: kdecore/localization/kcharsets.cpp:689
+#, kde-format
+msgctxt "@item Text encoding: %1 character set, %2 encoding"
+msgid "%1 ( %2 )"
+msgstr "%1 ( %2 )"
+
 #: kdecore/network/netsupp.cpp:891 kdecore/network/k3resolver.cpp:545
 msgid "no error"
 msgstr "কোনো ভুল নেই"
@@ -5754,15 +5016,15 @@ msgctxt "Socket error code RemotelyDisconnected"
 msgid "remote host closed connection"
 msgstr "দূরবর্তী হোস্ট যোগাযোগ বিচ্ছিন্ন করেছে"
 
-#: kdecore/network/klocalsocket_win.cpp:31
-#: kdecore/network/klocalsocket_win.cpp:36
-msgid "Operation not supported"
-msgstr "অপারেশন সমর্থিত নয়"
-
 #: kdecore/network/ksocketfactory.cpp:90
 #: kdecore/network/ksocketfactory.cpp:104
 msgid "Timed out trying to connect to remote host"
 msgstr "প্রত্যন্ত হোস্টে সংযোগ করাকালীন টাইম-আউট"
+
+#: kdecore/network/klocalsocket_win.cpp:31
+#: kdecore/network/klocalsocket_win.cpp:36
+msgid "Operation not supported"
+msgstr "অপারেশন সমর্থিত নয়"
 
 #: kdecore/network/k3socketaddress.cpp:623
 #, kde-format
@@ -5878,14 +5140,14 @@ msgstr ""
 msgid "DBus Backend error: received corrupt data from helper %1 %2"
 msgstr "DBus Backend error: received corrupt data from helper %1 %2"
 
-#: kdecore/config/kconfig.cpp:688
-msgid "Please contact your system administrator."
-msgstr "অনুগ্রহ করে আপনার সিস্টেম অ্যাডমিনস্ট্রেটরের সঙ্গে যোগাযোগ করুন।"
-
 #: kdecore/config/kconfigini.cpp:518
 #, kde-format
 msgid "Configuration file \"%1\" not writable.\n"
 msgstr "কনফিগারেশন ফাইল \"%1\" লেখা যাচ্ছে না।\n"
+
+#: kdecore/config/kconfig.cpp:688
+msgid "Please contact your system administrator."
+msgstr "অনুগ্রহ করে আপনার সিস্টেম অ্যাডমিনস্ট্রেটরের সঙ্গে যোগাযোগ করুন।"
 
 #: kdecore/sonnet/loader.cpp:154
 msgctxt "dictionary variant"
@@ -6088,6 +5350,744 @@ msgstr "%1 লাইব্রেরীটিতে কে.ডি.ই. 4-এ ক�
 msgid "The plugin '%1' uses an incompatible KDE library (%2)."
 msgstr "প্লাগিন '%1' একটি  incompatible কে.ডি.ই. লাইব্রেরী ব্যবহার করো (%2)।"
 
+#: knewstuff/knewstuff3/uploaddialog.cpp:108
+msgid "Fetching license data from server..."
+msgstr "সার্ভার থেকে লাইসেন্স তথ্য আনা হচ্ছে..."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:115
+msgid "Fetching content data from server..."
+msgstr "সার্ভার থেকে বিষয়বস্তু সংক্রান্ত তথ্য আনা হচ্ছে..."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:231
+msgid "Checking login..."
+msgstr "লগিন পরীক্ষা করা হচ্ছে..."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:253
+#, fuzzy
+msgid "Fetching your previously updated content..."
+msgstr "প্রাকদর্শন এবং বিষয়বস্তু আপলোড করা হচ্ছে..."
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:256
+msgid "Could not verify login, please try again."
+msgstr "লগিন যাচাই করা যায়নি, আবার চেষ্টা করুন।"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:275
+msgid "Fetching your previously updated content finished."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:293
+msgid "Fetching content data from server finished."
+msgstr ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:316
+#: knewstuff/knewstuff3/uploaddialog.cpp:748
+msgctxt "A link to the website where the get hot new stuff upload can be seen"
+msgid "Visit website"
+msgstr "ওয়েবসাইট-এ যান"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:368
+#: kdeui/dialogs/kassistantdialog.cpp:94
+msgctxt "Opposite to Back"
+msgid "Next"
+msgstr "পরবর্তী"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:370
+#: kdeui/dialogs/kassistantdialog.cpp:95
+msgid "Finish"
+msgstr "শেষ করো"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:389
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:64
+#, kde-format
+msgctxt "Program name followed by 'Add On Uploader'"
+msgid "%1 Add-On Uploader"
+msgstr "%1 Add-On আপ-লোডার"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:445
+#: knewstuff/knewstuff3/uploaddialog.cpp:674
+#, kde-format
+msgid "File not found: %1"
+msgstr "ফাইল পাওয়া যায়নি: %1"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:445
+#: knewstuff/knewstuff3/uploaddialog.cpp:549
+#: knewstuff/knewstuff3/uploaddialog.cpp:674
+msgid "Upload Failed"
+msgstr "আপলোড ব্যর্থ"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:503
+#, kde-format
+msgid ""
+"The server does not recognize the category %2 to which you are trying to "
+"upload."
+msgid_plural ""
+"The server does not recognize any of the categories to which you are trying "
+"to upload: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:506
+#: khtml/rendering/render_form.cpp:811 kjs/object.cpp:548
+#: kdeui/dialogs/kmessagebox.cpp:834 kdeui/dialogs/kmessagebox.cpp:864
+msgid "Error"
+msgstr "সমস্যা"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:549
+#, fuzzy, kde-format
+msgid "The selected category \"%1\" is invalid."
+msgstr "সার্টিফিকেট-টি অবৈধ"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:597
+#: knewstuff/knewstuff3/uploaddialog.cpp:606
+#: knewstuff/knewstuff3/uploaddialog.cpp:614
+msgid "Select preview image"
+msgstr "চিত্রের প্রাকদর্শন নির্বাচন করুন"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:624
+msgid "There was a network error."
+msgstr "একটি নেটওয়ার্ক ঘটিত সমস্যা হয়েছে।"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:624
+#: knewstuff/knewstuff3/uploaddialog.cpp:629
+msgid "Uploading Failed"
+msgstr "আপলোড ব্যর্থ"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:629
+msgid "Authentication error."
+msgstr "সত্যতা যাচাইয়ে সমস্যা।"
+
+#: knewstuff/knewstuff3/uploaddialog.cpp:638
+#, kde-format
+msgid "Upload failed: %1"
+msgstr "আপলোড ব্যর্থ: %1"
+
+#: knewstuff/knewstuff3/knewstuffbutton.cpp:48
+#: knewstuff/knewstuff2/ui/knewstuffbutton.cpp:49
+msgid "Download New Stuff..."
+msgstr "নতুন জিনিস ডাউনলোড করুন..."
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:113
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:312
+msgid "Timeout. Check Internet connection."
+msgstr "টাইম-আউট। ইন্টারনেট সংযোগ পরীক্ষা করুন।"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:171
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:252
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:503
+#, kde-format
+msgid "Server: %1"
+msgstr "সার্ভার: %1"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:172
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:504
+#, kde-format
+msgid "<br />Provider: %1"
+msgstr "<br />সরবরাহকারী: %1"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:173
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:505
+#, kde-format
+msgid "<br />Version: %1"
+msgstr "<br />সংস্করণ: %1"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:177
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:82
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:258
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:509
+msgid "Provider information"
+msgstr "সরবরাহকারী তথ্য"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:188
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:535
+#, kde-format
+msgid "Could not install %1"
+msgstr "%1 ইনস্টল করা যায়নি"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:189
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:536
+msgid "Get Hot New Stuff!"
+msgstr "তাজা নতুন জিনিসপত্র আনুন!"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:199
+#: knewstuff/knewstuff3/downloaddialog.cpp:81
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:127
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:555
+msgid "Get Hot New Stuff"
+msgstr "তাজা নতুন জিনিসপত্র আনুন"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:241
+msgid "Icons view mode"
+msgstr "আইকন ভিউ মোড"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:243
+msgid "Details view mode"
+msgstr "বিস্তারিত ভিউ মোড"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:258
+msgid "All Providers"
+msgstr "সব সরবরাহকারী"
+
+#: knewstuff/knewstuff3/downloadwidget.cpp:265
+msgid "All Categories"
+msgstr "সব গোত্র"
+
+#: knewstuff/knewstuff3/downloaddialog.cpp:88
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:129
+#, kde-format
+msgctxt "Program name followed by 'Add On Installer'"
+msgid "%1 Add-On Installer"
+msgstr "%1 Add-On ইনস্টলার"
+
+#: knewstuff/knewstuff3/core/installation.cpp:157
+msgid "Invalid item."
+msgstr "অবৈধ বস্তু।"
+
+#: knewstuff/knewstuff3/core/installation.cpp:164
+#, kde-format
+msgid "Download of item failed: no download URL for \"%1\"."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:200
+#, kde-format
+msgid "Download of \"%1\" failed, error: %2"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:208
+msgid ""
+"The downloaded file is a html file. This indicates a link to a website "
+"instead of the actual download. Would you like to open the site with a "
+"browser instead?"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:208
+msgid "Possibly bad download link"
+msgstr "সম্ভবত বাজে ডাউনলোড লিঙ্ক"
+
+#: knewstuff/knewstuff3/core/installation.cpp:211
+msgid "Downloaded file was a HTML file. Opened in browser."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/installation.cpp:276
+#, kde-format
+msgid "Could not install \"%1\": file not found."
+msgstr "\"%1\" ইনস্টল করা যায়নি: ফাইল পাওয়া যায়নি।"
+
+#: knewstuff/knewstuff3/core/installation.cpp:474
+msgid "Overwrite existing file?"
+msgstr "ফাইল মুছে লিখব?"
+
+#: knewstuff/knewstuff3/core/installation.cpp:474
+msgid "Download File:"
+msgstr "ডাউনলোড ফাইল:"
+
+#: knewstuff/knewstuff3/core/engine.cpp:99
+msgid "Initializing"
+msgstr "চালু করা হচ্ছে"
+
+#: knewstuff/knewstuff3/core/engine.cpp:103
+#: knewstuff/knewstuff3/core/engine.cpp:112
+#, kde-format
+msgid "Configuration file not found: \"%1\""
+msgstr "কনফিগারেশন ফাইল পাওয়া যায়নি: \"%1\""
+
+#: knewstuff/knewstuff3/core/engine.cpp:125
+#, kde-format
+msgid "Configuration file is invalid: \"%1\""
+msgstr "কনফিগারেশন ফাইল অবৈধ: \"%1\""
+
+#: knewstuff/knewstuff3/core/engine.cpp:174
+msgid "Loading provider information"
+msgstr "সরবরাহকারী সংক্রান্ত তথ্যাবলী লোড করা হচ্ছে"
+
+#: knewstuff/knewstuff3/core/engine.cpp:197
+#, kde-format
+msgid "Could not load get hot new stuff providers from file: %1"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/engine.cpp:215
+msgid "Error initializing provider."
+msgstr ""
+
+#: knewstuff/knewstuff3/core/engine.cpp:219
+#: knewstuff/knewstuff3/core/engine.cpp:499
+msgid "Loading data"
+msgstr "তথ্য লোড করা হচ্ছে"
+
+#: knewstuff/knewstuff3/core/engine.cpp:247
+msgid "Loading data from provider"
+msgstr "সরবরাহকারীর থেকে তথ্য লোড করা হচ্ছে"
+
+#: knewstuff/knewstuff3/core/engine.cpp:252
+#, kde-format
+msgid "Loading of providers from file: %1 failed"
+msgstr ""
+
+#: knewstuff/knewstuff3/core/engine.cpp:461
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:195
+#, kde-format
+msgid "Re: %1"
+msgstr "Re: %1"
+
+#: knewstuff/knewstuff3/core/engine.cpp:501
+#, kde-format
+msgid "Loading one preview"
+msgid_plural "Loading %1 previews"
+msgstr[0] "একটি প্রাকদর্শন লোড করা হচ্ছে"
+msgstr[1] "%1-টি প্রাকদর্শন লোড করা হচ্ছে"
+
+#: knewstuff/knewstuff3/core/engine.cpp:503
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:133
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:342
+msgid "Installing"
+msgstr "ইনস্টল করা হচ্ছে"
+
+#: knewstuff/knewstuff3/core/security.cpp:75
+#: knewstuff/knewstuff2/core/security.cpp:75
+#, fuzzy
+msgid ""
+"<qt>Cannot start <i>gpg</i> and retrieve the available keys. Make sure that "
+"<i>gpg</i> is installed, otherwise verification of downloaded resources will "
+"not be possible.</qt>"
+msgstr ""
+"<qt>শুরু করতে পারে না<i>জিপিজি</i>এবং প্রাপ্তিসাধ্য চাবি আহরন করো। নিশ্চিত করো "
+"যে<i>জিপিজি</i>ইনস্টল করা হয়, ডাউনলোডকৃত সম্পদের অন্যথা যাচাই সম্ভব হবে না।</qt>"
+
+#: knewstuff/knewstuff3/core/security.cpp:197
+#: knewstuff/knewstuff2/core/security.cpp:197
+#, fuzzy, kde-format
+msgid ""
+"<qt>Enter passphrase for key <b>0x%1</b>, belonging to<br /><i>%2&lt;%3&gt;</"
+"i><br />:</qt>"
+msgstr ""
+"<qt>মূখ্যের জন্য পাশফ্রেজ ঢোকাও<b>0x%1</b>তে, বিষয়সম্পত্তি<br /><i>%2lt; %3gt;</"
+"i><br />:</qt>(&g)"
+
+#: knewstuff/knewstuff3/core/security.cpp:276
+#: knewstuff/knewstuff2/core/security.cpp:276
+#, fuzzy
+msgid ""
+"<qt>Cannot start <i>gpg</i> and check the validity of the file. Make sure "
+"that <i>gpg</i> is installed, otherwise verification of downloaded resources "
+"will not be possible.</qt>"
+msgstr ""
+"<qt>শুরু করতে পারে না<i>জিপিজি</i>এবং ফাইলের বৈধতা পরীক্ষা করো। নিশ্চিত করো "
+"যে<i>জিপিজি</i>ইনস্টল করা হয়, ডাউনলোডকৃত সম্পদের অন্যথা যাচাই সম্ভব হবে না।</qt>"
+
+#: knewstuff/knewstuff3/core/security.cpp:331
+#: knewstuff/knewstuff2/core/security.cpp:331
+#, fuzzy
+msgid "Select Signing Key"
+msgstr "Signing চাবি নির্বাচন করো"
+
+#: knewstuff/knewstuff3/core/security.cpp:331
+#: knewstuff/knewstuff2/core/security.cpp:331
+#, fuzzy
+msgid "Key used for signing:"
+msgstr "চাবি সই করার জন্য ব্যবহার করেছিল:"
+
+#: knewstuff/knewstuff3/core/security.cpp:363
+#: knewstuff/knewstuff2/core/security.cpp:363
+#, fuzzy
+msgid ""
+"<qt>Cannot start <i>gpg</i> and sign the file. Make sure that <i>gpg</i> is "
+"installed, otherwise signing of the resources will not be possible.</qt>"
+msgstr ""
+"<qt>শুরু করতে পারে না<i>জিপিজি</i>এবং ফাইল সই করো। নিশ্চিত করো যে<i>জিপিজি</"
+"i>ইনস্টল করা হয়, সম্পদ সম্ভবের অন্যথায় সই করবে না।</qt>"
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:288
+#, kde-format
+msgctxt ""
+"the price of a download item, parameter 1 is the currency, 2 is the price"
+msgid ""
+"This items costs %1 %2.\n"
+"Do you want to buy it?"
+msgstr ""
+"এই বস্তুটির দাম %1 %2.\n"
+"আপনি কি এটি কিনতে চান?"
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:302
+#, kde-format
+msgid ""
+"Your account balance is too low:\n"
+"Your balance: %1\n"
+"Price: %2"
+msgstr ""
+"আপনার অ্যাকাউন্ট-এ যথেষ্ট অঙ্ক বাকি  নেই:\n"
+"বাকি অঙ্ক: %1\n"
+"দাম: %2"
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:341
+msgctxt "voting for an item (good/bad)"
+msgid "Your vote was recorded."
+msgstr "আপনার ভোট রেকর্ড করা হয়েছে।"
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:355
+msgid "You are now a fan."
+msgstr "আপনি এখন একজন ফ্যান।"
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:366
+#, kde-format
+msgid "Network error. (%1)"
+msgstr "নেটওয়ার্ক সমস্যা। (%1)"
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:370
+msgid "Too many requests to server. Please try again in a few minutes."
+msgstr ""
+
+#: knewstuff/knewstuff3/attica/atticaprovider.cpp:372
+#, kde-format
+msgid "Unknown Open Collaboration Service API error. (%1)"
+msgstr ""
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:138
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:347
+msgid "Updating"
+msgstr "আপডেট করা হচ্ছে"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:148
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:357
+msgid "Install Again"
+msgstr "আবার ইনস্টল করো"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:174
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:282
+#: kdeui/dialogs/kmessagebox.cpp:271
+msgid "Details"
+msgstr "বিস্তারিত বিবরণ"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:223
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:225
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:227
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:158
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:160
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:162
+#, kde-format
+msgctxt "Show the author of this item in a list"
+msgid "By <i>%1</i>"
+msgstr "<i>%1</i>-র সৌজন্যে"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:241
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:185
+#, kde-format
+msgid "1 fan"
+msgid_plural "%1 fans"
+msgstr[0] "একটি ফ্যান"
+msgstr[1] "%1-টি ফ্যান"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:244
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:188
+#, kde-format
+msgid "1 download"
+msgid_plural "%1 downloads"
+msgstr[0] "একটি ডাউনলোড"
+msgstr[1] "%1-টি ডাউনলোড"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:263
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:107
+#, kde-format
+msgid "Rating: %1%"
+msgstr "রেটিং: %1%"
+
+#: knewstuff/knewstuff3/ui/itemsviewdelegate.cpp:314
+#: knewstuff/knewstuff3/ui/itemsgridviewdelegate.cpp:255
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:264
+msgid "Loading Preview"
+msgstr "প্রাকদর্শন লোড করা হচ্ছে"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:94
+#, kde-format
+msgid "Details for %1"
+msgstr "%1-এর বিস্তারিত বিবরণ"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:114
+msgctxt "A link to the description of this Get Hot New Stuff item"
+msgid "Homepage"
+msgstr "হোমপেজ"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:117
+#, fuzzy
+msgctxt ""
+"A link to make a donation for a Get Hot New Stuff item (opens a web browser)"
+msgid "Make a donation"
+msgstr "এইচ-টি-এম-এল ডকুমেনটেশন"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:121
+#, kde-format
+msgctxt "A link to the knowledgebase (like a forum) (opens a web browser)"
+msgid "Knowledgebase (no entries)"
+msgid_plural "Knowledgebase (%1 entries)"
+msgstr[0] "Knowledgebase (কোন এন্ট্রী নেই)"
+msgstr[1] "Knowledgebase (%1-টি এন্ট্রী)"
+
+#: knewstuff/knewstuff3/ui/entrydetailsdialog.cpp:124
+msgctxt "Tooltip for a link in a dialog"
+msgid "Opens in a browser window"
+msgstr "নতুন ব্রাউজার উইণ্ডোয় খোলে"
+
+#: knewstuff/knewstuff2/core/coreengine.cpp:428
+#, kde-format
+msgid "loading %1"
+msgstr "%1 লোড করা হচ্ছে"
+
+#: knewstuff/knewstuff2/core/providerhandler.cpp:154
+#: knewstuff/knewstuff2/core/providerhandler.cpp:174
+msgctxt "describes the feed of the latest posted entries"
+msgid "Latest"
+msgstr "সবচেয়ে নতুন"
+
+#: knewstuff/knewstuff2/core/providerhandler.cpp:160
+msgid "Highest Rated"
+msgstr "সর্বোচ্চ মান"
+
+#: knewstuff/knewstuff2/core/providerhandler.cpp:166
+msgid "Most Downloads"
+msgstr "সর্বাধিক ডাউনলোড করা"
+
+#: knewstuff/knewstuff2/ui/kdxschanges.cpp:31
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:70
+msgid "Changelog"
+msgstr "চেঞ্জ-লগ"
+
+#: knewstuff/knewstuff2/ui/kdxschanges.cpp:53
+#, kde-format
+msgid "Version %1"
+msgstr "সংস্করণ %1"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:68
+msgid "Comments"
+msgstr "মন্তব্য"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:73
+msgid "Switch version"
+msgstr "সংস্করণ বদলাও"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:86
+msgid "Contact author"
+msgstr "লেখকের সঙ্গে যোগাযোগ করুন"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:89
+msgid "Collaboration"
+msgstr "সহযোগিতা"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:91
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:136
+msgid "Add Rating"
+msgstr "রেটিং যোগ করো"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:92
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:139
+msgid "Add Comment"
+msgstr "মন্তব্য যোগ করুন"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:93
+msgid "Translate"
+msgstr "অনুবাদ করো"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:94
+msgid "Subscribe"
+msgstr "গ্রাহক হোন"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:95
+msgid "Report bad entry"
+msgstr "খারাপ এন্ট্রি সম্বন্ধে জানান"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:158
+msgid "Send Mail"
+msgstr "ই-মেইল পাঠাও"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:162
+msgid "Contact on Jabber"
+msgstr "জ্যাবার-এ যোগাযোগ করুন"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:253
+#, kde-format
+msgid "Provider: %1"
+msgstr "সরবরাহকারী: %1"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:254
+#, kde-format
+msgid "Version: %1"
+msgstr "সংস্করণ: %1"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:328
+#, fuzzy
+msgid "The removal request was successfully registered."
+msgstr "অপসারণ অনুরোধ সফলভাবে নিবন্ধন করা হয়েছিল।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:329
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:333
+msgid "Removal of entry"
+msgstr "এন্ট্রি অপসারণ"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:332
+msgid "The removal request failed."
+msgstr "অপসারণ অনুরোধ ব্যর্থ হয়েছে।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:341
+#, fuzzy
+msgid "The subscription was successfully completed."
+msgstr "subscription সফলভাবে শেষ করা হয়েছিল।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:342
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:346
+#, fuzzy
+msgid "Subscription to entry"
+msgstr "এন্ট্রিতে Subscription"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:345
+#, fuzzy
+msgid "The subscription request failed."
+msgstr "subscription অনুরোধ ব্যর্থ হয়েছিল।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:354
+msgid "The rating was submitted successfully."
+msgstr "রেটিং সফলভাবে দাখিল করা হয়েছে।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:355
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:359
+msgid "Rating for entry"
+msgstr "এন্ট্রির জন্য রেটিং"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:358
+msgid "The rating could not be submitted."
+msgstr "রেটিং দাখিল করা যায়নি।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:367
+msgid "The comment was submitted successfully."
+msgstr "মন্তব্য সফলভাবে দাখিল করা হয়েছে।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:368
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:372
+msgid "Comment on entry"
+msgstr "এন্ট্রির সম্বন্ধে মন্তব্য করুন"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:371
+msgid "The comment could not be submitted."
+msgstr "মন্তব্য দাখিল করা যায়নি।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:379
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:585
+msgid "A protocol fault has occurred. The request has failed."
+msgstr "একটি প্রোটোকল ত্রুটি ঘটেছে। অনুরোধ ব্যর্থ হয়েছে।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:380
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:387
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:586
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:593
+msgid "Desktop Exchange Service"
+msgstr "ডেস্কটপ বিনিময় পরিষেবা"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:386
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:592
+msgid "A network error has occurred. The request has failed."
+msgstr "একটি নেটওয়ার্ক সমস্যা ঘটেছে। অনুরোধ ব্যর্থ হয়েছে।"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:420
+msgid "KNewStuff contributions"
+msgstr "KNewStuff অবদানসমূহ"
+
+#: knewstuff/knewstuff2/ui/kdxsbutton.cpp:516
+msgid "This operation requires authentication."
+msgstr "এই কাজের জন্য সত্যতা যাচাই করা প্রয়োজন।"
+
+#: knewstuff/knewstuff2/ui/itemsview.cpp:306
+msgid "Rating: "
+msgstr "রেটিং:"
+
+#: knewstuff/knewstuff2/ui/itemsview.cpp:311
+msgid "Downloads: "
+msgstr "ডাউনলোড:"
+
+#: knewstuff/knewstuff2/ui/kdxsrating.cpp:33
+msgid "Rate this entry"
+msgstr "এই এন্ট্রিটিকে rate করুন"
+
+#: knewstuff/knewstuff2/ui/kdxscomments.cpp:32
+msgid "User comments"
+msgstr "ব্যবহারকারীদের মন্তব্য"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:33
+msgid "Translate this entry"
+msgstr "এই এন্ট্রিটি অনুবাদ কর"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:46
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:68 dnssd/servicemodel.cpp:101
+msgid "Name"
+msgstr "নাম"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:47
+#: kdeui/dialogs/kshortcutseditor.cpp:667
+msgid "Description"
+msgstr "বিবরণ"
+
+#: knewstuff/knewstuff2/ui/kdxstranslation.cpp:48
+msgid "Payload"
+msgstr "Payload"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:91
+msgid "Please put in a name."
+msgstr "অনুগ্রহ করে একটি নাম লিখুন।"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:159
+msgid "Old upload information found, fill out fields?"
+msgstr "পুরনো আপলোড তথ্য পাওয়া গেছে, তা দিয়ে ভরাট করব?"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:161
+msgid "Fill Out"
+msgstr "হ্যাঁ"
+
+#: knewstuff/knewstuff2/ui/uploaddialog.cpp:162
+msgid "Do Not Fill Out"
+msgstr "না"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
+msgid "<p>No Downloads</p>"
+msgstr "<p>কোন ডাউনলোড নেই</p>"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:150
+#, kde-format
+msgid "<p>Downloads: %1</p>\n"
+msgstr "<p>ডাউনলোড: %1</p>\n"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:219
+#, kde-format
+msgid "Rating: %1"
+msgstr "রেটিং: %1"
+
+#: knewstuff/knewstuff2/ui/itemsviewdelegate.cpp:254
+msgid "No Preview"
+msgstr "প্রাকদর্শন নেই"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:54
+msgid "Hot New Stuff Providers"
+msgstr "তাজা নতুন জিনিস যাঁরা দিচ্ছেন"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:64
+msgid "Please select one of the providers listed below:"
+msgstr "অনুগ্রহ করে নীচের তালিকা থেকে একজন প্রোভাইডার বেছে নিন:"
+
+#: knewstuff/knewstuff2/ui/providerdialog.cpp:95
+msgid "No provider selected."
+msgstr "কোন প্রোভাইডার নির্বাচিত হয়নি।"
+
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:142
+msgid "View Comments"
+msgstr "মন্তব্য দেখুন"
+
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:405
+msgid "Entries failed to load"
+msgstr "এন্ট্রি লোড করতে ব্যর্থ"
+
+#: knewstuff/knewstuff2/ui/downloaddialog.cpp:554
+#, fuzzy
+msgid "There was an error loading data providers."
+msgstr "একটি সমস্যা লোড করা হচ্ছে ডেটা প্রদানকারী ছিল।"
+
+#: knewstuff/knewstuff2/ui/kdxscomment.cpp:29
+msgid "Leave a comment"
+msgstr "একটি মন্তব্য লিখুন"
+
 #: khtml/khtmlview.cpp:1886
 msgid "Find stopped."
 msgstr "খোঁজ থামানো হয়েছে।"
@@ -6124,7 +6124,7 @@ msgstr "লেখা পাওয়া যায়নি: \"%1\"।"
 msgid "Access Keys activated"
 msgstr "সহায়ক কী (Key) সক্রিয় করা হয়েছে"
 
-#: khtml/khtmlview.cpp:2953 khtml/khtmlview.cpp:2995 khtml/khtml_part.cpp:4753
+#: khtml/khtmlview.cpp:2953 khtml/khtmlview.cpp:2995 khtml/khtml_part.cpp:4758
 #: khtml/html/html_formimpl.cpp:1606 khtml/html/html_formimpl.cpp:1818
 msgid "Submit"
 msgstr "জমা দাও"
@@ -6158,8 +6158,8 @@ msgstr "অস্বীকার করো"
 msgid "Filter error"
 msgstr "ফিল্টার সমস্যা"
 
-#: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3701 khtml/khtml_part.cpp:3930
-#: khtml/khtml_part.cpp:4348 kparts/browserrun.cpp:415
+#: khtml/khtml_run.cpp:104 khtml/khtml_part.cpp:3706 khtml/khtml_part.cpp:3935
+#: khtml/khtml_part.cpp:4353 kparts/browserrun.cpp:415
 msgid "Save As"
 msgstr "নতুন নামে সংরক্ষণ করো"
 
@@ -6230,6 +6230,30 @@ msgstr "ছবি ছাপাও"
 msgid "Print header"
 msgstr "হেডার ছাপাও"
 
+#: khtml/khtmlimage.cpp:197
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 পিক্সেল)"
+
+#: khtml/khtmlimage.cpp:199
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 পিক্সেল"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 পিক্সেল)"
+
+#: khtml/khtmlimage.cpp:206
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "ছবি - %1x%2 পিক্সেল"
+
+#: khtml/khtmlimage.cpp:212
+msgid "Done."
+msgstr "হয়ে গেছে।"
+
 #: khtml/test_regression.cpp:619
 #, fuzzy
 msgid "Directory containing tests, basedir and output directories."
@@ -6295,30 +6319,6 @@ msgstr "TestRegression"
 #: khtml/test_regression.cpp:639
 msgid "Regression tester for khtml"
 msgstr "Regression tester for khtml"
-
-#: khtml/khtmlimage.cpp:197
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 পিক্সেল)"
-
-#: khtml/khtmlimage.cpp:199
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 পিক্সেল"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 পিক্সেল)"
-
-#: khtml/khtmlimage.cpp:206
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "ছবি - %1x%2 পিক্সেল"
-
-#: khtml/khtmlimage.cpp:212
-msgid "Done."
-msgstr "হয়ে গেছে।"
 
 #: khtml/khtml_ext.cpp:417
 msgid "&Copy Text"
@@ -6482,10 +6482,6 @@ msgstr "ডিফল্ট ফন্ট মাপ (১০০%)"
 msgid "%1%"
 msgstr "%1%"
 
-#: khtml/khtmladaptorpart.cpp:29
-msgid "Inactive"
-msgstr "নিষ্ক্রিয়"
-
 #: khtml/khtml_part.cpp:261
 msgid "View Do&cument Source"
 msgstr "&নথীর উত্স দেখাও"
@@ -6498,7 +6494,7 @@ msgstr "নথী সংক্রান্ত তথ্যাবলী দেখ
 msgid "Save &Background Image As..."
 msgstr "&পটভূমির চিত্র নতুন নামে সংরক্ষণ করো"
 
-#: khtml/khtml_part.cpp:306 khtml/khtml_part.cpp:4012
+#: khtml/khtml_part.cpp:306 khtml/khtml_part.cpp:4017
 msgid "SSL"
 msgstr "SSL"
 
@@ -6590,144 +6586,144 @@ msgstr ""
 msgid "Toggle Caret Mode"
 msgstr "ক্যারেট মোড অদলবদল করো"
 
-#: khtml/khtml_part.cpp:703
+#: khtml/khtml_part.cpp:708
 #, kde-format
 msgid "The fake user-agent '%1' is in use."
 msgstr "নকল user-agent '%1' ব্যবহার করা হচ্ছে। "
 
-#: khtml/khtml_part.cpp:1200
+#: khtml/khtml_part.cpp:1205
 msgid "This web page contains coding errors."
 msgstr "এই ওয়েব পেজ-এ কিছু কোডিং সমস্যা রয়েছে।"
 
-#: khtml/khtml_part.cpp:1242
+#: khtml/khtml_part.cpp:1247
 msgid "&Hide Errors"
 msgstr "&সমস্যা হলেও দেখিও না"
 
-#: khtml/khtml_part.cpp:1243
+#: khtml/khtml_part.cpp:1248
 msgid "&Disable Error Reporting"
 msgstr "সমস্যা বি&বরণী নিষ্ক্রিয় করো"
 
-#: khtml/khtml_part.cpp:1287
+#: khtml/khtml_part.cpp:1292
 #, kde-format
 msgid "<qt><b>Error</b>: %1: %2</qt>"
 msgstr "<qt><b>সমস্যা</b>: %1: %2</qt>"
 
-#: khtml/khtml_part.cpp:1336
+#: khtml/khtml_part.cpp:1341
 #, kde-format
 msgid "<qt><b>Error</b>: node %1: %2</qt>"
 msgstr "<qt><b>সমস্যা</b>: নোড %1: %2</qt>"
 
-#: khtml/khtml_part.cpp:1447
+#: khtml/khtml_part.cpp:1452
 msgid "Display Images on Page"
 msgstr "পাতায় ছবি দেখাও"
 
-#: khtml/khtml_part.cpp:1814
+#: khtml/khtml_part.cpp:1819
 #, kde-format
 msgid "Error: %1 - %2"
 msgstr "সমস্যা: %1 - %2"
 
-#: khtml/khtml_part.cpp:1819
+#: khtml/khtml_part.cpp:1824
 msgid "The requested operation could not be completed"
 msgstr "প্রার্থিত ক্রিয়া সম্পন্ন করা সম্ভব হয়নি"
 
-#: khtml/khtml_part.cpp:1825
+#: khtml/khtml_part.cpp:1830
 msgid "Technical Reason: "
 msgstr "টেকনিকাল কারণ:"
 
-#: khtml/khtml_part.cpp:1830
+#: khtml/khtml_part.cpp:1835
 msgid "Details of the Request:"
 msgstr "বিস্তারিত বর্ণনা:"
 
-#: khtml/khtml_part.cpp:1832
+#: khtml/khtml_part.cpp:1837
 #, kde-format
 msgid "URL: %1"
 msgstr "ইউ-আর-এল: %1"
 
-#: khtml/khtml_part.cpp:1835
+#: khtml/khtml_part.cpp:1840
 #, kde-format
 msgid "Protocol: %1"
 msgstr "প্রোটোকল: %1"
 
-#: khtml/khtml_part.cpp:1838
+#: khtml/khtml_part.cpp:1843
 #, kde-format
 msgid "Date and Time: %1"
 msgstr "তারিখ এবং সময়: %1"
 
-#: khtml/khtml_part.cpp:1840
+#: khtml/khtml_part.cpp:1845
 #, kde-format
 msgid "Additional Information: %1"
 msgstr "আরো তথ্য: %1"
 
-#: khtml/khtml_part.cpp:1848
+#: khtml/khtml_part.cpp:1853
 msgid "Possible Causes:"
 msgstr "সম্ভাব্য কারণ:"
 
-#: khtml/khtml_part.cpp:1855
+#: khtml/khtml_part.cpp:1860
 msgid "Possible Solutions:"
 msgstr "সম্ভাব্য সমাধান:"
 
-#: khtml/khtml_part.cpp:2266
+#: khtml/khtml_part.cpp:2271
 msgid "Page loaded."
 msgstr "লোড করা সম্পন্ন।"
 
-#: khtml/khtml_part.cpp:2268
+#: khtml/khtml_part.cpp:2273
 #, kde-format
 msgid "%1 Image of %2 loaded."
 msgid_plural "%1 Images of %2 loaded."
 msgstr[0] "%2-টির মধ্যে %1-টি ছবি লোড করা সম্পন্ন।"
 msgstr[1] "%2-টির মধ্যে %1-টি ছবি লোড করা সম্পন্ন।"
 
-#: khtml/khtml_part.cpp:2443
+#: khtml/khtml_part.cpp:2448
 msgid "Automatic Detection"
 msgstr "স্বয়ংক্রিয় উদ্ঘাটন"
 
-#: khtml/khtml_part.cpp:3510 khtml/khtml_part.cpp:3597
-#: khtml/khtml_part.cpp:3608
+#: khtml/khtml_part.cpp:3515 khtml/khtml_part.cpp:3602
+#: khtml/khtml_part.cpp:3613
 msgid " (In new window)"
 msgstr " (নতুন উইণ্ডোয়)"
 
-#: khtml/khtml_part.cpp:3549
+#: khtml/khtml_part.cpp:3554
 msgid "Symbolic Link"
 msgstr "সিম্বলিক লিঙ্ক"
 
-#: khtml/khtml_part.cpp:3551
+#: khtml/khtml_part.cpp:3556
 #, kde-format
 msgid "%1 (Link)"
 msgstr "%1 (লিঙ্ক)"
 
-#: khtml/khtml_part.cpp:3571
+#: khtml/khtml_part.cpp:3576
 #, kde-format
 msgid "%2 (%1 byte)"
 msgid_plural "%2 (%1 bytes)"
 msgstr[0] "%2 (%1 বাইট)"
 msgstr[1] "%2 (%1 বাইট)"
 
-#: khtml/khtml_part.cpp:3575
+#: khtml/khtml_part.cpp:3580
 #, kde-format
 msgid "%2 (%1 K)"
 msgstr "%2 (%1 কে)"
 
-#: khtml/khtml_part.cpp:3610
+#: khtml/khtml_part.cpp:3615
 msgid " (In other frame)"
 msgstr " (অন্য ফ্রেমে)"
 
-#: khtml/khtml_part.cpp:3615
+#: khtml/khtml_part.cpp:3620
 msgid "Email to: "
 msgstr "-কে ই-মেইল করো:"
 
-#: khtml/khtml_part.cpp:3621
+#: khtml/khtml_part.cpp:3626
 msgid " - Subject: "
 msgstr " - বিষয়:"
 
-#: khtml/khtml_part.cpp:3623
+#: khtml/khtml_part.cpp:3628
 msgid " - CC: "
 msgstr " - CC: "
 
-#: khtml/khtml_part.cpp:3625
+#: khtml/khtml_part.cpp:3630
 msgid " - BCC: "
 msgstr " - BCC: "
 
-#: khtml/khtml_part.cpp:3706
+#: khtml/khtml_part.cpp:3711
 #, kde-format
 msgid ""
 "<qt>This untrusted page links to<br /><b>%1</b>.<br />Do you want to follow "
@@ -6736,56 +6732,56 @@ msgstr ""
 "<qt>এই অবিশ্বস্ত (untrusted) পাতাটি <BR /><B>%1</B>-এ<BR />লিঙ্ক করছে। আপনি কি "
 "লিঙ্কটি দেখতে চান?</qt>"
 
-#: khtml/khtml_part.cpp:3707
+#: khtml/khtml_part.cpp:3712
 msgid "Follow"
 msgstr "অনুসরণ করো"
 
-#: khtml/khtml_part.cpp:3808
+#: khtml/khtml_part.cpp:3813
 msgid "Frame Information"
 msgstr "ফ্রেম সংক্রান্ত তথ্য"
 
-#: khtml/khtml_part.cpp:3814
+#: khtml/khtml_part.cpp:3819
 #, kde-format
 msgid "   <a href=\"%1\">[Properties]</a>"
 msgstr "   <a href=\"%1\">[বৈশিষ্ট্যাবলী]</a>"
 
-#: khtml/khtml_part.cpp:3840
+#: khtml/khtml_part.cpp:3845
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Quirks"
 msgstr "Quirks"
 
-#: khtml/khtml_part.cpp:3843
+#: khtml/khtml_part.cpp:3848
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Almost standards"
 msgstr "Almost standards"
 
-#: khtml/khtml_part.cpp:3847
+#: khtml/khtml_part.cpp:3852
 msgctxt "HTML rendering mode (see http://en.wikipedia.org/wiki/Quirks_mode)"
 msgid "Strict"
 msgstr "Strict"
 
-#: khtml/khtml_part.cpp:3918
+#: khtml/khtml_part.cpp:3923
 msgid "Save Background Image As"
 msgstr "পটভূমির চিত্র নতুন নামে সংরক্ষণ করো"
 
-#: khtml/khtml_part.cpp:4010
+#: khtml/khtml_part.cpp:4015
 #, fuzzy
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr "সমকক্ষ এসএসএল শংসাপত্র শৃঙ্খল বিকৃত হতে আবির্ভূত হো।"
 
-#: khtml/khtml_part.cpp:4029
+#: khtml/khtml_part.cpp:4034
 msgid "Save Frame As"
 msgstr "ফ্রেম নতুন নামে সংরক্ষণ করো"
 
-#: khtml/khtml_part.cpp:4073
+#: khtml/khtml_part.cpp:4078
 msgid "&Find in Frame..."
 msgstr "ফ্রেমের &মধ্যে খোঁজো..."
 
-#: khtml/khtml_part.cpp:4075 kdeui/actions/kstandardaction_p.h:64
+#: khtml/khtml_part.cpp:4080 kdeui/actions/kstandardaction_p.h:64
 msgid "&Find..."
 msgstr "&সন্ধান করো..."
 
-#: khtml/khtml_part.cpp:4694
+#: khtml/khtml_part.cpp:4699
 msgid ""
 "Warning:  This is a secure form but it is attempting to send your data back "
 "unencrypted.\n"
@@ -6797,16 +6793,16 @@ msgstr ""
 "কোনো তৃতীয় ব্যক্তি এই তথ্য মাঝপথে পড়ে ফেলতে পারে।\n"
 "আপনি কি তা সত্বেও ফর্মটি পাঠাতে চান?"
 
-#: khtml/khtml_part.cpp:4697 khtml/khtml_part.cpp:4706
-#: khtml/khtml_part.cpp:4730
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4711
+#: khtml/khtml_part.cpp:4735
 msgid "Network Transmission"
 msgstr "নেটওয়ার্ক ট্রান্সমিশন"
 
-#: khtml/khtml_part.cpp:4697 khtml/khtml_part.cpp:4707
+#: khtml/khtml_part.cpp:4702 khtml/khtml_part.cpp:4712
 msgid "&Send Unencrypted"
 msgstr "এনক্রি&পশন ছাড়া পাঠাও"
 
-#: khtml/khtml_part.cpp:4704
+#: khtml/khtml_part.cpp:4709
 msgid ""
 "Warning: Your data is about to be transmitted across the network "
 "unencrypted.\n"
@@ -6816,7 +6812,7 @@ msgstr ""
 "চলেছে।\n"
 "আপনি কি নিশ্চিত যে আপনি তাই চান?"
 
-#: khtml/khtml_part.cpp:4728
+#: khtml/khtml_part.cpp:4733
 msgid ""
 "This site is attempting to submit form data via email.\n"
 "Do you want to continue?"
@@ -6824,11 +6820,11 @@ msgstr ""
 "এই সাইট-টি ই-মেইলের মাধ্যমে ফর্ম তথ্য পাঠাবার চেষ্টা করছে।\n"
 "আপনি কি তাতে রাজি?"
 
-#: khtml/khtml_part.cpp:4731
+#: khtml/khtml_part.cpp:4736
 msgid "&Send Email"
 msgstr "&ই-মেইল পাঠাও"
 
-#: khtml/khtml_part.cpp:4752
+#: khtml/khtml_part.cpp:4757
 #, kde-format
 msgid ""
 "<qt>The form will be submitted to <br /><b>%1</b><br />on your local "
@@ -6837,7 +6833,7 @@ msgstr ""
 "<qt>ফর্মটি জমা দেওয়া হবে আপনার স্থানীয় ফাইলসিস্টেম-এর<BR /><B>%1</B>-এ।<BR /"
 ">আপনি কি ফর্মটি জমা দিতে চান?</qt>"
 
-#: khtml/khtml_part.cpp:4806
+#: khtml/khtml_part.cpp:4811
 msgid ""
 "This site attempted to attach a file from your computer in the form "
 "submission. The attachment was removed for your protection."
@@ -6845,57 +6841,57 @@ msgstr ""
 "এই সাইট-টি ফর্ম জমা দেবার সময় আপনার কমপিউটারের একটি ফাইল সংলগ্ন করে পাঠাবার "
 "চেষ্টা করেছিল। আপনার নিরাপত্তার জন্য এই ফাইলটি পাঠানো হয়নি।"
 
-#: khtml/khtml_part.cpp:5836
+#: khtml/khtml_part.cpp:5841
 #, kde-format
 msgid "(%1/s)"
 msgstr "(%1/সেঃ)"
 
-#: khtml/khtml_part.cpp:6749
+#: khtml/khtml_part.cpp:6754
 msgid "Security Warning"
 msgstr "নিরাপত্তা সতর্কীকরণ"
 
-#: khtml/khtml_part.cpp:6758
+#: khtml/khtml_part.cpp:6763
 #, kde-format
 msgid "<qt>Access by untrusted page to<br /><b>%1</b><br /> denied.</qt>"
 msgstr ""
 "<qt>অবিশ্বস্ত (untrusted) পাতা থেকে<BR /><B>%1</B>-এ<BR /> যেতে দেওয়া হয়নি।</"
 "qt>"
 
-#: khtml/khtml_part.cpp:6759 khtml/java/kjavaappletserver.cpp:792
+#: khtml/khtml_part.cpp:6764 khtml/java/kjavaappletserver.cpp:792
 msgid "Security Alert"
 msgstr "নিরাপত্তা সংকেত"
 
-#: khtml/khtml_part.cpp:7107
+#: khtml/khtml_part.cpp:7112
 #, kde-format
 msgid "The wallet '%1' is open and being used for form data and passwords."
 msgstr "'%1' ওয়ালেটটি আপাতত খোলা এবং ফর্ম তথ্য আর পাসওয়ার্ডের জন্য ব্যবহৃত হচ্ছে।"
 
-#: khtml/khtml_part.cpp:7167
+#: khtml/khtml_part.cpp:7172
 msgid "&Close Wallet"
 msgstr "ওয়ালেট &বন্ধ করো"
 
-#: khtml/khtml_part.cpp:7170
+#: khtml/khtml_part.cpp:7175
 msgid "&Allow storing passwords for this site"
 msgstr "এই সাইটের জন্য পাসওয়ার্ড &সঞ্চয় করার অনুমতি দাও"
 
-#: khtml/khtml_part.cpp:7175
+#: khtml/khtml_part.cpp:7180
 #, kde-format
 msgid "Remove password for form %1"
 msgstr "ফর্ম %1-এর পাসওয়ার্ড মুছে ফেল"
 
-#: khtml/khtml_part.cpp:7280
+#: khtml/khtml_part.cpp:7285
 msgid "JavaScript &Debugger"
 msgstr "জাভাস্ক্রিপ্ট ডিবাগা&র"
 
-#: khtml/khtml_part.cpp:7312
+#: khtml/khtml_part.cpp:7317
 msgid "This page was prevented from opening a new window via JavaScript."
 msgstr "এই পেজটিকে জাভাস্ক্রিপ্ট-এর মাধ্যমে নতুন উইণ্ডো খুলতে দেওয়া হয়নি।"
 
-#: khtml/khtml_part.cpp:7318
+#: khtml/khtml_part.cpp:7323
 msgid "Popup Window Blocked"
 msgstr "পপ-আপ উইণ্ডো ব্লক করা হয়েছে"
 
-#: khtml/khtml_part.cpp:7318
+#: khtml/khtml_part.cpp:7323
 #, fuzzy
 msgid ""
 "This page has attempted to open a popup window but was blocked.\n"
@@ -6906,21 +6902,25 @@ msgstr ""
 "আপনি পপ-আপ খুলতে এই আচরণটি\n"
 "অথবা নিয়ন্ত্রণ করতে অবস্থা বাঁধা দেয়াতে এই আইকনটি ক্লিক করতে পারেন।"
 
-#: khtml/khtml_part.cpp:7331
+#: khtml/khtml_part.cpp:7336
 #, kde-format
 msgid "&Show Blocked Popup Window"
 msgid_plural "&Show %1 Blocked Popup Windows"
 msgstr[0] "ব্লক করা পপ-আপ উইণ্ডো দেখা&ও"
 msgstr[1] "%1-টি  ব্লক করা পপ-আপ উইণ্ডো দেখা&ও"
 
-#: khtml/khtml_part.cpp:7332
+#: khtml/khtml_part.cpp:7337
 #, fuzzy
 msgid "Show Blocked Window Passive Popup &Notification"
 msgstr "Blocked জানালা Passive পপ-আপ বিজ্ঞপ্তি দেখাও (&N)"
 
-#: khtml/khtml_part.cpp:7334
+#: khtml/khtml_part.cpp:7339
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "জাভাস্ক্রীপ্ট-এ নতুন উইণ্ডো পলিসি &কনফিগার করুন..."
+
+#: khtml/khtmladaptorpart.cpp:29
+msgid "Inactive"
+msgstr "নিষ্ক্রিয়"
 
 #: khtml/test_regression_gui_window.cpp:76
 msgid "Available Tests: 0"
@@ -7816,6 +7816,23 @@ msgctxt "@item Spelling dictionary"
 msgid "<application>Hunspell</application> Default"
 msgstr "<application>Hunspell</application> ডিফল্ট"
 
+#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
+msgid "Check Spelling..."
+msgstr "বানান পরীক্ষা করো..."
+
+#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
+msgid "Auto Spell Check"
+msgstr "স্বয়ংক্রিয় বানান পরীক্ষা"
+
+#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
+#, fuzzy
+msgid "Allow Tabulations"
+msgstr "Tabulations অনুমোদন করো"
+
+#: kde3support/kdeui/k3textedit.cpp:348
+msgid "Spell Checking"
+msgstr "বানান পরীক্ষা"
+
 #: kde3support/kdeui/k3aboutdialog.cpp:185
 msgid "Email"
 msgstr "ই-মেইল"
@@ -7856,23 +7873,6 @@ msgstr "(কোনো লোগো পাওয়া যায়নি)"
 #, kde-format
 msgid "About %1"
 msgstr "%1-এর সম্বন্ধে"
-
-#: kde3support/kdeui/k3textedit.cpp:232 kdeui/widgets/ktextedit.cpp:495
-msgid "Check Spelling..."
-msgstr "বানান পরীক্ষা করো..."
-
-#: kde3support/kdeui/k3textedit.cpp:238 kdeui/widgets/ktextedit.cpp:498
-msgid "Auto Spell Check"
-msgstr "স্বয়ংক্রিয় বানান পরীক্ষা"
-
-#: kde3support/kdeui/k3textedit.cpp:242 kdeui/widgets/ktextedit.cpp:502
-#, fuzzy
-msgid "Allow Tabulations"
-msgstr "Tabulations অনুমোদন করো"
-
-#: kde3support/kdeui/k3textedit.cpp:348
-msgid "Spell Checking"
-msgstr "বানান পরীক্ষা"
 
 #: kde3support/kdeui/k3aboutapplication.cpp:50
 msgid "??"
@@ -8059,6 +8059,15 @@ msgstr "ফাইল '%1' খোলা যায়নি"
 msgid "Could not create temporary file."
 msgstr "অস্থায়ী ফাইল তৈরি করা যায়নি।"
 
+#: kjsembed/kjsembed/qwidget_binding.cpp:161
+#, kde-format
+msgid "'%1' is not a valid QWidget."
+msgstr "'%1' একটি বৈধ QWidget নয়।"
+
+#: kjsembed/kjsembed/qwidget_binding.cpp:170
+msgid "Must supply a widget name."
+msgstr "উইজেট-এর নাম সরাবরাহ করা প্রয়োজন।"
+
 #: kjsembed/kjsembed/slotproxy.cpp:115
 #, kde-format
 msgid "Bad slot handler: Object %1 Identifier %2 Method %3 Signature: %4."
@@ -8212,15 +8221,6 @@ msgstr "ActionGroup takes 2 args."
 #: kjsembed/kjsembed/qaction_binding.cpp:91
 msgid "Must supply a valid parent."
 msgstr "একটি বৈধ পেরেন্ট সরাবরাহ করা দরকার।"
-
-#: kjsembed/kjsembed/qwidget_binding.cpp:161
-#, kde-format
-msgid "'%1' is not a valid QWidget."
-msgstr "'%1' একটি বৈধ QWidget নয়।"
-
-#: kjsembed/kjsembed/qwidget_binding.cpp:170
-msgid "Must supply a widget name."
-msgstr "উইজেট-এর নাম সরাবরাহ করা প্রয়োজন।"
 
 #: kjsembed/kjsembed/qlayout_binding.cpp:90
 #, kde-format
@@ -10514,14 +10514,6 @@ msgstr ""
 msgid "You are not allowed to save the configuration"
 msgstr "আপনি কি কনফিগারেশন ফাইল নতুন করে পড়তে চান?"
 
-#: kdeui/widgets/khistorycombobox.cpp:317
-msgid "No further items in the history."
-msgstr "ইতিহাস তালিকায় আর কিছু নেই।"
-
-#: kdeui/widgets/ksqueezedtextlabel.cpp:167
-msgid "&Copy Full Text"
-msgstr "পুরো লেখা &কপি করো"
-
 #. i18n: Placeholder text in text edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter message").
@@ -10561,6 +10553,164 @@ msgstr "অভিধানে যোগ করো"
 #: kdeui/widgets/ktextedit.cpp:787
 msgid "Nothing to spell check."
 msgstr "বানান পরীক্ষা করার কিছু নেই।"
+
+#: kdeui/widgets/ksqueezedtextlabel.cpp:167
+msgid "&Copy Full Text"
+msgstr "পুরো লেখা &কপি করো"
+
+#: kdeui/widgets/khistorycombobox.cpp:317
+msgid "No further items in the history."
+msgstr "ইতিহাস তালিকায় আর কিছু নেই।"
+
+#: kdeui/widgets/kcharselectdata.cpp:241
+msgid "<Non Private Use High Surrogate>"
+msgstr "<Non Private Use High Surrogate>"
+
+#: kdeui/widgets/kcharselectdata.cpp:243
+msgid "<Private Use High Surrogate>"
+msgstr "<Private Use High Surrogate>"
+
+#: kdeui/widgets/kcharselectdata.cpp:245
+msgid "<Low Surrogate>"
+msgstr "<Low Surrogate>"
+
+#: kdeui/widgets/kcharselectdata.cpp:247
+msgid "<Private Use>"
+msgstr "<Private Use>"
+
+#: kdeui/widgets/kcharselectdata.cpp:277
+msgid "<not assigned>"
+msgstr "<not assigned>"
+
+#: kdeui/widgets/kcharselectdata.cpp:572
+#: kdeui/widgets/kcharselect-translation.cpp:35
+msgctxt "KCharSelect section name"
+msgid "Combining Diacritical Marks"
+msgstr "Combining Diacritical Marks"
+
+#: kdeui/widgets/kcharselectdata.cpp:581
+msgid "Non-printable"
+msgstr "মুদ্রণযোগ্য নয়"
+
+#: kdeui/widgets/kcharselectdata.cpp:614
+msgid "Other, Control"
+msgstr "Other, Control"
+
+#: kdeui/widgets/kcharselectdata.cpp:615
+msgid "Other, Format"
+msgstr "Other, Format"
+
+#: kdeui/widgets/kcharselectdata.cpp:616
+msgid "Other, Not Assigned"
+msgstr "Other, Not Assigned"
+
+#: kdeui/widgets/kcharselectdata.cpp:617
+msgid "Other, Private Use"
+msgstr "Other, Private Use"
+
+#: kdeui/widgets/kcharselectdata.cpp:618
+msgid "Other, Surrogate"
+msgstr "Other, Surrogate"
+
+#: kdeui/widgets/kcharselectdata.cpp:619
+msgid "Letter, Lowercase"
+msgstr "Letter, Lowercase"
+
+#: kdeui/widgets/kcharselectdata.cpp:620
+msgid "Letter, Modifier"
+msgstr "Letter, Modifier"
+
+#: kdeui/widgets/kcharselectdata.cpp:621
+msgid "Letter, Other"
+msgstr "Letter, Other"
+
+#: kdeui/widgets/kcharselectdata.cpp:622
+msgid "Letter, Titlecase"
+msgstr "Letter, Titlecase"
+
+#: kdeui/widgets/kcharselectdata.cpp:623
+msgid "Letter, Uppercase"
+msgstr "Letter, Uppercase"
+
+#: kdeui/widgets/kcharselectdata.cpp:624
+msgid "Mark, Spacing Combining"
+msgstr "Mark, Spacing Combining"
+
+#: kdeui/widgets/kcharselectdata.cpp:625
+msgid "Mark, Enclosing"
+msgstr "Mark, Enclosing"
+
+#: kdeui/widgets/kcharselectdata.cpp:626
+msgid "Mark, Non-Spacing"
+msgstr "Mark, Non-Spacing"
+
+#: kdeui/widgets/kcharselectdata.cpp:627
+msgid "Number, Decimal Digit"
+msgstr "Number, Decimal Digit"
+
+#: kdeui/widgets/kcharselectdata.cpp:628
+msgid "Number, Letter"
+msgstr "Number, Letter"
+
+#: kdeui/widgets/kcharselectdata.cpp:629
+msgid "Number, Other"
+msgstr "Number, Other"
+
+#: kdeui/widgets/kcharselectdata.cpp:630
+msgid "Punctuation, Connector"
+msgstr "Punctuation, Connector"
+
+#: kdeui/widgets/kcharselectdata.cpp:631
+msgid "Punctuation, Dash"
+msgstr "Punctuation, Dash"
+
+#: kdeui/widgets/kcharselectdata.cpp:632
+msgid "Punctuation, Close"
+msgstr "Punctuation, Close"
+
+#: kdeui/widgets/kcharselectdata.cpp:633
+msgid "Punctuation, Final Quote"
+msgstr "Punctuation, Final Quote"
+
+#: kdeui/widgets/kcharselectdata.cpp:634
+msgid "Punctuation, Initial Quote"
+msgstr "Punctuation, Initial Quote"
+
+#: kdeui/widgets/kcharselectdata.cpp:635
+msgid "Punctuation, Other"
+msgstr "Punctuation, Other"
+
+#: kdeui/widgets/kcharselectdata.cpp:636
+msgid "Punctuation, Open"
+msgstr "Punctuation, Open"
+
+#: kdeui/widgets/kcharselectdata.cpp:637
+msgid "Symbol, Currency"
+msgstr "Symbol, Currency"
+
+#: kdeui/widgets/kcharselectdata.cpp:638
+msgid "Symbol, Modifier"
+msgstr "Symbol, Modifier"
+
+#: kdeui/widgets/kcharselectdata.cpp:639
+msgid "Symbol, Math"
+msgstr "Symbol, Math"
+
+#: kdeui/widgets/kcharselectdata.cpp:640
+msgid "Symbol, Other"
+msgstr "Symbol, Other"
+
+#: kdeui/widgets/kcharselectdata.cpp:641
+msgid "Separator, Line"
+msgstr "Separator, Line"
+
+#: kdeui/widgets/kcharselectdata.cpp:642
+msgid "Separator, Paragraph"
+msgstr "Separator, Paragraph"
+
+#: kdeui/widgets/kcharselectdata.cpp:643
+msgid "Separator, Space"
+msgstr "Separator, Space"
 
 #: kdeui/widgets/kcharselect-translation.cpp:23
 msgctxt "KCharSelect section name"
@@ -10621,12 +10771,6 @@ msgstr "গাণিতিক চিহ্ন"
 msgctxt "KCharSelect section name"
 msgid "Phonetic Symbols"
 msgstr "ফোনেটিক চিহ্ন"
-
-#: kdeui/widgets/kcharselect-translation.cpp:35
-#: kdeui/widgets/kcharselectdata.cpp:572
-msgctxt "KCharSelect section name"
-msgid "Combining Diacritical Marks"
-msgstr "Combining Diacritical Marks"
 
 #: kdeui/widgets/kcharselect-translation.cpp:36
 msgctxt "KCharSelect section name"
@@ -11384,150 +11528,6 @@ msgctxt "KCharselect unicode block name"
 msgid "Specials"
 msgstr "Specials"
 
-#: kdeui/widgets/kcharselectdata.cpp:241
-msgid "<Non Private Use High Surrogate>"
-msgstr "<Non Private Use High Surrogate>"
-
-#: kdeui/widgets/kcharselectdata.cpp:243
-msgid "<Private Use High Surrogate>"
-msgstr "<Private Use High Surrogate>"
-
-#: kdeui/widgets/kcharselectdata.cpp:245
-msgid "<Low Surrogate>"
-msgstr "<Low Surrogate>"
-
-#: kdeui/widgets/kcharselectdata.cpp:247
-msgid "<Private Use>"
-msgstr "<Private Use>"
-
-#: kdeui/widgets/kcharselectdata.cpp:277
-msgid "<not assigned>"
-msgstr "<not assigned>"
-
-#: kdeui/widgets/kcharselectdata.cpp:581
-msgid "Non-printable"
-msgstr "মুদ্রণযোগ্য নয়"
-
-#: kdeui/widgets/kcharselectdata.cpp:614
-msgid "Other, Control"
-msgstr "Other, Control"
-
-#: kdeui/widgets/kcharselectdata.cpp:615
-msgid "Other, Format"
-msgstr "Other, Format"
-
-#: kdeui/widgets/kcharselectdata.cpp:616
-msgid "Other, Not Assigned"
-msgstr "Other, Not Assigned"
-
-#: kdeui/widgets/kcharselectdata.cpp:617
-msgid "Other, Private Use"
-msgstr "Other, Private Use"
-
-#: kdeui/widgets/kcharselectdata.cpp:618
-msgid "Other, Surrogate"
-msgstr "Other, Surrogate"
-
-#: kdeui/widgets/kcharselectdata.cpp:619
-msgid "Letter, Lowercase"
-msgstr "Letter, Lowercase"
-
-#: kdeui/widgets/kcharselectdata.cpp:620
-msgid "Letter, Modifier"
-msgstr "Letter, Modifier"
-
-#: kdeui/widgets/kcharselectdata.cpp:621
-msgid "Letter, Other"
-msgstr "Letter, Other"
-
-#: kdeui/widgets/kcharselectdata.cpp:622
-msgid "Letter, Titlecase"
-msgstr "Letter, Titlecase"
-
-#: kdeui/widgets/kcharselectdata.cpp:623
-msgid "Letter, Uppercase"
-msgstr "Letter, Uppercase"
-
-#: kdeui/widgets/kcharselectdata.cpp:624
-msgid "Mark, Spacing Combining"
-msgstr "Mark, Spacing Combining"
-
-#: kdeui/widgets/kcharselectdata.cpp:625
-msgid "Mark, Enclosing"
-msgstr "Mark, Enclosing"
-
-#: kdeui/widgets/kcharselectdata.cpp:626
-msgid "Mark, Non-Spacing"
-msgstr "Mark, Non-Spacing"
-
-#: kdeui/widgets/kcharselectdata.cpp:627
-msgid "Number, Decimal Digit"
-msgstr "Number, Decimal Digit"
-
-#: kdeui/widgets/kcharselectdata.cpp:628
-msgid "Number, Letter"
-msgstr "Number, Letter"
-
-#: kdeui/widgets/kcharselectdata.cpp:629
-msgid "Number, Other"
-msgstr "Number, Other"
-
-#: kdeui/widgets/kcharselectdata.cpp:630
-msgid "Punctuation, Connector"
-msgstr "Punctuation, Connector"
-
-#: kdeui/widgets/kcharselectdata.cpp:631
-msgid "Punctuation, Dash"
-msgstr "Punctuation, Dash"
-
-#: kdeui/widgets/kcharselectdata.cpp:632
-msgid "Punctuation, Close"
-msgstr "Punctuation, Close"
-
-#: kdeui/widgets/kcharselectdata.cpp:633
-msgid "Punctuation, Final Quote"
-msgstr "Punctuation, Final Quote"
-
-#: kdeui/widgets/kcharselectdata.cpp:634
-msgid "Punctuation, Initial Quote"
-msgstr "Punctuation, Initial Quote"
-
-#: kdeui/widgets/kcharselectdata.cpp:635
-msgid "Punctuation, Other"
-msgstr "Punctuation, Other"
-
-#: kdeui/widgets/kcharselectdata.cpp:636
-msgid "Punctuation, Open"
-msgstr "Punctuation, Open"
-
-#: kdeui/widgets/kcharselectdata.cpp:637
-msgid "Symbol, Currency"
-msgstr "Symbol, Currency"
-
-#: kdeui/widgets/kcharselectdata.cpp:638
-msgid "Symbol, Modifier"
-msgstr "Symbol, Modifier"
-
-#: kdeui/widgets/kcharselectdata.cpp:639
-msgid "Symbol, Math"
-msgstr "Symbol, Math"
-
-#: kdeui/widgets/kcharselectdata.cpp:640
-msgid "Symbol, Other"
-msgstr "Symbol, Other"
-
-#: kdeui/widgets/kcharselectdata.cpp:641
-msgid "Separator, Line"
-msgstr "Separator, Line"
-
-#: kdeui/widgets/kcharselectdata.cpp:642
-msgid "Separator, Paragraph"
-msgstr "Separator, Paragraph"
-
-#: kdeui/widgets/kcharselectdata.cpp:643
-msgid "Separator, Space"
-msgstr "Separator, Space"
-
 #: kdeui/widgets/kactionselector.cpp:94
 msgid "&Available:"
 msgstr "পা&ওয়া যাচ্ছে:"
@@ -11659,43 +11659,6 @@ msgstr "%1 &সম্বন্ধে"
 msgid "About &KDE"
 msgstr "কে-ডি-&ই পরিচিতি"
 
-#: kdeui/widgets/kdatepicker.cpp:210
-#, kde-format
-msgid "Week %1"
-msgstr "সপ্তাহ %1"
-
-#: kdeui/widgets/kdatepicker.cpp:317
-msgid "Next year"
-msgstr "পরের বছর"
-
-#: kdeui/widgets/kdatepicker.cpp:318
-msgid "Previous year"
-msgstr "আগের বছর"
-
-#: kdeui/widgets/kdatepicker.cpp:319
-msgid "Next month"
-msgstr "পরের মাস"
-
-#: kdeui/widgets/kdatepicker.cpp:320
-msgid "Previous month"
-msgstr "আগের মাস"
-
-#: kdeui/widgets/kdatepicker.cpp:321
-msgid "Select a week"
-msgstr "একটি সপ্তাহ নির্বাচন করুন"
-
-#: kdeui/widgets/kdatepicker.cpp:322
-msgid "Select a month"
-msgstr "একটি মাস নির্বাচন করুন"
-
-#: kdeui/widgets/kdatepicker.cpp:323
-msgid "Select a year"
-msgstr "একটি বছর নির্বাচন করুন"
-
-#: kdeui/widgets/kdatepicker.cpp:324
-msgid "Select the current day"
-msgstr "দিন নির্বাচন করুন"
-
 #: kdeui/widgets/klineedit.cpp:279
 msgctxt "@action:button Clear current text in the line edit"
 msgid "Clear text"
@@ -11740,6 +11703,20 @@ msgstr "ড্রপডাউন লিস্ট এবং স্বয়ংক্
 msgctxt "@item:inmenu Text Completion"
 msgid "Default"
 msgstr "ডিফল্ট"
+
+#: kdeui/widgets/ktimezonewidget.cpp:66
+msgctxt "Define an area in the time zone, like a town area"
+msgid "Area"
+msgstr "ক্ষেত্র"
+
+#: kdeui/widgets/ktimezonewidget.cpp:66
+msgctxt "Time zone"
+msgid "Region"
+msgstr "এলাকা"
+
+#: kdeui/widgets/ktimezonewidget.cpp:66
+msgid "Comment"
+msgstr "মন্তব্য"
 
 #: kdeui/widgets/krichtextwidget.cpp:227
 msgctxt "@action"
@@ -11909,19 +11886,42 @@ msgctxt "@action"
 msgid "Superscript"
 msgstr "Superscript"
 
-#: kdeui/widgets/ktimezonewidget.cpp:66
-msgctxt "Define an area in the time zone, like a town area"
-msgid "Area"
-msgstr "ক্ষেত্র"
+#: kdeui/widgets/kdatepicker.cpp:210
+#, kde-format
+msgid "Week %1"
+msgstr "সপ্তাহ %1"
 
-#: kdeui/widgets/ktimezonewidget.cpp:66
-msgctxt "Time zone"
-msgid "Region"
-msgstr "এলাকা"
+#: kdeui/widgets/kdatepicker.cpp:317
+msgid "Next year"
+msgstr "পরের বছর"
 
-#: kdeui/widgets/ktimezonewidget.cpp:66
-msgid "Comment"
-msgstr "মন্তব্য"
+#: kdeui/widgets/kdatepicker.cpp:318
+msgid "Previous year"
+msgstr "আগের বছর"
+
+#: kdeui/widgets/kdatepicker.cpp:319
+msgid "Next month"
+msgstr "পরের মাস"
+
+#: kdeui/widgets/kdatepicker.cpp:320
+msgid "Previous month"
+msgstr "আগের মাস"
+
+#: kdeui/widgets/kdatepicker.cpp:321
+msgid "Select a week"
+msgstr "একটি সপ্তাহ নির্বাচন করুন"
+
+#: kdeui/widgets/kdatepicker.cpp:322
+msgid "Select a month"
+msgstr "একটি মাস নির্বাচন করুন"
+
+#: kdeui/widgets/kdatepicker.cpp:323
+msgid "Select a year"
+msgstr "একটি বছর নির্বাচন করুন"
+
+#: kdeui/widgets/kdatepicker.cpp:324
+msgid "Select the current day"
+msgstr "দিন নির্বাচন করুন"
 
 #: kdeui/widgets/kcharselect.cpp:334 kdeui/widgets/kcharselect.cpp:336
 msgid "Enter a search term or character here"
@@ -12567,6 +12567,70 @@ msgstr "সন্ধান করার জন্য কিছু টেক্�
 msgid "Invalid regular expression."
 msgstr "অবৈধ রেগুলার এক্সপ্রেশন"
 
+#: kdeui/util/kkeyserver_x11.cpp:95
+msgid "Backspace"
+msgstr "Backspace"
+
+#: kdeui/util/kkeyserver_x11.cpp:96
+msgid "SysReq"
+msgstr "SysReq"
+
+#: kdeui/util/kkeyserver_x11.cpp:97
+msgid "CapsLock"
+msgstr "CapsLock"
+
+#: kdeui/util/kkeyserver_x11.cpp:98
+msgid "NumLock"
+msgstr "NumLock"
+
+#: kdeui/util/kkeyserver_x11.cpp:99
+msgid "ScrollLock"
+msgstr "ScrollLock"
+
+#: kdeui/util/kkeyserver_x11.cpp:100
+msgid "PageUp"
+msgstr "PageUp"
+
+#: kdeui/util/kkeyserver_x11.cpp:101
+msgid "PageDown"
+msgstr "PageDown"
+
+#: kdeui/util/kkeyserver_x11.cpp:104
+msgid "Again"
+msgstr "আবার"
+
+#: kdeui/util/kkeyserver_x11.cpp:105
+msgid "Props"
+msgstr "Props"
+
+#: kdeui/util/kkeyserver_x11.cpp:106 kdeui/util/kundostack.cpp:67
+msgid "Undo"
+msgstr "বাতিল করো"
+
+#: kdeui/util/kkeyserver_x11.cpp:107
+msgid "Front"
+msgstr "সামনে"
+
+#: kdeui/util/kkeyserver_x11.cpp:108
+msgid "Copy"
+msgstr "কপি করো"
+
+#: kdeui/util/kkeyserver_x11.cpp:109
+msgid "Open"
+msgstr "খোলো"
+
+#: kdeui/util/kkeyserver_x11.cpp:110
+msgid "Paste"
+msgstr "সাঁটো"
+
+#: kdeui/util/kkeyserver_x11.cpp:111
+msgid "Find"
+msgstr "সন্ধান করো"
+
+#: kdeui/util/kkeyserver_x11.cpp:112
+msgid "Cut"
+msgstr "কাটো"
+
 #: kdeui/util/kcompletion.cpp:693
 msgid ""
 "You reached the end of the list\n"
@@ -12799,70 +12863,6 @@ msgstr "মুছে লে&খ"
 #: kdeui/util/kundostack.cpp:48
 msgid "Redo"
 msgstr "আবার করো"
-
-#: kdeui/util/kundostack.cpp:67 kdeui/util/kkeyserver_x11.cpp:106
-msgid "Undo"
-msgstr "বাতিল করো"
-
-#: kdeui/util/kkeyserver_x11.cpp:95
-msgid "Backspace"
-msgstr "Backspace"
-
-#: kdeui/util/kkeyserver_x11.cpp:96
-msgid "SysReq"
-msgstr "SysReq"
-
-#: kdeui/util/kkeyserver_x11.cpp:97
-msgid "CapsLock"
-msgstr "CapsLock"
-
-#: kdeui/util/kkeyserver_x11.cpp:98
-msgid "NumLock"
-msgstr "NumLock"
-
-#: kdeui/util/kkeyserver_x11.cpp:99
-msgid "ScrollLock"
-msgstr "ScrollLock"
-
-#: kdeui/util/kkeyserver_x11.cpp:100
-msgid "PageUp"
-msgstr "PageUp"
-
-#: kdeui/util/kkeyserver_x11.cpp:101
-msgid "PageDown"
-msgstr "PageDown"
-
-#: kdeui/util/kkeyserver_x11.cpp:104
-msgid "Again"
-msgstr "আবার"
-
-#: kdeui/util/kkeyserver_x11.cpp:105
-msgid "Props"
-msgstr "Props"
-
-#: kdeui/util/kkeyserver_x11.cpp:107
-msgid "Front"
-msgstr "সামনে"
-
-#: kdeui/util/kkeyserver_x11.cpp:108
-msgid "Copy"
-msgstr "কপি করো"
-
-#: kdeui/util/kkeyserver_x11.cpp:109
-msgid "Open"
-msgstr "খোলো"
-
-#: kdeui/util/kkeyserver_x11.cpp:110
-msgid "Paste"
-msgstr "সাঁটো"
-
-#: kdeui/util/kkeyserver_x11.cpp:111
-msgid "Find"
-msgstr "সন্ধান করো"
-
-#: kdeui/util/kkeyserver_x11.cpp:112
-msgid "Cut"
-msgstr "কাটো"
 
 #: dnssd/servicemodel.cpp:102
 msgid "Host"

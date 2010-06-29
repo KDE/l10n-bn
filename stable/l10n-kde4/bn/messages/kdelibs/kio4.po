@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-23 04:59+0200\n"
+"POT-Creation-Date: 2010-06-29 02:43+0200\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -16,10 +16,9 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kio/connection.cpp:211
-#, kde-format
-msgid "Unable to create io-slave: %1"
-msgstr ""
+#: kio/kimageio.cpp:43
+msgid "All Pictures"
+msgstr "সব ছবি"
 
 #: kio/kscan.cpp:50
 msgid "Acquire Image"
@@ -28,6 +27,25 @@ msgstr "চিত্র অর্জন করো"
 #: kio/kscan.cpp:99
 msgid "OCR Image"
 msgstr "চিত্র ও-সি-আর (OCR) করো"
+
+#: kio/connection.cpp:211
+#, kde-format
+msgid "Unable to create io-slave: %1"
+msgstr ""
+
+#: kio/kfileitemdelegate.cpp:236
+#, fuzzy, kde-format
+msgctxt "Items in a folder"
+msgid "1 item"
+msgid_plural "%1 items"
+msgstr[0] "একটি ফাইল"
+msgstr[1] "%1-টি ফাইল"
+
+#: kio/kfileitemdelegate.cpp:292 kio/kfileitemdelegate.cpp:296
+#, fuzzy
+msgctxt "@info mimetype"
+msgid "Unknown"
+msgstr "অজানা"
 
 #: kio/global.cpp:89
 #, fuzzy, kde-format
@@ -893,8 +911,8 @@ msgstr "ফাইল বা ফোল্ডার নেই"
 msgid "The specified file or folder <strong>%1</strong> does not exist."
 msgstr "<strong>%1</strong> নামের কোনো ফাইল অথবা ফোল্ডার নেই।"
 
-#: kio/global.cpp:664 kio/job.cpp:2099 kio/paste.cpp:64 kio/copyjob.cpp:1326
-#: kio/copyjob.cpp:1897
+#: kio/global.cpp:664 kio/job.cpp:2099 kio/copyjob.cpp:1326
+#: kio/copyjob.cpp:1897 kio/paste.cpp:64
 msgid "File Already Exists"
 msgstr "ফাইল আগে থেকেই আছে"
 
@@ -1651,142 +1669,85 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: kio/renamedialog.cpp:122
-msgid "Appl&y to All"
-msgstr ""
-
-#: kio/renamedialog.cpp:123
-msgid ""
-"When this is checked the button pressed will be applied to all subsequent "
-"folder conflicts for the remainder of the current job.\n"
-"Unless you press Skip you will still be prompted in case of a conflict with "
-"an existing file in the directory."
-msgstr ""
-
-#: kio/renamedialog.cpp:124
-msgid ""
-"When this is checked the button pressed will be applied to all subsequent "
-"conflicts for the remainder of the current job."
-msgstr ""
-
-#: kio/renamedialog.cpp:129
-msgid "&Rename"
-msgstr "না&ম পরিবর্তন করো"
-
-#: kio/renamedialog.cpp:131
-msgid "Suggest New &Name"
-msgstr "&নতুন নাম প্রস্তাব করুন"
-
-#: kio/renamedialog.cpp:137
-msgid "&Skip"
-msgstr "ছেড়ে যা&ও"
-
-#: kio/renamedialog.cpp:138
-msgid "Do not copy or move this folder, skip to the next item instead"
-msgstr ""
-
-#: kio/renamedialog.cpp:139
-msgid "Do not copy or move this file, skip to the next item instead"
-msgstr ""
-
-#: kio/renamedialog.cpp:144
-msgctxt "Write files into an existing folder"
-msgid "&Write Into"
-msgstr ""
-
-#: kio/renamedialog.cpp:144
-msgid "&Overwrite"
-msgstr "মুছে লেখো (&ম)"
-
-#: kio/renamedialog.cpp:146
-msgid ""
-"Files and folders will be copied into the existing directory, alongside its "
-"existing contents.\n"
-"You will be prompted again in case of a conflict with an existing file in "
-"the directory."
-msgstr ""
-
-#: kio/renamedialog.cpp:151
-msgid "&Resume"
-msgstr "আবা&র চালু করো"
-
-#: kio/renamedialog.cpp:160
-#, kde-format
-msgid ""
-"This action would overwrite '%1' with itself.\n"
-"Please enter a new file name:"
-msgstr ""
-"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
-"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
-
-#: kio/renamedialog.cpp:162
-msgid "C&ontinue"
-msgstr "চালিয়ে যা&ও"
-
-#: kio/renamedialog.cpp:234
-#, fuzzy, kde-format
-#| msgid ""
-#| "This action would overwrite '%1' with itself.\n"
-#| "Please enter a new file name:"
-msgid "This action will overwrite '%1' with a newer file '%2'."
-msgstr ""
-"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
-"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
-
-#: kio/renamedialog.cpp:236
-#, fuzzy, kde-format
-#| msgid ""
-#| "This action would overwrite '%1' with itself.\n"
-#| "Please enter a new file name:"
-msgid "This action will overwrite '%1' with a file of the same age '%2'."
-msgstr ""
-"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
-"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
-
-#: kio/renamedialog.cpp:238
-#, fuzzy, kde-format
-#| msgid ""
-#| "This action would overwrite '%1' with itself.\n"
-#| "Please enter a new file name:"
-msgid "This action will overwrite '%1' with an older file '%2'."
-msgstr ""
-"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
-"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
-
-#: kio/renamedialog.cpp:242
+#: kio/fileundomanager.cpp:116
 #, fuzzy
+msgid "Creating directory"
+msgstr "ফোল্ডার তৈরি হচ্ছে"
+
+#: kio/fileundomanager.cpp:117 kio/job.cpp:173
+msgid "Directory"
+msgstr ""
+
+#: kio/fileundomanager.cpp:119
+#, fuzzy
+msgid "Moving"
+msgstr "স্থানান্তর করা হচ্ছে"
+
+#: kio/fileundomanager.cpp:120 kio/job.cpp:159 kio/job.cpp:166 kio/job.cpp:191
+#, fuzzy
+msgctxt "The source of a file operation"
 msgid "Source"
 msgstr "উত্‍স:"
 
-#: kio/renamedialog.cpp:243
+#: kio/fileundomanager.cpp:121 kio/job.cpp:160 kio/job.cpp:167
 #, fuzzy
+msgctxt "The destination of a file operation"
 msgid "Destination"
 msgstr "গন্তব্য:"
 
-#: kio/renamedialog.cpp:261
-#, kde-format
-msgid "An older item named '%1' already exists."
-msgstr "'%1' নামের একটি পুরনো বস্তু আগে থেকেই আছে।"
+#: kio/fileundomanager.cpp:123
+#, fuzzy
+msgid "Deleting"
+msgstr "মুছে ফেলা হচ্ছে"
 
-#: kio/renamedialog.cpp:263
-#, kde-format
-msgid "A similar file named '%1' already exists."
-msgstr "'%1' নামের একই রকম একটি ফাইল আগে থেকেই আছে।"
+#: kio/fileundomanager.cpp:124 kio/job.cpp:179 kio/job.cpp:185
+#, fuzzy
+msgid "File"
+msgstr "কোন ফাইল নেই"
 
-#: kio/renamedialog.cpp:265
-#, kde-format
-msgid "A newer item named '%1' already exists."
-msgstr "'%1' নামের আরো নতুন একটি বস্তু আগে থেকেই আছে।"
+#: kio/fileundomanager.cpp:284
+msgid "Und&o"
+msgstr ""
 
-#: kio/renamedialog.cpp:387 kio/paste.cpp:228 kio/krun.cpp:1095
-#: kio/kdirlister.cpp:329
+#: kio/fileundomanager.cpp:288
+msgid "Und&o: Copy"
+msgstr ""
+
+#: kio/fileundomanager.cpp:290
+msgid "Und&o: Link"
+msgstr ""
+
+#: kio/fileundomanager.cpp:292
+msgid "Und&o: Move"
+msgstr ""
+
+#: kio/fileundomanager.cpp:294
+#, fuzzy
+msgid "Und&o: Rename"
+msgstr "না&ম পরিবর্তন করো"
+
+#: kio/fileundomanager.cpp:296
+msgid "Und&o: Trash"
+msgstr ""
+
+#: kio/fileundomanager.cpp:298
+#, fuzzy
+msgid "Und&o: Create Folder"
+msgstr "ফোল্ডার তৈরি করা যায়নি"
+
+#: kio/fileundomanager.cpp:764
 #, kde-format
 msgid ""
-"Malformed URL\n"
-"%1"
+"The file %1 was copied from %2, but since then it has apparently been "
+"modified at %3.\n"
+"Undoing the copy will delete the file, and all modifications will be lost.\n"
+"Are you sure you want to delete %4?"
 msgstr ""
-"ত্রুটিপূর্ণ ইউ-আর-এল\n"
-"%1"
+
+#: kio/fileundomanager.cpp:767
+#, fuzzy
+msgid "Undo File Copy Confirmation"
+msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে"
 
 #: kio/kdesktopfileactions.cpp:60
 #, kde-format
@@ -1837,6 +1798,63 @@ msgstr "ইজেক্ট"
 #: kio/kdesktopfileactions.cpp:214
 msgid "Unmount"
 msgstr "আনমাউন্ট"
+
+#: kio/job.cpp:158
+#, fuzzy
+msgctxt "@title job"
+msgid "Moving"
+msgstr "স্থানান্তর করা হচ্ছে"
+
+#: kio/job.cpp:165
+#, fuzzy
+msgctxt "@title job"
+msgid "Copying"
+msgstr "কপি করা হচ্ছে"
+
+#: kio/job.cpp:172
+#, fuzzy
+msgctxt "@title job"
+msgid "Creating directory"
+msgstr "ফোল্ডার তৈরি হচ্ছে"
+
+#: kio/job.cpp:178
+#, fuzzy
+msgctxt "@title job"
+msgid "Deleting"
+msgstr "মুছে ফেলা হচ্ছে"
+
+#: kio/job.cpp:184
+#, fuzzy
+msgctxt "@title job"
+msgid "Examining"
+msgstr "পরীক্ষা করা হচ্ছে"
+
+#: kio/job.cpp:190
+msgctxt "@title job"
+msgid "Transferring"
+msgstr ""
+
+#: kio/job.cpp:196
+#, fuzzy
+msgctxt "@title job"
+msgid "Mounting"
+msgstr "মাউন্ট করা হচ্ছে"
+
+#: kio/job.cpp:197
+#, fuzzy
+msgid "Device"
+msgstr "ডিভাইস"
+
+#: kio/job.cpp:198 kio/job.cpp:204
+#, fuzzy
+msgid "Mountpoint"
+msgstr "মাউন্ট পয়েন্ট:"
+
+#: kio/job.cpp:203
+#, fuzzy
+msgctxt "@title job"
+msgid "Unmounting"
+msgstr "আনমাউন্ট করা হচ্ছে"
 
 #: kio/slave.cpp:432
 #, kde-format
@@ -1976,168 +1994,45 @@ msgstr ""
 "আপনার নির্দেশ অনুযায়ী এস-এস-এল সার্টিফিকেটটি অস্বীকার করা হচ্ছে। কে.ডি.ই নিয়ন্ত্রণ "
 "কেন্দ্রে আপনি একে নিষ্ক্রিয় করতে পারেন।"
 
-#: kio/kfileitemdelegate.cpp:236
-#, fuzzy, kde-format
-msgctxt "Items in a folder"
-msgid "1 item"
-msgid_plural "%1 items"
-msgstr[0] "একটি ফাইল"
-msgstr[1] "%1-টি ফাইল"
+#: kio/slavebase.h:266 kio/slavebase.h:286
+msgid "&Yes"
+msgstr ""
 
-#: kio/kfileitemdelegate.cpp:292 kio/kfileitemdelegate.cpp:296
+#: kio/slavebase.h:267 kio/slavebase.h:287
 #, fuzzy
-msgctxt "@info mimetype"
-msgid "Unknown"
-msgstr "অজানা"
+msgid "&No"
+msgstr "একটিও না"
 
 #: kio/passworddialog.cpp:62
 msgid "Authorization Dialog"
 msgstr ""
 
-#: kio/job.cpp:158
-#, fuzzy
-msgctxt "@title job"
-msgid "Moving"
-msgstr "স্থানান্তর করা হচ্ছে"
-
-#: kio/job.cpp:159 kio/job.cpp:166 kio/job.cpp:191 kio/fileundomanager.cpp:120
-#, fuzzy
-msgctxt "The source of a file operation"
-msgid "Source"
-msgstr "উত্‍স:"
-
-#: kio/job.cpp:160 kio/job.cpp:167 kio/fileundomanager.cpp:121
-#, fuzzy
-msgctxt "The destination of a file operation"
-msgid "Destination"
-msgstr "গন্তব্য:"
-
-#: kio/job.cpp:165
-#, fuzzy
-msgctxt "@title job"
-msgid "Copying"
-msgstr "কপি করা হচ্ছে"
-
-#: kio/job.cpp:172
-#, fuzzy
-msgctxt "@title job"
-msgid "Creating directory"
-msgstr "ফোল্ডার তৈরি হচ্ছে"
-
-#: kio/job.cpp:173 kio/fileundomanager.cpp:117
-msgid "Directory"
-msgstr ""
-
-#: kio/job.cpp:178
-#, fuzzy
-msgctxt "@title job"
-msgid "Deleting"
-msgstr "মুছে ফেলা হচ্ছে"
-
-#: kio/job.cpp:179 kio/job.cpp:185 kio/fileundomanager.cpp:124
-#, fuzzy
-msgid "File"
-msgstr "কোন ফাইল নেই"
-
-#: kio/job.cpp:184
-#, fuzzy
-msgctxt "@title job"
-msgid "Examining"
-msgstr "পরীক্ষা করা হচ্ছে"
-
-#: kio/job.cpp:190
-msgctxt "@title job"
-msgid "Transferring"
-msgstr ""
-
-#: kio/job.cpp:196
-#, fuzzy
-msgctxt "@title job"
-msgid "Mounting"
-msgstr "মাউন্ট করা হচ্ছে"
-
-#: kio/job.cpp:197
-#, fuzzy
-msgid "Device"
-msgstr "ডিভাইস"
-
-#: kio/job.cpp:198 kio/job.cpp:204
-#, fuzzy
-msgid "Mountpoint"
-msgstr "মাউন্ট পয়েন্ট:"
-
-#: kio/job.cpp:203
-#, fuzzy
-msgctxt "@title job"
-msgid "Unmounting"
-msgstr "আনমাউন্ট করা হচ্ছে"
-
-#: kio/fileundomanager.cpp:116
-#, fuzzy
-msgid "Creating directory"
-msgstr "ফোল্ডার তৈরি হচ্ছে"
-
-#: kio/fileundomanager.cpp:119
-#, fuzzy
-msgid "Moving"
-msgstr "স্থানান্তর করা হচ্ছে"
-
-#: kio/fileundomanager.cpp:123
-#, fuzzy
-msgid "Deleting"
-msgstr "মুছে ফেলা হচ্ছে"
-
-#: kio/fileundomanager.cpp:284
-msgid "Und&o"
-msgstr ""
-
-#: kio/fileundomanager.cpp:288
-msgid "Und&o: Copy"
-msgstr ""
-
-#: kio/fileundomanager.cpp:290
-msgid "Und&o: Link"
-msgstr ""
-
-#: kio/fileundomanager.cpp:292
-msgid "Und&o: Move"
-msgstr ""
-
-#: kio/fileundomanager.cpp:294
-#, fuzzy
-msgid "Und&o: Rename"
-msgstr "না&ম পরিবর্তন করো"
-
-#: kio/fileundomanager.cpp:296
-msgid "Und&o: Trash"
-msgstr ""
-
-#: kio/fileundomanager.cpp:298
-#, fuzzy
-msgid "Und&o: Create Folder"
-msgstr "ফোল্ডার তৈরি করা যায়নি"
-
-#: kio/fileundomanager.cpp:764
-#, kde-format
-msgid ""
-"The file %1 was copied from %2, but since then it has apparently been "
-"modified at %3.\n"
-"Undoing the copy will delete the file, and all modifications will be lost.\n"
-"Are you sure you want to delete %4?"
-msgstr ""
-
-#: kio/fileundomanager.cpp:767
-#, fuzzy
-msgid "Undo File Copy Confirmation"
-msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে"
-
 #: kio/accessmanagerreply_p.cpp:69
 msgid "Blocked request."
+msgstr ""
+
+#: kio/kemailsettings.cpp:251 kio/kemailsettings.cpp:254
+#: kio/kemailsettings.cpp:261
+msgid "Default"
 msgstr ""
 
 #: kio/pastedialog.cpp:55
 msgid "Data format:"
 msgstr "তথ্য ফরম্যাট"
+
+#: kio/skipdialog.cpp:40
+#, fuzzy
+msgid "Information"
+msgstr "তথ্য দেখাও:"
+
+#: kio/skipdialog.cpp:47
+msgid "Skip"
+msgstr "এড়িয়ে যাও"
+
+#: kio/skipdialog.cpp:50
+#, fuzzy
+msgid "AutoSkip"
+msgstr "এড়িয়ে যাও"
 
 #: kio/jobuidelegate.cpp:149 ../kfile/kdiroperator.cpp:815
 #, fuzzy, kde-format
@@ -2223,83 +2118,6 @@ msgstr "মালিক:"
 msgid "Permissions:"
 msgstr "ব্যবহারের অনুমতি:"
 
-#: kio/paste.cpp:48 kio/paste.cpp:130
-msgid "Filename for clipboard content:"
-msgstr "ক্লিপবোর্ডের বিষয়বস্তুর জন্য ফাইলের নাম:"
-
-#: kio/paste.cpp:123
-#, kde-format
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: kio/paste.cpp:139
-msgid ""
-"The clipboard has changed since you used 'paste': the chosen data format is "
-"no longer applicable. Please copy again what you wanted to paste."
-msgstr ""
-
-#: kio/paste.cpp:210 kio/paste.cpp:277
-msgid "The clipboard is empty"
-msgstr "ক্লিপবোর্ড ফাঁকা"
-
-#: kio/paste.cpp:324
-#, kde-format
-msgid "&Paste File"
-msgid_plural "&Paste %1 Files"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kio/paste.cpp:326
-#, kde-format
-msgid "&Paste URL"
-msgid_plural "&Paste %1 URLs"
-msgstr[0] ""
-msgstr[1] ""
-
-#: kio/paste.cpp:328
-msgid "&Paste Clipboard Contents"
-msgstr "ক্লিপবোর্ড-এর বিষয়&বস্তু পেস্ট করো"
-
-#: kio/slavebase.h:266 kio/slavebase.h:286
-msgid "&Yes"
-msgstr ""
-
-#: kio/slavebase.h:267 kio/slavebase.h:287
-#, fuzzy
-msgid "&No"
-msgstr "একটিও না"
-
-#: kio/kbuildsycocaprogressdialog.cpp:45
-msgid "Updating System Configuration"
-msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে"
-
-#: kio/kbuildsycocaprogressdialog.cpp:46
-msgid "Updating system configuration."
-msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে।"
-
-#: kio/kstatusbarofflineindicator.cpp:52
-msgid "The desktop is offline"
-msgstr ""
-
-#: kio/kemailsettings.cpp:251 kio/kemailsettings.cpp:254
-#: kio/kemailsettings.cpp:261
-msgid "Default"
-msgstr ""
-
-#: kio/skipdialog.cpp:40
-#, fuzzy
-msgid "Information"
-msgstr "তথ্য দেখাও:"
-
-#: kio/skipdialog.cpp:47
-msgid "Skip"
-msgstr "এড়িয়ে যাও"
-
-#: kio/skipdialog.cpp:50
-#, fuzzy
-msgid "AutoSkip"
-msgstr "এড়িয়ে যাও"
-
 #: kio/krun.cpp:126
 #, kde-format
 msgid ""
@@ -2366,6 +2184,16 @@ msgstr ""
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
+#: kio/krun.cpp:1095 kio/renamedialog.cpp:387 kio/paste.cpp:228
+#: kio/kdirlister.cpp:329
+#, kde-format
+msgid ""
+"Malformed URL\n"
+"%1"
+msgstr ""
+"ত্রুটিপূর্ণ ইউ-আর-এল\n"
+"%1"
+
 #: kio/krun.cpp:1128
 #, kde-format
 msgid ""
@@ -2378,14 +2206,185 @@ msgstr ""
 msgid "Could not find the program '%1'"
 msgstr "'%1' প্রোগ্রামটি পাওয়া যায়নি"
 
-#: kio/kimageio.cpp:43
-msgid "All Pictures"
-msgstr "সব ছবি"
+#: kio/copyjob.cpp:1326 kio/copyjob.cpp:1897
+msgid "Already Exists as Folder"
+msgstr "ফোল্ডার হিসেবে আগে থেকেই আছে"
 
-#: kio/kdbusservicestarter.cpp:76
-#, kde-format
-msgid "No service implementing %1"
+#: kio/kbuildsycocaprogressdialog.cpp:45
+msgid "Updating System Configuration"
+msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে"
+
+#: kio/kbuildsycocaprogressdialog.cpp:46
+msgid "Updating system configuration."
+msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে।"
+
+#: kio/kstatusbarofflineindicator.cpp:52
+msgid "The desktop is offline"
 msgstr ""
+
+#: kio/renamedialog.cpp:122
+msgid "Appl&y to All"
+msgstr ""
+
+#: kio/renamedialog.cpp:123
+msgid ""
+"When this is checked the button pressed will be applied to all subsequent "
+"folder conflicts for the remainder of the current job.\n"
+"Unless you press Skip you will still be prompted in case of a conflict with "
+"an existing file in the directory."
+msgstr ""
+
+#: kio/renamedialog.cpp:124
+msgid ""
+"When this is checked the button pressed will be applied to all subsequent "
+"conflicts for the remainder of the current job."
+msgstr ""
+
+#: kio/renamedialog.cpp:129
+msgid "&Rename"
+msgstr "না&ম পরিবর্তন করো"
+
+#: kio/renamedialog.cpp:131
+msgid "Suggest New &Name"
+msgstr "&নতুন নাম প্রস্তাব করুন"
+
+#: kio/renamedialog.cpp:137
+msgid "&Skip"
+msgstr "ছেড়ে যা&ও"
+
+#: kio/renamedialog.cpp:138
+msgid "Do not copy or move this folder, skip to the next item instead"
+msgstr ""
+
+#: kio/renamedialog.cpp:139
+msgid "Do not copy or move this file, skip to the next item instead"
+msgstr ""
+
+#: kio/renamedialog.cpp:144
+msgctxt "Write files into an existing folder"
+msgid "&Write Into"
+msgstr ""
+
+#: kio/renamedialog.cpp:144
+msgid "&Overwrite"
+msgstr "মুছে লেখো (&ম)"
+
+#: kio/renamedialog.cpp:146
+msgid ""
+"Files and folders will be copied into the existing directory, alongside its "
+"existing contents.\n"
+"You will be prompted again in case of a conflict with an existing file in "
+"the directory."
+msgstr ""
+
+#: kio/renamedialog.cpp:151
+msgid "&Resume"
+msgstr "আবা&র চালু করো"
+
+#: kio/renamedialog.cpp:160
+#, kde-format
+msgid ""
+"This action would overwrite '%1' with itself.\n"
+"Please enter a new file name:"
+msgstr ""
+"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
+"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
+
+#: kio/renamedialog.cpp:162
+msgid "C&ontinue"
+msgstr "চালিয়ে যা&ও"
+
+#: kio/renamedialog.cpp:234
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with a newer file '%2'."
+msgstr ""
+"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
+"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
+
+#: kio/renamedialog.cpp:236
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with a file of the same age '%2'."
+msgstr ""
+"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
+"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
+
+#: kio/renamedialog.cpp:238
+#, fuzzy, kde-format
+#| msgid ""
+#| "This action would overwrite '%1' with itself.\n"
+#| "Please enter a new file name:"
+msgid "This action will overwrite '%1' with an older file '%2'."
+msgstr ""
+"এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
+"অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
+
+#: kio/renamedialog.cpp:242
+#, fuzzy
+msgid "Source"
+msgstr "উত্‍স:"
+
+#: kio/renamedialog.cpp:243
+#, fuzzy
+msgid "Destination"
+msgstr "গন্তব্য:"
+
+#: kio/renamedialog.cpp:261
+#, kde-format
+msgid "An older item named '%1' already exists."
+msgstr "'%1' নামের একটি পুরনো বস্তু আগে থেকেই আছে।"
+
+#: kio/renamedialog.cpp:263
+#, kde-format
+msgid "A similar file named '%1' already exists."
+msgstr "'%1' নামের একই রকম একটি ফাইল আগে থেকেই আছে।"
+
+#: kio/renamedialog.cpp:265
+#, kde-format
+msgid "A newer item named '%1' already exists."
+msgstr "'%1' নামের আরো নতুন একটি বস্তু আগে থেকেই আছে।"
+
+#: kio/paste.cpp:48 kio/paste.cpp:130
+msgid "Filename for clipboard content:"
+msgstr "ক্লিপবোর্ডের বিষয়বস্তুর জন্য ফাইলের নাম:"
+
+#: kio/paste.cpp:123
+#, kde-format
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: kio/paste.cpp:139
+msgid ""
+"The clipboard has changed since you used 'paste': the chosen data format is "
+"no longer applicable. Please copy again what you wanted to paste."
+msgstr ""
+
+#: kio/paste.cpp:210 kio/paste.cpp:277
+msgid "The clipboard is empty"
+msgstr "ক্লিপবোর্ড ফাঁকা"
+
+#: kio/paste.cpp:324
+#, kde-format
+msgid "&Paste File"
+msgid_plural "&Paste %1 Files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/paste.cpp:326
+#, kde-format
+msgid "&Paste URL"
+msgid_plural "&Paste %1 URLs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: kio/paste.cpp:328
+msgid "&Paste Clipboard Contents"
+msgstr "ক্লিপবোর্ড-এর বিষয়&বস্তু পেস্ট করো"
 
 #: kio/kdirlister.cpp:339
 #, kde-format
@@ -2394,9 +2393,10 @@ msgid ""
 "%1"
 msgstr ""
 
-#: kio/copyjob.cpp:1326 kio/copyjob.cpp:1897
-msgid "Already Exists as Folder"
-msgstr "ফোল্ডার হিসেবে আগে থেকেই আছে"
+#: kio/kdbusservicestarter.cpp:76
+#, kde-format
+msgid "No service implementing %1"
+msgstr ""
 
 #: kio/chmodjob.cpp:215
 #, kde-format
@@ -2769,6 +2769,25 @@ msgstr ""
 msgid "*.adr|Opera Bookmark Files (*.adr)"
 msgstr "*.adr| অপেরা বুকমার্ক ফাইল (*.adr)"
 
+#: kfile/kfilemetadataprovider.cpp:303
+#, fuzzy
+msgctxt "@label"
+msgid "Rating"
+msgstr "ক্রমবিন্যাস"
+
+#: kfile/kfilemetadataprovider.cpp:305
+#, fuzzy
+msgctxt "@label"
+msgid "Tags"
+msgstr "ক্যাশ (Cache) ফাঁকা করো"
+
+#: kfile/kfilemetadataprovider.cpp:307 kfile/knfotranslator.cpp:39
+#, fuzzy
+#| msgid "Comment"
+msgctxt "@label"
+msgid "Comment"
+msgstr "মন্তব্য"
+
 #: kfile/kfiledialog.cpp:129
 #, fuzzy
 msgid "*|All files"
@@ -2798,6 +2817,33 @@ msgstr ""
 #: kfile/kurlrequester.cpp:242
 msgid "Open file dialog"
 msgstr "ফাইল ডায়ালগ খোলো"
+
+#: kfile/kfilemetainfowidget.cpp:163
+msgid "<Error>"
+msgstr "<ভুল>"
+
+#: kfile/kmetaprops.cpp:57
+#, fuzzy
+msgctxt "@title:window"
+msgid "Configure Shown Data"
+msgstr "চালিয়ে যা&ও"
+
+#: kfile/kmetaprops.cpp:62
+msgctxt "@label::textbox"
+msgid "Configure which data should be shown"
+msgstr ""
+
+#: kfile/kmetaprops.cpp:120
+#, fuzzy
+msgctxt "@action:button"
+msgid "Configure..."
+msgstr "চালিয়ে যা&ও"
+
+#: kfile/kmetaprops.cpp:130
+#, fuzzy
+msgctxt "@title:tab"
+msgid "Information"
+msgstr "তথ্য দেখাও:"
 
 #: kfile/kacleditwidget.cpp:61 kfile/kacleditwidget.cpp:454
 msgid "Owner"
@@ -2896,37 +2942,10 @@ msgstr "x"
 msgid "Effective"
 msgstr ""
 
-#: kfile/kmetaprops.cpp:57
-#, fuzzy
-msgctxt "@title:window"
-msgid "Configure Shown Data"
-msgstr "চালিয়ে যা&ও"
-
-#: kfile/kmetaprops.cpp:62
-msgctxt "@label::textbox"
-msgid "Configure which data should be shown"
-msgstr ""
-
-#: kfile/kmetaprops.cpp:120
-#, fuzzy
-msgctxt "@action:button"
-msgid "Configure..."
-msgstr "চালিয়ে যা&ও"
-
-#: kfile/kmetaprops.cpp:130
-#, fuzzy
-msgctxt "@title:tab"
-msgid "Information"
-msgstr "তথ্য দেখাও:"
-
 #: kfile/kdevicelistmodel.cpp:116
 #, fuzzy
 msgid "Device name"
 msgstr "ডিভাইস"
-
-#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:994
-msgid "Location:"
-msgstr "অবস্থান:"
 
 #: kfile/kfilesharedialog.cpp:59
 msgid "&Share"
@@ -2995,243 +3014,41 @@ msgid ""
 "Perl script 'fileshareset' is set suid root."
 msgstr ""
 
+#: kfile/kurlrequesterdialog.cpp:59 kfile/kpropertiesdialog.cpp:994
+msgid "Location:"
+msgstr "অবস্থান:"
+
 #: kfile/kpreviewprops.cpp:50
 msgid "P&review"
 msgstr "প্রাক&দর্শন"
 
-#: kfile/knfotranslator.cpp:39 kfile/kfilemetadataprovider.cpp:307
+#: kfile/kcommentwidget.cpp:61
+#, fuzzy
+#| msgid "Add Entry..."
+msgctxt "@label"
+msgid "Add Comment..."
+msgstr "এন্ট্রি যোগ করো..."
+
+#: kfile/kcommentwidget.cpp:67
+#, fuzzy
+#| msgid "Calculating..."
+msgctxt "@label"
+msgid "Change..."
+msgstr "গণনা চলছে..."
+
+#: kfile/kcommentwidget.cpp:109
 #, fuzzy
 #| msgid "Comment"
-msgctxt "@label"
-msgid "Comment"
+msgctxt "@title:window"
+msgid "Change Comment"
 msgstr "মন্তব্য"
 
-#: kfile/knfotranslator.cpp:40
+#: kfile/kcommentwidget.cpp:110
 #, fuzzy
-#| msgid "Created:"
-msgctxt "@label creation date"
-msgid "Created"
-msgstr "তৈরি:"
-
-#: kfile/knfotranslator.cpp:41
-#, fuzzy
-#| msgid "Size"
-msgctxt "@label file content size"
-msgid "Size"
-msgstr "মাপ"
-
-#: kfile/knfotranslator.cpp:42
-msgctxt "@label file depends from"
-msgid "Depends"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:43
-#, fuzzy
-#| msgid "Parent Folder"
-msgctxt "@label parent directory"
-msgid "Part of"
-msgstr "উর্ধ্বস্থ ফোল্ডার"
-
-#: kfile/knfotranslator.cpp:44
-#, fuzzy
-msgctxt "@label modified date of file"
-msgid "Modified"
-msgstr "পরিবর্তিত:"
-
-#: kfile/knfotranslator.cpp:45
-#, fuzzy
-#| msgid "Mime Type"
-msgctxt "@label"
-msgid "MIME Type"
-msgstr "মাইম টাইপ"
-
-#: kfile/knfotranslator.cpp:46
-#, fuzzy
-#| msgid "Contents:"
-msgctxt "@label"
-msgid "Content"
-msgstr "বিষয়বস্তু:"
-
-#: kfile/knfotranslator.cpp:47
-#, fuzzy
-msgctxt "@label music title"
-msgid "Title"
-msgstr "কোন ফাইল নেই"
-
-#: kfile/knfotranslator.cpp:48
-#, fuzzy
-#| msgid "Location:"
-msgctxt "@label file URL"
-msgid "Location"
-msgstr "অবস্থান:"
-
-#: kfile/knfotranslator.cpp:49
-#, fuzzy
-#| msgid "Created:"
-msgctxt "@label"
-msgid "Creator"
-msgstr "তৈরি:"
-
-#: kfile/knfotranslator.cpp:50
-msgctxt "@label"
-msgid "Average Bitrate"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:51
-msgctxt "@label"
-msgid "Channels"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:52
-msgctxt "@label number of characters"
-msgid "Characters"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:53
-#, fuzzy
-#| msgid "C&onnect"
-msgctxt "@label"
-msgid "Codec"
-msgstr "যোগাযোগ স্থাপ&ন করো"
-
-#: kfile/knfotranslator.cpp:54
-msgctxt "@label"
-msgid "Color Depth"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:55
-#, fuzzy
-msgctxt "@label"
-msgid "Filename"
-msgstr "ডিভাইস"
-
-#: kfile/knfotranslator.cpp:56
-msgctxt "@label"
-msgid "Height"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:57
-msgctxt "@label"
-msgid "Interlace Mode"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:58
-#, fuzzy
-#| msgid "Link"
-msgctxt "@label number of lines"
-msgid "Lines"
-msgstr "লিঙ্ক"
-
-#: kfile/knfotranslator.cpp:59
-msgctxt "@label"
-msgid "Programming Language"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:60
-msgctxt "@label"
-msgid "Sample Rate"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:61
-msgctxt "@label"
-msgid "Width"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:62
-msgctxt "@label number of words"
-msgid "Words"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:63
-msgctxt "@label EXIF aperture value"
-msgid "Aperture"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:64
-msgctxt "@label EXIF"
-msgid "Exposure Bias Value"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:65
-#, fuzzy
-#| msgid "Exposure:"
-msgctxt "@label EXIF"
-msgid "Exposure Time"
-msgstr "এক্সপোজার:"
-
-#: kfile/knfotranslator.cpp:66
-msgctxt "@label EXIF"
-msgid "Flash"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:67
-msgctxt "@label EXIF"
-msgid "Focal Length"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:68
-msgctxt "@label EXIF"
-msgid "Focal Length 35 mm"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:69
-msgctxt "@label EXIF"
-msgid "ISO Speed Ratings"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:70
-msgctxt "@label EXIF"
-msgid "Make"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:71
-#, fuzzy
-#| msgid "Creating Folder"
-msgctxt "@label EXIF"
-msgid "Metering Mode"
-msgstr "ফোল্ডার তৈরি হচ্ছে"
-
-#: kfile/knfotranslator.cpp:72
-#, fuzzy
-msgctxt "@label EXIF"
-msgid "Model"
-msgstr "পরিবর্তিত:"
-
-#: kfile/knfotranslator.cpp:73
-#, fuzzy
-#| msgid "Organization:"
-msgctxt "@label EXIF"
-msgid "Orientation"
-msgstr "সংস্থা:"
-
-#: kfile/knfotranslator.cpp:74
-msgctxt "@label EXIF"
-msgid "White Balance"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:75
-#, fuzzy
-#| msgid "&General"
-msgctxt "@label music genre"
-msgid "Genre"
-msgstr "সাধা&রণ"
-
-#: kfile/knfotranslator.cpp:76
-msgctxt "@label music album"
-msgid "Album"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:77
-msgctxt "@label music track number"
-msgid "Track"
-msgstr ""
-
-#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:575
-#, fuzzy
-#| msgid "Type"
-msgctxt "@label file type"
-msgid "Type"
-msgstr "ধরন"
+#| msgid "Comment"
+msgctxt "@title:window"
+msgid "Add Comment"
+msgstr "মন্তব্য"
 
 #: kfile/kencodingfiledialog.cpp:50
 #, fuzzy
@@ -3781,62 +3598,232 @@ msgstr "শুধুমাত্র স্থানীয় এক্সিকি�
 msgid "Advanced Options for %1"
 msgstr "%1-এর জন্য অগ্রসর অপশন"
 
-#: kfile/kfilemetadatawidget.cpp:494
+#: kfile/knfotranslator.cpp:40
+#, fuzzy
+#| msgid "Created:"
+msgctxt "@label creation date"
+msgid "Created"
+msgstr "তৈরি:"
+
+#: kfile/knfotranslator.cpp:41
 #, fuzzy
 #| msgid "Size"
-msgctxt "@label"
+msgctxt "@label file content size"
 msgid "Size"
 msgstr "মাপ"
 
-#: kfile/kfilemetadatawidget.cpp:496
-#, fuzzy
-#| msgid "Folders"
-msgctxt "@label"
-msgid "Folder"
-msgstr "ফোল্ডার"
+#: kfile/knfotranslator.cpp:42
+msgctxt "@label file depends from"
+msgid "Depends"
+msgstr ""
 
-#: kfile/kfilemetadatawidget.cpp:512
+#: kfile/knfotranslator.cpp:43
 #, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size"
-msgstr "মাপ:"
+#| msgid "Parent Folder"
+msgctxt "@label parent directory"
+msgid "Part of"
+msgstr "উর্ধ্বস্থ ফোল্ডার"
 
-#: kfile/kfilemetadatawidget.cpp:577
+#: kfile/knfotranslator.cpp:44
 #, fuzzy
-msgctxt "@label"
+msgctxt "@label modified date of file"
 msgid "Modified"
 msgstr "পরিবর্তিত:"
 
-#: kfile/kfilemetadatawidget.cpp:578
+#: kfile/knfotranslator.cpp:45
 #, fuzzy
-#| msgid "Owner"
+#| msgid "Mime Type"
 msgctxt "@label"
-msgid "Owner"
-msgstr "মালিক"
+msgid "MIME Type"
+msgstr "মাইম টাইপ"
 
-#: kfile/kfilemetadatawidget.cpp:579
+#: kfile/knfotranslator.cpp:46
 #, fuzzy
-#| msgid "Permissions"
+#| msgid "Contents:"
 msgctxt "@label"
-msgid "Permissions"
-msgstr "অনুমতি"
+msgid "Content"
+msgstr "বিষয়বস্তু:"
 
-#: kfile/kfilemetadataprovider.cpp:303
+#: kfile/knfotranslator.cpp:47
+#, fuzzy
+msgctxt "@label music title"
+msgid "Title"
+msgstr "কোন ফাইল নেই"
+
+#: kfile/knfotranslator.cpp:48
+#, fuzzy
+#| msgid "Location:"
+msgctxt "@label file URL"
+msgid "Location"
+msgstr "অবস্থান:"
+
+#: kfile/knfotranslator.cpp:49
+#, fuzzy
+#| msgid "Created:"
+msgctxt "@label"
+msgid "Creator"
+msgstr "তৈরি:"
+
+#: kfile/knfotranslator.cpp:50
+msgctxt "@label"
+msgid "Average Bitrate"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:51
+msgctxt "@label"
+msgid "Channels"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:52
+msgctxt "@label number of characters"
+msgid "Characters"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:53
+#, fuzzy
+#| msgid "C&onnect"
+msgctxt "@label"
+msgid "Codec"
+msgstr "যোগাযোগ স্থাপ&ন করো"
+
+#: kfile/knfotranslator.cpp:54
+msgctxt "@label"
+msgid "Color Depth"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:55
 #, fuzzy
 msgctxt "@label"
-msgid "Rating"
-msgstr "ক্রমবিন্যাস"
+msgid "Filename"
+msgstr "ডিভাইস"
 
-#: kfile/kfilemetadataprovider.cpp:305
-#, fuzzy
+#: kfile/knfotranslator.cpp:56
 msgctxt "@label"
-msgid "Tags"
-msgstr "ক্যাশ (Cache) ফাঁকা করো"
+msgid "Height"
+msgstr ""
 
-#: kfile/kfilemetainfowidget.cpp:163
-msgid "<Error>"
-msgstr "<ভুল>"
+#: kfile/knfotranslator.cpp:57
+msgctxt "@label"
+msgid "Interlace Mode"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:58
+#, fuzzy
+#| msgid "Link"
+msgctxt "@label number of lines"
+msgid "Lines"
+msgstr "লিঙ্ক"
+
+#: kfile/knfotranslator.cpp:59
+msgctxt "@label"
+msgid "Programming Language"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:60
+msgctxt "@label"
+msgid "Sample Rate"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:61
+msgctxt "@label"
+msgid "Width"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:62
+msgctxt "@label number of words"
+msgid "Words"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:63
+msgctxt "@label EXIF aperture value"
+msgid "Aperture"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:64
+msgctxt "@label EXIF"
+msgid "Exposure Bias Value"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:65
+#, fuzzy
+#| msgid "Exposure:"
+msgctxt "@label EXIF"
+msgid "Exposure Time"
+msgstr "এক্সপোজার:"
+
+#: kfile/knfotranslator.cpp:66
+msgctxt "@label EXIF"
+msgid "Flash"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:67
+msgctxt "@label EXIF"
+msgid "Focal Length"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:68
+msgctxt "@label EXIF"
+msgid "Focal Length 35 mm"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:69
+msgctxt "@label EXIF"
+msgid "ISO Speed Ratings"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:70
+msgctxt "@label EXIF"
+msgid "Make"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:71
+#, fuzzy
+#| msgid "Creating Folder"
+msgctxt "@label EXIF"
+msgid "Metering Mode"
+msgstr "ফোল্ডার তৈরি হচ্ছে"
+
+#: kfile/knfotranslator.cpp:72
+#, fuzzy
+msgctxt "@label EXIF"
+msgid "Model"
+msgstr "পরিবর্তিত:"
+
+#: kfile/knfotranslator.cpp:73
+#, fuzzy
+#| msgid "Organization:"
+msgctxt "@label EXIF"
+msgid "Orientation"
+msgstr "সংস্থা:"
+
+#: kfile/knfotranslator.cpp:74
+msgctxt "@label EXIF"
+msgid "White Balance"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:75
+#, fuzzy
+#| msgid "&General"
+msgctxt "@label music genre"
+msgid "Genre"
+msgstr "সাধা&রণ"
+
+#: kfile/knfotranslator.cpp:76
+msgctxt "@label music album"
+msgid "Album"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:77
+msgctxt "@label music track number"
+msgid "Track"
+msgstr ""
+
+#: kfile/knfotranslator.cpp:78 kfile/kfilemetadatawidget.cpp:575
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label file type"
+msgid "Type"
+msgstr "ধরন"
 
 #: kfile/kopenwithdialog.cpp:269
 msgid "Known Applications"
@@ -3919,33 +3906,46 @@ msgstr ""
 msgid "'%1' not found, please type a valid program name."
 msgstr ""
 
-#: kfile/kcommentwidget.cpp:61
+#: kfile/kfilemetadatawidget.cpp:494
 #, fuzzy
-#| msgid "Add Entry..."
+#| msgid "Size"
 msgctxt "@label"
-msgid "Add Comment..."
-msgstr "এন্ট্রি যোগ করো..."
+msgid "Size"
+msgstr "মাপ"
 
-#: kfile/kcommentwidget.cpp:67
+#: kfile/kfilemetadatawidget.cpp:496
 #, fuzzy
-#| msgid "Calculating..."
+#| msgid "Folders"
 msgctxt "@label"
-msgid "Change..."
-msgstr "গণনা চলছে..."
+msgid "Folder"
+msgstr "ফোল্ডার"
 
-#: kfile/kcommentwidget.cpp:109
+#: kfile/kfilemetadatawidget.cpp:512
 #, fuzzy
-#| msgid "Comment"
-msgctxt "@title:window"
-msgid "Change Comment"
-msgstr "মন্তব্য"
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "মাপ:"
 
-#: kfile/kcommentwidget.cpp:110
+#: kfile/kfilemetadatawidget.cpp:577
 #, fuzzy
-#| msgid "Comment"
-msgctxt "@title:window"
-msgid "Add Comment"
-msgstr "মন্তব্য"
+msgctxt "@label"
+msgid "Modified"
+msgstr "পরিবর্তিত:"
+
+#: kfile/kfilemetadatawidget.cpp:578
+#, fuzzy
+#| msgid "Owner"
+msgctxt "@label"
+msgid "Owner"
+msgstr "মালিক"
+
+#: kfile/kfilemetadatawidget.cpp:579
+#, fuzzy
+#| msgid "Permissions"
+msgctxt "@label"
+msgid "Permissions"
+msgstr "অনুমতি"
 
 #: kfile/kfilemetadataconfigurationwidget.cpp:171
 #, fuzzy
@@ -5818,14 +5818,6 @@ msgid ""
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
 
-#: ../kfile/kurlnavigatortogglebutton.cpp:90
-msgid "Click for Location Navigation"
-msgstr ""
-
-#: ../kfile/kurlnavigatortogglebutton.cpp:92
-msgid "Click to Edit Location"
-msgstr ""
-
 #: ../kfile/kdiroperator.cpp:769 ../kfile/kdirselectdialog.cpp:156
 #, kde-format
 msgid "A file or folder named %1 already exists."
@@ -6008,25 +6000,6 @@ msgstr "ফাইল ডায়ালগ খোলো"
 msgid "&View"
 msgstr "প্রাক&দর্শন"
 
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:164
-#, fuzzy
-#| msgid "Devices"
-msgctxt "@item:inmenu"
-msgid "Devices"
-msgstr "ডিভাইস"
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:168
-msgctxt "@item:inmenu"
-msgid "Subversion"
-msgstr ""
-
-#: ../kfile/kurlnavigatorprotocolcombo.cpp:172
-#, fuzzy
-#| msgid "Others"
-msgctxt "@item:inmenu"
-msgid "Other"
-msgstr "অন্যান্য"
-
 #: ../kfile/kdirselectdialog.cpp:128
 #, fuzzy
 msgctxt "folder name"
@@ -6079,6 +6052,14 @@ msgstr "গুপ্ত ফোল্ডার দেখাও"
 msgctxt "@action:inmenu"
 msgid "Properties"
 msgstr "এখানে বুকমার্ক যোগ করো"
+
+#: ../kfile/kurlnavigatortogglebutton.cpp:90
+msgid "Click for Location Navigation"
+msgstr ""
+
+#: ../kfile/kurlnavigatortogglebutton.cpp:92
+msgid "Click to Edit Location"
+msgstr ""
 
 #: ../kfile/kfileplacesview.cpp:569
 #, fuzzy
@@ -6335,6 +6316,25 @@ msgstr "%2 করার চেষ্টা চলাকালীন অপ্র
 #, fuzzy
 msgid "Show Hidden Folders"
 msgstr "গুপ্ত ফোল্ডার দেখাও"
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:164
+#, fuzzy
+#| msgid "Devices"
+msgctxt "@item:inmenu"
+msgid "Devices"
+msgstr "ডিভাইস"
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:168
+msgctxt "@item:inmenu"
+msgid "Subversion"
+msgstr ""
+
+#: ../kfile/kurlnavigatorprotocolcombo.cpp:172
+#, fuzzy
+#| msgid "Others"
+msgctxt "@item:inmenu"
+msgid "Other"
+msgstr "অন্যান্য"
 
 #, fuzzy
 #~| msgid "%1 (%2)"
