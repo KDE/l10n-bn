@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-29 08:11+0200\n"
+"POT-Creation-Date: 2010-06-30 05:30+0200\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1315,23 +1315,38 @@ msgstr "গ্রে&ড:"
 msgid "Tenses"
 msgstr "কা&ল"
 
-#: src/practice/practicesummarycomponent.cpp:47
+#: src/practice/practicesummarycomponent.cpp:50
 #, fuzzy, kde-format
-#| msgid "Article"
-msgid "One word practiced."
-msgid_plural "%1 words practiced."
-msgstr[0] "পদাশ্রিত নির্দেশক"
-msgstr[1] "পদাশ্রিত নির্দেশক"
+#| msgid "Enter the word:"
+msgid "one word"
+msgid_plural "%1 words"
+msgstr[0] "শব্দটি লিখুন:"
+msgstr[1] "শব্দটি লিখুন:"
 
-#: src/practice/practicesummarycomponent.cpp:48
+#: src/practice/practicesummarycomponent.cpp:51
+#, fuzzy, kde-format
+#| msgid "minutes"
+msgid "one minute"
+msgid_plural "%1 minutes"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"
+
+#: src/practice/practicesummarycomponent.cpp:52
+#, fuzzy, kde-format
+#| msgid "&Append Language"
+msgid "one second"
+msgid_plural "%1 seconds"
+msgstr[0] "ভাষা যো&গ করো"
+msgstr[1] "ভাষা যো&গ করো"
+
+#: src/practice/practicesummarycomponent.cpp:49
 #, kde-format
-msgid "The practice took one second."
-msgid_plural "The practice took %1 seconds."
-msgstr[0] ""
-msgstr[1] ""
+msgctxt "number of words, minutes, seconds"
+msgid "You practiced %1 in %2 and %3."
+msgstr ""
 
-#: src/practice/practicesummarycomponent.cpp:64
-#: src/practice/practicesummarycomponent.cpp:65
+#: src/practice/practicesummarycomponent.cpp:68
+#: src/practice/practicesummarycomponent.cpp:69
 #, fuzzy
 #| msgid "View Settings"
 msgid "Practice Again"
@@ -2373,7 +2388,7 @@ msgstr ""
 #. i18n: ectx: Menu (file)
 #. i18n: file: src/practice/practiceui.rc:7
 #. i18n: ectx: Menu (file)
-#: rc.cpp:269 rc.cpp:1161 rc.cpp:1248 rc.cpp:1268
+#: rc.cpp:269 rc.cpp:1161 rc.cpp:1245 rc.cpp:1265
 #, fuzzy
 #| msgid "&Fixed"
 msgid "&File"
@@ -2390,7 +2405,7 @@ msgstr "মেয়া&দ"
 #. i18n: ectx: Menu (view)
 #. i18n: file: src/practice/practiceui.rc:12
 #. i18n: ectx: Menu (view)
-#: rc.cpp:275 rc.cpp:1271
+#: rc.cpp:275 rc.cpp:1268
 msgid "&View"
 msgstr ""
 
@@ -2408,7 +2423,7 @@ msgstr "পা&ঠ:"
 #. i18n: ectx: Menu (learning)
 #. i18n: file: src/practice/practicesummaryui.rc:12
 #. i18n: ectx: Menu (learning)
-#: rc.cpp:281 rc.cpp:1164 rc.cpp:1251
+#: rc.cpp:281 rc.cpp:1164 rc.cpp:1248
 #, fuzzy
 #| msgid "&Articles"
 msgid "&Practice"
@@ -4034,7 +4049,7 @@ msgstr ""
 #. i18n: ectx: ToolBar (practiceToolBar)
 #. i18n: file: src/practice/practiceui.rc:18
 #. i18n: ectx: ToolBar (practiceToolBar)
-#: rc.cpp:1122 rc.cpp:1274
+#: rc.cpp:1122 rc.cpp:1271
 #, fuzzy
 msgid "Practice Toolbar"
 msgstr "&পরিসংখ্যান দেখাও"
@@ -4052,7 +4067,7 @@ msgstr "&পরিসংখ্যান দেখাও"
 #. i18n: ectx: ToolBar (practiceSummaryToolBar)
 #. i18n: file: src/practice/practicesummaryui.rc:19
 #. i18n: ectx: ToolBar (practiceSummaryToolBar)
-#: rc.cpp:1128 rc.cpp:1254
+#: rc.cpp:1128 rc.cpp:1251
 #, fuzzy
 #| msgid "Article"
 msgid "Practice Summary Toolbar"
@@ -4204,61 +4219,54 @@ msgstr "পাঠ মধ্যস্থিত এন্ট্রির সংখ
 msgid "Resulting number of words to practice:"
 msgstr ""
 
-#. i18n: file: src/practice/practicesummarywidget.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1210
-#, fuzzy
-msgid "Your practice result:"
-msgstr "অনুসন্ধান করা হয় নি"
-
-#. i18n: file: src/practice/practicesummarywidget.ui:46
+#. i18n: file: src/practice/practicesummarywidget.ui:28
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: rc.cpp:1213
+#: rc.cpp:1210
 #, fuzzy
 #| msgid "Question"
 msgid "Question"
 msgstr "প্রশ্ন"
 
-#. i18n: file: src/practice/practicesummarywidget.ui:51
+#. i18n: file: src/practice/practicesummarywidget.ui:33
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #. i18n: file: plasmoid/config.ui:81
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:1216 rc.cpp:1289
+#: rc.cpp:1213 rc.cpp:1286
 #, fuzzy
 #| msgid "&Show solution"
 msgid "Solution"
 msgstr "সমাধান দেখা&ও"
 
-#. i18n: file: src/practice/practicesummarywidget.ui:56
+#. i18n: file: src/practice/practicesummarywidget.ui:38
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: rc.cpp:1219
+#: rc.cpp:1216
 #, fuzzy
 #| msgctxt "NAME OF TRANSLATORS"
 #| msgid "Your names"
 msgid "Your Answer"
 msgstr "প্রজ্ঞা"
 
-#. i18n: file: src/practice/practicesummarywidget.ui:61
+#. i18n: file: src/practice/practicesummarywidget.ui:43
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
-#: rc.cpp:1222
+#: rc.cpp:1219
 msgid "Wrong Attempts"
 msgstr ""
 
 #. i18n: file: src/practice/practice_mainwindow.ui:118
 #. i18n: ectx: property (toolTip), widget (QPushButton, answerLaterButton)
-#: rc.cpp:1226
+#: rc.cpp:1223
 msgid "Skip this word for now and ask again later"
 msgstr ""
 
 #. i18n: file: src/practice/practice_mainwindow.ui:121
 #. i18n: ectx: property (text), widget (QPushButton, answerLaterButton)
-#: rc.cpp:1229
+#: rc.cpp:1226
 msgid "Answer Later"
 msgstr ""
 
 #. i18n: file: src/practice/practice_mainwindow.ui:131
 #. i18n: ectx: property (text), widget (QPushButton, hintButton)
-#: rc.cpp:1232
+#: rc.cpp:1229
 #, fuzzy
 #| msgid "minutes"
 msgid "Hint"
@@ -4266,7 +4274,7 @@ msgstr "মিনিট"
 
 #. i18n: file: src/practice/practice_mainwindow.ui:192
 #. i18n: ectx: property (text), widget (QPushButton, continueButton)
-#: rc.cpp:1235
+#: rc.cpp:1232
 #, fuzzy
 #| msgid "Contained In"
 msgid "Continue"
@@ -4274,7 +4282,7 @@ msgstr "এটির মধ্যে আছে"
 
 #. i18n: file: src/practice/practice_mainwindow.ui:209
 #. i18n: ectx: property (text), widget (QPushButton, countAsWrongButton)
-#: rc.cpp:1238
+#: rc.cpp:1235
 #, fuzzy
 #| msgid "I &Know It"
 msgid "I did not know it"
@@ -4282,7 +4290,7 @@ msgstr "জানি (&জ)"
 
 #. i18n: file: src/practice/practice_mainwindow.ui:216
 #. i18n: ectx: property (text), widget (QPushButton, countAsCorrectButton)
-#: rc.cpp:1241
+#: rc.cpp:1238
 #, fuzzy
 #| msgid "I &Know It"
 msgid "I knew it"
@@ -4290,28 +4298,28 @@ msgstr "জানি (&জ)"
 
 #. i18n: file: src/practice/practice_mainwindow.ui:320
 #. i18n: ectx: property (format), widget (QProgressBar, totalProgress)
-#: rc.cpp:1245
+#: rc.cpp:1242
 #, no-c-format
 msgid "%v/%m"
 msgstr ""
 
 #. i18n: file: src/practice/practice_widget_comparison.ui:42
 #. i18n: ectx: property (text), widget (QLabel, absoluteLabel)
-#: rc.cpp:1257
+#: rc.cpp:1254
 #, fuzzy
 msgid "absolute"
 msgstr "বাক্যাংশ"
 
 #. i18n: file: src/practice/practice_widget_comparison.ui:99
 #. i18n: ectx: property (text), widget (QLabel, comparativeLabel)
-#: rc.cpp:1261
+#: rc.cpp:1258
 #, fuzzy
 msgid "comparative"
 msgstr "তু&লনা"
 
 #. i18n: file: src/practice/practice_widget_comparison.ui:156
 #. i18n: ectx: property (text), widget (QLabel, superlativeLabel)
-#: rc.cpp:1265
+#: rc.cpp:1262
 #, fuzzy
 #| msgid "&Articles"
 msgid "superlative"
@@ -4319,14 +4327,14 @@ msgstr "&পদাশ্রিত নির্দেশক"
 
 #. i18n: file: plasmoid/config.ui:18
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: rc.cpp:1277
+#: rc.cpp:1274
 #, fuzzy
 msgid "Vocabulary collection:"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
 #. i18n: file: plasmoid/config.ui:30
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:1280
+#: rc.cpp:1277
 #, fuzzy
 #| msgid "Language Elements"
 msgid "Language Selection"
@@ -4334,26 +4342,26 @@ msgstr "ভাষার উপাদান"
 
 #. i18n: file: plasmoid/config.ui:38
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: rc.cpp:1283
+#: rc.cpp:1280
 #, fuzzy
 msgid "Top:"
 msgstr "পুরু&ষ:"
 
 #. i18n: file: plasmoid/config.ui:45
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: rc.cpp:1286
+#: rc.cpp:1283
 msgid "Bottom:"
 msgstr ""
 
 #. i18n: file: plasmoid/config.ui:87
 #. i18n: ectx: property (text), widget (QRadioButton, solutionOnHover)
-#: rc.cpp:1292
+#: rc.cpp:1289
 msgid "Reveal solution when mouse cursor is over the widget"
 msgstr ""
 
 #. i18n: file: plasmoid/config.ui:97
 #. i18n: ectx: property (text), widget (QRadioButton, solutionAlways)
-#: rc.cpp:1295
+#: rc.cpp:1292
 #, fuzzy
 #| msgid "&Show solution"
 msgid "Always show the solution"
@@ -4361,13 +4369,13 @@ msgstr "সমাধান দেখা&ও"
 
 #. i18n: file: plasmoid/config.ui:112
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:1298
+#: rc.cpp:1295
 msgid "Update interval:"
 msgstr ""
 
 #. i18n: file: plasmoid/config.ui:153
 #. i18n: ectx: property (text), widget (KPushButton, fontSelectButton)
-#: rc.cpp:1301
+#: rc.cpp:1298
 #, fuzzy
 #| msgid "Selected lessons:"
 msgid "Select Font..."
@@ -4502,6 +4510,17 @@ msgstr ""
 #| msgid "Enter the correct translation:"
 msgid "Fetches an image for the selected translation"
 msgstr "সঠিক অনুবাদ লিখুন:"
+
+#, fuzzy
+#~| msgid "Article"
+#~ msgid "One word practiced."
+#~ msgid_plural "%1 words practiced."
+#~ msgstr[0] "পদাশ্রিত নির্দেশক"
+#~ msgstr[1] "পদাশ্রিত নির্দেশক"
+
+#, fuzzy
+#~ msgid "Your practice result:"
+#~ msgstr "অনুসন্ধান করা হয় নি"
 
 #~ msgid "without name"
 #~ msgstr "নামহীন"
@@ -4673,9 +4692,6 @@ msgstr "সঠিক অনুবাদ লিখুন:"
 
 #~ msgid "Antonym Training"
 #~ msgstr "বিপরীত শব্দের প্রশিক্ষণ"
-
-#~ msgid "Enter the word:"
-#~ msgstr "শব্দটি লিখুন:"
 
 #~ msgid "Paraphrase Training"
 #~ msgstr "অন্য কথায় প্রকাশ করার প্রশিক্ষণ"
