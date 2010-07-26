@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: potwerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-06-11 04:57+0200\n"
+"POT-Creation-Date: 2010-07-26 05:17+0200\n"
 "PO-Revision-Date: 2010-06-01 18:58+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -25,11 +25,15 @@ msgid "PowerDevil"
 msgstr "পাওয়ার-ডেভিল"
 
 #: daemon/PowerDevilDaemon.cpp:142
-msgid "A Power Management tool for KDE4"
+#, fuzzy
+#| msgid "A Power Management tool for KDE4"
+msgid "A Power Management tool"
 msgstr "KDE4-এর জন্য একটি পাওয়ার ব্যবস্থাপনার টুল"
 
-#: daemon/PowerDevilDaemon.cpp:143
-msgid "(c) 2008 Dario Freddi"
+#: daemon/PowerDevilDaemon.cpp:143 kcmodule/PowerDevilKCM.cpp:54
+#, fuzzy
+#| msgid "(c) 2008 Dario Freddi"
+msgid "Copyright © 2008–2011 Dario Freddi"
 msgstr "(c) 2008 Dario Freddi"
 
 #: daemon/PowerDevilDaemon.cpp:146 kcmodule/PowerDevilKCM.cpp:59
@@ -290,15 +294,11 @@ msgstr "পাওয়ার-ডেভিল কনফিগারেশন"
 msgid "A configurator for PowerDevil"
 msgstr "পাওয়ার-ডেভিলএর জন্য একটি configurator"
 
-#: kcmodule/PowerDevilKCM.cpp:54
-msgid "(c), 2008 Dario Freddi"
-msgstr "(c), 2008 Dario Freddi"
-
 #: kcmodule/PowerDevilKCM.cpp:55
 #, fuzzy
 msgid ""
 "From this module, you can configure the Daemon, create and edit powersaving "
-"profiles, and see your system's capabilities."
+"profiles, and see your system’s capabilities."
 msgstr ""
 "এই মডিউল থেকেটি, আপনি ডিমন কনফিগার করতে পারে, তৈরি করো এবং powersaving "
 "প্রোফাইল সম্পাদনা করো, এবং আপনার সিস্টেমের সক্ষমতা দেখো।"
@@ -308,11 +308,11 @@ msgstr ""
 msgid ""
 "<h1>PowerDevil configuration</h1> <p>This module lets you configure "
 "PowerDevil. PowerDevil is a daemon (so it runs in background) that is "
-"started upon KDE startup.</p> <p>PowerDevil has 2 levels of configuration: a "
+"started upon startup.</p> <p>PowerDevil has two levels of configuration: a "
 "general one, that is always applied, and a profile-based one, that lets you "
 "configure a specific behavior in every situation. You can also have a look "
 "at your system capabilities in the last tab. To get you started, first "
-"configure the options in the first 2 tabs. Then switch to the fourth one, "
+"configure the options in the first two tabs. Then switch to the fourth one, "
 "and create/edit your profiles. Last but not least, assign your profiles in "
 "the third Tab. You do not have to restart PowerDevil, just click \"Apply\", "
 "and you are done.</p>"
@@ -986,6 +986,9 @@ msgid ""
 msgstr ""
 "কনফিগারেশন মডিউল শুরু করা যাবে না, থেকে পাওয়ার-ডেভিল ডিমনের সঙ্গে একটি সমস্যা "
 "হতে মনে হো। আরও বেশি বিশদ বর্ণনার জন্য below পড়ো"
+
+#~ msgid "(c), 2008 Dario Freddi"
+#~ msgstr "(c), 2008 Dario Freddi"
 
 #, fuzzy
 #~ msgid "XSync Based (recommended)"
