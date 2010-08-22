@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-07-04 05:02+0200\n"
+"POT-Creation-Date: 2010-08-22 05:45+0200\n"
 "PO-Revision-Date: 2006-04-04 13:15+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -351,21 +351,56 @@ msgstr ""
 msgid "Code cleanup"
 msgstr "কোড সুবিন্যস্তকরণ"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "প্রজ্ঞা"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "progga@BengaLinux.Org"
+
+#. i18n: file: kmahjonggui.rc:10
+#. i18n: ectx: Menu (game)
+#: rc.cpp:5
+#, fuzzy
+msgid "&Game"
+msgstr "নাম"
+
+#. i18n: file: kmahjonggui.rc:13
+#. i18n: ectx: Menu (move)
+#: rc.cpp:8
+msgid "&Move"
+msgstr "চাল (&চ)"
+
+#. i18n: file: kmahjonggui.rc:16
+#. i18n: ectx: Menu (view)
+#: rc.cpp:11
+msgid "&View"
+msgstr ""
+
+#. i18n: file: kmahjonggui.rc:22
+#. i18n: ectx: ToolBar (mainToolBar)
+#: rc.cpp:14
+msgid "Main Toolbar"
+msgstr ""
+
 #. i18n: file: gametype.ui:48
 #. i18n: ectx: property (text), widget (QPushButton, getNewButton)
-#: rc.cpp:3
+#: rc.cpp:17
 msgid "&Get New Layouts"
 msgstr ""
 
 #. i18n: file: gametype.ui:57
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:6
+#: rc.cpp:20
 msgid "Preview"
 msgstr ""
 
 #. i18n: file: gametype.ui:99
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: rc.cpp:9
+#: rc.cpp:23
 #, fuzzy
 #| msgctxt "EMAIL OF TRANSLATORS"
 #| msgid "Your emails"
@@ -374,98 +409,63 @@ msgstr "progga@BengaLinux.Org"
 
 #. i18n: file: gametype.ui:137
 #. i18n: ectx: property (text), widget (QLabel, labelAuthor)
-#: rc.cpp:12
+#: rc.cpp:26
 msgid "Author:"
 msgstr ""
 
 #. i18n: file: gametype.ui:147
 #. i18n: ectx: property (text), widget (QLabel, labelContact)
-#: rc.cpp:15
+#: rc.cpp:29
 msgid "Contact:"
 msgstr ""
 
 #. i18n: file: gametype.ui:157
 #. i18n: ectx: property (text), widget (QLabel, labelDescription)
-#: rc.cpp:18
+#: rc.cpp:32
 msgid "Description:"
-msgstr ""
-
-#. i18n: file: kmahjongg.kcfg:9
-#. i18n: ectx: label, entry (TileSet), group (General)
-#: rc.cpp:21
-msgid "The tile-set to use."
-msgstr "যে ঘুঁটির-সেট ব্যবহার করা হবে।"
-
-#. i18n: file: kmahjongg.kcfg:12
-#. i18n: ectx: label, entry (Background), group (General)
-#: rc.cpp:24
-msgid "The background to use."
-msgstr "যে পটভূমি ব্যবহার করা হবে।"
-
-#. i18n: file: kmahjongg.kcfg:15
-#. i18n: ectx: label, entry (Layout), group (General)
-#: rc.cpp:27
-msgid "The layout of the tiles."
-msgstr "ঘুঁটির বিন্যাস"
-
-#. i18n: file: kmahjongg.kcfg:21
-#. i18n: ectx: label, entry (SolvableGames), group (General)
-#: rc.cpp:30
-msgid "Whether all games should be solvable."
-msgstr "সকল খেলাই সমাধানযোগ্য হবে কিনা।"
-
-#. i18n: file: kmahjongg.kcfg:25
-#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
-#: rc.cpp:33
-msgid "Whether matching tiles are shown."
-msgstr "অনুরূপ ঘুঁটি দেখানো হবে কিনা।"
-
-#. i18n: file: kmahjonggui.rc:10
-#. i18n: ectx: Menu (game)
-#: rc.cpp:36
-#, fuzzy
-msgid "&Game"
-msgstr "নাম"
-
-#. i18n: file: kmahjonggui.rc:13
-#. i18n: ectx: Menu (move)
-#: rc.cpp:39
-msgid "&Move"
-msgstr "চাল (&চ)"
-
-#. i18n: file: kmahjonggui.rc:16
-#. i18n: ectx: Menu (view)
-#: rc.cpp:42
-msgid "&View"
-msgstr ""
-
-#. i18n: file: kmahjonggui.rc:22
-#. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:45
-msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: file: settings.ui:22
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMatchingTiles)
-#: rc.cpp:48
+#: rc.cpp:35
 msgid "Blink matching tiles when first one is selected"
 msgstr ""
 
 #. i18n: file: settings.ui:29
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SolvableGames)
-#: rc.cpp:51
+#: rc.cpp:38
 msgid "Generate solvable games"
 msgstr "সমাধানযোগ্য খেলা তৈরি করো"
 
-#: rc.cpp:52
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "প্রজ্ঞা"
+#. i18n: file: kmahjongg.kcfg:9
+#. i18n: ectx: label, entry (TileSet), group (General)
+#: rc.cpp:41
+msgid "The tile-set to use."
+msgstr "যে ঘুঁটির-সেট ব্যবহার করা হবে।"
 
+#. i18n: file: kmahjongg.kcfg:12
+#. i18n: ectx: label, entry (Background), group (General)
+#: rc.cpp:44
+msgid "The background to use."
+msgstr "যে পটভূমি ব্যবহার করা হবে।"
+
+#. i18n: file: kmahjongg.kcfg:15
+#. i18n: ectx: label, entry (Layout), group (General)
+#: rc.cpp:47
+msgid "The layout of the tiles."
+msgstr "ঘুঁটির বিন্যাস"
+
+#. i18n: file: kmahjongg.kcfg:21
+#. i18n: ectx: label, entry (SolvableGames), group (General)
+#: rc.cpp:50
+msgid "Whether all games should be solvable."
+msgstr "সকল খেলাই সমাধানযোগ্য হবে কিনা।"
+
+#. i18n: file: kmahjongg.kcfg:25
+#. i18n: ectx: label, entry (ShowMatchingTiles), group (General)
 #: rc.cpp:53
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "progga@BengaLinux.Org"
+msgid "Whether matching tiles are shown."
+msgstr "অনুরূপ ঘুঁটি দেখানো হবে কিনা।"
 
 #~ msgid "&Board Editor"
 #~ msgstr "বোর্ড সম্পাদক (&ব)"
