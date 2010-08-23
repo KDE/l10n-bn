@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-22 05:46+0200\n"
+"POT-Creation-Date: 2010-08-23 05:32+0200\n"
 "PO-Revision-Date: 2006-04-24 02:01-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -170,7 +170,9 @@ msgstr ""
 msgid "Hide Renamer Test Dialog"
 msgstr ""
 
-#: filerenamer.cpp:812
+#. i18n: file: filerenamerbase.ui:212
+#. i18n: ectx: property (text), widget (KPushButton, m_showExample)
+#: filerenamer.cpp:812 rc.cpp:163
 msgid "Show Renamer Test Dialog"
 msgstr ""
 
@@ -639,7 +641,9 @@ msgstr ""
 msgid "Remove Items?"
 msgstr "বস্তু সরিয়ে ফেলব?"
 
-#: playlistbox.cpp:351
+#. i18n: file: tagguesserconfigdlgwidget.ui:100
+#. i18n: ectx: property (text), widget (KPushButton, bRemove)
+#: playlistbox.cpp:351 rc.cpp:253
 #, fuzzy
 msgid "&Remove"
 msgstr "&সরিয়ে ফেলো"
@@ -771,7 +775,9 @@ msgstr "নতুন করে পড়ো"
 msgid "&Rename File"
 msgstr "ফাইলে&র নাম পাল্টাও"
 
-#: playlistcollection.cpp:897
+#. i18n: file: coverdialogbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, CoverDialogBase)
+#: playlistcollection.cpp:897 rc.cpp:47
 msgid "Cover Manager"
 msgstr "আবরণ ম্যানেজার"
 
@@ -824,15 +830,27 @@ msgstr "এই ফাইলগুলি মোছা যায়নি"
 msgid "Could not move these files to the Trash"
 msgstr "এই ফাইলগুলি আবর্জনায় পাঠানো যায়নি"
 
-#: playlist.cpp:1514
+#. i18n: file: trackpickerdialogbase.ui:97
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1514 rc.cpp:262
 msgid "Track Name"
 msgstr "ট্র্যাক-এর নাম"
 
-#: playlist.cpp:1515 tagrenameroptions.cpp:102
+#. i18n: file: coverdialogbase.ui:46
+#. i18n: ectx: property (text), widget (K3ListView, m_artists)
+#. i18n: file: exampleoptionsbase.ui:221
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleArtist)
+#. i18n: file: trackpickerdialogbase.ui:108
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1515 rc.cpp:50 rc.cpp:118 rc.cpp:265 tagrenameroptions.cpp:102
 msgid "Artist"
 msgstr "শিল্পী"
 
-#: playlist.cpp:1516 tagrenameroptions.cpp:106
+#. i18n: file: exampleoptionsbase.ui:228
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleAlbum)
+#. i18n: file: trackpickerdialogbase.ui:119
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1516 rc.cpp:121 rc.cpp:268 tagrenameroptions.cpp:106
 msgid "Album"
 msgstr "অ্যালবাম"
 
@@ -840,18 +858,24 @@ msgstr "অ্যালবাম"
 msgid "Cover"
 msgstr "আবরণ"
 
-#: playlist.cpp:1518 tagrenameroptions.cpp:110
+#. i18n: file: trackpickerdialogbase.ui:130
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1518 rc.cpp:271 tagrenameroptions.cpp:110
 #, fuzzy
 #| msgid "Track"
 msgctxt "cd track number"
 msgid "Track"
 msgstr "ট্র্যাক"
 
-#: playlist.cpp:1519 tagrenameroptions.cpp:115
+#. i18n: file: exampleoptionsbase.ui:235
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleGenre)
+#: playlist.cpp:1519 rc.cpp:124 tagrenameroptions.cpp:115
 msgid "Genre"
 msgstr "গোত্র"
 
-#: playlist.cpp:1520 tagrenameroptions.cpp:119
+#. i18n: file: trackpickerdialogbase.ui:141
+#. i18n: ectx: property (text), widget (K3ListView, trackList)
+#: playlist.cpp:1520 rc.cpp:274 tagrenameroptions.cpp:119
 msgid "Year"
 msgstr "বছর"
 
@@ -867,7 +891,9 @@ msgstr "বিট-রেট"
 msgid "Comment"
 msgstr "মন্তব্য"
 
-#: playlist.cpp:1524
+#. i18n: file: trackpickerdialogbase.ui:21
+#. i18n: ectx: property (title), widget (QGroupBox, fileInfoGroup)
+#: playlist.cpp:1524 rc.cpp:256
 msgid "File Name"
 msgstr "ফাইলের নাম"
 
@@ -991,6 +1017,398 @@ msgstr "প্লে টুলবার"
 #: rc.cpp:23 rc.cpp:44
 msgid "Play Toolbar"
 msgstr "প্লে টুলবার"
+
+#. i18n: file: deletedialogbase.ui:61
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:54
+msgid "Are you sure that you want to remove these items?"
+msgstr "আপনি কি এই বস্তুগুলি সরিয়ে ফেলার ব্যাপারে নিশ্চিত?"
+
+#. i18n: file: deletedialogbase.ui:111
+#. i18n: ectx: property (toolTip), widget (QCheckBox, ddShouldDelete)
+#: rc.cpp:59
+msgid ""
+"If checked, files will be permanently removed instead of being placed in the "
+"Trash Bin"
+msgstr ""
+
+#. i18n: file: deletedialogbase.ui:116
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, ddShouldDelete)
+#: rc.cpp:62
+msgid ""
+"<qt><p>If this box is checked, files will be <b>permanently removed</b> "
+"instead of being placed in the Trash Bin.</p>\n"
+"\n"
+"<p><em>Use this option with caution</em>: Most filesystems are unable to "
+"reliably undelete deleted files.</p></qt>"
+msgstr ""
+
+#. i18n: file: deletedialogbase.ui:119
+#. i18n: ectx: property (text), widget (QCheckBox, ddShouldDelete)
+#: rc.cpp:67
+msgid "&Delete files instead of moving them to the trash"
+msgstr ""
+
+#. i18n: file: directorylistbase.ui:19
+#. i18n: ectx: property (text), widget (QLabel, informationLabel)
+#: rc.cpp:70
+msgid "These folders will be scanned on startup for new files."
+msgstr "শুরু করার সময় এই ফোল্ডারগুলিতে নতুন ফাইল খোঁজা হবে।"
+
+#. i18n: file: directorylistbase.ui:58
+#. i18n: ectx: property (text), widget (KPushButton, addDirectoryButton)
+#: rc.cpp:73
+msgid "Add Folder..."
+msgstr "ফোল্ডার যোগ করো..."
+
+#. i18n: file: directorylistbase.ui:65
+#. i18n: ectx: property (text), widget (KPushButton, removeDirectoryButton)
+#: rc.cpp:76
+msgid "Remove Folder"
+msgstr "ফোল্ডার সরিয়ে ফেলো"
+
+#. i18n: file: directorylistbase.ui:92
+#. i18n: ectx: property (text), widget (QCheckBox, importPlaylistsCheckBox)
+#: rc.cpp:79
+msgid "Import playlists"
+msgstr "সঙ্গীত-তালিকা আমদানি করো"
+
+#. i18n: file: exampleoptionsbase.ui:13
+#. i18n: ectx: property (windowTitle), widget (QWidget, ExampleOptionsBase)
+#. i18n: file: filerenamerbase.ui:176
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:82 rc.cpp:160
+msgid "Example"
+msgstr "উদাহরণ"
+
+#. i18n: file: exampleoptionsbase.ui:37
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: rc.cpp:85
+msgid "Example Tag Selection"
+msgstr ""
+
+#. i18n: file: exampleoptionsbase.ui:58
+#. i18n: ectx: property (text), widget (QRadioButton, m_fileTagsButton)
+#: rc.cpp:88
+msgid "Get example tags from this file:"
+msgstr ""
+
+#. i18n: file: exampleoptionsbase.ui:81
+#. i18n: ectx: property (text), widget (QRadioButton, m_manualTagsButton)
+#: rc.cpp:91
+msgid "Enter example tags manually:"
+msgstr ""
+
+#. i18n: file: exampleoptionsbase.ui:91
+#. i18n: ectx: property (title), widget (QGroupBox, m_manualGroup)
+#: rc.cpp:94
+#, fuzzy
+#| msgid "Example"
+msgid "Example Tags"
+msgstr "উদাহরণ"
+
+#. i18n: file: exampleoptionsbase.ui:135
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:97
+#, fuzzy
+#| msgid "Title:"
+msgctxt "song title"
+msgid "Title:"
+msgstr "শিরোনাম:"
+
+#. i18n: file: exampleoptionsbase.ui:145
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#: rc.cpp:100
+msgid "Artist:"
+msgstr "শিল্পী:"
+
+#. i18n: file: exampleoptionsbase.ui:155
+#. i18n: ectx: property (text), widget (QLabel, textLabel3)
+#: rc.cpp:103
+msgid "Album:"
+msgstr "অ্যালবাম:"
+
+#. i18n: file: exampleoptionsbase.ui:165
+#. i18n: ectx: property (text), widget (QLabel, textLabel4)
+#: rc.cpp:106
+msgid "Genre:"
+msgstr "গোত্র:"
+
+#. i18n: file: exampleoptionsbase.ui:175
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:109
+msgid "Track number:"
+msgstr "ট্র্যাক সংখ্যা:"
+
+#. i18n: file: exampleoptionsbase.ui:185
+#. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#: rc.cpp:112
+msgid "Year:"
+msgstr "বছর:"
+
+#. i18n: file: exampleoptionsbase.ui:214
+#. i18n: ectx: property (text), widget (QLineEdit, m_exampleTitle)
+#: rc.cpp:115
+#, fuzzy
+#| msgid "Title"
+msgctxt "example song title"
+msgid "Title"
+msgstr "শিরোনাম"
+
+#. i18n: file: filerenamerbase.ui:20
+#. i18n: ectx: property (windowTitle), widget (QWidget, FileRenamerBase)
+#: rc.cpp:127
+msgid "File Renamer Configuration"
+msgstr "ফাইলের নাম পরিবর্তক কনফিগারেশন"
+
+#. i18n: file: filerenamerbase.ui:47
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
+#: rc.cpp:130
+msgid "Music folder:"
+msgstr "সঙ্গীত ফোল্ডার:"
+
+#. i18n: file: filerenamerbase.ui:63
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:133
+msgid "Album Tag"
+msgstr "অ্যালবাম ট্যাগ"
+
+#. i18n: file: filerenamerbase.ui:68
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:136
+msgid "Artist Tag"
+msgstr "শিল্পী ট্যাগ"
+
+#. i18n: file: filerenamerbase.ui:73
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:139
+msgid "Genre Tag"
+msgstr "গোত্র  ট্যাগ"
+
+#. i18n: file: filerenamerbase.ui:78
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:142
+msgid "Title Tag"
+msgstr "শিরোনাম ট্যাগ"
+
+#. i18n: file: filerenamerbase.ui:83
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:145
+msgid "Track Tag"
+msgstr "ট্র্যাক ট্যাগ"
+
+#. i18n: file: filerenamerbase.ui:88
+#. i18n: ectx: property (text), item, widget (KComboBox, m_category)
+#: rc.cpp:148
+msgid "Year Tag"
+msgstr "বছর ট্যাগ"
+
+#. i18n: file: filerenamerbase.ui:96
+#. i18n: ectx: property (text), widget (KPushButton, m_insertCategory)
+#: rc.cpp:151
+msgid "Insert Category"
+msgstr ""
+
+#. i18n: file: filerenamerbase.ui:108
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: rc.cpp:154
+msgid "Add category:"
+msgstr ""
+
+#. i18n: file: filerenamerbase.ui:118
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_7)
+#: rc.cpp:157
+msgid "Separator:"
+msgstr "বিভাজক:"
+
+#. i18n: file: filerenameroptionsbase.ui:115
+#. i18n: ectx: property (text), widget (QLabel, m_substitution)
+#: rc.cpp:166
+msgid "Substitution Example"
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:137
+#. i18n: ectx: property (text), widget (QRadioButton, m_includeEmptyButton)
+#: rc.cpp:169
+msgid "Include in the &filename anyways"
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:144
+#. i18n: ectx: property (text), widget (QRadioButton, m_ignoreTagButton)
+#: rc.cpp:172
+msgid "&Ignore this tag when renaming the file"
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:162
+#. i18n: ectx: property (text), widget (QRadioButton, m_useValueButton)
+#: rc.cpp:175
+msgid "Use &this value:"
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:172
+#. i18n: ectx: property (text), widget (QLineEdit, m_emptyTagValue)
+#: rc.cpp:178
+#, fuzzy
+#| msgid "Empty"
+msgctxt "value to use in replacement when source tag empty"
+msgid "Empty"
+msgstr "ফাঁকা"
+
+#. i18n: file: filerenameroptionsbase.ui:184
+#. i18n: ectx: property (title), widget (QGroupBox, m_trackGroup)
+#: rc.cpp:181
+#, fuzzy
+#| msgid "Track number:"
+msgid "Track numbering"
+msgstr "ট্র্যাক সংখ্যা:"
+
+#. i18n: file: filerenameroptionsbase.ui:196
+#. i18n: ectx: property (text), widget (QLabel, textLabel10)
+#: rc.cpp:184
+msgid ""
+"JuK can force the track used in a file name to have a minimum number of "
+"digits.  You may want to do this for better sorting in file managers."
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:228
+#. i18n: ectx: property (text), widget (QLabel, textLabel5)
+#: rc.cpp:187
+msgid "Minimum number of digits:"
+msgstr ""
+
+#. i18n: file: filerenameroptionsbase.ui:266
+#. i18n: ectx: property (text), widget (QLabel, m_doubleDigitExample)
+#: rc.cpp:190
+msgid "014"
+msgstr "014"
+
+#. i18n: file: filerenameroptionsbase.ui:284
+#. i18n: ectx: property (text), widget (QLabel, m_singleDigitExample)
+#: rc.cpp:193
+msgid "003"
+msgstr "003"
+
+#. i18n: file: filerenameroptionsbase.ui:291
+#. i18n: ectx: property (text), widget (QLabel, m_singleDigit)
+#: rc.cpp:196
+msgid "3 ->"
+msgstr "3 ->"
+
+#. i18n: file: filerenameroptionsbase.ui:301
+#. i18n: ectx: property (text), widget (QLabel, m_doubleDigit)
+#: rc.cpp:199
+msgid "14 ->"
+msgstr "14 ->"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:18
+#. i18n: ectx: property (toolTip), widget (QTreeView, lvSchemes)
+#: rc.cpp:202
+msgid "Currently used file name schemes"
+msgstr "ফাইলের নামের জন্য বর্তমানে ব্যবহৃত স্কীমসমূহ"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:29
+#. i18n: ectx: property (whatsThis), widget (QTreeView, lvSchemes)
+#: rc.cpp:206
+#, no-c-format
+msgid ""
+"Here you can see the currently configured file name schemes which the "
+"\"Suggest\" button in the tag editor uses to extract tag information from a "
+"file name. Each string may contain one of the following placeholders:<ul>\n"
+"<li>%t: Title</li>\n"
+"<li>%a: Artist</li>\n"
+"<li>%A: Album</li>\n"
+"<li>%T: Track</li>\n"
+"<li>%c: Comment</li>\n"
+"</ul>\n"
+"For example, the file name scheme \"[%T] %a - %t\" would match \"[01] Deep "
+"Purple - Smoke on the water\" but not \"(Deep Purple) Smoke on the water\". "
+"For that second name, you would use the scheme \"(%a) %t\".<p/>\n"
+"Note that the order in which the schemes appear in the list is relevant, "
+"since the tag guesser will go through the list from the top to the bottom, "
+"and use the first matching scheme."
+msgstr ""
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:42
+#. i18n: ectx: property (toolTip), widget (QToolButton, bMoveUp)
+#: rc.cpp:217
+msgid "Move scheme up"
+msgstr "স্কীম উপরে ওঠাও"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:45
+#. i18n: ectx: property (whatsThis), widget (QToolButton, bMoveUp)
+#: rc.cpp:220
+msgid ""
+"Press this button to move the currently selected scheme one step upwards."
+msgstr ""
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:55
+#. i18n: ectx: property (toolTip), widget (QToolButton, bMoveDown)
+#: rc.cpp:223
+msgid "Move scheme down"
+msgstr "স্কীম নীচে নামাও"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:58
+#. i18n: ectx: property (whatsThis), widget (QToolButton, bMoveDown)
+#: rc.cpp:226
+msgid ""
+"Press this button to move the currently selected scheme one step downwards."
+msgstr ""
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:68
+#. i18n: ectx: property (toolTip), widget (KPushButton, bAdd)
+#: rc.cpp:229
+msgid "Add a new scheme"
+msgstr "একটি নতুন স্কীম যোগ করো"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:71
+#. i18n: ectx: property (whatsThis), widget (KPushButton, bAdd)
+#: rc.cpp:232
+msgid "Press this button to add a new file name scheme to the end of the list."
+msgstr ""
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:74
+#. i18n: ectx: property (text), widget (KPushButton, bAdd)
+#: rc.cpp:235
+msgid "&Add"
+msgstr "যো&গ করো"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:81
+#. i18n: ectx: property (toolTip), widget (KPushButton, bModify)
+#: rc.cpp:238
+msgid "Modify scheme"
+msgstr "স্কীম পরিবর্তন করো"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:84
+#. i18n: ectx: property (whatsThis), widget (KPushButton, bModify)
+#: rc.cpp:241
+msgid "Press this button to modify the currently selected scheme."
+msgstr ""
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:87
+#. i18n: ectx: property (text), widget (KPushButton, bModify)
+#: rc.cpp:244
+#, fuzzy
+msgid "&Modify"
+msgstr "স্কীম পরিবর্তন করো"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:94
+#. i18n: ectx: property (toolTip), widget (KPushButton, bRemove)
+#: rc.cpp:247
+msgid "Remove scheme"
+msgstr "স্কীম সরিয়ে ফেল"
+
+#. i18n: file: tagguesserconfigdlgwidget.ui:97
+#. i18n: ectx: property (whatsThis), widget (KPushButton, bRemove)
+#: rc.cpp:250
+msgid ""
+"Press this button to remove the currently selected scheme from the list."
+msgstr ""
+
+#. i18n: file: trackpickerdialogbase.ui:64
+#. i18n: ectx: property (title), widget (QGroupBox, trackInfoGroup)
+#: rc.cpp:259
+msgid "Select Best Possible Match"
+msgstr "সবচেয়ে ভাল সম্ভাব্য মিল নির্বাচন করো"
 
 #: searchwidget.cpp:73
 msgid "Normal Matching"
@@ -1231,129 +1649,6 @@ msgstr "নতুন সন্ধান"
 #: playlistcollection.h:175
 msgid "Playlist"
 msgstr "সঙ্গীত-তালিকা"
-
-#~ msgid "Are you sure that you want to remove these items?"
-#~ msgstr "আপনি কি এই বস্তুগুলি সরিয়ে ফেলার ব্যাপারে নিশ্চিত?"
-
-#~ msgid "These folders will be scanned on startup for new files."
-#~ msgstr "শুরু করার সময় এই ফোল্ডারগুলিতে নতুন ফাইল খোঁজা হবে।"
-
-#~ msgid "Add Folder..."
-#~ msgstr "ফোল্ডার যোগ করো..."
-
-#~ msgid "Remove Folder"
-#~ msgstr "ফোল্ডার সরিয়ে ফেলো"
-
-#~ msgid "Import playlists"
-#~ msgstr "সঙ্গীত-তালিকা আমদানি করো"
-
-#~ msgid "Example"
-#~ msgstr "উদাহরণ"
-
-#, fuzzy
-#~| msgid "Title:"
-#~ msgctxt "song title"
-#~ msgid "Title:"
-#~ msgstr "শিরোনাম:"
-
-#~ msgid "Artist:"
-#~ msgstr "শিল্পী:"
-
-#~ msgid "Album:"
-#~ msgstr "অ্যালবাম:"
-
-#~ msgid "Genre:"
-#~ msgstr "গোত্র:"
-
-#~ msgid "Track number:"
-#~ msgstr "ট্র্যাক সংখ্যা:"
-
-#~ msgid "Year:"
-#~ msgstr "বছর:"
-
-#, fuzzy
-#~| msgid "Title"
-#~ msgctxt "example song title"
-#~ msgid "Title"
-#~ msgstr "শিরোনাম"
-
-#~ msgid "File Renamer Configuration"
-#~ msgstr "ফাইলের নাম পরিবর্তক কনফিগারেশন"
-
-#~ msgid "Music folder:"
-#~ msgstr "সঙ্গীত ফোল্ডার:"
-
-#~ msgid "Album Tag"
-#~ msgstr "অ্যালবাম ট্যাগ"
-
-#~ msgid "Artist Tag"
-#~ msgstr "শিল্পী ট্যাগ"
-
-#~ msgid "Genre Tag"
-#~ msgstr "গোত্র  ট্যাগ"
-
-#~ msgid "Title Tag"
-#~ msgstr "শিরোনাম ট্যাগ"
-
-#~ msgid "Track Tag"
-#~ msgstr "ট্র্যাক ট্যাগ"
-
-#~ msgid "Year Tag"
-#~ msgstr "বছর ট্যাগ"
-
-#~ msgid "Separator:"
-#~ msgstr "বিভাজক:"
-
-#, fuzzy
-#~| msgid "Empty"
-#~ msgctxt "value to use in replacement when source tag empty"
-#~ msgid "Empty"
-#~ msgstr "ফাঁকা"
-
-#, fuzzy
-#~| msgid "Track number:"
-#~ msgid "Track numbering"
-#~ msgstr "ট্র্যাক সংখ্যা:"
-
-#~ msgid "014"
-#~ msgstr "014"
-
-#~ msgid "003"
-#~ msgstr "003"
-
-#~ msgid "3 ->"
-#~ msgstr "3 ->"
-
-#~ msgid "14 ->"
-#~ msgstr "14 ->"
-
-#~ msgid "Currently used file name schemes"
-#~ msgstr "ফাইলের নামের জন্য বর্তমানে ব্যবহৃত স্কীমসমূহ"
-
-#~ msgid "Move scheme up"
-#~ msgstr "স্কীম উপরে ওঠাও"
-
-#~ msgid "Move scheme down"
-#~ msgstr "স্কীম নীচে নামাও"
-
-#~ msgid "Add a new scheme"
-#~ msgstr "একটি নতুন স্কীম যোগ করো"
-
-#~ msgid "&Add"
-#~ msgstr "যো&গ করো"
-
-#~ msgid "Modify scheme"
-#~ msgstr "স্কীম পরিবর্তন করো"
-
-#, fuzzy
-#~ msgid "&Modify"
-#~ msgstr "স্কীম পরিবর্তন করো"
-
-#~ msgid "Remove scheme"
-#~ msgstr "স্কীম সরিয়ে ফেল"
-
-#~ msgid "Select Best Possible Match"
-#~ msgstr "সবচেয়ে ভাল সম্ভাব্য মিল নির্বাচন করো"
 
 #~ msgid "There was a DCOP communication error with K3b."
 #~ msgstr "কে-৩-বি'র সঙ্গে ডিকপ যোগাযোগ-এ কিছু সমস্যা দেখা দিয়েছে।"

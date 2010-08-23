@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalzium\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-08-19 05:30+0200\n"
+"POT-Creation-Date: 2010-08-23 05:30+0200\n"
 "PO-Revision-Date: 2006-04-21 09:40-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -3205,7 +3205,7 @@ msgstr "তড়িৎ‍-ঋণাত্মকতা"
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: file: src/settings_colors.ui:1046
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicMeltingPointGradient)
-#: rc.cpp:1475 rc.cpp:1514 rc.cpp:1889 src/kalziumgradienttype.cpp:364
+#: rc.cpp:1475 rc.cpp:1514 rc.cpp:1889 src/kalziumgradienttype.cpp:382
 #: src/exportdialog.cpp:132
 msgid "Melting Point"
 msgstr "গলনাঙ্ক"
@@ -3216,7 +3216,7 @@ msgstr "গলনাঙ্ক"
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: file: src/settings_colors.ui:1039
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicBoilingPointGradient)
-#: rc.cpp:1478 rc.cpp:1517 rc.cpp:1886 src/kalziumgradienttype.cpp:314
+#: rc.cpp:1478 rc.cpp:1517 rc.cpp:1886 src/kalziumgradienttype.cpp:328
 #: src/exportdialog.cpp:133
 msgid "Boiling Point"
 msgstr "স্ফূটনাঙ্ক"
@@ -4044,7 +4044,7 @@ msgstr ""
 # FIXME
 #. i18n: file: src/settings_colors.ui:1067
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicElectronaffinityGradient)
-#: rc.cpp:1898 src/kalziumgradienttype.cpp:571
+#: rc.cpp:1898 src/kalziumgradienttype.cpp:604
 #, fuzzy
 msgid "Electronaffinity"
 msgstr "তড়িৎ নৈকট্য"
@@ -4086,8 +4086,8 @@ msgstr "গ্রেডিয়েন্ট (&গ)"
 
 #. i18n: file: src/gradientwidget.ui:92
 #. i18n: ectx: property (text), widget (QLabel, lblUnit)
-#: rc.cpp:1916 src/kalziumgradienttype.cpp:326 src/kalziumgradienttype.cpp:376
-#: src/kalziumgradienttype.cpp:431
+#: rc.cpp:1916 src/kalziumgradienttype.cpp:340 src/kalziumgradienttype.cpp:394
+#: src/kalziumgradienttype.cpp:449
 msgid "K"
 msgstr ""
 
@@ -4109,7 +4109,7 @@ msgstr "তাপমাত্রার মানদণ্ড (Scale) নির�
 
 #. i18n: file: src/gradientwidget.ui:128
 #. i18n: ectx: property (text), widget (QPushButton, Play)
-#: rc.cpp:1925 src/gradientwidget_impl.cpp:260
+#: rc.cpp:1925 src/gradientwidget_impl.cpp:259
 msgid "Play"
 msgstr ""
 
@@ -4763,7 +4763,7 @@ msgid "Show or hide the sidebar"
 msgstr "সাইডবার প্রদর্শন বা আড়াল করো"
 
 #. i18n: file: data/knowledge.xml:4
-#: rc.cpp:2275 src/kalziumgradienttype.cpp:417
+#: rc.cpp:2275 src/kalziumgradienttype.cpp:435
 msgid "State of matter"
 msgstr "পদার্থের অবস্থা"
 
@@ -5119,7 +5119,7 @@ msgid ""
 msgstr "পরমাণুর ছোট কিন্তু ধনাত্মক চার্জযুক্ত কেন্দ্র, যেখানে প্রোটোন ও নিউট্রন থাকে।"
 
 #. i18n: file: data/knowledge.xml:131
-#: rc.cpp:2401 src/kalziumgradienttype.cpp:265
+#: rc.cpp:2401 src/kalziumgradienttype.cpp:275
 msgid "Atomic Mass"
 msgstr "পারমাণবিক ভর"
 
@@ -7609,11 +7609,11 @@ msgstr ""
 msgid "Tiago Porangaba"
 msgstr ""
 
-#: src/gradientwidget_impl.cpp:195
+#: src/gradientwidget_impl.cpp:194
 msgid "Elements with melting point around this temperature:"
 msgstr "এই তাপমাত্রার নিকটবর্তী গলনাঙ্কবিশিষ্ট মৌল:"
 
-#: src/gradientwidget_impl.cpp:197 src/gradientwidget_impl.cpp:208
+#: src/gradientwidget_impl.cpp:196 src/gradientwidget_impl.cpp:207
 #, fuzzy, kde-format
 #| msgctxt "For example: Carbon (300K)"
 #| msgid "%1 (%2)"
@@ -7621,19 +7621,19 @@ msgctxt "For example: Carbon (300K)"
 msgid "%1 (%2%3)"
 msgstr "%1 (%2)"
 
-#: src/gradientwidget_impl.cpp:202
+#: src/gradientwidget_impl.cpp:201
 msgid "No elements with a melting point around this temperature"
 msgstr "এই তাপমাত্রার নিকটবর্তী গলনাঙ্ক বিশিষ্ট কোন মৌল নেই"
 
-#: src/gradientwidget_impl.cpp:206
+#: src/gradientwidget_impl.cpp:205
 msgid "Elements with boiling point around this temperature:"
 msgstr "এই তাপমাত্রার নিকটবর্তী স্ফুটনাঙ্ক বিশিষ্ট মৌল"
 
-#: src/gradientwidget_impl.cpp:213
+#: src/gradientwidget_impl.cpp:212
 msgid "No elements with a boiling point around this temperature"
 msgstr "এই তাপমাত্রার নিকটবর্তী স্ফুটনাঙ্ক বিশিষ্ট কোন মৌল নেই"
 
-#: src/gradientwidget_impl.cpp:253
+#: src/gradientwidget_impl.cpp:252
 #, fuzzy
 msgid "Pause"
 msgstr "দশা"
@@ -8627,33 +8627,33 @@ msgstr "%1 u"
 msgid "Search:"
 msgstr "সাল:"
 
-#: src/kalziumgradienttype.cpp:177 src/kalziumgradienttype.cpp:227
+#: src/kalziumgradienttype.cpp:177 src/kalziumgradienttype.cpp:232
 msgid "Å"
 msgstr ""
 
-#: src/kalziumgradienttype.cpp:215
+#: src/kalziumgradienttype.cpp:220
 #, fuzzy
 msgid "van Der Waals"
 msgstr "ভ্যান ডার ওয়ালস ব্যাসার্ধ"
 
-#: src/kalziumgradienttype.cpp:277
+#: src/kalziumgradienttype.cpp:287
 msgid "u"
 msgstr ""
 
-#: src/kalziumgradienttype.cpp:469
+#: src/kalziumgradienttype.cpp:492
 #, fuzzy
 msgid "Electronegativity (Pauling)"
 msgstr "তড়িৎ‍-ঋণাত্মকতা"
 
-#: src/kalziumgradienttype.cpp:520
+#: src/kalziumgradienttype.cpp:547
 msgid "Discovery date"
 msgstr ""
 
-#: src/kalziumgradienttype.cpp:584 src/kalziumgradienttype.cpp:635
+#: src/kalziumgradienttype.cpp:617 src/kalziumgradienttype.cpp:673
 msgid "eV"
 msgstr ""
 
-#: src/kalziumgradienttype.cpp:623
+#: src/kalziumgradienttype.cpp:661
 #, fuzzy
 msgid "First Ionization"
 msgstr "কেলাসন"
