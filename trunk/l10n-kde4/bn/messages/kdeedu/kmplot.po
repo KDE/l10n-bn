@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-16 06:17+0200\n"
+"POT-Creation-Date: 2010-10-26 06:49+0200\n"
 "PO-Revision-Date: 2006-04-24 01:19-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -761,7 +761,9 @@ msgstr "প্লটের সর্বোচ্চ-সীমা স্বনি
 #. i18n: file: functioneditorwidget.ui:145
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, cartesianCustomMin)
 #: rc.cpp:236 rc.cpp:245
-msgid "Check this button and enter the plot range boundarys below."
+#, fuzzy
+#| msgid "Check this button and enter the plot range boundarys below."
+msgid "Check this button and enter the plot range boundaries below."
 msgstr "এই বাটনে ক্লিক করুন এবং নিচে প্লটের সীমা লিখুন।"
 
 #. i18n: file: functioneditorwidget.ui:142
@@ -948,21 +950,23 @@ msgstr "যোজিত ফল (integral)"
 
 #. i18n: file: functioneditorwidget.ui:267
 #. i18n: ectx: property (toolTip), widget (QCheckBox, showIntegral)
-#: rc.cpp:299
-msgid "hide the plot"
-msgstr "প্লট লুকাও"
+#. i18n: file: functioneditorwidget.ui:273
+#. i18n: ectx: property (text), widget (QCheckBox, showIntegral)
+#. i18n: file: functioneditorwidget.ui:267
+#. i18n: ectx: property (toolTip), widget (QCheckBox, showIntegral)
+#. i18n: file: functioneditorwidget.ui:273
+#. i18n: ectx: property (text), widget (QCheckBox, showIntegral)
+#: rc.cpp:299 rc.cpp:305
+msgid "Show integral"
+msgstr "যোজিত ফল (integral) দেখাও"
 
 #. i18n: file: functioneditorwidget.ui:270
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, showIntegral)
 #: rc.cpp:302
-msgid "Check this box if you want to hide the plot of the function."
-msgstr "ফাংশনের প্লট লুকাতে চাইলে এই বাক্সে টিক দিন।"
-
-#. i18n: file: functioneditorwidget.ui:273
-#. i18n: ectx: property (text), widget (QCheckBox, showIntegral)
-#: rc.cpp:305
-msgid "Show integral"
-msgstr "যোজিত ফল (integral) দেখাও"
+#, fuzzy
+#| msgid "If this box is checked, the first derivative will be plotted, too."
+msgid "If this box is checked, the integral will be plotted, too."
+msgstr "এই বাক্সে টিক দেওয়া থাকলে প্রথম অন্তরক সহগ (derivative) প্লটও আঁকা হবে।"
 
 #. i18n: file: functioneditorwidget.ui:283
 #. i18n: ectx: property (toolTip), widget (QGroupBox, groupBox_6)
@@ -3038,7 +3042,7 @@ msgstr ""
 msgid "Print Plot"
 msgstr "প্লট ছাপাও"
 
-#: maindlg.cpp:835
+#: maindlg.cpp:844
 msgid "KmPlotPart"
 msgstr "কে-এমপ্লট-পার্ট"
 
@@ -3307,6 +3311,12 @@ msgstr "যে সকল ফাংশনের প্লট আঁকা হব�
 #: main.cpp:72
 msgid "File to open"
 msgstr "যে ফাইলটি খোলা হবে"
+
+#~ msgid "hide the plot"
+#~ msgstr "প্লট লুকাও"
+
+#~ msgid "Check this box if you want to hide the plot of the function."
+#~ msgstr "ফাংশনের প্লট লুকাতে চাইলে এই বাক্সে টিক দিন।"
 
 #~ msgid ""
 #~ "*.fkt|KmPlot Files (*.fkt)\n"

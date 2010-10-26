@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: knode\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-09-07 02:34+0200\n"
+"POT-Creation-Date: 2010-10-26 06:55+0200\n"
 "PO-Revision-Date: 2004-10-02 13:32-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -579,7 +579,7 @@ msgstr "ফিল্টার"
 
 #. i18n: file: nntpaccountdialog_base.ui:193
 #. i18n: ectx: property (text), widget (QLabel, mNameLabel)
-#: kncomposer.cpp:1559 rc.cpp:739
+#: kncomposer.cpp:1559 rc.cpp:741
 msgid "Name:"
 msgstr "নাম:"
 
@@ -1236,7 +1236,7 @@ msgstr "সত্যিই মুছে ফেলা এই হেডার?"
 #. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
 #: knconfigwidgets.cpp:770 knarticlemanager.cpp:584 knfiltermanager.cpp:261
 #: knmainwidget.cpp:1567 knmainwidget.cpp:1618 knaccountmanager.cpp:143
-#: rc.cpp:703
+#: rc.cpp:705
 #, fuzzy
 msgid "&Delete"
 msgstr "মুছে ফেলো (&ছ)"
@@ -2329,7 +2329,7 @@ msgstr "মেইল সার্ভার (SMTP)"
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: file: postnewscomposerwidget_base.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
-#: knconfigpages.cpp:132 rc.cpp:547 rc.cpp:584
+#: knconfigpages.cpp:132 rc.cpp:549 rc.cpp:586
 msgid "General"
 msgstr "সাধারণ"
 
@@ -2361,7 +2361,7 @@ msgstr "প্রযুক্তিগত"
 
 #. i18n: file: knode.kcfg:367
 #. i18n: ectx: label, entry (composerFont), group (VISUAL_APPEARANCE)
-#: knconfigpages.cpp:158 rc.cpp:452
+#: knconfigpages.cpp:158 rc.cpp:454
 msgid "Composer"
 msgstr "রচনাক্ষেত্র"
 
@@ -2902,7 +2902,7 @@ msgstr "&সন্ধান করো:"
 
 #. i18n: file: nntpaccountdialog_base.ui:160
 #. i18n: ectx: property (text), widget (QRadioButton, mEncNone)
-#: foldertreewidget.cpp:384 rc.cpp:730
+#: foldertreewidget.cpp:384 rc.cpp:732
 #, fuzzy
 msgid "None"
 msgstr "কে-নোড"
@@ -3016,13 +3016,23 @@ msgstr ""
 "এই অ্যাকাউন্ট-এর অন্তত একটি গ্রুপ আপাতত ব্যবহার করা হচ্ছে।\n"
 "অ্যাকাউন্টটি এই মুহূর্তে মুছে ফেলা যাবে না।"
 
+#: rc.cpp:1
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "দীপায়ন সরকার"
+
+#: rc.cpp:2
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "deepayan@bengalinux.org"
+
 #. i18n: file: configuration/identity_edition_dialog.ui:29
 #. i18n: ectx: property (text), widget (QLabel, mIdentitySelectorLabel)
 #. i18n: file: configuration/identity_widget.ui:47
 #. i18n: ectx: property (text), widget (QLabel, mIdentitySelectorLabel)
 #. i18n: file: composer/composer_view.ui:48
 #. i18n: ectx: property (text), widget (QLabel, mIdentitySelectorLabel)
-#: rc.cpp:3 rc.cpp:105 rc.cpp:126
+#: rc.cpp:5 rc.cpp:107 rc.cpp:128
 #, fuzzy
 #| msgid "&Identity"
 msgctxt "@label:listbox"
@@ -3031,25 +3041,25 @@ msgstr "&পরিচিতি"
 
 #. i18n: file: configuration/identity_edition_dialog.ui:67
 #. i18n: ectx: property (toolTip), widget (KPushButton, mButtonNewIdentity)
-#: rc.cpp:6
+#: rc.cpp:8
 msgid "Create an identity"
 msgstr ""
 
 #. i18n: file: configuration/identity_edition_dialog.ui:92
 #. i18n: ectx: property (toolTip), widget (KPushButton, mButtonDuplicateIdentity)
-#: rc.cpp:9
+#: rc.cpp:11
 msgid "Duplicate this identity"
 msgstr ""
 
 #. i18n: file: configuration/identity_edition_dialog.ui:117
 #. i18n: ectx: property (toolTip), widget (KPushButton, mButtonRenameIdentity)
-#: rc.cpp:12
+#: rc.cpp:14
 msgid "Rename this identity"
 msgstr ""
 
 #. i18n: file: configuration/identity_edition_dialog.ui:142
 #. i18n: ectx: property (toolTip), widget (KPushButton, mButtonRemoveIdentity)
-#: rc.cpp:15
+#: rc.cpp:17
 msgid "Remove this identity"
 msgstr ""
 
@@ -3057,7 +3067,7 @@ msgstr ""
 #. i18n: ectx: property (whatsThis), widget (QLabel, mNameLabel)
 #. i18n: file: configuration/identity_edition_dialog.ui:175
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mNameEdit)
-#: rc.cpp:18 rc.cpp:27
+#: rc.cpp:20 rc.cpp:29
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -3072,7 +3082,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, mNameLabel)
 #. i18n: file: configuration/identity_widget.ui:97
 #. i18n: ectx: property (text), widget (QLabel, mNameLabel)
-#: rc.cpp:24 rc.cpp:111
+#: rc.cpp:26 rc.cpp:113
 #, fuzzy
 #| msgid "Name:"
 msgctxt "@label:textbox Name of the user in a message"
@@ -3083,7 +3093,7 @@ msgstr "নাম:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, mOrganisationLabel)
 #. i18n: file: configuration/identity_edition_dialog.ui:201
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mOrganisationEdit)
-#: rc.cpp:33 rc.cpp:42
+#: rc.cpp:35 rc.cpp:44
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -3096,7 +3106,7 @@ msgstr "<qt><p> টি নাম -র টি সংস্থা আপনি ক
 #. i18n: ectx: property (text), widget (QLabel, mOrganisationLabel)
 #. i18n: file: configuration/identity_widget.ui:104
 #. i18n: ectx: property (text), widget (QLabel, mOrganisationLabel)
-#: rc.cpp:39 rc.cpp:114
+#: rc.cpp:41 rc.cpp:116
 #, fuzzy
 msgid "Organization:"
 msgstr "সংগ্রহ -র হেডার"
@@ -3105,7 +3115,7 @@ msgstr "সংগ্রহ -র হেডার"
 #. i18n: ectx: property (whatsThis), widget (QLabel, mEmailLabel)
 #. i18n: file: configuration/identity_edition_dialog.ui:227
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mEmailEdit)
-#: rc.cpp:48 rc.cpp:57
+#: rc.cpp:50 rc.cpp:59
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -3121,7 +3131,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, mEmailLabel)
 #. i18n: file: configuration/identity_widget.ui:111
 #. i18n: ectx: property (text), widget (QLabel, mEmailLabel)
-#: rc.cpp:54 rc.cpp:117
+#: rc.cpp:56 rc.cpp:119
 #, fuzzy
 #| msgid "Email a&ddress:"
 msgid "Email address:"
@@ -3131,7 +3141,7 @@ msgstr "ই-মেই&ল ঠিকানা:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, mReplytoLabel)
 #. i18n: file: configuration/identity_edition_dialog.ui:253
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mReplytoEdit)
-#: rc.cpp:63 rc.cpp:72
+#: rc.cpp:65 rc.cpp:74
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -3149,7 +3159,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, mReplytoLabel)
 #. i18n: file: configuration/identity_widget.ui:118
 #. i18n: ectx: property (text), widget (QLabel, mReplytoLabel)
-#: rc.cpp:69 rc.cpp:120
+#: rc.cpp:71 rc.cpp:122
 #, fuzzy
 msgid "Reply-to address:"
 msgstr "প্রতি ঠিকানা:"
@@ -3158,7 +3168,7 @@ msgstr "প্রতি ঠিকানা:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, mMailcopiestoLabel)
 #. i18n: file: configuration/identity_edition_dialog.ui:279
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, mMailcopiestoEdit)
-#: rc.cpp:78 rc.cpp:87
+#: rc.cpp:80 rc.cpp:89
 #, fuzzy
 msgid ""
 "<qt>\n"
@@ -3176,7 +3186,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, mMailcopiestoLabel)
 #. i18n: file: configuration/identity_widget.ui:125
 #. i18n: ectx: property (text), widget (QLabel, mMailcopiestoLabel)
-#: rc.cpp:84 rc.cpp:123
+#: rc.cpp:86 rc.cpp:125
 #, fuzzy
 msgid "Mail-copies-to:"
 msgstr "মেইল কপি প্রতি:"
@@ -3185,7 +3195,7 @@ msgstr "মেইল কপি প্রতি:"
 #. i18n: ectx: property (whatsThis), widget (QLabel, mSigningKeyRequesterLabel)
 #. i18n: file: configuration/identity_edition_dialog.ui:296
 #. i18n: ectx: property (whatsThis), widget (Kleo::SigningKeyRequester, mSigningKeyRequester)
-#: rc.cpp:93 rc.cpp:99
+#: rc.cpp:95 rc.cpp:101
 #, fuzzy
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to sign your articles.</"
@@ -3194,26 +3204,26 @@ msgstr "<qt><p> টি কী (Key) আপনি বেছে নিন এখ�
 
 #. i18n: file: configuration/identity_edition_dialog.ui:289
 #. i18n: ectx: property (text), widget (QLabel, mSigningKeyRequesterLabel)
-#: rc.cpp:96
+#: rc.cpp:98
 #, fuzzy
 msgid "Signing key:"
 msgstr "কী (Ke&y):"
 
 #. i18n: file: configuration/identity_widget.ui:20
 #. i18n: ectx: property (text), widget (QCheckBox, mUseSpecificIdentity)
-#: rc.cpp:102
+#: rc.cpp:104
 msgid "Use a specific identity"
 msgstr ""
 
 #. i18n: file: configuration/identity_widget.ui:67
 #. i18n: ectx: property (text), widget (KPushButton, mModifyIdentitiesButton)
-#: rc.cpp:108
+#: rc.cpp:110
 msgid "Modify..."
 msgstr ""
 
 #. i18n: file: composer/composer_view.ui:58
 #. i18n: ectx: property (text), widget (QLabel, mToLabel)
-#: rc.cpp:129
+#: rc.cpp:131
 #, fuzzy
 #| msgid "T&o:"
 msgctxt "@label:textbox email recipient of a message"
@@ -3222,7 +3232,7 @@ msgstr "প্রাপ&ক:"
 
 #. i18n: file: composer/composer_view.ui:74
 #. i18n: ectx: property (text), widget (KPushButton, mToButton)
-#: rc.cpp:132
+#: rc.cpp:134
 #, fuzzy
 msgctxt "@action:button open a dialog to choose email recipients"
 msgid "Browse..."
@@ -3230,7 +3240,7 @@ msgstr "ব্রাউ&জ..."
 
 #. i18n: file: composer/composer_view.ui:81
 #. i18n: ectx: property (text), widget (QLabel, mGroupsLabel)
-#: rc.cpp:135
+#: rc.cpp:137
 #, fuzzy
 #| msgid "&Groups:"
 msgctxt "@label:textbox"
@@ -3239,7 +3249,7 @@ msgstr "গ্রু&প:"
 
 #. i18n: file: composer/composer_view.ui:91
 #. i18n: ectx: property (text), widget (QLabel, mFollowuptoLabel)
-#: rc.cpp:138
+#: rc.cpp:140
 #, fuzzy
 msgctxt "@label"
 msgid "Followup-To:"
@@ -3247,7 +3257,7 @@ msgstr "প্রতি:"
 
 #. i18n: file: composer/composer_view.ui:101
 #. i18n: ectx: property (text), widget (QLabel, mSubjetLabel)
-#: rc.cpp:141
+#: rc.cpp:143
 #, fuzzy
 #| msgid "S&ubject:"
 msgctxt "@label:textbox subject of a message"
@@ -3256,7 +3266,7 @@ msgstr "বি&ষয়:"
 
 #. i18n: file: composer/composer_view.ui:111
 #. i18n: ectx: property (text), widget (KPushButton, mGroupsButton)
-#: rc.cpp:144
+#: rc.cpp:146
 #, fuzzy
 msgctxt "@action:button open a dialog to choose newsgroups"
 msgid "Browse..."
@@ -3264,7 +3274,7 @@ msgstr "ব্রাউ&জ..."
 
 #. i18n: file: composer/composer_view.ui:121
 #. i18n: ectx: property (text), widget (QLabel, mFromLabel)
-#: rc.cpp:147
+#: rc.cpp:149
 #, fuzzy
 #| msgid "From"
 msgctxt "@label:textbox"
@@ -3273,7 +3283,7 @@ msgstr "প্রেরক"
 
 #. i18n: file: composer/composer_view.ui:143
 #. i18n: ectx: property (whatsThis), widget (KNode::Composer::FollowuptoCombobox, mFollowuptoEdit)
-#: rc.cpp:150
+#: rc.cpp:152
 msgid ""
 "<qt>\n"
 "<p>The group <strong>where the replies to your message should be sent</"
@@ -3291,7 +3301,7 @@ msgstr ""
 
 #. i18n: file: composer/composer_view.ui:202
 #. i18n: ectx: property (text), widget (QLabel, mExternalKillSwitchLabel)
-#: rc.cpp:162
+#: rc.cpp:164
 #, fuzzy
 msgid ""
 "You are currently editing the article body\n"
@@ -3303,7 +3313,7 @@ msgstr ""
 
 #. i18n: file: composer/composer_view.ui:209
 #. i18n: ectx: property (text), widget (KPushButton, mExternalKillSwitch)
-#: rc.cpp:167
+#: rc.cpp:169
 #, fuzzy
 msgctxt "@action:button"
 msgid "Kill external editor"
@@ -3311,7 +3321,7 @@ msgstr "বহিস্থ সম্পাদক"
 
 #. i18n: file: composer/composer_view.ui:262
 #. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
-#: rc.cpp:170
+#: rc.cpp:172
 #, fuzzy
 msgctxt "@title:column list of attachments of a message"
 msgid "File"
@@ -3319,7 +3329,7 @@ msgstr "ফিল্টার"
 
 #. i18n: file: composer/composer_view.ui:267
 #. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
-#: rc.cpp:173
+#: rc.cpp:175
 #, fuzzy
 #| msgid "Type"
 msgctxt "@title:column list of attachments of a message"
@@ -3328,7 +3338,7 @@ msgstr "ধরন"
 
 #. i18n: file: composer/composer_view.ui:272
 #. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
-#: rc.cpp:176
+#: rc.cpp:178
 #, fuzzy
 #| msgid "Size"
 msgctxt "@title:column list of attachments of a message"
@@ -3337,7 +3347,7 @@ msgstr "মাপ"
 
 #. i18n: file: composer/composer_view.ui:277
 #. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
-#: rc.cpp:179
+#: rc.cpp:181
 #, fuzzy
 #| msgid "Description"
 msgctxt "@title:column list of attachments of a message"
@@ -3346,7 +3356,7 @@ msgstr "বর্ণনা"
 
 #. i18n: file: composer/composer_view.ui:282
 #. i18n: ectx: property (text), widget (KNode::Composer::AttachmentView, mAttachmentsList)
-#: rc.cpp:182
+#: rc.cpp:184
 #, fuzzy
 #| msgid "Encoding"
 msgctxt "@title:column list of attachments of a message"
@@ -3355,7 +3365,7 @@ msgstr "এনকোডিং"
 
 #. i18n: file: composer/composer_view.ui:290
 #. i18n: ectx: property (text), widget (KPushButton, mAttachmentAddButton)
-#: rc.cpp:185
+#: rc.cpp:187
 #, fuzzy
 #| msgid "A&dd..."
 msgctxt "@action:button Open a dialog to add a message attachment"
@@ -3364,7 +3374,7 @@ msgstr "যো&গ করো..."
 
 #. i18n: file: composer/composer_view.ui:297
 #. i18n: ectx: property (text), widget (KPushButton, mAttachmentPropertiesButton)
-#: rc.cpp:188
+#: rc.cpp:190
 #, fuzzy
 #| msgid "&Properties"
 msgctxt ""
@@ -3374,7 +3384,7 @@ msgstr "বৈশিষ্ট্যা&বলী"
 
 #. i18n: file: composer/composer_view.ui:317
 #. i18n: ectx: property (text), widget (KPushButton, mAttachmentRemoveButton)
-#: rc.cpp:191
+#: rc.cpp:193
 #, fuzzy
 msgctxt "@action:button remove an attachment of a message"
 msgid "Remove"
@@ -3382,7 +3392,7 @@ msgstr "বাক্স সরিয়ে ফেলো (&র)"
 
 #. i18n: file: knode.kcfg:13
 #. i18n: ectx: label, entry (identity), group (IDENTITY)
-#: rc.cpp:194
+#: rc.cpp:196
 #, fuzzy
 #| msgid "&Identity"
 msgid "Identity"
@@ -3390,84 +3400,84 @@ msgstr "&পরিচিতি"
 
 #. i18n: file: knode.kcfg:21
 #. i18n: ectx: label, entry (autoCheckGroups), group (READNEWS)
-#: rc.cpp:197
+#: rc.cpp:199
 #, fuzzy
 msgid "Check for new articles automatically"
 msgstr "পরীক্ষা জন্য নতুন স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: knode.kcfg:25
 #. i18n: ectx: label, entry (maxToFetch), group (READNEWS)
-#: rc.cpp:200
+#: rc.cpp:202
 #, fuzzy
 msgid "Maximum number of articles to fetch"
 msgstr "সর্বাধিক,সর্বোচ্চ সংখ্যা/নম্বর -র প্রতি:"
 
 #. i18n: file: knode.kcfg:29
 #. i18n: ectx: label, entry (autoMark), group (READNEWS)
-#: rc.cpp:203
+#: rc.cpp:205
 #, fuzzy
 msgid "Automatically mark articles as read"
 msgstr "চিহ্ন   পড়া/পড়ো পরে:"
 
 #. i18n: file: knode.kcfg:33
 #. i18n: ectx: label, entry (autoMarkSeconds), group (READNEWS)
-#: rc.cpp:206
+#: rc.cpp:208
 #, fuzzy
 msgid "Mark article as read after"
 msgstr "চিহ্ন   পড়া/পড়ো পরে:"
 
 #. i18n: file: knode.kcfg:37
 #. i18n: ectx: label, entry (markCrossposts), group (READNEWS)
-#: rc.cpp:209
+#: rc.cpp:211
 #, fuzzy
 msgid "Mark crossposted articles as read"
 msgstr "চিহ্ন   পড়া/পড়ো"
 
 #. i18n: file: knode.kcfg:41
 #. i18n: ectx: label, entry (smartScrolling), group (READNEWS)
-#: rc.cpp:212
+#: rc.cpp:214
 #, fuzzy
 msgid "Smart scrolling"
 msgstr "কেতাদুরস্ত"
 
 #. i18n: file: knode.kcfg:45
 #. i18n: ectx: label, entry (totalExpandThreads), group (READNEWS)
-#: rc.cpp:215
+#: rc.cpp:217
 #, fuzzy
 msgid "Show whole thread on expanding"
 msgstr "দেখাও/প্রদর্শন করো গোটা ওপর"
 
 #. i18n: file: knode.kcfg:49
 #. i18n: ectx: label, entry (defaultToExpandedThreads), group (READNEWS)
-#: rc.cpp:218
+#: rc.cpp:220
 #, fuzzy
 msgid "Default to expanded threads"
 msgstr "ডিফল্ট প্রতি"
 
 #. i18n: file: knode.kcfg:53
 #. i18n: ectx: label, entry (showLines), group (READNEWS)
-#: rc.cpp:221
+#: rc.cpp:223
 #, fuzzy
 msgid "Show line count column"
 msgstr "দেখাও/প্রদর্শন করো লাইন গুনতি, গণনা"
 
 #. i18n: file: knode.kcfg:57
 #. i18n: ectx: label, entry (showScore), group (READNEWS)
-#: rc.cpp:224
+#: rc.cpp:226
 #, fuzzy
 msgid "Show score column"
 msgstr "দেখাও/প্রদর্শন করো লাইন গুনতি, গণনা"
 
 #. i18n: file: knode.kcfg:61
 #. i18n: ectx: label, entry (showUnread), group (READNEWS)
-#: rc.cpp:227
+#: rc.cpp:229
 #, fuzzy
 msgid "Show unread count in thread"
 msgstr "দেখাও/প্রদর্শন করো গুনতি, গণনা -এ"
 
 #. i18n: file: knode.kcfg:65
 #. i18n: ectx: label, entry (showThreads), group (READNEWS)
-#: rc.cpp:230
+#: rc.cpp:232
 #, fuzzy
 msgid "Show Threads"
 msgstr "সূত্র দেখা&ও"
@@ -3476,7 +3486,7 @@ msgstr "সূত্র দেখা&ও"
 #. i18n: ectx: label, entry (dateFormat), group (READNEWS)
 #. i18n: file: readnewsgeneralwidget_base.ui:168
 #. i18n: ectx: property (text), widget (QRadioButton, mStandardDateFormat)
-#: rc.cpp:233 rc.cpp:667
+#: rc.cpp:235 rc.cpp:669
 #, fuzzy
 msgid "Standard format"
 msgstr "হেডার"
@@ -3485,7 +3495,7 @@ msgstr "হেডার"
 #. i18n: ectx: label, entry (dateFormat), group (READNEWS)
 #. i18n: file: readnewsgeneralwidget_base.ui:189
 #. i18n: ectx: property (text), widget (QRadioButton, mLocalizedDateFormat)
-#: rc.cpp:236 rc.cpp:673
+#: rc.cpp:238 rc.cpp:675
 msgid "Localized format"
 msgstr ""
 
@@ -3493,38 +3503,38 @@ msgstr ""
 #. i18n: ectx: label, entry (dateFormat), group (READNEWS)
 #. i18n: file: readnewsgeneralwidget_base.ui:175
 #. i18n: ectx: property (text), widget (QRadioButton, mFancyDateFormat)
-#: rc.cpp:239 rc.cpp:670
+#: rc.cpp:241 rc.cpp:672
 msgid "Fancy format"
 msgstr ""
 
 #. i18n: file: knode.kcfg:80
 #. i18n: ectx: label, entry (dateFormat), group (READNEWS)
-#: rc.cpp:242
+#: rc.cpp:244
 msgid "ISO format"
 msgstr ""
 
 #. i18n: file: knode.kcfg:83
 #. i18n: ectx: label, entry (dateFormat), group (READNEWS)
-#: rc.cpp:245
+#: rc.cpp:247
 #, fuzzy
 msgid "Custom format"
 msgstr "স্বনির্বাচিত &ফন্ট ব্যবহার করো"
 
 #. i18n: file: knode.kcfg:86
 #. i18n: ectx: label, entry (dateFormat), group (READNEWS)
-#: rc.cpp:248
+#: rc.cpp:250
 msgid "Date format"
 msgstr ""
 
 #. i18n: file: knode.kcfg:90
 #. i18n: ectx: label, entry (customDateFormat), group (READNEWS)
-#: rc.cpp:251
+#: rc.cpp:253
 msgid "Custom date format"
 msgstr ""
 
 #. i18n: file: knode.kcfg:120
 #. i18n: ectx: whatsthis, entry (customDateFormat), group (READNEWS)
-#: rc.cpp:254
+#: rc.cpp:256
 msgid ""
 "<!-- taken from KMail -->\n"
 "<qt><p><strong>These expressions may be used for the date:</strong></p>\n"
@@ -3564,55 +3574,55 @@ msgstr ""
 
 #. i18n: file: knode.kcfg:124
 #. i18n: ectx: label, entry (rewrapBody), group (READNEWS)
-#: rc.cpp:286
+#: rc.cpp:288
 #, fuzzy
 msgid "Rewrap text when necessary"
 msgstr "লেখা/টেক্সট যখন প্রয়োজনীয়"
 
 #. i18n: file: knode.kcfg:128
 #. i18n: ectx: label, entry (removeTrailingNewlines), group (READNEWS)
-#: rc.cpp:289
+#: rc.cpp:291
 #, fuzzy
 msgid "Remove trailing empty lines"
 msgstr "সরাও অনুসরণ করা ফাঁকা"
 
 #. i18n: file: knode.kcfg:132
 #. i18n: ectx: label, entry (showSignature), group (READNEWS)
-#: rc.cpp:292
+#: rc.cpp:294
 #, fuzzy
 msgid "Show signature"
 msgstr "দেখাও/প্রদর্শন করো স্বাক্ষর"
 
 #. i18n: file: knode.kcfg:136
 #. i18n: ectx: label, entry (interpretFormatTags), group (READNEWS)
-#: rc.cpp:295
+#: rc.cpp:297
 msgid "Interpret emoticons and other formatting"
 msgstr ""
 
 #. i18n: file: knode.kcfg:140
 #. i18n: ectx: label, entry (quoteCharacters), group (READNEWS)
-#: rc.cpp:298
+#: rc.cpp:300
 #, fuzzy
 msgid "Recognized quote characters"
 msgstr "পরিচিত অক্ষর:"
 
 #. i18n: file: knode.kcfg:144
 #. i18n: ectx: label, entry (openAttachmentsOnClick), group (READNEWS)
-#: rc.cpp:301
+#: rc.cpp:303
 #, fuzzy
 msgid "Open attachments on click"
 msgstr "খোলো ওপর ক্লিক"
 
 #. i18n: file: knode.kcfg:148
 #. i18n: ectx: label, entry (showAlternativeContents), group (READNEWS)
-#: rc.cpp:304
+#: rc.cpp:306
 #, fuzzy
 msgid "Show alternative contents as attachments"
 msgstr "দেখাও/প্রদর্শন করো বিকল্প সূচি  "
 
 #. i18n: file: knode.kcfg:152
 #. i18n: ectx: label, entry (useFixedFont), group (READNEWS)
-#: rc.cpp:307
+#: rc.cpp:309
 #, fuzzy
 msgid "Use fixed font"
 msgstr "ফিক্স&ড ফন্ট ব্যবহার করো"
@@ -3621,7 +3631,7 @@ msgstr "ফিক্স&ড ফন্ট ব্যবহার করো"
 #. i18n: ectx: label, entry (showRefBar), group (READNEWS)
 #. i18n: file: readnewsviewerwidget_base.ui:55
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showRefBar)
-#: rc.cpp:310 rc.cpp:757
+#: rc.cpp:312 rc.cpp:759
 #, fuzzy
 msgid "Show reference bar"
 msgstr "না"
@@ -3630,7 +3640,7 @@ msgstr "না"
 #. i18n: ectx: label, entry (alwaysShowHTML), group (READNEWS)
 #. i18n: file: readnewsviewerwidget_base.ui:120
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_alwaysShowHTML)
-#: rc.cpp:313 rc.cpp:778
+#: rc.cpp:315 rc.cpp:780
 msgid "Prefer HTML to plain text"
 msgstr ""
 
@@ -3638,136 +3648,136 @@ msgstr ""
 #. i18n: ectx: label, entry (allowExternalReferences), group (READNEWS)
 #. i18n: file: readnewsviewerwidget_base.ui:127
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_allowExternalReferences)
-#: rc.cpp:316 rc.cpp:781
+#: rc.cpp:318 rc.cpp:783
 msgid "Allow external references in HTML"
 msgstr ""
 
 #. i18n: file: knode.kcfg:171
 #. i18n: ectx: label, entry (markAllReadGoNext), group (READNEWS_NAVIGATION)
-#: rc.cpp:319
+#: rc.cpp:321
 msgid "Mark group as read goes to next group"
 msgstr ""
 
 #. i18n: file: knode.kcfg:176
 #. i18n: ectx: label, entry (markThreadReadGoNext), group (READNEWS_NAVIGATION)
-#: rc.cpp:323
+#: rc.cpp:325
 #, fuzzy
 msgid "Mark thread as read goes to next unread thread"
 msgstr "যাও প্রতি টি পরবর্তী"
 
 #. i18n: file: knode.kcfg:180
 #. i18n: ectx: label, entry (markThreadReadCloseThread), group (READNEWS_NAVIGATION)
-#: rc.cpp:326
+#: rc.cpp:328
 #, fuzzy
 msgid "Mark thread as read closes the current thread"
 msgstr "বন্ধ করো টি বর্তমান"
 
 #. i18n: file: knode.kcfg:184
 #. i18n: ectx: label, entry (ignoreThreadGoNext), group (READNEWS_NAVIGATION)
-#: rc.cpp:329
+#: rc.cpp:331
 #, fuzzy
 msgid "Ignore thread goes to the next unread thread"
 msgstr "যাও প্রতি টি পরবর্তী"
 
 #. i18n: file: knode.kcfg:188
 #. i18n: ectx: label, entry (ignoreThreadCloseThread), group (READNEWS_NAVIGATION)
-#: rc.cpp:332
+#: rc.cpp:334
 #, fuzzy
 msgid "Ignore thread closes the current thread"
 msgstr "বন্ধ করো টি বর্তমান"
 
 #. i18n: file: knode.kcfg:192
 #. i18n: ectx: label, entry (leaveGroupMarkAsRead), group (READNEWS_NAVIGATION)
-#: rc.cpp:335
+#: rc.cpp:337
 #, fuzzy
 msgid "Leaving a group marks all articles as read"
 msgstr "চিহ্ন   পড়া/পড়ো"
 
 #. i18n: file: knode.kcfg:199
 #. i18n: ectx: label, entry (ignoredThreshold), group (SCORING)
-#: rc.cpp:338
+#: rc.cpp:340
 #, fuzzy
 msgid "Default score for ignored threads"
 msgstr "ডিফল্ট স্কোর জন্য অগ্রাহ্য করা:"
 
 #. i18n: file: knode.kcfg:203
 #. i18n: ectx: label, entry (watchedThreshold), group (SCORING)
-#: rc.cpp:341
+#: rc.cpp:343
 #, fuzzy
 msgid "Default score for watched threads"
 msgstr "ডিফল্ট স্কোর জন্য:"
 
 #. i18n: file: knode.kcfg:210
 #. i18n: ectx: label, entry (collCacheSize), group (CACHE)
-#: rc.cpp:344
+#: rc.cpp:346
 #, fuzzy
 msgid "Cache size for headers"
 msgstr "ক্যাশ আকার/মাপ/আয়তন/আকৃতি জন্য হেডার:"
 
 #. i18n: file: knode.kcfg:214
 #. i18n: ectx: label, entry (artCacheSize), group (CACHE)
-#: rc.cpp:347
+#: rc.cpp:349
 #, fuzzy
 msgid "Cache size for articles"
 msgstr "ক্যাশ আকার/মাপ/আয়তন/আকৃতি জন্য:"
 
 #. i18n: file: knode.kcfg:222
 #. i18n: ectx: label, entry (UseOwnCharset), group (POSTNEWS)
-#: rc.cpp:350
+#: rc.cpp:352
 #, fuzzy
 msgid "Use own default charset when replying"
 msgstr "ব্যবহার নিজস্ব ডিফল্ট বর্ণমালা যখন"
 
 #. i18n: file: knode.kcfg:226
 #. i18n: ectx: label, entry (hostname), group (POSTNEWS)
-#: rc.cpp:353
+#: rc.cpp:355
 msgid "Host name used to generate the message ID."
 msgstr ""
 
 #. i18n: file: knode.kcfg:229
 #. i18n: ectx: label, entry (generateMessageID), group (POSTNEWS)
-#: rc.cpp:356
+#: rc.cpp:358
 #, fuzzy
 msgid "Generate message-id"
 msgstr "উত্‍পাদন বার্তা আই.ডি."
 
 #. i18n: file: knode.kcfg:233
 #. i18n: ectx: label, entry (noUserAgent), group (POSTNEWS)
-#: rc.cpp:359
+#: rc.cpp:361
 #, fuzzy
 msgid "Do not add the \"User-Agent\" identification header"
 msgstr "নয় যোগ করো টি ব্যবহারকারী পরিচয় হেডার"
 
 #. i18n: file: knode.kcfg:237
 #. i18n: ectx: label, entry (useExternalMailer), group (POSTNEWS)
-#: rc.cpp:362
+#: rc.cpp:364
 #, fuzzy
 msgid "Use external mailer"
 msgstr "ব্যবহার বহিস্থ মেইল প্রোগ্রাম"
 
 #. i18n: file: knode.kcfg:241
 #. i18n: ectx: label, entry (allow8BitBody), group (POSTNEWS)
-#: rc.cpp:365
+#: rc.cpp:367
 #, fuzzy
 msgid "Allow 8-bit encoding"
 msgstr "অনুমতি দাও বিট"
 
 #. i18n: file: knode.kcfg:245
 #. i18n: ectx: label, entry (Charset), group (POSTNEWS)
-#: rc.cpp:368
+#: rc.cpp:370
 msgid "Charset"
 msgstr "বর্ণমালা"
 
 #. i18n: file: knode.kcfg:249
 #. i18n: ectx: label, entry (wordWrap), group (POSTNEWS)
-#: rc.cpp:371
+#: rc.cpp:373
 #, fuzzy
 msgid "Word wrap at column"
 msgstr "শব্দ ঘুরিয়ে -তে কলাম:"
 
 #. i18n: file: knode.kcfg:253
 #. i18n: ectx: label, entry (autoSpellChecking), group (POSTNEWS)
-#: rc.cpp:374
+#: rc.cpp:376
 #, fuzzy
 #| msgid "Spellcheck"
 msgid "Automatic Spellchecking"
@@ -3775,169 +3785,169 @@ msgstr "বানান পরীক্ষা"
 
 #. i18n: file: knode.kcfg:257
 #. i18n: ectx: label, entry (maxLineLength), group (POSTNEWS)
-#: rc.cpp:377
+#: rc.cpp:379
 msgid "Maximum line length if word wrap is enabled"
 msgstr ""
 
 #. i18n: file: knode.kcfg:261
 #. i18n: ectx: label, entry (appendOwnSignature), group (POSTNEWS)
-#: rc.cpp:380
+#: rc.cpp:382
 #, fuzzy
 msgid "Append own signature automatically"
 msgstr "স্বাক্ষর স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: knode.kcfg:265
 #. i18n: ectx: label, entry (rewrap), group (POSTNEWS)
-#: rc.cpp:383
+#: rc.cpp:385
 #, fuzzy
 msgid "Rewrap quoted text automatically"
 msgstr "লেখা/টেক্সট স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: knode.kcfg:269
 #. i18n: ectx: label, entry (includeSignature), group (POSTNEWS)
-#: rc.cpp:386
+#: rc.cpp:388
 #, fuzzy
 msgid "Include the original author's signature in replies"
 msgstr "অন্তর্ভুক্ত করো টি লেখক s স্বাক্ষর"
 
 #. i18n: file: knode.kcfg:273
 #. i18n: ectx: label, entry (cursorOnTop), group (POSTNEWS)
-#: rc.cpp:389
+#: rc.cpp:391
 #, fuzzy
 msgid "Put the cursor below the introduction phrase"
 msgstr "রাখা টি কার্সার নীচে টি ভূমিকা শব্দসমষ্টি"
 
 #. i18n: file: knode.kcfg:277
 #. i18n: ectx: label, entry (useExternalEditor), group (POSTNEWS)
-#: rc.cpp:392
+#: rc.cpp:394
 #, fuzzy
 msgid "Start external editor automatically"
 msgstr "আরম্ভ/শুরু বহিস্থ সম্পাদক স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: knode.kcfg:281
 #. i18n: ectx: label, entry (Intro), group (POSTNEWS)
-#: rc.cpp:395
+#: rc.cpp:397
 #, fuzzy
 msgid "Introduction phrase"
 msgstr "ভূমিকা শব্দসমষ্টি:"
 
 #. i18n: file: knode.kcfg:285
 #. i18n: ectx: label, entry (externalEditor), group (POSTNEWS)
-#: rc.cpp:398
+#: rc.cpp:400
 #, fuzzy
 msgid "Path to external editor"
 msgstr "&বহিঃস্থ সম্পাদক চালু করো"
 
 #. i18n: file: knode.kcfg:293
 #. i18n: ectx: label, entry (useCustomColors), group (VISUAL_APPEARANCE)
-#: rc.cpp:401
+#: rc.cpp:403
 #, fuzzy
 msgid "Use custom colors"
 msgstr "ব্যবহার স্বনির্বাচিত রং"
 
 #. i18n: file: knode.kcfg:297
 #. i18n: ectx: label, entry (backgroundColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:404
+#: rc.cpp:406
 msgid "Background"
 msgstr "পটভূমি"
 
 #. i18n: file: knode.kcfg:301
 #. i18n: ectx: label, entry (alternateBackgroundColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:407
+#: rc.cpp:409
 msgid "Alternate Background"
 msgstr "বিকল্প পটভূমি"
 
 #. i18n: file: knode.kcfg:305
 #. i18n: ectx: label, entry (textColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:410
+#: rc.cpp:412
 msgid "Normal Text"
 msgstr "স্বাভাবিক লেখা"
 
 #. i18n: file: knode.kcfg:315
 #. i18n: ectx: label, entry (linkColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:413
+#: rc.cpp:415
 msgid "Link"
 msgstr "লিঙ্ক"
 
 #. i18n: file: knode.kcfg:319
 #. i18n: ectx: label, entry (readThreadColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:416
+#: rc.cpp:418
 msgid "Read Thread"
 msgstr "পড়া সূত্র"
 
 #. i18n: file: knode.kcfg:323
 #. i18n: ectx: label, entry (unreadThreadColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:419
+#: rc.cpp:421
 msgid "Unread Thread"
 msgstr "না পড়া সূত্র"
 
 #. i18n: file: knode.kcfg:327
 #. i18n: ectx: label, entry (readArticleColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:422
+#: rc.cpp:424
 msgid "Read Article"
 msgstr "পড়া বার্তা"
 
 #. i18n: file: knode.kcfg:331
 #. i18n: ectx: label, entry (unreadArticleColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:425
+#: rc.cpp:427
 msgid "Unread Article"
 msgstr "না পড়া বার্তা"
 
 #. i18n: file: knode.kcfg:335
 #. i18n: ectx: label, entry (signOkKeyOkColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:428
+#: rc.cpp:430
 msgid "Valid Signature with Trusted Key"
 msgstr ""
 
 #. i18n: file: knode.kcfg:339
 #. i18n: ectx: label, entry (signOkKeyBadColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:431
+#: rc.cpp:433
 msgid "Valid Signature with Untrusted Key"
 msgstr ""
 
 #. i18n: file: knode.kcfg:343
 #. i18n: ectx: label, entry (signWarnColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:434
+#: rc.cpp:436
 #, fuzzy
 msgid "Unchecked Signature"
 msgstr "বেছে নিন স্বাক্ষর"
 
 #. i18n: file: knode.kcfg:347
 #. i18n: ectx: label, entry (signErrColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:437
+#: rc.cpp:439
 #, fuzzy
 msgid "Bad Signature"
 msgstr "স্বাক্ষর যো&গ করো"
 
 #. i18n: file: knode.kcfg:351
 #. i18n: ectx: label, entry (htmlWarningColor), group (VISUAL_APPEARANCE)
-#: rc.cpp:440
+#: rc.cpp:442
 msgid "HTML Message Warning"
 msgstr ""
 
 #. i18n: file: knode.kcfg:356
 #. i18n: ectx: label, entry (useCustomFonts), group (VISUAL_APPEARANCE)
-#: rc.cpp:443
+#: rc.cpp:445
 #, fuzzy
 msgid "Use custom fonts"
 msgstr "স্বনির্বাচিত &ফন্ট ব্যবহার করো"
 
 #. i18n: file: knode.kcfg:360
 #. i18n: ectx: label, entry (articleFont), group (VISUAL_APPEARANCE)
-#: rc.cpp:446
+#: rc.cpp:448
 msgid "Article Body"
 msgstr "বার্তার প্রধান অংশ"
 
 #. i18n: file: knode.kcfg:363
 #. i18n: ectx: label, entry (articleFixedFont), group (VISUAL_APPEARANCE)
-#: rc.cpp:449
+#: rc.cpp:451
 #, fuzzy
 msgid "Article Body (Fixed)"
 msgstr "দেহ, প্রধান অংশ স্থায়ী"
 
 #. i18n: file: knode.kcfg:371
 #. i18n: ectx: label, entry (groupListFont), group (VISUAL_APPEARANCE)
-#: rc.cpp:455
+#: rc.cpp:457
 #, fuzzy
 msgid "Group List"
 msgstr "সমষ্টি,দল,গ্রুপ তালিকা"
@@ -3946,7 +3956,7 @@ msgstr "সমষ্টি,দল,গ্রুপ তালিকা"
 #. i18n: ectx: label, entry (articleListFont), group (VISUAL_APPEARANCE)
 #. i18n: file: readnewsgeneralwidget_base.ui:105
 #. i18n: ectx: property (title), widget (QGroupBox, articleListBox)
-#: rc.cpp:458 rc.cpp:643
+#: rc.cpp:460 rc.cpp:645
 msgid "Article List"
 msgstr "বার্তা তালিকা"
 
@@ -3956,7 +3966,7 @@ msgstr "বার্তা তালিকা"
 #. i18n: ectx: Menu (file)
 #. i18n: file: kncomposerui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:469 rc.cpp:484 rc.cpp:679
+#: rc.cpp:471 rc.cpp:486 rc.cpp:681
 #, fuzzy
 msgid "&File"
 msgstr "ফিল্টা&র"
@@ -3967,7 +3977,7 @@ msgstr "ফিল্টা&র"
 #. i18n: ectx: Menu (edit)
 #. i18n: file: kncomposerui.rc:13
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:472 rc.cpp:487 rc.cpp:682
+#: rc.cpp:474 rc.cpp:489 rc.cpp:684
 #, fuzzy
 msgid "&Edit"
 msgstr "সম্পা&দন করো"
@@ -3976,7 +3986,7 @@ msgstr "সম্পা&দন করো"
 #. i18n: ectx: Menu (view)
 #. i18n: file: knodeui.rc:24
 #. i18n: ectx: Menu (view)
-#: rc.cpp:475 rc.cpp:490
+#: rc.cpp:477 rc.cpp:492
 #, fuzzy
 msgid "&View"
 msgstr "প্রদর্শক"
@@ -3985,7 +3995,7 @@ msgstr "প্রদর্শক"
 #. i18n: ectx: Menu (article)
 #. i18n: file: knodeui.rc:91
 #. i18n: ectx: Menu (article)
-#: rc.cpp:478 rc.cpp:505
+#: rc.cpp:480 rc.cpp:507
 msgid "&Article"
 msgstr "বার্তা (&ব)"
 
@@ -3995,162 +4005,162 @@ msgstr "বার্তা (&ব)"
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: file: kncomposerui.rc:57
 #. i18n: ectx: ToolBar (mainToolBar)
-#: rc.cpp:481 rc.cpp:514 rc.cpp:694
+#: rc.cpp:483 rc.cpp:516 rc.cpp:696
 msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: file: knodeui.rc:45
 #. i18n: ectx: Menu (go)
-#: rc.cpp:493
+#: rc.cpp:495
 msgid "&Go"
 msgstr "যা&ও"
 
 #. i18n: file: knodeui.rc:55
 #. i18n: ectx: Menu (account)
-#: rc.cpp:496
+#: rc.cpp:498
 msgid "A&ccount"
 msgstr "অ্যাকা&উন্ট"
 
 #. i18n: file: knodeui.rc:64
 #. i18n: ectx: Menu (group)
-#: rc.cpp:499
+#: rc.cpp:501
 msgid "G&roup"
 msgstr "গ্রু&প"
 
 #. i18n: file: knodeui.rc:77
 #. i18n: ectx: Menu (folder)
-#: rc.cpp:502
+#: rc.cpp:504
 msgid "Fol&der"
 msgstr "ফোল্ডা&র"
 
 #. i18n: file: knodeui.rc:111
 #. i18n: ectx: Menu (scoring)
-#: rc.cpp:508
+#: rc.cpp:510
 msgid "Sc&oring"
 msgstr ""
 
 #. i18n: file: knodeui.rc:121
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:511
+#: rc.cpp:513
 #, fuzzy
 msgid "&Settings"
 msgstr "পছন্দ"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, markAllReadBox)
-#: rc.cpp:517
+#: rc.cpp:519
 #, fuzzy
 msgid "\"Mark All as Read\" Triggers Following Actions"
 msgstr "চিহ্ন সমস্ত   পড়া/পড়ো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:35
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_markAllReadGoNext)
-#: rc.cpp:520
+#: rc.cpp:522
 #, fuzzy
 msgid "&Switch to the next group"
 msgstr "পরিবর্তন প্রতি টি পরবর্তী সমষ্টি,দল,গ্রুপ"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:45
 #. i18n: ectx: property (title), widget (QGroupBox, markThreadReadBox)
-#: rc.cpp:523
+#: rc.cpp:525
 #, fuzzy
 msgid "\"Mark Thread as Read\" Triggers Following Actions"
 msgstr "চিহ্ন   পড়া/পড়ো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:57
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadCloseThread)
-#: rc.cpp:526
+#: rc.cpp:528
 #, fuzzy
 msgid "Clos&e the current thread"
 msgstr "বন্ধ করো টি বর্তমান"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:64
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_markThreadReadGoNext)
-#: rc.cpp:529
+#: rc.cpp:531
 #, fuzzy
 msgid "Go &to the next unread thread"
 msgstr "যাও প্রতি টি পরবর্তী"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:74
 #. i18n: ectx: property (title), widget (QGroupBox, ignoreThreadBox)
-#: rc.cpp:532
+#: rc.cpp:534
 #, fuzzy
 msgid "\"Ignore Thread\" Triggers Following Actions"
 msgstr "অগ্রাহ্য করো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:86
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadCloseThread)
-#: rc.cpp:535
+#: rc.cpp:537
 #, fuzzy
 msgid "Close the cu&rrent thread"
 msgstr "বন্ধ করো টি বর্তমান"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:93
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ignoreThreadGoNext)
-#: rc.cpp:538
+#: rc.cpp:540
 #, fuzzy
 msgid "Go to the next &unread thread"
 msgstr "যাও প্রতি টি পরবর্তী"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:103
 #. i18n: ectx: property (title), widget (QGroupBox, leaveGroupBox)
-#: rc.cpp:541
+#: rc.cpp:543
 #, fuzzy
 msgid "Leaving Group Triggers Following Actions"
 msgstr "অগ্রাহ্য করো চালু করা নিম্নলিখিত কাজ"
 
 #. i18n: file: readnewsnavigationwidget_base.ui:115
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_leaveGroupMarkAsRead)
-#: rc.cpp:544
+#: rc.cpp:546
 #, fuzzy
 msgid "Mark all articles as read"
 msgstr "চিহ্ন   পড়া/পড়ো পরে:"
 
 #. i18n: file: postnewstechnicalwidget_base.ui:35
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_generateMessageID)
-#: rc.cpp:550
+#: rc.cpp:552
 #, fuzzy
 msgid "&Generate message-id"
 msgstr "উত্‍পাদন বার্তা আই.ডি."
 
 #. i18n: file: postnewstechnicalwidget_base.ui:52
 #. i18n: ectx: property (text), widget (QLabel, mHostLabel)
-#: rc.cpp:553
+#: rc.cpp:555
 #, fuzzy
 msgid "Ho&st name:"
 msgstr "হোস্ট নাম:"
 
 #. i18n: file: postnewstechnicalwidget_base.ui:62
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:556
+#: rc.cpp:558
 #, fuzzy
 msgid "Enco&ding:"
 msgstr "এনকোডিং:"
 
 #. i18n: file: postnewstechnicalwidget_base.ui:75
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseOwnCharset)
-#: rc.cpp:559
+#: rc.cpp:561
 #, fuzzy
 msgid "Use o&wn default charset when replying"
 msgstr "ব্যবহার নিজস্ব ডিফল্ট বর্ণমালা যখন"
 
 #. i18n: file: postnewstechnicalwidget_base.ui:85
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:562
+#: rc.cpp:564
 #, fuzzy
 msgid "Cha&rset:"
 msgstr "বর্ণমালা:"
 
 #. i18n: file: postnewstechnicalwidget_base.ui:98
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: rc.cpp:565
+#: rc.cpp:567
 #, fuzzy
 msgid "Header"
 msgstr "হেডার"
 
 #. i18n: file: postnewstechnicalwidget_base.ui:113
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_noUserAgent)
-#: rc.cpp:568
+#: rc.cpp:570
 #, fuzzy
 msgid "Do not add the \"&User-Agent\" identification header"
 msgstr "নয় যোগ করো টি ব্যবহারকারী পরিচয় হেডার"
@@ -4159,14 +4169,14 @@ msgstr "নয় যোগ করো টি ব্যবহারকারী প�
 #. i18n: ectx: property (text), widget (QPushButton, mEditButton)
 #. i18n: file: nntpaccountlistwidget_base.ui:62
 #. i18n: ectx: property (text), widget (QPushButton, mEditButton)
-#: rc.cpp:571 rc.cpp:700
+#: rc.cpp:573 rc.cpp:702
 #, fuzzy
 msgid "&Edit..."
 msgstr "পরিবর্তন কিছু জিনিষ."
 
 #. i18n: file: postnewstechnicalwidget_base.ui:127
 #. i18n: ectx: property (text), widget (QPushButton, mDeleteButton)
-#: rc.cpp:574
+#: rc.cpp:576
 #, fuzzy
 msgid "Dele&te"
 msgstr "মুছে ফেলা"
@@ -4175,14 +4185,14 @@ msgstr "মুছে ফেলা"
 #. i18n: ectx: property (text), widget (QPushButton, mAddButton)
 #. i18n: file: nntpaccountlistwidget_base.ui:55
 #. i18n: ectx: property (text), widget (QPushButton, mAddButton)
-#: rc.cpp:577 rc.cpp:697
+#: rc.cpp:579 rc.cpp:699
 #, fuzzy
 msgid "&Add..."
 msgstr "যো&গ করো..."
 
 #. i18n: file: postnewstechnicalwidget_base.ui:141
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: rc.cpp:581
+#: rc.cpp:583
 #, fuzzy, no-c-format
 msgid ""
 "<qt>Placeholders for replies: <b>%NAME</b>=sender's name, <b>%EMAIL</"
@@ -4191,34 +4201,34 @@ msgstr "টি নিম্নলিখিত সমর্থিত নিজস
 
 #. i18n: file: postnewscomposerwidget_base.ui:35
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_wordWrap)
-#: rc.cpp:587
+#: rc.cpp:589
 #, fuzzy
 msgid "Word &wrap at column:"
 msgstr "শব্দ ঘুরিয়ে -তে কলাম:"
 
 #. i18n: file: postnewscomposerwidget_base.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_appendOwnSignature)
-#: rc.cpp:590
+#: rc.cpp:592
 #, fuzzy
 msgid "Appe&nd signature automatically"
 msgstr "স্বাক্ষর স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: postnewscomposerwidget_base.ui:55
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
-#: rc.cpp:593
+#: rc.cpp:595
 msgid "Reply"
 msgstr ""
 
 #. i18n: file: postnewscomposerwidget_base.ui:72
 #. i18n: ectx: property (text), widget (QLabel, label1)
-#: rc.cpp:596
+#: rc.cpp:598
 #, fuzzy
 msgid "&Introduction phrase:"
 msgstr "ভূমিকা শব্দসমষ্টি:"
 
 #. i18n: file: postnewscomposerwidget_base.ui:87
 #. i18n: ectx: property (text), widget (QLabel, label2)
-#: rc.cpp:600
+#: rc.cpp:602
 #, fuzzy, no-c-format
 msgid ""
 "<qt>Placeholders: <b>%NAME</b>=sender's name, <b>%EMAIL</b>=sender's address,"
@@ -4228,300 +4238,300 @@ msgstr "নাম ই-মেইল ঠিকানা তারিখ বার�
 
 #. i18n: file: postnewscomposerwidget_base.ui:102
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrap)
-#: rc.cpp:603
+#: rc.cpp:605
 #, fuzzy
 msgid "Rewrap quoted te&xt automatically"
 msgstr "লেখা/টেক্সট স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: postnewscomposerwidget_base.ui:109
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_includeSignature)
-#: rc.cpp:606
+#: rc.cpp:608
 #, fuzzy
 msgid "Include the a&uthor's signature"
 msgstr "অন্তর্ভুক্ত করো টি লেখক s স্বাক্ষর"
 
 #. i18n: file: postnewscomposerwidget_base.ui:116
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_cursorOnTop)
-#: rc.cpp:609
+#: rc.cpp:611
 #, fuzzy
 msgid "Put the cursor &below the introduction phrase"
 msgstr "রাখা টি কার্সার নীচে টি ভূমিকা শব্দসমষ্টি"
 
 #. i18n: file: postnewscomposerwidget_base.ui:128
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox3)
-#: rc.cpp:612
+#: rc.cpp:614
 #, fuzzy
 msgid "External Editor"
 msgstr "বহিস্থ সম্পাদক"
 
 #. i18n: file: postnewscomposerwidget_base.ui:140
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useExternalEditor)
-#: rc.cpp:615
+#: rc.cpp:617
 #, fuzzy
 msgid "Start exte&rnal editor automatically"
 msgstr "আরম্ভ/শুরু বহিস্থ সম্পাদক স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: postnewscomposerwidget_base.ui:147
 #. i18n: ectx: property (text), widget (QLabel, label4)
-#: rc.cpp:619
+#: rc.cpp:621
 #, fuzzy, no-c-format
 msgid "<qt><b>%f</b> will be replaced with the filename to edit</qt>"
 msgstr "বদলানো সঙ্গে টি ফাইল-নাম প্রতি সম্পাদন."
 
 #. i18n: file: postnewscomposerwidget_base.ui:161
 #. i18n: ectx: property (text), widget (QLabel, label3)
-#: rc.cpp:622
+#: rc.cpp:624
 #, fuzzy
 msgid "Specify editor:"
 msgstr "উল্লেখ করুন সম্পাদক:"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, articleHandlingBox)
-#: rc.cpp:625
+#: rc.cpp:627
 msgid "Article Handling"
 msgstr ""
 
 #. i18n: file: readnewsgeneralwidget_base.ui:44
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoCheckGroups)
-#: rc.cpp:628
+#: rc.cpp:630
 #, fuzzy
 msgid "Check for new articles a&utomatically"
 msgstr "পরীক্ষা জন্য নতুন স্বয়ংক্রীয়ভাবে"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:631
+#: rc.cpp:633
 #, fuzzy
 msgid "&Maximum number of articles to fetch:"
 msgstr "সর্বাধিক,সর্বোচ্চ সংখ্যা/নম্বর -র প্রতি:"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:73
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoMark)
-#: rc.cpp:634
+#: rc.cpp:636
 #, fuzzy
 msgid "Mar&k article as read after:"
 msgstr "চিহ্ন   পড়া/পড়ো পরে:"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:83
 #. i18n: ectx: property (suffix), widget (KIntSpinBox, kcfg_autoMarkSeconds)
-#: rc.cpp:637
+#: rc.cpp:639
 #, fuzzy
 msgid "sec"
 msgstr " সেকণ্ড"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:95
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_markCrossposts)
-#: rc.cpp:640
+#: rc.cpp:642
 #, fuzzy
 msgid "Mark c&rossposted articles as read"
 msgstr "চিহ্ন   পড়া/পড়ো"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:117
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_defaultToExpandedThreads)
-#: rc.cpp:646
+#: rc.cpp:648
 #, fuzzy
 msgid "Default to e&xpanded threads"
 msgstr "ডিফল্ট প্রতি"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:124
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_smartScrolling)
-#: rc.cpp:649
+#: rc.cpp:651
 #, fuzzy
 msgid "Smart scrolli&ng"
 msgstr "কেতাদুরস্ত"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:131
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_totalExpandThreads)
-#: rc.cpp:652
+#: rc.cpp:654
 #, fuzzy
 msgid "Show &whole thread on expanding"
 msgstr "দেখাও/প্রদর্শন করো গোটা ওপর"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:138
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showScore)
-#: rc.cpp:655
+#: rc.cpp:657
 #, fuzzy
 msgid "Show article &score"
 msgstr "দেখাও/প্রদর্শন করো স্কোর"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:145
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showLines)
-#: rc.cpp:658
+#: rc.cpp:660
 #, fuzzy
 msgid "Show &line count"
 msgstr "দেখাও/প্রদর্শন করো লাইন গুনতি, গণনা"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:152
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showUnread)
-#: rc.cpp:661
+#: rc.cpp:663
 #, fuzzy
 msgid "Show unread count in &thread"
 msgstr "দেখাও/প্রদর্শন করো গুনতি, গণনা -এ"
 
 #. i18n: file: readnewsgeneralwidget_base.ui:162
 #. i18n: ectx: property (title), widget (QGroupBox, dateFormatBox)
-#: rc.cpp:664
+#: rc.cpp:666
 msgid "Date Display"
 msgstr ""
 
 #. i18n: file: readnewsgeneralwidget_base.ui:196
 #. i18n: ectx: property (text), widget (QRadioButton, mCustomDateFormat)
-#: rc.cpp:676
+#: rc.cpp:678
 msgid "Custom format (Shift+F1 for help):"
 msgstr ""
 
 #. i18n: file: kncomposerui.rc:27
 #. i18n: ectx: Menu (attach)
-#: rc.cpp:685
+#: rc.cpp:687
 msgid "&Attach"
 msgstr "সংযুক্ত &করো"
 
 #. i18n: file: kncomposerui.rc:33
 #. i18n: ectx: Menu (options)
-#: rc.cpp:688
+#: rc.cpp:690
 msgid "Optio&ns"
 msgstr "&অপশন"
 
 #. i18n: file: kncomposerui.rc:42
 #. i18n: ectx: Menu (tools)
-#: rc.cpp:691
+#: rc.cpp:693
 msgid "&Tools"
 msgstr ""
 
 #. i18n: file: nntpaccountlistwidget_base.ui:76
 #. i18n: ectx: property (text), widget (QPushButton, mSubscribeButton)
-#: rc.cpp:706
+#: rc.cpp:708
 msgid "&Subscribe..."
 msgstr ""
 
 #. i18n: file: nntpaccountdialog_base.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, mIntervalChecking)
-#: rc.cpp:709
+#: rc.cpp:711
 #, fuzzy
 msgid "Enable &interval news checking"
 msgstr "সক্রিয় বিরতি সংবাদ পরীক্ষা করা হচ্ছে"
 
 #. i18n: file: nntpaccountdialog_base.ui:62
 #. i18n: ectx: property (text), widget (QLabel, mIntervalLabel)
-#: rc.cpp:712
+#: rc.cpp:714
 #, fuzzy
 msgid "Check inter&val:"
 msgstr "পরীক্ষা বিরতি:"
 
 #. i18n: file: nntpaccountdialog_base.ui:85
 #. i18n: ectx: property (text), widget (QCheckBox, mFetchDesc)
-#: rc.cpp:715
+#: rc.cpp:717
 #, fuzzy
 msgid "Fetch group descriptions"
 msgstr "সমষ্টি,দল,গ্রুপ বর্ণনা"
 
 #. i18n: file: nntpaccountdialog_base.ui:92
 #. i18n: ectx: property (text), widget (QCheckBox, mLogin)
-#: rc.cpp:718
+#: rc.cpp:720
 #, fuzzy
 msgid "Server requires &authentication"
 msgstr "সার্ভার প্রয়োজন হয় সত্যতা যাচাই"
 
 #. i18n: file: nntpaccountdialog_base.ui:125
 #. i18n: ectx: property (text), widget (QLabel, mPasswordLabel)
-#: rc.cpp:721
+#: rc.cpp:723
 msgid "Pass&word:"
 msgstr "পা&সওয়ার্ড:"
 
 #. i18n: file: nntpaccountdialog_base.ui:138
 #. i18n: ectx: property (text), widget (QLabel, mUserLabel)
-#: rc.cpp:724
+#: rc.cpp:726
 msgid "&User:"
 msgstr "ব্য&বহারকারী:"
 
 #. i18n: file: nntpaccountdialog_base.ui:148
 #. i18n: ectx: property (title), widget (QGroupBox, mEncGroup)
-#: rc.cpp:727
+#: rc.cpp:729
 #, fuzzy
 msgid "Encryption"
 msgstr "বর্ণনা"
 
 #. i18n: file: nntpaccountdialog_base.ui:170
 #. i18n: ectx: property (text), widget (QRadioButton, mEncSSL)
-#: rc.cpp:733
+#: rc.cpp:735
 msgid "SSL"
 msgstr ""
 
 #. i18n: file: nntpaccountdialog_base.ui:180
 #. i18n: ectx: property (text), widget (QRadioButton, mEncTLS)
-#: rc.cpp:736
+#: rc.cpp:738
 msgid "TLS"
 msgstr ""
 
 #. i18n: file: nntpaccountdialog_base.ui:203
 #. i18n: ectx: property (text), widget (QLabel, mServerLabel)
-#: rc.cpp:742
+#: rc.cpp:744
 msgid "&Server:"
 msgstr "সার্ভার (&স):"
 
 #. i18n: file: nntpaccountdialog_base.ui:213
 #. i18n: ectx: property (text), widget (QLabel, mPortLabel)
-#: rc.cpp:745
+#: rc.cpp:747
 msgid "&Port:"
 msgstr "পোর্ট (&প):"
 
 #. i18n: file: readnewsviewerwidget_base.ui:23
 #. i18n: ectx: property (title), widget (QGroupBox, appearanceBox)
-#: rc.cpp:748
+#: rc.cpp:750
 msgid "Appearance"
 msgstr ""
 
 #. i18n: file: readnewsviewerwidget_base.ui:38
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:751
+#: rc.cpp:753
 #, fuzzy
 msgid "Recognized q&uote characters:"
 msgstr "পরিচিত অক্ষর:"
 
 #. i18n: file: readnewsviewerwidget_base.ui:48
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_removeTrailingNewlines)
-#: rc.cpp:754
+#: rc.cpp:756
 #, fuzzy
 msgid "Re&move trailing empty lines"
 msgstr "সরাও অনুসরণ করা ফাঁকা"
 
 #. i18n: file: readnewsviewerwidget_base.ui:62
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSignature)
-#: rc.cpp:760
+#: rc.cpp:762
 #, fuzzy
 msgid "Show sig&nature"
 msgstr "দেখাও/প্রদর্শন করো স্বাক্ষর"
 
 #. i18n: file: readnewsviewerwidget_base.ui:69
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_rewrapBody)
-#: rc.cpp:763
+#: rc.cpp:765
 #, fuzzy
 msgid "Re&wrap text when necessary"
 msgstr "লেখা/টেক্সট যখন প্রয়োজনীয়"
 
 #. i18n: file: readnewsviewerwidget_base.ui:79
 #. i18n: ectx: property (title), widget (QGroupBox, attachmentBox)
-#: rc.cpp:766
+#: rc.cpp:768
 msgid "Attachments"
 msgstr ""
 
 #. i18n: file: readnewsviewerwidget_base.ui:91
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_openAttachmentsOnClick)
-#: rc.cpp:769
+#: rc.cpp:771
 #, fuzzy
 msgid "Open a&ttachments on click"
 msgstr "খোলো ওপর ক্লিক"
 
 #. i18n: file: readnewsviewerwidget_base.ui:98
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showAlternativeContents)
-#: rc.cpp:772
+#: rc.cpp:774
 #, fuzzy
 msgid "Show alternati&ve contents as attachments"
 msgstr "দেখাও/প্রদর্শন করো বিকল্প সূচি  "
 
 #. i18n: file: readnewsviewerwidget_base.ui:108
 #. i18n: ectx: property (title), widget (QGroupBox, securityBox)
-#: rc.cpp:775
+#: rc.cpp:777
 msgid "Security"
 msgstr ""
 
@@ -4720,14 +4730,6 @@ msgstr ""
 
 #~ msgid "Spell Result"
 #~ msgstr "বানান ফলাফল"
-
-#~ msgctxt "NAME OF TRANSLATORS"
-#~ msgid "Your names"
-#~ msgstr "দীপায়ন সরকার"
-
-#~ msgctxt "EMAIL OF TRANSLATORS"
-#~ msgid "Your emails"
-#~ msgstr "deepayan@bengalinux.org"
 
 #~ msgid "Chars&et"
 #~ msgstr "&বর্ণমালা"
