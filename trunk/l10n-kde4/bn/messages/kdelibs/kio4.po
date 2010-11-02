@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-10-30 06:15+0200\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -2989,7 +2989,7 @@ msgstr ""
 msgid "P&review"
 msgstr "প্রাক&দর্শন"
 
-#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:308
+#: kfile/knfotranslator.cpp:40 kfile/kfilemetadataprovider.cpp:406
 #, fuzzy
 #| msgid "Comment"
 msgctxt "@label"
@@ -3838,59 +3838,58 @@ msgstr "শুধুমাত্র স্থানীয় এক্সিকি�
 msgid "Advanced Options for %1"
 msgstr "%1-এর জন্য অগ্রসর অপশন"
 
-#: kfile/kfilemetadatawidget.cpp:541
+#: kfile/kfilemetadataprovider.cpp:407
 #, fuzzy
-#| msgid "Size:"
 msgctxt "@label"
-msgid "Size:"
-msgstr "মাপ:"
-
-#: kfile/kfilemetadatawidget.cpp:558
-#, fuzzy
-#| msgid "Size:"
-msgctxt "@label"
-msgid "Total Size:"
-msgstr "মাপ:"
-
-#: kfile/kfilemetadatawidget.cpp:642
-#, fuzzy
-#| msgid "Type:"
-msgctxt "@label file type"
-msgid "Type:"
-msgstr "ধরন:"
-
-#: kfile/kfilemetadatawidget.cpp:644
-#, fuzzy
-#| msgid "Modified:"
-msgctxt "@label"
-msgid "Modified:"
+msgid "Modified"
 msgstr "পরিবর্তিত:"
 
-#: kfile/kfilemetadatawidget.cpp:645
+#: kfile/kfilemetadataprovider.cpp:408
 #, fuzzy
-#| msgid "Owner:"
+#| msgid "Owner"
 msgctxt "@label"
-msgid "Owner:"
-msgstr "মালিক:"
+msgid "Owner"
+msgstr "মালিক"
 
-#: kfile/kfilemetadatawidget.cpp:646
+#: kfile/kfilemetadataprovider.cpp:409
 #, fuzzy
-#| msgid "Permissions:"
+#| msgid "Permissions"
 msgctxt "@label"
-msgid "Permissions:"
-msgstr "ব্যবহারের অনুমতি:"
+msgid "Permissions"
+msgstr "অনুমতি"
 
-#: kfile/kfilemetadataprovider.cpp:304
+#: kfile/kfilemetadataprovider.cpp:410
 #, fuzzy
 msgctxt "@label"
 msgid "Rating"
 msgstr "ক্রমবিন্যাস"
 
-#: kfile/kfilemetadataprovider.cpp:306
+#: kfile/kfilemetadataprovider.cpp:411
+#, fuzzy
+#| msgid "Size"
+msgctxt "@label"
+msgid "Size"
+msgstr "মাপ"
+
+#: kfile/kfilemetadataprovider.cpp:412
 #, fuzzy
 msgctxt "@label"
 msgid "Tags"
 msgstr "ক্যাশ (Cache) ফাঁকা করো"
+
+#: kfile/kfilemetadataprovider.cpp:413
+#, fuzzy
+#| msgid "Size:"
+msgctxt "@label"
+msgid "Total Size"
+msgstr "মাপ:"
+
+#: kfile/kfilemetadataprovider.cpp:414
+#, fuzzy
+#| msgid "Type"
+msgctxt "@label"
+msgid "Type"
+msgstr "ধরন"
 
 #: kfile/kfilemetainfowidget.cpp:163
 msgid "<Error>"
@@ -4004,40 +4003,6 @@ msgstr "মন্তব্য"
 msgctxt "@title:window"
 msgid "Add Comment"
 msgstr "মন্তব্য"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:171
-#, fuzzy
-#| msgid "Type"
-msgctxt "@item::inlistbox"
-msgid "Type"
-msgstr "ধরন"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:172
-#, fuzzy
-#| msgid "Size"
-msgctxt "@item::inlistbox"
-msgid "Size"
-msgstr "মাপ"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:173
-#, fuzzy
-msgctxt "@item::inlistbox"
-msgid "Modified"
-msgstr "পরিবর্তিত:"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:174
-#, fuzzy
-#| msgid "Owner"
-msgctxt "@item::inlistbox"
-msgid "Owner"
-msgstr "মালিক"
-
-#: kfile/kfilemetadataconfigurationwidget.cpp:175
-#, fuzzy
-#| msgid "Permissions"
-msgctxt "@item::inlistbox"
-msgid "Permissions"
-msgstr "অনুমতি"
 
 #: misc/ksendbugmail/main.cpp:43
 msgid "Error connecting to server."
@@ -6579,6 +6544,65 @@ msgstr "%2 করার চেষ্টা চলাকালীন অপ্র
 msgid "Show Hidden Folders"
 msgstr "গুপ্ত ফোল্ডার দেখাও"
 
+#, fuzzy
+#~| msgid "Size:"
+#~ msgctxt "@label"
+#~ msgid "Size:"
+#~ msgstr "মাপ:"
+
+#, fuzzy
+#~| msgid "Type:"
+#~ msgctxt "@label file type"
+#~ msgid "Type:"
+#~ msgstr "ধরন:"
+
+#, fuzzy
+#~| msgid "Modified:"
+#~ msgctxt "@label"
+#~ msgid "Modified:"
+#~ msgstr "পরিবর্তিত:"
+
+#, fuzzy
+#~| msgid "Owner:"
+#~ msgctxt "@label"
+#~ msgid "Owner:"
+#~ msgstr "মালিক:"
+
+#, fuzzy
+#~| msgid "Permissions:"
+#~ msgctxt "@label"
+#~ msgid "Permissions:"
+#~ msgstr "ব্যবহারের অনুমতি:"
+
+#, fuzzy
+#~| msgid "Type"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Type"
+#~ msgstr "ধরন"
+
+#, fuzzy
+#~| msgid "Size"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Size"
+#~ msgstr "মাপ"
+
+#, fuzzy
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Modified"
+#~ msgstr "পরিবর্তিত:"
+
+#, fuzzy
+#~| msgid "Owner"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Owner"
+#~ msgstr "মালিক"
+
+#, fuzzy
+#~| msgid "Permissions"
+#~ msgctxt "@item::inlistbox"
+#~ msgid "Permissions"
+#~ msgstr "অনুমতি"
+
 #~ msgid "Unmounted Icon"
 #~ msgstr "আনমাউন্টেড আইকন"
 
@@ -6599,29 +6623,6 @@ msgstr "গুপ্ত ফোল্ডার দেখাও"
 #~ msgstr ""
 #~ "এই ক্রিয়াটি '%1' ফাইলটিকে মুছে নিজেকেই আবার লিখবে.\n"
 #~ "অনুগ্রহ করে নতুন একটি নাম সরবরাহ করুন:"
-
-#, fuzzy
-#~| msgid "Size"
-#~ msgctxt "@label"
-#~ msgid "Size"
-#~ msgstr "মাপ"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid "Modified"
-#~ msgstr "পরিবর্তিত:"
-
-#, fuzzy
-#~| msgid "Owner"
-#~ msgctxt "@label"
-#~ msgid "Owner"
-#~ msgstr "মালিক"
-
-#, fuzzy
-#~| msgid "Permissions"
-#~ msgctxt "@label"
-#~ msgid "Permissions"
-#~ msgstr "অনুমতি"
 
 #~ msgctxt "Available space out of total partition size (percent used)"
 #~ msgid "%1 out of %2 (%3% used)"

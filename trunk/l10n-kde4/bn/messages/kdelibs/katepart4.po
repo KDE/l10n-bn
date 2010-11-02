@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-01 06:13+0100\n"
+"POT-Creation-Date: 2010-11-02 07:17+0100\n"
 "PO-Revision-Date: 2005-01-04 11:33-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -53,12 +53,6 @@ msgstr ""
 #: mode/katemodeconfigpage.cpp:290
 msgid "Select Mime Types"
 msgstr ""
-
-#: tests/testutils.cpp:195 script/katescript.cpp:93
-#, fuzzy, kde-format
-#| msgid "Unable to open %1"
-msgid "Unable to find '%1'"
-msgstr "%1 খোলা যায়নি"
 
 #: search/katesearchbar.cpp:76
 msgid "Add..."
@@ -1251,6 +1245,31 @@ msgstr "ডিফল্ট ধরন"
 msgid "Disable Annotation Bar"
 msgstr ""
 
+#: view/kateviewaccessible.h:65
+msgid "Move To..."
+msgstr ""
+
+#: view/kateviewaccessible.h:66
+#, fuzzy
+#| msgid "Move Word Left"
+msgid "Move Left"
+msgstr "শব্দ বাঁদিকে সরাও"
+
+#: view/kateviewaccessible.h:67
+#, fuzzy
+#| msgid "Move Word Right"
+msgid "Move Right"
+msgstr "শব্দ ডানদিকে সরাও"
+
+#: view/kateviewaccessible.h:68
+#, fuzzy
+msgid "Move Up"
+msgstr "উপর"
+
+#: view/kateviewaccessible.h:69
+msgid "Move Down"
+msgstr ""
+
 #: document/katedocument.cpp:124
 #, kde-format
 msgid ""
@@ -2167,46 +2186,46 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#: utils/kateglobal.cpp:281
+#: utils/kateglobal.cpp:282
 #, fuzzy
 msgid "Configure"
 msgstr "&সম্পাদক কনফিগার করো..."
 
-#: utils/kateglobal.cpp:365 utils/kateglobal.cpp:391
+#: utils/kateglobal.cpp:366 utils/kateglobal.cpp:392
 #, fuzzy
 msgid "Appearance"
 msgstr "আপারকেস"
 
-#: utils/kateglobal.cpp:368
+#: utils/kateglobal.cpp:369
 msgid "Fonts & Colors"
 msgstr "ফন্ট এবং রং"
 
-#: utils/kateglobal.cpp:371
+#: utils/kateglobal.cpp:372
 msgid "Editing"
 msgstr "সম্পাদনা"
 
-#: utils/kateglobal.cpp:374
+#: utils/kateglobal.cpp:375
 msgid "Open/Save"
 msgstr "খোলো/সংরক্ষণ করো"
 
-#: utils/kateglobal.cpp:377
+#: utils/kateglobal.cpp:378
 #, fuzzy
 msgid "Extensions"
 msgstr "ফাইল এক্সটেন&শন:"
 
-#: utils/kateglobal.cpp:394
+#: utils/kateglobal.cpp:395
 msgid "Font & Color Schemas"
 msgstr "ফন্ট এবং রং স্কীমা"
 
-#: utils/kateglobal.cpp:397
+#: utils/kateglobal.cpp:398
 msgid "Editing Options"
 msgstr "সম্পাদনা সংক্রান্ত অপশন"
 
-#: utils/kateglobal.cpp:400
+#: utils/kateglobal.cpp:401
 msgid "File Opening & Saving"
 msgstr "ফাইল খোলা এবং সংরক্ষণ করা"
 
-#: utils/kateglobal.cpp:403
+#: utils/kateglobal.cpp:404
 #, fuzzy
 msgid "Extensions Manager"
 msgstr "প্লাগ-ইন ম্যানেজার"
@@ -2700,11 +2719,15 @@ msgstr ""
 msgid "Missing argument(s). Usage: %1 <from> [<to>]"
 msgstr "নিরুদ্দেশ প্রেরিত মান<value>"
 
-#: utils/katecmds.cpp:658
+#: utils/katecmds.cpp:491
+msgid "Document written to disk"
+msgstr ""
+
+#: utils/katecmds.cpp:827
 msgid "Sorry, but Kate is not able to replace newlines, yet"
 msgstr ""
 
-#: utils/katecmds.cpp:697
+#: utils/katecmds.cpp:866
 #, kde-format
 msgctxt "substituted into the previous message"
 msgid "1 line"
@@ -2712,7 +2735,7 @@ msgid_plural "%1 lines"
 msgstr[0] ""
 msgstr[1] ""
 
-#: utils/katecmds.cpp:695
+#: utils/katecmds.cpp:864
 #, fuzzy, kde-format
 msgctxt "%2 is the translation of the next message"
 msgid "1 replacement done on %2"
@@ -2901,6 +2924,12 @@ msgstr ""
 #: script/katescriptmanager.cpp:349
 msgid "Reload all JavaScript files (indenters, command line scripts, etc)."
 msgstr ""
+
+#: script/katescript.cpp:93
+#, fuzzy, kde-format
+#| msgid "Unable to open %1"
+msgid "Unable to find '%1'"
+msgstr "%1 খোলা যায়নি"
 
 #: script/katescript.cpp:275
 #, fuzzy, kde-format
