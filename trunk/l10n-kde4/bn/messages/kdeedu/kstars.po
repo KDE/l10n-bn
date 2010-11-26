@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-21 06:12+0100\n"
+"POT-Creation-Date: 2010-11-26 06:27+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -187,7 +187,7 @@ msgstr ""
 #: tools/modcalcgeodcoord.cpp:232 tools/modcalcjd.cpp:123
 #: tools/modcalcplanets.cpp:208 tools/modcalcsidtime.cpp:200
 #: tools/modcalcvizequinox.cpp:85 tools/modcalcvlsr.cpp:272
-#: tools/observinglist.cpp:754 tools/observinglist.cpp:871
+#: tools/observinglist.cpp:756 tools/observinglist.cpp:873
 #: tools/scriptbuilder.cpp:994 tools/scriptbuilder.cpp:1058
 #: tools/scriptbuilder.cpp:1124 dialogs/locationdialog.cpp:266
 #: indi/indidriver.cpp:936 options/opscolors.cpp:199 oal/execute.cpp:267
@@ -506,7 +506,7 @@ msgstr "যে অবস্থানে সংরক্ষণ করতে ব�
 msgid "Try Another"
 msgstr "আরেকটি চেষ্টা করো"
 
-#: kstarsactions.cpp:551 tools/observinglist.cpp:871
+#: kstarsactions.cpp:551 tools/observinglist.cpp:873
 msgid "Do Not Try"
 msgstr "চেষ্টা করবে না"
 
@@ -529,7 +529,7 @@ msgstr "ফাইল ডাউনলোড করা যায় নি।"
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:593 kstarsdata.cpp:826 tools/observinglist.cpp:753
+#: kstarsactions.cpp:593 kstarsdata.cpp:826 tools/observinglist.cpp:755
 #: oal/execute.cpp:266
 #, kde-format
 msgid "Could not open file %1"
@@ -38272,7 +38272,7 @@ msgstr ""
 
 #. i18n: file: tools/observinglist.ui:279
 #. i18n: ectx: property (text), widget (KPushButton, WUTButton)
-#: rc.cpp:1942 tools/observinglist.cpp:972
+#: rc.cpp:1942 tools/observinglist.cpp:974
 msgid "WUT"
 msgstr ""
 
@@ -38348,7 +38348,7 @@ msgstr "ছবি"
 
 #. i18n: file: tools/observinglist.ui:574
 #. i18n: ectx: property (text), widget (QLabel, NotesLabel)
-#: rc.cpp:1978 tools/observinglist.cpp:548 tools/observinglist.cpp:986
+#: rc.cpp:1978 tools/observinglist.cpp:549 tools/observinglist.cpp:988
 msgid "Select an object to record notes on it here:"
 msgstr ""
 
@@ -47780,12 +47780,12 @@ msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ
 msgid "%1 is already in the session plan."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:268
+#: tools/observinglist.cpp:274
 #, kde-format
 msgid "Added %1 to observing list."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:302
+#: tools/observinglist.cpp:314
 #, fuzzy, kde-format
 #| msgid "Added %1 to observing list."
 msgid "Added %1 to session list."
@@ -47796,7 +47796,7 @@ msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ
 msgid "observing notes for %1:"
 msgstr "%1 এর পর্যবেক্ষণ নোট:"
 
-#: tools/observinglist.cpp:513 tools/observinglist.cpp:726
+#: tools/observinglist.cpp:513 tools/observinglist.cpp:728
 #: dialogs/detaildialog.cpp:457 skyobjects/skyobject.cpp:377
 #, kde-format
 msgid "Record here observation logs and/or data on %1."
@@ -47813,74 +47813,74 @@ msgstr "যে খ-বস্তুর জন্য পর্যবেক্ষ�
 msgid "Object %1 not found in list."
 msgstr "%1 বস্তুটিকে পর্যবেক্ষণ-তালিকায় (obsList) পাওয়া যায় নি।"
 
-#: tools/observinglist.cpp:561
+#: tools/observinglist.cpp:562
 msgid "Select a single object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:612 dialogs/detaildialog.cpp:872
+#: tools/observinglist.cpp:614 dialogs/detaildialog.cpp:872
 #, kde-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr ""
 "%1 দূরবীক্ষণ যন্ত্র এখন অফলাইনে রয়েছে।  অনুগ্রহপূর্বক সংযোগ স্থাপন করে পুনরায় চেষ্টা "
 "করুন।"
 
-#: tools/observinglist.cpp:624 dialogs/detaildialog.cpp:884
+#: tools/observinglist.cpp:626 dialogs/detaildialog.cpp:884
 msgid "KStars did not find any active telescopes."
 msgstr "কে-স্টার্স কোন সক্রিয় দূরবীক্ষণ যন্ত্র খুঁজে পায় নি।"
 
-#: tools/observinglist.cpp:729
+#: tools/observinglist.cpp:731
 msgid "Observing notes for object:"
 msgstr "এই খ-বস্তুর পর্যবেক্ষণ নোেট:"
 
-#: tools/observinglist.cpp:783
+#: tools/observinglist.cpp:785
 #, fuzzy
 #| msgid "The specified file is invalid.  Try another file?"
 msgid "The specified file is invalid"
 msgstr "উল্লেখকৃত ফাইলটি অবৈধ।  অপর একটি ফাইল নিয়ে চেষ্টা করে দেখতে চান কি?"
 
-#: tools/observinglist.cpp:792
+#: tools/observinglist.cpp:794
 #, fuzzy
 #| msgid "Do you want to save the current list before opening a new list?"
 msgid "Do you want to save the current session?"
 msgstr "নতুন তালিকা খোলার পূর্বে আপনি কি বর্তমান তালিকাকে সংরক্ষণ করতে চান?"
 
-#: tools/observinglist.cpp:794
+#: tools/observinglist.cpp:796
 #, fuzzy
 #| msgid "Save Current List?"
 msgid "Save Current session?"
 msgstr "বর্তমান তালিকাকে সংরক্ষণ করবো কি?"
 
-#: tools/observinglist.cpp:870
+#: tools/observinglist.cpp:872
 #, kde-format
 msgid "Could not open file %1.  Try a different filename?"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি।  অপর কোন ফাইল খুলতে চান কি? "
 
-#: tools/observinglist.cpp:871
+#: tools/observinglist.cpp:873
 msgid "Try Different"
 msgstr "অপর একটি খোলার চেষ্টা করো"
 
-#: tools/observinglist.cpp:935
+#: tools/observinglist.cpp:937
 msgctxt "First letter in 'Find'"
 msgid "F"
 msgstr ""
 
-#: tools/observinglist.cpp:973
+#: tools/observinglist.cpp:975
 #, fuzzy
 #| msgid "Find Object"
 msgid "Find &amp;Object"
 msgstr "বস্তু অনুসন্ধান করো"
 
-#: tools/observinglist.cpp:1177
+#: tools/observinglist.cpp:1175
 msgid "This will delete all saved images. Are you sure you want to do this?"
 msgstr ""
 
-#: tools/observinglist.cpp:1177
+#: tools/observinglist.cpp:1175
 #, fuzzy
 #| msgid "Select all major bodies"
 msgid "Delete All Images"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
-#: tools/observinglist.cpp:1274
+#: tools/observinglist.cpp:1272
 #, fuzzy
 #| msgid "Image Format"
 msgid "Image Chooser"
