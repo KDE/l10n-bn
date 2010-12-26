@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2010-11-20 06:30+0100\n"
+"POT-Creation-Date: 2010-12-26 03:00+0100\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -14,39 +14,352 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: printing/ringbinderstyle.cpp:142
-msgid "Ring Binder Printing Style - Appearance"
+#: aboutdata.cpp:28
+msgid "KAddressBook"
+msgstr "কে-অ্যাড্রেসবুক"
+
+#: aboutdata.cpp:29
+#, fuzzy
+#| msgid "The KDE Address Book"
+msgid "The KDE Address Book Application"
+msgstr "কে.ডি.ই. ঠিকানা তালিকা"
+
+#: aboutdata.cpp:31
+msgid "Copyright © 2007–2010 KAddressBook authors"
 msgstr ""
 
-#: printing/ringbinderstyle.cpp:160
-#, fuzzy
-#| msgid "Setting up fonts and colors"
-msgid "Setting up fields"
-msgstr "ফন্ট এবং রং সেট-আপ চলছে"
-
-#: printing/ringbinderstyle.cpp:176 printing/detailledstyle.cpp:283
-#: printing/mikesstyle.cpp:126
-#, fuzzy
-#| msgid "Setting up fonts and colors"
-msgid "Setting up document"
-msgstr "ফন্ট এবং রং সেট-আপ চলছে"
-
-#: printing/ringbinderstyle.cpp:203 printing/detailledstyle.cpp:290
-#: printing/mikesstyle.cpp:133
-msgid "Printing"
-msgstr "মুদ্রণ চলছে"
-
-#: printing/ringbinderstyle.cpp:207 printing/detailledstyle.cpp:294
-#: printing/mikesstyle.cpp:137
-#, fuzzy
-#| msgid "Done"
-msgctxt "Finished printing"
-msgid "Done"
-msgstr "হয়ে গেছে"
-
-#: printing/ringbinderstyle.cpp:223
-msgid "Printout for Ring Binders"
+#: aboutdata.cpp:33
+msgid "Tobias Koenig"
 msgstr ""
+
+#: aboutdata.cpp:33
+msgid "Current maintainer"
+msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
+
+#: aboutdata.cpp:34
+msgid "Laurent Montel"
+msgstr ""
+
+#: aboutdata.cpp:34
+#, fuzzy
+#| msgid "Contact pinning"
+msgid "Kontact integration"
+msgstr "পরিচয় পিনিং"
+
+#: contactfields.cpp:28
+#, fuzzy
+#| msgid "Undefined"
+msgctxt "@item Undefined import field type"
+msgid "Undefined"
+msgstr "অজ্ঞাত"
+
+#: contactfields.cpp:37
+msgid "Anniversary"
+msgstr "বর্ষপূর্তি"
+
+#: contactfields.cpp:60
+#, fuzzy
+#| msgid "Use Preferred"
+msgctxt "Preferred email address"
+msgid "EMail (preferred)"
+msgstr "পছন্দের অ্যাড্রেস ব্যবহার করো"
+
+#: contactfields.cpp:61
+#, fuzzy
+#| msgid "Email"
+msgctxt "Second email address"
+msgid "EMail (2)"
+msgstr "ই-মেইল"
+
+#: contactfields.cpp:62
+#, fuzzy
+#| msgid "Email"
+msgctxt "Third email address"
+msgid "EMail (3)"
+msgstr "ই-মেইল"
+
+#: contactfields.cpp:63
+#, fuzzy
+#| msgid "Email"
+msgctxt "Fourth email address"
+msgid "EMail (4)"
+msgstr "ই-মেইল"
+
+#: contactfields.cpp:70
+#, fuzzy
+#| msgid "Blog feed:"
+msgid "Blog Feed"
+msgstr "ব্লগ ফীড:"
+
+#: contactfields.cpp:71
+msgid "Profession"
+msgstr "পেশা"
+
+#: contactfields.cpp:72
+msgid "Office"
+msgstr "অফিস"
+
+#: contactfields.cpp:73
+#, fuzzy
+#| msgid "Myanmar"
+msgid "Manager"
+msgstr "মায়ানমার"
+
+#: contactfields.cpp:74
+#, fuzzy
+#| msgid "Assistant's Name"
+msgid "Assistant"
+msgstr "সহকারীর নাম"
+
+#: contactfields.cpp:75
+msgid "Spouse"
+msgstr ""
+
+#: contactselectiondialog.cpp:29
+#, fuzzy
+#| msgid "&Delete Contact"
+msgid "Select Contacts"
+msgstr "পরিচ&য় মুছে ফেলো"
+
+#: contactselectionwidget.cpp:95
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "All contacts"
+msgstr "পরিচয় সম্পাদন করো"
+
+#: contactselectionwidget.cpp:96
+#, fuzzy
+#| msgid "&Delete Contact"
+msgid "Selected contacts"
+msgstr "পরিচ&য় মুছে ফেলো"
+
+#: contactselectionwidget.cpp:97
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "All contacts from:"
+msgstr "পরিচয় সম্পাদন করো"
+
+#: contactselectionwidget.cpp:101
+msgid "Include Subfolders"
+msgstr ""
+
+#: contactswitcher.cpp:35
+msgctxt "Previous contact"
+msgid "Previous"
+msgstr ""
+
+#: contactswitcher.cpp:36
+msgctxt "Next contact"
+msgid "Next"
+msgstr ""
+
+#: contactswitcher.cpp:111
+#, fuzzy, kde-format
+#| msgctxt "<nickname> on <server>"
+#| msgid "%1 on %2"
+msgid "%1 out of %2"
+msgstr "%2-এ %1"
+
+#: grantleecontactformatter.cpp:282
+#, fuzzy
+#| msgid "Types"
+msgctxt "Boolean value"
+msgid "yes"
+msgstr "ধরন"
+
+#: grantleecontactformatter.cpp:284
+msgctxt "Boolean value"
+msgid "no"
+msgstr ""
+
+#: mainwidget.cpp:398
+msgid "Print the complete address book or a selected number of contacts."
+msgstr ""
+
+#: mainwidget.cpp:401
+#, fuzzy
+#| msgid "Recursive search"
+msgid "Quick search"
+msgstr "রিকার্সিভ সন্ধান"
+
+#: mainwidget.cpp:405
+#, fuzzy
+msgid "Select All"
+msgstr "সব নির্বাচন বাতিল করো"
+
+#: mainwidget.cpp:407
+#, fuzzy
+#| msgid "Selects all visible contacts from current view."
+msgid "Select all contacts in the current address book view."
+msgstr "বর্তমান ভিউ থেকে সবকটি পরিচয় নির্বাচন করে।"
+
+#: mainwidget.cpp:411
+msgid "Show Simple View"
+msgstr ""
+
+#: mainwidget.cpp:412
+#, fuzzy
+#| msgid "Please select type of the new address book:"
+msgid "Show a simple mode of the address book view."
+msgstr "নতুন ঠিকানা তালিকার ধরন বেছে নিন:"
+
+#: mainwidget.cpp:417
+msgid "Import vCard..."
+msgstr "ভি-কার্ড আমদানি করো..."
+
+#: mainwidget.cpp:418
+msgid "Import contacts from a vCard file."
+msgstr ""
+
+#: mainwidget.cpp:422
+#, fuzzy
+msgid "Import CSV file..."
+msgstr "রপ্তানি তালিকা."
+
+#: mainwidget.cpp:423
+msgid "Import contacts from a file in comma separated value format."
+msgstr ""
+
+#: mainwidget.cpp:427
+#, fuzzy
+msgid "Import LDIF file..."
+msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
+
+#: mainwidget.cpp:428
+#, fuzzy
+msgid "Import contacts from an LDIF file."
+msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
+
+#: mainwidget.cpp:432
+#, fuzzy
+#| msgid "Import From Mobile Phone..."
+msgid "Import from LDAP server..."
+msgstr "মোবাইল ফোন থেকে আমদানি করো..."
+
+#: mainwidget.cpp:433
+#, fuzzy
+#| msgid "Import From Mobile Phone..."
+msgid "Import contacts from an LDAP server."
+msgstr "মোবাইল ফোন থেকে আমদানি করো..."
+
+#: mainwidget.cpp:437
+#, fuzzy
+#| msgid "Import All..."
+msgid "Import GMX file..."
+msgstr "সব আমদানি করো..."
+
+#: mainwidget.cpp:438
+#, fuzzy
+msgid "Import contacts from a GMX address book file."
+msgstr "%1 ঠিকানা তালিকা"
+
+#: mainwidget.cpp:444
+msgid "Export vCard 3.0..."
+msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
+
+#: mainwidget.cpp:445
+#, fuzzy
+#| msgid "Export vCard 3.0..."
+msgid "Export contacts to a vCard 3.0 file."
+msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
+
+#: mainwidget.cpp:449
+msgid "Export vCard 2.1..."
+msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
+
+#: mainwidget.cpp:450
+#, fuzzy
+#| msgid "Export vCard 2.1..."
+msgid "Export contacts to a vCard 2.1 file."
+msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
+
+#: mainwidget.cpp:454
+#, fuzzy
+msgid "Export CSV file..."
+msgstr "রপ্তানি তালিকা."
+
+#: mainwidget.cpp:455
+msgid "Export contacts to a file in comma separated value format."
+msgstr ""
+
+#: mainwidget.cpp:459
+#, fuzzy
+msgid "Export LDIF file..."
+msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
+
+#: mainwidget.cpp:460
+#, fuzzy
+msgid "Export contacts to an LDIF file."
+msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
+
+#: mainwidget.cpp:464
+#, fuzzy
+msgid "Export GMX file..."
+msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
+
+#: mainwidget.cpp:465
+#, fuzzy
+msgid "Export contacts to a GMX address book file."
+msgstr "%1 ঠিকানা তালিকা"
+
+#: mainwidget.cpp:472
+msgid "Address Book"
+msgstr "ঠিকানা তালিকা"
+
+#: mainwidget.cpp:478 printing/printingwizard.cpp:53
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "Print Contacts"
+msgstr "পরিচয় সম্পাদন করো"
+
+#: mainwindow.cpp:60
+msgid ""
+"You will be presented with a dialog where you can configure the application-"
+"wide shortcuts."
+msgstr ""
+
+#: modelcolumnmanager.cpp:76
+msgid "Full Name"
+msgstr "পুরো নাম"
+
+#: modelcolumnmanager.cpp:81
+#, fuzzy
+#| msgid "Family names:"
+msgid "Family Name"
+msgstr "পারিবারিক নাম (পদবী):"
+
+#: modelcolumnmanager.cpp:85
+#, fuzzy
+#| msgid "Given name:"
+msgid "Given Name"
+msgstr "প্রদত্ত নাম:"
+
+#: modelcolumnmanager.cpp:93 printing/detailledstyle.cpp:152
+msgid "Home Address"
+msgstr "বাড়ির ঠিকানা"
+
+#: modelcolumnmanager.cpp:97
+#, fuzzy
+#| msgid "Business"
+msgid "Business Address"
+msgstr "ব্যবসায়িক"
+
+#: modelcolumnmanager.cpp:101
+#, fuzzy
+msgid "Phone Numbers"
+msgstr "ফোন নম্বর সম্পাদন করো"
+
+#: modelcolumnmanager.cpp:105
+#, fuzzy
+#| msgid "Preferred address"
+msgid "Preferred EMail"
+msgstr "পছন্দের ঠিকানা"
+
+#: modelcolumnmanager.cpp:109
+#, fuzzy
+#| msgid "Email"
+msgid "All EMails"
+msgstr "ই-মেইল"
 
 #: printing/detailledstyle.cpp:96
 #, fuzzy
@@ -90,10 +403,6 @@ msgstr "ডাক ঠিকানা"
 msgid "Parcel Address"
 msgstr "পার্সেল ঠিকানা"
 
-#: printing/detailledstyle.cpp:152 modelcolumnmanager.cpp:93
-msgid "Home Address"
-msgstr "বাড়ির ঠিকানা"
-
 #: printing/detailledstyle.cpp:155
 msgid "Work Address"
 msgstr "কর্মক্ষেত্রের ঠিকানা"
@@ -110,7 +419,7 @@ msgstr "নোট:"
 
 #. i18n: file: printing/ds_appearance.ui:49
 #. i18n: ectx: property (text), widget (QLabel, labelHeader)
-#: printing/detailledstyle.cpp:247 rc.cpp:32
+#: printing/detailledstyle.cpp:247 rc.cpp:8
 msgid "Detailed Print Style - Appearance"
 msgstr ""
 
@@ -128,15 +437,33 @@ msgstr ""
 msgid "Setting up colors"
 msgstr "ফন্ট এবং রং সেট-আপ চলছে"
 
+#: printing/detailledstyle.cpp:283 printing/mikesstyle.cpp:126
+#: printing/ringbinderstyle.cpp:176
+#, fuzzy
+#| msgid "Setting up fonts and colors"
+msgid "Setting up document"
+msgstr "ফন্ট এবং রং সেট-আপ চলছে"
+
+#: printing/detailledstyle.cpp:290 printing/mikesstyle.cpp:133
+#: printing/ringbinderstyle.cpp:203
+msgid "Printing"
+msgstr "মুদ্রণ চলছে"
+
+#: printing/detailledstyle.cpp:294 printing/mikesstyle.cpp:137
+#: printing/ringbinderstyle.cpp:207
+#, fuzzy
+#| msgid "Done"
+msgctxt "Finished printing"
+msgid "Done"
+msgstr "হয়ে গেছে"
+
 #: printing/detailledstyle.cpp:309
 msgid "Detailed Style"
 msgstr "বিস্তারিত স্টাইল"
 
-#: printing/printingwizard.cpp:53 mainwidget.cpp:478
-#, fuzzy
-#| msgid "Edit Contact"
-msgid "Print Contacts"
-msgstr "পরিচয় সম্পাদন করো"
+#: printing/mikesstyle.cpp:153
+msgid "Mike's Printing Style"
+msgstr ""
 
 #: printing/printingwizard.cpp:57
 msgid "Which contacts do you want to print?"
@@ -162,8 +489,18 @@ msgstr "মুদ্রণ: অগ্রগতি"
 msgid "Progress"
 msgstr "অগ্রগতি"
 
-#: printing/mikesstyle.cpp:153
-msgid "Mike's Printing Style"
+#: printing/ringbinderstyle.cpp:142
+msgid "Ring Binder Printing Style - Appearance"
+msgstr ""
+
+#: printing/ringbinderstyle.cpp:160
+#, fuzzy
+#| msgid "Setting up fonts and colors"
+msgid "Setting up fields"
+msgstr "ফন্ট এবং রং সেট-আপ চলছে"
+
+#: printing/ringbinderstyle.cpp:223
+msgid "Printout for Ring Binders"
 msgstr ""
 
 #: printing/stylepage.cpp:51
@@ -203,99 +540,18 @@ msgstr "ধারা:"
 msgid "Print Style"
 msgstr "মুদ্রণশৈলী"
 
-#: xxport/vcard/vcard_xxport.cpp:119
-msgid ""
-"You have selected a list of contacts, shall they be exported to several "
-"files?"
-msgstr ""
+#: quicksearchwidget.cpp:38
+#, fuzzy
+#| msgid "Search:"
+msgctxt "Search contacts in list"
+msgid "Search"
+msgstr "সন্ধান:"
 
-#: xxport/vcard/vcard_xxport.cpp:122
-msgid "Export to Several Files"
-msgstr "একাধিক ফাইল-এ রপ্তানি করো"
-
-#: xxport/vcard/vcard_xxport.cpp:123
-msgid "Export to One File"
-msgstr "একটি ফাইল-এ রপ্তানি করো"
-
-#: xxport/vcard/vcard_xxport.cpp:175
-msgid "Select vCard to Import"
-msgstr "আমদানি করার জন্য ভি-কার্ড বেছে নিন"
-
-#: xxport/vcard/vcard_xxport.cpp:180
-msgid "vCard Import Failed"
-msgstr "ভি-কার্ড আমদানি ব্যর্থ"
-
-#: xxport/vcard/vcard_xxport.cpp:200
-#, kde-format
-msgctxt "@info"
-msgid ""
-"<para>When trying to read the vCard, there was an error opening the file "
-"<filename>%1</filename>:</para><para>%2</para>"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:208
-#, kde-format
-msgctxt "@info"
-msgid "<para>Unable to access vCard:</para><para>%1</para>"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:217
-msgid "No contacts were imported, due to errors with the vCards."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:219
-msgid "The vCard does not contain any contacts."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:243 xxport/csv/csv_xxport.cpp:48
-#: xxport/gmx/gmx_xxport.cpp:334 xxport/ldif/ldif_xxport.cpp:114
+#: xxport/csv/csv_xxport.cpp:48 xxport/gmx/gmx_xxport.cpp:334
+#: xxport/ldif/ldif_xxport.cpp:114 xxport/vcard/vcard_xxport.cpp:243
 #, kde-format
 msgid "Do you want to overwrite file \"%1\""
 msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:407
-msgid "Import vCard"
-msgstr "ভি-কার্ড আমদানি করো"
-
-#: xxport/vcard/vcard_xxport.cpp:420
-#, fuzzy
-#| msgid "Export the entire address book"
-msgid "Do you want to import this contact into your address book?"
-msgstr "সমগ্র ঠিকানা তালিকা রপ্তানি করো"
-
-#: xxport/vcard/vcard_xxport.cpp:429
-msgid "Import All..."
-msgstr "সব আমদানি করো..."
-
-#: xxport/vcard/vcard_xxport.cpp:491
-msgid "Select vCard Fields"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:504
-msgid "Select the fields which shall be exported in the vCard."
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:507
-msgid "Private fields"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:510
-msgid "Business fields"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:513
-msgid "Other fields"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:516
-msgid "Encryption keys"
-msgstr ""
-
-#: xxport/vcard/vcard_xxport.cpp:519
-#, fuzzy
-#| msgid "Picture"
-msgid "Pictures"
-msgstr "ছবি"
 
 #: xxport/csv/csv_xxport.cpp:55 xxport/gmx/gmx_xxport.cpp:342
 #: xxport/ldif/ldif_xxport.cpp:101
@@ -308,24 +564,6 @@ msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
 #, kde-format
 msgid "<qt>Unable to open file <b>%1</b>.</qt>"
 msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
-
-#: xxport/csv/templateselectiondialog.cpp:171
-#, kde-format
-msgctxt "@label"
-msgid "Do you really want to delete template '%1'?"
-msgstr ""
-
-#: xxport/csv/templateselectiondialog.cpp:188
-#, fuzzy
-#| msgid "Template Selection"
-msgctxt "@title:window"
-msgid "Template Selection"
-msgstr "টেমপ্লেট নির্বাচন"
-
-#: xxport/csv/templateselectiondialog.cpp:194
-msgctxt "@info"
-msgid "Please select a template, that matches the CSV file:"
-msgstr ""
 
 #: xxport/csv/csvimportdialog.cpp:170
 #, fuzzy
@@ -524,6 +762,24 @@ msgctxt "@info:status"
 msgid "Cannot open input file."
 msgstr "ইনপুট ফাইল খোলা যায়নি।"
 
+#: xxport/csv/templateselectiondialog.cpp:171
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to delete template '%1'?"
+msgstr ""
+
+#: xxport/csv/templateselectiondialog.cpp:188
+#, fuzzy
+#| msgid "Template Selection"
+msgctxt "@title:window"
+msgid "Template Selection"
+msgstr "টেমপ্লেট নির্বাচন"
+
+#: xxport/csv/templateselectiondialog.cpp:194
+msgctxt "@info"
+msgid "Please select a template, that matches the CSV file:"
+msgstr ""
+
 #: xxport/gmx/gmx_xxport.cpp:98
 #, fuzzy
 msgid "GMX address book file (*.gmxa)"
@@ -538,6 +794,94 @@ msgstr "<qt>পড়ার জন্য <b>%1</b> খোলা যায়নি।<
 #, fuzzy, kde-format
 msgid "%1 is not a GMX address book file."
 msgstr "%1 ঠিকানা তালিকা"
+
+#: xxport/vcard/vcard_xxport.cpp:119
+msgid ""
+"You have selected a list of contacts, shall they be exported to several "
+"files?"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:122
+msgid "Export to Several Files"
+msgstr "একাধিক ফাইল-এ রপ্তানি করো"
+
+#: xxport/vcard/vcard_xxport.cpp:123
+msgid "Export to One File"
+msgstr "একটি ফাইল-এ রপ্তানি করো"
+
+#: xxport/vcard/vcard_xxport.cpp:175
+msgid "Select vCard to Import"
+msgstr "আমদানি করার জন্য ভি-কার্ড বেছে নিন"
+
+#: xxport/vcard/vcard_xxport.cpp:180
+msgid "vCard Import Failed"
+msgstr "ভি-কার্ড আমদানি ব্যর্থ"
+
+#: xxport/vcard/vcard_xxport.cpp:200
+#, kde-format
+msgctxt "@info"
+msgid ""
+"<para>When trying to read the vCard, there was an error opening the file "
+"<filename>%1</filename>:</para><para>%2</para>"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:208
+#, kde-format
+msgctxt "@info"
+msgid "<para>Unable to access vCard:</para><para>%1</para>"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:217
+msgid "No contacts were imported, due to errors with the vCards."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:219
+msgid "The vCard does not contain any contacts."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:407
+msgid "Import vCard"
+msgstr "ভি-কার্ড আমদানি করো"
+
+#: xxport/vcard/vcard_xxport.cpp:420
+#, fuzzy
+#| msgid "Export the entire address book"
+msgid "Do you want to import this contact into your address book?"
+msgstr "সমগ্র ঠিকানা তালিকা রপ্তানি করো"
+
+#: xxport/vcard/vcard_xxport.cpp:429
+msgid "Import All..."
+msgstr "সব আমদানি করো..."
+
+#: xxport/vcard/vcard_xxport.cpp:491
+msgid "Select vCard Fields"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:504
+msgid "Select the fields which shall be exported in the vCard."
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:507
+msgid "Private fields"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:510
+msgid "Business fields"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:513
+msgid "Other fields"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:516
+msgid "Encryption keys"
+msgstr ""
+
+#: xxport/vcard/vcard_xxport.cpp:519
+#, fuzzy
+#| msgid "Picture"
+msgid "Pictures"
+msgstr "ছবি"
 
 #: xxportmanager.cpp:98
 #, fuzzy
@@ -570,350 +914,6 @@ msgstr ""
 msgid "You have not selected any contacts to export."
 msgstr ""
 
-#: aboutdata.cpp:28
-msgid "KAddressBook"
-msgstr "কে-অ্যাড্রেসবুক"
-
-#: aboutdata.cpp:29
-#, fuzzy
-#| msgid "The KDE Address Book"
-msgid "The KDE Address Book Application"
-msgstr "কে.ডি.ই. ঠিকানা তালিকা"
-
-#: aboutdata.cpp:31
-msgid "Copyright © 2007–2010 KAddressBook authors"
-msgstr ""
-
-#: aboutdata.cpp:33
-msgid "Tobias Koenig"
-msgstr ""
-
-#: aboutdata.cpp:33
-msgid "Current maintainer"
-msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
-
-#: aboutdata.cpp:34
-msgid "Laurent Montel"
-msgstr ""
-
-#: aboutdata.cpp:34
-#, fuzzy
-#| msgid "Contact pinning"
-msgid "Kontact integration"
-msgstr "পরিচয় পিনিং"
-
-#: contactswitcher.cpp:35
-msgctxt "Previous contact"
-msgid "Previous"
-msgstr ""
-
-#: contactswitcher.cpp:36
-msgctxt "Next contact"
-msgid "Next"
-msgstr ""
-
-#: contactswitcher.cpp:111
-#, fuzzy, kde-format
-#| msgctxt "<nickname> on <server>"
-#| msgid "%1 on %2"
-msgid "%1 out of %2"
-msgstr "%2-এ %1"
-
-#: contactselectionwidget.cpp:95
-#, fuzzy
-#| msgid "Edit Contact"
-msgid "All contacts"
-msgstr "পরিচয় সম্পাদন করো"
-
-#: contactselectionwidget.cpp:96
-#, fuzzy
-#| msgid "&Delete Contact"
-msgid "Selected contacts"
-msgstr "পরিচ&য় মুছে ফেলো"
-
-#: contactselectionwidget.cpp:97
-#, fuzzy
-#| msgid "Edit Contact"
-msgid "All contacts from:"
-msgstr "পরিচয় সম্পাদন করো"
-
-#: contactselectionwidget.cpp:101
-msgid "Include Subfolders"
-msgstr ""
-
-#: mainwidget.cpp:398
-msgid "Print the complete address book or a selected number of contacts."
-msgstr ""
-
-#: mainwidget.cpp:401
-#, fuzzy
-#| msgid "Recursive search"
-msgid "Quick search"
-msgstr "রিকার্সিভ সন্ধান"
-
-#: mainwidget.cpp:405
-#, fuzzy
-msgid "Select All"
-msgstr "সব নির্বাচন বাতিল করো"
-
-#: mainwidget.cpp:407
-#, fuzzy
-#| msgid "Selects all visible contacts from current view."
-msgid "Select all contacts in the current address book view."
-msgstr "বর্তমান ভিউ থেকে সবকটি পরিচয় নির্বাচন করে।"
-
-#: mainwidget.cpp:411
-msgid "Show Simple View"
-msgstr ""
-
-#: mainwidget.cpp:412
-#, fuzzy
-#| msgid "Please select type of the new address book:"
-msgid "Show a simple mode of the address book view."
-msgstr "নতুন ঠিকানা তালিকার ধরন বেছে নিন:"
-
-#: mainwidget.cpp:417
-msgid "Import vCard..."
-msgstr "ভি-কার্ড আমদানি করো..."
-
-#: mainwidget.cpp:418
-msgid "Import contacts from a vCard file."
-msgstr ""
-
-#: mainwidget.cpp:422
-#, fuzzy
-msgid "Import CSV file..."
-msgstr "রপ্তানি তালিকা."
-
-#: mainwidget.cpp:423
-msgid "Import contacts from a file in comma separated value format."
-msgstr ""
-
-#: mainwidget.cpp:427
-#, fuzzy
-msgid "Import LDIF file..."
-msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
-
-#: mainwidget.cpp:428
-#, fuzzy
-msgid "Import contacts from an LDIF file."
-msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
-
-#: mainwidget.cpp:432
-#, fuzzy
-#| msgid "Import From Mobile Phone..."
-msgid "Import from LDAP server..."
-msgstr "মোবাইল ফোন থেকে আমদানি করো..."
-
-#: mainwidget.cpp:433
-#, fuzzy
-#| msgid "Import From Mobile Phone..."
-msgid "Import contacts from an LDAP server."
-msgstr "মোবাইল ফোন থেকে আমদানি করো..."
-
-#: mainwidget.cpp:437
-#, fuzzy
-#| msgid "Import All..."
-msgid "Import GMX file..."
-msgstr "সব আমদানি করো..."
-
-#: mainwidget.cpp:438
-#, fuzzy
-msgid "Import contacts from a GMX address book file."
-msgstr "%1 ঠিকানা তালিকা"
-
-#: mainwidget.cpp:444
-msgid "Export vCard 3.0..."
-msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
-
-#: mainwidget.cpp:445
-#, fuzzy
-#| msgid "Export vCard 3.0..."
-msgid "Export contacts to a vCard 3.0 file."
-msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
-
-#: mainwidget.cpp:449
-msgid "Export vCard 2.1..."
-msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
-
-#: mainwidget.cpp:450
-#, fuzzy
-#| msgid "Export vCard 2.1..."
-msgid "Export contacts to a vCard 2.1 file."
-msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
-
-#: mainwidget.cpp:454
-#, fuzzy
-msgid "Export CSV file..."
-msgstr "রপ্তানি তালিকা."
-
-#: mainwidget.cpp:455
-msgid "Export contacts to a file in comma separated value format."
-msgstr ""
-
-#: mainwidget.cpp:459
-#, fuzzy
-msgid "Export LDIF file..."
-msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
-
-#: mainwidget.cpp:460
-#, fuzzy
-msgid "Export contacts to an LDIF file."
-msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
-
-#: mainwidget.cpp:464
-#, fuzzy
-msgid "Export GMX file..."
-msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
-
-#: mainwidget.cpp:465
-#, fuzzy
-msgid "Export contacts to a GMX address book file."
-msgstr "%1 ঠিকানা তালিকা"
-
-#: mainwidget.cpp:472
-msgid "Address Book"
-msgstr "ঠিকানা তালিকা"
-
-#: quicksearchwidget.cpp:38
-#, fuzzy
-#| msgid "Search:"
-msgctxt "Search contacts in list"
-msgid "Search"
-msgstr "সন্ধান:"
-
-#: modelcolumnmanager.cpp:76
-msgid "Full Name"
-msgstr "পুরো নাম"
-
-#: modelcolumnmanager.cpp:81
-#, fuzzy
-#| msgid "Family names:"
-msgid "Family Name"
-msgstr "পারিবারিক নাম (পদবী):"
-
-#: modelcolumnmanager.cpp:85
-#, fuzzy
-#| msgid "Given name:"
-msgid "Given Name"
-msgstr "প্রদত্ত নাম:"
-
-#: modelcolumnmanager.cpp:97
-#, fuzzy
-#| msgid "Business"
-msgid "Business Address"
-msgstr "ব্যবসায়িক"
-
-#: modelcolumnmanager.cpp:101
-#, fuzzy
-msgid "Phone Numbers"
-msgstr "ফোন নম্বর সম্পাদন করো"
-
-#: modelcolumnmanager.cpp:105
-#, fuzzy
-#| msgid "Preferred address"
-msgid "Preferred EMail"
-msgstr "পছন্দের ঠিকানা"
-
-#: modelcolumnmanager.cpp:109
-#, fuzzy
-#| msgid "Email"
-msgid "All EMails"
-msgstr "ই-মেইল"
-
-#: mainwindow.cpp:60
-msgid ""
-"You will be presented with a dialog where you can configure the application-"
-"wide shortcuts."
-msgstr ""
-
-#: contactselectiondialog.cpp:29
-#, fuzzy
-#| msgid "&Delete Contact"
-msgid "Select Contacts"
-msgstr "পরিচ&য় মুছে ফেলো"
-
-#: contactfields.cpp:28
-#, fuzzy
-#| msgid "Undefined"
-msgctxt "@item Undefined import field type"
-msgid "Undefined"
-msgstr "অজ্ঞাত"
-
-#: contactfields.cpp:37
-msgid "Anniversary"
-msgstr "বর্ষপূর্তি"
-
-#: contactfields.cpp:60
-#, fuzzy
-#| msgid "Use Preferred"
-msgctxt "Preferred email address"
-msgid "EMail (preferred)"
-msgstr "পছন্দের অ্যাড্রেস ব্যবহার করো"
-
-#: contactfields.cpp:61
-#, fuzzy
-#| msgid "Email"
-msgctxt "Second email address"
-msgid "EMail (2)"
-msgstr "ই-মেইল"
-
-#: contactfields.cpp:62
-#, fuzzy
-#| msgid "Email"
-msgctxt "Third email address"
-msgid "EMail (3)"
-msgstr "ই-মেইল"
-
-#: contactfields.cpp:63
-#, fuzzy
-#| msgid "Email"
-msgctxt "Fourth email address"
-msgid "EMail (4)"
-msgstr "ই-মেইল"
-
-#: contactfields.cpp:70
-#, fuzzy
-#| msgid "Blog feed:"
-msgid "Blog Feed"
-msgstr "ব্লগ ফীড:"
-
-#: contactfields.cpp:71
-msgid "Profession"
-msgstr "পেশা"
-
-#: contactfields.cpp:72
-msgid "Office"
-msgstr "অফিস"
-
-#: contactfields.cpp:73
-#, fuzzy
-#| msgid "Myanmar"
-msgid "Manager"
-msgstr "মায়ানমার"
-
-#: contactfields.cpp:74
-#, fuzzy
-#| msgid "Assistant's Name"
-msgid "Assistant"
-msgstr "সহকারীর নাম"
-
-#: contactfields.cpp:75
-msgid "Spouse"
-msgstr ""
-
-#: grantleecontactformatter.cpp:282
-#, fuzzy
-#| msgid "Types"
-msgctxt "Boolean value"
-msgid "yes"
-msgstr "ধরন"
-
-#: grantleecontactformatter.cpp:284
-msgctxt "Boolean value"
-msgid "no"
-msgstr ""
-
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -924,36 +924,60 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
+#. i18n: file: printing/ds_appearance.ui:14
+#. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
+#: rc.cpp:5
+msgid "Appearance Page"
+msgstr "চেহারা পাতা"
+
+#. i18n: file: printing/ds_appearance.ui:68
+#. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
+#: rc.cpp:11
+msgid "Contact Headers"
+msgstr "পরিচয় হেডার"
+
+#. i18n: file: printing/ds_appearance.ui:106
+#. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
+#: rc.cpp:14
+msgid "Headline background color:"
+msgstr "শিরোনাম পটভূমির রং:"
+
+#. i18n: file: printing/ds_appearance.ui:116
+#. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
+#: rc.cpp:17
+msgid "Headline text color:"
+msgstr "শিরোনাম লেখার রং:"
+
 #. i18n: file: printing/rbs_appearance.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, RingBinderStyleAppearanceForm_Base)
-#: rc.cpp:5
+#: rc.cpp:20
 #, fuzzy
 msgid "Appearance"
 msgstr "চেহারা পাতা"
 
 #. i18n: file: printing/rbs_appearance.ui:26
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox2)
-#: rc.cpp:8
+#: rc.cpp:23
 msgid "Print Contact's Information"
 msgstr ""
 
 #. i18n: file: printing/rbs_appearance.ui:32
 #. i18n: ectx: property (text), widget (QCheckBox, cbPhoneNumbers)
-#: rc.cpp:11
+#: rc.cpp:26
 #, fuzzy
 msgid "Phone numbers"
 msgstr "ফোন নম্বর সম্পাদন করো"
 
 #. i18n: file: printing/rbs_appearance.ui:42
 #. i18n: ectx: property (text), widget (QCheckBox, cbEmails)
-#: rc.cpp:14
+#: rc.cpp:29
 #, fuzzy
 msgid "Email addresses"
 msgstr "ই-মেইল ঠিকানা:"
 
 #. i18n: file: printing/rbs_appearance.ui:52
 #. i18n: ectx: property (text), widget (QCheckBox, cbStreetAddresses)
-#: rc.cpp:17
+#: rc.cpp:32
 #, fuzzy
 #| msgid "Postal Address"
 msgid "Postal addresses"
@@ -961,48 +985,24 @@ msgstr "ডাক ঠিকানা"
 
 #. i18n: file: printing/rbs_appearance.ui:62
 #. i18n: ectx: property (text), widget (QCheckBox, cbOrganization)
-#: rc.cpp:20
+#: rc.cpp:35
 msgid "Organization"
 msgstr "সংস্থা"
 
 #. i18n: file: printing/rbs_appearance.ui:69
 #. i18n: ectx: property (text), widget (QCheckBox, cbBirthday)
-#: rc.cpp:23
+#: rc.cpp:38
 #, fuzzy
 msgid "Birthday"
 msgstr "জন্মদিন:"
 
 #. i18n: file: printing/rbs_appearance.ui:76
 #. i18n: ectx: property (text), widget (QCheckBox, cbNote)
-#: rc.cpp:26
+#: rc.cpp:41
 #, fuzzy
 #| msgid "Note:"
 msgid "Note"
 msgstr "নোট:"
-
-#. i18n: file: printing/ds_appearance.ui:14
-#. i18n: ectx: property (windowTitle), widget (QWidget, AppearancePage_Base)
-#: rc.cpp:29
-msgid "Appearance Page"
-msgstr "চেহারা পাতা"
-
-#. i18n: file: printing/ds_appearance.ui:68
-#. i18n: ectx: property (title), widget (QGroupBox, gbHeadline)
-#: rc.cpp:35
-msgid "Contact Headers"
-msgstr "পরিচয় হেডার"
-
-#. i18n: file: printing/ds_appearance.ui:106
-#. i18n: ectx: property (text), widget (QLabel, tlBackgroundColor)
-#: rc.cpp:38
-msgid "Headline background color:"
-msgstr "শিরোনাম পটভূমির রং:"
-
-#. i18n: file: printing/ds_appearance.ui:116
-#. i18n: ectx: property (text), widget (QLabel, tlHeaderColor)
-#: rc.cpp:41
-msgid "Headline text color:"
-msgstr "শিরোনাম লেখার রং:"
 
 #. i18n: file: kaddressbookui.rc:5
 #. i18n: ectx: Menu (file)
