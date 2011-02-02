@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-01-14 02:20+0100\n"
+"POT-Creation-Date: 2011-02-02 03:07+0100\n"
 "PO-Revision-Date: 2009-01-09 21:22-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -15,26 +15,26 @@ msgstr ""
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: activation.cpp:769
+#: activation.cpp:734
 #, kde-format
 msgid "Window '%1' demands attention."
 msgstr "উইণ্ডো '%1' মনোযোগ আকর্ষণ করছে।"
 
-#: composite.cpp:318
+#: composite.cpp:300
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
 "resume using the '%1' shortcut."
 msgstr ""
 
-#: composite.cpp:586
+#: composite.cpp:553
 msgid ""
 "Desktop effects were too slow and have been suspended.\n"
 "You can disable functionality checks in System Settings (on the Advanced tab "
 "in Desktop Effects)."
 msgstr ""
 
-#: composite.cpp:589
+#: composite.cpp:556
 #, kde-format
 msgid ""
 "Desktop effects were too slow and have been suspended.\n"
@@ -44,25 +44,25 @@ msgid ""
 "in Desktop Effects)."
 msgstr ""
 
-#: compositingprefs.cpp:91
+#: compositingprefs.cpp:90
 msgid "Required X extensions (XComposite and XDamage) are not available."
 msgstr "প্রয়োজনীয় এক্স এক্সটেনশন (XComposite and XDamage) পাওয়া যায়নি।"
 
-#: compositingprefs.cpp:95
+#: compositingprefs.cpp:94
 msgid "GLX/OpenGL are not available and only OpenGL support is compiled."
 msgstr ""
 
-#: compositingprefs.cpp:98
+#: compositingprefs.cpp:97
 msgid ""
 "XRender/XFixes extensions are not available and only XRender support is "
 "compiled."
 msgstr ""
 
-#: compositingprefs.cpp:104
+#: compositingprefs.cpp:102
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL এবং XRender/XFixes পাওয়া যায়নি।"
 
-#: compositingprefs.cpp:109
+#: compositingprefs.cpp:107
 msgid ""
 "Compositing was disabled at compile time.\n"
 "It is likely Xorg development headers were not installed."
@@ -583,88 +583,80 @@ msgid "Kill Window"
 msgstr "উইণ্ডোটি নষ্ট কর"
 
 #: kwinbindings.cpp:217
-msgid "Window Screenshot to Clipboard"
-msgstr "উইণ্ডোর স্ক্রীনশট ক্লিপবোর্ড-এ পাঠাও"
-
-#: kwinbindings.cpp:218
-msgid "Desktop Screenshot to Clipboard"
-msgstr "ডেস্কটপ-এর স্ক্রীনশট ক্লিপবোর্ড-এ পাঠাও "
-
-#: kwinbindings.cpp:219
 msgid "Block Global Shortcuts"
 msgstr ""
 
-#: kwinbindings.cpp:220
+#: kwinbindings.cpp:218
 msgid "Suspend Compositing"
 msgstr ""
 
-#: kwinbindings.cpp:223
+#: kwinbindings.cpp:221
 msgid "Tiling"
 msgstr ""
 
-#: kwinbindings.cpp:224
+#: kwinbindings.cpp:222
 msgid "Enable/Disable Tiling"
 msgstr ""
 
-#: kwinbindings.cpp:225
+#: kwinbindings.cpp:223
 msgid "Toggle Floating"
 msgstr ""
 
-#: kwinbindings.cpp:227
+#: kwinbindings.cpp:225
 #, fuzzy
 #| msgid "Switch to Desktop 1"
 msgid "Switch Focus Left"
 msgstr "১ নং ডেস্কটপে যাও"
 
-#: kwinbindings.cpp:228
+#: kwinbindings.cpp:226
 msgid "Switch Focus Right"
 msgstr ""
 
-#: kwinbindings.cpp:229
+#: kwinbindings.cpp:227
 #, fuzzy
 #| msgid "Switch One Desktop Up"
 msgid "Switch Focus Up"
 msgstr "উপরের ডেস্কটপে যাও"
 
-#: kwinbindings.cpp:230
+#: kwinbindings.cpp:228
 #, fuzzy
 #| msgid "Switch One Desktop Down"
 msgid "Switch Focus Down"
 msgstr "নিচের ডেস্কটপে যাও"
 
-#: kwinbindings.cpp:231
+#: kwinbindings.cpp:229
 #, fuzzy
 #| msgid "Move Window"
 msgid "Move Window Left"
 msgstr "উইণ্ডোটি সরাও"
 
-#: kwinbindings.cpp:232
+#: kwinbindings.cpp:230
 #, fuzzy
 #| msgid "Move Window"
 msgid "Move Window Right"
 msgstr "উইণ্ডোটি সরাও"
 
-#: kwinbindings.cpp:233
+#: kwinbindings.cpp:231
 #, fuzzy
 #| msgid "Move Window"
 msgid "Move Window Up"
 msgstr "উইণ্ডোটি সরাও"
 
-#: kwinbindings.cpp:234
+#: kwinbindings.cpp:232
 #, fuzzy
 #| msgid "Move Window"
 msgid "Move Window Down"
 msgstr "উইণ্ডোটি সরাও"
 
-#: kwinbindings.cpp:235
+#: kwinbindings.cpp:233
 msgid "Next Layout"
 msgstr ""
 
-#: kwinbindings.cpp:236
+#: kwinbindings.cpp:234
 msgid "Previous Layout"
 msgstr ""
 
-#: main.cpp:184
+#: main.cpp:177
 msgid ""
 "kwin: it looks like there's already a window manager running. kwin not "
 "started.\n"
@@ -672,68 +664,68 @@ msgstr ""
 "কে-উইন: মনে হচ্ছে ইতিমধ্যেই একটি উইণ্ডো প্রবন্ধক [উইন্ডো ম্যনেজার] চালু আছে। কে-উইন "
 "চালু হল না\n"
 
-#: main.cpp:213
+#: main.cpp:205
 msgid ""
 "KWin is unstable.\n"
 "It seems to have crashed several times in a row.\n"
 "You can select another window manager to run:"
 msgstr ""
 
-#: main.cpp:273
+#: main.cpp:262
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
 msgstr ""
 
-#: main.cpp:405
+#: main.cpp:393
 msgid "KDE window manager"
 msgstr "কে.ডি.ই. উইণ্ডো ম্যানেজার"
 
-#: main.cpp:480 killer/killer.cpp:37
+#: main.cpp:460 killer/killer.cpp:37
 msgid "KWin"
 msgstr "কে-উইন"
 
-#: main.cpp:484
+#: main.cpp:464
 msgid "(c) 1999-2008, The KDE Developers"
 msgstr "(C) ১৯৯৯-২০০৮, কে.ডি.ই. ডেভেলপারবৃন্দ"
 
-#: main.cpp:485
+#: main.cpp:465
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:486
+#: main.cpp:466
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:487
+#: main.cpp:467
 msgid "Daniel M. Duley"
 msgstr "Daniel M. Duley"
 
-#: main.cpp:488
+#: main.cpp:468
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: main.cpp:489
+#: main.cpp:469
 msgid "Martin Gräßlin"
 msgstr ""
 
-#: main.cpp:489
+#: main.cpp:469
 msgid "Maintainer"
 msgstr "রক্ষণাবেক্ষণকারী"
 
-#: main.cpp:494
+#: main.cpp:474
 msgid "Disable configuration options"
 msgstr "কন্‌ফিগারেশন অপশন নিষ্ক্রিয় করো"
 
-#: main.cpp:495
+#: main.cpp:475
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr ""
 
-#: main.cpp:496
+#: main.cpp:476
 msgid "Indicate that KWin has recently crashed n times"
 msgstr ""
 
-#: main.cpp:497
+#: main.cpp:477
 msgid "Load the script testing dialog"
 msgstr ""
 
@@ -759,20 +751,20 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "anirban@bengalinux.org"
 
-#: tabbox.cpp:225
+#: tabbox.cpp:214
 #, fuzzy
 #| msgid "Show Desktop Grid"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "ডেস্কটপ গ্রিড দেখাও"
 
-#: tiling.cpp:79
+#: tiling.cpp:74
 #, fuzzy
 #| msgid "Disabled"
 msgid "Tiling Disabled"
 msgstr "নিষ্ক্রিয়"
 
-#: tiling.cpp:85
+#: tiling.cpp:78
 msgid "Tiling Enabled"
 msgstr ""
 
@@ -781,167 +773,167 @@ msgstr ""
 msgid "Layout changed to %1"
 msgstr ""
 
-#: tilinglayoutfactory.cpp:61
+#: tilinglayoutfactory.cpp:60
 msgctxt "Spiral tiling layout"
 msgid "Spiral"
 msgstr ""
 
-#: tilinglayoutfactory.cpp:62
+#: tilinglayoutfactory.cpp:61
 msgctxt "Two-column horizontal tiling layout"
 msgid "Columns"
 msgstr ""
 
-#: tilinglayoutfactory.cpp:63
+#: tilinglayoutfactory.cpp:62
 #, fuzzy
 #| msgid "Close Window"
 msgctxt "Floating layout, windows aren't tiled at all"
 msgid "Floating"
 msgstr "উইণ্ডো বন্ধ করো"
 
-#: useractions.cpp:77
+#: useractions.cpp:76
 msgid "Keep &Above Others"
 msgstr "অন্যদের &ওপরে রাখ"
 
-#: useractions.cpp:85
+#: useractions.cpp:84
 msgid "Keep &Below Others"
 msgstr "অন্যদের তলা&য় রাখ"
 
-#: useractions.cpp:93
+#: useractions.cpp:92
 msgid "&Fullscreen"
 msgstr "পুরো &পর্দা"
 
-#: useractions.cpp:101
+#: useractions.cpp:100
 msgid "&No Border"
 msgstr "সীমারেখাবিহী&ন"
 
-#: useractions.cpp:108
+#: useractions.cpp:107
 msgid "Window &Shortcut..."
 msgstr "উইণ্ডো &শর্টকাট..."
 
-#: useractions.cpp:115
+#: useractions.cpp:114
 msgid "&Special Window Settings..."
 msgstr "বিশে&ষ উইণ্ডো বৈশিষ্ট্য..."
 
-#: useractions.cpp:119
+#: useractions.cpp:118
 #, fuzzy
 #| msgid "&Special Application Settings..."
 msgid "S&pecial Application Settings..."
 msgstr "বিশেষ অ্যাপলিকেশন সেটিংস..."
 
-#: useractions.cpp:140
+#: useractions.cpp:138
 msgid "&Opacity"
 msgstr "স্বচ্ছতা (&স)"
 
-#: useractions.cpp:143
+#: useractions.cpp:141
 msgid "&Move"
 msgstr "&সরাও"
 
-#: useractions.cpp:150
+#: useractions.cpp:148
 msgid "Re&size"
 msgstr "&আকার বদলাও"
 
-#: useractions.cpp:156
+#: useractions.cpp:154
 msgid "Mi&nimize"
 msgstr "ছো&ট করো"
 
-#: useractions.cpp:162
+#: useractions.cpp:160
 msgid "Ma&ximize"
 msgstr "পুরো &বড় কর"
 
-#: useractions.cpp:169
+#: useractions.cpp:167
 msgid "Sh&ade"
 msgstr "ছায়াবৃ&ত কর"
 
-#: useractions.cpp:181
+#: useractions.cpp:178
 msgid "Remove &From Group"
 msgstr ""
 
-#: useractions.cpp:187
+#: useractions.cpp:184
 msgid "Close Entire &Group"
 msgstr ""
 
-#: useractions.cpp:198
+#: useractions.cpp:195
 #, fuzzy
 #| msgid "Close Window"
 msgctxt "When in tiling mode, toggle's the window's floating/tiled state"
 msgid "&Float Window"
 msgstr "উইণ্ডো বন্ধ করো"
 
-#: useractions.cpp:214
+#: useractions.cpp:210
 msgid "Ad&vanced"
 msgstr "&অগ্রসর"
 
-#: useractions.cpp:221
+#: useractions.cpp:216
 msgid "Configur&e Window Behavior..."
 msgstr "উইণ্ডোর ব্যবহার কনফিগা&র কর..."
 
-#: useractions.cpp:227
+#: useractions.cpp:222
 msgid "&Close"
 msgstr "&বন্ধ করো"
 
-#: useractions.cpp:354
+#: useractions.cpp:338
 #, fuzzy
 #| msgid "Switch to Screen 0"
 msgid "Switch to Window Tab"
 msgstr "0 নং স্ক্রীণে যাও"
 
-#: useractions.cpp:395
+#: useractions.cpp:372
 #, fuzzy
 #| msgid "Left"
 msgid "To the Left"
 msgstr "বাঁদিকে"
 
-#: useractions.cpp:397
+#: useractions.cpp:374
 #, fuzzy
 #| msgid "Right"
 msgid "To the Right"
 msgstr "ডানদিকে"
 
-#: useractions.cpp:426
+#: useractions.cpp:401
 #, fuzzy
 #| msgid "Move Window"
 msgid "Move Window to Group"
 msgstr "উইণ্ডোটি সরাও"
 
-#: useractions.cpp:469
+#: useractions.cpp:442
 msgid "To &Desktop"
 msgstr "ডেস্ক&টপে পাঠাও"
 
-#: useractions.cpp:492
+#: useractions.cpp:465
 msgid "Ac&tivities"
 msgstr ""
 
-#: useractions.cpp:505
+#: useractions.cpp:478
 msgid "&All Desktops"
 msgstr "স&মস্ত ডেস্কটপে"
 
-#: useractions.cpp:539
+#: useractions.cpp:512
 msgid "&All Activities"
 msgstr ""
 
-#: useractions.cpp:716
+#: useractions.cpp:676
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr "উইণ্ডো সক্রিয় করো (%1)"
 
-#: utils.cpp:515
+#: utils.cpp:499
 #, kde-format
 msgctxt "'%1' is a keyboard shortcut like 'ctrl+w'"
 msgid "<b>%1</b> is already in use"
 msgstr ""
 
-#: utils.cpp:517
+#: utils.cpp:501
 #, kde-format
 msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
-#: workspace.cpp:1263 workspace.cpp:1283
+#: workspace.cpp:1190 workspace.cpp:1209
 #, kde-format
 msgid "Desktop %1"
 msgstr "%1 নং ডেস্কটপ"
 
-#: workspace.cpp:2887
+#: workspace.cpp:2672
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -953,7 +945,7 @@ msgstr ""
 "সীমানা না থাকলে আপনি মাউসের সাহায্যে আবার সীমারেখা চালু করতে পারবেন না: তার "
 "জন্যে উইণ্ডো ব্যবহারের মেনু, যা %1 কী-বোর্ড শর্টকাট দিয়ে চালু হবে, ব্যবহার করুন।"
 
-#: workspace.cpp:2901
+#: workspace.cpp:2684
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -994,11 +986,11 @@ msgstr ""
 msgid "Time of user action causing termination"
 msgstr ""
 
-#: killer/killer.cpp:64
+#: killer/killer.cpp:63
 msgid "This helper utility is not supposed to be called directly."
 msgstr "এই সাহায্যকারী ইউটিলিটি সরাসরি চালানোর কথা নয়।"
 
-#: killer/killer.cpp:68
+#: killer/killer.cpp:67
 #, fuzzy, kde-format
 #| msgid ""
 #| "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs "
@@ -1015,7 +1007,7 @@ msgstr ""
 "অ্যাপ্লিকেশনটির অংশ (PID=%3, hostname=%4)। </p><p>আপনি কি অ্যাপ্লিকেশনটি বন্ধ "
 "করতে চান? (সমস্ত অসঞ্চিত তথ্য হারিয়ে যাবে)</p>"
 
-#: killer/killer.cpp:74
+#: killer/killer.cpp:73
 #, kde-format
 msgid "&Terminate Application %1"
 msgstr ""
@@ -1030,11 +1022,11 @@ msgstr "<center><b>%1 প্রাকদর্শন</b></center>"
 msgid "Menu"
 msgstr "মেনু"
 
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:608
+#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:607
 msgid "Not on all desktops"
 msgstr "সব ডেস্কটপে নয়"
 
-#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:609
+#: lib/kcommondecoration.cpp:397 lib/kcommondecoration.cpp:608
 msgid "On all desktops"
 msgstr "সব ডেস্কটপে"
 
@@ -1046,11 +1038,11 @@ msgstr "সহায়তা"
 msgid "Minimize"
 msgstr "ছোট করো"
 
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:596
+#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:595
 msgid "Restore"
 msgstr "পুনঃস্থাপন করো"
 
-#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:595
+#: lib/kcommondecoration.cpp:440 lib/kcommondecoration.cpp:594
 msgid "Maximize"
 msgstr "পুরো বড় কর"
 
@@ -1058,48 +1050,54 @@ msgstr "পুরো বড় কর"
 msgid "Close"
 msgstr "বন্ধ করো"
 
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:651
+#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
 msgid "Do not keep above others"
 msgstr "অন্যদের ওপরে রেখো না"
 
-#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:651
-#: lib/kcommondecoration.cpp:675
+#: lib/kcommondecoration.cpp:469 lib/kcommondecoration.cpp:648
+#: lib/kcommondecoration.cpp:669
 msgid "Keep above others"
 msgstr "অন্যদের ওপরে রাখ"
 
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:668
+#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:663
 msgid "Do not keep below others"
 msgstr "অন্যদের তলায় রেখো না"
 
-#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:658
-#: lib/kcommondecoration.cpp:668
+#: lib/kcommondecoration.cpp:485 lib/kcommondecoration.cpp:654
+#: lib/kcommondecoration.cpp:663
 msgid "Keep below others"
 msgstr "অন্যদের তলায় রাখ"
 
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:620
+#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:619
 msgid "Unshade"
 msgstr "অছায়াবৃত করো"
 
-#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:621
+#: lib/kcommondecoration.cpp:501 lib/kcommondecoration.cpp:620
 msgid "Shade"
 msgstr "ছায়াবৃত কর"
 
-#: lib/kdecoration_plugins_p.cpp:134
+#: lib/kdecoration_plugins_p.cpp:128
 msgid "No window decoration plugin library was found."
 msgstr "কোনো উইন্ডো সজ্জার প্লাগ-ইন্ লাইব্রেরী পাওয়া যায় নি।"
 
-#: lib/kdecoration_plugins_p.cpp:161
+#: lib/kdecoration_plugins_p.cpp:153
 msgid "The default decoration plugin is corrupt and could not be loaded."
 msgstr "ডিফল্ট উইন্ডো সজ্জার প্লাগ-ইন্ নষ্ট হয়ে গেছে এবং লোড করা যায় নি।"
 
-#: lib/kdecoration_plugins_p.cpp:175 lib/kdecoration_plugins_p.cpp:180
+#: lib/kdecoration_plugins_p.cpp:165 lib/kdecoration_plugins_p.cpp:170
 #, kde-format
 msgid "The library %1 is not a KWin plugin."
 msgstr "লাইব্রেরী %1 একটি কে-উইন প্লাগ-ইন্ নয়।"
 
-#: tabbox/clientmodel.cpp:57
+#: tabbox/clientmodel.cpp:56
 msgid "*** No Windows ***"
 msgstr "*** কোন উইণ্ডো নেই ***"
+
+#~ msgid "Window Screenshot to Clipboard"
+#~ msgstr "উইণ্ডোর স্ক্রীনশট ক্লিপবোর্ড-এ পাঠাও"
+
+#~ msgid "Desktop Screenshot to Clipboard"
+#~ msgstr "ডেস্কটপ-এর স্ক্রীনশট ক্লিপবোর্ড-এ পাঠাও "
 
 #, fuzzy
 #~| msgid "Toggle Video Recording"
