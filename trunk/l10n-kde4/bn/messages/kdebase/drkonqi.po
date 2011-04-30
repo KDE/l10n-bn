@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-03-14 03:34+0100\n"
+"POT-Creation-Date: 2011-04-30 03:45+0200\n"
 "PO-Revision-Date: 2010-06-01 09:01-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -737,7 +737,7 @@ msgctxt "@info"
 msgid "Unknown response from the server"
 msgstr "সার্ভার থেকে অজ্ঞাত উত্তর"
 
-#: bugzillalib.cpp:280 reportassistantpages_bugzilla_duplicates.cpp:734
+#: bugzillalib.cpp:280 reportassistantpages_bugzilla_duplicates.cpp:754
 #, fuzzy
 msgctxt "@info"
 msgid ""
@@ -753,7 +753,7 @@ msgctxt "@info"
 msgid "Invalid bug list: corrupted data"
 msgstr "অবৈধ বাগ তালিকা: ডেটা দুর্নীতিবেজেছিল"
 
-#: bugzillalib.cpp:341 bugzillalib.cpp:654
+#: bugzillalib.cpp:349 bugzillalib.cpp:660
 msgctxt "@info"
 msgid "Unknown error"
 msgstr "অজানা ত্রুটি"
@@ -770,25 +770,31 @@ msgctxt "@info"
 msgid "Missing bug ID or comment in the query. Unknown error"
 msgstr "নিখোঁজ বাগ আই-ডি অথবা অনুসন্ধানে মন্তব্য করো। অজানা ত্রুটি"
 
-#: bugzillalib.cpp:437
+#: bugzillalib.cpp:438
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Error while adding a new comment into the bug report: %1"
 msgstr "বাগ রিপোর্টের দিকে একটি নতুন মন্তব্য যোগ করার সময় ত্রুটি: %1"
 
-#: bugzillalib.cpp:472
+#: bugzillalib.cpp:442
+#, fuzzy
+msgctxt "@info"
+msgid "Unknown error while adding a new comment into the bug report"
+msgstr "বাগ রিপোর্টের দিকে একটি নতুন মন্তব্য যোগ করার সময় ত্রুটি: %1"
+
+#: bugzillalib.cpp:478
 #, fuzzy
 msgctxt "@info"
 msgid "Missing bug ID in the query. Unknown error"
 msgstr "অনুসন্ধানে নিখোঁজ বাগ আই-ডি। অজানা ত্রুটি"
 
-#: bugzillalib.cpp:495
+#: bugzillalib.cpp:501
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Error while adding yourself to the CC list: %1"
 msgstr "CC তালিকাতে নিজে যোগ করার সময় ত্রুটি: %1"
 
-#: bugzillalib.cpp:652
+#: bugzillalib.cpp:658
 msgctxt "@info"
 msgid "You are not logged in. Make sure cookies are enabled."
 msgstr ""
@@ -831,12 +837,12 @@ msgctxt "@info"
 msgid "Could not create a file in which to save the report."
 msgstr "তে একটি ফাইল কি তৈরি করতে পারে না রিপোর্ট সংরক্ষণ করতে যেটি।"
 
-#: drkonqi.cpp:165
+#: drkonqi.cpp:165 reportassistantpages_bugzilla.cpp:819
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "ফাইল-এর নাম নির্বাচন করুন"
 
-#: drkonqi.cpp:187
+#: drkonqi.cpp:187 reportassistantpages_bugzilla.cpp:840
 #, kde-format
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
@@ -1668,13 +1674,13 @@ msgctxt "@label examples about information the user can provide"
 msgid "Examples: %1"
 msgstr "উদাহরণ: %1"
 
-#: reportassistantpages_base.cpp:216 reportassistantpages_bugzilla.cpp:644
+#: reportassistantpages_base.cpp:216 reportassistantpages_bugzilla.cpp:672
 #, fuzzy
 msgctxt "@action:button"
 msgid "Sho&w Contents of the Report"
 msgstr "রিপোর্টের অভ্যন্তরস্থ বস্তু দেখাও (&w)"
 
-#: reportassistantpages_base.cpp:218 reportassistantpages_bugzilla.cpp:646
+#: reportassistantpages_base.cpp:218 reportassistantpages_bugzilla.cpp:674
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid ""
@@ -1845,19 +1851,19 @@ msgstr ""
 "একটি ফাইলে generated ক্র্যাশ রিপোর্ট তথ্য সংরক্ষণ করতে এই বাটনটি ব্যবহার করো। আপনি "
 "বাগ পরবর্তী কালে রিপোর্ট করতে এই অপশনটি ব্যবহার করতে পারেন।"
 
-#: reportassistantpages_bugzilla.cpp:66
+#: reportassistantpages_bugzilla.cpp:73
 #, fuzzy, kde-format
 msgctxt "@info:status '1' is replaced with \"bugs.kde.org\""
 msgid "You need to login with your %1 account in order to proceed."
 msgstr "আপনি অগ্রসর হতে অর্ডারে আপনার %1 অ্যাকাউন্টের সঙ্গে লগিনতে প্রয়োজন বোধ করো।"
 
-#: reportassistantpages_bugzilla.cpp:69
+#: reportassistantpages_bugzilla.cpp:76
 #, fuzzy
 msgctxt "@action:button"
 msgid "Login"
 msgstr "লগিন"
 
-#: reportassistantpages_bugzilla.cpp:71
+#: reportassistantpages_bugzilla.cpp:78
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid ""
@@ -1867,7 +1873,7 @@ msgstr ""
 "provided ব্যবহারকারীর নাম এবং শব্দচাবি ব্যবহার করে কেডিই বাগ tracking সিস্টেমে "
 "লগিনতে এই বাটনটি ব্যবহার করো।"
 
-#: reportassistantpages_bugzilla.cpp:80
+#: reportassistantpages_bugzilla.cpp:87
 #, fuzzy, kde-format
 msgctxt "@info/rich"
 msgid ""
@@ -1883,31 +1889,31 @@ msgstr ""
 "আপনার এক, আপনাকে মুক্তভাবে না<link url='%2'>এক এখানে তৈরি করো</link>। দয়া করে "
 "disposable ই-মেইল অ্যাকাউন্ট ব্যবহার করেন না।</note>"
 
-#: reportassistantpages_bugzilla.cpp:98
+#: reportassistantpages_bugzilla.cpp:105
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "Error when trying to login: <message>%1.</message>"
 msgstr "লগিনতে ত্রুটি যখন চেষ্টা করছে:<message>%1।</message>"
 
-#: reportassistantpages_bugzilla.cpp:124
+#: reportassistantpages_bugzilla.cpp:134
 #, fuzzy, kde-format
 msgctxt "@info:status the user is logged at the bugtracker site as USERNAME"
 msgid "Logged in at the KDE bug tracking system (%1) as: %2."
 msgstr "কে.ডি.ই. বাগ tracking সিস্টেমে তে Logged (%1) হিসেবে: %2।"
 
-#: reportassistantpages_bugzilla.cpp:210
+#: reportassistantpages_bugzilla.cpp:220
 msgid "Failed to communicate with kded. Make sure it is running."
 msgstr ""
 
-#: reportassistantpages_bugzilla.cpp:213
+#: reportassistantpages_bugzilla.cpp:223
 msgid "Failed to load KCookieServer. Check your KDE installation."
 msgstr ""
 
-#: reportassistantpages_bugzilla.cpp:225
+#: reportassistantpages_bugzilla.cpp:235
 msgid "Failed to communicate with KCookieServer."
 msgstr ""
 
-#: reportassistantpages_bugzilla.cpp:233
+#: reportassistantpages_bugzilla.cpp:243
 #, kde-format
 msgctxt "@info 1 is the bugzilla website url"
 msgid ""
@@ -1915,189 +1921,215 @@ msgid ""
 "you need to allow %1 to set cookies."
 msgstr ""
 
-#: reportassistantpages_bugzilla.cpp:238
+#: reportassistantpages_bugzilla.cpp:248
 #, kde-format
 msgctxt "@action:button 1 is the bugzilla website url"
 msgid "Allow %1 to set cookies"
 msgstr ""
 
-#: reportassistantpages_bugzilla.cpp:242
+#: reportassistantpages_bugzilla.cpp:252
 msgctxt "@action:button do not allow bugs.kde.org to set cookies"
 msgid "No, do not allow"
 msgstr ""
 
-#: reportassistantpages_bugzilla.cpp:307
+#: reportassistantpages_bugzilla.cpp:317
 #, fuzzy, kde-format
 msgctxt "@info:status '1' is a url, '2' the username"
 msgid "Performing login at %1 as %2..."
 msgstr "%2 হিসেবে %1তে লগিন কর্ম সম্পাদন করছে..."
 
-#: reportassistantpages_bugzilla.cpp:331
+#: reportassistantpages_bugzilla.cpp:341
 #, fuzzy
 msgctxt "@info:status/rich"
 msgid "<b>Error: Invalid username or password</b>"
 msgstr "<b>ত্রুটি: বেঠিক ব্যবহারকারীর নাম অথবা শব্দচাবি</b>"
 
-#: reportassistantpages_bugzilla.cpp:388
+#: reportassistantpages_bugzilla.cpp:398
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Unspecified"
 msgstr "অনুল্লেখকৃত"
 
-#: reportassistantpages_bugzilla.cpp:390
+#: reportassistantpages_bugzilla.cpp:400
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Debian stable"
 msgstr "ডেবিয়ান স্থির"
 
-#: reportassistantpages_bugzilla.cpp:392
+#: reportassistantpages_bugzilla.cpp:402
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Debian testing"
 msgstr "ডেবিয়ান পরীক্ষাকরণ"
 
-#: reportassistantpages_bugzilla.cpp:394
+#: reportassistantpages_bugzilla.cpp:404
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Debian unstable"
 msgstr "ডেবিয়ান অস্থায়ী"
 
-#: reportassistantpages_bugzilla.cpp:396
+#: reportassistantpages_bugzilla.cpp:406
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Exherbo"
 msgstr "Exherbo"
 
-#: reportassistantpages_bugzilla.cpp:398
+#: reportassistantpages_bugzilla.cpp:408
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Gentoo"
 msgstr "গেন্টু"
 
-#: reportassistantpages_bugzilla.cpp:400
+#: reportassistantpages_bugzilla.cpp:410
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Mandriva"
 msgstr "Mandriva"
 
-#: reportassistantpages_bugzilla.cpp:402
+#: reportassistantpages_bugzilla.cpp:412
+msgctxt "@label:listbox KDE distribution method"
+msgid "Mageia"
+msgstr ""
+
+#: reportassistantpages_bugzilla.cpp:414
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Slackware"
 msgstr "স্ল্যাকওয়ার"
 
-#: reportassistantpages_bugzilla.cpp:404
+#: reportassistantpages_bugzilla.cpp:416
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "SuSE/OpenSUSE"
 msgstr "SuSE/OpenSUSE"
 
-#: reportassistantpages_bugzilla.cpp:406
+#: reportassistantpages_bugzilla.cpp:418
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "RedHat"
 msgstr "রেডহ্যাট"
 
-#: reportassistantpages_bugzilla.cpp:408
+#: reportassistantpages_bugzilla.cpp:420
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Fedora"
 msgstr "Fedora"
 
-#: reportassistantpages_bugzilla.cpp:410
+#: reportassistantpages_bugzilla.cpp:422
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Kubuntu/Ubuntu (and derivatives)"
 msgstr "Kubuntu/Ubuntu (এবং derivatives)"
 
-#: reportassistantpages_bugzilla.cpp:413
+#: reportassistantpages_bugzilla.cpp:425
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Pardus"
 msgstr "Pardus"
 
-#: reportassistantpages_bugzilla.cpp:415
+#: reportassistantpages_bugzilla.cpp:427
+msgctxt "@label:listbox KDE distribution method"
+msgid "Chakra"
+msgstr ""
+
+#: reportassistantpages_bugzilla.cpp:429
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Archlinux"
 msgstr "Archlinux"
 
-#: reportassistantpages_bugzilla.cpp:417
+#: reportassistantpages_bugzilla.cpp:431
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "FreeBSD (Ports)"
 msgstr "ফ্রি-বিএসডি (পোর্ট)"
 
-#: reportassistantpages_bugzilla.cpp:419
+#: reportassistantpages_bugzilla.cpp:433
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "NetBSD (pkgsrc)"
 msgstr "নেটবিএসডি (pkgsrc)"
 
-#: reportassistantpages_bugzilla.cpp:421
+#: reportassistantpages_bugzilla.cpp:435
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "OpenBSD"
 msgstr "OpenBSD"
 
-#: reportassistantpages_bugzilla.cpp:423
+#: reportassistantpages_bugzilla.cpp:437
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Mac OS X"
 msgstr "ম্যাক ওএস এক্স"
 
-#: reportassistantpages_bugzilla.cpp:425
+#: reportassistantpages_bugzilla.cpp:439
 #, fuzzy
 msgctxt "@label:listbox KDE distribution method"
 msgid "Solaris"
 msgstr "সোলারিস"
 
-#: reportassistantpages_bugzilla.cpp:494
+#: reportassistantpages_bugzilla.cpp:508
 #, fuzzy
 msgctxt "the minimum required length of a text was reached"
 msgid "Minimum length reached"
 msgstr "ন্যুনতম দৈর্ঘ্য পৌঁছেছিল"
 
-#: reportassistantpages_bugzilla.cpp:497
+#: reportassistantpages_bugzilla.cpp:511
 #, fuzzy
 msgctxt "the minimum required length of a text wasn't reached yet"
 msgid "Provide more information"
 msgstr "আরও বেশি তথ্য জোগান দাও"
 
-#: reportassistantpages_bugzilla.cpp:517
+#: reportassistantpages_bugzilla.cpp:531
 #, fuzzy
 msgctxt "@info"
 msgid ""
-"The description about the crash details does not provide enough information."
+"The description about the crash details does not provide enough information "
+"yet.<br /><br />"
 msgstr "ক্র্যাশ বিশদ বর্ণনার সম্বন্ধে বর্ণনা যথেষ্ট তথ্য জোগান দাও না।"
 
-#: reportassistantpages_bugzilla.cpp:519
+#: reportassistantpages_bugzilla.cpp:534
+msgctxt "@info"
+msgid ""
+"The amount of required information is proportional to the quality of the "
+"other information like the backtrace or the reproducibility rate.<br /><br />"
+msgstr ""
+
+#: reportassistantpages_bugzilla.cpp:542
+msgctxt "@info"
+msgid ""
+"Previously, you told DrKonqi that you could provide some contextual "
+"information. Try writing more details about your situation. (even little "
+"ones could help us.)<br /><br />"
+msgstr ""
+
+#: reportassistantpages_bugzilla.cpp:547
 #, fuzzy
 msgctxt "@info"
 msgid ""
-"If you cannot provide enough information, your report will probably waste "
+"If you cannot provide more information, your report will probably waste "
 "developers' time. Can you tell us more?"
 msgstr ""
 "যদি আপনি যথেষ্ট তথ্য জোগান দিতে পারেন না, আপনার রিপোর্ট ডেভেলপারগণ' সময় সম্ভবত "
 "বর্জ্যবেন। আপনি কি আমাদেরকে আরও বেশি বলতে পারেন?"
 
-#: reportassistantpages_bugzilla.cpp:523
+#: reportassistantpages_bugzilla.cpp:551
 #, fuzzy
 msgid "Yes, let me add more information"
 msgstr "হ্যাঁ, আমাকে আরও বেশি তথ্য যোগ করতে দিন"
 
-#: reportassistantpages_bugzilla.cpp:526
+#: reportassistantpages_bugzilla.cpp:554
 #, fuzzy
 msgid "No, I cannot add any other information"
 msgstr "কোনও না, আমি যেকোন অন্যান্য তথ্য যোগ করতে পারে না"
 
-#: reportassistantpages_bugzilla.cpp:529
+#: reportassistantpages_bugzilla.cpp:557
 #, fuzzy
 msgctxt "@title:window"
 msgid "We need more information"
 msgstr "আমরা আরও বেশি তথ্য প্রয়োজন বোধ করো"
 
-#: reportassistantpages_bugzilla.cpp:571
+#: reportassistantpages_bugzilla.cpp:599
 #, fuzzy
 msgctxt "@info:tooltip examples of good bug report titles"
 msgid ""
@@ -2113,13 +2145,13 @@ msgstr ""
 "পুনরায় শুরু করার পরে suddenly বন্ধ করেছিল<nl />\"কেট একটি কার্যবিবরণী ফাইল "
 "সম্পাদনা করার সময় বন্ধ করেছিল এবং pressing সময়\"এর একটি দম্পতি মুছে ফেলো চাবিও"
 
-#: reportassistantpages_bugzilla.cpp:582
+#: reportassistantpages_bugzilla.cpp:610
 #, fuzzy
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "Describe in as much detail as possible the crash circumstances:"
 msgstr "সম্ভব ক্র্যাশ পরিস্থিতি হিসেবে অধিক পুঙ্খানুপুঙ্খ বর্ণনা হিসেবে তে বর্ণনা করা:"
 
-#: reportassistantpages_bugzilla.cpp:586
+#: reportassistantpages_bugzilla.cpp:614
 #, fuzzy
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid ""
@@ -2129,7 +2161,7 @@ msgstr ""
 "- পুঙ্খানুপুঙ্খ বর্ণনা যেটি ক্রিয়া ক্র্যাশর পূর্বে অ্যাপলিকেশন একটি মুহূর্তের বাইরে এবংএর "
 "ভেতরে আপনাকে গ্রহণ করছিল।"
 
-#: reportassistantpages_bugzilla.cpp:592
+#: reportassistantpages_bugzilla.cpp:620
 #, fuzzy
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid ""
@@ -2139,13 +2171,13 @@ msgstr ""
 "- নোট যদি আপনি পুরো পরিবেশে অ্যাপলিকেশন অথবাতে যেকোন অচিরাচরিত আচরণ লক্ষ্য "
 "করেছিলেন।"
 
-#: reportassistantpages_bugzilla.cpp:598
+#: reportassistantpages_bugzilla.cpp:626
 #, fuzzy
 msgctxt "@info:tooltip help and examples of good bug descriptions"
 msgid "- Note any non-default configuration in the application."
 msgstr "- অ্যাপলিকেশনে নোট যেকোন non-default কনফিগারেশন।"
 
-#: reportassistantpages_bugzilla.cpp:603
+#: reportassistantpages_bugzilla.cpp:631
 #, fuzzy, kde-format
 msgctxt ""
 "@info:tooltip examples of configuration details. the examples are already "
@@ -2153,14 +2185,14 @@ msgctxt ""
 msgid "Examples: %1"
 msgstr "উদাহরণ: %1"
 
-#: reportassistantpages_bugzilla.cpp:638
+#: reportassistantpages_bugzilla.cpp:666
 #: reportassistantpages_bugzilla_duplicates.cpp:513
 #, fuzzy
 msgctxt "@action:button"
 msgid "Retry..."
 msgstr "পুনঃপ্রচেষ্টা..."
 
-#: reportassistantpages_bugzilla.cpp:640
+#: reportassistantpages_bugzilla.cpp:668
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Use this button to retry sending the crash report if it failed before."
@@ -2168,13 +2200,13 @@ msgstr ""
 "sending ক্র্যাশ রিপোর্ট পুনরায় চেষ্টা করতে এই বাটনটি ব্যবহার করো যদি এইটি ার পূর্বে "
 "ব্যর্থ হয়েছিল।"
 
-#: reportassistantpages_bugzilla.cpp:667
+#: reportassistantpages_bugzilla.cpp:695
 #, fuzzy
 msgctxt "@info:status"
 msgid "Sending crash report... (please wait)"
 msgstr "ক্র্যাশ রিপোর্ট পাঠাচ্ছে... (দয়া করে অপেক্ষা করো)"
 
-#: reportassistantpages_bugzilla.cpp:684
+#: reportassistantpages_bugzilla.cpp:712
 #, fuzzy, kde-format
 msgctxt "@info/rich"
 msgid ""
@@ -2184,17 +2216,37 @@ msgstr ""
 "ক্র্যাশ রিপোর্ট পাঠিয়েছিল।<nl/>ইউআরএল:<link>%1</link><nl/>কেডিইের অংশ হের জন্য "
 "আপনাকে ধন্যবাদ জানাও। আপনি এই জানালাটি এখন বন্ধ করতে পারেন।"
 
-#: reportassistantpages_bugzilla.cpp:694
+#: reportassistantpages_bugzilla.cpp:722
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "Error sending the crash report:  <message>%1.</message>"
 msgstr "ত্রুটি sending ক্র্যাশ রিপোর্ট:<message>%1।</message>"
 
-#: reportassistantpages_bugzilla.cpp:716
+#: reportassistantpages_bugzilla.cpp:748
 #, fuzzy, kde-format
 msgctxt "@info/plain report to KDE bugtracker address"
 msgid "Report to %1"
 msgstr "%1তে রিপোর্ট"
+
+#: reportassistantpages_bugzilla.cpp:767
+msgctxt "@title:window"
+msgid "Unhandled Bugzilla Error"
+msgstr ""
+
+#: reportassistantpages_bugzilla.cpp:771
+#, fuzzy
+msgctxt "@action:button save html to a file"
+msgid "Save to a file"
+msgstr "দাখিল করতে সংরক্ষণ করো... (&S)"
+
+#: reportassistantpages_bugzilla.cpp:802
+#, kde-format
+msgctxt "@label"
+msgid ""
+"There was an unhandled Bugzilla error: %1.<br />Below is the HTML that "
+"DrKonqi received. Try to perform the action again or save this error page to "
+"submit a bug against DrKonqi."
+msgstr ""
 
 #: reportassistantpages_bugzilla_duplicates.cpp:63
 #, fuzzy
@@ -2509,61 +2561,73 @@ msgctxt "@title:window"
 msgid "Nested duplicate detected"
 msgstr "Nested সনাক্তকৃত নকল করো"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:630
+#: reportassistantpages_bugzilla_duplicates.cpp:634
 #, fuzzy, kde-format
 msgctxt "comment $number to use as subtitle"
 msgid "<h4>Comment %1:</h4>"
 msgstr "<h4>মন্তব্য %1:</h4>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:640
+#: reportassistantpages_bugzilla_duplicates.cpp:651
 #, fuzzy
 msgctxt "@info bug status"
 msgid "Opened (Unconfirmed)"
 msgstr "Opened (Unconfirmed)"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:644
+#: reportassistantpages_bugzilla_duplicates.cpp:655
 #, fuzzy
 msgctxt "@info bug status"
 msgid "Opened (Unfixed)"
 msgstr "Opened (অমিমাংসিত)"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:650
+#: reportassistantpages_bugzilla_duplicates.cpp:663
+#, kde-format
+msgctxt "@info bug resolution, fixed in version"
+msgid "Fixed in version \"%1\""
+msgstr ""
+
+#: reportassistantpages_bugzilla_duplicates.cpp:666
+#, fuzzy, kde-format
+msgctxt "@info bug resolution, fixed by kde devs in version"
+msgid "the bug was fixed by KDE developers in version \"%1\""
+msgstr "বাগ কে.ডি.ই. ডেভেলপারগণের মধ্যে মেরামত করা হয়েছিল"
+
+#: reportassistantpages_bugzilla_duplicates.cpp:669
 #, fuzzy
 msgctxt "@info bug resolution"
 msgid "Fixed"
 msgstr "অপরিবর্তনীয়"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:651
+#: reportassistantpages_bugzilla_duplicates.cpp:670
 #, fuzzy
 msgctxt "@info bug resolution"
 msgid "the bug was fixed by KDE developers"
 msgstr "বাগ কে.ডি.ই. ডেভেলপারগণের মধ্যে মেরামত করা হয়েছিল"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:653
+#: reportassistantpages_bugzilla_duplicates.cpp:673
 #, fuzzy
 msgctxt "@info bug resolution"
 msgid "Non-reproducible"
 msgstr "Non-reproducible"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:655
+#: reportassistantpages_bugzilla_duplicates.cpp:675
 #, fuzzy
 msgctxt "@info bug resolution"
 msgid "Duplicate report (Already reported before)"
 msgstr "নকল রিপোর্ট (ার পূর্বে ইতিমধ্যে রিপোর্ট করেছিল)"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:658
+#: reportassistantpages_bugzilla_duplicates.cpp:678
 #, fuzzy
 msgctxt "@info bug resolution"
 msgid "Not a valid report/crash"
 msgstr "একটি বৈধ report/crash না"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:661
+#: reportassistantpages_bugzilla_duplicates.cpp:681
 #, fuzzy
 msgctxt "@info bug resolution"
 msgid "Not caused by a problem in the KDE's Applications or libraries"
 msgstr "কে.ডি.ই.ের অ্যাপলিকেশন অথবা লাইব্রেরীতে একটি সমস্যার দ্বারা ঘটায় না"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:663
+#: reportassistantpages_bugzilla_duplicates.cpp:683
 #, fuzzy
 msgctxt "@info bug resolution"
 msgid ""
@@ -2573,19 +2637,19 @@ msgstr ""
 "বাগ একটি বাহ্যিক অ্যাপলিকেশন অথবা পাঠাগারে একটি সমস্যার দ্বারা ঘটাওয়া হয়, একটি "
 "বন্টন অথবা packaging বিষয়ের দ্বারা অথবা"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:670
+#: reportassistantpages_bugzilla_duplicates.cpp:690
 #, fuzzy, kde-format
 msgctxt "@info bug status, %1 is the resolution"
 msgid "Closed (%1)"
 msgstr "বদ্ধ (%1)"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:673
+#: reportassistantpages_bugzilla_duplicates.cpp:693
 #, fuzzy
 msgctxt "@info bug status"
 msgid "Temporarily closed, because of a lack of information"
 msgstr "সাময়িকভাবে বন্ধ করেছিল, তথ্যের একটি অভাবের কারণে"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:680
+#: reportassistantpages_bugzilla_duplicates.cpp:700
 #, fuzzy
 msgid ""
 "<p><note>The bug report's title is often written by its reporter and may not "
@@ -2598,7 +2662,7 @@ msgstr ""
 "ক্র্যাশতে তুলনা করতে ব্যবহার করতে পারেন। দয়া করে ের নিচে সম্পূর্ণ রিপোর্ট এবং সমস্ত "
 "মন্তব্য পড়ো।</note></p>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:686
+#: reportassistantpages_bugzilla_duplicates.cpp:706
 #, fuzzy, kde-format
 msgid ""
 "<p><note>This bug report has %1 duplicate report. That means this is "
@@ -2621,7 +2685,7 @@ msgstr[1] ""
 "comment or a note if you can provide new valuable information which was not "
 "already mentioned.</i></note></p>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:703
+#: reportassistantpages_bugzilla_duplicates.cpp:723
 #, fuzzy
 msgid ""
 "<p><note>This bug report is not about a crash or about any other critical "
@@ -2630,43 +2694,43 @@ msgstr ""
 "<p><note>এই বাগ রিপোর্টটি যেকোন অন্যান্য চরম সঙ্কটপূর্ণ বাগর সম্বন্ধে একটি ক্র্যাশ "
 "অথবার সম্বন্ধে নয়।</note></p>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:710
+#: reportassistantpages_bugzilla_duplicates.cpp:730
 #, fuzzy, kde-format
 msgctxt "@info bug report title (quoted)"
 msgid "<h3>\"%1\"</h3>"
 msgstr "<h3>\"%1\"</h3>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:713
+#: reportassistantpages_bugzilla_duplicates.cpp:733
 #, fuzzy, kde-format
 msgctxt "@info bug report status"
 msgid "<h4>Bug Report Status: %1</h4>"
 msgstr "<h4>বাগ রিপোর্ট অবস্থা: %1</h4>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:715
+#: reportassistantpages_bugzilla_duplicates.cpp:735
 #, fuzzy, kde-format
 msgctxt "@info bug report product and component"
 msgid "<h4>Affected Component: %1 (%2)</h4>"
 msgstr "<h4>প্রভাবিত উপাদান: %1 (%2)</h4>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:718
+#: reportassistantpages_bugzilla_duplicates.cpp:738
 #, fuzzy, kde-format
 msgctxt "@info bug report description"
 msgid "<h3>Description of the bug</h3><p>%1</p>"
 msgstr "<h3>বাগর বর্ণনা</h3><p>%1</p>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:723
+#: reportassistantpages_bugzilla_duplicates.cpp:743
 #, fuzzy, kde-format
 msgctxt "@label:textbox bug report comments (already formatted)"
 msgid "<h2>Additional Comments</h2>%1"
 msgstr "<h2>অতিরিক্ত মন্তব্য</h2>%1"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:731
+#: reportassistantpages_bugzilla_duplicates.cpp:751
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid "Showing bug <numid>%1</numid>"
 msgstr "বাগ দেখাচ্ছে<numid>%1</numid>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:770
+#: reportassistantpages_bugzilla_duplicates.cpp:790
 #, fuzzy, kde-format
 msgctxt "@info/rich"
 msgid ""
@@ -2676,43 +2740,43 @@ msgstr ""
 "ত্রুটি আনা হচ্ছে বাগ রিপোর্ট<nl/><message>%1।</message><nl/>দয়া করে কিছু সময় "
 "অপেক্ষা করো এবং পুনরায় চেষ্টা করো।"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:774
+#: reportassistantpages_bugzilla_duplicates.cpp:794
 #, fuzzy
 msgctxt "@info"
 msgid "Error fetching the bug report"
 msgstr "ত্রুটি আনা হচ্ছে বাগ রিপোর্ট"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:775
+#: reportassistantpages_bugzilla_duplicates.cpp:795
 #, fuzzy
 msgctxt "@info:status"
 msgid "Error fetching the bug report"
 msgstr "ত্রুটি আনা হচ্ছে বাগ রিপোর্ট"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:818
+#: reportassistantpages_bugzilla_duplicates.cpp:838
 #, fuzzy
 msgctxt "@title:window"
 msgid "Related Bug Report"
 msgstr "সম্পর্কিত বাগ রিপোর্ট"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:821
+#: reportassistantpages_bugzilla_duplicates.cpp:841
 #, fuzzy
 msgctxt "@action:button"
 msgid "Cancel (Go back to the report)"
 msgstr "বাতিল করো (রিপোর্টে পিছনে যাও)"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:823
+#: reportassistantpages_bugzilla_duplicates.cpp:843
 #, fuzzy
 msgctxt "@action:button continue with the selected option and close the dialog"
 msgid "Continue"
 msgstr "চালিয়ে যাও"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:830
+#: reportassistantpages_bugzilla_duplicates.cpp:850
 #, fuzzy, kde-format
 msgid "You are going to mark your crash as related to bug <numid>%1</numid>"
 msgstr ""
 "আপনি বাগতে সম্পর্কিত হিসেবে আপনার ক্র্যাশ চিহ্নিত করতে যাচ্ছেন<numid>%1</numid>"
 
-#: reportassistantpages_bugzilla_duplicates.cpp:843
+#: reportassistantpages_bugzilla_duplicates.cpp:863
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid ""
