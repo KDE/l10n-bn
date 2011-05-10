@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-09 04:14+0200\n"
+"POT-Creation-Date: 2011-05-10 04:25+0200\n"
 "PO-Revision-Date: 2006-04-24 02:01-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -343,11 +343,11 @@ msgstr "ট্যাগ &অনুমানকারী..."
 msgid "&File Renamer..."
 msgstr "ফাইলের না&ম পরিবর্তক..."
 
-#: juk.cpp:316
+#: juk.cpp:317 juk.cpp:319
 msgid "Track Position"
 msgstr "ট্র্যাক অবস্থান"
 
-#: juk.cpp:490
+#: juk.cpp:493
 msgid ""
 "<qt>Closing the main window will keep JuK running in the system tray. Use "
 "Quit from the File menu to quit the application.</qt>"
@@ -355,7 +355,7 @@ msgstr ""
 "<qt>প্রধান উইণ্ডো বন্ধ করলেও জুক সিস্টেম ট্রে-তে চালু থাকবে। অ্যাপলিকেশন-টি পুরোপুরি "
 "বন্ধ করতে হলে ফাইল মেনু-র 'প্রস্থান করো' এন্ট্রি-টি ব্যবহার করুন।</qt>"
 
-#: juk.cpp:492
+#: juk.cpp:495
 msgid "Docking in System Tray"
 msgstr "সিস্টেম ট্রে-তে ডক করা হচ্ছে"
 
@@ -607,7 +607,7 @@ msgstr "সঙ্গীত-তালিকায় ফিরে যাও"
 msgid "History"
 msgstr "ইতিহাস"
 
-#: playermanager.cpp:454
+#: playermanager.cpp:480
 #, kde-format
 msgctxt ""
 "%1 will be the /path/to/file, %2 will be some string from Phonon describing "
@@ -953,11 +953,11 @@ msgstr ""
 msgid "Manual Column Widths Enabled"
 msgstr ""
 
-#: playlistsplitter.cpp:154
+#: playlistsplitter.cpp:155
 msgid "Show &Search Bar"
 msgstr "&সন্ধান বার দেখাও"
 
-#: playlistsplitter.cpp:157
+#: playlistsplitter.cpp:158
 msgid "Edit Track Search"
 msgstr "ট্র্যাক সন্ধান সম্পাদনা করো"
 
@@ -1064,7 +1064,7 @@ msgstr ""
 #. i18n: file: directorylistbase.ui:19
 #. i18n: ectx: property (text), widget (QLabel, informationLabel)
 #: rc.cpp:70
-msgid "Please chose the folders where you keep your music:"
+msgid "Please choose the folders where you keep your music:"
 msgstr ""
 
 #. i18n: file: directorylistbase.ui:34
@@ -1448,6 +1448,38 @@ msgstr "যা যা দেখা যাচ্ছে"
 msgid "Search:"
 msgstr "সন্ধান:"
 
+#: slideraction.cpp:61
+msgid "Seeking is not supported in this file with your audio settings."
+msgstr ""
+
+#: slider.cpp:234
+msgid "Volume"
+msgstr "ভলিউম"
+
+#: slider.cpp:235
+msgid "100%"
+msgstr ""
+
+#: slider.cpp:236
+msgid "80%"
+msgstr ""
+
+#: slider.cpp:237
+msgid "60%"
+msgstr ""
+
+#: slider.cpp:238
+msgid "40%"
+msgstr ""
+
+#: slider.cpp:239
+msgid "20%"
+msgstr ""
+
+#: slider.cpp:240
+msgid "0%"
+msgstr ""
+
 #: splashscreen.cpp:34
 msgid "Loading"
 msgstr "লোড করা হচ্ছে"
@@ -1644,6 +1676,16 @@ msgstr "অ্যালবামসমূহ"
 msgid "Genres"
 msgstr "গোত্র"
 
+#: volumepopupbutton.cpp:112 volumepopupbutton.cpp:123
+msgid "(muted)"
+msgstr ""
+
+#: volumepopupbutton.cpp:111 volumepopupbutton.cpp:123
+#, fuzzy, kde-format
+#| msgid "Volume Up"
+msgid "Volume: %1% %2"
+msgstr "ভলিউম বাড়াও"
+
 #: webimagefetcher.cpp:233
 msgid "Searching for Images. Please Wait..."
 msgstr "ছবি খোঁজা হচ্ছে। অনুগ্রহ করে অপেক্ষা করুন..."
@@ -1787,6 +1829,3 @@ msgstr "সঙ্গীত-তালিকা"
 
 #~ msgid "Track position"
 #~ msgstr "ট্র্যাক অবস্থান"
-
-#~ msgid "Volume"
-#~ msgstr "ভলিউম"
