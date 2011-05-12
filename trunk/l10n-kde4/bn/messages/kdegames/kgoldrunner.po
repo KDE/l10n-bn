@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgoldrunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-11 03:51+0200\n"
+"POT-Creation-Date: 2011-05-12 04:20+0200\n"
 "PO-Revision-Date: 2006-04-09 15:19-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -3522,7 +3522,7 @@ msgid ""
 "is a steady hand."
 msgstr ""
 
-#: src/kgoldrunner.cpp:201 src/kgrgame.cpp:670
+#: src/kgoldrunner.cpp:201 src/kgrgame.cpp:678
 msgid "&New Game..."
 msgstr "&নতুন খেলা..."
 
@@ -3672,7 +3672,7 @@ msgstr "যেকোন স্তর &সম্পাদন করো..."
 msgid "Edit"
 msgstr "সম্পাদক"
 
-#: src/kgoldrunner.cpp:326 src/kgrgame.cpp:1360
+#: src/kgoldrunner.cpp:326 src/kgrgame.cpp:1371
 msgid "&Save Edits..."
 msgstr "&সম্পাদিত স্তর সংরক্ষণ করো..."
 
@@ -4412,8 +4412,8 @@ msgstr "স্ত&র ঢুকিয়ে দাও"
 msgid "&Cancel"
 msgstr ""
 
-#: src/kgreditor.cpp:272 src/kgreditor.cpp:802 src/kgrgame.cpp:1384
-#: src/kgrgame.cpp:1592
+#: src/kgreditor.cpp:272 src/kgreditor.cpp:802 src/kgrgame.cpp:1395
+#: src/kgrgame.cpp:1603
 #, kde-format
 msgid "Cannot open file '%1' for output."
 msgstr "আউটপুট লেখার জন্য '%1' ফাইলটি খোলা যাচ্ছে না।"
@@ -4534,13 +4534,13 @@ msgstr "আপনি শুধুমাত্র খেলোয়াড়দের 
 msgid "New Level"
 msgstr "নতুন স্তর"
 
-#: src/kgreditor.cpp:862 src/kgrgame.cpp:1292
+#: src/kgreditor.cpp:862 src/kgrgame.cpp:1303
 #, kde-format
 msgctxt "Game name - level number."
 msgid "%1 - %2"
 msgstr ""
 
-#: src/kgreditor.cpp:866 src/kgrgame.cpp:1295
+#: src/kgreditor.cpp:866 src/kgrgame.cpp:1306
 #, kde-format
 msgctxt "Game name - level number - level name."
 msgid "%1 - %2 - %3"
@@ -4563,157 +4563,169 @@ msgstr ""
 msgid "Inappropriate action: you are not editing a level."
 msgstr "বেঠিক কাজ: আপনি কোন স্তর সম্পাদন করছেন না।"
 
-#: src/kgrgame.cpp:580 src/kgrgame.cpp:726
+#: src/kgrgame.cpp:421
+msgid "No Sound"
+msgstr ""
+
+#: src/kgrgame.cpp:422
+msgid ""
+"Warning: This copy of KGoldrunner has no sound.\n"
+"\n"
+"This is because no development versions of the OpenAL and SndFile libraries "
+"were present when it was compiled and built."
+msgstr ""
+
+#: src/kgrgame.cpp:588 src/kgrgame.cpp:734
 msgid "Game Paused"
 msgstr ""
 
-#: src/kgrgame.cpp:581
+#: src/kgrgame.cpp:589
 msgid ""
 "The replay has stopped and the game is pausing while you prepare to go on "
 "playing. Please press the Pause key (default P or Esc) when you are ready."
 msgstr ""
 
-#: src/kgrgame.cpp:625 src/kgrgame.cpp:631
+#: src/kgrgame.cpp:633 src/kgrgame.cpp:639
 #, fuzzy
 #| msgid "&Play Any Level..."
 msgid "Replay Last Level"
 msgstr "যেকো&ন স্তরে খেলুন..."
 
-#: src/kgrgame.cpp:626
+#: src/kgrgame.cpp:634
 msgid ""
 "ERROR: Could not find and replay a recording of the last level you played."
 msgstr ""
 
-#: src/kgrgame.cpp:632
+#: src/kgrgame.cpp:640
 msgid ""
 "There is no last level to replay.  You need to play a level to completion, "
 "win or lose, before you can use the Replay Last Level action."
 msgstr ""
 
-#: src/kgrgame.cpp:651
+#: src/kgrgame.cpp:659
 msgid "Quick Start"
 msgstr ""
 
-#: src/kgrgame.cpp:659
+#: src/kgrgame.cpp:667
 msgctxt "Button text: start playing a game"
 msgid "&PLAY"
 msgstr ""
 
-#: src/kgrgame.cpp:660
+#: src/kgrgame.cpp:668
 msgid "Start playing this level"
 msgstr ""
 
-#: src/kgrgame.cpp:662
+#: src/kgrgame.cpp:670
 msgid ""
 "Set up to start playing the game and level being shown, as soon as you "
 "click, move the mouse or press a key"
 msgstr ""
 
-#: src/kgrgame.cpp:666
+#: src/kgrgame.cpp:674
 msgid "&Quit"
 msgstr ""
 
-#: src/kgrgame.cpp:667
+#: src/kgrgame.cpp:675
 #, fuzzy
 #| msgid "KGoldrunner"
 msgid "Close KGoldrunner"
 msgstr "কে-গোল্ডরানার"
 
-#: src/kgrgame.cpp:672
+#: src/kgrgame.cpp:680
 msgid "Start a different game or level"
 msgstr ""
 
-#: src/kgrgame.cpp:674
+#: src/kgrgame.cpp:682
 msgid ""
 "Use the Select Game dialog box to choose a different game or level and start "
 "playing it"
 msgstr ""
 
-#: src/kgrgame.cpp:678
+#: src/kgrgame.cpp:686
 msgid "&Use Menu"
 msgstr ""
 
-#: src/kgrgame.cpp:680
+#: src/kgrgame.cpp:688
 msgid "Use the menus to choose other actions"
 msgstr ""
 
-#: src/kgrgame.cpp:682
+#: src/kgrgame.cpp:690
 msgid ""
 "Before playing, use the menus to choose other actions, such as loading a "
 "saved game or changing the theme"
 msgstr ""
 
-#: src/kgrgame.cpp:727
+#: src/kgrgame.cpp:735
 msgid ""
 "The game is halted. You will need to press the Pause key (default P or Esc) "
 "when you are ready to play."
 msgstr ""
 
-#: src/kgrgame.cpp:775
+#: src/kgrgame.cpp:783
 #, fuzzy
 #| msgid "Show Positions"
 msgid "Show A Solution"
 msgstr "অবস্থান দেখাও"
 
-#: src/kgrgame.cpp:776
+#: src/kgrgame.cpp:784
 msgid ""
 "Sorry, although all levels of KGoldrunner can be solved, no solution has "
 "been recorded yet for the level you selected."
 msgstr ""
 
-#: src/kgrgame.cpp:786
+#: src/kgrgame.cpp:794
 #, fuzzy
 #| msgid "&Play Any Level..."
 msgid "Replay Any Level"
 msgstr "যেকো&ন স্তরে খেলুন..."
 
-#: src/kgrgame.cpp:787
+#: src/kgrgame.cpp:795
 msgid ""
 "Sorry, you do not seem to have played and recorded the selected level before."
 msgstr ""
 
-#: src/kgrgame.cpp:988
+#: src/kgrgame.cpp:999
 msgid ""
 "<NOBR><B>GAME OVER !!!</B></NOBR><P>Would you like to try this level again?</"
 "P>"
 msgstr ""
 
-#: src/kgrgame.cpp:990
+#: src/kgrgame.cpp:1001
 #, fuzzy
 #| msgid "Game"
 msgid "Game Over"
 msgstr "খেলা"
 
-#: src/kgrgame.cpp:991
+#: src/kgrgame.cpp:1002
 msgid "&Try Again"
 msgstr ""
 
-#: src/kgrgame.cpp:991
+#: src/kgrgame.cpp:1002
 #, fuzzy
 #| msgid "&Midnight"
 msgid "&Finish"
 msgstr "&মধ্যরাত"
 
-#: src/kgrgame.cpp:1063
+#: src/kgrgame.cpp:1074
 #, fuzzy, kde-format
 msgid ""
 "<b>CONGRATULATIONS !!!!</b><p>You have conquered the last level in the <b>\"%"
 "1\"</b> game !!</p>"
 msgstr "<b>অভিনন্দন !!!</b><p>আপনি %1 খেলার সর্বশেষ স্তরটিও জয় করেছেন !!</p>"
 
-#: src/kgrgame.cpp:1214
+#: src/kgrgame.cpp:1225
 msgid "Hint"
 msgstr "ইঙ্গিত"
 
-#: src/kgrgame.cpp:1220
+#: src/kgrgame.cpp:1231
 msgid "Sorry, there is no hint for this level."
 msgstr "দুঃখিত, খেলার এই স্তরটির জন্য কোন ইঙ্গিত নেই।"
 
-#: src/kgrgame.cpp:1282
+#: src/kgrgame.cpp:1293
 msgid "T H E   E N D"
 msgstr ""
 
-#: src/kgrgame.cpp:1319
+#: src/kgrgame.cpp:1330
 #, fuzzy
 #| msgid ""
 #| "You have pressed a key that can be used to move the Hero. Do you want to "
@@ -4729,30 +4741,30 @@ msgstr ""
 "খেলতে গেলে অবশ্য মাউসের সাহায্যে নিয়ন্ত্রণ করাই সুবিধাজনক - ব্যাপারটা অনেকটা হাঁটার "
 "পরিবর্তে সাইকেলে চড়ার মত আর কি!"
 
-#: src/kgrgame.cpp:1323
+#: src/kgrgame.cpp:1334
 msgid "Switch to Keyboard Mode"
 msgstr "কীবোর্ড মোডে যাও"
 
-#: src/kgrgame.cpp:1324
+#: src/kgrgame.cpp:1335
 msgid "Switch to &Keyboard Mode"
 msgstr "কীবোর্ড মোডে যা&ও"
 
-#: src/kgrgame.cpp:1325
+#: src/kgrgame.cpp:1336
 msgid "Stay in &Mouse Mode"
 msgstr "মাউ&স মোডে থেকে যাও"
 
-#: src/kgrgame.cpp:1326
+#: src/kgrgame.cpp:1337
 #, fuzzy
 #| msgid "Switch to Keyboard Mode"
 msgid "Keyboard Mode"
 msgstr "কীবোর্ড মোডে যাও"
 
-#: src/kgrgame.cpp:1357 src/kgrgame.cpp:1383 src/kgrgame.cpp:1393
-#: src/kgrgame.cpp:1412 src/kgrgame.cpp:1418
+#: src/kgrgame.cpp:1368 src/kgrgame.cpp:1394 src/kgrgame.cpp:1404
+#: src/kgrgame.cpp:1423 src/kgrgame.cpp:1429
 msgid "Save Game"
 msgstr "খেলা সংরক্ষণ করো"
 
-#: src/kgrgame.cpp:1358
+#: src/kgrgame.cpp:1369
 #, fuzzy, kde-format
 msgid ""
 "Sorry, you cannot save your game play while you are editing. Please try menu "
@@ -4761,13 +4773,13 @@ msgstr ""
 "দুঃখিত, খেলা চলাকালে আপনি একে সংরক্ষণ করতে পারবেন না।  অনুগ্রহপূর্বক মেনু থেকে %1 "
 "চেপে চেষ্টা করুন।"
 
-#: src/kgrgame.cpp:1394 src/kgrgame.cpp:1438 src/kgrgame.cpp:1553
-#: src/kgrgame.cpp:1754 src/kgrgame.cpp:1917 src/kgrgameio.cpp:167
+#: src/kgrgame.cpp:1405 src/kgrgame.cpp:1449 src/kgrgame.cpp:1564
+#: src/kgrgame.cpp:1765 src/kgrgame.cpp:1928 src/kgrgameio.cpp:167
 #, kde-format
 msgid "Cannot open file '%1' for read-only."
 msgstr "শুধুমাত্র পড়ার উদ্দেশ্য '%1' ফাইলটিকে খোলা যাচ্ছে না।"
 
-#: src/kgrgame.cpp:1413
+#: src/kgrgame.cpp:1424
 msgid ""
 "Please note: for reasons of simplicity, your saved game position and score "
 "will be as they were at the start of this level, not as they are now."
@@ -4776,32 +4788,32 @@ msgstr ""
 "স্কোর সংরক্ষিত হবে, তা হবে উক্ত স্তরের প্রারম্ভিক অবস্থার অনুরূপ, বর্তমান অবস্থার অনুরূপ "
 "নয়।"
 
-#: src/kgrgame.cpp:1419
+#: src/kgrgame.cpp:1430
 msgid "Error: Failed to save your game."
 msgstr ""
 
-#: src/kgrgame.cpp:1431 src/kgrgame.cpp:1437 src/kgrgame.cpp:1475
+#: src/kgrgame.cpp:1442 src/kgrgame.cpp:1448 src/kgrgame.cpp:1486
 msgid "Load Game"
 msgstr "খেলা লোড করো"
 
-#: src/kgrgame.cpp:1432
+#: src/kgrgame.cpp:1443
 msgid "Sorry, there are no saved games."
 msgstr "দুঃখিত, কোন সংরক্ষিত খেলা পাওয়া যায় নি।"
 
-#: src/kgrgame.cpp:1476
+#: src/kgrgame.cpp:1487
 #, kde-format
 msgid "Cannot find the game with prefix '%1'."
 msgstr "'%1' উপসর্গযুক্ত নামের কোন খেলা পাওয়া যায় নি।"
 
-#: src/kgrgame.cpp:1534
+#: src/kgrgame.cpp:1545
 msgid "Unknown"
 msgstr "অজ্ঞাত"
 
-#: src/kgrgame.cpp:1552 src/kgrgame.cpp:1591
+#: src/kgrgame.cpp:1563 src/kgrgame.cpp:1602
 msgid "Check for High Score"
 msgstr "উচ্চস্কোর খোঁজো"
 
-#: src/kgrgame.cpp:1609
+#: src/kgrgame.cpp:1620
 #, fuzzy
 msgid ""
 "<html><b>Congratulations !!!</b><br>You have achieved a high score in this "
@@ -4811,28 +4823,28 @@ msgstr ""
 "<b>অভিনন্দন !!!</b>  আপনি এই খেলার সেরা স্কোরটি অর্জন করেছেন।  অনুগ্রহপূর্বক আপনার "
 "নাম লিখুন যেন তা কে-গোল্ডরানারের হল-অব-ফেম এ প্রদর্শন করা যায়।"
 
-#: src/kgrgame.cpp:1621 src/kgrgame.cpp:1708
+#: src/kgrgame.cpp:1632 src/kgrgame.cpp:1719
 msgid "Save High Score"
 msgstr "উচ্চস্কোর সংরক্ষণ করো"
 
-#: src/kgrgame.cpp:1709
+#: src/kgrgame.cpp:1720
 msgid "Error: Failed to save your high score."
 msgstr ""
 
-#: src/kgrgame.cpp:1721 src/kgrgame.cpp:1744 src/kgrgame.cpp:1753
+#: src/kgrgame.cpp:1732 src/kgrgame.cpp:1755 src/kgrgame.cpp:1764
 msgid "Show High Scores"
 msgstr "উচ্চস্কোর প্রদর্শন করো"
 
-#: src/kgrgame.cpp:1722
+#: src/kgrgame.cpp:1733
 msgid "Sorry, we do not keep high scores for tutorial games."
 msgstr "দুঃখিত, প্রশিক্ষণ-পর্বে অর্জিত উচ্চস্কোরকে বিবেচনায় আনা হয় না।"
 
-#: src/kgrgame.cpp:1745
+#: src/kgrgame.cpp:1756
 #, fuzzy, kde-format
 msgid "Sorry, there are no high scores for the \"%1\" game yet."
 msgstr "দুঃখিত, %1 খেলাটির জন্য এখনো কোন উচ্চস্কোর নেই।"
 
-#: src/kgrgame.cpp:1769
+#: src/kgrgame.cpp:1780
 #, fuzzy, kde-format
 msgid ""
 "<center><h2>KGoldrunner Hall of Fame</h2></center><center><h3>\"%1\" Game</"
@@ -4841,49 +4853,49 @@ msgstr ""
 "<center><h2>কে-গোল্ডরানারের হল-অব-ফেম</h2></center><br><center><h3>\"%1\" "
 "খেলা</h3></center>"
 
-#: src/kgrgame.cpp:1779
+#: src/kgrgame.cpp:1790
 msgctxt "1, 2, 3 etc."
 msgid "Rank"
 msgstr ""
 
-#: src/kgrgame.cpp:1780
+#: src/kgrgame.cpp:1791
 #, fuzzy
 #| msgid "Game"
 msgctxt "Person"
 msgid "Name"
 msgstr "খেলা"
 
-#: src/kgrgame.cpp:1781
+#: src/kgrgame.cpp:1792
 #, fuzzy
 #| msgid "0 levels"
 msgctxt "Game level reached"
 msgid "Level"
 msgstr "০ স্তর"
 
-#: src/kgrgame.cpp:1782
+#: src/kgrgame.cpp:1793
 #, fuzzy
 #| msgid "   Score: "
 msgid "Score"
 msgstr "   স্কোর: "
 
-#: src/kgrgame.cpp:1783
+#: src/kgrgame.cpp:1794
 msgid "Date"
 msgstr ""
 
-#: src/kgrgame.cpp:1786
+#: src/kgrgame.cpp:1797
 msgid "High Scores"
 msgstr "উচ্চস্কোর"
 
-#: src/kgrgame.cpp:1910 src/kgrgame.cpp:1916 src/kgrgame.cpp:1920
+#: src/kgrgame.cpp:1921 src/kgrgame.cpp:1927 src/kgrgame.cpp:1931
 msgid "Load Game Info"
 msgstr "খেলা সংক্রান্ত তথ্য লোড করো"
 
-#: src/kgrgame.cpp:1911
+#: src/kgrgame.cpp:1922
 #, kde-format
 msgid "Cannot find game info file '%1'."
 msgstr "খেলা সংক্রান্ত তথ্যের ফাইল '%1' খুঁজে পাওয়া যায় নি।"
 
-#: src/kgrgame.cpp:1921
+#: src/kgrgame.cpp:1932
 #, kde-format
 msgid "Reached end of file '%1' before finding end of game-data."
 msgstr ""
