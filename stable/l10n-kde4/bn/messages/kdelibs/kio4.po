@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-06-01 14:12+0200\n"
+"POT-Creation-Date: 2011-06-06 14:19+0200\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -57,14 +57,14 @@ msgctxt "@title:window"
 msgid "Add Bookmarks"
 msgstr "বুকমার্ক যোগ করো"
 
-#: bookmarks/kbookmarkdialog.cc:132 ../kfile/kdirselectdialog.cpp:278
+#: bookmarks/kbookmarkdialog.cc:132 ../kfile/kdirselectdialog.cpp:281
 #, fuzzy
 msgctxt "@title:window"
 msgid "Select Folder"
 msgstr "ফোল্ডার নির্বাচন করো"
 
-#: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:132
-#: ../kfile/knewfilemenu.cpp:1013
+#: bookmarks/kbookmarkdialog.cc:159 ../kfile/knewfilemenu.cpp:1013
+#: ../kfile/kdirselectdialog.cpp:135
 #, fuzzy
 msgctxt "@title:window"
 msgid "New Folder"
@@ -5771,68 +5771,6 @@ msgstr "%1-এর জন্য কোনো মেটা-তথ্য জান�
 msgid "No metainfo for %1"
 msgstr "%1-এর জন্য কোনো মেটা-তথ্য জানা নেই"
 
-#: ../kfile/kdirselectdialog.cpp:128
-#, fuzzy
-msgctxt "folder name"
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: ../kfile/kdirselectdialog.cpp:133
-#, fuzzy, kde-format
-msgctxt "@label:textbox"
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"%1-এ \n"
-"নতুন ফোল্ডার তৈরি করো"
-
-#: ../kfile/kdirselectdialog.cpp:156 ../kfile/kdiroperator.cpp:766
-#, kde-format
-msgid "A file or folder named %1 already exists."
-msgstr "%1 নামে একটি ফাইল বা ফোল্ডার আগে থেকেই আছে।"
-
-#: ../kfile/kdirselectdialog.cpp:160 ../kfile/kdiroperator.cpp:768
-msgid "You do not have permission to create that folder."
-msgstr "আপনার ঐ ফোল্ডারটি তৈরি করার অনুমতি নেই।"
-
-#: ../kfile/kdirselectdialog.cpp:280
-#, fuzzy
-msgctxt "@action:button"
-msgid "New Folder..."
-msgstr "নতুন ফোল্ডার..."
-
-#: ../kfile/kdirselectdialog.cpp:321
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "New Folder..."
-msgstr "নতুন ফোল্ডার..."
-
-#: ../kfile/kdirselectdialog.cpp:328
-#, fuzzy
-#| msgid "Nothing to Trash"
-msgctxt "@action:inmenu"
-msgid "Move to Trash"
-msgstr "আবর্জনার বাক্সে পাঠাবার মত কিছু নেই"
-
-#: ../kfile/kdirselectdialog.cpp:335
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "Delete"
-msgstr "মুছে ফেলা হচ্ছে"
-
-#: ../kfile/kdirselectdialog.cpp:344
-#, fuzzy
-msgctxt "@option:check"
-msgid "Show Hidden Folders"
-msgstr "গুপ্ত ফোল্ডার দেখাও"
-
-#: ../kfile/kdirselectdialog.cpp:351
-#, fuzzy
-msgctxt "@action:inmenu"
-msgid "Properties"
-msgstr "এখানে বুকমার্ক যোগ করো"
-
 #: ../kfile/kfilefiltercombo.cpp:36 ../kfile/kfilewidget.cpp:1790
 msgid "*|All Files"
 msgstr "*|সব ফাইল"
@@ -5958,11 +5896,6 @@ msgstr "%2 করার চেষ্টা চলাকালীন অপ্র
 #, fuzzy, kde-format
 msgid "An error occurred while accessing '%1'"
 msgstr "%2 করার চেষ্টা চলাকালীন অপ্রত্যাশিত সমস্যা (%1) দেখা দিয়েছে।"
-
-#: ../kfile/kfiletreeview.cpp:187
-#, fuzzy
-msgid "Show Hidden Folders"
-msgstr "গুপ্ত ফোল্ডার দেখাও"
 
 #: ../kfile/kfilewidget.cpp:285
 msgid ""
@@ -6288,6 +6221,11 @@ msgstr ""
 "%1-এ \n"
 "নতুন ফোল্ডার তৈরি করো"
 
+#: ../kfile/kfiletreeview.cpp:187
+#, fuzzy
+msgid "Show Hidden Folders"
+msgstr "গুপ্ত ফোল্ডার দেখাও"
+
 #: ../kfile/kfileplacesview.cpp:575
 #, fuzzy
 msgctxt "@action:inmenu"
@@ -6381,6 +6319,15 @@ msgstr ""
 #: ../kfile/kurlnavigatortogglebutton.cpp:92
 msgid "Click to Edit Location"
 msgstr ""
+
+#: ../kfile/kdiroperator.cpp:766 ../kfile/kdirselectdialog.cpp:159
+#, kde-format
+msgid "A file or folder named %1 already exists."
+msgstr "%1 নামে একটি ফাইল বা ফোল্ডার আগে থেকেই আছে।"
+
+#: ../kfile/kdiroperator.cpp:768 ../kfile/kdirselectdialog.cpp:163
+msgid "You do not have permission to create that folder."
+msgstr "আপনার ঐ ফোল্ডারটি তৈরি করার অনুমতি নেই।"
 
 #: ../kfile/kdiroperator.cpp:783
 msgid "You did not select a file to delete."
@@ -6554,6 +6501,59 @@ msgstr "ফাইল ডায়ালগ খোলো"
 #, fuzzy
 msgid "&View"
 msgstr "প্রাক&দর্শন"
+
+#: ../kfile/kdirselectdialog.cpp:131
+#, fuzzy
+msgctxt "folder name"
+msgid "New Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: ../kfile/kdirselectdialog.cpp:136
+#, fuzzy, kde-format
+msgctxt "@label:textbox"
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"%1-এ \n"
+"নতুন ফোল্ডার তৈরি করো"
+
+#: ../kfile/kdirselectdialog.cpp:283
+#, fuzzy
+msgctxt "@action:button"
+msgid "New Folder..."
+msgstr "নতুন ফোল্ডার..."
+
+#: ../kfile/kdirselectdialog.cpp:324
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "New Folder..."
+msgstr "নতুন ফোল্ডার..."
+
+#: ../kfile/kdirselectdialog.cpp:331
+#, fuzzy
+#| msgid "Nothing to Trash"
+msgctxt "@action:inmenu"
+msgid "Move to Trash"
+msgstr "আবর্জনার বাক্সে পাঠাবার মত কিছু নেই"
+
+#: ../kfile/kdirselectdialog.cpp:338
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Delete"
+msgstr "মুছে ফেলা হচ্ছে"
+
+#: ../kfile/kdirselectdialog.cpp:347
+#, fuzzy
+msgctxt "@option:check"
+msgid "Show Hidden Folders"
+msgstr "গুপ্ত ফোল্ডার দেখাও"
+
+#: ../kfile/kdirselectdialog.cpp:354
+#, fuzzy
+msgctxt "@action:inmenu"
+msgid "Properties"
+msgstr "এখানে বুকমার্ক যোগ করো"
 
 #, fuzzy
 #~| msgid "Size:"
