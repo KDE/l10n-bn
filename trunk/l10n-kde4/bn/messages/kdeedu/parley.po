@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-05-15 04:12+0200\n"
+"POT-Creation-Date: 2011-06-08 04:09+0200\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -360,10 +360,6 @@ msgstr ""
 msgid "S&earch:"
 msgstr "&মন্তব্য:"
 
-#: src/editor/latexwidget.cpp:30
-msgid "Enter LaTeX code here."
-msgstr ""
-
 #: src/editor/synonymwidget.cpp:60
 #, fuzzy
 #| msgid "&Synonyms"
@@ -422,6 +418,10 @@ msgctxt ""
 "different meanings) for a word"
 msgid "False Friends of %1:"
 msgstr "নক&ল বন্ধু:"
+
+#: src/editor/latexwidget.cpp:30
+msgid "Enter LaTeX code here."
+msgstr ""
 
 #. i18n: file: src/export/exportdialog.ui:14
 #. i18n: ectx: property (windowTitle), widget (QWidget, ExportOptions)
@@ -1708,88 +1708,6 @@ msgstr "সকল সারি অবাছাই করো"
 msgid "No Lesson Selected"
 msgstr "কোন ছবি বাছাই করা হয় নি"
 
-#: src/vocabulary/vocabularyview.cpp:87
-#, fuzzy
-#| msgid "&Append New Entry"
-msgid "&Add New Entry"
-msgstr "নতুন &এন্ট্রি যোগ করো"
-
-#: src/vocabulary/vocabularyview.cpp:90
-msgid "Append a new row to the vocabulary"
-msgstr "শব্দভাণ্ডারে নতুন একটি সারি যোগ করো"
-
-#: src/vocabulary/vocabularyview.cpp:98
-#, fuzzy
-msgid "&Delete Entry"
-msgstr "নতুন &এন্ট্রি যোগ করো"
-
-#: src/vocabulary/vocabularyview.cpp:101
-msgid "Delete the selected rows"
-msgstr "নির্বাচিত সারি মোছো"
-
-#: src/vocabulary/vocabularyview.cpp:111
-msgid "Copy"
-msgstr ""
-
-#: src/vocabulary/vocabularyview.cpp:117
-#, fuzzy
-#| msgid "Count:"
-msgid "Cut"
-msgstr "সংখ্যা:"
-
-#: src/vocabulary/vocabularyview.cpp:123
-#, fuzzy
-msgid "Paste"
-msgstr "বাক্যাংশ"
-
-#: src/vocabulary/vocabularyview.cpp:129
-msgid "Select all rows"
-msgstr "সকল সারি বাছাই করো"
-
-#: src/vocabulary/vocabularyview.cpp:134
-msgid "Deselect all rows"
-msgstr "সকল সারি অবাছাই করো"
-
-#: src/vocabulary/vocabularyview.cpp:142
-#, fuzzy
-msgid "Vocabulary Columns..."
-msgstr "শব্দভাণ্ডারের ফাইল খোলো"
-
-#: src/vocabulary/vocabularyview.cpp:143
-#, fuzzy
-#| msgid "Toggle display of the toolbars"
-msgid "Toggle display of individual vocabulary columns"
-msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
-
-#: src/vocabulary/vocabularyview.cpp:251
-#, fuzzy, kde-format
-msgid "Do you really want to delete the selected entry?"
-msgid_plural "Do you really want to delete the selected %1 entries?"
-msgstr[0] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
-msgstr[1] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
-
-#: src/vocabulary/vocabularyview.cpp:251
-#, fuzzy
-msgid "Delete"
-msgstr "রিসে&ট"
-
-#: src/vocabulary/vocabularyview.cpp:360
-msgid "Nothing to spell check."
-msgstr ""
-
-#: src/vocabulary/vocabularyview.cpp:385
-msgctxt "@title of a popup"
-msgid "No Spell Checker Available"
-msgstr ""
-
-#: src/vocabulary/vocabularyview.cpp:385
-#, kde-format
-msgctxt "@popupmessage"
-msgid ""
-"Either the language set up is incorrect or no spellchecker was installed for "
-"this locale: %1."
-msgstr ""
-
 #: src/vocabulary/wordtypeview.cpp:41
 #, fuzzy
 #| msgid "&New"
@@ -1909,6 +1827,88 @@ msgstr[0] ""
 "%1 নামক ফাইলটি পূর্ব থেকেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?"
 msgstr[1] ""
 "%1 নামক ফাইলটি পূর্ব থেকেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?"
+
+#: src/vocabulary/vocabularyview.cpp:87
+#, fuzzy
+#| msgid "&Append New Entry"
+msgid "&Add New Entry"
+msgstr "নতুন &এন্ট্রি যোগ করো"
+
+#: src/vocabulary/vocabularyview.cpp:90
+msgid "Append a new row to the vocabulary"
+msgstr "শব্দভাণ্ডারে নতুন একটি সারি যোগ করো"
+
+#: src/vocabulary/vocabularyview.cpp:98
+#, fuzzy
+msgid "&Delete Entry"
+msgstr "নতুন &এন্ট্রি যোগ করো"
+
+#: src/vocabulary/vocabularyview.cpp:101
+msgid "Delete the selected rows"
+msgstr "নির্বাচিত সারি মোছো"
+
+#: src/vocabulary/vocabularyview.cpp:111
+msgid "Copy"
+msgstr ""
+
+#: src/vocabulary/vocabularyview.cpp:117
+#, fuzzy
+#| msgid "Count:"
+msgid "Cut"
+msgstr "সংখ্যা:"
+
+#: src/vocabulary/vocabularyview.cpp:123
+#, fuzzy
+msgid "Paste"
+msgstr "বাক্যাংশ"
+
+#: src/vocabulary/vocabularyview.cpp:129
+msgid "Select all rows"
+msgstr "সকল সারি বাছাই করো"
+
+#: src/vocabulary/vocabularyview.cpp:134
+msgid "Deselect all rows"
+msgstr "সকল সারি অবাছাই করো"
+
+#: src/vocabulary/vocabularyview.cpp:142
+#, fuzzy
+msgid "Vocabulary Columns..."
+msgstr "শব্দভাণ্ডারের ফাইল খোলো"
+
+#: src/vocabulary/vocabularyview.cpp:143
+#, fuzzy
+#| msgid "Toggle display of the toolbars"
+msgid "Toggle display of individual vocabulary columns"
+msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
+
+#: src/vocabulary/vocabularyview.cpp:251
+#, fuzzy, kde-format
+msgid "Do you really want to delete the selected entry?"
+msgid_plural "Do you really want to delete the selected %1 entries?"
+msgstr[0] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
+msgstr[1] "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
+
+#: src/vocabulary/vocabularyview.cpp:251
+#, fuzzy
+msgid "Delete"
+msgstr "রিসে&ট"
+
+#: src/vocabulary/vocabularyview.cpp:360
+msgid "Nothing to spell check."
+msgstr ""
+
+#: src/vocabulary/vocabularyview.cpp:385
+msgctxt "@title of a popup"
+msgid "No Spell Checker Available"
+msgstr ""
+
+#: src/vocabulary/vocabularyview.cpp:385
+#, kde-format
+msgctxt "@popupmessage"
+msgid ""
+"Either the language set up is incorrect or no spellchecker was installed for "
+"this locale: %1."
+msgstr ""
 
 #: src/welcomescreen/buttondelegate.cpp:33
 #, fuzzy
