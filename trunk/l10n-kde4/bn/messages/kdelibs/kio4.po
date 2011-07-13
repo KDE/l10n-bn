@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-12 04:33+0200\n"
+"POT-Creation-Date: 2011-07-13 04:16+0200\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -5259,12 +5259,12 @@ msgstr ""
 msgid "SHA1 digest:"
 msgstr ""
 
-#: ../kioslave/file/file.cpp:211
-#, fuzzy, kde-format
-msgid "Setting ACL for %1"
-msgstr "%1-কে তথ্য পাঠানো হচ্ছে"
+#: ../kioslave/file/file_unix.cpp:231
+#, kde-format
+msgid "Cannot copy file from %1 to %2. (Errno: %3)"
+msgstr ""
 
-#: ../kioslave/file/file.cpp:728 ../kioslave/file/file_unix.cpp:300
+#: ../kioslave/file/file_unix.cpp:300 ../kioslave/file/file.cpp:728
 #, kde-format
 msgid ""
 "Could not change permissions for\n"
@@ -5272,6 +5272,26 @@ msgid ""
 msgstr ""
 "%1-র\n"
 "জন্য অনুমতি বদলানো যায়নি"
+
+#: ../kioslave/file/file_unix.cpp:344
+#, kde-format
+msgid "No media in device for %1"
+msgstr ""
+
+#: ../kioslave/file/file_unix.cpp:613
+#, fuzzy, kde-format
+msgid "Could not get user id for given user name %1"
+msgstr "%1 ফোল্ডারে ঢোকা যায়নি।"
+
+#: ../kioslave/file/file_unix.cpp:626
+#, kde-format
+msgid "Could not get group id for given group name %1"
+msgstr ""
+
+#: ../kioslave/file/file.cpp:211
+#, fuzzy, kde-format
+msgid "Setting ACL for %1"
+msgstr "%1-কে তথ্য পাঠানো হচ্ছে"
 
 #: ../kioslave/file/file.cpp:918
 msgid "No Media inserted or Media not recognized."
@@ -5305,26 +5325,6 @@ msgstr "%1-তে লেখা সমর্থিত নয়।"
 #, kde-format
 msgid "Could not read %1"
 msgstr "%1 পড়া যায়নি"
-
-#: ../kioslave/file/file_unix.cpp:231
-#, kde-format
-msgid "Cannot copy file from %1 to %2. (Errno: %3)"
-msgstr ""
-
-#: ../kioslave/file/file_unix.cpp:344
-#, kde-format
-msgid "No media in device for %1"
-msgstr ""
-
-#: ../kioslave/file/file_unix.cpp:613
-#, fuzzy, kde-format
-msgid "Could not get user id for given user name %1"
-msgstr "%1 ফোল্ডারে ঢোকা যায়নি।"
-
-#: ../kioslave/file/file_unix.cpp:626
-#, kde-format
-msgid "Could not get group id for given group name %1"
-msgstr ""
 
 #: ../kioslave/ftp/ftp.cpp:341
 #, kde-format
