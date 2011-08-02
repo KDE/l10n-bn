@@ -10,10 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kalzium\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-07-09 04:11+0200\n"
+"POT-Creation-Date: 2011-08-02 05:49+0200\n"
 "PO-Revision-Date: 2006-04-21 09:40-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3019,9 +3020,9 @@ msgstr "তড়িৎ‍-ঋণাত্মকতা"
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: file: src/settings_gradients.ui:88
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicMeltingPointGradient)
-#: rc.cpp:1360 rc.cpp:1399 rc.cpp:1623 src/detailinfodlg.cpp:207
-#: src/elementdataviewer.cpp:240 src/exportdialog.cpp:132
-#: src/kalziumgradienttype.cpp:399
+#: rc.cpp:1360 rc.cpp:1399 rc.cpp:1623 src/kalziumgradienttype.cpp:399
+#: src/detailinfodlg.cpp:207 src/elementdataviewer.cpp:240
+#: src/exportdialog.cpp:132
 msgid "Melting Point"
 msgstr "গলনাঙ্ক"
 
@@ -3031,9 +3032,9 @@ msgstr "গলনাঙ্ক"
 #. i18n: ectx: property (text), item, widget (KComboBox, KCB_y)
 #. i18n: file: src/settings_gradients.ui:81
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_LogarithmicBoilingPointGradient)
-#: rc.cpp:1363 rc.cpp:1402 rc.cpp:1620 src/detailinfodlg.cpp:214
-#: src/elementdataviewer.cpp:247 src/exportdialog.cpp:133
-#: src/kalziumgradienttype.cpp:343
+#: rc.cpp:1363 rc.cpp:1402 rc.cpp:1620 src/kalziumgradienttype.cpp:343
+#: src/detailinfodlg.cpp:214 src/elementdataviewer.cpp:247
+#: src/exportdialog.cpp:133
 msgid "Boiling Point"
 msgstr "স্ফূটনাঙ্ক"
 
@@ -3061,8 +3062,8 @@ msgstr "পারমাণবিক ব্যাসার্ধ"
 #. i18n: file: data/knowledge.xml:269
 #. i18n: file: data/knowledge.xml:275
 #: rc.cpp:1369 rc.cpp:1408 rc.cpp:1611 rc.cpp:2442 rc.cpp:2452 rc.cpp:2462
-#: rc.cpp:2468 src/detailinfodlg.cpp:235 src/elementdataviewer.cpp:261
-#: src/exportdialog.cpp:130 src/kalziumgradienttype.cpp:175
+#: rc.cpp:2468 src/kalziumgradienttype.cpp:175 src/detailinfodlg.cpp:235
+#: src/elementdataviewer.cpp:261 src/exportdialog.cpp:130
 msgid "Covalent Radius"
 msgstr "সমযোজী ব্যাসার্ধ"
 
@@ -3428,7 +3429,7 @@ msgstr "বাষ্পীয়:"
 
 #. i18n: file: src/settings_colors.ui:405
 #. i18n: ectx: attribute (title), widget (QWidget, tabFamily)
-#: rc.cpp:1564 src/exportdialog.cpp:134 src/kalziumschemetype.cpp:260
+#: rc.cpp:1564 src/kalziumschemetype.cpp:260 src/exportdialog.cpp:134
 msgid "Family"
 msgstr "পরিবার"
 
@@ -5006,7 +5007,7 @@ msgid ""
 msgstr "পরমাণুর ছোট কিন্তু ধনাত্মক চার্জযুক্ত কেন্দ্র, যেখানে প্রোটোন ও নিউট্রন থাকে।"
 
 #. i18n: file: data/knowledge.xml:131
-#: rc.cpp:2321 src/elementdataviewer.cpp:228 src/kalziumgradienttype.cpp:290
+#: rc.cpp:2321 src/kalziumgradienttype.cpp:290 src/elementdataviewer.cpp:228
 msgid "Atomic Mass"
 msgstr "পারমাণবিক ভর"
 
@@ -7616,303 +7617,6 @@ msgctxt "For example '1.0079u', the mass of an element in units"
 msgid "%1 u"
 msgstr "%1 u"
 
-#: src/detailinfodlg.cpp:52
-msgctxt "Next element"
-msgid "Next"
-msgstr "পরবর্তী"
-
-#: src/detailinfodlg.cpp:53
-msgid "Goes to the next element"
-msgstr "পরবর্তী মৌলে যায়"
-
-#: src/detailinfodlg.cpp:54
-msgctxt "Previous element"
-msgid "Previous"
-msgstr "পূর্ববর্তী"
-
-#: src/detailinfodlg.cpp:55
-msgid "Goes to the previous element"
-msgstr "পূর্বের মৌলে যায়"
-
-#: src/detailinfodlg.cpp:159
-#, kde-format
-msgid "Block: %1"
-msgstr "ব্লক: %1"
-
-#: src/detailinfodlg.cpp:173
-#, fuzzy, kde-format
-msgid "It was discovered by %1."
-msgstr "এটির আবিষ্কর্তা হলেন %1"
-
-#: src/detailinfodlg.cpp:180
-#, fuzzy, kde-format
-msgid "Origin of the name:<br/>%1"
-msgstr "নামের উৎস: %1"
-
-# FIXME
-#: src/detailinfodlg.cpp:221 src/exportdialog.cpp:128
-#, fuzzy
-msgid "Electron Affinity"
-msgstr "তড়িৎ নৈকট্য"
-
-#: src/detailinfodlg.cpp:228
-#, fuzzy
-#| msgid "Electronic configuration: %1"
-msgid "Electronic configuration"
-msgstr "ইলেকট্রনিক কনফিগারেশন: %1"
-
-#: src/detailinfodlg.cpp:242
-#, fuzzy
-#| msgid "Van der Waals Radius"
-msgid "van der Waals Radius"
-msgstr "ভ্যান ডার ওয়ালস ব্যাসার্ধ"
-
-#: src/detailinfodlg.cpp:256
-#, fuzzy
-msgid "Ionization energy"
-msgstr "%1. আয়নিকরণ শক্তি: %2"
-
-#: src/detailinfodlg.cpp:256
-#, fuzzy
-msgid "First Ionization energy"
-msgstr "%1. আয়নিকরণ শক্তি: %2"
-
-#: src/detailinfodlg.cpp:270
-#, fuzzy
-#| msgid "Atomic nucleus"
-msgid "Oxidation numbers"
-msgstr "পারমাণবিক নিউক্লিয়াস"
-
-#: src/detailinfodlg.cpp:331
-msgid "Isotope-Table"
-msgstr "আইসোটোপ-সারণী"
-
-#: src/detailinfodlg.cpp:335
-msgid "Neutrons"
-msgstr "নিউট্রন"
-
-# FIXME
-#: src/detailinfodlg.cpp:339
-msgid "Half-life period"
-msgstr "অর্ধ-জীবনের সময়সীমা "
-
-#: src/detailinfodlg.cpp:341
-msgid "Energy and Mode of Decay"
-msgstr "শক্তি ও ক্ষয়ের ধরন"
-
-#: src/detailinfodlg.cpp:343
-msgid "Spin and Parity"
-msgstr "স্পিন ও প্যারিটি"
-
-#: src/detailinfodlg.cpp:352
-#, kde-format
-msgid "%1 u"
-msgstr "%1 u"
-
-#: src/detailinfodlg.cpp:357
-#, kde-format
-msgctxt "this can for example be '24%'"
-msgid "%1%"
-msgstr "%1%"
-
-#: src/detailinfodlg.cpp:360
-#, fuzzy, kde-format
-msgctxt ""
-"The first argument is the value, the second is the unit. For example '17 s' "
-"for '17 seconds',."
-msgid "%1 %2"
-msgstr "%1 %2 সেলসিয়াস"
-
-#: src/detailinfodlg.cpp:364 src/detailinfodlg.cpp:373
-#: src/detailinfodlg.cpp:383 src/detailinfodlg.cpp:387
-#: src/detailinfodlg.cpp:397
-#, kde-format
-msgid "%1 MeV"
-msgstr "%1 মেগা-ইলেকট্রন-ভোল্ট"
-
-#: src/detailinfodlg.cpp:365
-#, kde-format
-msgid " %1"
-msgstr "%1"
-
-#: src/detailinfodlg.cpp:367 src/detailinfodlg.cpp:376
-#: src/detailinfodlg.cpp:392 src/detailinfodlg.cpp:400
-#, kde-format
-msgid "(%1%)"
-msgstr "(%1%)"
-
-#: src/detailinfodlg.cpp:369 src/detailinfodlg.cpp:379
-msgid ", "
-msgstr ", "
-
-#: src/detailinfodlg.cpp:374
-#, kde-format
-msgid " %1<sup>-</sup>"
-msgstr "%1<sup>-</sup>"
-
-#: src/detailinfodlg.cpp:384
-#, kde-format
-msgid " %1<sup>+</sup>"
-msgstr " %1<sup>+</sup>"
-
-# FIXME
-#: src/detailinfodlg.cpp:389 src/detailinfodlg.cpp:398
-msgctxt "Acronym of Electron Capture"
-msgid " EC"
-msgstr " ইলেকট্রন-ক্যাপচার"
-
-# FIXME: <sub>n</sub>
-#: src/detailinfodlg.cpp:406
-#, kde-format
-msgid "%1 %2<sub>n</sub>"
-msgstr "%1 %2<sub>n</sub>"
-
-#: src/detailinfodlg.cpp:445
-#, fuzzy
-msgid "Data Overview"
-msgstr "সামগ্রিক চিত্র"
-
-#: src/detailinfodlg.cpp:449 src/detailinfodlg.cpp:450
-msgid "Atom Model"
-msgstr "পরমাণু মডেল"
-
-#: src/detailinfodlg.cpp:458
-#, fuzzy
-msgid "Isotopes"
-msgstr "আইসোটোপ"
-
-#: src/detailinfodlg.cpp:459
-msgid "Miscellaneous"
-msgstr ""
-
-#: src/detailinfodlg.cpp:464 src/detailinfodlg.cpp:465
-msgid "Spectrum"
-msgstr "বর্ণালী"
-
-#: src/detailinfodlg.cpp:478
-#, fuzzy
-msgid "Extra information"
-msgstr "শক্তি সংক্রান্ত তথ্য"
-
-#: src/detailinfodlg.cpp:478
-#, fuzzy
-msgid "Extra Information"
-msgstr "শক্তি সংক্রান্ত তথ্য"
-
-#: src/detailinfodlg.cpp:488
-#, kde-format
-msgctxt "For example Carbon (6)"
-msgid "%1 (%2)"
-msgstr "%1 (%2)"
-
-#: src/detailinfodlg.cpp:530
-#, kde-format
-msgid "No spectrum of %1 found."
-msgstr "%1-এর কোন বর্ণালী পাওয়া যায় নি।"
-
-#: src/elementdataviewer.cpp:53
-msgid "Plot Data"
-msgstr "তথ্যানুসারে গ্রাফ আঁকো"
-
-#: src/eqchemview.cpp:66
-#, fuzzy
-msgid "Solve Chemical Equations Viewer"
-msgstr "রাসায়নিক সমীকরণ সমাধান করুন"
-
-#: src/eqchemview.cpp:73
-#, fuzzy
-msgid "Copy"
-msgstr "কপার"
-
-#: src/eqchemview.cpp:73
-msgid "Copy answer to clipboard"
-msgstr ""
-
-#: src/eqchemview.cpp:100
-msgctxt "Help text for the chemical equation solver"
-msgid ""
-"The equation solver allows you to balance a chemical equation.<br> "
-"<br><b>Using Variables</b><br>To express variable quantities of an element, "
-"put a single character in front of the element's symbol, as shown in this "
-"example:<br><i>aH + bO -> 5H2O</i> (Result: <b>10</b> H + <b>5</b> O -&gt; "
-"<b>5</b> H<sub>2</sub>O)<br>Solving this expression will give you the needed "
-"amount of Hydrogen and Oxygen.<br><br><b>Defining electric charges</"
-"b><br>Use box brackets to specify the electric charge of an element, as "
-"shown in this example:<br><i>4H[+] + 2O -> cH2O[2+]</i> (Result: <b>4</b> "
-"H<b><sup>+</sup></b> + <b>2</b> O -&gt; <b>2</b> H<b><sub>2</sub></"
-"b>O<b><sup>2+</sub></b>)"
-msgstr ""
-
-#: src/eqchemview.cpp:114
-#, fuzzy
-#| msgid "Chemical Symbol"
-msgctxt "Window title for the chemical solver's help"
-msgid "Chemical Solver Help"
-msgstr "রাসায়নিক প্রতীক"
-
-#: src/exportdialog.cpp:79
-msgid "Ok"
-msgstr ""
-
-#: src/exportdialog.cpp:83
-#, fuzzy
-#| msgid "Chemical Data"
-msgid "Export Chemical Data"
-msgstr "রাসায়নিক তথ্য"
-
-#: src/exportdialog.cpp:104
-#, fuzzy
-msgid "Elements"
-msgstr "মৌল"
-
-#: src/exportdialog.cpp:105
-#, fuzzy
-#| msgid "Promethium"
-msgid "Properties"
-msgstr "প্রমিথিয়াম"
-
-#: src/exportdialog.cpp:123
-msgid "Symbol"
-msgstr ""
-
-#: src/exportdialog.cpp:126
-#, fuzzy
-#| msgid "Mean Mass"
-msgid "Exact Mass"
-msgstr "গড় ভর"
-
-#: src/exportdialog.cpp:146
-msgid "File already exists. Do you want to overwrite it?"
-msgstr ""
-
-#: src/exportdialog.cpp:153
-msgid "Could not open file for writing."
-msgstr ""
-
-#: src/gradientwidget_impl.cpp:176
-msgid "Elements with melting point around this temperature:"
-msgstr "এই তাপমাত্রার নিকটবর্তী গলনাঙ্কবিশিষ্ট মৌল:"
-
-#: src/gradientwidget_impl.cpp:178 src/gradientwidget_impl.cpp:189
-#, fuzzy, kde-format
-#| msgctxt "For example: Carbon (300K)"
-#| msgid "%1 (%2)"
-msgctxt "For example: Carbon (300K)"
-msgid "%1 (%2%3)"
-msgstr "%1 (%2)"
-
-#: src/gradientwidget_impl.cpp:183
-msgid "No elements with a melting point around this temperature"
-msgstr "এই তাপমাত্রার নিকটবর্তী গলনাঙ্ক বিশিষ্ট কোন মৌল নেই"
-
-#: src/gradientwidget_impl.cpp:187
-msgid "Elements with boiling point around this temperature:"
-msgstr "এই তাপমাত্রার নিকটবর্তী স্ফুটনাঙ্ক বিশিষ্ট মৌল"
-
-#: src/gradientwidget_impl.cpp:194
-msgid "No elements with a boiling point around this temperature"
-msgstr "এই তাপমাত্রার নিকটবর্তী স্ফুটনাঙ্ক বিশিষ্ট কোন মৌল নেই"
-
 #: src/isotopetable/isotopeitem.cpp:77
 #, kde-format
 msgid "Isotope of Element %1 (%2)"
@@ -8159,26 +7863,265 @@ msgstr "রং"
 msgid "Nice colors without meaning. (From the Openbabel project)"
 msgstr ""
 
-#: src/kdeeduglossary.cpp:142 src/kdeeduglossary.cpp:320
-#, fuzzy
-#| msgid "&Glossary..."
-msgid "Glossary"
-msgstr "টীকাপুঞ্জ... (&গ)"
+#: src/tablesdialog.cpp:49 src/tablesdialog.cpp:50
+msgid "Greek alphabet"
+msgstr ""
 
-#: src/kdeeduglossary.cpp:336
-#, fuzzy
-msgid "&Search:"
-msgstr "সাল:"
+#: src/tablesdialog.cpp:60
+msgid "Uppercase"
+msgstr ""
 
-#: src/kdeeduglossary.cpp:508
-#, fuzzy
-#| msgid "Uranium"
-msgid "References"
-msgstr "ইউরেনিয়াম"
+#: src/tablesdialog.cpp:61
+msgid "Lowercase"
+msgstr ""
 
-#: src/kdeeduglossary.cpp:513
-#, kde-format
-msgid "Go to '%1'"
+#: src/tablesdialog.cpp:62
+#, fuzzy
+msgctxt ""
+"The name of the greek letter in your language. For example 'Alpha' for the "
+"first letter. "
+msgid "Name"
+msgstr "নম্বর: %1"
+
+#: src/tablesdialog.cpp:117
+msgid "alpha"
+msgstr ""
+
+#: src/tablesdialog.cpp:118
+msgid "beta"
+msgstr ""
+
+#: src/tablesdialog.cpp:119
+msgid "gamma"
+msgstr ""
+
+#: src/tablesdialog.cpp:120
+msgid "delta"
+msgstr ""
+
+#: src/tablesdialog.cpp:121
+msgid "epsilon"
+msgstr ""
+
+#: src/tablesdialog.cpp:122
+msgid "zeta"
+msgstr ""
+
+#: src/tablesdialog.cpp:123
+#, fuzzy
+msgid "eta"
+msgstr "নিরপেক্ষ"
+
+#: src/tablesdialog.cpp:124
+#, fuzzy
+msgid "theta"
+msgstr "অন্যান্য ধাতু"
+
+#: src/tablesdialog.cpp:125
+#, fuzzy
+msgid "iota"
+msgstr "হামানদিস্তা"
+
+#: src/tablesdialog.cpp:126
+msgid "kappa"
+msgstr ""
+
+#: src/tablesdialog.cpp:127
+msgid "lambda"
+msgstr ""
+
+#: src/tablesdialog.cpp:128
+msgid "mu"
+msgstr ""
+
+#: src/tablesdialog.cpp:129
+msgid "nu"
+msgstr ""
+
+#: src/tablesdialog.cpp:130
+msgid "xi"
+msgstr ""
+
+#: src/tablesdialog.cpp:131
+#, fuzzy
+msgid "omicron"
+msgstr "বোরন"
+
+#: src/tablesdialog.cpp:132
+#, fuzzy
+msgid "pi"
+msgstr "স্পিন"
+
+#: src/tablesdialog.cpp:133
+msgid "rho"
+msgstr ""
+
+#: src/tablesdialog.cpp:134
+msgid "sigma"
+msgstr ""
+
+#: src/tablesdialog.cpp:135
+msgid "tau"
+msgstr ""
+
+#: src/tablesdialog.cpp:136
+#, fuzzy
+msgid "upsilon"
+msgstr "সাসপেনশন"
+
+#: src/tablesdialog.cpp:137
+msgid "phi"
+msgstr ""
+
+#: src/tablesdialog.cpp:138
+msgid "chi"
+msgstr ""
+
+#: src/tablesdialog.cpp:139
+msgid "psi"
+msgstr ""
+
+#: src/tablesdialog.cpp:140
+msgid "omega"
+msgstr ""
+
+#: src/tablesdialog.cpp:149
+#, fuzzy
+msgid "Numbers"
+msgstr "নম্বর: %1"
+
+#: src/tablesdialog.cpp:150
+msgid "Numeric Prefixes and Roman Numerals"
+msgstr ""
+
+#: src/tablesdialog.cpp:160
+#, fuzzy
+msgid "Number"
+msgstr "নম্বর: %1"
+
+#: src/tablesdialog.cpp:160
+msgctxt "For example 'Mono' for 1 and 'Tri' for 3"
+msgid "Prefix"
+msgstr ""
+
+#: src/tablesdialog.cpp:160
+msgid "Roman Numerals"
+msgstr ""
+
+#: src/tablesdialog.cpp:164
+msgid "0.5"
+msgstr ""
+
+#: src/tablesdialog.cpp:165
+msgid "1"
+msgstr ""
+
+#: src/tablesdialog.cpp:166
+msgid "1.5"
+msgstr ""
+
+#: src/tablesdialog.cpp:167
+msgid "2"
+msgstr ""
+
+#: src/tablesdialog.cpp:168
+msgid "2.5"
+msgstr ""
+
+#: src/tablesdialog.cpp:169
+msgid "3"
+msgstr ""
+
+#: src/tablesdialog.cpp:170
+msgid "4"
+msgstr ""
+
+#: src/tablesdialog.cpp:171
+msgid "5"
+msgstr ""
+
+#: src/tablesdialog.cpp:172
+msgid "6"
+msgstr ""
+
+#: src/tablesdialog.cpp:173
+msgid "7"
+msgstr ""
+
+#: src/tablesdialog.cpp:174
+msgid "8"
+msgstr ""
+
+#: src/tablesdialog.cpp:175
+msgid "9"
+msgstr ""
+
+#: src/tablesdialog.cpp:176
+msgid "10"
+msgstr ""
+
+#: src/tablesdialog.cpp:177
+msgid "11"
+msgstr ""
+
+#: src/tablesdialog.cpp:178
+msgid "12"
+msgstr ""
+
+#: src/tablesdialog.cpp:179
+msgid "13"
+msgstr ""
+
+#: src/tablesdialog.cpp:180
+msgid "14"
+msgstr ""
+
+#: src/tablesdialog.cpp:181
+msgid "15"
+msgstr ""
+
+#: src/tablesdialog.cpp:182
+msgid "16"
+msgstr ""
+
+#: src/tablesdialog.cpp:183
+msgid "17"
+msgstr ""
+
+#: src/tablesdialog.cpp:184
+msgid "18"
+msgstr ""
+
+#: src/tablesdialog.cpp:185
+msgid "19"
+msgstr ""
+
+#: src/tablesdialog.cpp:186
+msgid "20"
+msgstr ""
+
+#: src/tablesdialog.cpp:187
+msgid "40"
+msgstr ""
+
+#: src/tablesdialog.cpp:188
+msgid "50"
+msgstr ""
+
+#: src/tablesdialog.cpp:189
+msgid "60"
+msgstr ""
+
+#: src/tablesdialog.cpp:190
+msgid "90"
+msgstr ""
+
+#: src/tablesdialog.cpp:191
+msgid "100"
+msgstr ""
+
+#: src/tablesdialog.cpp:266
+msgid "&Copy"
 msgstr ""
 
 #: src/legendwidget.cpp:75
@@ -8251,6 +8194,975 @@ msgstr "সর্বোচ্চ মান:"
 msgid "Scheme: %1"
 msgstr "নম্বর: %1"
 
+#: src/orbitswidget.cpp:208
+#, fuzzy
+msgid "Unknown Electron Distribution"
+msgstr "অজ্ঞাত"
+
+#: src/psetable/elementitem.cpp:136
+msgid "n/a"
+msgstr ""
+
+#: src/unitsettingsdialog.cpp:31
+#, fuzzy
+#| msgid "Energies"
+msgid "Energy:"
+msgstr "শক্তি"
+
+#: src/unitsettingsdialog.cpp:37
+#, fuzzy
+#| msgid "Wavelength: %1 nm"
+msgid "Length:"
+msgstr "তরঙ্গদৈর্ঘ্য: %1 ন্যানোমিটার"
+
+#: src/unitsettingsdialog.cpp:43
+msgid "Temperature:"
+msgstr "তাপমাত্রা:"
+
+#: src/tools/moleculeview.cpp:50
+msgid "Molecular Editor"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:55
+msgid "Load Molecule"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:55
+msgid "Loading a molecule"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:57
+msgid "Download New Molecules"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:57
+msgid "Download new molecule files"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:59
+#, fuzzy
+#| msgid "Save Spectrum"
+msgid "Save Molecule"
+msgstr "বর্ণালী সংরক্ষণ করো"
+
+#: src/tools/moleculeview.cpp:59
+msgid "Saving a molecule"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:87
+#, fuzzy
+#| msgid "Syringe"
+msgid "Single"
+msgstr "সিরিনজ"
+
+#: src/tools/moleculeview.cpp:88
+msgid "Double"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:89
+msgid "Triple"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:137
+msgid ""
+"No tools or engines loaded - it is likely that the Avogadro plugins could "
+"not be located."
+msgstr ""
+
+#: src/tools/moleculeview.cpp:139
+msgid ""
+"No engines loaded - it is likely that the Avogadro plugins could not be "
+"located."
+msgstr ""
+
+#: src/tools/moleculeview.cpp:141
+msgid ""
+"No tools loaded - it is likely that the Avogadro plugins could not be "
+"located."
+msgstr ""
+
+#: src/tools/moleculeview.cpp:143 src/tools/moleculeview.cpp:389
+#: src/main.cpp:48
+msgid "Kalzium"
+msgstr "ক্যালজিয়াম"
+
+#: src/tools/moleculeview.cpp:153
+msgid ""
+"No tools or engines loaded - it is likely that the Avogadro plugins could "
+"not be located. No molecules can be viewed until this issue is resolved."
+msgstr ""
+
+#: src/tools/moleculeview.cpp:155
+msgid ""
+"No engines loaded - it is likely that the Avogadro plugins could not be "
+"located. No molecules can be viewed until this issue is resolved."
+msgstr ""
+
+#: src/tools/moleculeview.cpp:157
+msgid ""
+"No tools loaded - it is likely that the Avogadro plugins could not be "
+"located. No molecules can be viewed until this issue is resolved."
+msgstr ""
+
+#: src/tools/moleculeview.cpp:164 src/tools/moleculeview.cpp:202
+msgid "Common molecule formats"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:165 src/tools/moleculeview.cpp:203
+msgid "All files"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:175
+msgid "Choose a file to open"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:211
+msgid "Choose a file to save to"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:242
+#, fuzzy, kde-format
+#| msgid "%1 u"
+msgctxt ""
+"This 'u' stands for the chemical unit (u for 'units'). Most likely this does "
+"not need to be translated at all!"
+msgid "%1 u"
+msgstr "%1 u"
+
+#: src/tools/moleculeview.cpp:365
+msgid "Remove hydrogens"
+msgstr ""
+
+#: src/tools/moleculeview.cpp:370
+#, fuzzy
+#| msgid "Hydrogen"
+msgid "Add hydrogens"
+msgstr "হাইড্রোজেন"
+
+#: src/tools/moleculeview.cpp:390
+msgid "Could not set up force field for this molecule"
+msgstr ""
+
+#: src/tools/obconverter.cpp:41
+msgid "OpenBabel Frontend"
+msgstr ""
+
+#: src/tools/obconverter.cpp:49
+msgid "Convert"
+msgstr ""
+
+#: src/tools/obconverter.cpp:49
+msgid "Convert selected files"
+msgstr ""
+
+#: src/tools/obconverter.cpp:122
+#, fuzzy
+msgid "All Files"
+msgstr "মৌল"
+
+#: src/tools/obconverter.cpp:188
+msgid "You must select some files first."
+msgstr ""
+
+#: src/tools/obconverter.cpp:189
+#, fuzzy
+#| msgid "No element selected"
+msgid "No files selected"
+msgstr "কোন মৌল বেছে নেওয়া হয় নি"
+
+#: src/tools/obconverter.cpp:208
+#, kde-format
+msgid "The file %1 already exists. Do you want to overwrite if possible?"
+msgstr ""
+
+#: src/tools/obconverter.cpp:209
+#, kde-format
+msgid "The File %1 Already Exists -- KOpenBabel"
+msgstr ""
+
+#: src/tools/obconverter.cpp:229
+msgid "Is it okay to run these commands? -- KOpenBabel"
+msgstr ""
+
+#: src/kalziumgradienttype.cpp:232
+#, fuzzy
+msgid "van Der Waals"
+msgstr "ভ্যান ডার ওয়ালস ব্যাসার্ধ"
+
+#: src/kalziumgradienttype.cpp:302
+msgid "u"
+msgstr ""
+
+#: src/kalziumgradienttype.cpp:510
+#, fuzzy
+msgid "Electronegativity (Pauling)"
+msgstr "তড়িৎ‍-ঋণাত্মকতা"
+
+#: src/kalziumgradienttype.cpp:565
+msgid "Discovery date"
+msgstr ""
+
+#: src/kalziumgradienttype.cpp:678
+#, fuzzy
+msgid "First Ionization"
+msgstr "কেলাসন"
+
+#: src/main.cpp:32
+msgid "A periodic table of the elements"
+msgstr "মৌলসমূহের একটি পর্যায় সারণী"
+
+#: src/main.cpp:49
+msgid "(C) 2002-2011 Carsten Niehaus"
+msgstr ""
+
+#: src/main.cpp:51
+msgid "Pino Toscano"
+msgstr ""
+
+#: src/main.cpp:51
+msgid "Large code contributions; resident guru helping the other developers"
+msgstr ""
+
+#: src/main.cpp:52
+msgid "Benoit Jacob"
+msgstr ""
+
+#: src/main.cpp:52
+msgid "Base work on the molecular viewer, mentored Marcus during his SoC"
+msgstr ""
+
+#: src/main.cpp:53
+msgid "Marcus Hanwell"
+msgstr ""
+
+#: src/main.cpp:53
+msgid "SoC on the molecular viewer and libavogadro porting/integration"
+msgstr ""
+
+#: src/main.cpp:54
+msgid "Kashyap R Puranik"
+msgstr ""
+
+#: src/main.cpp:54
+#, fuzzy
+#| msgid "Code cleaning, the molecule parser and a lot of smaller improvements"
+msgid "SoC on the calculator widget and a few smaller improvements"
+msgstr "কোড সুন্দরকরণ, অণু পার্সার ও অন্যান্য ছোটখাট অনেক উন্নতি"
+
+#: src/main.cpp:55
+msgid "Thomas Nagy"
+msgstr ""
+
+#: src/main.cpp:55
+#, fuzzy
+#| msgid "Contributed EqChem, the equation solver"
+msgid "EqChem, the equation solver"
+msgstr "EqChem নামক সমীকরণ সমাধানকারী লিখেছেন"
+
+#: src/main.cpp:56
+msgid "Inge Wallin"
+msgstr ""
+
+#: src/main.cpp:56
+#, fuzzy
+#| msgid "Code cleaning, the molecule parser and a lot of smaller improvements"
+msgid ""
+"Code cleaning, parser for the molecule weight calculator, and a lot of "
+"smaller improvements"
+msgstr "কোড সুন্দরকরণ, অণু পার্সার ও অন্যান্য ছোটখাট অনেক উন্নতি"
+
+#: src/main.cpp:57
+msgid "Anne-Marie Mahfouf"
+msgstr ""
+
+#: src/main.cpp:57
+msgid "A lot of small things and the documentation"
+msgstr "অসংখ্য খুঁটিনাটি এবং ডকুমেন্টেশন"
+
+#: src/main.cpp:58
+msgid "Johannes Simon"
+msgstr ""
+
+#: src/main.cpp:58
+msgid ""
+"Code and documentation contributions to the equation solver and molecular "
+"viewer"
+msgstr ""
+
+#: src/main.cpp:59
+msgid "Jarle Akselsen"
+msgstr ""
+
+#: src/main.cpp:59
+msgid "Many beautiful element icons"
+msgstr ""
+
+#: src/main.cpp:60
+msgid "Noémie Scherer"
+msgstr ""
+
+#: src/main.cpp:60
+msgid "Many beautiful element icons, too!"
+msgstr ""
+
+#: src/main.cpp:61
+msgid "Danny Allen"
+msgstr ""
+
+#: src/main.cpp:61
+#, fuzzy
+#| msgid "Silicon"
+msgid "Several icons"
+msgstr "সিলিকন"
+
+#: src/main.cpp:62
+msgid "Lee Olson"
+msgstr ""
+
+#: src/main.cpp:62
+msgid "Several icons in the information dialog"
+msgstr "তথ্য প্রদর্শক ডায়ালগের কিছু আইকন"
+
+#: src/main.cpp:64
+msgid "Jörg Buchwald"
+msgstr ""
+
+#: src/main.cpp:64
+msgid "Contributed most isotope information"
+msgstr "আইসোটোপ সংক্রান্ত অধিকাংশ তথ্য প্রদান করেছেন"
+
+#: src/main.cpp:65
+msgid "Marco Martin"
+msgstr ""
+
+# FIXME
+#: src/main.cpp:65
+#, fuzzy
+#| msgid "Thank you for some icons and inspiration for others"
+msgid "Some icons and inspiration for others"
+msgstr "আইকনের জন্য আপনাকে ধন্যবাদ এবং অন্যদের প্রতিও রইলো প্রেরণা"
+
+#: src/main.cpp:66
+msgid "Daniel Haas"
+msgstr ""
+
+#: src/main.cpp:66
+msgid "The design of the information dialog"
+msgstr "তথ্য প্রদর্শক ডায়ালগের ডিজাইনার"
+
+#: src/main.cpp:67
+msgid "Brian Beck"
+msgstr ""
+
+#: src/main.cpp:67
+#, fuzzy
+#| msgid "The orbits-icon"
+msgid "The orbits icon"
+msgstr "কক্ষপথ-আইকন"
+
+#: src/main.cpp:69
+#, fuzzy
+#| msgid "Plot Data"
+msgid "Paulo Cattai"
+msgstr "তথ্যানুসারে গ্রাফ আঁকো"
+
+#: src/main.cpp:69 src/main.cpp:70 src/main.cpp:71 src/main.cpp:72
+#: src/main.cpp:73
+msgid "New interface design and usability improvements"
+msgstr ""
+
+#: src/main.cpp:70
+msgid "Danilo Balzaque"
+msgstr ""
+
+#: src/main.cpp:71
+msgid "Roberto Cunha"
+msgstr ""
+
+#: src/main.cpp:72
+msgid "Tadeu Araujo"
+msgstr ""
+
+#: src/main.cpp:73
+msgid "Tiago Porangaba"
+msgstr ""
+
+#: src/main.cpp:74
+msgid "Etienne Rebetez"
+msgstr ""
+
+#: src/main.cpp:74
+msgid "Adding new sizable Periodic System"
+msgstr ""
+
+#: src/kalziumutils.cpp:87
+msgid "Error"
+msgstr ""
+
+#: src/kalziumutils.cpp:103
+msgid "Value not defined"
+msgstr "অজ্ঞাত মান"
+
+#: src/kalziumutils.cpp:105
+#, fuzzy, kde-format
+#| msgid " %1"
+msgctxt "Just a number"
+msgid "%1"
+msgstr "%1"
+
+#: src/kalziumutils.cpp:117
+#, fuzzy
+msgid "Unknown Value"
+msgstr "অজ্ঞাত"
+
+#: src/kalziumutils.cpp:119
+#, fuzzy, kde-format
+#| msgid "%1 u"
+msgctxt "x u (units). The atomic mass."
+msgid "%1 u"
+msgstr "%1 u"
+
+#: src/kalziumutils.cpp:126
+#, fuzzy, kde-format
+msgid "This element was discovered in the year <numid>%1</numid>."
+msgstr "এই মৌলটি %1 সালে আবিষ্কৃত হয়"
+
+#: src/kalziumutils.cpp:128
+msgid "The element has not yet been officially recognized by the IUPAC."
+msgstr ""
+
+#: src/kalziumutils.cpp:131
+#, fuzzy
+msgid "This element was known to ancient cultures."
+msgstr "প্রাচীন সভ্যতার নিকট এই মৌলটি পরিচিত ছিল"
+
+#: src/kalziumutils.cpp:168
+#, fuzzy
+#| msgid "Plot Data"
+msgid "No Data"
+msgstr "তথ্যানুসারে গ্রাফ আঁকো"
+
+#: src/detailinfodlg.cpp:52
+msgctxt "Next element"
+msgid "Next"
+msgstr "পরবর্তী"
+
+#: src/detailinfodlg.cpp:53
+msgid "Goes to the next element"
+msgstr "পরবর্তী মৌলে যায়"
+
+#: src/detailinfodlg.cpp:54
+msgctxt "Previous element"
+msgid "Previous"
+msgstr "পূর্ববর্তী"
+
+#: src/detailinfodlg.cpp:55
+msgid "Goes to the previous element"
+msgstr "পূর্বের মৌলে যায়"
+
+#: src/detailinfodlg.cpp:159
+#, kde-format
+msgid "Block: %1"
+msgstr "ব্লক: %1"
+
+#: src/detailinfodlg.cpp:173
+#, fuzzy, kde-format
+msgid "It was discovered by %1."
+msgstr "এটির আবিষ্কর্তা হলেন %1"
+
+#: src/detailinfodlg.cpp:180
+#, fuzzy, kde-format
+msgid "Origin of the name:<br/>%1"
+msgstr "নামের উৎস: %1"
+
+# FIXME
+#: src/detailinfodlg.cpp:221 src/exportdialog.cpp:128
+#, fuzzy
+msgid "Electron Affinity"
+msgstr "তড়িৎ নৈকট্য"
+
+#: src/detailinfodlg.cpp:228
+#, fuzzy
+#| msgid "Electronic configuration: %1"
+msgid "Electronic configuration"
+msgstr "ইলেকট্রনিক কনফিগারেশন: %1"
+
+#: src/detailinfodlg.cpp:242
+#, fuzzy
+#| msgid "Van der Waals Radius"
+msgid "van der Waals Radius"
+msgstr "ভ্যান ডার ওয়ালস ব্যাসার্ধ"
+
+#: src/detailinfodlg.cpp:256
+#, fuzzy
+msgid "Ionization energy"
+msgstr "%1. আয়নিকরণ শক্তি: %2"
+
+#: src/detailinfodlg.cpp:256
+#, fuzzy
+msgid "First Ionization energy"
+msgstr "%1. আয়নিকরণ শক্তি: %2"
+
+#: src/detailinfodlg.cpp:270
+#, fuzzy
+#| msgid "Atomic nucleus"
+msgid "Oxidation numbers"
+msgstr "পারমাণবিক নিউক্লিয়াস"
+
+#: src/detailinfodlg.cpp:283
+#, kde-format
+msgctxt "Link to element's Wikipedia page, %1 is localized language name"
+msgid "Wikipedia (%1)"
+msgstr ""
+
+#: src/detailinfodlg.cpp:331
+msgid "Isotope-Table"
+msgstr "আইসোটোপ-সারণী"
+
+#: src/detailinfodlg.cpp:335
+msgid "Neutrons"
+msgstr "নিউট্রন"
+
+# FIXME
+#: src/detailinfodlg.cpp:339
+msgid "Half-life period"
+msgstr "অর্ধ-জীবনের সময়সীমা "
+
+#: src/detailinfodlg.cpp:341
+msgid "Energy and Mode of Decay"
+msgstr "শক্তি ও ক্ষয়ের ধরন"
+
+#: src/detailinfodlg.cpp:343
+msgid "Spin and Parity"
+msgstr "স্পিন ও প্যারিটি"
+
+#: src/detailinfodlg.cpp:352
+#, kde-format
+msgid "%1 u"
+msgstr "%1 u"
+
+#: src/detailinfodlg.cpp:357
+#, kde-format
+msgctxt "this can for example be '24%'"
+msgid "%1%"
+msgstr "%1%"
+
+#: src/detailinfodlg.cpp:360
+#, fuzzy, kde-format
+msgctxt ""
+"The first argument is the value, the second is the unit. For example '17 s' "
+"for '17 seconds',."
+msgid "%1 %2"
+msgstr "%1 %2 সেলসিয়াস"
+
+#: src/detailinfodlg.cpp:364 src/detailinfodlg.cpp:373
+#: src/detailinfodlg.cpp:383 src/detailinfodlg.cpp:387
+#: src/detailinfodlg.cpp:397
+#, kde-format
+msgid "%1 MeV"
+msgstr "%1 মেগা-ইলেকট্রন-ভোল্ট"
+
+#: src/detailinfodlg.cpp:365
+#, kde-format
+msgid " %1"
+msgstr "%1"
+
+#: src/detailinfodlg.cpp:367 src/detailinfodlg.cpp:376
+#: src/detailinfodlg.cpp:392 src/detailinfodlg.cpp:400
+#, kde-format
+msgid "(%1%)"
+msgstr "(%1%)"
+
+#: src/detailinfodlg.cpp:369 src/detailinfodlg.cpp:379
+msgid ", "
+msgstr ", "
+
+#: src/detailinfodlg.cpp:374
+#, kde-format
+msgid " %1<sup>-</sup>"
+msgstr "%1<sup>-</sup>"
+
+#: src/detailinfodlg.cpp:384
+#, kde-format
+msgid " %1<sup>+</sup>"
+msgstr " %1<sup>+</sup>"
+
+# FIXME
+#: src/detailinfodlg.cpp:389 src/detailinfodlg.cpp:398
+msgctxt "Acronym of Electron Capture"
+msgid " EC"
+msgstr " ইলেকট্রন-ক্যাপচার"
+
+# FIXME: <sub>n</sub>
+#: src/detailinfodlg.cpp:406
+#, kde-format
+msgid "%1 %2<sub>n</sub>"
+msgstr "%1 %2<sub>n</sub>"
+
+#: src/detailinfodlg.cpp:445
+#, fuzzy
+msgid "Data Overview"
+msgstr "সামগ্রিক চিত্র"
+
+#: src/detailinfodlg.cpp:449 src/detailinfodlg.cpp:450
+msgid "Atom Model"
+msgstr "পরমাণু মডেল"
+
+#: src/detailinfodlg.cpp:458
+#, fuzzy
+msgid "Isotopes"
+msgstr "আইসোটোপ"
+
+#: src/detailinfodlg.cpp:459
+msgid "Miscellaneous"
+msgstr ""
+
+#: src/detailinfodlg.cpp:464 src/detailinfodlg.cpp:465
+msgid "Spectrum"
+msgstr "বর্ণালী"
+
+#: src/detailinfodlg.cpp:478
+#, fuzzy
+msgid "Extra information"
+msgstr "শক্তি সংক্রান্ত তথ্য"
+
+#: src/detailinfodlg.cpp:478
+#, fuzzy
+msgid "Extra Information"
+msgstr "শক্তি সংক্রান্ত তথ্য"
+
+#: src/detailinfodlg.cpp:488
+#, kde-format
+msgctxt "For example Carbon (6)"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: src/detailinfodlg.cpp:530
+#, kde-format
+msgid "No spectrum of %1 found."
+msgstr "%1-এর কোন বর্ণালী পাওয়া যায় নি।"
+
+#: src/elementdataviewer.cpp:53
+msgid "Plot Data"
+msgstr "তথ্যানুসারে গ্রাফ আঁকো"
+
+#: src/eqchemview.cpp:66
+#, fuzzy
+msgid "Solve Chemical Equations Viewer"
+msgstr "রাসায়নিক সমীকরণ সমাধান করুন"
+
+#: src/eqchemview.cpp:73
+#, fuzzy
+msgid "Copy"
+msgstr "কপার"
+
+#: src/eqchemview.cpp:73
+msgid "Copy answer to clipboard"
+msgstr ""
+
+#: src/eqchemview.cpp:100
+msgctxt "Help text for the chemical equation solver"
+msgid ""
+"The equation solver allows you to balance a chemical equation.<br> "
+"<br><b>Using Variables</b><br>To express variable quantities of an element, "
+"put a single character in front of the element's symbol, as shown in this "
+"example:<br><i>aH + bO -> 5H2O</i> (Result: <b>10</b> H + <b>5</b> O -&gt; "
+"<b>5</b> H<sub>2</sub>O)<br>Solving this expression will give you the needed "
+"amount of Hydrogen and Oxygen.<br><br><b>Defining electric charges</"
+"b><br>Use box brackets to specify the electric charge of an element, as "
+"shown in this example:<br><i>4H[+] + 2O -> cH2O[2+]</i> (Result: <b>4</b> "
+"H<b><sup>+</sup></b> + <b>2</b> O -&gt; <b>2</b> H<b><sub>2</sub></"
+"b>O<b><sup>2+</sub></b>)"
+msgstr ""
+
+#: src/eqchemview.cpp:114
+#, fuzzy
+#| msgid "Chemical Symbol"
+msgctxt "Window title for the chemical solver's help"
+msgid "Chemical Solver Help"
+msgstr "রাসায়নিক প্রতীক"
+
+#: src/exportdialog.cpp:79
+msgid "Ok"
+msgstr ""
+
+#: src/exportdialog.cpp:83
+#, fuzzy
+#| msgid "Chemical Data"
+msgid "Export Chemical Data"
+msgstr "রাসায়নিক তথ্য"
+
+#: src/exportdialog.cpp:104
+#, fuzzy
+msgid "Elements"
+msgstr "মৌল"
+
+#: src/exportdialog.cpp:105
+#, fuzzy
+#| msgid "Promethium"
+msgid "Properties"
+msgstr "প্রমিথিয়াম"
+
+#: src/exportdialog.cpp:123
+msgid "Symbol"
+msgstr ""
+
+#: src/exportdialog.cpp:126
+#, fuzzy
+#| msgid "Mean Mass"
+msgid "Exact Mass"
+msgstr "গড় ভর"
+
+#: src/exportdialog.cpp:146
+msgid "File already exists. Do you want to overwrite it?"
+msgstr ""
+
+#: src/exportdialog.cpp:153
+msgid "Could not open file for writing."
+msgstr ""
+
+#: src/gradientwidget_impl.cpp:176
+msgid "Elements with melting point around this temperature:"
+msgstr "এই তাপমাত্রার নিকটবর্তী গলনাঙ্কবিশিষ্ট মৌল:"
+
+#: src/gradientwidget_impl.cpp:178 src/gradientwidget_impl.cpp:189
+#, fuzzy, kde-format
+#| msgctxt "For example: Carbon (300K)"
+#| msgid "%1 (%2)"
+msgctxt "For example: Carbon (300K)"
+msgid "%1 (%2%3)"
+msgstr "%1 (%2)"
+
+#: src/gradientwidget_impl.cpp:183
+msgid "No elements with a melting point around this temperature"
+msgstr "এই তাপমাত্রার নিকটবর্তী গলনাঙ্ক বিশিষ্ট কোন মৌল নেই"
+
+#: src/gradientwidget_impl.cpp:187
+msgid "Elements with boiling point around this temperature:"
+msgstr "এই তাপমাত্রার নিকটবর্তী স্ফুটনাঙ্ক বিশিষ্ট মৌল"
+
+#: src/gradientwidget_impl.cpp:194
+msgid "No elements with a boiling point around this temperature"
+msgstr "এই তাপমাত্রার নিকটবর্তী স্ফুটনাঙ্ক বিশিষ্ট কোন মৌল নেই"
+
+#: src/kalzium.cpp:137
+msgid "Knowledge"
+msgstr "জ্ঞান"
+
+#: src/kalzium.cpp:142
+msgid "Tools"
+msgstr "সরঞ্জাম"
+
+# FIXME
+#: src/kalzium.cpp:152
+#, fuzzy
+#| msgid "&Plot Data..."
+msgid "&Export Data..."
+msgstr "তথ্যানুসারে গ্রাফ আঁকো... (&প)"
+
+#: src/kalzium.cpp:161
+#, fuzzy
+msgid "&Scheme"
+msgstr "কোন রং বিন্যাস নেই (&ন)"
+
+#: src/kalzium.cpp:169
+#, fuzzy
+msgid "&Gradients"
+msgstr "গ্রেডিয়েন্ট (&গ)"
+
+#: src/kalzium.cpp:178
+#, fuzzy
+msgid "&Tables"
+msgstr "নিক্তি"
+
+# FIXME
+#: src/kalzium.cpp:185
+msgid "&Numeration"
+msgstr "&নম্বর নামকরণ পদ্ধতি"
+
+#: src/kalzium.cpp:191
+msgid "&Equation Solver..."
+msgstr "সমীকরণ স&মাধানকারী..."
+
+#: src/kalzium.cpp:193
+msgctxt "WhatsThis Help"
+msgid "This tool allows you to solve chemical equations."
+msgstr ""
+
+# FIXME
+#: src/kalzium.cpp:204
+msgid "&Plot Data..."
+msgstr "তথ্যানুসারে গ্রাফ আঁকো... (&প)"
+
+#: src/kalzium.cpp:210
+msgid "Perform &Calculations..."
+msgstr ""
+
+#: src/kalzium.cpp:212
+msgctxt "WhatsThis Help"
+msgid "This is the calculator, it performs basic chemical calculations."
+msgstr ""
+
+#: src/kalzium.cpp:216
+#, fuzzy
+msgid "&Isotope Table..."
+msgstr "আইসোটোপ-সারণী"
+
+#: src/kalzium.cpp:218
+msgctxt "WhatsThis Help"
+msgid "This table shows all of the known isotopes of the chemical elements."
+msgstr ""
+
+#: src/kalzium.cpp:222
+msgid "&Glossary..."
+msgstr "টীকাপুঞ্জ... (&গ)"
+
+#: src/kalzium.cpp:227
+msgid "&R/S Phrases..."
+msgstr ""
+
+#: src/kalzium.cpp:232
+msgid "Convert chemical files..."
+msgstr ""
+
+#: src/kalzium.cpp:234
+msgctxt "WhatsThis Help"
+msgid ""
+"With this tool, you can convert files containing chemical data between "
+"various file formats."
+msgstr ""
+
+#: src/kalzium.cpp:241
+msgid "Molecular Editor..."
+msgstr ""
+
+#: src/kalzium.cpp:243
+msgctxt "WhatsThis Help"
+msgid "This tool allows you to view and edit 3D molecular structures."
+msgstr ""
+
+#: src/kalzium.cpp:250
+msgid "&Tables..."
+msgstr ""
+
+#: src/kalzium.cpp:252
+msgctxt "WhatsThis Help"
+msgid ""
+"This will open a dialog with listings of symbols and numbers related to "
+"chemistry."
+msgstr ""
+
+#: src/kalzium.cpp:260
+msgctxt "WhatsThis Help"
+msgid "This will show or hide the legend for the periodic table."
+msgstr ""
+
+#: src/kalzium.cpp:265
+msgctxt "WhatsThis Help"
+msgid ""
+"This will show or hide a sidebar with additional information and a set of "
+"tools."
+msgstr ""
+
+#: src/kalzium.cpp:270
+msgctxt "WhatsThis Help"
+msgid ""
+"This will show or hide a sidebar with additional information about the table."
+msgstr ""
+
+# FIXME
+#: src/kalzium.cpp:301
+#, fuzzy
+#| msgid "Show &Legend"
+msgid "Legend"
+msgstr "বর্ণনা (legend) প্রদর্শন করো (&ণ)"
+
+#: src/kalzium.cpp:314
+#, fuzzy
+msgid "Table Information"
+msgstr "শক্তি সংক্রান্ত তথ্য"
+
+#: src/kalzium.cpp:320
+#, fuzzy
+msgid "Information"
+msgstr "শক্তি সংক্রান্ত তথ্য"
+
+#: src/kalzium.cpp:332
+msgid "Overview"
+msgstr "সামগ্রিক চিত্র"
+
+#: src/kalzium.cpp:335
+msgid "QML Test"
+msgstr ""
+
+#: src/kalzium.cpp:347
+msgid "View"
+msgstr ""
+
+#: src/kalzium.cpp:352
+msgid "Calculate"
+msgstr "গণনা করো"
+
+#: src/kalzium.cpp:363
+msgid "*.png *.xpm *.jpg *.svg"
+msgstr ""
+
+#: src/kalzium.cpp:365
+msgid "Save Kalzium's Table In"
+msgstr ""
+
+#: src/kalzium.cpp:401
+msgid "This system does not support OpenGL."
+msgstr ""
+
+#: src/kalzium.cpp:401
+#, fuzzy
+#| msgid "Kalzium"
+msgid "Kalzium Error"
+msgstr "ক্যালজিয়াম"
+
+#: src/kalzium.cpp:530
+#, fuzzy
+msgid "Schemes"
+msgstr "কোন রং বিন্যাস নেই (&ন)"
+
+#: src/kalzium.cpp:537
+#, fuzzy
+msgid "Gradients"
+msgstr "গ্রেডিয়েন্ট (&গ)"
+
+#: src/kalzium.cpp:542
+msgid "Units"
+msgstr "একক"
+
+#: src/kalzium.cpp:592
+#, kde-format
+msgctxt "For example: \"Carbon (6), Mass: 12.0107 u\""
+msgid "%1 (%2), Mass: %3 u"
+msgstr "%1 (%2), ভর: %3 u"
+
+#: src/kdeeduglossary.cpp:142 src/kdeeduglossary.cpp:320
+#, fuzzy
+#| msgid "&Glossary..."
+msgid "Glossary"
+msgstr "টীকাপুঞ্জ... (&গ)"
+
+#: src/kdeeduglossary.cpp:336
+#, fuzzy
+msgid "&Search:"
+msgstr "সাল:"
+
+#: src/kdeeduglossary.cpp:508
+#, fuzzy
+#| msgid "Uranium"
+msgid "References"
+msgstr "ইউরেনিয়াম"
+
+#: src/kdeeduglossary.cpp:513
+#, kde-format
+msgid "Go to '%1'"
+msgstr ""
+
 #: src/molcalcwidget.cpp:104 src/molcalcwidget.cpp:146
 #: src/molcalcwidget.cpp:207 src/molcalcwidget.cpp:209
 #: src/molcalcwidget.cpp:211 src/molcalcwidget.cpp:213
@@ -8312,15 +9224,6 @@ msgstr "নিয়ন"
 
 #: src/molcalcwidget.cpp:345
 msgid "Unable to find the user defined alias file."
-msgstr ""
-
-#: src/orbitswidget.cpp:208
-#, fuzzy
-msgid "Unknown Electron Distribution"
-msgstr "অজ্ঞাত"
-
-#: src/psetable/elementitem.cpp:136
-msgid "n/a"
 msgstr ""
 
 #: src/rsdialog.cpp:37
@@ -9224,448 +10127,6 @@ msgstr ""
 msgid "Search:"
 msgstr "সাল:"
 
-#: src/tablesdialog.cpp:49 src/tablesdialog.cpp:50
-msgid "Greek alphabet"
-msgstr ""
-
-#: src/tablesdialog.cpp:60
-msgid "Uppercase"
-msgstr ""
-
-#: src/tablesdialog.cpp:61
-msgid "Lowercase"
-msgstr ""
-
-#: src/tablesdialog.cpp:62
-#, fuzzy
-msgctxt ""
-"The name of the greek letter in your language. For example 'Alpha' for the "
-"first letter. "
-msgid "Name"
-msgstr "নম্বর: %1"
-
-#: src/tablesdialog.cpp:117
-msgid "alpha"
-msgstr ""
-
-#: src/tablesdialog.cpp:118
-msgid "beta"
-msgstr ""
-
-#: src/tablesdialog.cpp:119
-msgid "gamma"
-msgstr ""
-
-#: src/tablesdialog.cpp:120
-msgid "delta"
-msgstr ""
-
-#: src/tablesdialog.cpp:121
-msgid "epsilon"
-msgstr ""
-
-#: src/tablesdialog.cpp:122
-msgid "zeta"
-msgstr ""
-
-#: src/tablesdialog.cpp:123
-#, fuzzy
-msgid "eta"
-msgstr "নিরপেক্ষ"
-
-#: src/tablesdialog.cpp:124
-#, fuzzy
-msgid "theta"
-msgstr "অন্যান্য ধাতু"
-
-#: src/tablesdialog.cpp:125
-#, fuzzy
-msgid "iota"
-msgstr "হামানদিস্তা"
-
-#: src/tablesdialog.cpp:126
-msgid "kappa"
-msgstr ""
-
-#: src/tablesdialog.cpp:127
-msgid "lambda"
-msgstr ""
-
-#: src/tablesdialog.cpp:128
-msgid "mu"
-msgstr ""
-
-#: src/tablesdialog.cpp:129
-msgid "nu"
-msgstr ""
-
-#: src/tablesdialog.cpp:130
-msgid "xi"
-msgstr ""
-
-#: src/tablesdialog.cpp:131
-#, fuzzy
-msgid "omicron"
-msgstr "বোরন"
-
-#: src/tablesdialog.cpp:132
-#, fuzzy
-msgid "pi"
-msgstr "স্পিন"
-
-#: src/tablesdialog.cpp:133
-msgid "rho"
-msgstr ""
-
-#: src/tablesdialog.cpp:134
-msgid "sigma"
-msgstr ""
-
-#: src/tablesdialog.cpp:135
-msgid "tau"
-msgstr ""
-
-#: src/tablesdialog.cpp:136
-#, fuzzy
-msgid "upsilon"
-msgstr "সাসপেনশন"
-
-#: src/tablesdialog.cpp:137
-msgid "phi"
-msgstr ""
-
-#: src/tablesdialog.cpp:138
-msgid "chi"
-msgstr ""
-
-#: src/tablesdialog.cpp:139
-msgid "psi"
-msgstr ""
-
-#: src/tablesdialog.cpp:140
-msgid "omega"
-msgstr ""
-
-#: src/tablesdialog.cpp:149
-#, fuzzy
-msgid "Numbers"
-msgstr "নম্বর: %1"
-
-#: src/tablesdialog.cpp:150
-msgid "Numeric Prefixes and Roman Numerals"
-msgstr ""
-
-#: src/tablesdialog.cpp:160
-#, fuzzy
-msgid "Number"
-msgstr "নম্বর: %1"
-
-#: src/tablesdialog.cpp:160
-msgctxt "For example 'Mono' for 1 and 'Tri' for 3"
-msgid "Prefix"
-msgstr ""
-
-#: src/tablesdialog.cpp:160
-msgid "Roman Numerals"
-msgstr ""
-
-#: src/tablesdialog.cpp:164
-msgid "0.5"
-msgstr ""
-
-#: src/tablesdialog.cpp:165
-msgid "1"
-msgstr ""
-
-#: src/tablesdialog.cpp:166
-msgid "1.5"
-msgstr ""
-
-#: src/tablesdialog.cpp:167
-msgid "2"
-msgstr ""
-
-#: src/tablesdialog.cpp:168
-msgid "2.5"
-msgstr ""
-
-#: src/tablesdialog.cpp:169
-msgid "3"
-msgstr ""
-
-#: src/tablesdialog.cpp:170
-msgid "4"
-msgstr ""
-
-#: src/tablesdialog.cpp:171
-msgid "5"
-msgstr ""
-
-#: src/tablesdialog.cpp:172
-msgid "6"
-msgstr ""
-
-#: src/tablesdialog.cpp:173
-msgid "7"
-msgstr ""
-
-#: src/tablesdialog.cpp:174
-msgid "8"
-msgstr ""
-
-#: src/tablesdialog.cpp:175
-msgid "9"
-msgstr ""
-
-#: src/tablesdialog.cpp:176
-msgid "10"
-msgstr ""
-
-#: src/tablesdialog.cpp:177
-msgid "11"
-msgstr ""
-
-#: src/tablesdialog.cpp:178
-msgid "12"
-msgstr ""
-
-#: src/tablesdialog.cpp:179
-msgid "13"
-msgstr ""
-
-#: src/tablesdialog.cpp:180
-msgid "14"
-msgstr ""
-
-#: src/tablesdialog.cpp:181
-msgid "15"
-msgstr ""
-
-#: src/tablesdialog.cpp:182
-msgid "16"
-msgstr ""
-
-#: src/tablesdialog.cpp:183
-msgid "17"
-msgstr ""
-
-#: src/tablesdialog.cpp:184
-msgid "18"
-msgstr ""
-
-#: src/tablesdialog.cpp:185
-msgid "19"
-msgstr ""
-
-#: src/tablesdialog.cpp:186
-msgid "20"
-msgstr ""
-
-#: src/tablesdialog.cpp:187
-msgid "40"
-msgstr ""
-
-#: src/tablesdialog.cpp:188
-msgid "50"
-msgstr ""
-
-#: src/tablesdialog.cpp:189
-msgid "60"
-msgstr ""
-
-#: src/tablesdialog.cpp:190
-msgid "90"
-msgstr ""
-
-#: src/tablesdialog.cpp:191
-msgid "100"
-msgstr ""
-
-#: src/tablesdialog.cpp:266
-msgid "&Copy"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:50
-msgid "Molecular Editor"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:55
-msgid "Load Molecule"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:55
-msgid "Loading a molecule"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:57
-msgid "Download New Molecules"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:57
-msgid "Download new molecule files"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:59
-#, fuzzy
-#| msgid "Save Spectrum"
-msgid "Save Molecule"
-msgstr "বর্ণালী সংরক্ষণ করো"
-
-#: src/tools/moleculeview.cpp:59
-msgid "Saving a molecule"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:87
-#, fuzzy
-#| msgid "Syringe"
-msgid "Single"
-msgstr "সিরিনজ"
-
-#: src/tools/moleculeview.cpp:88
-msgid "Double"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:89
-msgid "Triple"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:137
-msgid ""
-"No tools or engines loaded - it is likely that the Avogadro plugins could "
-"not be located."
-msgstr ""
-
-#: src/tools/moleculeview.cpp:139
-msgid ""
-"No engines loaded - it is likely that the Avogadro plugins could not be "
-"located."
-msgstr ""
-
-#: src/tools/moleculeview.cpp:141
-msgid ""
-"No tools loaded - it is likely that the Avogadro plugins could not be "
-"located."
-msgstr ""
-
-#: src/tools/moleculeview.cpp:143 src/tools/moleculeview.cpp:389
-#: src/main.cpp:48
-msgid "Kalzium"
-msgstr "ক্যালজিয়াম"
-
-#: src/tools/moleculeview.cpp:153
-msgid ""
-"No tools or engines loaded - it is likely that the Avogadro plugins could "
-"not be located. No molecules can be viewed until this issue is resolved."
-msgstr ""
-
-#: src/tools/moleculeview.cpp:155
-msgid ""
-"No engines loaded - it is likely that the Avogadro plugins could not be "
-"located. No molecules can be viewed until this issue is resolved."
-msgstr ""
-
-#: src/tools/moleculeview.cpp:157
-msgid ""
-"No tools loaded - it is likely that the Avogadro plugins could not be "
-"located. No molecules can be viewed until this issue is resolved."
-msgstr ""
-
-#: src/tools/moleculeview.cpp:164 src/tools/moleculeview.cpp:202
-msgid "Common molecule formats"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:165 src/tools/moleculeview.cpp:203
-msgid "All files"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:175
-msgid "Choose a file to open"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:211
-msgid "Choose a file to save to"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:242
-#, fuzzy, kde-format
-#| msgid "%1 u"
-msgctxt ""
-"This 'u' stands for the chemical unit (u for 'units'). Most likely this does "
-"not need to be translated at all!"
-msgid "%1 u"
-msgstr "%1 u"
-
-#: src/tools/moleculeview.cpp:365
-msgid "Remove hydrogens"
-msgstr ""
-
-#: src/tools/moleculeview.cpp:370
-#, fuzzy
-#| msgid "Hydrogen"
-msgid "Add hydrogens"
-msgstr "হাইড্রোজেন"
-
-#: src/tools/moleculeview.cpp:390
-msgid "Could not set up force field for this molecule"
-msgstr ""
-
-#: src/tools/obconverter.cpp:41
-msgid "OpenBabel Frontend"
-msgstr ""
-
-#: src/tools/obconverter.cpp:49
-msgid "Convert"
-msgstr ""
-
-#: src/tools/obconverter.cpp:49
-msgid "Convert selected files"
-msgstr ""
-
-#: src/tools/obconverter.cpp:122
-#, fuzzy
-msgid "All Files"
-msgstr "মৌল"
-
-#: src/tools/obconverter.cpp:188
-msgid "You must select some files first."
-msgstr ""
-
-#: src/tools/obconverter.cpp:189
-#, fuzzy
-#| msgid "No element selected"
-msgid "No files selected"
-msgstr "কোন মৌল বেছে নেওয়া হয় নি"
-
-#: src/tools/obconverter.cpp:208
-#, kde-format
-msgid "The file %1 already exists. Do you want to overwrite if possible?"
-msgstr ""
-
-#: src/tools/obconverter.cpp:209
-#, kde-format
-msgid "The File %1 Already Exists -- KOpenBabel"
-msgstr ""
-
-#: src/tools/obconverter.cpp:229
-msgid "Is it okay to run these commands? -- KOpenBabel"
-msgstr ""
-
-#: src/unitsettingsdialog.cpp:31
-#, fuzzy
-#| msgid "Energies"
-msgid "Energy:"
-msgstr "শক্তি"
-
-#: src/unitsettingsdialog.cpp:37
-#, fuzzy
-#| msgid "Wavelength: %1 nm"
-msgid "Length:"
-msgstr "তরঙ্গদৈর্ঘ্য: %1 ন্যানোমিটার"
-
-#: src/unitsettingsdialog.cpp:43
-msgid "Temperature:"
-msgstr "তাপমাত্রা:"
-
 #: src/spectrumviewimpl.cpp:29
 #, fuzzy
 #| msgid "Wavelength: %1 nm"
@@ -9677,460 +10138,6 @@ msgstr "তরঙ্গদৈর্ঘ্য: %1 ন্যানোমিটা�
 #| msgid "Intensity: %1"
 msgid "Intensity"
 msgstr "তীব্রতা: %1"
-
-#: src/kalziumgradienttype.cpp:232
-#, fuzzy
-msgid "van Der Waals"
-msgstr "ভ্যান ডার ওয়ালস ব্যাসার্ধ"
-
-#: src/kalziumgradienttype.cpp:302
-msgid "u"
-msgstr ""
-
-#: src/kalziumgradienttype.cpp:510
-#, fuzzy
-msgid "Electronegativity (Pauling)"
-msgstr "তড়িৎ‍-ঋণাত্মকতা"
-
-#: src/kalziumgradienttype.cpp:565
-msgid "Discovery date"
-msgstr ""
-
-#: src/kalziumgradienttype.cpp:678
-#, fuzzy
-msgid "First Ionization"
-msgstr "কেলাসন"
-
-#: src/main.cpp:32
-msgid "A periodic table of the elements"
-msgstr "মৌলসমূহের একটি পর্যায় সারণী"
-
-#: src/main.cpp:49
-msgid "(C) 2002-2011 Carsten Niehaus"
-msgstr ""
-
-#: src/main.cpp:51
-msgid "Pino Toscano"
-msgstr ""
-
-#: src/main.cpp:51
-msgid "Large code contributions; resident guru helping the other developers"
-msgstr ""
-
-#: src/main.cpp:52
-msgid "Benoit Jacob"
-msgstr ""
-
-#: src/main.cpp:52
-msgid "Base work on the molecular viewer, mentored Marcus during his SoC"
-msgstr ""
-
-#: src/main.cpp:53
-msgid "Marcus Hanwell"
-msgstr ""
-
-#: src/main.cpp:53
-msgid "SoC on the molecular viewer and libavogadro porting/integration"
-msgstr ""
-
-#: src/main.cpp:54
-msgid "Kashyap R Puranik"
-msgstr ""
-
-#: src/main.cpp:54
-#, fuzzy
-#| msgid "Code cleaning, the molecule parser and a lot of smaller improvements"
-msgid "SoC on the calculator widget and a few smaller improvements"
-msgstr "কোড সুন্দরকরণ, অণু পার্সার ও অন্যান্য ছোটখাট অনেক উন্নতি"
-
-#: src/main.cpp:55
-msgid "Thomas Nagy"
-msgstr ""
-
-#: src/main.cpp:55
-#, fuzzy
-#| msgid "Contributed EqChem, the equation solver"
-msgid "EqChem, the equation solver"
-msgstr "EqChem নামক সমীকরণ সমাধানকারী লিখেছেন"
-
-#: src/main.cpp:56
-msgid "Inge Wallin"
-msgstr ""
-
-#: src/main.cpp:56
-#, fuzzy
-#| msgid "Code cleaning, the molecule parser and a lot of smaller improvements"
-msgid ""
-"Code cleaning, parser for the molecule weight calculator, and a lot of "
-"smaller improvements"
-msgstr "কোড সুন্দরকরণ, অণু পার্সার ও অন্যান্য ছোটখাট অনেক উন্নতি"
-
-#: src/main.cpp:57
-msgid "Anne-Marie Mahfouf"
-msgstr ""
-
-#: src/main.cpp:57
-msgid "A lot of small things and the documentation"
-msgstr "অসংখ্য খুঁটিনাটি এবং ডকুমেন্টেশন"
-
-#: src/main.cpp:58
-msgid "Johannes Simon"
-msgstr ""
-
-#: src/main.cpp:58
-msgid ""
-"Code and documentation contributions to the equation solver and molecular "
-"viewer"
-msgstr ""
-
-#: src/main.cpp:59
-msgid "Jarle Akselsen"
-msgstr ""
-
-#: src/main.cpp:59
-msgid "Many beautiful element icons"
-msgstr ""
-
-#: src/main.cpp:60
-msgid "Noémie Scherer"
-msgstr ""
-
-#: src/main.cpp:60
-msgid "Many beautiful element icons, too!"
-msgstr ""
-
-#: src/main.cpp:61
-msgid "Danny Allen"
-msgstr ""
-
-#: src/main.cpp:61
-#, fuzzy
-#| msgid "Silicon"
-msgid "Several icons"
-msgstr "সিলিকন"
-
-#: src/main.cpp:62
-msgid "Lee Olson"
-msgstr ""
-
-#: src/main.cpp:62
-msgid "Several icons in the information dialog"
-msgstr "তথ্য প্রদর্শক ডায়ালগের কিছু আইকন"
-
-#: src/main.cpp:64
-msgid "Jörg Buchwald"
-msgstr ""
-
-#: src/main.cpp:64
-msgid "Contributed most isotope information"
-msgstr "আইসোটোপ সংক্রান্ত অধিকাংশ তথ্য প্রদান করেছেন"
-
-#: src/main.cpp:65
-msgid "Marco Martin"
-msgstr ""
-
-# FIXME
-#: src/main.cpp:65
-#, fuzzy
-#| msgid "Thank you for some icons and inspiration for others"
-msgid "Some icons and inspiration for others"
-msgstr "আইকনের জন্য আপনাকে ধন্যবাদ এবং অন্যদের প্রতিও রইলো প্রেরণা"
-
-#: src/main.cpp:66
-msgid "Daniel Haas"
-msgstr ""
-
-#: src/main.cpp:66
-msgid "The design of the information dialog"
-msgstr "তথ্য প্রদর্শক ডায়ালগের ডিজাইনার"
-
-#: src/main.cpp:67
-msgid "Brian Beck"
-msgstr ""
-
-#: src/main.cpp:67
-#, fuzzy
-#| msgid "The orbits-icon"
-msgid "The orbits icon"
-msgstr "কক্ষপথ-আইকন"
-
-#: src/main.cpp:69
-#, fuzzy
-#| msgid "Plot Data"
-msgid "Paulo Cattai"
-msgstr "তথ্যানুসারে গ্রাফ আঁকো"
-
-#: src/main.cpp:69 src/main.cpp:70 src/main.cpp:71 src/main.cpp:72
-#: src/main.cpp:73
-msgid "New interface design and usability improvements"
-msgstr ""
-
-#: src/main.cpp:70
-msgid "Danilo Balzaque"
-msgstr ""
-
-#: src/main.cpp:71
-msgid "Roberto Cunha"
-msgstr ""
-
-#: src/main.cpp:72
-msgid "Tadeu Araujo"
-msgstr ""
-
-#: src/main.cpp:73
-msgid "Tiago Porangaba"
-msgstr ""
-
-#: src/main.cpp:74
-msgid "Etienne Rebetez"
-msgstr ""
-
-#: src/main.cpp:74
-msgid "Adding new sizable Periodic System"
-msgstr ""
-
-#: src/kalzium.cpp:137
-msgid "Knowledge"
-msgstr "জ্ঞান"
-
-#: src/kalzium.cpp:142
-msgid "Tools"
-msgstr "সরঞ্জাম"
-
-# FIXME
-#: src/kalzium.cpp:152
-#, fuzzy
-#| msgid "&Plot Data..."
-msgid "&Export Data..."
-msgstr "তথ্যানুসারে গ্রাফ আঁকো... (&প)"
-
-#: src/kalzium.cpp:161
-#, fuzzy
-msgid "&Scheme"
-msgstr "কোন রং বিন্যাস নেই (&ন)"
-
-#: src/kalzium.cpp:169
-#, fuzzy
-msgid "&Gradients"
-msgstr "গ্রেডিয়েন্ট (&গ)"
-
-#: src/kalzium.cpp:178
-#, fuzzy
-msgid "&Tables"
-msgstr "নিক্তি"
-
-# FIXME
-#: src/kalzium.cpp:185
-msgid "&Numeration"
-msgstr "&নম্বর নামকরণ পদ্ধতি"
-
-#: src/kalzium.cpp:191
-msgid "&Equation Solver..."
-msgstr "সমীকরণ স&মাধানকারী..."
-
-#: src/kalzium.cpp:193
-msgctxt "WhatsThis Help"
-msgid "This tool allows you to solve chemical equations."
-msgstr ""
-
-# FIXME
-#: src/kalzium.cpp:204
-msgid "&Plot Data..."
-msgstr "তথ্যানুসারে গ্রাফ আঁকো... (&প)"
-
-#: src/kalzium.cpp:210
-msgid "Perform &Calculations..."
-msgstr ""
-
-#: src/kalzium.cpp:212
-msgctxt "WhatsThis Help"
-msgid "This is the calculator, it performs basic chemical calculations."
-msgstr ""
-
-#: src/kalzium.cpp:216
-#, fuzzy
-msgid "&Isotope Table..."
-msgstr "আইসোটোপ-সারণী"
-
-#: src/kalzium.cpp:218
-msgctxt "WhatsThis Help"
-msgid "This table shows all of the known isotopes of the chemical elements."
-msgstr ""
-
-#: src/kalzium.cpp:222
-msgid "&Glossary..."
-msgstr "টীকাপুঞ্জ... (&গ)"
-
-#: src/kalzium.cpp:227
-msgid "&R/S Phrases..."
-msgstr ""
-
-#: src/kalzium.cpp:232
-msgid "Convert chemical files..."
-msgstr ""
-
-#: src/kalzium.cpp:234
-msgctxt "WhatsThis Help"
-msgid ""
-"With this tool, you can convert files containing chemical data between "
-"various file formats."
-msgstr ""
-
-#: src/kalzium.cpp:241
-msgid "Molecular Editor..."
-msgstr ""
-
-#: src/kalzium.cpp:243
-msgctxt "WhatsThis Help"
-msgid "This tool allows you to view and edit 3D molecular structures."
-msgstr ""
-
-#: src/kalzium.cpp:250
-msgid "&Tables..."
-msgstr ""
-
-#: src/kalzium.cpp:252
-msgctxt "WhatsThis Help"
-msgid ""
-"This will open a dialog with listings of symbols and numbers related to "
-"chemistry."
-msgstr ""
-
-#: src/kalzium.cpp:260
-msgctxt "WhatsThis Help"
-msgid "This will show or hide the legend for the periodic table."
-msgstr ""
-
-#: src/kalzium.cpp:265
-msgctxt "WhatsThis Help"
-msgid ""
-"This will show or hide a sidebar with additional information and a set of "
-"tools."
-msgstr ""
-
-#: src/kalzium.cpp:270
-msgctxt "WhatsThis Help"
-msgid ""
-"This will show or hide a sidebar with additional information about the table."
-msgstr ""
-
-# FIXME
-#: src/kalzium.cpp:301
-#, fuzzy
-#| msgid "Show &Legend"
-msgid "Legend"
-msgstr "বর্ণনা (legend) প্রদর্শন করো (&ণ)"
-
-#: src/kalzium.cpp:314
-#, fuzzy
-msgid "Table Information"
-msgstr "শক্তি সংক্রান্ত তথ্য"
-
-#: src/kalzium.cpp:320
-#, fuzzy
-msgid "Information"
-msgstr "শক্তি সংক্রান্ত তথ্য"
-
-#: src/kalzium.cpp:332
-msgid "Overview"
-msgstr "সামগ্রিক চিত্র"
-
-#: src/kalzium.cpp:335
-msgid "QML Test"
-msgstr ""
-
-#: src/kalzium.cpp:347
-msgid "View"
-msgstr ""
-
-#: src/kalzium.cpp:352
-msgid "Calculate"
-msgstr "গণনা করো"
-
-#: src/kalzium.cpp:363
-msgid "*.png *.xpm *.jpg *.svg"
-msgstr ""
-
-#: src/kalzium.cpp:365
-msgid "Save Kalzium's Table In"
-msgstr ""
-
-#: src/kalzium.cpp:401
-msgid "This system does not support OpenGL."
-msgstr ""
-
-#: src/kalzium.cpp:401
-#, fuzzy
-#| msgid "Kalzium"
-msgid "Kalzium Error"
-msgstr "ক্যালজিয়াম"
-
-#: src/kalzium.cpp:530
-#, fuzzy
-msgid "Schemes"
-msgstr "কোন রং বিন্যাস নেই (&ন)"
-
-#: src/kalzium.cpp:537
-#, fuzzy
-msgid "Gradients"
-msgstr "গ্রেডিয়েন্ট (&গ)"
-
-#: src/kalzium.cpp:542
-msgid "Units"
-msgstr "একক"
-
-#: src/kalzium.cpp:592
-#, kde-format
-msgctxt "For example: \"Carbon (6), Mass: 12.0107 u\""
-msgid "%1 (%2), Mass: %3 u"
-msgstr "%1 (%2), ভর: %3 u"
-
-#: src/kalziumutils.cpp:87
-msgid "Error"
-msgstr ""
-
-#: src/kalziumutils.cpp:103
-msgid "Value not defined"
-msgstr "অজ্ঞাত মান"
-
-#: src/kalziumutils.cpp:105
-#, fuzzy, kde-format
-#| msgid " %1"
-msgctxt "Just a number"
-msgid "%1"
-msgstr "%1"
-
-#: src/kalziumutils.cpp:117
-#, fuzzy
-msgid "Unknown Value"
-msgstr "অজ্ঞাত"
-
-#: src/kalziumutils.cpp:119
-#, fuzzy, kde-format
-#| msgid "%1 u"
-msgctxt "x u (units). The atomic mass."
-msgid "%1 u"
-msgstr "%1 u"
-
-#: src/kalziumutils.cpp:126
-#, fuzzy, kde-format
-msgid "This element was discovered in the year <numid>%1</numid>."
-msgstr "এই মৌলটি %1 সালে আবিষ্কৃত হয়"
-
-#: src/kalziumutils.cpp:128
-msgid "The element has not yet been officially recognized by the IUPAC."
-msgstr ""
-
-#: src/kalziumutils.cpp:131
-#, fuzzy
-msgid "This element was known to ancient cultures."
-msgstr "প্রাচীন সভ্যতার নিকট এই মৌলটি পরিচিত ছিল"
-
-#: src/kalziumutils.cpp:168
-#, fuzzy
-#| msgid "Plot Data"
-msgid "No Data"
-msgstr "তথ্যানুসারে গ্রাফ আঁকো"
 
 #, fuzzy
 #~| msgid "Intensity: %1"
