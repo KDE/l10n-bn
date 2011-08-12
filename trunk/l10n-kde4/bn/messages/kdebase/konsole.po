@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-10 03:41+0200\n"
+"POT-Creation-Date: 2011-08-12 03:55+0200\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -886,7 +886,7 @@ msgstr "ট্যাব শিরোনাম"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: file: RenameTabsDialog.ui:26
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:110 rc.cpp:416
+#: rc.cpp:110 rc.cpp:428
 msgid "Tab title format:"
 msgstr "ট্যাব শিরোনাম ফরম্যাট:"
 
@@ -894,7 +894,7 @@ msgstr "ট্যাব শিরোনাম ফরম্যাট:"
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:36
 #. i18n: ectx: property (toolTip), widget (KLineEdit, tabTitleEdit)
-#: rc.cpp:113 rc.cpp:419
+#: rc.cpp:113 rc.cpp:431
 msgid "Normal tab title format"
 msgstr "স্বাভাবিক ট্যাব শিরোনাম ফরম্যাট"
 
@@ -902,7 +902,7 @@ msgstr "স্বাভাবিক ট্যাব শিরোনাম ফর
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:43
 #. i18n: ectx: property (toolTip), widget (QPushButton, tabTitleEditButton)
-#: rc.cpp:116 rc.cpp:422
+#: rc.cpp:116 rc.cpp:434
 msgid "Edit normal tab title format"
 msgstr "স্বাভাবিক ট্যাব শিরোনাম ফরম্যাট সম্পাদনা করো"
 
@@ -914,7 +914,7 @@ msgstr "স্বাভাবিক ট্যাব শিরোনাম ফর
 #. i18n: ectx: property (text), widget (QPushButton, tabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:73
 #. i18n: ectx: property (text), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:119 rc.cpp:131 rc.cpp:425 rc.cpp:437
+#: rc.cpp:119 rc.cpp:131 rc.cpp:437 rc.cpp:449
 msgid "Insert"
 msgstr "ঢোকাও"
 
@@ -922,7 +922,7 @@ msgstr "ঢোকাও"
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: file: RenameTabsDialog.ui:53
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:122 rc.cpp:428
+#: rc.cpp:122 rc.cpp:440
 msgid "Remote tab title format:"
 msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম্যাট:"
 
@@ -930,7 +930,7 @@ msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
 #. i18n: file: RenameTabsDialog.ui:63
 #. i18n: ectx: property (toolTip), widget (KLineEdit, remoteTabTitleEdit)
-#: rc.cpp:125 rc.cpp:431
+#: rc.cpp:125 rc.cpp:443
 #, fuzzy
 msgid ""
 "Tab title format used when a remote command (e.g. connection to another "
@@ -943,7 +943,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
 #. i18n: file: RenameTabsDialog.ui:70
 #. i18n: ectx: property (toolTip), widget (QPushButton, remoteTabTitleEditButton)
-#: rc.cpp:128 rc.cpp:434
+#: rc.cpp:128 rc.cpp:446
 #, fuzzy
 msgid "Edit tab title format used when executing remote commands"
 msgstr ""
@@ -1497,48 +1497,80 @@ msgstr "নির্বাচিত প্রোফাইলের ওপর ভ
 #. i18n: file: ManageProfilesDialog.ui:23
 #. i18n: ectx: property (text), widget (QPushButton, newSessionButton)
 #: rc.cpp:395
-msgid "New Profile..."
+#, fuzzy
+#| msgid "New Profile..."
+msgid "&New Profile..."
 msgstr "নতুন প্রোফাইল..."
 
-#. i18n: file: ManageProfilesDialog.ui:33
-#. i18n: ectx: property (toolTip), widget (QPushButton, editSessionButton)
+#. i18n: file: ManageProfilesDialog.ui:26
+#. i18n: ectx: property (shortcut), widget (QPushButton, newSessionButton)
 #: rc.cpp:398
+msgid "Alt+N"
+msgstr ""
+
+#. i18n: file: ManageProfilesDialog.ui:36
+#. i18n: ectx: property (toolTip), widget (QPushButton, editSessionButton)
+#: rc.cpp:401
 msgid "Edit the selected profile(s)"
 msgstr "নির্বাচিত প্রোফাইল(গুলি) সম্পাদনা করো"
 
-#. i18n: file: ManageProfilesDialog.ui:36
+#. i18n: file: ManageProfilesDialog.ui:39
 #. i18n: ectx: property (text), widget (QPushButton, editSessionButton)
-#: rc.cpp:401
-msgid "Edit Profile..."
+#: rc.cpp:404
+#, fuzzy
+#| msgid "Edit Profile..."
+msgid "&Edit Profile..."
 msgstr "প্রোফাইল সম্পাদনা করো..."
 
-#. i18n: file: ManageProfilesDialog.ui:46
+#. i18n: file: ManageProfilesDialog.ui:42
+#. i18n: ectx: property (shortcut), widget (QPushButton, editSessionButton)
+#: rc.cpp:407
+msgid "Alt+E"
+msgstr ""
+
+#. i18n: file: ManageProfilesDialog.ui:52
 #. i18n: ectx: property (toolTip), widget (QPushButton, deleteSessionButton)
-#: rc.cpp:404
+#: rc.cpp:410
 msgid "Delete the selected profile(s)"
 msgstr "নির্বাচিত প্রোফাইল(গুলি) মুছে ফেলো"
 
-#. i18n: file: ManageProfilesDialog.ui:49
+#. i18n: file: ManageProfilesDialog.ui:55
 #. i18n: ectx: property (text), widget (QPushButton, deleteSessionButton)
-#: rc.cpp:407
-msgid "Delete Profile"
+#: rc.cpp:413
+#, fuzzy
+#| msgid "Delete Profile"
+msgid "&Delete Profile"
 msgstr "প্রোফাইল মুছে ফেলো"
 
-#. i18n: file: ManageProfilesDialog.ui:59
+#. i18n: file: ManageProfilesDialog.ui:58
+#. i18n: ectx: property (shortcut), widget (QPushButton, deleteSessionButton)
+#: rc.cpp:416
+msgid "Alt+D"
+msgstr ""
+
+#. i18n: file: ManageProfilesDialog.ui:68
 #. i18n: ectx: property (toolTip), widget (QPushButton, setAsDefaultButton)
-#: rc.cpp:410
+#: rc.cpp:419
 msgid "Set the selected profile as the default for new terminal sessions"
 msgstr "নির্বাচিত প্রোফাইলটি নতুন টার্মিনাল সেশনের জন্য ডিফল্ট হিসেবে নির্ধারিত করো"
 
-#. i18n: file: ManageProfilesDialog.ui:62
+#. i18n: file: ManageProfilesDialog.ui:71
 #. i18n: ectx: property (text), widget (QPushButton, setAsDefaultButton)
-#: rc.cpp:413
-msgid "Set as Default"
+#: rc.cpp:422
+#, fuzzy
+#| msgid "Set as Default"
+msgid "&Set as Default"
 msgstr "ডিফল্ট হিসেবে নির্ধারণ করো"
+
+#. i18n: file: ManageProfilesDialog.ui:74
+#. i18n: ectx: property (shortcut), widget (QPushButton, setAsDefaultButton)
+#: rc.cpp:425
+msgid "Alt+S"
+msgstr ""
 
 #. i18n: file: ../desktop/partui.rc:7
 #. i18n: ectx: Menu (history)
-#: rc.cpp:440
+#: rc.cpp:452
 msgid "S&crollback"
 msgstr "&ইতিবৃত্ত"
 
@@ -1546,55 +1578,55 @@ msgstr "&ইতিবৃত্ত"
 #. i18n: ectx: Menu (change-profile)
 #. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (change-profile)
-#: rc.cpp:443 rc.cpp:470
+#: rc.cpp:455 rc.cpp:482
 msgid "&Change Profile"
 msgstr "প্রোফাইল &পরিবর্তন করো"
 
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:446
+#: rc.cpp:458
 msgid "File"
 msgstr "ফাইল"
 
 #. i18n: file: ../desktop/konsoleui.rc:14
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:449
+#: rc.cpp:461
 msgid "Edit"
 msgstr "সম্পাদনা"
 
 #. i18n: file: ../desktop/konsoleui.rc:17
 #. i18n: ectx: Menu (view)
-#: rc.cpp:452
+#: rc.cpp:464
 msgid "View"
 msgstr "ভিউ"
 
 #. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:455
+#: rc.cpp:467
 msgid "Split View"
 msgstr "বিভক্ত ভিউ"
 
 #. i18n: file: ../desktop/konsoleui.rc:33
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:458
+#: rc.cpp:470
 msgid "Settings"
 msgstr "সেটিংস"
 
 #. i18n: file: ../desktop/konsoleui.rc:44
 #. i18n: ectx: Menu (help)
-#: rc.cpp:461
+#: rc.cpp:473
 msgid "Help"
 msgstr "সহায়তা"
 
 #. i18n: file: ../desktop/sessionui.rc:15
 #. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:464
+#: rc.cpp:476
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করে পাঠাও"
 
 #. i18n: file: ../desktop/sessionui.rc:41
 #. i18n: ectx: Menu (debug)
-#: rc.cpp:467
+#: rc.cpp:479
 msgid "Debug"
 msgstr "ডিবাগ"
 
@@ -1797,16 +1829,16 @@ msgstr ""
 "আউটপুট সংরক্ষণ করাকালীন একটি সমস্যা ঘটেছে।\n"
 "%1"
 
-#: Session.cpp:367
+#: Session.cpp:359
 msgid "Could not find binary: "
 msgstr "বাইনারি খুঁজে পাওয়া যায়নি:"
 
-#: Session.cpp:376
+#: Session.cpp:368
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "সতর্কবার্তা: "
 
-#: Session.cpp:430
+#: Session.cpp:424
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -1815,46 +1847,46 @@ msgstr ""
 "'%1' খুঁজে পাওয়া যায়নি, তার বদলে '%2' শুরু করা হচ্ছে। অনুগ্রহ করে আপনার প্রোফাইল "
 "সেটিংস পরীক্ষা করুন।"
 
-#: Session.cpp:435
+#: Session.cpp:429
 msgid "Could not find an interactive shell to start."
 msgstr "শুরু করার জন্য কোন interactive shell খুঁজে পাওয়া যায়নি।"
 
-#: Session.cpp:471
+#: Session.cpp:465
 #, fuzzy, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "প্রেরিত মান '%2'এর সঙ্গে প্রোগ্রাম কি '%1' শুরু করতে পারে না।"
 
-#: Session.cpp:581
+#: Session.cpp:575
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "সেশন '%1' চুপচাপ"
 
-#: Session.cpp:616
+#: Session.cpp:610
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশন '%1'-এ ঘণ্টা"
 
-#: Session.cpp:627
+#: Session.cpp:621
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "সেশন '%1'-এ কিছু ঘটছে"
 
-#: Session.cpp:769
+#: Session.cpp:763
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "শেষ"
 
-#: Session.cpp:778
+#: Session.cpp:772
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1'-এর %2 স্ট্যাটাস সমেত সমাপ্তি।"
 
-#: Session.cpp:780
+#: Session.cpp:774
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' ক্র্যাশ করেছে।"
 
-#: Session.cpp:1107
+#: Session.cpp:1101
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
