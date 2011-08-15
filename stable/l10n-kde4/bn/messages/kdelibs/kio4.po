@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-14 12:21+0200\n"
+"POT-Creation-Date: 2011-08-15 12:09+0200\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -64,8 +64,8 @@ msgctxt "@title:window"
 msgid "Select Folder"
 msgstr "ফোল্ডার নির্বাচন করো"
 
-#: bookmarks/kbookmarkdialog.cc:159 ../kfile/kdirselectdialog.cpp:135
-#: ../kfile/knewfilemenu.cpp:1015
+#: bookmarks/kbookmarkdialog.cc:159 ../kfile/knewfilemenu.cpp:1015
+#: ../kfile/kdirselectdialog.cpp:135
 #, fuzzy
 msgctxt "@title:window"
 msgid "New Folder"
@@ -5884,6 +5884,101 @@ msgid ""
 "entry will be available in all applications.</qt>"
 msgstr ""
 
+#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
+#, fuzzy
+#| msgid "Store"
+msgid "Sorry"
+msgstr "হ্যাঁ"
+
+#: ../kfile/knewfilemenu.cpp:377
+#, fuzzy, kde-format
+#| msgid "The file or folder %1 does not exist."
+msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
+msgstr "%1 নামক ফাইল বা ফোল্ডারের কোনো অস্তিত্ব নেই।"
+
+#: ../kfile/knewfilemenu.cpp:396
+#, fuzzy
+msgctxt "@action:button"
+msgid "Create directory"
+msgstr "ফোল্ডার তৈরি হচ্ছে"
+
+#: ../kfile/knewfilemenu.cpp:398
+msgctxt "@action:button"
+msgid "Enter a different name"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:401
+#, fuzzy
+msgid "Create hidden directory?"
+msgstr "ফোল্ডার তৈরি হচ্ছে"
+
+#: ../kfile/knewfilemenu.cpp:405
+#, kde-format
+msgid ""
+"The name \"%1\" starts with a dot, so the directory will be hidden by "
+"default."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:407
+msgid "Do not ask again"
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
+#, fuzzy
+msgid "File name:"
+msgstr "ডিভাইস"
+
+#: ../kfile/knewfilemenu.cpp:503
+#, fuzzy
+#| msgid "Creating"
+msgid "Create Symlink"
+msgstr "তৈরি করা হচ্ছে"
+
+#: ../kfile/knewfilemenu.cpp:562
+#, fuzzy
+msgid "Create link to URL"
+msgstr "গন্তব্য:"
+
+#: ../kfile/knewfilemenu.cpp:608 ../kfile/knewfilemenu.cpp:656
+#, fuzzy, kde-format
+#| msgid "%1 B"
+msgctxt "@item:inmenu Create New"
+msgid "%1"
+msgstr "%1 বাইট"
+
+#: ../kfile/knewfilemenu.cpp:882
+msgid ""
+"Basic links can only point to local files or directories.\n"
+"Please use \"Link to Location\" for remote URLs."
+msgstr ""
+
+#: ../kfile/knewfilemenu.cpp:947
+#, fuzzy
+#| msgid "C&reate"
+msgid "Create New"
+msgstr "তৈরি &করো"
+
+#: ../kfile/knewfilemenu.cpp:960
+#, fuzzy
+msgid "Link to Device"
+msgstr "ডিভাইস"
+
+#: ../kfile/knewfilemenu.cpp:1005
+#, fuzzy
+#| msgid "New Folder"
+msgctxt "Default name for a new folder"
+msgid "New Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: ../kfile/knewfilemenu.cpp:1019
+#, kde-format
+msgid ""
+"Create new folder in:\n"
+"%1"
+msgstr ""
+"%1-এ \n"
+"নতুন ফোল্ডার তৈরি করো"
+
 #: ../kfile/kfiletreeview.cpp:187
 #, fuzzy
 msgid "Show Hidden Folders"
@@ -6492,94 +6587,6 @@ msgid ""
 "bookmark.<br /><br />These bookmarks are specific to the file dialog, but "
 "otherwise operate like bookmarks elsewhere in KDE.</qt>"
 msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:368 ../kfile/knewfilemenu.cpp:872
-#, fuzzy
-#| msgid "Store"
-msgid "Sorry"
-msgstr "হ্যাঁ"
-
-#: ../kfile/knewfilemenu.cpp:377
-#, fuzzy, kde-format
-#| msgid "The file or folder %1 does not exist."
-msgid "<qt>The template file <b>%1</b> does not exist.</qt>"
-msgstr "%1 নামক ফাইল বা ফোল্ডারের কোনো অস্তিত্ব নেই।"
-
-#: ../kfile/knewfilemenu.cpp:396
-#, fuzzy
-msgctxt "@action:button"
-msgid "Create directory"
-msgstr "ফোল্ডার তৈরি হচ্ছে"
-
-#: ../kfile/knewfilemenu.cpp:398
-msgctxt "@action:button"
-msgid "Enter a different name"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:401
-#, fuzzy
-msgid "Create hidden directory?"
-msgstr "ফোল্ডার তৈরি হচ্ছে"
-
-#: ../kfile/knewfilemenu.cpp:405
-#, kde-format
-msgid ""
-"The name \"%1\" starts with a dot, so the directory will be hidden by "
-"default."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:407
-msgid "Do not ask again"
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:500 ../kfile/knewfilemenu.cpp:558
-#, fuzzy
-msgid "File name:"
-msgstr "ডিভাইস"
-
-#: ../kfile/knewfilemenu.cpp:503
-#, fuzzy
-#| msgid "Creating"
-msgid "Create Symlink"
-msgstr "তৈরি করা হচ্ছে"
-
-#: ../kfile/knewfilemenu.cpp:562
-#, fuzzy
-msgid "Create link to URL"
-msgstr "গন্তব্য:"
-
-#: ../kfile/knewfilemenu.cpp:882
-msgid ""
-"Basic links can only point to local files or directories.\n"
-"Please use \"Link to Location\" for remote URLs."
-msgstr ""
-
-#: ../kfile/knewfilemenu.cpp:947
-#, fuzzy
-#| msgid "C&reate"
-msgid "Create New"
-msgstr "তৈরি &করো"
-
-#: ../kfile/knewfilemenu.cpp:960
-#, fuzzy
-msgid "Link to Device"
-msgstr "ডিভাইস"
-
-#: ../kfile/knewfilemenu.cpp:1005
-#, fuzzy
-#| msgid "New Folder"
-msgctxt "Default name for a new folder"
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: ../kfile/knewfilemenu.cpp:1019
-#, kde-format
-msgid ""
-"Create new folder in:\n"
-"%1"
-msgstr ""
-"%1-এ \n"
-"নতুন ফোল্ডার তৈরি করো"
 
 #: ../kfile/kurlnavigator.cpp:429
 #, fuzzy
