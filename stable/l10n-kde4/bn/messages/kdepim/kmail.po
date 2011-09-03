@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-02 10:42+0200\n"
+"POT-Creation-Date: 2011-09-03 11:09+0200\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1336,8 +1336,8 @@ msgstr ""
 #. i18n: ectx: property (text), widget (KPushButton, mModifyAccountButton)
 #. i18n: file: ui/identitypage.ui:40
 #. i18n: ectx: property (text), widget (QPushButton, mModifyButton)
-#: configuredialog.cpp:2644 rc.cpp:403 rc.cpp:486
-#: simplestringlisteditor.cpp:100
+#: configuredialog.cpp:2644 simplestringlisteditor.cpp:100 rc.cpp:403
+#: rc.cpp:486
 msgid "&Modify..."
 msgstr "&বদলাও..."
 
@@ -3764,6 +3764,853 @@ msgctxt "@title:window"
 msgid "Properties of Folder %1"
 msgstr "ফোল্ডার %1-র বৈশিষ্ট্যাবলী"
 
+#: util.cpp:106
+msgid "Could not start the account wizard. Please check your installation."
+msgstr ""
+
+#: util.cpp:108
+#, fuzzy
+#| msgid "Unable to create account"
+msgid "Unable to start account wizard"
+msgstr "অ্যাকাউন্ট তৈরি করতে অক্ষম"
+
+#: kmmainwin.cpp:57
+msgid "New &Window"
+msgstr "নতুন &উইণ্ডো"
+
+#: kmmainwin.cpp:183
+#, fuzzy
+msgid "Starting..."
+msgstr "প্রের&ণ"
+
+#: kmreadermainwin.cpp:286
+#, fuzzy
+#| msgid "trash"
+msgctxt "@action:intoolbar Move to Trash"
+msgid "Trash"
+msgstr "আবর্জনা"
+
+#: kmreadermainwin.cpp:287
+msgid "Move message to trashcan"
+msgstr "বার্তা সরিয়ে আবর্জনা ফোল্ডারে নিয়ে যাও"
+
+#: kmreadermainwin.cpp:305
+#, fuzzy
+msgid "Select Font"
+msgstr "ফোল্ডার নির্বাচন করো"
+
+#: kmreadermainwin.cpp:310
+#, fuzzy
+msgid "Select Size"
+msgstr "স্টাইল নির্বাচন করো"
+
+#: kmreaderwin.cpp:149
+msgid "New Message To..."
+msgstr "একে নতুন বার্তা..."
+
+#: kmreaderwin.cpp:156
+msgid "Reply To..."
+msgstr "একে উত্তর দাও..."
+
+#: kmreaderwin.cpp:163
+msgid "Forward To..."
+msgstr "একে ফরোয়ার্ড করো..."
+
+#: kmreaderwin.cpp:170
+msgid "Add to Address Book"
+msgstr "ঠিকানা তালিকায় যোগ করো"
+
+#: kmreaderwin.cpp:177
+msgid "Open in Address Book"
+msgstr "ঠিকানা তালিকায় খোলো"
+
+#: kmreaderwin.cpp:182
+msgid "Bookmark This Link"
+msgstr "এই লিঙ্কটি বুকমার্ক করো"
+
+#: kmreaderwin.cpp:188
+msgid "Save Link As..."
+msgstr "লিঙ্ক নতুন নামে সংরক্ষণ করো..."
+
+#: kmreaderwin.cpp:244
+msgid ""
+"KMail is now based on the Akonadi Personal Information Management framework, "
+"which brings many changes all around."
+msgstr ""
+
+#: kmreaderwin.cpp:255
+msgid "Push email (IMAP IDLE)"
+msgstr ""
+
+#: kmreaderwin.cpp:256
+#, fuzzy
+msgid "Improved virtual folders"
+msgstr "ফোল্ডার-এর নাম পরিবর্তন করা হচ্ছে"
+
+#: kmreaderwin.cpp:257
+msgid "Improved searches"
+msgstr ""
+
+#: kmreaderwin.cpp:258
+msgid "Support for adding notes (annotations) to mails"
+msgstr ""
+
+#: kmreaderwin.cpp:259
+#, fuzzy
+#| msgid "&Trash folder:"
+msgid "Tag folders"
+msgstr "আ&বর্জনা ফোল্ডার:"
+
+#: kmreaderwin.cpp:260
+msgid "Less GUI freezes, mail checks happen in the background"
+msgstr ""
+
+#: kmreaderwin.cpp:288
+msgid ""
+"<h2 style='margin-top: 0px;'>Retrieving Folder Contents</h2><p>Please "
+"wait . . .</p>&nbsp;"
+msgstr ""
+
+#: kmreaderwin.cpp:296
+msgid ""
+"<h2 style='margin-top: 0px;'>Offline</h2><p>KMail is currently in offline "
+"mode. Click <a href=\"kmail:goOnline\">here</a> to go online . . .</p>&nbsp;"
+msgstr ""
+
+#: kmreaderwin.cpp:312
+#, kde-format
+msgctxt ""
+"%1: KMail version; %2: help:// URL; %3: generated list of new features; %4: "
+"First-time user text (only shown on first start); %5: generated list of "
+"important changes; --- end of comment ---"
+msgid ""
+"<h2 style='margin-top: 0px;'>Welcome to KMail %1</h2><p>KMail is the email "
+"client by KDE.It is designed to be fully compatible with Internet mailing "
+"standards including MIME, SMTP, POP3, and IMAP.</p>\n"
+"<ul><li>KMail has many powerful features which are described in the <a href="
+"\"%2\">documentation</a></li>\n"
+"%5\n"
+"%3\n"
+"%4\n"
+"<p>We hope that you will enjoy KMail.</p>\n"
+"<p>Thank you,</p>\n"
+"<p style='margin-bottom: 0px'>&nbsp; &nbsp; The KMail Team</p>"
+msgstr ""
+
+#: kmreaderwin.cpp:329
+#, kde-format
+msgid ""
+"<p>Some of the new features in this release of KMail include (compared to "
+"KMail %1, which is part of KDE Software Compilation %2):</p>\n"
+msgstr ""
+
+#: kmreaderwin.cpp:342
+msgid ""
+"<p>Please take a moment to fill in the KMail configuration panel at Settings-"
+"&gt;Configure KMail.\n"
+"You need to create at least a default identity and an incoming as well as "
+"outgoing mail account.</p>\n"
+msgstr ""
+
+#: kmreaderwin.cpp:354
+#, kde-format
+msgid ""
+"<p><span style='font-size:125%; font-weight:bold;'>Important changes</span> "
+"(compared to KMail %1):</p>\n"
+msgstr ""
+
+#: kmreaderwin.cpp:359
+#, kde-format
+msgid "<li>%1</li>\n"
+msgstr "<li>%1</li>\n"
+
+#: kmstartup.cpp:103 kmsystemtray.cpp:74 kmsystemtray.cpp:123
+#: aboutdata.cpp:240 mailinglistpropertiesdialog.cpp:111
+msgid "KMail"
+msgstr "কে-মেইল"
+
+#: kmstartup.cpp:157
+#, kde-format
+msgid ""
+"%1 already seems to be running on another display on this machine. Running "
+"%2 more than once can cause the loss of mail. You should not start %1 unless "
+"you are sure that it is not already running."
+msgstr ""
+
+#: kmstartup.cpp:167
+#, kde-format
+msgid ""
+"%1 seems to be running on another display on this machine. Running %1 and %2 "
+"at the same time can cause the loss of mail. You should not start %2 unless "
+"you are sure that %1 is not running."
+msgstr ""
+
+#: kmstartup.cpp:175
+#, kde-format
+msgid ""
+"%1 already seems to be running on %2. Running %1 more than once can cause "
+"the loss of mail. You should not start %1 on this computer unless you are "
+"sure that it is not already running on %2."
+msgstr ""
+
+#: kmstartup.cpp:181
+#, kde-format
+msgid ""
+"%1 seems to be running on %3. Running %1 and %2 at the same time can cause "
+"the loss of mail. You should not start %2 on this computer unless you are "
+"sure that %1 is not running on %3."
+msgstr ""
+
+#: kmstartup.cpp:191
+#, fuzzy, kde-format
+#| msgid "Start %1"
+msgctxt "Start kmail even when another instance is running."
+msgid "Start %1"
+msgstr "%1 শুরু করো"
+
+#: kmstartup.cpp:192
+#, fuzzy
+#| msgid "Exit"
+msgctxt "Do not start another kmail instance."
+msgid "Exit"
+msgstr "প্রস্থান করো"
+
+#: kmsystemtray.cpp:281
+msgid "New Messages In"
+msgstr "নতুন বার্তা আছে"
+
+#: kmsystemtray.cpp:381
+#, fuzzy
+#| msgid "There are no unread messages"
+msgid "There are no unread messages"
+msgstr "কোন অপঠিত বার্তা নেই"
+
+#: kmsystemtray.cpp:382
+#, fuzzy, kde-format
+#| msgid "Unread Message"
+msgid "1 unread message"
+msgid_plural "%1 unread messages"
+msgstr[0] "অপঠিত বার্তা"
+msgstr[1] "অপঠিত বার্তা"
+
+#: aboutdata.cpp:52 aboutdata.cpp:56 aboutdata.cpp:58
+msgid "Former maintainer"
+msgstr "প্রাক্তন রক্ষণাবেক্ষণকারী"
+
+#: aboutdata.cpp:54
+msgid "Original author"
+msgstr "প্রারম্ভিক লেখক"
+
+#: aboutdata.cpp:60
+#, fuzzy
+#| msgid "Former maintainer"
+msgid "Former co-maintainer"
+msgstr "প্রাক্তন রক্ষণাবেক্ষণকারী"
+
+#: aboutdata.cpp:63 aboutdata.cpp:65
+msgid "Core developer"
+msgstr "মূল ডেভেলপার"
+
+#: aboutdata.cpp:67 aboutdata.cpp:69 aboutdata.cpp:71
+#, fuzzy
+#| msgid "Core developer"
+msgid "Former core developer"
+msgstr "মূল ডেভেলপার"
+
+#: aboutdata.cpp:73
+msgid "Documentation"
+msgstr "ডকুমেন্টেশন"
+
+#: aboutdata.cpp:80
+msgid "system tray notification"
+msgstr "সিস্টেম ট্রে বিজ্ঞপ্তি"
+
+#: aboutdata.cpp:96
+msgid "PGP 6 support and further enhancements of the encryption support"
+msgstr "পি-জি-পি ৬ (PGP 6) সমর্থন এবং এনক্রিপশন সংক্রান্ত আরো নানা কাজ"
+
+#: aboutdata.cpp:106
+#, fuzzy
+#| msgid ""
+#| "Original encryption support\n"
+#| "PGP 2 and PGP 5 support"
+msgid "Original encryption support<br/>PGP 2 and PGP 5 support"
+msgstr ""
+"প্রাথমিক এনক্রিপশন সমর্থন\n"
+"PGP 2 এবং PGP 5 সমর্থন"
+
+#: aboutdata.cpp:109
+msgid "GnuPG support"
+msgstr "GnuPG সমর্থন"
+
+#: aboutdata.cpp:117
+msgid "Akonadi porting"
+msgstr ""
+
+#: aboutdata.cpp:139
+#, fuzzy
+#| msgid "No messages to delete..."
+msgid "New message list and new folder tree"
+msgstr "মোছার মত কোন বার্তা নেই..."
+
+#: aboutdata.cpp:178
+msgid "Anti-virus support"
+msgstr "অ্যান্টি-ভাইরাস সাপোর্ট"
+
+#: aboutdata.cpp:187 aboutdata.cpp:234
+msgid "POP filters"
+msgstr "পপ (POP) ফিল্টার"
+
+#: aboutdata.cpp:208
+msgid "Usability tests and improvements"
+msgstr ""
+
+#: aboutdata.cpp:214 aboutdata.cpp:228
+msgid "Ägypten and Kroupware project management"
+msgstr "Ägypten এবং Kroupware প্রকল্প ব্যবস্থাপনা"
+
+#: aboutdata.cpp:217
+msgid "Improved HTML support"
+msgstr ""
+
+#: aboutdata.cpp:219
+msgid "beta testing of PGP 6 support"
+msgstr "PGP 6 সমর্থনের বিটা টেস্টিং"
+
+#: aboutdata.cpp:226
+msgid "timestamp for 'Transmission completed' status messages"
+msgstr "'ট্রান্সমিশন সম্পূর্ণ' স্ট্যাটাস বার্তার জন্য টাইম-স্ট্যাম্প"
+
+#: aboutdata.cpp:230
+msgid "multiple encryption keys per address"
+msgstr "প্রতি ঠিকানায় একাধিক এনক্রিপশন কী"
+
+#: aboutdata.cpp:241
+msgid "KDE Email Client"
+msgstr "কে.ডি.ই. ই-মেইল ক্লায়েন্ট"
+
+#: aboutdata.cpp:242
+msgid "Copyright © 1997–2011, KMail authors"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:56
+msgid "Mailinglist Folder Properties"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:70
+msgid "Associated Mailing List"
+msgstr "সংশ্লিষ্ট মেইলিং-লিস্ট"
+
+#: mailinglistpropertiesdialog.cpp:79
+msgid "&Folder holds a mailing list"
+msgstr "ফোল্ডার একটি মেইলিং-লিস্ট ধার&ণ করে"
+
+#: mailinglistpropertiesdialog.cpp:86
+msgid "Detect Automatically"
+msgstr "স্বয়ংক্রীয় সনাক্তকরণ"
+
+#: mailinglistpropertiesdialog.cpp:94
+msgid "Mailing list description:"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:105
+msgid "Preferred handler:"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:112
+msgid "Browser"
+msgstr "ব্রাউজার"
+
+#: mailinglistpropertiesdialog.cpp:119
+msgid "&Address type:"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:132
+msgid "Invoke Handler"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:151
+msgid "Post to List"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:152 messageactions.cpp:342
+msgid "Subscribe to List"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:153
+msgid "Unsubscribe From List"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:154
+msgid "List Archives"
+msgstr "লিস্ট আর্কাইভ"
+
+#: mailinglistpropertiesdialog.cpp:155
+msgid "List Help"
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:174
+msgid "Not available"
+msgstr "পাওয়া যাচ্ছে না"
+
+#: mailinglistpropertiesdialog.cpp:232 mailinglistpropertiesdialog.cpp:265
+msgid "Not available."
+msgstr ""
+
+#: mailinglistpropertiesdialog.cpp:262
+msgid ""
+"KMail was unable to detect a mailing list in this folder. Please fill the "
+"addresses by hand."
+msgstr ""
+
+#: newidentitydialog.cpp:46
+msgid "New Identity"
+msgstr "নতুন পরিচিতি"
+
+#: newidentitydialog.cpp:61
+msgid "&New identity:"
+msgstr "&নতুন পরিচিতি:"
+
+#: newidentitydialog.cpp:71
+msgid "&With empty fields"
+msgstr "ফাঁকা ক্ষেত্র &সমেত"
+
+#: newidentitydialog.cpp:77
+msgid "&Use System Settings values"
+msgstr ""
+
+#: newidentitydialog.cpp:82
+msgid "&Duplicate existing identity"
+msgstr "বর্তমা&ন পরিচিতির অনুরূপ"
+
+#: newidentitydialog.cpp:93
+msgid "&Existing identities:"
+msgstr "বর্তমান &পরিচিতি:"
+
+#: simplestringlisteditor.cpp:58
+msgid "New entry:"
+msgstr "নতুন এন্ট্রি:"
+
+#. i18n: file: ui/identitypage.ui:27
+#. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
+#: simplestringlisteditor.cpp:77 rc.cpp:480
+msgid "&Add..."
+msgstr "যো&গ করো..."
+
+#: simplestringlisteditor.cpp:205
+msgid "New Value"
+msgstr "নতুন মান"
+
+#: simplestringlisteditor.cpp:228
+msgid "Change Value"
+msgstr "মান পরিবর্তন করো"
+
+#: tagactionmanager.cpp:117
+#, fuzzy, kde-format
+msgid "Message Tag %1"
+msgstr "বার্তা তালিকা"
+
+#: tagactionmanager.cpp:163
+#, kde-format
+msgid "Toggle Message Tag %1"
+msgstr ""
+
+#: xfaceconfigurator.cpp:88
+msgid "&Send picture with every message"
+msgstr ""
+
+#: xfaceconfigurator.cpp:90
+msgid ""
+"Check this box if you want KMail to add a so-called X-Face header to "
+"messages written with this identity. An X-Face is a small (48x48 pixels) "
+"black and white image that some mail clients are able to display."
+msgstr ""
+
+#: xfaceconfigurator.cpp:97
+msgid "This is a preview of the picture selected/entered below."
+msgstr ""
+
+#: xfaceconfigurator.cpp:111
+msgid "Click on the widgets below to obtain help on the input methods."
+msgstr ""
+
+#: xfaceconfigurator.cpp:115
+msgctxt "continuation of \"obtain picture from\""
+msgid "External Source"
+msgstr "বহিঃস্থ উত্‍স"
+
+#: xfaceconfigurator.cpp:117
+msgctxt "continuation of \"obtain picture from\""
+msgid "Input Field Below"
+msgstr "নিম্নোক্ত ইনপুট ফীল্ড"
+
+#: xfaceconfigurator.cpp:118
+msgid "Obtain pic&ture from:"
+msgstr "&এখান থেকে ছবি সংগ্রহ করো:"
+
+#: xfaceconfigurator.cpp:151
+msgid "Select File..."
+msgstr "ফাইল নির্বাচন করো..."
+
+#: xfaceconfigurator.cpp:153
+msgid ""
+"Use this to select an image file to create the picture from. The image "
+"should be of high contrast and nearly quadratic shape. A light background "
+"helps improve the result."
+msgstr ""
+
+#: xfaceconfigurator.cpp:160
+msgid "Set From Address Book"
+msgstr ""
+
+#: xfaceconfigurator.cpp:162
+msgid ""
+"You can use a scaled-down version of the picture you have set in your "
+"address book entry."
+msgstr ""
+
+#: xfaceconfigurator.cpp:168
+msgid ""
+"<qt>KMail can send a small (48x48 pixels), low-quality, monochrome picture "
+"with every message. For example, this could be a picture of you or a glyph. "
+"It is shown in the recipient's mail client (if supported).</qt>"
+msgstr ""
+
+#: xfaceconfigurator.cpp:187
+msgid "Use this field to enter an arbitrary X-Face string."
+msgstr ""
+
+#: xfaceconfigurator.cpp:191
+msgid ""
+"Examples are available at <a href=\"http://www.xs4all.nl/~ace/X-Faces/"
+"\">http://www.xs4all.nl/~ace/X-Faces/</a>."
+msgstr ""
+
+#: xfaceconfigurator.cpp:264
+msgid "You do not have your own contact defined in the address book."
+msgstr ""
+
+#: xfaceconfigurator.cpp:264 xfaceconfigurator.cpp:278
+#: xfaceconfigurator.cpp:287
+msgid "No Picture"
+msgstr "কোন ছবি নেই"
+
+#: xfaceconfigurator.cpp:278 xfaceconfigurator.cpp:287
+msgid "No picture set for your address book entry."
+msgstr ""
+
+#: snippetwidget.cpp:77
+msgid "Text Snippets"
+msgstr ""
+
+#: undostack.cpp:100
+msgid "There is nothing to undo."
+msgstr "বাতিল করার মত কিছু নেই।"
+
+#: undostack.cpp:107
+#, fuzzy, kde-format
+#| msgid "Move Messages to Folder"
+msgid "Can not move message. %1"
+msgstr "বার্তা ফোল্ডার-এ সরাও"
+
+#: messageactions.cpp:65
+msgctxt "Message->"
+msgid "&Reply"
+msgstr "&উত্তর পাঠাও"
+
+#: messageactions.cpp:70 searchwindow.cpp:302
+msgid "&Reply..."
+msgstr "উত্ত&র দাও..."
+
+#: messageactions.cpp:77
+msgid "Reply to A&uthor..."
+msgstr "লে&খককে উত্তর পাঠাও..."
+
+#: messageactions.cpp:84 searchwindow.cpp:306
+msgid "Reply to &All..."
+msgstr "&সবাইকে উত্তর দাও..."
+
+#: messageactions.cpp:91 searchwindow.cpp:310
+msgid "Reply to Mailing-&List..."
+msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
+
+#: messageactions.cpp:98
+msgid "Reply Without &Quote..."
+msgstr "উদ্ধৃতি ছাড়া উত্তর দা&ও..."
+
+#: messageactions.cpp:105
+msgid "Create To-do/Reminder..."
+msgstr ""
+
+#: messageactions.cpp:106
+msgid "Create To-do"
+msgstr ""
+
+#: messageactions.cpp:107
+msgid "Allows you to create a calendar to-do or reminder from this message"
+msgstr ""
+
+#: messageactions.cpp:108
+msgid ""
+"This option starts the KOrganizer to-do editor with initial values taken "
+"from the currently selected message. Then you can edit the to-do to your "
+"liking before saving it to your calendar."
+msgstr ""
+
+#: messageactions.cpp:115
+msgid "Mar&k Message"
+msgstr "বার্তা চিহ্নি&ত করো"
+
+#: messageactions.cpp:133
+msgid "&Edit Message"
+msgstr "বার্তা সম্পা&দন করো"
+
+#: messageactions.cpp:139 messageactions.cpp:549
+#, fuzzy
+#| msgid "Add..."
+msgid "Add Note..."
+msgstr "যোগ করো..."
+
+#: messageactions.cpp:146 searchwindow.cpp:314
+msgctxt "Message->"
+msgid "&Forward"
+msgstr "&ফরোয়ার্ড করো"
+
+#: messageactions.cpp:151
+#, fuzzy
+#| msgctxt "Message->Forward->"
+#| msgid "As &Attachment..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "As &Attachment..."
+msgstr "সংযুক্ত করে (&স)..."
+
+#: messageactions.cpp:159
+#, fuzzy
+#| msgid "&Inline..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "&Inline..."
+msgstr "বার্তার মূ&ল অংশে..."
+
+#: messageactions.cpp:167
+msgctxt "Message->Forward->"
+msgid "&Redirect..."
+msgstr "&অন্য ঠিকানায় পাঠাও..."
+
+#: messageactions.cpp:176
+#, fuzzy
+#| msgid "Reply to Mailing-&List..."
+msgctxt "Message->"
+msgid "Mailing-&List"
+msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
+
+#: messageactions.cpp:332
+#, fuzzy
+#| msgid "OpenPGP Message - Bad Signature"
+msgid "Open Message in List Archive"
+msgstr "ওপেন-পি-জি-পি বার্তা - ত্রুটিপূর্ণ স্বাক্ষর"
+
+#: messageactions.cpp:334
+#, fuzzy
+#| msgid "New Message"
+msgid "Post New Message"
+msgstr "নতুন বার্তা"
+
+#: messageactions.cpp:336
+#, fuzzy
+#| msgid "List Archives"
+msgid "Go to Archive"
+msgstr "লিস্ট আর্কাইভ"
+
+#: messageactions.cpp:338
+msgid "Request Help"
+msgstr ""
+
+#: messageactions.cpp:340
+#, fuzzy
+#| msgid "contains"
+msgctxt "Contact the owner of the mailing list"
+msgid "Contact Owner"
+msgstr "-এর মধ্যে রয়েছে"
+
+#: messageactions.cpp:344
+msgid "Unsubscribe from List"
+msgstr ""
+
+#: messageactions.cpp:502
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "ই-মেইল"
+
+#: messageactions.cpp:505
+msgid "web"
+msgstr ""
+
+#: messageactions.cpp:508
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgctxt ""
+"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
+"email though could be irc/ftp or other url variant"
+msgid "%1 (%2)"
+msgstr "মেইল"
+
+#: messageactions.cpp:551
+#, fuzzy
+#| msgid "Edit Script..."
+msgid "Edit Note..."
+msgstr "স্ক্রিপ্ট সম্পাদন করো..."
+
+#: kmsearchmessagemodel.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This model can only handle email folders. The current collection holds "
+"mimetypes: %1"
+msgstr ""
+
+#: kmsearchmessagemodel.cpp:101
+msgctxt "@label No size available"
+msgid "-"
+msgstr ""
+
+#: kmsearchmessagemodel.cpp:139
+#, fuzzy
+#| msgid "Folder"
+msgctxt "@title:column, folder (e.g. email)"
+msgid "Folder"
+msgstr "ফোল্ডার"
+
+#: searchwindow.cpp:93
+msgid "Find Messages"
+msgstr "বার্তা সন্ধান করো"
+
+#: searchwindow.cpp:96
+#, fuzzy
+#| msgid "&Search"
+msgctxt "@action:button Search for messages"
+msgid "&Search"
+msgstr "&সন্ধান"
+
+#: searchwindow.cpp:112
+msgid "Search in &all local folders"
+msgstr "স&ব স্থানীয় ফোল্ডারে সন্ধান করো"
+
+#: searchwindow.cpp:116
+msgid "Search &only in:"
+msgstr "শুধু &এখানে সন্ধান করো:"
+
+#: searchwindow.cpp:125
+msgid "I&nclude sub-folders"
+msgstr "সাব-ফোল্ডার &অন্তর্ভুক্ত করো"
+
+#: searchwindow.cpp:223
+msgid "Search folder &name:"
+msgstr "সন্ধান-ফোল্ডারের না&ম:"
+
+#: searchwindow.cpp:233 searchwindow.cpp:491
+msgid "Last Search"
+msgstr "শেষ সন্ধান"
+
+#: searchwindow.cpp:243
+#, fuzzy
+#| msgid "Delete Search"
+msgid "Op&en Search Folder"
+msgstr "সন্ধান মুছে ফেলো"
+
+#: searchwindow.cpp:252
+#, fuzzy
+#| msgid "Open Message"
+msgid "Open &Message"
+msgstr "বার্তা খোলো"
+
+#: searchwindow.cpp:263
+msgid "AMiddleLengthText..."
+msgstr "AMiddleLengthText..."
+
+#: searchwindow.cpp:264
+#, fuzzy
+#| msgid "Ready."
+msgctxt "@info:status finished searching."
+msgid "Ready."
+msgstr "তৈরি।"
+
+#: searchwindow.cpp:319
+#, fuzzy
+#| msgid "&Inline..."
+msgctxt "@action:inmenu Forward message inline."
+msgid "&Inline..."
+msgstr "বার্তার মূ&ল অংশে..."
+
+#: searchwindow.cpp:324
+msgctxt "Message->Forward->"
+msgid "As &Attachment..."
+msgstr "সংযুক্ত করে (&স)..."
+
+#: searchwindow.cpp:338
+msgid "Save Attachments..."
+msgstr "অ্যাটাচমেন্ট সংরক্ষণ করো..."
+
+#: searchwindow.cpp:344
+msgid "Clear Selection"
+msgstr "নির্বাচন ফাঁকা করো"
+
+#: searchwindow.cpp:444
+#, fuzzy
+msgctxt "Search finished."
+msgid "Done"
+msgstr "হয়ে গেছে"
+
+#: searchwindow.cpp:445 searchwindow.cpp:452
+#, kde-format
+msgid "%1 match"
+msgid_plural "%1 matches"
+msgstr[0] "%1-টি মিল"
+msgstr[1] "%1-টি মিল"
+
+#: searchwindow.cpp:447
+#, fuzzy
+msgid "Search canceled"
+msgstr "সন্ধান বাতিল"
+
+#: searchwindow.cpp:448
+#, fuzzy, kde-format
+msgid "%1 match so far"
+msgid_plural "%1 matches so far"
+msgstr[0] "এখন পর্যন্ত %1-টি মিল (%2)"
+msgstr[1] "এখন পর্যন্ত %1-টি মিল (%2)"
+
+#: searchwindow.cpp:453
+#, fuzzy, kde-format
+msgid "Searching in %1"
+msgstr "%1-এ খোঁজা হচ্ছে (বার্তা %2)"
+
+#: searchwindow.cpp:557
+#, fuzzy, kde-format
+#| msgid "Move Messages to Folder"
+msgid "Can not get search result. %1"
+msgstr "বার্তা ফোল্ডার-এ সরাও"
+
+#: searchwindow.cpp:682
+msgid ""
+"There was a problem renaming your search folder. A common reason for this is "
+"that another search folder with the same name already exists."
+msgstr ""
+
+#: searchwindow.cpp:789
+#, fuzzy, kde-format
+msgid "Copy Message"
+msgid_plural "Copy %1 Messages"
+msgstr[0] "বার্তা খোলো"
+msgstr[1] "বার্তা খোলো"
+
+#: searchwindow.cpp:792
+#, fuzzy, kde-format
+msgid "Cut Message"
+msgid_plural "Cut %1 Messages"
+msgstr[0] "বার্তা মুছে ফেলো"
+msgstr[1] "বার্তা মুছে ফেলো"
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -4668,12 +5515,6 @@ msgstr ""
 msgid "Add a new identity"
 msgstr "প্রেরক &পরিচিতি:"
 
-#. i18n: file: ui/identitypage.ui:27
-#. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
-#: rc.cpp:480 simplestringlisteditor.cpp:77
-msgid "&Add..."
-msgstr "যো&গ করো..."
-
 #. i18n: file: ui/identitypage.ui:37
 #. i18n: ectx: property (toolTip), widget (QPushButton, mModifyButton)
 #: rc.cpp:483
@@ -5575,847 +6416,6 @@ msgstr "প্রের&ণ"
 #: rc.cpp:886
 msgid "Re-enable All \"Do not Ask Again\" Warnings"
 msgstr ""
-
-#: kmmainwin.cpp:57
-msgid "New &Window"
-msgstr "নতুন &উইণ্ডো"
-
-#: kmmainwin.cpp:183
-#, fuzzy
-msgid "Starting..."
-msgstr "প্রের&ণ"
-
-#: kmreadermainwin.cpp:286
-#, fuzzy
-#| msgid "trash"
-msgctxt "@action:intoolbar Move to Trash"
-msgid "Trash"
-msgstr "আবর্জনা"
-
-#: kmreadermainwin.cpp:287
-msgid "Move message to trashcan"
-msgstr "বার্তা সরিয়ে আবর্জনা ফোল্ডারে নিয়ে যাও"
-
-#: kmreadermainwin.cpp:305
-#, fuzzy
-msgid "Select Font"
-msgstr "ফোল্ডার নির্বাচন করো"
-
-#: kmreadermainwin.cpp:310
-#, fuzzy
-msgid "Select Size"
-msgstr "স্টাইল নির্বাচন করো"
-
-#: kmreaderwin.cpp:149
-msgid "New Message To..."
-msgstr "একে নতুন বার্তা..."
-
-#: kmreaderwin.cpp:156
-msgid "Reply To..."
-msgstr "একে উত্তর দাও..."
-
-#: kmreaderwin.cpp:163
-msgid "Forward To..."
-msgstr "একে ফরোয়ার্ড করো..."
-
-#: kmreaderwin.cpp:170
-msgid "Add to Address Book"
-msgstr "ঠিকানা তালিকায় যোগ করো"
-
-#: kmreaderwin.cpp:177
-msgid "Open in Address Book"
-msgstr "ঠিকানা তালিকায় খোলো"
-
-#: kmreaderwin.cpp:182
-msgid "Bookmark This Link"
-msgstr "এই লিঙ্কটি বুকমার্ক করো"
-
-#: kmreaderwin.cpp:188
-msgid "Save Link As..."
-msgstr "লিঙ্ক নতুন নামে সংরক্ষণ করো..."
-
-#: kmreaderwin.cpp:244
-msgid ""
-"KMail is now based on the Akonadi Personal Information Management framework, "
-"which brings many changes all around."
-msgstr ""
-
-#: kmreaderwin.cpp:255
-msgid "Push email (IMAP IDLE)"
-msgstr ""
-
-#: kmreaderwin.cpp:256
-#, fuzzy
-msgid "Improved virtual folders"
-msgstr "ফোল্ডার-এর নাম পরিবর্তন করা হচ্ছে"
-
-#: kmreaderwin.cpp:257
-msgid "Improved searches"
-msgstr ""
-
-#: kmreaderwin.cpp:258
-msgid "Support for adding notes (annotations) to mails"
-msgstr ""
-
-#: kmreaderwin.cpp:259
-#, fuzzy
-#| msgid "&Trash folder:"
-msgid "Tag folders"
-msgstr "আ&বর্জনা ফোল্ডার:"
-
-#: kmreaderwin.cpp:260
-msgid "Less GUI freezes, mail checks happen in the background"
-msgstr ""
-
-#: kmreaderwin.cpp:288
-msgid ""
-"<h2 style='margin-top: 0px;'>Retrieving Folder Contents</h2><p>Please "
-"wait . . .</p>&nbsp;"
-msgstr ""
-
-#: kmreaderwin.cpp:296
-msgid ""
-"<h2 style='margin-top: 0px;'>Offline</h2><p>KMail is currently in offline "
-"mode. Click <a href=\"kmail:goOnline\">here</a> to go online . . .</p>&nbsp;"
-msgstr ""
-
-#: kmreaderwin.cpp:312
-#, kde-format
-msgctxt ""
-"%1: KMail version; %2: help:// URL; %3: generated list of new features; %4: "
-"First-time user text (only shown on first start); %5: generated list of "
-"important changes; --- end of comment ---"
-msgid ""
-"<h2 style='margin-top: 0px;'>Welcome to KMail %1</h2><p>KMail is the email "
-"client by KDE.It is designed to be fully compatible with Internet mailing "
-"standards including MIME, SMTP, POP3, and IMAP.</p>\n"
-"<ul><li>KMail has many powerful features which are described in the <a href="
-"\"%2\">documentation</a></li>\n"
-"%5\n"
-"%3\n"
-"%4\n"
-"<p>We hope that you will enjoy KMail.</p>\n"
-"<p>Thank you,</p>\n"
-"<p style='margin-bottom: 0px'>&nbsp; &nbsp; The KMail Team</p>"
-msgstr ""
-
-#: kmreaderwin.cpp:329
-#, kde-format
-msgid ""
-"<p>Some of the new features in this release of KMail include (compared to "
-"KMail %1, which is part of KDE Software Compilation %2):</p>\n"
-msgstr ""
-
-#: kmreaderwin.cpp:342
-msgid ""
-"<p>Please take a moment to fill in the KMail configuration panel at Settings-"
-"&gt;Configure KMail.\n"
-"You need to create at least a default identity and an incoming as well as "
-"outgoing mail account.</p>\n"
-msgstr ""
-
-#: kmreaderwin.cpp:354
-#, kde-format
-msgid ""
-"<p><span style='font-size:125%; font-weight:bold;'>Important changes</span> "
-"(compared to KMail %1):</p>\n"
-msgstr ""
-
-#: kmreaderwin.cpp:359
-#, kde-format
-msgid "<li>%1</li>\n"
-msgstr "<li>%1</li>\n"
-
-#: kmstartup.cpp:103 kmsystemtray.cpp:74 kmsystemtray.cpp:123
-#: aboutdata.cpp:240 mailinglistpropertiesdialog.cpp:111
-msgid "KMail"
-msgstr "কে-মেইল"
-
-#: kmstartup.cpp:157
-#, kde-format
-msgid ""
-"%1 already seems to be running on another display on this machine. Running "
-"%2 more than once can cause the loss of mail. You should not start %1 unless "
-"you are sure that it is not already running."
-msgstr ""
-
-#: kmstartup.cpp:167
-#, kde-format
-msgid ""
-"%1 seems to be running on another display on this machine. Running %1 and %2 "
-"at the same time can cause the loss of mail. You should not start %2 unless "
-"you are sure that %1 is not running."
-msgstr ""
-
-#: kmstartup.cpp:175
-#, kde-format
-msgid ""
-"%1 already seems to be running on %2. Running %1 more than once can cause "
-"the loss of mail. You should not start %1 on this computer unless you are "
-"sure that it is not already running on %2."
-msgstr ""
-
-#: kmstartup.cpp:181
-#, kde-format
-msgid ""
-"%1 seems to be running on %3. Running %1 and %2 at the same time can cause "
-"the loss of mail. You should not start %2 on this computer unless you are "
-"sure that %1 is not running on %3."
-msgstr ""
-
-#: kmstartup.cpp:191
-#, fuzzy, kde-format
-#| msgid "Start %1"
-msgctxt "Start kmail even when another instance is running."
-msgid "Start %1"
-msgstr "%1 শুরু করো"
-
-#: kmstartup.cpp:192
-#, fuzzy
-#| msgid "Exit"
-msgctxt "Do not start another kmail instance."
-msgid "Exit"
-msgstr "প্রস্থান করো"
-
-#: kmsystemtray.cpp:281
-msgid "New Messages In"
-msgstr "নতুন বার্তা আছে"
-
-#: kmsystemtray.cpp:381
-#, fuzzy
-#| msgid "There are no unread messages"
-msgid "There are no unread messages"
-msgstr "কোন অপঠিত বার্তা নেই"
-
-#: kmsystemtray.cpp:382
-#, fuzzy, kde-format
-#| msgid "Unread Message"
-msgid "1 unread message"
-msgid_plural "%1 unread messages"
-msgstr[0] "অপঠিত বার্তা"
-msgstr[1] "অপঠিত বার্তা"
-
-#: aboutdata.cpp:52 aboutdata.cpp:56 aboutdata.cpp:58
-msgid "Former maintainer"
-msgstr "প্রাক্তন রক্ষণাবেক্ষণকারী"
-
-#: aboutdata.cpp:54
-msgid "Original author"
-msgstr "প্রারম্ভিক লেখক"
-
-#: aboutdata.cpp:60
-#, fuzzy
-#| msgid "Former maintainer"
-msgid "Former co-maintainer"
-msgstr "প্রাক্তন রক্ষণাবেক্ষণকারী"
-
-#: aboutdata.cpp:63 aboutdata.cpp:65
-msgid "Core developer"
-msgstr "মূল ডেভেলপার"
-
-#: aboutdata.cpp:67 aboutdata.cpp:69 aboutdata.cpp:71
-#, fuzzy
-#| msgid "Core developer"
-msgid "Former core developer"
-msgstr "মূল ডেভেলপার"
-
-#: aboutdata.cpp:73
-msgid "Documentation"
-msgstr "ডকুমেন্টেশন"
-
-#: aboutdata.cpp:80
-msgid "system tray notification"
-msgstr "সিস্টেম ট্রে বিজ্ঞপ্তি"
-
-#: aboutdata.cpp:96
-msgid "PGP 6 support and further enhancements of the encryption support"
-msgstr "পি-জি-পি ৬ (PGP 6) সমর্থন এবং এনক্রিপশন সংক্রান্ত আরো নানা কাজ"
-
-#: aboutdata.cpp:106
-#, fuzzy
-#| msgid ""
-#| "Original encryption support\n"
-#| "PGP 2 and PGP 5 support"
-msgid "Original encryption support<br/>PGP 2 and PGP 5 support"
-msgstr ""
-"প্রাথমিক এনক্রিপশন সমর্থন\n"
-"PGP 2 এবং PGP 5 সমর্থন"
-
-#: aboutdata.cpp:109
-msgid "GnuPG support"
-msgstr "GnuPG সমর্থন"
-
-#: aboutdata.cpp:117
-msgid "Akonadi porting"
-msgstr ""
-
-#: aboutdata.cpp:139
-#, fuzzy
-#| msgid "No messages to delete..."
-msgid "New message list and new folder tree"
-msgstr "মোছার মত কোন বার্তা নেই..."
-
-#: aboutdata.cpp:178
-msgid "Anti-virus support"
-msgstr "অ্যান্টি-ভাইরাস সাপোর্ট"
-
-#: aboutdata.cpp:187 aboutdata.cpp:234
-msgid "POP filters"
-msgstr "পপ (POP) ফিল্টার"
-
-#: aboutdata.cpp:208
-msgid "Usability tests and improvements"
-msgstr ""
-
-#: aboutdata.cpp:214 aboutdata.cpp:228
-msgid "Ägypten and Kroupware project management"
-msgstr "Ägypten এবং Kroupware প্রকল্প ব্যবস্থাপনা"
-
-#: aboutdata.cpp:217
-msgid "Improved HTML support"
-msgstr ""
-
-#: aboutdata.cpp:219
-msgid "beta testing of PGP 6 support"
-msgstr "PGP 6 সমর্থনের বিটা টেস্টিং"
-
-#: aboutdata.cpp:226
-msgid "timestamp for 'Transmission completed' status messages"
-msgstr "'ট্রান্সমিশন সম্পূর্ণ' স্ট্যাটাস বার্তার জন্য টাইম-স্ট্যাম্প"
-
-#: aboutdata.cpp:230
-msgid "multiple encryption keys per address"
-msgstr "প্রতি ঠিকানায় একাধিক এনক্রিপশন কী"
-
-#: aboutdata.cpp:241
-msgid "KDE Email Client"
-msgstr "কে.ডি.ই. ই-মেইল ক্লায়েন্ট"
-
-#: aboutdata.cpp:242
-msgid "Copyright © 1997–2011, KMail authors"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:56
-msgid "Mailinglist Folder Properties"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:70
-msgid "Associated Mailing List"
-msgstr "সংশ্লিষ্ট মেইলিং-লিস্ট"
-
-#: mailinglistpropertiesdialog.cpp:79
-msgid "&Folder holds a mailing list"
-msgstr "ফোল্ডার একটি মেইলিং-লিস্ট ধার&ণ করে"
-
-#: mailinglistpropertiesdialog.cpp:86
-msgid "Detect Automatically"
-msgstr "স্বয়ংক্রীয় সনাক্তকরণ"
-
-#: mailinglistpropertiesdialog.cpp:94
-msgid "Mailing list description:"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:105
-msgid "Preferred handler:"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:112
-msgid "Browser"
-msgstr "ব্রাউজার"
-
-#: mailinglistpropertiesdialog.cpp:119
-msgid "&Address type:"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:132
-msgid "Invoke Handler"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:151
-msgid "Post to List"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:152 messageactions.cpp:342
-msgid "Subscribe to List"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:153
-msgid "Unsubscribe From List"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:154
-msgid "List Archives"
-msgstr "লিস্ট আর্কাইভ"
-
-#: mailinglistpropertiesdialog.cpp:155
-msgid "List Help"
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:174
-msgid "Not available"
-msgstr "পাওয়া যাচ্ছে না"
-
-#: mailinglistpropertiesdialog.cpp:232 mailinglistpropertiesdialog.cpp:265
-msgid "Not available."
-msgstr ""
-
-#: mailinglistpropertiesdialog.cpp:262
-msgid ""
-"KMail was unable to detect a mailing list in this folder. Please fill the "
-"addresses by hand."
-msgstr ""
-
-#: newidentitydialog.cpp:46
-msgid "New Identity"
-msgstr "নতুন পরিচিতি"
-
-#: newidentitydialog.cpp:61
-msgid "&New identity:"
-msgstr "&নতুন পরিচিতি:"
-
-#: newidentitydialog.cpp:71
-msgid "&With empty fields"
-msgstr "ফাঁকা ক্ষেত্র &সমেত"
-
-#: newidentitydialog.cpp:77
-msgid "&Use System Settings values"
-msgstr ""
-
-#: newidentitydialog.cpp:82
-msgid "&Duplicate existing identity"
-msgstr "বর্তমা&ন পরিচিতির অনুরূপ"
-
-#: newidentitydialog.cpp:93
-msgid "&Existing identities:"
-msgstr "বর্তমান &পরিচিতি:"
-
-#: simplestringlisteditor.cpp:58
-msgid "New entry:"
-msgstr "নতুন এন্ট্রি:"
-
-#: simplestringlisteditor.cpp:205
-msgid "New Value"
-msgstr "নতুন মান"
-
-#: simplestringlisteditor.cpp:228
-msgid "Change Value"
-msgstr "মান পরিবর্তন করো"
-
-#: tagactionmanager.cpp:117
-#, fuzzy, kde-format
-msgid "Message Tag %1"
-msgstr "বার্তা তালিকা"
-
-#: tagactionmanager.cpp:163
-#, kde-format
-msgid "Toggle Message Tag %1"
-msgstr ""
-
-#: util.cpp:108
-msgid "Could not start the account wizard. Please check your installation."
-msgstr ""
-
-#: util.cpp:110
-#, fuzzy
-#| msgid "Unable to create account"
-msgid "Unable to start account wizard"
-msgstr "অ্যাকাউন্ট তৈরি করতে অক্ষম"
-
-#: xfaceconfigurator.cpp:88
-msgid "&Send picture with every message"
-msgstr ""
-
-#: xfaceconfigurator.cpp:90
-msgid ""
-"Check this box if you want KMail to add a so-called X-Face header to "
-"messages written with this identity. An X-Face is a small (48x48 pixels) "
-"black and white image that some mail clients are able to display."
-msgstr ""
-
-#: xfaceconfigurator.cpp:97
-msgid "This is a preview of the picture selected/entered below."
-msgstr ""
-
-#: xfaceconfigurator.cpp:111
-msgid "Click on the widgets below to obtain help on the input methods."
-msgstr ""
-
-#: xfaceconfigurator.cpp:115
-msgctxt "continuation of \"obtain picture from\""
-msgid "External Source"
-msgstr "বহিঃস্থ উত্‍স"
-
-#: xfaceconfigurator.cpp:117
-msgctxt "continuation of \"obtain picture from\""
-msgid "Input Field Below"
-msgstr "নিম্নোক্ত ইনপুট ফীল্ড"
-
-#: xfaceconfigurator.cpp:118
-msgid "Obtain pic&ture from:"
-msgstr "&এখান থেকে ছবি সংগ্রহ করো:"
-
-#: xfaceconfigurator.cpp:151
-msgid "Select File..."
-msgstr "ফাইল নির্বাচন করো..."
-
-#: xfaceconfigurator.cpp:153
-msgid ""
-"Use this to select an image file to create the picture from. The image "
-"should be of high contrast and nearly quadratic shape. A light background "
-"helps improve the result."
-msgstr ""
-
-#: xfaceconfigurator.cpp:160
-msgid "Set From Address Book"
-msgstr ""
-
-#: xfaceconfigurator.cpp:162
-msgid ""
-"You can use a scaled-down version of the picture you have set in your "
-"address book entry."
-msgstr ""
-
-#: xfaceconfigurator.cpp:168
-msgid ""
-"<qt>KMail can send a small (48x48 pixels), low-quality, monochrome picture "
-"with every message. For example, this could be a picture of you or a glyph. "
-"It is shown in the recipient's mail client (if supported).</qt>"
-msgstr ""
-
-#: xfaceconfigurator.cpp:187
-msgid "Use this field to enter an arbitrary X-Face string."
-msgstr ""
-
-#: xfaceconfigurator.cpp:191
-msgid ""
-"Examples are available at <a href=\"http://www.xs4all.nl/~ace/X-Faces/"
-"\">http://www.xs4all.nl/~ace/X-Faces/</a>."
-msgstr ""
-
-#: xfaceconfigurator.cpp:264
-msgid "You do not have your own contact defined in the address book."
-msgstr ""
-
-#: xfaceconfigurator.cpp:264 xfaceconfigurator.cpp:278
-#: xfaceconfigurator.cpp:287
-msgid "No Picture"
-msgstr "কোন ছবি নেই"
-
-#: xfaceconfigurator.cpp:278 xfaceconfigurator.cpp:287
-msgid "No picture set for your address book entry."
-msgstr ""
-
-#: snippetwidget.cpp:77
-msgid "Text Snippets"
-msgstr ""
-
-#: undostack.cpp:100
-msgid "There is nothing to undo."
-msgstr "বাতিল করার মত কিছু নেই।"
-
-#: undostack.cpp:107
-#, fuzzy, kde-format
-#| msgid "Move Messages to Folder"
-msgid "Can not move message. %1"
-msgstr "বার্তা ফোল্ডার-এ সরাও"
-
-#: messageactions.cpp:65
-msgctxt "Message->"
-msgid "&Reply"
-msgstr "&উত্তর পাঠাও"
-
-#: messageactions.cpp:70 searchwindow.cpp:302
-msgid "&Reply..."
-msgstr "উত্ত&র দাও..."
-
-#: messageactions.cpp:77
-msgid "Reply to A&uthor..."
-msgstr "লে&খককে উত্তর পাঠাও..."
-
-#: messageactions.cpp:84 searchwindow.cpp:306
-msgid "Reply to &All..."
-msgstr "&সবাইকে উত্তর দাও..."
-
-#: messageactions.cpp:91 searchwindow.cpp:310
-msgid "Reply to Mailing-&List..."
-msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
-
-#: messageactions.cpp:98
-msgid "Reply Without &Quote..."
-msgstr "উদ্ধৃতি ছাড়া উত্তর দা&ও..."
-
-#: messageactions.cpp:105
-msgid "Create To-do/Reminder..."
-msgstr ""
-
-#: messageactions.cpp:106
-msgid "Create To-do"
-msgstr ""
-
-#: messageactions.cpp:107
-msgid "Allows you to create a calendar to-do or reminder from this message"
-msgstr ""
-
-#: messageactions.cpp:108
-msgid ""
-"This option starts the KOrganizer to-do editor with initial values taken "
-"from the currently selected message. Then you can edit the to-do to your "
-"liking before saving it to your calendar."
-msgstr ""
-
-#: messageactions.cpp:115
-msgid "Mar&k Message"
-msgstr "বার্তা চিহ্নি&ত করো"
-
-#: messageactions.cpp:133
-msgid "&Edit Message"
-msgstr "বার্তা সম্পা&দন করো"
-
-#: messageactions.cpp:139 messageactions.cpp:549
-#, fuzzy
-#| msgid "Add..."
-msgid "Add Note..."
-msgstr "যোগ করো..."
-
-#: messageactions.cpp:146 searchwindow.cpp:314
-msgctxt "Message->"
-msgid "&Forward"
-msgstr "&ফরোয়ার্ড করো"
-
-#: messageactions.cpp:151
-#, fuzzy
-#| msgctxt "Message->Forward->"
-#| msgid "As &Attachment..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "As &Attachment..."
-msgstr "সংযুক্ত করে (&স)..."
-
-#: messageactions.cpp:159
-#, fuzzy
-#| msgid "&Inline..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "&Inline..."
-msgstr "বার্তার মূ&ল অংশে..."
-
-#: messageactions.cpp:167
-msgctxt "Message->Forward->"
-msgid "&Redirect..."
-msgstr "&অন্য ঠিকানায় পাঠাও..."
-
-#: messageactions.cpp:176
-#, fuzzy
-#| msgid "Reply to Mailing-&List..."
-msgctxt "Message->"
-msgid "Mailing-&List"
-msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
-
-#: messageactions.cpp:332
-#, fuzzy
-#| msgid "OpenPGP Message - Bad Signature"
-msgid "Open Message in List Archive"
-msgstr "ওপেন-পি-জি-পি বার্তা - ত্রুটিপূর্ণ স্বাক্ষর"
-
-#: messageactions.cpp:334
-#, fuzzy
-#| msgid "New Message"
-msgid "Post New Message"
-msgstr "নতুন বার্তা"
-
-#: messageactions.cpp:336
-#, fuzzy
-#| msgid "List Archives"
-msgid "Go to Archive"
-msgstr "লিস্ট আর্কাইভ"
-
-#: messageactions.cpp:338
-msgid "Request Help"
-msgstr ""
-
-#: messageactions.cpp:340
-#, fuzzy
-#| msgid "contains"
-msgctxt "Contact the owner of the mailing list"
-msgid "Contact Owner"
-msgstr "-এর মধ্যে রয়েছে"
-
-#: messageactions.cpp:344
-msgid "Unsubscribe from List"
-msgstr ""
-
-#: messageactions.cpp:502
-#, fuzzy
-#| msgid "Email"
-msgid "email"
-msgstr "ই-মেইল"
-
-#: messageactions.cpp:505
-msgid "web"
-msgstr ""
-
-#: messageactions.cpp:508
-#, fuzzy, kde-format
-#| msgid "Mail"
-msgctxt ""
-"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
-"email though could be irc/ftp or other url variant"
-msgid "%1 (%2)"
-msgstr "মেইল"
-
-#: messageactions.cpp:551
-#, fuzzy
-#| msgid "Edit Script..."
-msgid "Edit Note..."
-msgstr "স্ক্রিপ্ট সম্পাদন করো..."
-
-#: kmsearchmessagemodel.cpp:77
-#, kde-format
-msgctxt "@label"
-msgid ""
-"This model can only handle email folders. The current collection holds "
-"mimetypes: %1"
-msgstr ""
-
-#: kmsearchmessagemodel.cpp:101
-msgctxt "@label No size available"
-msgid "-"
-msgstr ""
-
-#: kmsearchmessagemodel.cpp:139
-#, fuzzy
-#| msgid "Folder"
-msgctxt "@title:column, folder (e.g. email)"
-msgid "Folder"
-msgstr "ফোল্ডার"
-
-#: searchwindow.cpp:93
-msgid "Find Messages"
-msgstr "বার্তা সন্ধান করো"
-
-#: searchwindow.cpp:96
-#, fuzzy
-#| msgid "&Search"
-msgctxt "@action:button Search for messages"
-msgid "&Search"
-msgstr "&সন্ধান"
-
-#: searchwindow.cpp:112
-msgid "Search in &all local folders"
-msgstr "স&ব স্থানীয় ফোল্ডারে সন্ধান করো"
-
-#: searchwindow.cpp:116
-msgid "Search &only in:"
-msgstr "শুধু &এখানে সন্ধান করো:"
-
-#: searchwindow.cpp:125
-msgid "I&nclude sub-folders"
-msgstr "সাব-ফোল্ডার &অন্তর্ভুক্ত করো"
-
-#: searchwindow.cpp:223
-msgid "Search folder &name:"
-msgstr "সন্ধান-ফোল্ডারের না&ম:"
-
-#: searchwindow.cpp:233 searchwindow.cpp:491
-msgid "Last Search"
-msgstr "শেষ সন্ধান"
-
-#: searchwindow.cpp:243
-#, fuzzy
-#| msgid "Delete Search"
-msgid "Op&en Search Folder"
-msgstr "সন্ধান মুছে ফেলো"
-
-#: searchwindow.cpp:252
-#, fuzzy
-#| msgid "Open Message"
-msgid "Open &Message"
-msgstr "বার্তা খোলো"
-
-#: searchwindow.cpp:263
-msgid "AMiddleLengthText..."
-msgstr "AMiddleLengthText..."
-
-#: searchwindow.cpp:264
-#, fuzzy
-#| msgid "Ready."
-msgctxt "@info:status finished searching."
-msgid "Ready."
-msgstr "তৈরি।"
-
-#: searchwindow.cpp:319
-#, fuzzy
-#| msgid "&Inline..."
-msgctxt "@action:inmenu Forward message inline."
-msgid "&Inline..."
-msgstr "বার্তার মূ&ল অংশে..."
-
-#: searchwindow.cpp:324
-msgctxt "Message->Forward->"
-msgid "As &Attachment..."
-msgstr "সংযুক্ত করে (&স)..."
-
-#: searchwindow.cpp:338
-msgid "Save Attachments..."
-msgstr "অ্যাটাচমেন্ট সংরক্ষণ করো..."
-
-#: searchwindow.cpp:344
-msgid "Clear Selection"
-msgstr "নির্বাচন ফাঁকা করো"
-
-#: searchwindow.cpp:444
-#, fuzzy
-msgctxt "Search finished."
-msgid "Done"
-msgstr "হয়ে গেছে"
-
-#: searchwindow.cpp:445 searchwindow.cpp:452
-#, kde-format
-msgid "%1 match"
-msgid_plural "%1 matches"
-msgstr[0] "%1-টি মিল"
-msgstr[1] "%1-টি মিল"
-
-#: searchwindow.cpp:447
-#, fuzzy
-msgid "Search canceled"
-msgstr "সন্ধান বাতিল"
-
-#: searchwindow.cpp:448
-#, fuzzy, kde-format
-msgid "%1 match so far"
-msgid_plural "%1 matches so far"
-msgstr[0] "এখন পর্যন্ত %1-টি মিল (%2)"
-msgstr[1] "এখন পর্যন্ত %1-টি মিল (%2)"
-
-#: searchwindow.cpp:453
-#, fuzzy, kde-format
-msgid "Searching in %1"
-msgstr "%1-এ খোঁজা হচ্ছে (বার্তা %2)"
-
-#: searchwindow.cpp:557
-#, fuzzy, kde-format
-#| msgid "Move Messages to Folder"
-msgid "Can not get search result. %1"
-msgstr "বার্তা ফোল্ডার-এ সরাও"
-
-#: searchwindow.cpp:682
-msgid ""
-"There was a problem renaming your search folder. A common reason for this is "
-"that another search folder with the same name already exists."
-msgstr ""
-
-#: searchwindow.cpp:789
-#, fuzzy, kde-format
-msgid "Copy Message"
-msgid_plural "Copy %1 Messages"
-msgstr[0] "বার্তা খোলো"
-msgstr[1] "বার্তা খোলো"
-
-#: searchwindow.cpp:792
-#, fuzzy, kde-format
-msgid "Cut Message"
-msgid_plural "Cut %1 Messages"
-msgstr[0] "বার্তা মুছে ফেলো"
-msgstr[1] "বার্তা মুছে ফেলো"
 
 #. i18n: file: tips:2
 #. i18n: ectx: @info:tipoftheday
