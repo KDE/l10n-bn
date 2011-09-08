@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-18 03:36+0200\n"
+"POT-Creation-Date: 2011-09-08 04:08+0200\n"
 "PO-Revision-Date: 2010-06-01 09:22-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -16,6 +16,116 @@ msgstr ""
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: HostConnector.cpp:44
+msgid "Connect Host"
+msgstr "হোস্ট-এর সঙ্গে যোগাযোগ"
+
+#: HostConnector.cpp:55
+msgid "Host:"
+msgstr "হোস্ট:"
+
+#: HostConnector.cpp:65
+msgid "Enter the name of the host you want to connect to."
+msgstr "যে হোস্ট-এর সঙ্গে সংযোগ স্থাপন করতে চান তার নাম লিখুন"
+
+#: HostConnector.cpp:71
+msgid "Connection Type"
+msgstr "সংযোগের ধরন"
+
+#: HostConnector.cpp:77
+msgid "ssh"
+msgstr "ssh"
+
+#: HostConnector.cpp:80
+msgid "Select this to use the secure shell to login to the remote host."
+msgstr ""
+"'সিকিওর শেল' (secure shell) ব্যবহার করে দূরবর্তী হোস্ট-এ লগ-ইন করতে এটি বাছুন"
+
+#: HostConnector.cpp:83
+msgid "rsh"
+msgstr "rsh"
+
+#: HostConnector.cpp:84
+msgid "Select this to use the remote shell to login to the remote host."
+msgstr ""
+"'রিমোট শেল' (remote shell) ব্যবহার করে দূরবর্তী হোস্ট-এ লগ-ইন করতে এটি বাছুন।"
+
+#: HostConnector.cpp:87
+msgid "Daemon"
+msgstr "ডিমন"
+
+#: HostConnector.cpp:88
+msgid ""
+"Select this if you want to connect to a ksysguard daemon that is running on "
+"the machine you want to connect to, and is listening for client requests."
+msgstr ""
+"যদি আপনি দূরবর্তী কোন মেশিনে চালু রয়েছে এবং ক্লায়েন্ট রিকোয়েস্ট শুনছে এমন কোন "
+"ksysguard ডিমন-এর সঙ্গে যোগাযোগ স্থাপন করতে চান, তবে এটি নির্বাচন করুন।"
+
+#: HostConnector.cpp:91
+msgid "Custom command"
+msgstr "স্বনির্বাচিত কমান্ড"
+
+#: HostConnector.cpp:92
+msgid ""
+"Select this to use the command you entered below to start ksysguardd on the "
+"remote host."
+msgstr ""
+"নীচে দেওয়া কমান্ড-টি ব্যবহার করে দূরবর্তী হোস্ট-এ  ksysguardd চালু করতে এটি বাছুন "
+
+#: HostConnector.cpp:95
+msgid "Port:"
+msgstr "পোর্ট:"
+
+#: HostConnector.cpp:102
+msgid ""
+"Enter the port number on which the ksysguard daemon is listening for "
+"connections."
+msgstr "ksysguard ডীমন কত নম্বর পোর্ট-এ অপেক্ষা করছে"
+
+#: HostConnector.cpp:105
+msgid "e.g.  3112"
+msgstr "উদাহরণস্বরূপ  3112"
+
+#: HostConnector.cpp:108
+msgid "Command:"
+msgstr "কমান্ড:"
+
+#: HostConnector.cpp:117
+msgid "Enter the command that runs ksysguardd on the host you want to monitor."
+msgstr ""
+"আপনি যে হোস্ট-টি মনিটর করতে চাইছেন তাতে ksysguardd চালু করতে যে  কমান্ডটি "
+"ব্যবহার করা হবে"
+
+#: HostConnector.cpp:121
+msgid "e.g. ssh -l root remote.host.org ksysguardd"
+msgstr "উদাহরণস্বরূপ ssh -l root remote.host.org ksysguardd"
+
+#: SensorBrowser.cpp:117
+msgid "Sensor Browser"
+msgstr "সেনসর ব্রাউজার"
+
+#: SensorBrowser.cpp:474
+#, fuzzy
+msgid "Drag sensors to empty cells of a worksheet "
+msgstr ""
+"একটি worksheet অথবা প্যানেল অ্যাপলিটের কক্ষ ফাঁকা করতে sensors টেনে নিয়ে যাও।"
+
+#: SensorBrowser.cpp:475
+#, fuzzy
+msgid ""
+"The sensor browser lists the connected hosts and the sensors that they "
+"provide. Click and drag sensors into drop zones of a worksheet. A display "
+"will appear that visualizes the values provided by the sensor. Some sensor "
+"displays can display values of multiple sensors. Simply drag other sensors "
+"on to the display to add more sensors."
+msgstr ""
+"sensor ব্রাউজার সংযুক্ত আয়োজন করে এবং sensors তালিকাভুক্ত করো যে তারা জোগান দাও। "
+"ক্লিক করো এবং একটি worksheet অথবা প্যানেল অ্যাপলিটের ফেলা অঞ্চলের দিকে টেনে নিয়ে "
+"যাওয়া sensors। একটি প্রদর্শন করা আবির্ভূত হবে যে sensorএর দ্বারা মান visualizeো "
+"জোগান দাও। কিছু sensor প্রদর্শন করে একাধিক sensorsএর মান প্রদর্শন করতে পারে। আরও "
+"বেশি sensors যোগ করতে প্রদর্শন করার ওপর অন্যান্য sensors সহজভাবে টেনে নিয়ে যাও।"
+
 #: SensorDisplayLib/DancingBars.cpp:96 SensorDisplayLib/FancyPlotter.cpp:283
 msgid "OK"
 msgstr "বেশ"
@@ -24,146 +134,6 @@ msgstr "বেশ"
 #: SensorDisplayLib/FancyPlotter.cpp:519 SensorDisplayLib/FancyPlotter.cpp:597
 msgid "Error"
 msgstr "সমস্যা"
-
-#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
-msgid "Drop Sensor Here"
-msgstr "সেনসর এখানে ফেলো"
-
-#: SensorDisplayLib/DummyDisplay.cpp:32
-#, fuzzy
-msgid ""
-"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
-"and drop it here. A sensor display will appear that allows you to monitor "
-"the values of the sensor over time."
-msgstr ""
-"এইটি একটি worksheetতে একটি ফাঁকা স্থান। Sensor ব্রাউজার এবং ফেলা এইটি এখানে "
-"থেকে একটি sensor টেনে নিয়ে যাও। একটি sensor প্রদর্শন করা আবির্ভূত হবে যে সময়ের "
-"ওপর sensorএর মান পর্যবেক্ষণ করতে আপনাকে অনুমোদন করো।"
-
-#: SensorDisplayLib/ListViewSettings.cpp:30
-msgid "List View Settings"
-msgstr "লিস্ট ভিউ সেটিংস"
-
-#: SensorDisplayLib/MultiMeterSettings.cpp:31
-msgctxt ""
-"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
-msgid "Multimeter Settings"
-msgstr "মাল্টিমিটার সেটিংস"
-
-#: SensorDisplayLib/SensorLoggerDlg.cpp:32
-#: SensorDisplayLib/SensorLogger.cpp:431
-msgid "Sensor Logger"
-msgstr "সেনসর লগার"
-
-#: SensorDisplayLib/SensorLoggerSettings.cpp:30
-msgid "Sensor Logger Settings"
-msgstr "সেনসর লগার সেটিংস"
-
-#: SensorDisplayLib/SensorModel.cpp:166
-msgid "Host"
-msgstr "হোস্ট"
-
-#: SensorDisplayLib/SensorModel.cpp:169
-msgid "Sensor"
-msgstr "সেনসর"
-
-#: SensorDisplayLib/SensorModel.cpp:172
-msgid "Unit"
-msgstr "একক"
-
-#: SensorDisplayLib/SensorModel.cpp:175
-msgid "Status"
-msgstr "স্ট্যাটাস"
-
-#: SensorDisplayLib/SensorModel.cpp:178
-msgid "Label"
-msgstr "লেবেল"
-
-#: SensorDisplayLib/ListView.cpp:45
-#, fuzzy, kde-format
-#| msgctxt "units"
-#| msgid "%1 KiB"
-msgid "%1 K"
-msgstr "%1 কিলোবাইট"
-
-#: SensorDisplayLib/ListView.cpp:46
-#, fuzzy, kde-format
-#| msgctxt "units"
-#| msgid "%1 MiB"
-msgid "%1 M"
-msgstr "%1 মেগাবাইট"
-
-#: SensorDisplayLib/ListView.cpp:47
-#, fuzzy, kde-format
-#| msgctxt "units"
-#| msgid "%1 GiB"
-msgid "%1 G"
-msgstr "%1 গিগাবাইট"
-
-#: SensorDisplayLib/ListView.cpp:48
-#, fuzzy, kde-format
-#| msgctxt "units"
-#| msgid "%1 TiB"
-msgid "%1 T"
-msgstr "%1 TiB"
-
-#: SensorDisplayLib/ListView.cpp:49
-#, fuzzy, kde-format
-#| msgctxt "units"
-#| msgid "%1 KiB"
-msgid "%1 P"
-msgstr "%1 কিলোবাইট"
-
-#: SensorDisplayLib/ListView.cpp:152
-#, fuzzy
-#| msgid "Display Range"
-msgid "Display Units"
-msgstr "প্রদর্শন সীমা"
-
-#: SensorDisplayLib/ListView.cpp:156
-msgid "Mixed"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:162
-msgid "Kilobytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:168
-msgid "Megabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:174
-msgid "Gigabytes"
-msgstr ""
-
-#: SensorDisplayLib/ListView.cpp:180
-#, fuzzy
-#| msgid "Temperature"
-msgid "Terabytes"
-msgstr "তাপমান"
-
-#: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:598
-msgid "&Properties"
-msgstr "বৈশিষ্ট্যা&বলী"
-
-#: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:603
-msgid "&Remove Display"
-msgstr "ডি&সপ্লে সরিয়ে ফেলো"
-
-#: SensorDisplayLib/SensorDisplay.cpp:190
-#, fuzzy, kde-format
-msgid ""
-"<qt><p>This is a sensor display. To customize a sensor display click the "
-"right mouse button here and select the <i>Properties</i> entry from the "
-"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
-"p>%1</qt>"
-msgstr ""
-"<qt><p>এইটি একটি sensor প্রদর্শন করা। একটি sensor প্রদর্শন করা ক্লিক ঠিক মাউস "
-"বাটন স্বনির্বাচন করতে এখানে এবং নির্বাচন করো<i>বৈশিষ্ট্যাবলী</i>পপ-আপ মেনু থেকে "
-"এন্ট্রি। নির্বাচন করো<i>সরিয়ে দাও</i>worksheet থেকে প্রদর্শন করা মুছে ফেলতে।</p>"
-"%1</qt>"
 
 #: SensorDisplayLib/DancingBarsSettings.cpp:43
 msgid "Edit BarGraph Preferences"
@@ -338,6 +308,21 @@ msgstr "বারগ্রাফ-এর লেবেল"
 #: SensorDisplayLib/DancingBarsSettings.cpp:367
 msgid "Enter new label:"
 msgstr "নতুন লেবেল:"
+
+#: SensorDisplayLib/DummyDisplay.cpp:30 SensorDisplayLib/DummyDisplay.cpp:38
+msgid "Drop Sensor Here"
+msgstr "সেনসর এখানে ফেলো"
+
+#: SensorDisplayLib/DummyDisplay.cpp:32
+#, fuzzy
+msgid ""
+"This is an empty space in a worksheet. Drag a sensor from the Sensor Browser "
+"and drop it here. A sensor display will appear that allows you to monitor "
+"the values of the sensor over time."
+msgstr ""
+"এইটি একটি worksheetতে একটি ফাঁকা স্থান। Sensor ব্রাউজার এবং ফেলা এইটি এখানে "
+"থেকে একটি sensor টেনে নিয়ে যাও। একটি sensor প্রদর্শন করা আবির্ভূত হবে যে সময়ের "
+"ওপর sensorএর মান পর্যবেক্ষণ করতে আপনাকে অনুমোদন করো।"
 
 #: SensorDisplayLib/FancyPlotter.cpp:178
 msgctxt "Largest axis title"
@@ -563,6 +548,73 @@ msgstr "উপরে ওঠাও"
 msgid "Move Down"
 msgstr "নীচে নামাও"
 
+#: SensorDisplayLib/ListView.cpp:45
+#, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 KiB"
+msgid "%1 K"
+msgstr "%1 কিলোবাইট"
+
+#: SensorDisplayLib/ListView.cpp:46
+#, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 MiB"
+msgid "%1 M"
+msgstr "%1 মেগাবাইট"
+
+#: SensorDisplayLib/ListView.cpp:47
+#, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 GiB"
+msgid "%1 G"
+msgstr "%1 গিগাবাইট"
+
+#: SensorDisplayLib/ListView.cpp:48
+#, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 TiB"
+msgid "%1 T"
+msgstr "%1 TiB"
+
+#: SensorDisplayLib/ListView.cpp:49
+#, fuzzy, kde-format
+#| msgctxt "units"
+#| msgid "%1 KiB"
+msgid "%1 P"
+msgstr "%1 কিলোবাইট"
+
+#: SensorDisplayLib/ListView.cpp:152
+#, fuzzy
+#| msgid "Display Range"
+msgid "Display Units"
+msgstr "প্রদর্শন সীমা"
+
+#: SensorDisplayLib/ListView.cpp:156
+msgid "Mixed"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:162
+msgid "Kilobytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:168
+msgid "Megabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:174
+msgid "Gigabytes"
+msgstr ""
+
+#: SensorDisplayLib/ListView.cpp:180
+#, fuzzy
+#| msgid "Temperature"
+msgid "Terabytes"
+msgstr "তাপমান"
+
+#: SensorDisplayLib/ListViewSettings.cpp:30
+msgid "List View Settings"
+msgstr "লিস্ট ভিউ সেটিংস"
+
 #: SensorDisplayLib/LogFile.cpp:92
 msgid "File logging settings"
 msgstr "লগ ফাইল সেটিংস"
@@ -572,6 +624,35 @@ msgstr "লগ ফাইল সেটিংস"
 #: SensorDisplayLib/LogFile.cpp:98 rc.cpp:26
 msgid "Foreground color:"
 msgstr "পুরোভূমির রং:"
+
+#: SensorDisplayLib/MultiMeterSettings.cpp:31
+msgctxt ""
+"Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
+msgid "Multimeter Settings"
+msgstr "মাল্টিমিটার সেটিংস"
+
+#: SensorDisplayLib/SensorDisplay.cpp:118
+#: SensorDisplayLib/SensorLogger.cpp:598
+msgid "&Properties"
+msgstr "বৈশিষ্ট্যা&বলী"
+
+#: SensorDisplayLib/SensorDisplay.cpp:123
+#: SensorDisplayLib/SensorLogger.cpp:603
+msgid "&Remove Display"
+msgstr "ডি&সপ্লে সরিয়ে ফেলো"
+
+#: SensorDisplayLib/SensorDisplay.cpp:190
+#, fuzzy, kde-format
+msgid ""
+"<qt><p>This is a sensor display. To customize a sensor display click the "
+"right mouse button here and select the <i>Properties</i> entry from the "
+"popup menu. Select <i>Remove</i> to delete the display from the worksheet.</"
+"p>%1</qt>"
+msgstr ""
+"<qt><p>এইটি একটি sensor প্রদর্শন করা। একটি sensor প্রদর্শন করা ক্লিক ঠিক মাউস "
+"বাটন স্বনির্বাচন করতে এখানে এবং নির্বাচন করো<i>বৈশিষ্ট্যাবলী</i>পপ-আপ মেনু থেকে "
+"এন্ট্রি। নির্বাচন করো<i>সরিয়ে দাও</i>worksheet থেকে প্রদর্শন করা মুছে ফেলতে।</p>"
+"%1</qt>"
 
 #: SensorDisplayLib/SensorLogger.cpp:138
 msgid "Logging"
@@ -595,6 +676,11 @@ msgstr "হোস্ট-এর নাম"
 msgid "Log File"
 msgstr "লগ ফাইল"
 
+#: SensorDisplayLib/SensorLogger.cpp:431
+#: SensorDisplayLib/SensorLoggerDlg.cpp:32
+msgid "Sensor Logger"
+msgstr "সেনসর লগার"
+
 #: SensorDisplayLib/SensorLogger.cpp:608
 msgid "&Remove Sensor"
 msgstr "সেনসর &সরিয়ে ফেলো"
@@ -611,159 +697,29 @@ msgstr "লগিং থামা&ও"
 msgid "S&tart Logging"
 msgstr "&লগিং শুরু করো"
 
-#: WorkSheetSettings.cpp:40
-msgid "Tab Properties"
-msgstr "ট্যাব প্রকৃতি"
+#: SensorDisplayLib/SensorLoggerSettings.cpp:30
+msgid "Sensor Logger Settings"
+msgstr "সেনসর লগার সেটিংস"
 
-#: WorkSheetSettings.cpp:61
-msgid "Properties"
-msgstr "প্রকৃতি"
+#: SensorDisplayLib/SensorModel.cpp:166
+msgid "Host"
+msgstr "হোস্ট"
 
-#: WorkSheetSettings.cpp:70
-msgid "Rows:"
-msgstr "রো (Rows):"
+#: SensorDisplayLib/SensorModel.cpp:169
+msgid "Sensor"
+msgstr "সেনসর"
 
-#: WorkSheetSettings.cpp:79
-msgid "Columns:"
-msgstr "কলাম:"
+#: SensorDisplayLib/SensorModel.cpp:172
+msgid "Unit"
+msgstr "একক"
 
-#: WorkSheetSettings.cpp:87
-#, fuzzy
-msgid "Enter the number of rows the sheet should have."
-msgstr "ের সারি টুকরার সংখ্যা ঢোকাওয়।"
+#: SensorDisplayLib/SensorModel.cpp:175
+msgid "Status"
+msgstr "স্ট্যাটাস"
 
-#: WorkSheetSettings.cpp:88
-#, fuzzy
-msgid "Enter the number of columns the sheet should have."
-msgstr "ের কলাম টুকরার সংখ্যা ঢোকাওয়।"
-
-#: WorkSheetSettings.cpp:90 TimerSettings.cpp:51
-msgid "Update interval:"
-msgstr "আপডেট বিরতি:"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
-#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: WorkSheetSettings.cpp:94 TimerSettings.cpp:58 rc.cpp:89
-msgid " sec"
-msgstr " সেকণ্ড"
-
-#: WorkSheetSettings.cpp:100 TimerSettings.cpp:61
-msgid "All displays of the sheet are updated at the rate specified here."
-msgstr "এখানে নির্ধারিত হারে ওয়ার্কশিট-এর সমস্ত ডিসপ্লে আপডেট করা হবে।"
-
-#: WorkSheetSettings.cpp:101
-msgid "Enter the title of the worksheet here."
-msgstr "এখানে ওয়ার্কশিট-এর শিরোনাম লিখুন"
-
-#: HostConnector.cpp:44
-msgid "Connect Host"
-msgstr "হোস্ট-এর সঙ্গে যোগাযোগ"
-
-#: HostConnector.cpp:55
-msgid "Host:"
-msgstr "হোস্ট:"
-
-#: HostConnector.cpp:65
-msgid "Enter the name of the host you want to connect to."
-msgstr "যে হোস্ট-এর সঙ্গে সংযোগ স্থাপন করতে চান তার নাম লিখুন"
-
-#: HostConnector.cpp:71
-msgid "Connection Type"
-msgstr "সংযোগের ধরন"
-
-#: HostConnector.cpp:77
-msgid "ssh"
-msgstr "ssh"
-
-#: HostConnector.cpp:80
-msgid "Select this to use the secure shell to login to the remote host."
-msgstr ""
-"'সিকিওর শেল' (secure shell) ব্যবহার করে দূরবর্তী হোস্ট-এ লগ-ইন করতে এটি বাছুন"
-
-#: HostConnector.cpp:83
-msgid "rsh"
-msgstr "rsh"
-
-#: HostConnector.cpp:84
-msgid "Select this to use the remote shell to login to the remote host."
-msgstr ""
-"'রিমোট শেল' (remote shell) ব্যবহার করে দূরবর্তী হোস্ট-এ লগ-ইন করতে এটি বাছুন।"
-
-#: HostConnector.cpp:87
-msgid "Daemon"
-msgstr "ডিমন"
-
-#: HostConnector.cpp:88
-msgid ""
-"Select this if you want to connect to a ksysguard daemon that is running on "
-"the machine you want to connect to, and is listening for client requests."
-msgstr ""
-"যদি আপনি দূরবর্তী কোন মেশিনে চালু রয়েছে এবং ক্লায়েন্ট রিকোয়েস্ট শুনছে এমন কোন "
-"ksysguard ডিমন-এর সঙ্গে যোগাযোগ স্থাপন করতে চান, তবে এটি নির্বাচন করুন।"
-
-#: HostConnector.cpp:91
-msgid "Custom command"
-msgstr "স্বনির্বাচিত কমান্ড"
-
-#: HostConnector.cpp:92
-msgid ""
-"Select this to use the command you entered below to start ksysguardd on the "
-"remote host."
-msgstr ""
-"নীচে দেওয়া কমান্ড-টি ব্যবহার করে দূরবর্তী হোস্ট-এ  ksysguardd চালু করতে এটি বাছুন "
-
-#: HostConnector.cpp:95
-msgid "Port:"
-msgstr "পোর্ট:"
-
-#: HostConnector.cpp:102
-msgid ""
-"Enter the port number on which the ksysguard daemon is listening for "
-"connections."
-msgstr "ksysguard ডীমন কত নম্বর পোর্ট-এ অপেক্ষা করছে"
-
-#: HostConnector.cpp:105
-msgid "e.g.  3112"
-msgstr "উদাহরণস্বরূপ  3112"
-
-#: HostConnector.cpp:108
-msgid "Command:"
-msgstr "কমান্ড:"
-
-#: HostConnector.cpp:117
-msgid "Enter the command that runs ksysguardd on the host you want to monitor."
-msgstr ""
-"আপনি যে হোস্ট-টি মনিটর করতে চাইছেন তাতে ksysguardd চালু করতে যে  কমান্ডটি "
-"ব্যবহার করা হবে"
-
-#: HostConnector.cpp:121
-msgid "e.g. ssh -l root remote.host.org ksysguardd"
-msgstr "উদাহরণস্বরূপ ssh -l root remote.host.org ksysguardd"
-
-#: SensorBrowser.cpp:117
-msgid "Sensor Browser"
-msgstr "সেনসর ব্রাউজার"
-
-#: SensorBrowser.cpp:474
-#, fuzzy
-msgid "Drag sensors to empty cells of a worksheet "
-msgstr ""
-"একটি worksheet অথবা প্যানেল অ্যাপলিটের কক্ষ ফাঁকা করতে sensors টেনে নিয়ে যাও।"
-
-#: SensorBrowser.cpp:475
-#, fuzzy
-msgid ""
-"The sensor browser lists the connected hosts and the sensors that they "
-"provide. Click and drag sensors into drop zones of a worksheet. A display "
-"will appear that visualizes the values provided by the sensor. Some sensor "
-"displays can display values of multiple sensors. Simply drag other sensors "
-"on to the display to add more sensors."
-msgstr ""
-"sensor ব্রাউজার সংযুক্ত আয়োজন করে এবং sensors তালিকাভুক্ত করো যে তারা জোগান দাও। "
-"ক্লিক করো এবং একটি worksheet অথবা প্যানেল অ্যাপলিটের ফেলা অঞ্চলের দিকে টেনে নিয়ে "
-"যাওয়া sensors। একটি প্রদর্শন করা আবির্ভূত হবে যে sensorএর দ্বারা মান visualizeো "
-"জোগান দাও। কিছু sensor প্রদর্শন করে একাধিক sensorsএর মান প্রদর্শন করতে পারে। আরও "
-"বেশি sensors যোগ করতে প্রদর্শন করার ওপর অন্যান্য sensors সহজভাবে টেনে নিয়ে যাও।"
+#: SensorDisplayLib/SensorModel.cpp:178
+msgid "Label"
+msgstr "লেবেল"
 
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
@@ -772,6 +728,20 @@ msgstr "টাইমার সেটিংস"
 #: TimerSettings.cpp:48
 msgid "Use update interval of worksheet"
 msgstr "ওয়ার্কশিট-এর আপডেট বিরতি ব্যবহার করো"
+
+#: TimerSettings.cpp:51 WorkSheetSettings.cpp:90
+msgid "Update interval:"
+msgstr "আপডেট বিরতি:"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
+#. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
+#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:89
+msgid " sec"
+msgstr " সেকণ্ড"
+
+#: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
+msgid "All displays of the sheet are updated at the rate specified here."
+msgstr "এখানে নির্ধারিত হারে ওয়ার্কশিট-এর সমস্ত ডিসপ্লে আপডেট করা হবে।"
 
 #: WorkSheet.cpp:89
 #, kde-format
@@ -837,6 +807,36 @@ msgstr "ডিসপ্লে সরিয়ে ফেলো"
 #: WorkSheet.cpp:571
 msgid "Dummy"
 msgstr "ডামি"
+
+#: WorkSheetSettings.cpp:40
+msgid "Tab Properties"
+msgstr "ট্যাব প্রকৃতি"
+
+#: WorkSheetSettings.cpp:61
+msgid "Properties"
+msgstr "প্রকৃতি"
+
+#: WorkSheetSettings.cpp:70
+msgid "Rows:"
+msgstr "রো (Rows):"
+
+#: WorkSheetSettings.cpp:79
+msgid "Columns:"
+msgstr "কলাম:"
+
+#: WorkSheetSettings.cpp:87
+#, fuzzy
+msgid "Enter the number of rows the sheet should have."
+msgstr "ের সারি টুকরার সংখ্যা ঢোকাওয়।"
+
+#: WorkSheetSettings.cpp:88
+#, fuzzy
+msgid "Enter the number of columns the sheet should have."
+msgstr "ের কলাম টুকরার সংখ্যা ঢোকাওয়।"
+
+#: WorkSheetSettings.cpp:101
+msgid "Enter the title of the worksheet here."
+msgstr "এখানে ওয়ার্কশিট-এর শিরোনাম লিখুন"
 
 #: Workspace.cpp:113
 #, kde-format
