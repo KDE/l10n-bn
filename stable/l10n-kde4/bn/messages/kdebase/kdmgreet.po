@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdmgreet\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-03 07:46+0200\n"
+"POT-Creation-Date: 2011-09-09 11:37+0200\n"
 "PO-Revision-Date: 2010-06-01 10:56-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -302,6 +302,71 @@ msgctxt "session (location)"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
 
+#: kgreeter.cpp:482
+msgctxt "@item:inlistbox session type"
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: kgreeter.cpp:483
+msgctxt "@item:inlistbox session type"
+msgid "Custom"
+msgstr "স্বনির্বাচিত"
+
+#: kgreeter.cpp:484
+msgctxt "@item:inlistbox session type"
+msgid "Failsafe"
+msgstr "নিরাপদ"
+
+#: kgreeter.cpp:560
+#, kde-format
+msgctxt "@item:inmenu session type"
+msgid "%1 (previous)"
+msgstr "%1 (পূর্ববর্তী)"
+
+#: kgreeter.cpp:622
+#, kde-format
+msgid ""
+"Your saved session type '%1' is not valid any more.\n"
+"Please select a new one, otherwise 'default' will be used."
+msgstr ""
+"আপনার সংরক্ষিত সেশন টাইপ '%1' এখন আর অর্থপূর্ণ নয়।\n"
+"অনুগ্রহ করে নতুন কিছু বেছে নিন, না হলে 'ডিফল্ট' ব্যবহার করা হবে।"
+
+#: kgreeter.cpp:745
+msgid "Warning: this is an unsecured session"
+msgstr "সাবধান:এই সেশনটি নিরাপদ (secure) নয়"
+
+#: kgreeter.cpp:747
+msgid ""
+"This display requires no X authorization.\n"
+"This means that anybody can connect to it,\n"
+"open windows on it or intercept your input."
+msgstr ""
+
+#: kgreeter.cpp:799
+msgctxt "@action:button"
+msgid "L&ogin"
+msgstr "লগ-&ইন"
+
+#: kgreeter.cpp:833 kgreeter.cpp:970
+msgctxt "@title:menu"
+msgid "Session &Type"
+msgstr "সেশন &ধরন"
+
+#: kgreeter.cpp:838 kgreeter.cpp:976
+msgctxt "@title:menu"
+msgid "&Authentication Method"
+msgstr "সত্যতা যাচাইয়ের &উপায়"
+
+#: kgreeter.cpp:843 kgreeter.cpp:981
+msgctxt "@action:inmenu"
+msgid "&Remote Login"
+msgstr "দূ&রবর্তী লগ-ইন"
+
+#: kgreeter.cpp:921 kgverify.cpp:1085
+msgid "Login failed"
+msgstr "লগ-ইন ব্যর্থ"
+
 #: kgverify.cpp:187
 msgid "No greeter widget plugin loaded. Check the configuration."
 msgstr "কোনো গ্রিটার উইজেট প্লাগ-ইন লোড করা হয়নি। কনফিগারেশন প্রীক্ষা করুন।"
@@ -406,10 +471,6 @@ msgstr "সাবধান: ক্যাপস লক চালু রয়েছ�
 #: kgverify.cpp:1083
 msgid "Change failed"
 msgstr "পরিবর্তন সম্ভব হয়নি"
-
-#: kgverify.cpp:1085 kgreeter.cpp:921
-msgid "Login failed"
-msgstr "লগ-ইন ব্যর্থ"
 
 #: kgverify.cpp:1136
 #, kde-format
@@ -556,67 +617,6 @@ msgstr "%1: %2"
 msgctxt "... host"
 msgid "X login on %1"
 msgstr "%1-এ এক্স লগ-ইন"
-
-#: kgreeter.cpp:482
-msgctxt "@item:inlistbox session type"
-msgid "Default"
-msgstr "ডিফল্ট"
-
-#: kgreeter.cpp:483
-msgctxt "@item:inlistbox session type"
-msgid "Custom"
-msgstr "স্বনির্বাচিত"
-
-#: kgreeter.cpp:484
-msgctxt "@item:inlistbox session type"
-msgid "Failsafe"
-msgstr "নিরাপদ"
-
-#: kgreeter.cpp:560
-#, kde-format
-msgctxt "@item:inmenu session type"
-msgid "%1 (previous)"
-msgstr "%1 (পূর্ববর্তী)"
-
-#: kgreeter.cpp:622
-#, kde-format
-msgid ""
-"Your saved session type '%1' is not valid any more.\n"
-"Please select a new one, otherwise 'default' will be used."
-msgstr ""
-"আপনার সংরক্ষিত সেশন টাইপ '%1' এখন আর অর্থপূর্ণ নয়।\n"
-"অনুগ্রহ করে নতুন কিছু বেছে নিন, না হলে 'ডিফল্ট' ব্যবহার করা হবে।"
-
-#: kgreeter.cpp:745
-msgid "Warning: this is an unsecured session"
-msgstr "সাবধান:এই সেশনটি নিরাপদ (secure) নয়"
-
-#: kgreeter.cpp:747
-msgid ""
-"This display requires no X authorization.\n"
-"This means that anybody can connect to it,\n"
-"open windows on it or intercept your input."
-msgstr ""
-
-#: kgreeter.cpp:799
-msgctxt "@action:button"
-msgid "L&ogin"
-msgstr "লগ-&ইন"
-
-#: kgreeter.cpp:833 kgreeter.cpp:970
-msgctxt "@title:menu"
-msgid "Session &Type"
-msgstr "সেশন &ধরন"
-
-#: kgreeter.cpp:838 kgreeter.cpp:976
-msgctxt "@title:menu"
-msgid "&Authentication Method"
-msgstr "সত্যতা যাচাইয়ের &উপায়"
-
-#: kgreeter.cpp:843 kgreeter.cpp:981
-msgctxt "@action:inmenu"
-msgid "&Remote Login"
-msgstr "দূ&রবর্তী লগ-ইন"
 
 #, fuzzy
 #~ msgid "Abort S&ession"
