@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-08 04:39+0100\n"
+"POT-Creation-Date: 2011-11-09 04:00+0100\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -2950,7 +2950,11 @@ msgstr "ফিল্টার %1"
 msgid "Out of office reply active"
 msgstr "\"অফিসে নেই\" উত্তর কনফিগার করো"
 
-#: kmmainwidget.cpp:4410
+#: kmmainwidget.cpp:4373
+msgid "Network is unconnected, some infos from folder could not be updated."
+msgstr ""
+
+#: kmmainwidget.cpp:4409
 #, fuzzy, kde-format
 #| msgid "Properties of Folder %1"
 msgctxt "@title:window"
@@ -3050,36 +3054,36 @@ msgstr "ফাইলটিতে কোন বার্তা নেই।"
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr "ফাইলটিতে একাধিক বার্তা রয়েছে। শুধু প্রথম বার্তাটি প্রদর্শিত হচ্ছে।"
 
-#: kmcommands.cpp:846
+#: kmcommands.cpp:814
 msgid ""
 "Do you want to forward the selected messages as attachments in one message "
 "(as a MIME digest) or as individual messages?"
 msgstr ""
 
-#: kmcommands.cpp:849
+#: kmcommands.cpp:817
 #, fuzzy
 msgid "Send As Digest"
 msgstr "প্রের&ণ"
 
-#: kmcommands.cpp:850
+#: kmcommands.cpp:818
 msgid "Send Individually"
 msgstr ""
 
-#: kmcommands.cpp:1325
+#: kmcommands.cpp:1294
 #, fuzzy
 msgid "Filtering messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: kmcommands.cpp:1332
+#: kmcommands.cpp:1301
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "%1 থেকে %2-টি বার্তার %3 নম্বরটি স্থানান্তরিত করা হচ্ছে।"
 
-#: kmcommands.cpp:1482
+#: kmcommands.cpp:1451
 msgid "Moving messages"
 msgstr "বার্তা সরানো হচ্ছে"
 
-#: kmcommands.cpp:1482
+#: kmcommands.cpp:1451
 msgid "Deleting messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
@@ -4136,6 +4140,41 @@ msgstr ""
 msgid "Select Tags"
 msgstr "পরিবাহক"
 
+#: tagactionmanager.cpp:116
+#, fuzzy, kde-format
+msgid "Message Tag %1"
+msgstr "বার্তা তালিকা"
+
+#: tagactionmanager.cpp:177
+#, fuzzy
+msgid "More..."
+msgstr "কে-মেইল ক&নফিগার করো..."
+
+#: tagactionmanager.cpp:211
+#, kde-format
+msgid "Toggle Message Tag %1"
+msgstr ""
+
+#: kmsearchmessagemodel.cpp:77
+#, kde-format
+msgctxt "@label"
+msgid ""
+"This model can only handle email folders. The current collection holds "
+"mimetypes: %1"
+msgstr ""
+
+#: kmsearchmessagemodel.cpp:101
+msgctxt "@label No size available"
+msgid "-"
+msgstr ""
+
+#: kmsearchmessagemodel.cpp:143
+#, fuzzy
+#| msgid "Folder"
+msgctxt "@title:column, folder (e.g. email)"
+msgid "Folder"
+msgstr "ফোল্ডার"
+
 #: messageactions.cpp:69
 msgctxt "Message->"
 msgid "&Reply"
@@ -4266,41 +4305,6 @@ msgstr "মেইল"
 #| msgid "Edit Script..."
 msgid "Edit Note..."
 msgstr "স্ক্রিপ্ট সম্পাদন করো..."
-
-#: tagactionmanager.cpp:116
-#, fuzzy, kde-format
-msgid "Message Tag %1"
-msgstr "বার্তা তালিকা"
-
-#: tagactionmanager.cpp:177
-#, fuzzy
-msgid "More..."
-msgstr "কে-মেইল ক&নফিগার করো..."
-
-#: tagactionmanager.cpp:211
-#, kde-format
-msgid "Toggle Message Tag %1"
-msgstr ""
-
-#: kmsearchmessagemodel.cpp:77
-#, kde-format
-msgctxt "@label"
-msgid ""
-"This model can only handle email folders. The current collection holds "
-"mimetypes: %1"
-msgstr ""
-
-#: kmsearchmessagemodel.cpp:101
-msgctxt "@label No size available"
-msgid "-"
-msgstr ""
-
-#: kmsearchmessagemodel.cpp:143
-#, fuzzy
-#| msgid "Folder"
-msgctxt "@title:column, folder (e.g. email)"
-msgid "Folder"
-msgstr "ফোল্ডার"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
