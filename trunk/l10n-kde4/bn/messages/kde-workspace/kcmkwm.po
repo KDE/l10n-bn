@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-11-30 04:36+0100\n"
+"POT-Creation-Date: 2011-12-02 04:31+0100\n"
 "PO-Revision-Date: 2010-06-01 10:33-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -519,32 +519,84 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "anirban@bengalinux.org, deepayan.sarkar@gmail.com"
 
-#: windows.cpp:120
+#: windows.cpp:121
+msgid "Click to Focus"
+msgstr "ক্লিক করলে ফোকাস"
+
+#: windows.cpp:122
+msgid "Focus Follows Mouse"
+msgstr "মাউস অনুসারী ফোকাস"
+
+#: windows.cpp:123
+msgid "Focus Under Mouse"
+msgstr "মাউসের নিচে ফোকাস"
+
+#: windows.cpp:124
+msgid "Focus Strictly Under Mouse"
+msgstr "মাউসের ঠিক নিচে ফোকাস"
+
+#: windows.cpp:126
+msgid "&Policy:"
+msgstr "নীতি (&ন):"
+
+#: windows.cpp:134
+#, fuzzy
+msgid ""
+"The focus policy is used to determine the active window, i.e. the window you "
+"can work in. <ul> <li><em>Click to focus:</em> A window becomes active when "
+"you click into it. This is the behavior you might know from other operating "
+"systems.</li> <li><em>Focus follows mouse:</em> Moving the mouse pointer "
+"actively on to a normal window activates it. New windows will receive the "
+"focus, without you having to point the mouse at them explicitly. Very "
+"practical if you are using the mouse a lot.</li> <li><em>Focus under mouse:</"
+"em> The window that happens to be under the mouse pointer is active. If the "
+"mouse points nowhere, the last window that was under the mouse has focus. "
+"New windows will not automatically receive the focus.</li> <li><em>Focus "
+"strictly under mouse:</em> Only the window under the mouse pointer is "
+"active. If the mouse points nowhere, nothing has focus.</li> </ul>Note that "
+"'Focus under mouse' and 'Focus strictly under mouse' prevent certain "
+"features such as the Alt+Tab walk through windows dialog in the KDE mode "
+"from working properly."
+msgstr ""
+"ফোকাস নীতি কোন উইন্ডো সক্রিয় হবে অর্থাত্‍ কোন উইন্ডোতে আপনি কাজ করতে পারবেন তা "
+"নির্ধারিত করে। <ul><li><em>ক্লিক করলে ফোকাস:</em> একটি উইন্ডো ক্লিক করলে "
+"সক্রিয়হবে। এইরকম ব্যবহার অন্য অপারেটিং সিস্টেম থেকে আপনার জানা থাকতে পারে। </"
+"li><li><em>মাউস অনুসারী ফোকাস:</em> মাউসের নির্দেশকটিকে সক্রিয়ভাবে একটিসাধারণ "
+"উইন্ডোতে নিয়ে গেলে সেটি সক্রিয় হবে। যদি আপনি মাউস খুব ব্যবহারকরেন, তাহলে এটি "
+"অত্যন্ত উপযোগী</li><li><em>মাউসের নিচে ফোকাস:</em> যে উইন্ডোটি মাউসের নির্দেশকের "
+"নিচেথাকবে সেটিই সক্রিয় হয়ে যাবে। যদি নির্দেশকটি কোথাও না থাকে, তবে শেষযে "
+"উইন্ডোটি নির্দেশকের নিচে ছিল সেটি ফোকাসিত হবে।</li><li><em>মাউসের ঠিক নিচে "
+"ফোকাস:</em> এটি 'মাউসের নিচে ফোকাস' -এর চেয়েও খারাপ। শুধুমাত্র মাউসের নির্দেশকের "
+"নিচের উইন্ডোটি সক্রিয় হবে। যদি মাউস কিছুই নির্দেশ না করে তবে কিছুই ফোকাসিত হবে "
+"না</ul>লক্ষ্যনীয়, 'মাউসের নিচে ফোকাস' বা 'মাউসের ঠিক নিচে ফোকাস' খুব একটা কাজের "
+"নয়। শুধুমাত্র পুরাতনপন্থী উগ্র ইউনিক্স সমর্থকদের জন্য ঐ নীতিগুলি রাখা হল ;-)"
+
+#: windows.cpp:158
 msgctxt "Focus Stealing Prevention Level"
 msgid "None"
 msgstr "কিছু নয়"
 
-#: windows.cpp:121
+#: windows.cpp:159
 msgctxt "Focus Stealing Prevention Level"
 msgid "Low"
 msgstr "কম"
 
-#: windows.cpp:122
+#: windows.cpp:160
 msgctxt "Focus Stealing Prevention Level"
 msgid "Medium"
 msgstr "মাঝারি"
 
-#: windows.cpp:123
+#: windows.cpp:161
 msgctxt "Focus Stealing Prevention Level"
 msgid "High"
 msgstr "বেশী"
 
-#: windows.cpp:124
+#: windows.cpp:162
 msgctxt "Focus Stealing Prevention Level"
 msgid "Extreme"
 msgstr "অত্যন্ত বেশী"
 
-#: windows.cpp:125
+#: windows.cpp:163
 #, fuzzy
 msgid ""
 "<p>This option specifies how much KWin will try to prevent unwanted focus "
@@ -578,80 +630,28 @@ msgstr ""
 "li><li><em>অত্যন্ত বেশী:</em> প্রতিটি উইন্ডো ব্যবহারকারিকে নিজে সক্রিয় করে নিতে "
 "হবে</li>"
 
-#: windows.cpp:147
+#: windows.cpp:185
 msgid "Focus stealing prevention level:"
 msgstr "ফোকাস হরণ প্রতিরোধ স্তর:"
 
-#: windows.cpp:155
-msgid "Click to Focus"
-msgstr "ক্লিক করলে ফোকাস"
-
-#: windows.cpp:156
-msgid "Focus Follows Mouse"
-msgstr "মাউস অনুসারী ফোকাস"
-
-#: windows.cpp:157
-msgid "Focus Under Mouse"
-msgstr "মাউসের নিচে ফোকাস"
-
-#: windows.cpp:158
-msgid "Focus Strictly Under Mouse"
-msgstr "মাউসের ঠিক নিচে ফোকাস"
-
-#: windows.cpp:160
-msgid "&Policy:"
-msgstr "নীতি (&ন):"
-
-#: windows.cpp:168
-#, fuzzy
-msgid ""
-"The focus policy is used to determine the active window, i.e. the window you "
-"can work in. <ul> <li><em>Click to focus:</em> A window becomes active when "
-"you click into it. This is the behavior you might know from other operating "
-"systems.</li> <li><em>Focus follows mouse:</em> Moving the mouse pointer "
-"actively on to a normal window activates it. New windows will receive the "
-"focus, without you having to point the mouse at them explicitly. Very "
-"practical if you are using the mouse a lot.</li> <li><em>Focus under mouse:</"
-"em> The window that happens to be under the mouse pointer is active. If the "
-"mouse points nowhere, the last window that was under the mouse has focus. "
-"New windows will not automatically receive the focus.</li> <li><em>Focus "
-"strictly under mouse:</em> Only the window under the mouse pointer is "
-"active. If the mouse points nowhere, nothing has focus.</li> </ul>Note that "
-"'Focus under mouse' and 'Focus strictly under mouse' prevent certain "
-"features such as the Alt+Tab walk through windows dialog in the KDE mode "
-"from working properly."
-msgstr ""
-"ফোকাস নীতি কোন উইন্ডো সক্রিয় হবে অর্থাত্‍ কোন উইন্ডোতে আপনি কাজ করতে পারবেন তা "
-"নির্ধারিত করে। <ul><li><em>ক্লিক করলে ফোকাস:</em> একটি উইন্ডো ক্লিক করলে "
-"সক্রিয়হবে। এইরকম ব্যবহার অন্য অপারেটিং সিস্টেম থেকে আপনার জানা থাকতে পারে। </"
-"li><li><em>মাউস অনুসারী ফোকাস:</em> মাউসের নির্দেশকটিকে সক্রিয়ভাবে একটিসাধারণ "
-"উইন্ডোতে নিয়ে গেলে সেটি সক্রিয় হবে। যদি আপনি মাউস খুব ব্যবহারকরেন, তাহলে এটি "
-"অত্যন্ত উপযোগী</li><li><em>মাউসের নিচে ফোকাস:</em> যে উইন্ডোটি মাউসের নির্দেশকের "
-"নিচেথাকবে সেটিই সক্রিয় হয়ে যাবে। যদি নির্দেশকটি কোথাও না থাকে, তবে শেষযে "
-"উইন্ডোটি নির্দেশকের নিচে ছিল সেটি ফোকাসিত হবে।</li><li><em>মাউসের ঠিক নিচে "
-"ফোকাস:</em> এটি 'মাউসের নিচে ফোকাস' -এর চেয়েও খারাপ। শুধুমাত্র মাউসের নির্দেশকের "
-"নিচের উইন্ডোটি সক্রিয় হবে। যদি মাউস কিছুই নির্দেশ না করে তবে কিছুই ফোকাসিত হবে "
-"না</ul>লক্ষ্যনীয়, 'মাউসের নিচে ফোকাস' বা 'মাউসের ঠিক নিচে ফোকাস' খুব একটা কাজের "
-"নয়। শুধুমাত্র পুরাতনপন্থী উগ্র ইউনিক্স সমর্থকদের জন্য ঐ নীতিগুলি রাখা হল ;-)"
-
-#: windows.cpp:197 windows.cpp:211 windows.cpp:525
+#: windows.cpp:201 windows.cpp:215 windows.cpp:540
 msgid " ms"
 msgstr " মাইক্রোসেকেন্ড"
 
-#: windows.cpp:199
+#: windows.cpp:203
 msgid "&Raise, with the following delay:"
 msgstr ""
 
-#: windows.cpp:213
+#: windows.cpp:217
 msgid "Delay focus by:"
 msgstr ""
 
-#: windows.cpp:219
+#: windows.cpp:224
 #, fuzzy
 msgid "C&lick raises active window"
 msgstr "সক্রিয় উইন্ডো ক্লি&ক করে উঁচু কর"
 
-#: windows.cpp:223
+#: windows.cpp:228
 msgid ""
 "When this option is enabled, a window in the background will automatically "
 "come to the front when the mouse pointer has been over it for some time."
@@ -659,14 +659,14 @@ msgstr ""
 "এই পছন্দটি কার্যকর করলে, মাউসের নির্দেশকটি একটি পিছে থাকা উইন্ডোর ওপর কিচুক্ষণ "
 "রাখলে উইন্ডোটি সামনে চলে আসবে।"
 
-#: windows.cpp:225
+#: windows.cpp:230
 msgid ""
 "This is the delay after which the window that the mouse pointer is over will "
 "automatically come to the front."
 msgstr ""
 "এই সময় দেরীর পর যে উইন্ডোর ওপর মাউস নির্দেশক আছে  সেটি আপনা থেকে উপরে উঠে আসবে।"
 
-#: windows.cpp:229
+#: windows.cpp:234
 msgid ""
 "When this option is enabled, the active window will be brought to the front "
 "when you click somewhere into the window contents. To change it for inactive "
@@ -675,28 +675,28 @@ msgstr ""
 "এই পছন্দ বেছে নিলে, সক্রিয় উইন্ডোর কোন জায়গায় ক্লিক  করলে উইন্ডোটি উঠে আসবে। "
 "নিষ্ক্রিয় উইন্ডোর ক্ষেত্রে এই  পরিবর্তন কার্যকরী করতে হলে, কার্য ট্যাব এ পরিবর্তন করুন।"
 
-#: windows.cpp:234
+#: windows.cpp:239
 msgid ""
 "This is the delay after which the window the mouse pointer is over will "
 "automatically receive focus."
 msgstr ""
 "এই সময় দেরীর পর যে উইন্ডোর ওপর মাউস নির্দেশক আছে সেটি আপনা থেকে উপরে উঠে  আসবে।"
 
-#: windows.cpp:237
+#: windows.cpp:242
 msgid "S&eparate screen focus"
 msgstr "&আলাদা স্ক্রীণ ফোকাস"
 
-#: windows.cpp:239
+#: windows.cpp:244
 msgid ""
 "When this option is enabled, focus operations are limited only to the active "
 "Xinerama screen"
 msgstr ""
 
-#: windows.cpp:242
+#: windows.cpp:247
 msgid "Active screen follows &mouse"
 msgstr "&সক্রিয় স্ক্রীন মাউস অনুসরণ করে"
 
-#: windows.cpp:244
+#: windows.cpp:249
 msgid ""
 "When this option is enabled, the active Xinerama screen (where new windows "
 "appear, for example) is the screen containing the mouse pointer. When "
@@ -705,15 +705,15 @@ msgid ""
 "for other focus policies."
 msgstr ""
 
-#: windows.cpp:514
+#: windows.cpp:529
 msgid "Shading"
 msgstr "ছায়াবৃতকরণ"
 
-#: windows.cpp:517
+#: windows.cpp:532
 msgid "&Enable hover"
 msgstr "হোভার কার্য&কর কর"
 
-#: windows.cpp:527
+#: windows.cpp:542
 msgid ""
 "If Shade Hover is enabled, a shaded window will un-shade automatically when "
 "the mouse pointer has been over the title bar for some time."
@@ -721,7 +721,7 @@ msgstr ""
 "শেড হোভার কার্যকরী হলে একটি ছায়াবৃত উইন্ডোর শীর্ষকবারের ওপর মাউসের নির্দেশকটি "
 "কিছুক্ষন রাখলেই সেটি আপনা থেকে ছড়িয়ে যাবে"
 
-#: windows.cpp:530
+#: windows.cpp:545
 msgid ""
 "Sets the time in milliseconds before the window unshades when the mouse "
 "pointer goes over the shaded window."
@@ -729,67 +729,67 @@ msgstr ""
 "মাউসের নির্দেশকটি কতক্ষন ছায়াবৃত উইন্ডোর শীর্ষকবারের ওপর রাখলে সেটি আপনা থেকে "
 "ছড়িয়ে যাবে সেই সময়টিমিলিসেকেন্ডে ঠিক করা যাবে।"
 
-#: windows.cpp:534
+#: windows.cpp:549
 msgid "Dela&y:"
 msgstr "বি&লম্ব"
 
-#: windows.cpp:546
+#: windows.cpp:561
 msgid "Window Tabbing"
 msgstr "উইণ্ডো ট্যাবিং"
 
-#: windows.cpp:549
+#: windows.cpp:564
 msgid "Hide inactive window tabs from the taskbar"
 msgstr ""
 
-#: windows.cpp:552
+#: windows.cpp:567
 msgid "When turned on hide all tabs that are not active from the taskbar."
 msgstr ""
 
-#: windows.cpp:556
+#: windows.cpp:571
 msgid "Automatically group similar windows"
 msgstr ""
 
-#: windows.cpp:558
+#: windows.cpp:573
 msgid ""
 "When turned on attempt to automatically detect when a newly opened window is "
 "related to an existing one and place them in the same window group."
 msgstr ""
 
-#: windows.cpp:563
+#: windows.cpp:578
 msgid "Switch to automatically grouped windows immediately"
 msgstr ""
 
-#: windows.cpp:565
+#: windows.cpp:580
 msgid ""
 "When turned on immediately switch to any new window tabs that were "
 "automatically added to the current group."
 msgstr ""
 
-#: windows.cpp:583
+#: windows.cpp:598
 msgid "Smart"
 msgstr "বুদ্ধিমান"
 
-#: windows.cpp:584
+#: windows.cpp:599
 msgid "Maximizing"
 msgstr "যথাসম্ভব বড় করা"
 
-#: windows.cpp:585
+#: windows.cpp:600
 msgid "Cascade"
 msgstr "গুচ্ছাকার"
 
-#: windows.cpp:586
+#: windows.cpp:601
 msgid "Random"
 msgstr "এলোমেলো"
 
-#: windows.cpp:587
+#: windows.cpp:602
 msgid "Centered"
 msgstr "কেন্দ্রীয়"
 
-#: windows.cpp:588
+#: windows.cpp:603
 msgid "Zero-Cornered"
 msgstr "শুন্য কোণবিশিষ্ট"
 
-#: windows.cpp:595
+#: windows.cpp:610
 #, fuzzy
 msgid ""
 "The placement policy determines where a new window will appear on the "
@@ -807,15 +807,15 @@ msgstr ""
 "করবে</li><li><em>গুচ্ছ (কাসকেড)</em> উইন্ডোগুলিকে গুচ্ছাকারে সাজাবে</"
 "li><li><em>এলোমেলো</em> যে কোনো একটি স্থানে উইন্ডোটিকে রাখবে</li></ul>"
 
-#: windows.cpp:611
+#: windows.cpp:626
 msgid "&Placement:"
 msgstr "সংস্থাপ&ন"
 
-#: windows.cpp:619
+#: windows.cpp:634
 msgid "Hide utility windows for inactive applications"
 msgstr ""
 
-#: windows.cpp:621
+#: windows.cpp:636
 msgid ""
 "When turned on, utility windows (tool windows, torn-off menus,...) of "
 "inactive applications will be hidden and will be shown only when the "
@@ -823,61 +823,61 @@ msgid ""
 "with the proper window type for this feature to work."
 msgstr ""
 
-#: windows.cpp:628
+#: windows.cpp:643
 msgid "Tiling"
 msgstr ""
 
-#: windows.cpp:631
+#: windows.cpp:646
 msgid "Enable Tiling"
 msgstr ""
 
-#: windows.cpp:633
+#: windows.cpp:648
 msgid ""
 "A tiling window manager lays out all the windows in a non-overlapping "
 "manner. This way all windows are always visible."
 msgstr ""
 
-#: windows.cpp:639
+#: windows.cpp:654
 msgid "Default Tiling &Layout"
 msgstr ""
 
-#: windows.cpp:645
+#: windows.cpp:660
 msgctxt "Spiral tiling layout"
 msgid "Spiral"
 msgstr ""
 
-#: windows.cpp:646
+#: windows.cpp:661
 msgctxt "Two-column horizontal tiling layout"
 msgid "Columns"
 msgstr ""
 
-#: windows.cpp:647
+#: windows.cpp:662
 #, fuzzy
 #| msgid "Nothing"
 msgctxt "Floating layout, windows aren't tiled at all"
 msgid "Floating"
 msgstr "কিছু নয়"
 
-#: windows.cpp:653
+#: windows.cpp:668
 msgid "Floating &Windows Raising"
 msgstr ""
 
-#: windows.cpp:661
+#: windows.cpp:676
 msgctxt "Window Raising Policy"
 msgid "Raise/Lower all floating windows"
 msgstr ""
 
-#: windows.cpp:662
+#: windows.cpp:677
 msgctxt "Window Raising Policy"
 msgid "Raise/Lower current window only"
 msgstr ""
 
-#: windows.cpp:663
+#: windows.cpp:678
 msgctxt "Window Raising Policy"
 msgid "Floating windows are always on top"
 msgstr ""
 
-#: windows.cpp:664
+#: windows.cpp:679
 msgid ""
 "The window raising policy determines how floating windows are stacked <ul> "
 "<li><em>Raise/Lower all</em> will raise all floating windows when a floating "
@@ -886,15 +886,15 @@ msgid ""
 "keep floating windows on top, even when a tiled window is activated.</ul>"
 msgstr ""
 
-#: windows.cpp:912
+#: windows.cpp:927
 msgid "Windows"
 msgstr "উইন্ডোসমূহ"
 
-#: windows.cpp:919
+#: windows.cpp:934
 msgid "Display window &geometry when moving or resizing"
 msgstr "সরানোর বা আকার বদলের সম&য় জ্যামিতি দেখাও"
 
-#: windows.cpp:921
+#: windows.cpp:936
 msgid ""
 "Enable this option if you want a window's geometry to be displayed while it "
 "is being moved or resized. The window position relative to the top-left "
@@ -904,13 +904,13 @@ msgstr ""
 "দেখতে চান, তাহলে এই অপশনটি কার্যকর করুন। পর্দার উপরের বাঁদিকের কোণের সাপেক্ষে "
 "উইন্ডোর অবস্থান এবং তার মাপ দেখানো হবে।"
 
-#: windows.cpp:926
+#: windows.cpp:941
 #, fuzzy
 #| msgid "Display content in &resizing windows"
 msgid "Display borders on &maximized windows"
 msgstr "উইন্ডো &আকার পরিবর্তনের সময় তার উপাদান দেখাও"
 
-#: windows.cpp:928
+#: windows.cpp:943
 msgid ""
 "When enabled, this feature activates the border of maximized windows and "
 "allows you to move or resize them, just like for normal windows"
@@ -918,16 +918,16 @@ msgstr ""
 "এই বৈশিষ্ট্যটি কার্য়কর করলে পুরো বড় করা উইন্ডোর সীমানা সক্রিয় হয়ে যাবে এবং "
 "আপনিসেগুলিকেও সাধারণ উইন্ডোর মত সরাতে বা আকার পরিবর্তন করতে পারবেন"
 
-#: windows.cpp:954
+#: windows.cpp:969
 msgid "Snap Zones"
 msgstr "সংযোগ ক্ষেত্র"
 
-#: windows.cpp:958
+#: windows.cpp:973
 msgctxt "no border snap zone"
 msgid "none"
 msgstr "কিছু না"
 
-#: windows.cpp:961
+#: windows.cpp:976
 msgid ""
 "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
 "the magnetic field which will make windows snap to the border when moved "
@@ -937,16 +937,16 @@ msgstr ""
 "প্রান্তে এলে যে চৌম্বক ক্ষেত্র উইন্ডোকে পর্দার প্রান্তে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:965
+#: windows.cpp:980
 msgid "&Border snap zone:"
 msgstr "সীমা সংযো&গ ক্ষেত্র:"
 
-#: windows.cpp:972
+#: windows.cpp:987
 msgctxt "no window snap zone"
 msgid "none"
 msgstr "কিছু না"
 
-#: windows.cpp:975
+#: windows.cpp:990
 #, fuzzy
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
@@ -957,16 +957,16 @@ msgstr ""
 "কাছে এলে যে চৌম্বক ক্ষেত্র তাদের পরস্পরের সঙ্গে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:979
+#: windows.cpp:994
 msgid "&Window snap zone:"
 msgstr "&উইন্ডো সংযোগ ক্ষেত্র:"
 
-#: windows.cpp:986
+#: windows.cpp:1001
 msgctxt "no center snap zone"
 msgid "none"
 msgstr "কিছু না"
 
-#: windows.cpp:989
+#: windows.cpp:1004
 #, fuzzy
 msgid ""
 "Here you can set the snap zone for the screen center, i.e. the 'strength' of "
@@ -977,16 +977,16 @@ msgstr ""
 "প্রান্তে এলে যে চৌম্বক ক্ষেত্র উইন্ডোকে পর্দার প্রান্তে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:993
+#: windows.cpp:1008
 #, fuzzy
 msgid "&Center snap zone:"
 msgstr "সীমা সংযো&গ ক্ষেত্র:"
 
-#: windows.cpp:999
+#: windows.cpp:1014
 msgid "Snap windows onl&y when overlapping"
 msgstr "কেব&লমাত্র উপরিপাতন হলে উইন্ডোগুলি আটকে দাও"
 
-#: windows.cpp:1000
+#: windows.cpp:1015
 msgid ""
 "Here you can set that windows will be only snapped if you try to overlap "
 "them, i.e. they will not be snapped if the windows comes only near another "
@@ -995,7 +995,7 @@ msgstr ""
 "এখানে আপনি স্থির করতে পারেন উইন্ডোগুলি একে অন্যের উপরে চাপাতে চাইলে আটকে যাবে, "
 "অর্থাত্‍, উইন্ডোগুলি আরেকটি উইন্ডো বা তার সীমার কাছাকাছি এলেই আটকে যাবে না।"
 
-#: windows.cpp:1044 windows.cpp:1049 windows.cpp:1054
+#: windows.cpp:1059 windows.cpp:1064 windows.cpp:1069
 msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] " পিক্সেল"
