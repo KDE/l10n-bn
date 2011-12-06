@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-09-08 04:08+0200\n"
+"POT-Creation-Date: 2011-12-06 06:27+0100\n"
 "PO-Revision-Date: 2010-06-01 09:22-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -148,14 +148,14 @@ msgstr "সীমা"
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, titleFrame)
 #: SensorDisplayLib/DancingBarsSettings.cpp:57 WorkSheetSettings.cpp:50
-#: rc.cpp:5 rc.cpp:116
+#: rc.cpp:5 rc.cpp:92
 msgid "Title"
 msgstr "শিরোনাম"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:35
 #. i18n: ectx: property (whatsThis), widget (KLineEdit, m_title)
 #: SensorDisplayLib/DancingBarsSettings.cpp:62
-#: SensorDisplayLib/FancyPlotterSettings.cpp:73 rc.cpp:47
+#: SensorDisplayLib/FancyPlotterSettings.cpp:73 rc.cpp:23
 msgid "Enter the title of the display here."
 msgstr "এখানে ডিসপ্লের শিরোনাম লিখুন"
 
@@ -195,7 +195,7 @@ msgstr "বিপদসংকেত"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:59
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1)
-#: SensorDisplayLib/DancingBarsSettings.cpp:107 rc.cpp:92
+#: SensorDisplayLib/DancingBarsSettings.cpp:107 rc.cpp:68
 msgid "Alarm for Minimum Value"
 msgstr "ন্যুনতম মানের জন্য বিপদসংকেত"
 
@@ -208,19 +208,19 @@ msgstr "বিপদসংকেত সক্রিয় করো"
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:71
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_lowerLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cpp:113 rc.cpp:56 rc.cpp:98
+#: SensorDisplayLib/DancingBarsSettings.cpp:113 rc.cpp:32 rc.cpp:74
 msgid "Enable the minimum value alarm."
 msgstr "সর্বনিম্ন মান বিপদসংকেত সক্রিয় করো"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:97
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: SensorDisplayLib/DancingBarsSettings.cpp:116 rc.cpp:101
+#: SensorDisplayLib/DancingBarsSettings.cpp:116 rc.cpp:77
 msgid "Lower limit:"
 msgstr "নিম্নসীমা:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:123
 #. i18n: ectx: property (title), widget (QGroupBox, GroupBox1_2)
-#: SensorDisplayLib/DancingBarsSettings.cpp:130 rc.cpp:104
+#: SensorDisplayLib/DancingBarsSettings.cpp:130 rc.cpp:80
 msgid "Alarm for Maximum Value"
 msgstr "সর্বোচ্চ মানের জন্য বিপদসংকেত"
 
@@ -228,13 +228,13 @@ msgstr "সর্বোচ্চ মানের জন্য বিপদসং
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:135
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_upperLimitActive)
-#: SensorDisplayLib/DancingBarsSettings.cpp:136 rc.cpp:65 rc.cpp:110
+#: SensorDisplayLib/DancingBarsSettings.cpp:136 rc.cpp:41 rc.cpp:86
 msgid "Enable the maximum value alarm."
 msgstr "সর্বাধিক মান বিপদসংকেত সক্রিয় করো"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:161
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: SensorDisplayLib/DancingBarsSettings.cpp:139 rc.cpp:113
+#: SensorDisplayLib/DancingBarsSettings.cpp:139 rc.cpp:89
 msgid "Upper limit:"
 msgstr "উর্দ্ধসীমা:"
 
@@ -253,14 +253,14 @@ msgstr "সীমাবহির্ভূত অবস্থার রং:"
 
 #. i18n: file: SensorDisplayLib/ListViewSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:74
-#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:228
 #. i18n: ectx: property (text), widget (QLabel, textLabel3_2)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:64
 #. i18n: ectx: property (text), widget (QLabel, textLabel2)
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:67
+#. i18n: ectx: property (text), widget (QLabel, textLabel2)
 #: SensorDisplayLib/DancingBarsSettings.cpp:175
-#: SensorDisplayLib/LogFile.cpp:100 rc.cpp:17 rc.cpp:29 rc.cpp:80 rc.cpp:125
+#: SensorDisplayLib/LogFile.cpp:100 rc.cpp:17 rc.cpp:56 rc.cpp:101 rc.cpp:116
 msgid "Background color:"
 msgstr "পটভূমির রং:"
 
@@ -615,16 +615,6 @@ msgstr "তাপমান"
 msgid "List View Settings"
 msgstr "লিস্ট ভিউ সেটিংস"
 
-#: SensorDisplayLib/LogFile.cpp:92
-msgid "File logging settings"
-msgstr "লগ ফাইল সেটিংস"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:61
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:26
-msgid "Foreground color:"
-msgstr "পুরোভূমির রং:"
-
 #: SensorDisplayLib/MultiMeterSettings.cpp:31
 msgctxt ""
 "Multimeter is a sensor display that mimics 'digital multimeter' aparatus"
@@ -632,12 +622,12 @@ msgid "Multimeter Settings"
 msgstr "মাল্টিমিটার সেটিংস"
 
 #: SensorDisplayLib/SensorDisplay.cpp:118
-#: SensorDisplayLib/SensorLogger.cpp:598
+#: SensorDisplayLib/SensorLogger.cpp:600
 msgid "&Properties"
 msgstr "বৈশিষ্ট্যা&বলী"
 
 #: SensorDisplayLib/SensorDisplay.cpp:123
-#: SensorDisplayLib/SensorLogger.cpp:603
+#: SensorDisplayLib/SensorLogger.cpp:605
 msgid "&Remove Display"
 msgstr "ডি&সপ্লে সরিয়ে ফেলো"
 
@@ -654,48 +644,10 @@ msgstr ""
 "এন্ট্রি। নির্বাচন করো<i>সরিয়ে দাও</i>worksheet থেকে প্রদর্শন করা মুছে ফেলতে।</p>"
 "%1</qt>"
 
-#: SensorDisplayLib/SensorLogger.cpp:138
-msgid "Logging"
-msgstr "লগিং"
-
-#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
-#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
-#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:86
-msgid "Timer Interval"
-msgstr "টাইমার বিরতি"
-
-#: SensorDisplayLib/SensorLogger.cpp:144
-msgid "Sensor Name"
-msgstr "সেনসর-এর নাম"
-
-#: SensorDisplayLib/SensorLogger.cpp:147
-msgid "Host Name"
-msgstr "হোস্ট-এর নাম"
-
-#: SensorDisplayLib/SensorLogger.cpp:150
-msgid "Log File"
-msgstr "লগ ফাইল"
-
-#: SensorDisplayLib/SensorLogger.cpp:431
 #: SensorDisplayLib/SensorLoggerDlg.cpp:32
+#: SensorDisplayLib/SensorLogger.cpp:433
 msgid "Sensor Logger"
 msgstr "সেনসর লগার"
-
-#: SensorDisplayLib/SensorLogger.cpp:608
-msgid "&Remove Sensor"
-msgstr "সেনসর &সরিয়ে ফেলো"
-
-#: SensorDisplayLib/SensorLogger.cpp:613
-msgid "&Edit Sensor..."
-msgstr "সেনসর সম্পাদনা করো..."
-
-#: SensorDisplayLib/SensorLogger.cpp:621
-msgid "St&op Logging"
-msgstr "লগিং থামা&ও"
-
-#: SensorDisplayLib/SensorLogger.cpp:624
-msgid "S&tart Logging"
-msgstr "&লগিং শুরু করো"
 
 #: SensorDisplayLib/SensorLoggerSettings.cpp:30
 msgid "Sensor Logger Settings"
@@ -721,6 +673,54 @@ msgstr "স্ট্যাটাস"
 msgid "Label"
 msgstr "লেবেল"
 
+#: SensorDisplayLib/LogFile.cpp:92
+msgid "File logging settings"
+msgstr "লগ ফাইল সেটিংস"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:54
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: SensorDisplayLib/LogFile.cpp:98 rc.cpp:113
+msgid "Foreground color:"
+msgstr "পুরোভূমির রং:"
+
+#: SensorDisplayLib/SensorLogger.cpp:138
+msgid "Logging"
+msgstr "লগিং"
+
+#. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:31
+#. i18n: ectx: property (title), widget (QGroupBox, timerFrame)
+#: SensorDisplayLib/SensorLogger.cpp:141 rc.cpp:62
+msgid "Timer Interval"
+msgstr "টাইমার বিরতি"
+
+#: SensorDisplayLib/SensorLogger.cpp:144
+msgid "Sensor Name"
+msgstr "সেনসর-এর নাম"
+
+#: SensorDisplayLib/SensorLogger.cpp:147
+msgid "Host Name"
+msgstr "হোস্ট-এর নাম"
+
+#: SensorDisplayLib/SensorLogger.cpp:150
+msgid "Log File"
+msgstr "লগ ফাইল"
+
+#: SensorDisplayLib/SensorLogger.cpp:610
+msgid "&Remove Sensor"
+msgstr "সেনসর &সরিয়ে ফেলো"
+
+#: SensorDisplayLib/SensorLogger.cpp:615
+msgid "&Edit Sensor..."
+msgstr "সেনসর সম্পাদনা করো..."
+
+#: SensorDisplayLib/SensorLogger.cpp:623
+msgid "St&op Logging"
+msgstr "লগিং থামা&ও"
+
+#: SensorDisplayLib/SensorLogger.cpp:626
+msgid "S&tart Logging"
+msgstr "&লগিং শুরু করো"
+
 #: TimerSettings.cpp:38
 msgid "Timer Settings"
 msgstr "টাইমার সেটিংস"
@@ -735,78 +735,13 @@ msgstr "আপডেট বিরতি:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:49
 #. i18n: ectx: property (suffix), widget (KIntNumInput, m_timerInterval)
-#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:89
+#: TimerSettings.cpp:58 WorkSheetSettings.cpp:94 rc.cpp:65
 msgid " sec"
 msgstr " সেকণ্ড"
 
 #: TimerSettings.cpp:61 WorkSheetSettings.cpp:100
 msgid "All displays of the sheet are updated at the rate specified here."
 msgstr "এখানে নির্ধারিত হারে ওয়ার্কশিট-এর সমস্ত ডিসপ্লে আপডেট করা হবে।"
-
-#: WorkSheet.cpp:89
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "%1 ফাইলটি খোলা যাচ্ছে না"
-
-#: WorkSheet.cpp:97
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "%1 ফাইলটি বৈধ এক্স-এম-এল নয়"
-
-#: WorkSheet.cpp:104
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"%1 ফাইলটিতে কোন বৈধ ওয়ার্কশিট ডেফিনিশন নেই, যার ডকুমেন্ট টাইপ "
-"'KSysGuardWorkSheet' হওয়া প্রয়োজন।"
-
-#: WorkSheet.cpp:128
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "%1 ফাইলে ওয়ার্কশিট-এর আয়তন অবৈধ "
-
-#: WorkSheet.cpp:229
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "%1 ফাইলটি সংরক্ষণ করা যাচ্ছে না"
-
-#: WorkSheet.cpp:275
-msgid "The clipboard does not contain a valid display description."
-msgstr "ক্লীপবোর্ড-এ বৈধ ডিসপ্লে বর্ণনা নেই"
-
-#: WorkSheet.cpp:376
-msgid "Select Display Type"
-msgstr "ডিসপ্লে টাইপ নির্বাচন করুন"
-
-#: WorkSheet.cpp:377
-msgid "&Line graph"
-msgstr "লাই&ন গ্রাফ"
-
-#: WorkSheet.cpp:378
-msgid "&Digital display"
-msgstr "ডিজিট্যাল ডি&সপ্লে"
-
-#: WorkSheet.cpp:379
-msgid "&Bar graph"
-msgstr "বার গ্রা&ফ"
-
-#: WorkSheet.cpp:380
-msgid "Log to a &file"
-msgstr "ফাইল-এ &লগ লেখো"
-
-#: WorkSheet.cpp:529
-msgid "Remove this display?"
-msgstr "এই ডিসপ্লে-টি সরিয়ে ফেলা হবে?"
-
-#: WorkSheet.cpp:530
-msgid "Remove Display"
-msgstr "ডিসপ্লে সরিয়ে ফেলো"
-
-#: WorkSheet.cpp:571
-msgid "Dummy"
-msgstr "ডামি"
 
 #: WorkSheetSettings.cpp:40
 msgid "Tab Properties"
@@ -1029,6 +964,71 @@ msgstr ""
 msgid "Optional worksheet files to load"
 msgstr "লোড করতে ঐচ্ছিক worksheet ফাইল"
 
+#: WorkSheet.cpp:88
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "%1 ফাইলটি খোলা যাচ্ছে না"
+
+#: WorkSheet.cpp:96
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "%1 ফাইলটি বৈধ এক্স-এম-এল নয়"
+
+#: WorkSheet.cpp:103
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"%1 ফাইলটিতে কোন বৈধ ওয়ার্কশিট ডেফিনিশন নেই, যার ডকুমেন্ট টাইপ "
+"'KSysGuardWorkSheet' হওয়া প্রয়োজন।"
+
+#: WorkSheet.cpp:127
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "%1 ফাইলে ওয়ার্কশিট-এর আয়তন অবৈধ "
+
+#: WorkSheet.cpp:228
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "%1 ফাইলটি সংরক্ষণ করা যাচ্ছে না"
+
+#: WorkSheet.cpp:274
+msgid "The clipboard does not contain a valid display description."
+msgstr "ক্লীপবোর্ড-এ বৈধ ডিসপ্লে বর্ণনা নেই"
+
+#: WorkSheet.cpp:375
+msgid "Select Display Type"
+msgstr "ডিসপ্লে টাইপ নির্বাচন করুন"
+
+#: WorkSheet.cpp:376
+msgid "&Line graph"
+msgstr "লাই&ন গ্রাফ"
+
+#: WorkSheet.cpp:377
+msgid "&Digital display"
+msgstr "ডিজিট্যাল ডি&সপ্লে"
+
+#: WorkSheet.cpp:378
+msgid "&Bar graph"
+msgstr "বার গ্রা&ফ"
+
+#: WorkSheet.cpp:379
+msgid "Log to a &file"
+msgstr "ফাইল-এ &লগ লেখো"
+
+#: WorkSheet.cpp:528
+msgid "Remove this display?"
+msgstr "এই ডিসপ্লে-টি সরিয়ে ফেলা হবে?"
+
+#: WorkSheet.cpp:529
+msgid "Remove Display"
+msgstr "ডিসপ্লে সরিয়ে ফেলো"
+
+#: WorkSheet.cpp:570
+msgid "Dummy"
+msgstr "ডামি"
+
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
@@ -1043,7 +1043,7 @@ msgstr "deepayan@bengalinux.org"
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:37
 #. i18n: ectx: property (title), widget (QGroupBox, colorFrame)
-#: rc.cpp:8 rc.cpp:119
+#: rc.cpp:8 rc.cpp:95
 msgid "Colors"
 msgstr "রং"
 
@@ -1051,7 +1051,7 @@ msgstr "রং"
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:51
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: rc.cpp:11 rc.cpp:122
+#: rc.cpp:11 rc.cpp:98
 msgid "Text color:"
 msgstr "লেখার রং:"
 
@@ -1061,58 +1061,22 @@ msgstr "লেখার রং:"
 msgid "Grid color:"
 msgstr "গ্রিড-এর রং:"
 
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:28
-#. i18n: ectx: attribute (title), widget (QWidget, textTab)
-#: rc.cpp:20
-msgid "&Text"
-msgstr "লেখা (&ল)"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:36
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:23
-msgid "T&itle:"
-msgstr "শিরোনা&ম:"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:154
-#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
-#: rc.cpp:32
-msgid "Fi&lter"
-msgstr "ফিল্টা&র"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:175
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
-#: rc.cpp:35
-msgid "&Add"
-msgstr "যো&গ করো"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:182
-#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
-#: rc.cpp:38
-msgid "&Delete"
-msgstr "মুছে ফেলো (&ম)"
-
-#. i18n: file: SensorDisplayLib/LogFileSettings.ui:189
-#. i18n: ectx: property (text), widget (QPushButton, changeButton)
-#: rc.cpp:41
-msgid "&Change"
-msgstr "&বদলাও"
-
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:25
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:44
+#: rc.cpp:20
 msgid "&Title:"
 msgstr "শিরোনা&ম:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:42
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, m_showUnit)
-#: rc.cpp:50
+#: rc.cpp:26
 #, fuzzy
 msgid "Enable this to append the unit to the title of the display."
 msgstr "প্রদর্শন করার শিরোনামে একক সংযোজন করতে এইটি সক্রিয় করো।"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:45
 #. i18n: ectx: property (text), widget (QCheckBox, m_showUnit)
-#: rc.cpp:53
+#: rc.cpp:29
 msgid "&Show unit"
 msgstr "&একক দেখাও"
 
@@ -1120,13 +1084,13 @@ msgstr "&একক দেখাও"
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:68
 #. i18n: ectx: property (text), widget (QCheckBox, m_lowerLimitActive)
-#: rc.cpp:59 rc.cpp:95
+#: rc.cpp:35 rc.cpp:71
 msgid "&Enable alarm"
 msgstr "অ্যালার্ম &সক্রিয় করো"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:85
 #. i18n: ectx: property (text), widget (QLabel, m_lblLowerLimit)
-#: rc.cpp:62
+#: rc.cpp:38
 msgid "Lo&wer limit:"
 msgstr "নিম্নসীমা (&ন):"
 
@@ -1134,39 +1098,75 @@ msgstr "নিম্নসীমা (&ন):"
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:132
 #. i18n: ectx: property (text), widget (QCheckBox, m_upperLimitActive)
-#: rc.cpp:68 rc.cpp:107
+#: rc.cpp:44 rc.cpp:83
 msgid "E&nable alarm"
 msgstr "অ্যালার্ম সক্রি&য় করো"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:144
 #. i18n: ectx: property (text), widget (QLabel, m_lblUpperLimit)
-#: rc.cpp:71
+#: rc.cpp:47
 msgid "&Upper limit:"
 msgstr "উর্দ্ধসীমা (&উ):"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:174
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: rc.cpp:74
+#: rc.cpp:50
 msgid "Normal digit color:"
 msgstr "স্বাভাবিক সংখ্যার রং:"
 
 #. i18n: file: SensorDisplayLib/MultiMeterSettingsWidget.ui:201
 #. i18n: ectx: property (text), widget (QLabel, textLabel2_2)
-#: rc.cpp:77
+#: rc.cpp:53
 msgid "Alarm digit color:"
 msgstr "অ্যালার্ম সংখ্যার রং:"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerDlgWidget.ui:16
 #. i18n: ectx: property (title), widget (QGroupBox, fileFrame)
-#: rc.cpp:83
+#: rc.cpp:59
 msgid "File"
 msgstr "ফাইল"
 
 #. i18n: file: SensorDisplayLib/SensorLoggerSettingsWidget.ui:77
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: rc.cpp:128
+#: rc.cpp:104
 msgid "Alarm color:"
 msgstr "অ্যালার্ম-এর রং:"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:21
+#. i18n: ectx: attribute (title), widget (QWidget, textTab)
+#: rc.cpp:107
+msgid "&Text"
+msgstr "লেখা (&ল)"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:29
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: rc.cpp:110
+msgid "T&itle:"
+msgstr "শিরোনা&ম:"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:139
+#. i18n: ectx: attribute (title), widget (QWidget, tab_2)
+#: rc.cpp:119
+msgid "Fi&lter"
+msgstr "ফিল্টা&র"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:160
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: rc.cpp:122
+msgid "&Add"
+msgstr "যো&গ করো"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:167
+#. i18n: ectx: property (text), widget (QPushButton, deleteButton)
+#: rc.cpp:125
+msgid "&Delete"
+msgstr "মুছে ফেলো (&ম)"
+
+#. i18n: file: SensorDisplayLib/LogFileSettings.ui:174
+#. i18n: ectx: property (text), widget (QPushButton, changeButton)
+#: rc.cpp:128
+msgid "&Change"
+msgstr "&বদলাও"
 
 #. i18n: file: ksysguardui.rc:4
 #. i18n: ectx: Menu (file)
