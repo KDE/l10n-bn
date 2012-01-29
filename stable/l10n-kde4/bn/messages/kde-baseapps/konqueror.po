@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konqueror\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-01-28 04:12+0100\n"
+"POT-Creation-Date: 2012-01-29 13:26+0100\n"
 "PO-Revision-Date: 2008-12-26 23:24-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -29,22 +29,75 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 0.2\n"
 
+#: src/konqview.cpp:1203
+msgid ""
+"The page you are trying to view is the result of posted form data. If you "
+"resend the data, any action the form carried out (such as search or online "
+"purchase) will be repeated. "
+msgstr ""
+"আপনি যে পাতাটি দেখার চেষ্টা করছেন সেটি একটি ফর্মের মাধ্যমে পাঠানো তথ্যের সাহায্যে "
+"তৈরি।  যদি আপনি আবার ঐ তথ্য পাঠান, তাহলে ফর্মটি যা যা কাজ করেছিল (যথা কোন কিছু "
+"সন্ধান বা অনলাইন কেনাকাটা) সেগুলি আবার করা হবে।"
+
+#: src/konqview.cpp:1205
+#, fuzzy
+#| msgid "Warning"
+msgctxt "@title:window"
+msgid "Warning"
+msgstr "সতর্কবার্তা"
+
+#: src/konqview.cpp:1205
+msgid "Resend"
+msgstr "আবার পাঠাও"
+
 #: src/konqclosedwindowsmanager.cpp:418 src/konqmainwindow.cpp:5058
 #: src/konqmainwindow.cpp:5118
 msgid "no name"
 msgstr "নামহীন"
 
-#: src/konqextensionmanager.cpp:54
-#, fuzzy
-#| msgid "Configure"
-msgctxt "@title:window"
-msgid "Configure"
-msgstr "কনফিগার করো"
+#: src/konqviewmanager.cpp:1407
+msgid ""
+"You have multiple tabs open in this window.\n"
+"Loading a view profile will close them."
+msgstr ""
+"এই উইণ্ডোয় একাধিক ট্যাব খোলা রয়েছে।\n"
+"একটি প্রদর্শন প্রোফাইল লোড করলে সেগুলি বন্ধ হয়ে যাবে।"
 
-#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
-#: src/konqextensionmanager.cpp:78
-msgid "Extensions"
-msgstr "এক্সটেনশন-সমূহ"
+#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4985
+#, fuzzy
+#| msgid "Confirmation"
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "অনুমোদন"
+
+#: src/konqviewmanager.cpp:1410
+msgid "Load View Profile"
+msgstr "প্রদর্শন প্রোফাইল লোড করো"
+
+#: src/konqviewmanager.cpp:1422
+msgid ""
+"This tab contains changes that have not been submitted.\n"
+"Loading a profile will discard these changes."
+msgstr ""
+"এই ট্যাব-এ এমন কিছু পরিবর্তন রয়েছে যা জমা দেওয়া হয়নি।\n"
+"একটি প্রোফাইল লোড করলে সেই পরিবর্তনগুলি পরিত্যক্ত হবে।"
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
+#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
+#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
+#: src/konqmainwindow.cpp:2534 src/konqmainwindow.cpp:5020
+#, fuzzy
+#| msgid "Discard Changes?"
+msgctxt "@title:window"
+msgid "Discard Changes?"
+msgstr "পরিবর্তনগুলি পরিত্যাগ করা হবে?"
+
+#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
+#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
+#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
+#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5020
+msgid "&Discard Changes"
+msgstr "&পরিবর্তন পরিত্যাগ করো"
 
 #: src/konqfactory.cpp:90
 #, kde-format
@@ -325,6 +378,150 @@ msgstr "ডেভেলপার (AdBlock filter)"
 msgid "Eduardo Robles Elvira"
 msgstr "Eduardo Robles Elvira"
 
+#: src/konqhistorydialog.cpp:45
+#, fuzzy
+#| msgid "Clear History"
+msgctxt "@title:window"
+msgid "History"
+msgstr "আগের ঘোরার ইতিহাস ভুলে যাও"
+
+#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
+msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
+msgid "Sort"
+msgstr "সাজাও"
+
+#: src/konqmain.cpp:96
+#, fuzzy
+#| msgid "Start without a default window"
+msgid "Start without a default window, when called without URLs"
+msgstr "ডিফল্ট উইণ্ডো ছাড়া শুরু করো"
+
+#: src/konqmain.cpp:98
+msgid ""
+"Preload for later use. This mode does not support URLs on the command line"
+msgstr ""
+
+#: src/konqmain.cpp:100
+msgid "Profile to open"
+msgstr "যে প্রোফাইল খোলা হবে"
+
+#: src/konqmain.cpp:102
+msgid "List available profiles"
+msgstr "সম্ভাব্য প্রোফাইলগুলি তালিকাবদ্ধ করো"
+
+#: src/konqmain.cpp:104
+#, fuzzy
+msgid "List available sessions"
+msgstr "তালিকা প্রাপ্তিসাধ্য সেশন"
+
+#: src/konqmain.cpp:106
+msgid "Session to open"
+msgstr "যে সেশন খোলা হবে"
+
+#: src/konqmain.cpp:108
+msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
+msgstr ""
+"এই URL-এর জন্য যে মাইম টাইপ ব্যবহার করা হবে (উদাহরণস্বরূপ, text/html বা inode/"
+"directory)"
+
+#: src/konqmain.cpp:109
+msgid "Part to use (e.g. khtml or kwebkitpart)"
+msgstr ""
+
+#: src/konqmain.cpp:111
+msgid ""
+"For URLs that point to files, opens the directory and selects the file, "
+"instead of opening the actual file"
+msgstr ""
+"যে সব ইউ-আর-এল একটি ফাইল নির্দেশ করে, সেগুলির জন্য ফাইলটি খোলার পরিবর্তে "
+"ফোল্ডারটি খোলে এবং ফাইলটি নির্বাচন করে"
+
+#: src/konqmain.cpp:113
+msgid "Location to open"
+msgstr "যে অবস্থান খোলা হবে"
+
+#: src/konqtabs.cpp:66
+msgid ""
+"This bar contains the list of currently open tabs. Click on a tab to make it "
+"active. You can also use keyboard shortcuts to navigate through tabs. The "
+"text on the tab shows the content currently open in it; place your mouse "
+"over the tab to see the full title, in case it has been shortened to fit the "
+"tab width."
+msgstr ""
+"এই বার-টি বর্তমানে খোলা ট্যাবগুলির তালিকা। কোন একটি ট্যাব-কে সক্রিয় করতে সেটির "
+"উপর ক্লিক করুন। বিভিন্ন ট্যাবগুলির মধ্যে ঘোরাঘুরি করতে আপনি কীবোর্ড-ও ব্যবহার করতে "
+"পারেন। ট্যাব-এর উপর লেখাটি সেই ট্যাব-এর বর্তমান বিষয়বস্তুর পরিচায়ক; যদি ট্যাব-এ "
+"আঁটাবার জন্য শিরোনামটি সঙ্কুচিত করা হয়ে থাকে, তাহলে ট্যাব-এর উপর মাউস নিয়ে গেলে "
+"পুরো শিরোনামটি দেখা যাবে। "
+
+#: src/konqtabs.cpp:100
+msgid "Open a new tab"
+msgstr "নতুন ট্যাব খোলো"
+
+#: src/konqtabs.cpp:109
+msgid "Close the current tab"
+msgstr "সক্রিয় ট্যাবটি বন্ধ করো"
+
+#: src/konqtabs.cpp:329 src/konqmainwindow.cpp:3683
+msgid "&Reload All Tabs"
+msgstr "সব ট্যাব &নতুন করে পড়ো"
+
+#: src/konqtabs.cpp:352 src/konqmainwindow.cpp:2496
+#: src/konqmainwindow.cpp:3621
+msgid "Close &Other Tabs"
+msgstr "অন্যান্য ট্যাব &বন্ধ করো"
+
+#: src/konqtabs.cpp:463 src/konqmainwindow.cpp:3594
+msgid "&New Tab"
+msgstr "&নতুন ট্যাব"
+
+#: src/konqtabs.cpp:468
+msgid "&Duplicate Tab"
+msgstr "ট্যাবের &আরেকটি অবিকল সংস্করণ তৈরি করো"
+
+#: src/konqtabs.cpp:473
+msgid "&Reload Tab"
+msgstr "ট্যাব &নতুন করে পড়ো"
+
+#: src/konqtabs.cpp:480
+msgid "Other Tabs"
+msgstr "অন্যান্য ট্যাব"
+
+#: src/konqtabs.cpp:485
+msgid "D&etach Tab"
+msgstr "ট্যাব আলাদা &করো"
+
+#: src/konqtabs.cpp:491
+msgid "&Close Tab"
+msgstr "ট্যাব &বন্ধ করো"
+
+#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
+#, fuzzy
+msgid "Und&o: Closed Tab"
+msgstr "বাতিল করা: ট্যাব বন্ধ করেছিল (&o)"
+
+#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
+#: src/konqundomanager.cpp:162
+#, fuzzy
+msgid "Und&o: Closed Window"
+msgstr "বাতিল করা: জানালা বন্ধ করেছিল (&o)"
+
+#: src/konqundomanager.cpp:122
+msgid "Und&o"
+msgstr ""
+
+#: src/konqextensionmanager.cpp:54
+#, fuzzy
+#| msgid "Configure"
+msgctxt "@title:window"
+msgid "Configure"
+msgstr "কনফিগার করো"
+
+#: src/konqextensionmanager.cpp:74 src/konqextensionmanager.cpp:77
+#: src/konqextensionmanager.cpp:78
+msgid "Extensions"
+msgstr "এক্সটেনশন-সমূহ"
+
 #: src/konqframestatusbar.cpp:109
 msgid ""
 "Checking this box on at least two views sets those views as 'linked'. Then, "
@@ -360,18 +557,6 @@ msgstr "%1 ব্যবহার &করে প্রাকদর্শন ক�
 #, kde-format
 msgid "Show %1"
 msgstr "%1 দেখাও"
-
-#: src/konqhistorydialog.cpp:45
-#, fuzzy
-#| msgid "Clear History"
-msgctxt "@title:window"
-msgid "History"
-msgstr "আগের ঘোরার ইতিহাস ভুলে যাও"
-
-#: src/konqhistorydialog.cpp:61 src/konqhistoryview.cpp:143
-msgctxt "@action:inmenu Parent of 'By Name' and 'By Date'"
-msgid "Sort"
-msgstr "সাজাও"
 
 #: src/konqhistorymodel.cpp:137
 #, kde-format
@@ -443,216 +628,6 @@ msgstr "আপনি কি সত্যিই পুরো ইতিহাস �
 msgctxt "@title:window"
 msgid "Clear History?"
 msgstr "ইতিহাস মুছে ফেলব?"
-
-#: src/konqmain.cpp:96
-#, fuzzy
-#| msgid "Start without a default window"
-msgid "Start without a default window, when called without URLs"
-msgstr "ডিফল্ট উইণ্ডো ছাড়া শুরু করো"
-
-#: src/konqmain.cpp:98
-msgid ""
-"Preload for later use. This mode does not support URLs on the command line"
-msgstr ""
-
-#: src/konqmain.cpp:100
-msgid "Profile to open"
-msgstr "যে প্রোফাইল খোলা হবে"
-
-#: src/konqmain.cpp:102
-msgid "List available profiles"
-msgstr "সম্ভাব্য প্রোফাইলগুলি তালিকাবদ্ধ করো"
-
-#: src/konqmain.cpp:104
-#, fuzzy
-msgid "List available sessions"
-msgstr "তালিকা প্রাপ্তিসাধ্য সেশন"
-
-#: src/konqmain.cpp:106
-msgid "Session to open"
-msgstr "যে সেশন খোলা হবে"
-
-#: src/konqmain.cpp:108
-msgid "Mimetype to use for this URL (e.g. text/html or inode/directory)"
-msgstr ""
-"এই URL-এর জন্য যে মাইম টাইপ ব্যবহার করা হবে (উদাহরণস্বরূপ, text/html বা inode/"
-"directory)"
-
-#: src/konqmain.cpp:109
-msgid "Part to use (e.g. khtml or kwebkitpart)"
-msgstr ""
-
-#: src/konqmain.cpp:111
-msgid ""
-"For URLs that point to files, opens the directory and selects the file, "
-"instead of opening the actual file"
-msgstr ""
-"যে সব ইউ-আর-এল একটি ফাইল নির্দেশ করে, সেগুলির জন্য ফাইলটি খোলার পরিবর্তে "
-"ফোল্ডারটি খোলে এবং ফাইলটি নির্বাচন করে"
-
-#: src/konqmain.cpp:113
-msgid "Location to open"
-msgstr "যে অবস্থান খোলা হবে"
-
-#: src/konqprofiledlg.cpp:111
-#, fuzzy
-#| msgid "Profile Management"
-msgctxt "@title:window"
-msgid "Profile Management"
-msgstr "প্রোফাইল পরিচালনা"
-
-#: src/konqprofiledlg.cpp:114
-msgid "&Rename Profile"
-msgstr "প্রোফাইলের নাম পাল্টা&ও"
-
-#: src/konqprofiledlg.cpp:115
-msgid "&Delete Profile"
-msgstr "প্রোফাই&ল মুছে ফেলো"
-
-#: src/konqsessiondlg.cpp:77
-#, fuzzy
-#| msgid "Manage Sessions"
-msgctxt "@title:window"
-msgid "Manage Sessions"
-msgstr "সেশন ব্যবস্থাপনা করো"
-
-#: src/konqsessiondlg.cpp:81
-msgid "&Open"
-msgstr "খোলো (&খ)"
-
-#: src/konqsessiondlg.cpp:175
-#, fuzzy
-#| msgid "Rename session"
-msgctxt "@title:window"
-msgid "Rename Session"
-msgstr "সেশন-এর নাম বদলাও"
-
-#: src/konqsessiondlg.cpp:223
-#, fuzzy
-#| msgid "Save Session"
-msgctxt "@title:window"
-msgid "Save Session"
-msgstr "সেশন সংরক্ষণ করো"
-
-#: src/konqsessiondlg.cpp:247
-#, kde-format
-msgid ""
-"A session with the name '%1' already exists, do you want to overwrite it?"
-msgstr ""
-"নাম '%1' এর সঙ্গে একটি অধিবেশন ইতিমধ্যে রয়েছো, আপনি এইটি উপর দিয়ে লেখতে চাও?"
-
-#: src/konqsessiondlg.cpp:248
-#, fuzzy
-msgctxt "@title:window"
-msgid "Session exists. Overwrite?"
-msgstr "অধিবেশন রয়েছো। উপর দিয়ে লেখো?"
-
-#: src/konqsessionmanager.cpp:330
-#, fuzzy
-#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
-msgid ""
-"Konqueror did not close correctly. Would you like to restore the previous "
-"session?"
-msgstr "কনকরার সঠিকভাবে বন্ধ হয়নি। আপনি কি তৎকালীন সেশনগুলি আবার চালু করতে চান?"
-
-#: src/konqsessionmanager.cpp:332
-#, fuzzy
-#| msgid "Restore Session?"
-msgctxt "@title:window"
-msgid "Restore Session?"
-msgstr "সেশন আবার চালু করব?"
-
-#: src/konqsessionmanager.cpp:333
-msgid "Restore Session"
-msgstr "সেশন আবার চালু করো"
-
-#: src/konqsessionmanager.cpp:334
-msgid "Do Not Restore"
-msgstr "চালু কোর না"
-
-#: src/konqsessionmanager.cpp:335
-msgid "Ask Me Later"
-msgstr "পরে জিজ্ঞাসা কোরো"
-
-#: src/konqundomanager.cpp:110 src/konqundomanager.cpp:266
-#, fuzzy
-msgid "Und&o: Closed Tab"
-msgstr "বাতিল করা: ট্যাব বন্ধ করেছিল (&o)"
-
-#: src/konqundomanager.cpp:112 src/konqundomanager.cpp:120
-#: src/konqundomanager.cpp:162
-#, fuzzy
-msgid "Und&o: Closed Window"
-msgstr "বাতিল করা: জানালা বন্ধ করেছিল (&o)"
-
-#: src/konqundomanager.cpp:122
-msgid "Und&o"
-msgstr ""
-
-#: src/konqviewmanager.cpp:1407
-msgid ""
-"You have multiple tabs open in this window.\n"
-"Loading a view profile will close them."
-msgstr ""
-"এই উইণ্ডোয় একাধিক ট্যাব খোলা রয়েছে।\n"
-"একটি প্রদর্শন প্রোফাইল লোড করলে সেগুলি বন্ধ হয়ে যাবে।"
-
-#: src/konqviewmanager.cpp:1409 src/konqmainwindow.cpp:4985
-#, fuzzy
-#| msgid "Confirmation"
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "অনুমোদন"
-
-#: src/konqviewmanager.cpp:1410
-msgid "Load View Profile"
-msgstr "প্রদর্শন প্রোফাইল লোড করো"
-
-#: src/konqviewmanager.cpp:1422
-msgid ""
-"This tab contains changes that have not been submitted.\n"
-"Loading a profile will discard these changes."
-msgstr ""
-"এই ট্যাব-এ এমন কিছু পরিবর্তন রয়েছে যা জমা দেওয়া হয়নি।\n"
-"একটি প্রোফাইল লোড করলে সেই পরিবর্তনগুলি পরিত্যক্ত হবে।"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2534 src/konqmainwindow.cpp:5020
-#, fuzzy
-#| msgid "Discard Changes?"
-msgctxt "@title:window"
-msgid "Discard Changes?"
-msgstr "পরিবর্তনগুলি পরিত্যাগ করা হবে?"
-
-#: src/konqviewmanager.cpp:1423 src/konqmainwindow.cpp:1633
-#: src/konqmainwindow.cpp:2360 src/konqmainwindow.cpp:2440
-#: src/konqmainwindow.cpp:2470 src/konqmainwindow.cpp:2512
-#: src/konqmainwindow.cpp:2535 src/konqmainwindow.cpp:5020
-msgid "&Discard Changes"
-msgstr "&পরিবর্তন পরিত্যাগ করো"
-
-#: src/konqview.cpp:1203
-msgid ""
-"The page you are trying to view is the result of posted form data. If you "
-"resend the data, any action the form carried out (such as search or online "
-"purchase) will be repeated. "
-msgstr ""
-"আপনি যে পাতাটি দেখার চেষ্টা করছেন সেটি একটি ফর্মের মাধ্যমে পাঠানো তথ্যের সাহায্যে "
-"তৈরি।  যদি আপনি আবার ঐ তথ্য পাঠান, তাহলে ফর্মটি যা যা কাজ করেছিল (যথা কোন কিছু "
-"সন্ধান বা অনলাইন কেনাকাটা) সেগুলি আবার করা হবে।"
-
-#: src/konqview.cpp:1205
-#, fuzzy
-#| msgid "Warning"
-msgctxt "@title:window"
-msgid "Warning"
-msgstr "সতর্কবার্তা"
-
-#: src/konqview.cpp:1205
-msgid "Resend"
-msgstr "আবার পাঠাও"
 
 #: src/konqmainwindow.cpp:577
 msgctxt "@title:tab"
@@ -756,11 +731,6 @@ msgstr "আপনি কি সত্যিই অন্য সবকটি ট�
 msgctxt "@title:window"
 msgid "Close Other Tabs Confirmation"
 msgstr "অন্যান্য ট্যাব বন্ধ করার অনুমোদন"
-
-#: src/konqmainwindow.cpp:2496 src/konqmainwindow.cpp:3621
-#: src/konqtabs.cpp:352
-msgid "Close &Other Tabs"
-msgstr "অন্যান্য ট্যাব &বন্ধ করো"
 
 #: src/konqmainwindow.cpp:2511
 msgid ""
@@ -905,10 +875,6 @@ msgstr "ভিউ পাশাপাশি ভা&গ করো"
 msgid "Split View &Top/Bottom"
 msgstr "ভিউ &উপর-নীচে ভাগ করো"
 
-#: src/konqmainwindow.cpp:3594 src/konqtabs.cpp:463
-msgid "&New Tab"
-msgstr "&নতুন ট্যাব"
-
 #: src/konqmainwindow.cpp:3600
 msgid "&Duplicate Current Tab"
 msgstr "এই ট্যাবের অবিকল সংস্ক&রণ তৈরি করো"
@@ -961,10 +927,6 @@ msgstr "প্রদর্শন প্রোফা&ইল লোড করো"
 #: src/konqmainwindow.cpp:3678 sidebar/web_module/web_module.cpp:68
 msgid "&Reload"
 msgstr "&নতুন করে পড়ো"
-
-#: src/konqmainwindow.cpp:3683 src/konqtabs.cpp:329
-msgid "&Reload All Tabs"
-msgstr "সব ট্যাব &নতুন করে পড়ো"
 
 #: src/konqmainwindow.cpp:3691
 msgid "&Force Reload"
@@ -1300,47 +1262,85 @@ msgstr ""
 "মনে হয় কনফিগারেশন-এ কিছু ভুল হয়েছে। আপনি %1-এর সাথে কনকরার-কে সংযুক্ত করেছেন, "
 "কিন্তু কনকরার এই ধরনের ফাইল নিয়ে কী করতে হয় জানে না।"
 
-#: src/konqtabs.cpp:66
+#: src/konqprofiledlg.cpp:111
+#, fuzzy
+#| msgid "Profile Management"
+msgctxt "@title:window"
+msgid "Profile Management"
+msgstr "প্রোফাইল পরিচালনা"
+
+#: src/konqprofiledlg.cpp:114
+msgid "&Rename Profile"
+msgstr "প্রোফাইলের নাম পাল্টা&ও"
+
+#: src/konqprofiledlg.cpp:115
+msgid "&Delete Profile"
+msgstr "প্রোফাই&ল মুছে ফেলো"
+
+#: src/konqsessiondlg.cpp:77
+#, fuzzy
+#| msgid "Manage Sessions"
+msgctxt "@title:window"
+msgid "Manage Sessions"
+msgstr "সেশন ব্যবস্থাপনা করো"
+
+#: src/konqsessiondlg.cpp:81
+msgid "&Open"
+msgstr "খোলো (&খ)"
+
+#: src/konqsessiondlg.cpp:175
+#, fuzzy
+#| msgid "Rename session"
+msgctxt "@title:window"
+msgid "Rename Session"
+msgstr "সেশন-এর নাম বদলাও"
+
+#: src/konqsessiondlg.cpp:223
+#, fuzzy
+#| msgid "Save Session"
+msgctxt "@title:window"
+msgid "Save Session"
+msgstr "সেশন সংরক্ষণ করো"
+
+#: src/konqsessiondlg.cpp:247
+#, kde-format
 msgid ""
-"This bar contains the list of currently open tabs. Click on a tab to make it "
-"active. You can also use keyboard shortcuts to navigate through tabs. The "
-"text on the tab shows the content currently open in it; place your mouse "
-"over the tab to see the full title, in case it has been shortened to fit the "
-"tab width."
+"A session with the name '%1' already exists, do you want to overwrite it?"
 msgstr ""
-"এই বার-টি বর্তমানে খোলা ট্যাবগুলির তালিকা। কোন একটি ট্যাব-কে সক্রিয় করতে সেটির "
-"উপর ক্লিক করুন। বিভিন্ন ট্যাবগুলির মধ্যে ঘোরাঘুরি করতে আপনি কীবোর্ড-ও ব্যবহার করতে "
-"পারেন। ট্যাব-এর উপর লেখাটি সেই ট্যাব-এর বর্তমান বিষয়বস্তুর পরিচায়ক; যদি ট্যাব-এ "
-"আঁটাবার জন্য শিরোনামটি সঙ্কুচিত করা হয়ে থাকে, তাহলে ট্যাব-এর উপর মাউস নিয়ে গেলে "
-"পুরো শিরোনামটি দেখা যাবে। "
+"নাম '%1' এর সঙ্গে একটি অধিবেশন ইতিমধ্যে রয়েছো, আপনি এইটি উপর দিয়ে লেখতে চাও?"
 
-#: src/konqtabs.cpp:100
-msgid "Open a new tab"
-msgstr "নতুন ট্যাব খোলো"
+#: src/konqsessiondlg.cpp:248
+#, fuzzy
+msgctxt "@title:window"
+msgid "Session exists. Overwrite?"
+msgstr "অধিবেশন রয়েছো। উপর দিয়ে লেখো?"
 
-#: src/konqtabs.cpp:109
-msgid "Close the current tab"
-msgstr "সক্রিয় ট্যাবটি বন্ধ করো"
+#: src/konqsessionmanager.cpp:330
+#, fuzzy
+#| msgid "Konqueror didn't close correctly. Would you like to restore session?"
+msgid ""
+"Konqueror did not close correctly. Would you like to restore the previous "
+"session?"
+msgstr "কনকরার সঠিকভাবে বন্ধ হয়নি। আপনি কি তৎকালীন সেশনগুলি আবার চালু করতে চান?"
 
-#: src/konqtabs.cpp:468
-msgid "&Duplicate Tab"
-msgstr "ট্যাবের &আরেকটি অবিকল সংস্করণ তৈরি করো"
+#: src/konqsessionmanager.cpp:332
+#, fuzzy
+#| msgid "Restore Session?"
+msgctxt "@title:window"
+msgid "Restore Session?"
+msgstr "সেশন আবার চালু করব?"
 
-#: src/konqtabs.cpp:473
-msgid "&Reload Tab"
-msgstr "ট্যাব &নতুন করে পড়ো"
+#: src/konqsessionmanager.cpp:333
+msgid "Restore Session"
+msgstr "সেশন আবার চালু করো"
 
-#: src/konqtabs.cpp:480
-msgid "Other Tabs"
-msgstr "অন্যান্য ট্যাব"
+#: src/konqsessionmanager.cpp:334
+msgid "Do Not Restore"
+msgstr "চালু কোর না"
 
-#: src/konqtabs.cpp:485
-msgid "D&etach Tab"
-msgstr "ট্যাব আলাদা &করো"
-
-#: src/konqtabs.cpp:491
-msgid "&Close Tab"
-msgstr "ট্যাব &বন্ধ করো"
+#: src/konqsessionmanager.cpp:335
+msgid "Ask Me Later"
+msgstr "পরে জিজ্ঞাসা কোরো"
 
 #: sidebar/history_module/history_module.cpp:126
 #, fuzzy
@@ -1399,6 +1399,195 @@ msgstr ""
 #: sidebar/sidebar_part.cpp:28
 msgid "Extended Sidebar"
 msgstr "বিস্তৃত সাইডবার"
+
+#: sidebar/trees/bookmark_module/bookmark_module.h:88
+#, fuzzy
+#| msgid "Add Bookmark"
+msgctxt "@title:window"
+msgid "Add Bookmark"
+msgstr "বুকমার্ক যোগ করো"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
+msgid "&Create New Folder"
+msgstr "&নতুন ফোল্ডার তৈরি করো"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
+#: sidebar/trees/konq_sidebartree.cpp:207
+msgid "Delete Folder"
+msgstr "ফোল্ডার মুছে ফেলো"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
+msgid "Delete Bookmark"
+msgstr "বুকমার্ক মুছে ফেলো"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
+#: sidebar/trees/konq_sidebartree.cpp:224
+msgid "Properties"
+msgstr "বৈশিষ্ট্যাবলী"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
+#: sidebar/trees/konq_sidebartree.cpp:228
+msgid "Open in New Window"
+msgstr "নতুন উইণ্ডোয় খোলো"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
+msgid "Open Folder in Tabs"
+msgstr "ট্যাবে ফোল্ডার খোলে"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
+#: sidebar/trees/konq_sidebartree.cpp:236
+msgid "Copy Link Address"
+msgstr "লিঙ্ক ঠিকানা কপি করো"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark folder\n"
+"\"%1\"?"
+msgstr ""
+"আপনি কি \"%1\"\n"
+"বুকমার্ক ফোল্ডারটি মুছে ফেলার ব্যাপারে নিশ্চিত?"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
+#, kde-format
+msgid ""
+"Are you sure you wish to remove the bookmark\n"
+"\"%1\"?"
+msgstr ""
+"আপনি কি \"%1\"\n"
+"বুকমার্ক-টি মুছে ফেলার ব্যাপারে নিশ্চিত? "
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
+#, fuzzy
+#| msgid "Bookmark Folder Deletion"
+msgctxt "@title:window"
+msgid "Bookmark Folder Deletion"
+msgstr "বুকমার্ক ফোল্ডার মোছা"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
+#, fuzzy
+#| msgid "Bookmark Deletion"
+msgctxt "@title:window"
+msgid "Bookmark Deletion"
+msgstr "বুকমার্ক মোছা"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
+#, fuzzy
+#| msgid "Bookmark Properties"
+msgctxt "@title:window"
+msgid "Bookmark Properties"
+msgstr "বুকমার্ক বৈশিষ্ট্যাবলী"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
+msgid "&Update"
+msgstr "&আপডেট"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
+msgid "Name:"
+msgstr "নাম:"
+
+#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
+msgid "Location:"
+msgstr "অবস্থান:"
+
+#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
+#, kde-format
+msgid "Cannot find parent item %1 in the tree. Internal error."
+msgstr "ট্রি-তে উর্ধ্বস্থ বস্তু %1 পাওয়া যায়নি। অভ্যন্তরীন সমস্যা।"
+
+#: sidebar/trees/konq_sidebartree.cpp:203
+msgid "&Create New Folder..."
+msgstr "&নতুন ফোল্ডার"
+
+#: sidebar/trees/konq_sidebartree.cpp:211
+msgid "Move to Trash"
+msgstr ""
+
+#: sidebar/trees/konq_sidebartree.cpp:215
+msgid "Rename"
+msgstr "নাম পাল্টাও"
+
+#: sidebar/trees/konq_sidebartree.cpp:220
+msgid "Delete Link"
+msgstr "লিঙ্ক মুছে ফেলো"
+
+#: sidebar/trees/konq_sidebartree.cpp:951
+msgid "New Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: sidebar/trees/konq_sidebartree.cpp:955
+#, fuzzy
+#| msgid "Create New Folder"
+msgctxt "@title:window"
+msgid "Create New Folder"
+msgstr "নতুন ফোল্ডার তৈরি করো"
+
+#: sidebar/trees/konq_sidebartree.cpp:956
+msgid "Enter folder name:"
+msgstr "ফোল্ডার-এর নাম:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+#, fuzzy
+#| msgid "Name:"
+msgctxt "@label"
+msgid "Name:"
+msgstr "নাম:"
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
+#: sidebar/web_module/web_module.cpp:300
+msgctxt "@label"
+msgid "Path or URL:"
+msgstr ""
+
+#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
+msgctxt "@title:window"
+msgid "Add folder sidebar module"
+msgstr ""
+
+#: sidebar/web_module/web_module.cpp:57
+msgid "&Open Link"
+msgstr "লিঙ্ক খোলো (&খ)"
+
+#: sidebar/web_module/web_module.cpp:73
+msgid "Set &Automatic Reload"
+msgstr "স্ব&য়ংক্রিয় রিলোড নির্ধারণ করো"
+
+#: sidebar/web_module/web_module.cpp:137
+#, fuzzy
+#| msgid "Set Refresh Timeout (0 disables)"
+msgctxt "@title:window"
+msgid "Set Refresh Timeout (0 disables)"
+msgstr "রিফ্রেশ টাইম-আউট নির্ধারণ করুন (0 নিষ্ক্রিয় করে)"
+
+#: sidebar/web_module/web_module.cpp:145
+#, fuzzy
+#| msgid "Minute"
+#| msgid_plural "Minutes"
+msgid " minute"
+msgid_plural " minutes"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"
+
+#: sidebar/web_module/web_module.cpp:148
+#, fuzzy
+#| msgid " sec"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " সেকণ্ড"
+msgstr[1] " সেকণ্ড"
+
+#: sidebar/web_module/web_module.cpp:280
+#, fuzzy
+#| msgid "Web Sidebar"
+msgctxt "@action:inmenu Add"
+msgid "Web Sidebar Module"
+msgstr "ওয়েব সাইডবার"
+
+#: sidebar/web_module/web_module.cpp:301
+msgctxt "@title:window"
+msgid "Add web sidebar module"
+msgstr ""
 
 #: sidebar/sidebar_widget.cpp:94
 msgid "Rollback to System Default"
@@ -1501,195 +1690,6 @@ msgstr "সরাও"
 #| msgid "Web Sidebar"
 msgid "Web module"
 msgstr "ওয়েব সাইডবার"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:74
-msgid "&Create New Folder"
-msgstr "&নতুন ফোল্ডার তৈরি করো"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:78
-#: sidebar/trees/konq_sidebartree.cpp:207
-msgid "Delete Folder"
-msgstr "ফোল্ডার মুছে ফেলো"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:82
-msgid "Delete Bookmark"
-msgstr "বুকমার্ক মুছে ফেলো"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:86
-#: sidebar/trees/konq_sidebartree.cpp:224
-msgid "Properties"
-msgstr "বৈশিষ্ট্যাবলী"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:90
-#: sidebar/trees/konq_sidebartree.cpp:228
-msgid "Open in New Window"
-msgstr "নতুন উইণ্ডোয় খোলো"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:98
-msgid "Open Folder in Tabs"
-msgstr "ট্যাবে ফোল্ডার খোলে"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:102
-#: sidebar/trees/konq_sidebartree.cpp:236
-msgid "Copy Link Address"
-msgstr "লিঙ্ক ঠিকানা কপি করো"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:335
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark folder\n"
-"\"%1\"?"
-msgstr ""
-"আপনি কি \"%1\"\n"
-"বুকমার্ক ফোল্ডারটি মুছে ফেলার ব্যাপারে নিশ্চিত?"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:336
-#, kde-format
-msgid ""
-"Are you sure you wish to remove the bookmark\n"
-"\"%1\"?"
-msgstr ""
-"আপনি কি \"%1\"\n"
-"বুকমার্ক-টি মুছে ফেলার ব্যাপারে নিশ্চিত? "
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:337
-#, fuzzy
-#| msgid "Bookmark Folder Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Folder Deletion"
-msgstr "বুকমার্ক ফোল্ডার মোছা"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:338
-#, fuzzy
-#| msgid "Bookmark Deletion"
-msgctxt "@title:window"
-msgid "Bookmark Deletion"
-msgstr "বুকমার্ক মোছা"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:380
-#, fuzzy
-#| msgid "Bookmark Properties"
-msgctxt "@title:window"
-msgid "Bookmark Properties"
-msgstr "বুকমার্ক বৈশিষ্ট্যাবলী"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:565
-msgid "&Update"
-msgstr "&আপডেট"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:573
-msgid "Name:"
-msgstr "নাম:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.cpp:581
-msgid "Location:"
-msgstr "অবস্থান:"
-
-#: sidebar/trees/bookmark_module/bookmark_module.h:88
-#, fuzzy
-#| msgid "Add Bookmark"
-msgctxt "@title:window"
-msgid "Add Bookmark"
-msgstr "বুকমার্ক যোগ করো"
-
-#: sidebar/trees/dirtree_module/dirtree_module.cpp:417
-#, kde-format
-msgid "Cannot find parent item %1 in the tree. Internal error."
-msgstr "ট্রি-তে উর্ধ্বস্থ বস্তু %1 পাওয়া যায়নি। অভ্যন্তরীন সমস্যা।"
-
-#: sidebar/trees/konq_sidebartree.cpp:203
-msgid "&Create New Folder..."
-msgstr "&নতুন ফোল্ডার"
-
-#: sidebar/trees/konq_sidebartree.cpp:211
-msgid "Move to Trash"
-msgstr ""
-
-#: sidebar/trees/konq_sidebartree.cpp:215
-msgid "Rename"
-msgstr "নাম পাল্টাও"
-
-#: sidebar/trees/konq_sidebartree.cpp:220
-msgid "Delete Link"
-msgstr "লিঙ্ক মুছে ফেলো"
-
-#: sidebar/trees/konq_sidebartree.cpp:951
-msgid "New Folder"
-msgstr "নতুন ফোল্ডার"
-
-#: sidebar/trees/konq_sidebartree.cpp:955
-#, fuzzy
-#| msgid "Create New Folder"
-msgctxt "@title:window"
-msgid "Create New Folder"
-msgstr "নতুন ফোল্ডার তৈরি করো"
-
-#: sidebar/trees/konq_sidebartree.cpp:956
-msgid "Enter folder name:"
-msgstr "ফোল্ডার-এর নাম:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-#, fuzzy
-#| msgid "Name:"
-msgctxt "@label"
-msgid "Name:"
-msgstr "নাম:"
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:179
-#: sidebar/web_module/web_module.cpp:300
-msgctxt "@label"
-msgid "Path or URL:"
-msgstr ""
-
-#: sidebar/trees/konqsidebar_oldtreemodule.cpp:180
-msgctxt "@title:window"
-msgid "Add folder sidebar module"
-msgstr ""
-
-#: sidebar/web_module/web_module.cpp:57
-msgid "&Open Link"
-msgstr "লিঙ্ক খোলো (&খ)"
-
-#: sidebar/web_module/web_module.cpp:73
-msgid "Set &Automatic Reload"
-msgstr "স্ব&য়ংক্রিয় রিলোড নির্ধারণ করো"
-
-#: sidebar/web_module/web_module.cpp:137
-#, fuzzy
-#| msgid "Set Refresh Timeout (0 disables)"
-msgctxt "@title:window"
-msgid "Set Refresh Timeout (0 disables)"
-msgstr "রিফ্রেশ টাইম-আউট নির্ধারণ করুন (0 নিষ্ক্রিয় করে)"
-
-#: sidebar/web_module/web_module.cpp:145
-#, fuzzy
-#| msgid "Minute"
-#| msgid_plural "Minutes"
-msgid " minute"
-msgid_plural " minutes"
-msgstr[0] "মিনিট"
-msgstr[1] "মিনিট"
-
-#: sidebar/web_module/web_module.cpp:148
-#, fuzzy
-#| msgid " sec"
-msgid " second"
-msgid_plural " seconds"
-msgstr[0] " সেকণ্ড"
-msgstr[1] " সেকণ্ড"
-
-#: sidebar/web_module/web_module.cpp:280
-#, fuzzy
-#| msgid "Web Sidebar"
-msgctxt "@action:inmenu Add"
-msgid "Web Sidebar Module"
-msgstr "ওয়েব সাইডবার"
-
-#: sidebar/web_module/web_module.cpp:301
-msgctxt "@title:window"
-msgid "Add web sidebar module"
-msgstr ""
 
 #: about/konq_aboutpage.cc:79 about/konq_aboutpage.cc:81
 #: about/konq_aboutpage.cc:135 about/konq_aboutpage.cc:137
