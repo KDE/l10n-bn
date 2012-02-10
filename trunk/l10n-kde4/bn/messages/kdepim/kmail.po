@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-09 04:19+0100\n"
+"POT-Creation-Date: 2012-02-10 04:25+0100\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -21,14 +21,14 @@ msgstr ""
 msgid "Notification"
 msgstr "নতুন মেইল বিজ্ঞপ্তি"
 
-#: addressvalidationjob.cpp:77
+#: addressvalidationjob.cpp:79
 #, kde-format
 msgid "Distribution list %2 is empty, it cannot be used."
 msgid_plural "Distribution lists %2 are empty, they cannot be used."
 msgstr[0] ""
 msgstr[1] ""
 
-#: addressvalidationjob.cpp:80 addressvalidationjob.cpp:89
+#: addressvalidationjob.cpp:82 addressvalidationjob.cpp:91
 #: identitydialog.cpp:607
 msgid "Invalid Email Address"
 msgstr "অবৈধ ই-মেইল ঠিকানা"
@@ -407,7 +407,7 @@ msgstr "<qt>আপনি কি সত্যিই <b>%1</b> নামক পর
 msgid "Remove Identity"
 msgstr "পরিচিতি সরিয়ে ফেলো"
 
-#: identitypage.cpp:231 simplestringlisteditor.cpp:88
+#: identitypage.cpp:231 simplestringlisteditor.cpp:89
 #, fuzzy
 msgid "&Remove"
 msgstr "&সরিয়ে ফেলো"
@@ -1229,7 +1229,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, mModifyButton)
 #. i18n: file: ui/accountspagereceivingtab.ui:46
 #. i18n: ectx: property (text), widget (KPushButton, mModifyAccountButton)
-#: configuredialog.cpp:2794 simplestringlisteditor.cpp:100 rc.cpp:427
+#: configuredialog.cpp:2794 simplestringlisteditor.cpp:101 rc.cpp:427
 #: rc.cpp:889
 msgid "&Modify..."
 msgstr "&বদলাও..."
@@ -4012,24 +4012,6 @@ msgid ""
 "addresses by hand."
 msgstr ""
 
-#: simplestringlisteditor.cpp:58
-msgid "New entry:"
-msgstr "নতুন এন্ট্রি:"
-
-#. i18n: file: ui/identitypage.ui:27
-#. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
-#: simplestringlisteditor.cpp:77 rc.cpp:421
-msgid "&Add..."
-msgstr "যো&গ করো..."
-
-#: simplestringlisteditor.cpp:207
-msgid "New Value"
-msgstr "নতুন মান"
-
-#: simplestringlisteditor.cpp:230
-msgid "Change Value"
-msgstr "মান পরিবর্তন করো"
-
 #: tagactionmanager.cpp:95
 #, fuzzy, kde-format
 msgid "Message Tag %1"
@@ -4176,6 +4158,202 @@ msgstr ""
 msgctxt "Document/application separator in titlebar"
 msgid " – "
 msgstr ""
+
+#: simplestringlisteditor.cpp:58
+msgid "New entry:"
+msgstr "নতুন এন্ট্রি:"
+
+#. i18n: file: ui/identitypage.ui:27
+#. i18n: ectx: property (text), widget (QPushButton, mButtonAdd)
+#: simplestringlisteditor.cpp:78 rc.cpp:421
+msgid "&Add..."
+msgstr "যো&গ করো..."
+
+#: simplestringlisteditor.cpp:210
+msgid "New Value"
+msgstr "নতুন মান"
+
+#: simplestringlisteditor.cpp:236
+msgid "Change Value"
+msgstr "মান পরিবর্তন করো"
+
+#: newidentitydialog.cpp:46
+msgid "New Identity"
+msgstr "নতুন পরিচিতি"
+
+#: newidentitydialog.cpp:61
+msgid "&New identity:"
+msgstr "&নতুন পরিচিতি:"
+
+#: newidentitydialog.cpp:71
+msgid "&With empty fields"
+msgstr "ফাঁকা ক্ষেত্র &সমেত"
+
+#: newidentitydialog.cpp:77
+msgid "&Use System Settings values"
+msgstr ""
+
+#: newidentitydialog.cpp:82
+msgid "&Duplicate existing identity"
+msgstr "বর্তমা&ন পরিচিতির অনুরূপ"
+
+#: newidentitydialog.cpp:93
+msgid "&Existing identities:"
+msgstr "বর্তমান &পরিচিতি:"
+
+#: snippetwidget.cpp:74
+msgid "Text Snippets"
+msgstr ""
+
+#: tagselectdialog.cpp:43
+#, fuzzy
+#| msgid "Transport"
+msgid "Select Tags"
+msgstr "পরিবাহক"
+
+#: messageactions.cpp:71
+msgctxt "Message->"
+msgid "&Reply"
+msgstr "&উত্তর পাঠাও"
+
+#: messageactions.cpp:83
+msgid "Reply to A&uthor..."
+msgstr "লে&খককে উত্তর পাঠাও..."
+
+#: messageactions.cpp:104
+msgid "Reply Without &Quote..."
+msgstr "উদ্ধৃতি ছাড়া উত্তর দা&ও..."
+
+#: messageactions.cpp:111
+msgid "Filter on Mailing-&List..."
+msgstr "মে&ইলিং-লিস্ট দিয়ে ফিল্টার করো..."
+
+#: messageactions.cpp:115
+msgid "Create To-do/Reminder..."
+msgstr ""
+
+#: messageactions.cpp:116
+msgid "Create To-do"
+msgstr ""
+
+#: messageactions.cpp:117
+msgid "Allows you to create a calendar to-do or reminder from this message"
+msgstr ""
+
+#: messageactions.cpp:118
+msgid ""
+"This option starts the KOrganizer to-do editor with initial values taken "
+"from the currently selected message. Then you can edit the to-do to your "
+"liking before saving it to your calendar."
+msgstr ""
+
+#: messageactions.cpp:125
+msgid "Mar&k Message"
+msgstr "বার্তা চিহ্নি&ত করো"
+
+#: messageactions.cpp:146
+msgid "&Edit Message"
+msgstr "বার্তা সম্পা&দন করো"
+
+#: messageactions.cpp:152 messageactions.cpp:613
+#, fuzzy
+#| msgid "Add..."
+msgid "Add Note..."
+msgstr "যোগ করো..."
+
+#: messageactions.cpp:164
+#, fuzzy
+#| msgctxt "Message->Forward->"
+#| msgid "As &Attachment..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "As &Attachment..."
+msgstr "সংযুক্ত করে (&স)..."
+
+#: messageactions.cpp:172
+#, fuzzy
+#| msgid "&Inline..."
+msgctxt "@action:inmenu Message->Forward->"
+msgid "&Inline..."
+msgstr "বার্তার মূ&ল অংশে..."
+
+#: messageactions.cpp:180
+msgctxt "Message->Forward->"
+msgid "&Redirect..."
+msgstr "&অন্য ঠিকানায় পাঠাও..."
+
+#: messageactions.cpp:189
+#, fuzzy
+#| msgid "Reply to Mailing-&List..."
+msgctxt "Message->"
+msgid "Mailing-&List"
+msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
+
+#: messageactions.cpp:350
+msgid "Filter on Mailing-List..."
+msgstr ""
+
+#: messageactions.cpp:377
+#, fuzzy
+#| msgid "OpenPGP Message - Bad Signature"
+msgid "Open Message in List Archive"
+msgstr "ওপেন-পি-জি-পি বার্তা - ত্রুটিপূর্ণ স্বাক্ষর"
+
+#: messageactions.cpp:379
+#, fuzzy
+#| msgid "New Message"
+msgid "Post New Message"
+msgstr "নতুন বার্তা"
+
+#: messageactions.cpp:381
+#, fuzzy
+#| msgid "List Archives"
+msgid "Go to Archive"
+msgstr "লিস্ট আর্কাইভ"
+
+#: messageactions.cpp:383
+msgid "Request Help"
+msgstr ""
+
+#: messageactions.cpp:385
+#, fuzzy
+#| msgid "contains"
+msgctxt "Contact the owner of the mailing list"
+msgid "Contact Owner"
+msgstr "-এর মধ্যে রয়েছে"
+
+#: messageactions.cpp:389
+msgid "Unsubscribe from List"
+msgstr ""
+
+#: messageactions.cpp:398
+#, kde-format
+msgid "Filter on Mailing-List %1..."
+msgstr ""
+
+#: messageactions.cpp:562
+#, fuzzy
+#| msgid "Email"
+msgid "email"
+msgstr "ই-মেইল"
+
+#: messageactions.cpp:565
+msgid "web"
+msgstr ""
+
+#: messageactions.cpp:568
+#, fuzzy, kde-format
+#| msgid "Mail"
+msgctxt ""
+"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
+"email though could be irc/ftp or other url variant"
+msgid "%1 (%2)"
+msgstr "মেইল"
+
+#: messageactions.cpp:615
+#, fuzzy
+#| msgid "Edit Script..."
+msgid "Edit Note..."
+msgstr "স্ক্রিপ্ট সম্পাদন করো..."
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
@@ -6028,184 +6206,6 @@ msgstr "বিস্তারিত &নতুন মেইল বিজ্ঞ�
 #| msgid "Other Actio&ns"
 msgid "Other Actio&ns..."
 msgstr "&অন্যান্য কাজ"
-
-#: newidentitydialog.cpp:46
-msgid "New Identity"
-msgstr "নতুন পরিচিতি"
-
-#: newidentitydialog.cpp:61
-msgid "&New identity:"
-msgstr "&নতুন পরিচিতি:"
-
-#: newidentitydialog.cpp:71
-msgid "&With empty fields"
-msgstr "ফাঁকা ক্ষেত্র &সমেত"
-
-#: newidentitydialog.cpp:77
-msgid "&Use System Settings values"
-msgstr ""
-
-#: newidentitydialog.cpp:82
-msgid "&Duplicate existing identity"
-msgstr "বর্তমা&ন পরিচিতির অনুরূপ"
-
-#: newidentitydialog.cpp:93
-msgid "&Existing identities:"
-msgstr "বর্তমান &পরিচিতি:"
-
-#: snippetwidget.cpp:74
-msgid "Text Snippets"
-msgstr ""
-
-#: tagselectdialog.cpp:43
-#, fuzzy
-#| msgid "Transport"
-msgid "Select Tags"
-msgstr "পরিবাহক"
-
-#: messageactions.cpp:71
-msgctxt "Message->"
-msgid "&Reply"
-msgstr "&উত্তর পাঠাও"
-
-#: messageactions.cpp:83
-msgid "Reply to A&uthor..."
-msgstr "লে&খককে উত্তর পাঠাও..."
-
-#: messageactions.cpp:104
-msgid "Reply Without &Quote..."
-msgstr "উদ্ধৃতি ছাড়া উত্তর দা&ও..."
-
-#: messageactions.cpp:111
-msgid "Filter on Mailing-&List..."
-msgstr "মে&ইলিং-লিস্ট দিয়ে ফিল্টার করো..."
-
-#: messageactions.cpp:115
-msgid "Create To-do/Reminder..."
-msgstr ""
-
-#: messageactions.cpp:116
-msgid "Create To-do"
-msgstr ""
-
-#: messageactions.cpp:117
-msgid "Allows you to create a calendar to-do or reminder from this message"
-msgstr ""
-
-#: messageactions.cpp:118
-msgid ""
-"This option starts the KOrganizer to-do editor with initial values taken "
-"from the currently selected message. Then you can edit the to-do to your "
-"liking before saving it to your calendar."
-msgstr ""
-
-#: messageactions.cpp:125
-msgid "Mar&k Message"
-msgstr "বার্তা চিহ্নি&ত করো"
-
-#: messageactions.cpp:146
-msgid "&Edit Message"
-msgstr "বার্তা সম্পা&দন করো"
-
-#: messageactions.cpp:152 messageactions.cpp:613
-#, fuzzy
-#| msgid "Add..."
-msgid "Add Note..."
-msgstr "যোগ করো..."
-
-#: messageactions.cpp:164
-#, fuzzy
-#| msgctxt "Message->Forward->"
-#| msgid "As &Attachment..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "As &Attachment..."
-msgstr "সংযুক্ত করে (&স)..."
-
-#: messageactions.cpp:172
-#, fuzzy
-#| msgid "&Inline..."
-msgctxt "@action:inmenu Message->Forward->"
-msgid "&Inline..."
-msgstr "বার্তার মূ&ল অংশে..."
-
-#: messageactions.cpp:180
-msgctxt "Message->Forward->"
-msgid "&Redirect..."
-msgstr "&অন্য ঠিকানায় পাঠাও..."
-
-#: messageactions.cpp:189
-#, fuzzy
-#| msgid "Reply to Mailing-&List..."
-msgctxt "Message->"
-msgid "Mailing-&List"
-msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
-
-#: messageactions.cpp:350
-msgid "Filter on Mailing-List..."
-msgstr ""
-
-#: messageactions.cpp:377
-#, fuzzy
-#| msgid "OpenPGP Message - Bad Signature"
-msgid "Open Message in List Archive"
-msgstr "ওপেন-পি-জি-পি বার্তা - ত্রুটিপূর্ণ স্বাক্ষর"
-
-#: messageactions.cpp:379
-#, fuzzy
-#| msgid "New Message"
-msgid "Post New Message"
-msgstr "নতুন বার্তা"
-
-#: messageactions.cpp:381
-#, fuzzy
-#| msgid "List Archives"
-msgid "Go to Archive"
-msgstr "লিস্ট আর্কাইভ"
-
-#: messageactions.cpp:383
-msgid "Request Help"
-msgstr ""
-
-#: messageactions.cpp:385
-#, fuzzy
-#| msgid "contains"
-msgctxt "Contact the owner of the mailing list"
-msgid "Contact Owner"
-msgstr "-এর মধ্যে রয়েছে"
-
-#: messageactions.cpp:389
-msgid "Unsubscribe from List"
-msgstr ""
-
-#: messageactions.cpp:398
-#, kde-format
-msgid "Filter on Mailing-List %1..."
-msgstr ""
-
-#: messageactions.cpp:562
-#, fuzzy
-#| msgid "Email"
-msgid "email"
-msgstr "ই-মেইল"
-
-#: messageactions.cpp:565
-msgid "web"
-msgstr ""
-
-#: messageactions.cpp:568
-#, fuzzy, kde-format
-#| msgid "Mail"
-msgctxt ""
-"%1 is a 'Contact Owner' or similar action. %2 is a protocol normally web or "
-"email though could be irc/ftp or other url variant"
-msgid "%1 (%2)"
-msgstr "মেইল"
-
-#: messageactions.cpp:615
-#, fuzzy
-#| msgid "Edit Script..."
-msgid "Edit Note..."
-msgstr "স্ক্রিপ্ট সম্পাদন করো..."
 
 #. i18n: file: tips:2
 #. i18n: ectx: @info:tipoftheday
