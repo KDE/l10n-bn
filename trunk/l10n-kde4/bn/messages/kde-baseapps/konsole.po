@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-02-10 04:15+0100\n"
+"POT-Creation-Date: 2012-02-11 03:58+0100\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -310,19 +310,19 @@ msgstr[1] "লাইন"
 msgid "--- Type anything in this box ---"
 msgstr ""
 
-#: Filter.cpp:495
+#: Filter.cpp:491
 msgid "Open Link"
 msgstr "লিঙ্ক খোলো"
 
-#: Filter.cpp:496
+#: Filter.cpp:492
 msgid "Copy Link Address"
 msgstr "লিঙ্ক ঠিকানা কপি করো"
 
-#: Filter.cpp:498
+#: Filter.cpp:494
 msgid "Send Email To..."
 msgstr "ই-মেইল পাঠাও..."
 
-#: Filter.cpp:499
+#: Filter.cpp:495
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করো"
 
@@ -685,43 +685,49 @@ msgid "&New Tab"
 msgstr "&নতুন ট্যাব"
 
 #: MainWindow.cpp:265
+#, fuzzy
+#| msgid "&Close Tab"
+msgid "&Clone Tab"
+msgstr "ট্যাব &বন্ধ করো"
+
+#: MainWindow.cpp:272
 msgid "New &Window"
 msgstr "নতুন &উইণ্ডো"
 
-#: MainWindow.cpp:276
+#: MainWindow.cpp:283
 msgid "&Bookmarks"
 msgstr "বু&কমার্ক"
 
-#: MainWindow.cpp:294 Part.cpp:99
+#: MainWindow.cpp:301 Part.cpp:99
 #, fuzzy
 #| msgid "Manage Profiles"
 msgid "Manage Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা করো"
 
-#: MainWindow.cpp:300
+#: MainWindow.cpp:307
 msgid "Activate Menu"
 msgstr "মেনু সক্রিয় করো"
 
-#: MainWindow.cpp:412
+#: MainWindow.cpp:435
 msgid "You have multiple tabs in this window, are you sure you want to quit?"
 msgstr "এই ইউণ্ডোতে একাধিক ট্যাব রয়েছে, আপনি কি সত্যিই প্রস্থান করতে চান?"
 
-#: MainWindow.cpp:414 SessionController.cpp:618 SessionController.cpp:643
+#: MainWindow.cpp:437 SessionController.cpp:618 SessionController.cpp:643
 msgid "Confirm Close"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: MainWindow.cpp:416
+#: MainWindow.cpp:439
 msgid "Close Current Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করো"
 
-#: MainWindow.cpp:513
+#: MainWindow.cpp:536
 #, fuzzy
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "সাধারণ"
 
-#: MainWindow.cpp:518
+#: MainWindow.cpp:541
 msgctxt "@title Preferences page name"
 msgid "TabBar"
 msgstr ""
@@ -1774,61 +1780,55 @@ msgstr "&ইতিবৃত্ত"
 
 #. i18n: file: ../desktop/partui.rc:23
 #. i18n: ectx: Menu (switch-profile)
-#. i18n: file: ../desktop/sessionui.rc:63
+#. i18n: file: ../desktop/sessionui.rc:60
 #. i18n: ectx: Menu (switch-profile)
-#: rc.cpp:494 rc.cpp:503
+#: rc.cpp:494 rc.cpp:518
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "&Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা করো"
 
-#. i18n: file: ../desktop/sessionui.rc:17
-#. i18n: ectx: Menu (edit-copy-input-to)
-#: rc.cpp:497
-msgid "Copy Input To"
-msgstr "ইনপুট কপি করে পাঠাও"
-
-#. i18n: file: ../desktop/sessionui.rc:44
-#. i18n: ectx: Menu (debug)
-#: rc.cpp:500
-msgid "Debug"
-msgstr "ডিবাগ"
-
 #. i18n: file: ../desktop/konsoleui.rc:5
 #. i18n: ectx: Menu (file)
-#: rc.cpp:506
+#: rc.cpp:497
 msgid "File"
 msgstr "ফাইল"
 
-#. i18n: file: ../desktop/konsoleui.rc:14
+#. i18n: file: ../desktop/konsoleui.rc:15
 #. i18n: ectx: Menu (edit)
-#: rc.cpp:509
+#: rc.cpp:500
 msgid "Edit"
 msgstr "সম্পাদনা"
 
-#. i18n: file: ../desktop/konsoleui.rc:17
+#. i18n: file: ../desktop/konsoleui.rc:18
 #. i18n: ectx: Menu (view)
-#: rc.cpp:512
+#: rc.cpp:503
 msgid "View"
 msgstr "ভিউ"
 
-#. i18n: file: ../desktop/konsoleui.rc:18
+#. i18n: file: ../desktop/konsoleui.rc:19
 #. i18n: ectx: Menu (view-split)
-#: rc.cpp:515
+#: rc.cpp:506
 msgid "Split View"
 msgstr "বিভক্ত ভিউ"
 
-#. i18n: file: ../desktop/konsoleui.rc:33
+#. i18n: file: ../desktop/konsoleui.rc:34
 #. i18n: ectx: Menu (settings)
-#: rc.cpp:518
+#: rc.cpp:509
 msgid "Settings"
 msgstr "সেটিংস"
 
-#. i18n: file: ../desktop/konsoleui.rc:45
+#. i18n: file: ../desktop/konsoleui.rc:46
 #. i18n: ectx: Menu (help)
-#: rc.cpp:521
+#: rc.cpp:512
 msgid "Help"
 msgstr "সহায়তা"
+
+#. i18n: file: ../desktop/sessionui.rc:17
+#. i18n: ectx: Menu (edit-copy-input-to)
+#: rc.cpp:515
+msgid "Copy Input To"
+msgstr "ইনপুট কপি করে পাঠাও"
 
 #: RenameTabsDialog.cpp:32
 msgid "Rename Tab"
@@ -2098,48 +2098,48 @@ msgstr "শুরু করার জন্য কোন interactive shell খ�
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "প্রেরিত মান '%2'এর সঙ্গে প্রোগ্রাম কি '%1' শুরু করতে পারে না।"
 
-#: Session.cpp:579
+#: Session.cpp:583
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "সেশন '%1' চুপচাপ"
 
-#: Session.cpp:624
+#: Session.cpp:628
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশন '%1'-এ ঘণ্টা"
 
-#: Session.cpp:627
+#: Session.cpp:631
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "সেশন '%1'-এ কিছু ঘটছে"
 
-#: Session.cpp:796
+#: Session.cpp:800
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "শেষ"
 
-#: Session.cpp:810 Session.cpp:822
+#: Session.cpp:814 Session.cpp:826
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' ক্র্যাশ করেছে।"
 
-#: Session.cpp:812
+#: Session.cpp:816
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1'-এর %2 স্ট্যাটাস সমেত সমাপ্তি।"
 
-#: Session.cpp:1140
+#: Session.cpp:1144
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
-#: SessionManager.cpp:926
+#: SessionManager.cpp:923
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "সংখ্যা"
 
-#: SessionManager.cpp:928
+#: SessionManager.cpp:925
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
@@ -2335,6 +2335,9 @@ msgstr ""
 #: ZModemDialog.cpp:36
 msgid "&Stop"
 msgstr "থামো (&থ)"
+
+#~ msgid "Debug"
+#~ msgstr "ডিবাগ"
 
 #~ msgid "Command to execute"
 #~ msgstr "যে কমান্ড চালানো হবে"
