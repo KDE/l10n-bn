@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-02 04:21+0200\n"
+"POT-Creation-Date: 2012-04-04 04:27+0200\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -322,17 +322,27 @@ msgstr "ই-মেইল পাঠাও..."
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করো"
 
-#: HistorySizeDialog.cpp:41
+#: HistorySizeDialog.cpp:32
 #, fuzzy
 #| msgid "Scrollback"
+msgctxt "@title:window"
 msgid "Adjust Scrollback"
 msgstr "ইতিবৃত্ত"
 
-#: HistorySizeDialog.cpp:52
-msgid "<center>The adjustment is only temporary</center>"
+#: HistorySizeDialog.cpp:45
+msgctxt "@info:status"
+msgid "Any adjustments are only temporary to this session."
 msgstr ""
 
-#: HistorySizeWidget.cpp:51
+#: HistorySizeWidget.cpp:44
+msgctxt "@info:status"
+msgid ""
+"When using this option, the scrollback data will be written unencrypted to "
+"temporary files. Those temporary files will be deleted automatically when "
+"quitting Konsole."
+msgstr ""
+
+#: HistorySizeWidget.cpp:60
 #, fuzzy
 #| msgid "lines"
 msgctxt "Unit of scrollback"
@@ -1565,7 +1575,7 @@ msgstr "নির্বাচিত প্রোফাইলটি নতুন 
 msgid "&Set as Default"
 msgstr "ডিফল্ট হিসেবে নির্ধারণ করো"
 
-#. i18n: file: HistorySizeWidget.ui:23
+#. i18n: file: HistorySizeWidget.ui:29
 #. i18n: ectx: property (toolTip), widget (QRadioButton, noHistoryButton)
 #: rc.cpp:341
 #, fuzzy
@@ -1573,19 +1583,19 @@ msgstr "ডিফল্ট হিসেবে নির্ধারণ করো
 msgid "Do not remember previous output"
 msgstr "স্ক্রোল বার নিষ্ক্রিয় করো এবং পূর্ববর্তী আউটপুট মনে রেখো না"
 
-#. i18n: file: HistorySizeWidget.ui:26
+#. i18n: file: HistorySizeWidget.ui:32
 #. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
 #: rc.cpp:344
 msgid "No scrollback"
 msgstr "কোনও ইতিবৃত্ত নয়"
 
-#. i18n: file: HistorySizeWidget.ui:41
+#. i18n: file: HistorySizeWidget.ui:50
 #. i18n: ectx: property (toolTip), widget (QRadioButton, fixedSizeHistoryButton)
 #: rc.cpp:347
 msgid "Limit the remembered output to a fixed number of lines"
 msgstr "মনে রাখা পূর্ববর্তী আউটপুট লাইনের সংখ্যা সীমাবদ্ধ করো"
 
-#. i18n: file: HistorySizeWidget.ui:44
+#. i18n: file: HistorySizeWidget.ui:53
 #. i18n: ectx: property (text), widget (QRadioButton, fixedSizeHistoryButton)
 #: rc.cpp:350
 #, fuzzy
@@ -1593,19 +1603,19 @@ msgstr "মনে রাখা পূর্ববর্তী আউটপুট
 msgid "Fixed size scrollback:"
 msgstr "এক মাপের ইতিবৃত্ত:"
 
-#. i18n: file: HistorySizeWidget.ui:51
+#. i18n: file: HistorySizeWidget.ui:60
 #. i18n: ectx: property (toolTip), widget (KIntSpinBox, historyLineSpinner)
 #: rc.cpp:353
 msgid "Number of lines of output to remember"
 msgstr "যে কটি আউটপুট লাইন মনে রাখা হবে"
 
-#. i18n: file: HistorySizeWidget.ui:85
+#. i18n: file: HistorySizeWidget.ui:94
 #. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedHistoryButton)
 #: rc.cpp:356
 msgid "Remember all output produced by the terminal"
 msgstr "টার্মিনালের সমস্ত আউটপুট মনে রাখো"
 
-#. i18n: file: HistorySizeWidget.ui:88
+#. i18n: file: HistorySizeWidget.ui:97
 #. i18n: ectx: property (text), widget (QRadioButton, unlimitedHistoryButton)
 #: rc.cpp:359
 msgid "Unlimited scrollback"
@@ -2027,11 +2037,11 @@ msgid ""
 "kill it by force?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:1251
+#: SessionController.cpp:1255
 msgid "Save ZModem Download to..."
 msgstr "জি-মোডে&ম ডাউনলোড এখানে সংরক্ষণ করো..."
 
-#: SessionController.cpp:1259
+#: SessionController.cpp:1263
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
@@ -2041,12 +2051,12 @@ msgstr ""
 "সফটওয়্যার পাওয়া যাচ্ছে না।</p><p>আপনি 'rzsz' অথবা 'lrzsz' প্যাকেজটি ইনস্টল করে "
 "দেখতে পারেন।</p>"
 
-#: SessionController.cpp:1271
+#: SessionController.cpp:1275
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>বর্তমান সেশনে একটি জি-মোডেম ফাইল ট্রান্সফার আগে থেকেই চলছে।</p>"
 
-#: SessionController.cpp:1280
+#: SessionController.cpp:1284
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
@@ -2054,21 +2064,21 @@ msgstr ""
 "<p>সিস্টেমে কোনো মানানসই জি-মোডেম সফটওয়ার পাওয়া যায়নি।</p><p>আপনি 'rzsz' বা "
 "'lrzsz' প্যাকেজগুলি ইনস্টল করে দেখতে পারেন।</p>"
 
-#: SessionController.cpp:1286
+#: SessionController.cpp:1290
 msgid "Select Files for ZModem Upload"
 msgstr "জি-মোডেম আপলোড করার জন্য ফাইল বেছে নিন"
 
-#: SessionController.cpp:1354
+#: SessionController.cpp:1358
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে আউটপুট সংরক্ষণ করো"
 
-#: SessionController.cpp:1365
+#: SessionController.cpp:1369
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 একটি অবৈধ ইউ-আর-এল, আউটপুট সংরক্ষণ করা যায়নি।"
 
-#: SessionController.cpp:1440
+#: SessionController.cpp:1444
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2138,14 +2148,14 @@ msgstr "প্রোগ্রাম '%1'-এর %2 স্ট্যাটাস �
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
-#: SessionManager.cpp:388
+#: SessionManager.cpp:381
 #, fuzzy
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "সংখ্যা"
 
-#: SessionManager.cpp:390
+#: SessionManager.cpp:383
 #, fuzzy
 #| msgid "Title"
 msgctxt "@item:intable The session title"
