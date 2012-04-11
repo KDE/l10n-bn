@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-16 04:20+0100\n"
+"POT-Creation-Date: 2012-04-11 04:17+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -181,25 +181,25 @@ msgstr "সুপারনোভার অবশিষ্টাংশ"
 msgid "No color named \"%1\" found in color scheme."
 msgstr "রং বিন্যাসে \"%1\" নামে কোন রং পাওয়া যায় নি।"
 
-#: colorscheme.cpp:137 kstarsdata.cpp:946 tools/scriptbuilder.cpp:929
+#: colorscheme.cpp:137 kstarsdata.cpp:920 tools/scriptbuilder.cpp:929
 #: options/opscolors.cpp:58
 msgctxt "use default color scheme"
 msgid "Default Colors"
 msgstr "ডিফল্ট রং"
 
-#: colorscheme.cpp:139 kstarsdata.cpp:947 tools/scriptbuilder.cpp:930
+#: colorscheme.cpp:139 kstarsdata.cpp:921 tools/scriptbuilder.cpp:930
 #: options/opscolors.cpp:59
 msgctxt "use 'star chart' color scheme"
 msgid "Star Chart"
 msgstr "তারা মানচিত্র"
 
-#: colorscheme.cpp:141 kstarsdata.cpp:948 tools/scriptbuilder.cpp:931
+#: colorscheme.cpp:141 kstarsdata.cpp:922 tools/scriptbuilder.cpp:931
 #: options/opscolors.cpp:60
 msgctxt "use 'night vision' color scheme"
 msgid "Night Vision"
 msgstr "নৈশ দৃষ্টি"
 
-#: colorscheme.cpp:157 kstarsdata.cpp:965
+#: colorscheme.cpp:157 kstarsdata.cpp:939
 #, kde-format
 msgid "Unable to load color scheme named %1. Also tried %2."
 msgstr "%1 নামক রং বিন্যাস লোড করা যায় নি।  %2-কেও লোড করার চেষ্টা করা হয়েছে।"
@@ -219,7 +219,7 @@ msgstr ""
 #: tools/modcalcgeodcoord.cpp:232 tools/modcalcjd.cpp:123
 #: tools/modcalcplanets.cpp:208 tools/modcalcsidtime.cpp:200
 #: tools/modcalcvizequinox.cpp:85 tools/modcalcvlsr.cpp:272
-#: tools/observinglist.cpp:750 tools/observinglist.cpp:867
+#: tools/observinglist.cpp:746 tools/observinglist.cpp:863
 #: tools/scriptbuilder.cpp:994 tools/scriptbuilder.cpp:1058
 #: tools/scriptbuilder.cpp:1124 dialogs/locationdialog.cpp:265
 #: indi/indidriver.cpp:935 options/opscolors.cpp:199 oal/execute.cpp:278
@@ -371,13 +371,11 @@ msgctxt "Digitized Sky Survey"
 msgid "Show DSS Image"
 msgstr "SEDS ছবি প্রদর্শন করো"
 
-#: kspopupmenu.cpp:178 kspopupmenu.cpp:262 kstarsdata.cpp:124
-#: kstarsdata.cpp:125 kstarsinit.cpp:633 printing/detailstable.cpp:87
-#: printing/pwizobjectselection.cpp:110 tools/observinglist.cpp:497
-#: tools/wutdialog.cpp:268 skycomponents/starcomponent.cpp:454
-#: dialogs/detaildialog.cpp:146 skyobjects/starobject.cpp:491
-#: skyobjects/starobject.cpp:510 skyobjects/starobject.cpp:515
-#: skyobjects/starobject.cpp:518
+#: kspopupmenu.cpp:178 kspopupmenu.cpp:262 kstarsinit.cpp:633
+#: printing/detailstable.cpp:87 printing/pwizobjectselection.cpp:110
+#: tools/observinglist.cpp:493 tools/wutdialog.cpp:268
+#: skycomponents/starcomponent.cpp:452 dialogs/detaildialog.cpp:146
+#: skyobjects/starobject.cpp:491
 msgid "star"
 msgstr "তারা"
 
@@ -611,7 +609,7 @@ msgstr "যে অবস্থানে সংরক্ষণ করতে ব�
 msgid "Try Another"
 msgstr "আরেকটি চেষ্টা করো"
 
-#: kstarsactions.cpp:598 tools/observinglist.cpp:867
+#: kstarsactions.cpp:598 tools/observinglist.cpp:863
 msgid "Do Not Try"
 msgstr "চেষ্টা করবে না"
 
@@ -636,7 +634,7 @@ msgstr "ফাইল ডাউনলোড করা যায় নি।"
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:640 kstarsdata.cpp:839 tools/observinglist.cpp:749
+#: kstarsactions.cpp:640 kstarsdata.cpp:813 tools/observinglist.cpp:745
 #: oal/execute.cpp:277
 #, kde-format
 msgid "Could not open file %1"
@@ -824,131 +822,39 @@ msgstr ""
 msgid "Non-Critical File Not Found: %1"
 msgstr "অগুরুত্বপূর্ণ এই ফাইলটি পাওয়া যায় নি: %1"
 
-#: kstarsdata.cpp:126
-msgid "planet"
-msgstr "গ্রহ"
-
-#: kstarsdata.cpp:127
-msgid "open cluster"
-msgstr "মুক্ত স্তবক"
-
-#: kstarsdata.cpp:128
-msgid "globular cluster"
-msgstr "গুচ্ছ স্তবক"
-
-#: kstarsdata.cpp:129
-msgid "gaseous nebula"
-msgstr "গ্যাসীয় নীহারিকা"
-
-#: kstarsdata.cpp:130
-msgid "planetary nebula"
-msgstr "গ্রহ-নীহারিকা"
-
-#: kstarsdata.cpp:131
-msgid "supernova remnant"
-msgstr "সুপারনোভার অবশিষ্টাংশ"
-
-#: kstarsdata.cpp:132
-msgid "galaxy"
-msgstr "ছায়াপথ"
-
-#: kstarsdata.cpp:133
-msgid "comet"
-msgstr "ধূমকেতু"
-
-#: kstarsdata.cpp:134
-msgid "asteroid"
-msgstr "গ্রহাণু"
-
-#: kstarsdata.cpp:135
-msgid "constellation"
-msgstr "তারামণ্ডল"
-
-#. i18n: file: tools/modcalcdaylength.ui:453
-#. i18n: ectx: property (title), widget (QGroupBox, MoonBox)
-#. i18n: file: tools/modcalcplanets.ui:154
-#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
-#. i18n: file: tools/modcalcplanets.ui:497
-#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
-#: kstarsdata.cpp:136 rc.cpp:1366 rc.cpp:1769 rc.cpp:1853
-#: tools/conjunctions.cpp:93 tools/modcalcplanets.cpp:271
-#: skyobjects/ksmoon.cpp:61
-msgid "Moon"
-msgstr "চাঁদ"
-
-#: kstarsdata.cpp:137
-#, fuzzy
-#| msgid "asteroid"
-msgid "asterism"
-msgstr "গ্রহাণু"
-
-#: kstarsdata.cpp:138
-#, fuzzy
-#| msgid "globular cluster"
-msgid "galaxy cluster"
-msgstr "গুচ্ছ স্তবক"
-
-#: kstarsdata.cpp:139
-#, fuzzy
-#| msgid "planetary nebula"
-msgid "dark nebula"
-msgstr "গ্রহ-নীহারিকা"
-
-#: kstarsdata.cpp:140
-#, fuzzy
-#| msgid "Square"
-msgid "quasar"
-msgstr "বর্গক্ষেত্র"
-
-#: kstarsdata.cpp:141
-msgid "multiple star"
-msgstr "যুক্ততারা"
-
-# FIXME
-#: kstarsdata.cpp:142
-#, fuzzy
-#| msgid "View Resource"
-msgid "radio source"
-msgstr "তথ্য প্রদর্শন করোে"
-
-#: kstarsdata.cpp:168
-#, fuzzy
-msgid "no type"
-msgstr "অজ্ঞাত ধরন"
-
-#: kstarsdata.cpp:173
+#: kstarsdata.cpp:147
 #, fuzzy
 msgid "Reading time zone rules"
 msgstr "সময় অঞ্চল সংক্রান্ত নিয়মাবলী পড়া হচ্ছে"
 
-#: kstarsdata.cpp:180
+#: kstarsdata.cpp:154
 #, fuzzy
 msgid "Loading city data"
 msgstr "নগর সংক্রান্ত তথ্য লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:187
+#: kstarsdata.cpp:161
 #, fuzzy
 msgid "Loading sky objects"
 msgstr "মিলযুক্ত খ-বস্তু:"
 
-#: kstarsdata.cpp:191
+#: kstarsdata.cpp:165
 msgid "Loading Image URLs"
 msgstr "ছবির ইউ.আর.এল. লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:196
+#: kstarsdata.cpp:170
 msgid "Loading Information URLs"
 msgstr "তথ্যের ইউ.আর.এল. লোড করা হচ্ছে"
 
-#: kstarsdata.cpp:200
+#: kstarsdata.cpp:174
 #, fuzzy
 msgid "Loading Variable Stars"
 msgstr "কে-স্টার্স লোড করা হচ্ছে..."
 
-#: kstarsdata.cpp:407
+#: kstarsdata.cpp:381
 msgid "Cities.dat: Ran out of fields.  Line was:"
 msgstr "Cities.dat: আর কোন ঘর ফাঁকা নেই।  লাইন সংখ্যা হল:"
 
-#: kstarsdata.cpp:445
+#: kstarsdata.cpp:419
 msgid ""
 "\n"
 "Cities.dat: Invalid latitude sign.  Line was:\n"
@@ -956,7 +862,7 @@ msgstr ""
 "\n"
 "Cities.dat: অক্ষাংশের গাণিতিক চিহ্ন (sign) অবৈধ।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:454
+#: kstarsdata.cpp:428
 msgid ""
 "\n"
 "Cities.dat: Invalid longitude sign.  Line was:\n"
@@ -964,7 +870,7 @@ msgstr ""
 "\n"
 "Cities.dat: দ্রাঘিমাংশের গাণিতিক চিহ্ন (sign) অবৈধ।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:466
+#: kstarsdata.cpp:440
 msgid ""
 "\n"
 "Cities.dat: Bad time zone.  Line was:\n"
@@ -972,13 +878,13 @@ msgstr ""
 "\n"
 "Cities.dat: ত্রুটিপূর্ণ সময় অঞ্চল।  লাইন সংখ্যা হল:\n"
 
-#: kstarsdata.cpp:589
+#: kstarsdata.cpp:563
 msgid "No localized URL file; using default English file."
 msgstr ""
 "কোন স্থানীয়কৃত (localized) ইউ.আর.এল. ফাইল নেই; ডিফল্ট হিসেবে ইংরেজি ফাইল ব্যবহার "
 "করা হচ্ছে।"
 
-#: kstarsdata.cpp:604
+#: kstarsdata.cpp:578
 msgid ""
 "Failed to copy default URL file to locale folder, modifying default object "
 "links is not possible"
@@ -986,26 +892,26 @@ msgstr ""
 "ডিফল্ট ইউ.আর.এল. ফাইলকে লোকাল (locale) ফোল্ডারে কপি করা যায় নি, ফলে বস্তুর ডিফল্ট "
 "লিঙ্ক সম্পাদন করা সম্ভব নয়"
 
-#: kstarsdata.cpp:639
+#: kstarsdata.cpp:613
 #, fuzzy, kde-format
 msgid "Object named %1 not found"
 msgstr "%1 নামক কোন বস্তু পাওয়া যায় নি।"
 
-#: kstarsdata.cpp:1005
+#: kstarsdata.cpp:979
 #, kde-format
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
 msgstr "সময় নির্ধারণ করা যায় নি: %1 / %2 / %3 ; %4:%5:%6"
 
-#: kstarsdata.cpp:1127
+#: kstarsdata.cpp:1101
 #, kde-format
 msgid "Could not set location named %1, %2, %3"
 msgstr " %1, %2 ও %3 নামের অবস্থান নির্দিষ্ট করা যায় নি"
 
-#: kstarsdatetime.cpp:99
+#: kstarsdatetime.cpp:90
 msgid "Could not parse Date/Time string: "
 msgstr "এই তারিখ/সময় পঙ্‌ক্তি পার্স (parse) করা যায় নি: "
 
-#: kstarsdatetime.cpp:100
+#: kstarsdatetime.cpp:91
 msgid "Valid date formats: "
 msgstr "তারিখের সঠিক বিন্যাস: "
 
@@ -38102,6 +38008,18 @@ msgstr "মধ্যাহ্ন:"
 msgid "Sunset azimuth:"
 msgstr "সূর্যাস্তের দিগংশ:"
 
+#. i18n: file: tools/modcalcdaylength.ui:453
+#. i18n: ectx: property (title), widget (QGroupBox, MoonBox)
+#. i18n: file: tools/modcalcplanets.ui:154
+#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
+#. i18n: file: tools/modcalcplanets.ui:497
+#. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
+#: rc.cpp:1366 rc.cpp:1769 rc.cpp:1853 tools/conjunctions.cpp:93
+#: tools/modcalcplanets.cpp:271 skyobjects/ksmoon.cpp:61
+#: skyobjects/skyobject.cpp:344
+msgid "Moon"
+msgstr "চাঁদ"
+
 #. i18n: file: tools/modcalcdaylength.ui:541
 #. i18n: ectx: property (text), widget (QLabel, MoonTransitAltLabel)
 #: rc.cpp:1375
@@ -38486,7 +38404,7 @@ msgstr "সৌরবস্তু:"
 #: skymapdrawabstract.cpp:146 skyqpainter.cpp:315 tools/conjunctions.cpp:84
 #: tools/ksconjunct.cpp:71 tools/modcalcplanets.cpp:268
 #: tools/obslistwizard.cpp:470 tools/obslistwizard.cpp:472
-#: skycomponents/skymapcomposite.cpp:445 skyobjects/ksplanetbase.cpp:152
+#: skycomponents/skymapcomposite.cpp:441 skyobjects/ksplanetbase.cpp:152
 #: skyobjects/ksplanet.cpp:125 skyobjects/ksplanet.cpp:158
 #: skyobjects/ksplanet.cpp:340 skyobjects/ksplanet.cpp:368
 msgid "Mercury"
@@ -38503,7 +38421,7 @@ msgstr "বুধগ্রহ (মার্কারি)"
 #: rc.cpp:1745 rc.cpp:1829 rc.cpp:2496 rc.cpp:4417 skymapdrawabstract.cpp:147
 #: tools/conjunctions.cpp:85 tools/ksconjunct.cpp:71
 #: tools/modcalcplanets.cpp:268 tools/obslistwizard.cpp:484
-#: tools/obslistwizard.cpp:486 skycomponents/skymapcomposite.cpp:446
+#: tools/obslistwizard.cpp:486 skycomponents/skymapcomposite.cpp:442
 #: skyobjects/ksplanetbase.cpp:152 skyobjects/ksplanet.cpp:128
 #: skyobjects/ksplanet.cpp:160 skyobjects/ksplanet.cpp:343
 #: skyobjects/ksplanet.cpp:370
@@ -38517,7 +38435,7 @@ msgstr "শুক্রগ্রহ (ভিনাস)"
 #: rc.cpp:1748 rc.cpp:1832 tools/ksconjunct.cpp:140
 #: tools/modcalcplanets.cpp:90 tools/modcalcplanets.cpp:268
 #: tools/modcalcplanets.cpp:373 skycomponents/solarsystemcomposite.cpp:41
-#: widgets/moonphasecalendarwidget.cpp:298 skyobjects/ksplanet.cpp:372
+#: widgets/moonphasecalendarwidget.cpp:295 skyobjects/ksplanet.cpp:372
 msgid "Earth"
 msgstr "পৃথিবী"
 
@@ -38533,7 +38451,7 @@ msgstr "পৃথিবী"
 #: skymapdrawabstract.cpp:149 skyqpainter.cpp:313 tools/conjunctions.cpp:86
 #: tools/ksconjunct.cpp:68 tools/modcalcplanets.cpp:269
 #: tools/obslistwizard.cpp:497 tools/obslistwizard.cpp:499
-#: skycomponents/skymapcomposite.cpp:448 skyobjects/ksplanetbase.cpp:152
+#: skycomponents/skymapcomposite.cpp:444 skyobjects/ksplanetbase.cpp:152
 #: skyobjects/ksplanet.cpp:131 skyobjects/ksplanet.cpp:162
 #: skyobjects/ksplanet.cpp:345 skyobjects/ksplanet.cpp:374
 msgid "Mars"
@@ -38551,7 +38469,7 @@ msgstr "মঙ্গলগ্রহ (মার্স)"
 #: skymapdrawabstract.cpp:150 skyqpainter.cpp:315 tools/conjunctions.cpp:87
 #: tools/jmoontool.cpp:119 tools/ksconjunct.cpp:65
 #: tools/modcalcplanets.cpp:269 tools/obslistwizard.cpp:510
-#: tools/obslistwizard.cpp:512 skycomponents/skymapcomposite.cpp:449
+#: tools/obslistwizard.cpp:512 skycomponents/skymapcomposite.cpp:445
 #: skyobjects/ksplanetbase.cpp:153 skyobjects/ksplanet.cpp:134
 #: skyobjects/ksplanet.cpp:164 skyobjects/ksplanet.cpp:347
 #: skyobjects/ksplanet.cpp:376
@@ -38570,7 +38488,7 @@ msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
 #: skymapdrawabstract.cpp:151 skyqpainter.cpp:315 tools/conjunctions.cpp:88
 #: tools/ksconjunct.cpp:65 tools/modcalcplanets.cpp:269
 #: tools/obslistwizard.cpp:524 tools/obslistwizard.cpp:526
-#: skycomponents/skymapcomposite.cpp:450 skyobjects/ksplanetbase.cpp:153
+#: skycomponents/skymapcomposite.cpp:446 skyobjects/ksplanetbase.cpp:153
 #: skyobjects/ksplanetbase.cpp:271 skyobjects/ksplanet.cpp:137
 #: skyobjects/ksplanet.cpp:166 skyobjects/ksplanet.cpp:349
 #: skyobjects/ksplanet.cpp:378
@@ -38588,7 +38506,7 @@ msgstr "শনিগ্রহ (স্যাটার্ন)"
 #: rc.cpp:1760 rc.cpp:1844 rc.cpp:2508 rc.cpp:4471 skymapdrawabstract.cpp:152
 #: tools/conjunctions.cpp:89 tools/ksconjunct.cpp:62
 #: tools/modcalcplanets.cpp:270 tools/obslistwizard.cpp:538
-#: tools/obslistwizard.cpp:540 skycomponents/skymapcomposite.cpp:451
+#: tools/obslistwizard.cpp:540 skycomponents/skymapcomposite.cpp:447
 #: skyobjects/ksplanetbase.cpp:153 skyobjects/ksplanet.cpp:140
 #: skyobjects/ksplanet.cpp:168 skyobjects/ksplanet.cpp:357
 #: skyobjects/ksplanet.cpp:380
@@ -38606,7 +38524,7 @@ msgstr "ইউরেনাস"
 #: rc.cpp:1763 rc.cpp:1847 rc.cpp:2511 rc.cpp:4462 skymapdrawabstract.cpp:153
 #: tools/conjunctions.cpp:90 tools/ksconjunct.cpp:62
 #: tools/modcalcplanets.cpp:270 tools/obslistwizard.cpp:553
-#: tools/obslistwizard.cpp:555 skycomponents/skymapcomposite.cpp:452
+#: tools/obslistwizard.cpp:555 skycomponents/skymapcomposite.cpp:448
 #: skyobjects/ksplanetbase.cpp:154 skyobjects/ksplanet.cpp:143
 #: skyobjects/ksplanet.cpp:170 skyobjects/ksplanet.cpp:359
 #: skyobjects/ksplanet.cpp:382
@@ -38625,7 +38543,7 @@ msgstr "নেপচুন"
 #: printing/detailstable.cpp:160 printing/pwizobjectselection.cpp:138
 #: tools/conjunctions.cpp:91 tools/modcalcplanets.cpp:270
 #: tools/obslistwizard.cpp:567 tools/obslistwizard.cpp:569
-#: tools/wutdialog.cpp:284 skycomponents/skymapcomposite.cpp:453
+#: tools/wutdialog.cpp:284 skycomponents/skymapcomposite.cpp:449
 #: dialogs/detaildialog.cpp:198 skyobjects/kspluto.cpp:35
 msgid "Pluto"
 msgstr "প্লুটো"
@@ -39024,7 +38942,7 @@ msgstr ""
 
 #. i18n: file: tools/observinglist.ui:279
 #. i18n: ectx: property (text), widget (KPushButton, WUTButton)
-#: rc.cpp:2189 tools/observinglist.cpp:968
+#: rc.cpp:2189 tools/observinglist.cpp:964
 msgid "WUT"
 msgstr ""
 
@@ -39100,7 +39018,7 @@ msgstr "ছবি"
 
 #. i18n: file: tools/observinglist.ui:574
 #. i18n: ectx: property (text), widget (QLabel, NotesLabel)
-#: rc.cpp:2225 tools/observinglist.cpp:543 tools/observinglist.cpp:982
+#: rc.cpp:2225 tools/observinglist.cpp:539 tools/observinglist.cpp:978
 msgid "Select an object to record notes on it here:"
 msgstr ""
 
@@ -39520,7 +39438,7 @@ msgstr "বিবরণ"
 
 #. i18n: file: tools/optionstreeview.ui:33
 #. i18n: ectx: property (text), widget (QTreeWidget, OptionsList)
-#: rc.cpp:2378 tools/observinglist.cpp:111 tools/observinglist.cpp:114
+#: rc.cpp:2378 tools/observinglist.cpp:110 tools/observinglist.cpp:113
 msgid "Type"
 msgstr "ধরন"
 
@@ -41708,8 +41626,8 @@ msgstr "সম্পাদন..."
 #. i18n: ectx: property (text), widget (QTreeWidget, clientTreeWidget)
 #. i18n: file: oal/observeradd.ui:14
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:3503 rc.cpp:4834 tools/observinglist.cpp:109
-#: tools/observinglist.cpp:112
+#: rc.cpp:3503 rc.cpp:4834 tools/observinglist.cpp:108
+#: tools/observinglist.cpp:111
 msgid "Name"
 msgstr "নাম"
 
@@ -41965,7 +41883,7 @@ msgstr ""
 
 #. i18n: file: indi/opsindi.ui:184
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
-#: rc.cpp:3659 tools/observinglist.cpp:115
+#: rc.cpp:3659 tools/observinglist.cpp:114
 msgid "Time"
 msgstr "সময়"
 
@@ -48665,48 +48583,51 @@ msgid "FOV (%1/%2): %3 (%4' x %5')"
 msgstr ""
 
 #: printing/legend.cpp:351 printing/legend.cpp:386
-#: skyobjects/skyobject.cpp:320
+#: skyobjects/skyobject.cpp:326
 msgid "Open Cluster"
 msgstr "মুক্ত স্তবক"
 
 #: printing/legend.cpp:351 printing/legend.cpp:386
+#: skyobjects/skyobject.cpp:354
 #, fuzzy
 #| msgid "asteroid"
 msgid "Asterism"
 msgstr "গ্রহাণু"
 
 #: printing/legend.cpp:356 printing/legend.cpp:391
-#: skyobjects/skyobject.cpp:321
+#: skyobjects/skyobject.cpp:328
 msgid "Globular Cluster"
 msgstr "গুচ্ছ স্তবক"
 
 #: printing/legend.cpp:360 printing/legend.cpp:395
-#: skyobjects/skyobject.cpp:322
+#: skyobjects/skyobject.cpp:330
 msgid "Gaseous Nebula"
 msgstr "গ্যাসীয় নীহারিকা"
 
 #: printing/legend.cpp:360 printing/legend.cpp:395
+#: skyobjects/skyobject.cpp:356
 #, fuzzy
 #| msgid "planetary nebula"
 msgid "Dark Nebula"
 msgstr "গ্রহ-নীহারিকা"
 
 #: printing/legend.cpp:365 printing/legend.cpp:400
-#: skyobjects/skyobject.cpp:323
+#: skyobjects/skyobject.cpp:332
 msgid "Planetary Nebula"
 msgstr "গ্রহ নীহারিকা"
 
 #: printing/legend.cpp:369 printing/legend.cpp:404
-#: skyobjects/skyobject.cpp:324
+#: skyobjects/skyobject.cpp:334
 msgid "Supernova Remnant"
 msgstr "সুপারনোভার অবশিষ্টাংশ"
 
 #: printing/legend.cpp:373 printing/legend.cpp:408
-#: skyobjects/skyobject.cpp:325
+#: skyobjects/skyobject.cpp:336
 msgid "Galaxy"
 msgstr "ছায়াপথ"
 
 #: printing/legend.cpp:373 printing/legend.cpp:408
+#: skyobjects/skyobject.cpp:358
 #, fuzzy
 #| msgid "Square"
 msgid "Quasar"
@@ -48850,7 +48771,7 @@ msgstr "সম্পাদন..."
 msgid "Print the Altitude vs. time plot"
 msgstr "উন্নতি বনাম সময়"
 
-#: tools/altvstime.cpp:73 tools/observinglist.cpp:133
+#: tools/altvstime.cpp:73 tools/observinglist.cpp:132
 msgid "Local Time"
 msgstr "স্থানীয় সময়"
 
@@ -49080,14 +49001,14 @@ msgstr ""
 msgid "Flag manager"
 msgstr ""
 
-#: tools/flagmanager.cpp:56 tools/observinglist.cpp:110
-#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:124
+#: tools/flagmanager.cpp:56 tools/observinglist.cpp:109
+#: tools/observinglist.cpp:112 widgets/infoboxwidget.cpp:124
 msgctxt "Right Ascension"
 msgid "RA"
 msgstr "বিষুবাংশ"
 
-#: tools/flagmanager.cpp:57 tools/observinglist.cpp:110
-#: tools/observinglist.cpp:113 widgets/infoboxwidget.cpp:125
+#: tools/flagmanager.cpp:57 tools/observinglist.cpp:109
+#: tools/observinglist.cpp:112 widgets/infoboxwidget.cpp:125
 msgctxt "Declination"
 msgid "Dec"
 msgstr "বিষুবলম্ব"
@@ -49374,137 +49295,137 @@ msgstr ""
 msgid "Observing List"
 msgstr "পর্যবেক্ষণ তালিকা"
 
-#: tools/observinglist.cpp:111 tools/observinglist.cpp:114
+#: tools/observinglist.cpp:110 tools/observinglist.cpp:113
 #, fuzzy
 msgctxt "Magnitude"
 msgid "Mag"
 msgstr "উজ্জ্বলতা"
 
-#: tools/observinglist.cpp:115 widgets/infoboxwidget.cpp:128
+#: tools/observinglist.cpp:114 widgets/infoboxwidget.cpp:128
 msgctxt "Altitude"
 msgid "Alt"
 msgstr "উন্নতি"
 
-#: tools/observinglist.cpp:115 widgets/infoboxwidget.cpp:127
+#: tools/observinglist.cpp:114 widgets/infoboxwidget.cpp:127
 msgctxt "Azimuth"
 msgid "Az"
 msgstr "দিগংশ"
 
-#: tools/observinglist.cpp:226
+#: tools/observinglist.cpp:225
 msgid "Unnamed stars are not supported in the observing lists"
 msgstr ""
 
-#: tools/observinglist.cpp:234
+#: tools/observinglist.cpp:233
 #, fuzzy, kde-format
 msgid "%1 is already in your wishlist."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:240
+#: tools/observinglist.cpp:239
 #, fuzzy, kde-format
 msgid "%1 is already in the session plan."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:274
+#: tools/observinglist.cpp:273
 #, kde-format
 msgid "Added %1 to observing list."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:314
+#: tools/observinglist.cpp:313
 #, fuzzy, kde-format
 #| msgid "Added %1 to observing list."
 msgid "Added %1 to session list."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:505
+#: tools/observinglist.cpp:501
 #, kde-format
 msgid "observing notes for %1:"
 msgstr "%1 এর পর্যবেক্ষণ নোট:"
 
-#: tools/observinglist.cpp:507 tools/observinglist.cpp:722
-#: dialogs/detaildialog.cpp:605 skyobjects/skyobject.cpp:377
+#: tools/observinglist.cpp:503 tools/observinglist.cpp:718
+#: dialogs/detaildialog.cpp:605 skyobjects/skyobject.cpp:416
 #, kde-format
 msgid "Record here observation logs and/or data on %1."
 msgstr "এখানে %1-এর পর্যবেক্ষণলব্ধ তথ্য এবং/বা লগ লিখুন।"
 
 # FIXME
-#: tools/observinglist.cpp:519
+#: tools/observinglist.cpp:515
 #, fuzzy
 msgid "observing notes (disabled for unnamed star)"
 msgstr "যে খ-বস্তুর জন্য পর্যবেক্ষণ নোট রাখা হবে:"
 
-#: tools/observinglist.cpp:537
+#: tools/observinglist.cpp:533
 #, fuzzy, kde-format
 msgid "Object %1 not found in list."
 msgstr "%1 বস্তুটিকে পর্যবেক্ষণ-তালিকায় (obsList) পাওয়া যায় নি।"
 
-#: tools/observinglist.cpp:556
+#: tools/observinglist.cpp:552
 msgid "Select a single object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:608 dialogs/detaildialog.cpp:1020
+#: tools/observinglist.cpp:604 dialogs/detaildialog.cpp:1020
 #, kde-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr ""
 "%1 দূরবীক্ষণ যন্ত্র এখন অফলাইনে রয়েছে।  অনুগ্রহপূর্বক সংযোগ স্থাপন করে পুনরায় চেষ্টা "
 "করুন।"
 
-#: tools/observinglist.cpp:620 dialogs/detaildialog.cpp:1032
+#: tools/observinglist.cpp:616 dialogs/detaildialog.cpp:1032
 msgid "KStars did not find any active telescopes."
 msgstr "কে-স্টার্স কোন সক্রিয় দূরবীক্ষণ যন্ত্র খুঁজে পায় নি।"
 
-#: tools/observinglist.cpp:725
+#: tools/observinglist.cpp:721
 msgid "Observing notes for object:"
 msgstr "এই খ-বস্তুর পর্যবেক্ষণ নোেট:"
 
-#: tools/observinglist.cpp:779
+#: tools/observinglist.cpp:775
 #, fuzzy
 #| msgid "The specified file is invalid.  Try another file?"
 msgid "The specified file is invalid"
 msgstr "উল্লেখকৃত ফাইলটি অবৈধ।  অপর একটি ফাইল নিয়ে চেষ্টা করে দেখতে চান কি?"
 
-#: tools/observinglist.cpp:788
+#: tools/observinglist.cpp:784
 #, fuzzy
 #| msgid "Do you want to save the current list before opening a new list?"
 msgid "Do you want to save the current session?"
 msgstr "নতুন তালিকা খোলার পূর্বে আপনি কি বর্তমান তালিকাকে সংরক্ষণ করতে চান?"
 
-#: tools/observinglist.cpp:790
+#: tools/observinglist.cpp:786
 #, fuzzy
 #| msgid "Save Current List?"
 msgid "Save Current session?"
 msgstr "বর্তমান তালিকাকে সংরক্ষণ করবো কি?"
 
-#: tools/observinglist.cpp:866
+#: tools/observinglist.cpp:862
 #, kde-format
 msgid "Could not open file %1.  Try a different filename?"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি।  অপর কোন ফাইল খুলতে চান কি? "
 
-#: tools/observinglist.cpp:867
+#: tools/observinglist.cpp:863
 msgid "Try Different"
 msgstr "অপর একটি খোলার চেষ্টা করো"
 
-#: tools/observinglist.cpp:931
+#: tools/observinglist.cpp:927
 msgctxt "First letter in 'Find'"
 msgid "F"
 msgstr ""
 
-#: tools/observinglist.cpp:969
+#: tools/observinglist.cpp:965
 #, fuzzy
 #| msgid "Find Object"
 msgid "Find &Object"
 msgstr "বস্তু অনুসন্ধান করো"
 
-#: tools/observinglist.cpp:1169
+#: tools/observinglist.cpp:1161
 msgid "This will delete all saved images. Are you sure you want to do this?"
 msgstr ""
 
-#: tools/observinglist.cpp:1169
+#: tools/observinglist.cpp:1161
 #, fuzzy
 #| msgid "Select all major bodies"
 msgid "Delete All Images"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
-#: tools/observinglist.cpp:1266
+#: tools/observinglist.cpp:1254
 #, fuzzy
 #| msgid "Image Format"
 msgid "Image Chooser"
@@ -50233,27 +50154,27 @@ msgstr ""
 "বর্তমান স্ক্রিপ্ট-এ অসংরক্ষিত পরিবর্তন রয়েছে।  বন্ধ করার পূর্বে আপনি এটি সংরক্ষণ করে "
 "চান কি?"
 
-#: tools/scriptbuilder.cpp:1261
+#: tools/scriptbuilder.cpp:1258
 #, kde-format
 msgid "Could not parse script.  Line was: %1"
 msgstr "স্ক্রিপ্ট পার্স (parse) করা যায় নি।  সমস্যাযুক্ত লাইনটি হল: %1"
 
-#: tools/scriptbuilder.cpp:1639 tools/scriptbuilder.cpp:1641
-#: tools/scriptbuilder.cpp:1677 tools/scriptbuilder.cpp:2250
-#: tools/scriptbuilder.cpp:2387 tools/scriptbuilder.cpp:2388
+#: tools/scriptbuilder.cpp:1636 tools/scriptbuilder.cpp:1638
+#: tools/scriptbuilder.cpp:1674 tools/scriptbuilder.cpp:2247
+#: tools/scriptbuilder.cpp:2384 tools/scriptbuilder.cpp:2385
 msgid "true"
 msgstr "সত্য"
 
-#: tools/scriptbuilder.cpp:1970
+#: tools/scriptbuilder.cpp:1967
 msgid "Function index out of bounds."
 msgstr "ফাংশনের সূচী সীমা বহির্ভূত।"
 
-#: tools/scriptbuilder.cpp:2250 tools/scriptbuilder.cpp:2387
-#: tools/scriptbuilder.cpp:2388
+#: tools/scriptbuilder.cpp:2247 tools/scriptbuilder.cpp:2384
+#: tools/scriptbuilder.cpp:2385
 msgid "false"
 msgstr "মিথ্যা"
 
-#: tools/scriptbuilder.cpp:2996
+#: tools/scriptbuilder.cpp:2993
 #, kde-format
 msgid "Mismatch between function and Arg widget (expected %1.)"
 msgstr "ফাংশন ও Arg উইজেটের মধ্যে গড়মিল (প্রত্যাশিত মান হল %1 ।)"
@@ -50653,11 +50574,11 @@ msgstr "মিলযুক্ত খ-বস্তু:"
 msgid "Unnamed Object"
 msgstr "নামহীন বস্তু"
 
-#: skycomponents/flagcomponent.cpp:226
+#: skycomponents/flagcomponent.cpp:207
 msgid "No icon"
 msgstr ""
 
-#: skycomponents/flagcomponent.cpp:228
+#: skycomponents/flagcomponent.cpp:209
 #, fuzzy
 #| msgid "default"
 msgid "Default"
@@ -50755,7 +50676,7 @@ msgstr "আপডেট করো"
 msgid "Update %1 satellites"
 msgstr "গ্রহ তৈরি করা হচ্ছে"
 
-#: skycomponents/skymapcomposite.cpp:477
+#: skycomponents/skymapcomposite.cpp:473
 #, fuzzy, kde-format
 #| msgid "Could not open custom data file: %1"
 msgid "Could not find custom catalog component named %1."
@@ -50776,7 +50697,7 @@ msgstr "মিলযুক্ত খ-বস্তু:"
 msgid "Please wait while re-indexing stars ..."
 msgstr ""
 
-#: skycomponents/supernovaecomponent.cpp:210
+#: skycomponents/supernovaecomponent.cpp:198
 msgid "Supernova information update failed"
 msgstr ""
 
@@ -52026,12 +51947,12 @@ msgstr ""
 msgid "Error: Illegal identifier in KSPlanet constructor: %1"
 msgstr ""
 
-#: skyobjects/skyline.cpp:59
+#: skyobjects/skyline.cpp:40
 #, kde-format
 msgid "SkyLine index error: no such point: %1"
 msgstr ""
 
-#: skyobjects/skyline.cpp:67 skyobjects/skyline.cpp:92
+#: skyobjects/skyline.cpp:48
 #, kde-format
 msgid "SkyLine index error: no such segment: %1"
 msgstr ""
@@ -52044,69 +51965,97 @@ msgstr "নামহীন"
 msgid "unnamed object"
 msgstr "নামহীন বস্তু"
 
-#: skyobjects/skyobject.cpp:317
+#: skyobjects/skyobject.cpp:320
 msgid "Star"
 msgstr "তারা"
 
-#: skyobjects/skyobject.cpp:318
+#: skyobjects/skyobject.cpp:322
 msgid "Catalog Star"
 msgstr "ক্যাটালগভুক্ত তারা"
 
-#: skyobjects/skyobject.cpp:319
+#: skyobjects/skyobject.cpp:324
 msgid "Planet"
 msgstr "গ্রহ"
 
-#: skyobjects/skyobject.cpp:326
+#: skyobjects/skyobject.cpp:338
 msgid "Comet"
 msgstr "ধূমকেতু"
 
-#: skyobjects/skyobject.cpp:327
+#: skyobjects/skyobject.cpp:340
 msgid "Asteroid"
 msgstr "গ্রহাণু"
 
-#: skyobjects/skyobject.cpp:328
+#: skyobjects/skyobject.cpp:342
+msgid "Constellation"
+msgstr "তারামণ্ডল"
+
+#: skyobjects/skyobject.cpp:346
+#, fuzzy
+#| msgid "globular cluster"
+msgid "Galaxy Cluster"
+msgstr "গুচ্ছ স্তবক"
+
+#: skyobjects/skyobject.cpp:348
+#, fuzzy
+#| msgid "Center && Track"
+msgid "Satellite"
+msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
+
+#: skyobjects/skyobject.cpp:350
+#, fuzzy
+#| msgid "Supernova Remnant"
+msgid "Supernova"
+msgstr "সুপারনোভার অবশিষ্টাংশ"
+
+#: skyobjects/skyobject.cpp:352
 #, fuzzy
 #| msgid "Update"
 msgid "Radio Source"
 msgstr "আপডেট করো"
 
-#: skyobjects/skyobject.cpp:329
+#: skyobjects/skyobject.cpp:360
+#, fuzzy
+#| msgid "multiple star"
+msgid "Multiple Star"
+msgstr "যুক্ততারা"
+
+#: skyobjects/skyobject.cpp:362
 msgid "Unknown Type"
 msgstr "অজ্ঞাত ধরন"
 
-#: skyobjects/skyobject.cpp:336
+#: skyobjects/skyobject.cpp:375
 msgid "Show HST Image"
 msgstr "HST ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:337
+#: skyobjects/skyobject.cpp:376
 #, kde-format
 msgid "%1: Hubble Space Telescope, operated by STScI for NASA [public domain]"
 msgstr "%1: নাসা'র পক্ষে STScI কর্তৃক পরিচালিত হাবল স্পেস টেলিস্কোপ [পাবলিক ডোমেইন]"
 
-#: skyobjects/skyobject.cpp:340
+#: skyobjects/skyobject.cpp:379
 msgid "Show Spitzer Image"
 msgstr "স্পিৎজার ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:341
+#: skyobjects/skyobject.cpp:380
 #, kde-format
 msgid "%1: Spitzer Space Telescope, courtesy NASA/JPL-Caltech [public domain]"
 msgstr ""
 "%1: স্পিৎজার স্পেস দূরবীক্ষণ যন্ত, সৌজন্যে নাসা/জে.পি.এল.-ক্যালটেক [পাবলিক ডোমেইন]"
 
-#: skyobjects/skyobject.cpp:344
+#: skyobjects/skyobject.cpp:383
 msgid "Show SEDS Image"
 msgstr "SEDS ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:345
+#: skyobjects/skyobject.cpp:384
 #, kde-format
 msgid "%1: SEDS, http://www.seds.org [free for non-commercial use]"
 msgstr "%1: SEDS, http://www.seds.org [বিনামূল্যে অবাণিজ্যিক ব্যবহার]"
 
-#: skyobjects/skyobject.cpp:348
+#: skyobjects/skyobject.cpp:387
 msgid "Show KPNO AOP Image"
 msgstr "KPNO AOP ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:349
+#: skyobjects/skyobject.cpp:388
 #, kde-format
 msgid ""
 "%1: Advanced Observing Program at Kitt Peak National Observatory [free for "
@@ -52115,11 +52064,11 @@ msgstr ""
 "%1: কিট পিক ন্যাশনাল অবজারভেটরি'র অগ্রসর পর্যবেক্ষণ প্রোগ্রাম [বিনামূল্যে অবাণিজ্যিক "
 "ব্যবহার; কোন মিডিয়াতে কপি করা যাবে না]"
 
-#: skyobjects/skyobject.cpp:352
+#: skyobjects/skyobject.cpp:391
 msgid "Show NOAO Image"
 msgstr "NOAO ছবি প্রদর্শন করো"
 
-#: skyobjects/skyobject.cpp:353
+#: skyobjects/skyobject.cpp:392
 #, kde-format
 msgid ""
 "%1: National Optical Astronomy Observatories and AURA [free for non-"
@@ -52127,7 +52076,7 @@ msgid ""
 msgstr ""
 "%1: ন্যাশনাল অপটিকাল অ্যাস্ট্রোনমি অবজারভেটরি ও AURA [বিনামূল্যে অবাণিজ্যিক ব্যবহার]"
 
-#: skyobjects/skyobject.cpp:357
+#: skyobjects/skyobject.cpp:396
 #, kde-format
 msgid ""
 "%1: Very Large Telescope, operated by the European Southern Observatory "
@@ -52136,19 +52085,19 @@ msgstr ""
 "%1: ইউরোপিয়ান সাউদার্ন অবজারভেটরি কর্তৃক পরিচালিত বৃহদায়তন দূরবীক্ষণ যন্ত্র "
 "[বিনামূল্যে অবাণিজ্যিক ব্যবহার; কোন মিডিয়াতে কপি করা যাবে না]"
 
-#: skyobjects/skyobject.cpp:360
+#: skyobjects/skyobject.cpp:399
 msgid "Show"
 msgstr "দেখাও"
 
-#: skyobjects/skyobject.cpp:414
+#: skyobjects/skyobject.cpp:453
 msgid "Cannot write to user log file"
 msgstr ""
 
-#: skyobjects/skypoint.cpp:129 skyobjects/skypoint.cpp:132
+#: skyobjects/skypoint.cpp:122 skyobjects/skypoint.cpp:125
 msgid "Coordinate out of range."
 msgstr "সীমা বহির্ভূত স্থানাংক।"
 
-#: skyobjects/skypoint.cpp:345
+#: skyobjects/skypoint.cpp:338
 msgid "lat and LST parameters should only be used in KSPlanetBase objects."
 msgstr "lat ও LST পরামিতি শুধুমাত্র KSPlanetBase অবজেক্টে ব্যবহার করা উচিত্‍।"
 
@@ -52454,6 +52403,61 @@ msgstr "ফাইল ডাউনলোড করা যায় নি।"
 msgid "Write Error"
 msgstr ""
 
+#~ msgid "planet"
+#~ msgstr "গ্রহ"
+
+#~ msgid "open cluster"
+#~ msgstr "মুক্ত স্তবক"
+
+#~ msgid "globular cluster"
+#~ msgstr "গুচ্ছ স্তবক"
+
+#~ msgid "gaseous nebula"
+#~ msgstr "গ্যাসীয় নীহারিকা"
+
+#~ msgid "planetary nebula"
+#~ msgstr "গ্রহ-নীহারিকা"
+
+#~ msgid "supernova remnant"
+#~ msgstr "সুপারনোভার অবশিষ্টাংশ"
+
+#~ msgid "galaxy"
+#~ msgstr "ছায়াপথ"
+
+#~ msgid "comet"
+#~ msgstr "ধূমকেতু"
+
+#~ msgid "asteroid"
+#~ msgstr "গ্রহাণু"
+
+#~ msgid "constellation"
+#~ msgstr "তারামণ্ডল"
+
+#, fuzzy
+#~| msgid "asteroid"
+#~ msgid "asterism"
+#~ msgstr "গ্রহাণু"
+
+#, fuzzy
+#~| msgid "planetary nebula"
+#~ msgid "dark nebula"
+#~ msgstr "গ্রহ-নীহারিকা"
+
+#, fuzzy
+#~| msgid "Square"
+#~ msgid "quasar"
+#~ msgstr "বর্গক্ষেত্র"
+
+# FIXME
+#, fuzzy
+#~| msgid "View Resource"
+#~ msgid "radio source"
+#~ msgstr "তথ্য প্রদর্শন করোে"
+
+#, fuzzy
+#~ msgid "no type"
+#~ msgstr "অজ্ঞাত ধরন"
+
 #~ msgid "Coordinate Grid"
 #~ msgstr "স্থানাংক রেখা"
 
@@ -52719,9 +52723,6 @@ msgstr ""
 #~| msgid "int"
 #~ msgid "in"
 #~ msgstr "পূর্ণসংখ্যা"
-
-#~ msgid "Constellation"
-#~ msgstr "তারামণ্ডল"
 
 #, fuzzy
 #~| msgctxt "City name (optional, probably does not need a translation)"
