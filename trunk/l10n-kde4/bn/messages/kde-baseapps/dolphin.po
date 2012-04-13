@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-12 04:33+0200\n"
+"POT-Creation-Date: 2012-04-13 04:11+0200\n"
 "PO-Revision-Date: 2010-05-30 01:46-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1078,6 +1078,54 @@ msgctxt "@label"
 msgid "Select which additional information should be shown:"
 msgstr ""
 
+#: statusbar/dolphinstatusbar.cpp:63
+#, fuzzy
+#| msgctxt "@option:check"
+#| msgid "Show zoom slider"
+msgid "Zoom slider"
+msgstr "ছোটবড় করার জন্য স্লাইডার দেখাও"
+
+#: statusbar/dolphinstatusbar.cpp:76
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Stop"
+msgid "Stop"
+msgstr "থামাও"
+
+#: statusbar/dolphinstatusbar.cpp:78
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "Stop loading"
+msgctxt "@tooltip"
+msgid "Stop loading"
+msgstr "লোড করা থামাও"
+
+#: statusbar/dolphinstatusbar.cpp:226
+#, fuzzy
+#| msgctxt "@action:inmenu"
+#| msgid "Copy"
+msgctxt "@action:inmenu"
+msgid "Copy Text"
+msgstr "কপি করো"
+
+#: statusbar/dolphinstatusbar.cpp:227
+msgctxt "@action:inmenu"
+msgid "Show Zoom Slider"
+msgstr "ছোটবড় করার জন্য স্লাইডার দেখাও"
+
+#: statusbar/dolphinstatusbar.cpp:231
+msgctxt "@action:inmenu"
+msgid "Show Space Information"
+msgstr "ফাঁকা জায়গা সম্বন্ধে তথ্য দেখাও"
+
+#: statusbar/dolphinstatusbar.cpp:308
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Size: 1 pixel"
+msgid_plural "Size: %1 pixels"
+msgstr[0] "মাপ:১ পিক্সেল"
+msgstr[1] "মাপ: %1 পিক্সেল"
+
 #: statusbar/statusbarspaceinfo.cpp:79 statusbar/statusbarspaceinfo.cpp:87
 msgctxt "@info:status"
 msgid "Unknown size"
@@ -1088,48 +1136,6 @@ msgstr "অজানা মাপ"
 msgctxt "@info:status Free disk space"
 msgid "%1 free"
 msgstr "%1 ফাঁকা"
-
-#: statusbar/dolphinstatusbar.cpp:65
-#, fuzzy
-#| msgctxt "@option:check"
-#| msgid "Show zoom slider"
-msgid "Zoom slider"
-msgstr "ছোটবড় করার জন্য স্লাইডার দেখাও"
-
-#: statusbar/dolphinstatusbar.cpp:86
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Stop"
-msgid "Stop"
-msgstr "থামাও"
-
-#: statusbar/dolphinstatusbar.cpp:273
-msgctxt "@action:inmenu"
-msgid "Copy Information Message"
-msgstr "তথ্যসূচক বার্তা কপি করো"
-
-#: statusbar/dolphinstatusbar.cpp:276
-msgctxt "@action:inmenu"
-msgid "Copy Error Message"
-msgstr "সমস্যাসূচক বার্তা কপি করো"
-
-#: statusbar/dolphinstatusbar.cpp:281
-msgctxt "@action:inmenu"
-msgid "Show Zoom Slider"
-msgstr "ছোটবড় করার জন্য স্লাইডার দেখাও"
-
-#: statusbar/dolphinstatusbar.cpp:285
-msgctxt "@action:inmenu"
-msgid "Show Space Information"
-msgstr "ফাঁকা জায়গা সম্বন্ধে তথ্য দেখাও"
-
-#: statusbar/dolphinstatusbar.cpp:374
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Size: 1 pixel"
-msgid_plural "Size: %1 pixels"
-msgstr[0] "মাপ:১ পিক্সেল"
-msgstr[1] "মাপ: %1 পিক্সেল"
 
 #: views/dolphinview.cpp:517
 #, kde-format
@@ -1415,12 +1421,308 @@ msgctxt "@info"
 msgid "# will be replaced by ascending numbers starting with:"
 msgstr "(#-এর জায়গায় ক্রমানুসারে সংখ্যা বসানো হবে)"
 
-#: dolphinviewcontainer.cpp:338
+#: dolphinmainwindow.cpp:334
+msgctxt "@info:status"
+msgid "Successfully copied."
+msgstr "কপি করা সফল।"
+
+#: dolphinmainwindow.cpp:337
+msgctxt "@info:status"
+msgid "Successfully moved."
+msgstr "সরানো সফল।"
+
+#: dolphinmainwindow.cpp:340
+msgctxt "@info:status"
+msgid "Successfully linked."
+msgstr "লিঙ্ক করা সফল।"
+
+#: dolphinmainwindow.cpp:343
+msgctxt "@info:status"
+msgid "Successfully moved to trash."
+msgstr "আবর্জনার বাক্সে সরানো সফল।"
+
+#: dolphinmainwindow.cpp:346
+msgctxt "@info:status"
+msgid "Successfully renamed."
+msgstr "নাম বদল সফল।"
+
+#: dolphinmainwindow.cpp:350
+msgctxt "@info:status"
+msgid "Created folder."
+msgstr "ফোল্ডার তৈরী করা হয়েছে।"
+
+#: dolphinmainwindow.cpp:427
+msgctxt "@info"
+msgid "Go back"
+msgstr "ফিরে যাও"
+
+#: dolphinmainwindow.cpp:433
+msgctxt "@info"
+msgid "Go forward"
+msgstr "এগিয়ে যাও"
+
+#: dolphinmainwindow.cpp:595
+msgctxt "@title:window"
+msgid "Confirmation"
+msgstr "অনুমোদন"
+
+#: dolphinmainwindow.cpp:599
+msgid "C&lose Current Tab"
+msgstr "&এই ট্যাবটি বন্ধ করো"
+
+#: dolphinmainwindow.cpp:607
+msgid ""
+"You have multiple tabs open in this window, are you sure you want to quit?"
+msgstr "এই উইণ্ডোয় একাধিক ট্যাব খোলা রয়েছে। আপনি কি প্রস্থান করার ব্যাপারে নিশ্চিত?"
+
+#: dolphinmainwindow.cpp:609
+msgid "Do not ask again"
+msgstr "আর জিজ্ঞাসা করার প্রয়োজন নেই"
+
+#: dolphinmainwindow.cpp:1210
+msgctxt "@action:inmenu"
+msgid "New Tab"
+msgstr "নতুন ট্যাব"
+
+#: dolphinmainwindow.cpp:1213
+msgctxt "@action:inmenu"
+msgid "Detach Tab"
+msgstr "ট্যাব আলাদা করো"
+
+#: dolphinmainwindow.cpp:1215
+msgctxt "@action:inmenu"
+msgid "Close Other Tabs"
+msgstr "অন্যান্য ট্যাব বন্ধ করো"
+
+#: dolphinmainwindow.cpp:1217
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "ট্যাব বন্ধ করো"
+
+#: dolphinmainwindow.cpp:1446
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Location Bar"
+msgctxt "@action:inmenu"
+msgid "Location Bar"
+msgstr "অবস্থান বার"
+
+#: dolphinmainwindow.cpp:1454
+#, fuzzy
+#| msgid "&Go"
+msgctxt "@action:inmenu"
+msgid "Go"
+msgstr "যা&ও"
+
+#: dolphinmainwindow.cpp:1464
+#, fuzzy
+#| msgctxt "@title:menu"
+#| msgid "Tools"
+msgctxt "@action:inmenu"
+msgid "Tools"
+msgstr "টুল"
+
+#: dolphinmainwindow.cpp:1478
+msgctxt "@action:inmenu"
+msgid "Help"
+msgstr ""
+
+#: dolphinmainwindow.cpp:1561 dolphincontextmenu.cpp:248
+msgctxt "@title:menu Create new folder, file, link, etc."
+msgid "Create New"
+msgstr "নতুন তৈরি করো"
+
+#: dolphinmainwindow.cpp:1568
+msgctxt "@action:inmenu File"
+msgid "New &Window"
+msgstr "নতুন &উইণ্ডো"
+
+#: dolphinmainwindow.cpp:1574
+msgctxt "@action:inmenu File"
+msgid "New Tab"
+msgstr "নতুন ট্যাব"
+
+#: dolphinmainwindow.cpp:1580
+msgctxt "@action:inmenu File"
+msgid "Close Tab"
+msgstr "ট্যাব বন্ধ করো"
+
+#: dolphinmainwindow.cpp:1603
+msgctxt "@action:inmenu Edit"
+msgid "Paste"
+msgstr "পেস্ট"
+
+#: dolphinmainwindow.cpp:1608
+msgctxt "@action:inmenu Edit"
+msgid "Select All"
+msgstr "সব নির্বাচন করো"
+
+#: dolphinmainwindow.cpp:1613 dolphinpart.cpp:164
+msgctxt "@action:inmenu Edit"
+msgid "Invert Selection"
+msgstr "নির্বাচন বিপরীত অবস্থায় আনো"
+
+#: dolphinmainwindow.cpp:1626
+msgctxt "@action:inmenu View"
+msgid "Reload"
+msgstr "নতুন করে পড়ো"
+
+#: dolphinmainwindow.cpp:1632
+msgctxt "@action:inmenu View"
+msgid "Stop"
+msgstr "থামাও"
+
+#: dolphinmainwindow.cpp:1633
+msgctxt "@info"
+msgid "Stop loading"
+msgstr "লোড করা থামাও"
+
+#: dolphinmainwindow.cpp:1638
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Editable Location"
+msgstr "সম্পাদনযোগ্য অবস্থান"
+
+#: dolphinmainwindow.cpp:1643
+#, fuzzy
+msgctxt "@action:inmenu Navigation Bar"
+msgid "Replace Location"
+msgstr "অবস্থান প্রতিস্থাপন করো"
+
+#: dolphinmainwindow.cpp:1654
+msgid "Recently Closed Tabs"
+msgstr "সম্প্রতি বন্ধ করা ট্যাব"
+
+#: dolphinmainwindow.cpp:1660
+#, fuzzy
+#| msgid "Recently Closed Tabs"
+msgid "Empty Recently Closed Tabs"
+msgstr "সম্প্রতি বন্ধ করা ট্যাব"
+
+#: dolphinmainwindow.cpp:1678
+msgctxt "@action:inmenu Tools"
+msgid "Show Filter Bar"
+msgstr "ফিল্টার বার দেখাও"
+
+#: dolphinmainwindow.cpp:1684
+msgctxt "@action:inmenu Tools"
+msgid "Compare Files"
+msgstr "ফাইল তুলনা করো"
+
+#: dolphinmainwindow.cpp:1690
+msgctxt "@action:inmenu Tools"
+msgid "Open Terminal"
+msgstr "টার্মিনাল খোলো"
+
+#: dolphinmainwindow.cpp:1711
+msgctxt "@action:inmenu"
+msgid "Activate Next Tab"
+msgstr "পরবর্তী ট্যাব সক্রিয় করো"
+
+#: dolphinmainwindow.cpp:1716
+msgctxt "@action:inmenu"
+msgid "Activate Previous Tab"
+msgstr "পূর্ববর্তী ট্যাব সক্রিয় করো"
+
+#: dolphinmainwindow.cpp:1722
+msgctxt "@action:inmenu"
+msgid "Open in New Tab"
+msgstr "নতুন ট্যাবে খোলা"
+
+#: dolphinmainwindow.cpp:1727
+msgctxt "@action:inmenu"
+msgid "Open in New Window"
+msgstr "নতুন উইণ্ডোয় খোলো"
+
+#: dolphinmainwindow.cpp:1737
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Unlock Panels"
+msgstr "প্যানেল"
+
+#: dolphinmainwindow.cpp:1739
+#, fuzzy
+#| msgctxt "@action:inmenu View"
+#| msgid "Panels"
+msgctxt "@action:inmenu Panels"
+msgid "Lock Panels"
+msgstr "প্যানেল"
+
+#: dolphinmainwindow.cpp:1745
+msgctxt "@title:window"
+msgid "Information"
+msgstr "তথ্য"
+
+#: dolphinmainwindow.cpp:1766
+msgctxt "@title:window"
+msgid "Folders"
+msgstr "ফোল্ডার"
+
+#: dolphinmainwindow.cpp:1785
+msgctxt "@title:window Shell terminal"
+msgid "Terminal"
+msgstr "টার্মিনাল"
+
+#: dolphinmainwindow.cpp:1807
+#, fuzzy
+#| msgctxt "@action:button"
+#| msgid "Search"
+msgctxt "@title:window"
+msgid "Search"
+msgstr "অনুসন্ধান"
+
+#: dolphinmainwindow.cpp:1835
+msgctxt "@title:window"
+msgid "Places"
+msgstr "স্থান"
+
+#: dolphinmainwindow.cpp:1863
+msgctxt "@action:inmenu View"
+msgid "Panels"
+msgstr "প্যানেল"
+
+#: dolphinmainwindow.cpp:1937
+msgctxt "@action"
+msgid "Control"
+msgstr ""
+
+#: dolphinmainwindow.cpp:2110
+msgctxt "@action:intoolbar Close right view"
+msgid "Close"
+msgstr "বন্ধ করো"
+
+#: dolphinmainwindow.cpp:2111
+msgctxt "@info"
+msgid "Close right view"
+msgstr "ডানদিকের ভিউ বন্ধ করো"
+
+#: dolphinmainwindow.cpp:2114
+msgctxt "@action:intoolbar Close left view"
+msgid "Close"
+msgstr "বন্ধ করো"
+
+#: dolphinmainwindow.cpp:2115
+msgctxt "@info"
+msgid "Close left view"
+msgstr "বাঁদিকের ভিউ বন্ধ করো"
+
+#: dolphinmainwindow.cpp:2119
+msgctxt "@action:intoolbar Split view"
+msgid "Split"
+msgstr "ভাগ করো"
+
+#: dolphinmainwindow.cpp:2120
+msgctxt "@info"
+msgid "Split view"
+msgstr "বিভক্ত ভিউ"
+
+#: dolphinviewcontainer.cpp:366
 msgctxt "@info:progress"
 msgid "Loading folder..."
 msgstr "ফোল্ডার লোড করা হচ্ছে..."
 
-#: dolphinviewcontainer.cpp:346
+#: dolphinviewcontainer.cpp:374
 #, fuzzy
 #| msgctxt "@label:listbox"
 #| msgid "Sorting:"
@@ -1428,27 +1730,27 @@ msgctxt "@info:progress"
 msgid "Sorting..."
 msgstr "সাজানো:"
 
-#: dolphinviewcontainer.cpp:357
+#: dolphinviewcontainer.cpp:385
 msgctxt "@info"
 msgid "Searching..."
 msgstr "অনুসন্ধান চলছে..."
 
-#: dolphinviewcontainer.cpp:377
+#: dolphinviewcontainer.cpp:405
 msgctxt "@info:status"
 msgid "No items found."
 msgstr "কোন মিল পাওয়া যায়নি।"
 
-#: dolphinviewcontainer.cpp:514
+#: dolphinviewcontainer.cpp:521
 msgctxt "@info:status"
 msgid "Dolphin does not support web pages, the web browser has been launched"
 msgstr "ডলফিন ওয়েব-পেজ সমর্থন করো না, ওয়েব ব্রাউজার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:526
+#: dolphinviewcontainer.cpp:535
 msgctxt "@info:status"
 msgid "Protocol not supported by Dolphin, Konqueror has been launched"
 msgstr "ডলফিন এই প্রোটোকল-টি সমর্থন করে না, কনকরার চালু করা হয়েছে"
 
-#: dolphinviewcontainer.cpp:533
+#: dolphinviewcontainer.cpp:543
 msgctxt "@info:status"
 msgid "Invalid protocol"
 msgstr "অবৈধ প্রোটোকল"
@@ -1973,11 +2275,6 @@ msgctxt "@action:inmenu"
 msgid "Restore"
 msgstr "পুনঃস্থাপন করো"
 
-#: dolphincontextmenu.cpp:248 dolphinmainwindow.cpp:1567
-msgctxt "@title:menu Create new folder, file, link, etc."
-msgid "Create New"
-msgstr "নতুন তৈরি করো"
-
 #: dolphincontextmenu.cpp:261
 msgctxt "@action:inmenu Add selected folder to places"
 msgid "Add to Places"
@@ -2122,297 +2419,6 @@ msgctxt "@info:shell"
 msgid "Document to open"
 msgstr "যে নথীটি খোলা হবে"
 
-#: dolphinmainwindow.cpp:334
-msgctxt "@info:status"
-msgid "Successfully copied."
-msgstr "কপি করা সফল।"
-
-#: dolphinmainwindow.cpp:338
-msgctxt "@info:status"
-msgid "Successfully moved."
-msgstr "সরানো সফল।"
-
-#: dolphinmainwindow.cpp:342
-msgctxt "@info:status"
-msgid "Successfully linked."
-msgstr "লিঙ্ক করা সফল।"
-
-#: dolphinmainwindow.cpp:346
-msgctxt "@info:status"
-msgid "Successfully moved to trash."
-msgstr "আবর্জনার বাক্সে সরানো সফল।"
-
-#: dolphinmainwindow.cpp:350
-msgctxt "@info:status"
-msgid "Successfully renamed."
-msgstr "নাম বদল সফল।"
-
-#: dolphinmainwindow.cpp:355
-msgctxt "@info:status"
-msgid "Created folder."
-msgstr "ফোল্ডার তৈরী করা হয়েছে।"
-
-#: dolphinmainwindow.cpp:433
-msgctxt "@info"
-msgid "Go back"
-msgstr "ফিরে যাও"
-
-#: dolphinmainwindow.cpp:439
-msgctxt "@info"
-msgid "Go forward"
-msgstr "এগিয়ে যাও"
-
-#: dolphinmainwindow.cpp:601
-msgctxt "@title:window"
-msgid "Confirmation"
-msgstr "অনুমোদন"
-
-#: dolphinmainwindow.cpp:605
-msgid "C&lose Current Tab"
-msgstr "&এই ট্যাবটি বন্ধ করো"
-
-#: dolphinmainwindow.cpp:613
-msgid ""
-"You have multiple tabs open in this window, are you sure you want to quit?"
-msgstr "এই উইণ্ডোয় একাধিক ট্যাব খোলা রয়েছে। আপনি কি প্রস্থান করার ব্যাপারে নিশ্চিত?"
-
-#: dolphinmainwindow.cpp:615
-msgid "Do not ask again"
-msgstr "আর জিজ্ঞাসা করার প্রয়োজন নেই"
-
-#: dolphinmainwindow.cpp:1219
-msgctxt "@action:inmenu"
-msgid "New Tab"
-msgstr "নতুন ট্যাব"
-
-#: dolphinmainwindow.cpp:1222
-msgctxt "@action:inmenu"
-msgid "Detach Tab"
-msgstr "ট্যাব আলাদা করো"
-
-#: dolphinmainwindow.cpp:1224
-msgctxt "@action:inmenu"
-msgid "Close Other Tabs"
-msgstr "অন্যান্য ট্যাব বন্ধ করো"
-
-#: dolphinmainwindow.cpp:1226
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "ট্যাব বন্ধ করো"
-
-#: dolphinmainwindow.cpp:1452
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Location Bar"
-msgctxt "@action:inmenu"
-msgid "Location Bar"
-msgstr "অবস্থান বার"
-
-#: dolphinmainwindow.cpp:1460
-#, fuzzy
-#| msgid "&Go"
-msgctxt "@action:inmenu"
-msgid "Go"
-msgstr "যা&ও"
-
-#: dolphinmainwindow.cpp:1470
-#, fuzzy
-#| msgctxt "@title:menu"
-#| msgid "Tools"
-msgctxt "@action:inmenu"
-msgid "Tools"
-msgstr "টুল"
-
-#: dolphinmainwindow.cpp:1484
-msgctxt "@action:inmenu"
-msgid "Help"
-msgstr ""
-
-#: dolphinmainwindow.cpp:1574
-msgctxt "@action:inmenu File"
-msgid "New &Window"
-msgstr "নতুন &উইণ্ডো"
-
-#: dolphinmainwindow.cpp:1580
-msgctxt "@action:inmenu File"
-msgid "New Tab"
-msgstr "নতুন ট্যাব"
-
-#: dolphinmainwindow.cpp:1586
-msgctxt "@action:inmenu File"
-msgid "Close Tab"
-msgstr "ট্যাব বন্ধ করো"
-
-#: dolphinmainwindow.cpp:1609
-msgctxt "@action:inmenu Edit"
-msgid "Paste"
-msgstr "পেস্ট"
-
-#: dolphinmainwindow.cpp:1614
-msgctxt "@action:inmenu Edit"
-msgid "Select All"
-msgstr "সব নির্বাচন করো"
-
-#: dolphinmainwindow.cpp:1619 dolphinpart.cpp:164
-msgctxt "@action:inmenu Edit"
-msgid "Invert Selection"
-msgstr "নির্বাচন বিপরীত অবস্থায় আনো"
-
-#: dolphinmainwindow.cpp:1632
-msgctxt "@action:inmenu View"
-msgid "Reload"
-msgstr "নতুন করে পড়ো"
-
-#: dolphinmainwindow.cpp:1638
-msgctxt "@action:inmenu View"
-msgid "Stop"
-msgstr "থামাও"
-
-#: dolphinmainwindow.cpp:1639
-msgctxt "@info"
-msgid "Stop loading"
-msgstr "লোড করা থামাও"
-
-#: dolphinmainwindow.cpp:1644
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Editable Location"
-msgstr "সম্পাদনযোগ্য অবস্থান"
-
-#: dolphinmainwindow.cpp:1649
-#, fuzzy
-msgctxt "@action:inmenu Navigation Bar"
-msgid "Replace Location"
-msgstr "অবস্থান প্রতিস্থাপন করো"
-
-#: dolphinmainwindow.cpp:1660
-msgid "Recently Closed Tabs"
-msgstr "সম্প্রতি বন্ধ করা ট্যাব"
-
-#: dolphinmainwindow.cpp:1666
-#, fuzzy
-#| msgid "Recently Closed Tabs"
-msgid "Empty Recently Closed Tabs"
-msgstr "সম্প্রতি বন্ধ করা ট্যাব"
-
-#: dolphinmainwindow.cpp:1684
-msgctxt "@action:inmenu Tools"
-msgid "Show Filter Bar"
-msgstr "ফিল্টার বার দেখাও"
-
-#: dolphinmainwindow.cpp:1690
-msgctxt "@action:inmenu Tools"
-msgid "Compare Files"
-msgstr "ফাইল তুলনা করো"
-
-#: dolphinmainwindow.cpp:1696
-msgctxt "@action:inmenu Tools"
-msgid "Open Terminal"
-msgstr "টার্মিনাল খোলো"
-
-#: dolphinmainwindow.cpp:1717
-msgctxt "@action:inmenu"
-msgid "Activate Next Tab"
-msgstr "পরবর্তী ট্যাব সক্রিয় করো"
-
-#: dolphinmainwindow.cpp:1722
-msgctxt "@action:inmenu"
-msgid "Activate Previous Tab"
-msgstr "পূর্ববর্তী ট্যাব সক্রিয় করো"
-
-#: dolphinmainwindow.cpp:1728
-msgctxt "@action:inmenu"
-msgid "Open in New Tab"
-msgstr "নতুন ট্যাবে খোলা"
-
-#: dolphinmainwindow.cpp:1733
-msgctxt "@action:inmenu"
-msgid "Open in New Window"
-msgstr "নতুন উইণ্ডোয় খোলো"
-
-#: dolphinmainwindow.cpp:1743
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Unlock Panels"
-msgstr "প্যানেল"
-
-#: dolphinmainwindow.cpp:1745
-#, fuzzy
-#| msgctxt "@action:inmenu View"
-#| msgid "Panels"
-msgctxt "@action:inmenu Panels"
-msgid "Lock Panels"
-msgstr "প্যানেল"
-
-#: dolphinmainwindow.cpp:1751
-msgctxt "@title:window"
-msgid "Information"
-msgstr "তথ্য"
-
-#: dolphinmainwindow.cpp:1772
-msgctxt "@title:window"
-msgid "Folders"
-msgstr "ফোল্ডার"
-
-#: dolphinmainwindow.cpp:1791
-msgctxt "@title:window Shell terminal"
-msgid "Terminal"
-msgstr "টার্মিনাল"
-
-#: dolphinmainwindow.cpp:1813
-#, fuzzy
-#| msgctxt "@action:button"
-#| msgid "Search"
-msgctxt "@title:window"
-msgid "Search"
-msgstr "অনুসন্ধান"
-
-#: dolphinmainwindow.cpp:1841
-msgctxt "@title:window"
-msgid "Places"
-msgstr "স্থান"
-
-#: dolphinmainwindow.cpp:1869
-msgctxt "@action:inmenu View"
-msgid "Panels"
-msgstr "প্যানেল"
-
-#: dolphinmainwindow.cpp:1943
-msgctxt "@action"
-msgid "Control"
-msgstr ""
-
-#: dolphinmainwindow.cpp:2116
-msgctxt "@action:intoolbar Close right view"
-msgid "Close"
-msgstr "বন্ধ করো"
-
-#: dolphinmainwindow.cpp:2117
-msgctxt "@info"
-msgid "Close right view"
-msgstr "ডানদিকের ভিউ বন্ধ করো"
-
-#: dolphinmainwindow.cpp:2120
-msgctxt "@action:intoolbar Close left view"
-msgid "Close"
-msgstr "বন্ধ করো"
-
-#: dolphinmainwindow.cpp:2121
-msgctxt "@info"
-msgid "Close left view"
-msgstr "বাঁদিকের ভিউ বন্ধ করো"
-
-#: dolphinmainwindow.cpp:2125
-msgctxt "@action:intoolbar Split view"
-msgid "Split"
-msgstr "ভাগ করো"
-
-#: dolphinmainwindow.cpp:2126
-msgctxt "@info"
-msgid "Split view"
-msgstr "বিভক্ত ভিউ"
-
 #: dolphinpart.cpp:145
 msgctxt "@action:inmenu Edit"
 msgid "&Edit File Type..."
@@ -2493,6 +2499,14 @@ msgstr "নির্বাচন বাতিল কর"
 #: dolphinpart.cpp:469
 msgid "Unselect all items matching this pattern:"
 msgstr ""
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Information Message"
+#~ msgstr "তথ্যসূচক বার্তা কপি করো"
+
+#~ msgctxt "@action:inmenu"
+#~ msgid "Copy Error Message"
+#~ msgstr "সমস্যাসূচক বার্তা কপি করো"
 
 #, fuzzy
 #~| msgctxt "@label"
