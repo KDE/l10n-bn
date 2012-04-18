@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-12 04:39+0200\n"
+"POT-Creation-Date: 2012-04-18 04:19+0200\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1216,7 +1216,7 @@ msgstr "কী-বাইণ্ডিং"
 #, fuzzy
 msgid ""
 "Key bindings control how combinations of key presses in the terminal window "
-"are converted into the stream of characters which is sent to the current "
+"are converted into the stream of characters which are sent to the current "
 "terminal program."
 msgstr ""
 "মূখ্য bindings নিয়ন্ত্রণ করো টার্মিনাল উইণ্ডোতে মূখ্য সংবাদপত্রের যেমন বিন্যাস অক্ষরের "
@@ -1832,7 +1832,7 @@ msgstr "সেটিংস"
 msgid "Help"
 msgstr "সহায়তা"
 
-#. i18n: file: ../desktop/partui.rc:9
+#. i18n: file: ../desktop/partui.rc:10
 #. i18n: ectx: Menu (history)
 #: rc.cpp:473
 msgid "S&crollback"
@@ -1903,121 +1903,137 @@ msgstr "সোলারিস কনসোল"
 msgid "DEC VT420 Terminal"
 msgstr "DEC VT420 টার্মিনাল"
 
-#: SessionController.cpp:314
+#: SessionController.cpp:318
 msgid "Konsole does not know how to open the bookmark: "
 msgstr "কনসোল জানে না এই বুকমার্কটি কি করে খুলতে হবে: "
 
-#: SessionController.cpp:447
+#: SessionController.cpp:376
+#, fuzzy, kde-format
+#| msgid "Search string '%1' not found."
+msgid "Search for '%1' with"
+msgstr "শব্দসমষ্টি '%1' পাওয়া যায়নি।"
+
+#: SessionController.cpp:391
+#, fuzzy
+#| msgid "Configure Profiles..."
+msgid "Configure Web Shortcuts..."
+msgstr "প্রোফাইল কনফিগার করুন..."
+
+#: SessionController.cpp:525
 msgid "&Close Tab"
 msgstr "ট্যাব &বন্ধ করো"
 
-#: SessionController.cpp:453
+#: SessionController.cpp:531
 msgid "Open File Manager"
 msgstr "ফাইল ম্যানেজার খোলো"
 
-#: SessionController.cpp:469
+#: SessionController.cpp:547
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ সাঁটো"
 
-#: SessionController.cpp:473
+#: SessionController.cpp:550
+msgid "Web Search"
+msgstr ""
+
+#: SessionController.cpp:557
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "সব নির্বাচন করো"
 
-#: SessionController.cpp:477
+#: SessionController.cpp:561
 msgid "Save Output &As..."
 msgstr "আউটপুট &নতুন নামে সংরক্ষণ করো..."
 
-#: SessionController.cpp:480
+#: SessionController.cpp:564
 #, fuzzy
 #| msgid "Configure Scrollback..."
 msgid "Adjust Scrollback..."
 msgstr "ইতিবৃত্ত কনফিগার করো..."
 
-#: SessionController.cpp:484
+#: SessionController.cpp:568
 msgid "Clear Scrollback"
 msgstr "ইতিবৃত্ত মুছে ফেলো"
 
-#: SessionController.cpp:488
+#: SessionController.cpp:572
 msgid "Clear Scrollback and Reset"
 msgstr "ইতিবৃত্ত মুছে ফেলো এবং রিসেট করো"
 
-#: SessionController.cpp:494
+#: SessionController.cpp:578
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা করো..."
 
-#: SessionController.cpp:497
+#: SessionController.cpp:581
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা করো"
 
-#: SessionController.cpp:511
+#: SessionController.cpp:595
 msgid "&Rename Tab..."
 msgstr "ট্যাব-এর না&ম পাল্টাও..."
 
-#: SessionController.cpp:517
+#: SessionController.cpp:601
 msgid "&All Tabs in Current Window"
 msgstr "বর্তমান উইণ্ডোয় &সমস্ত ট্যাব"
 
-#: SessionController.cpp:524
+#: SessionController.cpp:608
 msgid "&Select Tabs..."
 msgstr "ট্যাব নির্বাচ&ন করুন..."
 
-#: SessionController.cpp:530
+#: SessionController.cpp:614
 #, fuzzy
 #| msgid "&None"
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr "কিছু &নয়"
 
-#: SessionController.cpp:538
+#: SessionController.cpp:622
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করে পাঠাও"
 
-#: SessionController.cpp:545
+#: SessionController.cpp:629
 msgid "&ZModem Upload..."
 msgstr "&ZModem আপলোড..."
 
-#: SessionController.cpp:550
+#: SessionController.cpp:634
 msgid "Monitor for &Activity"
 msgstr "কিছু &ঘটছে কি না খেয়াল রাখো"
 
-#: SessionController.cpp:555
+#: SessionController.cpp:639
 msgid "Monitor for &Silence"
 msgstr "সব চুপচা&প কি না খেয়াল রাখো"
 
-#: SessionController.cpp:561
+#: SessionController.cpp:645
 msgid "Set &Encoding"
 msgstr "&এনকোডিং নির্ধারণ করো"
 
-#: SessionController.cpp:569
+#: SessionController.cpp:653
 msgid "Enlarge Font"
 msgstr "ফন্ট বড় করো"
 
-#: SessionController.cpp:577
+#: SessionController.cpp:661
 msgid "Shrink Font"
 msgstr "ফন্ট ছোট করো"
 
-#: SessionController.cpp:671
+#: SessionController.cpp:755
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "এই সেশন-এ একটি প্রোগ্রাম চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:674
+#: SessionController.cpp:758
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:677 SessionController.cpp:702
+#: SessionController.cpp:761 SessionController.cpp:786
 msgid "Confirm Close"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: SessionController.cpp:696
+#: SessionController.cpp:780
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2027,7 +2043,7 @@ msgid ""
 "by force?"
 msgstr "এই সেশন-এ একটি প্রোগ্রাম চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:699
+#: SessionController.cpp:783
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2037,11 +2053,11 @@ msgid ""
 "kill it by force?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:1255
+#: SessionController.cpp:1344
 msgid "Save ZModem Download to..."
 msgstr "জি-মোডে&ম ডাউনলোড এখানে সংরক্ষণ করো..."
 
-#: SessionController.cpp:1263
+#: SessionController.cpp:1352
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
@@ -2051,12 +2067,12 @@ msgstr ""
 "সফটওয়্যার পাওয়া যাচ্ছে না।</p><p>আপনি 'rzsz' অথবা 'lrzsz' প্যাকেজটি ইনস্টল করে "
 "দেখতে পারেন।</p>"
 
-#: SessionController.cpp:1275
+#: SessionController.cpp:1364
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>বর্তমান সেশনে একটি জি-মোডেম ফাইল ট্রান্সফার আগে থেকেই চলছে।</p>"
 
-#: SessionController.cpp:1284
+#: SessionController.cpp:1373
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
@@ -2064,21 +2080,21 @@ msgstr ""
 "<p>সিস্টেমে কোনো মানানসই জি-মোডেম সফটওয়ার পাওয়া যায়নি।</p><p>আপনি 'rzsz' বা "
 "'lrzsz' প্যাকেজগুলি ইনস্টল করে দেখতে পারেন।</p>"
 
-#: SessionController.cpp:1290
+#: SessionController.cpp:1379
 msgid "Select Files for ZModem Upload"
 msgstr "জি-মোডেম আপলোড করার জন্য ফাইল বেছে নিন"
 
-#: SessionController.cpp:1358
+#: SessionController.cpp:1447
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে আউটপুট সংরক্ষণ করো"
 
-#: SessionController.cpp:1369
+#: SessionController.cpp:1458
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 একটি অবৈধ ইউ-আর-এল, আউটপুট সংরক্ষণ করা যায়নি।"
 
-#: SessionController.cpp:1444
+#: SessionController.cpp:1533
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2451,9 +2467,6 @@ msgstr "থামো (&থ)"
 
 #~ msgid "Save to current profile"
 #~ msgstr "বর্তমান প্রোফাইল-এ সংরক্ষণ করো"
-
-#~ msgid "Configure Profiles..."
-#~ msgstr "প্রোফাইল কনফিগার করুন..."
 
 #~ msgid "&Change Profile"
 #~ msgstr "প্রোফাইল &পরিবর্তন করো"
@@ -3025,9 +3038,6 @@ msgstr "থামো (&থ)"
 #~ msgstr ""
 #~ "গোড়ায় এসে গেছি।\n"
 #~ "আবার শেষ থেকে শুরু করব?"
-
-#~ msgid "Search string '%1' not found."
-#~ msgstr "শব্দসমষ্টি '%1' পাওয়া যায়নি।"
 
 #~ msgid ""
 #~ "A file with this name already exists.\n"
