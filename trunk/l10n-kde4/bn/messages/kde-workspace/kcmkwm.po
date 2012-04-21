@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-02 04:34+0200\n"
+"POT-Creation-Date: 2012-04-21 05:01+0200\n"
 "PO-Revision-Date: 2010-06-01 10:33-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -789,7 +789,13 @@ msgstr "কেন্দ্রীয়"
 msgid "Zero-Cornered"
 msgstr "শুন্য কোণবিশিষ্ট"
 
-#: windows.cpp:609
+#: windows.cpp:603
+#, fuzzy
+#| msgid "Focus Under Mouse"
+msgid "Under Mouse"
+msgstr "মাউসের নিচে ফোকাস"
+
+#: windows.cpp:610
 #, fuzzy
 msgid ""
 "The placement policy determines where a new window will appear on the "
@@ -799,23 +805,23 @@ msgid ""
 "some windows using the window-specific settings.</li> <li><em>Cascade</em> "
 "will cascade the windows</li> <li><em>Random</em> will use a random "
 "position</li> <li><em>Centered</em> will place the window centered</li> "
-"<li><em>Zero-Cornered</em> will place the window in the top-left corner</"
-"li></ul>"
+"<li><em>Zero-Cornered</em> will place the window in the top-left corner</li> "
+"<li><em>Under Mouse</em> will place the window under the pointer</li></ul>"
 msgstr ""
 "সংস্থাপন নীতি স্থির করে একটি নতুন উইন্ডো ডেস্কটপের কোথায় আসবে।বর্তমানে এরকম তিনটি "
 "ভিন্ন নীতি আছে:<ul><li><em>বুদ্ধিমান</em> উইন্ডোগুলির ন্যুনতম উপরিপাতনের চেষ্টা "
 "করবে</li><li><em>গুচ্ছ (কাসকেড)</em> উইন্ডোগুলিকে গুচ্ছাকারে সাজাবে</"
 "li><li><em>এলোমেলো</em> যে কোনো একটি স্থানে উইন্ডোটিকে রাখবে</li></ul>"
 
-#: windows.cpp:625
+#: windows.cpp:627
 msgid "&Placement:"
 msgstr "সংস্থাপ&ন"
 
-#: windows.cpp:633
+#: windows.cpp:635
 msgid "Hide utility windows for inactive applications"
 msgstr ""
 
-#: windows.cpp:635
+#: windows.cpp:637
 msgid ""
 "When turned on, utility windows (tool windows, torn-off menus,...) of "
 "inactive applications will be hidden and will be shown only when the "
@@ -823,61 +829,61 @@ msgid ""
 "with the proper window type for this feature to work."
 msgstr ""
 
-#: windows.cpp:642
+#: windows.cpp:644
 msgid "Tiling"
 msgstr ""
 
-#: windows.cpp:645
+#: windows.cpp:647
 msgid "Enable Tiling"
 msgstr ""
 
-#: windows.cpp:647
+#: windows.cpp:649
 msgid ""
 "A tiling window manager lays out all the windows in a non-overlapping "
 "manner. This way all windows are always visible."
 msgstr ""
 
-#: windows.cpp:653
+#: windows.cpp:655
 msgid "Default Tiling &Layout"
 msgstr ""
 
-#: windows.cpp:659
+#: windows.cpp:661
 msgctxt "Spiral tiling layout"
 msgid "Spiral"
 msgstr ""
 
-#: windows.cpp:660
+#: windows.cpp:662
 msgctxt "Two-column horizontal tiling layout"
 msgid "Columns"
 msgstr ""
 
-#: windows.cpp:661
+#: windows.cpp:663
 #, fuzzy
 #| msgid "Nothing"
 msgctxt "Floating layout, windows aren't tiled at all"
 msgid "Floating"
 msgstr "কিছু নয়"
 
-#: windows.cpp:667
+#: windows.cpp:669
 msgid "Floating &Windows Raising"
-msgstr ""
-
-#: windows.cpp:675
-msgctxt "Window Raising Policy"
-msgid "Raise/Lower all floating windows"
-msgstr ""
-
-#: windows.cpp:676
-msgctxt "Window Raising Policy"
-msgid "Raise/Lower current window only"
 msgstr ""
 
 #: windows.cpp:677
 msgctxt "Window Raising Policy"
-msgid "Floating windows are always on top"
+msgid "Raise/Lower all floating windows"
 msgstr ""
 
 #: windows.cpp:678
+msgctxt "Window Raising Policy"
+msgid "Raise/Lower current window only"
+msgstr ""
+
+#: windows.cpp:679
+msgctxt "Window Raising Policy"
+msgid "Floating windows are always on top"
+msgstr ""
+
+#: windows.cpp:680
 msgid ""
 "The window raising policy determines how floating windows are stacked <ul> "
 "<li><em>Raise/Lower all</em> will raise all floating windows when a floating "
@@ -886,15 +892,15 @@ msgid ""
 "keep floating windows on top, even when a tiled window is activated.</ul>"
 msgstr ""
 
-#: windows.cpp:926
+#: windows.cpp:894
 msgid "Windows"
 msgstr "উইন্ডোসমূহ"
 
-#: windows.cpp:933
+#: windows.cpp:901
 msgid "Display window &geometry when moving or resizing"
 msgstr "সরানোর বা আকার বদলের সম&য় জ্যামিতি দেখাও"
 
-#: windows.cpp:935
+#: windows.cpp:903
 msgid ""
 "Enable this option if you want a window's geometry to be displayed while it "
 "is being moved or resized. The window position relative to the top-left "
@@ -904,13 +910,13 @@ msgstr ""
 "দেখতে চান, তাহলে এই অপশনটি কার্যকর করুন। পর্দার উপরের বাঁদিকের কোণের সাপেক্ষে "
 "উইন্ডোর অবস্থান এবং তার মাপ দেখানো হবে।"
 
-#: windows.cpp:940
+#: windows.cpp:908
 #, fuzzy
 #| msgid "Display content in &resizing windows"
 msgid "Display borders on &maximized windows"
 msgstr "উইন্ডো &আকার পরিবর্তনের সময় তার উপাদান দেখাও"
 
-#: windows.cpp:942
+#: windows.cpp:910
 msgid ""
 "When enabled, this feature activates the border of maximized windows and "
 "allows you to move or resize them, just like for normal windows"
@@ -918,16 +924,16 @@ msgstr ""
 "এই বৈশিষ্ট্যটি কার্য়কর করলে পুরো বড় করা উইন্ডোর সীমানা সক্রিয় হয়ে যাবে এবং "
 "আপনিসেগুলিকেও সাধারণ উইন্ডোর মত সরাতে বা আকার পরিবর্তন করতে পারবেন"
 
-#: windows.cpp:968
+#: windows.cpp:936
 msgid "Snap Zones"
 msgstr "সংযোগ ক্ষেত্র"
 
-#: windows.cpp:972
+#: windows.cpp:940
 msgctxt "no border snap zone"
 msgid "none"
 msgstr "কিছু না"
 
-#: windows.cpp:975
+#: windows.cpp:943
 msgid ""
 "Here you can set the snap zone for screen borders, i.e. the 'strength' of "
 "the magnetic field which will make windows snap to the border when moved "
@@ -937,16 +943,16 @@ msgstr ""
 "প্রান্তে এলে যে চৌম্বক ক্ষেত্র উইন্ডোকে পর্দার প্রান্তে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:979
+#: windows.cpp:947
 msgid "&Border snap zone:"
 msgstr "সীমা সংযো&গ ক্ষেত্র:"
 
-#: windows.cpp:986
+#: windows.cpp:954
 msgctxt "no window snap zone"
 msgid "none"
 msgstr "কিছু না"
 
-#: windows.cpp:989
+#: windows.cpp:957
 #, fuzzy
 msgid ""
 "Here you can set the snap zone for windows, i.e. the 'strength' of the "
@@ -957,16 +963,16 @@ msgstr ""
 "কাছে এলে যে চৌম্বক ক্ষেত্র তাদের পরস্পরের সঙ্গে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:993
+#: windows.cpp:961
 msgid "&Window snap zone:"
 msgstr "&উইন্ডো সংযোগ ক্ষেত্র:"
 
-#: windows.cpp:1000
+#: windows.cpp:968
 msgctxt "no center snap zone"
 msgid "none"
 msgstr "কিছু না"
 
-#: windows.cpp:1003
+#: windows.cpp:971
 #, fuzzy
 msgid ""
 "Here you can set the snap zone for the screen center, i.e. the 'strength' of "
@@ -977,16 +983,16 @@ msgstr ""
 "প্রান্তে এলে যে চৌম্বক ক্ষেত্র উইন্ডোকে পর্দার প্রান্তে আটকে দেবে তারক্ষমতা স্থির করতে "
 "পারেন।"
 
-#: windows.cpp:1007
+#: windows.cpp:975
 #, fuzzy
 msgid "&Center snap zone:"
 msgstr "সীমা সংযো&গ ক্ষেত্র:"
 
-#: windows.cpp:1013
+#: windows.cpp:981
 msgid "Snap windows onl&y when overlapping"
 msgstr "কেব&লমাত্র উপরিপাতন হলে উইন্ডোগুলি আটকে দাও"
 
-#: windows.cpp:1014
+#: windows.cpp:982
 msgid ""
 "Here you can set that windows will be only snapped if you try to overlap "
 "them, i.e. they will not be snapped if the windows comes only near another "
@@ -995,7 +1001,7 @@ msgstr ""
 "এখানে আপনি স্থির করতে পারেন উইন্ডোগুলি একে অন্যের উপরে চাপাতে চাইলে আটকে যাবে, "
 "অর্থাত্‍, উইন্ডোগুলি আরেকটি উইন্ডো বা তার সীমার কাছাকাছি এলেই আটকে যাবে না।"
 
-#: windows.cpp:1058 windows.cpp:1063 windows.cpp:1068
+#: windows.cpp:1026 windows.cpp:1031 windows.cpp:1036
 msgid " pixel"
 msgid_plural " pixels"
 msgstr[0] " পিক্সেল"
