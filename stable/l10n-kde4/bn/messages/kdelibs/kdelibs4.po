@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-20 11:50+0200\n"
+"POT-Creation-Date: 2012-04-23 12:02+0200\n"
 "PO-Revision-Date: 2010-05-29 19:56+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -3240,6 +3240,55 @@ msgstr ""
 msgid "Could not Launch Help Center"
 msgstr "সহায়িকা চালু করা যায়নি"
 
+#: kdecore/kernel/ktoolinvocation_x11.cpp:281
+#, kde-format
+msgid ""
+"Could not launch the mail client:\n"
+"\n"
+"%1"
+msgstr ""
+"মেইল ক্লায়েন্ট চালু করা যায়নি:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:282
+msgid "Could not launch Mail Client"
+msgstr "মেইল ক্লায়েন্ট চালু করা যায়নি"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:334
+#: kdecore/kernel/ktoolinvocation_x11.cpp:359
+#: kdecore/kernel/ktoolinvocation_x11.cpp:379
+#, kde-format
+msgid ""
+"Could not launch the browser:\n"
+"\n"
+"%1"
+msgstr ""
+"ব্রাউজার চালু করা যায়নি:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:335
+#: kdecore/kernel/ktoolinvocation_x11.cpp:360
+#: kdecore/kernel/ktoolinvocation_x11.cpp:380
+msgid "Could not launch Browser"
+msgstr "ব্রাউজার চালু করা যায়নি"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:419
+#, kde-format
+msgid ""
+"Could not launch the terminal client:\n"
+"\n"
+"%1"
+msgstr ""
+"টার্মিনাল ক্লায়েন্ট চালু করা যায়নি:\n"
+"\n"
+"%1"
+
+#: kdecore/kernel/ktoolinvocation_x11.cpp:420
+msgid "Could not launch Terminal Client"
+msgstr "টার্মিনাল ক্লায়েন্ট চালু করা যায়নি"
+
 #: kdecore/kernel/kcmdlineargs.cpp:273
 msgid "Use the X-server display 'displayname'"
 msgstr "'displayname' নামক এক্স-সার্ভার ডিস্‌প্লে ব্যবহার করো"
@@ -3319,7 +3368,11 @@ msgstr "অ্যাপলিকেশন-এর নাম নির্ধার
 msgid "sets the application title (caption)"
 msgstr "অ্যাপলিকেশন-এর শিরোনাম (ক্যাপশন) নির্ধারণ করে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:295
+#: kdecore/kernel/kcmdlineargs.cpp:294
+msgid "load the testability framework"
+msgstr ""
+
+#: kdecore/kernel/kcmdlineargs.cpp:296
 msgid ""
 "forces the application to use a TrueColor visual on\n"
 "an 8-bit display"
@@ -3327,7 +3380,7 @@ msgstr ""
 "অ্যাপলিকেশনটিকে একটি ৮-বিট ডিসপ্লে-তে ট্রু-কালার\n"
 "ভিসুয়াল ব্যবহার করতে বাধ্য করে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:296
+#: kdecore/kernel/kcmdlineargs.cpp:297
 msgid ""
 "sets XIM (X Input Method) input style. Possible\n"
 "values are onthespot, overthespot, offthespot and\n"
@@ -3337,28 +3390,28 @@ msgstr ""
 "মান হচ্ছে onthespot, overthespot, offthespot এবং\n"
 "root"
 
-#: kdecore/kernel/kcmdlineargs.cpp:297
+#: kdecore/kernel/kcmdlineargs.cpp:298
 msgid "set XIM server"
 msgstr "XIM (এক্স ইনপুট মেথড) সার্ভার নির্ধারণ করো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:298
+#: kdecore/kernel/kcmdlineargs.cpp:299
 msgid "disable XIM"
 msgstr "XIM (এক্স ইনপুট মেথড) নিষ্ক্রিয় করো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:301
+#: kdecore/kernel/kcmdlineargs.cpp:302
 msgid "forces the application to run as QWS Server"
 msgstr "অ্যাপলিকেশনটিকে QWS সার্ভার হিসেবে চলতে বাধ্য করে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:303
+#: kdecore/kernel/kcmdlineargs.cpp:304
 msgid "mirrors the whole layout of widgets"
 msgstr "উইজেটসমূহের বিন্যাস উল্টে ফেলে (আয়নায় দেখার মত করে)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:304
+#: kdecore/kernel/kcmdlineargs.cpp:305
 #, fuzzy
 msgid "applies the Qt stylesheet to the application widgets"
 msgstr "অ্যাপলিকেশন উইজেটে কিউ-টি স্টাইলশীট প্রয়োগ করো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:305
+#: kdecore/kernel/kcmdlineargs.cpp:306
 msgid ""
 "use a different graphics system instead of the default one, options are "
 "raster and opengl (experimental)"
@@ -3366,31 +3419,31 @@ msgstr ""
 "ডিফল্ট-এর পরিবর্তে অন্য একটি graphics system ব্যবহার করো; raster অথবা opengl "
 "(পরীক্ষামূলক)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:307
+#: kdecore/kernel/kcmdlineargs.cpp:308
 msgid "Use 'caption' as name in the titlebar"
 msgstr "শিরোনাম হিসেবে 'caption' ব্যবহার করো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:308
+#: kdecore/kernel/kcmdlineargs.cpp:309
 msgid "Use 'icon' as the application icon"
 msgstr "অ্যাপলিকেশন আইকন হিসেবে 'icon' ব্যবহার করো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:309
+#: kdecore/kernel/kcmdlineargs.cpp:310
 msgid "Use alternative configuration file"
 msgstr "বিকল্প কনফিগারেশন ফাইল ব্যবহার করো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:310
+#: kdecore/kernel/kcmdlineargs.cpp:311
 msgid "Disable crash handler, to get core dumps"
 msgstr "কোর ডাম্প পেতে ক্র্যাশ হ্যাণ্ডলার নিষ্ক্রিয় করো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:312
+#: kdecore/kernel/kcmdlineargs.cpp:313
 msgid "Waits for a WM_NET compatible windowmanager"
 msgstr "WM_NET সমর্থিত উইণ্ডো ম্যানেজারের জন্য অপেক্ষা করে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:314
+#: kdecore/kernel/kcmdlineargs.cpp:315
 msgid "sets the application GUI style"
 msgstr "অ্যাপলিকেশনের গুই স্টাইল নির্ধারণ করে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:315
+#: kdecore/kernel/kcmdlineargs.cpp:316
 #, fuzzy
 msgid ""
 "sets the client geometry of the main widget - see man X for the argument "
@@ -3398,30 +3451,30 @@ msgid ""
 msgstr ""
 "প্রধান উইজেটের গ্রাহক জ্যামিতি নিযুক্ত করো- প্রেরিত মান ফরম্যাটের জন্য মানুষ এক্স দেখো"
 
-#: kdecore/kernel/kcmdlineargs.cpp:433
+#: kdecore/kernel/kcmdlineargs.cpp:434
 msgid "KDE Application"
 msgstr "কে.ডি.ই. অ্যাপলিকেশন"
 
-#: kdecore/kernel/kcmdlineargs.cpp:492
+#: kdecore/kernel/kcmdlineargs.cpp:493
 msgid "Qt"
 msgstr "কিউ-টি (Qt)"
 
-#: kdecore/kernel/kcmdlineargs.cpp:495 khtml/khtml_part.cpp:4819
+#: kdecore/kernel/kcmdlineargs.cpp:496 khtml/khtml_part.cpp:4819
 msgid "KDE"
 msgstr "কে.ডি.ই."
 
-#: kdecore/kernel/kcmdlineargs.cpp:798 kdecore/kernel/kcmdlineargs.cpp:814
+#: kdecore/kernel/kcmdlineargs.cpp:799 kdecore/kernel/kcmdlineargs.cpp:815
 #, kde-format
 msgid "Unknown option '%1'."
 msgstr "অপরিচিত অপশন '%1'."
 
-#: kdecore/kernel/kcmdlineargs.cpp:822
+#: kdecore/kernel/kcmdlineargs.cpp:823
 #, kde-format
 msgctxt "@info:shell %1 is cmdoption name"
 msgid "'%1' missing."
 msgstr "'%1' পাওয়া যাচ্ছে না।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:888
+#: kdecore/kernel/kcmdlineargs.cpp:889
 #, kde-format
 msgctxt ""
 "@info:shell message on appcmd --version; do not translate 'Development "
@@ -3435,7 +3488,7 @@ msgstr ""
 "কে.ডি.ই. ডেভেলপমেন্ট প্ল্যাটফর্ম: %2\n"
 "%3: %4\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:913
+#: kdecore/kernel/kcmdlineargs.cpp:914
 #, kde-format
 msgctxt "the 2nd argument is a list of name+address, one on each line"
 msgid ""
@@ -3445,45 +3498,45 @@ msgstr ""
 "%1 লিখেছেন\n"
 "%2"
 
-#: kdecore/kernel/kcmdlineargs.cpp:916
+#: kdecore/kernel/kcmdlineargs.cpp:917
 msgid "This application was written by somebody who wants to remain anonymous."
 msgstr "এই অ্যাপলিকেশন-এর লেখক অজ্ঞাতপরিচয় থাকতে চান।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:923
+#: kdecore/kernel/kcmdlineargs.cpp:924
 msgid "Please use http://bugs.kde.org to report bugs.\n"
 msgstr ""
 "কোনো বাগ (প্রোগ্রামে সমস্যা) খুঁজে পেলে তার কথা জানাতে http://bugs.kde.org ব্যবহার "
 "করুন।\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:925
+#: kdecore/kernel/kcmdlineargs.cpp:926
 #, kde-format
 msgid "Please report bugs to %1.\n"
 msgstr "অনুগ্রহ করে বাগ রিপোর্ট %1-এ পাঠান।\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:962
+#: kdecore/kernel/kcmdlineargs.cpp:963
 #, kde-format
 msgid "Unexpected argument '%1'."
 msgstr "অপ্রত্যাশিত আর্গুমেন্ট '%1'।"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1086
+#: kdecore/kernel/kcmdlineargs.cpp:1087
 msgid "Use --help to get a list of available command line options."
 msgstr "সম্ভাব্য কমাণ্ড লাইন অপশন সম্বন্ধে জানতে --help ব্যবহার করুন। "
 
-#: kdecore/kernel/kcmdlineargs.cpp:1109
+#: kdecore/kernel/kcmdlineargs.cpp:1110
 msgid "[options] "
 msgstr "[অপশন]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1116
+#: kdecore/kernel/kcmdlineargs.cpp:1117
 #, kde-format
 msgid "[%1-options]"
 msgstr "[%1-অপশন]"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1137
+#: kdecore/kernel/kcmdlineargs.cpp:1138
 #, kde-format
 msgid "Usage: %1 %2\n"
 msgstr "ব্যবহার: %1 %2\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1140
+#: kdecore/kernel/kcmdlineargs.cpp:1141
 msgid ""
 "\n"
 "Generic options:\n"
@@ -3491,36 +3544,36 @@ msgstr ""
 "\n"
 "সাধারণ অপশন:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1142
+#: kdecore/kernel/kcmdlineargs.cpp:1143
 msgid "Show help about options"
 msgstr "অপশন সম্বন্ধে সাহায্য দেখাও"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1150
+#: kdecore/kernel/kcmdlineargs.cpp:1151
 #, kde-format
 msgid "Show %1 specific options"
 msgstr "শুধু %1 বিষয়ক অপশন দেখাও"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1157
+#: kdecore/kernel/kcmdlineargs.cpp:1158
 msgid "Show all options"
 msgstr "সমস্ত অপশন দেখাও"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1158
+#: kdecore/kernel/kcmdlineargs.cpp:1159
 msgid "Show author information"
 msgstr "লেখক সংক্রান্ত তথ্য প্রদর্শিত হোক"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1159
+#: kdecore/kernel/kcmdlineargs.cpp:1160
 msgid "Show version information"
 msgstr "ভার্সান সংক্রান্ত তথ্য প্রদর্শিত হোক"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1160
+#: kdecore/kernel/kcmdlineargs.cpp:1161
 msgid "Show license information"
 msgstr "লাইসেন্স সংক্রান্ত তথ্য প্রদর্শিত হোক"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1161
+#: kdecore/kernel/kcmdlineargs.cpp:1162
 msgid "End of options"
 msgstr "অপশনসমূহের শেষ"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1182
+#: kdecore/kernel/kcmdlineargs.cpp:1183
 #, kde-format
 msgid ""
 "\n"
@@ -3529,7 +3582,7 @@ msgstr ""
 "\n"
 "%1 অপশন:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1184
+#: kdecore/kernel/kcmdlineargs.cpp:1185
 msgid ""
 "\n"
 "Options:\n"
@@ -3537,7 +3590,7 @@ msgstr ""
 "\n"
 "অপশনসমূহ:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1242
+#: kdecore/kernel/kcmdlineargs.cpp:1243
 msgid ""
 "\n"
 "Arguments:\n"
@@ -3545,62 +3598,13 @@ msgstr ""
 "\n"
 "আর্গুমেন্টসমূহ:\n"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1596
+#: kdecore/kernel/kcmdlineargs.cpp:1597
 msgid "The files/URLs opened by the application will be deleted after use"
 msgstr "অ্যাপলিকেশন যে সব ফাইল/ইউ-আর-এল খুলবে, তা ব্যবহারের পর মুছে ফেলা হবে"
 
-#: kdecore/kernel/kcmdlineargs.cpp:1597
+#: kdecore/kernel/kcmdlineargs.cpp:1598
 msgid "KDE-tempfile"
 msgstr "KDE-tempfile"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:281
-#, kde-format
-msgid ""
-"Could not launch the mail client:\n"
-"\n"
-"%1"
-msgstr ""
-"মেইল ক্লায়েন্ট চালু করা যায়নি:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:282
-msgid "Could not launch Mail Client"
-msgstr "মেইল ক্লায়েন্ট চালু করা যায়নি"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:334
-#: kdecore/kernel/ktoolinvocation_x11.cpp:359
-#: kdecore/kernel/ktoolinvocation_x11.cpp:379
-#, kde-format
-msgid ""
-"Could not launch the browser:\n"
-"\n"
-"%1"
-msgstr ""
-"ব্রাউজার চালু করা যায়নি:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:335
-#: kdecore/kernel/ktoolinvocation_x11.cpp:360
-#: kdecore/kernel/ktoolinvocation_x11.cpp:380
-msgid "Could not launch Browser"
-msgstr "ব্রাউজার চালু করা যায়নি"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:419
-#, kde-format
-msgid ""
-"Could not launch the terminal client:\n"
-"\n"
-"%1"
-msgstr ""
-"টার্মিনাল ক্লায়েন্ট চালু করা যায়নি:\n"
-"\n"
-"%1"
-
-#: kdecore/kernel/ktoolinvocation_x11.cpp:420
-msgid "Could not launch Terminal Client"
-msgstr "টার্মিনাল ক্লায়েন্ট চালু করা যায়নি"
 
 #: kdecore/localization/kencodingdetector.cpp:1145
 #: kdecore/localization/kencodingdetector.cpp:1247
