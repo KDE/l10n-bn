@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-26 12:44+0200\n"
+"POT-Creation-Date: 2012-05-01 19:11+0200\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -3900,32 +3900,6 @@ msgstr ""
 msgid "&No"
 msgstr "একটিও না"
 
-#: kio/slaveinterface.cpp:415 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:81
-msgid "&Details"
-msgstr "বিস্তারি&ত"
-
-#: kio/slaveinterface.cpp:417 kio/tcpslavebase.cpp:848 kssl/sslui.cpp:120
-msgid "&Forever"
-msgstr "চিরকালে&র জন্য"
-
-#: kio/slaveinterface.cpp:422 kio/tcpslavebase.cpp:831 kssl/sslui.cpp:82
-msgid "Co&ntinue"
-msgstr "চালিয়ে যা&ও"
-
-#: kio/slaveinterface.cpp:424 kio/tcpslavebase.cpp:849 kssl/sslui.cpp:121
-#, fuzzy
-#| msgid "&Current Sessions Only"
-msgid "&Current Session only"
-msgstr "শুধু &এই সেশনের জন্য"
-
-#: kio/slaveinterface.cpp:483
-msgid "The peer SSL certificate chain appears to be corrupt."
-msgstr ""
-
-#: kio/slaveinterface.cpp:485 kio/tcpslavebase.cpp:776
-msgid "SSL"
-msgstr "এস-এস-এল"
-
 #: kio/tcpslavebase.cpp:328
 msgid ""
 "You are about to leave secure mode. Transmissions will no longer be "
@@ -3982,6 +3956,10 @@ msgstr "সার্টিফিকেটটি খোলা যায়নি। 
 msgid "The procedure to set the client certificate for the session failed."
 msgstr ""
 
+#: kio/tcpslavebase.cpp:776 kio/slaveinterface.cpp:498
+msgid "SSL"
+msgstr "এস-এস-এল"
+
 #: kio/tcpslavebase.cpp:820 kssl/sslui.cpp:71
 #, fuzzy, kde-format
 msgid ""
@@ -3994,11 +3972,29 @@ msgstr "সার্ভার সার্টিফিকেট সত্যত�
 msgid "Server Authentication"
 msgstr "সার্ভারের সত্যতা প্রমাণ (Authentication)"
 
+#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:427 kssl/sslui.cpp:81
+msgid "&Details"
+msgstr "বিস্তারি&ত"
+
+#: kio/tcpslavebase.cpp:831 kio/slaveinterface.cpp:434 kssl/sslui.cpp:82
+msgid "Co&ntinue"
+msgstr "চালিয়ে যা&ও"
+
 #: kio/tcpslavebase.cpp:844 kssl/sslui.cpp:116
 msgid ""
 "Would you like to accept this certificate forever without being prompted?"
 msgstr ""
 "আপনি কি আর কোনো প্রশ্ন ছাড়াই এই সার্টিফিকেটটি চিরকালের জন্য স্বীকার করে নিতে চান?"
+
+#: kio/tcpslavebase.cpp:848 kio/slaveinterface.cpp:429 kssl/sslui.cpp:120
+msgid "&Forever"
+msgstr "চিরকালে&র জন্য"
+
+#: kio/tcpslavebase.cpp:849 kio/slaveinterface.cpp:436 kssl/sslui.cpp:121
+#, fuzzy
+#| msgid "&Current Sessions Only"
+msgid "&Current Session only"
+msgstr "শুধু &এই সেশনের জন্য"
 
 #: kio/tcpslavebase.cpp:948
 msgid ""
@@ -4165,6 +4161,10 @@ msgstr "এড়িয়ে যাও"
 #, fuzzy
 msgid "AutoSkip"
 msgstr "এড়িয়ে যাও"
+
+#: kio/slaveinterface.cpp:496
+msgid "The peer SSL certificate chain appears to be corrupt."
+msgstr ""
 
 #: kssl/kcm/displaycertdialog.cpp:54 kssl/ksslinfodialog.cpp:217
 #, fuzzy, kde-format
