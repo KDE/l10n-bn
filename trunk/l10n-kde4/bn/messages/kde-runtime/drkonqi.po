@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-11 04:25+0200\n"
+"POT-Creation-Date: 2012-05-04 04:39+0200\n"
 "PO-Revision-Date: 2010-06-01 09:01-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -732,12 +732,7 @@ msgctxt "messagebox title"
 msgid "Missing debug information packages"
 msgstr "নিখোঁজ ত্রুটিমুক্ত করা তথ্য প্যাকেজ"
 
-#: bugzillalib.cpp:251
-msgctxt "@info"
-msgid "Unknown response from the server"
-msgstr "সার্ভার থেকে অজ্ঞাত উত্তর"
-
-#: bugzillalib.cpp:271 reportassistantpages_bugzilla_duplicates.cpp:818
+#: bugzillalib.cpp:240 reportassistantpages_bugzilla_duplicates.cpp:818
 #, fuzzy
 msgctxt "@info"
 msgid ""
@@ -747,56 +742,16 @@ msgstr ""
 "অবৈধ রিপোর্ট তথ্য (বিকৃত ডেটা)। এইটি অভিপ্রায় করতে পারে যে বাগ রিপোর্ট রয়েছো না, "
 "অথবা বাগ tracking সাইট একটি সমস্যা অনুভব করছে।"
 
-#: bugzillalib.cpp:293
+#: bugzillalib.cpp:262
 #, fuzzy
 msgctxt "@info"
 msgid "Invalid bug list: corrupted data"
 msgstr "অবৈধ বাগ তালিকা: ডেটা দুর্নীতিবেজেছিল"
 
-#: bugzillalib.cpp:340 bugzillalib.cpp:556
+#: bugzillalib.cpp:316
+#, kde-format
 msgctxt "@info"
-msgid "Unknown error"
-msgstr "অজানা ত্রুটি"
-
-#: bugzillalib.cpp:365
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "Error while attaching the data to the bug report: %1"
-msgstr "বাগ রিপোর্টে ডেটা যুক্ত করার সময় ত্রুটি: %1"
-
-#: bugzillalib.cpp:405
-#, fuzzy
-msgctxt "@info"
-msgid "Missing bug ID or comment in the query. Unknown error"
-msgstr "নিখোঁজ বাগ আই-ডি অথবা অনুসন্ধানে মন্তব্য করো। অজানা ত্রুটি"
-
-#: bugzillalib.cpp:429
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "Error while adding a new comment into the bug report: %1"
-msgstr "বাগ রিপোর্টের দিকে একটি নতুন মন্তব্য যোগ করার সময় ত্রুটি: %1"
-
-#: bugzillalib.cpp:433
-#, fuzzy
-msgctxt "@info"
-msgid "Unknown error while adding a new comment into the bug report"
-msgstr "বাগ রিপোর্টের দিকে একটি নতুন মন্তব্য যোগ করার সময় ত্রুটি: %1"
-
-#: bugzillalib.cpp:469
-#, fuzzy
-msgctxt "@info"
-msgid "Missing bug ID in the query. Unknown error"
-msgstr "অনুসন্ধানে নিখোঁজ বাগ আই-ডি। অজানা ত্রুটি"
-
-#: bugzillalib.cpp:492
-#, fuzzy, kde-format
-msgctxt "@info"
-msgid "Error while adding yourself to the CC list: %1"
-msgstr "CC তালিকাতে নিজে যোগ করার সময় ত্রুটি: %1"
-
-#: bugzillalib.cpp:554
-msgctxt "@info"
-msgid "You are not logged in. Make sure cookies are enabled."
+msgid "Received unexpected error code %1 from bugzilla. Error message was: %2"
 msgstr ""
 
 #: debugpackageinstaller.cpp:67
@@ -2846,6 +2801,44 @@ msgid ""
 msgstr ""
 "<placeholder>পুঙ্খানুপুঙ্খ বর্ণনাতে, আমাদেরকে বলো যার আপনি করছিলেন যখন অ্যাপলিকেশন "
 "ভেঙ্গে পড়েছিলেন।</placeholder>"
+
+#~ msgctxt "@info"
+#~ msgid "Unknown response from the server"
+#~ msgstr "সার্ভার থেকে অজ্ঞাত উত্তর"
+
+#~ msgctxt "@info"
+#~ msgid "Unknown error"
+#~ msgstr "অজানা ত্রুটি"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Error while attaching the data to the bug report: %1"
+#~ msgstr "বাগ রিপোর্টে ডেটা যুক্ত করার সময় ত্রুটি: %1"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Missing bug ID or comment in the query. Unknown error"
+#~ msgstr "নিখোঁজ বাগ আই-ডি অথবা অনুসন্ধানে মন্তব্য করো। অজানা ত্রুটি"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Error while adding a new comment into the bug report: %1"
+#~ msgstr "বাগ রিপোর্টের দিকে একটি নতুন মন্তব্য যোগ করার সময় ত্রুটি: %1"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Unknown error while adding a new comment into the bug report"
+#~ msgstr "বাগ রিপোর্টের দিকে একটি নতুন মন্তব্য যোগ করার সময় ত্রুটি: %1"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Missing bug ID in the query. Unknown error"
+#~ msgstr "অনুসন্ধানে নিখোঁজ বাগ আই-ডি। অজানা ত্রুটি"
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Error while adding yourself to the CC list: %1"
+#~ msgstr "CC তালিকাতে নিজে যোগ করার সময় ত্রুটি: %1"
 
 #, fuzzy
 #~ msgid "Show backtrace"
