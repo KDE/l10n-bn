@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-03-13 05:47+0100\n"
+"POT-Creation-Date: 2012-05-05 04:25+0200\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -749,171 +749,6 @@ msgstr ""
 msgid "Status"
 msgstr "স্ট্যাটাস"
 
-#: core/widgetbase.cpp:141
-#, fuzzy
-#| msgid "Last Search"
-msgctxt "@action:button"
-msgid "Lock search"
-msgstr "শেষ সন্ধান"
-
-#: core/widgetbase.cpp:145
-msgctxt "@info:whatsthis"
-msgid ""
-"Toggle this button if you want to keep your quick search locked when moving "
-"to other folders or when narrowing the search by message status."
-msgstr ""
-
-#: core/widgetbase.cpp:156
-#, fuzzy
-msgctxt "Search for messages."
-msgid "Search"
-msgstr "&সন্ধান"
-
-#: core/widgetbase.cpp:177
-#, fuzzy
-#| msgid "Delete Search"
-msgid "Open Full Search"
-msgstr "সন্ধান মুছে ফেলো"
-
-#: core/widgetbase.cpp:251
-msgid "Any Status"
-msgstr "যে কোন অবস্থা"
-
-#: core/widgetbase.cpp:254
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "অপঠিত"
-
-#: core/widgetbase.cpp:258
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Replied"
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "উত্তর দেওয়া"
-
-#: core/widgetbase.cpp:262
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Forwarded"
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "ফরোয়ার্ড করা"
-
-#: core/widgetbase.cpp:266
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "গুরুত্বপূর্ণ"
-
-#: core/widgetbase.cpp:270
-#, fuzzy
-#| msgid "Remove &Important Message Mark"
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr "`গুরুত্বপূর্ণ বার্তা' চিহ্ন সরা&ও"
-
-#: core/widgetbase.cpp:274
-#, fuzzy
-#| msgid "Watched"
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "লক্ষ্য রাখা"
-
-#: core/widgetbase.cpp:278
-#, fuzzy
-#| msgid "Ignored"
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "অগ্রাহ্য করা"
-
-#: core/widgetbase.cpp:282
-#, fuzzy
-#| msgid "Has Attachment"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr "অ্যাটাচমেন্ট আছে"
-
-#: core/widgetbase.cpp:286
-#, fuzzy
-#| msgid "Advanced Options"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr "অগ্রসর অপশন"
-
-#: core/widgetbase.cpp:290
-#, fuzzy
-#| msgid "Spam"
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "স্প্যাম"
-
-#: core/widgetbase.cpp:294
-#, fuzzy
-#| msgid "Ham"
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "হ্যাম"
-
-#: core/widgetbase.cpp:460 core/view.cpp:1634
-msgid "Theme"
-msgstr ""
-
-#: core/widgetbase.cpp:484 core/widgetbase.cpp:572
-#: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
-#, fuzzy
-msgid "Configure..."
-msgstr "কে-মেইল ক&নফিগার করো..."
-
-#: core/widgetbase.cpp:547 core/view.cpp:1628
-#, fuzzy
-#| msgid "Suggestions"
-msgid "Aggregation"
-msgstr "প্রস্তাবিত"
-
-#: core/widgetbase.cpp:628
-#, fuzzy
-#| msgid "Message Part Properties"
-msgid "Message Sort Order"
-msgstr "বার্তার অংশের বৈশিষ্ট্যাবলী"
-
-#: core/widgetbase.cpp:655
-#, fuzzy
-msgid "Message Sort Direction"
-msgstr "বার্তা তালিকা"
-
-#: core/widgetbase.cpp:676
-#, fuzzy
-#| msgid "Delete Folder"
-msgid "Group Sort Order"
-msgstr "ফোল্ডার মুছে ফেলো"
-
-#: core/widgetbase.cpp:699
-#, fuzzy
-msgid "Group Sort Direction"
-msgstr "বার্তা তালিকা"
-
-#: core/widgetbase.cpp:717
-msgid "Folder Always Uses This Sort Order"
-msgstr ""
-
-#: core/widgetbase.cpp:912
-msgctxt "@info:tooltip"
-msgid "Unlock search"
-msgstr ""
-
-#: core/widgetbase.cpp:915
-#, fuzzy
-#| msgid "Last Search"
-msgctxt "@info:tooltip"
-msgid "Lock search"
-msgstr "শেষ সন্ধান"
-
 #: core/view.cpp:775
 msgid "Adjust Column Sizes"
 msgstr ""
@@ -934,6 +769,16 @@ msgstr "প্রা&পক"
 #| msgid "Nothin&g"
 msgid "Sorting"
 msgstr "কিছু &নয়"
+
+#: core/view.cpp:1628 core/widgetbase.cpp:551
+#, fuzzy
+#| msgid "Suggestions"
+msgid "Aggregation"
+msgstr "প্রস্তাবিত"
+
+#: core/view.cpp:1634 core/widgetbase.cpp:464
+msgid "Theme"
+msgstr ""
 
 #: core/view.cpp:2408 core/view.cpp:2412
 #, fuzzy
@@ -1118,6 +963,161 @@ msgid "<b>%1</b> message (<b>%2</b> unread)"
 msgid_plural "<b>%1</b> messages (<b>%2</b> unread)"
 msgstr[0] ""
 msgstr[1] ""
+
+#: core/widgetbase.cpp:141
+#, fuzzy
+#| msgid "Last Search"
+msgctxt "@action:button"
+msgid "Lock search"
+msgstr "শেষ সন্ধান"
+
+#: core/widgetbase.cpp:145
+msgctxt "@info:whatsthis"
+msgid ""
+"Toggle this button if you want to keep your quick search locked when moving "
+"to other folders or when narrowing the search by message status."
+msgstr ""
+
+#: core/widgetbase.cpp:156
+#, fuzzy
+msgctxt "Search for messages."
+msgid "Search"
+msgstr "&সন্ধান"
+
+#: core/widgetbase.cpp:177
+#, fuzzy
+#| msgid "Delete Search"
+msgid "Open Full Search"
+msgstr "সন্ধান মুছে ফেলো"
+
+#: core/widgetbase.cpp:251
+msgid "Any Status"
+msgstr "যে কোন অবস্থা"
+
+#: core/widgetbase.cpp:254
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "অপঠিত"
+
+#: core/widgetbase.cpp:258
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Replied"
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "উত্তর দেওয়া"
+
+#: core/widgetbase.cpp:262
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Forwarded"
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "ফরোয়ার্ড করা"
+
+#: core/widgetbase.cpp:266
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "গুরুত্বপূর্ণ"
+
+#: core/widgetbase.cpp:270
+#, fuzzy
+#| msgid "Remove &Important Message Mark"
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "`গুরুত্বপূর্ণ বার্তা' চিহ্ন সরা&ও"
+
+#: core/widgetbase.cpp:274
+#, fuzzy
+#| msgid "Watched"
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "লক্ষ্য রাখা"
+
+#: core/widgetbase.cpp:278
+#, fuzzy
+#| msgid "Ignored"
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "অগ্রাহ্য করা"
+
+#: core/widgetbase.cpp:282
+#, fuzzy
+#| msgid "Has Attachment"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "অ্যাটাচমেন্ট আছে"
+
+#: core/widgetbase.cpp:286
+#, fuzzy
+#| msgid "Advanced Options"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr "অগ্রসর অপশন"
+
+#: core/widgetbase.cpp:290
+#, fuzzy
+#| msgid "Spam"
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "স্প্যাম"
+
+#: core/widgetbase.cpp:294
+#, fuzzy
+#| msgid "Ham"
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "হ্যাম"
+
+#: core/widgetbase.cpp:488 core/widgetbase.cpp:576
+#: utils/themeconfigbutton.cpp:46 utils/aggregationconfigbutton.cpp:45
+#, fuzzy
+msgid "Configure..."
+msgstr "কে-মেইল ক&নফিগার করো..."
+
+#: core/widgetbase.cpp:632
+#, fuzzy
+#| msgid "Message Part Properties"
+msgid "Message Sort Order"
+msgstr "বার্তার অংশের বৈশিষ্ট্যাবলী"
+
+#: core/widgetbase.cpp:659
+#, fuzzy
+msgid "Message Sort Direction"
+msgstr "বার্তা তালিকা"
+
+#: core/widgetbase.cpp:680
+#, fuzzy
+#| msgid "Delete Folder"
+msgid "Group Sort Order"
+msgstr "ফোল্ডার মুছে ফেলো"
+
+#: core/widgetbase.cpp:703
+#, fuzzy
+msgid "Group Sort Direction"
+msgstr "বার্তা তালিকা"
+
+#: core/widgetbase.cpp:721
+msgid "Folder Always Uses This Sort Order"
+msgstr ""
+
+#: core/widgetbase.cpp:916
+msgctxt "@info:tooltip"
+msgid "Unlock search"
+msgstr ""
+
+#: core/widgetbase.cpp:919
+#, fuzzy
+#| msgid "Last Search"
+msgctxt "@info:tooltip"
+msgid "Lock search"
+msgstr "শেষ সন্ধান"
 
 #: core/sortorder.cpp:41 core/sortorder.cpp:85
 #, fuzzy
