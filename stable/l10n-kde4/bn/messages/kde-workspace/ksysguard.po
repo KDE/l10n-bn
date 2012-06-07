@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksysguard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-04-26 12:50+0200\n"
+"POT-Creation-Date: 2012-06-07 14:20+0200\n"
 "PO-Revision-Date: 2010-06-01 09:22-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -773,71 +773,6 @@ msgstr "টাইমার সেটিংস"
 msgid "Use update interval of worksheet"
 msgstr "ওয়ার্কশিট-এর আপডেট বিরতি ব্যবহার করো"
 
-#: WorkSheet.cpp:88
-#, kde-format
-msgid "Cannot open the file %1."
-msgstr "%1 ফাইলটি খোলা যাচ্ছে না"
-
-#: WorkSheet.cpp:96
-#, kde-format
-msgid "The file %1 does not contain valid XML."
-msgstr "%1 ফাইলটি বৈধ এক্স-এম-এল নয়"
-
-#: WorkSheet.cpp:103
-#, kde-format
-msgid ""
-"The file %1 does not contain a valid worksheet definition, which must have a "
-"document type 'KSysGuardWorkSheet'."
-msgstr ""
-"%1 ফাইলটিতে কোন বৈধ ওয়ার্কশিট ডেফিনিশন নেই, যার ডকুমেন্ট টাইপ "
-"'KSysGuardWorkSheet' হওয়া প্রয়োজন।"
-
-#: WorkSheet.cpp:127
-#, kde-format
-msgid "The file %1 has an invalid worksheet size."
-msgstr "%1 ফাইলে ওয়ার্কশিট-এর আয়তন অবৈধ "
-
-#: WorkSheet.cpp:228
-#, kde-format
-msgid "Cannot save file %1"
-msgstr "%1 ফাইলটি সংরক্ষণ করা যাচ্ছে না"
-
-#: WorkSheet.cpp:274
-msgid "The clipboard does not contain a valid display description."
-msgstr "ক্লীপবোর্ড-এ বৈধ ডিসপ্লে বর্ণনা নেই"
-
-#: WorkSheet.cpp:375
-msgid "Select Display Type"
-msgstr "ডিসপ্লে টাইপ নির্বাচন করুন"
-
-#: WorkSheet.cpp:376
-msgid "&Line graph"
-msgstr "লাই&ন গ্রাফ"
-
-#: WorkSheet.cpp:377
-msgid "&Digital display"
-msgstr "ডিজিট্যাল ডি&সপ্লে"
-
-#: WorkSheet.cpp:378
-msgid "&Bar graph"
-msgstr "বার গ্রা&ফ"
-
-#: WorkSheet.cpp:379
-msgid "Log to a &file"
-msgstr "ফাইল-এ &লগ লেখো"
-
-#: WorkSheet.cpp:533
-msgid "Remove this display?"
-msgstr "এই ডিসপ্লে-টি সরিয়ে ফেলা হবে?"
-
-#: WorkSheet.cpp:534
-msgid "Remove Display"
-msgstr "ডিসপ্লে সরিয়ে ফেলো"
-
-#: WorkSheet.cpp:575
-msgid "Dummy"
-msgstr "ডামি"
-
 #: Workspace.cpp:113
 #, kde-format
 msgid "Sheet %1"
@@ -887,52 +822,117 @@ msgstr ""
 msgid "Upload custom System Monitor tab"
 msgstr "সিস্টেম মনিটর"
 
-#: ksysguard.cpp:74
+#: WorkSheet.cpp:88
+#, kde-format
+msgid "Cannot open the file %1."
+msgstr "%1 ফাইলটি খোলা যাচ্ছে না"
+
+#: WorkSheet.cpp:96
+#, kde-format
+msgid "The file %1 does not contain valid XML."
+msgstr "%1 ফাইলটি বৈধ এক্স-এম-এল নয়"
+
+#: WorkSheet.cpp:103
+#, kde-format
+msgid ""
+"The file %1 does not contain a valid worksheet definition, which must have a "
+"document type 'KSysGuardWorkSheet'."
+msgstr ""
+"%1 ফাইলটিতে কোন বৈধ ওয়ার্কশিট ডেফিনিশন নেই, যার ডকুমেন্ট টাইপ "
+"'KSysGuardWorkSheet' হওয়া প্রয়োজন।"
+
+#: WorkSheet.cpp:127
+#, kde-format
+msgid "The file %1 has an invalid worksheet size."
+msgstr "%1 ফাইলে ওয়ার্কশিট-এর আয়তন অবৈধ "
+
+#: WorkSheet.cpp:228
+#, kde-format
+msgid "Cannot save file %1"
+msgstr "%1 ফাইলটি সংরক্ষণ করা যাচ্ছে না"
+
+#: WorkSheet.cpp:274
+msgid "The clipboard does not contain a valid display description."
+msgstr "ক্লীপবোর্ড-এ বৈধ ডিসপ্লে বর্ণনা নেই"
+
+#: WorkSheet.cpp:374
+msgid "Select Display Type"
+msgstr "ডিসপ্লে টাইপ নির্বাচন করুন"
+
+#: WorkSheet.cpp:375
+msgid "&Line graph"
+msgstr "লাই&ন গ্রাফ"
+
+#: WorkSheet.cpp:376
+msgid "&Digital display"
+msgstr "ডিজিট্যাল ডি&সপ্লে"
+
+#: WorkSheet.cpp:377
+msgid "&Bar graph"
+msgstr "বার গ্রা&ফ"
+
+#: WorkSheet.cpp:378
+msgid "Log to a &file"
+msgstr "ফাইল-এ &লগ লেখো"
+
+#: WorkSheet.cpp:530
+msgid "Remove this display?"
+msgstr "এই ডিসপ্লে-টি সরিয়ে ফেলা হবে?"
+
+#: WorkSheet.cpp:531
+msgid "Remove Display"
+msgstr "ডিসপ্লে সরিয়ে ফেলো"
+
+#: WorkSheet.cpp:572
+msgid "Dummy"
+msgstr "ডামি"
+
+#: ksysguard.cpp:70
 msgid "KDE System Monitor"
 msgstr "কে.ডি.ই. সিস্টেম মনিটর"
 
-#: ksysguard.cpp:154 ksysguard.cpp:530
+#: ksysguard.cpp:158 ksysguard.cpp:529
 msgid "System Monitor"
 msgstr "সিস্টেম মনিটর"
 
-#: ksysguard.cpp:155
+#: ksysguard.cpp:159
 msgid "&Refresh Tab"
 msgstr "ট্যাব আবার &পড়ো"
 
-#: ksysguard.cpp:156
+#: ksysguard.cpp:160
 msgid "&New Tab..."
 msgstr "&নতুন ট্যাব..."
 
-#: ksysguard.cpp:157
+#: ksysguard.cpp:161
 msgid "Import Tab Fr&om File..."
 msgstr "ফাই&ল থেকে ট্যাব আমদানি করো..."
 
-#: ksysguard.cpp:158
+#: ksysguard.cpp:162
 msgid "Save Tab &As..."
 msgstr "ট্যাব &অন্য নামে সংরক্ষণ করো..."
 
-#: ksysguard.cpp:159
+#: ksysguard.cpp:163
 msgid "&Close Tab"
 msgstr "ট্যাব &বন্ধ করো"
 
-#: ksysguard.cpp:160
+#: ksysguard.cpp:164
 #, fuzzy
 msgid "Monitor &Remote Machine..."
 msgstr "মনিটর দূরবর্তী মেশিন... (&R)"
 
-#: ksysguard.cpp:161
+#: ksysguard.cpp:165
 msgid "&Download New Tabs..."
 msgstr "নতুন ট্যাব ডা&উনলোড করো..."
 
-#: ksysguard.cpp:162
+#: ksysguard.cpp:166
 msgid "&Upload Current Tab..."
 msgstr "বর্তমান ট্যাবটি &আপলোড করো..."
 
-#: ksysguard.cpp:164
+#: ksysguard.cpp:168
 msgid "Tab &Properties"
 msgstr "ট্যা&ব প্রকৃতি"
 
-#: ksysguard.cpp:359
+#: ksysguard.cpp:363
 #, fuzzy, kde-format
 #| msgid " 1 process "
 #| msgid_plural " %1 processes "
@@ -941,80 +941,80 @@ msgid_plural "%1 processes%1"
 msgstr[0] " একটি প্রসেস"
 msgstr[1] " %1-টি প্রসেস"
 
-#: ksysguard.cpp:443
+#: ksysguard.cpp:442
 #, kde-format
 msgid "CPU: %1%%1%"
 msgstr "সি-পি-ইউ: %1%%1%"
 
-#: ksysguard.cpp:458
+#: ksysguard.cpp:457
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Memory: %1 / %2Mem: %1 / %2Mem: %1%1"
 msgstr "মেমরি: %1 / %2মেমরি: %1 / %2মেমরি: %1%1"
 
-#: ksysguard.cpp:485
+#: ksysguard.cpp:484
 msgid " No swap space available "
 msgstr " কোন swap space নেই "
 
-#: ksysguard.cpp:487
+#: ksysguard.cpp:486
 #, kde-format
 msgctxt "Arguments are formatted byte sizes (used/total)"
 msgid "Swap: %1 / %2Swap: %1%1"
 msgstr "বদলাও: %1 / %2বদলাও: %1%1"
 
-#: ksysguard.cpp:532
+#: ksysguard.cpp:531
 msgid "(c) 1996-2008 The KDE System Monitor Developers"
 msgstr "(c) 1996-2008 The KDE System Monitor Developers"
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:532
 msgid "John Tapsell"
 msgstr "John Tapsell"
 
-#: ksysguard.cpp:533
+#: ksysguard.cpp:532
 msgid "Current Maintainer"
 msgstr "বর্তমান রক্ষণাবেক্ষণকারী"
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:533
 msgid "Chris Schlaeger"
 msgstr "Chris Schlaeger"
 
-#: ksysguard.cpp:534
+#: ksysguard.cpp:533
 msgid "Previous Maintainer"
 msgstr "পূর্ববর্তী রক্ষণাবেক্ষণকারী"
 
-#: ksysguard.cpp:535
+#: ksysguard.cpp:534
 msgid "Greg Martyn"
 msgstr "Greg Martyn"
 
-#: ksysguard.cpp:536
+#: ksysguard.cpp:535
 msgid "Tobias Koenig"
 msgstr "Tobias Koenig"
 
-#: ksysguard.cpp:537
+#: ksysguard.cpp:536
 msgid "Nicolas Leclercq"
 msgstr "Nicolas Leclercq"
 
-#: ksysguard.cpp:538
+#: ksysguard.cpp:537
 msgid "Alex Sanda"
 msgstr "Alex Sanda"
 
-#: ksysguard.cpp:539
+#: ksysguard.cpp:538
 msgid "Bernd Johannes Wuebben"
 msgstr "Bernd Johannes Wuebben"
 
-#: ksysguard.cpp:540
+#: ksysguard.cpp:539
 msgid "Ralf Mueller"
 msgstr "Ralf Mueller"
 
-#: ksysguard.cpp:541
+#: ksysguard.cpp:540
 msgid "Hamish Rodda"
 msgstr "Hamish Rodda"
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:541
 msgid "Torsten Kasch"
 msgstr "Torsten Kasch"
 
-#: ksysguard.cpp:542
+#: ksysguard.cpp:541
 msgid ""
 "Solaris Support\n"
 "Parts derived (by permission) from the sunos5\n"
@@ -1024,7 +1024,7 @@ msgstr ""
 "Parts derived (by permission) from the sunos5\n"
 "module of William LeFebvre's \"top\" utility."
 
-#: ksysguard.cpp:551
+#: ksysguard.cpp:550
 #, fuzzy
 msgid "Optional worksheet files to load"
 msgstr "লোড করতে ঐচ্ছিক worksheet ফাইল"
