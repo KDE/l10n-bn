@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-24 12:03+0200\n"
+"POT-Creation-Date: 2012-06-25 12:35+0200\n"
 "PO-Revision-Date: 2010-05-29 19:56+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -10227,30 +10227,6 @@ msgstr "নতুন নামে সংরক্ষণ করো"
 msgid "Inactive"
 msgstr "নিষ্ক্রিয়"
 
-#: khtml/khtmlimage.cpp:202
-#, kde-format
-msgid "%1 (%2 - %3x%4 Pixels)"
-msgstr "%1 (%2 - %3x%4 পিক্সেল)"
-
-#: khtml/khtmlimage.cpp:204
-#, kde-format
-msgid "%1 - %2x%3 Pixels"
-msgstr "%1 - %2x%3 পিক্সেল"
-
-#: khtml/khtmlimage.cpp:209
-#, kde-format
-msgid "%1 (%2x%3 Pixels)"
-msgstr "%1 (%2x%3 পিক্সেল)"
-
-#: khtml/khtmlimage.cpp:211
-#, kde-format
-msgid "Image - %1x%2 Pixels"
-msgstr "ছবি - %1x%2 পিক্সেল"
-
-#: khtml/khtmlimage.cpp:217
-msgid "Done."
-msgstr "হয়ে গেছে।"
-
 #: khtml/khtml_part.cpp:252
 msgid "View Do&cument Source"
 msgstr "&নথীর উত্স দেখাও"
@@ -10722,6 +10698,30 @@ msgstr "Blocked জানালা Passive পপ-আপ বিজ্ঞপ্�
 msgid "&Configure JavaScript New Window Policies..."
 msgstr "জাভাস্ক্রীপ্ট-এ নতুন উইণ্ডো পলিসি &কনফিগার করুন..."
 
+#: khtml/khtmlimage.cpp:202
+#, kde-format
+msgid "%1 (%2 - %3x%4 Pixels)"
+msgstr "%1 (%2 - %3x%4 পিক্সেল)"
+
+#: khtml/khtmlimage.cpp:204
+#, kde-format
+msgid "%1 - %2x%3 Pixels"
+msgstr "%1 - %2x%3 পিক্সেল"
+
+#: khtml/khtmlimage.cpp:209
+#, kde-format
+msgid "%1 (%2x%3 Pixels)"
+msgstr "%1 (%2x%3 পিক্সেল)"
+
+#: khtml/khtmlimage.cpp:211
+#, kde-format
+msgid "Image - %1x%2 Pixels"
+msgstr "ছবি - %1x%2 পিক্সেল"
+
+#: khtml/khtmlimage.cpp:217
+msgid "Done."
+msgstr "হয়ে গেছে।"
+
 #: khtml/test_regression_gui_main.cpp:34
 msgid "TestRegressionGui"
 msgstr "TestRegressionGui"
@@ -11017,37 +11017,9 @@ msgstr "JavaScript"
 msgid "&Stop Script"
 msgstr "স্ক্রিপ্ট থামা&ও"
 
-#: khtml/ecma/kjs_html.cpp:2166 khtml/ecma/kjs_window.cpp:1660
+#: khtml/ecma/kjs_window.cpp:1660 khtml/ecma/kjs_html.cpp:2166
 msgid "Confirmation: JavaScript Popup"
 msgstr "অনুমোদন: জাভাস্ক্রিপ্ট পপ-আপ"
-
-#: khtml/ecma/kjs_html.cpp:2168
-msgid ""
-"This site is submitting a form which will open up a new browser window via "
-"JavaScript.\n"
-"Do you want to allow the form to be submitted?"
-msgstr ""
-"এই সাইটটি এমন একটি ফর্ম জমা দিচ্ছে যার ফলে জাভাস্ক্রিপ্ট ব্যবহার করে একটি নতুন "
-"উইণ্ডো খোলা হবে। \n"
-"আপনি কি ফর্মটি জমা দিতে চান?"
-
-#: khtml/ecma/kjs_html.cpp:2171
-#, kde-format
-msgid ""
-"<qt>This site is submitting a form which will open <p>%1</p> in a new "
-"browser window via JavaScript.<br />Do you want to allow the form to be "
-"submitted?</qt>"
-msgstr ""
-"<qt>এই সাইটটি এমন একটি ফর্ম জমা দিচ্ছে যার ফলে জাভাস্ক্রিপ্ট ব্যবহার করে একটি নতুন "
-"উইণ্ডোয়<p>%1</p> খোলা হবে। <br/> আপনি কি ফর্মটি জমা দিতে চান?"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Allow"
-msgstr "হ্যাঁ"
-
-#: khtml/ecma/kjs_html.cpp:2173 khtml/ecma/kjs_window.cpp:1668
-msgid "Do Not Allow"
-msgstr "না"
 
 #: khtml/ecma/kjs_window.cpp:1663
 msgid ""
@@ -11065,6 +11037,14 @@ msgid ""
 msgstr ""
 "<qt>এই সাইটটি জাভাস্ক্রিপ্ট-এর মাধ্যমে একটি নতুন ব্রাইজার উইণ্ডোয় <p>%1</p>খুলতে "
 "চাইছে। <br/>আপনি কি তাই চান?</qt>"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Allow"
+msgstr "হ্যাঁ"
+
+#: khtml/ecma/kjs_window.cpp:1668 khtml/ecma/kjs_html.cpp:2173
+msgid "Do Not Allow"
+msgstr "না"
 
 #: khtml/ecma/kjs_window.cpp:1981
 msgid "Close window?"
@@ -11101,6 +11081,26 @@ msgstr "মধ্যে ঢোকাও"
 #: khtml/ecma/kjs_window.cpp:2899
 msgid "Disallow"
 msgstr "অনুমতি দিও না"
+
+#: khtml/ecma/kjs_html.cpp:2168
+msgid ""
+"This site is submitting a form which will open up a new browser window via "
+"JavaScript.\n"
+"Do you want to allow the form to be submitted?"
+msgstr ""
+"এই সাইটটি এমন একটি ফর্ম জমা দিচ্ছে যার ফলে জাভাস্ক্রিপ্ট ব্যবহার করে একটি নতুন "
+"উইণ্ডো খোলা হবে। \n"
+"আপনি কি ফর্মটি জমা দিতে চান?"
+
+#: khtml/ecma/kjs_html.cpp:2171
+#, kde-format
+msgid ""
+"<qt>This site is submitting a form which will open <p>%1</p> in a new "
+"browser window via JavaScript.<br />Do you want to allow the form to be "
+"submitted?</qt>"
+msgstr ""
+"<qt>এই সাইটটি এমন একটি ফর্ম জমা দিচ্ছে যার ফলে জাভাস্ক্রিপ্ট ব্যবহার করে একটি নতুন "
+"উইণ্ডোয়<p>%1</p> খোলা হবে। <br/> আপনি কি ফর্মটি জমা দিতে চান?"
 
 #: khtml/ecma/debugger/consoledock.cpp:220
 msgid "Console"
