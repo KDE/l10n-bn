@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: potwerdevil\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-06-19 19:49+0200\n"
+"POT-Creation-Date: 2012-07-10 20:12+0200\n"
 "PO-Revision-Date: 2010-06-01 18:58+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -20,6 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.0\n"
+
+#: actions/bundled/brightnesscontrolconfig.cpp:63
+msgctxt "Brightness level, label for the slider"
+msgid "Level"
+msgstr ""
 
 #: actions/bundled/dimdisplayconfig.cpp:63
 #: actions/bundled/runscriptconfig.cpp:80
@@ -36,6 +41,53 @@ msgstr "মিনিট"
 #: actions/bundled/suspendsessionconfig.cpp:95
 msgid "After"
 msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:77
+msgid "Do nothing"
+msgstr "কিছু কোর না"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:79
+#: actions/bundled/suspendsessionconfig.cpp:80
+msgid "Sleep"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:82
+#: actions/bundled/suspendsessionconfig.cpp:83
+msgid "Hibernate"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:84
+#: actions/bundled/suspendsessionconfig.cpp:85
+msgid "Shutdown"
+msgstr "বন্ধ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:85
+#: actions/bundled/suspendsessionconfig.cpp:86
+#, fuzzy
+#| msgid "Lock Screen"
+msgid "Lock screen"
+msgstr "স্ক্রীণ লক করো"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:87
+#, fuzzy
+msgid "Prompt log out dialog"
+msgstr "Prompt কার্যবিবরণী বাইরে ডায়ালগ"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:89
+msgid "Turn off screen"
+msgstr ""
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:100
+#, fuzzy
+#| msgid "When Laptop Lid Closed"
+msgid "When laptop lid closed"
+msgstr "ল্যাপটপ-এর ঢাকা বন্ধ করা হলে"
+
+#: actions/bundled/handlebuttoneventsconfig.cpp:101
+#, fuzzy
+#| msgid "When Power Button pressed"
+msgid "When power button pressed"
+msgstr "পাওয়ার বাটন চাপলে"
 
 #: actions/bundled/runscriptconfig.cpp:70
 msgid "Script"
@@ -59,58 +111,6 @@ msgstr ""
 msgid "The screen is being locked"
 msgstr "স্ক্রীণ লক করা হচ্ছে"
 
-#: actions/bundled/suspendsessionconfig.cpp:80
-#: actions/bundled/handlebuttoneventsconfig.cpp:79
-msgid "Sleep"
-msgstr ""
-
-#: actions/bundled/suspendsessionconfig.cpp:83
-#: actions/bundled/handlebuttoneventsconfig.cpp:82
-msgid "Hibernate"
-msgstr ""
-
-#: actions/bundled/suspendsessionconfig.cpp:85
-#: actions/bundled/handlebuttoneventsconfig.cpp:84
-msgid "Shutdown"
-msgstr "বন্ধ"
-
-#: actions/bundled/suspendsessionconfig.cpp:86
-#: actions/bundled/handlebuttoneventsconfig.cpp:85
-#, fuzzy
-#| msgid "Lock Screen"
-msgid "Lock screen"
-msgstr "স্ক্রীণ লক করো"
-
-#: actions/bundled/brightnesscontrolconfig.cpp:63
-msgctxt "Brightness level, label for the slider"
-msgid "Level"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:77
-msgid "Do nothing"
-msgstr "কিছু কোর না"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:87
-#, fuzzy
-msgid "Prompt log out dialog"
-msgstr "Prompt কার্যবিবরণী বাইরে ডায়ালগ"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:89
-msgid "Turn off screen"
-msgstr ""
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:100
-#, fuzzy
-#| msgid "When Laptop Lid Closed"
-msgid "When laptop lid closed"
-msgstr "ল্যাপটপ-এর ঢাকা বন্ধ করা হলে"
-
-#: actions/bundled/handlebuttoneventsconfig.cpp:101
-#, fuzzy
-#| msgid "When Power Button pressed"
-msgid "When power button pressed"
-msgstr "পাওয়ার বাটন চাপলে"
-
 #: actions/dpms/powerdevildpmsactionconfig.cpp:60
 #, fuzzy
 #| msgid "&Power off after"
@@ -121,6 +121,30 @@ msgstr "এতক্ষণ পরে &বন্ধ করে দাও"
 #, fuzzy
 msgid "Unsupported suspend method"
 msgstr "সমর্থিত পন্থা নিলম্বন করো"
+
+#: kdedpowerdevil.cpp:58
+#, fuzzy
+#| msgid "A Power Management tool for KDE4"
+msgid "KDE Power Management System"
+msgstr "KDE4-এর জন্য একটি পাওয়ার ব্যবস্থাপনার টুল"
+
+#: kdedpowerdevil.cpp:59
+msgid ""
+"KDE Power Management System is PowerDevil, an advanced, modular and "
+"lightweight Power Management daemon"
+msgstr ""
+
+#: kdedpowerdevil.cpp:62
+msgid "(c) 2010 MetalWorkers Co."
+msgstr ""
+
+#: kdedpowerdevil.cpp:65
+msgid "Dario Freddi"
+msgstr "Dario Freddi"
+
+#: kdedpowerdevil.cpp:65
+msgid "Maintainer"
+msgstr "রক্ষণাবেক্ষণকারী"
 
 #: powerdevilcore.cpp:73
 msgid ""
@@ -302,30 +326,6 @@ msgstr ""
 #| msgid "Your battery has reached low level"
 msgid "Your battery has reached a low level."
 msgstr "আপনার ব্যাটারি নিম্ন মাত্রায় পৌঁছেছে"
-
-#: kdedpowerdevil.cpp:58
-#, fuzzy
-#| msgid "A Power Management tool for KDE4"
-msgid "KDE Power Management System"
-msgstr "KDE4-এর জন্য একটি পাওয়ার ব্যবস্থাপনার টুল"
-
-#: kdedpowerdevil.cpp:59
-msgid ""
-"KDE Power Management System is PowerDevil, an advanced, modular and "
-"lightweight Power Management daemon"
-msgstr ""
-
-#: kdedpowerdevil.cpp:62
-msgid "(c) 2010 MetalWorkers Co."
-msgstr ""
-
-#: kdedpowerdevil.cpp:65
-msgid "Dario Freddi"
-msgstr "Dario Freddi"
-
-#: kdedpowerdevil.cpp:65
-msgid "Maintainer"
-msgstr "রক্ষণাবেক্ষণকারী"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
