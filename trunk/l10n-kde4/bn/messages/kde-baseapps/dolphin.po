@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dolphin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-07-19 04:48+0200\n"
+"POT-Creation-Date: 2012-07-21 04:40+0200\n"
 "PO-Revision-Date: 2010-05-30 01:46-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -26,6 +26,25 @@ msgstr "ফিল্টার বার লুকাও"
 msgctxt "@label:textbox"
 msgid "Filter:"
 msgstr "ফিল্টার:"
+
+#: kitemviews/kfileitemlistwidget.cpp:54
+#, fuzzy
+#| msgctxt "@info:status"
+#| msgid "Unknown size"
+msgctxt "@item:intable"
+msgid "Unknown"
+msgstr "অজানা মাপ"
+
+#: kitemviews/kfileitemlistwidget.cpp:56
+#, fuzzy, kde-format
+#| msgctxt "@info"
+#| msgid "%1 item selected"
+#| msgid_plural "%1 items selected"
+msgctxt "@item:intable"
+msgid "%1 item"
+msgid_plural "%1 items"
+msgstr[0] "%1-টি বস্তু নির্বাচিত"
+msgstr[1] "%1-টি বস্তু নির্বাচিত"
 
 #: kitemviews/kfileitemmodel.cpp:1559
 msgctxt "@title:group Groups that start with a digit"
@@ -391,25 +410,6 @@ msgstr ""
 msgctxt "@info:status"
 msgid "Unknown error."
 msgstr "অজানা ত্রুটি।"
-
-#: kitemviews/kfileitemlistwidget.cpp:53
-#, fuzzy
-#| msgctxt "@info:status"
-#| msgid "Unknown size"
-msgctxt "@item:intable"
-msgid "Unknown"
-msgstr "অজানা মাপ"
-
-#: kitemviews/kfileitemlistwidget.cpp:55
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid "%1 item selected"
-#| msgid_plural "%1 items selected"
-msgctxt "@item:intable"
-msgid "%1 item"
-msgid_plural "%1 items"
-msgstr[0] "%1-টি বস্তু নির্বাচিত"
-msgstr[1] "%1-টি বস্তু নির্বাচিত"
 
 #: panels/folders/treeviewcontextmenu.cpp:58
 msgctxt "@action:inmenu"
@@ -1684,48 +1684,6 @@ msgctxt "@info:status"
 msgid "A folder cannot be dropped into itself"
 msgstr "একটি ফোল্ডারকে নিজের মধ্যে ড্রপ করা যায় না"
 
-#: views/renamedialog.cpp:58
-msgctxt "@title:window"
-msgid "Rename Item"
-msgstr "বস্তু নামান্তর করো"
-
-#: views/renamedialog.cpp:59
-msgctxt "@title:window"
-msgid "Rename Items"
-msgstr "বস্তু নামান্তর করো"
-
-#: views/renamedialog.cpp:63
-msgctxt "@action:button"
-msgid "&Rename"
-msgstr "না&ম পরিবর্তন করো"
-
-#: views/renamedialog.cpp:73
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the item <filename>%1</filename> to:"
-msgstr "<filename>%1</filename> বস্তুটির নাম বদলে করো:"
-
-#: views/renamedialog.cpp:76
-msgctxt "@info:status"
-msgid "New name #"
-msgstr "নতুন নাম #"
-
-#: views/renamedialog.cpp:78
-#, kde-format
-msgctxt "@label:textbox"
-msgid "Rename the %1 selected item to:"
-msgid_plural "Rename the %1 selected items to:"
-msgstr[0] "%1-টি বস্তুর নাম বদলে করো:"
-msgstr[1] "%1-টি বস্তুর নাম বদলে করো:"
-
-#: views/renamedialog.cpp:107
-#, fuzzy
-#| msgctxt "@info"
-#| msgid "(# will be replaced by ascending numbers)"
-msgctxt "@info"
-msgid "# will be replaced by ascending numbers starting with:"
-msgstr "(#-এর জায়গায় ক্রমানুসারে সংখ্যা বসানো হবে)"
-
 #: views/dolphinviewactionhandler.cpp:99
 msgctxt "@action"
 msgid "Create Folder..."
@@ -1842,6 +1800,48 @@ msgstr "বিস্তারিত"
 msgctxt "@info"
 msgid "Details view mode"
 msgstr "বিস্তারিত ভিউ মোড"
+
+#: views/renamedialog.cpp:58
+msgctxt "@title:window"
+msgid "Rename Item"
+msgstr "বস্তু নামান্তর করো"
+
+#: views/renamedialog.cpp:59
+msgctxt "@title:window"
+msgid "Rename Items"
+msgstr "বস্তু নামান্তর করো"
+
+#: views/renamedialog.cpp:63
+msgctxt "@action:button"
+msgid "&Rename"
+msgstr "না&ম পরিবর্তন করো"
+
+#: views/renamedialog.cpp:73
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the item <filename>%1</filename> to:"
+msgstr "<filename>%1</filename> বস্তুটির নাম বদলে করো:"
+
+#: views/renamedialog.cpp:76
+msgctxt "@info:status"
+msgid "New name #"
+msgstr "নতুন নাম #"
+
+#: views/renamedialog.cpp:78
+#, kde-format
+msgctxt "@label:textbox"
+msgid "Rename the %1 selected item to:"
+msgid_plural "Rename the %1 selected items to:"
+msgstr[0] "%1-টি বস্তুর নাম বদলে করো:"
+msgstr[1] "%1-টি বস্তুর নাম বদলে করো:"
+
+#: views/renamedialog.cpp:109
+#, fuzzy
+#| msgctxt "@info"
+#| msgid "(# will be replaced by ascending numbers)"
+msgctxt "@info"
+msgid "# will be replaced by ascending numbers starting with:"
+msgstr "(#-এর জায়গায় ক্রমানুসারে সংখ্যা বসানো হবে)"
 
 #: rc.cpp:1
 msgctxt "NAME OF TRANSLATORS"
