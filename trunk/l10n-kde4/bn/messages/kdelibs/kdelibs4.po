@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-07 08:18+0200\n"
+"POT-Creation-Date: 2012-08-10 05:03+0200\n"
 "PO-Revision-Date: 2012-07-16 14:27+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -4842,7 +4842,7 @@ msgid "Connection timed out"
 msgstr "যোগাযোগ টাইম-আউট হয়ে গেছে"
 
 #: kdecore/network/klocalsocket_unix.cpp:213
-#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:538
+#: kdecore/network/klocalsocket_unix.cpp:293 nepomuk/core/resource.cpp:560
 msgid "Unknown error"
 msgstr "অজানা সমস্যা"
 
@@ -5441,41 +5441,6 @@ msgstr ""
 "স্ট্যাটাস বার দেখাও<br /><br />স্ট্যাটাস বার (উইণ্ডোর তলায় অবস্থিত বার যা স্ট্যাটাস "
 "তথ্য দেখানোর জন্য ব্যবহৃত হয়) প্রদর্শন করে।"
 
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:84
-msgid ""
-"<qt>No information available.<br />The supplied KAboutData object does not "
-"exist.</qt>"
-msgstr "<qt>কোন তথ্য নেই।<br />প্রদত্ত KAboutData অবজেক্টটির অস্তিত্ব নেই।</qt>"
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:113
-#, fuzzy, kde-format
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />(কে.ডি.ই. %3 "
-"ব্যবহার করে)</html>"
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:117
-#, kde-format
-msgctxt ""
-"Program name, version and KDE platform version; do not translate "
-"'Development Platform'"
-msgid ""
-"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
-"Development Platform %3</html>"
-msgstr ""
-"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />(কে.ডি.ই. "
-"ডেভেলপমেন্ট প্ল্যাটফর্ম %3 ব্যবহার করে)</html>"
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:153
-#, kde-format
-msgid "License: %1"
-msgstr "লাইসেন্স: %1"
-
-#: kdeui/dialogs/kaboutapplicationdialog.cpp:312
-msgid "License Agreement"
-msgstr "লাইসেন্স চুক্তি"
-
 #: kdeui/dialogs/klinkdialog.cpp:49
 msgid "Manage Link"
 msgstr "লিঙ্ক ব্যবস্থাপনা করো"
@@ -5966,6 +5931,41 @@ msgstr "শুরু করার সময় টি&প দেখাও"
 msgctxt "Opposite to Previous"
 msgid "&Next"
 msgstr "&পরবর্তী"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:84
+msgid ""
+"<qt>No information available.<br />The supplied KAboutData object does not "
+"exist.</qt>"
+msgstr "<qt>কোন তথ্য নেই।<br />প্রদত্ত KAboutData অবজেক্টটির অস্তিত্ব নেই।</qt>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:113
+#, fuzzy, kde-format
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />&nbsp;</html>"
+msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />(কে.ডি.ই. %3 "
+"ব্যবহার করে)</html>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:117
+#, kde-format
+msgctxt ""
+"Program name, version and KDE platform version; do not translate "
+"'Development Platform'"
+msgid ""
+"<html><font size=\"5\">%1</font><br /><b>Version %2</b><br />Using KDE "
+"Development Platform %3</html>"
+msgstr ""
+"<html><font size=\"5\">%1</font><br /><b>সংস্করণ %2</b><br />(কে.ডি.ই. "
+"ডেভেলপমেন্ট প্ল্যাটফর্ম %3 ব্যবহার করে)</html>"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:153
+#, kde-format
+msgid "License: %1"
+msgstr "লাইসেন্স: %1"
+
+#: kdeui/dialogs/kaboutapplicationdialog.cpp:315
+msgid "License Agreement"
+msgstr "লাইসেন্স চুক্তি"
 
 #: kdeui/dialogs/kshortcutseditoritem.cpp:45
 #, kde-format
@@ -9275,6 +9275,112 @@ msgstr "Separator, Paragraph"
 msgid "Separator, Space"
 msgstr "Separator, Space"
 
+#: kdeui/widgets/ktoolbar.cpp:292
+#, fuzzy
+#| msgid "Show help"
+msgctxt "@title:menu"
+msgid "Show Text"
+msgstr "সহায়িকা দেখাও"
+
+#: kdeui/widgets/ktoolbar.cpp:295
+#, fuzzy
+#| msgid "Toolbar Settings"
+msgctxt "@title:menu"
+msgid "Toolbar Settings"
+msgstr "টুলবার সেটিংস"
+
+#: kdeui/widgets/ktoolbar.cpp:297
+#, fuzzy
+#| msgid "Orientation"
+msgctxt "Toolbar orientation"
+msgid "Orientation"
+msgstr "দিশা"
+
+#: kdeui/widgets/ktoolbar.cpp:299
+msgctxt "toolbar position string"
+msgid "Top"
+msgstr "ওপরে"
+
+#: kdeui/widgets/ktoolbar.cpp:301
+msgctxt "toolbar position string"
+msgid "Left"
+msgstr "বাঁদিকে"
+
+#: kdeui/widgets/ktoolbar.cpp:302
+msgctxt "toolbar position string"
+msgid "Right"
+msgstr "ডানদিকে"
+
+#: kdeui/widgets/ktoolbar.cpp:303
+msgctxt "toolbar position string"
+msgid "Bottom"
+msgstr "নীচে"
+
+#: kdeui/widgets/ktoolbar.cpp:311
+msgid "Text Position"
+msgstr "লেখার অবস্থান"
+
+#: kdeui/widgets/ktoolbar.cpp:313
+msgid "Icons Only"
+msgstr "শুধু আইকন"
+
+#: kdeui/widgets/ktoolbar.cpp:314
+msgid "Text Only"
+msgstr "শুধু লেখা"
+
+#: kdeui/widgets/ktoolbar.cpp:315
+msgid "Text Alongside Icons"
+msgstr "আইকনের পাশে লেখা"
+
+#: kdeui/widgets/ktoolbar.cpp:316
+msgid "Text Under Icons"
+msgstr "আইকনের তলায় লেখা"
+
+#: kdeui/widgets/ktoolbar.cpp:324
+msgid "Icon Size"
+msgstr "আইকনের মাপ"
+
+#: kdeui/widgets/ktoolbar.cpp:326
+msgctxt "@item:inmenu Icon size"
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
+#, kde-format
+msgid "Small (%1x%2)"
+msgstr "ছোট (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
+#, kde-format
+msgid "Medium (%1x%2)"
+msgstr "মাঝারি (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
+#, kde-format
+msgid "Large (%1x%2)"
+msgstr "বড় (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
+#, kde-format
+msgid "Huge (%1x%2)"
+msgstr "বিশাল (%1x%2)"
+
+#: kdeui/widgets/ktoolbar.cpp:389
+msgid "Lock Toolbar Positions"
+msgstr "টুলবার অবস্থান লক করো"
+
+#: kdeui/widgets/ktoolbar.cpp:1326
+#, kde-format
+msgctxt "@action:intoolbar Text label of toolbar button"
+msgid "%1"
+msgstr "%1"
+
+#: kdeui/widgets/ktoolbar.cpp:1327
+#, kde-format
+msgctxt "@info:tooltip Tooltip of toolbar button"
+msgid "%1"
+msgstr "%1"
+
 #. i18n: Placeholder text in text edit widgets is the text appearing
 #. before any user input, briefly explaining to the user what to type
 #. (e.g. "Enter message").
@@ -9564,111 +9670,6 @@ msgstr "ক্ল&কওয়াইস ঘোরাও"
 #: kdeui/widgets/kpixmapregionselectorwidget.cpp:205
 msgid "Rotate &Counterclockwise"
 msgstr "অ্যান্টি-ক্লক&ওয়াইস ঘোরাও"
-
-#: kdeui/widgets/ktoolbar.cpp:292
-#, fuzzy
-#| msgid "Show help"
-msgctxt "@title:menu"
-msgid "Show Text"
-msgstr "সহায়িকা দেখাও"
-
-#: kdeui/widgets/ktoolbar.cpp:295
-#, fuzzy
-#| msgid "Toolbar Settings"
-msgctxt "@title:menu"
-msgid "Toolbar Settings"
-msgstr "টুলবার সেটিংস"
-
-#: kdeui/widgets/ktoolbar.cpp:297
-#, fuzzy
-#| msgid "Orientation"
-msgid "Orientation"
-msgstr "দিশা"
-
-#: kdeui/widgets/ktoolbar.cpp:299
-msgctxt "toolbar position string"
-msgid "Top"
-msgstr "ওপরে"
-
-#: kdeui/widgets/ktoolbar.cpp:301
-msgctxt "toolbar position string"
-msgid "Left"
-msgstr "বাঁদিকে"
-
-#: kdeui/widgets/ktoolbar.cpp:302
-msgctxt "toolbar position string"
-msgid "Right"
-msgstr "ডানদিকে"
-
-#: kdeui/widgets/ktoolbar.cpp:303
-msgctxt "toolbar position string"
-msgid "Bottom"
-msgstr "নীচে"
-
-#: kdeui/widgets/ktoolbar.cpp:311
-msgid "Text Position"
-msgstr "লেখার অবস্থান"
-
-#: kdeui/widgets/ktoolbar.cpp:313
-msgid "Icons Only"
-msgstr "শুধু আইকন"
-
-#: kdeui/widgets/ktoolbar.cpp:314
-msgid "Text Only"
-msgstr "শুধু লেখা"
-
-#: kdeui/widgets/ktoolbar.cpp:315
-msgid "Text Alongside Icons"
-msgstr "আইকনের পাশে লেখা"
-
-#: kdeui/widgets/ktoolbar.cpp:316
-msgid "Text Under Icons"
-msgstr "আইকনের তলায় লেখা"
-
-#: kdeui/widgets/ktoolbar.cpp:324
-msgid "Icon Size"
-msgstr "আইকনের মাপ"
-
-#: kdeui/widgets/ktoolbar.cpp:326
-msgctxt "@item:inmenu Icon size"
-msgid "Default"
-msgstr "ডিফল্ট"
-
-#: kdeui/widgets/ktoolbar.cpp:343 kdeui/widgets/ktoolbar.cpp:363
-#, kde-format
-msgid "Small (%1x%2)"
-msgstr "ছোট (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:345 kdeui/widgets/ktoolbar.cpp:365
-#, kde-format
-msgid "Medium (%1x%2)"
-msgstr "মাঝারি (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:347 kdeui/widgets/ktoolbar.cpp:367
-#, kde-format
-msgid "Large (%1x%2)"
-msgstr "বড় (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:349 kdeui/widgets/ktoolbar.cpp:369
-#, kde-format
-msgid "Huge (%1x%2)"
-msgstr "বিশাল (%1x%2)"
-
-#: kdeui/widgets/ktoolbar.cpp:389
-msgid "Lock Toolbar Positions"
-msgstr "টুলবার অবস্থান লক করো"
-
-#: kdeui/widgets/ktoolbar.cpp:1326
-#, kde-format
-msgctxt "@action:intoolbar Text label of toolbar button"
-msgid "%1"
-msgstr "%1"
-
-#: kdeui/widgets/ktoolbar.cpp:1327
-#, kde-format
-msgctxt "@info:tooltip Tooltip of toolbar button"
-msgid "%1"
-msgstr "%1"
 
 #: kdeui/widgets/krichtextwidget.cpp:232
 msgctxt "@action"
@@ -12915,15 +12916,15 @@ msgstr "উপাদান নির্বাচন করুন"
 msgid "Enable component"
 msgstr "কম্পোনেন্ট সক্রিয় করো"
 
-#: nepomuk/core/resource.cpp:532
+#: nepomuk/core/resource.cpp:554
 msgid "Success"
 msgstr "সফল"
 
-#: nepomuk/core/resource.cpp:534
+#: nepomuk/core/resource.cpp:556
 msgid "Communication error"
 msgstr "যোগাযোগ সমস্যা"
 
-#: nepomuk/core/resource.cpp:536
+#: nepomuk/core/resource.cpp:558
 msgid "Invalid type in Database"
 msgstr "ডেটাবেসে অবৈধ ধরন"
 
