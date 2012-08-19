@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:17+0200\n"
+"POT-Creation-Date: 2012-08-19 05:13+0200\n"
 "PO-Revision-Date: 2006-04-04 13:15+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -17,6 +17,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: boardwidget.cpp:483
+msgid "Undo operation done successfully."
+msgstr "বাতিল করার কাজ সফল হয়েছে।"
+
+#: boardwidget.cpp:487
+msgid "What do you want to undo? You have done nothing!"
+msgstr "আপনি কি করতে চান?  আপনি তো কিছুই করেন নি!"
+
+#: boardwidget.cpp:504
+msgid "Sorry, you have lost the game."
+msgstr "দুঃখিত, আপনি খেলায় হেরে গিয়েছেন।"
+
+#: boardwidget.cpp:544
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "প্রদর্শনী মোড।  প্রদর্শনী বন্ধ করার জন্য মাউসের বাটন চাপুন।"
+
+#: boardwidget.cpp:553
+#, fuzzy
+msgid "Now it is you again."
+msgstr "আবারো আপনি।"
+
+#: boardwidget.cpp:569
+msgid "Your computer has lost the game."
+msgstr "আপনার কম্পিউটার খেলায় হেরে গিয়েছে।"
+
+#: boardwidget.cpp:669
+msgid "Congratulations. You have won!"
+msgstr "অভিনন্দন।  আপনি জয়ী হয়েছেন!"
+
+#: boardwidget.cpp:730
+msgid "Calculating new game..."
+msgstr "নতুন খেলা গণনা করা হচ্ছে..."
+
+#: boardwidget.cpp:733
+msgid "Error converting board information!"
+msgstr "বোর্ডের তথ্য রূপান্তরে সমস্যা হয়েছে!"
+
+#: boardwidget.cpp:758
+msgid "Ready. Now it is your turn."
+msgstr "প্রস্তুত।  এবার আপনার পালা।"
+
+#: boardwidget.cpp:767
+msgid "Error generating new game!"
+msgstr "নতুন খেলা তৈরিতে সমস্যা হয়েছে!"
+
+#: boardwidget.cpp:1240
+msgid "Game over: You have no moves left."
+msgstr "খেল খতম: আপনার আর কোন চাল অবশিষ্ট নেই।"
 
 #: Editor.cpp:68
 msgid "Edit Board Layout"
@@ -119,55 +168,6 @@ msgstr "বোর্ডে পরিবর্তন করা হয়েছে।
 msgid "Save failed. Aborting operation."
 msgstr "সংরক্ষণ করার প্রচেষ্টা ব্যর্থ হয়েছে।  এই উদ্যোগ পরিত্যাগ করা হল।"
 
-#: boardwidget.cpp:483
-msgid "Undo operation done successfully."
-msgstr "বাতিল করার কাজ সফল হয়েছে।"
-
-#: boardwidget.cpp:487
-msgid "What do you want to undo? You have done nothing!"
-msgstr "আপনি কি করতে চান?  আপনি তো কিছুই করেন নি!"
-
-#: boardwidget.cpp:504
-msgid "Sorry, you have lost the game."
-msgstr "দুঃখিত, আপনি খেলায় হেরে গিয়েছেন।"
-
-#: boardwidget.cpp:544
-msgid "Demo mode. Click mousebutton to stop."
-msgstr "প্রদর্শনী মোড।  প্রদর্শনী বন্ধ করার জন্য মাউসের বাটন চাপুন।"
-
-#: boardwidget.cpp:553
-#, fuzzy
-msgid "Now it is you again."
-msgstr "আবারো আপনি।"
-
-#: boardwidget.cpp:569
-msgid "Your computer has lost the game."
-msgstr "আপনার কম্পিউটার খেলায় হেরে গিয়েছে।"
-
-#: boardwidget.cpp:669
-msgid "Congratulations. You have won!"
-msgstr "অভিনন্দন।  আপনি জয়ী হয়েছেন!"
-
-#: boardwidget.cpp:730
-msgid "Calculating new game..."
-msgstr "নতুন খেলা গণনা করা হচ্ছে..."
-
-#: boardwidget.cpp:733
-msgid "Error converting board information!"
-msgstr "বোর্ডের তথ্য রূপান্তরে সমস্যা হয়েছে!"
-
-#: boardwidget.cpp:758
-msgid "Ready. Now it is your turn."
-msgstr "প্রস্তুত।  এবার আপনার পালা।"
-
-#: boardwidget.cpp:767
-msgid "Error generating new game!"
-msgstr "নতুন খেলা তৈরিতে সমস্যা হয়েছে!"
-
-#: boardwidget.cpp:1240
-msgid "Game over: You have no moves left."
-msgstr "খেল খতম: আপনার আর কোন চাল অবশিষ্ট নেই।"
-
 #: kmahjongg.cpp:136
 msgid "New Numbered Game..."
 msgstr "নতুন নম্বরযুক্ত খেলা..."
@@ -206,13 +206,13 @@ msgid "Time: "
 msgstr "সময়"
 
 #: kmahjongg.cpp:220
-msgid "Enter game number:"
-msgstr "খেলার নম্বর লিখুন:"
-
-#: kmahjongg.cpp:220
 #, fuzzy
 msgid "New Game"
 msgstr "খেলা সংরক্ষণ করো"
+
+#: kmahjongg.cpp:220
+msgid "Enter game number:"
+msgstr "খেলার নম্বর লিখুন:"
 
 #: kmahjongg.cpp:253
 msgid "General"

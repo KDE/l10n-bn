@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktouch (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-18 04:15+0200\n"
+"POT-Creation-Date: 2012-08-19 05:04+0200\n"
 "PO-Revision-Date: 2006-03-30 14:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -2344,6 +2344,39 @@ msgctxt "Keyboard Layout Name"
 msgid "Portuguese"
 msgstr ""
 
+#: src/ktouchcoloreditordialog.cpp:101 src/ktouchcoloreditordialog.cpp:153
+#, fuzzy
+msgid "New color scheme"
+msgstr "রং বিন্যাস বেছে নিন:"
+
+#: src/ktouchcoloreditordialog.cpp:163
+#, fuzzy
+msgid "Save modified color schemes?"
+msgstr "রং বিন্যাস বেছে নিন"
+
+#: src/ktouchcolorscheme.cpp:65 src/ktouchcolorscheme.cpp:113
+#, fuzzy
+msgid "untitled color scheme"
+msgstr "রং বিন্যাস বেছে নিন:"
+
+#: src/ktouchcolorscheme.cpp:247
+#, fuzzy
+#| msgid "Black & White"
+msgid "Black && White"
+msgstr "সাদা-কালো"
+
+#: src/ktouchcolorscheme.cpp:267
+msgid "Classic"
+msgstr "ক্লাসিক"
+
+#: src/ktouchcolorscheme.cpp:293
+msgid "Deep Blue"
+msgstr "গাঢ় নীল"
+
+#: src/ktouchcolorscheme.cpp:318
+msgid "Stripy"
+msgstr "ডোরাকাটা"
+
 #: src/ktouch.cpp:159 src/ktouchstatisticsdata.cpp:435
 #: src/ktouchstatisticsdata.cpp:557 src/ktouchstatisticsdata.cpp:558
 #: src/ktouchstatisticsdata.cpp:589 src/ktouchusersetupdialog.cpp:48
@@ -2368,13 +2401,13 @@ msgid "Imported text from file '%1'"
 msgstr ""
 
 #: src/ktouch.cpp:247
+msgid "generated from text file"
+msgstr ""
+
+#: src/ktouch.cpp:247
 #, fuzzy
 msgid "all available"
 msgstr "<no default files available>"
-
-#: src/ktouch.cpp:247
-msgid "generated from text file"
-msgstr ""
 
 #: src/ktouch.cpp:270
 msgid "*.ktouch.xml|Lecture files"
@@ -2390,6 +2423,12 @@ msgstr "আপনি কি নতুন প্রশিক্ষণ পর্�
 
 #: src/ktouch.cpp:372
 #, fuzzy
+#| msgid "Start New Training Session"
+msgid "Start new training session"
+msgstr "নতুন প্রশিক্ষণ পর্ব আরম্ভ করো"
+
+#: src/ktouch.cpp:372
+#, fuzzy
 #| msgid "Keep Current Level"
 msgid "Keep current level"
 msgstr "বর্তমান স্তর ব্যবহার করো"
@@ -2397,12 +2436,6 @@ msgstr "বর্তমান স্তর ব্যবহার করো"
 #: src/ktouch.cpp:372
 msgid "Start from first level"
 msgstr ""
-
-#: src/ktouch.cpp:372
-#, fuzzy
-#| msgid "Start New Training Session"
-msgid "Start new training session"
-msgstr "নতুন প্রশিক্ষণ পর্ব আরম্ভ করো"
 
 #: src/ktouch.cpp:434
 #, fuzzy
@@ -2509,39 +2542,6 @@ msgstr "নামবিহীন কীবোর্ড বিন্যাস"
 #: src/ktouch.cpp:863 src/ktouchlecture.cpp:209 src/ktouchlecture.cpp:241
 msgid "untitled lecture"
 msgstr "নামহীন লেকচার"
-
-#: src/ktouchcoloreditordialog.cpp:101 src/ktouchcoloreditordialog.cpp:153
-#, fuzzy
-msgid "New color scheme"
-msgstr "রং বিন্যাস বেছে নিন:"
-
-#: src/ktouchcoloreditordialog.cpp:163
-#, fuzzy
-msgid "Save modified color schemes?"
-msgstr "রং বিন্যাস বেছে নিন"
-
-#: src/ktouchcolorscheme.cpp:65 src/ktouchcolorscheme.cpp:113
-#, fuzzy
-msgid "untitled color scheme"
-msgstr "রং বিন্যাস বেছে নিন:"
-
-#: src/ktouchcolorscheme.cpp:247
-#, fuzzy
-#| msgid "Black & White"
-msgid "Black && White"
-msgstr "সাদা-কালো"
-
-#: src/ktouchcolorscheme.cpp:267
-msgid "Classic"
-msgstr "ক্লাসিক"
-
-#: src/ktouchcolorscheme.cpp:293
-msgid "Deep Blue"
-msgstr "গাঢ় নীল"
-
-#: src/ktouchcolorscheme.cpp:318
-msgid "Stripy"
-msgstr "ডোরাকাটা"
 
 #: src/ktouchkeyboard.cpp:64
 #, fuzzy, kde-format
@@ -2762,14 +2762,14 @@ msgstr "একটি নতুন লেকচার..."
 msgid "Save Training Lecture"
 msgstr "প্রশিক্ষণ লেকচার সংরক্ষণ করো"
 
-#: src/ktouchlectureeditordialog.cpp:264
-msgid "<new unnamed lecture file>"
-msgstr "<new unnamed lecture file>"
-
 #: src/ktouchlectureeditordialog.cpp:264 src/ktouchlectureeditordialog.cpp:265
 #: src/ktouchlectureeditordialog.cpp:407 src/ktouchlectureeditordialog.cpp:408
 msgid "KTouch Lecture Editor - "
 msgstr "কে-টাচ লেকচার সম্পাদক - "
+
+#: src/ktouchlectureeditordialog.cpp:264
+msgid "<new unnamed lecture file>"
+msgstr "<new unnamed lecture file>"
 
 #: src/ktouchlectureeditordialog.cpp:313
 #, kde-format
@@ -2946,12 +2946,12 @@ msgid "Original author, project admin"
 msgstr "প্রথম লেখক, প্রকল্প পরিচালক"
 
 #: src/main.cpp:38
-msgid "Creator of the SVG icon"
-msgstr "এস.ভি.জি. আইকন প্রস্তুতকারী"
-
-#: src/main.cpp:38
 msgid "David Vignoni"
 msgstr ""
+
+#: src/main.cpp:38
+msgid "Creator of the SVG icon"
+msgstr "এস.ভি.জি. আইকন প্রস্তুতকারী"
 
 #: src/main.cpp:39
 msgid "Anne-Marie Mahfouf"
