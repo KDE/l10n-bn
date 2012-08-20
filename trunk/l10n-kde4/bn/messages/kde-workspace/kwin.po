@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:32+0200\n"
 "PO-Revision-Date: 2009-01-09 21:22-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -15,6 +15,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.2\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "অনির্বাণ মিত্র"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "anirban@bengalinux.org"
 
 #: activation.cpp:735
 #, kde-format
@@ -48,6 +56,64 @@ msgstr ""
 #: compositingprefs.cpp:106
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL এবং XRender/XFixes পাওয়া যায়নি।"
+
+#: killer/killer.cpp:42 main.cpp:489
+msgid "KWin"
+msgstr "কে-উইন"
+
+#: killer/killer.cpp:43
+msgid "KWin helper utility"
+msgstr "কে-উইন সাহায্যকারী ইউটিলিটি"
+
+#: killer/killer.cpp:46
+msgid "PID of the application to terminate"
+msgstr "যে অ্যাপলিকেশন বন্ধ করা হবে তার PID"
+
+#: killer/killer.cpp:47
+msgid "Hostname on which the application is running"
+msgstr "যে হোস্ট-এ অ্যাপলিকেশন চলছে"
+
+#: killer/killer.cpp:48
+msgid "Caption of the window to be terminated"
+msgstr "যে উইণ্ডো বন্ধ করা হবে তার শিরোনাম"
+
+#: killer/killer.cpp:49
+msgid "Name of the application to be terminated"
+msgstr "যে অ্যাপলিকেশন বন্ধ করা হবে তার নাম"
+
+#: killer/killer.cpp:50
+msgid "ID of resource belonging to the application"
+msgstr ""
+
+#: killer/killer.cpp:51
+msgid "Time of user action causing termination"
+msgstr ""
+
+#: killer/killer.cpp:68
+msgid "This helper utility is not supposed to be called directly."
+msgstr "এই সাহায্যকারী ইউটিলিটি সরাসরি চালানোর কথা নয়।"
+
+#: killer/killer.cpp:75
+#, fuzzy, kde-format
+#| msgid ""
+#| "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs "
+#| "to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to "
+#| "terminate this application? (All unsaved data in this application will be "
+#| "lost.)</p>"
+msgid ""
+"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
+"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
+"the application process <em>including <b>all</b> of its child windows</em>?"
+"<br /><b>Any unsaved data will be lost.</b></p>"
+msgstr ""
+"<p>\"<b>%2</b>\" শীর্ষক উইণ্ডোটি সাড়া দিচ্ছে না। এই উইণ্ডোটি <b>%1</b> "
+"অ্যাপ্লিকেশনটির অংশ (PID=%3, hostname=%4)। </p><p>আপনি কি অ্যাপ্লিকেশনটি বন্ধ "
+"করতে চান? (সমস্ত অসঞ্চিত তথ্য হারিয়ে যাবে)</p>"
+
+#: killer/killer.cpp:81
+#, kde-format
+msgid "&Terminate Application %1"
+msgstr ""
 
 #: kwinbindings.cpp:48
 msgid "System"
@@ -392,10 +458,6 @@ msgstr ""
 msgid "KDE window manager"
 msgstr "কে.ডি.ই. উইণ্ডো ম্যানেজার"
 
-#: main.cpp:489 killer/killer.cpp:42
-msgid "KWin"
-msgstr "কে-উইন"
-
 #: main.cpp:493
 msgid "(c) 1999-2008, The KDE Developers"
 msgstr "(C) ১৯৯৯-২০০৮, কে.ডি.ই. ডেভেলপারবৃন্দ"
@@ -440,15 +502,72 @@ msgstr ""
 msgid "KWin: "
 msgstr "কে-উইন: "
 
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "অনির্বাণ মিত্র"
+#: tabbox/tabbox.cpp:329
+#, fuzzy
+#| msgid "Show Desktop Grid"
+msgctxt "Special entry in alt+tab list for minimizing all windows"
+msgid "Show Desktop"
+msgstr "ডেস্কটপ গ্রিড দেখাও"
 
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "anirban@bengalinux.org"
+#: tabbox/tabbox.cpp:474
+msgid "Walk Through Windows"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো"
+
+#: tabbox/tabbox.cpp:475
+msgid "Walk Through Windows (Reverse)"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:476
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows Alternative"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:477
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows Alternative (Reverse)"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:478
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:479
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application (Reverse)"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:480
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:481
+#, fuzzy
+#| msgid "Walk Through Windows (Reverse)"
+msgid "Walk Through Windows of Current Application Alternative (Reverse)"
+msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:482
+msgid "Walk Through Desktops"
+msgstr "বিভিন্ন ডেস্কটপ পরিদর্শন করো"
+
+#: tabbox/tabbox.cpp:483
+msgid "Walk Through Desktops (Reverse)"
+msgstr "বিভিন্ন ডেস্কটপ পরিদর্শন করো (বিপরীতক্রমে)"
+
+#: tabbox/tabbox.cpp:484
+msgid "Walk Through Desktop List"
+msgstr "ডেস্কটপ তালিকা পরিদর্শন করো"
+
+#: tabbox/tabbox.cpp:485
+msgid "Walk Through Desktop List (Reverse)"
+msgstr "ডেস্কটপ তালিকা পরিদর্শন করো (বিপরীতক্রমে)"
 
 #: useractions.cpp:86
 msgid "&Move"
@@ -643,127 +762,6 @@ msgid ""
 "paste bin service\n"
 "like http://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
-
-#: killer/killer.cpp:43
-msgid "KWin helper utility"
-msgstr "কে-উইন সাহায্যকারী ইউটিলিটি"
-
-#: killer/killer.cpp:46
-msgid "PID of the application to terminate"
-msgstr "যে অ্যাপলিকেশন বন্ধ করা হবে তার PID"
-
-#: killer/killer.cpp:47
-msgid "Hostname on which the application is running"
-msgstr "যে হোস্ট-এ অ্যাপলিকেশন চলছে"
-
-#: killer/killer.cpp:48
-msgid "Caption of the window to be terminated"
-msgstr "যে উইণ্ডো বন্ধ করা হবে তার শিরোনাম"
-
-#: killer/killer.cpp:49
-msgid "Name of the application to be terminated"
-msgstr "যে অ্যাপলিকেশন বন্ধ করা হবে তার নাম"
-
-#: killer/killer.cpp:50
-msgid "ID of resource belonging to the application"
-msgstr ""
-
-#: killer/killer.cpp:51
-msgid "Time of user action causing termination"
-msgstr ""
-
-#: killer/killer.cpp:68
-msgid "This helper utility is not supposed to be called directly."
-msgstr "এই সাহায্যকারী ইউটিলিটি সরাসরি চালানোর কথা নয়।"
-
-#: killer/killer.cpp:75
-#, fuzzy, kde-format
-#| msgid ""
-#| "<p>Window with title \"<b>%2</b>\" is not responding. This window belongs "
-#| "to application <b>%1</b> (PID=%3, hostname=%4).</p><p>Do you wish to "
-#| "terminate this application? (All unsaved data in this application will be "
-#| "lost.)</p>"
-msgid ""
-"<p>The window \"<b>%2</b>\" is not responding. It belongs to the application "
-"<b>%1</b> (Process ID = %3, hostname = %4).</p><p>Do you wish to terminate "
-"the application process <em>including <b>all</b> of its child windows</em>?"
-"<br /><b>Any unsaved data will be lost.</b></p>"
-msgstr ""
-"<p>\"<b>%2</b>\" শীর্ষক উইণ্ডোটি সাড়া দিচ্ছে না। এই উইণ্ডোটি <b>%1</b> "
-"অ্যাপ্লিকেশনটির অংশ (PID=%3, hostname=%4)। </p><p>আপনি কি অ্যাপ্লিকেশনটি বন্ধ "
-"করতে চান? (সমস্ত অসঞ্চিত তথ্য হারিয়ে যাবে)</p>"
-
-#: killer/killer.cpp:81
-#, kde-format
-msgid "&Terminate Application %1"
-msgstr ""
-
-#: tabbox/tabbox.cpp:329
-#, fuzzy
-#| msgid "Show Desktop Grid"
-msgctxt "Special entry in alt+tab list for minimizing all windows"
-msgid "Show Desktop"
-msgstr "ডেস্কটপ গ্রিড দেখাও"
-
-#: tabbox/tabbox.cpp:474
-msgid "Walk Through Windows"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো"
-
-#: tabbox/tabbox.cpp:475
-msgid "Walk Through Windows (Reverse)"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:476
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:477
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows Alternative (Reverse)"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:478
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:479
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application (Reverse)"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:480
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:481
-#, fuzzy
-#| msgid "Walk Through Windows (Reverse)"
-msgid "Walk Through Windows of Current Application Alternative (Reverse)"
-msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:482
-msgid "Walk Through Desktops"
-msgstr "বিভিন্ন ডেস্কটপ পরিদর্শন করো"
-
-#: tabbox/tabbox.cpp:483
-msgid "Walk Through Desktops (Reverse)"
-msgstr "বিভিন্ন ডেস্কটপ পরিদর্শন করো (বিপরীতক্রমে)"
-
-#: tabbox/tabbox.cpp:484
-msgid "Walk Through Desktop List"
-msgstr "ডেস্কটপ তালিকা পরিদর্শন করো"
-
-#: tabbox/tabbox.cpp:485
-msgid "Walk Through Desktop List (Reverse)"
-msgstr "ডেস্কটপ তালিকা পরিদর্শন করো (বিপরীতক্রমে)"
 
 #, fuzzy
 #~| msgid "Close Window"

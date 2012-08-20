@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-19 05:50+0200\n"
+"POT-Creation-Date: 2012-08-20 05:30+0200\n"
 "PO-Revision-Date: 2010-05-30 11:11-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -27,6 +27,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Lokalize 1.0\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "দীপায়ন সরকার"
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "deepayan.sarkar@gmail.com"
 
 #: configdialog.cpp:53
 msgid "Plugins"
@@ -40,6 +48,42 @@ msgstr "ব্যবহারকারী ইন্টারফেস"
 #, fuzzy
 msgid "Available Plugins"
 msgstr "প্রাপ্তিসাধ্য বৈশিষ্ট্য"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: interfaceOptions.ui:17
+msgid "Positioning:"
+msgstr "অবস্থান:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
+#: interfaceOptions.ui:27
+msgid "Top edge of screen"
+msgstr "স্ক্রীণের ওপরের কিনারায়"
+
+#. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
+#: interfaceOptions.ui:37
+#, fuzzy
+msgid "Free floating window"
+msgstr "মুক্ত ভাসমান জানালা"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: interfaceOptions.ui:57
+msgid "Style:"
+msgstr "স্টাইল:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, commandButton)
+#: interfaceOptions.ui:67
+msgid "Command oriented"
+msgstr "কমান্ড ভিত্তিক"
+
+#. i18n: ectx: property (text), widget (QRadioButton, taskButton)
+#: interfaceOptions.ui:77
+msgid "Task oriented"
+msgstr "কাজ ভিত্তিক"
+
+#. i18n: ectx: property (text), widget (QPushButton, previewButton)
+#: interfaceOptions.ui:97
+msgid "Preview"
+msgstr "প্রাকদর্শন"
 
 #: interfaces/default/interface.cpp:90 interfaces/default/interface.cpp:91
 #: interfaces/quicksand/qs_dialog.cpp:59 interfaces/quicksand/qs_dialog.cpp:60
@@ -100,6 +144,81 @@ msgstr "কোন মিল পাওয়া যায়নি।"
 msgctxt "%1 current item number, %2 total number of items"
 msgid "%1 of %2"
 msgstr "%2-এর %1"
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:13
+msgid "The interface style to use in KRunner"
+msgstr "কে-রানার-এর জন্য ব্যবহৃত ইন্টারফেস স্টাইল"
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:21
+#, fuzzy
+msgid ""
+"Set to true to show the interface in a freely floating dialog instead of at "
+"the top of the screen"
+msgstr ""
+"স্ক্রীণর চূড়াতে ের পরিবর্তে একটি ভাসমান ডায়ালগ মুক্তভাবেতে ইন্টারফেস দেখেতে সত্যিতে "
+"নিযুক্ত করো"
+
+#. i18n: ectx: label, entry, group (General)
+#: kcfg/krunner.kcfg:26
+#, fuzzy
+msgid "Completion mode used for the query text."
+msgstr "পরিপূরণ মোড অনুসন্ধান লেখার জন্য ব্যবহার করেছিল।"
+
+#. i18n: ectx: label, entry (PastQueries), group (General)
+#: kcfg/krunner.kcfg:31
+#, fuzzy
+msgid "History if past queries successfully completed"
+msgstr "ইতিহাস যদি শেষ অনুসন্ধান সফলভাবে শেষ করেছিল"
+
+#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
+#: kcfg/krunner.kcfg:40
+#, fuzzy
+msgid "Whether to keep the tasks dialog above other windows when shown."
+msgstr "কাজ রাখতে উপরে অন্যান্য উইন্ডোজ ডায়ালগো কিনা যখন দেখিয়েছিল।"
+
+#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:11
+msgid "Enable screen saver"
+msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করো"
+
+#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:12
+msgid "Enables the screen saver."
+msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করে।"
+
+#. i18n: ectx: label, entry, group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:16
+msgid "Screen saver timeout"
+msgstr "স্ক্রীণ সংরক্ষক টাইম-আউট"
+
+#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:17
+msgid "Sets the seconds after which the screen saver is started."
+msgstr "কত সেকণ্ড পরে স্ক্রীণ সংরক্ষক শুরু করা হবে।"
+
+#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:21
+#, fuzzy
+msgid "Suspend screen saver when DPMS kicks in"
+msgstr "Suspend স্ক্রীণ সংরক্ষক যখন ডিপিএমএস তে kickো"
+
+#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
+#: kcfg/kscreensaversettings.kcfg:24
+#, fuzzy
+msgid ""
+"Usually the screen saver is suspended when display power saving kicks in,\n"
+"       as nothing can be seen on the screen anyway, obviously. However, some "
+"screen savers\n"
+"       actually perform useful computations, so it is not desirable to "
+"suspend them."
+msgstr ""
+"স্ক্রীণ সংরক্ষক সাধারণত নিলম্বন করা হয় যখন প্রদর্শন করা অধিকার তে সংরক্ষণ করছে "
+"kickচ্ছে, কিছুইনা হিসেবে\n"
+"স্ক্রীণ, যেকোন উপায়ে obviouslyে দেখা যাবে। উপরন্তু, কিছু স্ক্রীণ সংরক্ষক\n"
+"কার্যকর গণনা প্রকৃতপক্ষে কর্ম সম্পাদন করো, সুতরাং এইটি তাদেরকে নিলম্বন করতে "
+"desirable নয়।"
 
 #: krunnerapp.cpp:127 krunnerdialog.cpp:74
 msgid "Run Command"
@@ -309,145 +428,6 @@ msgstr "Aaron J. Seigo"
 #: main.cpp:54
 msgid "Author and maintainer"
 msgstr "লেখক এবং রক্ষণাবেক্ষণকারী"
-
-#: rc.cpp:1
-msgctxt "NAME OF TRANSLATORS"
-msgid "Your names"
-msgstr "দীপায়ন সরকার"
-
-#: rc.cpp:2
-msgctxt "EMAIL OF TRANSLATORS"
-msgid "Your emails"
-msgstr "deepayan.sarkar@gmail.com"
-
-#. i18n: file: kcfg/krunner.kcfg:13
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:5
-msgid "The interface style to use in KRunner"
-msgstr "কে-রানার-এর জন্য ব্যবহৃত ইন্টারফেস স্টাইল"
-
-#. i18n: file: kcfg/krunner.kcfg:21
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:8
-#, fuzzy
-msgid ""
-"Set to true to show the interface in a freely floating dialog instead of at "
-"the top of the screen"
-msgstr ""
-"স্ক্রীণর চূড়াতে ের পরিবর্তে একটি ভাসমান ডায়ালগ মুক্তভাবেতে ইন্টারফেস দেখেতে সত্যিতে "
-"নিযুক্ত করো"
-
-#. i18n: file: kcfg/krunner.kcfg:26
-#. i18n: ectx: label, entry, group (General)
-#: rc.cpp:11
-#, fuzzy
-msgid "Completion mode used for the query text."
-msgstr "পরিপূরণ মোড অনুসন্ধান লেখার জন্য ব্যবহার করেছিল।"
-
-#. i18n: file: kcfg/krunner.kcfg:31
-#. i18n: ectx: label, entry (PastQueries), group (General)
-#: rc.cpp:14
-#, fuzzy
-msgid "History if past queries successfully completed"
-msgstr "ইতিহাস যদি শেষ অনুসন্ধান সফলভাবে শেষ করেছিল"
-
-#. i18n: file: kcfg/krunner.kcfg:40
-#. i18n: ectx: label, entry (KeepTaskDialogAbove), group (TaskDialog)
-#: rc.cpp:17
-#, fuzzy
-msgid "Whether to keep the tasks dialog above other windows when shown."
-msgstr "কাজ রাখতে উপরে অন্যান্য উইন্ডোজ ডায়ালগো কিনা যখন দেখিয়েছিল।"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:11
-#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:23
-msgid "Enable screen saver"
-msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করো"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:12
-#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: rc.cpp:26
-msgid "Enables the screen saver."
-msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করে।"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:16
-#. i18n: ectx: label, entry, group (ScreenSaver)
-#: rc.cpp:29
-msgid "Screen saver timeout"
-msgstr "স্ক্রীণ সংরক্ষক টাইম-আউট"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:17
-#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
-#: rc.cpp:32
-msgid "Sets the seconds after which the screen saver is started."
-msgstr "কত সেকণ্ড পরে স্ক্রীণ সংরক্ষক শুরু করা হবে।"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:21
-#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:35
-#, fuzzy
-msgid "Suspend screen saver when DPMS kicks in"
-msgstr "Suspend স্ক্রীণ সংরক্ষক যখন ডিপিএমএস তে kickো"
-
-#. i18n: file: kcfg/kscreensaversettings.kcfg:24
-#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: rc.cpp:38
-#, fuzzy
-msgid ""
-"Usually the screen saver is suspended when display power saving kicks in,\n"
-"       as nothing can be seen on the screen anyway, obviously. However, some "
-"screen savers\n"
-"       actually perform useful computations, so it is not desirable to "
-"suspend them."
-msgstr ""
-"স্ক্রীণ সংরক্ষক সাধারণত নিলম্বন করা হয় যখন প্রদর্শন করা অধিকার তে সংরক্ষণ করছে "
-"kickচ্ছে, কিছুইনা হিসেবে\n"
-"স্ক্রীণ, যেকোন উপায়ে obviouslyে দেখা যাবে। উপরন্তু, কিছু স্ক্রীণ সংরক্ষক\n"
-"কার্যকর গণনা প্রকৃতপক্ষে কর্ম সম্পাদন করো, সুতরাং এইটি তাদেরকে নিলম্বন করতে "
-"desirable নয়।"
-
-#. i18n: file: interfaceOptions.ui:17
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: rc.cpp:43
-msgid "Positioning:"
-msgstr "অবস্থান:"
-
-#. i18n: file: interfaceOptions.ui:27
-#. i18n: ectx: property (text), widget (QRadioButton, topEdgeButton)
-#: rc.cpp:46
-msgid "Top edge of screen"
-msgstr "স্ক্রীণের ওপরের কিনারায়"
-
-#. i18n: file: interfaceOptions.ui:37
-#. i18n: ectx: property (text), widget (QRadioButton, freeFloatingButton)
-#: rc.cpp:49
-#, fuzzy
-msgid "Free floating window"
-msgstr "মুক্ত ভাসমান জানালা"
-
-#. i18n: file: interfaceOptions.ui:57
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: rc.cpp:52
-msgid "Style:"
-msgstr "স্টাইল:"
-
-#. i18n: file: interfaceOptions.ui:67
-#. i18n: ectx: property (text), widget (QRadioButton, commandButton)
-#: rc.cpp:55
-msgid "Command oriented"
-msgstr "কমান্ড ভিত্তিক"
-
-#. i18n: file: interfaceOptions.ui:77
-#. i18n: ectx: property (text), widget (QRadioButton, taskButton)
-#: rc.cpp:58
-msgid "Task oriented"
-msgstr "কাজ ভিত্তিক"
-
-#. i18n: file: interfaceOptions.ui:97
-#. i18n: ectx: property (text), widget (QPushButton, previewButton)
-#: rc.cpp:61
-msgid "Preview"
-msgstr "প্রাকদর্শন"
 
 #~ msgid ""
 #~ "_: NAME OF TRANSLATORS\n"
