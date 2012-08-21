@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-20 03:36+0200\n"
+"POT-Creation-Date: 2012-08-21 07:44+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -2525,20 +2525,20 @@ msgstr "&নতুন"
 
 #. i18n: ectx: property (text), widget (QPushButton, helpB)
 #. i18n: ectx: Menu (help)
-#: fitsviewer.rc:30 indi/telescopewizard.ui:54 kstarsui-indi.rc:123
+#: fitsviewer.rc:33 indi/telescopewizard.ui:54 kstarsui-indi.rc:123
 #: kstarsui-win.rc:117 kstarsui.rc:117
 msgid "&Help"
 msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #. i18n: ectx: ToolBar (kstarsToolBar)
-#: fitsviewer.rc:44 kstarsui-indi.rc:138 kstarsui-win.rc:132 kstarsui.rc:132
+#: fitsviewer.rc:47 kstarsui-indi.rc:138 kstarsui-win.rc:132 kstarsui.rc:132
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "মূল টুলবার দেখাও"
 
 #. i18n: ectx: ToolBar (processToolBar)
-#: fitsviewer.rc:55
+#: fitsviewer.rc:58
 msgid "Process ToolBar"
 msgstr "প্রসেস টুলবার"
 
@@ -2571,23 +2571,33 @@ msgstr "মন্তব্য"
 msgid "&Close"
 msgstr "রং"
 
-#: fitsviewer/fitshistogram.cpp:391
+#: fitsviewer/fitshistogram.cpp:470
 msgid "Auto Scale"
 msgstr "স্বয়ংক্রিয় মাত্রা"
 
-#: fitsviewer/fitshistogram.cpp:394
+#: fitsviewer/fitshistogram.cpp:473
 msgid "Linear Scale"
 msgstr "রৈখিক মাত্রা"
 
-#: fitsviewer/fitshistogram.cpp:397
+#: fitsviewer/fitshistogram.cpp:476
 msgid "Logarithmic Scale"
 msgstr "লগারিদম-নির্ভর মাত্রা"
 
-#: fitsviewer/fitshistogram.cpp:400
+#: fitsviewer/fitshistogram.cpp:479
 msgid "Square Root Scale"
 msgstr "বর্গমূলীয় মাত্রা"
 
-#: fitsviewer/fitshistogram.cpp:406
+#: fitsviewer/fitshistogram.cpp:482 fitsviewer/fitsviewer.cpp:149
+#, fuzzy
+#| msgid "Image Filter"
+msgid "Low Pass Filter"
+msgstr "ছবির ফিল্টার"
+
+#: fitsviewer/fitshistogram.cpp:485 fitsviewer/fitsviewer.cpp:153
+msgid "Equalize"
+msgstr ""
+
+#: fitsviewer/fitshistogram.cpp:492
 #: skycomponents/constellationboundarylines.cpp:269
 msgid "Unknown"
 msgstr "অজ্ঞাত"
@@ -2688,11 +2698,11 @@ msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়ে
 msgid "FITS image is saturated and cannot be displayed."
 msgstr ""
 
-#: fitsviewer/fitstab.cpp:53 fitsviewer/fitsviewer.cpp:321
+#: fitsviewer/fitstab.cpp:53 fitsviewer/fitsviewer.cpp:329
 msgid "Save Changes to FITS?"
 msgstr "FITS ফাইলে কৃত পরিবর্তন কি সংরক্ষণ করা হবে?"
 
-#: fitsviewer/fitstab.cpp:54 fitsviewer/fitsviewer.cpp:322
+#: fitsviewer/fitstab.cpp:54 fitsviewer/fitsviewer.cpp:330
 msgid ""
 "The current FITS file has unsaved changes.  Would you like to save before "
 "closing it?"
@@ -2738,30 +2748,30 @@ msgstr "কে-স্টার্স-এর FITS প্রদর্শকের 
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
 
-#: fitsviewer/fitsviewer.cpp:145 fitsviewer/fitsviewer.cpp:439
+#: fitsviewer/fitsviewer.cpp:145 fitsviewer/fitsviewer.cpp:447
 #, fuzzy
 #| msgid "Mars"
 msgid "Mark Stars"
 msgstr "মঙ্গলগ্রহ (মার্স)"
 
-#: fitsviewer/fitsviewer.cpp:152
+#: fitsviewer/fitsviewer.cpp:160
 #, fuzzy
 #| msgid "Welcome to KStars FITS Viewer"
 msgid "KStars FITS Viewer"
 msgstr "কে-স্টার্স-এর FITS প্রদর্শকের পক্ষ থেকে স্বাগতম"
 
-#: fitsviewer/fitsviewer.cpp:176
+#: fitsviewer/fitsviewer.cpp:184
 msgid "Focus"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:222 fitsviewer/fitsviewer.cpp:446
+#: fitsviewer/fitsviewer.cpp:230 fitsviewer/fitsviewer.cpp:454
 #, kde-format
 msgid "%1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] ""
 msgstr[1] ""
 
-#: fitsviewer/fitsviewer.cpp:444
+#: fitsviewer/fitsviewer.cpp:452
 msgid "Unmark Stars"
 msgstr ""
 
@@ -3161,13 +3171,13 @@ msgstr "%1 অনলাইনে আছে।"
 msgid "%1 is online and ready."
 msgstr "%1 অনলাইনে আছে এবং প্রস্তুত রয়েছে।"
 
-#: indi/indistd.cpp:960 indi/servermanager.cpp:73
+#: indi/indistd.cpp:965 indi/servermanager.cpp:73
 #, fuzzy
 #| msgid "Enter import data filename"
 msgid "Error making temporary filename."
 msgstr "যে ফাইল থেকে তথ্য আমদানি করা হবে তার নাম:"
 
-#: indi/indistd.cpp:999
+#: indi/indistd.cpp:1004
 #, kde-format
 msgid "FITS file saved to %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
