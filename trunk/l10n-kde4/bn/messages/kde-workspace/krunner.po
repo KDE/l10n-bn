@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: krunner\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-08-27 04:54+0200\n"
+"POT-Creation-Date: 2012-09-22 05:03+0200\n"
 "PO-Revision-Date: 2010-05-30 11:11-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -178,48 +178,6 @@ msgstr "ইতিহাস যদি শেষ অনুসন্ধান স�
 msgid "Whether to keep the tasks dialog above other windows when shown."
 msgstr "কাজ রাখতে উপরে অন্যান্য উইন্ডোজ ডায়ালগো কিনা যখন দেখিয়েছিল।"
 
-#. i18n: ectx: label, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: kcfg/kscreensaversettings.kcfg:11
-msgid "Enable screen saver"
-msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করো"
-
-#. i18n: ectx: whatsthis, entry (ScreenSaverEnabled), group (ScreenSaver)
-#: kcfg/kscreensaversettings.kcfg:12
-msgid "Enables the screen saver."
-msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করে।"
-
-#. i18n: ectx: label, entry, group (ScreenSaver)
-#: kcfg/kscreensaversettings.kcfg:16
-msgid "Screen saver timeout"
-msgstr "স্ক্রীণ সংরক্ষক টাইম-আউট"
-
-#. i18n: ectx: whatsthis, entry, group (ScreenSaver)
-#: kcfg/kscreensaversettings.kcfg:17
-msgid "Sets the seconds after which the screen saver is started."
-msgstr "কত সেকণ্ড পরে স্ক্রীণ সংরক্ষক শুরু করা হবে।"
-
-#. i18n: ectx: label, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: kcfg/kscreensaversettings.kcfg:21
-#, fuzzy
-msgid "Suspend screen saver when DPMS kicks in"
-msgstr "Suspend স্ক্রীণ সংরক্ষক যখন ডিপিএমএস তে kickো"
-
-#. i18n: ectx: whatsthis, entry (SuspendWhenInvisible), group (ScreenSaver)
-#: kcfg/kscreensaversettings.kcfg:24
-#, fuzzy
-msgid ""
-"Usually the screen saver is suspended when display power saving kicks in,\n"
-"       as nothing can be seen on the screen anyway, obviously. However, some "
-"screen savers\n"
-"       actually perform useful computations, so it is not desirable to "
-"suspend them."
-msgstr ""
-"স্ক্রীণ সংরক্ষক সাধারণত নিলম্বন করা হয় যখন প্রদর্শন করা অধিকার তে সংরক্ষণ করছে "
-"kickচ্ছে, কিছুইনা হিসেবে\n"
-"স্ক্রীণ, যেকোন উপায়ে obviouslyে দেখা যাবে। উপরন্তু, কিছু স্ক্রীণ সংরক্ষক\n"
-"কার্যকর গণনা প্রকৃতপক্ষে কর্ম সম্পাদন করো, সুতরাং এইটি তাদেরকে নিলম্বন করতে "
-"desirable নয়।"
-
 #: krunnerapp.cpp:127
 msgid "Run Command"
 msgstr "কমান্ড চালাও"
@@ -236,11 +194,7 @@ msgstr "সিস্টেম অ্যাকটিভিটি দেখাও"
 msgid "Switch User"
 msgstr "ব্যবহারকারী বদলাও"
 
-#: krunnerapp.cpp:154
-msgid "Lock Session"
-msgstr "সেশন লক করো"
-
-#: krunnerapp.cpp:194
+#: krunnerapp.cpp:183
 #, kde-format
 msgctxt "Run krunner restricting the search only to runner %1"
 msgid "Run Command (runner \"%1\" only)"
@@ -257,184 +211,184 @@ msgstr "কমান্ড চালাও"
 msgid "System Activity"
 msgstr "সিস্টেম অ্যাকটিভিটি"
 
-#: lock/autologout.cc:38
-msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
-msgstr "<qt><nobr><b>স্বয়ংক্রিয় লগ-আউট</b></nobr></qt>"
-
-#: lock/autologout.cc:39
-#, fuzzy
-msgid ""
-"<qt>To prevent being logged out, resume using this session by moving the "
-"mouse or pressing a key.</qt>"
-msgstr ""
-"<qt>প্রতিরোধ কর হতে মাউস অথবা pressing একটি চাবি চলার মধ্যে এই সেশনটি ব্যবহার "
-"করে logged বাইরে, পুনরায় আরম্ভ।</qt>"
-
-#: lock/autologout.cc:44
-msgid "Time Remaining:"
-msgstr "অবশিষ্ট সময়:"
-
-#: lock/autologout.cc:77
-#, fuzzy, kde-format
-msgid "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
-msgid_plural ""
-"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
-msgstr[0] ""
-"<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
-msgstr[1] ""
-"<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
-
-#: lock/lockdlg.cc:100
-msgid "<nobr><b>The session is locked</b></nobr><br />"
-msgstr "<nobr><b>সেশন লক করা রয়েছে</b></nobr><br />"
-
-#: lock/lockdlg.cc:101
-#, kde-format
-msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
-msgstr "<nobr><b>সেশন %1 দ্বারা লক করা হয়েছিল</b></nobr><br />"
-
-#: lock/lockdlg.cc:114
-msgid "Unl&ock"
-msgstr "&আনলক করো"
-
-#: lock/lockdlg.cc:116
-msgid "Sw&itch User..."
-msgstr "ব্যবহারকারী &বদলাও..."
-
-#: lock/lockdlg.cc:187
-msgid "<b>Unlocking failed</b>"
-msgstr "<b>আনলক করা ব্যর্থ</b>"
-
-#: lock/lockdlg.cc:195
-msgid "<b>Warning: Caps Lock on</b>"
-msgstr "<b>সাবধান: Caps Lock সক্রিয়</b>"
-
-#: lock/lockdlg.cc:432
-#, fuzzy, kde-format
-msgid ""
-"Cannot unlock the session because the authentication system failed to work;\n"
-"you must kill kscreenlocker (pid %1) manually."
-msgstr ""
-"সেশন কি আনলক করতে পারে না কারণ পরিচয় প্রমাণ প্রঅ্যাকশন সিস্টেম কাজ করতে ব্যর্থ "
-"হয়েছিল;\n"
-"আপনার kscreenlocker হত্যা করা উচিত (পি-আই-ডি %1) নিজহাতে।"
-
-#: lock/lockdlg.cc:520
-msgid "&Start New Session"
-msgstr "&নতুন সেশন আরম্ভ করো"
-
-#: lock/lockdlg.cc:528
-#, fuzzy, kde-format
-msgid ""
-"You have chosen to open another desktop session instead of resuming the "
-"current one.\n"
-"The current session will be hidden and a new login screen will be "
-"displayed.\n"
-"An F-key is assigned to each session; F%1 is usually assigned to the first "
-"session, F%2 to the second session and so on. You can switch between "
-"sessions by pressing Ctrl, Alt and the appropriate F-key at the same time. "
-"Additionally, the KDE Panel and Desktop menus have actions for switching "
-"between sessions."
-msgstr ""
-"আপনি বর্তমান এক পুনরায় শুরু করার পরিবর্তে অন্য একটি ডেস্কটপ সেশন খুলতে বেছে "
-"নিয়েছেন।\n"
-"বর্তমান সেশন গোপন করা হবে এবং একটি নতুন লগিন স্ক্রীণ প্রদর্শন করা হবে।\n"
-"একটি F-key প্রত্যেক সেশনে বরাদ্দ করা হয়; F%1 দ্বিতীয় সেশন এবংতে প্রথম সেশন, F%2তে "
-"সাধারণত বরাদ্দ করা হয়ে সুতরাং। আপনি একই সময়ে Ctrl, Alt এবং উপযুক্ত F-key চাপ "
-"দেওয়ার মধ্যে সেশনের মধ্যে পরিবর্তন করতে পারেন।, কেডিই প্যানেল এবং ডেস্কটপ মেনু "
-"অতিরিক্তভাবের সেশনের মধ্যে পরিবর্তন করার জন্য অ্যাকশন রয়েছে।"
-
-#: lock/lockdlg.cc:541
-msgid "&Do not ask again"
-msgstr "&আর জিজ্ঞাসা করার প্রয়োজন নেই"
-
-#: lock/lockdlg.cc:597
-msgid "Session"
-msgstr "সেশন"
-
-#: lock/lockdlg.cc:597
-msgid "Location"
-msgstr "অবস্থান"
-
-#: lock/lockdlg.cc:625
-msgctxt "session"
-msgid "&Activate"
-msgstr "&সক্রিয় করো"
-
-#: lock/lockdlg.cc:634
-msgid "Start &New Session"
-msgstr "&নতুন সেশন শুরু করো"
-
-#: lock/lockprocess.cc:834
-msgid "Will not lock the session, as unlocking would be impossible:\n"
-msgstr "সেশন ‌লক করা হবে না, কারণ করলে আনলক করা অসম্ভব হবে:\n"
-
-#: lock/lockprocess.cc:838
-msgid "Cannot start <i>kcheckpass</i>."
-msgstr "<i>kcheckpass</i> চালু করা যায়নি।"
-
-#: lock/lockprocess.cc:839
-#, fuzzy
-msgid "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
-msgstr "<i>kcheckpass</i>পরিচালনা করতে অক্ষম। এইটি সম্ভবত setuid মূল নয়।"
-
-#: lock/lockprocess.cc:902
-msgid "No appropriate greeter plugin configured."
-msgstr "কোনও উপযুক্ত greeter প্লাগিন কনফিগার করা হয়নি।"
-
-#: lock/main.cc:61
-msgid "KDE Screen Locker"
-msgstr "কে.ডি.ই. স্ক্রীন লকার"
-
-#: lock/main.cc:62
-msgid "Session Locker for KDE Workspace"
-msgstr "কে.ডি.ই. ওয়ার্কস্পেসের জন্য সেশন লকার"
-
-#: lock/main.cc:65
-#, fuzzy
-msgid "Force session locking"
-msgstr "বল সেশন লক করা হচ্ছে"
-
-#: lock/main.cc:66
-msgid "Only start screen saver"
-msgstr "শুধু স্ক্রীন সংরক্ষক শুরু করো"
-
-#: lock/main.cc:67
-msgid "Immediately show the unlock dialog"
-msgstr ""
-
-#: lock/main.cc:68
-msgid "Only use the blank screen saver"
-msgstr "শুধু ফাঁকা স্ক্রীণ সংরক্ষক ব্যবহার করো"
-
-#: lock/main.cc:69
-#, fuzzy
-msgid "start with plasma unlocked for configuring"
-msgstr "কনফিগার করা হচ্ছেওয়ার জন্য plasmaএর সঙ্গে শুরু করেছিলেন আনলক করেছিলেন"
-
-#: lock/main.cc:70
-msgid "Fork into the background after starting up"
-msgstr ""
-
-#: main.cpp:38
+#: main.cpp:36
 msgid "KDE run command interface"
 msgstr "কে.ডি.ই. কমান্ড চালাও ইন্টারফেস"
 
-#: main.cpp:50
+#: main.cpp:48
 msgid "Run Command Interface"
 msgstr "কমান্ড চালাও ইন্টারফেস"
 
-#: main.cpp:52
+#: main.cpp:50
 msgid "(c) 2006, Aaron Seigo"
 msgstr "(c) 2006, Aaron Seigo"
 
-#: main.cpp:53
+#: main.cpp:51
 msgid "Aaron J. Seigo"
 msgstr "Aaron J. Seigo"
 
-#: main.cpp:54
+#: main.cpp:52
 msgid "Author and maintainer"
 msgstr "লেখক এবং রক্ষণাবেক্ষণকারী"
+
+#~ msgid "Enable screen saver"
+#~ msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করো"
+
+#~ msgid "Enables the screen saver."
+#~ msgstr "স্ক্রীণ সংরক্ষক সক্রিয় করে।"
+
+#~ msgid "Screen saver timeout"
+#~ msgstr "স্ক্রীণ সংরক্ষক টাইম-আউট"
+
+#~ msgid "Sets the seconds after which the screen saver is started."
+#~ msgstr "কত সেকণ্ড পরে স্ক্রীণ সংরক্ষক শুরু করা হবে।"
+
+#, fuzzy
+#~ msgid "Suspend screen saver when DPMS kicks in"
+#~ msgstr "Suspend স্ক্রীণ সংরক্ষক যখন ডিপিএমএস তে kickো"
+
+#, fuzzy
+#~ msgid ""
+#~ "Usually the screen saver is suspended when display power saving kicks "
+#~ "in,\n"
+#~ "       as nothing can be seen on the screen anyway, obviously. However, "
+#~ "some screen savers\n"
+#~ "       actually perform useful computations, so it is not desirable to "
+#~ "suspend them."
+#~ msgstr ""
+#~ "স্ক্রীণ সংরক্ষক সাধারণত নিলম্বন করা হয় যখন প্রদর্শন করা অধিকার তে সংরক্ষণ করছে "
+#~ "kickচ্ছে, কিছুইনা হিসেবে\n"
+#~ "স্ক্রীণ, যেকোন উপায়ে obviouslyে দেখা যাবে। উপরন্তু, কিছু স্ক্রীণ সংরক্ষক\n"
+#~ "কার্যকর গণনা প্রকৃতপক্ষে কর্ম সম্পাদন করো, সুতরাং এইটি তাদেরকে নিলম্বন করতে "
+#~ "desirable নয়।"
+
+#~ msgid "Lock Session"
+#~ msgstr "সেশন লক করো"
+
+#~ msgid "<qt><nobr><b>Automatic Log Out</b></nobr></qt>"
+#~ msgstr "<qt><nobr><b>স্বয়ংক্রিয় লগ-আউট</b></nobr></qt>"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt>To prevent being logged out, resume using this session by moving the "
+#~ "mouse or pressing a key.</qt>"
+#~ msgstr ""
+#~ "<qt>প্রতিরোধ কর হতে মাউস অথবা pressing একটি চাবি চলার মধ্যে এই সেশনটি "
+#~ "ব্যবহার করে logged বাইরে, পুনরায় আরম্ভ।</qt>"
+
+#~ msgid "Time Remaining:"
+#~ msgstr "অবশিষ্ট সময়:"
+
+#, fuzzy
+#~ msgid ""
+#~ "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+#~ msgid_plural ""
+#~ "<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+#~ msgstr[0] ""
+#~ "<qt><nobr>You will be automatically logged out in 1 second</nobr></qt>"
+#~ msgstr[1] ""
+#~ "<qt><nobr>You will be automatically logged out in %1 seconds</nobr></qt>"
+
+#~ msgid "<nobr><b>The session is locked</b></nobr><br />"
+#~ msgstr "<nobr><b>সেশন লক করা রয়েছে</b></nobr><br />"
+
+#~ msgid "<nobr><b>The session was locked by %1</b></nobr><br />"
+#~ msgstr "<nobr><b>সেশন %1 দ্বারা লক করা হয়েছিল</b></nobr><br />"
+
+#~ msgid "Unl&ock"
+#~ msgstr "&আনলক করো"
+
+#~ msgid "Sw&itch User..."
+#~ msgstr "ব্যবহারকারী &বদলাও..."
+
+#~ msgid "<b>Unlocking failed</b>"
+#~ msgstr "<b>আনলক করা ব্যর্থ</b>"
+
+#~ msgid "<b>Warning: Caps Lock on</b>"
+#~ msgstr "<b>সাবধান: Caps Lock সক্রিয়</b>"
+
+#, fuzzy
+#~ msgid ""
+#~ "Cannot unlock the session because the authentication system failed to "
+#~ "work;\n"
+#~ "you must kill kscreenlocker (pid %1) manually."
+#~ msgstr ""
+#~ "সেশন কি আনলক করতে পারে না কারণ পরিচয় প্রমাণ প্রঅ্যাকশন সিস্টেম কাজ করতে ব্যর্থ "
+#~ "হয়েছিল;\n"
+#~ "আপনার kscreenlocker হত্যা করা উচিত (পি-আই-ডি %1) নিজহাতে।"
+
+#~ msgid "&Start New Session"
+#~ msgstr "&নতুন সেশন আরম্ভ করো"
+
+#, fuzzy
+#~ msgid ""
+#~ "You have chosen to open another desktop session instead of resuming the "
+#~ "current one.\n"
+#~ "The current session will be hidden and a new login screen will be "
+#~ "displayed.\n"
+#~ "An F-key is assigned to each session; F%1 is usually assigned to the "
+#~ "first session, F%2 to the second session and so on. You can switch "
+#~ "between sessions by pressing Ctrl, Alt and the appropriate F-key at the "
+#~ "same time. Additionally, the KDE Panel and Desktop menus have actions for "
+#~ "switching between sessions."
+#~ msgstr ""
+#~ "আপনি বর্তমান এক পুনরায় শুরু করার পরিবর্তে অন্য একটি ডেস্কটপ সেশন খুলতে বেছে "
+#~ "নিয়েছেন।\n"
+#~ "বর্তমান সেশন গোপন করা হবে এবং একটি নতুন লগিন স্ক্রীণ প্রদর্শন করা হবে।\n"
+#~ "একটি F-key প্রত্যেক সেশনে বরাদ্দ করা হয়; F%1 দ্বিতীয় সেশন এবংতে প্রথম সেশন, F"
+#~ "%2তে সাধারণত বরাদ্দ করা হয়ে সুতরাং। আপনি একই সময়ে Ctrl, Alt এবং উপযুক্ত F-key "
+#~ "চাপ দেওয়ার মধ্যে সেশনের মধ্যে পরিবর্তন করতে পারেন।, কেডিই প্যানেল এবং ডেস্কটপ "
+#~ "মেনু অতিরিক্তভাবের সেশনের মধ্যে পরিবর্তন করার জন্য অ্যাকশন রয়েছে।"
+
+#~ msgid "&Do not ask again"
+#~ msgstr "&আর জিজ্ঞাসা করার প্রয়োজন নেই"
+
+#~ msgid "Session"
+#~ msgstr "সেশন"
+
+#~ msgid "Location"
+#~ msgstr "অবস্থান"
+
+#~ msgctxt "session"
+#~ msgid "&Activate"
+#~ msgstr "&সক্রিয় করো"
+
+#~ msgid "Start &New Session"
+#~ msgstr "&নতুন সেশন শুরু করো"
+
+#~ msgid "Will not lock the session, as unlocking would be impossible:\n"
+#~ msgstr "সেশন ‌লক করা হবে না, কারণ করলে আনলক করা অসম্ভব হবে:\n"
+
+#~ msgid "Cannot start <i>kcheckpass</i>."
+#~ msgstr "<i>kcheckpass</i> চালু করা যায়নি।"
+
+#, fuzzy
+#~ msgid ""
+#~ "<i>kcheckpass</i> is unable to operate. Possibly it is not setuid root."
+#~ msgstr "<i>kcheckpass</i>পরিচালনা করতে অক্ষম। এইটি সম্ভবত setuid মূল নয়।"
+
+#~ msgid "No appropriate greeter plugin configured."
+#~ msgstr "কোনও উপযুক্ত greeter প্লাগিন কনফিগার করা হয়নি।"
+
+#~ msgid "KDE Screen Locker"
+#~ msgstr "কে.ডি.ই. স্ক্রীন লকার"
+
+#~ msgid "Session Locker for KDE Workspace"
+#~ msgstr "কে.ডি.ই. ওয়ার্কস্পেসের জন্য সেশন লকার"
+
+#, fuzzy
+#~ msgid "Force session locking"
+#~ msgstr "বল সেশন লক করা হচ্ছে"
+
+#~ msgid "Only start screen saver"
+#~ msgstr "শুধু স্ক্রীন সংরক্ষক শুরু করো"
+
+#~ msgid "Only use the blank screen saver"
+#~ msgstr "শুধু ফাঁকা স্ক্রীণ সংরক্ষক ব্যবহার করো"
+
+#, fuzzy
+#~ msgid "start with plasma unlocked for configuring"
+#~ msgstr "কনফিগার করা হচ্ছেওয়ার জন্য plasmaএর সঙ্গে শুরু করেছিলেন আনলক করেছিলেন"
 
 #~ msgid ""
 #~ "_: NAME OF TRANSLATORS\n"
