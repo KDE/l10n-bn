@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-05 04:41+0200\n"
+"POT-Creation-Date: 2012-10-06 04:51+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -224,7 +224,7 @@ msgstr ""
 "সুতরাং বিন্যাস সংরক্ষণ করা সম্ভব হচ্ছে না।"
 
 #: colorscheme.cpp:233 colorscheme.cpp:248 dialogs/locationdialog.cpp:265
-#: indi/drivermanager.cpp:1310 indi/indidriver.cpp:936 kstarsactions.cpp:652
+#: indi/drivermanager.cpp:1315 indi/indidriver.cpp:936 kstarsactions.cpp:652
 #: oal/execute.cpp:278 options/opscolors.cpp:199 skymap.cpp:1093
 #: tools/modcalcaltaz.cpp:238 tools/modcalcangdist.cpp:128
 #: tools/modcalcapcoord.cpp:151 tools/modcalcdaylength.cpp:246
@@ -785,7 +785,7 @@ msgstr "লিঙ্ক সম্পাদন করো"
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "আপনি কি %1 লিঙ্কটি অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: dialogs/detaildialog.cpp:804 indi/drivermanager.cpp:1288
+#: dialogs/detaildialog.cpp:804 indi/drivermanager.cpp:1293
 #: indi/indidriver.cpp:912
 msgid "Delete Confirmation"
 msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
@@ -2685,7 +2685,7 @@ msgstr "ছবি ধারণ করো"
 msgid "Capturing image..."
 msgstr "ছবি লোড করা হচ্ছে..."
 
-#: ekos/capture.cpp:400 ekos/ekosmanager.cpp:629 ekos/focus.cpp:688
+#: ekos/capture.cpp:400 ekos/ekosmanager.cpp:646 ekos/focus.cpp:688
 #: ekos/guide.cpp:58 ekos/guide.cpp:59 ekos/guide.cpp:228
 #: fitsviewer/fitsviewer.cpp:159
 #, kde-format
@@ -2693,7 +2693,7 @@ msgid "%1"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, setupGroup_3)
-#: ekos/capture.ui:31 ekos/ekosmanager.cpp:658
+#: ekos/capture.ui:31 ekos/ekosmanager.cpp:675
 #, fuzzy
 msgid "CCD"
 msgstr "সি.সি.ডি.বি."
@@ -2900,17 +2900,21 @@ msgstr "এর"
 msgid "completed"
 msgstr "সম্পন্ন"
 
-#: ekos/ekosmanager.cpp:313
+#: ekos/ekosmanager.cpp:296
+msgid "Ekos requires at least one CCD or Guider to operate."
+msgstr ""
+
+#: ekos/ekosmanager.cpp:320
 #, fuzzy
 #| msgid "INDI"
 msgid "Stop INDI"
 msgstr "INDI"
 
-#: ekos/ekosmanager.cpp:315
+#: ekos/ekosmanager.cpp:322
 msgid "INDI services started. Please connect devices."
 msgstr ""
 
-#: ekos/ekosmanager.cpp:357
+#: ekos/ekosmanager.cpp:359
 #, fuzzy
 #| msgid "Configure INDI..."
 msgid "Connecting INDI devices..."
@@ -2931,29 +2935,29 @@ msgstr "আরম্ভ"
 msgid "INDI services stopped."
 msgstr ""
 
-#: ekos/ekosmanager.cpp:490 ekos/ekosmanager.cpp:502 ekos/ekosmanager.cpp:509
-#: ekos/ekosmanager.cpp:535 ekos/ekosmanager.cpp:553 indi/indistd.cpp:331
+#: ekos/ekosmanager.cpp:507 ekos/ekosmanager.cpp:519 ekos/ekosmanager.cpp:526
+#: ekos/ekosmanager.cpp:552 ekos/ekosmanager.cpp:570 indi/indistd.cpp:331
 #, kde-format
 msgid "%1 is online."
 msgstr "%1 অনলাইনে আছে।"
 
-#: ekos/ekosmanager.cpp:574
+#: ekos/ekosmanager.cpp:591
 #, fuzzy, kde-format
 #| msgid "%1 is online."
 msgid "%1 is offline."
 msgstr "%1 অনলাইনে আছে।"
 
-#: ekos/ekosmanager.cpp:669 fitsviewer/fitsviewer.cpp:220
+#: ekos/ekosmanager.cpp:686 fitsviewer/fitsviewer.cpp:220
 msgid "Focus"
 msgstr ""
 
-#: ekos/ekosmanager.cpp:682 fitsviewer/fitsviewer.cpp:224
+#: ekos/ekosmanager.cpp:699 fitsviewer/fitsviewer.cpp:224
 #, fuzzy
 #| msgid "Guides"
 msgid "Guide"
 msgstr "নির্দেশিকা"
 
-#: ekos/ekosmanager.cpp:689
+#: ekos/ekosmanager.cpp:706
 #, kde-format
 msgid "Guider port from %1 is ready."
 msgstr ""
@@ -3772,35 +3776,35 @@ msgstr "INDI সার্ভার চালু করা যাচ্ছে ন
 msgid "Connection to INDI server locally on port %1 failed."
 msgstr ""
 
-#: indi/drivermanager.cpp:549 indi/indidriver.cpp:308
+#: indi/drivermanager.cpp:554 indi/indidriver.cpp:308
 #, fuzzy, kde-format
 #| msgid "Invalid file: %1"
 msgid "Invalid port entry: %1"
 msgstr "অবৈধ ফাইল: %1"
 
-#: indi/drivermanager.cpp:575
+#: indi/drivermanager.cpp:580
 #, kde-format
 msgid "Connection to INDI host at %1 on port %2 lost. Server disconnected."
 msgstr ""
 
-#: indi/drivermanager.cpp:610
+#: indi/drivermanager.cpp:615
 #, kde-format
 msgid "Connection to INDI host at %1 on port %2 encountered an error: %3."
 msgstr ""
 
-#: indi/drivermanager.cpp:685
+#: indi/drivermanager.cpp:690
 #, kde-format
 msgid "Connection to INDI server at host %1 with port %2 failed."
 msgstr ""
 
-#: indi/drivermanager.cpp:875 indi/indidriver.cpp:498
+#: indi/drivermanager.cpp:880 indi/indidriver.cpp:498
 #, kde-format
 msgid ""
 "Unable to find INDI Drivers directory: %1\n"
 "Please make sure to set the correct path in KStars configuration"
 msgstr ""
 
-#: indi/drivermanager.cpp:916 indi/indidriver.cpp:539
+#: indi/drivermanager.cpp:921 indi/indidriver.cpp:539
 #, fuzzy, kde-format
 #| msgid "Could not open file: %1"
 msgid "Failed to open INDI Driver file: %1"
@@ -3808,39 +3812,39 @@ msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
 #. i18n: ectx: property (text), widget (KPushButton, NoneButton)
 #. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
-#: indi/drivermanager.cpp:1136 indi/indidriver.cpp:750
+#: indi/drivermanager.cpp:1141 indi/indidriver.cpp:750
 #: oal/equipmentwriter.ui:197 oal/log.cpp:255 oal/log.cpp:687
 #: tools/obslistwizard.ui:147
 msgid "None"
 msgstr "একটিও নয়"
 
-#: indi/drivermanager.cpp:1189 indi/indidriver.cpp:810
+#: indi/drivermanager.cpp:1194 indi/indidriver.cpp:810
 msgid "Add Host"
 msgstr "হোস্ট যোগ করো"
 
-#: indi/drivermanager.cpp:1200 indi/indidriver.cpp:826
+#: indi/drivermanager.cpp:1205 indi/indidriver.cpp:826
 msgid "Error: the port number is invalid."
 msgstr "সমস্যা: অবৈধ পোর্ট নম্বর।"
 
-#: indi/drivermanager.cpp:1212 indi/indidriver.cpp:836
+#: indi/drivermanager.cpp:1217 indi/indidriver.cpp:836
 #, kde-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "হোস্ট: %1 পোর্ট: %2 ইতিমধ্যেই বিদ্যমান।"
 
-#: indi/drivermanager.cpp:1237 indi/indidriver.cpp:861
+#: indi/drivermanager.cpp:1242 indi/indidriver.cpp:861
 msgid "Modify Host"
 msgstr "হোস্ট পরিবর্তন করো"
 
-#: indi/drivermanager.cpp:1284 indi/indidriver.cpp:908
+#: indi/drivermanager.cpp:1289 indi/indidriver.cpp:908
 msgid "You need to disconnect the client before removing it."
 msgstr "ক্লায়েন্টকে অপসারণের পূর্বে তার সংযোগ বিচ্ছিন্ন করতে হবে।"
 
-#: indi/drivermanager.cpp:1288 indi/indidriver.cpp:912
+#: indi/drivermanager.cpp:1293 indi/indidriver.cpp:912
 #, kde-format
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "আপনি কি %1 ক্লায়েন্টকে অপসারণের ব্যাপারে নিশ্চিত?"
 
-#: indi/drivermanager.cpp:1309 indi/indidriver.cpp:935
+#: indi/drivermanager.cpp:1314 indi/indidriver.cpp:935
 msgid ""
 "unable to write to file 'indihosts.xml'\n"
 "Any changes to INDI hosts configurations will not be saved."
