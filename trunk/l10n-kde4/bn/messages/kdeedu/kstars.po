@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-06 04:51+0200\n"
+"POT-Creation-Date: 2012-10-07 04:28+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -106,7 +106,8 @@ msgstr "বিষুবরেখা"
 msgid "Ecliptic"
 msgstr "সূর্যপথ"
 
-#: colorscheme.cpp:64 skycomponents/horizoncomponent.cpp:119
+#: colorscheme.cpp:64 projections/equirectangularprojector.cpp:158
+#: projections/projector.cpp:257 skycomponents/horizoncomponent.cpp:119
 msgid "Horizon"
 msgstr "দিগন্ত"
 
@@ -384,14 +385,14 @@ msgstr "%1-এর প্রাকদর্শন"
 msgid "Catalog Preview"
 msgstr "ক্যাটালগ-এর প্রাকদর্শন"
 
-#: dialogs/addcatdialog.cpp:211 fitsviewer/fitstab.cpp:247 imageviewer.cpp:240
+#: dialogs/addcatdialog.cpp:211 fitsviewer/fitstab.cpp:252 imageviewer.cpp:240
 #: kstarsactions.cpp:575 printing/pwizprint.cpp:81
 #: tools/scriptbuilder.cpp:1042
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr "\"%1\" নামে একটি ফাইল ইতিমধ্যেই বিদ্যমান।  সেটির ওপর দিয়েই কি লেখা হবে?"
 
-#: dialogs/addcatdialog.cpp:213 fitsviewer/fitstab.cpp:249 imageviewer.cpp:242
+#: dialogs/addcatdialog.cpp:213 fitsviewer/fitstab.cpp:254 imageviewer.cpp:242
 #: kstarsactions.cpp:576 printing/pwizprint.cpp:82
 #: tools/scriptbuilder.cpp:1044
 msgid "Overwrite File?"
@@ -519,7 +520,7 @@ msgstr ""
 "ইউ.আর.এল.-টি বৈধ নয়।  আপনি কি গুগল অনুসন্ধান ইঞ্জিন ব্যবহারের জন্য একটি ব্রাউজার "
 "উইন্ডো খুলতে চান?"
 
-#: dialogs/addlinkdialog.cpp:53 fitsviewer/fitstab.cpp:273
+#: dialogs/addlinkdialog.cpp:53 fitsviewer/fitstab.cpp:278
 #: indi/streamwg.cpp:186 tools/scriptbuilder.cpp:1005
 #: tools/scriptbuilder.cpp:1081
 msgid "Invalid URL"
@@ -562,9 +563,9 @@ msgstr "ঋতু সংক্রান্ত তথ্য"
 msgid "Text describing the linked resource"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
 #. i18n: ectx: property (text), widget (QLabel, DescLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
+#. i18n: ectx: property (text), widget (QLabel, descriptionLabel)
 #: dialogs/addlinkdialog.ui:66 oal/execute.ui:439
 #: printing/foveditordialog.ui:129 printing/pwizchartconfig.ui:165
 msgid "Description:"
@@ -602,8 +603,8 @@ msgstr "ইউ.আর.এল. পরীক্ষা করো"
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
-#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, generalGroup)
+#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabGeneral)
 #: dialogs/detaildialog.cpp:101 indi/opsindi.ui:16
 #: printing/detailstable.cpp:333 xplanet/opsxplanet.ui:21
 msgid "General"
@@ -657,10 +658,10 @@ msgstr "বিষম তারা"
 msgid "G5 star"
 msgstr "জি৫ তারা"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPluto)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Pluto)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPluto)
 #: dialogs/detaildialog.cpp:197 options/opssolarsystem.ui:90
 #: printing/detailstable.cpp:160 printing/pwizobjectselection.cpp:138
 #: skycomponents/skymapcomposite.cpp:462 skymapdrawabstract.cpp:156
@@ -984,8 +985,8 @@ msgstr "শ্যামপেইন"
 msgid "Albedo:"
 msgstr "বকমুখ"
 
-#. i18n: ectx: property (text), widget (KLineEdit, AltGeoBox)
 #. i18n: ectx: property (text), widget (QLabel, Albedo)
+#. i18n: ectx: property (text), widget (KLineEdit, AltGeoBox)
 #: dialogs/details_data_comet.ui:218 tools/modcalcgeod.ui:257
 msgid "0.0"
 msgstr "০.০"
@@ -1075,7 +1076,6 @@ msgstr "বিস্তারিত - অবস্থানসূচক তথ�
 msgid "Coordinates"
 msgstr "সমস্যাযুক্ত স্থানাংক"
 
-#. i18n: ectx: property (text), widget (QLabel, AngDist)
 #. i18n: ectx: property (text), widget (QLabel, Dec)
 #. i18n: ectx: property (text), widget (QLabel, Az)
 #. i18n: ectx: property (text), widget (QLabel, RA)
@@ -1086,6 +1086,7 @@ msgstr "সমস্যাযুক্ত স্থানাংক"
 #. i18n: ectx: property (text), widget (QLabel, AzRise)
 #. i18n: ectx: property (text), widget (QLabel, AltTransit)
 #. i18n: ectx: property (text), widget (QLabel, AzSet)
+#. i18n: ectx: property (text), widget (QLabel, AngDist)
 #: dialogs/details_position.ui:101 dialogs/details_position.ui:119
 #: dialogs/details_position.ui:197 dialogs/details_position.ui:293
 #: dialogs/details_position.ui:311 dialogs/details_position.ui:403
@@ -1109,10 +1110,10 @@ msgstr "বিষুবলম্ব (২০০০.০):"
 msgid "skycoords"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, azLabel)
-#. i18n: ectx: property (text), widget (QCheckBox, azCheckBatch)
 #. i18n: ectx: property (text), widget (KSHelpLabel, AzLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_23)
+#. i18n: ectx: property (text), widget (QLabel, azLabel)
+#. i18n: ectx: property (text), widget (QCheckBox, azCheckBatch)
 #: dialogs/details_position.ui:170 oal/execute.ui:263
 #: printing/detailstable.cpp:564 tools/modcalcaltaz.ui:248
 #: tools/modcalcaltaz.ui:502
@@ -1135,10 +1136,10 @@ msgstr "বায়বীয় ভর:"
 msgid "0.00"
 msgstr "০.০"
 
-#. i18n: ectx: property (text), widget (QLabel, elLabel)
-#. i18n: ectx: property (text), widget (QCheckBox, elCheckBatch)
 #. i18n: ectx: property (text), widget (KSHelpLabel, AltLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_21)
+#. i18n: ectx: property (text), widget (QLabel, elLabel)
+#. i18n: ectx: property (text), widget (QCheckBox, elCheckBatch)
 #: dialogs/details_position.ui:266 oal/execute.ui:249
 #: printing/detailstable.cpp:568 tools/modcalcaltaz.ui:255
 #: tools/modcalcaltaz.ui:492
@@ -1199,6 +1200,9 @@ msgstr "অতিক্রম কাল:"
 msgid "Rise time:"
 msgstr "উদয়ের সময়:"
 
+#. i18n: ectx: property (text), widget (QLabel, TimeRise)
+#. i18n: ectx: property (text), widget (QLabel, TimeTransit)
+#. i18n: ectx: property (text), widget (QLabel, TimeSet)
 #. i18n: ectx: property (text), widget (QLabel, SunTransitAlt)
 #. i18n: ectx: property (text), widget (QLabel, DayLength)
 #. i18n: ectx: property (text), widget (QLabel, SunRiseAz)
@@ -1212,9 +1216,6 @@ msgstr "উদয়ের সময়:"
 #. i18n: ectx: property (text), widget (QLabel, MoonSetAz)
 #. i18n: ectx: property (text), widget (QLabel, MoonTransitAlt)
 #. i18n: ectx: property (text), widget (QLabel, MoonTransit)
-#. i18n: ectx: property (text), widget (QLabel, TimeRise)
-#. i18n: ectx: property (text), widget (QLabel, TimeTransit)
-#. i18n: ectx: property (text), widget (QLabel, TimeSet)
 #: dialogs/details_position.ui:624 dialogs/details_position.ui:642
 #: dialogs/details_position.ui:660 tools/modcalcdaylength.ui:160
 #: tools/modcalcdaylength.ui:197 tools/modcalcdaylength.ui:276
@@ -1307,16 +1308,16 @@ msgstr "দিগন্ত"
 msgid "Vertical"
 msgstr "দৃষ্টিসংক্রান্ত"
 
+#: dialogs/exportimagedialog.cpp:262
+msgid "Full legend"
+msgstr ""
+
 #: dialogs/exportimagedialog.cpp:262 printing/pwizfovconfig.cpp:65
 msgid "Scale with magnitudes chart"
 msgstr ""
 
 #: dialogs/exportimagedialog.cpp:262 printing/pwizfovconfig.cpp:65
 msgid "Only scale"
-msgstr ""
-
-#: dialogs/exportimagedialog.cpp:262
-msgid "Full legend"
 msgstr ""
 
 #: dialogs/exportimagedialog.cpp:263
@@ -1423,8 +1424,8 @@ msgstr "গ্রহ নীহারিকা"
 msgid "Galaxies"
 msgstr "ছায়াপথ"
 
-#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowComets)
+#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #: dialogs/finddialog.cpp:44 options/opssolarsystem.ui:375
 #: tools/conjunctions.cpp:76 tools/obslistwizard.cpp:235
 #: tools/obslistwizard.cpp:347 tools/obslistwizard.cpp:661
@@ -1432,8 +1433,8 @@ msgstr "ছায়াপথ"
 msgid "Comets"
 msgstr "ধূমকেতু"
 
-#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAsteroids)
+#. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #: dialogs/finddialog.cpp:45 options/opssolarsystem.ui:265
 #: tools/conjunctions.cpp:77 tools/obslistwizard.cpp:236
 #: tools/obslistwizard.cpp:349 tools/obslistwizard.cpp:673
@@ -1999,30 +2000,31 @@ msgstr "অনুসন্ধানে ব্যবহৃত শর্তাব�
 msgid "View/Edit Location Data"
 msgstr "অবস্থান ও তারিখ"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, NewCityLabel)
 #. i18n: ectx: property (text), widget (QLabel, CityLabel)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: dialogs/locationdialog.ui:182 dialogs/wizlocation.ui:129
 #: tools/argsetgeolocation.ui:63
 msgid "City:"
 msgstr "শহর:"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, NewProvinceLabel)
 #. i18n: ectx: property (text), widget (QLabel, ProvinceLabel)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: dialogs/locationdialog.ui:199 dialogs/wizlocation.ui:136
 #: tools/argsetgeolocation.ui:46
 msgid "Province:"
 msgstr "প্রদেশ:"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
 #. i18n: ectx: property (text), widget (QLabel, NewCountryLabel)
 #. i18n: ectx: property (text), widget (QLabel, CountryLabel)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
 #: dialogs/locationdialog.ui:206 dialogs/wizlocation.ui:115
 #: tools/argsetgeolocation.ui:70
 msgid "Country:"
 msgstr "দেশ:"
 
+#. i18n: ectx: property (text), widget (QLabel, LongLabel)
 #. i18n: ectx: property (text), widget (QCheckBox, longCheckBatch)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, LongGeoLabel)
@@ -2030,7 +2032,6 @@ msgstr "দেশ:"
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #. i18n: ectx: property (text), widget (QLabel, label_13)
 #. i18n: ectx: property (text), widget (QCheckBox, LongCheckBatch)
-#. i18n: ectx: property (text), widget (QLabel, LongLabel)
 #: dialogs/locationdialog.ui:239 dialogs/wizlocation.ui:190
 #: tools/modcalcaltaz.ui:522 tools/modcalceclipticcoords.ui:151
 #: tools/modcalcgalcoord.ui:128 tools/modcalcgeod.ui:264
@@ -2040,6 +2041,7 @@ msgstr "দেশ:"
 msgid "Longitude:"
 msgstr "দ্রাঘিমাংশ:"
 
+#. i18n: ectx: property (text), widget (QLabel, LatLabel)
 #. i18n: ectx: property (text), widget (QCheckBox, latCheckBatch)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, LatGeoLabel)
@@ -2047,7 +2049,6 @@ msgstr "দ্রাঘিমাংশ:"
 #. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QCheckBox, LatCheckBatch)
-#. i18n: ectx: property (text), widget (QLabel, LatLabel)
 #: dialogs/locationdialog.ui:278 dialogs/wizlocation.ui:183
 #: tools/modcalcaltaz.ui:512 tools/modcalceclipticcoords.ui:144
 #: tools/modcalcgalcoord.ui:121 tools/modcalcgeod.ui:271
@@ -2457,9 +2458,9 @@ msgstr "ফিল্ড-অব-ভিউ প্রতীকের রং বে�
 msgid "Select a color for the field-of-view (FOV) symbol."
 msgstr "ফিল্ড-অব-ভিউ (FOV) প্রতীকের রং বেছে নিন।"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabelXplanetColor)
 #. i18n: ectx: property (text), widget (QLabel, textLabel8)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
+#. i18n: ectx: property (text), widget (QLabel, textLabelXplanetColor)
 #: dialogs/newfov.ui:1131 oal/equipmentwriter.ui:606 xplanet/opsxplanet.ui:539
 msgid "Color:"
 msgstr "রং:"
@@ -2525,16 +2526,16 @@ msgctxt "set clock to a new time"
 msgid "Set Time"
 msgstr "সময় নির্ধারণ..."
 
+#: dialogs/timedialog.cpp:59
+#, fuzzy
+msgid "UTC Now"
+msgstr "এখন"
+
 #. i18n: ectx: property (text), widget (KPushButton, NowButton)
 #: dialogs/timedialog.cpp:59 tools/modcalcaltaz.ui:71
 #: tools/modcalceclipticcoords.ui:52 tools/modcalcjd.ui:48
 #: tools/modcalcvlsr.ui:72
 msgid "Now"
-msgstr "এখন"
-
-#: dialogs/timedialog.cpp:59
-#, fuzzy
-msgid "UTC Now"
 msgstr "এখন"
 
 #. i18n: ectx: property (text), widget (QLabel, DownloadTitle)
@@ -2654,54 +2655,54 @@ msgstr ""
 "\n"
 "<p>শহর বেছে নেওয়া হলে, <b>পরবর্তী</b> চাপুন।</p>"
 
-#: ekos/capture.cpp:220
+#: ekos/capture.cpp:249
 #, kde-format
 msgid "Unable to find FILTER_SLOT property in driver %1"
 msgstr ""
 
-#: ekos/capture.cpp:271
+#: ekos/capture.cpp:309
 #, kde-format
 msgid "Received image %1 out of %2."
 msgstr ""
 
-#: ekos/capture.cpp:302
+#: ekos/capture.cpp:349
 msgid "Failed to set sub frame."
 msgstr ""
 
-#: ekos/capture.cpp:309
+#: ekos/capture.cpp:356
 #, fuzzy
 msgid "Failed to set binning."
 msgstr "ছবি লোড করা যায় নি"
 
-#: ekos/capture.cpp:318
+#: ekos/capture.cpp:365
 #, fuzzy
 #| msgid "Capture Image"
 msgid "Capturing dark frame..."
 msgstr "ছবি ধারণ করো"
 
-#: ekos/capture.cpp:326 ekos/focus.cpp:212
+#: ekos/capture.cpp:374 ekos/focus.cpp:214
 #, fuzzy
 #| msgid "Loading images..."
 msgid "Capturing image..."
 msgstr "ছবি লোড করা হচ্ছে..."
 
-#: ekos/capture.cpp:400 ekos/ekosmanager.cpp:646 ekos/focus.cpp:688
-#: ekos/guide.cpp:58 ekos/guide.cpp:59 ekos/guide.cpp:228
+#: ekos/capture.cpp:448 ekos/ekosmanager.cpp:654 ekos/focus.cpp:701
+#: ekos/guide.cpp:57 ekos/guide.cpp:58 ekos/guide.cpp:248
 #: fitsviewer/fitsviewer.cpp:159
 #, kde-format
 msgid "%1"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, setupGroup_3)
-#: ekos/capture.ui:31 ekos/ekosmanager.cpp:675
+#: ekos/capture.ui:31 ekos/ekosmanager.cpp:683
 #, fuzzy
 msgid "CCD"
 msgstr "সি.সি.ডি.বি."
 
-#. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_6)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5_3)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: ekos/capture.ui:47 ekos/capture.ui:466 tools/argsetdeviceindi.ui:30
 #: tools/argshutdownindi.ui:38 tools/argstartindi.ui:30
 msgid "Device:"
@@ -2785,32 +2786,32 @@ msgstr "ফিল্টার:"
 msgid "X:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QTreeWidget, FunctionTree)
-#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binXCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binYCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
+#. i18n: ectx: property (text), widget (QTreeWidget, FunctionTree)
 #: ekos/capture.ui:184 ekos/capture.ui:230 indi/opsindi.ui:391
 #: tools/scriptbuilder.ui:407
 msgid "1"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binXCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binYCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
 #: ekos/capture.ui:189 ekos/capture.ui:235 indi/opsindi.ui:396
 msgid "2"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binXCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binYCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
 #: ekos/capture.ui:194 ekos/capture.ui:240 indi/opsindi.ui:401
 msgid "3"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binXCombo)
 #. i18n: ectx: property (text), item, widget (KComboBox, binYCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, filterSlotCombo)
 #: ekos/capture.ui:199 ekos/capture.ui:245 indi/opsindi.ui:406
 msgid "4"
 msgstr ""
@@ -2862,9 +2863,9 @@ msgstr "FITS ফাইল প্রদর্শক"
 msgid "Filter"
 msgstr "ফিল্টার"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
 #. i18n: ectx: property (text), widget (QLabel, label_18)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: ekos/capture.ui:479 oal/execute.ui:377 tools/argsetfilternumindi.ui:30
 msgid "Filter:"
 msgstr "ফিল্টার:"
@@ -2936,28 +2937,28 @@ msgid "INDI services stopped."
 msgstr ""
 
 #: ekos/ekosmanager.cpp:507 ekos/ekosmanager.cpp:519 ekos/ekosmanager.cpp:526
-#: ekos/ekosmanager.cpp:552 ekos/ekosmanager.cpp:570 indi/indistd.cpp:331
+#: ekos/ekosmanager.cpp:553 ekos/ekosmanager.cpp:571 indi/indistd.cpp:331
 #, kde-format
 msgid "%1 is online."
 msgstr "%1 অনলাইনে আছে।"
 
-#: ekos/ekosmanager.cpp:591
+#: ekos/ekosmanager.cpp:592
 #, fuzzy, kde-format
 #| msgid "%1 is online."
 msgid "%1 is offline."
 msgstr "%1 অনলাইনে আছে।"
 
-#: ekos/ekosmanager.cpp:686 fitsviewer/fitsviewer.cpp:220
+#: ekos/ekosmanager.cpp:694 fitsviewer/fitsviewer.cpp:222
 msgid "Focus"
 msgstr ""
 
-#: ekos/ekosmanager.cpp:699 fitsviewer/fitsviewer.cpp:224
+#: ekos/ekosmanager.cpp:710 fitsviewer/fitsviewer.cpp:226
 #, fuzzy
 #| msgid "Guides"
 msgid "Guide"
 msgstr "নির্দেশিকা"
 
-#: ekos/ekosmanager.cpp:706
+#: ekos/ekosmanager.cpp:718
 #, kde-format
 msgid "Guider port from %1 is ready."
 msgstr ""
@@ -2968,7 +2969,8 @@ msgid "Ekos"
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, setupTab)
-#: ekos/ekosmanager.ui:24
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_Configuration)
+#: ekos/ekosmanager.ui:24 ekos/guide/guider.ui:103
 msgid "Setup"
 msgstr ""
 
@@ -3036,14 +3038,14 @@ msgstr "INDI নিয়ন্ত্রণ প্যানেল..."
 msgid "3. Connect && Disconnect Devices"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, connectHostB)
 #. i18n: ectx: property (text), widget (KPushButton, connectB)
+#. i18n: ectx: property (text), widget (QPushButton, connectHostB)
 #: ekos/ekosmanager.ui:210 indi/devmanager.ui:318 indi/drivermanager.ui:306
 msgid "Connect"
 msgstr "সংযোগ স্থাপন করো"
 
-#. i18n: ectx: property (text), widget (QPushButton, disconnectHostB)
 #. i18n: ectx: property (text), widget (KPushButton, disconnectB)
+#. i18n: ectx: property (text), widget (QPushButton, disconnectHostB)
 #: ekos/ekosmanager.ui:220 indi/devmanager.ui:325 indi/drivermanager.ui:313
 msgid "Disconnect"
 msgstr "সংযোগ বিচ্ছিন্ন করো"
@@ -3058,9 +3060,9 @@ msgstr ""
 msgid "Enable logging"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, clearB)
 #. i18n: ectx: property (text), widget (KPushButton, ClearButton)
 #. i18n: ectx: property (text), widget (KPushButton, Clear)
-#. i18n: ectx: property (text), widget (QPushButton, clearB)
 #: ekos/ekosmanager.ui:273 indi/guimanager.cpp:69 indi/indimenu.cpp:74
 #: tools/conjunctions.ui:211 tools/modcalcgeod.ui:160
 #, fuzzy
@@ -3075,73 +3077,73 @@ msgstr ""
 msgid "Autofocus in progress..."
 msgstr ""
 
-#: ekos/focus.cpp:198 ekos/guide.cpp:167
+#: ekos/focus.cpp:200 ekos/guide.cpp:186
 msgid "Error: Lost connection to CCD."
 msgstr ""
 
-#: ekos/focus.cpp:224 ekos/focus.cpp:255
+#: ekos/focus.cpp:226 ekos/focus.cpp:257
 msgid "Error: Lost connection to Focuser."
 msgstr ""
 
-#: ekos/focus.cpp:243
+#: ekos/focus.cpp:245
 msgid "Focusing inward..."
 msgstr ""
 
-#: ekos/focus.cpp:274
+#: ekos/focus.cpp:276
 msgid "Focusing outward..."
 msgstr ""
 
-#: ekos/focus.cpp:303
+#: ekos/focus.cpp:316
 msgid "FITS received. No stars detected."
 msgstr ""
 
-#: ekos/focus.cpp:335
+#: ekos/focus.cpp:348
 #, kde-format
 msgid "FITS received. HFR %1 @ %2. Delta (%3%)"
 msgstr ""
 
-#: ekos/focus.cpp:337
+#: ekos/focus.cpp:350
 #, kde-format
 msgid "FITS received. HFR %1 @ %2."
 msgstr ""
 
-#: ekos/focus.cpp:341
+#: ekos/focus.cpp:354
 msgid "Autofocus failed to reach proper focus. Try increasing tolerance value."
 msgstr ""
 
-#: ekos/focus.cpp:349 ekos/focus.cpp:530
+#: ekos/focus.cpp:362 ekos/focus.cpp:543
 msgid "No stars detected, capturing again..."
 msgstr ""
 
-#: ekos/focus.cpp:375
+#: ekos/focus.cpp:388
 msgid ""
 "Change in HFR is too small. Try increasing the step size or decreasing the "
 "tolerance."
 msgstr ""
 
-#: ekos/focus.cpp:377 ekos/focus.cpp:485 ekos/focus.cpp:545 ekos/focus.cpp:595
+#: ekos/focus.cpp:390 ekos/focus.cpp:498 ekos/focus.cpp:558 ekos/focus.cpp:608
 msgid "Autofocus complete."
 msgstr ""
 
-#: ekos/focus.cpp:493
+#: ekos/focus.cpp:506
 msgid "Deadlock reached. Please try again with different settings."
 msgstr ""
 
-#: ekos/focus.cpp:519
+#: ekos/focus.cpp:532
 #, kde-format
 msgid "FITS received. HFR %1. Delta (%2%)"
 msgstr ""
 
-#: ekos/focus.cpp:523
+#: ekos/focus.cpp:536
 msgid ""
 "Autofocus failed to reach proper focus. Try adjusting the tolerance value."
 msgstr ""
 
-#: ekos/focus.cpp:657 ekos/focus.cpp:675
+#: ekos/focus.cpp:670 ekos/focus.cpp:688
 msgid "Focuser error, check INDI panel."
 msgstr ""
 
-#: ekos/focus.cpp:707
+#: ekos/focus.cpp:720
 msgid "Starting continuous exposure..."
 msgstr ""
 
@@ -3160,8 +3162,8 @@ msgstr "ফোকাসকৃত বস্তু: "
 msgid "Manual"
 msgstr "ভানুয়াটু"
 
-#. i18n: ectx: property (text), widget (QRadioButton, autoR)
 #. i18n: ectx: property (text), widget (QRadioButton, AutoModeR)
+#. i18n: ectx: property (text), widget (QRadioButton, autoR)
 #: ekos/focus.ui:71 fitsviewer/fitshistogramui.ui:113
 msgid "Auto"
 msgstr "স্বয়ংক্রিয়"
@@ -3212,7 +3214,8 @@ msgid "secs"
 msgstr "সেকেন্ড"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
-#: ekos/focus.ui:228
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_Control)
+#: ekos/focus.ui:228 ekos/guide/guider.ui:289
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Montreal"
@@ -3247,20 +3250,20 @@ msgid "Start Looping"
 msgstr "ফার্মিংটন"
 
 #. i18n: ectx: property (text), widget (QPushButton, captureB)
-#: ekos/focus.ui:279
+#: ekos/focus.ui:279 ekos/guide/guider.ui:109 ekos/guide/rcalibration.ui:55
 #, fuzzy
 #| msgid "Capture Image"
 msgid "Capture"
 msgstr "ছবি ধারণ করো"
 
 #. i18n: ectx: property (text), widget (QPushButton, stopFocusB)
-#: ekos/focus.ui:289
+#: ekos/focus.ui:289 ekos/guide/guider.cpp:357 ekos/guide/rcalibration.cpp:298
 msgid "Stop"
 msgstr ""
 
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #. i18n: ectx: property (text), widget (QTreeWidget, localTreeWidget)
 #. i18n: ectx: property (text), widget (QTreeWidget, clientTreeWidget)
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox_4)
 #: ekos/focus.ui:314 indi/devmanager.ui:194 indi/devmanager.ui:288
 #: indi/drivermanager.ui:190 indi/drivermanager.ui:276
 msgid "Status"
@@ -3271,8 +3274,8 @@ msgstr "অবস্থা"
 msgid "HFR:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label)
 #: ekos/focus.ui:334 xplanet/opsxplanet.ui:120
 msgid "pixels"
 msgstr ""
@@ -3280,6 +3283,384 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: ekos/guide.ui:42
 msgid "Via:"
+msgstr ""
+
+#: ekos/guide/guider.cpp:148 ekos/guide/guider.cpp:255
+msgid "P:"
+msgstr ""
+
+#: ekos/guide/guider.cpp:358
+#, fuzzy
+msgid "Autoguiding started."
+msgstr "মিলযুক্ত খ-বস্তু:"
+
+#. i18n: ectx: property (text), widget (QPushButton, pushButton_StartStop)
+#. i18n: ectx: property (text), widget (QPushButton, pushButton_StartCalibration)
+#: ekos/guide/guider.cpp:366 ekos/guide/guider.ui:632
+#: ekos/guide/rcalibration.cpp:277 ekos/guide/rcalibration.ui:113
+#, fuzzy
+msgid "Start"
+msgstr "আরম্ভ"
+
+#: ekos/guide/guider.cpp:367
+msgid "Autoguiding stopped."
+msgstr ""
+
+#: ekos/guide/guider.cpp:399
+msgid ""
+"Lost track of the guide star. Try increasing the square size and check the "
+"mount."
+msgstr ""
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, guiderClass)
+#: ekos/guide/guider.ui:26
+#, fuzzy
+#| msgid "Guides"
+msgid "Guiding"
+msgstr "নির্দেশিকা"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_Drift)
+#: ekos/guide/guider.ui:34
+#, fuzzy
+msgid "Drift graphics"
+msgstr "ভৌগলিক"
+
+#. i18n: ectx: property (text), widget (QLabel, l_1)
+#: ekos/guide/guider.ui:58
+msgid "X scale(frm.)"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_2)
+#: ekos/guide/guider.ui:75
+msgid "Y scale(\")"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_18)
+#: ekos/guide/guider.ui:118
+#, fuzzy
+#| msgid "Square"
+msgid "Square size"
+msgstr "বর্গক্ষেত্র"
+
+#. i18n: ectx: property (text), widget (QLabel, l_19)
+#: ekos/guide/guider.ui:128
+#, fuzzy
+#| msgctxt "star name"
+#| msgid "Algorab"
+msgid "Algorithm"
+msgstr "অঙ্গুষ্ঠ"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_Info)
+#: ekos/guide/guider.ui:147
+#, fuzzy
+#| msgid "InfoBoxes"
+msgid "Info"
+msgstr "তথ্যমূলক-বাক্স"
+
+#. i18n: ectx: property (text), widget (QLabel, l_3)
+#: ekos/guide/guider.ui:155
+msgid "Guiding rate,x15\"/sec"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_RecommendedGain)
+#: ekos/guide/guider.ui:178
+msgid "P=xxxxx"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_5)
+#: ekos/guide/guider.ui:189
+#, fuzzy
+#| msgid "Local"
+msgid "Focal,mm"
+msgstr "স্থানীয়"
+
+#. i18n: ectx: property (text), widget (QLabel, l_Focal)
+#. i18n: ectx: property (text), widget (QLabel, l_FbyD)
+#. i18n: ectx: property (text), widget (QLabel, l_ErrRA)
+#. i18n: ectx: property (text), widget (QLabel, l_ErrDEC)
+#: ekos/guide/guider.ui:202 ekos/guide/guider.ui:251 ekos/guide/guider.ui:585
+#: ekos/guide/guider.ui:615
+msgid "xxx"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_6)
+#: ekos/guide/guider.ui:215
+#, fuzzy
+#| msgid "Aperture:"
+msgid "Aperture,mm"
+msgstr "অ্যাপার্চার:"
+
+#. i18n: ectx: property (text), widget (QLabel, l_Aperture)
+#: ekos/guide/guider.ui:228
+#, fuzzy
+#| msgid "xi"
+msgid "xx"
+msgstr "জাই"
+
+#. i18n: ectx: property (text), widget (QLabel, l_7)
+#: ekos/guide/guider.ui:238
+msgid "F/D"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_8)
+#: ekos/guide/guider.ui:261
+msgid "FOV,'"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_FOV)
+#: ekos/guide/guider.ui:274
+msgid "YYxYY"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_9)
+#: ekos/guide/guider.ui:297
+#, fuzzy
+#| msgid "Final declination:"
+msgid "Enable directions"
+msgstr "চূড়ান্ত বিষুবলম্ব:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_DirRA)
+#: ekos/guide/guider.ui:304
+msgid "RA"
+msgstr "বিষুবাংশ"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_DirDEC)
+#: ekos/guide/guider.ui:311
+#, fuzzy
+#| msgctxt "Region/state name (optional, rarely needs a translation)"
+#| msgid "DC"
+msgid "DEC"
+msgstr "ডিসি"
+
+#. i18n: ectx: property (text), widget (QLabel, l_10)
+#: ekos/guide/guider.ui:318
+#, fuzzy
+#| msgid "Flat Frames"
+msgid "Accumulate frames"
+msgstr "সমতল ফ্রেম"
+
+#. i18n: ectx: property (text), widget (QLabel, l_11)
+#: ekos/guide/guider.ui:350
+msgid "Proportional gain"
+msgstr ""
+
+# FIXME
+#. i18n: ectx: property (text), widget (QLabel, l_12)
+#: ekos/guide/guider.ui:377
+#, fuzzy
+#| msgid "Center in Map"
+msgid "Integral gain"
+msgstr "মানচিত্রকে কেন্দ্রে আনো"
+
+#. i18n: ectx: property (text), widget (QLabel, l_13)
+#: ekos/guide/guider.ui:404
+msgid "Derivative gain"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_14)
+#: ekos/guide/guider.ui:431
+msgid "Maximum pulse"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_15)
+#: ekos/guide/guider.ui:452
+msgid "Minimum pulse"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_16)
+#: ekos/guide/guider.ui:484
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Delta"
+msgid "Delta ,\""
+msgstr "ডেল্টা"
+
+#. i18n: ectx: property (text), widget (QLabel, l_DeltaRA)
+#. i18n: ectx: property (text), widget (QLabel, l_DeltaDEC)
+#. i18n: ectx: property (text), widget (QLabel, l_PulseRA)
+#. i18n: ectx: property (text), widget (QLabel, l_PulseDEC)
+#: ekos/guide/guider.ui:499 ekos/guide/guider.ui:515 ekos/guide/guider.ui:542
+#: ekos/guide/guider.ui:558
+msgid "xxxx"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_17)
+#: ekos/guide/guider.ui:527
+msgid "Pulse length, ms"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_20)
+#: ekos/guide/guider.ui:572
+msgid "Sig(RA)\""
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_21)
+#: ekos/guide/guider.ui:602
+msgid "Sig(DEC)\""
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:39
+#, fuzzy
+#| msgid "Client"
+msgid "Calibration"
+msgstr "ক্লায়েন্ট"
+
+#: ekos/guide/rcalibration.cpp:242
+msgid ""
+"Lost track of the guide star. Try increasing the square size or reducing "
+"pulse duration."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:294
+#, fuzzy
+#| msgid "INDI"
+msgid "Stop GUIDE_RA"
+msgstr "INDI"
+
+#: ekos/guide/rcalibration.cpp:300
+msgid "Drift scope in RA. Press stop when done."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:320
+#, fuzzy
+#| msgid "INDI"
+msgid "Stop GUIDE_DEC"
+msgstr "INDI"
+
+#: ekos/guide/rcalibration.cpp:321
+msgid "Drift scope in DEC. Press stop when done."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:331 ekos/guide/rcalibration.cpp:349
+#: ekos/guide/rcalibration.cpp:503 ekos/guide/rcalibration.cpp:590
+msgid "Calibration completed."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:336 ekos/guide/rcalibration.cpp:354
+#: ekos/guide/rcalibration.cpp:509 ekos/guide/rcalibration.cpp:596
+msgid "Error"
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:336 ekos/guide/rcalibration.cpp:354
+#: ekos/guide/rcalibration.cpp:509 ekos/guide/rcalibration.cpp:596
+msgid "Calibration rejected. Start drift is too short."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:395
+msgid "GUIDE_RA Drifting..."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:439 ekos/guide/rcalibration.cpp:541
+msgid "Running..."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:478 ekos/guide/rcalibration.cpp:580
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Corinth"
+msgid "Warning"
+msgstr "কোরিন্থ"
+
+#: ekos/guide/rcalibration.cpp:478
+msgid "GUIDE_RA: Scope can't reach the start point after "
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:478 ekos/guide/rcalibration.cpp:580
+msgid ""
+" iterations.\n"
+"Possible mount or drive problems..."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:495
+msgid "GUIDE_DEC drifting..."
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:580
+msgid "GUIDE_DEC: Scope can't reach the start point after "
+msgstr ""
+
+#: ekos/guide/rcalibration.cpp:637
+#, fuzzy
+#| msgid "Loading images..."
+msgid "Captuing image..."
+msgstr "ছবি লোড করা হচ্ছে..."
+
+#: ekos/guide/rcalibration.cpp:653
+#, fuzzy
+#| msgid "Image Reduction Process..."
+msgid "Image captured..."
+msgstr "ছবি ক্ষুদ্রকরণ প্রক্রিয়া..."
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#: ekos/guide/rcalibration.ui:23
+#, fuzzy
+#| msgid "Client"
+msgid "Calibration Checklist"
+msgstr "ক্লায়েন্ট"
+
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: ekos/guide/rcalibration.ui:48
+#, fuzzy
+#| msgid "Capture Image"
+msgid "1. Capture Image"
+msgstr "ছবি ধারণ করো"
+
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: ekos/guide/rcalibration.ui:79
+#, fuzzy
+msgid "2. Select guide star"
+msgstr "ইনপুট নির্বাচন করো"
+
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: ekos/guide/rcalibration.ui:103
+msgid "3. Start calibration"
+msgstr ""
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_ReticleCalibration_2)
+#: ekos/guide/rcalibration.ui:138
+#, fuzzy
+#| msgid "Constellation Name Options"
+msgid "Calibration Options"
+msgstr "তারামণ্ডলের নাম সংক্রান্ত অপশন"
+
+#. i18n: ectx: property (text), widget (QLabel, l_25)
+#: ekos/guide/rcalibration.ui:148
+#, fuzzy
+#| msgid "Square"
+msgid "Square size:"
+msgstr "বর্গক্ষেত্র"
+
+#. i18n: ectx: property (text), widget (QLabel, l_29)
+#: ekos/guide/rcalibration.ui:155
+msgid "Pulse:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_AutoMode)
+#: ekos/guide/rcalibration.ui:162
+#, fuzzy
+#| msgid "Auto Scale"
+msgid "Auto mode"
+msgstr "স্বয়ংক্রিয় মাত্রা"
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkBox_TwoAxis)
+#: ekos/guide/rcalibration.ui:262
+#, fuzzy
+msgid "Two axis"
+msgstr "রক হিল"
+
+#. i18n: ectx: property (text), widget (QLabel, l_26)
+#: ekos/guide/rcalibration.ui:273
+msgid "recticle-X"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_27)
+#: ekos/guide/rcalibration.ui:287
+msgid "reticle-Y"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, l_28)
+#: ekos/guide/rcalibration.ui:301
+msgid "recticle-Angle"
 msgstr ""
 
 #. i18n: ectx: Menu (file)
@@ -3300,8 +3681,8 @@ msgstr "সম্পাদন..."
 msgid "&View"
 msgstr "&নতুন"
 
-#. i18n: ectx: property (text), widget (QPushButton, helpB)
 #. i18n: ectx: Menu (help)
+#. i18n: ectx: property (text), widget (QPushButton, helpB)
 #: fitsviewer.rc:41 indi/telescopewizard.ui:54 kstarsui-indi.rc:123
 #: kstarsui-win.rc:117 kstarsui.rc:117
 msgid "&Help"
@@ -3320,7 +3701,7 @@ msgid "Process ToolBar"
 msgstr "প্রসেস টুলবার"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, fitsHeaderDialog)
-#: fitsviewer/fitsheaderdialog.ui:13 fitsviewer/fitstab.cpp:177
+#: fitsviewer/fitsheaderdialog.ui:13 fitsviewer/fitstab.cpp:182
 #: fitsviewer/fitsviewer.cpp:125
 msgid "FITS Header"
 msgstr "FITS হেডার"
@@ -3419,52 +3800,52 @@ msgstr "সর্বনিম্ন"
 msgid "&Apply"
 msgstr ""
 
-#: fitsviewer/fitsimage.cpp:178
+#: fitsviewer/fitsimage.cpp:179
 msgid "Please hold while loading FITS file..."
 msgstr ""
 
-#: fitsviewer/fitsimage.cpp:179
+#: fitsviewer/fitsimage.cpp:180
 #, fuzzy
 #| msgid "Loading FITS..."
 msgid "Loading FITS"
 msgstr "FITS ফাইল লোড করা হচ্ছে..."
 
-#: fitsviewer/fitsimage.cpp:193
+#: fitsviewer/fitsimage.cpp:194
 #, fuzzy, kde-format
 #| msgid "Could not open the file %1 for writing."
 msgid "Could not open file %1 (fits_get_img_param). Error %2"
 msgstr "লেখার জন্য %1 ফাইলটি খোলা যায় নি।"
 
-#: fitsviewer/fitsimage.cpp:193 fitsviewer/fitsimage.cpp:210
-#: fitsviewer/fitsimage.cpp:216 fitsviewer/fitsimage.cpp:225
-#: fitsviewer/fitsimage.cpp:461
+#: fitsviewer/fitsimage.cpp:194 fitsviewer/fitsimage.cpp:211
+#: fitsviewer/fitsimage.cpp:217 fitsviewer/fitsimage.cpp:226
+#: fitsviewer/fitsimage.cpp:462
 #, fuzzy
 msgid "FITS Open"
 msgstr "FITS মাত্রা (scale)"
 
-#: fitsviewer/fitsimage.cpp:210
+#: fitsviewer/fitsimage.cpp:211
 #, fuzzy, kde-format
 msgid "FITS file open error (fits_get_img_param): %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: fitsviewer/fitsimage.cpp:216
+#: fitsviewer/fitsimage.cpp:217
 msgid "1D FITS images are not supported in KStars."
 msgstr ""
 
-#: fitsviewer/fitsimage.cpp:225
+#: fitsviewer/fitsimage.cpp:226
 #, fuzzy, kde-format
 msgid "FITS file open error (fits_get_img_type): %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: fitsviewer/fitsimage.cpp:461
+#: fitsviewer/fitsimage.cpp:462
 msgid "FITS image is saturated and cannot be displayed."
 msgstr ""
 
-#: fitsviewer/fitstab.cpp:54 fitsviewer/fitsviewer.cpp:392
+#: fitsviewer/fitstab.cpp:59 fitsviewer/fitsviewer.cpp:394
 msgid "Save Changes to FITS?"
 msgstr "FITS ফাইলে কৃত পরিবর্তন কি সংরক্ষণ করা হবে?"
 
-#: fitsviewer/fitstab.cpp:55
+#: fitsviewer/fitstab.cpp:60
 msgid ""
 "The current FITS file has unsaved changes.  Would you like to save before "
 "closing it?"
@@ -3472,30 +3853,30 @@ msgstr ""
 "বর্তমানে প্রদর্শিত FITS ফাইলে অসংরক্ষিত পরিবর্তন রয়েছে।  বন্ধ করার পূর্বে কি আপনি "
 "এটি সংরক্ষণ করে চান?"
 
-#: fitsviewer/fitstab.cpp:177
+#: fitsviewer/fitstab.cpp:182
 #, fuzzy, kde-format
 msgid "FITS record error: %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: fitsviewer/fitstab.cpp:250
+#: fitsviewer/fitstab.cpp:255
 msgid "&Overwrite"
 msgstr "&ওপর দিয়ে লেখো"
 
-#: fitsviewer/fitstab.cpp:261
+#: fitsviewer/fitstab.cpp:266
 #, fuzzy, kde-format
 msgid "FITS file save error: %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: fitsviewer/fitstab.cpp:262
+#: fitsviewer/fitstab.cpp:267
 #, fuzzy
 msgid "FITS Save"
 msgstr "FITS মাত্রা (scale)"
 
-#: fitsviewer/fitstab.cpp:268
+#: fitsviewer/fitstab.cpp:273
 msgid "File saved."
 msgstr "ফাইল সংরক্ষণ করা হয়েছে।"
 
-#: fitsviewer/fitstab.cpp:272 indi/streamwg.cpp:185
+#: fitsviewer/fitstab.cpp:277 indi/streamwg.cpp:185
 #: tools/scriptbuilder.cpp:1004 tools/scriptbuilder.cpp:1080
 #, kde-format
 msgid "Invalid URL: %1"
@@ -3510,7 +3891,7 @@ msgstr "কে-স্টার্স-এর FITS প্রদর্শকের 
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
 
-#: fitsviewer/fitsviewer.cpp:148 fitsviewer/fitsviewer.cpp:488
+#: fitsviewer/fitsviewer.cpp:148 fitsviewer/fitsviewer.cpp:490
 #, fuzzy
 #| msgid "Mars"
 msgid "Mark Stars"
@@ -3522,20 +3903,20 @@ msgstr "মঙ্গলগ্রহ (মার্স)"
 msgid "KStars FITS Viewer"
 msgstr "কে-স্টার্স-এর FITS প্রদর্শকের পক্ষ থেকে স্বাগতম"
 
-#: fitsviewer/fitsviewer.cpp:216
+#: fitsviewer/fitsviewer.cpp:218
 #, fuzzy
 #| msgid "Client"
 msgid "Calibrate"
 msgstr "ক্লায়েন্ট"
 
-#: fitsviewer/fitsviewer.cpp:272 fitsviewer/fitsviewer.cpp:495
+#: fitsviewer/fitsviewer.cpp:274 fitsviewer/fitsviewer.cpp:497
 #, kde-format
 msgid "%1 star detected."
 msgid_plural "%1 stars detected."
 msgstr[0] ""
 msgstr[1] ""
 
-#: fitsviewer/fitsviewer.cpp:393
+#: fitsviewer/fitsviewer.cpp:395
 #, fuzzy, kde-format
 #| msgid ""
 #| "The current script has unsaved changes.  Would you like to save before "
@@ -3545,7 +3926,7 @@ msgstr ""
 "বর্তমান স্ক্রিপ্ট-এ অসংরক্ষিত পরিবর্তন রয়েছে।  বন্ধ করার পূর্বে আপনি এটি সংরক্ষণ করে "
 "চান কি?"
 
-#: fitsviewer/fitsviewer.cpp:493
+#: fitsviewer/fitsviewer.cpp:495
 msgid "Unmark Stars"
 msgstr ""
 
@@ -3673,22 +4054,22 @@ msgstr "ডিভাইস ব্যবস্থাপক"
 msgid "Local/Server"
 msgstr "স্থানীয়/সার্ভার"
 
-#. i18n: ectx: property (title), widget (QGroupBox, INDIMode)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #. i18n: ectx: property (text), widget (QTreeWidget, localTreeWidget)
+#. i18n: ectx: property (title), widget (QGroupBox, INDIMode)
 #: indi/devmanager.ui:52 indi/devmanager.ui:199 indi/drivermanager.ui:48
 #: indi/drivermanager.ui:195 tools/argstartindi.ui:42
 msgid "Mode"
 msgstr "মোড"
 
-#. i18n: ectx: property (text), widget (QRadioButton, LocalButton)
 #. i18n: ectx: property (text), widget (QRadioButton, localR)
+#. i18n: ectx: property (text), widget (QRadioButton, LocalButton)
 #: indi/devmanager.ui:67 indi/drivermanager.ui:63 tools/argstartindi.ui:57
 msgid "Local"
 msgstr "স্থানীয়"
 
-#. i18n: ectx: property (text), widget (QRadioButton, ServerButton)
 #. i18n: ectx: property (text), widget (QRadioButton, serverR)
+#. i18n: ectx: property (text), widget (QRadioButton, ServerButton)
 #: indi/devmanager.ui:83 indi/drivermanager.ui:79 tools/argstartindi.ui:67
 msgid "Server"
 msgstr "সার্ভার"
@@ -3736,8 +4117,8 @@ msgstr "ক্লায়েন্ট"
 msgid "Hosts"
 msgstr "হোস্ট"
 
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
 #. i18n: ectx: property (text), widget (QPushButton, addB)
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
 #: indi/devmanager.ui:263 indi/drivermanager.ui:251 tools/flagmanager.ui:135
 #, fuzzy
 msgid "Add"
@@ -3756,8 +4137,8 @@ msgstr "সম্পাদন..."
 msgid "Name"
 msgstr "নাম"
 
-#. i18n: ectx: property (title), widget (QGroupBox, INDIConnection)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
+#. i18n: ectx: property (title), widget (QGroupBox, INDIConnection)
 #: indi/devmanager.ui:306 indi/drivermanager.ui:294 tools/argswitchindi.ui:22
 msgid "Connection"
 msgstr "সংযোগ"
@@ -3810,8 +4191,8 @@ msgstr ""
 msgid "Failed to open INDI Driver file: %1"
 msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
-#. i18n: ectx: property (text), widget (KPushButton, NoneButton)
 #. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
+#. i18n: ectx: property (text), widget (KPushButton, NoneButton)
 #: indi/drivermanager.cpp:1141 indi/indidriver.cpp:750
 #: oal/equipmentwriter.ui:197 oal/log.cpp:255 oal/log.cpp:687
 #: tools/obslistwizard.ui:147
@@ -3869,13 +4250,13 @@ msgstr ""
 "বর্তমানে কোন INDI ডিভাইস চলছে না।  এ ধরনের কোন ডিভাইস চালানোর জন্য অনুগ্রহপূর্বক "
 "ডিভাইস মেনুর ডিভাইস ব্যবস্থাপক থেকে ডিভাইস বেছে নিন।"
 
-#: indi/indiccd.cpp:382
+#: indi/indiccd.cpp:510
 #, fuzzy
 #| msgid "Enter import data filename"
 msgid "Error making temporary filename."
 msgstr "যে ফাইল থেকে তথ্য আমদানি করা হবে তার নাম:"
 
-#: indi/indiccd.cpp:421
+#: indi/indiccd.cpp:549
 #, kde-format
 msgid "FITS file saved to %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
@@ -3899,8 +4280,8 @@ msgstr "%1-কে লোড করার জন্য পর্যাপ্ত �
 msgid "Not enough memory to convert file %1 to base64"
 msgstr "%1 ফাইলকে base64 ফরম্যাটে রূপান্তর করার জন্য পর্যাপ্ত মেমরি নেই"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: indi/indihostconf.ui:41 tools/altvstime.ui:54 tools/argfindobject.ui:21
 msgid "Name:"
 msgstr "নাম:"
@@ -4190,14 +4571,14 @@ msgstr ""
 msgid "Server Port"
 msgstr "সার্ভার লগ"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label)
+#. i18n: ectx: property (text), widget (QLabel, label_4)
 #: indi/opsindi.ui:493 tools/obslistwizard.ui:622
 msgid "From:"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
+#. i18n: ectx: property (text), widget (QLabel, label_5)
 #: indi/opsindi.ui:500 tools/obslistwizard.ui:636
 #, fuzzy
 msgid "To:"
@@ -5232,8 +5613,8 @@ msgid ""
 msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় তারামণ্ডলের নাম আড়াল করা হবে।"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideCLines)
 #. i18n: ectx: label, entry (HideCLines), group (View)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideCLines)
 #: kstars.kcfg:277 options/opsadvanced.ui:465
 msgid "Hide constellation lines while moving?"
 msgstr "সরে যাওয়ার সময় কি তারামণ্ডলের রেখা আড়াল করা হবে?"
@@ -5256,8 +5637,8 @@ msgstr ""
 msgid "Choose sky culture."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideCNames)
 #. i18n: ectx: label, entry (HideCNames), group (View)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideCNames)
 #: kstars.kcfg:287 options/opsadvanced.ui:478
 msgid "Hide constellation names while moving?"
 msgstr "সরে যাওয়ার সময় কি তারামণ্ডলের নাম আড়াল করা হবে?"
@@ -5270,8 +5651,8 @@ msgid ""
 msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় তারামণ্ডলের নাম আড়াল করা হবে।"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideGrids)
 #. i18n: ectx: label, entry (HideGrids), group (View)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideGrids)
 #: kstars.kcfg:292 options/opsadvanced.ui:439
 #, fuzzy
 #| msgid "Hide coordinate grid while moving?"
@@ -5302,8 +5683,8 @@ msgid ""
 msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় আকাশ গঙ্গার আবয়ব আড়াল করা হবে।"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideIC)
 #. i18n: ectx: label, entry (HideIC), group (View)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideIC)
 #: kstars.kcfg:302 options/opsadvanced.ui:380
 msgid "Hide IC objects while moving?"
 msgstr "সরে যাওয়ার সময় কি আই.সি. বস্তুদের আড়াল করা হবে?"
@@ -5327,8 +5708,8 @@ msgid ""
 "Toggle whether Messier objects are hidden while the display is in motion."
 msgstr "সরে যাওয়ার সময় খ-বস্তুকে আড়াল করার মোড পাল্টাও"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideNGC)
 #. i18n: ectx: label, entry (HideNGC), group (View)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideNGC)
 #: kstars.kcfg:312 options/opsadvanced.ui:452
 msgid "Hide NGC objects while moving?"
 msgstr "সরে যাওয়ার সময় কি এন.জি.সি. বস্তু আড়াল করা হবে?"
@@ -5366,8 +5747,8 @@ msgid ""
 msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় সৌরজগতের সদস্যদের আড়াল করা হবে।"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideStars)
 #. i18n: ectx: label, entry (HideStars), group (View)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_HideStars)
 #: kstars.kcfg:327 options/opsadvanced.ui:318
 msgid "Hide faint stars while moving?"
 msgstr "সরে যাওয়ার সময় কি অনুজ্জ্বল তারাদের আড়াল করা হবে?"
@@ -5597,8 +5978,8 @@ msgstr "শনিগ্রহ আঁকা হবে কি?"
 msgid "Toggle whether the equator line is drawn in the sky map."
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে খ-বিষুব আঁকা হবে।"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSelectGrid)
 #. i18n: ectx: label, entry (AutoSelectGrid), group (View)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSelectGrid)
 #: kstars.kcfg:422 options/opsguides.ui:199
 #, fuzzy
 msgid "Draw grids according to active coordinate system?"
@@ -6791,8 +7172,8 @@ msgstr "তারার নামের লেবেল প্রদর্শন
 msgid "Path to xplanet binary"
 msgstr "গ্রহ-নীহারিকা"
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetPath)
 #. i18n: ectx: whatsthis, entry (XplanetPath), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetPath)
 #: kstars.kcfg:926 xplanet/opsxplanet.ui:155
 #, fuzzy
 #| msgid "planetary nebula"
@@ -6806,8 +7187,8 @@ msgstr "গ্রহ-নীহারিকা"
 msgid "Window title"
 msgstr "নাক্ষত্র কাল:"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetTitle)
 #. i18n: ectx: whatsthis, entry (XplanetTitle), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetTitle)
 #: kstars.kcfg:931 xplanet/opsxplanet.ui:53
 msgid "Set the window’s title."
 msgstr ""
@@ -6824,8 +7205,8 @@ msgstr ""
 msgid "Height of xplanet window"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetLabel)
 #. i18n: ectx: label, entry (XplanetLabel), group (Xplanet)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetLabel)
 #: kstars.kcfg:945 xplanet/opsxplanet.ui:657
 #, fuzzy
 #| msgid "Show &name"
@@ -6864,8 +7245,8 @@ msgstr "স্থানীয় সময়"
 msgid "Planet string"
 msgstr "গ্রহ"
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetLabelString)
 #. i18n: ectx: whatsthis, entry (XplanetLabelString), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetLabelString)
 #: kstars.kcfg:961 xplanet/opsxplanet.ui:495
 #, no-c-format
 msgid ""
@@ -6883,22 +7264,22 @@ msgstr ""
 msgid "Font Size"
 msgstr "ফোর্ট স্মিথ"
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetFontSize)
 #. i18n: ectx: whatsthis, entry (XplanetFontSize), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetFontSize)
 #: kstars.kcfg:966 xplanet/opsxplanet.ui:532
 msgid "Specify the point size."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetColor)
 #. i18n: ectx: label, entry (XplanetColor), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetColor)
 #: kstars.kcfg:970 xplanet/opsxplanet.ui:546
 #, fuzzy
 #| msgid "Symbol color:"
 msgid "Label color"
 msgstr "প্রতীকের রং:"
 
-#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_XplanetColor)
 #. i18n: ectx: whatsthis, entry (XplanetColor), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_XplanetColor)
 #: kstars.kcfg:971 xplanet/opsxplanet.ui:549
 #, fuzzy
 msgid "Set the color for the label."
@@ -6920,26 +7301,26 @@ msgid ""
 "zone in the locale’s appropriate date and time representation."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTL)
 #. i18n: ectx: label, entry (XplanetLabelTL), group (Xplanet)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTL)
 #: kstars.kcfg:980 xplanet/opsxplanet.ui:563
 msgid "Top left"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTR)
 #. i18n: ectx: label, entry (XplanetLabelTR), group (Xplanet)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelTR)
 #: kstars.kcfg:984 xplanet/opsxplanet.ui:587
 msgid "Top right"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBR)
 #. i18n: ectx: label, entry (XplanetLabelBR), group (Xplanet)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBR)
 #: kstars.kcfg:988 xplanet/opsxplanet.ui:597
 msgid "Bottom right"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBL)
 #. i18n: ectx: label, entry (XplanetLabelBL), group (Xplanet)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetLabelBL)
 #: kstars.kcfg:992 xplanet/opsxplanet.ui:573
 msgid "Bottom left"
 msgstr ""
@@ -6951,8 +7332,8 @@ msgstr ""
 msgid "Sun Glare"
 msgstr "বর্গক্ষেত্র"
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetGlare)
 #. i18n: ectx: whatsthis, entry (XplanetGlare), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetGlare)
 #: kstars.kcfg:997 xplanet/opsxplanet.ui:257
 msgid ""
 "Draw a glare around the sun with with a radius of the specified value larger "
@@ -6966,8 +7347,8 @@ msgstr ""
 msgid "Random latitude and longitude"
 msgstr "দ্রাঘিমাংশ:"
 
-#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetRandom)
 #. i18n: ectx: whatsthis, entry (XplanetRandom), group (Xplanet)
+#. i18n: ectx: property (text), widget (QRadioButton, kcfg_XplanetRandom)
 #: kstars.kcfg:1002 xplanet/opsxplanet.ui:815
 msgid "Place the observer above a random latitude and longitude"
 msgstr ""
@@ -6984,30 +7365,30 @@ msgstr "দ্রাঘিমাংশ:"
 msgid "Place the observer above the specified longitude and latitude"
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetLatitude)
 #. i18n: ectx: label, entry (XplanetLatitude), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetLatitude)
 #: kstars.kcfg:1011 xplanet/opsxplanet.ui:767
 #, fuzzy
 msgid "Latitude in degrees"
 msgstr "ভৌগলিক অবস্থান"
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetLatitude)
 #. i18n: ectx: whatsthis, entry (XplanetLatitude), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetLatitude)
 #: kstars.kcfg:1012 xplanet/opsxplanet.ui:770
 msgid ""
 "Render the target body as seen from above the specified latitude (in "
 "degrees).  The default value is 0."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetLongitude)
 #. i18n: ectx: label, entry (XplanetLongitude), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetLongitude)
 #: kstars.kcfg:1016 xplanet/opsxplanet.ui:790
 #, fuzzy
 msgid "Longitude in degrees"
 msgstr "ভৌগলিক স্থানাঙ্ক"
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetLongitude)
 #. i18n: ectx: whatsthis, entry (XplanetLongitude), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetLongitude)
 #: kstars.kcfg:1017 xplanet/opsxplanet.ui:793
 msgid ""
 "Place the observer above the specified longitude (in degrees).  Longitude is "
@@ -7015,8 +7396,8 @@ msgid ""
 "example Los Angeles is at -118 or 242.  The default value is 0."
 msgstr ""
 
-#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabProjection)
 #. i18n: ectx: label, entry (XplanetProjection), group (Xplanet)
+#. i18n: ectx: attribute (title), widget (QWidget, XplanetTabProjection)
 #: kstars.kcfg:1021 xplanet/opsxplanet.ui:838
 #, fuzzy
 msgid "Projection"
@@ -7043,17 +7424,17 @@ msgstr "আপডেট তালিকা"
 msgid "If true, update view."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বৃহস্পতিগ্রহ আঁকা হবে।"
 
-#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetWaitValue)
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetWaitValue)
 #. i18n: ectx: label, entry (XplanetWaitValue), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetWaitValue), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KIntSpinBox, kcfg_XplanetWaitValue)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetWaitValue)
 #: kstars.kcfg:1031 kstars.kcfg:1032 xplanet/opsxplanet.ui:219
 #: xplanet/opsxplanet.ui:222
 msgid "Number of seconds to wait before updating"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetBackground)
 #. i18n: ectx: label, entry (XplanetBackground), group (Xplanet)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetBackground)
 #: kstars.kcfg:1036 xplanet/opsxplanet.ui:897
 #, fuzzy
 #| msgid "Info Box Background"
@@ -7106,8 +7487,8 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 msgid "Use a color as the background."
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দেওয়া হবে কি?"
 
-#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetBackgroundColorValue)
 #. i18n: ectx: label, entry (XplanetBackgroundColorValue), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_XplanetBackgroundColorValue)
 #: kstars.kcfg:1056 xplanet/opsxplanet.ui:940
 #, fuzzy
 #| msgid "Fade trails to background color"
@@ -7127,8 +7508,8 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 msgid "Base magnitude"
 msgstr "উজ্জ্বলতা"
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetMagnitude)
 #. i18n: ectx: whatsthis, entry (XplanetMagnitude), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetMagnitude)
 #: kstars.kcfg:1062 xplanet/opsxplanet.ui:280
 msgid ""
 "A star of the specified magnitude will have a pixel brightness of 1. The "
@@ -7157,8 +7538,8 @@ msgstr "এটিতে টিক দেওয়া থাকলে, গ্রহ�
 msgid "Path to arc file"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetArcFilePath)
 #. i18n: ectx: whatsthis, entry (XplanetArcFilePath), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetArcFilePath)
 #: kstars.kcfg:1072 xplanet/opsxplanet.ui:325
 msgid "Specify an arc file to be plotted against the background stars."
 msgstr ""
@@ -7189,14 +7570,14 @@ msgstr "ফাইল খুলতে সমস্যা"
 msgid "Use the specified configuration file."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetFOV)
 #. i18n: ectx: label, entry (XplanetFOV), group (Xplanet)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_XplanetFOV)
 #: kstars.kcfg:1086 xplanet/opsxplanet.ui:197
 msgid "Use kstars's FOV"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetFOV)
 #. i18n: ectx: whatsthis, entry (XplanetFOV), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetFOV)
 #: kstars.kcfg:1087 xplanet/opsxplanet.ui:194
 #, fuzzy
 #| msgid "If checked, Venus will be drawn on the map."
@@ -7209,14 +7590,14 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 msgid "Use marker file"
 msgstr "বার্নসভিল"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetMarkerFile)
 #. i18n: ectx: whatsthis, entry (XplanetMarkerFile), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetMarkerFile)
 #: kstars.kcfg:1092 xplanet/opsxplanet.ui:683
 msgid "If checked, use the specified marker file."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetMarkerFilePath)
 #. i18n: ectx: label, entry (XplanetMarkerFilePath), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetMarkerFilePath)
 #: kstars.kcfg:1096 xplanet/opsxplanet.ui:693
 msgid "Marker file path"
 msgstr ""
@@ -7243,14 +7624,14 @@ msgid ""
 "If checked, write coordinates of the bounding box for each marker in a file."
 msgstr ""
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetMarkerBoundsPath)
 #. i18n: ectx: label, entry (XplanetMarkerBoundsPath), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetMarkerBoundsPath)
 #: kstars.kcfg:1106 xplanet/opsxplanet.ui:716
 msgid "Marker bounds file path"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetMarkerBoundsPath)
 #. i18n: ectx: whatsthis, entry (XplanetMarkerBoundsPath), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetMarkerBoundsPath)
 #: kstars.kcfg:1107 xplanet/opsxplanet.ui:719
 msgid "Write coordinates of the bounding box for each marker to this file."
 msgstr ""
@@ -7262,18 +7643,18 @@ msgstr ""
 msgid "Star map"
 msgstr "তারার নাম"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetStarmap)
 #. i18n: ectx: whatsthis, entry (XplanetStarmap), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_XplanetStarmap)
 #: kstars.kcfg:1112 xplanet/opsxplanet.ui:290
 #, fuzzy
 #| msgid "If checked, the celestial equator will be drawn in the sky map."
 msgid "If checked, use star map file to draw the background stars."
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে খ-বিষুব আঁকা হবে।"
 
-#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetStarmapPath)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetStarmapPath)
 #. i18n: ectx: label, entry (XplanetStarmapPath), group (Xplanet)
 #. i18n: ectx: whatsthis, entry (XplanetStarmapPath), group (Xplanet)
+#. i18n: ectx: property (toolTip), widget (KLineEdit, kcfg_XplanetStarmapPath)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, kcfg_XplanetStarmapPath)
 #: kstars.kcfg:1116 kstars.kcfg:1117 xplanet/opsxplanet.ui:306
 #: xplanet/opsxplanet.ui:309
 #, fuzzy
@@ -7287,8 +7668,8 @@ msgstr "এ থেকে অনুজ্জ্বল তারা"
 msgid "Output file quality"
 msgstr "আউটপুট ফাইল..."
 
-#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetQuality)
 #. i18n: ectx: whatsthis, entry (XplanetQuality), group (Xplanet)
+#. i18n: ectx: property (whatsThis), widget (KIntSpinBox, kcfg_XplanetQuality)
 #: kstars.kcfg:1122 xplanet/opsxplanet.ui:398
 msgid ""
 "This option is only used when creating JPEG images. The quality can range "
@@ -7349,8 +7730,8 @@ msgstr "সকল প্রধান প্রধান খ-বস্তু ব�
 msgid "List of selected satellites."
 msgstr "বস্তুর শ্রেণীবিভাগের তালিকা"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysRecomputeCoordinates)
 #. i18n: ectx: label, entry (AlwaysRecomputeCoordinates), group (General)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AlwaysRecomputeCoordinates)
 #: kstars.kcfg:1154 options/opsadvanced.ui:65
 #, fuzzy
 msgid "Always recompute coordinates"
@@ -41948,10 +42329,10 @@ msgstr "জেনোয়া"
 msgid "Model:"
 msgstr "মোড"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #. i18n: ectx: property (text), widget (QLabel, label6)
 #. i18n: ectx: property (text), widget (QLabel, label_22)
+#. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
 #: oal/equipmentwriter.ui:83 oal/equipmentwriter.ui:596 oal/execute.ui:193
 #: printing/detailstable.cpp:340 tools/argsetframetypeindi.ui:30
 msgid "Type:"
@@ -42186,10 +42567,10 @@ msgstr "তালিকা থেকে খ-বস্তু বেছে নি�
 msgid "Enter Session Details:"
 msgstr "তালিকার নাম লিখুন"
 
+#. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, LocationLabel)
 #. i18n: ectx: property (text), widget (QLabel, LocationLabelBatch)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, label_2)
 #: oal/execute.ui:88 tools/modcalcaltaz.ui:80 tools/modcalcdaylength.ui:38
 #: tools/modcalcdaylength.ui:792 tools/modcalcsidtime.ui:130
 #: tools/modcalcsidtime.ui:222 tools/modcalcvlsr.ui:81
@@ -42259,6 +42640,7 @@ msgstr "সময় নির্ধারণ..."
 msgid "Right Ascension:"
 msgstr "বিষুবাংশ"
 
+#. i18n: ectx: property (text), widget (QLabel, label_27)
 #. i18n: ectx: property (text), widget (QLabel, decLabel)
 #. i18n: ectx: property (text), widget (QCheckBox, decCheckBatch)
 #. i18n: ectx: property (text), widget (QLabel, dec0Label)
@@ -42266,7 +42648,6 @@ msgstr "বিষুবাংশ"
 #. i18n: ectx: property (text), widget (QLabel, DecLabel2)
 #. i18n: ectx: property (text), widget (QLabel, DecLabel)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#. i18n: ectx: property (text), widget (QLabel, label_27)
 #: oal/execute.ui:235 tools/flagmanager.ui:49 tools/modcalcaltaz.ui:185
 #: tools/modcalcaltaz.ui:347 tools/modcalcangdist.ui:118
 #: tools/modcalcangdist.ui:203 tools/modcalcapcoord.ui:78
@@ -42677,11 +43058,11 @@ msgstr "এ থেকে অনুজ্জ্বল তারা"
 msgid "Stars fainter than this will not be drawn while the map is moving."
 msgstr "মানচিত্র সরে যাওয়ার সময় এটি অপেক্ষা অনুজ্জ্বল তারাদের আড়াল করা হবে।"
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabelMag1)
 #. i18n: ectx: property (text), widget (QLabel, LabelMag3)
 #. i18n: ectx: property (text), widget (QLabel, LabelMag4)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
+#. i18n: ectx: property (text), widget (QLabel, label_3)
 #: options/opsadvanced.ui:347 options/opscatalog.ui:494
 #: options/opscatalog.ui:505 options/opssolarsystem.ui:294
 #: tools/obslistwizard.ui:760
@@ -42733,8 +43114,8 @@ msgid ""
 msgstr ""
 "এটিতে টিক দেওয়া থাকলে, মানচিত্র সরে যাওয়ার সময় সৌরজগতের সদস্যদের আড়াল করা হবে।"
 
-#. i18n: ectx: property (text), widget (KPushButton, SolarSystemButton)
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HidePlanets)
+#. i18n: ectx: property (text), widget (KPushButton, SolarSystemButton)
 #: options/opsadvanced.ui:412 tools/obslistwizard.ui:167
 msgid "Solar system"
 msgstr "সৌরজগত্‍"
@@ -43590,10 +43971,10 @@ msgstr "শনিগ্রহ আঁকা হবে কি?"
 msgid "If checked, Saturn will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শনিগ্রহ আঁকা হবে।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSaturn)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Saturn)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSaturn)
 #: options/opssolarsystem.ui:38 skycomponents/skymapcomposite.cpp:459
 #: skyglpainter.cpp:244 skymapdrawabstract.cpp:153 skyobjects/ksplanet.cpp:137
 #: skyobjects/ksplanet.cpp:166 skyobjects/ksplanet.cpp:349
@@ -43634,10 +44015,10 @@ msgstr "মঙ্গলগ্রহ আঁকা হবে কি?"
 msgid "If checked, Mars will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে মঙ্গলগ্রহ আঁকা হবে।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMars)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mars)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMars)
 #: options/opssolarsystem.ui:64 skycomponents/skymapcomposite.cpp:457
 #: skyglpainter.cpp:242 skymapdrawabstract.cpp:151 skyobjects/ksplanet.cpp:131
 #: skyobjects/ksplanet.cpp:162 skyobjects/ksplanet.cpp:345
@@ -43721,10 +44102,10 @@ msgstr "শুক্রগ্রহ আঁকা হবে কি?"
 msgid "If checked, Venus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শুক্রগ্রহ আঁকা হবে।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowVenus)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Venus)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowVenus)
 #: options/opssolarsystem.ui:129 skycomponents/skymapcomposite.cpp:455
 #: skymapdrawabstract.cpp:149 skyobjects/ksplanet.cpp:128
 #: skyobjects/ksplanet.cpp:160 skyobjects/ksplanet.cpp:343
@@ -43761,10 +44142,10 @@ msgstr "বৃহস্পতিগ্রহ আঁকা হবে কি?"
 msgid "If checked, Jupiter will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বৃহস্পতিগ্রহ আঁকা হবে।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowJupiter)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Jupiter)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowJupiter)
 #: options/opssolarsystem.ui:155 skycomponents/skymapcomposite.cpp:458
 #: skyglpainter.cpp:244 skymapdrawabstract.cpp:152 skyobjects/ksplanet.cpp:134
 #: skyobjects/ksplanet.cpp:164 skyobjects/ksplanet.cpp:347
@@ -43802,10 +44183,10 @@ msgstr "বুধগ্রহ আঁকা হবে কি?"
 msgid "If checked, Mercury will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বুধগ্রহ আঁকা হবে।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMercury)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mercury)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMercury)
 #: options/opssolarsystem.ui:181 skycomponents/skymapcomposite.cpp:454
 #: skyglpainter.cpp:244 skymapdrawabstract.cpp:148 skyobjects/ksplanet.cpp:125
 #: skyobjects/ksplanet.cpp:158 skyobjects/ksplanet.cpp:340
@@ -43827,10 +44208,10 @@ msgstr "নেপচুন গ্রহ আঁকা হবে কি?"
 msgid "If checked, Neptune will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে নেপচুন গ্রহ আঁকা হবে।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNeptune)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Neptune)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowNeptune)
 #: options/opssolarsystem.ui:194 skycomponents/skymapcomposite.cpp:461
 #: skymapdrawabstract.cpp:155 skyobjects/ksplanet.cpp:143
 #: skyobjects/ksplanet.cpp:170 skyobjects/ksplanet.cpp:359
@@ -43852,10 +44233,10 @@ msgstr "ইউরেনাস গ্রহ আঁকা হবে কি?"
 msgid "If checked, Uranus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে ইউরেনাস গ্রহ আঁকা হবে।"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUranus)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (KComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Uranus)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUranus)
 #: options/opssolarsystem.ui:223 skycomponents/skymapcomposite.cpp:460
 #: skymapdrawabstract.cpp:154 skyobjects/ksplanet.cpp:140
 #: skyobjects/ksplanet.cpp:168 skyobjects/ksplanet.cpp:357
@@ -45108,22 +45489,33 @@ msgstr "ছোট ম্যাজেলানিয় মেঘপুঞ্জ"
 msgid "New Supernova(e) discovered!"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QPushButton, centrePushButton)
+#: skycomponents/notifyupdatesui.ui:36
+#, fuzzy
+msgid "Slew map to object"
+msgstr "বস্তুর ধরন নির্বাচন করুন:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: skycomponents/notifyupdatesui.ui:68
+msgid "New supernova(e) discovered!"
+msgstr ""
+
 #: skycomponents/satellitescomponent.cpp:47
 #, fuzzy
 #| msgid "Loading Constellations"
 msgid "Loading satellites"
 msgstr "তারামণ্ডল লোড করা হচ্ছে"
 
-#: skycomponents/satellitescomponent.cpp:115 tools/conjunctions.cpp:329
-#, fuzzy
-msgid "Abort"
-msgstr "আর্মার"
-
 #: skycomponents/satellitescomponent.cpp:115
 #, fuzzy
 #| msgid "Update"
 msgid "Update TLEs..."
 msgstr "আপডেট করো"
+
+#: skycomponents/satellitescomponent.cpp:115 tools/conjunctions.cpp:329
+#, fuzzy
+msgid "Abort"
+msgstr "আর্মার"
 
 #: skycomponents/satellitescomponent.cpp:126
 #, fuzzy, kde-format
@@ -50744,6 +51136,22 @@ msgctxt "angular size in arcminutes"
 msgid "%1 x %2 arcmin"
 msgstr "%1 আর্কমিনিট"
 
+#. i18n: ectx: property (text), widget (QToolButton, previousYear)
+#. i18n: ectx: property (text), widget (QToolButton, previousMonth)
+#. i18n: ectx: property (text), widget (QToolButton, nextMonth)
+#. i18n: ectx: property (text), widget (QToolButton, nextYear)
+#: widgets/genericcalendarwidget.ui:121 widgets/genericcalendarwidget.ui:128
+#: widgets/genericcalendarwidget.ui:167 widgets/genericcalendarwidget.ui:177
+#, fuzzy
+#| msgid "New..."
+msgid "..."
+msgstr "নতুন..."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, nextYear)
+#: widgets/genericcalendarwidget.ui:174
+msgid "Previous Year"
+msgstr ""
+
 #: widgets/infoboxwidget.cpp:77
 msgctxt "Local Time"
 msgid "LT: "
@@ -54617,9 +55025,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~ msgid "Image Loading Process..."
 #~ msgstr "ছবি লোড করার প্রক্রিয়া..."
 
-#~ msgid "Image Reduction Process..."
-#~ msgstr "ছবি ক্ষুদ্রকরণ প্রক্রিয়া..."
-
 #~ msgid "Image Reduction"
 #~ msgstr "ছবি ক্ষুদ্রকরণ"
 
@@ -54634,9 +55039,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 
 #~ msgid "Dark Frames"
 #~ msgstr "অন্ধকার ফ্রেম"
-
-#~ msgid "Flat Frames"
-#~ msgstr "সমতল ফ্রেম"
 
 #~ msgid "Dark Flat Frames"
 #~ msgstr "অন্ধকার সমতল ফ্রেম"
@@ -55099,9 +55501,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 
 #~ msgid "Topocentric v.:"
 #~ msgstr "টপোসেন্ট্রিক (topocentric) গতি:"
-
-#~ msgid "RA"
-#~ msgstr "বিষুবাংশ"
 
 #~ msgid "Dec"
 #~ msgstr "বিষুবলম্ব"
