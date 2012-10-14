@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-13 04:37+0200\n"
+"POT-Creation-Date: 2012-10-14 04:35+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -866,7 +866,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, BVIndex)
 #. i18n: ectx: property (text), item, widget (QComboBox, filterCombo)
-#: dialogs/details_data.ui:312 ekos/capture.ui:395 ekos/focus.ui:197
+#: dialogs/details_data.ui:312 ekos/capture.ui:428 ekos/focus.ui:197
 #: ekos/guide.ui:106
 msgid "--"
 msgstr "--"
@@ -2656,42 +2656,42 @@ msgstr ""
 "\n"
 "<p>শহর বেছে নেওয়া হলে, <b>পরবর্তী</b> চাপুন।</p>"
 
-#: ekos/capture.cpp:120
+#: ekos/capture.cpp:116
 msgid "Auto dark subtract is not supported in batch mode."
 msgstr ""
 
-#: ekos/capture.cpp:314
+#: ekos/capture.cpp:325
 #, kde-format
 msgid "Unable to find FILTER_SLOT property in driver %1"
 msgstr ""
 
-#: ekos/capture.cpp:374
+#: ekos/capture.cpp:393
 #, kde-format
 msgid "Received image %1 out of %2."
 msgstr ""
 
-#: ekos/capture.cpp:417
+#: ekos/capture.cpp:442
 msgid "Failed to set sub frame."
 msgstr ""
 
-#: ekos/capture.cpp:424
+#: ekos/capture.cpp:449
 #, fuzzy
 msgid "Failed to set binning."
 msgstr "ছবি লোড করা যায় নি"
 
-#: ekos/capture.cpp:433
+#: ekos/capture.cpp:458
 #, fuzzy
 #| msgid "Capture Image"
 msgid "Capturing dark frame..."
 msgstr "ছবি ধারণ করো"
 
-#: ekos/capture.cpp:443 ekos/focus.cpp:214 ekos/guide/rcalibration.cpp:669
+#: ekos/capture.cpp:468 ekos/focus.cpp:214 ekos/guide/rcalibration.cpp:669
 #, fuzzy
 #| msgid "Loading images..."
 msgid "Capturing image..."
 msgstr "ছবি লোড করা হচ্ছে..."
 
-#: ekos/capture.cpp:517 ekos/ekosmanager.cpp:958 ekos/focus.cpp:704
+#: ekos/capture.cpp:542 ekos/ekosmanager.cpp:956 ekos/focus.cpp:704
 #: ekos/guide.cpp:282
 #, kde-format
 msgctxt "log entry; %1 is the date, %2 is the text"
@@ -2699,14 +2699,14 @@ msgid "%1 %2"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, secondsLabel)
-#: ekos/capture.cpp:544 ekos/capture.ui:619
+#: ekos/capture.cpp:562 ekos/capture.ui:658
 #, fuzzy
 #| msgctxt "seconds"
 #| msgid "secs"
 msgid "second left"
 msgstr "সেকেন্ড"
 
-#: ekos/capture.cpp:546
+#: ekos/capture.cpp:564
 #, fuzzy
 #| msgctxt "seconds"
 #| msgid "secs"
@@ -2715,7 +2715,7 @@ msgstr "সেকেন্ড"
 
 #. i18n: ectx: property (title), widget (QGroupBox, setupGroup_3)
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: ekos/capture.ui:31 ekos/ekosmanager.cpp:987 ekos/opsekos.ui:157
+#: ekos/capture.ui:31 ekos/ekosmanager.cpp:985 ekos/opsekos.ui:157
 #, fuzzy
 msgid "CCD"
 msgstr "সি.সি.ডি.বি."
@@ -2724,7 +2724,7 @@ msgstr "সি.সি.ডি.বি."
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_5_3)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
-#: ekos/capture.ui:47 ekos/capture.ui:472 tools/argsetdeviceindi.ui:30
+#: ekos/capture.ui:47 ekos/capture.ui:508 tools/argsetdeviceindi.ui:30
 #: tools/argshutdownindi.ui:38 tools/argstartindi.ui:30
 msgid "Device:"
 msgstr "ডিভাইস:"
@@ -2782,7 +2782,7 @@ msgstr "উপসর্গ:"
 
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_4)
 #. i18n: ectx: property (toolTip), widget (QLabel, textLabel1_2_3)
-#: ekos/capture.ui:119 ekos/capture.ui:479
+#: ekos/capture.ui:119 ekos/capture.ui:515
 msgid "Number of images to capture"
 msgstr "যে সংখ্যক ছবি তোলা হবে"
 
@@ -2851,12 +2851,12 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_11)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_14)
-#: ekos/capture.ui:226 ekos/capture.ui:305
+#: ekos/capture.ui:226 ekos/capture.ui:308
 msgid "Y:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_15)
-#: ekos/capture.ui:334
+#: ekos/capture.ui:340
 #, fuzzy
 #| msgctxt "West"
 #| msgid "W"
@@ -2864,86 +2864,112 @@ msgid "W:"
 msgstr "পশ্চিম"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_16)
-#: ekos/capture.ui:363
+#: ekos/capture.ui:372
 msgid "H:"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QCheckBox, frameTypeCheck)
+#: ekos/capture.ui:392
+msgid "Active CCD frame type"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, frameTypeCheck)
+#. i18n: ectx: property (text), widget (QTreeWidget, OptionsList)
+#: ekos/capture.ui:395 tools/observinglist.cpp:109 tools/observinglist.cpp:112
+#: tools/optionstreeview.ui:33
+msgid "Type"
+msgstr "ধরন"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, filterCheck)
+#: ekos/capture.ui:402
+#, fuzzy
+msgid "Active filter slot"
+msgstr "আপনার ব্যবহৃত ফিল্টার চক্রের বিভিন্ন ঘরের জন্য রঙের মান নির্ধারণ করুন"
+
+#. i18n: ectx: property (text), widget (QCheckBox, filterCheck)
+#. i18n: ectx: property (title), widget (QGroupBox, setupGroup)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#. i18n: ectx: attribute (title), widget (QWidget, Filter)
+#: ekos/capture.ui:405 ekos/capture.ui:492 ekos/opsekos.ui:178
+#: oal/equipmentwriter.ui:553
+msgid "Filter"
+msgstr "ফিল্টার"
+
 #. i18n: ectx: property (text), widget (QCheckBox, darkSubCheck)
-#: ekos/capture.ui:407
+#: ekos/capture.ui:440
 msgid "Auto dark subtract"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ISOCheck)
-#: ekos/capture.ui:417
+#: ekos/capture.ui:450
 msgid "Add time stamp to the file name"
 msgstr "ফাইলের নামের সাথে টাইম স্ট্যাম্প যোগ করো"
 
 #. i18n: ectx: property (text), widget (QCheckBox, ISOCheck)
-#: ekos/capture.ui:420
+#: ekos/capture.ui:453
 msgid "Add ISO 8601 time stamp"
 msgstr "আই.এস.ও. ৮৬০১ টাইম স্ট্যাম্প যোগ করো"
 
 #. i18n: ectx: property (text), widget (QCheckBox, displayCheck)
-#: ekos/capture.ui:430
+#: ekos/capture.ui:466
 #, fuzzy
 #| msgid "FITS Viewer"
 msgid "Display in FITS Viewer"
 msgstr "FITS ফাইল প্রদর্শক"
 
-#. i18n: ectx: property (title), widget (QGroupBox, setupGroup)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
-#. i18n: ectx: attribute (title), widget (QWidget, Filter)
-#: ekos/capture.ui:456 ekos/opsekos.ui:178 oal/equipmentwriter.ui:553
-msgid "Filter"
-msgstr "ফিল্টার"
-
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_3)
 #. i18n: ectx: property (text), widget (QLabel, label_18)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2)
-#: ekos/capture.ui:485 oal/execute.ui:377 tools/argsetfilternumindi.ui:30
+#: ekos/capture.ui:521 oal/execute.ui:377 tools/argsetfilternumindi.ui:30
 msgid "Filter:"
 msgstr "ফিল্টার:"
 
-#. i18n: ectx: property (text), widget (QPushButton, startB)
-#: ekos/capture.ui:553
+#. i18n: ectx: property (text), widget (QPushButton, previewB)
+#: ekos/capture.ui:584
 #, fuzzy
-msgid "&Start"
-msgstr "আরম্ভ"
+#| msgid "CCD Preview"
+msgid "Preview"
+msgstr "সি.সি.ডি.-এর প্রাকদর্শন"
+
+#. i18n: ectx: property (text), widget (QPushButton, startB)
+#: ekos/capture.ui:594
+msgid "&Start Sequence"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, stopB)
-#: ekos/capture.ui:569
+#: ekos/capture.ui:610
 msgid "S&top"
 msgstr "স্থগি&ত"
 
 #. i18n: ectx: property (title), widget (QGroupBox, progressGroup)
-#: ekos/capture.ui:586
+#: ekos/capture.ui:625
 msgid "Progress"
 msgstr "অগ্রগতি"
 
 #. i18n: ectx: property (text), widget (QLabel, progressLabel_3)
-#: ekos/capture.ui:596
+#: ekos/capture.ui:635
 #, fuzzy
 #| msgid "Exposure:"
 msgid "Expose:"
 msgstr "এক্সপোজার:"
 
 #. i18n: ectx: property (text), widget (QLabel, progressLabel_2)
-#: ekos/capture.ui:626
+#: ekos/capture.ui:665
 msgid "Progress:"
 msgstr "অগ্রগতি:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_4_2_3)
-#: ekos/capture.ui:649
+#: ekos/capture.ui:688
 msgid "of"
 msgstr "এর"
 
 #. i18n: ectx: property (text), widget (QLabel, completedLabel_2)
-#: ekos/capture.ui:675
+#: ekos/capture.ui:714
 msgid "completed"
 msgstr "সম্পন্ন"
 
 #. i18n: ectx: property (text), widget (KPushButton, processINDIB)
-#: ekos/ekosmanager.cpp:251 ekos/ekosmanager.cpp:594 ekos/ekosmanager.ui:216
+#: ekos/ekosmanager.cpp:251 ekos/ekosmanager.cpp:584 ekos/ekosmanager.ui:216
 #, fuzzy
 #| msgid "Start"
 msgid "Start INDI"
@@ -2976,47 +3002,47 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ekos/ekosmanager.cpp:541
+#: ekos/ekosmanager.cpp:531
 #, fuzzy
 #| msgid "Configure INDI..."
 msgid "Connecting INDI devices..."
 msgstr "INDI কনফিগার করো..."
 
-#: ekos/ekosmanager.cpp:570
+#: ekos/ekosmanager.cpp:560
 msgid "Disconnecting INDI devices..."
 msgstr ""
 
-#: ekos/ekosmanager.cpp:600
+#: ekos/ekosmanager.cpp:590
 msgid "INDI services stopped."
 msgstr ""
 
-#: ekos/ekosmanager.cpp:707
+#: ekos/ekosmanager.cpp:699
 msgid "Remote devices established. Please connect devices."
 msgstr ""
 
-#: ekos/ekosmanager.cpp:784 ekos/ekosmanager.cpp:797 ekos/ekosmanager.cpp:810
-#: ekos/ekosmanager.cpp:843 ekos/ekosmanager.cpp:861 indi/indistd.cpp:409
+#: ekos/ekosmanager.cpp:776 ekos/ekosmanager.cpp:789 ekos/ekosmanager.cpp:802
+#: ekos/ekosmanager.cpp:835 ekos/ekosmanager.cpp:853 indi/indistd.cpp:409
 #, kde-format
 msgid "%1 is online."
 msgstr "%1 অনলাইনে আছে।"
 
-#: ekos/ekosmanager.cpp:882
+#: ekos/ekosmanager.cpp:874
 #, fuzzy, kde-format
 #| msgid "%1 is online."
 msgid "%1 is offline."
 msgstr "%1 অনলাইনে আছে।"
 
-#: ekos/ekosmanager.cpp:998 fitsviewer/fitsviewer.cpp:222
+#: ekos/ekosmanager.cpp:996 fitsviewer/fitsviewer.cpp:222
 msgid "Focus"
 msgstr ""
 
-#: ekos/ekosmanager.cpp:1014 fitsviewer/fitsviewer.cpp:226
+#: ekos/ekosmanager.cpp:1012 fitsviewer/fitsviewer.cpp:226
 #, fuzzy
 #| msgid "Guides"
 msgid "Guide"
 msgstr "নির্দেশিকা"
 
-#: ekos/ekosmanager.cpp:1022
+#: ekos/ekosmanager.cpp:1020
 #, kde-format
 msgid "Guider port from %1 is ready."
 msgstr ""
@@ -3149,7 +3175,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, clearB)
 #. i18n: ectx: property (text), widget (KPushButton, ClearButton)
 #. i18n: ectx: property (text), widget (KPushButton, Clear)
-#: ekos/ekosmanager.ui:322 indi/guimanager.cpp:69 indi/indimenu.cpp:74
+#: ekos/ekosmanager.ui:322 indi/guimanager.cpp:70 indi/indimenu.cpp:74
 #: tools/conjunctions.ui:211 tools/modcalcgeod.ui:160
 #, fuzzy
 msgid "Clear"
@@ -4423,16 +4449,16 @@ msgstr ""
 "'indihosts.xml' ফাইলে লেখা যাচ্ছে না\n"
 "INDI হোস্টের কনফিগারেশনে কোন পরিবর্তন করলে তা সংরক্ষিত হবে না।"
 
-#: indi/guimanager.cpp:66 indi/indimenu.cpp:71
+#: indi/guimanager.cpp:67 indi/indimenu.cpp:71
 msgid "INDI Control Panel"
 msgstr "INDI নিয়ন্ত্রণ প্যানেল"
 
-#: indi/guimanager.cpp:70 indi/indimenu.cpp:75
+#: indi/guimanager.cpp:71 indi/indimenu.cpp:75
 #, fuzzy
 msgid "Close"
 msgstr "রং"
 
-#: indi/guimanager.cpp:93 indi/indimenu.cpp:103
+#: indi/guimanager.cpp:94 indi/indimenu.cpp:103
 msgid ""
 "No INDI devices currently running. To run devices, please select devices "
 "from the Device Manager in the devices menu."
@@ -4440,12 +4466,12 @@ msgstr ""
 "বর্তমানে কোন INDI ডিভাইস চলছে না।  এ ধরনের কোন ডিভাইস চালানোর জন্য অনুগ্রহপূর্বক "
 "ডিভাইস মেনুর ডিভাইস ব্যবস্থাপক থেকে ডিভাইস বেছে নিন।"
 
-#: indi/indiccd.cpp:653
+#: indi/indiccd.cpp:657
 #, kde-format
 msgid "FITS file saved to %1"
 msgstr "FITS ফাইলকে %1-এ সংরক্ষণ করা হয়েছে"
 
-#: indi/indielement.cpp:322
+#: indi/indielement.cpp:323
 msgid "INDI DATA STREAM"
 msgstr ""
 
@@ -4482,12 +4508,22 @@ msgstr ""
 msgid "&Cancel"
 msgstr "কান"
 
-#: indi/indiproperty.cpp:336
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
+#: indi/indiproperty.cpp:249 indi/opsindi.ui:232 tools/observinglist.cpp:113
+msgid "Time"
+msgstr "সময়"
+
+#: indi/indiproperty.cpp:251 indi/indiproperty.cpp:283
+#, fuzzy
+msgid "Set"
+msgstr "সূর্যাস্ত:"
+
+#: indi/indiproperty.cpp:338
 msgid ""
 "Enable binary data transfer from this property to KStars and vice-versa."
 msgstr ""
 
-#: indi/indiproperty.cpp:343
+#: indi/indiproperty.cpp:345
 msgid "Upload"
 msgstr "আপলোড"
 
@@ -4605,11 +4641,6 @@ msgstr "সংযোগ স্থাপনের পর দূরবীক্ষ
 #: indi/opsindi.ui:229
 msgid "Synchronize KStars date and time automatically from the update source."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_useTimeUpdate)
-#: indi/opsindi.ui:232 tools/observinglist.cpp:113
-msgid "Time"
-msgstr "সময়"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_useGeographicUpdate)
 #: indi/opsindi.ui:242
@@ -42439,6 +42470,2541 @@ msgstr ""
 msgid "Go to previous Wizard page"
 msgstr ""
 
+#: libindi_strings.cpp:1
+msgctxt "string from libindi, used in the config dialog"
+msgid "100x"
+msgstr ""
+
+#: libindi_strings.cpp:2
+msgctxt "string from libindi, used in the config dialog"
+msgid "10x"
+msgstr ""
+
+#: libindi_strings.cpp:3
+msgctxt "string from libindi, used in the config dialog"
+msgid "1200x"
+msgstr ""
+
+#: libindi_strings.cpp:4
+msgctxt "string from libindi, used in the config dialog"
+msgid "12x"
+msgstr ""
+
+#: libindi_strings.cpp:5
+msgctxt "string from libindi, used in the config dialog"
+msgid "600x"
+msgstr ""
+
+#: libindi_strings.cpp:6
+msgctxt "string from libindi, used in the config dialog"
+msgid "64x"
+msgstr ""
+
+#: libindi_strings.cpp:7
+msgctxt "string from libindi, used in the config dialog"
+msgid "900x"
+msgstr ""
+
+#: libindi_strings.cpp:8
+msgctxt "string from libindi, used in the config dialog"
+msgid ":CM#"
+msgstr ""
+
+#: libindi_strings.cpp:9
+msgctxt "string from libindi, used in the config dialog"
+msgid ":CMR#"
+msgstr ""
+
+#: libindi_strings.cpp:10
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "AP UTC Offset"
+msgstr "বিশ্বজনীন-সময় (universal Time) থেকে পার্থক্য:"
+
+#: libindi_strings.cpp:11
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "AP local time"
+msgstr "স্থানীয় সময়"
+
+#: libindi_strings.cpp:12
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "AP sidereal time"
+msgstr "নাক্ষত্র কাল"
+
+#: libindi_strings.cpp:13
+msgctxt "string from libindi, used in the config dialog"
+msgid "Abell"
+msgstr ""
+
+#: libindi_strings.cpp:14
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Abort"
+msgstr "আর্মার"
+
+#: libindi_strings.cpp:15
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Abort Motion"
+msgstr "সমন্বয়"
+
+#: libindi_strings.cpp:16
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Abort Slew"
+msgstr "আর্মার"
+
+#: libindi_strings.cpp:17
+msgctxt "string from libindi, used in the config dialog"
+msgid "Abort Slew/Track"
+msgstr ""
+
+#: libindi_strings.cpp:18
+#, fuzzy
+#| msgid "Reset Position"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Absolute Position"
+msgstr "অবস্থান রিসেট করো"
+
+#: libindi_strings.cpp:19
+msgctxt "string from libindi, used in the config dialog"
+msgid "Activate"
+msgstr ""
+
+#: libindi_strings.cpp:20
+#, fuzzy
+#| msgid "Local Time"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Actual Time"
+msgstr "স্থানীয় সময়"
+
+#: libindi_strings.cpp:21
+msgctxt "string from libindi, used in the config dialog"
+msgid "Alignment"
+msgstr ""
+
+#: libindi_strings.cpp:22
+msgctxt "string from libindi, used in the config dialog"
+msgid "Alt  D:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:23
+msgctxt "string from libindi, used in the config dialog"
+msgid "Alt/Dec Anti-backslash"
+msgstr ""
+
+#: libindi_strings.cpp:24
+msgctxt "string from libindi, used in the config dialog"
+msgid "Alt/Dec PEC"
+msgstr ""
+
+#: libindi_strings.cpp:25
+msgctxt "string from libindi, used in the config dialog"
+msgid "AltAz"
+msgstr ""
+
+#: libindi_strings.cpp:26
+msgctxt "string from libindi, used in the config dialog"
+msgid "Anti Flicker"
+msgstr ""
+
+#: libindi_strings.cpp:27
+#, fuzzy
+#| msgid "Aperture:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Aperture (mm)"
+msgstr "অ্যাপার্চার:"
+
+#: libindi_strings.cpp:28
+msgctxt "string from libindi, used in the config dialog"
+msgid "Arp"
+msgstr ""
+
+#: libindi_strings.cpp:29
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Armour"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Atmosphere"
+msgstr "আর্মার"
+
+#: libindi_strings.cpp:30
+#, fuzzy
+#| msgid "Auto"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Auto"
+msgstr "স্বয়ংক্রিয়"
+
+#: libindi_strings.cpp:31
+#, fuzzy
+#| msgid "Remove Label"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Auxiliary"
+msgstr "লেবেল অপসারণ করো"
+
+#: libindi_strings.cpp:32
+msgctxt "string from libindi, used in the config dialog"
+msgid "Az D:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:33
+msgctxt "string from libindi, used in the config dialog"
+msgid "Az/Ra Anti-backslash"
+msgstr ""
+
+#: libindi_strings.cpp:34
+msgctxt "string from libindi, used in the config dialog"
+msgid "Az/Ra PEC"
+msgstr ""
+
+#: libindi_strings.cpp:35
+msgctxt "string from libindi, used in the config dialog"
+msgid "Back Light"
+msgstr ""
+
+#: libindi_strings.cpp:36
+#, fuzzy
+#| msgid "Info Box Background"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Backlash"
+msgstr "তথ্যমূলক বাক্সের পটভূমি"
+
+#: libindi_strings.cpp:37
+msgctxt "string from libindi, used in the config dialog"
+msgid "Bias"
+msgstr ""
+
+#: libindi_strings.cpp:38
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Mellingen"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Binning"
+msgstr "মেলিঙ্গেন"
+
+#: libindi_strings.cpp:39
+msgctxt "string from libindi, used in the config dialog"
+msgid "Bits per pixel"
+msgstr ""
+
+#: libindi_strings.cpp:40
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Blue"
+msgstr "ওয়েকফিল্ড"
+
+#: libindi_strings.cpp:41
+#, fuzzy
+#| msgid "Brightness:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Brightness"
+msgstr "উজ্জ্বলতা:"
+
+#: libindi_strings.cpp:42
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD Bias"
+msgstr "সি.সি.ডি.ভি."
+
+#: libindi_strings.cpp:43
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD Information"
+msgstr "ঋতু সংক্রান্ত তথ্য"
+
+#: libindi_strings.cpp:44
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD Maximum ADU"
+msgstr ""
+
+#: libindi_strings.cpp:45
+#, fuzzy
+#| msgid "CCD Preview"
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD Noise"
+msgstr "সি.সি.ডি.-এর প্রাকদর্শন"
+
+#: libindi_strings.cpp:46
+#, fuzzy
+#| msgid "Calculator"
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD Simulator"
+msgstr "ক্যালকুলেটর"
+
+#: libindi_strings.cpp:47
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD X Pixel Size"
+msgstr ""
+
+#: libindi_strings.cpp:48
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD X resolution"
+msgstr ""
+
+#: libindi_strings.cpp:49
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD Y Pixel Size"
+msgstr ""
+
+#: libindi_strings.cpp:50
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD Y resolution"
+msgstr ""
+
+#: libindi_strings.cpp:51
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCD1"
+msgstr ""
+
+#: libindi_strings.cpp:52
+msgctxt "string from libindi, used in the config dialog"
+msgid "CCDs"
+msgstr ""
+
+#: libindi_strings.cpp:53
+#, fuzzy
+#| msgctxt "star name"
+#| msgid "Capella"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Caldwell"
+msgstr "ব্রক্ষহৃদয় (ক্যাপেলা)"
+
+#: libindi_strings.cpp:54
+#, fuzzy
+#| msgid "Camera"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Camera Model"
+msgstr "ক্যামেরা"
+
+#: libindi_strings.cpp:55
+msgctxt "string from libindi, used in the config dialog"
+msgid "Celsius"
+msgstr ""
+
+#: libindi_strings.cpp:56
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Centering"
+msgstr "কেন্দ্রে আনো (&ক)"
+
+#: libindi_strings.cpp:57
+#, fuzzy
+#| msgid "Color:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Color"
+msgstr "রং:"
+
+#: libindi_strings.cpp:58
+#, fuzzy
+#| msgid "Comet"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Comet"
+msgstr "ধূমকেতু"
+
+#: libindi_strings.cpp:59
+msgctxt "string from libindi, used in the config dialog"
+msgid "Comet DEC motion arcmin/day"
+msgstr ""
+
+#: libindi_strings.cpp:60
+msgctxt "string from libindi, used in the config dialog"
+msgid "Comet RA motion arcmin/day"
+msgstr ""
+
+#: libindi_strings.cpp:61
+msgctxt "string from libindi, used in the config dialog"
+msgid "Comet tracking parameters"
+msgstr ""
+
+#: libindi_strings.cpp:62
+#, fuzzy
+#| msgid "Connection"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Communication"
+msgstr "সংযোগ"
+
+#: libindi_strings.cpp:63
+#, fuzzy
+#| msgid "Compute"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Compress"
+msgstr "গণনা করো"
+
+#: libindi_strings.cpp:64
+#, fuzzy
+#| msgid "Precession"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Compression"
+msgstr "অয়নচলন"
+
+#: libindi_strings.cpp:65
+#, fuzzy
+#| msgid "Delete Confirmation"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Configuration"
+msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
+
+#: libindi_strings.cpp:66
+#, fuzzy
+#| msgid "Connect"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Connect"
+msgstr "সংযোগ স্থাপন করো"
+
+#: libindi_strings.cpp:67
+#, fuzzy
+#| msgid "Connection"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Connection"
+msgstr "সংযোগ"
+
+#: libindi_strings.cpp:68
+#, fuzzy
+#| msgid "Contrast:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Contrast"
+msgstr "রঙের-পার্থক্য:"
+
+#: libindi_strings.cpp:69
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:70
+msgctxt "string from libindi, used in the config dialog"
+msgid "DEC (dd:mm:ss)"
+msgstr ""
+
+#: libindi_strings.cpp:71
+msgctxt "string from libindi, used in the config dialog"
+msgid "Dark"
+msgstr ""
+
+#: libindi_strings.cpp:72
+#, fuzzy
+#| msgid "Date:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Date"
+msgstr "তারিখ:"
+
+#: libindi_strings.cpp:73
+#, fuzzy
+#| msgid "Date/Time:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Date/Time"
+msgstr "তারিখ/সময়:"
+
+#: libindi_strings.cpp:74
+#, fuzzy
+#| msgid "Date && Location"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Date/Time/Location"
+msgstr "তারিখ ও অবস্থান"
+
+#: libindi_strings.cpp:75
+msgctxt "string from libindi, used in the config dialog"
+msgid "Debug"
+msgstr ""
+
+#: libindi_strings.cpp:76
+#, fuzzy
+#| msgid "arcmin"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Dec (arcmin)"
+msgstr "আর্কমিনিট"
+
+#: libindi_strings.cpp:77
+msgctxt "string from libindi, used in the config dialog"
+msgid "Dec (dd:mm:ss)"
+msgstr ""
+
+#: libindi_strings.cpp:78
+msgctxt "string from libindi, used in the config dialog"
+msgid "Dec D:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:79
+#, fuzzy
+#| msgid "Declination"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Declination axis"
+msgstr "বিষুবলম্ব"
+
+#: libindi_strings.cpp:80
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Deep Sky Catalogs"
+msgstr "দূর-আকাশের বস্তু"
+
+#: libindi_strings.cpp:81
+#, fuzzy
+#| msgid "default"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: libindi_strings.cpp:82
+#, fuzzy
+#| msgid "Device"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Device"
+msgstr "ডিভাইস"
+
+#: libindi_strings.cpp:83
+msgctxt "string from libindi, used in the config dialog"
+msgid "Diff. Eq."
+msgstr ""
+
+#: libindi_strings.cpp:84
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Direction"
+msgstr "সংযোগ"
+
+#: libindi_strings.cpp:85
+#, fuzzy
+#| msgctxt "Show Detailed Information Dialog"
+#| msgid "Details"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Disable"
+msgstr "বিস্তারিত"
+
+#: libindi_strings.cpp:86
+#, fuzzy
+#| msgid "Disconnect"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Disconnect"
+msgstr "সংযোগ বিচ্ছিন্ন করো"
+
+#: libindi_strings.cpp:87
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Dome control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:88
+#, fuzzy
+#| msgid "Duration:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Duration (s)"
+msgstr "ব্যাপ্তি:"
+
+#: libindi_strings.cpp:89
+msgctxt "string from libindi, used in the config dialog"
+msgid "Duty cycle"
+msgstr ""
+
+#: libindi_strings.cpp:90
+msgctxt "string from libindi, used in the config dialog"
+msgid "EQ Coord"
+msgstr ""
+
+#: libindi_strings.cpp:91
+msgctxt "string from libindi, used in the config dialog"
+msgid "EQ PEC"
+msgstr ""
+
+#: libindi_strings.cpp:92
+#, fuzzy
+#| msgid "&East"
+msgctxt "string from libindi, used in the config dialog"
+msgid "East"
+msgstr "পূর্ব (&প)"
+
+#: libindi_strings.cpp:93
+msgctxt "string from libindi, used in the config dialog"
+msgid "East (msec)"
+msgstr ""
+
+#: libindi_strings.cpp:94
+msgctxt "string from libindi, used in the config dialog"
+msgid "East (sec)"
+msgstr ""
+
+#: libindi_strings.cpp:95
+msgctxt "string from libindi, used in the config dialog"
+msgid "East/West"
+msgstr ""
+
+#: libindi_strings.cpp:96
+msgctxt "string from libindi, used in the config dialog"
+msgid "Enable"
+msgstr ""
+
+#: libindi_strings.cpp:97
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Eq. Coordinates"
+msgstr "সমস্যাযুক্ত স্থানাংক"
+
+#: libindi_strings.cpp:98
+#, fuzzy
+#| msgid "Equatorial"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Equatorial JNow"
+msgstr "নিরক্ষীয়"
+
+#: libindi_strings.cpp:99
+#, fuzzy
+#| msgid "Exposure:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Expose"
+msgstr "এক্সপোজার:"
+
+#: libindi_strings.cpp:100
+msgctxt "string from libindi, used in the config dialog"
+msgid "Extended GPS Features"
+msgstr ""
+
+#: libindi_strings.cpp:101
+msgctxt "string from libindi, used in the config dialog"
+msgid "Extrama"
+msgstr ""
+
+#: libindi_strings.cpp:102
+#, fuzzy
+#| msgid "FWHM:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "FWHM"
+msgstr "FWHM:"
+
+#: libindi_strings.cpp:103
+#, fuzzy
+#| msgid "arcsecs"
+msgctxt "string from libindi, used in the config dialog"
+msgid "FWHM (arcseconds)"
+msgstr "আর্কসেকেন্ড"
+
+#: libindi_strings.cpp:104
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Falcon"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Factory"
+msgstr "ফ্যালকন"
+
+#: libindi_strings.cpp:105
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Nandi"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Fan"
+msgstr "নন্দী"
+
+#: libindi_strings.cpp:106
+msgctxt "string from libindi, used in the config dialog"
+msgid "Fast"
+msgstr ""
+
+#: libindi_strings.cpp:107
+msgctxt "string from libindi, used in the config dialog"
+msgid "Feed"
+msgstr ""
+
+#: libindi_strings.cpp:108
+msgctxt "string from libindi, used in the config dialog"
+msgid "Feedback"
+msgstr ""
+
+#: libindi_strings.cpp:109
+msgctxt "string from libindi, used in the config dialog"
+msgid "Field De-rotator"
+msgstr ""
+
+#: libindi_strings.cpp:110
+#, fuzzy
+#| msgid "Filter"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Filter"
+msgstr "ফিল্টার"
+
+#: libindi_strings.cpp:111
+#, fuzzy, c-format
+#| msgid "Filter"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Filter #%d"
+msgstr "ফিল্টার"
+
+#: libindi_strings.cpp:112
+#, fuzzy
+#| msgid "Filter:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Filter Simulator"
+msgstr "ফিল্টার:"
+
+#: libindi_strings.cpp:113
+#, fuzzy
+#| msgid "Filter Wheel"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Filter Wheel"
+msgstr "ফিল্টার চক্র"
+
+#: libindi_strings.cpp:114
+#, fuzzy
+#| msgid "Find City"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Find"
+msgstr "শহর অনুসন্ধান"
+
+#: libindi_strings.cpp:115
+msgctxt "string from libindi, used in the config dialog"
+msgid "Firmware"
+msgstr ""
+
+#: libindi_strings.cpp:116
+#, fuzzy
+#| msgid "Star Info"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Firmware Info"
+msgstr "তারা বিষয়ক তথ্য"
+
+#: libindi_strings.cpp:117
+msgctxt "string from libindi, used in the config dialog"
+msgid "Firmware data"
+msgstr ""
+
+#: libindi_strings.cpp:118
+msgctxt "string from libindi, used in the config dialog"
+msgid "Firmware version"
+msgstr ""
+
+#: libindi_strings.cpp:119
+msgctxt "string from libindi, used in the config dialog"
+msgid "Flat"
+msgstr ""
+
+#: libindi_strings.cpp:120
+msgctxt "string from libindi, used in the config dialog"
+msgid "Fluorescent"
+msgstr ""
+
+#: libindi_strings.cpp:121 libindi_strings.cpp:122
+#, fuzzy
+#| msgid "Focal length:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focal Length (mm)"
+msgstr "ফোকাস দূরত্ব:"
+
+#: libindi_strings.cpp:123
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focus Control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:124
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focus In"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:125
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focus Out"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:126
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focus Speed"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:127
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focus Timer"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:128
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focus in"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:129
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focus out"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:130
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focuser"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:131
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focuser Simulator"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:132
+#, fuzzy
+#| msgid "Focused on: "
+msgctxt "string from libindi, used in the config dialog"
+msgid "Focusers"
+msgstr "ফোকাসকৃত বস্তু: "
+
+#: libindi_strings.cpp:133
+#, fuzzy
+#| msgid "Name:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Frame"
+msgstr "নাম:"
+
+#: libindi_strings.cpp:134
+#, fuzzy
+#| msgid "Name:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Frame Rate"
+msgstr "নাম:"
+
+#: libindi_strings.cpp:135
+#, fuzzy
+#| msgid "Name:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "FrameType"
+msgstr "নাম:"
+
+#: libindi_strings.cpp:136
+msgctxt "string from libindi, used in the config dialog"
+msgid "Freq"
+msgstr ""
+
+#: libindi_strings.cpp:137
+#, fuzzy
+#| msgctxt "moon phase, 100 percent illuminated"
+#| msgid "Full moon"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Full"
+msgstr "পূর্ণিমা"
+
+#: libindi_strings.cpp:138
+msgctxt "string from libindi, used in the config dialog"
+msgid "GCVS"
+msgstr ""
+
+#: libindi_strings.cpp:139
+msgctxt "string from libindi, used in the config dialog"
+msgid "GOTO"
+msgstr ""
+
+#: libindi_strings.cpp:140
+msgctxt "string from libindi, used in the config dialog"
+msgid "GPS Power"
+msgstr ""
+
+#: libindi_strings.cpp:141
+#, fuzzy
+#| msgid "Status"
+msgctxt "string from libindi, used in the config dialog"
+msgid "GPS Status"
+msgstr "অবস্থা"
+
+#: libindi_strings.cpp:142
+#, fuzzy
+#| msgid "Solar System"
+msgctxt "string from libindi, used in the config dialog"
+msgid "GPS System"
+msgstr "সৌরজগত্‍"
+
+#: libindi_strings.cpp:143
+msgctxt "string from libindi, used in the config dialog"
+msgid "GPS/16 inch Features"
+msgstr ""
+
+#: libindi_strings.cpp:144
+#, fuzzy
+#| msgid "Gamma:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Gamma D:M:S"
+msgstr "গামা:"
+
+#: libindi_strings.cpp:145
+msgctxt "string from libindi, used in the config dialog"
+msgid "Generic Video4Linux"
+msgstr ""
+
+#: libindi_strings.cpp:146 libindi_strings.cpp:147
+#, fuzzy
+#| msgid "&Geographic location"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Geographic Location"
+msgstr "ভৌ&গলিক অবস্থান"
+
+#: libindi_strings.cpp:148
+msgctxt "string from libindi, used in the config dialog"
+msgid "Goto"
+msgstr ""
+
+#: libindi_strings.cpp:149
+#, fuzzy
+#| msgctxt "Country name (optional, but should be translated)"
+#| msgid "Greece"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Green"
+msgstr "গ্রিস"
+
+#: libindi_strings.cpp:150
+msgctxt "string from libindi, used in the config dialog"
+msgid "Grey"
+msgstr ""
+
+#: libindi_strings.cpp:151
+#, fuzzy
+#| msgid "Guides"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guide"
+msgstr "নির্দেশিকা"
+
+#: libindi_strings.cpp:152
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guide East/West"
+msgstr ""
+
+#: libindi_strings.cpp:153
+#, fuzzy
+#| msgid "Guides"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guide Head"
+msgstr "নির্দেশিকা"
+
+#: libindi_strings.cpp:154
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guide North/South"
+msgstr ""
+
+#: libindi_strings.cpp:155
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guide West/East"
+msgstr ""
+
+#: libindi_strings.cpp:156
+#, fuzzy
+#| msgid "Filter Wheel"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guide Wheel"
+msgstr "ফিল্টার চক্র"
+
+#: libindi_strings.cpp:157
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guider Control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:158
+#, fuzzy
+#| msgid "Image"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Guider Image"
+msgstr "ছবি"
+
+#: libindi_strings.cpp:159
+#, fuzzy
+#| msgctxt "star name"
+#| msgid "Alphard"
+msgctxt "string from libindi, used in the config dialog"
+msgid "H Alpha"
+msgstr "কালিয়"
+
+#: libindi_strings.cpp:160
+msgctxt "string from libindi, used in the config dialog"
+msgid "H:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:161
+msgctxt "string from libindi, used in the config dialog"
+msgid "HA H:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:162
+msgctxt "string from libindi, used in the config dialog"
+msgid "Halt"
+msgstr ""
+
+#: libindi_strings.cpp:163
+#, fuzzy
+#| msgid "Height:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Height"
+msgstr "উচ্চতা:"
+
+#: libindi_strings.cpp:164
+#, fuzzy
+#| msgid "Height:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Height m"
+msgstr "উচ্চতা:"
+
+#: libindi_strings.cpp:165
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Highmore"
+msgctxt "string from libindi, used in the config dialog"
+msgid "High"
+msgstr "হাইমোর"
+
+#: libindi_strings.cpp:166
+#, fuzzy
+#| msgid "Horizontal Coordinates"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Horizontal Coords"
+msgstr "অনুভূমিক স্থানাঙ্ক"
+
+#: libindi_strings.cpp:167
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Hour axis"
+msgstr "রক হিল"
+
+#: libindi_strings.cpp:168
+#, fuzzy
+#| msgid "Hour angle:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Hourangle Coords"
+msgstr "ঘন্টা কোণ:"
+
+#: libindi_strings.cpp:169
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Helena"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Hue"
+msgstr "হেলেনা"
+
+#: libindi_strings.cpp:170
+msgctxt "string from libindi, used in the config dialog"
+msgid "Humidity Perc."
+msgstr ""
+
+#: libindi_strings.cpp:171
+#, fuzzy
+#| msgctxt "First letter in 'Center'"
+#| msgid "C"
+msgctxt "string from libindi, used in the config dialog"
+msgid "IC"
+msgstr "কেন্দ্র"
+
+#: libindi_strings.cpp:172
+#, fuzzy
+#| msgid "Image"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Image"
+msgstr "ছবি"
+
+#: libindi_strings.cpp:173
+#, fuzzy
+#| msgid "Image Reduction"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Image Adjustments"
+msgstr "ছবি ক্ষুদ্রকরণ"
+
+#: libindi_strings.cpp:174
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Image Control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:175
+#, fuzzy
+#| msgid "Image Format"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Image Data"
+msgstr "ছবির বিন্যাস (format)"
+
+#: libindi_strings.cpp:176
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Image Info"
+msgstr "ছবি"
+
+#: libindi_strings.cpp:177
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Image Settings"
+msgstr "ছবি"
+
+#: libindi_strings.cpp:178
+#, fuzzy
+#| msgid "Image"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Image Type"
+msgstr "ছবি"
+
+#: libindi_strings.cpp:179
+msgctxt "string from libindi, used in the config dialog"
+msgid "Indoor"
+msgstr ""
+
+#: libindi_strings.cpp:180
+#, fuzzy
+#| msgid "InfoBoxes"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Info"
+msgstr "তথ্যমূলক-বাক্স"
+
+#: libindi_strings.cpp:181
+#, fuzzy
+#| msgid "Jupiter"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Jupiter"
+msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
+
+#: libindi_strings.cpp:182
+msgctxt "string from libindi, used in the config dialog"
+msgid "LX200 Basic"
+msgstr ""
+
+#: libindi_strings.cpp:183
+msgctxt "string from libindi, used in the config dialog"
+msgid "Lat (dd:mm:ss)"
+msgstr ""
+
+#: libindi_strings.cpp:184
+msgctxt "string from libindi, used in the config dialog"
+msgid "Lat.  D:M:S +N"
+msgstr ""
+
+#: libindi_strings.cpp:185
+msgctxt "string from libindi, used in the config dialog"
+msgid "Lat. D:M:S +N"
+msgstr ""
+
+#: libindi_strings.cpp:186
+msgctxt "string from libindi, used in the config dialog"
+msgid "Left"
+msgstr ""
+
+#: libindi_strings.cpp:187
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Gibraltar"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Library"
+msgstr "জিবরাল্টার"
+
+#: libindi_strings.cpp:188
+#, fuzzy
+#| msgid "Height:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Light"
+msgstr "উচ্চতা:"
+
+#: libindi_strings.cpp:189
+msgctxt "string from libindi, used in the config dialog"
+msgid "Limiting Mag"
+msgstr ""
+
+#: libindi_strings.cpp:190
+msgctxt "string from libindi, used in the config dialog"
+msgid "Load"
+msgstr ""
+
+#: libindi_strings.cpp:191
+msgctxt "string from libindi, used in the config dialog"
+msgid "Lon (dd:mm:ss)"
+msgstr ""
+
+#: libindi_strings.cpp:192
+#, fuzzy
+#| msgid "Long.:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Long. D:M:S +E"
+msgstr "দ্রাঘিমাংশ:"
+
+#: libindi_strings.cpp:193
+#, fuzzy
+#| msgid "Log"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Low"
+msgstr "লগ"
+
+#: libindi_strings.cpp:194
+msgctxt "string from libindi, used in the config dialog"
+msgid "Luminosity"
+msgstr ""
+
+#: libindi_strings.cpp:195
+msgctxt "string from libindi, used in the config dialog"
+msgid "Lunar"
+msgstr ""
+
+#: libindi_strings.cpp:196
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Main Control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:197
+#, fuzzy
+#| msgctxt "Country name (optional, but should be translated)"
+#| msgid "Vanuatu"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Manual"
+msgstr "ভানুয়াটু"
+
+#: libindi_strings.cpp:198
+#, fuzzy
+#| msgctxt "Country name (optional, but should be translated)"
+#| msgid "Vanuatu"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Manual Blue"
+msgstr "ভানুয়াটু"
+
+#: libindi_strings.cpp:199
+#, fuzzy
+#| msgctxt "Country name (optional, but should be translated)"
+#| msgid "Vanuatu"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Manual Red"
+msgstr "ভানুয়াটু"
+
+#: libindi_strings.cpp:200
+#, fuzzy
+#| msgid "Mars"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Mars"
+msgstr "মঙ্গলগ্রহ (মার্স)"
+
+#: libindi_strings.cpp:201
+#, fuzzy
+#| msgctxt "Country name (optional, but should be translated)"
+#| msgid "Western sahara"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Master alarm"
+msgstr "পশ্চিম সাহারা"
+
+#: libindi_strings.cpp:202
+#, fuzzy
+#| msgid "Max."
+msgctxt "string from libindi, used in the config dialog"
+msgid "Max"
+msgstr "সর্বোচ্চ"
+
+#: libindi_strings.cpp:203
+msgctxt "string from libindi, used in the config dialog"
+msgid "Max slew Rate"
+msgstr ""
+
+#: libindi_strings.cpp:204
+msgctxt "string from libindi, used in the config dialog"
+msgid "Max. travel"
+msgstr ""
+
+#: libindi_strings.cpp:205
+msgctxt "string from libindi, used in the config dialog"
+msgid "Maximum Tick"
+msgstr ""
+
+#: libindi_strings.cpp:206
+msgctxt "string from libindi, used in the config dialog"
+msgid "Maximum travel"
+msgstr ""
+
+#: libindi_strings.cpp:207
+msgctxt "string from libindi, used in the config dialog"
+msgid "Medium"
+msgstr ""
+
+#: libindi_strings.cpp:208
+#, fuzzy
+#| msgid "Mercury"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Mercury"
+msgstr "বুধগ্রহ (মার্কারি)"
+
+#: libindi_strings.cpp:209
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Messina"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Messier"
+msgstr "মেসিনা"
+
+#: libindi_strings.cpp:210
+msgctxt "string from libindi, used in the config dialog"
+msgid "Minimum Tick"
+msgstr ""
+
+#: libindi_strings.cpp:211
+#, fuzzy
+#| msgid "Mode"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Mode"
+msgstr "মোড"
+
+#: libindi_strings.cpp:212
+#, fuzzy
+#| msgid "Mode"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Model"
+msgstr "মোড"
+
+#: libindi_strings.cpp:213
+#, fuzzy
+#| msgid "Moon"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Moon"
+msgstr "চাঁদ"
+
+#: libindi_strings.cpp:214
+#, fuzzy
+#| msgid "Position"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Motion"
+msgstr "অবস্থান"
+
+#: libindi_strings.cpp:215
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Motion Control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:216
+msgctxt "string from libindi, used in the config dialog"
+msgid "Motor Steps"
+msgstr ""
+
+#: libindi_strings.cpp:217
+msgctxt "string from libindi, used in the config dialog"
+msgid "Motor steps per tick"
+msgstr ""
+
+#: libindi_strings.cpp:218
+#, fuzzy
+#| msgid "Topocentric coordinates"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Mount coordinates"
+msgstr "টপোসেন্ট্রিক (topocentric) স্থানাঙ্ক"
+
+#: libindi_strings.cpp:219
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "St. John"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Mount init."
+msgstr "সেন্ট জন"
+
+#: libindi_strings.cpp:220
+#, fuzzy
+#| msgid "&Pointing"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Mounting"
+msgstr "নির্দে&শক"
+
+#: libindi_strings.cpp:221
+msgctxt "string from libindi, used in the config dialog"
+msgid "Move to rate"
+msgstr ""
+
+#: libindi_strings.cpp:222
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Movement Control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:223
+msgctxt "string from libindi, used in the config dialog"
+msgid "NGC"
+msgstr ""
+
+#: libindi_strings.cpp:224
+#, fuzzy
+#| msgid "Name"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Name"
+msgstr "নাম"
+
+#: libindi_strings.cpp:225
+#, fuzzy
+#| msgid "Neptune"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Neptune"
+msgstr "নেপচুন"
+
+#: libindi_strings.cpp:226
+#, fuzzy
+#| msgid "Image Reduction"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Noise Reduction"
+msgstr "ছবি ক্ষুদ্রকরণ"
+
+#: libindi_strings.cpp:227
+#, fuzzy
+#| msgid "None"
+msgctxt "string from libindi, used in the config dialog"
+msgid "None"
+msgstr "একটিও নয়"
+
+#: libindi_strings.cpp:228
+#, fuzzy
+#| msgid "&North"
+msgctxt "string from libindi, used in the config dialog"
+msgid "North"
+msgstr "&উত্তর"
+
+#: libindi_strings.cpp:229
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "North Bellmore"
+msgctxt "string from libindi, used in the config dialog"
+msgid "North (msec)"
+msgstr "নর্থ বেলমোর"
+
+#: libindi_strings.cpp:230
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "North Bellmore"
+msgctxt "string from libindi, used in the config dialog"
+msgid "North (sec)"
+msgstr "নর্থ বেলমোর"
+
+#: libindi_strings.cpp:231
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Northport"
+msgctxt "string from libindi, used in the config dialog"
+msgid "North/Sounth"
+msgstr "নর্থপোর্ট"
+
+#: libindi_strings.cpp:232
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Northport"
+msgctxt "string from libindi, used in the config dialog"
+msgid "North/South"
+msgstr "নর্থপোর্ট"
+
+#: libindi_strings.cpp:233
+msgctxt "string from libindi, used in the config dialog"
+msgid "Note"
+msgstr ""
+
+#: libindi_strings.cpp:234
+#, fuzzy
+#| msgid "ID Number"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Number"
+msgstr "আই.ডি. নম্বর"
+
+#: libindi_strings.cpp:235
+msgctxt "string from libindi, used in the config dialog"
+msgid "OFF"
+msgstr ""
+
+#: libindi_strings.cpp:236
+#, fuzzy
+#| msgctxt "North"
+#| msgid "N"
+msgctxt "string from libindi, used in the config dialog"
+msgid "ON"
+msgstr "উত্তর"
+
+#: libindi_strings.cpp:237
+msgctxt "string from libindi, used in the config dialog"
+msgid "OTA Temperature (C)"
+msgstr ""
+
+#: libindi_strings.cpp:238
+#, fuzzy
+#| msgid "Update"
+msgctxt "string from libindi, used in the config dialog"
+msgid "OTA Update"
+msgstr "আপডেট করো"
+
+#: libindi_strings.cpp:239
+msgctxt "string from libindi, used in the config dialog"
+msgid "Oag Offset (arminutes)"
+msgstr ""
+
+#: libindi_strings.cpp:240
+#, fuzzy
+#| msgid "Object"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Object"
+msgstr "খ-বস্তু"
+
+#: libindi_strings.cpp:241
+#, fuzzy
+#| msgid "Object"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Object Info"
+msgstr "খ-বস্তু"
+
+#: libindi_strings.cpp:242
+#, fuzzy
+#| msgid "Object Name"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Object Number"
+msgstr "বস্তুর নাম"
+
+#: libindi_strings.cpp:243
+msgctxt "string from libindi, used in the config dialog"
+msgid "Off"
+msgstr ""
+
+#: libindi_strings.cpp:244
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Offset"
+msgstr "বিশ্বজনীন-সময় (universal Time) থেকে পার্থক্য:"
+
+#: libindi_strings.cpp:245
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "On"
+msgstr "ওগডেন"
+
+#: libindi_strings.cpp:246
+msgctxt "string from libindi, used in the config dialog"
+msgid "On Set"
+msgstr ""
+
+#: libindi_strings.cpp:247
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Options"
+msgstr "অপশন:"
+
+#: libindi_strings.cpp:248
+msgctxt "string from libindi, used in the config dialog"
+msgid "Outdoor"
+msgstr ""
+
+#: libindi_strings.cpp:249
+msgctxt "string from libindi, used in the config dialog"
+msgid "PE N/S"
+msgstr ""
+
+#: libindi_strings.cpp:250
+msgctxt "string from libindi, used in the config dialog"
+msgid "PE W/E"
+msgstr ""
+
+#: libindi_strings.cpp:251
+#, fuzzy
+#| msgid "Mars"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Park"
+msgstr "মঙ্গলগ্রহ (মার্স)"
+
+#: libindi_strings.cpp:252
+#, fuzzy
+#| msgid "Save Script"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Park Scope"
+msgstr "স্ক্রিপ্ট সংরক্ষণ করো"
+
+#: libindi_strings.cpp:253
+msgctxt "string from libindi, used in the config dialog"
+msgid "Periodic Error"
+msgstr ""
+
+#: libindi_strings.cpp:254
+msgctxt "string from libindi, used in the config dialog"
+msgid "Philips Webcam"
+msgstr ""
+
+#: libindi_strings.cpp:255
+msgctxt "string from libindi, used in the config dialog"
+msgid "Pixel size (um)"
+msgstr ""
+
+#: libindi_strings.cpp:256
+msgctxt "string from libindi, used in the config dialog"
+msgid "Pixel size X"
+msgstr ""
+
+#: libindi_strings.cpp:257
+msgctxt "string from libindi, used in the config dialog"
+msgid "Pixel size Y"
+msgstr ""
+
+#: libindi_strings.cpp:258
+#, fuzzy
+#| msgid "Pluto"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Pluto"
+msgstr "প্লুটো"
+
+#: libindi_strings.cpp:259
+#, fuzzy
+#| msgctxt "star name"
+#| msgid "Polaris"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Polar"
+msgstr "ধ্রুবতারা (পোলারিস)"
+
+#: libindi_strings.cpp:260
+#, fuzzy
+#| msgid "Port"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Port"
+msgstr "পোর্ট"
+
+#: libindi_strings.cpp:261
+#, fuzzy
+#| msgid "Port"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Ports"
+msgstr "পোর্ট"
+
+#: libindi_strings.cpp:262
+#, fuzzy
+#| msgid "Position"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Position"
+msgstr "অবস্থান"
+
+#: libindi_strings.cpp:263
+msgctxt "string from libindi, used in the config dialog"
+msgid "Power"
+msgstr ""
+
+#: libindi_strings.cpp:264
+msgctxt "string from libindi, used in the config dialog"
+msgid "Pressure hPa"
+msgstr ""
+
+#: libindi_strings.cpp:265
+msgctxt "string from libindi, used in the config dialog"
+msgid "Property"
+msgstr ""
+
+#: libindi_strings.cpp:266
+msgctxt "string from libindi, used in the config dialog"
+msgid "RA  H:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:267
+#, fuzzy
+#| msgid "arcmin"
+msgctxt "string from libindi, used in the config dialog"
+msgid "RA (arcmin)"
+msgstr "আর্কমিনিট"
+
+#: libindi_strings.cpp:268
+msgctxt "string from libindi, used in the config dialog"
+msgid "RA (hh:mm:ss)"
+msgstr ""
+
+#: libindi_strings.cpp:269
+msgctxt "string from libindi, used in the config dialog"
+msgid "RA H:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:270
+msgctxt "string from libindi, used in the config dialog"
+msgid "RA motor"
+msgstr ""
+
+#: libindi_strings.cpp:271
+msgctxt "string from libindi, used in the config dialog"
+msgid "Ra (hh:mm:ss)"
+msgstr ""
+
+#: libindi_strings.cpp:272 libindi_strings.cpp:273
+msgctxt "string from libindi, used in the config dialog"
+msgid "Rate"
+msgstr ""
+
+#: libindi_strings.cpp:274
+msgctxt "string from libindi, used in the config dialog"
+msgid "Raw"
+msgstr ""
+
+#: libindi_strings.cpp:275
+#, fuzzy
+#| msgid "asteroid"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Red"
+msgstr "গ্রহাণু"
+
+#: libindi_strings.cpp:276
+#, fuzzy
+#| msgid "Reset Position"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Relative Position"
+msgstr "অবস্থান রিসেট করো"
+
+#: libindi_strings.cpp:277
+#, fuzzy
+#| msgid "Reset Position"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Resolution x"
+msgstr "অবস্থান রিসেট করো"
+
+#: libindi_strings.cpp:278
+#, fuzzy
+#| msgid "Reset Position"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Resolution y"
+msgstr "অবস্থান রিসেট করো"
+
+#: libindi_strings.cpp:279
+#, fuzzy
+#| msgid "star"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Restart"
+msgstr "তারা"
+
+#: libindi_strings.cpp:280
+#, fuzzy
+#| msgid "&Default"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Restore"
+msgstr "ডি&ফল্ট"
+
+#: libindi_strings.cpp:281
+#, fuzzy
+#| msgctxt "Country name (optional, but should be translated)"
+#| msgid "USA"
+msgctxt "string from libindi, used in the config dialog"
+msgid "SAO"
+msgstr "মার্কিন যুক্তরাষ্ট্র"
+
+#: libindi_strings.cpp:282
+#, fuzzy
+#| msgctxt "Advanced URLs: description or category"
+#| msgid "ASTRO"
+msgctxt "string from libindi, used in the config dialog"
+msgid "STAR"
+msgstr "অ্যাস্ট্রো"
+
+#: libindi_strings.cpp:283
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Saratov"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Saturation Mag"
+msgstr "সারাটোভ"
+
+#: libindi_strings.cpp:284
+#, fuzzy
+#| msgid "Saturn"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Saturn"
+msgstr "শনিগ্রহ (স্যাটার্ন)"
+
+#: libindi_strings.cpp:285
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Save"
+msgstr "&সংরক্ষণ করো"
+
+#: libindi_strings.cpp:286
+#, fuzzy
+#| msgid "Save Script"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Save home"
+msgstr "স্ক্রিপ্ট সংরক্ষণ করো"
+
+#: libindi_strings.cpp:287
+#, fuzzy
+#| msgid "Set Location..."
+msgctxt "string from libindi, used in the config dialog"
+msgid "Scope Location"
+msgstr "অবস্থান নির্ধারণ..."
+
+#: libindi_strings.cpp:288
+#, fuzzy
+#| msgid "Telescope Properties"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Scope Properties"
+msgstr "দূরবীক্ষণ যন্ত্রের বৈশিষ্ট্য"
+
+#: libindi_strings.cpp:289
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Seeing"
+msgstr "স্প্রিংডেল"
+
+#: libindi_strings.cpp:290
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Select"
+msgstr "কিছুই বাছাই করবে না"
+
+#: libindi_strings.cpp:291
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Select item..."
+msgstr "বস্তু খোঁজো..."
+
+#: libindi_strings.cpp:292
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Selenographic Sync"
+msgstr "ভৌগলিক"
+
+#: libindi_strings.cpp:293
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Set"
+msgstr "সূর্যাস্ত:"
+
+#: libindi_strings.cpp:294
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Westminster"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Set Register"
+msgstr "ওয়েস্টমিনিস্টার"
+
+#: libindi_strings.cpp:295
+#, fuzzy
+#| msgid "Set Time..."
+msgctxt "string from libindi, used in the config dialog"
+msgid "Set home"
+msgstr "সময় নির্ধারণ..."
+
+#: libindi_strings.cpp:296
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Westminster"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Set register"
+msgstr "ওয়েস্টমিনিস্টার"
+
+#: libindi_strings.cpp:297
+#, fuzzy
+#| msgid "string"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Settings"
+msgstr "পঙ্‌ক্তি"
+
+#: libindi_strings.cpp:298
+msgctxt "string from libindi, used in the config dialog"
+msgid "Shutter Speed"
+msgstr ""
+
+#: libindi_strings.cpp:299
+#, fuzzy
+#| msgid "Sidereal Time"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Sideral"
+msgstr "নাক্ষত্র কাল"
+
+#: libindi_strings.cpp:300
+#, fuzzy
+#| msgid "Sidereal Time"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Sidereal Time"
+msgstr "নাক্ষত্র কাল"
+
+#: libindi_strings.cpp:301
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Sidereal time"
+msgstr "নাক্ষত্র কাল"
+
+#: libindi_strings.cpp:302
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Simulation"
+msgstr "কাজ:"
+
+#: libindi_strings.cpp:303
+msgctxt "string from libindi, used in the config dialog"
+msgid "Simulator Config"
+msgstr ""
+
+#: libindi_strings.cpp:304
+#, fuzzy
+#| msgid "Current color settings"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Simulator Settings"
+msgstr "বর্তমান রঙের বৈশিষ্ট্য"
+
+#: libindi_strings.cpp:305
+msgctxt "string from libindi, used in the config dialog"
+msgid "Site 1"
+msgstr ""
+
+#: libindi_strings.cpp:306
+msgctxt "string from libindi, used in the config dialog"
+msgid "Site 2"
+msgstr ""
+
+#: libindi_strings.cpp:307
+msgctxt "string from libindi, used in the config dialog"
+msgid "Site 3"
+msgstr ""
+
+#: libindi_strings.cpp:308
+msgctxt "string from libindi, used in the config dialog"
+msgid "Site 4"
+msgstr ""
+
+#: libindi_strings.cpp:309
+#, fuzzy
+#| msgid "Filter arguments:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Site Management"
+msgstr "ফিল্টারের আর্গুমেন্ট:"
+
+#: libindi_strings.cpp:310
+#, fuzzy
+#| msgid "File Name"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Site Name"
+msgstr "ফাইলের নাম"
+
+#: libindi_strings.cpp:311
+#, fuzzy
+#| msgid "Center && Track"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Sites"
+msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
+
+#: libindi_strings.cpp:312
+#, fuzzy
+#| msgid "Show ma&gnitude"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Sky Glow (magnitudes)"
+msgstr "&উজ্জ্বলতা দেখাও"
+
+#: libindi_strings.cpp:313
+msgctxt "string from libindi, used in the config dialog"
+msgid "Sleep"
+msgstr ""
+
+#: libindi_strings.cpp:314
+msgctxt "string from libindi, used in the config dialog"
+msgid "Slew"
+msgstr ""
+
+#: libindi_strings.cpp:315
+msgctxt "string from libindi, used in the config dialog"
+msgid "Slew Accuracy"
+msgstr ""
+
+#: libindi_strings.cpp:316
+#, fuzzy
+#| msgid "Scope"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Slew rate"
+msgstr "ক্ষেত্র"
+
+#: libindi_strings.cpp:317
+msgctxt "string from libindi, used in the config dialog"
+msgid "Slow"
+msgstr ""
+
+#: libindi_strings.cpp:318
+#, fuzzy
+#| msgid "Connection"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Snoop dc connection"
+msgstr "সংযোগ"
+
+#: libindi_strings.cpp:319
+msgctxt "string from libindi, used in the config dialog"
+msgid "Snoop dc master alarm"
+msgstr ""
+
+#: libindi_strings.cpp:320
+#, fuzzy
+#| msgid "InfoBox BG mode:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Snoop dc mode"
+msgstr "তথ্যমূলক-বাক্সের পটভূমি মোড:"
+
+#: libindi_strings.cpp:321
+#, fuzzy
+#| msgid "Stop Service"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Snoop devices"
+msgstr "সার্ভিস বন্ধ করো"
+
+#: libindi_strings.cpp:322
+#, fuzzy
+#| msgctxt "star name"
+#| msgid "Polaris"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Solar"
+msgstr "ধ্রুবতারা (পোলারিস)"
+
+#: libindi_strings.cpp:323
+#, fuzzy
+#| msgid "Solar System"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Solar System"
+msgstr "সৌরজগত্‍"
+
+#: libindi_strings.cpp:324
+#, fuzzy
+#| msgid "&South"
+msgctxt "string from libindi, used in the config dialog"
+msgid "South"
+msgstr "&দক্ষিণ"
+
+#: libindi_strings.cpp:325
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "South Gate"
+msgctxt "string from libindi, used in the config dialog"
+msgid "South (msec)"
+msgstr "সাউথ গেইট"
+
+#: libindi_strings.cpp:326
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "South Gate"
+msgctxt "string from libindi, used in the config dialog"
+msgid "South (sec)"
+msgstr "সাউথ গেইট"
+
+#: libindi_strings.cpp:327
+#, fuzzy
+#| msgid "Speed:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Speed"
+msgstr "গতি:"
+
+#: libindi_strings.cpp:328
+#, fuzzy
+#| msgid "Catalogs"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Star Catalogs"
+msgstr "তালিকা"
+
+#: libindi_strings.cpp:329
+msgctxt "string from libindi, used in the config dialog"
+msgid "Step delay"
+msgstr ""
+
+#: libindi_strings.cpp:330
+#, fuzzy
+#| msgid "INDI"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Stop"
+msgstr "INDI"
+
+#: libindi_strings.cpp:331
+msgctxt "string from libindi, used in the config dialog"
+msgid "Stream Off"
+msgstr ""
+
+#: libindi_strings.cpp:332
+msgctxt "string from libindi, used in the config dialog"
+msgid "Stream On"
+msgstr ""
+
+#: libindi_strings.cpp:333
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Swap buttons"
+msgstr "স্টকটন"
+
+#: libindi_strings.cpp:334
+msgctxt "string from libindi, used in the config dialog"
+msgid "Switch 1"
+msgstr ""
+
+#: libindi_strings.cpp:335
+msgctxt "string from libindi, used in the config dialog"
+msgid "Switch 2"
+msgstr ""
+
+#: libindi_strings.cpp:336
+msgctxt "string from libindi, used in the config dialog"
+msgid "Switch 3"
+msgstr ""
+
+#: libindi_strings.cpp:337
+msgctxt "string from libindi, used in the config dialog"
+msgid "Switch 4"
+msgstr ""
+
+#: libindi_strings.cpp:338
+msgctxt "string from libindi, used in the config dialog"
+msgid "Sync"
+msgstr ""
+
+#: libindi_strings.cpp:339
+#, fuzzy
+#| msgid "Telescope"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Telescope"
+msgstr "দূরবীক্ষণ যন্ত্র"
+
+#: libindi_strings.cpp:340
+#, fuzzy
+#| msgid "Telescope Wizard"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Telescope Simulator"
+msgstr "দূরবীক্ষণ যন্ত্র বিষয়ক উইজার্ড"
+
+#: libindi_strings.cpp:341
+#, fuzzy
+#| msgid "Telescopes:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Telescopes"
+msgstr "দূরবীক্ষণ যন্ত্র:"
+
+#: libindi_strings.cpp:342
+msgctxt "string from libindi, used in the config dialog"
+msgid "Temma"
+msgstr ""
+
+#: libindi_strings.cpp:343
+#, fuzzy
+#| msgid "Driver:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Temma Driver"
+msgstr "ড্রাইভার:"
+
+#: libindi_strings.cpp:344
+#, fuzzy
+#| msgid "Version"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Temma version"
+msgstr "সংস্করণ"
+
+# FIXME
+#: libindi_strings.cpp:345
+#, fuzzy
+#| msgid "Temp:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Temp."
+msgstr "তাপমাত্রা:"
+
+#: libindi_strings.cpp:346
+#, fuzzy
+#| msgid "Aperture:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Temperature K"
+msgstr "অ্যাপার্চার:"
+
+#: libindi_strings.cpp:347
+msgctxt "string from libindi, used in the config dialog"
+msgid "Theta D:M:S"
+msgstr ""
+
+#: libindi_strings.cpp:348
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Ticks"
+msgstr "ডিকিনসন"
+
+#: libindi_strings.cpp:349
+#, fuzzy
+#| msgid "Time"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Time"
+msgstr "সময়"
+
+#: libindi_strings.cpp:350
+#, fuzzy
+#| msgid "Time Calculators"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Time Factor"
+msgstr "সময় ক্যালকুলেটর"
+
+#: libindi_strings.cpp:351
+#, fuzzy
+#| msgid "Time"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Timer"
+msgstr "সময়"
+
+#: libindi_strings.cpp:352
+msgctxt "string from libindi, used in the config dialog"
+msgid "Timer (ms)"
+msgstr ""
+
+#: libindi_strings.cpp:353
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Top"
+msgstr "প্রমিত:"
+
+#: libindi_strings.cpp:354
+#, fuzzy
+#| msgctxt "Image/info menu item (should be translated)"
+#| msgid "Total Eclipse Image"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Total Exposure Time (ms)"
+msgstr "পূর্ণ সূর্যগ্রহণের ছবি"
+
+#: libindi_strings.cpp:355
+#, fuzzy
+#| msgid "Track"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Track"
+msgstr "অনুসরণ করো"
+
+#: libindi_strings.cpp:356
+#, fuzzy
+#| msgid "Batch Mode"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Track Mode"
+msgstr "ব্যাচ মোড"
+
+#: libindi_strings.cpp:357
+msgctxt "string from libindi, used in the config dialog"
+msgid "Tracking Accuracy"
+msgstr ""
+
+#: libindi_strings.cpp:358
+#, fuzzy
+#| msgid "Frequency:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Tracking Frequency"
+msgstr "কম্পাঙ্ক:"
+
+#: libindi_strings.cpp:359
+#, fuzzy
+#| msgid "Interactive Mode"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Tracking Mode"
+msgstr "ইন্টারঅ্যাকটিভ মোড"
+
+#: libindi_strings.cpp:360
+#, fuzzy
+#| msgid "Interactive Mode"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Tracking mode"
+msgstr "ইন্টারঅ্যাকটিভ মোড"
+
+#: libindi_strings.cpp:361
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Transformation"
+msgstr "ঋতু সংক্রান্ত তথ্য"
+
+#: libindi_strings.cpp:362
+msgctxt "string from libindi, used in the config dialog"
+msgid "UGC"
+msgstr ""
+
+#: libindi_strings.cpp:363
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "UTC"
+msgstr "এখন"
+
+#: libindi_strings.cpp:364
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "UTC Offset"
+msgstr "বিশ্বজনীন-সময় (universal Time) থেকে পার্থক্য:"
+
+#: libindi_strings.cpp:365
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "UTC Time"
+msgstr "সময় নির্ধারণ করো"
+
+#: libindi_strings.cpp:366
+#, fuzzy
+#| msgid "Update"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Update"
+msgstr "আপডেট করো"
+
+#: libindi_strings.cpp:367
+#, fuzzy
+#| msgid "Update"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Update Client"
+msgstr "আপডেট করো"
+
+#: libindi_strings.cpp:368
+#, fuzzy
+#| msgid "Update"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Update GPS"
+msgstr "আপডেট করো"
+
+#: libindi_strings.cpp:369
+#, fuzzy
+#| msgid "Uranus"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Uranus"
+msgstr "ইউরেনাস"
+
+#: libindi_strings.cpp:370
+msgctxt "string from libindi, used in the config dialog"
+msgid "Use Pulse Cmd"
+msgstr ""
+
+#: libindi_strings.cpp:371
+#, fuzzy
+#| msgid "Venus"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Venus"
+msgstr "শুক্রগ্রহ (ভিনাস)"
+
+#: libindi_strings.cpp:372
+#, fuzzy
+#| msgid "Video port:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Video"
+msgstr "ভিডিও পোর্ট:"
+
+#: libindi_strings.cpp:373
+#, fuzzy
+#| msgid "Video Stream"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Video Stream"
+msgstr "ভিডিও স্ট্রিম"
+
+#: libindi_strings.cpp:374
+msgctxt "string from libindi, used in the config dialog"
+msgid "Wake up"
+msgstr ""
+
+#: libindi_strings.cpp:375
+#, fuzzy
+#| msgid "Remove Label"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Webcam Name"
+msgstr "লেবেল অপসারণ করো"
+
+#: libindi_strings.cpp:376
+#, fuzzy
+#| msgid "&West"
+msgctxt "string from libindi, used in the config dialog"
+msgid "West"
+msgstr "পশ্চিম (&শ)"
+
+#: libindi_strings.cpp:377
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Westminster"
+msgctxt "string from libindi, used in the config dialog"
+msgid "West (msec)"
+msgstr "ওয়েস্টমিনিস্টার"
+
+#: libindi_strings.cpp:378
+msgctxt "string from libindi, used in the config dialog"
+msgid "West (sec)"
+msgstr ""
+
+#: libindi_strings.cpp:379
+msgctxt "string from libindi, used in the config dialog"
+msgid "West/East"
+msgstr ""
+
+#: libindi_strings.cpp:380
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "White Plains"
+msgctxt "string from libindi, used in the config dialog"
+msgid "White Balance"
+msgstr "হোয়াইট প্লেইন্স"
+
+#: libindi_strings.cpp:381
+msgctxt "string from libindi, used in the config dialog"
+msgid "White Balance Mode"
+msgstr ""
+
+#: libindi_strings.cpp:382
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "Whiteness"
+msgstr "উইনার"
+
+#: libindi_strings.cpp:383
+#, fuzzy
+#| msgid "Width:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Width"
+msgstr "প্রস্থ:"
+
+#: libindi_strings.cpp:384
+msgctxt "string from libindi, used in the config dialog"
+msgid "X"
+msgstr ""
+
+#: libindi_strings.cpp:385
+msgctxt "string from libindi, used in the config dialog"
+msgid "Y"
+msgstr ""
+
+#: libindi_strings.cpp:386
+msgctxt "string from libindi, used in the config dialog"
+msgid "app. to refracted"
+msgstr ""
+
+#: libindi_strings.cpp:387
+msgctxt "string from libindi, used in the config dialog"
+msgid "app., refr., tel., observed"
+msgstr ""
+
+#: libindi_strings.cpp:388
+#, fuzzy
+#| msgid "Setup Telescopes"
+msgctxt "string from libindi, used in the config dialog"
+msgid "app., refr., telescope"
+msgstr "দূরবীক্ষণ যন্ত্রকে প্রস্তুত করো"
+
+#: libindi_strings.cpp:389
+#, fuzzy
+#| msgid "arcsecs"
+msgctxt "string from libindi, used in the config dialog"
+msgid "arcseconds"
+msgstr "আর্কসেকেন্ড"
+
+#: libindi_strings.cpp:390
+msgctxt "string from libindi, used in the config dialog"
+msgid "cold"
+msgstr ""
+
+#: libindi_strings.cpp:391
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Orange"
+msgctxt "string from libindi, used in the config dialog"
+msgid "danger"
+msgstr "অরেঞ্জ"
+
+#: libindi_strings.cpp:392
+msgctxt "string from libindi, used in the config dialog"
+msgid "decPEC (dd:mm:ss)"
+msgstr ""
+
+#: libindi_strings.cpp:393
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Montreal"
+msgctxt "string from libindi, used in the config dialog"
+msgid "dome control"
+msgstr "মন্ট্রিল"
+
+#: libindi_strings.cpp:394
+msgctxt "string from libindi, used in the config dialog"
+msgid "identity"
+msgstr ""
+
+#: libindi_strings.cpp:395
+msgctxt "string from libindi, used in the config dialog"
+msgid "lunar"
+msgstr ""
+
+#: libindi_strings.cpp:396
+#, fuzzy
+#| msgctxt "Country name (optional, but should be translated)"
+#| msgid "Vanuatu"
+msgctxt "string from libindi, used in the config dialog"
+msgid "manual"
+msgstr "ভানুয়াটু"
+
+#: libindi_strings.cpp:397
+#, fuzzy
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Palo Alto"
+msgctxt "string from libindi, used in the config dialog"
+msgid "max Alt"
+msgstr "পালো আল্টো"
+
+#: libindi_strings.cpp:398
+msgctxt "string from libindi, used in the config dialog"
+msgid "min Alt"
+msgstr ""
+
+#: libindi_strings.cpp:399
+#, fuzzy
+#| msgid "of"
+msgctxt "string from libindi, used in the config dialog"
+msgid "off"
+msgstr "এর"
+
+#: libindi_strings.cpp:400
+msgctxt "string from libindi, used in the config dialog"
+msgid "rel. to HA"
+msgstr ""
+
+#: libindi_strings.cpp:401
+#, fuzzy
+#| msgctxt "Region/state name (optional, rarely needs a translation)"
+#| msgid "Azores"
+msgctxt "string from libindi, used in the config dialog"
+msgid "reset"
+msgstr "অ্যাজোরাস"
+
+#: libindi_strings.cpp:402
+#, fuzzy
+msgctxt "string from libindi, used in the config dialog"
+msgid "sidereal"
+msgstr "নাক্ষত্র কাল"
+
+#: libindi_strings.cpp:403
+#, fuzzy
+#| msgctxt "star name"
+#| msgid "Polaris"
+msgctxt "string from libindi, used in the config dialog"
+msgid "solar"
+msgstr "ধ্রুবতারা (পোলারিস)"
+
+#: libindi_strings.cpp:404
+msgctxt "string from libindi, used in the config dialog"
+msgid "undefined"
+msgstr ""
+
+#: libindi_strings.cpp:405
+msgctxt "string from libindi, used in the config dialog"
+msgid "warm"
+msgstr ""
+
+#: libindi_strings.cpp:406
+#, fuzzy
+#| msgid "Count:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Count"
+msgstr "গণনা:"
+
+#: libindi_strings.cpp:407
+#, fuzzy
+#| msgid "Image Filter"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Active Filter"
+msgstr "ছবির ফিল্টার"
+
+#: libindi_strings.cpp:408
+#, fuzzy
+#| msgid "Filter:"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Filter Count"
+msgstr "ফিল্টার:"
+
+#: libindi_strings.cpp:409
+#, fuzzy
+#| msgid "arcmin"
+msgctxt "string from libindi, used in the config dialog"
+msgid "Oag Offset (arcminutes)"
+msgstr "আর্কমিনিট"
+
 #: main.cpp:38
 msgid "Desktop Planetarium"
 msgstr "ডেস্কটপ প্ল্যানেটরিয়াম"
@@ -49379,12 +51945,6 @@ msgstr "এল.এস.আর."
 msgid "Overview"
 msgstr "সামগ্রিক চিত্র"
 
-#. i18n: ectx: property (text), widget (QTreeWidget, OptionsList)
-#: tools/observinglist.cpp:109 tools/observinglist.cpp:112
-#: tools/optionstreeview.ui:33
-msgid "Type"
-msgstr "ধরন"
-
 #: tools/observinglist.cpp:109 tools/observinglist.cpp:112
 #, fuzzy
 msgctxt "Magnitude"
@@ -52109,6 +54669,10 @@ msgid "Set the color for the background."
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দেওয়া হবে কি?"
 
 #, fuzzy
+#~ msgid "&Start"
+#~ msgstr "আরম্ভ"
+
+#, fuzzy
 #~| msgid "Advanced"
 #~ msgid "Advanced Options"
 #~ msgstr "অগ্রসর"
@@ -52117,16 +54681,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~| msgid "Mode"
 #~ msgid "INDI Mode"
 #~ msgstr "মোড"
-
-#, fuzzy
-#~| msgid "Driver:"
-#~ msgid "Driver"
-#~ msgstr "ড্রাইভার:"
-
-#, fuzzy
-#~| msgid "Set Location..."
-#~ msgid "Set Location"
-#~ msgstr "অবস্থান নির্ধারণ..."
 
 #, fuzzy
 #~| msgid "Loading images..."
@@ -52163,11 +54717,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~| msgid "Image Filter"
 #~ msgid "Low Pass Filter"
 #~ msgstr "ছবির ফিল্টার"
-
-#, fuzzy
-#~| msgid "Precession"
-#~ msgid "precession"
-#~ msgstr "অয়নচলন"
 
 #~ msgid "Capture Image Sequence..."
 #~ msgstr "ধারাবাহিক ছবি ধারণ করো..."
@@ -52214,11 +54763,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~ "এক্সোপোজ-এর দৈর্ঘ্য অবৈধ।  %1 শুধুমাত্র %2 থেকে %3 সেকেন্ড পর্যন্ত এক্সোপোজ-এর "
 #~ "দৈর্ঘ্য অনুমোদন করে।"
 
-#, fuzzy
-#~ msgctxt "Set a value"
-#~ msgid "Set"
-#~ msgstr "সূর্যাস্ত:"
-
 #~ msgid "Error. Unable to locate telescope drivers."
 #~ msgstr "সমস্যা।  দূরবীক্ষণ যন্ত্রের ড্রাইভার পাওয়া যায় নি।"
 
@@ -52254,10 +54798,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 
 #~ msgid "Discrepant data"
 #~ msgstr "পার্থক্যসূচক তথ্য"
-
-#, fuzzy
-#~ msgid "CCD V"
-#~ msgstr "সি.সি.ডি.ভি."
 
 #, fuzzy
 #~ msgid "CCD R"
@@ -52473,23 +55013,12 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~ msgid "Telescope Properties..."
 #~ msgstr "দূরবীক্ষণ যন্ত্রের বৈশিষ্ট্য..."
 
-#~ msgid "Telescope Properties"
-#~ msgstr "দূরবীক্ষণ যন্ত্রের বৈশিষ্ট্য"
-
-#~ msgid "Telescopes:"
-#~ msgstr "দূরবীক্ষণ যন্ত্র:"
-
 #~ msgid "Focal length:"
 #~ msgstr "ফোকাস দূরত্ব:"
 
 #, fuzzy
 #~ msgid "New"
 #~ msgstr "&নতুন"
-
-#, fuzzy
-#~| msgid "&Default"
-#~ msgid "Restore Default"
-#~ msgstr "ডি&ফল্ট"
 
 #~ msgid ""
 #~ "unable to write to file 'drivers.xml'\n"
@@ -52515,11 +55044,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~| msgid "Scope"
 #~ msgid "Scope"
 #~ msgstr "ক্ষেত্র"
-
-#, fuzzy
-#~| msgid "Save Script"
-#~ msgid "Save Scope"
-#~ msgstr "স্ক্রিপ্ট সংরক্ষণ করো"
 
 #, fuzzy
 #~| msgid "Scope"
@@ -52551,11 +55075,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #, fuzzy
 #~ msgid "Toggle display of the \"view\" toolbar."
 #~ msgstr "ভিউ টুলবার প্রদর্শনের মোড পাল্টাও"
-
-#, fuzzy
-#~| msgid "Scope"
-#~ msgid "Slew Scope"
-#~ msgstr "ক্ষেত্র"
 
 #, fuzzy
 #~| msgid "Scope"
@@ -55014,10 +57533,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~ msgid "List name:"
 #~ msgstr "তালিকার নাম:"
 
-#~ msgctxt "First letter in 'Center'"
-#~ msgid "C"
-#~ msgstr "কেন্দ্র"
-
 # FIXME
 #~ msgctxt "First letter in 'Scope'"
 #~ msgid "S"
@@ -55037,11 +57552,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 
 #~ msgid "Alt vs Time"
 #~ msgstr "উন্নতি বনাম সময়"
-
-#, fuzzy
-#~| msgid "Interactive Mode"
-#~ msgid "Interactive mode"
-#~ msgstr "ইন্টারঅ্যাকটিভ মোড"
 
 #~ msgctxt "object name (optional)"
 #~ msgid "Longname"
@@ -55287,23 +57797,8 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~ msgid "Set the faint limit for drawing asteroid name labels"
 #~ msgstr "গ্রহাণুর নামের লেবেল দেখানোর ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা নির্ধারণ করুন"
 
-#~ msgid "CCD Preview"
-#~ msgstr "সি.সি.ডি.-এর প্রাকদর্শন"
-
 #~ msgid "Enter the telescope focal length in mm"
 #~ msgstr "মিলিমিটার এককে দূরবীক্ষণ যন্ত্রের ফোকাস দূরত্ব লিখুন"
-
-#~ msgid "Gamma:"
-#~ msgstr "গামা:"
-
-#~ msgid "Brightness:"
-#~ msgstr "উজ্জ্বলতা:"
-
-#~ msgid "FWHM:"
-#~ msgstr "FWHM:"
-
-#~ msgid "Contrast:"
-#~ msgstr "রঙের-পার্থক্য:"
 
 #, fuzzy
 #~ msgid "Setup Telescopes and Devices"
@@ -55403,9 +57898,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 
 #~ msgid "Image Loading Process..."
 #~ msgstr "ছবি লোড করার প্রক্রিয়া..."
-
-#~ msgid "Image Reduction"
-#~ msgstr "ছবি ক্ষুদ্রকরণ"
 
 #~ msgid "Unable to read FITS data from file. %1.\n"
 #~ msgstr "ফাইল থেকে FITS তথ্য পড়া যায় নি।  %1।\n"
@@ -55547,9 +58039,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 
 #~ msgid "Enter new Altitude"
 #~ msgstr "নতুন উন্নতি লিখুন"
-
-#~ msgid "File Name"
-#~ msgstr "ফাইলের নাম"
 
 #~ msgid "Flat Field Frames"
 #~ msgstr "সমতল Field ফ্রেম"
@@ -55845,9 +58334,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~ msgid "Equatorial geocentric coordinates"
 #~ msgstr "নিরক্ষীয় ভূকেন্দ্রিক স্থানাঙ্ক"
 
-#~ msgid "Topocentric coordinates"
-#~ msgstr "টপোসেন্ট্রিক (topocentric) স্থানাঙ্ক"
-
 #~ msgid "Geocentric ecliptic coordinates"
 #~ msgstr "ভূকেন্দ্রিক সূর্যপথ স্থানাঙ্ক"
 
@@ -55902,9 +58388,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~ msgid "3. Magnitude limit"
 #~ msgstr "৩. উজ্জ্বলতার সীমা"
 
-#~ msgid "Filter arguments:"
-#~ msgstr "ফিল্টারের আর্গুমেন্ট:"
-
 #~ msgid "&None"
 #~ msgstr "&একটিও নয়"
 
@@ -55958,9 +58441,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 
 #~ msgid "Galactic Cooordinates"
 #~ msgstr "ছায়াপথ স্থানাঙ্ক"
-
-#~ msgid "Star Info"
-#~ msgstr "তারা বিষয়ক তথ্য"
 
 #~ msgid "Or name:"
 #~ msgstr "অথবা নাম:"
