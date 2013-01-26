@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-25 03:23+0100\n"
+"POT-Creation-Date: 2013-01-26 03:27+0100\n"
 "PO-Revision-Date: 2012-07-16 15:55+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -88,7 +88,7 @@ msgstr ""
 "সংগঠন।"
 
 #: aboutbugreportingdialog.cpp:71 aboutbugreportingdialog.cpp:174
-#: reportassistantdialog.cpp:82
+#: reportassistantdialog.cpp:83
 msgctxt "@title"
 msgid "What do you know about the crash?"
 msgstr "ক্র্যাশটি সম্বন্ধে আপনি কি জানেন?"
@@ -383,7 +383,7 @@ msgctxt "@info/rich"
 msgid "<note>You should write in English.</note>"
 msgstr "<note>আপনার ইংরেজীতে লেখা উচিত।</note>"
 
-#: aboutbugreportingdialog.cpp:182 reportassistantdialog.cpp:152
+#: aboutbugreportingdialog.cpp:182 reportassistantdialog.cpp:153
 msgctxt "@title"
 msgid "Sending the Crash Report"
 msgstr "ক্র্যাশ রিপোর্ট পাঠানো হচ্ছে"
@@ -880,19 +880,19 @@ msgstr ""
 "<para>প্রোগ্রাম:<application>%1</application>পি-আই-ডি:<numid>%2</numid>সংকেত: "
 "%3 (%4)</para>"
 
-#: drkonqidialog.cpp:169
+#: drkonqidialog.cpp:170
 #, fuzzy
 msgctxt "@action:button"
 msgid "Report &Bug"
 msgstr "রিপোর্ট বাগ"
 
-#: drkonqidialog.cpp:172
+#: drkonqidialog.cpp:173
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Starts the bug report assistant."
 msgstr "বাগ রিপোর্ট সহকারী শুরু করো।"
 
-#: drkonqidialog.cpp:184
+#: drkonqidialog.cpp:185
 #, fuzzy
 #| msgctxt ""
 #| "@action:button this is the debug menu button label which contains the "
@@ -904,31 +904,31 @@ msgctxt ""
 msgid "&Debug"
 msgstr "ডিবাগ"
 
-#: drkonqidialog.cpp:185
+#: drkonqidialog.cpp:186
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Starts a program to debug the crashed application."
 msgstr "ক্র্যাশকৃত অ্যাপলিকেশন ত্রুটিমুক্ত করতে একটি অনুষ্ঠান শুরু করো।"
 
-#: drkonqidialog.cpp:204
+#: drkonqidialog.cpp:205
 #, fuzzy
 msgctxt "@action:button"
 msgid "&Restart Application"
 msgstr "অ্যাপলিকেশন পুনরায় শুরু করো"
 
-#: drkonqidialog.cpp:206
+#: drkonqidialog.cpp:207
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Use this button to restart the crashed application."
 msgstr "ক্র্যাশকৃত অ্যাপলিকেশন পুনরায় শুরু করতে এই বাটনটি ব্যবহার করো।"
 
-#: drkonqidialog.cpp:215
+#: drkonqidialog.cpp:216
 #, fuzzy
 msgctxt "@info:tooltip"
 msgid "Close this dialog (you will lose the crash information.)"
 msgstr "এই ডায়ালগ নিকটেটি (আপনি ক্র্যাশ information. হারাবে)"
 
-#: drkonqidialog.cpp:226
+#: drkonqidialog.cpp:227
 #, fuzzy, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in <application>%1</application>"
@@ -1042,73 +1042,78 @@ msgctxt "@info:shell"
 msgid "The thread id of the failing thread"
 msgstr ""
 
-#: reportassistantdialog.cpp:50
+#: reportassistantdialog.cpp:39
+#, fuzzy
+msgid "the KDE Bug Tracking System"
+msgstr "কে.ডি.ই. Bugtracking সিস্টেমের দিকে লগিন"
+
+#: reportassistantdialog.cpp:51
 #, fuzzy
 msgctxt "@title:window"
 msgid "Crash Reporting Assistant"
 msgstr "ক্র্যাশ রিপোর্টিং সহকারী"
 
-#: reportassistantdialog.cpp:69
+#: reportassistantdialog.cpp:70
 #, fuzzy
 msgctxt "@title"
 msgid "Welcome to the Reporting Assistant"
 msgstr "রিপোর্টিং সহকারীতে স্বাগতম"
 
-#: reportassistantdialog.cpp:92
+#: reportassistantdialog.cpp:93
 #, fuzzy
 msgctxt "@title"
 msgid "Fetching the Backtrace (Automatic Crash Information)"
 msgstr "ব্যাকট্রেস এনে দিচ্ছে (স্বয়ংক্রিয় ক্র্যাশ তথ্য)"
 
-#: reportassistantdialog.cpp:102
+#: reportassistantdialog.cpp:103
 #, fuzzy
 msgctxt "@title"
 msgid "Results of the Analyzed Crash Details"
 msgstr "Analyzed ক্র্যাশ বিশদ বর্ণনার ফলাফল"
 
-#: reportassistantdialog.cpp:113
-#, fuzzy
+#: reportassistantdialog.cpp:114
+#, kde-format
 msgctxt "@title"
-msgid "Login into the KDE Bugtracking System"
-msgstr "কে.ডি.ই. Bugtracking সিস্টেমের দিকে লগিন"
+msgid "Login into %1"
+msgstr ""
 
-#: reportassistantdialog.cpp:124
+#: reportassistantdialog.cpp:125
 #, fuzzy
 msgctxt "@title"
 msgid "Look for Possible Duplicate Reports"
 msgstr "সম্ভব নকল রিপোর্টের জন্য দেখো"
 
-#: reportassistantdialog.cpp:134
+#: reportassistantdialog.cpp:135
 #, fuzzy
 msgctxt "@title"
 msgid "Enter the Details about the Crash"
 msgstr "ক্র্যাশর সম্বন্ধে বিশদ বর্ণনা ঢোকাও"
 
-#: reportassistantdialog.cpp:143
+#: reportassistantdialog.cpp:144
 #, fuzzy
 msgctxt "@title"
 msgid "Preview the Report"
 msgstr "প্রাকদর্শন রিপোর্ট"
 
-#: reportassistantdialog.cpp:344
+#: reportassistantdialog.cpp:345
 #, fuzzy
 msgctxt "@action:button"
 msgid "Close the assistant"
 msgstr "সহকারী নিকটে"
 
-#: reportassistantdialog.cpp:347
+#: reportassistantdialog.cpp:348
 #, fuzzy
 msgctxt "@action:button"
 msgid "Cancel"
 msgstr "বাতিল করো"
 
-#: reportassistantdialog.cpp:354
+#: reportassistantdialog.cpp:355
 #, fuzzy
 msgctxt "@action:button"
 msgid "Save information and close"
 msgstr "তথ্য সংরক্ষণ করো এবং বন্ধ করো"
 
-#: reportassistantdialog.cpp:357
+#: reportassistantdialog.cpp:358
 #, fuzzy
 msgctxt "@info"
 msgid ""
@@ -1119,13 +1124,13 @@ msgstr ""
 "আপনি কি বাগ রিপোর্টিং সহকারী বন্ধ করতে সত্যি চাও?<note>ক্র্যাশ তথ্য এখনও বৈধ, "
 "সুতরাং আপনি বন্ধ করার পূর্বে রিপোর্ট সংরক্ষণ করতে পারেন যদি আপনি চাও।</note>"
 
-#: reportassistantdialog.cpp:360 reportassistantdialog.cpp:375
+#: reportassistantdialog.cpp:361 reportassistantdialog.cpp:376
 #, fuzzy
 msgctxt "@title:window"
 msgid "Close the Assistant"
 msgstr "সহকারী নিকটে"
 
-#: reportassistantdialog.cpp:373
+#: reportassistantdialog.cpp:374
 #, fuzzy
 msgctxt "@info"
 msgid "Do you really want to close the bug reporting assistant?"
@@ -1341,7 +1346,7 @@ msgstr ""
 
 #: reportassistantpages_bugzilla.cpp:73
 #, fuzzy, kde-format
-msgctxt "@info:status '1' is replaced with \"bugs.kde.org\""
+msgctxt "@info:status '1' is replaced with the short URL of the bugzilla "
 msgid "You need to login with your %1 account in order to proceed."
 msgstr "আপনি অগ্রসর হতে অর্ডারে আপনার %1 অ্যাকাউন্টের সঙ্গে লগিনতে প্রয়োজন বোধ করো।"
 
@@ -1416,7 +1421,7 @@ msgid "Allow %1 to set cookies"
 msgstr ""
 
 #: reportassistantpages_bugzilla.cpp:261
-msgctxt "@action:button do not allow bugs.kde.org to set cookies"
+msgctxt "@action:button do not allow the bugzilla website to set cookies"
 msgid "No, do not allow"
 msgstr ""
 
