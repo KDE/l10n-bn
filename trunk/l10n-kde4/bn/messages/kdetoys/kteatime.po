@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kteatime (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-01-08 12:36+0100\n"
+"POT-Creation-Date: 2013-02-11 03:50+0100\n"
 "PO-Revision-Date: 2006-04-04 09:30+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -75,9 +75,7 @@ msgstr ""
 msgid "Use this name for the tea started with %1."
 msgstr ""
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, TimeEditWidget)
 #: src/main.cpp:83 src/tea.cpp:40 src/timeedit.cpp:45 src/timeedit.cpp:105
-#: src/timeedit.ui:14
 msgid "Anonymous Tea"
 msgstr "নামহীন চা"
 
@@ -126,68 +124,6 @@ msgid " second"
 msgid_plural " seconds"
 msgstr[0] "%1 সেকেন্ড"
 msgstr[1] "%1 সেকেন্ড"
-
-#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup1)
-#: src/settings.ui:18
-msgid "Tea List"
-msgstr "চায়ের তালিকা"
-
-#. i18n: ectx: property (title), widget (QGroupBox, teaPropertiesGroup)
-#: src/settings.ui:122
-msgid "Tea Properties"
-msgstr "চায়ের বৈশিষ্ট্য"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: src/settings.ui:128 src/tealistmodel.cpp:112
-msgid "Name"
-msgstr "নাম"
-
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: src/settings.ui:142 src/tealistmodel.cpp:112
-msgid "Time"
-msgstr "সময়"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#. i18n: ectx: property (text), widget (QLabel, minutesLabel)
-#: src/settings.ui:159 src/timeedit.ui:52
-#, fuzzy
-#| msgid " min"
-msgid "min"
-msgstr " মিনিট"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#. i18n: ectx: property (text), widget (QLabel, secondsLabel)
-#: src/settings.ui:176 src/timeedit.ui:66
-#, fuzzy
-#| msgid " sec"
-msgid "sec"
-msgstr " সেকেন্ড"
-
-#. i18n: ectx: property (title), widget (KButtonGroup, kbuttongroup2)
-#: src/settings.ui:199
-msgid "Action"
-msgstr "কাজ"
-
-# FIXME
-#. i18n: ectx: property (text), widget (QCheckBox, popupCheckBox)
-#: src/settings.ui:205
-msgid "Popup"
-msgstr "আবির্ভূত হবে"
-
-#. i18n: ectx: property (text), widget (QCheckBox, autohideCheckBox)
-#: src/settings.ui:236
-msgid "Auto hide popup after"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, reminderCheckBox)
-#: src/settings.ui:285
-msgid "Reminder every"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, visualizeCheckBox)
-#: src/settings.ui:332
-msgid "Visualize progress in icon tray"
-msgstr "আইকন ট্রে-তে অগ্রগতির পরিমাণ দেখুন"
 
 #: src/tea.cpp:76
 #, kde-format
@@ -273,6 +209,14 @@ msgstr ""
 msgid ")"
 msgstr ""
 
+#: src/tealistmodel.cpp:112
+msgid "Name"
+msgstr "নাম"
+
+#: src/tealistmodel.cpp:112
+msgid "Time"
+msgstr "সময়"
+
 #: src/tealistmodel.cpp:125
 msgid "Unnamed Tea"
 msgstr ""
@@ -284,11 +228,6 @@ msgstr ""
 #: src/timeedit.cpp:48
 msgid "Close this dialog without starting a new tea."
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, minutesLabel_2)
-#: src/timeedit.ui:32
-msgid "Tea time:"
-msgstr "চায়ের সময়:"
 
 #: src/toplevel.cpp:56
 msgid "Unknown Tea"
@@ -353,6 +292,35 @@ msgstr ""
 msgctxt "%1 is the time, %2 is the name of the tea"
 msgid "%1 left for %2."
 msgstr "%2-এর %1 অবশিষ্ট আছে"
+
+#~ msgid "Tea List"
+#~ msgstr "চায়ের তালিকা"
+
+#~ msgid "Tea Properties"
+#~ msgstr "চায়ের বৈশিষ্ট্য"
+
+#, fuzzy
+#~| msgid " min"
+#~ msgid "min"
+#~ msgstr " মিনিট"
+
+#, fuzzy
+#~| msgid " sec"
+#~ msgid "sec"
+#~ msgstr " সেকেন্ড"
+
+#~ msgid "Action"
+#~ msgstr "কাজ"
+
+# FIXME
+#~ msgid "Popup"
+#~ msgstr "আবির্ভূত হবে"
+
+#~ msgid "Visualize progress in icon tray"
+#~ msgstr "আইকন ট্রে-তে অগ্রগতির পরিমাণ দেখুন"
+
+#~ msgid "Tea time:"
+#~ msgstr "চায়ের সময়:"
 
 #, fuzzy
 #~| msgid "Up"
