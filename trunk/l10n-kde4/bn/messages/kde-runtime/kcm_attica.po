@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:48+0100\n"
+"POT-Creation-Date: 2012-08-20 04:50+0200\n"
 "PO-Revision-Date: 2012-07-14 19:43+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -49,7 +49,8 @@ msgstr "Frederik Gladhorn"
 msgid "Loading provider list..."
 msgstr "সরবরাহকারী তালিকা লোড করা হচ্ছে..."
 
-#: atticamodule.cpp:135
+#. i18n: ectx: property (text), widget (QLabel, lblProviderList)
+#: atticamodule.cpp:135 providermanagement.ui:19
 msgid "Choose a provider to manage:"
 msgstr "ব্যবস্থাপনার জন্য একটি সরবরাহকারী বেছে নিন:"
 
@@ -147,53 +148,100 @@ msgstr ""
 "রেজিস্ট্রেশন সম্পূর্ণ। নতুন অ্যাকাউন্ট তৈরি করা সফল হয়েছে। অ্যাকাউন্টটি <b>সক্রিয়</b> "
 "করতে আপনার <b>ই-মেইল পরীক্ষা করুন</b>।"
 
-#~ msgid "Login"
-#~ msgstr "লগ-ইন"
+#. i18n: ectx: attribute (title), widget (QWidget, loginTab)
+#: providerconfigwidget.ui:21
+msgid "Login"
+msgstr "লগ-ইন"
 
-#~ msgid "&Username:"
-#~ msgstr "&ইউসারনেম:"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: providerconfigwidget.ui:32
+msgid "&Username:"
+msgstr "&ইউসারনেম:"
 
-#~ msgid "&Password:"
-#~ msgstr "পাস&ওয়ার্ড:"
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: providerconfigwidget.ui:48 providerconfigwidget.ui:321
+msgid "&Password:"
+msgstr "পাস&ওয়ার্ড:"
 
-#~ msgid "&Test Login"
-#~ msgstr "টেস্ট &লগ-ইন"
+#. i18n: ectx: property (text), widget (QPushButton, testLoginButton)
+#: providerconfigwidget.ui:68
+msgid "&Test Login"
+msgstr "টেস্ট &লগ-ইন"
 
-#~ msgid "Enabled"
-#~ msgstr "সক্রিয়"
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableProviderCheckBox)
+#: providerconfigwidget.ui:149
+msgid ""
+"If a provider is not enabled, it will be ignored by the applications using "
+"the social desktop"
+msgstr ""
 
-#~ msgid ""
-#~ "Do not have an account? Create one on the <a href=\"register\">Register "
-#~ "tab</a>"
-#~ msgstr ""
-#~ "অ্যাকাউন্ট নেই? <a href=\"register\">রেজিস্টার ট্যাব-এ</a> গিয়ে একটি তৈরি করুন"
+#. i18n: ectx: property (text), widget (QCheckBox, enableProviderCheckBox)
+#: providerconfigwidget.ui:152
+msgid "Enabled"
+msgstr "সক্রিয়"
 
-#~ msgid "Register"
-#~ msgstr "রেজিস্টার করো"
+#. i18n: ectx: property (text), widget (QLabel, infoLabelLP)
+#: providerconfigwidget.ui:198
+msgid ""
+"Do not have an account? Create one on the <a href=\"register\">Register tab</"
+"a>"
+msgstr ""
+"অ্যাকাউন্ট নেই? <a href=\"register\">রেজিস্টার ট্যাব-এ</a> গিয়ে একটি তৈরি করুন"
 
-#~ msgid "Fill in the details below and click <b>Register...</b> button"
-#~ msgstr "নীচের মানগুলি ভর্তি করে <b>রেজিস্টার করো...</b> বাটনটি চাপুন"
+#. i18n: ectx: property (text), widget (QLabel, infoLabelLP_2)
+#: providerconfigwidget.ui:210
+msgid ""
+"The Social Desktop Providers are used for \"Get Hot New Stuff\" and the "
+"\"Community\" and \"Social News\" Plasma applets."
+msgstr ""
 
-#~ msgid "&User name:"
-#~ msgstr "ব্য&বহারকারীর নাম:"
+#. i18n: ectx: attribute (title), widget (QWidget, registerTab)
+#: providerconfigwidget.ui:221
+msgid "Register"
+msgstr "রেজিস্টার করো"
 
-#~ msgid "&Email:"
-#~ msgstr "&ই-মেইল:"
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: providerconfigwidget.ui:232
+msgid "Fill in the details below and click <b>Register...</b> button"
+msgstr "নীচের মানগুলি ভর্তি করে <b>রেজিস্টার করো...</b> বাটনটি চাপুন"
 
-#~ msgid "Repeat password:"
-#~ msgstr "পাসওয়ার্ড আবার লিখুন:"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: providerconfigwidget.ui:289
+msgid "&User name:"
+msgstr "ব্য&বহারকারীর নাম:"
 
-#~ msgid "&First name:"
-#~ msgstr "না&ম:"
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: providerconfigwidget.ui:305
+msgid "&Email:"
+msgstr "&ই-মেইল:"
 
-#~ msgid "&Last name:"
-#~ msgstr "&পদবী:"
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: providerconfigwidget.ui:341
+msgid "Repeat password:"
+msgstr "পাসওয়ার্ড আবার লিখুন:"
 
-#~ msgid "&Register..."
-#~ msgstr "রেজিস্টার &করো..."
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: providerconfigwidget.ui:361
+msgid "&First name:"
+msgstr "না&ম:"
 
-#~ msgid "Add Provider"
-#~ msgstr "সরবরাহকারী যোগ করো"
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#: providerconfigwidget.ui:377
+msgid "&Last name:"
+msgstr "&পদবী:"
 
-#~ msgid "Remove Provider"
-#~ msgstr "সরবরাহকারী সরাও"
+#. i18n: ectx: property (text), widget (QPushButton, registerButton)
+#: providerconfigwidget.ui:431
+msgid "&Register..."
+msgstr "রেজিস্টার &করো..."
+
+#. i18n: ectx: property (text), widget (QPushButton, addProviderButton)
+#: providermanagement.ui:52
+msgid "Add Provider"
+msgstr "সরবরাহকারী যোগ করো"
+
+#. i18n: ectx: property (text), widget (QPushButton, removeProviderButton)
+#: providermanagement.ui:59
+msgid "Remove Provider"
+msgstr "সরবরাহকারী সরাও"

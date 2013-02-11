@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:51+0100\n"
+"POT-Creation-Date: 2012-08-20 05:31+0200\n"
 "PO-Revision-Date: 2004-05-22 22:42-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -28,82 +28,122 @@ msgstr ""
 "ইন করাকালীন আগের সেশন পুনঃস্থাপন করা হবে কিনা এবং লগ-আউট করার পর  কম্পিউটার বন্ধ "
 "করার চেষ্টা করা হবে কিনা।"
 
-#~ msgid "General"
-#~ msgstr "সাধারণ"
+#. i18n: ectx: property (title), widget (QGroupBox, topBox)
+#: smserverconfigdlg.ui:17
+msgid "General"
+msgstr "সাধারণ"
 
-#~ msgid ""
-#~ "Check this option if you want the session manager to display a logout "
-#~ "confirmation dialog box."
-#~ msgstr ""
-#~ "যদি আপনি চান যে সেশন ম্যানেজার লগ-আউট করার অনুমোদন চেয়ে একটি ডায়ালগ বক্স "
-#~ "দেখাক, তাহলে এই অপশনটি সক্রিয় করুন।"
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:23
+msgid ""
+"Check this option if you want the session manager to display a logout "
+"confirmation dialog box."
+msgstr ""
+"যদি আপনি চান যে সেশন ম্যানেজার লগ-আউট করার অনুমোদন চেয়ে একটি ডায়ালগ বক্স দেখাক, "
+"তাহলে এই অপশনটি সক্রিয় করুন।"
 
-#~ msgid "Conf&irm logout"
-#~ msgstr "ল&গ-আউট অনুমোদন"
+#. i18n: ectx: property (text), widget (QCheckBox, confirmLogoutCheck)
+#: smserverconfigdlg.ui:26
+msgid "Conf&irm logout"
+msgstr "ল&গ-আউট অনুমোদন"
 
-#~ msgid ""
-#~ "Here you can choose what should happen by default when you log out. This "
-#~ "only has meaning, if you logged in through KDM."
-#~ msgstr ""
-#~ "এখানে আপনি বেছে নিতে পারেন লগ-আউট করার পর অন্য কিছু না বলা হলে কি করা হবে। "
-#~ "শুধুমাত্র কে-ডি-এম ব্যবহার করে লগ-ইন করা হলেই এই নির্বাচনগুলি প্রযোজ্য হবে। "
+#. i18n: ectx: property (text), widget (QCheckBox, offerShutdownCheck)
+#: smserverconfigdlg.ui:33
+msgid "O&ffer shutdown options"
+msgstr ""
 
-#~ msgid "&Turn off computer"
-#~ msgstr "কমপি&উটার বন্ধ করো"
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:43
+msgid ""
+"Here you can choose what should happen by default when you log out. This "
+"only has meaning, if you logged in through KDM."
+msgstr ""
+"এখানে আপনি বেছে নিতে পারেন লগ-আউট করার পর অন্য কিছু না বলা হলে কি করা হবে। "
+"শুধুমাত্র কে-ডি-এম ব্যবহার করে লগ-ইন করা হলেই এই নির্বাচনগুলি প্রযোজ্য হবে। "
 
-#~ msgid "&Restart computer"
-#~ msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
+#. i18n: ectx: property (title), widget (QGroupBox, sdGroup)
+#: smserverconfigdlg.ui:46
+msgid "Default Leave Option"
+msgstr ""
 
+#. i18n: ectx: property (text), widget (QRadioButton, logoutRadio)
+#: smserverconfigdlg.ui:52
+msgid "&End current session"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, haltRadio)
+#: smserverconfigdlg.ui:59
+msgid "&Turn off computer"
+msgstr "কমপি&উটার বন্ধ করো"
+
+#. i18n: ectx: property (text), widget (QRadioButton, rebootRadio)
+#: smserverconfigdlg.ui:66
+msgid "&Restart computer"
+msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
+
+#. i18n: ectx: property (whatsThis), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:80
 #, fuzzy
-#~ msgid ""
-#~ "<ul>\n"
-#~ "<li><b>Restore previous session:</b> Will save all applications running "
-#~ "on exit and restore them when they next start up</li>\n"
-#~ "<li><b>Restore manually saved session: </b> Allows the session to be "
-#~ "saved at any time via \"Save Session\" in the K-Menu. This means the "
-#~ "currently started applications will reappear when they next start up.</"
-#~ "li>\n"
-#~ "<li><b>Start with an empty session:</b> Do not save anything. Will come "
-#~ "up with an empty desktop on next start.</li>\n"
-#~ "</ul>"
-#~ msgstr ""
-#~ "<ul>\n"
-#~ "<li><b>পূর্ববর্তী সেশন পুনঃস্থাপিত করো:</b> লগ-আউট করার সময় চলাকালীন সমস্ত "
-#~ "অ্যাপলিকেশন সংরক্ষণ করা হবে, এবং পরবর্তী সেশন শুরু করাকালীন সেগুলি আবার চালানো "
-#~ "হবে।</li>\n"
-#~ "<li><b>নিজে হাতে সংরক্ষিত সেশন পুনঃস্থাপিত করো:</b> আপনাকে কে-মেনু-র \"সেশন "
-#~ "সংরক্ষণ করো\" মারফত যে কোন সময়ে সেশন সংরক্ষণ করার সুযোগ দেয়। নতুন সেশনের শুরুতে "
-#~ "শেষবার সেশন সংরক্ষণ করাকালীন যে সমস্ত অ্যাপলিকেশন চলছিল, সেগুলি চালানো হবে।</"
-#~ "li>\n"
-#~ "<li><b>কোন কিছু ছাড়া শুরু করো:</b> কোন কিছু সংরক্ষণ করা হবে না। পরের বার সেশন "
-#~ "শুরু করাকালীন কোন অ্যাপলিকেশন চালু করা হবে না।</li>\n"
-#~ "</ul>"
+msgid ""
+"<ul>\n"
+"<li><b>Restore previous session:</b> Will save all applications running on "
+"exit and restore them when they next start up</li>\n"
+"<li><b>Restore manually saved session: </b> Allows the session to be saved "
+"at any time via \"Save Session\" in the K-Menu. This means the currently "
+"started applications will reappear when they next start up.</li>\n"
+"<li><b>Start with an empty session:</b> Do not save anything. Will come up "
+"with an empty desktop on next start.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li><b>পূর্ববর্তী সেশন পুনঃস্থাপিত করো:</b> লগ-আউট করার সময় চলাকালীন সমস্ত "
+"অ্যাপলিকেশন সংরক্ষণ করা হবে, এবং পরবর্তী সেশন শুরু করাকালীন সেগুলি আবার চালানো হবে।"
+"</li>\n"
+"<li><b>নিজে হাতে সংরক্ষিত সেশন পুনঃস্থাপিত করো:</b> আপনাকে কে-মেনু-র \"সেশন "
+"সংরক্ষণ করো\" মারফত যে কোন সময়ে সেশন সংরক্ষণ করার সুযোগ দেয়। নতুন সেশনের শুরুতে "
+"শেষবার সেশন সংরক্ষণ করাকালীন যে সমস্ত অ্যাপলিকেশন চলছিল, সেগুলি চালানো হবে।</"
+"li>\n"
+"<li><b>কোন কিছু ছাড়া শুরু করো:</b> কোন কিছু সংরক্ষণ করা হবে না। পরের বার সেশন শুরু "
+"করাকালীন কোন অ্যাপলিকেশন চালু করা হবে না।</li>\n"
+"</ul>"
 
-#~ msgid "On Login"
-#~ msgstr "লগ-ইন করাকালীন"
+#. i18n: ectx: property (title), widget (QGroupBox, loginGroup)
+#: smserverconfigdlg.ui:83
+msgid "On Login"
+msgstr "লগ-ইন করাকালীন"
 
-#~ msgid "Restore &previous session"
-#~ msgstr "পূর্ব&বর্তী সেশন পুনঃস্থাপিত করো"
+#. i18n: ectx: property (text), widget (QRadioButton, previousSessionRadio)
+#: smserverconfigdlg.ui:89
+msgid "Restore &previous session"
+msgstr "পূর্ব&বর্তী সেশন পুনঃস্থাপিত করো"
 
-#~ msgid "Restore &manually saved session"
-#~ msgstr "নিজে হাতে সংরক্ষি&ত সেশন পুনঃস্থাপিত করো"
+#. i18n: ectx: property (text), widget (QRadioButton, savedSessionRadio)
+#: smserverconfigdlg.ui:96
+msgid "Restore &manually saved session"
+msgstr "নিজে হাতে সংরক্ষি&ত সেশন পুনঃস্থাপিত করো"
 
+#. i18n: ectx: property (text), widget (QRadioButton, emptySessionRadio)
+#: smserverconfigdlg.ui:103
 #, fuzzy
-#~ msgid "Start with an empty &session"
-#~ msgstr "কো&ন কিছু ছাড়া শুরু করো"
+msgid "Start with an empty &session"
+msgstr "কো&ন কিছু ছাড়া শুরু করো"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel1)
+#: smserverconfigdlg.ui:110
 #, fuzzy
-#~ msgid "Applications to be e&xcluded from sessions:"
-#~ msgstr "সেশন থেকে যে সব অ্যাপলিকেশন বহির্ভূত হবে:"
+msgid "Applications to be e&xcluded from sessions:"
+msgstr "সেশন থেকে যে সব অ্যাপলিকেশন বহির্ভূত হবে:"
 
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, excludeLineedit)
+#: smserverconfigdlg.ui:123
 #, fuzzy
-#~ msgid ""
-#~ "Here you can enter a colon or comma separated list of applications that "
-#~ "should not be saved in sessions, and therefore will not be started when "
-#~ "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
-#~ msgstr ""
-#~ "এখানে আপনি পারে ঢুকুন একটি কোলন বিচ্ছিন্ন তালিকা -র ঐ উচিত নয় সংরক্ষিত -এ সেশন "
-#~ "এবং আরম্ভকৃত যখন একটি সেশন জন্য উদাহরণ"
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"এখানে আপনি পারে ঢুকুন একটি কোলন বিচ্ছিন্ন তালিকা -র ঐ উচিত নয় সংরক্ষিত -এ সেশন "
+"এবং আরম্ভকৃত যখন একটি সেশন জন্য উদাহরণ"
 
 #~ msgid "Session Manager"
 #~ msgstr "সেশন ম্যানেজার"

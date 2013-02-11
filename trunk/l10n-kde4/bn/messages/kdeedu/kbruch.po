@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbruch (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-02-11 03:40+0100\n"
+"POT-Creation-Date: 2012-10-10 10:11+0200\n"
 "PO-Revision-Date: 2006-03-29 08:30+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -45,6 +45,11 @@ msgstr ""
 
 #: AppMenuWidget.cpp:141 FractionRingWidget.cpp:63
 msgid "Learning"
+msgstr ""
+
+#. i18n: ectx: Menu (file)
+#: AppMenuWidgetui.rc:5 FractionRingWidgetui.rc:5 kbruchui.rc:5
+msgid "&File"
 msgstr ""
 
 #: exercisecompare.cpp:97
@@ -433,7 +438,8 @@ msgctxt "@action opens hint"
 msgid "Hint"
 msgstr ""
 
-#: FractionRingWidget.cpp:238 mainqtwidget.cpp:804
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
+#: FractionRingWidget.cpp:238 mainqtwidget.cpp:804 taskcolorsbase.ui:16
 msgid "Colors"
 msgstr "রং"
 
@@ -537,6 +543,195 @@ msgstr ""
 #: kbruch.h:34
 msgid "KBruch"
 msgstr "কে-ব্রুচ"
+
+#. i18n: ectx: label, entry, group (General)
+#: kbruch.kcfg:11
+msgid "Active exercise."
+msgstr "সক্রিয় অনুশীলনী।"
+
+#. i18n: ectx: whatsthis, entry, group (General)
+#: kbruch.kcfg:12
+msgid "Saves the active exercise's type."
+msgstr "সক্রিয় অনুশীলনীর ধরন সংরক্ষণ করে।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:19
+#, fuzzy
+#| msgid "Enable Addition/Subtraction"
+msgid "Enable Addition"
+msgstr "যোগ/বিয়োগ সক্রিয় করো"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:20
+#, fuzzy
+#| msgid "Enable Addition/Subtraction for task generation."
+msgid "Enable Addition for task generation."
+msgstr "অংক উত্‍পাদনের জন্য যোগ/বিয়োগ সক্রিয় করো।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:24
+#, fuzzy
+#| msgid "Enable Addition/Subtraction"
+msgid "Enable Subtraction"
+msgstr "যোগ/বিয়োগ সক্রিয় করো"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:25
+msgid "Enable Addition/Subtraction for task generation."
+msgstr "অংক উত্‍পাদনের জন্য যোগ/বিয়োগ সক্রিয় করো।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:29
+#, fuzzy
+#| msgid "Enable Multiplication/Division"
+msgid "Enable Division"
+msgstr "গুণ/ভাগ সক্রিয় করো"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:30
+#, fuzzy
+#| msgid "Enable Multiplication/Division for task generation."
+msgid "Enable Division for task generation."
+msgstr "অংক উত্‍পাদনের জন্য গুণ/ভাগ সক্রিয় করো।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:34
+#, fuzzy
+#| msgid "Enable Multiplication/Division"
+msgid "Enable Multiplication"
+msgstr "গুণ/ভাগ সক্রিয় করো"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:35
+#, fuzzy
+#| msgid "Enable Multiplication/Division for task generation."
+msgid "Enable Multiplication for task generation."
+msgstr "অংক উত্‍পাদনের জন্য গুণ/ভাগ সক্রিয় করো।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:39
+msgid "Enable Multiplication/Division"
+msgstr "গুণ/ভাগ সক্রিয় করো"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:40
+msgid "Enable Multiplication/Division for task generation."
+msgstr "অংক উত্‍পাদনের জন্য গুণ/ভাগ সক্রিয় করো।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:44
+msgid "Number of fractions"
+msgstr "ভগ্নাংশের সংখ্যা"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:45
+msgid "Set the number of fractions for task generation."
+msgstr "অংক উত্‍পাদনের জন্য ভগ্নাংশের সংখ্যা নির্ধারণ করুন।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:49
+msgid "Max. main denominator"
+msgstr "সর্বোচ্চ মূল হর"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:50
+msgid "Set the maximum value of the main denominator."
+msgstr "মূল হরের সর্বোচ্চ মান নির্ধারণ করুন।"
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:54
+#, fuzzy
+#| msgid "Number of fractions"
+msgid "Answer reduced fractions"
+msgstr "ভগ্নাংশের সংখ্যা"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:55
+msgid "Set if the fractions need to be reduced."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Task)
+#: kbruch.kcfg:59 kbruch.kcfg:64 kbruch.kcfg:69
+#, fuzzy
+#| msgid "Number:"
+msgid "Mixed number"
+msgstr "সংখ্যা:"
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:60
+msgid "Set if the fractions will appear in mixed form or not on solution."
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:65
+msgid ""
+"Set if the fractions will need answers in mixed form or not on solution."
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry, group (Task)
+#: kbruch.kcfg:70
+msgid "Set if the fractions will appear in mixed form or not in questions."
+msgstr ""
+
+#. i18n: ectx: label, entry, group (Statistics)
+#. i18n: ectx: whatsthis, entry, group (Statistics)
+#: kbruch.kcfg:77 kbruch.kcfg:78
+msgid "Number of correctly solved tasks"
+msgstr "সঠিকভাবে সমাধানকৃত অংকের সংখ্যা"
+
+#. i18n: ectx: label, entry, group (Statistics)
+#: kbruch.kcfg:82
+msgid "Number of solved tasks"
+msgstr "সমাধানকৃত অংকের সংখ্যা"
+
+#. i18n: ectx: whatsthis, entry, group (Statistics)
+#: kbruch.kcfg:83
+msgid "Total number of solved tasks"
+msgstr "সমাধানকৃত অংকের মোট সংখ্যা"
+
+#. i18n: ectx: label, entry, group (Statistics)
+#. i18n: ectx: whatsthis, entry, group (Statistics)
+#: kbruch.kcfg:87 kbruch.kcfg:88
+#, fuzzy
+#| msgid "Number of solved tasks"
+msgid "Number of skipped tasks"
+msgstr "সমাধানকৃত অংকের সংখ্যা"
+
+#. i18n: ectx: label, entry (numberColor), group (TaskViewer)
+#. i18n: ectx: whatsthis, entry (numberColor), group (TaskViewer)
+#: kbruch.kcfg:95 kbruch.kcfg:96
+msgid "Color of the numbers in the task view"
+msgstr "অংক প্রদর্শকে নম্বরের রং"
+
+#. i18n: ectx: label, entry (operationColor), group (TaskViewer)
+#. i18n: ectx: whatsthis, entry (operationColor), group (TaskViewer)
+#: kbruch.kcfg:100 kbruch.kcfg:101
+msgid "Color of the operation signs in the task view"
+msgstr "অংক প্রদর্শকে কাজের চিহ্নের রং"
+
+#. i18n: ectx: label, entry (fractionBarColor), group (TaskViewer)
+#. i18n: ectx: whatsthis, entry (fractionBarColor), group (TaskViewer)
+#: kbruch.kcfg:105 kbruch.kcfg:106
+msgid "Color of the fraction bars in the task view"
+msgstr "অংক প্রদর্শকে ভগ্নাংশের বারের রং"
+
+#. i18n: ectx: label, entry, group (TaskViewer)
+#. i18n: ectx: whatsthis, entry, group (TaskViewer)
+#: kbruch.kcfg:110 kbruch.kcfg:111
+msgid "Font used for the task view"
+msgstr "অংক প্রদর্শকে ব্যবহৃত ফন্ট"
+
+#. i18n: ectx: label, entry, group (TaskViewer)
+#: kbruch.kcfg:115
+msgid "Enable showing the result also as a mixed number"
+msgstr "ফলাফলকে মিশ্র সংখ্যা হিসাবে প্রদর্শন সক্রিয় করো"
+
+#. i18n: ectx: whatsthis, entry, group (TaskViewer)
+#: kbruch.kcfg:116
+msgid ""
+"Enables/disables showing the result also in the special mixed-number "
+"notation."
+msgstr "ফলাফলকে বিশেষ মিশ্র-সংখ্যা হিসাবে প্রদর্শন সক্রিয়/নিষ্ক্রিয় করো।"
 
 #: mainqtwidget.cpp:117
 #, fuzzy
@@ -914,6 +1109,47 @@ msgstr "রিসে&ট"
 msgid "Click this button to reset the statistics."
 msgstr "পরবর্তী অংকে যেতে হলে এই বাটনে ক্লিক করুন।"
 
+#. i18n: ectx: property (text), widget (QLabel, numberLabel)
+#: taskcolorsbase.ui:28
+#, fuzzy
+#| msgid "Number:"
+msgid "&Number:"
+msgstr "সংখ্যা:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_numberColor)
+#: taskcolorsbase.ui:38
+msgid "Change the color of the numbers"
+msgstr "সংখ্যার রং পরিবর্তন করো"
+
+#. i18n: ectx: property (text), widget (QLabel, operationLabel)
+#: taskcolorsbase.ui:54
+#, fuzzy
+#| msgid "Operation sign:"
+msgid "&Operation sign:"
+msgstr "গাণিতিক চিহ্ন:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_operationColor)
+#: taskcolorsbase.ui:70
+msgid "Change the color of the operation signs"
+msgstr "গাণিতিক চিহ্নের রং পরিবর্তন করো"
+
+#. i18n: ectx: property (text), widget (QLabel, fractionBarLabel)
+#: taskcolorsbase.ui:86
+#, fuzzy
+#| msgid "Fraction bar:"
+msgid "&Fraction bar:"
+msgstr "ভগ্নাংশের বার:"
+
+#. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_fractionBarColor)
+#: taskcolorsbase.ui:96
+msgid "Change the color of the fraction bar"
+msgstr "ভগ্নাংশের বারের রং পরিবর্তন করো"
+
+#. i18n: ectx: property (toolTip), widget (KFontChooser, kcfg_taskFont)
+#: taskfontsbase.ui:16
+msgid "Change the font of the numbers"
+msgstr "সংখ্যা প্রদর্শনের ফন্ট পরিবর্তন করো"
+
 #: taskview.cpp:167
 #, fuzzy
 #| msgid "Click on this button to check your result."
@@ -936,134 +1172,6 @@ msgstr ""
 msgctxt "division symbol"
 msgid "/"
 msgstr "/"
-
-#~ msgid "Active exercise."
-#~ msgstr "সক্রিয় অনুশীলনী।"
-
-#~ msgid "Saves the active exercise's type."
-#~ msgstr "সক্রিয় অনুশীলনীর ধরন সংরক্ষণ করে।"
-
-#, fuzzy
-#~| msgid "Enable Addition/Subtraction"
-#~ msgid "Enable Addition"
-#~ msgstr "যোগ/বিয়োগ সক্রিয় করো"
-
-#, fuzzy
-#~| msgid "Enable Addition/Subtraction for task generation."
-#~ msgid "Enable Addition for task generation."
-#~ msgstr "অংক উত্‍পাদনের জন্য যোগ/বিয়োগ সক্রিয় করো।"
-
-#, fuzzy
-#~| msgid "Enable Addition/Subtraction"
-#~ msgid "Enable Subtraction"
-#~ msgstr "যোগ/বিয়োগ সক্রিয় করো"
-
-#~ msgid "Enable Addition/Subtraction for task generation."
-#~ msgstr "অংক উত্‍পাদনের জন্য যোগ/বিয়োগ সক্রিয় করো।"
-
-#, fuzzy
-#~| msgid "Enable Multiplication/Division"
-#~ msgid "Enable Division"
-#~ msgstr "গুণ/ভাগ সক্রিয় করো"
-
-#, fuzzy
-#~| msgid "Enable Multiplication/Division for task generation."
-#~ msgid "Enable Division for task generation."
-#~ msgstr "অংক উত্‍পাদনের জন্য গুণ/ভাগ সক্রিয় করো।"
-
-#, fuzzy
-#~| msgid "Enable Multiplication/Division"
-#~ msgid "Enable Multiplication"
-#~ msgstr "গুণ/ভাগ সক্রিয় করো"
-
-#, fuzzy
-#~| msgid "Enable Multiplication/Division for task generation."
-#~ msgid "Enable Multiplication for task generation."
-#~ msgstr "অংক উত্‍পাদনের জন্য গুণ/ভাগ সক্রিয় করো।"
-
-#~ msgid "Enable Multiplication/Division"
-#~ msgstr "গুণ/ভাগ সক্রিয় করো"
-
-#~ msgid "Enable Multiplication/Division for task generation."
-#~ msgstr "অংক উত্‍পাদনের জন্য গুণ/ভাগ সক্রিয় করো।"
-
-#~ msgid "Number of fractions"
-#~ msgstr "ভগ্নাংশের সংখ্যা"
-
-#~ msgid "Set the number of fractions for task generation."
-#~ msgstr "অংক উত্‍পাদনের জন্য ভগ্নাংশের সংখ্যা নির্ধারণ করুন।"
-
-#~ msgid "Max. main denominator"
-#~ msgstr "সর্বোচ্চ মূল হর"
-
-#~ msgid "Set the maximum value of the main denominator."
-#~ msgstr "মূল হরের সর্বোচ্চ মান নির্ধারণ করুন।"
-
-#, fuzzy
-#~| msgid "Number of fractions"
-#~ msgid "Answer reduced fractions"
-#~ msgstr "ভগ্নাংশের সংখ্যা"
-
-#~ msgid "Number of correctly solved tasks"
-#~ msgstr "সঠিকভাবে সমাধানকৃত অংকের সংখ্যা"
-
-#~ msgid "Number of solved tasks"
-#~ msgstr "সমাধানকৃত অংকের সংখ্যা"
-
-#~ msgid "Total number of solved tasks"
-#~ msgstr "সমাধানকৃত অংকের মোট সংখ্যা"
-
-#, fuzzy
-#~| msgid "Number of solved tasks"
-#~ msgid "Number of skipped tasks"
-#~ msgstr "সমাধানকৃত অংকের সংখ্যা"
-
-#~ msgid "Color of the numbers in the task view"
-#~ msgstr "অংক প্রদর্শকে নম্বরের রং"
-
-#~ msgid "Color of the operation signs in the task view"
-#~ msgstr "অংক প্রদর্শকে কাজের চিহ্নের রং"
-
-#~ msgid "Color of the fraction bars in the task view"
-#~ msgstr "অংক প্রদর্শকে ভগ্নাংশের বারের রং"
-
-#~ msgid "Font used for the task view"
-#~ msgstr "অংক প্রদর্শকে ব্যবহৃত ফন্ট"
-
-#~ msgid "Enable showing the result also as a mixed number"
-#~ msgstr "ফলাফলকে মিশ্র সংখ্যা হিসাবে প্রদর্শন সক্রিয় করো"
-
-#~ msgid ""
-#~ "Enables/disables showing the result also in the special mixed-number "
-#~ "notation."
-#~ msgstr "ফলাফলকে বিশেষ মিশ্র-সংখ্যা হিসাবে প্রদর্শন সক্রিয়/নিষ্ক্রিয় করো।"
-
-#, fuzzy
-#~| msgid "Number:"
-#~ msgid "&Number:"
-#~ msgstr "সংখ্যা:"
-
-#~ msgid "Change the color of the numbers"
-#~ msgstr "সংখ্যার রং পরিবর্তন করো"
-
-#, fuzzy
-#~| msgid "Operation sign:"
-#~ msgid "&Operation sign:"
-#~ msgstr "গাণিতিক চিহ্ন:"
-
-#~ msgid "Change the color of the operation signs"
-#~ msgstr "গাণিতিক চিহ্নের রং পরিবর্তন করো"
-
-#, fuzzy
-#~| msgid "Fraction bar:"
-#~ msgid "&Fraction bar:"
-#~ msgstr "ভগ্নাংশের বার:"
-
-#~ msgid "Change the color of the fraction bar"
-#~ msgstr "ভগ্নাংশের বারের রং পরিবর্তন করো"
-
-#~ msgid "Change the font of the numbers"
-#~ msgstr "সংখ্যা প্রদর্শনের ফন্ট পরিবর্তন করো"
 
 #, fuzzy
 #~| msgid "Multiplication/Division"
