@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-03-02 03:40+0100\n"
+"POT-Creation-Date: 2013-03-06 04:14+0100\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -50,6 +50,29 @@ msgstr ""
 #: configurewidget.cpp:41 configurewidget.cpp:123 viewer_p.cpp:1618
 msgid "Auto"
 msgstr "স্বয়ংক্রীয়"
+
+#: customheadersettingwidget.cpp:37 customheadersettingwidget.cpp:45
+#, fuzzy
+msgid "Header to show:"
+msgstr "হেডা&র"
+
+#: customheadersettingwidget.cpp:44 customheadersettingwidget.cpp:51
+msgid "A&dd..."
+msgstr "যো&গ করো..."
+
+#: customheadersettingwidget.cpp:44 customheadersettingwidget.cpp:51
+msgid "Remo&ve"
+msgstr "&সরিয়ে ফেলো"
+
+#: customheadersettingwidget.cpp:45 customheadersettingwidget.cpp:52
+msgid "&Modify..."
+msgstr "&বদলাও..."
+
+#: customheadersettingwidget.cpp:48 customheadersettingwidget.cpp:52
+#, fuzzy
+#| msgid "H&eaders"
+msgid "Header to hide:"
+msgstr "হেডা&র"
 
 #: editorwatcher.cpp:71
 #, fuzzy
@@ -1299,65 +1322,58 @@ msgstr "পাওয়া যাচ্ছে না"
 msgid "Viewer settings"
 msgstr "প্রের&ণ"
 
-#. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: settings.ui:37
-#, fuzzy
-#| msgid "General"
-msgid "General"
-msgstr "সাধারণ"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: settings.ui:43
-msgid "Au&tomatic collapse level:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandQuotesMark)
-#: settings.ui:53
-msgid "Show &expand/collapse quote marks"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEmoticons)
-#: settings.ui:60
-msgid "Replace smileys &by emoticons"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShrinkQuotes)
-#: settings.ui:83
-msgid "Reduce font size for &quoted text"
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
+#: settings.ui:40
+msgid "Enable Access Key"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showColorBar)
-#: settings.ui:90
+#: settings.ui:47
 #, fuzzy
 #| msgid "Show HTML stat&us bar"
 msgid "Show &HTML status bar"
 msgstr "এইচ-টি-এম-এল স্ট্যাটা&স বার দেখাও"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_showSpamStatus)
-#: settings.ui:97
+#: settings.ui:54
 #, fuzzy
 #| msgid "Show s&pam status in fancy headers"
 msgid "Show spam status &in fancy headers"
 msgstr "কেতাদুরস্ত হেডার-এ স্প্যা&ম স্ট্যাটাস দেখাও"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEmoticons)
+#: settings.ui:61
+msgid "Replace smileys &by emoticons"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShrinkQuotes)
+#: settings.ui:68
+msgid "Reduce font size for &quoted text"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowExpandQuotesMark)
+#: settings.ui:75
+msgid "Show &expand/collapse quote marks"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: settings.ui:98
+msgid "Au&tomatic collapse level:"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: settings.ui:112
+#: settings.ui:142
 msgid "Fallback character e&ncoding:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: settings.ui:138
+#: settings.ui:168
 msgid "&Override character encoding:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: settings.ui:188
+#: settings.ui:192
 msgid "Minimum font size:"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccessKeyEnabled)
-#: settings.ui:207
-msgid "Enable Access Key"
 msgstr ""
 
 #: urlhandlermanager.cpp:520
@@ -2079,6 +2095,11 @@ msgstr ""
 #: viewer_p.cpp:3174
 msgid "Activate Caret Browsing"
 msgstr ""
+
+#, fuzzy
+#~| msgid "General"
+#~ msgid "General"
+#~ msgstr "সাধারণ"
 
 #~ msgid "File Already Exists"
 #~ msgstr "ফাইল আগে থেকেই আছে"
@@ -3801,9 +3822,6 @@ msgstr ""
 #~ msgid "<b>%f</b> will be replaced with the filename to edit."
 #~ msgstr "<b>%f</b>-এর পরিবর্তে সম্পাদন করার জন্য ফাইলের নামটি দেওয়া হবে।"
 
-#~ msgid "A&dd..."
-#~ msgstr "যো&গ করো..."
-
 #~ msgid "Re&move"
 #~ msgstr "&সরিয়ে ফেলো"
 
@@ -3813,14 +3831,8 @@ msgstr ""
 #~ msgid "For&ward Subject Prefixes"
 #~ msgstr "ফর&ওয়ার্ড করা বার্তার বিষয় উপপদ"
 
-#~ msgid "Remo&ve"
-#~ msgstr "&সরিয়ে ফেলো"
-
 #~ msgid "Enter new forward prefix:"
 #~ msgstr "ফরওয়ার্ড করা বার্তার বিষয়ের জন্য নতুন উপপদ লিখুন:"
-
-#~ msgid "&Modify..."
-#~ msgstr "&বদলাও..."
 
 #~ msgid "Enter charset:"
 #~ msgstr "বর্ণমালা উল্লেখ করুন:"
@@ -6249,10 +6261,6 @@ msgstr ""
 #~ msgstr "উদ্ধৃতিচিহ্ন যো&গ করো"
 
 #, fuzzy
-#~ msgid "Headers as Is"
-#~ msgstr "হেডা&র"
-
-#, fuzzy
 #~ msgid "Header Content"
 #~ msgstr "ফোল্ডা&র-এর বিষয়বস্তু:"
 
@@ -8401,11 +8409,6 @@ msgstr ""
 #~ msgctxt "@title:tab Advanced theme settings"
 #~ msgid "Advanced"
 #~ msgstr "অগ্রসর"
-
-#, fuzzy
-#~| msgid "H&eaders"
-#~ msgid "Header:"
-#~ msgstr "হেডা&র"
 
 #, fuzzy
 #~| msgid "Size"
