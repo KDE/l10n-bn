@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kbattleship (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-11-20 03:18+0100\n"
+"POT-Creation-Date: 2013-03-11 03:25+0100\n"
 "PO-Revision-Date: 2006-04-04 12:30+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -26,7 +26,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "progga@BengaLinux.Org"
 
-#: controller.cpp:50
+#: controller.cpp:51
 #, fuzzy
 #| msgid "Computer Player"
 msgid "Computer"
@@ -54,8 +54,13 @@ msgstr "ডা&কনাম:"
 msgid "Whether sound effects should be played."
 msgstr ""
 
+#. i18n: ectx: label, entry (AdjacentShips), group (general)
+#: kbattleship.kcfg:26
+msgid "Allow the ships to be adjacent without one empty space between them."
+msgstr ""
+
 #. i18n: ectx: ToolBar (gameToolbar)
-#: kbattleshipui.rc:27
+#: kbattleshipui.rc:28
 msgid "Game Toolbar"
 msgstr ""
 
@@ -241,29 +246,33 @@ msgstr "খেলা &বন্ধ করো"
 msgid "&Connect to Game..."
 msgstr "সার্ভারের সাথে সংযুক্ত &হও..."
 
-#: mainwindow.cpp:71
+#: mainwindow.cpp:72
 #, fuzzy
 #| msgid "&Nick name:"
 msgid "Change &Nickname..."
 msgstr "ডা&কনাম:"
 
-#: mainwindow.cpp:74
+#: mainwindow.cpp:75
 #, fuzzy
 #| msgid "&Play Sounds"
 msgid "&Play Sounds"
 msgstr "&শব্দ বাজাও"
 
-#: mainwindow.cpp:78
+#: mainwindow.cpp:79
+msgid "&Adjacent Ships"
+msgstr ""
+
+#: mainwindow.cpp:84
 msgid "Show End-of-Game Message"
 msgstr ""
 
-#: mainwindow.cpp:83
+#: mainwindow.cpp:89
 #, fuzzy
 #| msgid "&Show Grid"
 msgid "Show &Left Grid"
 msgstr "ছক প্র&দর্শন করো"
 
-#: mainwindow.cpp:87
+#: mainwindow.cpp:93
 #, fuzzy
 #| msgid "&Show Grid"
 msgid "Show &Right Grid"
@@ -315,6 +324,16 @@ msgstr "উত্তরের জন্য অপেক্ষা করা হ�
 msgid "Could not connect to host"
 msgstr "সার্ভারের সাথে সংযুক্ত হওয়া যায় নি।"
 
+#: networkentity.cpp:213
+#, fuzzy
+#| msgid "You cannot place the ship here."
+msgid "You can place ships adjacent to each other"
+msgstr "আপনি এখানে জাহাজ রাখতে পারেন না।"
+
+#: networkentity.cpp:216
+msgid "You must leave an space between ships"
+msgstr ""
+
 #: playerentity.cpp:167
 #, kde-format
 msgid "Your opponent is now known as %1"
@@ -364,54 +383,54 @@ msgstr "ডা&কনাম:"
 msgid "Enter new nickname:"
 msgstr ""
 
-#: playfield.cpp:235
+#: playfield.cpp:241
 #, fuzzy
 #| msgid "Restart"
 msgid "Restart game"
 msgstr "পুনরায় আরম্ভ"
 
-#: playfield.cpp:236
+#: playfield.cpp:242
 #, fuzzy
 #| msgid "The client is asking to restart the game. Do you accept?"
 msgid "Your opponent has requested to restart the game. Do you accept?"
 msgstr "ক্লায়েন্ট পুনরায় খেলা আরম্ভ করতে চাচ্ছে।  আপনার কি এতে কোন আপত্তি আছে?"
 
-#: playfield.cpp:245
+#: playfield.cpp:251
 msgid ""
 "Your opponent is using a pre-KDE4 version of Naval Battle. Note that, "
 "according to the rules enforced by old clients, ships cannot be placed "
 "adjacent to one another."
 msgstr ""
 
-#: playfield.cpp:258
+#: playfield.cpp:264
 #, fuzzy
 #| msgid "Enemy has shot. Shoot now."
 msgid "Enemy has shot. Shoot now!"
 msgstr "শত্রুপক্ষ গোলা ছুড়েছে।  এবার আপনি ছুড়ুন।"
 
-#: playfield.cpp:262
+#: playfield.cpp:268
 #, fuzzy
 #| msgid "Waiting for enemy to shoot.."
 msgid "Waiting for enemy to shoot..."
 msgstr "শত্রুপক্ষের গোলা নিক্ষেপের জন্য অপেক্ষা করা হচ্ছে.."
 
-#: playfield.cpp:271
+#: playfield.cpp:277
 msgid "Ships placed. Now shoot on the enemy field!"
 msgstr ""
 
-#: playfield.cpp:274
+#: playfield.cpp:280
 #, fuzzy
 #| msgid "Waiting for other player to start the match..."
 msgid "Waiting for other player to start the game..."
 msgstr "অপর খেলোয়াড় কর্তৃক খেলা আরম্ভ করার জন্য অপেক্ষা করা হচ্ছে..."
 
-#: playfield.cpp:278
+#: playfield.cpp:284
 #, fuzzy
 #| msgid "Waiting for other player to place their ships..."
 msgid "Waiting for other player to place his ships..."
 msgstr "অপর খেলোয়াড়ের জাহাজ সাজানোর জন্য অপেক্ষা করা হচ্ছে..."
 
-#: playfield.cpp:286
+#: playfield.cpp:292
 #, fuzzy
 #| msgid ""
 #| "Please place your ships. Use the \"Shift\" key to place the ships "
@@ -631,9 +650,6 @@ msgstr "&একজন খেলোয়াড়"
 #, fuzzy
 #~ msgid "&Start"
 #~ msgstr "সার্ভা&র চালু করো"
-
-#~ msgid "You cannot place the ship here."
-#~ msgstr "আপনি এখানে জাহাজ রাখতে পারেন না।"
 
 #~ msgid ""
 #~ "URL of server to attach to.  In the form kbattleship://host:port/ or host:"
