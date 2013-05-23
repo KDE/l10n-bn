@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-20 03:43+0200\n"
+"POT-Creation-Date: 2013-05-23 01:32+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -4921,7 +4921,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&উত্তর পাঠাও"
 
-#: messageactions.cpp:83 searchwindow.cpp:297
+#: messageactions.cpp:83 searchwindow.cpp:236
 msgid "&Reply..."
 msgstr "উত্ত&র দাও..."
 
@@ -4929,11 +4929,11 @@ msgstr "উত্ত&র দাও..."
 msgid "Reply to A&uthor..."
 msgstr "লে&খককে উত্তর পাঠাও..."
 
-#: messageactions.cpp:97 searchwindow.cpp:301
+#: messageactions.cpp:97 searchwindow.cpp:240
 msgid "Reply to &All..."
 msgstr "&সবাইকে উত্তর দাও..."
 
-#: messageactions.cpp:104 searchwindow.cpp:305
+#: messageactions.cpp:104 searchwindow.cpp:244
 msgid "Reply to Mailing-&List..."
 msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
 
@@ -4978,7 +4978,7 @@ msgstr "বার্তা সম্পা&দন করো"
 msgid "Add Note..."
 msgstr "যোগ করো..."
 
-#: messageactions.cpp:168 searchwindow.cpp:309
+#: messageactions.cpp:168 searchwindow.cpp:248
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&ফরোয়ার্ড করো"
@@ -5115,97 +5115,67 @@ msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&সন্ধান"
 
-#: searchwindow.cpp:111
-#, fuzzy
-#| msgid "Search in &all local folders"
-msgid "Search in &all folders"
-msgstr "স&ব স্থানীয় ফোল্ডারে সন্ধান করো"
-
-#: searchwindow.cpp:115
-msgid "Search &only in:"
-msgstr "শুধু &এখানে সন্ধান করো:"
-
-#: searchwindow.cpp:122
-msgid "I&nclude sub-folders"
-msgstr "সাব-ফোল্ডার &অন্তর্ভুক্ত করো"
-
-#: searchwindow.cpp:218
-msgid "Search folder &name:"
-msgstr "সন্ধান-ফোল্ডারের না&ম:"
-
-#: searchwindow.cpp:228 searchwindow.cpp:456
+#: searchwindow.cpp:188 searchwindow.cpp:395
 msgid "Last Search"
 msgstr "শেষ সন্ধান"
 
-#: searchwindow.cpp:238
-#, fuzzy
-#| msgid "Delete Search"
-msgid "Op&en Search Folder"
-msgstr "সন্ধান মুছে ফেলো"
-
-#: searchwindow.cpp:247
-#, fuzzy
-#| msgid "Open Message"
-msgid "Open &Message"
-msgstr "বার্তা খোলো"
-
-#: searchwindow.cpp:258
+#: searchwindow.cpp:207
 msgid "AMiddleLengthText..."
 msgstr "AMiddleLengthText..."
 
-#: searchwindow.cpp:259
+#: searchwindow.cpp:208
 #, fuzzy
 #| msgid "Ready."
 msgctxt "@info:status finished searching."
 msgid "Ready."
 msgstr "তৈরি।"
 
-#: searchwindow.cpp:314
+#: searchwindow.cpp:253
 #, fuzzy
 #| msgid "&Inline..."
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "বার্তার মূ&ল অংশে..."
 
-#: searchwindow.cpp:319
+#: searchwindow.cpp:258
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "সংযুক্ত করে (&স)..."
 
-#: searchwindow.cpp:333
+#: searchwindow.cpp:272
 msgid "Save Attachments..."
 msgstr "অ্যাটাচমেন্ট সংরক্ষণ করো..."
 
-#: searchwindow.cpp:339
+#: searchwindow.cpp:278
 msgid "Clear Selection"
 msgstr "নির্বাচন ফাঁকা করো"
 
-#: searchwindow.cpp:423
+#: searchwindow.cpp:362
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] "%1-টি মিল"
 msgstr[1] "%1-টি মিল"
 
-#: searchwindow.cpp:524
+#: searchwindow.cpp:463
 #, kde-format
 msgid "Can not get search result. %1"
 msgstr ""
 
-#: searchwindow.cpp:639
+#: searchwindow.cpp:578
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
 "that another search folder with the same name already exists."
 msgstr ""
 
-#: searchwindow.cpp:746
+#: searchwindow.cpp:685
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "বার্তা খোলো"
 msgstr[1] "বার্তা খোলো"
 
-#: searchwindow.cpp:749
+#: searchwindow.cpp:688
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -5695,6 +5665,44 @@ msgstr "প্রোগ্রাম থেকে প্রস্থান কর
 #: ui/miscpagemaintab.ui:187
 msgid "Print only selected text"
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, mChkbxAllFolders)
+#: ui/searchwindow.ui:17
+#, fuzzy
+#| msgid "Search in &all local folders"
+msgid "Search in &all folders"
+msgstr "স&ব স্থানীয় ফোল্ডারে সন্ধান করো"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mChkbxSpecificFolders)
+#: ui/searchwindow.ui:26
+msgid "Search &only in:"
+msgstr "শুধু &এখানে সন্ধান করো:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, mChkSubFolders)
+#: ui/searchwindow.ui:39
+#, fuzzy
+#| msgid "I&nclude sub-folders"
+msgid "&Include sub-folders"
+msgstr "সাব-ফোল্ডার &অন্তর্ভুক্ত করো"
+
+#. i18n: ectx: property (text), widget (QLabel, mSearchFolderLbl)
+#: ui/searchwindow.ui:93
+msgid "Search folder &name:"
+msgstr "সন্ধান-ফোল্ডারের না&ম:"
+
+#. i18n: ectx: property (text), widget (KPushButton, mSearchFolderOpenBtn)
+#: ui/searchwindow.ui:113
+#, fuzzy
+#| msgid "Delete Search"
+msgid "Open &Search Folder"
+msgstr "সন্ধান মুছে ফেলো"
+
+#. i18n: ectx: property (text), widget (KPushButton, mSearchResultOpenBtn)
+#: ui/searchwindow.ui:123
+#, fuzzy
+#| msgid "Open Message"
+msgid "Open &Message"
+msgstr "বার্তা খোলো"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: ui/securitypagegeneraltab.ui:17

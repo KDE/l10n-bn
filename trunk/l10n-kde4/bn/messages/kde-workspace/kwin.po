@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-05-21 01:53+0000\n"
+"POT-Creation-Date: 2013-05-23 01:34+0000\n"
 "PO-Revision-Date: 2009-01-09 21:22-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -24,7 +24,7 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "anirban@bengalinux.org"
 
-#: composite.cpp:448
+#: composite.cpp:449
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
@@ -430,37 +430,49 @@ msgstr "উইণ্ডো পরবর্তী স্ক্রীণে পা
 
 #: kwinbindings.cpp:154
 #, fuzzy
+#| msgid "Window to Previous Desktop"
+msgid "Window to Previous Screen"
+msgstr "উইণ্ডো পূর্ববর্তী ডেস্কটপে পাঠাও"
+
+#: kwinbindings.cpp:155
+#, fuzzy
 #| msgid "Show Desktop Grid"
 msgid "Show Desktop"
 msgstr "ডেস্কটপ গ্রিড দেখাও"
 
-#: kwinbindings.cpp:157
+#: kwinbindings.cpp:158
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 1"
 msgid "Switch to Screen %1"
 msgstr "1  নং স্ক্রীণে যাও"
 
-#: kwinbindings.cpp:160
+#: kwinbindings.cpp:161
 msgid "Switch to Next Screen"
 msgstr "পরবর্তী স্ক্রীণে যাও"
 
-#: kwinbindings.cpp:163
+#: kwinbindings.cpp:162
+#, fuzzy
+#| msgid "Switch to Previous Desktop"
+msgid "Switch to Previous Screen"
+msgstr "পূর্ববর্তী ডেস্কটপে যাও"
+
+#: kwinbindings.cpp:165
 msgid "Miscellaneous"
 msgstr "বিবিধ"
 
-#: kwinbindings.cpp:164
+#: kwinbindings.cpp:166
 msgid "Kill Window"
 msgstr "উইণ্ডোটি নষ্ট কর"
 
-#: kwinbindings.cpp:165
+#: kwinbindings.cpp:167
 msgid "Block Global Shortcuts"
 msgstr ""
 
-#: kwinbindings.cpp:166
+#: kwinbindings.cpp:168
 msgid "Suspend Compositing"
 msgstr ""
 
-#: kwinbindings.cpp:167
+#: kwinbindings.cpp:169
 msgid "Invert Screen Colors"
 msgstr ""
 
@@ -533,7 +545,11 @@ msgstr ""
 msgid "Indicate that KWin has recently crashed n times"
 msgstr ""
 
-#: scene_opengl.cpp:462
+#: scene_opengl.cpp:319
+msgid "Desktop effects were restarted due to a graphics reset"
+msgstr ""
+
+#: scene_opengl.cpp:513
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects not possible</h1>Your system cannot perform "
@@ -543,7 +559,7 @@ msgid ""
 "%2 "
 msgstr ""
 
-#: scene_opengl.cpp:469
+#: scene_opengl.cpp:520
 msgid ""
 "The demanded resolution exceeds the GL_MAX_VIEWPORT_DIMS limitation of your "
 "GPU and is therefore not compatible with the OpenGL compositor.<br>XRender "
@@ -551,7 +567,7 @@ msgid ""
 "by the hardware limitations that restrict the OpenGL viewport size."
 msgstr ""
 
-#: scene_opengl.cpp:494
+#: scene_opengl.cpp:545
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects might be unusable</h1>OpenGL Desktop Effects at "
@@ -560,7 +576,7 @@ msgid ""
 "compositing, switch to the XRender backend or lower the resolution to %1x%1."
 msgstr ""
 
-#: scene_opengl.cpp:500
+#: scene_opengl.cpp:551
 msgid ""
 "The demanded resolution exceeds the GL_MAX_TEXTURE_SIZE limitation of your "
 "GPU, thus windows of that size cannot be assigned to textures and will be "
