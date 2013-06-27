@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-06-26 01:41+0000\n"
+"POT-Creation-Date: 2013-06-27 01:36+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -127,18 +127,6 @@ msgstr "কে.ডি.ই. ই-মেইল ক্লায়েন্ট"
 #: aboutdata.cpp:242
 msgid "Copyright © 1997–2013, KMail authors"
 msgstr ""
-
-#: addressvalidationjob.cpp:81
-#, kde-format
-msgid "Distribution list %2 is empty, it cannot be used."
-msgid_plural "Distribution lists %2 are empty, they cannot be used."
-msgstr[0] ""
-msgstr[1] ""
-
-#: addressvalidationjob.cpp:84 addressvalidationjob.cpp:93
-#: identity/identitydialog.cpp:654
-msgid "Invalid Email Address"
-msgstr "অবৈধ ই-মেইল ঠিকানা"
 
 #: antispamwizard.cpp:116
 msgid "Anti-Spam Wizard"
@@ -1644,27 +1632,6 @@ msgstr "যো&গ করো..."
 msgid "Remove"
 msgstr "&সরিয়ে ফেলো"
 
-#: createnewcontactjob.cpp:80 kmreaderwin.cpp:174
-msgid "Add to Address Book"
-msgstr "ঠিকানা তালিকায় যোগ করো"
-
-#: createnewcontactjob.cpp:132
-#, fuzzy
-#| msgid "Messages deleted successfully."
-msgid "Contact created successfully"
-msgstr "বার্তা মুছে ফেলা সফল"
-
-#: createnewcontactjob.cpp:137 kmreaderwin.cpp:776
-#, kde-format
-msgid "Contact cannot be stored: %1"
-msgstr ""
-
-#: createnewcontactjob.cpp:137 kmreaderwin.cpp:776
-#, fuzzy
-#| msgid "Name of the attachment:"
-msgid "Failed to store contact"
-msgstr "অ্যাটাচমেন্ট-এর নাম:"
-
 #: foldershortcutactionmanager.cpp:138 foldershortcutactionmanager.cpp:139
 #, kde-format
 msgid "Folder Shortcut %1"
@@ -1974,6 +1941,11 @@ msgstr "কোন ছবি নেই"
 msgid "Invalid Email Alias \"%1\""
 msgstr "অবৈধ ই-মেইল ঠিকানা"
 
+#: identity/identitydialog.cpp:654 job/addressvalidationjob.cpp:84
+#: job/addressvalidationjob.cpp:93
+msgid "Invalid Email Address"
+msgstr "অবৈধ ই-মেইল ঠিকানা"
+
 #: identity/identitydialog.cpp:689
 #, kde-format
 msgid ""
@@ -2189,6 +2161,34 @@ msgstr "কোন ছবি নেই"
 #: identity/xfaceconfigurator.cpp:280 identity/xfaceconfigurator.cpp:290
 msgid "No picture set for your address book entry."
 msgstr ""
+
+#: job/addressvalidationjob.cpp:81
+#, kde-format
+msgid "Distribution list %2 is empty, it cannot be used."
+msgid_plural "Distribution lists %2 are empty, they cannot be used."
+msgstr[0] ""
+msgstr[1] ""
+
+#: job/createnewcontactjob.cpp:80 kmreaderwin.cpp:174
+msgid "Add to Address Book"
+msgstr "ঠিকানা তালিকায় যোগ করো"
+
+#: job/createnewcontactjob.cpp:132
+#, fuzzy
+#| msgid "Messages deleted successfully."
+msgid "Contact created successfully"
+msgstr "বার্তা মুছে ফেলা সফল"
+
+#: job/createnewcontactjob.cpp:137 kmreaderwin.cpp:776
+#, kde-format
+msgid "Contact cannot be stored: %1"
+msgstr ""
+
+#: job/createnewcontactjob.cpp:137 kmreaderwin.cpp:776
+#, fuzzy
+#| msgid "Name of the attachment:"
+msgid "Failed to store contact"
+msgstr "অ্যাটাচমেন্ট-এর নাম:"
 
 #. i18n: ectx: whatsthis, entry (ExcludeImportantMailFromExpiry), group (Behaviour)
 #: kmail.kcfg.cmake:49
@@ -3756,8 +3756,7 @@ msgid "Notification"
 msgstr "নতুন মেইল বিজ্ঞপ্তি"
 
 #: kmmainwidget.cpp:325
-msgid ""
-"An other mailer was found on system. Do you want to import data from it?"
+msgid "Another mailer was found on system. Do you want to import data from it?"
 msgstr ""
 
 #: kmmainwidget.cpp:328 kmmainwidget.cpp:4373
