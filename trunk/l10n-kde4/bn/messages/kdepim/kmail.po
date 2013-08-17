@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-15 01:39+0000\n"
+"POT-Creation-Date: 2013-08-17 01:40+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -4519,7 +4519,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&উত্তর পাঠাও"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:227
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:231
 msgid "&Reply..."
 msgstr "উত্ত&র দাও..."
 
@@ -4527,11 +4527,11 @@ msgstr "উত্ত&র দাও..."
 msgid "Reply to A&uthor..."
 msgstr "লে&খককে উত্তর পাঠাও..."
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:231
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:235
 msgid "Reply to &All..."
 msgstr "&সবাইকে উত্তর দাও..."
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:235
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:239
 msgid "Reply to Mailing-&List..."
 msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
 
@@ -4576,7 +4576,7 @@ msgstr "বার্তা সম্পা&দন করো"
 msgid "Add Note..."
 msgstr "যোগ করো..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:239
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:243
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&ফরোয়ার্ড করো"
@@ -4733,72 +4733,143 @@ msgctxt "@title:column, folder (e.g. email)"
 msgid "Folder"
 msgstr "ফোল্ডার"
 
-#: searchdialog/searchwindow.cpp:90
+#: searchdialog/searchdebugdialog.cpp:35
+msgid "Search query debug"
+msgstr ""
+
+#: searchdialog/searchdebugdialog.cpp:37
+#, fuzzy
+msgid "Save As..."
+msgstr "&নতুন নামে সংরক্ষণ করো..."
+
+#: searchdialog/searchdebugdialog.cpp:71
+msgid "all files (*)"
+msgstr ""
+
+#: searchdialog/searchdebugdialog.cpp:81
+#, kde-format
+msgid ""
+"Could not write the file %1:\n"
+"\"%2\" is the detailed error description."
+msgstr ""
+
+#: searchdialog/searchdebugdialog.cpp:85
+#, fuzzy
+#| msgid "Leave Editor Open"
+msgid "Sieve Editor Error"
+msgstr "সম্পাদক চালু থাক"
+
+#: searchdialog/searchdebugwidget.cpp:52
+msgid "UIDS:"
+msgstr ""
+
+#: searchdialog/searchdebugwidget.cpp:53
+#, fuzzy
+#| msgid "&Message"
+msgid "Message:"
+msgstr "&রচনা"
+
+#: searchdialog/searchdebugwidget.cpp:57 searchdialog/searchwindow.cpp:410
+#: searchdialog/searchwindow.cpp:438 searchdialog/searchwindow.cpp:441
+#, fuzzy
+msgid "Search"
+msgstr "&সন্ধান"
+
+#: searchdialog/searchdebugwidget.cpp:176
+#, fuzzy, kde-format
+msgid "1 message found"
+msgid_plural "%1 messages found"
+msgstr[0] "একটি বার্তা, %2."
+msgstr[1] "%1-টি বার্তা, %2।"
+
+#: searchdialog/searchdebugwidget.cpp:195
+#, fuzzy
+#| msgid "Error connecting to server %1"
+msgid "Error on fetching item"
+msgstr "সার্ভার %1-এর সঙ্গে যোগাযোগ স্থাপনে সমস্যা হয়েছে"
+
+#: searchdialog/searchwindow.cpp:91
 msgid "Find Messages"
 msgstr "বার্তা সন্ধান করো"
 
-#: searchdialog/searchwindow.cpp:102
+#: searchdialog/searchwindow.cpp:103
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&সন্ধান"
 
-#: searchdialog/searchwindow.cpp:189 searchdialog/searchwindow.cpp:382
+#: searchdialog/searchwindow.cpp:108
+msgid "Debug query"
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:193 searchdialog/searchwindow.cpp:386
 msgid "Last Search"
 msgstr "শেষ সন্ধান"
 
-#: searchdialog/searchwindow.cpp:244
+#: searchdialog/searchwindow.cpp:248
 #, fuzzy
 #| msgid "&Inline..."
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "বার্তার মূ&ল অংশে..."
 
-#: searchdialog/searchwindow.cpp:249
+#: searchdialog/searchwindow.cpp:253
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "সংযুক্ত করে (&স)..."
 
-#: searchdialog/searchwindow.cpp:263
+#: searchdialog/searchwindow.cpp:267
 msgid "Save Attachments..."
 msgstr "অ্যাটাচমেন্ট সংরক্ষণ করো..."
 
-#: searchdialog/searchwindow.cpp:269
+#: searchdialog/searchwindow.cpp:273
 msgid "Clear Selection"
 msgstr "নির্বাচন ফাঁকা করো"
 
-#: searchdialog/searchwindow.cpp:353
+#: searchdialog/searchwindow.cpp:357
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] "%1-টি মিল"
 msgstr[1] "%1-টি মিল"
 
-#: searchdialog/searchwindow.cpp:443
+#: searchdialog/searchwindow.cpp:410
+msgid "You did not selected a valid folder."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:438
+msgid "You forgot to define condition."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:441
+msgid "All folders selected are empty or were not indexed."
+msgstr ""
+
+#: searchdialog/searchwindow.cpp:463
 #, fuzzy
 msgid "Searching..."
 msgstr "প্রের&ণ"
 
-#: searchdialog/searchwindow.cpp:451
+#: searchdialog/searchwindow.cpp:471
 #, kde-format
 msgid "Can not get search result. %1"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:562
+#: searchdialog/searchwindow.cpp:582
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
 "that another search folder with the same name already exists."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:665
+#: searchdialog/searchwindow.cpp:685
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "বার্তা খোলো"
 msgstr[1] "বার্তা খোলো"
 
-#: searchdialog/searchwindow.cpp:668
+#: searchdialog/searchwindow.cpp:688
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -7976,10 +8047,6 @@ msgstr "বহিঃস্থ সম্পাদক"
 #~ msgstr "অ্যাটাচমেন্ট নতুন নামে সং&রক্ষণ করো..."
 
 #, fuzzy
-#~ msgid "Save As..."
-#~ msgstr "&নতুন নামে সংরক্ষণ করো..."
-
-#, fuzzy
 #~ msgid "Properties"
 #~ msgstr "বৈশিষ্ট্যা&বলী"
 
@@ -8955,9 +9022,6 @@ msgstr "বহিঃস্থ সম্পাদক"
 #~ msgid "Connecting to server %1, please wait..."
 #~ msgstr "সার্ভার %1-এর সঙ্গে যোগাযোগ স্থাপন করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
 
-#~ msgid "Error connecting to server %1"
-#~ msgstr "সার্ভার %1-এর সঙ্গে যোগাযোগ স্থাপনে সমস্যা হয়েছে"
-
 #~ msgid "&New Folder..."
 #~ msgstr "&নতুন ফোল্ডার..."
 
@@ -9455,11 +9519,6 @@ msgstr "বহিঃস্থ সম্পাদক"
 #~ msgctxt "type of folder storage"
 #~ msgid "IMAP"
 #~ msgstr "আই-ম্যাপ (IMAP)"
-
-#, fuzzy
-#~ msgctxt "type of folder storage"
-#~ msgid "Search"
-#~ msgstr "&সন্ধান"
 
 #, fuzzy
 #~| msgid "Unknown"
@@ -12185,9 +12244,6 @@ msgstr "বহিঃস্থ সম্পাদক"
 #~ msgid "Abort Editor"
 #~ msgstr "সম্পাদক বন্ধ করো"
 
-#~ msgid "Leave Editor Open"
-#~ msgstr "সম্পাদক চালু থাক"
-
 #~ msgid " Spell check canceled."
 #~ msgstr " বানান পরীক্ষা বাতিল"
 
@@ -12525,9 +12581,3 @@ msgstr "বহিঃস্থ সম্পাদক"
 #~ msgctxt "Message->Forward->"
 #~ msgid "As Di&gest..."
 #~ msgstr "সংযুক্ত করে (&স)..."
-
-#, fuzzy
-#~ msgid "%1 message"
-#~ msgid_plural "%1 messages"
-#~ msgstr[0] "একটি বার্তা, %2."
-#~ msgstr[1] "%1-টি বার্তা, %2।"
