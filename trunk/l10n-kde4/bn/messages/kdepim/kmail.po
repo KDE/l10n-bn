@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-18 01:46+0000\n"
+"POT-Creation-Date: 2013-09-19 01:39+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -2778,11 +2778,34 @@ msgstr ""
 msgid "Edit..."
 msgstr "সম্পাদনা..."
 
-#: identity/identityeditvcarddialog.cpp:31
+#: identity/identityeditvcarddialog.cpp:32
 #, fuzzy
 #| msgid "Modify Account"
 msgid "Edit own vCard"
 msgstr "অ্যাকাউন্ট পাল্টাও"
+
+#: identity/identityeditvcarddialog.cpp:34
+#, fuzzy
+#| msgid "Collapse the current thread"
+msgid "Delete current vcard"
+msgstr "বর্তমান সূত্রটি গুটিয়ে নাও"
+
+#: identity/identityeditvcarddialog.cpp:54
+#, fuzzy
+#| msgid "Are you sure you want to empty the trash folder?"
+msgid "Are you sure to want to delete this vcard?"
+msgstr "আপনি কি আবর্জনা ফোল্ডার ফাঁকা করার ব্যাপারে নিশ্চিত?"
+
+#: identity/identityeditvcarddialog.cpp:54
+#: identity/identityeditvcarddialog.cpp:66
+#, fuzzy
+#| msgid "Deleted"
+msgid "Delete vcard"
+msgstr "মুছে ফেলা"
+
+#: identity/identityeditvcarddialog.cpp:66
+msgid "We can not delete vcard file."
+msgstr ""
 
 #: identity/identitylistview.cpp:98
 #, kde-format
@@ -3649,14 +3672,14 @@ msgstr "বার্তা সরানো বাতিল করা হয়ে�
 msgid "Jump to Folder"
 msgstr "এই ফোল্ডার-এ কপি করো"
 
-#: kmmainwidget.cpp:2396
+#: kmmainwidget.cpp:2396 vacationmanager.cpp:59
 msgid ""
 "KMail's Out of Office Reply functionality relies on server-side filtering. "
 "You have not yet configured an IMAP server for this.\n"
 "You can do this on the \"Filtering\" tab of the IMAP account configuration."
 msgstr ""
 
-#: kmmainwidget.cpp:2401
+#: kmmainwidget.cpp:2401 vacationmanager.cpp:64
 msgid "No Server-Side Filtering Configured"
 msgstr ""
 
@@ -4234,9 +4257,9 @@ msgid "Filter %1"
 msgstr "ফিল্টার %1"
 
 #: kmmainwidget.cpp:4484
-#, fuzzy
+#, fuzzy, kde-format
 #| msgid "Configure \"Out of Office\" Replies"
-msgid "Out of office reply active"
+msgid "Out of office reply active on server \"%1\""
 msgstr "\"অফিসে নেই\" উত্তর কনফিগার করো"
 
 #: kmmainwidget.cpp:4589
@@ -4549,7 +4572,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&উত্তর পাঠাও"
 
-#: messageactions.cpp:84 searchdialog/searchwindow.cpp:236
+#: messageactions.cpp:84 searchdialog/searchwindow.cpp:240
 msgid "&Reply..."
 msgstr "উত্ত&র দাও..."
 
@@ -4557,11 +4580,11 @@ msgstr "উত্ত&র দাও..."
 msgid "Reply to A&uthor..."
 msgstr "লে&খককে উত্তর পাঠাও..."
 
-#: messageactions.cpp:98 searchdialog/searchwindow.cpp:240
+#: messageactions.cpp:98 searchdialog/searchwindow.cpp:244
 msgid "Reply to &All..."
 msgstr "&সবাইকে উত্তর দাও..."
 
-#: messageactions.cpp:105 searchdialog/searchwindow.cpp:244
+#: messageactions.cpp:105 searchdialog/searchwindow.cpp:248
 msgid "Reply to Mailing-&List..."
 msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
 
@@ -4606,7 +4629,7 @@ msgstr "বার্তা সম্পা&দন করো"
 msgid "Add Note..."
 msgstr "যোগ করো..."
 
-#: messageactions.cpp:174 searchdialog/searchwindow.cpp:248
+#: messageactions.cpp:174 searchdialog/searchwindow.cpp:252
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&ফরোয়ার্ড করো"
@@ -4839,77 +4862,77 @@ msgstr ""
 msgid "Find Messages"
 msgstr "বার্তা সন্ধান করো"
 
-#: searchdialog/searchwindow.cpp:107
+#: searchdialog/searchwindow.cpp:111
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&সন্ধান"
 
-#: searchdialog/searchwindow.cpp:112
+#: searchdialog/searchwindow.cpp:116
 msgid "Debug query"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:198 searchdialog/searchwindow.cpp:391
+#: searchdialog/searchwindow.cpp:202 searchdialog/searchwindow.cpp:395
 msgid "Last Search"
 msgstr "শেষ সন্ধান"
 
-#: searchdialog/searchwindow.cpp:253
+#: searchdialog/searchwindow.cpp:257
 #, fuzzy
 #| msgid "&Inline..."
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "বার্তার মূ&ল অংশে..."
 
-#: searchdialog/searchwindow.cpp:258
+#: searchdialog/searchwindow.cpp:262
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "সংযুক্ত করে (&স)..."
 
-#: searchdialog/searchwindow.cpp:272
+#: searchdialog/searchwindow.cpp:276
 msgid "Save Attachments..."
 msgstr "অ্যাটাচমেন্ট সংরক্ষণ করো..."
 
-#: searchdialog/searchwindow.cpp:278
+#: searchdialog/searchwindow.cpp:282
 msgid "Clear Selection"
 msgstr "নির্বাচন ফাঁকা করো"
 
-#: searchdialog/searchwindow.cpp:362
+#: searchdialog/searchwindow.cpp:366
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] "%1-টি মিল"
 msgstr[1] "%1-টি মিল"
 
-#: searchdialog/searchwindow.cpp:415
+#: searchdialog/searchwindow.cpp:419
 msgid "You did not selected a valid folder."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:443
+#: searchdialog/searchwindow.cpp:447
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:448
+#: searchdialog/searchwindow.cpp:452
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:454
+#: searchdialog/searchwindow.cpp:458
 #, fuzzy
 msgid "No message found."
 msgstr "একটি বার্তা, %2."
 
-#: searchdialog/searchwindow.cpp:478
+#: searchdialog/searchwindow.cpp:482
 #, fuzzy
 msgid "Searching..."
 msgstr "প্রের&ণ"
 
-#: searchdialog/searchwindow.cpp:486
+#: searchdialog/searchwindow.cpp:490
 #, fuzzy, kde-format
 #| msgid "Move Messages to Folder"
 msgid "Cannot get search result. %1"
 msgstr "বার্তা ফোল্ডার-এ সরাও"
 
-#: searchdialog/searchwindow.cpp:600
+#: searchdialog/searchwindow.cpp:604
 #, kde-format
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
@@ -4917,14 +4940,14 @@ msgid ""
 "\"%1\"."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:706
+#: searchdialog/searchwindow.cpp:710
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "বার্তা খোলো"
 msgstr[1] "বার্তা খোলো"
 
-#: searchdialog/searchwindow.cpp:709
+#: searchdialog/searchwindow.cpp:713
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -7349,12 +7372,6 @@ msgstr "বহিঃস্থ সম্পাদক"
 #~ msgctxt "message status"
 #~ msgid "Read"
 #~ msgstr "পঠিত"
-
-#, fuzzy
-#~| msgid "Deleted"
-#~ msgctxt "message status"
-#~ msgid "Deleted"
-#~ msgstr "মুছে ফেলা"
 
 #, fuzzy
 #~| msgid "Replied"
@@ -9797,12 +9814,6 @@ msgstr "বহিঃস্থ সম্পাদক"
 #~| msgid "C&ollapse All Threads"
 #~ msgid "Collapse All Groups"
 #~ msgstr "স&ব সূত্র গুটিয়ে নাও"
-
-#, fuzzy
-#~| msgid "Collapse the current thread"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Close the current tab"
-#~ msgstr "বর্তমান সূত্রটি গুটিয়ে নাও"
 
 #~ msgid "Show Quick Search"
 #~ msgstr "চটপট সন্ধান দেখাও"
