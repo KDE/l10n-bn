@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-08-14 01:44+0000\n"
+"POT-Creation-Date: 2013-09-25 01:45+0000\n"
 "PO-Revision-Date: 2009-01-09 21:22-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -24,14 +24,14 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "anirban@bengalinux.org"
 
-#: composite.cpp:451
+#: composite.cpp:436
 #, kde-format
 msgid ""
 "Desktop effects have been suspended by another application.<br/>You can "
 "resume using the '%1' shortcut."
 msgstr ""
 
-#: compositingprefs.cpp:96
+#: compositingprefs.cpp:94
 msgid ""
 "<b>OpenGL compositing (the default) has crashed KWin in the past.</"
 "b><br>This was most likely due to a driver bug.<p>If you think that you have "
@@ -40,19 +40,19 @@ msgid ""
 "p><p>Alternatively, you might want to use the XRender backend instead.</p>"
 msgstr ""
 
-#: compositingprefs.cpp:103
+#: compositingprefs.cpp:101
 msgid "Required X extensions (XComposite and XDamage) are not available."
 msgstr "প্রয়োজনীয় এক্স এক্সটেনশন (XComposite and XDamage) পাওয়া যায়নি।"
 
-#: compositingprefs.cpp:107
+#: compositingprefs.cpp:105
 msgid "GLX/OpenGL are not available and only OpenGL support is compiled."
 msgstr ""
 
-#: compositingprefs.cpp:111
+#: compositingprefs.cpp:109
 msgid "GLX/OpenGL and XRender/XFixes are not available."
 msgstr "GLX/OpenGL এবং XRender/XFixes পাওয়া যায়নি।"
 
-#: decorations.cpp:59
+#: decorations.cpp:62
 msgid "KWin: "
 msgstr "কে-উইন: "
 
@@ -62,45 +62,69 @@ msgstr "কে-উইন: "
 msgid "Window Manager"
 msgstr "কে.ডি.ই. উইণ্ডো ম্যানেজার"
 
-#: killer/killer.cpp:44
-msgid "KWin helper utility"
-msgstr "কে-উইন সাহায্যকারী ইউটিলিটি"
-
-#: killer/killer.cpp:47
+#: killer/killer.cpp:48
 msgid "PID of the application to terminate"
 msgstr "যে অ্যাপলিকেশন বন্ধ করা হবে তার PID"
 
 #: killer/killer.cpp:48
+msgid "pid"
+msgstr ""
+
+#: killer/killer.cpp:50
 msgid "Hostname on which the application is running"
 msgstr "যে হোস্ট-এ অ্যাপলিকেশন চলছে"
 
-#: killer/killer.cpp:49
-msgid "Caption of the window to be terminated"
-msgstr "যে উইণ্ডো বন্ধ করা হবে তার শিরোনাম"
-
 #: killer/killer.cpp:50
-msgid "Name of the application to be terminated"
-msgstr "যে অ্যাপলিকেশন বন্ধ করা হবে তার নাম"
-
-#: killer/killer.cpp:51
-msgid "ID of resource belonging to the application"
+msgid "hostname"
 msgstr ""
 
 #: killer/killer.cpp:52
+msgid "Caption of the window to be terminated"
+msgstr "যে উইণ্ডো বন্ধ করা হবে তার শিরোনাম"
+
+#: killer/killer.cpp:52
+msgid "caption"
+msgstr ""
+
+#: killer/killer.cpp:54
+msgid "Name of the application to be terminated"
+msgstr "যে অ্যাপলিকেশন বন্ধ করা হবে তার নাম"
+
+#: killer/killer.cpp:54
+msgid "name"
+msgstr ""
+
+#: killer/killer.cpp:56
+msgid "ID of resource belonging to the application"
+msgstr ""
+
+#: killer/killer.cpp:56
+msgid "id"
+msgstr ""
+
+#: killer/killer.cpp:58
 msgid "Time of user action causing termination"
 msgstr ""
 
-#: killer/killer.cpp:69
+#: killer/killer.cpp:58
+msgid "time"
+msgstr ""
+
+#: killer/killer.cpp:60
+msgid "KWin helper utility"
+msgstr "কে-উইন সাহায্যকারী ইউটিলিটি"
+
+#: killer/killer.cpp:84
 msgid "This helper utility is not supposed to be called directly."
 msgstr "এই সাহায্যকারী ইউটিলিটি সরাসরি চালানোর কথা নয়।"
 
-#: killer/killer.cpp:79
+#: killer/killer.cpp:94
 #, kde-format
 msgctxt "@info"
 msgid "<b>Application \"%1\" is not responding</b>"
 msgstr ""
 
-#: killer/killer.cpp:81
+#: killer/killer.cpp:96
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -108,7 +132,7 @@ msgid ""
 "%3) but the application is not responding.</para>"
 msgstr ""
 
-#: killer/killer.cpp:83
+#: killer/killer.cpp:98
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -116,7 +140,7 @@ msgid ""
 "%3), running on host \"%4\", but the application is not responding.</para>"
 msgstr ""
 
-#: killer/killer.cpp:86
+#: killer/killer.cpp:101
 msgctxt "@info"
 msgid ""
 "<para>Do you want to terminate this application?</"
@@ -124,381 +148,379 @@ msgid ""
 "windows. Any unsaved data will be lost.</warning></para>"
 msgstr ""
 
-#: killer/killer.cpp:90
+#: killer/killer.cpp:105
 #, kde-format
 msgid "&Terminate Application %1"
 msgstr ""
 
-#: killer/killer.cpp:91
+#: killer/killer.cpp:106
 msgid "Wait Longer"
 msgstr ""
 
-#: kwinbindings.cpp:48
+#: kwinbindings.cpp:41
 msgid "System"
 msgstr "সিস্টেম"
 
-#: kwinbindings.cpp:51
+#: kwinbindings.cpp:44
 msgid "Navigation"
 msgstr "ন্যাভিগেশন"
 
-#: kwinbindings.cpp:52
+#: kwinbindings.cpp:45
 #, fuzzy
 #| msgid "Walk Through Windows"
 msgid "Walk Through Window Tabs"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো"
 
-#: kwinbindings.cpp:53
+#: kwinbindings.cpp:46
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
 msgid "Walk Through Window Tabs (Reverse)"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: kwinbindings.cpp:54
+#: kwinbindings.cpp:47
 msgid "Remove Window From Group"
 msgstr ""
 
-#: kwinbindings.cpp:57
+#: kwinbindings.cpp:50
 msgid "Windows"
 msgstr "উইণ্ডো"
 
-#: kwinbindings.cpp:58
+#: kwinbindings.cpp:51
 msgid "Window Operations Menu"
 msgstr "উইণ্ডো পরিচালনা মেনু"
 
-#: kwinbindings.cpp:60
+#: kwinbindings.cpp:53
 msgid "Close Window"
 msgstr "উইণ্ডো বন্ধ করো"
 
-#: kwinbindings.cpp:62
+#: kwinbindings.cpp:55
 msgid "Maximize Window"
 msgstr "উইণ্ডো পুরো বড় কর"
 
-#: kwinbindings.cpp:64
+#: kwinbindings.cpp:57
 msgid "Maximize Window Vertically"
 msgstr "উইণ্ডো লম্বালম্বি পুরো বড় কর"
 
-#: kwinbindings.cpp:66
+#: kwinbindings.cpp:59
 msgid "Maximize Window Horizontally"
 msgstr "উইণ্ডো আনুভুমিকভাবে পুরো বড় কর"
 
-#: kwinbindings.cpp:68
+#: kwinbindings.cpp:61
 msgid "Minimize Window"
 msgstr "উইণ্ডো ছোট কর"
 
-#: kwinbindings.cpp:70
+#: kwinbindings.cpp:63
 msgid "Shade Window"
 msgstr "উইণ্ডো ছায়াবৃত কর"
 
-#: kwinbindings.cpp:72
+#: kwinbindings.cpp:65
 msgid "Move Window"
 msgstr "উইণ্ডোটি সরাও"
 
-#: kwinbindings.cpp:74
+#: kwinbindings.cpp:67
 msgid "Resize Window"
 msgstr "উইণ্ডোর আকার বদলাও"
 
-#: kwinbindings.cpp:76
+#: kwinbindings.cpp:69
 msgid "Raise Window"
 msgstr "উইণ্ডো উঁচু করে তোল"
 
-#: kwinbindings.cpp:78
+#: kwinbindings.cpp:71
 msgid "Lower Window"
 msgstr "উইণ্ডো নামাও"
 
-#: kwinbindings.cpp:80
+#: kwinbindings.cpp:73
 msgid "Toggle Window Raise/Lower"
 msgstr "উইণ্ডো উঁচু/নিচু পরিবর্তন কর"
 
-#: kwinbindings.cpp:82
+#: kwinbindings.cpp:75
 msgid "Make Window Fullscreen"
 msgstr "উইণ্ডো পুরো পর্দা জুড়ে কর"
 
-#: kwinbindings.cpp:84
+#: kwinbindings.cpp:77
 msgid "Hide Window Border"
 msgstr "উইণ্ডোর সীমানা লুকাও"
 
-#: kwinbindings.cpp:86
+#: kwinbindings.cpp:79
 msgid "Keep Window Above Others"
 msgstr "উইণ্ডোটিকে অন্যদের ওপরে রাখো"
 
-#: kwinbindings.cpp:88
+#: kwinbindings.cpp:81
 msgid "Keep Window Below Others"
 msgstr "উইণ্ডোটিকে অন্যদের নিচে রাখো"
 
-#: kwinbindings.cpp:90
+#: kwinbindings.cpp:83
 msgid "Activate Window Demanding Attention"
 msgstr "যে উইণ্ডোটি মনোযোগ আকর্ষণ করছে তাকে কার্যকরী কর"
 
-#: kwinbindings.cpp:92
+#: kwinbindings.cpp:85
 msgid "Setup Window Shortcut"
 msgstr "উইণ্ডো শর্টকাট ব্যবস্থাপনা করুন"
 
-#: kwinbindings.cpp:94
+#: kwinbindings.cpp:87
 msgid "Pack Window to the Right"
 msgstr "উইণ্ডোকে ডান দিকে গোছাও"
 
-#: kwinbindings.cpp:96
+#: kwinbindings.cpp:89
 msgid "Pack Window to the Left"
 msgstr "উইণ্ডোকে বাঁ দিকে গোছাও"
 
-#: kwinbindings.cpp:98
+#: kwinbindings.cpp:91
 msgid "Pack Window Up"
 msgstr "উইণ্ডোকে উপর দিকে গোছাও"
 
-#: kwinbindings.cpp:100
+#: kwinbindings.cpp:93
 msgid "Pack Window Down"
 msgstr "উইণ্ডোকে নিচের দিকে গোছাও"
 
-#: kwinbindings.cpp:102
+#: kwinbindings.cpp:95
 msgid "Pack Grow Window Horizontally"
 msgstr "উইণ্ডোগুচ্ছ লম্বালম্বি বাড়াও"
 
-#: kwinbindings.cpp:104
+#: kwinbindings.cpp:97
 msgid "Pack Grow Window Vertically"
 msgstr "উইণ্ডোগুচ্ছ আনুভুমিকভাবে বাড়াও"
 
-#: kwinbindings.cpp:106
+#: kwinbindings.cpp:99
 msgid "Pack Shrink Window Horizontally"
 msgstr "উইণ্ডোগুচ্ছ লম্বালম্বি গোটাও"
 
-#: kwinbindings.cpp:108
+#: kwinbindings.cpp:101
 msgid "Pack Shrink Window Vertically"
 msgstr "উইণ্ডোগুচ্ছ আনুভুমিকভাবে গোটাও"
 
-#: kwinbindings.cpp:110
+#: kwinbindings.cpp:103
 #, fuzzy
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Left"
 msgstr "উইণ্ডোকে বাঁ দিকে গোছাও"
 
-#: kwinbindings.cpp:112
+#: kwinbindings.cpp:105
 #, fuzzy
 #| msgid "Pack Window to the Right"
 msgid "Quick Tile Window to the Right"
 msgstr "উইণ্ডোকে ডান দিকে গোছাও"
 
-#: kwinbindings.cpp:114
+#: kwinbindings.cpp:107
 #, fuzzy
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Top Left"
 msgstr "উইণ্ডোকে বাঁ দিকে গোছাও"
 
-#: kwinbindings.cpp:116
+#: kwinbindings.cpp:109
 #, fuzzy
 #| msgid "Pack Window to the Left"
 msgid "Quick Tile Window to the Bottom Left"
 msgstr "উইণ্ডোকে বাঁ দিকে গোছাও"
 
-#: kwinbindings.cpp:118
+#: kwinbindings.cpp:111
 #, fuzzy
 #| msgid "Pack Window to the Right"
 msgid "Quick Tile Window to the Top Right"
 msgstr "উইণ্ডোকে ডান দিকে গোছাও"
 
-#: kwinbindings.cpp:120
+#: kwinbindings.cpp:113
 #, fuzzy
 #| msgid "Pack Window to the Right"
 msgid "Quick Tile Window to the Bottom Right"
 msgstr "উইণ্ডোকে ডান দিকে গোছাও"
 
-#: kwinbindings.cpp:122
+#: kwinbindings.cpp:115
 #, fuzzy
 #| msgid "Switch to Screen 0"
 msgid "Switch to Window Above"
 msgstr "0 নং স্ক্রীণে যাও"
 
-#: kwinbindings.cpp:124
+#: kwinbindings.cpp:117
 #, fuzzy
 #| msgid "Switch to Previous Desktop"
 msgid "Switch to Window Below"
 msgstr "পূর্ববর্তী ডেস্কটপে যাও"
 
-#: kwinbindings.cpp:126
+#: kwinbindings.cpp:119
 #, fuzzy
 #| msgid "Pack Window to the Right"
 msgid "Switch to Window to the Right"
 msgstr "উইণ্ডোকে ডান দিকে গোছাও"
 
-#: kwinbindings.cpp:128
+#: kwinbindings.cpp:121
 #, fuzzy
 #| msgid "Pack Window to the Left"
 msgid "Switch to Window to the Left"
 msgstr "উইণ্ডোকে বাঁ দিকে গোছাও"
 
-#: kwinbindings.cpp:130
+#: kwinbindings.cpp:123
 msgid "Increase Opacity of Active Window by 5 %"
 msgstr ""
 
-#: kwinbindings.cpp:132
+#: kwinbindings.cpp:125
 msgid "Decrease Opacity of Active Window by 5 %"
 msgstr ""
 
-#: kwinbindings.cpp:136
+#: kwinbindings.cpp:129
 msgid "Window & Desktop"
 msgstr "উইণ্ডো এবং ডেস্কটপ"
 
-#: kwinbindings.cpp:137
+#: kwinbindings.cpp:130
 msgid "Keep Window on All Desktops"
 msgstr "উইণ্ডোটিকে সমস্ত ডেস্কটপে রাখো"
 
-#: kwinbindings.cpp:141
+#: kwinbindings.cpp:134
 #, fuzzy, kde-format
 #| msgid "Window to Desktop 1"
 msgid "Window to Desktop %1"
 msgstr "উইণ্ডো ১ নং ডেস্কটপে পাঠাও"
 
-#: kwinbindings.cpp:143
+#: kwinbindings.cpp:136
 msgid "Window to Next Desktop"
 msgstr "উইণ্ডো পরবর্তী ডেস্কটপে পাঠাও"
 
-#: kwinbindings.cpp:144
+#: kwinbindings.cpp:137
 msgid "Window to Previous Desktop"
 msgstr "উইণ্ডো পূর্ববর্তী ডেস্কটপে পাঠাও"
 
-#: kwinbindings.cpp:145
+#: kwinbindings.cpp:138
 msgid "Window One Desktop to the Right"
 msgstr "উইণ্ডো ডানদিকের ডেস্কটপে"
 
-#: kwinbindings.cpp:146
+#: kwinbindings.cpp:139
 msgid "Window One Desktop to the Left"
 msgstr "উইণ্ডো বাঁদিকের ডেস্কটপে"
 
-#: kwinbindings.cpp:147
+#: kwinbindings.cpp:140
 msgid "Window One Desktop Up"
 msgstr "উইণ্ডো উপরের ডেস্কটপে"
 
-#: kwinbindings.cpp:148
+#: kwinbindings.cpp:141
 msgid "Window One Desktop Down"
 msgstr "উইণ্ডো নিচের ডেস্কটপে"
 
-#: kwinbindings.cpp:151
+#: kwinbindings.cpp:144
 #, fuzzy, kde-format
 #| msgid "Window to Screen 1"
 msgid "Window to Screen %1"
 msgstr "উইণ্ডো 1 নং স্ক্রীণে পাঠাও"
 
-#: kwinbindings.cpp:153
+#: kwinbindings.cpp:146
 msgid "Window to Next Screen"
 msgstr "উইণ্ডো পরবর্তী স্ক্রীণে পাঠাও"
 
-#: kwinbindings.cpp:154
+#: kwinbindings.cpp:147
 #, fuzzy
 #| msgid "Window to Previous Desktop"
 msgid "Window to Previous Screen"
 msgstr "উইণ্ডো পূর্ববর্তী ডেস্কটপে পাঠাও"
 
-#: kwinbindings.cpp:155
+#: kwinbindings.cpp:148
 #, fuzzy
 #| msgid "Show Desktop Grid"
 msgid "Show Desktop"
 msgstr "ডেস্কটপ গ্রিড দেখাও"
 
-#: kwinbindings.cpp:158
+#: kwinbindings.cpp:151
 #, fuzzy, kde-format
 #| msgid "Switch to Screen 1"
 msgid "Switch to Screen %1"
 msgstr "1  নং স্ক্রীণে যাও"
 
-#: kwinbindings.cpp:161
+#: kwinbindings.cpp:154
 msgid "Switch to Next Screen"
 msgstr "পরবর্তী স্ক্রীণে যাও"
 
-#: kwinbindings.cpp:162
+#: kwinbindings.cpp:155
 #, fuzzy
 #| msgid "Switch to Previous Desktop"
 msgid "Switch to Previous Screen"
 msgstr "পূর্ববর্তী ডেস্কটপে যাও"
 
-#: kwinbindings.cpp:165
+#: kwinbindings.cpp:158
 msgid "Miscellaneous"
 msgstr "বিবিধ"
 
-#: kwinbindings.cpp:166
+#: kwinbindings.cpp:159
 msgid "Kill Window"
 msgstr "উইণ্ডোটি নষ্ট কর"
 
-#: kwinbindings.cpp:167
+#: kwinbindings.cpp:160
 msgid "Suspend Compositing"
 msgstr ""
 
-#: kwinbindings.cpp:168
+#: kwinbindings.cpp:161
 msgid "Invert Screen Colors"
 msgstr ""
 
-#: main.cpp:238
-msgid ""
-"kwin: it looks like there's already a window manager running. kwin not "
-"started.\n"
-msgstr ""
-"কে-উইন: মনে হচ্ছে ইতিমধ্যেই একটি উইণ্ডো প্রবন্ধক [উইন্ডো ম্যনেজার] চালু আছে। কে-উইন "
-"চালু হল না\n"
-
-#: main.cpp:266
+#: main.cpp:146
 msgid ""
 "KWin is unstable.\n"
 "It seems to have crashed several times in a row.\n"
 "You can select another window manager to run:"
 msgstr ""
 
-#: main.cpp:323
+#: main.cpp:220
 msgid ""
 "kwin: unable to claim manager selection, another wm running? (try using --"
 "replace)\n"
 msgstr ""
 
-#: main.cpp:452
+#: main.cpp:237
+msgid "kwin: another window manager is running (try using --replace)\n"
+msgstr ""
+
+#: main.cpp:376 main.cpp:484
 msgid "KDE window manager"
 msgstr "কে.ডি.ই. উইণ্ডো ম্যানেজার"
 
-#: main.cpp:533
+#: main.cpp:463 main.cpp:467
 msgid "KWin"
 msgstr "কে-উইন"
 
-#: main.cpp:537
-msgid "(c) 1999-2008, The KDE Developers"
+#: main.cpp:471
+#, fuzzy
+#| msgid "(c) 1999-2008, The KDE Developers"
+msgid "(c) 1999-2013, The KDE Developers"
 msgstr "(C) ১৯৯৯-২০০৮, কে.ডি.ই. ডেভেলপারবৃন্দ"
 
-#: main.cpp:538
+#: main.cpp:473
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:539
+#: main.cpp:474
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:540
+#: main.cpp:475
 msgid "Daniel M. Duley"
 msgstr "Daniel M. Duley"
 
-#: main.cpp:541
+#: main.cpp:476
 msgid "Luboš Luňák"
 msgstr "Luboš Luňák"
 
-#: main.cpp:542
+#: main.cpp:477
 msgid "Martin Gräßlin"
 msgstr ""
 
-#: main.cpp:542
+#: main.cpp:477
 msgid "Maintainer"
 msgstr "রক্ষণাবেক্ষণকারী"
 
-#: main.cpp:547
+#: main.cpp:479
 msgid "Disable configuration options"
 msgstr "কন্‌ফিগারেশন অপশন নিষ্ক্রিয় করো"
 
-#: main.cpp:548
+#: main.cpp:480
 msgid "Replace already-running ICCCM2.0-compliant window manager"
 msgstr ""
 
-#: main.cpp:549
+#: main.cpp:481
 msgid "Indicate that KWin has recently crashed n times"
 msgstr ""
 
-#: scene_opengl.cpp:335
+#: scene_opengl.cpp:331
 msgid "Desktop effects were restarted due to a graphics reset"
 msgstr ""
 
-#: scene_opengl.cpp:528
+#: scene_opengl.cpp:524
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects not possible</h1>Your system cannot perform "
@@ -508,7 +530,7 @@ msgid ""
 "%2 "
 msgstr ""
 
-#: scene_opengl.cpp:535
+#: scene_opengl.cpp:531
 msgid ""
 "The demanded resolution exceeds the GL_MAX_VIEWPORT_DIMS limitation of your "
 "GPU and is therefore not compatible with the OpenGL compositor.<br>XRender "
@@ -516,7 +538,7 @@ msgid ""
 "by the hardware limitations that restrict the OpenGL viewport size."
 msgstr ""
 
-#: scene_opengl.cpp:560
+#: scene_opengl.cpp:556
 #, kde-format
 msgid ""
 "<h1>OpenGL desktop effects might be unusable</h1>OpenGL Desktop Effects at "
@@ -525,7 +547,7 @@ msgid ""
 "compositing, switch to the XRender backend or lower the resolution to %1x%1."
 msgstr ""
 
-#: scene_opengl.cpp:566
+#: scene_opengl.cpp:562
 msgid ""
 "The demanded resolution exceeds the GL_MAX_TEXTURE_SIZE limitation of your "
 "GPU, thus windows of that size cannot be assigned to textures and will be "
@@ -534,74 +556,74 @@ msgid ""
 "software rendering in this case."
 msgstr ""
 
-#: tabbox/tabbox.cpp:354
+#: tabbox/tabbox.cpp:351
 #, fuzzy
 #| msgid "Show Desktop Grid"
 msgctxt "Special entry in alt+tab list for minimizing all windows"
 msgid "Show Desktop"
 msgstr "ডেস্কটপ গ্রিড দেখাও"
 
-#: tabbox/tabbox.cpp:509
+#: tabbox/tabbox.cpp:501
 msgid "Walk Through Windows"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো"
 
-#: tabbox/tabbox.cpp:510
+#: tabbox/tabbox.cpp:502
 msgid "Walk Through Windows (Reverse)"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:511
+#: tabbox/tabbox.cpp:503
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
 msgid "Walk Through Windows Alternative"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:512
+#: tabbox/tabbox.cpp:504
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
 msgid "Walk Through Windows Alternative (Reverse)"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:513
+#: tabbox/tabbox.cpp:505
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
 msgid "Walk Through Windows of Current Application"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:514
+#: tabbox/tabbox.cpp:506
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
 msgid "Walk Through Windows of Current Application (Reverse)"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:515
+#: tabbox/tabbox.cpp:507
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
 msgid "Walk Through Windows of Current Application Alternative"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:516
+#: tabbox/tabbox.cpp:508
 #, fuzzy
 #| msgid "Walk Through Windows (Reverse)"
 msgid "Walk Through Windows of Current Application Alternative (Reverse)"
 msgstr "বিভিন্ন উইণ্ডো পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:517
+#: tabbox/tabbox.cpp:509
 msgid "Walk Through Desktops"
 msgstr "বিভিন্ন ডেস্কটপ পরিদর্শন করো"
 
-#: tabbox/tabbox.cpp:518
+#: tabbox/tabbox.cpp:510
 msgid "Walk Through Desktops (Reverse)"
 msgstr "বিভিন্ন ডেস্কটপ পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: tabbox/tabbox.cpp:519
+#: tabbox/tabbox.cpp:511
 msgid "Walk Through Desktop List"
 msgstr "ডেস্কটপ তালিকা পরিদর্শন করো"
 
-#: tabbox/tabbox.cpp:520
+#: tabbox/tabbox.cpp:512
 msgid "Walk Through Desktop List (Reverse)"
 msgstr "ডেস্কটপ তালিকা পরিদর্শন করো (বিপরীতক্রমে)"
 
-#: useractions.cpp:196
+#: useractions.cpp:195
 #, kde-format
 msgid ""
 "You have selected to show a window without its border.\n"
@@ -613,7 +635,7 @@ msgstr ""
 "সীমানা না থাকলে আপনি মাউসের সাহায্যে আবার সীমারেখা চালু করতে পারবেন না: তার "
 "জন্যে উইণ্ডো ব্যবহারের মেনু, যা %1 কী-বোর্ড শর্টকাট দিয়ে চালু হবে, ব্যবহার করুন।"
 
-#: useractions.cpp:208
+#: useractions.cpp:203
 #, kde-format
 msgid ""
 "You have selected to show a window in fullscreen mode.\n"
@@ -626,49 +648,49 @@ msgstr ""
 "এটিকে নিষ্ক্রিয় করতে পারবেন না: তার জন্যে উইণ্ডো ব্যবহারের মেনু, যা %1 কী-বোর্ড "
 "শর্টকাট দিয়ে চালু হবে, ব্যবহার করুন।"
 
-#: useractions.cpp:272
+#: useractions.cpp:274
 msgid "&Move"
 msgstr "&সরাও"
 
-#: useractions.cpp:280
+#: useractions.cpp:279
 msgid "Re&size"
 msgstr "&আকার বদলাও"
 
-#: useractions.cpp:286
+#: useractions.cpp:283
 msgid "Keep &Above Others"
 msgstr "অন্যদের &ওপরে রাখ"
 
-#: useractions.cpp:294
+#: useractions.cpp:288
 msgid "Keep &Below Others"
 msgstr "অন্যদের তলা&য় রাখ"
 
-#: useractions.cpp:302
+#: useractions.cpp:294
 msgid "&Fullscreen"
 msgstr "পুরো &পর্দা"
 
-#: useractions.cpp:310
+#: useractions.cpp:300
 msgid "Sh&ade"
 msgstr "ছায়াবৃ&ত কর"
 
-#: useractions.cpp:317
+#: useractions.cpp:305
 msgid "&No Border"
 msgstr "সীমারেখাবিহী&ন"
 
-#: useractions.cpp:326
+#: useractions.cpp:312
 msgid "Window &Shortcut..."
 msgstr "উইণ্ডো &শর্টকাট..."
 
-#: useractions.cpp:333
+#: useractions.cpp:317
 msgid "&Special Window Settings..."
 msgstr "বিশে&ষ উইণ্ডো বৈশিষ্ট্য..."
 
-#: useractions.cpp:337
+#: useractions.cpp:321
 #, fuzzy
 #| msgid "&Special Application Settings..."
 msgid "S&pecial Application Settings..."
 msgstr "বিশেষ অ্যাপলিকেশন সেটিংস..."
 
-#: useractions.cpp:344
+#: useractions.cpp:328
 #, fuzzy
 #| msgid "&Special Window Settings..."
 msgctxt ""
@@ -677,161 +699,161 @@ msgctxt ""
 msgid "Window &Manager Settings..."
 msgstr "বিশে&ষ উইণ্ডো বৈশিষ্ট্য..."
 
-#: useractions.cpp:349
+#: useractions.cpp:333
 msgid "Mi&nimize"
 msgstr "ছো&ট করো"
 
-#: useractions.cpp:355
+#: useractions.cpp:337
 msgid "Ma&ximize"
 msgstr "পুরো &বড় কর"
 
-#: useractions.cpp:366
+#: useractions.cpp:346
 msgid "&Untab"
 msgstr ""
 
-#: useractions.cpp:372
+#: useractions.cpp:350
 msgid "Close Entire &Group"
 msgstr ""
 
-#: useractions.cpp:385
+#: useractions.cpp:361
 msgid "&More Actions"
 msgstr ""
 
-#: useractions.cpp:389
+#: useractions.cpp:365
 msgid "&Close"
 msgstr "&বন্ধ করো"
 
-#: useractions.cpp:468
+#: useractions.cpp:441
 msgid "&Extensions"
 msgstr ""
 
-#: useractions.cpp:522
+#: useractions.cpp:495
 msgctxt "Switch to tab -> Previous"
 msgid "Previous"
 msgstr ""
 
-#: useractions.cpp:523
+#: useractions.cpp:496
 msgctxt "Switch to tab -> Next"
 msgid "Next"
 msgstr ""
 
-#: useractions.cpp:561
+#: useractions.cpp:534
 msgctxt "There's no window available to be attached as tab to this one"
 msgid "None available"
 msgstr ""
 
-#: useractions.cpp:570
+#: useractions.cpp:543
 #, fuzzy
 #| msgid "Switch to Screen 0"
 msgid "Switch to Tab"
 msgstr "0 নং স্ক্রীণে যাও"
 
-#: useractions.cpp:582
+#: useractions.cpp:554
 msgid "&Attach as tab to"
 msgstr ""
 
-#: useractions.cpp:606
+#: useractions.cpp:576
 #, fuzzy
 #| msgid "To &Desktop"
 msgid "Move To &Desktop"
 msgstr "ডেস্ক&টপে পাঠাও"
 
-#: useractions.cpp:623
+#: useractions.cpp:592
 #, fuzzy
 #| msgid "To &Desktop"
 msgid "Move To &Screen"
 msgstr "ডেস্ক&টপে পাঠাও"
 
-#: useractions.cpp:641
+#: useractions.cpp:609
 msgid "Ac&tivities"
 msgstr ""
 
-#: useractions.cpp:652
+#: useractions.cpp:620
 msgid "&All Desktops"
 msgstr "স&মস্ত ডেস্কটপে"
 
-#: useractions.cpp:678
+#: useractions.cpp:646
 #, fuzzy
 #| msgid "Show Desktop Grid"
 msgctxt "Create a new desktop and move there the window"
 msgid "&New Desktop"
 msgstr "ডেস্কটপ গ্রিড দেখাও"
 
-#: useractions.cpp:698
+#: useractions.cpp:666
 #, fuzzy, kde-format
 #| msgid "Window to Screen 1"
 msgctxt "@item:inmenu List of all Screens to send a window to"
 msgid "Screen &%1"
 msgstr "উইণ্ডো 1 নং স্ক্রীণে পাঠাও"
 
-#: useractions.cpp:715
+#: useractions.cpp:683
 msgid "&All Activities"
 msgstr ""
 
-#: useractions.cpp:905
+#: useractions.cpp:881
 #, kde-format
 msgctxt "'%1' is a keyboard shortcut like 'ctrl+w'"
 msgid "<b>%1</b> is already in use"
 msgstr ""
 
-#: useractions.cpp:907
+#: useractions.cpp:883
 #, kde-format
 msgctxt "keyboard shortcut '%1' is used by action '%2' in application '%3'"
 msgid "<b>%1</b> is used by %2 in %3"
 msgstr ""
 
-#: useractions.cpp:1023
+#: useractions.cpp:1007
 #, kde-format
 msgid "Activate Window (%1)"
 msgstr "উইণ্ডো সক্রিয় করো (%1)"
 
-#: useractions.cpp:1396
+#: useractions.cpp:1376
 msgid ""
 "The window manager is configured to consider the screen with the mouse on it "
 "as active one.\n"
 "Therefore it is not possible to switch to a screen explicitly."
 msgstr ""
 
-#: virtualdesktops.cpp:332 virtualdesktops.cpp:394
+#: virtualdesktops.cpp:333 virtualdesktops.cpp:395
 #, kde-format
 msgid "Desktop %1"
 msgstr "%1 নং ডেস্কটপ"
 
-#: virtualdesktops.cpp:424
+#: virtualdesktops.cpp:425
 msgid "Desktop Switching"
 msgstr "ডেস্কটপ বদল"
 
-#: virtualdesktops.cpp:427
+#: virtualdesktops.cpp:428
 msgid "Switch to Next Desktop"
 msgstr "পরবর্তী ডেস্কটপে যাও"
 
-#: virtualdesktops.cpp:428
+#: virtualdesktops.cpp:429
 msgid "Switch to Previous Desktop"
 msgstr "পূর্ববর্তী ডেস্কটপে যাও"
 
-#: virtualdesktops.cpp:429
+#: virtualdesktops.cpp:430
 msgid "Switch One Desktop to the Right"
 msgstr "ডানদিকের ডেস্কটপে যাও"
 
-#: virtualdesktops.cpp:430
+#: virtualdesktops.cpp:431
 msgid "Switch One Desktop to the Left"
 msgstr "বাঁদিকের ডেস্কটপে যাও"
 
-#: virtualdesktops.cpp:431
+#: virtualdesktops.cpp:432
 msgid "Switch One Desktop Up"
 msgstr "উপরের ডেস্কটপে যাও"
 
-#: virtualdesktops.cpp:432
+#: virtualdesktops.cpp:433
 msgid "Switch One Desktop Down"
 msgstr "নিচের ডেস্কটপে যাও"
 
-#: virtualdesktops.cpp:438
+#: virtualdesktops.cpp:439
 #, fuzzy, kde-format
 #| msgid "Switch to Desktop 1"
 msgid "Switch to Desktop %1"
 msgstr "১ নং ডেস্কটপে যাও"
 
-#: workspace.cpp:1408
+#: workspace.cpp:1411
 msgctxt "Introductory text shown in the support information."
 msgid ""
 "KWin Support Information:\n"
@@ -844,6 +866,13 @@ msgid ""
 "paste bin service\n"
 "like http://paste.kde.org instead of pasting into support threads.\n"
 msgstr ""
+
+#~ msgid ""
+#~ "kwin: it looks like there's already a window manager running. kwin not "
+#~ "started.\n"
+#~ msgstr ""
+#~ "কে-উইন: মনে হচ্ছে ইতিমধ্যেই একটি উইণ্ডো প্রবন্ধক [উইন্ডো ম্যনেজার] চালু আছে। কে-"
+#~ "উইন চালু হল না\n"
 
 #, fuzzy
 #~| msgid ""
