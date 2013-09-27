@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-09-26 01:44+0000\n"
+"POT-Creation-Date: 2013-09-27 01:50+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -15,8 +15,114 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#: adblock/adblockmanager.cpp:352
+#, fuzzy
+msgctxt "@title:window"
+msgid "Ad Block Settings"
+msgstr "প্রের&ণ"
+
+#: adblock/adblocksettingwidget.cpp:53
+msgid ""
+"<qt>Filter expression (e.g. <tt>http://www.example.com/ad/*</tt>, <a href="
+"\"filterhelp\">more information</a>):"
+msgstr ""
+
+#: adblock/adblocksettingwidget.cpp:69
+#, fuzzy
+#| msgid " days"
+msgid " day"
+msgid_plural " days"
+msgstr[0] " দিনের জন্য রেখে দাও"
+msgstr[1] " দিনের জন্য রেখে দাও"
+
+#: adblock/adblocksettingwidget.cpp:86
+msgid ""
+"<qt><p>Enter an expression to filter. Filters can be defined as either:"
+"<ul><li>a shell-style wildcard, e.g. <tt>http://www.example.com/ads*</tt>, "
+"the wildcards <tt>*?[]</tt> may be used</li><li>a full regular expression by "
+"surrounding the string with '<tt>/</tt>', e.g. <tt>/\\/(ad|banner)\\./</tt></"
+"li></ul><p>Any filter string can be preceded by '<tt>@@</tt>' to whitelist "
+"(allow) any matching URL, which takes priority over any blacklist (blocking) "
+"filter."
+msgstr ""
+
 #: adblock/networkaccessmanager.cpp:51
 msgid "Blocked by ad filter"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, BlockedLabel)
+#: adblock/ui/blocked_elements.ui:17
+msgid ""
+"<html><head/><body><p><span style=\" font-weight:600;\">Blocked elements</"
+"span></p></body></html>"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, HidedLabel)
+#: adblock/ui/blocked_elements.ui:101
+#, fuzzy
+#| msgid "Hidden Recipients"
+msgid "<b>Hidden elements</b>"
+msgstr "গুপ্ত গ্রাহক"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/blocked_elements.ui:108
+msgid "TextLabel"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkEnableAdblock)
+#: adblock/ui/settings_adblock.ui:17
+msgid "&Enable Ad Block"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, checkHideAds)
+#: adblock/ui/settings_adblock.ui:24
+msgid "&Hide filtered elements"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab_3)
+#: adblock/ui/settings_adblock.ui:38
+#, fuzzy
+#| msgid "Never Automatically"
+msgid "Automatic Filters"
+msgstr "কখনোই স্বয়ংক্রীয়ভাবে নয়"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: adblock/ui/settings_adblock.ui:49
+msgid "Update enabled automatic filters every:"
+msgstr ""
+
+#. i18n: ectx: attribute (title), widget (QWidget, tab)
+#: adblock/ui/settings_adblock.ui:88
+#, fuzzy
+#| msgid "Available Filters"
+msgid "Manual Filters"
+msgstr "যে যে ফিল্টার আপাতত আছে"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: adblock/ui/settings_adblock.ui:96
+#, fuzzy
+#| msgid "&Search:"
+msgid "Search:"
+msgstr "&সন্ধান:"
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, insertButton)
+#: adblock/ui/settings_adblock.ui:123
+#, fuzzy
+#| msgid "Add Permissions"
+msgid "Add filter expression"
+msgstr "অনুমতি যোগ করো"
+
+#. i18n: ectx: property (text), widget (QToolButton, insertButton)
+#. i18n: ectx: property (text), widget (QToolButton, removeButton)
+#: adblock/ui/settings_adblock.ui:126 adblock/ui/settings_adblock.ui:136
+#, fuzzy
+#| msgid "Add..."
+msgid "..."
+msgstr "যোগ করো..."
+
+#. i18n: ectx: property (toolTip), widget (QToolButton, removeButton)
+#: adblock/ui/settings_adblock.ui:133
+msgid "Remove filter expression"
 msgstr ""
 
 #: findbar/findbarbase.cpp:48 findbar/findbarbase.cpp:51
@@ -2867,9 +2973,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 #~ msgid "Modify Permissions"
 #~ msgstr "অনুমতি পরিবর্তন করো"
 
-#~ msgid "Add Permissions"
-#~ msgstr "অনুমতি যোগ করো"
-
 #, fuzzy
 #~ msgid "Remove"
 #~ msgstr "&সরিয়ে ফেলো"
@@ -4414,11 +4517,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 #~ msgstr "&BCC"
 
 #, fuzzy
-#~| msgid "Available Filters"
-#~ msgid "KMail Filter"
-#~ msgstr "যে যে ফিল্টার আপাতত আছে"
-
-#, fuzzy
 #~| msgid "is in category"
 #~ msgid "with category"
 #~ msgstr "এই শ্রেণীতে আছে"
@@ -4761,12 +4859,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 #~| msgid "Search Criteria"
 #~ msgid "Search &Directory Service"
 #~ msgstr "সন্ধাননীতি"
-
-#, fuzzy
-#~| msgid "&Search:"
-#~ msgctxt "Search for recipient."
-#~ msgid "Search:"
-#~ msgstr "&সন্ধান:"
 
 #, fuzzy
 #~| msgid "Add Transport"
@@ -5681,11 +5773,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 #~ msgid "Check inter&val:"
 #~ msgstr "পর পর পরীক্ষার মধ্যে বি&রতি:"
 
-#, fuzzy
-#~ msgctxt "@title:tab"
-#~ msgid "IMAP Settings"
-#~ msgstr "প্রের&ণ"
-
 #~ msgid "Automaticall&y compact folders (expunges deleted messages)"
 #~ msgstr "নিজে থেকে ফোল্ডার জমাট করো (মুছে ফেলা বার্তা ফেলে দেওয়া হবে)"
 
@@ -5734,11 +5821,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 
 #~ msgid "Namespaces:"
 #~ msgstr "নেম-স্পেস:"
-
-#, fuzzy
-#~| msgid "Add..."
-#~ msgid "..."
-#~ msgstr "যোগ করো..."
 
 #, fuzzy
 #~| msgid "Personal"
@@ -7399,14 +7481,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 #~ msgstr "মুছে ফেলা বার্তা ফেলে দেওয়া হচ্ছে"
 
 #, fuzzy
-#~| msgid " days"
-#~ msgctxt "Expire messages after %1"
-#~ msgid " day"
-#~ msgid_plural " days"
-#~ msgstr[0] " দিনের জন্য রেখে দাও"
-#~ msgstr[1] " দিনের জন্য রেখে দাও"
-
-#, fuzzy
 #~| msgid "There are no unread messages"
 #~ msgid "Expire unread messages after"
 #~ msgstr "কোন অপঠিত বার্তা নেই"
@@ -8598,12 +8672,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 #~ msgstr "কিছু না"
 
 #, fuzzy
-#~| msgid "Never Automatically"
-#~ msgctxt "@action:inmenu Group header background color setting"
-#~ msgid "Automatic"
-#~ msgstr "কখনোই স্বয়ংক্রীয়ভাবে নয়"
-
-#, fuzzy
 #~| msgid "Alternative Background Color"
 #~ msgid "Background Color"
 #~ msgstr "পটভূমির বিকল্প রং"
@@ -9451,9 +9519,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 
 #~ msgid "&Blind copy to (BCC):"
 #~ msgstr "ব্লাইন্ড কপি প্রা&পক (BCC):"
-
-#~ msgid "Hidden Recipients"
-#~ msgstr "গুপ্ত গ্রাহক"
 
 #~ msgid "&To"
 #~ msgstr "প্রা&পক"
