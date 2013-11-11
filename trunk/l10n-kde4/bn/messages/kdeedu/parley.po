@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-04 01:32+0000\n"
+"POT-Creation-Date: 2013-11-11 01:32+0000\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1624,54 +1624,62 @@ msgid "Change practice settings"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
 #: src/parleyactions.cpp:151
+msgid "Export results..."
+msgstr ""
+
+#: src/parleyactions.cpp:152
+msgid "Write a file with the results of the practice"
+msgstr ""
+
+#: src/parleyactions.cpp:156
 #, fuzzy
 msgid "Editor"
 msgstr "মেয়া&দ"
 
-#: src/parleyactions.cpp:152
+#: src/parleyactions.cpp:157
 #, fuzzy
 #| msgid "Save the active vocabulary document"
 msgid "Switch to vocabulary editor"
 msgstr "বর্তমানে ব্যবহৃত শব্দভাণ্ডারের ডকুমেন্টকে সংরক্ষণ করো"
 
-#: src/parleyactions.cpp:156
+#: src/parleyactions.cpp:161
 #, fuzzy
 msgid "Show Se&arch"
 msgstr "বুদ্ধিমান অনুসন্ধান"
 
-#: src/parleyactions.cpp:157
+#: src/parleyactions.cpp:162
 #, fuzzy
 msgid "Toggle display of the search bar"
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
-#: src/parleyactions.cpp:166
+#: src/parleyactions.cpp:171
 #, fuzzy
 #| msgid "Languages"
 msgid "&Script Manager"
 msgstr "ভাষা"
 
-#: src/parleyactions.cpp:167
+#: src/parleyactions.cpp:172
 msgid "Enable and disable scripts"
 msgstr ""
 
-#: src/parleyactions.cpp:183
+#: src/parleyactions.cpp:188
 #, fuzzy
 #| msgid "Downloads new vocabularies"
 msgid "Download New Vocabularies..."
 msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
 
-#: src/parleyactions.cpp:185
+#: src/parleyactions.cpp:190
 #, fuzzy
 #| msgid "Downloads new vocabularies"
 msgid "Downloads new vocabulary collections"
 msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
 
-#: src/parleyactions.cpp:191
+#: src/parleyactions.cpp:196
 #, fuzzy
 msgid "&Upload Vocabulary Document..."
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
-#: src/parleyactions.cpp:192
+#: src/parleyactions.cpp:197
 #, fuzzy
 #| msgid "Save the active vocabulary document with a different name"
 msgid "Share the current vocabulary collection with other users"
@@ -1813,7 +1821,7 @@ msgid "Statistics Toolbar"
 msgstr "&পরিসংখ্যান দেখাও"
 
 #. i18n: ectx: ToolBar (practiceSummaryToolBar)
-#: src/parleyui.rc:43 src/practice/practicesummaryui.rc:19
+#: src/parleyui.rc:43 src/practice/practicesummaryui.rc:20
 #, fuzzy
 #| msgid "Article"
 msgid "Practice Summary Toolbar"
@@ -2118,13 +2126,13 @@ msgid ""
 "This shortcut changes how the answer is counted."
 msgstr ""
 
-#: src/practice/practicesummarycomponent.cpp:60
+#: src/practice/practicesummarycomponent.cpp:66
 #, kde-format
 msgctxt "number of words, minutes, seconds"
 msgid "You practiced %1 in %2 and %3."
 msgstr ""
 
-#: src/practice/practicesummarycomponent.cpp:61
+#: src/practice/practicesummarycomponent.cpp:67
 #, fuzzy, kde-format
 #| msgid "Enter the word:"
 msgid "one word"
@@ -2132,7 +2140,7 @@ msgid_plural "%1 words"
 msgstr[0] "শব্দটি লিখুন:"
 msgstr[1] "শব্দটি লিখুন:"
 
-#: src/practice/practicesummarycomponent.cpp:62
+#: src/practice/practicesummarycomponent.cpp:68
 #, fuzzy, kde-format
 #| msgid "minutes"
 msgid "one minute"
@@ -2140,7 +2148,7 @@ msgid_plural "%1 minutes"
 msgstr[0] "মিনিট"
 msgstr[1] "মিনিট"
 
-#: src/practice/practicesummarycomponent.cpp:63
+#: src/practice/practicesummarycomponent.cpp:69
 #, fuzzy, kde-format
 #| msgid "&Append Language"
 msgid "one second"
@@ -2148,12 +2156,74 @@ msgid_plural "%1 seconds"
 msgstr[0] "ভাষা যো&গ করো"
 msgstr[1] "ভাষা যো&গ করো"
 
-#: src/practice/practicesummarycomponent.cpp:79
-#: src/practice/practicesummarycomponent.cpp:80
+#: src/practice/practicesummarycomponent.cpp:86
+#: src/practice/practicesummarycomponent.cpp:87
 #, fuzzy
 #| msgid "View Settings"
 msgid "Practice Again"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
+
+#: src/practice/practicesummarycomponent.cpp:156
+msgid "HTML Files"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:156
+#, fuzzy
+#| msgid "Document Properties"
+msgid "OpenDocument text files"
+msgstr "ডকুমেন্টের বৈশিষ্ট্য"
+
+#: src/practice/practicesummarycomponent.cpp:164
+#, fuzzy
+msgid "Practice results"
+msgstr "অনুসন্ধান করা হয় নি"
+
+#: src/practice/practicesummarycomponent.cpp:169
+#, kde-format
+msgid "Answered questions: %1\n"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:170
+#, fuzzy, kde-format
+#| msgid "Current tense is: %1."
+msgid "Correct answers: %1\n"
+msgstr "বর্তমানে ব্যবহৃত কাল: %1 ।"
+
+#: src/practice/practicesummarycomponent.cpp:171
+#, fuzzy, kde-format
+#| msgid "&Wrong:"
+msgid "Wrong answers: %1\n"
+msgstr "ভু&ল:"
+
+#: src/practice/practicesummarycomponent.cpp:178
+msgid "<b>Attempts</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:179
+#, fuzzy
+#| msgid "Question"
+msgid "<b>Question</b>"
+msgstr "প্রশ্ন"
+
+#: src/practice/practicesummarycomponent.cpp:180
+msgid "<b>Correct answer</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:181
+msgid "<b>Your errors</b>"
+msgstr ""
+
+#: src/practice/practicesummarycomponent.cpp:195
+#, fuzzy, kde-format
+#| msgid "Could not read "
+msgid "Could not write to %1"
+msgstr "পড়তে পারে নি "
+
+#: src/practice/practicesummarycomponent.cpp:196
+#, fuzzy
+#| msgid "Could not read "
+msgid "Could not write file"
+msgstr "পড়তে পারে নি "
 
 #. i18n: ectx: property (text), widget (QTableWidget, tableWidget)
 #: src/practice/practicesummarywidget.ui:28
@@ -4285,10 +4355,6 @@ msgstr ""
 #~ msgstr[0] "পদাশ্রিত নির্দেশক"
 #~ msgstr[1] "পদাশ্রিত নির্দেশক"
 
-#, fuzzy
-#~ msgid "Your practice result:"
-#~ msgstr "অনুসন্ধান করা হয় নি"
-
 #~ msgid "without name"
 #~ msgstr "নামহীন"
 
@@ -4386,11 +4452,6 @@ msgstr ""
 
 #~ msgid "Verb Training"
 #~ msgstr "ক্রিয়াপদ প্রশিক্ষণ"
-
-#, fuzzy
-#~| msgid "Current tense is: %1."
-#~ msgid "Current tense is: %1"
-#~ msgstr "বর্তমানে ব্যবহৃত কাল: %1 ।"
 
 #, fuzzy
 #~| msgid ""
@@ -4499,11 +4560,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Total:"
 #~ msgstr "পুরু&ষ:"
-
-#, fuzzy
-#~| msgid "&Wrong:"
-#~ msgid "Wrong answer:"
-#~ msgstr "ভু&ল:"
 
 #, fuzzy
 #~| msgid "S&kip"
@@ -5990,9 +6046,6 @@ msgstr ""
 #, fuzzy
 #~ msgid "Delete subtype"
 #~ msgstr "নতুন &এন্ট্রি যোগ করো"
-
-#~ msgid "Document Properties"
-#~ msgstr "ডকুমেন্টের বৈশিষ্ট্য"
 
 #, fuzzy
 #~| msgid "&Stop Query"
