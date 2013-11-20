@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-19 01:33+0000\n"
+"POT-Creation-Date: 2013-11-20 01:32+0000\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -282,25 +282,25 @@ msgid "&Export"
 msgstr "&রপ্তানি"
 
 #. i18n: ectx: Menu (edit)
-#: kaddressbookui.rc:39
+#: kaddressbookui.rc:40
 #, fuzzy
 msgid "&Edit"
 msgstr "&সম্পাদনা..."
 
 #. i18n: ectx: Menu (view)
-#: kaddressbookui.rc:50
+#: kaddressbookui.rc:51
 #, fuzzy
 msgid "&View"
 msgstr "ভিউ যোগ করো"
 
 #. i18n: ectx: Menu (settings)
-#: kaddressbookui.rc:60
+#: kaddressbookui.rc:61
 #, fuzzy
 msgid "&Settings"
 msgstr "ফন্ট সেটিংস"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kaddressbookui.rc:93
+#: kaddressbookui.rc:94
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "পরিচয় টুলবার"
@@ -465,11 +465,17 @@ msgstr "%1 ঠিকানা তালিকা"
 msgid "Merge Contacts..."
 msgstr "&নতুন পরিচয়..."
 
-#: mainwidget.cpp:630 mainwidget.cpp:647
+#: mainwidget.cpp:627
+#, fuzzy
+#| msgid "&Delete Contact"
+msgid "Search Duplicate Contacts..."
+msgstr "পরিচ&য় মুছে ফেলো"
+
+#: mainwidget.cpp:634 mainwidget.cpp:651
 msgid "Address Book"
 msgstr "ঠিকানা তালিকা"
 
-#: mainwidget.cpp:654 printing/printingwizard.cpp:59
+#: mainwidget.cpp:658 printing/printingwizard.cpp:59
 #, fuzzy
 #| msgid "Edit Contact"
 msgid "Print Contacts"
@@ -482,10 +488,16 @@ msgid ""
 "wide shortcuts."
 msgstr ""
 
-#: merge/mergecontactsdialog.cpp:26
+#: merge/mergecontactsdialog.cpp:28
 #, fuzzy
 #| msgid "&Delete Contact"
 msgid "Select Contacts to merge"
+msgstr "পরিচ&য় মুছে ফেলো"
+
+#: merge/potentialduplicatecontactswidget.cpp:81
+#, fuzzy
+#| msgid "&Delete Contact"
+msgid "No duplicate contact found."
 msgstr "পরিচ&য় মুছে ফেলো"
 
 #: merge/searchduplicatecontactwizard.cpp:31
