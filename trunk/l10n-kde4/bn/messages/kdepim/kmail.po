@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-02-04 01:37+0000\n"
+"POT-Creation-Date: 2014-02-06 01:34+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -4756,7 +4756,7 @@ msgctxt "Message->"
 msgid "&Reply"
 msgstr "&উত্তর পাঠাও"
 
-#: messageactions.cpp:82 searchdialog/searchwindow.cpp:232
+#: messageactions.cpp:82 searchdialog/searchwindow.cpp:233
 msgid "&Reply..."
 msgstr "উত্ত&র দাও..."
 
@@ -4764,11 +4764,11 @@ msgstr "উত্ত&র দাও..."
 msgid "Reply to A&uthor..."
 msgstr "লে&খককে উত্তর পাঠাও..."
 
-#: messageactions.cpp:96 searchdialog/searchwindow.cpp:236
+#: messageactions.cpp:96 searchdialog/searchwindow.cpp:237
 msgid "Reply to &All..."
 msgstr "&সবাইকে উত্তর দাও..."
 
-#: messageactions.cpp:103 searchdialog/searchwindow.cpp:240
+#: messageactions.cpp:103 searchdialog/searchwindow.cpp:241
 msgid "Reply to Mailing-&List..."
 msgstr "মে&ইলিং-লিস্ট-এ উত্তর দাও..."
 
@@ -4813,7 +4813,7 @@ msgstr "বার্তা সম্পা&দন করো"
 msgid "Add Note..."
 msgstr "যোগ করো..."
 
-#: messageactions.cpp:167 searchdialog/searchwindow.cpp:244
+#: messageactions.cpp:167 searchdialog/searchwindow.cpp:245
 msgctxt "Message->"
 msgid "&Forward"
 msgstr "&ফরোয়ার্ড করো"
@@ -4975,86 +4975,103 @@ msgstr "ফোল্ডার"
 msgid "Nepomuk cannot make search. Errors found: <ul><li>%1</li></ul>"
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:79
+#: searchdialog/searchwindow.cpp:80
 msgid "Find Messages"
 msgstr "বার্তা সন্ধান করো"
 
-#: searchdialog/searchwindow.cpp:101
+#: searchdialog/searchwindow.cpp:102
 #, fuzzy
 #| msgid "&Search"
 msgctxt "@action:button Search for messages"
 msgid "&Search"
 msgstr "&সন্ধান"
 
-#: searchdialog/searchwindow.cpp:194 searchdialog/searchwindow.cpp:388
+#: searchdialog/searchwindow.cpp:195 searchdialog/searchwindow.cpp:416
 msgid "Last Search"
 msgstr "শেষ সন্ধান"
 
-#: searchdialog/searchwindow.cpp:249
+#: searchdialog/searchwindow.cpp:250
 #, fuzzy
 #| msgid "&Inline..."
 msgctxt "@action:inmenu Forward message inline."
 msgid "&Inline..."
 msgstr "বার্তার মূ&ল অংশে..."
 
-#: searchdialog/searchwindow.cpp:254
+#: searchdialog/searchwindow.cpp:255
 msgctxt "Message->Forward->"
 msgid "As &Attachment..."
 msgstr "সংযুক্ত করে (&স)..."
 
-#: searchdialog/searchwindow.cpp:268
+#: searchdialog/searchwindow.cpp:269
 msgid "Save Attachments..."
 msgstr "অ্যাটাচমেন্ট সংরক্ষণ করো..."
 
-#: searchdialog/searchwindow.cpp:274
+#: searchdialog/searchwindow.cpp:275
 msgid "Clear Selection"
 msgstr "নির্বাচন ফাঁকা করো"
 
-#: searchdialog/searchwindow.cpp:358
+#: searchdialog/searchwindow.cpp:359
 #, kde-format
 msgid "%1 match"
 msgid_plural "%1 matches"
 msgstr[0] "%1-টি মিল"
 msgstr[1] "%1-টি মিল"
 
-#: searchdialog/searchwindow.cpp:413
+#: searchdialog/searchwindow.cpp:441
 msgid "You did not selected a valid folder."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:431
+#: searchdialog/searchwindow.cpp:459
 msgid "You forgot to select collections."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:451
+#: searchdialog/searchwindow.cpp:477
 msgid "You forgot to define condition."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:456
+#: searchdialog/searchwindow.cpp:482
 msgid "All folders selected are empty or were not indexed."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:462
+#: searchdialog/searchwindow.cpp:488
 #, fuzzy
 msgid "No message found."
 msgstr "একটি বার্তা, %2."
 
-#: searchdialog/searchwindow.cpp:467
+#: searchdialog/searchwindow.cpp:493
 msgid ""
 "Contains condition cannot be used with a number of characters inferior to 4."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:500
+#: searchdialog/searchwindow.cpp:524
 #, fuzzy
 msgid "Searching..."
 msgstr "প্রের&ণ"
 
-#: searchdialog/searchwindow.cpp:508
+#: searchdialog/searchwindow.cpp:533
 #, fuzzy, kde-format
 #| msgid "Move Messages to Folder"
 msgid "Cannot get search result. %1"
 msgstr "বার্তা ফোল্ডার-এ সরাও"
 
-#: searchdialog/searchwindow.cpp:629
+#: searchdialog/searchwindow.cpp:539
+#, fuzzy
+msgid "Search failed."
+msgstr "সন্ধান বাতিল"
+
+#: searchdialog/searchwindow.cpp:579
+#, fuzzy
+#| msgid " Spell check complete."
+msgid "Search complete."
+msgstr " বানান পরীক্ষা সম্পূর্ণ"
+
+#: searchdialog/searchwindow.cpp:598
+#, fuzzy
+#| msgid " Spell check stopped."
+msgid "Search stopped."
+msgstr " বানান পরীক্ষা স্থগিত"
+
+#: searchdialog/searchwindow.cpp:656
 #, kde-format
 msgid ""
 "There was a problem renaming your search folder. A common reason for this is "
@@ -5062,14 +5079,14 @@ msgid ""
 "\"%1\"."
 msgstr ""
 
-#: searchdialog/searchwindow.cpp:735
+#: searchdialog/searchwindow.cpp:762
 #, fuzzy, kde-format
 msgid "Copy Message"
 msgid_plural "Copy %1 Messages"
 msgstr[0] "বার্তা খোলো"
 msgstr[1] "বার্তা খোলো"
 
-#: searchdialog/searchwindow.cpp:738
+#: searchdialog/searchwindow.cpp:765
 #, fuzzy, kde-format
 msgid "Cut Message"
 msgid_plural "Cut %1 Messages"
@@ -7000,10 +7017,6 @@ msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার �
 #, fuzzy
 #~ msgid "Searching in %1"
 #~ msgstr "%1-এ খোঁজা হচ্ছে (বার্তা %2)"
-
-#, fuzzy
-#~ msgid "Search canceled"
-#~ msgstr "সন্ধান বাতিল"
 
 #, fuzzy
 #~ msgid "%1 match so far"
@@ -12509,12 +12522,6 @@ msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার �
 
 #~ msgid " Spell check canceled."
 #~ msgstr " বানান পরীক্ষা বাতিল"
-
-#~ msgid " Spell check stopped."
-#~ msgstr " বানান পরীক্ষা স্থগিত"
-
-#~ msgid " Spell check complete."
-#~ msgstr " বানান পরীক্ষা সম্পূর্ণ"
 
 #, fuzzy
 #~ msgid "Snippet Settings"
