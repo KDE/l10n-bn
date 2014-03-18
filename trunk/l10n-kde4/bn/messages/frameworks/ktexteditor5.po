@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: katepart\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-16 01:41+0000\n"
+"POT-Creation-Date: 2014-03-18 01:35+0000\n"
 "PO-Revision-Date: 2005-01-04 11:33-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -15,13 +15,13 @@ msgstr ""
 "X-Generator: KBabel 1.3.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: completion/katecompletionconfig.cpp:41
+#: completion/katecompletionconfig.cpp:42
 #, fuzzy
 msgid "Code Completion Configuration"
 msgstr "শর্টকাট কনফিগারেশন"
 
-#: completion/katecompletionconfig.cpp:115
-#: completion/katecompletionconfig.cpp:144
+#: completion/katecompletionconfig.cpp:116
+#: completion/katecompletionconfig.cpp:145
 #, fuzzy
 msgid "Always"
 msgstr "সবসময় চালু"
@@ -80,7 +80,7 @@ msgstr "থেমে যা&ও"
 
 #. i18n: ectx: property (text), widget (QTreeWidget, treeWidget)
 #: completion/katecompletionmodel.cpp:1334
-#: dialogs/commandmenuconfigwidget.ui:22 dialogs/katedialogs.cpp:971
+#: dialogs/commandmenuconfigwidget.ui:22 dialogs/katedialogs.cpp:1048
 msgid "Name"
 msgstr "নাম"
 
@@ -276,7 +276,7 @@ msgid "Main Toolbar"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbBorders)
-#: dialogs/bordersappearanceconfigwidget.ui:9 dialogs/katedialogs.cpp:578
+#: dialogs/bordersappearanceconfigwidget.ui:9 dialogs/katedialogs.cpp:624
 #, fuzzy
 msgid "Borders"
 msgstr "বাঁদিক প্রান্ত"
@@ -394,7 +394,7 @@ msgid "Scrollbars visibility:"
 msgstr ""
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cmbShowScrollbars)
-#: dialogs/bordersappearanceconfigwidget.ui:168 dialogs/katedialogs.cpp:582
+#: dialogs/bordersappearanceconfigwidget.ui:168 dialogs/katedialogs.cpp:628
 msgid "Always On"
 msgstr "সবসময় চালু"
 
@@ -534,8 +534,8 @@ msgstr "প্যাটার্ণ"
 
 #. i18n: ectx: property (title), widget (QGroupBox, gbGeneral)
 #. i18n: ectx: property (title), widget (QGroupBox, gbViInputMode)
-#: dialogs/completionconfigtab.ui:12 dialogs/katedialogs.cpp:497
-#: dialogs/katedialogs.cpp:574 dialogs/katedialogs.cpp:745
+#: dialogs/completionconfigtab.ui:12 dialogs/katedialogs.cpp:507
+#: dialogs/katedialogs.cpp:620 dialogs/katedialogs.cpp:807
 #: vimode/viinputmodeconfigwidget.ui:29
 msgid "General"
 msgstr ""
@@ -1112,201 +1112,213 @@ msgctxt "suffix for spinbox >1"
 msgid " characters"
 msgstr "মধ্যে ঢোকাও ট্যাব বর্ণ, অক্ষর"
 
-#: dialogs/katedialogs.cpp:476
+#: dialogs/katedialogs.cpp:231
+msgid "Indentation"
+msgstr ""
+
+#: dialogs/katedialogs.cpp:301
+#, fuzzy
+msgid "Auto Completion"
+msgstr "নির্বাচন"
+
+#: dialogs/katedialogs.cpp:365
+msgid "Spellcheck"
+msgstr "বানান পরীক্ষা"
+
+#: dialogs/katedialogs.cpp:441
+#, fuzzy
+msgid "Text Navigation"
+msgstr "Sources"
+
+#: dialogs/katedialogs.cpp:500
 #, fuzzy
 msgctxt "suffix for spinbox >1 wrap words at (value is at 20 or larger)"
 msgid " characters"
 msgstr "মধ্যে ঢোকাও ট্যাব বর্ণ, অক্ষর"
 
-#: dialogs/katedialogs.cpp:498
-#, fuzzy
-msgid "Text Navigation"
-msgstr "Sources"
+#: dialogs/katedialogs.cpp:592 script/data/commands/utils.js:330
+msgid "Editing"
+msgstr "সম্পাদনা"
 
-#: dialogs/katedialogs.cpp:499
-msgid "Indentation"
-msgstr ""
+#: dialogs/katedialogs.cpp:597
+msgid "Editing Options"
+msgstr "সম্পাদনা সংক্রান্ত অপশন"
 
-#: dialogs/katedialogs.cpp:500
-#, fuzzy
-msgid "Auto Completion"
-msgstr "নির্বাচন"
-
-#: dialogs/katedialogs.cpp:501 utils/kateglobal.cpp:103
-msgid "Vi Input Mode"
-msgstr ""
-
-#: dialogs/katedialogs.cpp:502
-msgid "Spellcheck"
-msgstr "বানান পরীক্ষা"
-
-#: dialogs/katedialogs.cpp:580
+#: dialogs/katedialogs.cpp:626
 #, fuzzy
 msgid "Off"
 msgstr "&বন্ধ"
 
-#: dialogs/katedialogs.cpp:581
+#: dialogs/katedialogs.cpp:627
 msgid "Follow Line Numbers"
 msgstr "লাইন নম্বর অনুসরণ করো"
 
+#: dialogs/katedialogs.cpp:737 dialogs/katedialogs.cpp:742
+#, fuzzy
+msgid "Appearance"
+msgstr "আপারকেস"
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: dialogs/katedialogs.cpp:746 dialogs/textareaappearanceconfigwidget.ui:102
+#: dialogs/katedialogs.cpp:808 dialogs/textareaappearanceconfigwidget.ui:102
 msgid "Advanced"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:747
-#, fuzzy
-msgid "Modes && Filetypes"
-msgstr "ফাই&ল টাইপ:"
-
-#: dialogs/katedialogs.cpp:801
+#: dialogs/katedialogs.cpp:863
 #, fuzzy
 msgid ""
 "You did not provide a backup suffix or prefix. Using default suffix: '~'"
 msgstr "সরবরাহ একটি ব্যাকআপ সাফিক্স ডিফল্ট, স্বাভাবিক অবস্থায় ব্যবহৃত"
 
-#: dialogs/katedialogs.cpp:802
+#: dialogs/katedialogs.cpp:864
 #, fuzzy
 msgid "No Backup Suffix or Prefix"
 msgstr "না"
 
-#: dialogs/katedialogs.cpp:813
+#: dialogs/katedialogs.cpp:875
 msgid ""
 "Selected directory for swap file storage does not exist. Do you want to "
 "create it?"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:814
+#: dialogs/katedialogs.cpp:876
 msgid "Missing Swap File Directory"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:871
+#: dialogs/katedialogs.cpp:933
 #, fuzzy
 msgid "KDE Default"
 msgstr "প্রদর্শন ডিফল্ট"
 
-#: dialogs/katedialogs.cpp:959
+#: dialogs/katedialogs.cpp:1017
+msgid "Open/Save"
+msgstr "খোলো/সংরক্ষণ করো"
+
+#: dialogs/katedialogs.cpp:1022
+msgid "File Opening & Saving"
+msgstr "ফাইল খোলা এবং সংরক্ষণ করা"
+
+#: dialogs/katedialogs.cpp:1036
 msgid "Highlight Download"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:966
+#: dialogs/katedialogs.cpp:1043
 msgid "Select the syntax highlighting files you want to update:"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:971
+#: dialogs/katedialogs.cpp:1048
 msgid "Installed"
 msgstr "ইনস্টল করা"
 
-#: dialogs/katedialogs.cpp:971
+#: dialogs/katedialogs.cpp:1048
 msgid "Latest"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:978
+#: dialogs/katedialogs.cpp:1055
 msgid "<b>Note:</b> New versions are selected automatically."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:985
+#: dialogs/katedialogs.cpp:1062
 msgid "&Install"
 msgstr "&ইনস্টল"
 
-#: dialogs/katedialogs.cpp:1028
+#: dialogs/katedialogs.cpp:1105
 msgid ""
 "The list of highlightings could not be found on / retrieved from the server"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1136
+#: dialogs/katedialogs.cpp:1213
 msgid "&Go to line:"
 msgstr "&এই লাইনে যাও"
 
-#: dialogs/katedialogs.cpp:1142
+#: dialogs/katedialogs.cpp:1219
 msgid "Go"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1204
+#: dialogs/katedialogs.cpp:1281
 #, fuzzy
 msgid "Dictionary:"
 msgstr "নির্বাচন"
 
-#: dialogs/katedialogs.cpp:1252
+#: dialogs/katedialogs.cpp:1329
 msgid "File Was Deleted on Disk"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1253
+#: dialogs/katedialogs.cpp:1330
 #, fuzzy
 msgid "&Save File As..."
 msgstr "ফাইল সংরক্ষণ করো "
 
-#: dialogs/katedialogs.cpp:1255
+#: dialogs/katedialogs.cpp:1332
 msgid "Lets you select a location and save the file again."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1257
+#: dialogs/katedialogs.cpp:1334
 msgid "File Changed on Disk"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1258 document/katedocument.cpp:3939
+#: dialogs/katedialogs.cpp:1335 document/katedocument.cpp:3939
 #, fuzzy
 msgid "&Reload File"
 msgstr "দূ&রবর্তী ফাইল"
 
-#: dialogs/katedialogs.cpp:1260
+#: dialogs/katedialogs.cpp:1337
 msgid ""
 "Reload the file from disk. If you have unsaved changes, they will be lost."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1274 document/katedocument.cpp:3937
+#: dialogs/katedialogs.cpp:1351 document/katedocument.cpp:3937
 msgid "What do you want to do?"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1285 document/katedocument.cpp:3940
+#: dialogs/katedialogs.cpp:1362 document/katedocument.cpp:3940
 msgid "&Ignore Changes"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1286
+#: dialogs/katedialogs.cpp:1363
 msgid "Ignore the changes. You will not be prompted again."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1292
+#: dialogs/katedialogs.cpp:1369
 msgid ""
 "Do nothing. Next time you focus the file, or try to save it or close it, you "
 "will be prompted again."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1301
+#: dialogs/katedialogs.cpp:1378
 msgid "Overwrite the disk file with the editor content."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1375 swapfile/kateswapdiffcreator.cpp:137
+#: dialogs/katedialogs.cpp:1452 swapfile/kateswapdiffcreator.cpp:137
 msgid ""
 "The diff command failed. Please make sure that diff(1) is installed and in "
 "your PATH."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1377 swapfile/kateswapdiffcreator.cpp:139
+#: dialogs/katedialogs.cpp:1454 swapfile/kateswapdiffcreator.cpp:139
 msgid "Error Creating Diff"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1386 swapfile/kateswapdiffcreator.cpp:147
+#: dialogs/katedialogs.cpp:1463 swapfile/kateswapdiffcreator.cpp:147
 msgid "The files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1387 dialogs/katedialogs.cpp:1391
+#: dialogs/katedialogs.cpp:1464 dialogs/katedialogs.cpp:1468
 #: swapfile/kateswapdiffcreator.cpp:148
 msgid "Diff Output"
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1390
+#: dialogs/katedialogs.cpp:1467
 msgid "Ignoring amount of white space changed, the files are identical."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1415
+#: dialogs/katedialogs.cpp:1492
 msgid ""
 "Ignoring means that you will not be warned again (unless the disk file "
 "changes once more): if you save the document, you will overwrite the file on "
 "disk; if you do not save then the disk file (if present) is what you have."
 msgstr ""
 
-#: dialogs/katedialogs.cpp:1419
+#: dialogs/katedialogs.cpp:1496
 msgid "You Are on Your Own"
 msgstr ""
 
@@ -1401,7 +1413,7 @@ msgid "Text selection mode:"
 msgstr "নির্বাচন মোড"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, cbTextSelectionMode)
-#: dialogs/navigationconfigwidget.ui:103
+#: dialogs/navigationconfigwidget.ui:103 view/kateview.cpp:1170
 #, fuzzy
 msgid "Normal"
 msgstr "স্বাভাবিক"
@@ -2132,6 +2144,11 @@ msgstr ""
 #: mode/katemodeconfigpage.cpp:290
 msgid "Select Mime Types"
 msgstr ""
+
+#: mode/katemodeconfigpage.cpp:307
+#, fuzzy
+msgid "Modes && Filetypes"
+msgstr "ফাই&ল টাইপ:"
 
 #: printing/printconfigwidgets.cpp:49
 msgid "Te&xt Settings"
@@ -2879,6 +2896,14 @@ msgid ""
 "</p>"
 msgstr ""
 
+#: schema/kateschemaconfig.cpp:1376
+msgid "Fonts & Colors"
+msgstr "ফন্ট এবং রং"
+
+#: schema/kateschemaconfig.cpp:1381
+msgid "Font & Color Schemas"
+msgstr "ফন্ট এবং রং স্কীমা"
+
 #: schema/katestyletreewidget.cpp:137
 #, fuzzy
 msgctxt "@title:column Meaning of text in editor"
@@ -3189,10 +3214,6 @@ msgstr ""
 #: script/data/commands/quickcoding.js:32
 msgid "Expand Quick Coding Abbreviation"
 msgstr ""
-
-#: script/data/commands/utils.js:330 utils/kateglobal.cpp:373
-msgid "Editing"
-msgstr "সম্পাদনা"
 
 #: script/data/commands/utils.js:333
 #, fuzzy
@@ -6379,6 +6400,10 @@ msgstr ""
 msgid "Erlend Hamberg"
 msgstr ""
 
+#: utils/kateglobal.cpp:103 vimode/kateviinputmodeconfigtab.cpp:235
+msgid "Vi Input Mode"
+msgstr ""
+
 #: utils/kateglobal.cpp:104
 msgid "Bernhard Beschow"
 msgstr ""
@@ -6652,35 +6677,10 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#: utils/kateglobal.cpp:293
+#: utils/kateglobal.cpp:252
 #, fuzzy
 msgid "Configure"
 msgstr "&সম্পাদক কনফিগার করো..."
-
-#: utils/kateglobal.cpp:367 utils/kateglobal.cpp:389
-#, fuzzy
-msgid "Appearance"
-msgstr "আপারকেস"
-
-#: utils/kateglobal.cpp:370
-msgid "Fonts & Colors"
-msgstr "ফন্ট এবং রং"
-
-#: utils/kateglobal.cpp:376
-msgid "Open/Save"
-msgstr "খোলো/সংরক্ষণ করো"
-
-#: utils/kateglobal.cpp:392
-msgid "Font & Color Schemas"
-msgstr "ফন্ট এবং রং স্কীমা"
-
-#: utils/kateglobal.cpp:395
-msgid "Editing Options"
-msgstr "সম্পাদনা সংক্রান্ত অপশন"
-
-#: utils/kateglobal.cpp:398
-msgid "File Opening & Saving"
-msgstr "ফাইল খোলা এবং সংরক্ষণ করা"
 
 #: utils/katesedcmd.cpp:273
 #, fuzzy, kde-format
@@ -7651,210 +7651,210 @@ msgstr ""
 "কমান্ড অনুমতি দেয় আপনি প্রতি রপ্তানি টি বর্তমান নথী সঙ্গে সব তথ্য ভেতরে একটি মার্কআপ "
 "নথী e."
 
-#: view/kateview.cpp:717
+#: view/kateview.cpp:714
 msgid "Move Word Left"
 msgstr "শব্দ বাঁদিকে সরাও"
 
-#: view/kateview.cpp:723
+#: view/kateview.cpp:720
 #, fuzzy
 msgid "Select Character Left"
 msgstr "বাঁদিক"
 
-#: view/kateview.cpp:729
+#: view/kateview.cpp:726
 #, fuzzy
 msgid "Select Word Left"
 msgstr "বাঁদিক"
 
-#: view/kateview.cpp:735
+#: view/kateview.cpp:732
 msgid "Move Word Right"
 msgstr "শব্দ ডানদিকে সরাও"
 
-#: view/kateview.cpp:741
+#: view/kateview.cpp:738
 #, fuzzy
 msgid "Select Character Right"
 msgstr "ডানদিক"
 
-#: view/kateview.cpp:747
+#: view/kateview.cpp:744
 #, fuzzy
 msgid "Select Word Right"
 msgstr "ডানদিক"
 
-#: view/kateview.cpp:753
+#: view/kateview.cpp:750
 msgid "Move to Beginning of Line"
 msgstr "লাইনের শুরুতে চলে যাও"
 
-#: view/kateview.cpp:759
+#: view/kateview.cpp:756
 msgid "Move to Beginning of Document"
 msgstr "ডকুমেন্টের শুরুতে চলে যাও"
 
-#: view/kateview.cpp:765
+#: view/kateview.cpp:762
 #, fuzzy
 msgid "Select to Beginning of Line"
 msgstr "প্রতি -র"
 
-#: view/kateview.cpp:771
+#: view/kateview.cpp:768
 #, fuzzy
 msgid "Select to Beginning of Document"
 msgstr "প্রতি -র"
 
-#: view/kateview.cpp:777
+#: view/kateview.cpp:774
 msgid "Move to End of Line"
 msgstr "লাইনের শেষে চলে যাও"
 
-#: view/kateview.cpp:783
+#: view/kateview.cpp:780
 msgid "Move to End of Document"
 msgstr "ডকুমেন্টের শেষে চলে যাও"
 
-#: view/kateview.cpp:789
+#: view/kateview.cpp:786
 #, fuzzy
 msgid "Select to End of Line"
 msgstr "প্রতি শেষ -র"
 
-#: view/kateview.cpp:795
+#: view/kateview.cpp:792
 #, fuzzy
 msgid "Select to End of Document"
 msgstr "প্রতি শেষ -র"
 
-#: view/kateview.cpp:801
+#: view/kateview.cpp:798
 #, fuzzy
 msgid "Select to Previous Line"
 msgstr "প্রতি"
 
-#: view/kateview.cpp:807
+#: view/kateview.cpp:804
 #, fuzzy
 msgid "Scroll Line Up"
 msgstr "উপর"
 
-#: view/kateview.cpp:813
+#: view/kateview.cpp:810
 #, fuzzy
 msgid "Move to Next Line"
 msgstr "প্রতি পরবর্তী"
 
-#: view/kateview.cpp:819
+#: view/kateview.cpp:816
 #, fuzzy
 msgid "Move to Previous Line"
 msgstr "প্রতি"
 
-#: view/kateview.cpp:825
+#: view/kateview.cpp:822
 #, fuzzy
 #| msgid "Move Word Right"
 msgid "Move Cursor Right"
 msgstr "শব্দ ডানদিকে সরাও"
 
-#: view/kateview.cpp:831
+#: view/kateview.cpp:828
 #, fuzzy
 #| msgid "Move Word Left"
 msgid "Move Cursor Left"
 msgstr "শব্দ বাঁদিকে সরাও"
 
-#: view/kateview.cpp:837
+#: view/kateview.cpp:834
 #, fuzzy
 msgid "Select to Next Line"
 msgstr "প্রতি পরবর্তী"
 
-#: view/kateview.cpp:843
+#: view/kateview.cpp:840
 msgid "Scroll Line Down"
 msgstr ""
 
-#: view/kateview.cpp:849
+#: view/kateview.cpp:846
 #, fuzzy
 msgid "Scroll Page Up"
 msgstr "পাতা উপর"
 
-#: view/kateview.cpp:855
+#: view/kateview.cpp:852
 #, fuzzy
 msgid "Select Page Up"
 msgstr "পাতা উপর"
 
-#: view/kateview.cpp:861
+#: view/kateview.cpp:858
 #, fuzzy
 msgid "Move to Top of View"
 msgstr "সরাও প্রতি উপর -র প্রদর্শন"
 
-#: view/kateview.cpp:867
+#: view/kateview.cpp:864
 #, fuzzy
 msgid "Select to Top of View"
 msgstr "প্রতি উপর -র প্রদর্শন"
 
-#: view/kateview.cpp:873
+#: view/kateview.cpp:870
 #, fuzzy
 msgid "Scroll Page Down"
 msgstr "পাতা"
 
-#: view/kateview.cpp:879
+#: view/kateview.cpp:876
 #, fuzzy
 msgid "Select Page Down"
 msgstr "পাতা"
 
-#: view/kateview.cpp:885
+#: view/kateview.cpp:882
 #, fuzzy
 msgid "Move to Bottom of View"
 msgstr "সরাও প্রতি তলায় -র প্রদর্শন"
 
-#: view/kateview.cpp:891
+#: view/kateview.cpp:888
 #, fuzzy
 msgid "Select to Bottom of View"
 msgstr "প্রতি তলায় -র প্রদর্শন"
 
-#: view/kateview.cpp:897
+#: view/kateview.cpp:894
 #, fuzzy
 msgid "Move to Matching Bracket"
 msgstr "সরাও প্রতি"
 
-#: view/kateview.cpp:903
+#: view/kateview.cpp:900
 #, fuzzy
 msgid "Select to Matching Bracket"
 msgstr "প্রতি"
 
-#: view/kateview.cpp:911
+#: view/kateview.cpp:908
 msgid "Transpose Characters"
 msgstr ""
 
-#: view/kateview.cpp:917
+#: view/kateview.cpp:914
 msgid "Delete Line"
 msgstr "লাইন মুছে ফেলো"
 
-#: view/kateview.cpp:923
+#: view/kateview.cpp:920
 #, fuzzy
 msgid "Delete Word Left"
 msgstr "মোছো বাঁদিক"
 
-#: view/kateview.cpp:929
+#: view/kateview.cpp:926
 #, fuzzy
 msgid "Delete Word Right"
 msgstr "মোছো ডানদিক"
 
-#: view/kateview.cpp:935
+#: view/kateview.cpp:932
 #, fuzzy
 msgid "Delete Next Character"
 msgstr "বাঁদিক"
 
-#: view/kateview.cpp:941
+#: view/kateview.cpp:938
 #, fuzzy
 msgid "Backspace"
 msgstr "ওপর সংরক্ষণ করো"
 
-#: view/kateview.cpp:950
+#: view/kateview.cpp:947
 #, fuzzy
 msgid "Insert Tab"
 msgstr "&ইনস্টল"
 
-#: view/kateview.cpp:955
+#: view/kateview.cpp:952
 #, fuzzy
 msgid "Insert Smart Newline"
 msgstr "বর্তমান লাইন"
 
-#: view/kateview.cpp:956
+#: view/kateview.cpp:953
 msgid ""
 "Insert newline including leading characters of the current line which are "
 "not letters or numbers."
 msgstr ""
 
-#: view/kateview.cpp:966
+#: view/kateview.cpp:963
 msgid "&Indent"
 msgstr ""
 
-#: view/kateview.cpp:967
+#: view/kateview.cpp:964
 #, fuzzy
 msgid ""
 "Use this to indent a selected block of text.<br /><br />You can configure "
@@ -7864,46 +7864,50 @@ msgstr ""
 "এই প্রতি ইনডেন্ট একটি নির্বাচিত ব্লক -র লেখা<br><br> পারে ট্যাব উচিত সম্মানিত এবং "
 "ব্যবহৃত অথবা অপসারিত সঙ্গে ইঞ্চি টি কনফিগারেশন ডায়ালগ."
 
-#: view/kateview.cpp:974
+#: view/kateview.cpp:971
 msgid "&Unindent"
 msgstr ""
 
-#: view/kateview.cpp:975
+#: view/kateview.cpp:972
 #, fuzzy
 msgid "Use this to unindent a selected block of text."
 msgstr "এই প্রতি একটি নির্বাচিত ব্লক -র লেখা."
 
-#: view/kateview.cpp:995
+#: view/kateview.cpp:992
 #, fuzzy
 msgid "Fold Toplevel Nodes"
 msgstr "সর্বোচ্চ স্তর ভাঁজ করার সুবিধাযুক্ত নোড"
 
-#: view/kateview.cpp:1013
+#: view/kateview.cpp:1010
 #, fuzzy
 #| msgid "Current line:"
 msgid "Fold Current Node"
 msgstr "বর্তমান লাইন:"
 
-#: view/kateview.cpp:1017
+#: view/kateview.cpp:1014
 msgid "Unfold Current Node"
 msgstr ""
 
-#: view/kateview.cpp:1122
+#: view/kateview.cpp:1119
 msgid "OVERWRITE"
 msgstr ""
 
-#: view/kateview.cpp:1122
+#: view/kateview.cpp:1119
 msgid "INSERT"
 msgstr ""
 
-#: view/kateview.cpp:1135
+#: view/kateview.cpp:1132
 #, fuzzy
 msgid "recording"
 msgstr "&এনকোডিং:"
 
-#: view/kateview.cpp:1157
+#: view/kateview.cpp:1154
 #, kde-format
 msgid "(R/O) %1"
+msgstr ""
+
+#: view/kateview.cpp:1170
+msgid "vi-mode"
 msgstr ""
 
 #: view/kateviewhelpers.cpp:197 view/kateviewhelpers.cpp:244
@@ -7970,7 +7974,7 @@ msgstr "ধরন ১"
 msgid "Set Default Mark Type"
 msgstr "ডিফল্ট ধরন"
 
-#: view/kateviewhelpers.cpp:2125
+#: view/kateviewhelpers.cpp:2122
 msgid "Disable Annotation Bar"
 msgstr ""
 
@@ -8134,38 +8138,38 @@ msgstr "%1 খোলা যায়নি"
 msgid "Unable to open file"
 msgstr "%1 খোলা যায়নি"
 
-#: vimode/kateviinputmodemanager.cpp:759
+#: vimode/kateviinputmodemanager.cpp:778
 #, fuzzy, kde-format
 msgid "Mark set: %1"
 msgstr "ধরন ১"
 
-#: vimode/kateviinputmodemanager.cpp:801
+#: vimode/kateviinputmodemanager.cpp:820
 #, fuzzy
 #| msgid "Go to the next bookmark."
 msgid "There are no more chars for the next bookmark."
 msgstr "পরবর্তী বুকমার্ক-এ যাও"
 
-#: vimode/kateviinputmodemanager.cpp:869
+#: vimode/kateviinputmodemanager.cpp:888
 msgid "VI: INSERT MODE"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:872
+#: vimode/kateviinputmodemanager.cpp:891
 msgid "VI: NORMAL MODE"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:875
+#: vimode/kateviinputmodemanager.cpp:894
 msgid "VI: VISUAL"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:878
+#: vimode/kateviinputmodemanager.cpp:897
 msgid "VI: VISUAL BLOCK"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:881
+#: vimode/kateviinputmodemanager.cpp:900
 msgid "VI: VISUAL LINE"
 msgstr ""
 
-#: vimode/kateviinputmodemanager.cpp:884
+#: vimode/kateviinputmodemanager.cpp:903
 msgid "VI: REPLACE"
 msgstr ""
 
