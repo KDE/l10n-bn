@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-26 01:43+0000\n"
+"POT-Creation-Date: 2014-03-27 01:44+0000\n"
 "PO-Revision-Date: 2006-01-06 23:37-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr ""
 
 #: autotests/jobtest.cpp:1035
 #, fuzzy
@@ -1823,7 +1831,7 @@ msgstr ""
 msgid "Undocumented Error"
 msgstr ""
 
-#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:834
+#: src/core/kcoredirlister.cpp:397 src/widgets/krun.cpp:836
 #: src/widgets/paste.cpp:260 src/widgets/renamedialog.cpp:410
 #, kde-format
 msgid ""
@@ -2149,22 +2157,22 @@ msgstr ""
 msgid "&No"
 msgstr "একটিও না"
 
-#: src/core/slaveinterface.cpp:413 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:410 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:78
 msgid "&Details"
 msgstr "বিস্তারি&ত"
 
-#: src/core/slaveinterface.cpp:415 src/core/tcpslavebase.cpp:839
+#: src/core/slaveinterface.cpp:412 src/core/tcpslavebase.cpp:839
 #: src/widgets/sslui.cpp:114
 msgid "&Forever"
 msgstr "চিরকালে&র জন্য"
 
-#: src/core/slaveinterface.cpp:419 src/core/tcpslavebase.cpp:822
+#: src/core/slaveinterface.cpp:416 src/core/tcpslavebase.cpp:822
 #: src/widgets/sslui.cpp:79
 msgid "Co&ntinue"
 msgstr "চালিয়ে যা&ও"
 
-#: src/core/slaveinterface.cpp:421 src/core/tcpslavebase.cpp:840
+#: src/core/slaveinterface.cpp:418 src/core/tcpslavebase.cpp:840
 #: src/widgets/sslui.cpp:115
 #, fuzzy
 #| msgid "&Current Sessions Only"
@@ -3661,6 +3669,105 @@ msgstr ""
 msgid "You do not have permission to access the %1 protocol."
 msgstr ""
 
+#: src/kioexec/main.cpp:46
+msgid "KIO Exec - Opens remote files, watches modifications, asks for upload"
+msgstr ""
+
+#: src/kioexec/main.cpp:80
+#, kde-format
+msgid ""
+"The URL %1\n"
+"is malformed"
+msgstr ""
+
+#: src/kioexec/main.cpp:82
+#, kde-format
+msgid ""
+"Remote URL %1\n"
+"not allowed with --tempfiles switch"
+msgstr ""
+
+#: src/kioexec/main.cpp:213
+#, kde-format
+msgid ""
+"The supposedly temporary file\n"
+"%1\n"
+"has been modified.\n"
+"Do you still want to delete it?"
+msgstr ""
+
+#: src/kioexec/main.cpp:214 src/kioexec/main.cpp:221
+msgid "File Changed"
+msgstr "ফাইল পরিবর্তিত"
+
+#: src/kioexec/main.cpp:214
+#, fuzzy
+#| msgid "Do Not Store"
+msgid "Do Not Delete"
+msgstr "না"
+
+#: src/kioexec/main.cpp:220
+#, kde-format
+msgid ""
+"The file\n"
+"%1\n"
+"has been modified.\n"
+"Do you want to upload the changes?"
+msgstr ""
+
+#: src/kioexec/main.cpp:221
+msgid "Upload"
+msgstr "হ্যাঁ"
+
+#: src/kioexec/main.cpp:221
+msgid "Do Not Upload"
+msgstr "না"
+
+#: src/kioexec/main.cpp:252
+msgid "KIOExec"
+msgstr "KIOExec"
+
+#: src/kioexec/main.cpp:254
+msgid "(c) 1998-2000,2003 The KFM/Konqueror Developers"
+msgstr ""
+
+#: src/kioexec/main.cpp:255
+msgid "David Faure"
+msgstr ""
+
+#: src/kioexec/main.cpp:256
+msgid "Stephan Kulow"
+msgstr ""
+
+#: src/kioexec/main.cpp:257
+msgid "Bernhard Rosenkraenzer"
+msgstr ""
+
+#: src/kioexec/main.cpp:258
+msgid "Waldo Bastian"
+msgstr ""
+
+#: src/kioexec/main.cpp:259
+msgid "Oswald Buddenhagen"
+msgstr ""
+
+#: src/kioexec/main.cpp:264
+msgid "Treat URLs as local files and delete them afterwards"
+msgstr ""
+
+#: src/kioexec/main.cpp:265
+#, fuzzy
+msgid "Suggested file name for the downloaded file"
+msgstr "নতুন ফাইলটির জন্য অন্য একটি নাম বাছুন।"
+
+#: src/kioexec/main.cpp:266
+msgid "Command to execute"
+msgstr "যে কমান্ড চালানো হবে"
+
+#: src/kioexec/main.cpp:267
+msgid "URL(s) or local file(s) used for 'command'"
+msgstr ""
+
 #: src/kpac/discovery.cpp:112
 msgid "Could not find a usable proxy configuration script"
 msgstr ""
@@ -3698,6 +3805,30 @@ msgstr ""
 #, kde-format
 msgid "Got an invalid reply when calling %1"
 msgstr ""
+
+#: src/kpasswdserver/kpasswdserver.cpp:556
+#, fuzzy
+msgid "Do you want to retry?"
+msgstr "আপনি কি আবার চেষ্টা করতে চান?"
+
+#: src/kpasswdserver/kpasswdserver.cpp:561
+#, fuzzy
+#| msgid "Server Authentication"
+msgid "Retry Authentication"
+msgstr "সার্ভারের সত্যতা প্রমাণ (Authentication)"
+
+#: src/kpasswdserver/kpasswdserver.cpp:565
+#, fuzzy
+#| msgid "Retry"
+msgctxt "@action:button filter-continue"
+msgid "Retry"
+msgstr "আবার"
+
+#: src/kpasswdserver/kpasswdserver.cpp:858
+#, fuzzy
+#| msgid "Authentication"
+msgid "Authentication Dialog"
+msgstr "অথেন্টিকেশন"
 
 #: src/widgets/accessmanager.cpp:221
 msgid "Blocked request."
@@ -4974,80 +5105,80 @@ msgstr "শুধুমাত্র স্থানীয় এক্সিকি�
 msgid "Advanced Options for %1"
 msgstr "%1-এর জন্য অগ্রসর অপশন"
 
-#: src/widgets/krun.cpp:168
+#: src/widgets/krun.cpp:170
 #, kde-format
 msgid ""
 "<qt>Unable to enter <b>%1</b>.\n"
 "You do not have access rights to this location.</qt>"
 msgstr ""
 
-#: src/widgets/krun.cpp:197
+#: src/widgets/krun.cpp:199
 #, kde-format
 msgid ""
 "<qt>The file <b>%1</b> is an executable program. For safety it will not be "
 "started.</qt>"
 msgstr ""
 
-#: src/widgets/krun.cpp:203
+#: src/widgets/krun.cpp:205
 #, kde-format
 msgid "<qt>You do not have permission to run <b>%1</b>.</qt>"
 msgstr ""
 
-#: src/widgets/krun.cpp:233
+#: src/widgets/krun.cpp:235
 #, fuzzy
 msgid "You are not authorized to select an application to open this file."
 msgstr "আপনার এই ফাইলটি চালাবার অনুমতি নেই।"
 
-#: src/widgets/krun.cpp:244
+#: src/widgets/krun.cpp:246
 msgid "Open with:"
 msgstr "খুলতে ব্যবহার করো:"
 
-#: src/widgets/krun.cpp:294
+#: src/widgets/krun.cpp:296
 msgid "You are not authorized to execute this file."
 msgstr "আপনার এই ফাইলটি চালাবার অনুমতি নেই।"
 
-#: src/widgets/krun.cpp:317
+#: src/widgets/krun.cpp:319
 #, kde-format
 msgid "Launching %1"
 msgstr "%1 চালানো হচ্ছে"
 
-#: src/widgets/krun.cpp:422
+#: src/widgets/krun.cpp:424
 #, kde-format
 msgid "Error processing Exec field in %1"
 msgstr ""
 
-#: src/widgets/krun.cpp:594
+#: src/widgets/krun.cpp:596
 msgid "You are not authorized to execute this service."
 msgstr ""
 
-#: src/widgets/krun.cpp:599
+#: src/widgets/krun.cpp:601
 #, fuzzy
 msgctxt "Warning about executing unknown .desktop file"
 msgid "Warning"
 msgstr "পরীক্ষা করা হচ্ছে"
 
-#: src/widgets/krun.cpp:616
+#: src/widgets/krun.cpp:618
 msgctxt "program name follows in a line edit below"
 msgid "This will start the program:"
 msgstr ""
 
-#: src/widgets/krun.cpp:633
+#: src/widgets/krun.cpp:635
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
 
-#: src/widgets/krun.cpp:676
+#: src/widgets/krun.cpp:678
 #, kde-format
 msgid "Unable to make the service %1 executable, aborting execution"
 msgstr ""
 
-#: src/widgets/krun.cpp:858
+#: src/widgets/krun.cpp:860
 #, kde-format
 msgid ""
 "<qt>Unable to run the command specified. The file or folder <b>%1</b> does "
 "not exist.</qt>"
 msgstr ""
 
-#: src/widgets/krun.cpp:1445
+#: src/widgets/krun.cpp:1455
 #, kde-format
 msgid "Could not find the program '%1'"
 msgstr "'%1' প্রোগ্রামটি পাওয়া যায়নি"
@@ -6078,9 +6209,6 @@ msgstr ""
 #~ msgid "Store"
 #~ msgstr "হ্যাঁ"
 
-#~ msgid "Do Not Store"
-#~ msgstr "না"
-
 #~ msgid "Certificate password"
 #~ msgstr "সার্টিফিকেট পাসওয়ার্ড"
 
@@ -6318,13 +6446,6 @@ msgstr ""
 
 #~ msgid "Add Bookmark"
 #~ msgstr "বুকমার্ক যোগ করো"
-
-#, fuzzy
-#~ msgid " Do you want to retry?"
-#~ msgstr "আপনি কি আবার চেষ্টা করতে চান?"
-
-#~ msgid "Authentication"
-#~ msgstr "অথেন্টিকেশন"
 
 #~ msgid "Authentication needed for %1 but authentication is disabled."
 #~ msgstr "%1-র জন্য অথেন্টিকেশন প্রয়োজন, কিন্তু অথেন্টিকেশন নিষ্ক্রিয় করা রয়েছে।"
@@ -6705,27 +6826,8 @@ msgstr ""
 #~ msgid " %1/s "
 #~ msgstr " %1/সেঃ"
 
-#, fuzzy
-#~ msgid "Suggested file name for the downloaded file"
-#~ msgstr "নতুন ফাইলটির জন্য অন্য একটি নাম বাছুন।"
-
-#~ msgid "Command to execute"
-#~ msgstr "যে কমান্ড চালানো হবে"
-
 #~ msgid "'command' expected.\n"
 #~ msgstr "'command' প্রত্যাশিত।\n"
-
-#~ msgid "File Changed"
-#~ msgstr "ফাইল পরিবর্তিত"
-
-#~ msgid "Upload"
-#~ msgstr "হ্যাঁ"
-
-#~ msgid "Do Not Upload"
-#~ msgstr "না"
-
-#~ msgid "KIOExec"
-#~ msgstr "KIOExec"
 
 #~ msgid "s"
 #~ msgstr "s"
