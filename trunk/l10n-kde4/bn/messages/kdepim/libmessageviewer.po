@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-03-26 01:51+0000\n"
+"POT-Creation-Date: 2014-04-02 01:49+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -198,6 +198,18 @@ msgstr "বর্তমান সূত্রটি গুটিয়ে নাও
 msgid "*|all files (*)"
 msgstr ""
 
+#: adblock/adblocksettingwidget.cpp:376
+#, fuzzy
+#| msgid "vCard Import Failed"
+msgid "Import Filters"
+msgstr "ভি-কার্ড আমদানি ব্যর্থ"
+
+#: adblock/adblocksettingwidget.cpp:415
+#, fuzzy
+#| msgid "Key Export Failed"
+msgid "Export Filters"
+msgstr "কী (Key) রপ্তানি ব্যর্থ"
+
 #: adblock/adblockshowlistdialog.cpp:38
 #, fuzzy
 #| msgid "Show alway&s"
@@ -385,7 +397,7 @@ msgid "Search:"
 msgstr "&সন্ধান:"
 
 #. i18n: ectx: property (text), widget (QPushButton, editFilter)
-#: adblock/ui/settings_adblock.ui:219 viewer/viewer_p.cpp:493
+#: adblock/ui/settings_adblock.ui:219 viewer/viewer_p.cpp:495
 #, fuzzy
 msgid "Edit"
 msgstr "প্রস্থান করো"
@@ -403,7 +415,8 @@ msgid "Remove Filter"
 msgstr "ফিল্টারের নাম পাল্টাও"
 
 #: findbar/findbarbase.cpp:48 findbar/findbarbase.cpp:51
-#: widgets/todoedit.cpp:51 widgets/todoedit.cpp:54
+#: widgets/eventedit.cpp:58 widgets/eventedit.cpp:61 widgets/todoedit.cpp:51
+#: widgets/todoedit.cpp:54
 #, fuzzy
 #| msgid "Color&s"
 msgid "Close"
@@ -1156,13 +1169,18 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (UseFixedFont), group (Composer)
-#: settings/messageviewer.kcfg.cmake:286 viewer/viewer_p.cpp:1709
+#: settings/messageviewer.kcfg.cmake:286 viewer/viewer_p.cpp:1717
 msgid "Use Fi&xed Font"
 msgstr "ফিক্সড &ফন্ট ব্যবহার করো"
 
 #. i18n: ectx: whatsthis, entry (LastSelectedFolder), group (Todo)
 #: settings/messageviewer.kcfg.cmake:311
 msgid "The most recent selected folder using for Todo."
+msgstr ""
+
+#. i18n: ectx: whatsthis, entry (LastEventSelectedFolder), group (Event)
+#: settings/messageviewer.kcfg.cmake:317
+msgid "The most recent selected folder using for Event."
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -1500,7 +1518,7 @@ msgstr ""
 msgid "Unable to edit attachment"
 msgstr "অ্যাটাচমেন্ট-এর নাম:"
 
-#: viewer/mailsourceviewer.cpp:123 viewer/viewer_p.cpp:1808
+#: viewer/mailsourceviewer.cpp:123 viewer/viewer_p.cpp:1816
 msgid "Speak Text"
 msgstr ""
 
@@ -1730,54 +1748,54 @@ msgstr ""
 msgid "Show Raw Message"
 msgstr "ফরওয়ার্ড করা বার্তা"
 
-#: viewer/objecttreeparser.cpp:2067 viewer/viewer_p.cpp:2937
+#: viewer/objecttreeparser.cpp:2067 viewer/viewer_p.cpp:2952
 msgid ""
 "Chiasmus backend does not offer the \"x-obtain-keys\" function. Please "
 "report this bug."
 msgstr ""
 
-#: viewer/objecttreeparser.cpp:2073 viewer/viewer_p.cpp:2939
-#: viewer/viewer_p.cpp:2944 viewer/viewer_p.cpp:2953 viewer/viewer_p.cpp:2962
-#: viewer/viewer_p.cpp:2980 viewer/viewer_p.cpp:2992 viewer/viewer_p.cpp:3032
+#: viewer/objecttreeparser.cpp:2073 viewer/viewer_p.cpp:2954
+#: viewer/viewer_p.cpp:2959 viewer/viewer_p.cpp:2968 viewer/viewer_p.cpp:2977
+#: viewer/viewer_p.cpp:2995 viewer/viewer_p.cpp:3007 viewer/viewer_p.cpp:3047
 msgid "Chiasmus Backend Error"
 msgstr ""
 
-#: viewer/objecttreeparser.cpp:2079 viewer/viewer_p.cpp:2950
+#: viewer/objecttreeparser.cpp:2079 viewer/viewer_p.cpp:2965
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-obtain-keys\" "
 "function did not return a string list. Please report this bug."
 msgstr ""
 
-#: viewer/objecttreeparser.cpp:2087 viewer/viewer_p.cpp:2959
+#: viewer/objecttreeparser.cpp:2087 viewer/viewer_p.cpp:2974
 msgid ""
 "No keys have been found. Please check that a valid key path has been set in "
 "the Chiasmus configuration."
 msgstr ""
 
-#: viewer/objecttreeparser.cpp:2093 viewer/viewer_p.cpp:2966
+#: viewer/objecttreeparser.cpp:2093 viewer/viewer_p.cpp:2981
 #, fuzzy
 #| msgid "Encryption Key Selection"
 msgid "Chiasmus Decryption Key Selection"
 msgstr "এনক্রিপশন কী (Key) নির্বাচন"
 
-#: viewer/objecttreeparser.cpp:2106 viewer/viewer_p.cpp:2978
+#: viewer/objecttreeparser.cpp:2106 viewer/viewer_p.cpp:2993
 msgid ""
 "Chiasmus backend does not offer the \"x-decrypt\" function. Please report "
 "this bug."
 msgstr ""
 
-#: viewer/objecttreeparser.cpp:2114 viewer/viewer_p.cpp:2990
+#: viewer/objecttreeparser.cpp:2114 viewer/viewer_p.cpp:3005
 msgid ""
 "The \"x-decrypt\" function does not accept the expected parameters. Please "
 "report this bug."
 msgstr ""
 
-#: viewer/objecttreeparser.cpp:2120 viewer/viewer_p.cpp:2997
-#: viewer/viewer_p.cpp:3024
+#: viewer/objecttreeparser.cpp:2120 viewer/viewer_p.cpp:3012
+#: viewer/viewer_p.cpp:3039
 msgid "Chiasmus Decryption Error"
 msgstr ""
 
-#: viewer/objecttreeparser.cpp:2126 viewer/viewer_p.cpp:3029
+#: viewer/objecttreeparser.cpp:2126 viewer/viewer_p.cpp:3044
 msgid ""
 "Unexpected return value from Chiasmus backend: The \"x-decrypt\" function "
 "did not return a byte array. Please report this bug."
@@ -2080,7 +2098,7 @@ msgstr "পাওয়া যাচ্ছে না"
 msgid "Turn on HTML rendering for this message."
 msgstr "এই বার্তার জন্য এইচ-টি-এম-এল প্রদর্শন সক্রিয় করো।"
 
-#: viewer/urlhandlermanager.cpp:522 viewer/viewer_p.cpp:1805
+#: viewer/urlhandlermanager.cpp:522 viewer/viewer_p.cpp:1813
 msgid "Load external references from the Internet for this message."
 msgstr ""
 
@@ -2179,7 +2197,7 @@ msgstr "ঠিকানা তালিকায় খোলো"
 msgid "&Copy Email Address"
 msgstr "ই-মেইল ঠিকানা"
 
-#: viewer/urlhandlermanager.cpp:737 viewer/viewer_p.cpp:2794
+#: viewer/urlhandlermanager.cpp:737 viewer/viewer_p.cpp:2809
 msgid "Address copied to clipboard."
 msgstr "ঠিকানাটি ক্লীপবোর্ড-এ কপি করা হয়েছে।"
 
@@ -2237,112 +2255,112 @@ msgstr "চালাও"
 msgid "Loading message..."
 msgstr "বার্তা সরানো হচ্ছে"
 
-#: viewer/viewer_p.cpp:421
+#: viewer/viewer_p.cpp:423
 msgid ""
 "Deleting an attachment from an encrypted or old-style mailman message is not "
 "supported."
 msgstr ""
 
-#: viewer/viewer_p.cpp:422 viewer/viewer_p.cpp:428 viewer/viewer_p.cpp:665
-#: viewer/viewer_p.cpp:1914
+#: viewer/viewer_p.cpp:424 viewer/viewer_p.cpp:430 viewer/viewer_p.cpp:667
+#: viewer/viewer_p.cpp:1929
 #, fuzzy
 #| msgid "&Remove Attachment"
 msgid "Delete Attachment"
 msgstr "অ্যাটাচমেন্ট &সরাও"
 
-#: viewer/viewer_p.cpp:427
+#: viewer/viewer_p.cpp:429
 msgid ""
 "Deleting an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: viewer/viewer_p.cpp:492
+#: viewer/viewer_p.cpp:494
 msgid ""
 "Modifying an attachment might invalidate any digital signature on this "
 "message."
 msgstr ""
 
-#: viewer/viewer_p.cpp:493 viewer/viewer_p.cpp:659 viewer/viewer_p.cpp:1918
+#: viewer/viewer_p.cpp:495 viewer/viewer_p.cpp:661 viewer/viewer_p.cpp:1933
 #, fuzzy
 #| msgid "Attachment"
 msgid "Edit Attachment"
 msgstr "অ্যাটাচমেন্ট"
 
-#: viewer/viewer_p.cpp:534
+#: viewer/viewer_p.cpp:536
 #, fuzzy
 #| msgid "Open With..."
 msgctxt "@title:menu"
 msgid "&Open With"
 msgstr "...দিয়ে খোলো"
 
-#: viewer/viewer_p.cpp:552
+#: viewer/viewer_p.cpp:554
 #, fuzzy
 #| msgid "Other Actio&ns"
 msgctxt "@action:inmenu Open With"
 msgid "&Other..."
 msgstr "&অন্যান্য কাজ"
 
-#: viewer/viewer_p.cpp:554 viewer/viewer_p.cpp:566
+#: viewer/viewer_p.cpp:556 viewer/viewer_p.cpp:568
 #, fuzzy
 #| msgid "Open With..."
 msgctxt "@title:menu"
 msgid "&Open With..."
 msgstr "...দিয়ে খোলো"
 
-#: viewer/viewer_p.cpp:621 viewer/viewer_p.cpp:1891
+#: viewer/viewer_p.cpp:623 viewer/viewer_p.cpp:1906
 msgctxt "to open"
 msgid "Open"
 msgstr "খোলো"
 
-#: viewer/viewer_p.cpp:629 viewer/viewer_p.cpp:1898
+#: viewer/viewer_p.cpp:631 viewer/viewer_p.cpp:1913
 msgctxt "to view something"
 msgid "View"
 msgstr ""
 
-#: viewer/viewer_p.cpp:637
+#: viewer/viewer_p.cpp:639
 msgid "Scroll To"
 msgstr ""
 
-#: viewer/viewer_p.cpp:642
+#: viewer/viewer_p.cpp:644
 #, fuzzy
 msgid "Save As..."
 msgstr "&নতুন নামে সংরক্ষণ করো..."
 
-#: viewer/viewer_p.cpp:647 viewer/viewer_p.cpp:1910
+#: viewer/viewer_p.cpp:649 viewer/viewer_p.cpp:1925
 #, fuzzy
 msgid "Copy"
 msgstr "কপি পাঠা&ও"
 
-#: viewer/viewer_p.cpp:672
+#: viewer/viewer_p.cpp:674
 msgid "Decrypt With Chiasmus..."
 msgstr ""
 
-#: viewer/viewer_p.cpp:676 viewer/viewer_p.cpp:1923
+#: viewer/viewer_p.cpp:678 viewer/viewer_p.cpp:1938
 #, fuzzy
 msgid "Properties"
 msgstr "বৈশিষ্ট্যা&বলী"
 
-#: viewer/viewer_p.cpp:829
+#: viewer/viewer_p.cpp:831
 #, fuzzy
 #| msgid "KDE Email Client"
 msgid "The KDE email client."
 msgstr "কে.ডি.ই. ই-মেইল ক্লায়েন্ট"
 
-#: viewer/viewer_p.cpp:1407
+#: viewer/viewer_p.cpp:1410
 #, kde-format
 msgid "View Attachment: %1"
 msgstr "অ্যাটাচমেন্ট দেখাও: %1"
 
-#: viewer/viewer_p.cpp:1569
+#: viewer/viewer_p.cpp:1577
 msgctxt "View->"
 msgid "&Headers"
 msgstr "হেডা&র"
 
-#: viewer/viewer_p.cpp:1571
+#: viewer/viewer_p.cpp:1579
 msgid "Choose display style of message headers"
 msgstr "বার্তার হেডারগুলি কি ভাবে প্রদর্শিত হবে বেছে নিন"
 
-#: viewer/viewer_p.cpp:1574
+#: viewer/viewer_p.cpp:1582
 #, fuzzy
 #| msgctxt "View->headers->"
 #| msgid "&Brief Headers"
@@ -2350,58 +2368,58 @@ msgctxt "View->headers->"
 msgid "&Enterprise Headers"
 msgstr "সংক্ষিপ্ত হেডার (&হ)"
 
-#: viewer/viewer_p.cpp:1577
+#: viewer/viewer_p.cpp:1585
 #, fuzzy
 #| msgid "Show the list of headers in a fancy format"
 msgid "Show the list of headers in Enterprise style"
 msgstr "হেডারগুলি একটি কেতাদুরস্ত বিন্যাস ব্যবহার করে দেখাও"
 
-#: viewer/viewer_p.cpp:1581
+#: viewer/viewer_p.cpp:1589
 msgctxt "View->headers->"
 msgid "&Fancy Headers"
 msgstr "কেতাদু&রস্ত হেডার"
 
-#: viewer/viewer_p.cpp:1584
+#: viewer/viewer_p.cpp:1592
 msgid "Show the list of headers in a fancy format"
 msgstr "হেডারগুলি একটি কেতাদুরস্ত বিন্যাস ব্যবহার করে দেখাও"
 
-#: viewer/viewer_p.cpp:1588
+#: viewer/viewer_p.cpp:1596
 msgctxt "View->headers->"
 msgid "&Brief Headers"
 msgstr "সংক্ষিপ্ত হেডার (&হ)"
 
-#: viewer/viewer_p.cpp:1591
+#: viewer/viewer_p.cpp:1599
 msgid "Show brief list of message headers"
 msgstr "অল্প কয়েকটি হেডার দেখাও"
 
-#: viewer/viewer_p.cpp:1595
+#: viewer/viewer_p.cpp:1603
 msgctxt "View->headers->"
 msgid "&Standard Headers"
 msgstr "স্ট্যাণ্ডার্ড হেডার (&ড)"
 
-#: viewer/viewer_p.cpp:1598
+#: viewer/viewer_p.cpp:1606
 msgid "Show standard list of message headers"
 msgstr "সাধারণত প্রদর্শিত হেডারগুলি দেখাও"
 
-#: viewer/viewer_p.cpp:1602
+#: viewer/viewer_p.cpp:1610
 msgctxt "View->headers->"
 msgid "&Long Headers"
 msgstr "&লম্বা হেডার"
 
-#: viewer/viewer_p.cpp:1605
+#: viewer/viewer_p.cpp:1613
 msgid "Show long list of message headers"
 msgstr "অনেকগুলি হেডার দেখাও"
 
-#: viewer/viewer_p.cpp:1609
+#: viewer/viewer_p.cpp:1617
 msgctxt "View->headers->"
 msgid "&All Headers"
 msgstr "&সব হেডার"
 
-#: viewer/viewer_p.cpp:1612
+#: viewer/viewer_p.cpp:1620
 msgid "Show all message headers"
 msgstr "বার্তার সব হেডার দেখাও"
 
-#: viewer/viewer_p.cpp:1616
+#: viewer/viewer_p.cpp:1624
 #, fuzzy
 #| msgctxt "View->headers->"
 #| msgid "&Long Headers"
@@ -2409,272 +2427,282 @@ msgctxt "View->headers->"
 msgid "&Custom Headers"
 msgstr "&লম্বা হেডার"
 
-#: viewer/viewer_p.cpp:1619
+#: viewer/viewer_p.cpp:1627
 #, fuzzy
 #| msgid "Show long list of message headers"
 msgid "Show custom headers"
 msgstr "অনেকগুলি হেডার দেখাও"
 
-#: viewer/viewer_p.cpp:1627
+#: viewer/viewer_p.cpp:1635
 msgctxt "View->"
 msgid "&Attachments"
 msgstr "অ্যাটা&চমেন্ট"
 
-#: viewer/viewer_p.cpp:1629
+#: viewer/viewer_p.cpp:1637
 msgid "Choose display style of attachments"
 msgstr "অ্যাটাচমেন্ট কি ভাবে দেখানো হবে বেছে নিন"
 
-#: viewer/viewer_p.cpp:1632
+#: viewer/viewer_p.cpp:1640
 msgctxt "View->attachments->"
 msgid "&As Icons"
 msgstr "আ&ইকন হিসাবে"
 
-#: viewer/viewer_p.cpp:1635
+#: viewer/viewer_p.cpp:1643
 msgid "Show all attachments as icons. Click to see them."
 msgstr ""
 
-#: viewer/viewer_p.cpp:1639
+#: viewer/viewer_p.cpp:1647
 msgctxt "View->attachments->"
 msgid "&Smart"
 msgstr "বুদ্ধি খাটিয়ে (&খ)"
 
-#: viewer/viewer_p.cpp:1642
+#: viewer/viewer_p.cpp:1650
 msgid "Show attachments as suggested by sender."
 msgstr ""
 
-#: viewer/viewer_p.cpp:1646
+#: viewer/viewer_p.cpp:1654
 msgctxt "View->attachments->"
 msgid "&Inline"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1649
+#: viewer/viewer_p.cpp:1657
 msgid "Show all attachments inline (if possible)"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1653
+#: viewer/viewer_p.cpp:1661
 msgctxt "View->attachments->"
 msgid "&Hide"
 msgstr "লুকো&ও"
 
-#: viewer/viewer_p.cpp:1656
+#: viewer/viewer_p.cpp:1664
 msgid "Do not show attachments in the message viewer"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1660
+#: viewer/viewer_p.cpp:1668
 msgctxt "View->attachments->"
 msgid "In Header Only"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1664
+#: viewer/viewer_p.cpp:1672
 msgid "Show Attachments only in the header of the mail"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1669
+#: viewer/viewer_p.cpp:1677
 msgid "&Set Encoding"
 msgstr "এনকোডিং নির্ধার&ণ করো"
 
-#: viewer/viewer_p.cpp:1675 widgets/configurewidget.cpp:45
+#: viewer/viewer_p.cpp:1683 widgets/configurewidget.cpp:45
 #: widgets/configurewidget.cpp:128
 msgid "Auto"
 msgstr "স্বয়ংক্রীয়"
 
-#: viewer/viewer_p.cpp:1692
+#: viewer/viewer_p.cpp:1700
 msgid "Select All Text"
 msgstr "সব লেখা নির্বাচন করো"
 
-#: viewer/viewer_p.cpp:1699 viewer/viewer_p.cpp:2188
+#: viewer/viewer_p.cpp:1707 viewer/viewer_p.cpp:2203
 msgid "Copy Link Address"
 msgstr "লিঙ্ক ঠিকানা কপি করো"
 
-#: viewer/viewer_p.cpp:1704
+#: viewer/viewer_p.cpp:1712
 msgid "Open URL"
 msgstr "ইউ-আর-এল খোলো"
 
-#: viewer/viewer_p.cpp:1716
+#: viewer/viewer_p.cpp:1724
 msgid "Zoom Text Only"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1719
+#: viewer/viewer_p.cpp:1727
 msgid "&Zoom In"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1724
+#: viewer/viewer_p.cpp:1732
 msgid "Zoom &Out"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1729
+#: viewer/viewer_p.cpp:1737
 #, fuzzy
 msgid "Reset"
 msgstr "ফোল্ডার নির্বাচন করো"
 
-#: viewer/viewer_p.cpp:1736
+#: viewer/viewer_p.cpp:1744
 #, fuzzy
 #| msgid "Message Structure Viewer"
 msgid "Show Message Structure"
 msgstr "বার্তা কাঠামো প্রদর্শক"
 
-#: viewer/viewer_p.cpp:1741
+#: viewer/viewer_p.cpp:1749
 msgid "&View Source"
 msgstr "&উত্‍স দেখাও"
 
-#: viewer/viewer_p.cpp:1746
+#: viewer/viewer_p.cpp:1754
 #, fuzzy
 msgid "&Save message..."
 msgstr "একটি বার্তা, %2."
 
-#: viewer/viewer_p.cpp:1752
+#: viewer/viewer_p.cpp:1760
 #, fuzzy
 #| msgid "&Save as Draft"
 msgid "&Save Display Format"
 msgstr "&খসড়া হিসাবে সংরক্ষণ করো"
 
-#: viewer/viewer_p.cpp:1756
+#: viewer/viewer_p.cpp:1764
 msgid "&Reset Display Format"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1763
+#: viewer/viewer_p.cpp:1771
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Up"
 msgstr "&সব বার্তা নির্বাচন করো"
 
-#: viewer/viewer_p.cpp:1769
+#: viewer/viewer_p.cpp:1777
 #, fuzzy
 #| msgid "Select &All Messages"
 msgid "Scroll Message Down"
 msgstr "&সব বার্তা নির্বাচন করো"
 
-#: viewer/viewer_p.cpp:1775
+#: viewer/viewer_p.cpp:1783
 msgid "Scroll Message Up (More)"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1781
+#: viewer/viewer_p.cpp:1789
 msgid "Scroll Message Down (More)"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1792
+#: viewer/viewer_p.cpp:1800
 msgid "Toggle HTML Display Mode"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1797
+#: viewer/viewer_p.cpp:1805
 msgid "Toggle display mode between HTML and plain text"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1800
+#: viewer/viewer_p.cpp:1808
 msgid "Load external references"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1814
+#: viewer/viewer_p.cpp:1822
 #, fuzzy
 #| msgid "Choose Location"
 msgid "Copy Image Location"
 msgstr "অবস্থান বেছে নিন"
 
-#: viewer/viewer_p.cpp:1821
+#: viewer/viewer_p.cpp:1829
 msgid "Translate..."
 msgstr ""
 
-#: viewer/viewer_p.cpp:1828
+#: viewer/viewer_p.cpp:1836
 msgid "&Find in Message..."
 msgstr "বার্তা&য় সন্ধান করো..."
 
-#: viewer/viewer_p.cpp:1835
+#: viewer/viewer_p.cpp:1843
 msgid "Toggle Caret Browsing"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1842
+#: viewer/viewer_p.cpp:1850
 msgid "Block image"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1847
+#: viewer/viewer_p.cpp:1855
 msgid "Open Blockable Items..."
 msgstr ""
 
-#: viewer/viewer_p.cpp:1852
+#: viewer/viewer_p.cpp:1860
 #, fuzzy
 #| msgid "Key Export Failed"
 msgid "Expand Short URL"
 msgstr "কী (Key) রপ্তানি ব্যর্থ"
 
-#: viewer/viewer_p.cpp:1857
+#: viewer/viewer_p.cpp:1865
 msgid "Create Todo"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1858
+#: viewer/viewer_p.cpp:1866
 msgid "Create To-do"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1859
+#: viewer/viewer_p.cpp:1867
 msgid "Allows you to create a calendar to-do or reminder from this message"
 msgstr ""
 
-#: viewer/viewer_p.cpp:1860
+#: viewer/viewer_p.cpp:1868
 msgid ""
 "This option starts the KOrganizer to-do editor with initial values taken "
 "from the currently selected message. Then you can edit the to-do to your "
 "liking before saving it to your calendar."
 msgstr ""
 
-#: viewer/viewer_p.cpp:1887
+#: viewer/viewer_p.cpp:1873 viewer/viewer_p.cpp:1874
+#, fuzzy
+#| msgid "&Create Filter"
+msgid "Create Event"
+msgstr "ফিল্টা&র তৈরি করো"
+
+#: viewer/viewer_p.cpp:1875
+msgid "Allows you to create a calendar Event"
+msgstr ""
+
+#: viewer/viewer_p.cpp:1902
 msgid "Save &As..."
 msgstr "&নতুন নামে সংরক্ষণ করো..."
 
-#: viewer/viewer_p.cpp:1897
+#: viewer/viewer_p.cpp:1912
 msgid "Open With..."
 msgstr "...দিয়ে খোলো"
 
-#: viewer/viewer_p.cpp:1903
+#: viewer/viewer_p.cpp:1918
 msgid "Save All Attachments..."
 msgstr "সব অ্যাটাচমেন্ট সংরক্ষণ করো..."
 
-#: viewer/viewer_p.cpp:2186
+#: viewer/viewer_p.cpp:2201
 #, fuzzy
 #| msgid "Email Address"
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা"
 
-#: viewer/viewer_p.cpp:2254
+#: viewer/viewer_p.cpp:2269
 msgid "Message as Plain Text"
 msgstr "বার্তা প্লেইন টেক্সট হিসাবে"
 
-#: viewer/viewer_p.cpp:2515
+#: viewer/viewer_p.cpp:2530
 #, fuzzy
 #| msgctxt "Config->Composer->Attachments"
 #| msgid "A&ttachments"
 msgid "Attachments:"
 msgstr "অ্যাটা&চমেন্ট"
 
-#: viewer/viewer_p.cpp:2799
+#: viewer/viewer_p.cpp:2814
 msgid "URL copied to clipboard."
 msgstr "ইউ-আর-এল-টি ক্লীপবোর্ড-এ কপি করা হয়েছে।"
 
-#: viewer/viewer_p.cpp:3091
+#: viewer/viewer_p.cpp:3106
 msgid "Hide full address list"
 msgstr ""
 
-#: viewer/viewer_p.cpp:3095
+#: viewer/viewer_p.cpp:3110
 #, fuzzy
 #| msgid "Show alway&s"
 msgid "Show full address list"
 msgstr "&সর্বদা দেখাও"
 
-#: viewer/viewer_p.cpp:3118
+#: viewer/viewer_p.cpp:3133
 #, fuzzy, kde-format
 #| msgid "Message was signed by %1."
 msgid "Message loading failed: %1."
 msgstr "বার্তা স্বাক্ষর করেছেন %1।"
 
-#: viewer/viewer_p.cpp:3123
+#: viewer/viewer_p.cpp:3138
 #, fuzzy
 #| msgid "Message was signed by %1."
 msgid "Message not found."
 msgstr "বার্তা স্বাক্ষর করেছেন %1।"
 
-#: viewer/viewer_p.cpp:3247
+#: viewer/viewer_p.cpp:3262
 msgid "Caret Browsing will be activated. Switch off with F7 shortcut."
 msgstr ""
 
-#: viewer/viewer_p.cpp:3248
+#: viewer/viewer_p.cpp:3263
 msgid "Activate Caret Browsing"
 msgstr ""
 
@@ -2701,6 +2729,48 @@ msgstr ""
 #: widgets/attachmentdialog.cpp:72
 msgid "Do not ask again"
 msgstr ""
+
+#: widgets/eventedit.cpp:62 widgets/todoedit.cpp:55
+msgid "Close widget to create new Todo"
+msgstr ""
+
+#: widgets/eventedit.cpp:69
+#, fuzzy
+#| msgid "sender: "
+msgid "Event:"
+msgstr "প্রেরক:"
+
+#: widgets/eventedit.cpp:84 widgets/todoedit.cpp:77
+msgid "Select collection where Todo will stored."
+msgstr ""
+
+#: widgets/eventedit.cpp:95
+#, fuzzy
+#| msgid "Start %1"
+msgid "Start:"
+msgstr "%1 শুরু করো"
+
+#: widgets/eventedit.cpp:102
+#, fuzzy
+#| msgid "Select &Recipients..."
+msgid "Select start time for event."
+msgstr "প্রাপ&ক নির্বাচন করো..."
+
+#: widgets/eventedit.cpp:108
+msgid "End:"
+msgstr ""
+
+#: widgets/eventedit.cpp:114
+#, fuzzy
+#| msgid "Select &Recipients..."
+msgid "Select end time for event."
+msgstr "প্রাপ&ক নির্বাচন করো..."
+
+#: widgets/eventedit.cpp:178 widgets/todoedit.cpp:156
+#, fuzzy, kde-format
+#| msgid "Reply to: "
+msgid "Reply to \"%1\""
+msgstr "উত্তর প্রাপক: "
 
 #: widgets/htmlstatusbar.cpp:106
 #, fuzzy
@@ -2754,23 +2824,9 @@ msgid ""
 "be able to work with this.</qt>"
 msgstr ""
 
-#: widgets/todoedit.cpp:55
-msgid "Close widget to create new Todo"
-msgstr ""
-
 #: widgets/todoedit.cpp:62
 msgid "Todo:"
 msgstr ""
-
-#: widgets/todoedit.cpp:77
-msgid "Select collection where Todo will stored."
-msgstr ""
-
-#: widgets/todoedit.cpp:156
-#, fuzzy, kde-format
-#| msgid "Reply to: "
-msgid "Reply to \"%1\""
-msgstr "উত্তর প্রাপক: "
 
 #: widgets/vcardviewer.cpp:44
 #, fuzzy
@@ -3958,9 +4014,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 
 #~ msgid "Send A&gain..."
 #~ msgstr "&আবার পাঠাও..."
-
-#~ msgid "&Create Filter"
-#~ msgstr "ফিল্টা&র তৈরি করো"
 
 #~ msgid "Filter on &Subject..."
 #~ msgstr "বিষ&য় দিয়ে ফিল্টার করো"
@@ -5215,12 +5268,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 
 #~ msgid "KMail"
 #~ msgstr "কে-মেইল"
-
-#, fuzzy
-#~| msgid "Start %1"
-#~ msgctxt "Start kmail even when another instance is running."
-#~ msgid "Start %1"
-#~ msgstr "%1 শুরু করো"
 
 #, fuzzy
 #~| msgid "Exit"
@@ -7082,12 +7129,6 @@ msgstr "পূর্ব&বর্তী কার্ড"
 #~ msgctxt "@label:listbox Blind carbon copy recipient of an email message."
 #~ msgid "BCC"
 #~ msgstr "&BCC"
-
-#, fuzzy
-#~| msgid "Select &Recipients..."
-#~ msgctxt "@label:listbox"
-#~ msgid "Select type of recipient"
-#~ msgstr "প্রাপ&ক নির্বাচন করো..."
 
 #, fuzzy
 #~| msgid "Save &Distribution List..."
