@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-05-10 01:46+0000\n"
+"POT-Creation-Date: 2014-05-16 01:46+0000\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -338,212 +338,225 @@ msgstr "&রপ্তানি"
 msgid "&Edit"
 msgstr "&সম্পাদনা..."
 
-#. i18n: ectx: Menu (view)
+#. i18n: ectx: Menu (action)
 #: kaddressbookui.rc:51
+#, fuzzy
+#| msgid "Latin1"
+msgid "&Action"
+msgstr "লাতিন-১"
+
+#. i18n: ectx: Menu (view)
+#: kaddressbookui.rc:55
 #, fuzzy
 msgid "&View"
 msgstr "ভিউ যোগ করো"
 
 #. i18n: ectx: Menu (settings)
-#: kaddressbookui.rc:61
+#: kaddressbookui.rc:65
 #, fuzzy
 msgid "&Settings"
 msgstr "ফন্ট সেটিংস"
 
 #. i18n: ectx: ToolBar (mainToolBar)
-#: kaddressbookui.rc:97
+#: kaddressbookui.rc:103
 #, fuzzy
 msgid "Main Toolbar"
 msgstr "পরিচয় টুলবার"
 
-#: mainwidget.cpp:362
+#: mainwidget.cpp:365
 #, fuzzy, kde-format
 #| msgid "Search:"
 msgctxt "@label Search contacts in list"
 msgid "Search...<%1>"
 msgstr "সন্ধান:"
 
-#: mainwidget.cpp:562
+#: mainwidget.cpp:565
 msgid "&Themes"
 msgstr ""
 
-#: mainwidget.cpp:573
+#: mainwidget.cpp:576
 msgctxt "@info:whatsthis"
 msgid "Print the complete address book or a selected number of contacts."
 msgstr ""
 
-#: mainwidget.cpp:579
+#: mainwidget.cpp:582
 #, fuzzy
 #| msgid "Recursive search"
 msgid "Quick search"
 msgstr "রিকার্সিভ সন্ধান"
 
-#: mainwidget.cpp:583
+#: mainwidget.cpp:586
 #, fuzzy
 #| msgid "Category"
 msgid "Category filter"
 msgstr "শ্রেণী"
 
-#: mainwidget.cpp:587
+#: mainwidget.cpp:590
 #, fuzzy
 msgid "Select All"
 msgstr "সব নির্বাচন বাতিল করো"
 
-#: mainwidget.cpp:589
+#: mainwidget.cpp:592
 #, fuzzy
 #| msgid "Selects all visible contacts from current view."
 msgid "Select all contacts in the current address book view."
 msgstr "বর্তমান ভিউ থেকে সবকটি পরিচয় নির্বাচন করে।"
 
-#: mainwidget.cpp:595
+#: mainwidget.cpp:598
 msgid "Show QR Codes"
 msgstr ""
 
-#: mainwidget.cpp:596
+#: mainwidget.cpp:599
 msgid "Show QR Codes in the contact."
 msgstr ""
 
-#: mainwidget.cpp:602
+#: mainwidget.cpp:605
 msgctxt "@action:inmenu"
 msgid "Simple (one column)"
 msgstr ""
 
-#: mainwidget.cpp:606
+#: mainwidget.cpp:609
 #, fuzzy
 #| msgid "Please select type of the new address book:"
 msgid "Show a simple mode of the address book view."
 msgstr "নতুন ঠিকানা তালিকার ধরন বেছে নিন:"
 
-#: mainwidget.cpp:609
+#: mainwidget.cpp:612
 msgctxt "@action:inmenu"
 msgid "Two Columns"
 msgstr ""
 
-#: mainwidget.cpp:615
+#: mainwidget.cpp:618
 msgctxt "@action:inmenu"
 msgid "Three Columns"
 msgstr ""
 
-#: mainwidget.cpp:625
+#: mainwidget.cpp:628
 msgid "Import vCard..."
 msgstr "ভি-কার্ড আমদানি করো..."
 
-#: mainwidget.cpp:626
+#: mainwidget.cpp:629
 msgid "Import contacts from a vCard file."
 msgstr ""
 
-#: mainwidget.cpp:630
+#: mainwidget.cpp:633
 #, fuzzy
 msgid "Import CSV file..."
 msgstr "রপ্তানি তালিকা."
 
-#: mainwidget.cpp:631
+#: mainwidget.cpp:634
 msgid "Import contacts from a file in comma separated value format."
 msgstr ""
 
-#: mainwidget.cpp:635
+#: mainwidget.cpp:638
 #, fuzzy
 msgid "Import LDIF file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: mainwidget.cpp:636
+#: mainwidget.cpp:639
 #, fuzzy
 msgid "Import contacts from an LDIF file."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: mainwidget.cpp:640
+#: mainwidget.cpp:643
 #, fuzzy
 #| msgid "Import From Mobile Phone..."
 msgid "Import From LDAP server..."
 msgstr "মোবাইল ফোন থেকে আমদানি করো..."
 
-#: mainwidget.cpp:641
+#: mainwidget.cpp:644
 #, fuzzy
 #| msgid "Import From Mobile Phone..."
 msgid "Import contacts from an LDAP server."
 msgstr "মোবাইল ফোন থেকে আমদানি করো..."
 
-#: mainwidget.cpp:645
+#: mainwidget.cpp:648
 #, fuzzy
 #| msgid "Import All..."
 msgid "Import GMX file..."
 msgstr "সব আমদানি করো..."
 
-#: mainwidget.cpp:646
+#: mainwidget.cpp:649
 #, fuzzy
 msgid "Import contacts from a GMX address book file."
 msgstr "%1 ঠিকানা তালিকা"
 
-#: mainwidget.cpp:651
+#: mainwidget.cpp:654
 msgid "Export vCard 3.0..."
 msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
 
-#: mainwidget.cpp:652
+#: mainwidget.cpp:655
 #, fuzzy
 #| msgid "Export vCard 3.0..."
 msgid "Export contacts to a vCard 3.0 file."
 msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
 
-#: mainwidget.cpp:656
+#: mainwidget.cpp:659
 msgid "Export vCard 2.1..."
 msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
 
-#: mainwidget.cpp:657
+#: mainwidget.cpp:660
 #, fuzzy
 #| msgid "Export vCard 2.1..."
 msgid "Export contacts to a vCard 2.1 file."
 msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
 
-#: mainwidget.cpp:661
+#: mainwidget.cpp:664
 #, fuzzy
 msgid "Export CSV file..."
 msgstr "রপ্তানি তালিকা."
 
-#: mainwidget.cpp:662
+#: mainwidget.cpp:665
 msgid "Export contacts to a file in comma separated value format."
 msgstr ""
 
-#: mainwidget.cpp:666
+#: mainwidget.cpp:669
 #, fuzzy
 msgid "Export LDIF file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: mainwidget.cpp:667
+#: mainwidget.cpp:670
 #, fuzzy
 msgid "Export contacts to an LDIF file."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: mainwidget.cpp:671
+#: mainwidget.cpp:674
 #, fuzzy
 msgid "Export GMX file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: mainwidget.cpp:672
+#: mainwidget.cpp:675
 #, fuzzy
 msgid "Export contacts to a GMX address book file."
 msgstr "%1 ঠিকানা তালিকা"
 
-#: mainwidget.cpp:680
+#: mainwidget.cpp:683
 #, fuzzy
 #| msgid "&New Contact..."
 msgid "Merge Contacts..."
 msgstr "&নতুন পরিচয়..."
 
-#: mainwidget.cpp:684
+#: mainwidget.cpp:687
 #, fuzzy
 #| msgid "&Delete Contact"
 msgid "Search Duplicate Contacts..."
 msgstr "পরিচ&য় মুছে ফেলো"
 
-#: mainwidget.cpp:687
+#: mainwidget.cpp:690
 msgid "Set Focus to Quick Search"
 msgstr ""
 
-#: mainwidget.cpp:697 mainwidget.cpp:718
+#: mainwidget.cpp:697
+#, fuzzy
+#| msgid "Send &Contact..."
+msgid "Send an email..."
+msgstr "&পরিচয় পাঠাও..."
+
+#: mainwidget.cpp:705 mainwidget.cpp:726
 msgid "Address Book"
 msgstr "ঠিকানা তালিকা"
 
-#: mainwidget.cpp:725 printing/printingwizard.cpp:59
+#: mainwidget.cpp:733 printing/printingwizard.cpp:59
 #, fuzzy
 #| msgid "Edit Contact"
 msgid "Print Contacts"
@@ -1605,27 +1618,27 @@ msgctxt "@action:button"
 msgid "Export to Several Files"
 msgstr "একাধিক ফাইল-এ রপ্তানি করো"
 
-#: xxport/vcard/vcard_xxport.cpp:209
+#: xxport/vcard/vcard_xxport.cpp:208
 msgid ""
-"*.vcf|vCard (*.vcf)\n"
-"*|All Files"
+"*.vcf|Vcard (*.vcf)\n"
+"*|all files (*)"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:215
+#: xxport/vcard/vcard_xxport.cpp:214
 #, fuzzy
 #| msgid "Select vCard to Import"
 msgctxt "@title:window"
 msgid "Select vCard to Import"
 msgstr "আমদানি করার জন্য ভি-কার্ড বেছে নিন"
 
-#: xxport/vcard/vcard_xxport.cpp:222
+#: xxport/vcard/vcard_xxport.cpp:221
 #, fuzzy
 #| msgid "vCard Import Failed"
 msgctxt "@title:window"
 msgid "vCard Import Failed"
 msgstr "ভি-কার্ড আমদানি ব্যর্থ"
 
-#: xxport/vcard/vcard_xxport.cpp:244
+#: xxport/vcard/vcard_xxport.cpp:243
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -1633,178 +1646,178 @@ msgid ""
 "<filename>%1</filename>:</para><para>%2</para>"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:255
+#: xxport/vcard/vcard_xxport.cpp:254
 #, kde-format
 msgctxt "@info"
 msgid "<para>Unable to access vCard:</para><para>%1</para>"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:267
+#: xxport/vcard/vcard_xxport.cpp:266
 msgctxt "@info"
 msgid "No contacts were imported, due to errors with the vCards."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:271
+#: xxport/vcard/vcard_xxport.cpp:270
 msgctxt "@info"
 msgid "The vCard does not contain any contacts."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:497
+#: xxport/vcard/vcard_xxport.cpp:496
 #, fuzzy
 #| msgid "Import vCard"
 msgctxt "@title:window"
 msgid "Import vCard"
 msgstr "ভি-কার্ড আমদানি করো"
 
-#: xxport/vcard/vcard_xxport.cpp:514
+#: xxport/vcard/vcard_xxport.cpp:513
 #, fuzzy
 #| msgid "Export the entire address book"
 msgctxt "@info"
 msgid "Do you want to import this contact into your address book?"
 msgstr "সমগ্র ঠিকানা তালিকা রপ্তানি করো"
 
-#: xxport/vcard/vcard_xxport.cpp:524
+#: xxport/vcard/vcard_xxport.cpp:523
 #, fuzzy
 #| msgid "Import All..."
 msgctxt "@action:button"
 msgid "Import All..."
 msgstr "সব আমদানি করো..."
 
-#: xxport/vcard/vcard_xxport.cpp:615
+#: xxport/vcard/vcard_xxport.cpp:614
 #, fuzzy
 #| msgid "Select Categories..."
 msgctxt "@title:window"
 msgid "Select vCard Fields"
 msgstr "শ্রেণী নির্বাচন করো..."
 
-#: xxport/vcard/vcard_xxport.cpp:629
+#: xxport/vcard/vcard_xxport.cpp:628
 #, fuzzy
 #| msgid "File to import:"
 msgctxt "@title:group"
 msgid "Fields to be exported"
 msgstr "যে ফাইল আমদানি করা হবে:"
 
-#: xxport/vcard/vcard_xxport.cpp:633
+#: xxport/vcard/vcard_xxport.cpp:632
 msgctxt "@option:check"
 msgid "Private fields"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:635
+#: xxport/vcard/vcard_xxport.cpp:634
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@info:tooltip"
 msgid "Export private fields"
 msgstr "একটি ফাইল-এ রপ্তানি করো"
 
-#: xxport/vcard/vcard_xxport.cpp:638
+#: xxport/vcard/vcard_xxport.cpp:637
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's private fields to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:642
+#: xxport/vcard/vcard_xxport.cpp:641
 #, fuzzy
 #| msgid "Business"
 msgctxt "@option:check"
 msgid "Business fields"
 msgstr "ব্যবসায়িক"
 
-#: xxport/vcard/vcard_xxport.cpp:644
+#: xxport/vcard/vcard_xxport.cpp:643
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@info:tooltip"
 msgid "Export business fields"
 msgstr "একটি ফাইল-এ রপ্তানি করো"
 
-#: xxport/vcard/vcard_xxport.cpp:647
+#: xxport/vcard/vcard_xxport.cpp:646
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's business fields to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:651
+#: xxport/vcard/vcard_xxport.cpp:650
 #, fuzzy
 #| msgid "Netherlands"
 msgctxt "@option:check"
 msgid "Other fields"
 msgstr "নেদারল্যাণ্ড"
 
-#: xxport/vcard/vcard_xxport.cpp:653
+#: xxport/vcard/vcard_xxport.cpp:652
 #, fuzzy
 #| msgid "Export to phone finished."
 msgctxt "@info:tooltip"
 msgid "Export other fields"
 msgstr "মোবাইল ফোনে রপ্তানি করা সম্পন্ন।"
 
-#: xxport/vcard/vcard_xxport.cpp:656
+#: xxport/vcard/vcard_xxport.cpp:655
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's other fields to the vCard "
 "output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:660
+#: xxport/vcard/vcard_xxport.cpp:659
 #, fuzzy
 #| msgid "Encrypt:"
 msgctxt "@option:check"
 msgid "Encryption keys"
 msgstr "এনক্রিপ্ট:"
 
-#: xxport/vcard/vcard_xxport.cpp:662
+#: xxport/vcard/vcard_xxport.cpp:661
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@info:tooltip"
 msgid "Export encryption keys"
 msgstr "একটি ফাইল-এ রপ্তানি করো"
 
-#: xxport/vcard/vcard_xxport.cpp:665
+#: xxport/vcard/vcard_xxport.cpp:664
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's encryption keys to the "
 "vCard output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:669
+#: xxport/vcard/vcard_xxport.cpp:668
 #, fuzzy
 #| msgid "Picture"
 msgctxt "@option:check"
 msgid "Pictures"
 msgstr "ছবি"
 
-#: xxport/vcard/vcard_xxport.cpp:671
+#: xxport/vcard/vcard_xxport.cpp:670
 #, fuzzy
 #| msgid "Picture"
 msgctxt "@info:tooltip"
 msgid "Export pictures"
 msgstr "ছবি"
 
-#: xxport/vcard/vcard_xxport.cpp:674
+#: xxport/vcard/vcard_xxport.cpp:673
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's picture to the vCard "
 "output file."
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:679
+#: xxport/vcard/vcard_xxport.cpp:678
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@title:group"
 msgid "Export options"
 msgstr "একটি ফাইল-এ রপ্তানি করো"
 
-#: xxport/vcard/vcard_xxport.cpp:683
+#: xxport/vcard/vcard_xxport.cpp:682
 msgctxt "@option:check"
 msgid "Display name as full name"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:685
+#: xxport/vcard/vcard_xxport.cpp:684
 msgctxt "@info:tooltip"
 msgid "Export display name as full name"
 msgstr ""
 
-#: xxport/vcard/vcard_xxport.cpp:688
+#: xxport/vcard/vcard_xxport.cpp:687
 msgctxt "@info:whatsthis"
 msgid ""
 "Check this box if you want to export the contact's display name in the "
@@ -2556,11 +2569,6 @@ msgstr ""
 #~ msgstr "মার্জি&ন:"
 
 #, fuzzy
-#~| msgid "Latin1"
-#~ msgid "Location"
-#~ msgstr "লাতিন-১"
-
-#, fuzzy
 #~| msgid "Addresses:"
 #~ msgid "Addresses"
 #~ msgstr "ঠিকানা:"
@@ -2932,9 +2940,6 @@ msgstr ""
 #~ msgctxt "@action:intoolbar Create new contact"
 #~ msgid "New"
 #~ msgstr "নতুন..."
-
-#~ msgid "Send &Contact..."
-#~ msgstr "&পরিচয় পাঠাও..."
 
 #, fuzzy
 #~| msgid "New Distribution List"
