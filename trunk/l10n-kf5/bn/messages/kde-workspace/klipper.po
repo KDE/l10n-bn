@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-07-04 08:25+0000\n"
+"POT-Creation-Date: 2014-08-06 07:57+0000\n"
 "PO-Revision-Date: 2010-06-01 11:22-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -23,71 +23,6 @@ msgstr "দীপায়ন সরকার"
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ReplayActionInHistory)
-#: actionsconfig.ui:17
-#, fuzzy
-#| msgid "&Replay actions on an item selected from history"
-msgid "Replay actions on an item selected from history"
-msgstr "ইতিবৃত্ত থেকে নির্বাচিত একটি বস্তুর উপর প্রক্রিয়া &আবার চালাও"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_StripWhiteSpace)
-#: actionsconfig.ui:24
-msgid "Remove whitespace when executing actions"
-msgstr "কোন প্রক্রিয়া চালানোর আগে ওয়াইট-স্পেস সরিয়ে ফেলো"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_EnableMagicMimeActions)
-#. i18n: ectx: label, entry (EnableMagicMimeActions), group (Actions)
-#: actionsconfig.ui:31 klipper.kcfg:84
-msgid "Enable MIME-based actions"
-msgstr "মাইম-ভিত্তিক প্রক্রিয়া সক্রিয় করো "
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: actionsconfig.ui:38
-msgid "Action list:"
-msgstr "প্রক্রিয়া তালিকা:"
-
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:49
-msgid "Regular Expression"
-msgstr "রেগুলার এক্সপ্রেশন"
-
-#. i18n: ectx: property (text), widget (ActionsTreeWidget, kcfg_ActionList)
-#: actionsconfig.ui:54 editactiondialog.cpp:227
-msgid "Description"
-msgstr "বর্ণনা"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbAddAction)
-#: actionsconfig.ui:64
-msgid "Add Action..."
-msgstr "প্রক্রিয়া যোগ করো..."
-
-#. i18n: ectx: property (text), widget (QPushButton, pbEditAction)
-#: actionsconfig.ui:71
-msgid "Edit Action..."
-msgstr "প্রক্রিয়া সম্পাদনা করো"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbDelAction)
-#: actionsconfig.ui:78
-msgid "Delete Action"
-msgstr "প্রক্রিয়া মুছে ফেলো"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbAdvanced)
-#: actionsconfig.ui:85
-#, fuzzy
-#| msgid "Advanced"
-msgid "Advanced..."
-msgstr "অগ্রসর"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: actionsconfig.ui:94
-#, no-c-format
-msgid ""
-"Click on a highlighted item's column to change it. \"%s\" in a command will "
-"be replaced with the clipboard contents.<br>For more information about "
-"regular expressions, you could have a look at the <a href=\"http://en."
-"wikipedia.org/wiki/Regular_expression\">Wikipedia entry about this topic</a>."
-msgstr ""
 
 #: configdialog.cpp:37
 msgid " second"
@@ -173,6 +108,10 @@ msgstr "কমাণ্ড"
 msgid "Output Handling"
 msgstr ""
 
+#: editactiondialog.cpp:227
+msgid "Description"
+msgstr "বর্ণনা"
+
 #: editactiondialog.cpp:267
 msgid "Action Properties"
 msgstr ""
@@ -184,95 +123,6 @@ msgstr "নতুন কমাণ্ড"
 #: editactiondialog.cpp:374
 msgid "Command Description"
 msgstr "কমাণ্ড-এর বর্ণনা"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: editactiondialog.ui:20
-msgid "Action properties:"
-msgstr "প্রক্রিয়ার বৈশিষ্ট্যাবলী:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: editactiondialog.ui:42
-msgid "Regular expression:"
-msgstr "রেগুলার এক্সপ্রেশন:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: editactiondialog.ui:52
-msgid "Description:"
-msgstr "বর্ণনা"
-
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: editactiondialog.ui:62
-msgid "Automatic:"
-msgstr "স্বয়ংক্রিয়:"
-
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: editactiondialog.ui:87
-msgid "List of commands for this action:"
-msgstr "এই প্রক্রিয়ার জন্য কমাণ্ডের তালিকা:"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbAddCommand)
-#: editactiondialog.ui:144
-msgid "Add Command"
-msgstr "কমাণ্ড যোগ করো"
-
-#. i18n: ectx: property (text), widget (QPushButton, pbRemoveCommand)
-#: editactiondialog.ui:151
-msgid "Remove Command"
-msgstr "কমাণ্ড বাদ দাও"
-
-#. i18n: ectx: property (toolTip), widget (QTableView, twCommandList)
-#: editactiondialog.ui:176
-msgid "Double-click an item to edit"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_KeepClipboardContents)
-#: generalconfig.ui:17
-msgid "Save clipboard contents on exit"
-msgstr "প্রস্থানকালে ক্লিপবোর্ড-এর বিষয়বস্তু সংরক্ষণ করো"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PreventEmptyClipboard)
-#. i18n: ectx: label, entry (PreventEmptyClipboard), group (General)
-#: generalconfig.ui:24 klipper.kcfg:16
-msgid "Prevent empty clipboard"
-msgstr "ক্লিপবোর্ড ফাঁকা হতে দিও না"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreImages)
-#. i18n: ectx: label, entry (IgnoreImages), group (General)
-#: generalconfig.ui:31 klipper.kcfg:21
-msgid "Ignore images"
-msgstr "ছবি অগ্রাহ্য করো"
-
-#. i18n: ectx: property (title), widget (QGroupBox, selection_group)
-#: generalconfig.ui:38
-msgid "Selection and Clipboard"
-msgstr "নির্বাচন এবং ক্লিপবোর্ড"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_IgnoreSelection)
-#: generalconfig.ui:44
-msgid "Ignore selection"
-msgstr "নির্বাচন অগ্রাহ্য করো"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SelectionTextOnly)
-#: generalconfig.ui:51
-msgid "Text selection only"
-msgstr "শুধুমাত্র লেখা নির্বাচন"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SyncClipboards)
-#: generalconfig.ui:58
-#, fuzzy
-#| msgid "Sy&nchronize contents of the clipboard and the selection"
-msgid "Synchronize contents of the clipboard and the selection"
-msgstr "ক্লিপবোর্ড-এর বিষয়বস্তু এবং নির্বাচন সা&মঞ্জস্যে আনো"
-
-#. i18n: ectx: property (text), widget (QLabel, timeout_label)
-#: generalconfig.ui:68
-msgid "Timeout for action popups:"
-msgstr "প্রক্রিয়া পপ-আপ-এর জন্য টাইম-আউট:"
-
-#. i18n: ectx: property (text), widget (QLabel, history_size_label)
-#: generalconfig.ui:82
-msgid "Clipboard history size:"
-msgstr "ক্লিপবোর্ড ইতিহাসের আয়তন:"
 
 #: klipper.cpp:117
 #, fuzzy
@@ -374,127 +224,6 @@ msgstr "বর্তমান"
 #: klipper.cpp:972
 msgid "down"
 msgstr "নীচ"
-
-#. i18n: ectx: label, entry (Version), group (General)
-#: klipper.kcfg:9
-msgid "Klipper version"
-msgstr "ক্লিপার সংস্করণ"
-
-#. i18n: ectx: label, entry (KeepClipboardContents), group (General)
-#: klipper.kcfg:12
-msgid "Keep clipboard contents"
-msgstr "ক্লিপবোর্ড-এর বিষয়বস্তু রেখে দাও"
-
-#. i18n: ectx: whatsthis, entry (PreventEmptyClipboard), group (General)
-#: klipper.kcfg:18
-msgid ""
-"Selecting this option has the effect, that the clipboard can never be "
-"emptied. E.g. when an application exits, the clipboard would usually be "
-"emptied."
-msgstr ""
-
-#. i18n: ectx: label, entry (IgnoreSelection), group (General)
-#: klipper.kcfg:25
-msgid "Ignore Selection"
-msgstr "নির্বাচন অগ্রাহ্য করো"
-
-#. i18n: ectx: whatsthis, entry (IgnoreSelection), group (General)
-#: klipper.kcfg:27
-msgid ""
-"<qt>When an area of the screen is selected with mouse or keyboard, this is "
-"called \"the selection\".<br/>If this option is set, the selection is not "
-"entered into the clipboard history, though it is still available for pasting "
-"using the middle mouse button.</qt>"
-msgstr ""
-
-#. i18n: ectx: label, entry (SyncClipboards), group (General)
-#: klipper.kcfg:34
-msgid "Synchronize clipboard and selection"
-msgstr "ক্লিপবোর্ড এবং নির্বাচন এক করো"
-
-#. i18n: ectx: whatsthis, entry (SyncClipboards), group (General)
-#: klipper.kcfg:36
-msgid ""
-"<qt>When an area of the screen is selected with mouse or keyboard, this is "
-"called \"the selection\".<br/>If this option is selected, the selection and "
-"the clipboard is kept the same, so that anything in the selection is "
-"immediately available for pasting elsewhere using any method, including the "
-"traditional middle mouse button. Otherwise, the selection is recorded in the "
-"clipboard history, but the selection can only be pasted using the middle "
-"mouse button. Also see the 'Ignore Selection' option.</qt>"
-msgstr ""
-
-#. i18n: ectx: label, entry (SelectionTextOnly), group (General)
-#: klipper.kcfg:39
-msgid "Selection text only"
-msgstr "শুধু লেখা"
-
-#. i18n: ectx: whatsthis, entry (SelectionTextOnly), group (General)
-#: klipper.kcfg:41
-msgid ""
-"<qt>When an area of the screen is selected with mouse or keyboard, this is "
-"called \"the selection\".<br/>If this option is selected, only text "
-"selections are stored in the history, while images and other selections are "
-"not.</qt>"
-msgstr ""
-
-#. i18n: ectx: label, entry (UseGUIRegExpEditor), group (General)
-#: klipper.kcfg:44
-msgid "Use graphical regexp editor"
-msgstr ""
-
-#. i18n: ectx: label, entry (URLGrabberEnabled), group (General)
-#: klipper.kcfg:48
-msgid "URL grabber enabled"
-msgstr ""
-
-#. i18n: ectx: label, entry (NoActionsForWM_CLASS), group (General)
-#: klipper.kcfg:53
-msgid "No actions for WM_CLASS"
-msgstr ""
-
-#. i18n: ectx: label, entry (TimeoutForActionPopups), group (General)
-#: klipper.kcfg:56
-#, fuzzy
-#| msgid "Tim&eout for action popups:"
-msgid "Timeout for action popups (seconds)"
-msgstr "প্রক্রিয়া পপ-আপ-এর জন্য টাই&ম-আউট:"
-
-#. i18n: ectx: tooltip, entry (TimeoutForActionPopups), group (General)
-#: klipper.kcfg:60
-msgid "A value of 0 disables the timeout"
-msgstr " মান -র টি টাইম-আউট"
-
-#. i18n: ectx: label, entry (MaxClipItems), group (General)
-#: klipper.kcfg:63
-msgid "Clipboard history size"
-msgstr "ক্লিপবোর্ড ইতিহাসের আয়তন"
-
-#. i18n: ectx: label, entry (ActionList), group (General)
-#: klipper.kcfg:69
-msgid "Dummy entry for indicating changes in an action's tree widget"
-msgstr ""
-
-#. i18n: ectx: label, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:75
-msgid "Strip whitespace when executing an action"
-msgstr "কোন প্রক্রিয়া চালানোর আগে ওয়াইট-স্পেস সরিয়ে ফেলো"
-
-#. i18n: ectx: whatsthis, entry (StripWhiteSpace), group (Actions)
-#: klipper.kcfg:77
-msgid ""
-"Sometimes, the selected text has some whitespace at the end, which, if "
-"loaded as URL in a browser would cause an error. Enabling this option "
-"removes any whitespace at the beginning or end of the selected string (the "
-"original clipboard contents will not be modified)."
-msgstr ""
-
-#. i18n: ectx: label, entry (ReplayActionInHistory), group (Actions)
-#: klipper.kcfg:80
-#, fuzzy
-#| msgid "&Replay actions on an item selected from history"
-msgid "Replay action in history"
-msgstr "ইতিবৃত্ত থেকে নির্বাচিত একটি বস্তুর উপর প্রক্রিয়া &আবার চালাও"
 
 #: klipperpopup.cpp:70
 msgid "<empty clipboard>"
@@ -609,6 +338,121 @@ msgstr "এই পপ-আপটি নিষ্ক্রিয় করো"
 #: urlgrabber.cpp:253
 msgid "&Cancel"
 msgstr "বাতি&ল করো"
+
+#, fuzzy
+#~| msgid "&Replay actions on an item selected from history"
+#~ msgid "Replay actions on an item selected from history"
+#~ msgstr "ইতিবৃত্ত থেকে নির্বাচিত একটি বস্তুর উপর প্রক্রিয়া &আবার চালাও"
+
+#~ msgid "Remove whitespace when executing actions"
+#~ msgstr "কোন প্রক্রিয়া চালানোর আগে ওয়াইট-স্পেস সরিয়ে ফেলো"
+
+#~ msgid "Enable MIME-based actions"
+#~ msgstr "মাইম-ভিত্তিক প্রক্রিয়া সক্রিয় করো "
+
+#~ msgid "Action list:"
+#~ msgstr "প্রক্রিয়া তালিকা:"
+
+#~ msgid "Regular Expression"
+#~ msgstr "রেগুলার এক্সপ্রেশন"
+
+#~ msgid "Add Action..."
+#~ msgstr "প্রক্রিয়া যোগ করো..."
+
+#~ msgid "Edit Action..."
+#~ msgstr "প্রক্রিয়া সম্পাদনা করো"
+
+#~ msgid "Delete Action"
+#~ msgstr "প্রক্রিয়া মুছে ফেলো"
+
+#, fuzzy
+#~| msgid "Advanced"
+#~ msgid "Advanced..."
+#~ msgstr "অগ্রসর"
+
+#~ msgid "Action properties:"
+#~ msgstr "প্রক্রিয়ার বৈশিষ্ট্যাবলী:"
+
+#~ msgid "Regular expression:"
+#~ msgstr "রেগুলার এক্সপ্রেশন:"
+
+#~ msgid "Description:"
+#~ msgstr "বর্ণনা"
+
+#~ msgid "Automatic:"
+#~ msgstr "স্বয়ংক্রিয়:"
+
+#~ msgid "List of commands for this action:"
+#~ msgstr "এই প্রক্রিয়ার জন্য কমাণ্ডের তালিকা:"
+
+#~ msgid "Add Command"
+#~ msgstr "কমাণ্ড যোগ করো"
+
+#~ msgid "Remove Command"
+#~ msgstr "কমাণ্ড বাদ দাও"
+
+#~ msgid "Save clipboard contents on exit"
+#~ msgstr "প্রস্থানকালে ক্লিপবোর্ড-এর বিষয়বস্তু সংরক্ষণ করো"
+
+#~ msgid "Prevent empty clipboard"
+#~ msgstr "ক্লিপবোর্ড ফাঁকা হতে দিও না"
+
+#~ msgid "Ignore images"
+#~ msgstr "ছবি অগ্রাহ্য করো"
+
+#~ msgid "Selection and Clipboard"
+#~ msgstr "নির্বাচন এবং ক্লিপবোর্ড"
+
+#~ msgid "Ignore selection"
+#~ msgstr "নির্বাচন অগ্রাহ্য করো"
+
+#~ msgid "Text selection only"
+#~ msgstr "শুধুমাত্র লেখা নির্বাচন"
+
+#, fuzzy
+#~| msgid "Sy&nchronize contents of the clipboard and the selection"
+#~ msgid "Synchronize contents of the clipboard and the selection"
+#~ msgstr "ক্লিপবোর্ড-এর বিষয়বস্তু এবং নির্বাচন সা&মঞ্জস্যে আনো"
+
+#~ msgid "Timeout for action popups:"
+#~ msgstr "প্রক্রিয়া পপ-আপ-এর জন্য টাইম-আউট:"
+
+#~ msgid "Clipboard history size:"
+#~ msgstr "ক্লিপবোর্ড ইতিহাসের আয়তন:"
+
+#~ msgid "Klipper version"
+#~ msgstr "ক্লিপার সংস্করণ"
+
+#~ msgid "Keep clipboard contents"
+#~ msgstr "ক্লিপবোর্ড-এর বিষয়বস্তু রেখে দাও"
+
+#~ msgid "Ignore Selection"
+#~ msgstr "নির্বাচন অগ্রাহ্য করো"
+
+#~ msgid "Synchronize clipboard and selection"
+#~ msgstr "ক্লিপবোর্ড এবং নির্বাচন এক করো"
+
+#~ msgid "Selection text only"
+#~ msgstr "শুধু লেখা"
+
+#, fuzzy
+#~| msgid "Tim&eout for action popups:"
+#~ msgid "Timeout for action popups (seconds)"
+#~ msgstr "প্রক্রিয়া পপ-আপ-এর জন্য টাই&ম-আউট:"
+
+#~ msgid "A value of 0 disables the timeout"
+#~ msgstr " মান -র টি টাইম-আউট"
+
+#~ msgid "Clipboard history size"
+#~ msgstr "ক্লিপবোর্ড ইতিহাসের আয়তন"
+
+#~ msgid "Strip whitespace when executing an action"
+#~ msgstr "কোন প্রক্রিয়া চালানোর আগে ওয়াইট-স্পেস সরিয়ে ফেলো"
+
+#, fuzzy
+#~| msgid "&Replay actions on an item selected from history"
+#~ msgid "Replay action in history"
+#~ msgstr "ইতিবৃত্ত থেকে নির্বাচিত একটি বস্তুর উপর প্রক্রিয়া &আবার চালাও"
 
 #, fuzzy
 #~| msgid "Enable/Disable Clipboard Actions"
