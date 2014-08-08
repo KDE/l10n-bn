@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 07:59+0000\n"
+"POT-Creation-Date: 2014-08-08 08:34+0000\n"
 "PO-Revision-Date: 2012-07-16 14:27+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -282,12 +282,95 @@ msgstr "সব সরবরাহকারী"
 msgid "All Categories"
 msgstr "সব গোত্র"
 
+#. i18n: ectx: property (text), widget (QLabel, label_9)
+#. i18n: ectx: property (text), widget (QLabel, m_providerLabel)
+#: downloadwidget.ui:54 uploaddialog.ui:127
+msgid "Provider:"
+msgstr "সরবরাহকারী:"
+
+#. i18n: ectx: property (text), widget (QLabel, mCategoryLabel)
+#. i18n: ectx: property (text), widget (QLabel, m_categoryLabel)
+#: downloadwidget.ui:71 uploaddialog.ui:304
+msgid "Category:"
+msgstr "গোত্র:"
+
+#. i18n: ectx: property (text), widget (QRadioButton, newestRadio)
+#: downloadwidget.ui:90
+msgid "Newest"
+msgstr "সবচেয়ে নতুন"
+
+#. i18n: ectx: property (text), widget (QRadioButton, ratingRadio)
+#: downloadwidget.ui:103
+msgid "Rating"
+msgstr "রেটিং"
+
+#. i18n: ectx: property (text), widget (QRadioButton, mostDownloadsRadio)
+#: downloadwidget.ui:110
+msgid "Most downloads"
+msgstr "সর্বাধিক ডাউনলোড"
+
+#. i18n: ectx: property (text), widget (QRadioButton, installedRadio)
+#: downloadwidget.ui:117
+msgid "Installed"
+msgstr "ইনস্টল করা"
+
+#. i18n: ectx: property (text), widget (QLabel, orderLabel)
+#: downloadwidget.ui:175
+msgid "Order by:"
+msgstr "এই ক্রমে সাজাও:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: downloadwidget.ui:185
+msgid "Search:"
+msgstr "সন্ধান করো:"
+
+#. i18n: ectx: property (placeholderText), widget (KLineEdit, m_searchEdit)
+#: downloadwidget.ui:211
+msgid "Enter search phrase here"
+msgstr "এখানে সন্ধান পংক্তি লিখুন"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: downloadwidget.ui:366
+msgid "Author:"
+msgstr "লেখক:"
+
+#. i18n: ectx: property (text), widget (QLabel, homepageLabel)
+#: downloadwidget.ui:391
+msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
+msgstr "<a href=\"http://opendesktop.org\">হোম পেজ</a>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, radioUpdate)
+#. i18n: ectx: property (text), widget (QPushButton, updateButton)
+#: downloadwidget.ui:567 ui/itemsgridviewdelegate.cpp:329
+#: ui/itemsviewdelegate.cpp:123 uploaddialog.ui:171
+msgid "Update"
+msgstr "আপডেট"
+
+#. i18n: ectx: property (text), widget (QPushButton, uninstallButton)
+#: downloadwidget.ui:577 ui/itemsgridviewdelegate.cpp:325
+#: ui/itemsviewdelegate.cpp:119
+msgid "Uninstall"
+msgstr "আন-ইনস্টল করো"
+
+#. i18n: ectx: property (text), widget (QPushButton, becomeFanButton)
+#: downloadwidget.ui:584
+msgid "Become a Fan"
+msgstr "ফ্যান হও"
+
+#. i18n: ectx: property (text), widget (QPushButton, installButton)
+#: downloadwidget.ui:591 ui/itemsgridviewdelegate.cpp:344
+#: ui/itemsgridviewdelegate.cpp:354 ui/itemsviewdelegate.cpp:138
+#: ui/itemsviewdelegate.cpp:148
+msgid "Install"
+msgstr "ইনস্টল"
+
 #: ui/entrydetailsdialog.cpp:91
 #, kde-format
 msgid "Details for %1"
 msgstr "%1-এর বিস্তারিত বিবরণ"
 
-#: ui/entrydetailsdialog.cpp:105
+#. i18n: ectx: property (text), widget (QLabel, priceLabel_2)
+#: ui/entrydetailsdialog.cpp:105 uploaddialog.ui:230
 msgid "Changelog:"
 msgstr "চেঞ্জ-লগ:"
 
@@ -352,22 +435,9 @@ msgstr "প্রাকদর্শন লোড করা হচ্ছে"
 msgid "Details"
 msgstr "বিস্তারিত বিবরণ"
 
-#: ui/itemsgridviewdelegate.cpp:325 ui/itemsviewdelegate.cpp:119
-msgid "Uninstall"
-msgstr "আন-ইনস্টল করো"
-
-#: ui/itemsgridviewdelegate.cpp:329 ui/itemsviewdelegate.cpp:123
-msgid "Update"
-msgstr "আপডেট"
-
 #: ui/itemsgridviewdelegate.cpp:339 ui/itemsviewdelegate.cpp:133
 msgid "Updating"
 msgstr "আপডেট করা হচ্ছে"
-
-#: ui/itemsgridviewdelegate.cpp:344 ui/itemsgridviewdelegate.cpp:354
-#: ui/itemsviewdelegate.cpp:138 ui/itemsviewdelegate.cpp:148
-msgid "Install"
-msgstr "ইনস্টল"
 
 #: ui/itemsgridviewdelegate.cpp:349 ui/itemsviewdelegate.cpp:143
 msgid "Install Again"
@@ -420,7 +490,8 @@ msgctxt "A link to the website where the get hot new stuff upload can be seen"
 msgid "Visit website"
 msgstr "ওয়েবসাইট-এ যান"
 
-#: uploaddialog.cpp:441
+#. i18n: ectx: property (windowTitle), widget (QWidget, UploadDialog)
+#: uploaddialog.cpp:441 uploaddialog.ui:14
 msgid "Share Hot New Stuff"
 msgstr "তাজা নতুন জিনিসপত্রের কথা অন্যদের জানান"
 
@@ -480,128 +551,160 @@ msgstr "সত্যতা যাচাইয়ে সমস্যা।"
 msgid "Upload failed: %1"
 msgstr "আপলোড ব্যর্থ: %1"
 
-#~ msgid "Provider:"
-#~ msgstr "সরবরাহকারী:"
+#. i18n: ectx: property (text), widget (QLabel, label_11)
+#: uploaddialog.ui:89
+msgid "Password:"
+msgstr "পাসওয়ার্ড:"
 
-#~ msgid "Category:"
-#~ msgstr "গোত্র:"
+#. i18n: ectx: property (text), widget (QLabel, label_10)
+#: uploaddialog.ui:105
+msgid "Username:"
+msgstr "ব্যবহারকারী:"
 
-#~ msgid "Newest"
-#~ msgstr "সবচেয়ে নতুন"
+#. i18n: ectx: property (text), widget (QLabel, uploadFileLabel)
+#: uploaddialog.ui:148
+msgid "File to upload:"
+msgstr "যে ফাইল আপলোড করা হবে:"
 
-#~ msgid "Rating"
-#~ msgstr "রেটিং"
+#. i18n: ectx: property (text), widget (QRadioButton, radioNewUpload)
+#: uploaddialog.ui:158
+msgid "New Upload"
+msgstr "নতুন আপলোড"
 
-#~ msgid "Most downloads"
-#~ msgstr "সর্বাধিক ডাউনলোড"
+#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
+#: uploaddialog.ui:196
+msgid "GPL"
+msgstr "জি-পি-এল"
 
-#~ msgid "Installed"
-#~ msgstr "ইনস্টল করা"
+#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
+#: uploaddialog.ui:201
+msgid "LGPL"
+msgstr "এল-জি-পি-এল"
 
-#~ msgid "Order by:"
-#~ msgstr "এই ক্রমে সাজাও:"
+#. i18n: ectx: property (text), item, widget (KComboBox, mLicenseCombo)
+#: uploaddialog.ui:206
+msgid "BSD"
+msgstr "বি-এস-ডি"
 
-#~ msgid "Search:"
-#~ msgstr "সন্ধান করো:"
+#. i18n: ectx: property (text), widget (QLabel, label_8)
+#: uploaddialog.ui:214
+msgid "Description:"
+msgstr "বর্ণনা:"
 
-#~ msgid "Enter search phrase here"
-#~ msgstr "এখানে সন্ধান পংক্তি লিখুন"
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: uploaddialog.ui:240
+msgid "Version:"
+msgstr "সংস্করণ:"
 
-#~ msgid "Author:"
-#~ msgstr "লেখক:"
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: uploaddialog.ui:253
+msgid "License:"
+msgstr "লাইসেন্স:"
 
-#~ msgid "<a href=\"http://opendesktop.org\">Homepage</a>"
-#~ msgstr "<a href=\"http://opendesktop.org\">হোম পেজ</a>"
+#. i18n: ectx: property (text), widget (QLabel, label_12)
+#: uploaddialog.ui:266
+msgid "Please fill out the information about your upload in English."
+msgstr "অনুগ্রহ করে ইংরিজিতে আপনার আপলোড সম্বন্ধে কিছু তথ্য দিন।"
 
-#~ msgid "Become a Fan"
-#~ msgstr "ফ্যান হও"
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: uploaddialog.ui:282
+msgid "Title:"
+msgstr "শিরোনাম:"
 
-#~ msgid "Password:"
-#~ msgstr "পাসওয়ার্ড:"
+#. i18n: ectx: property (toolTip), widget (QLineEdit, mNameEdit)
+#: uploaddialog.ui:317
+msgid "Name of the file as it will appear on the website"
+msgstr "ওয়েবসাইট-এ ফাইলটি যে নামে প্রদর্শিত হবে"
 
-#~ msgid "Username:"
-#~ msgstr "ব্যবহারকারী:"
+#. i18n: ectx: property (whatsThis), widget (QLineEdit, mNameEdit)
+#: uploaddialog.ui:320
+msgid ""
+"This should clearly describe the file content. It can be the same text as "
+"the title of the kvtml file."
+msgstr ""
 
-#~ msgid "File to upload:"
-#~ msgstr "যে ফাইল আপলোড করা হবে:"
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
+#: uploaddialog.ui:334
+msgid "Preview Images"
+msgstr "ছবির প্রাকদর্শন দেখাও"
 
-#~ msgid "New Upload"
-#~ msgstr "নতুন আপলোড"
+#. i18n: ectx: property (text), widget (QPushButton, changePreview1Button)
+#. i18n: ectx: property (text), widget (QPushButton, changePreview3Button)
+#. i18n: ectx: property (text), widget (QPushButton, changePreview2Button)
+#: uploaddialog.ui:343 uploaddialog.ui:350 uploaddialog.ui:357
+msgid "Select Preview..."
+msgstr "প্রাকদর্শন নির্বাচন করুন..."
 
-#~ msgid "GPL"
-#~ msgstr "জি-পি-এল"
+#. i18n: ectx: property (text), widget (QCheckBox, priceCheckBox)
+#: uploaddialog.ui:433
+msgid "Set a price for this item"
+msgstr "এই বস্তুটির জন্য মূল্য নির্ধারণ করুন"
 
-#~ msgid "LGPL"
-#~ msgstr "এল-জি-পি-এল"
+#. i18n: ectx: property (title), widget (QGroupBox, priceGroupBox)
+#: uploaddialog.ui:443
+msgid "Price"
+msgstr "দাম"
 
-#~ msgid "BSD"
-#~ msgstr "বি-এস-ডি"
+#. i18n: ectx: property (text), widget (QLabel, priceLabel)
+#: uploaddialog.ui:452
+msgid "Price:"
+msgstr "দাম:"
 
-#~ msgid "Description:"
-#~ msgstr "বর্ণনা:"
+#. i18n: ectx: property (text), widget (QLabel, priceReasonLabel)
+#: uploaddialog.ui:479
+msgid "Reason for price:"
+msgstr "দামের কারণ:"
 
-#~ msgid "Version:"
-#~ msgstr "সংস্করণ:"
+#. i18n: ectx: property (text), widget (QLabel, contentWebsiteLinkLabel)
+#: uploaddialog.ui:596
+msgid "Fetch content link from server"
+msgstr "সার্ভার থেকে বিষয়বস্তুর লিঙ্ক আনো"
 
-#~ msgid "License:"
-#~ msgstr "লাইসেন্স:"
+#. i18n: ectx: property (text), widget (QLabel, creatingContentLabel)
+#: uploaddialog.ui:609
+msgid "Create content on server"
+msgstr "সার্ভার-এ বিষয়বস্তু তৈরী করো"
 
-#~ msgid "Please fill out the information about your upload in English."
-#~ msgstr "অনুগ্রহ করে ইংরিজিতে আপনার আপলোড সম্বন্ধে কিছু তথ্য দিন।"
+#. i18n: ectx: property (text), widget (QLabel, creatingContentLabel_2)
+#: uploaddialog.ui:622
+msgid "Upload content"
+msgstr "বিষয়বস্তু আপলোড করো"
 
-#~ msgid "Title:"
-#~ msgstr "শিরোনাম:"
+#. i18n: ectx: property (text), widget (QLabel, uploadPreview1Label)
+#: uploaddialog.ui:635
+msgid "Upload first preview"
+msgstr "প্রথম প্রাকদর্শন আপলোড করো"
 
-#~ msgid "Name of the file as it will appear on the website"
-#~ msgstr "ওয়েবসাইট-এ ফাইলটি যে নামে প্রদর্শিত হবে"
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: uploaddialog.ui:665
+msgid "Note: You can edit, update and delete your content on the website."
+msgstr ""
 
-#~ msgid "Preview Images"
-#~ msgstr "ছবির প্রাকদর্শন দেখাও"
+#. i18n: ectx: property (text), widget (QLabel, uploadPreview2Label)
+#: uploaddialog.ui:681
+msgid "Upload second preview"
+msgstr "দ্বিতীয় প্রাকদর্শন আপলোড করো"
 
-#~ msgid "Select Preview..."
-#~ msgstr "প্রাকদর্শন নির্বাচন করুন..."
+#. i18n: ectx: property (text), widget (QLabel, uploadPreview3Label)
+#: uploaddialog.ui:694
+msgid "Upload third preview"
+msgstr "তৃতীয় প্রাকদর্শন আপলোড করো"
 
-#~ msgid "Set a price for this item"
-#~ msgstr "এই বস্তুটির জন্য মূল্য নির্ধারণ করুন"
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: uploaddialog.ui:739
+msgid ""
+"I ensure that this content does not violate any existing copyright, law or "
+"trademark. I agree for my IP address to be logged. (Distributing content "
+"without the permission of the copyright holder is illegal.)"
+msgstr ""
+"আমি নিশ্চিত যে এই বিষয়বস্তু কোন কপিরাইট, আইন, অথবা ট্রেডমার্ক অমান্য করে না। আমি "
+"আমার আই.পি. অ্যাড্রেস সংরক্ষণ করার জন্য সম্মতি দিচ্ছি। (কপিরাইট ধারকের অনুমতি ব্যতীত "
+"কোন বস্তু বন্টন করা বে-আইনী।)"
 
-#~ msgid "Price"
-#~ msgstr "দাম"
-
-#~ msgid "Price:"
-#~ msgstr "দাম:"
-
-#~ msgid "Reason for price:"
-#~ msgstr "দামের কারণ:"
-
-#~ msgid "Fetch content link from server"
-#~ msgstr "সার্ভার থেকে বিষয়বস্তুর লিঙ্ক আনো"
-
-#~ msgid "Create content on server"
-#~ msgstr "সার্ভার-এ বিষয়বস্তু তৈরী করো"
-
-#~ msgid "Upload content"
-#~ msgstr "বিষয়বস্তু আপলোড করো"
-
-#~ msgid "Upload first preview"
-#~ msgstr "প্রথম প্রাকদর্শন আপলোড করো"
-
-#~ msgid "Upload second preview"
-#~ msgstr "দ্বিতীয় প্রাকদর্শন আপলোড করো"
-
-#~ msgid "Upload third preview"
-#~ msgstr "তৃতীয় প্রাকদর্শন আপলোড করো"
-
-#~ msgid ""
-#~ "I ensure that this content does not violate any existing copyright, law "
-#~ "or trademark. I agree for my IP address to be logged. (Distributing "
-#~ "content without the permission of the copyright holder is illegal.)"
-#~ msgstr ""
-#~ "আমি নিশ্চিত যে এই বিষয়বস্তু কোন কপিরাইট, আইন, অথবা ট্রেডমার্ক অমান্য করে না। "
-#~ "আমি আমার আই.পি. অ্যাড্রেস সংরক্ষণ করার জন্য সম্মতি দিচ্ছি। (কপিরাইট ধারকের "
-#~ "অনুমতি ব্যতীত কোন বস্তু বন্টন করা বে-আইনী।)"
-
-#~ msgid "Start Upload"
-#~ msgstr "আপলোড শুরু করো"
+#. i18n: ectx: property (text), widget (QPushButton, uploadButton)
+#: uploaddialog.ui:764
+msgid "Start Upload"
+msgstr "আপলোড শুরু করো"
 
 #~ msgctxt "NAME OF TRANSLATORS"
 #~ msgid "Your names"

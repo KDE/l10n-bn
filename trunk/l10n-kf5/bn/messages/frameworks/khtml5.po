@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 07:59+0000\n"
+"POT-Creation-Date: 2014-08-08 08:34+0000\n"
 "PO-Revision-Date: 2012-07-16 14:27+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -156,7 +156,9 @@ msgstr "Local Variables"
 msgid "Reference"
 msgstr "Reference"
 
-#: ecma/debugger/localvariabledock.cpp:52 java/kjavaappletviewer.cpp:150
+#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
+#: ecma/debugger/localvariabledock.cpp:52 htmlpageinfo.ui:219
+#: java/kjavaappletviewer.cpp:150
 msgid "Value"
 msgstr "মান"
 
@@ -345,6 +347,35 @@ msgstr "ডাউনলোড কোর না"
 msgid "This is a searchable index. Enter search keywords: "
 msgstr "এটি একটি সন্ধানযোগ্য সূচি। সন্ধান কী-ওয়ার্ড লিখুন:"
 
+#. i18n: ectx: property (text), widget (QLabel, TextLabel1)
+#: html/keygenwizard.ui:35
+msgid ""
+"You have indicated that you wish to obtain or purchase a secure certificate. "
+"This wizard is intended to guide you through the procedure. You may cancel "
+"at any time, and this will abort the transaction."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel4)
+#: html/keygenwizard2.ui:35
+msgid ""
+"You must now provide a password for the certificate request. Please choose a "
+"very secure password as this will be used to encrypt your private key."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel6)
+#: html/keygenwizard2.ui:48
+#, fuzzy
+#| msgid "&Keep password"
+msgid "&Repeat password:"
+msgstr "পাসওয়ার্ড রেখে দা&ও"
+
+#. i18n: ectx: property (text), widget (QLabel, TextLabel5)
+#: html/keygenwizard2.ui:58
+#, fuzzy
+#| msgid "&Keep password"
+msgid "&Choose password:"
+msgstr "পাসওয়ার্ড রেখে দা&ও"
+
 #: html/ksslkeygen.cpp:82
 #, fuzzy
 #| msgid "Details of the Request:"
@@ -414,6 +445,52 @@ msgstr ""
 #| msgid "Enable SOCKS support"
 msgid "No SSL support."
 msgstr "SOCKS সমর্থন সক্রিয় করো"
+
+#. i18n: ectx: property (windowTitle), widget (QDialog, KHTMLInfoDlg)
+#: htmlpageinfo.ui:22
+msgid "Document Information"
+msgstr "নথী সম্বন্ধিত তথ্য"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox2)
+#: htmlpageinfo.ui:34
+msgctxt "@title:group Document information"
+msgid "General"
+msgstr "সাধারণ"
+
+#. i18n: ectx: property (text), widget (QLabel, urlLabel)
+#: htmlpageinfo.ui:60
+msgid "URL:"
+msgstr "ইউ-আর-এল:"
+
+#. i18n: ectx: property (text), widget (QLabel, titleLabel)
+#: htmlpageinfo.ui:112
+msgid "Title:"
+msgstr "শিরোনাম:"
+
+#. i18n: ectx: property (text), widget (QLabel, _lmLabel)
+#: htmlpageinfo.ui:128
+msgid "Last modified:"
+msgstr "শেষ পরিবর্তন:"
+
+#. i18n: ectx: property (text), widget (QLabel, _eLabel)
+#: htmlpageinfo.ui:144
+msgid "Document encoding:"
+msgstr "ডকুমেন্ট এনকোডিং:"
+
+#. i18n: ectx: property (text), widget (QLabel, _modeLabel)
+#: htmlpageinfo.ui:167
+msgid "Rendering mode:"
+msgstr "Rendering mode:"
+
+#. i18n: ectx: property (title), widget (QGroupBox, groupBox1)
+#: htmlpageinfo.ui:186
+msgid "HTTP Headers"
+msgstr "এইচ-টি-টি-পি (HTTP) হেডার"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, _headers)
+#: htmlpageinfo.ui:214
+msgid "Property"
+msgstr "বৈশিষ্ট্য"
 
 #: java/kjavaapplet.cpp:227
 #, kde-format
@@ -504,6 +581,26 @@ msgstr "বেস ইউ-আর-এল"
 #: java/kjavaappletviewer.cpp:165
 msgid "Archives"
 msgstr "আর্কাইভ"
+
+#. i18n: ectx: Menu (edit)
+#: khtml.rc:4 khtml_browser.rc:11
+msgid "&Edit"
+msgstr "সম্পা&দনা"
+
+#. i18n: ectx: Menu (file)
+#: khtml_browser.rc:4
+msgid "&File"
+msgstr "ফা&ইল"
+
+#. i18n: ectx: Menu (view)
+#: khtml_browser.rc:18
+msgid "&View"
+msgstr "প্রদর্শ&ন"
+
+#. i18n: ectx: ToolBar (htmlToolBar)
+#: khtml_browser.rc:34
+msgid "HTML Toolbar"
+msgstr "এইচ-টি-এম-এল টুলবার"
 
 #: khtml_ext.cpp:413
 msgid "&Copy Text"
@@ -1241,6 +1338,39 @@ msgstr "হয়ে গেছে।"
 msgid "Access Keys activated"
 msgstr "সহায়ক কী (Key) সক্রিয় করা হয়েছে"
 
+#. i18n: ectx: property (windowTitle), widget (QDialog, KJSErrorDlgBase)
+#: kjserrordlgbase.ui:14
+msgid "JavaScript Errors"
+msgstr "জাভাস্ক্রিপ্ট সমস্যা"
+
+#. i18n: ectx: property (whatsThis), widget (QDialog, KJSErrorDlgBase)
+#: kjserrordlgbase.ui:17
+msgid ""
+"This dialog provides you with notification and details of scripting errors "
+"that occur on web pages.  In many cases it is due to an error in the web "
+"site as designed by its author.  In other cases it is the result of a "
+"programming error in Konqueror.  If you suspect the former, please contact "
+"the webmaster of the site in question.  Conversely if you suspect an error "
+"in Konqueror, please file a bug report at http://bugs.kde.org/.  A test case "
+"which illustrates the problem will be appreciated."
+msgstr ""
+"কোনো ওয়েব পেজে স্ক্রিপ্টিংজনিত সমস্যা ঘটলে এই ডায়ালগটি আপনাকে সে বিষয়ে জানায়। "
+"অনেক ক্ষেত্রেই এই জাতীয় সমস্যা ওয়েব পেজটির লেখকের দোষ। আবার অনেক সময়ই কনকরার-এর "
+"কোনো সমস্যা এর জন্য দায়ী হতে পারে। যদি আপনি প্রথম কারণটি সন্দেহ করেন, তাহলে "
+"আপনার উচিত ঐ সাইটের ওয়েবমাস্টারকে তা জানানো। যদি আপনার মনে হয় এটি কনকরার-এর "
+"দোষ, তাহলে অনুগ্রহ করে http://bugs.kde.org/-এ একটি বাগ রিপোর্ট জমা দিন। সমস্যাটি "
+"ব্যাখ্যা করে এমন একটি উদাহরণ সাথে দিলে সবচেয়ে ভাল হয়। "
+
+#. i18n: ectx: property (text), widget (QPushButton, _close)
+#: kjserrordlgbase.ui:29
+msgid "&Close"
+msgstr "&বন্ধ করো"
+
+#. i18n: ectx: property (text), widget (QPushButton, _clear)
+#: kjserrordlgbase.ui:36
+msgid "C&lear"
+msgstr "ফাঁকা &করো"
+
 #: kmultipart/kmultipart.cpp:40
 msgid "KMultiPart"
 msgstr "KMultiPart"
@@ -1405,7 +1535,28 @@ msgstr "পাওয়া যায়নি"
 msgid "No more matches for this search direction."
 msgstr "এদিকে আর কোন মিল পাওয়া যায়নি।"
 
-#: ui/passwordbar/storepassbar.cpp:59
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: ui/findbar/khtmlfindbar_base.ui:43
+msgid "F&ind:"
+msgstr "&সন্ধান:"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_next)
+#: ui/findbar/khtmlfindbar_base.ui:75
+msgid "&Next"
+msgstr "&পরবর্তী"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_previous)
+#: ui/findbar/khtmlfindbar_base.ui:85
+msgid "&Previous"
+msgstr "পূর্ব&বর্তী"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_options)
+#: ui/findbar/khtmlfindbar_base.ui:111
+msgid "Opt&ions"
+msgstr "&অপশন"
+
+#. i18n: ectx: property (text), widget (QLabel, m_label)
+#: ui/passwordbar/storepassbar.cpp:59 ui/passwordbar/storepassbar_base.ui:39
 msgid "Do you want to store this password?"
 msgstr "আপনি কি পাসওয়ার'ড সঞ্চয় করতে চান?"
 
@@ -1413,6 +1564,21 @@ msgstr "আপনি কি পাসওয়ার'ড সঞ্চয় করত�
 #, kde-format
 msgid "Do you want to store this password for %1?"
 msgstr "আপনি কি %1-এর জন্য এই পাসওয়ার্ড-টি সঞ্চয় করতে চান?"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_store)
+#: ui/passwordbar/storepassbar_base.ui:59
+msgid "&Store"
+msgstr "&সঞ্চয় করো"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_neverForThisSite)
+#: ui/passwordbar/storepassbar_base.ui:69
+msgid "Ne&ver store for this site"
+msgstr "এই সাইটের জন্য &কদাপি নয়"
+
+#. i18n: ectx: property (text), widget (QToolButton, m_doNotStore)
+#: ui/passwordbar/storepassbar_base.ui:79
+msgid "Do &not store this time"
+msgstr "&এখন  কোর না"
 
 #: xml/dom_docimpl.cpp:2380
 msgid "Basic Page Style"
@@ -1430,102 +1596,6 @@ msgstr "মারাত্মক পার্সিং সমস্যা: %1, �
 #: xml/xml_tokenizer.cpp:567
 msgid "XML parsing error"
 msgstr "এক্স-এম-এল পার্স করায় সমস্যা"
-
-#, fuzzy
-#~| msgid "&Keep password"
-#~ msgid "&Repeat password:"
-#~ msgstr "পাসওয়ার্ড রেখে দা&ও"
-
-#, fuzzy
-#~| msgid "&Keep password"
-#~ msgid "&Choose password:"
-#~ msgstr "পাসওয়ার্ড রেখে দা&ও"
-
-#~ msgid "Document Information"
-#~ msgstr "নথী সম্বন্ধিত তথ্য"
-
-#~ msgctxt "@title:group Document information"
-#~ msgid "General"
-#~ msgstr "সাধারণ"
-
-#~ msgid "URL:"
-#~ msgstr "ইউ-আর-এল:"
-
-#~ msgid "Title:"
-#~ msgstr "শিরোনাম:"
-
-#~ msgid "Last modified:"
-#~ msgstr "শেষ পরিবর্তন:"
-
-#~ msgid "Document encoding:"
-#~ msgstr "ডকুমেন্ট এনকোডিং:"
-
-#~ msgid "Rendering mode:"
-#~ msgstr "Rendering mode:"
-
-#~ msgid "HTTP Headers"
-#~ msgstr "এইচ-টি-টি-পি (HTTP) হেডার"
-
-#~ msgid "Property"
-#~ msgstr "বৈশিষ্ট্য"
-
-#~ msgid "&Edit"
-#~ msgstr "সম্পা&দনা"
-
-#~ msgid "&File"
-#~ msgstr "ফা&ইল"
-
-#~ msgid "&View"
-#~ msgstr "প্রদর্শ&ন"
-
-#~ msgid "HTML Toolbar"
-#~ msgstr "এইচ-টি-এম-এল টুলবার"
-
-#~ msgid "JavaScript Errors"
-#~ msgstr "জাভাস্ক্রিপ্ট সমস্যা"
-
-#~ msgid ""
-#~ "This dialog provides you with notification and details of scripting "
-#~ "errors that occur on web pages.  In many cases it is due to an error in "
-#~ "the web site as designed by its author.  In other cases it is the result "
-#~ "of a programming error in Konqueror.  If you suspect the former, please "
-#~ "contact the webmaster of the site in question.  Conversely if you suspect "
-#~ "an error in Konqueror, please file a bug report at http://bugs.kde.org/.  "
-#~ "A test case which illustrates the problem will be appreciated."
-#~ msgstr ""
-#~ "কোনো ওয়েব পেজে স্ক্রিপ্টিংজনিত সমস্যা ঘটলে এই ডায়ালগটি আপনাকে সে বিষয়ে জানায়। "
-#~ "অনেক ক্ষেত্রেই এই জাতীয় সমস্যা ওয়েব পেজটির লেখকের দোষ। আবার অনেক সময়ই কনকরার-"
-#~ "এর কোনো সমস্যা এর জন্য দায়ী হতে পারে। যদি আপনি প্রথম কারণটি সন্দেহ করেন, "
-#~ "তাহলে আপনার উচিত ঐ সাইটের ওয়েবমাস্টারকে তা জানানো। যদি আপনার মনে হয় এটি "
-#~ "কনকরার-এর দোষ, তাহলে অনুগ্রহ করে http://bugs.kde.org/-এ একটি বাগ রিপোর্ট জমা "
-#~ "দিন। সমস্যাটি ব্যাখ্যা করে এমন একটি উদাহরণ সাথে দিলে সবচেয়ে ভাল হয়। "
-
-#~ msgid "&Close"
-#~ msgstr "&বন্ধ করো"
-
-#~ msgid "C&lear"
-#~ msgstr "ফাঁকা &করো"
-
-#~ msgid "F&ind:"
-#~ msgstr "&সন্ধান:"
-
-#~ msgid "&Next"
-#~ msgstr "&পরবর্তী"
-
-#~ msgid "&Previous"
-#~ msgstr "পূর্ব&বর্তী"
-
-#~ msgid "Opt&ions"
-#~ msgstr "&অপশন"
-
-#~ msgid "&Store"
-#~ msgstr "&সঞ্চয় করো"
-
-#~ msgid "Ne&ver store for this site"
-#~ msgstr "এই সাইটের জন্য &কদাপি নয়"
-
-#~ msgid "Do &not store this time"
-#~ msgstr "&এখন  কোর না"
 
 #~ msgid "Name"
 #~ msgstr "নাম"
