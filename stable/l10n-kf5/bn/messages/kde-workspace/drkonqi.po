@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-07 08:45+0000\n"
+"POT-Creation-Date: 2014-08-08 09:23+0000\n"
 "PO-Revision-Date: 2012-07-16 15:55+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1431,6 +1431,411 @@ msgstr ""
 "তাহলে আরও তথ্য যোগ করে কোন লাভ হবে না, এবং অহেতুক ডেভেলপারদের সময় অপচয় করবে।</"
 "i>"
 
+#. i18n: ectx: property (text), widget (QLabel, m_rememberLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:17
+#, fuzzy
+msgctxt "@label question"
+msgid ""
+"<strong>Do you remember what you were doing prior to the crash?</strong>"
+msgstr "<strong>আপনি কি স্মরণ করো যার আপনি পূর্ব প্রতি ক্র্যাশ করছিলেন?</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationYes)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:44
+msgctxt ""
+"@option:radio \"yes\" to the question \"do you remember what were you doing "
+"prior to the crash?\""
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#. i18n: ectx: property (text), widget (QRadioButton, m_rememberCrashSituationNo)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:54
+msgctxt ""
+"@option:radio \"No\" to the question \"do you remember what were you doing "
+"prior to the crash?\""
+msgid "No"
+msgstr "না"
+
+#. i18n: ectx: property (text), widget (QLabel, m_reproducibleLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:90
+#, fuzzy
+msgctxt "@label question"
+msgid ""
+"<strong>Does the application crash again if you repeat the same situation?</"
+"strong>"
+msgstr ""
+"<strong>অ্যাপলিকেশন কি ক্র্যাশ পুনরায় যদি আপনি একই পরিস্থিতি পুনরাবৃত্তি করো?</"
+"strong>"
+
+#. i18n: ectx: property (toolTip), widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:118
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid ""
+"If you tried to repeat the situation, select how often the application "
+"crashes"
+msgstr ""
+"যদি আপনি পরিস্থিতি পুনরাবৃত্তি করতে চেষ্টা করেছিলেন, নির্বাচন করো কত প্রায়শই "
+"অ্যাপলিকেশন ক্র্যাশ"
+
+#. i18n: ectx: property (whatsThis), widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:121
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"If you tried to repeat the situation, select how often the application "
+"crashes"
+msgstr ""
+"যদি আপনি পরিস্থিতি পুনরাবৃত্তি করতে চেষ্টা করেছিলেন, নির্বাচন করো কত প্রায়শই "
+"অ্যাপলিকেশন ক্র্যাশ"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:125
+msgctxt "@item:inlistbox  user didn't tried to repeat the crash situation"
+msgid "I did not try again"
+msgstr "আমি আর চেষ্টা করিনি"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:130
+msgctxt "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
+msgid "Never"
+msgstr "কখনও না"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:135
+msgctxt "@item:inlistbox the bug can be reproduced sometimes"
+msgid "Sometimes"
+msgstr "কখনো কখনো"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, m_reproducibleBox)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:140
+msgctxt "@item:inlistbox the bug can be reproduced every time"
+msgid "Every time"
+msgstr "প্রত্যেকবার"
+
+#. i18n: ectx: property (text), widget (QLabel, m_informationLabel)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:182
+#, fuzzy
+msgctxt "@label question"
+msgid ""
+"<strong>Please select which additional information you can provide:</strong>"
+msgstr ""
+"<strong>দয়া করে নির্বাচন করো যেটি অতিরিক্ত তথ্য আপনি জোগান দিতে পারেন:</strong>"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_actionsInsideApp)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:212
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can describe what were you doing inside the "
+"application before it crashed"
+msgstr ""
+"এই অপশনটি পরীক্ষা করো যদি আপনি বর্ণনা করতে পারেন যার এইটির পূর্বে অ্যাপলিকেশনের "
+"ভেতরে আপনাকে ভেঙ্গে পড়ছিলেন"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_actionsInsideApp)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:215
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can describe what were you doing inside the "
+"application before it crashed"
+msgstr ""
+"এই অপশনটি পরীক্ষা করো যদি আপনি বর্ণনা করতে পারেন যার এইটির পূর্বে অ্যাপলিকেশনের "
+"ভেতরে আপনাকে ভেঙ্গে পড়ছিলেন"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:225
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can describe any unusual behavior or appearance in "
+"the application or the whole desktop"
+msgstr ""
+"এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন অথবা পুরো ডেস্কটপে যেকোন অচিরাচরিত "
+"আচরণ অথবা চেহারা বর্ণনা করতে পারেন"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:228
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can describe any unusual behavior or appearance in "
+"the application or the whole desktop"
+msgstr ""
+"এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন অথবা পুরো ডেস্কটপে যেকোন অচিরাচরিত "
+"আচরণ অথবা চেহারা বর্ণনা করতে পারেন"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_unusualSituation)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:231
+#, fuzzy
+msgctxt ""
+"@option:check kind of information the user can provide about the crash"
+msgid "Unusual desktop behavior I noticed"
+msgstr "অচিরাচরিত ডেস্কটপ আচরণ আমি লক্ষ্য করেছিলাম"
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:246
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid ""
+"Check this option if you can provide application specific details or "
+"settings that may be related to the crash. You can check the examples (if "
+"available.)"
+msgstr ""
+"এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন সুনির্দিষ্ট বিশদ বর্ণনা অথবা মানসমূহ "
+"জোগান দিতে পারেন যে ক্র্যাশতে সম্বন্ধস্থাপন করা হয়ত যাবে। আপনি উদাহরণ পরীক্ষা করতে "
+"পারেন (যদি available.)"
+
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:249
+#, fuzzy
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this option if you can provide application specific details or "
+"settings that may be related to the crash. You can check the examples (if "
+"available.)"
+msgstr ""
+"এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন সুনির্দিষ্ট বিশদ বর্ণনা অথবা মানসমূহ "
+"জোগান দিতে পারেন যে ক্র্যাশতে সম্বন্ধস্থাপন করা হয়ত যাবে। আপনি উদাহরণ পরীক্ষা করতে "
+"পারেন (যদি available.)"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_appSpecificDetails)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:252
+#, fuzzy
+msgctxt ""
+"@option:check kind of information the user can provide about the crash"
+msgid "Custom settings of the application that may be related"
+msgstr "অ্যাপলিকেশনের স্বনির্বাচিত মানসমূহ যে সম্বন্ধস্থাপন করা হয়ত যাবে"
+
+#. i18n: ectx: property (text), widget (QLabel, m_appSpecificDetailsExamples)
+#: bugzillaintegration/ui/assistantpage_bugawareness.ui:284
+#, fuzzy
+msgctxt ""
+"@label clicking/hovering this, the user will get examples about application "
+"specific details s/he can provide"
+msgid "<a href=\"#\">Examples</a>"
+msgstr "<a href=\"#\">উদাহরণ</a>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:17
+#, fuzzy
+msgctxt "@info/rich"
+msgid ""
+"See if your bug has already been reported. Double click a report in the list "
+"and compare it to yours. You can suggest that your crash is a duplicate of "
+"that report or directly attach your information to it."
+msgstr ""
+"যদি আপনার বাগ ইতিমধ্যে দেখা হয়েছে রিপোর্ট করা হয়েছে। দ্বিগুণ তালিকাতে একটি "
+"রিপোর্ট ক্লিক করো এবং yoursতে এইটি তুলনা করো। আপনি ইঙ্গিত করতে পারেন যে আপনার "
+"ক্র্যাশ সেই রিপোর্টটির একটি নকল অথবা এইটিতে আপনার তথ্য সরাসরিভাবে যুক্ত করো।"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:72
+#, fuzzy
+msgctxt "@title:column"
+msgid "Bug ID"
+msgstr "বাগ আই-ডি"
+
+#. i18n: ectx: property (text), widget (QTreeWidget, m_bugListWidget)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:77
+#, fuzzy
+msgctxt "@title:column"
+msgid "Description"
+msgstr "বর্ণনা"
+
+#. i18n: ectx: property (text), widget (QLabel, m_selectedPossibleDuplicatesLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates.ui:119
+#, fuzzy
+msgctxt ""
+"@label title of a listbox where the possible duplicate bug numbers are put in"
+msgid "Possible duplicates:"
+msgstr "সম্ভব নকল করো:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_showOwnBacktraceCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog.ui:81
+#, fuzzy
+msgctxt ""
+"@option:check user must check this to preview the own backtrace (in order to "
+"compare it with the one in the showed report)"
+msgid "Show the backtrace of the crash I experienced to compare (advanced)"
+msgstr ""
+"তুলনা করতে ক্র্যাশ আমির ব্যাকট্রেস দেখিয়েছিলেন অনুভব করেছিলেন (অগ্রসর হয়েছিলেন)"
+
+#. i18n: ectx: property (text), widget (QLabel, commonCrashLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:42
+#, fuzzy
+msgid ""
+"This is likely to be a <strong>common crash</strong>, and a lot of different "
+"cases' details may have been provided already. <i>Proceed only if you can "
+"add new information (not already mentioned). </i>"
+msgstr ""
+"এইটি একটি হতে সম্ভাব্য<strong>সাধারণ ক্র্যাশ</strong>, আলাদা ঘটনা' বিশদ বর্ণনার "
+"এবং একটি অনেক ইতিমধ্যে জোগান দে যেত।<i>অগ্রসর হওয়া কেবল যদি আপনি নতুন তথ্য যোগ "
+"করতে পারেন (ইতিমধ্যে উল্লেখ করেননি)।</i>"
+
+#. i18n: ectx: property (text), widget (QLabel, proceedLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:115
+#, fuzzy
+msgid "<strong>Do you want to proceed with the reporting process?</strong>"
+msgstr "<strong>আপনি কি রিপোর্টিং পদ্ধতির সঙ্গে অগ্রসর হতে চাও?</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, proceedRadioNo)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:142
+#, fuzzy
+msgid "No, do not file &a new bug report, and cancel the assistant"
+msgstr "কোনও না, একটি নতুন বাগ রিপোর্ট দাখিল করেন না, এবং সহকারী বাতিল করো"
+
+#. i18n: ectx: property (text), widget (QRadioButton, proceedRadioYes)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:152
+#, fuzzy
+msgid "Proceed with reporting &the bug"
+msgstr "বাগ রিপোর্ট করার সঙ্গে অগ্রসর হওয়া"
+
+#. i18n: ectx: property (text), widget (QLabel, areYouSureLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:182
+#, fuzzy
+msgid "<strong>Are you sure this report matches your crash situation?</strong>"
+msgstr "<strong>আপনি কি নিশ্চিত এই রিপোর্টটি আপনার ক্র্যাশ পরিস্থিতি মিলো?</strong>"
+
+#. i18n: ectx: property (text), widget (QRadioButton, markAsDuplicateCheck)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:209
+#, fuzzy
+msgid "Not &really sure: mark as a possible duplicate"
+msgstr "সত্যি নিশ্চিত না: একটি সম্ভব হিসেবে চিহ্ন নকল করো"
+
+#. i18n: ectx: property (text), widget (QRadioButton, attachToBugReportCheck)
+#: bugzillaintegration/ui/assistantpage_bugzilla_duplicates_dialog_confirmation.ui:219
+#, fuzzy
+msgid "Completely sure: attach my &information to this report"
+msgstr "সম্পূর্ণভাবে নিশ্চিত: এই রিপোর্টটিতে আমার তথ্য যুক্ত করো"
+
+#. i18n: ectx: property (text), widget (QLabel, m_explanationLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:17
+#, fuzzy
+msgctxt "@info/rich"
+msgid "<strong>Please provide the following information in English.</strong>"
+msgstr ""
+"<strong>দয়া করে নির্বাচন করো যেটি অতিরিক্ত তথ্য আপনি জোগান দিতে পারেন:</strong>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_titleLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:27
+#, fuzzy
+msgctxt "@label:textbox"
+msgid "<strong>Title of the bug report:</strong> (<a href=\"#\">examples</a>)"
+msgstr "<strong>বাগ রিপোর্টের শিরোনাম:</strong>(<a href=\"#\">উদাহরণ</a>)"
+
+#. i18n: ectx: property (text), widget (QLabel, m_detailsLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:39
+#, fuzzy
+msgctxt "@label:textbox"
+msgid ""
+"<strong>Information about the crash:</strong> (<a href=\"#\">help and "
+"examples</a>)"
+msgstr ""
+"<strong>ক্র্যাশর সম্বন্ধে তথ্য:</strong>(<a href=\"#\">এবং উদাহরণ সাহায্য করো</a>)"
+
+#. i18n: ectx: property (title), widget (QGroupBox, m_distributionGroupBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:55
+#, fuzzy
+msgctxt "@title:group"
+msgid "Distribution method:"
+msgstr "বন্টন পন্থা:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_compiledSourcesCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:66
+#, fuzzy
+msgctxt "@option:check"
+msgid "KDE Platform is compiled from sources"
+msgstr "কে.ডি.ই. প্ল্যাটফর্ম উৎস থেকে সঙ্কলন করা হয়"
+
+#. i18n: ectx: property (text), widget (QLabel, m_crashInfoLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_information.ui:94
+#, fuzzy
+msgctxt "@info/rich"
+msgid ""
+"<note>The crash and system information will be automatically added to the "
+"bug report.</note>"
+msgstr "<note>ক্র্যাশ এবং সিস্টেম তথ্য বাগ রিপোর্টে সয়ংক্রিয়ভাবে যোগ করা হবে।</note>"
+
+#. i18n: ectx: property (text), widget (QLabel, m_userLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:38
+#, fuzzy
+msgctxt "@label:textbox bugzilla account username"
+msgid "Username:"
+msgstr "ব্যবহারকারীর নাম:"
+
+#. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:45
+#, fuzzy
+msgctxt "@label:textbox bugzilla account password"
+msgid "Password:"
+msgstr "পাসওয়ার্ড:"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_savePasswordCheckBox)
+#: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:71
+#, fuzzy
+msgctxt "@option:check"
+msgid "Save login information using the KDE Wallet system"
+msgstr "কে.ডি.ই. ওয়ালেট সিস্টেম ব্যবহার করে লগিন তথ্য সংরক্ষণ করো"
+
+#. i18n: ectx: property (text), widget (QLabel, m_previewDescriptionLabel)
+#: bugzillaintegration/ui/assistantpage_bugzilla_preview.ui:18
+#, fuzzy
+msgctxt "@label"
+msgid ""
+"This is a preview of the report's contents which will be sent. <nl />\n"
+"If you want to modify it go to the previous pages."
+msgstr ""
+"এইটি রিপোর্টের অভ্যন্তরস্থ বস্তুর একটি প্রাকদর্শন যেটি পাঠাওয়া হবে।<nl />\n"
+"যদি আপনি এইটি পূর্ববর্তী পাতা পরিবর্তন করতে চাও যাও।"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_launchPageOnFinish)
+#: bugzillaintegration/ui/assistantpage_bugzilla_send.ui:75
+#, fuzzy
+msgctxt "@option:check"
+msgid "Open the bug report page when clicking the Finish button"
+msgstr "খোলা বাগ রিপোর্ট পাতা যখন ক্লিক করা হলে বাটন শেষ করো"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: bugzillaintegration/ui/assistantpage_bugzilla_send.ui:98
+#, fuzzy
+msgctxt "@option:check"
+msgid "Restart the application when clicking the Finish button"
+msgstr "অ্যাপলিকেশন পুনরায় শুরু করো যখন ক্লিক করা হলে বাটন শেষ করো"
+
+#. i18n: ectx: property (text), widget (QCheckBox, m_restartAppOnFinish)
+#: bugzillaintegration/ui/assistantpage_conclusions.ui:73
+#, fuzzy
+msgid "Restart the application when clicking the Finish button"
+msgstr "অ্যাপলিকেশন পুনরায় শুরু করো যখন ক্লিক করা হলে বাটন শেষ করো"
+
+#. i18n: ectx: property (text), widget (QLabel, m_introLabel)
+#: bugzillaintegration/ui/assistantpage_introduction.ui:17
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"This assistant will analyze the crash information and guide you through the "
+"bug reporting process."
+msgstr ""
+"এই সহকারীটি বাগ রিপোর্টিং পদ্ধতির মধ্য দিয়ে ক্র্যাশ তথ্য এবং সহায়িকা আপনাকে "
+"বিশ্লেষণ করবে।"
+
+#. i18n: ectx: property (text), widget (QLabel, m_warningLabel)
+#: bugzillaintegration/ui/assistantpage_introduction.ui:77
+#, fuzzy
+msgctxt "@info note before starting the bug reporting process"
+msgid ""
+"<p><note>Since communication between you and the developers is required for "
+"effective debugging, to continue reporting this bug <strong>it is required "
+"for you to agree that developers may contact you.</strong></note></p><p>Feel "
+"free to close this dialog if you do not accept this.</p>"
+msgstr ""
+"<p><note>আপনাকে এবং ডেভেলপারগণের মধ্যে যোগাযোগ থেকে এই বাগটি চালিয়ে যা রিপোর্ট "
+"করতে কার্যকরী ত্রুটিমুক্তকরণ,এর জন্য প্রয়োজন বোধ করা হয়<strong>এইটি সম্মত হতে "
+"আপনারের জন্য প্রয়োজন বোধ করা হয় যে ডেভেলপারগণ আপনাকে যোগাযোগ করতে পারে।</"
+"strong></note></p><p>এই ডায়ালগ বন্ধ করতে অনুভব করা মুক্তটি যদি আপনি এইটি গ্রহণ "
+"করো না।</p>"
+
 #: debugpackageinstaller.cpp:65
 #, fuzzy
 msgctxt "@info:progress"
@@ -1671,331 +2076,11 @@ msgctxt "@info:shell"
 msgid "The <thread id> of the failing thread"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, m_toggleBacktraceCheckBox)
+#: ui/backtracewidget.ui:100
 #, fuzzy
-#~ msgctxt "@label question"
-#~ msgid ""
-#~ "<strong>Do you remember what you were doing prior to the crash?</strong>"
-#~ msgstr "<strong>আপনি কি স্মরণ করো যার আপনি পূর্ব প্রতি ক্র্যাশ করছিলেন?</strong>"
-
-#~ msgctxt ""
-#~ "@option:radio \"yes\" to the question \"do you remember what were you "
-#~ "doing prior to the crash?\""
-#~ msgid "Yes"
-#~ msgstr "হ্যাঁ"
-
-#~ msgctxt ""
-#~ "@option:radio \"No\" to the question \"do you remember what were you "
-#~ "doing prior to the crash?\""
-#~ msgid "No"
-#~ msgstr "না"
-
-#, fuzzy
-#~ msgctxt "@label question"
-#~ msgid ""
-#~ "<strong>Does the application crash again if you repeat the same situation?"
-#~ "</strong>"
-#~ msgstr ""
-#~ "<strong>অ্যাপলিকেশন কি ক্র্যাশ পুনরায় যদি আপনি একই পরিস্থিতি পুনরাবৃত্তি করো?</"
-#~ "strong>"
-
-#, fuzzy
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "If you tried to repeat the situation, select how often the application "
-#~ "crashes"
-#~ msgstr ""
-#~ "যদি আপনি পরিস্থিতি পুনরাবৃত্তি করতে চেষ্টা করেছিলেন, নির্বাচন করো কত প্রায়শই "
-#~ "অ্যাপলিকেশন ক্র্যাশ"
-
-#, fuzzy
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "If you tried to repeat the situation, select how often the application "
-#~ "crashes"
-#~ msgstr ""
-#~ "যদি আপনি পরিস্থিতি পুনরাবৃত্তি করতে চেষ্টা করেছিলেন, নির্বাচন করো কত প্রায়শই "
-#~ "অ্যাপলিকেশন ক্র্যাশ"
-
-#~ msgctxt "@item:inlistbox  user didn't tried to repeat the crash situation"
-#~ msgid "I did not try again"
-#~ msgstr "আমি আর চেষ্টা করিনি"
-
-#~ msgctxt ""
-#~ "@item:inlistbox the crash cannot be reproduce. reproduciblity->never"
-#~ msgid "Never"
-#~ msgstr "কখনও না"
-
-#~ msgctxt "@item:inlistbox the bug can be reproduced sometimes"
-#~ msgid "Sometimes"
-#~ msgstr "কখনো কখনো"
-
-#~ msgctxt "@item:inlistbox the bug can be reproduced every time"
-#~ msgid "Every time"
-#~ msgstr "প্রত্যেকবার"
-
-#, fuzzy
-#~ msgctxt "@label question"
-#~ msgid ""
-#~ "<strong>Please select which additional information you can provide:</"
-#~ "strong>"
-#~ msgstr ""
-#~ "<strong>দয়া করে নির্বাচন করো যেটি অতিরিক্ত তথ্য আপনি জোগান দিতে পারেন:</"
-#~ "strong>"
-
-#, fuzzy
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "Check this option if you can describe what were you doing inside the "
-#~ "application before it crashed"
-#~ msgstr ""
-#~ "এই অপশনটি পরীক্ষা করো যদি আপনি বর্ণনা করতে পারেন যার এইটির পূর্বে "
-#~ "অ্যাপলিকেশনের ভেতরে আপনাকে ভেঙ্গে পড়ছিলেন"
-
-#, fuzzy
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "Check this option if you can describe what were you doing inside the "
-#~ "application before it crashed"
-#~ msgstr ""
-#~ "এই অপশনটি পরীক্ষা করো যদি আপনি বর্ণনা করতে পারেন যার এইটির পূর্বে "
-#~ "অ্যাপলিকেশনের ভেতরে আপনাকে ভেঙ্গে পড়ছিলেন"
-
-#, fuzzy
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "Check this option if you can describe any unusual behavior or appearance "
-#~ "in the application or the whole desktop"
-#~ msgstr ""
-#~ "এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন অথবা পুরো ডেস্কটপে যেকোন অচিরাচরিত "
-#~ "আচরণ অথবা চেহারা বর্ণনা করতে পারেন"
-
-#, fuzzy
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "Check this option if you can describe any unusual behavior or appearance "
-#~ "in the application or the whole desktop"
-#~ msgstr ""
-#~ "এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন অথবা পুরো ডেস্কটপে যেকোন অচিরাচরিত "
-#~ "আচরণ অথবা চেহারা বর্ণনা করতে পারেন"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@option:check kind of information the user can provide about the crash"
-#~ msgid "Unusual desktop behavior I noticed"
-#~ msgstr "অচিরাচরিত ডেস্কটপ আচরণ আমি লক্ষ্য করেছিলাম"
-
-#, fuzzy
-#~ msgctxt "@info:tooltip"
-#~ msgid ""
-#~ "Check this option if you can provide application specific details or "
-#~ "settings that may be related to the crash. You can check the examples (if "
-#~ "available.)"
-#~ msgstr ""
-#~ "এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন সুনির্দিষ্ট বিশদ বর্ণনা অথবা মানসমূহ "
-#~ "জোগান দিতে পারেন যে ক্র্যাশতে সম্বন্ধস্থাপন করা হয়ত যাবে। আপনি উদাহরণ পরীক্ষা "
-#~ "করতে পারেন (যদি available.)"
-
-#, fuzzy
-#~ msgctxt "@info:whatsthis"
-#~ msgid ""
-#~ "Check this option if you can provide application specific details or "
-#~ "settings that may be related to the crash. You can check the examples (if "
-#~ "available.)"
-#~ msgstr ""
-#~ "এই অপশনটি পরীক্ষা করো যদি আপনি অ্যাপলিকেশন সুনির্দিষ্ট বিশদ বর্ণনা অথবা মানসমূহ "
-#~ "জোগান দিতে পারেন যে ক্র্যাশতে সম্বন্ধস্থাপন করা হয়ত যাবে। আপনি উদাহরণ পরীক্ষা "
-#~ "করতে পারেন (যদি available.)"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@option:check kind of information the user can provide about the crash"
-#~ msgid "Custom settings of the application that may be related"
-#~ msgstr "অ্যাপলিকেশনের স্বনির্বাচিত মানসমূহ যে সম্বন্ধস্থাপন করা হয়ত যাবে"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@label clicking/hovering this, the user will get examples about "
-#~ "application specific details s/he can provide"
-#~ msgid "<a href=\"#\">Examples</a>"
-#~ msgstr "<a href=\"#\">উদাহরণ</a>"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "See if your bug has already been reported. Double click a report in the "
-#~ "list and compare it to yours. You can suggest that your crash is a "
-#~ "duplicate of that report or directly attach your information to it."
-#~ msgstr ""
-#~ "যদি আপনার বাগ ইতিমধ্যে দেখা হয়েছে রিপোর্ট করা হয়েছে। দ্বিগুণ তালিকাতে একটি "
-#~ "রিপোর্ট ক্লিক করো এবং yoursতে এইটি তুলনা করো। আপনি ইঙ্গিত করতে পারেন যে আপনার "
-#~ "ক্র্যাশ সেই রিপোর্টটির একটি নকল অথবা এইটিতে আপনার তথ্য সরাসরিভাবে যুক্ত করো।"
-
-#, fuzzy
-#~ msgctxt "@title:column"
-#~ msgid "Bug ID"
-#~ msgstr "বাগ আই-ডি"
-
-#, fuzzy
-#~ msgctxt "@title:column"
-#~ msgid "Description"
-#~ msgstr "বর্ণনা"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@label title of a listbox where the possible duplicate bug numbers are "
-#~ "put in"
-#~ msgid "Possible duplicates:"
-#~ msgstr "সম্ভব নকল করো:"
-
-#, fuzzy
-#~ msgctxt ""
-#~ "@option:check user must check this to preview the own backtrace (in order "
-#~ "to compare it with the one in the showed report)"
-#~ msgid "Show the backtrace of the crash I experienced to compare (advanced)"
-#~ msgstr ""
-#~ "তুলনা করতে ক্র্যাশ আমির ব্যাকট্রেস দেখিয়েছিলেন অনুভব করেছিলেন (অগ্রসর হয়েছিলেন)"
-
-#, fuzzy
-#~ msgid ""
-#~ "This is likely to be a <strong>common crash</strong>, and a lot of "
-#~ "different cases' details may have been provided already. <i>Proceed only "
-#~ "if you can add new information (not already mentioned). </i>"
-#~ msgstr ""
-#~ "এইটি একটি হতে সম্ভাব্য<strong>সাধারণ ক্র্যাশ</strong>, আলাদা ঘটনা' বিশদ "
-#~ "বর্ণনার এবং একটি অনেক ইতিমধ্যে জোগান দে যেত।<i>অগ্রসর হওয়া কেবল যদি আপনি নতুন "
-#~ "তথ্য যোগ করতে পারেন (ইতিমধ্যে উল্লেখ করেননি)।</i>"
-
-#, fuzzy
-#~ msgid "<strong>Do you want to proceed with the reporting process?</strong>"
-#~ msgstr "<strong>আপনি কি রিপোর্টিং পদ্ধতির সঙ্গে অগ্রসর হতে চাও?</strong>"
-
-#, fuzzy
-#~ msgid "No, do not file &a new bug report, and cancel the assistant"
-#~ msgstr "কোনও না, একটি নতুন বাগ রিপোর্ট দাখিল করেন না, এবং সহকারী বাতিল করো"
-
-#, fuzzy
-#~ msgid "Proceed with reporting &the bug"
-#~ msgstr "বাগ রিপোর্ট করার সঙ্গে অগ্রসর হওয়া"
-
-#, fuzzy
-#~ msgid ""
-#~ "<strong>Are you sure this report matches your crash situation?</strong>"
-#~ msgstr ""
-#~ "<strong>আপনি কি নিশ্চিত এই রিপোর্টটি আপনার ক্র্যাশ পরিস্থিতি মিলো?</strong>"
-
-#, fuzzy
-#~ msgid "Not &really sure: mark as a possible duplicate"
-#~ msgstr "সত্যি নিশ্চিত না: একটি সম্ভব হিসেবে চিহ্ন নকল করো"
-
-#, fuzzy
-#~ msgid "Completely sure: attach my &information to this report"
-#~ msgstr "সম্পূর্ণভাবে নিশ্চিত: এই রিপোর্টটিতে আমার তথ্য যুক্ত করো"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<strong>Please provide the following information in English.</strong>"
-#~ msgstr ""
-#~ "<strong>দয়া করে নির্বাচন করো যেটি অতিরিক্ত তথ্য আপনি জোগান দিতে পারেন:</"
-#~ "strong>"
-
-#, fuzzy
-#~ msgctxt "@label:textbox"
-#~ msgid ""
-#~ "<strong>Title of the bug report:</strong> (<a href=\"#\">examples</a>)"
-#~ msgstr "<strong>বাগ রিপোর্টের শিরোনাম:</strong>(<a href=\"#\">উদাহরণ</a>)"
-
-#, fuzzy
-#~ msgctxt "@label:textbox"
-#~ msgid ""
-#~ "<strong>Information about the crash:</strong> (<a href=\"#\">help and "
-#~ "examples</a>)"
-#~ msgstr ""
-#~ "<strong>ক্র্যাশর সম্বন্ধে তথ্য:</strong>(<a href=\"#\">এবং উদাহরণ সাহায্য করো</"
-#~ "a>)"
-
-#, fuzzy
-#~ msgctxt "@title:group"
-#~ msgid "Distribution method:"
-#~ msgstr "বন্টন পন্থা:"
-
-#, fuzzy
-#~ msgctxt "@option:check"
-#~ msgid "KDE Platform is compiled from sources"
-#~ msgstr "কে.ডি.ই. প্ল্যাটফর্ম উৎস থেকে সঙ্কলন করা হয়"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "<note>The crash and system information will be automatically added to the "
-#~ "bug report.</note>"
-#~ msgstr ""
-#~ "<note>ক্র্যাশ এবং সিস্টেম তথ্য বাগ রিপোর্টে সয়ংক্রিয়ভাবে যোগ করা হবে।</note>"
-
-#, fuzzy
-#~ msgctxt "@label:textbox bugzilla account username"
-#~ msgid "Username:"
-#~ msgstr "ব্যবহারকারীর নাম:"
-
-#, fuzzy
-#~ msgctxt "@label:textbox bugzilla account password"
-#~ msgid "Password:"
-#~ msgstr "পাসওয়ার্ড:"
-
-#, fuzzy
-#~ msgctxt "@option:check"
-#~ msgid "Save login information using the KDE Wallet system"
-#~ msgstr "কে.ডি.ই. ওয়ালেট সিস্টেম ব্যবহার করে লগিন তথ্য সংরক্ষণ করো"
-
-#, fuzzy
-#~ msgctxt "@label"
-#~ msgid ""
-#~ "This is a preview of the report's contents which will be sent. <nl />\n"
-#~ "If you want to modify it go to the previous pages."
-#~ msgstr ""
-#~ "এইটি রিপোর্টের অভ্যন্তরস্থ বস্তুর একটি প্রাকদর্শন যেটি পাঠাওয়া হবে।<nl />\n"
-#~ "যদি আপনি এইটি পূর্ববর্তী পাতা পরিবর্তন করতে চাও যাও।"
-
-#, fuzzy
-#~ msgctxt "@option:check"
-#~ msgid "Open the bug report page when clicking the Finish button"
-#~ msgstr "খোলা বাগ রিপোর্ট পাতা যখন ক্লিক করা হলে বাটন শেষ করো"
-
-#, fuzzy
-#~ msgctxt "@option:check"
-#~ msgid "Restart the application when clicking the Finish button"
-#~ msgstr "অ্যাপলিকেশন পুনরায় শুরু করো যখন ক্লিক করা হলে বাটন শেষ করো"
-
-#, fuzzy
-#~ msgid "Restart the application when clicking the Finish button"
-#~ msgstr "অ্যাপলিকেশন পুনরায় শুরু করো যখন ক্লিক করা হলে বাটন শেষ করো"
-
-#, fuzzy
-#~ msgctxt "@info"
-#~ msgid ""
-#~ "This assistant will analyze the crash information and guide you through "
-#~ "the bug reporting process."
-#~ msgstr ""
-#~ "এই সহকারীটি বাগ রিপোর্টিং পদ্ধতির মধ্য দিয়ে ক্র্যাশ তথ্য এবং সহায়িকা আপনাকে "
-#~ "বিশ্লেষণ করবে।"
-
-#, fuzzy
-#~ msgctxt "@info note before starting the bug reporting process"
-#~ msgid ""
-#~ "<p><note>Since communication between you and the developers is required "
-#~ "for effective debugging, to continue reporting this bug <strong>it is "
-#~ "required for you to agree that developers may contact you.</strong></"
-#~ "note></p><p>Feel free to close this dialog if you do not accept this.</p>"
-#~ msgstr ""
-#~ "<p><note>আপনাকে এবং ডেভেলপারগণের মধ্যে যোগাযোগ থেকে এই বাগটি চালিয়ে যা "
-#~ "রিপোর্ট করতে কার্যকরী ত্রুটিমুক্তকরণ,এর জন্য প্রয়োজন বোধ করা হয়<strong>এইটি সম্মত "
-#~ "হতে আপনারের জন্য প্রয়োজন বোধ করা হয় যে ডেভেলপারগণ আপনাকে যোগাযোগ করতে পারে।"
-#~ "</strong></note></p><p>এই ডায়ালগ বন্ধ করতে অনুভব করা মুক্তটি যদি আপনি এইটি "
-#~ "গ্রহণ করো না।</p>"
-
-#, fuzzy
-#~ msgid "Show backtrace content (advanced)"
-#~ msgstr "ব্যাকট্রেস ভিতরের উপাদান দেখাও (অগ্রসর হয়েছিলেন)"
+msgid "Show backtrace content (advanced)"
+msgstr "ব্যাকট্রেস ভিতরের উপাদান দেখাও (অগ্রসর হয়েছিলেন)"
 
 #~ msgctxt "@info/rich"
 #~ msgid "You can help us improve this software by filing a bug report."
