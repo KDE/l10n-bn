@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-21 05:38+0000\n"
+"POT-Creation-Date: 2014-08-22 05:47+0000\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -3702,8 +3702,10 @@ msgstr "Alt+৭"
 
 #. i18n: ectx: property (text), widget (QLabel, preGradeColorLabel)
 #: src/settings/viewoptionsbase.ui:127
-msgid "Base color for displaying early progress:"
-msgstr ""
+#, fuzzy
+#| msgid "Color for the grade 7"
+msgid "Color for displaying early progress:"
+msgstr "৭ম গ্রেডের রং"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_PreGradeColor)
 #: src/settings/viewoptionsbase.ui:146
@@ -3757,12 +3759,36 @@ msgstr "শব্দভাণ্ডার থেকে অনুরূপ এন
 msgid "Remove confidence level from this unit and all sub-units"
 msgstr "শব্দভাণ্ডার থেকে অনুরূপ এন্ট্রি অপসারণ করো"
 
-#: src/statistics/statisticslegendwidget.cpp:105
+#: src/statistics/statisticslegendwidget.cpp:42
+#, fuzzy
+#| msgid "Progress"
+msgid "Progress gradients"
+msgstr "অগ্রগতি"
+
+#: src/statistics/statisticslegendwidget.cpp:44
+#, fuzzy
+#| msgid "Progress"
+msgid "Early progress"
+msgstr "অগ্রগতি"
+
+#: src/statistics/statisticslegendwidget.cpp:46
+#, fuzzy
+#| msgid "Not &queried:"
+msgid "Not Practiced"
+msgstr "অনুসন্ধান করা &হয় নি:"
+
+#: src/statistics/statisticslegendwidget.cpp:48
+#, fuzzy
+#| msgid "Entries"
+msgid "Invalid Entries"
+msgstr "এন্ট্রি"
+
+#: src/statistics/statisticslegendwidget.cpp:165
 msgctxt "adjective, The word has been properly and fully learned by the user"
 msgid "Fully learned"
 msgstr ""
 
-#: src/statistics/statisticslegendwidget.cpp:106
+#: src/statistics/statisticslegendwidget.cpp:166
 #, fuzzy
 #| msgid "Not &queried:"
 msgctxt "adjective, The word has not even been practiced once by the user"
@@ -3862,7 +3888,7 @@ msgstr "ধাতুরূপ"
 msgid "Practice Direction"
 msgstr "প্রদর্শন সংক্রান্ত বৈশিষ্ট্য"
 
-#: src/statistics/statisticsmodel.cpp:36
+#: src/statistics/statisticsmodel.cpp:34
 #, kde-format
 msgctxt "Confidence level in language, table header"
 msgid "Confidence (%1)"
@@ -4932,9 +4958,6 @@ msgstr ""
 #~ msgid "T&ype:"
 #~ msgstr "ধর&ন:"
 
-#~ msgid "Progress"
-#~ msgstr "অগ্রগতি"
-
 #~ msgid "Count:"
 #~ msgstr "সংখ্যা:"
 
@@ -5617,9 +5640,6 @@ msgstr ""
 
 #~ msgid "Grade TO"
 #~ msgstr "গ্রেড প্রাপক"
-
-#~ msgid "Entries"
-#~ msgstr "এন্ট্রি"
 
 #~ msgid "Reset"
 #~ msgstr "রিসেট"
