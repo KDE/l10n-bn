@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: khangman\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2012-10-18 04:29+0200\n"
+"POT-Creation-Date: 2014-10-29 07:47+0000\n"
 "PO-Revision-Date: 2006-04-24 01:25-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -248,93 +248,110 @@ msgstr ""
 msgid "Enable sounds"
 msgstr "&শব্দ সক্রিয় করো"
 
-#: khangman.cpp:97
+#: khangman.cpp:88
 msgid "Play with a new word"
 msgstr "নতুন শব্দ ব্যবহার করো"
 
-#: khangman.cpp:100
+#: khangman.cpp:91
 msgid "Opens an existing vocabulary document"
 msgstr ""
 
-#: khangman.cpp:103
+#: khangman.cpp:94
 #, fuzzy
 msgid "&Show Hint"
 msgstr "ইঙ্গিত দা&ও"
 
-#: khangman.cpp:104
+#: khangman.cpp:95
 msgid "Show/Hide the hint to help guessing the word"
 msgstr ""
 
-#: khangman.cpp:112
+#: khangman.cpp:104
 msgid "&Get Words in New Language..."
 msgstr "নতুন ভাষার শব্দ &আনো..."
 
-#: khangman.cpp:120
+#: khangman.cpp:114
 msgid "&Category"
 msgstr ""
 
-#: khangman.cpp:123
+#: khangman.cpp:117
 #, fuzzy
 #| msgid "Choose the level"
 msgid "Choose the category"
 msgstr "স্তর বেছে নিন"
 
-#: khangman.cpp:124
+#: khangman.cpp:118
 msgid "Choose the category of words"
 msgstr ""
 
-#: khangman.cpp:127
+#: khangman.cpp:121
 msgid "&Language"
 msgstr "ভাষা (&ভ)"
 
-#: khangman.cpp:132 khangman.cpp:133
+#: khangman.cpp:126 khangman.cpp:127
 #, fuzzy
 #| msgid "Choose the look and feel"
 msgid "Choose the language"
 msgstr "পছন্দের চেহারা বেছে নিন"
 
-#: khangman.cpp:138
+#: khangman.cpp:132
 msgid "L&ook"
 msgstr "চেহারা (&চ)"
 
-#: khangman.cpp:144 khangman.cpp:145
+#: khangman.cpp:138 khangman.cpp:139
 msgid "Choose the look and feel"
 msgstr "পছন্দের চেহারা বেছে নিন"
 
-#: khangman.cpp:150
-msgid "You can open last opened files"
+#: khangman.cpp:144
+msgid "Quick access to some of the files that you have recently opened."
 msgstr ""
 
-#: khangman.cpp:253
+#: khangman.cpp:244
 msgctxt "@item:inlistbox no language for that locale"
 msgid "None"
 msgstr ""
 
-#: khangman.cpp:348
+#: khangman.cpp:282 khangman.cpp:290 khangmanview.cpp:614
+msgid "Error"
+msgstr ""
+
+#: khangman.cpp:282
+msgid "No theme files found."
+msgstr ""
+
+#: khangman.cpp:290
+msgid "No kvtml files found."
+msgstr ""
+
+#: khangman.cpp:360
 msgid "General"
 msgstr "সাধারণ"
 
-#: khangman.cpp:353
+#: khangman.cpp:365
 msgid "Languages"
 msgstr "ভাষা"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: khangman.cpp:358 timerui.ui:19
+#: khangman.cpp:370 timerui.ui:19
 msgid "Timers"
 msgstr "সময়রক্ষক"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AccentedLetters)
-#: khangman.cpp:527 languageui.ui:32
+#: khangman.cpp:535 languageui.ui:32
 msgid "Type accented letters"
 msgstr "জোরপ্রদানে উচ্চারণকৃত অক্ষর (accented) লিখুন"
 
-#: khangman.cpp:555 khangmanview.cpp:725
-#, kde-format
-msgid "Losses: %1"
+#: khangman.cpp:574
+msgid "Open Vocabulary Document"
 msgstr ""
 
-#: khangman.cpp:566
-msgid "Open Vocabulary Document"
+#: khangman.cpp:582
+#, kde-format
+msgid "Wins: %1"
+msgstr ""
+
+#: khangman.cpp:587
+#, kde-format
+msgid "Losses: %1"
 msgstr ""
 
 #. i18n: ectx: label, entry (CurrentLevel), group (Language)
@@ -440,25 +457,25 @@ msgstr "চেহারা (&চ)"
 msgid "Language"
 msgstr "ভাষা (&ভ)"
 
-#: khangmanview.cpp:73
+#: khangmanview.cpp:87
 msgid "G&uess"
 msgstr "&অনুমান"
 
-#: khangmanview.cpp:77
+#: khangmanview.cpp:91
 #, fuzzy
 #| msgid "Play Again"
 msgid "&Play again"
 msgstr "আবার খেলুন"
 
-#: khangmanview.cpp:320
+#: khangmanview.cpp:335
 msgid "Misses"
 msgstr "ভুল অক্ষর"
 
-#: khangmanview.cpp:351
+#: khangmanview.cpp:366
 msgid "Hint"
 msgstr "ইঙ্গিত"
 
-#: khangmanview.cpp:380
+#: khangmanview.cpp:395
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>You lost!\n"
@@ -470,7 +487,7 @@ msgstr ""
 "শব্দটি ছিল\n"
 "<b>%1</b></qt>"
 
-#: khangmanview.cpp:380
+#: khangmanview.cpp:395
 #, fuzzy
 #| msgid ""
 #| "Congratulations,\n"
@@ -480,15 +497,15 @@ msgstr ""
 "অভিনন্দন,\n"
 "আপনি জয়ী হয়েছেন!"
 
-#: khangmanview.cpp:509 main.cpp:38
+#: khangmanview.cpp:524 main.cpp:40 main.cpp:47
 msgid "KHangMan"
 msgstr "কে-হ্যাংম্যান"
 
-#: khangmanview.cpp:509
+#: khangmanview.cpp:524
 msgid "This letter has already been guessed."
 msgstr "এই অক্ষরটি ইতিমধ্যেই অনুমান করা হয়েছে।"
 
-#: khangmanview.cpp:591
+#: khangmanview.cpp:610
 #, fuzzy, kde-format
 #| msgid ""
 #| "File $KDEDIR/share/apps/khangman/data/%1/%2 not found!\n"
@@ -500,257 +517,252 @@ msgstr ""
 "$KDEDIR/share/apps/khangman/data/%1/%2 নামক ফাইলটি পাওয়া যায় নি!\n"
 "অনুগ্রহপূর্বক ইনস্টলকৃত ফাইলগুলো পরীক্ষা করুন!"
 
-#: khangmanview.cpp:595
-msgid "Error"
-msgstr ""
-
-#: khangmanview.cpp:724
-#, kde-format
-msgid "Wins: %1"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QWidget, languageui)
 #: languageui.ui:13
 msgid "Here you can choose special settings for some languages."
 msgstr ""
 
-#: main.cpp:34
+#: main.cpp:33
 msgid "Classical hangman game for KDE"
 msgstr "কে.ডি.ই.'র পক্ষ থেকে ক্লাসিক্যাল হ্যাংম্যান খেলা"
 
-#: main.cpp:40
+#: main.cpp:46
+msgid "khangman"
+msgstr ""
+
+#: main.cpp:51
 msgid "(c) 2001-2011, Anne-Marie Mahfouf"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:52
 msgid "Primoz Anzur"
 msgstr ""
 
-#: main.cpp:42
+#: main.cpp:52
 msgid "Previous maintainer"
 msgstr "পূর্ববর্তী রক্ষণাবেক্ষণকারী"
 
-#: main.cpp:47
+#: main.cpp:57
 msgid "Anne-Marie Mahfouf"
 msgstr ""
 
-#: main.cpp:47
+#: main.cpp:57
 #, fuzzy
 msgid "Current maintainer, author"
 msgstr "প্রকৃত রক্ষণাবেক্ষণকারী, লেখক"
 
-#: main.cpp:49
+#: main.cpp:59
 msgid "Stefan Böhmann"
 msgstr ""
 
-#: main.cpp:50 main.cpp:95 main.cpp:97 main.cpp:99
+#: main.cpp:60 main.cpp:105 main.cpp:107 main.cpp:109
 msgid "Coding help"
 msgstr "কোড লেখা সংক্রান্ত সাহায্য"
 
-#: main.cpp:51
+#: main.cpp:61
 msgid "Stefan Asserhäll"
 msgstr ""
 
-#: main.cpp:52
+#: main.cpp:62
 msgid "Swedish data files, coding help, transparent pictures and i18n fixes"
 msgstr ""
 "সুইডিশ তথ্যের ফাইল, কোড লেখা সংক্রান্ত সাহায্য, স্বচ্ছ ছবি এবং আন্তর্জাতিকীকরণ (i18n) "
 "সংক্রান্ত সংশোধনী"
 
-#: main.cpp:54
+#: main.cpp:64
 msgid "eXParTaKus"
 msgstr ""
 
-#: main.cpp:55
+#: main.cpp:65
 msgid "Spanish data files"
 msgstr "স্প্যানিশ তথ্যের ফাইল"
 
-#: main.cpp:56
+#: main.cpp:66
 msgid "Erik Kjær Pedersenn"
 msgstr ""
 
-#: main.cpp:57
+#: main.cpp:67
 msgid "Danish data files"
 msgstr "দিনেমার (Danish) তথ্যের ফাইল"
 
-#: main.cpp:58
+#: main.cpp:68
 msgid "Niko Lewman"
 msgstr ""
 
-#: main.cpp:59
+#: main.cpp:69
 msgid "Finnish data files"
 msgstr "ফিনিশ তথ্যের ফাইল"
 
-#: main.cpp:60
+#: main.cpp:70
 msgid "João Sebastião de Oliveira Bueno"
 msgstr ""
 
-#: main.cpp:61
+#: main.cpp:71
 msgid "Brazilian Portuguese data files"
 msgstr "ব্রাজিলীয় পর্তুগিজ তথ্যের ফাইল"
 
-#: main.cpp:62
+#: main.cpp:72
 msgid "Antoni Bella"
 msgstr ""
 
-#: main.cpp:63
+#: main.cpp:73
 msgid "Catalan data files"
 msgstr "ক্যাটালান তথ্যের ফাইল"
 
-#: main.cpp:64
+#: main.cpp:74
 msgid "Giovanni Venturi"
 msgstr ""
 
-#: main.cpp:65
+#: main.cpp:75
 msgid "Italian data files"
 msgstr "ইতালিয় তথ্যের ফাইল"
 
-#: main.cpp:66
+#: main.cpp:76
 msgid "Rinse"
 msgstr ""
 
-#: main.cpp:67
+#: main.cpp:77
 msgid "Dutch data files"
 msgstr "ওলন্দাজ তথ্যের ফাইল"
 
-#: main.cpp:68
+#: main.cpp:78
 msgid "Lukáš Tinkl"
 msgstr ""
 
-#: main.cpp:69
+#: main.cpp:79
 msgid "Czech data files"
 msgstr "চেক তথ্যের ফাইল"
 
-#: main.cpp:70
+#: main.cpp:80
 msgid "Kristóf Kiszel"
 msgstr ""
 
-#: main.cpp:71
+#: main.cpp:81
 msgid "Hungarian data files"
 msgstr "হাঙ্গেরিয় তথ্যের ফাইল"
 
-#: main.cpp:72
+#: main.cpp:82
 msgid "Torger Åge Sinnes"
 msgstr ""
 
 # FIXME: Bokmål
-#: main.cpp:73
+#: main.cpp:83
 msgid "Norwegian (Bokmål) data files"
 msgstr "নরওয়েজিয় (বোকমাল) তথ্যের ফাইল"
 
-#: main.cpp:74
+#: main.cpp:84
 msgid "Roger Kovacs"
 msgstr ""
 
-#: main.cpp:75
+#: main.cpp:85
 msgid "Tajik data files"
 msgstr "তাজিক তথ্যের ফাইল"
 
-#: main.cpp:76
+#: main.cpp:86
 msgid "Chusslove Illich"
 msgstr ""
 
-#: main.cpp:77
+#: main.cpp:87
 msgid "Serbian (Cyrillic and Latin) data files"
 msgstr "সার্বিয় (সিরিলিক ও ল্যাটিন) তথ্যের ফাইল"
 
-#: main.cpp:78
+#: main.cpp:88
 msgid "Jure Repinc"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:89
 msgid "Slovenian data files"
 msgstr "স্লোভেনিয় তথ্যের ফাইল"
 
-#: main.cpp:80
+#: main.cpp:90
 msgid "Pedro Morais"
 msgstr ""
 
-#: main.cpp:81
+#: main.cpp:91
 msgid "Portuguese data files"
 msgstr "পর্তুগীজ তথ্যের ফাইল"
 
-#: main.cpp:82
+#: main.cpp:92
 msgid "Gaute Hvoslef Kvalnes"
 msgstr ""
 
-#: main.cpp:83
+#: main.cpp:93
 msgid "Norwegian (Nynorsk) data files"
 msgstr "নরওয়েজিয় (Nynorsk) তথ্যের ফাইল"
 
-#: main.cpp:84
+#: main.cpp:94
 msgid "Mehmet Özel"
 msgstr ""
 
-#: main.cpp:85
+#: main.cpp:95
 msgid "Turkish data files"
 msgstr "তুর্কি তথ্যের ফাইল"
 
-#: main.cpp:86
+#: main.cpp:96
 msgid "Черепанов Андрей"
 msgstr ""
 
-#: main.cpp:87
+#: main.cpp:97
 msgid "Russian data files"
 msgstr "রুশ তথ্যের ফাইল"
 
-#: main.cpp:88
+#: main.cpp:98
 msgid "Radostin Radnev"
 msgstr ""
 
-#: main.cpp:89
+#: main.cpp:99
 msgid "Bulgarian data files"
 msgstr "বুলগেরিয় তথ্যের ফাইল"
 
-#: main.cpp:90
+#: main.cpp:100
 msgid "Kevin Patrick Scannell"
 msgstr ""
 
-#: main.cpp:91
+#: main.cpp:101
 msgid "Irish (Gaelic) data files"
 msgstr "আইরিশ (গ্যালিক) তথ্যের ফাইল"
 
-#: main.cpp:92
+#: main.cpp:102
 msgid "Matt Howe"
 msgstr ""
 
-#: main.cpp:93
+#: main.cpp:103
 msgid "Softer Hangman Pictures"
 msgstr "কোমল হ্যাংম্যান ছবি"
 
-#: main.cpp:94
+#: main.cpp:104
 msgid "Benjamin Meyer"
 msgstr ""
 
-#: main.cpp:96
+#: main.cpp:106
 msgid "Robert Gogolok"
 msgstr ""
 
-#: main.cpp:98
+#: main.cpp:108
 msgid "Lubos Lunàk"
 msgstr ""
 
-#: main.cpp:100
+#: main.cpp:110
 msgid "Albert Astals Cid"
 msgstr ""
 
-#: main.cpp:101
+#: main.cpp:111
 msgid "Coding help, fixed a lot of things"
 msgstr "কোড লিখনে সহায়তা, ও আরো অনেক সংশোধনী"
 
-#: main.cpp:102
+#: main.cpp:112
 msgid "Peter Hedlund"
 msgstr ""
 
-#: main.cpp:103
+#: main.cpp:113
 msgid "Code for generating icons for the characters toolbar"
 msgstr "অক্ষর প্রদর্শক টুলবারের আইকন তৈরির কোড"
 
-#: main.cpp:104
+#: main.cpp:114
 msgid "Inge Wallin"
 msgstr ""
 
-#: main.cpp:105
+#: main.cpp:115
 msgid "Code cleaning"
 msgstr "কোড সুন্দরকরণ"
 
