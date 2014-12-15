@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-12-12 08:21+0000\n"
+"POT-Creation-Date: 2014-12-15 07:45+0000\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1665,7 +1665,7 @@ msgid "1000 meters"
 msgstr "ধূমকেতু"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelUnits)
-#: dialogs/fovdialog.cpp:251 dialogs/newfov.ui:964
+#: dialogs/fovdialog.cpp:251 dialogs/newfov.ui:730
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Delta"
@@ -1678,30 +1678,30 @@ msgstr "ডেল্টা"
 msgid "meters"
 msgstr "ধূমকেতু"
 
-#: dialogs/fovdialog.cpp:334
+#: dialogs/fovdialog.cpp:335
 #, fuzzy
 #| msgid "Telescope focal length:"
 msgid "Telescope Focal Length Calculator"
 msgstr "দূরবীক্ষণ যন্ত্রের ফোকাস দূরত্ব:"
 
-#: dialogs/fovdialog.cpp:356
+#: dialogs/fovdialog.cpp:352
 #, fuzzy
 #| msgid "mm"
 msgctxt "millimeters"
 msgid "mm"
 msgstr "মিলিমিটার"
 
-#: dialogs/fovdialog.cpp:357
+#: dialogs/fovdialog.cpp:353
 msgid "inch"
 msgstr ""
 
-#: dialogs/fovdialog.cpp:358
+#: dialogs/fovdialog.cpp:355
 #, fuzzy
 #| msgid "Aperture:"
 msgid "Aperture diameter: "
 msgstr "অ্যাপার্চার:"
 
-#: dialogs/fovdialog.cpp:361
+#: dialogs/fovdialog.cpp:358
 #, fuzzy
 #| msgid "ID Number"
 msgctxt "F-Number or F-Ratio of optical system"
@@ -2099,38 +2099,21 @@ msgstr "আইপিস"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5)
 #. i18n: ectx: property (text), widget (QLabel, textLabel5_2)
-#: dialogs/newfov.ui:121 dialogs/newfov.ui:582
+#: dialogs/newfov.ui:76 dialogs/newfov.ui:428
 msgid "Telescope focal length:"
 msgstr "দূরবীক্ষণ যন্ত্রের ফোকাস দূরত্ব:"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
-#: dialogs/newfov.ui:128
-msgid "Eyepiece focal length:"
-msgstr "আইপিসের ফোকাস দূরত্ব:"
-
-#. i18n: ectx: property (toolTip), widget (QLabel, textLabel8_2)
-#: dialogs/newfov.ui:141
-msgid "Enter the eyepiece's Apparent field-of-view"
-msgstr ""
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel8_2)
-#: dialogs/newfov.ui:144
-#, fuzzy
-#| msgid "Eyepiece FOV:"
-msgid "Eyepiece AFOV:"
-msgstr "আইপিস FOV:"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, TLength1)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, TLength2)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, LinearFOV)
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, RTDiameter)
-#: dialogs/newfov.ui:160 dialogs/newfov.ui:635 dialogs/newfov.ui:936
-#: dialogs/newfov.ui:1108
+#: dialogs/newfov.ui:88 dialogs/newfov.ui:438 dialogs/newfov.ui:696
+#: dialogs/newfov.ui:837
 msgid "Telescope focal length, in millimeters"
 msgstr "মিলিমিটার এককে দূরবীক্ষণ যন্ত্রের ফোকাস দূরত্ব"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, TLength1)
-#: dialogs/newfov.ui:165
+#: dialogs/newfov.ui:93
 msgid ""
 "Enter the telescope focal length, in millimeters.\n"
 "\n"
@@ -2146,27 +2129,34 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3_2)
+#. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3_3)
 #. i18n: ectx: property (text), widget (QLabel, label_15)
 #. i18n: ectx: property (text), widget (QLabel, label_14)
 #. i18n: ectx: property (text), widget (QLabel, label_17)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, binoApertureUnit)
-#: dialogs/newfov.ui:188 dialogs/newfov.ui:239 dialogs/newfov.ui:663
-#: dialogs/newfov.ui:714 oal/equipmentwriter.ui:149 oal/equipmentwriter.ui:177
-#: oal/equipmentwriter.ui:303 tools/whatsinteresting/wiequipsettings.ui:278
+#: dialogs/newfov.ui:119 dialogs/newfov.ui:178 dialogs/newfov.ui:472
+#: dialogs/newfov.ui:520 dialogs/newfov.ui:568 oal/equipmentwriter.ui:149
+#: oal/equipmentwriter.ui:177 oal/equipmentwriter.ui:303
+#: tools/whatsinteresting/wiequipsettings.ui:278
 #: tools/whatsinteresting/wiequipsettings.ui:306
 #: tools/whatsinteresting/wiequipsettings.ui:423
 msgid "mm"
 msgstr "মিলিমিটার"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel7_2)
+#: dialogs/newfov.ui:144
+msgid "Eyepiece focal length:"
+msgstr "আইপিসের ফোকাস দূরত্ব:"
+
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, EyeLength)
-#: dialogs/newfov.ui:217
+#: dialogs/newfov.ui:156
 msgid "Eyepiece focal length, in millimeters"
 msgstr "মিলিমিটার এককে আইপিসের ফোকাস দূরত্ব"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, EyeLength)
-#: dialogs/newfov.ui:222
+#: dialogs/newfov.ui:161
 msgid ""
 "Enter the eyepiece focal length, in millimeters.\n"
 "\n"
@@ -2178,19 +2168,25 @@ msgstr ""
 "দূরবীক্ষণ যন্ত্রের আইপিসের ফিল্ড-অব-ভিউ (FOV) এর সাথে মিলে যায় এরকম ফিল্ড-অব-ভিউ "
 "(FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
-#. i18n: ectx: property (text), widget (QPushButton, ComputeTLengthFromFNum1)
-#. i18n: ectx: property (text), widget (QPushButton, ComputeTLengthFromFNum2)
-#: dialogs/newfov.ui:300 dialogs/newfov.ui:735
-msgid "or compute from F-Number"
+#. i18n: ectx: property (toolTip), widget (QLabel, textLabel8_2)
+#: dialogs/newfov.ui:209
+msgid "Enter the eyepiece's Apparent field-of-view"
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel8_2)
+#: dialogs/newfov.ui:212
+#, fuzzy
+#| msgid "Eyepiece FOV:"
+msgid "Eyepiece AFOV:"
+msgstr "আইপিস FOV:"
+
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, EyeFOV)
-#: dialogs/newfov.ui:345
+#: dialogs/newfov.ui:257
 msgid "field-of-view of the eyepiece, in arcminutes"
 msgstr "আর্কমিনিট এককে আইপিসের ফোকাস দূরত্ব"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, EyeFOV)
-#: dialogs/newfov.ui:350
+#: dialogs/newfov.ui:262
 msgid ""
 "Enter the eyepiece field-of-view angle, in arcminutes.\n"
 "\n"
@@ -2203,15 +2199,21 @@ msgstr ""
 "(FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
-#: dialogs/newfov.ui:370
+#: dialogs/newfov.ui:282
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
 msgid "degrees"
 msgstr "এভারগ্রিন"
 
+#. i18n: ectx: property (text), widget (QPushButton, ComputeTLengthFromFNum1)
+#. i18n: ectx: property (text), widget (QPushButton, ComputeTLengthFromFNum2)
+#: dialogs/newfov.ui:313 dialogs/newfov.ui:598
+msgid "or compute from F-Number"
+msgstr ""
+
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: dialogs/newfov.ui:390
+#: dialogs/newfov.ui:344
 msgid ""
 "Note: Panoptic, Nagler, Radian, Delos and Ethos are trademarks of Tele Vue "
 "Optics, Inc."
@@ -2220,12 +2222,12 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QPushButton, ComputeEyeFOV)
 #. i18n: ectx: property (toolTip), widget (QPushButton, ComputeCameraFOV)
 #. i18n: ectx: property (toolTip), widget (QPushButton, ComputeBinocularFOV)
-#: dialogs/newfov.ui:446 dialogs/newfov.ui:485 dialogs/newfov.ui:786
+#: dialogs/newfov.ui:400 dialogs/newfov.ui:656 dialogs/newfov.ui:797
 msgid "Compute field-of-view from above data fields"
 msgstr "উপরোক্ত তথ্যের ঘরগুলোতে প্রদত্ত তথ্যের ভিত্তিতে ফিল্ড-অব-ভিউ গণনা করো"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, ComputeEyeFOV)
-#: dialogs/newfov.ui:451
+#: dialogs/newfov.ui:405
 #, fuzzy
 msgid ""
 "This button will compute the field-of-view (FOV) angle for a specific "
@@ -2245,17 +2247,68 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QPushButton, ComputeEyeFOV)
 #. i18n: ectx: property (text), widget (QPushButton, ComputeCameraFOV)
 #. i18n: ectx: property (text), widget (QPushButton, ComputeBinocularFOV)
-#: dialogs/newfov.ui:454 dialogs/newfov.ui:493 dialogs/newfov.ui:794
+#: dialogs/newfov.ui:408 dialogs/newfov.ui:664 dialogs/newfov.ui:805
 msgid "Compute FOV"
 msgstr "FOV গণনা করো"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab2)
-#: dialogs/newfov.ui:464
+#: dialogs/newfov.ui:418
 msgid "Camera"
 msgstr "ক্যামেরা"
 
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, TLength2)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, LinearFOV)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, RTDiameter)
+#: dialogs/newfov.ui:443 dialogs/newfov.ui:701 dialogs/newfov.ui:842
+msgid ""
+"Enter the telescope focal length, in millimeters.\n"
+"\n"
+"This is one of the data fields required for defining a field-of-view (FOV) "
+"symbol which matches the field-of-view of a camera mounted on a telescope."
+msgstr ""
+"মিলিমিটার এককে দূরবীক্ষণ যন্ত্রের ফোকাস দূরত্ব লিখুন।\n"
+"\n"
+"দূরবীক্ষণ যন্ত্রের ওপর মাউন্টকৃত ক্যামেরার ফিল্ড-অব-ভিউ (FOV) এর সাথে মিলে যায় এরকম "
+"ফিল্ড-অব-ভিউ (FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9)
+#: dialogs/newfov.ui:479
+#, fuzzy
+#| msgid "Chip/Film size:"
+msgid "Chip/Film width:"
+msgstr "চিপ/ফিল্মের আকার:"
+
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, ChipWidth)
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, ChipHeight)
+#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, WaveLength)
+#: dialogs/newfov.ui:489 dialogs/newfov.ui:537 dialogs/newfov.ui:892
+msgid "Size of chip or film, in millimeters"
+msgstr "মিলিমিটার এককে চিপ বা ফিল্মের আকার"
+
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, ChipWidth)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, ChipHeight)
+#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, WaveLength)
+#: dialogs/newfov.ui:494 dialogs/newfov.ui:542 dialogs/newfov.ui:897
+msgid ""
+"Enter the physical size of the CCD chip or film negative.\n"
+"\n"
+"This is one of the data fields required for defining a field-of-view (FOV) "
+"symbol which matches the field-of-view of a camera mounted on a telescope."
+msgstr ""
+"সি.সি.ডি. চিপ বা ফিল্মের নেগেটিভের প্রকৃত (physical) আকার লিখুন।\n"
+"\n"
+"দূরবীক্ষণ যন্ত্রের উপর মাউন্টকৃত ক্যামেরার ফিল্ড-অব-ভিউ (FOV) এর সাথে মিলে যায় এরকম "
+"ফিল্ড-অব-ভিউ (FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_2)
+#: dialogs/newfov.ui:527
+#, fuzzy
+#| msgid "Chip/Film size:"
+msgid "Chip/Film height:"
+msgstr "চিপ/ফিল্মের আকার:"
+
 #. i18n: ectx: property (whatsThis), widget (QPushButton, ComputeCameraFOV)
-#: dialogs/newfov.ui:490
+#: dialogs/newfov.ui:661
 #, fuzzy
 msgid ""
 "This button will compute the field-of-view (FOV) angle for a specific camera/"
@@ -2271,56 +2324,29 @@ msgstr ""
 "\n"
 "গণনাকৃত FOV কোণকে (আর্কমিনিটে প্রকাশিত) \"ফিল্ড-অব-ভিউ\" সম্পাদন বাক্সে দেখানো হবে।"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel9)
-#: dialogs/newfov.ui:589
-msgid "Chip/Film size:"
-msgstr "চিপ/ফিল্মের আকার:"
-
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, TLength2)
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, LinearFOV)
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, RTDiameter)
-#: dialogs/newfov.ui:640 dialogs/newfov.ui:941 dialogs/newfov.ui:1113
-msgid ""
-"Enter the telescope focal length, in millimeters.\n"
-"\n"
-"This is one of the data fields required for defining a field-of-view (FOV) "
-"symbol which matches the field-of-view of a camera mounted on a telescope."
-msgstr ""
-"মিলিমিটার এককে দূরবীক্ষণ যন্ত্রের ফোকাস দূরত্ব লিখুন।\n"
-"\n"
-"দূরবীক্ষণ যন্ত্রের ওপর মাউন্টকৃত ক্যামেরার ফিল্ড-অব-ভিউ (FOV) এর সাথে মিলে যায় এরকম "
-"ফিল্ড-অব-ভিউ (FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
-
-#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, ChipSize)
-#. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, WaveLength)
-#: dialogs/newfov.ui:692 dialogs/newfov.ui:1165
-msgid "Size of chip or film, in millimeters"
-msgstr "মিলিমিটার এককে চিপ বা ফিল্মের আকার"
-
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, ChipSize)
-#. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, WaveLength)
-#: dialogs/newfov.ui:697 dialogs/newfov.ui:1170
-msgid ""
-"Enter the physical size of the CCD chip or film negative.\n"
-"\n"
-"This is one of the data fields required for defining a field-of-view (FOV) "
-"symbol which matches the field-of-view of a camera mounted on a telescope."
-msgstr ""
-"সি.সি.ডি. চিপ বা ফিল্মের নেগেটিভের প্রকৃত (physical) আকার লিখুন।\n"
-"\n"
-"দূরবীক্ষণ যন্ত্রের উপর মাউন্টকৃত ক্যামেরার ফিল্ড-অব-ভিউ (FOV) এর সাথে মিলে যায় এরকম "
-"ফিল্ড-অব-ভিউ (FOV) প্রতীক নির্ধারণের ক্ষেত্রে এটি তথ্যের একটি অন্যতম পূরণীয় ঘর।"
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab3)
-#: dialogs/newfov.ui:765
+#: dialogs/newfov.ui:674
 #, fuzzy
 #| msgctxt "use field-of-view for binoculars"
 #| msgid "7x35 Binoculars"
 msgid "Binocular"
 msgstr "৭x৩৫ দূরবীন"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel15_3)
+#: dialogs/newfov.ui:684
+#, fuzzy
+#| msgid "Field of view (arcmin):"
+msgid "Field of View:"
+msgstr "ফিল্ড অব ভিউ (আর্কমিনিট):"
+
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_31)
+#: dialogs/newfov.ui:739
+#, fuzzy
+msgid "At a distance of:"
+msgstr "কৌণিক দূরত্ব: "
+
 #. i18n: ectx: property (whatsThis), widget (QPushButton, ComputeBinocularFOV)
-#: dialogs/newfov.ui:791
+#: dialogs/newfov.ui:802
 #, fuzzy
 msgid ""
 "This button will compute the field-of-view (FOV) angle for a binocular.  You "
@@ -2335,53 +2361,44 @@ msgstr ""
 "\n"
 "গণনাকৃত FOV কোণকে (আর্কমিনিটে প্রকাশিত) \"ফিল্ড-অব-ভিউ\" সম্পাদন বাক্সে দেখানো হবে।"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel15_3)
-#: dialogs/newfov.ui:883
-#, fuzzy
-#| msgid "Field of view (arcmin):"
-msgid "Field of View:"
-msgstr "ফিল্ড অব ভিউ (আর্কমিনিট):"
-
-#. i18n: ectx: property (text), widget (QLabel, textLabel9_31)
-#: dialogs/newfov.ui:890
-#, fuzzy
-msgid "At a distance of:"
-msgstr "কৌণিক দূরত্ব: "
-
 #. i18n: ectx: attribute (title), widget (QWidget, tab4)
-#: dialogs/newfov.ui:1000
-msgid "Radiotelescope"
+#: dialogs/newfov.ui:815
+#, fuzzy
+#| msgid "Radiotelescope"
+msgid "Radio Telescope"
 msgstr "বেতার-দূরবীক্ষণ-যন্ত্র"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel5_2_3)
-#: dialogs/newfov.ui:1055
-msgid "Radiotelescope diameter:"
+#: dialogs/newfov.ui:825
+#, fuzzy
+#| msgid "Radiotelescope diameter:"
+msgid "Radio Telescope diameter:"
 msgstr "বেতার-দূরবীক্ষণ-যন্ত্রের ব্যাস:"
 
-#. i18n: ectx: property (text), widget (QLabel, textLabel9_3)
-#: dialogs/newfov.ui:1062
-msgid "Wavelength:"
-msgstr "তরঙ্গদৈর্ঘ্য:"
-
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3_4)
-#: dialogs/newfov.ui:1136
+#: dialogs/newfov.ui:871
 msgid "m"
 msgstr "মিটার"
 
+#. i18n: ectx: property (text), widget (QLabel, textLabel9_3)
+#: dialogs/newfov.ui:880
+msgid "Wavelength:"
+msgstr "তরঙ্গদৈর্ঘ্য:"
+
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_3_2_3)
-#: dialogs/newfov.ui:1187
+#: dialogs/newfov.ui:914
 msgid "cm"
 msgstr "সেন্টিিমিটার"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ComputeHPBW)
-#: dialogs/newfov.ui:1249
+#: dialogs/newfov.ui:989
 msgid "Compute radiotelescope HPBW from above data fields"
 msgstr ""
 "উপরোক্ত ঘরগুলোতে প্রদত্ত তথ্যের ভিত্তিতে বেতার-দূরবীক্ষণ-যন্ত্রের এইচ.পি.বি.ডব্লিউ. "
 "গণনা করো"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, ComputeHPBW)
-#: dialogs/newfov.ui:1254
+#: dialogs/newfov.ui:994
 #, fuzzy
 msgid ""
 "This button will compute the Half Power Beam Width (HPBW) angle for a "
@@ -2401,24 +2418,24 @@ msgstr ""
 "বাক্সে দেখানো হবে।"
 
 #. i18n: ectx: property (text), widget (QPushButton, ComputeHPBW)
-#: dialogs/newfov.ui:1257
+#: dialogs/newfov.ui:997
 msgid "Compute HPBW"
 msgstr "এইচ.পি.বি.ডব্লিউ. গণনা করো"
 
 #. i18n: ectx: property (text), widget (QLabel, fieldoFviewLabel)
-#: dialogs/newfov.ui:1275
+#: dialogs/newfov.ui:1015
 #, fuzzy
 #| msgid "Field of view (arcmin):"
 msgid "Field of view:"
 msgstr "ফিল্ড অব ভিউ (আর্কমিনিট):"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVEditX)
-#: dialogs/newfov.ui:1282
+#: dialogs/newfov.ui:1022
 msgid "Desired field-of-view size, in arcminutes"
 msgstr "আর্কমিনিট এককে আকাঙ্খিত ফিল্ড-অব-ভিউ এর আকার"
 
 #. i18n: ectx: property (whatsThis), widget (QLineEdit, FOVEditX)
-#: dialogs/newfov.ui:1287
+#: dialogs/newfov.ui:1027
 #, fuzzy
 msgid ""
 "Enter the desired angular size for the field-of-view (FOV) symbol.\n"
@@ -2435,24 +2452,24 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: dialogs/newfov.ui:1294 dialogs/newfov.ui:1314 dialogs/newfov.ui:1341
-#: dialogs/newfov.ui:1368
+#: dialogs/newfov.ui:1034 dialogs/newfov.ui:1054 dialogs/newfov.ui:1081
+#: dialogs/newfov.ui:1108
 msgid "arcmin"
 msgstr "আর্কমিনিট"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: dialogs/newfov.ui:1301
+#: dialogs/newfov.ui:1041
 msgid " x "
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fieldoFviewLabel_2)
-#: dialogs/newfov.ui:1321
+#: dialogs/newfov.ui:1061
 #, fuzzy
 msgid "Offset X:"
 msgstr "বিশ্বজনীন-সময় (universal Time) থেকে পার্থক্য:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVEditOffsetX)
-#: dialogs/newfov.ui:1328
+#: dialogs/newfov.ui:1068
 #, fuzzy
 #| msgid "Desired field-of-view size, in arcminutes"
 msgid "Desired horizontal offset  in arcminutes"
@@ -2461,36 +2478,36 @@ msgstr "আর্কমিনিট এককে আকাঙ্খিত ফি
 #. i18n: ectx: property (text), widget (QLineEdit, FOVEditOffsetX)
 #. i18n: ectx: property (text), widget (QLineEdit, FOVEditOffsetY)
 #. i18n: ectx: property (text), widget (QLineEdit, FOVEditRotation)
-#: dialogs/newfov.ui:1334 dialogs/newfov.ui:1361 dialogs/newfov.ui:1388
+#: dialogs/newfov.ui:1074 dialogs/newfov.ui:1101 dialogs/newfov.ui:1128
 msgid "0"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, fieldoFviewLabel_3)
-#: dialogs/newfov.ui:1348
+#: dialogs/newfov.ui:1088
 #, fuzzy
 msgid "Offset Y:"
 msgstr "বিশ্বজনীন-সময় (universal Time) থেকে পার্থক্য:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVEditOffsetY)
-#: dialogs/newfov.ui:1355
+#: dialogs/newfov.ui:1095
 #, fuzzy
 #| msgid "Desired field-of-view size, in arcminutes"
 msgid "Desired vertical offset  in arcminutes"
 msgstr "আর্কমিনিট এককে আকাঙ্খিত ফিল্ড-অব-ভিউ এর আকার"
 
 #. i18n: ectx: property (text), widget (QLabel, fieldoFviewLabel_4)
-#: dialogs/newfov.ui:1375
+#: dialogs/newfov.ui:1115
 #, fuzzy
 msgid "Rotation:"
 msgstr "কাজ:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, FOVEditRotation)
-#: dialogs/newfov.ui:1382
+#: dialogs/newfov.ui:1122
 msgid "Desired rotation with respect to center in degrees"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#: dialogs/newfov.ui:1395
+#: dialogs/newfov.ui:1135
 #, fuzzy
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
@@ -2498,29 +2515,29 @@ msgid "Degrees"
 msgstr "এভারগ্রিন"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, ColorButton)
-#: dialogs/newfov.ui:1484
+#: dialogs/newfov.ui:1224
 msgid "Select color for the field-of-view symbol"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের রং বেছে নিন"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, ColorButton)
-#: dialogs/newfov.ui:1487
+#: dialogs/newfov.ui:1227
 msgid "Select a color for the field-of-view (FOV) symbol."
 msgstr "ফিল্ড-অব-ভিউ (FOV) প্রতীকের রং বেছে নিন।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel8)
 #. i18n: ectx: property (text), widget (QLabel, label_12)
 #. i18n: ectx: property (text), widget (QLabel, textLabelXplanetColor)
-#: dialogs/newfov.ui:1504 oal/equipmentwriter.ui:609 xplanet/opsxplanet.ui:539
+#: dialogs/newfov.ui:1244 oal/equipmentwriter.ui:609 xplanet/opsxplanet.ui:539
 msgid "Color:"
 msgstr "রং:"
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, ShapeBox)
-#: dialogs/newfov.ui:1511
+#: dialogs/newfov.ui:1251
 msgid "Select a shape for the field-of-view symbol"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃতি বেছে নিন"
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, ShapeBox)
-#: dialogs/newfov.ui:1516
+#: dialogs/newfov.ui:1256
 msgid ""
 "Select a shape for the field-of-view (FOV) symbol.  The possible shapes "
 "are:\n"
@@ -2532,33 +2549,33 @@ msgstr ""
 "বৃত্ত, বর্গক্ষেত্র, Crosshair, লক্ষ্যবিন্দু"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ShapeBox)
-#: dialogs/newfov.ui:1520
+#: dialogs/newfov.ui:1260
 msgid "Square"
 msgstr "বর্গক্ষেত্র"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ShapeBox)
-#: dialogs/newfov.ui:1525
+#: dialogs/newfov.ui:1265
 msgid "Circle"
 msgstr "বৃত্ত"
 
 # FIXME
 #. i18n: ectx: property (text), item, widget (QComboBox, ShapeBox)
-#: dialogs/newfov.ui:1530
+#: dialogs/newfov.ui:1270
 msgid "Crosshairs"
 msgstr "ক্রসহেয়ার"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ShapeBox)
-#: dialogs/newfov.ui:1535
+#: dialogs/newfov.ui:1275
 msgid "Bullseye"
 msgstr "লক্ষ্যবিন্দু"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, ShapeBox)
-#: dialogs/newfov.ui:1540
+#: dialogs/newfov.ui:1280
 msgid "Semitransparent circle"
 msgstr "অর্ধস্বচ্ছ বৃত্ত"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel7)
-#: dialogs/newfov.ui:1548
+#: dialogs/newfov.ui:1288
 msgid "Shape:"
 msgstr "আকৃতি:"
 
