@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kio_nfs\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2011-08-02 05:32+0200\n"
+"POT-Creation-Date: 2014-12-18 02:01+0000\n"
 "PO-Revision-Date: 2004-07-30 13:05-0500\n"
 "Last-Translator: Khandakar Mujahidul Islam <suzan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -19,22 +19,45 @@ msgstr ""
 "X-Generator: KBabel 1.3.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: kio_nfs.cpp:949
-msgid "An RPC error occurred."
-msgstr "আর-পি-সি (RPC) সমস্যা সংঘটিত হয়েছে।"
+#: kio_nfs.cpp:131
+#, kde-format
+msgid "%1: Unsupported NFS version"
+msgstr ""
 
-#: kio_nfs.cpp:993
+#: kio_nfs.cpp:658
+#, kde-format
+msgid "RPC error %1"
+msgstr ""
+
+#: kio_nfs.cpp:701
 msgid "No space left on device"
 msgstr "ডিভাইসে কোন জায়গা খালি নেই"
 
-#: kio_nfs.cpp:996
+#: kio_nfs.cpp:704
 msgid "Read only file system"
 msgstr "শুধুমাত্র পড়ার উপযোগী ফাইল সিস্টেম"
 
-#: kio_nfs.cpp:999
+#: kio_nfs.cpp:707
 msgid "Filename too long"
 msgstr "ফাইলের নামটি বড্ড বড়"
 
-#: kio_nfs.cpp:1006
+#: kio_nfs.cpp:714
 msgid "Disk quota exceeded"
 msgstr "ডিস্কের কোটা পেরিয়ে গেছে"
+
+#: kio_nfs.cpp:720
+#, kde-format
+msgid "NFS error %1 - %2"
+msgstr ""
+
+#: nfsv2.cpp:260 nfsv3.cpp:275
+#, kde-format
+msgid "Failed to mount %1"
+msgstr ""
+
+#: nfsv2.cpp:432 nfsv2.cpp:494 nfsv3.cpp:448 nfsv3.cpp:615
+msgid "Unknown target"
+msgstr ""
+
+#~ msgid "An RPC error occurred."
+#~ msgstr "আর-পি-সি (RPC) সমস্যা সংঘটিত হয়েছে।"
