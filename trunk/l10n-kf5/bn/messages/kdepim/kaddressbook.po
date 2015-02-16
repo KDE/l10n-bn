@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-02-15 09:05+0000\n"
+"POT-Creation-Date: 2015-02-16 09:01+0000\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -588,6 +588,7 @@ msgstr "পরিচ&য় মুছে ফেলো"
 
 #: merge/manualmerge/mergecontactsdialog.cpp:54
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:74
+#: merge/widgets/noenoughcontactselectedwidget.cpp:27
 msgid "You must select at least two elements."
 msgstr ""
 
@@ -596,11 +597,11 @@ msgstr ""
 msgid "You selected %1 and some item has not the same name"
 msgstr ""
 
-#: merge/manualmerge/mergecontactsdialog.cpp:96
+#: merge/manualmerge/mergecontactsdialog.cpp:101
 msgid "Error while merging contacts."
 msgstr ""
 
-#: merge/manualmerge/mergecontactsdialog.cpp:96
+#: merge/manualmerge/mergecontactsdialog.cpp:101
 #, fuzzy
 #| msgid "&New Contact..."
 msgid "Merge contact"
@@ -630,17 +631,18 @@ msgstr ""
 msgid "Merged Contact"
 msgstr "&নতুন পরিচয়..."
 
-#: merge/searchduplicate/resultduplicatetreewidget.cpp:28
-#, fuzzy
-#| msgid "Contains"
-msgid "Contacts"
-msgstr "-তে আছে"
-
+#: merge/searchduplicate/mergecontactselectinformationtabwidget.cpp:62
 #: merge/searchduplicate/resultduplicatetreewidget.cpp:52
 #, fuzzy, kde-format
 #| msgid "&Delete Contact"
 msgid "Duplicate contact %1"
 msgstr "পরিচ&য় মুছে ফেলো"
+
+#: merge/searchduplicate/resultduplicatetreewidget.cpp:28
+#, fuzzy
+#| msgid "Contains"
+msgid "Contacts"
+msgstr "-তে আছে"
 
 #: merge/searchduplicate/searchandmergecontactduplicatecontactdialog.cpp:56
 msgid "No contacts selected."
@@ -659,7 +661,24 @@ msgid "Select AddressBook:"
 msgstr "ঠিকানা তালিকা"
 
 #: merge/searchduplicate/searchduplicateresultwidget.cpp:80
+#: merge/widgets/mergecontactselectinformationscrollarea.cpp:52
 msgid "Merge"
+msgstr ""
+
+#: merge/widgets/mergecontactloseinformationwarning.cpp:31
+msgid ""
+"Some information can be lost. Do you want to continue or customize what do "
+"you want to merge ?"
+msgstr ""
+
+#: merge/widgets/mergecontactloseinformationwarning.cpp:33
+#, fuzzy
+#| msgid "Customer"
+msgid "Customize"
+msgstr "ক্রেতা"
+
+#: merge/widgets/mergecontactloseinformationwarning.cpp:38
+msgid "Automatic Merging"
 msgstr ""
 
 #: modelcolumnmanager.cpp:78
@@ -3222,12 +3241,6 @@ msgstr ""
 #~ msgctxt "@item Contact category"
 #~ msgid "School"
 #~ msgstr "স্কুল"
-
-#, fuzzy
-#~| msgid "Customer"
-#~ msgctxt "@item Contact category"
-#~ msgid "Customer"
-#~ msgstr "ক্রেতা"
 
 #, fuzzy
 #~| msgid "Friend"
