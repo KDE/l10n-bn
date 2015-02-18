@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2014-08-08 08:32+0000\n"
+"POT-Creation-Date: 2015-02-18 08:40+0000\n"
 "PO-Revision-Date: 2012-07-16 14:27+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -56,14 +56,44 @@ msgstr "&কমান্ড চালাও"
 msgid "Select the command to run"
 msgstr "চালানোর জন্য কমান্ড নির্বাচন করুন"
 
-#. i18n: ectx: property (text), widget (QCheckBox, KTTS_check)
+#. i18n: ectx: property (text), widget (QCheckBox, TTS_check)
 #: knotifyconfigactionswidgetbase.ui:106
 msgid "Sp&eech"
 msgstr "&কথা"
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, KTTS_combo)
-#. i18n: ectx: property (whatsThis), widget (KLineEdit, KTTS_select)
-#: knotifyconfigactionswidgetbase.ui:119 knotifyconfigactionswidgetbase.ui:141
+#. i18n: ectx: property (whatsThis), widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:119
+#, fuzzy, no-c-format
+msgid ""
+"<qt>Specifies how knotify should speak the event when received.  If you "
+"select \"Speak custom text\", enter the text in the box.  You may use the "
+"following substitution strings in the text:<dl><dt>%e</dt><dd>Name of the "
+"event</dd><dt>%a</dt><dd>Application that sent the event</dd><dt>%m</"
+"dt><dd>The message sent by the application</dd></dl></qt>"
+msgstr ""
+"<qt>ের যেমন KTTS ঘটনা উল্লেখ কর কথা বলো যখন গ্রহন করেছিল। যদি আপনি\"স্বনির্বাচিত "
+"লেখা\"নির্বাচন করো কথা বলো, বাক্সে লেখা ঢোকাও। আপনি লেখাতে নিম্নলিখিত "
+"substitution পঙ্‌ক্তি ব্যবহার করতে পারেন:<dl><dt>%e</dt><dd>ঘটনার নাম</dd><dt>"
+"%a</dt><dd>অ্যাপলিকেশন যে ঘটনা পাঠিয়েছিল</dd><dt>%m</dt><dd>বার্তা "
+"অ্যাপলিকেশনের দ্বারা পাঠিয়েছিল</dd></dl></qt>"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:123
+msgid "Speak Event Message"
+msgstr "ঘটনাবার্তা পড়ে শোনাও"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:128
+msgid "Speak Event Name"
+msgstr "ঘটনার নাম বলো"
+
+#. i18n: ectx: property (text), item, widget (KComboBox, TTS_combo)
+#: knotifyconfigactionswidgetbase.ui:133
+msgid "Speak Custom Text"
+msgstr "স্বনির্বাচিত লেখা পড়ে শোনাও"
+
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, TTS_select)
+#: knotifyconfigactionswidgetbase.ui:141
 #, fuzzy, no-c-format
 msgid ""
 "<qt>Specifies how Jovie should speak the event when received.  If you select "
@@ -77,21 +107,6 @@ msgstr ""
 "substitution পঙ্‌ক্তি ব্যবহার করতে পারেন:<dl><dt>%e</dt><dd>ঘটনার নাম</dd><dt>"
 "%a</dt><dd>অ্যাপলিকেশন যে ঘটনা পাঠিয়েছিল</dd><dt>%m</dt><dd>বার্তা "
 "অ্যাপলিকেশনের দ্বারা পাঠিয়েছিল</dd></dl></qt>"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:123
-msgid "Speak Event Message"
-msgstr "ঘটনাবার্তা পড়ে শোনাও"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:128
-msgid "Speak Event Name"
-msgstr "ঘটনার নাম বলো"
-
-#. i18n: ectx: property (text), item, widget (KComboBox, KTTS_combo)
-#: knotifyconfigactionswidgetbase.ui:133
-msgid "Speak Custom Text"
-msgstr "স্বনির্বাচিত লেখা পড়ে শোনাও"
 
 #: knotifyconfigwidget.cpp:101
 msgid "Configure Notifications"
