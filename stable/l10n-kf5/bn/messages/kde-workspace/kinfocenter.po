@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kinfocenter\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-01-13 12:16+0000\n"
+"POT-Creation-Date: 2015-04-09 08:40+0000\n"
 "PO-Revision-Date: 2009-01-05 20:48-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -31,70 +31,46 @@ msgstr "deepayan@bengalinux.org"
 
 #: infocenter.cpp:52
 #, fuzzy
+#| msgid "KDE Info Center"
 msgctxt "Main window title"
 msgid "KInfocenter"
 msgstr "কে.ডি.ই তথ্য কেন্দ্র"
 
-#: infocenter.cpp:130
+#: infocenter.cpp:128
 #, fuzzy
+#| msgid "About Current Module"
 msgctxt "Information about current module located in about menu"
 msgid "About Current Information Module"
 msgstr "সক্রিয় মডিউল সম্বন্ধে"
 
-#: infocenter.cpp:135
-msgctxt "Export button label"
-msgid "Export"
-msgstr ""
-
-#: infocenter.cpp:139
+#: infocenter.cpp:133
 #, fuzzy
+#| msgid "Model"
 msgctxt "Module help button label"
 msgid "Module Help"
 msgstr "মডেল"
 
-#: infocenter.cpp:142
+#: infocenter.cpp:136
 msgctxt "Help button label"
 msgid "Help"
 msgstr ""
 
-#: infocenter.cpp:182
+#: infocenter.cpp:176
 #, fuzzy
 msgctxt "Search Bar Click Message"
 msgid "Search"
 msgstr "সন্ধান:"
 
-#: infocenter.cpp:187
+#: infocenter.cpp:181
 msgctxt "Kaction search label"
 msgid "Search Modules"
 msgstr ""
 
-#: infocenter.cpp:249
-msgid "Export of the module has produced no output."
-msgstr ""
-
-#: infocenter.cpp:259
-msgid "Unable to open file to write export information"
-msgstr ""
-
-#: infocenter.cpp:264
-#, kde-format
-msgid "Export information for %1"
-msgstr ""
-
-#: infocenter.cpp:268
-#, fuzzy
-msgid "Information exported"
-msgstr "তথ্য"
-
 #: infokcmmodel.cpp:32
 #, fuzzy
+#| msgid "Information"
 msgid "Information Modules"
 msgstr "তথ্য"
-
-#: kcmcontainer.cpp:108
-#, kde-format
-msgid "%1  ( %2 )"
-msgstr ""
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: kinfocenterui.rc:10
@@ -112,6 +88,7 @@ msgstr "কে.ডি.ই তথ্য কেন্দ্র"
 
 #: main.cpp:52
 #, fuzzy
+#| msgid "(c) 1998-2004, The KDE Control Center Developers"
 msgid "(c) 2009-2010, The KDE SC KInfocenter Development Team"
 msgstr "(c) ১৯৯৮-২০০৪, কে.ডি.ই নিয়ন্ত্রণ কেন্দ্র ডেভেলপারবৃন্দ"
 
@@ -151,18 +128,24 @@ msgstr "Waldo Bastian"
 msgid "Nicolas Ternisien"
 msgstr "Nicolas Ternisien"
 
-#: sidepanel.cpp:102
+#: sidepanel.cpp:103
 #, fuzzy
+#| msgid "Clear search"
 msgid "Clear Search"
 msgstr "সন্ধান ফাঁকা করো"
 
-#: sidepanel.cpp:105
+#: sidepanel.cpp:106
 msgid "Expand All Categories"
 msgstr ""
 
-#: sidepanel.cpp:108
+#: sidepanel.cpp:109
 msgid "Collapse All Categories"
 msgstr ""
+
+#, fuzzy
+#~| msgid "Information"
+#~ msgid "Information exported"
+#~ msgstr "তথ্য"
 
 #~ msgid "Name"
 #~ msgstr "নাম"
@@ -177,6 +160,7 @@ msgstr ""
 #~ msgstr "বর্ণনা"
 
 #, fuzzy
+#~| msgid "Device Information"
 #~ msgid "Information"
 #~ msgstr "ডিভাইস তথ্য"
 
@@ -184,6 +168,7 @@ msgstr ""
 #~ msgstr "মান"
 
 #, fuzzy
+#~| msgid "MB"
 #~ msgctxt "Mebibyte"
 #~ msgid "MiB "
 #~ msgstr "এম-বি"
@@ -288,6 +273,7 @@ msgstr ""
 #~ msgstr "Numerical Coprocessor (FPU)"
 
 #, fuzzy
+#~| msgid "MB"
 #~ msgctxt "Mebibyte"
 #~ msgid "MiB"
 #~ msgstr "এম-বি"
@@ -296,6 +282,7 @@ msgstr ""
 #~ msgstr "মোট ভৌতিক মেমরি"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgid " Bytes"
 #~ msgstr "বাইট"
 
@@ -513,10 +500,12 @@ msgstr ""
 #~ msgstr "/sbin/mount চালাতে অক্ষম।"
 
 #, fuzzy
+#~| msgid "Device Name: %1"
 #~ msgid "Device Name"
 #~ msgstr "ডিভাইস নাম: %1"
 
 #, fuzzy
+#~| msgid "Manufacturer: %1"
 #~ msgid "Manufacturer"
 #~ msgstr "প্রস্তুতকারক: %1"
 
@@ -528,10 +517,12 @@ msgstr ""
 #~ msgstr "সি-পি-ইউ ধরন"
 
 #, fuzzy
+#~| msgid "CPU Type"
 #~ msgid "FPU Type"
 #~ msgstr "সি-পি-ইউ ধরন"
 
 #, fuzzy
+#~| msgid "Status"
 #~ msgid "State"
 #~ msgstr "অবস্থা"
 
@@ -546,6 +537,7 @@ msgstr ""
 #~ msgstr "block special"
 
 #, fuzzy
+#~| msgid "Spectype:"
 #~ msgctxt "Can be either character special or block special"
 #~ msgid "Special type:"
 #~ msgstr "Spectype:"
@@ -589,70 +581,86 @@ msgstr ""
 #~ msgstr "ডিভাইস তথ্য"
 
 #, fuzzy
+#~| msgid "ALSBFirst (LSB)"
 #~ msgid "LSBFirst"
 #~ msgstr "ALSBFirst (LSB)"
 
 #, fuzzy
+#~| msgid "AMSBFirst (MSB)"
 #~ msgid "MSBFirst"
 #~ msgstr "AMSBFirst (MSB)"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgid "1 Bit"
 #~ msgid_plural "%1 Bits"
 #~ msgstr[0] "বাইট"
 #~ msgstr[1] "বাইট"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgctxt "singular form: '1 Byte' (yes, it is '1', not '%1'!)"
 #~ msgid "1 Byte"
 #~ msgstr "বাইট"
 
 #, fuzzy
+#~| msgid "Bytes"
 #~ msgctxt "plural form: '%1 Bytes'"
 #~ msgid "%1 Bytes"
 #~ msgstr "বাইট"
 
 #, fuzzy
+#~| msgid "Number of Active Processors"
 #~ msgid "Number of Colormaps"
 #~ msgstr "সক্রিয় প্রসেসারের সংখ্যা"
 
 #, fuzzy
+#~| msgid "Number of Active Processors"
 #~ msgid "Default Colormap"
 #~ msgstr "সক্রিয় প্রসেসারের সংখ্যা"
 
 #, fuzzy
+#~| msgid "Number of Active Processors"
 #~ msgid "Default Number of Colormap Cells"
 #~ msgstr "সক্রিয় প্রসেসারের সংখ্যা"
 
 #, fuzzy
+#~| msgid "Mount Options"
 #~ msgid "Options"
 #~ msgstr "মাউন্ট অপশনস"
 
 #, fuzzy
+#~| msgid "Device Information"
 #~ msgid "Server Information"
 #~ msgstr "ডিভাইস তথ্য"
 
 #, fuzzy
+#~| msgid "Vendor"
 #~ msgid "Vendor String"
 #~ msgstr "বিক্রেতা"
 
 #, fuzzy
+#~| msgid "Vendor Number"
 #~ msgid "Vendor Release Number"
 #~ msgstr "বিক্রেতা সংখ্যা"
 
 #, fuzzy
+#~| msgid "Vendor Number"
 #~ msgid "Version Number"
 #~ msgstr "বিক্রেতা সংখ্যা"
 
 #, fuzzy
+#~| msgid "Ev Buffer Size"
 #~ msgid "Motion Buffer Size"
 #~ msgstr "Ev Buffer Size"
 
 #, fuzzy
+#~| msgid "Bit Order"
 #~ msgid "Order"
 #~ msgstr "বিট-এর ক্রম "
 
 #, fuzzy
+#~| msgid "Byte Order"
 #~ msgid "Image Byte Order"
 #~ msgstr "বাইট-এর ক্রম  "
 
@@ -719,6 +727,10 @@ msgstr ""
 #~ "অবস্থাই রেখে দিতে চান? "
 
 #, fuzzy
+#~| msgid ""
+#~| "There are unsaved changes in the active module.\n"
+#~| "Do you want to apply the changes before exiting the Control Center or "
+#~| "discard the changes?"
 #~ msgid ""
 #~ "There are unsaved changes in the active module.\n"
 #~ "Do you want to apply the changes before exiting the System Settings or "
@@ -751,6 +763,7 @@ msgstr ""
 #~ msgstr "%1 মডিউল সম্বন্ধে বাগ রিপোর্ট..."
 
 #, fuzzy
+#~| msgid "MB"
 #~ msgid " MB"
 #~ msgstr "এম-বি"
 
