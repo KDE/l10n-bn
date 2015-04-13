@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-11 08:57+0000\n"
+"POT-Creation-Date: 2015-04-13 08:22+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1782,19 +1782,19 @@ msgctxt "Menu item"
 msgid "Encoding"
 msgstr "এনকোডিং"
 
-#: editor/kmcomposereditor.cpp:69
+#: editor/kmcomposereditor.cpp:68
 msgid "Pa&ste as Quotation"
 msgstr "উদ্ধৃতি হিসাবে সাঁটো (&স)"
 
-#: editor/kmcomposereditor.cpp:75
+#: editor/kmcomposereditor.cpp:74
 msgid "Add &Quote Characters"
 msgstr "উদ্ধৃতিচিহ্ন যো&গ করো"
 
-#: editor/kmcomposereditor.cpp:80
+#: editor/kmcomposereditor.cpp:79
 msgid "Re&move Quote Characters"
 msgstr "উদ্ধৃতিচিহ্ন &সরিয়ে ফেলো"
 
-#: editor/kmcomposereditor.cpp:85
+#: editor/kmcomposereditor.cpp:84
 #, fuzzy
 #| msgid "Login Information"
 msgid "Paste Without Formatting"
@@ -4678,6 +4678,95 @@ msgid_plural "%1 unread messages"
 msgstr[0] "অপঠিত বার্তা"
 msgstr[1] "অপঠিত বার্তা"
 
+#: kontactplugin/kcmkmailsummary.cpp:67
+msgid "kcmkmailsummary"
+msgstr ""
+
+#: kontactplugin/kcmkmailsummary.cpp:69
+msgid "Mail Summary Configuration Dialog"
+msgstr ""
+
+#: kontactplugin/kcmkmailsummary.cpp:71
+msgid "Copyright © 2004–2010 Tobias Koenig"
+msgstr ""
+
+#: kontactplugin/kcmkmailsummary.cpp:72
+msgid "Tobias Koenig"
+msgstr ""
+
+#: kontactplugin/kcmkmailsummary.cpp:88
+#, fuzzy
+#| msgid "Show alway&s"
+msgid "Show full path for folders"
+msgstr "&সর্বদা দেখাও"
+
+#: kontactplugin/kcmkmailsummary.cpp:90
+msgctxt "@info:tooltip"
+msgid "Show full path for each folder"
+msgstr ""
+
+#: kontactplugin/kcmkmailsummary.cpp:93
+msgctxt "@info:whatsthis"
+msgid ""
+"Enable this option if you want to see the full path for each folder listed "
+"in the summary. If this option is not enabled, then only the base folder "
+"path will be shown."
+msgstr ""
+
+#: kontactplugin/kmail_plugin.cpp:60
+#, fuzzy
+#| msgid "&New Message..."
+msgctxt "@action:inmenu"
+msgid "New Message..."
+msgstr "&নতুন বার্তা..."
+
+#: kontactplugin/kmail_plugin.cpp:67
+msgctxt "@info:whatsthis"
+msgid ""
+"You will be presented with a dialog where you can create and send a new "
+"email message."
+msgstr ""
+
+#: kontactplugin/kmail_plugin.cpp:74
+#, fuzzy
+#| msgid "&Send Mail"
+msgctxt "@action:inmenu"
+msgid "Sync Mail"
+msgstr "মেই&ল পাঠাও"
+
+#: kontactplugin/kmail_plugin.cpp:79
+msgctxt "@info:whatsthis"
+msgid "Choose this option to synchronize your groupware email."
+msgstr ""
+
+#: kontactplugin/summarywidget.cpp:63
+#, fuzzy
+#| msgid "New Message"
+msgid "New Messages"
+msgstr "নতুন বার্তা"
+
+#: kontactplugin/summarywidget.cpp:158
+#, kde-format
+msgid "<qt><b>%1</b><br/>Total: %2<br/>Unread: %3</qt>"
+msgstr ""
+
+#: kontactplugin/summarywidget.cpp:170
+#, kde-format
+msgctxt "%1: number of unread messages %2: total number of messages"
+msgid "%1 / %2"
+msgstr ""
+
+#: kontactplugin/summarywidget.cpp:208
+#, fuzzy
+#| msgid "Send &messages in outbox folder:"
+msgid "No unread messages in your monitored folders"
+msgstr "&আউটবক্স ফোল্ডার-এর বার্তা পাঠাও:"
+
+#: kontactplugin/summarywidget.cpp:226
+#, fuzzy, kde-format
+msgid "Open Folder: \"%1\""
+msgstr "গন্তব্য ফোল্ডার :"
+
 #: mailmerge/mailmergedialog.cpp:31
 #, fuzzy
 #| msgid "Available Filters"
@@ -7139,9 +7228,6 @@ msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার �
 
 #~ msgid "Message List - New Messages"
 #~ msgstr "বার্তা তালিকা - নতুন বার্তা"
-
-#~ msgid "New Message"
-#~ msgstr "নতুন বার্তা"
 
 #~ msgid "Filter Rules"
 #~ msgstr "ফিল্টার নিয়মাবলী"
@@ -9810,11 +9896,6 @@ msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার �
 
 #, fuzzy
 #~| msgid "Show alway&s"
-#~ msgid "Show full \"To\" list"
-#~ msgstr "&সর্বদা দেখাও"
-
-#, fuzzy
-#~| msgid "Show alway&s"
 #~ msgid "Show full \"Cc\" list"
 #~ msgstr "&সর্বদা দেখাও"
 
@@ -11117,10 +11198,6 @@ msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার �
 
 #~ msgid "Could not add message to folder (No space left on device?)"
 #~ msgstr "ফোল্ডারে বার্তা যোগ করা যায়নি (ডিভাইস-এ স্থানাভাব?)"
-
-#, fuzzy
-#~ msgid "Destination folder: %1"
-#~ msgstr "গন্তব্য ফোল্ডার :"
 
 #, fuzzy
 #~| msgid " completed"
