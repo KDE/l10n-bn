@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkonq\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-04-08 08:30+0000\n"
+"POT-Creation-Date: 2015-04-17 12:27+0000\n"
 "PO-Revision-Date: 2006-01-04 13:13-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -93,10 +93,12 @@ msgid "Arrange in:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:75
+#: plugins/folder/viewpropertiesmenu.cpp:34
 msgid "Rows"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:75
+#: plugins/folder/viewpropertiesmenu.cpp:38
 msgid "Columns"
 msgstr ""
 
@@ -105,10 +107,12 @@ msgid "Align:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:87
+#: plugins/folder/viewpropertiesmenu.cpp:46
 msgid "Left"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:87
+#: plugins/folder/viewpropertiesmenu.cpp:50
 msgid "Right"
 msgstr ""
 
@@ -125,26 +129,32 @@ msgid "Sorting:"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:58
 msgid "Unsorted"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:62
 msgid "Name"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:66
 msgid "Size"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:70
 msgid "Type"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:125
+#: plugins/folder/viewpropertiesmenu.cpp:74
 msgid "Date"
 msgstr ""
 
 #: package/contents/ui/ConfigIcons.qml:142
+#: plugins/folder/viewpropertiesmenu.cpp:79
 msgid "Descending"
 msgstr ""
 
@@ -298,90 +308,176 @@ msgstr ""
 msgid "Got it"
 msgstr ""
 
+#: plugins/folder/directorypicker.cpp:45
 #, fuzzy
-#~| msgid "New Folder"
-#~ msgid "Select Folder"
-#~ msgstr "নতুন ফোল্ডার"
+#| msgid "New Folder"
+msgid "Select Folder"
+msgstr "নতুন ফোল্ডার"
 
+#: plugins/folder/foldermodel.cpp:217
+msgid "&Refresh Desktop"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:217 plugins/folder/foldermodel.cpp:1035
+msgid "&Refresh View"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1032
+msgid "&Reload"
+msgstr ""
+
+#: plugins/folder/foldermodel.cpp:1038
 #, fuzzy
-#~ msgid "&Rename"
-#~ msgstr "বাতি&ল করো: লিঙ্ক"
+msgid "&Rename"
+msgstr "বাতি&ল করো: লিঙ্ক"
 
+#: plugins/folder/foldermodel.cpp:1041
 #, fuzzy
-#~| msgid "Move to Trash"
-#~ msgid "&Move to Trash"
-#~ msgstr "আবর্জনা ফোল্ডারে সরাও"
+#| msgid "Move to Trash"
+msgid "&Move to Trash"
+msgstr "আবর্জনা ফোল্ডারে সরাও"
 
-#~ msgid "&Empty Trash Bin"
-#~ msgstr "&আবর্জনার বাক্স ফাঁকা করো"
+#: plugins/folder/foldermodel.cpp:1044
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:350
+msgid "&Empty Trash Bin"
+msgstr "&আবর্জনার বাক্স ফাঁকা করো"
 
+#: plugins/folder/foldermodel.cpp:1047
 #, fuzzy
-#~ msgid "&Delete"
-#~ msgstr "ফাইলগুলি মুছে ফেলো"
+msgid "&Delete"
+msgstr "ফাইলগুলি মুছে ফেলো"
 
+#: plugins/folder/foldermodel.cpp:1107
+msgid "&Paste"
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:82
 #, fuzzy
-#~ msgctxt "@title:menu"
-#~ msgid "Move To"
-#~ msgstr "আবর্জনা ফোল্ডারে সরাও"
+msgctxt "@title:menu"
+msgid "Copy To"
+msgstr "এখানে &কপি করো"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:88
 #, fuzzy
-#~ msgctxt "@title:menu"
-#~ msgid "Home Folder"
-#~ msgstr "নতুন ফোল্ডার"
+msgctxt "@title:menu"
+msgid "Move To"
+msgstr "আবর্জনা ফোল্ডারে সরাও"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:112
 #, fuzzy
-#~ msgctxt "@title:menu"
-#~ msgid "Root Folder"
-#~ msgstr "নতুন ফোল্ডার"
+msgctxt "@title:menu"
+msgid "Home Folder"
+msgstr "নতুন ফোল্ডার"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:119
 #, fuzzy
-#~ msgctxt "@title:menu"
-#~ msgid "Copy Here"
-#~ msgstr "এখানে &কপি করো"
+msgctxt "@title:menu"
+msgid "Root Folder"
+msgstr "নতুন ফোল্ডার"
 
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:155
+msgctxt "@title:menu in Copy To or Move To submenu"
+msgid "Browse..."
+msgstr ""
+
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:228
 #, fuzzy
-#~ msgctxt "@title:menu"
-#~ msgid "Move Here"
-#~ msgstr "এখানে &সরাও"
+msgctxt "@title:menu"
+msgid "Copy Here"
+msgstr "এখানে &কপি করো"
 
-#~ msgid "&Open"
-#~ msgstr "খোলো (&খ)"
-
-#~ msgid "Create &Folder..."
-#~ msgstr "ফোল্ডা&র তৈরী করো..."
-
-#~ msgid "&Restore"
-#~ msgstr "পূর্বাবস্থা&য় ফেরাও"
-
+#: plugins/folder/internallibkonq/konq_copytomenu.cpp:229
 #, fuzzy
-#~| msgid "&Empty Trash Bin"
-#~ msgid "&Configure Trash Bin"
-#~ msgstr "&আবর্জনার বাক্স ফাঁকা করো"
+msgctxt "@title:menu"
+msgid "Move Here"
+msgstr "এখানে &সরাও"
 
-#~ msgid "&Bookmark This Page"
-#~ msgstr "&এই পাতাটি বুকমার্ক করো"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:254
+msgid "&Open"
+msgstr "খোলো (&খ)"
 
-#~ msgid "&Bookmark This Location"
-#~ msgstr "&এই অবস্থানটি বুকমার্ক করো"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:281
+msgid "Create &Folder..."
+msgstr "ফোল্ডা&র তৈরী করো..."
 
-#~ msgid "&Bookmark This Folder"
-#~ msgstr "&এই ফোল্ডারটি বুকমার্ক করো"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:292
+msgid "&Restore"
+msgstr "পূর্বাবস্থা&য় ফেরাও"
 
-#~ msgid "&Bookmark This Link"
-#~ msgstr "&এই লিঙ্কটি বুকমার্ক করো"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
+msgid "Show Original Directory"
+msgstr ""
 
-#~ msgid "&Bookmark This File"
-#~ msgstr "&এই ফাইলটি বুকমার্ক করো"
-
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:315
 #, fuzzy
-#~ msgid "Preview In"
-#~ msgstr "প্রাক্‌দর্শন"
+#| msgid "Shred Files"
+msgid "Show Original File"
+msgstr "ফাইল ধ্বংস করো"
 
-#~ msgid "&Properties"
-#~ msgstr "বৈশিষ্ট্যা&বলী"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:363
+#, fuzzy
+#| msgid "&Empty Trash Bin"
+msgid "&Configure Trash Bin"
+msgstr "&আবর্জনার বাক্স ফাঁকা করো"
 
-#~ msgid "Share"
-#~ msgstr "শেয়ার"
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:389
+msgid "&Bookmark This Page"
+msgstr "&এই পাতাটি বুকমার্ক করো"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:391
+msgid "&Bookmark This Location"
+msgstr "&এই অবস্থানটি বুকমার্ক করো"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:394
+msgid "&Bookmark This Folder"
+msgstr "&এই ফোল্ডারটি বুকমার্ক করো"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:396
+msgid "&Bookmark This Link"
+msgstr "&এই লিঙ্কটি বুকমার্ক করো"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:398
+msgid "&Bookmark This File"
+msgstr "&এই ফাইলটি বুকমার্ক করো"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:428
+#, fuzzy
+msgid "Preview In"
+msgstr "প্রাক্‌দর্শন"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:463
+msgid "&Properties"
+msgstr "বৈশিষ্ট্যা&বলী"
+
+#: plugins/folder/internallibkonq/konq_popupmenu.cpp:479
+msgid "Share"
+msgstr "শেয়ার"
+
+#: plugins/folder/labelgenerator.cpp:97
+#, fuzzy
+#| msgid "New Folder"
+msgid "Desktop Folder"
+msgstr "নতুন ফোল্ডার"
+
+#: plugins/folder/viewpropertiesmenu.cpp:31
+msgid "Arrange In"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:43
+msgid "Align"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:55
+msgid "Sort By"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:81
+msgid "Folders First"
+msgstr ""
+
+#: plugins/folder/viewpropertiesmenu.cpp:84
+msgid "Locked"
+msgstr ""
 
 #~ msgid "You cannot drop a folder on to itself"
 #~ msgstr "আপনি একটি ফোল্ডারকে তার নিজের ওপর এনে ফেলতে পারেন না"
