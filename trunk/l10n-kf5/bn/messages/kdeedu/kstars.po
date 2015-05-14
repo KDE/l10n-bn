@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-05-03 08:55+0000\n"
+"POT-Creation-Date: 2015-05-14 08:51+0000\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -214,25 +214,25 @@ msgstr "কোন FOV নেই"
 msgid "No color named \"%1\" found in color scheme."
 msgstr "রং বিন্যাসে \"%1\" নামে কোন রং পাওয়া যায় নি।"
 
-#: auxiliary/colorscheme.cpp:142 kstarsdata.cpp:826 options/opscolors.cpp:57
+#: auxiliary/colorscheme.cpp:142 kstarsdata.cpp:820 options/opscolors.cpp:57
 #: tools/scriptbuilder.cpp:707
 msgctxt "use default color scheme"
 msgid "Default Colors"
 msgstr "ডিফল্ট রং"
 
-#: auxiliary/colorscheme.cpp:144 kstarsdata.cpp:827 options/opscolors.cpp:58
+#: auxiliary/colorscheme.cpp:144 kstarsdata.cpp:821 options/opscolors.cpp:58
 #: tools/scriptbuilder.cpp:708
 msgctxt "use 'star chart' color scheme"
 msgid "Star Chart"
 msgstr "তারা মানচিত্র"
 
-#: auxiliary/colorscheme.cpp:146 kstarsdata.cpp:828 options/opscolors.cpp:59
+#: auxiliary/colorscheme.cpp:146 kstarsdata.cpp:822 options/opscolors.cpp:59
 #: tools/scriptbuilder.cpp:709
 msgctxt "use 'night vision' color scheme"
 msgid "Night Vision"
 msgstr "নৈশ দৃষ্টি"
 
-#: auxiliary/colorscheme.cpp:162 kstarsdata.cpp:845
+#: auxiliary/colorscheme.cpp:162 kstarsdata.cpp:839
 #, kde-format
 msgid "Unable to load color scheme named %1. Also tried %2."
 msgstr "%1 নামক রং বিন্যাস লোড করা যায় নি।  %2-কেও লোড করার চেষ্টা করা হয়েছে।"
@@ -253,8 +253,8 @@ msgstr ""
 #: tools/modcalcgalcoord.cpp:193 tools/modcalcgeodcoord.cpp:232
 #: tools/modcalcjd.cpp:121 tools/modcalcplanets.cpp:208
 #: tools/modcalcsidtime.cpp:200 tools/modcalcvizequinox.cpp:84
-#: tools/modcalcvlsr.cpp:274 tools/observinglist.cpp:724
-#: tools/observinglist.cpp:847 tools/scriptbuilder.cpp:776
+#: tools/modcalcvlsr.cpp:274 tools/observinglist.cpp:725
+#: tools/observinglist.cpp:848 tools/scriptbuilder.cpp:776
 #: tools/scriptbuilder.cpp:844 tools/scriptbuilder.cpp:916
 msgid "Could Not Open File"
 msgstr "ফাইল খোলা যায় নি"
@@ -982,7 +982,7 @@ msgid "Check URL"
 msgstr "ইউ.আর.এল. পরীক্ষা করো"
 
 #. i18n: ectx: property (text), widget (QPushButton, DetailButton)
-#: dialogs/detaildialog.cpp:85 skymap.cpp:726 tools/wutdialog.ui:480
+#: dialogs/detaildialog.cpp:85 skymap.cpp:738 tools/wutdialog.ui:480
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
@@ -997,7 +997,7 @@ msgstr "সাধারণ"
 #: kstarsinit.cpp:636 printing/detailstable.cpp:87
 #: printing/pwizobjectselection.cpp:114 skycomponents/starcomponent.cpp:451
 #: skycomponents/starcomponent.cpp:460 skycomponents/starcomponent.cpp:469
-#: skyobjects/starobject.cpp:501 tools/observinglist.cpp:470
+#: skyobjects/starobject.cpp:501 tools/observinglist.cpp:471
 #: tools/wutdialog.cpp:278
 msgid "star"
 msgstr "তারা"
@@ -1176,7 +1176,7 @@ msgid "Log"
 msgstr "লগ"
 
 #: dialogs/detaildialog.cpp:683 skyobjects/skyobject.cpp:429
-#: tools/observinglist.cpp:480 tools/observinglist.cpp:688
+#: tools/observinglist.cpp:481 tools/observinglist.cpp:689
 #, kde-format
 msgid "Record here observation logs and/or data on %1."
 msgstr "এখানে %1-এর পর্যবেক্ষণলব্ধ তথ্য এবং/বা লগ লিখুন।"
@@ -1198,12 +1198,12 @@ msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত �
 #: dialogs/detaildialog.cpp:1092 dialogs/detaildialog.cpp:1122
 #: fitsviewer/fitsview.cpp:202 fitsviewer/fitsview.cpp:237
 #: tools/flagmanager.cpp:257 tools/flagmanager.cpp:286
-#: tools/observinglist.cpp:559 tools/observinglist.cpp:589
+#: tools/observinglist.cpp:560 tools/observinglist.cpp:590
 msgid "KStars did not find any active telescopes."
 msgstr "কে-স্টার্স কোন সক্রিয় দূরবীক্ষণ যন্ত্র খুঁজে পায় নি।"
 
 #: dialogs/detaildialog.cpp:1108 fitsviewer/fitsview.cpp:218
-#: tools/flagmanager.cpp:273 tools/observinglist.cpp:575
+#: tools/flagmanager.cpp:273 tools/observinglist.cpp:576
 #, kde-format
 msgid "Telescope %1 is offline. Please connect and retry again."
 msgstr ""
@@ -7760,7 +7760,7 @@ msgstr "ঋতু সংক্রান্ত তথ্য"
 msgid "Center Crosshair"
 msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অনুসরণ করো"
 
-#: kstars.cpp:173 kstarsactions.cpp:1001 skymap.cpp:404
+#: kstars.cpp:173 kstarsactions.cpp:1001 skymap.cpp:405
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
@@ -7776,13 +7776,13 @@ msgstr "&অনুভূমিক স্থানাঙ্ক"
 msgid "Switch to star globe view (Equatorial &Coordinates)"
 msgstr "নি&রক্ষীয় স্থানাঙ্ক"
 
-#: kstars.cpp:182 kstarsinit.cpp:243 skymap.cpp:1103
+#: kstars.cpp:182 kstarsinit.cpp:243 skymap.cpp:1115
 msgid "Switch to QPainter backend"
 msgstr ""
 
 #. i18n: ectx: label, entry (UseGL), group (View)
-#: kstars.cpp:182 kstars.kcfg:755 kstarsinit.cpp:243 skymap.cpp:1081
-#: skymap.cpp:1089 skymap.cpp:1097
+#: kstars.cpp:182 kstars.kcfg:755 kstarsinit.cpp:243 skymap.cpp:1093
+#: skymap.cpp:1101 skymap.cpp:1109
 msgid "Switch to OpenGL backend"
 msgstr ""
 
@@ -45244,7 +45244,7 @@ msgstr "যে অবস্থানে সংরক্ষণ করতে ব�
 msgid "Try Another"
 msgstr "আরেকটি চেষ্টা করো"
 
-#: kstarsactions.cpp:786 tools/observinglist.cpp:847
+#: kstarsactions.cpp:786 tools/observinglist.cpp:848
 msgid "Do Not Try"
 msgstr "চেষ্টা করবে না"
 
@@ -45261,8 +45261,8 @@ msgstr "ফাইল ডাউনলোড করা যায় নি।"
 msgid "Download Error"
 msgstr "ডাউনলোড সংক্রান্ত সমস্যা"
 
-#: kstarsactions.cpp:847 kstarsdata.cpp:719 oal/execute.cpp:309
-#: tools/observinglist.cpp:723
+#: kstarsactions.cpp:847 kstarsdata.cpp:713 oal/execute.cpp:309
+#: tools/observinglist.cpp:724
 #, kde-format
 msgid "Could not open file %1"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি"
@@ -45449,13 +45449,13 @@ msgstr "তথ্যের ইউ.আর.এল. লোড করা হচ্�
 msgid "Queueing update of list of supernovae from the internet"
 msgstr ""
 
-#: kstarsdata.cpp:538
+#: kstarsdata.cpp:532
 msgid "No localized URL file; using default English file."
 msgstr ""
 "কোন স্থানীয়কৃত (localized) ইউ.আর.এল. ফাইল নেই; ডিফল্ট হিসেবে ইংরেজি ফাইল ব্যবহার "
 "করা হচ্ছে।"
 
-#: kstarsdata.cpp:553
+#: kstarsdata.cpp:547
 msgid ""
 "Failed to copy default URL file to locale folder, modifying default object "
 "links is not possible"
@@ -45463,17 +45463,17 @@ msgstr ""
 "ডিফল্ট ইউ.আর.এল. ফাইলকে লোকাল (locale) ফোল্ডারে কপি করা যায় নি, ফলে বস্তুর ডিফল্ট "
 "লিঙ্ক সম্পাদন করা সম্ভব নয়"
 
-#: kstarsdata.cpp:588
+#: kstarsdata.cpp:582
 #, fuzzy, kde-format
 msgid "Object named %1 not found"
 msgstr "%1 নামক কোন বস্তু পাওয়া যায় নি।"
 
-#: kstarsdata.cpp:885
+#: kstarsdata.cpp:879
 #, kde-format
 msgid "Could not set time: %1 / %2 / %3 ; %4:%5:%6"
 msgstr "সময় নির্ধারণ করা যায় নি: %1 / %2 / %3 ; %4:%5:%6"
 
-#: kstarsdata.cpp:1004
+#: kstarsdata.cpp:998
 #, kde-format
 msgid "Could not set location named %1, %2, %3"
 msgstr " %1, %2 ও %3 নামের অবস্থান নির্দিষ্ট করা যায় নি"
@@ -46042,7 +46042,7 @@ msgstr "FOV প্রতীক সম্পাদন..."
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:634 skymap.cpp:364 widgets/infoboxwidget.cpp:127
+#: kstarsinit.cpp:634 skymap.cpp:365 widgets/infoboxwidget.cpp:127
 msgid "nothing"
 msgstr "কিছু না"
 
@@ -50000,31 +50000,31 @@ msgstr ""
 msgid "&Sloan Digital Sky Survey (SDSS)"
 msgstr ""
 
-#: options/opscatalog.cpp:180
+#: options/opscatalog.cpp:181
 msgid ""
 "The selected database will be removed. This action cannot be reversed! "
 "Delete Catalog?"
 msgstr ""
 
-#: options/opscatalog.cpp:182
+#: options/opscatalog.cpp:183
 #, fuzzy
 #| msgid "Select all major bodies"
 msgid "Delete Catalog?"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
-#: options/opscatalog.cpp:308
+#: options/opscatalog.cpp:309
 msgid "Index Catalog (IC)"
 msgstr "সূচিপত্রের ক্যাটালগ (আই.সি.)"
 
-#: options/opscatalog.cpp:312
+#: options/opscatalog.cpp:313
 msgid "New General Catalog (NGC)"
 msgstr "নতুন সাধারণ ক্যাটালগ (এন.জি.সি.)"
 
-#: options/opscatalog.cpp:316
+#: options/opscatalog.cpp:317
 msgid "Messier Catalog (images)"
 msgstr "মেসিয়ের ক্যাটালগ (ছবি)"
 
-#: options/opscatalog.cpp:320
+#: options/opscatalog.cpp:321
 msgid "Messier Catalog (symbols)"
 msgstr "মেসিয়ের ক্যাটালগ (প্রতীক)"
 
@@ -52061,86 +52061,86 @@ msgstr ""
 msgid "Supernova information update failed"
 msgstr ""
 
-#: skymap.cpp:344
+#: skymap.cpp:345
 #, kde-format
 msgid "%1: %2<sup>m</sup>"
 msgstr ""
 
-#: skymap.cpp:386
+#: skymap.cpp:387
 msgid "Requested Position Below Horizon"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিত"
 
-#: skymap.cpp:387
+#: skymap.cpp:388
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিতআপনি কি তবুও সেখানে যেতে চান?"
 
-#: skymap.cpp:389
+#: skymap.cpp:390
 msgid "Go Anyway"
 msgstr "তবুও যাও"
 
 # FIXME
-#: skymap.cpp:389
+#: skymap.cpp:390
 msgid "Keep Position"
 msgstr "অবস্থান ঠিক রাখো"
 
-#: skymap.cpp:448
+#: skymap.cpp:460
 #, fuzzy
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
 "[public domain]."
 msgstr "স্পেস টেলিস্কোপ সাইন্স ইনস্টিটিউট কর্তৃক প্রস্তুতকৃত ডিজিটাল আকাশ জরিপ চিত্র।"
 
-#: skymap.cpp:484
+#: skymap.cpp:496
 msgid ""
 "Sloan Digital Sky Survey image provided by the Astrophysical Research "
 "Consortium [free for non-commercial use]."
 msgstr ""
 
-#: skymap.cpp:540
+#: skymap.cpp:552
 #, fuzzy, kde-format
 msgid "Angular distance: %1"
 msgstr "কৌণিক দূরত্ব: "
 
-#: skymap.cpp:570
+#: skymap.cpp:582
 #, fuzzy
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Star Hopper: Choose a field-of-view"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃতি বেছে নিন"
 
-#: skymap.cpp:570
+#: skymap.cpp:582
 msgid "FOV to use for star hopping:"
 msgstr ""
 
-#: skymap.cpp:574
+#: skymap.cpp:586
 #, fuzzy
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Star Hopper: Enter field-of-view to use"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃতি বেছে নিন"
 
-#: skymap.cpp:574
+#: skymap.cpp:586
 msgid "FOV to use for star hopping (in arcminutes):"
 msgstr ""
 
-#: skymap.cpp:726
+#: skymap.cpp:738
 msgid "No object selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
 
-#: skymap.cpp:1085
+#: skymap.cpp:1097
 msgid ""
 "This version of KStars comes with new experimental OpenGL support. Our "
 "experience is that OpenGL works much faster on machines with hardware "
 "acceleration. Would you like to switch to OpenGL painting backends?"
 msgstr ""
 
-#: skymap.cpp:1096
+#: skymap.cpp:1108
 msgid ""
 "Infoboxes will be disabled as they do not work correctly when using OpenGL "
 "backends as of this version"
 msgstr ""
 
-#: skymap.cpp:1118
+#: skymap.cpp:1130
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
 
@@ -55580,127 +55580,127 @@ msgctxt "Azimuth"
 msgid "Az"
 msgstr "দিগংশ"
 
-#: tools/observinglist.cpp:241
+#: tools/observinglist.cpp:242
 msgid "Unnamed stars are not supported in the observing lists"
 msgstr ""
 
-#: tools/observinglist.cpp:249
+#: tools/observinglist.cpp:250
 #, fuzzy, kde-format
 msgid "%1 is already in your wishlist."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:255
+#: tools/observinglist.cpp:256
 #, fuzzy, kde-format
 msgid "%1 is already in the session plan."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:294
+#: tools/observinglist.cpp:295
 #, kde-format
 msgid "Added %1 to observing list."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:337
+#: tools/observinglist.cpp:338
 #, fuzzy, kde-format
 #| msgid "Added %1 to observing list."
 msgid "Added %1 to session list."
 msgstr "%1-কে পর্যবেক্ষণ তালিকায় যোগ করা হয়েছে।"
 
-#: tools/observinglist.cpp:478
+#: tools/observinglist.cpp:479
 #, kde-format
 msgid "observing notes for %1:"
 msgstr "%1 এর পর্যবেক্ষণ নোট:"
 
 # FIXME
-#: tools/observinglist.cpp:492
+#: tools/observinglist.cpp:493
 #, fuzzy
 msgid "observing notes (disabled for unnamed star)"
 msgstr "যে খ-বস্তুর জন্য পর্যবেক্ষণ নোট রাখা হবে:"
 
-#: tools/observinglist.cpp:510
+#: tools/observinglist.cpp:511
 #, fuzzy, kde-format
 msgid "Object %1 not found in list."
 msgstr "%1 বস্তুটিকে পর্যবেক্ষণ-তালিকায় (obsList) পাওয়া যায় নি।"
 
 #. i18n: ectx: property (text), widget (QLabel, NotesLabel)
-#: tools/observinglist.cpp:516 tools/observinglist.cpp:964
+#: tools/observinglist.cpp:517 tools/observinglist.cpp:965
 #: tools/observinglist.ui:622
 msgid "Select an object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:529
+#: tools/observinglist.cpp:530
 msgid "Select a single object to record notes on it here:"
 msgstr ""
 
-#: tools/observinglist.cpp:691
+#: tools/observinglist.cpp:692
 msgid "Observing notes for object:"
 msgstr "এই খ-বস্তুর পর্যবেক্ষণ নোেট:"
 
-#: tools/observinglist.cpp:698
+#: tools/observinglist.cpp:699
 #, fuzzy
 #| msgid "Observing List"
 msgid "Open Observing List"
 msgstr "পর্যবেক্ষণ তালিকা"
 
-#: tools/observinglist.cpp:753
+#: tools/observinglist.cpp:754
 #, fuzzy
 #| msgid "The specified file is invalid.  Try another file?"
 msgid "The specified file is invalid"
 msgstr "উল্লেখকৃত ফাইলটি অবৈধ।  অপর একটি ফাইল নিয়ে চেষ্টা করে দেখতে চান কি?"
 
-#: tools/observinglist.cpp:762
+#: tools/observinglist.cpp:763
 #, fuzzy
 #| msgid "Do you want to save the current list before opening a new list?"
 msgid "Do you want to save the current session?"
 msgstr "নতুন তালিকা খোলার পূর্বে আপনি কি বর্তমান তালিকাকে সংরক্ষণ করতে চান?"
 
-#: tools/observinglist.cpp:764
+#: tools/observinglist.cpp:765
 #, fuzzy
 #| msgid "Save Current List?"
 msgid "Save Current session?"
 msgstr "বর্তমান তালিকাকে সংরক্ষণ করবো কি?"
 
-#: tools/observinglist.cpp:771
+#: tools/observinglist.cpp:772
 #, fuzzy
 #| msgid "Observing List"
 msgid "Save Observing List"
 msgstr "পর্যবেক্ষণ তালিকা"
 
-#: tools/observinglist.cpp:846
+#: tools/observinglist.cpp:847
 #, kde-format
 msgid "Could not open file %1.  Try a different filename?"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি।  অপর কোন ফাইল খুলতে চান কি? "
 
-#: tools/observinglist.cpp:847
+#: tools/observinglist.cpp:848
 msgid "Try Different"
 msgstr "অপর একটি খোলার চেষ্টা করো"
 
-#: tools/observinglist.cpp:913
+#: tools/observinglist.cpp:914
 msgctxt "First letter in 'Find'"
 msgid "F"
 msgstr ""
 
-#: tools/observinglist.cpp:950
+#: tools/observinglist.cpp:951
 #, fuzzy
 msgid "WUT"
 msgstr "এখন"
 
-#: tools/observinglist.cpp:951
+#: tools/observinglist.cpp:952
 #, fuzzy
 #| msgid "Find Object"
 msgid "Find &Object"
 msgstr "বস্তু অনুসন্ধান করো"
 
-#: tools/observinglist.cpp:1151
+#: tools/observinglist.cpp:1152
 msgid "This will delete all saved images. Are you sure you want to do this?"
 msgstr ""
 
-#: tools/observinglist.cpp:1151
+#: tools/observinglist.cpp:1152
 #, fuzzy
 #| msgid "Select all major bodies"
 msgid "Delete All Images"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
-#: tools/observinglist.cpp:1233
+#: tools/observinglist.cpp:1234
 #, fuzzy
 #| msgid "Image Format"
 msgid "Image Chooser"
