@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-08-25 10:49+0000\n"
+"POT-Creation-Date: 2015-09-22 09:57+0000\n"
 "PO-Revision-Date: 2012-07-16 14:27+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -931,23 +931,29 @@ msgstr "স্কীম ডিফল্ট হিসেবে সংরক্ষ
 msgid "Export Scheme..."
 msgstr "স্কীম রপ্তানি করো..."
 
-#: kshortcutschemeseditor.cpp:101
+#: kshortcutschemeseditor.cpp:86
+#, fuzzy
+#| msgid "Export Scheme..."
+msgid "Import Scheme..."
+msgstr "স্কীম রপ্তানি করো..."
+
+#: kshortcutschemeseditor.cpp:102
 msgid "Name for New Scheme"
 msgstr "নতুন স্কীমের জন্য নাম"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "Name for new scheme:"
 msgstr "নতুন স্কীম-এর জন্য নাম:"
 
-#: kshortcutschemeseditor.cpp:102
+#: kshortcutschemeseditor.cpp:103
 msgid "New Scheme"
 msgstr "নতুন স্কীম"
 
-#: kshortcutschemeseditor.cpp:108
+#: kshortcutschemeseditor.cpp:109
 msgid "A scheme with this name already exists."
 msgstr "এই নামের একটি স্কীম আগে থেকেই আছে।"
 
-#: kshortcutschemeseditor.cpp:137
+#: kshortcutschemeseditor.cpp:138
 #, fuzzy, kde-format
 msgid ""
 "Do you really want to delete the scheme %1?\n"
@@ -956,13 +962,23 @@ msgstr ""
 "আপনি কি স্কীম %1 সত্যি মুছে ফেলতে চান?\n"
 "নোট যে এইটি যেকোন সিস্টেম প্রশস্ত শর্টকাট স্কীম সরিয়ে দেবে না।"
 
-#: kshortcutschemeseditor.cpp:167
-msgid "Export to Location"
-msgstr "অবস্থান-এ রপ্তানি করো"
+#: kshortcutschemeseditor.cpp:168
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Export Shortcuts"
+msgstr "শর্টকাট"
 
-#: kshortcutschemeseditor.cpp:175
-msgid "Could not export shortcuts scheme because the location is invalid."
-msgstr "শর্টকাট স্কীম রপ্তানি করা যায়নি কারণ অবস্থানটি অবৈধ।"
+#: kshortcutschemeseditor.cpp:168 kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcut Conflict(s)"
+msgid "Shortcuts (*.shortcuts)"
+msgstr "শর্টকাট বিরোধ"
+
+#: kshortcutschemeseditor.cpp:179
+#, fuzzy
+#| msgid "Shortcuts"
+msgid "Import Shortcuts"
+msgstr "শর্টকাট"
 
 #: kshortcutsdialog.cpp:85
 #, fuzzy
@@ -1337,6 +1353,12 @@ msgstr "&পছন্দ"
 #: ui_standards.rc:194
 msgid "Main Toolbar"
 msgstr "মূল টুলবার"
+
+#~ msgid "Export to Location"
+#~ msgstr "অবস্থান-এ রপ্তানি করো"
+
+#~ msgid "Could not export shortcuts scheme because the location is invalid."
+#~ msgstr "শর্টকাট স্কীম রপ্তানি করা যায়নি কারণ অবস্থানটি অবৈধ।"
 
 #, fuzzy
 #~ msgid ""
@@ -11993,9 +12015,6 @@ msgstr "মূল টুলবার"
 
 #~ msgid "Conflict With Registered Global Shortcut(s)"
 #~ msgstr "পূর্বনির্দিষ্ট গ্লোবাল শর্টকাটের সঙ্গে বিরোধ"
-
-#~ msgid "Shortcut Conflict(s)"
-#~ msgstr "শর্টকাট বিরোধ"
 
 #~ msgid "tagcloudtest"
 #~ msgstr "tagcloudtest"
