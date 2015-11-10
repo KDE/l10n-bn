@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2015-11-05 09:36+0000\n"
+"POT-Creation-Date: 2015-11-10 10:06+0000\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -52577,11 +52577,16 @@ msgstr "মঙ্গলগ্রহ আঁকা হবে কি?"
 msgid "If checked, flags will be drawn on the sky map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে মঙ্গলগ্রহ আঁকা হবে।"
 
-#: options/opssatellites.cpp:98
+#: options/opssatellites.cpp:99
 #, fuzzy
 #| msgid "Center && Track"
 msgid "Satellite name"
 msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
+
+#: options/opssatellites.cpp:167
+#, kde-format
+msgid "%1 position calculation error: %2."
+msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: options/opssatellites.ui:19
@@ -54173,6 +54178,34 @@ msgstr ""
 #: skyobjects/ksplanetbase.h:71 skyobjects/skyobject.cpp:41
 msgid "unnamed"
 msgstr "নামহীন"
+
+#: skyobjects/satellite.cpp:1172
+msgid "Success"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1176
+msgid "Eccentricity >= 1.0 or < -0.001"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1179
+msgid "Mean motion less than 0.0"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1183
+msgid "Semi-latus rectum < 0.0"
+msgstr ""
+
+#: skyobjects/satellite.cpp:1187
+#, fuzzy
+#| msgid "Center && Track"
+msgid "Satellite has decayed"
+msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
+
+#: skyobjects/satellite.cpp:1190
+#, fuzzy
+#| msgid "Unknown Type"
+msgid "Unknown error"
+msgstr "অজ্ঞাত ধরন"
 
 #: skyobjects/skyline.cpp:40
 #, kde-format
