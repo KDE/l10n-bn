@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-02-10 07:34+0000\n"
+"POT-Creation-Date: 2016-02-11 07:52+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -124,7 +124,7 @@ msgid "Multiple encryption keys per address"
 msgstr "প্রতি ঠিকানায় একাধিক এনক্রিপশন কী"
 
 #: aboutdata.cpp:364 collectionpage/collectionmailinglistpage.cpp:104
-#: editor/kmcomposewin.cpp:2097 kmmainwin.cpp:66 kmreaderwin.cpp:315
+#: editor/kmcomposerwin.cpp:2034 kmmainwin.cpp:66 kmreaderwin.cpp:315
 #: kmsystemtray.cpp:73 kmsystemtray.cpp:113
 msgid "KMail"
 msgstr "কে-মেইল"
@@ -630,7 +630,8 @@ msgstr "উদ্ধৃত লেখা - তৃতীয় স্তর"
 msgid "Fixed Width Font"
 msgstr "ধ্রুবক প্রস্থের ফন্ট"
 
-#: configuredialog/configureappearancepage.cpp:156 editor/kmcomposewin.cpp:405
+#: configuredialog/configureappearancepage.cpp:156
+#: editor/kmcomposerwin.cpp:403
 msgid "Composer"
 msgstr "রচনাক্ষেত্র"
 
@@ -1554,435 +1555,418 @@ msgctxt "Menu item"
 msgid "Encoding"
 msgstr "এনকোডিং"
 
-#: editor/kmcomposewin.cpp:281
+#: editor/kmcomposerwin.cpp:278
 #, fuzzy
 #| msgid "KMail"
 msgid "KMail2"
 msgstr "কে-মেইল"
 
-#: editor/kmcomposewin.cpp:301
+#: editor/kmcomposerwin.cpp:298
 #, fuzzy
 #| msgid "Remove Identity"
 msgid "Select an identity for this message"
 msgstr "পরিচিতি সরিয়ে ফেলো"
 
-#: editor/kmcomposewin.cpp:308
+#: editor/kmcomposerwin.cpp:306
 msgid "Select the dictionary to use when spell-checking this message"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:315
+#: editor/kmcomposerwin.cpp:313
 msgid "Select the sent-mail folder where a copy of this message will be saved"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:319
+#: editor/kmcomposerwin.cpp:317
 msgid "Select the outgoing account to use for sending this message"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:326
+#: editor/kmcomposerwin.cpp:324
 msgid "Set the \"From:\" email address for this message"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:330
+#: editor/kmcomposerwin.cpp:328
 msgid "Set the \"Reply-To:\" email address for this message"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:341
+#: editor/kmcomposerwin.cpp:339
 #, fuzzy
 #| msgid "Set subject of message"
 msgid "Set a subject for this message"
 msgstr "বার্তার বিষয় নির্ধারণ করো"
 
-#: editor/kmcomposewin.cpp:343
+#: editor/kmcomposerwin.cpp:341
 msgid "&Identity:"
 msgstr "&পরিচিতি:"
 
-#: editor/kmcomposewin.cpp:344
+#: editor/kmcomposerwin.cpp:342
 msgid "&Dictionary:"
 msgstr "&অভিধান:"
 
-#: editor/kmcomposewin.cpp:345
+#: editor/kmcomposerwin.cpp:343
 msgid "&Sent-Mail folder:"
 msgstr "প্রেরি&ত-মেইল ফোল্ডার:"
 
-#: editor/kmcomposewin.cpp:346
+#: editor/kmcomposerwin.cpp:344
 msgid "&Mail transport:"
 msgstr "মেই&ল পরিবাহন:"
 
-#: editor/kmcomposewin.cpp:347
+#: editor/kmcomposerwin.cpp:345
 msgctxt "sender address field"
 msgid "&From:"
 msgstr "প্রে&রক:"
 
-#: editor/kmcomposewin.cpp:348
+#: editor/kmcomposerwin.cpp:346
 msgid "&Reply to:"
 msgstr "&উত্তর প্রাপক:"
 
-#: editor/kmcomposewin.cpp:349
+#: editor/kmcomposerwin.cpp:347
 #, fuzzy
 #| msgid "S&ubject:"
 msgctxt "@label:textbox Subject of email."
 msgid "S&ubject:"
 msgstr "বি&ষয়:"
 
-#: editor/kmcomposewin.cpp:350
+#: editor/kmcomposerwin.cpp:348
 msgctxt "@option:check Sticky identity."
 msgid "Sticky"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1055 editor/kmcomposewin.cpp:1095
+#: editor/kmcomposerwin.cpp:1060 editor/kmcomposerwin.cpp:1100
 msgid "&Send Mail"
 msgstr "মেই&ল পাঠাও"
 
-#: editor/kmcomposewin.cpp:1059
+#: editor/kmcomposerwin.cpp:1064
 msgid "Send Mail Using Shortcut"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1067 editor/kmcomposewin.cpp:1102
+#: editor/kmcomposerwin.cpp:1072 editor/kmcomposerwin.cpp:1107
 msgid "&Send Mail Via"
 msgstr "এর মারফত মেই&ল পাঠাও"
 
-#: editor/kmcomposewin.cpp:1069
+#: editor/kmcomposerwin.cpp:1074
 #, fuzzy
 msgid "Send"
 msgstr "প্রের&ণ"
 
-#: editor/kmcomposewin.cpp:1072 editor/kmcomposewin.cpp:1085
-#: editor/kmcomposewin.cpp:2763
+#: editor/kmcomposerwin.cpp:1077 editor/kmcomposerwin.cpp:1090
+#: editor/kmcomposerwin.cpp:2700
 msgid "Send &Later"
 msgstr "&পরে পাঠাও"
 
-#: editor/kmcomposewin.cpp:1078 editor/kmcomposewin.cpp:1092
+#: editor/kmcomposerwin.cpp:1083 editor/kmcomposerwin.cpp:1097
 msgid "Send &Later Via"
 msgstr "এর মারফত &পরে পাঠাও"
 
-#: editor/kmcomposewin.cpp:1080
+#: editor/kmcomposerwin.cpp:1085
 #, fuzzy
 #| msgid "Queued"
 msgctxt "Queue the message for sending at a later date"
 msgid "Queue"
 msgstr "সারিভুক্ত"
 
-#: editor/kmcomposewin.cpp:1115
+#: editor/kmcomposerwin.cpp:1120
 #, fuzzy
 msgid "Save as &Draft"
 msgstr "&খসড়া হিসাবে সংরক্ষণ করো"
 
-#: editor/kmcomposewin.cpp:1117
+#: editor/kmcomposerwin.cpp:1122
 #, fuzzy
 #| msgid "Search in &all local folders"
 msgid "Save email in Draft folder"
 msgstr "স&ব স্থানীয় ফোল্ডারে সন্ধান করো"
 
-#: editor/kmcomposewin.cpp:1121
+#: editor/kmcomposerwin.cpp:1126
 #, fuzzy
 msgid "Save as &Template"
 msgstr "&বদলাও"
 
-#: editor/kmcomposewin.cpp:1122
+#: editor/kmcomposerwin.cpp:1127
 #, fuzzy
 msgid "Save email in Template folder"
 msgstr "&বদলাও"
 
-#: editor/kmcomposewin.cpp:1126
+#: editor/kmcomposerwin.cpp:1131
 #, fuzzy
 #| msgid "Save to File"
 msgid "Save as &File"
 msgstr "ফাইলে সংরক্ষণ করো"
 
-#: editor/kmcomposewin.cpp:1127
+#: editor/kmcomposerwin.cpp:1132
 msgid "Save email as text or html file"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1131
+#: editor/kmcomposerwin.cpp:1136
 #, fuzzy
 #| msgid "&Insert File..."
 msgid "&Insert Text File..."
 msgstr "ফাই&ল ঢোকাও..."
 
-#: editor/kmcomposewin.cpp:1136
+#: editor/kmcomposerwin.cpp:1141
 #, fuzzy
 #| msgid "Insert File"
 msgid "&Insert Recent Text File"
 msgstr "ফাইল অন্তর্ভুক্ত করো"
 
-#: editor/kmcomposewin.cpp:1142 kmmainwidget.cpp:2911
+#: editor/kmcomposerwin.cpp:1147 kmmainwidget.cpp:2911
 msgid "&Address Book"
 msgstr "ঠিকানা তালিকা (&ত)"
 
-#: editor/kmcomposewin.cpp:1143
+#: editor/kmcomposerwin.cpp:1148
 #, fuzzy
 #| msgid "Open in Address Book"
 msgid "Open Address Book"
 msgstr "ঠিকানা তালিকায় খোলো"
 
-#: editor/kmcomposewin.cpp:1149
+#: editor/kmcomposerwin.cpp:1154
 msgid "&New Composer"
 msgstr "&নতুন রচনাক্ষেত্র"
 
-#: editor/kmcomposewin.cpp:1155
+#: editor/kmcomposerwin.cpp:1160
 msgid "Select &Recipients..."
 msgstr "প্রাপ&ক নির্বাচন করো..."
 
-#: editor/kmcomposewin.cpp:1159
+#: editor/kmcomposerwin.cpp:1164
 msgid "Save &Distribution List..."
 msgstr "বিতর&ণ তালিকা সংরক্ষণ করো..."
 
-#: editor/kmcomposewin.cpp:1182
+#: editor/kmcomposerwin.cpp:1187
 msgid "Paste as Attac&hment"
 msgstr "অ্যাটা&চমেন্ট হিসাবে পেস্ট করো"
 
-#: editor/kmcomposewin.cpp:1186
+#: editor/kmcomposerwin.cpp:1191
 msgid "Cl&ean Spaces"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1190
+#: editor/kmcomposerwin.cpp:1195
 msgid "Use Fi&xed Font"
 msgstr "ফিক্সড &ফন্ট ব্যবহার করো"
 
-#: editor/kmcomposewin.cpp:1197
+#: editor/kmcomposerwin.cpp:1202
 #, fuzzy
 #| msgid "&Urgent"
 msgctxt "@action:inmenu Mark the email as urgent."
 msgid "&Urgent"
 msgstr "&জরুরি"
 
-#: editor/kmcomposewin.cpp:1199
+#: editor/kmcomposerwin.cpp:1204
 msgid "&Request Disposition Notification"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1205
+#: editor/kmcomposerwin.cpp:1210
 msgid "&Wordwrap"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1210
+#: editor/kmcomposerwin.cpp:1215
 msgid "&Snippets"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1216
+#: editor/kmcomposerwin.cpp:1221
 msgid "&Automatic Spellchecking"
 msgstr "স্বয়ংক্রিয় বানান &পরীক্ষা"
 
-#: editor/kmcomposewin.cpp:1233
+#: editor/kmcomposerwin.cpp:1238
 #, fuzzy
 #| msgid "Login Information"
 msgid "Rich Text Editing"
 msgstr "লগ-ইন তথ্য"
 
-#: editor/kmcomposewin.cpp:1235
+#: editor/kmcomposerwin.cpp:1240
 msgid "Rich Text"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1236
+#: editor/kmcomposerwin.cpp:1241
 msgid "Toggle rich text editing mode"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1240
+#: editor/kmcomposerwin.cpp:1245
 msgid "&All Fields"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1243
+#: editor/kmcomposerwin.cpp:1248
 msgid "&Identity"
 msgstr "&পরিচিতি"
 
-#: editor/kmcomposewin.cpp:1246
+#: editor/kmcomposerwin.cpp:1251
 msgid "&Dictionary"
 msgstr "&অভিধান"
 
-#: editor/kmcomposewin.cpp:1249
+#: editor/kmcomposerwin.cpp:1254
 msgid "&Sent-Mail Folder"
 msgstr "প্রেরিত-মেই&ল ফোল্ডার"
 
-#: editor/kmcomposewin.cpp:1252
+#: editor/kmcomposerwin.cpp:1257
 msgid "&Mail Transport"
 msgstr "মেইল &পরিবাহক"
 
-#: editor/kmcomposewin.cpp:1255
+#: editor/kmcomposerwin.cpp:1260
 msgid "&From"
 msgstr "প্রে&রক:"
 
-#: editor/kmcomposewin.cpp:1258
+#: editor/kmcomposerwin.cpp:1263
 msgid "&Reply To"
 msgstr "&উত্তর প্রাপক"
 
-#: editor/kmcomposewin.cpp:1262
+#: editor/kmcomposerwin.cpp:1267
 #, fuzzy
 #| msgid "S&ubject"
 msgctxt "@action:inmenu Show the subject in the composer window."
 msgid "S&ubject"
 msgstr "বি&ষয়:"
 
-#: editor/kmcomposewin.cpp:1267
+#: editor/kmcomposerwin.cpp:1272
 msgid "Append S&ignature"
 msgstr "শেষে স্বাক্ষর যো&গ করো"
 
-#: editor/kmcomposewin.cpp:1271
+#: editor/kmcomposerwin.cpp:1276
 #, fuzzy
 #| msgid "Append S&ignature"
 msgid "Pr&epend Signature"
 msgstr "শেষে স্বাক্ষর যো&গ করো"
 
-#: editor/kmcomposewin.cpp:1275
+#: editor/kmcomposerwin.cpp:1280
 msgid "Insert Signature At C&ursor Position"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1288
+#: editor/kmcomposerwin.cpp:1292
 msgid "&Spellchecker..."
 msgstr "বানান &পরীক্ষক..."
 
-#: editor/kmcomposewin.cpp:1289
+#: editor/kmcomposerwin.cpp:1293
 msgid "Spellchecker"
 msgstr "বানান পরীক্ষক"
 
-#: editor/kmcomposewin.cpp:1293
+#: editor/kmcomposerwin.cpp:1297
 msgid "&Encrypt Message"
 msgstr "বার্তা &এনক্রিপ্ট করো"
 
-#: editor/kmcomposewin.cpp:1294
+#: editor/kmcomposerwin.cpp:1298
 msgid "Encrypt"
 msgstr "এনক্রিপ্ট"
 
-#: editor/kmcomposewin.cpp:1296
+#: editor/kmcomposerwin.cpp:1300
 msgid "&Sign Message"
 msgstr "বার্তা স্বাক্ষ&র করো"
 
-#: editor/kmcomposewin.cpp:1297
+#: editor/kmcomposerwin.cpp:1301
 msgid "Sign"
 msgstr "স্বাক্ষর"
 
-#: editor/kmcomposewin.cpp:1320
+#: editor/kmcomposerwin.cpp:1324
 msgid "&Cryptographic Message Format"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1323
+#: editor/kmcomposerwin.cpp:1327
 msgid "Select a cryptographic format for this message"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1330
+#: editor/kmcomposerwin.cpp:1334
 msgid "Follow Up Mail..."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1335
-msgid "Zoom..."
-msgstr ""
-
-#: editor/kmcomposewin.cpp:1338
-msgid "&Zoom In"
-msgstr ""
-
-#: editor/kmcomposewin.cpp:1344
-msgid "Zoom &Out"
-msgstr ""
-
-#: editor/kmcomposewin.cpp:1351
-#, fuzzy
-msgid "Reset"
-msgstr "ফোল্ডার নির্বাচন করো"
-
-#: editor/kmcomposewin.cpp:1367
+#: editor/kmcomposerwin.cpp:1349
 #, fuzzy
 msgid "Configure KMail..."
 msgstr "কে-মেইল ক&নফিগার করো..."
 
-#: editor/kmcomposewin.cpp:1436 editor/kmcomposewin.cpp:3158
+#: editor/kmcomposerwin.cpp:1404 editor/kmcomposerwin.cpp:3095
 #, fuzzy, kde-format
 #| msgid " Line: %1 "
 msgctxt "Shows the linenumber of the cursor position."
 msgid " Line: %1 "
 msgstr " লাইন: %1"
 
-#: editor/kmcomposewin.cpp:1441 editor/kmcomposewin.cpp:3160
+#: editor/kmcomposerwin.cpp:1409 editor/kmcomposerwin.cpp:3097
 #, kde-format
 msgid " Column: %1 "
 msgstr " কলাম: %1"
 
-#: editor/kmcomposewin.cpp:1446
+#: editor/kmcomposerwin.cpp:1414
 msgid "OVR"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1446
+#: editor/kmcomposerwin.cpp:1414
 msgid "INS"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1451
+#: editor/kmcomposerwin.cpp:1419
 #, fuzzy
 msgid "Spellcheck: on"
 msgstr "বানান পরীক্ষক"
 
-#: editor/kmcomposewin.cpp:1451
+#: editor/kmcomposerwin.cpp:1419
 #, fuzzy
 msgid "Spellcheck: off"
 msgstr "বানান পরীক্ষক"
 
-#: editor/kmcomposewin.cpp:1797
+#: editor/kmcomposerwin.cpp:1733
 #, fuzzy
 msgid "Re&save as Template"
 msgstr "&বদলাও"
 
-#: editor/kmcomposewin.cpp:1798
+#: editor/kmcomposerwin.cpp:1734
 msgid "&Save as Draft"
 msgstr "&খসড়া হিসাবে সংরক্ষণ করো"
 
-#: editor/kmcomposewin.cpp:1800
+#: editor/kmcomposerwin.cpp:1736
 msgid ""
 "Resave this message in the Templates folder. It can then be used at a later "
 "time."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1802
+#: editor/kmcomposerwin.cpp:1738
 msgid ""
 "Save this message in the Drafts folder. It can then be edited and sent at a "
 "later time."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1806
+#: editor/kmcomposerwin.cpp:1742
 msgid "Do you want to save the message for later or discard it?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:1807
+#: editor/kmcomposerwin.cpp:1743
 msgid "Close Composer"
 msgstr "রচনাক্ষেত্র বন্ধ করো"
 
-#: editor/kmcomposewin.cpp:1877
+#: editor/kmcomposerwin.cpp:1813
 #, fuzzy
 #| msgid "Autosaving Failed"
 msgid "Autosave Message Failed"
 msgstr "স্বয়ংক্রীয় সংরক্ষণ ব্যর্থ"
 
-#: editor/kmcomposewin.cpp:1877
+#: editor/kmcomposerwin.cpp:1813
 #, fuzzy
 #| msgid "Autosaving Failed"
 msgid "Sending Message Failed"
 msgstr "স্বয়ংক্রীয় সংরক্ষণ ব্যর্থ"
 
-#: editor/kmcomposewin.cpp:2026
+#: editor/kmcomposerwin.cpp:1963
 #, fuzzy
 #| msgid "&Insert File..."
 msgctxt "@title:window"
 msgid "Insert File"
 msgstr "ফাই&ল ঢোকাও..."
 
-#: editor/kmcomposewin.cpp:2080
+#: editor/kmcomposerwin.cpp:2017
 msgid "Add as &Inline Image"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2081
+#: editor/kmcomposerwin.cpp:2018
 #, fuzzy
 #| msgid "Add as Attachment"
 msgid "Add as &Attachment"
 msgstr "অ্যাটাচমেন্ট হিসাবে যোগ করো"
 
-#: editor/kmcomposewin.cpp:2097 editor/kmcomposewin.cpp:2182
+#: editor/kmcomposerwin.cpp:2034 editor/kmcomposerwin.cpp:2119
 msgid "Name of the attachment:"
 msgstr "অ্যাটাচমেন্ট-এর নাম:"
 
-#: editor/kmcomposewin.cpp:2140
+#: editor/kmcomposerwin.cpp:2077
 #, fuzzy
 msgid "Add URL into Message"
 msgid_plural "Add URLs into Message"
 msgstr[0] "এনক্রিপ্ট করা বার্তা"
 msgstr[1] "এনক্রিপ্ট করা বার্তা"
 
-#: editor/kmcomposewin.cpp:2141
+#: editor/kmcomposerwin.cpp:2078
 #, fuzzy
 #| msgid "Add as Attachment"
 msgid "Add File as &Attachment"
@@ -1990,17 +1974,17 @@ msgid_plural "Add Files as &Attachment"
 msgstr[0] "অ্যাটাচমেন্ট হিসাবে যোগ করো"
 msgstr[1] "অ্যাটাচমেন্ট হিসাবে যোগ করো"
 
-#: editor/kmcomposewin.cpp:2181
+#: editor/kmcomposerwin.cpp:2118
 #, fuzzy
 #| msgid "Paste as Attac&hment"
 msgid "Insert clipboard text as attachment"
 msgstr "অ্যাটা&চমেন্ট হিসাবে পেস্ট করো"
 
-#: editor/kmcomposewin.cpp:2282
+#: editor/kmcomposerwin.cpp:2219
 msgid "unnamed"
 msgstr "নামহীন"
 
-#: editor/kmcomposewin.cpp:2308
+#: editor/kmcomposerwin.cpp:2245
 msgid ""
 "<qt><p>You have requested that messages be encrypted to yourself, but the "
 "currently selected identity does not define an (OpenPGP or S/MIME) "
@@ -2008,125 +1992,125 @@ msgid ""
 "identity configuration.</p></qt>"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2315
+#: editor/kmcomposerwin.cpp:2252
 msgid "Undefined Encryption Key"
 msgstr "অনির্দিষ্ট এনক্রিপশন কী (Key)"
 
-#: editor/kmcomposewin.cpp:2359
+#: editor/kmcomposerwin.cpp:2296
 msgid ""
 "<qt><p>In order to be able to sign this message you first have to define the "
 "(OpenPGP or S/MIME) signing key to use.</p><p>Please select the key to use "
 "in the identity configuration.</p></qt>"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2366
+#: editor/kmcomposerwin.cpp:2303
 msgid "Undefined Signing Key"
 msgstr "অনির্দিষ্ট স্বাক্ষর কী (Key)"
 
-#: editor/kmcomposewin.cpp:2481
+#: editor/kmcomposerwin.cpp:2418
 #, kde-format
 msgid "There is %1 file upload in progress."
 msgid_plural "There are %1 file uploads in progress."
 msgstr[0] ""
 msgstr[1] ""
 
-#: editor/kmcomposewin.cpp:2501
+#: editor/kmcomposerwin.cpp:2438
 msgid ""
 "You must enter your email address in the From: field. You should also set "
 "your email address for all identities, so that you do not have to enter it "
 "for each message."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2510
+#: editor/kmcomposerwin.cpp:2447
 msgid ""
 "You must specify at least one receiver, either in the To: field or as CC or "
 "as BCC."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2516
+#: editor/kmcomposerwin.cpp:2453
 #, fuzzy
 msgid "To: field is empty. Send message anyway?"
 msgstr "আপনি বার্তার কোন বিষয় উল্লেখ করেননি। তা সত্ত্বেও বার্তাটি পাঠাব?"
 
-#: editor/kmcomposewin.cpp:2518
+#: editor/kmcomposerwin.cpp:2455
 #, fuzzy
 msgid "No To: specified"
 msgstr "কোন নাম উল্লিখিত হয়নি"
 
-#: editor/kmcomposewin.cpp:2532
+#: editor/kmcomposerwin.cpp:2469
 msgid "You did not specify a subject. Send message anyway?"
 msgstr "আপনি বার্তার কোন বিষয় উল্লেখ করেননি। তা সত্ত্বেও বার্তাটি পাঠাব?"
 
-#: editor/kmcomposewin.cpp:2534
+#: editor/kmcomposerwin.cpp:2471
 msgid "No Subject Specified"
 msgstr "বিষয় উল্লিখিত হয়নি"
 
-#: editor/kmcomposewin.cpp:2535
+#: editor/kmcomposerwin.cpp:2472
 msgid "S&end as Is"
 msgstr "যে&মন আছে পাঠাও"
 
-#: editor/kmcomposewin.cpp:2536
+#: editor/kmcomposerwin.cpp:2473
 msgid "&Specify the Subject"
 msgstr "বিষয় &উল্লেখ করব"
 
-#: editor/kmcomposewin.cpp:2571
+#: editor/kmcomposerwin.cpp:2508
 msgid ""
 "You must specify at least one receiver in order to be able to encrypt a "
 "draft."
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2760
+#: editor/kmcomposerwin.cpp:2697
 msgid "About to send email..."
 msgstr "ই-মেইল পাঠাতে চলেছি..."
 
-#: editor/kmcomposewin.cpp:2761
+#: editor/kmcomposerwin.cpp:2698
 msgid "Send Confirmation"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2762
+#: editor/kmcomposerwin.cpp:2699
 msgid "&Send Now"
 msgstr "&এখন পাঠাও"
 
-#: editor/kmcomposewin.cpp:2826
+#: editor/kmcomposerwin.cpp:2763
 #, kde-format
 msgid ""
 "You are trying to send the mail to more than %1 recipients. Send message "
 "anyway?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2827
+#: editor/kmcomposerwin.cpp:2764
 #, fuzzy
 #| msgid "<recipients>"
 msgid "Too many recipients"
 msgstr "<গ্রাহক>"
 
-#: editor/kmcomposewin.cpp:2828
+#: editor/kmcomposerwin.cpp:2765
 msgid "&Send as Is"
 msgstr "যেমন &আছে পাঠাও"
 
-#: editor/kmcomposewin.cpp:2829
+#: editor/kmcomposerwin.cpp:2766
 #, fuzzy
 #| msgid "Additional Recipients"
 msgid "&Edit Recipients"
 msgstr "অতিরিক্ত গ্রাহক"
 
-#: editor/kmcomposewin.cpp:2868
+#: editor/kmcomposerwin.cpp:2805
 msgid ""
 "Turning HTML mode off will cause the text to lose the formatting. Are you "
 "sure?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2870
+#: editor/kmcomposerwin.cpp:2807
 msgid "Lose the formatting?"
 msgstr ""
 
-#: editor/kmcomposewin.cpp:2870
+#: editor/kmcomposerwin.cpp:2807
 #, fuzzy
 #| msgid "Login Information"
 msgid "Lose Formatting"
 msgstr "লগ-ইন তথ্য"
 
-#: editor/kmcomposewin.cpp:2870
+#: editor/kmcomposerwin.cpp:2807
 #, fuzzy
 #| msgid "Message as Plain Text"
 msgid "Add Markup Plain Text"
@@ -3194,18 +3178,18 @@ msgstr "বী&প"
 msgid "Main Toolbar"
 msgstr "এইচ-টি-এম-এল টুলবার"
 
-#: kmcommands.cpp:324
+#: kmcommands.cpp:327
 msgid "Please wait"
 msgstr "অনুগ্রহ করে অপেক্ষা করুন"
 
-#: kmcommands.cpp:326 kmcommands.cpp:390
+#: kmcommands.cpp:329 kmcommands.cpp:393
 #, fuzzy, kde-format
 msgid "Please wait while the message is transferred"
 msgid_plural "Please wait while the %1 messages are transferred"
 msgstr[0] "বার্তাটি আনা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন"
 msgstr[1] "%1-টি বার্তা আনা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন"
 
-#: kmcommands.cpp:554
+#: kmcommands.cpp:557
 #, fuzzy, kde-format
 #| msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
 msgctxt "@info"
@@ -3213,66 +3197,66 @@ msgid "File <filename>%1</filename> exists.<nl/>Do you want to replace it?"
 msgstr ""
 "<qt><b>%1</b> নামক ফাইল আগে থেকেই আছে।<br>আপনি কি সেটি বদলাতে চান?</qt>"
 
-#: kmcommands.cpp:555
+#: kmcommands.cpp:558
 msgid "Save to File"
 msgstr "ফাইলে সংরক্ষণ করো"
 
-#: kmcommands.cpp:555
+#: kmcommands.cpp:558
 msgid "&Replace"
 msgstr "&বদলাও"
 
-#: kmcommands.cpp:746
+#: kmcommands.cpp:749
 msgid "Open Message"
 msgstr "বার্তা খোলো"
 
-#: kmcommands.cpp:747
+#: kmcommands.cpp:750
 #, fuzzy
 #| msgid "Message Body"
 msgid "Message (*.mbox)"
 msgstr "বার্তার প্রধান অংশ"
 
-#: kmcommands.cpp:780
+#: kmcommands.cpp:783
 msgid "The file does not contain a message."
 msgstr "ফাইলটিতে কোন বার্তা নেই।"
 
-#: kmcommands.cpp:836
+#: kmcommands.cpp:839
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr "ফাইলটিতে একাধিক বার্তা রয়েছে। শুধু প্রথম বার্তাটি প্রদর্শিত হচ্ছে।"
 
-#: kmcommands.cpp:960
+#: kmcommands.cpp:963
 msgid ""
 "Do you want to forward the selected messages as attachments in one message "
 "(as a MIME digest) or as individual messages?"
 msgstr ""
 
-#: kmcommands.cpp:963
+#: kmcommands.cpp:966
 #, fuzzy
 msgid "Send As Digest"
 msgstr "প্রের&ণ"
 
-#: kmcommands.cpp:964
+#: kmcommands.cpp:967
 msgid "Send Individually"
 msgstr ""
 
-#: kmcommands.cpp:1375
+#: kmcommands.cpp:1378
 #, fuzzy
 msgid "Filtering messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: kmcommands.cpp:1382
+#: kmcommands.cpp:1385
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "%1 থেকে %2-টি বার্তার %3 নম্বরটি স্থানান্তরিত করা হচ্ছে।"
 
-#: kmcommands.cpp:1534
+#: kmcommands.cpp:1537
 msgid "Moving messages"
 msgstr "বার্তা সরানো হচ্ছে"
 
-#: kmcommands.cpp:1534
+#: kmcommands.cpp:1537
 msgid "Deleting messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: kmcommands.cpp:1669
+#: kmcommands.cpp:1672
 msgid "Image"
 msgstr ""
 
@@ -6399,6 +6383,10 @@ msgid "Out of office reply active on server"
 msgid_plural "Out of office reply active on servers"
 msgstr[0] "\"অফিসে নেই\" উত্তর কনফিগার করো"
 msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার করো"
+
+#, fuzzy
+#~ msgid "Reset"
+#~ msgstr "ফোল্ডার নির্বাচন করো"
 
 #, fuzzy
 #~ msgid "Insert Special Character"
