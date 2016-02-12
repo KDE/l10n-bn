@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-01-21 07:51+0000\n"
+"POT-Creation-Date: 2016-02-12 07:40+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -924,7 +924,7 @@ msgstr "&সর্বদা দেখাও"
 msgid "Display Tooltips"
 msgstr "প্রা&পক"
 
-#: core/view.cpp:2405 core/view.cpp:2409 core/widgets/quicksearchline.cpp:328
+#: core/view.cpp:2405 core/view.cpp:2409 core/widgets/quicksearchline.cpp:288
 #, fuzzy
 #| msgid "&From"
 msgid "From"
@@ -1150,134 +1150,42 @@ msgstr "বার্তা তালিকা"
 msgid "Folder Always Uses This Sort Order"
 msgstr ""
 
-#: core/widgets/quicksearchline.cpp:64
-#, fuzzy
-#| msgid "Available Filters"
-msgid "Quick Filter:"
-msgstr "যে যে ফিল্টার আপাতত আছে"
-
-#: core/widgets/quicksearchline.cpp:70
+#: core/widgets/quicksearchline.cpp:60
 #, fuzzy
 msgctxt "Search for messages."
 msgid "Search"
 msgstr "&সন্ধান"
 
-#: core/widgets/quicksearchline.cpp:79
-#, fuzzy
-msgid "More..."
-msgstr "কে-মেইল ক&নফিগার করো..."
-
-#: core/widgets/quicksearchline.cpp:106
+#: core/widgets/quicksearchline.cpp:89
 #, fuzzy
 msgid "Filter message by:"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: core/widgets/quicksearchline.cpp:109
+#: core/widgets/quicksearchline.cpp:92
 #, fuzzy
 #| msgid "&Full message"
 msgid "Full Message"
 msgstr "পূর্ণ বার্তা (&প)"
 
-#: core/widgets/quicksearchline.cpp:117
+#: core/widgets/quicksearchline.cpp:100
 msgid "Body"
 msgstr ""
 
-#: core/widgets/quicksearchline.cpp:124
+#: core/widgets/quicksearchline.cpp:107
 #, fuzzy
 #| msgid "Subject"
 msgid "Subject"
 msgstr "বিষয়"
 
-#: core/widgets/quicksearchline.cpp:139
+#: core/widgets/quicksearchline.cpp:122
 msgid "Bcc"
 msgstr ""
 
-#: core/widgets/quicksearchline.cpp:326
+#: core/widgets/quicksearchline.cpp:286
 #, fuzzy
 #| msgid "To"
 msgid "To"
 msgstr "গ্রা&হক"
-
-#: core/widgets/quicksearchline.cpp:338
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Unread"
-msgctxt "@action:inmenu Status of a message"
-msgid "Unread"
-msgstr "অপঠিত"
-
-#: core/widgets/quicksearchline.cpp:341
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Replied"
-msgctxt "@action:inmenu Status of a message"
-msgid "Replied"
-msgstr "উত্তর দেওয়া"
-
-#: core/widgets/quicksearchline.cpp:345
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Forwarded"
-msgctxt "@action:inmenu Status of a message"
-msgid "Forwarded"
-msgstr "ফরোয়ার্ড করা"
-
-#: core/widgets/quicksearchline.cpp:349
-#, fuzzy
-#| msgctxt "msg status"
-#| msgid "Important"
-msgctxt "@action:inmenu Status of a message"
-msgid "Important"
-msgstr "গুরুত্বপূর্ণ"
-
-#: core/widgets/quicksearchline.cpp:353
-#, fuzzy
-#| msgid "Remove &Important Message Mark"
-msgctxt "@action:inmenu Status of a message"
-msgid "Action Item"
-msgstr "`গুরুত্বপূর্ণ বার্তা' চিহ্ন সরা&ও"
-
-#: core/widgets/quicksearchline.cpp:357
-#, fuzzy
-#| msgid "Watched"
-msgctxt "@action:inmenu Status of a message"
-msgid "Watched"
-msgstr "লক্ষ্য রাখা"
-
-#: core/widgets/quicksearchline.cpp:361
-#, fuzzy
-#| msgid "Ignored"
-msgctxt "@action:inmenu Status of a message"
-msgid "Ignored"
-msgstr "অগ্রাহ্য করা"
-
-#: core/widgets/quicksearchline.cpp:365
-#, fuzzy
-#| msgid "Has Attachment"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Attachment"
-msgstr "অ্যাটাচমেন্ট আছে"
-
-#: core/widgets/quicksearchline.cpp:369
-#, fuzzy
-#| msgid "Advanced Options"
-msgctxt "@action:inmenu Status of a message"
-msgid "Has Invitation"
-msgstr "অগ্রসর অপশন"
-
-#: core/widgets/quicksearchline.cpp:373
-#, fuzzy
-#| msgid "Spam"
-msgctxt "@action:inmenu Status of a message"
-msgid "Spam"
-msgstr "স্প্যাম"
-
-#: core/widgets/quicksearchline.cpp:377
-#, fuzzy
-#| msgid "Ham"
-msgctxt "@action:inmenu Status of a message"
-msgid "Ham"
-msgstr "হ্যাম"
 
 #: core/widgets/quicksearchwarning.cpp:31
 msgid "The words less than 3 letters are ignored."
@@ -1289,22 +1197,103 @@ msgstr ""
 msgid "Do not show again"
 msgstr "বার্তা প্রাকদর্শ&ন ক্ষেত্র দেখিও না"
 
-#: core/widgets/searchlinestatus.cpp:42
+#: core/widgets/searchlinestatus.cpp:51
 msgctxt "@info:tooltip"
 msgid "Prevent the quick search field from being cleared when changing folders"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:45
+#: core/widgets/searchlinestatus.cpp:54
 msgctxt "@info:tooltip"
 msgid "Clear the quick search field when changing folders"
 msgstr ""
 
-#: core/widgets/searchlinestatus.cpp:66
+#: core/widgets/searchlinestatus.cpp:75
 msgctxt "@info:whatsthis"
 msgid ""
 "Toggle this button if you want to keep your quick search locked when moving "
 "to other folders or when narrowing the search by message status."
 msgstr ""
+
+#: core/widgets/searchlinestatus.cpp:138
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Unread"
+msgctxt "@action:inmenu Status of a message"
+msgid "Unread"
+msgstr "অপঠিত"
+
+#: core/widgets/searchlinestatus.cpp:142
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Replied"
+msgctxt "@action:inmenu Status of a message"
+msgid "Replied"
+msgstr "উত্তর দেওয়া"
+
+#: core/widgets/searchlinestatus.cpp:146
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Forwarded"
+msgctxt "@action:inmenu Status of a message"
+msgid "Forwarded"
+msgstr "ফরোয়ার্ড করা"
+
+#: core/widgets/searchlinestatus.cpp:150
+#, fuzzy
+#| msgctxt "msg status"
+#| msgid "Important"
+msgctxt "@action:inmenu Status of a message"
+msgid "Important"
+msgstr "গুরুত্বপূর্ণ"
+
+#: core/widgets/searchlinestatus.cpp:154
+#, fuzzy
+#| msgid "Remove &Important Message Mark"
+msgctxt "@action:inmenu Status of a message"
+msgid "Action Item"
+msgstr "`গুরুত্বপূর্ণ বার্তা' চিহ্ন সরা&ও"
+
+#: core/widgets/searchlinestatus.cpp:158
+#, fuzzy
+#| msgid "Watched"
+msgctxt "@action:inmenu Status of a message"
+msgid "Watched"
+msgstr "লক্ষ্য রাখা"
+
+#: core/widgets/searchlinestatus.cpp:162
+#, fuzzy
+#| msgid "Ignored"
+msgctxt "@action:inmenu Status of a message"
+msgid "Ignored"
+msgstr "অগ্রাহ্য করা"
+
+#: core/widgets/searchlinestatus.cpp:166
+#, fuzzy
+#| msgid "Has Attachment"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Attachment"
+msgstr "অ্যাটাচমেন্ট আছে"
+
+#: core/widgets/searchlinestatus.cpp:170
+#, fuzzy
+#| msgid "Advanced Options"
+msgctxt "@action:inmenu Status of a message"
+msgid "Has Invitation"
+msgstr "অগ্রসর অপশন"
+
+#: core/widgets/searchlinestatus.cpp:174
+#, fuzzy
+#| msgid "Spam"
+msgctxt "@action:inmenu Status of a message"
+msgid "Spam"
+msgstr "স্প্যাম"
+
+#: core/widgets/searchlinestatus.cpp:178
+#, fuzzy
+#| msgid "Ham"
+msgctxt "@action:inmenu Status of a message"
+msgid "Ham"
+msgstr "হ্যাম"
 
 #: messagelistutil.cpp:119
 #, fuzzy
@@ -1926,6 +1915,15 @@ msgstr "&এখানে কপি করো"
 #: widget.cpp:437
 msgid "C&ancel"
 msgstr "বাতি&ল"
+
+#, fuzzy
+#~| msgid "Available Filters"
+#~ msgid "Quick Filter:"
+#~ msgstr "যে যে ফিল্টার আপাতত আছে"
+
+#, fuzzy
+#~ msgid "More..."
+#~ msgstr "কে-মেইল ক&নফিগার করো..."
 
 #, fuzzy
 #~| msgid "Last Search"
