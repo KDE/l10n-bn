@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-03-23 07:31+0000\n"
+"POT-Creation-Date: 2016-03-25 07:50+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1397,7 +1397,7 @@ msgid "This option requires dirmngr >= 0.9.0"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, systemHTTPProxy)
-#: configuredialog/configuresecuritypage.cpp:608 ui/smimeconfiguration.ui:183
+#: configuredialog/configuresecuritypage.cpp:608 ui/smimeconfiguration.ui:186
 msgid "no proxy"
 msgstr ""
 
@@ -3180,58 +3180,58 @@ msgstr "ফাইলে সংরক্ষণ করো"
 msgid "&Replace"
 msgstr "&বদলাও"
 
-#: kmcommands.cpp:750
+#: kmcommands.cpp:748
 msgid "Open Message"
 msgstr "বার্তা খোলো"
 
-#: kmcommands.cpp:751
+#: kmcommands.cpp:749
 #, fuzzy
 #| msgid "Message Body"
 msgid "Message (*.mbox)"
 msgstr "বার্তার প্রধান অংশ"
 
-#: kmcommands.cpp:784
+#: kmcommands.cpp:782
 msgid "The file does not contain a message."
 msgstr "ফাইলটিতে কোন বার্তা নেই।"
 
-#: kmcommands.cpp:840
+#: kmcommands.cpp:837
 msgid "The file contains multiple messages. Only the first message is shown."
 msgstr "ফাইলটিতে একাধিক বার্তা রয়েছে। শুধু প্রথম বার্তাটি প্রদর্শিত হচ্ছে।"
 
-#: kmcommands.cpp:964
+#: kmcommands.cpp:961
 msgid ""
 "Do you want to forward the selected messages as attachments in one message "
 "(as a MIME digest) or as individual messages?"
 msgstr ""
 
-#: kmcommands.cpp:967
+#: kmcommands.cpp:964
 #, fuzzy
 msgid "Send As Digest"
 msgstr "প্রের&ণ"
 
-#: kmcommands.cpp:968
+#: kmcommands.cpp:965
 msgid "Send Individually"
 msgstr ""
 
-#: kmcommands.cpp:1379
+#: kmcommands.cpp:1376
 #, fuzzy
 msgid "Filtering messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: kmcommands.cpp:1386
+#: kmcommands.cpp:1383
 #, fuzzy, kde-format
 msgid "Filtering message %1 of %2"
 msgstr "%1 থেকে %2-টি বার্তার %3 নম্বরটি স্থানান্তরিত করা হচ্ছে।"
 
-#: kmcommands.cpp:1538
+#: kmcommands.cpp:1536
 msgid "Moving messages"
 msgstr "বার্তা সরানো হচ্ছে"
 
-#: kmcommands.cpp:1538
+#: kmcommands.cpp:1536
 msgid "Deleting messages"
 msgstr "বার্তা মুছে ফেলা হচ্ছে"
 
-#: kmcommands.cpp:1673
+#: kmcommands.cpp:1671
 msgid "Image"
 msgstr ""
 
@@ -5887,7 +5887,7 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, CRLRB)
 #: ui/smimeconfiguration.ui:20
-msgid "Validate certificates using CRLs"
+msgid "&Validate certificates using CRLs"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, OCSPRB)
@@ -5922,7 +5922,7 @@ msgstr ""
 msgid "OCSP responder signature:"
 msgstr "শেষে স্বাক্ষর যো&গ করো"
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, OCSPResponderURL)
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, OCSPResponderURL)
 #: ui/smimeconfiguration.ui:74
 msgid ""
 "Enter here the address of the server for online validation of certificates "
@@ -5930,12 +5930,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreServiceURLCB)
-#: ui/smimeconfiguration.ui:88
+#: ui/smimeconfiguration.ui:91
 msgid "Ignore service URL of certificates"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, doNotCheckCertPolicyCB)
-#: ui/smimeconfiguration.ui:98
+#: ui/smimeconfiguration.ui:101
 msgid ""
 "By default GnuPG uses the file ~/.gnupg/policies.txt to check if a "
 "certificate policy is allowed. If this option is selected, policies are not "
@@ -5943,53 +5943,53 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, doNotCheckCertPolicyCB)
-#: ui/smimeconfiguration.ui:101
+#: ui/smimeconfiguration.ui:104
 msgid "Do not check certificate policies"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, neverConsultCB)
-#: ui/smimeconfiguration.ui:108
+#: ui/smimeconfiguration.ui:111
 msgid ""
 "If this option is checked, Certificate Revocation Lists are never used to "
 "validate S/MIME certificates."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, neverConsultCB)
-#: ui/smimeconfiguration.ui:111
+#: ui/smimeconfiguration.ui:114
 msgid "Never consult a CRL"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, fetchMissingCB)
-#: ui/smimeconfiguration.ui:118
+#: ui/smimeconfiguration.ui:121
 msgid ""
 "If this option is checked, missing issuer certificates are fetched when "
 "necessary (this applies to both validation methods, CRLs and OCSP)"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, fetchMissingCB)
-#: ui/smimeconfiguration.ui:121
+#: ui/smimeconfiguration.ui:124
 #, fuzzy
 #| msgid "When adding certificates"
 msgid "Fetch missing issuer certificates"
 msgstr "সার্টিফিকেট যোগ করাকালীন"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabHTTP)
-#: ui/smimeconfiguration.ui:132
+#: ui/smimeconfiguration.ui:135
 msgid "HTTP Requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, disableHTTPCB)
-#: ui/smimeconfiguration.ui:138
+#: ui/smimeconfiguration.ui:141
 msgid "Entirely disables the use of HTTP for S/MIME."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, disableHTTPCB)
-#: ui/smimeconfiguration.ui:141
+#: ui/smimeconfiguration.ui:144
 msgid "Do not perform any HTTP requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreHTTPDPCB)
-#: ui/smimeconfiguration.ui:148
+#: ui/smimeconfiguration.ui:151
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
 "contains what are known as \"CRL Distribution Point\" (DP) entries, which "
@@ -5999,12 +5999,12 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreHTTPDPCB)
-#: ui/smimeconfiguration.ui:151
+#: ui/smimeconfiguration.ui:154
 msgid "Ignore HTTP CRL distribution point of certificates"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, honorHTTPProxyRB)
-#: ui/smimeconfiguration.ui:173
+#: ui/smimeconfiguration.ui:176
 msgid ""
 "If this option is selected, the value of the HTTP proxy shown on the right "
 "(which comes from the environment variable http_proxy) will be used for any "
@@ -6012,17 +6012,17 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, honorHTTPProxyRB)
-#: ui/smimeconfiguration.ui:176
-msgid "Use system HTTP proxy:"
+#: ui/smimeconfiguration.ui:179
+msgid "Use s&ystem HTTP proxy:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QRadioButton, useCustomHTTPProxyRB)
-#: ui/smimeconfiguration.ui:193
-msgid "Use this proxy for HTTP requests: "
+#: ui/smimeconfiguration.ui:196
+msgid "Use &this proxy for HTTP requests: "
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, customHTTPProxy)
-#: ui/smimeconfiguration.ui:200
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, customHTTPProxy)
+#: ui/smimeconfiguration.ui:203
 msgid ""
 "Enter here the location of your HTTP Proxy, which will be used for all HTTP "
 "requests relating to S/MIME. The syntax is host:port, for instance myproxy."
@@ -6030,22 +6030,22 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tabLDAP)
-#: ui/smimeconfiguration.ui:210
+#: ui/smimeconfiguration.ui:216
 msgid "LDAP Requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, disableLDAPCB)
-#: ui/smimeconfiguration.ui:218
+#: ui/smimeconfiguration.ui:224
 msgid "Entirely disables the use of LDAP for S/MIME."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, disableLDAPCB)
-#: ui/smimeconfiguration.ui:221
+#: ui/smimeconfiguration.ui:227
 msgid "Do not perform any LDAP requests"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, ignoreLDAPDPCB)
-#: ui/smimeconfiguration.ui:228
+#: ui/smimeconfiguration.ui:234
 msgid ""
 "When looking for the location of a CRL, the to-be-tested certificate usually "
 "contains what are known as \"CRL Distribution Point\" (DP) entries, which "
@@ -6055,17 +6055,17 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, ignoreLDAPDPCB)
-#: ui/smimeconfiguration.ui:231
+#: ui/smimeconfiguration.ui:237
 msgid "Ignore LDAP CRL distribution point of certificates"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, customLDAPLabel)
-#: ui/smimeconfiguration.ui:240
+#: ui/smimeconfiguration.ui:246
 msgid "Primary host for LDAP requests:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QLineEdit, customLDAPProxy)
-#: ui/smimeconfiguration.ui:251
+#. i18n: ectx: property (whatsThis), widget (KLineEdit, customLDAPProxy)
+#: ui/smimeconfiguration.ui:257
 msgid ""
 "Entering a LDAP server here will make all LDAP requests go to that server "
 "first. More precisely, this setting overrides any specified host and port "
