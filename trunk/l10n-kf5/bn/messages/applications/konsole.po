@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-06-22 07:22+0000\n"
+"POT-Creation-Date: 2016-07-07 07:19+0000\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -416,11 +416,11 @@ msgstr "নতুন কী-বাইণ্ডিং তালিকা"
 msgid "Edit Key Binding List"
 msgstr "কী-বাইণ্ডিং তালিকা সম্পাদনা করো"
 
-#: EditProfileDialog.cpp:1197
+#: EditProfileDialog.cpp:1206
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1245
+#: EditProfileDialog.cpp:1254
 msgid "AaZz09..."
 msgstr ""
 
@@ -898,7 +898,7 @@ msgstr ""
 #. i18n: ectx: property (toolTip), widget (QCheckBox, underlineLinksButton)
 #: EditProfileDialog.ui:967
 msgid ""
-"Text recognized as a link or an email address will be underlined when "
+"Text recognized as a file, link or an email address will be underlined when "
 "hovered by the mouse pointer."
 msgstr ""
 
@@ -907,19 +907,19 @@ msgstr ""
 #, fuzzy
 #| msgctxt "The shape of the cursor"
 #| msgid "Underline"
-msgid "Underline links"
+msgid "Underline files and links"
 msgstr "Underline"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, openLinksByDirectClickButton)
 #: EditProfileDialog.ui:998
 msgid ""
-"Text recognized as a link or an email address can be opened by direct mouse "
-"click."
+"Text recognized as a file, link or an email address can be opened by direct "
+"mouse click."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, openLinksByDirectClickButton)
 #: EditProfileDialog.ui:1001
-msgid "Open links by direct click"
+msgid "Open files and links by direct click"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, ctrlRequiredForDragButton)
@@ -967,30 +967,40 @@ msgstr "অগ্রসর"
 msgid "Terminal Features"
 msgstr "টার্মিনাল বৈশিষ্ট্যাবলী"
 
-#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableUrlHints)
 #: EditProfileDialog.ui:1078
+msgid "Show URL hint overlays that can be triggered when holding down CTRL."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, enableUrlHints)
+#: EditProfileDialog.ui:1081
+msgid "Enable URL hints"
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingTextButton)
+#: EditProfileDialog.ui:1094
 #, fuzzy
 msgid "Allow terminal programs to create blinking sections of text"
 msgstr "লেখার blinking বিভাগ তৈরি করতে টার্মিনাল প্রোগ্রাম অনুমোদন করো"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingTextButton)
-#: EditProfileDialog.ui:1081
+#: EditProfileDialog.ui:1097
 #, fuzzy
 msgid "Allow blinking text"
 msgstr "blinking লেখা অনুমোদন করো"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1094
+#: EditProfileDialog.ui:1110
 msgid "Allow the output to be suspended by pressing Ctrl+S"
 msgstr "Ctrl+S চেপে আউটপুট আটকাতে দাও"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableFlowControlButton)
-#: EditProfileDialog.ui:1097
+#: EditProfileDialog.ui:1113
 msgid "Enable flow control using Ctrl+S, Ctrl+Q"
 msgstr "Ctrl+S, Ctrl+Q ব্যবহার করে flow control সক্রিয় করো"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1110
+#: EditProfileDialog.ui:1126
 msgid ""
 "Enable Bi-Directional display on terminals (valid for Arabic, Farsi or "
 "Hebrew only)"
@@ -999,128 +1009,134 @@ msgstr ""
 "ভাষার জন্য)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBidiRenderingButton)
-#: EditProfileDialog.ui:1113
+#: EditProfileDialog.ui:1129
 msgid "Enable Bi-Directional text rendering"
 msgstr "Bi-Directional লেখা প্রদর্শন সক্রিয় করো"
 
 #. i18n: ectx: property (text), widget (QLabel, lineSpacingLabel)
-#: EditProfileDialog.ui:1122
+#: EditProfileDialog.ui:1138
 #, fuzzy
 #| msgid "Li&ne Spacing"
 msgid "Line Spacing:"
 msgstr "লা&ইনের মাঝে ফাঁক"
 
 #. i18n: ectx: property (toolTip), widget (QSpinBox, lineSpacingSpinner)
-#: EditProfileDialog.ui:1129
+#: EditProfileDialog.ui:1145
 msgid "The number of pixels between two lines"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
-#: EditProfileDialog.ui:1160
+#: EditProfileDialog.ui:1176
 msgid "Cursor"
 msgstr "কার্সর"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1175
+#: EditProfileDialog.ui:1191
 msgid "Make the cursor blink regularly"
 msgstr "কার্সর নিয়মিতভাবে ব্লিঙ্ক করবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, enableBlinkingCursorButton)
-#: EditProfileDialog.ui:1178
+#: EditProfileDialog.ui:1194
 #, fuzzy
 msgid "Blinking cursor"
 msgstr "Blinking কার্সর"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: EditProfileDialog.ui:1187
+#: EditProfileDialog.ui:1203
 msgid "Cursor shape:"
 msgstr "কার্সর আকৃতি:"
 
 #. i18n: ectx: property (toolTip), widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1194
+#: EditProfileDialog.ui:1210
 msgid "Change the shape of the cursor"
 msgstr "কার্সরের আকৃতি পরিবর্তন করো"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1198
+#: EditProfileDialog.ui:1214
 msgctxt "The shape of the cursor"
 msgid "Block"
 msgstr "ব্লক"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1203
+#: EditProfileDialog.ui:1219
 msgctxt "The shape of the cursor, similar to a capital I"
 msgid "I-Beam"
 msgstr "I-Beam"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, cursorShapeCombo)
-#: EditProfileDialog.ui:1208
+#: EditProfileDialog.ui:1224
 msgctxt "The shape of the cursor"
 msgid "Underline"
 msgstr "Underline"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1237
+#: EditProfileDialog.ui:1253
 #, fuzzy
 msgid "Set the cursor to match the color of the character underneath it."
 msgstr "অক্ষর তলদেশে এইটির রং মিলতে কার্সর নিযুক্ত করো।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, autoCursorColorButton)
-#: EditProfileDialog.ui:1240
+#: EditProfileDialog.ui:1256
 #, fuzzy
 msgid "Set cursor color to match current character"
 msgstr "বর্তমান অক্ষর মিলতে কার্সর রং নিযুক্ত করো"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1255
+#: EditProfileDialog.ui:1271
 #, fuzzy
 msgid "Use a custom, fixed color for the cursor"
 msgstr "একটি স্বনির্বাচিত ব্যবহার করো, কার্সরের জন্য রং মেরামত করেছিলেন"
 
 #. i18n: ectx: property (text), widget (QRadioButton, customCursorColorButton)
-#: EditProfileDialog.ui:1258
+#: EditProfileDialog.ui:1274
 msgid "Custom cursor color:"
 msgstr "কার্সর-এর জন্য স্বনির্বাচিত রং:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, customColorSelectButton)
-#: EditProfileDialog.ui:1271
+#: EditProfileDialog.ui:1287
 #, fuzzy
 msgid "Select the color used to draw the cursor"
 msgstr "কার্সর আঁকতে রং নির্বাচন করেছিলেন ব্যবহার করেছিলেন"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_11)
-#: EditProfileDialog.ui:1299
+#: EditProfileDialog.ui:1315
 msgid "Encoding"
 msgstr "এনকোডিং"
 
 #. i18n: ectx: property (text), widget (QLabel, label_14)
-#: EditProfileDialog.ui:1308
+#: EditProfileDialog.ui:1324
 msgid "Default character encoding:"
 msgstr "ডিফল্ট অক্ষর এনকোডিং:"
 
 #. i18n: ectx: property (text), widget (QPushButton, selectEncodingButton)
-#: EditProfileDialog.ui:1328
+#: EditProfileDialog.ui:1344
 #, fuzzy
 #| msgid "Select"
 msgctxt "@action:button Pick an encoding"
 msgid "Select"
 msgstr "নির্বাচন করো"
 
-#: Filter.cpp:464
+#: Filter.cpp:468
 msgid "Open Link"
 msgstr "লিঙ্ক খোলো"
 
-#: Filter.cpp:465
+#: Filter.cpp:469
 msgid "Copy Link Address"
 msgstr "লিঙ্ক ঠিকানা কপি করো"
 
-#: Filter.cpp:467
+#: Filter.cpp:471
 msgid "Send Email To..."
 msgstr "ই-মেইল পাঠাও..."
 
-#: Filter.cpp:468
+#: Filter.cpp:472
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করো"
+
+#: Filter.cpp:556
+#, fuzzy
+#| msgid "Open File Manager"
+msgid "Open File"
+msgstr "ফাইল ম্যানেজার খোলো"
 
 #: HistorySizeDialog.cpp:37
 #, fuzzy
@@ -1493,156 +1509,156 @@ msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "যে যে আর্গুমেন্ট সমেত কমান্ড চালানো হবে"
 
-#: main.cpp:302
+#: main.cpp:314
 #, fuzzy
 #| msgid "Kurt V. Hindenburg"
 msgctxt "@info:credit"
 msgid "Kurt Hindenburg"
 msgstr "Kurt V. Hindenburg"
 
-#: main.cpp:303
+#: main.cpp:315
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "General maintainer, bug fixes and general improvements"
 msgstr "ত্রুটিসংশোধন এবং উন্নতিসাধন"
 
-#: main.cpp:306
+#: main.cpp:318
 #, fuzzy
 #| msgid "Robert Knight"
 msgctxt "@info:credit"
 msgid "Robert Knight"
 msgstr "Robert Knight"
 
-#: main.cpp:307
+#: main.cpp:319
 msgctxt "@info:credit"
 msgid "Previous maintainer, ported to KDE4"
 msgstr ""
 
-#: main.cpp:309
+#: main.cpp:321
 #, fuzzy
 #| msgid "Lars Doelle"
 msgctxt "@info:credit"
 msgid "Lars Doelle"
 msgstr "Lars Doelle"
 
-#: main.cpp:310
+#: main.cpp:322
 #, fuzzy
 #| msgid "Terminal emulator"
 msgctxt "@info:credit"
 msgid "Original author"
 msgstr "টার্মিনাল এমুলেটর"
 
-#: main.cpp:312
+#: main.cpp:324
 msgctxt "@info:credit"
 msgid "Jekyll Wu"
 msgstr ""
 
-#: main.cpp:313 main.cpp:316 main.cpp:319
+#: main.cpp:325 main.cpp:328 main.cpp:331
 #, fuzzy
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "Bug fixes and general improvements"
 msgstr "ত্রুটিসংশোধন এবং উন্নতিসাধন"
 
-#: main.cpp:315
+#: main.cpp:327
 #, fuzzy
 #| msgid "Waldo Bastian"
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:318
+#: main.cpp:330
 #, fuzzy
 #| msgid "Stephan Binner"
 msgctxt "@info:credit"
 msgid "Stephan Binner"
 msgstr "Stephan Binner"
 
-#: main.cpp:321
+#: main.cpp:333
 #, fuzzy
 #| msgid "Thomas Dreibholz"
 msgctxt "@info:credit"
 msgid "Thomas Dreibholz"
 msgstr "Thomas Dreibholz"
 
-#: main.cpp:322
+#: main.cpp:334
 #, fuzzy
 #| msgid "General improvements"
 msgctxt "@info:credit"
 msgid "General improvements"
 msgstr "বিবিধ উন্নতিসাধন"
 
-#: main.cpp:324
+#: main.cpp:336
 #, fuzzy
 #| msgid "Chris Machemer"
 msgctxt "@info:credit"
 msgid "Chris Machemer"
 msgstr "Chris Machemer"
 
-#: main.cpp:325 main.cpp:328 main.cpp:364 main.cpp:367 main.cpp:370
-#: main.cpp:373
+#: main.cpp:337 main.cpp:340 main.cpp:376 main.cpp:379 main.cpp:382
+#: main.cpp:385
 #, fuzzy
 #| msgid "Bug fixes"
 msgctxt "@info:credit"
 msgid "Bug fixes"
 msgstr "ত্রুটিসংশোধন"
 
-#: main.cpp:327
+#: main.cpp:339
 msgctxt "@info:credit"
 msgid "Francesco Cecconi"
 msgstr ""
 
-#: main.cpp:330
+#: main.cpp:342
 #, fuzzy
 #| msgid "Stephan Kulow"
 msgctxt "@info:credit"
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: main.cpp:331
+#: main.cpp:343
 #, fuzzy
 #| msgid "Solaris support and history"
 msgctxt "@info:credit"
 msgid "Solaris support and history"
 msgstr "সোলারিস সমর্থন এবং 'ইতিবৃত্ত'"
 
-#: main.cpp:333
+#: main.cpp:345
 #, fuzzy
 #| msgid "Alexander Neundorf"
 msgctxt "@info:credit"
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:334
+#: main.cpp:346
 #, fuzzy
 #| msgid "Bug fixes and improved startup performance"
 msgctxt "@info:credit"
 msgid "Bug fixes and improved startup performance"
 msgstr "Bug fixes and improved startup performance"
 
-#: main.cpp:336
+#: main.cpp:348
 #, fuzzy
 #| msgid "Peter Silva"
 msgctxt "@info:credit"
 msgid "Peter Silva"
 msgstr "Peter Silva"
 
-#: main.cpp:337
+#: main.cpp:349
 #, fuzzy
 #| msgid "Marking improvements"
 msgctxt "@info:credit"
 msgid "Marking improvements"
 msgstr "মার্কিং-এ উন্নতিসাধন"
 
-#: main.cpp:339
+#: main.cpp:351
 #, fuzzy
 #| msgid "Lotzi Boloni"
 msgctxt "@info:credit"
 msgid "Lotzi Boloni"
 msgstr "Lotzi Boloni"
 
-#: main.cpp:340
+#: main.cpp:352
 #, fuzzy
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -1655,14 +1671,14 @@ msgstr ""
 "Embedded Konsole\n"
 "Toolbar and session names"
 
-#: main.cpp:343
+#: main.cpp:355
 #, fuzzy
 #| msgid "David Faure"
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "David Faure"
 
-#: main.cpp:344
+#: main.cpp:356
 #, fuzzy
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -1675,28 +1691,28 @@ msgstr ""
 "Embedded Konsole\n"
 "General improvements"
 
-#: main.cpp:347
+#: main.cpp:359
 #, fuzzy
 #| msgid "Antonio Larrosa"
 msgctxt "@info:credit"
 msgid "Antonio Larrosa"
 msgstr "Antonio Larrosa"
 
-#: main.cpp:348
+#: main.cpp:360
 #, fuzzy
 #| msgid "Visual effects"
 msgctxt "@info:credit"
 msgid "Visual effects"
 msgstr "Visual effects"
 
-#: main.cpp:350
+#: main.cpp:362
 #, fuzzy
 #| msgid "Matthias Ettrich"
 msgctxt "@info:credit"
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:351
+#: main.cpp:363
 #, fuzzy
 #| msgid ""
 #| "Code from the kvt project\n"
@@ -1709,77 +1725,77 @@ msgstr ""
 "Code from the kvt project\n"
 "General improvements"
 
-#: main.cpp:354
+#: main.cpp:366
 #, fuzzy
 #| msgid "Warwick Allison"
 msgctxt "@info:credit"
 msgid "Warwick Allison"
 msgstr "Warwick Allison"
 
-#: main.cpp:355
+#: main.cpp:367
 #, fuzzy
 #| msgid "Schema and text selection improvements"
 msgctxt "@info:credit"
 msgid "Schema and text selection improvements"
 msgstr "স্কীমা এবং লেখা নির্বাচন সংক্রান্ত উন্নতি"
 
-#: main.cpp:357
+#: main.cpp:369
 #, fuzzy
 #| msgid "Dan Pilone"
 msgctxt "@info:credit"
 msgid "Dan Pilone"
 msgstr "Dan Pilone"
 
-#: main.cpp:358
+#: main.cpp:370
 #, fuzzy
 #| msgid "SGI port"
 msgctxt "@info:credit"
 msgid "SGI port"
 msgstr "এস-জি-আই পোর্ট"
 
-#: main.cpp:360
+#: main.cpp:372
 #, fuzzy
 #| msgid "Kevin Street"
 msgctxt "@info:credit"
 msgid "Kevin Street"
 msgstr "Kevin Street"
 
-#: main.cpp:361
+#: main.cpp:373
 #, fuzzy
 #| msgid "FreeBSD port"
 msgctxt "@info:credit"
 msgid "FreeBSD port"
 msgstr "ফ্রি-বি-এস-ডি পোর্ট"
 
-#: main.cpp:363
+#: main.cpp:375
 #, fuzzy
 #| msgid "Sven Fischer"
 msgctxt "@info:credit"
 msgid "Sven Fischer"
 msgstr "Sven Fischer"
 
-#: main.cpp:366
+#: main.cpp:378
 #, fuzzy
 #| msgid "Dale M. Flaven"
 msgctxt "@info:credit"
 msgid "Dale M. Flaven"
 msgstr "Dale M. Flaven"
 
-#: main.cpp:369
+#: main.cpp:381
 #, fuzzy
 #| msgid "Martin Jones"
 msgctxt "@info:credit"
 msgid "Martin Jones"
 msgstr "Martin Jones"
 
-#: main.cpp:372
+#: main.cpp:384
 #, fuzzy
 #| msgid "Lars Knoll"
 msgctxt "@info:credit"
 msgid "Lars Knoll"
 msgstr "Lars Knoll"
 
-#: main.cpp:375
+#: main.cpp:387
 #, fuzzy
 #| msgid "Thanks to many others.\n"
 msgctxt "@info:credit"
@@ -1912,7 +1928,7 @@ msgstr "প্রিন্টার ফ্রেণ্ডলি মো&ড (ক�
 msgid "&Scale output"
 msgstr ""
 
-#: Profile.cpp:146
+#: Profile.cpp:147
 #, fuzzy
 msgctxt "Name of the default/builtin profile"
 msgid "Default"
@@ -2023,16 +2039,16 @@ msgstr "লিনাক্স কনসোল"
 msgid "Solaris console"
 msgstr "সোলারিস কনসোল"
 
-#: Session.cpp:378
+#: Session.cpp:382
 msgid "Could not find binary: "
 msgstr "বাইনারি খুঁজে পাওয়া যায়নি:"
 
-#: Session.cpp:387
+#: Session.cpp:391
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "সতর্কবার্তা: "
 
-#: Session.cpp:444
+#: Session.cpp:448
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -2041,31 +2057,31 @@ msgstr ""
 "'%1' খুঁজে পাওয়া যায়নি, তার বদলে '%2' শুরু করা হচ্ছে। অনুগ্রহ করে আপনার প্রোফাইল "
 "সেটিংস পরীক্ষা করুন।"
 
-#: Session.cpp:447
+#: Session.cpp:451
 msgid "Could not find an interactive shell to start."
 msgstr "শুরু করার জন্য কোন interactive shell খুঁজে পাওয়া যায়নি।"
 
-#: Session.cpp:485
+#: Session.cpp:489
 #, fuzzy, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "প্রেরিত মান '%2'এর সঙ্গে প্রোগ্রাম কি '%1' শুরু করতে পারে না।"
 
-#: Session.cpp:592
+#: Session.cpp:615
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "সেশন '%1' চুপচাপ"
 
-#: Session.cpp:643
+#: Session.cpp:663
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশন '%1'-এ ঘণ্টা"
 
-#: Session.cpp:646
+#: Session.cpp:676
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "সেশন '%1'-এ কিছু ঘটছে"
 
-#: Session.cpp:829
+#: Session.cpp:859
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
 "concerns about allowing these methods to be public.  If desired, these "
@@ -2073,215 +2089,215 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:856
+#: Session.cpp:886
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "শেষ"
 
-#: Session.cpp:870 Session.cpp:882
+#: Session.cpp:900 Session.cpp:912
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' ক্র্যাশ করেছে।"
 
-#: Session.cpp:872
+#: Session.cpp:902
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1'-এর %2 স্ট্যাটাস সমেত সমাপ্তি।"
 
-#: Session.cpp:1226
+#: Session.cpp:1261
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
-#: SessionController.cpp:125
+#: SessionController.cpp:126
 msgid "Konsole"
 msgstr "কনসোল"
 
-#: SessionController.cpp:342
+#: SessionController.cpp:343
 msgid "Konsole does not know how to open the bookmark: "
 msgstr "কনসোল জানে না এই বুকমার্কটি কি করে খুলতে হবে: "
 
-#: SessionController.cpp:400
+#: SessionController.cpp:401
 #, fuzzy, kde-format
 #| msgid "Search string '%1' not found."
 msgid "Search for '%1' with"
 msgstr "শব্দসমষ্টি '%1' পাওয়া যায়নি।"
 
-#: SessionController.cpp:414
+#: SessionController.cpp:415
 #, fuzzy
 #| msgid "Configure Profiles..."
 msgid "Configure Web Shortcuts..."
 msgstr "প্রোফাইল কনফিগার করুন..."
 
-#: SessionController.cpp:556
+#: SessionController.cpp:561
 #, fuzzy
 msgid "&Close Session"
 msgstr "সেশন &বন্ধ করো"
 
-#: SessionController.cpp:558
+#: SessionController.cpp:563
 msgid "&Close Tab"
 msgstr "ট্যাব &বন্ধ করো"
 
-#: SessionController.cpp:565
+#: SessionController.cpp:570
 msgid "Open File Manager"
 msgstr "ফাইল ম্যানেজার খোলো"
 
-#: SessionController.cpp:581
+#: SessionController.cpp:586
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ সাঁটো"
 
-#: SessionController.cpp:584
+#: SessionController.cpp:589
 msgid "Web Search"
 msgstr ""
 
-#: SessionController.cpp:591
+#: SessionController.cpp:596
 #, fuzzy
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "সব নির্বাচন করো"
 
-#: SessionController.cpp:595
+#: SessionController.cpp:600
 #, fuzzy
 #| msgid "Select"
 msgid "Select &Line"
 msgstr "নির্বাচন করো"
 
-#: SessionController.cpp:598
+#: SessionController.cpp:603
 msgid "Save Output &As..."
 msgstr "আউটপুট &নতুন নামে সংরক্ষণ করো..."
 
-#: SessionController.cpp:601
+#: SessionController.cpp:606
 msgid "&Print Screen..."
 msgstr "স্ক্রীণ ছাপা&ও..."
 
-#: SessionController.cpp:605
+#: SessionController.cpp:610
 #, fuzzy
 #| msgid "Configure Scrollback..."
 msgid "Adjust Scrollback..."
 msgstr "ইতিবৃত্ত কনফিগার করো..."
 
-#: SessionController.cpp:609
+#: SessionController.cpp:614
 msgid "Clear Scrollback"
 msgstr "ইতিবৃত্ত মুছে ফেলো"
 
-#: SessionController.cpp:613
+#: SessionController.cpp:618
 msgid "Clear Scrollback and Reset"
 msgstr "ইতিবৃত্ত মুছে ফেলো এবং রিসেট করো"
 
-#: SessionController.cpp:619
+#: SessionController.cpp:624
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা করো..."
 
-#: SessionController.cpp:622
+#: SessionController.cpp:627
 #, fuzzy
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা করো"
 
-#: SessionController.cpp:639
+#: SessionController.cpp:644
 msgid "Set &Encoding"
 msgstr "&এনকোডিং নির্ধারণ করো"
 
-#: SessionController.cpp:654
+#: SessionController.cpp:659
 msgid "&Rename Tab..."
 msgstr "ট্যাব-এর না&ম পাল্টাও..."
 
-#: SessionController.cpp:660
+#: SessionController.cpp:665
 msgid "&All Tabs in Current Window"
 msgstr "বর্তমান উইণ্ডোয় &সমস্ত ট্যাব"
 
-#: SessionController.cpp:667
+#: SessionController.cpp:672
 msgid "&Select Tabs..."
 msgstr "ট্যাব নির্বাচ&ন করুন..."
 
-#: SessionController.cpp:673
+#: SessionController.cpp:678
 #, fuzzy
 #| msgid "&None"
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr "কিছু &নয়"
 
-#: SessionController.cpp:681
+#: SessionController.cpp:686
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করে পাঠাও"
 
-#: SessionController.cpp:688
+#: SessionController.cpp:693
 msgid "&ZModem Upload..."
 msgstr "&ZModem আপলোড..."
 
-#: SessionController.cpp:693
+#: SessionController.cpp:698
 msgid "Monitor for &Activity"
 msgstr "কিছু &ঘটছে কি না খেয়াল রাখো"
 
-#: SessionController.cpp:698
+#: SessionController.cpp:703
 msgid "Monitor for &Silence"
 msgstr "সব চুপচা&প কি না খেয়াল রাখো"
 
-#: SessionController.cpp:705
+#: SessionController.cpp:710
 msgid "Enlarge Font"
 msgstr "ফন্ট বড় করো"
 
-#: SessionController.cpp:713
+#: SessionController.cpp:718
 msgid "Shrink Font"
 msgstr "ফন্ট ছোট করো"
 
-#: SessionController.cpp:720
+#: SessionController.cpp:725
 #, fuzzy
 #| msgid "&Send Signal"
 msgid "Send Signal"
 msgstr "সিগনা&ল পাঠাও"
 
-#: SessionController.cpp:724
+#: SessionController.cpp:729
 msgid "&Suspend Task"
 msgstr "টাস্ক স্থগি&ত রাখো"
 
-#: SessionController.cpp:729
+#: SessionController.cpp:734
 msgid "&Continue Task"
 msgstr "টাস্ক &আবার চালু করো"
 
-#: SessionController.cpp:734
+#: SessionController.cpp:739
 msgid "&Hangup"
 msgstr "হ্যাং আ&প"
 
-#: SessionController.cpp:739
+#: SessionController.cpp:744
 msgid "&Interrupt Task"
 msgstr "টাস্ক বিঘ্নিত &করো"
 
-#: SessionController.cpp:744
+#: SessionController.cpp:749
 #, fuzzy
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "টার্মিনাল বৈশিষ্ট্যাবলী"
 
-#: SessionController.cpp:749
+#: SessionController.cpp:754
 msgid "&Kill Task"
 msgstr "টাস্ক থামিয়ে দা&ও"
 
-#: SessionController.cpp:754
+#: SessionController.cpp:759
 msgid "User Signal &1"
 msgstr "ব্যবহারকারী সিগনাল &১"
 
-#: SessionController.cpp:759
+#: SessionController.cpp:764
 msgid "User Signal &2"
 msgstr "ব্যবহারকারী সিগনাল &২"
 
-#: SessionController.cpp:863
+#: SessionController.cpp:868
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "এই সেশন-এ একটি প্রোগ্রাম চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:866
+#: SessionController.cpp:871
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:869 SessionController.cpp:894
+#: SessionController.cpp:874 SessionController.cpp:899
 msgid "Confirm Close"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: SessionController.cpp:888
+#: SessionController.cpp:893
 #, fuzzy
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -2291,7 +2307,7 @@ msgid ""
 "by force?"
 msgstr "এই সেশন-এ একটি প্রোগ্রাম চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:891
+#: SessionController.cpp:896
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -2301,19 +2317,19 @@ msgid ""
 "kill it by force?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: SessionController.cpp:1385
+#: SessionController.cpp:1390
 #, fuzzy
 #| msgid "Print &header"
 msgid "Print Shell"
 msgstr "হেডা&র ছাপানো হোক"
 
-#: SessionController.cpp:1587
+#: SessionController.cpp:1592
 #, fuzzy
 #| msgid "Save ZModem Download to..."
 msgid "Save ZModem Download to..."
 msgstr "জি-মোডে&ম ডাউনলোড এখানে সংরক্ষণ করো..."
 
-#: SessionController.cpp:1597
+#: SessionController.cpp:1602
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
 "software was found on this system.</p><p>You may wish to install the 'rzsz' "
@@ -2323,12 +2339,12 @@ msgstr ""
 "সফটওয়্যার পাওয়া যাচ্ছে না।</p><p>আপনি 'rzsz' অথবা 'lrzsz' প্যাকেজটি ইনস্টল করে "
 "দেখতে পারেন।</p>"
 
-#: SessionController.cpp:1609
+#: SessionController.cpp:1614
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>বর্তমান সেশনে একটি জি-মোডেম ফাইল ট্রান্সফার আগে থেকেই চলছে।</p>"
 
-#: SessionController.cpp:1618
+#: SessionController.cpp:1623
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
 "to install the 'rzsz' or 'lrzsz' package.</p>"
@@ -2336,21 +2352,21 @@ msgstr ""
 "<p>সিস্টেমে কোনো মানানসই জি-মোডেম সফটওয়ার পাওয়া যায়নি।</p><p>আপনি 'rzsz' বা "
 "'lrzsz' প্যাকেজগুলি ইনস্টল করে দেখতে পারেন।</p>"
 
-#: SessionController.cpp:1624
+#: SessionController.cpp:1629
 msgid "Select Files for ZModem Upload"
 msgstr "জি-মোডেম আপলোড করার জন্য ফাইল বেছে নিন"
 
-#: SessionController.cpp:1691
+#: SessionController.cpp:1696
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে আউটপুট সংরক্ষণ করো"
 
-#: SessionController.cpp:1702
+#: SessionController.cpp:1707
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 একটি অবৈধ ইউ-আর-এল, আউটপুট সংরক্ষণ করা যায়নি।"
 
-#: SessionController.cpp:1776
+#: SessionController.cpp:1781
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -2788,29 +2804,29 @@ msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম্যাট:"
 
-#: TerminalDisplay.cpp:1254 TerminalDisplay.cpp:1255
+#: TerminalDisplay.cpp:1255 TerminalDisplay.cpp:1256
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: TerminalDisplay.cpp:1266
+#: TerminalDisplay.cpp:1267
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: TerminalDisplay.cpp:2823
+#: TerminalDisplay.cpp:2838
 #, fuzzy, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 msgstr[1] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: TerminalDisplay.cpp:2826
+#: TerminalDisplay.cpp:2841
 #, fuzzy
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: TerminalDisplay.cpp:3015
+#: TerminalDisplay.cpp:3030
 #, fuzzy
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -2823,13 +2839,13 @@ msgstr ""
 "<qt>Ctrl+S চাপা হয়েছে বলে আউটপুট <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">আটকে রাখা</a> হয়েছে। <b>Ctrl+Q</b> চাপলে পুনরায় শুরু হবে।</qt>"
 
-#: TerminalDisplay.cpp:3283
+#: TerminalDisplay.cpp:3324
 #, fuzzy
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ সাঁটো"
 
-#: TerminalDisplay.cpp:3300
+#: TerminalDisplay.cpp:3341
 #, fuzzy
 msgid "Change &Directory To"
 msgstr "কার্যকরী ডিরেক্টরি পাল্টে 'dir' করো"
