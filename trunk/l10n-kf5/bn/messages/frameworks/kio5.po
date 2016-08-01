@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-07-25 07:36+0000\n"
+"POT-Creation-Date: 2016-08-01 07:34+0000\n"
 "PO-Revision-Date: 2009-01-09 21:08-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -3998,14 +3998,14 @@ msgid "Disk cache &size:"
 msgstr "ডিস্ক ক্যাশ-এর মা&প:"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, sbMaxCacheSize)
-#: kcms/kio/cache.ui:101
+#: kcms/kio/cache.ui:104
 #, fuzzy
 #| msgid "%1 KB"
 msgid " KiB"
 msgstr "%1 কিলোবাইট"
 
 #. i18n: ectx: property (text), widget (QPushButton, clearCacheButton)
-#: kcms/kio/cache.ui:111
+#: kcms/kio/cache.ui:114
 msgid "C&lear Cache"
 msgstr "ক্যা&শ ফাঁকা করো"
 
@@ -4469,12 +4469,14 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: label, entry (MarkPartial), group (DesktopIcons)
-#: kcms/kio/kio_ftprc.kcfg:16
+#. i18n: ectx: label, entry (MarkPartial), group (Global Options)
+#: kcms/kio/kio_ftprc.kcfg:16 kcms/kio/kioslave.kcfg:34
 msgid "Mark partially uploaded files"
 msgstr "অসম্পূর্ণ আপলোড করা ফাইল চিহ্নিত করো"
 
 #. i18n: ectx: whatsthis, entry (MarkPartial), group (DesktopIcons)
-#: kcms/kio/kio_ftprc.kcfg:17
+#. i18n: ectx: whatsthis, entry (MarkPartial), group (Global Options)
+#: kcms/kio/kio_ftprc.kcfg:17 kcms/kio/kioslave.kcfg:35
 msgid ""
 "While a file is being uploaded its extension is \".part\". When fully "
 "uploaded it is renamed to its real name."
@@ -4899,14 +4901,39 @@ msgid "&Server response:"
 msgstr "সার্ভারের &উত্তর:"
 
 #: kcms/kio/netpref.cpp:67
+#, fuzzy
+msgid "Global Options"
+msgstr "প্রক্রিয়া"
+
+#: kcms/kio/netpref.cpp:71 kcms/kio/netpref.cpp:93
+msgid "Mark &partially uploaded files"
+msgstr "অসম্পূর্ণ ফাইল চিহ্নি&ত করো"
+
+#: kcms/kio/netpref.cpp:72
+#, fuzzy
+#| msgid ""
+#| "<p>Marks partially uploaded FTP files.</p><p>When this option is enabled, "
+#| "partially uploaded files will have a \".part\" extension. This extension "
+#| "will be removed once the transfer is complete.</p>"
+msgid ""
+"<p>Marks partially uploaded files through SMB, SFTP and other protocols.</"
+"p><p>When this option is enabled, partially uploaded files will have a \"."
+"part\" extension. This extension will be removed once the transfer is "
+"complete.</p>"
+msgstr ""
+"<p>আংশিক আপলোড করা ফাইল চিহ্নিত করে।</p><p>এই অপশনটি সক্রিয় করা হলে যেসব ফাইল "
+"আংশিক আপলোড করা হয়েছে, সেগুলির নামের শেষে \".part\" যোগ করা হবে। আপলোড করা    "
+"সম্পূর্ণ হলে নামের এই অংশটি মুছে ফেলা হবে।</p>"
+
+#: kcms/kio/netpref.cpp:82
 msgid "FTP Options"
 msgstr "এফ.টি.পি. অপশন"
 
-#: kcms/kio/netpref.cpp:71
+#: kcms/kio/netpref.cpp:86
 msgid "Enable passive &mode (PASV)"
 msgstr "পাসি&ভ (passive) মোড (PASV) সমর্থন করো"
 
-#: kcms/kio/netpref.cpp:72
+#: kcms/kio/netpref.cpp:87
 msgid ""
 "Enables FTP's \"passive\" mode. This is required to allow FTP to work from "
 "behind firewalls."
@@ -4914,11 +4941,7 @@ msgstr ""
 "এফ.টি.পি-র পাসিভ (passive) মোড সক্রিয় করে। ফায়ারওয়াল-এর পিছন থেকে  এফ.টি.পি "
 "কাজ করতে হলে এটি প্রয়োজন।"
 
-#: kcms/kio/netpref.cpp:78
-msgid "Mark &partially uploaded files"
-msgstr "অসম্পূর্ণ ফাইল চিহ্নি&ত করো"
-
-#: kcms/kio/netpref.cpp:79
+#: kcms/kio/netpref.cpp:94
 msgid ""
 "<p>Marks partially uploaded FTP files.</p><p>When this option is enabled, "
 "partially uploaded files will have a \".part\" extension. This extension "
@@ -4928,7 +4951,7 @@ msgstr ""
 "আংশিক আপলোড করা হয়েছে, সেগুলির নামের শেষে \".part\" যোগ করা হবে। আপলোড করা    "
 "সম্পূর্ণ হলে নামের এই অংশটি মুছে ফেলা হবে।</p>"
 
-#: kcms/kio/netpref.cpp:147
+#: kcms/kio/netpref.cpp:168
 msgid ""
 "<h1>Network Preferences</h1>Here you can define the behavior of KDE programs "
 "when using Internet and network connections. If you experience timeouts or "
