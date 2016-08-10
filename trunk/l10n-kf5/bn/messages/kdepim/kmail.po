@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-08-09 08:00+0000\n"
+"POT-Creation-Date: 2016-08-10 07:18+0000\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -70,40 +70,40 @@ msgstr "ফাইল সংযুক্ত করো"
 msgid "Add Archive Mail"
 msgstr "ফাইল সংযুক্ত করো"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:69
+#: agents/archivemailagent/addarchivemaildialog.cpp:62
 #: src/dialog/archivefolderdialog.cpp:85
 #, fuzzy
 #| msgid "Folder"
 msgid "&Folder:"
 msgstr "ফোল্ডার"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:83
+#: agents/archivemailagent/addarchivemaildialog.cpp:76
 #, fuzzy
 #| msgid "N&ormal:"
 msgid "Format:"
 msgstr "স্বাভাবি&ক:"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:91
+#: agents/archivemailagent/addarchivemaildialog.cpp:84
 #: src/dialog/archivefolderdialog.cpp:126
 #, fuzzy
 #| msgid "New Folder"
 msgid "Archive all subfolders"
 msgstr "নতুন ফোল্ডার"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:97
+#: agents/archivemailagent/addarchivemaildialog.cpp:90
 #, fuzzy
 msgid "Path:"
 msgstr "%1-টি মিল (%2)"
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:107
+#: agents/archivemailagent/addarchivemaildialog.cpp:100
 msgid "Backup each:"
 msgstr ""
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:123
+#: agents/archivemailagent/addarchivemaildialog.cpp:116
 msgid "Maximum number of archive:"
 msgstr ""
 
-#: agents/archivemailagent/addarchivemaildialog.cpp:128
+#: agents/archivemailagent/addarchivemaildialog.cpp:121
 #, fuzzy
 #| msgid "unlimited"
 msgid "unlimited"
@@ -391,7 +391,7 @@ msgstr ""
 msgid "Follow Up Mail"
 msgstr ""
 
-#: agents/followupreminderagent/followupremindernoanswerdialog.cpp:49
+#: agents/followupreminderagent/followupremindernoanswerdialog.cpp:42
 msgid "You still wait an answer about this mail:"
 msgstr ""
 
@@ -933,24 +933,24 @@ msgstr[1] ""
 msgid "Quota"
 msgstr "মোট"
 
-#: src/collectionpage/collectionquotawidget.cpp:51
+#: src/collectionpage/collectionquotawidget.cpp:49
 #, fuzzy
 #| msgid "&Message"
 msgid "Usage:"
 msgstr "&রচনা"
 
-#: src/collectionpage/collectionquotawidget.cpp:57
+#: src/collectionpage/collectionquotawidget.cpp:55
 #, fuzzy
 #| msgid "Status: "
 msgid "Status:"
 msgstr "স্ট্যাটাস:"
 
-#: src/collectionpage/collectionquotawidget.cpp:61
+#: src/collectionpage/collectionquotawidget.cpp:59
 #, no-c-format
 msgid "%p% full"
 msgstr ""
 
-#: src/collectionpage/collectionquotawidget.cpp:71
+#: src/collectionpage/collectionquotawidget.cpp:68
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "%1: name; %2: number appended to it to make it unique among a list of "
@@ -974,7 +974,7 @@ msgid ""
 msgstr ""
 
 #: src/collectionpage/collectiontemplatespage.cpp:41
-#: src/identity/identitydialog.cpp:572
+#: src/identity/identitydialog.cpp:715
 msgid "Templates"
 msgstr ""
 
@@ -984,7 +984,7 @@ msgid "&Use custom message templates in this folder"
 msgstr "বার্তা ক্ষেত্রের &উপরে"
 
 #: src/collectionpage/collectiontemplatespage.cpp:78
-#: src/identity/identitydialog.cpp:565
+#: src/identity/identitydialog.cpp:708
 #, fuzzy
 msgid "&Copy Global Templates"
 msgstr "&বদলাও"
@@ -2668,7 +2668,7 @@ msgstr "বার্তা প্লেইন টেক্সট হিসাব
 msgid "Details"
 msgstr "[বিস্তারিত বিবরণ]"
 
-#: src/editor/potentialphishingemail/potentialphishingdetailwidget.cpp:33
+#: src/editor/potentialphishingemail/potentialphishingdetailwidget.cpp:34
 msgid "Select email to put in whitelist:"
 msgstr ""
 
@@ -2815,7 +2815,7 @@ msgid "Folder Shortcut %1"
 msgstr ""
 
 #: src/identity/identityaddvcarddialog.cpp:36
-#: src/identity/identityeditvcarddialog.cpp:53
+#: src/identity/identityeditvcarddialog.cpp:58
 #, fuzzy
 #| msgid "Modify Account"
 msgid "Create own vCard"
@@ -2853,44 +2853,68 @@ msgstr "বর্তমা&ন পরিচিতির অনুরূপ"
 msgid "&Existing identities:"
 msgstr "বর্তমান &পরিচিতি:"
 
-#: src/identity/identitydialog.cpp:123
+#: src/identity/identitydialog.cpp:221
+#, fuzzy, kde-format
+#| msgid "Error while trying to rename folder %1"
+msgid "Error while generating new key pair: %1"
+msgstr "সার্ভার-এ %1 ফোল্ডার-টি নামান্তর করতে সমস্যা হয়েছে"
+
+#: src/identity/identitydialog.cpp:222
+msgid "Key Generation Error"
+msgstr ""
+
+#: src/identity/identitydialog.cpp:266
+msgid "No key"
+msgstr ""
+
+#: src/identity/identitydialog.cpp:269
+#, fuzzy
+#| msgid "Enter new key word:"
+msgid "Generate a new key pair"
+msgstr "নতুন শব্দ লিখুন:"
+
+#: src/identity/identitydialog.cpp:283
+msgid "Generating new key pair..."
+msgstr ""
+
+#: src/identity/identitydialog.cpp:296
 msgid "Edit Identity"
 msgstr "পরিচিতি সম্পাদন করো"
 
-#: src/identity/identitydialog.cpp:159
+#: src/identity/identitydialog.cpp:329
 #, fuzzy
 #| msgid "General"
 msgctxt "@title:tab General identity settings."
 msgid "General"
 msgstr "সাধারণ"
 
-#: src/identity/identitydialog.cpp:168
+#: src/identity/identitydialog.cpp:338
 msgid "&Your name:"
 msgstr "&আপনার নাম:"
 
-#: src/identity/identitydialog.cpp:171
+#: src/identity/identitydialog.cpp:341
 msgid ""
 "<qt><h3>Your name</h3><p>This field should contain your name as you would "
 "like it to appear in the email header that is sent out;</p><p>if you leave "
 "this blank your real name will not appear, only the email address.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:183
+#: src/identity/identitydialog.cpp:353
 msgid "Organi&zation:"
 msgstr "সংস্থা (&স):"
 
-#: src/identity/identitydialog.cpp:186
+#: src/identity/identitydialog.cpp:356
 msgid ""
 "<qt><h3>Organization</h3><p>This field should have the name of your "
 "organization if you would like it to be shown in the email header that is "
 "sent out.</p><p>It is safe (and normal) to leave this blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:199
+#: src/identity/identitydialog.cpp:369
 msgid "&Email address:"
 msgstr "&ই-মেইল ঠিকানা:"
 
-#: src/identity/identitydialog.cpp:202
+#: src/identity/identitydialog.cpp:372
 msgid ""
 "<qt><h3>Email address</h3><p>This field should have your full email address."
 "</p><p>This address is the primary one, used for all outgoing mail. If you "
@@ -2899,13 +2923,13 @@ msgid ""
 "wrong, people will have trouble replying to you.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:223
+#: src/identity/identitydialog.cpp:393
 #, fuzzy
 #| msgid "&Email address:"
 msgid "Email a&liases:"
 msgstr "&ই-মেইল ঠিকানা:"
 
-#: src/identity/identitydialog.cpp:226
+#: src/identity/identitydialog.cpp:396
 msgid ""
 "<qt><h3>Email aliases</h3><p>This field contains alias addresses that should "
 "also be considered as belonging to this identity (as opposed to representing "
@@ -2915,27 +2939,13 @@ msgid ""
 "alias address per line.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:244
+#: src/identity/identitydialog.cpp:414
 #, fuzzy
 #| msgid "Cryptograph&y"
 msgid "Cryptography"
 msgstr "ক্রিপ্টোগ্রাফি (&ই)"
 
-#: src/identity/identitydialog.cpp:251 src/identity/identitydialog.cpp:275
-#: src/identity/identitydialog.cpp:300 src/identity/identitydialog.cpp:327
-msgid "Chang&e..."
-msgstr "পরি&বর্তন করো..."
-
-#: src/identity/identitydialog.cpp:252
-msgid "Your OpenPGP Signature Key"
-msgstr "আপনার ওপেন-পি-জি-পি স্বাক্ষর কী (Key)"
-
-#: src/identity/identitydialog.cpp:253
-msgid ""
-"Select the OpenPGP key which should be used to digitally sign your messages."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:257
+#: src/identity/identitydialog.cpp:421
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to digitally sign "
 "messages. You can also use GnuPG keys.</p><p>You can leave this blank, but "
@@ -2944,21 +2954,11 @@ msgid ""
 "<a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:264
+#: src/identity/identitydialog.cpp:427
 msgid "OpenPGP signing key:"
 msgstr "ওপেন-পি-জি-পি স্বাক্ষর কী (Key):"
 
-#: src/identity/identitydialog.cpp:276
-msgid "Your OpenPGP Encryption Key"
-msgstr "আপনার ওপেন-পি-জি-পি এনক্রিপ্‌শন কী (Key)"
-
-#: src/identity/identitydialog.cpp:277
-msgid ""
-"Select the OpenPGP key which should be used when encrypting to yourself and "
-"for the \"Attach My Public Key\" feature in the composer."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:282
+#: src/identity/identitydialog.cpp:438
 msgid ""
 "<qt><p>The OpenPGP key you choose here will be used to encrypt messages to "
 "yourself and for the \"Attach My Public Key\" feature in the composer. You "
@@ -2968,21 +2968,11 @@ msgid ""
 "at <a>http://www.gnupg.org</a></p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:289
+#: src/identity/identitydialog.cpp:445
 msgid "OpenPGP encryption key:"
 msgstr "ওপেন-পি-জি-পি এনক্রিপ্‌শন কী (Key):"
 
-#: src/identity/identitydialog.cpp:301
-msgid "Your S/MIME Signature Certificate"
-msgstr ""
-
-#: src/identity/identitydialog.cpp:302
-msgid ""
-"Select the S/MIME certificate which should be used to digitally sign your "
-"messages."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:306
+#: src/identity/identitydialog.cpp:456
 msgid ""
 "<qt><p>The S/MIME (X.509) certificate you choose here will be used to "
 "digitally sign messages.</p><p>You can leave this blank, but KMail will not "
@@ -2990,21 +2980,11 @@ msgid ""
 "not be affected.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:311
+#: src/identity/identitydialog.cpp:461
 msgid "S/MIME signing certificate:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:328
-msgid "Your S/MIME Encryption Certificate"
-msgstr ""
-
-#: src/identity/identitydialog.cpp:329
-msgid ""
-"Select the S/MIME certificate which should be used when encrypting to "
-"yourself and for the \"Attach My Certificate\" feature in the composer."
-msgstr ""
-
-#: src/identity/identitydialog.cpp:334
+#: src/identity/identitydialog.cpp:477
 msgid ""
 "<qt><p>The S/MIME certificate you choose here will be used to encrypt "
 "messages to yourself and for the \"Attach My Certificate\" feature in the "
@@ -3013,41 +2993,41 @@ msgid ""
 "functions will not be affected.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:340
+#: src/identity/identitydialog.cpp:483
 msgid "S/MIME encryption certificate:"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:362
+#: src/identity/identitydialog.cpp:505
 #, fuzzy
 #| msgid "Preferred crypto message format:"
 msgctxt "preferred format of encrypted messages"
 msgid "Preferred format:"
 msgstr "পছন্দের ক্রিপ্টো বার্তা ফর্ম্যাট:"
 
-#: src/identity/identitydialog.cpp:369
+#: src/identity/identitydialog.cpp:512
 #, fuzzy
 #| msgid "A&utomatically append signature"
 msgid "Automatically sign messages"
 msgstr "নিজে থেকে স্বাক্ষর যো&গ করো"
 
-#: src/identity/identitydialog.cpp:373
+#: src/identity/identitydialog.cpp:516
 #, fuzzy
 #| msgid "A&utomatically append signature"
 msgid "Automatically encrypt messages when possible"
 msgstr "নিজে থেকে স্বাক্ষর যো&গ করো"
 
-#: src/identity/identitydialog.cpp:387
+#: src/identity/identitydialog.cpp:530
 #, fuzzy
 #| msgid "Advanced"
 msgctxt "@title:tab Advanced identity settings."
 msgid "Advanced"
 msgstr "অগ্রসর"
 
-#: src/identity/identitydialog.cpp:399
+#: src/identity/identitydialog.cpp:542
 msgid "&Reply-To address:"
 msgstr "উত্ত&র পাবার ঠিকানা:"
 
-#: src/identity/identitydialog.cpp:402
+#: src/identity/identitydialog.cpp:545
 msgid ""
 "<qt><h3>Reply-To addresses</h3><p>This sets the <tt>Reply-to:</tt> header to "
 "contain a different email address to the normal <tt>From:</tt> address.</"
@@ -3057,13 +3037,13 @@ msgid ""
 "address.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:421
+#: src/identity/identitydialog.cpp:564
 #, fuzzy
 #| msgid "&BCC addresses:"
 msgid "&CC addresses:"
 msgstr "&BCC ঠিকানা:"
 
-#: src/identity/identitydialog.cpp:424
+#: src/identity/identitydialog.cpp:567
 msgid ""
 "<qt><h3>CC (Carbon Copy) addresses</h3><p>The addresses that you enter here "
 "will be added to each outgoing mail that is sent with this identity.</"
@@ -3073,11 +3053,11 @@ msgid ""
 "blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:441
+#: src/identity/identitydialog.cpp:584
 msgid "&BCC addresses:"
 msgstr "&BCC ঠিকানা:"
 
-#: src/identity/identitydialog.cpp:444
+#: src/identity/identitydialog.cpp:587
 msgid ""
 "<qt><h3>BCC (Blind Carbon Copy) addresses</h3><p>The addresses that you "
 "enter here will be added to each outgoing mail that is sent with this "
@@ -3087,90 +3067,90 @@ msgid ""
 "list of BCC recipients.</p><p>If in doubt, leave this field blank.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:460
+#: src/identity/identitydialog.cpp:603
 msgid "D&ictionary:"
 msgstr "অভিধা&ন:"
 
-#: src/identity/identitydialog.cpp:469
+#: src/identity/identitydialog.cpp:612
 msgid "Sent-mail &folder:"
 msgstr "প্রেরিত-মেই&ল ফোল্ডার:"
 
-#: src/identity/identitydialog.cpp:478
+#: src/identity/identitydialog.cpp:621
 msgid "&Drafts folder:"
 msgstr "&খসড়া ফোল্ডার:"
 
-#: src/identity/identitydialog.cpp:487
+#: src/identity/identitydialog.cpp:630
 #, fuzzy
 msgid "&Templates folder:"
 msgstr "আ&বর্জনা ফোল্ডার:"
 
-#: src/identity/identitydialog.cpp:493
+#: src/identity/identitydialog.cpp:636
 #, fuzzy
 #| msgid "Configure Account"
 msgid "Outgoing Account:"
 msgstr "অ্যাকাউন্ট কনফিগার করো"
 
-#: src/identity/identitydialog.cpp:501
+#: src/identity/identitydialog.cpp:644
 #, fuzzy
 #| msgid "Add 'header' to message"
 msgid "Attach my vCard to message"
 msgstr "বার্তায় 'হেডার' যোগ করো "
 
-#: src/identity/identitydialog.cpp:503 src/identity/identitydialog.cpp:1023
+#: src/identity/identitydialog.cpp:646 src/identity/identitydialog.cpp:1140
 #, fuzzy
 #| msgid "Rename..."
 msgid "Create..."
 msgstr "নাম পাল্টাও..."
 
-#: src/identity/identitydialog.cpp:510
+#: src/identity/identitydialog.cpp:653
 #, fuzzy
 #| msgid "Choose &language:"
 msgid "Autocorrection language:"
 msgstr "ভাষা বেছে নি&ন:"
 
-#: src/identity/identitydialog.cpp:522
+#: src/identity/identitydialog.cpp:665
 #, fuzzy
 #| msgid "Defaul&t domain:"
 msgid "Restore default domain name"
 msgstr "ডিফল্ট ডোমে&ইন:"
 
-#: src/identity/identitydialog.cpp:526
+#: src/identity/identitydialog.cpp:669
 msgid "Defaul&t domain:"
 msgstr "ডিফল্ট ডোমে&ইন:"
 
-#: src/identity/identitydialog.cpp:531
+#: src/identity/identitydialog.cpp:674
 msgid ""
 "<qt><p>The default domain is used to complete email addresses that only "
 "consist of the user's name.</p></qt>"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:551
+#: src/identity/identitydialog.cpp:694
 #, fuzzy
 msgid "&Use custom message templates for this identity"
 msgstr "বার্তা ক্ষেত্রের &উপরে"
 
-#: src/identity/identitydialog.cpp:578
+#: src/identity/identitydialog.cpp:721
 msgid "Signature"
 msgstr "স্বাক্ষর"
 
-#: src/identity/identitydialog.cpp:585
+#: src/identity/identitydialog.cpp:728
 #, fuzzy
 #| msgid "No Picture"
 msgid "Picture"
 msgstr "কোন ছবি নেই"
 
-#: src/identity/identitydialog.cpp:680
+#: src/identity/identitydialog.cpp:782
 #, fuzzy, kde-format
 #| msgid "Invalid Email Address"
 msgid "Invalid Email Alias \"%1\""
 msgstr "অবৈধ ই-মেইল ঠিকানা"
 
-#: src/identity/identitydialog.cpp:689 src/job/addressvalidationjob.cpp:85
+#: src/identity/identitydialog.cpp:791 src/job/addressvalidationjob.cpp:85
 #: src/job/addressvalidationjob.cpp:94
 msgid "Invalid Email Address"
 msgstr "অবৈধ ই-মেইল ঠিকানা"
 
-#: src/identity/identitydialog.cpp:727
+#: src/identity/identitydialog.cpp:847
 #, kde-format
 msgid ""
 "One of the configured OpenPGP signing keys does not contain any user ID with "
@@ -3179,14 +3159,14 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:735
+#: src/identity/identitydialog.cpp:854
 #, kde-format
 msgid ""
 "One of the configured OpenPGP encryption keys does not contain any user ID "
 "with the configured email address for this identity (%1)."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:741
+#: src/identity/identitydialog.cpp:859
 #, kde-format
 msgid ""
 "One of the configured S/MIME signing certificates does not contain the "
@@ -3195,62 +3175,62 @@ msgid ""
 "verify signatures made with this configuration."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:749
+#: src/identity/identitydialog.cpp:866
 #, kde-format
 msgid ""
 "One of the configured S/MIME encryption certificates does not contain the "
 "configured email address for this identity (%1)."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:757
+#: src/identity/identitydialog.cpp:874
 msgid "Email Address Not Found in Key/Certificates"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:770
+#: src/identity/identitydialog.cpp:887
 msgid "The signature file is not valid"
 msgstr ""
 
-#: src/identity/identitydialog.cpp:787
+#: src/identity/identitydialog.cpp:904
 #, kde-format
 msgid "Edit Identity \"%1\""
 msgstr "পরিচিতি \"%1\" সম্পাদন করো"
 
-#: src/identity/identitydialog.cpp:849
+#: src/identity/identitydialog.cpp:966
 msgid ""
 "Some custom folder for identity does not exist (anymore); therefore, default "
 "folders will be used."
 msgstr ""
 
-#: src/identity/identitydialog.cpp:1025
+#: src/identity/identitydialog.cpp:1142
 msgid "Edit..."
 msgstr "সম্পাদনা..."
 
-#: src/identity/identityeditvcarddialog.cpp:47
+#: src/identity/identityeditvcarddialog.cpp:52
 #, fuzzy
 #| msgid "Modify Account"
 msgid "Edit own vCard"
 msgstr "অ্যাকাউন্ট পাল্টাও"
 
-#: src/identity/identityeditvcarddialog.cpp:50
+#: src/identity/identityeditvcarddialog.cpp:55
 #, fuzzy
 #| msgid "Collapse the current thread"
 msgid "Delete current vCard"
 msgstr "বর্তমান সূত্রটি গুটিয়ে নাও"
 
-#: src/identity/identityeditvcarddialog.cpp:77
+#: src/identity/identityeditvcarddialog.cpp:75
 #, fuzzy
 #| msgid "Are you sure you want to empty the trash folder?"
 msgid "Are you sure to want to delete this vCard?"
 msgstr "আপনি কি আবর্জনা ফোল্ডার ফাঁকা করার ব্যাপারে নিশ্চিত?"
 
-#: src/identity/identityeditvcarddialog.cpp:77
-#: src/identity/identityeditvcarddialog.cpp:94
+#: src/identity/identityeditvcarddialog.cpp:75
+#: src/identity/identityeditvcarddialog.cpp:92
 #, fuzzy
 #| msgid "Deleted"
 msgid "Delete vCard"
 msgstr "মুছে ফেলা"
 
-#: src/identity/identityeditvcarddialog.cpp:94
+#: src/identity/identityeditvcarddialog.cpp:92
 msgid "We cannot delete vCard file."
 msgstr ""
 
@@ -6952,6 +6932,15 @@ msgid_plural "Out of office reply active on servers"
 msgstr[0] "\"অফিসে নেই\" উত্তর কনফিগার করো"
 msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার করো"
 
+#~ msgid "Chang&e..."
+#~ msgstr "পরি&বর্তন করো..."
+
+#~ msgid "Your OpenPGP Signature Key"
+#~ msgstr "আপনার ওপেন-পি-জি-পি স্বাক্ষর কী (Key)"
+
+#~ msgid "Your OpenPGP Encryption Key"
+#~ msgstr "আপনার ওপেন-পি-জি-পি এনক্রিপ্‌শন কী (Key)"
+
 #, fuzzy
 #~| msgid "Always show KMail in system tray"
 #~ msgid "Show unread mail in system tray"
@@ -10041,9 +10030,6 @@ msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার �
 
 #~ msgid "Error while reading folder %1 on the server: "
 #~ msgstr "সার্ভার-এ %1 ফোল্ডার-টি পড়তে সমস্যা হয়েছে:"
-
-#~ msgid "Error while trying to rename folder %1"
-#~ msgstr "সার্ভার-এ %1 ফোল্ডার-টি নামান্তর করতে সমস্যা হয়েছে"
 
 #, fuzzy
 #~| msgid "The index of this folder has been recreated."
