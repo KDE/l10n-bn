@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-09-12 07:08+0000\n"
+"POT-Creation-Date: 2016-09-13 08:01+0000\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -249,7 +249,7 @@ msgstr ""
 #: dialogs/detaildialog.cpp:614 ekos/capture.cpp:2102 ekos/capture.cpp:2435
 #: ekos/scheduler.cpp:3032 ekos/scheduler.cpp:3331 ekos/scheduler.cpp:3734
 #: ekos/scheduler.cpp:4382 ekos/scheduler.cpp:4411 ekos/scheduler.cpp:4453
-#: indi/drivermanager.cpp:1452 indi/indidriver.cpp:937 kstarsactions.cpp:953
+#: indi/drivermanager.cpp:1453 indi/indidriver.cpp:937 kstarsactions.cpp:953
 #: oal/execute.cpp:314 options/opscolors.cpp:202 tools/modcalcangdist.cpp:133
 #: tools/modcalcapcoord.cpp:150 tools/modcalcdaylength.cpp:247
 #: tools/modcalcgalcoord.cpp:191 tools/modcalcgeodcoord.cpp:230
@@ -1125,7 +1125,7 @@ msgid "Check URL"
 msgstr "ইউ.আর.এল. পরীক্ষা করো"
 
 #. i18n: ectx: property (text), widget (QPushButton, DetailButton)
-#: dialogs/detaildialog.cpp:87 skymap.cpp:731 tools/wutdialog.ui:480
+#: dialogs/detaildialog.cpp:87 skymap.cpp:735 tools/wutdialog.ui:480
 msgid "Object Details"
 msgstr "বস্তুর বিস্তারিত বিবরণ"
 
@@ -1334,7 +1334,7 @@ msgstr "লিঙ্ক সম্পাদন করো"
 msgid "Are you sure you want to remove the %1 link?"
 msgstr "আপনি কি %1 লিঙ্কটি অপসারণ করার ব্যাপারে নিশ্চিত?"
 
-#: dialogs/detaildialog.cpp:879 indi/drivermanager.cpp:1430
+#: dialogs/detaildialog.cpp:879 indi/drivermanager.cpp:1431
 #: indi/indidriver.cpp:913
 msgid "Delete Confirmation"
 msgstr "মুছে ফেলার উদ্যোগ নিশ্চিত করুন"
@@ -6737,7 +6737,7 @@ msgstr "ক্লায়েন্ট"
 #: ekos/guide/rcalibration.cpp:445 ekos/guide/rcalibration.cpp:478
 #: ekos/guide/rcalibration.cpp:691 ekos/guide/rcalibration.cpp:836
 #: ekos/schedulerjob.cpp:199 ekos/sequencejob.cpp:35
-#: indi/drivermanager.cpp:420 indi/drivermanager.cpp:752
+#: indi/drivermanager.cpp:420 indi/drivermanager.cpp:753
 #: indi/inditelescope.cpp:783 indi/inditelescope.cpp:787
 msgid "Error"
 msgstr ""
@@ -10087,35 +10087,35 @@ msgstr "INDI সার্ভার চালু করা যাচ্ছে ন
 msgid "Connection to INDI server locally on port %1 failed."
 msgstr ""
 
-#: indi/drivermanager.cpp:596 indi/indidriver.cpp:309
+#: indi/drivermanager.cpp:597 indi/indidriver.cpp:309
 #, fuzzy, kde-format
 #| msgid "Invalid file: %1"
 msgid "Invalid port entry: %1"
 msgstr "অবৈধ ফাইল: %1"
 
-#: indi/drivermanager.cpp:622
+#: indi/drivermanager.cpp:623
 #, kde-format
 msgid "Connection to INDI host at %1 on port %2 lost. Server disconnected."
 msgstr ""
 
-#: indi/drivermanager.cpp:659
+#: indi/drivermanager.cpp:660
 #, kde-format
 msgid "Connection to INDI host at %1 on port %2 encountered an error: %3."
 msgstr ""
 
-#: indi/drivermanager.cpp:753
+#: indi/drivermanager.cpp:754
 #, kde-format
 msgid "Connection to INDI server at host %1 with port %2 failed."
 msgstr ""
 
-#: indi/drivermanager.cpp:949 indi/indidriver.cpp:499
+#: indi/drivermanager.cpp:950 indi/indidriver.cpp:499
 #, kde-format
 msgid ""
 "Unable to find INDI Drivers directory: %1\n"
 "Please make sure to set the correct path in KStars configuration"
 msgstr ""
 
-#: indi/drivermanager.cpp:990 indi/indidriver.cpp:540
+#: indi/drivermanager.cpp:991 indi/indidriver.cpp:540
 #, fuzzy, kde-format
 #| msgid "Could not open file: %1"
 msgid "Failed to open INDI Driver file: %1"
@@ -10123,39 +10123,39 @@ msgstr "এই ফাইলটি খোলা যায় নি: %1"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, driverComboBox)
 #. i18n: ectx: property (text), widget (QPushButton, NoneButton)
-#: indi/drivermanager.cpp:1254 indi/indidriver.cpp:751
+#: indi/drivermanager.cpp:1255 indi/indidriver.cpp:751
 #: oal/equipmentwriter.ui:197 oal/log.cpp:262 tools/exporteyepieceview.cpp:67
 #: tools/eyepiecefield.cpp:116 tools/obslistwizard.ui:147
 msgid "None"
 msgstr "একটিও নয়"
 
-#: indi/drivermanager.cpp:1329 indi/indidriver.cpp:811
+#: indi/drivermanager.cpp:1330 indi/indidriver.cpp:811
 msgid "Add Host"
 msgstr "হোস্ট যোগ করো"
 
-#: indi/drivermanager.cpp:1340 indi/indidriver.cpp:827
+#: indi/drivermanager.cpp:1341 indi/indidriver.cpp:827
 msgid "Error: the port number is invalid."
 msgstr "সমস্যা: অবৈধ পোর্ট নম্বর।"
 
-#: indi/drivermanager.cpp:1352 indi/indidriver.cpp:837
+#: indi/drivermanager.cpp:1353 indi/indidriver.cpp:837
 #, kde-format
 msgid "Host: %1 Port: %2 already exists."
 msgstr "হোস্ট: %1 পোর্ট: %2 ইতিমধ্যেই বিদ্যমান।"
 
-#: indi/drivermanager.cpp:1379 indi/indidriver.cpp:862
+#: indi/drivermanager.cpp:1380 indi/indidriver.cpp:862
 msgid "Modify Host"
 msgstr "হোস্ট পরিবর্তন করো"
 
-#: indi/drivermanager.cpp:1426 indi/indidriver.cpp:909
+#: indi/drivermanager.cpp:1427 indi/indidriver.cpp:909
 msgid "You need to disconnect the client before removing it."
 msgstr "ক্লায়েন্টকে অপসারণের পূর্বে তার সংযোগ বিচ্ছিন্ন করতে হবে।"
 
-#: indi/drivermanager.cpp:1430 indi/indidriver.cpp:913
+#: indi/drivermanager.cpp:1431 indi/indidriver.cpp:913
 #, kde-format
 msgid "Are you sure you want to remove the %1 client?"
 msgstr "আপনি কি %1 ক্লায়েন্টকে অপসারণের ব্যাপারে নিশ্চিত?"
 
-#: indi/drivermanager.cpp:1451 indi/indidriver.cpp:936
+#: indi/drivermanager.cpp:1452 indi/indidriver.cpp:936
 #, fuzzy
 #| msgid ""
 #| "unable to write to file 'indihosts.xml'\n"
@@ -11035,7 +11035,7 @@ msgstr "ঋতু সংক্রান্ত তথ্য"
 msgid "Center Crosshair"
 msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অনুসরণ করো"
 
-#: kstars.cpp:193 kstarsactions.cpp:1106 skymap.cpp:377
+#: kstars.cpp:193 kstarsactions.cpp:1106 skymap.cpp:381
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
@@ -55751,73 +55751,73 @@ msgstr ""
 msgid "%1: %2<sup>m</sup>"
 msgstr ""
 
-#: skymap.cpp:359
+#: skymap.cpp:363
 msgid "Requested Position Below Horizon"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিত"
 
-#: skymap.cpp:360
+#: skymap.cpp:364
 msgid ""
 "The requested position is below the horizon.\n"
 "Would you like to go there anyway?"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিতআপনি কি তবুও সেখানে যেতে চান?"
 
-#: skymap.cpp:362
+#: skymap.cpp:366
 msgid "Go Anyway"
 msgstr "তবুও যাও"
 
 # FIXME
-#: skymap.cpp:362
+#: skymap.cpp:366
 msgid "Keep Position"
 msgstr "অবস্থান ঠিক রাখো"
 
-#: skymap.cpp:432
+#: skymap.cpp:436
 #, fuzzy
 msgid ""
 "Digitized Sky Survey image provided by the Space Telescope Science Institute "
 "[public domain]."
 msgstr "স্পেস টেলিস্কোপ সাইন্স ইনস্টিটিউট কর্তৃক প্রস্তুতকৃত ডিজিটাল আকাশ জরিপ চিত্র।"
 
-#: skymap.cpp:468
+#: skymap.cpp:472
 msgid ""
 "Sloan Digital Sky Survey image provided by the Astrophysical Research "
 "Consortium [free for non-commercial use]."
 msgstr ""
 
-#: skymap.cpp:531
+#: skymap.cpp:535
 #, fuzzy, kde-format
 msgid "Angular distance: %1"
 msgstr "কৌণিক দূরত্ব: "
 
-#: skymap.cpp:542
+#: skymap.cpp:546
 #, fuzzy, kde-format
 msgid "; Physical distance: %1 pc"
 msgstr "কৌণিক দূরত্ব: "
 
-#: skymap.cpp:575
+#: skymap.cpp:579
 #, fuzzy
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Star Hopper: Choose a field-of-view"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃতি বেছে নিন"
 
-#: skymap.cpp:575
+#: skymap.cpp:579
 msgid "FOV to use for star hopping:"
 msgstr ""
 
-#: skymap.cpp:579
+#: skymap.cpp:583
 #, fuzzy
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Star Hopper: Enter field-of-view to use"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃতি বেছে নিন"
 
-#: skymap.cpp:579
+#: skymap.cpp:583
 msgid "FOV to use for star hopping (in arcminutes):"
 msgstr ""
 
-#: skymap.cpp:731
+#: skymap.cpp:735
 msgid "No object selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
 
-#: skymap.cpp:1079
+#: skymap.cpp:1083
 msgid "Xplanet binary path is empty in config panel."
 msgstr ""
 
