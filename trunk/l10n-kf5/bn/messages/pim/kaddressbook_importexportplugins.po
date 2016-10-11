@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-10 07:24+0000\n"
+"POT-Creation-Date: 2016-10-11 08:12+0000\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -15,22 +15,399 @@ msgstr ""
 "X-Generator: KBabel 1.9.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
-#: csv/csvimportexportplugininterface.cpp:40
+#: csv/csvimportexportplugininterface.cpp:53
 #, fuzzy
 msgid "Export CSV file..."
 msgstr "রপ্তানি তালিকা."
 
-#: csv/csvimportexportplugininterface.cpp:41
+#: csv/csvimportexportplugininterface.cpp:54
 msgid "Export contacts to a file in comma separated value format."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:46
+#: csv/csvimportexportplugininterface.cpp:59
 #, fuzzy
 msgid "Import CSV file..."
 msgstr "রপ্তানি তালিকা."
 
-#: csv/csvimportexportplugininterface.cpp:47
+#: csv/csvimportexportplugininterface.cpp:60
 msgid "Import contacts from a file in comma separated value format."
+msgstr ""
+
+#: csv/csvimportexportplugininterface.cpp:201
+#: ldif/ldifimportexportplugininterface.cpp:135
+#, fuzzy, kde-format
+msgid "<qt>Unable to open file <b>%1</b></qt>"
+msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
+
+#: csv/csvimportexportplugininterface.cpp:215
+#: ldif/ldifimportexportplugininterface.cpp:167
+#, kde-format
+msgid "<qt>Unable to open file <b>%1</b>.</qt>"
+msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
+
+#: csv/import/csvimportdialog.cpp:182
+#, fuzzy
+#| msgid "vCard Import Failed"
+msgctxt "@title:window"
+msgid "CSV Import Dialog"
+msgstr "ভি-কার্ড আমদানি ব্যর্থ"
+
+#: csv/import/csvimportdialog.cpp:221
+#, fuzzy
+#| msgid "Edit Contact"
+msgctxt "@label"
+msgid "Importing contacts"
+msgstr "পরিচয় সম্পাদন করো"
+
+#: csv/import/csvimportdialog.cpp:293
+#, fuzzy
+#| msgid "File to import:"
+msgctxt "@label"
+msgid "File to import:"
+msgstr "যে ফাইল আমদানি করা হবে:"
+
+#: csv/import/csvimportdialog.cpp:302
+#, fuzzy
+#| msgid "Select vCard to Import"
+msgctxt "@info:tooltip"
+msgid "Select a csv file to import"
+msgstr "আমদানি করার জন্য ভি-কার্ড বেছে নিন"
+
+#: csv/import/csvimportdialog.cpp:305
+msgctxt "@info:whatsthis"
+msgid ""
+"Click this button to start a file chooser that will allow you to select a "
+"csv file to import."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:312
+#, fuzzy
+msgctxt "@title:group"
+msgid "Delimiter"
+msgstr "প্রদর্শন মুছে ফেল"
+
+#: csv/import/csvimportdialog.cpp:322
+#, fuzzy
+#| msgid "Comma"
+msgctxt "@option:radio Field separator"
+msgid "Comma"
+msgstr "কমা"
+
+#: csv/import/csvimportdialog.cpp:324
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a comma"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:327
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the comma as a field separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:332
+#, fuzzy
+#| msgid "Semicolon"
+msgctxt "@option:radio Field separator"
+msgid "Semicolon"
+msgstr "সেমিকোলন"
+
+#: csv/import/csvimportdialog.cpp:334
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a semicolon"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:337
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the semicolon as a field separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:341
+msgctxt "@option:radio Field separator"
+msgid "Tabulator"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:343
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a tab character"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:346
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the tab character as a field "
+"separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:350
+#, fuzzy
+#| msgid "Space"
+msgctxt "@option:radio Field separator"
+msgid "Space"
+msgstr "Space"
+
+#: csv/import/csvimportdialog.cpp:352
+#, fuzzy
+#| msgid "Select the key type:"
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a space character"
+msgstr "কী (Key) ধরন নির্বাচন করুন:"
+
+#: csv/import/csvimportdialog.cpp:355
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if your csv file uses the space character as a field "
+"separator."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:359
+#, fuzzy
+#| msgid "Other"
+msgctxt "@option:radio Custum field separator"
+msgid "Other"
+msgstr "অন্যান্য"
+
+#: csv/import/csvimportdialog.cpp:361
+msgctxt "@info:tooltip"
+msgid "Set the field separator to a custom character"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:364
+msgctxt "@info:whatsthis"
+msgid ""
+"Select this option if to use some other character as the field delimiter for "
+"the data in your csv file."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:372
+#, fuzzy
+#| msgid "Select the key type:"
+msgctxt "@info:tooltip"
+msgid "Set the custom delimiter character"
+msgstr "কী (Key) ধরন নির্বাচন করুন:"
+
+#: csv/import/csvimportdialog.cpp:375
+msgctxt "@info:whatsthis"
+msgid ""
+"Enter a custom character to use as the delimiter character. If you enter "
+"more than 1 character, only the first will be used and the remaining "
+"characters will be ignored."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:381
+#, fuzzy
+#| msgid "&Text font:"
+msgctxt "@label:listbox"
+msgid "Text quote:"
+msgstr "লেখার জন্য &ফন্ট:"
+
+#: csv/import/csvimportdialog.cpp:388
+#, fuzzy
+#| msgid "Select the key type:"
+msgctxt "@info:tooltip"
+msgid "Select the quote character"
+msgstr "কী (Key) ধরন নির্বাচন করুন:"
+
+#: csv/import/csvimportdialog.cpp:391
+msgctxt "@info:whatsthis"
+msgid ""
+"Choose the character that your csv data uses to \"quote\" the field "
+"delimiter if that character happens to occur within the data.  For example, "
+"if the comma is the field delimiter, then any comma occurring with the data "
+"will be \"quoted\" by the character specified here."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:396
+#, fuzzy
+#| msgid "\""
+msgctxt "@item:inlistbox Qoute character option"
+msgid "\""
+msgstr "\""
+
+#: csv/import/csvimportdialog.cpp:397
+#, fuzzy
+#| msgid "'"
+msgctxt "@item:inlistbox Quote character option"
+msgid "'"
+msgstr "'"
+
+#: csv/import/csvimportdialog.cpp:398
+#, fuzzy
+#| msgid "None"
+msgctxt "@item:inlistbox Quote character option"
+msgid "None"
+msgstr "কিছু না"
+
+#: csv/import/csvimportdialog.cpp:402
+#, fuzzy
+#| msgid "Date format:"
+msgctxt "@label:listbox"
+msgid "Date format:"
+msgstr "তারিখ ফর্ম্যাট:"
+
+#: csv/import/csvimportdialog.cpp:411
+msgctxt "@info:tooltip"
+msgid ""
+"<para><list><item>y: year with 2 digits</item><item>Y: year with 4 digits</"
+"item><item>m: month with 1 or 2 digits</item><item>M: month with 2 digits</"
+"item><item>d: day with 1 or 2 digits</item><item>D: day with 2 digits</"
+"item><item>H: hours with 2 digits</item><item>I: minutes with 2 digits</"
+"item><item>S: seconds with 2 digits</item></list></para>"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:423
+msgctxt "@info:whatsthis"
+msgid ""
+"<para>Specify a format to use for dates included in your csv data. Use the "
+"following sequences to help you define the format:</"
+"para><para><list><item>y: year with 2 digits</item><item>Y: year with 4 "
+"digits</item><item>m: month with 1 or 2 digits</item><item>M: month with 2 "
+"digits</item><item>d: day with 1 or 2 digits</item><item>D: day with 2 "
+"digits</item><item>H: hours with 2 digits</item><item>I: minutes with 2 "
+"digits</item><item>S: seconds with 2 digits</item></list></"
+"para><para>Example: \"Y-M-D\" corresponds to a date like \"2012-01-04\"</"
+"para>"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:439
+#, fuzzy
+#| msgid "&Text font:"
+msgctxt "@label:listbox"
+msgid "Text codec:"
+msgstr "লেখার জন্য &ফন্ট:"
+
+#: csv/import/csvimportdialog.cpp:446
+#, fuzzy
+#| msgid "Select the key type:"
+msgctxt "@info:tooltip"
+msgid "Select the text codec"
+msgstr "কী (Key) ধরন নির্বাচন করুন:"
+
+#: csv/import/csvimportdialog.cpp:449
+msgctxt "@info:whatsthis"
+msgid "Choose the character encoding of the data in your csv file."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:453
+msgctxt "@option:check"
+msgid "Skip first row of file"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:456
+msgctxt "@info:tooltip"
+msgid "Skip first row of csv file when importing"
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:459
+msgctxt "@info:whatsthis"
+msgid ""
+"Check this box if you want the import to skip over the first row of the csv "
+"data. In many cases, the first line of a csv file will be a comment line "
+"describing the order of the data fields included in the file."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:475
+#, fuzzy
+#| msgid "Apply Template..."
+msgctxt "@action:button"
+msgid "Apply Template..."
+msgstr "টেমপ্লেট প্রয়োগ করো..."
+
+#: csv/import/csvimportdialog.cpp:476
+#, fuzzy
+#| msgid "Save Template..."
+msgctxt "@action:button"
+msgid "Save Template..."
+msgstr "টেমপ্লেট সংরক্ষণ করো..."
+
+#: csv/import/csvimportdialog.cpp:496
+#, fuzzy, kde-format
+#| msgid "Local (%1)"
+msgctxt "@item:inlistbox Codec setting"
+msgid "Local (%1)"
+msgstr "স্থানীয় (%1)"
+
+#: csv/import/csvimportdialog.cpp:498
+#, fuzzy
+#| msgid "Latin1"
+msgctxt "@item:inlistbox Codec setting"
+msgid "Latin1"
+msgstr "লাতিন-১"
+
+#: csv/import/csvimportdialog.cpp:499
+#, fuzzy
+#| msgid "Unicode"
+msgctxt "@item:inlistbox Codec setting"
+msgid "Unicode"
+msgstr "ইউনিকোড"
+
+#: csv/import/csvimportdialog.cpp:500
+#, fuzzy
+#| msgid "Microsoft Unicode"
+msgctxt "@item:inlistbox Codec setting"
+msgid "Microsoft Unicode"
+msgstr "মাইক্রোসফট ইউনিকোড"
+
+#: csv/import/csvimportdialog.cpp:605
+msgctxt "@info:status"
+msgid "You must assign at least one column."
+msgstr ""
+
+#: csv/import/csvimportdialog.cpp:617
+#, fuzzy
+#| msgid "(No preview available.)"
+msgctxt "@label"
+msgid "There are no templates available yet."
+msgstr "(কোন প্রাকদর্শন পাওয়া যাচ্ছে না)"
+
+#: csv/import/csvimportdialog.cpp:618
+#, fuzzy
+#| msgid "(No preview available.)"
+msgctxt "@title:window"
+msgid "No templates available"
+msgstr "(কোন প্রাকদর্শন পাওয়া যাচ্ছে না)"
+
+#: csv/import/csvimportdialog.cpp:684
+#, fuzzy
+#| msgid "Template Name"
+msgctxt "@title:window"
+msgid "Template Name"
+msgstr "টেমপ্লেট-এর নাম"
+
+#: csv/import/csvimportdialog.cpp:685
+#, fuzzy
+#| msgid "Please enter a name for the template:"
+msgctxt "@info"
+msgid "Please enter a name for the template:"
+msgstr "অনুগ্রহ করে টেমপ্লেট-এর জন্য একটি নাম লিখুন:"
+
+#: csv/import/csvimportdialog.cpp:739
+#, fuzzy
+#| msgid "Cannot open input file."
+msgctxt "@info:status"
+msgid "Cannot open input file."
+msgstr "ইনপুট ফাইল খোলা যায়নি।"
+
+#: csv/import/qcsvreader.cpp:111
+msgid "Device is not open"
+msgstr ""
+
+#: csv/import/templateselectiondialog.cpp:194
+#, kde-format
+msgctxt "@label"
+msgid "Do you really want to delete template '%1'?"
+msgstr ""
+
+#: csv/import/templateselectiondialog.cpp:212
+#, fuzzy
+#| msgid "Template Selection"
+msgctxt "@title:window"
+msgid "Template Selection"
+msgstr "টেমপ্লেট নির্বাচন"
+
+#: csv/import/templateselectiondialog.cpp:215
+msgctxt "@info"
+msgid "Please select a template, that matches the CSV file:"
 msgstr ""
 
 #: gmx/gmximportexportplugininterface.cpp:40
@@ -54,37 +431,71 @@ msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদ�
 msgid "Export contacts to a GMX address book file."
 msgstr "%1 ঠিকানা তালিকা"
 
-#: ldap/ldapimportexportplugininterface.cpp:40
+#: ldap/ldapimportexportplugininterface.cpp:45
 #, fuzzy
 #| msgid "Import From Mobile Phone..."
 msgid "Import From LDAP server..."
 msgstr "মোবাইল ফোন থেকে আমদানি করো..."
 
-#: ldap/ldapimportexportplugininterface.cpp:41
+#: ldap/ldapimportexportplugininterface.cpp:46
 #, fuzzy
 #| msgid "Import From Mobile Phone..."
 msgid "Import contacts from an LDAP server."
 msgstr "মোবাইল ফোন থেকে আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:40
+#: ldif/ldifimportexportplugininterface.cpp:50
 #, fuzzy
 msgid "Import LDIF file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:41
+#: ldif/ldifimportexportplugininterface.cpp:51
 #, fuzzy
 msgid "Import contacts from an LDIF file."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:46
+#: ldif/ldifimportexportplugininterface.cpp:56
 #, fuzzy
 msgid "Export LDIF file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:47
+#: ldif/ldifimportexportplugininterface.cpp:57
 #, fuzzy
 msgid "Export contacts to an LDIF file."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
+
+#: ldif/ldifimportexportplugininterface.cpp:90
+#: ldif/ldifimportexportplugininterface.cpp:127
+msgid "LDif Files (*.ldif)"
+msgstr ""
+
+#: ldif/ldifimportexportplugininterface.cpp:97
+#, kde-format
+msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
+msgstr "<qt>পড়ার জন্য <b>%1</b> খোলা যায়নি।</qt>"
+
+#: shared/importexportengine.cpp:81
+#, fuzzy
+#| msgid "Address Book"
+msgid "Select Address Book"
+msgstr "ঠিকানা তালিকা"
+
+#: shared/importexportengine.cpp:83
+msgid "Select the address book the imported contact(s) shall be saved in:"
+msgstr ""
+
+#: shared/importexportengine.cpp:96
+#, fuzzy
+#| msgid "Edit Contact"
+msgid "Import Contacts"
+msgstr "পরিচয় সম্পাদন করো"
+
+#: shared/importexportengine.cpp:98
+#, fuzzy, kde-format
+#| msgid "Edit Contact"
+msgid "Importing one contact to %2"
+msgid_plural "Importing %1 contacts to %2"
+msgstr[0] "পরিচয় সম্পাদন করো"
+msgstr[1] "পরিচয় সম্পাদন করো"
 
 #: vcards/engine/vcard_xxport.cpp:94
 msgctxt "@info"
@@ -897,199 +1308,12 @@ msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
 #~ msgstr "পরিচ&য় মুছে ফেলো"
 
 #, fuzzy
-#~ msgid "<qt>Unable to open file <b>%1</b></qt>"
-#~ msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
-
-#~ msgid "<qt>Unable to open file <b>%1</b>.</qt>"
-#~ msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
-
-#, fuzzy
-#~| msgid "vCard Import Failed"
-#~ msgctxt "@title:window"
-#~ msgid "CSV Import Dialog"
-#~ msgstr "ভি-কার্ড আমদানি ব্যর্থ"
-
-#, fuzzy
-#~| msgid "File to import:"
-#~ msgctxt "@label"
-#~ msgid "File to import:"
-#~ msgstr "যে ফাইল আমদানি করা হবে:"
-
-#, fuzzy
-#~| msgid "Select vCard to Import"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Select a csv file to import"
-#~ msgstr "আমদানি করার জন্য ভি-কার্ড বেছে নিন"
-
-#, fuzzy
-#~ msgctxt "@title:group"
-#~ msgid "Delimiter"
-#~ msgstr "প্রদর্শন মুছে ফেল"
-
-#, fuzzy
-#~| msgid "Comma"
-#~ msgctxt "@option:radio Field separator"
-#~ msgid "Comma"
-#~ msgstr "কমা"
-
-#, fuzzy
-#~| msgid "Semicolon"
-#~ msgctxt "@option:radio Field separator"
-#~ msgid "Semicolon"
-#~ msgstr "সেমিকোলন"
-
-#, fuzzy
-#~| msgid "Space"
-#~ msgctxt "@option:radio Field separator"
-#~ msgid "Space"
-#~ msgstr "Space"
-
-#, fuzzy
-#~| msgid "Other"
-#~ msgctxt "@option:radio Custum field separator"
-#~ msgid "Other"
-#~ msgstr "অন্যান্য"
-
-#, fuzzy
-#~| msgid "&Text font:"
-#~ msgctxt "@label:listbox"
-#~ msgid "Text quote:"
-#~ msgstr "লেখার জন্য &ফন্ট:"
-
-#, fuzzy
-#~| msgid "Select the key type:"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Select the quote character"
-#~ msgstr "কী (Key) ধরন নির্বাচন করুন:"
-
-#, fuzzy
-#~| msgid "\""
-#~ msgctxt "@item:inlistbox Qoute character option"
-#~ msgid "\""
-#~ msgstr "\""
-
-#, fuzzy
-#~| msgid "'"
-#~ msgctxt "@item:inlistbox Quote character option"
-#~ msgid "'"
-#~ msgstr "'"
-
-#, fuzzy
-#~| msgid "None"
-#~ msgctxt "@item:inlistbox Quote character option"
-#~ msgid "None"
-#~ msgstr "কিছু না"
-
-#, fuzzy
-#~| msgid "Date format:"
-#~ msgctxt "@label:listbox"
-#~ msgid "Date format:"
-#~ msgstr "তারিখ ফর্ম্যাট:"
-
-#, fuzzy
-#~| msgid "&Text font:"
-#~ msgctxt "@label:listbox"
-#~ msgid "Text codec:"
-#~ msgstr "লেখার জন্য &ফন্ট:"
-
-#, fuzzy
-#~| msgid "Select the key type:"
-#~ msgctxt "@info:tooltip"
-#~ msgid "Select the text codec"
-#~ msgstr "কী (Key) ধরন নির্বাচন করুন:"
-
-#, fuzzy
-#~| msgid "Apply Template..."
-#~ msgctxt "@action:button"
-#~ msgid "Apply Template..."
-#~ msgstr "টেমপ্লেট প্রয়োগ করো..."
-
-#, fuzzy
-#~| msgid "Save Template..."
-#~ msgctxt "@action:button"
-#~ msgid "Save Template..."
-#~ msgstr "টেমপ্লেট সংরক্ষণ করো..."
-
-#, fuzzy
-#~| msgid "Local (%1)"
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Local (%1)"
-#~ msgstr "স্থানীয় (%1)"
-
-#, fuzzy
-#~| msgid "Latin1"
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Latin1"
-#~ msgstr "লাতিন-১"
-
-#, fuzzy
-#~| msgid "Unicode"
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Unicode"
-#~ msgstr "ইউনিকোড"
-
-#, fuzzy
-#~| msgid "Microsoft Unicode"
-#~ msgctxt "@item:inlistbox Codec setting"
-#~ msgid "Microsoft Unicode"
-#~ msgstr "মাইক্রোসফট ইউনিকোড"
-
-#, fuzzy
-#~| msgid "(No preview available.)"
-#~ msgctxt "@label"
-#~ msgid "There are no templates available yet."
-#~ msgstr "(কোন প্রাকদর্শন পাওয়া যাচ্ছে না)"
-
-#, fuzzy
-#~| msgid "(No preview available.)"
-#~ msgctxt "@title:window"
-#~ msgid "No templates available"
-#~ msgstr "(কোন প্রাকদর্শন পাওয়া যাচ্ছে না)"
-
-#, fuzzy
-#~| msgid "Template Name"
-#~ msgctxt "@title:window"
-#~ msgid "Template Name"
-#~ msgstr "টেমপ্লেট-এর নাম"
-
-#, fuzzy
-#~| msgid "Please enter a name for the template:"
-#~ msgctxt "@info"
-#~ msgid "Please enter a name for the template:"
-#~ msgstr "অনুগ্রহ করে টেমপ্লেট-এর জন্য একটি নাম লিখুন:"
-
-#, fuzzy
-#~| msgid "Cannot open input file."
-#~ msgctxt "@info:status"
-#~ msgid "Cannot open input file."
-#~ msgstr "ইনপুট ফাইল খোলা যায়নি।"
-
-#, fuzzy
-#~| msgid "Template Selection"
-#~ msgctxt "@title:window"
-#~ msgid "Template Selection"
-#~ msgstr "টেমপ্লেট নির্বাচন"
-
-#, fuzzy
 #~ msgid "GMX address book file (*.gmxa)"
 #~ msgstr "%1 ঠিকানা তালিকা"
-
-#~ msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
-#~ msgstr "<qt>পড়ার জন্য <b>%1</b> খোলা যায়নি।</qt>"
 
 #, fuzzy
 #~ msgid "%1 is not a GMX address book file."
 #~ msgstr "%1 ঠিকানা তালিকা"
-
-#, fuzzy
-#~| msgid "Address Book"
-#~ msgid "Select Address Book"
-#~ msgstr "ঠিকানা তালিকা"
-
-#, fuzzy
-#~| msgid "Edit Contact"
-#~ msgid "Import Contacts"
-#~ msgstr "পরিচয় সম্পাদন করো"
 
 #, fuzzy
 #~| msgid "&Delete Contact"
