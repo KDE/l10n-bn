@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kaddressbook\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-10-11 08:12+0000\n"
+"POT-Creation-Date: 2016-10-12 07:15+0000\n"
 "PO-Revision-Date: 2006-01-23 01:24-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -33,14 +33,30 @@ msgstr "রপ্তানি তালিকা."
 msgid "Import contacts from a file in comma separated value format."
 msgstr ""
 
-#: csv/csvimportexportplugininterface.cpp:201
-#: ldif/ldifimportexportplugininterface.cpp:135
+#: csv/csvimportexportplugininterface.cpp:168
+#: ldif/ldifimportexportplugininterface.cpp:137
+#: vcards/vcardimportexportplugininterface.cpp:416
+#, fuzzy
+#| msgid "&Delete Contact"
+msgid "Which contact do you want to export?"
+msgstr "পরিচ&য় মুছে ফেলো"
+
+#: csv/csvimportexportplugininterface.cpp:178
+#: ldif/ldifimportexportplugininterface.cpp:147
+#: vcards/vcardimportexportplugininterface.cpp:428
+#, fuzzy
+#| msgid "Delete all selected contacts."
+msgid "You have not selected any contacts to export."
+msgstr "সব নির্বাচিত পরিচয় মুছে ফেলো।"
+
+#: csv/csvimportexportplugininterface.cpp:207 gmx/engine/gmx_xxport.cpp:375
+#: ldif/ldifimportexportplugininterface.cpp:163
 #, fuzzy, kde-format
 msgid "<qt>Unable to open file <b>%1</b></qt>"
 msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
 
-#: csv/csvimportexportplugininterface.cpp:215
-#: ldif/ldifimportexportplugininterface.cpp:167
+#: csv/csvimportexportplugininterface.cpp:219 gmx/engine/gmx_xxport.cpp:390
+#: ldif/ldifimportexportplugininterface.cpp:195
 #, kde-format
 msgid "<qt>Unable to open file <b>%1</b>.</qt>"
 msgstr "<qt>ফাইল <b>%1</b> খোলা যায়নি।</qt>"
@@ -410,86 +426,96 @@ msgctxt "@info"
 msgid "Please select a template, that matches the CSV file:"
 msgstr ""
 
-#: gmx/gmximportexportplugininterface.cpp:40
+#: gmx/engine/gmx_xxport.cpp:98
+#, fuzzy
+msgid "GMX address book file (*.gmxa)"
+msgstr "%1 ঠিকানা তালিকা"
+
+#: gmx/engine/gmx_xxport.cpp:138 ldif/ldifimportexportplugininterface.cpp:100
+#, kde-format
+msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
+msgstr "<qt>পড়ার জন্য <b>%1</b> খোলা যায়নি।</qt>"
+
+#: gmx/engine/gmx_xxport.cpp:153
+#, fuzzy, kde-format
+msgid "%1 is not a GMX address book file."
+msgstr "%1 ঠিকানা তালিকা"
+
+#: gmx/gmximportexportplugininterface.cpp:41
 #, fuzzy
 #| msgid "Import All..."
 msgid "Import GMX file..."
 msgstr "সব আমদানি করো..."
 
-#: gmx/gmximportexportplugininterface.cpp:41
+#: gmx/gmximportexportplugininterface.cpp:42
 #, fuzzy
 msgid "Import contacts from a GMX address book file."
 msgstr "%1 ঠিকানা তালিকা"
 
-#: gmx/gmximportexportplugininterface.cpp:46
+#: gmx/gmximportexportplugininterface.cpp:47
 #, fuzzy
 msgid "Export GMX file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: gmx/gmximportexportplugininterface.cpp:47
+#: gmx/gmximportexportplugininterface.cpp:48
 #, fuzzy
 msgid "Export contacts to a GMX address book file."
 msgstr "%1 ঠিকানা তালিকা"
 
-#: ldap/ldapimportexportplugininterface.cpp:45
+#: ldap/ldapimportexportplugininterface.cpp:44
 #, fuzzy
 #| msgid "Import From Mobile Phone..."
 msgid "Import From LDAP server..."
 msgstr "মোবাইল ফোন থেকে আমদানি করো..."
 
-#: ldap/ldapimportexportplugininterface.cpp:46
+#: ldap/ldapimportexportplugininterface.cpp:45
 #, fuzzy
 #| msgid "Import From Mobile Phone..."
 msgid "Import contacts from an LDAP server."
 msgstr "মোবাইল ফোন থেকে আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:50
+#: ldif/ldifimportexportplugininterface.cpp:53
 #, fuzzy
 msgid "Import LDIF file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:51
+#: ldif/ldifimportexportplugininterface.cpp:54
 #, fuzzy
 msgid "Import contacts from an LDIF file."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:56
+#: ldif/ldifimportexportplugininterface.cpp:59
 #, fuzzy
 msgid "Export LDIF file..."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:57
+#: ldif/ldifimportexportplugininterface.cpp:60
 #, fuzzy
 msgid "Export contacts to an LDIF file."
 msgstr "কে.ডি.ই. ২ ঠিকানা-তালিকা আমদানি করো..."
 
-#: ldif/ldifimportexportplugininterface.cpp:90
-#: ldif/ldifimportexportplugininterface.cpp:127
+#: ldif/ldifimportexportplugininterface.cpp:93
+#: ldif/ldifimportexportplugininterface.cpp:155
 msgid "LDif Files (*.ldif)"
 msgstr ""
 
-#: ldif/ldifimportexportplugininterface.cpp:97
-#, kde-format
-msgid "<qt>Unable to open <b>%1</b> for reading.</qt>"
-msgstr "<qt>পড়ার জন্য <b>%1</b> খোলা যায়নি।</qt>"
-
-#: shared/importexportengine.cpp:81
+#: shared/importexportengine.cpp:77
 #, fuzzy
 #| msgid "Address Book"
 msgid "Select Address Book"
 msgstr "ঠিকানা তালিকা"
 
-#: shared/importexportengine.cpp:83
+#: shared/importexportengine.cpp:79
 msgid "Select the address book the imported contact(s) shall be saved in:"
 msgstr ""
 
-#: shared/importexportengine.cpp:96
+#: shared/importexportengine.cpp:93
 #, fuzzy
 #| msgid "Edit Contact"
 msgid "Import Contacts"
 msgstr "পরিচয় সম্পাদন করো"
 
-#: shared/importexportengine.cpp:98
+#: shared/importexportengine.cpp:95
 #, fuzzy, kde-format
 #| msgid "Edit Contact"
 msgid "Importing one contact to %2"
@@ -498,6 +524,7 @@ msgstr[0] "পরিচয় সম্পাদন করো"
 msgstr[1] "পরিচয় সম্পাদন করো"
 
 #: vcards/engine/vcard_xxport.cpp:94
+#: vcards/vcardimportexportplugininterface.cpp:469
 msgctxt "@info"
 msgid ""
 "You have selected a list of contacts, shall they be exported to several "
@@ -505,6 +532,7 @@ msgid ""
 msgstr ""
 
 #: vcards/engine/vcard_xxport.cpp:97
+#: vcards/vcardimportexportplugininterface.cpp:472
 #, fuzzy
 #| msgid "Export to One File"
 msgctxt "@action:button"
@@ -512,6 +540,7 @@ msgid "Export to One File"
 msgstr "একটি ফাইল-এ রপ্তানি করো"
 
 #: vcards/engine/vcard_xxport.cpp:98
+#: vcards/vcardimportexportplugininterface.cpp:473
 #, fuzzy
 #| msgid "Export to Several Files"
 msgctxt "@action:button"
@@ -519,12 +548,14 @@ msgid "Export to Several Files"
 msgstr "একাধিক ফাইল-এ রপ্তানি করো"
 
 #: vcards/engine/vcard_xxport.cpp:162
+#: vcards/vcardimportexportplugininterface.cpp:137
 msgid ""
 "*.vcf|vCard (*.vcf)\n"
 "*|all files (*)"
 msgstr ""
 
 #: vcards/engine/vcard_xxport.cpp:164
+#: vcards/vcardimportexportplugininterface.cpp:139
 #, fuzzy
 #| msgid "Select vCard to Import"
 msgctxt "@title:window"
@@ -532,6 +563,7 @@ msgid "Select vCard to Import"
 msgstr "আমদানি করার জন্য ভি-কার্ড বেছে নিন"
 
 #: vcards/engine/vcard_xxport.cpp:173
+#: vcards/vcardimportexportplugininterface.cpp:148
 #, fuzzy
 #| msgid "vCard Import Failed"
 msgctxt "@title:window"
@@ -539,17 +571,20 @@ msgid "vCard Import Failed"
 msgstr "ভি-কার্ড আমদানি ব্যর্থ"
 
 #: vcards/engine/vcard_xxport.cpp:191
+#: vcards/vcardimportexportplugininterface.cpp:166
 #, kde-format
 msgctxt "@info"
 msgid "<para>Unable to access vCard:</para><para>%1</para>"
 msgstr ""
 
 #: vcards/engine/vcard_xxport.cpp:203
+#: vcards/vcardimportexportplugininterface.cpp:178
 msgctxt "@info"
 msgid "No contacts were imported, due to errors with the vCards."
 msgstr ""
 
 #: vcards/engine/vcard_xxport.cpp:207
+#: vcards/vcardimportexportplugininterface.cpp:182
 msgctxt "@info"
 msgid "The vCard does not contain any contacts."
 msgstr ""
@@ -710,43 +745,41 @@ msgctxt "@action:button"
 msgid "Import All..."
 msgstr "সব আমদানি করো..."
 
-#: vcards/vcardimportexportplugininterface.cpp:40
-#: vcards/vcardimportexportplugininterface.cpp:47
+#: vcards/vcardimportexportplugininterface.cpp:58
 msgid "Import vCard..."
 msgstr "ভি-কার্ড আমদানি করো..."
 
-#: vcards/vcardimportexportplugininterface.cpp:41
-#: vcards/vcardimportexportplugininterface.cpp:48
+#: vcards/vcardimportexportplugininterface.cpp:59
 msgid "Import contacts from a vCard file."
 msgstr ""
 
-#: vcards/vcardimportexportplugininterface.cpp:52
+#: vcards/vcardimportexportplugininterface.cpp:66
 #, fuzzy
 #| msgid "Export vCard 3.0..."
 msgid "Export contacts to a vCard 4.0 file."
 msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
 
-#: vcards/vcardimportexportplugininterface.cpp:53
+#: vcards/vcardimportexportplugininterface.cpp:67
 #, fuzzy
 #| msgid "Export vCard 3.0..."
 msgid "Export vCard 4.0..."
 msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
 
-#: vcards/vcardimportexportplugininterface.cpp:57
+#: vcards/vcardimportexportplugininterface.cpp:72
 msgid "Export vCard 3.0..."
 msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
 
-#: vcards/vcardimportexportplugininterface.cpp:58
+#: vcards/vcardimportexportplugininterface.cpp:73
 #, fuzzy
 #| msgid "Export vCard 3.0..."
 msgid "Export contacts to a vCard 3.0 file."
 msgstr "ভি-কার্ড ৩.০ রপ্তানি করো..."
 
-#: vcards/vcardimportexportplugininterface.cpp:62
+#: vcards/vcardimportexportplugininterface.cpp:78
 msgid "Export vCard 2.1..."
 msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
 
-#: vcards/vcardimportexportplugininterface.cpp:63
+#: vcards/vcardimportexportplugininterface.cpp:79
 #, fuzzy
 #| msgid "Export vCard 2.1..."
 msgid "Export contacts to a vCard 2.1 file."
@@ -1308,14 +1341,6 @@ msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
 #~ msgstr "পরিচ&য় মুছে ফেলো"
 
 #, fuzzy
-#~ msgid "GMX address book file (*.gmxa)"
-#~ msgstr "%1 ঠিকানা তালিকা"
-
-#, fuzzy
-#~ msgid "%1 is not a GMX address book file."
-#~ msgstr "%1 ঠিকানা তালিকা"
-
-#, fuzzy
 #~| msgid "&Delete Contact"
 #~ msgctxt "@action:inmenu"
 #~ msgid "Sync Contacts"
@@ -1361,11 +1386,6 @@ msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
 #~ msgstr "&পরিচয় পাঠাও..."
 
 #, fuzzy
-#~| msgid "Delete all selected contacts."
-#~ msgid "You have not selected any contacts."
-#~ msgstr "সব নির্বাচিত পরিচয় মুছে ফেলো।"
-
-#, fuzzy
 #~| msgid "Send a mail to all selected contacts."
 #~ msgid "No emails found in selected contacts."
 #~ msgstr "সব নির্বাচিত পরিচয়কে একটি মেইল পাঠাও।"
@@ -1388,11 +1408,6 @@ msgstr "ভি-কার্ড ২.১ রপ্তানি করো..."
 #, fuzzy
 #~| msgid "&Delete Contact"
 #~ msgid "Select Contacts to merge"
-#~ msgstr "পরিচ&য় মুছে ফেলো"
-
-#, fuzzy
-#~| msgid "&Delete Contact"
-#~ msgid "Select contacts that you really want to merge:"
 #~ msgstr "পরিচ&য় মুছে ফেলো"
 
 #, fuzzy
