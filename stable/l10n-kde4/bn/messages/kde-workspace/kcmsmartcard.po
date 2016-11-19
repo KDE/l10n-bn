@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmartcard\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2013-11-05 11:50+0000\n"
+"POT-Creation-Date: 2016-11-19 18:41+0100\n"
 "PO-Revision-Date: 2004-10-18 23:00-0500\n"
 "Last-Translator: Khandakar Mujahidul Islam <suzan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -15,27 +15,31 @@ msgstr ""
 "X-Generator: KBabel 1.3.1\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+#, kde-format
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "খন্দকার মুজাহিদুল ইসলাম সুজন"
 
+#, kde-format
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "suzan@bengalinux.org"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: nosmartcardbase.ui:24
+#, kde-format
 msgid "<b>Unable to contact the KDE smartcard service.</b>"
 msgstr "<b>কে-ডি-ই স্মার্টকার্ড সার্ভিসের সাথে যোগাযোগে ব্যর্থ।</b>।"
 
 #. i18n: ectx: property (title), widget (QGroupBox)
 #: nosmartcardbase.ui:35
+#, kde-format
 msgid "Possible Reasons"
 msgstr "সম্ভাব্য কারণসমূহ"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: nosmartcardbase.ui:49
-#, fuzzy
+#, fuzzy, kde-format
 msgid ""
 "\n"
 "1) The KDE daemon, 'kded' is not running. You can restart it by running the "
@@ -54,55 +58,67 @@ msgstr ""
 "libpcsclite সহ kdelibs প্যাকেজ পুনরায় কম্পাইল করতে হবে।"
 
 #: smartcard.cpp:65
+#, kde-format
 msgid "kcmsmartcard"
 msgstr "kcmsmartcard"
 
 #: smartcard.cpp:65
+#, kde-format
 msgid "KDE Smartcard Control Module"
 msgstr "কে-ডি-ই স্মার্টকার্ড কন্ট্রোল মডিউল"
 
 #: smartcard.cpp:67
+#, kde-format
 msgid "(c) 2001 George Staikos"
 msgstr "(c) ২০০১ জর্জ স্টেইক্‌স"
 
 #: smartcard.cpp:69
-#, fuzzy
+#, fuzzy, kde-format
 msgid "George Staikos"
 msgstr "(c) ২০০১ জর্জ স্টেইক্‌স"
 
 #: smartcard.cpp:79
+#, kde-format
 msgid "Change Module..."
 msgstr "মডিউল পরিবর্তন হচ্ছে..."
 
 #: smartcard.cpp:134
+#, kde-format
 msgid "Unable to launch KCardChooser"
 msgstr "KCardChooser চালু করতে ব্যর্থ"
 
 #: smartcard.cpp:183
+#, kde-format
 msgid "No card inserted"
 msgstr "কোন কার্ড ঢোকানো হয়নি"
 
 #: smartcard.cpp:224
+#, kde-format
 msgid "Smart card support disabled"
 msgstr "স্মার্টকার্ড সমর্থণ নিষ্ক্রিয়"
 
 #: smartcard.cpp:235
+#, kde-format
 msgid "No readers found. Check 'pcscd' is running"
 msgstr "কোন রিডার পাওয়া যায়নি। পরীক্ষা করুন 'pcscd' চলছে কিনা"
 
 #: smartcard.cpp:260 smartcard.cpp:280
+#, kde-format
 msgid "NO ATR or no card inserted"
 msgstr "কোন এ-টি-আর বা কার্ড ঢোকানো নেই"
 
 #: smartcard.cpp:292
+#, kde-format
 msgid "Managed by: "
 msgstr "যার কর্তৃক নিয়ন্ত্রিত:"
 
 #: smartcard.cpp:302
+#, kde-format
 msgid "No module managing this card"
 msgstr "কোন মডিউল এই কার্ডকে নিয়ন্ত্রন করছে না"
 
 #: smartcard.cpp:395
+#, kde-format
 msgid ""
 "<h1>smartcard</h1> This module allows you to configure KDE support for "
 "smartcards. These can be used for various tasks such as storing SSL "
@@ -114,21 +130,25 @@ msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget)
 #: smartcardbase.ui:31
+#, kde-format
 msgid "Smartcard Support"
 msgstr "স্মার্টকার্ড সমর্থণ"
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:42
+#, kde-format
 msgid "&Enable smartcard support"
 msgstr "স্মার্টকার্ড সমর্থন &সক্রিয় করো"
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:61
+#, kde-format
 msgid "Enable &polling to autodetect card events"
 msgstr "স্বয়ংক্রিয়ভাবে কার্ড পাওয়ার &জন্য পোলিং সক্রিয় করো"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
 #: smartcardbase.ui:64
+#, kde-format
 msgid ""
 "In most cases you should have this enabled. It allows KDE to automatically "
 "detect card insertion and reader hotplug events."
@@ -138,12 +158,14 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:92
+#, kde-format
 msgid "Automatically &launch card manager if inserted card is unclaimed"
 msgstr ""
 "যদি ঢোকানো কার্ডটি দাবিদারহীন হয় তাহলে স্বয়ংক্রি&য়ভাবে কার্ড ম্যানেজার চালু করবে"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox)
 #: smartcardbase.ui:95
+#, kde-format
 msgid ""
 "When you insert a smartcard, KDE can automatically launch a management tool "
 "if no other application attempts to use the card."
@@ -153,41 +175,49 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox)
 #: smartcardbase.ui:106
+#, kde-format
 msgid "&Beep on card insert and removal"
 msgstr "কার্ড ডোকানো ও বের করার সময় বী&প শব্দ হবে"
 
 #. i18n: ectx: attribute (title), widget (QWidget)
 #: smartcardbase.ui:135
+#, kde-format
 msgid "Readers"
 msgstr "রিডারসমূহ"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:152
+#, kde-format
 msgid "Reader"
 msgstr "রিডার"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:163
+#, kde-format
 msgid "Type"
 msgstr "টাইপ"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:174
+#, kde-format
 msgid "Subtype"
 msgstr "সাবটাইপ"
 
 #. i18n: ectx: property (text), widget (K3ListView)
 #: smartcardbase.ui:185
+#, kde-format
 msgid "SubSubtype"
 msgstr "সাবসাবটাইপ"
 
 #. i18n: ectx: property (title), widget (QGroupBox)
 #: smartcardbase.ui:228
+#, kde-format
 msgid "PCSCLite Configuration"
 msgstr "PCSCLite কন্‌ফিগারেশন"
 
 #. i18n: ectx: property (text), widget (QLabel)
 #: smartcardbase.ui:251
+#, kde-format
 msgid ""
 "To add new readers you have to modify /etc/readers.conf file and re-start "
 "pcscd"
