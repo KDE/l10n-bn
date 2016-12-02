@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-12-01 02:49+0100\n"
+"POT-Creation-Date: 2016-12-02 03:19+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -116,7 +116,7 @@ msgid "Equator"
 msgstr "বিষুবরেখা"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEcliptic)
-#: auxiliary/colorscheme.cpp:74 options/opsguides.ui:183
+#: auxiliary/colorscheme.cpp:74 options/opsguides.ui:207
 #: skycomponents/ecliptic.cpp:39
 #, kde-format
 msgid "Ecliptic"
@@ -288,7 +288,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:3184 ekos/scheduler/scheduler.cpp:3483
 #: ekos/scheduler/scheduler.cpp:4532 ekos/scheduler/scheduler.cpp:4561
 #: ekos/scheduler/scheduler.cpp:4603 indi/drivermanager.cpp:1465
-#: indi/indidriver.cpp:946 kstarsactions.cpp:1025 oal/execute.cpp:317
+#: indi/indidriver.cpp:946 kstarsactions.cpp:1014 oal/execute.cpp:317
 #: options/opscolors.cpp:222 tools/modcalcangdist.cpp:134
 #: tools/modcalcapcoord.cpp:151 tools/modcalcdaylength.cpp:247
 #: tools/modcalcgalcoord.cpp:192 tools/modcalcgeodcoord.cpp:230
@@ -475,14 +475,14 @@ msgstr "আকাশের ছবি সং&রক্ষণ করো..."
 
 #: auxiliary/imageviewer.cpp:333 dialogs/addcatdialog.cpp:212
 #: ekos/capture/capture.cpp:2492 ekos/scheduler/scheduler.cpp:3450
-#: kstarsactions.cpp:898 printing/pwizprint.cpp:88 tools/scriptbuilder.cpp:839
+#: kstarsactions.cpp:887 printing/pwizprint.cpp:88 tools/scriptbuilder.cpp:839
 #, kde-format
 msgid "A file named \"%1\" already exists. Overwrite it?"
 msgstr "\"%1\" নামে একটি ফাইল ইতিমধ্যেই বিদ্যমান।  সেটির ওপর দিয়েই কি লেখা হবে?"
 
 #: auxiliary/imageviewer.cpp:335 dialogs/addcatdialog.cpp:214
 #: ekos/capture/capture.cpp:2494 ekos/scheduler/scheduler.cpp:3452
-#: kstarsactions.cpp:899 printing/pwizprint.cpp:89 tools/scriptbuilder.cpp:841
+#: kstarsactions.cpp:888 printing/pwizprint.cpp:89 tools/scriptbuilder.cpp:841
 #, kde-format
 msgid "Overwrite File?"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
@@ -2289,7 +2289,7 @@ msgstr "ছায়াপথ"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowComets)
 #. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #: dialogs/finddialog.cpp:48 kstarslite/dialogs/finddialoglite.cpp:49
-#: options/opssolarsystem.ui:368 tools/conjunctions.cpp:80
+#: options/opssolarsystem.ui:404 tools/conjunctions.cpp:80
 #: tools/obslistwizard.cpp:254 tools/obslistwizard.cpp:368
 #: tools/obslistwizard.cpp:691 tools/obslistwizard.ui:88
 #: tools/wutdialog.cpp:127
@@ -2300,7 +2300,7 @@ msgstr "ধূমকেতু"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAsteroids)
 #. i18n: ectx: property (text), item, widget (QListWidget, TypeList)
 #: dialogs/finddialog.cpp:49 kstarslite/dialogs/finddialoglite.cpp:50
-#: options/opssolarsystem.ui:252 tools/conjunctions.cpp:81
+#: options/opssolarsystem.ui:282 tools/conjunctions.cpp:81
 #: tools/obslistwizard.cpp:255 tools/obslistwizard.cpp:370
 #: tools/obslistwizard.cpp:733 tools/obslistwizard.ui:93
 #: tools/wutdialog.cpp:127
@@ -7918,7 +7918,7 @@ msgstr "দূরবীক্ষণ যন্ত্রকে প্রস্ত�
 #, kde-format
 msgid ""
 "Mount guiding rate. Find out the guiding rate used by your mount and update "
-"the value here to get the <b>recommended</b> value of propotional gain "
+"the value here to get the <b>recommended</b> value of proportional gain "
 "suitable for your mount. Setting this value <b>does not</b> change your "
 "mount guiding rate!"
 msgstr ""
@@ -8177,7 +8177,7 @@ msgstr ""
 #: ekos/guide/guide.ui:916
 #, kde-format
 msgid ""
-"<html><head/><body><p>Propotional term accounts for present values of the "
+"<html><head/><body><p>Proportional term accounts for present values of the "
 "error. For example, if the error is large and positive, the guider "
 "corrective pulse will also be large and positive.</p></body></html>"
 msgstr ""
@@ -8192,7 +8192,7 @@ msgstr ""
 #: ekos/guide/guide.ui:946
 #, kde-format
 msgid ""
-"<html><head/><body><p>Propotional term accounts for past values of the "
+"<html><head/><body><p>Proportional term accounts for past values of the "
 "error. For example, if the current pulse is not sufficiently strong, the "
 "integral of the error will accumulate over time, and the guider will respond "
 "by applying a stronger action.</p></body></html>"
@@ -8581,7 +8581,7 @@ msgid "Calibration rejected. Start drift is too short."
 msgstr ""
 
 #: ekos/guide/internalguide/rcalibration.cpp:515
-#: skycomponents/satellitescomponent.cpp:135 tools/conjunctions.cpp:339
+#: skycomponents/satellitescomponent.cpp:148 tools/conjunctions.cpp:339
 #, fuzzy, kde-format
 msgid "Abort"
 msgstr "আর্মার"
@@ -13032,18 +13032,18 @@ msgstr "ক্রস-হেয়ার কেন্দ্রে আনো ও অ�
 msgid "KStars"
 msgstr "কে-স্টার্স"
 
-#: kstars.cpp:246 kstarsactions.cpp:1178 skymap.cpp:382
+#: kstars.cpp:246 kstarsactions.cpp:1167 skymap.cpp:382
 #, kde-format
 msgid "Stop &Tracking"
 msgstr "&অনুসরণ বন্ধ করো"
 
-#: kstars.cpp:251 kstarsactions.cpp:1293 kstarsinit.cpp:259
+#: kstars.cpp:251 kstarsactions.cpp:1282 kstarsinit.cpp:259
 #, fuzzy, kde-format
 #| msgid "Horizontal &Coordinates"
 msgid "Switch to horizonal view (Horizontal &Coordinates)"
 msgstr "&অনুভূমিক স্থানাঙ্ক"
 
-#: kstars.cpp:251 kstarsactions.cpp:1299 kstarsinit.cpp:259
+#: kstars.cpp:251 kstarsactions.cpp:1288 kstarsinit.cpp:259
 #, fuzzy, kde-format
 #| msgid "Equatorial &Coordinates"
 msgid "Switch to star globe view (Equatorial &Coordinates)"
@@ -14057,7 +14057,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, খ-মান
 
 #. i18n: ectx: label, entry (AutoSelectGrid), group (View)
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_AutoSelectGrid)
-#: kstars.kcfg:434 options/opsguides.ui:229
+#: kstars.kcfg:434 options/opsguides.ui:265
 #, fuzzy, kde-format
 msgid "Draw grids according to active coordinate system?"
 msgstr "অনুভূমিক স্থানাঙ্ক"
@@ -52205,41 +52205,41 @@ msgstr "INDI"
 msgid "Xplanet"
 msgstr "গ্রহ"
 
-#: kstarsactions.cpp:846
+#: kstarsactions.cpp:835
 #, kde-format
 msgid "KStars::slotFind() - Not enough memory for dialog"
 msgstr "KStars::slotFind() - ডায়ালগ প্রদর্শনের জন্য পর্যাপ্ত মেমরি নেই"
 
-#: kstarsactions.cpp:864
+#: kstarsactions.cpp:853
 #, fuzzy, kde-format
 #| msgid "Open FITS..."
 msgid "Open FITS"
 msgstr "FITS খোলো..."
 
-#: kstarsactions.cpp:887
+#: kstarsactions.cpp:876
 #, fuzzy, kde-format
 msgid "Export Image"
 msgstr "বিষ্ণুতারা (ক্যাস্টর)"
 
-#: kstarsactions.cpp:924 tools/scriptbuilder.cpp:764
+#: kstarsactions.cpp:913 tools/scriptbuilder.cpp:764
 #: tools/scriptbuilder.cpp:826
 #, kde-format
 msgctxt "Filter by file type: KStars Scripts."
 msgid "KStars Scripts (*.kstars)"
 msgstr ""
 
-#: kstarsactions.cpp:933
+#: kstarsactions.cpp:922
 #, fuzzy, kde-format
 #| msgid "completed"
 msgid "Executing remote scripts is not supported."
 msgstr "সম্পন্ন"
 
-#: kstarsactions.cpp:1024 oal/execute.cpp:316 tools/observinglist.cpp:842
+#: kstarsactions.cpp:1013 oal/execute.cpp:316 tools/observinglist.cpp:842
 #, kde-format
 msgid "Could not open file %1"
 msgstr "%1 নামক ফাইলটি খোলা যায় নি"
 
-#: kstarsactions.cpp:1050
+#: kstarsactions.cpp:1039
 #, fuzzy, kde-format
 #| msgid ""
 #| "The selected script contains unrecognized elements,indicating that it was "
@@ -52256,29 +52256,29 @@ msgstr ""
 "স্ক্রিপ্ট বিল্ডার ব্যবহার করে তৈরি করা হয় নি।  এই স্ক্রিপ্টটি সঠিকভাবে কাজ করবে না "
 "এবং এতে সন্দেহজনক কোড থাকতে পারে।  এ অবস্থায় আপনি কি স্ক্রিপ্টটি চালাতে চান?"
 
-#: kstarsactions.cpp:1054
+#: kstarsactions.cpp:1043
 #, kde-format
 msgid "Script Validation Failed"
 msgstr "স্ক্রিপ্টের বৈধতা প্রমাণ করা যায় নি"
 
-#: kstarsactions.cpp:1054
+#: kstarsactions.cpp:1043
 #, kde-format
 msgid "Run Nevertheless"
 msgstr "তবুও চালাও"
 
-#: kstarsactions.cpp:1059
+#: kstarsactions.cpp:1048
 #, fuzzy, kde-format
 #| msgid "Sunset: %1"
 msgid "Running script: %1"
 msgstr "সূর্যাস্ত: %1"
 
-#: kstarsactions.cpp:1073
+#: kstarsactions.cpp:1062
 #, fuzzy, kde-format
 #| msgid "Script name:"
 msgid "Script finished."
 msgstr "স্ক্রিপ্টের নাম:"
 
-#: kstarsactions.cpp:1082
+#: kstarsactions.cpp:1071
 #, kde-format
 msgid ""
 "You can save printer ink by using the \"Star Chart\" color scheme, which "
@@ -52289,67 +52289,67 @@ msgstr ""
 "ব্যবহার করতে পারেন যা সাদা পটভূমি ব্যবহার করে।  আপনি কি মুদ্রণের জন্য সাময়িকভাবে "
 "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান?"
 
-#: kstarsactions.cpp:1087
+#: kstarsactions.cpp:1076
 #, kde-format
 msgid "Switch to Star Chart Colors?"
 msgstr "তারা মানচিত্রের রং বিন্যাস ব্যবহার করতে চান কি?"
 
-#: kstarsactions.cpp:1088
+#: kstarsactions.cpp:1077
 #, kde-format
 msgid "Switch Color Scheme"
 msgstr "রং বিন্যাস বদলাও"
 
-#: kstarsactions.cpp:1088
+#: kstarsactions.cpp:1077
 #, kde-format
 msgid "Do Not Switch"
 msgstr "বদলাবে না"
 
-#: kstarsactions.cpp:1160 kstarsinit.cpp:230
+#: kstarsactions.cpp:1149 kstarsinit.cpp:230
 #, kde-format
 msgid "Engage &Tracking"
 msgstr "&অনুসরণ আরম্ভ করো"
 
-#: kstarsactions.cpp:1251
+#: kstarsactions.cpp:1240
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 degrees"
 msgstr ""
 
-#: kstarsactions.cpp:1254
+#: kstarsactions.cpp:1243
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcminutes"
 msgstr ""
 
-#: kstarsactions.cpp:1258
+#: kstarsactions.cpp:1247
 #, kde-format
 msgctxt "approximate field of view"
 msgid "Approximate FOV: %1 arcseconds"
 msgstr ""
 
-#: kstarsactions.cpp:1272
+#: kstarsactions.cpp:1261
 #, kde-format
 msgctxt "The user should enter an angle for the field-of-view of the display"
 msgid "Enter Desired Field-of-View Angle"
 msgstr "আকাঙ্খিত ফিল্ড-অব-ভিউ কোণের মান লিখুন"
 
-#: kstarsactions.cpp:1273
+#: kstarsactions.cpp:1262
 #, kde-format
 msgid "Enter a field-of-view angle in degrees: "
 msgstr "ডিগ্রি এককে একটি ফিল্ড-অব-ভিউ কোণের মান লিখুন: "
 
-#: kstarsactions.cpp:1405
+#: kstarsactions.cpp:1394
 #, kde-format
 msgid "Attempt to determine from image"
 msgstr ""
 
-#: kstarsactions.cpp:1406
+#: kstarsactions.cpp:1395
 #, fuzzy, kde-format
 #| msgid "Select a shape for the field-of-view symbol"
 msgid "Eyepiece View: Choose a field-of-view"
 msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃতি বেছে নিন"
 
-#: kstarsactions.cpp:1406
+#: kstarsactions.cpp:1395
 #, kde-format
 msgid "FOV to render eyepiece view for:"
 msgstr ""
@@ -52819,7 +52819,7 @@ msgid "Jupiter's Moons"
 msgstr "বৃহস্পতির উপগ্রহ..."
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowFlags)
-#: kstarsinit.cpp:450 options/opsguides.ui:248
+#: kstarsinit.cpp:450 options/opsguides.ui:287
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Flagstaff"
@@ -54136,12 +54136,12 @@ msgstr "উত্তর"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mars)
-#: kstarslite/skyitems/skynodes/planetnode.cpp:37 options/opssolarsystem.ui:64
-#: skycomponents/skymapcomposite.cpp:582 skyglpainter.cpp:248
+#: kstarslite/skyitems/skynodes/planetnode.cpp:37 options/opssolarsystem.ui:70
+#: skycomponents/skymapcomposite.cpp:584 skyglpainter.cpp:248
 #: skymapdrawabstract.cpp:154 skyobjects/ksplanet.cpp:132
 #: skyobjects/ksplanet.cpp:164 skyobjects/ksplanet.cpp:347
 #: skyobjects/ksplanet.cpp:376 skyobjects/ksplanetbase.cpp:153
-#: skyqpainter.cpp:366 tools/conjunctions.cpp:90 tools/ksconjunct.cpp:68
+#: skyqpainter.cpp:371 tools/conjunctions.cpp:90 tools/ksconjunct.cpp:68
 #: tools/modcalcplanets.cpp:263 tools/modcalcplanets.ui:160
 #: tools/modcalcplanets.ui:579 tools/obslistwizard.cpp:527
 #: tools/obslistwizard.cpp:529 tools/skycalendar.ui:48
@@ -54153,12 +54153,12 @@ msgstr "মঙ্গলগ্রহ (মার্স)"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Jupiter)
-#: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:142
-#: skycomponents/skymapcomposite.cpp:583 skyglpainter.cpp:250
+#: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:157
+#: skycomponents/skymapcomposite.cpp:585 skyglpainter.cpp:250
 #: skymapdrawabstract.cpp:155 skyobjects/ksplanet.cpp:135
 #: skyobjects/ksplanet.cpp:166 skyobjects/ksplanet.cpp:349
 #: skyobjects/ksplanet.cpp:378 skyobjects/ksplanetbase.cpp:154
-#: skyqpainter.cpp:368 tools/conjunctions.cpp:91 tools/jmoontool.cpp:128
+#: skyqpainter.cpp:373 tools/conjunctions.cpp:91 tools/jmoontool.cpp:128
 #: tools/ksconjunct.cpp:65 tools/modcalcplanets.cpp:263
 #: tools/modcalcplanets.ui:165 tools/modcalcplanets.ui:584
 #: tools/obslistwizard.cpp:540 tools/obslistwizard.cpp:542
@@ -54171,12 +54171,12 @@ msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mercury)
-#: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:168
-#: skycomponents/skymapcomposite.cpp:579 skyglpainter.cpp:250
+#: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:189
+#: skycomponents/skymapcomposite.cpp:581 skyglpainter.cpp:250
 #: skymapdrawabstract.cpp:151 skyobjects/ksplanet.cpp:126
 #: skyobjects/ksplanet.cpp:160 skyobjects/ksplanet.cpp:342
 #: skyobjects/ksplanet.cpp:370 skyobjects/ksplanetbase.cpp:153
-#: skyqpainter.cpp:368 tools/conjunctions.cpp:88 tools/ksconjunct.cpp:71
+#: skyqpainter.cpp:373 tools/conjunctions.cpp:88 tools/ksconjunct.cpp:71
 #: tools/modcalcplanets.cpp:262 tools/modcalcplanets.ui:145
 #: tools/modcalcplanets.ui:564 tools/obslistwizard.cpp:500
 #: tools/obslistwizard.cpp:502 tools/skycalendar.ui:34
@@ -54188,12 +54188,12 @@ msgstr "বুধগ্রহ (মার্কারি)"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Saturn)
-#: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:38
-#: skycomponents/skymapcomposite.cpp:584 skyglpainter.cpp:250
+#: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:41
+#: skycomponents/skymapcomposite.cpp:586 skyglpainter.cpp:250
 #: skymapdrawabstract.cpp:156 skyobjects/ksplanet.cpp:138
 #: skyobjects/ksplanet.cpp:168 skyobjects/ksplanet.cpp:351
 #: skyobjects/ksplanet.cpp:380 skyobjects/ksplanetbase.cpp:154
-#: skyobjects/ksplanetbase.cpp:272 skyqpainter.cpp:368
+#: skyobjects/ksplanetbase.cpp:272 skyqpainter.cpp:373
 #: tools/conjunctions.cpp:92 tools/ksconjunct.cpp:65
 #: tools/modcalcplanets.cpp:263 tools/modcalcplanets.ui:170
 #: tools/modcalcplanets.ui:589 tools/obslistwizard.cpp:554
@@ -58306,8 +58306,8 @@ msgstr "মানচিত্র সরে যাওয়ার সময় এট�
 #. i18n: ectx: property (text), widget (QLabel, LabelMag4)
 #. i18n: ectx: property (text), widget (QLabel, textLabel6)
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: options/opsadvanced.ui:676 options/opscatalog.ui:572
-#: options/opscatalog.ui:583 options/opssolarsystem.ui:287
+#: options/opsadvanced.ui:676 options/opscatalog.ui:593
+#: options/opscatalog.ui:604 options/opssolarsystem.ui:320
 #: tools/obslistwizard.ui:817
 #, kde-format
 msgid "mag"
@@ -58539,35 +58539,35 @@ msgstr ""
 msgid "Hole size in degrees:"
 msgstr "ভৌগলিক স্থানাঙ্ক"
 
-#: options/opscatalog.cpp:181
+#: options/opscatalog.cpp:208
 #, kde-format
 msgid ""
 "The selected database will be removed. This action cannot be reversed! "
 "Delete Catalog?"
 msgstr ""
 
-#: options/opscatalog.cpp:183
+#: options/opscatalog.cpp:208
 #, fuzzy, kde-format
 #| msgid "Select all major bodies"
 msgid "Delete Catalog?"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
-#: options/opscatalog.cpp:311
+#: options/opscatalog.cpp:346
 #, kde-format
 msgid "Index Catalog (IC)"
 msgstr "সূচিপত্রের ক্যাটালগ (আই.সি.)"
 
-#: options/opscatalog.cpp:315
+#: options/opscatalog.cpp:350
 #, kde-format
 msgid "New General Catalog (NGC)"
 msgstr "নতুন সাধারণ ক্যাটালগ (এন.জি.সি.)"
 
-#: options/opscatalog.cpp:319
+#: options/opscatalog.cpp:354
 #, kde-format
 msgid "Messier Catalog (images)"
 msgstr "মেসিয়ের ক্যাটালগ (ছবি)"
 
-#: options/opscatalog.cpp:323
+#: options/opscatalog.cpp:358
 #, kde-format
 msgid "Messier Catalog (symbols)"
 msgstr "মেসিয়ের ক্যাটালগ (প্রতীক)"
@@ -58580,28 +58580,28 @@ msgid "&Star Catalogs"
 msgstr "তালিকা"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelStarDensity)
-#: options/opscatalog.ui:49
+#: options/opscatalog.ui:52
 #, fuzzy, kde-format
 #| msgid "Star color intensity:"
 msgid "Star Density:"
 msgstr "তারার রঙের তীব্রতা:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStarNames)
-#: options/opscatalog.ui:126
+#: options/opscatalog.ui:129
 #, kde-format
 msgid "Show &name"
 msgstr "না&ম দেখাও"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowStarMagnitudes)
-#: options/opscatalog.ui:133
+#: options/opscatalog.ui:139
 #, kde-format
 msgid "Show ma&gnitude"
 msgstr "&উজ্জ্বলতা দেখাও"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelDensity)
 #. i18n: ectx: property (text), widget (QLabel, DeepSkyLabelDensityLabel)
-#: options/opscatalog.ui:192 options/opscatalog.ui:389
-#: options/opssolarsystem.ui:343
+#: options/opscatalog.ui:201 options/opscatalog.ui:410
+#: options/opssolarsystem.ui:379
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Lake City"
@@ -58609,58 +58609,52 @@ msgid "Label density:"
 msgstr "লেক সিটি"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDeepSky)
-#: options/opscatalog.ui:258
+#: options/opscatalog.ui:267
 #, fuzzy, kde-format
 msgid "Deep-Sky Catalogs"
 msgstr "দূর-আকাশের বস্তু"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDeepSkyNames)
-#: options/opscatalog.ui:286
+#: options/opscatalog.ui:298
 #, fuzzy, kde-format
 #| msgid "Show &name"
 msgid "Show na&me"
 msgstr "না&ম দেখাও"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DeepSkyLongLabels)
-#: options/opscatalog.ui:316
+#: options/opscatalog.ui:331
 #, fuzzy, kde-format
 #| msgid "Show &name"
 msgid "Show &long names"
 msgstr "না&ম দেখাও"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowDeepSkyMagnitudes)
-#: options/opscatalog.ui:359
+#: options/opscatalog.ui:377
 #, fuzzy, kde-format
 #| msgid "Show ma&gnitude"
 msgid "Show magni&tude"
 msgstr "&উজ্জ্বলতা দেখাও"
 
 #. i18n: ectx: property (text), widget (QPushButton, AddCatalog)
-#: options/opscatalog.ui:467
+#: options/opscatalog.ui:488
 #, kde-format
 msgid "Import Catalog..."
 msgstr "ক্যাটালগ আমদানি করো..."
 
 #. i18n: ectx: property (text), widget (QPushButton, LoadCatalog)
-#: options/opscatalog.ui:474
+#: options/opscatalog.ui:495
 #, kde-format
 msgid "Load Catalog..."
 msgstr "ক্যাটালগ লোড করো..."
 
 #. i18n: ectx: property (text), widget (QPushButton, RemoveCatalog)
-#: options/opscatalog.ui:484
+#: options/opscatalog.ui:505
 #, fuzzy, kde-format
 msgid "Remove Catalog..."
 msgstr "ক্যাটালগ অপসারণ করো"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResolveNamesOnline)
-#: options/opscatalog.ui:510
-#, kde-format
-msgid "Resolve names not known to KStars using online services"
-msgstr ""
-
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResolveNamesOnline)
-#: options/opscatalog.ui:514
+#: options/opscatalog.ui:532
 #, kde-format
 msgid ""
 "If this checkbox is checked, when an object name unknown to KStars is "
@@ -58670,15 +58664,21 @@ msgid ""
 "catalog that is called _Internet_Resolved as of this writing."
 msgstr ""
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ResolveNamesOnline)
+#: options/opscatalog.ui:535
+#, kde-format
+msgid "Resolve names not known to KStars using online services"
+msgstr ""
+
 #. i18n: ectx: property (toolTip), widget (QLabel, LabelMagDeepSkyZoomOut)
 #. i18n: ectx: property (toolTip), widget (QLabel, LabelMag3)
 #. i18n: ectx: property (toolTip), widget (QLabel, LabelMag4)
 #. i18n: ectx: property (toolTip), widget (QLabel, LabelMagDeepSky)
 #. i18n: ectx: property (toolTip), widget (MagnitudeSpinBox, kcfg_MagLimitDrawDeepSky)
 #. i18n: ectx: property (toolTip), widget (MagnitudeSpinBox, kcfg_MagLimitDrawDeepSkyZoomOut)
-#: options/opscatalog.ui:558 options/opscatalog.ui:569
-#: options/opscatalog.ui:580 options/opscatalog.ui:591
-#: options/opscatalog.ui:602 options/opscatalog.ui:610
+#: options/opscatalog.ui:579 options/opscatalog.ui:590
+#: options/opscatalog.ui:601 options/opscatalog.ui:612
+#: options/opscatalog.ui:623 options/opscatalog.ui:631
 #, kde-format
 msgid ""
 "Set the faint magnitude limits for NGC / Messier objects when zoomed in and "
@@ -58688,19 +58688,19 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, LabelMagDeepSkyZoomOut)
-#: options/opscatalog.ui:561
+#: options/opscatalog.ui:582
 #, kde-format
 msgid "Faint limit zoomed out:"
 msgstr "ছোট করে দেখার ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা:"
 
 #. i18n: ectx: property (text), widget (QLabel, LabelMagDeepSky)
-#: options/opscatalog.ui:594
+#: options/opscatalog.ui:615
 #, kde-format
 msgid "Faint limit zoomed in:"
 msgstr "বিবর্ধনের ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowUnknownMagObjects)
-#: options/opscatalog.ui:635
+#: options/opscatalog.ui:656
 #, fuzzy, kde-format
 msgid "Show objects of unknown magnitude"
 msgstr "এ থেকে &উজ্জ্বলতর খ-বস্তু নির্বাচন করো:"
@@ -58967,111 +58967,111 @@ msgid "&Constellation lines"
 msgstr "তারা&মণ্ডলের রেখা"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabelSkyCulture)
-#: options/opsguides.ui:36
+#: options/opsguides.ui:39
 #, kde-format
 msgid "Sky culture:"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QComboBox, kcfg_SkyCulture)
-#: options/opsguides.ui:46
+#: options/opsguides.ui:49
 #, kde-format
 msgid "Choose sky culture"
 msgstr ""
 
 #. i18n: ectx: property (whatsThis), widget (QComboBox, kcfg_SkyCulture)
-#: options/opsguides.ui:49
+#: options/opsguides.ui:52
 #, kde-format
 msgid "Here, you can choose how constellations are represented"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCBounds)
-#: options/opsguides.ui:58
+#: options/opsguides.ui:61
 #, kde-format
 msgid "Constellation &boundaries"
 msgstr "তারামণ্ডলের সীমারেখা (&স)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowConstellationArt)
-#: options/opsguides.ui:65
+#: options/opsguides.ui:71
 #, fuzzy, kde-format
 #| msgid "Constellation"
 msgid "Constellation Art"
 msgstr "তারামণ্ডল"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHighlightedCBound)
-#: options/opsguides.ui:72
+#: options/opsguides.ui:81
 #, fuzzy, kde-format
 msgid "Highlight central constellation boundary"
 msgstr "তারামণ্ডলের সীমারেখা"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCNames)
-#: options/opsguides.ui:79
+#: options/opsguides.ui:91
 #, kde-format
 msgid "Draw constellation names?"
 msgstr "তারামণ্ডলের নাম দেখানো হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowCNames)
-#: options/opsguides.ui:82
+#: options/opsguides.ui:94
 #, kde-format
 msgid "If checked, constellation names will be drawn on the sky map."
 msgstr "টিক দেওয়া থাকলে, খ-মানচিত্রে তারামণ্ডলের নাম দেখানো হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCNames)
-#: options/opsguides.ui:85
+#: options/opsguides.ui:97
 #, kde-format
 msgid "Constellation &names"
 msgstr "তারামণ্ডলের নাম (&ন)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, ConstellOptions)
-#: options/opsguides.ui:94
+#: options/opsguides.ui:109
 #, kde-format
 msgid "Constellation Name Options"
 msgstr "তারামণ্ডলের নাম সংক্রান্ত অপশন"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_UseLatinConstellNames)
-#: options/opsguides.ui:115
+#: options/opsguides.ui:130
 #, kde-format
 msgid "Use Latin constellation names"
 msgstr "তারামণ্ডলের ল্যাটিন নাম ব্যবহার করো"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_UseLatinConstellNames)
-#: options/opsguides.ui:118
+#: options/opsguides.ui:133
 #, kde-format
 msgid "Select this to use Latin constellation names on the sky map"
 msgstr "তারামণ্ডলের ল্যাটিন নাম ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseLatinConstellNames)
-#: options/opsguides.ui:121
+#: options/opsguides.ui:136
 #, kde-format
 msgid "L&atin"
 msgstr "ল্যাটি&ন"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_UseLocalConstellNames)
-#: options/opsguides.ui:128
+#: options/opsguides.ui:146
 #, kde-format
 msgid "Use Localized constellation names"
 msgstr "তারামণ্ডলের স্থানীয় নাম ব্যবহার করো"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_UseLocalConstellNames)
-#: options/opsguides.ui:131
+#: options/opsguides.ui:149
 #, kde-format
 msgid ""
 "Select this to use constellation names from your locality (if available)"
 msgstr "তারামণ্ডলের স্থানীয় নাম (যদি থাকে) ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseLocalConstellNames)
-#: options/opsguides.ui:134
+#: options/opsguides.ui:152
 #, kde-format
 msgid "Localized"
 msgstr "স্থানীয়"
 
 #. i18n: ectx: property (toolTip), widget (QRadioButton, kcfg_UseAbbrevConstellNames)
-#: options/opsguides.ui:141
+#: options/opsguides.ui:162
 #, kde-format
 msgid "Use IAU abbreviations"
 msgstr "আই.এ.ইউ. নির্ধারিত সংক্ষিপ্ত নাম ব্যবহার করো"
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kcfg_UseAbbrevConstellNames)
-#: options/opsguides.ui:144
+#: options/opsguides.ui:165
 #, kde-format
 msgid ""
 "Select this to use abbreviations from the International Astronomical Union "
@@ -59081,19 +59081,19 @@ msgstr ""
 "হিসেবে ব্যবহার করতে হলে এটি বেছে নিন"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kcfg_UseAbbrevConstellNames)
-#: options/opsguides.ui:147
+#: options/opsguides.ui:168
 #, kde-format
 msgid "Abbre&viated"
 msgstr "সংক্ষেপিত"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowEcliptic)
-#: options/opsguides.ui:177
+#: options/opsguides.ui:201
 #, kde-format
 msgid "Draw Ecliptic?"
 msgstr "সূর্যপথ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowEcliptic)
-#: options/opsguides.ui:180
+#: options/opsguides.ui:204
 #, kde-format
 msgid ""
 "If checked, the ecliptic will be drawn on the sky map.  The ecliptic is a "
@@ -59105,13 +59105,13 @@ msgstr ""
 "অন্যান্য সদস্যরাও মোটামুটিভাবে এই পথই অনুসরণ করে।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FillMilkyWay)
-#: options/opsguides.ui:190
+#: options/opsguides.ui:217
 #, kde-format
 msgid "Use filled Milky Way contour?"
 msgstr "আকাশ গঙ্গার আবয়ব ভরাট করা থাকবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_FillMilkyWay)
-#: options/opsguides.ui:193
+#: options/opsguides.ui:220
 #, kde-format
 msgid ""
 "If checked, the Milky Way contour will be shown filled.  Otherwise, only the "
@@ -59121,19 +59121,19 @@ msgstr ""
 "বহিঃরেখা আঁকা হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FillMilkyWay)
-#: options/opsguides.ui:196
+#: options/opsguides.ui:223
 #, kde-format
 msgid "Fill Milk&y Way"
 msgstr "আকা&শ গঙ্গার আবয়ব ভরাট করো"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHorizon)
-#: options/opsguides.ui:203
+#: options/opsguides.ui:233
 #, kde-format
 msgid "Draw horizon?"
 msgstr "দিগন্ত আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowHorizon)
-#: options/opsguides.ui:206
+#: options/opsguides.ui:236
 #, kde-format
 msgid ""
 "If checked, a line representing the local horizon will be drawn on the map."
@@ -59142,32 +59142,32 @@ msgstr ""
 "করবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHorizon)
-#: options/opsguides.ui:209
+#: options/opsguides.ui:239
 #, kde-format
 msgid "Hori&zon (line)"
 msgstr "দি&গন্ত (রেখা)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMilkyWay)
-#: options/opsguides.ui:216
+#: options/opsguides.ui:249
 #, kde-format
 msgid "Draw the Milky Way contour?"
 msgstr "আকাশ গঙ্গার আবয়ব আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMilkyWay)
-#: options/opsguides.ui:219
+#: options/opsguides.ui:252
 #, kde-format
 msgid ""
 "If checked, a contour representing the Milky Way will be drawn on the sky map"
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে আকাশ গঙ্গা নির্দেশক আবয়ব আঁকা হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMilkyWay)
-#: options/opsguides.ui:222
+#: options/opsguides.ui:255
 #, kde-format
 msgid "Mil&ky Way"
 msgstr "&আকাশ গঙ্গা"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoSelectGrid)
-#: options/opsguides.ui:232
+#: options/opsguides.ui:268
 #, fuzzy, kde-format
 msgid ""
 "If checked, coordinate grids will automatically change according to active "
@@ -59175,35 +59175,35 @@ msgid ""
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoSelectGrid)
-#: options/opsguides.ui:235
+#: options/opsguides.ui:271
 #, fuzzy, kde-format
 #| msgid "Toggle Coordinate Grid"
 msgid "Automatically select coordinate grid"
 msgstr "স্থানাংক রেখা প্রদর্শনের মোড পাল্টাও"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowFlags)
-#: options/opsguides.ui:242
+#: options/opsguides.ui:281
 #, fuzzy, kde-format
 #| msgid "Draw Mars?"
 msgid "Draw flags?"
 msgstr "মঙ্গলগ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowFlags)
-#: options/opsguides.ui:245
+#: options/opsguides.ui:284
 #, fuzzy, kde-format
 #| msgid "If checked, Mars will be drawn on the map."
 msgid "If checked, flags will be drawn on the sky map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে মঙ্গলগ্রহ আঁকা হবে।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowEquatorialGrid)
-#: options/opsguides.ui:255
+#: options/opsguides.ui:297
 #, fuzzy, kde-format
 #| msgid "Draw coordinate grid?"
 msgid "Draw equatorial coordinate grid?"
 msgstr "স্থানাংক রেখা আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowEquatorialGrid)
-#: options/opsguides.ui:258
+#: options/opsguides.ui:300
 #, kde-format
 msgid ""
 "If checked, a grid of lines will be drawn every 2 hours in Right Ascension "
@@ -59213,21 +59213,21 @@ msgstr ""
 "স্থানাংক রেখা আঁকা হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEquatorialGrid)
-#: options/opsguides.ui:261
+#: options/opsguides.ui:303
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Equatorial coordinate grid"
 msgstr "নিরক্ষীয় স্থানাঙ্ক"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowHorizontalGrid)
-#: options/opsguides.ui:268
+#: options/opsguides.ui:313
 #, fuzzy, kde-format
 #| msgid "Draw coordinate grid?"
 msgid "Draw horizontal coordinate grid?"
 msgstr "স্থানাংক রেখা আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowHorizontalGrid)
-#: options/opsguides.ui:271
+#: options/opsguides.ui:316
 #, fuzzy, kde-format
 #| msgid ""
 #| "If checked, a grid of lines will be drawn every 2 hours in Right "
@@ -59240,20 +59240,20 @@ msgstr ""
 "স্থানাংক রেখা আঁকা হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowHorizontalGrid)
-#: options/opsguides.ui:274
+#: options/opsguides.ui:319
 #, fuzzy, kde-format
 #| msgid "Horizontal Coordinates"
 msgid "Horizontal coor&dinate grid"
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowGround)
-#: options/opsguides.ui:281
+#: options/opsguides.ui:329
 #, kde-format
 msgid "Draw opaque ground?"
 msgstr "অস্বচ্ছ ভূমি আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowGround)
-#: options/opsguides.ui:284
+#: options/opsguides.ui:332
 #, kde-format
 msgid ""
 "If checked, the area below the horizon will be filled in, to simulate the "
@@ -59264,36 +59264,36 @@ msgstr ""
 "যে, নিরক্ষীয় স্থানাংক ব্যবস্থায় কখনোই ভূমি আঁকা হয় না।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowGround)
-#: options/opsguides.ui:287
+#: options/opsguides.ui:335
 #, kde-format
 msgid "Opaque &ground"
 msgstr "&অস্বচ্ছ ভূমি"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowEquator)
-#: options/opsguides.ui:294
+#: options/opsguides.ui:345
 #, kde-format
 msgid "Draw Celestial equator?"
 msgstr "খ-বিষুব আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowEquator)
-#: options/opsguides.ui:297
+#: options/opsguides.ui:348
 #, kde-format
 msgid "If checked, the celestial equator will be drawn in the sky map."
 msgstr "এটিতে টিক দেওয়া থাকলে, খ-মানচিত্রে খ-বিষুব আঁকা হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowEquator)
-#: options/opsguides.ui:300
+#: options/opsguides.ui:351
 #, kde-format
 msgid "Celestial e&quator"
 msgstr "&খ-বিষুব"
 
-#: options/opssatellites.cpp:99
+#: options/opssatellites.cpp:106
 #, fuzzy, kde-format
 #| msgid "Center && Track"
 msgid "Satellite name"
 msgstr "কেন্দ্রে আনো ও অনুসরণ করো"
 
-#: options/opssatellites.cpp:167
+#: options/opssatellites.cpp:183
 #, kde-format
 msgid "%1 position calculation error: %2."
 msgstr ""
@@ -59313,40 +59313,40 @@ msgid "Show satellites"
 msgstr "তারামণ্ডলের রেখা দেখানো হবে কি?"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowVisibleSatellites)
-#: options/opssatellites.ui:37
+#: options/opssatellites.ui:40
 #, kde-format
 msgid "Show only visible satellites"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSatellitesLabels)
-#: options/opssatellites.ui:48
+#: options/opssatellites.ui:54
 #, fuzzy, kde-format
 #| msgid "Show &name"
 msgid "Show labels"
 msgstr "না&ম দেখাও"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DrawSatellitesLikeStars)
-#: options/opssatellites.ui:55
+#: options/opssatellites.ui:64
 #, fuzzy, kde-format
 msgid "Draw satellites like stars"
 msgstr "তারামণ্ডলের নাম দেখানো হবে কি?"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: options/opssatellites.ui:67
+#: options/opssatellites.ui:79
 #, fuzzy, kde-format
 #| msgid "List of object categories"
 msgid "List of satellites"
 msgstr "বস্তুর শ্রেণীবিভাগের তালিকা"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, FilterEdit)
-#: options/opssatellites.ui:75
+#: options/opssatellites.ui:87
 #, fuzzy, kde-format
 #| msgid "Show constellation lines?"
 msgid "Search satellites"
 msgstr "তারামণ্ডলের রেখা দেখানো হবে কি?"
 
 #. i18n: ectx: property (text), widget (QPushButton, UpdateTLEButton)
-#: options/opssatellites.ui:91
+#: options/opssatellites.ui:103
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Update TLEs"
@@ -59359,31 +59359,31 @@ msgid "Show solar system objects"
 msgstr "সরে যাওয়ার সময় কি সৌরজগতের সদস্যদের আড়াল করা হবে?"
 
 #. i18n: ectx: property (title), widget (QGroupBox, MajorBodiesBox)
-#: options/opssolarsystem.ui:24
+#: options/opssolarsystem.ui:27
 #, kde-format
 msgid "Sun, Moon && Planets"
 msgstr "সূর্য, চাঁদ ও গ্রহ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowSaturn)
-#: options/opssolarsystem.ui:32
+#: options/opssolarsystem.ui:35
 #, kde-format
 msgid "Draw Saturn?"
 msgstr "শনিগ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowSaturn)
-#: options/opssolarsystem.ui:35
+#: options/opssolarsystem.ui:38
 #, kde-format
 msgid "If checked, Saturn will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শনিগ্রহ আঁকা হবে।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowPlanetImages)
-#: options/opssolarsystem.ui:45
+#: options/opssolarsystem.ui:51
 #, kde-format
 msgid "Draw major bodies as images?"
 msgstr "প্রধান প্রধান খ-বস্তুকে চিত্র হিসাবে আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowPlanetImages)
-#: options/opssolarsystem.ui:48
+#: options/opssolarsystem.ui:54
 #, kde-format
 msgid ""
 "If checked, then the planets, the Sun and the Moon will be shown as bitmap "
@@ -59392,69 +59392,69 @@ msgstr ""
 "এটিতে টিক দেওয়া থাকলে গ্রহ, সূর্য ও চাঁদকে মানচিত্রে বিটম্যাপ ছবি হিসাবে আঁকা হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPlanetImages)
-#: options/opssolarsystem.ui:51
+#: options/opssolarsystem.ui:57
 #, kde-format
 msgid "Use images"
 msgstr "ছবি ব্যবহার করো"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMars)
-#: options/opssolarsystem.ui:58
+#: options/opssolarsystem.ui:64
 #, kde-format
 msgid "Draw Mars?"
 msgstr "মঙ্গলগ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMars)
-#: options/opssolarsystem.ui:61
+#: options/opssolarsystem.ui:67
 #, kde-format
 msgid "If checked, Mars will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে মঙ্গলগ্রহ আঁকা হবে।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowPlanetNames)
-#: options/opssolarsystem.ui:71
+#: options/opssolarsystem.ui:80
 #, kde-format
 msgid "Attach Name labels to the major solar system bodies?"
 msgstr "সৌরজগতের প্রধান প্রধান সদস্যদের সাথে কি নামের লেবেল যুক্ত করা হবে?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowPlanetNames)
-#: options/opssolarsystem.ui:74
+#: options/opssolarsystem.ui:83
 #, kde-format
 msgid ""
 "If checked, name labels will be attached to the planets, the Sun and the Moon"
 msgstr "এটিতে টিক দেওয়া থাকলে গ্রহ, সূর্য ও চাঁদের সাথে নামের লেবেল যুক্ত করা হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowPlanetNames)
-#: options/opssolarsystem.ui:77
+#: options/opssolarsystem.ui:86
 #, kde-format
 msgid "Use name labels"
 msgstr "নামের লেবেল ব্যবহার করো"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, showAllPlanets)
-#: options/opssolarsystem.ui:84
+#: options/opssolarsystem.ui:93
 #, kde-format
 msgid "Select all major bodies"
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, showAllPlanets)
-#: options/opssolarsystem.ui:87
+#: options/opssolarsystem.ui:96
 #, kde-format
 msgid ""
 "Press this to select all planets, the Sun and the Moon to be drawn in the map"
 msgstr "মানচিত্রে প্রতিটি গ্রহ, সূর্য ও চাঁদ আঁকার জন্য এটিতে চাপ দিন"
 
 #. i18n: ectx: property (text), widget (QPushButton, showAllPlanets)
-#: options/opssolarsystem.ui:90
+#: options/opssolarsystem.ui:99
 #, fuzzy, kde-format
 msgid "Select All"
 msgstr "কিছুই বাছাই করবে না"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, showNonePlanets)
-#: options/opssolarsystem.ui:97
+#: options/opssolarsystem.ui:106
 #, kde-format
 msgid "Unselect all major bodies"
 msgstr "সকল প্রধান প্রধান খ-বস্তু অবাছাই করো"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, showNonePlanets)
-#: options/opssolarsystem.ui:100
+#: options/opssolarsystem.ui:109
 #, kde-format
 msgid ""
 "Press this button to unselect all planets, the Sun and the Moon so that they "
@@ -59464,19 +59464,19 @@ msgstr ""
 "হবে না"
 
 #. i18n: ectx: property (text), widget (QPushButton, showNonePlanets)
-#: options/opssolarsystem.ui:103
+#: options/opssolarsystem.ui:112
 #, kde-format
 msgid "Select None"
 msgstr "কিছুই বাছাই করবে না"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowVenus)
-#: options/opssolarsystem.ui:110
+#: options/opssolarsystem.ui:119
 #, kde-format
 msgid "Draw Venus?"
 msgstr "শুক্রগ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowVenus)
-#: options/opssolarsystem.ui:113
+#: options/opssolarsystem.ui:122
 #, kde-format
 msgid "If checked, Venus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে শুক্রগ্রহ আঁকা হবে।"
@@ -59485,7 +59485,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Venus)
-#: options/opssolarsystem.ui:116 skycomponents/skymapcomposite.cpp:580
+#: options/opssolarsystem.ui:125 skycomponents/skymapcomposite.cpp:582
 #: skymapdrawabstract.cpp:152 skyobjects/ksplanet.cpp:129
 #: skyobjects/ksplanet.cpp:162 skyobjects/ksplanet.cpp:345
 #: skyobjects/ksplanet.cpp:372 skyobjects/ksplanetbase.cpp:153
@@ -59498,73 +59498,73 @@ msgid "Venus"
 msgstr "শুক্রগ্রহ (ভিনাস)"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowSun)
-#: options/opssolarsystem.ui:123
+#: options/opssolarsystem.ui:135
 #, kde-format
 msgid "Draw the Sun?"
 msgstr "সূর্য আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowSun)
-#: options/opssolarsystem.ui:126
+#: options/opssolarsystem.ui:138
 #, kde-format
 msgid "If checked, the Sun will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে সূর্য আঁকা হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowSun)
-#: options/opssolarsystem.ui:129
+#: options/opssolarsystem.ui:141
 #, kde-format
 msgid "The sun"
 msgstr "সূর্য"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowJupiter)
-#: options/opssolarsystem.ui:136
+#: options/opssolarsystem.ui:151
 #, kde-format
 msgid "Draw Jupiter?"
 msgstr "বৃহস্পতিগ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowJupiter)
-#: options/opssolarsystem.ui:139
+#: options/opssolarsystem.ui:154
 #, kde-format
 msgid "If checked, Jupiter will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বৃহস্পতিগ্রহ আঁকা হবে।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMoon)
-#: options/opssolarsystem.ui:149
+#: options/opssolarsystem.ui:167
 #, kde-format
 msgid "Draw the Moon?"
 msgstr "চাঁদ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMoon)
-#: options/opssolarsystem.ui:152
+#: options/opssolarsystem.ui:170
 #, kde-format
 msgid "If checked, the Moon will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে চাঁদ আঁকা হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowMoon)
-#: options/opssolarsystem.ui:155
+#: options/opssolarsystem.ui:173
 #, kde-format
 msgid "The moon"
 msgstr "চাঁদ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowMercury)
-#: options/opssolarsystem.ui:162
+#: options/opssolarsystem.ui:183
 #, kde-format
 msgid "Draw Mercury?"
 msgstr "বুধগ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowMercury)
-#: options/opssolarsystem.ui:165
+#: options/opssolarsystem.ui:186
 #, kde-format
 msgid "If checked, Mercury will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে বুধগ্রহ আঁকা হবে।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowNeptune)
-#: options/opssolarsystem.ui:175
+#: options/opssolarsystem.ui:199
 #, kde-format
 msgid "Draw Neptune?"
 msgstr "নেপচুন গ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowNeptune)
-#: options/opssolarsystem.ui:178
+#: options/opssolarsystem.ui:202
 #, kde-format
 msgid "If checked, Neptune will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে নেপচুন গ্রহ আঁকা হবে।"
@@ -59573,7 +59573,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Neptune)
-#: options/opssolarsystem.ui:181 skycomponents/skymapcomposite.cpp:586
+#: options/opssolarsystem.ui:205 skycomponents/skymapcomposite.cpp:588
 #: skymapdrawabstract.cpp:158 skyobjects/ksplanet.cpp:144
 #: skyobjects/ksplanet.cpp:172 skyobjects/ksplanet.cpp:361
 #: skyobjects/ksplanet.cpp:384 skyobjects/ksplanetbase.cpp:155
@@ -59586,13 +59586,13 @@ msgid "Neptune"
 msgstr "নেপচুন"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowUranus)
-#: options/opssolarsystem.ui:204
+#: options/opssolarsystem.ui:231
 #, kde-format
 msgid "Draw Uranus?"
 msgstr "ইউরেনাস গ্রহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowUranus)
-#: options/opssolarsystem.ui:207
+#: options/opssolarsystem.ui:234
 #, kde-format
 msgid "If checked, Uranus will be drawn on the map."
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে ইউরেনাস গ্রহ আঁকা হবে।"
@@ -59601,7 +59601,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Uranus)
-#: options/opssolarsystem.ui:210 skycomponents/skymapcomposite.cpp:585
+#: options/opssolarsystem.ui:237 skycomponents/skymapcomposite.cpp:587
 #: skymapdrawabstract.cpp:157 skyobjects/ksplanet.cpp:141
 #: skyobjects/ksplanet.cpp:170 skyobjects/ksplanet.cpp:359
 #: skyobjects/ksplanet.cpp:382 skyobjects/ksplanetbase.cpp:154
@@ -59614,82 +59614,82 @@ msgid "Uranus"
 msgstr "ইউরেনাস"
 
 #. i18n: ectx: property (title), widget (QGroupBox, MinorBodiesBox)
-#: options/opssolarsystem.ui:238
+#: options/opssolarsystem.ui:268
 #, kde-format
 msgid "Minor Planets"
 msgstr "অপ্রধান গ্রহসমূহ আঁকা হবে কি?"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowAsteroids)
-#: options/opssolarsystem.ui:246
+#: options/opssolarsystem.ui:276
 #, kde-format
 msgid "Draw asteroids?"
 msgstr "গ্রহাণু আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowAsteroids)
-#: options/opssolarsystem.ui:249
+#: options/opssolarsystem.ui:279
 #, kde-format
 msgid "If checked, asteroids will be drawn on the map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে গ্রহাণু আঁকা হবে।"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel3)
-#: options/opssolarsystem.ui:259
+#: options/opssolarsystem.ui:292
 #, kde-format
 msgid "Show asteroids brighter than"
 msgstr "এটি অপেক্ষা অধিক উজ্জ্বল গ্রহাণু দেখাও"
 
 #. i18n: ectx: property (toolTip), widget (MagnitudeSpinBox, kcfg_MagLimitAsteroid)
-#: options/opssolarsystem.ui:271
+#: options/opssolarsystem.ui:304
 #, kde-format
 msgid "faint limit for asteroids"
 msgstr "গ্রহাণুর উজ্জ্বলতার নিম্নসীমা"
 
 #. i18n: ectx: property (whatsThis), widget (MagnitudeSpinBox, kcfg_MagLimitAsteroid)
-#: options/opssolarsystem.ui:274
+#: options/opssolarsystem.ui:307
 #, kde-format
 msgid "Set the faintest magnitude for drawing asteroids"
 msgstr "গ্রহাণু আঁকার ক্ষেত্রে উজ্জ্বলতার নিম্নসীমা নির্ধারণ করুন"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowAsteroidNames)
-#: options/opssolarsystem.ui:314
+#: options/opssolarsystem.ui:347
 #, fuzzy, kde-format
 #| msgid "Attach name labels to bright stars?"
 msgid "Attach name labels to asteroids?"
 msgstr "উজ্জ্বল তারার সাথে কি নামের লেবেল যুক্ত করা হবে?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowAsteroidNames)
-#: options/opssolarsystem.ui:317
+#: options/opssolarsystem.ui:350
 #, fuzzy, kde-format
 #| msgid "If checked, then name labels will be attached to bright asteroids"
 msgid "If checked, then name labels will be attached to asteroids"
 msgstr "এটিতে টিক দেওয়া থাকলে, উজ্জ্বল গ্রহাণুদের সাথে তাদের নাম যুক্ত করা হবে"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAsteroidNames)
-#: options/opssolarsystem.ui:320
+#: options/opssolarsystem.ui:353
 #, fuzzy, kde-format
 #| msgid "Show &name"
 msgid "Show names"
 msgstr "না&ম দেখাও"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowComets)
-#: options/opssolarsystem.ui:362
+#: options/opssolarsystem.ui:398
 #, kde-format
 msgid "Draw comets?"
 msgstr "ধূমকেতু আঁকা হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowComets)
-#: options/opssolarsystem.ui:365
+#: options/opssolarsystem.ui:401
 #, kde-format
 msgid "If checked, comets will be drawn on the map"
 msgstr "এটিতে টিক দেওয়া থাকলে, মানচিত্রে ধূমকেতু আঁকা হবে।"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCometNames)
-#: options/opssolarsystem.ui:375
+#: options/opssolarsystem.ui:414
 #, kde-format
 msgid "Show names of comets near the Sun"
 msgstr "সূর্যের নিকটবর্তী ধূমকেতুর নাম দেখাও"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowCometNames)
-#: options/opssolarsystem.ui:378
+#: options/opssolarsystem.ui:417
 #, kde-format
 msgid ""
 "If checked, the comets near the Sun will have name labels attached.  Comets "
@@ -59701,19 +59701,19 @@ msgstr ""
 "নিম্নসীমা এক্ষেত্রে কার্যকর নয়।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowCometNames)
-#: options/opssolarsystem.ui:381
+#: options/opssolarsystem.ui:420
 #, kde-format
 msgid "Show names of comets within"
 msgstr "এই দূরত্বের মধ্যে অবস্থিত ধূমকেতুর নাম দেখাও"
 
 #. i18n: ectx: property (toolTip), widget (QDoubleSpinBox, kcfg_MaxRadCometName)
-#: options/opssolarsystem.ui:390
+#: options/opssolarsystem.ui:432
 #, kde-format
 msgid "Maximum distance for comet names"
 msgstr "সর্বোচ্চ যে দূরত্বের ক্ষেত্রে ধূমকেতুর নাম দেখানো হবে"
 
 #. i18n: ectx: property (whatsThis), widget (QDoubleSpinBox, kcfg_MaxRadCometName)
-#: options/opssolarsystem.ui:393
+#: options/opssolarsystem.ui:435
 #, kde-format
 msgid ""
 "Set the maximum distance from the Sun for a comet to have a name label, in "
@@ -59725,25 +59725,25 @@ msgstr ""
 "পৃথিবীর দূরত্ব, যার পরিমাণ প্রায় ১৫০ মিলিয়ন কিলোমিটার"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel4)
-#: options/opssolarsystem.ui:406
+#: options/opssolarsystem.ui:448
 #, kde-format
 msgid "AU"
 msgstr "অ্যাস্ট্রোনমিক্যাল-একক"
 
 #. i18n: ectx: property (title), widget (QGroupBox, TrailsBox)
-#: options/opssolarsystem.ui:433
+#: options/opssolarsystem.ui:475
 #, fuzzy, kde-format
 msgid "Orbit Trails"
 msgstr "কক্ষপথ"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_UseAutoTrail)
-#: options/opssolarsystem.ui:439
+#: options/opssolarsystem.ui:481
 #, kde-format
 msgid "Auto-trail tracked bodies"
 msgstr "স্বয়ংক্রিয়ভাবে অনুসরণকৃত খ-বস্তুর গতিপথ দেখাও"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_UseAutoTrail)
-#: options/opssolarsystem.ui:442
+#: options/opssolarsystem.ui:484
 #, kde-format
 msgid ""
 "If checked then any solar system body will have a temporary trail attached "
@@ -59753,19 +59753,19 @@ msgstr ""
 "অস্থায়ী গতিপথ দেখানো হবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_UseAutoTrail)
-#: options/opssolarsystem.ui:445
+#: options/opssolarsystem.ui:487
 #, kde-format
 msgid "Always show trail when tracking a solar system body"
 msgstr "সৌরজগতের কোন সদস্যকে অনুসরণের ক্ষেত্রে সর্বদা তার গতিপথ দেখাবে"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_FadePlanetTrails)
-#: options/opssolarsystem.ui:454
+#: options/opssolarsystem.ui:499
 #, kde-format
 msgid "Fade trail color into the background?"
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দেওয়া হবে কি?"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_FadePlanetTrails)
-#: options/opssolarsystem.ui:457
+#: options/opssolarsystem.ui:502
 #, kde-format
 msgid ""
 "If checked, the color of the planet trail will be blended into the "
@@ -59773,19 +59773,19 @@ msgid ""
 msgstr "এটিতে টিক দেওয়া থাকলে, গ্রহের গতিপথ পটভূমির আকাশের রঙের সাথে মিলে যাবে।"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_FadePlanetTrails)
-#: options/opssolarsystem.ui:460
+#: options/opssolarsystem.ui:505
 #, kde-format
 msgid "Fade trails to background color"
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দাও"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ClearAllTrails)
-#: options/opssolarsystem.ui:483
+#: options/opssolarsystem.ui:531
 #, kde-format
 msgid "Clear all orbit trails"
 msgstr "প্রতিটি কক্ষপথ মুছে ফেলো"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, ClearAllTrails)
-#: options/opssolarsystem.ui:486
+#: options/opssolarsystem.ui:534
 #, kde-format
 msgid ""
 "Press this to clear all orbit trails that you may have attached to solar "
@@ -59795,13 +59795,13 @@ msgstr ""
 "কক্ষপথ যুক্ত করেছেন, তা মুছে ফেলতে হলে এটিতে চাপ দিন।"
 
 #. i18n: ectx: property (text), widget (QPushButton, ClearAllTrails)
-#: options/opssolarsystem.ui:489
+#: options/opssolarsystem.ui:537
 #, kde-format
 msgid "Remove All Trails"
 msgstr "সকল গতিপথ অপসারণ করো"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
-#: options/opssolarsystem.ui:514
+#: options/opssolarsystem.ui:562
 #, fuzzy, kde-format
 #| msgid "Center && Track"
 msgid "Earth satellite tracks"
@@ -60664,31 +60664,31 @@ msgstr "বস্তুর ধরন নির্বাচন করুন:"
 msgid "New supernova(e) discovered!"
 msgstr ""
 
-#: skycomponents/satellitescomponent.cpp:57
+#: skycomponents/satellitescomponent.cpp:58
 #, fuzzy, kde-format
 #| msgid "Loading Constellations"
 msgid "Loading satellites"
 msgstr "তারামণ্ডল লোড করা হচ্ছে"
 
-#: skycomponents/satellitescomponent.cpp:135
+#: skycomponents/satellitescomponent.cpp:148
 #, fuzzy, kde-format
 #| msgid "Update"
 msgid "Update TLEs..."
 msgstr "আপডেট করো"
 
-#: skycomponents/satellitescomponent.cpp:147
+#: skycomponents/satellitescomponent.cpp:160
 #, fuzzy, kde-format
 #| msgid "Creating Planets"
 msgid "Update %1 satellites"
 msgstr "গ্রহ তৈরি করা হচ্ছে"
 
-#: skycomponents/satellitescomponent.cpp:148
+#: skycomponents/satellitescomponent.cpp:161
 #, fuzzy, kde-format
 #| msgid "Creating Planets"
 msgid "Satellite Orbital Elements Update"
 msgstr "গ্রহ তৈরি করা হচ্ছে"
 
-#: skycomponents/skymapcomposite.cpp:611
+#: skycomponents/skymapcomposite.cpp:613
 #, fuzzy, kde-format
 #| msgid "Could not open custom data file: %1"
 msgid "Could not find custom catalog component named %1."
