@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-02-13 03:50+0100\n"
+"POT-Creation-Date: 2017-02-14 09:04+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -123,7 +123,7 @@ msgid "Ecliptic"
 msgstr "সূর্যপথ"
 
 #: auxiliary/colorscheme.cpp:75 projections/equirectangularprojector.cpp:158
-#: projections/projector.cpp:271
+#: projections/projector.cpp:286
 #, kde-format
 msgid "Horizon"
 msgstr "দিগন্ত"
@@ -54530,7 +54530,7 @@ msgstr "FOV প্রতীক সম্পাদন..."
 msgid " Welcome to KStars "
 msgstr " কে-স্টার্স এর পক্ষ থেকে স্বাগতম"
 
-#: kstarsinit.cpp:705 kstarsliteinit.cpp:59 skymap.cpp:333 skymaplite.cpp:292
+#: kstarsinit.cpp:705 kstarsliteinit.cpp:59 skymap.cpp:333 skymaplite.cpp:302
 #: widgets/infoboxwidget.cpp:126
 #, kde-format
 msgid "nothing"
@@ -55110,18 +55110,18 @@ msgstr "দক্ষিণ-পূর্ব"
 msgid "Slew rate: "
 msgstr "ক্ষেত্র"
 
-#: kstarslite/qml/main.qml:441
+#: kstarslite/qml/main.qml:442
 #, fuzzy, kde-kuit-format
 msgid "Projection systems"
 msgstr "সংযোগ"
 
-#: kstarslite/qml/main.qml:442
+#: kstarslite/qml/main.qml:443
 #, fuzzy, kde-kuit-format
 #| msgid "C&olor Schemes"
 msgid "Color Schemes"
 msgstr "রং বিন্যা&স"
 
-#: kstarslite/qml/main.qml:443
+#: kstarslite/qml/main.qml:444
 #, fuzzy, kde-kuit-format
 #| msgid "&FOV Symbols"
 msgid "FOV Symbols"
@@ -55544,7 +55544,7 @@ msgstr "উত্তর"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mars)
 #: kstarslite/skyitems/skynodes/planetnode.cpp:37 options/opssolarsystem.ui:70
-#: skycomponents/skymapcomposite.cpp:588 skyglpainter.cpp:248
+#: skycomponents/skymapcomposite.cpp:592 skyglpainter.cpp:248
 #: skymapdrawabstract.cpp:154 skyobjects/ksplanet.cpp:132
 #: skyobjects/ksplanet.cpp:164 skyobjects/ksplanet.cpp:347
 #: skyobjects/ksplanet.cpp:376 skyobjects/ksplanetbase.cpp:153
@@ -55561,7 +55561,7 @@ msgstr "মঙ্গলগ্রহ (মার্স)"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Jupiter)
 #: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:157
-#: skycomponents/skymapcomposite.cpp:589 skyglpainter.cpp:250
+#: skycomponents/skymapcomposite.cpp:593 skyglpainter.cpp:250
 #: skymapdrawabstract.cpp:155 skyobjects/ksplanet.cpp:135
 #: skyobjects/ksplanet.cpp:166 skyobjects/ksplanet.cpp:349
 #: skyobjects/ksplanet.cpp:378 skyobjects/ksplanetbase.cpp:154
@@ -55579,7 +55579,7 @@ msgstr "বৃহস্পতিগ্রহ (জুপিটার)"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Mercury)
 #: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:189
-#: skycomponents/skymapcomposite.cpp:585 skyglpainter.cpp:250
+#: skycomponents/skymapcomposite.cpp:589 skyglpainter.cpp:250
 #: skymapdrawabstract.cpp:151 skyobjects/ksplanet.cpp:126
 #: skyobjects/ksplanet.cpp:160 skyobjects/ksplanet.cpp:342
 #: skyobjects/ksplanet.cpp:370 skyobjects/ksplanetbase.cpp:153
@@ -55596,7 +55596,7 @@ msgstr "বুধগ্রহ (মার্কারি)"
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Saturn)
 #: kstarslite/skyitems/skynodes/planetnode.cpp:39 options/opssolarsystem.ui:41
-#: skycomponents/skymapcomposite.cpp:590 skyglpainter.cpp:250
+#: skycomponents/skymapcomposite.cpp:594 skyglpainter.cpp:250
 #: skymapdrawabstract.cpp:156 skyobjects/ksplanet.cpp:138
 #: skyobjects/ksplanet.cpp:168 skyobjects/ksplanet.cpp:351
 #: skyobjects/ksplanet.cpp:380 skyobjects/ksplanetbase.cpp:154
@@ -60924,7 +60924,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Venus)
-#: options/opssolarsystem.ui:125 skycomponents/skymapcomposite.cpp:586
+#: options/opssolarsystem.ui:125 skycomponents/skymapcomposite.cpp:590
 #: skymapdrawabstract.cpp:152 skyobjects/ksplanet.cpp:129
 #: skyobjects/ksplanet.cpp:162 skyobjects/ksplanet.cpp:345
 #: skyobjects/ksplanet.cpp:372 skyobjects/ksplanetbase.cpp:153
@@ -61012,7 +61012,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Neptune)
-#: options/opssolarsystem.ui:205 skycomponents/skymapcomposite.cpp:592
+#: options/opssolarsystem.ui:205 skycomponents/skymapcomposite.cpp:596
 #: skymapdrawabstract.cpp:158 skyobjects/ksplanet.cpp:144
 #: skyobjects/ksplanet.cpp:172 skyobjects/ksplanet.cpp:361
 #: skyobjects/ksplanet.cpp:384 skyobjects/ksplanetbase.cpp:155
@@ -61040,7 +61040,7 @@ msgstr "এটিতে টিক দেওয়া থাকলে, মানচ�
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBox)
 #. i18n: ectx: property (text), item, widget (QComboBox, PlanetComboBoxBatch)
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox_Uranus)
-#: options/opssolarsystem.ui:237 skycomponents/skymapcomposite.cpp:591
+#: options/opssolarsystem.ui:237 skycomponents/skymapcomposite.cpp:595
 #: skymapdrawabstract.cpp:157 skyobjects/ksplanet.cpp:141
 #: skyobjects/ksplanet.cpp:170 skyobjects/ksplanet.cpp:359
 #: skyobjects/ksplanet.cpp:382 skyobjects/ksplanetbase.cpp:154
@@ -62127,7 +62127,7 @@ msgstr "গ্রহ তৈরি করা হচ্ছে"
 msgid "Satellite Orbital Elements Update"
 msgstr "গ্রহ তৈরি করা হচ্ছে"
 
-#: skycomponents/skymapcomposite.cpp:617
+#: skycomponents/skymapcomposite.cpp:621
 #, fuzzy, kde-format
 #| msgid "Could not open custom data file: %1"
 msgid "Could not find custom catalog component named %1."
@@ -62191,12 +62191,12 @@ msgstr "সূর্য"
 msgid "%1: %2<sup>m</sup>"
 msgstr ""
 
-#: skymap.cpp:366 skymaplite.cpp:319
+#: skymap.cpp:366 skymaplite.cpp:329
 #, kde-format
 msgid "Requested Position Below Horizon"
 msgstr "আবেদনকৃত অবস্থানটি দিগন্তের নিচে অবস্থিত"
 
-#: skymap.cpp:367 skymaplite.cpp:320
+#: skymap.cpp:367 skymaplite.cpp:330
 #, kde-format
 msgid ""
 "The requested position is below the horizon.\n"
