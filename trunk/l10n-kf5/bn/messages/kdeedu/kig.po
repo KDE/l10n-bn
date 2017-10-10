@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-03-30 02:44+0200\n"
+"POT-Creation-Date: 2017-10-10 03:20+0200\n"
 "PO-Revision-Date: 2006-03-29 19:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -244,7 +244,7 @@ msgid ""
 "support."
 msgstr "এই ক্যাবরী ফাইলে একটি \"%1\" বস্তু রয়েছে, যা কিগ বর্তমানে সমর্থন করে না।"
 
-#: filters/cabri-utils.cc:31 filters/filter.h:54 misc/object_hierarchy.cc:485
+#: filters/cabri-utils.cc:31 filters/filter.h:54 misc/object_hierarchy.cc:487
 #: objects/object_imp_factory.cc:292
 #, fuzzy, kde-format
 msgid "An error was encountered at line %1 in file %2."
@@ -1072,12 +1072,12 @@ msgstr ""
 "*.kig|কিগ ডকুমেন্ট (*.kig)\n"
 "*.kigz|কম্প্রেসকৃত কিগ ডকুমেন্ট (*.kigz)"
 
-#: kig/kig_part.cpp:740 misc/kigfiledialog.cc:56 modes/typesdialog.cpp:472
+#: kig/kig_part.cpp:740 misc/kigfiledialog.cc:56 modes/typesdialog.cpp:471
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "\"%1\" ফাইলটি ইতিমধ্যেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?"
 
-#: kig/kig_part.cpp:741 misc/kigfiledialog.cc:57 modes/typesdialog.cpp:474
+#: kig/kig_part.cpp:741 misc/kigfiledialog.cc:57 modes/typesdialog.cpp:473
 #, kde-format
 msgid "Overwrite File?"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
@@ -2298,7 +2298,7 @@ msgstr ""
 msgid "Unnamed Macro #%1"
 msgstr "নামবিহীন ম্যাক্রো #%1"
 
-#: misc/object_hierarchy.cc:550
+#: misc/object_hierarchy.cc:552
 #, fuzzy, kde-format
 msgid ""
 "This Kig file uses an object of type \"%1\", which this Kig version does not "
@@ -2979,12 +2979,12 @@ msgstr "এখন ফলাফলসূচক লেবেল স্থাপন
 msgid "Edit Type"
 msgstr "ধরন সম্পাদন"
 
-#: modes/edittype.cc:62
+#: modes/edittype.cc:59
 #, kde-format
 msgid "Here you can edit the name of the current macro type."
 msgstr "এখানে আপনি বর্তমান ম্যাক্রোর ধরনের নাম সম্পাদন করতে পারবেন।"
 
-#: modes/edittype.cc:65
+#: modes/edittype.cc:62
 #, kde-format
 msgid ""
 "Here you can edit the description of the current macro type. This field is "
@@ -2995,12 +2995,12 @@ msgstr ""
 "ঐচ্ছিক, সুতরাং এখানে কিছু না লিখলেও সমস্যা নেই: কিছু না লিখলে অবশ্য আপনার ম্যাক্রোর "
 "ধরনের বিবরণ বলতে কিছু থাকবে না।"
 
-#: modes/edittype.cc:70
+#: modes/edittype.cc:67
 #, kde-format
 msgid "Use this button to change the icon of the current macro type."
 msgstr "বর্তমান ম্যাক্রোর ধরনের আইকন পরিবর্তন করার জন্য এই বাটনটি ব্যবহার করুন।"
 
-#: modes/edittype.cc:94
+#: modes/edittype.cc:89
 #, kde-format
 msgid "The name of the macro can not be empty."
 msgstr "ম্যাক্রোকে নামবিহীন রাখা যাবে না।"
@@ -3121,7 +3121,7 @@ msgstr "লেবেল-এ যে টেক্সট প্রদর্শন �
 msgid "Select the position for the new numeric value..."
 msgstr "নতুন বৃত্তচাপের সমাপ্তি বিন্দু বেছে নিন..."
 
-#: modes/macro.cc:91
+#: modes/macro.cc:90
 #, kde-format
 msgid ""
 "One of the result objects you selected cannot be calculated from the given "
@@ -3132,7 +3132,7 @@ msgstr ""
 "এই ম্যাক্রো গণনা করতে পারছে না।  অনুগ্রহপূর্বক 'পূর্বাবস্থান' চাপুন ও তারপর বস্তুগুলোকে "
 "সঠিক ধারায় তৈরি করুন..."
 
-#: modes/macro.cc:101
+#: modes/macro.cc:100
 #, kde-format
 msgid ""
 "One of the given objects is not used in the calculation of the resultant "
@@ -3255,7 +3255,7 @@ msgid "&Move"
 msgstr "স্থানান্তর করো (&থ)"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRemove)
-#: modes/popup/builtinobjectactionsprovider.cc:87 modes/typesdialog.cpp:385
+#: modes/popup/builtinobjectactionsprovider.cc:87 modes/typesdialog.cpp:384
 #: modes/typeswidget.ui:112
 #, fuzzy, kde-format
 msgid "&Delete"
@@ -3435,35 +3435,35 @@ msgid "Manage Types"
 msgstr "ধরন ব্যবস্থাপনা চালাও"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonEdit)
-#: modes/typesdialog.cpp:384 modes/typeswidget.ui:102
+#: modes/typesdialog.cpp:383 modes/typeswidget.ui:102
 #, kde-format
 msgid "&Edit..."
 msgstr "&সম্পাদন..."
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonExport)
-#: modes/typesdialog.cpp:387 modes/typeswidget.ui:154
+#: modes/typesdialog.cpp:386 modes/typeswidget.ui:154
 #, kde-format
 msgid "E&xport..."
 msgstr "&রপ্তানি..."
 
-#: modes/typesdialog.cpp:442
+#: modes/typesdialog.cpp:441
 #, fuzzy, kde-format
 msgid "Are you sure you want to delete this type?"
 msgid_plural "Are you sure you want to delete these %1 types?"
 msgstr[0] "আপনি কি নিশ্চিতভাবেই এই %1-টি ধরন মুছতে চান?"
 
-#: modes/typesdialog.cpp:444
+#: modes/typesdialog.cpp:443
 #, kde-format
 msgid "Are You Sure?"
 msgstr "আপনি কি নিশ্চিত?"
 
-#: modes/typesdialog.cpp:467
+#: modes/typesdialog.cpp:466
 #, kde-format
 msgid "Export Types"
 msgstr "ধরন আমদানি করো"
 
 # FIXME
-#: modes/typesdialog.cpp:467
+#: modes/typesdialog.cpp:466
 #, kde-format
 msgid ""
 "*.kigt|Kig Types Files\n"
@@ -3473,7 +3473,7 @@ msgstr ""
 "*|সকল ফাইল"
 
 # FIXME
-#: modes/typesdialog.cpp:483
+#: modes/typesdialog.cpp:482
 #, fuzzy, kde-format
 #| msgid ""
 #| "*.kigt|Kig Types Files\n"
@@ -3483,22 +3483,22 @@ msgstr ""
 "*.kigt|কিগ-এর ধরন ফাইল\n"
 "*|সকল ফাইল"
 
-#: modes/typesdialog.cpp:485
+#: modes/typesdialog.cpp:484
 #, kde-format
 msgid "*.ggt|Geogebra Tool Files"
 msgstr ""
 
-#: modes/typesdialog.cpp:487
+#: modes/typesdialog.cpp:486
 #, kde-format
 msgid "*|All Files"
 msgstr ""
 
-#: modes/typesdialog.cpp:488
+#: modes/typesdialog.cpp:487
 #, kde-format
 msgid "Import Types"
 msgstr "ধরন আমদানি করো"
 
-#: modes/typesdialog.cpp:522
+#: modes/typesdialog.cpp:521
 #, kde-format
 msgid ""
 "There is more than one type selected. You can only edit one type at a time. "
@@ -3508,7 +3508,7 @@ msgstr ""
 "পারেন।  অনুগ্রহপূর্বক যে ধরনটি আপনি সম্পাদন করতে চান শুধুমাত্র সেটিই বেছে নিন ও "
 "তারপর পুনরায় চেষ্টা করুন।"
 
-#: modes/typesdialog.cpp:525
+#: modes/typesdialog.cpp:524
 #, kde-format
 msgid "More Than One Type Selected"
 msgstr "একাধিক ধরন বেছে নেওয়া হয়েছে"
