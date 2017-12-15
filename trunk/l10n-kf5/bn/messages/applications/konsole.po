@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-11-23 02:52+0100\n"
+"POT-Creation-Date: 2017-12-15 03:05+0100\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -591,40 +591,50 @@ msgstr "কিছুই নির্বাচিত রেখো না"
 msgid "Edit Profile"
 msgstr "প্রোফাইল সম্পাদনা করো"
 
-#: EditProfileDialog.cpp:153
+#: EditProfileDialog.cpp:180
 #, kde-format
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: EditProfileDialog.cpp:186
+#: EditProfileDialog.cpp:188
+#, fuzzy, kde-format
+#| msgid ""
+#| "A file with this name already exists.\n"
+#| "Do you want to overwrite it?"
+msgid "<p>A profile with this name already exists.</p>"
+msgstr ""
+"এই নামে একটি ফাইল আগে থেকেই আছে। \n"
+"আপনি কি সেটি মুছে ফেলতে চান ?"
+
+#: EditProfileDialog.cpp:222
 #, kde-format
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
 msgstr[0] "প্রোফাইল সম্পাদনা করা হচ্ছে: %2"
 msgstr[1] "%1-টি প্রোফাইল সম্পাদনা করা হচ্ছে: %2"
 
-#: EditProfileDialog.cpp:191
+#: EditProfileDialog.cpp:227
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "প্রোফাইল \"%1\" সম্পাদনা করো"
 
-#: EditProfileDialog.cpp:273
+#: EditProfileDialog.cpp:309
 #, fuzzy, kde-format
 #| msgid "Profile name:"
 msgid "Profile name is empty."
 msgstr "প্রোফাইল-এর নাম:"
 
-#: EditProfileDialog.cpp:344
+#: EditProfileDialog.cpp:380
 #, fuzzy, kde-format
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা করো"
 
-#: EditProfileDialog.cpp:345
+#: EditProfileDialog.cpp:381
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: EditProfileDialog.cpp:376
+#: EditProfileDialog.cpp:412
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -632,19 +642,19 @@ msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: EditProfileDialog.cpp:453
+#: EditProfileDialog.cpp:489
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরী নির্বাচন করো"
 
-#: EditProfileDialog.cpp:675
+#: EditProfileDialog.cpp:711
 #, fuzzy, kde-format
 #| msgctxt "@item:inmenu The host the user is connected to via ssh"
 #| msgid "%1"
 msgid "%1"
 msgstr "%1"
 
-#: EditProfileDialog.cpp:888
+#: EditProfileDialog.cpp:924
 #, fuzzy, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -653,35 +663,35 @@ msgstr ""
 "এই রং পরিকল্পনাটি একটি স্বচ্ছ পটভূমি ব্যবহার করো যেটি আপনার ডেস্কটপে হ সমর্থন করতে "
 "আবির্ভূত হো না"
 
-#: EditProfileDialog.cpp:894
+#: EditProfileDialog.cpp:930
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: EditProfileDialog.cpp:1008 EditProfileDialog.cpp:1020
+#: EditProfileDialog.cpp:1044 EditProfileDialog.cpp:1056
 #, kde-format
 msgid "New Key Binding List"
 msgstr "নতুন কী-বাইণ্ডিং তালিকা"
 
-#: EditProfileDialog.cpp:1010
+#: EditProfileDialog.cpp:1046
 #, kde-format
 msgid "Edit Key Binding List"
 msgstr "কী-বাইণ্ডিং তালিকা সম্পাদনা করো"
 
-#: EditProfileDialog.cpp:1439
+#: EditProfileDialog.cpp:1475
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "Select Any Font"
 msgstr "সব নির্বাচন করো"
 
-#: EditProfileDialog.cpp:1442
+#: EditProfileDialog.cpp:1478
 #, kde-format
 msgid "Select Fixed Width Font"
 msgstr ""
 
-#: EditProfileDialog.cpp:1494
+#: EditProfileDialog.cpp:1530
 #, kde-format
 msgid "AaZz09..."
 msgstr ""
@@ -2281,7 +2291,7 @@ msgstr "ডিফল্ট প্রোফাইল"
 msgid "Konsole does not have permission to save this profile to %1"
 msgstr ""
 
-#: ProfileManager.cpp:369
+#: ProfileManager.cpp:371
 #, fuzzy, kde-format
 #| msgid "Edit Profile \"%1\""
 msgctxt "The default name of a profile"
@@ -3110,46 +3120,39 @@ msgid ""
 "a change to how these are handled.</body></html>"
 msgstr ""
 
-#: settings/ProfileSettings.cpp:147
-#, fuzzy, kde-format
-#| msgid "Save to current profile"
-msgctxt "@info:tooltip"
-msgid "Click to rename profile"
-msgstr "বর্তমান প্রোফাইল-এ সংরক্ষণ করো"
-
-#: settings/ProfileSettings.cpp:156
+#: settings/ProfileSettings.cpp:149
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to toggle status"
 msgstr ""
 
-#: settings/ProfileSettings.cpp:162
+#: settings/ProfileSettings.cpp:155
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Double click to change shortcut"
 msgstr ""
 
-#: settings/ProfileSettings.cpp:185
+#: settings/ProfileSettings.cpp:187
 #, fuzzy, kde-format
 #| msgid "Name"
 msgctxt "@title:column Profile label"
 msgid "Name"
 msgstr "নাম"
 
-#: settings/ProfileSettings.cpp:186
+#: settings/ProfileSettings.cpp:188
 #, kde-format
 msgctxt "@title:column Display profile in file menu"
 msgid "Show"
 msgstr ""
 
-#: settings/ProfileSettings.cpp:187
+#: settings/ProfileSettings.cpp:189
 #, fuzzy, kde-format
 #| msgid "Shortcut"
 msgctxt "@title:column Profile shortcut text"
 msgid "Shortcut"
 msgstr "শর্টকাট"
 
-#: settings/ProfileSettings.cpp:300
+#: settings/ProfileSettings.cpp:302
 #, fuzzy, kde-format
 #| msgid "New Profile..."
 msgctxt "@item This will be used as part of the file name"
@@ -3592,6 +3595,12 @@ msgstr ""
 #, kde-format
 msgid "&Stop"
 msgstr "থামো (&থ)"
+
+#, fuzzy
+#~| msgid "Save to current profile"
+#~ msgctxt "@info:tooltip"
+#~ msgid "Click to rename profile"
+#~ msgstr "বর্তমান প্রোফাইল-এ সংরক্ষণ করো"
 
 #, fuzzy
 #~| msgid "Konsole"
@@ -4237,13 +4246,6 @@ msgstr "থামো (&থ)"
 #~ msgstr ""
 #~ "গোড়ায় এসে গেছি।\n"
 #~ "আবার শেষ থেকে শুরু করব?"
-
-#~ msgid ""
-#~ "A file with this name already exists.\n"
-#~ "Do you want to overwrite it?"
-#~ msgstr ""
-#~ "এই নামে একটি ফাইল আগে থেকেই আছে। \n"
-#~ "আপনি কি সেটি মুছে ফেলতে চান ?"
 
 #~ msgid "File Exists"
 #~ msgstr "ফাইল আগে থেকেই আছে"
