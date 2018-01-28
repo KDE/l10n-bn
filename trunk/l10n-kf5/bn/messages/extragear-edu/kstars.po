@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-01-26 03:12+0100\n"
+"POT-Creation-Date: 2018-01-28 03:13+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -272,21 +272,21 @@ msgstr "বস্তুর নাম"
 msgid "No color named \"%1\" found in color scheme."
 msgstr "রং বিন্যাসে \"%1\" নামে কোন রং পাওয়া যায় নি।"
 
-#: auxiliary/colorscheme.cpp:151 kstarsdata.cpp:1018 options/opscolors.cpp:66
+#: auxiliary/colorscheme.cpp:151 kstarsdata.cpp:1018 options/opscolors.cpp:71
 #: tools/scriptbuilder.cpp:780
 #, kde-format
 msgctxt "use default color scheme"
 msgid "Default Colors"
 msgstr "ডিফল্ট রং"
 
-#: auxiliary/colorscheme.cpp:153 kstarsdata.cpp:1020 options/opscolors.cpp:67
+#: auxiliary/colorscheme.cpp:153 kstarsdata.cpp:1020 options/opscolors.cpp:72
 #: tools/scriptbuilder.cpp:781
 #, kde-format
 msgctxt "use 'star chart' color scheme"
 msgid "Star Chart"
 msgstr "তারা মানচিত্র"
 
-#: auxiliary/colorscheme.cpp:155 kstarsdata.cpp:1022 options/opscolors.cpp:68
+#: auxiliary/colorscheme.cpp:155 kstarsdata.cpp:1022 options/opscolors.cpp:73
 #: tools/scriptbuilder.cpp:782
 #, kde-format
 msgctxt "use 'night vision' color scheme"
@@ -1705,7 +1705,7 @@ msgstr ""
 #: ekos/scheduler/scheduler.cpp:3425 ekos/scheduler/scheduler.cpp:4549
 #: ekos/scheduler/scheduler.cpp:4579 ekos/scheduler/scheduler.cpp:4616
 #: indi/drivermanager.cpp:1478 indi/indidriver.cpp:933 kstarsactions.cpp:1262
-#: oal/execute.cpp:330 options/opscolors.cpp:262 tools/modcalcangdist.cpp:149
+#: oal/execute.cpp:330 options/opscolors.cpp:272 tools/modcalcangdist.cpp:149
 #: tools/modcalcapcoord.cpp:157 tools/modcalcdaylength.cpp:268
 #: tools/modcalcgalcoord.cpp:210 tools/modcalcgeodcoord.cpp:243
 #: tools/modcalcjd.cpp:128 tools/modcalcplanets.cpp:209
@@ -3604,7 +3604,7 @@ msgstr "আর্কমিনিট এককে আকাঙ্খিত ফি
 #. i18n: ectx: property (toolTip), widget (QCheckBox, FOVLockCP)
 #: dialogs/newfov.ui:1144
 #, kde-format
-msgid "Rotation is perform with respect to the celestial pole."
+msgid "Rotation is performed with respect to the celestial pole."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, FOVLockCP)
@@ -96283,37 +96283,37 @@ msgstr "বিবর্ধনের ক্ষেত্রে উজ্জ্ব�
 msgid "Show objects of unknown magnitude"
 msgstr "এ থেকে &উজ্জ্বলতর খ-বস্তু নির্বাচন করো:"
 
-#: options/opscolors.cpp:69 tools/scriptbuilder.cpp:783
+#: options/opscolors.cpp:74 tools/scriptbuilder.cpp:783
 #, kde-format
 msgctxt "use 'moonless night' color scheme"
 msgid "Moonless Night"
 msgstr "চাঁদহীন রাত"
 
-#: options/opscolors.cpp:95
+#: options/opscolors.cpp:100
 #, kde-format
 msgctxt "use realistic star colors"
 msgid "Real Colors"
 msgstr "প্রকৃত বর্ণ"
 
-#: options/opscolors.cpp:96
+#: options/opscolors.cpp:101
 #, kde-format
 msgctxt "show stars as red circles"
 msgid "Solid Red"
 msgstr "সুষম লাল"
 
-#: options/opscolors.cpp:97
+#: options/opscolors.cpp:102
 #, kde-format
 msgctxt "show stars as black circles"
 msgid "Solid Black"
 msgstr "সুষম কালো"
 
-#: options/opscolors.cpp:98
+#: options/opscolors.cpp:103
 #, kde-format
 msgctxt "show stars as white circles"
 msgid "Solid White"
 msgstr "সুষম সাদা"
 
-#: options/opscolors.cpp:99
+#: options/opscolors.cpp:104
 #, fuzzy, kde-format
 #| msgctxt "use realistic star colors"
 #| msgid "Real Colors"
@@ -96321,17 +96321,17 @@ msgctxt "show stars as colored circles"
 msgid "Solid Colors"
 msgstr "প্রকৃত বর্ণ"
 
-#: options/opscolors.cpp:217
+#: options/opscolors.cpp:227
 #, kde-format
 msgid "New Color Scheme"
 msgstr "নতুন রং বিন্যাস"
 
-#: options/opscolors.cpp:217
+#: options/opscolors.cpp:227
 #, kde-format
 msgid "Enter a name for the new color scheme:"
 msgstr "নতুন বিন্যাসের জন্য একটি নাম লিখুন:"
 
-#: options/opscolors.cpp:261
+#: options/opscolors.cpp:271
 #, kde-format
 msgid ""
 "Local color scheme index file could not be opened.\n"
@@ -96340,30 +96340,31 @@ msgstr ""
 "স্থানীয় রং বিন্যাস সূচির ফাইল খোলা যায় নি।\n"
 "বিন্যাস অপসারণ করা যাচ্ছে না।"
 
-#: options/opscolors.cpp:295
+#: options/opscolors.cpp:305
 #, kde-format
 msgid "Could not delete the file: %1"
 msgstr "এই ফাইলটি মোছা যায় নি: %1"
 
-#: options/opscolors.cpp:296
+#: options/opscolors.cpp:306
 #, kde-format
 msgid "Error Deleting File"
 msgstr "ফাইল মোছায় সমস্যা"
 
-#: options/opscolors.cpp:308
+#: options/opscolors.cpp:318
 #, kde-format
 msgid "Could not find an entry named %1 in colors.dat."
 msgstr "colors.dat ফাইলে %1 নামে কোন এন্ট্রি পাওয়া যায় নি।"
 
-#: options/opscolors.cpp:309
+#: options/opscolors.cpp:319
 #, kde-format
 msgid "Scheme Not Found"
 msgstr "বিন্যাস পাওয়া যায় নি"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: options/opscolors.ui:32
-#, kde-format
-msgid "Current Colors"
+#, fuzzy, kde-format
+#| msgid "Current Colors"
+msgid "Current Scheme Colors"
 msgstr "বর্তমান রং"
 
 #. i18n: ectx: property (toolTip), widget (QListWidget, ColorPalette)
@@ -96520,6 +96521,13 @@ msgid ""
 msgstr ""
 "চিহ্নিত রং বিন্যাস অপসারণের জন্য এই বাটনে চাপ দিন।  এটি শুধুমাত্র স্বনির্বাচিত রং "
 "বিন্যাসের ওপরই কাজ করবে।"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: options/opscolors.ui:239
+#, fuzzy, kde-format
+#| msgid "Set Location..."
+msgid "Application Themes"
+msgstr "অবস্থান নির্ধারণ..."
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowCLines)
 #: options/opsguides.ui:23
