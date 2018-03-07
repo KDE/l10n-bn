@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kig (KDE 3.5)\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2017-10-24 03:10+0200\n"
+"POT-Creation-Date: 2018-03-07 03:24+0100\n"
 "PO-Revision-Date: 2006-03-29 19:00+0600\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bangla <kde-translation@BengaLinux.Org>\n"
@@ -165,7 +165,7 @@ msgstr "আমদানি..."
 #: filters/asyexporter.cc:58
 #, fuzzy, kde-format
 #| msgid "*.tex|Latex Documents (*.tex)"
-msgid "*.asy|Asymptote Documents (*.asy)"
+msgid "Asymptote Documents (*.asy)"
 msgstr "*.tex|লেটেক্স ডকুমেন্ট (*.tex)"
 
 #: filters/asyexporter.cc:59
@@ -432,8 +432,9 @@ msgid "&Latex..."
 msgstr "লেটেক্স... (&ল)"
 
 #: filters/latexexporter.cc:538
-#, kde-format
-msgid "*.tex|Latex Documents (*.tex)"
+#, fuzzy, kde-format
+#| msgid "*.tex|Latex Documents (*.tex)"
+msgid "Latex Documents (*.tex)"
 msgstr "*.tex|লেটেক্স ডকুমেন্ট (*.tex)"
 
 #: filters/latexexporter.cc:539
@@ -554,8 +555,9 @@ msgid "&SVG..."
 msgstr "&এস.ভি.জি. ..."
 
 #: filters/svgexporter.cc:59
-#, kde-format
-msgid "*.svg|Scalable Vector Graphics (*.svg)"
+#, fuzzy, kde-format
+#| msgid "*.svg|Scalable Vector Graphics (*.svg)"
+msgid "Scalable Vector Graphics (*.svg)"
 msgstr "*.svg|স্কেলেবল ভেক্টর গ্রাফিক্স (*.svg)"
 
 #: filters/svgexporter.cc:60
@@ -585,8 +587,9 @@ msgid "&XFig File..."
 msgstr "এক্সফিগ (XFig) ফাইল... (&ক)"
 
 #: filters/xfigexporter.cc:577
-#, kde-format
-msgid "*.fig|XFig Documents (*.fig)"
+#, fuzzy, kde-format
+#| msgid "*.fig|XFig Documents (*.fig)"
+msgid "XFig Documents (*.fig)"
 msgstr "*.fig|এক্সফিগ ডকুমেন্ট (*.fig)"
 
 #: filters/xfigexporter.cc:578
@@ -1064,38 +1067,39 @@ msgid "Save Kig Format"
 msgstr "কিগ-এর ফরম্যাট-এ সংরক্ষণ করো"
 
 #: kig/kig_part.cpp:726
-#, kde-format
-msgid ""
-"*.kig|Kig Documents (*.kig)\n"
-"*.kigz|Compressed Kig Documents (*.kigz)"
+#, fuzzy, kde-format
+#| msgid ""
+#| "*.kig|Kig Documents (*.kig)\n"
+#| "*.kigz|Compressed Kig Documents (*.kigz)"
+msgid "Kig Documents (*.kig);;Compressed Kig Documents (*.kigz)"
 msgstr ""
 "*.kig|কিগ ডকুমেন্ট (*.kig)\n"
 "*.kigz|কম্প্রেসকৃত কিগ ডকুমেন্ট (*.kigz)"
 
-#: kig/kig_part.cpp:740 misc/kigfiledialog.cc:56 modes/typesdialog.cpp:471
+#: kig/kig_part.cpp:739 misc/kigfiledialog.cc:56 modes/typesdialog.cpp:471
 #, kde-format
 msgid "The file \"%1\" already exists. Do you wish to overwrite it?"
 msgstr "\"%1\" ফাইলটি ইতিমধ্যেই বিদ্যমান।  আপনি কি এটির ওপর দিয়েই লিখতে চান?"
 
-#: kig/kig_part.cpp:741 misc/kigfiledialog.cc:57 modes/typesdialog.cpp:473
+#: kig/kig_part.cpp:740 misc/kigfiledialog.cc:57 modes/typesdialog.cpp:473
 #, kde-format
 msgid "Overwrite File?"
 msgstr "ফাইলের ওপর দিয়েই কি লেখা হবে?"
 
 # FIXME: ইংরেজিটা ঠিক বোঝা যাচ্ছে না ;-(
-#: kig/kig_part.cpp:895
+#: kig/kig_part.cpp:894
 #, kde-format
 msgid "Print Geometry"
 msgstr "মুদ্রণের বৈশিষ্ট্য"
 
-#: kig/kig_part.cpp:962
+#: kig/kig_part.cpp:961
 #, kde-format
 msgid "Hide %1 Object"
 msgid_plural "Hide %1 Objects"
 msgstr[0] "%1-টি বস্তু লুকাও"
 msgstr[1] "%1-টি বস্তু লুকাও"
 
-#: kig/kig_part.cpp:981
+#: kig/kig_part.cpp:980
 #, kde-format
 msgid "Show %1 Object"
 msgid_plural "Show %1 Objects"
@@ -3464,10 +3468,11 @@ msgstr "ধরন আমদানি করো"
 
 # FIXME
 #: modes/typesdialog.cpp:466
-#, kde-format
-msgid ""
-"*.kigt|Kig Types Files\n"
-"*|All Files"
+#, fuzzy, kde-format
+#| msgid ""
+#| "*.kigt|Kig Types Files\n"
+#| "*|All Files"
+msgid "Kig Types Files (*.kigt);;All Files (*)"
 msgstr ""
 "*.kigt|কিগ-এর ধরন ফাইল\n"
 "*|সকল ফাইল"
@@ -3478,19 +3483,19 @@ msgstr ""
 #| msgid ""
 #| "*.kigt|Kig Types Files\n"
 #| "*|All Files"
-msgid "*.kigt|Kig Types Files"
+msgid "Kig Types Files (*.kigt)"
 msgstr ""
 "*.kigt|কিগ-এর ধরন ফাইল\n"
 "*|সকল ফাইল"
 
 #: modes/typesdialog.cpp:484
 #, kde-format
-msgid "*.ggt|Geogebra Tool Files"
+msgid "Geogebra Tool Files (*.ggt)"
 msgstr ""
 
 #: modes/typesdialog.cpp:486
 #, kde-format
-msgid "*|All Files"
+msgid "All Files (*)"
 msgstr ""
 
 #: modes/typesdialog.cpp:487
