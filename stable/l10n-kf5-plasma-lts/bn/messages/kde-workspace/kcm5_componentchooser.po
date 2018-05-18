@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmcomponentchooser\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2016-11-19 22:53+0100\n"
+"POT-Creation-Date: 2017-10-11 07:06+0200\n"
 "PO-Revision-Date: 2012-07-13 21:56+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -38,29 +38,37 @@ msgid "Your emails"
 msgstr "deepayan.sarkar@gmail.com"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: browserconfig_ui.ui:12
+#: browserconfig_ui.ui:29
 #, kde-format
 msgid "<qt>Open <b>http</b> and <b>https</b> URLs</qt>"
 msgstr "<qt><b>এইচ-টি-টি-পি</b> এবং <b>এইচ-টি-টি-পি-এস</b> ইউ.আর.এল খোল</qt>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, radioKIO)
-#: browserconfig_ui.ui:19
+#: browserconfig_ui.ui:36
 #, kde-format
 msgid "in an application based on the contents of the URL"
 msgstr "ইউ-আর-এল-এর  উপর নির্ভর করে একটি অ্যাপলিকেশনে"
 
-#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
-#: browserconfig_ui.ui:29
-#, kde-format
-msgid "in the following browser:"
+#. i18n: ectx: property (text), widget (QRadioButton, radioService)
+#: browserconfig_ui.ui:46
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "in the following application:"
 msgstr "নিম্নলিখিত ব্রাউজারে:"
 
-#. i18n: ectx: property (text), widget (QToolButton, btnSelectBrowser)
+#. i18n: ectx: property (text), widget (QRadioButton, radioExec)
+#: browserconfig_ui.ui:80
+#, fuzzy, kde-format
+#| msgid "in the following browser:"
+msgid "with the following command:"
+msgstr "নিম্নলিখিত ব্রাউজারে:"
+
+#. i18n: ectx: property (text), widget (QToolButton, btnSelectApplication)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectEmail)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectFileManager)
 #. i18n: ectx: property (text), widget (QToolButton, btnSelectTerminal)
-#: browserconfig_ui.ui:64 emailclientconfig_ui.ui:69 filemanagerconfig_ui.ui:41
-#: terminalemulatorconfig_ui.ui:60
+#: browserconfig_ui.ui:115 emailclientconfig_ui.ui:69
+#: filemanagerconfig_ui.ui:41 terminalemulatorconfig_ui.ui:60
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -142,12 +150,12 @@ msgstr ""
 "প্রোগ্রাম এই উপাদান।</p>\n"
 "</qt>"
 
-#: componentchooserbrowser.cpp:110
+#: componentchooserbrowser.cpp:147
 #, kde-format
 msgid "Select preferred Web browser application:"
 msgstr "পছন্দের ওয়েব ব্রাউজার অ্যাপলিকেশন বেছে নিন:"
 
-#: componentchooseremail.cpp:82
+#: componentchooseremail.cpp:83
 #, kde-format
 msgid "Select preferred email client:"
 msgstr "পছন্দের ই-মেল অ্যাপলিকেশন বেছে নিন:"
@@ -159,8 +167,9 @@ msgstr "পছন্দের টার্মিনাল অ্যাপলি�
 
 #. i18n: ectx: property (whatsThis), widget (QRadioButton, kmailCB)
 #: emailclientconfig_ui.ui:12
-#, kde-format
-msgid "Kmail is the standard Mail program for the KDE desktop."
+#, fuzzy, kde-format
+#| msgid "Kmail is the standard Mail program for the KDE desktop."
+msgid "Kmail is the standard Mail program for the Plasma desktop."
 msgstr "কে-মেইল কে.ডি.ই. ডেস্কটপের জন্য মূল মেইল প্রোগ্রাম।"
 
 #. i18n: ectx: property (text), widget (QRadioButton, kmailCB)
