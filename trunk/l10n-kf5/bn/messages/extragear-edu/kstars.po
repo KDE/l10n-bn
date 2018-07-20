@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-07-19 03:26+0200\n"
+"POT-Creation-Date: 2018-07-20 03:21+0200\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -11796,25 +11796,26 @@ msgstr ""
 msgid "PHD2 Error: %1"
 msgstr ""
 
-#: ekos/guide/externalguide/phd2.cpp:763 ekos/guide/externalguide/phd2.cpp:780
-#: ekos/guide/externalguide/phd2.cpp:879 ekos/guide/externalguide/phd2.cpp:978
-#: ekos/guide/externalguide/phd2.cpp:999 ekos/guide/externalguide/phd2.cpp:1021
+#: ekos/guide/externalguide/phd2.cpp:791 ekos/guide/externalguide/phd2.cpp:808
+#: ekos/guide/externalguide/phd2.cpp:907 ekos/guide/externalguide/phd2.cpp:1006
+#: ekos/guide/externalguide/phd2.cpp:1027
+#: ekos/guide/externalguide/phd2.cpp:1049
 #, kde-format
 msgid "PHD2 Error: Equipment not connected."
 msgstr ""
 
-#: ekos/guide/externalguide/phd2.cpp:872
+#: ekos/guide/externalguide/phd2.cpp:900
 #, fuzzy, kde-format
 msgid "PHD2: Guiding is already running."
 msgstr "মিলযুক্ত খ-বস্তু:"
 
-#: ekos/guide/externalguide/phd2.cpp:930
+#: ekos/guide/externalguide/phd2.cpp:958
 #, fuzzy, kde-format
 #| msgid "Configure Hidden Objects"
 msgid "PHD2: Connecting Equipment. . ."
 msgstr "আড়ালকৃত বস্তু কনফিগার করো"
 
-#: ekos/guide/externalguide/phd2.cpp:932
+#: ekos/guide/externalguide/phd2.cpp:960
 #, fuzzy, kde-format
 #| msgid "Configure INDI..."
 msgid "PHD2: Disconnecting Equipment. . ."
@@ -11842,7 +11843,7 @@ msgid ""
 "tr><tr><td>DE:   </td><td>%3 \"</td></tr></table>"
 msgstr ""
 
-#: ekos/guide/guide.cpp:654 ekos/guide/guide.cpp:2728
+#: ekos/guide/guide.cpp:654 ekos/guide/guide.cpp:2731
 #, kde-format
 msgctxt ""
 "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
@@ -11865,12 +11866,12 @@ msgstr "তথ্যকে অগ্রাহ্য করো"
 msgid "Guide Data Saved as: %1"
 msgstr "অনুভূমিক স্থানাঙ্ক"
 
-#: ekos/guide/guide.cpp:885 ekos/guide/guide.cpp:3068
+#: ekos/guide/guide.cpp:885 ekos/guide/guide.cpp:3071
 #, kde-format
 msgid "Disabling remote image reception from %1"
 msgstr ""
 
-#: ekos/guide/guide.cpp:892 ekos/guide/guide.cpp:3074
+#: ekos/guide/guide.cpp:892 ekos/guide/guide.cpp:3077
 #, kde-format
 msgid "Enabling remote image reception from %1"
 msgstr ""
@@ -12025,23 +12026,30 @@ msgstr ""
 msgid "Select guide camera."
 msgstr "ইনপুট নির্বাচন করো"
 
-#: ekos/guide/guide.cpp:2219 ekos/guide/guide.cpp:2254
+#: ekos/guide/guide.cpp:2219 ekos/guide/guide.cpp:2257
 #, kde-format
 msgid "Select a camera to disable remote streaming."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2348 ekos/guide/internalguide/guider.cpp:139
+#: ekos/guide/guide.cpp:2225
+#, kde-format
+msgid ""
+"Warning: Reset Guiding Calibration is enabled. It is recommended to turn "
+"this option off for PHD2."
+msgstr ""
+
+#: ekos/guide/guide.cpp:2351 ekos/guide/internalguide/guider.cpp:139
 #, fuzzy, kde-format
 #| msgid "Sunset: %1"
 msgid "P: %1"
 msgstr "সূর্যাস্ত: %1"
 
-#: ekos/guide/guide.cpp:2468
+#: ekos/guide/guide.cpp:2471
 #, kde-format
 msgid "You must stop auto guiding before changing this setting."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2476
+#: ekos/guide/guide.cpp:2479
 #, kde-format
 msgid ""
 "Rapid Guiding is enabled. Guide star will be determined automatically by the "
@@ -12049,12 +12057,12 @@ msgid ""
 "in the CCD driver settings."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2479
+#: ekos/guide/guide.cpp:2482
 #, kde-format
 msgid "Rapid Guiding is disabled."
 msgstr ""
 
-#: ekos/guide/guide.cpp:2715
+#: ekos/guide/guide.cpp:2718
 #, kde-format
 msgctxt ""
 "Drift graphics tooltip; %1 is local time; %2 is RA deviation; %3 is DE "
@@ -12064,24 +12072,24 @@ msgid ""
 "tr><tr><td>DE:   </td><td>%3 \"</td></tr></table>"
 msgstr ""
 
-#: ekos/guide/guide.cpp:2848
+#: ekos/guide/guide.cpp:2851
 #, fuzzy, kde-format
 #| msgid "Client"
 msgid "Calibration failed to start!"
 msgstr "ক্লায়েন্ট"
 
-#: ekos/guide/guide.cpp:2988
+#: ekos/guide/guide.cpp:2991
 #, fuzzy, kde-format
 #| msgid "No object selected."
 msgid "Auto star selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
 
-#: ekos/guide/guide.cpp:2992
+#: ekos/guide/guide.cpp:2995
 #, fuzzy, kde-format
 msgid "Failed to select an auto star."
 msgstr "ছবি লোড করা যায় নি"
 
-#: ekos/guide/guide.cpp:3001
+#: ekos/guide/guide.cpp:3004
 #, fuzzy, kde-format
 msgid "Select a guide star to calibrate."
 msgstr "ইনপুট নির্বাচন করো"
