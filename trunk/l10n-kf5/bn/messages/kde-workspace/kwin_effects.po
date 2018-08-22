@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2018-08-16 09:15+0200\n"
+"POT-Creation-Date: 2018-08-22 03:58+0200\n"
 "PO-Revision-Date: 2010-06-01 10:25-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -580,36 +580,46 @@ msgstr ""
 msgid "Show buttons to alter count of virtual desktops"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimPanels)
+#. i18n: ectx: property (text), widget (QLabel, label_Strength)
 #: diminactive/diminactive_config.ui:17
+#, fuzzy, kde-format
+#| msgid "&Strength:"
+msgid "Strength:"
+msgstr "&শক্তি:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_Dim)
+#: diminactive/diminactive_config.ui:40
 #, kde-format
-msgid "Apply effect to &panels"
-msgstr "এফেক্ট প্যানে&ল-এ প্রয়োগ করো"
+msgid "Dim:"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimPanels)
+#: diminactive/diminactive_config.ui:47
+#, kde-format
+msgid "Docks and panels"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimDesktop)
-#: diminactive/diminactive_config.ui:24
-#, kde-format
-msgid "Apply effect to the desk&top"
-msgstr "এফেক্ট ডেস্ক&টপ-এ প্রয়োগ করো"
+#: diminactive/diminactive_config.ui:54
+#, fuzzy, kde-format
+#| msgctxt "@title:group actions when clicking on desktop"
+#| msgid "Desktop"
+msgid "Desktop"
+msgstr "ডেস্কটপ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimKeepAbove)
-#: diminactive/diminactive_config.ui:31
+#: diminactive/diminactive_config.ui:61
 #, fuzzy, kde-format
-#| msgid "Apply effect to &panels"
-msgid "Apply effect to &keep-above windows"
-msgstr "এফেক্ট প্যানে&ল-এ প্রয়োগ করো"
+#| msgid "Keep above others"
+msgid "Keep above windows"
+msgstr "অন্যদের ওপরে রাখ"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_DimByGroup)
-#: diminactive/diminactive_config.ui:38
-#, kde-format
-msgid "Apply effect to &groups"
-msgstr "এফেক্ট গ্রুপ-এ প্রয়োগ করো"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: diminactive/diminactive_config.ui:45
-#, kde-format
-msgid "&Strength:"
-msgstr "&শক্তি:"
+#: diminactive/diminactive_config.ui:68
+#, fuzzy, kde-format
+#| msgid "KDE window manager"
+msgid "By window group"
+msgstr "কে.ডি.ই. উইণ্ডো ম্যানেজার"
 
 #: effect_builtins.cpp:103
 #, kde-format
@@ -2192,6 +2202,20 @@ msgstr "নিষ্ক্রিয়"
 msgid "Mouse Tracking:"
 msgstr "মাউসের অনুকরণ"
 
+#~ msgid "Apply effect to &panels"
+#~ msgstr "এফেক্ট প্যানে&ল-এ প্রয়োগ করো"
+
+#~ msgid "Apply effect to the desk&top"
+#~ msgstr "এফেক্ট ডেস্ক&টপ-এ প্রয়োগ করো"
+
+#, fuzzy
+#~| msgid "Apply effect to &panels"
+#~ msgid "Apply effect to &keep-above windows"
+#~ msgstr "এফেক্ট প্যানে&ল-এ প্রয়োগ করো"
+
+#~ msgid "Apply effect to &groups"
+#~ msgstr "এফেক্ট গ্রুপ-এ প্রয়োগ করো"
+
 #~ msgid "In"
 #~ msgstr "ভিতরে"
 
@@ -2738,9 +2762,6 @@ msgstr "মাউসের অনুকরণ"
 #~ msgid "kwin: failure during initialization; aborting"
 #~ msgstr "কে-উইন: চালু করতে অসমর্থ; বন্ধ করছি"
 
-#~ msgid "KDE window manager"
-#~ msgstr "কে.ডি.ই. উইণ্ডো ম্যানেজার"
-
 #~ msgid "(c) 1999-2008, The KDE Developers"
 #~ msgstr "(C) ১৯৯৯-২০০৮, কে.ডি.ই. ডেভেলপারবৃন্দ"
 
@@ -2896,9 +2917,6 @@ msgstr "মাউসের অনুকরণ"
 
 #~ msgid "Do not keep above others"
 #~ msgstr "অন্যদের ওপরে রেখো না"
-
-#~ msgid "Keep above others"
-#~ msgstr "অন্যদের ওপরে রাখ"
 
 #~ msgid "Do not keep below others"
 #~ msgstr "অন্যদের তলায় রেখো না"
