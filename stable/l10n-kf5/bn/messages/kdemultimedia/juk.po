@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: juk\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
-"POT-Creation-Date: 2019-02-19 03:27+0100\n"
+"POT-Creation-Date: 2019-05-19 07:40+0200\n"
 "PO-Revision-Date: 2006-04-24 02:01-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -77,7 +77,7 @@ msgstr ""
 msgid "Collection List"
 msgstr "সংকলন তালিকা"
 
-#: collectionlist.cpp:278
+#: collectionlist.cpp:273
 #, kde-format
 msgid ""
 "Removing an item from the collection will also remove it from all of your "
@@ -92,7 +92,7 @@ msgstr ""
 "মনে রাখবেন, যে ফোল্ডারে এই ফাইলগুলি আছে সেগুলি যদি পরের বার শুরু করার সময় স্ক্যান "
 "করা হয়, তাহলে এই ফাইলগুলি তখন আবার আপনার সংকলনে যোগ করা হবে। "
 
-#: collectionlist.cpp:328
+#: collectionlist.cpp:323
 #, kde-format
 msgid "Show Playing"
 msgstr "চলন্ত বস্তু দেখাও"
@@ -303,7 +303,7 @@ msgstr "শিরোনাম"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleArtist)
 #. i18n: ectx: property (text), widget (K3ListView, trackList)
-#: exampleoptionsbase.ui:221 playlist.cpp:1207 tagrenameroptions.cpp:104
+#: exampleoptionsbase.ui:221 playlist.cpp:1204 tagrenameroptions.cpp:104
 #: trackpickerdialogbase.ui:108
 #, kde-format
 msgid "Artist"
@@ -311,14 +311,14 @@ msgstr "শিল্পী"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleAlbum)
 #. i18n: ectx: property (text), widget (K3ListView, trackList)
-#: exampleoptionsbase.ui:228 playlist.cpp:1208 tagrenameroptions.cpp:108
+#: exampleoptionsbase.ui:228 playlist.cpp:1205 tagrenameroptions.cpp:108
 #: trackpickerdialogbase.ui:119
 #, kde-format
 msgid "Album"
 msgstr "অ্যালবাম"
 
 #. i18n: ectx: property (text), widget (KLineEdit, m_exampleGenre)
-#: exampleoptionsbase.ui:235 playlist.cpp:1211 tagrenameroptions.cpp:117
+#: exampleoptionsbase.ui:235 playlist.cpp:1208 tagrenameroptions.cpp:117
 #, kde-format
 msgid "Genre"
 msgstr "গোত্র"
@@ -1149,49 +1149,49 @@ msgstr ""
 msgid "Could not save to file %1."
 msgstr "%1 ফাইলে সংরক্ষণ করা যায়নি।"
 
-#: playlist.cpp:518
+#: playlist.cpp:520
 #, kde-format
 msgid "Are you sure you want to delete these covers?"
 msgstr "আপনি কি এই আবরণগুলি মুছে ফেলার ব্যাপারে নিশ্চিত?"
 
-#: playlist.cpp:520
+#: playlist.cpp:522
 #, kde-format
 msgid "&Delete Covers"
 msgstr "&আবরণগুলি মুছে ফেলো"
 
-#: playlist.cpp:549
+#: playlist.cpp:551
 #, kde-format
 msgid "Select Cover Image File"
 msgstr ""
 
-#: playlist.cpp:551
+#: playlist.cpp:553
 #, kde-format
 msgid "Images (*.png *.jpg)"
 msgstr ""
 
-#: playlist.cpp:704
+#: playlist.cpp:706
 #, kde-format
 msgid "Could not delete these files"
 msgstr "এই ফাইলগুলি মোছা যায়নি"
 
-#: playlist.cpp:705
+#: playlist.cpp:707
 #, kde-format
 msgid "Could not move these files to the Trash"
 msgstr "এই ফাইলগুলি আবর্জনায় পাঠানো যায়নি"
 
 #. i18n: ectx: property (text), widget (K3ListView, trackList)
-#: playlist.cpp:1206 trackpickerdialogbase.ui:97
+#: playlist.cpp:1203 trackpickerdialogbase.ui:97
 #, kde-format
 msgid "Track Name"
 msgstr "ট্র্যাক-এর নাম"
 
-#: playlist.cpp:1209
+#: playlist.cpp:1206
 #, kde-format
 msgid "Cover"
 msgstr "আবরণ"
 
 #. i18n: ectx: property (text), widget (K3ListView, trackList)
-#: playlist.cpp:1210 tagrenameroptions.cpp:112 trackpickerdialogbase.ui:130
+#: playlist.cpp:1207 tagrenameroptions.cpp:112 trackpickerdialogbase.ui:130
 #, fuzzy, kde-format
 #| msgid "Track"
 msgctxt "cd track number"
@@ -1199,80 +1199,80 @@ msgid "Track"
 msgstr "ট্র্যাক"
 
 #. i18n: ectx: property (text), widget (K3ListView, trackList)
-#: playlist.cpp:1212 tagrenameroptions.cpp:121 trackpickerdialogbase.ui:141
+#: playlist.cpp:1209 tagrenameroptions.cpp:121 trackpickerdialogbase.ui:141
 #, kde-format
 msgid "Year"
 msgstr "বছর"
 
-#: playlist.cpp:1213
+#: playlist.cpp:1210
 #, kde-format
 msgid "Length"
 msgstr "দৈর্ঘ্য"
 
-#: playlist.cpp:1214
+#: playlist.cpp:1211
 #, kde-format
 msgid "Bitrate"
 msgstr "বিট-রেট"
 
-#: playlist.cpp:1215
+#: playlist.cpp:1212
 #, kde-format
 msgid "Comment"
 msgstr "মন্তব্য"
 
 #. i18n: ectx: property (title), widget (QGroupBox, fileInfoGroup)
-#: playlist.cpp:1216 trackpickerdialogbase.ui:21
+#: playlist.cpp:1213 trackpickerdialogbase.ui:21
 #, kde-format
 msgid "File Name"
 msgstr "ফাইলের নাম"
 
-#: playlist.cpp:1217
+#: playlist.cpp:1214
 #, kde-format
 msgid "File Name (full path)"
 msgstr "ফাইলের নাম (পুরো পাথ)"
 
-#: playlist.cpp:1392
+#: playlist.cpp:1389
 #, kde-format
 msgid "&Show Columns"
 msgstr "কলা&ম দেখাও"
 
-#: playlist.cpp:1805
+#: playlist.cpp:1802
 #, kde-format
 msgid "Add to Play Queue"
 msgstr ""
 
-#: playlist.cpp:1818 playlist.cpp:1937
+#: playlist.cpp:1815 playlist.cpp:1934
 #, fuzzy, kde-format
 msgid "Edit"
 msgstr "'%1' সম্পাদন করো"
 
-#: playlist.cpp:1834
+#: playlist.cpp:1831
 #, kde-format
 msgid "Create Playlist From Selected Items..."
 msgstr "নির্বাচিত বস্তুগুলি থেকে সঙ্গীত-তালিকা তৈরি করো..."
 
-#: playlist.cpp:1851
+#: playlist.cpp:1848
 #, kde-format
 msgid "Edit '%1'"
 msgstr "'%1' সম্পাদন করো"
 
-#: playlist.cpp:1935
+#: playlist.cpp:1932
 #, kde-format
 msgid "This will edit multiple files. Are you sure?"
 msgstr "এর ফলে একাধিক ফাইল সম্পাদিত হবে। আপনি কি নিশ্চিত?"
 
-#: playlist.cpp:1994 playlistcollection.h:184
+#: playlist.cpp:1991 playlistcollection.h:184
 #, kde-format
 msgid "Create New Playlist"
 msgstr "নতুন সঙ্গীত-তালিকা তৈরি করো"
 
-#: playlist.cpp:2003
+#: playlist.cpp:2000
 #, kde-format
 msgid ""
 "Manual column widths have been enabled. You can switch back to automatic "
 "column sizes in the view menu."
 msgstr ""
 
-#: playlist.cpp:2006
+#: playlist.cpp:2003
 #, kde-format
 msgid "Manual Column Widths Enabled"
 msgstr ""
