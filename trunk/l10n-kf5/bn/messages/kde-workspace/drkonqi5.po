@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drkonqi\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-07-03 03:25+0200\n"
+"POT-Creation-Date: 2019-07-04 03:09+0200\n"
 "PO-Revision-Date: 2012-07-16 15:55+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -296,8 +296,8 @@ msgstr ""
 #, fuzzy, kde-kuit-format
 msgctxt "@info/rich"
 msgid ""
-"Then, enter your username and password and press the Login button. You can "
-"use this login to directly access the KDE bug tracking system later."
+"Then, enter your e-mail address and password and press the Login button. You "
+"can use this login to directly access the KDE bug tracking system later."
 msgstr ""
 "তারপর, আপনার ব্যবহারকারীর নাম এবং শব্দচাবি ঢোকাও এবং লগিন বাটন চাপ দাও। আপনি "
 "উপলব্ধি করা কেডিই বাগ tracking সিস্টেম সরাসরিভাবে পরবর্তী কালেতে এই লগিনটি "
@@ -749,13 +749,13 @@ msgstr ""
 "আপনি ডিবাগার প্যাকেজ ইনস্টল করতে প্রয়োজন বোধ করো (%1) এবং ক্লিক "
 "করো<interface>রিলোড</interface>বাটন।"
 
-#: backtracewidget.cpp:368
+#: backtracewidget.cpp:366
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Error during the installation of debug symbols"
 msgstr "ত্রুটিমুক্ত করা চিহ্নের ইনস্টলেশনের সময় ত্রুটি"
 
-#: backtracewidget.cpp:400
+#: backtracewidget.cpp:398
 #, fuzzy, kde-format
 msgid ""
 "The packages containing debug information for the following application and "
@@ -764,7 +764,7 @@ msgstr ""
 "প্যাকেজ ধারণ করে নিম্নলিখিত অ্যাপলিকেশনের জন্য তথ্য ত্রুটিমুক্ত করো এবং লাইব্রেরী "
 "লক্ষ্যভ্রষ্ট হচ্ছে:"
 
-#: backtracewidget.cpp:409
+#: backtracewidget.cpp:407
 #, fuzzy, kde-format
 msgctxt "messagebox title"
 msgid "Missing debug information packages"
@@ -1090,8 +1090,8 @@ msgstr "লগিন"
 #, fuzzy, kde-format
 msgctxt "@info:tooltip"
 msgid ""
-"Use this button to login to the KDE bug tracking system using the provided "
-"username and password."
+"Use this button to login to the KDE bug tracking system using the provided e-"
+"mail address and password."
 msgstr ""
 "provided ব্যবহারকারীর নাম এবং শব্দচাবি ব্যবহার করে কেডিই বাগ tracking সিস্টেমে "
 "লগিনতে এই বাটনটি ব্যবহার করো।"
@@ -1126,14 +1126,14 @@ msgstr "কে.ডি.ই. বাগ tracking সিস্টেমে তে Lo
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:286
 #, fuzzy, kde-format
-msgctxt "@info:status '1' is a url, '2' the username"
+msgctxt "@info:status '1' is a url, '2' the e-mail address"
 msgid "Performing login at %1 as %2..."
 msgstr "%2 হিসেবে %1তে লগিন কর্ম সম্পাদন করছে..."
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:319
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:320
 #, fuzzy, kde-format
 msgctxt "@info:status"
-msgid "<b>Error: Invalid username or password</b>"
+msgid "<b>Error: Invalid e-mail address or password</b>"
 msgstr "<b>ত্রুটি: বেঠিক ব্যবহারকারীর নাম অথবা শব্দচাবি</b>"
 
 #: bugzillaintegration/reportassistantpages_bugzilla.cpp:368
@@ -1457,13 +1457,13 @@ msgid ""
 "submit a bug against DrKonqi."
 msgstr ""
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:790 drkonqi.cpp:172
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:790 drkonqi.cpp:163
 #, kde-format
 msgctxt "@title:window"
 msgid "Select Filename"
 msgstr "ফাইল-এর নাম নির্বাচন করুন"
 
-#: bugzillaintegration/reportassistantpages_bugzilla.cpp:813 drkonqi.cpp:198
+#: bugzillaintegration/reportassistantpages_bugzilla.cpp:813 drkonqi.cpp:189
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Cannot open file <filename>%1</filename> for writing."
@@ -2397,10 +2397,10 @@ msgstr "<note>ক্র্যাশ এবং সিস্টেম তথ্য
 
 #. i18n: ectx: property (text), widget (QLabel, m_userLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:38
-#, fuzzy, kde-format
-msgctxt "@label:textbox bugzilla account username"
-msgid "Username:"
-msgstr "ব্যবহারকারীর নাম:"
+#, kde-format
+msgctxt "@label:textbox bugzilla account email"
+msgid "E-mail Address:"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, m_passwordLabel)
 #: bugzillaintegration/ui/assistantpage_bugzilla_login.ui:45
@@ -2518,13 +2518,13 @@ msgid ""
 "packages."
 msgstr "একটি ত্রুটি ত্রুটিমুক্ত করা চিহ্ন প্যাকেজের ইনস্টলেশনের সময় সম্মুখীন হওয়া হয়েছিল।"
 
-#: drkonqi.cpp:162
+#: drkonqi.cpp:153
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid "Report saved to <filename>%1</filename>."
 msgstr "রিপোর্ট তে সংরক্ষণ করেছিল<filename>%1</filename>।"
 
-#: drkonqi.cpp:165
+#: drkonqi.cpp:156
 #, fuzzy, kde-format
 msgctxt "@info"
 msgid "Could not create a file in which to save the report."
@@ -2669,11 +2669,6 @@ msgstr "এই ডায়ালগ নিকটেটি (আপনি ক্র�
 #, kde-format
 msgctxt "@action:inmenu 1 is the debugger name"
 msgid "Debug in %1"
-msgstr ""
-
-#: findconfigdatajob.cpp:62
-#, kde-format
-msgid "Failed to retrieve the config data."
 msgstr ""
 
 #: main.cpp:52
@@ -2850,7 +2845,7 @@ msgctxt "Notification action button, keep short"
 msgid "Report Bug"
 msgstr "রিপোর্ট বাগ"
 
-#: statusnotifier.cpp:127
+#: statusnotifier.cpp:125
 #, fuzzy, kde-format
 msgctxt "Notification action button, keep short"
 msgid "Restart App"
@@ -2861,6 +2856,11 @@ msgstr "অ্যাপলিকেশন পুনরায় শুরু কর
 #, fuzzy, kde-format
 msgid "Show backtrace content (advanced)"
 msgstr "ব্যাকট্রেস ভিতরের উপাদান দেখাও (অগ্রসর হয়েছিলেন)"
+
+#, fuzzy
+#~ msgctxt "@label:textbox bugzilla account username"
+#~ msgid "Username:"
+#~ msgstr "ব্যবহারকারীর নাম:"
 
 #, fuzzy
 #~ msgctxt "@info"
