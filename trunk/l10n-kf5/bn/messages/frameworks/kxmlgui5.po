@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs4\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-02 02:58+0100\n"
+"POT-Creation-Date: 2019-12-03 02:58+0100\n"
 "PO-Revision-Date: 2012-07-16 14:27+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -763,38 +763,6 @@ msgstr "%1"
 msgid "Change Icon"
 msgstr "আইকন বদলাও"
 
-#: kgesture.cpp:502
-#, kde-format
-msgctxt "left mouse button"
-msgid "left button"
-msgstr "লেফট বাটন"
-
-#: kgesture.cpp:504
-#, kde-format
-msgctxt "middle mouse button"
-msgid "middle button"
-msgstr "মিডল বাটন"
-
-#: kgesture.cpp:506
-#, kde-format
-msgctxt "right mouse button"
-msgid "right button"
-msgstr "রাইট বাটন"
-
-#: kgesture.cpp:508
-#, kde-format
-msgctxt "a nonexistent value of mouse button"
-msgid "invalid button"
-msgstr "অবৈধ বাটন"
-
-#: kgesture.cpp:521
-#, fuzzy, kde-format
-msgctxt ""
-"a kind of mouse gesture: hold down one mouse button, then press another "
-"button"
-msgid "Hold %1, then push %2"
-msgstr "%1, ধরো তারপর %2 ধাক্কা দেওয়াও"
-
 #. i18n: ectx: Menu (help)
 #: khelpmenu.cpp:172 ui_standards.rc:177
 #, kde-format
@@ -828,7 +796,7 @@ msgstr[0] "পূর্বনির্দিষ্ট গ্লোবাল শ�
 msgstr[1] "পূর্বনির্দিষ্ট গ্লোবাল শর্টকাটের সঙ্গে বিরোধ"
 
 #: kkeysequencewidget.cpp:147 kkeysequencewidget.cpp:235
-#: kkeysequencewidget.cpp:626 kshortcutseditor.cpp:637 kshortcutseditor.cpp:655
+#: kkeysequencewidget.cpp:626
 #, fuzzy, kde-format
 msgid "Reassign"
 msgstr "Reassign"
@@ -1205,74 +1173,51 @@ msgstr "মাউস বাটন জেসচার"
 msgid "Mouse Shape Gesture"
 msgstr "মাউস আকৃতি Gesture"
 
-#: kshortcutseditor.cpp:632 kshortcutseditor.cpp:650
-#, kde-format
-msgid "Key Conflict"
-msgstr "কী বিরোধ"
-
-#: kshortcutseditor.cpp:633
-#, fuzzy, kde-format
-msgid ""
-"The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-" '%1' আকৃতি gesture\"%2\"ক্রিয়াতে ইতিমধ্যে বরাদ্দ করা হয়েছে।\n"
-"আপনি কি বর্তমান একে সেই ক্রিয়াটি থেকে এইটি reassignতে চাও?"
-
-#: kshortcutseditor.cpp:651
-#, fuzzy, kde-format
-msgid ""
-"The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
-"Do you want to reassign it from that action to the current one?"
-msgstr ""
-" '%1' rocker gesture\"%2\"ক্রিয়াতে ইতিমধ্যে বরাদ্দ করা হয়েছে।\n"
-"আপনি কি বর্তমান একে সেই ক্রিয়াটি থেকে এইটি reassignতে চাও?"
-
-#: kshortcutseditor.cpp:698
+#: kshortcutseditor.cpp:562
 #, kde-format
 msgctxt "header for an applications shortcut list"
 msgid "Shortcuts for %1"
 msgstr "%1-এর জন্য শর্টকাট"
 
 #. i18n: ectx: property (text), widget (QLabel, priLabel)
-#: kshortcutseditor.cpp:716 kshortcutwidget.ui:22
+#: kshortcutseditor.cpp:580 kshortcutwidget.ui:22
 #, kde-format
 msgid "Main:"
 msgstr "প্রধান:"
 
 #. i18n: ectx: property (text), widget (QLabel, altLabel)
-#: kshortcutseditor.cpp:717 kshortcutwidget.ui:52
+#: kshortcutseditor.cpp:581 kshortcutwidget.ui:52
 #, kde-format
 msgid "Alternate:"
 msgstr "অতিরিক্ত:"
 
-#: kshortcutseditor.cpp:718
+#: kshortcutseditor.cpp:582
 #, kde-format
 msgid "Global:"
 msgstr "গ্লোবাল:"
 
-#: kshortcutseditor.cpp:719
+#: kshortcutseditor.cpp:583
 #, fuzzy, kde-format
 #| msgid "Global Alternate"
 msgid "Global alternate:"
 msgstr "সার্বিক বিকল্প"
 
-#: kshortcutseditor.cpp:735
+#: kshortcutseditor.cpp:599
 #, fuzzy, kde-format
 msgid "Action Name"
 msgstr "ক্রিয়া নাম"
 
-#: kshortcutseditor.cpp:739
+#: kshortcutseditor.cpp:603
 #, kde-format
 msgid "Shortcuts"
 msgstr "শর্টকাট"
 
-#: kshortcutseditor.cpp:743
+#: kshortcutseditor.cpp:607
 #, kde-format
 msgid "Description"
 msgstr "বিবরণ"
 
-#: kshortcutseditoritem.cpp:54
+#: kshortcutseditoritem.cpp:46
 #, kde-format
 msgctxt "@item:intable Action name in shortcuts configuration"
 msgid "%1"
@@ -1547,6 +1492,48 @@ msgstr "&পছন্দ"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "মূল টুলবার"
+
+#~ msgctxt "left mouse button"
+#~ msgid "left button"
+#~ msgstr "লেফট বাটন"
+
+#~ msgctxt "middle mouse button"
+#~ msgid "middle button"
+#~ msgstr "মিডল বাটন"
+
+#~ msgctxt "right mouse button"
+#~ msgid "right button"
+#~ msgstr "রাইট বাটন"
+
+#~ msgctxt "a nonexistent value of mouse button"
+#~ msgid "invalid button"
+#~ msgstr "অবৈধ বাটন"
+
+#, fuzzy
+#~ msgctxt ""
+#~ "a kind of mouse gesture: hold down one mouse button, then press another "
+#~ "button"
+#~ msgid "Hold %1, then push %2"
+#~ msgstr "%1, ধরো তারপর %2 ধাক্কা দেওয়াও"
+
+#~ msgid "Key Conflict"
+#~ msgstr "কী বিরোধ"
+
+#, fuzzy
+#~ msgid ""
+#~ "The '%1' shape gesture has already been allocated to the \"%2\" action.\n"
+#~ "Do you want to reassign it from that action to the current one?"
+#~ msgstr ""
+#~ " '%1' আকৃতি gesture\"%2\"ক্রিয়াতে ইতিমধ্যে বরাদ্দ করা হয়েছে।\n"
+#~ "আপনি কি বর্তমান একে সেই ক্রিয়াটি থেকে এইটি reassignতে চাও?"
+
+#, fuzzy
+#~ msgid ""
+#~ "The '%1' rocker gesture has already been allocated to the \"%2\" action.\n"
+#~ "Do you want to reassign it from that action to the current one?"
+#~ msgstr ""
+#~ " '%1' rocker gesture\"%2\"ক্রিয়াতে ইতিমধ্যে বরাদ্দ করা হয়েছে।\n"
+#~ "আপনি কি বর্তমান একে সেই ক্রিয়াটি থেকে এইটি reassignতে চাও?"
 
 #~ msgid "A&uthor"
 #~ msgstr "লে&খক"
