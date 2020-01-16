@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmstyle\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-20 03:36+0100\n"
+"POT-Creation-Date: 2020-01-16 03:41+0100\n"
 "PO-Revision-Date: 2006-01-04 12:57-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -25,39 +25,54 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "deepayan@bengalinux.org"
 
-#: kcmstyle.cpp:89
+#: gtkpage.cpp:86
+#, kde-format
+msgid "Download New GNOME/GTK2 Application Styles"
+msgstr ""
+
+#: gtkpage.cpp:96
+#, kde-format
+msgid "Download New GNOME/GTK3 Application Styles"
+msgstr ""
+
+#: gtkpage.cpp:118
+#, kde-format
+msgid "%1 is not a valid GTK Theme archive."
+msgstr ""
+
+#: kcmstyle.cpp:92
 #, fuzzy, kde-format
 #| msgid "Application Level"
 msgid "Application Style"
 msgstr "অ্যাপলিকেশন স্তর"
 
-#: kcmstyle.cpp:91
+#: kcmstyle.cpp:94
 #, fuzzy, kde-format
 #| msgid "(c) 2002 Karol Szwed, Daniel Molkentin"
 msgid "(c) 2002 Karol Szwed, Daniel Molkentin, (c) 2019 Kai Uwe Broulik"
 msgstr "(c) 2002 Karol Szwed, Daniel Molkentin"
 
-#: kcmstyle.cpp:93
+#: kcmstyle.cpp:96
 #, kde-format
 msgid "Karol Szwed"
 msgstr ""
 
-#: kcmstyle.cpp:94
+#: kcmstyle.cpp:97
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr ""
 
-#: kcmstyle.cpp:95
+#: kcmstyle.cpp:98
 #, kde-format
 msgid "Kai Uwe Broulik"
 msgstr ""
 
-#: kcmstyle.cpp:172 kcmstyle.cpp:179
+#: kcmstyle.cpp:181 kcmstyle.cpp:188
 #, kde-format
 msgid "There was an error loading the configuration dialog for this style."
 msgstr "এই স্টাইল-এর কনফিগারেশন ডায়ালগ লোড করতে সমস্যা হয়েছে।"
 
-#: kcmstyle.cpp:255
+#: kcmstyle.cpp:283
 #, kde-format
 msgid "Failed to apply selected style '%1'."
 msgstr ""
@@ -111,6 +126,60 @@ msgstr "আইকনের তলায় লেখা"
 msgid "Secondary toolbar label:"
 msgstr ""
 
+#: package/contents/ui/GtkStylePage.qml:31
+#, fuzzy, kde-format
+#| msgid "Application Level"
+msgid "GNOME/GTK Application Style"
+msgstr "অ্যাপলিকেশন স্তর"
+
+#: package/contents/ui/GtkStylePage.qml:57
+#, kde-format
+msgid "GTK2 theme:"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:89
+#: package/contents/ui/GtkStylePage.qml:128
+#, fuzzy, kde-format
+#| msgid "Preview"
+msgid "Preview..."
+msgstr "প্রাকদর্শন"
+
+#: package/contents/ui/GtkStylePage.qml:96
+#, kde-format
+msgid "GTK3 theme:"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:148
+#, kde-format
+msgid "Install from File..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:154
+#, fuzzy, kde-format
+#| msgid "Application Level"
+msgid "Get New GNOME/GTK Application Styles..."
+msgstr "অ্যাপলিকেশন স্তর"
+
+#: package/contents/ui/GtkStylePage.qml:162
+#, kde-format
+msgid "Get New GNOME/GTK2 Application Styles..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:170
+#, kde-format
+msgid "Get New GNOME/GTK3 Application Styles..."
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:185
+#, kde-format
+msgid "Select GTK Theme Archive"
+msgstr ""
+
+#: package/contents/ui/GtkStylePage.qml:187
+#, kde-format
+msgid "GTK Theme Archive (*.tar.xz *.tar.gz *.tar.bz2)"
+msgstr ""
+
 #: package/contents/ui/main.qml:31
 #, fuzzy, kde-format
 #| msgid ""
@@ -123,16 +192,22 @@ msgstr ""
 "<h1>স্টাইল</h1>এই মডিউলটির সাহায্যে আপনি ইউসার ইন্টারফেস-এর বিভিন্ন উপাদানের "
 "(যেমন উইজেট স্টাইল এবং বিভিন্ন এফেক্ট) চেহারা বদলাতে পারেন।"
 
-#: package/contents/ui/main.qml:103
+#: package/contents/ui/main.qml:107
 #, fuzzy, kde-format
 #| msgid "Con&figure..."
 msgid "Configure Style..."
 msgstr "ক&নফিগার করো..."
 
-#: package/contents/ui/main.qml:119
+#: package/contents/ui/main.qml:124
 #, kde-format
 msgid "Configure Icons and Toolbars"
 msgstr ""
+
+#: package/contents/ui/main.qml:137
+#, fuzzy, kde-format
+#| msgid "Con&figure..."
+msgid "Configure GNOME/GTK Application Style..."
+msgstr "ক&নফিগার করো..."
 
 #: styleconfdialog.cpp:33
 #, kde-format
@@ -177,9 +252,6 @@ msgstr "রেডিও বাটন"
 #, kde-format
 msgid "Tab 2"
 msgstr "ট্যাব ২"
-
-#~ msgid "Preview"
-#~ msgstr "প্রাকদর্শন"
 
 #~ msgid "Unable to Load Dialog"
 #~ msgstr "ডায়ালগ লোড করা যায়নি"
