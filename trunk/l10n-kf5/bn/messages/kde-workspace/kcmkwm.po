@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-06 03:42+0100\n"
+"POT-Creation-Date: 2020-02-07 03:47+0100\n"
 "PO-Revision-Date: 2010-06-01 10:33-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -465,7 +465,7 @@ msgstr "স্বচ্ছতা বদলাও"
 msgid "Window &unshading:"
 msgstr "উইণ্ডো ট্যাবিং"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, shadeHoverOn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShadeHover)
 #: advanced.ui:32
 #, fuzzy, kde-format
 #| msgid ""
@@ -479,13 +479,13 @@ msgstr ""
 "শেড হোভার কার্যকরী হলে একটি ছায়াবৃত উইন্ডোর শীর্ষকবারের ওপর মাউসের নির্দেশকটি "
 "কিছুক্ষন রাখলেই সেটি আপনা থেকে ছড়িয়ে যাবে"
 
-#. i18n: ectx: property (text), widget (QCheckBox, shadeHoverOn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShadeHover)
 #: advanced.ui:35
 #, kde-format
 msgid "On titlebar hover after:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, shadeHover)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_ShadeHoverInterval)
 #: advanced.ui:42
 #, kde-format
 msgid ""
@@ -495,7 +495,7 @@ msgstr ""
 "মাউসের নির্দেশকটি কতক্ষন ছায়াবৃত উইন্ডোর শীর্ষকবারের ওপর রাখলে সেটি আপনা থেকে "
 "ছড়িয়ে যাবে সেই সময়টিমিলিসেকেন্ডে ঠিক করা যাবে।"
 
-#. i18n: ectx: property (suffix), widget (QSpinBox, shadeHover)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ShadeHoverInterval)
 #. i18n: ectx: property (suffix), widget (QSpinBox, delayFocus)
 #. i18n: ectx: property (suffix), widget (QSpinBox, autoRaise)
 #: advanced.ui:45 focus.ui:85 focus.ui:178
@@ -510,7 +510,7 @@ msgstr " মাইক্রোসেকেন্ড"
 msgid "Window &placement:"
 msgstr "সংস্থাপ&ন"
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, placementCombo)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_Placement)
 #: advanced.ui:76
 #, kde-format
 msgid ""
@@ -542,14 +542,14 @@ msgid ""
 "window under the pointer</li></ul></body></html>"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:80
 #, fuzzy, kde-format
 #| msgid "Snap windows onl&y when overlapping"
 msgid "Minimal Overlapping"
 msgstr "কেব&লমাত্র উপরিপাতন হলে উইন্ডোগুলি আটকে দাও"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:85
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox behavior on double click"
@@ -557,32 +557,32 @@ msgstr "কেব&লমাত্র উপরিপাতন হলে উই�
 msgid "Maximized"
 msgstr "পুরো বড় কর"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:90
 #, fuzzy, kde-format
 #| msgid "Cascade"
 msgid "Cascaded"
 msgstr "গুচ্ছাকার"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:95
 #, kde-format
 msgid "Random"
 msgstr "এলোমেলো"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:100
 #, kde-format
 msgid "Centered"
 msgstr "কেন্দ্রীয়"
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:105
 #, kde-format
 msgid "In Top-Left Corner"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (KComboBox, placementCombo)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_Placement)
 #: advanced.ui:110
 #, fuzzy, kde-format
 #| msgid "Focus Under Mouse"
@@ -596,7 +596,7 @@ msgstr "মাউসের নিচে ফোকাস"
 msgid "&Special windows:"
 msgstr "উইন্ডোসমূহ"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, hideUtilityWindowsForInactive)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_HideUtilityWindowsForInactive)
 #: advanced.ui:128
 #, kde-format
 msgid ""
@@ -606,7 +606,7 @@ msgid ""
 "with the proper window type for this feature to work."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, hideUtilityWindowsForInactive)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideUtilityWindowsForInactive)
 #: advanced.ui:131
 #, kde-format
 msgid "Hide utility windows for inactive applications"
@@ -898,68 +898,68 @@ msgstr "উইণ্ডো অ্যাকশ&ন"
 msgid "Mo&vement"
 msgstr "সংস্থাপ&ন"
 
-#: main.cpp:98
+#: main.cpp:99
 #, fuzzy, kde-format
 #| msgid "Ad&vanced"
 msgid "Adva&nced"
 msgstr "অগ্রস&র"
 
-#: main.cpp:102
+#: main.cpp:104
 #, kde-format
 msgid "Window Behavior Configuration Module"
 msgstr "উইন্ডো ব্যবহার পরিবর্তনকারী মড্যুল"
 
-#: main.cpp:104
+#: main.cpp:106
 #, kde-format
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr "(C) 1997-2002 কে-উইন এবং কে-কন্ট্রোল লেখকবৃন্দ"
 
-#: main.cpp:106
+#: main.cpp:108
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:107
+#: main.cpp:109
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:108
+#: main.cpp:110
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:109
+#: main.cpp:111
 #, kde-format
 msgid "Matthias Kalle Dalheimer"
 msgstr "Matthias Kalle Dalheimer"
 
-#: main.cpp:110
+#: main.cpp:112
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: main.cpp:111
+#: main.cpp:113
 #, kde-format
 msgid "Wynn Wilkes"
 msgstr "Wynn Wilkes"
 
-#: main.cpp:112
+#: main.cpp:114
 #, kde-format
 msgid "Pat Dowler"
 msgstr "Pat Dowler"
 
-#: main.cpp:113
+#: main.cpp:115
 #, kde-format
 msgid "Bernd Wuebben"
 msgstr "Bernd Wuebben"
 
-#: main.cpp:114
+#: main.cpp:116
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:166
+#: main.cpp:168
 #, kde-format
 msgid ""
 "<p><h1>Window Behavior</h1> Here you can customize the way windows behave "
@@ -976,12 +976,12 @@ msgstr ""
 "ক্ষেত্রে সেটির সাহায্যপত্র পড়ুন এবং কিভাবে উইন্ডোর ব্যবহার পছন্দমত পরিবর্তন করা যাবে "
 "তা জানুন।</p>"
 
-#: main.cpp:191
+#: main.cpp:193
 #, kde-format
 msgid "&Titlebar Actions"
 msgstr "শীর্ষ&কবার অ্যাকশন"
 
-#: main.cpp:196
+#: main.cpp:198
 #, kde-format
 msgid "Window Actio&ns"
 msgstr "উইণ্ডো অ্যাকশ&ন"
@@ -1291,14 +1291,14 @@ msgstr "সীমা সংযো&গ ক্ষেত্র:"
 msgid "&Snap windows:"
 msgstr "নিষ্ক্রিয় উইন্ডো:"
 
-#: windows.cpp:159
+#: windows.cpp:155
 #, kde-format
 msgid ""
 "<em>Click to focus:</em> A window becomes active when you click into it. "
 "This behavior is common on other operating systems and likely what you want."
 msgstr ""
 
-#: windows.cpp:162
+#: windows.cpp:158
 #, kde-format
 msgid ""
 "<em>Click to focus (mouse precedence):</em> Mostly the same as <em>Click to "
@@ -1308,7 +1308,7 @@ msgid ""
 "em>."
 msgstr ""
 
-#: windows.cpp:165
+#: windows.cpp:161
 #, kde-format
 msgid ""
 "<em>Focus follows mouse:</em> Moving the mouse onto a window will activate "
@@ -1317,7 +1317,7 @@ msgid ""
 "to focus</em> just without having to actually click."
 msgstr ""
 
-#: windows.cpp:168
+#: windows.cpp:164
 #, kde-format
 msgid ""
 "This is mostly the same as <em>Focus follows mouse</em>. If an active window "
@@ -1326,7 +1326,7 @@ msgid ""
 "if you want a hover controlled focus."
 msgstr ""
 
-#: windows.cpp:171
+#: windows.cpp:167
 #, kde-format
 msgid ""
 "<em>Focus under mouse:</em> The focus always remains on the window under the "
@@ -1336,7 +1336,7 @@ msgid ""
 "precedence)</em> instead!"
 msgstr ""
 
-#: windows.cpp:174
+#: windows.cpp:170
 #, kde-format
 msgid ""
 "<em>Focus strictly under mouse:</em> The focus is always on the window under "
