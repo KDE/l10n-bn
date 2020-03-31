@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkwm\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-03-20 03:42+0100\n"
+"POT-Creation-Date: 2020-03-31 03:55+0200\n"
 "PO-Revision-Date: 2010-06-01 10:33-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -496,8 +496,8 @@ msgstr ""
 "ছড়িয়ে যাবে সেই সময়টিমিলিসেকেন্ডে ঠিক করা যাবে।"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_ShadeHoverInterval)
-#. i18n: ectx: property (suffix), widget (QSpinBox, delayFocus)
-#. i18n: ectx: property (suffix), widget (QSpinBox, autoRaise)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_DelayFocusInterval)
+#. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_AutoRaiseInterval)
 #: advanced.ui:45 focus.ui:85 focus.ui:178
 #, kde-format
 msgid " ms"
@@ -618,7 +618,7 @@ msgstr ""
 msgid "Window &activation policy:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (whatsThis), widget (QComboBox, windowFocusPolicy)
 #: focus.ui:32
 #, fuzzy, kde-format
 #| msgid ""
@@ -629,7 +629,7 @@ msgstr ""
 "যদি আপনি উইন্ডো য়খন ছোট করা হবে বা আগের আকার করা হবে তখন একটি চলদৃশ্য "
 "(অ্যানিমেশন)দেখতে চান, তাহলে এই অপশনটি কার্যকর করুন।"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:36
 #, fuzzy, kde-format
 #| msgid "Click to Focus"
@@ -637,33 +637,33 @@ msgctxt "sassa asas"
 msgid "Click to focus"
 msgstr "ক্লিক করলে ফোকাস"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:41
 #, kde-format
 msgid "Click to focus (mouse precedence)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:46
 #, fuzzy, kde-format
 #| msgid "Focus Follows Mouse"
 msgid "Focus follows mouse"
 msgstr "মাউস অনুসারী ফোকাস"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:51
 #, kde-format
 msgid "Focus follows mouse (mouse precedence)"
 msgstr ""
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:56
 #, fuzzy, kde-format
 #| msgid "Focus Under Mouse"
 msgid "Focus under mouse"
 msgstr "মাউসের নিচে ফোকাস"
 
-#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicyCombo)
+#. i18n: ectx: property (text), item, widget (QComboBox, windowFocusPolicy)
 #: focus.ui:61
 #, fuzzy, kde-format
 #| msgid "Focus Strictly Under Mouse"
@@ -676,7 +676,7 @@ msgstr "মাউসের ঠিক নিচে ফোকাস"
 msgid "&Delay focus by:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, delayFocus)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_DelayFocusInterval)
 #: focus.ui:82
 #, kde-format
 msgid ""
@@ -692,7 +692,7 @@ msgstr ""
 msgid "Focus &stealing prevention:"
 msgstr "ফোকাস হরণ প্রতিরোধ স্তর:"
 
-#. i18n: ectx: property (whatsThis), widget (KComboBox, focusStealing)
+#. i18n: ectx: property (whatsThis), widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:114
 #, fuzzy, kde-format
 msgid ""
@@ -741,7 +741,7 @@ msgstr ""
 "হবে</li>"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_BorderSnapZone)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_WindowSnapZone)
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_CenterSnapZone)
@@ -753,7 +753,7 @@ msgid "None"
 msgstr "কিছু নয়"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:123
 #, fuzzy, kde-format
 #| msgctxt "Focus Stealing Prevention Level"
@@ -762,7 +762,7 @@ msgid "Low"
 msgstr "কম"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:128
 #, fuzzy, kde-format
 #| msgctxt "Focus Stealing Prevention Level"
@@ -771,7 +771,7 @@ msgid "Medium"
 msgstr "মাঝারি"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:133
 #, fuzzy, kde-format
 #| msgctxt "Focus Stealing Prevention Level"
@@ -780,7 +780,7 @@ msgid "High"
 msgstr "বেশী"
 
 #. i18n: Focus Stealing Prevention Level
-#. i18n: ectx: property (text), item, widget (KComboBox, focusStealing)
+#. i18n: ectx: property (text), item, widget (KComboBox, kcfg_FocusStealingPreventionLevel)
 #: focus.ui:138
 #, fuzzy, kde-format
 #| msgctxt "Focus Stealing Prevention Level"
@@ -795,7 +795,7 @@ msgstr "অত্যন্ত বেশী"
 msgid "Raising windows:"
 msgstr "নিষ্ক্রিয় উইন্ডো:"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, clickRaiseOn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ClickRaise)
 #: focus.ui:153
 #, kde-format
 msgid ""
@@ -806,13 +806,13 @@ msgstr ""
 "এই পছন্দ বেছে নিলে, সক্রিয় উইন্ডোর কোন জায়গায় ক্লিক  করলে উইন্ডোটি উঠে আসবে। "
 "নিষ্ক্রিয় উইন্ডোর ক্ষেত্রে এই  পরিবর্তন কার্যকরী করতে হলে, কার্য ট্যাব এ পরিবর্তন করুন।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, clickRaiseOn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ClickRaise)
 #: focus.ui:156
 #, fuzzy, kde-format
 msgid "&Click raises active window"
 msgstr "সক্রিয় উইন্ডো ক্লি&ক করে উঁচু কর"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, autoRaiseOn)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_AutoRaise)
 #: focus.ui:165
 #, kde-format
 msgid ""
@@ -822,13 +822,13 @@ msgstr ""
 "এই পছন্দটি কার্যকর করলে, মাউসের নির্দেশকটি একটি পিছে থাকা উইন্ডোর ওপর কিচুক্ষণ "
 "রাখলে উইন্ডোটি সামনে চলে আসবে।"
 
-#. i18n: ectx: property (text), widget (QCheckBox, autoRaiseOn)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_AutoRaise)
 #: focus.ui:168
 #, kde-format
 msgid "&Raise on hover, delayed by:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QSpinBox, autoRaise)
+#. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_AutoRaiseInterval)
 #: focus.ui:175
 #, kde-format
 msgid ""
@@ -843,7 +843,7 @@ msgstr ""
 msgid "Multiscreen behavior:"
 msgstr ""
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, activeMouseScreen)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ActiveMouseScreen)
 #: focus.ui:203
 #, kde-format
 msgid ""
@@ -854,13 +854,13 @@ msgid ""
 "for other focus policies."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, activeMouseScreen)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_ActiveMouseScreen)
 #: focus.ui:206
 #, kde-format
 msgid "Active screen follows &mouse"
 msgstr "&সক্রিয় স্ক্রীন মাউস অনুসরণ করে"
 
-#. i18n: ectx: property (whatsThis), widget (QCheckBox, separateScreenFocus)
+#. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_SeparateScreenFocus)
 #: focus.ui:213
 #, kde-format
 msgid ""
@@ -868,98 +868,98 @@ msgid ""
 "Xinerama screen"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QCheckBox, separateScreenFocus)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_SeparateScreenFocus)
 #: focus.ui:216
 #, fuzzy, kde-format
 #| msgid "S&eparate screen focus"
 msgid "&Separate screen focus"
 msgstr "&আলাদা স্ক্রীণ ফোকাস"
 
-#: main.cpp:78
+#: main.cpp:79
 #, kde-format
 msgid "&Focus"
 msgstr "ফোকা&স"
 
-#: main.cpp:83
+#: main.cpp:89
 #, fuzzy, kde-format
 #| msgid "&Titlebar Actions"
 msgid "Titlebar A&ctions"
 msgstr "শীর্ষ&কবার অ্যাকশন"
 
-#: main.cpp:89
+#: main.cpp:95
 #, fuzzy, kde-format
 #| msgid "Window Actio&ns"
 msgid "W&indow Actions"
 msgstr "উইণ্ডো অ্যাকশ&ন"
 
-#: main.cpp:95
+#: main.cpp:101
 #, fuzzy, kde-format
 #| msgid "&Placement:"
 msgid "Mo&vement"
 msgstr "সংস্থাপ&ন"
 
-#: main.cpp:101
+#: main.cpp:107
 #, fuzzy, kde-format
 #| msgid "Ad&vanced"
 msgid "Adva&nced"
 msgstr "অগ্রস&র"
 
-#: main.cpp:106
+#: main.cpp:112
 #, kde-format
 msgid "Window Behavior Configuration Module"
 msgstr "উইন্ডো ব্যবহার পরিবর্তনকারী মড্যুল"
 
-#: main.cpp:108
+#: main.cpp:114
 #, kde-format
 msgid "(c) 1997 - 2002 KWin and KControl Authors"
 msgstr "(C) 1997-2002 কে-উইন এবং কে-কন্ট্রোল লেখকবৃন্দ"
 
-#: main.cpp:110
+#: main.cpp:116
 #, kde-format
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:111
+#: main.cpp:117
 #, kde-format
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:112
+#: main.cpp:118
 #, kde-format
 msgid "Cristian Tibirna"
 msgstr "Cristian Tibirna"
 
-#: main.cpp:113
+#: main.cpp:119
 #, kde-format
 msgid "Matthias Kalle Dalheimer"
 msgstr "Matthias Kalle Dalheimer"
 
-#: main.cpp:114
+#: main.cpp:120
 #, kde-format
 msgid "Daniel Molkentin"
 msgstr "Daniel Molkentin"
 
-#: main.cpp:115
+#: main.cpp:121
 #, kde-format
 msgid "Wynn Wilkes"
 msgstr "Wynn Wilkes"
 
-#: main.cpp:116
+#: main.cpp:122
 #, kde-format
 msgid "Pat Dowler"
 msgstr "Pat Dowler"
 
-#: main.cpp:117
+#: main.cpp:123
 #, kde-format
 msgid "Bernd Wuebben"
 msgstr "Bernd Wuebben"
 
-#: main.cpp:118
+#: main.cpp:124
 #, kde-format
 msgid "Matthias Hoelzer-Kluepfel"
 msgstr "Matthias Hoelzer-Kluepfel"
 
-#: main.cpp:168
+#: main.cpp:169
 #, kde-format
 msgid ""
 "<p><h1>Window Behavior</h1> Here you can customize the way windows behave "
@@ -976,19 +976,19 @@ msgstr ""
 "ক্ষেত্রে সেটির সাহায্যপত্র পড়ুন এবং কিভাবে উইন্ডোর ব্যবহার পছন্দমত পরিবর্তন করা যাবে "
 "তা জানুন।</p>"
 
-#: main.cpp:188
+#: main.cpp:189
 #, kde-format
 msgid "&Titlebar Actions"
 msgstr "শীর্ষ&কবার অ্যাকশন"
 
-#: main.cpp:194
+#: main.cpp:195
 #, kde-format
 msgid "Window Actio&ns"
 msgstr "উইণ্ডো অ্যাকশ&ন"
 
 #. i18n: @item:inlistbox behavior on double click
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
-#: mouse.cpp:161 mouse.ui:40
+#: mouse.cpp:162 mouse.ui:40
 #, fuzzy, kde-format
 #| msgctxt "@item:inlistbox behavior on double click"
 #| msgid "Maximize"
@@ -997,14 +997,14 @@ msgstr "পুরো বড় কর"
 
 #. i18n: @item:inlistbox behavior on double click
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
-#: mouse.cpp:162 mouse.ui:45
+#: mouse.cpp:163 mouse.ui:45
 #, kde-format
 msgid "Maximize (vertical only)"
 msgstr "পুরো বড় (শুধু লম্বালম্বি) কর"
 
 #. i18n: @item:inlistbox behavior on double click
 #. i18n: ectx: property (text), item, widget (KComboBox, kcfg_TitlebarDoubleClickCommand)
-#: mouse.cpp:163 mouse.ui:50
+#: mouse.cpp:164 mouse.ui:50
 #, kde-format
 msgid "Maximize (horizontal only)"
 msgstr "পুরো বড় (শুধু আড়াআড়ি) কর"
@@ -1291,14 +1291,14 @@ msgstr "সীমা সংযো&গ ক্ষেত্র:"
 msgid "&Snap windows:"
 msgstr "নিষ্ক্রিয় উইন্ডো:"
 
-#: windows.cpp:155
+#: windows.cpp:93
 #, kde-format
 msgid ""
 "<em>Click to focus:</em> A window becomes active when you click into it. "
 "This behavior is common on other operating systems and likely what you want."
 msgstr ""
 
-#: windows.cpp:158
+#: windows.cpp:97
 #, kde-format
 msgid ""
 "<em>Click to focus (mouse precedence):</em> Mostly the same as <em>Click to "
@@ -1308,7 +1308,7 @@ msgid ""
 "em>."
 msgstr ""
 
-#: windows.cpp:161
+#: windows.cpp:102
 #, kde-format
 msgid ""
 "<em>Focus follows mouse:</em> Moving the mouse onto a window will activate "
@@ -1317,7 +1317,7 @@ msgid ""
 "to focus</em> just without having to actually click."
 msgstr ""
 
-#: windows.cpp:164
+#: windows.cpp:106
 #, kde-format
 msgid ""
 "This is mostly the same as <em>Focus follows mouse</em>. If an active window "
@@ -1326,7 +1326,7 @@ msgid ""
 "if you want a hover controlled focus."
 msgstr ""
 
-#: windows.cpp:167
+#: windows.cpp:111
 #, kde-format
 msgid ""
 "<em>Focus under mouse:</em> The focus always remains on the window under the "
@@ -1336,7 +1336,7 @@ msgid ""
 "precedence)</em> instead!"
 msgstr ""
 
-#: windows.cpp:170
+#: windows.cpp:115
 #, kde-format
 msgid ""
 "<em>Focus strictly under mouse:</em> The focus is always on the window under "
