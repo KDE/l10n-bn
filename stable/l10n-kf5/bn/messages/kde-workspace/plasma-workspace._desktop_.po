@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-05-07 07:31+0000\n"
+"POT-Creation-Date: 2020-05-14 02:13+0000\n"
 "PO-Revision-Date: 2011-11-11 17:21+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -54,12 +54,12 @@ msgctxt "Name"
 msgid "Battery and Brightness"
 msgstr "ডিসপ্লে সেটিংস"
 
-#: applets/batterymonitor/package/metadata.desktop:48
+#: applets/batterymonitor/package/metadata.desktop:49
 msgctxt "Comment"
 msgid "See the power status of your battery"
 msgstr ""
 
-#: applets/batterymonitor/package/metadata.desktop:121
+#: applets/batterymonitor/package/metadata.desktop:122
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Power Management"
@@ -86,7 +86,7 @@ msgctxt "Name"
 msgid "Clipboard"
 msgstr "ক্লিপবোর্ড টুল"
 
-#: applets/clipboard/metadata.desktop:51
+#: applets/clipboard/metadata.desktop:52
 msgctxt "Comment"
 msgid "Provides access to the clipboard history"
 msgstr ""
@@ -152,7 +152,7 @@ msgctxt "Name"
 msgid "Media Player"
 msgstr "মাল্টিমিডিয়া প্লেয়ার"
 
-#: applets/mediacontroller/metadata.desktop:49
+#: applets/mediacontroller/metadata.desktop:50
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Power Control"
@@ -173,28 +173,35 @@ msgctxt "Comment"
 msgid "Display notifications and jobs"
 msgstr "কে.ডি.ই. বিজ্ঞপ্তি ডিমন"
 
-#: applets/panelspacer/metadata.desktop:2
+#: applets/panelspacer/package/metadata.desktop:2
 #, fuzzy
 msgctxt "Name"
 msgid "Panel Spacer"
 msgstr "প্যানেল"
 
-#: applets/panelspacer/metadata.desktop:66
+#: applets/panelspacer/package/metadata.desktop:66
 msgctxt "Comment"
 msgid "Reserve empty spaces within the panel."
 msgstr ""
 
-#: applets/systemmonitor/cpu/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "System Monitor"
+#: applets/systemmonitor/coreusage/metadata.desktop:2
 msgctxt "Name"
-msgid "CPU Load Monitor"
-msgstr "সিস্টেম মনিটর"
+msgid "Individual Core Usage"
+msgstr ""
 
-#: applets/systemmonitor/cpu/metadata.desktop:47
+#: applets/systemmonitor/coreusage/metadata.desktop:8
 msgctxt "Comment"
-msgid "Monitor the load of the CPUs"
+msgid "System monitor Widget that shows usage of individual CPU cores"
+msgstr ""
+
+#: applets/systemmonitor/cpu/metadata.desktop:2
+msgctxt "Name"
+msgid "Total CPU Use"
+msgstr ""
+
+#: applets/systemmonitor/cpu/metadata.desktop:8
+msgctxt "Comment"
+msgid "System monitor Widget that shows the total CPU usage"
 msgstr ""
 
 #: applets/systemmonitor/diskactivity/metadata.desktop:2
@@ -202,10 +209,10 @@ msgstr ""
 #| msgctxt "Name"
 #| msgid "Display and Monitor"
 msgctxt "Name"
-msgid "Hard Disk I/O Monitor"
+msgid "Hard Disk Activity"
 msgstr "ডিসপ্লে ও মনিটর"
 
-#: applets/systemmonitor/diskactivity/metadata.desktop:56
+#: applets/systemmonitor/diskactivity/metadata.desktop:8
 msgctxt "Comment"
 msgid "An applet that monitors hard disk throughput and input/output"
 msgstr ""
@@ -215,12 +222,12 @@ msgstr ""
 #| msgctxt "Name"
 #| msgid "Low Disk Space"
 msgctxt "Name"
-msgid "Hard Disk Space Usage"
+msgid "Disk Usage"
 msgstr "ডিস্ক-এ জায়গা কম"
 
-#: applets/systemmonitor/diskusage/metadata.desktop:54
+#: applets/systemmonitor/diskusage/metadata.desktop:8
 msgctxt "Comment"
-msgid "An applet that monitors hard disk space usage and percentage"
+msgid "System monitor Widget that shows the usage of the root partition"
 msgstr ""
 
 #: applets/systemmonitor/memory/metadata.desktop:2
@@ -228,25 +235,38 @@ msgstr ""
 #| msgctxt "Name"
 #| msgid "Samba Status"
 msgctxt "Name"
-msgid "Memory Status"
+msgid "Memory Usage"
 msgstr "সাম্বা স্ট্যাটাস"
 
-#: applets/systemmonitor/memory/metadata.desktop:65
+#: applets/systemmonitor/memory/metadata.desktop:8
 msgctxt "Comment"
-msgid "A RAM usage monitor"
+msgid "System monitor Widget that shows physical memory usage"
 msgstr ""
 
 #: applets/systemmonitor/net/metadata.desktop:2
 #, fuzzy
-#| msgctxt "GenericName"
-#| msgid "Network Tool"
+#| msgctxt "Name"
+#| msgid "Networking"
 msgctxt "Name"
-msgid "Network Monitor"
-msgstr "নেটওয়ার্ক টুল"
+msgid "Network speed"
+msgstr "নেটওয়ার্কিং"
 
-#: applets/systemmonitor/net/metadata.desktop:65
+#: applets/systemmonitor/net/metadata.desktop:8
 msgctxt "Comment"
-msgid "A network usage monitor"
+msgid "System monitor Widget that shows the download and upload data rate"
+msgstr ""
+
+#: applets/systemmonitor/systemmonitor/package/metadata.desktop:3
+#, fuzzy
+#| msgctxt "Name"
+#| msgid "System Monitor"
+msgctxt "Name"
+msgid "System monitor Sensor"
+msgstr "সিস্টেম মনিটর"
+
+#: applets/systemmonitor/systemmonitor/package/metadata.desktop:9
+msgctxt "Comment"
+msgid "Displays a configurable chart of a system monitor sensor"
 msgstr ""
 
 #: applets/systemtray/container/package/metadata.desktop:2
@@ -355,7 +375,7 @@ msgctxt "Name"
 msgid "Activities Engine"
 msgstr "অ্যাকটিভিটি ম্যানেজার"
 
-#: dataengines/activities/plasma-dataengine-activities.desktop:63
+#: dataengines/activities/plasma-dataengine-activities.desktop:64
 #, fuzzy
 #| msgctxt "Comment"
 #| msgid "Information about files and directories."
@@ -388,7 +408,7 @@ msgctxt "Name"
 msgid "Device Notifications"
 msgstr "ডিভাইস বিজ্ঞপ্তি"
 
-#: dataengines/devicenotifications/plasma-dataengine-devicenotifications.desktop:65
+#: dataengines/devicenotifications/plasma-dataengine-devicenotifications.desktop:66
 msgctxt "Comment"
 msgid "Passive device notifications for the user."
 msgstr ""
@@ -604,7 +624,7 @@ msgctxt "Name"
 msgid "BBC Weather"
 msgstr "আবহাওয়া"
 
-#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.desktop:35
+#: dataengines/weather/ions/bbcukmet/ion-bbcukmet.desktop:37
 msgctxt "Comment"
 msgid "XML Data from the British Broadcasting Corporation"
 msgstr ""
@@ -702,7 +722,7 @@ msgctxt "Name"
 msgid "User Feedback"
 msgstr ""
 
-#: kcms/feedback/kcm_feedback.desktop:44
+#: kcms/feedback/kcm_feedback.desktop:46
 msgctxt "Comment"
 msgid "Configure user feedback settings"
 msgstr ""
@@ -721,7 +741,7 @@ msgctxt "Name"
 msgid "Language"
 msgstr "ভাষাসমূহ"
 
-#: kcms/translations/kcm_translations.desktop:49
+#: kcms/translations/kcm_translations.desktop:51
 msgctxt "Comment"
 msgid "Change workspace and application languages"
 msgstr ""
@@ -853,7 +873,7 @@ msgctxt "Description"
 msgid "ftp URL"
 msgstr "ftp URL"
 
-#: klipper/plasma-dataengine-clipboard.desktop:51
+#: klipper/plasma-dataengine-clipboard.desktop:52
 #, fuzzy
 #| msgctxt "GenericName"
 #| msgid "Clipboard Tool"
@@ -897,9 +917,9 @@ msgid "Plasma"
 msgstr ""
 
 #: login-sessions/plasma.desktop.cmake:55
-#: login-sessions/plasmawayland.desktop.cmake:37
-#: login-sessions/plasmawayland-dev.desktop.cmake:33
-#: login-sessions/plasmax11-dev.desktop.cmake:34
+#: login-sessions/plasmawayland.desktop.cmake:39
+#: login-sessions/plasmawayland-dev.desktop.cmake:35
+#: login-sessions/plasmax11-dev.desktop.cmake:36
 msgctxt "Comment"
 msgid "Plasma by KDE"
 msgstr ""
@@ -928,14 +948,14 @@ msgctxt "Comment"
 msgid "Breeze by the KDE VDG"
 msgstr "ডেস্কটপ সেশন"
 
-#: lookandfeel/metadata.desktop:33
+#: lookandfeel/metadata.desktop:35
 msgctxt "Keywords"
 msgid ""
 "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;"
 "Hibernate;"
 msgstr ""
 
-#: lookandfeel/metadata.desktop:74 sddm-theme/metadata.desktop:2
+#: lookandfeel/metadata.desktop:76 sddm-theme/metadata.desktop:2
 msgctxt "Name"
 msgid "Breeze"
 msgstr ""
@@ -1670,6 +1690,34 @@ msgid "XembedSniProxy"
 msgstr ""
 
 #, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "System monitoring applet"
+#~ msgctxt "Name"
+#~ msgid "System monitor Sensor Display Styles"
+#~ msgstr "সিস্টেম মনিটর অ্যাপলেট"
+
+#, fuzzy
+#~| msgctxt "Comment"
+#~| msgid "System monitoring applet"
+#~ msgctxt "Name"
+#~ msgid "System monitor Sensor Presets"
+#~ msgstr "সিস্টেম মনিটর অ্যাপলেট"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "System Monitor"
+#~ msgctxt "Name"
+#~ msgid "CPU Load Monitor"
+#~ msgstr "সিস্টেম মনিটর"
+
+#, fuzzy
+#~| msgctxt "GenericName"
+#~| msgid "Network Tool"
+#~ msgctxt "Name"
+#~ msgid "Network Monitor"
+#~ msgstr "নেটওয়ার্ক টুল"
+
+#, fuzzy
 #~| msgctxt "Name"
 #~| msgid "Image"
 #~ msgctxt "Name"
@@ -1890,10 +1938,6 @@ msgstr ""
 #~ msgctxt "Comment"
 #~ msgid "Show hardware info"
 #~ msgstr "হার্ডওয়্যার তথ্য দেখাও"
-
-#~ msgctxt "Comment"
-#~ msgid "System monitoring applet"
-#~ msgstr "সিস্টেম মনিটর অ্যাপলেট"
 
 #~ msgctxt "Name"
 #~ msgid "KDED Global Shortcuts Server"
