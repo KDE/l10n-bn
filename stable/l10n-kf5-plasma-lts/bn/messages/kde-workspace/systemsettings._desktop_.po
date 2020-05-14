@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: desktop_kdebase\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-09-29 07:12+0000\n"
+"POT-Creation-Date: 2020-01-12 02:53+0000\n"
 "PO-Revision-Date: 2011-11-11 17:21+0530\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: American English <kde-translation@bengalinux.org>\n"
@@ -24,7 +24,7 @@ msgctxt "GenericName"
 msgid "KDE System Settings"
 msgstr "সিস্টেম সেটিংস"
 
-#: app/kdesystemsettings.desktop:64
+#: app/kdesystemsettings.desktop:67
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "System Settings"
@@ -32,7 +32,7 @@ msgctxt "Name"
 msgid "KDE System Settings"
 msgstr "সিস্টেম সেটিংস"
 
-#: app/kdesystemsettings.desktop:120 app/systemsettings.desktop:175
+#: app/kdesystemsettings.desktop:126 app/systemsettings.desktop:177
 msgctxt "Comment"
 msgid "Configuration tools for your computer"
 msgstr ""
@@ -42,10 +42,15 @@ msgctxt "GenericName"
 msgid "System Settings"
 msgstr "সিস্টেম সেটিংস"
 
-#: app/systemsettings.desktop:90
+#: app/systemsettings.desktop:91
 msgctxt "Name"
 msgid "System Settings"
 msgstr "সিস্টেম সেটিংস"
+
+#: categories/hidden.desktop:7
+msgctxt "Name"
+msgid "Hidden"
+msgstr ""
 
 #: categories/old/settings-account-details.desktop:8
 #: categories/settings-personalization-accountdetails.desktop:9
@@ -80,7 +85,7 @@ msgctxt "Name"
 msgid "Workspace Appearance"
 msgstr "ওয়ার্কস্পেস-এর চেহারা"
 
-#: categories/old/settings-desktop-appearance.desktop:72
+#: categories/old/settings-desktop-appearance.desktop:74
 msgctxt "Comment"
 msgid "Customize the appearance of your desktop"
 msgstr ""
@@ -91,8 +96,8 @@ msgctxt "Name"
 msgid "Display and Monitor"
 msgstr "ডিসপ্লে ও মনিটর"
 
-#: categories/old/settings-display.desktop:70
-#: categories/settings-hardware-display.desktop:71
+#: categories/old/settings-display.desktop:72
+#: categories/settings-hardware-display.desktop:73
 msgctxt "Comment"
 msgid "Display Settings"
 msgstr "ডিসপ্লে সেটিংস"
@@ -161,11 +166,6 @@ msgctxt "Name"
 msgid "Startup and Shutdown"
 msgstr "স্টার্ট-আপ এবং শাটডাউন"
 
-#: categories/old/settings-system-administration.desktop:9
-msgctxt "Name"
-msgid "System Administration"
-msgstr "সিস্টেম অ্যাডমিনস্ট্রেশন"
-
 #: categories/old/settings-window-behaviour.desktop:8
 msgctxt "Name"
 msgid "Window Behavior"
@@ -177,6 +177,7 @@ msgid "Workspace Appearance and Behavior"
 msgstr "ওয়ার্কস্পেস-এর চেহারা এবং আচরণ"
 
 #: categories/old/settings-workspace-behavior.desktop:8
+#: categories/settings-workspace-desktopbehavior.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Behavior"
@@ -214,14 +215,6 @@ msgstr ""
 msgctxt "Name"
 msgid "Icons"
 msgstr ""
-
-#: categories/settings-appearance-workspacetheme.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Workspace Appearance"
-msgctxt "Name"
-msgid "Workspace Theme"
-msgstr "ওয়ার্কস্পেস-এর চেহারা"
 
 #: categories/settings-hardware-peripherals.desktop:9
 msgctxt "Name"
@@ -297,20 +290,17 @@ msgctxt "Name"
 msgid "Regional Settings"
 msgstr "নেটওয়ার্ক সেটিংস"
 
+#: categories/settings-system-administration.desktop:9
+msgctxt "Name"
+msgid "System Administration"
+msgstr "সিস্টেম অ্যাডমিনস্ট্রেশন"
+
 #: categories/settings-workspace.desktop:9
 #, fuzzy
 #| msgctxt "Name"
 #| msgid "Web Behavior"
 msgctxt "Name"
 msgid "Workspace"
-msgstr "ওয়েব আচরণ"
-
-#: categories/settings-workspace-desktopbehavior.desktop:9
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Web Behavior"
-msgctxt "Name"
-msgid "Desktop Behavior"
 msgstr "ওয়েব আচরণ"
 
 #: categories/settings-workspace-search.desktop:9
@@ -336,28 +326,6 @@ msgctxt "Name"
 msgid "System Settings Category"
 msgstr "সিস্টেম সেটিংস শ্রেণী"
 
-#: classic/settings-classic-view.desktop:7 icons/settings-icon-view.desktop:7
-#: sidebar/settings-sidebar-view.desktop:7
-#, fuzzy
-#| msgctxt "GenericName"
-#| msgid "System Settings"
-msgctxt "X-KDE-Keywords"
-msgid "System Settings"
-msgstr "সিস্টেম সেটিংস"
-
-#: classic/settings-classic-view.desktop:64
-#, fuzzy
-#| msgctxt "Name"
-#| msgid "Classic Tree View"
-msgctxt "Name"
-msgid "Tree View"
-msgstr "ক্লাসিক ট্রি ভিউ"
-
-#: classic/settings-classic-view.desktop:102
-msgctxt "Comment"
-msgid "A Classic KDE 3 KControl style system settings view."
-msgstr "ক্লাসিক KDE 3 কে-কন্ট্রোল-এর মত একটি সিস্টেম সেটিংস ভিউ।"
-
 #: core/systemsettingsexternalapp.desktop:4
 msgctxt "Name"
 msgid "System Settings External Application"
@@ -368,26 +336,59 @@ msgctxt "Name"
 msgid "System Settings View"
 msgstr "সিস্টেম সেটিংস ভিউ"
 
-#: icons/settings-icon-view.desktop:64
+#: icons/settings-icon-view.desktop:7 sidebar/settings-sidebar-view.desktop:7
+#, fuzzy
+#| msgctxt "GenericName"
+#| msgid "System Settings"
+msgctxt "X-KDE-Keywords"
+msgid "System Settings"
+msgstr "সিস্টেম সেটিংস"
+
+#: icons/settings-icon-view.desktop:67
 msgctxt "Name"
 msgid "Icon View"
 msgstr "আইকন ভিউ"
 
-#: icons/settings-icon-view.desktop:141
+#: icons/settings-icon-view.desktop:145
 msgctxt "Comment"
 msgid "The KDE 4 icon view style"
 msgstr "KDE 4 আইকন ভিউ স্টাইল"
 
-#: sidebar/package/metadata.desktop:2 sidebar/settings-sidebar-view.desktop:64
+#: sidebar/package/metadata.desktop:2 sidebar/settings-sidebar-view.desktop:67
 msgctxt "Name"
 msgid "Sidebar View"
 msgstr ""
 
-#: sidebar/package/metadata.desktop:42
-#: sidebar/settings-sidebar-view.desktop:104
+#: sidebar/package/metadata.desktop:46
+#: sidebar/settings-sidebar-view.desktop:111
 msgctxt "Comment"
 msgid "Categorized sidebar style"
 msgstr ""
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Classic Tree View"
+#~ msgctxt "Name"
+#~ msgid "Tree View"
+#~ msgstr "ক্লাসিক ট্রি ভিউ"
+
+#~ msgctxt "Comment"
+#~ msgid "A Classic KDE 3 KControl style system settings view."
+#~ msgstr "ক্লাসিক KDE 3 কে-কন্ট্রোল-এর মত একটি সিস্টেম সেটিংস ভিউ।"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Workspace Appearance"
+#~ msgctxt "Name"
+#~ msgid "Workspace Theme"
+#~ msgstr "ওয়ার্কস্পেস-এর চেহারা"
+
+#, fuzzy
+#~| msgctxt "Name"
+#~| msgid "Web Behavior"
+#~ msgctxt "Name"
+#~ msgid "Desktop Behavior"
+#~ msgstr "ওয়েব আচরণ"
 
 #, fuzzy
 #~| msgctxt "Name"
