@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-07-12 02:25+0200\n"
+"POT-Creation-Date: 2020-07-13 02:33+0200\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1742,200 +1742,6 @@ msgctxt "@info:status"
 msgid "Any adjustments are only temporary to this session."
 msgstr ""
 
-#: HistorySizeWidget.cpp:57
-#, fuzzy, kde-format
-#| msgid "lines"
-msgctxt "@label:textbox Unit of scrollback"
-msgid " line"
-msgid_plural " lines"
-msgstr[0] "লাইন"
-msgstr[1] "লাইন"
-
-#: HistorySizeWidget.cpp:72
-#, kde-format
-msgctxt "@info:whatsthis"
-msgid ""
-"When using this option, the scrollback data will be saved to RAM. If you "
-"choose a huge value, your system may run out of free RAM and cause serious "
-"issues with your system."
-msgstr ""
-
-#: HistorySizeWidget.cpp:81
-#, kde-kuit-format
-msgctxt "@info:tooltip"
-msgid ""
-"When using this option, the scrollback data will be written unencrypted to "
-"temporary files. Those temporary files will be deleted automatically when "
-"Konsole is closed in a normal manner.<nl/>Use <emphasis>Settings → Configure "
-"Konsole → File Location</emphasis> to select the location of the temporary "
-"files."
-msgstr ""
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, fixedSizeHistoryButton)
-#: HistorySizeWidget.ui:60
-#, kde-format
-msgid "Limit the remembered output to a fixed number of lines"
-msgstr "মনে রাখা পূর্ববর্তী আউটপুট লাইনের সংখ্যা সীমাবদ্ধ করো"
-
-#. i18n: ectx: property (text), widget (QRadioButton, fixedSizeHistoryButton)
-#: HistorySizeWidget.ui:63
-#, fuzzy, kde-format
-msgid "Fixed size:"
-msgstr "আগের কমাণ্ডগুলির &মধ্যে খোঁজো..."
-
-#. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox, historyLineSpinner)
-#: HistorySizeWidget.ui:73
-#, kde-format
-msgid "Number of lines of output to remember"
-msgstr "যে কটি আউটপুট লাইন মনে রাখা হবে"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedHistoryButton)
-#: HistorySizeWidget.ui:135
-#, kde-format
-msgid "Remember all output produced by the terminal"
-msgstr "টার্মিনালের সমস্ত আউটপুট মনে রাখো"
-
-#. i18n: ectx: property (text), widget (QRadioButton, unlimitedHistoryButton)
-#: HistorySizeWidget.ui:138
-#, fuzzy, kde-format
-#| msgid "&Set Unlimited"
-msgctxt "Save all lines to the scrollback history"
-msgid "Unlimited"
-msgstr "কোনো সীমা &নয়"
-
-#. i18n: ectx: property (toolTip), widget (QRadioButton, noHistoryButton)
-#: HistorySizeWidget.ui:174
-#, fuzzy, kde-format
-#| msgid "Disable scroll bar and do not remember previous output"
-msgid "Do not remember previous output"
-msgstr "স্ক্রোল বার নিষ্ক্রিয় করো এবং পূর্ববর্তী আউটপুট মনে রেখো না"
-
-#. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
-#: HistorySizeWidget.ui:177
-#, fuzzy, kde-format
-#| msgid "&None"
-msgctxt "Do not save any lines to the scrollback history"
-msgid "None"
-msgstr "কিছু &নয়"
-
-#: IncrementalSearchBar.cpp:60
-#, fuzzy, kde-format
-#| msgid "Find:"
-msgctxt "@label:textbox"
-msgid "Find..."
-msgstr "খোঁজো:"
-
-#: IncrementalSearchBar.cpp:62
-#, fuzzy, kde-format
-#| msgid "Enter the text to search for here"
-msgctxt "@info:tooltip"
-msgid "Enter the text to search for here"
-msgstr "এখানে অনুসন্ধান পংক্তি লেখো"
-
-#: IncrementalSearchBar.cpp:88
-#, fuzzy, kde-format
-#| msgid "Next"
-msgctxt "@action:button Go to the next phrase"
-msgid "Next"
-msgstr "পরবর্তী"
-
-#: IncrementalSearchBar.cpp:92
-#, fuzzy, kde-format
-#| msgid "Find the next match for the current search phrase"
-msgctxt "@info:tooltip"
-msgid "Find the next match for the current search phrase"
-msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
-
-#: IncrementalSearchBar.cpp:100
-#, fuzzy, kde-format
-#| msgid "Previous"
-msgctxt "@action:button Go to the previous phrase"
-msgid "Previous"
-msgstr "পূর্ববর্তী"
-
-#: IncrementalSearchBar.cpp:103
-#, fuzzy, kde-format
-#| msgid "Find the previous match for the current search phrase"
-msgctxt "@info:tooltip"
-msgid "Find the previous match for the current search phrase"
-msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পূর্ববর্তী মিল খোঁজো"
-
-#: IncrementalSearchBar.cpp:120
-#, kde-format
-msgctxt "@info:tooltip"
-msgid "Display the options menu"
-msgstr ""
-
-#: IncrementalSearchBar.cpp:127
-#, fuzzy, kde-format
-#| msgid "Close the search bar"
-msgctxt "@info:tooltip"
-msgid "Close the search bar"
-msgstr "অনুসন্ধান বার বন্ধ করো"
-
-#: IncrementalSearchBar.cpp:137
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu Close Active View"
-#| msgid "Close Active"
-msgctxt "@item:inmenu"
-msgid "Case sensitive"
-msgstr "সক্রিয় ভিউ বন্ধ করো"
-
-#: IncrementalSearchBar.cpp:139
-#, fuzzy, kde-format
-#| msgid "Sets whether the search is case sensitive"
-msgctxt "@info:tooltip"
-msgid "Sets whether the search is case sensitive"
-msgstr "অনুসন্ধানটি কেস-সেন্সিটিভ হবে কি না নির্ধারণ করে"
-
-#: IncrementalSearchBar.cpp:143
-#, fuzzy, kde-format
-#| msgid "Match regular expression"
-msgctxt "@item:inmenu"
-msgid "Match regular expression"
-msgstr "রেগুলার এক্সপ্রেশন খোঁজো"
-
-#: IncrementalSearchBar.cpp:148
-#, fuzzy, kde-format
-#| msgid "Highlight all"
-msgctxt "@item:inmenu"
-msgid "Highlight all matches"
-msgstr "সব চিহ্নিত করো"
-
-#: IncrementalSearchBar.cpp:151
-#, fuzzy, kde-format
-#| msgid "Sets whether matching text should be highlighted"
-msgctxt "@info:tooltip"
-msgid "Sets whether matching text should be highlighted"
-msgstr "মিলগুলি চিহ্নিত করা হবে কি না নির্ধারণ করে"
-
-#: IncrementalSearchBar.cpp:155
-#, kde-format
-msgctxt "@item:inmenu"
-msgid "Search backwards"
-msgstr ""
-
-#: IncrementalSearchBar.cpp:158
-#, fuzzy, kde-format
-#| msgid "Find the next match for the current search phrase"
-msgctxt "@info:tooltip"
-msgid "Sets whether search should start from the bottom"
-msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
-
-#: IncrementalSearchBar.cpp:189
-#, fuzzy, kde-format
-#| msgid "Find the next match for the current search phrase"
-msgctxt "@info:tooltip"
-msgid "Search for the current search phrase from the bottom"
-msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
-
-#: IncrementalSearchBar.cpp:195
-#, fuzzy, kde-format
-#| msgid "Find the next match for the current search phrase"
-msgctxt "@info:tooltip"
-msgid "Search for the current search phrase from the top"
-msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
-
 #: KeyBindingEditor.cpp:66
 #, kde-format
 msgctxt "@label:textbox"
@@ -2485,48 +2291,6 @@ msgstr "প্রোফাইল \"%1\" সম্পাদনা করো"
 msgid "Current Tab Settings"
 msgstr "ডিফল্ট অক্ষর এনকোডিং:"
 
-#: RenameTabWidget.cpp:47
-#, fuzzy, kde-format
-#| msgid "New Color Scheme"
-msgid "Color from theme"
-msgstr "নতুন রং স্কীম"
-
-#. i18n: ectx: property (toolTip), widget (QLineEdit, remoteTabTitleEdit)
-#: RenameTabWidget.ui:41
-#, fuzzy, kde-format
-msgid ""
-"Tab title format used when a remote command (e.g. connection to another "
-"computer via SSH) is being executed"
-msgstr ""
-"ট্যাব শিরোনাম ফরম্যাট ব্যবহার করেছিল যখন একটি দূরবর্তী কমান্ড (এসএসএইচ হয়ে অন্য "
-"একটি গণক যন্ত্রে উদাঃ লিঙ্ক) রান করা হচ্ছে"
-
-#. i18n: ectx: property (text), widget (QLabel, label_2)
-#: RenameTabWidget.ui:60
-#, kde-format
-msgid "Remote tab title format:"
-msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম্যাট:"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: RenameTabWidget.ui:79
-#, kde-format
-msgid "Tab title format:"
-msgstr "ট্যাব শিরোনাম ফরম্যাট:"
-
-#. i18n: ectx: property (toolTip), widget (QLineEdit, tabTitleEdit)
-#: RenameTabWidget.ui:98
-#, kde-format
-msgid "Normal tab title format"
-msgstr "স্বাভাবিক ট্যাব শিরোনাম ফরম্যাট"
-
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: RenameTabWidget.ui:105
-#, fuzzy, kde-format
-#| msgctxt "@label:listbox Column header text for the actual colors"
-#| msgid "Color"
-msgid "Tab Color:"
-msgstr "রং"
-
 #: SaveHistoryTask.cpp:81
 #, kde-format
 msgid "Save Output From %1"
@@ -2672,28 +2436,28 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: Session.cpp:947
+#: Session.cpp:955
 #, kde-format
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "শেষ"
 
-#: Session.cpp:961 Session.cpp:974
+#: Session.cpp:969 Session.cpp:982
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' ক্র্যাশ করেছে।"
 
-#: Session.cpp:963
+#: Session.cpp:971
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1'-এর %2 স্ট্যাটাস সমেত সমাপ্তি।"
 
-#: Session.cpp:1406
+#: Session.cpp:1414
 #, kde-format
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
-#: Session.cpp:1722
+#: Session.cpp:1730
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "সেশন '%1'-এ কিছু ঘটছে"
@@ -3747,252 +3511,6 @@ msgstr ""
 msgid "Ctrl"
 msgstr ""
 
-#: TabTitleFormatButton.cpp:33
-#, fuzzy, kde-format
-#| msgid "Program Name"
-msgid "Program Name: %n"
-msgstr "প্রোগ্রাম-এর নাম"
-
-#: TabTitleFormatButton.cpp:34
-#, fuzzy, kde-format
-#| msgid "Current Directory (Short)"
-msgid "Current Directory (Short): %d"
-msgstr "বর্তমান ডিরেক্টরী (সংক্ষিপ্ত)"
-
-#: TabTitleFormatButton.cpp:35
-#, fuzzy, kde-format
-#| msgid "Current Directory (Long)"
-msgid "Current Directory (Long): %D"
-msgstr "বর্তমান ডিরেক্টরী (সম্পূর্ণ)"
-
-#: TabTitleFormatButton.cpp:36 TabTitleFormatButton.cpp:51
-#, fuzzy, kde-format
-#| msgid "Window Title Set by Shell"
-msgid "Window Title Set by Shell: %w"
-msgstr "উইণ্ডো শিরোনাম শেল দ্বারা নির্ধারিত "
-
-#: TabTitleFormatButton.cpp:37 TabTitleFormatButton.cpp:52
-#, fuzzy, kde-format
-#| msgid "Session Number"
-msgid "Session Number: %#"
-msgstr "সেশন নং"
-
-#: TabTitleFormatButton.cpp:38 TabTitleFormatButton.cpp:46
-#, fuzzy, kde-format
-#| msgid "User Name"
-msgid "User Name: %u"
-msgstr "ব্যবহারকারীর নাম"
-
-#: TabTitleFormatButton.cpp:39
-#, kde-format
-msgid "Local Host: %h"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:40
-#, kde-format
-msgid "User's Bourne prompt sigil: %B"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:47
-#, fuzzy, kde-format
-#| msgid "User Name"
-msgid "User Name@ (if given): %U"
-msgstr "ব্যবহারকারীর নাম"
-
-#: TabTitleFormatButton.cpp:48
-#, fuzzy, kde-format
-#| msgid "Remote Host (Short)"
-msgid "Remote Host (Short): %h"
-msgstr "দূরবর্তী হোস্ট (সংক্ষিপ্ত)"
-
-#: TabTitleFormatButton.cpp:49
-#, fuzzy, kde-format
-#| msgid "Remote Host (Long)"
-msgid "Remote Host (Long): %H"
-msgstr "দূরবর্তী হোস্ট (সম্পূর্ণ)"
-
-#: TabTitleFormatButton.cpp:50
-#, kde-format
-msgid "Command and arguments: %c"
-msgstr ""
-
-#: TabTitleFormatButton.cpp:61
-#, kde-format
-msgid "Insert"
-msgstr "ঢোকাও"
-
-#: TabTitleFormatButton.cpp:86
-#, fuzzy, kde-format
-#| msgid "Tab title format:"
-msgctxt "@info:tooltip"
-msgid "Insert title format"
-msgstr "ট্যাব শিরোনাম ফরম্যাট:"
-
-#: TabTitleFormatButton.cpp:90
-#, fuzzy, kde-format
-#| msgid "Remote tab title format:"
-msgctxt "@info:tooltip"
-msgid "Insert remote title format"
-msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম্যাট:"
-
-#: TerminalDisplay.cpp:1297 TerminalDisplay.cpp:1298
-#, kde-format
-msgid "Size: XXX x XXX"
-msgstr "মাপ: XXX x XXX"
-
-#: TerminalDisplay.cpp:1309
-#, kde-format
-msgid "Size: %1 x %2"
-msgstr "মাপ: %1 x %2"
-
-#: TerminalDisplay.cpp:3288
-#, fuzzy, kde-format
-msgid "Are you sure you want to paste %1 character?"
-msgid_plural "Are you sure you want to paste %1 characters?"
-msgstr[0] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
-msgstr[1] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
-
-#: TerminalDisplay.cpp:3291
-#, fuzzy, kde-format
-#| msgid "Confirm Close"
-msgid "Confirm Paste"
-msgstr "বন্ধ করা অনুমোদন করো"
-
-#: TerminalDisplay.cpp:3323
-#, kde-format
-msgid "End Of Text/Interrupt: may exit the current process"
-msgstr ""
-
-#: TerminalDisplay.cpp:3324
-#, kde-format
-msgid "End Of Transmission: may exit the current process"
-msgstr ""
-
-#: TerminalDisplay.cpp:3325
-#, kde-format
-msgid "Bell: will try to emit an audible warning"
-msgstr ""
-
-#: TerminalDisplay.cpp:3326
-#, kde-format
-msgid "Backspace"
-msgstr ""
-
-#: TerminalDisplay.cpp:3327
-#, kde-format
-msgid "Device Control Three/XOFF: suspends output"
-msgstr ""
-
-#: TerminalDisplay.cpp:3328
-#, kde-format
-msgid "Substitute/Suspend: may suspend current process"
-msgstr ""
-
-#: TerminalDisplay.cpp:3329
-#, kde-format
-msgid "Escape: used for manipulating terminal state"
-msgstr ""
-
-#: TerminalDisplay.cpp:3330
-#, kde-format
-msgid "File Separator/Quit: may abort the current process"
-msgstr ""
-
-#: TerminalDisplay.cpp:3352
-#, kde-format
-msgid ""
-"The text you're trying to paste contains hidden control characters, do you "
-"want to filter them out?"
-msgstr ""
-
-#: TerminalDisplay.cpp:3355
-#, fuzzy, kde-format
-#| msgid "Confirm Close"
-msgctxt "@title"
-msgid "Confirm Paste"
-msgstr "বন্ধ করা অনুমোদন করো"
-
-#: TerminalDisplay.cpp:3357
-#, fuzzy, kde-format
-msgctxt "@action:button"
-msgid "Paste &without control characters"
-msgstr "বর্তমান অক্ষর মিলতে কার্সর রং নিযুক্ত করো"
-
-#: TerminalDisplay.cpp:3360
-#, fuzzy, kde-format
-#| msgid "Paste Selection"
-msgctxt "@action:button"
-msgid "&Paste everything"
-msgstr "নির্বাচিত অংশ সাঁটো"
-
-#: TerminalDisplay.cpp:3363
-#, kde-format
-msgctxt "@action:button"
-msgid "&Cancel"
-msgstr ""
-
-#: TerminalDisplay.cpp:3614
-#, fuzzy, kde-format
-#| msgid ""
-#| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
-#| "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
-msgid ""
-"<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
-"Software_flow_control\">suspended</a> by pressing Ctrl+S. Press <b>Ctrl+Q</"
-"b> to resume.</qt>"
-msgstr ""
-"<qt>Ctrl+S চাপা হয়েছে বলে আউটপুট <a href=\"http://en.wikipedia.org/wiki/"
-"Flow_control\">আটকে রাখা</a> হয়েছে। <b>Ctrl+Q</b> চাপলে পুনরায় শুরু হবে।</qt>"
-
-#: TerminalDisplay.cpp:3655
-#, kde-format
-msgid "This terminal is read-only."
-msgstr ""
-
-#: TerminalDisplay.cpp:3964
-#, fuzzy, kde-format
-msgid "Change &Directory To"
-msgstr "কার্যকরী ডিরেক্টরি পাল্টে 'dir' করো"
-
-#: TerminalDisplay.cpp:3996
-#, fuzzy, kde-format
-#| msgid "Paste Selection"
-msgid "&Paste Location"
-msgstr "নির্বাচিত অংশ সাঁটো"
-
-#: TerminalHeaderBar.cpp:95
-#, fuzzy, kde-format
-#| msgid "C&lear Terminal"
-msgctxt "@info:tooltip"
-msgid "Maximize terminal"
-msgstr "টার্মিনাল ফাঁকা &করো"
-
-#: TerminalHeaderBar.cpp:106 TerminalHeaderBar.cpp:107
-#, fuzzy, kde-format
-#| msgid "C&lear Terminal"
-msgctxt "@info:tooltip"
-msgid "Close terminal"
-msgstr "টার্মিনাল ফাঁকা &করো"
-
-#: ViewContainer.cpp:115
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "&Detach Tab"
-msgstr "ট্যা&ব আলাদা করো"
-
-#: ViewContainer.cpp:122
-#, kde-format
-msgctxt "@action:inmenu"
-msgid "&Current Tab Settings..."
-msgstr ""
-
-#: ViewContainer.cpp:129
-#, fuzzy, kde-format
-#| msgid "&Close Tab"
-msgctxt "@action:inmenu"
-msgid "Close Tab"
-msgstr "ট্যাব &বন্ধ করো"
-
 #: ViewManager.cpp:114
 #, kde-format
 msgctxt "@action:inmenu"
@@ -4137,6 +3655,488 @@ msgid ""
 msgstr ""
 "কোনও কীবোর্ড অনুবাদক প্রাপ্তিসাধ্য না। তথ্য টার্মিনালে পাঠাতে অক্ষরের দিকে মূখ্য "
 "সংবাদপত্র রূপান্তর করতে প্রয়োজন বোধ করছিল লক্ষ্যভ্রষ্ট হচ্ছিল।"
+
+#: widgets/HistorySizeWidget.cpp:57
+#, fuzzy, kde-format
+#| msgid "lines"
+msgctxt "@label:textbox Unit of scrollback"
+msgid " line"
+msgid_plural " lines"
+msgstr[0] "লাইন"
+msgstr[1] "লাইন"
+
+#: widgets/HistorySizeWidget.cpp:72
+#, kde-format
+msgctxt "@info:whatsthis"
+msgid ""
+"When using this option, the scrollback data will be saved to RAM. If you "
+"choose a huge value, your system may run out of free RAM and cause serious "
+"issues with your system."
+msgstr ""
+
+#: widgets/HistorySizeWidget.cpp:81
+#, kde-kuit-format
+msgctxt "@info:tooltip"
+msgid ""
+"When using this option, the scrollback data will be written unencrypted to "
+"temporary files. Those temporary files will be deleted automatically when "
+"Konsole is closed in a normal manner.<nl/>Use <emphasis>Settings → Configure "
+"Konsole → File Location</emphasis> to select the location of the temporary "
+"files."
+msgstr ""
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, fixedSizeHistoryButton)
+#: widgets/HistorySizeWidget.ui:60
+#, kde-format
+msgid "Limit the remembered output to a fixed number of lines"
+msgstr "মনে রাখা পূর্ববর্তী আউটপুট লাইনের সংখ্যা সীমাবদ্ধ করো"
+
+#. i18n: ectx: property (text), widget (QRadioButton, fixedSizeHistoryButton)
+#: widgets/HistorySizeWidget.ui:63
+#, fuzzy, kde-format
+msgid "Fixed size:"
+msgstr "আগের কমাণ্ডগুলির &মধ্যে খোঁজো..."
+
+#. i18n: ectx: property (toolTip), widget (KPluralHandlingSpinBox, historyLineSpinner)
+#: widgets/HistorySizeWidget.ui:73
+#, kde-format
+msgid "Number of lines of output to remember"
+msgstr "যে কটি আউটপুট লাইন মনে রাখা হবে"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, unlimitedHistoryButton)
+#: widgets/HistorySizeWidget.ui:135
+#, kde-format
+msgid "Remember all output produced by the terminal"
+msgstr "টার্মিনালের সমস্ত আউটপুট মনে রাখো"
+
+#. i18n: ectx: property (text), widget (QRadioButton, unlimitedHistoryButton)
+#: widgets/HistorySizeWidget.ui:138
+#, fuzzy, kde-format
+#| msgid "&Set Unlimited"
+msgctxt "Save all lines to the scrollback history"
+msgid "Unlimited"
+msgstr "কোনো সীমা &নয়"
+
+#. i18n: ectx: property (toolTip), widget (QRadioButton, noHistoryButton)
+#: widgets/HistorySizeWidget.ui:174
+#, fuzzy, kde-format
+#| msgid "Disable scroll bar and do not remember previous output"
+msgid "Do not remember previous output"
+msgstr "স্ক্রোল বার নিষ্ক্রিয় করো এবং পূর্ববর্তী আউটপুট মনে রেখো না"
+
+#. i18n: ectx: property (text), widget (QRadioButton, noHistoryButton)
+#: widgets/HistorySizeWidget.ui:177
+#, fuzzy, kde-format
+#| msgid "&None"
+msgctxt "Do not save any lines to the scrollback history"
+msgid "None"
+msgstr "কিছু &নয়"
+
+#: widgets/IncrementalSearchBar.cpp:60
+#, fuzzy, kde-format
+#| msgid "Find:"
+msgctxt "@label:textbox"
+msgid "Find..."
+msgstr "খোঁজো:"
+
+#: widgets/IncrementalSearchBar.cpp:62
+#, fuzzy, kde-format
+#| msgid "Enter the text to search for here"
+msgctxt "@info:tooltip"
+msgid "Enter the text to search for here"
+msgstr "এখানে অনুসন্ধান পংক্তি লেখো"
+
+#: widgets/IncrementalSearchBar.cpp:88
+#, fuzzy, kde-format
+#| msgid "Next"
+msgctxt "@action:button Go to the next phrase"
+msgid "Next"
+msgstr "পরবর্তী"
+
+#: widgets/IncrementalSearchBar.cpp:92
+#, fuzzy, kde-format
+#| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
+msgid "Find the next match for the current search phrase"
+msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
+
+#: widgets/IncrementalSearchBar.cpp:100
+#, fuzzy, kde-format
+#| msgid "Previous"
+msgctxt "@action:button Go to the previous phrase"
+msgid "Previous"
+msgstr "পূর্ববর্তী"
+
+#: widgets/IncrementalSearchBar.cpp:103
+#, fuzzy, kde-format
+#| msgid "Find the previous match for the current search phrase"
+msgctxt "@info:tooltip"
+msgid "Find the previous match for the current search phrase"
+msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পূর্ববর্তী মিল খোঁজো"
+
+#: widgets/IncrementalSearchBar.cpp:120
+#, kde-format
+msgctxt "@info:tooltip"
+msgid "Display the options menu"
+msgstr ""
+
+#: widgets/IncrementalSearchBar.cpp:127
+#, fuzzy, kde-format
+#| msgid "Close the search bar"
+msgctxt "@info:tooltip"
+msgid "Close the search bar"
+msgstr "অনুসন্ধান বার বন্ধ করো"
+
+#: widgets/IncrementalSearchBar.cpp:137
+#, fuzzy, kde-format
+#| msgctxt "@action:inmenu Close Active View"
+#| msgid "Close Active"
+msgctxt "@item:inmenu"
+msgid "Case sensitive"
+msgstr "সক্রিয় ভিউ বন্ধ করো"
+
+#: widgets/IncrementalSearchBar.cpp:139
+#, fuzzy, kde-format
+#| msgid "Sets whether the search is case sensitive"
+msgctxt "@info:tooltip"
+msgid "Sets whether the search is case sensitive"
+msgstr "অনুসন্ধানটি কেস-সেন্সিটিভ হবে কি না নির্ধারণ করে"
+
+#: widgets/IncrementalSearchBar.cpp:143
+#, fuzzy, kde-format
+#| msgid "Match regular expression"
+msgctxt "@item:inmenu"
+msgid "Match regular expression"
+msgstr "রেগুলার এক্সপ্রেশন খোঁজো"
+
+#: widgets/IncrementalSearchBar.cpp:148
+#, fuzzy, kde-format
+#| msgid "Highlight all"
+msgctxt "@item:inmenu"
+msgid "Highlight all matches"
+msgstr "সব চিহ্নিত করো"
+
+#: widgets/IncrementalSearchBar.cpp:151
+#, fuzzy, kde-format
+#| msgid "Sets whether matching text should be highlighted"
+msgctxt "@info:tooltip"
+msgid "Sets whether matching text should be highlighted"
+msgstr "মিলগুলি চিহ্নিত করা হবে কি না নির্ধারণ করে"
+
+#: widgets/IncrementalSearchBar.cpp:155
+#, kde-format
+msgctxt "@item:inmenu"
+msgid "Search backwards"
+msgstr ""
+
+#: widgets/IncrementalSearchBar.cpp:158
+#, fuzzy, kde-format
+#| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
+msgid "Sets whether search should start from the bottom"
+msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
+
+#: widgets/IncrementalSearchBar.cpp:189
+#, fuzzy, kde-format
+#| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
+msgid "Search for the current search phrase from the bottom"
+msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
+
+#: widgets/IncrementalSearchBar.cpp:195
+#, fuzzy, kde-format
+#| msgid "Find the next match for the current search phrase"
+msgctxt "@info:tooltip"
+msgid "Search for the current search phrase from the top"
+msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
+
+#: widgets/RenameTabWidget.cpp:47
+#, fuzzy, kde-format
+#| msgid "New Color Scheme"
+msgid "Color from theme"
+msgstr "নতুন রং স্কীম"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, remoteTabTitleEdit)
+#: widgets/RenameTabWidget.ui:41
+#, fuzzy, kde-format
+msgid ""
+"Tab title format used when a remote command (e.g. connection to another "
+"computer via SSH) is being executed"
+msgstr ""
+"ট্যাব শিরোনাম ফরম্যাট ব্যবহার করেছিল যখন একটি দূরবর্তী কমান্ড (এসএসএইচ হয়ে অন্য "
+"একটি গণক যন্ত্রে উদাঃ লিঙ্ক) রান করা হচ্ছে"
+
+#. i18n: ectx: property (text), widget (QLabel, label_2)
+#: widgets/RenameTabWidget.ui:60
+#, kde-format
+msgid "Remote tab title format:"
+msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম্যাট:"
+
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: widgets/RenameTabWidget.ui:79
+#, kde-format
+msgid "Tab title format:"
+msgstr "ট্যাব শিরোনাম ফরম্যাট:"
+
+#. i18n: ectx: property (toolTip), widget (QLineEdit, tabTitleEdit)
+#: widgets/RenameTabWidget.ui:98
+#, kde-format
+msgid "Normal tab title format"
+msgstr "স্বাভাবিক ট্যাব শিরোনাম ফরম্যাট"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: widgets/RenameTabWidget.ui:105
+#, fuzzy, kde-format
+#| msgctxt "@label:listbox Column header text for the actual colors"
+#| msgid "Color"
+msgid "Tab Color:"
+msgstr "রং"
+
+#: widgets/TabTitleFormatButton.cpp:33
+#, fuzzy, kde-format
+#| msgid "Program Name"
+msgid "Program Name: %n"
+msgstr "প্রোগ্রাম-এর নাম"
+
+#: widgets/TabTitleFormatButton.cpp:34
+#, fuzzy, kde-format
+#| msgid "Current Directory (Short)"
+msgid "Current Directory (Short): %d"
+msgstr "বর্তমান ডিরেক্টরী (সংক্ষিপ্ত)"
+
+#: widgets/TabTitleFormatButton.cpp:35
+#, fuzzy, kde-format
+#| msgid "Current Directory (Long)"
+msgid "Current Directory (Long): %D"
+msgstr "বর্তমান ডিরেক্টরী (সম্পূর্ণ)"
+
+#: widgets/TabTitleFormatButton.cpp:36 widgets/TabTitleFormatButton.cpp:51
+#, fuzzy, kde-format
+#| msgid "Window Title Set by Shell"
+msgid "Window Title Set by Shell: %w"
+msgstr "উইণ্ডো শিরোনাম শেল দ্বারা নির্ধারিত "
+
+#: widgets/TabTitleFormatButton.cpp:37 widgets/TabTitleFormatButton.cpp:52
+#, fuzzy, kde-format
+#| msgid "Session Number"
+msgid "Session Number: %#"
+msgstr "সেশন নং"
+
+#: widgets/TabTitleFormatButton.cpp:38 widgets/TabTitleFormatButton.cpp:46
+#, fuzzy, kde-format
+#| msgid "User Name"
+msgid "User Name: %u"
+msgstr "ব্যবহারকারীর নাম"
+
+#: widgets/TabTitleFormatButton.cpp:39
+#, kde-format
+msgid "Local Host: %h"
+msgstr ""
+
+#: widgets/TabTitleFormatButton.cpp:40
+#, kde-format
+msgid "User's Bourne prompt sigil: %B"
+msgstr ""
+
+#: widgets/TabTitleFormatButton.cpp:47
+#, fuzzy, kde-format
+#| msgid "User Name"
+msgid "User Name@ (if given): %U"
+msgstr "ব্যবহারকারীর নাম"
+
+#: widgets/TabTitleFormatButton.cpp:48
+#, fuzzy, kde-format
+#| msgid "Remote Host (Short)"
+msgid "Remote Host (Short): %h"
+msgstr "দূরবর্তী হোস্ট (সংক্ষিপ্ত)"
+
+#: widgets/TabTitleFormatButton.cpp:49
+#, fuzzy, kde-format
+#| msgid "Remote Host (Long)"
+msgid "Remote Host (Long): %H"
+msgstr "দূরবর্তী হোস্ট (সম্পূর্ণ)"
+
+#: widgets/TabTitleFormatButton.cpp:50
+#, kde-format
+msgid "Command and arguments: %c"
+msgstr ""
+
+#: widgets/TabTitleFormatButton.cpp:61
+#, kde-format
+msgid "Insert"
+msgstr "ঢোকাও"
+
+#: widgets/TabTitleFormatButton.cpp:86
+#, fuzzy, kde-format
+#| msgid "Tab title format:"
+msgctxt "@info:tooltip"
+msgid "Insert title format"
+msgstr "ট্যাব শিরোনাম ফরম্যাট:"
+
+#: widgets/TabTitleFormatButton.cpp:90
+#, fuzzy, kde-format
+#| msgid "Remote tab title format:"
+msgctxt "@info:tooltip"
+msgid "Insert remote title format"
+msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম্যাট:"
+
+#: widgets/TerminalDisplay.cpp:1298 widgets/TerminalDisplay.cpp:1299
+#, kde-format
+msgid "Size: XXX x XXX"
+msgstr "মাপ: XXX x XXX"
+
+#: widgets/TerminalDisplay.cpp:1310
+#, kde-format
+msgid "Size: %1 x %2"
+msgstr "মাপ: %1 x %2"
+
+#: widgets/TerminalDisplay.cpp:3289
+#, fuzzy, kde-format
+msgid "Are you sure you want to paste %1 character?"
+msgid_plural "Are you sure you want to paste %1 characters?"
+msgstr[0] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
+msgstr[1] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
+
+#: widgets/TerminalDisplay.cpp:3292
+#, fuzzy, kde-format
+#| msgid "Confirm Close"
+msgid "Confirm Paste"
+msgstr "বন্ধ করা অনুমোদন করো"
+
+#: widgets/TerminalDisplay.cpp:3324
+#, kde-format
+msgid "End Of Text/Interrupt: may exit the current process"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3325
+#, kde-format
+msgid "End Of Transmission: may exit the current process"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3326
+#, kde-format
+msgid "Bell: will try to emit an audible warning"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3327
+#, kde-format
+msgid "Backspace"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3328
+#, kde-format
+msgid "Device Control Three/XOFF: suspends output"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3329
+#, kde-format
+msgid "Substitute/Suspend: may suspend current process"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3330
+#, kde-format
+msgid "Escape: used for manipulating terminal state"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3331
+#, kde-format
+msgid "File Separator/Quit: may abort the current process"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3353
+#, kde-format
+msgid ""
+"The text you're trying to paste contains hidden control characters, do you "
+"want to filter them out?"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3356
+#, fuzzy, kde-format
+#| msgid "Confirm Close"
+msgctxt "@title"
+msgid "Confirm Paste"
+msgstr "বন্ধ করা অনুমোদন করো"
+
+#: widgets/TerminalDisplay.cpp:3358
+#, fuzzy, kde-format
+msgctxt "@action:button"
+msgid "Paste &without control characters"
+msgstr "বর্তমান অক্ষর মিলতে কার্সর রং নিযুক্ত করো"
+
+#: widgets/TerminalDisplay.cpp:3361
+#, fuzzy, kde-format
+#| msgid "Paste Selection"
+msgctxt "@action:button"
+msgid "&Paste everything"
+msgstr "নির্বাচিত অংশ সাঁটো"
+
+#: widgets/TerminalDisplay.cpp:3364
+#, kde-format
+msgctxt "@action:button"
+msgid "&Cancel"
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3615
+#, fuzzy, kde-format
+#| msgid ""
+#| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
+#| "\">suspended</a> by pressing Ctrl+S.  Press <b>Ctrl+Q</b> to resume.</qt>"
+msgid ""
+"<qt>Output has been <a href=\"https://en.wikipedia.org/wiki/"
+"Software_flow_control\">suspended</a> by pressing Ctrl+S. Press <b>Ctrl+Q</"
+"b> to resume.</qt>"
+msgstr ""
+"<qt>Ctrl+S চাপা হয়েছে বলে আউটপুট <a href=\"http://en.wikipedia.org/wiki/"
+"Flow_control\">আটকে রাখা</a> হয়েছে। <b>Ctrl+Q</b> চাপলে পুনরায় শুরু হবে।</qt>"
+
+#: widgets/TerminalDisplay.cpp:3656
+#, kde-format
+msgid "This terminal is read-only."
+msgstr ""
+
+#: widgets/TerminalDisplay.cpp:3965
+#, fuzzy, kde-format
+msgid "Change &Directory To"
+msgstr "কার্যকরী ডিরেক্টরি পাল্টে 'dir' করো"
+
+#: widgets/TerminalDisplay.cpp:3997
+#, fuzzy, kde-format
+#| msgid "Paste Selection"
+msgid "&Paste Location"
+msgstr "নির্বাচিত অংশ সাঁটো"
+
+#: widgets/TerminalHeaderBar.cpp:95
+#, fuzzy, kde-format
+#| msgid "C&lear Terminal"
+msgctxt "@info:tooltip"
+msgid "Maximize terminal"
+msgstr "টার্মিনাল ফাঁকা &করো"
+
+#: widgets/TerminalHeaderBar.cpp:106 widgets/TerminalHeaderBar.cpp:107
+#, fuzzy, kde-format
+#| msgid "C&lear Terminal"
+msgctxt "@info:tooltip"
+msgid "Close terminal"
+msgstr "টার্মিনাল ফাঁকা &করো"
+
+#: widgets/ViewContainer.cpp:115
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Detach Tab"
+msgstr "ট্যা&ব আলাদা করো"
+
+#: widgets/ViewContainer.cpp:122
+#, kde-format
+msgctxt "@action:inmenu"
+msgid "&Current Tab Settings..."
+msgstr ""
+
+#: widgets/ViewContainer.cpp:129
+#, fuzzy, kde-format
+#| msgid "&Close Tab"
+msgctxt "@action:inmenu"
+msgid "Close Tab"
+msgstr "ট্যাব &বন্ধ করো"
 
 #, fuzzy
 #~| msgid "Tab Bar"
