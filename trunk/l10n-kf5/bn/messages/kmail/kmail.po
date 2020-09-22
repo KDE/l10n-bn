@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmail\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-09-18 02:27+0200\n"
+"POT-Creation-Date: 2020-09-22 02:24+0200\n"
 "PO-Revision-Date: 2006-02-06 01:01-0600\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -341,24 +341,13 @@ msgid ""
 "associate with this folder.</qt>"
 msgstr ""
 
-#: collectionpage/collectiontemplatespage.cpp:26
+#: collectionpage/collectiontemplatespage.cpp:25
 #: identity/identitydialog.cpp:667
 #, kde-format
 msgid "Templates"
 msgstr ""
 
-#: collectionpage/collectiontemplatespage.cpp:47
-#, fuzzy, kde-format
-msgid "&Use custom message templates in this folder"
-msgstr "বার্তা ক্ষেত্রের &উপরে"
-
-#: collectionpage/collectiontemplatespage.cpp:63
-#: identity/identitydialog.cpp:660
-#, fuzzy, kde-format
-msgid "&Copy Global Templates"
-msgstr "&বদলাও"
-
-#: collectionpage/collectionviewpage.cpp:37
+#: collectionpage/collectionviewpage.cpp:38
 #, fuzzy, kde-format
 #| msgctxt "to view"
 #| msgid "View"
@@ -385,86 +374,86 @@ msgctxt "Icon used for folders which do have unread messages."
 msgid "&Unread:"
 msgstr "&অপঠিত:"
 
-#: collectionpage/collectionviewpage.cpp:102
+#: collectionpage/collectionviewwidget.cpp:34
 #, kde-format
 msgid "Show Sender/Receiver Column in List of Messages"
 msgstr ""
 
-#: collectionpage/collectionviewpage.cpp:104
+#: collectionpage/collectionviewwidget.cpp:36
 #, kde-format
 msgid "Sho&w column:"
 msgstr "কলা&ম দেখাও:"
 
-#: collectionpage/collectionviewpage.cpp:108
+#: collectionpage/collectionviewwidget.cpp:40
 #, fuzzy, kde-format
 msgctxt "@item:inlistbox Show default value."
 msgid "Default"
 msgstr "ডিফল্ট নির্দিষ্ট করো"
 
-#: collectionpage/collectionviewpage.cpp:109
+#: collectionpage/collectionviewwidget.cpp:41
 #, fuzzy, kde-format
 #| msgid "Sender"
 msgctxt "@item:inlistbox Show sender."
 msgid "Sender"
 msgstr "প্রেরক"
 
-#: collectionpage/collectionviewpage.cpp:110
+#: collectionpage/collectionviewwidget.cpp:42
 #, fuzzy, kde-format
 #| msgid "Receiver"
 msgctxt "@item:inlistbox Show receiver."
 msgid "Receiver"
 msgstr "গ্রাহক"
 
-#: collectionpage/collectionviewpage.cpp:118
+#: collectionpage/collectionviewwidget.cpp:50
 #: configuredialog/configureappearancepage.cpp:109
 #: configuredialog/configureappearancepage.cpp:130
 #, kde-format
 msgid "Message List"
 msgstr "বার্তা তালিকা"
 
-#: collectionpage/collectionviewpage.cpp:123
+#: collectionpage/collectionviewwidget.cpp:55
 #, fuzzy, kde-format
 #| msgid "Delete T&hread"
 msgid "Use default aggregation"
 msgstr "[&স]সূত্র মুছে ফেলো"
 
-#: collectionpage/collectionviewpage.cpp:129
+#: collectionpage/collectionviewwidget.cpp:61
 #, fuzzy, kde-format
 #| msgid "Suggestions"
 msgid "Aggregation"
 msgstr "প্রস্তাবিত"
 
-#: collectionpage/collectionviewpage.cpp:144
+#: collectionpage/collectionviewwidget.cpp:76
 #, fuzzy, kde-format
 #| msgid "Delete T&hread"
 msgid "Use default theme"
 msgstr "[&স]সূত্র মুছে ফেলো"
 
-#: collectionpage/collectionviewpage.cpp:150
+#: collectionpage/collectionviewwidget.cpp:82
 #, kde-format
 msgid "Theme"
 msgstr ""
 
-#: collectionpage/collectionviewpage.cpp:165
+#: collectionpage/collectionviewwidget.cpp:97
 #: widgets/displaymessageformatactionmenu.cpp:17
 #, fuzzy, kde-format
 #| msgid "Message Part Properties"
 msgid "Message Default Format"
 msgstr "বার্তার অংশের বৈশিষ্ট্যাবলী"
 
-#: collectionpage/collectionviewpage.cpp:167
+#: collectionpage/collectionviewwidget.cpp:99
 #, fuzzy, kde-format
 #| msgid "Prefer H&TML to plain text"
 msgid "Prefer HTML to text"
 msgstr "প্লেইন-টেক্সট-এর তুলনায় &এইচ-টি-এম-এল-কে বেশী প্রাধান্য দাও"
 
-#: collectionpage/collectionviewpage.cpp:169
+#: collectionpage/collectionviewwidget.cpp:101
 #, fuzzy, kde-format
 #| msgid "Prefer &HTML to Plain Text"
 msgid "Prefer text to HTML"
 msgstr "সাধারন লেখার চেয়ে এই&চ-টি-এম-এল বেশী পছন্দ করো"
 
-#: collectionpage/collectionviewpage.cpp:171
+#: collectionpage/collectionviewwidget.cpp:103
 #, fuzzy, kde-format
 #| msgid "Reset Font Settings"
 msgid "Use Global Settings"
@@ -3005,6 +2994,11 @@ msgstr ""
 #, fuzzy, kde-format
 msgid "&Use custom message templates for this identity"
 msgstr "বার্তা ক্ষেত্রের &উপরে"
+
+#: identity/identitydialog.cpp:660
+#, fuzzy, kde-format
+msgid "&Copy Global Templates"
+msgstr "&বদলাও"
 
 #: identity/identitydialog.cpp:673
 #, kde-format
@@ -7306,6 +7300,10 @@ msgstr[1] "\"অফিসে নেই\" উত্তর কনফিগার �
 #, kde-format
 msgid "Zoom: %1%"
 msgstr ""
+
+#, fuzzy
+#~ msgid "&Use custom message templates in this folder"
+#~ msgstr "বার্তা ক্ষেত্রের &উপরে"
 
 #, fuzzy
 #~| msgid "<qt>File <b>%1</b> exists.<br>Do you want to replace it?</qt>"
