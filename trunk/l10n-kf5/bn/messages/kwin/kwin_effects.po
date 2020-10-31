@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:29+0200\n"
+"POT-Creation-Date: 2020-10-31 02:28+0100\n"
 "PO-Revision-Date: 2010-06-01 10:25-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -236,7 +236,7 @@ msgstr "ওয়ালপেপার:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_8)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
-#: cube/cube_config.ui:82 desktopgrid/desktopgrid_config.ui:207
+#: cube/cube_config.ui:82 desktopgrid/desktopgrid_config.ui:236
 #: flipswitch/flipswitch_config.ui:204
 #: presentwindows/presentwindows_config.ui:17
 #, kde-format
@@ -440,7 +440,7 @@ msgstr ""
 msgid "Start animation when moving windows towards screen edges"
 msgstr ""
 
-#: desktopgrid/desktopgrid.cpp:65 desktopgrid/desktopgrid_config.cpp:57
+#: desktopgrid/desktopgrid.cpp:66 desktopgrid/desktopgrid_config.cpp:57
 #, kde-format
 msgid "Show Desktop Grid"
 msgstr "ডেস্কটপ গ্রিড দেখাও"
@@ -569,14 +569,34 @@ msgstr "স্বনির্বাচিত"
 msgid "N&umber of rows:"
 msgstr "সারি&র সংখ্যা:"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_PresentWindows)
-#: desktopgrid/desktopgrid_config.ui:190
+#. i18n: ectx: property (text), widget (QLabel, clickBehaviorLabel)
+#: desktopgrid/desktopgrid_config.ui:177
 #, kde-format
-msgid "Use Present Windows effect to layout the windows"
+msgid "Click behavior:"
 msgstr ""
 
+#. i18n: ectx: property (toolTip), widget (QRadioButton, switchDesktopAndActivateWindow)
+#: desktopgrid/desktopgrid_config.ui:190
+#, kde-format
+msgid ""
+"If the Present Windows effect is enabled, it will be automatically triggered."
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, switchDesktopAndActivateWindow)
+#: desktopgrid/desktopgrid_config.ui:193
+#, kde-format
+msgid "Switch desktop and activate window"
+msgstr ""
+
+#. i18n: ectx: property (text), widget (QRadioButton, switchDesktopOnly)
+#: desktopgrid/desktopgrid_config.ui:203
+#, fuzzy, kde-format
+#| msgid "Switch One Desktop Down"
+msgid "Switch desktop only"
+msgstr "নিচের ডেস্কটপে যাও"
+
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowAddRemove)
-#: desktopgrid/desktopgrid_config.ui:197
+#: desktopgrid/desktopgrid_config.ui:213
 #, kde-format
 msgid "Show buttons to alter count of virtual desktops"
 msgstr ""
@@ -2725,9 +2745,6 @@ msgstr "মাউসের অনুকরণ"
 
 #~ msgid "Switch One Desktop Up"
 #~ msgstr "উপরের ডেস্কটপে যাও"
-
-#~ msgid "Switch One Desktop Down"
-#~ msgstr "নিচের ডেস্কটপে যাও"
 
 #~ msgid "Switch to Screen 0"
 #~ msgstr "0 নং স্ক্রীণে যাও"
