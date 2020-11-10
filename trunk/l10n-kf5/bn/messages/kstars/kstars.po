@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-08 02:10+0100\n"
+"POT-Creation-Date: 2020-11-10 02:10+0100\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -9454,14 +9454,14 @@ msgstr "ছবি ধারণ করো"
 #. i18n: ectx: property (text), widget (QCheckBox, focusStepCheck)
 #: ekos/analyze/analyze.cpp:1515 ekos/auxiliary/opslogs.ui:377
 #: ekos/manager.cpp:2361 ekos/manager.ui:1189 ekos/scheduler/scheduler.ui:279
-#: fitsviewer/fitsviewer.cpp:363
+#: fitsviewer/fitsviewer.cpp:383
 #, kde-format
 msgid "Focus"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, alignStepCheck)
 #: ekos/analyze/analyze.cpp:1516 ekos/manager.cpp:2325
-#: ekos/scheduler/scheduler.ui:232 fitsviewer/fitsviewer.cpp:371
+#: ekos/scheduler/scheduler.ui:232 fitsviewer/fitsviewer.cpp:391
 #, fuzzy, kde-format
 #| msgid "Focused on: "
 msgid "Align"
@@ -9475,7 +9475,7 @@ msgstr "ফোকাসকৃত বস্তু: "
 #: ekos/analyze/analyze.cpp:1517 ekos/analyze/analyze.ui:271
 #: ekos/auxiliary/opslogs.ui:120 ekos/guide/guide.cpp:146
 #: ekos/guide/guide.ui:205 ekos/manager.cpp:2514 ekos/manager.ui:1386
-#: ekos/scheduler/scheduler.ui:254 fitsviewer/fitsviewer.cpp:367
+#: ekos/scheduler/scheduler.ui:254 fitsviewer/fitsviewer.cpp:387
 #, fuzzy, kde-format
 #| msgid "Guides"
 msgid "Guide"
@@ -9691,7 +9691,7 @@ msgstr ""
 #. i18n: ectx: property (windowTitle), widget (QDialog, solveInfo)
 #. i18n: ectx: property (windowTitle), widget (QDialog, statForm)
 #: ekos/analyze/analyze.ui:125 fitsviewer/fitstab.cpp:378
-#: fitsviewer/fitsviewer.cpp:179 fitsviewer/solveInfo.ui:14
+#: fitsviewer/fitsviewer.cpp:180 fitsviewer/solveInfo.ui:14
 #: fitsviewer/statform.ui:14
 #, kde-format
 msgid "Statistics"
@@ -10973,64 +10973,74 @@ msgid "Close"
 msgstr "রং"
 
 #: ekos/auxiliary/stellarsolverprofile.cpp:25
-#: ekos/auxiliary/stellarsolverprofile.cpp:85
-#: ekos/auxiliary/stellarsolverprofile.cpp:142
-#, kde-format
-msgid "Default profile. Generic and not optimized for any specific purpose."
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Default FITS directory:"
+msgid "Default focus star-extraction."
+msgstr "ডিফল্ট FITS ডিরেক্টরি:"
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:33
-#: ekos/auxiliary/stellarsolverprofile.cpp:90
+#: ekos/auxiliary/stellarsolverprofile.cpp:40
+#: ekos/auxiliary/stellarsolverprofile.cpp:104
 #, kde-format
 msgid "Profile for the source extraction of all the stars in an image."
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:41
-#: ekos/auxiliary/stellarsolverprofile.cpp:98
+#: ekos/auxiliary/stellarsolverprofile.cpp:48
+#: ekos/auxiliary/stellarsolverprofile.cpp:112
 #, kde-format
 msgid "Profile optimized for source extraction of smaller stars."
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:52
-#: ekos/auxiliary/stellarsolverprofile.cpp:109
+#: ekos/auxiliary/stellarsolverprofile.cpp:59
+#: ekos/auxiliary/stellarsolverprofile.cpp:123
 #, kde-format
 msgid "Profile optimized for source extraction of medium sized stars."
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:66
-#: ekos/auxiliary/stellarsolverprofile.cpp:123
+#: ekos/auxiliary/stellarsolverprofile.cpp:73
+#: ekos/auxiliary/stellarsolverprofile.cpp:137
 #, kde-format
 msgid "Profile optimized for source extraction of larger stars."
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:147
+#: ekos/auxiliary/stellarsolverprofile.cpp:92
+#, fuzzy, kde-format
+#| msgid "Default FITS directory:"
+msgid "Default guider star-extraction."
+msgstr "ডিফল্ট FITS ডিরেক্টরি:"
+
+#: ekos/auxiliary/stellarsolverprofile.cpp:156
+#, kde-format
+msgid "Default profile. Generic and not optimized for any specific purpose."
+msgstr ""
+
+#: ekos/auxiliary/stellarsolverprofile.cpp:161
 #, kde-format
 msgid ""
 "Profile intended for Plate Solving telescopic sized images in a single CPU "
 "Thread"
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:159
+#: ekos/auxiliary/stellarsolverprofile.cpp:173
 #, kde-format
 msgid "Profile intended for Plate Solving camera lens sized images"
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:170
+#: ekos/auxiliary/stellarsolverprofile.cpp:184
 #, kde-format
 msgid "Profile intended for Plate Solving telescopic sized images"
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:188
+#: ekos/auxiliary/stellarsolverprofile.cpp:202
 #, kde-format
 msgid "Default. Set for typical HFR estimation."
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:207
+#: ekos/auxiliary/stellarsolverprofile.cpp:221
 #, kde-format
 msgid "Set for typical HFR estimation on big stars."
 msgstr ""
 
-#: ekos/auxiliary/stellarsolverprofile.cpp:225
+#: ekos/auxiliary/stellarsolverprofile.cpp:239
 #, kde-format
 msgid "Set for HFR estimation on most stars."
 msgstr ""
@@ -12991,7 +13001,7 @@ msgid "Dark & Flat frames automatic calibration options"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, calibrationB)
-#: ekos/capture/capture.ui:934 fitsviewer/fitsviewer.cpp:359
+#: ekos/capture/capture.ui:934 fitsviewer/fitsviewer.cpp:379
 #, fuzzy, kde-format
 #| msgid "Client"
 msgid "Calibrate"
@@ -17530,7 +17540,7 @@ msgstr ""
 msgid "Failed to update site location to %1. City not found."
 msgstr ""
 
-#: ekos/manager.cpp:3046 fitsviewer/fitsviewer.cpp:527 indi/indiccd.cpp:1786
+#: ekos/manager.cpp:3046 fitsviewer/fitsviewer.cpp:546 indi/indiccd.cpp:1786
 #, fuzzy, kde-format
 #| msgid "CCD Preview"
 msgid "Preview"
@@ -22750,8 +22760,8 @@ msgid "Y Offset:"
 msgstr "বিশ্বজনীন-সময় (universal Time) থেকে পার্থক্য:"
 
 #. i18n: ectx: property (text), widget (QLineEdit, statusEdit)
-#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:399
-#: fitsviewer/fitsviewer.cpp:999
+#: fitsviewer/fitsdebayer.ui:130 fitsviewer/fitsviewer.cpp:418
+#: fitsviewer/fitsviewer.cpp:1019
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Reading"
@@ -22760,7 +22770,7 @@ msgstr "রিডিং"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, fitsHeaderDialog)
 #: fitsviewer/fitsheaderdialog.ui:14 fitsviewer/fitstab.cpp:383
-#: fitsviewer/fitsviewer.cpp:144
+#: fitsviewer/fitsviewer.cpp:145
 #, kde-format
 msgid "FITS Header"
 msgstr "FITS হেডার"
@@ -22828,7 +22838,7 @@ msgstr ""
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, FITSHistogramUI)
 #: fitsviewer/fitshistogramui.ui:32 fitsviewer/fitstab.cpp:380
-#: fitsviewer/fitsviewer.cpp:125
+#: fitsviewer/fitsviewer.cpp:126
 #, kde-format
 msgid "Histogram"
 msgstr "আয়তলেখ"
@@ -23019,13 +23029,13 @@ msgid "Toggle Stretch"
 msgstr "স্বয়ংক্রিয় মাত্রা"
 
 # FIXME
-#: fitsviewer/fitsview.cpp:1877 fitsviewer/fitsviewer.cpp:184
+#: fitsviewer/fitsview.cpp:1877 fitsviewer/fitsviewer.cpp:185
 #, fuzzy, kde-format
 #| msgid "Crosshairs"
 msgid "Show Cross Hairs"
 msgstr "ক্রসহেয়ার"
 
-#: fitsviewer/fitsview.cpp:1881 fitsviewer/fitsviewer.cpp:190
+#: fitsviewer/fitsview.cpp:1881 fitsviewer/fitsviewer.cpp:191
 #, fuzzy, kde-format
 #| msgid "Show constellation lines?"
 msgid "Show Pixel Gridlines"
@@ -23043,15 +23053,15 @@ msgstr "FITS খোলো..."
 msgid "View Star Profile"
 msgstr "প্রদেশ ফিল্টার:"
 
-#: fitsviewer/fitsview.cpp:1902 fitsviewer/fitsviewer.cpp:196
-#: fitsviewer/fitsviewer.cpp:870
+#: fitsviewer/fitsview.cpp:1902 fitsviewer/fitsviewer.cpp:197
+#: fitsviewer/fitsviewer.cpp:890
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Show Equatorial Gridlines"
 msgstr "নিরক্ষীয় স্থানাঙ্ক"
 
-#: fitsviewer/fitsview.cpp:1908 fitsviewer/fitsviewer.cpp:203
-#: fitsviewer/fitsviewer.cpp:872
+#: fitsviewer/fitsview.cpp:1908 fitsviewer/fitsviewer.cpp:204
+#: fitsviewer/fitsviewer.cpp:892
 #, fuzzy, kde-format
 #| msgid "Show Objects"
 msgid "Show Objects in Image"
@@ -23099,122 +23109,129 @@ msgstr "মেরিডেন"
 msgid "Gaussian blur"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:52 fitsviewer/fitsviewer.cpp:108
+#: fitsviewer/fitsviewer.cpp:52 fitsviewer/fitsviewer.cpp:109
 #, kde-format
 msgid "Rotate Right"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:52 fitsviewer/fitsviewer.cpp:112
+#: fitsviewer/fitsviewer.cpp:52 fitsviewer/fitsviewer.cpp:113
 #, fuzzy, kde-format
 msgid "Rotate Left"
 msgstr "কোল্ড লেক"
 
-#: fitsviewer/fitsviewer.cpp:52 fitsviewer/fitsviewer.cpp:116
+#: fitsviewer/fitsviewer.cpp:52 fitsviewer/fitsviewer.cpp:117
 #, fuzzy, kde-format
 msgid "Flip Horizontal"
 msgstr "দিগন্ত"
 
-#: fitsviewer/fitsviewer.cpp:53 fitsviewer/fitsviewer.cpp:121
+#: fitsviewer/fitsviewer.cpp:53 fitsviewer/fitsviewer.cpp:122
 #, fuzzy, kde-format
 #| msgctxt "Advanced URLs: description or category"
 #| msgid "Optical"
 msgid "Flip Vertical"
 msgstr "দৃষ্টিসংক্রান্ত"
 
-#: fitsviewer/fitsviewer.cpp:150
+#: fitsviewer/fitsviewer.cpp:151
 #, kde-format
 msgid "Debayer..."
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:210 fitsviewer/fitsviewer.cpp:882
+#: fitsviewer/fitsviewer.cpp:211 fitsviewer/fitsviewer.cpp:902
 #, kde-format
 msgid ""
 "Center Telescope\n"
 "*No Telescopes Detected*"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:217
+#: fitsviewer/fitsviewer.cpp:218
 #, kde-format
 msgid "Zoom To Fit"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:223 fitsviewer/fitsviewer.cpp:598
-#: fitsviewer/fitsviewer.cpp:610 fitsviewer/fitsviewer.cpp:964
+#: fitsviewer/fitsviewer.cpp:224 fitsviewer/fitsviewer.cpp:615
+#: fitsviewer/fitsviewer.cpp:627 fitsviewer/fitsviewer.cpp:984
 #, kde-format
 msgid "View 3D Graph"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:229 fitsviewer/fitsviewer.cpp:972
+#: fitsviewer/fitsviewer.cpp:230 fitsviewer/fitsviewer.cpp:992
 #, fuzzy, kde-format
 #| msgid "Mars"
 msgid "Mark Stars"
 msgstr "মঙ্গলগ্রহ (মার্স)"
 
-#: fitsviewer/fitsviewer.cpp:245
+#: fitsviewer/fitsviewer.cpp:246
 #, fuzzy, kde-format
 #| msgid "Welcome to KStars FITS Viewer"
 msgid "KStars FITS Viewer"
 msgstr "কে-স্টার্স-এর FITS প্রদর্শকের পক্ষ থেকে স্বাগতম"
 
-#: fitsviewer/fitsviewer.cpp:395 fitsviewer/fitsviewer.cpp:576
+#: fitsviewer/fitsviewer.cpp:338
+#, kde-format
+msgid "HFR=%2 Ecc=%3 %1 star."
+msgid_plural "HFR=%2 Ecc=%3 %1 stars."
+msgstr[0] ""
+msgstr[1] ""
+
+#: fitsviewer/fitsviewer.cpp:344
 #, fuzzy, kde-format
-#| msgid "Auto Scale"
-msgid "%1 star detected. HFR=%2"
-msgid_plural "%1 stars detected. HFR=%2"
-msgstr[0] "স্বয়ংক্রিয় মাত্রা"
-msgstr[1] "স্বয়ংক্রিয় মাত্রা"
+#| msgid "star"
+msgid "HFR=%2, %1 star."
+msgid_plural "HFR=%2, %1 stars."
+msgstr[0] "তারা"
+msgstr[1] "তারা"
 
 # FIXME
-#: fitsviewer/fitsviewer.cpp:599 fitsviewer/fitsviewer.cpp:933
+#: fitsviewer/fitsviewer.cpp:616 fitsviewer/fitsviewer.cpp:953
 #, fuzzy, kde-format
 #| msgid "Crosshairs"
 msgid "Cross Hairs"
 msgstr "ক্রসহেয়ার"
 
-#: fitsviewer/fitsviewer.cpp:600
+#: fitsviewer/fitsviewer.cpp:617
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Equatorial Gridines"
 msgstr "নিরক্ষীয় স্থানাঙ্ক"
 
-#: fitsviewer/fitsviewer.cpp:601 fitsviewer/fitsviewer.cpp:948
+#: fitsviewer/fitsviewer.cpp:618 fitsviewer/fitsviewer.cpp:968
 #, fuzzy, kde-format
 #| msgid "Show Objects"
 msgid "Objects in Image"
 msgstr "খ-বস্তু দেখাও"
 
-#: fitsviewer/fitsviewer.cpp:602 fitsviewer/fitsviewer.cpp:956
+#: fitsviewer/fitsviewer.cpp:619 fitsviewer/fitsviewer.cpp:976
 #, fuzzy, kde-format
 #| msgid "Show constellation lines?"
 msgid "Pixel Gridlines"
 msgstr "তারামণ্ডলের রেখা দেখানো হবে কি?"
 
-#: fitsviewer/fitsviewer.cpp:615 kstarsactions.cpp:1192
+#: fitsviewer/fitsviewer.cpp:632 kstarsactions.cpp:1192
 #, fuzzy, kde-format
 #| msgid "Open FITS..."
 msgid "Open Image"
 msgstr "FITS খোলো..."
 
-#: fitsviewer/fitsviewer.cpp:848
+#: fitsviewer/fitsviewer.cpp:868
 #, kde-format
 msgid "Hide %1"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:853
+#: fitsviewer/fitsviewer.cpp:873
 #, fuzzy, kde-format
 #| msgid "Show"
 msgid "Show %1"
 msgstr "দেখাও"
 
 # FIXME
-#: fitsviewer/fitsviewer.cpp:877
+#: fitsviewer/fitsviewer.cpp:897
 #, fuzzy, kde-format
 msgid ""
 "Center Telescope\n"
 "*Ready*"
 msgstr "দূরবীক্ষণ যন্ত্রকে কেন্দ্রে আনো"
 
-#: fitsviewer/fitsviewer.cpp:888
+#: fitsviewer/fitsviewer.cpp:908
 #, kde-format
 msgid ""
 "Show Equatorial Gridlines\n"
@@ -23222,33 +23239,33 @@ msgid ""
 msgstr ""
 
 # FIXME
-#: fitsviewer/fitsviewer.cpp:890
+#: fitsviewer/fitsviewer.cpp:910
 #, fuzzy, kde-format
 msgid ""
 "Center Telescope\n"
 "*No WCS Info*"
 msgstr "দূরবীক্ষণ যন্ত্রকে কেন্দ্রে আনো"
 
-#: fitsviewer/fitsviewer.cpp:892
+#: fitsviewer/fitsviewer.cpp:912
 #, kde-format
 msgid ""
 "Show Objects in Image\n"
 "*No WCS Info*"
 msgstr ""
 
-#: fitsviewer/fitsviewer.cpp:940
+#: fitsviewer/fitsviewer.cpp:960
 #, fuzzy, kde-format
 #| msgid "Equatorial Coordinates"
 msgid "Equatorial Gridlines"
 msgstr "নিরক্ষীয় স্থানাঙ্ক"
 
-#: fitsviewer/fitsviewer.cpp:977
+#: fitsviewer/fitsviewer.cpp:997
 #, fuzzy, kde-format
 #| msgid "Mars"
 msgid "Unmark Stars"
 msgstr "মঙ্গলগ্রহ (মার্স)"
 
-#: fitsviewer/fitsviewer.cpp:993
+#: fitsviewer/fitsviewer.cpp:1013
 #, fuzzy, kde-format
 #| msgid "Focused on: "
 msgid "Processing %1..."
@@ -114785,6 +114802,13 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #, fuzzy, kde-format
 msgid "Set the color for the background."
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দেওয়া হবে কি?"
+
+#, fuzzy
+#~| msgid "Auto Scale"
+#~ msgid "%1 star detected. HFR=%2"
+#~ msgid_plural "%1 stars detected. HFR=%2"
+#~ msgstr[0] "স্বয়ংক্রিয় মাত্রা"
+#~ msgstr[1] "স্বয়ংক্রিয় মাত্রা"
 
 #, fuzzy
 #~| msgctxt "City name (optional, probably does not need a translation)"
