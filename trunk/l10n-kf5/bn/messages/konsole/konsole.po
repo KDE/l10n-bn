@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-11-07 02:42+0100\n"
+"POT-Creation-Date: 2020-11-14 02:39+0100\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -65,40 +65,53 @@ msgstr "সেটিংস"
 msgid "Help"
 msgstr "সহায়তা"
 
+#. i18n: ectx: ToolBar (mainToolBar)
+#: ../desktop/konsoleui.rc:50
+#, kde-format
+msgid "Main Toolbar"
+msgstr ""
+
 #. i18n: ectx: Menu (history)
 #: ../desktop/partui.rc:13
 #, kde-format
 msgid "S&crollback"
 msgstr "&ইতিবৃত্ত"
 
-#: Application.cpp:64
+#. i18n: ectx: ToolBar (sessionToolbar)
+#: ../desktop/sessionui.rc:63
+#, fuzzy, kde-format
+#| msgid "Session"
+msgid "Session Toolbar"
+msgstr "সেশন"
+
+#: Application.cpp:51
 #, fuzzy, kde-format
 #| msgid "Name of profile to use for new Konsole instance"
 msgctxt "@info:shell"
 msgid "Name of profile to use for new Konsole instance"
 msgstr "নতুন কনসোল-এর জন্য ব্যবহার্য প্রোফাইলের নাম"
 
-#: Application.cpp:68
+#: Application.cpp:55
 #, kde-format
 msgctxt "@info:shell"
 msgid "Use the internal FALLBACK profile"
 msgstr ""
 
-#: Application.cpp:71
+#: Application.cpp:58
 #, fuzzy, kde-format
 #| msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgctxt "@info:shell"
 msgid "Set the initial working directory of the new tab or window to 'dir'"
 msgstr "নতুন ট্যাব বা উইণ্ডো 'dir' ডিরেক্টরিতে কাজ শুরু করবে"
 
-#: Application.cpp:75
+#: Application.cpp:62
 #, fuzzy, kde-format
 #| msgid "Do not close the initial session automatically when it ends."
 msgctxt "@info:shell"
 msgid "Do not close the initial session automatically when it ends."
 msgstr "প্রারম্ভিক সেশন শেষ হলে সেটি নিজে থেকে বন্ধ কোর না।"
 
-#: Application.cpp:78
+#: Application.cpp:65
 #, fuzzy, kde-format
 #| msgid ""
 #| "Create a new tab in an existing window rather than creating a new window"
@@ -107,13 +120,13 @@ msgid ""
 "Create a new tab in an existing window rather than creating a new window"
 msgstr "নতুন উইণ্ডো তৈরি করার বদলে একটি বিদ্যমান উইণ্ডোয় নতুন ট্যাব তৈরি করো"
 
-#: Application.cpp:81
+#: Application.cpp:68
 #, kde-format
 msgctxt "@info:shell"
 msgid "Create tabs as specified in given tabs configuration file"
 msgstr ""
 
-#: Application.cpp:85
+#: Application.cpp:72
 #, fuzzy, kde-format
 #| msgid ""
 #| "Start Konsole in the background and bring to the front when the F12 key "
@@ -124,70 +137,70 @@ msgid ""
 "(by default) is pressed"
 msgstr "ব্যাকগ্রাইণ্ড-এ কনসোল শুরু করো এবং F12 চাপলে সেটি সামনে আনো"
 
-#: Application.cpp:88
+#: Application.cpp:75
 #, kde-format
 msgctxt "@info:shell"
 msgid "Run in a separate process"
 msgstr ""
 
-#: Application.cpp:91
+#: Application.cpp:78
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:94
+#: Application.cpp:81
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the menubar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:97
+#: Application.cpp:84
 #, kde-format
 msgctxt "@info:shell"
 msgid "Show the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:100
+#: Application.cpp:87
 #, kde-format
 msgctxt "@info:shell"
 msgid "Hide the tabbar, overriding the default setting"
 msgstr ""
 
-#: Application.cpp:103
+#: Application.cpp:90
 #, kde-format
 msgctxt "@info:shell"
 msgid "Start Konsole in fullscreen mode"
 msgstr ""
 
-#: Application.cpp:106
+#: Application.cpp:93
 #, fuzzy, kde-format
 #| msgid "Disable transparent backgrounds, even if the system supports them."
 msgctxt "@info:shell"
 msgid "Disable transparent backgrounds, even if the system supports them."
 msgstr "স্বচ্ছ পটভূমি নিষ্ক্রিয় করো, এমন কি সিস্টেম সমর্থন করলেও।"
 
-#: Application.cpp:109
+#: Application.cpp:96
 #, fuzzy, kde-format
 #| msgid "List the available profiles"
 msgctxt "@info:shell"
 msgid "List the available profiles"
 msgstr "বর্তমান প্রোফাইলগুলির তালিকা দেখাও"
 
-#: Application.cpp:112
+#: Application.cpp:99
 #, kde-format
 msgctxt "@info:shell"
 msgid "List all the profile properties names and their type (for use with -p)"
 msgstr ""
 
-#: Application.cpp:115
+#: Application.cpp:102
 #, fuzzy, kde-format
 #| msgid "Change the value of a profile property."
 msgctxt "@info:shell"
 msgid "Change the value of a profile property."
 msgstr "একটি প্রোফাইল বৈশিষ্ট্যের মান পরিবর্তন করো।"
 
-#: Application.cpp:119
+#: Application.cpp:106
 #, kde-format
 msgctxt "@info:shell"
 msgid ""
@@ -195,275 +208,275 @@ msgid ""
 "it as the last option."
 msgstr ""
 
-#: Application.cpp:128
+#: Application.cpp:115
 #, fuzzy, kde-format
 #| msgid "Arguments passed to command"
 msgctxt "@info:shell"
 msgid "Arguments passed to command"
 msgstr "যে যে আর্গুমেন্ট সমেত কমান্ড চালানো হবে"
 
-#: Application.cpp:574
+#: Application.cpp:561
 #, fuzzy, kde-format
 #| msgid "Background (Intense)"
 msgctxt "@item"
 msgid "Toggle Background Window"
 msgstr "পটভূমি (গাঢ়)"
 
-#: BookmarkHandler.cpp:124
+#: BookmarkHandler.cpp:111
 #, kde-format
 msgctxt "@item:inmenu The user's name and host they are connected to via ssh"
 msgid "%1 on %2"
 msgstr "%2-এর উপরে %1"
 
-#: BookmarkHandler.cpp:126
+#: BookmarkHandler.cpp:113
 #, kde-format
 msgctxt "@item:inmenu The host the user is connected to via ssh"
 msgid "%1"
 msgstr "%1"
 
-#: colorscheme/ColorScheme.cpp:128
+#: colorscheme/ColorScheme.cpp:115
 #, fuzzy, kde-format
 #| msgid "Foreground"
 msgctxt "@item:intable palette"
 msgid "Foreground"
 msgstr "পুরোভূমি"
 
-#: colorscheme/ColorScheme.cpp:129
+#: colorscheme/ColorScheme.cpp:116
 #, fuzzy, kde-format
 #| msgid "Background"
 msgctxt "@item:intable palette"
 msgid "Background"
 msgstr "পটভূমি"
 
-#: colorscheme/ColorScheme.cpp:130
+#: colorscheme/ColorScheme.cpp:117
 #, fuzzy, kde-format
 #| msgid "Color 1"
 msgctxt "@item:intable palette"
 msgid "Color 1"
 msgstr "রং ১"
 
-#: colorscheme/ColorScheme.cpp:131
+#: colorscheme/ColorScheme.cpp:118
 #, fuzzy, kde-format
 #| msgid "Color 2"
 msgctxt "@item:intable palette"
 msgid "Color 2"
 msgstr "রং ২"
 
-#: colorscheme/ColorScheme.cpp:132
+#: colorscheme/ColorScheme.cpp:119
 #, fuzzy, kde-format
 #| msgid "Color 3"
 msgctxt "@item:intable palette"
 msgid "Color 3"
 msgstr "রং ৩"
 
-#: colorscheme/ColorScheme.cpp:133
+#: colorscheme/ColorScheme.cpp:120
 #, fuzzy, kde-format
 #| msgid "Color 4"
 msgctxt "@item:intable palette"
 msgid "Color 4"
 msgstr "রং ৪"
 
-#: colorscheme/ColorScheme.cpp:134
+#: colorscheme/ColorScheme.cpp:121
 #, fuzzy, kde-format
 #| msgid "Color 5"
 msgctxt "@item:intable palette"
 msgid "Color 5"
 msgstr "রং ৫"
 
-#: colorscheme/ColorScheme.cpp:135
+#: colorscheme/ColorScheme.cpp:122
 #, fuzzy, kde-format
 #| msgid "Color 6"
 msgctxt "@item:intable palette"
 msgid "Color 6"
 msgstr "রং ৬"
 
-#: colorscheme/ColorScheme.cpp:136
+#: colorscheme/ColorScheme.cpp:123
 #, fuzzy, kde-format
 #| msgid "Color 7"
 msgctxt "@item:intable palette"
 msgid "Color 7"
 msgstr "রং ৭"
 
-#: colorscheme/ColorScheme.cpp:137
+#: colorscheme/ColorScheme.cpp:124
 #, fuzzy, kde-format
 #| msgid "Color 8"
 msgctxt "@item:intable palette"
 msgid "Color 8"
 msgstr "রং ৮"
 
-#: colorscheme/ColorScheme.cpp:138
+#: colorscheme/ColorScheme.cpp:125
 #, fuzzy, kde-format
 #| msgid "Foreground (Intense)"
 msgctxt "@item:intable palette"
 msgid "Foreground (Intense)"
 msgstr "পুরোভূমি (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:139
+#: colorscheme/ColorScheme.cpp:126
 #, fuzzy, kde-format
 #| msgid "Background (Intense)"
 msgctxt "@item:intable palette"
 msgid "Background (Intense)"
 msgstr "পটভূমি (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:140
+#: colorscheme/ColorScheme.cpp:127
 #, fuzzy, kde-format
 #| msgid "Color 1 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 1 (Intense)"
 msgstr "রং ১ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:141
+#: colorscheme/ColorScheme.cpp:128
 #, fuzzy, kde-format
 #| msgid "Color 2 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 2 (Intense)"
 msgstr "রং ২ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:142
+#: colorscheme/ColorScheme.cpp:129
 #, fuzzy, kde-format
 #| msgid "Color 3 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 3 (Intense)"
 msgstr "রং ৩ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:143
+#: colorscheme/ColorScheme.cpp:130
 #, fuzzy, kde-format
 #| msgid "Color 4 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 4 (Intense)"
 msgstr "রং ৪ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:144
+#: colorscheme/ColorScheme.cpp:131
 #, fuzzy, kde-format
 #| msgid "Color 5 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 5 (Intense)"
 msgstr "রং ৫ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:145
+#: colorscheme/ColorScheme.cpp:132
 #, fuzzy, kde-format
 #| msgid "Color 6 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 6 (Intense)"
 msgstr "রং ৬ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:146
+#: colorscheme/ColorScheme.cpp:133
 #, fuzzy, kde-format
 #| msgid "Color 7 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 7 (Intense)"
 msgstr "রং ৭ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:147
+#: colorscheme/ColorScheme.cpp:134
 #, fuzzy, kde-format
 #| msgid "Color 8 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 8 (Intense)"
 msgstr "রং ৮ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:148
+#: colorscheme/ColorScheme.cpp:135
 #, fuzzy, kde-format
 #| msgid "Foreground (Intense)"
 msgctxt "@item:intable palette"
 msgid "Foreground (Faint)"
 msgstr "পুরোভূমি (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:149
+#: colorscheme/ColorScheme.cpp:136
 #, fuzzy, kde-format
 #| msgid "Background (Intense)"
 msgctxt "@item:intable palette"
 msgid "Background (Faint)"
 msgstr "পটভূমি (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:150
+#: colorscheme/ColorScheme.cpp:137
 #, fuzzy, kde-format
 #| msgid "Color 1 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 1 (Faint)"
 msgstr "রং ১ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:151
+#: colorscheme/ColorScheme.cpp:138
 #, fuzzy, kde-format
 #| msgid "Color 2 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 2 (Faint)"
 msgstr "রং ২ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:152
+#: colorscheme/ColorScheme.cpp:139
 #, fuzzy, kde-format
 #| msgid "Color 3 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 3 (Faint)"
 msgstr "রং ৩ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:153
+#: colorscheme/ColorScheme.cpp:140
 #, fuzzy, kde-format
 #| msgid "Color 4 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 4 (Faint)"
 msgstr "রং ৪ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:154
+#: colorscheme/ColorScheme.cpp:141
 #, fuzzy, kde-format
 #| msgid "Color 5 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 5 (Faint)"
 msgstr "রং ৫ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:155
+#: colorscheme/ColorScheme.cpp:142
 #, fuzzy, kde-format
 #| msgid "Color 6 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 6 (Faint)"
 msgstr "রং ৬ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:156
+#: colorscheme/ColorScheme.cpp:143
 #, fuzzy, kde-format
 #| msgid "Color 7 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 7 (Faint)"
 msgstr "রং ৭ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:157
+#: colorscheme/ColorScheme.cpp:144
 #, fuzzy, kde-format
 #| msgid "Color 8 (Intense)"
 msgctxt "@item:intable palette"
 msgid "Color 8 (Faint)"
 msgstr "রং ৮ (গাঢ়)"
 
-#: colorscheme/ColorScheme.cpp:444
+#: colorscheme/ColorScheme.cpp:431
 #, fuzzy, kde-format
 #| msgid "Un-named Color Scheme"
 msgctxt "@item"
 msgid "Un-named Color Scheme"
 msgstr "নামহীন রং স্কীম"
 
-#: colorscheme/ColorSchemeEditor.cpp:122
+#: colorscheme/ColorSchemeEditor.cpp:109
 #, kde-format
 msgctxt "@label:listbox Column header text for color names"
 msgid "Name"
 msgstr "নাম"
 
-#: colorscheme/ColorSchemeEditor.cpp:123
+#: colorscheme/ColorSchemeEditor.cpp:110
 #, kde-format
 msgctxt "@label:listbox Column header text for the actual colors"
 msgid "Color"
 msgstr "রং"
 
-#: colorscheme/ColorSchemeEditor.cpp:124
+#: colorscheme/ColorSchemeEditor.cpp:111
 #, kde-format
 msgctxt "@label:listbox Column header text for the actual intense colors"
 msgid "Intense color"
 msgstr ""
 
-#: colorscheme/ColorSchemeEditor.cpp:125
+#: colorscheme/ColorSchemeEditor.cpp:112
 #, fuzzy, kde-format
 #| msgid "Linux Colors"
 msgctxt "@label:listbox Column header text for the actual faint colors"
 msgid "Faint color"
 msgstr "লিনাক্স রং"
 
-#: colorscheme/ColorSchemeEditor.cpp:154
+#: colorscheme/ColorSchemeEditor.cpp:141
 #, fuzzy, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -473,45 +486,45 @@ msgstr ""
 "পটভূমি ট্রান্সপারেন্সি মানসমূহ ব্যবহার করা হবে না কারণ আপনার ডেস্কটপ স্বচ্ছ উইন্ডোজ "
 "সমর্থন করতে আবির্ভূত হো না।"
 
-#: colorscheme/ColorSchemeEditor.cpp:210
+#: colorscheme/ColorSchemeEditor.cpp:197
 #, kde-format
 msgctxt "@title:window"
 msgid "Select wallpaper image file"
 msgstr ""
 
-#: colorscheme/ColorSchemeEditor.cpp:213
+#: colorscheme/ColorSchemeEditor.cpp:200
 #, kde-format
 msgctxt "@label:textbox Filter in file open dialog"
 msgid "Supported Images"
 msgstr ""
 
-#: colorscheme/ColorSchemeEditor.cpp:271
+#: colorscheme/ColorSchemeEditor.cpp:258
 #, fuzzy, kde-format
 #| msgid "New Color Scheme"
 msgctxt "@title:window"
 msgid "New Color Scheme"
 msgstr "নতুন রং স্কীম"
 
-#: colorscheme/ColorSchemeEditor.cpp:274
+#: colorscheme/ColorSchemeEditor.cpp:261
 #, fuzzy, kde-format
 #| msgid "Edit Color Scheme"
 msgctxt "@title:window"
 msgid "Edit Color Scheme"
 msgstr "রং স্কীম সম্পাদনা করো"
 
-#: colorscheme/ColorSchemeEditor.cpp:310
+#: colorscheme/ColorSchemeEditor.cpp:297
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose color"
 msgstr ""
 
-#: colorscheme/ColorSchemeEditor.cpp:316
+#: colorscheme/ColorSchemeEditor.cpp:303
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose intense color"
 msgstr ""
 
-#: colorscheme/ColorSchemeEditor.cpp:321
+#: colorscheme/ColorSchemeEditor.cpp:308
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Click to choose Faint color"
@@ -587,12 +600,12 @@ msgstr "রং স্কীম এবং পটভূমি"
 msgid "..."
 msgstr "..."
 
-#: colorscheme/ColorSchemeViewDelegate.cpp:64
+#: colorscheme/ColorSchemeViewDelegate.cpp:51
 #, kde-format
 msgid "AaZz09..."
 msgstr ""
 
-#: CopyInputDialog.cpp:43
+#: CopyInputDialog.cpp:30
 #, kde-format
 msgid "Copy Input"
 msgstr "ইনপুট কপি করো"
@@ -616,57 +629,57 @@ msgstr "সব নির্বাচন করো"
 msgid "Deselect All"
 msgstr "কিছুই নির্বাচিত রেখো না"
 
-#: filterHotSpots/FileFilterHotspot.cpp:62
+#: filterHotSpots/FileFilterHotspot.cpp:49
 #, fuzzy, kde-format
 #| msgid "Copy Input To"
 msgid "Copy Location"
 msgstr "ইনপুট কপি করে পাঠাও"
 
-#: filterHotSpots/FileFilterHotspot.cpp:84 session/SessionController.cpp:1835
+#: filterHotSpots/FileFilterHotspot.cpp:71 session/SessionController.cpp:1827
 #, kde-format
 msgid "open with"
 msgstr ""
 
-#: filterHotSpots/FileFilterHotspot.cpp:165
+#: filterHotSpots/FileFilterHotspot.cpp:152
 #, kde-format
 msgid "Generating Thumbnail"
 msgstr ""
 
-#: filterHotSpots/UrlFilterHotspot.cpp:120
+#: filterHotSpots/UrlFilterHotspot.cpp:107
 #, kde-format
 msgid "Open Link"
 msgstr "লিঙ্ক খোলো"
 
-#: filterHotSpots/UrlFilterHotspot.cpp:122
+#: filterHotSpots/UrlFilterHotspot.cpp:109
 #, kde-format
 msgid "Copy Link Address"
 msgstr "লিঙ্ক ঠিকানা কপি করো"
 
-#: filterHotSpots/UrlFilterHotspot.cpp:125
+#: filterHotSpots/UrlFilterHotspot.cpp:112
 #, kde-format
 msgid "Send Email To..."
 msgstr "ই-মেইল পাঠাও..."
 
-#: filterHotSpots/UrlFilterHotspot.cpp:127
+#: filterHotSpots/UrlFilterHotspot.cpp:114
 #, kde-format
 msgid "Copy Email Address"
 msgstr "ই-মেইল ঠিকানা কপি করো"
 
-#: FontDialog.cpp:38
+#: FontDialog.cpp:25
 #, fuzzy, kde-format
 #| msgid "Edit Font..."
 msgctxt "@title:window"
 msgid "Select font"
 msgstr "ফন্ট সম্পাদনা করো..."
 
-#: FontDialog.cpp:41
+#: FontDialog.cpp:28
 #, fuzzy, kde-format
 #| msgid "Smooth fonts"
 msgctxt "@action:button"
 msgid "Show all fonts"
 msgstr "মসৃণ ফন্ট"
 
-#: FontDialog.cpp:61
+#: FontDialog.cpp:48
 #, kde-format
 msgctxt "@info:status"
 msgid ""
@@ -675,46 +688,46 @@ msgid ""
 "This should not be necessary except in rare cases."
 msgstr ""
 
-#: HistorySizeDialog.cpp:39
+#: HistorySizeDialog.cpp:26
 #, fuzzy, kde-format
 #| msgid "Scrollback"
 msgctxt "@title:window"
 msgid "Adjust Scrollback"
 msgstr "ইতিবৃত্ত"
 
-#: HistorySizeDialog.cpp:61
+#: HistorySizeDialog.cpp:48
 #, kde-format
 msgctxt "@info:status"
 msgid "Any adjustments are only temporary to this session."
 msgstr ""
 
-#: KeyBindingEditor.cpp:67
+#: KeyBindingEditor.cpp:54
 #, kde-format
 msgctxt "@label:textbox"
 msgid "Enter descriptive label"
 msgstr ""
 
-#: KeyBindingEditor.cpp:78
+#: KeyBindingEditor.cpp:65
 #, kde-format
 msgid "Key Combination"
 msgstr "কী-কম্বিনেশন"
 
-#: KeyBindingEditor.cpp:78
+#: KeyBindingEditor.cpp:65
 #, kde-format
 msgid "Output"
 msgstr "আউটপুট"
 
-#: KeyBindingEditor.cpp:240 KeyBindingEditor.cpp:241
+#: KeyBindingEditor.cpp:227 KeyBindingEditor.cpp:228
 #, kde-format
 msgid "New Key Binding List"
 msgstr "নতুন কী-বাইণ্ডিং তালিকা"
 
-#: KeyBindingEditor.cpp:244
+#: KeyBindingEditor.cpp:231
 #, kde-format
 msgid "Edit Key Binding List"
 msgstr "কী-বাইণ্ডিং তালিকা সম্পাদনা করো"
 
-#: KeyBindingEditor.cpp:309
+#: KeyBindingEditor.cpp:296
 #, kde-format
 msgid "A key bindings scheme cannot be saved with an empty description."
 msgstr ""
@@ -753,179 +766,179 @@ msgstr "ইনপুট:"
 msgid "Output:"
 msgstr "আউটপুট:"
 
-#: main.cpp:149
+#: main.cpp:136
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@title"
 msgid "Konsole"
 msgstr "কনসোল"
 
-#: main.cpp:151
+#: main.cpp:138
 #, fuzzy, kde-format
 #| msgid "Terminal emulator"
 msgctxt "@title"
 msgid "Terminal emulator"
 msgstr "টার্মিনাল এমুলেটর"
 
-#: main.cpp:153
+#: main.cpp:140
 #, kde-format
 msgctxt "@info:credit"
 msgid "(c) 1997-2020, The Konsole Developers"
 msgstr ""
 
-#: main.cpp:334
+#: main.cpp:320
 #, fuzzy, kde-format
 #| msgid "Kurt V. Hindenburg"
 msgctxt "@info:credit"
 msgid "Kurt Hindenburg"
 msgstr "Kurt V. Hindenburg"
 
-#: main.cpp:335
+#: main.cpp:321
 #, fuzzy, kde-format
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "General maintainer, bug fixes and general improvements"
 msgstr "ত্রুটিসংশোধন এবং উন্নতিসাধন"
 
-#: main.cpp:338
+#: main.cpp:324
 #, fuzzy, kde-format
 #| msgid "Robert Knight"
 msgctxt "@info:credit"
 msgid "Robert Knight"
 msgstr "Robert Knight"
 
-#: main.cpp:339
+#: main.cpp:325
 #, kde-format
 msgctxt "@info:credit"
 msgid "Previous maintainer, ported to KDE4"
 msgstr ""
 
-#: main.cpp:341
+#: main.cpp:327
 #, fuzzy, kde-format
 #| msgid "Lars Doelle"
 msgctxt "@info:credit"
 msgid "Lars Doelle"
 msgstr "Lars Doelle"
 
-#: main.cpp:342
+#: main.cpp:328
 #, fuzzy, kde-format
 #| msgid "Terminal emulator"
 msgctxt "@info:credit"
 msgid "Original author"
 msgstr "টার্মিনাল এমুলেটর"
 
-#: main.cpp:344
+#: main.cpp:330
 #, kde-format
 msgctxt "@info:credit"
 msgid "Jekyll Wu"
 msgstr ""
 
-#: main.cpp:345 main.cpp:348 main.cpp:351
+#: main.cpp:331 main.cpp:334 main.cpp:337
 #, fuzzy, kde-format
 #| msgid "Bug fixes and general improvements"
 msgctxt "@info:credit"
 msgid "Bug fixes and general improvements"
 msgstr "ত্রুটিসংশোধন এবং উন্নতিসাধন"
 
-#: main.cpp:347
+#: main.cpp:333
 #, fuzzy, kde-format
 #| msgid "Waldo Bastian"
 msgctxt "@info:credit"
 msgid "Waldo Bastian"
 msgstr "Waldo Bastian"
 
-#: main.cpp:350
+#: main.cpp:336
 #, fuzzy, kde-format
 #| msgid "Stephan Binner"
 msgctxt "@info:credit"
 msgid "Stephan Binner"
 msgstr "Stephan Binner"
 
-#: main.cpp:353
+#: main.cpp:339
 #, fuzzy, kde-format
 #| msgid "Thomas Dreibholz"
 msgctxt "@info:credit"
 msgid "Thomas Dreibholz"
 msgstr "Thomas Dreibholz"
 
-#: main.cpp:354
+#: main.cpp:340
 #, fuzzy, kde-format
 #| msgid "General improvements"
 msgctxt "@info:credit"
 msgid "General improvements"
 msgstr "বিবিধ উন্নতিসাধন"
 
-#: main.cpp:356
+#: main.cpp:342
 #, fuzzy, kde-format
 #| msgid "Chris Machemer"
 msgctxt "@info:credit"
 msgid "Chris Machemer"
 msgstr "Chris Machemer"
 
-#: main.cpp:357 main.cpp:360 main.cpp:396 main.cpp:399 main.cpp:402
-#: main.cpp:405
+#: main.cpp:343 main.cpp:346 main.cpp:382 main.cpp:385 main.cpp:388
+#: main.cpp:391
 #, fuzzy, kde-format
 #| msgid "Bug fixes"
 msgctxt "@info:credit"
 msgid "Bug fixes"
 msgstr "ত্রুটিসংশোধন"
 
-#: main.cpp:359
+#: main.cpp:345
 #, kde-format
 msgctxt "@info:credit"
 msgid "Francesco Cecconi"
 msgstr ""
 
-#: main.cpp:362
+#: main.cpp:348
 #, fuzzy, kde-format
 #| msgid "Stephan Kulow"
 msgctxt "@info:credit"
 msgid "Stephan Kulow"
 msgstr "Stephan Kulow"
 
-#: main.cpp:363
+#: main.cpp:349
 #, fuzzy, kde-format
 #| msgid "Solaris support and history"
 msgctxt "@info:credit"
 msgid "Solaris support and history"
 msgstr "সোলারিস সমর্থন এবং 'ইতিবৃত্ত'"
 
-#: main.cpp:365
+#: main.cpp:351
 #, fuzzy, kde-format
 #| msgid "Alexander Neundorf"
 msgctxt "@info:credit"
 msgid "Alexander Neundorf"
 msgstr "Alexander Neundorf"
 
-#: main.cpp:366
+#: main.cpp:352
 #, fuzzy, kde-format
 #| msgid "Bug fixes and improved startup performance"
 msgctxt "@info:credit"
 msgid "Bug fixes and improved startup performance"
 msgstr "Bug fixes and improved startup performance"
 
-#: main.cpp:368
+#: main.cpp:354
 #, fuzzy, kde-format
 #| msgid "Peter Silva"
 msgctxt "@info:credit"
 msgid "Peter Silva"
 msgstr "Peter Silva"
 
-#: main.cpp:369
+#: main.cpp:355
 #, fuzzy, kde-format
 #| msgid "Marking improvements"
 msgctxt "@info:credit"
 msgid "Marking improvements"
 msgstr "মার্কিং-এ উন্নতিসাধন"
 
-#: main.cpp:371
+#: main.cpp:357
 #, fuzzy, kde-format
 #| msgid "Lotzi Boloni"
 msgctxt "@info:credit"
 msgid "Lotzi Boloni"
 msgstr "Lotzi Boloni"
 
-#: main.cpp:372
+#: main.cpp:358
 #, fuzzy, kde-format
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -938,14 +951,14 @@ msgstr ""
 "Embedded Konsole\n"
 "Toolbar and session names"
 
-#: main.cpp:375
+#: main.cpp:361
 #, fuzzy, kde-format
 #| msgid "David Faure"
 msgctxt "@info:credit"
 msgid "David Faure"
 msgstr "David Faure"
 
-#: main.cpp:376
+#: main.cpp:362
 #, fuzzy, kde-format
 #| msgid ""
 #| "Embedded Konsole\n"
@@ -958,28 +971,28 @@ msgstr ""
 "Embedded Konsole\n"
 "General improvements"
 
-#: main.cpp:379
+#: main.cpp:365
 #, fuzzy, kde-format
 #| msgid "Antonio Larrosa"
 msgctxt "@info:credit"
 msgid "Antonio Larrosa"
 msgstr "Antonio Larrosa"
 
-#: main.cpp:380
+#: main.cpp:366
 #, fuzzy, kde-format
 #| msgid "Visual effects"
 msgctxt "@info:credit"
 msgid "Visual effects"
 msgstr "Visual effects"
 
-#: main.cpp:382
+#: main.cpp:368
 #, fuzzy, kde-format
 #| msgid "Matthias Ettrich"
 msgctxt "@info:credit"
 msgid "Matthias Ettrich"
 msgstr "Matthias Ettrich"
 
-#: main.cpp:383
+#: main.cpp:369
 #, fuzzy, kde-format
 #| msgid ""
 #| "Code from the kvt project\n"
@@ -992,133 +1005,133 @@ msgstr ""
 "Code from the kvt project\n"
 "General improvements"
 
-#: main.cpp:386
+#: main.cpp:372
 #, fuzzy, kde-format
 #| msgid "Warwick Allison"
 msgctxt "@info:credit"
 msgid "Warwick Allison"
 msgstr "Warwick Allison"
 
-#: main.cpp:387
+#: main.cpp:373
 #, fuzzy, kde-format
 #| msgid "Schema and text selection improvements"
 msgctxt "@info:credit"
 msgid "Schema and text selection improvements"
 msgstr "স্কীমা এবং লেখা নির্বাচন সংক্রান্ত উন্নতি"
 
-#: main.cpp:389
+#: main.cpp:375
 #, fuzzy, kde-format
 #| msgid "Dan Pilone"
 msgctxt "@info:credit"
 msgid "Dan Pilone"
 msgstr "Dan Pilone"
 
-#: main.cpp:390
+#: main.cpp:376
 #, fuzzy, kde-format
 #| msgid "SGI port"
 msgctxt "@info:credit"
 msgid "SGI port"
 msgstr "এস-জি-আই পোর্ট"
 
-#: main.cpp:392
+#: main.cpp:378
 #, fuzzy, kde-format
 #| msgid "Kevin Street"
 msgctxt "@info:credit"
 msgid "Kevin Street"
 msgstr "Kevin Street"
 
-#: main.cpp:393
+#: main.cpp:379
 #, fuzzy, kde-format
 #| msgid "FreeBSD port"
 msgctxt "@info:credit"
 msgid "FreeBSD port"
 msgstr "ফ্রি-বি-এস-ডি পোর্ট"
 
-#: main.cpp:395
+#: main.cpp:381
 #, fuzzy, kde-format
 #| msgid "Sven Fischer"
 msgctxt "@info:credit"
 msgid "Sven Fischer"
 msgstr "Sven Fischer"
 
-#: main.cpp:398
+#: main.cpp:384
 #, fuzzy, kde-format
 #| msgid "Dale M. Flaven"
 msgctxt "@info:credit"
 msgid "Dale M. Flaven"
 msgstr "Dale M. Flaven"
 
-#: main.cpp:401
+#: main.cpp:387
 #, fuzzy, kde-format
 #| msgid "Martin Jones"
 msgctxt "@info:credit"
 msgid "Martin Jones"
 msgstr "Martin Jones"
 
-#: main.cpp:404
+#: main.cpp:390
 #, fuzzy, kde-format
 #| msgid "Lars Knoll"
 msgctxt "@info:credit"
 msgid "Lars Knoll"
 msgstr "Lars Knoll"
 
-#: main.cpp:407
+#: main.cpp:393
 #, fuzzy, kde-format
 #| msgid "Thanks to many others.\n"
 msgctxt "@info:credit"
 msgid "Thanks to many others.\n"
 msgstr "আরো অনেককে ধন্যবাদ।\n"
 
-#: MainWindow.cpp:315
+#: MainWindow.cpp:310
 #, fuzzy, kde-format
 #| msgid "&New Tab"
 msgctxt "@action:inmenu"
 msgid "&New Tab"
 msgstr "&নতুন ট্যাব"
 
-#: MainWindow.cpp:325
+#: MainWindow.cpp:320
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
 msgid "&Clone Tab"
 msgstr "ট্যাব &বন্ধ করো"
 
-#: MainWindow.cpp:332
+#: MainWindow.cpp:327
 #, fuzzy, kde-format
 #| msgid "New &Window"
 msgctxt "@action:inmenu"
 msgid "New &Window"
 msgstr "নতুন &উইণ্ডো"
 
-#: MainWindow.cpp:339
+#: MainWindow.cpp:334
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:inmenu"
 msgid "Close Window"
 msgstr "কনসোল"
 
-#: MainWindow.cpp:344
+#: MainWindow.cpp:339
 #, fuzzy, kde-format
 #| msgid "&Bookmarks"
 msgctxt "@title:menu"
 msgid "&Bookmarks"
 msgstr "বু&কমার্ক"
 
-#: MainWindow.cpp:363
+#: MainWindow.cpp:358
 #, fuzzy, kde-format
 #| msgid "Manage Profiles"
 msgctxt "@action:inmenu"
 msgid "Manage Profiles..."
 msgstr "প্রোফাইল ব্যবস্থাপনা করো"
 
-#: MainWindow.cpp:369
+#: MainWindow.cpp:364
 #, fuzzy, kde-format
 #| msgid "Activate Menu"
 msgctxt "@item"
 msgid "Activate Menu"
 msgstr "মেনু সক্রিয় করো"
 
-#: MainWindow.cpp:603 MainWindow.cpp:622
+#: MainWindow.cpp:598 MainWindow.cpp:617
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1129,28 +1142,28 @@ msgid_plural ""
 msgstr[0] "এই ইউণ্ডোতে একাধিক ট্যাব রয়েছে, আপনি কি সত্যিই প্রস্থান করতে চান?"
 msgstr[1] "এই ইউণ্ডোতে একাধিক ট্যাব রয়েছে, আপনি কি সত্যিই প্রস্থান করতে চান?"
 
-#: MainWindow.cpp:609 MainWindow.cpp:628 MainWindow.cpp:646
+#: MainWindow.cpp:604 MainWindow.cpp:623 MainWindow.cpp:641
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Close"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: MainWindow.cpp:611 MainWindow.cpp:630 MainWindow.cpp:647
+#: MainWindow.cpp:606 MainWindow.cpp:625 MainWindow.cpp:642
 #, fuzzy, kde-format
 #| msgid "Konsole"
 msgctxt "@action:button"
 msgid "Close &Window"
 msgstr "কনসোল"
 
-#: MainWindow.cpp:633 MainWindow.cpp:650
+#: MainWindow.cpp:628 MainWindow.cpp:645
 #, fuzzy, kde-format
 #| msgid "Close Current Tab"
 msgctxt "@action:button"
 msgid "Close Current &Tab"
 msgstr "বর্তমান ট্যাব বন্ধ করো"
 
-#: MainWindow.cpp:643
+#: MainWindow.cpp:638
 #, fuzzy, kde-format
 #| msgid ""
 #| "You have multiple tabs in this window, are you sure you want to quit?"
@@ -1158,39 +1171,39 @@ msgctxt "@info"
 msgid "There are %1 open terminals in this window. Do you still want to quit?"
 msgstr "এই ইউণ্ডোতে একাধিক ট্যাব রয়েছে, আপনি কি সত্যিই প্রস্থান করতে চান?"
 
-#: MainWindow.cpp:765
+#: MainWindow.cpp:760
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title Preferences page name"
 msgid "General"
 msgstr "সাধারণ"
 
-#: MainWindow.cpp:770 Part.cpp:326
+#: MainWindow.cpp:765 Part.cpp:313
 #, fuzzy, kde-format
 #| msgid "New Profile"
 msgctxt "@title Preferences page name"
 msgid "Profiles"
 msgstr "নতুন প্রোফাইল"
 
-#: MainWindow.cpp:775
+#: MainWindow.cpp:770
 #, fuzzy, kde-format
 msgctxt "@title Preferences page name"
 msgid "Tab Bar / Splitters"
 msgstr "ট্যাব সংক্রান্ত &অপশন"
 
-#: MainWindow.cpp:780
+#: MainWindow.cpp:775
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Temporary Files"
 msgstr ""
 
-#: MainWindow.cpp:785
+#: MainWindow.cpp:780
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Thumbnails"
 msgstr ""
 
-#: Part.cpp:332
+#: Part.cpp:319
 #, kde-format
 msgctxt "@title Preferences page name"
 msgid "Part Info"
@@ -1217,30 +1230,30 @@ msgstr "প্রিন্টার ফ্রেণ্ডলি মো&ড (ক�
 msgid "&Scale output"
 msgstr ""
 
-#: profile/Profile.cpp:166
+#: profile/Profile.cpp:153
 #, fuzzy, kde-format
 msgctxt "Name of the default/builtin profile"
 msgid "Default"
 msgstr "কনসোল ডিফল্ট"
 
-#: profile/ProfileList.cpp:48
+#: profile/ProfileList.cpp:35
 #, kde-format
 msgid "Default profile"
 msgstr "ডিফল্ট প্রোফাইল"
 
-#: profile/ProfileManager.cpp:343
+#: profile/ProfileManager.cpp:330
 #, kde-format
 msgid "Konsole does not have permission to save this profile to %1"
 msgstr ""
 
-#: profile/ProfileManager.cpp:399
+#: profile/ProfileManager.cpp:386
 #, kde-format
 msgid ""
 "The name \"Default\" is reserved for the built-in fallback profile;\n"
 "the profile is going to be saved as \"%1\""
 msgstr ""
 
-#: profile/ProfileModel.cpp:71
+#: profile/ProfileModel.cpp:58
 #, fuzzy, kde-format
 #| msgctxt "@label:listbox Column header text for color names"
 #| msgid "Name"
@@ -1248,40 +1261,40 @@ msgctxt "@title:column Profile name"
 msgid "Name"
 msgstr "নাম"
 
-#: profile/ProfileModel.cpp:72
+#: profile/ProfileModel.cpp:59
 #, fuzzy, kde-format
 #| msgid "Shortcut"
 msgctxt "@title:column Profile keyboard shortcut"
 msgid "Shortcut"
 msgstr "শর্টকাট"
 
-#: profile/ProfileModel.cpp:95
+#: profile/ProfileModel.cpp:82
 #, fuzzy, kde-format
 msgid " (Default)"
 msgstr "কনসোল ডিফল্ট"
 
-#: profile/ProfileModel.cpp:113
+#: profile/ProfileModel.cpp:100
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Double click to change shortcut"
 msgstr ""
 
-#: RenameTabDialog.cpp:38
+#: RenameTabDialog.cpp:25
 #, kde-format
 msgid "Tab Properties"
 msgstr ""
 
-#: SaveHistoryTask.cpp:84
+#: SaveHistoryTask.cpp:71
 #, kde-format
 msgid "Save Output From %1"
 msgstr "%1 থেকে আউটপুট সংরক্ষণ করো"
 
-#: SaveHistoryTask.cpp:96
+#: SaveHistoryTask.cpp:83
 #, kde-format
 msgid "%1 is an invalid URL, the output could not be saved."
 msgstr "%1 একটি অবৈধ ইউ-আর-এল, আউটপুট সংরক্ষণ করা যায়নি।"
 
-#: SaveHistoryTask.cpp:178
+#: SaveHistoryTask.cpp:165
 #, kde-format
 msgid ""
 "A problem occurred when saving the output.\n"
@@ -1372,23 +1385,23 @@ msgstr ""
 msgid "Solaris console"
 msgstr "সোলারিস কনসোল"
 
-#: session/Session.cpp:129
+#: session/Session.cpp:114
 #, kde-format
 msgid "Bell in session '%1'"
 msgstr "সেশন '%1'-এ ঘণ্টা"
 
-#: session/Session.cpp:412
+#: session/Session.cpp:397
 #, kde-format
 msgid "Could not find binary: "
 msgstr "বাইনারি খুঁজে পাওয়া যায়নি:"
 
-#: session/Session.cpp:421
+#: session/Session.cpp:406
 #, kde-format
 msgctxt "@info:shell Alert the user with red color text"
 msgid "Warning: "
 msgstr "সতর্কবার্তা: "
 
-#: session/Session.cpp:479
+#: session/Session.cpp:464
 #, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
@@ -1397,22 +1410,22 @@ msgstr ""
 "'%1' খুঁজে পাওয়া যায়নি, তার বদলে '%2' শুরু করা হচ্ছে। অনুগ্রহ করে আপনার প্রোফাইল "
 "সেটিংস পরীক্ষা করুন।"
 
-#: session/Session.cpp:482
+#: session/Session.cpp:467
 #, kde-format
 msgid "Could not find an interactive shell to start."
 msgstr "শুরু করার জন্য কোন interactive shell খুঁজে পাওয়া যায়নি।"
 
-#: session/Session.cpp:520
+#: session/Session.cpp:505
 #, fuzzy, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "প্রেরিত মান '%2'এর সঙ্গে প্রোগ্রাম কি '%1' শুরু করতে পারে না।"
 
-#: session/Session.cpp:660
+#: session/Session.cpp:645
 #, kde-format
 msgid "Silence in session '%1'"
 msgstr "সেশন '%1' চুপচাপ"
 
-#: session/Session.cpp:929
+#: session/Session.cpp:914
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1421,277 +1434,277 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:965
+#: session/Session.cpp:950
 #, kde-format
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "শেষ"
 
-#: session/Session.cpp:979 session/Session.cpp:992
+#: session/Session.cpp:964 session/Session.cpp:977
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' ক্র্যাশ করেছে।"
 
-#: session/Session.cpp:981
+#: session/Session.cpp:966
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1'-এর %2 স্ট্যাটাস সমেত সমাপ্তি।"
 
-#: session/Session.cpp:1424
+#: session/Session.cpp:1409
 #, kde-format
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
-#: session/Session.cpp:1740
+#: session/Session.cpp:1725
 #, kde-format
 msgid "Activity in session '%1'"
 msgstr "সেশন '%1'-এ কিছু ঘটছে"
 
-#: session/SessionController.cpp:149
+#: session/SessionController.cpp:136
 #, kde-format
 msgid "Konsole"
 msgstr "কনসোল"
 
-#: session/SessionController.cpp:365
+#: session/SessionController.cpp:352
 #, kde-format
 msgid "The process '%1' has finished running in session '%2'"
 msgstr ""
 
-#: session/SessionController.cpp:445
+#: session/SessionController.cpp:432
 #, kde-format
 msgid "Konsole does not know how to open the bookmark: "
 msgstr "কনসোল জানে না এই বুকমার্কটি কি করে খুলতে হবে: "
 
-#: session/SessionController.cpp:512
+#: session/SessionController.cpp:499
 #, fuzzy, kde-format
 #| msgid "Search string '%1' not found."
 msgid "Search for '%1' with"
 msgstr "শব্দসমষ্টি '%1' পাওয়া যায়নি।"
 
-#: session/SessionController.cpp:526
+#: session/SessionController.cpp:513
 #, fuzzy, kde-format
 #| msgid "Configure Profiles..."
 msgid "Configure Web Shortcuts..."
 msgstr "প্রোফাইল কনফিগার করুন..."
 
-#: session/SessionController.cpp:629
+#: session/SessionController.cpp:616
 #, fuzzy, kde-format
 msgid "&Close Session"
 msgstr "সেশন &বন্ধ করো"
 
-#: session/SessionController.cpp:636
+#: session/SessionController.cpp:623
 #, kde-format
 msgid "Open File Manager"
 msgstr "ফাইল ম্যানেজার খোলো"
 
-#: session/SessionController.cpp:654
+#: session/SessionController.cpp:641
 #, fuzzy, kde-format
 #| msgid "&Copy"
 msgid "Copy"
 msgstr "&কপি করো"
 
-#: session/SessionController.cpp:671
+#: session/SessionController.cpp:658
 #, kde-format
 msgid "Paste Selection"
 msgstr "নির্বাচিত অংশ সাঁটো"
 
-#: session/SessionController.cpp:678
+#: session/SessionController.cpp:665
 #, kde-format
 msgid "Web Search"
 msgstr ""
 
-#: session/SessionController.cpp:685
+#: session/SessionController.cpp:672
 #, fuzzy, kde-format
 #| msgid "Select All"
 msgid "&Select All"
 msgstr "সব নির্বাচন করো"
 
-#: session/SessionController.cpp:689
+#: session/SessionController.cpp:676
 #, fuzzy, kde-format
 #| msgid "Select"
 msgid "Select &Line"
 msgstr "নির্বাচন করো"
 
-#: session/SessionController.cpp:692
+#: session/SessionController.cpp:679
 #, kde-format
 msgid "Save Output &As..."
 msgstr "আউটপুট &নতুন নামে সংরক্ষণ করো..."
 
-#: session/SessionController.cpp:698
+#: session/SessionController.cpp:685
 #, kde-format
 msgid "&Print Screen..."
 msgstr "স্ক্রীণ ছাপা&ও..."
 
-#: session/SessionController.cpp:702
+#: session/SessionController.cpp:689
 #, fuzzy, kde-format
 #| msgid "Configure Scrollback..."
 msgid "Adjust Scrollback..."
 msgstr "ইতিবৃত্ত কনফিগার করো..."
 
-#: session/SessionController.cpp:706
+#: session/SessionController.cpp:693
 #, kde-format
 msgid "Clear Scrollback"
 msgstr "ইতিবৃত্ত মুছে ফেলো"
 
-#: session/SessionController.cpp:710
+#: session/SessionController.cpp:697
 #, kde-format
 msgid "Clear Scrollback and Reset"
 msgstr "ইতিবৃত্ত মুছে ফেলো এবং রিসেট করো"
 
-#: session/SessionController.cpp:716
+#: session/SessionController.cpp:703
 #, kde-format
 msgid "Edit Current Profile..."
 msgstr "বর্তমান প্রোফাইল সম্পাদনা করো..."
 
-#: session/SessionController.cpp:719
+#: session/SessionController.cpp:706
 #, fuzzy, kde-format
 #| msgid "Edit Profile"
 msgid "Switch Profile"
 msgstr "প্রোফাইল সম্পাদনা করো"
 
-#: session/SessionController.cpp:743
+#: session/SessionController.cpp:731
 #, kde-format
 msgid "Set &Encoding"
 msgstr "&এনকোডিং নির্ধারণ করো"
 
-#: session/SessionController.cpp:754
+#: session/SessionController.cpp:742
 #, kde-format
 msgctxt "@item:inmenu A read only (locked) session"
 msgid "Read-only"
 msgstr ""
 
-#: session/SessionController.cpp:765
+#: session/SessionController.cpp:753
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgid "&Configure or Rename Tab..."
 msgstr "ট্যাব-এর না&ম পাল্টাও..."
 
-#: session/SessionController.cpp:771
+#: session/SessionController.cpp:759
 #, kde-format
 msgid "&All Tabs in Current Window"
 msgstr "বর্তমান উইণ্ডোয় &সমস্ত ট্যাব"
 
-#: session/SessionController.cpp:778
+#: session/SessionController.cpp:766
 #, kde-format
 msgid "&Select Tabs..."
 msgstr "ট্যাব নির্বাচ&ন করুন..."
 
-#: session/SessionController.cpp:784
+#: session/SessionController.cpp:772
 #, fuzzy, kde-format
 #| msgid "&None"
 msgctxt "@action:inmenu Do not select any tabs"
 msgid "&None"
 msgstr "কিছু &নয়"
 
-#: session/SessionController.cpp:792
+#: session/SessionController.cpp:780
 #, kde-format
 msgid "Copy Input To"
 msgstr "ইনপুট কপি করে পাঠাও"
 
-#: session/SessionController.cpp:801
+#: session/SessionController.cpp:789
 #, kde-format
 msgid "&ZModem Upload..."
 msgstr "&ZModem আপলোড..."
 
-#: session/SessionController.cpp:806
+#: session/SessionController.cpp:794
 #, kde-format
 msgid "Monitor for &Activity"
 msgstr "কিছু &ঘটছে কি না খেয়াল রাখো"
 
-#: session/SessionController.cpp:811
+#: session/SessionController.cpp:800
 #, kde-format
 msgid "Monitor for &Silence"
 msgstr "সব চুপচা&প কি না খেয়াল রাখো"
 
-#: session/SessionController.cpp:816
+#: session/SessionController.cpp:806
 #, fuzzy, kde-format
 #| msgid "Monitor for &Activity"
 msgid "Monitor for Process Finishing"
 msgstr "কিছু &ঘটছে কি না খেয়াল রাখো"
 
-#: session/SessionController.cpp:822
+#: session/SessionController.cpp:813
 #, kde-format
 msgid "Enlarge Font"
 msgstr "ফন্ট বড় করো"
 
-#: session/SessionController.cpp:830
+#: session/SessionController.cpp:821
 #, kde-format
 msgid "Shrink Font"
 msgstr "ফন্ট ছোট করো"
 
-#: session/SessionController.cpp:835
+#: session/SessionController.cpp:826
 #, fuzzy, kde-format
 #| msgid "Increase Text Size"
 msgid "Reset Font Size"
 msgstr "লেখা বড় করো"
 
-#: session/SessionController.cpp:840
+#: session/SessionController.cpp:831
 #, fuzzy, kde-format
 #| msgid "&Send Signal"
 msgid "Send Signal"
 msgstr "সিগনা&ল পাঠাও"
 
-#: session/SessionController.cpp:846
+#: session/SessionController.cpp:837
 #, kde-format
 msgid "&Suspend Task"
 msgstr "টাস্ক স্থগি&ত রাখো"
 
-#: session/SessionController.cpp:851
+#: session/SessionController.cpp:842
 #, kde-format
 msgid "&Continue Task"
 msgstr "টাস্ক &আবার চালু করো"
 
-#: session/SessionController.cpp:856
+#: session/SessionController.cpp:847
 #, kde-format
 msgid "&Hangup"
 msgstr "হ্যাং আ&প"
 
-#: session/SessionController.cpp:861
+#: session/SessionController.cpp:852
 #, kde-format
 msgid "&Interrupt Task"
 msgstr "টাস্ক বিঘ্নিত &করো"
 
-#: session/SessionController.cpp:866
+#: session/SessionController.cpp:857
 #, fuzzy, kde-format
 #| msgid "Terminal Features"
 msgid "&Terminate Task"
 msgstr "টার্মিনাল বৈশিষ্ট্যাবলী"
 
-#: session/SessionController.cpp:871
+#: session/SessionController.cpp:862
 #, kde-format
 msgid "&Kill Task"
 msgstr "টাস্ক থামিয়ে দা&ও"
 
-#: session/SessionController.cpp:876
+#: session/SessionController.cpp:867
 #, kde-format
 msgid "User Signal &1"
 msgstr "ব্যবহারকারী সিগনাল &১"
 
-#: session/SessionController.cpp:881
+#: session/SessionController.cpp:872
 #, kde-format
 msgid "User Signal &2"
 msgstr "ব্যবহারকারী সিগনাল &২"
 
-#: session/SessionController.cpp:1005
+#: session/SessionController.cpp:997
 #, kde-format
 msgid ""
 "A program is currently running in this session.  Are you sure you want to "
 "close it?"
 msgstr "এই সেশন-এ একটি প্রোগ্রাম চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: session/SessionController.cpp:1008
+#: session/SessionController.cpp:1000
 #, kde-format
 msgid ""
 "The program '%1' is currently running in this session.  Are you sure you "
 "want to close it?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: session/SessionController.cpp:1014 session/SessionController.cpp:1044
+#: session/SessionController.cpp:1006 session/SessionController.cpp:1036
 #, kde-format
 msgid "Confirm Close"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: session/SessionController.cpp:1037
+#: session/SessionController.cpp:1029
 #, fuzzy, kde-format
 #| msgid ""
 #| "A program is currently running in this session.  Are you sure you want to "
@@ -1701,7 +1714,7 @@ msgid ""
 "by force?"
 msgstr "এই সেশন-এ একটি প্রোগ্রাম চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: session/SessionController.cpp:1040
+#: session/SessionController.cpp:1032
 #, fuzzy, kde-format
 #| msgid ""
 #| "The program '%1' is currently running in this session.  Are you sure you "
@@ -1711,13 +1724,13 @@ msgid ""
 "kill it by force?"
 msgstr "এই সেশন-এ '%1' প্রোগ্রামটি চলছে। আপনি কি এটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: session/SessionController.cpp:1869
+#: session/SessionController.cpp:1861
 #, fuzzy, kde-format
 #| msgid "Save ZModem Download to..."
 msgid "Save ZModem Download to..."
 msgstr "জি-মোডে&ম ডাউনলোড এখানে সংরক্ষণ করো..."
 
-#: session/SessionController.cpp:1879
+#: session/SessionController.cpp:1871
 #, kde-format
 msgid ""
 "<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
@@ -1728,13 +1741,13 @@ msgstr ""
 "সফটওয়্যার পাওয়া যাচ্ছে না।</p><p>আপনি 'rzsz' অথবা 'lrzsz' প্যাকেজটি ইনস্টল করে "
 "দেখতে পারেন।</p>"
 
-#: session/SessionController.cpp:1890
+#: session/SessionController.cpp:1882
 #, kde-format
 msgid ""
 "<p>The current session already has a ZModem file transfer in progress.</p>"
 msgstr "<p>বর্তমান সেশনে একটি জি-মোডেম ফাইল ট্রান্সফার আগে থেকেই চলছে।</p>"
 
-#: session/SessionController.cpp:1900
+#: session/SessionController.cpp:1892
 #, kde-format
 msgid ""
 "<p>No suitable ZModem software was found on this system.</p><p>You may wish "
@@ -1743,26 +1756,26 @@ msgstr ""
 "<p>সিস্টেমে কোনো মানানসই জি-মোডেম সফটওয়ার পাওয়া যায়নি।</p><p>আপনি 'rzsz' বা "
 "'lrzsz' প্যাকেজগুলি ইনস্টল করে দেখতে পারেন।</p>"
 
-#: session/SessionController.cpp:1906
+#: session/SessionController.cpp:1898
 #, kde-format
 msgid "Select Files for ZModem Upload"
 msgstr "জি-মোডেম আপলোড করার জন্য ফাইল বেছে নিন"
 
-#: session/SessionListModel.cpp:104
+#: session/SessionListModel.cpp:91
 #, fuzzy, kde-format
 #| msgid "Number"
 msgctxt "@item:intable The session index"
 msgid "Number"
 msgstr "সংখ্যা"
 
-#: session/SessionListModel.cpp:106
+#: session/SessionListModel.cpp:93
 #, fuzzy, kde-format
 #| msgid "Title"
 msgctxt "@item:intable The session title"
 msgid "Title"
 msgstr "শিরোনাম"
 
-#: settings/ConfigurationDialog.cpp:45
+#: settings/ConfigurationDialog.cpp:32
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title:window"
@@ -2121,7 +2134,7 @@ msgid ""
 "a change to how these are handled.</body></html>"
 msgstr ""
 
-#: settings/ProfileSettings.cpp:150
+#: settings/ProfileSettings.cpp:137
 #, fuzzy, kde-format
 #| msgid "New Profile..."
 msgctxt "@item This will be used as part of the file name"
@@ -2402,7 +2415,7 @@ msgctxt "@option:radio Always show the split header"
 msgid "Always"
 msgstr ""
 
-#: settings/TemporaryFilesSettings.cpp:49
+#: settings/TemporaryFilesSettings.cpp:35
 #, kde-format
 msgctxt ""
 "@option:radio File location; <filename>%1</filename>: path to directory "
@@ -2410,7 +2423,7 @@ msgctxt ""
 msgid "System temporary directory (%1)"
 msgstr ""
 
-#: settings/TemporaryFilesSettings.cpp:52
+#: settings/TemporaryFilesSettings.cpp:38
 #, kde-format
 msgctxt ""
 "@option:radio File location; <filename>%1</filename>: path to directory "
@@ -2485,104 +2498,104 @@ msgstr ""
 msgid "Activation:"
 msgstr "মেনু সক্রিয় করো"
 
-#: terminalDisplay/TerminalDisplay.cpp:969
-#: terminalDisplay/TerminalDisplay.cpp:970
+#: terminalDisplay/TerminalDisplay.cpp:954
+#: terminalDisplay/TerminalDisplay.cpp:955
 #, kde-format
 msgid "Size: XXX x XXX"
 msgstr "মাপ: XXX x XXX"
 
-#: terminalDisplay/TerminalDisplay.cpp:981
+#: terminalDisplay/TerminalDisplay.cpp:966
 #, kde-format
 msgid "Size: %1 x %2"
 msgstr "মাপ: %1 x %2"
 
-#: terminalDisplay/TerminalDisplay.cpp:2388
+#: terminalDisplay/TerminalDisplay.cpp:2373
 #, fuzzy, kde-format
 msgid "Are you sure you want to paste %1 character?"
 msgid_plural "Are you sure you want to paste %1 characters?"
 msgstr[0] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 msgstr[1] "আপনি কি বর্তমান সেশনটি বন্ধ করার ব্যাপারে নিশ্চিত?"
 
-#: terminalDisplay/TerminalDisplay.cpp:2391
+#: terminalDisplay/TerminalDisplay.cpp:2376
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgid "Confirm Paste"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: terminalDisplay/TerminalDisplay.cpp:2423
+#: terminalDisplay/TerminalDisplay.cpp:2408
 #, kde-format
 msgid "End Of Text/Interrupt: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2424
+#: terminalDisplay/TerminalDisplay.cpp:2409
 #, kde-format
 msgid "End Of Transmission: may exit the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2425
+#: terminalDisplay/TerminalDisplay.cpp:2410
 #, kde-format
 msgid "Bell: will try to emit an audible warning"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2426
+#: terminalDisplay/TerminalDisplay.cpp:2411
 #, kde-format
 msgid "Backspace"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2427
+#: terminalDisplay/TerminalDisplay.cpp:2412
 #, kde-format
 msgid "Device Control Three/XOFF: suspends output"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2428
+#: terminalDisplay/TerminalDisplay.cpp:2413
 #, kde-format
 msgid "Substitute/Suspend: may suspend current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2429
+#: terminalDisplay/TerminalDisplay.cpp:2414
 #, kde-format
 msgid "Escape: used for manipulating terminal state"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2430
+#: terminalDisplay/TerminalDisplay.cpp:2415
 #, kde-format
 msgid "File Separator/Quit: may abort the current process"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2452
+#: terminalDisplay/TerminalDisplay.cpp:2437
 #, kde-format
 msgid ""
 "The text you're trying to paste contains hidden control characters, do you "
 "want to filter them out?"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2455
+#: terminalDisplay/TerminalDisplay.cpp:2440
 #, fuzzy, kde-format
 #| msgid "Confirm Close"
 msgctxt "@title"
 msgid "Confirm Paste"
 msgstr "বন্ধ করা অনুমোদন করো"
 
-#: terminalDisplay/TerminalDisplay.cpp:2457
+#: terminalDisplay/TerminalDisplay.cpp:2442
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Paste &without control characters"
 msgstr "বর্তমান অক্ষর মিলতে কার্সর রং নিযুক্ত করো"
 
-#: terminalDisplay/TerminalDisplay.cpp:2460
+#: terminalDisplay/TerminalDisplay.cpp:2445
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgctxt "@action:button"
 msgid "&Paste everything"
 msgstr "নির্বাচিত অংশ সাঁটো"
 
-#: terminalDisplay/TerminalDisplay.cpp:2463
+#: terminalDisplay/TerminalDisplay.cpp:2448
 #, kde-format
 msgctxt "@action:button"
 msgid "&Cancel"
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:2694
+#: terminalDisplay/TerminalDisplay.cpp:2679
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>Output has been <a href=\"http://en.wikipedia.org/wiki/Flow_control"
@@ -2595,159 +2608,159 @@ msgstr ""
 "<qt>Ctrl+S চাপা হয়েছে বলে আউটপুট <a href=\"http://en.wikipedia.org/wiki/"
 "Flow_control\">আটকে রাখা</a> হয়েছে। <b>Ctrl+Q</b> চাপলে পুনরায় শুরু হবে।</qt>"
 
-#: terminalDisplay/TerminalDisplay.cpp:2735
+#: terminalDisplay/TerminalDisplay.cpp:2720
 #, kde-format
 msgid "This terminal is read-only."
 msgstr ""
 
-#: terminalDisplay/TerminalDisplay.cpp:3020
+#: terminalDisplay/TerminalDisplay.cpp:3005
 #, fuzzy, kde-format
 msgid "Change &Directory To"
 msgstr "কার্যকরী ডিরেক্টরি পাল্টে 'dir' করো"
 
-#: terminalDisplay/TerminalDisplay.cpp:3052
+#: terminalDisplay/TerminalDisplay.cpp:3037
 #, fuzzy, kde-format
 #| msgid "Paste Selection"
 msgid "&Paste Location"
 msgstr "নির্বাচিত অংশ সাঁটো"
 
-#: ViewManager.cpp:127
+#: ViewManager.cpp:104
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Left/Right"
 msgstr "ভিউ পাশাপাশি ভাগ করো"
 
-#: ViewManager.cpp:134
+#: ViewManager.cpp:111
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Split View Top/Bottom"
 msgstr "ভিউ উপর/নিচ ভাগ করো"
 
-#: ViewManager.cpp:140
+#: ViewManager.cpp:117
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Expand View"
 msgstr "ভিউ প্রসারিত করো"
 
-#: ViewManager.cpp:148
+#: ViewManager.cpp:125
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Shrink View"
 msgstr "ভিউ সঙ্কুচিত করো"
 
-#: ViewManager.cpp:158
+#: ViewManager.cpp:135
 #, fuzzy, kde-format
 #| msgid "D&etach Current Tab"
 msgctxt "@action:inmenu"
 msgid "Detach Current &View"
 msgstr "এই ট্যাবটি &আলাদা করো"
 
-#: ViewManager.cpp:170
+#: ViewManager.cpp:147
 #, fuzzy, kde-format
 #| msgid "D&etach Current Tab"
 msgctxt "@action:inmenu"
 msgid "Detach Current &Tab"
 msgstr "এই ট্যাবটি &আলাদা করো"
 
-#: ViewManager.cpp:175
+#: ViewManager.cpp:152
 #, fuzzy, kde-format
 #| msgid "&New Tab"
 msgctxt "@action Shortcut entry"
 msgid "Next Tab"
 msgstr "&নতুন ট্যাব"
 
-#: ViewManager.cpp:183
+#: ViewManager.cpp:160
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgctxt "@action Shortcut entry"
 msgid "Previous Tab"
 msgstr "পূর্ববর্তী"
 
-#: ViewManager.cpp:191
+#: ViewManager.cpp:168
 #, fuzzy, kde-format
 #| msgid "Above Terminal Displays"
 msgctxt "@action Shortcut entry"
 msgid "Focus Above Terminal"
 msgstr "টার্মিনাল-এর উপরে"
 
-#: ViewManager.cpp:198
+#: ViewManager.cpp:175
 #, fuzzy, kde-format
 #| msgid "Below Terminal Displays"
 msgctxt "@action Shortcut entry"
 msgid "Focus Below Terminal"
 msgstr "টার্মিনাল-এর নিচে"
 
-#: ViewManager.cpp:205
+#: ViewManager.cpp:182
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Left Terminal"
 msgstr ""
 
-#: ViewManager.cpp:211
+#: ViewManager.cpp:188
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Focus Right Terminal"
 msgstr ""
 
-#: ViewManager.cpp:217
+#: ViewManager.cpp:194
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Last Tab"
 msgstr "%1 ট্যাবে যাও"
 
-#: ViewManager.cpp:222
+#: ViewManager.cpp:199
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs"
 msgstr ""
 
-#: ViewManager.cpp:227
+#: ViewManager.cpp:204
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle Between Two Tabs"
 msgstr ""
 
-#: ViewManager.cpp:232
+#: ViewManager.cpp:209
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Last Used Tabs (Reverse)"
 msgstr ""
 
-#: ViewManager.cpp:237
+#: ViewManager.cpp:214
 #, kde-format
 msgctxt "@action Shortcut entry"
 msgid "Toggle maximize current view"
 msgstr ""
 
-#: ViewManager.cpp:238
+#: ViewManager.cpp:215
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "Toggle maximize current view"
 msgstr ""
 
-#: ViewManager.cpp:246
+#: ViewManager.cpp:223
 #, fuzzy, kde-format
 #| msgid "Move View Right"
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the right"
 msgstr "ভিউ ডানদিকে সরাও"
 
-#: ViewManager.cpp:253
+#: ViewManager.cpp:230
 #, fuzzy, kde-format
 #| msgid "Move View Left"
 msgctxt "@action Shortcut entry"
 msgid "Move tab to the left"
 msgstr "ভিউ বাঁদিকে সরাও"
 
-#: ViewManager.cpp:263
+#: ViewManager.cpp:240
 #, fuzzy, kde-format
 #| msgid "Switch to Tab %1"
 msgctxt "@action Shortcut entry"
 msgid "Switch to Tab %1"
 msgstr "%1 ট্যাবে যাও"
 
-#: Vt102Emulation.cpp:1254
+#: Vt102Emulation.cpp:1239
 #, fuzzy, kde-format
 msgid ""
 "No keyboard translator available.  The information needed to convert key "
@@ -3172,57 +3185,57 @@ msgstr ""
 msgid "Display Vertical line at column:"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:85
+#: widgets/EditProfileDialog.cpp:72
 #, kde-format
 msgid "Edit Profile"
 msgstr "প্রোফাইল সম্পাদনা করো"
 
-#: widgets/EditProfileDialog.cpp:116
+#: widgets/EditProfileDialog.cpp:103
 #, fuzzy, kde-format
 #| msgid "General"
 msgctxt "@title:tab Generic, common options"
 msgid "General"
 msgstr "সাধারণ"
 
-#: widgets/EditProfileDialog.cpp:127
+#: widgets/EditProfileDialog.cpp:114
 #, kde-format
 msgid "Tabs"
 msgstr "ট্যাব"
 
-#: widgets/EditProfileDialog.cpp:145
+#: widgets/EditProfileDialog.cpp:132
 #, kde-format
 msgid "Appearance"
 msgstr "চেহারা"
 
-#: widgets/EditProfileDialog.cpp:162
+#: widgets/EditProfileDialog.cpp:149
 #, kde-format
 msgid "Scrolling"
 msgstr "স্ক্রোলিং"
 
-#: widgets/EditProfileDialog.cpp:177
+#: widgets/EditProfileDialog.cpp:164
 #, fuzzy, kde-format
 msgid "Keyboard"
 msgstr "কীবোর্ড (&ক)"
 
-#: widgets/EditProfileDialog.cpp:178
+#: widgets/EditProfileDialog.cpp:165
 #, fuzzy, kde-format
 #| msgid "Key Bindings"
 msgid "Key bindings"
 msgstr "কী-বাইণ্ডিং"
 
-#: widgets/EditProfileDialog.cpp:190
+#: widgets/EditProfileDialog.cpp:177
 #, kde-format
 msgid "Mouse"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:207
+#: widgets/EditProfileDialog.cpp:194
 #, fuzzy, kde-format
 #| msgid "Advanced"
 msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "অগ্রসর"
 
-#: widgets/EditProfileDialog.cpp:315
+#: widgets/EditProfileDialog.cpp:302
 #, kde-format
 msgid ""
 "<p>Konsole does not have permission to save this profile to:<br /> \"%1\"</"
@@ -3231,12 +3244,12 @@ msgid ""
 "settings to a new profile.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:336
+#: widgets/EditProfileDialog.cpp:323
 #, kde-format
 msgid "<p>Each profile must have a name before it can be saved into disk.</p>"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:344
+#: widgets/EditProfileDialog.cpp:331
 #, fuzzy, kde-format
 #| msgid ""
 #| "A file with this name already exists.\n"
@@ -3246,19 +3259,19 @@ msgstr ""
 "এই নামে একটি ফাইল আগে থেকেই আছে। \n"
 "আপনি কি সেটি মুছে ফেলতে চান ?"
 
-#: widgets/EditProfileDialog.cpp:378
+#: widgets/EditProfileDialog.cpp:365
 #, kde-format
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
 msgstr[0] "প্রোফাইল সম্পাদনা করা হচ্ছে: %2"
 msgstr[1] "%1-টি প্রোফাইল সম্পাদনা করা হচ্ছে: %2"
 
-#: widgets/EditProfileDialog.cpp:383
+#: widgets/EditProfileDialog.cpp:370
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "প্রোফাইল \"%1\" সম্পাদনা করো"
 
-#: widgets/EditProfileDialog.cpp:471
+#: widgets/EditProfileDialog.cpp:458
 #, kde-format
 msgctxt ""
 "Suffix of the number of columns (N columns). The leading space is needed to "
@@ -3268,7 +3281,7 @@ msgid_plural " columns"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:472
+#: widgets/EditProfileDialog.cpp:459
 #, kde-format
 msgctxt ""
 "Suffix of the number of rows (N rows). The leading space is needed to "
@@ -3278,17 +3291,17 @@ msgid_plural " rows"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:524
+#: widgets/EditProfileDialog.cpp:511
 #, fuzzy, kde-format
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা করো"
 
-#: widgets/EditProfileDialog.cpp:525
+#: widgets/EditProfileDialog.cpp:512
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:559
+#: widgets/EditProfileDialog.cpp:546
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -3296,18 +3309,18 @@ msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:652
+#: widgets/EditProfileDialog.cpp:639
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরী নির্বাচন করো"
 
-#: widgets/EditProfileDialog.cpp:1213
+#: widgets/EditProfileDialog.cpp:1200
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1398
+#: widgets/EditProfileDialog.cpp:1385
 #, fuzzy, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -3316,7 +3329,7 @@ msgstr ""
 "এই রং পরিকল্পনাটি একটি স্বচ্ছ পটভূমি ব্যবহার করো যেটি আপনার ডেস্কটপে হ সমর্থন করতে "
 "আবির্ভূত হো না"
 
-#: widgets/EditProfileDialog.cpp:1404
+#: widgets/EditProfileDialog.cpp:1391
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
@@ -3838,7 +3851,7 @@ msgstr ""
 msgid "The threshold for continuous silence to be detected by Konsole"
 msgstr ""
 
-#: widgets/HistorySizeWidget.cpp:57
+#: widgets/HistorySizeWidget.cpp:44
 #, fuzzy, kde-format
 #| msgid "lines"
 msgctxt "@label:textbox Unit of scrollback"
@@ -3847,7 +3860,7 @@ msgid_plural " lines"
 msgstr[0] "লাইন"
 msgstr[1] "লাইন"
 
-#: widgets/HistorySizeWidget.cpp:72
+#: widgets/HistorySizeWidget.cpp:59
 #, kde-format
 msgctxt "@info:whatsthis"
 msgid ""
@@ -3856,7 +3869,7 @@ msgid ""
 "issues with your system."
 msgstr ""
 
-#: widgets/HistorySizeWidget.cpp:81
+#: widgets/HistorySizeWidget.cpp:68
 #, kde-kuit-format
 msgctxt "@info:tooltip"
 msgid ""
@@ -3914,62 +3927,62 @@ msgctxt "Do not save any lines to the scrollback history"
 msgid "None"
 msgstr "কিছু &নয়"
 
-#: widgets/IncrementalSearchBar.cpp:60
+#: widgets/IncrementalSearchBar.cpp:47
 #, fuzzy, kde-format
 #| msgid "Find:"
 msgctxt "@label:textbox"
 msgid "Find..."
 msgstr "খোঁজো:"
 
-#: widgets/IncrementalSearchBar.cpp:62
+#: widgets/IncrementalSearchBar.cpp:49
 #, fuzzy, kde-format
 #| msgid "Enter the text to search for here"
 msgctxt "@info:tooltip"
 msgid "Enter the text to search for here"
 msgstr "এখানে অনুসন্ধান পংক্তি লেখো"
 
-#: widgets/IncrementalSearchBar.cpp:88
+#: widgets/IncrementalSearchBar.cpp:75
 #, fuzzy, kde-format
 #| msgid "Next"
 msgctxt "@action:button Go to the next phrase"
 msgid "Next"
 msgstr "পরবর্তী"
 
-#: widgets/IncrementalSearchBar.cpp:92
+#: widgets/IncrementalSearchBar.cpp:79
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Find the next match for the current search phrase"
 msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
 
-#: widgets/IncrementalSearchBar.cpp:100
+#: widgets/IncrementalSearchBar.cpp:87
 #, fuzzy, kde-format
 #| msgid "Previous"
 msgctxt "@action:button Go to the previous phrase"
 msgid "Previous"
 msgstr "পূর্ববর্তী"
 
-#: widgets/IncrementalSearchBar.cpp:103
+#: widgets/IncrementalSearchBar.cpp:90
 #, fuzzy, kde-format
 #| msgid "Find the previous match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Find the previous match for the current search phrase"
 msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পূর্ববর্তী মিল খোঁজো"
 
-#: widgets/IncrementalSearchBar.cpp:120
+#: widgets/IncrementalSearchBar.cpp:107
 #, kde-format
 msgctxt "@info:tooltip"
 msgid "Display the options menu"
 msgstr ""
 
-#: widgets/IncrementalSearchBar.cpp:127
+#: widgets/IncrementalSearchBar.cpp:114
 #, fuzzy, kde-format
 #| msgid "Close the search bar"
 msgctxt "@info:tooltip"
 msgid "Close the search bar"
 msgstr "অনুসন্ধান বার বন্ধ করো"
 
-#: widgets/IncrementalSearchBar.cpp:137
+#: widgets/IncrementalSearchBar.cpp:124
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu Close Active View"
 #| msgid "Close Active"
@@ -3977,68 +3990,68 @@ msgctxt "@item:inmenu"
 msgid "Case sensitive"
 msgstr "সক্রিয় ভিউ বন্ধ করো"
 
-#: widgets/IncrementalSearchBar.cpp:139
+#: widgets/IncrementalSearchBar.cpp:126
 #, fuzzy, kde-format
 #| msgid "Sets whether the search is case sensitive"
 msgctxt "@info:tooltip"
 msgid "Sets whether the search is case sensitive"
 msgstr "অনুসন্ধানটি কেস-সেন্সিটিভ হবে কি না নির্ধারণ করে"
 
-#: widgets/IncrementalSearchBar.cpp:143
+#: widgets/IncrementalSearchBar.cpp:130
 #, fuzzy, kde-format
 #| msgid "Match regular expression"
 msgctxt "@item:inmenu"
 msgid "Match regular expression"
 msgstr "রেগুলার এক্সপ্রেশন খোঁজো"
 
-#: widgets/IncrementalSearchBar.cpp:148
+#: widgets/IncrementalSearchBar.cpp:135
 #, fuzzy, kde-format
 #| msgid "Highlight all"
 msgctxt "@item:inmenu"
 msgid "Highlight all matches"
 msgstr "সব চিহ্নিত করো"
 
-#: widgets/IncrementalSearchBar.cpp:151
+#: widgets/IncrementalSearchBar.cpp:138
 #, fuzzy, kde-format
 #| msgid "Sets whether matching text should be highlighted"
 msgctxt "@info:tooltip"
 msgid "Sets whether matching text should be highlighted"
 msgstr "মিলগুলি চিহ্নিত করা হবে কি না নির্ধারণ করে"
 
-#: widgets/IncrementalSearchBar.cpp:155
+#: widgets/IncrementalSearchBar.cpp:142
 #, kde-format
 msgctxt "@item:inmenu"
 msgid "Search backwards"
 msgstr ""
 
-#: widgets/IncrementalSearchBar.cpp:158
+#: widgets/IncrementalSearchBar.cpp:145
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Sets whether search should start from the bottom"
 msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
 
-#: widgets/IncrementalSearchBar.cpp:189
+#: widgets/IncrementalSearchBar.cpp:176
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the bottom"
 msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
 
-#: widgets/IncrementalSearchBar.cpp:195
+#: widgets/IncrementalSearchBar.cpp:182
 #, fuzzy, kde-format
 #| msgid "Find the next match for the current search phrase"
 msgctxt "@info:tooltip"
 msgid "Search for the current search phrase from the top"
 msgstr "বর্তমান অনুসন্ধান পংক্তির জন্য পরবর্তী মিল খোঁজো"
 
-#: widgets/KonsolePrintManager.cpp:63
+#: widgets/KonsolePrintManager.cpp:50
 #, fuzzy, kde-format
 #| msgid "Print &header"
 msgid "Print Shell"
 msgstr "হেডা&র ছাপানো হোক"
 
-#: widgets/RenameTabWidget.cpp:47
+#: widgets/RenameTabWidget.cpp:34
 #, fuzzy, kde-format
 #| msgid "New Color Scheme"
 msgid "Color from theme"
@@ -4080,116 +4093,116 @@ msgstr "স্বাভাবিক ট্যাব শিরোনাম ফর
 msgid "Tab Color:"
 msgstr "রং"
 
-#: widgets/TabTitleFormatButton.cpp:33
+#: widgets/TabTitleFormatButton.cpp:20
 #, fuzzy, kde-format
 #| msgid "Program Name"
 msgid "Program Name: %n"
 msgstr "প্রোগ্রাম-এর নাম"
 
-#: widgets/TabTitleFormatButton.cpp:34
+#: widgets/TabTitleFormatButton.cpp:21
 #, fuzzy, kde-format
 #| msgid "Current Directory (Short)"
 msgid "Current Directory (Short): %d"
 msgstr "বর্তমান ডিরেক্টরী (সংক্ষিপ্ত)"
 
-#: widgets/TabTitleFormatButton.cpp:35
+#: widgets/TabTitleFormatButton.cpp:22
 #, fuzzy, kde-format
 #| msgid "Current Directory (Long)"
 msgid "Current Directory (Long): %D"
 msgstr "বর্তমান ডিরেক্টরী (সম্পূর্ণ)"
 
-#: widgets/TabTitleFormatButton.cpp:36 widgets/TabTitleFormatButton.cpp:51
+#: widgets/TabTitleFormatButton.cpp:23 widgets/TabTitleFormatButton.cpp:38
 #, fuzzy, kde-format
 #| msgid "Window Title Set by Shell"
 msgid "Window Title Set by Shell: %w"
 msgstr "উইণ্ডো শিরোনাম শেল দ্বারা নির্ধারিত "
 
-#: widgets/TabTitleFormatButton.cpp:37 widgets/TabTitleFormatButton.cpp:52
+#: widgets/TabTitleFormatButton.cpp:24 widgets/TabTitleFormatButton.cpp:39
 #, fuzzy, kde-format
 #| msgid "Session Number"
 msgid "Session Number: %#"
 msgstr "সেশন নং"
 
-#: widgets/TabTitleFormatButton.cpp:38 widgets/TabTitleFormatButton.cpp:46
+#: widgets/TabTitleFormatButton.cpp:25 widgets/TabTitleFormatButton.cpp:33
 #, fuzzy, kde-format
 #| msgid "User Name"
 msgid "User Name: %u"
 msgstr "ব্যবহারকারীর নাম"
 
-#: widgets/TabTitleFormatButton.cpp:39
+#: widgets/TabTitleFormatButton.cpp:26
 #, kde-format
 msgid "Local Host: %h"
 msgstr ""
 
-#: widgets/TabTitleFormatButton.cpp:40
+#: widgets/TabTitleFormatButton.cpp:27
 #, kde-format
 msgid "User's Bourne prompt sigil: %B"
 msgstr ""
 
-#: widgets/TabTitleFormatButton.cpp:47
+#: widgets/TabTitleFormatButton.cpp:34
 #, fuzzy, kde-format
 #| msgid "User Name"
 msgid "User Name@ (if given): %U"
 msgstr "ব্যবহারকারীর নাম"
 
-#: widgets/TabTitleFormatButton.cpp:48
+#: widgets/TabTitleFormatButton.cpp:35
 #, fuzzy, kde-format
 #| msgid "Remote Host (Short)"
 msgid "Remote Host (Short): %h"
 msgstr "দূরবর্তী হোস্ট (সংক্ষিপ্ত)"
 
-#: widgets/TabTitleFormatButton.cpp:49
+#: widgets/TabTitleFormatButton.cpp:36
 #, fuzzy, kde-format
 #| msgid "Remote Host (Long)"
 msgid "Remote Host (Long): %H"
 msgstr "দূরবর্তী হোস্ট (সম্পূর্ণ)"
 
-#: widgets/TabTitleFormatButton.cpp:50
+#: widgets/TabTitleFormatButton.cpp:37
 #, kde-format
 msgid "Command and arguments: %c"
 msgstr ""
 
-#: widgets/TabTitleFormatButton.cpp:61
+#: widgets/TabTitleFormatButton.cpp:48
 #, kde-format
 msgid "Insert"
 msgstr "ঢোকাও"
 
-#: widgets/TabTitleFormatButton.cpp:86
+#: widgets/TabTitleFormatButton.cpp:73
 #, fuzzy, kde-format
 #| msgid "Tab title format:"
 msgctxt "@info:tooltip"
 msgid "Insert title format"
 msgstr "ট্যাব শিরোনাম ফরম্যাট:"
 
-#: widgets/TabTitleFormatButton.cpp:90
+#: widgets/TabTitleFormatButton.cpp:77
 #, fuzzy, kde-format
 #| msgid "Remote tab title format:"
 msgctxt "@info:tooltip"
 msgid "Insert remote title format"
 msgstr "দূরবর্তী ট্যাব শিরোনাম ফরম্যাট:"
 
-#: widgets/TerminalHeaderBar.cpp:95 widgets/TerminalHeaderBar.cpp:196
+#: widgets/TerminalHeaderBar.cpp:80 widgets/TerminalHeaderBar.cpp:181
 #, fuzzy, kde-format
 #| msgid "C&lear Terminal"
 msgctxt "@info:tooltip"
 msgid "Maximize terminal"
 msgstr "টার্মিনাল ফাঁকা &করো"
 
-#: widgets/TerminalHeaderBar.cpp:106
+#: widgets/TerminalHeaderBar.cpp:91
 #, fuzzy, kde-format
 #| msgid "C&lear Terminal"
 msgctxt "@info:tooltip"
 msgid "Close terminal"
 msgstr "টার্মিনাল ফাঁকা &করো"
 
-#: widgets/TerminalHeaderBar.cpp:194
+#: widgets/TerminalHeaderBar.cpp:179
 #, fuzzy, kde-format
 #| msgid "&Reset && Clear Terminal"
 msgctxt "@info:tooltip"
 msgid "Restore terminal"
 msgstr "টার্মিনাল রিসেট &এবং ফাঁকা করো"
 
-#: widgets/ViewContainer.cpp:73
+#: widgets/ViewContainer.cpp:58
 #, fuzzy, kde-format
 #| msgctxt "@action:inmenu"
 #| msgid "&Detach Tab"
@@ -4197,27 +4210,27 @@ msgctxt "@info:tooltip"
 msgid "Open a new tab"
 msgstr "ট্যা&ব আলাদা করো"
 
-#: widgets/ViewContainer.cpp:78
+#: widgets/ViewContainer.cpp:63
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@info:tooltip"
 msgid "Close this tab"
 msgstr "ট্যাব &বন্ধ করো"
 
-#: widgets/ViewContainer.cpp:115
+#: widgets/ViewContainer.cpp:100
 #, kde-format
 msgctxt "@action:inmenu"
 msgid "&Detach Tab"
 msgstr "ট্যা&ব আলাদা করো"
 
-#: widgets/ViewContainer.cpp:122
+#: widgets/ViewContainer.cpp:107
 #, fuzzy, kde-format
 #| msgid "&Rename Tab..."
 msgctxt "@action:inmenu"
 msgid "&Configure or Rename Tab..."
 msgstr "ট্যাব-এর না&ম পাল্টাও..."
 
-#: widgets/ViewContainer.cpp:129
+#: widgets/ViewContainer.cpp:114
 #, fuzzy, kde-format
 #| msgid "&Close Tab"
 msgctxt "@action:inmenu"
@@ -4980,9 +4993,6 @@ msgstr "ট্যাব &বন্ধ করো"
 #~ msgstr ""
 #~ "নতুন স্ট্যাণ্ডার্ড সেশনের জন্য ক্লিক করুন\n"
 #~ "সেশন মেনুর জন্য ক্লিক করে ধরে রাখুন"
-
-#~ msgid "Session"
-#~ msgstr "সেশন"
 
 #~ msgid "S&ave History As..."
 #~ msgstr "আগে&র কমাণ্ডগুলি সংরক্ষণ করো..."
