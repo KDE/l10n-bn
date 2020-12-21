@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmkio\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-20 02:15+0100\n"
+"POT-Creation-Date: 2020-12-21 02:14+0100\n"
 "PO-Revision-Date: 2009-01-09 21:08-0800\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: en_US <kde-translation@bengalinux.org>\n"
@@ -2438,8 +2438,8 @@ msgstr "নতুন ফোল্ডার..."
 
 #: filewidgets/kdiroperator.cpp:1969 widgets/jobuidelegate.cpp:286
 #: widgets/jobuidelegate.cpp:287 widgets/jobuidelegate.cpp:295
-#: widgets/jobuidelegate.cpp:296 widgets/widgetsaskuseractionhandler.cpp:179
-#: widgets/widgetsaskuseractionhandler.cpp:180
+#: widgets/jobuidelegate.cpp:296 widgets/widgetsaskuseractionhandler.cpp:175
+#: widgets/widgetsaskuseractionhandler.cpp:176
 #, kde-format
 msgid "Move to Trash"
 msgstr ""
@@ -6975,7 +6975,7 @@ msgstr ""
 msgid "Undo File Copy Confirmation"
 msgstr "সিস্টেম কনফিগারেশন আপডেট করা হচ্ছে"
 
-#: widgets/jobuidelegate.cpp:254 widgets/widgetsaskuseractionhandler.cpp:156
+#: widgets/jobuidelegate.cpp:254
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7002,7 +7002,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/jobuidelegate.cpp:273 widgets/widgetsaskuseractionhandler.cpp:167
+#: widgets/jobuidelegate.cpp:273 widgets/widgetsaskuseractionhandler.cpp:163
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7010,13 +7010,13 @@ msgid ""
 "><emphasis strong='true'>This action cannot be undone.</emphasis>"
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:275 widgets/widgetsaskuseractionhandler.cpp:169
+#: widgets/jobuidelegate.cpp:275 widgets/widgetsaskuseractionhandler.cpp:165
 #, fuzzy, kde-format
 msgctxt "@action:button"
 msgid "Empty Trash"
 msgstr "ক্যাশ (Cache) ফাঁকা করো"
 
-#: widgets/jobuidelegate.cpp:285 widgets/widgetsaskuseractionhandler.cpp:174
+#: widgets/jobuidelegate.cpp:285 widgets/widgetsaskuseractionhandler.cpp:170
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -7031,12 +7031,12 @@ msgid_plural "Do you really want to move these %1 items to the Trash?"
 msgstr[0] "translators: not called for n == 1"
 msgstr[1] "translators: not called for n == 1"
 
-#: widgets/jobuidelegate.cpp:394 widgets/widgetsaskuseractionhandler.cpp:373
+#: widgets/jobuidelegate.cpp:394 widgets/widgetsaskuseractionhandler.cpp:370
 #, kde-format
 msgid "The peer SSL certificate chain appears to be corrupt."
 msgstr ""
 
-#: widgets/jobuidelegate.cpp:395 widgets/widgetsaskuseractionhandler.cpp:377
+#: widgets/jobuidelegate.cpp:395 widgets/widgetsaskuseractionhandler.cpp:374
 #, kde-format
 msgid "SSL"
 msgstr "এস-এস-এল"
@@ -8953,33 +8953,39 @@ msgid ""
 "Aborting because the identity of the host cannot be established."
 msgstr ""
 
-#: widgets/widgetsaskuseractionhandler.cpp:160
+#: widgets/widgetsaskuseractionhandler.cpp:155
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
+"Do you really want to permanently delete this %1 item?<nl/><nl/><emphasis "
+"strong='true'>This action cannot be undone.</emphasis>"
+msgid_plural ""
 "Do you really want to permanently delete these %1 items?<nl/><nl/><emphasis "
 "strong='true'>This action cannot be undone.</emphasis>"
-msgstr ""
+msgstr[0] ""
+msgstr[1] ""
 
-#: widgets/widgetsaskuseractionhandler.cpp:177
+#: widgets/widgetsaskuseractionhandler.cpp:173
 #, fuzzy, kde-kuit-format
 msgctxt "@info"
-msgid "Do you really want to move these %1 items to the Trash?"
-msgstr "translators: not called for n == 1"
+msgid "Do you really want to move this %1 item to the Trash?"
+msgid_plural "Do you really want to move these %1 items to the Trash?"
+msgstr[0] "translators: not called for n == 1"
+msgstr[1] "translators: not called for n == 1"
 
-#: widgets/widgetsaskuseractionhandler.cpp:196
+#: widgets/widgetsaskuseractionhandler.cpp:192
 #, kde-format
 msgctxt "@option:checkbox"
 msgid "Do not ask again"
 msgstr ""
 
-#: widgets/widgetsaskuseractionhandler.cpp:239
+#: widgets/widgetsaskuseractionhandler.cpp:235
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not ask again"
 msgstr ""
 
-#: widgets/widgetsaskuseractionhandler.cpp:264
+#: widgets/widgetsaskuseractionhandler.cpp:260
 #, kde-format
 msgctxt "@option:check"
 msgid "Do not show this message again"
@@ -9001,6 +9007,11 @@ msgstr ""
 #, kde-format
 msgid "If you do not trust this program, click Cancel"
 msgstr ""
+
+#, fuzzy
+#~ msgctxt "@info"
+#~ msgid "Do you really want to move these %1 items to the Trash?"
+#~ msgstr "translators: not called for n == 1"
 
 #~ msgid "Enter the certificate password:"
 #~ msgstr "সার্টিফিকেটের পাসওয়ার্ড লিখুন:"
