@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmplot\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-10-24 02:09+0200\n"
+"POT-Creation-Date: 2021-01-09 02:29+0100\n"
 "PO-Revision-Date: 2006-04-24 01:19-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -31,9 +31,10 @@ msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "progga@BengaLinux.Org"
 
-#: calculator.cpp:43 maindlg.cpp:297
+#: calculator.cpp:43
 #, fuzzy, kde-format
 #| msgid "&Calculate"
+msgctxt "@title:window"
 msgid "Calculator"
 msgstr "&গণনা করো"
 
@@ -143,8 +144,14 @@ msgstr "ডিগ্রি (&ড)"
 msgid "Coordinates"
 msgstr "১ম স্থানাঙ্ক পদ্ধতি"
 
-#: coordsconfigdialog.cpp:52 coordsconfigdialog.cpp:53
+#: coordsconfigdialog.cpp:52
 #, fuzzy, kde-format
+msgid "Coordinate System"
+msgstr "১ম স্থানাঙ্ক পদ্ধতি"
+
+#: coordsconfigdialog.cpp:53
+#, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Coordinate System"
 msgstr "১ম স্থানাঙ্ক পদ্ধতি"
 
@@ -246,6 +253,7 @@ msgstr ""
 
 #: equationeditor.cpp:40
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Equation Editor"
 msgstr "সমীকরণ:"
 
@@ -880,12 +888,16 @@ msgid "Search between:"
 msgstr "এই এক্স-অক্ষীয়-মানগুলোর মধ্যে খোঁজো:"
 
 #: functiontools.cpp:74
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Find Minimum Point"
+msgctxt "@title:window"
 msgid "Find Minimum Point"
 msgstr "সর্বনিম্ন বিন্দু খোঁজো"
 
 #: functiontools.cpp:81
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Find Maximum Point"
+msgctxt "@title:window"
 msgid "Find Maximum Point"
 msgstr "সর্বোচ্চ বিন্দু খোঁজো"
 
@@ -896,6 +908,7 @@ msgstr "এক্স-অক্ষীয় মানদ্বয়ের মধ্য
 
 #: functiontools.cpp:88
 #, kde-format
+msgctxt "@title:window"
 msgid "Area Under Graph"
 msgstr ""
 
@@ -946,6 +959,7 @@ msgstr ""
 
 #: kconstanteditor.cpp:67
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Constants Editor"
 msgstr "ধ্রুবক সম্পাদক"
 
@@ -973,6 +987,7 @@ msgstr ""
 
 #: kgradientdialog.cpp:410
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Choose a Gradient"
 msgstr "পরামিতি বেছে নিন"
 
@@ -1517,9 +1532,10 @@ msgstr "স্বয়ংক্রিয়"
 msgid "The function %1 could not be loaded"
 msgstr "%1 ফাংশনটি লোড করা যায় নি"
 
-#. i18n: ectx: property (windowTitle), widget (QWidget, QParameterEditor)
-#: kparametereditor.cpp:54 qparametereditor.ui:13
-#, kde-format
+#: kparametereditor.cpp:54
+#, fuzzy, kde-format
+#| msgid "Parameter Editor"
+msgctxt "@title:window"
 msgid "Parameter Editor"
 msgstr "পরামিতি সম্পাদক"
 
@@ -1595,7 +1611,9 @@ msgid "An error appeared when saving this file"
 msgstr "এই ফাইলটি সংরক্ষণের সময় একটি সমস্যা হয়েছে"
 
 #: kprinterdlg.cpp:43
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "KmPlot Options"
+msgctxt "@title:window"
 msgid "KmPlot Options"
 msgstr "কে-এমপ্লট-এর অপশন"
 
@@ -1664,6 +1682,7 @@ msgstr ""
 
 #: ksliderwindow.cpp:96
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Sliders"
 msgstr "স্লাইডার"
 
@@ -1836,6 +1855,12 @@ msgstr ""
 msgid "Show Sliders"
 msgstr "স্লাইডার প্রদর্শন করো (&ল)"
 
+#: maindlg.cpp:297
+#, fuzzy, kde-format
+#| msgid "&Calculate"
+msgid "Calculator"
+msgstr "&গণনা করো"
+
 #: maindlg.cpp:302
 #, fuzzy, kde-format
 msgid "Plot &Area..."
@@ -1852,7 +1877,9 @@ msgid "Find Mi&nimum..."
 msgstr "সর্বনিম্ন বিন্দু খোঁজো"
 
 #: maindlg.cpp:319
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Predefined &Math Functions"
+msgctxt "@action:inmenu Help"
 msgid "Predefined &Math Functions"
 msgstr "পূর্বনির্ধারিত গাণিতিক ফাংশ&ন"
 
@@ -1963,17 +1990,26 @@ msgid "Sorry, something went wrong while saving to image \"%1\""
 msgstr ""
 
 #: maindlg.cpp:702
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Print Plot"
+msgctxt "@title:window"
 msgid "Print Plot"
 msgstr "প্লট ছাপাও"
 
-#: maindlg.cpp:719 maindlg.cpp:724
+#: maindlg.cpp:719
 #, fuzzy, kde-format
+msgid "Print Settings"
+msgstr "সাধারণ বৈশিষ্ট্য"
+
+#: maindlg.cpp:724
+#, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Print Settings"
 msgstr "সাধারণ বৈশিষ্ট্য"
 
 #: parameteranimator.cpp:64
 #, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Parameter Animator"
 msgstr "পরামিতি সম্পাদক"
 
@@ -2249,9 +2285,10 @@ msgid "Color:"
 msgstr "রঙ:"
 
 #: plotstylewidget.cpp:71
-#, kde-format
+#, fuzzy, kde-format
+msgctxt "@title:window"
 msgid "Plot Appearance"
-msgstr ""
+msgstr "পূর্বনির্ধারিত প্লট সীমা"
 
 #. i18n: ectx: property (windowTitle), widget (QWidget, PlotStyleWidget)
 #: plotstylewidget.ui:14
@@ -2305,6 +2342,12 @@ msgstr "রেখার প্রস্থ:"
 #, fuzzy, kde-format
 msgid " mm"
 msgstr "০.১ মিলিমিটার"
+
+#. i18n: ectx: property (windowTitle), widget (QWidget, QParameterEditor)
+#: qparametereditor.ui:13
+#, kde-format
+msgid "Parameter Editor"
+msgstr "পরামিতি সম্পাদক"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, cmdDelete)
 #: qparametereditor.ui:55
@@ -2377,7 +2420,8 @@ msgstr "স্থানাঙ্ক (&স)"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settingspagecolor.ui:35
 #, fuzzy, kde-format
-msgid "Background Color:"
+#| msgid "Background color"
+msgid "Background color:"
 msgstr "পটভূমির রং"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_backgroundcolor)
@@ -2410,8 +2454,9 @@ msgstr "গ্রী&ড:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_AxesColor)
 #: settingspagecolor.ui:84
-#, kde-format
-msgid "select color for the axes"
+#, fuzzy, kde-format
+#| msgid "select color for the axes"
+msgid "Select color for the axes."
 msgstr "অক্ষরেখার রং বেছে নিন"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_AxesColor)
@@ -2424,8 +2469,9 @@ msgstr "অক্ষরেখার রং উল্লেখ করুন।  '
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_GridColor)
 #: settingspagecolor.ui:97
-#, kde-format
-msgid "select color for the grid"
+#, fuzzy, kde-format
+#| msgid "select color for the grid"
+msgid "Select color for the grid."
 msgstr "গ্রীড রেখার জন্য রং বেছে নিন"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_GridColor)
@@ -2445,8 +2491,9 @@ msgstr "ডি&ফল্ট অবস্থায় ফাংশন আঁকত�
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color1)
 #: settingspagecolor.ui:133
-#, kde-format
-msgid "the default color for function number 2"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 2"
+msgid "The default color for function number 2."
 msgstr "২য় ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color1)
@@ -2465,8 +2512,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color4)
 #: settingspagecolor.ui:146
-#, kde-format
-msgid "the default color for function number 5"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 5"
+msgid "The default color for function number 5."
 msgstr "৫ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color4)
@@ -2485,8 +2533,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color0)
 #: settingspagecolor.ui:159
-#, kde-format
-msgid "the default color for function number 1"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 1"
+msgid "The default color for function number 1."
 msgstr "১ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color0)
@@ -2511,8 +2560,9 @@ msgstr "ফাংশন &১:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color2)
 #: settingspagecolor.ui:185
-#, kde-format
-msgid "the default color for function number 3"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 3"
+msgid "The default color for function number 3."
 msgstr "৩য় ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color2)
@@ -2549,8 +2599,9 @@ msgstr "ফাংশন &৪:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color3)
 #: settingspagecolor.ui:237
-#, kde-format
-msgid "the default color for function number 4"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 4"
+msgid "The default color for function number 4."
 msgstr "৪র্থ ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color3)
@@ -2587,8 +2638,9 @@ msgstr "ফাংশন &৮:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color8)
 #: settingspagecolor.ui:315
-#, kde-format
-msgid "the default color for function number 9"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 9"
+msgid "The default color for function number 9."
 msgstr "৯ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color8)
@@ -2613,8 +2665,9 @@ msgstr "ফাংশন &৬:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color6)
 #: settingspagecolor.ui:341
-#, kde-format
-msgid "the default color for function number 7"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 7"
+msgid "The default color for function number 7."
 msgstr "৭ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color6)
@@ -2633,8 +2686,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color7)
 #: settingspagecolor.ui:354
-#, kde-format
-msgid "the default color for function number 8"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 8"
+msgid "The default color for function number 8."
 msgstr "৮ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color7)
@@ -2653,8 +2707,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color5)
 #: settingspagecolor.ui:367
-#, kde-format
-msgid "the default color for function number 6"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 6"
+msgid "The default color for function number 6."
 msgstr "৬ষ্ঠ ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color5)
@@ -2679,8 +2734,9 @@ msgstr "ফাংশন &৯:"
 
 #. i18n: ectx: property (toolTip), widget (KColorButton, kcfg_Color9)
 #: settingspagecolor.ui:393
-#, kde-format
-msgid "the default color for function number 10"
+#, fuzzy, kde-format
+#| msgid "the default color for function number 10"
+msgid "The default color for function number 10."
 msgstr "১০ম ফাংশনের ডিফল্ট রং"
 
 #. i18n: ectx: property (whatsThis), widget (KColorButton, kcfg_Color9)
@@ -2765,9 +2821,10 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: settingspagediagram.ui:84
-#, kde-format
-msgid "Horizontal Axis Label: "
-msgstr ""
+#, fuzzy, kde-format
+#| msgid "Font size of the axis labels"
+msgid "Horizontal axis label:"
+msgstr "অক্ষীয় লেবেলে ব্যবহৃত ফন্টের আকার"
 
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_LabelHorizontalAxis)
 #: settingspagediagram.ui:94
@@ -2785,7 +2842,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: settingspagediagram.ui:104
 #, kde-format
-msgid "Vertical Axis Label:"
+msgid "Vertical axis label:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLineEdit, kcfg_LabelVerticalAxis)
@@ -2821,8 +2878,9 @@ msgstr "টিক-এর দৈর্ঘ্য:"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowLabel)
 #: settingspagediagram.ui:252
-#, kde-format
-msgid "visible tic labels"
+#, fuzzy, kde-format
+#| msgid "visible tic labels"
+msgid "Visible tic labels."
 msgstr "টিক লেবেল প্রদর্শন করো"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowLabel)
@@ -2839,8 +2897,9 @@ msgstr "লেবেল প্রদর্শন করো"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowAxes)
 #: settingspagediagram.ui:268
-#, kde-format
-msgid "visible axes"
+#, fuzzy, kde-format
+#| msgid "visible axes"
+msgid "Visible axes."
 msgstr "অক্ষরেখা প্রদর্শন করো"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowAxes)
@@ -2857,8 +2916,9 @@ msgstr "অক্ষরেখা প্রদর্শন করো"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ShowArrows)
 #: settingspagediagram.ui:284
-#, kde-format
-msgid "visible arrows at the end of the axes"
+#, fuzzy, kde-format
+#| msgid "visible arrows at the end of the axes"
+msgid "Visible arrows at the end of the axes."
 msgstr "অক্ষরেখার প্রান্তে তীরচিহ্ন প্রদর্শন করো"
 
 #. i18n: ectx: property (whatsThis), widget (QCheckBox, kcfg_ShowArrows)
@@ -2951,14 +3011,14 @@ msgstr "&পরিবর্তিত আকারে প্রদর্শন �
 #: settingspagegeneral.ui:73
 #, fuzzy, kde-format
 #| msgid "Zoom in by:"
-msgid "Zoom In by:"
+msgid "Zoom in by:"
 msgstr "বিবর্ধন মাত্রা:"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_2_2)
 #: settingspagegeneral.ui:86
 #, fuzzy, kde-format
 #| msgid "Zoom out by:"
-msgid "Zoom Out by:"
+msgid "Zoom out by:"
 msgstr "ক্ষুদ্রাকারে প্রদর্শনের মাত্রা:"
 
 #. i18n: ectx: property (whatsThis), widget (QSpinBox, kcfg_zoomOutStep)
@@ -3063,6 +3123,10 @@ msgstr ""
 #, kde-format
 msgid "Error in extension."
 msgstr "বর্ধিতাংশে সমস্যা।"
+
+#, fuzzy
+#~ msgid "Background Color:"
+#~ msgstr "পটভূমির রং"
 
 #~ msgid "root"
 #~ msgstr "মূল"
@@ -3917,9 +3981,6 @@ msgstr "বর্ধিতাংশে সমস্যা।"
 
 #~ msgid "Enter the height of a unit in cm."
 #~ msgstr "সেন্টিমিটার হিসেবে প্রতি এককের উচ্চতা লিখুন।"
-
-#~ msgid "Font size of the axis labels"
-#~ msgstr "অক্ষীয় লেবেলে ব্যবহৃত ফন্টের আকার"
 
 #~ msgid "Choose a font size for the axis labels."
 #~ msgstr "অক্ষীয় লেবেলে ব্যবহৃত ফন্টের আকার বেছে নিন।"
