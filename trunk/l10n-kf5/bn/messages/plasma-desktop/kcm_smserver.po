@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kcmsmserver\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-12-17 02:36+0100\n"
+"POT-Creation-Date: 2021-01-13 03:39+0100\n"
 "PO-Revision-Date: 2004-05-22 22:42-0500\n"
 "Last-Translator: Deepayan Sarkar <deepayan@bengalinux.org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -65,17 +65,110 @@ msgstr ""
 msgid "Carl Schwan"
 msgstr ""
 
+#: package/contents/ui/main.qml:38
+#, kde-format
+msgid "Failed to request restart to firmware setup: %1"
+msgstr ""
+
+#: package/contents/ui/main.qml:39
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the UEFI setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:40
+#, kde-format
+msgid ""
+"Next time the computer is restarted, it will enter the firmware setup screen."
+msgstr ""
+
+#: package/contents/ui/main.qml:45
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart Now"
+msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
+
+#: package/contents/ui/main.qml:51
+#, fuzzy, kde-format
+#| msgid "General"
+msgid "General:"
+msgstr "সাধারণ"
+
 #. i18n: ectx: label, entry (confirmLogout), group (General)
-#: smserversettings.kcfg:9
+#: package/contents/ui/main.qml:52 smserversettings.kcfg:9
 #, fuzzy, kde-format
 #| msgid "Conf&irm logout"
 msgid "Confirm logout"
 msgstr "ল&গ-আউট অনুমোদন"
 
 #. i18n: ectx: label, entry (offerShutdown), group (General)
-#: smserversettings.kcfg:13
+#: package/contents/ui/main.qml:61 smserversettings.kcfg:13
 #, kde-format
 msgid "Offer shutdown options"
+msgstr ""
+
+#: package/contents/ui/main.qml:78
+#, kde-format
+msgid "Default leave option:"
+msgstr ""
+
+#: package/contents/ui/main.qml:79
+#, kde-format
+msgid "End current session"
+msgstr ""
+
+#: package/contents/ui/main.qml:89
+#, fuzzy, kde-format
+#| msgid "&Restart computer"
+msgid "Restart computer"
+msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
+
+#: package/contents/ui/main.qml:99
+#, fuzzy, kde-format
+#| msgid "&Turn off computer"
+msgid "Turn off computer"
+msgstr "কমপি&উটার বন্ধ করো"
+
+#: package/contents/ui/main.qml:115
+#, kde-format
+msgid "When logging in:"
+msgstr ""
+
+#: package/contents/ui/main.qml:116
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore previous saved session"
+msgstr "নিজে হাতে সংরক্ষি&ত সেশন পুনঃস্থাপিত করো"
+
+#: package/contents/ui/main.qml:126
+#, fuzzy, kde-format
+#| msgid "Restore &manually saved session"
+msgid "Restore manually saved session"
+msgstr "নিজে হাতে সংরক্ষি&ত সেশন পুনঃস্থাপিত করো"
+
+#: package/contents/ui/main.qml:136
+#, fuzzy, kde-format
+msgid "Start with an empty session"
+msgstr "কো&ন কিছু ছাড়া শুরু করো"
+
+#: package/contents/ui/main.qml:149
+#, kde-format
+msgid "Don't restore these applications:"
+msgstr ""
+
+#: package/contents/ui/main.qml:155
+#, fuzzy, kde-format
+msgid ""
+"Here you can enter a colon or comma separated list of applications that "
+"should not be saved in sessions, and therefore will not be started when "
+"restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
+msgstr ""
+"এখানে আপনি পারে ঢুকুন একটি কোলন বিচ্ছিন্ন তালিকা -র ঐ উচিত নয় সংরক্ষিত -এ সেশন "
+"এবং আরম্ভকৃত যখন একটি সেশন জন্য উদাহরণ"
+
+#: package/contents/ui/main.qml:169
+#, kde-format
+msgid "Enter firmware setup screen on next restart"
 msgstr ""
 
 #. i18n: ectx: label, entry (shutdownType), group (General)
@@ -97,14 +190,6 @@ msgstr "লগ-ইন করাকালীন"
 msgid "Applications to be excluded from session"
 msgstr "সেশন থেকে যে সব অ্যাপলিকেশন বহির্ভূত হবে:"
 
-#, fuzzy
-#~| msgid "&Restart computer"
-#~ msgid "Restart Now"
-#~ msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
-
-#~ msgid "General"
-#~ msgstr "সাধারণ"
-
 #~ msgid ""
 #~ "Check this option if you want the session manager to display a logout "
 #~ "confirmation dialog box."
@@ -121,12 +206,6 @@ msgstr "সেশন থেকে যে সব অ্যাপলিকেশ�
 #~ msgstr ""
 #~ "এখানে আপনি বেছে নিতে পারেন লগ-আউট করার পর অন্য কিছু না বলা হলে কি করা হবে। "
 #~ "শুধুমাত্র কে-ডি-এম ব্যবহার করে লগ-ইন করা হলেই এই নির্বাচনগুলি প্রযোজ্য হবে। "
-
-#~ msgid "&Restart computer"
-#~ msgstr "কমপিউটার &বন্ধ করে আবার চালাও"
-
-#~ msgid "&Turn off computer"
-#~ msgstr "কমপি&উটার বন্ধ করো"
 
 #, fuzzy
 #~ msgid ""
@@ -156,25 +235,9 @@ msgstr "সেশন থেকে যে সব অ্যাপলিকেশ�
 #~ msgid "On Login"
 #~ msgstr "লগ-ইন করাকালীন"
 
-#~ msgid "Restore &manually saved session"
-#~ msgstr "নিজে হাতে সংরক্ষি&ত সেশন পুনঃস্থাপিত করো"
-
-#, fuzzy
-#~ msgid "Start with an empty &session"
-#~ msgstr "কো&ন কিছু ছাড়া শুরু করো"
-
 #, fuzzy
 #~ msgid "Applications to be e&xcluded from sessions:"
 #~ msgstr "সেশন থেকে যে সব অ্যাপলিকেশন বহির্ভূত হবে:"
-
-#, fuzzy
-#~ msgid ""
-#~ "Here you can enter a colon or comma separated list of applications that "
-#~ "should not be saved in sessions, and therefore will not be started when "
-#~ "restoring a session. For example 'xterm:konsole' or 'xterm,konsole'."
-#~ msgstr ""
-#~ "এখানে আপনি পারে ঢুকুন একটি কোলন বিচ্ছিন্ন তালিকা -র ঐ উচিত নয় সংরক্ষিত -এ সেশন "
-#~ "এবং আরম্ভকৃত যখন একটি সেশন জন্য উদাহরণ"
 
 #~ msgid "Session Manager"
 #~ msgstr "সেশন ম্যানেজার"
