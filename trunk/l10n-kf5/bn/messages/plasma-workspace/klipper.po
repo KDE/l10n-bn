@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: klipper\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-04-02 00:19+0000\n"
+"POT-Creation-Date: 2021-04-19 00:21+0000\n"
 "PO-Revision-Date: 2010-06-01 11:22-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -569,14 +569,15 @@ msgstr ""
 msgid "Replay action in history"
 msgstr "ইতিবৃত্ত থেকে নির্বাচিত একটি বস্তুর উপর প্রক্রিয়া &আবার চালাও"
 
-#: klipperpopup.cpp:72
+#: klipperpopup.cpp:72 tray.cpp:38 tray.cpp:54
 #, kde-format
-msgid "<empty clipboard>"
-msgstr "<ফাঁকা ক্লিপবোর্ড>"
+msgid "Clipboard is empty"
+msgstr "ক্লিপবোর্ড ফাঁকা"
 
 #: klipperpopup.cpp:73
-#, kde-format
-msgid "<no matches>"
+#, fuzzy, kde-format
+#| msgid "<no matches>"
+msgid "No matches"
 msgstr "<কোন মিল পাওয়া যায়নি>"
 
 #: klipperpopup.cpp:121
@@ -697,11 +698,6 @@ msgstr "&আরো"
 msgid "Clipboard Contents"
 msgstr "ক্লিপবোর্ড-এর বিষয়বস্তু"
 
-#: tray.cpp:38 tray.cpp:54
-#, kde-format
-msgid "Clipboard is empty"
-msgstr "ক্লিপবোর্ড ফাঁকা"
-
 #: urlgrabber.cpp:185
 #, kde-format
 msgid "%1 - Actions For: %2"
@@ -716,6 +712,9 @@ msgstr "এই পপ-আপটি নিষ্ক্রিয় করো"
 #, kde-format
 msgid "&Cancel"
 msgstr "বাতি&ল করো"
+
+#~ msgid "<empty clipboard>"
+#~ msgstr "<ফাঁকা ক্লিপবোর্ড>"
 
 #, fuzzy
 #~| msgid "Enable/Disable Clipboard Actions"
