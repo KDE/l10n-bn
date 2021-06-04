@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-05-25 00:22+0000\n"
+"POT-Creation-Date: 2021-06-04 00:25+0000\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1510,6 +1510,11 @@ msgstr "সতর্কবার্তা: "
 
 #: session/Session.cpp:477
 #, kde-format
+msgid "Could not find an interactive shell to start."
+msgstr "শুরু করার জন্য কোন interactive shell খুঁজে পাওয়া যায়নি।"
+
+#: session/Session.cpp:483 session/Session.cpp:485
+#, kde-format
 msgid ""
 "Could not find '%1', starting '%2' instead.  Please check your profile "
 "settings."
@@ -1517,23 +1522,18 @@ msgstr ""
 "'%1' খুঁজে পাওয়া যায়নি, তার বদলে '%2' শুরু করা হচ্ছে। অনুগ্রহ করে আপনার প্রোফাইল "
 "সেটিংস পরীক্ষা করুন।"
 
-#: session/Session.cpp:480
-#, kde-format
-msgid "Could not find an interactive shell to start."
-msgstr "শুরু করার জন্য কোন interactive shell খুঁজে পাওয়া যায়নি।"
-
-#: session/Session.cpp:518
+#: session/Session.cpp:522
 #, fuzzy, kde-format
 msgid "Could not start program '%1' with arguments '%2'."
 msgstr "প্রেরিত মান '%2'এর সঙ্গে প্রোগ্রাম কি '%1' শুরু করতে পারে না।"
 
-#: session/Session.cpp:658
+#: session/Session.cpp:662
 #, fuzzy, kde-format
 #| msgid "Silence in session '%1'"
 msgid "Silence in '%1' (Session '%2')"
 msgstr "সেশন '%1' চুপচাপ"
 
-#: session/Session.cpp:929
+#: session/Session.cpp:933
 #, kde-format
 msgid ""
 "The D-Bus methods sendText/runCommand were just used.  There are security "
@@ -1542,28 +1542,28 @@ msgid ""
 "warning will only show once for this Konsole instance.</p>"
 msgstr ""
 
-#: session/Session.cpp:965
+#: session/Session.cpp:969
 #, kde-format
 msgctxt "@info:shell This session is done"
 msgid "Finished"
 msgstr "শেষ"
 
-#: session/Session.cpp:979 session/Session.cpp:992
+#: session/Session.cpp:983 session/Session.cpp:996
 #, kde-format
 msgid "Program '%1' crashed."
 msgstr "প্রোগ্রাম '%1' ক্র্যাশ করেছে।"
 
-#: session/Session.cpp:981
+#: session/Session.cpp:985
 #, kde-format
 msgid "Program '%1' exited with status %2."
 msgstr "প্রোগ্রাম '%1'-এর %2 স্ট্যাটাস সমেত সমাপ্তি।"
 
-#: session/Session.cpp:1424
+#: session/Session.cpp:1428
 #, kde-format
 msgid "ZModem Progress"
 msgstr "জি-মোডেম অগ্রগতি"
 
-#: session/Session.cpp:1744
+#: session/Session.cpp:1748
 #, fuzzy, kde-format
 #| msgid "Activity in session '%1'"
 msgid "Activity in '%1' (Session '%2')"
