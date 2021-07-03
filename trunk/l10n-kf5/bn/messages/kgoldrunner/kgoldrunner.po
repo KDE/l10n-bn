@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kgoldrunner\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-06-28 00:15+0000\n"
+"POT-Creation-Date: 2021-07-03 00:14+0000\n"
 "PO-Revision-Date: 2006-04-09 15:19-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -1613,7 +1613,7 @@ msgctxt ""
 "KGoldrunner game, are sometimes rather complicated, so it may help you to "
 "open the game and display the layout of a level as you translate the hint. "
 "It may also help to play the solution, by pressing H (for Hint) and then "
-"Escape (or click the Show A Solution button). You can move easily from one "
+"Escape (or click the 'Show a Solution' button). You can move easily from one "
 "level to the next by using the Y key and you can prevent a level from "
 "playing by using the Pause key (P or Escape)."
 msgid " "
@@ -2573,7 +2573,7 @@ msgid ""
 "It is best to play the first Gold Rush levels before attempting Gold Rush "
 "II, because you will need many techniques that are easier to learn there. "
 "None of the levels in Gold Rush and Gold Rush II are impossible. If in "
-"doubt, use menu item 'Move->Show A Solution' to watch solutions provided by "
+"doubt, use menu item 'Move->Show a Solution' to watch solutions provided by "
 "the author."
 msgstr ""
 
@@ -6074,7 +6074,7 @@ msgstr ""
 #: src/kgoldrunner.cpp:245 src/kgrgame.cpp:1303
 #, fuzzy, kde-format
 #| msgid "Show Positions"
-msgid "&Show A Solution"
+msgid "&Show a Solution"
 msgstr "অবস্থান দেখাও"
 
 #: src/kgoldrunner.cpp:246
@@ -6855,8 +6855,10 @@ msgid "Edit Toolbar"
 msgstr "সম্পাদক"
 
 #: src/kgrdialog.cpp:34
-#, kde-format
-msgid "Edit Name & Hint"
+#, fuzzy, kde-format
+#| msgid "Edit Name & Hint"
+msgctxt "@title:window"
+msgid "Edit Name or Hint"
 msgstr "নাম ও ইঙ্গিত সম্পাদন করো"
 
 #: src/kgrdialog.cpp:56
@@ -6869,9 +6871,10 @@ msgstr "খেলার-স্তরের নাম:"
 msgid "Hint for level:"
 msgstr "খেলার-স্তরের ইঙ্গিত:"
 
-#: src/kgrdialog.cpp:103 src/kgrdialog.cpp:172 src/kgrselector.cpp:82
-#: src/kgrselector.cpp:278
-#, kde-format
+#: src/kgrdialog.cpp:103 src/kgrdialog.cpp:172
+#, fuzzy, kde-format
+#| msgid "Edit Game Info"
+msgctxt "@title:window"
 msgid "Edit Game Info"
 msgstr "খেলা সংক্রান্ত তথ্য সম্পাদন করো"
 
@@ -6908,7 +6911,9 @@ msgid "About this game:"
 msgstr "খেলার বিবরণ:"
 
 #: src/kgrdialog.cpp:169
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Create Game"
+msgctxt "@title:window"
 msgid "Create Game"
 msgstr "খেলা তৈরি করো"
 
@@ -6928,7 +6933,9 @@ msgid "Save New"
 msgstr "নতুনটি সংরক্ষণ করো"
 
 #: src/kgrdialog.cpp:247
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Saved Game"
+msgctxt "@title:window"
 msgid "Select Saved Game"
 msgstr "সংরক্ষিত খেলা বাছাই করো"
 
@@ -7224,9 +7231,11 @@ msgid ""
 msgstr ""
 
 #: src/kgrgame.cpp:695
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Getting Started"
+msgctxt "@title:window"
 msgid "Quick Start"
-msgstr ""
+msgstr "আরম্ভ হতে যাচ্ছে"
 
 #: src/kgrgame.cpp:712
 #, kde-format
@@ -7296,7 +7305,7 @@ msgstr ""
 #: src/kgrgame.cpp:836
 #, fuzzy, kde-format
 #| msgid "Show Positions"
-msgid "Show A Solution"
+msgid "Show a Solution"
 msgstr "অবস্থান দেখাও"
 
 #: src/kgrgame.cpp:837
@@ -7477,7 +7486,14 @@ msgstr ""
 "<b>অভিনন্দন !!!</b>  আপনি এই খেলার সেরা স্কোরটি অর্জন করেছেন।  অনুগ্রহপূর্বক আপনার "
 "নাম লিখুন যেন তা কে-গোল্ডরানারের হল-অব-ফেম এ প্রদর্শন করা যায়।"
 
-#: src/kgrgame.cpp:1722 src/kgrgame.cpp:1809
+#: src/kgrgame.cpp:1722
+#, fuzzy, kde-format
+#| msgid "Save High Score"
+msgctxt "@title:window"
+msgid "Save High Score"
+msgstr "উচ্চস্কোর সংরক্ষণ করো"
+
+#: src/kgrgame.cpp:1809
 #, kde-format
 msgid "Save High Score"
 msgstr "উচ্চস্কোর সংরক্ষণ করো"
@@ -7543,7 +7559,9 @@ msgid "Date"
 msgstr ""
 
 #: src/kgrgame.cpp:1887
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "High Scores"
+msgctxt "@title:window"
 msgid "High Scores"
 msgstr "উচ্চস্কোর"
 
@@ -7639,6 +7657,11 @@ msgstr ""
 msgid "Sorry, you can only delete a level from one of your own games."
 msgstr "দুঃখিত, আপনি কোন খেলার-স্তরকে শুধুমাত্র নিজস্ব খেলা থেকেই মুছে ফেলতে পারবেন।"
 
+#: src/kgrselector.cpp:82 src/kgrselector.cpp:278
+#, kde-format
+msgid "Edit Game Info"
+msgstr "খেলা সংক্রান্ত তথ্য সম্পাদন করো"
+
 #: src/kgrselector.cpp:83
 #, kde-format
 msgid "Sorry, you can only edit the game information on your own games."
@@ -7653,7 +7676,9 @@ msgstr ""
 "না।"
 
 #: src/kgrselector.cpp:119 src/kgrselector.cpp:174
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Game"
+msgctxt "@title:window"
 msgid "Select Game"
 msgstr "খেলা বেছে নিন"
 
@@ -7690,7 +7715,9 @@ msgid "Level 1 of the selected game is:"
 msgstr "বাছাইকৃত খেলার প্রথম স্তর হল:"
 
 #: src/kgrselector.cpp:180
-#, kde-format
+#, fuzzy, kde-format
+#| msgid "Select Game/Level"
+msgctxt "@title:window"
 msgid "Select Game/Level"
 msgstr "খেলা/খেলার-স্তর বেছে নিন"
 
@@ -7706,8 +7733,9 @@ msgid "Level number:"
 msgstr "স্তর নম্বর:"
 
 #: src/kgrselector.cpp:207
-#, kde-format
-msgid "Edit Level Name && Hint"
+#, fuzzy, kde-format
+#| msgid "Edit Level Name && Hint"
+msgid "Edit Level Name o&r Hint"
 msgstr "স্তরের নাম ও ইঙ্গিত সম্পাদন করুন"
 
 #: src/kgrselector.cpp:242
