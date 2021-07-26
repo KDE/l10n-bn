@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kstars\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-07-25 00:13+0000\n"
+"POT-Creation-Date: 2021-07-26 00:13+0000\n"
 "PO-Revision-Date: 2006-04-24 00:45-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -2373,11 +2373,12 @@ msgstr "অপশন:"
 #. i18n: ectx: property (text), widget (QLabel, label)
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, profileNameLabel)
+#. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1_3)
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: dialogs/addcatalogobject.ui:26 dialogs/catalogeditform.ui:39
-#: ekos/profileeditor.ui:55 indi/indihostconf.ui:20 oal/observeradd.ui:53
-#: tools/altvstime.ui:54 tools/argfindobject.ui:21
+#: ekos/profileeditor.ui:55 indi/customdrivers.ui:95 indi/indihostconf.ui:20
+#: oal/observeradd.ui:53 tools/altvstime.ui:54 tools/argfindobject.ui:21
 #, kde-format
 msgid "Name:"
 msgstr "নাম:"
@@ -2720,9 +2721,7 @@ msgid "Check URL"
 msgstr "ইউ.আর.এল. পরীক্ষা করো"
 
 #. i18n: ectx: property (text), widget (QRadioButton, meridianFlipDegreesR)
-#. i18n: ectx: property (text), widget (QLabel, AngDistLabel_4)
 #: dialogs/catalogcsvimport.cpp:100 ekos/mount/mount.ui:377
-#: tools/modcalcangdist.ui:331
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
@@ -3071,9 +3070,7 @@ msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, object_group)
 #. i18n: ectx: property (text), widget (QTableWidget, alignTable)
-#. i18n: ectx: property (text), widget (QPushButton, FindButton)
 #: dialogs/catalogdetails.ui:183 ekos/align/mountmodel.ui:464
-#: tools/argfindobject.ui:47 tools/arglooktoward.ui:116
 #, kde-format
 msgid "Object"
 msgstr "খ-বস্তু"
@@ -3168,12 +3165,10 @@ msgid "Mag"
 msgstr "উজ্জ্বলতা"
 
 #. i18n: ectx: property (text), widget (QTableWidget, queueTable)
-#. i18n: ectx: property (text), widget (QLabel, label_10)
 #. i18n: ectx: property (text), widget (QTreeWidget, clientTreeWidget)
 #: dialogs/catalogobjectlistmodel.cpp:84 dialogs/catalogsdbui.cpp:35
-#: ekos/scheduler/scheduler.ui:1044 indi/customdrivers.ui:95
-#: indi/drivermanager.ui:327 tools/observinglist.cpp:100
-#: tools/observinglist.cpp:104
+#: ekos/scheduler/scheduler.ui:1044 indi/drivermanager.ui:327
+#: tools/observinglist.cpp:100 tools/observinglist.cpp:104
 #, kde-format
 msgid "Name"
 msgstr "নাম"
@@ -3363,7 +3358,9 @@ msgid "Create Catalog..."
 msgstr "সকল প্রধান প্রধান খ-বস্তু বাছাই করো"
 
 #. i18n: ectx: property (text), widget (QPushButton, exportButton)
-#: dialogs/catalogsdbui.ui:93
+#. i18n: ectx: property (text), widget (QPushButton, ExportButton)
+#: dialogs/catalogsdbui.ui:93 tools/conjunctions.ui:198
+#: tools/eclipsetool.ui:160
 #, fuzzy, kde-format
 msgid "Export..."
 msgstr "বিষ্ণুতারা (ক্যাস্টর)"
@@ -5200,7 +5197,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel6_2_2_2)
 #. i18n: ectx: property (text), widget (QLabel, label_4)
+#. i18n: ectx: property (text), widget (QLabel, AngDistLabel_4)
 #: dialogs/newfov.ui:297 ekos/guide/opscalibration.ui:214
+#: tools/modcalcangdist.ui:331
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
@@ -5543,8 +5542,7 @@ msgid "Offset Y:"
 msgstr "বিশ্বজনীন-সময় (universal Time) থেকে পার্থক্য:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_7)
-#. i18n: ectx: property (text), widget (QLabel, AngDistLabel_3)
-#: dialogs/newfov.ui:1088 tools/modcalcangdist.ui:363
+#: dialogs/newfov.ui:1088
 #, fuzzy, kde-format
 #| msgctxt "City name (optional, probably does not need a translation)"
 #| msgid "Evergreen"
@@ -8614,8 +8612,7 @@ msgid ""
 msgstr "মিলযুক্ত খ-বস্তু:"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#. i18n: ectx: property (text), widget (QLabel, label_7)
-#: ekos/align/opsastap.ui:88 indi/customdrivers.ui:85
+#: ekos/align/opsastap.ui:88
 #, fuzzy, kde-format
 #| msgctxt "Show Detailed Information Dialog"
 #| msgid "Details"
@@ -26106,23 +26103,31 @@ msgid "Failed to add new driver. Is the label unique?"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: indi/customdrivers.ui:55
-#, fuzzy, kde-format
-#| msgid "Driver:"
-msgid "Driver"
+#. i18n: ectx: property (text), widget (QLabel, driverLabel)
+#: indi/customdrivers.ui:55 oal/equipmentwriter.ui:206
+#, kde-format
+msgid "Driver:"
 msgstr "ড্রাইভার:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
 #: indi/customdrivers.ui:75
 #, fuzzy, kde-format
-msgid "Family"
+msgid "Family:"
 msgstr "ওয়ালেস"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: indi/customdrivers.ui:110 tools/flagmanager.cpp:79
+#. i18n: ectx: property (text), widget (QLabel, label_7)
+#: indi/customdrivers.ui:85
 #, fuzzy, kde-format
-#| msgid "Label:"
-msgid "Label"
+#| msgctxt "Show Detailed Information Dialog"
+#| msgid "Details"
+msgid "Executable:"
+msgstr "বিস্তারিত"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#. i18n: ectx: property (text), widget (QLabel, label)
+#: indi/customdrivers.ui:110 tools/flagmanager.ui:84
+#, kde-format
+msgid "Label:"
 msgstr "লেবেল:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
@@ -26136,12 +26141,15 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "Country name (optional, but should be translated)"
 #| msgid "Vanuatu"
-msgid "Manufacturer"
+msgid "Manufacturer:"
 msgstr "ভানুয়াটু"
 
 #. i18n: ectx: property (text), widget (QPushButton, addDriverB)
 #. i18n: ectx: property (text), widget (QPushButton, NewEyepiece)
+#. i18n: ectx: property (text), widget (QPushButton, NewLens)
+#. i18n: ectx: property (text), widget (QPushButton, NewFilter)
 #: indi/customdrivers.ui:177 oal/equipmentwriter.ui:463
+#: oal/equipmentwriter.ui:589 oal/equipmentwriter.ui:798
 #, fuzzy, kde-format
 msgid "Add New"
 msgstr "যোগ করো..."
@@ -26353,13 +26361,11 @@ msgid "Hosts"
 msgstr "হোস্ট"
 
 #. i18n: ectx: property (text), widget (QPushButton, addB)
-#. i18n: ectx: property (text), widget (QPushButton, addButton)
 #: indi/drivermanager.ui:297
-#: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:95
-#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:382 tools/flagmanager.ui:133
-#, fuzzy, kde-format, kde-kuit-format
-msgid "Add"
-msgstr "যোগ করো..."
+#, fuzzy, kde-format
+#| msgid "Find City"
+msgid "Add..."
+msgstr "শহর অনুসন্ধান"
 
 #. i18n: ectx: property (text), widget (QPushButton, modifyB)
 #: indi/drivermanager.ui:304
@@ -26869,7 +26875,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: indi/opsindi.ui:370
 #, fuzzy, kde-format
-msgid "Transfer Buffer (MB):"
+msgid "Transfer buffer (MB):"
 msgstr "সার্ভার লগ"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
@@ -26926,7 +26932,7 @@ msgstr "&অবস্থান পরিবর্তন করো..."
 #: indi/opsindi.ui:546
 #, fuzzy, kde-format
 #| msgid "Show Catalog"
-msgid "Show INDI Logs"
+msgid "Show INDI Logs..."
 msgstr "ক্যাটালগ দেখাও"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, recordingOptions)
@@ -99159,14 +99165,14 @@ msgstr "গ্রহ"
 
 #: kstarsactions.cpp:1136 kstarsactions.cpp:1858 kstarsinit.cpp:279
 #, fuzzy, kde-format
-msgid "Hide terrain"
+msgid "Hide Terrain"
 msgstr "থান্ডার বে"
 
 #: kstarsactions.cpp:1136 kstarsactions.cpp:1858 kstarsinit.cpp:280
 #, fuzzy, kde-format
-#| msgid "Show Other"
-msgid "Show terrain"
-msgstr "অন্যান্যদের দেখাও"
+#| msgid "Details"
+msgid "Show Terrain"
+msgstr "বিস্তারিত"
 
 #: kstarsactions.cpp:1273
 #, fuzzy, kde-format
@@ -99535,7 +99541,7 @@ msgstr "স্ক্রিপ্ট চালা&ও..."
 #, fuzzy, kde-format
 #| msgid "Observing List Wizard"
 msgctxt "start Printing Wizard"
-msgid "Printing &Wizard"
+msgid "Printing &Wizard..."
 msgstr "পর্যবেক্ষণ তালিকার উইজার্ড"
 
 #: kstarsinit.cpp:191
@@ -100538,6 +100544,13 @@ msgstr "বিবরণ"
 #| msgid "URL:"
 msgid "URL"
 msgstr "ইউ.আর.এল.:"
+
+#. i18n: ectx: property (text), widget (QPushButton, addButton)
+#: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:95
+#: kstarslite/qml/dialogs/helpers/LocationEdit.qml:382 tools/flagmanager.ui:133
+#, fuzzy, kde-format, kde-kuit-format
+msgid "Add"
+msgstr "যোগ করো..."
 
 #: kstarslite/qml/dialogs/helpers/DetailsAddLink.qml:98
 #, kde-kuit-format
@@ -105831,12 +105844,6 @@ msgstr ""
 msgid "Aperture:"
 msgstr "অ্যাপার্চার:"
 
-#. i18n: ectx: property (text), widget (QLabel, driverLabel)
-#: oal/equipmentwriter.ui:206
-#, kde-format
-msgid "Driver:"
-msgstr "ড্রাইভার:"
-
 #. i18n: ectx: property (toolTip), widget (QPushButton, AddScope)
 #: oal/equipmentwriter.ui:229
 #, fuzzy, kde-format
@@ -105918,14 +105925,6 @@ msgstr ""
 #| msgid "Falcon"
 msgid "Factor:"
 msgstr "ফ্যালকন"
-
-#. i18n: ectx: property (text), widget (QPushButton, NewLens)
-#. i18n: ectx: property (text), widget (QPushButton, NewFilter)
-#: oal/equipmentwriter.ui:589 oal/equipmentwriter.ui:798
-#, fuzzy, kde-format
-#| msgid "New..."
-msgid "Add New..."
-msgstr "নতুন..."
 
 #. i18n: ectx: property (text), widget (QPushButton, AddLens)
 #: oal/equipmentwriter.ui:596
@@ -106386,7 +106385,7 @@ msgstr "মিলযুক্ত খ-বস্তু:"
 #: options/opsadvanced.ui:256
 #, fuzzy, kde-format
 #| msgid "Show Catalog"
-msgid "Show Logs"
+msgid "Show Logs..."
 msgstr "ক্যাটালগ দেখাও"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, purgeAllConfigB)
@@ -106563,8 +106562,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_HideStars)
 #: options/opsadvanced.ui:596
-#, kde-format
-msgid "Stars fainter than"
+#, fuzzy, kde-format
+#| msgid "Stars fainter than"
+msgid "Stars fainter than:"
 msgstr "এ থেকে অনুজ্জ্বল তারা"
 
 #. i18n: ectx: property (whatsThis), widget (MagnitudeSpinBox, kcfg_MagLimitHideStar)
@@ -106827,7 +106827,7 @@ msgstr "&উজ্জ্বলতা দেখাও"
 #. i18n: ectx: property (text), widget (QPushButton, manageButton)
 #: options/opscatalog.ui:593
 #, fuzzy, kde-format
-msgid "Manage Deep Sky Catalogs"
+msgid "Manage Deep Sky Catalogs..."
 msgstr "দূর-আকাশের বস্তু"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, kcfg_ResolveNamesOnline)
@@ -108027,9 +108027,9 @@ msgstr "তারামণ্ডলের নাম সংক্রান্ত 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_ShowTerrain)
 #: options/opsterrain.ui:31
 #, fuzzy, kde-format
-#| msgid "Details"
-msgid "Show Terrain"
-msgstr "বিস্তারিত"
+#| msgid "Show Other"
+msgid "Show terrain"
+msgstr "অন্যান্যদের দেখাও"
 
 #. i18n: ectx: property (whatsThis), widget (QLabel, terrainFileLabel)
 #: options/opsterrain.ui:46
@@ -108054,7 +108054,7 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, terrainSourceCorrectAzLabel)
 #: options/opsterrain.ui:104
 #, kde-format
-msgid "Terrain image azimuth correction degrees"
+msgid "Terrain image azimuth correction degrees:"
 msgstr ""
 
 #. i18n: ectx: property (title), widget (QGroupBox, TerrainSpeedupGroupBox_2)
@@ -108709,7 +108709,7 @@ msgstr "আকাশের ছবি ছাপাও"
 #. i18n: ectx: property (text), widget (QPushButton, exportButton)
 #: printing/pwizprint.ui:216
 #, fuzzy, kde-format
-msgid "Export to file"
+msgid "Export to File..."
 msgstr "বিষ্ণুতারা (ক্যাস্টর)"
 
 #. i18n: ectx: property (text), widget (QLabel, stepTitle)
@@ -109068,16 +109068,15 @@ msgstr "ফিল্ড-অব-ভিউ প্রতীকের আকৃত�
 msgid "FOV to use for star hopping (in arcminutes):"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, DetailButton)
-#: skymap.cpp:889 tools/wutdialog.ui:480
-#, kde-format
-msgid "Object Details"
-msgstr "বস্তুর বিস্তারিত বিবরণ"
-
 #: skymap.cpp:889
 #, kde-format
 msgid "No object selected."
 msgstr "কোন বস্তু বাছাই করা হয় নি।"
+
+#: skymap.cpp:889
+#, kde-format
+msgid "Object Details"
+msgstr "বস্তুর বিস্তারিত বিবরণ"
 
 #: skyobjects/jupitermoons.cpp:29
 #, kde-format
@@ -110787,7 +110786,8 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, browseButton)
 #. i18n: ectx: property (text), widget (QPushButton, Obj1FindButton)
-#: tools/altvstime.ui:84 tools/conjunctions.ui:52
+#. i18n: ectx: property (text), widget (QPushButton, FindButton)
+#: tools/altvstime.ui:84 tools/conjunctions.ui:52 tools/observinglist.ui:329
 #, kde-format
 msgid "Find Object..."
 msgstr "বস্তু খোঁজো..."
@@ -110907,7 +110907,7 @@ msgstr "সমন্বয়যোগ্য অপশনের তালিকা"
 #, fuzzy, kde-format
 msgid ""
 "Select an option from this list to set its value.  You may also select the "
-"option using an organized Tree List using the \"Browse Tree\" button."
+"option using an organized Tree List using the \"Browse Tree...\" button."
 msgstr ""
 "তালিকা থেকে একটি অপশন বেছে নিয়ে তার মান নির্ধারণ করুন।  এছাড়া \"ট্রি ব্রাউজ\" "
 "বাটন চেপে একটি ট্রি (tree) তালিকা থেকেও আপনি এই অপশনকে বেছে নিতে পারেন।"
@@ -110938,8 +110938,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, TreeButton)
 #: tools/argchangeviewoption.ui:69
-#, kde-format
-msgid "Browse Tree"
+#, fuzzy, kde-format
+#| msgid "Browse Tree"
+msgid "Browse Tree..."
 msgstr "ট্রি ব্রাউজ"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, OptionValue)
@@ -110956,7 +110957,7 @@ msgid ""
 "enter matches the data type expected by the option.  For example, the "
 "\"UseAltAz\" option expects a boolean value, so you should enter \"true\", "
 "\"false\", \"1\", or \"0\".  If you are unsure what data type is expected, "
-"examine the Tree View of options using the \"Browse Tree\" button."
+"examine the Tree View of options using the \"Browse Tree...\" button."
 msgstr ""
 "এখানে নির্বাচিত ভিউ অপশনের মান লিখুন।  আপনি যে মানটি লিখছেন, তার ধরন যেন "
 "অপশনটির মানের প্রত্যাশিত ধরনের সাথে সঙ্গতিপূর্ণ হয় তা নিশ্চিত হোন।  উদাহরণস্বরূপ, "
@@ -111005,6 +111006,13 @@ msgstr ""
 "খ-বস্তু অনুসন্ধানের ডায়ালগ খোলে, যেখানে আপনি পরিচিত খ-বস্তুর তালিকা থেকে যেকোন "
 "একটি খ-বস্তুকে বেছে নিতে পারবেন।  কোন খ-বস্তু বেছে নেওয়ার পর বামদিকের \"দিক\" "
 "বাক্সে তার নাম দেখা যাবে।"
+
+#. i18n: ectx: property (text), widget (QPushButton, FindButton)
+#: tools/argfindobject.ui:47 tools/arglooktoward.ui:116
+#, fuzzy, kde-format
+#| msgid "Find Object"
+msgid "Object..."
+msgstr "বস্তু অনুসন্ধান করো"
 
 #. i18n: ectx: property (text), widget (QLabel, textLabel1)
 #: tools/arglooktoward.ui:30
@@ -111069,7 +111077,7 @@ msgstr "দেশ"
 #, fuzzy, kde-format
 msgid ""
 "Enter the Country name for the desired location.  It might be easier to use "
-"the \"Find City\" location to choose your location from the list of "
+"the \"Find City...\" button to choose your location from the list of "
 "predefined cities."
 msgstr ""
 "আকাঙ্খিত অবস্থানটি যে দেশে অবস্থিত, তার নাম লিখুন।  পূর্বপ্রস্তুত শহরের তালিকা থেকে "
@@ -111086,7 +111094,7 @@ msgstr "শহরের নাম"
 #, fuzzy, kde-format
 msgid ""
 "Enter the City name for the desired location.  It might be easier to use the "
-"\"Find City\" location to choose your location from the list of predefined "
+"\"Find City...\" button to choose your location from the list of predefined "
 "cities."
 msgstr ""
 "আকাঙ্খিত অবস্থানটি যে শহরে অবস্থিত, তার নাম লিখুন।  পূর্বপ্রস্তুত শহরের তালিকা থেকে "
@@ -111103,7 +111111,7 @@ msgstr "প্রদেশ"
 #, fuzzy, kde-format
 msgid ""
 "Enter the Province name for the desired location.  It might be easier to use "
-"the \"Find City\" location to choose your location from the list of "
+"the \"Find City...\" button to choose your location from the list of "
 "predefined cities."
 msgstr ""
 "আকাঙ্খিত অবস্থানটি যে প্রদেশে অবস্থিত, তার নাম লিখুন।  পূর্বপ্রস্তুত শহরের তালিকা থেকে "
@@ -111131,8 +111139,9 @@ msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, FindCityButton)
 #: tools/argsetgeolocation.ui:129
-#, kde-format
-msgid "Find City"
+#, fuzzy, kde-format
+#| msgid "Find City"
+msgid "Find City..."
 msgstr "শহর অনুসন্ধান"
 
 #. i18n: ectx: property (toolTip), widget (QCheckBox, CheckTrack)
@@ -111411,7 +111420,7 @@ msgstr "জুলিয়ান দিবস"
 
 #: tools/conjunctions.cpp:106
 #, fuzzy, kde-format
-msgid "Single Object..."
+msgid "Single Object"
 msgstr "বস্তু খোঁজো..."
 
 #: tools/conjunctions.cpp:129
@@ -111570,12 +111579,6 @@ msgstr ""
 #, kde-format
 msgid "Compute"
 msgstr "গণনা করো"
-
-#. i18n: ectx: property (text), widget (QPushButton, ExportButton)
-#: tools/conjunctions.ui:198 tools/eclipsetool.ui:160
-#, fuzzy, kde-format
-msgid "Export"
-msgstr "বিষ্ণুতারা (ক্যাস্টর)"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
 #: tools/conjunctions.ui:235
@@ -111814,17 +111817,17 @@ msgstr "যুগ (epoch):"
 msgid "Icon"
 msgstr "ইঞ্চিয়ন"
 
+#: tools/flagmanager.cpp:79
+#, fuzzy, kde-format
+#| msgid "Label:"
+msgid "Label"
+msgstr "লেবেল:"
+
 #: tools/flagmanager.cpp:185
 #, fuzzy, kde-format
 #| msgid "Invalid Coordinate Data"
 msgid "Invalid coordinates."
 msgstr "অবৈধ স্থানাংক তথ্য"
-
-#. i18n: ectx: property (text), widget (QLabel, label)
-#: tools/flagmanager.ui:84
-#, kde-format
-msgid "Label:"
-msgstr "লেবেল:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: tools/flagmanager.ui:101
@@ -112146,6 +112149,14 @@ msgstr "কৌণিক দূরত্ব: "
 msgid "Position angle:"
 msgstr "অবস্থানসূচক কোণ"
 
+#. i18n: ectx: property (text), widget (QLabel, AngDistLabel_3)
+#: tools/modcalcangdist.ui:363
+#, fuzzy, kde-format
+#| msgctxt "City name (optional, probably does not need a translation)"
+#| msgid "Evergreen"
+msgid "degrees E of N"
+msgstr "এভারগ্রিন"
+
 #. i18n: ectx: attribute (title), widget (QWidget, batch)
 #. i18n: ectx: attribute (title), widget (QWidget, tab2)
 #. i18n: ectx: attribute (title), widget (QWidget, tab_2)
@@ -112447,7 +112458,7 @@ msgstr "আউটপুট ফাইল..."
 #: tools/modcalcsidtime.ui:326 tools/modcalcvizequinox.ui:319
 #, fuzzy, kde-format
 #| msgid "Preview &Output"
-msgid "View output"
+msgid "View Output..."
 msgstr "আউটপুট-এর প্রা&কদর্শন"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_3)
@@ -113341,9 +113352,9 @@ msgstr "ফাইলের নাম উল্লেখ করে বর্ত�
 
 #. i18n: ectx: property (text), widget (QPushButton, OALExport)
 #: tools/observinglist.ui:152
-#, kde-format
-msgid "Export to OAL"
-msgstr ""
+#, fuzzy, kde-format
+msgid "Export to OAL..."
+msgstr "বিষ্ণুতারা (ক্যাস্টর)"
 
 #. i18n: ectx: property (displayFormat), widget (QDateEdit, DateEdit)
 #. i18n: ectx: property (displayFormat), widget (QDateEdit, DateBox)
@@ -113362,7 +113373,7 @@ msgstr ""
 #: tools/observinglist.ui:242
 #, fuzzy, kde-format
 #| msgid "Preview of %1"
-msgid "Reference Images:"
+msgid "Reference images:"
 msgstr "%1-এর প্রাকদর্শন"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, saveImages)
@@ -113395,7 +113406,7 @@ msgstr "সকল প্রধান প্রধান খ-বস্তু ব�
 #: tools/observinglist.ui:279
 #, fuzzy, kde-format
 #| msgid "Find Object"
-msgid "Adding Objects:"
+msgid "Adding objects:"
 msgstr "বস্তু অনুসন্ধান করো"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, WizardButton)
@@ -113418,7 +113429,7 @@ msgstr ""
 #, fuzzy, kde-format
 #| msgctxt "star name"
 #| msgid "Mizar"
-msgid "Wizard"
+msgid "Wizard..."
 msgstr "বশিষ্ঠ"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, FindButton)
@@ -113432,12 +113443,6 @@ msgstr ""
 #, kde-format
 msgid "Open the Find Dialog for adding objects to the list"
 msgstr ""
-
-#. i18n: ectx: property (text), widget (QPushButton, FindButton)
-#: tools/observinglist.ui:329
-#, kde-format
-msgid "Find Object"
-msgstr "বস্তু অনুসন্ধান করো"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, WUTButton)
 #: tools/observinglist.ui:342
@@ -113457,7 +113462,7 @@ msgstr ""
 #: tools/observinglist.ui:348
 #, fuzzy, kde-format
 #| msgid "What's up Tonight"
-msgid "What's up Tonight tool"
+msgid "What's up Tonight..."
 msgstr "আজ রাতে কি দেখা যাবে?"
 
 #. i18n: ectx: attribute (title), widget (QWidget, WishList)
@@ -113506,7 +113511,7 @@ msgstr "ছবি"
 #. i18n: ectx: property (text), widget (QPushButton, SearchImage)
 #: tools/observinglist.ui:641
 #, kde-format
-msgid "Replace from Internet"
+msgid "Replace from Internet..."
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, DeleteImage)
@@ -114699,8 +114704,9 @@ msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, OpenButton)
 #: tools/scriptbuilder.ui:101
-#, kde-format
-msgid "Open Script"
+#, fuzzy, kde-format
+#| msgid "Open Script"
+msgid "Open Script..."
 msgstr "স্ক্রিপ্ট খোলো"
 
 #. i18n: ectx: property (whatsThis), widget (QPushButton, OpenButton)
@@ -115593,6 +115599,13 @@ msgstr "বস্তুর বিস্তারিত বিবরণের উ
 #, kde-format
 msgid "Open the Details window for the highlighted object."
 msgstr ""
+
+#. i18n: ectx: property (text), widget (QPushButton, DetailButton)
+#: tools/wutdialog.ui:480
+#, fuzzy, kde-format
+#| msgid "Object Details"
+msgid "Object Details..."
+msgstr "বস্তুর বিস্তারিত বিবরণ"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, ObslistButton)
 #: tools/wutdialog.ui:487
@@ -116527,6 +116540,32 @@ msgid "Set the color for the background."
 msgstr "গতিপথকে পটভূমির রঙের সাথে মিলিয়ে দেওয়া হবে কি?"
 
 #, fuzzy
+#~| msgid "Driver:"
+#~ msgid "Driver"
+#~ msgstr "ড্রাইভার:"
+
+#, fuzzy
+#~ msgid "Hide terrain"
+#~ msgstr "থান্ডার বে"
+
+#, fuzzy
+#~| msgid "New..."
+#~ msgid "Add New..."
+#~ msgstr "নতুন..."
+
+#, fuzzy
+#~ msgid "Export"
+#~ msgstr "বিষ্ণুতারা (ক্যাস্টর)"
+
+#~ msgid "Find Object"
+#~ msgstr "বস্তু অনুসন্ধান করো"
+
+#, fuzzy
+#~| msgid "What's up Tonight"
+#~ msgid "What's up Tonight tool"
+#~ msgstr "আজ রাতে কি দেখা যাবে?"
+
+#, fuzzy
 #~| msgid "Sources"
 #~ msgid "Source"
 #~ msgstr "উৎ‍স"
@@ -116571,10 +116610,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~| msgid "Focal length:"
 #~ msgid "Focal Length:"
 #~ msgstr "ফোকাস দূরত্ব:"
-
-#, fuzzy
-#~ msgid "Hide Terrain"
-#~ msgstr "থান্ডার বে"
 
 #, fuzzy
 #~ msgid "DST Rule: "
@@ -119536,11 +119571,6 @@ msgstr "গতিপথকে পটভূমির রঙের সাথে �
 #~| msgid "Filter"
 #~ msgid "Filter #:"
 #~ msgstr "ফিল্টার"
-
-#, fuzzy
-#~| msgid "Find City"
-#~ msgid "Find..."
-#~ msgstr "শহর অনুসন্ধান"
 
 #~ msgid "Coordinate out of range."
 #~ msgstr "সীমা বহির্ভূত স্থানাংক।"
