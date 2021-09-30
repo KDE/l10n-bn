@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: konsole\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-09-23 00:20+0000\n"
+"POT-Creation-Date: 2021-09-30 00:18+0000\n"
 "PO-Revision-Date: 2010-05-30 02:09-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -615,7 +615,7 @@ msgstr "রং স্কীম এবং পটভূমি"
 
 #. i18n: ectx: property (text), widget (QToolButton, wallpaperSelectButton)
 #. i18n: ectx: property (text), widget (QToolButton, dirSelectButton)
-#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:152
+#: colorscheme/ColorSchemeEditor.ui:120 widgets/EditProfileGeneralPage.ui:179
 #, kde-format
 msgid "..."
 msgstr "..."
@@ -1540,7 +1540,7 @@ msgctxt "Name of the default/builtin profile"
 msgid "Default"
 msgstr "কনসোল ডিফল্ট"
 
-#: profile/ProfileList.cpp:37
+#: profile/ProfileList.cpp:37 widgets/EditProfileDialog.cpp:483
 #, kde-format
 msgid "Default profile"
 msgstr "ডিফল্ট প্রোফাইল"
@@ -3260,7 +3260,7 @@ msgstr "নির্বাচিত রং স্কিম সম্পাদন
 #. i18n: ectx: property (text), widget (QPushButton, textEditorCustomBtn)
 #. i18n: ectx: property (text), widget (QPushButton, editColorSchemeButton)
 #: widgets/EditProfileAppearancePage.ui:79
-#: widgets/EditProfileGeneralPage.ui:193 widgets/EditProfileKeyboardPage.ui:85
+#: widgets/EditProfileGeneralPage.ui:220 widgets/EditProfileKeyboardPage.ui:85
 #: widgets/EditProfileMousePage.ui:310
 #, kde-format
 msgid "Edit..."
@@ -3609,7 +3609,7 @@ msgctxt "@title:tab Complex options"
 msgid "Advanced"
 msgstr "অগ্রসর"
 
-#: widgets/EditProfileDialog.cpp:289
+#: widgets/EditProfileDialog.cpp:301
 #, kde-kuit-format
 msgctxt "@info"
 msgid ""
@@ -3618,13 +3618,13 @@ msgid ""
 "the settings to a new profile."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:306
+#: widgets/EditProfileDialog.cpp:318
 #, kde-format
 msgctxt "@info"
 msgid "Profile Name was empty; please set a name to be able to save settings."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:314
+#: widgets/EditProfileDialog.cpp:326
 #, fuzzy, kde-format
 #| msgid ""
 #| "A file with this name already exists.\n"
@@ -3635,25 +3635,25 @@ msgstr ""
 "এই নামে একটি ফাইল আগে থেকেই আছে। \n"
 "আপনি কি সেটি মুছে ফেলতে চান ?"
 
-#: widgets/EditProfileDialog.cpp:349
+#: widgets/EditProfileDialog.cpp:361
 #, kde-format
 msgid "Editing profile: %2"
 msgid_plural "Editing %1 profiles: %2"
 msgstr[0] "প্রোফাইল সম্পাদনা করা হচ্ছে: %2"
 msgstr[1] "%1-টি প্রোফাইল সম্পাদনা করা হচ্ছে: %2"
 
-#: widgets/EditProfileDialog.cpp:352
+#: widgets/EditProfileDialog.cpp:364
 #, fuzzy, kde-format
 #| msgid "New Profile..."
 msgid "Create New Profile"
 msgstr "নতুন প্রোফাইল..."
 
-#: widgets/EditProfileDialog.cpp:354
+#: widgets/EditProfileDialog.cpp:366
 #, kde-format
 msgid "Edit Profile \"%1\""
 msgstr "প্রোফাইল \"%1\" সম্পাদনা করো"
 
-#: widgets/EditProfileDialog.cpp:451
+#: widgets/EditProfileDialog.cpp:463
 #, kde-format
 msgctxt ""
 "Suffix of the number of columns (N columns). The leading space is needed to "
@@ -3663,7 +3663,7 @@ msgid_plural " columns"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:453
+#: widgets/EditProfileDialog.cpp:465
 #, kde-format
 msgctxt ""
 "Suffix of the number of rows (N rows). The leading space is needed to "
@@ -3673,40 +3673,46 @@ msgid_plural " rows"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, fuzzy, kde-format
 #| msgid "System &Bell"
 msgid "System Bell"
 msgstr "সিস্টেম &ঘণ্টা"
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, fuzzy, kde-format
 #| msgid "System &Notification"
 msgid "System Notifications"
 msgstr "সিস্টেম বার্তা (&ব)"
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, fuzzy, kde-format
 #| msgid "&Visible Bell"
 msgid "Visual Bell"
 msgstr "দৃশ্যমা&ন ঘণ্টা"
 
-#: widgets/EditProfileDialog.cpp:463
+#: widgets/EditProfileDialog.cpp:475
 #, kde-format
 msgid "Ignore Bell Events"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:501
+#: widgets/EditProfileDialog.cpp:486
+#, fuzzy, kde-format
+#| msgid "Set the selected profile as the default for new terminal sessions"
+msgid "Default profile for new terminal sessions in %1"
+msgstr "নির্বাচিত প্রোফাইলটি নতুন টার্মিনাল সেশনের জন্য ডিফল্ট হিসেবে নির্ধারিত করো"
+
+#: widgets/EditProfileDialog.cpp:525
 #, fuzzy, kde-format
 msgid "Edit Environment"
 msgstr "পরিবেশ সম্পাদনা করো"
 
-#: widgets/EditProfileDialog.cpp:502
+#: widgets/EditProfileDialog.cpp:526
 #, kde-format
 msgid "One environment variable per line"
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:533
+#: widgets/EditProfileDialog.cpp:557
 #, kde-format
 msgctxt "Unit of time"
 msgid " second"
@@ -3714,18 +3720,18 @@ msgid_plural " seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: widgets/EditProfileDialog.cpp:622
+#: widgets/EditProfileDialog.cpp:646
 #, kde-format
 msgid "Select Initial Directory"
 msgstr "প্রারম্ভিক ডিরেক্টরী নির্বাচন করো"
 
-#: widgets/EditProfileDialog.cpp:1134
+#: widgets/EditProfileDialog.cpp:1158
 #, kde-kuit-format
 msgctxt "@info"
 msgid "Scheme <resource>%1</resource> failed to load."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1313
+#: widgets/EditProfileDialog.cpp:1337
 #, fuzzy, kde-format
 msgid ""
 "This color scheme uses a transparent background which does not appear to be "
@@ -3734,14 +3740,14 @@ msgstr ""
 "এই রং পরিকল্পনাটি একটি স্বচ্ছ পটভূমি ব্যবহার করো যেটি আপনার ডেস্কটপে হ সমর্থন করতে "
 "আবির্ভূত হো না"
 
-#: widgets/EditProfileDialog.cpp:1319
+#: widgets/EditProfileDialog.cpp:1343
 #, kde-format
 msgid ""
 "Konsole was started before desktop effects were enabled. You need to restart "
 "Konsole to see transparent background."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1706
+#: widgets/EditProfileDialog.cpp:1734
 #, kde-format
 msgid ""
 "The format is e.g. 'editorExec PATH:LINE:COLUMN'\n"
@@ -3758,7 +3764,7 @@ msgid ""
 "editor."
 msgstr ""
 
-#: widgets/EditProfileDialog.cpp:1719
+#: widgets/EditProfileDialog.cpp:1747
 #, kde-format
 msgid "Text Editor Custom Command"
 msgstr ""
@@ -3770,27 +3776,34 @@ msgid "Select the icon displayed on tabs using this profile"
 msgstr "এই প্রোফাইলটি ব্যবহার করছে এমন ট্যাবে কোন আইকন দেখানো হবে নির্বাচন ‌করুন"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:75
+#: widgets/EditProfileGeneralPage.ui:77
 #, kde-format
 msgid "A descriptive name for the profile"
 msgstr "প্রোফাইল-এর জন্য একটি বর্ণনামূলক নাম"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, profileNameEdit)
-#: widgets/EditProfileGeneralPage.ui:78
+#: widgets/EditProfileGeneralPage.ui:80
 #, fuzzy, kde-format
 #| msgid "Profile name:"
 msgctxt "@label:textbox"
 msgid "Profile name"
 msgstr "প্রোফাইল-এর নাম:"
 
+#. i18n: ectx: property (text), widget (QCheckBox, setAsDefaultButton)
+#: widgets/EditProfileGeneralPage.ui:87
+#, fuzzy, kde-format
+#| msgid "Default profile"
+msgid "Default Profile"
+msgstr "ডিফল্ট প্রোফাইল"
+
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: widgets/EditProfileGeneralPage.ui:91
+#: widgets/EditProfileGeneralPage.ui:118
 #, kde-format
 msgid "Command:"
 msgstr "কমান্ড:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:104
+#: widgets/EditProfileGeneralPage.ui:131
 #, kde-format
 msgid ""
 "The command to execute when new terminal sessions are created using this "
@@ -3799,19 +3812,19 @@ msgstr ""
 "এই প্রোফাইলটি ব্যবহার করে নতুন টার্মিনাল সেশন শুরু করা হলে যে কমান্ড-টি চালানো হবে"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, commandEdit)
-#: widgets/EditProfileGeneralPage.ui:110
+#: widgets/EditProfileGeneralPage.ui:137
 #, kde-format
 msgid "/bin/sh"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_9)
-#: widgets/EditProfileGeneralPage.ui:123
+#: widgets/EditProfileGeneralPage.ui:150
 #, kde-format
 msgid "Initial directory:"
 msgstr "প্রারম্ভিক ডিরেক্টরী:"
 
 #. i18n: ectx: property (toolTip), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:136
+#: widgets/EditProfileGeneralPage.ui:163
 #, kde-format
 msgid ""
 "The initial working directory for new terminal sessions using this profile"
@@ -3820,46 +3833,46 @@ msgstr ""
 "করা হবে"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, initialDirEdit)
-#: widgets/EditProfileGeneralPage.ui:142
+#: widgets/EditProfileGeneralPage.ui:169
 #, kde-format
 msgid "/home/username"
 msgstr ""
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, dirSelectButton)
-#: widgets/EditProfileGeneralPage.ui:149
+#: widgets/EditProfileGeneralPage.ui:176
 #, fuzzy, kde-format
 #| msgid "Browse for initial directory"
 msgid "Choose the initial directory"
 msgstr "প্রারম্ভিক ডিরেক্টরীর জন্য ব্রাউজ করো"
 
 #. i18n: ectx: property (text), widget (QCheckBox, startInSameDirButton)
-#: widgets/EditProfileGeneralPage.ui:159
+#: widgets/EditProfileGeneralPage.ui:186
 #, fuzzy, kde-format
 #| msgid "Start in same directory as current tab"
 msgid "Start in same directory as current session"
 msgstr "বর্তমান ট্যাব-এর ডিরেক্টরীতে শুরু করো"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
-#: widgets/EditProfileGeneralPage.ui:172
+#: widgets/EditProfileGeneralPage.ui:199
 #, kde-format
 msgid "Environment:"
 msgstr "পরিবেশ (এনভায়রনমেন্ট):"
 
 #. i18n: ectx: property (toolTip), widget (QPushButton, environmentEditButton)
-#: widgets/EditProfileGeneralPage.ui:190
+#: widgets/EditProfileGeneralPage.ui:217
 #, kde-format
 msgid "Edit the list of environment variables and associated values"
 msgstr "এনভায়রনমেন্ট ভেরিয়েবল-এর তালিকা সম্পাদনা করুন"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: widgets/EditProfileGeneralPage.ui:237
+#: widgets/EditProfileGeneralPage.ui:264
 #, fuzzy, kde-format
 #| msgid "Terminal size is fixed"
 msgid "Initial terminal size:"
 msgstr "টার্মিনালের আকার স্থায়ী"
 
 #. i18n: ectx: property (text), widget (QLabel, useCurrentWindowSizeNote)
-#: widgets/EditProfileGeneralPage.ui:312
+#: widgets/EditProfileGeneralPage.ui:339
 #, kde-format
 msgctxt "@info"
 msgid ""
@@ -3869,7 +3882,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, terminalBellLabel)
-#: widgets/EditProfileGeneralPage.ui:325
+#: widgets/EditProfileGeneralPage.ui:352
 #, fuzzy, kde-format
 #| msgid "Terminal emulator"
 msgid "Terminal bell mode:"
