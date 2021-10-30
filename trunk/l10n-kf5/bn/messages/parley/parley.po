@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-10-25 00:14+0000\n"
+"POT-Creation-Date: 2021-10-30 00:13+0000\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -159,17 +159,16 @@ msgstr ""
 msgid "Enable the antonym view to edit antonyms."
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/collection/vocabularymodel.cpp:281 src/editor/summarywordwidget.ui:55
+#: src/collection/vocabularymodel.cpp:281
 #, fuzzy, kde-format
 #| msgid "&Pronunciation:"
-msgid "Pronunciation"
+msgid "Pronunciation (%1)"
 msgstr "&উচ্চারণ:"
 
 #: src/collection/vocabularymodel.cpp:281
 #, fuzzy, kde-format
 #| msgid "&Pronunciation:"
-msgid "Pronunciation (%1)"
+msgid "Pronunciation"
 msgstr "&উচ্চারণ:"
 
 #: src/collection/vocabularymodel.cpp:283
@@ -209,25 +208,17 @@ msgstr "বি&পরীত শব্দ:"
 msgid "Antonym"
 msgstr "বিপরী&ত শব্দ"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/collection/vocabularymodel.cpp:289 src/editor/summarywordwidget.ui:71
-#, fuzzy, kde-format
-#| msgid "E&xample:"
-msgid "Example"
-msgstr "&উদাহরণ:"
-
 #: src/collection/vocabularymodel.cpp:289
 #, fuzzy, kde-format
 #| msgid "E&xample:"
 msgid "Example (%1)"
 msgstr "&উদাহরণ:"
 
-#. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/collection/vocabularymodel.cpp:291 src/editor/summarywordwidget.ui:103
+#: src/collection/vocabularymodel.cpp:289
 #, fuzzy, kde-format
-#| msgid "&Common"
-msgid "Comment"
-msgstr "সাধা&রণ"
+#| msgid "E&xample:"
+msgid "Example"
+msgstr "&উদাহরণ:"
 
 #: src/collection/vocabularymodel.cpp:291
 #, fuzzy, kde-format
@@ -235,16 +226,21 @@ msgstr "সাধা&রণ"
 msgid "Comment (%1)"
 msgstr "সাধা&রণ"
 
-#. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/collection/vocabularymodel.cpp:293 src/editor/summarywordwidget.ui:87
-#, kde-format
-msgid "Paraphrase"
-msgstr "অন্য কথায় প্রকাশ"
+#: src/collection/vocabularymodel.cpp:291
+#, fuzzy, kde-format
+#| msgid "&Common"
+msgid "Comment"
+msgstr "সাধা&রণ"
 
 #: src/collection/vocabularymodel.cpp:293
 #, fuzzy, kde-format
 #| msgid "Paraphrase"
 msgid "Paraphrase (%1)"
+msgstr "অন্য কথায় প্রকাশ"
+
+#: src/collection/vocabularymodel.cpp:293
+#, kde-format
+msgid "Paraphrase"
 msgstr "অন্য কথায় প্রকাশ"
 
 #: src/collection/vocabularymodel.cpp:312
@@ -611,7 +607,7 @@ msgstr "শব্দসংক্ষেপ"
 #| msgctxt "state of a row"
 #| msgid "Inactive"
 msgctxt "one of the seven cases (grammatical)"
-msgid "Nominative"
+msgid "Nominative:"
 msgstr "নিষ্ক্রিয়"
 
 #. i18n: ectx: property (text), widget (QLabel, genitivLabel)
@@ -619,7 +615,7 @@ msgstr "নিষ্ক্রিয়"
 #, fuzzy, kde-format
 #| msgid "Definite"
 msgctxt "one of the seven cases (grammatical)"
-msgid "Genitive"
+msgid "Genitive:"
 msgstr "নির্দিষ্ট"
 
 #. i18n: ectx: property (text), widget (QLabel, dativLabel)
@@ -628,7 +624,7 @@ msgstr "নির্দিষ্ট"
 #| msgctxt "state of a row"
 #| msgid "Inactive"
 msgctxt "one of the seven cases (grammatical)"
-msgid "Dative"
+msgid "Dative:"
 msgstr "নিষ্ক্রিয়"
 
 #. i18n: ectx: property (text), widget (QLabel, accusativeLabel)
@@ -636,7 +632,7 @@ msgstr "নিষ্ক্রিয়"
 #, fuzzy, kde-format
 #| msgid "Acti&ve"
 msgctxt "one of the seven cases (grammatical)"
-msgid "Accusative"
+msgid "Accusative:"
 msgstr "&সক্রিয়"
 
 #. i18n: ectx: property (text), widget (QLabel, ablativLabel)
@@ -644,7 +640,7 @@ msgstr "&সক্রিয়"
 #, fuzzy, kde-format
 #| msgid "Acti&ve"
 msgctxt "one of the seven cases (grammatical)"
-msgid "Ablative"
+msgid "Ablative:"
 msgstr "&সক্রিয়"
 
 #. i18n: ectx: property (text), widget (QLabel, locativeLabel)
@@ -652,7 +648,7 @@ msgstr "&সক্রিয়"
 #, fuzzy, kde-format
 #| msgid "Acti&ve"
 msgctxt "one of the seven cases (grammatical)"
-msgid "Locative"
+msgid "Locative:"
 msgstr "&সক্রিয়"
 
 #. i18n: ectx: property (text), widget (QLabel, vocativeLabel)
@@ -660,7 +656,7 @@ msgstr "&সক্রিয়"
 #, fuzzy, kde-format
 #| msgid "Acti&ve"
 msgctxt "one of the seven cases (grammatical)"
-msgid "Vocative"
+msgid "Vocative:"
 msgstr "&সক্রিয়"
 
 #. i18n: ectx: property (text), widget (QLabel, numberLabel)
@@ -952,7 +948,7 @@ msgstr ""
 #: src/editor/latexwidget.ui:17
 #, fuzzy, kde-format
 #| msgid "Language c&ode:"
-msgid "LaTeX code"
+msgid "LaTeX code:"
 msgstr "ভাষার কো&ড:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_2)
@@ -1115,8 +1111,36 @@ msgstr "পাঠ"
 #: src/editor/summarywordwidget.ui:42
 #, fuzzy, kde-format
 #| msgid "Word t&ype:"
-msgid "Word type"
+msgid "Word type:"
 msgstr "শব্দের &ধরন:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_3)
+#: src/editor/summarywordwidget.ui:55
+#, fuzzy, kde-format
+#| msgid "&Pronunciation:"
+msgid "Pronunciation:"
+msgstr "&উচ্চারণ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/editor/summarywordwidget.ui:71
+#, fuzzy, kde-format
+#| msgid "E&xample:"
+msgid "Example:"
+msgstr "&উদাহরণ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_5)
+#: src/editor/summarywordwidget.ui:87
+#, fuzzy, kde-format
+#| msgid "&Paraphrase:"
+msgid "Paraphrase:"
+msgstr "&অন্য কথায় প্রকাশ:"
+
+#. i18n: ectx: property (text), widget (QLabel, label_6)
+#: src/editor/summarywordwidget.ui:103
+#, fuzzy, kde-format
+#| msgid "&Common"
+msgid "Comment:"
+msgstr "সাধা&রণ"
 
 #: src/editor/synonymwidget.cpp:61
 #, fuzzy, kde-format
@@ -4706,6 +4730,11 @@ msgid ""
 msgstr ""
 
 #, fuzzy
+#~| msgid "Word t&ype:"
+#~ msgid "Word type"
+#~ msgstr "শব্দের &ধরন:"
+
+#, fuzzy
 #~| msgid "&Comparison Forms"
 #~ msgid "Comparison forms"
 #~ msgstr "তুলনার রূ&প"
@@ -5892,9 +5921,6 @@ msgstr ""
 #~ msgid "Common Properties"
 #~ msgstr "সাধারণ বৈশিষ্ট্য"
 
-#~ msgid "&Pronunciation:"
-#~ msgstr "&উচ্চারণ:"
-
 #~ msgid "&Lesson:"
 #~ msgstr "পা&ঠ:"
 
@@ -6225,9 +6251,6 @@ msgstr ""
 
 #~ msgid "Additional Properties"
 #~ msgstr "অন্যান্য বৈশিষ্ট্য"
-
-#~ msgid "&Paraphrase:"
-#~ msgstr "&অন্য কথায় প্রকাশ:"
 
 #, fuzzy
 #~| msgid "Author:"
@@ -6563,9 +6586,6 @@ msgstr ""
 #~ msgstr ""
 #~ "'%1' দিয়ে আরম্ভ হয় এরকম অনুবাদের তালিকা দেখার জন্য F5 চাপুন\n"
 #~ "'%2' দিয়ে আরম্ভ হয় এরকম অনুবাদের তালিকা দেখার জন্য F6 চাপুন"
-
-#~ msgid "Word t&ype:"
-#~ msgstr "শব্দের &ধরন:"
 
 #~ msgid "G&rade:"
 #~ msgstr "গ্রে&ড:"
