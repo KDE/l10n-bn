@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kvoctrain\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-01-06 00:40+0000\n"
+"POT-Creation-Date: 2022-03-23 00:43+0000\n"
 "PO-Revision-Date: 2006-04-21 09:38-0500\n"
 "Last-Translator: Progga <progga@BengaLinux.Org>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -297,25 +297,25 @@ msgid "Practice"
 msgstr "পদাশ্রিত নির্দেশক"
 
 #. i18n: ectx: property (text), widget (QLabel, recentLabel)
-#: src/dashboard/dashboard.cpp:229 src/dashboard/dashboard.ui:38
+#: src/dashboard/dashboard.cpp:231 src/dashboard/dashboard.ui:38
 #, fuzzy, kde-format
 msgid "Active Collections"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
 #. i18n: ectx: property (text), widget (QLabel, completedLabel)
-#: src/dashboard/dashboard.cpp:234 src/dashboard/dashboard.ui:77
+#: src/dashboard/dashboard.cpp:236 src/dashboard/dashboard.ui:77
 #, fuzzy, kde-format
 msgid "Completed Collections"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeChoiceButton)
-#: src/dashboard/dashboard.cpp:282 src/editor/multiplechoicewidget.ui:28
+#: src/dashboard/dashboard.cpp:284 src/editor/multiplechoicewidget.ui:28
 #, fuzzy, kde-format
 #| msgid "Filename:"
 msgid "Remove"
 msgstr "ফাইলের নাম:"
 
-#: src/dashboard/dashboard.cpp:282
+#: src/dashboard/dashboard.cpp:284
 #, fuzzy, kde-format
 msgid "Are you sure you want to remove this collection?"
 msgstr "আপনি কি নির্বাচিত এন্ট্রিকে মোছার ব্যাপারে নিশ্চিত?\n"
@@ -341,7 +341,7 @@ msgstr "শব্দভাণ্ডারের একটি নতুন ফা
 msgid "Open an Existing Collection..."
 msgstr "বিদ্যমান একটি শব্দভাণ্ডারের ডকুমেন্ট খোলে"
 
-#. i18n: ectx: property (text), widget (QPushButton, ghnsButton)
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, ghnsButton)
 #: src/dashboard/dashboard.ui:134
 #, fuzzy, kde-format
 #| msgid "Downloads new vocabularies"
@@ -443,7 +443,7 @@ msgstr "&পদাশ্রিত নির্দেশক"
 
 #. i18n: ectx: property (text), widget (QPushButton, makeAdjectiveButton)
 #: src/editor/comparisonwidget.ui:116 src/editor/inflectionwidget.cpp:42
-#: src/editor/wordtypeview.cpp:95 src/parleydocument.cpp:482
+#: src/editor/wordtypeview.cpp:95 src/parleydocument.cpp:477
 #, fuzzy, kde-format
 #| msgid "Acti&ve"
 msgid "Adjective"
@@ -451,7 +451,7 @@ msgstr "&সক্রিয়"
 
 #. i18n: ectx: property (text), widget (QPushButton, makeAdverbButton)
 #: src/editor/comparisonwidget.ui:123 src/editor/wordtypeview.cpp:103
-#: src/parleydocument.cpp:486
+#: src/parleydocument.cpp:481
 #, kde-format
 msgid "Adverb"
 msgstr "অব্যয়"
@@ -572,7 +572,7 @@ msgstr "বহুবচন"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/editor/declensionwidget.cpp:153 src/editor/declensionwidget.ui:185
-#: src/editor/inflectionwidget.cpp:114 src/parleydocument.cpp:468
+#: src/editor/inflectionwidget.cpp:114 src/parleydocument.cpp:463
 #, fuzzy, kde-format
 #| msgid "&Male:"
 msgid "Masculine"
@@ -580,7 +580,7 @@ msgstr "পুরু&ষ:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/editor/declensionwidget.cpp:154 src/editor/declensionwidget.ui:271
-#: src/editor/inflectionwidget.cpp:116 src/parleydocument.cpp:471
+#: src/editor/inflectionwidget.cpp:116 src/parleydocument.cpp:466
 #, fuzzy, kde-format
 #| msgid "Definite"
 msgid "Feminine"
@@ -588,7 +588,7 @@ msgstr "নির্দিষ্ট"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/editor/declensionwidget.cpp:155 src/editor/declensionwidget.ui:357
-#: src/editor/inflectionwidget.cpp:115 src/parleydocument.cpp:474
+#: src/editor/inflectionwidget.cpp:115 src/parleydocument.cpp:469
 #, fuzzy, kde-format
 #| msgid "Neu&tral:"
 msgid "Neuter"
@@ -909,14 +909,14 @@ msgid "&Reset Confidence Levels"
 msgstr ""
 
 #: src/editor/inflectionwidget.cpp:32 src/editor/wordtypeview.cpp:111
-#: src/parleydocument.cpp:478
+#: src/parleydocument.cpp:473
 #, fuzzy, kde-format
 #| msgid "Verb"
 msgid "Verb"
 msgstr "ক্রিয়াপদ"
 
 #: src/editor/inflectionwidget.cpp:37 src/editor/wordtypeview.cpp:63
-#: src/parleydocument.cpp:464
+#: src/parleydocument.cpp:459
 #, kde-format
 msgid "Noun"
 msgstr "নামপদ"
@@ -1410,7 +1410,7 @@ msgstr ""
 msgid "This word type folder contains verbs."
 msgstr ""
 
-#: src/editor/wordtypeview.cpp:119 src/parleydocument.cpp:490
+#: src/editor/wordtypeview.cpp:119 src/parleydocument.cpp:485
 #, fuzzy, kde-format
 #| msgid "Conjugation"
 msgid "Conjunction"
@@ -1473,7 +1473,7 @@ msgstr "পড়তে পারে নি "
 msgid "Export As"
 msgstr ""
 
-#: src/exportdialog.cpp:120 src/parleymainwindow.cpp:135
+#: src/exportdialog.cpp:120 src/parleymainwindow.cpp:136
 #, fuzzy, kde-format
 msgid "Untitled"
 msgstr "শিরোনাম"
@@ -1833,38 +1833,26 @@ msgstr "বুদ্ধিমান অনুসন্ধান"
 msgid "Toggle display of the search bar"
 msgstr "টুলবার প্রদর্শন করার মোড পাল্টাও"
 
-#: src/parleyactions.cpp:244
-#, fuzzy, kde-format
-#| msgid "Downloads new vocabularies"
-msgid "Download New Vocabularies..."
-msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
-
-#: src/parleyactions.cpp:250
-#, fuzzy, kde-format
-#| msgid "Downloads new vocabularies"
-msgid "Downloads new vocabulary collections"
-msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
-
-#: src/parleydocument.cpp:126 src/parleydocument.cpp:580
+#: src/parleydocument.cpp:121 src/parleydocument.cpp:568
 #, fuzzy, kde-format
 #| msgid "Edit Properties for Original"
 msgctxt "@title:window document properties"
 msgid "Properties for %1"
 msgstr "মূলশব্দের বৈশিষ্ট্য সম্পাদন করো"
 
-#: src/parleydocument.cpp:163
+#: src/parleydocument.cpp:158
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Open Vocabulary Collection"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
-#: src/parleydocument.cpp:164
+#: src/parleydocument.cpp:159
 #, fuzzy, kde-format
 #| msgid "&Articles"
 msgid "Open in practice &mode"
 msgstr "&পদাশ্রিত নির্দেশক"
 
-#: src/parleydocument.cpp:205
+#: src/parleydocument.cpp:200
 #, kde-format
 msgid ""
 "The vocabulary collection is locked by another process.  You can open the "
@@ -1874,23 +1862,23 @@ msgid ""
 "Do you want to take over the lock?\n"
 msgstr ""
 
-#: src/parleydocument.cpp:207
+#: src/parleydocument.cpp:202
 #, kde-format
 msgid "Take Over Lock"
 msgstr ""
 
-#: src/parleydocument.cpp:236
+#: src/parleydocument.cpp:231
 #, kde-format
 msgid "Opening collection \"%1\" resulted in an error: %2"
 msgstr ""
 
-#: src/parleydocument.cpp:237
+#: src/parleydocument.cpp:232
 #, fuzzy, kde-format
 msgctxt "@title:window"
 msgid "Open Collection"
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
-#: src/parleydocument.cpp:265
+#: src/parleydocument.cpp:260
 #, kde-format
 msgid ""
 "Vocabulary is modified.\n"
@@ -1901,14 +1889,14 @@ msgstr ""
 "\n"
 "প্রস্থানের পূর্বে ফাইল সংরক্ষণ করা হবে কি?\n"
 
-#: src/parleydocument.cpp:298
+#: src/parleydocument.cpp:293
 #, fuzzy, kde-format
 #| msgid "Downloads new vocabularies"
 msgctxt "@title:window"
 msgid "Open Downloaded Vocabulary Collection"
 msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
 
-#: src/parleydocument.cpp:336 src/parleydocument.cpp:421
+#: src/parleydocument.cpp:331 src/parleydocument.cpp:416
 #, kde-format
 msgid ""
 "File \"%1\" is locked by another process.  You can save to the file if you "
@@ -1917,25 +1905,25 @@ msgid ""
 "Do you want to take over the lock?\n"
 msgstr ""
 
-#: src/parleydocument.cpp:365 src/parleydocument.cpp:455
+#: src/parleydocument.cpp:360 src/parleydocument.cpp:450
 #, kde-format
 msgid "Writing file \"%1\" resulted in an error: %2"
 msgstr ""
 
-#: src/parleydocument.cpp:366 src/parleydocument.cpp:456
+#: src/parleydocument.cpp:361 src/parleydocument.cpp:451
 #, kde-format
 msgctxt "@title:window"
 msgid "Save File"
 msgstr ""
 
-#: src/parleydocument.cpp:381
+#: src/parleydocument.cpp:376
 #, fuzzy, kde-format
 #| msgid "Save Vocabulary As"
 msgctxt "@title:window"
 msgid "Save Vocabulary As"
 msgstr "শব্দভাণ্ডারকে এই নামে সংরক্ষণ করো"
 
-#: src/parleydocument.cpp:393
+#: src/parleydocument.cpp:388
 #, fuzzy, kde-format
 #| msgid ""
 #| "<qt>The file<br><b>%1</b><br>already exists. Do you want to overwrite it?"
@@ -1946,7 +1934,7 @@ msgstr ""
 "<qt><b>%1</b> নামক ফাইলটি পূর্ব থেকেই আছে।  <br>আপনি কি এটির ওপর দিয়েই লিখতে "
 "চান?</qt>"
 
-#: src/parleydocument.cpp:401
+#: src/parleydocument.cpp:396
 #, fuzzy, kde-format
 #| msgid "Saving %1"
 msgctxt "@info:status saving a file"
@@ -1954,7 +1942,7 @@ msgid "Saving %1"
 msgstr "%1-কে সংরক্ষণ করা হচ্ছে"
 
 #. i18n: ectx: property (text), item, widget (KComboBox, licenseComboBox)
-#: src/parleydocument.cpp:502 src/settings/documentproperties.ui:234
+#: src/parleydocument.cpp:497 src/settings/documentproperties.ui:234
 #, kde-format
 msgid "Public Domain"
 msgstr ""
@@ -1962,30 +1950,30 @@ msgstr ""
 #. i18n: ectx: property (text), item, widget (KComboBox, categoryComboBox)
 #. i18n: ectx: property (title), widget (QGroupBox, languageGroupBox)
 #. i18n: ectx: property (title), widget (QGroupBox, groupBoxLanguages)
-#: src/parleydocument.cpp:503 src/settings/documentproperties.ui:180
+#: src/parleydocument.cpp:498 src/settings/documentproperties.ui:180
 #: src/settings/documentproperties.ui:250
 #: src/statistics/statisticsmainwindow.ui:23
 #, kde-format
 msgid "Languages"
 msgstr "ভাষা"
 
-#: src/parleydocument.cpp:511
+#: src/parleydocument.cpp:506
 #, fuzzy, kde-format
 #| msgid "&Append Language"
 msgid "A Second Language"
 msgstr "ভাষা যো&গ করো"
 
-#: src/parleydocument.cpp:514
+#: src/parleydocument.cpp:509
 #, fuzzy, kde-format
 msgid "Lesson 1"
 msgstr "পাঠ তৈরি করে"
 
-#: src/parleydocument.cpp:563
+#: src/parleydocument.cpp:551
 #, fuzzy, kde-format
 msgid "Could not open vocabulary collection \"%1\""
 msgstr "শব্দভাণ্ডারের ফাইল খোলো"
 
-#: src/parleymainwindow.cpp:132
+#: src/parleymainwindow.cpp:133
 #, kde-format
 msgctxt ""
 "Title and a modified status indicator.  [*] is exact and will be shown only "
@@ -1993,18 +1981,30 @@ msgctxt ""
 msgid "%1 [*]"
 msgstr ""
 
-#: src/parleymainwindow.cpp:172
+#: src/parleymainwindow.cpp:173
 #, kde-format
 msgid ""
 "You cannot start to practice when the known language is the same as the "
 "language to learn."
 msgstr ""
 
-#: src/parleymainwindow.cpp:172
+#: src/parleymainwindow.cpp:173
 #, fuzzy, kde-format
 #| msgid "Languages"
 msgid "Select languages"
 msgstr "ভাষা"
+
+#: src/parleymainwindow.cpp:211
+#, fuzzy, kde-format
+#| msgid "Downloads new vocabularies"
+msgid "Download New Vocabularies..."
+msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
+
+#: src/parleymainwindow.cpp:217
+#, fuzzy, kde-format
+#| msgid "Downloads new vocabularies"
+msgid "Downloads new vocabulary collections"
+msgstr "নতুন শব্দভাণ্ডার ডাউনলোড করো"
 
 #. i18n: ectx: ToolBar (mainToolBar)
 #: src/parleyui.rc:21
@@ -3483,7 +3483,7 @@ msgstr "মেয়া&দ"
 msgid "&Append new rows automatically when editing"
 msgstr ""
 
-#. i18n: ectx: property (text), widget (QPushButton, getNewButton)
+#. i18n: ectx: property (text), widget (KNSWidgets::Button, getNewButton)
 #: src/settings/kgametheme/kgamethemeselector.ui:40
 #, kde-format
 msgid "&Get New Themes..."
