@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kwin\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2022-04-14 00:46+0000\n"
+"POT-Creation-Date: 2022-05-06 00:47+0000\n"
 "PO-Revision-Date: 2010-06-01 10:25-0700\n"
 "Last-Translator: Deepayan Sarkar <deepayan.sarkar@gmail.com>\n"
 "Language-Team: Bengali <kde-translation@bengalinux.org>\n"
@@ -63,7 +63,8 @@ msgstr "ডেস্কটপ গ্রিড দেখাও"
 #: presentwindows/presentwindows_config.cpp:50
 #: showpaint/showpaint_config.cpp:33
 #: thumbnailaside/thumbnailaside_config.cpp:56
-#: trackmouse/trackmouse_config.cpp:52 zoom/zoom_config.cpp:58
+#: trackmouse/trackmouse_config.cpp:52
+#: windowview/kcm/windowvieweffectkcm.cpp:35 zoom/zoom_config.cpp:58
 #, kde-format
 msgid "KWin"
 msgstr "কে-উইন"
@@ -285,15 +286,12 @@ msgstr "উইণ্ডো বন্ধ করো"
 
 #. i18n: ectx: property (text), widget (QLabel, label_Duration)
 #: glide/glide_config.ui:19 scale/package/contents/ui/config.ui:17
-#: slide/slide_config.ui:19
 #, fuzzy, kde-format
 msgid "Duration:"
 msgstr "ন্যাভিগেশন"
 
-#. i18n: Duration of the slide animation.
 #. i18n: ectx: property (specialValueText), widget (QSpinBox, kcfg_Duration)
 #: glide/glide_config.ui:32 scale/package/contents/ui/config.ui:30
-#: slide/slide_config.ui:32
 #, fuzzy, kde-format
 #| msgctxt "Duration of rotation"
 #| msgid "Default"
@@ -302,7 +300,6 @@ msgstr "ডিফল্ট"
 
 #. i18n: ectx: property (suffix), widget (QSpinBox, kcfg_Duration)
 #: glide/glide_config.ui:35 scale/package/contents/ui/config.ui:33
-#: slide/slide_config.ui:35
 #, fuzzy, kde-format
 #| msgid " millisecond"
 #| msgid_plural " milliseconds"
@@ -600,12 +597,14 @@ msgstr ""
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: overview/kcm/overvieweffectkcm.ui:22
 #: presentwindows/presentwindows_config.ui:393
+#: windowview/kcm/windowvieweffectkcm.ui:22
 #, kde-format
 msgid "Layout mode:"
 msgstr "লে-আউট মোড:"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: overview/kcm/overvieweffectkcm.ui:30
+#: windowview/kcm/windowvieweffectkcm.ui:30
 #, fuzzy, kde-format
 #| msgid "Close"
 msgid "Closest"
@@ -614,6 +613,7 @@ msgstr "বন্ধ করো"
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_LayoutMode)
 #: overview/kcm/overvieweffectkcm.ui:35
 #: presentwindows/presentwindows_config.ui:441
+#: windowview/kcm/windowvieweffectkcm.ui:35
 #, kde-format
 msgid "Natural"
 msgstr "স্বাভাবিক"
@@ -642,20 +642,20 @@ msgstr "ডেস্কটপ"
 msgid "Search..."
 msgstr ""
 
-#: presentwindows/presentwindows.cpp:71
-#: presentwindows/presentwindows_config.cpp:61
-#, kde-format
-msgid "Toggle Present Windows (Current desktop)"
-msgstr ""
-
-#: presentwindows/presentwindows.cpp:80
 #: presentwindows/presentwindows_config.cpp:55
+#: windowview/kcm/windowvieweffectkcm.cpp:48 windowview/windowvieweffect.cpp:71
 #, kde-format
 msgid "Toggle Present Windows (All desktops)"
 msgstr ""
 
-#: presentwindows/presentwindows.cpp:98
+#: presentwindows/presentwindows_config.cpp:61
+#: windowview/kcm/windowvieweffectkcm.cpp:41 windowview/windowvieweffect.cpp:56
+#, kde-format
+msgid "Toggle Present Windows (Current desktop)"
+msgstr ""
+
 #: presentwindows/presentwindows_config.cpp:67
+#: windowview/kcm/windowvieweffectkcm.cpp:55 windowview/windowvieweffect.cpp:86
 #, kde-format
 msgid "Toggle Present Windows (Window class)"
 msgstr ""
@@ -861,7 +861,7 @@ msgstr "নমনীয় গ্রিড"
 msgid "Provide buttons to close the windows"
 msgstr ""
 
-#: private/qml/WindowHeap.qml:141
+#: private/qml/WindowHeap.qml:166
 #, kde-format
 msgid "Drag Down To Close"
 msgstr ""
@@ -1017,31 +1017,31 @@ msgid "Toggle Show Paint"
 msgstr "প্যানে&ল দেখাও"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox_Gaps)
-#: slide/slide_config.ui:50
+#: slide/slide_config.ui:17
 #, kde-format
 msgid "Gap between desktops"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_HorizontalGap)
-#: slide/slide_config.ui:56
+#: slide/slide_config.ui:23
 #, kde-format
 msgid "Horizontal:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_VerticalGap)
-#: slide/slide_config.ui:79
+#: slide/slide_config.ui:46
 #, kde-format
 msgid "Vertical:"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlideDocks)
-#: slide/slide_config.ui:105
+#: slide/slide_config.ui:72
 #, kde-format
 msgid "Slide docks"
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_SlideBackground)
-#: slide/slide_config.ui:112
+#: slide/slide_config.ui:79
 #, fuzzy, kde-format
 msgid "Slide desktop background"
 msgstr "Wobble যখন চলন্ত (&b)"
@@ -1214,6 +1214,17 @@ msgstr "পপ-আপ মেনু:"
 #, kde-format
 msgid "Torn-off menus:"
 msgstr "আলাদা করা মেনু:"
+
+#: windowview/qml/main.qml:130
+#, kde-format
+msgid "No Matches"
+msgstr ""
+
+#: windowview/qml/main.qml:130
+#, fuzzy, kde-format
+#| msgid "Windows"
+msgid "No Windows"
+msgstr "উইণ্ডো"
 
 #. i18n: ectx: property (title), widget (QGroupBox, advancedGroup)
 #: wobblywindows/wobblywindows_config.ui:20
